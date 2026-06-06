@@ -1,0 +1,10 @@
+name = "hematok-rec-api"
+main = "src/index.ts"
+compatibility_date = "2026-06-01"
+# account_id comes from the CLOUDFLARE_ACCOUNT_ID env var (see ../.env); not hardcoded.
+workers_dev = true
+
+# Semantic recommendation index (created via prep/build_embeddings.py)
+[[vectorize]]
+binding = "VEC"
+index_name = "hematok-rec"

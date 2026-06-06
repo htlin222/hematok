@@ -1,0 +1,34 @@
+# ── secrets / domain-specific config — never commit (see *.example) ──
+.env
+.env.local
+.env.production
+.cf-deploy-token
+
+# ── wrangler local state / logs ──
+.wrangler/
+wrangler-*.log
+
+# ── dependencies & build output ──
+node_modules/
+dist/
+dist-ssr/
+
+# ── OS / editor ──
+.DS_Store
+*.local
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+
+# ── logs ──
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ── data (the ~1.3 GB image tree lives outside this repo, in ~/ash-image-bank/data) ──
+# nothing to ignore here, but don't accidentally copy it in:
+data/
+mock-data/
+prep/embeddings.ndjson
