@@ -1,10 +1,12 @@
 import { useEffect, useRef, useCallback, useState } from "react";
 import { HematokCard } from "./components/HematokCard";
+import { DetailsSheet } from "./components/DetailsSheet";
 import { Loader2, Search, X, Download } from "lucide-react";
 import { Analytics } from "@vercel/analytics/react";
 import { useLikedArticles } from "./contexts/LikedArticlesContext";
 import { useFeed } from "./hooks/useFeed";
 import { imgUrl } from "./types/feed";
+import type { FeedItem } from "./types/feed";
 
 function App() {
   const [showAbout, setShowAbout] = useState(false);
@@ -14,6 +16,9 @@ function App() {
   const observerTarget = useRef(null);
   const scrollerRef = useRef<HTMLDivElement>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [detailsItem, setDetailsItem] = useState<FeedItem | null>(null);
+  const itemsRef = useRef<FeedItem[]>(items);
+  itemsRef.current = items;
 
   const handleObserver = useCallback(
     (entries: IntersectionObserverEntry[]) => {
@@ -47,10 +52,28 @@ function App() {
   // modals (zoom / details sheet) alone.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.code !== "Space" && e.key !== " ") return;
       const el = document.activeElement as HTMLElement | null;
       const tag = el?.tagName;
       if (tag === "INPUT" || tag === "TEXTAREA" || el?.isContentEditable) return;
+
+      // "i" opens the details/info sheet for the card currently centered in view.
+      if (e.key === "i" || e.key === "I") {
+        if (document.querySelector("[data-modal]")) return; // already open
+        const card = document
+          .elementFromPoint(window.innerWidth / 2, window.innerHeight / 2)
+          ?.closest("[data-feed-id]");
+        const id = card?.getAttribute("data-feed-id");
+        const item = id ? itemsRef.current.find((x) => x.id === id) : undefined;
+        if (item) {
+          e.preventDefault();
+          setDetailsItem(item);
+        }
+        return;
+      }
+
+      // Space scrolls the feed (Shift+Space = up) rather than re-triggering the
+      // button that last had focus (e.g. the ⓘ Details button).
+      if (e.code !== "Space" && e.key !== " ") return;
       if (document.querySelector("[data-modal]")) return; // a dialog is open
       e.preventDefault();
       if (tag === "BUTTON") el?.blur(); // stop the button activating on keyup
@@ -238,7 +261,7 @@ function App() {
       )}
 
       {items.map((item, index) => (
-        <HematokCard key={`${item.id}-${index}`} item={item} />
+        <HematokCard key={`${item.id}-${index}`} item={item} onOpenDetails={setDetailsItem} />
       ))}
       <div ref={observerTarget} className="h-10 -mt-1" />
       {loading && (
@@ -246,6 +269,10 @@ function App() {
           <Loader2 className="h-6 w-6 animate-spin" />
           <span>Loading...</span>
         </div>
+      )}
+
+      {detailsItem && (
+        <DetailsSheet item={detailsItem} onClose={() => setDetailsItem(null)} />
       )}
       <Analytics />
     </div>

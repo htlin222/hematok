@@ -4,19 +4,18 @@ import { useLikedArticles } from "../contexts/LikedArticlesContext";
 import type { FeedItem } from "../types/feed";
 import { imgUrl } from "../types/feed";
 import { ZoomViewer } from "./ZoomViewer";
-import { DetailsSheet } from "./DetailsSheet";
 
 interface HematokCardProps {
     item: FeedItem;
+    onOpenDetails: (item: FeedItem) => void;
 }
 
-export function HematokCard({ item }: HematokCardProps) {
+export function HematokCard({ item, onOpenDetails }: HematokCardProps) {
     const { toggleLike, isLiked } = useLikedArticles();
     const [idx, setIdx] = useState(0);
     const [loaded, setLoaded] = useState(false);
     const [chrome, setChrome] = useState(true); // overlay + controls visible
     const [zoom, setZoom] = useState(false);
-    const [details, setDetails] = useState(false);
     const clickTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
     const multi = item.images.length > 1;
@@ -144,7 +143,7 @@ export function HematokCard({ item }: HematokCardProps) {
                                 </h2>
                                 {item.description && (
                                     <button
-                                        onClick={() => setDetails(true)}
+                                        onClick={() => onOpenDetails(item)}
                                         className="mt-1 inline-flex items-center gap-1 text-xs font-medium text-cyan-300 hover:text-cyan-200"
                                     >
                                         <BookOpen className="w-3.5 h-3.5" />
@@ -154,7 +153,7 @@ export function HematokCard({ item }: HematokCardProps) {
                             </div>
                             <div className="flex gap-1.5 shrink-0">
                                 <button
-                                    onClick={() => setDetails(true)}
+                                    onClick={() => onOpenDetails(item)}
                                     className="p-2 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors"
                                     aria-label="Details"
                                 >
@@ -192,7 +191,6 @@ export function HematokCard({ item }: HematokCardProps) {
                     onIndexChange={(i) => { setLoaded(false); setIdx(i); }}
                 />
             )}
-            {details && <DetailsSheet item={item} onClose={() => setDetails(false)} />}
         </div>
     );
 }
