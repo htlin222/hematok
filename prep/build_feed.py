@@ -64,6 +64,40 @@ def _looks_like_junk(text: str) -> bool:
     return any(m.lower() in text.lower() for m in _JUNK_MARKERS)
 
 
+def _clean_description(text: str) -> str:
+    """Strip Word/Office paste gunk and citation-manager field codes that leak
+    into descriptions (MS Word CSS, Zotero/EndNote ADDIN ... {JSON} fields)."""
+    if not text:
+        return ""
+    # Remove balanced {…} blocks — Word CSS / citation JSON; never legit in prose.
+    out: list[str] = []
+    depth = 0
+    for ch in text:
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            if depth > 0:
+                depth -= 1
+                continue
+        if depth == 0:
+            out.append(ch)
+    text = "".join(out)
+    # Leftover field-code / Word style tokens.
+    text = re.sub(r"(?s)/\*.*?\*/", " ", text)  # /* Style Definitions */
+    text = re.sub(
+        r"\b(ADDIN|CSL_CITATION|CSL_BIBLIOGRAPHY|ZOTERO_ITEM|ZOTERO_BIBL|"
+        r"EN\.CITE|EN\.REFLIST|MERGEFORMAT|nosupersub|supersub)\b",
+        " ", text)
+    text = re.sub(r"\bmso-[\w-]+[^;\n]*;?", " ", text)  # mso-* CSS props
+    text = re.sub(r"\b(Mso[A-Za-z]+|panose-\d|@font-face|@page)\b", " ", text)
+    # Tidy whitespace / dangling space before punctuation.
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r" *\n *", "\n", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    text = re.sub(r"\s+([,.;:)])", r"\1", text)
+    return text.strip()
+
+
 def _refcase_desc(html_text: str) -> str:
     """Reference-case clinical write-up: <div class="RefCaseDesc">…</div>."""
     i = html_text.find('<div class="RefCaseDesc">')
@@ -121,8 +155,11 @@ def extract_description(data_dir: Path, rec: dict) -> str:
     if not p.exists():
         return ""
     t = p.read_text(encoding="utf-8", errors="ignore")
-    desc = _refcase_desc(t) or _collection_desc(t, rec["id"])
-    if not desc or _looks_like_junk(desc):
+    # Drop Word/Office gunk elements wholesale — their content must never reach text.
+    t = re.sub(r"(?is)<(style|script|xml)\b.*?</\1>", " ", t)
+    t = re.sub(r"(?s)<!--.*?-->", " ", t)
+    desc = _clean_description(_refcase_desc(t) or _collection_desc(t, rec["id"]))
+    if not desc or len(desc) < 20 or _looks_like_junk(desc):
         return ""
     return desc
 

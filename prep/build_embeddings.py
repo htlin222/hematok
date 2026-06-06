@@ -46,11 +46,19 @@ def account_id() -> str:
 
 
 def token() -> str:
+    # Prefer the wrangler OAuth login — it has broad perms (Workers AI + Vectorize).
+    # A purpose-scoped CLOUDFLARE_API_TOKEN (e.g. DNS-only) would 401 on AI calls,
+    # so only fall back to it when there's no wrangler login (headless / CI).
+    cfg_path = os.path.expanduser("~/Library/Preferences/.wrangler/config/default.toml")
+    if os.path.exists(cfg_path):
+        try:
+            return tomllib.load(open(cfg_path, "rb"))["oauth_token"]
+        except Exception:  # noqa: BLE001
+            pass
     t = os.environ.get("CLOUDFLARE_API_TOKEN")
     if t:
         return t
-    cfg = tomllib.load(open(os.path.expanduser("~/Library/Preferences/.wrangler/config/default.toml"), "rb"))
-    return cfg["oauth_token"]
+    sys.exit("no Cloudflare auth: run `wrangler login`, or set a CLOUDFLARE_API_TOKEN with Workers AI + Vectorize perms")
 
 
 def api(method: str, path: str, body=None, ndjson: str | None = None, tok: str = "") -> dict:
