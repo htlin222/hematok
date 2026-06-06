@@ -12,6 +12,7 @@ function App() {
   const { items, loading, fetchArticles } = useFeed();
   const { likedArticles, toggleLike } = useLikedArticles();
   const observerTarget = useRef(null);
+  const scrollerRef = useRef<HTMLDivElement>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
   const handleObserver = useCallback(
@@ -39,6 +40,25 @@ function App() {
 
   useEffect(() => {
     fetchArticles();
+  }, []);
+
+  // Space should scroll the feed (like a normal page), not re-trigger whatever
+  // button last had focus (e.g. the ⓘ Details button). Leave inputs and open
+  // modals (zoom / details sheet) alone.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.code !== "Space" && e.key !== " ") return;
+      const el = document.activeElement as HTMLElement | null;
+      const tag = el?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA" || el?.isContentEditable) return;
+      if (document.querySelector("[data-modal]")) return; // a dialog is open
+      e.preventDefault();
+      if (tag === "BUTTON") el?.blur(); // stop the button activating on keyup
+      const dir = e.shiftKey ? -1 : 1;
+      scrollerRef.current?.scrollBy({ top: dir * window.innerHeight, behavior: "smooth" });
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
   }, []);
 
   const filteredLikedArticles = likedArticles.filter((item) => {
@@ -73,7 +93,7 @@ function App() {
   };
 
   return (
-    <div className="h-screen w-full bg-black text-white overflow-y-scroll snap-y snap-mandatory hide-scroll">
+    <div ref={scrollerRef} className="h-screen w-full bg-black text-white overflow-y-scroll snap-y snap-mandatory hide-scroll">
       <div className="fixed top-4 left-4 z-50">
         <button
           onClick={() => window.location.reload()}

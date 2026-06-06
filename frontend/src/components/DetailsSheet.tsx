@@ -16,7 +16,7 @@ export function DetailsSheet({ item, onClose }: DetailsSheetProps) {
     }, [onClose]);
 
     return (
-        <div className="fixed inset-0 z-[90] flex items-end sm:items-center justify-center">
+        <div data-modal="details" className="fixed inset-0 z-[90] flex items-end sm:items-center justify-center">
             <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={onClose} />
             <div className="relative z-10 w-full sm:max-w-2xl max-h-[88vh] overflow-y-auto bg-gray-900 text-white rounded-t-2xl sm:rounded-2xl p-5 sm:p-7 pb-8">
                 <button

@@ -35,7 +35,7 @@ export function ZoomViewer({ images, index, alt, onClose, onIndexChange }: ZoomV
     }, [index, images.length, multi, onClose, onIndexChange]);
 
     return (
-        <div className="fixed inset-0 z-[100] bg-black flex items-center justify-center touch-none">
+        <div data-modal="zoom" className="fixed inset-0 z-[100] bg-black flex items-center justify-center touch-none">
             <button
                 onClick={onClose}
                 className="absolute top-4 right-4 z-20 p-2 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors"
