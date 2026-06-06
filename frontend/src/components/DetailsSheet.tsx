@@ -18,7 +18,7 @@ export function DetailsSheet({ item, onClose }: DetailsSheetProps) {
     return (
         <div className="fixed inset-0 z-[90] flex items-end sm:items-center justify-center">
             <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={onClose} />
-            <div className="relative z-10 w-full sm:max-w-lg max-h-[85vh] overflow-y-auto bg-gray-900 text-white rounded-t-2xl sm:rounded-2xl p-5 pb-8">
+            <div className="relative z-10 w-full sm:max-w-2xl max-h-[88vh] overflow-y-auto bg-gray-900 text-white rounded-t-2xl sm:rounded-2xl p-5 sm:p-7 pb-8">
                 <button
                     onClick={onClose}
                     className="absolute top-3 right-3 p-1.5 rounded-full text-white/60 hover:text-white hover:bg-white/10 transition-colors"
