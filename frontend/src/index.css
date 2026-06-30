@@ -3,6 +3,16 @@
 html, body {
   overscroll-behavior-y: contain;
   overflow: hidden;
+  /* Fill the iOS status-bar / safe-area region with black so it blends with
+     the app's dark feed instead of showing the browser's default white bar.
+     Paired with viewport-fit=cover + theme-color in index.html. */
+  background-color: #000;
+}
+
+/* Keep the fixed header controls clear of the notch / status bar when the
+   content draws into the top safe area (viewport-fit=cover). */
+.safe-top {
+  padding-top: env(safe-area-inset-top);
 }
 
 .hide-scroll::-webkit-scrollbar {
