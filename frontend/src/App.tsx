@@ -117,29 +117,34 @@ function App() {
 
   return (
     <div ref={scrollerRef} className="h-screen w-full bg-black text-white overflow-y-scroll snap-y snap-mandatory hide-scroll">
-      <div className="fixed top-[calc(1rem+env(safe-area-inset-top))] left-4 z-50">
-        <button
-          onClick={() => window.location.reload()}
-          className="text-2xl font-bold text-white drop-shadow-lg hover:opacity-80 transition-opacity"
-        >
-          Hematok
-        </button>
-      </div>
+      {/* Single header row: brand on the left, nav on the right. The bar and
+          its gradient are decorative (pointer-events-none) so taps still reach
+          the feed; only the buttons capture clicks. */}
+      <header className="fixed inset-x-0 top-0 z-50 pt-[env(safe-area-inset-top)] bg-gradient-to-b from-black/70 via-black/25 to-transparent pointer-events-none">
+        <div className="flex items-center justify-between px-4 py-3">
+          <button
+            onClick={() => window.location.reload()}
+            className="pointer-events-auto text-2xl font-bold text-white drop-shadow-lg hover:opacity-80 transition-opacity"
+          >
+            Hematok
+          </button>
 
-      <div className="fixed top-[calc(1rem+env(safe-area-inset-top))] right-4 z-50 flex flex-col items-end gap-2">
-        <button
-          onClick={() => setShowAbout(!showAbout)}
-          className="text-sm text-white/70 hover:text-white transition-colors"
-        >
-          About
-        </button>
-        <button
-          onClick={() => setShowLikes(!showLikes)}
-          className="text-sm text-white/70 hover:text-white transition-colors"
-        >
-          Likes
-        </button>
-      </div>
+          <nav className="pointer-events-auto flex items-center gap-1">
+            <button
+              onClick={() => setShowAbout(!showAbout)}
+              className="text-sm text-white/80 hover:text-white transition-colors px-3 py-1.5 rounded-full hover:bg-white/10"
+            >
+              About
+            </button>
+            <button
+              onClick={() => setShowLikes(!showLikes)}
+              className="text-sm text-white/80 hover:text-white transition-colors px-3 py-1.5 rounded-full hover:bg-white/10"
+            >
+              Likes
+            </button>
+          </nav>
+        </div>
+      </header>
 
       {showAbout && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
