@@ -23,3 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+
+# Local smoke-test / mock artifacts (regenerate locally; must NOT ship in a prod build)
+public/img/
+public/feed.mock.json
+.env.development
