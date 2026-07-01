@@ -1,4 +1,4 @@
-import { Share2, Heart, Info, Maximize2, ChevronLeft, ChevronRight, BookOpen } from "lucide-react";
+import { Share2, Heart, ThumbsDown, Maximize2, ChevronLeft, ChevronRight } from "lucide-react";
 import { useRef, useState } from "react";
 import { useLikedArticles } from "../contexts/LikedArticlesContext";
 import type { FeedItem } from "../types/feed";
@@ -11,7 +11,7 @@ interface HematokCardProps {
 }
 
 export function HematokCard({ item, onOpenDetails }: HematokCardProps) {
-    const { toggleLike, isLiked } = useLikedArticles();
+    const { toggleLike, isLiked, toggleDislike, isDisliked } = useLikedArticles();
     const [idx, setIdx] = useState(0);
     const [loaded, setLoaded] = useState(false);
     const [chrome, setChrome] = useState(true); // overlay + controls visible
@@ -138,27 +138,18 @@ export function HematokCard({ item, onOpenDetails }: HematokCardProps) {
                         </span>
                         <div className="flex justify-between items-end gap-3">
                             <div className="min-w-0">
-                                <h2 className="text-base sm:text-lg font-bold drop-shadow leading-snug line-clamp-2">
-                                    {item.title}
-                                </h2>
-                                {item.description && (
-                                    <button
-                                        onClick={() => onOpenDetails(item)}
-                                        className="mt-1 inline-flex items-center gap-1 text-xs font-medium text-cyan-300 hover:text-cyan-200"
-                                    >
-                                        <BookOpen className="w-3.5 h-3.5" />
-                                        {item.collection === "reference-cases" ? "Read full case" : "Read description"}
-                                    </button>
-                                )}
-                            </div>
-                            <div className="flex gap-1.5 shrink-0">
+                                {/* Tapping the title opens the full details sheet. */}
                                 <button
                                     onClick={() => onOpenDetails(item)}
-                                    className="p-2 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors"
-                                    aria-label="Details"
+                                    className="block text-left w-full"
+                                    aria-label="Show details"
                                 >
-                                    <Info className="w-5 h-5" />
+                                    <h2 className="text-base sm:text-lg font-bold drop-shadow leading-snug max-h-[40vh] overflow-y-auto hide-scroll overscroll-contain">
+                                        {item.title}
+                                    </h2>
                                 </button>
+                            </div>
+                            <div className="flex gap-1.5 shrink-0">
                                 <button
                                     onClick={() => toggleLike(item)}
                                     className={`p-2 rounded-full backdrop-blur-sm transition-colors ${isLiked(item.id)
@@ -168,6 +159,16 @@ export function HematokCard({ item, onOpenDetails }: HematokCardProps) {
                                     aria-label="Like image"
                                 >
                                     <Heart className={`w-5 h-5 ${isLiked(item.id) ? "fill-white" : ""}`} />
+                                </button>
+                                <button
+                                    onClick={() => toggleDislike(item)}
+                                    className={`p-2 rounded-full backdrop-blur-sm transition-colors ${isDisliked(item.id)
+                                        ? "bg-white text-black hover:bg-white/90"
+                                        : "bg-white/10 hover:bg-white/20"
+                                        }`}
+                                    aria-label="Dislike image"
+                                >
+                                    <ThumbsDown className={`w-5 h-5 ${isDisliked(item.id) ? "fill-black" : ""}`} />
                                 </button>
                                 <button
                                     onClick={handleShare}
