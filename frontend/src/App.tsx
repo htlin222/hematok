@@ -1,9 +1,10 @@
 import { useEffect, useRef, useCallback, useState } from "react";
 import { HematokCard } from "./components/HematokCard";
 import { DetailsSheet } from "./components/DetailsSheet";
-import { Loader2, Search, X, Download } from "lucide-react";
+import { Loader2, Search, X, Download, LogIn, LogOut } from "lucide-react";
 import { Analytics } from "@vercel/analytics/react";
 import { useLikedArticles } from "./contexts/LikedArticlesContext";
+import { useAuth } from "./contexts/AuthContext";
 import { useFeed } from "./hooks/useFeed";
 import { imgUrl } from "./types/feed";
 import type { FeedItem } from "./types/feed";
@@ -12,7 +13,12 @@ function App() {
   const [showAbout, setShowAbout] = useState(false);
   const [showLikes, setShowLikes] = useState(false);
   const { items, loading, fetchArticles } = useFeed();
-  const { likedArticles, toggleLike } = useLikedArticles();
+  const { likedArticles, toggleLike, markRead, synced } = useLikedArticles();
+  const { ready, email, signIn, signOut } = useAuth();
+  const [showLogin, setShowLogin] = useState(false);
+  const [tokenInput, setTokenInput] = useState("");
+  const [loginError, setLoginError] = useState(false);
+  const [loginBusy, setLoginBusy] = useState(false);
   const observerTarget = useRef(null);
   const scrollerRef = useRef<HTMLDivElement>(null);
   const [searchQuery, setSearchQuery] = useState("");
@@ -23,12 +29,19 @@ function App() {
   const handleObserver = useCallback(
     (entries: IntersectionObserverEntry[]) => {
       const [target] = entries;
-      if (target.isIntersecting && !loading) {
+      // Wait for auth to settle (and, if logged in, server history to hydrate)
+      // before pulling the first page, so it already reflects server state.
+      if (target.isIntersecting && !loading && synced) {
         fetchArticles();
       }
     },
-    [loading, fetchArticles]
+    [loading, fetchArticles, synced]
   );
+
+  // Latest markRead without making the read-observer effect depend on its
+  // identity (it's a fresh closure each render).
+  const markReadRef = useRef(markRead);
+  markReadRef.current = markRead;
 
   useEffect(() => {
     const observer = new IntersectionObserver(handleObserver, {
@@ -43,9 +56,34 @@ function App() {
     return () => observer.disconnect();
   }, [handleObserver]);
 
+  const bootstrapped = useRef(false);
   useEffect(() => {
+    if (!synced || bootstrapped.current) return;
+    bootstrapped.current = true;
     fetchArticles();
-  }, []);
+  }, [synced, fetchArticles]);
+
+  // Mark a card "read" once it is meaningfully on screen (≥60% visible). This
+  // both persists the seen-set and (when logged in) records it server-side to
+  // steer the recommendation algorithm away from already-viewed cards.
+  useEffect(() => {
+    const root = scrollerRef.current;
+    const cards = root?.querySelectorAll<HTMLElement>("[data-feed-id]");
+    if (!cards || cards.length === 0) return;
+    const obs = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          if (!e.isIntersecting || e.intersectionRatio < 0.6) continue;
+          const id = (e.target as HTMLElement).getAttribute("data-feed-id");
+          const item = id ? itemsRef.current.find((x) => x.id === id) : undefined;
+          if (item) markReadRef.current(item);
+        }
+      },
+      { threshold: [0.6], root }
+    );
+    cards.forEach((c) => obs.observe(c));
+    return () => obs.disconnect();
+  }, [items]);
 
   // Space should scroll the feed (like a normal page), not re-trigger whatever
   // button last had focus (e.g. the ⓘ Details button). Leave inputs and open
@@ -115,6 +153,18 @@ function App() {
     linkElement.click();
   };
 
+  const submitLogin = async () => {
+    setLoginBusy(true);
+    const ok = await signIn(tokenInput);
+    setLoginBusy(false);
+    if (ok) {
+      setShowLogin(false);
+      setTokenInput("");
+    } else {
+      setLoginError(true);
+    }
+  };
+
   return (
     <div ref={scrollerRef} className="h-screen w-full bg-black text-white overflow-y-scroll snap-y snap-mandatory hide-scroll">
       {/* Single header row: brand on the left, nav on the right. The bar and
@@ -142,6 +192,34 @@ function App() {
             >
               Likes
             </button>
+
+            {/* Auth: log in to record likes / reads server-side (owner only). */}
+            {ready &&
+              (email ? (
+                <button
+                  onClick={signOut}
+                  title={`Signed in as ${email} — click to log out`}
+                  className="flex items-center gap-1.5 text-sm text-white/80 hover:text-white transition-colors px-3 py-1.5 rounded-full hover:bg-white/10"
+                >
+                  <span className="hidden sm:inline max-w-[9rem] truncate">
+                    {email.split("@")[0]}
+                  </span>
+                  <LogOut className="w-4 h-4" />
+                </button>
+              ) : (
+                <button
+                  onClick={() => {
+                    setTokenInput("");
+                    setLoginError(false);
+                    setShowLogin(true);
+                  }}
+                  title="Log in to sync your likes and reads across devices"
+                  className="flex items-center gap-1.5 text-sm text-white/80 hover:text-white transition-colors px-3 py-1.5 rounded-full hover:bg-white/10"
+                >
+                  <LogIn className="w-4 h-4" />
+                  <span className="hidden sm:inline">Login</span>
+                </button>
+              ))}
           </nav>
         </div>
       </header>
@@ -262,6 +340,58 @@ function App() {
               }`}
             onClick={() => setShowLikes(false)}
           ></div>
+        </div>
+      )}
+
+      {showLogin && (
+        <div
+          className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[60] flex items-center justify-center p-4"
+          onClick={() => setShowLogin(false)}
+        >
+          <div
+            className="bg-gray-900 p-6 rounded-lg w-full max-w-sm relative"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowLogin(false)}
+              className="absolute top-2 right-2 text-white/70 hover:text-white"
+            >
+              ✕
+            </button>
+            <h2 className="text-xl font-bold mb-1">Owner login</h2>
+            <p className="text-sm text-white/60 mb-4">
+              Enter the owner access token to record your likes, dislikes and reads on
+              the server — they sync across devices and steer your recommendations.
+            </p>
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                submitLogin();
+              }}
+            >
+              <input
+                type="password"
+                autoFocus
+                value={tokenInput}
+                onChange={(e) => {
+                  setTokenInput(e.target.value);
+                  setLoginError(false);
+                }}
+                placeholder="Access token"
+                className="w-full bg-gray-800 text-white px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              {loginError && (
+                <p className="text-sm text-red-400 mt-2">Invalid token. Try again.</p>
+              )}
+              <button
+                type="submit"
+                disabled={loginBusy || !tokenInput.trim()}
+                className="mt-4 w-full bg-blue-600 hover:bg-blue-500 disabled:opacity-40 disabled:cursor-not-allowed text-white py-2 rounded-lg transition-colors"
+              >
+                {loginBusy ? "Checking…" : "Log in"}
+              </button>
+            </form>
+          </div>
         </div>
       )}
 

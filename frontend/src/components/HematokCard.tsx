@@ -101,7 +101,7 @@ export function HematokCard({ item, onOpenDetails }: HematokCardProps) {
                         >
                             <ChevronRight className="w-6 h-6" />
                         </button>
-                        <div className="absolute top-[10vh] left-1/2 -translate-x-1/2 z-20 flex gap-1.5">
+                        <div className="absolute top-[calc(env(safe-area-inset-top)_+_4.5rem)] left-1/2 -translate-x-1/2 z-20 flex gap-1.5">
                             {item.images.map((_, i) => (
                                 <span
                                     key={i}
@@ -110,7 +110,7 @@ export function HematokCard({ item, onOpenDetails }: HematokCardProps) {
                                 />
                             ))}
                         </div>
-                        <div className="absolute top-[10vh] right-3 z-20 text-xs text-white/70 bg-black/40 px-2 py-0.5 rounded-full">
+                        <div className="absolute top-[calc(env(safe-area-inset-top)_+_4.5rem)] left-3 z-20 text-xs text-white/70 bg-black/40 px-2 py-0.5 rounded-full">
                             {idx + 1}/{item.images.length}
                         </div>
                     </>
@@ -120,7 +120,7 @@ export function HematokCard({ item, onOpenDetails }: HematokCardProps) {
                 {chrome && (
                     <button
                         onClick={(e) => { stop(e); setZoom(true); }}
-                        className="absolute top-16 right-3 z-20 p-2 rounded-full bg-black/40 backdrop-blur-sm hover:bg-black/60 transition-colors"
+                        className="absolute top-[calc(env(safe-area-inset-top)_+_4.5rem)] right-3 z-20 p-2 rounded-full bg-black/40 backdrop-blur-sm hover:bg-black/60 transition-colors"
                         aria-label="Zoom image"
                     >
                         <Maximize2 className="w-5 h-5" />

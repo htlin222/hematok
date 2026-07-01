@@ -1,0 +1,16 @@
+# Cloudflare Pages config for the hematok frontend + its Access-gated /api/*
+# Functions. `wrangler pages deploy` reads this to attach the KV binding and vars
+# to the deployment. The static site is built by Vite into ./dist.
+name = "hematok"
+compatibility_date = "2026-06-01"
+pages_build_output_dir = "dist"
+
+# Per-user server state (liked / disliked / read) for the logged-in owner.
+[[kv_namespaces]]
+binding = "STATE"
+id = "b34a1057c7134c70b40b1e053f1d69f5"
+
+# Allow-list for the /api/* endpoints (defence in depth; Access enforces this
+# too). Comma-separated. Currently just the owner.
+[vars]
+ALLOW_EMAILS = "hsieh.ting.lin@gmail.com"

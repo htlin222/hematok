@@ -53,6 +53,21 @@ The key invariant: **the image key in `feed.json` == the object key in R2**
 (`collection/<id>/<id>.jpg`, `atlas/<id>/<id>.jpg`, `reference-cases/<id>/images/<imgid>.jpg`).
 See `plan-for-deploy-r2.md` for the full runbook.
 
+## Owner login & server-side history
+
+The site is public and anonymous by default (likes live in `localStorage`).
+An **owner login** in the header records like / dislike / read **server-side**
+so they persist across devices and steer recommendations. Backend =
+Cloudflare **Pages Functions** under `frontend/functions/api/*`, state in KV
+(`STATE` binding), config in `frontend/wrangler.toml`. Only
+`hsieh.ting.lin@gmail.com` is allowed.
+
+Auth is dual-path: a Cloudflare **Access** email login (designed; needs the
+`hematok.pages.dev/api` Access app to be created) **and** an owner **bearer
+token** (`OWNER_TOKEN` Pages secret) that works today. See
+`docs/plans/2026-07-01-owner-login-design.md` for the full design and the steps
+to switch on the Access email login.
+
 ## Credits
 
 Images & metadata © the American Society of Hematology and the original contributors.

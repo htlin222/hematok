@@ -6,6 +6,7 @@ const PAGE_SIZE = 8;
 const REC_PER_PAGE = 6; // recommended cards per page; the rest are random exploration
 const LIKES_KEY = "likedImages"; // written by LikedArticlesContext
 const DISLIKES_KEY = "dislikedImages"; // written by LikedArticlesContext
+const READ_KEY = "readImages"; // ids of cards already scrolled into view
 
 function shuffle<T>(input: T[]): T[] {
   const a = [...input];
@@ -35,6 +36,15 @@ function storedIds(key: string): string[] {
 }
 const likedIds = () => storedIds(LIKES_KEY);
 const dislikedIds = () => storedIds(DISLIKES_KEY);
+// Read ids are stored as a plain string[] (not {id} objects), so read directly.
+function readIds(): string[] {
+  try {
+    const raw = localStorage.getItem(READ_KEY);
+    return raw ? (JSON.parse(raw) as string[]).filter((x) => typeof x === "string") : [];
+  } catch {
+    return [];
+  }
+}
 
 /**
  * Loads the whole feed once, then serves an endless scroll. When the user has
@@ -62,6 +72,9 @@ export function useFeed() {
     const valid = data.filter((d) => d.images && d.images.length > 0);
     byId.current = new Map(valid.map((d) => [d.id, d]));
     pool.current = shuffle(valid);
+    // Exclude everything already read (server-hydrated on login, or local) so
+    // the feed doesn't re-surface seen cards across sessions or devices.
+    for (const id of readIds()) seen.current.add(id);
     loaded.current = true;
   }, []);
 
