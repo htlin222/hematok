@@ -138,7 +138,7 @@ export function HematokCard({ item, onOpenDetails }: HematokCardProps) {
                         </span>
                         <div className="flex justify-between items-end gap-3">
                             <div className="min-w-0">
-                                <h2 className="text-base sm:text-lg font-bold drop-shadow leading-snug">
+                                <h2 className="text-base sm:text-lg font-bold drop-shadow leading-snug max-h-[40vh] overflow-y-auto hide-scroll overscroll-contain">
                                     {item.title}
                                 </h2>
                                 {item.description && (
