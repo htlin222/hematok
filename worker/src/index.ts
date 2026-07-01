@@ -38,7 +38,7 @@ export default {
       return json({ error: "POST /recommend" }, 404);
     }
 
-    let body: { liked?: unknown; seen?: unknown; n?: unknown };
+    let body: { liked?: unknown; disliked?: unknown; seen?: unknown; n?: unknown };
     try {
       body = await req.json();
     } catch {
@@ -46,25 +46,45 @@ export default {
     }
 
     const liked = (Array.isArray(body.liked) ? body.liked : []).map(String).slice(-50);
+    const disliked = (Array.isArray(body.disliked) ? body.disliked : []).map(String).slice(-50);
     const seen = (Array.isArray(body.seen) ? body.seen : []).map(String);
     const n = Math.min(Math.max(Number(body.n) || 20, 1), 50);
 
     if (liked.length === 0) return json({ ids: [], reason: "no-likes" });
 
-    try {
-      // 1. Fetch the liked items' stored vectors and average them into a profile.
-      const got = await env.VEC.getByIds(liked);
-      const vecs = got
+    // How strongly a dislike pushes the profile away from that content.
+    const DISLIKE_WEIGHT = 0.5;
+
+    // Average a set of vectors into one; returns null if none are usable.
+    const averageVectors = (vs: number[][], dim: number): number[] | null => {
+      if (vs.length === 0) return null;
+      const acc = new Array(dim).fill(0);
+      for (const v of vs) for (let i = 0; i < dim; i++) acc[i] += v[i] / vs.length;
+      return acc;
+    };
+    const valuesOf = (got: { values?: unknown }[]): number[][] =>
+      got
         .map((v) => v.values as number[] | undefined)
         .filter((v): v is number[] => Array.isArray(v) && v.length > 0);
+
+    try {
+      // 1. Fetch the liked items' stored vectors and average them into a profile.
+      const vecs = valuesOf(await env.VEC.getByIds(liked));
       if (vecs.length === 0) return json({ ids: [], reason: "no-vectors" });
 
       const dim = vecs[0].length;
-      const profile = new Array(dim).fill(0);
-      for (const v of vecs) for (let i = 0; i < dim; i++) profile[i] += v[i] / vecs.length;
+      const profile = averageVectors(vecs, dim)!;
 
-      // 2. Nearest neighbours, excluding what the user has already liked or seen.
-      const exclude = new Set([...liked, ...seen]);
+      // 1b. Subtract the disliked centroid so results steer away from content
+      //     the user has thumbed down.
+      if (disliked.length > 0) {
+        const dis = averageVectors(valuesOf(await env.VEC.getByIds(disliked)), dim);
+        if (dis) for (let i = 0; i < dim; i++) profile[i] -= DISLIKE_WEIGHT * dis[i];
+      }
+
+      // 2. Nearest neighbours, excluding what the user has already liked,
+      //    disliked, or seen.
+      const exclude = new Set([...liked, ...disliked, ...seen]);
       const topK = Math.min(n + exclude.size + 10, 100);
       const res = await env.VEC.query(profile, { topK });
       const ids = res.matches

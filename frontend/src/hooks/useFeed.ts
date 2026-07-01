@@ -5,6 +5,7 @@ import { FEED_URL, REC_URL, imgUrl } from "../types/feed";
 const PAGE_SIZE = 8;
 const REC_PER_PAGE = 6; // recommended cards per page; the rest are random exploration
 const LIKES_KEY = "likedImages"; // written by LikedArticlesContext
+const DISLIKES_KEY = "dislikedImages"; // written by LikedArticlesContext
 
 function shuffle<T>(input: T[]): T[] {
   const a = [...input];
@@ -23,15 +24,17 @@ const preloadImage = (src: string): Promise<void> =>
     img.src = src;
   });
 
-function likedIds(): string[] {
+function storedIds(key: string): string[] {
   try {
-    const raw = localStorage.getItem(LIKES_KEY);
+    const raw = localStorage.getItem(key);
     if (!raw) return [];
     return (JSON.parse(raw) as Array<{ id: string }>).map((x) => x.id).filter(Boolean);
   } catch {
     return [];
   }
 }
+const likedIds = () => storedIds(LIKES_KEY);
+const dislikedIds = () => storedIds(DISLIKES_KEY);
 
 /**
  * Loads the whole feed once, then serves an endless scroll. When the user has
@@ -70,7 +73,7 @@ export function useFeed() {
       const res = await fetch(`${REC_URL}/recommend`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ liked, seen: [...seen.current], n }),
+        body: JSON.stringify({ liked, disliked: dislikedIds(), seen: [...seen.current], n }),
       });
       if (!res.ok) return [];
       const { ids } = (await res.json()) as { ids?: string[] };
@@ -86,6 +89,7 @@ export function useFeed() {
   // Pull the next N unseen items from the shuffled exploration pool.
   const nextRandom = useCallback((n: number): FeedItem[] => {
     const out: FeedItem[] = [];
+    const disliked = new Set(dislikedIds());
     let guard = 0;
     while (out.length < n && guard < pool.current.length * 2) {
       if (cursor.current >= pool.current.length) {
@@ -94,7 +98,7 @@ export function useFeed() {
       }
       const it = pool.current[cursor.current++];
       guard++;
-      if (it && !seen.current.has(it.id)) out.push(it);
+      if (it && !seen.current.has(it.id) && !disliked.has(it.id)) out.push(it);
     }
     return out;
   }, []);
