@@ -1,0 +1,12 @@
+# Smoke-test / mock artifacts (regenerate locally; must NOT ship in a prod build)
+mock-data/
+frontend/public/img/
+frontend/public/feed.mock.json
+frontend/.env.development
+frontend/.env.production
+
+# Local env / secrets
+.dev.vars
+*.local
+
+# The real production feed (frontend/public/feed.json) IS tracked — do not ignore it.
