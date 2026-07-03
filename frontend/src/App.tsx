@@ -12,7 +12,10 @@ import type { FeedItem } from "./types/feed";
 function App() {
   const [showAbout, setShowAbout] = useState(false);
   const [showLikes, setShowLikes] = useState(false);
-  const { items, loading, fetchArticles } = useFeed();
+  // Card currently in view — late-arriving recommendations are spliced in
+  // after it so the splice never shifts the user's scroll position.
+  const currentIdRef = useRef<string | null>(null);
+  const { items, loading, fetchArticles } = useFeed(currentIdRef);
   const { likedArticles, toggleLike, markRead, synced } = useLikedArticles();
   const { ready, email, signIn, signOut } = useAuth();
   const [showLogin, setShowLogin] = useState(false);
@@ -44,9 +47,12 @@ function App() {
   markReadRef.current = markRead;
 
   useEffect(() => {
+    // Fire ~3 screens before the end so the next page is (usually) already
+    // appended by the time the user gets there.
     const observer = new IntersectionObserver(handleObserver, {
-      threshold: 0.1,
-      rootMargin: "100px",
+      threshold: 0,
+      root: scrollerRef.current,
+      rootMargin: "0px 0px 300% 0px",
     });
 
     if (observerTarget.current) {
@@ -76,7 +82,10 @@ function App() {
           if (!e.isIntersecting || e.intersectionRatio < 0.6) continue;
           const id = (e.target as HTMLElement).getAttribute("data-feed-id");
           const item = id ? itemsRef.current.find((x) => x.id === id) : undefined;
-          if (item) markReadRef.current(item);
+          if (item) {
+            currentIdRef.current = item.id;
+            markReadRef.current(item);
+          }
         }
       },
       { threshold: [0.6], root }
@@ -395,12 +404,17 @@ function App() {
         </div>
       )}
 
-      {items.map((item, index) => (
-        <HematokCard key={`${item.id}-${index}`} item={item} onOpenDetails={setDetailsItem} />
+      {/* seen-set guarantees an id is served at most once, so id alone is a
+          stable key — index would remount every card behind a mid-feed splice */}
+      {items.map((item) => (
+        <HematokCard key={item.id} item={item} onOpenDetails={setDetailsItem} />
       ))}
       <div ref={observerTarget} className="h-10 -mt-1" />
       {loading && (
-        <div className="h-screen w-full flex items-center justify-center gap-2">
+        // snap-start makes this a legal snap point — without it, snap-mandatory
+        // rubber-bands the user back to the last card and the spinner is
+        // unreachable. Mostly visible only while feed.json first downloads.
+        <div className="h-screen w-full flex items-center justify-center gap-2 snap-start">
           <Loader2 className="h-6 w-6 animate-spin" />
           <span>Loading...</span>
         </div>

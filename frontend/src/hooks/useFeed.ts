@@ -1,4 +1,5 @@
 import { useState, useCallback, useRef } from "react";
+import type { RefObject } from "react";
 import type { FeedItem } from "../types/feed";
 import { FEED_URL, REC_URL, imgUrl } from "../types/feed";
 
@@ -47,13 +48,17 @@ function readIds(): string[] {
 }
 
 /**
- * Loads the whole feed once, then serves an endless scroll. When the user has
- * ♡-liked anything, each new page is mostly semantic recommendations (from the
- * Vectorize Worker, seeded by those likes) interleaved with a little random
- * exploration. With no likes — or if the Worker is unreachable — it falls back
- * to a plain random shuffle.
+ * Loads the whole feed once, then serves an endless scroll. Each page of local
+ * exploration cards appears instantly (the pool lives in memory); semantic
+ * recommendations (from the Vectorize Worker, seeded by ♡ likes) are fetched
+ * in parallel and spliced into the not-yet-seen part of the feed when they
+ * arrive. With no likes — or if the Worker is unreachable — the feed is just
+ * the random shuffle, and scrolling never waits on the network.
+ *
+ * `anchorId` points at the card currently in view (maintained by the caller);
+ * recommendations are inserted after it so the splice never shifts scroll.
  */
-export function useFeed() {
+export function useFeed(anchorId?: RefObject<string | null>) {
   const [items, setItems] = useState<FeedItem[]>([]);
   const [loading, setLoading] = useState(false);
 
@@ -63,6 +68,7 @@ export function useFeed() {
   const seen = useRef<Set<string>>(new Set());
   const loaded = useRef(false);
   const fetching = useRef(false);
+  const recInFlight = useRef(false);
 
   const ensureLoaded = useCallback(async () => {
     if (loaded.current) return;
@@ -116,6 +122,35 @@ export function useFeed() {
     return out;
   }, []);
 
+  // Splice freshly arrived recommendations into the part of the feed the user
+  // hasn't reached yet, interleaved with the existing tail so they don't sit
+  // as one block. Inserting after the anchor (+1 card of slack) means the card
+  // under the user's thumb never moves.
+  const insertRecs = useCallback(
+    (recs: FeedItem[]) => {
+      if (recs.length === 0) return;
+      recs.forEach((it) => seen.current.add(it.id));
+      recs.forEach((it) => preloadImage(imgUrl(it.images[0]))); // warm cache
+      setItems((prev) => {
+        const fresh = recs.filter((r) => !prev.some((p) => p.id === r.id));
+        if (fresh.length === 0) return prev;
+        const ci = anchorId?.current
+          ? prev.findIndex((x) => x.id === anchorId.current)
+          : -1;
+        const insertAt = Math.min(prev.length, ci + 2);
+        const head = prev.slice(0, insertAt);
+        const tail = prev.slice(insertAt);
+        const merged: FeedItem[] = [];
+        for (let i = 0; i < Math.max(fresh.length, tail.length); i++) {
+          if (i < fresh.length) merged.push(fresh[i]);
+          if (i < tail.length) merged.push(tail[i]);
+        }
+        return [...head, ...merged];
+      });
+    },
+    [anchorId]
+  );
+
   const fetchArticles = useCallback(async () => {
     if (fetching.current) return;
     fetching.current = true;
@@ -123,26 +158,32 @@ export function useFeed() {
     try {
       await ensureLoaded();
 
-      const recs = await recommend(REC_PER_PAGE);
-      const explore = nextRandom(PAGE_SIZE - recs.length);
-      // interleave so it doesn't feel like two stacked blocks
-      const next: FeedItem[] = [];
-      const a = recs, b = explore;
-      for (let i = 0; i < Math.max(a.length, b.length); i++) {
-        if (i < a.length) next.push(a[i]);
-        if (i < b.length) next.push(b[i]);
-      }
+      // Local exploration cards go up immediately — once feed.json is in,
+      // scrolling never waits on the network. Each card lazy-loads its own
+      // image (pulse placeholder → fade-in); preloading here just warms the
+      // cache without blocking.
+      const next = nextRandom(PAGE_SIZE);
       next.forEach((it) => seen.current.add(it.id));
-
-      await Promise.allSettled(next.map((it) => preloadImage(imgUrl(it.images[0]))));
+      next.forEach((it) => preloadImage(imgUrl(it.images[0])));
       setItems((prev) => [...prev, ...next]);
+
+      // Recommendations arrive whenever they arrive (at most one request in
+      // flight) and are spliced in behind the user's position.
+      if (!recInFlight.current) {
+        recInFlight.current = true;
+        recommend(REC_PER_PAGE)
+          .then(insertRecs)
+          .finally(() => {
+            recInFlight.current = false;
+          });
+      }
     } catch (err) {
       console.error("Error loading feed:", err);
     } finally {
       fetching.current = false;
       setLoading(false);
     }
-  }, [ensureLoaded, recommend, nextRandom]);
+  }, [ensureLoaded, recommend, nextRandom, insertRecs]);
 
   return { items, loading, fetchArticles };
 }
