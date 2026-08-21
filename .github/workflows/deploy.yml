@@ -25,6 +25,9 @@ jobs:
       - name: Build frontend
         working-directory: ./frontend
         run: npm run build
+        env:
+          VITE_IMG_BASE: https://hematok-img.hsiehting.com
+          VITE_REC_URL: https://hematok-rec-api.hsieh-ting-lin.workers.dev
         
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
