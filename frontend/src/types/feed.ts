@@ -12,6 +12,7 @@ export interface FeedItem {
   published_date?: string;
   size?: string;
   description?: string; // clinical narrative — reference-cases only
+  High_Yield?: boolean; // tagged for high yield morphology features
   rand: number;
 }
 

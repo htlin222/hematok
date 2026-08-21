@@ -72,6 +72,34 @@ export const api = {
       return null;
     }
   },
+
+  explain: async (title: string, description: string): Promise<string> => {
+    try {
+      const res = await fetch("/api/explain", {
+        method: "POST",
+        credentials: "include",
+        headers: authHeaders({ "content-type": "application/json" }),
+        body: JSON.stringify({ title, description }),
+      });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({ error: res.statusText }));
+        return `Error: ${(err as any).error || res.statusText}`;
+      }
+      const data = await res.json() as { explanation: string };
+      return data.explanation;
+    } catch (e) {
+      return `Fetch error: ${String(e)}`;
+    }
+  },
+
+  testAnswer: (itemId: string, correct: boolean): void => {
+    void fetch("/api/test-answer", {
+      method: "POST",
+      credentials: "include",
+      headers: authHeaders({ "content-type": "application/json" }),
+      body: JSON.stringify({ itemId, correct }),
+    }).catch(() => {});
+  }
 };
 
 // Verify a candidate owner token against /api/me. On success, persist it and

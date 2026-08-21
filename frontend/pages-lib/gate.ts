@@ -11,6 +11,8 @@ export interface Env {
   ALLOW_EMAILS?: string; // comma-separated allow-list; defaults to the owner
   OWNER_TOKEN?: string; // bearer token for the owner login (see /api auth below)
   DEV_EMAIL?: string; // local-dev bypass ONLY (never set in production)
+  AI: any; // Cloudflare Worker AI binding
+  DB: D1Database; // Cloudflare D1 Database
 }
 
 // A stored liked/disliked entry: the full feed item (so the Likes panel works

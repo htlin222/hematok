@@ -1,10 +1,9 @@
 import { useEffect, useRef, useCallback, useState } from "react";
 import { HematokCard } from "./components/HematokCard";
 import { DetailsSheet } from "./components/DetailsSheet";
-import { Loader2, Search, X, Download, LogIn, LogOut } from "lucide-react";
+import { Loader2, Search, X, Download } from "lucide-react";
 import { Analytics } from "@vercel/analytics/react";
 import { useLikedArticles } from "./contexts/LikedArticlesContext";
-import { useAuth } from "./contexts/AuthContext";
 import { useFeed } from "./hooks/useFeed";
 import { imgUrl } from "./types/feed";
 import type { FeedItem } from "./types/feed";
@@ -15,13 +14,8 @@ function App() {
   // Card currently in view — late-arriving recommendations are spliced in
   // after it so the splice never shifts the user's scroll position.
   const currentIdRef = useRef<string | null>(null);
-  const { items, loading, fetchArticles } = useFeed(currentIdRef);
+  const { items, loading, fetchArticles, getRandomItems } = useFeed(currentIdRef);
   const { likedArticles, toggleLike, markRead, synced } = useLikedArticles();
-  const { ready, email, signIn, signOut } = useAuth();
-  const [showLogin, setShowLogin] = useState(false);
-  const [tokenInput, setTokenInput] = useState("");
-  const [loginError, setLoginError] = useState(false);
-  const [loginBusy, setLoginBusy] = useState(false);
   const observerTarget = useRef(null);
   const scrollerRef = useRef<HTMLDivElement>(null);
   const [searchQuery, setSearchQuery] = useState("");
@@ -162,17 +156,8 @@ function App() {
     linkElement.click();
   };
 
-  const submitLogin = async () => {
-    setLoginBusy(true);
-    const ok = await signIn(tokenInput);
-    setLoginBusy(false);
-    if (ok) {
-      setShowLogin(false);
-      setTokenInput("");
-    } else {
-      setLoginError(true);
-    }
-  };
+
+  const [testMode, setTestMode] = useState(false);
 
   return (
     <div ref={scrollerRef} className="h-screen w-full bg-black text-white overflow-y-scroll snap-y snap-mandatory hide-scroll">
@@ -190,6 +175,12 @@ function App() {
 
           <nav className="pointer-events-auto flex items-center gap-1">
             <button
+              onClick={() => setTestMode(!testMode)}
+              className={`text-sm transition-colors px-3 py-1.5 rounded-full ${testMode ? "bg-indigo-600 text-white font-bold" : "text-white/80 hover:text-white hover:bg-white/10"}`}
+            >
+              Test Mode
+            </button>
+            <button
               onClick={() => setShowAbout(!showAbout)}
               className="text-sm text-white/80 hover:text-white transition-colors px-3 py-1.5 rounded-full hover:bg-white/10"
             >
@@ -202,33 +193,7 @@ function App() {
               Likes
             </button>
 
-            {/* Auth: log in to record likes / reads server-side (owner only). */}
-            {ready &&
-              (email ? (
-                <button
-                  onClick={signOut}
-                  title={`Signed in as ${email} — click to log out`}
-                  className="flex items-center gap-1.5 text-sm text-white/80 hover:text-white transition-colors px-3 py-1.5 rounded-full hover:bg-white/10"
-                >
-                  <span className="hidden sm:inline max-w-[9rem] truncate">
-                    {email.split("@")[0]}
-                  </span>
-                  <LogOut className="w-4 h-4" />
-                </button>
-              ) : (
-                <button
-                  onClick={() => {
-                    setTokenInput("");
-                    setLoginError(false);
-                    setShowLogin(true);
-                  }}
-                  title="Log in to sync your likes and reads across devices"
-                  className="flex items-center gap-1.5 text-sm text-white/80 hover:text-white transition-colors px-3 py-1.5 rounded-full hover:bg-white/10"
-                >
-                  <LogIn className="w-4 h-4" />
-                  <span className="hidden sm:inline">Login</span>
-                </button>
-              ))}
+
           </nav>
         </div>
       </header>
@@ -352,62 +317,12 @@ function App() {
         </div>
       )}
 
-      {showLogin && (
-        <div
-          className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[60] flex items-center justify-center p-4"
-          onClick={() => setShowLogin(false)}
-        >
-          <div
-            className="bg-gray-900 p-6 rounded-lg w-full max-w-sm relative"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button
-              onClick={() => setShowLogin(false)}
-              className="absolute top-2 right-2 text-white/70 hover:text-white"
-            >
-              ✕
-            </button>
-            <h2 className="text-xl font-bold mb-1">Owner login</h2>
-            <p className="text-sm text-white/60 mb-4">
-              Enter the owner access token to record your likes, dislikes and reads on
-              the server — they sync across devices and steer your recommendations.
-            </p>
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                submitLogin();
-              }}
-            >
-              <input
-                type="password"
-                autoFocus
-                value={tokenInput}
-                onChange={(e) => {
-                  setTokenInput(e.target.value);
-                  setLoginError(false);
-                }}
-                placeholder="Access token"
-                className="w-full bg-gray-800 text-white px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
-              {loginError && (
-                <p className="text-sm text-red-400 mt-2">Invalid token. Try again.</p>
-              )}
-              <button
-                type="submit"
-                disabled={loginBusy || !tokenInput.trim()}
-                className="mt-4 w-full bg-blue-600 hover:bg-blue-500 disabled:opacity-40 disabled:cursor-not-allowed text-white py-2 rounded-lg transition-colors"
-              >
-                {loginBusy ? "Checking…" : "Log in"}
-              </button>
-            </form>
-          </div>
-        </div>
-      )}
+
 
       {/* seen-set guarantees an id is served at most once, so id alone is a
           stable key — index would remount every card behind a mid-feed splice */}
       {items.map((item) => (
-        <HematokCard key={item.id} item={item} onOpenDetails={setDetailsItem} />
+        <HematokCard key={item.id} item={item} onOpenDetails={setDetailsItem} getRandomItems={getRandomItems} isTestMode={testMode} />
       ))}
       <div ref={observerTarget} className="h-10 -mt-1" />
       {loading && (

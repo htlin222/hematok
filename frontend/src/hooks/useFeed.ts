@@ -185,5 +185,17 @@ export function useFeed(anchorId?: RefObject<string | null>) {
     }
   }, [ensureLoaded, recommend, nextRandom, insertRecs]);
 
-  return { items, loading, fetchArticles };
+  const getRandomItems = useCallback((n: number, excludeId: string): FeedItem[] => {
+    if (!loaded.current) return [];
+    const out: FeedItem[] = [];
+    const copy = [...pool.current];
+    let i = 0;
+    while (out.length < n && i < copy.length) {
+      if (copy[i].id !== excludeId) out.push(copy[i]);
+      i++;
+    }
+    return out;
+  }, []);
+
+  return { items, loading, fetchArticles, getRandomItems };
 }
