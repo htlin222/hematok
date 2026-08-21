@@ -15,7 +15,7 @@ Description: ${description || ""}`;
     if (!env.AI) {
       return json({ error: "AI binding (env.AI) is missing." }, 500);
     }
-    const response = await env.AI.run("@cf/meta/llama-3-8b-instruct", {
+    const response = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
       messages: [
         { role: "system", content: "You are a helpful medical expert assistant." },
         { role: "user", content: prompt }
