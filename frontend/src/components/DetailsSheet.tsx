@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { X, ExternalLink, Eye, Download, ChevronDown, ChevronUp, Bot, Loader2 } from "lucide-react";
-import { morphUrl, type FeedItem, type MorphNote } from "../types/feed";
+import { morphUrl, type ExamPearls, type FeedItem, type MorphNote } from "../types/feed";
 import { api } from "../lib/api";
 
 // Shards are small and immutable per deploy — fetch each at most once per session.
@@ -182,6 +182,8 @@ function MorphSection({ note }: { note: MorphNote }) {
                 </p>
             </div>
 
+            {note.exam && <ExamSection exam={note.exam} />}
+
             {note.features.length > 0 && (
                 <div>
                     <SectionLabel>Key morphologic features</SectionLabel>
@@ -224,6 +226,46 @@ function MorphSection({ note }: { note: MorphNote }) {
                     </ol>
                 </div>
             )}
+        </div>
+    );
+}
+
+function ExamSection({ exam }: { exam: ExamPearls }) {
+    const [revealed, setRevealed] = useState(false);
+    return (
+        <div className="rounded-lg border border-cyan-400/25 bg-cyan-500/5 px-4 py-3 space-y-3">
+            <div>
+                <div className="text-[11px] tracking-wide text-cyan-300/90 mb-1">玻片考試 · 高頻考點</div>
+                <p className="text-[14px] font-semibold leading-snug text-white/95">{exam.answer_en}</p>
+            </div>
+            <ul className="list-disc pl-5 space-y-1.5 text-[14px] leading-relaxed text-white/90">
+                {exam.pearls_zh.map((p, i) => (
+                    <li key={i}>{p}</li>
+                ))}
+            </ul>
+            <p className="text-[14px] leading-relaxed text-amber-200/90">
+                <span className="font-semibold">陷阱：</span>
+                {exam.pitfall_zh}
+            </p>
+            <div className="border-t border-white/10 pt-3 text-[14px] leading-relaxed">
+                <p className="text-white/90">
+                    <span className="font-semibold text-cyan-200/90">Q：</span>
+                    {exam.quiz.q}
+                </p>
+                {revealed ? (
+                    <p className="mt-1 text-white/80">
+                        <span className="font-semibold text-cyan-200/90">A：</span>
+                        {exam.quiz.a}
+                    </p>
+                ) : (
+                    <button
+                        onClick={() => setRevealed(true)}
+                        className="mt-1.5 text-[13px] font-medium text-cyan-300 hover:text-cyan-200"
+                    >
+                        顯示答案
+                    </button>
+                )}
+            </div>
         </div>
     );
 }

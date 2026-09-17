@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Validate prep/morph/out/<id>.json against the morph-note schema.
+"""Validate prep/morph/out/<id>.json (morph notes) or prep/morph/exam/<id>.json (--exam).
 
 Usage:
-  python3 prep/morph_validate.py [ID ...]      # no ids = validate everything present
+  python3 prep/morph_validate.py [--exam] [ID ...]   # no ids = validate everything present
 Exit code 1 if any file fails; prints one line per problem.
 """
 
@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent / "morph/out"
+EXAM = Path(__file__).resolve().parent / "morph/exam"
 SPECIMENS = {"PB", "BM aspirate", "BM biopsy", "LN", "spleen", "tissue", "body fluid",
              "CSF", "flow", "cytogenetics", "molecular", "gross", "radiology", "clinical photo", "other"}
 MATCH = {"consistent", "partial", "discordant", "non-morphologic"}
@@ -55,16 +56,42 @@ def check(path: Path) -> list[str]:
     return errs
 
 
+def check_exam(path: Path) -> list[str]:
+    try:
+        d = json.loads(path.read_text())
+    except Exception as e:  # noqa: BLE001
+        return [f"invalid JSON: {e}"]
+    errs: list[str] = []
+    if d.get("id") != path.stem:
+        errs.append(f"id mismatch: {d.get('id')!r}")
+    a = d.get("answer_en")
+    if not (isinstance(a, str) and 10 <= len(a) <= 200):
+        errs.append("answer_en: expected str len 10-200")
+    p = d.get("pearls_zh")
+    if not (isinstance(p, list) and 3 <= len(p) <= 5 and all(isinstance(x, str) and 8 <= len(x) <= 160 for x in p)):
+        errs.append("pearls_zh: expected 3-5 strings, each len 8-160")
+    t = d.get("pitfall_zh")
+    if not (isinstance(t, str) and 8 <= len(t) <= 160):
+        errs.append("pitfall_zh: expected str len 8-160")
+    q = d.get("quiz")
+    if not (isinstance(q, dict) and all(isinstance(q.get(k), str) and q[k] for k in ("q", "a"))):
+        errs.append("quiz: expected {q, a} non-empty strings")
+    return errs
+
+
 def main() -> None:
     ids = sys.argv[1:]
-    paths = [OUT / f"{i}.json" for i in ids] if ids else sorted(OUT.glob("*.json"))
+    exam = "--exam" in ids
+    ids = [i for i in ids if i != "--exam"]
+    base, fn = (EXAM, check_exam) if exam else (OUT, check)
+    paths = [base / f"{i}.json" for i in ids] if ids else sorted(base.glob("*.json"))
     bad = 0
     for p in paths:
         if not p.exists():
             print(f"{p.stem}: MISSING")
             bad += 1
             continue
-        errs = check(p)
+        errs = fn(p)
         if errs:
             bad += 1
             print(f"{p.stem}: " + "; ".join(errs))
