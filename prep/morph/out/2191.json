@@ -1,0 +1,22 @@
+{
+  "id": "2191",
+  "recognize_zh": "胃腺體上皮內有成群小至中型、核略不規則的中心細胞樣（centrocyte-like）淋巴球侵入，形成淋巴上皮病灶（lymphoepithelial lesion），固有層則被相似細胞密集浸潤，是胃 MALT 淋巴瘤的關鍵線索。",
+  "features": [
+    "Dense lamina propria infiltrate of small-to-medium lymphoid cells",
+    "Centrocyte-like cells with slightly irregular nuclei and moderate pale cytoplasm",
+    "Aggregates of lymphoid cells infiltrating and distorting gastric gland epithelium (lymphoepithelial lesions)",
+    "Glandular epithelial cells show eosinophilic change and are separated by intraepithelial lymphocytes",
+    "Background of scattered plasma cells; no sheets of large cells"
+  ],
+  "describe_en": "Sections of gastric mucosa show gastric glands surrounded by a dense lamina propria infiltrate of small-to-medium lymphoid cells with slightly irregular nuclei and moderate pale cytoplasm, resembling centrocyte-like or monocytoid B cells. Clusters of these cells invade and distort the glandular epithelium, forming lymphoepithelial lesions. No sheets of large transformed cells are identified in this field. Findings are consistent with extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue (MALT lymphoma); immunohistochemistry (CD20+, CD5-, CD10-, cyclin D1-), H. pylori assessment and testing for t(11;18) are recommended.",
+  "ddx": [
+    {"dx": "Helicobacter pylori chronic gastritis with lymphoid hyperplasia", "vs": "Reactive gastritis has reactive follicles and a mixed polytypic infiltrate without destructive lymphoepithelial lesions or dense monotonous CD20+ sheets."},
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma is composed of monotonous CD5+ cyclin D1+ cells and rarely forms prominent lymphoepithelial lesions."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL shows confluent sheets of large cells with vesicular nuclei and prominent nucleoli rather than small centrocyte-like cells."},
+    {"dx": "Poorly cohesive (signet ring) carcinoma", "vs": "Signet ring carcinoma cells contain mucin vacuoles and are keratin positive, not CD20 positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

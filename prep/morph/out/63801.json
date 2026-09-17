@@ -1,0 +1,22 @@
+{
+  "id": "63801",
+  "recognize_zh": "大型非典型細胞呈強棕色的細胞膜與細胞質（含高基氏體區）CD15 染色，部分為雙核細胞，背景小淋巴球陰性；大細胞成群聚集，符合具霍奇金淋巴瘤特徵的灰區淋巴瘤中 CD15 表現。",
+  "features": [
+    "Large atypical cells with strong membranous and cytoplasmic CD15 staining, including paranuclear (Golgi) accentuation",
+    "Occasional binucleated or bilobed large cells with vesicular nuclei",
+    "Positive cells arranged in clusters and cohesive aggregates rather than only scattered singly",
+    "Small background lymphocytes and stromal cells negative (blue hematoxylin counterstain)",
+    "Granular extracellular/background brown staining, possibly from granulocyte debris"
+  ],
+  "describe_en": "Immunohistochemical stain for CD15 shows numerous large atypical cells with strong membranous and cytoplasmic staining with paranuclear dot-like accentuation, some of which are binucleated. The positive cells form clusters and confluent aggregates, while the small background lymphocytes are negative. Interpretation requires correlation with CD30, CD20, PAX5, CD79a and OCT2/BOB1 expression. In the context of variable CD20 and CD79a expression in the same large cells, the findings support mediastinal gray zone lymphoma (B-cell lymphoma with features intermediate between DLBCL and classic Hodgkin lymphoma).",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma, nodular sclerosis", "vs": "Reed-Sternberg cells are CD15/CD30 positive but usually scattered in a rich inflammatory background with weak PAX5 and loss of CD20, CD79a and B-cell transcription factors."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "Sheets of large cells with strong uniform CD20/CD79a, often weak CD30, and typically CD15 negative."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "CD30-positive hallmark cells that are CD15 usually negative, PAX5 negative, and express T-cell markers or ALK."},
+    {"dx": "Granulocytic infiltrate (CD15-positive myeloid cells)", "vs": "Myeloid cells are smaller with segmented or band nuclei, CD15 positive but CD30 negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD15",
+  "match": "consistent",
+  "high_yield": false
+}

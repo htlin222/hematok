@@ -1,0 +1,22 @@
+{
+  "id": "63811",
+  "recognize_zh": "大小正常、未變大的紅血球內散布大量纖細小環狀體（ring form），部分紅血球內可見兩個環狀體或雙染色質點，且看不到較成熟的滋養體或裂殖體，符合惡性瘧原蟲（P. falciparum）。",
+  "features": [
+    "Numerous small, delicate intraerythrocytic ring forms with thin cytoplasmic rims and tiny chromatin dots",
+    "Infected red cells are normal in size, without enlargement or Schüffner-type stippling",
+    "Occasional red cells harbor more than one ring, and some rings show double chromatin dots",
+    "No mature trophozoites, schizonts, or gametocytes in this field",
+    "Parasitemia visibly high (multiple infected cells per low-power field); rare crenated red cell as artifact"
+  ],
+  "describe_en": "Peripheral blood thin smear shows a monolayer of normocytic red cells, a substantial proportion of which contain small, delicate ring-form trophozoites. Infected erythrocytes are not enlarged and lack stippling; several cells contain multiple rings and some rings display double chromatin dots. Mature trophozoites and schizonts are not seen in this field. The parasite burden appears high and should be quantified on the thin film. Findings are consistent with Plasmodium falciparum malaria.",
+  "ddx": [
+    {"dx": "Plasmodium vivax / P. ovale", "vs": "Infected red cells are enlarged with Schüffner stippling, and ameboid trophozoites and schizonts are commonly present, unlike the normal-sized cells with only rings here."},
+    {"dx": "Babesia species", "vs": "Babesia rings are pleomorphic, may form extracellular forms and tetrads (Maltese cross), and lack hemozoin pigment and gametocytes; travel/tick history and PCR help."},
+    {"dx": "Plasmodium knowlesi / P. malariae", "vs": "Show band-form and mature trophozoites and schizonts in circulation; P. knowlesi early rings can mimic falciparum, requiring PCR in appropriate travel settings."},
+    {"dx": "Platelets or stain precipitate overlying red cells", "vs": "Superimposed platelets lack the ring-shaped cytoplasm with a discrete chromatin dot and lie in a different focal plane."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

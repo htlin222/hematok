@@ -1,0 +1,22 @@
+{
+  "id": "62218",
+  "recognize_zh": "骨髓抽吸抹片中出現一大團黏著性（cohesive）大型細胞，核重疊擠壓、染色質細緻並有明顯淡藍色核仁，細胞質帶小空泡，這種成團且非造血細胞的外觀提示轉移性癌（乳癌）。",
+  "features": [
+    "Large cohesive three-dimensional cluster of cells with nuclear crowding and overlap",
+    "Large round to oval nuclei with finely granular chromatin and prominent pale-blue nucleoli",
+    "Moderate amount of pale blue-grey cytoplasm with small vacuoles; indistinct cell borders",
+    "Cell size several times that of adjacent red cells; high N:C ratio",
+    "Background of red cells without hematopoietic cells in the field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large cohesive cluster of non-hematopoietic cells with nuclear crowding and overlap. The cells are large with high nuclear-to-cytoplasmic ratios, round to oval nuclei, finely granular chromatin and prominent nucleoli, and moderate pale cytoplasm containing small vacuoles. The cohesive arrangement distinguishes them from hematopoietic elements. Findings are consistent with metastatic carcinoma; immunostains (e.g. cytokeratin, GATA3, ER) on the core biopsy or clot section are recommended to confirm breast origin.",
+  "ddx": [
+    {"dx": "Osteoblast clusters", "vs": "Osteoblasts are loosely cohesive with eccentric nuclei, a pale perinuclear hof away from the nucleus and small nucleoli, lacking the nuclear overlap and prominent nucleoli of carcinoma."},
+    {"dx": "Megakaryocytes/megakaryoblasts", "vs": "Megakaryocytic cells are singly dispersed with lobulated nuclei or cytoplasmic blebs and are CD61/CD42b positive, not cytokeratin-positive cohesive sheets."},
+    {"dx": "Acute leukemia / lymphoma cell clumping", "vs": "Hematopoietic blasts are discohesive and CD45-positive, whereas true epithelial clusters with molding are CD45-negative and cytokeratin-positive."},
+    {"dx": "Small round blue cell tumor (e.g. neuroblastoma, rhabdomyosarcoma)", "vs": "These occur mainly in children, form rosettes or small-cell clusters with scant cytoplasm, and have distinct immunoprofiles (PHOX2B, myogenin)."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61280",
+  "recognize_zh": "多格組圖：骨髓切片（A）被成片小型母細胞取代，但仍夾有大型、核深染分葉的巨核細胞（背景的真性紅血球增多症）；抹片（B）是核圓、染色質細緻、細胞質極少的淋巴母細胞；免疫染色一個膜染色陽性（C）、一個陰性（D）、一個強核染色陽性（E），支持 B 淋巴母細胞白血病。",
+  "features": [
+    "Panel A (BM biopsy, H&E): hypercellular marrow replaced by sheets of small to intermediate blasts with scattered large megakaryocytes having hyperchromatic, hyperlobated nuclei",
+    "Panel B (aspirate): monotonous lymphoblasts with round to slightly indented nuclei, fine chromatin, high N:C ratio and scant agranular basophilic cytoplasm; no Auer rods",
+    "Panel C (IHC): strong membranous staining of most blasts, consistent with a surface B-lineage or precursor marker",
+    "Panel D (IHC): blasts negative with only rare scattered positive cells, a pertinent negative lineage marker",
+    "Panel E (IHC): diffuse strong nuclear staining of blasts (pattern of TdT or PAX5); specific antibodies are not labeled in the figure"
+  ],
+  "describe_en": "The bone marrow core biopsy is hypercellular and diffusely infiltrated by sheets of small to intermediate-sized blasts, with residual large megakaryocytes showing hyperlobated, hyperchromatic nuclei. The aspirate smear shows lymphoblasts with round nuclei, finely dispersed chromatin, inconspicuous nucleoli and scant agranular cytoplasm. Immunohistochemistry demonstrates diffuse membranous positivity in one stain, a negative stain, and diffuse nuclear positivity in another; the antibodies are not labeled, so correlation with the original legend and flow cytometry is needed. Findings are consistent with B-lymphoblastic leukemia arising in a patient with JAK2 V617F-positive polycythemia vera.",
+  "ddx": [
+    {"dx": "Myeloid blast phase of polycythemia vera (post-PV AML)", "vs": "Far more common progression; blasts are MPO/CD13/CD33/CD117 positive rather than CD19/PAX5/TdT positive."},
+    {"dx": "Mixed phenotype acute leukemia, B/myeloid", "vs": "Requires MPO or multiple monocytic markers on the blasts in addition to B-lineage markers, which must be excluded by flow cytometry."},
+    {"dx": "Myeloid/lymphoid neoplasm with FGFR1 or JAK2 rearrangement", "vs": "Can present with lymphoblastic transformation plus MPN features; distinguished by FISH/karyotype for the rearrangement rather than JAK2 V617F."},
+    {"dx": "Hematogone hyperplasia", "vs": "Hematogones show a maturation continuum by flow (variable CD10/CD20/CD34) and do not form sheets that efface the marrow."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E, Wright-Giemsa, IHC (unlabeled markers)",
+  "match": "consistent",
+  "high_yield": false
+}

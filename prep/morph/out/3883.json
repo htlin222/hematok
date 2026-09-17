@@ -1,0 +1,23 @@
+{
+  "id": "3883",
+  "recognize_zh": "骨髓抹片被一群單調的中大型母細胞佔滿，細胞核圓、染色質細緻、細胞質少且無顆粒、看不到 Auer 小體，外觀類似淋巴母細胞，必須靠流式細胞儀證實髓系標記才能診斷為微分化型 AML。",
+  "features": [
+    "Sheets of medium to large blasts with high N:C ratio",
+    "Round to oval nuclei, some with slight indentation",
+    "Fine, finely dispersed chromatin with small inconspicuous nucleoli",
+    "Scant pale-blue agranular cytoplasm",
+    "No Auer rods identified",
+    "Few residual small lymphocytes, normoblasts and a neutrophil"
+  ],
+  "describe_en": "Bone marrow aspirate smear is markedly hypercellular and replaced by sheets of monotonous medium to large blasts with high nuclear-to-cytoplasmic ratios, round to oval nuclei, finely dispersed chromatin, inconspicuous nucleoli and scant pale agranular cytoplasm. Auer rods are not seen, and residual normal hematopoiesis is scant. Morphologically the blasts are undifferentiated and cannot be distinguished from lymphoblasts. Findings are consistent with acute leukemia; the diagnosis of AML with minimal differentiation requires MPO cytochemistry positivity in fewer than 3% of blasts with myeloid markers (CD13, CD33, CD117) on flow cytometry and absence of lymphoid-specific markers.",
+  "ddx": [
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "Lymphoblasts look identical; they are distinguished by flow cytometry showing CD19/CD79a/CD22 or cytoplasmic CD3 rather than CD13/CD33/CD117 expression."},
+    {"dx": "AML without maturation", "vs": "AML without maturation has at least 3% MPO-positive blasts and may show granules or Auer rods."},
+    {"dx": "Mixed phenotype acute leukemia", "vs": "MPAL requires lineage-specific markers of more than one lineage (e.g., MPO plus cytoplasmic CD3 or strong CD19), determined only by immunophenotyping."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts often show cytoplasmic blebs and are CD41/CD61 positive on flow cytometry."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

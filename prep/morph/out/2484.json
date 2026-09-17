@@ -1,0 +1,21 @@
+{
+  "id": "2484",
+  "recognize_zh": "周邊血液中可見兩顆雙葉核、胞質佈滿粗大顆粒的嗜酸性球，外加一顆小淋巴球與輕度紅血球大小不一；嗜酸性球增多可見於 JMML，但本視野沒有單核球增多或幼稚細胞，形態本身對 JMML 不具特異性。",
+  "features": [
+    "Two eosinophils with bilobed nuclei and cytoplasm packed with coarse granules (some with a purplish hue)",
+    "One small mature lymphocyte with dense chromatin and scant cytoplasm",
+    "Mild anisocytosis and poikilocytosis of red cells, including occasional target-like and irregular forms",
+    "No monocytes, blasts, or nucleated red cells in this field",
+    "Platelets not conspicuous in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows two eosinophils with bilobed nuclei and coarse cytoplasmic granules, a small mature lymphocyte, and red cells with mild anisopoikilocytosis. Monocytosis, circulating myeloid precursors, blasts, and nucleated red cells are not seen in this limited field. The eosinophilia is a non-specific finding. Diagnosis of juvenile myelomonocytic leukemia requires an absolute monocyte count of at least 1 x10^9/L, splenomegaly, and a RAS-pathway mutation (PTPN11, KRAS, NRAS, CBL, or NF1), which cannot be established from this image.",
+  "ddx": [
+    {"dx": "Reactive eosinophilia (parasitic infection, allergy)", "vs": "Reactive eosinophilia shows normal eosinophils without monocytosis or RAS-pathway mutations, depending on clinical correlation."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and tyrosine kinase fusion", "vs": "These are defined by PDGFRA, PDGFRB, FGFR1, JAK2, or FLT3 rearrangements rather than RAS-pathway mutations."},
+    {"dx": "Viral infection mimicking JMML (e.g., EBV, CMV)", "vs": "Viral infections can cause monocytosis and hepatosplenomegaly but show reactive lymphocytes and lack clonal RAS-pathway mutations."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

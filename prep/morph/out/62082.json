@@ -1,0 +1,22 @@
+{
+  "id": "62082",
+  "recognize_zh": "HPLC 報告顯示 HbF 高達 95.0%、HbA0 僅 0.3%（幾乎沒有成人血紅素），HbA2 3.9%，沒有其他變異峰，這種「HbA 缺如、HbF 為主」的圖形符合 β0 型重度地中海貧血（未輸血狀態）。",
+  "features": [
+    "Cation-exchange HPLC report (non-morphologic)",
+    "HbF markedly elevated at 95.0% (retention time 1.20 min)",
+    "HbA0 essentially absent at 0.3% (2.49 min)",
+    "HbA2 3.9% (3.63 min)",
+    "No abnormal variant peak; early peaks before 1 min represent minor/unknown fractions"
+  ],
+  "describe_en": "This is a cation-exchange high-performance liquid chromatography report rather than a morphologic image. The chromatogram is dominated by a HbF peak of 95.0%, with HbA0 virtually absent at 0.3% and HbA2 at 3.9%, and no abnormal variant hemoglobin peak. The near-complete absence of HbA with predominant HbF indicates absent beta-globin chain production, consistent with homozygous or compound heterozygous beta-zero thalassemia (beta-thalassemia major), provided the sample was obtained before transfusion. Molecular HBB analysis and parental studies are recommended to define the alleles.",
+  "ddx": [
+    {"dx": "Hereditary persistence of fetal hemoglobin (homozygous deletional HPFH)", "vs": "Homozygous HPFH also has ~100% HbF but with normal-to-mild microcytosis, no significant anemia or hemolysis, and low or absent HbA2."},
+    {"dx": "Normal neonatal/cord blood sample", "vs": "Newborns have predominant HbF but still show detectable HbA (typically 10-30%) and low HbA2."},
+    {"dx": "HbE/beta-zero thalassemia", "vs": "Would show a large HbE fraction eluting in the A2 window (typically 40-60%), not an A2 of only 3.9%."},
+    {"dx": "Post-transfusion beta-thalassemia major", "vs": "Recent transfusion introduces donor HbA and lowers the apparent HbF, so a pre-transfusion sample is required for interpretation."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (HPLC)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

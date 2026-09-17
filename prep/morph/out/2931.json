@@ -1,0 +1,21 @@
+{
+  "id": "2931",
+  "recognize_zh": "高倍周邊血液抹片中，大量血小板緊密圍繞兩顆嗜中性球（中間偏帶狀核），像花環一樣黏附於細胞膜外，旁邊還有一顆小淋巴球，是典型的血小板衛星現象。",
+  "features": [
+    "Dozens of normal-sized granular platelets rimming the outer membrane of a band neutrophil",
+    "Adjacent segmented neutrophil also partly encircled by platelets",
+    "Platelets are external to the neutrophil cytoplasm, not phagocytosed",
+    "Small mature lymphocyte nearby without adherent platelets",
+    "Few free platelets in the surrounding field; red cells unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows numerous normal-sized, well-granulated platelets adherent to the external surface of a band neutrophil and an adjacent segmented neutrophil, forming a rosette. A nearby small lymphocyte shows no platelet adherence. Free platelets are sparse elsewhere, and red cells are normocytic and normochromic. Findings are consistent with EDTA-dependent platelet satellitism, which can cause spurious thrombocytopenia on automated counts.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "ITP shows true platelet paucity without platelets adhering around neutrophils."},
+    {"dx": "EDTA-induced platelet clumping", "vs": "Clumps are free aggregates of platelets not bound to leukocyte surfaces, often accompanying but separate from satellitism."},
+    {"dx": "Leukocyte with phagocytosed platelets or bacteria", "vs": "Phagocytosed material lies inside the cytoplasm within vacuoles, whereas satellites line the outer cell margin."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

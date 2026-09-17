@@ -1,0 +1,21 @@
+{
+  "id": "61508",
+  "recognize_zh": "CD34 免疫染色中，大型上皮樣腫瘤細胞（卵圓或有凹陷的核、開放染色質）全部不染，只有穿行其間的血管內皮呈棕色陽性（內部對照）；說明髓樣肉瘤不一定表現 CD34，不能以 CD34 陰性排除。",
+  "features": [
+    "Sheets of large epithelioid tumor cells with oval, indented, or reniform nuclei and vesicular chromatin",
+    "Tumor cells are completely CD34 negative",
+    "Strong CD34 staining of branching capillary endothelium, serving as an internal positive control",
+    "Moderate amounts of pale cytoplasm with indistinct cell borders"
+  ],
+  "describe_en": "Immunohistochemical stain for CD34 on the soft tissue mass shows sheets of large epithelioid neoplastic cells with oval to indented nuclei and vesicular chromatin that are entirely negative. Branching capillaries within the tumor are strongly positive, confirming adequate staining. Because myeloid sarcoma with monocytic differentiation frequently lacks CD34, this negative result does not exclude the diagnosis. In conjunction with strong CD33 expression, findings are consistent with myeloid sarcoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL is CD34 negative as well, but CD20/PAX5 positive and CD33/lysozyme/CD68 negative."},
+    {"dx": "Poorly differentiated carcinoma", "vs": "Carcinoma is keratin positive and negative for CD33, CD43, and lysozyme."},
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytic sarcoma expresses CD163 and CD68 but lacks myeloid blast markers and has no associated AML or blood/marrow involvement."},
+    {"dx": "Melanoma", "vs": "Melanoma can be epithelioid and CD34 negative but expresses S100, SOX10, and Melan-A."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

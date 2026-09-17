@@ -1,0 +1,22 @@
+{
+  "id": "61387",
+  "recognize_zh": "A 圖骨髓切片同時看到片狀漿細胞浸潤與骨小樑旁成束排列的紡錘形肥大細胞；B–D 免疫染色分別顯示瀰漫性陽性的細胞片（漿細胞）及成束的紡錘形陽性細胞（肥大細胞）；E 流式可見少量 CD117 強陽性肥大細胞共同表現 CD25 與 CD2，符合系統性肥大細胞症合併多發性骨髓瘤。",
+  "features": [
+    "Panel A: hypercellular marrow with sheets of plasmacytoid cells with eccentric nuclei and a paratrabecular band of spindle-shaped cells with pale eosinophilic cytoplasm in streaming fascicles",
+    "Panel B: diffuse, strongly positive sheet of tumor cells on immunostain, consistent with plasma cell infiltrate",
+    "Panels C-D: immunostains highlight compact fascicles of spindled cells adjacent to bone and in aggregates, consistent with mast cell infiltrates",
+    "Panel E: CD117-bright/high-SSC mast cell gate containing 116 events (0.02%), which co-express CD25 and CD2",
+    "Specific antibodies for panels B-D are not labeled and resolution is low"
+  ],
+  "describe_en": "Bone marrow biopsy (A) shows a hypercellular marrow with sheets of plasma cells and a separate paratrabecular aggregate of spindle-shaped cells with pale eosinophilic cytoplasm arranged in streaming fascicles. Immunohistochemical stains (B-D; antibodies not labeled in the figure) highlight a diffuse sheet-like infiltrate and compact aggregates of spindled cells, consistent with plasma cell and mast cell components, respectively. Flow cytometry (E) identifies a small CD117-bright mast cell population (0.02% of events) with aberrant co-expression of CD25 and CD2. Findings are consistent with systemic mastocytosis with an associated hematologic neoplasm (plasma cell myeloma); KIT D816V testing, serum tryptase and plasma cell clonality studies should be correlated.",
+  "ddx": [
+    {"dx": "Reactive mast cell hyperplasia in plasma cell myeloma", "vs": "Reactive mast cells are scattered, round, CD25-negative and CD2-negative, without compact multifocal spindle-cell aggregates of 15 or more cells."},
+    {"dx": "Myelodysplastic/myeloproliferative neoplasm with fibrosis", "vs": "Spindled fibroblastic cells are tryptase- and CD117-negative and lack aberrant CD25/CD2 mast cells."},
+    {"dx": "Plasma cell myeloma alone", "vs": "Lacks the tryptase-positive, CD25-positive spindle-cell aggregates and KIT D816V mutation."},
+    {"dx": "Well-differentiated systemic mastocytosis", "vs": "Mast cells are round and fully granulated and often CD25-negative, rather than spindled CD25+/CD2+ cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (unlabeled); flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

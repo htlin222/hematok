@@ -1,0 +1,20 @@
+{
+  "id": "61030",
+  "recognize_zh": "周邊血白血球增加但嗜中性球無明顯發育不良、可見嗜鹼性球（箭頭）；骨髓合併酯酶染色顯示單核球系增加，巨核細胞形態大致正常；RT-PCR 偵測到 P190 BCR::ABL1，說明看起來像 CMML 的單核球增多其實是 CML-P190 變異型。",
+  "features": [
+    "Peripheral blood with neutrophils lacking obvious dysplasia and a basophil (arrowhead); no blasts in the field",
+    "Combined esterase stain of marrow showing numerous red-brown nonspecific esterase-positive monocytic cells admixed with blue-staining granulocytic cells",
+    "Aspirate with a large megakaryocyte with a round, non-lobulated-appearing nucleus amid maturing granulocytes",
+    "Qualitative RT-PCR amplification curves: patient sample amplifies with positive control for P190 BCR::ABL1, negative control flat"
+  ],
+  "describe_en": "Composite figure. The peripheral blood smear shows neutrophilia with mature neutrophils without significant dysplasia and an occasional basophil; no circulating blasts are present. A combined esterase stain of the bone marrow demonstrates a marked increase in esterase-positive monocytic cells in a background of granulocytic cells. The aspirate shows a megakaryocyte with a round, hypolobated nucleus among maturing myeloid cells. Qualitative RT-PCR detects the P190 BCR::ABL1 transcript in the patient sample, amplifying in parallel with the positive control. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, P190 variant, mimicking chronic myelomonocytic leukemia.",
+  "ddx": [
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML usually shows granulocytic dysplasia and cytopenias and, by definition, lacks BCR::ABL1."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML has prominent dysgranulopoiesis with circulating immature granulocytes and is BCR::ABL1-negative."},
+    {"dx": "Reactive monocytosis (infection, post-transplant immunosuppression)", "vs": "Reactive monocytosis lacks basophilia, marrow granulocytic hyperplasia with clonal cytogenetics, and BCR::ABL1."}
+  ],
+  "specimen": "other",
+  "stain": "Giemsa, combined esterase, RT-PCR",
+  "match": "consistent",
+  "high_yield": false
+}

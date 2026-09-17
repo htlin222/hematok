@@ -1,0 +1,22 @@
+{
+  "id": "2385",
+  "recognize_zh": "骨髓抹片中有一大團緊密黏聚、核互相擠壓變形（nuclear molding）的小至中型深藍色腫瘤細胞，細胞質極少、邊界不清，與周圍散在的造血細胞截然不同，符合轉移性神經母細胞瘤。",
+  "features": [
+    "Large cohesive syncytial-like cluster of small to medium-sized tumor cells",
+    "High N:C ratio with scant, poorly defined basophilic cytoplasm",
+    "Round to oval hyperchromatic nuclei with nuclear molding and overlapping",
+    "No well-formed rosettes or neuropil identifiable in this cluster",
+    "Background normal hematopoietic cells dispersed singly, sharply contrasting with the cluster"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large cohesive cluster of small to medium-sized round tumor cells with hyperchromatic nuclei, scant basophilic cytoplasm, indistinct cell borders and nuclear molding, clearly distinct from the singly dispersed background hematopoietic cells. No well-formed rosettes or fibrillary neuropil are identified in this field. Findings indicate marrow involvement by a metastatic small round blue cell tumor, consistent with metastatic neuroblastoma in the clinical context; immunostains (PHOX2B, synaptophysin, CD56 positive; CD45 negative) and urinary catecholamines support the diagnosis.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Leukemic blasts are dispersed individually without cohesion or nuclear molding and are CD45/TdT positive."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma cells may cluster but are CD99/NKX2.2 positive with EWSR1 rearrangement and lack neural markers such as PHOX2B."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Clusters with vacuolated cytoplasm that are desmin/myogenin positive, often with FOXO1 fusion."},
+    {"dx": "Hematogone (normal B-precursor) clusters or megakaryocyte crush", "vs": "Hematogones do not form true cohesive molded clusters, and a crushed megakaryocyte shows a single lobulated nucleus with granular cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2783",
+  "recognize_zh": "高倍免疫染色下，右側濾泡內密集的中大型細胞呈清楚的細胞膜棕色陽性（推測 B 細胞標記），左側小淋巴球多為陰性僅零星陽性，界線分明，顯示濾泡由 B 細胞構成。",
+  "features": [
+    "Dense membranous brown staining of intermediate to large cells filling the follicle on the right",
+    "Positive cells have round to oval vesicular nuclei with pale cytoplasm",
+    "Sharp border with a region of smaller, mostly negative lymphoid and hematopoietic cells on the left",
+    "Scattered individual positive cells outside the follicle",
+    "No aberrant cytoplasmic or nuclear staining pattern"
+  ],
+  "describe_en": "Bone marrow core biopsy immunohistochemical stain at high power (marker not labeled; membranous pattern suggests a B-cell marker such as CD20) shows strong membranous staining of the intermediate to large cells composing the follicle. The adjacent smaller cells are largely negative, with only scattered positive cells. The staining confirms a B-cell follicle with a sharp interface against the surrounding marrow. Findings are consistent with a reactive B-cell germinal center; BCL2, CD10 and Ki-67 would further support reactive status.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "Neoplastic follicles show BCL2 expression in germinal center B cells and a low, non-polarized Ki-67 index, unlike reactive germinal centers."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL shows diffuse sheets of large B cells effacing marrow without a circumscribed follicle and mantle."},
+    {"dx": "Hematogone clusters", "vs": "Hematogones are interstitially scattered CD19+/CD10+/TdT+ precursors and do not form a cohesive follicle of large B cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (marker not labeled; likely CD20)",
+  "match": "consistent",
+  "high_yield": false
+}

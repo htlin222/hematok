@@ -1,0 +1,22 @@
+{
+  "id": "61873",
+  "recognize_zh": "腦脊髓液細胞離心抹片中大量原始細胞，核大、染色質細緻，許多細胞的核一側凹陷形成杯狀（cup-like）淡染區，內含細小顆粒，這種杯狀核原始細胞是 NPM1 突變（常合併 FLT3-ITD）AML 的特徵。",
+  "features": [
+    "Numerous large blasts with high to moderate N:C ratio in a CSF cytospin",
+    "Fine, dispersed chromatin with small indistinct nucleoli",
+    "Cup-like nuclear invaginations forming a pale paranuclear zone containing fine granules",
+    "Moderate amount of grey-blue cytoplasm with occasional small vacuoles and cytoplasmic blebs",
+    "No Auer rods identified; no normal background cells in this field"
+  ],
+  "describe_en": "Cerebrospinal fluid cytospin shows numerous large blasts with fine, dispersed chromatin, small indistinct nucleoli and a moderate amount of grey-blue cytoplasm with occasional vacuoles and blebs. Many blasts display a cup-like nuclear invagination, creating a pale paranuclear zone that contains fine granules and occupies at least a quarter of the nuclear area. No Auer rods are identified and no mature leukocytes are present in this field. In a patient with known relapsed NPM1- and FLT3-mutated AML, findings are consistent with central nervous system involvement by AML with cup-like blasts.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL shows bilobed or butterfly nuclei, occasional Auer rod bundles, strong MPO and PML::RARA, although cup-like nuclei can occur in APL."},
+    {"dx": "Acute lymphoblastic leukemia in CSF", "vs": "Lymphoblasts have scant agranular cytoplasm without cup-like paranuclear clearing and express B- or T-lineage markers."},
+    {"dx": "Reactive monocytes/macrophages in CSF", "vs": "Reactive monocytes have folded nuclei with more mature chromatin, abundant vacuolated cytoplasm and a mixed inflammatory background."},
+    {"dx": "Blood contamination with circulating blasts", "vs": "Contamination is accompanied by numerous red cells and proportional peripheral leukocytes, whereas this field shows pure blasts without red cells."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

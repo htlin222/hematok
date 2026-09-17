@@ -1,0 +1,22 @@
+{
+  "id": "60037",
+  "recognize_zh": "骨髓抹片中央有一顆紅系前驅細胞，灰粉色的細胞質內含五個大小不一、染色質濃縮的圓形細胞核（多核化 multinucleation），代表紅系發育不良；周圍另有數顆大型母細胞，符合伴隨骨髓發育不良變化的 AML。",
+  "features": [
+    "Erythroid precursor containing five round, variably sized, dense pyknotic nuclei (multinucleation)",
+    "Orthochromatic-stage gray-pink cytoplasm indicating hemoglobinization of the dysplastic erythroid cell",
+    "Several adjacent large blasts with high N:C ratio, fine chromatin, and basophilic cytoplasm",
+    "Granulocytic precursor with indented nucleus at top and a normoblast at bottom",
+    "No Auer rods identified in the visible blasts"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows an erythroid precursor with five discrete, variably sized nuclei with condensed chromatin in hemoglobinized cytoplasm, a feature of dyserythropoiesis. Nearby are several large blasts with fine chromatin, high nuclear to cytoplasmic ratio, and basophilic agranular cytoplasm, along with a maturing granulocytic precursor and a normoblast. Auer rods are not seen. Findings demonstrate erythroid dysplasia in the background of increased blasts, consistent with acute myeloid leukemia with myelodysplasia-related changes.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic erythroid precursors can be multinucleated but show open sieve-like chromatin with nuclear-cytoplasmic asynchrony, and blasts are not increased."},
+    {"dx": "Congenital dyserythropoietic anemia type II or III", "vs": "CDA shows binucleate or giant multinucleated erythroblasts in a young patient without increased myeloid blasts or granulocytic dysplasia."},
+    {"dx": "Toxic or drug effect (e.g., alcohol, chemotherapy, arsenic)", "vs": "Toxic dyserythropoiesis lacks an increase in blasts and resolves after exposure is removed."},
+    {"dx": "Acute erythroid leukemia", "vs": "Pure erythroid leukemia requires more than 80% erythroid cells with at least 30% proerythroblasts, rather than dysplastic late normoblasts accompanying myeloblasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

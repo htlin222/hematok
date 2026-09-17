@@ -1,0 +1,21 @@
+{
+  "id": "1482",
+  "recognize_zh": "此圖並非一般 Wright 染色：多數大型顆粒球系細胞（核呈帶狀、分葉或腎形）胞質為灰藍色，無明顯紅色陽性顆粒，周邊則有紫紅色團塊；推測是細胞化學染色（可能為白血球鹼性磷酸酶 LAP），若是 LAP，大部分顆粒球不染即符合 CML 的低 LAP 分數，但圖上未標示染色方法。",
+  "features": [
+    "Non-Romanowsky cytochemical-type stain with blue counterstained cells and magenta-red deposits",
+    "Numerous granulocytic cells (metamyelocytes, band and segmented forms) with lobulated, reniform or band nuclei",
+    "Most granulocytes show gray-blue cytoplasm without distinct red reaction granules",
+    "Magenta-red staining clumps at the periphery of the field, possibly positive cells or background material",
+    "Occasional smaller cells with dense nuclei; resolution limits granule assessment"
+  ],
+  "describe_en": "Smear stained with what appears to be a cytochemical method shows numerous maturing granulocytic cells, including metamyelocytes, bands and segmented forms, most of which lack distinct red reaction product in the cytoplasm. Magenta-red deposits are present at the periphery of the field but cannot be confidently assigned to individual cells. The specific stain is not labeled; if this is a leukocyte alkaline phosphatase stain, the predominance of non-reactive neutrophils would indicate a low LAP score, consistent with chronic myeloid leukemia. Because the stain type and scoring cannot be verified from this image, BCR::ABL1 testing remains the definitive study.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "A leukemoid reaction shows a high LAP score with strongly reactive neutrophils, toxic granulation and no basophilia or BCR::ABL1 fusion."},
+    {"dx": "Polycythemia vera or primary myelofibrosis", "vs": "These MPNs typically have normal to increased LAP scores and carry JAK2, CALR or MPL mutations rather than BCR::ABL1."},
+    {"dx": "Paroxysmal nocturnal hemoglobinuria", "vs": "PNH also shows a low LAP score, but presents with hemolysis and absent GPI-anchored proteins on flow cytometry rather than a left-shifted leukocytosis."}
+  ],
+  "specimen": "PB",
+  "stain": "Cytochemical stain, not labeled (possibly LAP)",
+  "match": "partial",
+  "high_yield": false
+}

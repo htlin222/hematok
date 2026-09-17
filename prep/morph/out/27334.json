@@ -1,0 +1,22 @@
+{
+  "id": "27334",
+  "recognize_zh": "骨髓抹片中巨噬細胞吞入多顆紅血球與有核細胞（hemophagocytosis）；骨髓切片中一顆明顯腫大的細胞具有被透明暈圈包圍的大型核內包涵體（owl's eye）及細胞質顆粒狀包涵體，CMV 免疫染色呈強陽性——CMV 感染導致的噬血現象。",
+  "features": [
+    "Panels A–C (aspirate): macrophages engulfing multiple intact red cells and nucleated hematopoietic cells",
+    "Phagocytosed cells fill the cytoplasm and compress the macrophage nucleus",
+    "Panel D (H&E biopsy): markedly enlarged (cytomegalic) cell with large intranuclear inclusions surrounded by a clear halo",
+    "Panel D: fine granular basophilic/eosinophilic cytoplasmic inclusions in the same cell",
+    "Panel E (IHC for CMV): strong nuclear and cytoplasmic staining of the cytomegalic cell; surrounding cells negative"
+  ],
+  "describe_en": "Bone marrow aspirate smears (A–C) show several macrophages containing multiple phagocytosed erythrocytes and nucleated hematopoietic cells, indicating hemophagocytosis. The corresponding trephine biopsy (D) contains a cytomegalic cell with large intranuclear inclusions surrounded by a clear halo and granular cytoplasmic inclusions, a characteristic viral cytopathic effect. Immunohistochemistry for cytomegalovirus (E) strongly labels this cell. Findings are consistent with cytomegalovirus infection of the bone marrow with associated hemophagocytosis, supporting CMV-driven secondary hemophagocytic lymphohistiocytosis in an immunosuppressed patient; the diagnosis of HLH also requires clinical and laboratory criteria.",
+  "ddx": [
+    {"dx": "EBV-associated HLH or lymphoma-associated HLH", "vs": "EBV-driven HLH lacks cytomegalic owl's-eye inclusions and is confirmed by EBER in situ hybridization and EBV PCR."},
+    {"dx": "Herpes simplex/varicella-zoster virus infection", "vs": "HSV/VZV produce multinucleation, nuclear molding and ground-glass chromatin without cytomegaly or cytoplasmic inclusions."},
+    {"dx": "Reed-Sternberg-like cells in Hodgkin lymphoma", "vs": "Hodgkin cells have large eosinophilic nucleoli without halo-surrounded inclusions and are CD30/CD15-positive, CMV-negative."},
+    {"dx": "Incidental erythrophagocytosis (post-transfusion, sepsis)", "vs": "Isolated erythrophagocytosis is nonspecific and does not by itself meet HLH criteria (fever, cytopenias, ferritin, sCD25, splenomegaly)."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: CMV",
+  "match": "consistent",
+  "high_yield": true
+}

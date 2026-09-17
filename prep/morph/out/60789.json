@@ -1,0 +1,21 @@
+{
+  "id": "60789",
+  "recognize_zh": "骨組織切片中大型腫瘤細胞呈片狀，CD20 在細胞膜呈強而完整的棕色環狀陽性，核大且淡、含小核仁，右下角可見藍紫色骨小樑，證實是侵犯骨頭的大 B 細胞淋巴瘤。",
+  "features": [
+    "Sheets of large cells with strong, complete membranous CD20 staining",
+    "Large oval vesicular nuclei with small nucleoli visible in the counterstain",
+    "Small capillaries and stromal cells negative for CD20",
+    "Bone trabecula at lower right (decalcified, purple-blue) adjacent to the infiltrate",
+    "Some crush/edge artifact at the tissue margin"
+  ],
+  "describe_en": "CD20 immunohistochemistry on a bone biopsy shows diffuse sheets of large lymphoid cells with strong, crisp membranous staining. The nuclei are large and vesicular with small nucleoli, and intervening capillaries and stromal cells are negative. A bony trabecula is present at the lower right, adjacent to the infiltrate. Together with the centroblastic H&E morphology, findings are consistent with primary bone diffuse large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma or plasma cell myeloma", "vs": "Large cells are CD20 negative and CD138/MUM1 positive."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are scattered and CD20 weak or negative rather than forming CD20-strong sheets."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "CD20 may be positive, but cells are medium with fine chromatin and express TdT/CD34."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

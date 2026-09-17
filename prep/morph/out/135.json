@@ -1,0 +1,39 @@
+{
+  "id": "135",
+  "recognize_zh": "骨髓抹片與切片中可見大量具細緻染色質與核仁的芽細胞，並伴隨許多單核／小型發育不良巨核細胞（micromegakaryocytes，CD61類標記凸顯）；染色體核型顯示 -5、-7、-17 與 marker 染色體的複雜單套型核型，NGS 見 TP53 變異，綜合支持 AML-MRC。",
+  "features": [
+    "Bone marrow aspirate dominated by medium-to-large blasts with high N:C ratio, finely dispersed chromatin, visible nucleoli and scant basophilic cytoplasm, some with folded or indented nuclei",
+    "Dysplastic megakaryocytes: small mononuclear/hypolobated forms with a single round nucleus and granular cytoplasm (aspirate, H&E, and megakaryocytic IHC)",
+    "Hypercellular trephine with sheets of immature cells, open chromatin, prominent nucleoli and mitotic figures, with scattered clustered small megakaryocytes",
+    "Megakaryocytic marker IHC highlights numerous small, mono- and bilobated megakaryocytes in loose clusters",
+    "Peripheral blood with marked thrombocytopenia, red cell anisopoikilocytosis and an occasional circulating blast",
+    "Complex monosomal karyotype (single copies of chromosomes 5, 7, 16 and 17 plus marker chromosomes) and a TP53 single-nucleotide variant on NGS read alignment"
+  ],
+  "describe_en": "Peripheral blood smear shows marked thrombocytopenia, red cell anisopoikilocytosis and a rare circulating blast. The bone marrow aspirate is cellular and largely replaced by blasts with fine chromatin, nucleoli and scant cytoplasm, accompanied by dysplastic mononuclear and hypolobated megakaryocytes; the iron stain shows scattered iron granules without conspicuous ring sideroblasts in the field shown. The trephine biopsy is hypercellular with sheets of blasts and increased mitoses, and megakaryocytic immunostaining highlights numerous small, dysplastic, clustered megakaryocytes; a nuclear immunostain (red chromogen) is strongly positive in a large proportion of cells, a pattern compatible with p53 overexpression. Karyotype shows a complex monosomal karyotype including monosomy 5, 7 and 17 with marker chromosomes, and NGS demonstrates a TP53 variant. Findings are consistent with acute myeloid leukemia with myelodysplasia-related changes (complex karyotype, TP53-mutated).",
+  "ddx": [
+    {"dx": "AML with inv(3)(q21.3q26.2)/t(3;3) (MECOM rearrangement)", "vs": "Also shows small hypolobated megakaryocytes, but is defined by the 3q26 rearrangement on karyotype, whereas this case has monosomies 5, 7 and 17 without chromosome 3 abnormality."},
+    {"dx": "AML with mutated NPM1 with multilineage dysplasia", "vs": "Can mimic multilineage dysplasia but typically has a normal karyotype with cup-like blast nuclei; an MDS-related complex karyotype as seen here takes precedence."},
+    {"dx": "Acute megakaryoblastic leukemia (AML-M7)", "vs": "Blasts themselves express megakaryocytic markers (CD41/CD61) with cytoplasmic blebs and often marrow fibrosis, whereas here the CD61-type stain marks dysplastic maturing megakaryocytes rather than the blast population."},
+    {"dx": "Therapy-related myeloid neoplasm", "vs": "Morphology and TP53/complex karyotype overlap entirely; separation rests on a history of prior cytotoxic therapy or radiation."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, Prussian blue, IHC; karyotype; NGS",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: marked thrombocytopenia with anisopoikilocytosis and a rare circulating blast (top).",
+    "Bone marrow aspirate: sheets of blasts with fine chromatin, nucleoli and folded nuclei (arrows).",
+    "Bone marrow aspirate: dysplastic mononuclear megakaryocyte with a single round nucleus (arrow) among blasts.",
+    "Bone marrow aspirate: small hypolobated megakaryocytes with granular cytoplasm (arrows) amid blasts.",
+    "Trephine biopsy, H&E: hypercellular marrow with sheets of immature cells next to a bony trabecula.",
+    "Trephine biopsy, H&E high power: blasts with open chromatin and nucleoli (arrows) and a mitotic figure.",
+    "Trephine biopsy, H&E: small mononuclear dysplastic megakaryocyte (arrow).",
+    "Aspirate iron stain: scattered iron granules, no conspicuous ring sideroblasts in this field.",
+    "Trephine IHC (red chromogen): strong nuclear staining in many cells, compatible with p53 overexpression.",
+    "Megakaryocytic marker IHC: numerous small, clustered dysplastic megakaryocytes.",
+    "Megakaryocytic marker IHC: mononuclear micromegakaryocyte (arrow) and hypolobated forms.",
+    "Megakaryocytic marker IHC high power: bilobed and mononuclear dysplastic megakaryocytes.",
+    "Karyotype: complex monosomal karyotype with single chromosomes 5, 7, 16 and 17 (arrows) and marker chromosomes.",
+    "NGS read alignment (IGV) at TP53 on 17p13.1 showing a single-nucleotide variant in a subset of reads."
+  ]
+}

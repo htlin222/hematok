@@ -1,0 +1,22 @@
+{
+  "id": "60682",
+  "recognize_zh": "骨髓抹片中許多細胞核呈雙葉或摺疊、胞質含顆粒，乍看類似低顆粒型 APL（B、C），但 E 圖 FISH 顯示紅綠訊號分開、無融合訊號，F 圖為核型分析，提示形態像 APL 卻缺乏 PML::RARA，屬「誤導性」APL 形態。",
+  "features": [
+    "Aspirate (A-C): increased immature myeloid cells with bilobed, folded, or reniform nuclei and granular to hypogranular cytoplasm, mimicking microgranular APL",
+    "Some cells with pale basophilic cytoplasm and possible fine granules; dotted arrows highlight cells/structures of interest (Auer rods not clearly resolved at this resolution)",
+    "Panel D: large blasts with fine chromatin, nucleoli, and fine azurophilic granules",
+    "FISH (E): separate red and green signals in metaphase and interphase nuclei without a fusion signal, i.e., no PML::RARA fusion evident",
+    "Karyotype (F): G-banded karyogram; the specific abnormality cannot be resolved at this image resolution"
+  ],
+  "describe_en": "Bone marrow aspirate smears (panels A-D) show a population of immature myeloid cells with bilobed or folded nuclei, fine chromatin, and variably granular cytoplasm, together with larger blasts containing fine azurophilic granules, a pattern resembling hypogranular acute promyelocytic leukemia. Dual-color FISH (panel E) shows separate red and green signals in both an interphase nucleus and a metaphase, without the yellow/fused signals expected for PML::RARA. A G-banded karyotype is shown (panel F), but the individual chromosomal changes are not legible at this resolution. The findings illustrate an AML with APL-like morphology that lacks PML::RARA, emphasizing that APL must be confirmed genetically rather than by morphology alone.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia, hypogranular variant", "vs": "Microgranular APL shows bilobed hypogranular cells and faggot cells but, by definition, harbors PML::RARA (or a RARA variant), which is absent here by FISH."},
+    {"dx": "AML with NPM1 mutation", "vs": "NPM1-mutated AML can show cup-like/folded nuclei and an HLA-DR-negative, CD34-negative phenotype mimicking APL, but lacks RARA rearrangement and shows cytoplasmic NPM1."},
+    {"dx": "AML with t(8;16)(p11;p13) KAT6A::CREBBP", "vs": "This entity has monocytic cells with granules and characteristic erythrophagocytosis, and a KAT6A rearrangement rather than RARA."},
+    {"dx": "Acute myelomonocytic/monocytic leukemia", "vs": "Promonocytes with folded nuclei mimic APL but are nonspecific esterase positive and CD14/CD64 positive, with weaker MPO and no faggot cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; FISH; G-banded karyotype",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61474",
+  "recognize_zh": "四格血片中多顆淋巴樣細胞周圍緊密環繞著一圈紫色血小板（血小板衛星現象），連脫落的淡藍色細胞質碎片（C、D 圖）也被血小板包圍，而旁邊的中性球則沒有，說明這是黏附在腫瘤淋巴細胞上的假性血小板減少。",
+  "features": [
+    "Platelets rosetting tightly around the surface of lymphoid cells (panels A-C), forming satellitism",
+    "Platelet rosettes also surround detached pale blue cytoplasmic fragments without nuclei (panels C and D)",
+    "Lymphoid cells medium-to-large with round to oval nuclei, fairly condensed chromatin and moderate pale basophilic cytoplasm",
+    "Adjacent segmented neutrophil (panel B) and other leukocytes lack attached platelets",
+    "Few free platelets in the background, explaining a spuriously low automated platelet count"
+  ],
+  "describe_en": "Peripheral blood smear shows medium-to-large atypical lymphoid cells with round to oval nuclei, condensed chromatin and a moderate amount of pale basophilic cytoplasm. Numerous platelets adhere tightly around these lymphoid cells (platelet satellitism), and similar platelet rosettes surround detached anucleate cytoplasmic fragments derived from the neoplastic cells. A neighboring neutrophil lacks adherent platelets, and free platelets are sparse in the background. Findings represent platelet satellitism around neoplastic lymphocytes and their cytoplasmic fragments, a cause of pseudothrombocytopenia; platelet count should be verified by smear review or a citrated sample.",
+  "ddx": [
+    {"dx": "EDTA-dependent neutrophil platelet satellitism", "vs": "Classic EDTA satellitism rosettes around neutrophils, whereas here platelets adhere to lymphoid cells and their fragments while the neutrophil is spared."},
+    {"dx": "EDTA-induced platelet clumping", "vs": "Clumping forms free platelet aggregates not centered on a leukocyte, whereas satellitism rings a cell or fragment."},
+    {"dx": "Granular lymphocytes or basophils", "vs": "Azurophilic or basophilic granules lie within the cell cytoplasm, while satellite platelets sit on the outer cell membrane as separate discrete particles."},
+    {"dx": "True thrombocytopenia with circulating lymphoma cells", "vs": "True thrombocytopenia persists on a citrated sample and smear shows no platelets sequestered around cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

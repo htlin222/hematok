@@ -1,0 +1,21 @@
+{
+  "id": "3035",
+  "recognize_zh": "淋巴組織 H&E 高倍下可見多量大型免疫母細胞（immunoblasts），核仁明顯，並有一個雙核、類似 Reed-Sternberg 的細胞，背景混合小淋巴球、漿細胞與凋亡小體，呈多形性反應，符合傳染性單核球增多症。",
+  "features": [
+    "Polymorphous lymphoid infiltrate of small lymphocytes, plasmacytoid cells, and many large immunoblasts",
+    "Immunoblasts with vesicular nuclei, distinct nucleoli, and moderate amphophilic cytoplasm",
+    "Occasional binucleate or multinucleate Reed-Sternberg-like cells",
+    "Scattered apoptotic bodies and hyperchromatic pyknotic nuclei",
+    "Loss of normal architecture not assessable at this high magnification"
+  ],
+  "describe_en": "Sections of lymphoid tissue show a polymorphous infiltrate composed of small lymphocytes, plasmacytoid cells, and numerous large immunoblasts with vesicular chromatin, prominent nucleoli, and amphophilic cytoplasm. Binucleate and multinucleate Reed-Sternberg-like cells are present, along with scattered apoptotic bodies. The cellular spectrum is continuous from small to large cells rather than a monotonous population. In the appropriate clinical setting, findings are consistent with infectious mononucleosis (EBV lymphadenitis/tonsillitis); correlation with EBV serology and EBER in situ hybridization is recommended.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells in cHL are CD30+/CD15+ with weak PAX5 and CD45-/CD20-, whereas IM immunoblasts are CD20+/CD45+ and usually CD15- within a continuous spectrum of activated cells."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL shows sheets of monotonous large cells effacing architecture, whereas IM shows a polymorphous mixture with preserved sinuses/follicles and polyclonal plasma cells."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL has hallmark cells with horseshoe nuclei and strong uniform CD30 with T-cell markers, unlike the B-immunoblast rich polymorphous IM infiltrate."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

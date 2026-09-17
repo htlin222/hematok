@@ -1,0 +1,20 @@
+{
+  "id": "62956",
+  "recognize_zh": "LEF1 染色中強陽性的核只見於散在或小群聚的小型 T 細胞，而背景大片腫瘤細胞核為陰性或僅極弱染色；LEF1 陰性有助於排除同樣 CD5 陽性的慢性淋巴球性白血病（CLL/SLL）。",
+  "features": [
+    "Strong nuclear LEF1 staining limited to scattered and small clusters of small lymphocytes (reactive T cells)",
+    "Neoplastic intermediate-sized cells negative or only faintly stained",
+    "Dense diffuse sheets of round to slightly irregular nuclei",
+    "Positive cells arranged in loose streaks, not in a diffuse pattern"
+  ],
+  "describe_en": "Immunohistochemical stain for LEF1 shows strong nuclear staining in scattered and loosely clustered small background lymphocytes, consistent with reactive T cells. The diffuse population of intermediate-sized neoplastic cells is negative to only faintly stained. Lack of LEF1 expression in a CD5-positive B-cell lymphoma argues against CLL/SLL and, together with cyclin D1 positivity, supports mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "CLL/SLL", "vs": "CLL/SLL neoplastic B cells show diffuse nuclear LEF1 positivity, whereas MCL cells are LEF1-negative apart from background T cells."},
+    {"dx": "Richter transformation of CLL", "vs": "Large cells arising from CLL frequently retain LEF1 expression and are cyclin D1-negative."},
+    {"dx": "Aggressive B-cell lymphoma with aberrant LEF1", "vs": "Some DLBCL and Burkitt lymphomas express LEF1 in large or medium cells, but these lack cyclin D1 and CD5 co-expression."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: LEF1",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3561",
+  "recognize_zh": "在紅血球背景中，右側有一顆小至中型、染色質濃縮的淋巴球，核呈多葉花瓣狀（flower cell），細胞質極少；白血球總數看起來不高，符合悶燃型成人 T 細胞白血病／淋巴瘤（ATLL, smoldering）的少量異常淋巴球。",
+  "features": [
+    "Small to medium lymphoid cell with deeply lobulated, clover-leaf (flower-like) nucleus",
+    "Condensed, hyperchromatic chromatin without visible nucleoli",
+    "Scant, basophilic to pale cytoplasm without granules",
+    "Second cell (left) with lobulated nucleus and pale granular cytoplasm, more in keeping with a neutrophil",
+    "Low leukocyte density with unremarkable red cells and platelets"
+  ],
+  "describe_en": "Peripheral blood smear at low power shows normocytic, normochromic red cells with adequate platelets and a low density of leukocytes. One small-to-medium lymphoid cell has a hyperchromatic, deeply lobulated nucleus with a flower-like configuration and scant cytoplasm; the adjacent cell with pale granular cytoplasm resembles a neutrophil. Only rare abnormal lymphocytes are seen, without marked lymphocytosis. In an HTLV-1-seropositive patient, these findings are consistent with adult T-cell leukemia/lymphoma, smoldering variant, pending flow cytometry (CD4+, CD25+, CD7-) and clinical staging.",
+  "ddx": [
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform, finely grooved nuclei rather than polylobated flower-like nuclei, and HTLV-1 serology is negative."},
+    {"dx": "Reactive lymphocytes with nuclear lobation", "vs": "Reactive cells are heterogeneous with more abundant cytoplasm and lack a clonal CD4+CD25+CD7- T-cell population."},
+    {"dx": "Hypersegmented or pyknotic neutrophil", "vs": "Neutrophils have abundant pink granular cytoplasm and discrete lobes joined by filaments, unlike the scant agranular cytoplasm of flower cells."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "Cells show a single prominent nucleolus and cytoplasmic blebs, with marked lymphocytosis and TCL1 rearrangement."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

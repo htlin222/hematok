@@ -1,0 +1,22 @@
+{
+  "id": "61787",
+  "recognize_zh": "複合圖：A 血液抹片有成群、類似母細胞的大型不成熟細胞；B–D 流式顯示 CD34 陽性但 CD33、CD19、CD7 皆陰性，缺乏任何造血系列標記；E 骨髓切片為片狀單調細胞，F–H 免疫染色呈強陽性或斑片陽性。這種「CD34 陽性卻無系列標記」提示非造血腫瘤（NUT carcinoma）偽裝成急性白血病，但圖上未標示抗體名稱，NUT 本身無法由圖確認。",
+  "features": [
+    "Panel A: cluster of large immature cells with high N:C ratio, fine chromatin, basophilic cytoplasm and irregular nuclear outlines, resembling blasts, forming a cohesive group",
+    "Panel B: CD45 vs SSC plot with a large CD45-dim/negative low-SSC population gated as 'blasts'",
+    "Panels C-D: gated cells are CD34 positive but negative for CD33, CD19 and CD7 (no myeloid, B- or T-lineage marker)",
+    "Panel E: bone marrow biopsy replaced by sheets of monotonous cells adjacent to a bony trabecula",
+    "Panels F-H: unlabeled IHC with diffuse strong membranous/cytoplasmic staining (F) and patchy cytoplasmic positivity (G, H); specific antibodies cannot be identified from the image"
+  ],
+  "describe_en": "This composite figure shows peripheral blood with clusters of large, cohesive blast-like cells (A), flow cytometry identifying a CD45-dim/negative, low side-scatter population that is CD34 positive but lacks CD33, CD19 and CD7 (B-D), and a bone marrow biopsy diffusely replaced by sheets of monotonous tumor cells (E) with several immunohistochemical stains (F-H). The absence of any hematopoietic lineage marker on a CD34-positive population, CD45 negativity and cohesive clustering on the smear are red flags for a non-hematopoietic neoplasm. The IHC panels are unlabeled, so the NUT (speckled nuclear) and cytokeratin results cannot be verified in this image. Findings are suggestive of metastatic carcinoma mimicking CD34-positive acute leukemia, consistent with the stated NUT carcinoma when confirmed by NUT IHC or NUTM1 rearrangement.",
+  "ddx": [
+    {"dx": "Acute undifferentiated leukemia", "vs": "Blasts are CD45 dim-positive and lack lineage markers but are cytokeratin and NUT negative and do not form cohesive clusters on smear."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Blasts express CD13, CD33 and/or CD117 with CD45 dim positivity, which this CD33-negative population does not show."},
+    {"dx": "Small round blue cell tumors in marrow (Ewing sarcoma, rhabdomyosarcoma, neuroblastoma)", "vs": "Share CD45 negativity and clustering but show CD99/NKX2-2, desmin/myogenin or PHOX2B positivity respectively instead of keratin and NUT."},
+    {"dx": "Early T-precursor or B-lymphoblastic leukemia", "vs": "Express CD7/cytoplasmic CD3 or CD19/CD79a, both absent here."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; flow cytometry; H&E; IHC (unlabeled)",
+  "match": "partial",
+  "high_yield": false
+}

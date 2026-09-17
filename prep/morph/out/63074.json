@@ -1,0 +1,21 @@
+{
+  "id": "63074",
+  "recognize_zh": "MUM1 染色中，許多小型細胞核呈深棕色強陽性，而散在的大型 LP 細胞核只呈淡至中度棕色，比背景小細胞弱；大細胞 MUM1 弱陽性、分布在小淋巴球結節中，符合 NLPHL 的 LP 細胞。",
+  "features": [
+    "Immunohistochemical stain for MUM1/IRF4 at medium power",
+    "Numerous small cells with strong dark brown nuclear MUM1 staining (activated T cells/plasma cells)",
+    "Scattered large cells with big vesicular nuclei showing weak to moderate nuclear MUM1 staining, weaker than the small cells",
+    "Occasional large cells with multilobated or binucleate-appearing nuclei",
+    "Background MUM1-negative small lymphocytes forming a vague nodular distribution"
+  ],
+  "describe_en": "Immunohistochemical stain for MUM1 shows numerous small cells with strong nuclear positivity scattered throughout a background of MUM1-negative small lymphocytes. Interspersed large cells with vesicular, sometimes lobulated nuclei show weak to moderate nuclear MUM1 staining, noticeably weaker than the reactive small cells. This weak, variable MUM1 expression in the large cells is compatible with LP cells. Findings are consistent with nodular lymphocyte predominant Hodgkin lymphoma when correlated with CD20, OCT2, BOB1 positivity and CD30/CD15 negativity in the large cells.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are typically strongly and uniformly MUM1-positive and additionally CD30/CD15-positive with loss of OCT2/BOB1, whereas LP cells here show weaker MUM1."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Large cells can have similar MUM1 staining; separation depends on architecture (diffuse, loss of nodules and follicular dendritic cell meshworks, few small B cells)."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC nodules contain mantle B cells and residual germinal center cells but lack the scattered large atypical LP cells seen here."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: MUM1",
+  "match": "consistent",
+  "high_yield": false
+}

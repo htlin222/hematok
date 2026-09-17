@@ -1,0 +1,21 @@
+{
+  "id": "61129",
+  "recognize_zh": "合成圖 A 格（100x 抹片）為大型母細胞，胞質深藍且布滿清楚空泡，核染色質細緻，外觀很像 Burkitt 淋巴瘤細胞；B–D 為 FISH、E 為核型，須靠 BCR::ABL1 證據與骨髓性標記才能判定為 CML 骨髓性急變期。",
+  "features": [
+    "Panel A: large blasts with round to oval nuclei, finely dispersed chromatin and moderate to abundant deeply basophilic cytoplasm",
+    "Prominent, sharply punched-out cytoplasmic vacuoles creating a Burkitt-like appearance",
+    "Occasional maturing granulocytes in the background; no Auer rods evident at this resolution",
+    "Panels B-D: interphase and metaphase FISH with red/green signals and arrows marking fusion or abnormal signals (labels not legible at this resolution)",
+    "Panel E: karyotype ideogram with additional abnormalities (details not legible)"
+  ],
+  "describe_en": "Composite figure. The smear in panel A shows large blasts with fine chromatin, moderate to abundant deeply basophilic cytoplasm and numerous distinct cytoplasmic vacuoles, closely mimicking Burkitt lymphoma/leukemia cells; a maturing granulocyte is present nearby. Panels B-D display interphase and metaphase FISH images with abnormal signal patterns, and panel E shows a karyotype; probe names and specific abnormalities are not legible at this resolution. In a patient with CML, vacuolated blasts must be immunophenotyped, as the morphology alone cannot establish lineage; findings are consistent with myeloid blast phase of CML with lymphoma-like morphology when myeloid markers and BCR::ABL1 are demonstrated.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells are mature B cells (CD19/CD20/CD10/sIg+, TdT-negative) with MYC rearrangement and no BCR::ABL1 fusion."},
+    {"dx": "Lymphoid blast phase of CML", "vs": "Lymphoid blasts are TdT/CD19/CD10-positive and MPO-negative, whereas myeloid blast phase shows MPO, CD13/CD33/CD117 expression."},
+    {"dx": "Acute monocytic leukemia with vacuolated blasts", "vs": "Monoblasts are nonspecific esterase- and CD14/CD64-positive with folded nuclei and lack the Philadelphia chromosome."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; FISH; karyotype",
+  "match": "consistent",
+  "high_yield": false
+}

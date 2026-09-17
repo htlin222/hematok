@@ -1,0 +1,20 @@
+{
+  "id": "62177",
+  "recognize_zh": "這是流式細胞儀 CD4 對側向散射（SSC-A）點圖：84% 事件位於 CD4 陽性閘門，主要族群為 CD4 弱至中度陽性、SSC 中低，落在單核球區域，符合單核球系（monocytic）細胞擴增；CD4 單一抗原並不具系別特異性。",
+  "features": [
+    "Flow cytometry dot plot of CD4 (x-axis, log) versus SSC-A (y-axis, linear), singlet-gated",
+    "CD4+ gate contains 84.00% of events",
+    "Dominant population with dim-to-moderate CD4 and low-intermediate SSC (monocytic region)",
+    "Smaller CD4-negative populations with low SSC (lymphocytes) and a scattered higher-SSC CD4-negative component",
+    "Tail of cells with higher SSC and CD4 expression extending upward"
+  ],
+  "describe_en": "Flow cytometric dot plot of peripheral blood singlets displays CD4 versus side scatter. The CD4-positive gate contains 84% of events, with the dominant population showing dim to moderate CD4 expression and low-to-intermediate side scatter, a pattern typical of monocytic cells, which express CD4 more weakly than helper T cells. CD4-negative events of low side scatter represent lymphocytes and other cells. CD4 alone is not lineage specific, and additional markers (CD14, CD64, CD11b, CD36, HLA-DR, CD34/CD117) are required; in context, the plot supports an expanded monocytic population in acute monocytic leukemia.",
+  "ddx": [
+    {"dx": "CD4+ T-cell proliferation (e.g. Sézary syndrome, T-PLL)", "vs": "T cells show bright CD4 with low SSC and co-express CD3, whereas monocytic cells are CD4 dim, CD3 negative and CD64/CD14 positive."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is CD4+ CD56+ CD123 bright TCF4+ but lacks CD14, CD64 bright and MPO/lysozyme expression."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

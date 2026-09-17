@@ -1,0 +1,29 @@
+{
+  "id": "88",
+  "recognize_zh": "淋巴結內可見比周圍反應性濾泡大好幾倍的膨大濾泡，生發中心被小型套區淋巴球滲入而呈斑駁、界線模糊；IgD 染色顯示 IgD 陽性套區細胞大量侵入濾泡內，只剩零碎的 IgD 陰性生發中心殘島，符合生發中心進行性轉化（PTGC）。",
+  "features": [
+    "Markedly enlarged, expansile follicles several times the size of adjacent reactive secondary follicles",
+    "Germinal centers broken up and blurred by infiltrating small mantle-zone lymphocytes, giving a mottled appearance",
+    "Background of preserved nodal architecture with ordinary reactive follicles and interfollicular vessels",
+    "IgD highlights small mantle-type B cells permeating the follicle, leaving small IgD-negative germinal center remnants",
+    "High power: IgD-positive small lymphocytes stream into the follicle among IgD-negative centroblast-like cells; no clusters of atypical large cells evident"
+  ],
+  "describe_en": "Sections of lymph node show preserved overall architecture with numerous reactive secondary follicles. Several follicles are markedly enlarged and expansile, with germinal centers that are disrupted and blurred by ingrowth of small mantle-zone lymphocytes, imparting a mottled appearance. An IgD stain highlights mantle-zone B cells extensively infiltrating these large follicles, leaving only fragmented IgD-negative germinal center remnants. No sheets of atypical large cells are identified on these images. Findings are consistent with progressive transformation of germinal centers; correlation with CD20, CD3/PD-1 and OCT-2 staining is advised to exclude nodular lymphocyte-predominant Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (NLPHL)", "vs": "NLPHL shows effacement by many large nodules containing scattered LP (popcorn) cells with CD20+/OCT-2 strong/BCL6+ expression rimmed by PD-1+ T cells, whereas PTGC is a minority of enlarged follicles in an otherwise reactive node without LP cells."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma has back-to-back monotonous follicles with attenuated mantles and BCL2-positive germinal center cells, not IgD-positive mantle cells infiltrating a few large follicles."},
+    {"dx": "Mantle cell lymphoma, mantle zone or nodular pattern", "vs": "Mantle cell lymphoma is a monotonous cyclin D1+/SOX11+ population that effaces the node, whereas the infiltrating IgD+ mantle cells in PTGC are polyclonal and cyclin D1-negative."},
+    {"dx": "Nodular lymphocyte-rich classic Hodgkin lymphoma", "vs": "Lymphocyte-rich cHL contains CD30+/CD15+, PAX5-dim Hodgkin/Reed-Sternberg cells within expanded mantle zones, which are absent in PTGC."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: IgD",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E, low power: a markedly enlarged follicle beside smaller reactive follicles",
+    "H&E, low power: expansile follicle with a germinal center mottled by infiltrating small lymphocytes",
+    "IgD, low power: IgD-positive mantle cells filling a large follicle, compared with smaller follicles that have intact mantle rims",
+    "IgD, low power: very large follicle with IgD-positive cells permeating it and leaving pale germinal center remnants",
+    "IgD, high power: IgD-positive small mantle cells streaming into the follicle among IgD-negative germinal center cells"
+  ]
+}

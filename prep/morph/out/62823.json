@@ -1,0 +1,21 @@
+{
+  "id": "62823",
+  "recognize_zh": "Lambda 輕鏈免疫染色下，瀰漫浸潤的大型淡胞質腫瘤細胞全為陰性（藍色核），只見細胞間細網狀的血清背景染色及零星幾顆小型陽性細胞；與 kappa 同樣陰性，表示腫瘤不是輕鏈限制的漿細胞腫瘤。",
+  "features": [
+    "IHC for lambda light chain on a marrow core diffusely infiltrated by tumor cells with scattered fat spaces",
+    "Tumor cells with pale cytoplasm and round nuclei are negative",
+    "Delicate lace-like interstitial brown staining from serum immunoglobulin outlining cells and adipocytes",
+    "Only rare scattered small positive cells, consistent with residual polytypic plasma cells",
+    "No sheet-like or clustered cytoplasmic lambda positivity"
+  ],
+  "describe_en": "Immunohistochemical stain for lambda light chain on the bone marrow core shows that the diffusely infiltrating tumor cells are negative. A delicate lace-like interstitial staining pattern reflects background serum immunoglobulin, and only rare scattered small positive cells, likely residual reactive plasma cells, are present. With concurrent kappa negativity, the absence of light chain expression in the neoplastic cells argues against a plasma cell neoplasm and supports metastatic carcinoma with plasmacytoid morphology.",
+  "ddx": [
+    {"dx": "Lambda-restricted plasma cell myeloma", "vs": "Myeloma would show strong cytoplasmic lambda staining in most neoplastic cells, rather than only background serum staining."},
+    {"dx": "Non-secretory myeloma", "vs": "Light chain-negative myeloma remains CD138/MUM1 positive and cytokeratin, GATA3 and ER negative."},
+    {"dx": "Metastatic lobular breast carcinoma", "vs": "Carcinoma is kappa and lambda negative with cytokeratin, GATA3 and ER expression, fitting this case."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: lambda light chain",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61181",
+  "recognize_zh": "血液抹片中出現體積大、細胞核圓、細胞質帶空泡的非造血細胞，有時成群（A 格）；C、D 格細胞角蛋白（cytokeratin）免疫染色陽性，證實是周邊血中的癌細胞（carcinocythemia）。",
+  "features": [
+    "Large cells several times the size of red cells, singly and in loose clusters (panel A, 40x)",
+    "Round to oval nuclei with fine to moderately condensed chromatin and high N:C ratio (panel B, 60x)",
+    "Moderate basophilic cytoplasm with fine peripheral vacuolation and irregular borders",
+    "Clustered cells in panel A intermixed with leukocytes along the smear feathered area",
+    "Cytokeratin immunocytochemistry shows strong cytoplasmic positivity in the large cells and cell clusters (panels C/D), with negative background leukocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows clusters and single large atypical cells among leukocytes at low power. At high power the cells have round nuclei, high nuclear-to-cytoplasmic ratio, and basophilic, finely vacuolated cytoplasm, superficially resembling blasts or lymphoma cells. Immunocytochemistry for cytokeratin is strongly positive in these cells while background hematopoietic cells are negative, establishing epithelial lineage. Findings are consistent with carcinocythemia (carcinoma cell leukemia) from a metastatic carcinoma; primary site correlation with site-specific markers is recommended.",
+  "ddx": [
+    {"dx": "Acute leukemia (blasts)", "vs": "Blasts do not form cohesive clusters and are cytokeratin negative while expressing CD34, MPO or lineage-specific hematopoietic markers."},
+    {"dx": "Leukemic phase of large cell lymphoma", "vs": "Lymphoma cells are discohesive, CD45 and B- or T-cell marker positive and cytokeratin negative."},
+    {"dx": "Circulating neuroblastoma or small round cell tumor", "vs": "Neuroblastoma cells are smaller with scant cytoplasm and are synaptophysin/PHOX2B positive but typically cytokeratin negative."},
+    {"dx": "Megakaryocyte fragments or circulating endothelial cells", "vs": "Megakaryocyte nuclei are lobulated with granular cytoplasm and CD61 positive, and endothelial cells are elongated and CD31 positive, neither expressing cytokeratin."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; ICC: cytokeratin",
+  "match": "consistent",
+  "high_yield": false
+}

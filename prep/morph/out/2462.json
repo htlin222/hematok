@@ -1,0 +1,22 @@
+{
+  "id": "2462",
+  "recognize_zh": "骨髓抹片中一個大型巨核細胞，細胞核分裂成多個彼此分離、圓形的小核（像散開的珠子，separated nuclear lobes），而不是正常相連的分葉核，這是發育不良巨核細胞的表現。",
+  "features": [
+    "Large megakaryocyte with abundant pale granular cytoplasm",
+    "Multiple (about 8) widely separated, round to oval nuclear lobes without connecting chromatin bridges",
+    "Nuclear lobes of relatively uniform size with moderately condensed chromatin",
+    "Background of small lymphoid cells, erythroid precursors and platelet clumps",
+    "Thick smear areas with blood/plasma background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large megakaryocyte with abundant granular cytoplasm containing multiple round, widely separated nuclear lobes rather than a single contiguous lobulated nucleus. The surrounding cells include small lymphocytes and erythroid precursors with scattered platelets. Megakaryocytes with multiple separated nuclei are a recognized dysplastic form. Findings are consistent with megakaryocytic dysplasia; if seen in >=10% of megakaryocytes, this supports a myelodysplastic or MDS/MPN process, after exclusion of reactive causes.",
+  "ddx": [
+    {"dx": "Normal megakaryocyte", "vs": "Normal megakaryocytes have a single lobulated nucleus with lobes connected by chromatin rather than completely separated nuclei."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts contain many separate, uniform round nuclei with single nucleoli and lack platelet-forming granular cytoplasm, and occur near bone spicules."},
+    {"dx": "Megakaryocytes after chemotherapy or in HIV/B12 deficiency", "vs": "Reactive or megaloblastic changes can mimic separated lobes, so clinical history, cytogenetics and multilineage findings are needed."},
+    {"dx": "Micromegakaryocyte (del(5q)/MDS)", "vs": "Micromegakaryocytes are small with one or two nuclei, unlike this large multinucleated form."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

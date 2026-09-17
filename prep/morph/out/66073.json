@@ -1,0 +1,20 @@
+{
+  "id": "66073",
+  "recognize_zh": "這不是形態圖：左側為 IGH 基因重排 PCR 毛細管電泳圖，兩組反應各出現單一高聳峰（256 nt 與 115 nt，均大於背景 20 倍），代表單株 B 細胞；右側流式細胞儀顯示 CD45 中等、SSC 中等的族群，以 CD20 陽性、CD19 陰性為主。",
+  "features": [
+    "IGH PCR fragment analysis (two reactions): dominant single peak at 256 nt and at 115 nt, each more than 20-fold above polyclonal background",
+    "Minimal Gaussian polyclonal background, supporting a clonal B-cell population",
+    "Flow cytometry CD45 vs SSC: gated events with intermediate CD45 and intermediate side scatter",
+    "CD19 vs CD20 plot: majority of events CD20-positive/CD19-negative (54.89%), with only 2.88% CD19+CD20+ and 0.48% CD19+CD20-",
+    "CD20 staining forms a continuous smear from negative to positive, so the CD20+CD19- gate should be interpreted with care"
+  ],
+  "describe_en": "This figure shows ancillary studies rather than morphology. IGH gene rearrangement PCR with capillary electrophoresis demonstrates a dominant peak at 256 nucleotides in one reaction and 115 nucleotides in the other, each more than 20 times the height of the polyclonal background, indicating a clonal B-cell population. CSF flow cytometry shows a population with intermediate CD45 and side scatter that is predominantly CD20-positive and CD19-negative. Together with CSF cytology, these findings support involvement of the CSF by a clonal B-cell lymphoma, consistent with diffuse large B-cell lymphoma; loss of CD19 is an aberrant phenotype worth noting, for instance before CD19-directed therapy.",
+  "ddx": [
+    {"dx": "Polyclonal reactive B cells", "vs": "Reactive B cells produce a Gaussian distribution of many peaks without a single dominant amplicon and show a mixed CD19+CD20+ population with balanced light chains."},
+    {"dx": "Pseudoclonality from low DNA input", "vs": "Paucicellular CSF can yield spurious peaks, which are excluded by reproducing the same-size peak in duplicate reactions and correlating with flow cytometry and cytology."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

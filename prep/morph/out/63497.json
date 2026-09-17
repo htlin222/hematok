@@ -1,0 +1,21 @@
+{
+  "id": "63497",
+  "recognize_zh": "這是上腹部電腦斷層軸切面：箭頭所指處在前腹壁下、肝臟前方有數個黑色（空氣密度）小氣泡，不在腸道內，代表腹腔游離氣體（pneumoperitoneum）；在淋巴瘤病人需想到腸道穿孔。",
+  "features": [
+    "Axial CT of the upper abdomen with oral contrast opacifying the stomach",
+    "Small non-dependent pockets of extraluminal gas anterior to the liver beneath the anterior abdominal wall (arrow)",
+    "Gas lies outside the bowel lumen, indicating free intraperitoneal air",
+    "Enlarged liver occupying much of the upper abdomen",
+    "Distended gas-filled stomach with high-density contrast material"
+  ],
+  "describe_en": "Axial CT image of the upper abdomen shows small non-dependent collections of gas anterior to the liver beneath the anterior abdominal wall, outside the bowel lumen (arrow), consistent with pneumoperitoneum. The liver appears enlarged, and the stomach is distended with gas and dense oral contrast. This is a radiologic image and has no cellular morphology; in a patient with large B-cell lymphoma, free air raises concern for bowel perforation from transmural lymphoma or treatment-related tumor necrosis.",
+  "ddx": [
+    {"dx": "Recent laparotomy/laparoscopy or peritoneal dialysis", "vs": "Iatrogenic free air is explained by the procedure history and is not accompanied by clinical peritonitis."},
+    {"dx": "Pneumatosis intestinalis", "vs": "Gas is located within the bowel wall in a linear or bubbly pattern rather than free in the peritoneal cavity."},
+    {"dx": "Chilaiditi sign (colonic interposition)", "vs": "Gas between liver and diaphragm/abdominal wall is contained within haustrated colon rather than free non-dependent pockets."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

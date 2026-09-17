@@ -1,0 +1,23 @@
+{
+  "id": "66378",
+  "recognize_zh": "B 面板周邊血中性球呈低分葉（pseudo-Pelger）與顆粒減少的發育不良，並有成熟單核球；C 面板骨髓可見多顆單核球與前單核球（promonocyte，星號）；F 圖顯示多年持續單核球增多，綜合支持骨髓增生不良型 CMML-1，而非 ITP。",
+  "features": [
+    "Panel A: a mature monocyte with folded nucleus and grey-blue vacuolated cytoplasm; no dysplasia apparent",
+    "Panel B: dysplastic neutrophils with hypolobated/pseudo-Pelger-Huet nuclei and hypogranular cytoplasm, plus a monocytoid cell (asterisk)",
+    "Panel C: marrow aspirate with monocytes and promonocytes (asterisks) showing delicate chromatin and grey-blue cytoplasm; inset shows a dysplastic megakaryocyte",
+    "Panel D: flow cytometry with increased CD34+ myeloblasts and monocytic cells showing aberrant CD56 expression",
+    "Panel E: hypercellular trephine with scattered CD34+ blasts on inset",
+    "Panel F: longitudinal graph and table documenting persistent absolute and relative monocytosis since 2018"
+  ],
+  "describe_en": "The initial peripheral blood smear shows absolute monocytosis with morphologically mature monocytes and no dysplasia. Follow-up blood shows leukocytosis with dysplastic, hypolobated and hypogranular neutrophils and circulating monocytes. The bone marrow aspirate and biopsy are hypercellular with granulocytic and megakaryocytic dysplasia and increased blasts plus promonocytes (approximately 9%), supported by flow cytometry showing CD34+ myeloblasts and monocytes with aberrant CD56. Retrospective counts document persistent monocytosis over several years. Findings are consistent with myelodysplastic-type chronic myelomonocytic leukemia (CMML-1) evolving from clonal monocytosis.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "ITP shows isolated thrombocytopenia with normal leukocyte morphology and no persistent monocytosis, dysplasia or increased marrow blasts."},
+    {"dx": "Reactive monocytosis (infection, steroid effect)", "vs": "Reactive monocytes lack dysplasia in other lineages, lack aberrant CD56/CD2 and normal classical monocyte partitioning (>94% MO1 favors CMML), and resolve with the cause."},
+    {"dx": "Acute myelomonocytic or monocytic leukemia", "vs": "AML requires at least 20% blasts including promonocytes, whereas this marrow has 9%."},
+    {"dx": "Atypical CML / MDS/MPN with neutrophilia", "vs": "aCML has dysplastic neutrophilia with circulating immature granulocytes but monocytes below 10% of leukocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; MGG; H&E; IHC: CD34; flow",
+  "match": "consistent",
+  "high_yield": false
+}

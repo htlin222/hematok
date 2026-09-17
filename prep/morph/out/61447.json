@@ -1,0 +1,22 @@
+{
+  "id": "61447",
+  "recognize_zh": "骨髓切片中有許多胞質豐富淡染的大型組織球，其胞質內含小圓形、帶透明暈的菌體或被吞噬的紅血球樣結構，周圍混有小淋巴球；可提示組織漿菌感染合併噬血現象，但本圖放大倍率下兩者不易區分，需特殊染色佐證。",
+  "features": [
+    "Increased large histiocytes with abundant pale, granular to vacuolated cytoplasm and oval vesicular nuclei",
+    "Small round intracytoplasmic structures with clear halos within histiocytes (right center), compatible with yeast forms or engulfed red cells",
+    "Dense background of small lymphocytes and hematopoietic cells, some with dark condensed nuclei",
+    "Occasional histiocyte appears to contain phagocytosed cellular material (possible hemophagocytosis)",
+    "Resolution limits distinction of yeasts from phagocytosed erythrocytes"
+  ],
+  "describe_en": "Bone marrow core biopsy shows an increase in large histiocytes with abundant pale cytoplasm admixed with small lymphocytes and hematopoietic precursors. Several histiocytes contain small round intracytoplasmic bodies with surrounding clear halos, compatible with Histoplasma yeast forms, and some appear to contain engulfed cells suggestive of hemophagocytosis. At this magnification, yeasts cannot be reliably separated from ingested red cells. Findings are suggestive of marrow histoplasmosis with associated hemophagocytosis; GMS/PAS stains and CD163 immunostain are recommended, and hemophagocytic lymphohistiocytosis remains a clinical diagnosis.",
+  "ddx": [
+    {"dx": "Leishmaniasis", "vs": "Amastigotes show a kinetoplast and are GMS-negative, and can also trigger HLH."},
+    {"dx": "Primary/familial or lymphoma-associated HLH", "vs": "Hemophagocytic histiocytes are present without intracellular organisms, and an underlying lymphoma must be excluded by immunostains."},
+    {"dx": "Mycobacterial infection (MAC)", "vs": "Foamy histiocytes contain acid-fast bacilli on AFB stain rather than haloed yeasts."},
+    {"dx": "Storage (Gaucher/pseudo-Gaucher) histiocytes", "vs": "Cytoplasm shows striated crinkled-paper texture without discrete intracellular organisms."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

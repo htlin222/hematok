@@ -1,0 +1,21 @@
+{
+  "id": "1198",
+  "recognize_zh": "這是流式細胞儀雙參數點圖：Y 軸 CD3 (ECD)、X 軸 MPO (FITC)，77.6% 的細胞落在右上象限（E2），代表同一群原始細胞同時表現 CD3 與 MPO，這是 T/骨髓混合表型急性白血病的關鍵證據。",
+  "features": [
+    "Two-parameter flow cytometry dot plot: CD3-ECD (y-axis) versus MPO-FITC (x-axis), log scales",
+    "Quadrant E2 (CD3+ MPO+) contains 77.6% of gated events as a single cohesive population",
+    "E1 (CD3+ MPO-) 8.7%, E3 (double negative) 3.4%, E4 (CD3- MPO+) 10.3%",
+    "Dual-positive population shows continuous MPO expression spanning about two logs",
+    "CD3 intensity is dim-to-moderate, typical of cytoplasmic staining in blasts"
+  ],
+  "describe_en": "Flow cytometric dot plot of gated events displays CD3 (ECD) against myeloperoxidase (FITC). A single dominant population (77.6%, quadrant E2) co-expresses CD3 and MPO, with small CD3-only (8.7%), MPO-only (10.3%) and double-negative (3.4%) fractions. Co-expression of cytoplasmic CD3 and MPO on the same blast population fulfills the lineage-assignment criteria for both T and myeloid lineages. Findings are consistent with mixed-phenotype acute leukemia, T/myeloid, provided the gate is on blasts, CD3 staining is cytoplasmic, and BCR::ABL1 and KMT2A rearrangements are excluded.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia with nonspecific MPO staining", "vs": "Low-level MPO by flow alone can be nonspecific; true myeloid lineage should be supported by bright MPO or confirmation by cytochemistry."},
+    {"dx": "AML with aberrant CD7 or dim CD3", "vs": "AML may aberrantly express CD7, but cytoplasmic CD3 at T-lineage-defining intensity as here argues for T/myeloid MPAL."},
+    {"dx": "Bilineal acute leukemia (two separate blast populations)", "vs": "Bilineal leukemia shows distinct CD3+ MPO- and CD3- MPO+ populations, whereas here most events co-express both markers."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry: CD3-ECD / MPO-FITC",
+  "match": "non-morphologic",
+  "high_yield": false
+}

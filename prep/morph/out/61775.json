@@ -1,0 +1,22 @@
+{
+  "id": "61775",
+  "recognize_zh": "S100 免疫染色中大型組織球的細胞核與細胞質呈強棕色陽性，中央一顆 S100 陽性組織球內包著數個未染色的藍色淋巴球核，突顯 emperipolesis；周圍小淋巴球為陰性，符合 Rosai-Dorfman disease。",
+  "features": [
+    "Strong nuclear and cytoplasmic brown S100 staining in large histiocytes with abundant cytoplasm",
+    "Central S100-positive histiocyte outlines several engulfed, S100-negative lymphocytes, highlighting emperipolesis",
+    "Background small lymphocytes are negative with blue hematoxylin counterstain",
+    "Diffuse granular brown staining in interstitial histiocytic cytoplasm between lymphocytes",
+    "Engulfed cells have intact round nuclei within the stained cytoplasm"
+  ],
+  "describe_en": "S100 immunohistochemistry shows strong nuclear and cytoplasmic positivity in large histiocytes. The stain outlines histiocytes containing multiple intact, S100-negative lymphocytes within their cytoplasm, accentuating emperipolesis, while the background small lymphocytes are negative. Findings are consistent with Rosai-Dorfman disease, which is further characterized by OCT2 and cyclin D1 positivity with CD1a and langerin negativity in the lesional histiocytes.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "Also S100 positive, but lesional cells are CD1a and langerin positive with grooved nuclei and no emperipolesis."},
+    {"dx": "Interdigitating dendritic cell sarcoma", "vs": "S100-positive spindle to ovoid cells form fascicles or whorls with atypia and lack the engulfed lymphocytes seen here."},
+    {"dx": "Metastatic melanoma", "vs": "Shows S100 positivity in cohesive atypical cells with macronucleoli that also express SOX10, HMB45 or Melan-A."},
+    {"dx": "Reactive sinus histiocytosis", "vs": "Sinus histiocytes are S100 negative (CD68/CD163 positive) and lack emperipolesis."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: S100",
+  "match": "consistent",
+  "high_yield": true
+}

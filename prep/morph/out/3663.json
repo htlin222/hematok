@@ -1,0 +1,21 @@
+{
+  "id": "3663",
+  "recognize_zh": "周邊血液中的分葉核嗜中性球，細胞質內布滿粗大深紫色的毒性顆粒（toxic granulation），右上方還有一小片淡藍色的 Döhle body，符合 G-CSF 刺激後的變化。",
+  "features": [
+    "Segmented neutrophil with three to four lobes and clumped chromatin",
+    "Prominent coarse dark purple (toxic) granules throughout the cytoplasm",
+    "Small pale blue cytoplasmic patch near the periphery consistent with a Döhle body",
+    "Surrounding red cells are normocytic and normochromic with central pallor",
+    "No cytoplasmic vacuoles or organisms identified in this cell"
+  ],
+  "describe_en": "Peripheral blood smear shows a mature segmented neutrophil with coarse, dark purple cytoplasmic granulation throughout the cytoplasm and a small peripheral pale blue inclusion consistent with a Döhle body. The nucleus shows normal segmentation and chromatin condensation. Background red cells are unremarkable. In the setting of growth factor therapy, these findings are consistent with G-CSF effect; the same toxic changes are also seen in infection and inflammation.",
+  "ddx": [
+    {"dx": "Toxic changes of sepsis/infection", "vs": "Morphologically identical toxic granulation and Döhle bodies, so the distinction rests on history of G-CSF administration versus clinical evidence of infection."},
+    {"dx": "Alder-Reilly anomaly", "vs": "Shows large dark azurophilic granules in all leukocytes including lymphocytes and monocytes, persistent in health and not accompanied by Döhle bodies."},
+    {"dx": "May-Hegglin anomaly (MYH9-related disorder)", "vs": "Has larger, more sharply defined spindle-shaped blue inclusions with giant platelets and thrombocytopenia, without toxic granulation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

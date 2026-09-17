@@ -1,0 +1,22 @@
+{
+  "id": "63385",
+  "recognize_zh": "左圖單核球（monocyte）灰藍色空泡化細胞質內含一顆被吞噬的紅血球，旁邊有一顆顆粒性白血球；右圖一個白血球被吞入的紅血球占滿，核被擠成新月形，這就是紅血球吞噬（erythrophagocytosis）。",
+  "features": [
+    "Left: monocyte with folded nucleus and vacuolated gray-blue cytoplasm containing an intact engulfed red cell",
+    "Left: adjacent segmented granulocyte with pink cytoplasmic granules not involved in phagocytosis",
+    "Right: leukocyte distended by a single phagocytosed red cell, with nucleus compressed into a crescent at the periphery",
+    "Engulfed red cells retain hemoglobin color within a clear vacuole",
+    "Surrounding red cells and scattered platelets in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows erythrophagocytosis by circulating leukocytes. In the left panel, a monocyte with a folded nucleus and vacuolated cytoplasm contains an engulfed red cell, adjacent to a granulocyte. In the right panel, a leukocyte is distended by a phagocytosed red cell that compresses its nucleus into a peripheral crescent. Findings are consistent with erythrophagocytosis, which suggests antibody- or complement-coated red cells and warrants a direct antiglobulin test and assessment for hemolysis.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH shows hemophagocytosis by tissue histiocytes in marrow, spleen or liver along with clinical and laboratory criteria (fever, cytopenias, ferritin, triglycerides), not isolated circulating phagocytes."},
+    {"dx": "Overlapping red cell on a leukocyte", "vs": "An overlying red cell lies in a different plane without a surrounding clear vacuole or nuclear indentation."},
+    {"dx": "Signet ring-like cell with a large cytoplasmic vacuole", "vs": "An empty vacuole lacks the pink hemoglobin content of an engulfed red cell."},
+    {"dx": "Paroxysmal cold hemoglobinuria", "vs": "PCH also shows erythrophagocytosis by neutrophils, and it is distinguished by a positive Donath-Landsteiner test in a child after viral infection."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

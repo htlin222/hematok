@@ -1,0 +1,21 @@
+{
+  "id": "60450",
+  "recognize_zh": "高倍骨髓切片中細胞密集、幾乎沒有脂肪，大多數細胞是核分葉、深染且常呈多個分離小圓塊的成熟嗜中性球，前驅細胞相對少（右移）；在周邊血嗜中性球減少的病人出現這種骨髓內成熟嗜中性球堆積，提示骨髓滯留症（myelokathexis）／WHIM 症候群。",
+  "features": [
+    "Densely hypercellular marrow with no intervening fat in this field",
+    "Marked granulocytic predominance (increased M:E ratio) with right shift: most cells are mature segmented neutrophils",
+    "Many neutrophil nuclei appear as multiple small, dark, separated round fragments (hypersegmented/pyknotic-appearing lobes)",
+    "Fewer myelocytes/metamyelocytes and scattered erythroid precursors; occasional megakaryocyte and eosinophil",
+    "No blast clusters or abnormal infiltrate"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E, high power) shows a hypercellular marrow composed predominantly of granulocytic cells, with an increased M:E ratio. Maturation is right-shifted, with abundant mature neutrophils whose nuclei frequently appear hyperlobated and fragmented into small, dense, separated lobes. Erythroid precursors and megakaryocytes are relatively reduced but present, and blasts are not increased. In a neutropenic patient, accumulation of mature, apoptotic-appearing neutrophils within the marrow is consistent with myelokathexis, supporting WHIM syndrome in the given clinical setting.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia / myeloproliferative neoplasm", "vs": "CML shows a full left-shifted myeloid spectrum with a myelocyte bulge, basophilia, small hypolobated megakaryocytes and peripheral leukocytosis, whereas myelokathexis shows right-shifted retained neutrophils with peripheral neutropenia."},
+    {"dx": "Reactive granulocytic hyperplasia (infection)", "vs": "Reactive hyperplasia is typically left-shifted with peripheral neutrophilia, not dominated by hypersegmented fragmented mature neutrophils in a neutropenic patient."},
+    {"dx": "Autoimmune neutropenia", "vs": "Autoimmune neutropenia may show normal or increased marrow granulopoiesis with late-stage depletion, but lacks the characteristic pyknotic, filament-joined nuclear lobes; aspirate cytology and CXCR4 testing separate them."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

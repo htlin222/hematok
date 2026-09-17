@@ -1,0 +1,30 @@
+{
+ "id": "61240",
+ "recognize_zh": "骨髓抹片中央有一顆比周圍細胞大的雙核細胞，兩個圓形細胞核互相對稱、染色質細緻，細胞質淡藍而豐富，形成類似「鷹眼」的雙核形態，符合 Reed-Sternberg 細胞，但本圖解析度下核仁不明顯。",
+ "features": [
+  "Central binucleate large cell, roughly 2-3 times the diameter of adjacent lymphocytes",
+  "Two round, mirror-image nuclei with finely granular chromatin; nucleoli not clearly resolved at this resolution",
+  "Moderate to abundant pale gray-blue cytoplasm with ill-defined borders",
+  "Background of mixed marrow cells including lymphocytes, plasma cells, granulocytic precursors and segmented neutrophils",
+  "Crowded, distorted red cells indicating a thick aspirate area"
+ ],
+ "describe_en": "Wright-stained bone marrow aspirate smear shows a large binucleate cell with two symmetric, round nuclei with fine chromatin and moderate amounts of pale cytoplasm, set in a mixed background of lymphocytes, plasma cells and maturing granulocytes. The prominent inclusion-like nucleoli typical of Reed-Sternberg cells are not clearly discernible at this image resolution. The appearance is suggestive of a Reed-Sternberg-type cell in classical Hodgkin lymphoma involving marrow, but aspirate findings alone are not diagnostic; trephine biopsy with CD30, CD15 and PAX5 (weak) immunohistochemistry is required.",
+ "ddx": [
+  {
+   "dx": "Megakaryocyte",
+   "vs": "Megakaryocytes have a single multilobated nucleus with granular pink cytoplasm and demarcation membranes rather than two discrete nuclei with large nucleoli."
+  },
+  {
+   "dx": "Binucleate plasma cell or erythroid precursor",
+   "vs": "These have smaller size, clock-face or condensed chromatin, a perinuclear hof or deep blue cytoplasm, and lack macronucleoli."
+  },
+  {
+   "dx": "Anaplastic large cell lymphoma or metastatic tumor",
+   "vs": "ALCL shows horseshoe 'hallmark' nuclei and sheets of CD30+/ALK+ cells without a reactive milieu, and carcinoma forms cohesive clusters."
+  }
+ ],
+ "specimen": "BM aspirate",
+ "stain": "Wright",
+ "match": "partial",
+ "high_yield": false
+}

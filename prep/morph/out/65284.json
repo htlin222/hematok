@@ -1,0 +1,21 @@
+{
+  "id": "65284",
+  "recognize_zh": "中央一顆很大的細胞，核圓且染色質呈細緻均勻的顆粒狀，周圍有淡藍細胞質；右側與左下的細胞有深藍色細胞質與較粗的點狀染色質，背景為卵圓形紅血球，符合巨母紅血球性貧血中的前紅血球母細胞（megaloblastic proerythroblast）與早期紅系前驅細胞。",
+  "features": [
+    "Very large central cell with a round nucleus and finely stippled, evenly dispersed open chromatin",
+    "Thin rim of pale grey-blue cytoplasm around the central cell, larger than neighboring cells",
+    "Adjacent early erythroid precursors with intensely basophilic cytoplasm and granular chromatin (right and lower left)",
+    "Small cell with pale blue cytoplasm at upper left and a disrupted cell at bottom center",
+    "Background red cells include oval macrocytes; smear edge with crush artifact at bottom"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a group of erythroid precursors near the edge of a spread. The dominant cell is a large proerythroblast with a round nucleus containing finely stippled, open chromatin and a thin rim of pale cytoplasm; adjacent cells show deeply basophilic cytoplasm with granular chromatin, consistent with early erythroblasts. A disrupted cell and edge crush artifact are present, and background red cells include oval macrocytes. The enlarged size and open chromatin of the precursors are consistent with megaloblastic proerythroblasts in B12/folate deficiency.",
+  "ddx": [
+    {"dx": "Myeloblast", "vs": "Myeloblasts lack the deeply basophilic cytoplasm and perinuclear clearing of erythroid progenitors and are MPO-positive, while erythroid progenitors express CD71/E-cadherin/glycophorin."},
+    {"dx": "Pure erythroid leukemia", "vs": "Pure erythroid leukemia shows sheets (>=30%) of vacuolated proerythroblasts, often with TP53 mutation, rather than a maturing megaloblastic erythroid series."},
+    {"dx": "Parvovirus B19 giant pronormoblast", "vs": "Parvovirus pronormoblasts have large glassy intranuclear inclusions with erythroid hypoplasia instead of hyperplasia."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

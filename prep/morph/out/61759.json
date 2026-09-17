@@ -1,0 +1,22 @@
+{
+  "id": "61759",
+  "recognize_zh": "這是一張上腹部 PET/CT 融合軸切面（非形態圖）：脾臟明顯腫大且 FDG 攝取瀰漫性增加、高於肝臟，脊椎椎體骨髓攝取也升高，腹腔動脈附近與腹膜後有數個小淋巴結 FDG 攝取；這種脾臟、骨髓與淋巴結同時高代謝的分布，符合母細胞型被套細胞淋巴瘤的廣泛侵犯。",
+  "features": [
+    "Fused axial PET/CT image at the level of the upper abdomen",
+    "Marked splenomegaly with diffuse, heterogeneous FDG uptake exceeding that of the liver",
+    "Increased FDG uptake in the vertebral body, suggesting marrow involvement",
+    "Several small FDG-avid upper abdominal/retroperitoneal lymph nodes near the celiac axis and crura",
+    "Liver shows moderate background uptake without discrete focal lesions in this slice"
+  ],
+  "describe_en": "This is a non-morphologic fused axial PET/CT image through the upper abdomen. It shows marked splenomegaly with diffuse, heterogeneous FDG uptake greater than hepatic background, increased uptake in the vertebral marrow, and several small FDG-avid upper abdominal and retroperitoneal lymph nodes. No discrete focal hepatic lesion is seen in this slice. In the context of biopsy-proven blastoid mantle cell lymphoma, the pattern is consistent with extensive splenic, nodal and likely bone marrow involvement by an FDG-avid aggressive lymphoma; SUV quantification and marrow biopsy correlation are required for staging.",
+  "ddx": [
+    {"dx": "Classic (non-blastoid) mantle cell lymphoma", "vs": "Classic MCL is often only modestly FDG-avid, whereas blastoid/pleomorphic variants show higher SUV, but the distinction rests on histology and Ki-67."},
+    {"dx": "Reactive splenic and marrow uptake (G-CSF therapy, infection, hemophagocytosis)", "vs": "Cytokine-driven or reactive uptake is diffuse and homogeneous without FDG-avid lymphadenopathy and resolves on follow-up, requiring clinical correlation."},
+    {"dx": "Splenic marginal zone lymphoma or other indolent lymphoma", "vs": "Indolent splenic lymphomas cause splenomegaly with usually low-grade FDG uptake and are separated by histology and immunophenotype (CD5, cyclin D1, SOX11)."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL is similarly FDG-avid, so PET cannot separate it from blastoid MCL; cyclin D1/SOX11 and CCND1 rearrangement are needed."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

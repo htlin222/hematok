@@ -1,0 +1,22 @@
+{
+  "id": "60541",
+  "recognize_zh": "骨髓切片高倍下，一片密集的中型單核細胞，細胞核卵圓至不規則或拉長、染色質細緻略成團、核仁不明顯，細胞質中等量淡粉紅；其間散在深染皺縮的凋亡／固縮核，這是漿細胞樣樹突細胞（PDC）聚集與反應性淋巴聚集區分的線索。",
+  "features": [
+    "Dense aggregate of medium-sized mononuclear cells replacing marrow in this field",
+    "Oval, indented, to elongated irregular nuclei with fine to finely clumped chromatin and inconspicuous nucleoli",
+    "Moderate pale eosinophilic to amphophilic cytoplasm with indistinct borders",
+    "Scattered pyknotic and apoptotic nuclei (small dense dark bodies) within the aggregate",
+    "Few red cells and eosinophilic proteinaceous material at the lower left; no normal hematopoiesis in the field"
+  ],
+  "describe_en": "Bone marrow biopsy at high power shows a dense aggregate of medium-sized mononuclear cells with oval to irregular and elongated nuclei, finely clumped chromatin, inconspicuous nucleoli, and moderate pale eosinophilic cytoplasm. Scattered pyknotic and apoptotic nuclei are present within the aggregate. Normal hematopoietic elements are not seen in this field, and the nodular configuration cannot be appreciated at this magnification. In the context of a myelodysplastic background, the cytologic features and scattered apoptotic bodies are consistent with nodular aggregates of plasmacytoid dendritic cells, which should be confirmed with CD123, TCF4, and CD303 immunostains and distinguished from BPDCN and reactive lymphoid aggregates.",
+  "ddx": [
+    {"dx": "Reactive lymphoid aggregate", "vs": "Benign lymphoid aggregates consist of small round lymphocytes with condensed chromatin, often with small vessels and no apoptotic debris, and are CD123-negative."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN shows diffuse blastoid cells with finer chromatin and small nucleoli co-expressing CD4, CD56, CD123 and TCF4, usually with skin lesions, rather than mature PDC nodules in a myeloid neoplasm."},
+    {"dx": "Marrow involvement by lymphoma", "vs": "Lymphoma infiltrates show a monoclonal B- or T-cell phenotype on IHC and flow cytometry, not CD123+ plasmacytoid dendritic cells."},
+    {"dx": "Systemic mastocytosis", "vs": "Mast cell aggregates contain spindled cells with clear to granular cytoplasm, often with eosinophils and fibrosis, and are tryptase/CD117 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

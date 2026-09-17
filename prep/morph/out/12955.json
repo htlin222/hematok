@@ -1,0 +1,22 @@
+{
+  "id": "12955",
+  "recognize_zh": "左圖可見大量各成熟階段的顆粒球（骨髓細胞、後骨髓細胞、桿狀核與分葉中性球）與嗜鹼性球，代表 CML 的左移增生；其間混有小而圓、染色質塊狀的成熟淋巴球，右圖則有多個破碎的塗抹細胞（smudge cells），提示同時存在 CLL。",
+  "features": [
+    "Left: leukocytosis with the full spectrum of granulocytic maturation (myelocytes, metamyelocytes, bands, segmented neutrophils)",
+    "Left: occasional basophil with dark granules; no increase in blasts evident",
+    "Left: admixed small mature lymphocytes with round nuclei, clumped soccer-ball chromatin and scant cytoplasm",
+    "Right: several smudge (basket) cells in the red cell field",
+    "Right: a small mature lymphocyte; red cells normocytic without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with a left-shifted granulocytic series including myelocytes, metamyelocytes, bands, and segmented neutrophils, with occasional basophils and no significant increase in blasts. Admixed with the granulocytes is a population of small mature lymphocytes with round nuclei and coarsely clumped chromatin. Another field shows numerous smudge cells. The combination of a chronic-phase myeloproliferative picture and a mature small lymphocytosis with smudge cells is suggestive of coexisting chronic myeloid leukemia and chronic lymphocytic leukemia; BCR::ABL1 testing and flow cytometry for a CD5+/CD23+ B-cell clone are required.",
+  "ddx": [
+    {"dx": "Leukemoid reaction in CLL (eg, infection, steroids)", "vs": "A reactive neutrophilia shows toxic changes, fewer myelocytes, no basophilia and is BCR::ABL1 negative."},
+    {"dx": "Richter or lymphoid blast phase", "vs": "Transformation shows large cells or blasts rather than mature small lymphocytes with full granulocytic maturation."},
+    {"dx": "Atypical CML or CMML", "vs": "These are BCR::ABL1 negative and show dysgranulopoiesis or monocytosis rather than basophilia and orderly maturation."},
+    {"dx": "Mantle cell lymphoma in leukemic phase", "vs": "Mantle cells often have irregular nuclear contours and are CD23-negative, cyclin D1/SOX11 positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

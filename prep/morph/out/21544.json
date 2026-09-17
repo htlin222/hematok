@@ -1,0 +1,22 @@
+{
+  "id": "21544",
+  "recognize_zh": "骨髓抹片中有一團團彼此黏聚的大型腫瘤細胞，細胞質內散布許多邊界清楚的小圓形空泡，核圓、細胞邊界互相擠壓；不同於分散的造血細胞，提示非造血腫瘤轉移（年輕成人的腺泡狀橫紋肌肉瘤）。",
+  "features": [
+    "Cohesive clusters of large tumor cells with molded cell borders",
+    "Round nuclei with finely granular chromatin filling most of the cell (high N:C ratio)",
+    "Numerous small, sharply punched-out cytoplasmic vacuoles, often at the cell periphery",
+    "Occasional smaller, darker cells within clusters",
+    "Background erythrocytes only; atypical staining hue (yellow-orange background) limits color assessment"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows cohesive clusters of large atypical cells with round nuclei, high nuclear-to-cytoplasmic ratios and molded borders, many containing numerous small, sharply defined cytoplasmic vacuoles. Normal hematopoietic elements are not prominent in this field. The unusual background coloration limits assessment of chromatin and cytoplasmic basophilia. Findings are consistent with marrow infiltration by a non-hematopoietic small round cell tumor, in this case metastatic alveolar rhabdomyosarcoma; confirmation requires desmin and myogenin immunostaining and FOXO1 rearrangement studies.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma or leukemia", "vs": "Burkitt cells show similar vacuoles but are discohesive, deeply basophilic and CD20/CD10-positive with MYC rearrangement."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma also forms vacuolated clusters (glycogen), so CD99/NKX2-2 staining and EWSR1 rearrangement, with myogenin negativity, separate it."},
+    {"dx": "Neuroblastoma", "vs": "Neuroblastoma occurs in young children and forms Homer-Wright rosettes with fibrillary neuropil."},
+    {"dx": "Acute leukemia with vacuolated blasts", "vs": "Leukemic blasts are discohesive and express CD45 with myeloid or lymphoid markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Romanowsky-type stain",
+  "match": "consistent",
+  "high_yield": false
+}

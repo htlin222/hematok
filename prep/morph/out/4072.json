@@ -1,0 +1,21 @@
+{
+  "id": "4072",
+  "recognize_zh": "這是頸胸椎矢狀面 MRI，箭頭指向頸胸交界處脊椎管背側的異常訊號區，提示硬膜外或軟腦膜的病灶；在白血病病人中需考慮中樞神經系統侵犯或骨髓性肉瘤，但單張影像無法確診。",
+  "features": [
+    "Sagittal MRI of the cervical and upper thoracic spine with posterior fossa included",
+    "Arrow indicates abnormal signal along the dorsal aspect of the spinal canal at the cervicothoracic junction",
+    "Vertebral bodies and cord outline visible; image quality limited by noise",
+    "Markedly hyperintense band posterior to the spine whose nature cannot be determined from this single image (possible artifact or soft-tissue fluid)",
+    "Single sequence without contrast information or axial correlation"
+  ],
+  "describe_en": "Sagittal MRI of the cervical and upper thoracic spine is provided. The arrow points to abnormal signal along the dorsal aspect of the spinal canal at the cervicothoracic junction, which in a patient with acute myeloid leukemia raises concern for an epidural or leptomeningeal deposit (myeloid sarcoma / CNS leukemia). A prominent hyperintense band posterior to the spine cannot be characterized on this single sequence and may be artifactual. This is a non-morphologic image; diagnosis requires contrast-enhanced and axial imaging, CSF cytology with flow cytometry, and ideally tissue biopsy.",
+  "ddx": [
+    {"dx": "Spinal epidural abscess", "vs": "Abscess shows peripheral rim enhancement with diffusion restriction and clinical signs of infection, and aspirate shows neutrophils and organisms rather than myeloid blasts."},
+    {"dx": "Epidural hematoma", "vs": "Hematoma has blood-product signal evolution and is associated with thrombocytopenia or procedures, without enhancing solid tissue."},
+    {"dx": "Metastatic carcinoma or lymphoma", "vs": "Epidural lymphoma or metastasis can look identical on MRI and is separated only by biopsy with immunophenotyping (MPO/CD33/CD117 for myeloid sarcoma)."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A (MRI)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61639",
+  "recognize_zh": "MUM1 染色中一群較大的細胞核呈強弱不一的棕色核染色，散在於陰性的小造血細胞之間，另有少數強陽性的漿細胞；大型腫瘤細胞 MUM1 陽性表示非生發中心（activated B-cell）表現型，這是血管內大 B 細胞淋巴瘤常見的表型。",
+  "features": [
+    "Nuclear MUM1/IRF4 staining of variable intensity in a population of large cells",
+    "Positive large nuclei oval with vesicular chromatin, some with cytoplasmic blush",
+    "Few small cells with very strong nuclear staining (likely plasma cells)",
+    "Small hematopoietic cells in the background negative",
+    "Positive cells scattered and loosely clustered near fat spaces/sinusoids"
+  ],
+  "describe_en": "MUM1/IRF4 immunostain of the bone marrow biopsy shows nuclear staining of variable intensity in scattered and loosely clustered large cells, several located along vascular spaces adjacent to fat. A few smaller cells with intense nuclear staining likely represent plasma cells, and the background hematopoietic cells are negative. MUM1 expression in the large atypical cells indicates a non-germinal center (activated B-cell) phenotype, which is typical of intravascular large B-cell lymphoma. Findings support the diagnosis in conjunction with CD20 and the intrasinusoidal distribution.",
+  "ddx": [
+    {"dx": "Reactive plasma cells", "vs": "Plasma cells are small to medium with eccentric nuclei and uniformly strong MUM1 and CD138, and are not CD20-positive large cells within sinusoids."},
+    {"dx": "Plasma cell neoplasm", "vs": "Neoplastic plasma cells are MUM1 and CD138 positive but CD20 negative, with light chain restriction and interstitial or sheet-like distribution."},
+    {"dx": "Germinal center-type large B-cell lymphoma", "vs": "GCB-type lymphoma typically is CD10/BCL6 positive and MUM1 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: MUM1/IRF4",
+  "match": "consistent",
+  "high_yield": false
+}

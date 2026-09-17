@@ -1,0 +1,22 @@
+{
+  "id": "64385",
+  "recognize_zh": "PAS 染色下，大量未成熟紅血球母細胞的細胞質內出現粗大、塊狀或球狀的洋紅色陽性顆粒（chunky globular pattern），部分細胞呈瀰漫強陽性，這種異常模式支持急性紅血球白血病。",
+  "features": [
+    "Cluster of immature cells with round nuclei and moderate cytoplasm in a PAS-stained aspirate smear",
+    "Coarse granular to chunky globular magenta PAS positivity in the cytoplasm of many cells",
+    "Some cells with intense, confluent block-like PAS staining obscuring the cytoplasm",
+    "Other cells PAS-negative or with only faint fine granules, giving a heterogeneous pattern",
+    "Pink PAS-positive background with outlines of red cells"
+  ],
+  "describe_en": "PAS stain of a bone marrow aspirate smear shows an aggregate of immature cells, many of which display coarse granular to chunky globular magenta cytoplasmic positivity, with several cells showing intense confluent block-like staining. Other cells in the cluster are negative or faintly positive. Lineage cannot be established on the PAS stain alone, but in the context of erythroblasts on the Romanowsky stain this abnormal globular PAS pattern is consistent with neoplastic erythropoiesis, as seen in acute erythroid leukemia.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts show coarse PAS block positivity on a clear cytoplasmic background as well, so immunophenotyping (CD71/E-cadherin/glycophorin versus TdT/CD19/CD3) is required to separate them."},
+    {"dx": "Megaloblastic anemia / reactive erythroid hyperplasia", "vs": "Non-neoplastic erythroblasts are usually PAS-negative or only faintly diffusely positive, and megaloblastic cells lack the chunky globular pattern and respond to B12/folate."},
+    {"dx": "MDS with erythroid predominance", "vs": "MDS may show PAS-positive erythroblasts but has fewer than 30% proerythroblasts with less than 80% erythroid cells, which requires counting on the Romanowsky smear."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts may show PAS positivity with cytoplasmic blebs, but they express CD41/CD61 rather than erythroid markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "PAS",
+  "match": "consistent",
+  "high_yield": true
+}

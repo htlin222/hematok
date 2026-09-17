@@ -1,0 +1,21 @@
+{
+  "id": "61372",
+  "recognize_zh": "在小淋巴球與組織球的背景中，可見大型細胞的核呈多葉摺疊、像爆米花（popcorn/LP cell），染色質淡而呈泡狀、核仁小且多個，缺乏典型 Reed-Sternberg 細胞那種巨大嗜酸性核仁。",
+  "features": [
+    "Scattered large cells with multilobated, folded 'popcorn' nuclei",
+    "Vesicular, pale chromatin with multiple small basophilic nucleoli",
+    "Moderate amount of pale amphophilic cytoplasm",
+    "Absence of large, inclusion-like eosinophilic nucleoli typical of classic RS cells",
+    "Background of small lymphocytes and epithelioid histiocytes with abundant pink cytoplasm"
+  ],
+  "describe_en": "Lymph node section at high power shows scattered large atypical cells in a background of small lymphocytes and epithelioid histiocytes. The large cells have multilobated, folded nuclei with vesicular chromatin, multiple small nucleoli, and a moderate amount of pale cytoplasm. Classic Reed-Sternberg cells with large eosinophilic nucleoli are not seen in this field. The findings are consistent with lymphocyte predominant (popcorn) cells of nodular lymphocyte predominant Hodgkin lymphoma; immunohistochemistry (CD20+, OCT2+, CD15-, CD30-) is recommended for confirmation.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma (lymphocyte-rich)", "vs": "HRS cells have large eosinophilic nucleoli and are CD30+/CD15+ with weak PAX5, whereas LP cells are CD20+, OCT2+, BOB1+ and CD30/CD15-negative."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL shows diffuse architecture without CD21-positive follicular dendritic meshworks and a background rich in T cells and histiocytes rather than small B cells."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC contains centroblasts but lacks atypical popcorn cells rimmed by PD-1-positive T-cell rosettes."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

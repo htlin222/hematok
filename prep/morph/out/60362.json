@@ -1,0 +1,20 @@
+{
+  "id": "60362",
+  "recognize_zh": "G 帶核型圖中 7 號染色體只有一條（箭頭指出缺少的同源染色體），其餘常染色體成對、性染色體為 XY，即 45,XY,-7（monosomy 7），是骨髓衰竭／MDS 相關的高風險細胞遺傳異常。",
+  "features": [
+    "G-banded karyogram of a male cell (X and Y present)",
+    "Only a single chromosome 7 is present; the arrow marks the missing homolog",
+    "All other autosomes are present in pairs without obvious structural rearrangement",
+    "Interpretation: 45,XY,-7 (monosomy 7) in this metaphase"
+  ],
+  "describe_en": "This G-banded karyogram shows a male metaphase in which only one chromosome 7 is present, with the arrow indicating the position of the absent homolog. The remaining autosomes and the sex chromosomes (XY) appear numerically and structurally normal at this band resolution. The finding corresponds to 45,XY,-7. Monosomy 7 is a recurrent, adverse-risk abnormality in myelodysplastic syndromes and AML and, in a patient with marrow failure (e.g., aplastic anemia, Fanconi anemia or GATA2/SAMD9/SAMD9L germline predisposition), signals clonal evolution; it is considered MDS-defining cytogenetics even in the absence of definitive dysplasia.",
+  "ddx": [
+    {"dx": "Deletion 7q (del(7q))", "vs": "In del(7q) both chromosome 7 homologs are present but one has a truncated long arm, whereas here one entire chromosome 7 is missing."},
+    {"dx": "Artifactual chromosome loss", "vs": "Random loss in a single metaphase is non-clonal; a clonal monosomy requires the same loss in at least three metaphases or confirmation by FISH."},
+    {"dx": "Unbalanced translocation involving chromosome 7 (e.g., der(1;7))", "vs": "A derivative chromosome carrying 7p or 7q material would be present elsewhere in the karyogram; FISH with 7 centromere and 7q probes clarifies."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

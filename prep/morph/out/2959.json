@@ -1,0 +1,21 @@
+{
+  "id": "2959",
+  "recognize_zh": "低倍骨髓切片免疫染色（抗原未標示）顯示細胞密度高，骨小樑間有大量棕色陽性細胞散布，與藍色陰性細胞交錯；需知道所用抗體才能判讀骨髓系成熟程度。",
+  "features": [
+    "Hypercellular marrow with few fat spaces between trabeculae",
+    "Numerous brown-positive cells distributed diffusely in an interstitial pattern",
+    "Positive cells intermixed with hematoxylin-counterstained negative cells",
+    "No discrete clusters or sheets of positive cells",
+    "Specific antigen not indicated in the image"
+  ],
+  "describe_en": "Low-power immunohistochemical stain of a bone marrow core biopsy (antigen not specified) shows a hypercellular marrow in which numerous brown-positive cells are dispersed diffusely in an interstitial pattern among hematoxylin-counterstained negative cells. No sheets or aggregates of positive cells are seen. Interpretation depends on the antibody used; in severe congenital neutropenia, myeloid markers such as MPO typically highlight preserved early granulocytic precursors with a paucity of mature neutrophils.",
+  "ddx": [
+    {"dx": "Reactive myeloid hyperplasia", "vs": "Reactive marrow shows full granulocytic maturation to segmented neutrophils on H&E and aspirate, unlike maturation arrest."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML shows sheets of CD34-positive blasts rather than a dispersed mixed population."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS shows multilineage dysplasia and clonal cytogenetic abnormalities."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (antigen not specified)",
+  "match": "partial",
+  "high_yield": false
+}

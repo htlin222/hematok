@@ -1,0 +1,22 @@
+{
+  "id": "64012",
+  "recognize_zh": "這是非形態學的 G 顯帶核型圖：9 號與 22 號染色體旁有箭頭標示 t(9;22)(q34;q11.2)，22 號位置有多條小型衍生 22 號（費城染色體，der(22) ×3），整體為近三倍體（60<3n>）且伴多條染色體數目異常，38/40 個細胞異常。",
+  "features": [
+    "GTG-banded karyogram at 400-band resolution; 40 metaphases screened and karyotyped",
+    "Arrows mark the derivative chromosome 9 and derivative 22 (Philadelphia chromosome) of t(9;22)(q34;q11.2)",
+    "Three copies of der(22)t(9;22) (three small arrowed chromosomes in the 22 position)",
+    "Near-triploid clone: 60<3n>,X,-Y,-1,-2,-4,-5,-9,t(9;22),-11,-13,+15,-16,-17,-18,-20,der(22)t(9;22)x3[38]",
+    "Two normal metaphases: 46,XY[02]"
+  ],
+  "describe_en": "This is a non-morphologic G-banded karyotype analysis at 400-band resolution. Thirty-eight of 40 metaphases show a near-triploid clone with 60 chromosomes relative to a triploid baseline, loss of Y and multiple whole-chromosome losses (1, 2, 4, 5, 9, 11, 13, 16, 17, 18, 20), gain of chromosome 15, and a t(9;22)(q34;q11.2) with three copies of the derivative 22 (Philadelphia chromosome); two metaphases are normal 46,XY. The multiple Ph copies and complex hyperdiploid/near-triploid karyotype indicate clonal evolution. In the context of acute myeloid leukemia, findings support AML with BCR::ABL1, but BCR::ABL1 fusion should be confirmed by FISH or RT-PCR (including transcript type), and myeloid blast phase of CML must be excluded clinically and morphologically.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia in myeloid blast phase", "vs": "Blast phase CML shows the same t(9;22), often with extra Ph copies, but has a prior chronic phase, splenomegaly, basophilia, and BCR::ABL1 p210 transcript, which distinguish it from de novo AML with BCR::ABL1."},
+    {"dx": "B-lymphoblastic leukemia with BCR::ABL1", "vs": "B-ALL with Ph is separated by immunophenotype (CD19/CD10/cytoplasmic CD79a) and often carries the p190 transcript."},
+    {"dx": "Mixed phenotype acute leukemia with BCR::ABL1", "vs": "MPAL requires flow cytometric evidence of both myeloid (MPO) and lymphoid lineage-specific markers on the blasts."},
+    {"dx": "Complex karyotype AML (AML-MR) without true BCR::ABL1", "vs": "A variant rearrangement mimicking 22q11 loss would lack a BCR::ABL1 fusion signal on FISH or RT-PCR."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "GTG banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "65026",
+  "recognize_zh": "這張是流式細胞儀圖而非血片：以低 FSC/SSC 設定淋巴球閘門（R1 約 75%），CD5 陽性約 97%、CD19 陽性約 91%，雙參數圖中大部分細胞位於 CD5+CD19+ 象限，CD23 陽性約 76%，符合 CLL 的 CD5+/CD23+ B 細胞表現型；標題描述的塗抹細胞在此圖看不到。",
+  "features": [
+    "Flow cytometry panel, not a morphologic image; smudge cells from the case description are not shown",
+    "FSC vs SSC plot: lymphocyte gate R1 of small, low side-scatter cells comprising ~74.8% of events",
+    "CD5 (FITC) histogram ~97.5% positive and CD19 (PE) histogram ~91% positive within R1",
+    "CD5 vs CD19 dot plot: dominant CD5+CD19+ double-positive population (value truncated, ~9x%), with few CD5+CD19- T cells",
+    "CD23 (PE) ~76% positive, with a broad dim-to-moderate expression peak"
+  ],
+  "describe_en": "This figure shows flow cytometric analysis rather than smear morphology. Within a lymphocyte gate of small, low side-scatter cells (about 75% of events), the great majority of cells coexpress CD5 and CD19 (CD5 about 97%, CD19 about 91%, with a dominant double-positive quadrant), and about 76% express CD23. The scarcity of CD5+CD19- T cells indicates replacement by an aberrant CD5+ B-cell population. Light chain restriction, CD20/surface immunoglobulin intensity, CD200 and FMC7 are not shown and are needed for a complete score. The immunophenotype is consistent with chronic lymphocytic leukemia in keeping with the smear findings described.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL is also CD5+CD19+ but usually CD23 negative, CD200 negative/dim and FMC7 positive with bright CD20 and surface immunoglobulin, and it expresses cyclin D1/SOX11 with t(11;14)."},
+    {"dx": "Monoclonal B-cell lymphocytosis (CLL-type)", "vs": "MBL has the same phenotype, so it is distinguished only by an absolute clonal B-cell count below 5 x10^9/L without lymphadenopathy, organomegaly or cytopenias."},
+    {"dx": "Marginal zone lymphoma or lymphoplasmacytic lymphoma with CD5 expression", "vs": "These CD5+ variants are typically CD23 negative with CD200 negative and bright surface immunoglobulin, and have a low Matutes score, unlike the CD23-positive population here."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A (flow cytometry)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

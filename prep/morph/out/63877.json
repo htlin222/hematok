@@ -1,0 +1,21 @@
+{
+  "id": "63877",
+  "recognize_zh": "A 流式細胞圖中 CD3−CD5− 的異常淋巴族群呈 CD2＋、CD7＋（偏弱）、CD8＋、CD4−、CD56 強陽性、CD25−，符合 NK 細胞表型；B 圖骨髓切片被中至大型異型淋巴細胞大量取代，C 圖腫瘤細胞核呈強而廣泛的 p53 陽性。",
+  "features": [
+    "Flow (A): CD45-bright, low side scatter lymphoid population (green) that is CD3-/CD5-, CD2+, CD7+ (dim), CD8+, CD4-, CD56 bright and CD25-",
+    "H&E (B): hypercellular marrow largely replaced by medium-to-large atypical lymphoid cells with high N:C ratio and irregular hyperchromatic nuclei",
+    "Scattered residual erythroid and granulocytic elements and fat in B",
+    "p53 IHC (C): strong diffuse nuclear staining in a large proportion of the neoplastic cells"
+  ],
+  "describe_en": "Flow cytometry (A) identifies an abnormal CD45-positive lymphoid population with low side scatter that lacks CD3 and CD5 and expresses CD2, dim CD7, CD8 and bright CD56, without CD4 or CD25. The bone marrow core biopsy (B) is hypercellular and largely replaced by a diffuse infiltrate of medium-to-large atypical lymphoid cells with high N:C ratios and irregular nuclei among residual hematopoietic elements. Immunohistochemistry for p53 (C) shows strong, diffuse nuclear staining in most neoplastic cells, suggesting TP53 alteration. Findings are consistent with marrow involvement by an NK-cell lymphoma/leukemia with aberrant p53 expression; EBER in situ hybridization and TP53 sequencing are recommended.",
+  "ddx": [
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Shares the NK phenotype; it is defined clinically by systemic leukemic presentation and usually EBV positivity, whereas this patient has known extranodal NK/T-cell lymphoma with marrow relapse."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL shows a sinusoidal marrow pattern and expresses surface CD3 with gamma-delta TCR, unlike this sCD3-negative, TCR-negative infiltrate."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "Indolent NK proliferations consist of small granular lymphocytes with low-level marrow involvement and no p53 overexpression, not effacement by large atypical cells."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is CD4+/CD56+ with CD123 and TCL1 positivity and lacks CD2/CD8 expression."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Flow cytometry; H&E; IHC: p53",
+  "match": "consistent",
+  "high_yield": false
+}

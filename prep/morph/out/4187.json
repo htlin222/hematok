@@ -1,0 +1,21 @@
+{
+  "id": "4187",
+  "recognize_zh": "骨髓切片中成片的圓形細胞，細胞質豐富、嗜酸性，核圓至卵圓且位於中央、邊界清楚，為上皮樣排列的非典型肥大細胞浸潤線索；單憑 H&E 無法與漿細胞或其他細胞區分，需 tryptase、CD117、CD25 染色。",
+  "features": [
+    "Sheet-like infiltrate of medium-sized round to polygonal cells",
+    "Moderate to abundant eosinophilic cytoplasm with distinct cell borders",
+    "Round to oval, centrally placed nuclei, some with small nucleoli",
+    "Interspersed small hyperchromatic cells and red cells",
+    "Adjacent bony trabecula and fat spaces"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a sheet-like infiltrate of medium-sized round to polygonal cells with moderate eosinophilic cytoplasm, distinct borders and round central nuclei, adjacent to a bony trabecula. Spindle-shaped mast cells and a perivascular or paratrabecular fibrotic pattern are not evident in this field, so the lineage cannot be established on H&E alone. Findings are compatible with a dense mast cell infiltrate in systemic mastocytosis, but confirmation with tryptase, CD117 and CD25 immunostains is required.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Plasma cells have eccentric nuclei with clock-face chromatin and perinuclear hof and are CD138-positive rather than tryptase/CD117 positive."},
+    {"dx": "Erythroid hyperplasia or pure erythroid leukemia", "vs": "Erythroid precursors have round dark nuclei with scant cytoplasm in colonies and are E-cadherin/CD71 positive."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive glands or nests and is keratin-positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

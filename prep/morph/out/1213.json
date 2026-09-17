@@ -1,0 +1,22 @@
+{
+  "id": "1213",
+  "recognize_zh": "低倍周邊血液抹片中淋巴球數量明顯增加，多為小到中型、核圓、細胞質少到中等，部分細胞質偏淡藍且較多；提示成熟 B 細胞淋巴增生，但此倍率看不清絨毛狀突起，需高倍與流式細胞儀才能判定為脾邊緣區淋巴瘤。",
+  "features": [
+    "Increased numbers of lymphoid cells for a low-power field",
+    "Small to medium-sized lymphocytes with round nuclei and condensed chromatin",
+    "Scant to moderate pale blue cytoplasm; villous projections not resolvable at this magnification",
+    "Occasional neutrophil; no smudge cells or blasts evident",
+    "Normocytic red cells with scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear at low magnification shows an increased number of lymphoid cells relative to other leukocytes. The lymphocytes are small to medium-sized with round nuclei, condensed chromatin and scant to moderate pale blue cytoplasm; cytoplasmic villi cannot be assessed at this magnification. Occasional neutrophils are present, and smudge cells and blasts are not evident. Red cells and platelets are unremarkable. The findings indicate a lymphocytosis of mature-appearing cells, compatible with splenic marginal zone lymphoma in leukemic phase when supported by high-power morphology (villous lymphocytes) and immunophenotyping.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL shows uniform small lymphocytes with coarse chromatin and numerous smudge cells, and is CD5+/CD23+."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL typically presents with pancytopenia and monocytopenia rather than lymphocytosis, and cells have abundant hairy cytoplasm and are CD103+/CD25+."},
+    {"dx": "Mantle cell lymphoma in leukemic phase", "vs": "MCL cells often have irregular nuclear contours and are CD5+ with cyclin D1 expression and t(11;14)."},
+    {"dx": "Reactive lymphocytosis", "vs": "Reactive lymphocytosis is polymorphous with larger reactive cells showing basophilic cytoplasm hugging red cells, and is polyclonal on flow cytometry."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

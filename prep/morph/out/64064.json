@@ -1,0 +1,22 @@
+{
+  "id": "64064",
+  "recognize_zh": "單顆母細胞核質比高、染色質細緻，細胞核右上方有一個清楚的淡染凹陷，使核呈杯狀（cup-shaped，魚嘴樣）；標題所述 Auer 小體在此解析度下僅見凹陷區可疑的淡線狀構造，不易確認。",
+  "features": [
+    "Single intermediate-to-large blast, roughly 1.5–2 times a red cell diameter",
+    "High N:C ratio with finely dispersed chromatin",
+    "Prominent pale cup-shaped nuclear invagination at one pole (fish-mouth appearance), occupying well over a quarter of the nuclear diameter",
+    "Scant pale cytoplasm; a possible faint linear inclusion in the invagination, but a definite Auer rod is not clearly resolved",
+    "Background normochromic red cells without other nucleated cells in field; image slightly out of focus"
+  ],
+  "describe_en": "Smear shows a single blast with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin and a prominent pale cup-shaped nuclear invagination giving a fish-mouth appearance. The surrounding cytoplasm is scant, and a definite Auer rod cannot be confidently identified at this focus and resolution, although a faint linear structure may be present within the invagination. No other nucleated cells are in the field. Findings are consistent with a cup-like blast, a morphology associated with AML with NPM1 mutation and/or FLT3-ITD; molecular testing is required for classification.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL shows bilobed or reniform folded nuclei with fine granules and occasional faggot cells, and PML::RARA testing separates it."},
+    {"dx": "Monoblast or promonocyte", "vs": "Monocytic cells have folded or convoluted nuclei with more abundant grey-blue cytoplasm rather than a sharply demarcated clear invagination."},
+    {"dx": "Cup-like lymphoblast in ALL", "vs": "Cup-like invaginations can rarely be seen in ALL, and the absence of a convincing Auer rod means immunophenotyping (MPO, cCD3, CD19) is needed to assign lineage."},
+    {"dx": "Artifactual nuclear indentation from overlying red cell", "vs": "An overlying red cell produces a pink-tinged circular overlap rather than a clear pale invagination within the nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60911",
+  "recognize_zh": "骨髓切片中大量大小不一的巨核細胞成群聚集，許多細胞核小、分葉少、細胞質豐富粉紅，夾雜較小的原始樣細胞與梭形細胞；在唐氏症兒童背景下，這種明顯的異型巨核細胞增生提示唐氏症相關骨髓性白血病（ML-DS）。",
+  "features": [
+    "Marked proliferation of megakaryocytes forming clusters and sheets, ranging from small to large forms",
+    "Many megakaryocytes are dysplastic: small hypolobated or mononuclear nuclei with abundant eosinophilic cytoplasm",
+    "Interspersed smaller cells with high N:C ratio and oval nuclei, compatible with megakaryoblasts/immature cells",
+    "Spindled nuclei and streaming in the lower right, suggesting stromal fibrosis",
+    "Near-complete effacement of normal trilineage hematopoiesis and fat; hemorrhage and bone fragment at lower right"
+  ],
+  "describe_en": "Bone marrow core biopsy at intermediate power shows a hypercellular marrow effaced by a proliferation of atypical megakaryocytes arranged in clusters and sheets. The megakaryocytes vary markedly in size and many have small hypolobated or monolobated nuclei with abundant eosinophilic cytoplasm, admixed with smaller immature cells with high nuclear-to-cytoplasmic ratio. Areas with spindled nuclei suggest associated reticulin fibrosis, and normal erythroid and granulocytic elements are sparse. In a child with Down syndrome and prior transient abnormal myelopoiesis, findings are consistent with myeloid leukemia associated with Down syndrome (megakaryoblastic).",
+  "ddx": [
+    {"dx": "Primary myelofibrosis / other myeloproliferative neoplasm", "vs": "MPN megakaryocytes are large with hyperlobated or cloud-like nuclei in an adult, whereas this pediatric Down syndrome marrow shows small hypolobated megakaryocytes with megakaryoblasts, confirmed by GATA1 mutation."},
+    {"dx": "Acute megakaryoblastic leukemia without Down syndrome (e.g. RBM15::MRTFA)", "vs": "Morphology can overlap; the distinction rests on the constitutional trisomy 21/GATA1 mutation versus the RBM15::MRTFA fusion or CBFA2T3::GLIS2 in non-DS infants."},
+    {"dx": "Metastatic small round blue cell tumor with fibrosis (e.g. neuroblastoma)", "vs": "Metastatic tumor cells form cohesive nests and are CD61/CD42b negative, while the lesional cells here are megakaryocytic and express platelet glycoproteins."},
+    {"dx": "Reactive megakaryocytic hyperplasia (e.g. ITP)", "vs": "Reactive megakaryocytes are normally lobated, dispersed rather than sheeted, without megakaryoblasts or marrow fibrosis."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

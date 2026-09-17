@@ -1,0 +1,21 @@
+{
+  "id": "64171",
+  "recognize_zh": "骨髓切片 CD34 免疫染色中，大型、核淡染的上皮樣細胞群完全不著色，只有零星小型細胞與竇狀血管內皮呈棕色陽性（內部對照），表示這群上皮樣細胞不是母細胞（blast）增生。",
+  "features": [
+    "Cellular marrow with a population of large epithelioid cells with ovoid vesicular nuclei and abundant pale cytoplasm",
+    "Epithelioid cells are negative for CD34",
+    "Positive internal control: rare small scattered CD34-positive cells and linear staining of sinusoidal endothelium",
+    "No increase in CD34-positive blasts or clusters",
+    "Adipocyte spaces interspersed; faint nonspecific background cytoplasmic blush"
+  ],
+  "describe_en": "CD34 immunohistochemistry on the bone marrow core biopsy shows that the large epithelioid cells are negative. CD34 highlights only rare scattered small cells and sinusoidal endothelium, which serve as an internal positive control, with no increase or clustering of CD34-positive blasts. Together with CD163 positivity in the epithelioid cells, the CD34-negative profile argues against a blast-rich myeloid process or vascular neoplasm and supports a histiocytic lineage for the infiltrate.",
+  "ddx": [
+    {"dx": "Increased blasts in MDS/AML", "vs": "Blast excess would show numerous or clustered CD34-positive small-to-medium cells, whereas only rare isolated positive cells are present here."},
+    {"dx": "Epithelioid vascular neoplasm", "vs": "Epithelioid hemangioendothelioma/angiosarcoma cells typically express CD34 and/or CD31/ERG, unlike the CD34-negative epithelioid cells here."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma is CD34-negative as well, so it is excluded by strong diffuse keratin and lack of CD163, not by CD34."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

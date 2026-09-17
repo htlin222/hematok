@@ -1,0 +1,22 @@
+{
+  "id": "60967",
+  "recognize_zh": "周邊血血小板大量增加伴隨有核紅血球與未成熟顆粒球（A），骨髓抹片有顆粒球增生與巨母紅血球樣、核不規則的有核紅血球，插圖為核分離異常的發育不良巨核細胞（B），鐵染色見多顆環形鐵粒幼紅血球（C），切片為富含大型異型巨核細胞的高細胞量骨髓（D），符合 MDS/MPN-RS-T。",
+  "features": [
+    "Panel A (PB): marked thrombocytosis with numerous platelets, a nucleated red cell and immature granulocyte (leukoerythroblastic picture)",
+    "Panel B (BM aspirate): granulocytic hyperplasia with abundant band and segmented neutrophils; erythroid precursors with megaloblastoid chromatin and irregular/budding nuclei",
+    "Panel B inset: dysplastic megakaryocyte with widely separated, small round nuclear lobes",
+    "Panel C (Perls stain): numerous ring sideroblasts with perinuclear blue iron granules",
+    "Panel D (H&E core): hypercellular marrow with increased, large atypical megakaryocytes with hyperlobated/bulbous nuclei, some loosely clustered"
+  ],
+  "describe_en": "Peripheral blood smear shows marked thrombocytosis with a leukoerythroblastic picture. The hypercellular marrow aspirate displays granulocytic hyperplasia, megaloblastoid dyserythropoiesis with irregular nuclear contours, and dysplastic megakaryocytes with separated nuclear lobes, while the iron stain demonstrates abundant ring sideroblasts (40% by report). The core biopsy is hypercellular with increased large atypical megakaryocytes with hyperlobated nuclei that mimic a prefibrotic MPN pattern. In the setting of thrombocytosis ≥450 × 10^9/L, ≥15% ring sideroblasts and JAK2 V617F, the findings are consistent with myelodysplastic/myeloproliferative neoplasm with ring sideroblasts and thrombocytosis (MDS/MPN with SF3B1 mutation and thrombocytosis in current WHO terminology).",
+  "ddx": [
+    {"dx": "Prefibrotic/early primary myelofibrosis", "vs": "Shares hypercellularity, atypical megakaryocytes and JAK2 V617F, but lacks significant ring sideroblasts and erythroid dysplasia."},
+    {"dx": "Essential thrombocythemia", "vs": "Features large mature staghorn megakaryocytes without granulocytic hyperplasia, dyserythropoiesis or ring sideroblasts."},
+    {"dx": "MDS with ring sideroblasts / SF3B1 (low blasts)", "vs": "Has ring sideroblasts but platelet count is below 450 × 10^9/L without MPN-type megakaryocytic proliferation."},
+    {"dx": "MDS with isolated del(5q)", "vs": "Can show thrombocytosis but has small hypolobated (monolobated) megakaryocytes and del(5q) on karyotype, whereas cytogenetics here were normal."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; Perls Prussian blue; H&E",
+  "match": "consistent",
+  "high_yield": true
+}

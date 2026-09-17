@@ -1,0 +1,34 @@
+{
+  "id": "62",
+  "recognize_zh": "低倍下淋巴結被寬厚的膠原纖維帶切割成多個結節，結節內散布許多周圍有空隙的大細胞（腔隙細胞，lacunar cells）；免疫染色中大細胞呈 CD30 膜狀加高基氏體點狀陽性、CD15 點狀陽性、PAX5 弱陽性，符合結節硬化型典型何杰金淋巴瘤。",
+  "features": [
+    "Lymph node architecture effaced by broad collagen bands dividing the parenchyma into cellular nodules",
+    "Numerous lacunar Hodgkin/Reed-Sternberg (HRS) cells: large cells with abundant clear to retracted cytoplasm sitting in clear spaces, multilobated nuclei and prominent nucleoli",
+    "Occasional mononuclear HRS variants and a dense, deeply eosinophilic 'mummified' cell",
+    "Mixed inflammatory background of small lymphocytes, eosinophils, plasma cells and histiocytes",
+    "HRS cells: CD30 membranous and Golgi (paranuclear dot) positive, CD15 paranuclear/granular positive, PAX5 weak nuclear versus strong in background B cells",
+    "Scattered small background lymphocytes positive for a membranous marker while the large atypical cells are negative"
+  ],
+  "describe_en": "Sections of the excised cervical lymph node show effacement of the architecture by a nodular process in which broad collagen bands surround cellular nodules. The nodules contain numerous large lacunar-type Hodgkin/Reed-Sternberg cells with retracted clear cytoplasm, multilobated nuclei and prominent nucleoli, together with occasional mummified cells, in a background of small lymphocytes, eosinophils, plasma cells and histiocytes. By immunohistochemistry, the large cells are positive for CD30 (membranous and Golgi pattern) and CD15 (paranuclear dot/granular), and show weak PAX5 compared with strongly positive background B cells; they are negative for the membranous marker that highlights scattered small reactive lymphocytes. Findings are consistent with classical Hodgkin lymphoma, nodular sclerosis subtype.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant B-cell lymphoma (NLPHL)", "vs": "LP 'popcorn' cells lack lacunar retraction and sclerotic bands, are CD20+ with strong PAX5, and are CD30-/CD15-, unlike the CD30+/CD15+/PAX5-weak lacunar cells here."},
+    {"dx": "Anaplastic large cell lymphoma, ALK-negative", "vs": "ALCL forms cohesive sheets of hallmark cells with uniform strong CD30, frequent T-cell antigen/cytotoxic marker expression, and PAX5 negativity rather than the weak PAX5 of HRS cells."},
+    {"dx": "Primary mediastinal (thymic) large B-cell lymphoma / mediastinal gray zone lymphoma", "vs": "PMBL shows sheets of large cells with strong CD20, CD79a and OCT2/BOB1 and preserved B-cell program, whereas HRS cells here are scattered and have a downregulated B-cell program."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Large cells are CD20+/strong PAX5 and CD30-/CD15- in a background of T cells and histiocytes, lacking eosinophil-rich infiltrate and fibrous nodules."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD30, CD15, PAX5, membranous lymphoid marker",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Low power: broad fibrous bands divide the node into cellular nodules (H&E)",
+    "Nodule edge with collagen band and numerous lacunar cells (H&E)",
+    "Clusters of lacunar HRS cells with clear retracted cytoplasm among small lymphocytes (H&E)",
+    "High power: lacunar cells with multilobated nuclei and prominent nucleoli (H&E)",
+    "Mixed background with eosinophils, histiocytes and a mummified cell (H&E)",
+    "Membranous IHC highlights scattered small lymphocytes; central large atypical cell is negative (likely CD20/CD3)",
+    "PAX5: strong in background B cells, weak nuclear staining in large HRS cells",
+    "CD30: membranous and Golgi-pattern staining of HRS/lacunar cells",
+    "CD15: paranuclear dot and granular cytoplasmic staining in HRS cells"
+  ]
+}

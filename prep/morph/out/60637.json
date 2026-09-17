@@ -1,0 +1,22 @@
+{
+  "id": "60637",
+  "recognize_zh": "A 列為 CML 典型的小型、低分葉「矮小」巨核細胞，散在於高度細胞化的顆粒球背景中；B 列則為伊馬替尼治療後出現的大型、核高度分葉呈鹿角狀（staghorn）且成群的巨核細胞，屬 ET 型態。",
+  "features": [
+    "Panel A: small megakaryocytes with hypolobated, round to monolobated nuclei ('dwarf' megakaryocytes), singly dispersed",
+    "Panel A: hypercellular marrow dominated by granulocytic precursors (elevated M:E ratio)",
+    "Panel B: large to giant megakaryocytes with abundant eosinophilic cytoplasm and deeply hyperlobulated 'staghorn' nuclei",
+    "Panel B: megakaryocytes lie adjacent to fat spaces and sinusoids, some forming loose clusters",
+    "Panel B: background marrow with normal-appearing cellularity and maturation"
+  ],
+  "describe_en": "Bone marrow trephine sections are shown before and after therapy. The pretreatment biopsy (A) is hypercellular with granulocytic predominance and contains small, hypolobated megakaryocytes typical of chronic myeloid leukemia. After imatinib (B), the marrow contains large megakaryocytes with abundant cytoplasm and hyperlobulated staghorn nuclei, arranged singly and in loose clusters, without significant granulocytic expansion. Findings are consistent with coexistent BCR::ABL1-positive CML and JAK2 V617F-positive essential thrombocythemia, with ET morphology unmasked after imatinib therapy.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis (prefibrotic)", "vs": "PMF megakaryocytes are atypical with cloud-like hyperchromatic nuclei, high N:C ratio and tight clusters with granulocytic hypercellularity, rather than mature staghorn forms."},
+    {"dx": "Polycythemia vera", "vs": "PV shows panmyelosis with pleomorphic megakaryocytes of varying sizes and erythroid expansion, not isolated large staghorn megakaryocytes."},
+    {"dx": "CML with thrombocytosis", "vs": "CML megakaryocytes remain small and hypolobated (dwarf forms), in contrast to the large hyperlobated forms in panel B."},
+    {"dx": "Myelodysplastic syndrome with isolated del(5q)", "vs": "5q- syndrome shows small monolobated or hypolobated megakaryocytes with thrombocytosis, resembling panel A rather than panel B."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

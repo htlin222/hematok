@@ -1,0 +1,22 @@
+{
+  "id": "61374",
+  "recognize_zh": "大型腫瘤細胞成片生長，核為泡狀並有明顯單一中央核仁，細胞質嗜雙色、部分呈漿細胞樣，並可見核分裂與凋亡碎片；右下插圖原位雜交顯示腫瘤細胞核強陽性（多為 EBER），符合漿母細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheets of large immunoblastic/plasmablastic cells with abundant amphophilic cytoplasm",
+    "Round to oval vesicular nuclei with single prominent central nucleoli; some eccentric nuclei suggesting plasmacytic differentiation",
+    "Numerous mitoses including atypical forms, and apoptotic bodies",
+    "Scattered small lymphocytes and neutrophils; vague septa of pink stroma",
+    "Inset in situ hybridization: strong dark nuclear signal in most tumor cells (consistent with EBER positivity)"
+  ],
+  "describe_en": "Section shows diffuse sheets of large neoplastic cells with vesicular nuclei, prominent central nucleoli and moderate amphophilic cytoplasm, some with eccentric nuclei suggesting plasmacytic differentiation. Mitotic activity, including atypical mitoses, and apoptosis are prominent. The inset in situ hybridization shows strong nuclear signal in the majority of tumor cells, consistent with EBV (EBER) positivity. Findings are consistent with plasmablastic lymphoma, which should show a plasma cell phenotype (CD138, MUM1, CD38) with loss of CD20 and PAX5 and a very high Ki-67 index.",
+  "ddx": [
+    {"dx": "Plasmablastic (anaplastic) plasma cell myeloma", "vs": "Morphology and phenotype overlap; myeloma is favored by a serum paraprotein, lytic bone lesions and marrow plasmacytosis, and is usually EBER negative."},
+    {"dx": "Diffuse large B-cell lymphoma, immunoblastic", "vs": "Immunoblastic DLBCL retains CD20 and PAX5 expression, whereas plasmablastic lymphoma lacks mature B-cell markers."},
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "Also CD20-negative with plasmablastic phenotype, but shows granular cytoplasmic ALK and is EBV negative."},
+    {"dx": "Primary effusion lymphoma (extracavitary)", "vs": "Tumor cells are HHV8 (LANA-1) positive, often coinfected with EBV, and typically lack CD138-strong plasmacytic cytology."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; inset ISH (EBER)",
+  "match": "consistent",
+  "high_yield": true
+}

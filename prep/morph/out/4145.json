@@ -1,0 +1,23 @@
+{
+  "id": "4145",
+  "recognize_zh": "骨髓抹片被大量中型、核質比極高、染色質細緻、細胞質極少的母細胞取代，部分核有凹陷或扭曲（convoluted），僅殘留少數粒系細胞，符合淋巴母細胞白血病；T 系需以流式確認（cCD3+）。",
+  "features": [
+    "Sheets of small-to-medium blasts replacing normal marrow elements",
+    "Very high N:C ratio with scant basophilic cytoplasm",
+    "Round to irregular, occasionally convoluted or indented nuclei with finely dispersed to slightly condensed chromatin",
+    "Inconspicuous to small nucleoli; no Auer rods or cytoplasmic granules",
+    "Few residual segmented neutrophils and erythroid precursors",
+    "Numerous small cytoplasmic/background vacuoles in the thick area"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a hypercellular specimen largely replaced by small-to-medium blasts with very high nuclear-to-cytoplasmic ratios, round to convoluted nuclei, finely dispersed chromatin, inconspicuous nucleoli and scant agranular basophilic cytoplasm. Auer rods are not seen. Residual granulocytic and erythroid elements are markedly decreased. Findings are consistent with acute lymphoblastic leukemia; lineage assignment as T-lymphoblastic leukemia requires flow cytometry demonstrating cytoplasmic CD3 with TdT and other T-cell antigens.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts look identical on smear and are distinguished only by immunophenotype (CD19, CD79a, PAX5 versus cCD3)."},
+    {"dx": "AML with minimal differentiation", "vs": "Minimally differentiated AML blasts are MPO-negative on cytochemistry but express CD13/CD33/CD117 without cCD3."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and are TdT-negative mature B cells."},
+    {"dx": "Leukemic phase of mantle cell lymphoma (blastoid)", "vs": "Blastoid MCL is TdT-negative, CD5+/cyclin D1+ mature B-cell."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62464",
+  "recognize_zh": "視野中多顆紅血球在中央有一團深染血紅素，外圍一圈淡染環，最外緣又是深染邊，呈牛眼（bull's-eye）狀，就是標靶細胞（target cells）；另有少數細胞表面出現摺痕。",
+  "features": [
+    "Numerous erythrocytes with a central dense hemoglobin spot, a surrounding pale ring, and a peripheral hemoglobinized rim (bull's-eye / target cells)",
+    "Target cells are roughly normocytic to slightly large",
+    "Several red cells with linear folds or creases and a few small, dense cells without central pallor",
+    "Occasional red cells lacking central pallor; scattered platelets",
+    "Thin monolayer area of the smear, arguing against a thick-area artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous target cells (codocytes) with a central condensation of hemoglobin, a surrounding pale annulus, and a hemoglobinized peripheral rim. Additional poikilocytes include folded red cells and occasional small dense cells lacking central pallor. Platelets are present and no nucleated red cells or inclusions are seen in this field. Findings are consistent with target cells, which should prompt evaluation for thalassemia, hemoglobin C or E, liver disease, or post-splenectomy state.",
+  "ddx": [
+    {"dx": "Stomatocytes", "vs": "Stomatocytes have a slit-like or mouth-shaped central pallor without a central dense hemoglobin spot."},
+    {"dx": "Drying artifact", "vs": "Artifactual targets are confined to thick or slowly dried areas and often coexist with refractile artifacts, whereas true targets appear throughout the monolayer."},
+    {"dx": "Hemoglobin C crystals and SC poikilocytes", "vs": "HbC disease shows target cells plus rod or 'Washington monument' crystals and folded cells, which requires hemoglobin electrophoresis for confirmation."},
+    {"dx": "Knizocytes (pinched cells)", "vs": "Knizocytes show a central bar or ridge of hemoglobin rather than a round central spot."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

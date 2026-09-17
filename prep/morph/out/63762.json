@@ -1,0 +1,22 @@
+{
+  "id": "63762",
+  "recognize_zh": "骨髓切片四格免疫染色：大片小淋巴球 CD20 陽性，CD3 只有散在少數 T 細胞，但 CD5 的陽性範圍與 CD20 相當、遠多於 CD3，表示 B 細胞異常表現 CD5；cyclin D1 陰性，排除被套細胞淋巴瘤，符合 CLL/SLL。",
+  "features": [
+    "Bone marrow core with an extensive interstitial to diffuse infiltrate of small lymphoid cells between fat spaces",
+    "CD20: strong staining of the majority of infiltrating lymphocytes",
+    "CD3: only scattered small background T cells",
+    "CD5: staining extent similar to CD20 and far exceeding CD3, indicating CD5 co-expression on B cells",
+    "Cyclin D1: negative in the lymphoid infiltrate"
+  ],
+  "describe_en": "Bone marrow core biopsy shows an extensive interstitial and diffuse infiltrate of small lymphocytes. Immunohistochemistry shows that the infiltrate consists predominantly of CD20-positive B cells with only scattered CD3-positive T cells. CD5 stains a population comparable in extent to CD20 and much larger than the CD3-positive population, indicating aberrant CD5 expression by the B cells, while cyclin D1 is negative. Findings are consistent with bone marrow involvement by chronic lymphocytic leukemia/small lymphocytic lymphoma (CD23 and LEF1 would further support the diagnosis).",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is also CD20+/CD5+ but shows nuclear cyclin D1 (and SOX11) positivity, which is absent here."},
+    {"dx": "Marginal zone lymphoma", "vs": "Marginal zone lymphoma is usually CD5-negative, so CD5 staining would parallel CD3 rather than CD20."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL is typically CD5-negative with a plasmacytoid/plasma cell component (CD138, light chain restriction) and MYD88 L265P mutation."},
+    {"dx": "Reactive lymphoid aggregates", "vs": "Reactive aggregates are small, well circumscribed, paratrabecular-sparing with a mixture of CD3+ T cells and CD20+ B cells and no CD5 on B cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD20, CD3, CD5, cyclin D1",
+  "match": "consistent",
+  "high_yield": true
+}

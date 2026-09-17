@@ -1,0 +1,22 @@
+{
+  "id": "65931",
+  "recognize_zh": "紅血球之間有兩群紫色、短而粗、兩端鈍圓的桿菌（bacilli）成簇分布於細胞外，旁邊伴隨淡粉紅色的無定形物質；形態可確認為桿菌性菌血症樣表現，但菌種需靠培養鑑定。",
+  "features": [
+    "Two extracellular clusters of short, plump, purple-staining rods with rounded ends",
+    "Rods uniform in size, arranged singly, in pairs and short chains",
+    "Pale pink amorphous material adjacent to clusters, possibly degenerated cell remnants",
+    "No intracellular organisms within neutrophils in this field (no leukocytes present)",
+    "Background red cells with occasional crenated forms and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic red cells with occasional crenated forms and scattered platelets. Two extracellular clusters of short, plump, uniformly sized rod-shaped bacteria are present, some in pairs and short chains, associated with pale pink amorphous material. No leukocytes, and therefore no phagocytosed organisms, are present in this field. Findings indicate circulating bacilli, suggestive of high-grade bacteremia in an immunocompromised patient; species identification (Klebsiella pneumoniae per history) requires blood culture, and contamination or delayed processing should be excluded.",
+  "ddx": [
+    {"dx": "Specimen contamination or delayed processing overgrowth", "vs": "Contaminants appear only extracellularly and are not accompanied by clinical sepsis or positive paired blood cultures; intracellular organisms in neutrophils favor true bacteremia."},
+    {"dx": "Stain precipitate", "vs": "Stain precipitate forms irregular granular deposits of variable size rather than uniform rods with parallel sides and rounded ends."},
+    {"dx": "Other gram-negative or gram-positive bacilli (e.g., Capnocytophaga, Clostridium)", "vs": "Wright stain cannot separate bacilli by species; Gram stain and culture are required (Clostridium is gram-positive and larger, Capnocytophaga is fusiform)."},
+    {"dx": "Platelet clumps", "vs": "Platelet clumps are granular aggregates of anucleate fragments of variable size, not discrete regular rods."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

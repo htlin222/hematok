@@ -1,0 +1,22 @@
+{
+  "id": "3570",
+  "recognize_zh": "骨髓抹片中央有一顆特別大的顆粒球，核分成七八個小葉（過度分葉、巨大化），右側有雙核的顆粒球系前驅細胞，下方還有一團重疊的未成熟細胞；異常分葉與雙核化是顆粒球系發育不良（dysgranulopoiesis）的表現。",
+  "features": [
+    "Giant granulocyte with a hypersegmented nucleus of about 7-8 lobes and coarse chromatin",
+    "Abundant cytoplasm with fine neutrophilic granules",
+    "Binucleate granulocytic precursor at right with two separate nuclei in pale cytoplasm",
+    "Cluster of overlapping, hyperchromatic immature cells at lower center, partly crushed",
+    "Band/metamyelocyte at lower left; granular background with platelets"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a markedly enlarged granulocyte with a hypersegmented nucleus of 7-8 lobes and finely granular cytoplasm. An adjacent granulocytic precursor is binucleate, and a cluster of overlapping, partly crushed immature cells is present below. These nuclear abnormalities represent dysgranulopoiesis. The differential includes myelodysplastic neoplasm and non-clonal causes such as megaloblastic anemia or drug effect, so correlation with B12/folate levels, blast count, and cytogenetics is recommended.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic change shows giant metamyelocytes and bands plus nuclear-cytoplasmic asynchrony in erythroid precursors, and it resolves with vitamin replacement."},
+    {"dx": "Drug effect (methotrexate, hydroxyurea, G-CSF)", "vs": "Medication history is required, since drug-induced dysplasia lacks clonal cytogenetic abnormalities."},
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "The hereditary form is a benign isolated finding in mature neutrophils without giant cells, binucleation, or cytopenias."},
+    {"dx": "Therapy-related myeloid neoplasm", "vs": "It shows similar multilineage dysplasia, but the diagnosis relies on prior cytotoxic therapy and often complex or TP53-mutated karyotype."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

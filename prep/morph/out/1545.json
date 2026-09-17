@@ -1,0 +1,22 @@
+{
+  "id": "1545",
+  "recognize_zh": "高倍血片中紅血球明顯大小不一，許多是比正常大的卵圓形巨紅血球（macro-ovalocytes），並有淚滴狀紅血球（箭頭所指尖端）與小碎片，這種大小與形狀不等（anisopoikilocytosis）是惡性貧血等巨母細胞性貧血的血片表現。",
+  "features": [
+    "Marked anisocytosis with large oval red cells (macro-ovalocytes) exceeding normal red cell size",
+    "Poikilocytosis including a teardrop-shaped cell with tapered end (arrow)",
+    "Small irregular red cell fragments and microcytic forms",
+    "Most red cells retain central pallor; no polychromasia evident",
+    "No leukocytes in this field to assess neutrophil segmentation"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows marked anisopoikilocytosis with large oval macrocytes (macro-ovalocytes), a teardrop cell (arrow), and scattered small fragmented red cells. Polychromasia is not evident. No leukocytes are present in the field for evaluation of hypersegmentation. Findings are suggestive of megaloblastic anemia such as pernicious anemia; correlation with MCV, vitamin B12 levels, and neutrophil morphology is recommended.",
+  "ddx": [
+    {"dx": "Liver disease or alcohol-related macrocytosis", "vs": "These produce round macrocytes and target cells without marked poikilocytosis or macro-ovalocytes."},
+    {"dx": "Primary myelofibrosis", "vs": "Myelofibrosis shows prominent teardrop cells with leukoerythroblastosis and usually normocytic red cells, rather than predominant macro-ovalocytes."},
+    {"dx": "Reticulocytosis (hemolysis or hemorrhage)", "vs": "Reticulocyte-driven macrocytosis shows blue-grey polychromatophilic cells, which are not seen here."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS can show macro-ovalocytes but has normal B12/folate and dysplastic neutrophils such as pseudo-Pelger cells rather than hypersegmentation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

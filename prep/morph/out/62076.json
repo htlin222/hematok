@@ -1,0 +1,23 @@
+{
+  "id": "62076",
+  "recognize_zh": "一群比周圍造血細胞大數倍的細胞彼此黏聚成團，核大、染色質呈網狀並可見核仁，細胞質淡藍且含許多小空泡，這種黏聚性的大型異常細胞團是骨髓轉移性腫瘤的線索。",
+  "features": [
+    "Cohesive cluster of large cells, several times the size of adjacent hematopoietic cells, with molding and overlap",
+    "Large round-to-oval nuclei with high N:C ratio and nuclear size variation",
+    "Open, coarsely reticulated chromatin with visible nucleoli in several nuclei",
+    "Moderate pale-blue cytoplasm with numerous small clear vacuoles",
+    "Several similar cells detaching at the edge of the cluster",
+    "Background of crushed/poorly spread marrow elements and a few small lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of large atypical cells that are clearly foreign to the marrow, with several similar cells detaching from its edge. The cells have large round to oval nuclei with moderate anisonucleosis, open reticulated chromatin, identifiable nucleoli, and a moderate amount of pale blue vacuolated cytoplasm. Cell cohesion and nuclear molding are evident. The surrounding marrow elements are poorly spread, and overall cellularity cannot be assessed from this field. Findings are consistent with metastatic non-hematopoietic malignancy; correlation with trephine biopsy and immunohistochemistry is recommended.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Leukemic monoblasts are discohesive single cells with folded nuclei and fine chromatin, whereas these cells form a cohesive, molded cluster."},
+    {"dx": "Plasma cell myeloma with clustered plasma cells", "vs": "Myeloma cells retain eccentric nuclei, clock-face chromatin and a perinuclear hof, features absent in this vacuolated cohesive aggregate."},
+    {"dx": "Macrophage/histiocyte aggregate", "vs": "Histiocytes have small bland nuclei with abundant cytoplasm and phagocytosed debris, not the high N:C ratio and nuclear atypia seen here."},
+    {"dx": "Metastatic small round blue cell tumor (e.g. neuroblastoma, rhabdomyosarcoma)", "vs": "These tumors in children show smaller cells with scant cytoplasm and rosettes; separation from carcinoma relies on age and IHC (keratin, synaptophysin, myogenin)."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

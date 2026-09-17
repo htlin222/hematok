@@ -1,0 +1,21 @@
+{
+  "id": "62091",
+  "recognize_zh": "骨髓抹片被大片單調的中型母細胞佔滿：核圓、核質比極高、細胞質僅一圈淡藍色，染色質細緻、部分可見小核仁，沒有顆粒或 Auer 桿，也看不到成熟的骨髓或紅血球系前驅細胞，符合 ALL 骨髓取代。",
+  "features": [
+    "Sheets of monotonous medium-sized blasts with virtually no residual normal hematopoiesis",
+    "Very high N:C ratio with a thin rim of pale blue agranular cytoplasm",
+    "Round to slightly irregular/indented nuclei with fine, finely stippled chromatin",
+    "Small, occasionally visible nucleoli; no Auer rods or cytoplasmic granules",
+    "Occasional smudged cells and a few small mature lymphocytes; scattered red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a densely cellular field replaced by sheets of monotonous medium-sized blasts. The blasts have round to slightly indented nuclei, finely dispersed chromatin, small inconspicuous to occasionally visible nucleoli, and scant agranular basophilic cytoplasm, without Auer rods. Residual maturing granulocytic and erythroid elements are not identified, and occasional smudged cells are present. Findings are consistent with acute lymphoblastic leukemia; immunophenotyping (reported as precursor B-ALL here) and cytogenetic/molecular risk stratification are required.",
+  "ddx": [
+    {"dx": "AML with minimal differentiation or acute megakaryoblastic leukemia", "vs": "These can look agranular and lymphoid-like, so MPO and flow cytometry for myeloid (CD13/CD33/CD117) or megakaryocytic (CD41/CD61) markers are needed to exclude them."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and are TdT-negative with surface light chain expression."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is TdT/CD34-negative, CD5+ with cyclin D1/SOX11 expression and surface light chain restriction."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

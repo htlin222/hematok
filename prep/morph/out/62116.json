@@ -1,0 +1,21 @@
+{
+  "id": "62116",
+  "recognize_zh": "上排 H&E 骨髓切片為高度細胞性、夾雜纖維化的骨髓（似骨髓纖維化）；下排免疫染色可見緊密聚集、呈梭形的陽性細胞團（多病灶肥大細胞聚集），提示系統性肥大細胞增生症合併其他血液腫瘤（SM-AHN）。",
+  "features": [
+    "Panels A-B (H&E): hypercellular marrow with streaming/fibrotic stroma and scattered fat spaces; a bony trabecula in A",
+    "Panels C-D (IHC): dense, compact multifocal aggregates of immunoreactive cells, many spindle-shaped, often paratrabecular/perivascular",
+    "Scattered single positive cells in the surrounding marrow outside the aggregates",
+    "Background hematopoietic neoplasm component not resolvable at this magnification",
+    "Low resolution composite; the specific IHC antibody is not labeled"
+  ],
+  "describe_en": "Composite of bone marrow core biopsy images. H&E sections (A, B) show a markedly hypercellular marrow with a fibrotic, streaming architecture that on its own could mimic overt primary myelofibrosis. Immunohistochemical stains (C, D; antibody not labeled, likely tryptase/CD117 or CD25) highlight dense multifocal aggregates of spindled mast cells exceeding 15 cells per aggregate, with additional scattered interstitial positive cells. Resolution precludes detailed cytologic assessment. Findings are consistent with systemic mastocytosis, and given the fibrotic hypercellular background, an associated myeloid neoplasm (SM-AHN) should be characterized with KIT D816V, JAK2/CALR/MPL testing, and serum tryptase.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis without mastocytosis", "vs": "PMF shows atypical clustered megakaryocytes and fibrosis but lacks compact aggregates of tryptase+/CD25+ spindled mast cells and KIT D816V."},
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are scattered singly, round, and CD25/CD2-negative, without dense multifocal aggregates."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and tyrosine kinase gene fusion (e.g., FIP1L1::PDGFRA)", "vs": "Can show increased CD25+ spindled mast cells but usually loose rather than compact aggregates, with eosinophilia and PDGFRA rearrangement instead of KIT D816V."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (mast cell marker, unspecified)",
+  "match": "consistent",
+  "high_yield": false
+}

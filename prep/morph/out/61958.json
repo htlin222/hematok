@@ -1,0 +1,20 @@
+{
+  "id": "61958",
+  "recognize_zh": "CD4染色中成片大型細胞呈清楚的膜狀強陽性，核大、淡染泡狀並有核仁，陽性細胞呈黏著性排列，說明腫瘤性大型T細胞表現CD4，符合ALCL最常見的CD4+表型。",
+  "features": [
+    "Sheets of large cells with strong, crisp membranous CD4 staining",
+    "Large oval to irregular nuclei with vesicular chromatin and small nucleoli",
+    "Abundant cytoplasm with cohesive cell arrangement",
+    "Occasional negative cells interspersed; background staining of cytoplasm"
+  ],
+  "describe_en": "CD4 immunostain shows strong membranous staining in sheets of large neoplastic cells with vesicular nuclei and abundant cytoplasm, arranged in a cohesive pattern. A minority of interspersed cells are negative. CD4 expression by the large cells supports a T-cell phenotype, as is typical of anaplastic large cell lymphoma, which is more often CD4-positive than CD8-positive.",
+  "ddx": [
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytes are also CD4-positive, but histiocytic sarcoma expresses CD163/CD68 and lacks strong CD30 and cytotoxic granule proteins."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is CD4+ but co-expresses CD56, CD123, TCF4 and TCL1 with blastic chromatin, and is CD30-negative."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL CD4+ cells are small-to-medium with clear cytoplasm and express TFH markers around expanded FDC meshworks, not sheets of large CD30+ cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD4",
+  "match": "consistent",
+  "high_yield": false
+}

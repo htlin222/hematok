@@ -1,0 +1,22 @@
+{
+  "id": "2790",
+  "recognize_zh": "高倍骨髓切片中，一片小型、核深染略不規則、細胞質極少的淋巴球間質性浸潤，細胞形態溫和、無明顯核仁或核分裂；形態上看不出 B 或 T，需免疫染色證實是 rituximab 相關的 T 細胞增生。",
+  "features": [
+    "Dense interstitial infiltrate of small lymphoid cells",
+    "Small round to slightly irregular hyperchromatic nuclei; scant cytoplasm",
+    "No conspicuous nucleoli, large atypical cells or mitotic activity",
+    "Admixed larger cells with vesicular oval nuclei (histiocytes/endothelial/stromal cells)",
+    "Loose edematous stroma with small vessels; fat spaces at the edges"
+  ],
+  "describe_en": "Bone marrow core biopsy at high power shows an interstitial collection of small lymphoid cells with round to slightly irregular hyperchromatic nuclei and scant cytoplasm, admixed with scattered histiocytes, endothelial cells and small vessels. Cytologic atypia, large transformed cells and mitoses are not seen. Some small dark round nuclei could also represent erythroid precursors, so lineage assessment requires immunohistochemistry. In a post-rituximab setting, a CD3-positive, CD20/PAX5-negative infiltrate would be consistent with rituximab-associated marrow T-cell hyperplasia.",
+  "ddx": [
+    {"dx": "Residual small B-cell lymphoma", "vs": "Residual lymphoma shows PAX5/CD79a-positive B cells with light-chain restriction, whereas reactive infiltrates are CD3-positive T-cell predominant."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL forms intrasinusoidal linear arrays of CD8+/TIA-1+/granzyme B+ cells with clonal TCR rearrangement."},
+    {"dx": "Erythroid hyperplasia", "vs": "Erythroid precursors have perfectly round nuclei with perinuclear clearing, form clusters and stain for E-cadherin/glycophorin/CD71 rather than CD3."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "PTCL shows cytologic atypia, larger cells, aberrant loss of pan-T antigens and a clonal TCR rearrangement."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

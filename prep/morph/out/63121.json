@@ -1,0 +1,30 @@
+{
+ "id": "63121",
+ "recognize_zh": "BCL2 染色低倍下，大量深棕色陽性細胞密集分布於骨小樑周圍並延伸至間質，與中央脂肪造血區的陰性形成對比，支持濾泡性淋巴瘤（BCL2 異常表現）侵犯骨髓。",
+ "features": [
+  "IHC for BCL2 on bone marrow core biopsy, low power",
+  "Densely positive lymphoid cells concentrated in paratrabecular bands",
+  "Positive cells extend into interstitial sheets",
+  "Intertrabecular fat and hematopoietic areas contain fewer positive cells",
+  "Subcellular pattern not resolvable at this magnification"
+ ],
+ "describe_en": "BCL2 immunostain at low power shows numerous strongly positive lymphoid cells concentrated in paratrabecular bands and interstitial sheets, whereas the intertrabecular fat and hematopoietic regions are largely negative. Because normal T cells also express BCL2, interpretation relies on concordance with the CD19/CD20/CD10-positive infiltrate. BCL2 expression in a CD10-positive B-cell population supports follicular lymphoma, here with large-cell transformation.",
+ "ddx": [
+  {
+   "dx": "Reactive T-cell infiltrate",
+   "vs": "Reactive T cells are BCL2+ but CD3+ and CD20/CD10 negative; co-localization with CD10+ B cells is required."
+  },
+  {
+   "dx": "Burkitt lymphoma",
+   "vs": "Burkitt lymphoma is characteristically BCL2-negative or weak, unlike this strongly BCL2-positive infiltrate."
+  },
+  {
+   "dx": "De novo diffuse large B-cell lymphoma",
+   "vs": "De novo DLBCL may also express BCL2; transformation from FL is established by history, residual low-grade component, or clonal relationship (t(14;18))."
+  }
+ ],
+ "specimen": "BM biopsy",
+ "stain": "IHC: BCL2",
+ "match": "consistent",
+ "high_yield": false
+}

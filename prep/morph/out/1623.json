@@ -1,0 +1,21 @@
+{
+  "id": "1623",
+  "recognize_zh": "Giemsa 高倍下可見生發中心的混合細胞：核大、染色質開放並有周邊核仁的中心母細胞（centroblast），核有切跡的中心細胞（centrocyte），以及右上角核大而淡、核膜細薄的濾泡樹突細胞（FDC），細胞大小不一。",
+  "features": [
+    "Large cells with round vesicular nuclei and one to several nucleoli, some abutting the nuclear membrane (centroblasts)",
+    "Smaller cells with irregular, cleaved or indented nuclei and scant cytoplasm (centrocytes)",
+    "Cell with a large pale oval nucleus, very fine chromatin and thin membrane (follicular dendritic cell) at the upper right",
+    "Cell with clear cytoplasm and a pale nucleus at the lower left (macrophage)",
+    "Heterogeneous mixture of cell sizes and nuclear shapes"
+  ],
+  "describe_en": "Giemsa-stained section at oil-immersion power shows a heterogeneous germinal center population consisting of large centroblasts with vesicular nuclei and membrane-bound nucleoli, admixed smaller centrocytes with cleaved nuclei. A cell with a large pale nucleus and delicate chromatin consistent with a follicular dendritic cell and a macrophage with clear cytoplasm are also present. The mixture of cell types argues against a clonal proliferation. Findings are consistent with a normal reactive germinal center.",
+  "ddx": [
+    {"dx": "Follicular lymphoma, grade 3", "vs": "Grade 3 FL shows follicles dominated by sheets of centroblasts (>15/hpf) with few FDCs and macrophages, and is often BCL2/CD10 positive with loss of polarization."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL shows diffuse sheets of large atypical cells effacing architecture, whereas this field shows a mixed centroblast-centrocyte-FDC population."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are monotonous medium-sized cells with multiple small nucleoli and deeply basophilic vacuolated cytoplasm, unlike this heterogeneous population."}
+  ],
+  "specimen": "LN",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

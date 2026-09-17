@@ -1,0 +1,20 @@
+{
+  "id": "1055",
+  "recognize_zh": "視野中有兩顆嗜鹼性球（basophil），胞質塞滿深紫黑色粗顆粒並遮住核，另有一顆嗜中性球；CML 周邊血嗜鹼性球增多是加速期的線索之一，紅血球可見標靶狀、口形與淚滴狀變化。",
+  "features": [
+    "Two basophils with coarse dark purple-black granules overlying and obscuring the nucleus",
+    "One segmented neutrophil with fine granules",
+    "Red cells with anisopoikilocytosis: target-like and stomatocyte-like forms, a teardrop cell, and occasional crenated cells",
+    "Platelets present, some in small clumps, with variably sized forms"
+  ],
+  "describe_en": "Peripheral blood smear shows two basophils with abundant coarse dark granules obscuring the nuclei, together with a segmented neutrophil. Red cells show anisopoikilocytosis with target-like and stomatocyte-like cells, occasional crenated cells, and a teardrop cell; some of the central clearing may be drying artifact. Platelets are present with variable size. In a patient with CML, findings are consistent with basophilia; peripheral basophils >=20% would support accelerated phase.",
+  "ddx": [
+    {"dx": "Mast cells (systemic mastocytosis)", "vs": "Mast cells are larger, often spindle-shaped with round central nuclei and metachromatic granules that do not overlie the nucleus, and are CD117/tryptase positive."},
+    {"dx": "Toxic granulation in neutrophils", "vs": "Toxic granules are finer and dispersed in neutrophils with visible segmented nuclei, rather than large coarse granules obscuring the nucleus."},
+    {"dx": "Reactive basophilia (hypothyroidism, allergy)", "vs": "Reactive basophilia is mild without left-shifted granulocytes, blasts, or BCR::ABL1."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

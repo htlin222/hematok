@@ -1,0 +1,23 @@
+{
+  "id": "64077",
+  "recognize_zh": "四格免疫染色中，瀰漫成片的腫瘤細胞 CD3（A）與 CD10（B）陽性，CD33（D）強陽性；搭配 T 淋巴母細胞淋巴瘤的臨床背景，提示帶有異常骨髓標記（CD33）的 T 母細胞腫瘤。TdT（C）在此解析度下染色偏弱、核內定位不明確。",
+  "features": [
+    "Diffuse sheets of uniformly stained tumor cells at low-to-medium power with delicate intervening vessels",
+    "CD3 (A): strong diffuse membranous/cytoplasmic positivity in the tumor sheet",
+    "CD10 (B): diffuse positivity with a granular/dot-like pattern in most tumor cells",
+    "TdT (C): weak, patchy staining at this magnification; crisp nuclear localization is difficult to confirm",
+    "CD33 (D): strong diffuse positivity, indicating aberrant myeloid antigen expression",
+    "No architectural heterogeneity or residual follicles are evident in these fields"
+  ],
+  "describe_en": "Immunohistochemical stains performed on the biopsy show a diffuse, sheet-like proliferation of tumor cells. The neoplastic cells are positive for CD3 and CD10, with strong aberrant expression of CD33. TdT staining is weak and patchy at this magnification, and nuclear localization cannot be reliably assessed in this image; correlation with a well-controlled TdT stain (or flow cytometry) is recommended. In the appropriate morphologic context, the immunophenotype supports T-lymphoblastic lymphoma with aberrant CD33 expression.",
+  "ddx": [
+    {"dx": "Early T-precursor lymphoblastic leukemia/lymphoma (ETP-ALL)", "vs": "ETP-ALL is CD1a-/CD8- with weak or absent CD5 and expresses stem/myeloid markers such as CD117, CD34 or CD33, so CD5, CD1a, CD8 and CD117 are needed to exclude it."},
+    {"dx": "Mixed-phenotype acute leukemia, T/myeloid", "vs": "MPAL T/myeloid requires MPO positivity (or monocytic differentiation) in addition to cytoplasmic CD3; CD33 alone does not establish myeloid lineage."},
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma is CD33/CD117/MPO positive but lacks cytoplasmic CD3 and TdT-positive T-lineage phenotype."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL consists of mature T cells that are TdT-negative and usually CD10-negative, often with loss of pan-T antigens and a pleomorphic cytology."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD3, CD10, TdT, CD33",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "64696",
+  "recognize_zh": "低倍 CD3 免疫染色中，整片瀰漫浸潤的腫瘤細胞都呈強陽性（棕色），只有血管與纖維間隔不染色，證實這片單調浸潤是 T 細胞來源。",
+  "features": [
+    "Diffuse, strong membranous/cytoplasmic CD3 staining in virtually all infiltrating cells",
+    "Sheet-like infiltrate effacing tissue architecture, interrupted only by negative vessels and fibrous septa",
+    "Uniform staining intensity consistent with a monotonous clonal-appearing T-cell population",
+    "Negative stromal and endothelial elements serve as internal negative control"
+  ],
+  "describe_en": "Low-power immunohistochemical stain for CD3 shows diffuse, strong positivity in a sheet-like lymphoid infiltrate that effaces the intestinal wall. Only intervening blood vessels and fibrous septa are negative. The uniform staining supports a T-cell lineage for the infiltrate but by itself does not distinguish neoplastic from reactive T cells. Together with CD56 and TIA1 positivity and the monotonous epitheliotropic morphology, findings are consistent with monomorphic epitheliotropic intestinal T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Enteropathy-associated T-cell lymphoma", "vs": "EATL is also CD3+ but usually CD56-/CD8- with pleomorphic cells and necrosis, whereas MEITL is characteristically CD8+ and CD56+ with MATK expression."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "ENKTL expresses cytoplasmic CD3 and CD56 but is EBER-positive, while MEITL is EBV-negative."},
+    {"dx": "Reactive T-cell-rich inflammation", "vs": "Reactive infiltrates show a mixed CD4/CD8 population with retained architecture and polyclonal TCR, rather than a mass-like, monotonous CD3+ sheet with clonal TCR rearrangement."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

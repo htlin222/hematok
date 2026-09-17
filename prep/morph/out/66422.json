@@ -1,0 +1,23 @@
+{
+  "id": "66422",
+  "recognize_zh": "乳房粗針切片（B）為瀰漫浸潤的單一型小至中型細胞，免疫染色 CD20 強陽性（C）、BRAF V600E（D）、cyclin D1（E）、TRAP（F）陽性而 CD5 陰性（G），流式 CD103+/CD25+（H–I），這組合指向毛細胞白血病（hairy cell leukemia），而非小葉癌。",
+  "features": [
+    "Panel A: mammogram with a dense mass (circled)",
+    "Panel B: core biopsy with diffuse sheet-like infiltrate of monotonous small to medium cells surrounding ducts, without gland formation",
+    "Panel C: strong diffuse membranous CD20 positivity in the infiltrate, sparing ducts and vessels",
+    "Panels D-F: tumor cells positive for BRAF (VE1), weak nuclear cyclin D1 and granular cytoplasmic TRAP",
+    "Panel G: CD5 highlights only scattered background T cells",
+    "Panels H-J: flow cytometry shows a CD20-bright, CD103+ and CD25+ B-cell population with light-chain analysis"
+  ],
+  "describe_en": "Mammography demonstrates a circumscribed dense breast mass. The core biopsy shows a diffuse infiltrate of monotonous small to medium-sized mononuclear cells with periductal and diffuse stromal infiltration and no epithelial differentiation. By immunohistochemistry the infiltrate is strongly CD20 positive, BRAF V600E (VE1) positive, weakly cyclin D1 positive and TRAP positive, while CD5 stains only scattered T cells. Flow cytometry identifies CD20-bright B cells co-expressing CD103 and CD25. Findings are consistent with extramedullary involvement of the breast by hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Invasive lobular carcinoma", "vs": "Lobular carcinoma shows single-file discohesive cells that are cytokeratin positive, often ER/PR positive and E-cadherin negative, whereas these cells are cytokeratin negative and CD20 positive."},
+    {"dx": "Hairy cell leukemia variant / splenic B-cell lymphoma with prominent nucleoli", "vs": "HCL variant lacks CD25, annexin A1 and BRAF V600E, whereas this infiltrate is CD25+ and BRAF VE1 positive."},
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma is CD5 positive with strong cyclin D1 and SOX11 and is CD103/CD25 negative."},
+    {"dx": "Extranodal marginal zone lymphoma of breast", "vs": "MZL is CD103/CD25 negative, BRAF VE1 negative and cyclin D1 negative, often with lymphoepithelial lesions and plasmacytic differentiation."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD20, BRAF, cyclin D1, TRAP, CD5; flow",
+  "match": "consistent",
+  "high_yield": false
+}

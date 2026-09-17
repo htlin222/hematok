@@ -1,0 +1,21 @@
+{
+  "id": "1202",
+  "recognize_zh": "免疫組織化學染色中，一群核大、核仁明顯的大型細胞呈細胞膜與高基氏區點狀陽性，其餘小淋巴球陰性；配合原發性積液淋巴瘤（PEL）臨床背景，屬於大細胞的部分表現型佐證，但單張無法確立診斷。",
+  "features": [
+    "Mixed population of large atypical cells with round to oval vesicular nuclei and occasional distinct nucleoli, admixed with small lymphocytes",
+    "Brown membranous and paranuclear dot-like (Golgi) staining in a subset of the large cells",
+    "Small mature lymphocytes and background cells are negative",
+    "Marker not labeled; the membrane/Golgi pattern resembles CD30 or CD138 staining"
+  ],
+  "describe_en": "Immunohistochemical stain (marker not specified) performed on a cell block/tissue preparation shows a mixed population of large atypical cells with vesicular nuclei and small lymphocytes. A subset of the large cells shows membranous and paranuclear dot-like positivity, while small lymphocytes are negative. The staining pattern is compatible with an activation or plasmacytic marker such as CD30 or CD138, but the specific antibody cannot be determined from the image. In the appropriate clinical context, findings support involvement by primary effusion lymphoma; confirmation requires HHV8 (LANA) positivity.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows strong uniform CD30 with T-cell or ALK expression and is HHV8-negative, whereas PEL is HHV8 LANA-positive with a null/plasmablastic phenotype."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma usually forms a solid mass, is EBV-positive and HHV8-negative, unlike PEL."},
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells are cytokeratin, calretinin and WT1 positive and lack CD45, CD138 or HHV8 expression."},
+    {"dx": "Metastatic carcinoma in effusion", "vs": "Carcinoma is cytokeratin/epithelial marker positive and lacks lymphoid and HHV8 markers."}
+  ],
+  "specimen": "body fluid",
+  "stain": "IHC: marker not stated (membranous/Golgi pattern)",
+  "match": "partial",
+  "high_yield": false
+}

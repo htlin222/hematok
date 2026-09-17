@@ -1,0 +1,23 @@
+{
+  "id": "61984",
+  "recognize_zh": "五格免疫染色：大型腫瘤細胞 CD30 呈強烈細胞膜及核旁 Golgi 點狀陽性，ALK 陰性，CD20 陰性，CD3 在大細胞上陰性（只有背景小 T 細胞陽性），CD45 部分弱陽性；CD30 均勻強陽性而 ALK 陰性、合併 T 標記缺失，是乳房植入物相關 ALCL 的關鍵表型。",
+  "features": [
+    "Large pleomorphic tumor cells in a pale, fibrinous-appearing background",
+    "CD30: strong, uniform membranous and paranuclear Golgi-pattern staining of large cells",
+    "ALK: negative in tumor cells",
+    "CD3: negative in large tumor cells; only scattered small reactive T cells positive",
+    "CD20: negative, excluding a B-cell neoplasm",
+    "CD45: variable, weak to moderate membranous staining in a subset of cells"
+  ],
+  "describe_en": "Panel of immunohistochemical stains on tissue containing large pleomorphic tumor cells. The large cells show strong, uniform membranous and Golgi-pattern CD30 staining and are negative for ALK, CD20 and CD3, with CD3 highlighting only scattered small reactive T cells; CD45 shows variable weak to moderate staining. This profile indicates a CD30-positive, ALK-negative lymphoid neoplasm with loss of CD3. Findings are consistent with ALK-negative anaplastic large cell lymphoma, supporting breast implant-associated ALCL in the setting of a periprosthetic effusion or capsule.",
+  "ddx": [
+    {"dx": "ALK-positive anaplastic large cell lymphoma", "vs": "ALK-positive ALCL shows nuclear and cytoplasmic ALK staining and occurs mostly in young patients, whereas this tumor is ALK-negative."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30-positive but typically CD45-negative, CD15-positive and weakly PAX5-positive in a mixed inflammatory background."},
+    {"dx": "Undifferentiated carcinoma or melanoma", "vs": "Carcinoma and melanoma can be large and pleomorphic but are CD45-negative and positive for cytokeratins or SOX10/S100, respectively."},
+    {"dx": "CD30-positive DLBCL", "vs": "DLBCL cells are CD20- and PAX5-positive, which excludes it here given CD20 negativity."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20, CD3, CD45, CD30, ALK",
+  "match": "consistent",
+  "high_yield": true
+}

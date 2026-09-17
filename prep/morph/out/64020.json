@@ -1,0 +1,22 @@
+{
+  "id": "64020",
+  "recognize_zh": "這是右大腿 CT 冠狀／矢狀重建影像：股骨近端內側、鄰近坐骨與恥骨下枝處有一團邊界不規則、密度等同骨皮質的高密度鈣化／骨化塊，周圍軟組織腫脹；在血友病 A 病人，符合肌肉內出血後的異位性骨化（heterotopic ossification）。",
+  "features": [
+    "Contrast-enhanced CT reformatted image of the right thigh and pelvis (superior marked 'S')",
+    "Large lobulated, densely calcified/ossified mass with bone-density attenuation in the proximal medial thigh adjacent to the ischium and pubic ramus",
+    "Mottled internal architecture with a peripheral dense rim, suggesting mature ossification",
+    "Surrounding thigh musculature appears bulky without a large enhancing soft-tissue component on this slice",
+    "Distal femur visible at the knee; this single slice does not fully show the described bridging to the femoral metaphysis"
+  ],
+  "describe_en": "Reformatted CT image of the right thigh shows a large lobulated mass of bone-like attenuation in the proximal medial thigh adjacent to the ischium and inferior pubic ramus, with a dense peripheral rim and mottled internal ossification. There is no large associated enhancing soft-tissue mass on this slice, and the bridging to the medial femoral metaphysis described clinically is not fully captured in this single image. This is a radiologic, non-morphologic figure. In a patient with hemophilia A, findings are consistent with heterotopic ossification, likely following recurrent intramuscular hemorrhage.",
+  "ddx": [
+    {"dx": "Hemophilic pseudotumor", "vs": "Pseudotumors are encapsulated expanding hematomas with low-to-mixed attenuation contents, bone erosion and a thin calcified rim rather than a solid mature ossified mass."},
+    {"dx": "Parosteal or extraskeletal osteosarcoma", "vs": "Osteosarcoma shows denser central mineralization with an immature periphery, cortical invasion or a soft-tissue component, opposite to the zonal peripheral maturation of heterotopic ossification."},
+    {"dx": "Myositis ossificans after trauma (non-hemophilic)", "vs": "Radiologically identical zonal ossification, distinguished only by the clinical history of trauma versus coagulopathy-related bleeding."},
+    {"dx": "Calcified chronic hematoma or tumoral calcinosis", "vs": "Dystrophic calcification lacks trabecular bone architecture and a corticated rim."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

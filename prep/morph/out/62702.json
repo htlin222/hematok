@@ -1,0 +1,21 @@
+{
+  "id": "62702",
+  "recognize_zh": "淋巴球 gate 的 CD56 對 CD57 四象限流式圖：CD57+CD56+ 占 41.22%，綠色 NK 細胞緊密成團、CD57 強而 CD56 僅弱到中度；CD56 並非強陽性，較符合成熟 NK 細胞的慢性增生。",
+  "features": [
+    "Quadrant dot plot gated on lymphocytes: CD56-APC (x) versus CD57-FITC (y)",
+    "CD57+CD56+ quadrant 41.22%, dominated by a tight green NK-cell cluster",
+    "NK cluster CD57 bright (~10^1.5 to 10^2) with dim-to-moderate CD56 (not CD56 bright)",
+    "CD57-CD56- quadrant ~48% (T and B cells), CD57+CD56- 6.43%, CD57-CD56+ 4.34%",
+    "Uniform phenotype of the expanded cluster suggests a restricted mature NK subset"
+  ],
+  "describe_en": "Flow cytometric quadrant plot of the lymphocyte gate displays CD56 versus CD57. CD56-positive, CD57-positive cells account for 41.22% of lymphocytes and form a tight cluster with bright CD57 and dim-to-moderate CD56, while CD56-positive CD57-negative cells are only 4.34%. The homogeneous CD56-dim, CD57-bright phenotype corresponds to mature cytotoxic NK cells rather than CD56-bright immature NK cells. Findings are consistent with the reported chronic lymphoproliferative disorder of NK cells.",
+  "ddx": [
+    {"dx": "Aggressive NK-cell leukemia", "vs": "ANKL cells are typically CD56 bright and CD57 negative, unlike this CD56-dim, CD57-bright cluster."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells may be CD57 positive and CD56 variable but express surface CD3, which must be excluded on other tubes."},
+    {"dx": "Reactive NK-cell lymphocytosis", "vs": "Reactive NK cells show more heterogeneous CD57/CD56 and polyclonal KIR expression, with a transient course."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

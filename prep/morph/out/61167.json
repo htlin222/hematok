@@ -1,0 +1,23 @@
+{
+  "id": "61167",
+  "recognize_zh": "抹片（A）中是大型、細胞質布滿大小不一泡泡狀空泡、細胞核圓且常為雙核的上皮樣細胞，切片（B、C）呈淡染、泡狀細胞位於黏液樣基質中，這種「含空泡細胞」（physaliphorous cell）是脊索瘤（chordoma）的特徵，標題「chord」即暗示此診斷。",
+  "features": [
+    "Panel A (aspirate smear): large cohesive cells with abundant pale blue-gray cytoplasm containing multiple variably sized clear vacuoles (physaliphorous/bubbly cells)",
+    "Round, eccentric nuclei with moderately condensed chromatin; frequent binucleate forms and small nucleoli",
+    "Panel B (core biopsy, low power): marrow spaces between trabeculae replaced by a pale, lobulated, hypocellular tumor",
+    "Panel C: cords and single vacuolated cells embedded in a pale myxoid/chondroid-like matrix",
+    "Panels D/E: diffuse cytoplasmic and nuclear (D) and membranous (E) immunohistochemical positivity; antigens not labeled in figure",
+    "Panel F: strong magenta staining of tumor cells and matrix, consistent with PAS or mucin-type histochemical stain"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows clusters of large non-hematopoietic cells with abundant pale cytoplasm filled with multiple clear vacuoles of varying sizes and round eccentric nuclei, including binucleate forms. The core biopsy shows intertrabecular spaces replaced by a pale, lobulated tumor composed of cords and single vacuolated cells in a myxoid matrix. Immunostains show diffuse cytoplasmic/nuclear and membranous positivity in the tumor cells (antigens not labeled), and a histochemical stain highlights the cells and matrix in magenta. Findings are suggestive of metastatic chordoma involving the marrow; brachyury (TBXT), cytokeratin and S100 immunostains confirm this diagnosis.",
+  "ddx": [
+    {"dx": "Metastatic signet-ring cell or clear cell carcinoma", "vs": "Carcinoma cells have a single mucin vacuole indenting the nucleus or clear glycogenated cytoplasm without myxoid matrix, and are brachyury negative."},
+    {"dx": "Chondrosarcoma", "vs": "Chondrosarcoma cells sit in lacunae within hyaline/chondroid matrix and are S100 positive but cytokeratin and brachyury negative."},
+    {"dx": "Gaucher cells or lipid-laden histiocytes", "vs": "Gaucher cells have fibrillary crumpled-tissue-paper cytoplasm and foamy histiocytes have fine uniform vacuoles, both CD68 positive and non-cohesive."},
+    {"dx": "Serous fat atrophy (gelatinous transformation)", "vs": "Gelatinous transformation shows acellular pale extracellular material with hypoplastic marrow rather than cohesive atypical vacuolated tumor cells."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa, H&E, IHC, PAS (presumed)",
+  "match": "consistent",
+  "high_yield": false
+}

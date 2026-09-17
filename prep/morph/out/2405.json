@@ -1,0 +1,22 @@
+{
+  "id": "2405",
+  "recognize_zh": "在正常成熟中的骨髓細胞背景裡，中央有一顆特別巨大的細胞，細胞質深藍、豐富，核圓而偏位、染色質較細，體積遠大於周圍骨髓細胞，這是多發性骨髓瘤中的大型（不成熟）漿細胞。",
+  "features": [
+    "Single very large cell, several times the size of surrounding myelocytes",
+    "Round, slightly eccentric nucleus with relatively fine chromatin; nucleolus not clearly visible",
+    "Abundant, deeply basophilic cytoplasm with irregular borders and faint paranuclear pale zone",
+    "Background of normal trilineage maturation: neutrophil precursors, band forms, erythroid precursors, eosinophils",
+    "Large fat vacuole adjacent to the cell"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a background of maturing granulocytic and erythroid precursors with a single conspicuous very large cell. This cell has abundant deeply basophilic cytoplasm, a round, slightly eccentric nucleus with relatively fine chromatin, and a vague paranuclear clearing, consistent with a large atypical (immature) plasma cell. A single cell is insufficient for diagnosis; the plasma cell percentage, clonality by flow cytometry or kappa/lambda staining, and correlation with serum/urine M-protein are required. Findings are compatible with plasma cell myeloma with large atypical plasma cells in the appropriate context.",
+  "ddx": [
+    {"dx": "Osteoblast", "vs": "Osteoblasts occur in clusters, have an eccentric nucleus with a hof located away from the nucleus, and are CD138-negative/CD56-variable without light chain restriction."},
+    {"dx": "Megakaryocyte (immature)", "vs": "Immature megakaryocytes show cytoplasmic blebs, a higher N:C ratio and are CD61/CD42b positive rather than CD138 positive."},
+    {"dx": "Metastatic carcinoma cell", "vs": "Carcinoma cells form cohesive clusters with vacuolated cytoplasm and are cytokeratin positive, lacking plasma cell features."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma presents as sheets of immunoblastic cells, often EBER positive in HIV patients, without the osteolytic/M-protein myeloma context."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

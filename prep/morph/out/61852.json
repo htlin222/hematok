@@ -1,0 +1,21 @@
+{
+  "id": "61852",
+  "recognize_zh": "Langerin（CD207）染色下，成片的卵圓形腫瘤細胞完全呈陰性，只有極少數零星棕色點；在 CD1a 與 S100 陽性的前提下，Langerin 陰性正是區分不定型樹突細胞腫瘤與蘭格漢斯細胞組織球增生症的關鍵。",
+  "features": [
+    "Diffuse sheets of ovoid tumor cells with hematoxylin-counterstained nuclei only",
+    "No membranous or cytoplasmic Langerin (CD207) staining in the tumor cells",
+    "Rare scattered brown granules, likely pigment or nonspecific background",
+    "Oval to grooved nuclei with moderate pale cytoplasm visible on counterstain",
+    "Pertinent negative stain in a CD1a-positive dendritic cell proliferation"
+  ],
+  "describe_en": "Immunohistochemical stain for Langerin (CD207) shows a diffuse sheet of ovoid tumor cells with grooved nuclei that are entirely negative, with only rare scattered brown granules that do not localize to tumor cell membranes or cytoplasm. An adequate internal or external positive control should be confirmed before interpretation. Langerin negativity in a CD1a-positive, S100-positive dendritic cell proliferation excludes Langerhans cell histiocytosis and is consistent with indeterminate dendritic cell tumor.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells show diffuse granular cytoplasmic Langerin positivity corresponding to Birbeck granules, which is absent here."},
+    {"dx": "Technical false-negative Langerin stain", "vs": "Absent staining in a Langerhans-type proliferation must be validated by a positive control (e.g. epidermal Langerhans cells) before calling indeterminate cell tumor."},
+    {"dx": "Interdigitating dendritic cell sarcoma", "vs": "IDCS is also Langerin negative but is CD1a negative, whereas indeterminate cell tumor is CD1a positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Langerin (CD207)",
+  "match": "consistent",
+  "high_yield": false
+}

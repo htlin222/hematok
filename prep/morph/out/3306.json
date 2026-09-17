@@ -1,0 +1,23 @@
+{
+  "id": "3306",
+  "recognize_zh": "箭頭所指的細胞是顆粒球前驅細胞，細胞質灰藍帶細顆粒，細胞核中央有一個清楚的圓形空洞，使核呈甜甜圈狀的環形核（ring nucleus）；這種環形核在大小鼠顆粒球中是常態，因此俗稱「rodent cell」，在人類骨髓屬於反應性或發育異常變化。",
+  "features": [
+    "Intermediate to large granulocytic precursor (arrow) with moderate grey-blue cytoplasm",
+    "Fine azurophilic/neutrophilic granules in the cytoplasm",
+    "Nucleus with a central round clear hole forming a ring (doughnut) shape",
+    "Coarsely granular chromatin without a visible nucleolus",
+    "Adjacent larger myelocyte-like cell and a segmented neutrophil",
+    "Background with scattered platelets and granular debris"
+  ],
+  "describe_en": "Bone marrow aspirate smear at high power shows a granulocytic precursor (arrow) with moderate grey-blue finely granular cytoplasm and a nucleus containing a central round clear space, producing a ring or doughnut-shaped nucleus with coarsely granular chromatin. A larger myelocyte-like cell and a segmented neutrophil are adjacent. Ring-shaped nuclei are normal in rodent granulocytes, hence the term rodent cell. In human marrow, ring-form granulocytes are a nonspecific finding reported in reactive states, growth factor exposure, alcohol use and myeloid neoplasms, and should be interpreted with the overall marrow findings.",
+  "ddx": [
+    {"dx": "Overlying platelet or vacuole artifact", "vs": "An overlying object sits in a different focal plane and does not have a crisp nuclear membrane lining the hole, unlike a true ring nucleus."},
+    {"dx": "Dysplastic granulocyte in MDS or CML", "vs": "Ring nuclei are more significant when accompanied by other dysplastic features such as hypogranulation, pseudo-Pelger forms or blasts."},
+    {"dx": "Intranuclear inclusion or pseudoinclusion", "vs": "Intranuclear inclusions contain cytoplasmic-staining material within the hole rather than an empty clear center."},
+    {"dx": "Megaloblastic giant metamyelocyte", "vs": "Giant metamyelocytes are enlarged with open chromatin and horseshoe-shaped nuclei, not a punched-out central hole."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

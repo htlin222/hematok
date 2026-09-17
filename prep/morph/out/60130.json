@@ -1,0 +1,22 @@
+{
+  "id": "60130",
+  "recognize_zh": "骨髓抹片中一大團彼此黏附的腫瘤細胞，細胞質深藍、含細小空泡，核圓且相互擠壓，與周圍分散的造血細胞明顯不同；此團細胞呈上皮樣黏聚，提示轉移性神經母細胞瘤。",
+  "features": [
+    "Cohesive syncytial-appearing cluster of small-to-medium round tumor cells",
+    "Deeply basophilic cytoplasm with fine punctate vacuoles",
+    "Round nuclei with fine chromatin, high N:C ratio and nuclear molding",
+    "Scattered dispersed single cells with similar features and occasional histiocytes nearby",
+    "Background red cells with drying artifact; neuropil not prominent in this field"
+  ],
+  "describe_en": "Wright-Giemsa-stained bone marrow aspirate smear shows a cohesive cluster of small to medium-sized tumor cells with round, molded nuclei, fine chromatin and deeply basophilic cytoplasm containing fine vacuoles. Similar cells are scattered singly nearby, along with occasional histiocytes, and red cells show drying artifact. Neuropil is not conspicuous in this field. Cohesive clusters of non-hematopoietic small round cells are consistent with metastatic neuroblastoma in this clinical context.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma / leukemia", "vs": "Burkitt cells also have deeply basophilic vacuolated cytoplasm but are discohesive, CD45 and CD20 positive with MYC rearrangement."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Rhabdomyosarcoma clusters can be vacuolated and cohesive, requiring desmin/myogenin and FOXO1 rearrangement to separate."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma cells show PAS-positive glycogen vacuoles and CD99/NKX2.2 staining with EWSR1 fusion."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts may cluster and have blebbed basophilic cytoplasm but are CD41/CD61 positive, unlike PHOX2B-positive neuroblastoma."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

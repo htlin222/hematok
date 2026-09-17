@@ -1,0 +1,21 @@
+{
+  "id": "1105",
+  "recognize_zh": "周邊血液抹片中兩顆小至中型淋巴球，細胞核有明顯的溝紋與摺疊（腦迴狀，cerebriform），細胞質稀少，這是Sézary細胞的典型外觀。",
+  "features": [
+    "Two small-to-intermediate lymphoid cells, roughly 1.5-2 times the diameter of a red cell",
+    "High N:C ratio with a thin rim of pale blue, agranular cytoplasm",
+    "Nuclear contours folded with linear grooves, giving a cerebriform appearance",
+    "Condensed, evenly dark chromatin without visible nucleoli",
+    "Background red cells largely normocytic and normochromic; a few platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows two atypical lymphoid cells in a background of unremarkable red cells and platelets. The cells are small to intermediate in size with scant pale agranular cytoplasm and dense chromatin. Nuclei show prominent grooves and folds producing a cerebriform contour; nucleoli are not seen. Findings are consistent with circulating Sézary cells; correlation with flow cytometry (CD4+, CD7 and/or CD26 loss) and clinical erythroderma is recommended.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells are typically polylobated 'flower cells' with deeper petal-like lobation rather than fine cerebriform grooves, and are HTLV-1 associated."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells usually have a visible central nucleolus, more basophilic cytoplasm with blebs, and very high counts with marked organomegaly."},
+    {"dx": "Reactive lymphocytes with nuclear clefts", "vs": "Reactive cells show a heterogeneous spectrum with more abundant cytoplasm, and flow cytometry lacks aberrant pan-T antigen loss or clonal TCR."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

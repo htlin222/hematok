@@ -1,0 +1,22 @@
+{
+  "id": "64441",
+  "recognize_zh": "腎臟切片的腎小管之間有小淋巴細胞浸潤。腎臟檢體的流式細胞儀顯示 κ 限制的 B 細胞 CD10 陽性，連背景的 λ 多株 B 細胞也有 CD10 訊號（藍色箭頭）；但同時期淋巴結的流式為 CD10 陰性，CD10 免疫染色也只染腎小管、不染淋巴瘤細胞，這是腎小管脫落 CD10 造成的偽陽性。",
+  "features": [
+    "Panel A (H&E): renal cortex with dense interstitial infiltrate of small lymphoid cells separating tubules",
+    "Panel B (renal biopsy flow): CD19+/CD20+ B cells in the CD10-positive quadrant (79.5%), predominantly kappa-restricted (91.1%)",
+    "Background polytypic lambda B cells (blue, arrow) also appear CD10-positive, indicating nonspecific staining",
+    "Panel C (subcarinal lymph node flow): same kappa-restricted B cells but CD10-negative (98.5%)",
+    "Panel D (CD10 IHC): strong staining of renal tubular epithelium with negative interstitial lymphoma cells"
+  ],
+  "describe_en": "Renal biopsy shows a dense interstitial infiltrate of small lymphoid cells between tubules. Flow cytometry of the renal biopsy shows a kappa-restricted CD19+/CD20+ B-cell population that appears CD10-positive, with CD10 signal also on background polytypic lambda B cells, whereas flow cytometry of the concurrent subcarinal lymph node shows the same kappa-restricted population lacking CD10. CD10 immunohistochemistry stains renal tubules strongly but not the lymphoma cells. Findings are consistent with recurrent extranodal marginal zone (MALT) lymphoma with false-positive CD10 by flow cytometry, attributable to CD10 (neprilysin) shed from renal tubules.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "True follicular lymphoma shows CD10 and BCL6 by IHC on tumor cells, follicular architecture and IGH::BCL2 fusion, all absent here."},
+    {"dx": "Diffuse large B-cell lymphoma, germinal center type", "vs": "DLBCL consists of large cells with CD10 or BCL6 positive by IHC, not small cells with CD10 only on flow cytometry."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma shows medium-sized cells with a starry-sky pattern, Ki-67 near 100% and MYC rearrangement with true CD10 expression."},
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma is CD5+ and cyclin D1/SOX11-positive, whereas this infiltrate is CD5-negative."}
+  ],
+  "specimen": "flow",
+  "stain": "H&E; IHC: CD10; flow cytometry",
+  "match": "non-morphologic",
+  "high_yield": false
+}

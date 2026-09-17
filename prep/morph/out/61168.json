@@ -1,0 +1,23 @@
+{
+  "id": "61168",
+  "recognize_zh": "A 格 H&E 中在混合發炎背景裡有多核、核仁大而明顯的 Reed-Sternberg 樣大細胞；B 格大細胞呈膜狀與高基氏體（Golgi）點狀染色，D 格原位雜交大細胞核呈深藍陽性，E、G 格則顯示背景的 CLL 小淋巴球族群，符合 CLL 發生 Hodgkin 型 Richter 轉化。",
+  "features": [
+    "Panel A (H&E): large multinucleated Reed-Sternberg-like cell with prominent inclusion-like nucleoli in a mixed background of small lymphocytes and histiocytes",
+    "Panel B (IHC): large cells with membranous and paranuclear dot (Golgi) staining pattern, typical of CD30/CD15 in Hodgkin cells",
+    "Panel C (double IHC): scattered large cells with weak brown nuclear staining amid red-labeled small background cells",
+    "Panel D (ISH): dark blue nuclear signal in large cells, consistent with EBER positivity",
+    "Panel E: dense sheet of small cells with red membranous staining representing the CLL/background lymphoid population, with interspersed brown nuclei",
+    "Panels F and G: large cells with nuclear staining (F) and flow cytometry plots showing a clonal B-cell population (G); exact antigens not labeled in the figure"
+  ],
+  "describe_en": "This composite shows a lymphoid infiltrate containing scattered large Hodgkin/Reed-Sternberg-like cells with multilobated nuclei and prominent inclusion-like nucleoli in a mixed background of small lymphocytes and histiocytes. Immunohistochemistry shows the large cells with membranous and paranuclear dot-like staining typical of CD30/CD15, weak nuclear staining in a double-stained panel, and nuclear positivity for EBV-encoded RNA by in situ hybridization. Other panels show a dense population of small lymphocytes corresponding to the underlying chronic lymphocytic leukemia and flow cytometry demonstrating a clonal B-cell population. Findings are consistent with classic Hodgkin lymphoma arising in CLL (Hodgkin-variant Richter transformation); antigen identities should be confirmed against the original legend.",
+  "ddx": [
+    {"dx": "CLL with scattered Hodgkin-like (Reed-Sternberg-like) cells", "vs": "HRS-like cells scattered within a background of CLL cells, without a true mixed inflammatory Hodgkin background, are recognized separately and do not constitute full cHL."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma / DLBCL-type Richter transformation", "vs": "DLBCL forms confluent sheets of large cells with strong CD20/CD45 expression, lacking the CD15/CD30 Golgi pattern and weak PAX5 of HRS cells."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows cohesive sheets of hallmark cells that are CD30 positive but PAX5 negative, often with T-cell markers or ALK."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Large cells in THRLBCL are CD20 and OCT2/BOB1 strongly positive and CD15/CD30 negative."}
+  ],
+  "specimen": "other",
+  "stain": "H&E, IHC (double stain), ISH: EBER, flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

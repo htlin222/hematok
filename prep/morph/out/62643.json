@@ -1,0 +1,21 @@
+{
+  "id": "62643",
+  "recognize_zh": "紅血球 CD59 分型圖：橫軸 FL2 為 CD59 表現量，依強度分成正常第 I 型（57.66%）、部分缺失第 II 型（1.93%）與完全缺失第 III 型（40.42%），顯示紅血球有大型 PNH 克隆（約 42%）。",
+  "features": [
+    "Dot plot of FL2 (x, GPI-linked CD59) versus FL1 (y, red cell marker) on gated red cells",
+    "Type I (normal CD59 expression, red): 57.66%",
+    "Type II (partial CD59 deficiency, green): 1.93%",
+    "Type III (complete CD59 deficiency, black): 40.42%",
+    "Total PNH red cell clone (type II + III) approximately 42%"
+  ],
+  "describe_en": "Flow cytometric analysis of gated red blood cells displays FL1 versus FL2 intensity, with FL2 representing expression of the GPI-anchored protein CD59. Red cells separate into type I cells with normal CD59 expression (57.66%), type II cells with partial deficiency (1.93%) and type III cells with complete deficiency (40.42%). The combined PNH red cell population of about 42% indicates a large PNH clone. Because PNH red cells are preferentially hemolyzed and may be diluted by transfusion, the red cell clone size can underestimate the true clone, which is better reflected by granulocyte and monocyte FLAER analysis. Findings are consistent with paroxysmal nocturnal hemoglobinuria.",
+  "ddx": [
+    {"dx": "CD59 congenital deficiency", "vs": "Isolated inherited CD59 deficiency affects all red cells uniformly with preserved other GPI-anchored proteins and FLAER binding on leukocytes."},
+    {"dx": "Small PNH clone in aplastic anemia or MDS", "vs": "Typically shows clones well below 10% rather than a type III population of 40%."},
+    {"dx": "Technical artifact from poor staining or recent transfusion", "vs": "Artifactual loss is diffuse rather than forming discrete type II/III populations, and must be confirmed by FLAER on granulocytes and monocytes."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

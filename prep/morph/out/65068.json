@@ -1,0 +1,22 @@
+{
+  "id": "65068",
+  "recognize_zh": "A、B 兩張臨床照片顯示四肢廣泛的紅色斑丘疹（麻疹樣皮疹），C 張周邊血抹片可見多顆含橘紅色粗顆粒的嗜酸性球（紅箭頭）與細胞質深藍的反應性淋巴球（綠箭頭），組合起來指向藥物反應伴嗜酸性球增多及全身症狀（DRESS）。",
+  "features": [
+    "Panels A-B: confluent erythematous maculopapular (morbilliform) rash over upper and lower limbs",
+    "Panel C: multiple mature eosinophils with bilobed nuclei and coarse orange-red granules (red arrows)",
+    "Panel C: reactive lymphocytes, larger than small lymphocytes, with abundant deeply basophilic cytoplasm (green arrows)",
+    "Accompanying segmented neutrophil; eosinophils show no dysplastic features",
+    "Red cells normocytic without significant poikilocytosis; platelets present"
+  ],
+  "describe_en": "Composite figure: clinical photographs (A, B) show a diffuse erythematous maculopapular eruption involving the arm and leg. The peripheral blood smear (C) shows leukocytosis with increased mature eosinophils bearing bilobed nuclei and coarse eosinophilic granules, together with reactive lymphocytes having abundant deeply basophilic cytoplasm. Eosinophils appear morphologically mature without hypogranularity or blasts in this field. In the context of recent levetiracetam exposure, fever and lymphadenopathy, the findings are consistent with drug reaction with eosinophilia and systemic symptoms (DRESS).",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia or chronic eosinophilic leukemia", "vs": "Neoplastic eosinophilia may show dysplastic or immature eosinophils, blasts and clonal markers (PDGFRA/B, FGFR1 rearrangement), and does not resolve after drug withdrawal."},
+    {"dx": "Infectious mononucleosis / viral infection", "vs": "Viral infections produce reactive lymphocytes but typically without marked eosinophilia or a temporal link to a new drug."},
+    {"dx": "Parasitic infection", "vs": "Parasitic eosinophilia lacks the drug-associated rash and reactive lymphocytosis and is supported by stool/serology testing."},
+    {"dx": "Stevens-Johnson syndrome / toxic epidermal necrolysis", "vs": "SJS/TEN shows mucosal involvement, blistering and epidermal detachment, and eosinophilia is not a defining feature."}
+  ],
+  "specimen": "PB",
+  "stain": "Romanowsky (Leishman/Wright-Giemsa); clinical photographs",
+  "match": "consistent",
+  "high_yield": false
+}

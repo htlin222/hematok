@@ -1,0 +1,22 @@
+{
+  "id": "63761",
+  "recognize_zh": "H&E 可見中到大型、多形性、核仁明顯的淋巴樣細胞瀰漫浸潤；免疫染色 CD2、CD43 膜陽性，CD30 強而瀰漫、MUM1 核陽性，但 CD45、CD3、CD5 皆陰性，加上 TCR 基因重組單株峰（panel i），指向 T 細胞表型殘缺的原發性中樞神經 T 細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheets of medium to large pleomorphic lymphoid cells with round-oval nuclei, some with distinct nucleoli, scant to moderate cytoplasm (H&E, panel a)",
+    "CD2 and CD43 membranous positivity in the tumor cells",
+    "Strong diffuse membranous/Golgi CD30 and strong nuclear MUM1",
+    "CD45, CD3 and CD5 negative in tumor cells with only rare positive background cells (internal control)",
+    "Capillary electrophoresis of TCR gamma rearrangement with a single dominant clonal peak (panel i)"
+  ],
+  "describe_en": "Brain biopsy shows a diffuse infiltrate of medium to large pleomorphic lymphoid cells with round to oval nuclei, occasional distinct nucleoli and scant to moderate cytoplasm. By immunohistochemistry the neoplastic cells are positive for CD2 and CD43, strongly and diffusely positive for CD30 and MUM1, and negative for CD45, CD3 and CD5, with scattered positive background cells serving as internal controls. TCR gamma gene rearrangement studies show a dominant monoclonal peak. The combination of an aberrant T-cell phenotype with loss of pan-T antigens and CD45, CD30 expression and clonal TCR rearrangement, in the absence of systemic disease, is most compatible with primary CNS T-cell lymphoma; ALK-negative anaplastic large cell lymphoma must be considered given uniform CD30.",
+  "ddx": [
+    {"dx": "Primary CNS diffuse large B-cell lymphoma", "vs": "PCNSL-DLBCL is CD20/PAX5/CD79a positive and CD2/CD43-only T-cell phenotype with clonal TCR would not be seen."},
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "ALCL shows hallmark cells with horseshoe nuclei, uniformly strong CD30 and frequent cytotoxic markers/EMA, and needs systemic staging; this case is TIA-1, granzyme B and EMA negative."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Carcinoma and melanoma are CD45-negative too but express keratins or S100/SOX10 and lack CD2/CD43 and clonal TCR."},
+    {"dx": "Glioblastoma / high-grade glioma", "vs": "Gliomas are GFAP/OLIG2 positive with fibrillary background and lack lymphoid markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD2, CD43, CD30, MUM1, CD45, CD3, CD5",
+  "match": "consistent",
+  "high_yield": false
+}

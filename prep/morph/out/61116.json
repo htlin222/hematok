@@ -1,0 +1,23 @@
+{
+  "id": "61116",
+  "recognize_zh": "組合圖中結膜下可見鮭魚肉色腫塊（A），切片為單一形態小至中型淋巴球瀰漫浸潤（B），CD20 陽性（C）且 cyclin D1 核染色陽性（D），PET-CT 顯示廣泛皮下組織 FDG 攝取（E、F），支持被套細胞淋巴瘤侵犯淚腺與皮下組織。",
+  "features": [
+    "Clinical photo: salmon-pink subconjunctival/lacrimal region mass on eversion of the eyelid",
+    "Diffuse sheets of monotonous small to medium lymphoid cells with slightly irregular nuclei and scant cytoplasm; scattered pink hyalinized vessels",
+    "No follicles, proliferation centers or large transformed cells evident on H&E",
+    "Diffuse membranous CD20 positivity in the neoplastic cells",
+    "Nuclear cyclin D1 positivity in a large proportion of cells (variable, mostly weak to moderate intensity)",
+    "PET-CT: extensive FDG-avid subcutaneous soft-tissue involvement of the trunk and abdomen"
+  ],
+  "describe_en": "Composite figure. The clinical photograph shows a salmon-colored mass in the ocular adnexa. Biopsy sections show a diffuse infiltrate of monotonous small to medium-sized lymphoid cells with slightly irregular nuclear contours, scant cytoplasm and scattered hyalinized small vessels, without follicular structures or large-cell sheets. The neoplastic cells are positive for CD20 and show nuclear cyclin D1 expression. PET-CT images demonstrate widespread FDG-avid subcutaneous soft-tissue disease. Findings are consistent with mantle cell lymphoma involving the lacrimal gland and subcutaneous tissue.",
+  "ddx": [
+    {"dx": "Extranodal marginal zone lymphoma of ocular adnexa", "vs": "MALT lymphoma is the most common ocular adnexal lymphoma but is cyclin D1-negative and CD5-negative with marginal zone/monocytoid and plasmacytic differentiation."},
+    {"dx": "CLL/SLL", "vs": "CLL/SLL shows round nuclei with proliferation centers and is CD23+ LEF1+ and cyclin D1-negative (except occasional proliferation-center cells)."},
+    {"dx": "Follicular lymphoma", "vs": "FL is CD10+ BCL6+ with a follicular pattern of centrocytes and centroblasts and lacks cyclin D1 expression."},
+    {"dx": "Hairy cell leukemia / plasma cell neoplasm with cyclin D1", "vs": "These can express weak cyclin D1 but HCL is CD103+ annexin A1+ and myeloma is CD138+ CD20-negative, unlike the CD20+ SOX11+ MCL cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD20, cyclin D1; PET-CT",
+  "match": "consistent",
+  "high_yield": false
+}

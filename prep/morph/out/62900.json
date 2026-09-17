@@ -1,0 +1,22 @@
+{
+  "id": "62900",
+  "recognize_zh": "左側為一個大型淋巴球，細胞質淡藍而豐富，一側聚集一群粗大的嗜天青顆粒（azurophilic granules），核染色質中度凝集；右側為對照用的嗜中性球。細胞質豐富且顆粒聚集成簇，是大顆粒淋巴球（LGL）的變異型態。",
+  "features": [
+    "Large lymphocyte with moderately abundant pale blue cytoplasm",
+    "Coarse azurophilic granules aggregated in a cluster at one pole of the cytoplasm",
+    "Irregular to slightly indented nucleus with moderately condensed chromatin and faint pale areas",
+    "Adjacent band-to-segmented neutrophil with fine granules for size comparison",
+    "Background red cells normochromic with scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a large lymphocyte with moderately abundant pale blue cytoplasm containing a cluster of coarse azurophilic granules aggregated at one pole, and a slightly irregular nucleus with moderately condensed chromatin. A neutrophil lies adjacent for comparison, and the background red cells and platelets are unremarkable in this field. No blasts or atypical nuclear features are seen. Findings are consistent with a large granular lymphocyte showing aggregated cytoplasmic granules, in this clinical setting most likely reactive; persistent LGL lymphocytosis would require flow cytometry and TCR clonality studies to exclude T-LGL leukemia.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "Morphologically similar; distinguished by persistent LGL count >2 x10^9/L, aberrant CD3+/CD8+/CD57+ phenotype, and clonal TCR rearrangement or STAT3 mutation."},
+    {"dx": "Promyelocyte or myelocyte", "vs": "Myeloid precursors have finer chromatin, a Golgi zone, and granules distributed throughout the cytoplasm rather than a lymphoid nucleus with a polar granule cluster."},
+    {"dx": "Chédiak-Higashi syndrome lymphocyte", "vs": "Contains one or few giant inclusions, with giant granules also in neutrophils."},
+    {"dx": "Reactive (Downey-type) lymphocyte", "vs": "Has deeply basophilic cytoplasm hugging adjacent red cells and usually lacks prominent azurophilic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

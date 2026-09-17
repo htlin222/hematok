@@ -1,0 +1,20 @@
+{
+  "id": "61547",
+  "recognize_zh": "骨髓切片 EBER 原位雜交中，數個大型細胞核呈深藍色強陽性訊號，周圍小細胞為紅色對比染色陰性；陽性的是大型腫瘤細胞而非零星小淋巴球，支持 EBV 陽性 CHL。",
+  "features": [
+    "Scattered large nuclei with strong dark blue nuclear EBER signal",
+    "Some positive nuclei lobated or paired, consistent with Hodgkin/Reed-Sternberg cells",
+    "Background small cells negative with pink nuclear fast red counterstain",
+    "Positive cells occur singly, not in sheets; bony trabecula at lower center"
+  ],
+  "describe_en": "EBV-encoded RNA (EBER) in situ hybridization on a bone marrow biopsy shows strong nuclear signal in scattered large cells, some with lobated or paired nuclei, distributed singly within the infiltrate adjacent to a bony trabecula. The background small lymphocytes and stromal cells are negative. The positive cells correspond in size and distribution to the Hodgkin/Reed-Sternberg cells seen on H&E and CD30 stains. Findings indicate EBV-positive classic Hodgkin lymphoma involving the marrow.",
+  "ddx": [
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "EBV+ DLBCL shows numerous EBER+ large cells often in sheets that are CD20+ with strong PAX5, rather than scattered CD20−, CD15+ HRS cells."},
+    {"dx": "Latent EBV in bystander small B cells", "vs": "Bystander EBV-positive cells are rare, small lymphocytes, whereas here the signal is in large atypical nuclei."},
+    {"dx": "Peripheral T-cell lymphoma (e.g. AITL) with EBV+ B-immunoblasts", "vs": "AITL has EBER+ B immunoblasts of variable size amid a neoplastic CD10+/PD-1+ T-cell population with high endothelial venule proliferation."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

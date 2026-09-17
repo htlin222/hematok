@@ -1,0 +1,22 @@
+{
+  "id": "62623",
+  "recognize_zh": "積液細胞塊（cell block）中，纖維蛋白旁聚集大量鬆散、互不黏著的大型淋巴樣細胞，核圓、有明顯核仁、部分細胞質嗜鹼性偏心，呈免疫母細胞/漿母細胞樣，符合原發性積液淋巴瘤（PEL）。",
+  "features": [
+    "Large discohesive atypical lymphoid cells, several times the size of small lymphocytes",
+    "Round to oval nuclei, some eccentric, with vesicular chromatin and prominent central nucleoli (immunoblastic/plasmablastic)",
+    "Moderate amphophilic to basophilic cytoplasm",
+    "Occasional binucleate and apoptotic cells",
+    "Cells aggregated along a strip of fibrin with red blood cells; background of pale proteinaceous fibrinous material"
+  ],
+  "describe_en": "Cell block of effusion fluid at intermediate power shows a cellular aggregate of large, discohesive atypical lymphoid cells adherent to a band of fibrin. The cells have round to slightly irregular, often eccentric nuclei with vesicular chromatin, prominent nucleoli and moderate amphophilic cytoplasm, imparting an immunoblastic to plasmablastic appearance. The surrounding background contains proteinaceous fibrinous debris without mesothelial cell clusters or glandular structures. Findings are consistent with involvement by a high-grade lymphoma and, in the appropriate immunophenotypic context (HHV8 LANA-1+, CD45+, CD138+, B-cell antigen negative), with primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma in effusion", "vs": "Carcinoma forms cohesive three-dimensional clusters or glands with cell-to-cell molding and is keratin positive, whereas PEL cells are discohesive and CD45/CD138 positive."},
+    {"dx": "DLBCL with secondary effusion (HHV8-negative effusion-based lymphoma)", "vs": "These express pan-B-cell markers (CD20, CD79a) and are HHV8 LANA-1 negative, while PEL lacks B-cell antigens and is LANA-1 positive."},
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells show dense central nuclei, 'windows' between cells and a two-toned cytoplasm, and are calretinin/WT1 positive rather than CD45/CD138 positive."},
+    {"dx": "Plasmablastic myeloma involving effusion", "vs": "Myeloma usually shows bone lesions and a serum paraprotein and is HHV8-negative, whereas PEL is HHV8 LANA-1 positive and often EBER positive."}
+  ],
+  "specimen": "body fluid",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

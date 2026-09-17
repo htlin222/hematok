@@ -1,0 +1,21 @@
+{
+  "id": "62635",
+  "recognize_zh": "在顆粒球設門中，絕大多數細胞同時缺少 FLAER 與 CD24（GPI 錨定蛋白），落在左下框內，標示 PNH 顆粒球 97.03%，即為大型 PNH 克隆。",
+  "features": [
+    "Gated on granulocytes: FLAER (x, log) versus CD24-PE (y, log)",
+    "Dominant population (arrow) negative for both FLAER and CD24, lower-left PNH gate",
+    "Small residual normal population double-positive (FLAER+ CD24 bright), upper right",
+    "Tiny FLAER+ CD24-dim cluster (likely eosinophils or partial events)",
+    "Event table: 41,526 of 42,797 granulocytes in PNH gate = 97.03%"
+  ],
+  "describe_en": "Flow cytometric analysis of peripheral blood granulocytes displayed as FLAER versus CD24. The vast majority of granulocytes (41,526/42,797 events, 97.03%) show concurrent loss of FLAER binding and CD24 expression, falling in the PNH gate, while only a small residual population retains normal FLAER and CD24 expression. Loss of two independent GPI-linked markers on granulocytes identifies a GPI-deficient clone. Findings are consistent with a large paroxysmal nocturnal hemoglobinuria (PNH) clone.",
+  "ddx": [
+    {"dx": "Hereditary CD59 or isolated GPI-protein deficiency", "vs": "Inherited single-protein deficiencies affect one marker on all cells, whereas PNH shows loss of FLAER and multiple GPI-anchored proteins in a clonal subset."},
+    {"dx": "Immature/left-shifted myeloid cells in MDS or AML", "vs": "Immature granulocytes can be CD24-dim but still bind FLAER, so dual FLAER/CD24 loss favors a true PNH clone."},
+    {"dx": "Aplastic anemia with small PNH clone", "vs": "Many aplastic anemia patients carry small (<10%) clones; a 97% granulocyte clone indicates classic hemolytic PNH rather than a minor subclinical population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A (flow cytometry: FLAER, CD24-PE)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

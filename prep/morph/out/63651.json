@@ -1,0 +1,22 @@
+{
+  "id": "63651",
+  "recognize_zh": "骨髓抹片（a）與切片（b）中有兩群細胞：一群是大型、核質比高、核彼此擠壓（nuclear molding）而成簇的細胞，另一群是散在的小型成熟樣淋巴球；前者 CAM5.2 陽性（c），後者 CD20 陽性且流式為 kappa 限制（d）。",
+  "features": [
+    "(a) Aspirate: cohesive clusters of large cells with high N:C ratio, nuclear molding, and inconspicuous nucleoli (black arrows)",
+    "(a) Separate small lymphoid cells with scant cytoplasm and condensed chromatin (green arrows)",
+    "(b) Biopsy H&E: diffuse sheets of molded large cells admixed with small dark lymphocytes",
+    "(c) CAM5.2: cytoplasmic keratin positivity in the large cell population",
+    "(d) CD20: positive small lymphoid cells in aggregates; inset flow plot shows kappa-restricted B cells"
+  ],
+  "describe_en": "Multipanel composite of bone marrow aspirate, biopsy, immunohistochemistry, and flow cytometry. The aspirate (a) and core biopsy (b) show diffuse infiltration by two admixed populations: cohesive clusters of large cells with high nuclear-to-cytoplasmic ratio, nuclear molding, and inconspicuous nucleoli, and small lymphoid cells with scant cytoplasm and condensed chromatin. The large cells are positive for CAM5.2 (c), while the small cells are CD20 positive (d) and kappa light chain restricted by flow cytometry (inset). Findings are consistent with concurrent bone marrow involvement by metastatic small cell carcinoma and a CD5-negative, CD10-negative mature B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Large B-cell or blastoid lymphoma alone", "vs": "Lymphoma cells are discohesive without nuclear molding and are keratin negative and CD20/CD45 positive."},
+    {"dx": "Other small round blue cell tumors (Ewing sarcoma, neuroblastoma, rhabdomyosarcoma)", "vs": "These are usually keratin negative and express CD99/NKX2.2, PHOX2B, or myogenin respectively, unlike TTF-1-positive small cell carcinoma."},
+    {"dx": "Acute leukemia", "vs": "Blasts are discohesive and express CD45, CD34, TdT, or myeloid markers but not keratin."},
+    {"dx": "Merkel cell carcinoma", "vs": "Merkel cell carcinoma shows perinuclear dot CK20 and is TTF-1 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC: CAM5.2, CD20; flow",
+  "match": "consistent",
+  "high_yield": false
+}

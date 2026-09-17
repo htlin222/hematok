@@ -1,0 +1,23 @@
+{
+  "id": "61695",
+  "recognize_zh": "400 倍 H&E 下黃色三角框內可見多個巨大、成熟的巨核細胞緊密群聚，細胞核過度分葉、呈鹿角狀（staghorn），胞質豐富，這種大型成熟巨核細胞聚集是 ET 的典型線索。",
+  "features": [
+    "Clusters of markedly enlarged megakaryocytes (highlighted by yellow triangle and arrow)",
+    "Hyperlobulated, deeply folded 'staghorn' nuclei with mature chromatin",
+    "Abundant eosinophilic, mature-appearing cytoplasm",
+    "Megakaryocytes loosely to tightly clustered, admixed with erythroid and granulocytic precursors",
+    "No hypolobated, bulbous or cloud-like dysplastic megakaryocytes identified in this field",
+    "Adjacent bony trabecula at lower left; fibrosis cannot be assessed on H&E"
+  ],
+  "describe_en": "Bone marrow biopsy section (H&E, 400x) shows trilineage hematopoiesis with increased megakaryocytes forming loose to tight clusters (marked by the yellow triangle and arrow). The megakaryocytes are large to giant with abundant mature cytoplasm and hyperlobulated, staghorn-like nuclei. No small hypolobated forms or bizarre cloud-like nuclei with abnormal chromatin clumping are seen in this field, and granulocytic and erythroid elements are present in the background. Findings are consistent with essential thrombocythemia in the appropriate clinical and molecular (JAK2/CALR/MPL) context; a reticulin stain is needed to exclude prefibrotic primary myelofibrosis.",
+  "ddx": [
+    {"dx": "Prefibrotic/early primary myelofibrosis", "vs": "PMF megakaryocytes are atypical with bulbous, hyperchromatic, cloud-like nuclei and high N:C ratio in dense clusters with increased cellularity and granulocytic proliferation, whereas ET megakaryocytes are large, mature and staghorn-lobated."},
+    {"dx": "Polycythemia vera", "vs": "PV shows panmyelosis with pleomorphic megakaryocytes of variable size and prominent erythroid hyperplasia, rather than predominantly giant hyperlobulated megakaryocytes in normocellular marrow."},
+    {"dx": "Reactive thrombocytosis", "vs": "Reactive megakaryocytes are increased but normal in size and lobation and do not form tight clusters, with no driver mutation."},
+    {"dx": "MDS/MPN with SF3B1 and thrombocytosis (MDS/MPN-RS-T)", "vs": "This also has large megakaryocytes but shows dyserythropoiesis with >=15% ring sideroblasts on iron stain and SF3B1 mutation."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "64905",
+  "recognize_zh": "成群的中大型母細胞核圓、染色質細緻，多數核中央或一側有淡染的杯狀凹陷（cup-like），部分胞質可見少量細顆粒，符合伴杯狀母細胞的急性骨髓性白血病。",
+  "features": [
+    "Clusters of medium to large blasts with high N:C ratio",
+    "Round to slightly indented nuclei with a pale cup-shaped invagination in many cells",
+    "Fine, open chromatin",
+    "Scant to moderate pale cytoplasm, some with fine azurophilic granules",
+    "Occasional smudged cell and platelets; red cells show crenation"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous blasts, some in clusters, with high nuclear-to-cytoplasmic ratios and finely dispersed chromatin. Many blasts contain a pale cup-like nuclear invagination, and a subset shows scant cytoplasm with fine granules. No Auer rods or maturing granulocytes are identified in this field. Findings are consistent with acute myeloid leukemia with cup-like blast morphology, which correlates with NPM1 and FLT3-ITD mutations; molecular confirmation is required.",
+  "ddx": [
+    {"dx": "Microgranular acute promyelocytic leukemia", "vs": "Microgranular APL has bilobed or sliding-plate nuclei with Auer rod bundles, and PML::RARA must be excluded urgently."},
+    {"dx": "Acute myelomonocytic or monocytic leukemia", "vs": "Monocytic blasts have more abundant gray cytoplasm and folded nuclei, and are nonspecific esterase positive."},
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "Lymphoblasts lack cytoplasmic granules and nuclear cups and are MPO negative with TdT and lymphoid antigen expression."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

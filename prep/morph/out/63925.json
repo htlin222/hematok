@@ -1,0 +1,22 @@
+{
+  "id": "63925",
+  "recognize_zh": "上排血片可見中至大型淋巴樣細胞，核不規則或有凹裂、染色質細緻、偶見小核仁、細胞質少而偏藍，外觀像芽細胞；下排流式為 CD19+ CD5+ CD20 強陽性 CD10+、CD23− CD200−、CD79b+ 的單株 B 細胞，提示 CD10 陽性的芽細胞樣被套細胞淋巴瘤，需 cyclin D1/t(11;14) 確認。",
+  "features": [
+    "Medium to large lymphoid cells, about 1.5-2 times RBC diameter, with high N:C ratio",
+    "Irregular, notched or cleaved nuclei with finely dispersed blastoid chromatin and occasional small nucleoli",
+    "Scant to moderate basophilic agranular cytoplasm",
+    "Flow cytometry: abnormal B cells (92.4% of lymphocytes) CD19+, CD5+, CD20 bright, CD10+, CD79b+, CD38+",
+    "Abnormal B cells are CD23 negative and CD200 negative; residual normal B cells are rare (0.056%)"
+  ],
+  "describe_en": "Peripheral blood smear shows medium to large atypical lymphoid cells with irregular, notched nuclei, finely dispersed chromatin, occasional small nucleoli and scant basophilic cytoplasm, imparting a blastoid appearance. The accompanying flow cytometry plots demonstrate a dominant abnormal B-cell population (92.4% of lymphocytes) that expresses CD19, CD5, bright CD20, CD10, CD79b and CD38 and lacks CD23 and CD200. The CD5+ CD23- CD200- phenotype with blastoid morphology is suggestive of blastoid mantle cell lymphoma with aberrant CD10 expression, which requires confirmation by cyclin D1 immunostaining or CCND1 rearrangement (t(11;14)) FISH.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia (including prolymphocytic progression)", "vs": "CLL is CD5+ CD23+ CD200 bright with dim CD20/CD79b, whereas this population is CD23- CD200- with bright CD20."},
+    {"dx": "High-grade B-cell lymphoma or leukemic Burkitt lymphoma (CD10+)", "vs": "These are usually CD5 negative, and Burkitt shows MYC rearrangement with vacuolated basophilic cytoplasm, whereas cyclin D1/CCND1 positivity identifies MCL."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL is TdT+ and CD34+ with dim or absent CD20 and surface light chains, unlike this bright CD20, mature-appearing CD79b+ population."},
+    {"dx": "CD5+ diffuse large B-cell lymphoma", "vs": "CD5+ DLBCL is cyclin D1 and SOX11 negative without t(11;14), which separates it from blastoid MCL."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62636",
+  "recognize_zh": "單核球門控的 FLAER 對 CD14 圖中，箭頭所指的大族群同時 FLAER 陰性與 CD14 陰性（兩者皆為 GPI 錨定），占 94.54%（2,599/2,749），右上方僅少數正常單核球，代表極大的 PNH 克隆。",
+  "features": [
+    "Dot plot of FLAER-FITC (x) versus CD14-PE (y) gated on monocytes",
+    "Dominant population (arrow) negative for both FLAER and CD14 within the PNH gate",
+    "PNH monocytes 94.54% (2,599 of 2,749 events)",
+    "Small residual normal population at upper right expressing FLAER and CD14",
+    "Adequate event count for high-sensitivity analysis"
+  ],
+  "describe_en": "Flow cytometry dot plot of FLAER versus CD14, gated on monocytes, shows a dominant population (arrow) lacking both FLAER binding and the GPI-anchored antigen CD14, with only a small residual normal population expressing both markers at the upper right. The PNH gate contains 94.54% of monocytes (2,599 of 2,749 events). Loss of FLAER, which binds the GPI anchor itself, together with a second GPI-linked marker, confirms GPI-anchor deficiency. Findings demonstrate a very large PNH clone in monocytes, consistent with paroxysmal nocturnal hemoglobinuria; the smaller red cell clone reflects selective hemolysis and transfusion of PNH red cells.",
+  "ddx": [
+    {"dx": "Isolated CD14 loss in immature or abnormal monocytes (e.g., CMML, AML)", "vs": "Monocytic neoplasms may lose CD14 but retain FLAER binding."},
+    {"dx": "Small PNH clone associated with aplastic anemia", "vs": "Clone sizes are usually small (often <10%) rather than more than 90% of monocytes."},
+    {"dx": "Gating artifact with lymphocyte or debris contamination", "vs": "Lymphocytes are CD14-negative but FLAER-positive, so they would fall outside the double-negative PNH gate."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1236",
+  "recognize_zh": "周邊血液中單獨一顆母細胞：核大、染色質細緻、核偏一側並有淺凹，胞質中等量藍色且無明顯顆粒；周邊紅血球多呈鋸齒狀（crenated，屬塗片假影）。單一循環母細胞只能說明白血病細胞入血，無法單憑此圖判定「有成熟」。",
+  "features": [
+    "Single circulating blast, roughly twice the diameter of a red cell",
+    "High N:C ratio with finely dispersed chromatin and a slightly indented, eccentric nucleus",
+    "Moderate rim of pale basophilic cytoplasm without visible granules or Auer rods",
+    "Background red cells show diffuse crenation (echinocytic artifact)",
+    "No other leukocytes or platelet clumps in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows a single circulating blast approximately twice the size of a red cell, with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, a slightly indented eccentric nucleus, and a moderate rim of pale basophilic agranular cytoplasm. No Auer rods are seen. Background red cells show widespread crenation, most consistent with a drying artifact. A circulating blast indicates a leukemic process, but maturation cannot be assessed on this field; classification as acute myeloid leukemia with maturation depends on the marrow differential and lineage studies.",
+  "ddx": [
+    {"dx": "Lymphoblast (ALL)", "vs": "A single agranular blast cannot be assigned lineage by morphology, and flow cytometry is required."},
+    {"dx": "Reactive lymphocyte", "vs": "Reactive lymphocytes have more condensed chromatin and abundant cytoplasm that scallops around adjacent red cells, rather than fine blast chromatin with a high N:C ratio."},
+    {"dx": "Circulating blast in leukoerythroblastic reaction", "vs": "Leukoerythroblastosis shows rare blasts with nucleated red cells and left-shifted granulocytes, requiring marrow examination to distinguish from acute leukemia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

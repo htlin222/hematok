@@ -1,0 +1,22 @@
+{
+  "id": "65689",
+  "recognize_zh": "三顆形態正常的嗜中性球外緣都被一圈小小紫色血小板環繞貼附，形成像衛星圍繞的花環；血小板緊貼在白血球表面而不是散在背景，就是 EDTA 引起的血小板衛星現象，會造成血小板數假性偏低。",
+  "features": [
+    "Three mature neutrophils each rimmed by a ring of adherent platelets (rosette formation)",
+    "Platelets of normal size and granularity arranged around the neutrophil membrane",
+    "Neutrophils otherwise normal with segmented nuclei and fine granules",
+    "Few free platelets in the background",
+    "Normocytic, normochromic red cells"
+  ],
+  "describe_en": "Peripheral blood smear shows several morphologically normal segmented neutrophils, each encircled by a rim of adherent normal-appearing platelets forming rosettes. Relatively few free platelets are seen in the background. Red cells are normocytic and normochromic. Findings are consistent with EDTA-dependent platelet satellitism, an in vitro artifact that can cause spurious thrombocytopenia; a platelet count on a citrate-anticoagulated or fingerstick sample is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows few platelets without platelet rosetting around neutrophils or platelet clumps."},
+    {"dx": "EDTA-induced platelet clumping", "vs": "Platelet clumping forms free aggregates of platelets, often at the feathered edge, rather than rings around neutrophils."},
+    {"dx": "Phagocytosed platelets in neutrophils", "vs": "Phagocytosed platelets lie within the neutrophil cytoplasm, whereas satellitism shows platelets attached to the cell surface."},
+    {"dx": "Toxic granulation", "vs": "Toxic granules are intracytoplasmic dark azurophilic granules, not discrete platelets arranged outside the cell border."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

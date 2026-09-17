@@ -1,0 +1,22 @@
+{
+  "id": "3219",
+  "recognize_zh": "一顆細胞的細胞核碎裂成數個大小不一、深紫黑色且均質的圓球（核固縮 pyknosis／核碎裂 karyorrhexis），周圍仍保有粉紅色帶細顆粒的中性球細胞質，這是凋亡的中性球；背景紅血球呈錢串狀（rouleaux）。",
+  "features": [
+    "Single cell of neutrophil size with pale pink finely granular cytoplasm",
+    "Nucleus fragmented into five to six round, dense, homogeneous dark purple spheres",
+    "Nuclear fragments are smooth-contoured and separated, without chromatin texture or connecting filaments",
+    "Intact cell membrane without phagocytosed material",
+    "Background shows prominent red cell rouleaux and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows marked red cell rouleaux formation and adequate platelets. A single cell with neutrophil-type pale pink granular cytoplasm contains multiple round, dense, homogeneous dark nuclear fragments without discernible chromatin structure, consistent with pyknosis and karyorrhexis. The fragments are separate spheres rather than lobes connected by chromatin filaments. Findings are consistent with an apoptotic neutrophil, commonly a storage artifact of delayed smear preparation; the rouleaux should be correlated with serum protein studies if not explained clinically.",
+  "ddx": [
+    {"dx": "Hypersegmented neutrophil", "vs": "Hypersegmented neutrophils have six or more lobes with visible chromatin texture connected by thin filaments, not detached dense homogeneous spheres."},
+    {"dx": "LE cell or neutrophil with phagocytosed nuclear material", "vs": "An LE cell contains a large homogeneous ingested mass that displaces the cell's own intact lobulated nucleus to the periphery."},
+    {"dx": "Karyorrhectic nucleated red cell", "vs": "Erythroid karyorrhexis occurs in cells with hemoglobinized orange-grey cytoplasm and lacks neutrophilic granules."},
+    {"dx": "Neutrophil with intracellular organisms (e.g., Histoplasma)", "vs": "Organisms are small, uniform, oval yeasts with a clear halo, whereas apoptotic fragments are larger, variable in size and solidly stained."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

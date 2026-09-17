@@ -1,0 +1,31 @@
+{
+  "id": "71",
+  "recognize_zh": "骨髓切片高度細胞化，可見一片片黏聚、胞質嗜鹼性、核仁明顯的大型不成熟細胞（形態像早期紅血球前驅細胞），旁邊混有大量嗜酸性球；周邊血有顆粒異常的嗜酸性球與粗大嗜鹼性顆粒細胞。此形態易被誤判為紅血球白血病，需染色體 t(8;9)(p22;p24) 確認 PCM1-JAK2。",
+  "features": [
+    "Core biopsy: markedly hypercellular marrow (near 100%) with large cohesive sheets and nodules of immature cells at low power",
+    "Immature cells are large with round to oval nuclei, open chromatin, distinct nucleoli, moderate amphophilic to basophilic cytoplasm and frequent mitoses, resembling early erythroid precursors",
+    "Background of numerous eosinophils and eosinophilic precursors with maturing granulocytes",
+    "Peripheral blood: eosinophil with abnormal, sparse and unevenly distributed granules and cytoplasmic vacuoles; large cells with coarse dark basophilic granules and an atypical monocytoid cell",
+    "IHC (marker unlabeled): strong membranous staining of the immature cell sheets with a sharp border against negative surrounding marrow; a second marker stains scattered interstitial cells with cytoplasmic granular pattern"
+  ],
+  "describe_en": "Peripheral blood smear shows an eosinophil with abnormal, sparse and unevenly distributed granules and cytoplasmic vacuoles, as well as large cells with coarse basophilic granules and an atypical monocytoid cell. The bone marrow core biopsy is markedly hypercellular and contains large cohesive sheets and nodules of large immature cells with open chromatin, conspicuous nucleoli, basophilic cytoplasm and frequent mitoses, resembling left-shifted erythroid precursors, set in a background of maturing granulocytes with prominent eosinophilia. Immunohistochemistry (markers not labeled in the figure) shows strong membranous staining of the immature cell sheets, and a second stain highlights scattered interstitial cells; lineage assignment cannot be confirmed from the images alone. Morphology alone could suggest acute erythroid leukemia, but with eosinophilia, splenomegaly and a t(8;9)(p22;p24) translocation, findings are consistent with myeloid/lymphoid neoplasm with PCM1-JAK2.",
+  "ddx": [
+    {"dx": "Acute erythroid leukemia (pure erythroid leukemia)", "vs": "Pure erythroid leukemia shows sheets of proerythroblasts often with complex karyotype and TP53 mutation, whereas here the erythroid-like sheets occur with eosinophilia and a t(8;9)(p22;p24) PCM1-JAK2 fusion that defines the entity."},
+    {"dx": "Myeloid/lymphoid neoplasm with PDGFRA, PDGFRB or FGFR1 rearrangement", "vs": "These share eosinophilia and MPN-like marrow but lack the characteristic erythroid predominance and are separated by FISH/cytogenetics for the respective rearrangements rather than morphology."},
+    {"dx": "Chronic eosinophilic leukemia, NOS", "vs": "CEL-NOS requires exclusion of PDGFRA/PDGFRB/FGFR1/PCM1-JAK2 rearrangements and does not show sheets of immature erythroid-like cells."},
+    {"dx": "Systemic mastocytosis with associated eosinophilia", "vs": "SM shows compact aggregates of spindled or oval mast cells that are CD117+/tryptase+/CD25+ with KIT D816V, rather than sheets of large cells with open chromatin and nucleoli."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa, H&E, IHC (unlabeled markers)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood: dysplastic eosinophil with abnormal sparse granules and vacuoles",
+    "Peripheral blood: large cells with coarse basophilic granules and an atypical monocytoid cell",
+    "Bone marrow biopsy, low power: markedly hypercellular marrow with darker cellular nodules",
+    "Bone marrow biopsy: sheets of immature cells adjacent to bony trabeculae",
+    "Bone marrow biopsy: cohesive sheet of large immature cells with nucleoli",
+    "High power: immature erythroid-like cells with mitoses (left) next to marked eosinophilia (right)",
+    "IHC (marker unlabeled): strong membranous staining of immature cell sheets"
+  ]
+}

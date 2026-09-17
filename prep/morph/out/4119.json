@@ -1,0 +1,22 @@
+{
+  "id": "4119",
+  "recognize_zh": "許多紅血球的中央淡染區不是圓形，而是細長的裂縫狀或嘴巴狀（箭頭），這就是口形紅血球（stomatocyte）；另可見三角形淡染區的變形。",
+  "features": [
+    "Numerous red cells with a slit-like or mouth-shaped linear central pallor (arrows)",
+    "Some cells show triangular or irregular central pallor variants",
+    "Red cells are otherwise of fairly uniform size and normochromic",
+    "No spherocytes, target cells, schistocytes or inclusions identified",
+    "Scattered small platelets in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous red cells with elongated slit-like central pallor, imparting a mouth-like appearance, along with occasional cells with triangular pallor. Red cells are otherwise relatively uniform in size and hemoglobinization, with no spherocytes, target cells, or fragments. Because stomatocytes can arise as a drying artifact, their presence in a well-made thin area of the smear is required for significance. Findings are consistent with stomatocytosis, which may reflect hereditary stomatocytosis, Rh-null phenotype, or acquired causes such as alcohol use and liver disease.",
+  "ddx": [
+    {"dx": "Artifactual stomatocytes", "vs": "Artifacts occur in thick areas and variably across the slide, while true stomatocytes persist in thin areas and on wet preparations."},
+    {"dx": "Southeast Asian ovalocytosis", "vs": "Cells are oval with one or two transverse slits or bars (knizocyte-like) and are rigid, with SLC4A1 27-bp deletion."},
+    {"dx": "Hereditary spherocytosis", "vs": "Features dense spherocytes lacking central pallor rather than slit-like pallor, and increased osmotic fragility/EMA reduction."},
+    {"dx": "Target cells", "vs": "Target cells have a central dense hemoglobin spot surrounded by a pale ring rather than a linear slit."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

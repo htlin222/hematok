@@ -1,0 +1,22 @@
+{
+  "id": "16387",
+  "recognize_zh": "骨髓抹片中成熟嗜中性球的細胞核分成多個濃縮、固縮狀（pyknotic）的小葉，彼此以細長的染色質絲相連，細胞質有空泡，這種「骨髓滯留」（myelokathexis）是 WHIM 症候群（CXCR4 突變）的特徵。",
+  "features": [
+    "Panel C (BM aspirate): mature neutrophils with multiple condensed, pyknotic, hyperclumped nuclear lobes",
+    "Lobes separated and joined by long, thin chromatin filaments (myelokathexis)",
+    "Neutrophil cytoplasm with pink specific granules and scattered clear vacuoles",
+    "Panel A (PB): isolated neutrophil with similar hypersegmented, dense lobes; leukocytes sparse, consistent with neutropenia",
+    "Panel B (BM biopsy H&E): hypercellular marrow with granulocytic predominance and accumulation of mature forms"
+  ],
+  "describe_en": "Peripheral blood smear (panel A) shows few leukocytes, with a neutrophil containing multiple dense, separated nuclear lobes. The bone marrow biopsy (panel B) is hypercellular with a granulocyte-predominant population and many maturing myeloid cells, and the aspirate (panel C) shows numerous mature neutrophils with hypersegmented, pyknotic nuclear lobes connected by long thin chromatin strands and vacuolated cytoplasm. This combination of peripheral neutropenia with marrow retention of senescent neutrophils is characteristic of myelokathexis. In a patient with warts, hypogammaglobulinemia, infections and a CXCR4 mutation, findings are consistent with WHIM syndrome.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic hypersegmentation shows well-formed lobes with normal chromatin plus giant metamyelocytes and megaloblastic erythroid precursors, rather than pyknotic apoptotic-looking lobes on long filaments."},
+    {"dx": "Apoptotic/aged neutrophils (storage artifact)", "vs": "Storage artifact shows round dense nuclear fragments in a delayed specimen affecting many cell types, without the clinical neutropenia and hypercellular marrow."},
+    {"dx": "Severe congenital neutropenia (ELANE, HAX1)", "vs": "SCN shows a maturation arrest at the promyelocyte/myelocyte stage with few mature neutrophils, the opposite of marrow accumulation of mature forms."},
+    {"dx": "Myelodysplastic neoplasm with neutrophil dysplasia", "vs": "MDS shows hypogranularity and pseudo-Pelger hyposegmentation with clonal abnormalities rather than hyperclumped hypersegmented lobes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E",
+  "match": "consistent",
+  "high_yield": true
+}

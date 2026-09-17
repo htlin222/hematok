@@ -1,0 +1,28 @@
+{
+  "id": "60717",
+  "recognize_zh": "骨髓中巨噬細胞體積大、細胞質內可見被吞噬的有核細胞與紅血球（噬血現象），並夾雜深色顆粒狀殘骸；切片、鐵染色與組織球免疫染色都顯示吞噬了細胞的大型巨噬細胞，符合噬血性淋巴組織球增多症（HLH）。",
+  "features": [
+    "Aspirate (A): large macrophage with abundant cytoplasm containing an engulfed nucleated cell and numerous dark coarse phagocytosed granules/debris",
+    "Section (B): enlarged histiocytes with ingested erythrocytes and nucleated cells within cytoplasmic vacuoles",
+    "Special stain (C): macrophage with blue-green granular cytoplasm containing a phagocytosed nucleated cell (red) and several red cells (yellow-green)",
+    "IHC (D): strong brown cytoplasmic staining of numerous large histiocytes, many enclosing phagocytosed cells (histiocytic marker, unlabeled)",
+    "Background mixed hematopoietic cells; no neoplastic infiltrate or organisms identifiable at this magnification"
+  ],
+  "describe_en": "Bone marrow aspirate and biopsy show increased activated macrophages with abundant cytoplasm containing ingested nucleated hematopoietic cells, erythrocytes and dark cellular debris. A special stain highlights a macrophage enclosing a nucleated cell and several red cells, and an immunostain for a histiocytic marker (not labeled) demonstrates numerous large positive macrophages with engulfed cells. No lymphoma infiltrate or microorganisms are evident in these images. Findings are consistent with hemophagocytosis supporting hemophagocytic lymphohistiocytosis, here in association with granulomatosis with polyangiitis; HLH-2004 clinical and laboratory criteria (ferritin, soluble CD25, fibrinogen, triglycerides) should be applied.",
+  "ddx": [
+    {"dx": "Isolated reactive hemophagocytosis (transfusion, sepsis)", "vs": "Occasional hemophagocytic macrophages are nonspecific, so HLH requires the clinical/laboratory criteria rather than morphology alone."},
+    {"dx": "Visceral leishmaniasis", "vs": "Leishmania shows numerous small amastigotes with nucleus and rod-shaped kinetoplast in macrophages, which are not identified here."},
+    {"dx": "Gaucher or other storage disease", "vs": "Storage cells have wrinkled tissue-paper or foamy cytoplasm without engulfed intact blood cells."},
+    {"dx": "Lymphoma-associated HLH (e.g., T/NK-cell lymphoma)", "vs": "An underlying lymphoma shows atypical lymphoid infiltrates on biopsy, clonal T-cell receptor rearrangement or EBER positivity, none evident in these panels."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; special stain; IHC (histiocytic)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Aspirate: macrophage with engulfed nucleated cell and dark debris",
+    "Section: histiocytes containing phagocytosed red cells and nucleated cells",
+    "Special stain: macrophage enclosing a nucleated cell and red cells",
+    "Histiocytic IHC: numerous large macrophages with ingested cells"
+  ]
+}

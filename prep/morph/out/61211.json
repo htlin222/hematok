@@ -1,0 +1,21 @@
+{
+  "id": "61211",
+  "recognize_zh": "這是 CSF 的流式細胞圖：CD45 閘內幾乎全是淋巴球，黑色的異常 T 細胞占 64%，表現 CD3+、CD16/56+、CD5 陰性（CD5 丟失）且 CD7 亮陽性，與橘/藍色的正常 CD4/CD8 T 細胞明顯分開。",
+  "features": [
+    "Six-panel flow cytometry of CSF: viable cells 97.7%, lymphocytes 99.96% of CD45+ events, CD3+ cells 91.8%",
+    "Abnormal T-cell population (black) comprises 64.15% of lymphocytes and shows broad forward scatter, reflecting variable cell size",
+    "Abnormal cells are CD3+ and CD16/56+, separating from CD16/56-negative residual T cells (27.5%) and CD3-negative NK cells (green, 8.2%)",
+    "CD5 is lost on the abnormal T cells, whereas normal CD4+ (orange) and CD8+ (blue) T cells retain CD5",
+    "CD7 is brightly expressed on the abnormal population, brighter than on normal T cells"
+  ],
+  "describe_en": "Flow cytometric analysis of the cerebrospinal fluid shows that virtually all leukocytes are CD45-bright lymphocytes. An abnormal T-cell population accounting for 64% of lymphocytes is identified; it is CD3 positive, CD16/56 positive and CD5 negative with bright CD7 expression, and shows heterogeneous forward scatter indicating variable cell size. Residual normal CD4+ and CD8+ T cells retain CD5, and a small CD3-negative NK-cell population is present. In the clinical context, the findings are consistent with CSF involvement by the patient's known peripheral T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Reactive T-cell pleocytosis (e.g., viral meningitis)", "vs": "Reactive CSF T cells retain CD5 and show a normal CD4:CD8 mixture without a discrete antigen-aberrant population."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells are also CD3+CD8+CD16/56+ often with dim CD5/CD7, but typically lack CNS involvement and usually show dim or lost CD7 rather than bright CD7; clinical history and TCR clonality are decisive."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "NK/T-cell lymphoma cells are usually surface CD3-negative with CD56+ and EBER positivity, unlike this surface CD3-positive population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

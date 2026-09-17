@@ -1,0 +1,22 @@
+{
+  "id": "1806",
+  "recognize_zh": "這是一張正面胸部 X 光，不是型態學影像：兩側肺容積偏小、橫膈抬高，上腹部被大片軟組織密度占據、左側腸氣被推擠至左下外側，提示肝脾腫大或腹腔腫塊；右下肺門旁有模糊浸潤陰影，需與臨床及斷層影像對照判讀。",
+  "features": [
+    "Frontal (AP/PA) chest radiograph with low lung volumes",
+    "Elevated hemidiaphragms with a large homogeneous soft-tissue density occupying the upper abdomen",
+    "Bowel gas displaced to the left lateral and inferior abdomen, suggesting splenomegaly or a left upper quadrant mass",
+    "Ill-defined opacity in the right perihilar/lower zone",
+    "Mediastinum not markedly widened; external skin marker/electrode over the right shoulder"
+  ],
+  "describe_en": "This is a frontal chest radiograph rather than a morphologic specimen. Lung volumes are low with elevation of the hemidiaphragms, and a large homogeneous soft-tissue density occupies the upper abdomen, displacing bowel gas to the left lateral and lower abdomen, suggestive of marked hepatosplenomegaly or a large abdominal mass. An ill-defined opacity is present in the right perihilar and lower zone, which may represent atelectasis from diaphragmatic elevation, infiltrate or lymphomatous involvement. The mediastinum is not grossly widened. In a patient with diffuse large B-cell lymphoma, these findings support bulky abdominal/visceral disease and warrant cross-sectional imaging (CT or PET-CT) for staging.",
+  "ddx": [
+    {"dx": "Massive splenomegaly from myeloproliferative neoplasm (e.g., primary myelofibrosis, CML)", "vs": "Radiographic appearance is similar; distinguished by blood counts with leukoerythroblastosis or BCR::ABL1, and marrow findings."},
+    {"dx": "Ascites", "vs": "Produces diffuse ground-glass abdominal density with centrally floating bowel loops rather than lateral displacement of gas by an organ mass."},
+    {"dx": "Subpulmonic pleural effusion", "vs": "Mimics diaphragm elevation, but lateral decubitus films or ultrasound show layering fluid and the gastric bubble is separated from the pseudo-diaphragm."},
+    {"dx": "Hepatomegaly from other infiltrative disease", "vs": "Cross-sectional imaging and biopsy separate lymphoma from metastases, storage disease or congestion."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

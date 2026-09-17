@@ -1,0 +1,22 @@
+{
+  "id": "61471",
+  "recognize_zh": "白血球密集的區域中，數顆中性球（含帶狀核）細胞質內有金褐色至黑褐色的瘧色素（hemozoin）顆粒，其中一顆還含深紫色寄生蟲殘骸；周圍紅血球中可見細小環狀體，符合惡性瘧原蟲感染伴含色素中性球。",
+  "features": [
+    "Leukocyte-rich field (feathered edge/buffy-coat-like area) with many band and segmented neutrophils showing toxic granulation",
+    "Several neutrophils contain golden-brown to black hemozoin pigment granules in the cytoplasm",
+    "One neutrophil (center) contains pigment clumps together with purple granular material, consistent with phagocytosed parasite remnants",
+    "Numerous small delicate ring forms within normal-sized erythrocytes",
+    "Occasional monocytes and a darkly stained cell with condensed nucleus at the right"
+  ],
+  "describe_en": "Peripheral blood smear, in a leukocyte-rich area, shows many band and segmented neutrophils with toxic granulation, several of which contain golden-brown to black hemozoin pigment granules; one neutrophil also contains clumped purple material consistent with phagocytosed parasite remnants. Surrounding erythrocytes are of normal size and harbor small, delicate ring forms. No schizonts are identified. Findings are consistent with Plasmodium falciparum malaria with pigment-laden neutrophils; a high proportion of pigment-containing neutrophils has been associated with severe disease.",
+  "ddx": [
+    {"dx": "Toxic granulation in bacterial sepsis", "vs": "Toxic granules are fine dark-purple azurophilic granules, whereas hemozoin is refractile golden-brown to black and accompanies intraerythrocytic rings."},
+    {"dx": "Stain precipitate", "vs": "Precipitate lies on top of cells and background in a different plane, while hemozoin is intracytoplasmic and brown rather than purple-black."},
+    {"dx": "Plasmodium vivax infection", "vs": "Pigment-laden leukocytes also occur in vivax, but vivax shows enlarged red cells with Schüffner dots and ameboid trophozoites."},
+    {"dx": "Babesiosis", "vs": "Babesia lacks hemozoin, so pigment within neutrophils points to Plasmodium."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

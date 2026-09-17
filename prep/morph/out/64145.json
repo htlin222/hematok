@@ -1,0 +1,22 @@
+{
+  "id": "64145",
+  "recognize_zh": "骨髓抹片中一顆大型巨核細胞，胞質豐富呈淡紫色細顆粒狀（已成熟），但核只有一個圓到橢圓形、完全沒有分葉；成熟胞質配上不分葉的單核，是 MDS（特別是 del(5q)）常見的發育異常巨核細胞。",
+  "features": [
+    "Large megakaryocyte, many times the diameter of adjacent red cells",
+    "Single round-to-oval, non-lobated nucleus, relatively small for the cell size",
+    "Coarsely granular chromatin without visible nucleoli",
+    "Abundant, finely granular pale violaceous cytoplasm indicating cytoplasmic maturity",
+    "Background with a band neutrophil, a small lymphocyte, and scattered platelet clumps"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large megakaryocyte with abundant, finely granular mature cytoplasm and a single round, non-lobated nucleus. The nuclear-cytoplasmic asynchrony (mature cytoplasm with an unsegmented nucleus) indicates megakaryocytic dysplasia. Adjacent cells include a band neutrophil and a small lymphocyte; no blasts are present in this field. A single cell is insufficient for diagnosis, but in the appropriate context the finding is suggestive of a myelodysplastic neoplasm, particularly MDS with isolated del(5q), and warrants karyotype/FISH.",
+  "ddx": [
+    {"dx": "Normal immature megakaryocyte (promegakaryocyte)", "vs": "Immature megakaryocytes have a non-lobated nucleus but deeply basophilic, scant-to-moderate cytoplasm without the abundant granular maturation seen here."},
+    {"dx": "Micromegakaryocyte (dwarf megakaryocyte)", "vs": "Micromegakaryocytes are small, about the size of a myelocyte with a single small nucleus, whereas this cell is large."},
+    {"dx": "Megakaryocytes in essential thrombocythemia/CML", "vs": "ET shows large hyperlobulated 'staghorn' megakaryocytes and CML shows small hypolobated forms, both with BCR::ABL1 or JAK2/CALR/MPL context rather than del(5q)."},
+    {"dx": "Separated megakaryocyte nuclei in MDS", "vs": "Multiple widely separated round nuclei ('pawn-ball') are another dysplastic form, distinct from this single unlobated nucleus."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

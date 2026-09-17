@@ -1,0 +1,22 @@
+{
+  "id": "63400",
+  "recognize_zh": "雖然標題寫骨髓切片，但這張其實是骨髓抽吸抹片：中央淡藍色組織球（histiocyte）細胞質內外聚集大量 2–4 µm 的小圓形酵母樣體，周圍有透明暈，外觀像組織漿菌（Histoplasma）；圖中看不到上皮樣肉芽腫。",
+  "features": [
+    "Histiocytes with pale blue cytoplasm packed with numerous small (approximately 2-4 um) round-to-oval yeast-like bodies",
+    "Organisms show a clear halo with a small eccentric dark crescent, and also lie free near the macrophages",
+    "Mixed marrow cells including lymphocytes, plasma cells and myeloid precursors",
+    "Bubbly/vacuolated smeared background with scattered degenerating cells",
+    "No cohesive epithelioid granuloma recognizable on this aspirate smear"
+  ],
+  "describe_en": "The image is a bone marrow aspirate smear rather than a biopsy section. It shows histiocytes whose pale blue cytoplasm contains numerous small, uniform, round-to-oval yeast-like organisms with clear halos, with additional organisms free in the background. Surrounding cells include lymphocytes, plasma cells and myeloid precursors in a vacuolated background, and a cohesive epithelioid granuloma as described in the title is not appreciable. Findings are suggestive of disseminated fungal infection, most likely histoplasmosis; GMS/PAS stains, culture, antigen testing and correlation with the biopsy are recommended.",
+  "ddx": [
+    {"dx": "Leishmania donovani (visceral leishmaniasis)", "vs": "Leishmania amastigotes have a nucleus plus a separate rod-shaped kinetoplast and are GMS-negative, whereas Histoplasma yeasts lack a kinetoplast and are GMS-positive."},
+    {"dx": "Talaromyces marneffei", "vs": "T. marneffei yeasts are slightly larger, elongated and divide by a central transverse septum rather than budding."},
+    {"dx": "Cryptococcus neoformans", "vs": "Cryptococcus is larger (4-10 um) and more variable in size with a thick mucicarmine-positive capsule and narrow-based budding."},
+    {"dx": "Toxoplasma gondii pseudocyst", "vs": "Toxoplasma tachyzoites are crescent-shaped without halos and are identified by immunostaining rather than fungal stains."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

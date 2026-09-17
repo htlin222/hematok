@@ -1,0 +1,21 @@
+{
+  "id": "2786",
+  "recognize_zh": "這顆顆粒球比一般嗜中性球大，細胞核分成約 8–10 個以上擠在一起的葉（hypersegmentation），細胞質有細小中性顆粒；巨大且過度分葉的嗜中性球屬於顆粒球異常形態，常見於巨母紅血球性貧血、G-CSF 或藥物影響。",
+  "features": [
+    "Enlarged neutrophil (macropolycyte), roughly 1.5-2 times the diameter of adjacent red cells",
+    "Markedly hypersegmented nucleus with numerous (well over 6) clustered lobes",
+    "Coarse, clumped mature chromatin in each lobe",
+    "Cytoplasm with fine neutrophilic granulation, no toxic granulation or Dohle bodies evident",
+    "Background red cells show mild anisocytosis without obvious schistocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows an enlarged neutrophil with a markedly hypersegmented nucleus composed of numerous clustered lobes of mature, clumped chromatin, and cytoplasm with fine neutrophilic granules. Adjacent red cells show mild anisocytosis. Giant hypersegmented neutrophils (macropolycytes) are a dysplastic-appearing granulocyte change that is most often reactive or nutritional, as seen with vitamin B12/folate deficiency, antimetabolite therapy (e.g., methotrexate, hydroxyurea) or growth factor exposure. Findings are consistent with a dysplastic (hypersegmented, giant) granulocyte; clinical correlation, B12/folate levels and medication history are recommended before attributing it to a myelodysplastic neoplasm.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic anemia shows the same hypersegmented neutrophils together with macro-ovalocytes and low B12/folate; the neutrophil alone cannot separate it from drug effect."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS more typically shows hypogranular or pseudo-Pelger-Huet hyposegmented neutrophils with cytopenias and clonal cytogenetic abnormalities, rather than isolated hypersegmentation."},
+    {"dx": "Inherited hereditary hypersegmentation of neutrophils", "vs": "The hereditary form affects most neutrophils in an otherwise healthy person without macrocytosis, whereas acquired forms occur with nutritional deficiency or drugs."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

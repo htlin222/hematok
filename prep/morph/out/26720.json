@@ -1,0 +1,21 @@
+{
+  "id": "26720",
+  "recognize_zh": "十個顆粒球的細胞核分別彎曲成像數字 0 到 9 的形狀（0 為中央有孔的環狀核），胞質有明顯顆粒；這是核形變異的趣味圖，環狀核（ring nucleus）可見於慢性骨髓性白血病（CML）等骨髓增生狀態，但光憑此圖無法診斷 CML。",
+  "features": [
+    "Granulocytes with band-like and segmented nuclei contorted into shapes resembling numerals 0 through 9",
+    "Ring-shaped (doughnut) nucleus with central cytoplasmic hole (panel A)",
+    "Coarsely clumped nuclear chromatin appropriate for mature neutrophils",
+    "Abundant cytoplasm with prominent, coarse purple-brown granules",
+    "No blasts or other diagnostic cells shown in these cropped panels"
+  ],
+  "describe_en": "Composite of cropped granulocytes in which band and segmented nuclei assume configurations resembling the numerals 0 through 9, including a ring-shaped nucleus with a central hole. The nuclear chromatin is mature and clumped, and the cytoplasm contains prominent coarse granules. These nuclear shapes are morphologic curiosities; ring nuclei can be seen in myeloproliferative neoplasms such as CML, myelodysplasia and after certain drugs. The cropped panels alone do not establish a diagnosis, which requires the full smear, CBC and BCR::ABL1 testing.",
+  "ddx": [
+    {"dx": "Ring neutrophils in MDS", "vs": "In MDS, ring forms are accompanied by hypogranular cytoplasm and pseudo-Pelger-Huët nuclei rather than the well-granulated cytoplasm seen here."},
+    {"dx": "Pseudo-Pelger-Huët anomaly", "vs": "Pelgeroid cells have bilobed spectacle or non-segmented round nuclei with very coarse chromatin, not elongated contorted bands."},
+    {"dx": "Hypersegmented neutrophils (megaloblastic anemia)", "vs": "Hypersegmentation shows six or more discrete lobes connected by fine filaments rather than a single continuous contorted nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63744",
+  "recognize_zh": "這是流式細胞儀散佈圖：CD19+ 淋巴球（藍色）CD5 陰性、CD10 陰性、CD20 強陽性，且 kappa/lambda 圖上幾乎全部落在 kappa 象限，呈現 kappa 輕鏈限制性；CD5-/CD10- 單株 B 細胞符合淋巴漿細胞淋巴瘤的免疫表型。",
+  "features": [
+    "Multi-panel flow cytometry dot plots on the lymphocyte gate",
+    "CD19+ B-cell population (blue) with moderate-bright CD45",
+    "B cells negative for CD5 (CD19+CD5+ gate essentially empty) and negative for CD10",
+    "Bright CD20 expression on CD19+ cells",
+    "Kappa-restricted surface light chain with no lambda-positive B-cell population"
+  ],
+  "describe_en": "Flow cytometric analysis of the lymphocyte gate identifies a CD19-positive B-cell population with bright CD20 expression. The B cells lack CD5 and CD10, as shown by essentially empty CD19+CD5+ and CD10+ gates. Surface light-chain analysis shows kappa restriction with no appreciable lambda-positive B cells. These findings indicate a monotypic CD5-negative, CD10-negative B-cell population, which in the context of an IgM paraprotein, lymphoplasmacytic marrow infiltrate and MYD88 L265P is consistent with lymphoplasmacytic lymphoma. A plasma-cell gate (CD38/CD138) would further characterize the clonal plasmacytic component.",
+  "ddx": [
+    {"dx": "Marginal zone lymphoma", "vs": "MZL shares the CD5-/CD10- kappa- or lambda-restricted phenotype, so distinction needs clinicopathologic and MYD88 correlation."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL is CD5+/CD23+ with dim CD20 and dim light chain, unlike this CD5-negative bright CD20 population."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is typically CD5+ and CD23- with cyclin D1 positivity."},
+    {"dx": "Follicular lymphoma", "vs": "FL B cells are CD10 positive, whereas these are CD10 negative."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

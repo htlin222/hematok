@@ -1,0 +1,22 @@
+{
+  "id": "60847",
+  "recognize_zh": "骨髓切片中有一團與周圍造血細胞界線清楚的黏聚性腫瘤細胞巢，左圖 synaptophysin 呈顆粒狀胞質與纖維狀（neuropil）陽性，右圖 PGP9.5 強陽性，兩者共同支持神經母細胞瘤的神經內分泌分化。",
+  "features": [
+    "Two-panel figure of bone marrow biopsy immunostains, each showing a discrete cohesive nest of tumor cells among fat and hematopoietic cells",
+    "Left (synaptophysin): granular cytoplasmic and fibrillary (neuropil-like) staining throughout the tumor cluster",
+    "Right (PGP9.5): strong cytoplasmic and nuclear staining of tumor cells with fibrillary processes at the periphery",
+    "Tumor cells with round nuclei and high N:C ratio, larger and more crowded than surrounding marrow cells",
+    "Background hematopoietic cells and adipocytes negative, serving as internal negative control"
+  ],
+  "describe_en": "Two immunohistochemical stains performed on a bone marrow biopsy each highlight a discrete cohesive nest of tumor cells within otherwise normal-appearing marrow with adipocytes and hematopoietic cells. Synaptophysin (left) shows granular cytoplasmic and fibrillary neuropil-like positivity throughout the cluster, and PGP9.5 (right) shows strong cytoplasmic and nuclear staining with fibrillary processes. Surrounding hematopoietic elements are negative. Findings support neuroendocrine/neural differentiation and are consistent with metastatic neuroblastoma.",
+  "ddx": [
+    {"dx": "Metastatic alveolar rhabdomyosarcoma", "vs": "Rhabdomyosarcoma forms similar nests but is desmin and myogenin positive and generally negative for PGP9.5 and synaptophysin (though aberrant synaptophysin/CD56 can occur)."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma is CD99 and NKX2.2 positive and typically lacks fibrillary neuropil and strong PHOX2B/PGP9.5 expression."},
+    {"dx": "Megakaryocyte clusters", "vs": "Megakaryocytes are larger with lobulated nuclei and are CD61/CD42b positive, not synaptophysin positive."},
+    {"dx": "Metastatic small cell carcinoma / neuroendocrine carcinoma", "vs": "Occurs in adults and is keratin positive (dot-like), whereas neuroblastoma is pediatric, keratin negative and PHOX2B positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: synaptophysin, PGP9.5",
+  "match": "consistent",
+  "high_yield": false
+}

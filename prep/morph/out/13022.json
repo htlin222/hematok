@@ -1,0 +1,22 @@
+{
+  "id": "13022",
+  "recognize_zh": "這是未染色腦脊髓液在血球計數盤格線上的濕片，中央的「細胞」是一顆邊界清楚、內含細小顆粒與小折光點的圓形顆粒，沒有真正的核構造，實為鞘內注射的脂質體阿糖胞苷（DepoCyte）顆粒，造成假性白血球增多。",
+  "features": [
+    "Unstained wet preparation in a hemocytometer counting chamber with visible grid lines",
+    "Large round particle with a crisp refractile outer membrane and fine internal granular/vesicular texture",
+    "Tiny refractile dots within the particle but no discernible nucleus",
+    "Few smaller round refractile bodies in the background",
+    "No red cells or clearly nucleated leukocytes identified"
+  ],
+  "describe_en": "Unstained cerebrospinal fluid examined in a hemocytometer chamber shows a large round particle with a sharp refractile outline and a finely granular internal texture containing tiny refractile dots, without a definable nucleus. A few smaller round refractile bodies are present in the background. Nucleated cell identification cannot be made reliably on an unstained chamber count. In a patient receiving intrathecal liposomal cytarabine, these structures are consistent with DepoCyte lipid particles, which can be miscounted as white cells (spurious pleocytosis); a stained cytospin should be reviewed before attributing an elevated count to disease progression.",
+  "ddx": [
+    {"dx": "Lymphomatous meningitis (malignant cells in CSF)", "vs": "Malignant lymphoid cells are nucleated and persist on stained cytospin, whereas DepoCyte particles are anuclear and do not survive cytospin preparation."},
+    {"dx": "Cryptococcus neoformans", "vs": "Cryptococci are smaller budding yeasts with a clear capsule highlighted by India ink, not large finely vesicular spheres."},
+    {"dx": "Starch granules or glove powder contaminant", "vs": "Starch granules show a central Maltese-cross birefringence under polarized light."},
+    {"dx": "Macrophages or reactive monocytes", "vs": "Macrophages have a visible eccentric nucleus and vacuolated cytoplasm on stained preparations."}
+  ],
+  "specimen": "CSF",
+  "stain": "Unstained (hemocytometer wet mount)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60718",
+  "recognize_zh": "骨髓切片中正常造血細胞之間混有一群大型上皮樣細胞，核大、染色質淡而帶明顯核仁、細胞質豐富（插圖），這些細胞的外觀與造血細胞不同；B 的免疫染色只標示散在的細胞，確切的非造血腫瘤類型無法僅從此圖判定。",
+  "features": [
+    "Panel A: hypercellular marrow core adjacent to bone trabecula with a mixed population including scattered large atypical cells",
+    "Inset: large epithelioid cells with abundant pale-eosinophilic cytoplasm, large oval vesicular nuclei and distinct nucleoli, distinct from adjacent erythroid precursors with small dense nuclei",
+    "Atypical cells are dispersed among hematopoietic elements rather than forming an obvious cohesive nest at this magnification",
+    "Panel B: IHC (marker unlabeled) with brown cytoplasmic staining in scattered, partly elongated cells",
+    "Figure resolution and unlabeled stain limit specific classification"
+  ],
+  "describe_en": "Bone marrow core biopsy is hypercellular and contains, in addition to trilineage hematopoiesis, a population of large atypical epithelioid cells with abundant pale cytoplasm, vesicular nuclei and prominent nucleoli. An immunostain (marker not labeled in the figure) highlights scattered, partly elongated cells. The findings are suggestive of marrow infiltration by a non-hematopoietic malignancy; the specific tumor type cannot be established from this image alone and requires a full IHC panel (cytokeratin, S100/SOX10, melanocytic and lineage-specific markers) with clinical correlation.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma usually forms cohesive nests with desmoplasia and is cytokeratin positive."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma may show intranuclear pseudoinclusions and pigment and is S100/SOX10/HMB45 positive."},
+    {"dx": "Anaplastic large cell lymphoma or histiocytic sarcoma", "vs": "Hematolymphoid mimics express CD45 with CD30/ALK or CD163/CD68 respectively, and lack epithelial/melanocytic markers."},
+    {"dx": "Megakaryocytic hyperplasia/dysplasia", "vs": "Megakaryocytes have lobulated nuclei and are CD61/CD42b positive, rather than vesicular round nuclei with prominent nucleoli."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (marker unlabeled)",
+  "match": "partial",
+  "high_yield": false
+}

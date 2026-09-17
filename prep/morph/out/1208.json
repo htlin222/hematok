@@ -1,0 +1,22 @@
+{
+  "id": "1208",
+  "recognize_zh": "骨髓切片（H&E）中造血細胞稀少，間質大片出血與淡粉紅色、無結構的物質，左側有骨小樑；淡染無定形沉積可能是類澱粉（amyloid），但 H&E 無法確定，需 Congo red 染色在偏光下見蘋果綠雙折射才能確診。",
+  "features": [
+    "Hypocellular marrow with scattered crushed or dark small nucleated cells",
+    "Extensive interstitial hemorrhage with red cells filling the stroma",
+    "Pale pink, amorphous, acellular material in the interstitium (suggestive of but not diagnostic for amyloid)",
+    "Numerous empty fat spaces and a bony trabecula at the left",
+    "Poor preservation and low magnification limit cytologic assessment of plasma cells"
+  ],
+  "describe_en": "Bone marrow section stained with H&E shows a hypocellular, hemorrhagic marrow with fat spaces, an adjacent bony trabecula, and scattered small, poorly preserved nucleated cells. Pale eosinophilic, amorphous, acellular material is present in the interstitium, which may represent amyloid deposition but could also reflect edema or fibrin. Plasma cells cannot be reliably identified at this magnification. A Congo red stain with polarization (apple-green birefringence) and assessment for a clonal plasma cell population by CD138 and kappa/lambda immunostaining are recommended to confirm amyloidosis.",
+  "ddx": [
+    {"dx": "Serous fat atrophy (gelatinous transformation)", "vs": "Gelatinous transformation shows pale granular basophilic-to-pink ground substance that is Alcian blue positive and Congo red negative."},
+    {"dx": "Marrow edema or fibrin in hemorrhage", "vs": "Edema and fibrin lack apple-green birefringence on Congo red and do not form waxy perivascular deposits."},
+    {"dx": "Light chain deposition disease", "vs": "LCDD deposits are Congo red negative and show granular deposits by electron microscopy rather than fibrils."},
+    {"dx": "Marrow fibrosis", "vs": "Fibrosis shows fibrillar collagen or reticulin on trichrome or reticulin stain rather than amorphous glassy material."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

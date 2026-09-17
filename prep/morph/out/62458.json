@@ -1,0 +1,21 @@
+{
+  "id": "62458",
+  "recognize_zh": "淋巴球 gate 的 CD8 對 CD4 流式圖：絕大多數細胞位於 CD8 陰性、CD4 dim 的藍色大族群，綠色正常 CD4 亮度的 T 細胞較少，左上 CD8 陽性 T 細胞只剩一小群，CD4:CD8 比明顯升高並有 CD4 表現減弱，支持 Sézary 細胞血液侵犯。",
+  "features": [
+    "Dot plot of CD8-ECD versus CD4-FITC gated on lymphocytes (60.35% of total events)",
+    "Dominant blue population that is CD8-negative with dim, spread-out CD4 expression",
+    "Discrete green CD4-positive CD8-negative population at normal CD4 intensity (residual normal CD4 T cells)",
+    "Small CD8-bright CD4-negative T-cell cluster in the upper left, markedly reduced relative to CD4 cells",
+    "Grey CD4-negative CD8-dim to negative events (NK and B cells); non-morphologic figure"
+  ],
+  "describe_en": "Flow cytometric plot of CD8 versus CD4 on gated lymphocytes shows a markedly skewed distribution, with a large CD8-negative population expressing dim CD4 and a smaller discrete population of normal-intensity CD4-positive T cells. CD8-positive T cells form only a minor cluster, indicating a markedly elevated CD4:CD8 ratio. The dim CD4 intensity on the expanded population is an aberrant feature. These findings, in combination with CD7 and CD26 loss, support peripheral blood involvement by Sezary cells in mycosis fungoides/Sezary syndrome.",
+  "ddx": [
+    {"dx": "Reactive CD4 lymphocytosis or inflammatory erythroderma", "vs": "Benign erythroderma may raise the CD4:CD8 ratio but lacks dim CD4 expression and substantial CD7/CD26-negative populations."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL expands CD8-positive cells, the opposite of this CD8-depleted pattern."},
+    {"dx": "Monocyte contamination of the lymphocyte gate", "vs": "Monocytes are CD4 dim but also CD14/CD64 positive with higher side scatter and are CD3 negative."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

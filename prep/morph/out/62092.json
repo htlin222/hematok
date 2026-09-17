@@ -1,0 +1,21 @@
+{
+  "id": "62092",
+  "recognize_zh": "核型式為 46,XY,t(3;3)(q21;q26.2),t(9;22)(q34;q11.2)：箭頭標示 der(9)、縮短的 der(22)（費城染色體）與兩條重排的 3 號染色體；間期 FISH 以 BCR（綠）/ABL1（紅）探針可見黃色融合訊號，確認 BCR::ABL1。",
+  "features": [
+    "G-banded karyotype: 46,XY,t(3;3)(q21;q26.2),t(9;22)(q34;q11.2)",
+    "Arrows mark der(9), the shortened der(22) (Philadelphia chromosome), and both rearranged chromosome 3 homologs",
+    "Partial karyotype inset pairs normal 9 and 22 with their derivatives",
+    "Interphase FISH (BCR green, ABL1 red): yellow fusion signals indicating BCR::ABL1",
+    "Additional t(3;3) places MECOM (EVI1) near RPN1 enhancer, an adverse secondary change"
+  ],
+  "describe_en": "This composite is a non-morphologic cytogenetic figure. The G-banded karyotype shows 46,XY,t(3;3)(q21;q26.2),t(9;22)(q34;q11.2), with the Philadelphia chromosome [der(22)] and der(9) indicated along with rearranged chromosome 3 homologs. Interphase dual-color FISH with BCR (green) and ABL1 (red) probes demonstrates fused yellow signals in both nuclei, confirming BCR::ABL1. The coexisting t(3;3)(q21;q26.2), which juxtaposes MECOM with RPN1, is a high-risk additional chromosomal abnormality associated with blast phase, TKI resistance, and poor prognosis in CML.",
+  "ddx": [
+    {"dx": "Ph-positive B-lymphoblastic leukemia", "vs": "Carries the same t(9;22) (often p190 BCR::ABL1), so distinction relies on marrow morphology/flow and history rather than the karyotype alone."},
+    {"dx": "AML with inv(3)(q21q26.2)/t(3;3) without BCR::ABL1", "vs": "Shows the MECOM rearrangement but no Philadelphia chromosome and no BCR::ABL1 fusion signals on FISH."},
+    {"dx": "Variant or cryptic Philadelphia translocation", "vs": "Complex or cryptic variants may lack a visible der(22) on G-banding but still show BCR::ABL1 fusion by FISH or RT-PCR."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding; FISH (BCR/ABL1)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

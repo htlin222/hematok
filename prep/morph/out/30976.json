@@ -1,0 +1,22 @@
+{
+  "id": "30976",
+  "recognize_zh": "低倍皮膚切片中真皮被一片密集、瀰漫的單核細胞浸潤占滿，膠原纖維被細胞分隔，浸潤延伸至表皮下方；標題（ad 2）與分類無法指出確切診斷，需配合高倍與免疫染色判讀。",
+  "features": [
+    "Dense, diffuse, monotonous cellular infiltrate replacing the entire dermis",
+    "Infiltrate dissects between collagen bundles in an interstitial pattern",
+    "Infiltrate extends up to the dermal-epidermal junction without an obvious grenz zone",
+    "Overlying epidermis intact and thin without ulceration",
+    "Individual cytology not resolvable at this low magnification"
+  ],
+  "describe_en": "Skin biopsy (H&E, low power) shows a dense, diffuse cellular infiltrate occupying the full thickness of the sampled dermis, dissecting between collagen bundles and extending up to the dermal-epidermal junction. The overlying epidermis is intact. Cytologic detail is not resolvable at this magnification, and the title and category do not specify a diagnosis. In a patient with acquired neutropenia, the pattern raises concern for a cutaneous hematolymphoid infiltrate such as leukemia cutis/myeloid sarcoma, which requires high-power review and immunohistochemistry (e.g., MPO, CD68, CD4, CD3, CD20) for classification.",
+  "ddx": [
+    {"dx": "Leukemia cutis / myeloid sarcoma", "vs": "Shows immature myeloid or monocytic cells with fine chromatin that express MPO, lysozyme, CD68 or CD33 on immunohistochemistry."},
+    {"dx": "Cutaneous B-cell lymphoma", "vs": "Typically shows a grenz zone with CD20+ lymphoid cells, sometimes with follicular structures."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "Spares the epidermis with a grenz zone and expresses CD4, CD56, CD123 and TCF4 without MPO."},
+    {"dx": "Sweet syndrome (neutrophilic dermatosis)", "vs": "Shows papillary dermal edema with mature neutrophils and leukocytoclasia rather than a monotonous mononuclear infiltrate."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

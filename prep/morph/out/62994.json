@@ -1,0 +1,20 @@
+{
+  "id": "62994",
+  "recognize_zh": "S100 免疫染色中，大型組織球的細胞質與細胞核呈強陽性，細胞質內可見被包覆、未染色（藍色）的完整淋巴球，這是 emperipolesis 的免疫染色表現，支持 Rosai-Dorfman 型組織球。",
+  "features": [
+    "Large histiocytes with abundant cytoplasm showing strong nuclear and cytoplasmic S100 staining",
+    "Unstained (hematoxylin-blue) intact lymphocytes enclosed within the S100-positive cytoplasm (emperipolesis)",
+    "Some histiocytes appear multinucleated or contain several engulfed cells",
+    "Background small lymphocytes and plasma cells are S100-negative"
+  ],
+  "describe_en": "S100 immunostain highlights large histiocytes with abundant cytoplasm showing strong nuclear and cytoplasmic staining. Several of these cells contain intact, unstained lymphocytes within their cytoplasm, highlighting emperipolesis. The background lymphocytes are negative. Findings are consistent with Rosai-Dorfman-type (S100-positive, emperipolesis-bearing) histiocytes.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are also S100+ but are CD1a+/langerin+, have grooved nuclei and lack emperipolesis."},
+    {"dx": "Interdigitating dendritic cell sarcoma", "vs": "IDC sarcoma forms sheets of atypical S100+ spindle cells without emperipolesis, whereas these are discrete large histiocytes engulfing lymphocytes."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma cells are S100+ but show nuclear atypia and SOX10/HMB45/Melan-A positivity, without lymphocyte engulfment."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: S100",
+  "match": "consistent",
+  "high_yield": true
+}

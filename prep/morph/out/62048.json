@@ -1,0 +1,22 @@
+{
+  "id": "62048",
+  "recognize_zh": "低倍下可見多個淡粉紅色、由較大多角形細胞構成的結節或蛇行狀區域，與深藍色小淋巴球帶交錯排列，淡染區可能為上皮樣組織球或大細胞聚集，是 NLPHL 變異型或進展時需特別注意的型態。",
+  "features": [
+    "Nodular and serpiginous pale eosinophilic zones composed of larger polygonal cells",
+    "Pale zones alternate with dark bands of densely packed small lymphocytes",
+    "Pale areas may represent epithelioid histiocyte aggregates and/or confluent large cells; distinction not possible at this power",
+    "Effaced architecture without recognizable normal follicles or sinuses",
+    "Scattered small vessels; no necrosis or broad fibrous bands"
+  ],
+  "describe_en": "Low-power H&E section of lymph node shows effaced architecture with multiple nodular and serpiginous pale eosinophilic zones composed of larger polygonal cells, alternating with dark bands of small lymphocytes. At this magnification the pale zones could represent epithelioid histiocyte aggregates or confluent sheets of large cells, and cytologic detail is insufficient to distinguish them. No necrosis or broad sclerotic bands are seen. In a case of nodular lymphocyte predominant Hodgkin lymphoma, this appearance warrants high-power review and CD20/CD68 immunostains to exclude confluent sheets of large B cells indicating progression to diffuse large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma arising from NLPHL", "vs": "Progression is defined by confluent sheets of large CD20+ B cells, which must be confirmed at high power and by IHC rather than inferred from pale areas at low power."},
+    {"dx": "Toxoplasma or granulomatous lymphadenitis", "vs": "Reactive epithelioid histiocyte clusters are CD68+ and lack atypical large B cells, occurring in a background of preserved reactive follicles."},
+    {"dx": "Classic Hodgkin lymphoma, nodular sclerosis", "vs": "NSCHL nodules are separated by birefringent collagen bands and contain lacunar CD30+/CD15+ cells, not the pale histiocyte-rich zones seen here."},
+    {"dx": "Lymphoepithelioid (Lennert) variant of peripheral T-cell lymphoma", "vs": "Lennert lymphoma shows diffuse small clusters of epithelioid histiocytes among atypical CD4+ T cells with clonal TCR rearrangement, without CD20+ LP cells."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

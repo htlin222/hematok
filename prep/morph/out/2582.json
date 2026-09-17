@@ -1,0 +1,22 @@
+{
+  "id": "2582",
+  "recognize_zh": "周邊血液中一顆與紅血球大小相近的圓形細胞，整個細胞被粗大、深紫黑色的顆粒覆蓋並遮住細胞核，典型的嗜鹼性球（basophil）。",
+  "features": [
+    "Round cell slightly larger than adjacent red cells",
+    "Numerous coarse, dark purple-black cytoplasmic granules",
+    "Granules overlie and obscure the nucleus, so lobation is not clearly seen",
+    "Scant visible cytoplasm between granules",
+    "Normocytic red cells and scattered platelets in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows a single round leukocyte slightly larger than surrounding red cells, filled with coarse, dark purple-black metachromatic granules that overlie and obscure the nucleus. The morphology is that of a mature basophil. Red cells and platelets in the field are unremarkable. An isolated basophil is a normal finding; absolute basophilia should prompt evaluation for a myeloproliferative neoplasm such as chronic myeloid leukemia.",
+  "ddx": [
+    {"dx": "Mast cell", "vs": "Mast cells are larger with a round central nucleus and densely packed smaller granules, occur mainly in marrow or tissue, and are rarely seen in blood."},
+    {"dx": "Eosinophil", "vs": "Eosinophils have larger, refractile orange-red granules that do not obscure the bilobed nucleus."},
+    {"dx": "Neutrophil with toxic granulation", "vs": "Toxic neutrophils show fine dark granules over pale cytoplasm with a clearly visible segmented nucleus, not coarse granules obscuring the nucleus."},
+    {"dx": "Stain precipitate on a lymphocyte", "vs": "Precipitate lies in a different focal plane and also over red cells and background, whereas basophil granules are confined to the cell."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

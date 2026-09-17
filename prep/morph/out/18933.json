@@ -1,0 +1,22 @@
+{
+  "id": "18933",
+  "recognize_zh": "骨髓抹片中巨噬細胞的細胞質塞滿大量 2–4 µm 的卵圓形小體，每個小體都有一個深紫色核與旁邊一個棒狀小點（kinetoplast），部分散在細胞外，即利什曼原蟲無鞭毛體（Leishman-Donovan bodies）。",
+  "features": [
+    "Macrophages packed with numerous small oval organisms (~2-4 um) in foamy pale cytoplasm",
+    "Each organism has a round purple nucleus and a separate small rod-shaped kinetoplast",
+    "Clusters of extracellular amastigotes released from ruptured macrophages",
+    "Background erythroid precursors, a myelocyte-like cell, and scattered red cells",
+    "No capsule or clear halo around organisms"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered macrophages whose cytoplasm is distended by numerous small oval intracellular organisms, with additional extracellular clusters, presumably from ruptured histiocytes. At high power each organism measures approximately 2-4 um and contains a nucleus and a distinct rod-shaped kinetoplast, without a capsule or halo. Background hematopoietic elements include erythroid precursors and granulocytic cells. Findings are consistent with visceral leishmaniasis (Leishman-Donovan bodies).",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts show a clear halo around a crescentic nucleus and lack a kinetoplast, and they stain with GMS/PAS, whereas Leishmania amastigotes have a nucleus plus a rod-shaped kinetoplast."},
+    {"dx": "Toxoplasma gondii", "vs": "Toxoplasma tachyzoites are crescent-shaped with a single nucleus and no kinetoplast."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "T. marneffei yeasts divide by fission with a central transverse septum and lack a kinetoplast."},
+    {"dx": "Platelets overlying macrophages", "vs": "Platelets are granular, irregular, and lack the organized nucleus-plus-kinetoplast structure of amastigotes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "64074",
+  "recognize_zh": "組圖中 H&E（A）為密集、核質比高、染色質細緻的小到中型母細胞，IHC 顯示 CD19（B）、CD5（C）、TdT（D）陽性而 CD20（E）、CD3（F）陰性，流式 CD45 dim 母細胞群（G）同時表現 CD19 與 CD5（H）；TdT+ B 系母細胞帶異常 CD5，即 B-ALL 合併 CD5 異常表現。",
+  "features": [
+    "H&E (A): dense sheet of small-to-medium blasts with round nuclei, high N:C ratio, fine chromatin, and scant cytoplasm; the necrosis described is not included in this panel",
+    "CD19 (B): strong membranous positivity in nearly all blasts",
+    "CD5 (C): membranous positivity in the blast population (aberrant for B-lineage blasts)",
+    "TdT (D): nuclear positivity in most blasts",
+    "CD20 (E) negative; CD3 (F) negative in blasts with only scattered reactive T cells",
+    "Flow cytometry: CD45-dim/low side scatter blast gate (G, green) with uniform CD19+/CD5+ coexpression (H)"
+  ],
+  "describe_en": "Bone marrow core biopsy (A) shows a dense infiltrate of small-to-medium blasts with round nuclear contours, high nuclear-to-cytoplasmic ratios, fine chromatin, and scant cytoplasm. Immunohistochemistry shows the blasts are positive for CD19, CD5, and TdT and negative for CD20 and CD3, with CD3 highlighting only scattered background T cells. Flow cytometry identifies a CD45-dim, low side scatter blast population that uniformly coexpresses CD19 and CD5. Findings are consistent with B-lymphoblastic leukemia with aberrant CD5 expression; cytogenetic and molecular studies (e.g., BCR::ABL1, KMT2A, Ph-like alterations) are needed for classification and risk stratification.",
+  "ddx": [
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is CD19+/CD5+ but is surface immunoglobulin-positive, cyclin D1/SOX11-positive, and TdT-negative, unlike these TdT+ sIg-negative blasts."},
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-ALL also expresses CD5 and TdT but is cytoplasmic CD3-positive and CD19-negative."},
+    {"dx": "Mixed-phenotype acute leukemia, B/T", "vs": "B/T MPAL requires cytoplasmic CD3 expression in addition to B-lineage markers; CD5 alone does not assign T lineage, and CD3 is negative here."},
+    {"dx": "Chronic lymphocytic leukemia (Richter or prolymphocytic)", "vs": "CLL cells are mature CD19+/CD5+/CD23+ with dim sIg and TdT-negative, with clumped chromatin rather than fine blastic chromatin."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD19, CD5, TdT, CD20, CD3; flow",
+  "match": "consistent",
+  "high_yield": false
+}

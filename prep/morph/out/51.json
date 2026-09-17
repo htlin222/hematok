@@ -1,0 +1,31 @@
+{
+  "id": "51",
+  "recognize_zh": "舌根黏膜潰瘍邊緣下方有多形性浸潤，混有大型非典型、類 Hodgkin/Reed-Sternberg（HRS-like）細胞，EBER 原位雜交呈大量大小不一的核陽性。再加上病人使用 methotrexate 的醫源性免疫抑制病史，應想到 EBV 陽性黏膜皮膚潰瘍（EBVMCU）。",
+  "features": [
+    "Mucosal ulcer with a dense polymorphous infiltrate beneath a fibrinous/granulation-tissue edge",
+    "Scattered large atypical cells with vesicular to hyperchromatic nuclei, including HRS-like forms, amid small lymphocytes and histiocytes",
+    "Vacuolated, edematous inflammatory background with apoptotic debris",
+    "Large cells show membranous IHC staining with a Golgi/dot accentuation pattern (unlabeled marker, CD30-like), plus sheets of cells with strong membranous staining (unlabeled marker, B-cell-like)",
+    "Sharp boundary between a positive-cell-rich zone and a paucicellular negative zone on IHC",
+    "EBER ISH: numerous positive nuclei across a spectrum of cell sizes"
+  ],
+  "describe_en": "Sections of base-of-tongue mucosa show an ulcer with an underlying dense, polymorphous lymphohistiocytic infiltrate. At high power there are numerous large atypical lymphoid cells, including binucleate and multilobated Hodgkin/Reed-Sternberg-like cells, admixed with small lymphocytes, histiocytes and apoptotic debris in an edematous background. Immunostains highlight sheets of large cells with strong membranous positivity and a subset with membranous and Golgi-pattern staining (markers not labeled in the images; CD20/CD30 pattern), and EBER in situ hybridization is positive in many cells of varying size. In the setting of methotrexate-associated immunosuppression and a sharply circumscribed mucosal ulcer, the findings are consistent with EBV-positive mucocutaneous ulcer.",
+  "ddx": [
+    {"dx": "EBV-positive diffuse large B-cell lymphoma, NOS", "vs": "EBV+ DLBCL forms a mass-forming, non-circumscribed infiltrate often with systemic or nodal disease, whereas EBVMCU is an isolated, sharply demarcated ulcer with a basal band of small T cells and regresses with reduced immunosuppression."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "In cHL the HRS cells are CD15+ with weak/absent B-cell program, while the large cells here show strong B-cell marker expression, and cHL rarely presents as an isolated mucosal ulcer."},
+    {"dx": "Methotrexate-associated lymphoproliferative disorder (polymorphic PTLD-like)", "vs": "Overlapping biology; the ulcer-limited, circumscribed architecture without mass lesion or dissemination favors the EBVMCU designation, requiring clinical staging to separate."},
+    {"dx": "Reactive ulcer with EBV-positive immunoblasts", "vs": "Reactive ulcers contain only scattered EBER+ cells without sheets of atypical HRS-like large B cells as seen here."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC (markers unlabeled), ISH: EBER",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "IHC (marker unlabeled): membranous and Golgi-pattern staining of large atypical cells, CD30-like",
+    "Low-power H&E: ulcerated mucosa with dense polymorphous infiltrate",
+    "High-power H&E: large atypical and HRS-like cells in a polymorphous, vacuolated background",
+    "IHC (marker unlabeled): diffuse strong membranous staining of large cells, B-cell-marker-like",
+    "IHC (marker unlabeled): sharply demarcated zone of membranous-positive large cells",
+    "EBER ISH: numerous positive nuclei of varying size"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62346",
+  "recognize_zh": "CD138 免疫染色中，成群大型細胞呈強烈、完整的細胞膜陽性（像一圈圈棕色框），而左上方多核的巨核細胞與周圍小型造血細胞都是藍色陰性，顯示是漿細胞呈片狀浸潤。",
+  "features": [
+    "Strong, crisp membranous CD138 staining outlining large cells in clusters and sheets",
+    "Positive cells have abundant cytoplasm and round nuclei; some show cytoplasmic granular staining",
+    "Megakaryocyte (upper left) is CD138-negative, serving as internal negative control",
+    "Background small hematopoietic cells are negative (hematoxylin counterstain)",
+    "Plasma cells constitute a large proportion of the field, forming confluent aggregates"
+  ],
+  "describe_en": "CD138 immunohistochemistry on the bone marrow biopsy highlights numerous large plasma cells with strong membranous staining, arranged in interstitial clusters and confluent sheets. A megakaryocyte and the background hematopoietic precursors are negative. The density and sheet-like distribution of CD138-positive cells exceed that of reactive plasmacytosis. Findings support plasma cell myeloma; kappa/lambda staining or in situ hybridization is recommended to demonstrate clonality.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are scattered singly or perivascularly, small and polytypic on kappa/lambda staining, rather than forming large confluent CD138-positive sheets."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinomas can also express CD138 but are cytokeratin-positive and form cohesive nests, so CD138 alone cannot exclude them."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL has a background of CD20-positive small lymphocytes with fewer, mature CD138-positive plasma cells, often with MYD88 L265P and IgM paraprotein."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD138",
+  "match": "consistent",
+  "high_yield": true
+}

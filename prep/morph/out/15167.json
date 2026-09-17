@@ -1,0 +1,22 @@
+{
+  "id": "15167",
+  "recognize_zh": "骨髓切片 CD20 免疫染色，棕色陽性的 B 細胞在骨小樑之間呈瀰漫性間質（interstitial）浸潤，散布於脂肪細胞之間，而非形成結節，這種分布方式是毛細胞白血病侵犯骨髓的特徵。",
+  "features": [
+    "Diffuse interstitial infiltrate of CD20-positive (brown membranous) cells throughout the intertrabecular space",
+    "Positive cells distributed singly and in sheets between fat cells, without discrete nodules",
+    "Denser confluent areas at the left edge of the marrow space",
+    "Residual fat cells and bony trabeculae (blue-gray) preserved",
+    "Low-power view; individual cell cytology not assessable"
+  ],
+  "describe_en": "Low-power bone marrow core biopsy immunostained for CD20 shows a diffuse interstitial infiltrate of CD20-positive B cells filling the intertrabecular space and percolating between fat cells, with denser confluent areas at one edge and no well-formed lymphoid nodules. Bony trabeculae are intact. At this magnification cytologic detail cannot be assessed, but the extent of involvement is readily appreciated and would be underestimated on H&E. Findings are consistent with extensive marrow involvement by hairy cell leukemia; confirmatory stains include annexin A1, TRAP, cyclin D1 (weak) and BRAF V600E (VE1).",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL typically forms nodular and intrasinusoidal CD20+ infiltrates rather than a diffuse interstitial pattern and is annexin A1- and BRAF V600E-negative."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL infiltrates are nodular, interstitial or diffuse with dim CD20 and co-express CD5 and CD23/LEF1, which hairy cells lack."},
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v can infiltrate interstitially and intrasinusoidally but is annexin A1-, CD25-, TRAP-weak/negative and BRAF wild-type."},
+    {"dx": "Reactive polyclonal B-cell hyperplasia", "vs": "Reactive B cells form small scattered aggregates with a mix of T cells and do not diffusely replace the marrow."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": true
+}

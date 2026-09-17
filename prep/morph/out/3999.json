@@ -1,0 +1,22 @@
+{
+  "id": "3999",
+  "recognize_zh": "這是腹部顯影電腦斷層（CT）橫切面，箭頭指向橫結腸壁明顯增厚、黏膜皺襞水腫，顯影劑夾在增厚皺襞之間形成「手風琴徵象」（accordion sign），符合 C. difficile 偽膜性結腸炎的影像表現。",
+  "features": [
+    "Axial contrast-enhanced CT of the abdomen at the level of the kidneys",
+    "Marked circumferential wall thickening of the transverse colon (arrow)",
+    "Contrast trapped between edematous haustral folds producing an accordion pattern",
+    "Pericolonic soft-tissue stranding and small amount of free fluid",
+    "Normally enhancing kidneys; no discrete mass identified"
+  ],
+  "describe_en": "This is a radiologic image rather than a morphologic specimen. Axial contrast-enhanced CT of the abdomen demonstrates marked diffuse wall thickening of the transverse colon with edematous haustral folds and trapped enteric contrast producing an accordion sign (arrow), with mild pericolonic stranding and fluid. No discrete mass or abscess is seen. In the clinical setting of a patient receiving therapy for leukemia, the findings are suggestive of Clostridioides difficile (pseudomembranous) colitis, confirmed by stool toxin/PCR testing.",
+  "ddx": [
+    {"dx": "Neutropenic enterocolitis (typhlitis)", "vs": "Typhlitis predominantly involves the cecum and right colon in profoundly neutropenic patients, whereas C. difficile colitis is often pancolonic and is confirmed by stool toxin or PCR testing."},
+    {"dx": "Ischemic colitis", "vs": "Ischemic colitis typically follows a vascular watershed distribution (splenic flexure, rectosigmoid) and lacks positive C. difficile stool testing."},
+    {"dx": "CMV colitis", "vs": "CMV colitis can look identical on CT and requires biopsy showing viral inclusions or CMV immunostain for diagnosis."},
+    {"dx": "Leukemic or lymphomatous infiltration of the colon", "vs": "Neoplastic infiltration tends to produce more focal, mass-like or asymmetric thickening and is proven by tissue biopsy."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

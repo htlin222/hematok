@@ -1,0 +1,22 @@
+{
+  "id": "61069",
+  "recognize_zh": "PET-CT 軸切面顯示右側前縱膈有一個與心臟大小相近、緊貼心臟且 FDG 高攝取的巨大腫塊，看起來像第二顆心臟（double-heart sign）；切片為單一形態的中小型芽細胞成片排列，插圖核染色瀰漫陽性（推測為 TdT）。",
+  "features": [
+    "PET-CT (A): large, intensely FDG-avid anterior mediastinal mass abutting the right heart border, similar in size to the heart (double-heart appearance)",
+    "Histology (B): diffuse sheets of monotonous small to intermediate lymphoid cells",
+    "High N:C ratio with round to slightly convoluted nuclei, finely dispersed chromatin and inconspicuous nucleoli",
+    "Scattered mitotic figures/apoptotic cells within the sheets",
+    "Inset IHC: diffuse strong nuclear positivity in tumor cells (antibody not labeled; pattern typical of TdT)"
+  ],
+  "describe_en": "Axial PET-CT shows a large, intensely FDG-avid anterior mediastinal mass abutting the right cardiac border and approximating the heart in size, producing a double-heart appearance. Biopsy shows diffuse sheets of monotonous small to intermediate cells with high N:C ratios, finely dispersed chromatin and inconspicuous nucleoli. A nuclear immunostain, most likely TdT, is diffusely positive in the tumor cells. Findings are consistent with T-lymphoblastic lymphoma presenting as a mediastinal mass, to be confirmed with CD3, CD1a, CD34 and CD99 immunostains.",
+  "ddx": [
+    {"dx": "Thymoma (type B1/B2) with immature T cells", "vs": "Thymoma contains keratin-positive epithelial cells with lobulated fibrous septa, and its TdT+ thymocytes are admixed with epithelial meshworks rather than forming pure sheets."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL consists of large CD20+/CD23+/PD-L1+ cells with clear cytoplasm and compartmentalizing sclerosis, and is TdT-negative."},
+    {"dx": "Nodular sclerosis classical Hodgkin lymphoma", "vs": "cHL shows fibrous bands and scattered CD30+/CD15+ lacunar cells in a mixed inflammatory background rather than monotonous TdT+ blasts."},
+    {"dx": "Mediastinal germ cell tumor/seminoma", "vs": "Seminoma cells are larger with clear cytoplasm and prominent nucleoli, OCT3/4 and SALL4 positive, and CD45/TdT negative."}
+  ],
+  "specimen": "radiology",
+  "stain": "H&E; IHC (inset, likely TdT); PET-CT",
+  "match": "consistent",
+  "high_yield": true
+}

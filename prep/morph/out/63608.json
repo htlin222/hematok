@@ -1,0 +1,22 @@
+{
+  "id": "63608",
+  "recognize_zh": "箭頭所指細胞比旁邊的嗜中性球大，細胞核有明顯摺痕／凹陷（indented/folded nucleus），染色質細緻並隱約可見核仁，細胞質灰藍色帶細小嗜天青顆粒與少數小空泡，介於單核母細胞與成熟單核球之間，即前單核球（promonocyte）。",
+  "features": [
+    "Large cell, larger than the adjacent neutrophil, with moderate N:C ratio",
+    "Nucleus with a prominent fold/indentation (cleft) giving a convoluted contour",
+    "Fine, delicate chromatin with a faint nucleolus",
+    "Moderate grey-blue cytoplasm with fine azurophilic granules and a few small vacuoles at the periphery",
+    "Background echinocytic (crenated) red cells, likely artifact, and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a large mononuclear cell (arrow) with a folded, indented nucleus, fine delicate chromatin and a faint nucleolus. The cytoplasm is moderately abundant, grey-blue and contains fine azurophilic granules with a few small peripheral vacuoles. An adjacent segmented neutrophil provides a size comparison, and the background red cells are crenated, most likely as a preparation artifact. Findings are consistent with a promonocyte, which is counted as a blast equivalent in myeloid neoplasms with monocytic differentiation.",
+  "ddx": [
+    {"dx": "Mature monocyte", "vs": "Mature monocytes have more condensed, lacy but clumped chromatin without nucleoli and more vacuolated cytoplasm."},
+    {"dx": "Monoblast", "vs": "Monoblasts have a round to oval nucleus with one or more prominent nucleoli and abundant basophilic cytoplasm with few or no granules."},
+    {"dx": "Abnormal (immature) monocyte of CMML", "vs": "Abnormal monocytes have more condensed chromatin than promonocytes and are not counted as blast equivalents."},
+    {"dx": "Microgranular APL cell", "vs": "Hypogranular promyelocytes have bilobed, butterfly-shaped nuclei and strong MPO positivity, whereas promonocytes are nonspecific esterase positive."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

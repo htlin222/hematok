@@ -1,0 +1,21 @@
+{
+  "id": "62707",
+  "recognize_zh": "這張是周邊血液的細胞化學染色（推測為 MPO）：左上方成熟顆粒球胞質內充滿藍黑色陽性顆粒可作為內部陽性對照，兩個大型、染色淡、邊緣呈新月形折疊的細胞則幾乎無陽性顆粒（右側一個僅有少數顆粒），代表大部分原始細胞為陰性，需搭配流式判定混合表型。",
+  "features": [
+    "Mature granulocyte with dense, coarse blue-black cytoplasmic reaction product (internal positive control)",
+    "Two large cells with pale pink cytoplasm, weak counterstain and a crescent-shaped fold, lacking reaction product",
+    "One large cell with only a few focal blue-black granules at the periphery",
+    "Red cells show fine punctate dots, likely stain precipitate or artifact",
+    "Nuclear detail is poorly visualized with this counterstain, limiting morphologic assessment"
+  ],
+  "describe_en": "Peripheral blood smear stained with a cytochemical stain (likely myeloperoxidase with a blue-black chromogen) shows a mature granulocyte with strong, coarse granular positivity serving as an internal control. Two large cells with pale cytoplasm and folded contours, presumed blasts, are essentially negative, with only rare focal granules in one cell. Nuclear detail is not well seen with the counterstain, and fine dots over red cells are likely artifact. Cytochemistry therefore shows at most a minor MPO-positive blast subset; in the context of mixed phenotype acute leukemia, B/myeloid, myeloid lineage assignment rests on flow cytometric MPO expression in a defined blast population together with B-lineage markers.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Blasts are MPO-negative by cytochemistry and flow, whereas MPAL B/myeloid requires MPO positivity in a subset of blasts (or monocytic differentiation) along with strong CD19 and other B-cell markers."},
+    {"dx": "AML with minimal differentiation", "vs": "Blasts are MPO-negative or <3% positive by cytochemistry but lack B-lineage commitment markers such as strong CD19 with CD79a/CD22/CD10."},
+    {"dx": "AML with myelomonocytic differentiation", "vs": "Shows stronger and more frequent MPO positivity with nonspecific esterase-positive monocytic cells, and B-cell markers are absent."}
+  ],
+  "specimen": "PB",
+  "stain": "Cytochemistry (likely MPO)",
+  "match": "partial",
+  "high_yield": false
+}

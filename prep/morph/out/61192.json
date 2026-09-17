@@ -1,0 +1,31 @@
+{
+ "id": "61192",
+ "recognize_zh": "血液抹片中有大量大小不一的微小球形紅血球與紅血球碎片、出芽狀紅血球（放大小圖），血球分析儀的 PLT-O 與 RET 散佈圖在低前向散射區出現異常群（紅圈、箭頭），代表碎片被誤算為血小板，符合熱傷害造成的後天性熱變性異形紅血球症。",
+ "features": [
+  "Panel A: marked anisopoikilocytosis with numerous microspherocytes and tiny red cell fragments (microfragments) of platelet size",
+  "Insets: red cells with budding protrusions, spherocytic fragments and irregular dense forms",
+  "Panel B: RBC histogram with a main peak plus a left-sided shoulder/tail from small particles",
+  "Panel C: PLT impedance histogram with a right tail not returning to baseline, suggesting interfering small red cells",
+  "Panels E-F: PLT-O and RET scattergrams showing an abnormal population in the low forward-scatter region (red circles/arrows) representing red cell fragments",
+  "Panel D: PLT-F (fluorescent platelet) scattergram used as the reference count, less affected by fragments"
+ ],
+ "describe_en": "Composite of a peripheral blood smear and hematology analyzer output. The smear shows marked anisopoikilocytosis with abundant microspherocytes, budding red cells and platelet-sized red cell microfragments, with scattered normal-appearing platelets and a leukocyte. The analyzer histograms and scattergrams show an abnormal small-particle population in the low forward-scatter region of the optical platelet and reticulocyte channels (circled), indicating that red cell fragments interfere with optical/impedance platelet counts, whereas the fluorescent platelet channel is more reliable. Findings are consistent with acquired thermal-injury ('pyro') poikilocytosis, such as after extensive burns, resembling hereditary pyropoikilocytosis.",
+ "ddx": [
+  {
+   "dx": "Hereditary pyropoikilocytosis / hereditary elliptocytosis",
+   "vs": "Similar microspherocytes and fragments but lifelong, with elliptocytes in family members, spectrin defects and extremely low MCV without burn history."
+  },
+  {
+   "dx": "Thrombotic microangiopathy",
+   "vs": "Schistocytes are helmet and triangular forms with severe thrombocytopenia, rather than round microspherocytes and budding cells with a normal fluorescent platelet count."
+  },
+  {
+   "dx": "Hereditary spherocytosis or immune hemolysis",
+   "vs": "Spherocytes are of more uniform size without abundant microfragments or budding, with positive DAT in immune cases or EMA-binding defect in HS."
+  }
+ ],
+ "specimen": "PB",
+ "stain": "Wright-Giemsa; analyzer scattergrams",
+ "match": "consistent",
+ "high_yield": false
+}

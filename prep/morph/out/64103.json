@@ -1,0 +1,22 @@
+{
+  "id": "64103",
+  "recognize_zh": "明顯疊錢狀紅血球背景中，一顆核偏心、染色質塊狀、胞質淡藍的漿細胞，胞質內擠滿許多細長針狀、成束排列的粉紫色結晶桿狀物，外觀像 Auer 小體；漿細胞含結晶狀包涵體，見於漿細胞骨髓瘤。",
+  "features": [
+    "Plasma cell with an eccentric round nucleus and coarse clock-face chromatin",
+    "Pale blue cytoplasm packed with numerous thin, needle-like, pink-violet crystalline rods arranged in bundles (Auer rod-like inclusions)",
+    "Rods extend beyond the nucleus into most of the cytoplasm",
+    "Striking rouleaux formation of red cells in the background, consistent with a paraprotein",
+    "Scattered small lymphocytes and a granulocyte in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows marked rouleaux formation of red cells, with a plasma cell whose eccentric nucleus has coarsely clumped chromatin and whose pale blue cytoplasm contains numerous thin, needle-like, pink-violet crystalline rods arranged in bundles. These Auer rod-like inclusions represent crystallized immunoglobulin (often kappa light chain) and are distinct from true Auer rods, which are MPO-positive fused primary granules of myeloid blasts. Scattered small lymphocytes are also present. Findings are consistent with a plasma cell neoplasm with crystalline cytoplasmic inclusions; evaluation for light-chain proximal tubulopathy (Fanconi syndrome) or crystal-storing histiocytosis may be warranted.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with Auer rods", "vs": "True Auer rods occur in myeloblasts with fine chromatin and nucleoli and are MPO-positive, whereas these crystals lie in a mature plasma cell with clock-face chromatin and are MPO-negative."},
+    {"dx": "Crystal-storing histiocytosis", "vs": "Crystals accumulate in CD68+ histiocytes with bland oval nuclei rather than in CD138+ plasma cells, although both reflect the same underlying light-chain disorder."},
+    {"dx": "Gaucher cells", "vs": "Gaucher cells are large histiocytes with fibrillar 'crumpled tissue paper' cytoplasm and a small nucleus, not discrete needle-shaped rods in a plasma cell."},
+    {"dx": "Plasma cells with Russell bodies (Mott cells)", "vs": "Russell bodies are round globular inclusions rather than elongated needle-like crystals."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

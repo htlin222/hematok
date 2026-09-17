@@ -1,0 +1,22 @@
+{
+  "id": "64386",
+  "recognize_zh": "箭頭所指為一顆比周圍造血細胞大數倍的組織球樣細胞，細胞質豐富、淡紫灰色並散佈許多細小空泡，界線模糊，提示儲積型組織球；但 Gaucher 細胞典型的「皺紋紙」纖維紋路在此失焦影像中並不明顯。",
+  "features": [
+    "Very large cell (several times the size of adjacent precursors) with abundant pale lilac-gray cytoplasm",
+    "Cytoplasm with numerous tiny clear vacuoles/refractile dots and faint granular texture; fibrillary striations not clearly resolved",
+    "Nucleus poorly defined, appearing as a central darker zone",
+    "Ill-defined cell border blending with the smear background",
+    "Background erythroid precursors, lymphocytes and granulocytic cells; image out of focus"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large histiocytic cell (arrow) with abundant pale lilac-gray cytoplasm containing numerous fine vacuoles and a poorly defined nucleus, surrounded by erythroid precursors, lymphocytes and granulocytic cells. The classic crumpled tissue-paper fibrillary cytoplasm of a Gaucher cell is not clearly demonstrated, and the image is out of focus. Findings suggest a storage-type histiocyte; in the stated clinical context this may represent a Gaucher cell, with confirmation by glucocerebrosidase enzyme assay and/or GBA1 genotyping.",
+  "ddx": [
+    {"dx": "Niemann-Pick cell / foamy histiocyte", "vs": "Foamy histiocytes have distinct bubbly vacuolated cytoplasm, which overlaps with the vacuolated appearance here, whereas Gaucher cells show striated wrinkled cytoplasm with PAS positivity."},
+    {"dx": "Pseudo-Gaucher cells", "vs": "Pseudo-Gaucher cells in CML, myeloma or thalassemia are morphologically identical, and are distinguished by clinical context and normal enzyme activity."},
+    {"dx": "Megakaryocyte (out of focus)", "vs": "Megakaryocytes have a large lobulated nucleus occupying much of the cell and granular cytoplasm, rather than a small indistinct nucleus with vacuolated pale cytoplasm."},
+    {"dx": "Smudged/crushed cell artifact", "vs": "Smudged cells lack an intact cytoplasmic membrane and show streaked nuclear material rather than a defined cytoplasm with vacuoles."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

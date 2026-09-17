@@ -1,0 +1,22 @@
+{
+  "id": "66211",
+  "recognize_zh": "周邊血液抹片中只有兩顆血小板，且都明顯變大：左側一顆接近小紅血球大小、右側一顆也遠大於正常血小板，內含正常分布的紫紅顆粒；整個視野幾乎沒有正常大小的血小板，呈巨大血小板合併血小板減少的樣貌。",
+  "features": [
+    "Two enlarged platelets: the left one approaching the diameter of an adjacent red cell, the right one also clearly larger than normal",
+    "Platelets contain evenly distributed azurophilic granules (not agranular or gray)",
+    "Marked paucity of platelets across the field, indicating thrombocytopenia",
+    "Red cells normocytic and normochromic without significant poikilocytosis; no platelet clumps",
+    "No leukocytes in the field, so neutrophil inclusions cannot be assessed"
+  ],
+  "describe_en": "Peripheral blood smear (Wright-Giemsa) shows markedly decreased platelets, with the few platelets present being enlarged, including one approaching red-cell size, and retaining normal azurophilic granulation. Red cells are normocytic and normochromic without significant poikilocytosis, and no platelet clumping is identified. Leukocytes are not present in this field to assess for Döhle-like inclusions. Findings of macrothrombocytopenia are consistent with an inherited giant platelet disorder such as Bernard-Soulier syndrome, to be confirmed by absent ristocetin-induced aggregation and reduced CD42b/GPIb expression by flow cytometry.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia (ITP)", "vs": "ITP platelets are large but rarely red-cell–sized, and ristocetin-induced aggregation and GPIb expression are normal."},
+    {"dx": "MYH9-related disorder", "vs": "Giant platelets are accompanied by Döhle-like inclusions in neutrophils (not assessable in this field) and normal ristocetin response."},
+    {"dx": "Gray platelet syndrome", "vs": "Gray platelets are large and pale/agranular because of absent alpha granules, unlike these granulated platelets."},
+    {"dx": "Mediterranean macrothrombocytopenia / heterozygous BSS carrier", "vs": "Morphology is similar with mild or no bleeding; distinction requires GPIb-IX-V flow cytometry and genetic testing."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

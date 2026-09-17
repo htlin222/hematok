@@ -1,0 +1,22 @@
+{
+  "id": "61464",
+  "recognize_zh": "兩格血片中可見紅血球被吞噬（erythrophagocytosis）：左圖為單核球細胞質內含一顆完整紅血球，右圖為中性球內含紅血球，背景可見部分無中央淡染區的紅血球，此白血球吞噬紅血球的表現是陣發性冷血色素尿症（PCH）的典型血片線索。",
+  "features": [
+    "Left panel: monocyte with blue-gray cytoplasm containing an intact engulfed red cell",
+    "Right panel: neutrophil with an ingested red cell within a cytoplasmic vacuole (erythrophagocytosis)",
+    "A second neutrophil without inclusions present for comparison (left panel)",
+    "Background red cells include some without central pallor (possible spherocytes) and small red cell clusters",
+    "No schistocytes or parasites seen; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows erythrophagocytosis by leukocytes: a monocyte (left) contains an intact ingested red cell, and a neutrophil (right) contains an engulfed red cell within a cytoplasmic vacuole. The background red cells include occasional forms lacking central pallor, suggestive of spherocytes, with small red cell clusters; no schistocytes or intraerythrocytic parasites are evident. In a patient with acute hemolysis and hemoglobinuria, neutrophil erythrophagocytosis is a characteristic smear clue to paroxysmal cold hemoglobinuria, to be confirmed with a positive Donath-Landsteiner test and a DAT positive for C3.",
+  "ddx": [
+    {"dx": "Cold agglutinin disease", "vs": "CAD shows prominent red cell agglutination at room temperature caused by IgM, while neutrophil erythrophagocytosis is uncommon and the Donath-Landsteiner test is negative."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA features numerous spherocytes with IgG-positive DAT, and erythrophagocytosis by neutrophils is rare."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH erythrophagocytosis is by marrow histiocytes with cytopenias and high ferritin, not by circulating neutrophils during acute intravascular hemolysis."},
+    {"dx": "In vitro erythrophagocytosis (delayed smear/storage)", "vs": "Artifactual phagocytosis appears in old EDTA samples; a freshly made smear with clinical hemolysis supports a true finding."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

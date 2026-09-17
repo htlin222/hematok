@@ -1,0 +1,20 @@
+{
+  "id": "61939",
+  "recognize_zh": "IgD染色下一個大結節由密集的IgD陽性小B細胞（外套區細胞）構成，陽性細胞從周邊一路侵入中央、只剩淡染的生發中心殘塊，而旁邊的小濾泡外套區則維持環狀，是PTGC的經典免疫染色表現。",
+  "features": [
+    "Large nodule densely populated by IgD-positive small B cells (mantle-zone cells)",
+    "IgD-positive cells extend from the periphery into the center, leaving only pale IgD-negative germinal center remnants",
+    "Adjacent normal-sized follicles show a thin intact IgD-positive mantle ring",
+    "Scattered IgD-positive cells in the interfollicular areas and around vessels"
+  ],
+  "describe_en": "IgD immunostain shows a markedly enlarged nodule densely populated by IgD-positive small mantle B cells that extend from the periphery into the center, fragmenting the IgD-negative germinal center. Nearby follicles retain a thin circumferential IgD-positive mantle zone around their germinal centers. The infiltration of an enlarged germinal center by IgD-positive mantle cells is characteristic of progressive transformation of germinal centers.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "NLPHL nodules also contain IgD+ small B cells but harbor scattered large LP cells with CD20/OCT2/BOB1 expression and PD1+ T-cell rosettes, and replace the node diffusely."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL mantle cells are IgD-positive too but are cyclin D1/SOX11-positive, CD5-positive and monotypic, forming expanded mantles or diffuse sheets."},
+    {"dx": "Follicular lymphoma", "vs": "FL follicles have attenuated or absent IgD+ mantles and BCL2+ germinal centers rather than mantle cells infiltrating the center."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: IgD",
+  "match": "consistent",
+  "high_yield": true
+}

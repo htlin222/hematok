@@ -1,0 +1,21 @@
+{
+  "id": "62042",
+  "recognize_zh": "低倍免疫染色（紅色色原）顯示一片界線不清、斜向分佈的陽性細胞聚集區，周圍則是較疏散的陽性細胞，整體結節邊界模糊；這種不規則、擴散的分佈可對應 NLPHL 變異型態，但抗原未標示，需配合其他染色判讀。",
+  "features": [
+    "Low-power field of a lymphoid proliferation with a poorly circumscribed, band-like aggregate of densely positive cells",
+    "Positive cells are small to medium-sized with membranous/cytoplasmic red chromogen",
+    "Numerous scattered positive cells extend into the surrounding negative lymphoid background",
+    "No well-formed, sharply delineated nodules in this field",
+    "Individual large-cell morphology cannot be assessed at this magnification"
+  ],
+  "describe_en": "Low-power immunohistochemical stain (red chromogen; antigen not labeled) of a lymph node shows an irregular, poorly delineated aggregate of positive small to medium-sized cells with numerous positive cells scattered in the surrounding lymphoid tissue. Distinct, well-formed nodules are not apparent in this field. In the context of nodular lymphocyte-predominant Hodgkin lymphoma, the ill-defined, expansile distribution may reflect a variant growth pattern; cytologic detail is not resolvable at this magnification, and interpretation depends on the antigen and the companion stains of the referenced case.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive follicles have sharply demarcated germinal centers with intact mantle zones, whereas this field shows an ill-defined, disrupted aggregate."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL lacks residual small-B-cell nodules and FDC meshworks; loss of all nodular B-cell compartments would favor THRLBCL over variant NLPHL."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC forms large but round, well-defined nodules without atypical LP cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antigen not labeled (red chromogen)",
+  "match": "partial",
+  "high_yield": false
+}

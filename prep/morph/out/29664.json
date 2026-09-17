@@ -1,0 +1,22 @@
+{
+  "id": "29664",
+  "recognize_zh": "胸部 CT 顯示前縱膈腔腫塊（箭頭，A）；細胞學抹片中在小淋巴球背景裡散布大型、雙核或多葉核、具明顯大核仁的 Reed-Sternberg 細胞（B、C），D 圖為染色結果，符合古典型何杰金氏淋巴瘤；結節硬化亞型需組織切片確認。",
+  "features": [
+    "Panel A: contrast CT of the chest with an anterior mediastinal soft-tissue mass (arrow)",
+    "Panels B-C: large binucleate and multilobated cells with abundant basophilic cytoplasm and prominent inclusion-like nucleoli (Reed-Sternberg cells)",
+    "Mirror-image nuclear configuration in the high-power inset (C)",
+    "Background of numerous small lymphocytes with scattered granulocytes",
+    "Panel D: single large cell with brown chromogenic staining of uncertain antigen at this resolution"
+  ],
+  "describe_en": "Composite figure. Chest CT (A) demonstrates an anterior mediastinal mass. The cytologic preparation (B, C; Romanowsky-type stain) shows scattered large binucleate and multilobated cells with abundant cytoplasm and prominent macronucleoli, including classic mirror-image Reed-Sternberg forms, in a background of abundant small lymphocytes. Panel D shows chromogenic staining of a large cell, but the antigen and pattern cannot be reliably assessed at this resolution. Findings are consistent with classic Hodgkin lymphoma; the nodular sclerosis subtype requires histology showing collagen bands and lacunar cells, with CD30+/CD15+/PAX5-weak immunophenotype.",
+  "ddx": [
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL shows sheets of large cells with clear cytoplasm and strong CD20/CD79a with CD23 and MAL, rather than scattered RS cells in a lymphocyte-rich background."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL hallmark cells have horseshoe/kidney-shaped nuclei, grow cohesively and are CD30+ with T-cell antigens, often ALK+, and CD15/PAX5 negative."},
+    {"dx": "Thymoma or thymic carcinoma", "vs": "Thymic tumors show cohesive keratin-positive epithelial cells, and the lymphocytes in thymoma are TdT-positive immature T cells."},
+    {"dx": "Mediastinal germ cell tumor (seminoma)", "vs": "Seminoma cells are large with clear cytoplasm in a tigroid background, and express OCT4, SALL4 and CD117 rather than CD30/CD15."}
+  ],
+  "specimen": "other",
+  "stain": "Romanowsky-type cytology; CT; chromogenic stain (D)",
+  "match": "consistent",
+  "high_yield": true
+}

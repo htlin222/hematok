@@ -1,0 +1,22 @@
+{
+  "id": "60907",
+  "recognize_zh": "骨髓切片骨小樑增厚不規則，骨小樑旁為纖維化基質且造血細胞稀少，高倍可見骨表面成排的造骨細胞與多核蝕骨細胞；流式圖中標示的 CD56 陽性、高散射「osteoblasts」族群，結合腎病背景提示腎性骨病變（副甲狀腺機能亢進）造成的繼發性骨髓纖維化。",
+  "features": [
+    "PB: normocytic red cells with mild anisopoikilocytosis and an occasional polychromatic cell (arrow), neutrophils present",
+    "BM biopsy low power: thickened, irregular, scalloped bony trabeculae with paratrabecular and intertrabecular fibrosis and reduced hematopoiesis",
+    "High power: rimming of bone surfaces by plump osteoblasts (green arrow) and osteoclastic activity (blue arrow) within fibrous stroma",
+    "Aspirate inset: osteoblast with eccentric nucleus and abundant blue cytoplasm with pale area away from the nucleus",
+    "Flow cytometry: cluster labeled osteoblasts with high scatter and CD56 expression, CD45 negative"
+  ],
+  "describe_en": "Peripheral blood smear shows mild anisopoikilocytosis with an occasional polychromatophilic red cell. The bone marrow core biopsy demonstrates thickened, irregular bony trabeculae with scalloped surfaces, prominent paratrabecular fibrosis and diminished hematopoietic tissue. At higher power, bone surfaces are lined by activated osteoblasts with associated osteoclasts, reflecting increased bone remodeling, and osteoblasts are also seen on the aspirate. Flow cytometry identifies a CD45-negative, CD56-positive population with high scatter consistent with osteoblasts rather than neoplastic cells. Findings are consistent with secondary myelofibrosis due to renal osteodystrophy (osteitis fibrosa related to hyperparathyroidism).",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows clustered atypical cloud-like megakaryocytes with JAK2/CALR/MPL mutation, whereas here fibrosis is paratrabecular with osteoblast/osteoclast activation and no megakaryocytic atypia."},
+    {"dx": "Metastatic carcinoma with desmoplasia", "vs": "Metastatic tumor forms cohesive keratin-positive clusters, while the CD56-positive cells here are osteoblasts lining bone."},
+    {"dx": "Plasma cell myeloma with CD56 expression", "vs": "Myeloma cells are CD38/CD138 bright with light-chain restriction, whereas osteoblasts are CD45 negative, CD38 negative/dim and rim trabeculae."},
+    {"dx": "Paget disease of bone", "vs": "Paget disease shows mosaic cement lines and giant osteoclasts without the renal/hyperparathyroid clinical context."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

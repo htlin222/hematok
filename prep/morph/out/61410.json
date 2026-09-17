@@ -1,0 +1,20 @@
+{
+  "id": "61410",
+  "recognize_zh": "CD20 染色低倍（40x）可見大型、彼此融合的結節被纖維帶分隔，結節內幾乎所有細胞陽性；高倍（400x）為大細胞強烈膜狀陽性，符合 IRF4 重組大B細胞淋巴瘤常見的結節/濾泡樣生長與 B 細胞表型。",
+  "features": [
+    "Low power (40x): large, expansile, back-to-back nodules separated by fibrous bands",
+    "Nodules composed almost entirely of CD20-positive cells; interfollicular/septal areas contain scattered positive cells",
+    "High power (400x): diffuse strong, complete membranous CD20 staining in medium to large cells",
+    "Cells tightly packed with little intervening stroma except small vessels"
+  ],
+  "describe_en": "CD20 immunohistochemistry at low power highlights large, confluent nodules separated by fibrous septa, with virtually all cells within the nodules positive. At high power, the neoplastic medium to large cells show strong, complete membranous CD20 staining. The nodular (follicular-like) pattern with sheets of CD20-positive large cells, in the appropriate context of strong MUM1/IRF4 expression and IRF4 rearrangement, is consistent with large B-cell lymphoma with IRF4 rearrangement.",
+  "ddx": [
+    {"dx": "Follicular lymphoma, grade 3B / pediatric-type follicular lymphoma", "vs": "Pediatric-type FL lacks strong MUM1 and IRF4 rearrangement, and FL3B lacks IRF4 breaks; CD20 alone cannot separate them, requiring MUM1 IHC and IRF4 FISH."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive follicles have polarized germinal centers with tingible-body macrophages, intact mantle zones and BCL2-negative germinal center cells rather than confluent CD20+ large-cell nodules."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL NOS in adults usually grows diffusely and lacks IRF4 rearrangement, which is detected only by FISH."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

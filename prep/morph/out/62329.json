@@ -1,0 +1,23 @@
+{
+  "id": "62329",
+  "recognize_zh": "周邊血抹片中有大量中至大型淋巴樣細胞，細胞質淡藍且量中等、邊緣不規則略呈毛絨狀突起，核圓至卵圓、染色質中度凝集並常見一個明顯中央核仁（類前淋巴球 prolymphocyte-like），提示 B 細胞淋巴瘤周邊血侵犯，如邊緣區淋巴瘤。",
+  "features": [
+    "Numerous medium to large lymphoid cells, about 2 times the diameter of adjacent red cells",
+    "Moderate N:C ratio with moderate pale blue-gray cytoplasm",
+    "Irregular, focally shaggy cytoplasmic borders with short projections, often polar rather than circumferential",
+    "Round to oval nuclei, some slightly indented, with moderately condensed chromatin",
+    "Single distinct central nucleolus in many cells (prolymphocyte-like)",
+    "Red cells unremarkable; no smudge cells or granular lymphocytes evident"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked population of medium to large atypical lymphoid cells. The cells have moderate amounts of pale blue-gray cytoplasm with irregular, focally shaggy borders and short, partly polar projections, and round to oval nuclei with moderately condensed chromatin and a single distinct nucleolus in many cells. Background red cells are unremarkable. The morphology is that of circulating prolymphocyte-like B cells; in the context of the known diagnosis, findings are consistent with leukemic involvement by marginal zone lymphoma, with flow cytometry needed to exclude hairy cell leukemia and its variants.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia", "vs": "HCL cells have circumferential fine hairy projections, oval or bean-shaped nuclei with homogeneous chromatin and usually no nucleolus, with CD11c/CD25/CD103/CD123 and BRAF V600E positivity."},
+    {"dx": "Splenic B-cell lymphoma/leukemia with prominent nucleoli (HCL variant)", "vs": "This entity combines villous cytoplasm with a prominent nucleolus similar to these cells, but is CD25-negative/CD103-positive, whereas SMZL is typically CD103-negative and CD25 variable."},
+    {"dx": "Mantle cell lymphoma, leukemic (pleomorphic/blastoid)", "vs": "MCL cells have scant cytoplasm without villous projections and are CD5-positive with cyclin D1/SOX11 expression and t(11;14)."},
+    {"dx": "Chronic lymphocytic leukemia with increased prolymphocytes", "vs": "CLL shows small mature lymphocytes with clumped chromatin, scant cytoplasm and smudge cells, with a CD5+/CD23+/dim sIg phenotype."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

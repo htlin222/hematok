@@ -1,0 +1,22 @@
+{
+  "id": "65464",
+  "recognize_zh": "周邊血抹片中有數顆中等大小的芽細胞，染色質細緻、細胞質灰藍色無顆粒；黑色箭頭處細胞質向外伸出偽足狀突起，紅色箭頭處細胞膜下方有一排小空泡，像一串珍珠（string of pearls）。這兩個細胞質特徵在 BPDCN 的芽細胞中常見。",
+  "features": [
+    "Medium-sized blasts with high N:C ratio, round to slightly irregular nuclei and fine chromatin",
+    "Scant grey-blue, agranular cytoplasm",
+    "Tail-like cytoplasmic pseudopod/protrusion (black arrow)",
+    "Row of small submembranous cytoplasmic microvacuoles producing a string-of-pearls pattern (red arrow)",
+    "Background red cells show rouleaux-like stacking; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating medium-sized blasts with high N:C ratio, finely dispersed chromatin and scant grey-blue agranular cytoplasm. One blast shows a pseudopod-like cytoplasmic extension, and another shows a row of small submembranous vacuoles in a string-of-pearls arrangement; granules and Auer rods are not seen. Red cells show focal rouleaux-like stacking and platelets are present. The morphology is suggestive of blastic plasmacytoid dendritic cell neoplasm, which requires confirmation by flow cytometry (CD4, CD56, CD123, TCF4/TCL1).",
+  "ddx": [
+    {"dx": "Acute monoblastic leukemia", "vs": "Monoblasts have more abundant cytoplasm, sometimes fine granules or vacuoles and are NSE/CD14/CD64 positive, while BPDCN blasts are agranular and CD123-bright."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are TdT and B/T lineage positive and usually lack the submembranous microvacuoles and pseudopods."},
+    {"dx": "AML with minimal differentiation", "vs": "AML-M0 blasts are CD34/CD117/CD13 positive and CD123-dim, not CD4+/CD56+/bright CD123 with lineage-negative profile."},
+    {"dx": "Large granular lymphocytes or NK-cell leukemia", "vs": "NK cells show azurophilic granules and express CD2/CD7/cCD3ε, which BPDCN blasts lack."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

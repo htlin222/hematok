@@ -1,0 +1,23 @@
+{
+  "id": "65245",
+  "recognize_zh": "骨髓抹片與切片幾乎被大量顆粒稀少、核圓偏心的骨髓細胞（myelocyte）佔滿，成熟分葉中性球很少，呈「停滯在 myelocyte 階段」的樣貌；MPO 瀰漫陽性、p53 多數核陽性，但 CD34 陽性芽細胞只是散在少數，末梢血則可見芽細胞與異常顆粒球。",
+  "features": [
+    "PB (A): scattered blasts with fine chromatin and scant basophilic cytoplasm plus dysplastic hypogranular myelocytes/granulocytes; thrombocytopenia",
+    "Aspirate (B): sheets of intermediate-sized myelocytes with round to oval eccentric nuclei, clumped chromatin, and hypogranular pale-blue to pink cytoplasm; few mature neutrophils",
+    "Biopsy H&E (C): hypercellular marrow packed with monotonous myeloid cells with eosinophilic cytoplasm, scattered erythroid precursors",
+    "MPO (D): strong diffuse cytoplasmic positivity in the myelocyte population",
+    "p53 (E): strong nuclear staining in a large proportion (~80%) of cells",
+    "CD34 (F): only scattered positive blasts and vessels"
+  ],
+  "describe_en": "The peripheral blood smear shows circulating blasts and left-shifted, dysplastic hypogranular granulocytes with thrombocytopenia. The bone marrow aspirate and biopsy are markedly hypercellular and effaced by sheets of dysplastic myelocytes with round eccentric nuclei and hypogranular cytoplasm, with a paucity of maturing band and segmented neutrophils (maturation arrest at the myelocyte stage). Immunohistochemistry shows diffuse MPO positivity, strong nuclear p53 in a large majority of cells, and only a minor population of CD34-positive blasts. With peripheral blood blasts exceeding 20% and the molecular findings (STAG2, SRSF2, ASXL1, RUNX1 mutations, no TP53 mutation), the findings are consistent with acute myeloid leukemia, myelodysplasia-related, with dysplastic myelocyte arrest and wild-type p53 overexpression.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a full spectrum of maturation with myelocyte and segmented neutrophil peaks plus basophilia, rather than arrest at the myelocyte stage with dysplasia, and is BCR::ABL1-positive."},
+    {"dx": "Atypical CML / MDS/MPN with neutrophilia", "vs": "aCML has dysgranulopoiesis with left shift but fewer than 20% blasts and retained maturation to dysplastic neutrophils, often with SETBP1/ASXL1 mutations."},
+    {"dx": "AML with maturation or promyelocyte-rich AML (APL)", "vs": "APL cells are hypergranular promyelocytes with Auer rods and bilobed nuclei and are CD34/HLA-DR-negative with PML::RARA, unlike these hypogranular myelocytes."},
+    {"dx": "TP53-mutated myeloid neoplasm", "vs": "Strong p53 in ~80% of cells mimics TP53 mutation, but sequencing showed wild-type TP53, so p53 IHC must be correlated with molecular testing."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "May-Grünwald-Giemsa, H&E, IHC: MPO, p53, CD34",
+  "match": "consistent",
+  "high_yield": false
+}

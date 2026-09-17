@@ -1,0 +1,21 @@
+{
+  "id": "61720",
+  "recognize_zh": "骨髓切片 CD123 免疫染色：大量中型腫瘤細胞呈細胞膜及顆粒狀胞質棕色陽性，陽性細胞成片分布於脂肪空隙之間，另夾雜陰性小細胞；廣泛強陽性 CD123 是 BPDCN 的關鍵標記。",
+  "features": [
+    "Numerous intermediate-sized cells with membranous and granular cytoplasmic CD123 staining",
+    "Positive cells arranged in confluent sheets and clusters between adipocytes",
+    "Interspersed CD123-negative cells with small round blue nuclei",
+    "Round to oval tumor nuclei with fine chromatin on counterstain",
+    "Staining intensity moderate to strong and relatively uniform within the positive population"
+  ],
+  "describe_en": "Immunohistochemical stain for CD123 on a bone marrow biopsy shows membranous and granular cytoplasmic positivity in numerous intermediate-sized neoplastic cells arranged in confluent sheets between adipocytes. Interspersed smaller hematopoietic cells are negative. Strong and extensive CD123 expression, together with CD4, CD56 and TCF4 or TCL1, is a key diagnostic feature of blastic plasmacytoid dendritic cell neoplasm. Findings support marrow involvement by BPDCN in the appropriate immunophenotypic context.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with CD123 expression", "vs": "CD123 is expressed in many AMLs, but usually with weaker or partial staining and accompanying MPO, CD34 or CD117, without TCF4/TCL1 and CD56 co-expression."},
+    {"dx": "Mature plasmacytoid dendritic cell proliferation associated with CMML/AML", "vs": "These form small CD123+ nodules of mature pDCs that are CD56-negative and have low Ki-67, rather than sheets replacing the marrow."},
+    {"dx": "Systemic mastocytosis", "vs": "Mast cells can be CD123-weak but are spindled with CD117/tryptase/CD25 positivity."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD123",
+  "match": "consistent",
+  "high_yield": false
+}

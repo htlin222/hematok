@@ -1,0 +1,21 @@
+{
+  "id": "63149",
+  "recognize_zh": "低溫下製作的周邊血抹片中，紅血球聚成大小不一、不規則的立體團塊（箭頭），不是呈直線堆疊的錢串狀，而其間仍有單顆紅血球，這是冷凝集素造成的紅血球凝集。",
+  "features": [
+    "Numerous large irregular three-dimensional clumps of red cells (agglutinates), arrow",
+    "Agglutinates have irregular, grape-like borders rather than linear coin-stack arrangement",
+    "Interspersed single red cells, some small and dense",
+    "Two neutrophils with normal morphology",
+    "Scattered platelets in the background"
+  ],
+  "describe_en": "Peripheral blood smear prepared at low temperature (about 7 degrees C) shows extensive red cell agglutination, with numerous large irregular three-dimensional clumps of red cells (arrow) interspersed with single cells. The aggregates are irregular rather than linear, arguing against rouleaux. Leukocytes and platelets appear unremarkable. Findings are consistent with red cell agglutination due to a cold-reactive autoantibody (cold agglutinin); this can cause spuriously elevated MCV and MCHC with low red cell count on automated analyzers, which correct when the sample is warmed to 37 degrees C.",
+  "ddx": [
+    {"dx": "Rouleaux formation", "vs": "Rouleaux are linear stacks of red cells resembling coins, whereas agglutinates are irregular clumps that disperse on warming rather than with saline dilution."},
+    {"dx": "Warm autoimmune hemolytic anemia with agglutination", "vs": "Warm AIHA agglutination persists at 37 degrees C and is associated with IgG-positive DAT and spherocytes."},
+    {"dx": "Thick-area smear artifact", "vs": "Crowding in the thick part of a smear shows overlapping cells uniformly without clear intervening spaces, while true agglutinates are discrete clumps separated by free cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

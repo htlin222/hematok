@@ -1,0 +1,22 @@
+{
+  "id": "63495",
+  "recognize_zh": "這是加顯影劑的腹部電腦斷層軸切面：肝左葉有一個邊界不規則、比周圍肝實質稍低密度的大腫塊，影像上有兩條交叉量測線標示其大小；影像無法判斷組織型態，需切片確認（本例為瀰漫性大 B 細胞淋巴瘤）。",
+  "features": [
+    "Axial contrast-enhanced CT of the upper abdomen",
+    "Large, relatively hypoattenuating, ill-defined mass in the left hepatic lobe with measurement calipers",
+    "Mass bulges the anterior liver contour and abuts the stomach",
+    "Stomach contains oral contrast; kidneys, spine, and aorta are unremarkable in this slice",
+    "No calcification or obvious fluid-filled cystic component visible"
+  ],
+  "describe_en": "Axial contrast-enhanced CT image of the abdomen shows a large, ill-defined, mildly hypoattenuating mass in the left lobe of the liver, marked by measurement calipers (reported as 10 x 7.9 cm). The mass expands the anterior liver contour and abuts the stomach. No calcification or cystic change is evident on this slice. This is a radiologic image without morphologic features; imaging cannot distinguish lymphoma from other hepatic masses, and tissue biopsy (here showing diffuse large B-cell lymphoma, germinal center type) is required.",
+  "ddx": [
+    {"dx": "Hepatocellular carcinoma", "vs": "Typically shows arterial phase hyperenhancement with portal venous washout and a capsule in a cirrhotic liver, often with elevated AFP."},
+    {"dx": "Metastatic carcinoma", "vs": "Usually multiple lesions with rim enhancement and a known primary, and biopsy shows keratin-positive epithelial cells."},
+    {"dx": "Intrahepatic cholangiocarcinoma", "vs": "Often shows delayed enhancement with capsular retraction and biliary dilatation, and biopsy shows CK7+ adenocarcinoma."},
+    {"dx": "Hepatic abscess", "vs": "Shows a rim-enhancing fluid collection with clinical features of infection rather than a solid homogeneous mass."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61538",
+  "recognize_zh": "紅色箭頭所指的是一顆顆粒狀紫色、大小接近紅血球的巨大血小板（giant platelet），左側另有一顆更大的紫色顆粒狀物體；背景散布許多小血小板與顆粒碎屑，提醒自動計數可能低估血小板數。",
+  "features": [
+    "Giant platelet (red arrow) approaching the diameter of an adjacent red cell, with purple granular centre and paler hyalomere",
+    "Second large granular purple platelet-sized body at left of field",
+    "Numerous normal-sized platelets and small platelet aggregates overlying and between red cells",
+    "Red cells are crowded and partly crenated (drying artifact); no nucleated red cells or schistocytes evident",
+    "No leukocyte inclusions (Döhle-like bodies) assessable in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells with focal crenation and numerous normal-sized platelets with small aggregates. A giant platelet (red arrow) approaching the size of a red cell is present, with a granular purple granulomere; another large granular platelet is seen at left. Leukocytes are not present in this field for assessment of inclusions. Findings demonstrate large/giant platelets, which can cause automated analyzers to under-count platelets (pseudothrombocytopenia); correlation with a smear-based platelet estimate is recommended.",
+  "ddx": [
+    {"dx": "Small lymphocyte", "vs": "A lymphocyte has a dense round nucleus with a rim of blue cytoplasm, whereas a giant platelet has no nucleus and shows purple granules within a pale gray-blue hyalomere."},
+    {"dx": "MYH9-related disorder (May-Hegglin anomaly)", "vs": "MYH9 disorders show giant platelets together with Döhle-like blue inclusions in neutrophils, which need to be sought in leukocytes on the smear."},
+    {"dx": "Bernard-Soulier syndrome", "vs": "BSS shows giant platelets with true thrombocytopenia and absent ristocetin agglutination/CD42b expression, whereas this case had a normal manual count."},
+    {"dx": "Platelet clumping (EDTA-induced)", "vs": "Clumps are aggregates of many normal-sized platelets, usually at the feathered edge, rather than single enlarged platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

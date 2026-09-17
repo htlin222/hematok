@@ -1,0 +1,22 @@
+{
+  "id": "63817",
+  "recognize_zh": "拼圖上排是周邊血片：低倍可見白血球極度增多，從骨髓球、後骨髓球到分葉嗜中性球各階段都有，高倍可見一顆顆粒深紫、遮住核的嗜鹼性球，符合慢性骨髓性白血病（CML）慢性期；下排為胸部 X 光的球形擴大心影、病人臉部與心包膜引流管照片，對應 Sanjad-Sakati 症候群與後續心包膜積液。",
+  "features": [
+    "Low-power blood smear (top right): marked leukocytosis with the full spectrum of granulocytic maturation including myelocytes, metamyelocytes, bands and segmented neutrophils, and clusters of cells",
+    "High-power blood smear (top left): basophil with coarse dark purple granules obscuring the nucleus, with adjacent myelocytes at the edge",
+    "No obvious excess of blasts in the smear fields shown; a platelet aggregate is present",
+    "Chest radiograph: enlarged globular cardiac silhouette with overlying lines/leads",
+    "Clinical photographs: patient face (eyes masked) and abdomen with a subxiphoid drainage catheter and dressing"
+  ],
+  "describe_en": "Composite figure. Peripheral blood smears show marked leukocytosis composed of granulocytes at all stages of maturation, with conspicuous myelocytes and metamyelocytes, and a basophil at high power; blasts are not increased in the fields shown. These blood findings are consistent with chronic myeloid leukemia in chronic phase, in keeping with the reported t(9;22) BCR::ABL1 detection. The accompanying chest radiograph shows a globular enlarged cardiac silhouette, and the clinical photographs show the patient and a subxiphoid pericardial drain, correlating with the reported pericardial effusion and tamponade during imatinib therapy.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "A leukemoid reaction shows neutrophilia with toxic granulation and a left shift dominated by bands and metamyelocytes, without absolute basophilia, a myelocyte peak or BCR::ABL1."},
+    {"dx": "Atypical CML (MDS/MPN with neutrophilia)", "vs": "Atypical CML shows prominent granulocytic dysplasia without significant basophilia and is BCR::ABL1 negative, often with SETBP1 or ASXL1 mutations."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL has mature neutrophils with fewer than 10% circulating precursors, no basophilia, and a CSF3R mutation rather than t(9;22)."},
+    {"dx": "CML in blast phase", "vs": "Blast phase requires ≥20% blasts in blood or marrow or an extramedullary blast proliferation, which is not seen in these smear fields."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (smears); N/A (radiograph and photos)",
+  "match": "partial",
+  "high_yield": true
+}

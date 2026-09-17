@@ -1,0 +1,23 @@
+{
+  "id": "63325",
+  "recognize_zh": "四格抹片中以箭頭標出：綠箭頭為胞質一側呈空泡狀的水泡細胞（blister cells），粉紅箭頭為小而無中央淡染的微球形細胞（microspherocytes），紫箭頭為碎片細胞（schistocyte），藍箭頭為多染性紅血球，紅箭頭為有核紅血球；合併起來是 COVID-19 相關 DIC 的紅血球變化。",
+  "features": [
+    "Marked anisopoikilocytosis",
+    "Numerous blister cells: red cells with hemoglobin retracted to one side leaving a clear membrane vesicle (green arrows)",
+    "Microspherocytes: small dense red cells lacking central pallor (pink arrows)",
+    "Occasional schistocytes/fragmented red cells (purple arrow)",
+    "Polychromatophilic macrocytes (blue arrows) and a nucleated red blood cell (red arrow)",
+    "Leukocytes including neutrophils and a monocyte; platelets present but not markedly clumped"
+  ],
+  "describe_en": "Composite peripheral blood smear (panels A-D) shows marked anisopoikilocytosis. There are numerous blister cells with eccentric hemoglobin retraction and clear membrane vesicles, together with microspherocytes, occasional schistocytes, polychromatophilic red cells and a nucleated red blood cell. Neutrophils and a monocyte are present. The combination of fragmented red cells and microspherocytes is consistent with microangiopathic/consumptive hemolysis in COVID-19-associated disseminated intravascular coagulation; the prominence of blister cells should prompt exclusion of oxidant injury such as G6PD deficiency.",
+  "ddx": [
+    {"dx": "G6PD deficiency hemolytic crisis", "vs": "Oxidant hemolysis shows blister and bite cells with Heinz bodies on supravital stain and few true schistocytes, with low G6PD activity."},
+    {"dx": "Thrombotic thrombocytopenic purpura", "vs": "TTP shows schistocytes with severe thrombocytopenia but normal PT/aPTT and ADAMTS13 activity below 10%."},
+    {"dx": "Hereditary spherocytosis or warm AIHA", "vs": "These show spherocytes without schistocytes or blister cells and have normal coagulation studies."},
+    {"dx": "Keratocytes (horn cells)", "vs": "Keratocytes have paired horn-like projections from a ruptured vesicle, whereas blister cells retain an intact clear vesicle."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

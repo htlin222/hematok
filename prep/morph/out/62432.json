@@ -1,0 +1,21 @@
+{
+  "id": "62432",
+  "recognize_zh": "Ki-67 免疫染色中幾乎每一個腫瘤細胞核都呈棕色陽性，只有少數藍色背景細胞為陰性，增殖指數接近 100%；配合中型單形 B 細胞形態，是伯奇氏淋巴瘤（Burkitt lymphoma）的典型表現。",
+  "features": [
+    "Diffuse nuclear Ki-67 staining in virtually all tumor cells (proliferation index ~100%)",
+    "Monotonous population of medium-sized round nuclei",
+    "Only rare negative (hematoxylin-counterstained) cells, mainly stromal/background",
+    "Diffuse sheet-like architecture without nodularity",
+    "No cytoplasmic or membranous staining (appropriate nuclear pattern)"
+  ],
+  "describe_en": "Ki-67 immunohistochemistry shows diffuse, strong nuclear staining in a monotonous sheet of medium-sized tumor cells. The proliferation index is estimated at approximately 100%, with only rare unstained background cells. The staining pattern is nuclear and uniform across the field without a zonal or nodular distribution. In the context of a CD10+/BCL6+/BCL2-negative mature B-cell neoplasm with MYC rearrangement, the findings are consistent with Burkitt lymphoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL usually has a Ki-67 index well below 90% with more heterogeneous staining, larger cells, and often BCL2 expression."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Proliferation can also be very high, so separation requires BCL2 expression and FISH for BCL2 (and BCL6) rearrangement."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "Lymphoblasts have finer blastic chromatin and express TdT and CD34 while lacking surface immunoglobulin, despite a high Ki-67."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Ki-67",
+  "match": "consistent",
+  "high_yield": true
+}

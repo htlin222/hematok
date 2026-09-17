@@ -1,0 +1,21 @@
+{
+  "id": "1176",
+  "recognize_zh": "骨髓抽吸液滿是大小一致、核圓、染色質細緻的母細胞，僅零星散在帶粗顆粒的細胞，幾乎看不到分葉核或桿狀核顆粒球；母細胞壓倒性地多且缺乏成熟，符合無成熟的 AML。",
+  "features": [
+    "Sheets of intermediate-sized blasts dominating the field",
+    "High N:C ratio, round nuclei with fine chromatin and scant basophilic cytoplasm",
+    "Most blasts agranular; scattered cells contain coarse azurophilic granules",
+    "Near absence of maturing myelocytes, bands and segmented neutrophils",
+    "Few erythroid precursors; background red cells without other notable features"
+  ],
+  "describe_en": "Bone marrow aspirate smear is hypercellular and composed of sheets of intermediate-sized blasts with high nuclear-to-cytoplasmic ratios, round nuclei, fine chromatin and scant basophilic cytoplasm. Most blasts are agranular, although a minority of cells contain coarse azurophilic granules. Maturing granulocytic forms beyond the promyelocyte stage are virtually absent, and erythroid and megakaryocytic elements are markedly reduced. Findings are consistent with acute myeloid leukemia without maturation; MPO cytochemistry or flow cytometry is needed to confirm myeloid lineage.",
+  "ddx": [
+    {"dx": "AML with maturation", "vs": "Requires >=10% maturing granulocytic cells, which are not seen in this blast-dominated field."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells are hypergranular with bilobed or folded nuclei and Auer rod bundles, whereas most cells here are round-nucleated agranular blasts."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "The granulated subset favors myeloid lineage, but agranular blasts cannot be separated from lymphoblasts without MPO and flow cytometry."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "63871",
+  "recognize_zh": "中央幾顆漿細胞（偏心核、細胞質深藍）的細胞質中可見成束交錯、細長針狀的紫紅色結晶包涵體，形似 Auer rods，但出現在漿細胞而非母細胞，即骨髓瘤中的假 Auer 桿（pseudo-Auer rods）。",
+  "features": [
+    "Plasma cells with eccentric nuclei, clumped chromatin and abundant deep blue cytoplasm",
+    "Bundles of thin, needle-like azurophilic (purple-red) crystalline rods within the cytoplasm, some crossing in haystack fashion",
+    "Other plasma cells with finer scattered azurophilic granules or rods",
+    "Admixed myelocytes, a band neutrophil and erythroid precursors in a marrow aspirate background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of plasma cells with eccentric nuclei, coarse chromatin and abundant deeply basophilic cytoplasm. Several plasma cells contain bundles of slender, needle-shaped azurophilic crystalline inclusions resembling Auer rods, arranged singly or in crossing haystack-like bundles. Adjacent maturing granulocytes and erythroid precursors lack such inclusions. These represent immunoglobulin or lysosomal crystalline inclusions in neoplastic plasma cells. Findings are consistent with plasma cell myeloma with pseudo-Auer rods.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia (faggot cells)", "vs": "Faggot cells are promyelocytes with bilobed nuclei and heavy granules, whereas these rods lie in plasma cells with eccentric nuclei and basophilic cytoplasm; CD138/light chain restriction confirms plasma cell origin."},
+    {"dx": "AML with Auer rods", "vs": "True Auer rods occur in myeloblasts with fine chromatin and nucleoli and are MPO-positive, while pseudo-Auer rods in myeloma are MPO-negative."},
+    {"dx": "Crystal-storing histiocytosis", "vs": "Crystals accumulate in histiocytes with bland oval nuclei and pale abundant cytoplasm rather than in plasma cells."},
+    {"dx": "Gaucher-like pseudo-Gaucher cells", "vs": "Pseudo-Gaucher cells are macrophages with wrinkled tissue-paper cytoplasm, not plasma cells with discrete rods."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

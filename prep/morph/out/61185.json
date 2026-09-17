@@ -1,0 +1,22 @@
+{
+  "id": "61185",
+  "recognize_zh": "周邊血紅血球大小與血色大致正常，散佈數個表面有棘狀突起的刺狀紅血球，另見一個小淋巴球；標題所述的標靶細胞在此視野中不易明確辨認，形態本身並不特異，需搭配 HPLC 判讀血紅素變異。",
+  "features": [
+    "Red cells are predominantly normocytic and normochromic with normal density on the film",
+    "Scattered spiculated red cells; most have fairly regular short projections resembling echinocytes, a few with irregular spicules (acanthocyte-like)",
+    "Target cells are not convincingly identified in this field",
+    "One small mature lymphocyte; platelets are adequate and of normal size",
+    "No microcytosis, hypochromia, basophilic stippling or nucleated red cells evident"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells of normal density that are largely normocytic and normochromic. Scattered spiculated red cells are present, most with regular short projections more in keeping with echinocytes, and a few with irregular spicules resembling acanthocytes; target cells are not convincingly seen in this field. A small lymphocyte and adequate platelets are present. The morphology is nonspecific and does not by itself indicate a hemoglobinopathy; correlation with the HPLC finding of a large peak in the HbA2 window is required.",
+  "ddx": [
+    {"dx": "In vitro crenation (storage or drying artifact)", "vs": "Artifactual echinocytes are evenly distributed with regular spicules and disappear on a fresh smear, unlike true acanthocytes with irregular spicules."},
+    {"dx": "Beta-thalassemia trait", "vs": "Beta-thalassemia trait shows microcytosis, hypochromia, target cells and stippling with HbA2 only 3.5-8%, not normocytic cells with a >40% peak."},
+    {"dx": "Hemoglobin E trait", "vs": "HbE trait has near-normal morphology with mild microcytosis and target cells, and its variant co-elutes in the HbA2 window on HPLC."},
+    {"dx": "Acanthocytosis from liver disease or abetalipoproteinemia", "vs": "These produce numerous dense acanthocytes with irregular spicules rather than occasional crenated cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "61963",
+  "recognize_zh": "Granzyme B染色可見多個中大型細胞的細胞質呈顆粒狀棕色陽性，陽性顆粒聚集於核周，而多數小細胞為陰性；表示腫瘤細胞帶有細胞毒性表型，常見於ALCL。",
+  "features": [
+    "Coarse granular cytoplasmic granzyme B staining in scattered intermediate-to-large cells",
+    "Granules concentrated in a perinuclear distribution",
+    "Variable proportion of positive cells with many negative cells",
+    "Fine dot-like extracellular granular background staining"
+  ],
+  "describe_en": "Granzyme B immunostain shows coarse granular cytoplasmic staining in a subset of intermediate-to-large cells, often perinuclear, with many cells negative. The granular pattern is characteristic of cytotoxic granule protein expression. Expression of cytotoxic markers supports a T-cell (cytotoxic) phenotype in anaplastic large cell lymphoma, which is useful when pan-T-cell antigens are lost.",
+  "ddx": [
+    {"dx": "Reactive cytotoxic T cells or NK cells", "vs": "Reactive cytotoxic cells are small and few, whereas positivity in large atypical CD30+ cells indicates neoplastic expression."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "ENKTL is also cytotoxic but is EBER-positive, CD56-positive and angiocentric with necrosis, and CD30 is not uniform."},
+    {"dx": "DUSP22-rearranged ALK-negative ALCL", "vs": "DUSP22-rearranged cases are usually negative for cytotoxic markers, so strong granzyme B favors a non-DUSP22 subtype."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: Granzyme B",
+  "match": "consistent",
+  "high_yield": false
+}

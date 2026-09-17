@@ -1,0 +1,21 @@
+{
+  "id": "61126",
+  "recognize_zh": "這是流式細胞儀圖：CD45/SSC 圖上低 SSC、CD45 陰性的一群為母細胞（28.53%），再以 CD19 圈出 CD19+ 母細胞；後續圖顯示 CD34 陽性、CD38 弱或陰性、CD20 陰性、CD10 大多陰性，並異常表現 CD33 與 CD58，符合 B 淋巴母細胞白血病。",
+  "features": [
+    "CD45 vs side scatter: blast gate with negative CD45 and low SSC comprising 28.53% of live events, distinct from granulocytes (54.20%) and lymphocytes",
+    "CD19 vs CD45: CD19-positive, CD45-negative blasts (27.41%) separated from residual normal CD19+ lymphocytes (0.83%)",
+    "CD19+ blasts: CD20 negative; CD10 largely negative with a partial CD10-positive subset (23.79%)",
+    "CD19+ blasts: CD34 positive with dim to negative CD38 (99.64%)",
+    "CD19+ blasts: uniform CD58 bright and aberrant CD33 co-expression (99.53%)"
+  ],
+  "describe_en": "Flow cytometric analysis demonstrates an abnormal population occupying 28.53% of live events in the CD45-negative, low side scatter region. Sequential gating shows that these events are CD19-positive blasts (27.41%) that are CD34 positive, CD38 dim to negative, CD20 negative, predominantly CD10 negative with a partial CD10-positive subset, and uniformly positive for CD58 with aberrant CD33 expression. Residual normal CD19-positive lymphocytes are few. The immunophenotype is consistent with B-lymphoblastic leukemia; the CD10-negative/partial and myeloid antigen-positive profile warrants cytogenetic and molecular studies (e.g., KMT2A rearrangement, BCR::ABL1-like alterations) and establishes a baseline for measurable residual disease monitoring.",
+  "ddx": [
+    {"dx": "Hematogones (normal B-cell precursors)", "vs": "Hematogones show a continuous maturation spectrum with CD45 dim-to-positive, variable CD34/CD10/CD20 and no aberrant CD33 or uniformly bright CD58."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "MPAL requires MPO positivity or monocytic differentiation, whereas CD33 alone is an insufficient myeloid-lineage criterion."},
+    {"dx": "Acute myeloid leukemia with CD19 expression", "vs": "AML with t(8;21) may express CD19 weakly but is MPO positive, CD13/CD117 positive and usually PAX5 weak, lacking strong B-lineage antigens."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

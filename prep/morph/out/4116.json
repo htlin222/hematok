@@ -1,0 +1,21 @@
+{
+  "id": "4116",
+  "recognize_zh": "兩個巨大的巨噬細胞細胞質內吞入大量有核細胞（紅血球前驅細胞、嗜中性球）與碎屑，周圍散在細胞質豐富、染色質細緻的大型單核母細胞，即急性單核母細胞白血病合併噬血現象。",
+  "features": [
+    "Two large macrophages with abundant pale, foamy/vacuolated cytoplasm engulfing numerous nucleated cells (erythroid precursors, granulocytes) and nuclear debris",
+    "Dark pigment/debris granules within macrophage cytoplasm",
+    "Surrounding large blasts with round nuclei, finely dispersed chromatin and moderate blue-gray cytoplasm (monoblasts)",
+    "Scattered intact RBCs and a few erythrocytes adjacent to macrophages",
+    "Background thick smear area with RBC distortion"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows two large macrophages with abundant vacuolated cytoplasm containing numerous phagocytosed nucleated hematopoietic cells, including erythroid precursors and granulocytes, as well as nuclear debris and pigment. The surrounding cells include large blasts with round nuclei, finely dispersed chromatin and moderate amounts of gray-blue cytoplasm, morphologically consistent with monoblasts. Findings are consistent with hemophagocytosis in the setting of acute monoblastic leukemia; correlation with HLH diagnostic criteria (ferritin, soluble CD25, cytopenias) is recommended.",
+  "ddx": [
+    {"dx": "Leukemic blast with erythrophagocytosis (e.g., AML with t(8;16) KAT6A::CREBBP)", "vs": "In t(8;16) AML the blasts themselves ingest RBCs, whereas here benign macrophages engulf whole nucleated cells."},
+    {"dx": "Infection-associated HLH (EBV, leishmaniasis)", "vs": "Infection-associated HLH lacks the population of monoblasts and may show intracellular organisms such as LD bodies."},
+    {"dx": "Clusters of overlapping cells/smear artifact", "vs": "True hemophagocytosis shows cells entirely enclosed within a single macrophage cytoplasmic boundary."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

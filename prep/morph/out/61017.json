@@ -1,0 +1,22 @@
+{
+  "id": "61017",
+  "recognize_zh": "骨髓抹片中央聚集一群中型、核圓、染色質細緻均勻、細胞質藍染的未成熟細胞，旁有成熟中的骨髓系細胞與小淋巴球；標題為兒童正常造血原細胞（hematogones），但這群細胞的細胞質比典型 hematogone 更多且深藍，形態上也需考慮早期紅血球母細胞，確認須靠流式細胞術。",
+  "features": [
+    "Central cluster of medium-sized immature cells with round nuclei and finely granular, evenly dispersed chromatin",
+    "Moderate rims of deeply basophilic cytoplasm, a few with small vacuoles; nucleoli inconspicuous",
+    "Occasional small cells with dense, homogeneous dark chromatin and scant cytoplasm (lymphocyte/hematogone-like)",
+    "Admixed maturing granulocytic precursors (myelocytes, band neutrophil) and larger cells with grey-blue granular cytoplasm",
+    "Cellular aspirate with erythrocyte background and a ruptured granulated cell at lower right"
+  ],
+  "describe_en": "Bone marrow aspirate smear from a child shows a cellular particle-adjacent field containing a cluster of medium-sized immature mononuclear cells with round nuclei, fine homogeneous chromatin, inconspicuous nucleoli and a variable rim of basophilic cytoplasm, admixed with maturing granulocytic precursors and occasional small mature lymphocytes. The cells lack overt nuclear atypia or prominent nucleoli. Although submitted as hematogones, several cells in this cluster have more abundant, deeply basophilic cytoplasm than classic hematogones and overlap morphologically with early erythroid precursors or blasts. Morphology alone cannot reliably separate hematogones from lymphoblasts; flow cytometry demonstrating a normal, continuous B-cell maturation pattern (CD34/CD10/CD20/CD19) is required for confirmation.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Lymphoblasts form a uniform population with an aberrant, maturation-arrested immunophenotype on flow cytometry, whereas hematogones show a normal continuum of antigen acquisition."},
+    {"dx": "Early erythroid precursors (proerythroblasts/basophilic normoblasts)", "vs": "Erythroid precursors have intensely royal-blue cytoplasm, a perinuclear clear zone and often cytoplasmic blebs, and are CD71/E-cadherin-positive rather than CD19/CD10-positive."},
+    {"dx": "Metastatic small round blue cell tumor (e.g., neuroblastoma)", "vs": "Tumor cells form cohesive clumps or rosettes with nuclear molding and are CD45-negative, unlike dispersed hematopoietic cells."},
+    {"dx": "Myeloblasts (AML)", "vs": "Myeloblasts have visible nucleoli, may contain Auer rods, and are MPO-positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

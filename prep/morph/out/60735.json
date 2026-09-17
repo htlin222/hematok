@@ -1,0 +1,21 @@
+{
+  "id": "60735",
+  "recognize_zh": "抹片中是大量小型、核深染、細胞質極少的淋巴樣細胞，外觀像淋巴球而非典型漿細胞；但骨髓切片的免疫染色呈瀰漫強陽性（包括核染色，符合 cyclin D1），提示為淋巴漿細胞樣形態的漿細胞骨髓瘤。",
+  "features": [
+    "Panel A: numerous small round cells with dense dark chromatin and scant cytoplasm, resembling small lymphocytes",
+    "Panel A: occasional cells with slightly eccentric nuclei and a thin rim of basophilic cytoplasm (lymphoplasmacytoid)",
+    "Panel B: packed marrow infiltrate with diffuse strong membranous/cytoplasmic IHC positivity (marker unlabeled, likely plasma cell marker)",
+    "Panel C: diffuse strong membranous/cytoplasmic staining of the infiltrate with a second marker (unlabeled)",
+    "Panel D: nuclear staining in most infiltrating cells (unlabeled; pattern fits cyclin D1)"
+  ],
+  "describe_en": "The smear shows numerous small lymphoid-appearing cells with round nuclei, condensed chromatin and scant cytoplasm; classic plasma cell features such as a prominent perinuclear hof are not evident at this magnification. Bone marrow biopsy immunostains show a diffuse, packed infiltrate with strong membranous/cytoplasmic positivity for two markers and nuclear positivity for a third marker in most tumor cells (markers not labeled in the figure). In context, findings are consistent with plasma cell myeloma with lymphoplasmacytic morphology and cyclin D1 expression, which typically associates with t(11;14); mantle cell lymphoma and lymphoplasmacytic lymphoma must be excluded by CD19/CD20, CD138 and light chain studies.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Both can be cyclin D1+, but MCL cells are CD20+/CD5+ B cells with surface light chain and lack CD138, whereas myeloma cells are CD138+/CD38 bright, CD19 negative and lack CD5 (though t(11;14) myeloma may be CD20+, a pitfall)."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL comprises a spectrum of CD20+ B cells plus plasma cells, is cyclin D1 negative and MYD88 L265P mutated, whereas this infiltrate is a monomorphic cyclin D1+ plasma cell population."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are CD5+/CD23+/CD20 dim with smudge cells and are cyclin D1 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; IHC (markers unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

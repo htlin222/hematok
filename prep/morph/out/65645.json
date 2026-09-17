@@ -1,0 +1,23 @@
+{
+  "id": "65645",
+  "recognize_zh": "H&E 中瀰漫小型淋巴樣細胞的細胞質含大而透明的空泡，把新月形核擠到周邊，形似印戒細胞癌；但 CD20、BCL2、BCL6 陽性、CD3 陰性，CD21 顯示保存的濾泡樹突細胞網、Ki-67 低，確定是印戒細胞型濾泡性淋巴瘤。",
+  "features": [
+    "PET-CT MIP: very large intensely FDG-avid abdominal mass",
+    "H&E: diffuse to vaguely nodular sheet of small cells with a single large clear cytoplasmic vacuole compressing the nucleus into a crescent (signet ring morphology) in delicate fibrovascular stroma",
+    "CD20: diffuse strong membranous positivity; CD3: scattered and clustered background T cells only",
+    "BCL2: positive in the neoplastic nodules; BCL6: nuclear positivity",
+    "CD21: intact follicular dendritic cell meshworks within tumor nodules",
+    "Ki-67: low proliferation index"
+  ],
+  "describe_en": "PET-CT shows a large, intensely FDG-avid abdominal mass. The core needle biopsy demonstrates a predominantly diffuse, focally nodular infiltrate of small lymphoid cells, many containing a single large clear cytoplasmic vacuole that displaces the nucleus peripherally into a crescent, imparting signet ring morphology. The neoplastic cells are CD20-positive, BCL2-positive and BCL6-positive, with CD3 highlighting only background T cells; CD21 demonstrates intact follicular dendritic cell meshworks and Ki-67 is low. Findings are consistent with follicular lymphoma, signet ring cell variant, and exclude metastatic signet ring adenocarcinoma.",
+  "ddx": [
+    {"dx": "Metastatic signet ring cell adenocarcinoma", "vs": "Carcinoma cells are cytokeratin-positive with intracytoplasmic mucin (PAS-D/mucicarmine), whereas these cells are CD20+/BCL2+ lymphocytes without epithelial markers."},
+    {"dx": "Signet ring cell plasma cell or marginal zone lymphoma (Russell body/Mott-like)", "vs": "Those show plasmacytic differentiation with immunoglobulin-filled vacuoles and are BCL6-negative without CD21 follicular meshworks."},
+    {"dx": "Liposarcoma or lipoblast-rich tumor", "vs": "Lipoblasts have scalloped nuclei indented by multiple fat vacuoles and are S100/MDM2-positive rather than CD20-positive."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "Consists of large cells with high Ki-67 rather than small cells with low proliferation index within FDC meshworks."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD20, CD3, BCL2, BCL6, CD21, Ki-67; PET-CT",
+  "match": "consistent",
+  "high_yield": false
+}

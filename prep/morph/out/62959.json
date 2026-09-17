@@ -1,0 +1,20 @@
+{
+  "id": "62959",
+  "recognize_zh": "BCL2 染色下幾乎所有腫瘤細胞呈強而一致的細胞膜/細胞質棕色陽性，只有散在的組織球與內皮細胞為藍色陰性；被套細胞淋巴瘤通常 BCL2 陽性，但這個標記本身沒有鑑別特異性。",
+  "features": [
+    "Strong diffuse membranous and cytoplasmic BCL2 staining in nearly all tumor cells",
+    "Perinuclear ring-like accentuation around round nuclei",
+    "Scattered negative cells with elongated or oval nuclei (endothelial cells, histiocytes)",
+    "Dense sheet-like growth of intermediate-sized cells"
+  ],
+  "describe_en": "Immunohistochemical stain for BCL2 shows strong, diffuse cytoplasmic and membranous staining in nearly all neoplastic lymphoid cells, with only scattered negative stromal cells and histiocytes. BCL2 expression is expected in mantle cell lymphoma and most low-grade B-cell lymphomas and does not by itself establish the subtype. Interpretation requires cyclin D1, SOX11, and CD5 results, which support mantle cell lymphoma in this case.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "FL is also BCL2+ but shows follicular architecture with CD10+/BCL6+ cells and is cyclin D1- and CD5-."},
+    {"dx": "CLL/SLL", "vs": "CLL/SLL is BCL2+ and CD5+ but is LEF1+ and cyclin D1-, with proliferation centers on H&E."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers are BCL2-negative with a polarized, non-monotonous population, unlike diffuse BCL2+ sheets."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BCL2",
+  "match": "consistent",
+  "high_yield": false
+}

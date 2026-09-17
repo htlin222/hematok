@@ -1,0 +1,21 @@
+{
+  "id": "65918",
+  "recognize_zh": "中央幾顆異常前骨髓細胞的細胞質裡有成束交錯、細針狀的 Auer 小體（像一捆柴），核形不規則、部分呈雙葉狀；這就是 faggot cell，看到它應立即想到急性前骨髓細胞白血病（APL）。",
+  "features": [
+    "Cluster of large abnormal promyelocytes with irregular, partly bilobed/folded nuclei",
+    "Multiple bundles of crisscrossing needle-like Auer rods filling the cytoplasm (faggot cells)",
+    "Moderately condensed chromatin; nucleoli not prominent at this focus",
+    "Abundant granular cytoplasm with irregular cell borders",
+    "Background red cells with scattered platelets; occasional crenated red cell (smear artifact)"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of large abnormal promyelocytes with irregular, partly bilobed nuclei and abundant cytoplasm. Several cells contain numerous bundles of crisscrossing needle-like Auer rods (faggot cells). The background red cells show no specific abnormality apart from minor drying artifact. Findings are highly suggestive of acute promyelocytic leukemia; urgent coagulation studies and confirmation of PML::RARA are warranted.",
+  "ddx": [
+    {"dx": "AML with maturation (e.g., RUNX1::RUNX1T1)", "vs": "Blasts in AML with t(8;21) usually carry a single long slender Auer rod rather than multiple bundled rods, and nuclei are not bilobed."},
+    {"dx": "Microgranular (hypogranular) APL variant", "vs": "The variant shows bilobed nuclei with few visible granules and rare faggot cells, whereas this field shows abundant bundled Auer rods."},
+    {"dx": "Reactive promyelocytes (left shift or G-CSF effect)", "vs": "Reactive promyelocytes have regular round nuclei with a perinuclear hof and never contain Auer rods."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

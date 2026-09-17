@@ -1,0 +1,22 @@
+{
+  "id": "65202",
+  "recognize_zh": "骨髓切片呈高度細胞性、以顆粒球系及嗜酸性球增生為主，合併網狀纖維明顯增加（MF-3），且紅血球前驅細胞聚成大片簇狀、E-cadherin 陽性，這種「嗜酸性球＋纖維化＋紅系母細胞群聚」組合提示 JAK2 融合的骨髓/淋巴腫瘤（PCM1::JAK2）。",
+  "features": [
+    "Hypercellular marrow with expanded granulopoiesis and increased eosinophils",
+    "Enlarged megakaryocytes with hyperlobated nuclei (MPN-like), highlighted by factor VIII",
+    "Dense diffuse reticulin fibrosis with coarse intersecting fibers (MF-3)",
+    "Large clusters/sheets of immature erythroid precursors with round nuclei, open chromatin and clear to amphophilic cytoplasm",
+    "E-cadherin immunostain highlights the clustered immature erythroid precursors"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a hypercellular marrow with marked granulocytic proliferation including increased eosinophils, and scattered enlarged megakaryocytes with MPN-like hyperlobated nuclei. Reticulin stain demonstrates diffuse and dense fibrosis (MF-3). There are prominent clusters of immature erythroid precursors, highlighted by E-cadherin immunostaining. The combination of eosinophilia, fibrosis and aggregates of immature erythroid precursors is suggestive of a myeloid/lymphoid neoplasm with eosinophilia and JAK2 rearrangement (e.g., PCM1::JAK2), to be confirmed by cytogenetic or molecular testing.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis (JAK2 V617F/CALR/MPL-driven)", "vs": "PMF shows clustered atypical cloud-like megakaryocytes and fibrosis but typically lacks prominent eosinophilia and sheets of E-cadherin-positive immature erythroid precursors; molecular testing for JAK2 fusion separates them."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows granulocytic hyperplasia with small hypolobated 'dwarf' megakaryocytes and requires BCR::ABL1, which was negative here."},
+    {"dx": "Acute erythroid leukemia", "vs": "AEL shows sheets of pronormoblasts making up most of the cellularity (often p53 strong), whereas here erythroid clusters are admixed with a dominant granulocytic/eosinophilic proliferation."},
+    {"dx": "Myeloid/lymphoid neoplasm with PDGFRA/PDGFRB/FGFR1 rearrangement", "vs": "These share eosinophilia and fibrosis and cannot be separated morphologically; FISH/NGS fusion testing identifies the specific tyrosine kinase partner."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; reticulin; IHC: E-cadherin, factor VIII",
+  "match": "consistent",
+  "high_yield": false
+}

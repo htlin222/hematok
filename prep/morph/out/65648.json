@@ -1,0 +1,21 @@
+{
+  "id": "65648",
+  "recognize_zh": "骨髓切片以棕色色原標記 EBV：陽性訊號集中在少數散在的大型細胞，呈濃密、充滿整顆細胞的染色，周圍大量藍色小細胞為陰性；需注意部分陽性細胞體積大、核呈分葉，與巨核細胞形態重疊，判讀時要對照同一位置的 H&E。",
+  "features": [
+    "Scattered large cells with dense brown chromogenic staining filling the cell outline",
+    "Positive cells are several times larger than background cells; some have lobulated contours",
+    "Numerous background small-to-intermediate hematopoietic and lymphoid cells are negative (blue hematoxylin counterstain)",
+    "Faint granular brown deposits in the interstitium",
+    "Staining pattern is global rather than crisp nuclear, limiting distinction from nonspecific uptake at this magnification"
+  ],
+  "describe_en": "Bone marrow trephine section stained for EBV shows scattered large cells with strong, dense brown staining, while the background hematopoietic and small lymphoid cells are negative. The positive cells are markedly larger than surrounding cells and some have lobulated outlines. The staining fills the whole cell rather than showing a discrete nuclear signal, and the size and shape of some positive cells overlap with megakaryocytes, so correlation with the H&E and a nuclear EBER in situ hybridization is advisable. In the reported context of large atypical cells on the aspirate, findings support EBV infection of large atypical cells, consistent with an EBV-associated lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "Megakaryocytes with nonspecific chromogen uptake", "vs": "Megakaryocytes are large with lobulated nuclei and can trap chromogen; true EBER positivity gives a crisp nuclear signal in cells that are morphologically lymphoid on H&E."},
+    {"dx": "Classic Hodgkin lymphoma involving marrow", "vs": "EBV-positive HRS cells in marrow sit in a fibrotic polymorphous background and express CD30 and CD15, whereas here CD30 is only scattered."},
+    {"dx": "EBV-positive latent bystander B cells", "vs": "Bystander EBER-positive cells are rare small lymphocytes, not a population of large atypical cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "EBV (IHC/ISH per source), hematoxylin counterstain",
+  "match": "partial",
+  "high_yield": false
+}

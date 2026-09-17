@@ -1,0 +1,30 @@
+{
+  "id": "126",
+  "recognize_zh": "周邊血液抹片同時看到正常色素紅血球與小球性低色素紅血球（雙相性，dimorphic），分析儀 RBC 直方圖也呈雙峰；骨髓 Perls 鐵染色可見藍色鐵顆粒環繞紅血球母細胞核一圈（環狀鐵粒幼細胞，ring sideroblasts），且骨髓鐵儲存增加。",
+  "features": [
+    "Dimorphic red cell population: normochromic cells admixed with microcytic hypochromic cells",
+    "Marked anisopoikilocytosis with dacryocytes, elongated/pencil forms, fragments and occasional target cells",
+    "Analyzer RBC histogram with two populations and 'Dimorphic Reds' flag; MCV 68.7 fL, RDW 35.1%",
+    "Perls stain of aspirate: coarse blue siderotic granules arranged around erythroblast nuclei (ring sideroblasts)",
+    "Abundant stainable iron in marrow particles (increased iron stores)",
+    "Cellular aspirate with maturing granulocytes and erythroid precursors; no blasts increase evident"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with a dimorphic red cell population composed of normochromic red cells and microcytic hypochromic cells, accompanied by dacryocytes, elongated forms, fragments and occasional target cells. The automated analyzer RBC histogram shows two red cell populations with a 'Dimorphic Reds' flag, low MCV (68.7 fL) and very high RDW (35.1%), and platelet histogram interference at the upper end. The bone marrow aspirate is cellular with maturing granulocytic and erythroid elements. Prussian blue (Perls) stain shows increased iron in marrow particles and erythroblasts with coarse perinuclear siderotic granules forming rings. Findings are consistent with congenital sideroblastic anemia, in keeping with the X-linked (ALAS2) type in this male child with iron overload.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Also microcytic hypochromic, but marrow stainable iron is absent and ring sideroblasts are not seen, whereas here iron stores are increased with ring sideroblasts."},
+    {"dx": "Beta-thalassemia", "vs": "Microcytosis with target cells and nucleated red cells, but HbA2/HbF are abnormal on HPLC and ring sideroblasts are not a feature; HPLC was normal here."},
+    {"dx": "MDS with ring sideroblasts (SF3B1-mutated)", "vs": "Shows ring sideroblasts but typically macrocytic/dimorphic in older adults with dysplasia in other lineages and SF3B1 mutation, not infantile-onset microcytic anemia."},
+    {"dx": "Acquired sideroblastic anemia (alcohol, copper deficiency, isoniazid, zinc toxicity)", "vs": "Morphologically similar ring sideroblasts; separated by exposure history, copper/zinc levels and reversibility rather than by morphology."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; Prussian blue (Perls); analyzer printout",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: dimorphic red cells with hypochromic microcytes, dacryocytes and fragments",
+    "Analyzer printout: bimodal RBC histogram with 'Dimorphic Reds' flag, MCV 68.7 fL, RDW 35.1%",
+    "Bone marrow aspirate (Wright-Giemsa): cellular smear with maturing myeloid and erythroid precursors",
+    "Perls stain, low power: marrow particle with abundant stainable iron",
+    "Perls stain, high power: erythroblasts with perinuclear ring of siderotic granules (ring sideroblasts)"
+  ]
+}

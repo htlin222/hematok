@@ -1,0 +1,22 @@
+{
+  "id": "61532",
+  "recognize_zh": "十二指腸黏膜切片 CD20 低倍影像中，黏膜內有一個大而清楚的圓形結節被 CD20 陽性 B 細胞整片填滿，並延伸入鄰近絨毛的固有層；上皮為陰性。形狀像擴大的濾泡，需再配合 CD10/BCL2 判定十二指腸型濾泡性淋巴瘤。",
+  "features": [
+    "Low-power duodenal mucosal biopsy with a large, well-circumscribed nodular lymphoid aggregate",
+    "Diffuse strong membranous CD20 staining filling the nodule",
+    "CD20-positive B cells extending into the lamina propria of adjacent villi",
+    "Overlying villous epithelium CD20-negative; nodule expands the mucosa beneath the epithelium",
+    "Magnification too low to evaluate cytology or follicular/interfollicular zones"
+  ],
+  "describe_en": "Immunohistochemical stain for CD20 on a duodenal mucosal biopsy shows a large, well-circumscribed nodular lymphoid aggregate expanding the mucosa, uniformly filled by CD20-positive B cells, with additional B cells infiltrating the lamina propria of adjacent villi. The surface and crypt epithelium are negative. Cytologic detail cannot be assessed at this magnification. In conjunction with CD10 and BCL2 co-expression in the follicle, findings are consistent with duodenal-type follicular lymphoma.",
+  "ddx": [
+    {"dx": "Reactive lymphoid follicle (lymphoid hyperplasia)", "vs": "Reactive follicles have a CD20+ germinal center with a mantle zone, are BCL2-negative in the germinal center and show polarization with tingible-body macrophages."},
+    {"dx": "Extranodal marginal zone lymphoma (MALT)", "vs": "MALT lymphoma forms CD10-negative, BCL6-negative marginal zone infiltrates with lymphoepithelial lesions and follicular colonization, rather than CD10+/BCL2+ neoplastic follicles."},
+    {"dx": "Mantle cell lymphoma (lymphomatous polyposis)", "vs": "MCL nodules are CD5+ and cyclin D1/SOX11-positive and CD10-negative."},
+    {"dx": "Systemic follicular lymphoma secondarily involving the duodenum", "vs": "Morphology is similar; staging showing nodal or marrow disease is required, as duodenal-type FL is typically localized to the small bowel."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "64048",
+  "recognize_zh": "PAX5 染色中，大型異型細胞的細胞核呈強而均勻的棕色核染色，小 B 淋巴球亦陽性，表示這些大細胞是 B 細胞系，支持大型 B 細胞淋巴瘤。",
+  "features": [
+    "Strong diffuse nuclear PAX5 staining of large atypical cells with large round nuclei",
+    "Smaller PAX5-positive nuclei of background B lymphocytes (lower right)",
+    "Nuclear rather than cytoplasmic localization, appropriate for a transcription factor",
+    "Scattered PAX5-negative stromal and T cells with blue counterstain"
+  ],
+  "describe_en": "PAX5 immunohistochemistry shows strong, diffuse nuclear staining of the large atypical cells, which have enlarged round nuclei. Smaller background B lymphocytes are also positive, while stromal cells and presumed T cells are negative. The intensity in the large cells is comparable to that of normal B cells. Findings confirm B-cell lineage of the neoplastic cells and, with CD45 positivity, support a large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells show characteristically weak (dim) PAX5 nuclear staining compared with strong staining of reactive B cells, unlike the strong staining here."},
+    {"dx": "Metastatic carcinoma or neuroendocrine tumor", "vs": "Carcinomas are PAX5 negative, although Merkel cell and some neuroendocrine carcinomas can be PAX5 positive and require keratin/neuroendocrine markers."},
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "B-lymphoblasts are PAX5+ but medium-sized with fine chromatin and TdT/CD34 expression, lacking the abundant cytoplasm and prominent nucleoli of these cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PAX5",
+  "match": "consistent",
+  "high_yield": false
+}

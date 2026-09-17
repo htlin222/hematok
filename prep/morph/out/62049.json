@@ -1,0 +1,22 @@
+{
+  "id": "62049",
+  "recognize_zh": "低倍下淋巴結正常結構消失，被多個大而模糊、邊緣不清的結節取代，結節內較淡染呈斑駁（moth-eaten）外觀，周圍為深染小淋巴球，這種大結節型態提示 NLPHL。",
+  "features": [
+    "Effaced lymph node architecture replaced by large, ill-defined, back-to-back nodules",
+    "Nodules show a mottled paler appearance due to scattered larger cells and histiocytes within a small lymphocyte background",
+    "Internodular areas composed of densely packed small dark lymphocytes",
+    "Scattered small vessels and thin fibrous strands; no broad collagen bands",
+    "Cytologic detail of individual cells not assessable at this magnification"
+  ],
+  "describe_en": "Low-power H&E section of lymph node shows effacement of the normal architecture by large, vaguely defined nodules with a mottled, paler appearance set in a background of densely packed small lymphocytes. No broad sclerotic bands, sinuses, or normal reactive follicles are recognizable in this field. Individual cytologic features cannot be assessed at this magnification. Findings are suggestive of nodular lymphocyte predominant Hodgkin lymphoma; higher-power examination for LP cells and CD20, CD3, PD-1 and CD21/CD23 immunostains are needed to confirm the diagnosis and define the architectural pattern.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma shows numerous closely packed uniform follicles lacking mantle zones and composed of BCL2+ centrocytes, rather than few large mottled nodules with LP cells."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC forms enlarged nodules within an otherwise reactive node with preserved normal follicles, and lacks LP cells."},
+    {"dx": "Classic Hodgkin lymphoma, nodular lymphocyte-rich", "vs": "Nodular LRCHL can look identical at low power and requires identification of CD30+/CD15+ HRS cells versus CD20+ LP cells."},
+    {"dx": "Mantle cell lymphoma, nodular pattern", "vs": "Nodular mantle cell lymphoma is monotonous small cleaved cells expressing cyclin D1 and SOX11, without scattered large cells."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "4010",
+  "recognize_zh": "骨髓切片中脂肪細胞之間的造血空間被成片、單一形態的中型母細胞填滿，核圓、染色質細緻並有小核仁，細胞質極少，正常紅血球系與巨核細胞僅零星殘存；此單調母細胞浸潤符合前驅 B 細胞急性淋巴母細胞白血病復發。",
+  "features": [
+    "Interstitial spaces between adipocytes packed by sheets of monotonous blasts",
+    "Medium-sized cells with round to slightly irregular nuclei, fine chromatin and small nucleoli",
+    "Scant cytoplasm with high N:C ratio",
+    "Few residual erythroid precursors and rare megakaryocytes",
+    "Adipocytes still present, so overall cellularity reflects both fat and diffuse blast infiltration"
+  ],
+  "describe_en": "Bone marrow biopsy shows the hematopoietic spaces between adipocytes diffusely filled by a monotonous population of medium-sized blasts with round nuclei, finely dispersed chromatin, small nucleoli and scant cytoplasm. Normal trilineage hematopoiesis is markedly diminished, with only scattered erythroid precursors and rare megakaryocytes. Findings are consistent with diffuse marrow involvement by acute leukemia; in a patient with prior precursor B-ALL, this represents relapsed B-lymphoblastic leukemia, to be confirmed by immunohistochemistry (TdT, CD34, CD19/PAX5, CD10) or flow cytometry.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts may show more cytoplasm and residual granulocytic maturation; lineage requires MPO versus PAX5/TdT immunostaining."},
+    {"dx": "Hematogone hyperplasia in a regenerating marrow", "vs": "Hematogones are interstitial and scattered rather than confluent sheets, and show an orderly maturation pattern with scattered CD20 and TdT positivity."},
+    {"dx": "Diffuse large B-cell or Burkitt lymphoma involving marrow", "vs": "Lymphoma cells are usually larger or show a starry-sky pattern and are TdT and CD34 negative with a mature B-cell phenotype."},
+    {"dx": "Metastatic small round blue cell tumor", "vs": "Small round cell tumors form nests with desmoplasia and are CD45 and TdT negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

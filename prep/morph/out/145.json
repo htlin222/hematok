@@ -1,0 +1,29 @@
+{
+  "id": "145",
+  "recognize_zh": "骨髓中除 CD34+ 母細胞外，還有許多中型、圓核、染色質細緻、細胞質灰藍且邊緣有小空泡的漿細胞樣單核細胞（箭頭）；免疫染色 CD34 標出母細胞，CD123 另標出成群陽性細胞但 TCL1 陰性，符合伴隨漿細胞樣樹突細胞增加的急性骨髓性白血病（pDC-AML）。",
+  "features": [
+    "Peripheral blood: circulating blasts and atypical mononuclear cells with round to oval nuclei, fine chromatin and moderate grey-blue cytoplasm (arrows), with background neutrophils",
+    "Bone marrow aspirate: hypercellular with increased blasts and a prominent population of medium-sized plasmacytoid mononuclear cells with eccentric round nuclei and grey-blue cytoplasm bearing small peripheral vacuoles (arrows)",
+    "Background dysplastic-appearing granulocytic and erythroid elements",
+    "Core biopsy: markedly hypercellular marrow replaced by sheets of monotonous immature mononuclear cells",
+    "IHC: CD34-positive blasts; CD123 highlights a separate, clustered population of pDCs; TCL1 is largely negative"
+  ],
+  "describe_en": "The peripheral blood smear shows circulating blasts and atypical plasmacytoid mononuclear cells with fine chromatin and moderate grey-blue cytoplasm. The bone marrow aspirate is hypercellular with increased blasts and a conspicuous population of medium-sized plasmacytoid cells with round eccentric nuclei and agranular grey-blue cytoplasm containing small peripheral vacuoles. The core biopsy is markedly hypercellular with sheets of immature mononuclear cells. Immunohistochemistry shows numerous CD34-positive blasts and a separate, clustered CD123-positive plasmacytoid dendritic cell population that is largely TCL1-negative. In the setting of prior MDS with ASXL1/SRSF2 mutations, findings are consistent with acute myeloid leukemia with increased plasmacytoid dendritic cells (pDC-AML).",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "In BPDCN the neoplastic cells are CD34-negative blasts coexpressing CD4, CD56, CD123 and TCL1, whereas here CD34+ myeloid blasts are accompanied by a separate, mostly TCL1-negative and CD56-negative CD123+ pDC population."},
+    {"dx": "Chronic myelomonocytic leukemia with pDC nodules", "vs": "CMML with pDC nodules has persistent monocytosis and <20% blasts, while this marrow shows increased CD34+ blasts reaching the AML threshold."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monocytic blasts/promonocytes have folded nuclei and express CD14/CD11c/lysozyme without the bright CD123+, CD303+ plasmacytoid cells in clusters."},
+    {"dx": "Myelodysplastic syndrome with increased blasts", "vs": "Blast count below 20% separates MDS-IB, requiring careful counting because pDCs are not included in the blast percentage."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: CD34, CD123, TCL1",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood smear: circulating blasts and atypical plasmacytoid mononuclear cells (arrows)",
+    "Bone marrow aspirate: hypercellular with blasts and plasmacytoid cells (arrow)",
+    "Bone marrow aspirate, high power: plasmacytoid dendritic cells with grey-blue cytoplasm and peripheral vacuoles (arrows)",
+    "Core biopsy H&E: markedly hypercellular marrow with sheets of immature cells",
+    "IHC: CD34-positive blasts, clustered CD123-positive pDCs, and largely negative TCL1"
+  ]
+}

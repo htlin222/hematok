@@ -1,0 +1,22 @@
+{
+  "id": "3894",
+  "recognize_zh": "周邊血液抹片中右上方的嗜中性球核分成約 8 葉以上、中央那顆也有 5 葉，旁邊一顆正常嗜酸性球作對照，呈現典型的過度分葉嗜中性球（hypersegmented neutrophil），提示維生素 B12／葉酸缺乏。",
+  "features": [
+    "Neutrophil (upper right) with a markedly hypersegmented nucleus of approximately 8 or more discrete lobes",
+    "Second neutrophil (center) with 5 nuclear lobes",
+    "Coarsely clumped chromatin in the lobes and pale cytoplasm with fine neutrophilic granules",
+    "Adjacent eosinophil with bilobed nucleus and orange-red granules for comparison",
+    "Red cells largely normochromic; mild anisocytosis without obvious schistocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows two neutrophils and an eosinophil. One neutrophil displays marked nuclear hypersegmentation with approximately eight or more lobes, and a second neutrophil has five lobes. The eosinophil is morphologically unremarkable. Red cells in this field show mild anisocytosis; macro-ovalocytes are not prominent at this magnification. Findings are consistent with hypersegmented neutrophils, suggestive of megaloblastic anemia due to vitamin B12 or folate deficiency in the appropriate clinical context.",
+  "ddx": [
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "This rare autosomal dominant trait affects neutrophils without anemia, macrocytosis or low B12/folate levels."},
+    {"dx": "Drug effect (methotrexate, hydroxyurea, other antimetabolites)", "vs": "Morphology is identical, so the distinction requires medication history and normal B12/folate levels."},
+    {"dx": "Myelodysplastic syndrome with dysgranulopoiesis", "vs": "MDS typically shows hypogranular or pseudo-Pelger-Huet neutrophils and cytopenias with normal vitamin levels, rather than isolated hypersegmentation."},
+    {"dx": "Iron deficiency or uremia-associated hypersegmentation", "vs": "These occur with microcytic hypochromic red cells or renal failure and usually show only mild hypersegmentation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

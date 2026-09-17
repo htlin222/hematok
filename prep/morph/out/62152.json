@@ -1,0 +1,22 @@
+{
+  "id": "62152",
+  "recognize_zh": "數顆中大型母細胞（blast），核質比高、染色質細緻、可見小核仁，胞質少而淡藍、無明顯顆粒，部分核有凹陷，符合骨髓母細胞（myeloblast）。",
+  "features": [
+    "Medium to large blasts with high N:C ratio",
+    "Round to indented or folded nuclei with finely dispersed chromatin",
+    "Small but discernible nucleoli in several cells",
+    "Scant to moderate pale basophilic agranular cytoplasm; no Auer rods seen in this field",
+    "Background of numerous red cells without maturing granulocytes in this field"
+  ],
+  "describe_en": "Aspirate smear shows a hemodilute field with numerous red cells and scattered medium to large blasts. The blasts have high nuclear-to-cytoplasmic ratios, round to indented nuclei with fine open chromatin and small nucleoli, and scant pale blue agranular cytoplasm. Auer rods are not identified in this field, and maturing granulocytic precursors are not represented, so maturation cannot be assessed from this image alone. Findings are consistent with myeloblasts; classification as AML with maturation requires differential counting, MPO/flow cytometry, and genetic studies.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts tend to be smaller with scantier cytoplasm and inconspicuous nucleoli, but separation requires MPO negativity and a lymphoid immunophenotype by flow cytometry."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have more abundant grey-blue cytoplasm with vacuoles and delicately folded nuclei, and are nonspecific esterase positive with CD14/CD64 expression."},
+    {"dx": "Acute promyelocytic leukemia (microgranular)", "vs": "Microgranular APL shows bilobed or reniform nuclei with fine cytoplasmic dusting and often Auer rod bundles, confirmed by PML::RARA."},
+    {"dx": "AML without maturation", "vs": "AML-M1 has fewer than 10% maturing granulocytic cells, whereas AML-M2 requires at least 10% maturing neutrophil lineage cells on a differential count."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "65897",
+  "recognize_zh": "骨髓切片呈廣泛纖維化（銀染為粗網狀纖維 MF-3），H&E 中在纖維間質裡有成條索、小巢狀的上皮樣細胞，細胞質豐富淡嗜酸性，內插圖可見細胞質內空泡（原始血管腔）；這些細胞 ERG 核染、CD34 膜染、TFE3 核染陽性而 CAMTA1 陰性，指向 TFE3 型上皮樣血管內皮瘤。",
+  "features": [
+    "Reticulin stain: dense coarse reticulin fibers outlining nests and cords, grade MF-3 (A)",
+    "H&E: fibrotic marrow with cords and small nests of epithelioid cells embedded in a pale fibromyxoid stroma (B)",
+    "High-power inset: epithelioid cells with round-oval nuclei, fine chromatin, distinct nucleoli and abundant pale eosinophilic cytoplasm, including intracytoplasmic vacuoles/lumina (B inset)",
+    "ERG strong nuclear positivity in the lesional cells (C)",
+    "CD34 membranous/cytoplasmic positivity outlining epithelioid cells (D); TFE3 diffuse nuclear positivity (E)",
+    "CAMTA1 negative (F)"
+  ],
+  "describe_en": "Bone marrow trephine shows extensive fibrosis with dense coarse reticulin (MF-3). Within the fibrotic stroma there are cords and small nests of epithelioid cells with round to oval nuclei, fine chromatin, distinct nucleoli and abundant pale eosinophilic cytoplasm, some containing intracytoplasmic vacuoles suggestive of primitive vascular lumina. The lesional cells are positive for ERG and CD34 and show diffuse nuclear TFE3, while CAMTA1 is negative. Given confirmed TFE3 rearrangement by FISH, findings are consistent with epithelioid hemangioendothelioma, TFE3-rearranged (YAP1::TFE3 type), involving the marrow in a patient with essential thrombocythemia; this fibrosis should not be attributed solely to post-ET myelofibrosis.",
+  "ddx": [
+    {"dx": "Post-essential thrombocythemia myelofibrosis", "vs": "MPN-related fibrosis contains clustered atypical megakaryocytes and streaming hematopoietic cells, but not ERG/CD34-positive epithelioid cell cords."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma nests are cytokeratin-positive and ERG/CD34-negative, whereas these cells are endothelial (ERG+, CD34+); note EHE can express keratin focally."},
+    {"dx": "Epithelioid angiosarcoma", "vs": "Angiosarcoma shows marked atypy, brisk mitoses, necrosis and anastomosing vascular channels rather than bland cords with intracytoplasmic lumina."},
+    {"dx": "CAMTA1-rearranged (WWTR1::CAMTA1) EHE", "vs": "The conventional EHE subtype is nuclear CAMTA1-positive and TFE3-negative, the opposite of this case."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Reticulin; H&E; IHC: ERG, CD34, TFE3, CAMTA1",
+  "match": "consistent",
+  "high_yield": false
+}

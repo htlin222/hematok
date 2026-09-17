@@ -1,0 +1,23 @@
+{
+  "id": "65812",
+  "recognize_zh": "在滿是骨髓細胞、後骨髓細胞與分節嗜中性球的背景中，可看到兩顆佈滿深紫黑色粗顆粒的嗜鹼性球（basophil）及嗜伊紅性球，嗜鹼性球增多配合完整的顆粒球左移，是 CML 的關鍵線索。",
+  "features": [
+    "Marked leukocytosis with the full range of granulocyte maturation (promyelocyte to segmented neutrophil)",
+    "Two basophils with dense dark purple-black granules obscuring the nucleus",
+    "Eosinophils, including one with orange granules and a bilobed nucleus (left) and an eosinophilic myelocyte (top)",
+    "Cluster of myelocytes and a promyelocyte with round nuclei, fine to moderately condensed chromatin and granular cytoplasm",
+    "No increase in blasts and no granulocytic dysplasia in this field",
+    "Background platelets; red cells with mild anisocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed of granulocytes at all stages of maturation, including promyelocytes, myelocytes, metamyelocytes, bands and segmented neutrophils. Basophils and eosinophils are both increased, with two basophils and eosinophilic forms present in this single field. Blasts are not increased and granulocytes show no dysplasia. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, chronic phase.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "Absolute basophilia is not a feature of reactive neutrophilia, which instead shows toxic granulation and Dohle bodies."},
+    {"dx": "CML, accelerated or blast phase", "vs": "Progression is suggested by basophils of 20% or more or rising blasts, which require a differential count rather than a single field."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML has dysplastic neutrophils and minimal basophilia, unlike the orderly maturation and basophilia shown."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows a leukoerythroblastic smear with teardrop cells and nucleated red cells and a much lower white count."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63973",
+  "recognize_zh": "抹片中紅血球大多缺乏中央淡染區、呈高密度的圓形或不規則收縮狀（irregularly contracted cells），間雜標靶細胞（target cells）與少數摺疊細胞，這種組合提示血紅素 C 病。",
+  "features": [
+    "Numerous dense red cells lacking central pallor, including irregularly contracted and spherocytic-appearing cells",
+    "Scattered target cells with central hemoglobin condensation",
+    "Occasional folded or boat-shaped cells and small red cell fragments",
+    "Mild anisocytosis with smaller cells; microcytosis is difficult to quantify in this image",
+    "No definite intraerythrocytic HbC crystals are identifiable at this magnification"
+  ],
+  "describe_en": "Peripheral blood smear shows a red cell population with mild anisopoikilocytosis dominated by dense, hyperchromic cells lacking central pallor, many of which have irregular contracted contours. Target cells are scattered throughout, along with occasional folded cells and small fragments. Distinct intraerythrocytic hemoglobin C crystals are not clearly identified at this magnification, and red cell size is difficult to judge without a reference lymphocyte. Findings are consistent with hemoglobin C disease; confirmation by hemoglobin electrophoresis or HPLC is recommended.",
+  "ddx": [
+    {"dx": "Hereditary spherocytosis", "vs": "Spherocytes are round with smooth contours and target cells are not a feature, whereas irregularly contracted cells and targets here favor HbC."},
+    {"dx": "Hemoglobin SC disease", "vs": "HbSC shows characteristic angular crystals with protruding knobs (Washington monument/glove shapes) and occasional sickle-like forms, requiring electrophoresis for confirmation."},
+    {"dx": "Oxidant hemolysis (G6PD deficiency)", "vs": "G6PD crises show bite and blister cells with Heinz bodies on supravital stain rather than prominent target cells."},
+    {"dx": "Beta-thalassemia or liver disease with targeting", "vs": "Thalassemia shows marked microcytosis with basophilic stippling and liver disease shows macrocytic targets, without numerous irregularly contracted dense cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

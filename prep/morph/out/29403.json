@@ -1,0 +1,21 @@
+{
+  "id": "29403",
+  "recognize_zh": "骨髓抹片可見組織球吞噬紅血球前驅細胞與嗜中性球（hemophagocytosis），旁邊有核形不規則、胞質嗜鹼帶空泡的大型異常細胞；切片出現腎形核的 hallmark cell 且 CD30 強陽性，支持 ALCL 引起的噬血現象。",
+  "features": [
+    "Large histiocyte with abundant pale cytoplasm containing an engulfed erythroid precursor and a neutrophil (hemophagocytosis, panel A black arrow)",
+    "Adjacent large atypical cell with irregular, folded nucleus and deeply basophilic vacuolated cytoplasm (panel A red arrow)",
+    "Marrow biopsy with sheets of large pleomorphic cells with vesicular nuclei, prominent nucleoli and a hallmark cell with horseshoe/kidney-shaped nucleus (panel B)",
+    "Strong, diffuse membranous and Golgi-pattern CD30 staining of the large neoplastic cells (panel C)"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows prominent hemophagocytosis, with a histiocyte engulfing an erythroid precursor and a neutrophil, and an adjacent large atypical cell with an irregular nuclear contour and deeply basophilic, vacuolated cytoplasm. The core biopsy shows a diffuse infiltrate of large pleomorphic cells with vesicular chromatin and conspicuous nucleoli, including hallmark cells with eccentric kidney-shaped nuclei. By immunohistochemistry, the large cells show strong membranous and Golgi-pattern CD30 expression. In the context of ALK negativity and a T-cell phenotype, findings are consistent with marrow involvement by anaplastic large cell lymphoma, ALK-negative, with secondary hemophagocytosis.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are scattered in a mixed inflammatory background and are CD15-positive, PAX5 weak-positive and CD45/T-cell antigen negative, rather than forming cohesive sheets of CD30+ T cells."},
+    {"dx": "ALK-positive ALCL", "vs": "Morphology is essentially identical, so ALK immunohistochemistry (nuclear/cytoplasmic) and ALK rearrangement separate it from the ALK-negative case."},
+    {"dx": "Infection- or autoimmune-associated reactive HLH", "vs": "Reactive HLH shows hemophagocytic histiocytes without sheets of large atypical CD30-positive lymphoid cells."},
+    {"dx": "Metastatic carcinoma / DLBCL", "vs": "Carcinoma is keratin-positive and CD45-negative, and DLBCL expresses B-cell markers (CD20, PAX5) rather than T-cell antigens with uniform strong CD30."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

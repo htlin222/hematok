@@ -1,0 +1,22 @@
+{
+  "id": "28904",
+  "recognize_zh": "骨病灶的抹片與切片可見胞質淡染、核呈卵圓或腎形有溝的組織球成群，夾雜多核巨細胞；免疫染色膜狀陽性（CD1a 類）與核/胞質陽性（S100 類），加上「口渴」（尿崩症）的臨床線索，指向 Langerhans cell histiocytosis。",
+  "features": [
+    "Aspirate/touch smear with loose clusters of medium-to-large histiocytoid cells with oval, folded or reniform nuclei, fine chromatin and moderate pale cytoplasm, admixed with small lymphocytes (panel A)",
+    "Section between bony trabeculae showing a cellular infiltrate of histiocytes with scattered multinucleated giant cells and mixed inflammatory cells (panel C)",
+    "Strong membranous and cytoplasmic immunostaining of the lesional histiocytes (panel B; likely CD1a or langerin)",
+    "Nuclear and cytoplasmic immunostaining of many lesional cells (panel D; pattern typical of S100)",
+    "Adjacent fibrous stroma and bone negative for both markers"
+  ],
+  "describe_en": "Smear preparation from the lesion shows loosely cohesive histiocytoid cells with oval to reniform, focally grooved nuclei, fine chromatin and moderate amounts of pale cytoplasm, admixed with lymphocytes. The corresponding biopsy shows a histiocytic infiltrate filling the intertrabecular space with scattered multinucleated giant cells and mixed inflammatory cells. Immunohistochemistry demonstrates strong membranous staining of the lesional cells (consistent with CD1a/langerin) and nuclear-cytoplasmic staining consistent with S100. In a child presenting with polydipsia suggestive of central diabetes insipidus, findings are consistent with Langerhans cell histiocytosis.",
+  "ddx": [
+    {"dx": "Rosai-Dorfman disease", "vs": "RDD histiocytes are S100-positive but CD1a-negative with large round nuclei and emperipolesis rather than grooved nuclei."},
+    {"dx": "Erdheim-Chester disease", "vs": "ECD shows foamy CD68+/CD163+ histiocytes with Touton cells that are CD1a-negative, typically with symmetric long-bone sclerosis."},
+    {"dx": "Osteomyelitis with histiocytic reaction", "vs": "Infection shows neutrophils, necrosis and reactive macrophages without CD1a/langerin-positive cells."},
+    {"dx": "Germinoma or other suprasellar lesion causing diabetes insipidus", "vs": "Germinoma contains large polygonal cells with clear cytoplasm expressing OCT3/4 and PLAP with a lymphocytic background, not CD1a-positive histiocytes."}
+  ],
+  "specimen": "tissue",
+  "stain": "Wright-Giemsa, H&E, IHC (likely CD1a, S100)",
+  "match": "consistent",
+  "high_yield": true
+}

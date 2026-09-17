@@ -1,0 +1,23 @@
+{
+  "id": "62833",
+  "recognize_zh": "拼圖 A 為肉眼可見整片深紫色的骨髓抹片；B 與 D 高倍下背景為均質紫紅色的無定形壞死物質，細胞輪廓模糊，只剩少數固縮、深染的核（箭頭），紅血球呈皺縮鬼影狀，可辨認的造血細胞極少——這種「染色過深、細胞無法判讀」的樣式是骨髓壞死（bone marrow necrosis）的線索。",
+  "features": [
+    "Composite: gross slide (A) with an intensely dark purple, thick aspirate smear",
+    "High power (B): diffuse amorphous purple-eosinophilic proteinaceous background obscuring cellular detail",
+    "Scattered cells with pyknotic, hyperchromatic nuclei and smudged, poorly defined cytoplasm (arrows); few recognizable hematopoietic cells",
+    "Red cells appear crenated and ghost-like with refractile outlines",
+    "Low-power panel (C) with pale, poorly preserved smear showing clumped red cells and granular debris",
+    "Panel D: similar necrotic background with a degenerating cell with fragmented/pyknotic nucleus (arrow)"
+  ],
+  "describe_en": "Bone marrow aspirate smears are grossly dark purple, and microscopically show an amorphous, granular purple-eosinophilic background in which cellular outlines are indistinct. Only scattered degenerating cells with pyknotic or fragmented hyperchromatic nuclei and smudged cytoplasm are seen, with crenated ghost-like red cells and no evaluable hematopoietic maturation. Viable cells are too few for a morphologic differential or flow cytometry, and a trephine biopsy is required to identify the underlying cause. Findings are consistent with bone marrow necrosis, which in this patient was associated with a plasma cell neoplasm.",
+  "ddx": [
+    {"dx": "Poor smear preparation or overstaining artifact", "vs": "Thick or overstained smears still show intact cell membranes and recognizable maturation in thinner areas, whereas necrosis shows pyknosis and amorphous eosinophilic debris throughout."},
+    {"dx": "Serous fat atrophy (gelatinous transformation)", "vs": "Gelatinous transformation shows pale pink-purple extracellular mucopolysaccharide with hypocellularity but preserved, non-pyknotic residual cells."},
+    {"dx": "Post-chemotherapy or post-radiation marrow", "vs": "Treatment effect produces hypocellularity with edema and ghost cells but in a known treatment setting, and the biopsy shows stromal preservation."},
+    {"dx": "Necrotic acute leukemia or lymphoma", "vs": "Morphology cannot distinguish the underlying cause of necrosis; viable-rim biopsy histology and immunohistochemistry are needed."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grunwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

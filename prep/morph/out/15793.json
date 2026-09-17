@@ -1,0 +1,23 @@
+{
+  "id": "15793",
+  "recognize_zh": "骨髓抹片中大量異常前骨髓細胞，細胞質充滿粗大紫紅色顆粒而遮蓋細胞核，部分細胞可見成束的 Auer 小體（faggot cell），核呈雙葉或凹折，是高顆粒型急性前骨髓細胞白血病（APL）的典型表現。",
+  "features": [
+    "Numerous large abnormal promyelocytes replacing normal marrow elements",
+    "Cytoplasm densely packed with coarse purple-red azurophilic granules that partially obscure the nucleus",
+    "Cells with bundles of multiple Auer rods (faggot cells) visible in the cytoplasm",
+    "Nuclei round to reniform or bilobed with folded outlines; chromatin fine",
+    "Some cells with a clear, granule-poor Golgi zone at the cell periphery",
+    "Background red cells forming rouleaux-like stacks"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows sheets of large abnormal promyelocytes with abundant cytoplasm densely filled with coarse azurophilic granules that overlie and obscure the nuclear outline. Several cells contain bundles of Auer rods (faggot cells). The nuclei are round, reniform or bilobed with folded contours and fine chromatin. Normal maturing myeloid and erythroid precursors are not evident in this field. Findings are consistent with hypergranular acute promyelocytic leukemia; PML::RARA confirmation and immediate ATRA with coagulopathy management are indicated.",
+  "ddx": [
+    {"dx": "Reactive promyelocyte hyperplasia (marrow recovery, G-CSF)", "vs": "Recovering marrow has normal promyelocytes with a perinuclear hof, round eccentric nuclei and orderly maturation to myelocytes and neutrophils, without Auer rods or bilobed nuclei."},
+    {"dx": "AML with maturation", "vs": "AML with maturation has blasts with few granules and single Auer rods plus maturing neutrophils, and is PML::RARA negative with CD34/HLA-DR often positive."},
+    {"dx": "Microgranular APL (M3v)", "vs": "M3v shows bilobed nuclei with sparse, fine granules and hyperleukocytosis, whereas hypergranular APL has coarse granules and conspicuous faggot cells."},
+    {"dx": "Acute basophilic leukemia / mast cell leukemia", "vs": "These have metachromatic granules that stain with toluidine blue and lack faggot cells and PML::RARA."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62825",
+  "recognize_zh": "p120 免疫染色下，幾乎所有腫瘤細胞呈瀰漫性胞質染色合併清楚的細胞膜陽性，細胞圓形、彼此鬆散；正常上皮 p120 只在細胞膜，胞質染色代表 E-cadherin 缺失，是乳小葉癌（lobular carcinoma）的特徵。",
+  "features": [
+    "IHC for p120 catenin on a marrow core diffusely replaced by tumor",
+    "Round discohesive tumor cells with diffuse cytoplasmic staining plus accentuated membranous rims",
+    "Unstained round-to-oval nuclei, some eccentric, conferring a plasmacytoid look",
+    "Only rare interspersed negative cells with blue nuclei",
+    "Loose arrangement without gland formation"
+  ],
+  "describe_en": "Immunohistochemical stain for p120 catenin on the bone marrow core shows diffuse replacement by round, discohesive tumor cells with strong diffuse cytoplasmic staining and accentuated membranous rims. Rare interspersed non-neoplastic cells are negative, and no gland formation is seen. Cytoplasmic relocalization of p120 reflects loss of E-cadherin-mediated adhesion. Findings support metastatic lobular carcinoma of the breast.",
+  "ddx": [
+    {"dx": "Metastatic ductal (no special type) breast carcinoma", "vs": "Ductal carcinoma retains E-cadherin, so p120 is purely membranous rather than diffusely cytoplasmic."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma is cytokeratin, GATA3 and E-cadherin/p120 negative in this pattern and shows kappa or lambda restriction."},
+    {"dx": "Diffuse-type gastric signet ring carcinoma", "vs": "Gastric signet ring carcinoma can also show CDH1 loss and cytoplasmic p120 but is GATA3 and ER negative and often CDX2 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: p120",
+  "match": "consistent",
+  "high_yield": false
+}

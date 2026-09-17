@@ -1,0 +1,21 @@
+{
+  "id": "1034",
+  "recognize_zh": "骨髓抹片中央有一團緊密相黏的中型單核細胞，染色質細緻、細胞質少且淡；此視野看不到吞噬血球的組織球，單憑此圖無法確認噬血現象，需搭配同案其他圖片。",
+  "features": [
+    "Cohesive cluster of about 25 medium-sized mononuclear cells with nuclear molding",
+    "High N:C ratio with scant pale grey-blue cytoplasm",
+    "Round to oval nuclei with finely granular chromatin; nucleoli inconspicuous",
+    "Scattered single mononuclear cells and red cells in the background",
+    "No histiocyte containing phagocytosed hematopoietic cells in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive aggregate of medium-sized mononuclear cells with high N:C ratio, finely granular chromatin and scant pale cytoplasm, with focal nuclear molding. Scattered single mononuclear cells and red cells are present in the background. No hemophagocytic histiocytes are identified in this field, so the image does not by itself demonstrate hemophagocytosis. The nature of the cluster (clumped hematopoietic precursors versus non-hematopoietic tumor cells) cannot be determined from this field; correlation with the remainder of the aspirate, biopsy and immunophenotyping is required.",
+  "ddx": [
+    {"dx": "Metastatic small round blue cell tumor (e.g., neuroblastoma)", "vs": "True cohesive tumor clumps with molding and rosettes favor metastasis, confirmed by IHC (e.g., synaptophysin, PHOX2B) and absence of CD45."},
+    {"dx": "Acute leukemia with clumped blasts", "vs": "Blasts are usually dispersed singly and show nucleoli; flow cytometry for CD34/CD117/TdT resolves an artifactual clump."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH requires identification of histiocytes containing engulfed red cells, neutrophils or nucleated cells, which are not present in this field."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60610",
+  "recognize_zh": "每格中並列兩種小顆粒：藍色箭頭為紫紅色、有顆粒的真正血小板，紅色箭頭為與紅血球同色、無顆粒、大小相近的極小紅血球或碎片（microcytes/fragments），容易被自動計數器誤算為血小板。",
+  "features": [
+    "Very small red cell fragments and microcytes (red arrows) roughly platelet-sized, staining the same pink-tan color as red cells without granules",
+    "Some small red cells are crenated or have spiky outlines; others are ovoid or teardrop-shaped",
+    "True platelets (blue arrows) are purple with central azurophilic granules and a slightly fuzzy border",
+    "Background: marked poikilocytosis with echinocytes, elliptocytes/ovalocytes and target-like cells",
+    "No nucleated red cells in these fields"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with ovalocytes, elliptocytes and crenated cells. Numerous extremely small red cells and red cell fragments are present that approach the size of platelets but lack granules and stain the color of hemoglobin, in contrast to true platelets, which are purple and granular. Such microcytes and fragments can be counted as platelets by impedance analyzers, spuriously elevating the platelet count, and a smear review or optical/fluorescent platelet count is recommended. Findings are consistent with severe microcytosis and fragmentation in beta-thalassemia causing pseudothrombocytosis.",
+  "ddx": [
+    {"dx": "Schistocytes in microangiopathic hemolytic anemia", "vs": "MAHA fragments are helmet and triangular cells with thrombocytopenia, whereas here the tiny cells accompany thalassemic poikilocytosis."},
+    {"dx": "Giant or large platelets", "vs": "Platelets of any size retain purple granules and a pale hyalomere, unlike the homogeneous hemoglobinized microcytes."},
+    {"dx": "Microspherocytes (burns, hereditary spherocytosis)", "vs": "Microspherocytes are round, dense and lack central pallor, whereas many small cells here are irregular or crenated fragments."},
+    {"dx": "Cryoglobulin or cellular debris", "vs": "Cryoprecipitates are pale blue amorphous deposits and debris lacks the red cell color and shape."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

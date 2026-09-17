@@ -1,0 +1,22 @@
+{
+  "id": "64024",
+  "recognize_zh": "低倍周邊血抹片中，紅血球之間佈滿大量小而圓、深紫色、胞質極少的淋巴球，數量遠超過其他白血球，可見少數被壓扁的破碎細胞（smudge cells），呈現絕對淋巴球增多。",
+  "features": [
+    "Marked increase in small, round lymphoid cells with dense nuclei and scant cytoplasm",
+    "Relatively monotonous population at low power",
+    "Rare smudge cells",
+    "Few neutrophils relative to lymphocytes",
+    "Low magnification and photographic quality limit assessment of chromatin and nucleoli"
+  ],
+  "describe_en": "Peripheral blood smear at low power shows marked absolute lymphocytosis composed predominantly of small, mature-appearing lymphocytes with round nuclei, condensed chromatin, and scant cytoplasm. Occasional smudge cells are present, and granulocytes are relatively few. Nuclear detail (chromatin pattern, nucleoli, nuclear contour) cannot be adequately assessed at this magnification and image quality. Findings are suggestive of a chronic lymphoproliferative disorder such as CLL; flow cytometric immunophenotyping is recommended for confirmation.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL shows small lymphocytes with soccer-ball chromatin and abundant smudge cells, and is confirmed by a CD5+/CD23+/dim sIg clonal B-cell population on flow."},
+    {"dx": "Leukemic mantle cell lymphoma", "vs": "MCL cells often have more irregular nuclear contours and are CD5+/CD23-/cyclin D1+, which morphology at this power cannot separate."},
+    {"dx": "Reactive lymphocytosis (e.g., viral)", "vs": "Reactive lymphocytes are heterogeneous with abundant basophilic cytoplasm and scalloping around red cells rather than a monotonous small-cell population."},
+    {"dx": "Leukemic phase of follicular or marginal zone lymphoma", "vs": "These show cleaved (buttock) nuclei or villous cytoplasmic projections, respectively, and are CD5-negative on flow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

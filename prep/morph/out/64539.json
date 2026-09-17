@@ -1,0 +1,23 @@
+{
+  "id": "64539",
+  "recognize_zh": "關節液抹片中可見短小、兩端鈍平的長方形或菱形晶體（箭頭），有些在細胞外、有些被嗜中性球吞入，這種短棒狀晶體是焦磷酸鈣（CPPD）晶體的線索。",
+  "features": [
+    "Short, rod-shaped to rhomboid crystals with blunt, squared ends (arrows)",
+    "Crystals shorter than a neutrophil diameter, both extracellular and intracellular",
+    "Crystal within neutrophil cytoplasm in the lower right panel",
+    "Numerous segmented neutrophils in an inflammatory fluid",
+    "Proteinaceous granular pink background; image quality and focus limited",
+    "Polarization not shown, so birefringence cannot be assessed"
+  ],
+  "describe_en": "Multiple fields from a stained synovial fluid smear show a neutrophil-rich inflammatory background with scattered short rod-shaped and rhomboid crystals with blunt ends, lying both free and within neutrophil cytoplasm. The crystals are smaller than a neutrophil and lack needle-like tapered ends. Compensated polarized light microscopy is not demonstrated. Findings are suggestive of calcium pyrophosphate dihydrate crystal arthropathy; confirm weak positive birefringence under polarized light.",
+  "ddx": [
+    {"dx": "Monosodium urate crystals (gout)", "vs": "Urate crystals are long thin needles with pointed ends showing strong negative birefringence, whereas CPPD crystals are short rhomboid/rod shapes with weak positive birefringence."},
+    {"dx": "Corticosteroid crystals (post-injection)", "vs": "Steroid crystals are irregular, pleomorphic, and variably birefringent with a history of recent intra-articular injection."},
+    {"dx": "Cholesterol crystals", "vs": "Cholesterol crystals are large flat plates with notched corners, much larger than a neutrophil."},
+    {"dx": "Stain precipitate or debris", "vs": "Artifacts are irregular and not phagocytosed, and they lack the geometric, uniform rhomboid outline."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61159",
+  "recognize_zh": "A、B 圖骨髓芽細胞具豐富嗜鹼性細胞質，內有淡灰藍色的圓形包涵體與細長的類 Auer 小體結構（紅箭頭）及空泡；C 圖 MPO 染色中細胞質為棕色陽性但包涵體不染色；D 圖 RT-PCR 膠體顯示病人與陽性對照同位置條帶，對應 t(8;21) 融合轉錄物。",
+  "features": [
+    "Panels A-B: blasts with large nuclei, fine chromatin and moderate basophilic cytoplasm containing pale grey-blue round inclusions and elongated Auer rod-like structures (red arrows)",
+    "Several blasts show cytoplasmic vacuoles and occasional perinuclear pale zones",
+    "Panel C: MPO cytochemistry shows granular brown positivity in blast cytoplasm, while the inclusions and rod-like structures remain unstained (arrows)",
+    "Panel D: agarose gel with 50 bp and 100 bp ladders; no band in negative control, band in positive control and an identically sized band in the patient sample",
+    "A cell with an abnormally clumped/lobulated nucleus is present among the blasts (panel B)"
+  ],
+  "describe_en": "Bone marrow aspirate shows blasts with fine chromatin and moderately abundant basophilic cytoplasm, many containing pale grey-blue round inclusions and elongated Auer rod-like structures, with scattered cytoplasmic vacuoles. Myeloperoxidase cytochemistry demonstrates granular positivity in the blast cytoplasm, but the inclusions and rod-like structures are MPO negative, unlike true Auer rods. RT-PCR shows a product in the patient sample comigrating with the positive control and absent in the negative control. Findings are consistent with acute myeloid leukemia with RUNX1::RUNX1T1 containing unusual MPO-negative inclusions.",
+  "ddx": [
+    {"dx": "True Auer rods", "vs": "Genuine Auer rods are fused primary granules and are strongly MPO positive, whereas these structures do not stain with MPO."},
+    {"dx": "Pseudo-Chediak-Higashi granules", "vs": "Pseudo-Chediak-Higashi granules are large azurophilic granules that are typically MPO positive, while these inclusions are pale and MPO negative."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL shows heavily granular or bilobed promyelocytes with bundles of MPO-positive Auer rods (faggot cells) and PML::RARA rather than RUNX1::RUNX1T1."},
+    {"dx": "Phagocytosed material or intracellular organisms", "vs": "Phagocytic inclusions are heterogeneous in shape and often within vacuoles, whereas these inclusions are uniform and occur across many leukemic blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; MPO cytochemistry; RT-PCR gel",
+  "match": "consistent",
+  "high_yield": false
+}

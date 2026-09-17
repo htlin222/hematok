@@ -1,0 +1,22 @@
+{
+  "id": "60089",
+  "recognize_zh": "整個視野幾乎都是大小一致的脂肪細胞，造血細胞只剩脂肪間狹窄的條索，細胞量明顯低於 10%，且看不到異常浸潤細胞；這是嚴重低細胞性骨髓（hypocellular marrow），在兒童須考慮先天性骨髓衰竭如 dyskeratosis congenita。",
+  "features": [
+    "Markedly hypocellular marrow (<10% cellularity) replaced by mature adipocytes",
+    "Residual hematopoietic tissue confined to thin interstitial strands between fat cells",
+    "Residual cells are predominantly small round mononuclear cells (lymphocytes/erythroid precursors) with extravasated red cells",
+    "No megakaryocytes identified in this field; granulopoiesis inconspicuous",
+    "No fibrosis, granulomas, or infiltrating atypical/blast population"
+  ],
+  "describe_en": "Bone marrow core biopsy sections show a markedly hypocellular marrow with cellularity well below 10%, the marrow space being occupied almost entirely by mature adipose tissue. Residual hematopoietic elements are present only as thin interstitial strands and consist mainly of small mononuclear cells with interstitial hemorrhage; megakaryocytes are not identified in this field and trilineage hematopoiesis is markedly reduced. There is no fibrosis, granulomatous inflammation, or infiltrate of atypical cells or blasts. Findings are consistent with severe marrow aplasia; in the appropriate clinical setting (mucocutaneous triad, short telomeres) this supports an inherited bone marrow failure syndrome such as dyskeratosis congenita.",
+  "ddx": [
+    {"dx": "Acquired aplastic anemia", "vs": "Morphologically identical fatty marrow; distinguished by clinical features, telomere length testing, and germline genetics (TERT, TERC, DKC1) rather than histology."},
+    {"dx": "Hypocellular myelodysplastic neoplasm", "vs": "Shows dysplastic megakaryocytes, clustered CD34+ blasts, or clonal cytogenetic abnormalities, which are absent in this bland aplastic marrow."},
+    {"dx": "Fanconi anemia", "vs": "Also an inherited aplastic marrow; separated by chromosome breakage testing with DEB/MMC rather than morphology."},
+    {"dx": "Hypocellular AML or hairy cell leukemia", "vs": "Would show an infiltrate of blasts or hairy cells (with reticulin fibrosis in HCL) within the residual cellular areas, not seen here."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

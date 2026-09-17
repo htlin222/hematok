@@ -1,0 +1,30 @@
+{
+ "id": "61249",
+ "recognize_zh": "骨髓抹片中一大片細胞彼此黏聚成融合狀（syncytial）的團塊，細胞核大而圓、核仁清楚、細胞質豐富且邊界不清，外觀與周圍造血細胞完全不同，符合轉移性癌細胞。",
+ "features": [
+  "Large cohesive syncytial sheet of cells with indistinct cell borders",
+  "Large round to oval nuclei, several times the size of adjacent lymphocytes, with mild anisonucleosis",
+  "Finely granular to vesicular chromatin with small but distinct nucleoli",
+  "Abundant pale basophilic to lavender cytoplasm",
+  "Overlapping, crowded nuclei in thicker areas of the cluster; scattered hematopoietic cells at the periphery"
+ ],
+ "describe_en": "Wright-stained bone marrow aspirate smear shows a large cohesive cluster of non-hematopoietic cells with indistinct cell borders forming a syncytial aggregate. The cells have large round to oval nuclei with fine chromatin, small distinct nucleoli and abundant pale basophilic cytoplasm, and they are several times larger than the scattered background hematopoietic cells. Findings are consistent with metastatic carcinoma involving the bone marrow; given the history, breast primary is favored, and confirmation by core biopsy with immunohistochemistry (e.g., cytokeratin, GATA3) is recommended.",
+ "ddx": [
+  {
+   "dx": "Megakaryocytes",
+   "vs": "Megakaryocytes are solitary cells with a single multilobated nucleus and granular cytoplasm, not clusters of multiple separate round nuclei."
+  },
+  {
+   "dx": "Osteoclasts",
+   "vs": "Osteoclasts are single giant cells with multiple uniform, well-separated nuclei inside one sharply defined cell with granular cytoplasm, without nuclear atypia."
+  },
+  {
+   "dx": "Clustered blasts or lymphoma cells",
+   "vs": "Hematolymphoid neoplasms are dyscohesive single cells, whereas this aggregate shows true cohesion; cytokeratin versus CD45 immunostaining resolves difficult cases."
+  }
+ ],
+ "specimen": "BM aspirate",
+ "stain": "Wright",
+ "match": "consistent",
+ "high_yield": true
+}

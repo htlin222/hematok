@@ -1,0 +1,21 @@
+{
+  "id": "64572",
+  "recognize_zh": "數個嗜中性球與單核球周圍被大量小血小板緊密包圍、黏附成團，其他區域血小板稀少，這種繞著白血球排列的血小板就是血小板衛星現象（platelet satellitism）。",
+  "features": [
+    "Neutrophils and a monocyte rimmed and overlapped by numerous adherent platelets",
+    "Platelet clusters confined to leukocyte surfaces, forming small leukocyte-platelet aggregates",
+    "Few free-lying platelets in the background",
+    "Leukocytes otherwise show normal segmented or folded nuclei",
+    "Background red cells normochromic with one small lymphocyte in the corner"
+  ],
+  "describe_en": "Peripheral blood smear shows several neutrophils and a monocyte surrounded by rosettes of adherent platelets, with platelets clustered on and around the leukocyte membranes. Free platelets in the intervening background are sparse. The leukocytes and red cells are otherwise unremarkable. Findings are consistent with platelet satellitism, an in vitro EDTA-dependent phenomenon that can cause spurious thrombocytopenia; recommend a repeat count in citrate or a fingerstick smear.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping without satellitism", "vs": "Platelet clumps float free in the background rather than rimming leukocytes, though both cause pseudothrombocytopenia."},
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows few platelets throughout the smear with no clumps or satellites, and the count does not correct in citrate."},
+    {"dx": "Phagocytosed platelets or intracellular inclusions", "vs": "Here platelets sit on the cell surface at the periphery rather than within cytoplasmic vacuoles."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

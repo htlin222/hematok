@@ -1,0 +1,20 @@
+{
+  "id": "61500",
+  "recognize_zh": "這是 G 顯帶核型圖而非形態學影像：性染色體區有 2 條 X 加 1 條 Y（X 對被圈起），其餘體染色體各 2 條，總數 47 條，即男性病人的 +X 數目異常（47,XY,+X）。",
+  "features": [
+    "G-banded karyogram with 22 pairs of structurally normal-appearing autosomes",
+    "Two X chromosomes (circled) plus one Y chromosome, giving 47 chromosomes",
+    "No structural rearrangement or marker chromosome in this metaphase",
+    "Banding resolution is moderate; subtle structural changes cannot be excluded"
+  ],
+  "describe_en": "This figure is a G-banded karyogram rather than a morphologic image. It shows 47 chromosomes with two X chromosomes (circled) and one Y chromosome, and no apparent structural abnormality of the autosomes. In a male patient, this represents a numerical gain of chromosome X, reported as 47,XY,+X in the analyzed metaphases. Because a constitutional 47,XXY (Klinefelter) karyotype produces an identical picture, a PHA-stimulated peripheral blood or remission sample is needed to confirm that the gain is acquired and leukemia-specific in this B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "Constitutional Klinefelter syndrome (47,XXY)", "vs": "A constitutional gain is present in all tissues including PHA-stimulated lymphocytes and remission marrow, whereas an acquired +X is restricted to the leukemic clone."},
+    {"dx": "High hyperdiploid B-ALL", "vs": "High hyperdiploidy has 51-67 chromosomes with gains of X, 4, 6, 10, 14, 17, 18, and 21, not an isolated single gain."},
+    {"dx": "Masked hypodiploidy (endoreduplicated near-haploid clone)", "vs": "Doubled hypodiploid clones show paired losses and uniparental disomy patterns across many chromosomes, not a single extra X."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding (GTG)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

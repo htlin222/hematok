@@ -1,0 +1,20 @@
+{
+  "id": "62355",
+  "recognize_zh": "瀰漫性浸潤的腫瘤細胞中，只有一部分呈中度到強度膜狀 CD5 陽性，其餘細胞陰性；T 淋巴母細胞淋巴瘤的 CD5 表現本就不一致，部分喪失並不排除 T 系。",
+  "features": [
+    "Diffuse infiltrate of closely packed cells with scant cytoplasm",
+    "Membranous CD5 staining in a subset of cells, moderate to strong, with many negative cells",
+    "Patchy and heterogeneous staining distribution across the field",
+    "Entrapped negative non-lymphoid structures (possibly vessels or residual epithelium) on the right"
+  ],
+  "describe_en": "Immunohistochemical stain for CD5 shows moderate to strong membranous positivity in a subset of the infiltrating cells, with a substantial proportion negative. Entrapped CD5-negative non-hematopoietic structures are present. Partial CD5 expression is common in T-lymphoblastic leukemia/lymphoma and, when interpreted with CD3, TdT and CD1a, supports T lineage; distinction of positive tumor cells from admixed reactive T cells requires correlation with the other stains.",
+  "ddx": [
+    {"dx": "Reactive T-cell-rich infiltrate", "vs": "Reactive T cells are small mature CD5+ lymphocytes that are TdT-negative and CD1a-negative."},
+    {"dx": "Mantle cell lymphoma, blastoid variant", "vs": "Blastoid MCL is CD5+ but B-lineage (CD20+, PAX5+), cyclin D1+ and SOX11+, and lacks CD3 and TdT."},
+    {"dx": "Thymoma (lymphocyte-rich)", "vs": "Thymocytes in thymoma are CD5+ and TdT+ but are mixed with a cytokeratin-positive epithelial network."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD5",
+  "match": "consistent",
+  "high_yield": false
+}

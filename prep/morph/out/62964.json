@@ -1,0 +1,23 @@
+{
+  "id": "62964",
+  "recognize_zh": "PET 見頸部高代謝腫塊（箭頭），切片為成片大型、核不規則且核仁明顯的腫瘤細胞；CD30 呈強烈均一的膜/高基氏體染色，ALK 陰性，FISH 在兩組分離探針中都見到紅綠訊號分離（箭頭），代表同時有 DUSP22 與 TP63 重組的 ALK 陰性 ALCL。",
+  "features": [
+    "PET-CT (A): FDG-avid bulky cervical mass (arrow)",
+    "H&E (B, inset): diffuse sheets of large pleomorphic cells with vesicular, irregular (some kidney-shaped) nuclei, prominent nucleoli and ample cytoplasm",
+    "IHC (C): strong, uniform membranous and Golgi-type CD30 staining in virtually all tumor cells",
+    "IHC (D): diffuse nuclear positivity in tumor cells (nuclear marker, unlabeled)",
+    "IHC (E): negative stain in tumor cells (consistent with ALK negativity)",
+    "FISH (F, G): break-apart probes showing separated red and green signals (arrows) in tumor nuclei, indicating two distinct rearrangements"
+  ],
+  "describe_en": "Composite figure. PET-CT shows an FDG-avid cervical nodal mass. Biopsy shows diffuse sheets of large pleomorphic lymphoid cells with vesicular, irregular nuclei, prominent nucleoli and abundant cytoplasm. The tumor cells show strong, uniform CD30 staining in a membranous and Golgi pattern, diffuse nuclear staining with a second marker, and no staining with a third marker. Break-apart FISH shows split signals with two separate probes. Findings are consistent with ALK-negative anaplastic large cell lymphoma harboring concurrent DUSP22 and TP63 rearrangements.",
+  "ddx": [
+    {"dx": "ALK-positive ALCL", "vs": "ALK-positive ALCL shows nuclear/cytoplasmic ALK staining from ALK rearrangement, which is negative here."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL has scattered Reed-Sternberg cells in a mixed inflammatory background with CD15+ and weak PAX5, not uniform sheets of CD30+ cells."},
+    {"dx": "PTCL, NOS with CD30 expression", "vs": "PTCL-NOS shows heterogeneous rather than strong uniform CD30 and lacks the hallmark cells and DUSP22/TP63 rearrangements."},
+    {"dx": "Metastatic undifferentiated carcinoma", "vs": "Carcinoma is cytokeratin-positive and CD30/T-cell-marker-negative."}
+  ],
+  "specimen": "other",
+  "stain": "PET-CT; H&E; IHC: CD30 and others; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

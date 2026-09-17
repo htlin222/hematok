@@ -1,0 +1,22 @@
+{
+  "id": "3140",
+  "recognize_zh": "一群大小一致的中型母細胞，核圓、染色質細緻均勻、核仁不明顯，只有極少量淡藍色胞質且無顆粒，符合前驅B淋巴母細胞白血病（B-ALL）的形態。",
+  "features": [
+    "Uniform medium-to-large blasts with very high N:C ratio",
+    "Round to oval nuclei with finely dispersed, evenly stippled chromatin",
+    "Nucleoli inconspicuous",
+    "Scant pale gray-blue agranular cytoplasm, some with small cytoplasmic blebs or tails",
+    "No Auer rods or cytoplasmic granules seen"
+  ],
+  "describe_en": "The smear shows a cluster of monotonous medium-to-large blasts with a very high nuclear-to-cytoplasmic ratio. Nuclei are round to oval with finely dispersed chromatin and inconspicuous nucleoli, and the scant cytoplasm is pale blue and agranular, occasionally forming small blebs. No Auer rods or granules are identified. Findings are consistent with lymphoblastic leukemia; B-lineage assignment requires flow cytometry (CD19, CD10, CD22, cytoplasmic CD79a, TdT).",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL blasts are morphologically indistinguishable and are separated by flow cytometry showing cytoplasmic CD3 and lack of B-lineage markers."},
+    {"dx": "AML with minimal differentiation", "vs": "Minimally differentiated myeloblasts may look identical but express MPO (by flow), CD13, CD33, and CD117 rather than B-cell antigens."},
+    {"dx": "Hematogones", "vs": "Hematogones show a maturation spectrum with more condensed chromatin and a continuous CD10/CD20/CD34 pattern rather than a uniform aberrant population."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is TdT-negative, CD5-positive, and cyclin D1-positive, usually in adults."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60476",
+  "recognize_zh": "周邊血抹片中央一顆單核細胞，圓核染色質均勻細緻，細胞質淡藍灰色，外緣環繞一圈細毛狀突起（circumferential hairy projections），即毛狀細胞白血病的毛狀細胞。",
+  "features": [
+    "Single mononuclear cell somewhat larger than surrounding red cells",
+    "Round nucleus with moderately condensed, homogeneous ground-glass chromatin; no distinct nucleolus",
+    "Moderate grey-blue cytoplasm",
+    "Fine, circumferential hair-like cytoplasmic projections around the entire cell border",
+    "Background of normocytic red cells and a few platelets; no other leukocytes in field"
+  ],
+  "describe_en": "Peripheral blood smear shows a mononuclear lymphoid cell slightly larger than a resting lymphocyte, with a round nucleus, homogeneous moderately condensed chromatin and no conspicuous nucleolus. The moderate grey-blue cytoplasm bears fine, hair-like projections around its entire circumference. The background red cells are normocytic. Findings are consistent with a hairy cell; confirmation of hairy cell leukemia requires flow cytometry (CD11c, CD25, CD103, CD123) and/or BRAF V600E testing.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma (villous lymphocytes)", "vs": "Villous lymphocytes have short polar villi at one or both ends and a more condensed chromatin, and are CD103/CD25/annexin A1 negative."},
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v cells have a prominent nucleolus like prolymphocytes, lack CD25 and annexin A1, and present with leukocytosis rather than monocytopenia."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL cells have broad-based uneven villi and are typically CD25/annexin A1 negative, BRAF wild-type."},
+    {"dx": "Monocyte", "vs": "Monocytes are larger with folded nuclei, lacy chromatin and vacuolated cytoplasm without circumferential hairy projections."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

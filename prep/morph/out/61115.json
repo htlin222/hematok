@@ -1,0 +1,22 @@
+{
+  "id": "61115",
+  "recognize_zh": "骨盆 X 光顯示骨質粗糙增厚與硬化（Paget 病樣），骨髓抹片見增多的漿細胞；骨切片可見大量多核蝕骨細胞位於吸收凹陷（Howship lacunae，箭頭）、骨小樑呈不規則鑲嵌狀黏合線（mosaic pattern）與骨髓纖維化，兩個疾病同時存在。",
+  "features": [
+    "Radiograph (A): coarse trabecular thickening and sclerosis of the pelvis and sacrum, consistent with Paget disease of bone",
+    "Aspirate (B): increased plasma cells with eccentric nuclei, clumped chromatin and basophilic cytoplasm, some binucleated/larger forms",
+    "Biopsy (C, E): numerous large multinucleated osteoclasts, some in Howship lacunae (arrow in E), with fibrovascular marrow stroma",
+    "Bone (F): irregular trabeculae with haphazard cement lines forming a mosaic pattern (arrow)",
+    "Panel D: marrow fragment with low cellularity on a light stain; panel G: special stain highlighting fibrous stroma (green)"
+  ],
+  "describe_en": "Composite figure. The pelvic radiograph shows coarse, thickened trabeculae and sclerosis typical of Paget disease of bone. The bone marrow aspirate demonstrates an increase in plasma cells with eccentric nuclei and basophilic cytoplasm, including larger atypical forms. The trephine biopsy shows increased osteoclastic activity with numerous multinucleated osteoclasts in resorption lacunae, fibrovascular replacement of the intertrabecular marrow, and bone with a mosaic cement line pattern, with fibrosis highlighted on a special stain. Findings are consistent with coexisting plasma cell myeloma and Paget disease of bone; the lytic and sclerotic changes of each must be distinguished radiologically and histologically.",
+  "ddx": [
+    {"dx": "Hyperparathyroidism (osteitis fibrosa cystica)", "vs": "Hyperparathyroidism shows dissecting (tunneling) resorption and peritrabecular fibrosis but lacks a mosaic cement line pattern, with elevated PTH and calcium."},
+    {"dx": "Osteosclerotic myeloma / POEMS syndrome", "vs": "POEMS lesions are sclerotic with lambda-restricted plasma cells rimming thickened trabeculae but lack Pagetoid osteoclast hyperactivity and mosaic bone."},
+    {"dx": "Metastatic prostate carcinoma", "vs": "Osteoblastic metastases show cohesive keratin/PSA-positive tumor cells in fibrotic marrow rather than a mosaic pattern."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are mature, perivascular and polytypic, whereas myeloma shows monotypic light chains and clonal markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Radiograph, Wright-Giemsa, H&E, special stains",
+  "match": "consistent",
+  "high_yield": false
+}

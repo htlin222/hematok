@@ -1,0 +1,21 @@
+{
+  "id": "60590",
+  "recognize_zh": "骨髓切片可見被纖維包圍、實心成片的腫瘤細胞巢；抹片中是成群、核圓、染色質呈椒鹽狀（salt-and-pepper）、細胞質淡而邊界不清的非造血細胞，易被誤認為漿細胞或淋巴瘤，細胞學免疫染色呈細胞質陽性（如 calcitonin/chromogranin），符合甲狀腺髓質癌骨髓轉移。",
+  "features": [
+    "Biopsy: solid sheet/nest of monotonous tumor cells sharply demarcated by fibrous stroma, with adjacent fat",
+    "Aspirate: loose clusters of medium-sized non-hematopoietic cells with round to oval, often eccentric nuclei (plasmacytoid)",
+    "Finely granular 'salt-and-pepper' neuroendocrine chromatin, inconspicuous nucleoli and pale, ill-defined cytoplasm",
+    "Cytologic immunostains (D, E): strong cytoplasmic positivity in tumor cell clusters, consistent with neuroendocrine/calcitonin markers (antibodies not labeled)"
+  ],
+  "describe_en": "Bone marrow biopsy shows a large solid nest of monotonous tumor cells replacing the marrow, circumscribed by fibrous stroma. The aspirate smears show clusters of medium-sized cells with round, sometimes eccentric nuclei, finely stippled salt-and-pepper chromatin and pale ill-defined cytoplasm, which can mimic plasma cells. Immunocytochemistry on the smears shows strong cytoplasmic staining of the tumor cells; the specific antibodies are not labeled in the figure. Findings are consistent with metastatic neuroendocrine carcinoma involving the bone marrow, in keeping with medullary thyroid carcinoma in the stated clinical context (confirmed with calcitonin, CEA and chromogranin).",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Plasma cells have clock-face chromatin, a perinuclear hof and deeply basophilic cytoplasm and are CD138/light-chain positive, not calcitonin/chromogranin positive."},
+    {"dx": "Metastatic small cell lung carcinoma or other neuroendocrine tumor", "vs": "Small cell carcinoma shows nuclear molding and scant cytoplasm with TTF-1; calcitonin, CEA and elevated serum calcitonin favor medullary thyroid carcinoma."},
+    {"dx": "Neuroblastoma or Ewing sarcoma", "vs": "These occur in children, form rosettes with scant cytoplasm and are PHOX2B or CD99/NKX2.2 positive rather than calcitonin positive."},
+    {"dx": "Large cell lymphoma", "vs": "Lymphoma cells are discohesive and CD45 positive, lacking the cohesive clusters and neuroendocrine chromatin."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "H&E; Wright-Giemsa; ICC (markers not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

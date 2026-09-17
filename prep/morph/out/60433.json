@@ -1,0 +1,21 @@
+{
+  "id": "60433",
+  "recognize_zh": "高倍下是一片密集的小至中型淋巴球背景，其間散布少數核較大、染色質較淡、呈空泡狀並略有摺疊的細胞（中央偏右區域最明顯），可能即為 LP 細胞；但此圖中典型多葉「爆米花（popcorn）」核並不突出，需配合低倍結節結構與 CD20、OCT2 染色才能確認。",
+  "features": [
+    "Dense background of small to intermediate lymphocytes with round to slightly irregular nuclei",
+    "Scattered larger cells with vesicular, pale chromatin and folded/lobated nuclear outlines, most evident in the central-right field (candidate LP cells)",
+    "Characteristic multilobated 'popcorn' nuclei are not conspicuous at this resolution",
+    "Occasional histiocytes with pale pink cytoplasm; no eosinophils, neutrophils, or necrosis",
+    "No classic Reed-Sternberg cells with large eosinophilic nucleoli identified"
+  ],
+  "describe_en": "High-power H&E section of lymph node shows a dense population of small to intermediate lymphocytes. Scattered among them are larger cells with vesicular, pale chromatin, small nucleoli and folded nuclear contours, consistent with lymphocyte-predominant (LP) cells, although well-formed multilobated popcorn nuclei are not prominent in this field. There is no polymorphous inflammatory background with eosinophils or plasma cells, and no classic Reed-Sternberg cells are identified. In the context of a nodular architecture and appropriate immunophenotype (CD20+, OCT2+, CD30-, CD15-), the findings are suggestive of nodular lymphocyte predominant Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-rich", "vs": "Lymphocyte-rich cHL contains classic Hodgkin/Reed-Sternberg cells with large eosinophilic nucleoli that are CD30+/CD15+ and CD20-/OCT2-weak, unlike CD20+/OCT2-strong LP cells."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered large B cells in a diffuse T-cell and histiocyte background without CD21-positive FDC meshworks or small B-cell-rich nodules."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC forms large nodules of small mantle B cells but lacks the scattered LP (popcorn) cells rimmed by PD-1-positive T cells."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

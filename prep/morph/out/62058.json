@@ -1,0 +1,21 @@
+{
+  "id": "62058",
+  "recognize_zh": "紅色免疫染色中倍下，陽性細胞不形成明顯結節而是廣泛散佈，其中許多呈中空的環狀結構（疑為包圍 LP 細胞的 rosettes 或膜染色的大細胞），反映 NLPHL 中較瀰漫的變異型態。",
+  "features": [
+    "Diffusely distributed positive cells without a well-defined nodular arrangement in this field",
+    "Numerous ring-shaped positive structures with unstained centers, compatible with rosettes around large cells or membranous staining of large cells",
+    "Scattered smaller positive cells with membranous red staining between the rings",
+    "Background of numerous negative small lymphocytes",
+    "Antibody identity not labeled in the image"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen, antibody not specified in the image) of lymph node at medium power shows positive cells distributed diffusely across the field without a clear nodular pattern. Many positive structures form rings with unstained centers, which may represent rosettes of positive T cells around large cells or crisp membranous staining of large cells; distinction requires higher magnification. Scattered smaller positive cells lie among a predominantly negative small lymphocyte background. In the context of nodular lymphocyte predominant Hodgkin lymphoma, a diffuse distribution suggests a variant (diffuse or T-cell-rich) pattern; correlation with the labeled immunopanel, CD21 for follicular dendritic meshworks, and assessment for progression is required.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered large B cells in a diffuse CD8+ T-cell background that typically lacks PD-1+ rosettes and residual CD21+ meshworks."},
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-rich", "vs": "LRCHL may show rosettes but its large cells are CD30+/CD15+ and weak for PAX5, which requires dedicated staining to separate."},
+    {"dx": "Reactive paracortical hyperplasia", "vs": "Reactive paracortex shows a mixed population of immunoblasts with preserved sinuses and follicles, not diffuse ringed large cells effacing the node."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (red chromogen)",
+  "match": "consistent",
+  "high_yield": false
+}

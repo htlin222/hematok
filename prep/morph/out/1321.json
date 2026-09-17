@@ -1,0 +1,21 @@
+{
+  "id": "1321",
+  "recognize_zh": "巨核細胞的核分裂成多個彼此分離的圓形核塊，排列在細胞周邊（類似 pawn-ball 樣分離核葉），在化療後骨髓中是巨核細胞的治療相關變化。",
+  "features": [
+    "Large megakaryocyte with multiple widely separated, round nuclear lobes (detached lobes)",
+    "Nuclear lobes arranged in a ring around a central zone of pale, finely granular cytoplasm",
+    "Individual lobes with condensed but not pyknotic chromatin",
+    "Pale blue-gray cytoplasm with ill-defined borders",
+    "Background of scattered erythroid precursors, lymphocytes and granulocytes with abundant red cells and clumped platelets"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large megakaryocyte whose nucleus is fragmented into multiple discrete, rounded lobes that are separated from one another and arranged around a central cytoplasmic zone. The surrounding cells include erythroid precursors, lymphocytes and granulocytes; clumped platelets are present. In a patient after cytotoxic therapy, this megakaryocytic nuclear separation is consistent with chemotherapy effect and should not by itself be interpreted as myelodysplasia.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm (megakaryocytes with multiple separated nuclei)", "vs": "In MDS, megakaryocytes with widely separated nuclei occur without recent cytotoxic exposure and are accompanied by persistent multilineage dysplasia and clonal abnormalities."},
+    {"dx": "Megakaryocyte in mitosis or apoptosis (naked/fragmented nuclei)", "vs": "Apoptotic megakaryocytes show pyknotic, dark nuclear fragments and a naked nucleus, whereas these lobes retain structured chromatin within intact cytoplasm."},
+    {"dx": "Multinucleated osteoclast", "vs": "Osteoclasts have many uniform, separate, round nuclei with nucleoli and abundant granular cytoplasm, and their nuclei are not lobes of a single polyploid nucleus."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

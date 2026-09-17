@@ -1,0 +1,22 @@
+{
+  "id": "3960",
+  "recognize_zh": "血片中可見多個兩端尖細的鐮刀狀紅血球（sickle cells，雙箭頭），加上許多含 Howell-Jolly 小體的紅血球與標靶細胞，提示鐮刀型貧血合併脾功能低下。",
+  "features": [
+    "Numerous elongated, crescent-shaped sickle cells with pointed ends (double arrow)",
+    "Frequent Howell-Jolly bodies within red cells, indicating functional asplenia",
+    "Scattered target cells and polychromatophilic red cells (single arrow at left)",
+    "Anisopoikilocytosis with small dense cells (arrow at right)",
+    "Platelets adequate; a single small nucleated cell at upper right"
+  ],
+  "describe_en": "Peripheral blood smear shows marked poikilocytosis with numerous sickle cells (drepanocytes) having elongated, pointed ends. Many red cells contain Howell-Jolly bodies, and target cells and polychromatophilic cells are present. Scattered small dense cells are also seen. Platelets are adequate in number. Findings are consistent with sickle cell disease with evidence of hyposplenism (autosplenectomy).",
+  "ddx": [
+    {"dx": "Hemoglobin SC disease", "vs": "HbSC shows fewer classic sickle cells and more target cells with blunt, crystal-containing 'SC' poikilocytes, confirmed by hemoglobin electrophoresis/HPLC."},
+    {"dx": "Sickle beta-thalassemia", "vs": "Sickle beta-thalassemia adds prominent microcytosis and hypochromia, with elevated HbA2 on HPLC."},
+    {"dx": "Elliptocytosis/ovalocytosis", "vs": "Elliptocytes are oval with rounded ends and lack the pointed crescent shape and Howell-Jolly bodies of sickle cell disease."},
+    {"dx": "Post-splenectomy blood picture", "vs": "Howell-Jolly bodies and target cells occur after splenectomy but true sickle cells are absent."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

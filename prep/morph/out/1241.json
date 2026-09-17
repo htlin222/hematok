@@ -1,0 +1,21 @@
+{
+  "id": "1241",
+  "recognize_zh": "骨髓切片高倍下幾乎全被中型未成熟細胞取代，核圓或卵圓、染色質細緻、可見小核仁，部分細胞胞質呈淡粉紅（顆粒球分化），正常脂肪與三系造血消失；切片可看出白血病取代骨髓，但成熟比例仍須靠抽吸液計數。",
+  "features": [
+    "Diffuse sheets of intermediate-sized immature cells replacing marrow space",
+    "Round to oval nuclei with fine chromatin and small nucleoli",
+    "Moderate pale to eosinophilic cytoplasm in a subset of cells, suggesting granulocytic differentiation",
+    "Scattered cells with smaller, more condensed nuclei; megakaryocytes and erythroid islands not evident",
+    "Scattered extravasated red cells; fat spaces markedly reduced"
+  ],
+  "describe_en": "Bone marrow core biopsy at high power shows diffuse replacement of the marrow by sheets of intermediate-sized immature cells with round to oval nuclei, fine chromatin, small nucleoli and moderate amounts of pale cytoplasm. A subset of cells has more eosinophilic cytoplasm and smaller, more condensed nuclei, suggesting some granulocytic maturation, whereas normal erythroid islands and megakaryocytes are not evident. The histologic features support involvement by acute myeloid leukemia; enumeration of maturing granulocytes on the aspirate or CD34/MPO immunostains is needed to classify it as AML with maturation.",
+  "ddx": [
+    {"dx": "AML without maturation", "vs": "Histology cannot reliably quantify maturing granulocytes, so the aspirate differential (<10% maturing cells) distinguishes it."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts have scant cytoplasm and no eosinophilic granulocytic differentiation, and are TdT/CD19 or CD3 positive and MPO negative."},
+    {"dx": "Myeloid sarcoma or metastatic carcinoma", "vs": "Carcinoma forms cohesive nests with keratin positivity, whereas this discohesive sheet of immature cells requires MPO/CD34/CD117 staining."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

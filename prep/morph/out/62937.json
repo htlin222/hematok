@@ -1,0 +1,22 @@
+{
+  "id": "62937",
+  "recognize_zh": "周邊血抹片中一個分葉核嗜中性球的細胞質內有數顆大小不一、形狀不規則的深洋紅至紫色巨大顆粒（giant granules），明顯大於正常嗜中性顆粒，這是 Chediak-Higashi 症候群的特徵性包涵體。",
+  "features": [
+    "Segmented neutrophil with multiple large, irregular, deep magenta-purple cytoplasmic granules",
+    "Giant granules vary in size, several approaching the size of a nuclear lobe fragment",
+    "Remaining cytoplasm pale with few normal-sized granules",
+    "Surrounding red cells normocytic and normochromic",
+    "Image resolution is somewhat limited, with mild blur"
+  ],
+  "describe_en": "Peripheral blood smear at oil immersion shows a segmented neutrophil containing multiple large, irregular, deep magenta-purple cytoplasmic granules that are strikingly larger than normal neutrophilic granules. The background cytoplasm is otherwise pale. Surrounding red cells are normocytic and normochromic. Image resolution is modest, but the granule size is clearly abnormal. Findings are consistent with the giant granules of Chediak-Higashi syndrome.",
+  "ddx": [
+    {"dx": "Toxic granulation", "vs": "Toxic granules are fine, uniform, dark purple azurophilic granules evenly distributed throughout the cytoplasm, not a few giant irregular inclusions."},
+    {"dx": "Alder-Reilly anomaly", "vs": "Alder-Reilly granules are coarse and dark but uniform and diffuse, and they occur in all leukocytes in mucopolysaccharidoses without giant fused granules."},
+    {"dx": "Döhle bodies / May-Hegglin anomaly", "vs": "These are pale blue cytoplasmic inclusions, not magenta-purple granules, and May-Hegglin has giant platelets."},
+    {"dx": "Pseudo-Chediak-Higashi granules in AML/MDS", "vs": "Pseudo-CH granules occur in dysplastic or leukemic myeloid cells in adults with blasts or dysplasia, not in an otherwise normal hemogram."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

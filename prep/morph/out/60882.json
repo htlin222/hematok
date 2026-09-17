@@ -1,0 +1,22 @@
+{
+  "id": "60882",
+  "recognize_zh": "骨髓抹片中央有兩個明顯比中性球大的細胞，核形不規則、有凹摺，胞質淡藍、邊緣帶有小而清楚的空泡，與周圍正常造血細胞形態格格不入，需懷疑轉移性腫瘤（此例為肺泡型橫紋肌肉瘤）。",
+  "features": [
+    "Two large atypical cells, roughly twice the size of adjacent neutrophils, with high N:C ratio",
+    "Irregular, folded/notched nuclei with finely granular deep-purple chromatin; nucleoli not clearly seen",
+    "Scant pale blue cytoplasm with small, discrete, clear marginal vacuoles",
+    "Adjacent basophil and maturing neutrophils/bands appear morphologically normal",
+    "Background red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Wright-Giemsa-stained bone marrow aspirate smear shows two large atypical cells distinct from the background hematopoietic elements. They have irregular, folded nuclei with dense but finely granular chromatin and scant pale blue cytoplasm containing small clear vacuoles, most prominent at the cell periphery. Surrounding neutrophils, bands and a basophil appear unremarkable. The morphology alone is not lineage-specific and could be mistaken for blasts; in the clinical context and with corroborating biopsy immunohistochemistry, findings are consistent with metastatic alveolar rhabdomyosarcoma.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia (monoblasts) or B-lymphoblastic leukemia", "vs": "Leukemic blasts are discohesive and CD45/CD34/TdT or MPO positive by flow or cytochemistry, whereas rhabdomyosarcoma cells are CD45 negative and often form clumps; desmin/myogenin on the biopsy resolves this."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with numerous sharply punched-out vacuoles and express CD19/CD10 with MYC rearrangement."},
+    {"dx": "Metastatic neuroblastoma", "vs": "Neuroblastoma cells are smaller, form clumps or rosettes with fibrillary neuropil, and are CD56+/CD45- with PHOX2B and GD2 positivity."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing cells show vacuolated (PAS+ glycogen) cytoplasm too, but are CD99/NKX2.2 positive and myogenin negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

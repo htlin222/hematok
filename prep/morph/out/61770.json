@@ -1,0 +1,22 @@
+{
+  "id": "61770",
+  "recognize_zh": "A 為 H&E，細胞核偏心、染色質粗、細胞質嗜酸，呈漿細胞樣；B–H 為未標示抗體的免疫組化與原位雜交組合，包含膜狀陽性、核與細胞質強陽性、細胞質紅色陽性與陰性對照等；題目所指的漿細胞腫瘤表現 T 細胞抗原需依抗體標示判讀，圖上無法逐一確認。",
+  "features": [
+    "Panel A (H&E): sheet of plasmacytoid cells with eccentric round nuclei, coarse or vesicular chromatin, occasional nucleoli and moderate eosinophilic cytoplasm; some binucleate/atypical forms",
+    "Panels B and D: membranous/cytoplasmic brown staining outlining the neoplastic cells",
+    "Panel C: strong diffuse nuclear and cytoplasmic brown staining in nearly all cells",
+    "Panels E and F: paired stains with red cytoplasmic signal in E and negative cells in F, in keeping with light-chain restriction by ISH or IHC",
+    "Panels G and H: strong membranous/cytoplasmic staining (G) and weaker membranous staining (H); the antigens are not labeled in the image"
+  ],
+  "describe_en": "The H&E section shows a sheet of atypical plasmacytoid cells with eccentric nuclei, coarse to vesicular chromatin and moderate amphophilic to eosinophilic cytoplasm. The accompanying immunostains show diffuse membranous positivity (B, D), strong nuclear and cytoplasmic positivity (C), cytoplasmic staining in one light-chain preparation with a negative counterpart (E, F), consistent with monotypic light-chain expression, and strong (G) and weak (H) membranous staining in the tumor cells. Because the antibodies are not labeled, the specific aberrant T-cell antigens (e.g. CD3, CD4, CD7 or CD56) cannot be verified directly from the figure. The findings are consistent with a clonal plasma cell neoplasm with an aberrant immunophenotype, and the T-cell marker expression should not be mistaken for a T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Cells are larger immunoblastic forms with high Ki-67, EBER positivity and often an immunocompromised host, whereas myeloma is usually EBER negative with a lower proliferation index."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Shares CD30 and loss of B-cell markers, and may express CD4 or cytotoxic markers, but lacks CD138/MUM1 with cytoplasmic light-chain restriction and shows hallmark cells."},
+    {"dx": "Peripheral T-cell lymphoma with plasmacytoid morphology", "vs": "Tumor cells are CD138 negative and lack monotypic cytoplasmic light chains, with clonal TCR rather than IG rearrangement."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "Contains a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with CD20+ B-cell component and MYD88 L265P."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC and ISH (unlabeled)",
+  "match": "partial",
+  "high_yield": false
+}

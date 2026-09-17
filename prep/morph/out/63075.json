@@ -1,0 +1,21 @@
+{
+  "id": "63075",
+  "recognize_zh": "CD15 染色中，只有少數散在的小型不規則細胞（顆粒球）呈棕色陽性，作為內部陽性對照；中央幾顆核大而淡、核仁明顯的大型細胞則完全不染；大細胞 CD15 陰性符合 NLPHL 的 LP 細胞，可與 CD15+ 的典型 RS 細胞區分。",
+  "features": [
+    "Immunohistochemical stain for CD15 at high power",
+    "Scattered small cells with strong granular membranous/cytoplasmic CD15 staining (granulocytes, internal positive control)",
+    "Several large cells with vesicular nuclei and visible nucleoli (e.g., center and left) are CD15-negative",
+    "Background small lymphocytes are negative",
+    "No membranous or Golgi CD15 staining in large atypical cells"
+  ],
+  "describe_en": "Immunohistochemical stain for CD15 shows staining limited to scattered small granulocytes, which serve as an internal positive control. The large atypical cells with vesicular nuclei and distinct nucleoli are negative, as are the background small lymphocytes. The absence of CD15 in the large cells argues against Hodgkin/Reed-Sternberg cells of classic Hodgkin lymphoma and supports LP cells. Findings are consistent with nodular lymphocyte predominant Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are CD15-positive in most cases with membranous and paranuclear dot staining, together with CD30 positivity, whereas the large cells here are CD15-negative."},
+    {"dx": "Lymphocyte-rich classic Hodgkin lymphoma", "vs": "Can mimic NLPHL architecturally, but the HRS cells are CD30+/CD15+ with weak PAX5 and lack strong CD20/OCT2/BOB1."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Large cells are likewise CD15-negative, so diffuse architecture and lack of small B-cell nodules are required to distinguish it."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD15",
+  "match": "consistent",
+  "high_yield": false
+}

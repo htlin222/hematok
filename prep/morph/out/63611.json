@@ -1,0 +1,22 @@
+{
+  "id": "63611",
+  "recognize_zh": "一顆與紅血球大小相近的白血球，細胞內充滿粗大、深紫黑色的顆粒，顆粒多到把細胞核遮住、核輪廓幾乎看不清，這就是嗜鹼性球（basophil）。",
+  "features": [
+    "Cell slightly larger than adjacent red cells",
+    "Cytoplasm packed with coarse, dark purple-black granules of variable size",
+    "Granules overlie and largely obscure an irregular, lobulated nucleus",
+    "Granules extend to and bulge the cell margin",
+    "Background of normocytic red cells and occasional platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a single granulocyte slightly larger than surrounding red cells. The cytoplasm is filled with coarse, dark purple-black granules that overlie and obscure an irregular nucleus. Background red cells and platelets are unremarkable. Findings are consistent with a normal basophil.",
+  "ddx": [
+    {"dx": "Mast cell", "vs": "Mast cells are larger with a round central nucleus not obscured by granules and are found in tissue or marrow rather than peripheral blood."},
+    {"dx": "Eosinophil", "vs": "Eosinophil granules are uniform, refractile and orange-pink with a clearly visible bilobed nucleus."},
+    {"dx": "Neutrophil with toxic granulation", "vs": "Toxic granules are fine and dark but sparse enough that the segmented nucleus remains clearly visible."},
+    {"dx": "Platelet clump overlying a leukocyte", "vs": "Platelet clumps show individual platelets with pale hyalomere at the edge rather than a single cell membrane containing granules."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

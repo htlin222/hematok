@@ -1,0 +1,22 @@
+{
+  "id": "61340",
+  "recognize_zh": "三顆芽細胞核質比高、染色質細緻，下方芽細胞的細胞質中可見一條細長粉紅色的棒狀包涵體（Auer rod），直接指向骨髓性（myeloid）來源。",
+  "features": [
+    "Medium to large blasts with high N:C ratio and round to slightly indented nuclei",
+    "Finely granular, open chromatin with faint nucleoli",
+    "Moderate pale blue cytoplasm; a slender pink-red Auer rod in the cytoplasm of the lower blast",
+    "Adjacent cell with dense purple-black granules obscuring the nucleus, most consistent with a basophil",
+    "Background erythrocytes with mild poikilocytosis and occasional crenated cells"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts with high nuclear-to-cytoplasmic ratio, fine chromatin, inconspicuous nucleoli and a moderate rim of pale basophilic cytoplasm. One blast contains a single slender Auer rod. A basophil is also present, and red cells show mild poikilocytosis. The presence of an Auer rod establishes myeloid lineage; findings are consistent with acute myeloid leukemia, with subclassification (e.g., AML with maturation) requiring marrow evaluation, flow cytometry and genetic studies.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts never contain Auer rods and are MPO negative, TdT and B- or T-lineage marker positive."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells have bilobed nuclei with heavy granulation or multiple bundled Auer rods (faggot cells) rather than a single rod in an agranular blast."},
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "Auer rods can occur in MDS, so blast percentage below 20% in blood and marrow and dysplasia define MDS rather than AML."},
+    {"dx": "Toxic/Döhle body-containing left-shifted granulocytes", "vs": "Döhle bodies are pale blue irregular cytoplasmic patches in maturing neutrophils, not needle-shaped pink rods in blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

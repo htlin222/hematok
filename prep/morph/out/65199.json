@@ -1,0 +1,22 @@
+{
+  "id": "65199",
+  "recognize_zh": "末梢血可見中性球增多並有左移、嗜鹼性球，箭頭標示核固縮的壞死性中性球（necrobiotic neutrophils）；骨髓極度增生、骨髓系與紅血球系比例升高，巨核細胞增多且多為小型、單葉、成群聚集（CD61 凸顯），這些是 CML 慢性期的典型骨髓樣貌，只是發生在 3 歲幼童。",
+  "features": [
+    "PB (A): leukocytosis with neutrophilia, left shift and basophils; arrows mark necrobiotic neutrophils with pyknotic condensed nuclei",
+    "Aspirate (B): myeloid left shift with increased myeloid:erythroid ratio, no increase in blasts; occasional necrobiotic neutrophils (arrows)",
+    "Aspirate (C): cluster of megakaryocytes, many small with hypolobated/unilobated nuclei",
+    "Biopsy H&E (D): hypercellular marrow (>90%) with granulocytic hyperplasia and increased small megakaryocytes",
+    "CD61 (E): numerous small, clustered megakaryocytes throughout the core"
+  ],
+  "describe_en": "The peripheral blood smear shows neutrophilic leukocytosis with left shift, basophils and scattered necrobiotic neutrophils with pyknotic nuclei; platelets appear increased. The bone marrow aspirate shows marked granulocytic hyperplasia with a high myeloid-to-erythroid ratio and no increase in blasts, along with clusters of small, hypolobated megakaryocytes. The core biopsy is hypercellular (>90%) with granulocytic proliferation and increased small megakaryocytes, highlighted by CD61. In conjunction with t(9;22)(q34;q11.2) and a BCR::ABL1 p210 (e14a2) fusion, the findings are consistent with chronic myeloid leukemia, chronic phase, in a young child.",
+  "ddx": [
+    {"dx": "Essential thrombocythemia", "vs": "ET has large to giant hyperlobulated megakaryocytes without marked granulocytic left shift or basophilia, whereas CML shows small hypolobated 'dwarf' megakaryocytes and requires exclusion by BCR::ABL1 testing."},
+    {"dx": "Reactive thrombocytosis/leukemoid reaction", "vs": "Reactive neutrophilia has toxic changes and lacks basophilia, small clustered megakaryocytes and the Philadelphia chromosome."},
+    {"dx": "Juvenile myelomonocytic leukemia", "vs": "JMML in young children shows monocytosis, circulating erythroid precursors, elevated HbF and RAS-pathway mutations rather than basophilia and BCR::ABL1."},
+    {"dx": "Atypical CML / chronic neutrophilic leukemia", "vs": "aCML has prominent dysgranulopoiesis without basophilia, and CNL shows mature neutrophilia with CSF3R mutation; both are BCR::ABL1-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa, H&E, IHC: CD61",
+  "match": "consistent",
+  "high_yield": true
+}

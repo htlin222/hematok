@@ -1,0 +1,20 @@
+{
+  "id": "1586",
+  "recognize_zh": "免疫組織化學染色中，多個緊密排列的結節內細胞呈強陽性（紅棕色），陽性細胞也延伸到濾泡間區，只有少數散在區域不染色；這種結節內大量陽性的模式符合濾泡型淋巴瘤，但圖上未標示抗體名稱（可能為 BCL2 或 B 細胞標記）。",
+  "features": [
+    "Multiple closely packed nodules with strong, diffuse chromogen staining of nearly all cells within the nodules",
+    "Positive cells also extend into the interfollicular areas, with only patchy negative (hematoxylin-blue) zones",
+    "Nodules lack a negative germinal-center/positive mantle contrast pattern",
+    "Unstained vessel walls and a band of fibrous tissue serve as internal negative background"
+  ],
+  "describe_en": "Immunohistochemical stain of a lymph node at low-to-intermediate power shows strong staining of the cells within multiple closely packed neoplastic follicles, with extension of positive cells into interfollicular areas and only patchy negative zones. The antibody is not labeled in this image; if this is BCL2, positive staining within follicle centers supports a neoplastic follicular process rather than reactive germinal centers, which are BCL2-negative. Findings are consistent with follicular lymphoma in the appropriate context.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers are BCL2-negative with positive staining confined to mantle zones and interfollicular T cells."},
+    {"dx": "Follicular colonization by marginal zone lymphoma", "vs": "Colonized follicles show BCL2-positive CD10-negative marginal zone cells with residual CD10/BCL6-positive germinal center cells and FDC meshwork disruption."},
+    {"dx": "Primary cutaneous or pediatric-type follicular lymphoma", "vs": "These variants are often BCL2-negative or weak and lack t(14;18), so a strongly BCL2-positive follicular pattern favors conventional follicular lymphoma."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not labeled (possibly BCL2)",
+  "match": "consistent",
+  "high_yield": false
+}

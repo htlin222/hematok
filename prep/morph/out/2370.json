@@ -1,0 +1,21 @@
+{
+  "id": "2370",
+  "recognize_zh": "背景是大量淡色鬼影紅血球（HbA 已被酸洗脫），其間散布一群染成深洋紅色、內部均勻飽滿的紅血球，這些是抗酸的含 HbF 細胞，兩群對比清楚，是 Kleihauer-Betke 陽性的典型畫面。",
+  "features": [
+    "Two distinct red cell populations: numerous pale ghost cells versus scattered intensely eosinophilic, homogeneously stained cells",
+    "Darkly stained HbF-containing cells make up roughly one-fifth of cells in this field",
+    "Many dark cells are crenated or irregular in outline (preparation artifact)",
+    "Ghost cells show only faint membrane outlines with empty interiors",
+    "Occasional ghost cell with faint residual granular staining (intermediate cell)"
+  ],
+  "describe_en": "Kleihauer-Betke acid elution preparation shows a dimorphic red cell population. The majority of red cells are pale ghost cells in which acid-labile adult hemoglobin has been eluted, while a substantial subset of cells retain intense, homogeneous eosinophilic staining indicating acid-resistant fetal hemoglobin. Several positive cells are crenated, an expected artifact. Findings indicate HbF-containing red cells; in a maternal sample this pattern supports fetomaternal hemorrhage, and the fetal cell percentage should be counted to estimate bleed volume.",
+  "ddx": [
+    {"dx": "Pancellular hereditary persistence of fetal hemoglobin", "vs": "Pancellular HPFH gives uniform staining of essentially all red cells, not a discrete subpopulation among ghost cells."},
+    {"dx": "Heterocellular HbF elevation (sickle cell disease, beta-thalassemia, pregnancy F cells)", "vs": "Maternal F cells tend to stain less intensely and more variably than true fetal cells; flow cytometry with anti-HbF and anti-carbonic anhydrase distinguishes them."},
+    {"dx": "Neonatal blood sample", "vs": "Cord or neonatal blood shows nearly all cells darkly stained, with only few ghost cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Kleihauer-Betke acid elution (eosin counterstain)",
+  "match": "consistent",
+  "high_yield": true
+}

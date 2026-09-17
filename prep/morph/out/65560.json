@@ -1,0 +1,22 @@
+{
+  "id": "65560",
+  "recognize_zh": "一顆白血球細胞質內塞滿約二十顆小型橢圓酵母樣體，每顆有偏位的新月形深藍色核與透明暈（pseudocapsule），把宿主細胞核擠到一側；吞噬細胞內的這種形態是周邊血液中播散性組織漿菌症（Histoplasma）等真菌血症的典型表現。",
+  "features": [
+    "Single leukocyte (likely monocyte/neutrophil) with the nucleus compressed to one side",
+    "Cytoplasm packed with approximately 20 small oval yeast-like organisms (about 2-4 µm)",
+    "Each organism shows a crescent-shaped, eccentric basophilic nucleus with a clear surrounding halo",
+    "No hyphae or pseudohyphae; no definite central septa",
+    "Background red cells with a few irregular/crenated forms"
+  ],
+  "describe_en": "Peripheral blood smear shows a leukocyte whose nucleus is displaced to the periphery by numerous intracytoplasmic, small oval yeast-like organisms. The organisms are uniform, measure a fraction of a red cell diameter, and have eccentric crescentic basophilic nuclei with surrounding clear halos (pseudocapsules). No hyphae or septate forms are seen. Findings are consistent with phagocytosed fungal organisms indicating systemic fungemia, morphologically most suggestive of Histoplasma capsulatum; culture, urine/serum antigen or molecular testing is needed for definitive identification.",
+  "ddx": [
+    {"dx": "Talaromyces marneffei", "vs": "Intracellular yeasts show a distinct central transverse septum from fission and elongated forms, which are not seen here."},
+    {"dx": "Leishmania donovani amastigotes", "vs": "Each amastigote has a nucleus plus a small rod-shaped kinetoplast and no halo."},
+    {"dx": "Candida species (phagocytosed)", "vs": "Candida yeasts are larger, stain uniformly without crescentic nuclei, and may bud or form pseudohyphae."},
+    {"dx": "Pseudo-Chédiak-Higashi granules or Alder-Reilly inclusions", "vs": "These are homogeneous dense granules without an internal crescentic nucleus or clear capsule-like halo."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

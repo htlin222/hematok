@@ -1,0 +1,21 @@
+{
+  "id": "1574",
+  "recognize_zh": "周邊血抹片染色偏淡橘色、對比不佳，紅血球大小略不等，部分呈較小、深染且缺乏中央淡染區的細胞，少數紅血球內可見小而深色的點狀包涵體；染色品質限制判讀，無法確認具體診斷，只能歸為生成不足性貧血相關的非特異性紅血球變化。",
+  "features": [
+    "Suboptimal, pale orange-tinted staining with poor contrast",
+    "Mild anisocytosis with a subset of smaller, denser red cells lacking central pallor",
+    "Occasional red cells containing single small dark dot-like inclusions (possible Howell-Jolly or Pappenheimer bodies)",
+    "Scattered small extracellular particles, possibly platelets or stain debris",
+    "No leukocytes, schistocytes or significant poikilocytosis in the field"
+  ],
+  "describe_en": "Peripheral blood smear, suboptimally stained with poor contrast, shows mild anisocytosis with a subset of smaller, dense red cells lacking central pallor. Occasional red cells contain small dark punctate inclusions that could represent Howell-Jolly bodies or Pappenheimer bodies, although overlying platelets or stain precipitate cannot be excluded at this quality. No leukocytes are present for assessment. The findings are nonspecific; correlation with red cell indices, reticulocyte count and an iron stain is required to support an underproduction anemia.",
+  "ddx": [
+    {"dx": "Sideroblastic anemia with Pappenheimer bodies", "vs": "Pappenheimer bodies are multiple small peripheral clustered granules that stain with Prussian blue, whereas Howell-Jolly bodies are single, round and iron-negative."},
+    {"dx": "Hereditary spherocytosis", "vs": "Spherocytosis shows a prominent population of small dense cells with polychromasia and a negative DAT, rather than a sparse subset in a nonspecific smear."},
+    {"dx": "Stain precipitate or overlying platelets", "vs": "Artifacts lie in a different focal plane and also appear between cells, while true inclusions stay within the red cell outline."}
+  ],
+  "specimen": "PB",
+  "stain": "Romanowsky-type (suboptimal)",
+  "match": "partial",
+  "high_yield": false
+}

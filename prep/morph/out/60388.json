@@ -1,0 +1,21 @@
+{
+  "id": "60388",
+  "recognize_zh": "CD3 染色中只有約一半的小淋巴球呈強烈膜陽性，其間夾雜大量藍色陰性的小細胞；與幾乎整片陽性的 CD5 相比，CD3 只標出 T 細胞，而 CD3 陰性、CD5 陽性的那群小細胞就是表現異常 CD5 的 CLL/SLL 腫瘤性 B 細胞。",
+  "features": [
+    "CD3 IHC with strong membranous staining of numerous small T lymphocytes",
+    "Positive cells distributed in a patchy, interstitial pattern rather than a continuous sheet",
+    "Many intervening small lymphocytes CD3-negative (blue nuclei), representing the neoplastic B cells",
+    "No large atypical cells stained",
+    "Fewer positive cells than on the corresponding CD5 stain"
+  ],
+  "describe_en": "CD3 immunohistochemistry shows strong membranous staining of numerous small T lymphocytes arranged in an interstitial, patchy pattern, with many intervening small lymphoid cells that are negative. Compared with the diffuse CD5 staining in the same area, CD3 highlights a smaller population, indicating that the CD3-negative small cells co-express CD5 aberrantly. Large cells are not highlighted. The CD5-positive/CD3-negative small B-cell population is consistent with small lymphocytic lymphoma, with a prominent background of reactive T cells in this Hodgkin-type Richter transformation case.",
+  "ddx": [
+    {"dx": "T-cell lymphoma", "vs": "A T-cell neoplasm would show CD3 staining of most of the infiltrate equivalent to CD5, not a CD3-negative majority of small cells."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL also shows CD5+/CD3- small B cells, so cyclin D1, SOX11, CD23 and LEF1 are required to separate it from CLL/SLL."},
+    {"dx": "Reactive paracortical hyperplasia", "vs": "Reactive nodes show CD3-positive T cells in expanded paracortex with preserved CD5-negative follicles, rather than intermingled CD5-positive neoplastic B cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

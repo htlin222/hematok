@@ -1,0 +1,22 @@
+{
+  "id": "60646",
+  "recognize_zh": "A 圖周邊血可見紅血球疊錢狀排列（rouleaux）與循環中的漿細胞樣細胞（偏心核、深藍胞質）；B、C 圖骨髓抹片由成片、單一形態的漿細胞取代正常造血，細胞具偏心圓核、塊狀染色質與核周淡染區，符合漿細胞腫瘤。",
+  "features": [
+    "PB (A): prominent rouleaux formation of red cells",
+    "PB (A): circulating plasmacytoid cells with eccentric round nuclei, clumped chromatin, and basophilic cytoplasm",
+    "BM aspirate (B): hypercellular particle-rich smear dominated by sheets of monotonous plasma cells",
+    "BM (C): plasma cells with eccentric nuclei, clock-face chromatin, perinuclear hof, and occasional binucleate or larger forms",
+    "Marked reduction of normal granulocytic and erythroid precursors"
+  ],
+  "describe_en": "Peripheral blood smear (panel A) shows marked rouleaux formation and occasional circulating plasmacytoid cells with eccentric nuclei and deeply basophilic cytoplasm. The bone marrow aspirate (panels B and C) is replaced by sheets of monomorphic plasma cells with eccentric round nuclei, coarse clock-face chromatin, and perinuclear clearing, with occasional larger or binucleate forms and markedly reduced normal hematopoiesis. The absolute count of circulating plasma cells cannot be determined from these fields. Findings are consistent with a plasma cell neoplasm (plasma cell myeloma, with circulating plasma cells), presenting with lower back pain from skeletal involvement.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasmacytosis rarely exceeds 10-20% of marrow cells, shows scattered perivascular mature plasma cells, and is polytypic for kappa and lambda."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a spectrum of small lymphocytes, plasmacytoid lymphocytes, and plasma cells with IgM paraprotein and MYD88 L265P, rather than sheets of pure plasma cells."},
+    {"dx": "Plasma cell leukemia", "vs": "Distinguished by quantifying circulating clonal plasma cells (≥5% of leukocytes by current criteria), which requires a full differential or flow cytometry."},
+    {"dx": "Metastatic carcinoma to spine/marrow", "vs": "Carcinoma presents as cohesive clusters of epithelial cells with keratin positivity, not dispersed plasma cells with hofs and CD138 positivity."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62714",
+  "recognize_zh": "活細胞的 CD36 對 CD64 流式圖：大量事件 CD36 陰性、CD64 陰性到中度（沿垂直方向延伸），另有一條對角線族群 CD36 與 CD64 同時由弱到強表現直至 10⁵，藍紅兩色族群都分布其中，提示部分原始細胞帶有單核球樣抗原表現，需搭配 CD14、CD11c、溶菌酶等判斷是否為單核球分化。",
+  "features": [
+    "Live-gated events; CD36-FITC (x-axis) versus CD64-PE (y-axis)",
+    "Large population CD36 negative to dim with CD64 negative, extending vertically to moderate CD64 (about 10^4)",
+    "Diagonal population co-expressing CD36 and CD64 with increasing intensity up to about 10^5 for both",
+    "Blue and red color-coded populations intermixed throughout both regions, without clear separation by these two markers",
+    "Small cluster of brightest CD36/CD64 events at the upper right, consistent with residual monocytes"
+  ],
+  "describe_en": "Flow cytometric analysis of live events displays CD36 versus CD64. A large population is CD36 negative to dim with CD64 ranging from negative to moderate, and a second diagonal population co-expresses CD36 and CD64 up to bright levels, with a small cluster of brightest events likely representing residual monocytes. Both color-coded blast populations are distributed within these regions. CD64 and CD36 expression may indicate monocytic differentiation, but CD64 is also seen on myeloblasts and CD36 on erythroid/megakaryocytic cells, so monocytic lineage requires at least two of NSE, CD11c, CD14, CD64 or lysozyme. In context, the findings contribute to the myeloid lineage evaluation in mixed phenotype acute leukemia, B/myeloid.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Shows a dominant CD64-bright/CD36-bright population with CD14, CD11b, CD4 and HLA-DR and lacks B-lineage markers."},
+    {"dx": "Pure erythroid or megakaryoblastic leukemia", "vs": "CD36 is expressed without CD64, together with CD71/CD235a or CD41/CD61."},
+    {"dx": "Normal monocytes", "vs": "Mature monocytes are CD45 bright with intermediate side scatter and CD14 positive, whereas this sample has only 0.06% monocytes by CD45/SS."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry: CD36-FITC vs CD64-PE",
+  "match": "non-morphologic",
+  "high_yield": false
+}

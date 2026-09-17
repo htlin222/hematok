@@ -1,0 +1,21 @@
+{
+  "id": "2019",
+  "recognize_zh": "這是一張免疫組織化學染色：一條帶狀區域的細胞呈紅棕色細胞膜／細胞質網狀陽性，細胞質豐富、排列成片；未標註染色抗體、復染極淡，推測是標示竇內單核樣 B 細胞或組織球，但無法僅憑此圖確定。",
+  "features": [
+    "Immunohistochemical stain with red-brown chromogen and very faint counterstain",
+    "Band-like zone of cells with membranous/cytoplasmic reticular positivity",
+    "Positive cells have abundant pale cytoplasm and are arranged in sheets",
+    "Adjacent areas largely negative",
+    "Nuclear detail not assessable owing to weak counterstain and image quality"
+  ],
+  "describe_en": "Immunohistochemical stain (antibody not specified) shows a band-like zone of cells with abundant pale cytoplasm displaying membranous and reticular cytoplasmic positivity, with largely negative adjacent tissue. The counterstain is faint and nuclear morphology cannot be assessed. The distribution suggests highlighting of a sinusoidal population such as monocytoid B cells or histiocytes in toxoplasma lymphadenitis, but the specific marker and cell type cannot be determined from this image alone; no organisms are identifiable.",
+  "ddx": [
+    {"dx": "Monocytoid B-cell hyperplasia (CD20-positive)", "vs": "Monocytoid B cells show membranous CD20 in sinus-distributed cells with clear cytoplasm, whereas histiocytes would be CD20 negative and CD68/CD163 positive."},
+    {"dx": "Sinus histiocytosis (CD68/CD163-positive)", "vs": "Histiocytic markers give granular cytoplasmic staining in cells with abundant pink cytoplasm on H&E, which requires the paired H&E and marker identity to confirm."},
+    {"dx": "Nodal marginal zone lymphoma", "vs": "Lymphoma would show confluent CD20-positive monocytoid sheets effacing the node with light chain restriction rather than a sinusoidal band in a reactive node."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "63366",
+  "recognize_zh": "上方凝膠卡的 anti-A、anti-B 與 control 孔都呈 mixed-field（MF），下方抹片紅血球聚成不規則團塊（agglutination）並有血小板聚集；control 陽性代表冷凝集素干擾血型判讀。",
+  "features": [
+    "Gel card: mixed-field reactions with anti-A, anti-B and the control well; 4+ with anti-D",
+    "Reverse typing: 3+ agglutination with A1 and B cells (consistent with group O plasma)",
+    "Positive control well indicates an invalid forward type due to autoagglutination",
+    "Smear: numerous irregular three-dimensional red cell clumps (agglutination), not linear rouleaux stacks",
+    "Platelet clumps present; background of non-agglutinated normocytic red cells"
+  ],
+  "describe_en": "Composite image of automated gel ABO/RhD typing and a peripheral blood smear. The gel card shows mixed-field reactions in the anti-A, anti-B and control columns with 4+ anti-D and 3+ reverse reactions with A1 and B cells; the reactive control invalidates the forward type and indicates autoagglutination. The smear shows extensive irregular red cell agglutinates with platelet clumps. Findings are consistent with a potent cold agglutinin causing ABO typing discrepancy, resolved by warm-washed cells and prewarmed plasma.",
+  "ddx": [
+    {"dx": "Rouleaux (paraprotein)", "vs": "Rouleaux form linear coin-like stacks that disperse with saline replacement, whereas agglutinates are irregular clusters with a positive C3d DAT."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA shows spherocytes with IgG-positive DAT and typically no gross agglutination or control-well reactivity at room temperature."},
+    {"dx": "Recent out-of-group transfusion or chimerism (true mixed field)", "vs": "True mixed-field from two cell populations does not make the antisera-free control well positive and persists after warm washing."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; gel column agglutination",
+  "match": "consistent",
+  "high_yield": true
+}

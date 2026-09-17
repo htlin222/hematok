@@ -1,0 +1,22 @@
+{
+  "id": "64435",
+  "recognize_zh": "流式細胞儀中有兩群 CD19 陽性 B 細胞：紅色小群為 CD5+、CD20 弱、λ 輕鏈限制的殘存 CLL；黑色較大群為 CD10+、CD45 弱、κ 表現，並呈連續成熟曲線的 hematogones。κ 看似「單株」是因 daratumumab（IgG1κ）結合 CD38 陽性細胞造成的偽象。",
+  "features": [
+    "Panel A: marrow CD20 IHC highlights an interstitial and aggregated B-cell infiltrate",
+    "Panel B: CD138 IHC highlights clusters of plasma cells",
+    "Panel C: CD19-gated B cells split into a red CD5+/CD10- lambda-restricted cluster (residual CLL)",
+    "Black CD19+/CD10+ population with low SSC and continuous CD10/CD19 maturational spread typical of hematogones",
+    "Black population appears kappa-positive on the kappa/lambda plot, reflecting bound daratumumab (IgG1 kappa) rather than clonality"
+  ],
+  "describe_en": "Bone marrow immunostains show a CD20-positive B-cell infiltrate and CD138-positive plasma cell aggregates from the earlier specimen. Post-treatment flow cytometry demonstrates two CD19-positive populations: a small CD5-positive, CD10-negative, dim CD20, lambda-restricted population representing residual chronic lymphocytic leukemia, and a larger CD10-positive, CD45-dim, low side-scatter population with a normal maturational pattern consistent with hematogones. The hematogones display apparent kappa light chain expression, attributable to surface-bound daratumumab (IgG1 kappa) on CD38-expressing precursors. Findings are consistent with residual lambda-restricted CLL and regenerating hematogones with therapy-related spurious kappa staining, without evidence of a new CD10-positive B-cell neoplasm.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia/lymphoma (MRD)", "vs": "Leukemic blasts show asynchronous, clustered antigen expression that deviates from the normal hematogone maturation continuum (e.g. aberrant CD58, CD38, CD10 intensity)."},
+    {"dx": "Follicular lymphoma (CD10+ mature B-cell neoplasm)", "vs": "Follicular lymphoma cells are CD20-bright, surface light chain-restricted and CD45-bright, whereas hematogones are CD45-dim, CD20-negative/variable immature precursors."},
+    {"dx": "True kappa-restricted second B-cell clone", "vs": "A true clone shows kappa expression with a compact phenotype and clonal IG rearrangement, whereas only one lambda IG rearrangement was detected here."},
+    {"dx": "Residual multiple myeloma", "vs": "Myeloma plasma cells are CD38/CD138-bright, CD19-negative, CD45-negative with cytoplasmic lambda, not CD10+ B-cell precursors."}
+  ],
+  "specimen": "flow",
+  "stain": "IHC: CD20, CD138; flow cytometry",
+  "match": "non-morphologic",
+  "high_yield": false
+}

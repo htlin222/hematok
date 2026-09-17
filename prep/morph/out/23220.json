@@ -1,0 +1,22 @@
+{
+  "id": "23220",
+  "recognize_zh": "周邊血抹片紅血球間有一條呈 U 字形折返、細長帶狀、充滿紫色顆粒且無細胞核的結構，寬度與血小板相近、長度數個紅血球直徑，這是循環中的前血小板（proplatelet），代表巨核細胞細胞質釋放血小板的中間型。",
+  "features": [
+    "Elongated, ribbon-like anucleate strand of granular purple cytoplasm folded into a U/hairpin shape",
+    "Width similar to a single platelet with a beaded, granular texture along its length",
+    "Length spanning several red cell diameters",
+    "No nucleus or cell membrane outline of an intact cell",
+    "Scattered normal-sized individual platelets and normocytic, normochromic red cells in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic, normochromic red cells and scattered individual platelets of normal size. A single elongated, anucleate, beaded strand of granular platelet cytoplasm folded into a hairpin configuration is present between red cells, measuring several red cell diameters in length. No intact megakaryocytes, blasts or organisms are identified. Findings are consistent with a circulating proplatelet, a megakaryocytic cytoplasmic extension undergoing platelet fragmentation.",
+  "ddx": [
+    {"dx": "Spirochete (Borrelia)", "vs": "Borrelia are thin, uniformly stained regularly coiled organisms, whereas a proplatelet is a thicker, beaded granular strand resembling linked platelets."},
+    {"dx": "Microfilaria", "vs": "Microfilariae are much longer, with a sheath and a column of nuclei, unlike the anucleate granular proplatelet."},
+    {"dx": "Platelet clump or satellitism", "vs": "Clumps are aggregates of discrete platelets rather than one continuous elongated beaded strand."},
+    {"dx": "Megakaryocytic fragment/bare megakaryocyte nucleus", "vs": "Megakaryocytic fragments are larger irregular masses, sometimes containing nuclear material, not a slender ribbon."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

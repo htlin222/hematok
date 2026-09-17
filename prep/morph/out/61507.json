@@ -1,0 +1,23 @@
+{
+  "id": "61507",
+  "recognize_zh": "軟組織內一片片大型上皮樣細胞，細胞質豐富淡嗜酸性，核卵圓、腎形或有摺疊凹陷，染色質開放、核仁小而清楚，其間散佈成熟嗜中性球；這種「看似癌或組織球的大細胞」在已知 AML 病人身上應先想到髓樣肉瘤（單核球分化）。",
+  "features": [
+    "Sheets of large, discohesive-appearing epithelioid cells",
+    "Abundant pale eosinophilic to amphophilic cytoplasm",
+    "Oval, reniform, and folded nuclei with open vesicular chromatin",
+    "Small distinct nucleoli",
+    "Scattered admixed mature neutrophils and occasional small lymphocytes",
+    "Thin-walled capillaries with extravasated red cells; no gland formation or keratinization"
+  ],
+  "describe_en": "Soft tissue section shows sheets of large epithelioid cells with abundant pale eosinophilic cytoplasm. The nuclei are oval, reniform, or folded with open vesicular chromatin and small distinct nucleoli, and scattered mature neutrophils are admixed. Gland formation, keratinization, and melanin pigment are not seen. The morphology is nonspecific, so immunohistochemistry is required; with CD33 positivity and CD34 negativity in a patient with AML with monocytic differentiation, findings are consistent with myeloid sarcoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells lack reniform nuclei and granulocytic admixture, and are CD20/PAX5 positive and lysozyme/CD33 negative."},
+    {"dx": "Poorly differentiated carcinoma", "vs": "Carcinoma shows more cohesive nests and is keratin positive."},
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytic sarcoma has similarly abundant cytoplasm but is CD163+ and lacks CD33/CD34/MPO blast markers and AML association."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL has hallmark cells with horseshoe nuclei and is CD30 strongly positive with T-cell markers or ALK."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

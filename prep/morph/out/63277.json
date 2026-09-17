@@ -1,0 +1,22 @@
+{
+  "id": "63277",
+  "recognize_zh": "血液抹片中多顆嗜酸性球顆粒分布不均、局部顆粒稀疏並有細胞質空泡（中央與右上方細胞最明顯），核分葉也不規則；成熟但異常的嗜酸性球（hypogranular、vacuolated）大量出現，配合 FIP1L1-PDGFRA 陽性即為 PDGFRA 重排的骨髓性/淋巴性腫瘤。",
+  "features": [
+    "Increased eosinophils with abnormal morphology in a single field",
+    "Patchy hypogranulation with areas of cytoplasm devoid of granules and cytoplasmic vacuoles (center and upper-right cells)",
+    "Abnormal nuclear lobation: hyposegmented, band-like or multilobed nuclei",
+    "Other eosinophils (upper-left, lower-left) retain dense orange granules, showing heterogeneity",
+    "Small mature lymphocytes; red cells normocytic without significant poikilocytosis; no blasts seen"
+  ],
+  "describe_en": "Peripheral blood smear shows increased eosinophils with dysplastic features, including patchy hypogranulation with granule-free cytoplasmic areas, cytoplasmic vacuolation and abnormal nuclear lobation ranging from band-like to multilobated forms. Other eosinophils retain dense granules, producing a heterogeneous population. Small lymphocytes are present, red cells are unremarkable, and no blasts are identified. These morphologic changes are nonspecific but in the setting of persistent eosinophilia with FIP1L1-PDGFRA fusion and CHIC2 deletion, the findings are consistent with a myeloid/lymphoid neoplasm with PDGFRA rearrangement (chronic eosinophilic leukemia phenotype).",
+  "ddx": [
+    {"dx": "Reactive eosinophilia", "vs": "Reactive eosinophils can also be hypogranular and vacuolated, so the discriminator is molecular (FIP1L1-PDGFRA) and clinical exclusion of secondary causes."},
+    {"dx": "Lymphocytic variant of hypereosinophilic syndrome", "vs": "Eosinophil morphology overlaps, but it is defined by an aberrant cytokine-producing T-cell population (e.g., CD3-CD4+) on flow cytometry and lacks PDGFRA fusion."},
+    {"dx": "Myeloid/lymphoid neoplasm with FGFR1 or PDGFRB rearrangement", "vs": "Morphologically similar eosinophilia; separated by cytogenetics (8p11 or 5q32 rearrangement), with FGFR1 cases often presenting with T-lymphoblastic lymphoma or AML."},
+    {"dx": "Chronic myeloid leukemia", "vs": "May show eosinophilia, but has a full left-shifted granulocytic spectrum with basophilia and BCR-ABL1, which was negative in this case."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

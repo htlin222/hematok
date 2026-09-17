@@ -1,0 +1,21 @@
+{
+  "id": "63262",
+  "recognize_zh": "淋巴球門控的流式雙參數圖：紅色主要族群位於右下象限，CD3 明亮陽性、CD56 大多陰性（僅少數延伸至弱陽性），綠色為 CD3 表現略弱的背景 T 細胞，左側藍點為 CD3 陰性的 B/NK 細胞；表示擴增的族群為 T 細胞系（sCD3+），支持 T-LGL 而非 NK 細胞增生。",
+  "features": [
+    "Two-parameter dot plot gated on lymphocytes: CD56 PE-Cy7 (y-axis) vs CD3 PerCP-Cy5.5 (x-axis)",
+    "Dominant red population in Q4: bright CD3 expression, predominantly CD56 negative",
+    "Minor tail of the red population extending into dim CD56 positivity (Q2)",
+    "Green background T cells with slightly lower CD3 intensity, some CD56-positive",
+    "Light-blue CD3-negative events, a subset CD56-positive (NK cells), reduced in number"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on lymphocytes shows CD56 (y-axis) versus CD3 (x-axis). The predominant population (red) expresses bright surface CD3 and is largely CD56-negative, with only a minor subset extending into dim CD56 positivity. Background T cells (green) show slightly dimmer CD3, and a small CD3-negative population (blue) includes scattered CD56-positive NK cells. The expanded population is of T-cell lineage, which, together with LGL morphology and gamma/delta TCR expression on companion plots, is consistent with T-cell large granular lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "NK-cell LGL proliferations are surface CD3-negative and usually CD56-positive, the opposite of the bright CD3+ population shown here."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia is surface CD3-negative, CD56-positive and EBV-associated with a fulminant course."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "Hepatosplenic T-cell lymphoma is CD3+ and typically CD56-positive with gamma/delta TCR, but shows sinusoidal marrow/splenic infiltration and a clinically aggressive picture rather than indolent LGL lymphocytosis."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

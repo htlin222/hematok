@@ -1,0 +1,21 @@
+{
+  "id": "60879",
+  "recognize_zh": "兩個偏心核細胞並排：上方較小的細胞核染色質粗塊狀、深染（車輪狀），胞質深藍，是漿細胞；下方較大的細胞核染色質較細緻、胞質淡藍呈雲絮狀且邊界模糊，核看起來幾乎被擠出細胞外，是骨母細胞（osteoblast）。",
+  "features": [
+    "Two adjacent cells with eccentric round nuclei in a fatty, hemodilute background",
+    "Upper cell (plasma cell): smaller, dense coarsely clumped 'clock-face' chromatin, compact deep blue cytoplasm",
+    "Lower cell (osteoblast): larger oval nucleus with finer, more evenly distributed chromatin, positioned at the cell edge as if partially extruded",
+    "Osteoblast cytoplasm pale-to-medium blue, abundant, wispy with ill-defined borders and small vacuoles",
+    "Perinuclear clear (Golgi) zone not well seen in either cell in this field"
+  ],
+  "describe_en": "Wright-Giemsa-stained bone marrow aspirate smear shows two cells with eccentrically placed nuclei. The upper, smaller cell has condensed, coarsely clumped chromatin and compact deep blue cytoplasm, typical of a plasma cell. The lower, larger cell has a round-to-oval nucleus with finer chromatin that appears partially extruded at the cell margin and abundant pale blue, wispy cytoplasm with indistinct borders, typical of an osteoblast. This comparison illustrates the chromatin pattern and cytoplasmic features that separate plasma cells from osteoblasts.",
+  "ddx": [
+    {"dx": "Osteoclast", "vs": "Osteoclasts are giant multinucleated cells with many separate uniform nuclei and granular cytoplasm, unlike the single eccentric nucleus of an osteoblast."},
+    {"dx": "Neoplastic plasma cell (plasma cell myeloma)", "vs": "Myeloma cells may show immature open chromatin and nucleoli, but they occur in sheets or increased numbers and lack the ill-defined wispy cytoplasm and extruded nucleus of osteoblasts; CD138 and light-chain restriction confirm."},
+    {"dx": "Metastatic carcinoma cells", "vs": "Carcinoma cells form cohesive clusters with nuclear pleomorphism and prominent nucleoli, whereas osteoblasts occur in loose groups with bland uniform nuclei."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

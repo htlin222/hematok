@@ -1,0 +1,22 @@
+{
+  "id": "3299",
+  "recognize_zh": "血片中四顆小型淋巴細胞，核圓或橢圓、染色質濃密，細胞質少量深藍，並在兩端伸出短而細的絨毛狀突起（bipolar villi），這是脾邊緣區淋巴瘤絨毛狀淋巴細胞的典型外觀。",
+  "features": [
+    "Small lymphocytes, only slightly larger than red cells",
+    "Round to oval nuclei with dense, clumped chromatin and no visible nucleoli",
+    "Scant to moderate basophilic cytoplasm",
+    "Short, fine villous projections concentrated at one or both poles of the cell",
+    "Background red cells with rouleaux-like stacking; a platelet clump and partial neutrophil at edge"
+  ],
+  "describe_en": "Peripheral blood smear shows several small lymphoid cells with round to oval nuclei, dense clumped chromatin without visible nucleoli, and scant basophilic cytoplasm bearing short, fine villous projections concentrated at the cell poles. Red cells show mild rouleaux-like stacking and platelets are present. Findings are consistent with villous lymphocytes of splenic marginal zone lymphoma; flow cytometry demonstrating a CD5-, CD10-, CD103-, CD25- clonal B-cell population is recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells are larger with abundant pale cytoplasm and circumferential fine projections, oval to bean-shaped nuclei, and are CD103/CD25/annexin A1 positive."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells lack polar villi and are CD5/CD23 positive with dim surface immunoglobulin."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL cells show broad-based, often uneven villi and require splenic histology and cyclin D3 expression to separate from SMZL."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows plasmacytoid lymphocytes with eccentric nuclei and an IgM paraprotein with MYD88 L265P, without polar villi."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

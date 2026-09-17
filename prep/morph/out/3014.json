@@ -1,0 +1,22 @@
+{
+  "id": "3014",
+  "recognize_zh": "切片中大片黏著樣排列的大型細胞，細胞質中等量雙染性、核呈泡狀並有核仁，部分核呈腎形或凹陷，散在核分裂與凋亡細胞，背景出血；這種會被誤認為癌的片狀大細胞需以 CD30/ALK 確認為 ALCL。",
+  "features": [
+    "Diffuse, sheet-like, somewhat cohesive growth of large cells",
+    "Round to reniform or indented vesicular nuclei with small distinct nucleoli",
+    "Moderate amphophilic cytoplasm with relatively distinct cell borders",
+    "Scattered mitotic figures, apoptotic bodies and occasional larger multinucleated cells",
+    "Interspersed extravasated red cells; no gland formation or keratinization"
+  ],
+  "describe_en": "Tissue section shows a diffuse, sheet-like infiltrate of large cells with moderate amphophilic cytoplasm and round to reniform vesicular nuclei with small distinct nucleoli. Mitotic figures and apoptotic bodies are scattered, occasional larger multinucleated cells are present, and extravasated red cells are seen between tumor cells. The cohesive growth can mimic carcinoma, but no glandular or squamous differentiation is identified. Findings are consistent with anaplastic large cell lymphoma, pending confirmation with CD30, ALK and T-cell markers.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL is CD20/PAX5 positive and lacks uniform strong CD30 and ALK."},
+    {"dx": "Metastatic undifferentiated carcinoma", "vs": "Carcinoma is cytokeratin positive and CD45, CD30 and ALK negative."},
+    {"dx": "Classic Hodgkin lymphoma, syncytial variant", "vs": "The syncytial variant has cohesive sheets of Hodgkin cells within nodules surrounded by fibrosis and a mixed background, and the cells are CD15+ and ALK negative."},
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma cells have finer chromatin, often admixed eosinophilic myelocytes, and express MPO, CD117 or lysozyme."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

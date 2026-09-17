@@ -1,0 +1,21 @@
+{
+  "id": "63214",
+  "recognize_zh": "厚片（thick smear）中紅血球已溶解，只剩淡色背景，散布許多帶紅紫色染色質點與不規則、破碎藍色胞質的阿米巴狀滋養體（trophozoite），部分周圍有淡粉紅點狀暈（Schüffner 點殘影）；兩顆白血球可作為大小參考。",
+  "features": [
+    "Thick film with lysed red cells leaving a pale background with faint stippled erythrocyte ghosts",
+    "Numerous small parasites with 1-2 red chromatin dots and wispy, fragmented blue cytoplasm (amoeboid 'broken' trophozoites)",
+    "Several parasites surrounded by a pale pink stippled halo corresponding to Schüffner's dots in ghost red cells",
+    "One larger rounded parasite at upper right containing scattered golden-brown pigment (mature trophozoite or gametocyte)",
+    "Two leukocytes with lobulated nuclei for size reference"
+  ],
+  "describe_en": "Giemsa-stained thick blood film shows lysed erythrocytes with numerous malaria parasites. Most are small trophozoites with one or two red chromatin dots and irregular, fragmented blue cytoplasm, several set within faint pink stippled halos of ghost red cells, suggestive of Schüffner's stippling. A larger rounded, pigment-containing parasite is present at the upper right, and two leukocytes are included for scale. Thick films are optimal for detecting parasites and estimating density, whereas species confirmation relies on the thin film (enlarged, stippled infected red cells). Findings are consistent with Plasmodium vivax infection.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum", "vs": "Falciparum thick films typically show only small compact rings with fine cytoplasm and banana-shaped gametocytes, without amoeboid trophozoites, stippled ghosts or pigmented mature asexual stages."},
+    {"dx": "Plasmodium ovale", "vs": "Ovale also shows Schüffner's stippling but has compact trophozoites; separation is best on thin film (oval, fimbriated infected cells) or by PCR."},
+    {"dx": "Platelets and stain debris", "vs": "Platelets and precipitate lack the combination of a discrete red chromatin dot with separate blue parasite cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

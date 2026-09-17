@@ -1,0 +1,22 @@
+{
+  "id": "4091",
+  "recognize_zh": "免疫染色中成片的大型腫瘤細胞呈強膜狀與核旁點狀（Golgi）陽性，細胞核大、不規則，背景小淋巴球陰性，典型 CD30 型態；需確認 B 細胞標記才能診斷間變型 DLBCL 而非 ALCL。",
+  "features": [
+    "Numerous large atypical cells with enlarged irregular nuclei and abundant cytoplasm",
+    "Strong membranous staining with paranuclear Golgi-dot accentuation",
+    "Positive cells arranged in cohesive sheets and cords, partly between vascular/stromal strands",
+    "Background small lymphocytes negative",
+    "Occasional cell with strong cytoplasmic blush (likely histiocytic/granular staining)"
+  ],
+  "describe_en": "Immunohistochemical stain (marker not labeled; membrane and Golgi pattern typical of CD30) shows numerous large atypical cells with irregular vesicular nuclei arranged in cohesive sheets and cords, exhibiting strong membranous and paranuclear dot-like staining. Background small lymphocytes are negative. Findings demonstrate strong CD30 expression in a large cell lymphoma, as expected in the anaplastic variant of diffuse large B-cell lymphoma; B-cell lineage confirmation and ALK staining are required to exclude ALK-positive or ALK-negative anaplastic large cell lymphoma.",
+  "ddx": [
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "ALCL shares CD30 membrane/Golgi staining but lacks CD20/PAX5 and usually expresses T-cell or cytotoxic markers."},
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-depleted/syncytial", "vs": "cHL cells are CD15+, weak PAX5+, CD45-negative and embedded in an inflammatory background."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL has weaker heterogeneous CD30, sclerosis and CD23/MAL/PD-L1 positivity with a mediastinal presentation."},
+    {"dx": "Embryonal carcinoma", "vs": "Embryonal carcinoma is CD30-positive but keratin, OCT3/4 and SALL4-positive and CD45-negative."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: likely CD30",
+  "match": "consistent",
+  "high_yield": false
+}

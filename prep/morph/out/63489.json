@@ -1,0 +1,22 @@
+{
+  "id": "63489",
+  "recognize_zh": "左側血片可見染色質濃縮的小淋巴球與破碎細胞（smudge cells）；右側流式圖顯示 CD5+CD19+ 異常 B 細胞（紫色）同時表現 CD23、CD20 偏弱，而在 kappa/lambda 圖上紫色族群分成弱 lambda 與弱 kappa 兩群，這就是雙株（bi-clonal）CLL 的線索。",
+  "features": [
+    "Panel a: small mature lymphocytes with clumped chromatin and scant cytoplasm, plus smudge cells",
+    "Panel b: lymphocyte gate on CD45 bright/low SSC",
+    "Panel c: distinct CD5+CD19+ aberrant B-cell population (purple) separate from CD5-CD19+ normal B cells (green) and CD5+CD19- T cells (blue)",
+    "Panel d: aberrant B cells are CD23 positive with dim CD20 compared with normal B cells",
+    "Panel e: aberrant population shows dim light chain expression split into a dim lambda cluster and a dim kappa cluster, whereas normal B cells are brighter and polytypic"
+  ],
+  "describe_en": "Composite figure. The peripheral blood smear (a) shows increased small mature lymphocytes with condensed chromatin and scant cytoplasm, with occasional smudge cells. Flow cytometry (b-e) identifies an aberrant B-cell population co-expressing CD19 and CD5, positive for CD23, with dim CD20 and dim surface immunoglobulin light chain expression. On the kappa-versus-lambda plot the aberrant population separates into two dim clusters, one lambda-restricted and one kappa-restricted, distinct from the brighter polytypic normal B cells. Findings are consistent with chronic lymphocytic leukemia/small lymphocytic lymphoma phenotype with two light chain-restricted clones (bi-clonal CLL), rather than a reactive polyclonal lymphocytosis.",
+  "ddx": [
+    {"dx": "Reactive polyclonal B-cell lymphocytosis", "vs": "Reactive B cells lack CD5 co-expression, have normal-intensity CD20 and light chains, and show a continuous polytypic kappa/lambda distribution rather than discrete dim restricted clusters."},
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "Also CD5+ but typically CD23 negative with bright CD20 and bright light chain, and shows cyclin D1/SOX11 or t(11;14)."},
+    {"dx": "Monoclonal B-cell lymphocytosis (CLL-type)", "vs": "Identical phenotype but defined by a clonal B-cell count below 5 x 10^9/L without lymphadenopathy or cytopenias, so absolute count determines the distinction."},
+    {"dx": "Composite CLL and a second unrelated B-cell lymphoma", "vs": "A second clone with a different phenotype (e.g., CD5-negative, bright CD20, or CD10+) would suggest a distinct lymphoma rather than two CLL-phenotype clones."}
+  ],
+  "specimen": "flow",
+  "stain": "Wright-Giemsa (panel a); flow cytometry",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "64959",
+  "recognize_zh": "這是多發性骨髓瘤 FISH 報告表格而非形態影像：del(13q14)、del(17p13)、t(4;14)、t(11;14)、t(14;16) 皆未檢出，唯一陽性為 1p32 缺失（CDKN2C）合併 1q21 擴增（CKS1B），見於 92% 細胞並標為高風險。",
+  "features": [
+    "Tabulated multiple myeloma FISH panel report, not a morphologic image",
+    "Negative: del(13q14), del(17p13)/11q22, t(4;14) FGFR3::IGH, t(11;14) CCND1/MYEOV::IGH, t(14;16) IGH::MAF",
+    "Positive: 1p32.2 deletion (CDKN2C) with 1q21.3 amplification (CKS1B) in 92% of cells, flagged high risk",
+    "Additional findings: gain of ATM and TP53 loci in 85% of cells and trisomy 12 in 90% of cells, consistent with hyperdiploidy",
+    "Report advises correlation with clinical, morphologic and biochemical parameters"
+  ],
+  "describe_en": "This figure is a multiple myeloma FISH panel summary rather than a morphologic image. No 13q14 deletion, 17p13 (TP53) deletion or IGH translocations t(4;14), t(11;14) or t(14;16) were detected. The only abnormality in the targeted panel is concurrent 1p32 (CDKN2C) deletion and 1q21 (CKS1B) amplification in 92% of cells, with additional copy gains of ATM/TP53 loci and trisomy 12 supporting a hyperdiploid clone. Amplification of 1q (4 or more copies) together with 1p deletion is a high-risk lesion under current myeloma risk models, so this result upgrades the patient's cytogenetic risk despite the absence of IGH translocations.",
+  "ddx": [
+    {"dx": "Standard-risk hyperdiploid myeloma", "vs": "Hyperdiploidy alone without 1q gain/amplification, 1p deletion, del(17p) or high-risk IGH translocations is considered standard risk, whereas the 1p loss plus 1q amplification here confers high risk."},
+    {"dx": "Myeloma with del(17p)/TP53 loss", "vs": "TP53 deletion would show loss of the 17p13 signal, but this panel shows no deletion and instead a gain of the TP53 locus, so the high-risk designation rests on chromosome 1 abnormalities."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "N/A (FISH report)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

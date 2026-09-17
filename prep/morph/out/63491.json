@@ -1,0 +1,22 @@
+{
+  "id": "63491",
+  "recognize_zh": "H&E 骨髓切片下半部是密集、深染的小至中型母細胞樣圓形細胞，上方則是淡粉紅、細胞輪廓模糊、核淡化或消失的區域，存活腫瘤細胞與壞死區交界清楚，符合急性白血病合併局部凝固性壞死。",
+  "features": [
+    "Sheets of monotonous small to intermediate round cells with high N:C ratio and hyperchromatic nuclei",
+    "Adjacent pale eosinophilic zone with ghost-like cell outlines and loss or fading of nuclear staining",
+    "Granular eosinophilic amorphous debris within the necrotic area",
+    "Loss of normal trilineage hematopoiesis and fat in the viable areas",
+    "Fragmented, loosely cohesive tissue"
+  ],
+  "describe_en": "Bone marrow biopsy shows a hypercellular marrow effaced by sheets of monotonous small to intermediate cells with high nuclear-to-cytoplasmic ratios and dark nuclei. Adjacent to the viable infiltrate there is a pale eosinophilic area in which cell outlines are preserved as ghosts while nuclear staining is faded or lost, with eosinophilic granular debris. Normal hematopoietic elements are not evident. Findings are consistent with acute leukemia with focal coagulative (bone marrow) necrosis; lineage assignment requires immunophenotyping of viable areas.",
+  "ddx": [
+    {"dx": "Metastatic small round cell tumor with necrosis", "vs": "Tumor cells would form cohesive nests or rosettes and be keratin, synaptophysin, or other non-hematopoietic marker positive, and negative for CD45/TdT/CD34."},
+    {"dx": "Crush or decalcification artifact", "vs": "Artifact produces smeared, streaming nuclear chromatin rather than ghost cells with preserved outlines and eosinophilic necrotic debris."},
+    {"dx": "Bone marrow necrosis secondary to sickle cell crisis or sepsis", "vs": "In non-neoplastic necrosis the viable marrow shows normal trilineage hematopoiesis rather than a monotonous blast infiltrate."},
+    {"dx": "Burkitt lymphoma", "vs": "Also necrosis-prone but shows intermediate cells with starry-sky tingible-body macrophages, CD10+/BCL6+, TdT negative, and a Ki-67 near 100% with MYC rearrangement."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

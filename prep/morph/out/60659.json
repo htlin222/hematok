@@ -1,0 +1,22 @@
+{
+  "id": "60659",
+  "recognize_zh": "採血管內整管血液呈暗紅褐色、上層看不到正常血漿；抹片中幾乎找不到完整的紅血球，只剩淡淡的紅血球殘影，嗜中性球細胞質內有吞噬物的空泡（吞噬紅血球），提示敗血症（如產氣莢膜梭菌）造成的大量血管內溶血。",
+  "features": [
+    "Panel A: blood collection tube with uniformly dark red-brown, lacquer-like contents and no visible separation of normal plasma, indicating massive hemolysis",
+    "Panels B–C: smear background almost devoid of intact red cells, with only faint pale red cell ghosts",
+    "Neutrophil with vacuolated cytoplasm containing phagocytosed pale material consistent with ingested red cells or red cell remnants (erythrophagocytosis)",
+    "Second leukocyte (panel C) largely occupied by clear vacuoles with ingested material",
+    "Small platelet clump; no organisms are clearly identified at this magnification"
+  ],
+  "describe_en": "The blood sample is grossly dark red-brown and uniformly hemolyzed. The peripheral blood smear shows near-complete absence of intact red cells, with only faint red cell ghosts in the background, and neutrophils containing cytoplasmic vacuoles with phagocytosed red cell material. No bacteria are definitively seen at this magnification. Findings are consistent with massive intravascular hemolysis with erythrophagocytosis in the setting of severe sepsis, a pattern classically associated with Clostridium perfringens alpha-toxin; urgent blood cultures are indicated.",
+  "ddx": [
+    {"dx": "In vitro hemolysis / sample artifact", "vs": "Artifactual hemolysis leaves pink plasma over intact red cells on the smear, whereas here red cells are nearly absent and neutrophils show erythrophagocytosis."},
+    {"dx": "Autoimmune hemolytic anemia with erythrophagocytosis", "vs": "AIHA shows spherocytes and a positive DAT with a preserved red cell mass on the smear rather than wholesale lysis to ghosts."},
+    {"dx": "Severe falciparum malaria (blackwater fever)", "vs": "Malaria-associated hemolysis shows intraerythrocytic ring forms or gametocytes and pigment in leukocytes."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH shows hemophagocytosis mainly by macrophages in marrow or tissue with cytopenias and hyperferritinemia, not acute complete red cell lysis in the blood tube."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; gross photo of tube",
+  "match": "consistent",
+  "high_yield": false
+}

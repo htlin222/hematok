@@ -1,0 +1,22 @@
+{
+  "id": "60955",
+  "recognize_zh": "治療前的母細胞（A）核染色質細、細胞質少量嗜鹼性、僅有空泡而無顆粒；復發後的母細胞（D、E）細胞質變多並充滿粗大紫紅色嗜天青顆粒，看似 AML，但流式仍是 CD22+/CD34+/TdT+、CD19 因 blinatumomab 而消失，IHC CD79a 與 PAX5 陽性，確認為顆粒型 B-ALL 復發。",
+  "features": [
+    "Panel A (pretreatment): large blasts with fine chromatin, scant-moderate basophilic cytoplasm, a few clear cytoplasmic vacuoles, no granules",
+    "Panels D-E (relapse): blasts with more abundant cytoplasm containing numerous coarse azurophilic granules and scattered vacuoles; no Auer rods",
+    "Panels B-C (pretreatment flow): blasts CD22+/CD34+ with CD19+ and partial TdT",
+    "Panels F-G (relapse flow): blasts CD34+/CD22+ with partial TdT but CD19 negative (antigen loss after blinatumomab)",
+    "Panels H-I (IHC): blasts strongly positive for CD79a (membranous/cytoplasmic) and PAX5 (nuclear)"
+  ],
+  "describe_en": "Pretreatment bone marrow aspirate shows blasts with fine chromatin and scant basophilic, agranular cytoplasm with occasional vacuoles. The relapse specimen shows blasts with more abundant cytoplasm containing numerous coarse azurophilic granules, morphologically mimicking myeloblasts, without Auer rods. Flow cytometry of the relapse shows CD34+, CD22+, partial TdT+ blasts that have lost CD19 following blinatumomab, and immunohistochemistry demonstrates CD79a and PAX5 positivity; cytochemical MPO and nonspecific esterase were negative per report. Findings are consistent with relapsed B-lymphoblastic leukemia with granular morphology and CD19-negative escape.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "Granular blasts in AML are MPO-positive, may contain Auer rods and express CD13/CD33/CD117 without CD22, CD79a or PAX5."},
+    {"dx": "Mixed-phenotype acute leukemia or lineage switch to AML after CD19-directed therapy", "vs": "Would show acquisition of MPO or monocytic markers (CD14, CD64, lysozyme) with loss of B-lineage markers, which are retained here."},
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Blasts have deeply basophilic cytoplasm with lipid vacuoles but no azurophilic granules, and are TdT/CD34-negative with surface light chain and MYC rearrangement."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Granular cells are CD56-positive with cytotoxic granules and lack CD34, TdT, CD22 and PAX5."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; flow; IHC: CD79a, PAX5",
+  "match": "consistent",
+  "high_yield": false
+}

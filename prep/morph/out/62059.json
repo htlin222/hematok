@@ -1,0 +1,21 @@
+{
+  "id": "62059",
+  "recognize_zh": "紅色免疫染色中倍下，背景小淋巴球大多陰性，陽性細胞呈瀰漫散佈而非結節聚集，其中不少為中空環狀的膜染色輪廓（大細胞或 rosettes），呈現 NLPHL 較瀰漫、T 細胞豐富的變異型態。",
+  "features": [
+    "Diffusely scattered positive cells without nodular aggregation",
+    "Many ring-shaped membranous positive profiles with unstained centers, compatible with large positive cells or rosettes",
+    "Smaller positive cells interspersed between the ring profiles",
+    "Predominantly negative small lymphocyte background",
+    "Antibody identity not labeled; cytologic detail limited at this magnification"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen, antibody not specified in the image) of lymph node at medium power shows scattered positive cells distributed diffusely among a predominantly negative small lymphocyte background, without a nodular arrangement. Many positive profiles are ring-shaped with unstained centers, which may represent membranous staining of large cells or rosettes of positive small cells around unstained large cells; smaller positive cells are interspersed. Findings in a case of nodular lymphocyte predominant Hodgkin lymphoma suggest a diffuse, T-cell-rich variant area; interpretation requires the marker identity and correlation with CD21 for residual follicular dendritic meshworks to separate it from T-cell/histiocyte-rich large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL is separated by an entirely diffuse CD8+ T-cell background, few or no PD-1+ rosettes, and absence of CD21+ meshworks."},
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-rich", "vs": "HRS cells in LRCHL are CD30+/CD15+ with weak PAX5, whereas LP cells are CD20+/OCT2+ and CD30-/CD15-."},
+    {"dx": "Reactive paracortical hyperplasia", "vs": "Reactive paracortex contains scattered immunoblasts within preserved nodal compartments without ringed large atypical cells effacing the node."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (red chromogen)",
+  "match": "consistent",
+  "high_yield": false
+}

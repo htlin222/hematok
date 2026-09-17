@@ -1,0 +1,22 @@
+{
+  "id": "64796",
+  "recognize_zh": "組合圖上方為先前 Burkitt 淋巴瘤：中型細胞、深藍色細胞質內含多個清楚脂質空泡，並有 t(8;14)；中間 D 格則是兩年後出現的大型異型組織球樣細胞，核扭曲或多核、細胞質豐富多空泡並有吞噬現象，切片 S100+、CD68+、CD1a−，加上 IGH 相同克隆峰，代表轉分化而來的組織球肉瘤。",
+  "features": [
+    "Panel A: cohesive-appearing sheet of medium-sized lymphoid cells with deeply basophilic cytoplasm containing multiple sharply punched-out lipid vacuoles (Burkitt lymphoma)",
+    "Panel D: large atypical cells with abundant vacuolated, foamy grey-blue cytoplasm, contoured to lobulated or multiple nuclei, fine chromatin and nucleoli, some with phagocytosed cells",
+    "Panel E: HES section with sheets of large pleomorphic cells; S100 and CD68 positive, CD1a negative",
+    "Panels B/F: karyotypes showing t(8;14) and later a complex karyotype; panel G FISH IGH and MYC break-apart signals",
+    "Panel C: PET-CT with hypermetabolic lytic pelvic/sacroiliac lesions; panel H identical clonal IGH peaks in lymphoma and sarcoma"
+  ],
+  "describe_en": "Initial bone marrow aspirate (A) shows medium-sized lymphoid cells with deeply basophilic cytoplasm and numerous discrete cytoplasmic vacuoles, with a t(8;14) karyotype (B), consistent with Burkitt lymphoma. A later aspirate from a lytic iliac lesion (C-D) shows large atypical cells with abundant vacuolated, foamy cytoplasm, irregular to multilobated or multiple nuclei with nucleoli, and occasional hemophagocytosis. The corresponding biopsy (E) shows sheets of large pleomorphic cells that are S100 and CD68 positive and CD1a negative. Persistence of MYC::IGH rearrangement and an identical clonal IGH rearrangement (F-H) indicate a clonally related neoplasm; findings are consistent with histiocytic sarcoma arising by transdifferentiation from prior Burkitt lymphoma.",
+  "ddx": [
+    {"dx": "Relapsed Burkitt lymphoma", "vs": "Relapse would show monotonous medium-sized CD20+/CD10+ cells with vacuolated basophilic cytoplasm, not large pleomorphic S100+/CD68+ histiocytic cells lacking B-cell markers."},
+    {"dx": "Langerhans cell histiocytosis/sarcoma", "vs": "Langerhans cell neoplasms have grooved nuclei and are CD1a+ and langerin+, whereas these cells are CD1a-negative."},
+    {"dx": "Reactive hemophagocytic histiocytes (HLH)", "vs": "Reactive histiocytes are cytologically bland with small nuclei and are polyclonal, while these cells are atypical with nucleoli and share the lymphoma's clonal IGH and MYC rearrangements."},
+    {"dx": "Anaplastic large cell lymphoma or metastatic carcinoma/melanoma", "vs": "ALCL is CD30+ with T-cell markers, carcinoma is keratin+, and melanoma is S100+ but also SOX10/HMB45/Melan-A+ and CD68-negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "MGG, HES, IHC: S100, CD68, CD1a; FISH; karyotype",
+  "match": "consistent",
+  "high_yield": false
+}

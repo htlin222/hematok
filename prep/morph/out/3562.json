@@ -1,0 +1,23 @@
+{
+  "id": "3562",
+  "recognize_zh": "低倍下可見幾顆淋巴球大小的細胞，核分成數個葉、像苜蓿葉或花瓣（flower-like），染色質深、細胞質少且無顆粒；在 HTLV-1 背景下提示成人 T 細胞白血病/淋巴瘤。不過放大倍率低，和分葉中性球不容易分辨，需要高倍或流式確認。",
+  "features": [
+    "Small-to-medium cells with lobulated, clover-leaf/flower-like nuclei",
+    "Dense, dark chromatin",
+    "Scant pale cytoplasm without obvious neutrophilic granules",
+    "Low absolute number of atypical cells in this field, in keeping with a smoldering picture",
+    "Normochromic, normocytic RBCs; normal platelets",
+    "Low magnification limits distinction from segmented neutrophils"
+  ],
+  "describe_en": "Peripheral blood smear at low power shows a few small-to-medium lymphoid cells with lobulated, flower-like nuclei, dense chromatin, and scant, agranular cytoplasm. Only occasional atypical cells are present, and the red cells and platelets are unremarkable. At this magnification the cells cannot be reliably separated from segmented neutrophils, so high-power review and flow cytometry are needed. With HTLV-1 seropositivity, findings are consistent with adult T-cell leukemia/lymphoma, smoldering type.",
+  "ddx": [
+    {"dx": "Segmented neutrophils", "vs": "Neutrophils have lobes joined by thin filaments and pink granular cytoplasm, whereas flower cells have agranular basophilic cytoplasm and CD4+/CD25+ T-cell immunophenotype."},
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have finely grooved cerebriform nuclei rather than deep petal-like lobation, and patients are HTLV-1 negative."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells have round nuclei with soccer-ball chromatin and are CD5+/CD23+ B cells."},
+    {"dx": "HTLV-1 carrier with reactive lymphocytes", "vs": "Smoldering ATLL requires at least 5% abnormal T lymphocytes in blood, and clonal HTLV-1 integration confirms neoplasia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

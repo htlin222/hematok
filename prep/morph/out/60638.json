@@ -1,0 +1,22 @@
+{
+  "id": "60638",
+  "recognize_zh": "A 圖為 CML 典型的顆粒球各階段成熟細胞與嗜鹼性球；B 圖則出現大量細胞質深藍、含少量粗大嗜鹼性顆粒的芽細胞與異常嗜鹼性球（右下插圖），符合 CML 嗜鹼性芽細胞期。",
+  "features": [
+    "Panel A: granulocytic cells at all stages of maturation (myelocytes, metamyelocytes, band and segmented neutrophils) with basophils, typical of chronic phase CML",
+    "Panel B: many medium-to-large blasts with high N:C ratio, fine chromatin and deeply basophilic cytoplasm",
+    "Several blasts and immature cells contain coarse dark basophilic granules, some obscuring the nucleus, indicating basophilic differentiation",
+    "Inset: large blast with fine chromatin and a rim of cytoplasm containing few basophilic granules",
+    "Background platelet clumps/fragments and red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Composite figure. Panel A shows a left-shifted granulocytic proliferation with all stages of maturation and scattered basophils, as seen in chronic phase chronic myeloid leukemia. Panel B shows replacement by numerous blasts with deeply basophilic cytoplasm, many of which contain coarse dark metachromatic granules, together with hypogranular immature basophils; the inset highlights a blast with sparse basophilic granules. Confirmation by toluidine blue metachromasia, flow cytometry (CD123, CD203c, CD25) and BCR::ABL1 testing is advised. Findings are consistent with basophilic blast phase of chronic myeloid leukemia.",
+  "ddx": [
+    {"dx": "Acute basophilic leukemia (de novo)", "vs": "Morphology can be identical, but de novo disease lacks a preceding chronic phase and BCR::ABL1 fusion."},
+    {"dx": "CML accelerated phase with basophilia", "vs": "Accelerated phase has increased mature basophils (≥20%) but blasts remain below the blast-phase threshold, unlike the blast-rich field in panel B."},
+    {"dx": "Mast cell leukemia", "vs": "Mast cells have oval nuclei and more evenly distributed granules and express CD117/tryptase strongly with KIT D816V, whereas basophilic blasts are CD123+ and CD117 negative."},
+    {"dx": "CML myeloid blast phase without basophilic differentiation", "vs": "Myeloblasts show azurophilic granules or Auer rods rather than coarse metachromatic basophilic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

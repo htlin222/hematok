@@ -1,0 +1,22 @@
+{
+  "id": "64975",
+  "recognize_zh": "這是流式細胞儀圖而非形態圖：在 FSC/SSC 閘門 R1 內，CD38 陽性約 90%、CD56 陽性約 83%、CD138 陽性約 81%，CD38/CD56 雙參數圖大部分落在右上雙陽性象限，表示異常漿細胞群共同表現 CD38、CD138 與異常的 CD56。",
+  "features": [
+    "FSC vs SSC plot with gate R1 capturing about 71% of events as a low-SSC population",
+    "CD38-FITC histogram: about 90% positive with bright expression",
+    "CD56-PE histogram: about 83% positive with a single bright peak",
+    "CD138-FITC histogram: about 81% positive",
+    "CD38 vs CD56 quadrant plot: the dominant population lies in the CD38+/CD56+ quadrant",
+    "No CD45, CD19 or kappa/lambda light-chain plots are shown"
+  ],
+  "describe_en": "Flow cytometric plots show a gated population (R1, about 71% of events) on forward versus side scatter. Within the gate, the cells are brightly positive for CD38 (about 90%) and CD138 (about 81%), and the majority co-express CD56 (about 83%), as shown by the dominant CD38+/CD56+ cluster on the quadrant plot. CD56 expression is aberrant for plasma cells, which normally are CD56-negative. Because CD19, CD45 and cytoplasmic light-chain data are not shown, clonality cannot be established from this figure alone; the findings are suggestive of a neoplastic plasma cell population in plasma cell dyscrasia.",
+  "ddx": [
+    {"dx": "Reactive polyclonal plasma cells", "vs": "Normal plasma cells are CD19+, CD45+, CD56- and polytypic for kappa and lambda, rather than CD56-positive with restriction."},
+    {"dx": "Plasmablastic lymphoma", "vs": "PBL can share CD38/CD138 expression but is often CD56-variable, EBER-positive and presents as an aggressive extramedullary mass with high Ki-67."},
+    {"dx": "NK-cell neoplasm", "vs": "NK cells are CD56+ but CD138-negative and express CD2, CD7 and cytoplasmic CD3ε rather than bright CD38/CD138."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65013",
+  "recognize_zh": "血液抹片紅血球大小不一且形狀多變：圓圈處為較大的巨紅血球（macrocyte），箭頭指一顆布滿粗大藍黑色點狀的嗜鹼性斑點（basophilic stippling）紅血球，另散在碎裂紅血球與鋸齒狀細胞；配合 B12 低下與 MCV 升高，符合巨母細胞性貧血的周邊血變化。",
+  "features": [
+    "Marked anisocytosis with scattered macrocytes (circled) larger than surrounding RBCs",
+    "Red cell with coarse basophilic stippling (arrow)",
+    "Poikilocytosis including fragmented cells/schistocytes, oval cells and crenated/spiculated forms",
+    "Occasional RBC with a small dark inclusion and a single polychromatophilic cell",
+    "Platelets present; no leukocytes (and therefore no hypersegmented neutrophils) in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisocytosis and poikilocytosis. Scattered macrocytes and oval forms are present, together with fragmented red cells and crenated or spiculated forms. One red cell shows coarse basophilic stippling, and occasional cells contain small dark inclusions. No leukocytes are present in this field, so neutrophil hypersegmentation cannot be assessed. In the context of elevated MCV and low vitamin B12, findings are consistent with megaloblastic anemia with dyserythropoietic red cell changes.",
+  "ddx": [
+    {"dx": "Lead poisoning or thalassemia (basophilic stippling)", "vs": "Stippling in lead toxicity and thalassemia occurs with microcytic hypochromic cells, whereas this smear shows macrocytes and oval macrocytes with an elevated MCV."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS can produce macrocytosis and poikilocytosis but has normal B12/folate, pseudo-Pelger neutrophils or dysgranulopoiesis, and does not respond to vitamin replacement."},
+    {"dx": "Thrombotic microangiopathy", "vs": "TMA shows numerous schistocytes with marked thrombocytopenia and reticulocytosis, whereas megaloblastic anemia has low reticulocytes and fragments are accompanied by macro-ovalocytes."},
+    {"dx": "Non-megaloblastic macrocytosis (liver disease, alcohol)", "vs": "These produce round thin macrocytes and target cells rather than macro-ovalocytes, and B12/folate are normal."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (Romanowsky)",
+  "match": "consistent",
+  "high_yield": true
+}

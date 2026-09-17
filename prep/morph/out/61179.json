@@ -1,0 +1,22 @@
+{
+  "id": "61179",
+  "recognize_zh": "五條血液抹片中，箭頭指的血小板體積接近甚至超過紅血球（巨大血小板），箭頭三角指的中性球細胞質邊緣有淡藍色、梭形的包涵體（Döhle-like body），兩者同時出現應想到 MYH9 相關疾病（MYH9-related disorder）。",
+  "features": [
+    "Giant platelets (arrows) approaching or equal to the diameter of adjacent red cells, with granular centers and pale blue periphery",
+    "Neutrophils with discrete pale blue, spindle- to crescent-shaped cytoplasmic inclusions (arrowheads), Döhle-like bodies",
+    "Inclusions are sharply defined and located near the cell membrane, one per neutrophil in each panel",
+    "Neutrophil cytoplasm otherwise lacks toxic granulation or vacuolation",
+    "Normochromic normocytic red cells without schistocytes; reduced platelet density"
+  ],
+  "describe_en": "Peripheral blood smear shows reduced numbers of platelets with many giant forms approaching or exceeding the size of red cells. Neutrophils contain distinct, pale blue, spindle-shaped cytoplasmic inclusions near the cell membrane resembling Döhle bodies, without accompanying toxic granulation or cytoplasmic vacuolation. Red cells are unremarkable without schistocytes. In a patient with lifelong macrothrombocytopenia, findings are suggestive of an MYH9-related disorder; confirmation by immunofluorescence for NMMHC-IIA aggregates or MYH9 sequencing is recommended.",
+  "ddx": [
+    {"dx": "Reactive Döhle bodies (infection, sepsis, G-CSF)", "vs": "True Döhle bodies are more diffuse and accompanied by toxic granulation and vacuolation, with normal-sized platelets."},
+    {"dx": "Bernard-Soulier syndrome", "vs": "Bernard-Soulier shows giant platelets but normal neutrophils without inclusions and absent ristocetin-induced agglutination."},
+    {"dx": "Immune thrombocytopenia (ITP)", "vs": "ITP may have mildly enlarged platelets but not uniformly giant platelets and no neutrophil inclusions, with a normal prior count history."},
+    {"dx": "May-Hegglin anomaly vs other MYH9 phenotypes (Sebastian, Fechtner, Epstein)", "vs": "These are one allelic disease spectrum and cannot be separated by morphology; renal, hearing and ocular findings plus genotype define the phenotype."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "4207",
+  "recognize_zh": "脾臟免疫染色中紅髓充滿大量陽性的中小型淋巴球，呈瀰漫分布，只有少數淡染的區塊（可能是白髓）為陰性，提示紅髓內以某一T細胞族群擴張為主；抗體名稱未標示。",
+  "features": [
+    "Diffuse dense positivity in numerous small to medium lymphoid cells throughout the red pulp",
+    "Membranous/cytoplasmic ring-like staining pattern of individual cells",
+    "Scattered pale negative zones, likely white pulp or vascular spaces",
+    "No discrete positive nodules; distribution is diffuse and interstitial",
+    "Specific antibody not labeled"
+  ],
+  "describe_en": "Immunostained splenic section at medium power shows a diffuse infiltrate of small to medium lymphoid cells with membranous staining throughout the red pulp, sparing scattered pale zones that likely represent white pulp. The pattern suggests expansion of a T-cell population (e.g., CD3 or CD8), although the antibody is not labeled. In the context of infectious mononucleosis, this would be consistent with the reactive cytotoxic T-cell expansion that infiltrates the red pulp and predisposes to rupture.",
+  "ddx": [
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTL shows monotonous medium-sized T-cells within sinusoids, typically CD8-negative gamma-delta T-cells with isochromosome 7q, rather than a polymorphous reactive infiltrate."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL shows a clonal CD8+/CD57+ population with cytopenias and persistent blood lymphocytosis, confirmed by TCR clonality and STAT3 mutation."}
+  ],
+  "specimen": "spleen",
+  "stain": "IHC: marker not stated (likely T-cell)",
+  "match": "partial",
+  "high_yield": false
+}

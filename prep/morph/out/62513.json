@@ -1,0 +1,21 @@
+{
+  "id": "62513",
+  "recognize_zh": "活細胞的 CD19 對側向散射（SS）流式圖：綠色圈選的 CD19+、低 SS 小型 B 細胞佔 78.84%，遠多於左下 CD19- 淋巴球與上方高 SS 顆粒球，表示檢體以 B 淋巴球為主，需再以輕鏈與 CD5/CD23 確認 CLL 單株性。",
+  "features": [
+    "Dot plot of CD19-ECD (x-axis) versus side scatter (y-axis) gated on living cells",
+    "Gated CD19-positive, low side-scatter population comprising 78.84% of events (green)",
+    "CD19 intensity moderate (~10^4), consistent with mature B cells",
+    "Minor CD19-negative low side-scatter population (T/NK cells, dark purple)",
+    "CD19-negative high side-scatter granulocytes (gray) markedly underrepresented"
+  ],
+  "describe_en": "Flow cytometric plot of CD19 versus side scatter on viable cells shows that a CD19-positive, low side-scatter B-cell population comprises 78.84% of events. Smaller populations of CD19-negative lymphocytes and high side-scatter granulocytes are present. This marked B-cell predominance indicates a B-lymphoproliferative process but does not by itself establish clonality. In conjunction with dim monotypic light chain and CD5/CD23 coexpression, the findings are consistent with chronic lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Reactive B-cell lymphocytosis", "vs": "Reactive B cells are polytypic for kappa and lambda and rarely constitute such a dominant fraction."},
+    {"dx": "Other CD5-positive B-cell lymphoma (mantle cell)", "vs": "MCL also shows a dominant CD19-positive population but is CD23-negative, FMC7-positive, and cyclin D1-positive."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts show CD34/TdT expression, dim CD45, and often CD10, rather than a mature sIg-positive phenotype."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A (flow cytometry)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60613",
+  "recognize_zh": "骨髓切片中巨噬細胞胞質內可見金褐色、粗顆粒狀的含鐵血黃素（hemosiderin），Prussian blue 染色呈大團深藍色鐵沉積集中在巨噬細胞內；下方示意圖說明 hepcidin 使 ferroportin 被內吞分解，鐵被困在巨噬細胞與腸細胞內，即慢性疾病貧血的機轉。",
+  "features": [
+    "H&E: scattered macrophages containing coarse golden-brown refractile hemosiderin granules (inset), within a cellular marrow",
+    "Prussian blue: markedly increased storage iron as large dark-blue clumps within macrophages (inset)",
+    "Blue iron is concentrated in macrophages rather than dispersed as siderotic granules in erythroid precursors",
+    "Schematic: hepcidin binds ferroportin on enterocytes and macrophages, causing its internalization and lysosomal degradation, blocking iron export"
+  ],
+  "describe_en": "The bone marrow core biopsy (H&E) shows a cellular marrow with scattered macrophages containing coarse golden-brown hemosiderin pigment. Prussian blue staining demonstrates increased storage iron sequestered within macrophages as large clumps. The accompanying schematic illustrates hepcidin-mediated internalization and degradation of ferroportin in enterocytes and macrophages, which reduces intestinal iron absorption and traps iron in the reticuloendothelial system. Findings are consistent with iron-restricted erythropoiesis with increased macrophage iron in anemia of chronic inflammation associated with autoimmune disease.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency shows absent stainable storage iron in marrow macrophages, the opposite of the abundant macrophage iron seen here."},
+    {"dx": "Hereditary hemochromatosis / transfusional iron overload", "vs": "Iron overload shows increased iron in both macrophages and parenchymal cells with high transferrin saturation, rather than low saturation with iron trapping."},
+    {"dx": "Sideroblastic anemia", "vs": "Sideroblastic anemia shows ring sideroblasts with perinuclear iron in erythroblasts, not iron confined to macrophages."},
+    {"dx": "Other brown pigments (e.g., formalin pigment, melanin)", "vs": "Hemosiderin is confirmed by Prussian blue positivity, whereas formalin pigment and melanin are Prussian blue-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Prussian blue; schematic",
+  "match": "consistent",
+  "high_yield": true
+}

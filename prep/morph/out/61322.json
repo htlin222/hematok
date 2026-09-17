@@ -1,0 +1,21 @@
+{
+  "id": "61322",
+  "recognize_zh": "中央可見一團由數十顆紫色顆粒狀血小板聚在一起的團塊，右下方另有一小團，旁邊是正常的嗜中性球；抹片其他區域單顆血小板很少，這種血小板凝集會使自動計數偏低，造成偽性血小板低下（多與 EDTA 有關）。",
+  "features": [
+    "Central large aggregate of densely packed granular platelets, with a smaller clump at lower right",
+    "Platelets within clumps are normal-sized with purple granules",
+    "Segmented neutrophil adjacent to the clump for size comparison",
+    "Few free single platelets in the surrounding field",
+    "Red cells normocytic and normochromic with overlap and some rouleaux-like stacking in thicker areas; scattered stain precipitate"
+  ],
+  "describe_en": "Peripheral blood smear shows a large aggregate of granular platelets in the center of the field and a smaller clump at the lower right, adjacent to a normal segmented neutrophil. Free-lying single platelets are sparse elsewhere. Red cells are normocytic and normochromic without schistocytes, and scattered dark particles represent stain precipitate. Platelet clumping of this type falsely lowers the automated platelet count; findings are consistent with pseudothrombocytopenia, likely EDTA-induced, and the count should be repeated in a citrate tube with smear review.",
+  "ddx": [
+    {"dx": "True thrombocytopenia", "vs": "Platelets are uniformly decreased across the smear, including the feathered edge, without aggregates."},
+    {"dx": "Platelet satellitism", "vs": "Platelets adhere in a rosette around neutrophils rather than forming free aggregates."},
+    {"dx": "Partially clotted specimen", "vs": "Platelet clumps are enmeshed in fibrin strands and often accompanied by a visible clot in the tube."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61453",
+  "recognize_zh": "G 帶染色核型圖中，第 7 號染色體位置只剩一條（已圈起），其他常染色體皆成對，性染色體為 X 與 Y，即 45,XY,-7 單體 7；用於慢性骨髓單核球性白血病（CMML）的預後分層。",
+  "features": [
+    "G-banded karyotype arranged by chromosome number from a bone marrow metaphase",
+    "Only one chromosome 7 is present (circled), indicating monosomy 7",
+    "All other autosomes are paired; sex chromosomes X and Y present (Y faintly stained)",
+    "No marker chromosome identified (empty 'mar' slot)",
+    "Band resolution is modest; subtle structural changes cannot be excluded from this single karyogram"
+  ],
+  "describe_en": "G-banded karyogram from an unstimulated bone marrow culture shows a male complement with loss of one chromosome 7, with the remaining homologs paired and no marker chromosomes, interpreted as 45,XY,-7. A single karyogram does not establish clonality; ISCN requires the same chromosome loss in at least three metaphases. Monosomy 7 is a recurrent abnormality in myeloid neoplasms and places CMML in a high-risk cytogenetic category (CPSS). Correlation with FISH for 7q31/CEP7 and the marrow morphology is recommended.",
+  "ddx": [
+    {"dx": "Random chromosome loss (artefact)", "vs": "Non-clonal random loss seen in a single metaphase is not reportable; clonality requires three metaphases with the same loss."},
+    {"dx": "del(7q)", "vs": "Interstitial or terminal 7q deletion leaves two chromosome 7s, one shortened, rather than a missing homolog."},
+    {"dx": "Constitutional monosomy 7 mosaicism / germline predisposition (GATA2, SAMD9/SAMD9L)", "vs": "Suspected in younger patients and requires non-hematopoietic tissue or germline testing rather than marrow karyotype alone."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding (karyotype)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "64032",
+  "recognize_zh": "這是血紅素 HPLC 層析圖與峰值表（非形態學圖片），主峰 A0 佔 80.5%、HbA2 2.7%、HbF <0.8%，無異常變異峰，屬正常型態；但要注意 HPLC 正常並不排除以超活體染色才看得到的後天性 HbH。",
+  "features": [
+    "Cation-exchange HPLC chromatogram with a dominant A0 peak at retention time 1.79 min (80.5%)",
+    "HbA2 peak at 3.30 min quantified at 2.7% (within normal range)",
+    "HbF reported <0.8%",
+    "Glycated/minor fractions A1a, A1b, LA1c, A1c (6.8%) and P3 (5.4%) present; two small unknown peaks (0.8% and 0.6%)",
+    "No abnormal variant peaks such as HbS, HbE/A2 window elevation or early fast-eluting peaks"
+  ],
+  "describe_en": "Hemoglobin HPLC chromatogram with peak table shows a dominant HbA (A0) peak comprising 80.5% of total area, HbA2 of 2.7% and HbF below 0.8%. Minor glycated and adduct fractions (A1a, A1b, LA1c, A1c 6.8%, P3) and two small unidentified peaks under 1% are present, without a variant hemoglobin peak or elevated HbA2 or HbF. This is a normal hemoglobin fraction pattern, arguing against beta-thalassemia trait and common structural variants. Because HbH and small amounts of fast-eluting hemoglobins may be unretained or poorly resolved on this program, a normal result does not exclude acquired HbH disease, which is better demonstrated by supravital staining for HbH inclusions.",
+  "ddx": [
+    {"dx": "Beta-thalassemia trait", "vs": "Beta-thalassemia trait shows HbA2 typically >3.5% with microcytosis, unlike the 2.7% here."},
+    {"dx": "HbH disease (inherited or acquired)", "vs": "HbH appears as a fast-eluting peak near the injection point or may be missed, with HbA2 often low, so HbH inclusion staining or alpha-globin genetic testing is needed."},
+    {"dx": "Hereditary persistence of fetal hemoglobin or delta-beta thalassemia", "vs": "These show markedly increased HbF, whereas HbF here is <0.8%."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

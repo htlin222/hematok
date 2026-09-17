@@ -1,0 +1,23 @@
+{
+  "id": "3282",
+  "recognize_zh": "骨髓抹片以大量小而成熟的淋巴球為主，核圓、染色質呈粗塊狀（soccer-ball chromatin）、細胞質極少，另有破碎的 smudge cells；箭頭指的是一顆核偏心、染色質呈車輪狀的漿細胞樣細胞，符合 CLL 骨髓浸潤。",
+  "features": [
+    "Predominance of small mature lymphocytes, slightly larger than red cells",
+    "High N:C ratio with round nuclei and coarsely clumped 'soccer-ball' chromatin",
+    "Scant pale blue cytoplasm; nucleoli inconspicuous",
+    "Smudge (basket) cells in the right upper and lower right field",
+    "Arrow: plasmacytoid cell with eccentric nucleus, clock-face chromatin and perinuclear hof",
+    "Occasional band neutrophil and a larger cell with more open chromatin (possible prolymphocyte)"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a predominance of small, mature-appearing lymphocytes with round nuclei, coarsely clumped chromatin, inconspicuous nucleoli and scant cytoplasm, accompanied by smudge cells. A plasmacytoid cell with an eccentric nucleus, clock-face chromatin and perinuclear clearing is indicated by the arrow, and occasional larger cells with more open chromatin and a band neutrophil are present. Normal hematopoietic elements are reduced in this field. Findings are consistent with marrow involvement by chronic lymphocytic leukemia/small lymphocytic lymphoma; confirmation by flow cytometry (CD5+, CD23+, CD200+, dim sIg) is recommended, and the plasmacytoid cell should prompt consideration of lymphoplasmacytic differentiation if numerous.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cells are slightly larger with irregular or cleaved nuclei and less clumped chromatin, and are CD23-negative/cyclin D1 and SOX11-positive."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with IgM paraprotein and MYD88 L265P, and is CD5/CD23-negative."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL cells have more abundant pale cytoplasm, sometimes villous projections, and are CD5/CD23-negative."},
+    {"dx": "Hematogones/reactive lymphocytosis", "vs": "Hematogones have homogeneous smooth chromatin and show a maturation spectrum (CD10/CD34/TdT) without light chain restriction."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

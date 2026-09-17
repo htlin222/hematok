@@ -1,0 +1,21 @@
+{
+  "id": "64164",
+  "recognize_zh": "低倍骨髓切片 AE1/AE3 染色中，陽性並非黏聚成巢的強烈細胞質染色，而是散在於整片骨髓、呈顆粒或點狀的棕色染色，提示需排除組織球等非上皮細胞的點狀交叉反應，而非典型轉移癌。",
+  "features": [
+    "Low-power view of two marrow core fragments separated by bone trabeculae",
+    "Brown AE1/AE3 staining scattered diffusely across cellular marrow as granular, dot-like cytoplasmic deposits",
+    "No cohesive epithelial nests, glands, or strong diffuse membranous/cytoplasmic keratin pattern",
+    "Background hematopoietic cells and adipocytes show blue counterstain",
+    "Heterogeneous staining intensity with occasional more strongly stained cells"
+  ],
+  "describe_en": "Low-power view of a bone marrow core biopsy immunostained for pancytokeratin AE1/AE3 shows scattered granular, dot-like cytoplasmic staining distributed throughout the cellular marrow. The positive cells do not form cohesive nests or glands, and the diffuse strong cytoplasmic keratin pattern of carcinoma is not seen. In this case, the corresponding epithelioid cells were CD163 positive with membranous staining, indicating that the dot-like keratin reactivity represents a nonspecific or aberrant pattern in histiocytes rather than metastatic carcinoma. Keratin immunostaining in marrow should always be interpreted together with pattern, morphology, and histiocytic markers.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma shows cohesive clusters with strong, diffuse cytoplasmic or membranous keratin staining and is CD163/CD68 negative."},
+    {"dx": "Metastatic neuroendocrine carcinoma (paranuclear dot-like keratin)", "vs": "Small cell or Merkel cell carcinoma can show dot-like keratin but forms clusters of small cells with molding and expresses synaptophysin/INSM1."},
+    {"dx": "Endogenous peroxidase or pigment artifact (hemosiderin)", "vs": "Artifactual brown deposits are refractile or golden and present on the negative control or iron stain, rather than confined to specific cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: AE1/AE3",
+  "match": "consistent",
+  "high_yield": false
+}

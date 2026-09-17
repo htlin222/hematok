@@ -1,0 +1,21 @@
+{
+  "id": "1584",
+  "recognize_zh": "高倍 H&E 下絕大多數是小型、核呈角狀或有切跡的中心細胞（centrocytes），染色質深、核仁不明顯，大型具核仁的中心母細胞（centroblasts）只零星出現，符合低級別（grade 1-2）濾泡型淋巴瘤。",
+  "features": [
+    "Sheets of small to medium-sized lymphoid cells with scant cytoplasm and high N:C ratio",
+    "Predominance of centrocytes with angulated, elongated, cleaved or twisted nuclei",
+    "Dense, dark chromatin with inconspicuous nucleoli in most cells",
+    "Only rare larger centroblasts with vesicular chromatin and peripheral nucleoli",
+    "Monotonous population without tingible-body macrophages or significant mitotic activity"
+  ],
+  "describe_en": "High-power H&E section shows a monotonous population of small to medium-sized lymphoid cells with scant cytoplasm. Most cells are centrocytes with angulated, cleaved and irregular nuclei, dense chromatin and inconspicuous nucleoli. Large centroblasts with vesicular chromatin and nucleoli are infrequent, and tingible-body macrophages are not seen. Findings are consistent with low-grade (grade 1-2) follicular lymphoma, assuming this field is representative of a follicle.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma cells have more uniform, slightly irregular nuclei without admixed centroblasts, often with hyalinized vessels and epithelioid histiocytes, and are cyclin D1-positive."},
+    {"dx": "Small lymphocytic lymphoma", "vs": "SLL cells are round with clumped chromatin and form proliferation centers containing prolymphocytes and paraimmunoblasts rather than cleaved centrocytes."},
+    {"dx": "Follicular lymphoma grade 3A", "vs": "Grade 3A requires more than 15 centroblasts per high-power field, whereas centroblasts here are sparse."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1317",
+  "recognize_zh": "骨髓抹片中央有數個巨核細胞，細胞核深染、形狀不規則或碎裂成多團，細胞質相對減少，旁邊還有深染、濃縮的核碎片，背景散在造血細胞與脂肪空泡，符合化療後巨核細胞的受損變化（chemotherapy effect）。",
+  "features": [
+    "Several megakaryocytes clustered near fat spaces in a spicule-edge area",
+    "Nuclei are hyperchromatic, irregularly lobulated or separated into discrete fragments",
+    "Cytoplasm is reduced in some cells, with a naked or near-naked nuclear appearance",
+    "Background of mixed maturing myeloid and erythroid precursors with prominent fat vacuoles",
+    "Thick, dark-staining crenated red cells indicate a drying/thick-smear artifact"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular particle edge with interspersed fat vacuoles and mixed hematopoietic precursors. Several megakaryocytes show hyperchromatic, irregular and fragmented nuclear lobes with reduced cytoplasm, a pattern of degenerative change. Interpretation is partly limited by thick areas with dark-staining red cells. In the appropriate clinical context, findings are consistent with cytotoxic chemotherapy effect on megakaryocytes.",
+  "ddx": [
+    {"dx": "Myelodysplastic megakaryocytes", "vs": "MDS megakaryocytes show separated round nuclear lobes or hypolobation with preserved cytoplasm rather than degenerative condensed, fragmented nuclei, and require no recent therapy history."},
+    {"dx": "Megakaryocytic emperipolesis or apoptosis artifact", "vs": "Emperipolesis shows intact hematopoietic cells within megakaryocyte cytoplasm, whereas the nuclear fragmentation here is intrinsic to the megakaryocyte."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic megakaryocytes are hypersegmented but accompanied by megaloblastic erythroid precursors and giant metamyelocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

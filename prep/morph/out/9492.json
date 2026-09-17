@@ -1,0 +1,23 @@
+{
+  "id": "9492",
+  "recognize_zh": "骨髓切片中有許多大型、核圓、染色質較開放並帶明顯核仁的細胞（巨大原紅血球樣），配合免疫染色 c、d 的陽性與 e 的陰性對照，提示小病毒 B19（parvovirus B19）感染骨髓；圖中未標註各抗體，須對照原文判讀。",
+  "features": [
+    "Cellular marrow with preserved fat and bony trabecula at low power (a)",
+    "Increased large cells with round nuclei, open chromatin and prominent nucleoli, consistent with enlarged (giant) pronormoblasts (b)",
+    "Scattered large cells with membranous/cytoplasmic immunostaining in panel c",
+    "Diffuse nuclear/cytoplasmic immunostaining of many marrow cells in panel d",
+    "Panel e shows essentially negative staining (negative marker or control)",
+    "Eosinophilic intranuclear viral inclusions are not clearly resolved at this magnification"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows a cellular marrow adjacent to a bony trabecula with preserved fat. At higher power there are increased large cells with round nuclei, vesicular chromatin, and prominent nucleoli, resembling enlarged pronormoblasts. Immunohistochemical panels show membranous/cytoplasmic staining of scattered large cells (c), diffuse staining of many marrow cells (d), and a negative stain (e); the antibodies are not labeled in the figure. Characteristic glassy intranuclear inclusions are not definitively resolved at this resolution. Findings are suggestive of parvovirus B19 infection of the marrow, which should be confirmed by parvovirus B19 immunohistochemistry, in situ hybridization, or serum PCR.",
+  "ddx": [
+    {"dx": "Acute erythroid leukemia (pure erythroid leukemia)", "vs": "Pure erythroid leukemia shows sheets of clonal erythroid blasts with TP53 abnormalities and lacks viral inclusions or parvovirus B19 staining."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts are MPO/CD34/CD117 positive and E-cadherin/glycophorin negative, unlike parvovirus-infected erythroid precursors."},
+    {"dx": "Metastatic tumor or large cell lymphoma", "vs": "These form cohesive or diffuse sheets with lineage-specific markers (keratin, CD20, CD30) rather than erythroid antigens."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic change shows the full range of enlarged erythroid precursors with nuclear-cytoplasmic asynchrony and giant metamyelocytes, not an arrest at giant pronormoblasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (antibodies not labeled)",
+  "match": "partial",
+  "high_yield": true
+}

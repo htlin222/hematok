@@ -1,0 +1,20 @@
+{
+  "id": "62078",
+  "recognize_zh": "這是 PCR 產物的凝膠電泳圖（非形態圖）：最左為分子量標記，各樣本道都有一條共同的上方條帶（內部對照），部分樣本道另出現大小不同的下方條帶，代表偵測到特定 β 地中海貧血突變（如 ARMS-PCR 或 RFLP 檢測）。",
+  "features": [
+    "Gel electrophoresis image of PCR products (non-morphologic)",
+    "Left lane: DNA size ladder with multiple reference bands",
+    "Six sample lanes each showing a shared upper band at similar size, consistent with an internal control amplicon",
+    "Lane 3 shows an additional low-molecular-weight band; lanes 5 and 6 show an additional intermediate-size band",
+    "Lanes 2, 4 and 7 show only the control band; rightmost lane is blank; residual material in wells"
+  ],
+  "describe_en": "This is a gel electrophoresis image of PCR products rather than a morphologic image. A DNA size ladder is loaded in the first lane, and all six sample lanes contain a common upper band consistent with an internal control amplicon, confirming successful amplification. Lane 3 shows an additional small product and lanes 5 and 6 show an additional intermediate-size product, while the remaining lanes show only the control band. Without the lane key and primer design, the specific alleles cannot be assigned; in an allele-specific (ARMS) or restriction-digest assay for beta-thalassemia, the extra bands would indicate the presence of the tested mutations, and results must be correlated with the normal-allele reactions to determine zygosity.",
+  "ddx": [
+    {"dx": "Nonspecific amplification or primer-dimer", "vs": "Primer-dimers run at very low molecular weight as diffuse smears and appear in negative controls, unlike discrete bands of expected size confined to specific samples."},
+    {"dx": "Gap-PCR for deletional alleles (e.g., Hb Lepore, alpha-globin deletions)", "vs": "Gap-PCR distinguishes alleles by amplicon size across deletion breakpoints, so interpretation depends on the assay design and lane legend rather than band presence alone."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A (gel electrophoresis)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

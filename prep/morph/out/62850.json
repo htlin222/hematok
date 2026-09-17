@@ -1,0 +1,21 @@
+{
+  "id": "62850",
+  "recognize_zh": "CD20 染色下整片細胞幾乎都是藍色陰性，只有約 4–5 個散在的小圓細胞呈深棕色陽性，是殘存的正常 B 細胞；骨髓瘤漿細胞通常 CD20 陰性，因此這種「背景幾乎全陰」的樣式符合漿細胞腫瘤。",
+  "features": [
+    "IHC for CD20 on a densely cellular marrow core",
+    "Only rare (about 4–5) scattered small round cells with strong membranous/cytoplasmic brown staining",
+    "Positive cells are small and dispersed, not forming aggregates or nodules",
+    "Vast majority of cells, including the infiltrating population, are CD20 negative",
+    "Clean background without nonspecific staining"
+  ],
+  "describe_en": "Immunohistochemical stain for CD20 on the bone marrow trephine shows only rare, scattered small CD20-positive cells consistent with residual normal B lymphocytes. The densely cellular infiltrate is CD20 negative, and no B-cell aggregates or sheets are identified. Lack of CD20 expression by the infiltrating cells argues against a B-cell lymphoma with plasmacytic differentiation, and findings are consistent with plasma cell myeloma in conjunction with CD138 and light chain studies.",
+  "ddx": [
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL contains a CD20-positive small B-cell component admixed with plasma cells, whereas here CD20-positive cells are only rare and scattered."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "MZL shows CD20-positive B-cell nodules or interstitial infiltrates alongside the plasma cells, which are absent here."},
+    {"dx": "CD20-positive plasma cell myeloma (often with t(11;14))", "vs": "A minority of myelomas express CD20 on the plasma cells themselves, which would give diffuse staining of the infiltrate rather than rare scattered cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64700",
+  "recognize_zh": "嗜中性球細胞質內有多顆大小不一、深紫至藍灰色的異常巨大顆粒（A、B），淋巴球細胞質內則見單一顆明顯偏大的圓形紫色顆粒（C、D），這種跨細胞系的巨大顆粒是 Chédiak-Higashi 症候群的特徵。",
+  "features": [
+    "Neutrophils contain multiple abnormally large, coarse, dark purple to blue-gray cytoplasmic granules of variable size (panels A-B)",
+    "Neutrophil in panel A also shows cytoplasmic vacuoles and irregular inclusions",
+    "Lymphocytes contain a single large round purple cytoplasmic granule (panels C-D)",
+    "Nuclear segmentation and chromatin of neutrophils otherwise mature; lymphocyte nuclei with condensed chromatin",
+    "Background red cells and platelets without notable abnormality"
+  ],
+  "describe_en": "Peripheral blood smear (May-Grünwald-Giemsa, digital microscopy) shows neutrophils containing numerous abnormally large, coarse, dark purple to gray-blue cytoplasmic granules of varying size, with occasional vacuoles. Lymphocytes contain a single, strikingly large, round purple cytoplasmic granule. Red cells and platelets appear unremarkable. In a child with partial albinism, neutropenia and recurrent infections, findings are consistent with Chédiak-Higashi syndrome (confirmed by LYST sequencing).",
+  "ddx": [
+    {"dx": "Toxic granulation (infection/G-CSF)", "vs": "Toxic granules are fine, evenly distributed, dark azurophilic granules of uniform size that do not form giant granules and do not involve lymphocytes."},
+    {"dx": "Alder-Reilly anomaly (mucopolysaccharidoses)", "vs": "Alder-Reilly granules are dense, fine-to-coarse and diffusely fill neutrophils and often lymphocytes, but are not few, giant, discrete inclusions."},
+    {"dx": "May-Hegglin anomaly (MYH9-related disorder)", "vs": "MYH9 inclusions are pale blue, spindle-shaped Döhle-like bodies with giant platelets and thrombocytopenia, whereas here granules are round, purple and platelets are normal."},
+    {"dx": "Pseudo-Chédiak-Higashi granules in AML/MDS", "vs": "Acquired giant granules occur in dysplastic or leukemic myeloid precursors with blasts and cytopenias, not in otherwise mature neutrophils and lymphocytes of a child with albinism."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

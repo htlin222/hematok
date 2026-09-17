@@ -1,0 +1,22 @@
+{
+  "id": "63012",
+  "recognize_zh": "流式顯示 93% 事件為 CD19+CD34+ 的 B 淋巴母細胞，且 CRLF2 直方圖整群明顯右移（99.9% 陽性）；骨髓切片為小至中型母細胞瀰漫取代，抹片中母細胞染色質細緻、胞質稀少。CRLF2 高表現是 BCR-ABL1-like（Ph-like）B-ALL 的篩檢線索。",
+  "features": [
+    "Flow cytometry: 93.3% of CD45+ events are CD19+ CD34+ B-lymphoblasts (top left)",
+    "CRLF2 histogram: blast population uniformly shifted right of the isotype/negative control, 99.9% positive (top right)",
+    "Trephine biopsy: hypercellular marrow with interstitial sheets of small to medium blasts and residual megakaryocytes (bottom left)",
+    "Aspirate smear: cohesive-appearing cluster of small to medium blasts with high N:C ratio, fine chromatin and scant basophilic cytoplasm (bottom right)",
+    "No granules or Auer rods in the blasts"
+  ],
+  "describe_en": "Composite figure. Flow cytometry demonstrates that 93.3% of gated events are CD19+/CD34+ B-lymphoblasts, and these blasts show uniform bright CRLF2 expression shifted well beyond the negative control (99.9% positive). The bone marrow trephine biopsy is hypercellular with interstitial and diffuse infiltration by small to medium-sized blasts with scattered residual megakaryocytes, and the aspirate smear shows small to medium blasts with high N:C ratio, fine chromatin, inconspicuous nucleoli and scant agranular cytoplasm. Findings are consistent with B-lymphoblastic leukemia with CRLF2 overexpression, supporting BCR-ABL1-like (Ph-like) B-ALL; confirmation requires cytogenetic/molecular testing for CRLF2 rearrangement (IGH::CRLF2, P2RY8::CRLF2) and JAK pathway alterations, with exclusion of BCR::ABL1.",
+  "ddx": [
+    {"dx": "B-ALL with BCR::ABL1 (Ph-positive)", "vs": "Morphology and immunophenotype overlap, so Ph-positive B-ALL is separated only by detecting BCR::ABL1 by karyotype, FISH or PCR."},
+    {"dx": "Acute myeloid leukemia, minimally differentiated", "vs": "AML blasts lack CD19 and CRLF2 and express myeloid antigens (CD13, CD33, CD117, MPO), despite similar agranular morphology."},
+    {"dx": "Hematogones (B-cell precursors)", "vs": "Hematogones show a maturational continuum of CD34, CD10, CD20 and CD45 without a uniform CD34+ population or aberrant CRLF2 overexpression, and do not form sheets."},
+    {"dx": "B-ALL with high hyperdiploidy or other recurrent abnormality", "vs": "These subtypes usually lack uniform bright CRLF2 expression and are defined by chromosome count or specific fusions."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Flow cytometry; H&E; Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64827",
+  "recognize_zh": "骨髓抹片中一個體積很大的巨核細胞，細胞質豐富且呈細顆粒狀、已成熟，但核卻只有單一圓形未分葉（monolobated/hypolobated），旁邊可見一團血小板；成熟細胞質配上未分葉的核即為巨核細胞發育不良的表現。",
+  "features": [
+    "Very large megakaryocyte with abundant, finely granular, mature-appearing lilac cytoplasm",
+    "Single round to oval non-lobated (monolobated/hypolobated) nucleus with coarse chromatin",
+    "Nuclear-cytoplasmic asynchrony: mature granular cytoplasm with an unsegmented nucleus",
+    "Adjacent pink platelet aggregate near the cell border, suggesting platelet formation",
+    "Background of erythrocytes and scattered myeloid and lymphoid cells without obvious blasts"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large megakaryocyte with abundant finely granular mature cytoplasm and a single round, non-lobated nucleus, with an adjacent clump of platelets suggesting platelet production. The remaining nucleated cells in the field do not show blasts. A mature megakaryocyte with a monolobated nucleus represents a dysplastic (hypolobated) form; a single cell is not diagnostic, and dysmegakaryopoiesis should be quantified (at least 10% of megakaryocytes) and correlated with blood counts and cytogenetics, particularly del(5q).",
+  "ddx": [
+    {"dx": "Normal immature megakaryocyte (megakaryoblast/promegakaryocyte)", "vs": "Immature megakaryocytes are smaller with scant deeply basophilic agranular cytoplasm, whereas this cell has abundant mature granular cytoplasm despite a non-lobated nucleus."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts are multinucleated with multiple separate uniform nuclei and coarse granules, not a single large nucleus."},
+    {"dx": "Micromegakaryocyte", "vs": "Micromegakaryocytes are small (near myeloblast size) with one or two small nuclei, unlike this very large cell."},
+    {"dx": "Metastatic tumor cell or large histiocyte", "vs": "Tumor cells occur in cohesive clusters with nucleoli and histiocytes show vacuoles or phagocytosed debris, whereas this cell has platelet-type granular cytoplasm and adjacent platelet budding."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

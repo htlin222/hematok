@@ -1,0 +1,23 @@
+{
+  "id": "65671",
+  "recognize_zh": "大腸切片黏膜固有層被多形性淋巴樣細胞瀰漫浸潤：中大型不規則核的非典型 T 細胞夾雜小淋巴球、免疫母細胞、漿細胞樣細胞；雙染顯示 CD25 陽性 T 細胞與 CD79a 陽性、λ 限制的漿細胞樣細胞並存，且 EBER 散在陽性，提示 ATLL 合併 EBV 相關多形性淋巴增生。",
+  "features": [
+    "Endoscopy: pale, edematous colonic mucosa with shallow ulceration",
+    "Low power: dense diffuse lymphoid infiltrate expanding the lamina propria and separating crypts",
+    "Medium-to-large atypical lymphoid cells with irregular nuclear contours and occasional nucleoli, admixed with small lymphocytes, immunoblasts, plasmacytoid cells and eosinophils",
+    "Double IHC: CD25+ (red) atypical cells intermixed with CD79a+ (brown) plasmacytoid cells; kappa/lambda double stain shows lambda predominance",
+    "High Ki-67 proliferation index",
+    "Focal EBNA2 and LMP1 positivity with numerous EBER-positive nuclei"
+  ],
+  "describe_en": "Colonoscopic biopsy shows mucosa diffusely expanded by a polymorphous lymphoid infiltrate that separates and destroys crypts. The infiltrate contains medium to large atypical lymphoid cells with irregular nuclei and occasional nucleoli, in a background of small lymphocytes, immunoblasts, plasmacytoid cells and eosinophils. Double immunostains show CD25-positive atypical T cells intermixed with CD79a-positive plasmacytoid cells that are lambda-restricted, a high Ki-67 index, focal EBNA2 and LMP1 expression, and numerous EBER-positive cells. Findings are consistent with adult T-cell leukemia/lymphoma involving colon, coexisting with an immune dysregulation-associated EBV-positive polymorphic lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS with EBV+ bystander B cells", "vs": "Lacks HTLV-1 association and CD25 expression pattern of ATLL, and the EBV+ B cells are not clonal lambda-restricted plasmacytoid cells."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "Features T follicular helper phenotype (PD1, CXCL13, ICOS) with arborizing high endothelial venules and expanded FDC meshworks rather than CD25+ HTLV-1-driven cells."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "Shows sheets of monomorphic EBV+ large B cells rather than a polymorphous infiltrate dominated by atypical CD3+/CD25+ T cells."},
+    {"dx": "Inflammatory bowel disease or CMV colitis", "vs": "Reactive infiltrates lack cytologic atypia, CD7 loss, clonal TRG/IGH rearrangement and EBER-positive cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD79a/CD25, κ/λ, Ki67, EBNA2, LMP1; EBER",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "64150",
+  "recognize_zh": "中央可見一顆比周圍紅血球大、顏色淡的受感染紅血球，內有散布的細小褐色顆粒（色素／Schüffner 點狀）與一個小型染色質點，符合間日瘧（P. vivax）感染；但染色偏淡，典型成熟配子體（gametocyte）的形態在此圖中不易明確判定。",
+  "features": [
+    "Central parasitized red cell enlarged relative to surrounding red cells, with pale, irregular outline",
+    "Fine brown granules dispersed throughout the host cell (pigment and/or Schüffner-type stippling)",
+    "Small eccentric ring-like chromatin dot within the infected cell",
+    "Background red cells show crenation (echinocytic artifact); several platelets and a small granular platelet clump",
+    "Weak, washed-out staining limits staging of the parasite"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells with prominent crenation artifact and scattered platelets. One enlarged, pale red cell contains dispersed fine brown granules and a small eccentric chromatin dot, compatible with a Plasmodium vivax-infected erythrocyte; the enlargement of the host cell and stippling favor P. vivax over P. falciparum. Because of the pale staining, a mature gametocyte (round parasite filling the cell with a single compact chromatin mass and dispersed pigment) cannot be confidently distinguished from a developing trophozoite in this field. Findings are suggestive of P. vivax malaria; correlation with a thick film and a well-stained thin film is recommended.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum", "vs": "P. falciparum infects normal-sized red cells without Schüffner dots and shows banana-shaped (crescentic) gametocytes rather than round gametocytes in enlarged cells."},
+    {"dx": "Plasmodium ovale", "vs": "P. ovale also enlarges red cells with Schüffner dots, but infected cells are oval with fimbriated edges; species confirmation may require PCR."},
+    {"dx": "Platelet overlying a red cell", "vs": "A superimposed platelet shows purple granules without a chromatin dot, does not enlarge the red cell, and lies in a different focal plane."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

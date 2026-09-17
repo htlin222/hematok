@@ -1,0 +1,21 @@
+{
+  "id": "60775",
+  "recognize_zh": "EBER 原位雜交在群聚的大型多形性腫瘤細胞核中出現深藍黑色訊號，周圍其他細胞只有粉紅色對比染色；在 HHV8 陽性淋巴瘤中，EBV 共感染是原發性積液淋巴瘤（含體腔外型）的常見特徵。",
+  "features": [
+    "Dark blue-black nuclear EBER hybridization signal in clusters of large, pleomorphic tumor cells with abundant cytoplasm",
+    "Signal is strong but heterogeneous in intensity, with some cells showing coarse granular nuclear deposits",
+    "Many surrounding cells show only pink counterstain without detectable signal in this field",
+    "Retraction artifact around the positive cell clusters, suggesting cells lying within vascular or sinusoidal spaces"
+  ],
+  "describe_en": "In situ hybridization for EBV-encoded small RNA (EBER) shows strong dark nuclear signal in clusters of large, pleomorphic tumor cells, some of which appear to lie within retracted vascular or sinusoidal spaces. The surrounding cells in this field show only counterstain without detectable signal, and positivity is heterogeneous in intensity. Given co-expression of HHV8/LANA in the same neoplastic cells, findings support EBV co-infection in an extracavitary primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "EBV-positive diffuse large B-cell lymphoma, NOS", "vs": "Tumor cells are EBER positive but HHV8/LANA negative and usually express CD20/PAX5."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Frequently EBER positive with a CD138+ plasmablastic phenotype, but HHV8/LANA is negative."},
+    {"dx": "HHV8-positive diffuse large B-cell lymphoma, NOS", "vs": "Is LANA positive but typically EBER negative and arises in the setting of multicentric Castleman disease with IgM lambda expression."},
+    {"dx": "Classic Hodgkin lymphoma, EBV-positive", "vs": "EBER-positive cells are scattered Hodgkin/Reed-Sternberg cells in a mixed inflammatory background with CD30+/CD15+ and HHV8 negativity."}
+  ],
+  "specimen": "tissue",
+  "stain": "ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

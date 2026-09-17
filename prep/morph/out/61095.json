@@ -1,0 +1,22 @@
+{
+  "id": "61095",
+  "recognize_zh": "大量中至大型芽細胞，細胞質深嗜鹼性且周邊有明顯的出芽狀突起（cytoplasmic blebs），核染色質細緻、可見核仁，背景有血小板團塊；在 Down 症兒童身上，這種巨核芽細胞（megakaryoblast）型態即指向 ML-DS。",
+  "features": [
+    "Medium to large blasts with moderate N:C ratio and round to slightly irregular nuclei",
+    "Fine, dispersed chromatin with one or more visible nucleoli",
+    "Deeply basophilic, agranular cytoplasm with prominent cytoplasmic blebs and pseudopod-like budding",
+    "Occasional smaller dark blast/lymphoid-appearing cells admixed",
+    "Clumps of granular platelet/megakaryocytic material in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows numerous medium to large blasts with fine chromatin, visible nucleoli and deeply basophilic, agranular cytoplasm bearing conspicuous cytoplasmic blebs. Aggregates of platelet-like granular material are present in the background. Auer rods and cytoplasmic granulation are not seen. The morphology is that of megakaryoblasts; in a child with Down syndrome, findings are consistent with myeloid leukemia associated with Down syndrome (acute megakaryoblastic type), to be confirmed by flow cytometry (CD41/CD61) and GATA1 mutation analysis.",
+  "ddx": [
+    {"dx": "Transient abnormal myelopoiesis (TAM)", "vs": "TAM shows morphologically identical megakaryoblasts but occurs in neonates (usually <3 months) and often regresses spontaneously; age and clinical course, not morphology, separate them."},
+    {"dx": "Acute megakaryoblastic leukemia with RBM15::MRTFA (non-DS)", "vs": "Morphology overlaps; separation relies on absence of trisomy 21/GATA1 mutation and presence of t(1;22)."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "Lymphoblasts have scant, less basophilic cytoplasm without blebs and are CD19/CD79a/TdT positive rather than CD41/CD61 positive."},
+    {"dx": "Metastatic small round blue cell tumor (e.g., neuroblastoma)", "vs": "Tumor cells form cohesive clusters/rosettes with molding and are negative for CD41/CD61 and CD45."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

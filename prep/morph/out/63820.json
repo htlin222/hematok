@@ -1,0 +1,22 @@
+{
+  "id": "63820",
+  "recognize_zh": "整個視野的紅血球之間密密麻麻散布大量血小板，且大小差異明顯，可見與紅血球等大的巨大血小板（giant platelets）與顆粒較少的大血小板；這種極度血小板增多合併巨大血小板、而白血球與紅血球形態大致正常，符合原發性血小板增多症（essential thrombocythemia）。",
+  "features": [
+    "Marked thrombocytosis with platelets densely scattered across the field",
+    "Platelet anisocytosis with large and giant platelets approaching red cell size",
+    "Some giant platelets appear hypogranular or with clustered central granules",
+    "A single vacuolated mononuclear cell with an irregular nucleus, most consistent with a monocyte",
+    "Red cells largely normocytic with drying-artifact refractile central pallor; no nucleated red cells, blasts or teardrop cells evident"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked increase in platelets with pronounced platelet anisocytosis, including large and giant forms, some hypogranular. Red cells are largely normocytic and normochromic without significant teardrop cells or nucleated red cells, and a single vacuolated monocyte is present; no blasts or immature granulocytes are seen in this field. Findings are consistent with a myeloproliferative neoplasm with marked thrombocytosis such as essential thrombocythemia, to be confirmed by bone marrow morphology and JAK2, CALR or MPL mutation testing with exclusion of BCR::ABL1.",
+  "ddx": [
+    {"dx": "Reactive (secondary) thrombocytosis", "vs": "Reactive thrombocytosis rarely exceeds 1000 x 10^9/L, has small uniform platelets and a clear cause (iron deficiency, inflammation, splenectomy), without JAK2/CALR/MPL mutations."},
+    {"dx": "Chronic myeloid leukemia with thrombocytosis", "vs": "CML shows leukocytosis with a myelocyte peak and basophilia and is BCR::ABL1 positive, whereas ET has normal leukocyte differentiation."},
+    {"dx": "Prefibrotic primary myelofibrosis", "vs": "Prefibrotic PMF may mimic ET in blood but shows leukoerythroblastosis, raised LDH and marrow granulocytic proliferation with atypical clustered megakaryocytes having hyperchromatic cloud-like nuclei."},
+    {"dx": "MDS/MPN with SF3B1 mutation and thrombocytosis", "vs": "This entity shows dyserythropoiesis with ≥15% ring sideroblasts and SF3B1 mutation, often with macrocytic anemia, unlike ET."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

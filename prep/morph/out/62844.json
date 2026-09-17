@@ -1,0 +1,21 @@
+{
+  "id": "62844",
+  "recognize_zh": "MPO 免疫染色下，大多數細胞呈棕色胞質陽性，代表骨髓以顆粒球系（myeloid）細胞為主；夾雜其間的藍色陰性細胞則包含紅血球系前驅細胞與漿細胞，這張圖本身不能診斷骨髓瘤。",
+  "features": [
+    "Immunohistochemistry for myeloperoxidase (MPO) on a hypercellular marrow core",
+    "Majority of cells show granular brown cytoplasmic MPO positivity, variable in intensity",
+    "Positive cells range from larger immature forms to smaller maturing granulocytes",
+    "Interspersed MPO-negative cells with blue hematoxylin-counterstained nuclei, some in small aggregates",
+    "No fat spaces in the field; densely packed cellularity"
+  ],
+  "describe_en": "Immunohistochemical stain for myeloperoxidase on the bone marrow trephine highlights a predominance of MPO-positive granulocytic cells with variable cytoplasmic staining intensity across maturing forms. Interspersed MPO-negative cells, including small clusters, are present and likely represent erythroid precursors and the plasma cell infiltrate. MPO does not stain plasma cells, so this stain alone does not quantify the neoplastic population. Findings indicate myeloid preponderance in a hypercellular marrow, which in this case accompanies plasma cell myeloma.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia or other MPN", "vs": "CML shows granulocytic expansion with small hypolobated megakaryocytes and BCR::ABL1, whereas here the myeloid expansion accompanies a CD138-positive clonal plasma cell population."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML shows sheets of blasts that are often MPO positive but also CD34/CD117 positive without maturation, unlike the maturing granulocytic spectrum here."},
+    {"dx": "Reactive granulocytic hyperplasia (infection, G-CSF)", "vs": "Reactive hyperplasia shows the same MPO pattern but lacks clusters of light chain-restricted CD138-positive plasma cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: MPO",
+  "match": "consistent",
+  "high_yield": false
+}

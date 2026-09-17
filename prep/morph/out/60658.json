@@ -1,0 +1,22 @@
+{
+  "id": "60658",
+  "recognize_zh": "骨髓抹片中一個大型巨噬細胞的胞質內塞滿數十個小而卵圓、大小一致的微生物，各自帶有深染的核，部分可見旁邊的小點狀構造（kinetoplast），細胞外也散落相同小體，符合利什曼原蟲無鞭毛體（Leishmania amastigotes）。",
+  "features": [
+    "Large macrophage with abundant cytoplasm distended by numerous small, uniform oval organisms",
+    "Each organism about 2-4 µm with a dark purple nucleus; a small rod-like kinetoplast is suggested but not clearly resolved at this resolution",
+    "Free extracellular organisms scattered near the macrophage and in the background",
+    "No surrounding clear capsule-like halo around the organisms",
+    "Background hematopoietic cells including myeloid precursors, a binucleate erythroid precursor, and a segmented neutrophil"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large macrophage whose cytoplasm is packed with numerous small, uniform oval intracellular organisms, each with a dark-staining nucleus; similar organisms are also present extracellularly. A second smaller paranuclear kinetoplast is suggested in some organisms, although it is not sharply resolved at this magnification. The surrounding marrow contains granulocytic and erythroid precursors without a neoplastic infiltrate. Findings are consistent with visceral leishmaniasis (Leishmania amastigotes), an unexpected cause of pancytopenia after hematopoietic stem cell transplantation.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts have a clear halo (pseudocapsule) around a crescent-shaped nucleus and lack a kinetoplast; GMS/PAS stain yeast but not Leishmania."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts divide by fission with a central transverse septum and are GMS positive, without a kinetoplast."},
+    {"dx": "Toxoplasma gondii", "vs": "Toxoplasma tachyzoites are crescent-shaped with a central nucleus and no kinetoplast, and are usually in tissue cysts rather than macrophages in marrow."},
+    {"dx": "Platelets or phagocytosed granules/debris", "vs": "Platelets and debris lack an organized nucleus-plus-kinetoplast structure and are not uniform oval bodies."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

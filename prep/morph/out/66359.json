@@ -1,0 +1,22 @@
+{
+  "id": "66359",
+  "recognize_zh": "三顆大小相近的細胞排成一小串緊密相連，核圓居中、有小核仁，細胞質豐富、外圈顏色較深且表面有小泡狀突起，細胞之間可見窄窄的間隙（window）；這些是反應性間皮細胞的特徵。",
+  "features": [
+    "Small cohesive cluster of three similar-sized large cells arranged in a short row",
+    "Round, central nuclei with fine to slightly coarse chromatin and small visible nucleoli; mild variation in nuclear size",
+    "Abundant basophilic cytoplasm with a darker peripheral rim and fine surface blebs",
+    "Narrow clear spaces between adjacent cells (intercellular windows)",
+    "Hemorrhagic background with crenated and fragmented red cells"
+  ],
+  "describe_en": "Cytocentrifuged pericardial fluid shows a hemorrhagic background with numerous crenated red cells. There is a small cohesive group of three large cells with round, centrally placed nuclei, fine chromatin, and small nucleoli. The cytoplasm is abundant and basophilic with a denser peripheral rim and surface blebs, and narrow clear windows are seen between adjacent cells. Nuclear atypia is mild and uniform across the cluster. Findings are consistent with reactive mesothelial cells.",
+  "ddx": [
+    {"dx": "Metastatic adenocarcinoma", "vs": "Carcinoma cells form tight three-dimensional clusters without intercellular windows and show greater nuclear pleomorphism, irregular membranes, and large nucleoli."},
+    {"dx": "Malignant mesothelioma", "vs": "Morphologic overlap is substantial; large cell balls, marked atypia, and BAP1 loss or CDKN2A deletion support mesothelioma."},
+    {"dx": "Plasma cells", "vs": "Plasma cells are single, with eccentric nuclei, clock-face chromatin, and perinuclear hofs rather than cohesive cells with central nuclei and cytoplasmic blebs."},
+    {"dx": "Metastatic lymphoma or leukemic cells", "vs": "Lymphoid blasts are discohesive with high N:C ratio and scant cytoplasm, lacking the abundant two-tone cytoplasm and cell-to-cell windows."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

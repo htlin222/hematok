@@ -1,0 +1,22 @@
+{
+  "id": "17922",
+  "recognize_zh": "周邊血液中一顆大型異常淋巴細胞，細胞核深度分葉呈花瓣狀，染色質細緻、細胞質灰藍並有細小空泡；旁邊另一顆較小、核深染有凹陷的異常淋巴細胞，放在 ALK 陰性 ALCL 白血病期的脈絡下代表腫瘤細胞進入血液。",
+  "features": [
+    "Large atypical lymphoid cell, about twice the diameter of adjacent RBCs",
+    "Deeply lobulated, flower-like (multilobated) nucleus with relatively fine chromatin",
+    "Moderate grey-blue cytoplasm with fine vacuoles and a few small granules",
+    "Adjacent smaller cell with dense chromatin and a notched, cerebriform-appearing nucleus",
+    "Background RBCs without specific abnormality; image focus is soft at high magnification"
+  ],
+  "describe_en": "Peripheral blood smear, high power, shows a large atypical lymphoid cell with a markedly lobulated, flower-like nucleus, relatively fine chromatin and moderate grey-blue vacuolated cytoplasm. An adjacent smaller cell has dense chromatin and an indented nuclear contour. The appearance of circulating large pleomorphic, lobulated lymphoid cells is nonspecific by morphology alone and requires immunophenotyping (CD30, loss of T-cell antigens, ALK) for classification. In the given clinical context, findings are consistent with leukemic involvement by ALK-negative anaplastic large cell lymphoma.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma (flower cells)", "vs": "ATLL flower cells are usually smaller with condensed chromatin and scant agranular cytoplasm, are CD25-positive with HTLV-1 serology, and lack uniform strong CD30."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells show cerebriform grooved nuclei with dense chromatin rather than large lobated nuclei with fine chromatin, and are CD4+ CD7- CD26- without strong CD30."},
+    {"dx": "ALK-positive ALCL, leukemic phase", "vs": "Morphology cannot separate them; ALK immunostain or ALK rearrangement by FISH is required."},
+    {"dx": "Acute monocytic/myelomonocytic leukemia", "vs": "Monoblasts/promonocytes have folded nuclei with nucleoli and fine granules but express CD33, CD64 and lysozyme and lack T-cell markers."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

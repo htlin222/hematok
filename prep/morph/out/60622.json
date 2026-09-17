@@ -1,0 +1,21 @@
+{
+  "id": "60622",
+  "recognize_zh": "骨髓切片免疫染色顯示骨小樑旁緻密的紡錘形細胞聚集，胞質強陽性（肥大細胞標記）；臨床照片中前臂皮膚刮擦後出現線狀紅色風疹塊（Darier's sign），伴散在紅棕色斑丘疹，符合肥大細胞增生症。",
+  "features": [
+    "Bone marrow biopsy immunostain: dense paratrabecular and perivascular aggregate of spindle-shaped cells with strong cytoplasmic positivity",
+    "Aggregated positive cells form a compact multifocal infiltrate adjacent to bone trabeculae, with scattered negative hematopoietic cells and fat",
+    "Clinical photo: linear erythematous urticarial wheal along the stroked skin of the forearm (Darier's sign)",
+    "Scattered small reddish-brown macules/papules on the arm consistent with urticaria pigmentosa-type skin lesions"
+  ],
+  "describe_en": "The bone marrow core biopsy immunostained for a mast cell marker (likely tryptase or CD117) shows a dense, compact paratrabecular infiltrate of spindle-shaped positive cells forming aggregates well in excess of 15 cells, with residual hematopoiesis and fat. The clinical photograph demonstrates a linear urticarial wheal and flare after stroking of the forearm skin (Darier's sign), with scattered pigmented maculopapular lesions. Findings are consistent with systemic mastocytosis with cutaneous involvement; CD25/CD2 aberrant expression, KIT D816V mutation and serum tryptase support the diagnosis.",
+  "ddx": [
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are scattered, round and interstitial without dense spindle-cell aggregates or CD25 expression."},
+    {"dx": "Myelofibrosis / fibroblastic proliferation", "vs": "Fibroblasts are spindle-shaped but tryptase- and CD117-negative."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL infiltrates are CD20/annexin A1-positive B cells with fried-egg appearance rather than tryptase-positive spindle cells."},
+    {"dx": "Dermatographism (without mastocytosis)", "vs": "Simple dermatographism arises from normal skin, whereas Darier's sign is elicited on pigmented mastocytosis lesions with increased dermal mast cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: mast cell marker (tryptase/CD117); clinical photo",
+  "match": "consistent",
+  "high_yield": true
+}

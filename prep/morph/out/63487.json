@@ -1,0 +1,22 @@
+{
+  "id": "63487",
+  "recognize_zh": "周邊血液抹片中一顆大細胞，核深染呈分葉狀、細胞質淡藍帶細顆粒並拖出一條細長尾巴（proplatelet 樣突起），為循環中的巨核細胞；背景紅血球大片不規則聚集成團，與冷凝集素病（cold agglutinin disease）相符。",
+  "features": [
+    "Large cell with a dense, hyperchromatic, lobulated/folded nucleus",
+    "Moderate pale blue, finely granular cytoplasm with an elongated tail ending in a bulbous tip (proplatelet-like extension)",
+    "Cell size several times that of surrounding red cells",
+    "Background shows extensive irregular red cell agglutination",
+    "Scattered small platelets and two neutrophils; refractile debris in background"
+  ],
+  "describe_en": "Peripheral blood smear shows a large cell with a dense, lobulated hyperchromatic nucleus and moderate pale blue, finely granular cytoplasm that extends into a tail with a bulbous end, resembling proplatelet formation. The background red cells form extensive irregular agglutinates, and scattered platelets and occasional neutrophils are present. Findings are consistent with a circulating megakaryocyte, which may be seen in states of increased marrow turnover but warrants review for a myeloproliferative or marrow-infiltrative process when repeatedly found; the red cell agglutination fits the history of cold agglutinin disease.",
+  "ddx": [
+    {"dx": "Micromegakaryocyte in MDS or CML", "vs": "Micromegakaryocytes are small, lymphocyte-sized cells with a single round nucleus, whereas this cell is large with a lobulated nucleus."},
+    {"dx": "Circulating tumor cell or blast", "vs": "Tumor cells and blasts have open chromatin with nucleoli and lack granular cytoplasm with platelet-like extensions."},
+    {"dx": "Monocyte", "vs": "Monocytes have folded nuclei with lacy chromatin and gray vacuolated cytoplasm, and they are smaller without proplatelet tails."},
+    {"dx": "Rouleaux (versus agglutination) in the background", "vs": "Rouleaux form linear coin-like stacks, whereas the irregular three-dimensional clumps here indicate agglutination that disperses on warming."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

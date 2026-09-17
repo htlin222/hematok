@@ -1,0 +1,31 @@
+{
+  "id": "60713",
+  "recognize_zh": "周邊血出現大量形態不一的漿細胞：核偏位、細胞質深藍且有大片核旁淡染區，部分核形不規則、有核仁或細胞質空泡；流式顯示 CD38 與 CD138 雙陽性族群，符合多形性漿細胞白血病。",
+  "features": [
+    "Numerous circulating plasma cells of variable size (low power, A), easily outnumbering other leukocytes in the field",
+    "Eccentric, round to indented or kidney-shaped nuclei with coarse chromatin, some with a visible nucleolus (F)",
+    "Deeply basophilic cytoplasm with a large pale perinuclear hof, sometimes bulging from the cell (B–D)",
+    "Cytoplasmic vacuoles in some cells (E); pleomorphism ranging from small mature to large immature forms",
+    "Flow cytometry (G): distinct CD38-bright/CD138-positive population; background red cells with crenation"
+  ],
+  "describe_en": "Peripheral blood smear shows a large number of circulating plasma cells with marked variation in size and maturity. The cells have eccentric, often indented nuclei with coarse chromatin and occasional nucleoli, abundant deeply basophilic cytoplasm with prominent perinuclear hofs, and cytoplasmic vacuoles in some cells. Flow cytometry demonstrates a CD38-bright, CD138-positive plasma cell population. Findings are consistent with plasma cell leukemia with pleomorphic morphology; light chain restriction, circulating plasma cell percentage (≥5% defines PCL in current criteria) and high-risk cytogenetics should be documented.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis (infection, drug reaction, T-cell lymphoma)", "vs": "Reactive circulating plasma cells are small, mature and polytypic by light chain, lacking the pleomorphism and monotypic population of PCL."},
+    {"dx": "Lymphoplasmacytic lymphoma, leukemic", "vs": "LPL shows mostly small lymphocytes and plasmacytoid lymphocytes that are CD19+/CD20+, with plasma cells only a minor component."},
+    {"dx": "Plasmablastic lymphoma, leukemic phase", "vs": "Plasmablastic cells are uniformly large immunoblastic cells with central nucleoli, frequently EBV+, rather than a spectrum including mature plasma cells."},
+    {"dx": "Monocytic or large granular lymphocytic cells", "vs": "Monocytes have gray folded nuclei without hofs and are CD14+, while LGLs have azurophilic granules and are CD38/CD138 negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry (CD38/CD138)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Low power: numerous circulating pleomorphic plasma cells",
+    "Plasma cell with indented nucleus and large perinuclear hof",
+    "Plasma cell with protruding pale hof region",
+    "Plasma cell with eccentric nucleus and hof",
+    "Plasma cell with cytoplasmic vacuoles",
+    "Plasma cell with round nucleus and nucleolus",
+    "Flow cytometry: CD38+/CD138+ plasma cell population"
+  ]
+}

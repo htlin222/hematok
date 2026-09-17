@@ -1,0 +1,21 @@
+{
+  "id": "62431",
+  "recognize_zh": "c-MYC 免疫染色在絕大多數單形性腫瘤細胞核呈中等強度棕色陽性，只有少數背景細胞為陰性；MYC 蛋白高比例（遠超過 40%）表現支持伯奇氏淋巴瘤（Burkitt lymphoma），但仍需 FISH 證實 MYC 重排。",
+  "features": [
+    "Nuclear c-MYC staining in the large majority of tumor cells (well above 40%)",
+    "Weak to moderate, fairly uniform nuclear intensity",
+    "Monotonous medium-sized round nuclei in a diffuse sheet",
+    "Scattered unstained background/stromal cells",
+    "No cytoplasmic staining"
+  ],
+  "describe_en": "c-MYC immunohistochemistry shows nuclear staining of weak to moderate intensity in the large majority of a diffuse, monotonous population of medium-sized tumor cells. Only scattered background cells are negative. The staining is nuclear without cytoplasmic background. High MYC protein expression in this setting supports Burkitt lymphoma; however, MYC immunostaining does not equate to rearrangement, and FISH for MYC (with BCL2/BCL6) is required.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma with MYC expression", "vs": "DLBCL may express MYC in ≥40% of cells without rearrangement, so FISH and larger, more pleomorphic cytology are needed for separation."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Also MYC-positive, distinguished by BCL2 protein expression and BCL2 rearrangement on FISH."},
+    {"dx": "Burkitt-like lymphoma with 11q aberration", "vs": "It mimics Burkitt morphology and phenotype but lacks MYC rearrangement and shows 11q gain/loss on cytogenetics."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: c-MYC",
+  "match": "consistent",
+  "high_yield": false
+}

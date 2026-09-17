@@ -1,0 +1,21 @@
+{
+  "id": "62457",
+  "recognize_zh": "這是流式細胞儀 CD3 對側向散射（SSC）圖，gate 在活細胞：低 SSC 的 CD3 陽性 T 細胞佔 60.90%，明顯增加；其中藍色（異常 CD4 dim 族群）的 CD3 強度略低於綠色（殘存正常 CD4 T 細胞），提示周邊血有大量異常 T 細胞。",
+  "features": [
+    "Dot plot of side scatter (SS INT) versus CD3-PC7, gated on live cells",
+    "Large CD3-positive, low side-scatter population comprising 60.90% of live events",
+    "Color-coded subsets within the CD3 gate: blue events sit at slightly lower CD3 intensity than green events",
+    "CD3-negative events with a broad side-scatter range represent granulocytes, monocytes and other non-T cells",
+    "Non-morphologic figure; interpretation depends on back-gating colors from companion CD4, CD7 and CD26 plots"
+  ],
+  "describe_en": "Flow cytometric dot plot of side scatter versus CD3 on live peripheral blood cells shows a CD3-positive, low side-scatter T-cell population accounting for 60.90% of live events, indicating a marked T-cell expansion. Within this gate, the population painted blue (the CD4-dim abnormal population defined in companion plots) shows slightly dimmer CD3 expression than the green residual normal CD4-positive T cells. The CD3-negative events represent granulocytes, monocytes and other non-T cells. In conjunction with the CD4, CD7 and CD26 plots, the findings support circulating neoplastic T cells of mycosis fungoides/Sezary syndrome.",
+  "ddx": [
+    {"dx": "Reactive T-cell lymphocytosis (e.g., viral infection)", "vs": "Reactive T-cell expansions retain normal CD3 intensity and a mixed CD4/CD8 population without CD7 or CD26 loss."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL is usually CD8-positive with CD57/CD16 expression, unlike the CD4-positive population in this case."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL often shows very high counts with CD7 retained and TCL1 expression, while dim surface CD3 and CD7/CD26 loss favor Sezary cells."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

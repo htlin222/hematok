@@ -1,0 +1,23 @@
+{
+  "id": "61108",
+  "recognize_zh": "骨髓切片中有一片淡染區域，由大型多角形細胞組成，胞質呈細顆粒狀、多泡狀嗜酸性，核小而居中（B），與一般單一大空泡的白色脂肪細胞不同；免疫染色中這些細胞強陽性（C）、組織球標記則為弱或陰性（D），支持棕色脂肪組織而非儲積性組織球。",
+  "features": [
+    "Low power: paler, hypocellular region of the core distinct from adjacent hematopoietic marrow",
+    "Large polygonal cells with abundant finely granular to microvacuolated eosinophilic cytoplasm",
+    "Small, round, centrally placed nuclei, some with a visible nucleolus",
+    "Scattered small hematopoietic cells and delicate capillaries between the cells",
+    "Immunostain C: strong cytoplasmic/nuclear staining of the large cells (antigen not labeled)",
+    "Immunostain D: large cells weak to negative, with separate strongly positive histiocytes highlighted in the inset"
+  ],
+  "describe_en": "Composite figure. Low-power H&E of the bone marrow core shows a pale, relatively hypocellular region adjacent to normocellular hematopoietic marrow. At high power, this region is composed of large polygonal cells with abundant multivacuolated, granular eosinophilic cytoplasm and small central nuclei, lacking the single large lipid vacuole of white adipocytes. The large cells are strongly highlighted by one immunostain and are weak to negative with a second stain that labels background histiocytes. There is no cytologic atypia or mitotic activity. Findings are consistent with incidental brown adipose tissue in the bone marrow.",
+  "ddx": [
+    {"dx": "Gaucher or pseudo-Gaucher cells", "vs": "Gaucher cells have fibrillary wrinkled-tissue-paper cytoplasm with eccentric nuclei and are CD68/CD163-positive, whereas brown fat cells are multivacuolated and S100/UCP1-positive."},
+    {"dx": "Serous atrophy (gelatinous transformation)", "vs": "Serous atrophy shows extracellular pale amorphous mucopolysaccharide material with atrophic fat cells rather than cohesive multivacuolated granular cells."},
+    {"dx": "Metastatic clear/granular cell carcinoma (e.g., renal cell carcinoma)", "vs": "Carcinoma cells show nuclear atypia and cytokeratin/PAX8 positivity, whereas brown fat cells have bland central nuclei and are keratin-negative."},
+    {"dx": "Granular cell tumor or histiocytic storage disorder", "vs": "Granular cell tumor has PAS-diastase-resistant granules without microvacuoles, and storage histiocytes express CD68/CD163."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (antigens not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

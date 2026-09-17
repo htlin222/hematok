@@ -1,0 +1,20 @@
+{
+  "id": "61408",
+  "recognize_zh": "BCL6 染色低倍（40x）見腫瘤結節內大量細胞核強陽性、周圍間質陰性；高倍（400x）為中大型細胞瀰漫強核染，顯示生發中心表型，這是 IRF4 重組大B細胞淋巴瘤（BCL6+ 且 MUM1 強陽性）的典型組合之一。",
+  "features": [
+    "Low power (40x): sheets/nodules of tumor with diffuse strong nuclear BCL6 staining, sharply demarcated from negative stromal bands",
+    "High power (400x): strong nuclear BCL6 in the majority of medium to large cells",
+    "Positive nuclei round to oval, some irregular or cleaved",
+    "Scattered negative cells, endothelium and stromal cells"
+  ],
+  "describe_en": "BCL6 immunohistochemistry shows strong diffuse nuclear staining in the majority of neoplastic medium to large lymphoid cells, sharply contrasted with negative fibrous septa at low power. The germinal center-type BCL6 expression, in combination with strong MUM1/IRF4 co-expression, is characteristic of large B-cell lymphoma with IRF4 rearrangement. Confirmation of IRF4 rearrangement by FISH is required.",
+  "ddx": [
+    {"dx": "Follicular lymphoma, grade 3", "vs": "FL is also BCL6-positive but typically BCL2-positive, MUM1-negative and lacks IRF4 rearrangement."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS (GCB type)", "vs": "GCB-type DLBCL co-expresses BCL6 and CD10 but lacks strong diffuse MUM1 and IRF4 break."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is BCL6+ but shows medium-sized cells with starry-sky pattern, Ki-67 ~100% and MYC rearrangement."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BCL6",
+  "match": "consistent",
+  "high_yield": false
+}

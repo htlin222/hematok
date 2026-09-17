@@ -1,0 +1,22 @@
+{
+  "id": "60034",
+  "recognize_zh": "紅色母細胞群位於 CD45 弱陽、低 SSC 區，表現 CD34、CD117、CD13 與弱陽性 CD33，細胞內 MPO 部分陽性，而 CD19、CD7、CD3、CD15 與胞內 CD79a 皆為陰性，判讀為髓系母細胞增加。",
+  "features": [
+    "Red-gated blasts with dim CD45 and low side scatter, clearly separate from bright CD45 lymphocytes",
+    "CD34 positive and CD117 positive (moderate, uniform)",
+    "CD13 positive with dim CD33",
+    "Intracellular MPO partially positive (a subset of blasts in the MPO-positive quadrant)",
+    "Negative for CD19, CD7, surface CD3, CD15, and intracellular CD79a"
+  ],
+  "describe_en": "Flow cytometric plots show a red-gated blast population with dim CD45 and low side scatter. The blasts express CD34, CD117, CD13, and dim CD33, with partial intracellular myeloperoxidase positivity. They lack CD19, CD7, CD3, CD15, and intracellular CD79a, arguing against B- or T-lineage involvement and against significant maturation. The immunophenotype is that of myeloid blasts; the diagnosis of acute myeloid leukemia with myelodysplasia-related changes depends on blast percentage together with morphologic dysplasia, cytogenetics, or prior MDS history rather than flow cytometry.",
+  "ddx": [
+    {"dx": "Mixed phenotype acute leukemia", "vs": "MPAL requires lineage-defining B (strong CD19 plus cCD79a/CD10/CD22) or T (cytoplasmic CD3) markers, which are absent here."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 lacks MPO by cytochemistry and flow (<3%), whereas this population shows partial MPO positivity."},
+    {"dx": "Acute undifferentiated leukemia", "vs": "AUL lacks MPO and lineage-specific markers, while these blasts express MPO along with CD13 and CD117."},
+    {"dx": "Regenerating marrow with increased normal CD34-positive progenitors", "vs": "Normal progenitors show an orderly maturation continuum and heterogeneous CD13/CD33/CD34 patterns rather than a discrete, expanded blast cluster."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

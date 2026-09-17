@@ -1,0 +1,22 @@
+{
+  "id": "60512",
+  "recognize_zh": "這顆大細胞核大而圓、染色質較細並可見數個核仁，細胞質呈深藍色（強嗜鹼性）且靠近核處有淡染區，外觀像免疫母細胞（immunoblast-like）的反應性淋巴球，需與原始細胞區分。",
+  "features": [
+    "Large cell, about 1.5-2 times the diameter of adjacent red cells",
+    "High N:C ratio with round nucleus",
+    "Relatively fine to reticulated chromatin with two or more visible nucleoli",
+    "Deeply basophilic cytoplasm with a paler perinuclear zone on one side",
+    "Smooth round cell outline; no granules, vacuoles or Auer rods"
+  ],
+  "describe_en": "Peripheral blood smear shows a large lymphoid cell with a round nucleus, high N:C ratio, reticulated chromatin and several visible nucleoli. The cytoplasm is deeply basophilic with a paler perinuclear zone and contains no granules or Auer rods. In isolation this cell resembles a blast; however, in the context of a heterogeneous lymphocytosis with a spectrum of reactive forms, it is consistent with an immunoblast-like reactive lymphocyte.",
+  "ddx": [
+    {"dx": "Myeloblast", "vs": "Myeloblasts have very fine homogeneous chromatin, less intensely basophilic cytoplasm, may show Auer rods or granules, and are MPO positive, whereas immunoblasts show deep blue cytoplasm with a perinuclear clear zone amid other reactive lymphocytes."},
+    {"dx": "Lymphoblast", "vs": "Lymphoblasts are usually smaller with scant, less basophilic cytoplasm and inconspicuous nucleoli, and are TdT/CD34 positive."},
+    {"dx": "Plasmablast", "vs": "Plasmablasts have eccentric nuclei with a distinct Golgi hof and express CD138/MUM1 rather than being part of a mixed reactive population."},
+    {"dx": "Large cell lymphoma in blood (e.g. Burkitt or DLBCL)", "vs": "Lymphoma cells form a monotonous population, and Burkitt cells show deep blue cytoplasm with lipid vacuoles, unlike isolated reactive immunoblasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

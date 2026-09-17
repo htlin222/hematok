@@ -1,0 +1,30 @@
+{
+	"id": "62313",
+	"recognize_zh": "骨髓切片中 CD20 呈瀰漫性強陽性取代造血組織，TRAP 免疫染色大片陽性，annexin A1 在腫瘤細胞呈陽性，這組免疫染色組合指向毛狀細胞白血病（HCL）。",
+	"features": [
+		"CD20: diffuse, strong membranous staining of a hypercellular interstitial-to-diffuse infiltrate replacing most marrow space",
+		"TRAP immunostain: diffuse positivity in the majority of infiltrating cells",
+		"Annexin A1: positive cytoplasmic/membranous staining in most infiltrating cells, with a small negative cluster of residual cells",
+		"Scattered strongly annexin A1-positive myeloid cells serve as internal positive control",
+		"Infiltrate cells spaced apart with a 'fried-egg' pattern, residual fat spaces preserved"
+	],
+	"describe_en": "Immunohistochemical stains on the bone marrow core biopsy show a diffuse infiltrate of B cells that are strongly positive for CD20 and replace most of the hematopoietic space. The infiltrating cells are diffusely positive for TRAP and positive for annexin A1, while a small cluster of residual annexin A1-negative cells and scattered strongly positive myeloid elements (internal control) are present. This immunoprofile (CD20+, TRAP+, annexin A1+) is consistent with bone marrow involvement by hairy cell leukemia.",
+	"ddx": [
+		{
+			"dx": "Splenic marginal zone lymphoma",
+			"vs": "SMZL is CD20+ but typically shows an intrasinusoidal/nodular pattern and is negative for annexin A1 and usually TRAP."
+		},
+		{
+			"dx": "Hairy cell leukemia variant",
+			"vs": "HCL-v is CD20+ but annexin A1 negative, often TRAP weak/negative, and lacks CD25 and BRAF V600E."
+		},
+		{
+			"dx": "Systemic mastocytosis",
+			"vs": "Mast cell infiltrates can mimic the clear-cell pattern and are TRAP-reactive, but are CD20-negative and CD117/tryptase positive."
+		}
+	],
+	"specimen": "BM biopsy",
+	"stain": "IHC: CD20, TRAP, annexin A1",
+	"match": "consistent",
+	"high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64220",
+  "recognize_zh": "骨髓抹片中小型成熟淋巴球明顯增加，夾雜細胞質較多、核偏位的類漿細胞淋巴球（plasmacytoid lymphocytes）與具核周淡染區的漿細胞，呈連續成熟光譜，提示淋巴漿細胞淋巴瘤。",
+  "features": [
+    "Increased small mature lymphocytes with round to slightly irregular nuclei, clumped chromatin, and scant cytoplasm",
+    "Plasmacytoid lymphocytes with eccentric nuclei and a moderate rim of basophilic cytoplasm",
+    "Mature plasma cells with eccentric nuclei, perinuclear hof, and abundant pale blue-gray cytoplasm",
+    "Spectrum of small lymphocyte to plasma cell differentiation without blasts",
+    "Background red cells show rouleaux-like stacking; one large oval cell with coarse stippled appearance (possibly a mast cell or smudged nucleus) at upper right"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows an increase in small mature lymphocytes admixed with plasmacytoid lymphocytes and mature plasma cells, forming a continuous spectrum of lymphoplasmacytic differentiation. The lymphocytes have round nuclei with clumped chromatin and scant cytoplasm, while plasmacytoid forms show eccentric nuclei with more abundant basophilic cytoplasm. No increase in blasts is identified, and background red cells show rouleaux-like stacking. Findings are suggestive of lymphoplasmacytic lymphoma in the appropriate context of an IgM paraprotein and MYD88 L265P mutation; mast cells, if increased, would further support this.",
+  "ddx": [
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "MZL shows monocytoid cells with more abundant pale cytoplasm and usually lacks MYD88 L265P, which is present in over 90% of LPL."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells have soccer-ball chromatin with smudge cells, are CD5+/CD23+, and do not show a distinct plasma cell component."},
+    {"dx": "Plasma cell myeloma (IgM or lymphoplasmacytoid)", "vs": "Myeloma consists of a clonal plasma cell population without an accompanying clonal B-lymphocyte component and is typically CD19-/CD45- with t(11;14) in IgM cases."},
+    {"dx": "Reactive lymphoplasmacytosis", "vs": "Reactive infiltrates contain polytypic plasma cells and B cells on flow cytometry or kappa/lambda ISH."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

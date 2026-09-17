@@ -1,0 +1,23 @@
+{
+  "id": "62967",
+  "recognize_zh": "周邊血中的異常細胞核呈雙葉或摺疊狀（bilobed/folded）、胞質淡藍且顆粒極少，看似單核球樣或 T 細胞樣；但細胞化學染色呈強陽性顆粒、流式 MPO 陽性，FISH 可見 PML::RARA 融合訊號（箭頭），證實為微顆粒型急性前骨髓性白血病（APL），即使同時表現 cyCD3、CD2、CD7 等 T 細胞標記。",
+  "features": [
+    "Blast-equivalent cells with bilobed, folded or reniform nuclei and fine chromatin (A, B)",
+    "Pale basophilic cytoplasm with sparse or inapparent granules; no Auer rods seen (B)",
+    "Strong granular cytochemical positivity (likely MPO) filling the cytoplasm (C)",
+    "Flow cytometry: MPO-positive population with partial cytoplasmic CD3 (45.3%), and CD2+ CD7+ co-expression (59.5%) (D, E)",
+    "Interphase FISH with fusion (yellow) signals, consistent with PML::RARA dual-fusion (F, arrows)",
+    "Tissue/clot section showing sheets of cells with folded, indented nuclei (A)"
+  ],
+  "describe_en": "Composite figure. The marrow section shows sheets of cells with folded or indented nuclei (A), and the peripheral blood contains abnormal cells with bilobed to folded nuclei, fine chromatin and pale cytoplasm with sparse granules (B). A cytochemical stain shows strong, coarse granular positivity (C, likely MPO). Flow cytometry shows an MPO-positive population with aberrant partial cytoplasmic CD3 and co-expression of CD2 and CD7 (D, E), which could mimic mixed-phenotype acute leukemia, while interphase FISH demonstrates fusion signals consistent with PML::RARA (F). Findings are consistent with microgranular (hypogranular variant) acute promyelocytic leukemia with aberrant T-cell antigen expression; APL with PML::RARA is excluded from the MPAL category by definition.",
+  "ddx": [
+    {"dx": "Mixed-phenotype acute leukemia, T/myeloid", "vs": "MPAL is diagnosed only after excluding defining genetic lesions; demonstration of PML::RARA places this case in APL regardless of cytoplasmic CD3 expression."},
+    {"dx": "Acute monocytic/myelomonocytic leukemia", "vs": "Monocytic blasts also have folded nuclei but are nonspecific esterase-positive, MPO weak or negative, HLA-DR/CD14/CD64 positive and lack PML::RARA."},
+    {"dx": "Hypergranular (classic) APL", "vs": "Classic APL shows abundant coarse azurophilic granules and bundles of Auer rods (faggot cells), whereas the microgranular variant has few visible granules and a higher WBC count."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL blasts are MPO-negative and TdT-positive with surface or cytoplasmic CD3 and lack coarse cytochemical granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E; MPO; flow; FISH: PML::RARA",
+  "match": "consistent",
+  "high_yield": true
+}

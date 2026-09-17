@@ -1,0 +1,21 @@
+{
+  "id": "134",
+  "recognize_zh": "這是一張 VWF 多聚體（multimer）電泳膠片，箭頭標示高分子量區域；各泳道間高分子量條帶的染色程度不同，部分泳道高／中分子量條帶減少而低分子量條帶相對明顯，配合 VWF:RCo/Ag 比值 0.3，符合 type 2A VWD 的多聚體喪失型態。",
+  "features": [
+    "Western-blot/agarose gel of plasma von Willebrand factor multimers, lanes numbered 8 to 13, with an arrow marking the high-molecular-weight region",
+    "Dense low-molecular-weight bands at the bottom of most lanes",
+    "Variable staining of the upper ladder: lanes 9 to 12 show smeared staining extending into the arrowed high-molecular-weight zone, whereas lanes 8 and 13 show relatively weak upper-band staining with more discrete lower bands",
+    "Image is a low-resolution reproduction without lane labels identifying patient versus control, so lane-level interpretation is limited"
+  ],
+  "describe_en": "This figure is a von Willebrand factor multimer analysis (gel electrophoresis with immunodetection), not a morphologic image. Lanes 8 to 13 display the multimer ladder, with the arrow indicating the high-molecular-weight region; lanes differ in the intensity of high- and intermediate-molecular-weight staining, with some lanes showing relative accentuation of lower-molecular-weight bands and reduced higher-order multimers. Because the lanes are not annotated as patient or control and resolution is poor, the pattern should be read together with the laboratory data. In the context of a VWF activity:antigen ratio of 0.3, low FVIII, and reduced high-molecular-weight multimers, findings are consistent with type 2A von Willebrand disease, supported by the VWF exon 28 R1374H variant.",
+  "ddx": [
+    {"dx": "Type 2B von Willebrand disease", "vs": "Also loses high-molecular-weight multimers, but shows enhanced RIPA at low-dose ristocetin and often thrombocytopenia due to gain-of-function A1-domain binding to GPIb."},
+    {"dx": "Type 2M von Willebrand disease", "vs": "Has a similarly low activity:antigen ratio but a normal multimer distribution including high-molecular-weight forms."},
+    {"dx": "Type 1 von Willebrand disease", "vs": "Shows a proportional decrease in all multimers with a normal activity:antigen ratio (>0.7)."},
+    {"dx": "Acquired von Willebrand syndrome", "vs": "Can produce an identical loss of high-molecular-weight multimers (e.g., aortic stenosis, LVAD, lymphoproliferative disorders) but lacks a family history and germline VWF mutation."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (VWF multimer gel)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

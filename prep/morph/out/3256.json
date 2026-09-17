@@ -1,0 +1,22 @@
+{
+  "id": "3256",
+  "recognize_zh": "骨髓抹片中大量細胞質塞滿粗大橘紅色顆粒的嗜酸性球及其前驅細胞（eosinophilic myelocyte），部分顆粒混有深紫色未成熟顆粒，並可見細胞質空泡化細胞，符合嗜酸性球增多（hypereosinophilia）。",
+  "features": [
+    "Numerous eosinophils and eosinophilic precursors with coarse orange-red refractile granules",
+    "Immature eosinophilic myelocytes with round nuclei and admixed dark purple (pro-eosinophilic) granules",
+    "Several cells with cytoplasmic vacuoles and partial degranulation",
+    "Free eosinophil granules scattered in the background from ruptured cells",
+    "Occasional small lymphocyte; no obvious blast excess in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a marked increase in eosinophils and eosinophilic precursors, including myelocytes with round nuclei and coarse orange-red granules, some admixed with immature dark purple granules. Several cells show cytoplasmic vacuolization and degranulation, and free granules are scattered in the background. Blasts are not increased in this field. Findings are consistent with eosinophilia with a left-shifted eosinophil series; distinction between reactive and clonal causes requires clinical evaluation, blast count, and cytogenetic/molecular studies (PDGFRA, PDGFRB, FGFR1, JAK2, BCR::ABL1).",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with PDGFRA rearrangement", "vs": "Morphology overlaps; FIP1L1::PDGFRA by FISH/RT-PCR, often with increased atypical mast cells and elevated tryptase, establishes the clonal diagnosis."},
+    {"dx": "AML with inv(16)/CBFB::MYH11", "vs": "Inv(16) AML shows increased myeloblasts and monocytes with abnormal eosinophils containing large purple-violet basophilic granules."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows marked granulocytic left shift with basophilia and small hypolobated megakaryocytes, confirmed by BCR::ABL1."},
+    {"dx": "Systemic mastocytosis with eosinophilia", "vs": "Mastocytosis has spindled mast cells with metachromatic granules and CD25/CD117-positive aggregates on biopsy with KIT D816V."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

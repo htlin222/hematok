@@ -1,0 +1,22 @@
+{
+  "id": "60614",
+  "recognize_zh": "移植後骨髓切片中為中大型異常細胞與小淋巴球混合浸潤，免疫染色顯示大量小至中型細胞呈強膜或胞質陽性（淋巴球標記），穿插在殘存的腫瘤細胞之間；抗體未標示，需搭配原文判讀為供者 T 細胞攻擊白血病細胞（graft-versus-leukemia）。",
+  "features": [
+    "H&E: cellular marrow with a mixed population of intermediate to large cells with vesicular nuclei and small nucleoli admixed with small lymphocytes and pale histiocyte-like cells",
+    "Immunostain B: dot-like/granular cytoplasmic and membranous staining in a subset of infiltrating cells",
+    "Immunostain C: strong cytoplasmic/membranous staining of numerous small to intermediate cells, interspersed with negative larger cells",
+    "Immunostain D: diffuse membranous staining of a dense cell population",
+    "Antibodies are not labeled; image resolution does not allow definitive lineage assignment"
+  ],
+  "describe_en": "The post-transplant bone marrow biopsy (H&E) shows a cellular infiltrate composed of intermediate to large atypical cells intermixed with numerous small lymphocytes and histiocytes. A panel of immunohistochemical stains demonstrates a dense population of positively staining lymphoid cells with membranous and cytoplasmic patterns, closely apposed to negative larger residual cells, while another stain shows granular dot-like positivity in a subset of cells. Because the antibodies are not identified in the figure, lineage cannot be assigned from the image alone. In the appropriate post-transplant context, findings are suggestive of a donor T-cell infiltrate targeting residual leukemia (graft-versus-leukemia effect), which should be supported by chimerism studies and immunophenotyping.",
+  "ddx": [
+    {"dx": "Relapsed leukemia without immune response", "vs": "Pure relapse shows sheets of blasts without a dense admixed cytotoxic T-cell population."},
+    {"dx": "Post-transplant lymphoproliferative disorder", "vs": "PTLD is usually an EBV-positive B-cell proliferation, demonstrated by EBER and B-cell markers rather than a T-cell infiltrate."},
+    {"dx": "Graft-versus-host disease–related marrow aplasia with lymphocytosis", "vs": "GVHD-associated marrow shows hypocellularity with lymphocytes but no residual leukemic cells."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "PTCL shows cytologically atypical T cells with aberrant antigen loss and clonal TCR rearrangement rather than reactive donor T cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (unlabeled panel)",
+  "match": "partial",
+  "high_yield": false
+}

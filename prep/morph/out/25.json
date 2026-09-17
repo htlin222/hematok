@@ -1,0 +1,28 @@
+{
+  "id": "25",
+  "recognize_zh": "骨髓抹片中有成團、黏合成群的小圓藍細胞（small round blue cells），細胞核相互擠壓，可見圍繞中央纖維狀物質的菊形團（Homer Wright rosette 樣排列）與淡粉紅纖維狀背景（neuropil），在幼童合併腹部腫塊時最符合轉移性神經母細胞瘤。",
+  "features": [
+    "Cohesive clusters and sheets of small to medium round blue cells with high N:C ratio, distinct from dispersed hematopoietic cells",
+    "Nuclear molding with round to oval nuclei, finely granular (salt-and-pepper) chromatin and inconspicuous nucleoli",
+    "Rosette-like arrangement of tumor cells around central pale fibrillary material (Homer Wright pseudorosette)",
+    "Scant, deeply basophilic cytoplasm with occasional small vacuoles",
+    "Background pink-purple fibrillary neuropil-like material between tumor cells"
+  ],
+  "describe_en": "The bone marrow aspirate smear contains large cohesive aggregates of tumor cells that stand out from the background hematopoietic elements at low power. The cells are small to medium sized with high N:C ratio, round nuclei showing molding, finely granular chromatin and scant basophilic, occasionally vacuolated cytoplasm. Rosette-like clusters around central fibrillary material and a pink fibrillary neuropil-like background are present. In a 2-year-old with an abdominal mass, findings are consistent with metastatic neuroblastoma involving the bone marrow; confirmation by immunohistochemistry (PHOX2B, synaptophysin, chromogranin, CD56 positive, CD45 negative) and urine catecholamines is recommended.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Blasts are dispersed singly without cohesive clusters, rosettes or neuropil, and are CD45/TdT positive rather than PHOX2B/synaptophysin positive."},
+    {"dx": "Ewing sarcoma", "vs": "Also forms small round blue cell clusters, but shows cytoplasmic glycogen vacuoles without neuropil and is CD99/NKX2.2 positive with EWSR1 rearrangement."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Cells may mimic hematopoietic blasts or clusters, but are desmin/myogenin positive with FOXO1 fusion and lack neuropil."},
+    {"dx": "Wilms tumor (nephroblastoma)", "vs": "A renal mass in this age group, but marrow metastasis is rare, and the tumor is WT1 positive with blastemal/epithelial/stromal elements rather than neuropil and rosettes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Low power: large cohesive aggregate of tumor cells within the aspirate",
+    "Medium power: cohesive cluster of small round blue cells with molding and vacuoles",
+    "High power: rosette-like cluster around central fibrillary material",
+    "Sheets of tumor cells in a pink fibrillary neuropil-like background"
+  ]
+}

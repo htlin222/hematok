@@ -1,0 +1,22 @@
+{
+  "id": "28480",
+  "recognize_zh": "周邊血中的成熟嗜中性球（帶狀核與分葉核）胞質充滿粗大深紫色的毒性顆粒（toxic granulation），核分葉正常、無發育不良，也看不到未成熟骨髓細胞，這種「成熟而毒性顆粒明顯」的嗜中性球增多是慢性嗜中性球白血病的典型樣貌，但需先排除感染與反應性原因。",
+  "features": [
+    "Mature neutrophils (band and segmented forms) with normal nuclear lobation and clumped chromatin",
+    "Prominent coarse dark azurophilic (toxic-type) granulation throughout the neutrophil cytoplasm",
+    "No hypogranularity, pseudo-Pelger-Huet nuclei or other dysplastic features",
+    "No circulating blasts, promyelocytes or myelocytes in the field",
+    "Background red cells with mild anisocytosis and an occasional polychromatophilic cell; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows mature neutrophils, including band and segmented forms, with normal nuclear segmentation and prominent coarse toxic-type granulation. Dysplastic features such as hypogranularity or hyposegmentation are not seen, and immature granulocytes, blasts and monocytosis are not evident in this field. Red cells show mild anisocytosis with rare polychromasia. In the setting of sustained mature neutrophilia (≥25 × 10^9/L) without reactive cause or BCR::ABL1, findings are suggestive of chronic neutrophilic leukemia; CSF3R mutation testing is recommended.",
+  "ddx": [
+    {"dx": "Reactive neutrophilia (infection, inflammation, G-CSF therapy)", "vs": "Toxic granulation, Döhle bodies and vacuoles are equally seen in reactive states, so a clinical cause, plasma cell neoplasm and CSF3R mutation status must be assessed."},
+    {"dx": "Atypical chronic myeloid leukemia", "vs": "aCML shows prominent dysgranulopoiesis (hypogranular, abnormally segmented neutrophils) and ≥10% circulating immature granulocytes, unlike the mature non-dysplastic neutrophils here."},
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "CML shows a left-shifted spectrum with myelocyte and neutrophil peaks plus basophilia, and is defined by BCR::ABL1."},
+    {"dx": "Neutrophilia associated with plasma cell myeloma", "vs": "Myeloma-associated neutrophilia is polyclonal and CSF3R-negative with a monoclonal protein and marrow plasma cell infiltrate."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

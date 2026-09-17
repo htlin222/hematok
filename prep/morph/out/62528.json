@@ -1,0 +1,20 @@
+{
+  "id": "62528",
+  "recognize_zh": "CD20 染色中，棕色陽性的小 B 淋巴球集中在上方與兩側的淋巴組織區，中央擴張竇內的大型組織球為陰性，僅有少量顆粒狀背景染色；顯示竇內的大細胞不是 B 細胞，符合 Rosai-Dorfman 病。",
+  "features": [
+    "Clusters of small CD20-positive B lymphocytes in lymphoid areas at the upper and lateral edges",
+    "Central expanded sinus with CD20-negative large histiocytes",
+    "Fine granular background staining (likely debris or phagocytosed antigen) within the sinus",
+    "No large atypical CD20-positive cells"
+  ],
+  "describe_en": "Immunohistochemical stain for CD20 highlights small B lymphocytes clustered within the lymphoid compartments bordering an expanded sinus. The large sinus histiocytes are negative, with only faint granular background staining. No sheets of large CD20-positive cells are identified. Findings exclude a large B-cell lymphoma as the cause of the sinus expansion and support a histiocytic process, consistent with Rosai-Dorfman disease.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL forms sheets of large atypical CD20-positive cells rather than CD20-negative histiocytes."},
+    {"dx": "Monocytoid B-cell hyperplasia", "vs": "Monocytoid B cells expanding sinuses are CD20-positive with pale cytoplasm, unlike the CD20-negative histiocytes here."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30/CD15-positive with weak or absent CD20 and are not S100-positive histiocytes."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

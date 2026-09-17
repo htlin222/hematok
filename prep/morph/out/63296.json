@@ -1,0 +1,21 @@
+{
+  "id": "63296",
+  "recognize_zh": "淋巴球閘門的 CD2/CD7 散佈圖中，有一群 CD2 強陽性但 CD7 陰性（約 10^3 以下）的藍色 T 細胞，與 CD2+CD7+ 的正常 T 細胞（紅色）明顯分開；T 細胞失去 CD7 是淋巴球型嗜酸性球增多症（lymphocytic variant HES）中異常 T 細胞族群的線索。",
+  "features": [
+    "Flow cytometry dot plot gated on lymphocytes: CD7-APC700 (x-axis) versus CD2-PC7 (y-axis)",
+    "Large discrete blue population with bright CD2 and absent CD7 expression, with a tail extending into the CD7-positive range",
+    "Normal T cells (red) are CD2-positive and CD7-positive",
+    "Orange events with variable, partly dim CD2 and positive CD7 (likely NK cells)",
+    "Purple CD2-negative, CD7-negative events consistent with B cells"
+  ],
+  "describe_en": "Flow cytometric analysis of the lymphocyte gate (CD7 versus CD2) shows a prominent T-cell population with bright CD2 and loss of CD7 (blue), distinct from the residual CD2+CD7+ normal T cells (red). NK cells (orange) and CD2-/CD7- B cells (purple) are also present. In the context of hypereosinophilia and the accompanying CD3/CD5 and CD4/CD8 plots of this case, the CD7-negative T cells represent the aberrant (typically CD3-negative, CD4-positive) T-cell clone. Findings are consistent with the lymphocytic variant of hypereosinophilic syndrome; T-cell receptor gene rearrangement studies are recommended to document clonality.",
+  "ddx": [
+    {"dx": "Reactive expansion of CD7-negative memory T cells", "vs": "Small CD4+CD7- subsets occur in reactive states and aging, but they retain surface CD3 and do not form a large discrete population with other antigen aberrancies."},
+    {"dx": "Sezary syndrome / mycosis fungoides", "vs": "Also shows CD4+CD7- (often CD26-) T cells, but is defined by erythroderma or skin lesions and circulating cerebriform Sezary cells rather than isolated hypereosinophilia with a CD3- clone."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL is typically CD7 bright with marked lymphocytosis of prolymphocytes and TCL1 overexpression, unlike the CD7-negative clone here."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

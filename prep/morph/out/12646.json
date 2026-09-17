@@ -1,0 +1,22 @@
+{
+  "id": "12646",
+  "recognize_zh": "腦脊髓液細胞離心抹片中，除嗜中性球外，右下有一群比嗜中性球大的圓至多角形細胞，胞質泡沫狀含許多空泡與粉紅色吞噬物，核圓且中央有大型核仁樣核體（karyosome），這是福氏內格里阿米巴（Naegleria fowleri）滋養體。",
+  "features": [
+    "Cluster of large amoeboid trophozoites, larger than neutrophils, with moderately abundant cytoplasm",
+    "Single round nucleus with a prominent central karyosome (large nucleolus-like body) and pale perinuclear halo",
+    "Foamy cytoplasm with multiple clear vacuoles and pink phagocytosed material",
+    "Neutrophils with segmented nuclei and a monocytoid cell in the background, indicating purulent meningitis",
+    "Occasional red cells; no bacteria or fungal elements are identified"
+  ],
+  "describe_en": "Cytocentrifuge preparation of cerebrospinal fluid shows a neutrophil-predominant inflammatory background with a cohesive cluster of large amoeboid cells. These cells have a single round nucleus with a prominent central karyosome and abundant vacuolated cytoplasm containing pink ingested material. No bacteria or yeasts are seen. Findings are consistent with Naegleria fowleri trophozoites, supporting primary amebic meningoencephalitis; urgent confirmation by wet-mount motility, PCR or culture is recommended.",
+  "ddx": [
+    {"dx": "Macrophages/histiocytes in CSF", "vs": "Macrophages have kidney-shaped nuclei with fine chromatin and no single large central karyosome."},
+    {"dx": "Metastatic carcinoma or medulloblastoma cells", "vs": "Tumor cells show nuclear pleomorphism, hyperchromasia and molding rather than a uniform round nucleus with a central karyosome and phagocytic vacuoles."},
+    {"dx": "Acanthamoeba or Balamuthia granulomatous amebic encephalitis", "vs": "Morphology overlaps, but these cause a subacute course in immunocompromised hosts, are rarely seen in CSF and require PCR or immunofluorescence to separate."},
+    {"dx": "Bacterial meningitis", "vs": "Bacterial meningitis shows neutrophils with visible organisms on Gram stain and lacks large karyosome-bearing amoebae."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

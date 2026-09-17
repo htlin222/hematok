@@ -1,0 +1,22 @@
+{
+  "id": "61293",
+  "recognize_zh": "腦脊髓液細胞離心抹片（cytospin）中出現數顆大型異型淋巴樣細胞，核形不規則、有切迹或分葉，染色質細緻並可見明顯核仁，細胞質淡藍含小空泡；在已知被套細胞淋巴瘤病人身上，這是母細胞樣/多形性變異型（blastoid/pleomorphic MCL）侵犯中樞神經的表現。",
+  "features": [
+    "Large atypical lymphoid cells, 2-3 times the size of red cells, in a clean background",
+    "Irregular nuclear contours with notches, clefts and lobulation",
+    "Finely dispersed to blastoid chromatin with one or more distinct nucleoli",
+    "Moderate pale blue cytoplasm with scattered small clear vacuoles",
+    "Cells cluster in small groups; no normal lymphocytes or monocytes for comparison in this field"
+  ],
+  "describe_en": "Cytospin preparation of cerebrospinal fluid shows several large atypical lymphoid cells in a clean background with scattered red cells. The cells have irregular, notched to lobulated nuclei, finely dispersed chromatin, distinct nucleoli and a moderate amount of pale blue, focally vacuolated cytoplasm. Mature small lymphocytes and monocytes are not seen in this field. Morphology alone cannot assign lineage; flow cytometry or cyclin D1/SOX11 immunocytochemistry is needed. In the setting of known disease, findings are consistent with CSF involvement by mantle cell lymphoma with blastoid/pleomorphic cytomorphology.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma involving CSF", "vs": "Can look identical; flow or immunostains showing CD5 with cyclin D1/SOX11 and t(11;14) favor MCL."},
+    {"dx": "Acute lymphoblastic or acute myeloid leukemia in CSF", "vs": "Blasts are usually more uniform with scanter cytoplasm and express TdT/CD34 or myeloid markers rather than mature B-cell markers with cyclin D1."},
+    {"dx": "Reactive monocytes/macrophages", "vs": "Have folded nuclei and vacuolated cytoplasm but show condensed chromatin without prominent nucleoli and are CD14/CD68 positive."},
+    {"dx": "Metastatic carcinoma", "vs": "Forms cohesive three-dimensional clusters with nuclear molding and keratin positivity, lacking CD45."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65754",
+  "recognize_zh": "組合圖：右下兩張高倍抹片見大型母細胞，染色質細緻、細胞質嗜鹼性無顆粒，其中一顆細胞核一側凹陷呈杯狀（cup-shaped）；流式圖中紅色母細胞 TdT+、CD10+、cyIgM+、CD34 大多陰性，確認為前 B 型（pre-B）ALL，說明杯狀母細胞並非 AML 專屬。",
+  "features": [
+    "Large blasts with high N:C ratio, finely dispersed chromatin and faint nucleoli",
+    "Moderately basophilic agranular cytoplasm without Auer rods",
+    "Nuclear invagination producing a cup-shaped (fish-mouth) nucleus in one blast in the right smear panel",
+    "Flow: blasts (red) CD45 positive, nuclear TdT positive, CD10 heterogeneously positive, CD20 largely negative",
+    "Flow: cytoplasmic IgM mu positive with CD34 mostly negative, defining a pre-B phenotype; residual B cells (blue) are CD20 bright/CD10 negative"
+  ],
+  "describe_en": "The composite shows flow cytometry plots and two high-power smear panels. The smears show large blasts with fine chromatin, faint nucleoli and moderate agranular basophilic cytoplasm; one blast shows a prominent nuclear invagination giving a cup-shaped nucleus. The flow plots show a dominant blast population (red) that is CD45 positive, nuclear TdT positive, CD10 heterogeneously positive, CD20 largely negative and cytoplasmic IgM positive, with CD34 expressed only on a minority. Findings are consistent with pre-B acute lymphoblastic leukemia with cup-shaped blast morphology.",
+  "ddx": [
+    {"dx": "AML with NPM1 mutation (cup-like blasts)", "vs": "NPM1-mutated AML cup-like blasts are typically CD34 and HLA-DR negative, MPO positive and lack TdT/CD19/cyIgM."},
+    {"dx": "AML with FLT3-ITD, minimally differentiated", "vs": "Myeloid cup-shaped blasts express CD13/CD33/CD117 and lack cytoplasmic CD79a and TdT with B-lineage markers."},
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells are TdT negative with surface light chain restriction and deeply basophilic vacuolated cytoplasm."},
+    {"dx": "Hematogones", "vs": "Hematogones show a continuous maturation spectrum of CD10/CD20/CD34 on flow rather than a discrete expanded population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

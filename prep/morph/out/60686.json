@@ -1,0 +1,22 @@
+{
+  "id": "60686",
+  "recognize_zh": "抹片背景中散在淡紫藍色、雲霧狀無結構的細胞外沉積物（箭頭），為冷球蛋白；自動血球計數器把這些沉積物誤判為血小板，B 圖可見儀器血小板數突然升到約 500×10³/µL，但人工計數始終偏低。",
+  "features": [
+    "Extracellular pale lilac-blue, amorphous, cloud-like or fluffy deposits in the smear background (arrows)",
+    "Deposits lack granules, nuclei or defined membranes, distinguishing them from platelets",
+    "Deformed red cells with indentations or folding (arrowheads) and an occasional crenated red cell",
+    "True platelets are scarce in this field",
+    "Panel B graph: analyzer-derived platelet count spikes to ~500 × 10^3/µL around days 5–9 while manual counts remain below ~25 × 10^3/µL"
+  ],
+  "describe_en": "Peripheral blood smear shows extracellular, pale lilac-blue, amorphous cloud-like deposits scattered between red cells, consistent with precipitated cryoglobulin, together with deformed red cells and very few true platelets. The accompanying graph shows a discrepancy in which the automated analyzer platelet count rises abruptly to about 500 × 10^3/µL while manual platelet counts remain severely low. This indicates that cryoglobulin particles were counted as platelets, producing pseudo-recovery. Findings are consistent with cryoglobulins causing spurious platelet counts in a patient with mantle cell lymphoma after chemoimmunotherapy; warmed-sample recount and manual smear review are recommended.",
+  "ddx": [
+    {"dx": "True platelet recovery", "vs": "Recovered platelets are discrete granular fragments on the smear with concordant manual counts, whereas here the smear shows amorphous deposits and manual counts stay low."},
+    {"dx": "Red cell or leukocyte fragments counted as platelets", "vs": "Fragments (schistocytes, microspherocytes, blast cytoplasm) have red cell color or cellular structure, unlike featureless pale blue cloud-like material."},
+    {"dx": "Fibrin strands or platelet clumps", "vs": "Platelet clumps contain granular platelets and fibrin forms fibrillar strands, not homogeneous amorphous blotches."},
+    {"dx": "Stain precipitate", "vs": "Stain precipitate is dark purple and granular and lies on top of cells, whereas cryoglobulin is pale, smooth and extracellular and disappears when the sample is warmed."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; laboratory trend graph",
+  "match": "consistent",
+  "high_yield": false
+}

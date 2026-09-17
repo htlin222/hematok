@@ -1,0 +1,21 @@
+{
+  "id": "61699",
+  "recognize_zh": "這是流式細胞儀散點圖（singlets gate）：絕大多數事件落在 CD19 陰性、CD56 陽性象限（81.08%），CD19+ 細胞極少，符合骨髓瘤漿細胞常見的異常表現型（CD19−/CD56+）。",
+  "features": [
+    "Dot plot: CD19 ECD (x-axis) versus CD56 APC700 (y-axis), gated on singlets",
+    "Dominant population in the CD19-negative/CD56-positive quadrant (81.08%)",
+    "CD19-negative/CD56-negative events 18.42%",
+    "Virtually no CD19-positive events (CD19+CD56+ 0.29%, CD19+CD56- 0.20%)",
+    "Lineage of the CD56+ population is not shown on this plot and requires CD38/CD138 and cytoplasmic kappa/lambda gating"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD19 versus CD56 on the singlet gate shows a dominant population (81.08%) that is CD19-negative and CD56-positive, with only rare CD19-positive events. In the context of a plasma cell neoplasm, loss of CD19 with aberrant CD56 expression is the characteristic neoplastic plasma cell immunophenotype, in contrast to normal plasma cells, which are typically CD19+/CD56-. Plasma cell identity (bright CD38, CD138) and cytoplasmic light-chain restriction are not displayed here and should be confirmed. Findings are supportive of a clonal plasma cell neoplasm such as plasma cell myeloma.",
+  "ddx": [
+    {"dx": "Normal/reactive polyclonal plasma cells", "vs": "Normal plasma cells are predominantly CD19-positive and CD56-negative with polytypic cytoplasmic light chains, whereas this population is CD19-negative/CD56-positive."},
+    {"dx": "NK-cell or NK-like T-cell proliferation", "vs": "NK cells are also CD19-/CD56+ but are CD45-bright, CD38-dim, CD138-negative and express CD2/CD7/CD16, which requires additional gating to exclude."},
+    {"dx": "Metastatic neuroendocrine tumor", "vs": "Neuroendocrine tumor cells can be CD56+/CD19- but are CD45- and CD38/CD138-negative and express cytokeratin and synaptophysin on IHC."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

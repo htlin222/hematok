@@ -1,0 +1,22 @@
+{
+  "id": "64695",
+  "recognize_zh": "高倍下是一片形態非常一致的中小型淋巴細胞，核圓、染色質細緻、核仁小，周圍有一圈淡染到透明的細胞質，壞死與發炎背景不明顯，這種「單調」外觀是 MEITL 的特徵。",
+  "features": [
+    "Monotonous population of small-to-medium-sized lymphoid cells with little size variation",
+    "Round to slightly irregular nuclei with finely dispersed chromatin and small, inconspicuous nucleoli",
+    "Moderate rim of pale to clear cytoplasm giving a slightly cleared, spaced-out appearance",
+    "Scattered mitotic/apoptotic figures",
+    "Scant inflammatory background and no necrosis in this field; a small vessel at the left edge"
+  ],
+  "describe_en": "High-power H&E section shows a diffuse, monotonous infiltrate of small-to-medium-sized lymphoid cells. The cells have round to slightly irregular nuclei, finely dispersed chromatin, inconspicuous nucleoli, and a moderate rim of pale to clear cytoplasm. Occasional mitotic and apoptotic figures are present, while necrosis and a mixed inflammatory background are not seen in this field; mucosal epithelium is not included, so epitheliotropism cannot be assessed here. With CD3, CD56 and TIA1 positivity, findings are consistent with monomorphic epitheliotropic intestinal T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Enteropathy-associated T-cell lymphoma", "vs": "EATL cells are pleomorphic, often large with prominent nucleoli, set in a necrotic inflammatory background and usually CD56-negative, unlike these uniform cells."},
+    {"dx": "Indolent T-cell lymphoproliferative disorder of the GI tract", "vs": "The indolent disorder consists of small mature-appearing lymphocytes confined to the mucosa with a very low Ki-67 and usually no CD56, rather than a mass-forming medium-sized infiltrate."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Lymphoblasts have very fine blastic chromatin, scant cytoplasm and high mitotic rate and express TdT, whereas MEITL cells have pale cytoplasm and are TdT-negative."},
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma may show eosinophilic myelocytes and expresses MPO/CD33/lysozyme, while MEITL cells are CD3+/CD8+/CD56+ without myeloid markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61153",
+  "recognize_zh": "骨髓切片 tryptase 免疫染色：大量中至大型細胞胞質呈強烈、顆粒狀棕色陽性，成片分布，部分為大型多核的陽性細胞；背景小型造血細胞為陰性，說明浸潤的主體是肥大細胞。",
+  "features": [
+    "Numerous medium to large cells with strong granular cytoplasmic tryptase positivity forming confluent sheets",
+    "Staining intensity varies from moderate to very dark, with some round compact positive cells",
+    "Occasional very large positive cells with abundant cytoplasm, suggestive of multinucleated atypical mast cells",
+    "Intervening small hematopoietic cells with blue nuclei are tryptase-negative",
+    "Scattered fat spaces within a hypercellular marrow"
+  ],
+  "describe_en": "Bone marrow biopsy stained for tryptase shows a hypercellular marrow extensively infiltrated by medium to large cells with strong, granular cytoplasmic tryptase expression arranged in confluent sheets. Occasional very large positive cells with abundant cytoplasm are present, while the residual small hematopoietic cells are negative. The extent of tryptase-positive infiltration indicates a high mast cell burden, consistent with mast cell leukemia; aberrant CD25 and/or CD30 expression and KIT mutation status support the diagnosis.",
+  "ddx": [
+    {"dx": "Acute basophilic leukemia", "vs": "Basophilic blasts are immature, typically weak or negative for tryptase and negative for CD117, whereas neoplastic mast cells are strongly tryptase- and CD117-positive."},
+    {"dx": "Myelomastocytic leukemia or AML with increased tryptase-positive cells", "vs": "Tryptase-positive cells in myelomastocytic leukemia are immature and accompany ≥20% myeloblasts without meeting systemic mastocytosis criteria."},
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are scattered single, spindle or round tryptase-positive cells rather than dense aggregates or sheets."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: tryptase",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62135",
+  "recognize_zh": "骨髓抹片中一大片黏聚成團的單一形態腫瘤細胞，核圓、染色質細緻、有小核仁，胞質淡藍並含多個清楚小空泡（箭頭），提示轉移性肺泡型橫紋肌肉瘤造成的骨髓侵犯（myelophthisis）。",
+  "features": [
+    "Large cohesive sheet of monotonous medium-sized cells with nuclear molding",
+    "Round to oval nuclei with fine chromatin and small nucleoli",
+    "Moderate pale blue cytoplasm with multiple small clear punched-out vacuoles",
+    "Poorly defined cell borders with a syncytial appearance",
+    "Normal hematopoietic elements not seen within the cluster"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large cohesive aggregate of monotonous medium-sized cells replacing the field. The cells have round nuclei with fine chromatin and small nucleoli, and moderate amounts of pale basophilic cytoplasm containing multiple small clear vacuoles. The cohesive syncytial arrangement with nuclear molding favors a metastatic non-hematopoietic small round cell tumor over leukemia. In this clinical context, findings are consistent with marrow infiltration by alveolar rhabdomyosarcoma; confirmation requires biopsy with desmin/myogenin immunostains and FOXO1 rearrangement studies.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells also have cytoplasmic vacuoles but are dispersed singly with deep blue cytoplasm and are CD20/CD10 positive with MYC rearrangement."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are discohesive with scant cytoplasm and express TdT, unlike cohesive desmin/myogenin-positive rhabdomyosarcoma cells."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing cells may contain glycogen vacuoles but show membranous CD99 and NKX2.2 with EWSR1 rearrangement and lack myogenin."},
+    {"dx": "Neuroblastoma", "vs": "Neuroblastoma clusters form Homer Wright rosettes with fibrillary neuropil and are PHOX2B positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright",
+  "match": "consistent",
+  "high_yield": false
+}

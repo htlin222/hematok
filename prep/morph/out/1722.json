@@ -1,0 +1,22 @@
+{
+  "id": "1722",
+  "recognize_zh": "周邊血液抹片中血小板數量明顯增多且成群聚集，大小不一，箭頭所指為一顆與小淋巴球相近大小、帶紫色顆粒的巨大血小板，符合骨髓增生性腫瘤（如CML）的血小板增多症。",
+  "features": [
+    "Increased numbers of platelets, many in small clumps between red cells",
+    "Marked platelet anisocytosis with a giant platelet (arrow) approaching the size of a small red cell",
+    "Giant platelet with pale blue cytoplasm and central purple granules",
+    "Some platelets appear agranular or hypogranular",
+    "Red cells show mild poikilocytosis including occasional fragmented or irregular forms"
+  ],
+  "describe_en": "Peripheral blood smear shows increased platelets, frequently clumped, with marked variation in size including a giant platelet (arrow) and some hypogranular forms. Red cells show mild poikilocytosis. No leukocytes are present in this field, so the characteristic CML leukocytosis with basophilia cannot be assessed. Findings are consistent with thrombocytosis with platelet anisocytosis, as seen in a myeloproliferative neoplasm such as chronic myeloid leukemia; correlation with the complete blood count and BCR-ABL1 testing is recommended.",
+  "ddx": [
+    {"dx": "Essential thrombocythemia", "vs": "ET shows similar giant and clumped platelets but lacks leukocytosis with a myelocyte bulge and basophilia, and is BCR-ABL1 negative with JAK2, CALR, or MPL mutation."},
+    {"dx": "Reactive thrombocytosis (iron deficiency, inflammation, post-splenectomy)", "vs": "Reactive platelets are usually uniform in size and normally granular without giant or hypogranular forms."},
+    {"dx": "Pseudothrombocytopenia from EDTA-induced clumping", "vs": "EDTA clumping forms large aggregates at the feathered edge with a falsely low automated count, rather than true increased numbers with giant forms."},
+    {"dx": "Small lymphocyte or micromegakaryocyte fragment", "vs": "A lymphocyte has a nucleus, whereas a giant platelet has only a granulomere and hyalomere without nuclear chromatin."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

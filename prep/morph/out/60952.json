@@ -1,0 +1,22 @@
+{
+  "id": "60952",
+  "recognize_zh": "影像顯示腰椎與肋骨多處骨病灶（箭頭），骨髓切片為成片的漿細胞樣細胞（偏心核、豐富細胞質），免疫染色呈強烈膜染色，蛋白電泳在 γ 區有小尖峰（箭頭），整體符合漿細胞骨髓瘤，出現在兒童實屬罕見。",
+  "features": [
+    "Imaging: sagittal spine MRI, coronal CT and axial cross-sectional images with arrows marking focal bone lesions",
+    "Biopsy H&E: diffuse sheets of monotonous plasmacytoid cells with eccentric round nuclei and moderate amphophilic cytoplasm",
+    "IHC (two panels): strong diffuse membranous staining of the infiltrate, consistent with plasma-cell markers such as CD138/CD38",
+    "Additional stain panel showing sheet-like infiltrate with nuclear/cytoplasmic highlighting (specific stain not labeled)",
+    "Densitometric electrophoresis trace with a small peak in the gamma region (arrow), consistent with an M-protein"
+  ],
+  "describe_en": "Radiologic images show focal lesions in the lumbar spine, ribs and a cross-sectioned bone (arrows). The bone marrow/lesional biopsy shows diffuse sheets of monotonous plasmacytoid cells with eccentric round nuclei, clumped chromatin and moderate cytoplasm, without intervening normal hematopoiesis. Immunohistochemical stains show strong, diffuse membranous positivity of the infiltrate, and an additional stain highlights the sheet-like population. Serum protein electrophoresis densitometry demonstrates a small monoclonal peak in the gamma region. Image legends are not provided, so specific antibodies cannot be confirmed; in context, findings are consistent with plasma cell myeloma in a pediatric patient.",
+  "ddx": [
+    {"dx": "Solitary plasmacytoma of bone", "vs": "Plasmacytoma is a single lesion without clonal marrow plasmacytosis elsewhere, whereas multiple skeletal lesions are shown here."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Shows larger immunoblastic cells with high Ki-67, often EBER-positive and MYC-rearranged, usually in immunodeficient patients and without CRAB-type skeletal disease."},
+    {"dx": "Metastatic small round blue cell tumor (e.g., Ewing sarcoma, neuroblastoma)", "vs": "These are CD138/light-chain negative with CD99/NKX2-2 or PHOX2B expression and lack an M-protein."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "Causes lytic bone lesions in children but consists of grooved CD1a+/langerin+ cells with eosinophils rather than plasma cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (plasma cell markers, unlabeled); MRI/CT; SPEP",
+  "match": "consistent",
+  "high_yield": false
+}

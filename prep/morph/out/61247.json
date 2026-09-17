@@ -1,0 +1,21 @@
+{
+  "id": "61247",
+  "recognize_zh": "這是胸部 CT 冠狀切面肺窗，不是形態學圖：雙肺可見小葉間隔增厚與網狀、細結節狀陰影，以左下肺較明顯，並沿支氣管血管束分布；在已知癌症病人身上，這種間隔與支氣管血管周圍增厚提示癌性淋巴管炎（lymphangitic carcinomatosis）。",
+  "features": [
+    "Coronal chest CT reconstruction in lung window",
+    "Smooth to nodular interlobular septal thickening and reticular opacities, most evident in the left lower lobe",
+    "Peribronchovascular interstitial thickening radiating from the left hilum",
+    "Scattered small nodules along vessels and fissures",
+    "No large consolidation or pleural effusion clearly seen on this single slice"
+  ],
+  "describe_en": "This is a non-morphologic coronal chest CT image in lung window. It shows interlobular septal thickening with reticular and fine nodular opacities, most pronounced in the left lower lobe, along with peribronchovascular interstitial thickening extending from the hilum and scattered small perivascular nodules. There is no dense consolidation on this image. In a patient with known metastatic carcinoma, the pattern of nodular septal and peribronchovascular thickening is consistent with lymphangitic carcinomatosis; tissue confirmation or clinical correlation is required.",
+  "ddx": [
+    {"dx": "Cardiogenic pulmonary edema", "vs": "Produces smooth, symmetric septal thickening with ground-glass opacity, cardiomegaly and effusions, and resolves with diuresis."},
+    {"dx": "Sarcoidosis", "vs": "Shows perilymphatic nodules predominantly in the upper lobes with symmetric hilar lymphadenopathy."},
+    {"dx": "Atypical or opportunistic infection", "vs": "Tends to show ground-glass opacity or tree-in-bud nodules with an acute clinical course and positive microbiology."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

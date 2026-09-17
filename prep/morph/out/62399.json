@@ -1,0 +1,21 @@
+{
+  "id": "62399",
+  "recognize_zh": "MPO 免疫染色中，許多浸潤細胞的細胞質呈顆粒狀強棕色陽性，其間混有陰性細胞；組織中大量 MPO 陽性的未成熟細胞證實浸潤為骨髓系分化，支持骨髓性肉瘤（myeloid sarcoma）。",
+  "features": [
+    "Granular cytoplasmic MPO positivity in a large proportion of infiltrating cells",
+    "Variable staining intensity from weak to strong",
+    "Admixed MPO-negative cells with pale nuclei",
+    "Diffuse infiltrative pattern without follicular structures",
+    "Cytoplasmic (not nuclear) localization of stain"
+  ],
+  "describe_en": "Myeloperoxidase immunostain shows granular cytoplasmic positivity in a substantial proportion of the infiltrating cells, with variable intensity. MPO-negative cells are admixed throughout. The distribution is diffuse and involves the entire field. Expression of MPO confirms myeloid lineage and, together with the morphology of an effacing blastic infiltrate, the findings are consistent with myeloid sarcoma.",
+  "ddx": [
+    {"dx": "Monoblastic myeloid sarcoma", "vs": "Monoblastic tumors are often MPO-negative or weak and require lysozyme, CD68, CD163 and CD14 to demonstrate monocytic lineage."},
+    {"dx": "Lymphoma with reactive neutrophils", "vs": "In lymphoma only scattered mature neutrophils are MPO-positive while the neoplastic cells are negative and express B- or T-cell markers."},
+    {"dx": "Extramedullary hematopoiesis", "vs": "EMH has MPO-positive maturing granulocytes but also erythroid precursors and megakaryocytes, without sheets of CD34/CD117-positive blasts."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: MPO",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3209",
+  "recognize_zh": "組織切片中淡染的實質細胞索之間，擴張充血的血管／竇狀隙腔內塞滿大型異型淋巴細胞，而周圍實質中幾乎沒有腫瘤細胞，這種侷限於血管腔內的分布是血管內大B細胞淋巴瘤的線索。",
+  "features": [
+    "Dilated, congested vascular spaces (sinusoids/capillaries) distended by red cells",
+    "Large atypical lymphoid cells packed within vascular lumina, with vesicular nuclei and visible nucleoli",
+    "Tumor cells confined to intravascular spaces with minimal extravascular infiltration",
+    "Intervening cords of pale polygonal parenchymal cells with eosinophilic cytoplasm",
+    "Diffuse, regularly repeating pattern of filled vessels across the field"
+  ],
+  "describe_en": "Tissue section at medium power shows parenchymal cords of pale polygonal cells separated by markedly dilated, congested vascular spaces. The vascular lumina are filled with large atypical lymphoid cells having enlarged vesicular nuclei and occasional nucleoli, admixed with red cells. The neoplastic cells are largely restricted to the intravascular compartment without forming extravascular masses. Findings are consistent with intravascular large B-cell lymphoma; confirmation with CD20/PAX5 and CD34 (to highlight vessels) immunostains is recommended. The exact organ cannot be established with certainty from this image alone.",
+  "ddx": [
+    {"dx": "Leukemic infiltration (e.g. AML) of sinusoids", "vs": "Myeloid blasts are MPO/CD34/CD117 positive and usually also infiltrate the parenchyma, whereas IVLBCL cells are CD20-positive large B cells restricted to vessel lumina."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL has sinusoidal infiltration by monotonous medium-sized T cells (CD3+, CD5-, TCR gamma-delta) rather than large B cells."},
+    {"dx": "Extramedullary hematopoiesis", "vs": "EMH shows a mixed population of erythroid precursors, myeloid cells and megakaryocytes rather than monotonous large atypical lymphoid cells."},
+    {"dx": "Intravascular NK/T-cell lymphoma", "vs": "This rare mimic is CD20 negative and EBER/CD56 positive, requiring immunohistochemistry to separate it from IVLBCL."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

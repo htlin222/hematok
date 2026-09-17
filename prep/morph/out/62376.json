@@ -1,0 +1,19 @@
+{
+  "id": "62376",
+  "recognize_zh": "流式細胞儀母細胞閘中 CD34 對 CD7 作圖，CD34 陽性母細胞有相當比例延伸到 CD7 陽性象限，表示骨髓系母細胞帶有異常 CD7 表現，這在 3q26（MECOM）重組 AML 中常見。",
+  "features": [
+    "Dot plot gated on blasts: CD34-PC7 (y-axis) versus CD7-APC700 (x-axis)",
+    "CD34-positive blast cluster spans the CD7 threshold, with a large fraction in the CD34+CD7+ quadrant",
+    "Continuous smear from CD7-negative to dim/moderate CD7 expression rather than a discrete bright CD7+ population",
+    "Minimal CD34-CD7+ events (1.04%); separate CD34-negative/CD7-negative population below"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on blasts shows CD34 versus CD7. A substantial proportion of the CD34-positive blasts show dim to moderate CD7 expression, forming a continuum across the quadrant gate, whereas CD34-negative CD7-positive events are rare (1.04%). This represents aberrant CD7 expression on myeloid blasts, an aberrancy frequently reported in AML with inv(3)/t(3;3). Percentages for the CD34+CD7+ quadrant are not labeled on this plot.",
+  "ddx": [
+    {"dx": "Early T-precursor lymphoblastic leukemia", "vs": "ETP-ALL is CD7+ with stem/myeloid markers but expresses cytoplasmic CD3 and lacks MPO, which must be tested on the full panel."},
+    {"dx": "Normal CD34+ progenitors", "vs": "A small subset of normal CD34+ precursors can express CD7, but they are few and show a normal maturation pattern rather than an expanded homogeneous blast cluster."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

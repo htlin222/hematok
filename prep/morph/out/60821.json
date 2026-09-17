@@ -1,0 +1,20 @@
+{
+  "id": "60821",
+  "recognize_zh": "CD15 染色在大型腫瘤細胞中呈顆粒狀胞質與膜狀陽性，並有明顯的核旁 Golgi 點狀加強，背景小細胞陰性；B 細胞表型的大細胞同時帶 CD15，是灰區淋巴瘤的特徵之一。",
+  "features": [
+    "Large cells with abundant cytoplasm showing coarse granular cytoplasmic and membranous CD15 staining",
+    "Prominent paranuclear (Golgi) dot accentuation in many large cells",
+    "Staining present in most of the large cell population",
+    "Background small lymphocytes and stromal cells negative"
+  ],
+  "describe_en": "CD15 immunohistochemistry shows granular cytoplasmic and membranous staining with paranuclear Golgi-pattern accentuation in the large atypical cells, which are positive throughout the field, while background small lymphoid cells are negative. This Hodgkin-type CD15 staining pattern in large cells that retain B-cell program markers (CD20, Oct-2) supports a B-cell lymphoma with features intermediate between diffuse large B-cell lymphoma and classic Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL shows the same CD15 Golgi pattern but Hodgkin/Reed-Sternberg cells lose CD20 and Oct-2 in most cells, whereas here the B-cell program is retained."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL is typically CD15-negative with strong uniform CD20/CD79a and sheets of medium-to-large cells with clear cytoplasm."},
+    {"dx": "Myeloid sarcoma or granulocytic infiltrate", "vs": "Granulocytes and myeloid cells are CD15-positive but also express MPO/lysozyme and lack B-cell markers and Hodgkin-like morphology."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD15",
+  "match": "consistent",
+  "high_yield": false
+}

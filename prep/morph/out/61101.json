@@ -1,0 +1,22 @@
+{
+  "id": "61101",
+  "recognize_zh": "骨髓中的漿細胞與淋巴漿細胞樣細胞，細胞質內有多個大小不一、邊界清楚的透明大空泡（B、C 特別明顯）；免疫固定電泳只見 μ 重鏈的帶（箭頭）而無對應 κ 或 λ 輕鏈，是 μ 重鏈病的典型組合。",
+  "features": [
+    "Aspirate (A, B): plasma cells and lymphoplasmacytoid cells with eccentric nuclei, clumped chromatin and deeply basophilic cytoplasm",
+    "Multiple large, sharply defined, clear cytoplasmic vacuoles, sometimes indenting the nucleus",
+    "Cytochemical stain (C): cytoplasm stains pink-red around unstained empty vacuoles",
+    "Immunofixation (D): abnormal band in the anti-mu lane (arrow) without a corresponding kappa or lambda band",
+    "Immunoelectrophoresis (E): abnormal precipitin arc in the M region lacking light-chain reactivity (double arrow)"
+  ],
+  "describe_en": "Composite figure. The bone marrow aspirate contains plasma cells and lymphoplasmacytoid cells with eccentric nuclei and basophilic cytoplasm that harbor multiple large, sharply defined clear vacuoles, as further highlighted on a cytochemical stain in which the vacuoles remain unstained. Serum immunofixation shows an abnormal band reacting with anti-mu antiserum without an associated kappa or lambda band, and immunoelectrophoresis shows an abnormal mu arc lacking light-chain reactivity. Findings are consistent with mu heavy chain disease, typically associated with a CLL-like or lymphoplasmacytic B-cell neoplasm with characteristic vacuolated plasma cells.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma with Mott cells or Russell bodies", "vs": "Mott cells contain multiple pale blue-pink immunoglobulin globules rather than empty clear vacuoles, and myeloma produces an intact monoclonal immunoglobulin or free light chain."},
+    {"dx": "Lymphoplasmacytic lymphoma / Waldenstrom macroglobulinemia", "vs": "WM shows an IgM band with a matching kappa or lambda light chain and Dutcher bodies, not isolated mu chain."},
+    {"dx": "Chronic lymphocytic leukemia with plasmacytoid features", "vs": "CLL lacks prominent large clear vacuoles and does not produce free mu heavy chain on immunofixation."},
+    {"dx": "Alpha heavy chain disease", "vs": "Alpha HCD involves the small intestine (IPSID) and immunofixation shows an alpha-chain band without light chain."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, cytochemistry, immunofixation, IEP",
+  "match": "consistent",
+  "high_yield": true
+}

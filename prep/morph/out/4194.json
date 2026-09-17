@@ -1,0 +1,22 @@
+{
+  "id": "4194",
+  "recognize_zh": "一個巨噬細胞的胞質內塞滿數十個小而均勻的卵圓形紫色小體，大小遠小於紅血球，部分可見旁側較小的點狀構造（kinetoplast），這是利什曼原蟲無鞭毛體（amastigote，LD body）的典型表現。",
+  "features": [
+    "Macrophage with abundant pale cytoplasm packed with numerous small (2–4 um) oval intracellular organisms",
+    "Organisms of uniform size with a dark-staining nucleus; a smaller rod-like kinetoplast is suggested in some but is not crisply resolved",
+    "Organisms cluster over the macrophage nucleus and are also dispersed throughout its cytoplasm",
+    "Adjacent intact cell with dense nucleus; background of red cells and fine granular debris",
+    "No capsule or halo around the organisms"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a macrophage whose cytoplasm is distended by numerous small, uniform, oval intracellular organisms, each with a dark nucleus and a suggested smaller kinetoplast. No surrounding capsule or clear halo is seen. The background contains red cells and granular debris. Findings are consistent with Leishmania amastigotes (Leishman-Donovan bodies), supporting visceral leishmaniasis; confirmation by PCR, culture or serology is recommended.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts are surrounded by a clear pseudocapsule halo and lack a kinetoplast."},
+    {"dx": "Toxoplasma gondii tachyzoites", "vs": "Toxoplasma tachyzoites are crescentic with a single nucleus and no kinetoplast, and usually appear as pseudocysts rather than packed macrophages."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts are elongated sausage-shaped with a central transverse septum and no kinetoplast."},
+    {"dx": "Platelets or phagocytosed debris overlying a macrophage", "vs": "Platelets and debris are irregular and variable in size, without the uniform oval shape and nucleus-plus-kinetoplast pattern of amastigotes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

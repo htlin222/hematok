@@ -1,0 +1,20 @@
+{
+  "id": "62537",
+  "recognize_zh": "這是 G 顯帶核型圖，男性（XY），第 7 號染色體位置只有一條，箭頭指出缺少的另一條，即 45,XY,-7（monosomy 7）；在兒童骨髓衰竭中出現 monosomy 7 支持 MDS（如 RCC），並提示進展風險高。",
+  "features": [
+    "G-banded karyotype arranged 1-22, X, Y (male)",
+    "Single chromosome 7 with arrow marking the absent homolog",
+    "All other autosomes present in pairs without obvious structural rearrangement at this resolution",
+    "Interpretation: 45,XY,-7"
+  ],
+  "describe_en": "G-banded karyogram from a male shows 45 chromosomes with loss of one chromosome 7 (arrow), and no other numerical or apparent structural abnormality at this band resolution. A clonal loss requires identification of the same monosomy in at least three metaphases. The karyotype is interpreted as 45,XY,-7. In a child with cytopenias and a hypocellular or dysplastic marrow, monosomy 7 supports myelodysplastic neoplasm such as refractory cytopenia of childhood and indicates a high risk of progression, warranting evaluation for GATA2 or SAMD9/SAMD9L germline predisposition.",
+  "ddx": [
+    {"dx": "del(7q)", "vs": "A 7q deletion shows two chromosome 7 homologs with one shortened long arm rather than a missing whole chromosome."},
+    {"dx": "Random metaphase loss (non-clonal)", "vs": "Artifactual chromosome loss is seen in isolated metaphases, whereas clonal monosomy must be present in at least three metaphases."},
+    {"dx": "Constitutional/germline predisposition (GATA2, SAMD9/SAMD9L)", "vs": "Monosomy 7 in children can be acquired on a germline predisposition background, which requires germline testing rather than karyotype to identify."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62379",
+  "recognize_zh": "這是全血球計數報告：血紅素 11.2 g/dL、MCV 77.6 fL、MCH 24.7 pg、MCHC 31.8 g/dL 皆偏低，而 RDW-CV 與 RDW-SD 顯示為星號（超出儀器可報告範圍），提示紅血球大小差異極大，與鐵劑治療中出現雙相族群（dimorphic）相符。",
+  "features": [
+    "Mild anemia: HGB 11.2 g/dL with RBC 4.53 x10^6/uL",
+    "Low red cell indices: MCV 77.6 fL, MCH 24.7 pg, MCHC 31.8 g/dL (microcytic hypochromic)",
+    "RDW-CV and RDW-SD not reported (asterisks), indicating values beyond the analyzer's reportable range",
+    "Normal WBC 5.92 x10^3/uL with minimally high monocyte percentage (8.3%)",
+    "Platelets upper-normal (403 x10^3/uL) with high PCT and P-LCC"
+  ],
+  "describe_en": "Complete blood count shows mild microcytic hypochromic anemia (hemoglobin 11.2 g/dL, MCV 77.6 fL, MCH 24.7 pg, MCHC 31.8 g/dL). The RDW-CV and RDW-SD fields are replaced by asterisks, indicating that red cell size heterogeneity exceeds the analyzer's reportable range (manually calculated RDW-SD 80.37 fL per history). The leukocyte count is normal with a borderline increased monocyte percentage, and the platelet count is at the upper limit of normal with increased plateletcrit. In a patient on iron therapy, these indices are consistent with treated iron deficiency producing a dimorphic red cell population; review of the RBC histogram and smear is recommended.",
+  "ddx": [
+    {"dx": "Thalassemia trait", "vs": "Thalassemia trait shows microcytosis with a normal or high RBC count and a normal RDW, unlike the markedly elevated RDW here."},
+    {"dx": "Anemia of chronic disease", "vs": "ACD is usually normocytic to mildly microcytic with normal RDW and high ferritin."},
+    {"dx": "Sideroblastic anemia", "vs": "Sideroblastic anemia can also give a very high RDW with dimorphic cells but shows high ferritin and ring sideroblasts."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

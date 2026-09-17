@@ -1,0 +1,22 @@
+{
+  "id": "66001",
+  "recognize_zh": "骨髓切片中成片的大型組織球，細胞質豐富、淡染並呈纖維狀條紋如「揉皺的面紙」（wrinkled tissue paper），小核偏位，夾雜於造血細胞與脂肪間，符合 Gaucher 細胞浸潤。",
+  "features": [
+    "Sheets and clusters of large histiocytes replacing marrow spaces between fat cells",
+    "Abundant pale, eosinophilic-to-clear cytoplasm with fibrillary, striated \"wrinkled tissue paper\" texture",
+    "Small, eccentric, dark to angular nuclei",
+    "Cell borders distinct, giving a cobblestone/honeycomb pattern",
+    "Residual hematopoietic cells, including erythroid and myeloid precursors, compressed between histiocytes"
+  ],
+  "describe_en": "Bone marrow core biopsy shows extensive infiltration by sheets of large histiocytes that occupy much of the intertrabecular space between adipocytes. The histiocytes have abundant pale cytoplasm with a fibrillary, striated appearance resembling crumpled tissue paper and small, eccentric nuclei. Residual trilineage hematopoiesis is present between the histiocytic aggregates, and no atypical lymphoid infiltrate or granulomas are seen. Findings are consistent with Gaucher cell infiltration; confirmation by glucocerebrosidase enzyme activity and GBA1 genotyping is recommended.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells (CML, myeloma, thalassemia)", "vs": "Pseudo-Gaucher cells are morphologically similar but occur in a background of the associated neoplasm or high cell turnover and with normal glucocerebrosidase activity."},
+    {"dx": "Niemann-Pick disease foam cells", "vs": "Niemann-Pick cells have finely bubbly, uniform vacuolated (foamy) cytoplasm rather than striated wrinkled cytoplasm."},
+    {"dx": "Mycobacterial infection (e.g., MAC in HIV)", "vs": "Mycobacteria-laden histiocytes can appear striated but are acid-fast positive and often form poorly formed granulomas."},
+    {"dx": "Metastatic clear cell or signet ring carcinoma", "vs": "Carcinoma cells show nuclear atypia, cohesive clusters and keratin positivity, whereas Gaucher cells are bland CD68-positive histiocytes."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

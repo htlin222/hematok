@@ -1,0 +1,20 @@
+{
+  "id": "60810",
+  "recognize_zh": "TRAP 免疫染色在肝竇內成團的腫瘤細胞呈顆粒狀細胞質陽性，肝細胞核圓且大致不染（僅少量背景顆粒），竇內浸潤加上 TRAP 陽性支持毛細胞白血病。",
+  "features": [
+    "Granular cytoplasmic TRAP staining in cells filling hepatic sinusoids",
+    "Anastomosing cords of positive cells between hepatocyte plates",
+    "Positive cells with oval nuclei and moderate cytoplasm",
+    "Hepatocytes largely negative with faint granular background staining"
+  ],
+  "describe_en": "Tartrate-resistant acid phosphatase immunohistochemistry on liver shows strong granular cytoplasmic staining of lymphoid cells arranged in anastomosing cords within hepatic sinusoids. Hepatocytes are largely negative, with only faint granular background reactivity. The sinusoidal TRAP-positive infiltrate is consistent with hepatic involvement by hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis", "vs": "Mast cells can be TRAP positive, but they are CD117/tryptase positive and form spindle-cell aggregates rather than CD20+ sinusoidal B cells."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Occasionally weak TRAP, but lacks CD25/annexin A1/CD103 and does not show strong diffuse TRAP with BRAF V600E."},
+    {"dx": "Hairy cell leukemia variant", "vs": "TRAP usually weak or negative and annexin A1/CD25 negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: TRAP",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61050",
+  "recognize_zh": "骨髓抹片中一顆大型巨核細胞旁邊，有胞質充滿大小不等透明空泡的泡沫狀組織球（foamy histiocytes），吞入細胞看不出來，屬非特異性的反應性變化，需配合臨床考慮儲積症等原因。",
+  "features": [
+    "Large histiocytes with abundant cytoplasm filled with numerous clear vacuoles of varying size (foamy/soap-bubble appearance)",
+    "Small nuclei partly obscured by vacuoles",
+    "Adjacent large megakaryocyte with lobulated nucleus and granular cytoplasm for size comparison",
+    "No engulfed hematopoietic cells or organisms evident within the histiocytes",
+    "Background of red cells and a few maturing myeloid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows histiocytes with abundant cytoplasm distended by numerous clear vacuoles of variable size, lying beside a normal-appearing megakaryocyte. No hemophagocytosis, microorganisms or crystalline inclusions are identified. Foamy histiocytes are a nonspecific finding and may be seen after chemotherapy, in marrow injury, hyperlipidemia or lipid storage disorders. In a child with suspected lysosomal storage disease, correlation with enzyme assays (e.g., acid sphingomyelinase) and genetic testing is recommended.",
+  "ddx": [
+    {"dx": "Niemann-Pick disease cells", "vs": "Niemann-Pick cells show uniform fine foamy vacuolation across many histiocytes; morphology alone cannot distinguish them from reactive foamy macrophages without enzyme assay."},
+    {"dx": "Gaucher cells", "vs": "Gaucher cells have fibrillary crumpled-paper cytoplasm rather than discrete clear vacuoles."},
+    {"dx": "Hemophagocytic histiocytes", "vs": "Hemophagocytosis shows engulfed red cells, platelets or nucleated cells within the macrophage cytoplasm, which are not seen here."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

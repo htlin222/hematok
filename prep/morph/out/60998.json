@@ -1,0 +1,22 @@
+{
+  "id": "60998",
+  "recognize_zh": "淋巴結結構被瀰漫的淋巴樣浸潤取代，免疫染色顯示成片的 T 細胞背景；另一群大型、核奇特的「退行性（anaplastic）」樣細胞（插圖）只分布在擴張的淋巴竇內，且以竇狀分布的核染色（推測為 EBER）標示出來。",
+  "features": [
+    "Low power (A): effaced lymph node architecture by a diffuse lymphoid infiltrate; inset shows medium-sized atypical lymphoid cells",
+    "IHC (B, C): large areas of positive cells in a diffuse/interfollicular pattern consistent with a neoplastic T-cell population (antibodies not labeled)",
+    "Higher power (D): sinusoidal spaces containing large cells; inset shows large pleomorphic/anaplastic cells with abundant cytoplasm and bizarre nuclei",
+    "IHC/ISH (E, F): positive large cells confined to the subcapsular and medullary sinuses, highlighting a sinusoidal distribution (markers not labeled; F nuclear pattern suggests EBER)",
+    "Image resolution limits cytologic detail"
+  ],
+  "describe_en": "Lymph node sections show architectural effacement by a diffuse atypical lymphoid infiltrate, with immunostains highlighting an extensive T-cell population. In addition, large pleomorphic cells with abundant cytoplasm and bizarre nuclei are present, distributed within and confined to lymph node sinuses, where they are highlighted by further immunostains and a nuclear stain pattern suggestive of EBER in situ hybridization. The specific markers are not labeled in the figure and cytology is limited by resolution. Findings are consistent with peripheral T-cell lymphoma, NOS, accompanied by an EBV-driven large B-cell proliferation with anaplastic morphology restricted to sinuses, which should not be mistaken for anaplastic large cell lymphoma or a composite B-cell lymphoma.",
+  "ddx": [
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "ALCL hallmark cells are strong uniform CD30+ T cells (often cytotoxic) and EBV negative, whereas these sinusoidal large cells are EBV+ B cells (CD20/PAX5+)."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL has expanded CD21+ FDC meshworks, arborizing HEVs and TFH-marker (PD1, ICOS, CXCL13) expression, often with EBV+ B blasts scattered rather than sinus-confined."},
+    {"dx": "Metastatic carcinoma or melanoma in sinuses", "vs": "Sinusoidal metastases are keratin or S100/SOX10 positive and CD45/EBER negative."},
+    {"dx": "Composite PTCL and EBV+ DLBCL", "vs": "A true composite shows a sheet-like clonal B-cell lymphoma forming mass lesions with proven B-cell clonality, not a sinus-restricted proliferation."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC and ISH (markers not labeled)",
+  "match": "partial",
+  "high_yield": false
+}

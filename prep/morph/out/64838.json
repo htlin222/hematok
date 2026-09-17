@@ -1,0 +1,20 @@
+{
+  "id": "64838",
+  "recognize_zh": "這不是顯微鏡圖，而是在紫外光（UV）照射下的檢體試管照片：左側病人羊水管底發出明亮紅橙色螢光，右側健康對照管則無紅色螢光，表示羊水中含大量卟啉，支持胎兒紅血球生成型卟啉症。",
+  "features": [
+    "Photograph of two specimen tubes under ultraviolet (Wood's lamp-type) illumination",
+    "Left tube (patient amniotic fluid): bright red-orange fluorescence of the fluid",
+    "Right tube (healthy control): colorless fluid without red fluorescence",
+    "Blue background glare from the UV source; no microscopic detail present"
+  ],
+  "describe_en": "Photograph of amniotic fluid specimens under ultraviolet light shows intense red-orange fluorescence in the patient sample (left) compared with no red fluorescence in the healthy control (right). Red fluorescence under UV indicates high porphyrin content, and the reported fluorimetric emission peak at 619 nm supports porphyrin excess. This is a qualitative screening result, not a morphologic finding. In the context of fetal hydrops with fluorocytes in fetal blood, it supports an erythropoietic porphyria such as congenital erythropoietic porphyria, which requires quantitative porphyrin fractionation and UROS gene testing.",
+  "ddx": [
+    {"dx": "Hemolytic disease of the fetus (alloimmune)", "vs": "Alloimmune hemolysis raises bilirubin (optical density at 450 nm) in amniotic fluid but does not produce red porphyrin fluorescence."},
+    {"dx": "Meconium or blood-stained amniotic fluid", "vs": "Discolored fluid appears green or red in visible light but does not emit red fluorescence under UV."},
+    {"dx": "Other porphyrias (hepatic, such as porphyria cutanea tarda)", "vs": "Porphyrin fractionation separates uroporphyrin I/coproporphyrin I predominance in CEP from other profiles."}
+  ],
+  "specimen": "body fluid",
+  "stain": "N/A (UV light)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

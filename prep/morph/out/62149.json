@@ -1,0 +1,23 @@
+{
+  "id": "62149",
+  "recognize_zh": "周邊血嗜中性球增多並有明顯毒性顆粒（toxic granulation），骨髓顆粒球系增生且可見漿細胞；流式與 CD138 染色顯示一群輕鏈限制的漿細胞，提示漿細胞腫瘤引起的類白血病反應，而非慢性嗜中性白血病。",
+  "features": [
+    "Peripheral blood neutrophilia with mature segmented and band neutrophils (A)",
+    "Coarse dark toxic granulation in neutrophils at high power (B)",
+    "Hypercellular marrow with granulocytic predominance on biopsy (C) and aspirate (D)",
+    "Scattered plasma cells with eccentric nuclei and basophilic cytoplasm in the aspirate (D)",
+    "Flow cytometry CD45 vs SSC plot with a gated abnormal population (arrow, E)",
+    "Immunostain highlighting increased scattered plasma cells, with inset cytoplasmic light-chain plot (F)"
+  ],
+  "describe_en": "Peripheral blood smear (A, B) shows marked neutrophilia composed of mature segmented and band forms with prominent coarse toxic granulation, without circulating blasts in these fields. The bone marrow biopsy (C) and aspirate (D) are hypercellular with granulocytic hyperplasia and orderly maturation, and scattered plasma cells are present. Flow cytometry (E) identifies a distinct gated population, and immunostaining (F) highlights increased plasma cells, with the inset cytoplasmic light-chain plot supporting clonality. Findings are consistent with a neutrophilic leukemoid reaction secondary to a plasma cell neoplasm, mimicking chronic neutrophilic leukemia; absence of a CSF3R mutation would further support a reactive process.",
+  "ddx": [
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL shows similar mature neutrophilia with toxic granulation but carries a CSF3R mutation, whereas here the neutrophilia is driven by a clonal plasma cell population."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a left-shifted neutrophilia with myelocyte and basophil peaks and BCR::ABL1, which is not seen in a mature-only neutrophilia."},
+    {"dx": "Infection-related leukemoid reaction", "vs": "Infectious leukemoid reactions have similar toxic changes but lack a clonal plasma cell population on flow cytometry and immunostains."},
+    {"dx": "Atypical chronic myeloid leukemia", "vs": "aCML shows prominent granulocytic dysplasia with immature granulocytes of 10% or more, unlike the orderly mature neutrophilia here."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; H&E; flow cytometry; IHC (plasma cell marker)",
+  "match": "consistent",
+  "high_yield": false
+}

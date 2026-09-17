@@ -1,0 +1,35 @@
+{
+ "id": "63120",
+ "recognize_zh": "A、B 圖血片中箭頭指出核偏位、細胞質深藍豐富並有核周淡區的漿細胞樣淋巴球／漿母細胞；C 圖流式顯示 CD19+ B 細胞佔淋巴球 32%，其中 93% 為 CD38+IgM+，代表 EBV 感染時的反應性漿母細胞增生。本圖未顯示噬血現象。",
+ "features": [
+  "PB smear (A, B): circulating plasmacytoid lymphocytes/plasmablasts with eccentric round nuclei (arrows)",
+  "Abundant deeply basophilic cytoplasm with perinuclear pallor (hof) and irregular cytoplasmic borders",
+  "Moderately condensed chromatin without prominent nucleoli; background red cells unremarkable",
+  "Flow (C): CD19+ B cells comprise 32% of lymphocyte gate, 93% of which are CD38+ IgM+",
+  "A minor CD19+ subset (4%) with lower SSC is predominantly IgM+ CD38− (79%)",
+  "No hemophagocytosis is depicted in this composite"
+ ],
+ "describe_en": "Peripheral blood smear shows circulating plasmacytoid lymphocytes and plasmablast-like cells with eccentric nuclei, abundant deeply basophilic cytoplasm, and perinuclear hofs (panels A and B, arrows). Flow cytometry (panel C) demonstrates an expanded CD19-positive B-cell population (32% of lymphocytes), the majority of which co-express CD38 and surface IgM, consistent with an activated plasmablastic phenotype; a smaller CD19-positive subset is IgM+ CD38−. Light-chain analysis is not shown, so clonality cannot be assessed from this figure, and hemophagocytosis itself is not illustrated. In a patient with EBV-triggered HLH, these findings are best interpreted as a reactive EBV-driven plasmablastic B-cell response, but relapse of B-cell lymphoma should be excluded given the history.",
+ "ddx": [
+  {
+   "dx": "Relapsed B-cell non-Hodgkin lymphoma with plasmacytic differentiation",
+   "vs": "Lymphoma would show kappa or lambda light-chain restriction and a persistent clonal IGH rearrangement, not assessable on this figure."
+  },
+  {
+   "dx": "Plasma cell leukemia",
+   "vs": "PCL cells are CD19-negative, CD138+, CD38 bright with cytoplasmic light-chain restriction, unlike these CD19+ IgM+ plasmablasts."
+  },
+  {
+   "dx": "Lymphoplasmacytic lymphoma / Waldenström macroglobulinemia",
+   "vs": "LPL is also IgM+ with plasmacytoid cells but is monotypic, MYD88 L265P mutated, and chronic rather than an acute post-viral surge."
+  },
+  {
+   "dx": "Reactive atypical lymphocytes of infectious mononucleosis",
+   "vs": "Classic mononucleosis cells are predominantly CD8+ T cells with abundant cytoplasm scalloping around red cells, rather than CD19+ CD38+ plasmablasts."
+  }
+ ],
+ "specimen": "PB",
+ "stain": "Wright-Giemsa; flow cytometry",
+ "match": "partial",
+ "high_yield": false
+}

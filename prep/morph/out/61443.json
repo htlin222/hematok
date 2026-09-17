@@ -1,0 +1,22 @@
+{
+  "id": "61443",
+  "recognize_zh": "兩個視野中多顆胞質深藍、核質比高的母細胞，胞質內各含一顆被吞噬的完整紅血球（位於透明空泡中，看起來像「甜甜圈」），部分細胞輪廓不規則；在 B 淋巴母細胞白血病中這種母細胞吞噬紅血球的現象罕見，易誤認為組織球或單核球系母細胞。",
+  "features": [
+    "Blasts with intensely basophilic cytoplasm, high N:C ratio, and dense homogeneous nuclei",
+    "Several blasts contain a single engulfed intact erythrocyte within a clear vacuole (erythrophagocytosis)",
+    "Irregular, angulated cell outlines with cytoplasmic projections in some cells",
+    "No granules, Auer rods, or vacuolated cytoplasm apart from the phagocytic vacuoles",
+    "Background of normochromic red cells without schistocytes"
+  ],
+  "describe_en": "Smear shows numerous leukemic blasts with deeply basophilic cytoplasm, high nuclear-to-cytoplasmic ratios, and condensed nuclei, several of which contain a phagocytosed intact erythrocyte within a clear cytoplasmic vacuole. The cells lack granules and Auer rods, and some have irregular cytoplasmic outlines. Erythrophagocytosis by blasts is uncommon and can mimic monocytic, megakaryoblastic, or histiocytic neoplasms. In the setting of a confirmed B-lymphoblastic phenotype, the findings represent erythrophagocytosis by B-lymphoblasts; the specimen source (blood versus marrow) is not specified in the image.",
+  "ddx": [
+    {"dx": "AML with t(8;16)(p11;p13) KAT6A::CREBBP", "vs": "Monocytic blasts with erythrophagocytosis are MPO/NSE-positive and express CD14/CD64, not CD19/CD10/TdT."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "The phagocytes are mature histiocytes with abundant cytoplasm and low N:C ratio, not blasts."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Blasts with cytoplasmic blebs can resemble these but express CD41/CD61 and are TdT/CD19-negative."},
+    {"dx": "Overlapping RBC artifact", "vs": "An overlying red cell is in a different focal plane and lacks a surrounding clear vacuole within the cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

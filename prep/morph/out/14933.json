@@ -1,0 +1,22 @@
+{
+  "id": "14933",
+  "recognize_zh": "慢性血小板低下伴脾腫的患者，周邊血抹片上大部分紅血球的中央淡染區呈狹長裂縫狀（口形紅血球 stomatocyte），並可見接近紅血球大小的巨大血小板，這個組合提示植物固醇血症（sitosterolemia）。",
+  "features": [
+    "Numerous stomatocytes with slit-like or mouth-shaped central pallor across most of the field",
+    "Occasional giant platelet approaching the diameter of a red cell, alongside a normal-sized platelet",
+    "Reduced platelet number in the field",
+    "Red cells otherwise fairly uniform in size without spherocytes, schistocytes, or target cells",
+    "No abnormal leukocytes present in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a prominent population of stomatocytes, with slit-like central pallor in the majority of red cells. Platelets are decreased and include a giant platelet approaching the size of an erythrocyte. There are no significant schistocytes, spherocytes, or abnormal leukocytes in this field. The combination of stomatocytosis and macrothrombocytopenia in a patient with splenomegaly is suggestive of sitosterolemia (ABCG5/ABCG8 deficiency); plasma plant sterol measurement and genetic testing are recommended.",
+  "ddx": [
+    {"dx": "Hereditary stomatocytosis (overhydrated or dehydrated)", "vs": "Hereditary stomatocytosis has abnormal red cell cation content with normal platelet size, whereas sitosterolemia pairs stomatocytes with macrothrombocytes and elevated plasma phytosterols."},
+    {"dx": "Immune thrombocytopenia", "vs": "ITP may show large platelets but lacks stomatocytosis and splenomegaly, and plant sterol levels are normal."},
+    {"dx": "MYH9-related disorder", "vs": "MYH9 disease shows giant platelets with Döhle-like inclusions in neutrophils and normal red cell morphology."},
+    {"dx": "Artifactual stomatocytes (drying artifact) or liver disease/alcohol", "vs": "Artifactual stomatocytes are regional in thick areas of the smear and acquired stomatocytosis lacks giant platelets and hereditary sterol accumulation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

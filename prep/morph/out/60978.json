@@ -1,0 +1,22 @@
+{
+  "id": "60978",
+  "recognize_zh": "一群退化的嗜中性球，細胞質嚴重空泡化，內含大量細小、深藍色的短棒狀細菌，部分菌體位於空泡內，符合周邊血中嗜中性球吞噬細菌（細胞內細菌），提示嚴重菌血症。",
+  "features": [
+    "Cluster of degenerating neutrophils with pyknotic, smudged magenta nuclear fragments",
+    "Extensive cytoplasmic vacuolization with a foamy appearance",
+    "Numerous small, uniform, dark blue rod-shaped bacteria within the vacuolated cytoplasm",
+    "Occasional organisms lying just outside cell borders",
+    "Background red cells without specific abnormality"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of degenerating neutrophils with smudged, fragmented nuclei and markedly vacuolated, foamy cytoplasm containing numerous small, uniform, rod-shaped basophilic bacteria. A few organisms lie adjacent to the cells. The accompanying red cells are unremarkable. Findings are consistent with intracellular (phagocytosed) bacteria in circulating neutrophils, indicating high-grade bacteremia; Gram stain and blood culture are needed for identification.",
+  "ddx": [
+    {"dx": "Toxic granulation and Döhle bodies", "vs": "Toxic granules are fine, dark, evenly distributed round granules, not discrete elongated rod-shaped organisms within vacuoles."},
+    {"dx": "Anaplasma phagocytophilum morulae", "vs": "Morulae form a single compact mulberry-like cluster within one vacuole rather than countless scattered bacilli throughout foamy cytoplasm."},
+    {"dx": "Histoplasma capsulatum yeasts", "vs": "Yeasts are larger oval forms with a clear halo, not tiny slender rods."},
+    {"dx": "Ex vivo overgrowth in delayed/stored specimen", "vs": "Bacterial proliferation in an aged tube can mimic this; correlation with prompt smear preparation and positive blood cultures is required."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62564",
+  "recognize_zh": "六格免疫染色：大型腫瘤細胞 CD30 強陽性（膜及高基氏體），CD3 與 CD20 只標出散在小淋巴球；ALK1 為胞質陽性而無核染，提示非 NPM1 夥伴的 ALK 融合，細胞毒性標記 TIA1 與 granzyme 亦有陽性。",
+  "features": [
+    "CD30: strong membranous and Golgi-pattern staining in nearly all large tumor cells",
+    "ALK1: moderate cytoplasmic staining in large cells without nuclear staining",
+    "CD3 and CD20: tumor cells negative, with only scattered small reactive T and B cells positive",
+    "TIA1 diffusely granular cytoplasmic positive; granzyme B focally positive in a subset of cells"
+  ],
+  "describe_en": "An immunohistochemical panel on the tumor shows the large neoplastic cells to be strongly and diffusely positive for CD30 in a membranous and Golgi pattern. ALK1 shows cytoplasmic staining of the large cells without nuclear staining, a pattern expected with non-NPM1 ALK partners such as TRAF1. The neoplastic cells are negative for CD3 (loss of a pan-T-cell antigen) and CD20, which highlight only scattered small background lymphocytes, and express cytotoxic markers TIA1 (diffuse) and granzyme B (focal). Findings are consistent with anaplastic large cell lymphoma, ALK-positive.",
+  "ddx": [
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "Morphology and CD30 can be identical, but ALK-negative ALCL lacks any ALK protein staining."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "RS cells are CD30-positive but also CD15-positive and weakly PAX5-positive, and lack ALK and cytotoxic markers."},
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "It shows granular cytoplasmic ALK but is CD30-negative or weak, plasmablastic (CD138/MUM1-positive) and expresses EMA with IgA."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with CD30 expression", "vs": "PTCL-NOS shows variable rather than uniform strong CD30 and is ALK-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD3, CD20, CD30, ALK1, granzyme B, TIA1",
+  "match": "consistent",
+  "high_yield": true
+}

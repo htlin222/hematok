@@ -1,0 +1,22 @@
+{
+  "id": "65223",
+  "recognize_zh": "骨髓抹片中大型腫瘤細胞核偏位、染色質粗、可見核仁、細胞質深藍（漿母細胞樣），旁有吞噬細胞的組織球；切片中大片細胞 MUM1、EBER、HHV-8（LANA）核陽性，流式為 CD38 強陽性、lambda 限制、CD20 陰性、IgM 陽性，符合 HHV-8 陽性 DLBCL 合併 EBV。",
+  "features": [
+    "Large neoplastic cells with eccentric nuclei, coarse chromatin, occasional nucleoli and moderate deeply basophilic cytoplasm (plasmablastic appearance)",
+    "Central histiocyte containing phagocytosed nucleated cells (hemophagocytosis)",
+    "Core/clot H&E: diffuse sheets of large atypical cells replacing marrow",
+    "MUM1, HHV-8 (LANA) and EBV (EBER) show nuclear positivity in a large proportion of cells",
+    "Flow cytometry: CD38-bright population, CD45 positive, lambda restricted (96.7%), CD20 negative with partial CD19, surface IgM positive, variable CD27"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows clusters of large atypical cells with eccentric nuclei, coarse chromatin, nucleoli and deeply basophilic cytoplasm, along with a histiocyte engulfing nucleated cells. The corresponding biopsy shows diffuse sheets of large cells that are positive for MUM1, HHV-8 LANA and EBV (EBER), indicating dual viral infection. Flow cytometry identifies a CD38-bright, CD45-positive, lambda-restricted population lacking CD20 with partial CD19 and IgM expression. Findings are consistent with HHV-8-positive diffuse large B-cell lymphoma with EBV coinfection in a posttransplant setting.",
+  "ddx": [
+    {"dx": "Primary effusion lymphoma (extracavitary)", "vs": "PEL is also HHV-8+ and usually EBV+ but typically lacks surface/cytoplasmic immunoglobulin and is CD45+ with null phenotype, whereas HHV-8+ DLBCL expresses IgM lambda and is often EBV negative; clinical distribution helps."},
+    {"dx": "Plasmablastic lymphoma", "vs": "PBL is EBV positive and CD20 negative but is HHV-8 negative and usually CD138 positive, unlike these HHV-8+ CD138-negative cells."},
+    {"dx": "Monomorphic PTLD (EBV+ DLBCL)", "vs": "EBV-positive DLBCL/PTLD lacks HHV-8 LANA nuclear staining, which is the key discriminator here."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma cells are CD138 and BCMA positive, CD45 often negative, and HHV-8/EBV negative, whereas this population is CD138 and BCMA negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: MUM1, HHV-8; ISH: EBER; flow",
+  "match": "consistent",
+  "high_yield": false
+}

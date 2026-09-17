@@ -1,0 +1,21 @@
+{
+  "id": "64921",
+  "recognize_zh": "骨髓抹片中一顆大型巨噬細胞，細胞質淡藍、有細小顆粒，內含一個被透明空泡包住的有核細胞；巨噬細胞本身的橢圓形細胞核被擠到一側，整體看起來像印戒細胞，其實是吞噬血球現象（hemophagocytosis）。",
+  "features": [
+    "Large macrophage with abundant pale grey-blue, finely granular cytoplasm and irregular cytoplasmic borders",
+    "Engulfed nucleated cell (round dense nucleus, likely lymphocyte or erythroid precursor) within a clear phagocytic vacuole",
+    "Macrophage nucleus oval with fine chromatin, displaced eccentrically by the vacuole, mimicking a signet ring cell",
+    "Adjacent small lymphocyte with scant cytoplasm and scattered platelets in the background",
+    "Numerous overlapping red cells from a thick area of the smear"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large macrophage with abundant pale, finely granular cytoplasm containing an intact nucleated cell within a clear phagocytic vacuole. The vacuole displaces the macrophage's oval nucleus to one side, producing a signet ring-like appearance. No cohesive clusters or atypical epithelial cells are present, and the macrophage nucleus is bland. In a patient after CAR T-cell therapy with cytokine release syndrome, the finding is consistent with hemophagocytosis, supporting immune effector cell-associated HLH-like syndrome when clinical and laboratory criteria are met.",
+  "ddx": [
+    {"dx": "Metastatic signet ring cell carcinoma", "vs": "True signet ring cells are cohesive with a mucin vacuole and a hyperchromatic, atypical crescentic nucleus, whereas this cell has a bland macrophage nucleus and its vacuole contains an engulfed nucleated cell."},
+    {"dx": "Emperipolesis in megakaryocytes", "vs": "Emperipolesis occurs within megakaryocytes with large lobulated nuclei and intact living cells moving through the cytoplasm, not within a monolobed macrophage."},
+    {"dx": "Tingible body macrophage with apoptotic debris", "vs": "Tingible body macrophages contain fragmented apoptotic nuclear debris rather than an intact nucleated hematopoietic cell, which is what defines hemophagocytosis."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

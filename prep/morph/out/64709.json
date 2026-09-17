@@ -1,0 +1,23 @@
+{
+  "id": "64709",
+  "recognize_zh": "血液抹片中有數顆大型細胞，細胞質佈滿密集的深紫紅色粗顆粒，顆粒甚至覆蓋細胞核，核輪廓略呈摺疊或凹陷；這種高顆粒性的「異常前骨髓細胞」而非真正原始細胞，是 APL 的典型外觀。",
+  "features": [
+    "Several large cells with abundant cytoplasm, two to three times the diameter of red cells",
+    "Cytoplasm densely packed with coarse purple-red azurophilic granules that overlie and obscure the nucleus",
+    "Nuclei with irregular, folded or indented outlines; chromatin partly obscured by granules",
+    "Nucleoli not discernible; Auer rod bundles not clearly seen in this field",
+    "Cells occur singly and in pairs; no mature neutrophils in this field",
+    "Background red cells normocytic; platelets sparse"
+  ],
+  "describe_en": "Peripheral blood smear shows several large abnormal myeloid cells, occurring singly and in pairs, with abundant cytoplasm densely packed with coarse azurophilic granules that obscure the nuclear detail. Where visible, nuclei are irregular with folded or indented contours. Auer rods are not clearly identified in this field, and mature neutrophils are not seen. Findings are consistent with hypergranular abnormal promyelocytes of acute promyelocytic leukemia with PML::RARA; urgent coagulation studies and genetic confirmation are indicated.",
+  "ddx": [
+    {"dx": "AML with maturation", "vs": "Myeloblasts in AML with maturation have round nuclei, visible nucleoli and fewer granules, with maturing granulocytes present."},
+    {"dx": "Toxic granulation in reactive neutrophilia", "vs": "Toxic neutrophils are segmented mature cells with dark granules, not large cells with coarse granules obscuring an immature nucleus."},
+    {"dx": "Basophils or mast cells", "vs": "Basophil granules are dark purple-black and water-soluble around a lobated nucleus, and mast cells have a round central nucleus with metachromatic granules."},
+    {"dx": "Normal promyelocytes (left shift, G-CSF effect)", "vs": "Normal promyelocytes have a visible round nucleus with nucleoli and a perinuclear Golgi hof, and granules do not obscure the nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62658",
+  "recognize_zh": "右側的大型腫瘤細胞（核大、空泡狀染色質、明顯核仁）CD20 完全陰性，左側背景小型 B 細胞則呈強膜狀陽性作為內部對照；腫瘤細胞失去 CD20 是原發性滲出性淋巴瘤（PEL）的典型免疫表現型。",
+  "features": [
+    "Sheet of large neoplastic cells with vesicular nuclei and prominent nucleoli, CD20-negative",
+    "Strong membranous CD20 staining in adjacent small reactive B cells (internal positive control)",
+    "Tingible-body macrophages/apoptotic debris within the tumor sheet",
+    "Faint non-specific granular background staining around tumor cells",
+    "Scattered small CD20-positive cells trapped among tumor cells"
+  ],
+  "describe_en": "CD20 immunohistochemistry shows a sheet of large neoplastic cells with vesicular nuclei, prominent nucleoli and admixed apoptotic debris that lack CD20 expression. In contrast, residual small B lymphocytes on the left show strong membranous staining and serve as an internal positive control. Scattered CD20-positive small cells are trapped among the tumor cells. Findings show loss of CD20 in the neoplastic population, supporting a diagnosis of primary effusion lymphoma (extracavitary) in conjunction with HHV8 positivity.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL is typically CD20 and PAX5 positive in the large cells and HHV8-negative."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Also CD20-negative with plasmacytic markers, but HHV8 (LANA-1) is negative and EBER is usually positive in immunodeficient hosts."},
+    {"dx": "HHV8-positive diffuse large B-cell lymphoma, NOS", "vs": "Arises from multicentric Castleman disease and usually retains CD20 with IgM lambda expression, and is EBV-negative."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

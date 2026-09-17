@@ -1,0 +1,29 @@
+{
+  "id": "139",
+  "recognize_zh": "皮膚切片中真皮全層被中至大型、核不規則且有細緻核摺痕的非黏著性單形細胞浸潤，於膠原纖維間呈單列穿插，表皮下保留一條無浸潤帶（grenz zone）；免疫染色 NPM1 呈細胞質異位表現，NGS 見 NPM1 4 鹼基插入，符合 NPM1 突變的骨髓肉瘤。",
+  "features": [
+    "Dense diffuse dermal infiltrate extending through the full biopsy depth, with a narrow uninvolved subepidermal zone (grenz zone)",
+    "Discohesive intermediate to large cells dissecting between collagen bundles, singly and in cords",
+    "Irregular, folded or indented nuclei with fine chromatin, some with small distinct nucleoli; moderate pale to amphophilic cytoplasm",
+    "Immunostains show diffuse strong positivity in the infiltrate (membranous and cytoplasmic patterns) with a partial granular histiocytic-marker pattern",
+    "NPM1 immunostain with cytoplasmic as well as nuclear staining (aberrant cytoplasmic localization)",
+    "NGS read alignment (IGV) showing a 4-base (TAGG) insertion in NPM1 exon 12 at the W288 codon"
+  ],
+  "describe_en": "Skin punch biopsy shows a dense, diffuse dermal infiltrate occupying the full thickness of the specimen with sparing of a narrow subepidermal zone. The infiltrate consists of discohesive intermediate to large cells that dissect between collagen bundles and have irregular, folded nuclei, fine chromatin, occasional nucleoli and moderate cytoplasm; epidermotropism is not seen. Immunohistochemistry shows diffuse expression of the illustrated markers, reported as CD4, CD56, CD33, lysozyme, CD68 and partial CD163, with negative B-, T-cell, CD34, CD117, MPO, CD123 and TCL1 (individual panels are not labeled), and NPM1 shows aberrant cytoplasmic localization. Next-generation sequencing shows a 4-base insertion in NPM1 exon 12. Findings are consistent with myeloid sarcoma with monocytic differentiation and NPM1 mutation (leukemia cutis).",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is also CD4+/CD56+ and dermal with grenz zone, but it expresses CD123, TCL1 and TCF4 and lacks lysozyme/CD68 monocytic markers and cytoplasmic NPM1, which are the reverse of this case."},
+    {"dx": "Diffuse large B-cell lymphoma or blastoid mantle cell lymphoma involving skin", "vs": "These can look identical on H&E but express CD20/PAX5 (and cyclin D1 in MCL) and are negative for lysozyme, CD33 and cytoplasmic NPM1."},
+    {"dx": "Cutaneous extranodal NK/T-cell or peripheral T-cell lymphoma", "vs": "T/NK lymphomas show CD3, cytotoxic markers or EBER positivity and often angiocentric necrosis, whereas this infiltrate lacks T-cell markers and shows myelomonocytic antigens."},
+    {"dx": "Merkel cell carcinoma or other small round blue cell tumor", "vs": "Merkel cell carcinoma has salt-and-pepper chromatin, nuclear molding and CK20 dot-like and neuroendocrine marker positivity, and lacks CD45 and myeloid markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (myelomonocytic panel, NPM1); NGS",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Skin biopsy H&E: diffuse dermal infiltrate with grenz zone (A-B) and discohesive cells with folded nuclei between collagen (C-D)",
+    "IGV view of NGS reads: 4-bp TAGG insertion in NPM1 exon 12 (W288)",
+    "Immunostains (unlabeled panels A-D) showing diffuse positivity of the infiltrate",
+    "Immunostains (A-C) and NPM1 with aberrant cytoplasmic staining (D)"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "62275",
+  "recognize_zh": "CD20 染色可見一個巨大、形狀不規則的 B 細胞結節佔據大部分視野，內部深淺斑駁，左下與右上另有小而完整的 CD20 陽性濾泡作為對照，符合 PTGC。",
+  "features": [
+    "Large, irregular CD20-positive B-cell nodule occupying most of the field",
+    "Heterogeneous staining with denser rims and lighter internal zones reflecting admixed mantle cells and germinal center remnants",
+    "Several small, round, normal-sized CD20-positive follicles at the lower left and upper/lower right",
+    "CD20-negative interfollicular T-zone surrounding the nodule",
+    "Fibrous capsule with vessels at the right edge; cleft artifacts present"
+  ],
+  "describe_en": "CD20 immunohistochemistry shows a large, irregularly shaped B-cell nodule with heterogeneous staining intensity, in which dense collections of small CD20-positive B cells alternate with lighter zones. Several small, normal-sized follicles are present nearby, and the interfollicular areas are largely CD20-negative, preserving nodal compartmentalization. Findings support an expanded B-cell nodule consistent with progressive transformation of germinal centers, in correlation with IgD and CD10 staining.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (NLPHL)", "vs": "NLPHL nodules contain scattered large CD20+ LP cells rimmed by PD-1+ T cells and usually replace most of the node, whereas PTGC is a focal nodule among reactive follicles without LP cells."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma shows diffuse crowding of similar-sized neoplastic follicles with CD10/BCL2 co-expression rather than a single giant nodule adjacent to small reactive follicles."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

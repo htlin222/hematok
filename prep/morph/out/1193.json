@@ -1,0 +1,22 @@
+{
+  "id": "1193",
+  "recognize_zh": "胸水細胞抹片中，大量散在、互不黏連的大型異常細胞，核不規則且可見核仁，細胞質嗜鹼性並含多個小空泡，混有少數小淋巴球作為大小對照，符合大型 B 細胞淋巴瘤侵犯胸水。",
+  "features": [
+    "Numerous discohesive large atypical cells, roughly 2-4 times the size of small lymphocytes",
+    "Irregular, folded to indented nuclei with fine chromatin and occasional nucleoli",
+    "Moderate basophilic cytoplasm with multiple small clear vacuoles",
+    "Admixed small mature lymphocytes provide size comparison",
+    "Background of crenated (echinocytic) red cells, a cytospin artifact; no cohesive epithelial or mesothelial clusters"
+  ],
+  "describe_en": "Pleural fluid cytospin shows a cellular specimen composed predominantly of discohesive large atypical cells admixed with small mature lymphocytes. The large cells have irregular nuclei, fine chromatin, occasional nucleoli and basophilic vacuolated cytoplasm. No cohesive three-dimensional clusters suggestive of carcinoma or reactive mesothelial cells are seen. Findings are consistent with involvement by a large B-cell lymphoma; flow cytometry or cell block immunostaining is required to confirm B-cell lineage and exclude histiocytes.",
+  "ddx": [
+    {"dx": "Reactive macrophages/mesothelial cells", "vs": "Macrophages have bean-shaped nuclei with abundant foamy cytoplasm and mesothelial cells show windows and dense cytoplasm, whereas these are monomorphic large cells with nucleoli and basophilic cytoplasm."},
+    {"dx": "Primary effusion lymphoma", "vs": "PEL cells are often plasmablastic/anaplastic, lack B-cell antigens (CD19/CD20) and are HHV8/LANA-positive, whereas LBCL expresses pan-B-cell markers."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive clusters or acini and is keratin-positive and CD45-negative."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are medium-sized, uniform, with deeply basophilic cytoplasm and sharp lipid vacuoles and a Ki-67 near 100% with MYC rearrangement."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

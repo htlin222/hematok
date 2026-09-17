@@ -1,0 +1,22 @@
+{
+  "id": "1067",
+  "recognize_zh": "周邊血抹片中散佈多個紅血球碎片，包括頭盔細胞（helmet cell）、三角形與不規則小碎片（schistocytes），而血小板數量看起來並未明顯減少，符合人工主動脈瓣造成的機械性溶血。",
+  "features": [
+    "Numerous red cell fragments (schistocytes): helmet cells, triangular and irregular angular fragments",
+    "Microspherocytes/small dense fragments scattered among normocytic red cells",
+    "Occasional polychromatophilic red cell",
+    "Platelets present and not obviously decreased",
+    "No leukocyte abnormality in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous schistocytes, including helmet cells and small triangular and irregular red cell fragments, among otherwise normocytic red cells with occasional polychromasia. Platelets appear present in adequate numbers in this field. Findings are consistent with fragmentation (microangiopathic-pattern) hemolytic anemia; in a patient with a malfunctioning prosthetic aortic valve, this represents mechanical valve-related hemolysis, but thrombotic microangiopathy should be excluded clinically (platelet count, ADAMTS13, renal function).",
+  "ddx": [
+    {"dx": "Thrombotic thrombocytopenic purpura", "vs": "TTP shows schistocytes with marked thrombocytopenia and severely reduced ADAMTS13 activity, whereas valve hemolysis typically has preserved platelets."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC shows schistocytes with thrombocytopenia plus prolonged PT/aPTT, low fibrinogen and elevated D-dimer."},
+    {"dx": "Bite cells/keratocytes in oxidative hemolysis", "vs": "Oxidative hemolysis (e.g., G6PD deficiency) shows bite and blister cells with Heinz bodies on supravital stain rather than sharply angular fragments."},
+    {"dx": "Spherocytic hemolytic anemia", "vs": "Hereditary spherocytosis and warm AIHA show round spherocytes lacking angular fragments, with DAT or EMA binding testing for separation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

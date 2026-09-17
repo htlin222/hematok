@@ -1,0 +1,23 @@
+{
+  "id": "62984",
+  "recognize_zh": "臨床照片可見軀幹紅色丘疹斑塊合併脫屑結痂，皮膚切片真皮內有密集小淋巴球浸潤且表皮保留；免疫染色中小型淋巴球瀰漫強陽性，符合 CLL/SLL 皮膚浸潤出現在先前發炎或受損皮膚部位（isotopic response）的情境。",
+  "features": [
+    "Clinical photos: erythematous, scaly, crusted papules and plaques on the trunk/flank",
+    "Low power H&E: dense, band-like to nodular dermal lymphoid infiltrate with an overlying intact epidermis and a narrow grenz zone",
+    "High power H&E: monotonous small to medium lymphocytes with round to slightly irregular nuclei, coarse chromatin and scant cytoplasm",
+    "IHC panel D: diffuse strong membranous/cytoplasmic staining of nearly all infiltrating lymphocytes (B-cell/CLL marker per context)",
+    "IHC panel E: many positive nuclei among the infiltrate (nuclear marker, e.g. proliferation or transcription factor)",
+    "IHC panel G: only scattered positive cells in the superficial dermis and epidermis"
+  ],
+  "describe_en": "Composite figure: clinical photographs show erythematous, scaly and crusted papules coalescing into plaques on the trunk. Skin biopsy shows a dense dermal lymphoid infiltrate arranged in sheets and nodules beneath an intact epidermis. At high power the infiltrate consists of monotonous small to medium-sized lymphocytes with condensed chromatin and scant cytoplasm; large transformed cells are not prominent at this magnification. Immunostains show diffuse strong positivity of the infiltrate with one marker and a nuclear-staining marker in many cells, while a further stain highlights only scattered cells. In the clinical context, findings are consistent with cutaneous involvement by CLL/SLL arising at a site of prior skin inflammation (isotopic immune response); the specific markers are not labeled in the image.",
+  "ddx": [
+    {"dx": "Reactive cutaneous lymphoid hyperplasia", "vs": "Reactive infiltrates are mixed T- and B-cells with germinal centers and polytypic plasma cells, whereas CLL shows a monotonous CD5+/CD23+ B-cell infiltrate with light-chain restriction."},
+    {"dx": "Primary cutaneous marginal zone lymphoma", "vs": "Marginal zone lymphoma has plasmacytoid/monocytoid cells and reactive follicles and is CD5-/CD23-, unlike CD5+/CD23+/LEF1+ CLL."},
+    {"dx": "Mycosis fungoides", "vs": "Mycosis fungoides shows epidermotropic atypical T-cells with Pautrier microabscesses, whereas this infiltrate spares the epidermis and is B-cell predominant."},
+    {"dx": "Richter transformation in skin", "vs": "Richter transformation shows sheets of large cells with vesicular chromatin, prominent nucleoli and high Ki-67, not the small monotonous cells seen here."}
+  ],
+  "specimen": "tissue",
+  "stain": "Clinical photo; H&E; IHC (markers unlabeled)",
+  "match": "partial",
+  "high_yield": false
+}

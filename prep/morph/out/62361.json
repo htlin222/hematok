@@ -1,0 +1,21 @@
+{
+  "id": "62361",
+  "recognize_zh": "大部分腫瘤細胞核呈棕色 TdT 陽性，只有散在的小型內皮或間質細胞核仍為藍色，證實這些細胞為淋巴母細胞（前驅細胞）而非成熟淋巴球。",
+  "features": [
+    "Diffuse nuclear TdT positivity in the majority of tumor cells",
+    "Tumor nuclei are oval to spindled/irregular with variable staining intensity",
+    "Scattered negative (blue) nuclei representing endothelial and stromal cells",
+    "Some diffuse cytoplasmic/background brown staining, but the specific signal is nuclear"
+  ],
+  "describe_en": "Immunohistochemical stain for TdT shows nuclear positivity in the large majority of the infiltrating tumor cells, with variable intensity, while scattered endothelial and stromal nuclei are negative. Mild nonspecific background cytoplasmic staining is present. Nuclear TdT expression establishes the precursor (lymphoblastic) nature of the neoplasm and, with CD3 positivity, supports T-lymphoblastic leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "B-LBL is also TdT+ but expresses CD19, CD79a and PAX5 and lacks CD3."},
+    {"dx": "Thymoma with TdT+ immature T cells", "vs": "Thymomas contain TdT+ cortical thymocytes admixed with a keratin-positive epithelial meshwork, which is absent in lymphoblastic lymphoma."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is TdT-negative, CD10+ BCL6+ with a near-100% Ki-67 index and MYC rearrangement."},
+    {"dx": "Acute myeloid leukemia (myeloid sarcoma)", "vs": "Some AML is TdT+ but expresses MPO, lysozyme or CD117 and lacks cytoplasmic CD3."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: TdT",
+  "match": "consistent",
+  "high_yield": true
+}

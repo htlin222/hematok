@@ -1,0 +1,22 @@
+{
+  "id": "60059",
+  "recognize_zh": "流式圖中紅色母細胞族群位於 CD45 弱/陰性、低 SSC 區，呈 CD19+、CD34+、CD10+、HLA-DR+，同時在 CD13 對 CD34 圖上明顯 CD13 陽性，但 CD117、CD33、CD20 陰性；這是帶有髓系抗原 CD13 異常表現的 B-ALL，此類異常表現常見於 Ph+（BCR::ABL1 p190）病例。",
+  "features": [
+    "CD45 vs SSC: red blast population (about 27%) with dim-to-negative CD45 and low SSC, separate from granulocytes (green) and lymphocytes (blue)",
+    "CD19 vs CD34 and CD19 vs CD45: blasts are CD19 positive and CD34 positive with dim CD45",
+    "CD13 vs CD34: blasts clearly CD13 positive (aberrant myeloid antigen), in the CD34+ quadrant separate from CD34-negative granulocytes",
+    "CD117 vs CD34 and HLA-DR vs CD33: blasts CD117 negative, HLA-DR positive, CD33 negative",
+    "CD10 vs CD20: blasts CD10 positive with variable intensity and CD20 negative"
+  ],
+  "describe_en": "Flow cytometric analysis of peripheral blood shows an abnormal population (red) of approximately 27% of events in the dim-to-negative CD45, low side-scatter region. The blasts express CD19, CD34, CD10, HLA-DR, and aberrant CD13, and are negative for CD117, CD33, CD20, and surface light chains. Residual granulocytes (CD13 positive, CD34 negative) and CD45-bright lymphocytes serve as internal controls. This immunophenotype is consistent with B-lymphoblastic leukemia with aberrant CD13 expression; with the reported t(9;22) p190 transcript, the diagnosis is B-lymphoblastic leukemia with BCR::ABL1 fusion.",
+  "ddx": [
+    {"dx": "Mixed phenotype acute leukemia, B/myeloid", "vs": "CD13 or CD33 alone is insufficient for myeloid lineage; MPAL requires MPO positivity (or monocytic markers), which is not demonstrated here."},
+    {"dx": "Acute myeloid leukemia with aberrant CD19", "vs": "AML with t(8;21) may express CD19 and CD34, but blasts are CD117 and MPO positive and lack strong B-lineage CD10/CD79a/CD22 coexpression."},
+    {"dx": "CML in lymphoid blast phase", "vs": "Shares BCR::ABL1 and a B-lymphoblast phenotype; distinguished by prior chronic phase, p210 transcript, and BCR::ABL1 in neutrophils."},
+    {"dx": "Hematogones", "vs": "Hematogones lack aberrant myeloid antigens and show a maturing CD34/CD10/CD20 continuum with normal CD45."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

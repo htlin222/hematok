@@ -1,0 +1,22 @@
+{
+  "id": "62043",
+  "recognize_zh": "高倍下背景以小淋巴球為主，其中散在多個大型細胞，核大、淡染呈泡狀並有多葉或折疊（popcorn 樣），核仁小，另夾雜粉紅色細胞質的上皮樣組織球，符合 NLPHL 的 LP 細胞型態。",
+  "features": [
+    "Background of numerous small round to slightly irregular lymphocytes",
+    "Scattered large cells with vesicular, folded or multilobated nuclei (popcorn/LP cell morphology) and small nucleoli",
+    "Large cells have scant to moderate pale cytoplasm and occur singly rather than in sheets",
+    "Admixed epithelioid histiocytes with eosinophilic cytoplasm and elongated nuclei",
+    "No eosinophils, neutrophils or necrosis seen in this field"
+  ],
+  "describe_en": "High-power H&E section of lymph node shows a background dominated by small lymphocytes with scattered large cells possessing vesicular, folded to multilobated nuclei with delicate chromatin and small nucleoli, consistent with lymphocyte predominant (LP) cells. Scattered epithelioid histiocytes with eosinophilic cytoplasm are admixed. The large cells are dispersed singly without sheet formation in this field, and eosinophils and necrosis are absent. Findings are consistent with nodular lymphocyte predominant Hodgkin lymphoma; the architectural pattern (nodular versus T-cell-rich diffuse) and presence of confluent large-cell sheets must be assessed at low power and with CD20/CD3/PD-1 immunostains to evaluate for progression.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Cytology of the large cells can be identical; THRLBCL is defined by a diffuse architecture with a CD8+ T-cell and histiocyte background lacking follicular dendritic meshworks."},
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-rich", "vs": "HRS cells usually have large eosinophilic nucleoli and are CD30+/CD15+, whereas LP cells have small nucleoli and are CD20+, CD30-, CD15-."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC contains only small B cells and residual germinal center cells without lobulated LP cells."},
+    {"dx": "Toxoplasma lymphadenitis", "vs": "Toxoplasmosis shows epithelioid histiocyte clusters with reactive follicles and monocytoid B-cells but lacks atypical popcorn cells."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

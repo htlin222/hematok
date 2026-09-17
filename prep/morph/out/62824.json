@@ -1,0 +1,21 @@
+{
+  "id": "62824",
+  "recognize_zh": "GATA3 免疫染色下，大多數腫瘤細胞的細胞核呈棕色陽性（強度由中等到強），胞質不染；夾雜少數藍色陰性核的背景細胞。核染色陽性的 GATA3 支持乳癌（或尿路上皮癌）來源，而非漿細胞腫瘤。",
+  "features": [
+    "IHC for GATA3 on a marrow core diffusely infiltrated by tumor cells",
+    "Nuclear staining in the majority of tumor cells, with variable moderate to strong intensity",
+    "Round-to-oval nuclei, some eccentric, with no cytoplasmic staining",
+    "Interspersed smaller GATA3-negative cells with blue hematoxylin nuclei",
+    "Discohesive arrangement without gland formation"
+  ],
+  "describe_en": "Immunohistochemical stain for GATA3 on the bone marrow core shows moderate-to-strong nuclear positivity in the majority of the infiltrating tumor cells, with no cytoplasmic staining. Smaller interspersed background cells are negative. GATA3 is a lineage-associated transcription factor expressed in breast and urothelial carcinomas, and together with the plasmacytoid discohesive morphology and cytoplasmic p120, the findings support metastatic breast (lobular) carcinoma. Note that GATA3 is also expressed by T cells, so lymphoid lineage must be excluded with other markers.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma cells are GATA3 negative and instead show CD138/MUM1 positivity with kappa or lambda restriction."},
+    {"dx": "Metastatic urothelial carcinoma", "vs": "Urothelial carcinoma is also GATA3 positive but is typically ER negative and positive for uroplakin, p63 and CK20 rather than ER/mammaglobin."},
+    {"dx": "Peripheral T-cell lymphoma (GATA3-positive subtype)", "vs": "PTCL expresses GATA3 but is CD3 positive and cytokeratin negative, with lymphoid rather than plasmacytoid epithelial cytology."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: GATA3",
+  "match": "consistent",
+  "high_yield": false
+}

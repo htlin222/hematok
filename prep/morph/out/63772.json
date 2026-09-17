@@ -1,0 +1,22 @@
+{
+  "id": "63772",
+  "recognize_zh": "這是 PET 的最大強度投影（MIP）影像，不是形態學：左頸部成串融合的高代謝淋巴結，加上縱膈、腋下/胸大肌下、腹部與骨盆腔多處圓形高代謝灶，以及軀幹骨的點狀病灶，呈廣泛多站淋巴結與骨髓侵犯分布。",
+  "features": [
+    "Coronal FDG PET maximum-intensity projection with arms raised",
+    "Chain of large, confluent hypermetabolic nodes along the left cervical region",
+    "Multiple hypermetabolic foci in bilateral axillary/subpectoral, mediastinal and retroperitoneal-abdominal regions",
+    "Scattered small foci projecting over ribs, spine and pelvis suggestive of skeletal/marrow involvement",
+    "Physiologic intense brain uptake and mild diffuse hepatic/splenic activity"
+  ],
+  "describe_en": "This is a non-morphologic radiology image, a coronal maximum-intensity projection from an FDG PET study. There are numerous hypermetabolic lesions, including a confluent chain of left cervical lymph nodes, bilateral axillary/subpectoral nodes, mediastinal nodes and extensive abdominal and pelvic nodal masses, with additional smaller foci projecting over the skeleton. Physiologic brain uptake is noted. The pattern indicates widespread FDG-avid nodal and probable marrow disease, which is nonspecific between disseminated granulomatous infection and lymphoma; in this case, biopsy showed granulomas with acid-fast bacilli consistent with tuberculosis.",
+  "ddx": [
+    {"dx": "Hodgkin or non-Hodgkin lymphoma", "vs": "PET distribution can be indistinguishable, so excisional nodal biopsy showing lymphoma cells rather than necrotizing granulomas with acid-fast bacilli is required."},
+    {"dx": "Sarcoidosis", "vs": "Sarcoidosis typically shows symmetric hilar-mediastinal uptake with non-necrotizing granulomas and negative mycobacterial studies."},
+    {"dx": "Metastatic carcinoma", "vs": "Metastatic disease usually has an identifiable FDG-avid primary, and biopsy shows keratin-positive epithelial cells."},
+    {"dx": "Histiocytic disorders (e.g. Rosai-Dorfman or Langerhans cell histiocytosis)", "vs": "These show characteristic S100/CD1a-positive histiocytes on biopsy rather than epithelioid granulomas with mycobacteria."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60834",
+  "recognize_zh": "A 圖組織被大片均質、鮭紅色的無結構物質取代，僅剩少數腺管或血管結構；B 圖偏光下呈蘋果綠／黃色雙折射，確認為類澱粉（amyloid）；C、D 圖顯示 IgM 陽性漿細胞樣細胞與大量 CD20 陽性 B 細胞，符合 Waldenström（淋巴漿細胞淋巴瘤）相關的類澱粉瘤。",
+  "features": [
+    "Extensive replacement of tissue by acellular, homogeneous, salmon-red amorphous deposits surrounding residual ductal/vascular structures (Congo red, panel A)",
+    "Apple-green to yellow birefringence of the deposits under polarized light (panel B)",
+    "IgM immunostain (panel C) showing diffuse background/cytoplasmic staining with numerous strongly positive plasmacytoid cells",
+    "CD20 immunostain (panel D) highlighting a dense infiltrate of B cells between adipocytes",
+    "Adipose-rich background with interstitial lymphoid infiltrate in panels C-D"
+  ],
+  "describe_en": "Sections show a mass-forming deposit of acellular, homogeneous amorphous material that effaces the tissue and surrounds residual tubular/vascular structures, staining salmon-red with Congo red and exhibiting apple-green/yellow birefringence under polarized light, confirming amyloid. An associated lymphoid infiltrate within adipose tissue is composed of numerous CD20-positive B cells, with IgM-positive plasmacytoid cells and IgM-rich background staining. Findings are consistent with a localized amyloid deposit (amyloidoma) associated with an IgM-producing lymphoplasmacytic lymphoma (Waldenström macroglobulinemia); light-chain restriction, mass spectrometry typing of the amyloid and MYD88 L265P testing are recommended.",
+  "ddx": [
+    {"dx": "AL amyloidosis due to plasma cell neoplasm", "vs": "Plasma cell myeloma-associated AL amyloid is accompanied by a CD138+/CD20-negative clonal plasma cell population with non-IgM heavy chain, whereas here a CD20+ B-cell infiltrate with IgM expression is present."},
+    {"dx": "Extranodal marginal zone lymphoma with amyloid", "vs": "MALT lymphoma can also deposit amyloid with IgM plasmacytic differentiation but shows marginal zone/monocytoid B cells and lymphoepithelial lesions and usually lacks MYD88 L265P."},
+    {"dx": "Hyalinized fibrosis/collagen", "vs": "Collagen is fibrillar, stains less orange with Congo red and lacks apple-green birefringence under polarized light."}
+  ],
+  "specimen": "tissue",
+  "stain": "Congo red (bright-field and polarized); IHC: IgM, CD20",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": ["A: Congo red with homogeneous salmon-red amyloid deposits; B: polarized Congo red with apple-green birefringence; C: IgM IHC with positive plasmacytoid cells; D: CD20 IHC with dense B-cell infiltrate"]
+}

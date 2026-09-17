@@ -1,0 +1,22 @@
+{
+  "id": "64683",
+  "recognize_zh": "肺泡灌洗液抹片中，巨噬細胞細胞質內充滿粗大、藍黑至藍綠色的顆粒（黑箭頭，含鐵血黃素），另有巨噬細胞吞入紅血球（白箭頭），提示肺泡出血。",
+  "features": [
+    "Clusters of alveolar macrophages with abundant foamy, vacuolated gray-blue cytoplasm",
+    "Coarse, refractile blue-black to blue-green cytoplasmic granules (hemosiderin) in several macrophages (black arrows)",
+    "Macrophage with ingested red cells/red cell fragments (erythrophagocytosis, white arrow)",
+    "Round eccentric nuclei of macrophages; scattered neutrophils and lymphocytes",
+    "Scattered free red cells in a clean background; no organisms or malignant cells seen"
+  ],
+  "describe_en": "Cytospin preparation of bronchoalveolar lavage fluid shows numerous alveolar macrophages, some forming small clusters, with scattered neutrophils and lymphocytes. Several macrophages contain coarse blue-black granular pigment consistent with hemosiderin (black arrows), and one macrophage contains ingested red blood cells (white arrow). No malignant cells or microorganisms are identified in these fields. Findings are consistent with alveolar hemorrhage, with both remote (hemosiderin-laden macrophages) and recent (erythrophagocytosis) components; a Prussian blue stain can confirm and quantify hemosiderin.",
+  "ddx": [
+    {"dx": "Anthracotic (carbon-laden) macrophages", "vs": "Carbon pigment is jet-black and non-refractile and is Prussian blue negative, whereas hemosiderin appears blue-green to golden and is iron positive."},
+    {"dx": "Procedure-related fresh blood", "vs": "Iatrogenic bleeding shows free red cells without hemosiderin, since hemosiderin takes about 48-72 hours to form."},
+    {"dx": "Fungal organisms (e.g., Aspergillus debris)", "vs": "Fungi show defined hyphae or yeast forms with walls on GMS/PAS rather than irregular coarse pigment granules."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "Erythrophagocytosis in BAL is a local response to hemorrhage, whereas HLH requires systemic criteria and marrow/organ hemophagocytosis of multiple lineages."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

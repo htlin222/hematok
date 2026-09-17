@@ -1,0 +1,22 @@
+{
+  "id": "15145",
+  "recognize_zh": "這是周邊血形態比較表：每一列列出一種脾臟相關淋巴瘤（HCL、SMZL、MCL、LPL、B-PLL、FL、T-LGL、HSTL）的文字特徵與兩張代表細胞，重點在比較毛狀突起分布、極性絨毛、核仁、核溝與顆粒等細節來區分。",
+  "features": [
+    "HCL: oval eccentric nuclei with reticular chromatin and abundant pale cytoplasm bearing fine, evenly distributed projections",
+    "SMZL: medium-sized lymphocytes with round nuclei and abundant pale cytoplasm showing thick polar villi",
+    "MCL: indented nuclei with condensed chromatin, plus larger blastoid cells with one or two nucleoli; LPL: plasmacytoid lymphocytes with basophilic cytoplasm",
+    "B-PLL: medium to large cells with a prominent vesicular nucleolus and regular nuclear outline",
+    "FL: small cells with markedly irregular contours and deep nuclear grooves ('buttock cells'); T-LGL: ample cytoplasm with azurophilic granules",
+    "HSTL: medium to large atypical lymphocytes with irregular nuclei, prominent nucleoli and sometimes scattered granules"
+  ],
+  "describe_en": "This is a comparative reference panel of peripheral blood smears (May-Grunwald-Giemsa, x630) showing two representative neoplastic cells for each of eight lymphomas that commonly involve the spleen, each paired with a text description. The panel shows hairy cells with circumferential fine projections (HCL), villous lymphocytes with thick polar villi (SMZL), and indented and blastoid cells (MCL). It also shows plasmacytoid lymphocytes (LPL), prolymphocytes with prominent vesicular nucleoli (B-PLL), cleaved 'buttock' cells (FL), granular lymphocytes (T-LGL) and atypical nucleolated cells (HSTL). The images are small, so fine details such as granules and villi are only partly resolved. The panel is best used to learn the morphologic clues that point toward a specific entity, with confirmation always requiring flow cytometry and genetic studies.",
+  "ddx": [
+    {"dx": "HCL vs SMZL", "vs": "HCL projections are fine and circumferential, while SMZL villi are short, thick and polar, and only HCL is CD103/CD25/CD123/annexin A1-positive."},
+    {"dx": "B-PLL (splenic B-cell leukemia with prominent nucleoli) vs blastoid MCL", "vs": "Both show nucleolated cells, but MCL is CD5+ with cyclin D1/t(11;14), which must be excluded before diagnosing prolymphocytic leukemia."},
+    {"dx": "T-LGL vs reactive large granular lymphocytes", "vs": "Morphology is identical, so clonality requires flow (CD57, KIR restriction), TCR rearrangement or STAT3 mutation."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grunwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

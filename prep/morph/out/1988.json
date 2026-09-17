@@ -1,0 +1,22 @@
+{
+  "id": "1988",
+  "recognize_zh": "低倍淋巴結：箭頭指出被膜下竇與中間竇被一片片淡粉紅色的大型細胞填滿，與周圍深藍色的殘存淋巴組織形成鮮明對比；這種竇內（sinusoidal）生長方式是 anaplastic 型 DLBCL 的特徵，也很像 ALCL 或轉移癌。",
+  "features": [
+    "Lymph node with thin capsule and residual dark blue lymphoid parenchyma",
+    "Pale eosinophilic sheets of large cells distending subcapsular and intermediate sinuses (arrows)",
+    "Cohesive-appearing sinusoidal aggregates mimicking metastatic carcinoma",
+    "Sharp demarcation between tumor-filled sinuses and small lymphocytes",
+    "Individual cytologic detail not resolved at this magnification"
+  ],
+  "describe_en": "Low-power H&E section of lymph node shows partial involvement by pale sheets of large cells that distend the subcapsular and intermediate sinuses (arrows), sharply demarcated from the residual small lymphocyte-rich parenchyma. The sinusoidal, cohesive-appearing growth pattern mimics metastatic carcinoma. Cytologic detail is not assessable at this magnification. In the context of a B-cell phenotype, findings are consistent with diffuse large B-cell lymphoma, anaplastic variant; immunohistochemistry (CD20, PAX5, CD30, ALK, keratin) is required to exclude ALCL and carcinoma.",
+  "ddx": [
+    {"dx": "ALK-positive or ALK-negative anaplastic large cell lymphoma", "vs": "ALCL shares sinusoidal growth and CD30 expression but is a T-cell neoplasm lacking CD20/PAX5, with hallmark cells and ALK or aberrant T-cell markers."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma in sinuses is keratin positive and CD45/CD20 negative, whereas lymphoma cells are CD45 and B-cell marker positive."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma may show pigment and is S100/SOX10 and melan-A positive and CD45 negative."},
+    {"dx": "Sinus histiocytosis", "vs": "Sinus histiocytes are bland with abundant pink cytoplasm and small oval nuclei, CD68/CD163 positive, without cytologic atypia or mitoses."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

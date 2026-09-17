@@ -1,0 +1,21 @@
+{
+  "id": "61451",
+  "recognize_zh": "PML/RARA 雙色雙融合（DC-DF）探針：左下細胞可見 1 個黃色融合訊號加 2 紅 2 綠（1F2R2G），右上細胞為 2 紅 2 綠的正常型態；只有一個融合點屬非典型型態，提示可能涉及第三條染色體的複雜轉位。",
+  "features": [
+    "Interphase FISH with PML (orange/red) and RARA (green) dual-color dual-fusion probe on DAPI-counterstained nuclei",
+    "Lower-left nucleus: one yellow fusion signal, two red, and two green signals (1F2R2G, atypical pattern)",
+    "Upper-right nucleus: two red and two green separate signals without fusion (2R2G, normal pattern)",
+    "Expected classic t(15;17) pattern with this probe is 2F1R1G, which is not seen here"
+  ],
+  "describe_en": "Interphase FISH using a PML/RARA dual-color dual-fusion probe shows two nuclei. One nucleus shows a single fusion signal together with two orange (PML) and two green (RARA) signals (1F2R2G), whereas the other shows a normal 2R2G pattern. The single-fusion pattern with retained extra signals departs from the classic reciprocal 2F1R1G pattern and suggests a variant or complex (three-way) rearrangement, or an insertion, involving PML and RARA. Correlation with karyotype, metaphase FISH, and PML-RARA RT-PCR is recommended.",
+  "ddx": [
+    {"dx": "Classic t(15;17)(q24;q21)", "vs": "Balanced reciprocal translocation gives two fusion signals with one red and one green (2F1R1G) in the dual-fusion system."},
+    {"dx": "Variant RARA partner (e.g., ZBTB16-RARA)", "vs": "No PML-RARA fusion is formed, so a RARA break-apart probe splits while the PML/RARA fusion probe shows no fusion."},
+    {"dx": "Cryptic PML-RARA insertion", "vs": "Small inserted fusion may produce one small fusion signal with otherwise normal counts, requiring RT-PCR confirmation."},
+    {"dx": "Random signal overlap (false fusion)", "vs": "Chance colocalization occurs in a low percentage of normal cells, so a cutoff established on normal controls is required."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: PML/RARA DC-DF probe, DAPI",
+  "match": "non-morphologic",
+  "high_yield": false
+}

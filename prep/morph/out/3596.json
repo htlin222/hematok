@@ -1,0 +1,22 @@
+{
+  "id": "3596",
+  "recognize_zh": "細胞核不規則折疊、染色質細緻，細胞質灰藍色且有許多大小不一的明顯空泡，這是單核球（帶空泡、可能是活化狀態）；背景有細小顆粒狀雜點，在這個倍率下無法確定是染劑沉澱還是細菌。",
+  "features": [
+    "Monocyte with irregularly folded, lobulated nucleus",
+    "Fine, lacy chromatin without nucleoli",
+    "Grey-blue cytoplasm with numerous clear vacuoles of variable size",
+    "Moderate N:C ratio; cell border slightly irregular",
+    "Background with fine rod-like and punctate particulate material (stain precipitate versus bacteria, not resolvable)"
+  ],
+  "describe_en": "Peripheral blood smear shows a monocyte with an irregularly folded nucleus, fine lacy chromatin, and grey-blue cytoplasm containing numerous clear vacuoles. The background contains fine punctate and short rod-like particles whose nature cannot be determined at this resolution; stain precipitate is most likely, but extracellular bacteria should be considered if clinically indicated. Prominent cytoplasmic vacuolization of monocytes may be seen in activated states, sepsis, or storage artifact. Findings are consistent with a vacuolated monocyte.",
+  "ddx": [
+    {"dx": "Toxic neutrophil with vacuoles", "vs": "Toxic neutrophils have segmented nuclei with clumped chromatin and pink cytoplasm with toxic granules."},
+    {"dx": "Histiocyte/macrophage", "vs": "Macrophages are larger with abundant cytoplasm and often phagocytosed debris, and are uncommon in peripheral blood."},
+    {"dx": "Storage artifact (EDTA delay)", "vs": "Delayed processing produces vacuolization in many leukocytes along with nuclear lobulation and pyknosis, so a fresh smear resolves it."},
+    {"dx": "Burkitt or FAB L3-type blasts", "vs": "Burkitt cells have deeply basophilic cytoplasm with sharply punched-out vacuoles and a round nucleus with nucleoli."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

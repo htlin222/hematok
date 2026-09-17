@@ -1,0 +1,20 @@
+{
+  "id": "62590",
+  "recognize_zh": "Ki67 免疫染色：腫瘤性濾泡內大部分細胞核呈陽性（估計約六至七成），強弱不一，周邊少數小淋巴球陰性；增殖指數高，與高級別（3a 級）濾泡性淋巴瘤中心母細胞多的狀況一致，且沒有反應性生發中心的明暗區極性分布。",
+  "features": [
+    "High Ki67 nuclear labeling in roughly 60-70% of neoplastic follicular cells",
+    "Variable nuclear staining intensity among positive cells",
+    "Evenly distributed proliferation without light/dark zone polarization",
+    "Negative small lymphocytes at the periphery of the follicle"
+  ],
+  "describe_en": "Immunohistochemical stain for Ki67 shows nuclear staining in a large proportion, approximately 60-70%, of the neoplastic follicular cells, with variable intensity. The proliferating cells are evenly distributed throughout the follicle without the polarized light and dark zone pattern of reactive germinal centers, and the small peripheral lymphocytes are negative. A high proliferation index correlates with the increased number of centroblasts seen on H&E. The findings are consistent with high-grade (grade 3a) follicular lymphoma; grading itself remains based on centroblast counts.",
+  "ddx": [
+    {"dx": "Reactive germinal center", "vs": "Reactive germinal centers have a very high Ki67 index as well but show polarization with the dark zone more proliferative than the light zone."},
+    {"dx": "Low-grade follicular lymphoma (grade 1-2)", "vs": "Low-grade FL typically shows a Ki67 index below 20-30% within neoplastic follicles."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma shows a diffuse pattern with Ki67 close to 100% and is BCL2 negative."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: Ki67",
+  "match": "consistent",
+  "high_yield": false
+}

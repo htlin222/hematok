@@ -1,0 +1,21 @@
+{
+  "id": "2791",
+  "recognize_zh": "同一種淋巴球聚集在這張免疫染色幾乎全為陰性，只有極少數零星棕色陽性細胞；抗體未標示，依標題推測是 B 細胞標記（如 CD20），代表 rituximab 後聚集內 B 細胞缺乏。",
+  "features": [
+    "Interstitial lymphoid aggregate of small cells, appearing more hypercellular than surrounding marrow",
+    "Aggregate essentially negative for the stain",
+    "Only rare scattered positive cells within and around the aggregate",
+    "Surrounding hematopoietic marrow negative with hematoxylin counterstain",
+    "Fat spaces and trabecular edge at the periphery"
+  ],
+  "describe_en": "Immunohistochemical stain of a bone marrow core biopsy shows an interstitial lymphoid aggregate that is essentially negative, with only rare scattered positive cells. The surrounding marrow is negative. The antibody is not labeled; if this is a B-cell marker such as CD20, the aggregate lacks B cells. Because rituximab may cause loss of CD20 expression by residual neoplastic B cells, a negative CD20 stain should be complemented by PAX5 or CD79a before concluding that the aggregate represents reactive T-cell hyperplasia.",
+  "ddx": [
+    {"dx": "Residual CD20-negative B-cell lymphoma after rituximab", "vs": "Residual lymphoma loses CD20 but remains PAX5/CD79a/CD19-positive and light-chain restricted."},
+    {"dx": "T-cell lymphoma", "vs": "A CD20-negative aggregate composed of atypical T cells with aberrant antigen loss and TCR clonality would indicate T-cell lymphoma rather than reactive hyperplasia."},
+    {"dx": "Plasma cell or myeloid aggregate", "vs": "CD138/MUM1 or MPO/CD117 staining identifies non-lymphoid aggregates that would also be CD20-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: likely CD20 (antibody not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

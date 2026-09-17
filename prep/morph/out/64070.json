@@ -1,0 +1,21 @@
+{
+  "id": "64070",
+  "recognize_zh": "這是正常周邊血抹片：紅血球大小一致、有中央淡染區；黃色箭頭為 3–5 葉分葉核的嗜中性球，綠色箭頭細胞質塞滿深紫色粗顆粒、遮蔽細胞核的是嗜鹼性球，紫色箭頭為細胞質灰藍、核形不規則的單核球，血小板數量正常。",
+  "features": [
+    "Normocytic, normochromic red cells with central pallor and minimal anisopoikilocytosis",
+    "Segmented neutrophils (yellow arrows) with 3–5 nuclear lobes and pale pink finely granular cytoplasm",
+    "Basophil (green arrow) with coarse dark purple granules overlying and obscuring the nucleus",
+    "Monocyte (purple arrow) with irregular folded nucleus and grey-blue cytoplasm with an irregular border",
+    "Adequate scattered single platelets without clumping; no immature or atypical cells"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic, normochromic red cells with preserved central pallor and no significant poikilocytosis. The white cells shown include mature segmented neutrophils without toxic change or hypersegmentation, a basophil with coarse dark purple granules obscuring the nucleus, and a monocyte with a folded nucleus and grey-blue cytoplasm. Platelets appear adequate in number and morphology. No blasts, nucleated red cells or inclusions are identified. Findings are consistent with a normal peripheral blood smear.",
+  "ddx": [
+    {"dx": "Eosinophil (vs basophil)", "vs": "Eosinophils have a bilobed nucleus that remains visible beneath uniform refractile orange-red granules, whereas basophil granules are dark purple-black and obscure the nucleus."},
+    {"dx": "Neutrophil with toxic granulation (vs basophil)", "vs": "Toxic granules are fine, dark and evenly distributed over pale cytoplasm with a clearly visible segmented nucleus, not coarse granules masking the nucleus."},
+    {"dx": "Reactive lymphocyte (vs monocyte)", "vs": "Reactive lymphocytes have deeply basophilic cytoplasm that scallops around red cells and a round nucleus, whereas monocytes have folded nuclei, lacy chromatin and grey-blue vacuolated cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

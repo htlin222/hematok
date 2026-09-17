@@ -1,0 +1,22 @@
+{
+  "id": "24573",
+  "recognize_zh": "腦脊髓液細胞離心抹片中聚集一群大型異常單核細胞，核呈折疊、腎形或分葉狀，染色質細緻、可見核仁，細胞質灰藍並帶細小嗜天青顆粒，呈現骨髓單核球性芽細胞的特徵，符合 AML（急性骨髓單核球性白血病）於 CSF 復發。",
+  "features": [
+    "Cluster of large atypical mononuclear cells with moderate to high N:C ratio",
+    "Nuclei folded, indented, reniform or lobulated (monocytoid)",
+    "Fine, open chromatin with visible nucleoli",
+    "Moderate gray-blue cytoplasm containing fine azurophilic granules in several cells",
+    "No Auer rods identified; clean proteinaceous background without inflammatory cells"
+  ],
+  "describe_en": "Cytocentrifuged cerebrospinal fluid shows a cellular specimen composed of a cluster of large atypical mononuclear cells. The cells have folded to lobulated monocytoid nuclei with fine chromatin and distinct nucleoli, and moderate gray-blue cytoplasm containing fine azurophilic granules. Mature lymphocytes and neutrophils are not a notable component, and Auer rods are not identified. Findings are consistent with central nervous system involvement by acute myeloid leukemia with myelomonocytic/monocytic differentiation; flow cytometry of the fluid is recommended for confirmation.",
+  "ddx": [
+    {"dx": "Reactive monocytes/macrophages in CSF", "vs": "Reactive monocytes are fewer, have condensed chromatin without nucleoli and often vacuolated cytoplasm, rather than a cohesive population of immature cells with nucleoli."},
+    {"dx": "Traumatic tap with peripheral blood contamination", "vs": "Contamination brings red cells and a mixed PB leukocyte population, not a monomorphous population of blasts."},
+    {"dx": "CNS involvement by lymphoma or ALL", "vs": "Lymphoblasts or lymphoma cells lack azurophilic granules and monocytoid folded nuclei and show lymphoid immunophenotype by flow cytometry."},
+    {"dx": "Metastatic carcinoma in CSF", "vs": "Carcinoma cells form cohesive clusters with larger size, vacuolated cytoplasm and molding, and are keratin-positive rather than myelomonocytic."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

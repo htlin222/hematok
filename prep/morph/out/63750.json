@@ -1,0 +1,23 @@
+{
+  "id": "63750",
+  "recognize_zh": "骨髓切片 H&E（A）見成片、胞質豐富嗜酸性的大型組織球樣細胞混有小淋巴球；免疫染色這些細胞 S-100（B）胞質與核強陽性、CD1a（C）膜／胞質陽性、CD68（D）顆粒狀陽性，S-100 與 CD1a 共同陽性即指向蘭格漢斯細胞組織球增生症（LCH）。",
+  "features": [
+    "H&E: sheets of large histiocytoid cells with abundant pale eosinophilic cytoplasm and oval nuclei, admixed with small lymphocytes (A)",
+    "Distorted marrow architecture with background fibrosis/stromal change",
+    "S-100: strong cytoplasmic and nuclear staining of the large histiocytoid cells (B)",
+    "CD1a: membranous/cytoplasmic positivity in scattered to clustered large cells (C)",
+    "CD68: coarse granular cytoplasmic positivity in histiocytes (D)",
+    "Nuclear grooves and eosinophils are not clearly resolved at this magnification"
+  ],
+  "describe_en": "Bone marrow trephine biopsy shows areas of distorted architecture with increased fibrosis and aggregates of large histiocytoid cells with abundant eosinophilic cytoplasm and oval nuclei, admixed with small lymphocytes (A). Immunohistochemistry shows the lesional cells to be positive for S-100 with nuclear and cytoplasmic staining (B) and CD1a (C), with granular CD68 positivity in histiocytes (D). Characteristic grooved nuclei and eosinophils cannot be confidently assessed at this magnification. In a child with lytic bone lesions, the S-100 and CD1a co-expression supports marrow involvement by Langerhans cell histiocytosis; CD207 (langerin) and BRAF V600E studies would further confirm.",
+  "ddx": [
+    {"dx": "Rosai-Dorfman disease", "vs": "RDD histiocytes are S-100 positive with emperipolesis but CD1a and CD207 negative."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH macrophages are CD68/CD163 positive but S-100 and CD1a negative, with hemophagocytosis rather than sheets of Langerhans cells."},
+    {"dx": "Erdheim-Chester disease / juvenile xanthogranuloma", "vs": "These foamy histiocytes are CD68/CD163 and factor XIIIa positive but CD1a negative and usually S-100 negative."},
+    {"dx": "Metastatic neuroblastoma", "vs": "Neuroblastoma in a child's marrow forms small round blue cell clusters with neuropil that are PHOX2B/synaptophysin positive, not large CD1a+ histiocytes."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: S-100, CD1a, CD68",
+  "match": "consistent",
+  "high_yield": true
+}

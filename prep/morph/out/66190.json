@@ -1,0 +1,35 @@
+{
+	"id": "66190",
+	"recognize_zh": "A 圖骨髓抹片中的芽細胞胞質淡藍、有核旁淡染區，可見橘粉紅色胞質小球（紅三角）、大型粉紅顆粒（假契東二氏顆粒，pseudo–Chédiak-Higashi）、單一細長 Auer 小體與小核（micronuclei）；搭配 C 圖 P53 強陽性與 D 圖 Circos 圖上多條染色體重排，指向 TP53 突變的 AML。",
+	"features": [
+		"Sheets of medium-to-large blasts with fine chromatin, irregular nuclear contours and moderate pale-to-deep blue cytoplasm with paranuclear hof",
+		"Salmon/orange-pink cytoplasmic globules at the cell periphery (red triangles)",
+		"Large round pink-violet pseudo-Chédiak-Higashi granules filling part of the cytoplasm (right panel A)",
+		"Single thin Auer rod (thin black arrow) and small detached nuclear fragments/micronuclei (thick arrows)",
+		"Biopsy (C): diffuse sheets of blasts on H&E; CMYC and P53 show strong diffuse nuclear staining in most cells",
+		"Flow (B): CD34-negative, CD117-positive, HLA-DR-negative blast population; Circos plot (D) shows complex rearrangements with chromothripsis of chromosome 4"
+	],
+	"describe_en": "Composite figure. Bone marrow aspirate smears (A, May-Grünwald-Giemsa) show sheets of blasts with moderately basophilic cytoplasm, paranuclear hofs, peripheral salmon-colored cytoplasmic globules, large pseudo-Chédiak-Higashi granules, a single thin Auer rod, and micronuclei; background multilineage dysplasia is described. Flow cytometry (B) shows blasts that are CD34-negative, HLA-DR-negative and CD117-positive. The core biopsy (C, H&E) shows diffuse sheets of blasts, which are strongly and diffusely positive for P53 and CMYC by immunohistochemistry (insets). Optical genome mapping Circos plot (D) shows a complex genome with multiple interchromosomal rearrangements. Findings are consistent with acute myeloid leukemia with mutated TP53 and complex karyotype; PML::RARA was negative by FISH.",
+	"ddx": [
+		{
+			"dx": "AML with RUNX1::RUNX1T1",
+			"vs": "t(8;21) AML shares salmon globules, pseudo-Chédiak-Higashi granules and single slender Auer rods but typically has CD34+/CD19+ blasts, maturing granulocytes and no strong diffuse P53 overexpression or complex karyotype."
+		},
+		{
+			"dx": "Acute promyelocytic leukemia (hypogranular)",
+			"vs": "APL can be CD34-/HLA-DR- but shows bilobed nuclei, bundles of Auer rods and PML::RARA, which was negative here."
+		},
+		{
+			"dx": "AML, myelodysplasia-related without TP53 mutation",
+			"vs": "Morphology overlaps; distinction requires sequencing for TP53 (strong diffuse P53 IHC is a surrogate) and cytogenetics."
+		},
+		{
+			"dx": "Pure erythroid leukemia",
+			"vs": "Erythroid blasts have deeply basophilic vacuolated cytoplasm, lack Auer rods and are CD117+/E-cadherin+/CD71+ but MPO-negative, whereas these blasts are cMPO+ with CD13/CD33."
+		}
+	],
+	"specimen": "BM aspirate",
+	"stain": "May-Grünwald-Giemsa; H&E; IHC: P53, CMYC",
+	"match": "consistent",
+	"high_yield": false
+}

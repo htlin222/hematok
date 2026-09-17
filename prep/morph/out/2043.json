@@ -1,0 +1,22 @@
+{
+  "id": "2043",
+  "recognize_zh": "多顆大型細胞的核被粗大紫色顆粒覆蓋，數顆呈雙葉或腎形核；中下方一顆細胞質充滿成束的棒狀物（疑似 Auer rods 堆積），左上一顆則有粗顆粒延伸到細胞邊緣，符合顆粒過多型 APL。",
+  "features": [
+    "Large cells with abundant cytoplasm and coarse azurophilic granules overlying the nucleus",
+    "Reniform to bilobed nuclei in several cells",
+    "One central cell shows coarse rod-like/streaky cytoplasmic inclusions suggestive of numerous Auer rods (faggot-like cell)",
+    "Granules extend into irregular cytoplasmic projections in some cells",
+    "Monotonous population without maturing granulocytes in field",
+    "Background red cells with drying artifact"
+  ],
+  "describe_en": "Smear shows a population of large abnormal cells with abundant cytoplasm containing dense coarse azurophilic granules that overlie and obscure the nucleus. Nuclei are reniform to bilobed. One cell in the lower center contains coarse streaky inclusions suggestive of multiple Auer rods (faggot cell), although individual rods are not sharply resolved at this magnification. Maturing granulocytes are not seen in this field. Findings are consistent with hypergranular acute promyelocytic leukemia.",
+  "ddx": [
+    {"dx": "AML with t(8;21)", "vs": "t(8;21) blasts typically carry a single long Auer rod with a prominent hof, whereas multiple bundled Auer rods (faggot cells) and granule-obscured bilobed nuclei point to APL."},
+    {"dx": "Reactive promyelocytes (G-CSF or recovery)", "vs": "Reactive promyelocytes have round nuclei with a clear hof, lack Auer rods, and occur with normal maturation to neutrophils."},
+    {"dx": "APL-like morphology with RARA-variant or non-RARA fusion", "vs": "Morphology cannot separate PML::RARA from variant partners such as ZBTB16::RARA; FISH/RT-PCR is required because variants may be ATRA-resistant."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

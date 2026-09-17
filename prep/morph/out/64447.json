@@ -1,0 +1,22 @@
+{
+  "id": "64447",
+  "recognize_zh": "網狀紅血球計數用的超活體染色（brilliant cresyl blue）抹片中，紅血球內幾乎看不到藍色網狀沉澱（網狀紅血球極少），反而有許多圓形、均勻染成淺藍色的有核大細胞，即富含核糖核蛋白的白血病母細胞。",
+  "features": [
+    "Numerous round nucleated cells larger than red cells, diffusely stained pale to medium blue",
+    "Blue staining is homogeneous and finely granular across the cell, reflecting abundant ribonucleoprotein; nuclear detail not resolved",
+    "Red cells unstained with virtually no reticulocytes (no blue reticular or granular precipitate in erythrocytes)",
+    "Many red cells show crenation (echinocytic artifact) typical of supravital wet preparations",
+    "Linear scratch/fiber artifacts across the slide"
+  ],
+  "describe_en": "Supravital brilliant cresyl blue preparation performed for reticulocyte enumeration shows virtually no reticulocytes, with red cells lacking reticular precipitate and displaying crenation artifact. Numerous large, round nucleated cells stain diffusely blue owing to their abundant ribonucleoprotein content, corresponding to circulating blasts. Morphologic detail of nuclei and cytoplasm cannot be assessed with this stain, and the cells should not be counted as reticulocytes. Findings are consistent with circulating leukemic blasts in acute myeloid leukemia, with markedly reduced reticulocyte production; blast lineage requires Romanowsky morphology and flow cytometry.",
+  "ddx": [
+    {"dx": "Reticulocytosis", "vs": "Reticulocytes are anucleate red-cell-sized cells with a blue precipitated reticular network, not large cells with diffuse homogeneous blue staining."},
+    {"dx": "Heinz bodies (supravital stain)", "vs": "Heinz bodies appear as one or several small, dark peripheral membrane-attached inclusions within red cells rather than whole-cell blue staining of nucleated cells."},
+    {"dx": "HbH inclusions", "vs": "HbH inclusions form fine, evenly distributed 'golf ball' dots throughout red cells after prolonged incubation, not staining of large nucleated cells."},
+    {"dx": "Lymphocytes or other normal leukocytes", "vs": "Mature leukocytes also take up supravital dye but are usually fewer and smaller; distinguishing blasts from lymphocytes requires a Wright-Giemsa smear."}
+  ],
+  "specimen": "PB",
+  "stain": "Brilliant cresyl blue (supravital)",
+  "match": "consistent",
+  "high_yield": false
+}

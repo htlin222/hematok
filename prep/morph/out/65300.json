@@ -1,0 +1,22 @@
+{
+  "id": "65300",
+  "recognize_zh": "淋巴球大小不一，許多細胞質豐富、核有深切跡或摺疊（cleaved/indented），左上與下方有 smudge cell，整體偏向 CLL 伴 trisomy 12 的非典型形態，而非小而圓核、染色質呈塊狀的典型 CLL。",
+  "features": [
+    "Numerous small-to-medium lymphocytes with heterogeneous size",
+    "Moderate to abundant pale cytoplasm in many cells",
+    "Deeply indented, folded and cleaved nuclear contours",
+    "Moderately condensed chromatin; nucleoli generally inconspicuous",
+    "Smudge cells present (upper left and lower right)",
+    "Occasional granulocyte with fine cytoplasmic granules for comparison"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked lymphocytosis with cells of varying size. Many lymphocytes have moderate to abundant pale cytoplasm and irregular, deeply indented or cleaved nuclei with moderately condensed chromatin, and smudge cells are present. Large cells with prominent central nucleoli are not conspicuous. These features represent atypical CLL morphology associated with trisomy 12; immunophenotyping and FISH (CCND1 break-apart or t(11;14)) are advised to exclude mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "Cleaved nuclei raise MCL, which is excluded by CD23 positivity and absence of cyclin D1/SOX11 expression and t(11;14)."},
+    {"dx": "Follicular lymphoma, leukemic phase", "vs": "FL cells are small with sharply cleft ('buttock') nuclei and scant cytoplasm and are CD10-positive, CD5-negative."},
+    {"dx": "Sezary syndrome / T-cell leukemia", "vs": "Sezary cells have cerebriform nuclear folding and a CD4-positive T-cell phenotype rather than a CD5+/CD23+ B-cell phenotype."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

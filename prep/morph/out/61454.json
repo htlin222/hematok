@@ -1,0 +1,20 @@
+{
+  "id": "61454",
+  "recognize_zh": "CEN 12 橘色著絲點探針間期 FISH：中央細胞有 3 個橘色訊號（三體 12），上下兩顆細胞各為 2 個訊號（正常）；三體 12 是慢性淋巴球性白血病（CLL）常見、屬中等風險的異常。",
+  "features": [
+    "Interphase FISH with a chromosome 12 centromeric probe (spectrum orange) on DAPI-counterstained nuclei",
+    "Central nucleus shows three discrete orange signals - trisomy 12",
+    "Upper-right and lower-left nuclei each show two signals (normal disomy); a split/satellite signal in the upper nucleus should not be counted separately",
+    "Signals are well separated and bright with low background"
+  ],
+  "describe_en": "Interphase FISH using a centromeric chromosome 12 (CEP12) probe shows three nuclei. The central nucleus contains three orange signals consistent with trisomy 12, whereas the other two nuclei contain two signals, reflecting a normal disomic pattern. A closely adjacent doublet in one nucleus represents a split signal and is scored as one. Trisomy 12 in a proportion of cells above the laboratory cutoff is consistent with a clonal abnormality in CLL, conferring intermediate prognostic risk; it is often associated with atypical morphology, CD38 expression and NOTCH1 mutation.",
+  "ddx": [
+    {"dx": "Tetraploidy/cell doublet", "vs": "Polyploidy doubles all probe signals (including control loci), and overlapping cells give two nuclear outlines rather than three signals in one nucleus."},
+    {"dx": "Split centromeric signal", "vs": "A split signal appears as two tiny adjacent dots within one signal diameter and is scored as a single copy."},
+    {"dx": "del(13q14) or del(11q)/del(17p) CLL", "vs": "These require locus-specific probes (13q14, ATM, TP53) and show signal loss rather than an extra centromeric signal."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: CEP12 (spectrum orange), DAPI",
+  "match": "non-morphologic",
+  "high_yield": false
+}

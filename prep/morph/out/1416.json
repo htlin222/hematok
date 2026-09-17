@@ -1,0 +1,21 @@
+{
+  "id": "1416",
+  "recognize_zh": "這是流式細胞儀散布圖：A 圖圈選 CD38 強陽性的漿細胞群，B 圖這群細胞表現 λ（事件落在右上象限），C 圖則為 κ 陰性（事件在左上象限），顯示 λ 輕鏈限制性單株漿細胞。",
+  "features": [
+    "Panel A: forward scatter versus CD38-PC5 with a gate drawn around the CD38-bright population",
+    "Panel B: gated CD38-bright cells are lambda-FITC positive (upper right quadrant)",
+    "Panel C: gated CD38-bright cells are kappa-FITC negative (upper left quadrant)",
+    "Light chain restriction to lambda within the plasma cell gate",
+    "Low image resolution; quadrant percentages are not legible"
+  ],
+  "describe_en": "Flow cytometric analysis is shown. In panel A, a CD38-bright population is gated on forward scatter versus CD38. In panel B, the gated cells fall into the upper right quadrant, indicating lambda light chain expression, whereas in panel C they fall into the upper left quadrant, indicating absence of kappa expression. Findings demonstrate a lambda-restricted plasma cell population, consistent with a clonal plasma cell neoplasm; the quadrant percentages cannot be read at this resolution, and typically light chain staining is intracytoplasmic for plasma cells.",
+  "ddx": [
+    {"dx": "Polytypic reactive plasma cells", "vs": "Reactive plasma cells split between kappa and lambda quadrants (roughly 2:1 kappa:lambda), whereas this population is exclusively lambda."},
+    {"dx": "Lambda-restricted B-cell lymphoma with plasmacytic differentiation", "vs": "Lymphoma shows an accompanying CD19+/CD20+ surface light chain restricted B-cell population, whereas myeloma cells are typically CD19-/CD45-/CD56+."},
+    {"dx": "Nonspecific binding artifact", "vs": "Nonspecific binding labels both kappa and lambda channels, whereas here the population is positive only for lambda."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A (flow: CD38, kappa, lambda)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

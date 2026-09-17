@@ -1,0 +1,22 @@
+{
+  "id": "2610",
+  "recognize_zh": "骨髓切片中可見數個大型紅血球前驅細胞，細胞核內有淡染、玻璃樣的病毒包涵體，染色質被推擠到核膜邊緣形成一圈深色環（lantern cell），是微小病毒 B19 感染的特徵。",
+  "features": [
+    "Scattered giant pronormoblasts with large round nuclei",
+    "Glassy, pale eosinophilic to clear intranuclear inclusions",
+    "Chromatin marginated against the nuclear membrane, forming a dark rim",
+    "Adjacent clusters of immature erythroid precursors with round nuclei and open chromatin",
+    "Background of maturing granulocytes, eosinophils and fat spaces in a cellular marrow"
+  ],
+  "describe_en": "Bone marrow core biopsy section shows cellular marrow with a mixed population of myeloid and erythroid elements. Scattered large erythroid precursors contain glassy, pale intranuclear inclusions that push the chromatin to the periphery of the nucleus, producing a dark rim around a cleared center. Clusters of early erythroid precursors are present, while late normoblasts are not conspicuous in this field. Findings are consistent with parvovirus B19 infection of erythroid progenitors; confirmation by B19 immunohistochemistry or PCR is recommended.",
+  "ddx": [
+    {"dx": "CMV infection", "vs": "CMV inclusions are large, dark owl-eye intranuclear inclusions with a halo, often with granular cytoplasmic inclusions, and involve endothelial or stromal cells rather than being confined to erythroid precursors."},
+    {"dx": "Acute erythroid leukemia (pure erythroid leukemia)", "vs": "Pure erythroid leukemia shows sheets of monotonous proerythroblasts without viral inclusions and with an erythroid predominance, whereas here the precursors are scattered with glassy inclusions and marginated chromatin."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic precursors show open, sieve-like chromatin with nuclear-cytoplasmic asynchrony across all maturation stages and giant metamyelocytes, not glassy intranuclear inclusions."},
+    {"dx": "Herpes simplex/VZV infection", "vs": "HSV/VZV cause multinucleation with nuclear molding and ground-glass chromatin, usually with necrosis, rather than isolated giant erythroid precursors."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

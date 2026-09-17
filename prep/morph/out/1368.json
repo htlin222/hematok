@@ -1,0 +1,21 @@
+{
+  "id": "1368",
+  "recognize_zh": "周邊血液抹片整個視野幾乎看不到正常大小的血小板，中央只有一顆接近紅血球大小、紫色顆粒狀的巨大血小板（giant platelet），紅血球與白血球型態正常；血小板稀少但體積大，是 ITP 周邊破壞、骨髓代償的血片表現。",
+  "features": [
+    "Marked paucity of platelets across the field",
+    "One large platelet near the center, approaching red cell size, with purple granular cytoplasm and no nucleus",
+    "Red cells normocytic and normochromic without schistocytes or spherocytes",
+    "No platelet clumps visible",
+    "No abnormal white cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked thrombocytopenia with only a single large (giant) platelet, approaching the size of a red cell, in this field. Red cells are normocytic and normochromic without schistocytes, and no platelet clumps are identified. White cells are not represented in this field. Findings of isolated thrombocytopenia with large platelets are consistent with increased platelet turnover, as seen in immune thrombocytopenia, which remains a diagnosis of exclusion.",
+  "ddx": [
+    {"dx": "Inherited macrothrombocytopenia (e.g., MYH9-related disorder, Bernard-Soulier)", "vs": "Most platelets are uniformly giant, often with Döhle-like neutrophil inclusions in MYH9 disease, and there is lifelong history without response to ITP therapy."},
+    {"dx": "Thrombotic microangiopathy (TTP/HUS)", "vs": "Thrombocytopenia is accompanied by schistocytes and hemolysis, which are absent here."},
+    {"dx": "EDTA-induced pseudothrombocytopenia", "vs": "Platelet clumps or satellitism are visible at the feathered edge and the count normalizes in citrate."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

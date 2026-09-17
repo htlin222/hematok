@@ -1,0 +1,22 @@
+{
+  "id": "1229",
+  "recognize_zh": "骨髓抹片中央有一顆遠大於周圍顆粒球系細胞的大型腫瘤細胞，細胞質灰藍且布滿大小不一的透明空泡，核大、染色質粗糙並有核仁，旁邊是正常造血細胞，符合 ALCL 浸潤骨髓。",
+  "features": [
+    "Single very large atypical cell, several times the size of surrounding granulocytic precursors",
+    "Abundant grey-blue cytoplasm filled with numerous clear vacuoles of variable size",
+    "Large, slightly irregular nucleus with coarsely granular chromatin and a distinct nucleolus",
+    "Moderate N:C ratio; no cytoplasmic granules or engulfed cells",
+    "Background of maturing neutrophils (bands, metamyelocytes), myelocytes and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows maturing granulocytic and erythroid elements with an admixed markedly enlarged atypical cell. The cell has abundant grey-blue cytoplasm with numerous clear vacuoles and a large, irregular nucleus with coarse chromatin and a visible nucleolus. There is no evidence of phagocytosed cells to suggest a histiocyte. Because such cells may be sparse in marrow involvement, CD30 and ALK immunohistochemistry on the biopsy is recommended. Findings are consistent with marrow involvement by anaplastic large cell lymphoma.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma or rhabdomyosarcoma", "vs": "Metastatic tumor cells typically form cohesive clusters and express keratin or myogenin/desmin, whereas ALCL cells are single and CD30+/ALK+."},
+    {"dx": "Activated histiocyte", "vs": "Histiocytes have a small oval nucleus with fine chromatin and often contain phagocytosed material, unlike this large nucleolated nucleus without ingested cells."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells are medium-sized and monotonous with deep blue vacuolated cytoplasm, while ALCL cells are much larger and pleomorphic."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin cells show very large inclusion-like nucleoli and lack cytoplasmic vacuoles, with CD15+/PAX5 weak and ALK-negative phenotype."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

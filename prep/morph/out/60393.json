@@ -1,0 +1,22 @@
+{
+  "id": "60393",
+  "recognize_zh": "這是臨床照片與 CT 合成圖：腹部皮膚有中央黑色壞死、周圍紅暈的病灶，右腳大拇趾紅腫；CT 冠狀切面可見肝、脾病灶（箭頭），胸部 CT 有兩側下肺實質化病灶，在嗜中性球低下的 AML 患者中，符合侵襲性黴菌（mucormycosis）播散。",
+  "features": [
+    "Panel A: abdominal skin plaque with central dark violaceous/black necrotic eschar and an erythematous halo",
+    "Panel B: erythema and swelling of the dorsal right great toe and first web space",
+    "Panel C: coronal contrast CT with arrows marking a subcapsular hepatic dome lesion and a heterogeneous splenic/left upper quadrant lesion",
+    "Panel D: axial chest CT (lung window) with a right lower lobe consolidation and a left lower lobe nodular opacity (arrows)",
+    "No microscopic morphology is shown; diagnosis rests on KOH/biopsy showing broad nonseptate hyphae"
+  ],
+  "describe_en": "This composite of clinical photographs and computed tomography images shows an abdominal skin lesion with a central black necrotic eschar surrounded by an erythematous halo (A) and erythema of the right great toe (B). Coronal abdominal CT demonstrates focal hepatic and splenic lesions (C, arrows), and axial chest CT shows bibasilar pulmonary consolidation/nodular opacities (D, arrows). The figure is non-morphologic; in a profoundly neutropenic patient with relapsed AML, necrotic skin lesions with multiorgan involvement should prompt tissue biopsy, and demonstration of broad, ribbon-like, pauci-septate hyphae with right-angle branching supports disseminated mucormycosis.",
+  "ddx": [
+    {"dx": "Disseminated invasive aspergillosis", "vs": "Aspergillus shows narrow, regularly septate hyphae with acute-angle (45 degree) dichotomous branching on biopsy, versus broad pauci-septate hyphae with right-angle branching in Mucorales."},
+    {"dx": "Ecthyma gangrenosum (Pseudomonas aeruginosa)", "vs": "Similar necrotic eschar in neutropenia, but tissue shows gram-negative bacilli in vessel walls without fungal hyphae, and blood cultures are usually positive."},
+    {"dx": "Disseminated fusariosis", "vs": "Fusarium often yields positive blood cultures and septate hyaline hyphae with adventitial forms, unlike the nonseptate hyphae of mucormycosis."},
+    {"dx": "Leukemia cutis", "vs": "Leukemic infiltrates form nodules or plaques without central necrotic eschar, and biopsy shows blasts rather than angioinvasive fungi."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

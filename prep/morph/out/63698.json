@@ -1,0 +1,22 @@
+{
+  "id": "63698",
+  "recognize_zh": "血片以小型、核圓且染色質緻密的淋巴球為主；其中一顆較大的淋巴球核呈卵圓形，細胞質向兩端拉成細長尾巴（紡錘形），另有細胞可見單側小突起；背景紅血球皺縮成棘狀。",
+  "features": [
+    "Predominance of small lymphoid cells with round nuclei, condensed chromatin, and scant cytoplasm",
+    "One larger lymphoid cell with an oval nucleus and bipolar, long tapering cytoplasmic extensions (fusiform)",
+    "Occasional cells with a short unipolar cytoplasmic projection",
+    "Nucleoli not discernible at this resolution; no cytoplasmic granules",
+    "Diffusely crenated (echinocytic) red cells, likely artifact; few platelets"
+  ],
+  "describe_en": "Peripheral blood smear (Leishman) shows increased small lymphoid cells with round nuclei, condensed chromatin, and scant cytoplasm. One larger lymphoid cell has an oval nucleus with bipolar attenuated cytoplasmic tails giving a fusiform shape, and occasional cells show a short polar cytoplasmic projection; distinct villous projections and a clearly giant cell are not well demonstrated in this image. Red cells show diffuse crenation, likely artifactual. In the setting of massive splenomegaly, the findings are compatible with circulating splenic marginal zone lymphoma cells, but fusiform stretching can be produced by smearing and the image alone is not diagnostic; flow cytometry and splenic or marrow histology are required.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells have abundant pale cytoplasm with circumferential fine projections and are CD25/CD103/CD123/annexin A1 positive, unlike the polar projections and CD103-negative profile of SMZL."},
+    {"dx": "Smear-artifact stretched lymphocytes", "vs": "Artifactual spindling affects lymphocytes in thick, dragged areas regardless of lineage, whereas true villous cells show short polar villi on well-spread cells."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are small and round with block-like clumped chromatin and frequent smudge cells, and are CD5/CD23 positive by flow."},
+    {"dx": "Large-cell transformation", "vs": "Transformed cells are distinctly larger with open chromatin and prominent nucleoli, which are not appreciable here."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "partial",
+  "high_yield": false
+}

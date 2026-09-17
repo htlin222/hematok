@@ -1,0 +1,22 @@
+{
+  "id": "63710",
+  "recognize_zh": "四格免疫染色中，真皮內瀰漫浸潤的細胞 LCA（CD45）呈淡陽性、lysozyme 強陽性、CD33 呈強的膜／細胞質陽性、CD68 陽性，證明浸潤細胞屬造血系統且具骨髓單核球分化，支持骨髓性肉瘤。",
+  "features": [
+    "Panel A: diffuse, weak to moderate LCA (CD45) staining of the dermal infiltrate",
+    "Panel B: strong, diffuse cytoplasmic lysozyme positivity in the neoplastic cells",
+    "Panel C: strong membranous/cytoplasmic CD33 positivity throughout the infiltrate",
+    "Panel D: moderate granular cytoplasmic CD68 positivity",
+    "Infiltrate dissects between pale unstained dermal collagen bundles in all panels"
+  ],
+  "describe_en": "Immunohistochemical stains performed on the skin punch biopsy show that the diffuse dermal infiltrate is positive for LCA (CD45, relatively weak), lysozyme (strong and diffuse), CD33 (strong, membranous and cytoplasmic) and CD68 (moderate, granular cytoplasmic). The staining is diffuse throughout the tumor cells that dissect between unstained collagen bundles. This profile establishes hematolymphoid origin with myelomonocytic differentiation. In the context of the H&E morphology, findings are consistent with myeloid sarcoma with monocytic features.",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is CD4, CD56, CD123 and TCL1 positive but typically lysozyme-negative and lacks strong CD33/CD68 myelomonocytic staining."},
+    {"dx": "Cutaneous lymphoma", "vs": "Lymphomas are CD45 positive but lack lysozyme and CD33 and instead express B- or T-cell lineage markers."},
+    {"dx": "Reactive histiocytic infiltrate", "vs": "Reactive histiocytes are CD68 and CD163 positive but lack cytologic atypia, CD33 sheets and the destructive diffuse growth of neoplastic cells."},
+    {"dx": "Undifferentiated carcinoma or melanoma", "vs": "Non-hematopoietic tumors are negative for LCA and myeloid markers and express keratins or S100/SOX10."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD45 (LCA), lysozyme, CD33, CD68",
+  "match": "consistent",
+  "high_yield": false
+}

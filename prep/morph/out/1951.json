@@ -1,0 +1,21 @@
+{
+  "id": "1951",
+  "recognize_zh": "淋巴結中央一個邊界模糊的淡染區，內含胞質嗜酸性、核圓至卵圓且淡染的類上皮樣細胞及小血管，周圍被密集的小淋巴球包圍；右上角為被膜。此淡染區可能為退化濾泡中增生的濾泡樹突細胞或透明細胞群，需免疫染色確認。",
+  "features": [
+    "Central ill-defined pale-staining zone composed of cells with ovoid vesicular nuclei and moderate eosinophilic cytoplasm",
+    "Small vessels with plump endothelial cells within and around the pale zone",
+    "Scattered small lymphocytes infiltrating the pale zone",
+    "Dense surrounding sheet of small, dark lymphocytes",
+    "Capsule/perinodal tissue at the upper right"
+  ],
+  "describe_en": "Lymph node section shows an ill-defined pale-staining zone composed of cells with ovoid vesicular nuclei and moderate eosinophilic cytoplasm, admixed with small vessels and scattered small lymphocytes, and surrounded by a dense population of small lymphocytes. The capsule is present at the upper right. The pale cells may represent a follicular dendritic cell proliferation within a regressed follicle, clusters of clear neoplastic T cells, or epithelioid histiocytes; this cannot be resolved on H&E alone. In context, findings are consistent with angioimmunoblastic T-cell lymphoma, and CD21/CD23, PD-1/CXCL13 and CD68 immunostains are recommended to characterize the pale zone.",
+  "ddx": [
+    {"dx": "Epithelioid granuloma (e.g., sarcoidosis, mycobacterial infection)", "vs": "Granulomas are well circumscribed collections of CD68-positive epithelioid histiocytes, often with giant cells or necrosis, rather than CD21-positive dendritic meshworks around vessels."},
+    {"dx": "Castleman disease, hyaline vascular type", "vs": "Castleman follicles are regressed with onion-skin mantle zones and radially penetrating hyalinized vessels, but lack clonal TFH-phenotype T cells."},
+    {"dx": "Lymphoepithelioid (Lennert) variant of peripheral T-cell lymphoma", "vs": "Lennert lymphoma has numerous small epithelioid histiocyte clusters throughout the node with a CD8-predominant infiltrate and without expanded FDC meshworks."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

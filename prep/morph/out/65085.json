@@ -1,0 +1,21 @@
+{
+  "id": "65085",
+  "recognize_zh": "這是胸部顯影 CT 軸切面，箭頭指向左側胸椎旁一個約 1.1 公分、邊界清楚、低密度的橢圓形病灶，可能為壞死淋巴結；影像本身不具診斷特異性，Castleman 病需靠淋巴結切片確診。",
+  "features": [
+    "Axial contrast-enhanced chest CT at the level of the aortic arch/tracheal carina region",
+    "1.1 cm oval, well-circumscribed, low-attenuation lesion in the left paraspinal (posterior mediastinal) region (arrow)",
+    "No bulky mediastinal or axillary lymphadenopathy evident on this single slice",
+    "Lungs clear on the displayed window; bones without obvious destructive lesion"
+  ],
+  "describe_en": "Axial contrast-enhanced CT image of the chest demonstrates a 1.1 cm oval, well-circumscribed, low-density lesion in the left thoracic paraspinal region adjacent to the descending aorta and vertebral body, which may represent a necrotic or low-attenuation lymph node. No bulky lymphadenopathy is seen on this single slice. The imaging appearance is nonspecific; in idiopathic multicentric Castleman disease, CT typically shows multistation, mildly enlarged enhancing lymph nodes, and the diagnosis requires excisional lymph node biopsy with exclusion of infectious, autoimmune and neoplastic mimics.",
+  "ddx": [
+    {"dx": "Lymphoma", "vs": "Imaging cannot separate them; lymphoma usually shows larger, confluent nodal masses with higher FDG avidity, and biopsy with immunophenotyping is required."},
+    {"dx": "Tuberculous lymphadenitis", "vs": "Necrotic low-density nodes with rim enhancement favor TB, confirmed by granulomatous necrosis and mycobacterial studies on biopsy."},
+    {"dx": "Neurogenic tumor (schwannoma)", "vs": "Paraspinal schwannomas are low-density, well-circumscribed masses related to the neural foramen, distinguished by MRI and S100-positive spindle cells histologically."},
+    {"dx": "Metastatic carcinoma to lymph node", "vs": "Necrotic nodal metastases usually occur with a known primary and are confirmed by keratin-positive tumor on biopsy."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A (contrast-enhanced CT)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

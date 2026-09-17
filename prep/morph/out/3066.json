@@ -1,0 +1,22 @@
+{
+  "id": "3066",
+  "recognize_zh": "腦脊髓液細胞離心抹片（cytospin）上成群的大型芽細胞，核質比高、核型折疊或腎形、染色質細緻並有明顯核仁，細胞質藍灰且有小空泡，符合中樞神經侵犯的急性骨髓性白血病。",
+  "features": [
+    "Large blasts, roughly 3-4 times the diameter of an RBC, in a crowded cohesive-appearing aggregate (cytospin artifact)",
+    "Moderate to high N:C ratio with folded, indented, or reniform nuclei",
+    "Finely dispersed chromatin with one or more prominent nucleoli",
+    "Moderate gray-blue cytoplasm with scattered small vacuoles and fine granularity; no Auer rods seen",
+    "Rare RBC in background; no mature lymphocytes or neutrophils in this field"
+  ],
+  "describe_en": "Cytocentrifuge preparation of cerebrospinal fluid shows a markedly cellular specimen composed of sheets of large atypical mononuclear cells. The cells have moderate amounts of gray-blue, focally vacuolated cytoplasm, folded to reniform nuclei, finely dispersed chromatin, and prominent nucleoli. No Auer rods are identified in this field, and normal CSF lymphocytes and monocytes are not seen. Findings are consistent with involvement of the CSF by acute myeloid leukemia, with monocytoid blast morphology; flow cytometry or cytochemistry is needed for confirmation of lineage.",
+  "ddx": [
+    {"dx": "CNS involvement by B- or T-lymphoblastic leukemia", "vs": "Lymphoblasts are smaller with scant agranular cytoplasm and round nuclei, whereas these blasts have more abundant vacuolated gray cytoplasm and folded nuclei; flow cytometry confirms lineage."},
+    {"dx": "Leptomeningeal diffuse large B-cell lymphoma", "vs": "Lymphoma cells have basophilic cytoplasm and coarser chromatin with lymphoid immunophenotype (CD19/CD20+), whereas myeloid blasts express CD33/CD13/CD64 and lack B-cell markers."},
+    {"dx": "Reactive monocytes/macrophages in CSF", "vs": "Reactive monocytes have condensed lacy chromatin without prominent nucleoli and occur singly among lymphocytes, not as a monotonous sheet of nucleolated cells."},
+    {"dx": "Metastatic carcinoma in CSF", "vs": "Carcinoma cells form true 3D cohesive clusters with nuclear molding and are keratin-positive and CD45-negative, unlike these dyscohesive CD45-positive blasts."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa (cytospin)",
+  "match": "consistent",
+  "high_yield": false
+}

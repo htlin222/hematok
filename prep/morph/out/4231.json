@@ -1,0 +1,21 @@
+{
+  "id": "4231",
+  "recognize_zh": "這張以紅血球系母細胞（深染圓核、藍灰胞質）與一顆大型細胞為主，左側幾顆紅血球上有細小紫色點狀結構，可能是瘧原蟲環狀體，但解析度下無法與血小板或染料沉澱確切區分，典型惡性瘧形態在此圖不明顯。",
+  "features": [
+    "Cluster of orthochromatic and polychromatic erythroblasts with round dense nuclei and gray-blue cytoplasm",
+    "A larger erythroid precursor with coarse chromatin and small magenta cytoplasmic/nuclear dots (nature uncertain)",
+    "Tiny purple dot-like structures over a few red cells at left, possibly ring forms but not unequivocal",
+    "Large cell with pink-purple cytoplasm and irregular nucleus at upper right (likely macrophage or myeloid cell)",
+    "No banana-shaped gametocytes or pigmented parasites identified in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of maturing erythroblasts and a larger erythroid precursor, with a large cell with pink-purple cytoplasm at the upper right. A few small purple dot-like structures overlie scattered red cells and are possibly early ring forms, but they cannot be confidently distinguished from platelets or stain precipitate at this resolution, and no pigmented trophozoites or crescent gametocytes are seen. The image therefore only partially supports the diagnosis of falciparum malaria; correlation with other fields and peripheral blood thick and thin films is required.",
+  "ddx": [
+    {"dx": "Platelets or stain precipitate overlying red cells", "vs": "Overlying platelets and precipitate lack a distinct blue cytoplasmic ring around a chromatin dot and are often in a different focal plane."},
+    {"dx": "Babesia", "vs": "Babesia forms small pleomorphic rings and tetrads without pigment, which requires a better-preserved field with definite parasites to assess."},
+    {"dx": "Reactive erythroid hyperplasia without infection", "vs": "Erythroid hyperplasia from hemolysis or blood loss looks identical in the absence of definite intraerythrocytic parasites."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

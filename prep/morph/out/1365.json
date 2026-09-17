@@ -1,0 +1,23 @@
+{
+  "id": "1365",
+  "recognize_zh": "周邊血液抹片中淋巴球數量大增，多為中小型、細胞質淡藍、染色質成塊的成熟樣淋巴球，並夾雜較大的細胞；整個視野幾乎找不到血小板，符合 CLL 合併血小板低下。",
+  "features": [
+    "Marked lymphocytosis dominating the field",
+    "Small to medium-sized lymphocytes with round nuclei and clumped chromatin; nucleoli inconspicuous",
+    "Scant to moderate pale blue cytoplasm; a subset of larger cells with more abundant cytoplasm",
+    "Platelets markedly decreased to virtually absent",
+    "Occasional small dense round nuclei, possibly nucleated red cells",
+    "Erythrocytes normochromic without significant fragmentation"
+  ],
+  "describe_en": "Peripheral blood smear shows marked lymphocytosis composed predominantly of small to medium-sized mature-appearing lymphocytes with clumped chromatin and scant pale cytoplasm, admixed with a subset of larger lymphoid cells with more abundant cytoplasm. Platelets are virtually absent across the field, and red cells show no schistocytes. Occasional small dense nuclei may represent nucleated red cells. Findings are consistent with chronic lymphocytic leukemia with thrombocytopenia, which may reflect marrow infiltration or immune thrombocytopenia; flow cytometry and marrow evaluation would clarify.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells often have irregular nuclear contours and are CD5+ CD23- cyclin D1/SOX11+, while CLL is CD5+ CD23+ with dim surface immunoglobulin."},
+    {"dx": "B-prolymphocytic transformation", "vs": "Prolymphocytes are larger with a single prominent central nucleolus, and a prolymphocyte proportion above 55% changes the category."},
+    {"dx": "Reactive lymphocytosis (viral)", "vs": "Reactive lymphocytes are heterogeneous with abundant cytoplasm hugging red cells and are polyclonal by flow cytometry."},
+    {"dx": "Pseudothrombocytopenia", "vs": "Would show platelet clumps at the feathered edge rather than true absence of platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

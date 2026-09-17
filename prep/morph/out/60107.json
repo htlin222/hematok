@@ -1,0 +1,22 @@
+{
+  "id": "60107",
+  "recognize_zh": "周邊血液中一個中型母細胞，核圓、染色質細緻、核質比高，最具特徵的是細胞質邊緣有多個凸出的小芽狀突起（cytoplasmic blebs），提示巨核母細胞，符合唐氏症相關骨髓性白血病。",
+  "features": [
+    "Medium-sized blast with high N:C ratio",
+    "Round to slightly irregular nucleus with fine, open chromatin",
+    "Scant basophilic cytoplasm with small cytoplasmic blebs/protrusions",
+    "No cytoplasmic granules or Auer rods evident",
+    "Background red cells show mild anisocytosis; platelets appear sparse"
+  ],
+  "describe_en": "Peripheral blood smear shows a circulating blast with a high nuclear-to-cytoplasmic ratio, a round to slightly irregular nucleus with fine open chromatin and a scant rim of basophilic cytoplasm bearing small cytoplasmic blebs. Granules and Auer rods are not seen. Platelets appear decreased in this field. The blebbed cytoplasm suggests megakaryoblastic differentiation, and in a child with Down syndrome, findings are consistent with myeloid leukemia associated with Down syndrome.",
+  "ddx": [
+    {"dx": "Lymphoblast (ALL)", "vs": "Lymphoblasts lack cytoplasmic blebs and are TdT/CD19 or CD3 positive, whereas megakaryoblasts express CD41/CD61."},
+    {"dx": "Transient abnormal myelopoiesis", "vs": "TAM blasts are morphologically identical, so age (neonate) and clinical course, not morphology, separate it."},
+    {"dx": "Reactive lymphocyte with cytoplasmic projections", "vs": "Reactive lymphocytes have more condensed chromatin and abundant cytoplasm that indents around red cells."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells have circumferential fine hairy projections, oval or bean-shaped nuclei with bland chromatin and a mature B-cell CD11c/CD25/CD103 phenotype."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61438",
+  "recognize_zh": "骨髓抽吸抹片中央有一顆巨大的前紅血球母細胞（giant pronormoblast），胞質深藍、邊緣帶小突起，細胞核大而染色質呈均質淡染的玻璃樣外觀（核內病毒包涵體），像提燈般的「lantern cell」，提示微小病毒 B19 感染。",
+  "features": [
+    "Giant pronormoblast, several times the size of surrounding cells, with deeply basophilic cytoplasm and a scalloped edge",
+    "Large round nucleus with pale, glassy, finely stippled chromatin (intranuclear viral inclusion) replacing normal chromatin detail",
+    "Nucleolus obscured; thin rim of darker cytoplasm around the nucleus",
+    "Surrounding smaller erythroid and myeloid precursors with coarse chromatin",
+    "Image is slightly oversaturated and out of focus, limiting fine chromatin assessment"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a giant pronormoblast with intensely basophilic cytoplasm and a large nucleus containing pale, glassy chromatin consistent with an intranuclear viral inclusion. The surrounding marrow contains smaller hematopoietic precursors, and later-stage erythroid maturation is not prominent in this field. Image focus and color saturation limit detailed assessment. Findings are suggestive of parvovirus B19 infection; confirmation with parvovirus immunohistochemistry, serum PCR, and reticulocyte count is recommended.",
+  "ddx": [
+    {"dx": "Pure erythroid leukemia", "vs": "Shows sheets of proerythroblasts with vacuolated cytoplasm and TP53 abnormalities rather than scattered giant cells with glassy nuclear inclusions."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblasts show open sieve-like chromatin with nuclear-cytoplasmic asynchrony across all erythroid stages, without glassy inclusions or erythroid aplasia."},
+    {"dx": "Metastatic tumor or megakaryoblast", "vs": "Tumor cells are cohesive and megakaryoblasts have cytoplasmic blebs with CD61+, lacking an intranuclear viral inclusion."},
+    {"dx": "Normal proerythroblast", "vs": "Normal pronormoblasts are smaller with visible nucleoli and fine but not glassy chromatin."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "65605",
+  "recognize_zh": "骨髓抹片中的芽細胞核有折疊、細胞質深藍並有核旁淡染區（hof），外觀類似 t(8;21) AML；流式 CD34/CD19 陽性也相似，但 FISH 顯示 RUNX1 三個訊號而非 RUNX1::RUNX1T1 融合，最後由光學基因組圖譜確認 RUNX1::CBFA2T3。",
+  "features": [
+    "Large blasts with folded or indented nuclei, prominent nucleoli, and deeply basophilic cytoplasm with perinuclear hof (panel A)",
+    "Occasional myeloid cell with coarse salmon/orange cytoplasmic granules; no Auer rods seen",
+    "Flow cytometry: CD34+/CD38+, CD117+ with partial CD19, CD33+/CD13+, CD22 and CD10 negative (panel B)",
+    "Karyotype with arrows on chromosomes 1, 16, and 21 indicating der(1;15) and t(16;21)(q24;q22) (panel C)",
+    "FISH with extra RUNX1 signal and break-apart split, and circos plot of optical genome mapping showing inter-chromosomal fusions (panels D-F)"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows increased blasts with folded nuclei, prominent nucleoli, deeply basophilic cytoplasm, and perinuclear hofs, with an occasional cell containing coarse salmon-colored granules; Auer rods are not seen. Flow cytometry shows CD34+, CD117+, CD13+, CD33+ myeloid blasts with aberrant partial CD19 expression. The karyotype shows t(16;21)(q24;q22) and der(1;15), FISH is negative for RUNX1::RUNX1T1 but shows an extra RUNX1 signal and a RUNX1 break-apart pattern, and optical genome mapping identifies RUNX1::CBFA2T3. Findings are consistent with acute myeloid leukemia with RUNX1::CBFA2T3 fusion, a t(8;21)-like entity, here in a therapy-related setting.",
+  "ddx": [
+    {"dx": "AML with RUNX1::RUNX1T1 [t(8;21)]", "vs": "Morphology and CD19/CD34 phenotype overlap closely, and separation requires FISH or RT-PCR showing RUNX1::RUNX1T1 fusion, which is negative here."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "MPAL requires strong B-lineage markers (bright CD19 with CD79a, CD22, or CD10), whereas these blasts are CD22/CD10 negative with only partial CD19."},
+    {"dx": "AML with myelodysplasia-related changes (therapy-related)", "vs": "This shows multilineage dysplasia and MDS-type cytogenetics rather than a t(16;21) RUNX1 fusion."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Giemsa; flow; karyotype; FISH; OGM",
+  "match": "consistent",
+  "high_yield": false
+}

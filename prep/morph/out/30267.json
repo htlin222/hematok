@@ -1,0 +1,22 @@
+{
+  "id": "30267",
+  "recognize_zh": "周邊血抹片中三個芽細胞，核大、染色質細緻、細胞質少且深藍，邊緣有明顯淡色泡狀突起（cytoplasmic blebs），旁邊還有一個有核紅血球；這種帶泡狀突起的巨核芽細胞在唐氏症新生兒提示暫時性異常骨髓增生（TAM）。",
+  "features": [
+    "Three blasts with high N:C ratio, round to slightly irregular nuclei and finely granular chromatin",
+    "Scant deeply basophilic cytoplasm with prominent pale, platelet-like cytoplasmic blebs",
+    "A circulating nucleated red cell with condensed nucleus and polychromatic cytoplasm",
+    "Red cells with many stomatocyte-like slit forms, occasional target and fragmented cells",
+    "A large platelet and small platelet aggregates in the background"
+  ],
+  "describe_en": "Peripheral blood smear (Wright-Giemsa, oil immersion) shows circulating blasts with high N:C ratio, fine chromatin and basophilic cytoplasm bearing prominent pale cytoplasmic blebs, typical of megakaryoblasts. A nucleated red cell and large platelets are also present, and red cells show stomatocyte-like and occasional fragmented forms. No Auer rods are identified. In a neonate with Down syndrome, findings are consistent with transient abnormal myelopoiesis; immunophenotyping for CD41/CD61 and GATA1 mutation testing are confirmatory.",
+  "ddx": [
+    {"dx": "Myeloid leukemia associated with Down syndrome", "vs": "Blasts look the same, but ML-DS occurs after the neonatal period, does not remit spontaneously and has additional mutations beyond GATA1."},
+    {"dx": "Acute megakaryoblastic leukemia without Down syndrome", "vs": "It lacks trisomy 21 and GATA1 mutations and does not regress spontaneously."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts lack cytoplasmic blebs and are TdT and B- or T-lineage marker positive."},
+    {"dx": "Reactive neonatal leukoerythroblastosis (e.g., sepsis, hypoxia)", "vs": "It shows nucleated red cells and left-shifted granulocytes without a population of blebbed blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

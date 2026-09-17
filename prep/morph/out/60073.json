@@ -1,0 +1,19 @@
+{
+  "id": "60073",
+  "recognize_zh": "兩張骨髓流式散射圖：FSC 對 SSC 與 CD45 對 SSC 中，細胞以高 SSC 的顆粒球（淺藍）為主，在 CD45 陰性、低 SSC 的區域（正常有核紅血球所在位置）幾乎沒有事件；表示流式上看不到紅血球系前驅細胞，支持 Diamond-Blackfan anemia 的紅系缺乏。",
+  "features": [
+    "FSC vs SSC: large granulocytic population (light blue) with high SSC; small low-FSC/low-SSC lymphocyte cluster and gray debris",
+    "CD45 vs SSC: granulocytes CD45 moderate, monocytes (green) intermediate SSC, lymphocytes (red) CD45 bright low SSC",
+    "Absence of a CD45-negative, low-SSC cluster corresponding to nucleated erythroid precursors",
+    "Minimal dark-blue CD45-dim low-SSC events without a discrete blast population"
+  ],
+  "describe_en": "Flow cytometric analysis of bone marrow is shown as forward versus side scatter and CD45 versus side scatter plots. The events consist predominantly of high side-scatter granulocytes with smaller monocyte and CD45-bright lymphocyte populations. The CD45-negative, low side-scatter region, where nucleated erythroid precursors normally cluster, is essentially empty, and no discrete CD45-dim blast population is evident. These findings indicate a marked paucity of erythroid precursors with myeloid predominance, supporting the diagnosis of Diamond-Blackfan anemia in correlation with aspirate morphology; lysis and hemodilution artifacts should be considered before interpreting absent erythroid events.",
+  "ddx": [
+    {"dx": "Artifactual depletion of erythroid precursors", "vs": "Red cell lysis steps and hemodilution reduce nucleated red cells on flow; true hypoplasia must be confirmed on the aspirate differential."},
+    {"dx": "Transient erythroblastopenia of childhood / parvovirus B19 aplasia", "vs": "Yield an identical flow pattern and are distinguished by age, MCV, HbF, eADA, B19 PCR, and ribosomal protein gene testing."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

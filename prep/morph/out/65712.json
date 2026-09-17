@@ -1,0 +1,21 @@
+{
+  "id": "65712",
+  "recognize_zh": "三個中至大型母細胞：核質比高、核圓或稍不規則、染色質細緻均勻，胞質淡藍；但此圖解析度有限，看不到明確的 Auer rod，單憑形態無法確認是骨髓系母細胞。",
+  "features": [
+    "Three medium to large blasts, each larger than surrounding red cells",
+    "High N:C ratio with round to slightly irregular nuclear contours",
+    "Fine, smooth, open chromatin with faint nucleoli",
+    "Scant to moderate pale grey-blue agranular cytoplasm",
+    "No convincing Auer rods identified at this image resolution"
+  ],
+  "describe_en": "Peripheral blood (or aspirate) smear shows three medium to large blasts with high nuclear-to-cytoplasmic ratio, round to slightly irregular nuclei with fine dispersed chromatin and faint nucleoli, and scant to moderate pale blue cytoplasm. Definite Auer rods, which would confirm myeloid lineage, are not convincingly seen at this resolution, although the caption reports them. Morphology alone is therefore suggestive of acute leukemia with blasts compatible with myeloblasts, and lineage assignment requires MPO cytochemistry or flow cytometry.",
+  "ddx": [
+    {"dx": "Lymphoblasts (ALL)", "vs": "Lymphoblasts tend to be smaller with scant cytoplasm and less distinct nucleoli, and are MPO-negative and TdT/CD19 or CD3-positive on flow cytometry."},
+    {"dx": "Monoblasts", "vs": "Monoblasts have more abundant grey-blue, sometimes vacuolated cytoplasm with round nuclei and are nonspecific esterase-positive."},
+    {"dx": "Large granular or activated reactive lymphocytes", "vs": "Reactive lymphocytes have more condensed chromatin and abundant cytoplasm that hugs adjacent red cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

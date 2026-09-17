@@ -1,0 +1,22 @@
+{
+  "id": "66072",
+  "recognize_zh": "腦脊髓液細胞離心抹片中有一團大型淋巴樣細胞，核大而圓、染色質細緻，周圍一圈深藍色（嗜鹼性）胞質，細胞遠大於周圍的小淋巴球與凋亡細胞，呈芽細胞樣外觀，符合 DLBCL 侵犯中樞神經。",
+  "features": [
+    "Aggregate of large atypical lymphoid cells, several times the diameter of background small lymphocytes",
+    "Round-to-oval nuclei with finely dispersed blastoid chromatin and very high N:C ratio",
+    "Thin rim of deeply basophilic cytoplasm",
+    "Cells cluster loosely with molding from cytocentrifugation; no true cohesive glandular structures",
+    "Scattered small dark pyknotic/apoptotic cells and small lymphocytes in a clean background"
+  ],
+  "describe_en": "CSF cytospin shows a cluster of large atypical lymphoid cells with round to oval nuclei, finely dispersed blastoid chromatin, high nuclear-to-cytoplasmic ratios and a thin rim of deeply basophilic cytoplasm. Scattered small lymphocytes and pyknotic cells are present in the background. No red cells or glandular structures are seen. Findings are suggestive of CSF involvement by a high-grade lymphoma, consistent with diffuse large B-cell lymphoma in the appropriate clinical context; confirmation by flow cytometry and clonality studies is recommended.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma or medulloblastoma", "vs": "Carcinoma and embryonal tumor cells form truly cohesive three-dimensional clusters with nuclear molding and lack CD45/B-cell markers, whereas lymphoma cells are discohesive and CD45/CD20-positive."},
+    {"dx": "Acute leukemia (lymphoblastic or myeloid) in CSF", "vs": "Blasts have similar morphology and are separated by immunophenotype (TdT/CD34 or myeloid markers versus mature CD20+ B cells)."},
+    {"dx": "Reactive activated lymphocytes (e.g., viral meningitis)", "vs": "Reactive lymphocytes form a spectrum with small lymphocytes and plasmacytoid forms, lack uniform blastoid chromatin and show polyclonal flow cytometry."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are medium-sized with multiple small nucleoli and prominent cytoplasmic lipid vacuoles, which are not seen here."}
+  ],
+  "specimen": "CSF",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

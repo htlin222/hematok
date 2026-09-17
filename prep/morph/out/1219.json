@@ -1,0 +1,21 @@
+{
+  "id": "1219",
+  "recognize_zh": "這張抽吸液中大量細胞核呈摺疊、凹陷或腎形，胞質灰藍、帶細顆粒（promonocytes/monocytes），同時混有核圓、胞質較藍的骨髓母細胞，左側還有一顆嗜酸性顆粒球；單核系與顆粒系同時增加，符合急性骨髓單核球性白血病（AMML）。",
+  "features": [
+    "Large cells with folded, lobulated or kidney-shaped nuclei and delicate chromatin (promonocytes/monocytes)",
+    "Moderate gray-blue cytoplasm with fine dusty azurophilic granules and occasional vacuoles",
+    "Admixed myeloblasts with round nuclei, fine chromatin, visible nucleoli and more basophilic cytoplasm",
+    "Scattered maturing granulocytes and an eosinophil with orange granules at left",
+    "Densely cellular field with few erythroid precursors"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a hypercellular field composed of a mixed population of immature myeloid and monocytic cells. Many cells are large with abundant gray-blue, finely granular cytoplasm and folded, indented or kidney-shaped nuclei with delicate chromatin, consistent with promonocytes and immature monocytes. Admixed are myeloblasts with round nuclei, fine chromatin, nucleoli and scant basophilic cytoplasm, together with occasional maturing granulocytes and an eosinophil. Findings are consistent with acute myelomonocytic leukemia, provided blasts and promonocytes total >=20% and both neutrophil and monocytic lineages each constitute >=20% of cells, confirmed by MPO and nonspecific esterase or flow cytometry.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Requires >=80% monocytic lineage cells with <20% granulocytic cells, whereas a substantial myeloblast/granulocytic component is visible here."},
+    {"dx": "AML with inv(16)/t(16;16)", "vs": "Similar myelomonocytic picture but with abnormal eosinophils bearing large purple-violet granules, confirmed by CBFB::MYH11; the eosinophil here should be scrutinized for such granules."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML has <20% blasts plus promonocytes with mostly mature monocytes, while this field is dominated by immature forms."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

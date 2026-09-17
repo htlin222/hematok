@@ -1,0 +1,22 @@
+{
+  "id": "3580",
+  "recognize_zh": "骨髓切片 H&E 中央有一大片界線清楚、由淡嗜酸性紡錘形細胞構成的纖維化病灶，夾雜外滲紅血球，與周邊保留的正常造血組織和脂肪細胞形成對比；這種局部紡錘形細胞纖維化病灶是系統性肥大細胞症的典型切片表現。",
+  "features": [
+    "Well-demarcated focal lesion composed of spindle-shaped cells with pale eosinophilic cytoplasm and oval bland nuclei",
+    "Associated fibrosis with streaming/fascicular arrangement and extravasated red cells",
+    "Adjacent preserved hematopoietic marrow with fat cells at the periphery",
+    "Scattered small lymphocytes at the lesion edge",
+    "No marked nuclear atypia or mitotic activity at this power"
+  ],
+  "describe_en": "Section of bone marrow trephine biopsy shows a well-circumscribed focal lesion composed of spindle-shaped cells with pale eosinophilic cytoplasm and bland oval nuclei in a fibrotic, streaming background with extravasated red cells. The lesion is sharply demarcated from adjacent preserved hematopoietic marrow and fat, with scattered lymphocytes at its periphery. No significant atypia or mitotic activity is seen at this magnification. The findings are suggestive of a mast cell lesion of systemic mastocytosis, to be confirmed with tryptase, CD117, and CD25 immunostains and KIT D816V testing.",
+  "ddx": [
+    {"dx": "Myelofibrosis (primary or secondary)", "vs": "Fibrosis is diffuse with atypical clustered megakaryocytes rather than a sharply demarcated tryptase-positive spindle cell focus."},
+    {"dx": "Reactive fibrotic focus or healing biopsy site", "vs": "Spindle cells are fibroblasts or histiocytes negative for tryptase and CD25."},
+    {"dx": "Hairy cell leukemia", "vs": "Infiltrate consists of CD20+/annexin A1+ fried-egg cells with reticulin fibrosis, not tryptase-positive spindle cells."},
+    {"dx": "Metastatic spindle cell sarcoma", "vs": "Tumor cells show nuclear pleomorphism and mitoses with lineage-specific markers rather than bland mast cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

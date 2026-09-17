@@ -1,0 +1,21 @@
+{
+  "id": "63981",
+  "recognize_zh": "臨床照片 A 為前臂與手背密布的點狀出血（petechiae），B、C 則發展為大片紫黑色壞死斑塊、黑色焦痂與出血性水泡、糜爛，發生於 AML 化療後嚴重嗜中性球低下期，需考慮藥物性表皮壞死與壞死性皮膚感染。",
+  "features": [
+    "Panel A: diffuse petechial and purpuric macules over the forearm and dorsum of the hand",
+    "Panel B: confluent violaceous to dusky purpura with large black necrotic plaques along the arm",
+    "Panel C: hemorrhagic bullae and erosions within extensive dark necrotic eschar",
+    "Surrounding erythema with satellite purpuric papules; indwelling vascular catheter visible"
+  ],
+  "describe_en": "Serial clinical photographs of the upper limb show progression from diffuse petechiae and purpura of the forearm and hand (A) to confluent violaceous purpura with large black necrotic plaques (B), and ultimately extensive necrotic eschar with hemorrhagic bullae and erosions (C). These are clinical images and cannot establish a histologic or microbiologic diagnosis. In a profoundly neutropenic and thrombocytopenic patient receiving CPX-351 for AML, the differential includes drug-related epidermal necrosis (Stevens-Johnson syndrome/toxic epidermal necrolysis spectrum) and necrotizing infection such as ecthyma gangrenosum or angioinvasive fungal infection; skin biopsy with tissue culture is required.",
+  "ddx": [
+    {"dx": "Ecthyma gangrenosum (Pseudomonas) or angioinvasive mold infection", "vs": "Infection shows vasculitic necrosis with organisms on biopsy tissue Gram/GMS stains and cultures, whereas SJS/TEN shows full-thickness keratinocyte necrosis without organisms."},
+    {"dx": "Leukemia cutis", "vs": "Leukemia cutis presents as violaceous nodules or plaques with dermal blast infiltrates on biopsy rather than rapidly progressive eschar and bullae."},
+    {"dx": "Purpura fulminans / disseminated intravascular coagulation", "vs": "Purpura fulminans shows retiform purpura with microvascular thrombi and laboratory DIC (low fibrinogen, high D-dimer)."},
+    {"dx": "Chemotherapy extravasation injury", "vs": "Extravasation injury is localized around the infusion site, whereas these lesions spread diffusely along the entire limb from petechiae."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "consistent",
+  "high_yield": false
+}

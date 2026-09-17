@@ -1,0 +1,21 @@
+{
+  "id": "1577",
+  "recognize_zh": "周邊血抹片中大量紅血球表面帶有多個尖刺狀突起，部分突起長短不一、分布不規則（棘狀紅血球 acanthocytes / spur cells），並混有較大、圓形的紅血球；在酒精性肝病背景下符合 spur cell anemia。",
+  "features": [
+    "Numerous red cells with multiple surface projections (spiculated cells)",
+    "Many spicules irregular in length and spacing, consistent with acanthocytes (spur cells); some cells with more regular short crenations (echinocytes)",
+    "Spiculated cells often dense and lacking central pallor",
+    "Admixed round, normochromic, somewhat large red cells (possible macrocytes/target-like cells)",
+    "No nucleated cells, fragments or parasites in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a striking population of spiculated red cells, many with irregularly spaced projections of variable length consistent with acanthocytes (spur cells), admixed with cells bearing shorter, more regular crenations. The remaining red cells are round and relatively large with preserved central pallor. No schistocytes or red cell inclusions are identified in this field. In a patient with alcoholic liver disease, findings are consistent with spur cell (acanthocytic) hemolytic anemia; artifactual crenation should be excluded on a freshly prepared smear.",
+  "ddx": [
+    {"dx": "Echinocytes (burr cells) from uremia or drying artifact", "vs": "Echinocytes have 10-30 short, evenly spaced, regular projections around the whole circumference, whereas spur cells have fewer irregular spicules of varying length."},
+    {"dx": "Abetalipoproteinemia / neuroacanthocytosis", "vs": "These inherited disorders produce acanthocytes without liver disease and are distinguished clinically and by lipid profile or genetic testing."},
+    {"dx": "Post-splenectomy or pyruvate kinase deficiency spiculated cells", "vs": "These settings show acanthocyte-like cells accompanied by Howell-Jolly bodies or other clinical context, rather than cirrhosis with severe liver dysfunction."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

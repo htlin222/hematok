@@ -1,0 +1,23 @@
+{
+  "id": "65192",
+  "recognize_zh": "同一切片分成兩區：左側為染色質細緻、類母細胞的 blastoid 細胞，右側為核大、具明顯核仁的多形性細胞；兩區皆 cyclin D1 陽性，但只有多形性區 CD10 與 cMyc 陽性，FISH 在多形性區可見大量分離的 MYC（紅）與 BCL2（綠）訊號及 BCL6 分離訊號，PET 顯示 ibrutinib 治療後病灶進展。",
+  "features": [
+    "Biopsy with two juxtaposed populations separated by a sharp interface at low power (A)",
+    "Blastoid cells: medium-sized, high N:C ratio, fine dispersed chromatin, inconspicuous nucleoli (B1)",
+    "Pleomorphic cells: larger, irregular vesicular nuclei with prominent nucleoli and more cytoplasm (B2)",
+    "Cyclin D1 positive in both areas; CD10 and cMyc positive only in the pleomorphic area (C-E)",
+    "FISH: fused/normal signals in blastoid area vs numerous isolated red MYC and green BCL2 signals (amplified rearrangements) and BCL6 split signals in the pleomorphic area (F-H)",
+    "PET MIP images showing new/progressive FDG-avid lesions after ibrutinib (I, J)"
+  ],
+  "describe_en": "The biopsy shows two distinct, sharply demarcated lymphoma populations. One area consists of medium-sized blastoid cells with fine chromatin and scant cytoplasm, and the adjacent area consists of larger pleomorphic cells with vesicular nuclei and prominent nucleoli. Both components are cyclin D1-positive, whereas only the pleomorphic component expresses CD10 and cMyc. FISH shows no MYC, BCL2 or BCL6 rearrangement in the blastoid area but amplified rearranged MYC and BCL2 signals with BCL6 rearrangement in the pleomorphic area. Findings are consistent with blastoid mantle cell lymphoma with a clonally evolved pleomorphic component carrying triple-hit genetic alterations, with radiologic progression on BTK inhibitor therapy.",
+  "ddx": [
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements (de novo)", "vs": "De novo double/triple-hit lymphoma is cyclin D1- and SOX11-negative, whereas both components here retain cyclin D1 positivity indicating MCL lineage."},
+    {"dx": "Diffuse large B-cell lymphoma, CD5-positive", "vs": "CD5+ DLBCL lacks cyclin D1 overexpression and CCND1 rearrangement."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Blastoid MCL may mimic lymphoblasts, but LBL is TdT+ and cyclin D1-negative."},
+    {"dx": "Pleomorphic mantle cell lymphoma without transformation", "vs": "Ordinary pleomorphic MCL is typically CD10-negative and lacks MYC/BCL2 rearrangements, which here define the evolved clone."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: cyclin D1, CD10, cMyc; FISH; PET",
+  "match": "consistent",
+  "high_yield": false
+}

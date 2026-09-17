@@ -1,0 +1,22 @@
+{
+  "id": "60167",
+  "recognize_zh": "骨髓抹片以各階段成熟中的顆粒球（骨髓細胞、後骨髓細胞、帶狀核）為主，多數細胞質顆粒稀少、偏淡（dysgranulopoiesis），且視野中看不到增加的單核球或嗜鹼性球，符合 BCR-ABL1 陰性的非典型 CML（aCML）。",
+  "features": [
+    "Cluster of maturing granulocytic precursors: myelocytes, metamyelocytes and band forms predominate",
+    "Many granulocytes show pale, sparsely granulated cytoplasm (hypogranulation)",
+    "Some nuclei show irregular or hypolobated contours with coarse clumped chromatin",
+    "Single larger cell with deeply basophilic cytoplasm and round nucleus, likely an early erythroid precursor",
+    "No increase in monocytes or basophils in this field; background red cells unremarkable"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a myeloid-predominant cluster composed chiefly of myelocytes, metamyelocytes and band neutrophils. Many of the maturing granulocytes have pale, hypogranular cytoplasm and some show irregular or hypolobated nuclei, indicating dysgranulopoiesis. A single early precursor with deeply basophilic cytoplasm is present. Monocytes and basophils are not increased in this field. In the appropriate clinical and genetic context (BCR-ABL1 negative, no monocytosis), findings are consistent with atypical chronic myeloid leukemia.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia, BCR-ABL1 positive", "vs": "CML shows absolute basophilia and lacks significant dysgranulopoiesis, and requires demonstration of BCR-ABL1 by cytogenetics or molecular testing."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL has predominantly mature, well-granulated segmented neutrophils with <10% immature granulocytes and no dysplasia, often with CSF3R mutation."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML requires persistent peripheral monocytosis (≥10% and ≥0.5–1 x10^9/L), whereas monocytes are not increased here."},
+    {"dx": "Reactive neutrophilia / leukemoid reaction", "vs": "Reactive states show toxic granulation and Döhle bodies rather than hypogranulation and hypolobation."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

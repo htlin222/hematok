@@ -1,0 +1,22 @@
+{
+  "id": "1271",
+  "recognize_zh": "周邊血液中一群中型淋巴樣細胞，細胞質豐富淡藍、邊緣不規則並有細小突起，核圓、染色質中等凝集且可見明顯核仁；與右側染色質塊狀的正常小淋巴球相比，這種有核仁又帶毛邊的細胞提示毛細胞白血病變異型。",
+  "features": [
+    "Cluster of medium-to-large lymphoid cells with abundant pale blue cytoplasm",
+    "Irregular cytoplasmic outlines with fine, short projections",
+    "Round nuclei with moderately condensed chromatin and a visible nucleolus in several cells",
+    "Adjacent granulated cell (top center) and a separate small cell with clumped chromatin for size comparison",
+    "Background of normochromic red cells and sparse platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a small cluster of medium to large lymphoid cells with abundant pale blue cytoplasm and irregular, finely projected margins. The nuclei are round with moderately condensed chromatin, and several cells show a distinct nucleolus. A granulated cell lies adjacent to the cluster, and a separate small cell with clumped chromatin is present for comparison. The combination of hairy cytoplasmic outlines with prominent nucleoli favors hairy cell leukemia variant over classic hairy cell leukemia. Findings are consistent with hairy cell leukemia variant, pending flow cytometry (CD103+, CD25-negative) and BRAF V600E testing.",
+  "ddx": [
+    {"dx": "Classic hairy cell leukemia", "vs": "Classic hairy cells lack a conspicuous nucleolus, have oval to bean-shaped nuclei and are CD25+/annexin A1+/BRAF V600E-positive; they present with monocytopenia rather than leukocytosis."},
+    {"dx": "B-prolymphocytic leukemia", "vs": "Prolymphocytes have a prominent nucleolus but scant cytoplasm with smooth, non-villous borders."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells are smaller with scant cytoplasm, polar villi and no prominent nucleolus, and are CD103-negative."},
+    {"dx": "Mantle cell lymphoma, blastoid/pleomorphic", "vs": "MCL cells have scant cytoplasm and irregular nuclei, and are CD5+ with cyclin D1/SOX11 expression."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

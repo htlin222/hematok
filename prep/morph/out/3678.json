@@ -1,0 +1,21 @@
+{
+  "id": "3678",
+  "recognize_zh": "畫面中央一顆大型細胞，有豐富淡灰藍、邊界不規則且含細小顆粒與空泡的細胞質，細胞核圓形、染色質細緻並有明顯核仁，是骨髓中的網狀細胞（reticulum cell，即巨噬／基質組織球）。",
+  "features": [
+    "Large cell (several times the size of adjacent red cells) with abundant pale grey-blue cytoplasm",
+    "Irregular, frayed cytoplasmic borders with fine granules and small vacuoles",
+    "Round to oval nucleus with fine, open reticular chromatin and a visible nucleolus",
+    "Low N:C ratio despite the large nucleus",
+    "Background normal marrow elements: myelocytes, metamyelocytes, bands, erythroid precursors and lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large cell with abundant pale grey-blue cytoplasm with irregular borders, fine granules and small vacuoles, and a round nucleus with delicate open chromatin and a small nucleolus. The surrounding cells include maturing granulocytes, erythroid precursors and lymphocytes without atypia. The large cell represents a reticulum cell (marrow macrophage/stromal histiocyte), a normal constituent of the marrow that should not be counted as a blast.",
+  "ddx": [
+    {"dx": "Myeloblast or monoblast", "vs": "Blasts have a high N:C ratio with a scant to moderate rim of basophilic cytoplasm, whereas this cell has abundant pale, vacuolated cytoplasm with a low N:C ratio."},
+    {"dx": "Osteoblast", "vs": "Osteoblasts have an eccentric nucleus with a distinct paranuclear clear zone (Golgi) away from the nucleus and deeply basophilic cytoplasm, usually in clusters."},
+    {"dx": "Metastatic carcinoma cell", "vs": "Tumor cells show nuclear pleomorphism, hyperchromasia and cohesive clustering, not a single bland cell with open chromatin among normal marrow cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

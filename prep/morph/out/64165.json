@@ -1,0 +1,21 @@
+{
+  "id": "64165",
+  "recognize_zh": "骨髓切片 AE1/AE3 角蛋白染色中，許多大型細胞的細胞質只出現棕色點狀或小團塊狀（dot-like）著色，而不是整個細胞質瀰漫陽性；這種點狀角蛋白要與真正的上皮癌轉移區分。",
+  "features": [
+    "Numerous medium-to-large cells with ovoid pale nuclei in a cellular marrow",
+    "AE1/AE3 shows dot-like and small clumped paranuclear/cytoplasmic staining",
+    "Staining is focal and granular rather than diffuse membranous-cytoplasmic",
+    "No cohesive keratin-positive epithelial nests or glands",
+    "Scattered adipocyte spaces"
+  ],
+  "describe_en": "Pan-cytokeratin AE1/AE3 immunohistochemistry on the bone marrow core shows dot-like and small clumped cytoplasmic staining in many of the large cells, without diffuse strong cytoplasmic or membranous positivity and without cohesive epithelial nests. This pattern is not typical of metastatic carcinoma; in view of strong CD163 expression and CD34 negativity, the dot-like keratin reactivity is interpreted in the context of a histiocytic infiltrate. Correlation with additional lineage markers is recommended.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma usually shows strong diffuse cytoplasmic keratin in cohesive clusters and is CD163-negative."},
+    {"dx": "Neuroendocrine carcinoma (e.g., small cell or Merkel cell)", "vs": "Paranuclear dot-like keratin is classic for neuroendocrine tumors, but these are CD163-negative and express synaptophysin/chromogranin/INSM1."},
+    {"dx": "Plasma cell neoplasm with aberrant keratin", "vs": "Plasma cells may show aberrant keratin but are CD138/MUM1-positive with light-chain restriction rather than CD163-positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: AE1/AE3",
+  "match": "consistent",
+  "high_yield": false
+}

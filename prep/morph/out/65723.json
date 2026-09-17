@@ -1,0 +1,23 @@
+{
+  "id": "65723",
+  "recognize_zh": "周邊血為中型淋巴球，核卵圓或有凹陷裂痕、染色質稍分散、核仁可見、胞質少；流式 CD5 陰性易誤判為邊緣區淋巴瘤，但切片 cyclin D1 弱陽性、FISH 顯示 IGH::CCND1 融合訊號（1R1G2F），確立為白血病性非結節性被套細胞淋巴瘤。",
+  "features": [
+    "Blood: medium-sized lymphocytes with ovoid, indented or cleaved nuclei, slightly dispersed chromatin, distinct nucleoli and scant cytoplasm",
+    "Flow cytometry: B cells completely negative for CD5 in the CD5 vs CD20 plot",
+    "PAX5: numerous nuclear-positive B cells in the marrow",
+    "CD5: strong staining in scattered T cells with only weak staining in a subset of B cells",
+    "CD23 subset positive; cyclin D1 weak nuclear positivity in a subset; SOX11 negative",
+    "Interphase FISH with IGH/CCND1 dual-fusion probe showing 1 red, 1 green and 2 fusion signals"
+  ],
+  "describe_en": "Peripheral blood smear shows medium-sized lymphocytes with ovoid to indented or cleaved nuclei, slightly dispersed chromatin, distinct nucleoli and scant cytoplasm. Marrow flow cytometry shows kappa-restricted B cells that are negative for CD5 and CD10 with dim CD23, whereas immunohistochemistry shows PAX5-positive B cells with weak subset CD5, subset CD23, weak nuclear cyclin D1 and negative SOX11. Interphase FISH demonstrates IGH::CCND1 fusion in most nuclei. Findings are consistent with leukemic non-nodal mantle cell lymphoma with weak to negative CD5 expression.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells may have villous cytoplasm and are CD5-negative, but they are cyclin D1-negative and lack IGH::CCND1."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are small round lymphocytes with clumped chromatin, bright CD5 and CD23 and dim surface immunoglobulin, without cyclin D1 or CCND1 rearrangement."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL can show weak cyclin D1 but has abundant cytoplasm with hairy projections, CD103/CD25/CD11c/annexin A1 positivity and BRAF V600E, which was not detected."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows plasmacytoid differentiation, IgM paraprotein and MYD88 L265P, which was negative here."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grunwald-Giemsa; flow; IHC; FISH: IGH::CCND1",
+  "match": "consistent",
+  "high_yield": false
+}

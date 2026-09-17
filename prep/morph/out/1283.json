@@ -1,0 +1,23 @@
+{
+  "id": "1283",
+  "recognize_zh": "骨髓抹片中混有數顆明顯大於造血前驅細胞的非典型大細胞，左上方一顆核呈雙葉/凹陷、細胞質深藍，中央一顆細胞質有細小空泡；構造提示淋巴瘤浸潤，但顆粒不明顯，譜系需靠免疫染色與 EBER 確認。",
+  "features": [
+    "Scattered large atypical cells, clearly larger than adjacent myeloid and erythroid precursors",
+    "Moderate N:C ratio with deeply basophilic cytoplasm",
+    "Cleaved/bilobed nucleus in one cell; round-oval nuclei in others",
+    "Finely granular to slightly coarse chromatin; nucleoli indistinct",
+    "Fine cytoplasmic vacuoles in one large cell; azurophilic granules not conspicuous",
+    "Background of residual granulocytic precursors, an erythroid precursor and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows residual trilineage hematopoietic elements with several admixed large atypical cells. These cells have deeply basophilic cytoplasm, which is finely vacuolated in one cell, and round to cleaved or bilobed nuclei with fine chromatin. Azurophilic granules are not readily identified in this field, and the morphology alone does not establish lineage. Correlation with immunophenotyping (cytoplasmic CD3, CD56, TIA-1/granzyme B) and EBER in situ hybridization is required. Findings are suggestive of marrow involvement by lymphoma and compatible with extranodal NK/T-cell lymphoma in the clinical context.",
+  "ddx": [
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Morphology overlaps; distinction depends on a systemic leukemic presentation with extensive marrow and blood involvement rather than an extranodal primary."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts have fine blast chromatin with nucleoli, may contain Auer rods, and are MPO/CD34/CD117-positive, unlike NK/T lymphoma cells."},
+    {"dx": "Diffuse large B-cell lymphoma involving marrow", "vs": "DLBCL cells are also large and basophilic but express CD20/PAX5 and lack CD56 and cytotoxic markers."},
+    {"dx": "Plasmablasts/immature plasma cells", "vs": "Plasmablasts have eccentric nuclei with a perinuclear hof and are CD138/MUM1-positive, which requires immunostaining to exclude."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "64175",
+  "recognize_zh": "周邊血液中三顆小型淋巴樣細胞，圓核、染色質呈塊狀，胞質比一般淋巴球略多且帶藍色，外觀介於淋巴球與漿細胞之間（plasmacytoid lymphocytes）；背景紅血球有疊錢狀排列（rouleaux），提示血中有 IgM 單株蛋白。",
+  "features": [
+    "Three small to intermediate lymphoid cells with round, slightly eccentric nuclei",
+    "Moderately clumped chromatin without conspicuous nucleoli",
+    "Modest amount of basophilic cytoplasm, more than a typical small lymphocyte (plasmacytoid features)",
+    "No perinuclear hof or distinct plasma cell clock-face chromatin",
+    "Background red cells arranged in short rouleaux stacks",
+    "Few platelets, no smudge cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows several small to intermediate lymphoid cells with round, slightly eccentric nuclei, clumped chromatin, and a moderate rim of basophilic cytoplasm, imparting a plasmacytoid appearance intermediate between lymphocytes and plasma cells. The red cells show rouleaux formation. No blasts, smudge cells, or prominent nucleoli are seen. Findings are suggestive of circulating lymphoplasmacytic cells with a paraproteinemia, consistent with Waldenstrom macroglobulinemia in the appropriate clinical setting (IgM paraprotein, MYD88 L265P).",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells have scant cytoplasm with soccer-ball chromatin and smudge cells and are CD5+/CD23+, without plasmacytoid features or IgM rouleaux."},
+    {"dx": "Plasma cell myeloma / plasma cell leukemia", "vs": "Plasma cells have eccentric nuclei with a perinuclear hof and more abundant cytoplasm, and are CD138+/CD19- without a B-cell component."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "Splenic MZL cells often have villous cytoplasmic projections and usually lack MYD88 L265P, which is present in over 90% of WM."},
+    {"dx": "Reactive plasmacytoid lymphocytes (viral infection)", "vs": "Reactive forms are heterogeneous with a spectrum of sizes and are polyclonal without a monoclonal IgM spike."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

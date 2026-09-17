@@ -1,0 +1,21 @@
+{
+  "id": "3047",
+  "recognize_zh": "組織切片免疫染色中，一群成巢狀聚集的上皮樣腫瘤細胞呈強烈棕色細胞質及膜狀染色，周圍基質細胞為藍色陰性，這種群聚的陽性上皮細胞支持轉移性癌侵犯（圖上未標示抗體名稱）。",
+  "features": [
+    "Immunohistochemical stain with strong brown cytoplasmic and membranous positivity in clustered tumor cells",
+    "Nested/cohesive arrangement of polygonal to oval cells with vesicular nuclei",
+    "Negative spindle stromal cells and background elements with blue hematoxylin counterstain",
+    "Scattered single positive cells infiltrating adjacent stroma",
+    "Antibody identity not indicated in the image"
+  ],
+  "describe_en": "Immunohistochemical stain on a tissue (likely bone marrow core biopsy) section shows cohesive nests and scattered single epithelioid tumor cells with strong cytoplasmic and membranous brown staining, set in a negative fibrous stroma with hematoxylin counterstain. The positive cells have oval vesicular nuclei and infiltrate the intertrabecular stroma. The specific antibody is not stated; the pattern is compatible with an epithelial marker such as cytokeratin or a prostate marker such as PSA. In context, findings are consistent with metastatic prostatic carcinoma; NKX3.1 or PSA positivity confirms prostatic origin.",
+  "ddx": [
+    {"dx": "Metastatic urothelial or other carcinoma", "vs": "Cytokeratin positivity is shared; prostatic origin requires PSA, PSAP or NKX3.1 positivity with GATA3/p63 negativity."},
+    {"dx": "Plasma cell neoplasm", "vs": "Plasma cells are discohesive and CD138/MUM1 positive with light-chain restriction, and cytokeratin negative."},
+    {"dx": "Non-specific staining of stromal cells or macrophages", "vs": "Artifactual staining lacks the cohesive epithelioid nests and crisp membranous pattern seen here; CD68 highlights macrophages."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: marker not specified",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "61878",
+  "recognize_zh": "腎臟切片中腎絲球微血管與管周微血管腔內塞滿大型、核深染不規則的非典型淋巴細胞，血管外間質相對保留；內皮標記勾勒出含腫瘤細胞的血管腔，腫瘤細胞呈核陽性（EBER 樣）及細胞毒性顆粒陽性，符合血管內 NK/T 細胞淋巴瘤。",
+  "features": [
+    "Large atypical lymphoid cells with hyperchromatic, irregular to pleomorphic nuclei filling glomerular capillary loops",
+    "Tumor cells also distend peritubular capillaries between preserved renal tubules",
+    "Moderate amphophilic cytoplasm; mitotic-appearing and crushed nuclei within capillaries",
+    "Endothelial immunostain outlines capillary lumens containing the tumor cells, confirming an intravascular distribution",
+    "Strong nuclear signal in large atypical cells (EBER-like pattern) and membranous/granular cytoplasmic staining with additional markers (antibodies not labeled)",
+    "Tubular epithelial injury with cytoplasmic vacuolization and interstitial edema"
+  ],
+  "describe_en": "Composite of a renal biopsy. H&E sections (A-C) show large atypical lymphoid cells with hyperchromatic, irregular nuclei distending glomerular capillary loops and peritubular capillaries, while the renal tubules are largely preserved apart from epithelial vacuolization and interstitial edema. An endothelial immunostain (D) outlines vascular lumens that contain the tumor cells, confirming an intravascular growth pattern. The large cells show strong nuclear positivity (E, pattern compatible with EBER in situ hybridization) and membranous or granular cytoplasmic staining with additional markers (F, G), likely representing NK-cell and cytotoxic markers, although the antibodies are not labeled. Findings are consistent with intravascular EBV-positive extranodal NK/T-cell lymphoma involving the kidney.",
+  "ddx": [
+    {"dx": "Intravascular large B-cell lymphoma", "vs": "IVLBCL shares the intravascular growth pattern but is CD20/PAX5 positive and EBER negative, whereas this tumor has an EBV-positive NK/T-cell phenotype."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia is a systemic leukemic disease with prominent peripheral blood and bone marrow involvement rather than a tumor largely confined to renal microvasculature."},
+    {"dx": "Proliferative glomerulonephritis with intracapillary hypercellularity", "vs": "Glomerulonephritis shows bland endocapillary neutrophils, monocytes and mesangial proliferation (CD68/MPO positive) with immune deposits, not large atypical EBER-positive lymphoid cells."},
+    {"dx": "Intravascular metastatic carcinoma", "vs": "Carcinoma emboli are cohesive and keratin positive, unlike these discohesive lymphoid cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC/ISH panel (unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

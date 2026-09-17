@@ -1,0 +1,22 @@
+{
+  "id": "63476",
+  "recognize_zh": "骨髓抹片中一團緊密聚集的母細胞，核圓、染色質細緻，細胞質深藍、周邊有大量泡狀突起與脫落的細胞質碎片（pseudoblebs），像在生出血小板，這種成簇加上冒泡的外觀是巨核母細胞的線索。",
+  "features": [
+    "Cohesive cluster of medium-sized blasts, mimicking a metastatic tumor clump",
+    "Round nuclei with fine to slightly condensed chromatin and high N:C ratio",
+    "Deeply basophilic cytoplasm with numerous peripheral blebs and detached cytoplasmic fragments",
+    "Scattered single blasts with similar morphology outside the cluster",
+    "Background red cells in a thick area; a granular cell/platelet aggregate at upper right"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of medium-sized blasts with round nuclei, fine chromatin, high N:C ratios, and deeply basophilic cytoplasm bearing abundant peripheral blebs and detached cytoplasmic fragments. Similar single blasts are scattered nearby. Cytoplasmic granules and Auer rods are not seen. The clustering and pseudobleb formation are characteristic of megakaryoblasts, and in a patient with CML and blasts showing CD61 expression, findings are consistent with megakaryoblastic blast crisis; marrow fibrosis often accompanies this and can cause a dry tap.",
+  "ddx": [
+    {"dx": "Metastatic small round blue cell tumor (e.g., neuroblastoma, rhabdomyosarcoma)", "vs": "Metastatic tumor clusters show nuclear molding, rosettes, or cytoplasmic vacuoles and express synaptophysin, myogenin, or keratins rather than CD41/CD61."},
+    {"dx": "Myeloblastic blast crisis", "vs": "Myeloblasts are usually dispersed rather than cohesive and are MPO positive with granules or Auer rods."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with sharply punched-out lipid vacuoles and express CD20/CD10 with MYC rearrangement, rather than blebs."},
+    {"dx": "Normal megakaryocyte clusters", "vs": "Normal megakaryocytes are much larger with multilobated nuclei and granular cytoplasm, unlike these small uninucleate blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

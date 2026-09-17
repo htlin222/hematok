@@ -1,0 +1,21 @@
+{
+  "id": "65691",
+  "recognize_zh": "低倍視野中多個嗜中性球外緣都貼滿一圈血小板，形成花環狀，而紅血球之間幾乎沒有游離血小板；多顆細胞一致出現此現象，是典型的血小板衛星現象，應懷疑假性血小板減少。",
+  "features": [
+    "Multiple neutrophils in one field, each surrounded by a dense rosette of adherent platelets",
+    "Platelets arranged along the outer cell membrane, not within the cytoplasm",
+    "Neutrophils with normal segmented nuclei and fine granulation",
+    "Paucity of free-lying platelets between red cells",
+    "Red cells normocytic with normal central pallor"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous neutrophils, each rimmed by a ring of adherent platelets forming rosettes, with a paucity of free platelets in the background. The platelets are morphologically normal and remain extracellular. Neutrophil and red cell morphology is otherwise unremarkable. Findings are consistent with platelet satellitism, an EDTA-associated in vitro artifact that leads to pseudothrombocytopenia; the platelet count should be verified on a citrate-anticoagulated sample.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet aggregation", "vs": "Aggregation produces free clumps of platelets not specifically attached to leukocytes."},
+    {"dx": "Platelet phagocytosis", "vs": "Phagocytosed platelets are located inside neutrophil cytoplasm rather than on the membrane surface."},
+    {"dx": "Immune thrombocytopenia", "vs": "ITP shows genuinely reduced, often large platelets without satellites, and the low count persists in citrate."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

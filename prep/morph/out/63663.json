@@ -1,0 +1,22 @@
+{
+  "id": "63663",
+  "recognize_zh": "這是流式細胞圖：CD19/CD20 強陽性的 B 細胞群（藍色）幾乎全為 lambda 輕鏈（97.6%），並表現 CD200、弱 CD25 與部分 CD103，CD123 陰性，代表單株 B 細胞族群；少數 kappa 陽性細胞（紅色）為殘存的正常 B 細胞。",
+  "features": [
+    "CD19 vs CD20: B-cell population with bright CD20 (blue) plus a smaller, dimmer population (red)",
+    "Kappa vs lambda of gated B cells: 97.6% lambda (blue) versus 1.9% kappa (red), indicating lambda restriction",
+    "Lambda-restricted cells show variable (partial) CD103 and positive CD200",
+    "Lambda-restricted cells weakly positive for CD25 and negative for CD123",
+    "Kappa-positive red events largely lack CD103 and CD25 and have dimmer CD200 (residual normal B cells)"
+  ],
+  "describe_en": "Flow cytometric dot plots show a dominant CD19-positive B-cell population with bright CD20 that is lambda light chain restricted (97.6% lambda versus 1.9% kappa). The clonal population (blue) shows variable CD103, positive CD200, and weak CD25, and lacks CD123; the few kappa-positive events (red) are CD103 and CD25 negative, consistent with residual polyclonal B cells. CD5 and CD10 were reported negative. Bright CD20 with CD25, CD200, and CD103 expression supports hairy cell leukemia, although the variable CD103 and absent CD123 are atypical and warrant correlation with annexin A1 immunohistochemistry and BRAF V600E testing.",
+  "ddx": [
+    {"dx": "Splenic B-cell lymphoma/leukemia with prominent nucleoli (HCL variant)", "vs": "HCL variant is CD103 positive but CD25, CD123, and annexin A1 negative and BRAF wild type."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL is usually CD103 negative, CD123 negative, and CD200 dim or negative."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL is typically CD25 and CD103 negative and annexin A1 negative."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL is CD5 and CD23 positive with dim CD20 and lacks CD103 and CD25."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

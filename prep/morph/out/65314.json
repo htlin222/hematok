@@ -1,0 +1,21 @@
+{
+  "id": "65314",
+  "recognize_zh": "骨髓切片高倍下可見多顆大型組織球，細胞質豐富、淡粉紅色並呈纖維狀、類似皺摺紙張（wrinkled tissue paper）的紋理，核小而偏心，背景為增生的顆粒球系細胞，符合 CML 中的假性高雪氏細胞（pseudo-Gaucher cells）。",
+  "features": [
+    "Large histiocytes with abundant eosinophilic, fibrillary to striated cytoplasm resembling wrinkled tissue paper",
+    "Small, round to oval, eccentric nuclei with vesicular chromatin",
+    "Histiocytes occur singly and in small clusters",
+    "Background of densely packed granulocytic precursors and segmented forms",
+    "Scattered larger cells with hyperchromatic nuclei, possibly small megakaryocytes"
+  ],
+  "describe_en": "Bone marrow trephine biopsy at high magnification shows a hypercellular marrow with granulocytic predominance. Scattered singly and in small clusters are large histiocytes with abundant pale eosinophilic, fibrillary cytoplasm resembling wrinkled tissue paper and small eccentric nuclei. In a patient with BCR::ABL1-positive myeloid neoplasm, findings are consistent with pseudo-Gaucher cells secondary to increased cell turnover in chronic myeloid leukemia.",
+  "ddx": [
+    {"dx": "Gaucher disease", "vs": "True Gaucher cells are morphologically identical and are separated by reduced glucocerebrosidase activity or GBA mutation rather than a background myeloproliferative neoplasm."},
+    {"dx": "Mycobacterial spindle-cell pseudotumor or Mycobacterium avium complex", "vs": "MAC-laden histiocytes can appear striated but are acid-fast positive, typically with granulomas in immunosuppressed patients."},
+    {"dx": "Crystal-storing histiocytosis", "vs": "Crystal-storing histiocytes contain immunoglobulin crystals with light-chain restriction in a lymphoplasmacytic neoplasm rather than a granulocytic proliferation."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

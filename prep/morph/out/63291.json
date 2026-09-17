@@ -1,0 +1,22 @@
+{
+  "id": "63291",
+  "recognize_zh": "H&E 骨髓切片中骨小樑旁的造血組織被大量中型、核染色質較開放、胞質淡的未成熟細胞取代，正常三系成熟結構不明顯，符合急性骨髓性白血病浸潤；AML-MRC 的分類需靠形態異生與細胞遺傳學判定。",
+  "features": [
+    "Moderately to markedly cellular marrow between adipocytes adjacent to a bony trabecula",
+    "Diffuse infiltrate of medium-sized immature cells with round to oval nuclei, open chromatin and pale to amphophilic cytoplasm",
+    "Scattered small dark lymphoid-appearing cells and a small interstitial aggregate of small round cells",
+    "Occasional larger cells with more abundant cytoplasm; well-formed megakaryocytes are not conspicuous in this field",
+    "Interstitial hemorrhage and edematous stroma"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows a cellular marrow with the intertrabecular space extensively infiltrated by sheets of medium-sized immature mononuclear cells with oval nuclei, open chromatin and pale cytoplasm. Normal trilineage maturation is diminished, and well-formed megakaryocytes are not conspicuous in this field. Scattered small lymphoid cells, a small aggregate of small round cells and interstitial hemorrhage are present. Dysplastic features cannot be reliably assessed on this section alone. Findings are consistent with involvement by acute myeloid leukemia; classification as AML with myelodysplasia-related changes requires correlation with aspirate dysplasia, CD34 immunohistochemistry, cytogenetics and molecular studies.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "MDS-IB shows lower blast percentage with preserved, dysplastic maturation, which requires CD34 IHC and aspirate blast counts to separate from AML."},
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts have scant cytoplasm and are TdT+/CD19+/PAX5+ and MPO-negative, which requires immunostaining to distinguish on H&E."},
+    {"dx": "Regenerating marrow after chemotherapy", "vs": "Regenerating marrow shows clusters of left-shifted but maturing precursors of all lineages rather than a monotonous sheet of blasts."},
+    {"dx": "Metastatic small round cell tumor", "vs": "Metastatic tumors form cohesive nests with desmoplastic stroma and are CD45-negative with lineage-specific markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

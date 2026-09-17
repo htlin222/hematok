@@ -1,0 +1,22 @@
+{
+  "id": "1770",
+  "recognize_zh": "免疫染色（未標示抗體，推測為ALK）中，大型多形性腫瘤細胞同時呈細胞核與細胞質棕色陽性，背景小細胞與基質細胞核為綠色陰性，這種核加質的染色模式符合NPM1-ALK融合的ALK陽性間變性大細胞淋巴瘤。",
+  "features": [
+    "Large pleomorphic tumor cells with irregular, lobulated nuclei and prominent nucleoli",
+    "Brown granular cytoplasmic staining together with nuclear staining in the large cells",
+    "Some tumor nuclei show paler central staining with nucleoli highlighted",
+    "Background small cells and stromal nuclei unstained with methyl green counterstain",
+    "Antibody is not labeled in the image; the nuclear plus cytoplasmic pattern is interpreted as ALK"
+  ],
+  "describe_en": "Immunohistochemical stain with methyl green counterstain shows large pleomorphic tumor cells with granular brown cytoplasmic and nuclear positivity, while background small cells and stromal cells are negative. The antibody is not labeled in the image; in this context the combined nuclear and cytoplasmic pattern is most consistent with ALK expression. This pattern corresponds to the NPM1-ALK fusion produced by t(2;5)(p23;q35). Findings are consistent with ALK-positive anaplastic large cell lymphoma.",
+  "ddx": [
+    {"dx": "ALCL with a variant ALK partner (e.g., TPM3-ALK)", "vs": "Variant translocations give cytoplasmic-only or membranous ALK staining without nuclear positivity, whereas NPM1-ALK gives nuclear plus cytoplasmic staining."},
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "ALK+ LBCL shows granular cytoplasmic ALK with plasmablastic morphology, is CD30 weak or negative, and expresses plasma cell markers (CD138, MUM1)."},
+    {"dx": "ALK-negative ALCL", "vs": "ALK-negative ALCL can look identical on H&E and CD30 but lacks ALK staining and has a worse prognosis."},
+    {"dx": "Inflammatory myofibroblastic tumor", "vs": "IMT is ALK positive but consists of spindled myofibroblasts in an inflammatory background and is CD30 negative, SMA positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: ALK (presumed, unlabeled)",
+  "match": "consistent",
+  "high_yield": true
+}

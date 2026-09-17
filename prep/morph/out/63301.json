@@ -1,0 +1,21 @@
+{
+  "id": "63301",
+  "recognize_zh": "CD4/CD8 散佈圖中，異常族群（藍色）落在 CD4 陽性、CD8 陰性的位置，與正常 CD4 T 細胞（紅色）重疊，CD8 T 細胞（綠色）則位於右側；結合前面 sCD3−CD5+CD7− 的表現，可認出淋巴球型 HES 的 CD3−CD4+ 異常 T 細胞。",
+  "features": [
+    "Flow cytometry dot plot: CD8-ECD (x-axis) versus CD4-APC750 (y-axis), panel D",
+    "Aberrant population (blue) is CD4-positive and CD8-negative, overlapping with normal CD4+ T cells (red)",
+    "Discrete CD8-positive, CD4-negative T cells (green)",
+    "Orange events with dim CD4 and variable CD8 (likely NK cells/other)",
+    "Purple CD4-negative, CD8-negative events near the origin (B cells)"
+  ],
+  "describe_en": "Flow cytometric plot of CD8 versus CD4 shows that the aberrant population (blue) is CD4-positive and CD8-negative, overlapping the normal CD4+ T-cell compartment (red); normal CD8+ T cells (green) and double-negative lymphocytes (purple) are also seen. CD4/CD8 alone does not identify the abnormality, which is defined by the loss of surface CD3 and CD7 on these CD4+ cells in the companion plots. Findings are consistent with a CD3-CD4+ aberrant T-cell population of the lymphocytic variant of hypereosinophilic syndrome.",
+  "ddx": [
+    {"dx": "Sezary syndrome", "vs": "Also a CD4+CD8- population with CD7 loss, but typically retains surface CD3 and presents with erythroderma and cerebriform lymphocytes."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL is CD4+CD25 bright with frequent CD7 loss, HTLV-1 serology and flower cells, which are not features of lymphocytic HES."},
+    {"dx": "Normal CD4-predominant T-cell distribution", "vs": "A normal elevated CD4:CD8 ratio lacks a population with aberrant surface CD3 or CD7 loss, which must be confirmed on the other tubes."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

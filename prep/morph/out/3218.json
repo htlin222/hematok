@@ -1,0 +1,22 @@
+{
+  "id": "3218",
+  "recognize_zh": "單一顆中性球大小的細胞，細胞質淡粉紅帶細顆粒，細胞核卻變成數顆互不相連、深藍黑色、邊緣平滑的均質圓球，這是核固縮加核碎裂的凋亡中性球，常見於血液放置過久才抹片。",
+  "features": [
+    "Neutrophil-sized cell with pale pink cytoplasm containing fine granules",
+    "Nucleus replaced by several discrete round, dense, homogeneous dark blue fragments of varying size",
+    "No chromatin pattern or interlobar filaments between fragments",
+    "Cell outline intact; no vacuolization or ingested material",
+    "Background normochromic red cells and scattered normal platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows normochromic, normocytic red cells and scattered platelets. A cell with neutrophilic granular cytoplasm contains several discrete, round, dense and structureless nuclear fragments of varying size, representing pyknosis with karyorrhexis. There is no evidence of phagocytosed material or microorganisms. Findings are consistent with an apoptotic neutrophil, most often an in vitro artifact of prolonged sample storage before smear preparation.",
+  "ddx": [
+    {"dx": "Hypersegmented neutrophil", "vs": "True hypersegmentation shows connected lobes with visible chromatin texture rather than separate homogeneous spheres."},
+    {"dx": "Neutrophil containing Howell-Jolly-like or cryoglobulin inclusions", "vs": "Inclusions sit within a neutrophil that still has its own intact segmented nucleus."},
+    {"dx": "Karyorrhectic erythroblast", "vs": "Erythroid precursors have agranular orange-grey hemoglobinized cytoplasm, unlike the granular neutrophilic cytoplasm here."},
+    {"dx": "Pseudo-Pelger or dysplastic neutrophil", "vs": "Dysplastic neutrophils are hypolobated or hypogranular with coarse clumped chromatin but retain a structured, non-fragmented nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

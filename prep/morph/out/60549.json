@@ -1,0 +1,22 @@
+{
+  "id": "60549",
+  "recognize_zh": "骨髓抹片中成群聚集的小至中型圓形細胞，核圓或卵圓、染色質細緻呈點狀、細胞質極少，細胞之間有淡紫藍色、扭曲纏繞的纖維狀物（神經纖維網，neuropil），這種「小圓藍細胞群＋纖維網」是神經母細胞瘤骨髓轉移的特徵。",
+  "features": [
+    "Loose cohesive clusters of small to medium round cells with very high N:C ratio (10 um scale bar)",
+    "Round to oval nuclei with finely stippled (salt-and-pepper) chromatin and inconspicuous nucleoli; some nuclear molding",
+    "Scant, barely visible cytoplasm",
+    "Fibrillary pale purple-blue neuropil threads twisting between and extending from the tumor cells",
+    "Crushed, elongated smeared nuclei along the fibrillary strands; background red cells and a small blue-staining particle"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows clusters of small to medium round tumor cells that are foreign to the marrow, distributed among red cells. The cells have round to oval nuclei with finely stippled chromatin, inconspicuous nucleoli, occasional nuclear molding and scant cytoplasm. Characteristic fibrillary, twisted neuropil threads extend between the cells, with admixed crushed and elongated nuclei. Findings are consistent with metastatic neuroblastoma involving the marrow, confirmable with PHOX2B, synaptophysin or chromogranin immunostains and urine catecholamine metabolites.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are dispersed singly without cohesive clusters, nuclear molding or fibrillary neuropil, and they express TdT/CD34 rather than neural markers."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing cells form clusters with PAS-positive vacuolated cytoplasm but no neuropil, and are CD99 positive with EWSR1 rearrangement."},
+    {"dx": "Rhabdomyosarcoma (alveolar)", "vs": "Rhabdomyoblasts have more cytoplasm, multinucleation and vacuoles without neuropil and are desmin/myogenin positive with FOXO1 fusion."},
+    {"dx": "Medulloblastoma or retinoblastoma metastasis", "vs": "These may show Homer Wright rosettes but occur with a known CNS or ocular primary and lack elevated urinary catecholamines and PHOX2B expression."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

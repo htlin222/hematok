@@ -1,0 +1,22 @@
+{
+  "id": "10219",
+  "recognize_zh": "腦組織 H&E 可見血管周圍與腦實質內瀰漫浸潤的大型異型淋巴細胞，核大、不規則、染色質空泡狀並有明顯核仁，背景有空泡化神經膠質與凋亡碎片，在器官移植病人符合單形性 PTLD（瀰漫性大 B 細胞淋巴瘤型）。",
+  "features": [
+    "Dense diffuse infiltrate of large atypical lymphoid cells replacing brain parenchyma",
+    "Large irregular to oval nuclei with vesicular chromatin and conspicuous nucleoli",
+    "Infiltrate surrounds and involves the wall of a small blood vessel (angiocentric pattern)",
+    "Scattered apoptotic bodies and mitotic figures",
+    "Vacuolated neuropil background with admixed smaller lymphocytes"
+  ],
+  "describe_en": "Brain biopsy shows brain parenchyma diffusely infiltrated by sheets of large atypical lymphoid cells with an angiocentric distribution around and within the wall of a small vessel. The cells have large, irregular vesicular nuclei with conspicuous nucleoli and moderate amphophilic cytoplasm, accompanied by mitotic figures and apoptotic debris in a vacuolated neuropil background. No well-formed glial neoplasm is present. In a solid organ transplant recipient, and with the reported CD20/PAX5-positive, MUM1/BCL2-positive, CD10-negative, EBER-positive phenotype, findings are consistent with monomorphic post-transplant lymphoproliferative disorder, diffuse large B-cell lymphoma type.",
+  "ddx": [
+    {"dx": "Polymorphic PTLD", "vs": "Polymorphic PTLD shows a full range of B-cell maturation including small lymphocytes, plasma cells and immunoblasts, whereas monomorphic PTLD consists of sheets of large transformed cells meeting lymphoma criteria."},
+    {"dx": "Glioblastoma", "vs": "Glioblastoma shows GFAP-positive pleomorphic glial cells with microvascular proliferation and pseudopalisading necrosis, while this infiltrate is CD45/CD20 positive lymphoid cells."},
+    {"dx": "Toxoplasma or other opportunistic encephalitis", "vs": "Infectious encephalitis shows a mixed inflammatory infiltrate with necrosis and identifiable organisms, lacking sheets of atypical EBER-positive large B cells."},
+    {"dx": "Primary CNS lymphoma in immunocompetent host", "vs": "Morphology is identical; the transplant history and EBV positivity define PTLD, whereas immunocompetent PCNSL is usually EBV-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

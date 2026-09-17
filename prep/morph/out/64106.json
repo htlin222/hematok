@@ -1,0 +1,21 @@
+{
+  "id": "64106",
+  "recognize_zh": "右側一顆分葉嗜中性球胞質內有多個大小不一的白色透明空泡狀吞噬體，並夾雜粉紅色顆粒，左下角為一顆正常小淋巴球作對照；在冷凝球蛋白血症中，這些比一般毒性空泡更大的白色吞噬體代表吞噬的冷凝球蛋白。",
+  "features": [
+    "Segmented neutrophil with multiple clear, variably sized cytoplasmic vacuoles/phagosomes",
+    "Some phagosomes larger than typical toxic vacuoles",
+    "Scattered pink-violet cytoplasmic granules",
+    "Small mature lymphocyte at the lower left for size comparison",
+    "Red cells with central pallor; image is somewhat blurred, limiting fine detail"
+  ],
+  "describe_en": "Peripheral blood smear shows a segmented neutrophil with multiple clear cytoplasmic vacuoles of variable size, some larger than ordinary toxic vacuoles, together with scattered pink-violet granules. A small mature lymphocyte is present nearby, and the red cells are unremarkable. The image is slightly out of focus, so the contents of the vacuoles cannot be characterized. In the context of cryoglobulinemic vasculitis, the findings are consistent with neutrophil phagocytosis of cryoglobulin.",
+  "ddx": [
+    {"dx": "Toxic changes of infection", "vs": "Sepsis produces small uniform vacuoles with coarse toxic granules and Döhle bodies, while phagocytosed cryoglobulin forms larger, irregular phagosomes."},
+    {"dx": "EDTA storage artifact", "vs": "Artifactual vacuoles are small, appear in delayed samples, and affect many cells uniformly without large phagosomes."},
+    {"dx": "Phagocytosed microorganisms", "vs": "Bacteria or yeasts are visible as basophilic structures within vacuoles, which are not seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

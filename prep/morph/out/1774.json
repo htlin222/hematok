@@ -1,0 +1,22 @@
+{
+  "id": "1774",
+  "recognize_zh": "胸水細胞離心抹片中央有一小團5顆緊密相貼、核互相擠壓（molding）的小圓細胞，核質比高、細胞質極少，與周圍散在的巨噬細胞明顯不同；這種小圓藍細胞團塊符合轉移性神經母細胞瘤（neuroblastoma）。",
+  "features": [
+    "Tight cohesive cluster of about five small round tumor cells with nuclear molding",
+    "High N:C ratio with scant, pale to basophilic cytoplasm",
+    "Round nuclei with finely granular chromatin; nucleoli not clearly resolved",
+    "Scattered larger reactive macrophages/mesothelial cells with abundant frothy cytoplasm around the cluster",
+    "Paucicellular background; low magnification limits cytologic detail and no neuropil or rosettes are seen"
+  ],
+  "describe_en": "Cytocentrifuge preparation of pleural fluid shows a paucicellular background of scattered macrophages and mesothelial cells. In the center there is a tight cohesive cluster of small round cells with high N:C ratios, scant cytoplasm, and nuclear molding, distinct from the background reactive cells. Rosettes or fibrillary neuropil are not identified, and the low magnification limits assessment of chromatin and nucleoli. In a child with a known adrenal/paraspinal mass, findings are consistent with metastatic neuroblastoma; confirmation by immunocytochemistry (PHOX2B, synaptophysin) is recommended.",
+  "ddx": [
+    {"dx": "Lymphoblastic lymphoma/leukemia effusion", "vs": "Lymphoblasts are discohesive single cells without molding and are TdT/CD3 or CD19 positive rather than PHOX2B positive."},
+    {"dx": "Reactive mesothelial cell cluster", "vs": "Mesothelial cells have more abundant dense cytoplasm, windows between cells, and calretinin positivity."},
+    {"dx": "Other small round blue cell tumors (Ewing sarcoma, rhabdomyosarcoma)", "vs": "Separated by immunostains such as CD99/NKX2.2 for Ewing and myogenin/desmin for rhabdomyosarcoma."},
+    {"dx": "Small cell carcinoma", "vs": "Occurs in adults with similar molding but is keratin positive and PHOX2B negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "64938",
+  "recognize_zh": "這是血液分析儀的列印報告，不是 EDTA 採血管照片：37°C 保溫後重新上機，WBC 5.1、HGB 10.1、PLT 126 等數值與直方圖都能正常產出，代表冷凝球蛋白造成的凝集與計數干擾已被溫熱排除。",
+  "features": [
+    "Automated hematology analyzer printout (CBC with differential, histograms and WBC scattergram)",
+    "WBC 5.1 x10^3/uL with relative lymphocytosis (LY 50.8%) and low neutrophils (NE 2.0 x10^3/uL)",
+    "RBC 3.59 x10^6/uL, HGB 10.1 g/dL, HCT 30.6%, MCV 85.3 fL, MCHC 32.9 g/dL (normal, not spuriously elevated), RDW 16.5% high",
+    "PLT 126 x10^3/uL with MPV 11.6 fL; platelet histogram shows a single smooth curve without a large-particle tail",
+    "WBC and RBC histograms show well-separated populations without obvious interference peaks"
+  ],
+  "describe_en": "The figure is an automated hematology analyzer printout obtained after incubating the specimen at 37 degrees Celsius. It reports WBC 5.1 x10^3/uL with relative lymphocytosis, normocytic anemia (hemoglobin 10.1 g/dL, MCV 85.3 fL) with a normal MCHC and elevated RDW, and mild thrombocytopenia (126 x10^3/uL). The histograms and scattergram are well formed without obvious interference signals. The internally consistent indices after warming indicate that cold-precipitating protein (cryoglobulin) interference has been reversed, and these values should be reported in preference to the unwarmed results; this is a non-morphologic laboratory figure and does not by itself establish the underlying lymphoplasmacytic lymphoma.",
+  "ddx": [
+    {"dx": "Cold agglutinin interference", "vs": "Cold agglutinins cause spuriously low RBC with high MCV and MCHC that correct on warming and show red cell agglutinates on smear, whereas cryoglobulins also produce pale blue extracellular deposits and spurious WBC/platelet counts."},
+    {"dx": "EDTA-dependent platelet clumping (pseudothrombocytopenia)", "vs": "Platelet clumping is corrected by citrate collection rather than warming and shows platelet aggregates on the smear."},
+    {"dx": "True cytopenias from marrow involvement", "vs": "Genuine cytopenias persist after warming and on a prewarmed smear, unlike artifactual changes."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (analyzer printout)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

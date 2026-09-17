@@ -1,0 +1,21 @@
+{
+  "id": "66085",
+  "recognize_zh": "箭頭指的細胞大小約同紅血球，含一顆小而圓、非常緻密深紫色的核（染色質幾乎無結構），周圍是淡灰紫色胞質，這是有核紅血球（NRBC）中的正染性紅母細胞（orthochromatic normoblast）。",
+  "features": [
+    "Small cell about the size of a red cell with a single round, pyknotic, homogeneously dark nucleus",
+    "Chromatin fully condensed without visible structure or nucleoli",
+    "Moderate amount of lilac-gray cytoplasm, slightly bluer than surrounding mature red cells",
+    "Adjacent large mononuclear cell with open chromatin and gray vacuolated cytoplasm, a band/segmented neutrophil at top right",
+    "Background red cells largely normochromic with occasional irregular forms"
+  ],
+  "describe_en": "Peripheral blood smear shows a nucleated red blood cell (arrow) of approximately red cell size, with a small, round, pyknotic nucleus with homogeneously condensed chromatin and a rim of lilac-gray cytoplasm. Nearby are a larger mononuclear cell with open chromatin and vacuolated gray cytoplasm and a band neutrophil. Red cells are largely normochromic. Findings are consistent with a circulating late (orthochromatic) normoblast; NRBCs in adult blood suggest marrow stress, hemolysis, hypoxia or marrow infiltration.",
+  "ddx": [
+    {"dx": "Small mature lymphocyte", "vs": "Lymphocytes have a larger nucleus with clumped but visible chromatin and a thin rim of sky-blue cytoplasm, unlike the tiny pyknotic nucleus in pink-gray hemoglobinized cytoplasm."},
+    {"dx": "Red cell with overlying platelet or Howell-Jolly body", "vs": "Howell-Jolly bodies and platelets are much smaller than this nucleus and lack a well-defined nuclear shape occupying a large portion of the cell."},
+    {"dx": "Polychromatic normoblast", "vs": "Polychromatic normoblasts have a larger nucleus with checkerboard chromatin and bluer cytoplasm, whereas this nucleus is fully condensed and pyknotic."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

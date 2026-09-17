@@ -1,0 +1,23 @@
+{
+  "id": "1653",
+  "recognize_zh": "周邊血液中兩顆異常前骨髓細胞：右側細胞核呈雙葉（蝴蝶狀），細胞質有密集紫紅色顆粒；左側細胞質帶空泡，箭頭指一顆圓形紫紅色大型包涵體（異常大顆粒，類 Chédiak-Higashi 顆粒）。這些特徵是 APL 的線索。",
+  "features": [
+    "Two large abnormal promyelocytes with abundant cytoplasm",
+    "Right cell with bilobed (butterfly-like) nucleus and dense purple azurophilic granules",
+    "Left cell with round nucleus, visible nucleoli and vacuolated cytoplasm",
+    "Arrow: round reddish-purple cytoplasmic inclusion consistent with a giant abnormal granule (pseudo-Chédiak-Higashi type)",
+    "Partial third cell with folded nucleus at lower left",
+    "Background red cells including an echinocyte"
+  ],
+  "describe_en": "Peripheral blood smear shows two large abnormal promyelocytes. One has a bilobed, butterfly-shaped nucleus and cytoplasm containing dense purple azurophilic granules, while the other has a round nucleus with nucleoli, vacuolated cytoplasm and a round reddish-purple cytoplasmic inclusion (arrow) consistent with a giant abnormal granule rather than a slender Auer rod. A partially visualized cell with a folded nucleus is present at the lower left. Findings are consistent with acute promyelocytic leukemia; this is a medical emergency, and urgent coagulation studies and PML::RARA confirmation (FISH/RT-PCR) with immediate ATRA are indicated.",
+  "ddx": [
+    {"dx": "AML with maturation", "vs": "Myeloblasts have fewer granules, round nuclei and occasional single Auer rods, lacking bilobed hypergranular promyelocytes and PML::RARA."},
+    {"dx": "Reactive promyelocytes (G-CSF effect, marrow regeneration)", "vs": "Normal promyelocytes have round eccentric nuclei with a Golgi hof and appear with a full maturing myeloid spectrum, not bilobed nuclei or giant granules."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monocytic blasts have folded nuclei with grey-blue, finely granular cytoplasm and are NSE-positive with weak MPO, unlike strongly MPO-positive hypergranular APL cells."},
+    {"dx": "Chédiak-Higashi syndrome neutrophils", "vs": "Inherited giant granules occur in mature neutrophils and lymphocytes with normal nuclear maturation, not in leukemic promyelocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

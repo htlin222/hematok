@@ -1,0 +1,22 @@
+{
+  "id": "64978",
+  "recognize_zh": "一顆雙核巨噬細胞的細胞質右上方有數個小型卵圓形微生物，中心深染、外圍有清楚透明暈（halo），大小約為血小板等級且位於細胞內，符合被吞噬的莢膜組織漿菌（Histoplasma capsulatum）酵母形體。",
+  "features": [
+    "Large macrophage with two oval nuclei and abundant pale blue vacuolated cytoplasm with frayed borders",
+    "A few small (about 2-4 µm) oval intracellular organisms in the upper cytoplasm",
+    "Organisms with a dark crescent-shaped staining center surrounded by a clear halo",
+    "No kinetoplast or bar-like structure appreciated; resolution is limited and the image is blurred",
+    "Background lymphocytes and crenated red cell aggregates"
+  ],
+  "describe_en": "Bone marrow aspirate (or smear) shows a large binucleated macrophage with vacuolated cytoplasm containing a few small oval intracellular organisms, each with a darkly staining crescentic center and a surrounding clear halo. The organisms are few in number and the image resolution is limited, so fine detail such as budding or a kinetoplast cannot be assessed. The morphology favors small intracellular yeasts. Findings are consistent with phagocytosed Histoplasma capsulatum; confirmation with GMS/PAS stains, culture or antigen testing is recommended.",
+  "ddx": [
+    {"dx": "Leishmania donovani (amastigotes)", "vs": "Leishmania amastigotes have a nucleus plus a rod-shaped kinetoplast and lack a surrounding clear halo, and are GMS-negative."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts are elongated with a central transverse septum dividing by fission rather than budding."},
+    {"dx": "Toxoplasma gondii", "vs": "Toxoplasma tachyzoites are crescentic with a central nucleus and no halo, and are GMS-negative."},
+    {"dx": "Ingested platelets or cellular debris", "vs": "Platelets are granular purple fragments without a well-defined wall and clear halo."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

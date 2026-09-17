@@ -1,0 +1,21 @@
+{
+  "id": "63271",
+  "recognize_zh": "CD7/CD34 流式散佈圖中，紅色芽細胞族群位於上方，CD34 異常強陽性且帶有弱 CD7，紫色正常 T 細胞為 CD7+CD34−，棕色成熟嗜中性球與單核球兩者皆陰性；骨髓系芽細胞異常表現 CD7 且 CD34 偏亮，是 TAM／唐氏症相關芽細胞常見的表型。",
+  "features": [
+    "Flow cytometry dot plot: CD7-APC700 (x-axis) versus CD34-PC7 (y-axis) with quadrant gates",
+    "Red blast population: bright CD34 with dim CD7, spanning into the CD34+CD7+ quadrant",
+    "Purple normal T cells: CD7-positive (brighter than blasts) and CD34-negative",
+    "Brown mature neutrophils and monocytes: CD34-negative and CD7-negative (lower-left quadrant)",
+    "Blast CD7 intensity is clearly lower than that of normal T cells, confirming dim aberrant expression"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD7 versus CD34 shows a large blast population (red) with abnormally bright CD34 and dim, aberrant CD7 expression. Normal T cells (purple) express brighter CD7 without CD34, and mature neutrophils and monocytes (brown) are negative for both, serving as internal controls. Together with CD33 and CD117 co-expression on the blasts, this aberrant myeloid blast phenotype in a neonate with Down syndrome is consistent with transient abnormal myelopoiesis; CD7 expression alone does not indicate T lineage.",
+  "ddx": [
+    {"dx": "Myeloid leukemia associated with Down syndrome", "vs": "Shares the CD34+CD7+ myeloid/megakaryoblastic phenotype and is separated clinically by age, persistence and additional mutations rather than by flow cytometry."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL is CD7+CD34+ but expresses cytoplasmic CD3 and lacks the megakaryocytic markers (CD41/CD61) typical of TAM blasts."},
+    {"dx": "Mixed phenotype acute leukemia, T/myeloid", "vs": "Requires bright cytoplasmic CD3 on the blasts, whereas dim CD7 on myeloid blasts is a common non-lineage-defining aberrancy."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

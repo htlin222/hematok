@@ -1,0 +1,31 @@
+{
+  "id": "136",
+  "recognize_zh": "血液抹片與骨髓切片只看到成熟、形態正常的嗜酸性球增多，沒有母細胞或非典型淋巴球；線索在流式細胞圖：一群 CD3 陰性、CD5 強陽性、CD4 陽性、CD8 陰性並部分失去 CD7 的異常 T 細胞，支持淋巴球變異型嗜酸性球增多症候群（L-HES）。",
+  "features": [
+    "Peripheral blood eosinophilia composed of mature bilobed eosinophils with abundant orange-red granules and no obvious hypogranularity, hypersegmentation or vacuolization",
+    "Occasional small lymphocytes without convincing atypia; no circulating blasts or immature myeloid cells; unremarkable red cells",
+    "Marrow core mildly hypercellular with preserved trilineage hematopoiesis and increased eosinophils and eosinophilic precursors",
+    "Megakaryocytes normal in number and morphology; no blast clusters, fibrosis or mast cell aggregates evident",
+    "Flow cytometry: aberrant T-cell population that is surface CD3-negative, bright CD5+, CD2 bright, CD4+, CD8- with partial loss of CD7, separate from normal CD3+ T cells"
+  ],
+  "describe_en": "Peripheral blood smear shows eosinophilia consisting of mature, morphologically unremarkable eosinophils with bilobed nuclei and abundant granules; lymphocytes are few and lack cytologic atypia, and no blasts are seen. The bone marrow core biopsy is mildly hypercellular with trilineage hematopoiesis, increased mature eosinophils and eosinophilic precursors, and morphologically normal megakaryocytes, without increased blasts or fibrosis. Flow cytometry of peripheral blood identifies an immunophenotypically aberrant T-cell population that lacks surface CD3 but expresses bright CD5, CD2 and CD4, is CD8-negative, and shows partial loss of CD7. Morphology alone is nonspecific; together with the aberrant CD3-/CD4+ T-cell population (and a clonal TCR rearrangement with negative PDGFRA/PDGFRB/FGFR1/JAK2/BCR-ABL1 studies per history), findings are consistent with the lymphocytic variant of hypereosinophilic syndrome.",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with PDGFRA rearrangement (FIP1L1-PDGFRA)", "vs": "Morphology may be identical, so the discriminator is ancillary: FISH/RT-PCR for FIP1L1-PDGFRA (often with elevated tryptase and B12, spindled mast cells) versus a normal tryptase and an aberrant CD3-/CD4+ T-cell clone here."},
+    {"dx": "Reactive eosinophilia (atopy, drug, parasitic infection)", "vs": "Also shows mature normal eosinophils, but lacks an immunophenotypically aberrant clonal T-cell population on flow cytometry and TCR studies."},
+    {"dx": "Chronic eosinophilic leukemia, NOS", "vs": "Requires a myeloid clonal marker or increased blasts (>2% PB or 5-19% BM) and often shows dysplastic eosinophils, whereas this marrow has no blast increase and the clone is T-lymphoid."},
+    {"dx": "Mature T-cell lymphoma with eosinophilia (e.g., Sezary syndrome, peripheral T-cell lymphoma)", "vs": "Those show overtly atypical (cerebriform or large) circulating or tissue T cells with loss of multiple pan-T antigens and organ infiltration, while L-HES T cells are cytologically bland and the disease is indolent."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E; flow cytometry",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "PB, low power: increased mature eosinophils with a lymphocyte and normal red cells",
+    "PB, high power: three mature bilobed eosinophils with normal granulation and a bland lymphocyte",
+    "BM biopsy H&E, low power: mildly hypercellular marrow with trilineage hematopoiesis",
+    "BM biopsy H&E, high power: increased eosinophils and eosinophilic precursors with a normal megakaryocyte",
+    "Flow, CD5 vs CD3: gated CD3-negative, bright CD5+ aberrant T-cell population (blue) separate from normal CD3+ T cells",
+    "Flow, CD4 vs CD8: aberrant population is CD4+ CD8-",
+    "Flow, CD2 vs CD7 (lymphocyte gate): aberrant population is bright CD2+ with partial loss of CD7"
+  ]
+}

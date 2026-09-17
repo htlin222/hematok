@@ -1,0 +1,21 @@
+{
+  "id": "61653",
+  "recognize_zh": "骨髓切片 CD117 免疫染色中，大多數浸潤細胞呈強陽性棕色胞質/膜染色，僅殘存少數小型陰性（藍色）細胞，顯示 CD117 陽性的不成熟髓系細胞大量取代骨髓，支持 APL 的免疫表型（CD117 常陽性、CD34 常陰性）。",
+  "features": [
+    "Diffuse strong brown CD117 staining in the majority of infiltrating cells",
+    "Granular cytoplasmic and membranous staining pattern in large cells with abundant cytoplasm",
+    "Interspersed small CD117-negative cells with blue hematoxylin-counterstained nuclei",
+    "Near-complete replacement of marrow by the positive population",
+    "Scattered unstained fat/vacuolated spaces"
+  ],
+  "describe_en": "Immunohistochemical stain for CD117 on the bone marrow core biopsy highlights a diffuse population of large cells with abundant cytoplasm showing strong granular cytoplasmic and membranous positivity, comprising the majority of marrow cellularity. Interspersed small cells, likely residual erythroid precursors and lymphocytes, are negative. In conjunction with H&E morphology and CD34 negativity, this pattern supports an infiltrate of immature myeloid cells consistent with acute promyelocytic leukemia; CD117 is not specific and PML::RARA confirmation is required.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis", "vs": "Mast cells are also strongly CD117-positive, but they form spindled paratrabecular/perivascular aggregates and are tryptase- and CD25-positive, MPO-negative."},
+    {"dx": "Other CD117-positive AML", "vs": "Most AMLs express CD117 but are usually CD34 and HLA-DR positive, whereas APL is typically CD34 and HLA-DR negative with strong MPO."},
+    {"dx": "Gastrointestinal stromal tumor or melanoma metastasis", "vs": "These CD117-positive tumors are cohesive, CD45- and MPO-negative, and express DOG1 or melanocytic markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD117",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "64455",
+  "recognize_zh": "同一視野中可見原始細胞（myeloblast）、骨髓細胞（myelocyte）、帶狀核與分葉中性球，並伴隨多個嗜酸性球與嗜鹼性球，呈現「整條成熟譜系」的顆粒球增生，是慢性骨髓性白血病（CML）周邊血的典型表現。",
+  "features": [
+    "Marked granulocytosis spanning the full maturation spectrum: myeloblasts, myelocytes, bands and segmented neutrophils",
+    "Myeloblasts (1): large cells with high N:C ratio, fine chromatin and moderate agranular basophilic cytoplasm",
+    "Myelocytes (2): round to oval eccentric nuclei with condensed chromatin and granular cytoplasm",
+    "Absolute eosinophilia: several eosinophils (3) with coarse orange-red granules",
+    "Basophil (4) with dense purple-black granules obscuring the nucleus",
+    "Background red cells largely normocytic without significant dysplastic changes in the neutrophils"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed of granulocytes at all stages of maturation, including occasional myeloblasts, myelocytes, band forms and segmented neutrophils, with a characteristic 'myelocyte bulge' pattern. Eosinophils are increased and a basophil is present. The maturing neutrophils lack significant dysplasia (no hypogranulation or pseudo-Pelger-Huet forms). Red cells are unremarkable. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, in chronic phase; confirmation by BCR::ABL1 FISH/RT-PCR is required.",
+  "ddx": [
+    {"dx": "Leukemoid reaction (infection, G-CSF)", "vs": "Leukemoid reactions show toxic granulation and Döhle bodies without absolute basophilia or eosinophilia, and lack BCR::ABL1."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML shows prominent granulocytic dysplasia (hypogranular, abnormally segmented neutrophils) with minimal basophilia, whereas CML neutrophils are morphologically normal."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL consists predominantly of mature segmented neutrophils with <10% immature granulocytes and no basophilia."},
+    {"dx": "CML in accelerated/blast phase", "vs": "Blast phase requires ≥20% blasts (or extramedullary blast proliferation), and ≥20% basophils is a high-risk feature, beyond the occasional blasts seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

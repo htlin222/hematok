@@ -1,0 +1,22 @@
+{
+  "id": "5858",
+  "recognize_zh": "CD163 免疫染色下，組織內大片細胞呈強棕色膜及細胞質陽性，血管腔內還聚集體積明顯較大、有空泡或多核的異型陽性細胞，顯示這些異型細胞為組織球（巨噬細胞）來源。",
+  "features": [
+    "Diffuse sheets of cells with strong membranous and cytoplasmic CD163 positivity infiltrating the tissue",
+    "Clusters of large atypical CD163-positive cells within dilated vascular/sinusoidal spaces",
+    "Intravascular cells show abundant cytoplasm, some vacuolated, with occasional multinucleated or bizarre forms",
+    "Negative fibrous stroma and vessel walls at the top of the field",
+    "Hematoxylin counterstain; nuclear detail limited by strong chromogen"
+  ],
+  "describe_en": "Immunohistochemical stain for CD163 shows diffuse sheets of strongly positive cells infiltrating the tissue, together with clusters of large atypical, occasionally vacuolated or multinucleated CD163-positive cells lying within dilated vascular or sinusoidal spaces. The fibrous stroma is negative. Nuclear atypia is difficult to assess under the dense chromogen and should be evaluated on the H&E. Findings support histiocytic (macrophage) lineage of the atypical cells and, in a patient with a prior hematologic neoplasm, are consistent with secondary histiocytic sarcoma/malignant histiocytosis, although reactive histiocytes must be excluded by morphology and clonal studies.",
+  "ddx": [
+    {"dx": "Reactive histiocytosis or hemophagocytic lymphohistiocytosis", "vs": "Reactive histiocytes are CD163 positive but cytologically bland, without marked nuclear atypia, mitoses or clonal genetic alterations shared with the prior neoplasm."},
+    {"dx": "Anaplastic large cell lymphoma or other large cell lymphoma with intrasinusoidal spread", "vs": "Lymphoma cells are CD163 negative and express CD30, ALK or lymphoid lineage markers."},
+    {"dx": "Langerhans cell histiocytosis or sarcoma", "vs": "Langerhans cells have grooved nuclei and are CD1a and langerin (CD207) positive, whereas CD163 is typically negative."},
+    {"dx": "Myeloid sarcoma with monocytic differentiation", "vs": "It can express CD163 but also shows CD34, CD117, MPO or lysozyme with blastic cytology and usually coexistent marrow AML."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD163",
+  "match": "consistent",
+  "high_yield": false
+}

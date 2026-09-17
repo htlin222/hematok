@@ -1,0 +1,32 @@
+{
+  "id": "15",
+  "recognize_zh": "骨髓抹片幾乎全是各階段顆粒球系（明顯骨髓系優勢），有核紅血球前驅細胞極少，只偶見早期原紅血球（胞質深藍）；巨核細胞存在，流式也看不到 CD45 陰性/CD71 陽性的紅血球族群，這種單純紅血球系發育不良是 Diamond-Blackfan 貧血的表現。",
+  "features": [
+    "BM aspirate: marked myeloid predominance with a full spectrum of granulocytic maturation (myeloblasts to segmented neutrophils)",
+    "Near absence of maturing erythroid precursors; only rare early erythroid precursors (pronormoblast-like cells with deeply basophilic cytoplasm and fine chromatin)",
+    "Megakaryocytes present with normal-appearing lobated nuclei; no dysplasia evident",
+    "Hemosiderin-laden macrophage with coarse blue-black granules (consistent with transfusional iron)",
+    "Occasional cells with condensed, fragmented nuclear material raising possible apoptosis",
+    "Flow: no distinct CD45-negative low-SSC erythroid cluster and virtually no CD71-positive events"
+  ],
+  "describe_en": "Bone marrow aspirate smears show a marked myeloid predominance, with granulocytic precursors at all stages of maturation and no significant dysplasia or increase in blasts. Erythroid precursors are strikingly reduced, with only rare early forms (pronormoblasts with deeply basophilic cytoplasm) and a near absence of polychromatophilic and orthochromatic normoblasts; megakaryocytes are present. Hemosiderin-laden macrophages are seen, and occasional cells with fragmented condensed nuclei suggest apoptosis. Flow cytometry shows no CD45-negative erythroid population and virtually no CD71-positive events, supporting severe erythroid hypoplasia. In a transfusion-dependent young child with isolated anemia and an RPS19 mutation, findings are consistent with Diamond-Blackfan anemia.",
+  "ddx": [
+    {"dx": "Transient erythroblastopenia of childhood (TEC)", "vs": "TEC also shows erythroid aplasia but occurs in older toddlers, is self-limited with normal MCV and HbF and normal erythrocyte adenosine deaminase, without ribosomal protein gene mutations."},
+    {"dx": "Parvovirus B19-associated pure red cell aplasia", "vs": "Parvovirus shows giant pronormoblasts with glassy intranuclear inclusions and positive B19 PCR, rather than the unremarkable rare early erythroid precursors seen here."},
+    {"dx": "Fanconi anemia and other inherited marrow failure", "vs": "Fanconi anemia typically causes multilineage cytopenias with global hypocellularity and positive chromosome breakage, whereas this marrow has isolated erythroid loss with preserved myeloid and megakaryocytic lines."},
+    {"dx": "Pearson syndrome", "vs": "Pearson syndrome shows vacuolated erythroid and myeloid precursors with ring sideroblasts and mitochondrial DNA deletion, features not seen in these smears."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; flow cytometry (CD45, CD33, HLA-DR, CD71)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Bone marrow aspirate: hemosiderin-laden macrophage with coarse blue-black granules",
+    "Bone marrow aspirate: marked myeloid predominance with a megakaryocyte; arrow marks a rare early erythroid precursor",
+    "Bone marrow aspirate: myeloid predominance with maturing granulocytes and scant erythroid cells",
+    "Bone marrow aspirate, low and high power: myeloid predominance with a rare early erythroid precursor",
+    "Bone marrow aspirate: cells with fragmented condensed nuclei, possibly apoptotic",
+    "Flow cytometry, FSC/SSC and CD45/SSC: no CD45-negative erythroid precursor population",
+    "Flow cytometry panel including CD71: virtually no CD71-positive erythroid events"
+  ]
+}

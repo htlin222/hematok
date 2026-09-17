@@ -1,0 +1,21 @@
+{
+  "id": "3521",
+  "recognize_zh": "低倍下骨髓細胞豐富，除了各階段成熟的顆粒球系與紅血球系外，混有不少大小不一、核形不規則的淋巴樣細胞；單憑此圖無法確認淋巴瘤，需搭配切片與流式細胞儀。",
+  "features": [
+    "Cellular aspirate with maturing granulocytic elements (myelocytes to segmented neutrophils)",
+    "Numerous round, dark erythroid precursors",
+    "Scattered medium to large mononuclear cells with irregular nuclei and moderate pale cytoplasm, some possibly atypical lymphoid cells",
+    "Occasional eosinophils",
+    "Low magnification limits nuclear detail; atypical lymphoid cells not clearly separable from normal precursors"
+  ],
+  "describe_en": "Low-power view of the bone marrow aspirate smear shows a cellular specimen with trilineage hematopoiesis, including maturing granulocytic and erythroid elements and occasional eosinophils. Scattered medium to large mononuclear cells with irregular nuclear contours are present, which may represent atypical lymphoid cells, but they cannot be confidently distinguished from normal precursors at this magnification. Morphology alone is insufficient; correlation with the trephine biopsy, immunohistochemistry, and flow cytometry is needed to document involvement by peripheral T-cell lymphoma, NOS.",
+  "ddx": [
+    {"dx": "Reactive marrow with lymphocytosis", "vs": "Reactive lymphocytes are polyclonal with a normal T-cell antigen profile, whereas PTCL shows aberrant antigen loss on flow cytometry and clonal TCR rearrangement."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows a TFH phenotype (CD10, PD1, CXCL13, ICOS) with EBV-positive B cells, which requires immunophenotyping rather than aspirate morphology."},
+    {"dx": "Myeloid neoplasm with left shift", "vs": "A myeloid neoplasm would show increased blasts or dysplasia in granulocytes rather than a distinct atypical lymphoid population."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

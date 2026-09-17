@@ -1,0 +1,21 @@
+{
+  "id": "61941",
+  "recognize_zh": "低倍IgD染色下一個巨大、不規則的結節被IgD陽性小B細胞填滿，其中散布數個淡染、IgD陰性的生發中心殘島，旁邊另有一個較小的IgD陽性結節，是IgD+外套細胞侵入並瓦解生發中心的PTGC圖像。",
+  "features": [
+    "Very large, irregular nodule diffusely populated by IgD-positive small B cells",
+    "Multiple pale, IgD-negative islands representing fragmented residual germinal centers",
+    "Smaller adjacent IgD-positive nodule at the right edge",
+    "IgD-negative interfollicular/paracortical zones surrounding the nodule",
+    "Capsule visible at the lower left"
+  ],
+  "describe_en": "Low-power IgD immunostain of lymph node shows a very large irregular nodule diffusely populated by IgD-positive small mantle B cells, within which several pale IgD-negative islands of residual germinal center are dispersed. A smaller IgD-positive nodule lies nearby, and the surrounding paracortex is largely IgD-negative. The expansion of IgD-positive mantle cells into and around fragmented germinal centers is characteristic of progressive transformation of germinal centers.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "NLPHL nodules are also rich in IgD+ small B cells, so the discriminator is the presence of LP cells (CD20+/OCT2+) with PD1+ rosettes and CD21+ FDC meshworks expanded throughout the node."},
+    {"dx": "Mantle cell lymphoma, nodular pattern", "vs": "MCL nodules are cyclin D1/SOX11 and CD5-positive monotypic B cells, often with naked germinal centers rather than fragmented germinal-center islands."},
+    {"dx": "Follicular lymphoma", "vs": "FL shows crowded neoplastic follicles with little IgD+ mantle and BCL2+/CD10+ germinal center cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: IgD",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61071",
+  "recognize_zh": "影像組合包含右心房周圍浸潤腫塊、雙側腎周軟組織包覆（hairy kidney）、股骨遠端骨幹骨硬化與骨掃描雙側膝部對稱性攝取增加；組織學為富含淡染泡沫狀細胞質的組織球（箭頭），這些多系統表現合起來即 Erdheim-Chester 病。",
+  "features": [
+    "MRI (A): soft-tissue mass infiltrating the right atrial wall/atrioventricular groove region (arrow), explaining conduction disturbance",
+    "CT (B): bilateral perirenal soft-tissue infiltration encasing the kidneys (hairy kidney appearance)",
+    "Radiograph (C): patchy sclerosis of the distal femoral metadiaphysis sparing the epiphysis",
+    "Bone scan (D): bilateral, symmetric increased tracer uptake in the distal femora and proximal tibiae around the knees",
+    "Histology (E): histiocytes with abundant pale, finely vacuolated (foamy) cytoplasm and bland small nuclei (arrows) in a fibrotic background with scattered lymphocytes"
+  ],
+  "describe_en": "Multimodality imaging demonstrates a right atrial/pericardial infiltrative mass, bilateral perirenal soft-tissue encasement, sclerotic lesions of the distal femoral metadiaphysis, and symmetric increased tracer uptake about both knees on bone scintigraphy. Biopsy shows an infiltrate of histiocytes with abundant pale foamy cytoplasm and bland nuclei (arrows) within fibrous stroma. The immunophenotype is not shown. Together, findings are consistent with Erdheim-Chester disease with cardiac involvement presenting as bradycardia; confirmation with CD68/CD163 positivity, CD1a/langerin negativity and BRAF V600E or MAPK-pathway mutation testing is recommended.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells have grooved coffee-bean nuclei, are CD1a/langerin positive, and usually cause lytic rather than symmetric sclerotic long-bone lesions."},
+    {"dx": "Rosai-Dorfman disease", "vs": "RDD histiocytes are S100 positive with emperipolesis and typically involve lymph nodes, lacking symmetric metadiaphyseal sclerosis."},
+    {"dx": "IgG4-related disease (retroperitoneal fibrosis)", "vs": "IgG4-RD shows storiform fibrosis, obliterative phlebitis and abundant IgG4+ plasma cells rather than foamy CD68+ histiocytes and bone sclerosis."},
+    {"dx": "Cardiac lymphoma or angiosarcoma", "vs": "These show sheets of atypical CD20+ lymphoid cells or CD31/ERG+ malignant vascular channels rather than bland foamy histiocytes."}
+  ],
+  "specimen": "radiology",
+  "stain": "H&E; MRI; CT; radiograph; bone scintigraphy",
+  "match": "consistent",
+  "high_yield": true
+}

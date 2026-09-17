@@ -1,0 +1,21 @@
+{
+  "id": "1531",
+  "recognize_zh": "骨髓抹片中可見多個大型芽細胞（藍色胞質、細緻染色質），並混有帶橘粉色顆粒胞質的前骨髓細胞與骨髓細胞，呈現「芽細胞加上顆粒球成熟」的組合，這是 t(8;21) AML 常見的有成熟分化型態。",
+  "features": [
+    "Increased blasts with moderate basophilic cytoplasm, fine chromatin and round to indented nuclei",
+    "Admixed maturing granulocytes (promyelocytes, myelocytes) with salmon-pink granular cytoplasm",
+    "Some larger granulated cells with abnormal-appearing, poorly condensed nuclei suggesting dysgranulopoiesis",
+    "Scattered small lymphocytes and erythroid precursors",
+    "Prominent red cell rouleaux, likely reflecting a thick smear area"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows an increase in blasts with moderate basophilic cytoplasm and fine nuclear chromatin, accompanied by maturing granulocytic cells including promyelocytes and myelocytes with orange-pink granular cytoplasm. Some granulocytic precursors appear large with abnormal nuclear-cytoplasmic maturation. Scattered lymphocytes and erythroid precursors are present, and red cells show rouleaux, probably related to smear thickness. Findings are consistent with acute myeloid leukemia with maturation and are compatible with AML with t(8;21)(q22;q22.1); RUNX1::RUNX1T1 in the appropriate genetic context.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL shows a predominance of abnormal hypergranular promyelocytes with folded nuclei and Auer rod bundles rather than blasts with orderly granulocytic maturation."},
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "MDS with increased blasts has fewer than 20% blasts, but t(8;21) defines AML regardless of blast count."},
+    {"dx": "Plasma cell neoplasm (because of rouleaux)", "vs": "Myeloma would show atypical plasma cells with eccentric nuclei and perinuclear hofs rather than myeloblasts and granulocytic precursors."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

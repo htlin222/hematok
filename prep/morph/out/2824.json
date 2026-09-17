@@ -1,0 +1,22 @@
+{
+  "id": "2824",
+  "recognize_zh": "畫面擠滿白血球，涵蓋骨髓細胞、後骨髓細胞、帶狀及分葉核中性球等完整成熟階段，並有嗜鹼性球與嗜酸性球，母細胞稀少，是慢性期 CML 周邊血「縮小版骨髓」的樣貌。",
+  "features": [
+    "Marked leukocytosis with densely packed granulocytic cells",
+    "Full spectrum of granulocytic maturation, with myelocytes and segmented/band neutrophils predominating",
+    "Basophils with coarse dark purple granules and eosinophils with orange granules",
+    "Occasional promyelocytes and rare blast-like cells; blasts not increased",
+    "Occasional small lymphocyte/nucleated cell; platelets scattered"
+  ],
+  "describe_en": "The smear shows a marked leukocytosis composed of granulocytes at all stages of maturation, with a myelocyte and mature neutrophil predominance. Basophils and eosinophils are readily identified. Promyelocytes and rare blast-like cells are present, but blasts are not increased. Neutrophils lack prominent toxic granulation or dysplasia. Given the very high cellularity, the preparation may be a thick peripheral blood area or buffy coat; the findings are consistent with chronic myeloid leukemia, chronic phase.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "Leukemoid reactions show toxic granulation and Döhle bodies, a mature neutrophil predominance without a myelocyte bulge, no basophilia, and are BCR::ABL1-negative."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML shows dysplastic hypogranular or pseudo-Pelger neutrophils, lacks basophilia and is BCR::ABL1-negative."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows absolute monocytosis (>=0.5 x 10^9/L and >=10% of WBC) with fewer circulating immature granulocytes."},
+    {"dx": "CML, accelerated/blast phase", "vs": "Advanced disease shows increased blasts or basophils >=20%, which are not evident in this field."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

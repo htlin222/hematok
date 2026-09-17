@@ -1,0 +1,22 @@
+{
+  "id": "61786",
+  "recognize_zh": "G-banding 核型圖中第 7 號被圈起，右側那條明顯比左側短、長臂中段帶型缺失，其他染色體成對、總數 46，對應 del(7q) 間隙缺失。",
+  "features": [
+    "GTG-banded karyogram with 46 chromosomes arranged by ISCN order",
+    "Chromosome 7 pair circled: one homolog shorter with loss of mid-to-distal long-arm bands, consistent with interstitial del(7)(q22q32)",
+    "No numerical abnormality; all autosomes otherwise paired",
+    "Single X and a small Y (partly obscured by watermark), consistent with a male karyotype",
+    "Band resolution is modest; exact breakpoints are inferred from the report rather than resolvable in this image"
+  ],
+  "describe_en": "G-banded karyogram from an unstimulated bone marrow aspirate culture shows a 46,XY complement. One chromosome 7 homolog is shortened owing to an interstitial deletion of the long arm, reported as del(7)(q22q32); the remaining chromosomes appear structurally normal at this resolution. The reported clone was present in 17 of 20 metaphases with a residual normal 46,XY population. In the setting of acute myeloid leukemia with dysplastic maturation, the finding is consistent with AML with an MDS-related cytogenetic abnormality (del(7q)), which carries an adverse prognosis.",
+  "ddx": [
+    {"dx": "Monosomy 7", "vs": "Loss of an entire chromosome 7 leaves only one homolog and 45 chromosomes, whereas here both chromosome 7 homologs are present with one shortened."},
+    {"dx": "Unbalanced translocation involving 7q, e.g. der(1;7)(q10;p10)", "vs": "Would show an abnormal derivative chromosome carrying extra material, identifiable by altered banding and confirmable with FISH/whole-chromosome paint rather than a simple shortened homolog."},
+    {"dx": "Isochromosome 7q or other 7q rearrangement", "vs": "An isochromosome has symmetric identical arms around the centromere, unlike the asymmetric loss of mid-long-arm bands seen here."},
+    {"dx": "Constitutional chromosome 7 variant or preparation artifact", "vs": "A constitutional change would be present in all metaphases including PHA-stimulated peripheral blood, whereas this clone coexists with normal metaphases."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding (GTG)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

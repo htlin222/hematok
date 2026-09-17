@@ -1,0 +1,29 @@
+{
+  "id": "21",
+  "recognize_zh": "周邊血中可見少量芽細胞，細胞質嗜鹼性、邊緣不規則並有胞質泡突（cytoplasmic blebs）；骨髓切片為成片芽細胞，流式顯示 CD34+、MPO 陰性但 cytoplasmic CD61/CD41 呈弱陽性，指向巨核母細胞系（megakaryoblastic）。",
+  "features": [
+    "Medium-to-large blasts with high N:C ratio, round to slightly irregular nuclei and fine chromatin",
+    "Deeply basophilic, agranular cytoplasm with irregular borders, pseudopod-like projections and cytoplasmic blebs",
+    "Bone marrow core shows diffuse sheets of blasts with vesicular chromatin effacing normal hematopoiesis",
+    "Flow: CD45-dim blasts, CD34+, CD13+, HLA-DR negative, CD33+ with positivity in the CD7/CD56 combined channel",
+    "Flow: cytoplasmic CD61 and CD41 dim-positive, cytoplasmic MPO negative",
+    "Peripheral blood background with normocytic red cells, few platelets and scattered mature neutrophils"
+  ],
+  "describe_en": "Peripheral blood smear shows occasional circulating blasts with a high N:C ratio, fine chromatin and deeply basophilic agranular cytoplasm bearing irregular projections and cytoplasmic blebs; platelets are markedly decreased. The bone marrow core biopsy is replaced by diffuse sheets of immature blasts with vesicular chromatin, consistent with the clinically reported dry tap. Flow cytometry of the marrow identifies a CD45-dim blast population that is CD34+, CD13+, CD33+, HLA-DR negative and positive in the CD7/CD56 combined channel, with dim cytoplasmic CD41 and CD61 and no cytoplasmic MPO. No Auer rods are seen. Findings are consistent with acute megakaryoblastic leukemia; cytogenetic/molecular studies (e.g., CBFA2T3::GLIS2, RBM15::MRTFA) are recommended in this non-Down syndrome child.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL blasts may look agranular but lack cytoplasmic blebbing and express CD19/cCD79a or cCD3 rather than CD41/CD61."},
+    {"dx": "Myeloid proliferation associated with Down syndrome (TAM/ML-DS)", "vs": "Morphology and CD41/CD61 expression overlap, so the distinction rests on constitutional trisomy 21 and GATA1 mutation, absent here."},
+    {"dx": "Metastatic small round blue cell tumor (e.g., neuroblastoma)", "vs": "Tumor cells form cohesive clusters or rosettes and are CD45 negative, whereas these blasts are CD45-dim with megakaryocytic antigens."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 is also MPO negative but lacks CD41/CD61 and the platelet-like cytoplasmic blebs."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; flow cytometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: scattered blasts with basophilic cytoplasm among normocytic RBCs",
+    "Composite of peripheral blood blasts with irregular cytoplasmic borders and blebs",
+    "Bone marrow core biopsy: diffuse sheets of blasts",
+    "Bone marrow flow cytometry: CD34+, HLA-DR-, cCD41/cCD61 dim+, MPO- blasts"
+  ]
+}

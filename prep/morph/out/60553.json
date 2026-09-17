@@ -1,0 +1,22 @@
+{
+  "id": "60553",
+  "recognize_zh": "血液抹片中出現一顆中型細胞，細胞核圓形偏向一側、染色質呈粗塊狀（車輪狀），細胞質豐富且呈深藍色，形態為典型漿細胞；周邊紅血球有疊錢狀（rouleaux）排列傾向，符合漿細胞白血病。",
+  "features": [
+    "Medium-sized cell with abundant, deeply basophilic cytoplasm and a small cytoplasmic bleb",
+    "Round, eccentrically placed nucleus with coarse, clumped (clock-face) chromatin",
+    "No visible nucleoli; low-to-moderate N:C ratio",
+    "Subtle paler zone of cytoplasm adjacent to the nucleus (perinuclear hof)",
+    "Red cells show short stacked chains suggestive of rouleaux formation",
+    "Occasional platelets; no other leukocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells with a tendency to form short rouleaux chains. A circulating mature-appearing plasma cell is present, with abundant deeply basophilic cytoplasm, a round eccentric nucleus with coarse clock-face chromatin, and a subtle perinuclear clearing. A single field cannot establish the diagnosis, which requires an absolute circulating plasma cell count or proportion above the defined threshold. In the appropriate clinical and quantitative context, findings are consistent with plasma cell leukemia.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis (e.g., infection, serum sickness)", "vs": "Reactive circulating plasma cells are few, polytypic by flow cytometry, and accompanied by reactive lymphocytes, whereas plasma cell leukemia shows numerous monotypic plasma cells."},
+    {"dx": "Lymphoplasmacytic lymphoma / Waldenstrom macroglobulinemia", "vs": "LPL shows a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with MYD88 L265P, rather than a predominance of plasma cells."},
+    {"dx": "Plasmacytoid (reactive) lymphocyte", "vs": "Plasmacytoid lymphocytes have less eccentric nuclei, finer chromatin, and lack a well-formed hof."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

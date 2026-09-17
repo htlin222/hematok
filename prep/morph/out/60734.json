@@ -1,0 +1,31 @@
+{
+  "id": "60734",
+  "recognize_zh": "周邊血出現大型、細胞質深嗜鹼性且邊緣不規則、核形扭曲的非典型細胞，骨髓切片散在大型多形細胞，CD30 呈膜狀加核旁點狀（Golgi）強陽性，提示循環中的 CD30 陽性退行性（anaplastic）T 細胞淋巴瘤。",
+  "features": [
+    "Peripheral blood (A–D): large atypical cells with deeply basophilic, irregular cytoplasm and angular or tapering cytoplasmic projections",
+    "Nuclei irregular, folded or reniform with moderately condensed chromatin; one cell (D) with dense coarse chromatin and a narrow blue cytoplasmic rim",
+    "Bone marrow biopsy (E–G): scattered large pleomorphic cells with abundant cytoplasm and vesicular, irregular nuclei among hematopoietic elements",
+    "IHC (H): strong membranous and paranuclear dot-like (Golgi) CD30 staining of the large cells"
+  ],
+  "describe_en": "The peripheral blood smear contains large atypical mononuclear cells with deeply basophilic, irregularly contoured cytoplasm, cytoplasmic projections and irregular or folded nuclei. The bone marrow core biopsy shows interstitially scattered large pleomorphic cells with vesicular nuclei admixed with residual trilineage hematopoiesis. By immunohistochemistry, the large cells show strong membranous and Golgi-pattern CD30 expression. Findings are consistent with marrow and peripheral blood involvement by a CD30-positive T-cell lymphoma with anaplastic morphology; ALK status and T-cell lineage should be confirmed by flow cytometry and immunohistochemistry.",
+  "ddx": [
+    {"dx": "Reactive immunoblasts / plasmacytoid lymphocytes", "vs": "Reactive immunoblasts are round with a single central nucleolus, are polyclonal and at most weakly CD30+, unlike these angulated pleomorphic cells with strong Golgi CD30."},
+    {"dx": "Monoblasts/monocytic leukemia", "vs": "Monoblasts have fine lacy chromatin, gray-blue cytoplasm and are CD30-negative but CD14/CD64/lysozyme positive."},
+    {"dx": "Classic Hodgkin lymphoma in marrow", "vs": "Hodgkin/Reed-Sternberg cells are CD30+/CD15+/PAX5 weak and sit in a fibrotic mixed inflammatory background, and do not circulate in blood."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells are flower cells with multilobated nuclei, are CD25-bright and HTLV-1 related, and are usually CD30-negative or only partially positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E; IHC: CD30",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood: large atypical cell with basophilic, angular cytoplasm",
+    "Peripheral blood: elongated atypical cell with irregular nucleus",
+    "Peripheral blood: atypical cell with cytoplasmic projections",
+    "Peripheral blood: atypical cell with dense chromatin and blue cytoplasmic rim",
+    "Bone marrow biopsy: scattered large pleomorphic cells",
+    "Bone marrow biopsy: large atypical cells among hematopoietic elements",
+    "Bone marrow biopsy: large cells with vesicular irregular nuclei",
+    "CD30 IHC: membranous and Golgi-pattern positivity in large cells"
+  ]
+}

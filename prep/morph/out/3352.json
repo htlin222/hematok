@@ -1,0 +1,21 @@
+{
+  "id": "3352",
+  "recognize_zh": "中倍率免疫染色：許多大型腫瘤細胞呈細胞膜環狀陽性，同時背景中大量小淋巴球也強陽性，代表這是一個腫瘤細胞與反應性小淋巴球共同表現的淋巴球標記（未標示抗體，可能為 T 細胞或白血球共同標記），用來佐證 ALCL 的淋巴球來源。",
+  "features": [
+    "Diffuse lymphoid infiltrate at intermediate magnification",
+    "Large cells with membranous ring-like brown staining and clear cytoplasm",
+    "Numerous small lymphocytes with strong dense membranous and cytoplasmic staining",
+    "A proportion of large cells are weak or negative",
+    "Negative stromal and endothelial nuclei in the background"
+  ],
+  "describe_en": "Immunohistochemical stain of a lymph node at intermediate power shows a diffuse infiltrate of large atypical cells admixed with small lymphocytes. Many large cells show membranous ring-like positivity, while numerous background small lymphocytes are strongly positive and some large cells are weak or negative. The antibody is not labeled; the pattern indicates a lymphoid-lineage (T-cell or leukocyte) marker shared by tumor cells and reactive small lymphocytes. This supports a hematolymphoid origin of the large cells, consistent with anaplastic large cell lymphoma in context, but lineage assignment requires the full panel, because ALCL often loses pan-T-cell antigens such as CD3.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are usually negative for CD45 and T-cell markers and are surrounded by positive rosetting T cells rather than forming sheets."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL large cells stain for B-cell markers (CD20, PAX5) and are negative for T-cell antigens stained in small reactive cells."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Non-hematopoietic tumors are negative for leukocyte and T-cell markers and express cytokeratin or S100/SOX10."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: lymphoid marker (antibody not labeled)",
+  "match": "partial",
+  "high_yield": false
+}

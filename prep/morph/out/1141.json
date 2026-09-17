@@ -1,0 +1,21 @@
+{
+  "id": "1141",
+  "recognize_zh": "骨髓切片中造血組織被一片片細胞質豐富、呈粉紅顆粒狀、核為卵圓或摺疊形的單一形態細胞取代，其間夾雜大量紅血球，正常三系造血難以辨認，提示急性前骨髓細胞性白血病（APL）浸潤。",
+  "features": [
+    "Hypercellular marrow with sheets of monotonous cells replacing normal hematopoiesis",
+    "Moderately abundant, eosinophilic, granular cytoplasm",
+    "Oval, indented or folded nuclei with fine chromatin; some nucleoli visible",
+    "Numerous extravasated red cells interspersed among the tumor cells",
+    "Adjacent bony trabecula and scattered fat spaces"
+  ],
+  "describe_en": "Bone marrow core biopsy is hypercellular and shows diffuse sheets of monotonous immature myeloid cells with moderately abundant, eosinophilic granular cytoplasm and oval to folded nuclei with fine chromatin. Normal trilineage hematopoiesis is effaced, and there are numerous interspersed red cells. Megakaryocytes are not evident in this field. The findings are consistent with involvement by acute leukemia with promyelocytic features; given the risk of coagulopathy, urgent confirmation of PML::RARA by FISH or RT-PCR is recommended.",
+  "ddx": [
+    {"dx": "Other acute myeloid leukemia (with maturation or myelomonocytic)", "vs": "Morphology on core biopsy overlaps; APL is confirmed by aspirate showing hypergranular promyelocytes with faggot cells, a CD34-/HLA-DR- phenotype, and PML::RARA."},
+    {"dx": "Marked promyelocyte hyperplasia (recovering marrow, G-CSF effect)", "vs": "Regenerating marrow shows a synchronized wave of normal promyelocytes that mature with time, lacks PML::RARA, and retains megakaryocytes and erythroid islands."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma cells have eccentric round nuclei with clock-face chromatin and perinuclear hofs, and are CD138 positive and MPO negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

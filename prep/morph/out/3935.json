@@ -1,0 +1,21 @@
+{
+  "id": "3935",
+  "recognize_zh": "雖然標題寫 cytogram，這張其實是周邊血抹片：視野中布滿大型芽細胞（blast），核質比高、染色質細緻、部分可見核仁，數量遠多於紅血球間該有的白血球，符合急性骨髓性白血病（AML）的高白血球症。",
+  "features": [
+    "Numerous large blasts, roughly 2–3 times the diameter of a red cell",
+    "High N:C ratio with round to slightly indented or folded nuclei",
+    "Finely dispersed chromatin with small nucleoli visible in some cells",
+    "Moderate rim of pale-blue, largely agranular cytoplasm; Auer rods not identified in this field",
+    "Few residual normal leukocytes; red cells unremarkable"
+  ],
+  "describe_en": "Although titled as a cytogram, this image is a peripheral blood smear rather than an analyzer scatterplot. It shows a marked increase in large blasts with high N:C ratio, round to indented nuclei, finely dispersed chromatin, occasional small nucleoli and a moderate rim of pale-blue, largely agranular cytoplasm; Auer rods are not seen in this field. Normal leukocytes are rare. Findings are consistent with the blood picture of hyperleukocytosis in acute myeloid leukemia, with lineage assignment requiring cytochemistry (MPO) and flow cytometry.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are often smaller with scant cytoplasm and less conspicuous nucleoli, and are MPO-negative with B- or T-lymphoid markers on flow cytometry."},
+    {"dx": "Leukemic phase of large cell lymphoma", "vs": "Lymphoma cells tend to be more pleomorphic with deeply basophilic, vacuolated cytoplasm and mature B-cell markers (CD20, surface light chain) without CD34."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have more abundant gray-blue cytoplasm with fine granules and folded nuclei and are nonspecific esterase-positive with monocytic flow markers."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

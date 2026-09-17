@@ -1,0 +1,22 @@
+{
+  "id": "2303",
+  "recognize_zh": "視野中央一顆顆粒密集、紫藍色的血小板，直徑明顯大於旁邊的一般血小板，接近紅血球大小，沒有細胞核，是大型／巨大血小板，常見於骨髓增生性腫瘤如 CML。",
+  "features": [
+    "Single enlarged platelet in the center, several times the size of adjacent normal platelets and approaching red cell diameter",
+    "Densely packed purple azurophilic granules with a slightly irregular, fuzzy outline",
+    "No nucleus identified",
+    "Several small normal-sized platelets nearby for comparison",
+    "Background red cells with overlapping and stacked forms"
+  ],
+  "describe_en": "Peripheral blood smear shows a single markedly enlarged platelet with densely granular purple cytoplasm and a slightly irregular outline, approaching the diameter of adjacent red cells and much larger than nearby normal platelets. No nucleus is present. Red cells are otherwise without specific abnormality in this field. Findings represent a giant (large) platelet, a nonspecific finding that in the context of CML, BCR-ABL1-positive, reflects abnormal megakaryopoiesis in a myeloproliferative neoplasm.",
+  "ddx": [
+    {"dx": "Inherited macrothrombocytopenia (Bernard-Soulier, MYH9-related disorder)", "vs": "Inherited forms show uniformly large platelets with thrombocytopenia, and MYH9 disorders show Döhle-like neutrophil inclusions, rather than isolated giant platelets in a myeloproliferative setting."},
+    {"dx": "Micromegakaryocyte or bare megakaryocyte nucleus", "vs": "These contain a dense nucleus, whereas this cell is anucleate granular cytoplasm only."},
+    {"dx": "Platelet clump", "vs": "Clumps show several individual platelet outlines aggregated together rather than one continuous granular cell."},
+    {"dx": "Immune thrombocytopenia", "vs": "ITP produces large young platelets with low counts but no granulocytic left shift or basophilia, and lacks BCR-ABL1."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

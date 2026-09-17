@@ -1,0 +1,21 @@
+{
+  "id": "63293",
+  "recognize_zh": "NPM1 免疫染色（紅色呈色）中，絕大多數細胞的陽性訊號侷限在細胞核內，未見大量細胞質異位表現（cytoplasmic NPM1），提示為 NPM1 野生型，支持非 NPM1 突變的 AML-MRC 分類。",
+  "features": [
+    "Majority of hematopoietic cells show strong, homogeneous nuclear-restricted red NPM1 staining",
+    "Cytoplasm of most positive cells is unstained, indicating no aberrant cytoplasmic NPM1 localization",
+    "Rare cells show smudged or granular cytoplasmic red staining, likely nonspecific or crushed cells",
+    "Interspersed NPM1-weak cells with blue hematoxylin counterstained nuclei",
+    "Background adipocytes and yellow-tinged erythrocytes"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostained for nucleophosmin (NPM1) with a red chromogen shows strong staining restricted to the nuclei of the majority of hematopoietic cells, with no significant aberrant cytoplasmic localization. Occasional cells show smudged cytoplasmic staining that is not convincing for a mutant pattern. Some cells with blue counterstained nuclei show weaker staining. Findings indicate a nuclear-restricted (wild-type) NPM1 pattern, which argues against AML with NPM1 mutation and supports classification as acute myeloid leukemia with myelodysplasia-related changes; molecular confirmation is recommended.",
+  "ddx": [
+    {"dx": "AML with mutated NPM1", "vs": "NPM1-mutated AML shows aberrant cytoplasmic plus nuclear NPM1 staining in the blasts, rather than the nuclear-restricted pattern seen here."},
+    {"dx": "Nonspecific cytoplasmic staining artifact", "vs": "Artifactual staining is weak, patchy and seen in crushed or degenerated cells, whereas true mutant pattern is diffuse cytoplasmic staining in a large proportion of blasts."},
+    {"dx": "Other nuclear-restricted AML types", "vs": "Nuclear-restricted NPM1 does not distinguish among AML subtypes, which require cytogenetic and molecular classification."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: NPM1",
+  "match": "consistent",
+  "high_yield": false
+}

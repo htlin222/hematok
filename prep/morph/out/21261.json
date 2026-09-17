@@ -1,0 +1,22 @@
+{
+  "id": "21261",
+  "recognize_zh": "周邊血片中單核球（A）及嗜中性球（B）胞質空泡內可見短而粗、兩端鈍圓的深染桿菌（箭頭），部分周圍有透明暈圈；血片直接看到被吞噬的細菌代表高菌量菌血症，但克雷伯氏菌或綠膿桿菌的菌種需靠血液培養確認。",
+  "features": [
+    "Monocyte with vacuolated cytoplasm containing several short, plump, dark-staining bacilli (panel A, arrows)",
+    "Neutrophil with multiple cytoplasmic vacuoles, one containing small paired rod-shaped bacteria (panel B, arrow)",
+    "Some bacilli surrounded by a clear halo within phagocytic vacuoles",
+    "Background red cells crenated (echinocytes), likely storage or drying artifact",
+    "No extracellular organisms clearly identified in these fields"
+  ],
+  "describe_en": "Peripheral blood smear shows a vacuolated monocyte and a vacuolated neutrophil containing short, plump, darkly staining bacilli within phagocytic vacuoles (arrows), some surrounded by a clear halo. Background red cells are crenated. No intraerythrocytic parasites are identified. Findings are consistent with high-grade bacteremia with intracellular bacilli; morphology cannot identify the species, and Gram stain and blood culture (in this case Klebsiella and Pseudomonas) are required.",
+  "ddx": [
+    {"dx": "Döhle bodies / toxic vacuolation without organisms", "vs": "Toxic changes produce empty vacuoles and pale grey-blue Döhle bodies, without discrete dark rod-shaped bodies inside vacuoles."},
+    {"dx": "Stain precipitate or overlying platelet granules", "vs": "Precipitate is refractile, lies in different focal planes and across cell borders rather than within vacuoles."},
+    {"dx": "Ehrlichia/Anaplasma morulae", "vs": "Morulae are mulberry-like clusters of tiny cocci forming a single inclusion, not separate rod-shaped bacilli."},
+    {"dx": "Clostridium or Capnocytophaga bacteremia", "vs": "Clostridia are large boxcar rods with massive spherocytic hemolysis, and Capnocytophaga are thin fusiform rods, whereas species identity ultimately requires culture."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

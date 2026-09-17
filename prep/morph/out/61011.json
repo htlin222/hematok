@@ -1,0 +1,21 @@
+{
+  "id": "61011",
+  "recognize_zh": "血清蛋白電泳在 gamma 區出現一個高而窄的尖峰（M-spike），gamma 分率 57.2%（5.1 g/dL），白蛋白降低、A/G 比 0.32，提示單株免疫球蛋白病（如多發性骨髓瘤）。",
+  "features": [
+    "Serum protein electrophoresis densitometry tracing with a tall, narrow, sharply defined peak in the gamma region (peak 2)",
+    "Gamma fraction markedly increased at 57.2% (5.1 g/dL; reference 8.0-15.8%)",
+    "Albumin decreased to 24.2% (2.2 g/dL) with inverted A/G ratio of 0.32",
+    "Beta fraction mildly decreased (6.4%); a smaller shaded peak (peak 1) in the beta region",
+    "Total protein elevated at 8.9 g/dL"
+  ],
+  "describe_en": "Serum protein electrophoresis shows a discrete, narrow, homogeneous band in the gamma region quantified at approximately 5.1 g/dL (57.2% of total protein), with hypoalbuminemia (2.2 g/dL), total protein 8.9 g/dL, and an A/G ratio of 0.32. A smaller shaded peak is also marked in the beta region. The narrow gamma peak indicates a monoclonal gammopathy rather than polyclonal hypergammaglobulinemia; immunofixation is required to type the paraprotein. In a patient with back pain and anemia, findings are suggestive of plasma cell myeloma.",
+  "ddx": [
+    {"dx": "Polyclonal hypergammaglobulinemia (chronic inflammation, liver disease)", "vs": "Polyclonal increase produces a broad-based diffuse gamma elevation rather than a narrow spike, and immunofixation shows no restricted band."},
+    {"dx": "MGUS", "vs": "MGUS has an M-protein <3 g/dL, <10% marrow plasma cells and no CRAB features, whereas this spike exceeds 5 g/dL in a symptomatic patient."},
+    {"dx": "Waldenstrom macroglobulinemia", "vs": "Immunofixation showing IgM with lymphoplasmacytic marrow infiltrate and MYD88 L265P separates it from IgG/IgA myeloma."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

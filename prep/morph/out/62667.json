@@ -1,0 +1,22 @@
+{
+  "id": "62667",
+  "recognize_zh": "CD45 染色中，小型淋巴球呈強烈膜狀陽性，而細胞質淡、界線清楚、核大有核仁的大型腫瘤細胞則陰性或極弱；PEL 常見 CD45 表現減弱或缺失，需小心不要誤判為癌或非造血腫瘤。",
+  "features": [
+    "Sheets of large polygonal cells with abundant pale cytoplasm, distinct borders and vesicular nuclei with nucleoli",
+    "Large tumor cells are CD45-negative to very weak",
+    "Strong membranous CD45 staining of interspersed small lymphocytes (internal control)",
+    "Positive small lymphocytes form streaks and clusters between tumor cell groups",
+    "Cohesive growth of tumor cells around a vascular/sinus space mimicking a non-hematopoietic tumor"
+  ],
+  "describe_en": "CD45 immunohistochemistry shows cohesive sheets of large polygonal cells with abundant pale cytoplasm, distinct cell borders and vesicular nuclei with nucleoli that are negative to only very weakly stained. Interspersed small lymphocytes show strong membranous CD45 staining and serve as an internal positive control. The cohesive growth and CD45 loss can mimic carcinoma or melanoma, a recognized pitfall in primary effusion lymphoma. Findings show absent to weak CD45 in the neoplastic cells, consistent with extracavitary primary effusion lymphoma when combined with MUM1/CD138 and HHV8 positivity.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "CD45-negative cohesive cells as well, but cytokeratin-positive and HHV8/MUM1-negative."},
+    {"dx": "Metastatic melanoma", "vs": "CD45-negative with S100/SOX10/melan-A expression and HHV8 negativity."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Can be CD45-weak and cohesive, but is strongly CD30 and ALK or T-cell antigen positive and HHV8-negative."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Also CD45-weak with plasmacytic phenotype, but HHV8 (LANA-1)-negative."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD45",
+  "match": "consistent",
+  "high_yield": false
+}

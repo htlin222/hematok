@@ -1,0 +1,31 @@
+{
+  "id": "97",
+  "recognize_zh": "抹片可見明顯大小不等與異形紅血球（小球、靶形、碎片及淚滴形細胞）並有有核紅血球；HPLC 顯示 HbF 約 95%、幾乎無 HbA，而父母 HPLC 為 HbA2 升高（本圖 4.6%）的帶因者型態，符合 β 型重型海洋性貧血（thalassemia major）。",
+  "features": [
+    "Marked anisopoikilocytosis with hypochromic microcytes, target cells, fragmented cells, and teardrop cells",
+    "Circulating nucleated red blood cell adjacent to a small lymphocyte",
+    "HPLC (child): HbF 95.0% with HbA2 3.9% and virtually absent HbA0 peak",
+    "HPLC (parent): HbA0 dominant peak with raised HbA2 4.6% and HbF 1.0%, consistent with beta-thalassemia trait",
+    "HBB Sanger sequencing: overlapping (double) peaks beginning at a defined position, indicating heterozygous frameshift mutations",
+    "Gel electrophoresis of PCR products: a common control band in all lanes with additional smaller mutation-specific bands in selected lanes"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with hypochromic microcytes, target cells, fragmented red cells, teardrop forms, and circulating nucleated red cells. Hemoglobin HPLC on the child shows HbF of 95.0% with HbA2 3.9% and essentially no HbA, whereas the parental HPLC shows a predominant HbA peak with an elevated HbA2 of 4.6%, consistent with beta-thalassemia trait. HBB sequencing chromatograms show superimposed double peaks after codon 8 and after codons 41/42, suggestive of heterozygous frameshift mutations (such as codons 8/9 +G and codons 41/42 -TTCT); allele-specific PCR gel shows mutation-specific bands in some lanes alongside a control band. Findings are consistent with beta-thalassemia major (compound heterozygous/homozygous beta0-thalassemia) inherited from carrier parents.",
+  "ddx": [
+    {"dx": "Hereditary persistence of fetal hemoglobin (HPFH)", "vs": "HPFH shows high HbF with normal red cell morphology, no significant anemia, and no HbA2 elevation in carriers."},
+    {"dx": "HbE/beta-thalassemia", "vs": "HPLC would show a large HbE peak co-eluting in the A2 window (typically >25%) together with HbF, rather than HbF with a small A2."},
+    {"dx": "Alpha-thalassemia (HbH disease)", "vs": "HbH disease shows fast-moving HbH/Bart's peaks and HbH inclusions on supravital stain with low-normal HbA2, not near-total HbF."},
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency produces microcytic hypochromic cells with pencil cells but normal HbF, low-normal HbA2, and low ferritin, without nucleated RBCs or hepatosplenomegaly in infancy."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa, HPLC, Sanger sequencing, PCR gel",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "PB: marked anisopoikilocytosis with target cells, fragments, and a nucleated RBC",
+    "HPLC (child): HbF 95.0%, HbA2 3.9%, HbA absent",
+    "HPLC (parent): HbA dominant, HbA2 4.6%, HbF 1.0% (beta-thalassemia trait)",
+    "HBB sequencing: double peaks after codon 8 suggest a heterozygous frameshift (e.g., codons 8/9 +G)",
+    "HBB sequencing: double peaks at codons 41/42 suggest a heterozygous frameshift (e.g., -TTCT)",
+    "PCR gel: control band in all lanes with mutation-specific smaller bands in selected lanes"
+  ]
+}

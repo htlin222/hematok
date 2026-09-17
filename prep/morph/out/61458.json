@@ -1,0 +1,22 @@
+{
+  "id": "61458",
+  "recognize_zh": "血液抹片中紅血球堆疊成一串串線性排列（錢串狀，rouleaux），而非葡萄串狀凝集；箭頭處有一顆循環漿細胞，核偏位、胞質深藍並有核旁淡染區，合看支持多發性骨髓瘤。",
+  "features": [
+    "Red cells arranged in linear stacks of several cells (rouleaux) throughout a relatively thin area of the smear",
+    "Aggregates are linear, not irregular grape-like clusters (not agglutination)",
+    "Single circulating plasma cell (arrow) with eccentric round nucleus, clumped chromatin, basophilic cytoplasm, and perinuclear hof",
+    "Occasional platelets; no other leukocytes in field",
+    "Red cells otherwise normochromic"
+  ],
+  "describe_en": "Peripheral blood smear shows prominent rouleaux formation, with red cells forming linear coin-stack aggregates in the reading area, and no irregular clumping suggestive of agglutination. A single circulating plasma cell (arrow) with an eccentric nucleus, coarse chromatin, and basophilic cytoplasm with a perinuclear hof is present. Rouleaux reflects increased plasma proteins such as a monoclonal immunoglobulin. Findings are suggestive of a plasma cell neoplasm; serum protein electrophoresis with immunofixation, free light chains, and bone marrow evaluation are recommended, and a plasma cell count should be reported given the definition of plasma cell leukemia.",
+  "ddx": [
+    {"dx": "Red cell agglutination (cold agglutinin disease)", "vs": "Agglutinates form irregular three-dimensional grape-like clumps that do not disperse with saline, unlike linear stacks of rouleaux."},
+    {"dx": "Thick-area artifact", "vs": "Artifactual overlap occurs only in thick parts of the smear, whereas true rouleaux persists in the thin reading area."},
+    {"dx": "Reactive rouleaux (inflammation, hypergammaglobulinemia)", "vs": "Polyclonal increases in fibrinogen or immunoglobulin also cause rouleaux, so an M-protein must be shown by immunofixation."},
+    {"dx": "Reactive plasmacytoid lymphocyte", "vs": "Reactive lymphocytes have more abundant, less deeply basophilic cytoplasm without a well-formed hof, and appear with other reactive forms."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61476",
+  "recognize_zh": "淋巴結 H&E 中可見多顆大型細胞，細胞質淡染並因固定收縮而與周圍組織分離，形成透明空腔（lacunar cell），核呈分葉狀或處於分裂期，並有一小群嗜酸性白血球，符合結節硬化型典型何杰金氏淋巴瘤。",
+  "features": [
+    "Large cells with abundant clear, finely vacuolated cytoplasm retracted from surrounding cells, forming lacunar spaces",
+    "Lacunar cell nuclei are lobated or folded with vesicular chromatin and small-to-moderate nucleoli; one cell in mitosis",
+    "Small aggregate of eosinophils with bilobed nuclei in the upper center",
+    "Dense background of small-to-medium lymphoid cells with irregular nuclei and thin collagen strands",
+    "Cluster of clear lacunar-like cells at the lower edge"
+  ],
+  "describe_en": "Lymph node section shows a dense lymphoid background containing numerous large cells with abundant clear, retracted cytoplasm that sit within empty lacunar spaces. Their nuclei are lobated or folded with vesicular chromatin and nucleoli, and one lacunar cell is in mitosis. A small aggregate of eosinophils and thin collagen strands are present. Findings are consistent with lacunar variant Hodgkin/Reed-Sternberg cells of classical Hodgkin lymphoma, nodular sclerosis subtype, pending CD30/CD15/PAX5 immunohistochemistry and assessment of fibrous bands at low power.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL hallmark cells form cohesive sheets or sinusoidal clusters with horseshoe nuclei and are CD30+ with T-cell markers/ALK, not scattered lacunar cells."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL cells also have clear cytoplasm with compartmentalizing sclerosis but grow in sheets and are strongly CD20/CD79a and CD45 positive."},
+    {"dx": "Metastatic clear cell carcinoma or germ cell tumor", "vs": "Carcinoma and seminoma form cohesive nests and are keratin or OCT4/SALL4 positive, whereas lacunar cells are CD30/CD15 positive and keratin negative."},
+    {"dx": "Signet ring cell lymphoma or histiocytes", "vs": "Clear histiocytes have small bland nuclei and are CD68/CD163 positive, lacking large lobated nuclei with nucleoli."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

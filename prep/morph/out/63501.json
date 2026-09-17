@@ -1,0 +1,22 @@
+{
+  "id": "63501",
+  "recognize_zh": "骨髓抹片中一群非造血來源的腫瘤細胞，核圓至卵圓、染色質細緻，排列成花環狀圍繞中央淡藍色細纖維狀物質（neuropil），形成 Homer Wright 玫瑰花結（rosette），符合轉移性神經母細胞瘤。",
+  "features": [
+    "Cohesive cluster of small-to-medium round tumor cells foreign to the marrow",
+    "Rosette arrangement: nuclei arranged peripherally around a central pale blue fibrillary core (neuropil; Homer Wright rosette)",
+    "Round to oval nuclei with fine to slightly coarse chromatin, occasional nuclear molding, and high N:C ratio",
+    "Scant basophilic cytoplasm merging into the central fibrillary material",
+    "Scattered single tumor cells nearby; background red cells, a neutrophil, and platelet clumps"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of small-to-medium round cells that are foreign to the normal hematopoietic population. The cells have round to oval nuclei with fine chromatin, focal nuclear molding, and scant basophilic cytoplasm, and they are arranged in a rosette around a central core of pale blue fibrillary material consistent with neuropil. Similar single cells are scattered in the background among red cells and occasional granulocytes. Findings are consistent with metastatic neuroblastoma forming Homer Wright rosettes, supported by synaptophysin, chromogranin, CD56, and PGP9.5 expression.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are dispersed singly without cohesive clusters or neuropil-containing rosettes and express TdT and CD19/CD3 rather than neuroendocrine markers."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma cells are clustered small round cells with vacuolated PAS-positive cytoplasm, usually lacking neuropil, and express CD99 and NKX2.2 with EWSR1 rearrangement."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Rhabdomyosarcoma cells often show more cytoplasm with vacuoles and multinucleated forms and express desmin and myogenin."},
+    {"dx": "Megakaryocytic or hematopoietic clusters", "vs": "Hematopoietic clusters lack cohesion and fibrillary cores, and megakaryocytes are large cells with lobulated nuclei and granular cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62910",
+  "recognize_zh": "周邊血液抹片中央有一個顆粒性白血球，細胞質內充滿粗大、深紫黑色的顆粒並覆蓋在分葉核上；單看此圖極像嗜鹼性球，需結合注射碘造影劑後採檢的病史，才能判讀為嗜中性球內的黑色色素（contrast-associated pigment）。",
+  "features": [
+    "Single granulocyte about 1.5 times red cell diameter",
+    "Cytoplasm densely packed with coarse, irregular dark purple-black granules",
+    "Granules overlie and partly obscure a lobulated nucleus; faint pink cytoplasm between granules",
+    "Background red cells with several echinocytes (crenated cells)",
+    "Few scattered platelets; no other leukocytes in field"
+  ],
+  "describe_en": "Peripheral blood smear shows a single granulocyte whose cytoplasm is packed with coarse, irregular dark purple-black granular material that overlies and partially obscures a lobulated nucleus. The surrounding red cells are normochromic with several echinocytes, and scattered platelets are present. In isolation, the cell closely resembles a basophil or a neutrophil with heavy toxic granulation; the reported history of blood drawn after iodinated contrast injection, with similar black material in other neutrophils and myeloid precursors, supports interpretation as ingested pigment. Findings are suggestive of contrast-associated pigment in a neutrophil, with toxic changes in a septic patient.",
+  "ddx": [
+    {"dx": "Basophil", "vs": "Basophil granules are uniformly purple-black and water-soluble, while pigment-laden neutrophils show similar material in bands and myelocytes in the same smear and a neutrophil-type pink cytoplasm between granules."},
+    {"dx": "Toxic granulation", "vs": "Toxic granules are fine to coarse dark azurophilic granules that do not typically pack the cytoplasm as black clumps obscuring the nucleus."},
+    {"dx": "Alder-Reilly anomaly", "vs": "Large dark granules are present in all neutrophils as a constitutional finding (mucopolysaccharidoses), independent of contrast exposure."},
+    {"dx": "Malaria pigment (hemozoin) in neutrophils", "vs": "Hemozoin appears as brown-black refractile clumps, usually with parasitized red cells in the smear."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

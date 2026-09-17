@@ -1,0 +1,21 @@
+{
+  "id": "3453",
+  "recognize_zh": "箭頭指向紅血球之間淡藍灰色、無結構的細胞外沉積物（冷凝球蛋白），旁邊的紅血球被擠壓或部分遮蓋而看似盔形或碎片狀，但其實是假性裂紅血球（pseudoschistocytes），並非真正的溶血碎片。",
+  "features": [
+    "Pale blue-gray to lavender amorphous extracellular deposits between red cells (arrows)",
+    "Adjacent red cells partly overlapped or indented, mimicking helmet cells and fragments",
+    "Deposits have no internal structure, granules or nuclei (not platelets or cells)",
+    "Background red cells mostly normocytic with some crenated forms and overlap",
+    "No true numerous schistocytes or microspherocytes elsewhere in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells with focal overlap and crenation. Scattered between the red cells are pale blue-gray, amorphous, acellular deposits (arrows) that partially cover or indent adjacent erythrocytes, creating apparent helmet cells and fragments. True schistocytes are not seen elsewhere, and the deposits lack the granular texture of platelets. Findings are consistent with precipitated cryoglobulin producing pseudoschistocytes; warming the sample to 37 °C should dissolve the deposits and can correct spurious automated counts.",
+  "ddx": [
+    {"dx": "True schistocytes in thrombotic microangiopathy", "vs": "Real fragments are small, dense, sharply angulated red cells with no associated amorphous material and are accompanied by thrombocytopenia and hemolysis markers."},
+    {"dx": "Platelet clumps", "vs": "Platelet aggregates are purple and granular with distinct individual platelets, unlike the structureless pale deposits here."},
+    {"dx": "Stain precipitate", "vs": "Stain deposit is dark purple, refractile and crystalline or granular and lies on top of cells randomly, rather than pale amorphous material that disappears on warming."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

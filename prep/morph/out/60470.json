@@ -1,0 +1,22 @@
+{
+  "id": "60470",
+  "recognize_zh": "CD10 免疫染色下，成片的大型腫瘤細胞呈細胞膜與細胞質陽性，核呈泡狀並有明顯核仁，細胞間有淡藍色纖維血管間隔；大細胞 CD10 陽性代表生發中心來源，符合濾泡性淋巴瘤 3B 級的大細胞群。",
+  "features": [
+    "Sheets of large cells with membranous and granular cytoplasmic CD10 staining",
+    "Large round to oval vesicular nuclei with single conspicuous nucleoli",
+    "Moderate amount of pale cytoplasm outlined by the stain",
+    "Thin CD10-negative fibrovascular septa traversing the field",
+    "Staining intensity is moderate and somewhat heterogeneous"
+  ],
+  "describe_en": "CD10 immunohistochemical stain shows sheets of large neoplastic cells with moderate membranous and granular cytoplasmic positivity. The cells have large vesicular nuclei with conspicuous nucleoli and a moderate rim of pale cytoplasm, and are separated by thin CD10-negative fibrovascular septa. CD10 expression indicates a germinal center B-cell phenotype; in the context of a follicular growth pattern composed of solid sheets of centroblasts, findings are consistent with follicular lymphoma, grade 3B.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, GCB type", "vs": "DLBCL shows the same CD10+ large cells but lacks a residual CD21/CD23-positive follicular dendritic cell meshwork."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are medium-sized with multiple small nucleoli, a starry-sky pattern, BCL2 negativity and ~100% Ki-67."},
+    {"dx": "Mantle cell lymphoma, pleomorphic variant", "vs": "Pleomorphic MCL is CD10-negative, CD5-positive and cyclin D1/SOX11-positive."},
+    {"dx": "Follicular lymphoma, grade 3A", "vs": "Grade 3A still contains admixed centrocytes, whereas grade 3B follicles consist of solid sheets of centroblasts; CD10 may be lost in 3B."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD10",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65817",
+  "recognize_zh": "血液抹片中可同時見到骨髓細胞、後骨髓細胞、帶狀核、分節嗜中性球，加上兩顆深紫黑色顆粒的嗜鹼性球與嗜伊紅性球，這種「完整左移＋嗜鹼性球、嗜伊紅性球增多」是 CML 的典型組合。",
+  "features": [
+    "Marked leukocytosis with granulocytes at every maturation stage",
+    "Two basophils with coarse dark purple-black granules",
+    "Eosinophils with orange refractile granules, including an eosinophilic myelocyte",
+    "Clustered myelocytes and promyelocytes with round nuclei and granular cytoplasm",
+    "Blasts not increased; no dysplasia of neutrophils",
+    "Platelets present; red cells with mild anisocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with a complete spectrum of granulocytic maturation from promyelocytes to segmented neutrophils, with a predominance of myelocytes and mature neutrophils. Basophils and eosinophils are increased, and blasts are not increased in this field. There is no granulocytic dysplasia. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, chronic phase.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "A leukemoid reaction lacks basophilia and eosinophilia and shows toxic granulation, with a high LAP score."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML has dysplastic granulocytes and basophils under 2%."},
+    {"dx": "Chronic eosinophilic leukemia", "vs": "CEL is dominated by eosinophils rather than a myelocyte-rich neutrophilic series with basophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

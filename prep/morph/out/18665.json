@@ -1,0 +1,22 @@
+{
+  "id": "18665",
+  "recognize_zh": "九格周邊血拼圖整理「淋巴系白血球增多」：可見胞質寬大灰藍、邊緣貼附紅血球的反應性淋巴球，也有核圓、染色質粗塊、胞質極少的小型成熟淋巴球，以及核較不規則或具核仁的異常淋巴球；判讀重點在區分多形性（反應性）與單一形態（腫瘤性）族群。",
+  "features": [
+    "A, C: low-power fields with medium to large lymphocytes having abundant pale blue cytoplasm",
+    "B, I: small mature-appearing lymphocytes with round dense nuclei and scant cytoplasm",
+    "D, E: lymphocytes with round to slightly irregular nuclei, condensed chromatin, and some with visible nucleoli and moderate basophilic cytoplasm",
+    "F, H: lymphocytes with moderate pale cytoplasm, some with eccentric nuclei",
+    "G: large reactive lymphocytes with abundant deeply basophilic cytoplasm scalloping around adjacent red cells, beside a neutrophil"
+  ],
+  "describe_en": "This composite of peripheral blood smears illustrates the spectrum of lymphoid leukocytosis. Panels include large lymphocytes with abundant basophilic cytoplasm that indents around adjacent red cells, typical of reactive (e.g., EBV-associated) lymphocytosis, and monotonous small lymphocytes with condensed chromatin and scant cytoplasm, as seen in chronic lymphocytic leukemia or other small B-cell neoplasms. Other panels show lymphocytes with nucleoli, irregular nuclei, or moderate cytoplasm that raise the possibility of prolymphocytes or lymphoma cells. The key morphologic principle is that a heterogeneous population favors a reactive process, whereas a monomorphic population warrants flow cytometry; individual panel diagnoses are not labeled in the image and cannot be confirmed from morphology alone.",
+  "ddx": [
+    {"dx": "Reactive (viral) lymphocytosis versus CLL", "vs": "Reactive lymphocytes are heterogeneous with abundant basophilic cytoplasm hugging red cells, whereas CLL cells are monotonous small cells with soccer-ball chromatin, smudge cells, and a CD5/CD23 clonal B-cell phenotype."},
+    {"dx": "Large granular lymphocytic leukemia", "vs": "LGL cells have moderate pale cytoplasm with coarse azurophilic granules and a clonal CD3/CD8/CD57 T-cell or NK phenotype."},
+    {"dx": "Leukemic mantle cell or follicular lymphoma", "vs": "These show irregular or cleaved nuclei with clonal B-cell phenotype (cyclin D1 or CD10/BCL2), requiring flow cytometry and FISH to separate from CLL."},
+    {"dx": "Pertussis lymphocytosis", "vs": "Pertussis produces small mature lymphocytes with cleaved nuclei in children that are polyclonal on flow cytometry."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

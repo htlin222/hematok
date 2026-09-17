@@ -1,0 +1,21 @@
+{
+  "id": "63492",
+  "recognize_zh": "骨髓切片免疫染色中，幾乎所有密集排列的圓形細胞都呈強而瀰漫的棕色細胞質／膜染色，只留下中央藍色細胞核，代表浸潤細胞一致表現該抗原；標記名稱未標示，要配合其他染色判斷系別。",
+  "features": [
+    "Dense sheets of round cells with round central nuclei",
+    "Strong, diffuse brown cytoplasmic/membranous staining in the vast majority of cells",
+    "Uniform staining pattern suggesting a monotonous positive population",
+    "Nuclei spared with blue hematoxylin counterstain",
+    "Marker not identified; tissue fragmented with empty spaces"
+  ],
+  "describe_en": "Immunohistochemical stain on a bone marrow biopsy shows a densely cellular infiltrate in which nearly all cells demonstrate strong, diffuse cytoplasmic/membranous brown staining with sparing of the nuclei. The uniformity of staining indicates that the infiltrating population expresses the antigen tested. The antibody is not specified, so the lineage implication cannot be stated from the image alone. In the context of acute leukemia with focal coagulative necrosis, this pattern would support a lineage-defining marker expressed by the blast population, pending correlation with the full panel.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Diffuse membranous/cytoplasmic CD79a, CD19, or CD10 staining with nuclear TdT and PAX5 would support B-lineage blasts."},
+    {"dx": "Acute myeloid leukemia", "vs": "Diffuse cytoplasmic MPO or CD117/CD33 positivity with absence of B-lineage markers would indicate myeloid lineage."},
+    {"dx": "Diffuse large B-cell lymphoma involving marrow", "vs": "Large cells with vesicular nuclei and prominent nucleoli that are CD20+ but TdT and CD34 negative would favor a mature B-cell lymphoma."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: marker not specified",
+  "match": "partial",
+  "high_yield": false
+}

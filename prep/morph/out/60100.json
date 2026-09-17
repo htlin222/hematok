@@ -1,0 +1,22 @@
+{
+  "id": "60100",
+  "recognize_zh": "流式圖中紅色 CD45 dim 低側散射芽細胞群呈 CD34+、CD13+、CD33+、CD56 強陽性、HLA-DR 陰性，MPO 陰性（綠色顆粒球才是 MPO+ 對照），細胞質 CD41/CD61 相對陰性群有輕度右移；MPO 陰性加巨核系標記是 AMKL 的判讀重點。",
+  "features": [
+    "CD45 vs SSC: blast population (red) with dim CD45 and low side scatter, separate from granulocytes (green) and lymphocytes (blue)",
+    "Blasts CD34 positive and CD13 positive",
+    "HLA-DR negative on the CD34+ blasts",
+    "CD33 positive with bright CD56 co-expression",
+    "Cytoplasmic MPO negative, with granulocytes serving as the MPO-positive internal control",
+    "Cytoplasmic CD41 and CD61 show a modest shift above the negative population, suggesting dim megakaryocytic antigen expression"
+  ],
+  "describe_en": "Flow cytometric analysis of the bone marrow shows a distinct blast population in the CD45-dim, low side-scatter region. The blasts express CD34, CD13 and CD33 with bright CD56, are HLA-DR negative, and lack cytoplasmic MPO, while residual granulocytes show bright MPO as an internal control. Cytoplasmic CD41 and CD61 show only a modest shift relative to the negative events, so megakaryocytic antigen expression appears dim and should be confirmed with CD42b or immunohistochemistry. In conjunction with the morphology, the findings support acute megakaryoblastic leukemia.",
+  "ddx": [
+    {"dx": "AML with minimal differentiation", "vs": "Also MPO-negative CD34+/CD13+/CD33+, but lacks CD41/CD61/CD42b expression."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is CD4+/CD56+/CD123 bright/TCF4+ and typically CD34-negative, unlike these CD34+ CD13+ blasts."},
+    {"dx": "Early T-precursor lymphoblastic leukemia", "vs": "ETP-ALL expresses cytoplasmic CD3 and CD7 with myeloid/stem markers but not megakaryocytic antigens."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

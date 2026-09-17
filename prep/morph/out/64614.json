@@ -1,0 +1,22 @@
+{
+  "id": "64614",
+  "recognize_zh": "周邊血可見中小型、核質比高、染色質緻密的異常 T 淋巴球；淋巴結被一致的中小型細胞瀰漫取代，CD3+、CD4 與 CD8 同時陽性、TCL1 陽性，FISH 顯示 TCL1 與 TCRB 分離訊號，符合 T-PLL。",
+  "features": [
+    "PB: small to medium lymphoid cells with high N:C ratio, round to slightly irregular nuclei, condensed chromatin, and scant basophilic cytoplasm with small surface irregularities",
+    "LN H&E: diffuse effacement by monotonous small to medium-sized lymphoid cells with round nuclei",
+    "IHC: tumor cells diffusely positive for CD3, with co-expression of CD4 and CD8",
+    "TCL1 shows nuclear/cytoplasmic positivity in the neoplastic cells",
+    "FISH: TCL1 break-apart probe and TCRB break-apart probe each show separated red and green signals indicating rearrangement"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered small to medium-sized atypical lymphoid cells with high nuclear-to-cytoplasmic ratio, condensed chromatin, and scant basophilic cytoplasm. Lymph node sections show diffuse effacement by a monotonous population of small to medium-sized lymphoid cells, which are positive for CD3, co-express CD4 and CD8, and express TCL1. Interphase FISH demonstrates split signals with both TCL1 and TCRB break-apart probes. Findings are consistent with T-cell prolymphocytic leukemia/lymphoma with TCRB::TCL1 rearrangement.",
+  "ddx": [
+    {"dx": "Sézary syndrome / mycosis fungoides", "vs": "Sézary cells have cerebriform nuclear convolutions, are usually CD4+ CD7− CD26−, and lack TCL1 expression and TCL1 rearrangement."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows polylobated 'flower cells', CD4+ CD25+ CD7− phenotype, and HTLV-1 seropositivity rather than TCL1 overexpression."},
+    {"dx": "T-lymphoblastic lymphoma", "vs": "Lymphoblasts have fine blastic chromatin and express TdT, CD34, or CD1a, all negative in this case."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells have abundant cytoplasm with azurophilic granules and a CD8+ CD57+ cytotoxic phenotype without TCL1 rearrangement."}
+  ],
+  "specimen": "LN",
+  "stain": "Giemsa; H&E; IHC: CD3, CD4, CD8, TCL1; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

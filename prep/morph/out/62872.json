@@ -1,0 +1,20 @@
+{
+  "id": "62872",
+  "recognize_zh": "四格 H&E 影像都呈現大片密集、形態一致的小型淋巴球浸潤，核小而深染、細胞質少，未見大型異型細胞或壞死，是惰性 T 細胞淋巴增生性疾病的單調小淋巴球浸潤模式。",
+  "features": [
+    "Dense, diffuse sheets of small monotonous lymphocytes in all four panels",
+    "Small round to slightly irregular dark nuclei with scant cytoplasm",
+    "No large transformed cells, prominent nucleoli or necrosis identified",
+    "Scattered small vessels and stromal elements; epithelial structures not well seen at this resolution"
+  ],
+  "describe_en": "Four H&E fields show a dense, diffuse infiltrate of small, monotonous lymphocytes with round to slightly irregular hyperchromatic nuclei and scant cytoplasm. Large atypical cells, brisk mitotic activity and necrosis are not identified, although image resolution limits assessment of nuclear detail and epitheliotropism. The appearance of a bland, monotonous small lymphoid infiltrate is consistent with indolent T-cell lymphoproliferative disorder of the gastrointestinal tract in the appropriate immunophenotypic context.",
+  "ddx": [
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma", "vs": "MEITL cells are medium-sized with more open chromatin, marked epitheliotropism and a high proliferation index."},
+    {"dx": "Small lymphocytic or mantle cell lymphoma involving gut", "vs": "These B-cell lymphomas look similar at low resolution but are CD20-positive (with CD5, and cyclin D1 in MCL), whereas this infiltrate is CD3-positive with rare B cells."},
+    {"dx": "Reactive lymphoid hyperplasia", "vs": "Reactive infiltrates are polymorphous with germinal centers and plasma cells and lack a clonal TCR rearrangement."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64015",
+  "recognize_zh": "中央一顆紅血球比周圍大一圈，胞質佈滿細小紅紫色點狀顆粒（Schüffner dots），內有厚實胞質環與一顆染色質點的環狀體，符合間日瘧（P. vivax）環狀體。",
+  "features": [
+    "Single infected red cell clearly enlarged relative to neighbouring red cells, with slightly irregular oval outline",
+    "Fine, evenly distributed pink-purple stippling throughout the host cell (Schuffner dots)",
+    "Ring form with relatively thick cytoplasmic ring, central vacuole and a single prominent chromatin dot",
+    "Only one parasite per cell; no appliqué forms or multiple rings",
+    "Adjacent platelet lying beside the infected cell (not intraerythrocytic)"
+  ],
+  "describe_en": "Thin peripheral blood film (Giemsa stain, high power) shows a single infected red cell that is noticeably enlarged compared with surrounding erythrocytes and contains fine, diffuse eosinophilic stippling consistent with Schuffner dots. Within it is a ring-form trophozoite with a relatively thick cytoplasmic ring, central vacuole and one chromatin dot. Uninfected red cells are unremarkable, and a platelet lies adjacent to the infected cell. Findings are consistent with Plasmodium vivax ring-form trophozoite.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum ring form", "vs": "Falciparum rings are small and delicate, often double-dotted, multiple or appliqué, within normal-sized red cells lacking Schuffner dots (Maurer clefts only in later stages)."},
+    {"dx": "Plasmodium ovale ring form", "vs": "Ovale also enlarges the cell with James dots, but the host cell is typically oval with fimbriated ends; separation may require species PCR."},
+    {"dx": "Babesia species", "vs": "Babesia forms small, pleomorphic rings without pigment or stippling, may form tetrads (Maltese cross), and does not enlarge the red cell."},
+    {"dx": "Platelet overlying a red cell", "vs": "A superimposed platelet shows granular purple texture without a cytoplasmic ring, chromatin dot or host cell stippling."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

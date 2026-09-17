@@ -1,0 +1,20 @@
+{
+  "id": "4234",
+  "recognize_zh": "三顆比小淋巴球稍大的單核細胞，圓到橢圓核、染色質細緻均勻、無明顯核仁，淡藍灰色胞質四周伸出細絲狀毛狀突起，是周邊血毛狀細胞的典型樣子。",
+  "features": [
+    "Three medium-sized lymphoid cells with moderate N:C ratio",
+    "Round to oval nuclei with finely dispersed chromatin and inconspicuous nucleoli",
+    "Moderate pale blue-gray cytoplasm with fine, ragged hair-like projections around the circumference",
+    "Background red cells largely normocytic with occasional poikilocytes; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows three medium-sized atypical lymphoid cells with round to oval nuclei, finely dispersed chromatin, and inconspicuous nucleoli. The cells have moderate amounts of pale blue-gray cytoplasm with fine, irregular hair-like projections. Red cells are largely unremarkable and platelets are present. Findings are consistent with hairy cells, suggestive of hairy cell leukemia; flow cytometry for CD11c, CD25, CD103 and CD123 is recommended.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells show short polar villi and more condensed chromatin and lack the CD25/CD103/CD123/annexin A1 profile of HCL."},
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v cells have prominent central nucleoli and are CD25 and annexin A1 negative, without BRAF V600E."},
+    {"dx": "Reactive lymphocytes", "vs": "Reactive lymphocytes have abundant basophilic cytoplasm that hugs adjacent red cells and lack circumferential fine hairy projections."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "15168",
+  "recognize_zh": "網狀纖維染色（reticulin stain）下，黑色細纖維呈細密網格狀包圍幾乎每一顆腫瘤細胞，細胞核間距均勻、細胞質淡而寬，這種瀰漫性網狀纖維增加正是毛細胞白血病骨髓「乾抽（dry tap）」的原因。",
+  "features": [
+    "Diffusely increased reticulin fibers forming a fine meshwork around individual cells",
+    "Evenly spaced round to oval nuclei separated by abundant pale cytoplasm",
+    "Dense fiber condensation adjacent to the bony trabecula",
+    "No collagen bundles evident; normal hematopoietic cells not discernible in this field",
+    "Bony trabecula at lower left and fat/vessel at upper left"
+  ],
+  "describe_en": "Bone marrow core biopsy stained for reticulin shows a diffuse increase in fine reticulin fibers that form a delicate network surrounding individual cells, with focal condensation along the bony trabecula. The intervening cells have round to oval, evenly spaced nuclei with abundant pale cytoplasm, imparting a spaced-out pattern. Normal trilineage hematopoiesis is not apparent in this field. Findings are consistent with marrow involvement by hairy cell leukemia with increased reticulin fibrosis (approximately MF-2), which explains the frequent dry tap on aspiration.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows reticulin/collagen fibrosis with clusters of atypical megakaryocytes and streaming, rather than a uniform infiltrate of spaced-out mononuclear cells that are CD20+/annexin A1+."},
+    {"dx": "Hypocellular MDS or aplastic anemia", "vs": "Hairy cell infiltrates can mimic hypocellularity on H&E, but reticulin is increased and CD20 highlights the diffuse interstitial B-cell infiltrate."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL forms nodular and intrasinusoidal infiltrates with less reticulin fibrosis and is annexin A1-negative, BRAF V600E-negative."},
+    {"dx": "Systemic mastocytosis", "vs": "Mastocytosis shows paratrabecular spindle-cell aggregates with fibrosis that are tryptase/CD117+, not an interstitial CD20+ infiltrate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Reticulin",
+  "match": "consistent",
+  "high_yield": true
+}

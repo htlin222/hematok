@@ -1,0 +1,20 @@
+{
+  "id": "4115",
+  "recognize_zh": "低倍骨髓抹片中，箭頭指出數個細胞質內含多個被吞噬有核細胞與碎屑的巨噬細胞，位於高細胞量骨髓小粒旁，提示噬血現象（hemophagocytosis）。",
+  "features": [
+    "Hypercellular marrow particle composed of densely packed hematopoietic/blast cells",
+    "Several macrophages (arrows) at the particle edge containing multiple engulfed nucleated cells and debris",
+    "Scattered individual large mononuclear cells with moderate cytoplasm in the surrounding smear",
+    "Low magnification prevents detailed blast cytology"
+  ],
+  "describe_en": "Low-power bone marrow aspirate smear shows a hypercellular particle composed of densely packed hematopoietic cells. At the particle edge, several macrophages (arrows) contain multiple phagocytosed nucleated cells and debris, indicating hemophagocytosis. Scattered large mononuclear cells are present in the trails, but blast morphology cannot be fully evaluated at this magnification. Findings are consistent with hemophagocytosis in a hypercellular marrow; in this case it is associated with acute monoblastic leukemia, and HLH criteria should be correlated clinically.",
+  "ddx": [
+    {"dx": "Megakaryocytes", "vs": "Megakaryocytes have large multilobated nuclei with granular cytoplasm rather than multiple discrete engulfed cells."},
+    {"dx": "Clumped cell aggregates/smear artifact", "vs": "Artifactual clumps lack a surrounding shared macrophage cytoplasm; confirmation at high power is needed."},
+    {"dx": "Infection-associated HLH", "vs": "Infection-driven HLH lacks a leukemic blast population and may show organisms within macrophages."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "66487",
+  "recognize_zh": "MPO 細胞化學染色下，兩顆細胞的細胞質被密集的深藍黑色陽性顆粒填滿、甚至遮蓋細胞核，屬強陽性 (intense MPO positivity)，支持急性前骨髓細胞白血病 (APL) 的骨髓系異常前骨髓細胞。",
+  "features": [
+    "Two medium-to-large leukocytes with dense, coarse blue-black MPO-positive granules filling the cytoplasm",
+    "Reaction product is so intense that it partially obscures the nuclear outline",
+    "Positivity is diffuse throughout each cell rather than focal or dot-like",
+    "Pink counterstained nuclear areas faintly visible beneath the granules",
+    "Background red cells unremarkable and non-reactive; platelets not evident"
+  ],
+  "describe_en": "Peripheral blood smear stained for myeloperoxidase shows two leukocytes with strong, diffuse cytoplasmic MPO positivity, with coarse granular reaction product that partly obscures the nuclei. The staining is uniformly intense throughout the cells. Nuclear morphology cannot be assessed on this preparation. In the appropriate context, this strong MPO reactivity is consistent with abnormal promyelocytes of acute promyelocytic leukemia and confirms myeloid lineage.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts and promonocytes are MPO negative or show only faint scattered granules and are nonspecific esterase positive."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are MPO negative (<3% positive blasts) and require TdT/CD19/CD3 for lineage assignment."},
+    {"dx": "AML with maturation or normal granulocytes", "vs": "These are also MPO positive, so separation from APL relies on the bilobed hypogranular or hypergranular morphology, CD34/HLA-DR negativity and PML::RARA."}
+  ],
+  "specimen": "PB",
+  "stain": "MPO",
+  "match": "consistent",
+  "high_yield": false
+}

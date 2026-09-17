@@ -1,0 +1,22 @@
+{
+  "id": "3318",
+  "recognize_zh": "骨髓切片免疫染色中，只有大型異型細胞呈強而均勻的棕色細胞質（含膜）陽性，周圍小型造血細胞呈藍色陰性，顯示大細胞呈叢狀侵犯骨髓；圖中未標示抗體，推測為 ALCL 的 CD30 或 ALK 染色。",
+  "features": [
+    "Large atypical cells with strong, uniform brown cytoplasmic and membranous immunoreactivity",
+    "Positive cells arranged in clusters and small sheets, some with sinusoidal-like distribution",
+    "Nuclei of positive cells are irregular or reniform with hematoxylin counterstain and no clear nuclear staining",
+    "Small background hematopoietic cells and stromal cells are negative (blue)",
+    "Specific antibody is not labeled in the image"
+  ],
+  "describe_en": "Immunohistochemical stain on a bone marrow core biopsy highlights clusters and sheets of large atypical cells with strong, diffuse cytoplasmic and membranous positivity, while the small background hematopoietic and stromal cells are negative. The nuclei of the positive cells appear unstained, and some are reniform. The antibody is not specified in the image; the pattern is compatible with CD30, or with ALK in a variant fusion showing cytoplasm-restricted staining. In the context of the title, the findings are consistent with bone marrow involvement by anaplastic large cell lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma involving marrow", "vs": "CD30-positive Hodgkin cells are scattered singly in a fibrotic mixed background rather than forming cohesive clusters, and they are ALK negative and CD15 positive."},
+    {"dx": "Metastatic carcinoma (keratin or EMA stain)", "vs": "Carcinoma clusters can stain similarly with keratin or EMA, but they are negative for CD30, ALK and T-cell markers."},
+    {"dx": "Systemic mastocytosis (CD117 or tryptase stain)", "vs": "Mast cells are smaller spindle-shaped cells in paratrabecular aggregates and do not show the large anaplastic nuclei seen here."},
+    {"dx": "ALK-negative ALCL", "vs": "If the stain is CD30, ALK-positive and ALK-negative ALCL cannot be separated without an ALK immunostain."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: unlabeled (likely CD30 or ALK)",
+  "match": "consistent",
+  "high_yield": false
+}

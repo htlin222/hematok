@@ -1,0 +1,22 @@
+{
+  "id": "1802",
+  "recognize_zh": "這是頸部顯影劑增強的軸狀 CT，不是組織切片：影像左側（病人右頸）血管外側可見一個中心低密度、邊緣稍增強的腫大淋巴結，影像右後側（病人左頸後三角）另有一顆圓形增大淋巴結，提示頸部淋巴結病變，需組織切片確立淋巴瘤診斷。",
+  "features": [
+    "Axial contrast-enhanced CT of the neck at the level of the mandible and oropharynx",
+    "Enlarged ovoid lymph node lateral to the carotid/jugular vessels on the patient's right (image left) with central low attenuation and mild rim enhancement",
+    "Additional rounded enlarged node in the left posterior triangle (image right, posterior)",
+    "Smaller subcentimeter nodes along both jugular chains",
+    "Airway patent and midline; no obvious bone destruction of the cervical vertebra at this level"
+  ],
+  "describe_en": "This is an axial contrast-enhanced CT image of the neck, not a morphologic specimen. On the patient's right (image left), there is an enlarged ovoid lymph node lateral to the carotid sheath with central low attenuation and mild rim enhancement, and a separate rounded enlarged node is present in the left posterior cervical triangle. Additional small jugular chain nodes are seen bilaterally, and the airway is patent and midline. These findings indicate cervical lymphadenopathy, which in this case corresponds to diffuse large B-cell lymphoma; central hypoattenuation can reflect necrosis, and tissue biopsy (excisional or core) is required for diagnosis.",
+  "ddx": [
+    {"dx": "Metastatic squamous cell carcinoma to cervical nodes", "vs": "Cystic or necrotic level II nodes are classic for HPV-related oropharyngeal carcinoma; biopsy showing keratin-positive carcinoma separates it."},
+    {"dx": "Tuberculous lymphadenitis (scrofula)", "vs": "Often shows matted nodes with central necrosis and rim enhancement; distinguished by caseating granulomas and AFB stains or cultures."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Imaging cannot separate it; biopsy shows Hodgkin/Reed-Sternberg cells that are CD30/CD15-positive and CD45-negative."},
+    {"dx": "Reactive lymphadenopathy", "vs": "Nodes are usually smaller, oval with preserved fatty hilum and without central necrosis."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

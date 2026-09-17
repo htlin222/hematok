@@ -1,0 +1,21 @@
+{
+  "id": "65129",
+  "recognize_zh": "骨髓切片 H&E 下幾乎全為成片細胞，細胞核小而偏心、細胞質淡染並充滿大小不一的透明空泡，低倍看起來像組織球聚集；需搭配 CD138 才能確認為空泡化的漿細胞浸潤。",
+  "features": [
+    "Hypercellular marrow replaced by sheets of cells with abundant pale, finely to coarsely vacuolated cytoplasm",
+    "Small round, often eccentric, hyperchromatic nuclei",
+    "Numerous clear vacuoles of varying size producing a foamy, histiocyte-like texture",
+    "Near-complete effacement of normal trilineage hematopoiesis in this field",
+    "Individual cell detail limited at this magnification"
+  ],
+  "describe_en": "Bone marrow trephine biopsy (H&E) shows a hypercellular marrow with near-total replacement by sheets of cells containing small round, eccentric nuclei and abundant pale cytoplasm with numerous clear vacuoles, giving a foamy, pseudo-histiocytic appearance. Normal hematopoietic elements are markedly reduced in this field. The morphology alone raises histiocytic or storage disorders, but in this case the cells were CD138-positive plasma cells. Findings are consistent with extensive marrow involvement by a plasma cell neoplasm with vacuolated cytoplasm.",
+  "ddx": [
+    {"dx": "Gaucher disease or other storage histiocytosis", "vs": "Storage cells have larger, fibrillary or crumpled-tissue cytoplasm and are CD68+/CD138-, whereas these cells were CD138-positive."},
+    {"dx": "Metastatic signet-ring cell carcinoma", "vs": "Signet-ring carcinoma cells have mucin vacuoles indenting the nucleus and are cytokeratin-positive, unlike CD138+ light-chain-restricted plasma cells."},
+    {"dx": "Crystal-storing histiocytosis", "vs": "Crystal-storing histiocytes contain eosinophilic crystalline material and are CD68+, often accompanying a small clonal plasma cell population rather than replacing the marrow as sheets of plasma cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

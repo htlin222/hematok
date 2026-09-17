@@ -1,0 +1,22 @@
+{
+  "id": "60021",
+  "recognize_zh": "CD45 免疫染色下，瀰漫成片的中型腫瘤細胞呈細顆粒狀的細胞膜染色，而右側鱗狀上皮完全不染，證明浸潤細胞屬造血來源而非上皮癌；需再加 MPO、CD33、lysozyme 等確認為骨髓肉瘤。",
+  "features": [
+    "Diffuse sheets of medium-sized, monotonous tumor cells in the dermis",
+    "Weak to moderate, finely granular membranous CD45 staining in the majority of tumor cells",
+    "Round to oval nuclei with fine chromatin on hematoxylin counterstain",
+    "Adjacent squamous epithelium (right) is CD45 negative, serving as internal negative control",
+    "Rare strongly CD45-positive cell, likely a reactive small lymphocyte"
+  ],
+  "describe_en": "Immunohistochemical stain for CD45 on the skin biopsy shows diffuse sheets of medium-sized tumor cells with weak to moderate, finely granular membranous staining, while the adjacent squamous epithelium is negative. The staining establishes hematolymphoid origin of the infiltrate and argues against carcinoma or melanoma. CD45 alone does not assign lineage; together with the reported positivity for CD33, CD4, lysozyme, and myeloperoxidase and negative cytokeratin, the findings are consistent with myeloid sarcoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma or other lymphoma", "vs": "Lymphomas are also CD45 positive but express CD20/PAX5 or T-cell markers and are MPO and lysozyme negative."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN commonly involves skin and expresses CD4 but is CD123, TCF4, and CD56 positive and MPO/lysozyme negative."},
+    {"dx": "Poorly differentiated carcinoma", "vs": "Carcinoma is cytokeratin positive and CD45 negative, unlike this infiltrate."},
+    {"dx": "Merkel cell carcinoma", "vs": "Merkel cell carcinoma is CK20 dot-positive and neuroendocrine marker positive and CD45 negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD45",
+  "match": "consistent",
+  "high_yield": false
+}

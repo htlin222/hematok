@@ -1,0 +1,21 @@
+{
+  "id": "60811",
+  "recognize_zh": "許多紅血球中央有深染圓點、外圍一圈淡區再一圈深染（標靶細胞 target cells），上方有一顆帶數根長短不一、不規則尖刺的細胞（spur cell／acanthocyte），合併出現提示肝病。",
+  "features": [
+    "Numerous target cells with central hemoglobin condensation surrounded by a pale ring",
+    "One spur cell (acanthocyte) at upper right with a few irregular, unevenly spaced, long spiculated projections",
+    "Many crenated red cells with regular short projections (echinocytes/burr cells)",
+    "Occasional red cells with irregular or elongated shapes, including a spiculated elongated form at upper left",
+    "Mild anisocytosis; rare platelets and no leukocytes in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous target cells with central hemoglobin condensation and a peripheral pale ring. A spur cell (acanthocyte) with a few irregular, unevenly distributed projections is present at the upper right, and many red cells show regular short crenations consistent with echinocytes. Mild anisocytosis is noted, with rare platelets and no leukocytes in this field. Findings are consistent with target cells and a spur cell, suggestive of acquired membrane lipid changes of liver disease; iron deficiency and hemoglobinopathy may also contribute to targeting.",
+  "ddx": [
+    {"dx": "Echinocyte (burr cell)", "vs": "Echinocytes have 10-30 short, evenly spaced projections around the circumference, whereas spur cells have fewer irregular projections of varying length."},
+    {"dx": "Hemoglobinopathy (HbC or thalassemia) target cells", "vs": "Target cells alone cannot separate these; hemoglobin electrophoresis/HPLC and red cell indices distinguish them from liver disease."},
+    {"dx": "Keratocytes/schistocytes", "vs": "Fragmented cells show horn-like paired projections or sharp torn edges rather than spicules on an intact dense cell."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

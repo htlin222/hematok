@@ -1,0 +1,21 @@
+{
+  "id": "9924",
+  "recognize_zh": "這是未染色半固態培養基中的造血前驅細胞群落照片：BFU-E 是多團聚在一起的大型「爆裂」狀紅系群落，CFU-E 只是一小團緻密細胞，CFU-GM 為鬆散散開的細胞雲，CFU-GEMM 則是中心極為緻密的大型混合群落。",
+  "features": [
+    "BFU-E: large multifocal burst composed of several coalescing dark (hemoglobinized) subclusters",
+    "CFU-E: small, compact, tight cluster of a few dozen cells",
+    "CFU-GM: loose, diffuse colony of dispersed refractile cells without hemoglobinization",
+    "CFU-GEMM: large colony with a dense, dark central core and a halo of dispersed cells at the periphery",
+    "Unstained in vitro methylcellulose cultures photographed by inverted light microscopy"
+  ],
+  "describe_en": "This figure shows in vitro colony-forming assays of human hematopoietic progenitors grown in semisolid (methylcellulose) medium and photographed unstained. The BFU-E appears as a large multi-lobed burst of hemoglobinized subcolonies, whereas the CFU-E forms a small compact cluster derived from a more mature erythroid progenitor. The CFU-GM is a loose, dispersed colony of granulocytic and monocytic cells, and the CFU-GEMM is a large mixed colony with a dense center and peripheral spread. Colony size and complexity reflect progenitor immaturity: CFU-GEMM and BFU-E are earlier progenitors than CFU-E.",
+  "ddx": [
+    {"dx": "BFU-E versus CFU-E", "vs": "BFU-E is an earlier, erythropoietin- and IL-3/SCF-dependent progenitor forming large multicentric bursts after about 14 days, whereas CFU-E forms small single clusters within about 7 days."},
+    {"dx": "CFU-GM versus CFU-GEMM", "vs": "CFU-GM colonies lack red hemoglobinized cells and megakaryocytes, while CFU-GEMM colonies contain erythroid, myeloid and megakaryocytic elements, often with a dense reddish core."},
+    {"dx": "Cell clumps or debris in culture", "vs": "Artifactual clumps are present at plating and do not enlarge over serial days, whereas true colonies grow from single progenitors."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (unstained methylcellulose culture)",
+  "match": "consistent",
+  "high_yield": false
+}

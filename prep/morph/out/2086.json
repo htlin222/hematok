@@ -1,0 +1,21 @@
+{
+  "id": "2086",
+  "recognize_zh": "周邊血液抹片中有一顆小型成熟淋巴球，旁邊另一顆淋巴球的核被一條深而清楚的裂縫從中切開（cleaved lymphocyte），這種帶深裂痕的小淋巴球配合百日咳臨床，是 pertussis 淋巴球增多的典型表現。",
+  "features": [
+    "Small mature lymphocyte with a deep, sharply defined nuclear cleft dividing the nucleus into two halves",
+    "Condensed, clumped mature chromatin without nucleoli",
+    "Scant cytoplasm, similar size to an adjacent normal small lymphocyte",
+    "Adjacent round small lymphocyte with dense chromatin for comparison",
+    "Unremarkable red cells and a few platelets in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows two small mature lymphocytes. One has a deep, cleanly incised nuclear cleft producing a bilobed, 'butt-like' appearance, with mature condensed chromatin, no nucleoli and scant cytoplasm. The accompanying lymphocyte is round and normal-appearing, and the red cells and platelets are unremarkable. In a child with paroxysmal cough and absolute lymphocytosis, findings are consistent with reactive lymphocytosis of Bordetella pertussis infection.",
+  "ddx": [
+    {"dx": "Follicular lymphoma in leukemic phase (buttock cells)", "vs": "Leukemic FL shows a monotonous clonal population of cleaved cells in adults, with CD10+ light-chain-restricted B cells and BCL2 rearrangement, whereas pertussis lymphocytosis is polyclonal and predominantly T-cell in children."},
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform, convoluted nuclei with multiple grooves rather than a single clean cleft and show CD4+ CD7-/CD26- clonal T cells."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells are multilobated 'flower cells' with several petal-like lobes, whereas the cell here has a single deep cleft."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

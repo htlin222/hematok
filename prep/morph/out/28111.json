@@ -1,0 +1,22 @@
+{
+  "id": "28111",
+  "recognize_zh": "血液抹片上可見一條捲曲、體內充滿藍紫色體核（somatic nuclei）的線狀微絲蟲（microfilaria），尾端與頭端外圍有一層粉紅色、延伸超出蟲體的鞘膜（sheath）；配合來自印度孟買的發燒病史，應考慮淋巴絲蟲病（Wuchereria bancrofti 或 Brugia malayi）。",
+  "features": [
+    "Single coiled, elongated microfilaria many times the diameter of a red cell",
+    "Column of densely packed, dark blue somatic nuclei filling the body",
+    "Pink-staining sheath extending beyond the cephalic and caudal ends of the larva",
+    "Distribution of terminal tail nuclei not clearly resolvable in this image",
+    "Background of lysed/thick-film material with scattered leukocyte nuclei"
+  ],
+  "describe_en": "Stained blood film (thick-film background with lysed erythrocytes) shows a single coiled microfilaria with a column of densely packed somatic nuclei and a pink-staining sheath projecting beyond the ends of the organism. Scattered leukocyte nuclei are present in the background. The tail nuclear pattern needed for species identification cannot be reliably assessed at this resolution. Findings are consistent with a sheathed microfilaria of lymphatic filariasis (Wuchereria bancrofti or Brugia malayi) in a patient from India; the pink sheath on Giemsa favors Brugia, and species confirmation requires tail morphology or PCR.",
+  "ddx": [
+    {"dx": "Loa loa", "vs": "Loa loa is sheathed but its sheath is unstained on Giemsa, nuclei extend to the tip of the tail, and it occurs in West/Central Africa rather than India."},
+    {"dx": "Mansonella perstans/ozzardi", "vs": "Mansonella microfilariae are small and unsheathed with a blunt (perstans) or tapered (ozzardi) tail."},
+    {"dx": "Wuchereria bancrofti vs Brugia malayi", "vs": "W. bancrofti has a faintly staining sheath and no terminal tail nuclei, whereas B. malayi has a bright pink Giemsa-staining sheath and two separate terminal tail nuclei."},
+    {"dx": "Artifact (fibers, fungal hyphae)", "vs": "Fibers and hyphae lack an organized column of nuclei and a sheath."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

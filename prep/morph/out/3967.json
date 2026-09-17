@@ -1,0 +1,21 @@
+{
+  "id": "3967",
+  "recognize_zh": "同一視野可同時看到三種線索：箭頭指的鈍端、有稜角的 HbSC 結晶，雙箭頭指的靶形紅血球，以及箭形標記處細長尖端的鐮刀型紅血球，另外還有許多摺疊、濃縮的紅血球，符合 HbSC 疾病。",
+  "features": [
+    "Red cell with dense, blunt, angular hemoglobin crystal protrusions (arrow)",
+    "Numerous target cells (double arrow)",
+    "Occasional elongated sickle cell (arrowheads)",
+    "Many folded, irregularly contracted and dense red cells",
+    "Adequate platelets; a polychromatic cell present"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous target cells (double arrow), many folded and irregularly contracted dense red cells, and cells containing blunt, straight-edged hemoglobin crystals (arrow). An occasional elongated sickle cell is present (arrowheads), and a polychromatic red cell is seen. Findings are consistent with hemoglobin SC disease, to be confirmed by hemoglobin HPLC or electrophoresis.",
+  "ddx": [
+    {"dx": "Sickle cell anemia (HbSS)", "vs": "HbSS has many thin, pointed sickle cells and fewer target cells, and lacks blunt SC crystals."},
+    {"dx": "Hemoglobin CC disease", "vs": "HbCC shows target cells with rhomboid/hexagonal HbC crystals but no sickle cells."},
+    {"dx": "HbS/beta-thalassemia", "vs": "HbS/beta-thalassemia shows microcytic hypochromic cells with sickle and target cells, and HPLC shows HbS with elevated HbA2 and no HbC."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

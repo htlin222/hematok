@@ -1,0 +1,22 @@
+{
+  "id": "63600",
+  "recognize_zh": "A 圖為 CellaVision 影像庫，淋巴球核較大、部分染色質細緻，看似原始細胞；但 B 圖 CD45/SSC 的原始細胞區（blast gate）幾乎沒有細胞，C 圖可見 CD5+/CD19+ B 細胞群，E 圖 kappa 與 lambda 兩群皆存在（多株，polyclonal），故為反應性 CD5+ B1a 淋巴球增多而非白血病。",
+  "features": [
+    "Panel A: gallery of lymphocytes with slightly increased cytoplasm, mostly condensed chromatin and a few cells with finer chromatin mimicking blasts",
+    "Panel B: CD45 versus side scatter shows cells concentrated in the bright CD45, low side scatter lymphocyte gate with an essentially empty blast gate",
+    "Panel C: CD5 versus CD19 within lymphocytes shows a distinct CD5+/CD19+ B-cell population alongside CD5+/CD19- T cells and double-negative cells",
+    "Panel D: CD5+/CD19+ cells are uniformly CD20 bright and CD45 bright",
+    "Panel E: CD5+/CD19+ B cells contain both kappa-positive and lambda-positive subsets, indicating polyclonality"
+  ],
+  "describe_en": "Composite figure of peripheral blood morphology and flow cytometry. The CellaVision gallery shows lymphocytes with slightly increased cytoplasm and mostly condensed chromatin, a few with finer chromatin that could mimic blasts. On flow cytometry, events are concentrated in the bright CD45, low side scatter lymphocyte region with no increase in the blast gate, and a CD5+/CD19+ B-cell population is present that is bright for CD20 and CD45. Light chain analysis of this population shows both kappa and lambda-expressing cells, indicating polyclonality. Findings are consistent with a reactive, polyclonal CD5+ innate-like (B1a) B-cell lymphocytosis rather than a lymphoproliferative neoplasm or acute leukemia.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia / monoclonal B-cell lymphocytosis", "vs": "CLL/MBL cells are CD5+/CD19+ but show light chain restriction, dim CD20 and CD23 positivity, whereas this population is polyclonal and CD20 bright."},
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "Mantle cell lymphoma is CD5+ with bright CD20 but is light chain restricted and cyclin D1/SOX11 positive."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-lymphoblasts fall in the dim CD45 blast gate and express CD34, TdT and CD10, which are absent here."},
+    {"dx": "Hematogones (benign B-cell precursors)", "vs": "Hematogones show a maturation continuum with CD10 and TdT/CD34 on early stages and are CD5-negative."}
+  ],
+  "specimen": "flow",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "non-morphologic",
+  "high_yield": false
+}

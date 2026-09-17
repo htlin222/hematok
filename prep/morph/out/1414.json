@@ -1,0 +1,22 @@
+{
+  "id": "1414",
+  "recognize_zh": "這是蛋白電泳膠片的「病人 vs 對照」比較：左端為濃染的白蛋白帶，病人泳道在箭頭處多了一條窄而濃的額外條帶，對照泳道同位置則沒有，代表血中有單株蛋白（M-spike）。",
+  "features": [
+    "Serum protein electrophoresis strips comparing patient and control",
+    "Dense albumin band at the anodal (left) end in both lanes",
+    "Patient lane shows an additional discrete, dense narrow band marked by the arrow",
+    "Control lane shows only diffuse globulin staining at the corresponding position",
+    "Band position appears in the beta to gamma region; exact region cannot be assigned without labels"
+  ],
+  "describe_en": "Serum protein electrophoresis gel compares a patient sample with a normal control. Both lanes show a dense albumin band at the anodal end and fainter alpha and beta globulin bands. The patient lane contains an additional discrete, dense narrow band (arrow) that is absent from the control, located in the beta-gamma region. Findings indicate a monoclonal protein (M-spike); immunofixation is needed to determine heavy and light chain type and quantification is needed for staging.",
+  "ddx": [
+    {"dx": "Polyclonal hypergammaglobulinemia", "vs": "Polyclonal increase produces a broad, diffuse gamma region smear rather than a narrow dense band."},
+    {"dx": "Fibrinogen band in plasma sample", "vs": "Fibrinogen from an unclotted sample creates a band between beta and gamma that disappears on repeat with serum and does not fix with anti-immunoglobulin antisera."},
+    {"dx": "Increased transferrin (iron deficiency) or C3", "vs": "Normal beta proteins can appear more prominent, but they do not show immunoglobulin heavy or light chain reactivity on immunofixation."},
+    {"dx": "Hemolysis-related hemoglobin band", "vs": "Free hemoglobin-haptoglobin bands appear in the alpha2-beta region in hemolyzed samples and are not immunoglobulins."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (protein stain)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "66309",
+  "recognize_zh": "血液抹片中大型不成熟細胞的細胞質豐富呈灰藍色、偶見空泡，細胞核細緻並有折疊或花瓣狀（苜蓿葉狀）分葉，屬單核母細胞與前單核球 (promonocytes)，提示伴單核球分化的急性骨髓性白血病。",
+  "features": [
+    "Large immature cells with moderate to abundant grey-blue cytoplasm and variable N:C ratio",
+    "Nuclei round to indented, with several showing folded or cloverleaf/lobulated contours (promonocytes)",
+    "Fine, lacy immature chromatin with faint nucleoli",
+    "Occasional small cytoplasmic vacuoles; no Auer rods seen",
+    "Background red cells show mild anisopoikilocytosis with some hypochromia; one small mature lymphocyte present"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous large immature mononuclear cells with abundant grey-blue cytoplasm, occasional cytoplasmic vacuoles and fine immature chromatin. Many cells have indented, folded or cloverleaf-shaped nuclei characteristic of promonocytes, admixed with rounder blast forms; Auer rods are not identified. Red cells show anisopoikilocytosis with hypochromia. Findings are consistent with acute myeloid leukemia with monocytic differentiation, supported by expression of CD64 and CD11c on flow cytometry; nonspecific esterase cytochemistry can further confirm monocytic lineage.",
+  "ddx": [
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows mostly mature monocytes with blasts plus promonocytes <20%, whereas here blasts and promonocytes predominate."},
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL cells also have folded bilobed nuclei but are strongly MPO positive, NSE negative, and CD34/HLA-DR negative, unlike these HLA-DR-positive cells."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes have condensed chromatin, vacuolated cytoplasm and no increase in blasts or promonocytes."},
+    {"dx": "Acute myelomonocytic leukemia", "vs": "AMML requires ≥20% neutrophil lineage cells in addition to monocytic cells, which requires a differential count rather than a single field."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": true
+}

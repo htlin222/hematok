@@ -1,0 +1,23 @@
+{
+  "id": "63054",
+  "recognize_zh": "拼圖集合 COVID-19 周邊血液變化：A–C 為細胞質灰藍、帶空泡且核摺疊的反應性單核球／淋巴球，G–K 為細胞質深藍的漿細胞樣淋巴球（K 箭頭），另見嗜中性球異常、凋亡細胞（F）及大型或去顆粒血小板與血小板團塊（L–N）。",
+  "features": [
+    "Panels A-C: large reactive mononuclear cells with folded/indented nuclei and abundant gray-blue, vacuolated cytoplasm",
+    "Panels G, H, J, K (arrow): plasmacytoid/reactive lymphocytes with intensely basophilic cytoplasm and condensed chromatin",
+    "Panels D, E: neutrophils with vacuolated cytoplasm and abnormal nuclear shapes, alongside a small cell with a dense round nucleus",
+    "Panel F: apoptotic cell with a pyknotic dense nucleus and granular cytoplasm",
+    "Panels L-N: large, hypogranular platelets and a platelet clump",
+    "Background red cells without significant fragmentation"
+  ],
+  "describe_en": "Composite of peripheral blood smear images shows a spectrum of reactive changes. There are large mononuclear cells with folded nuclei and abundant vacuolated gray-blue cytoplasm, and several plasmacytoid lymphocytes with deeply basophilic cytoplasm. Neutrophils show cytoplasmic vacuolation and nuclear irregularities, and an apoptotic cell with a pyknotic nucleus is noted. Platelets include large, hypogranular forms and clumps. Findings are consistent with reactive morphologic changes of SARS-CoV-2 infection; no definitive neoplastic population is identified.",
+  "ddx": [
+    {"dx": "Other viral infection (EBV/CMV mononucleosis)", "vs": "Mononucleosis shows predominantly large reactive lymphocytes with cytoplasm scalloping around red cells, whereas COVID-19 more often shows plasmacytoid lymphocytes with lymphopenia; serology/PCR distinguishes."},
+    {"dx": "Plasma cell leukemia", "vs": "Circulating clonal plasma cells are numerous, monomorphic and light-chain restricted, whereas these plasmacytoid lymphocytes are few, variable and polytypic."},
+    {"dx": "Acute leukemia", "vs": "Blasts have fine chromatin, nucleoli and a high N:C ratio, unlike the condensed chromatin and abundant cytoplasm of these reactive cells."},
+    {"dx": "Sepsis-related toxic changes", "vs": "Bacterial sepsis shows toxic granulation, Dohle bodies and left shift with neutrophilia; distinction is clinical and microbiologic."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

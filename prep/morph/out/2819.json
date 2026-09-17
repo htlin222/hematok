@@ -1,0 +1,21 @@
+{
+  "id": "2819",
+  "recognize_zh": "骨髓抹片細胞密集，除成熟顆粒球外，有多顆大型、染色質細緻的母細胞與早幼粒細胞，並可見嗜酸性骨髓細胞與含深色粗顆粒的嗜鹼性球，提示 CML 進展期的母細胞與嗜鹼性球增加。",
+  "features": [
+    "Hypercellular aspirate with granulocytic predominance",
+    "Numerous large immature cells (blasts/promyelocytes) with fine chromatin and basophilic cytoplasm",
+    "Eosinophilic myelocytes with orange-red granules",
+    "Basophils/basophilic precursors with coarse dark purple granules",
+    "Maturing myelocytes, metamyelocytes, bands and segmented neutrophils; a small dark nucleated red cell"
+  ],
+  "describe_en": "Bone marrow aspirate smear is hypercellular with granulocytic predominance and a conspicuous immature component, including large blasts and promyelocytes with fine chromatin and basophilic cytoplasm. Eosinophilic myelocytes and basophils with coarse dark granules are readily seen, along with maturing neutrophils. A 500-cell differential is needed to document blast (10-19%) and basophil (>=20%) thresholds. In a patient with BCR::ABL1-positive CML, findings are consistent with accelerated phase.",
+  "ddx": [
+    {"dx": "CML, chronic phase", "vs": "Chronic phase marrow has <10% blasts and less prominent basophilia, while cell types present are otherwise similar."},
+    {"dx": "CML, blast phase", "vs": "Blast phase requires >=20% blasts, and lymphoid blast phase would show TdT+ B- or T-lymphoblasts."},
+    {"dx": "Myeloid neoplasm with eosinophilia and tyrosine kinase fusion", "vs": "PDGFRA/PDGFRB/FGFR1 neoplasms show eosinophilia without BCR::ABL1 and require FISH or molecular testing."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

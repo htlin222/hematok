@@ -1,0 +1,23 @@
+{
+  "id": "61137",
+  "recognize_zh": "組合圖：PET/CT 顯示腰椎與恥骨區高攝取病灶，H&E 為彌漫性中等大小、染色質細緻的母細胞，FISH 插圖 1R1G2F 代表 BCR::ABL1 融合，免疫染色為核染陽性，綜合指向 Ph 陽性 B 淋巴母細胞淋巴瘤。",
+  "features": [
+    "PET/CT: intensely FDG-avid soft tissue/bone lesions (perineal/pubic region and lumbar vertebra); CT shows a lesion adjacent to the kidney (arrow)",
+    "H&E: diffuse sheets of monotonous medium-sized blasts with high N:C ratio",
+    "Round to slightly irregular nuclei with fine, dispersed chromatin and inconspicuous to small nucleoli",
+    "Scant cytoplasm; no glandular, keratinizing or cohesive epithelial architecture",
+    "Panels E and F: strong nuclear immunoreactivity in most tumor cells (specific antigens not labeled in the figure)",
+    "FISH inset reported as 1R1G2F, indicating BCR::ABL1 fusion signals"
+  ],
+  "describe_en": "Composite figure. PET/CT images (A-C) demonstrate hypermetabolic masses involving pelvic soft tissue and lumbar vertebral bone, with an additional lesion in the retroperitoneum near the kidney on CT. Biopsy (D) shows diffuse effacement by monotonous medium-sized cells with high nuclear-to-cytoplasmic ratio, finely dispersed chromatin and scant cytoplasm; the FISH inset shows a 1R1G2F signal pattern consistent with BCR::ABL1 fusion. Immunostains (E, F) show diffuse nuclear positivity in the neoplastic cells, although the specific markers are not identified in the image. In conjunction with a B-lineage immunophenotype, findings are consistent with Philadelphia chromosome-positive B-lymphoblastic lymphoma.",
+  "ddx": [
+    {"dx": "T-lymphoblastic lymphoma", "vs": "Morphology is identical; T-LBL is usually mediastinal and expresses cytoplasmic CD3 rather than PAX5/CD19/CD79a, and lacks BCR::ABL1."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells have multiple small nucleoli, deeply basophilic vacuolated cytoplasm and a starry-sky pattern, are TdT negative and carry MYC rearrangement."},
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma may show eosinophilic myelocytes and expresses MPO/lysozyme/CD33 rather than B-lymphoblast markers."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is cyclin D1 and SOX11 positive with CCND1 rearrangement and TdT negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC (nuclear), FISH, PET/CT",
+  "match": "consistent",
+  "high_yield": false
+}

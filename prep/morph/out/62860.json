@@ -1,0 +1,20 @@
+{
+  "id": "62860",
+  "recognize_zh": "血球計數儀（Beckman Coulter LH750）畫面：RBC 直方圖出現兩個峰（小球性與正常大小族群），並跳出 Dimorphic Reds 與 Hypochromia 警示；MCV 68.7 fL、RDW 35.1% 顯著升高，小紅血球干擾 PLT 直方圖右端，符合鐵粒母細胞性貧血的雙族群紅血球。",
+  "features": [
+    "RBC histogram with a bimodal curve: a microcytic peak below ~70 fL and a normocytic peak (blue arrow)",
+    "Instrument flags: Anemia, Anisocytosis, Dimorphic Reds, Giant Platelets, Hypochromia",
+    "RBC 2.47 x10^12/L, MCV 68.7 fL, markedly raised RDW 35.1",
+    "PLT histogram fails to return to baseline at ~20 fL due to microcytic red cell interference (orange arrow)",
+    "WBC 4.9 with a normal-appearing WBC histogram; platelets 333"
+  ],
+  "describe_en": "This is a screenshot of an automated hematology analyzer (Beckman Coulter LH750) rather than a morphologic image. The RBC histogram is bimodal, with a microcytic population to the left of a normocytic peak, and the analyzer flags dimorphic reds, anisocytosis and hypochromia; indices show anemia (RBC 2.47), microcytosis (MCV 68.7 fL) and a markedly elevated RDW (35.1). The upper end of the platelet histogram does not return to baseline because small red cells are counted in the platelet channel, which also triggers a giant platelet flag and may overestimate the platelet count. The WBC histogram is normal. A dimorphic red cell population with microcytosis should prompt smear review and iron studies, and is consistent with X-linked sideroblastic anemia in this case.",
+  "ddx": [
+    {"dx": "Recently treated iron deficiency or post-transfusion state", "vs": "These also produce a bimodal RBC histogram, but history and iron studies (low ferritin, or donor cells) distinguish them from sideroblastic anemia."},
+    {"dx": "True giant platelets or platelet clumping", "vs": "The giant platelet flag here reflects microcytic red cell interference, which smear review confirms by the absence of large platelets or clumps."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

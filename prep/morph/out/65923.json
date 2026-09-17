@@ -1,0 +1,22 @@
+{
+  "id": "65923",
+  "recognize_zh": "中央嗜中性球的核至少分成六葉，各葉以細絲相連，細胞質淡而帶細顆粒，即分葉過多嗜中性球（hypersegmented neutrophil，≥6 葉即可判定）。",
+  "features": [
+    "Neutrophil of normal to slightly increased size",
+    "Nucleus with at least six discrete lobes connected by thin chromatin filaments",
+    "Condensed, clumped chromatin in each lobe",
+    "Pale cytoplasm with fine neutrophilic granules; no toxic granulation or Döhle bodies",
+    "Red cells with overlapping aggregates and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil with a nucleus composed of at least six discrete lobes connected by thin chromatin filaments, within pale finely granular cytoplasm without toxic changes. Background red cells show overlapping aggregates without obvious macro-ovalocytes, and platelets are present. No blasts or immature granulocytes are seen in this field. Findings are consistent with a hypersegmented neutrophil; in CML this may reflect hydroxyurea therapy, and vitamin B12/folate deficiency should be excluded.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic anemia shows multiple hypersegmented neutrophils together with macro-ovalocytes and low B12 or folate."},
+    {"dx": "Hydroxyurea or other antimetabolite effect", "vs": "Drug effect is morphologically identical and is separated by treatment history, commonly with macrocytosis."},
+    {"dx": "Hereditary constitutional hypersegmentation", "vs": "This rare autosomal dominant trait affects most neutrophils lifelong without anemia or nutritional deficiency."},
+    {"dx": "Macropolycyte", "vs": "Macropolycytes are about twice normal size with a large multilobed nucleus, reflecting tetraploidy."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

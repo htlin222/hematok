@@ -1,0 +1,21 @@
+{
+  "id": "62921",
+  "recognize_zh": "周邊血抹片右上與右下各有一個小而深染圓核的有核紅血球，中央為一個淋巴球，背景紅血球大小不均且有標靶細胞、鋸齒狀細胞、淚滴與碎片；周邊血出現 NRBC 加上嚴重異形紅血球，符合重型乙型地中海貧血。",
+  "features": [
+    "Nucleated red blood cells with small dense round nuclei at upper and lower right",
+    "Small dark round nucleated cell left of center (NRBC versus small lymphocyte)",
+    "Lymphocyte with moderately condensed chromatin in the center",
+    "Marked anisopoikilocytosis with target cells, echinocytes, teardrop cells, and fragments",
+    "Hypochromic microcytes with irregular central pallor; scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with hypochromic microcytes, target cells, echinocytes, teardrop cells, and fragmented red cells. Nucleated red blood cells with small dense nuclei are present at the right side of the field, and a lymphocyte is seen centrally. The image is slightly blurred. Findings are consistent with beta-thalassemia major; NRBCs should be enumerated and used to correct the automated WBC count.",
+  "ddx": [
+    {"dx": "Small lymphocytes (mistaken for NRBCs)", "vs": "Lymphocytes have a thin rim of blue cytoplasm and less pyknotic chromatin, whereas orthochromatic NRBCs have a very dense nucleus within pink hemoglobinized cytoplasm."},
+    {"dx": "Hemoglobin H disease", "vs": "Hb H disease shows target cells and microcytosis but fewer NRBCs, with golf-ball inclusions on supravital stain."},
+    {"dx": "Microangiopathic hemolytic anemia", "vs": "MAHA shows schistocytes with thrombocytopenia but lacks prominent microcytic target cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "64054",
+  "recognize_zh": "印片（imprint smear）中細胞密度高，多為中至大型、核質比極高的單一型態細胞，核圓或輕度不規則、染色質細緻，符合母細胞樣淋巴細胞；但此影像染色偏紫、對焦有限，標題所述的明顯核仁在圖中不易辨認。",
+  "features": [
+    "Cellular imprint with a monotonous population of intermediate-to-large mononuclear cells",
+    "Very high N:C ratio with scant, barely discernible cytoplasm",
+    "Round to slightly irregular or indented nuclear contours",
+    "Finely dispersed, intensely stained chromatin; nucleoli are not clearly resolved at this image quality",
+    "Scattered small mature lymphocyte for size comparison; background of overlapping red cells and debris",
+    "Occasional crush/smudged cells"
+  ],
+  "describe_en": "Touch imprint smear is cellular and shows a monotonous population of intermediate-to-large atypical lymphoid cells, roughly two to three times the size of an adjacent small lymphocyte. The cells have very high nuclear-to-cytoplasmic ratios, round to slightly irregular nuclear contours and finely dispersed chromatin; nucleoli, although described, are not clearly resolvable in this image because of overstaining and limited focus. No maturing myeloid elements are evident in the field. Findings are consistent with infiltration by blastoid lymphoid cells of a high-grade lymphoma, with correlation to histology and immunophenotyping required.",
+  "ddx": [
+    {"dx": "Acute leukemia (lymphoblastic or myeloid)", "vs": "True blasts are TdT/CD34 positive with delicate chromatin and, if myeloid, may show granules or Auer rods, so flow cytometry is required to separate them from blastoid mature lymphoma."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL cells look identical on smears but are CD5+/cyclin D1+/SOX11+ and TdT-negative."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells have deeply basophilic cytoplasm with sharply punched-out lipid vacuoles, which are not seen here."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are usually larger with more cytoplasm and more obvious nucleoli; immunophenotype and histology separate it from transformed follicular lymphoma."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa (imprint)",
+  "match": "partial",
+  "high_yield": false
+}

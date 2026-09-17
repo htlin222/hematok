@@ -1,0 +1,21 @@
+{
+  "id": "1128",
+  "recognize_zh": "周邊血中有數個比小淋巴球大兩倍左右的芽細胞，核圓、染色質細緻、可見核仁，細胞質少而淡藍、無顆粒也無 Auer 小體；形態無系別特徵，需流式細胞儀判定為 AML 微分化型。",
+  "features": [
+    "Medium to large blasts (about two times a small lymphocyte) with high N:C ratio",
+    "Round to oval nuclei with finely dispersed chromatin and small nucleoli",
+    "Scant pale blue agranular cytoplasm without Auer rods",
+    "Small mature lymphocyte present for size comparison",
+    "Many red cells contain small dark dots, likely stain precipitate or artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows several medium to large blasts with high nuclear-to-cytoplasmic ratios, round nuclei, finely dispersed chromatin, small nucleoli and scant pale blue agranular cytoplasm. Auer rods and cytoplasmic granules are not identified. A small mature lymphocyte is present for comparison. Small dark dots overlying many red cells are most likely stain precipitate. Findings are consistent with circulating blasts of acute leukemia; lineage cannot be determined morphologically, and flow cytometry is needed to support AML with minimal differentiation.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL blasts can be morphologically identical and are distinguished by expression of B- or T-lineage markers on flow cytometry."},
+    {"dx": "AML without maturation", "vs": "In AML without maturation at least 3% of blasts are MPO or Sudan black B positive, whereas AML-M0 blasts are below 3%."},
+    {"dx": "Blastoid mantle cell lymphoma in leukemic phase", "vs": "Blastoid MCL cells are CD5+, cyclin D1+ mature B cells lacking CD34 and TdT."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "56",
+  "recognize_zh": "周邊血白血球顯著增加，以嗜中性球系為主並有明顯左移（骨髓球、後骨髓球、帶狀核），放大圖可見顆粒粗大與顆粒稀少兩群嗜中性球並存；骨髓切片細胞密度接近 100%、巨核細胞核葉分離，提示伴發育不良的 MDS/MPN（aCML），需排除 BCR::ABL1。",
+  "features": [
+    "Marked leukocytosis composed predominantly of neutrophils and immature granulocytes (myelocytes, metamyelocytes, band forms) without a conspicuous blast population in the field shown",
+    "Two neutrophil-lineage morphologies: cells with coarse, dense purple granules and cells with sparse granules and pale cytoplasm (hypogranular forms), suggesting dysgranulopoiesis",
+    "Bone marrow biopsy markedly hypercellular (near 100%) with near-total loss of fat between trabeculae",
+    "Sheets of granulocytic precursors with left-shifted maturation on high power",
+    "Megakaryocyte with multiple widely separated round nuclear lobes and bilobed granulocytes in the marrow section, supportive of dysplasia",
+    "Aspirate smear is thick and overstained, limiting cytologic assessment"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis due to neutrophilia with a prominent left shift including myelocytes, metamyelocytes and bands; blasts are not conspicuous in the field shown. At high power there are two distinct neutrophil populations, one with coarse, dense granulation and another that is hypogranular. The bone marrow biopsy is markedly hypercellular (approaching 100%) with sheets of granulocytic precursors showing left-shifted maturation, and a megakaryocyte with widely separated nuclear lobes is present, along with bilobed granulocytes. The aspirate smear is thick and overstained, precluding a reliable differential count. In the absence of BCR::ABL1, these findings of neutrophilic leukocytosis with left shift and granulocytic dysplasia are suggestive of atypical chronic myeloid leukemia (MDS/MPN with neutrophilia).",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "CML shows a myelocyte peak with absolute basophilia and small hypolobated megakaryocytes without true dysgranulopoiesis, and is defined by BCR::ABL1, which was negative here."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL has mature, often toxic-granulated neutrophils with immature granulocytes under 10% and no dysplasia, whereas this case has a marked left shift and hypogranular dysplastic neutrophils; CSF3R mutation does not separate them."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML requires persistent absolute monocytosis (at least 0.5 x10^9/L and 10% of WBC), which is not evident in this neutrophil-dominant smear."},
+    {"dx": "Leukemoid reaction", "vs": "Reactive neutrophilia shows toxic granulation and Dohle bodies without hypogranular dysplastic neutrophils, dysplastic megakaryocytes, or a clonal karyotype such as the t(7;17) seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa, H&E",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "PB smear: neutrophilic leukocytosis with left shift; inset shows a coarsely granulated and a hypogranular neutrophil-lineage cell",
+    "BM biopsy, low power: markedly hypercellular marrow with loss of fat",
+    "BM biopsy, high power: sheets of granulocytic precursors",
+    "BM aspirate smear: thick, overstained preparation with limited cytologic detail",
+    "BM section, high power: megakaryocyte with separated nuclear lobes and bilobed granulocytes"
+  ]
+}

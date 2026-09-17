@@ -1,0 +1,22 @@
+{
+  "id": "23985",
+  "recognize_zh": "周邊血抹片（較厚區域）可見數顆大型反應性淋巴球：細胞質豐富且呈深藍色、邊緣更藍，核大而圓、染色質較細緻，形態像免疫母細胞（immunoblast）；背景細胞無芽細胞特徵性的一致性，符合病毒感染（H1N1 流感）引起的反應性變化。",
+  "features": [
+    "Large lymphoid cells with abundant, intensely basophilic cytoplasm, deeper blue at the periphery",
+    "Round to oval nuclei with moderately fine, slightly open chromatin; nucleoli inconspicuous at this resolution",
+    "Moderate N:C ratio with a paler perinuclear zone in some cells (immunoblastic/plasmacytoid features)",
+    "Scattered, heterogeneous cells rather than a monotonous population",
+    "Densely packed red cells in a thick area of the smear (limits fine assessment); no Auer rods or granules"
+  ],
+  "describe_en": "Peripheral blood smear, examined in a relatively thick area, shows several large reactive lymphocytes with abundant, deeply basophilic cytoplasm, round to oval nuclei with moderately fine chromatin, and inconspicuous nucleoli, consistent with immunoblasts. The cells are variable in size and appearance rather than monotonous, and cytoplasmic granules or Auer rods are not seen. Red cell morphology cannot be reliably assessed in this thick portion of the film. In a patient with H1N1 influenza, findings are consistent with a reactive immunoblastic lymphocyte response to viral infection.",
+  "ddx": [
+    {"dx": "Acute leukemia (lymphoblasts or myeloblasts)", "vs": "Blasts form a monotonous population with high N:C ratio, very fine chromatin and scant cytoplasm, whereas these cells have abundant deeply basophilic cytoplasm and a heterogeneous spectrum."},
+    {"dx": "Circulating lymphoma cells (e.g. DLBCL or plasmablastic lymphoma)", "vs": "Lymphoma cells are monomorphic and clonal by flow cytometry, while reactive immunoblasts are polytypic and accompany a transient viral illness."},
+    {"dx": "Infectious mononucleosis (EBV) reactive lymphocytes", "vs": "Morphology overlaps; EBV Downey cells tend to be larger with cytoplasm hugging red cells, and heterophile/EBV serology separates them from influenza."},
+    {"dx": "Plasma cell leukemia", "vs": "Plasma cells have eccentric nuclei with clockface chromatin and a distinct Golgi hof and are CD138-positive monotypic cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61597",
+  "recognize_zh": "低倍下密集的腫瘤細胞片狀排列，CD20 染色幾乎全部陰性（只有藍色核），僅零星一兩個小細胞為棕色陽性（殘存的正常 B 細胞可當內部陽性對照）；大 B 細胞淋巴瘤卻缺乏 CD20，是漿母細胞淋巴瘤的典型特徵。",
+  "features": [
+    "Dense diffuse sheets of tumor cells with hematoxylin-only nuclei",
+    "Tumor cells completely negative for CD20",
+    "Rare scattered small CD20-positive cells serving as internal positive control",
+    "No nodular or follicular B-cell architecture",
+    "Fibrous stroma at the upper left edge"
+  ],
+  "describe_en": "CD20 immunostain at low to medium power shows diffuse sheets of neoplastic cells that are entirely negative for CD20. Only rare scattered small cells show membranous staining, confirming adequate staining as an internal control. Loss of CD20 in a large B-cell neoplasm is characteristic of plasmablastic differentiation. Together with MUM1/CD138 expression and EBER positivity, the findings support EBV-positive plasmablastic lymphoma.",
+  "ddx": [
+    {"dx": "DLBCL after rituximab therapy (CD20-negative relapse)", "vs": "Post-rituximab DLBCL may lose CD20 but typically retains PAX5/CD79a and lacks CD138 expression and EBER positivity."},
+    {"dx": "Plasma cell myeloma, plasmablastic", "vs": "Also CD20 negative; distinguished by clinical CRAB features, M-protein, marrow-based disease and usually EBER negativity."},
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "Also CD20 negative with a plasmablastic phenotype but shows granular cytoplasmic ALK staining and is EBV negative."},
+    {"dx": "Non-hematopoietic malignancy (carcinoma, melanoma)", "vs": "CD20 negativity alone does not prove lymphoma; keratin, S100/SOX10 and CD138 caution (carcinomas can be CD138 positive) must be considered."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": true
+}

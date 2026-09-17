@@ -1,0 +1,22 @@
+{
+  "id": "62776",
+  "recognize_zh": "嬰兒周邊血中許多小型成熟淋巴球的核有明顯裂隙或凹陷（cleaved / 臀狀核），染色質緻密、胞質稀少，配合一個月大嬰兒的顯著淋巴球增多，指向百日咳（Bordetella pertussis）。",
+  "features": [
+    "Small mature lymphocytes, roughly 1-1.5 times red cell diameter, with high N:C ratio",
+    "Nuclei with deep clefts, notches, or cleaved (buttock-like) indentations",
+    "Dense, clumped mature chromatin without nucleoli",
+    "Scant pale basophilic cytoplasm without granules",
+    "Normocytic red cells and scattered platelets; no blasts"
+  ],
+  "describe_en": "Peripheral blood smear shows an increased number of small, mature-appearing lymphocytes with high N:C ratio, dense clumped chromatin, and scant agranular cytoplasm. Many lymphocyte nuclei display a distinct cleft or notch, imparting a cleaved or buttock-like appearance. No blasts, prolymphocytes, or large atypical reactive lymphocytes are identified in these fields. In a 1-month-old infant with marked lymphocytosis, findings are suggestive of Bordetella pertussis infection; PCR testing of a nasopharyngeal specimen is recommended.",
+  "ddx": [
+    {"dx": "Follicular lymphoma in leukemic phase", "vs": "Leukemic FL shows cleaved buttock cells but occurs in adults and is a clonal CD10+ BCL2+ B-cell population, whereas pertussis lymphocytosis is polyclonal and predominantly T cells in an infant."},
+    {"dx": "B-lymphoblastic leukemia (hematogones or blasts)", "vs": "Lymphoblasts have finer dispersed chromatin, occasional nucleoli, and express CD34/TdT, unlike these mature clumped-chromatin cleaved lymphocytes."},
+    {"dx": "Viral reactive lymphocytosis (e.g., EBV, CMV)", "vs": "Viral reactive lymphocytes are larger with abundant basophilic cytoplasm that scallops around red cells, rather than small cells with cleaved nuclei."},
+    {"dx": "Adult T-cell leukemia/lymphoma (flower cells)", "vs": "ATLL cells show multilobated flower-shaped nuclei in HTLV-1-positive adults and are clonal CD4+ CD25+ T cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62461",
+  "recognize_zh": "淋巴球 gate 的 CD4 對 CD26 流式圖：大量藍色 CD4 dim 細胞 CD26 為陰性，而綠色正常 CD4 T 細胞 CD26 表現由弱到強連續分布；CD4 T 細胞失去 CD26 是 Sézary 細胞的重要表型之一。",
+  "features": [
+    "Dot plot of CD4-FITC versus CD26-PE gated on lymphocytes (60.35% of total events)",
+    "Dominant blue population with dim CD4 and negative CD26 expression (CD4dim CD26-)",
+    "Green population with normal-intensity CD4 and a continuous range of CD26 from dim to positive",
+    "Minor CD4-negative events with variable CD26 (CD8 T cells, NK and B cells)",
+    "Non-morphologic figure; CD26 loss is assessed as a proportion of CD4 T cells"
+  ],
+  "describe_en": "Flow cytometric plot of CD4 versus CD26 on gated lymphocytes shows a dominant CD4-dim population lacking CD26 expression. The residual normal CD4-positive T cells (green) show brighter CD4 with a continuous spectrum of CD26 expression, and a minor CD4-negative population is also present. An expanded CD4-positive, CD26-negative population (commonly using thresholds of at least 30% of CD4 T cells, or at least 40% for CD7 loss) is a recognized criterion for blood involvement. Findings are consistent with Sezary cell involvement in mycosis fungoides/Sezary syndrome.",
+  "ddx": [
+    {"dx": "Reactive or inflammatory dermatoses with CD26-negative T cells", "vs": "Benign conditions can show modest CD26-negative CD4 fractions but usually well below 30% and without dim CD4 or clonal TCR rearrangement."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells are also CD26 negative but are CD25 bright and HTLV-1 positive."},
+    {"dx": "Normal memory CD4 T-cell subsets", "vs": "Normal CD4 cells show a continuous CD26 spectrum as in the green population, rather than a discrete dominant CD26-negative cluster."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,34 @@
+{
+  "id": "107",
+  "recognize_zh": "周邊血液可見明顯血小板增多與數個嗜鹼性球（basophil），骨髓切片高度細胞化並有大量成群的巨核細胞，網狀纖維染色顯示纖維明顯增加；這些型態會讓人想到 PMF/ET，必須以 BCR-ABL1 檢測確認為 CML 加速期。",
+  "features": [
+    "Peripheral blood: marked thrombocytosis with numerous platelets including some large forms",
+    "Peripheral blood: basophils (two in one field) with coarse dark purple granules obscuring the nucleus, alongside mature neutrophils",
+    "Bone marrow biopsy: hypercellular marrow with marked megakaryocytic proliferation forming loose and tight clusters",
+    "Megakaryocytes vary from small to large with hypolobated to hyperchromatic nuclei; some appear atypical",
+    "IHC (likely CD34): highlights sinusoidal/vascular endothelium and scattered positive mononuclear cells without large aggregates; megakaryocytes negative",
+    "Reticulin stain: diffuse increase in reticulin fibers with frequent intersections"
+  ],
+  "describe_en": "Peripheral blood smear shows marked thrombocytosis with occasional large platelets, mature neutrophils, and increased basophils; red cells are largely normocytic without prominent teardrop forms in these fields. The bone marrow core biopsy is hypercellular with marked megakaryocytic hyperplasia, including clusters of megakaryocytes of variable size with hypolobated and hyperchromatic nuclei, and a background of granulocytic precursors. An immunostain (likely CD34) highlights prominent vasculature and scattered positive mononuclear cells without sheets or large clusters of blasts. Reticulin stain shows a diffuse increase in reticulin fibers. Although the megakaryocytic proliferation and fibrosis mimic primary myelofibrosis or essential thrombocythemia, with BCR-ABL1 (p210) positivity and severe thrombocytosis these findings are consistent with chronic myeloid leukemia, accelerated phase.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows similar clustered atypical megakaryocytes and reticulin fibrosis, but it lacks BCR-ABL1 and usually carries JAK2, CALR, or MPL mutations; basophilia favors CML."},
+    {"dx": "Essential thrombocythemia", "vs": "ET has large hyperlobulated staghorn megakaryocytes without significant fibrosis or basophilia and is BCR-ABL1 negative."},
+    {"dx": "CML, chronic phase", "vs": "Chronic phase has predominantly small hypolobated megakaryocytes with granulocytic hyperplasia; accelerated features (per WHO 2016) include platelets >1000 x10^9/L unresponsive to therapy, basophils >=20%, or blasts 10-19%."},
+    {"dx": "MDS/MPN with ring sideroblasts and thrombocytosis", "vs": "This entity shows dysplastic erythropoiesis with ring sideroblasts (often SF3B1 mutation) and is BCR-ABL1 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC (likely CD34); reticulin",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood: basophil with coarse dark granules and a neutrophil amid increased platelets.",
+    "Peripheral blood: two basophils, one neutrophil, and marked thrombocytosis.",
+    "Bone marrow core, low power H&E: hypercellular marrow with numerous megakaryocytes.",
+    "Medium power H&E: clusters of megakaryocytes of variable size in a granulocytic background.",
+    "High power H&E: clustered megakaryocytes with hypolobated and hyperchromatic nuclei.",
+    "IHC (likely CD34): vascular endothelium and scattered positive mononuclear cells; megakaryocytes negative.",
+    "IHC (likely CD34), second field: prominent vessels and scattered positive cells without blast clusters.",
+    "IHC (likely CD34), third field: scattered positive round cells and vessels in a loosely cellular area.",
+    "Reticulin stain: diffuse increase in reticulin fibers with frequent intersections."
+  ]
+}

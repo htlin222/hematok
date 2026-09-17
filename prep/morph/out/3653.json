@@ -1,0 +1,22 @@
+{
+  "id": "3653",
+  "recognize_zh": "胸部正面（A）與側面（B）X 光的箭頭指向胸椎，C 為脊椎矢狀重組影像，虛線箭頭處可見椎體上下終板中央呈方形凹陷、形成「H 形／魚嘴狀」椎體（H-shaped vertebrae），這是鐮刀型貧血骨梗塞造成的典型影像。",
+  "features": [
+    "Composite radiology figure: PA chest radiograph (A), lateral chest radiograph (B) and sagittal spine image (C)",
+    "Arrows in A and B point to thoracic vertebral bodies with endplate deformity",
+    "Central step-like depressions of the superior and inferior endplates producing H-shaped (Lincoln log) vertebrae, best seen in C (dashed arrow)",
+    "Deformity involves multiple contiguous vertebral levels",
+    "Lungs appear clear without large focal consolidation in this image",
+    "Cellular morphology is not applicable to this image type"
+  ],
+  "describe_en": "Composite figure shows PA and lateral chest radiographs and a sagittal image of the spine. Multiple thoracic vertebral bodies demonstrate central, step-like depressions of the superior and inferior endplates with preserved peripheral margins, producing H-shaped ('fish mouth' or Lincoln log) vertebrae, most clearly seen on the sagittal image. No large focal pulmonary consolidation is evident on these views. This is a radiologic image and no cellular morphology is assessable. Findings are consistent with sickle cell spine, caused by microvascular occlusion and infarction of the central endplate supplied by end-arteries with continued peripheral growth.",
+  "ddx": [
+    {"dx": "Osteoporotic biconcave (codfish) vertebrae", "vs": "Show smooth, gently curved concave endplate deformity rather than sharply marginated central square step-like depressions."},
+    {"dx": "Gaucher disease or thalassemia spine", "vs": "Gaucher can also produce H-shaped vertebrae, and thalassemia shows coarse trabeculae and marrow expansion, so hemoglobin electrophoresis and clinical context are needed to separate them."},
+    {"dx": "Schmorl nodes (Scheuermann disease)", "vs": "Are focal, irregular intravertebral disc herniations, often with anterior wedging, rather than symmetric central endplate depressions across many levels."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

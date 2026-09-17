@@ -1,0 +1,22 @@
+{
+  "id": "66295",
+  "recognize_zh": "周邊血液中多顆嗜酸性球（A），骨髓切片為高度細胞性並充滿嗜酸性球與成束紡錘形細胞（B–C），Giemsa 抹片見紡錘形、含紫色顆粒的肥大細胞（D），CD117 與 CD25 皆陽性（E–F）；在明顯嗜酸性球增多背景下出現 CD25+ 肥大細胞，要先排除 PDGFRA 重組而非直接診斷 SM。",
+  "features": [
+    "Panel A (PB, Wright-Giemsa): several mature eosinophils with orange granules among normocytic red cells",
+    "Panels B–C (BM biopsy, H&E): hypercellular marrow with numerous eosinophils admixed with sheets and streaming fascicles of spindle cells, adjacent to a bone trabecula",
+    "Panel D (Giemsa): elongated spindle-shaped mast cells with metachromatic purple granules, plus eosinophils and myeloid cells",
+    "Panel E (IHC: CD117): dense, streaming paratrabecular infiltrate of spindled CD117-positive mast cells",
+    "Panel F (IHC: CD25): aberrant CD25 expression in the same spindle-cell population"
+  ],
+  "describe_en": "Peripheral blood shows marked eosinophilia with mature-appearing eosinophils. The bone marrow biopsy is hypercellular with myeloid hyperplasia and prominent eosinophilia, accompanied by an extensive paratrabecular proliferation of spindled cells. On Giemsa stain these are spindle-shaped mast cells with metachromatic granules, and immunohistochemistry shows diffuse CD117 positivity with aberrant CD25 co-expression. Although these features mimic systemic mastocytosis, in the context of marked eosinophilia they warrant testing for tyrosine kinase fusions; with FIP1L1::PDGFRA detected and KIT D816V absent, findings are consistent with a myeloid/lymphoid neoplasm with PDGFRA rearrangement and associated atypical mast cell proliferation.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis (KIT D816V)", "vs": "SM typically forms compact multifocal aggregates of ≥15 mast cells and carries KIT D816V, whereas here marked eosinophilia dominates, KIT D816V is absent and FIP1L1::PDGFRA (CHIC2 deletion by FISH) is present — morphology and CD25 alone cannot separate them."},
+    {"dx": "Chronic eosinophilic leukemia, NOS / idiopathic hypereosinophilic syndrome", "vs": "These lack a defining tyrosine kinase fusion, and a dense CD25+ spindled mast cell infiltrate is uncommon; exclusion requires PDGFRA/PDGFRB/FGFR1/JAK2 fusion testing."},
+    {"dx": "Reactive eosinophilia with reactive mast cell hyperplasia", "vs": "Reactive mast cells are round, scattered and interstitial and do not express CD25, unlike the paratrabecular sheets of spindled CD25+ mast cells here."},
+    {"dx": "Myelofibrosis / fibroblastic spindle-cell proliferation", "vs": "Fibroblasts and fibrosis are CD117 and CD25 negative and lack metachromatic granules on Giemsa, whereas the spindle cells here are CD117+ mast cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa, H&E, Giemsa, IHC: CD117, CD25",
+  "match": "consistent",
+  "high_yield": true
+}

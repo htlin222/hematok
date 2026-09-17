@@ -1,0 +1,22 @@
+{
+  "id": "64295",
+  "recognize_zh": "七格周邊血液影像中，小至中型淋巴球的周圍都被一圈血小板環繞貼附（衛星現象），而非環繞中性球，這種血小板聚集可造成假性血小板減少。",
+  "features": [
+    "Small to medium mature lymphocytes with round nuclei, condensed chromatin, and scant to moderate pale blue cytoplasm",
+    "Platelets adherent in a rosette around the lymphocyte membrane (satellitism)",
+    "Phenomenon present in multiple lymphocytes across fields, including a pair of lymphocytes both rimmed by platelets",
+    "Platelets individually normal in size and granularity",
+    "Background red cells unremarkable; no atypical lymphocytes"
+  ],
+  "describe_en": "Peripheral blood smear (composite of seven fields) shows mature small to medium lymphocytes with round nuclei and scant blue cytoplasm, each surrounded by a rosette of adherent platelets. The platelets themselves appear normal in size and granulation, and the red cells and lymphocytes are otherwise unremarkable. This lymphocytic platelet satellitism sequesters platelets from automated counting. Findings are consistent with platelet satellitism causing pseudothrombocytopenia; a repeat count in citrate or heparin anticoagulant and smear review are recommended.",
+  "ddx": [
+    {"dx": "Neutrophil platelet satellitism", "vs": "The classic EDTA-dependent form rims segmented neutrophils, whereas here platelets rosette around lymphocytes."},
+    {"dx": "EDTA-induced platelet clumping", "vs": "Platelet clumping forms free aggregates of platelets in the smear (often at feathered edge) rather than rings adherent to leukocytes."},
+    {"dx": "True thrombocytopenia (e.g., ITP)", "vs": "True thrombocytopenia shows few platelets, often large, without satellitism or clumps, and persists in citrate-anticoagulated samples."},
+    {"dx": "Hairy cell or villous lymphocytes", "vs": "Cytoplasmic projections of villous lymphocytes can mimic adherent platelets, but they are continuous with the cytoplasm and lack platelet granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

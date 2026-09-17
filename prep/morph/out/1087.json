@@ -1,0 +1,21 @@
+{
+  "id": "1087",
+  "recognize_zh": "低倍骨髓切片中骨小樑之間充滿密集的造血細胞，脂肪幾乎消失並伴隨出血；只能看出高細胞密度，無法單憑此圖判定 CML 的細胞組成。",
+  "features": [
+    "Low-power bone marrow biopsy with bony trabeculae",
+    "Markedly hypercellular intertrabecular spaces with near absence of fat",
+    "Dense sheets of small hematopoietic cells with areas of streaming",
+    "Extensive hemorrhage/artifactual blood between marrow fragments",
+    "Cellular detail (megakaryocyte morphology, blasts) not resolvable at this magnification"
+  ],
+  "describe_en": "Low-power H&E section of a bone marrow biopsy shows bony trabeculae with markedly hypercellular marrow spaces and near-complete loss of fat, admixed with abundant hemorrhage. Focal cellular streaming suggests crush or fibrosis. Individual cell lineages and megakaryocyte morphology cannot be assessed at this magnification. Hypercellularity is compatible with the clinical diagnosis of chronic myeloid leukemia, but the image alone is not specific.",
+  "ddx": [
+    {"dx": "Other myeloproliferative neoplasms (primary myelofibrosis, polycythemia vera)", "vs": "These show clustered, atypical megakaryocytes and are BCR::ABL1 negative; high-power review and molecular testing are needed."},
+    {"dx": "Acute leukemia", "vs": "Acute leukemia shows sheets of blasts rather than maturing granulopoiesis at high power and ≥20% blasts on aspirate."},
+    {"dx": "Reactive granulocytic hyperplasia", "vs": "Reactive marrow retains normal maturation and megakaryocytes and lacks BCR::ABL1; clinical context and cytogenetics distinguish it."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

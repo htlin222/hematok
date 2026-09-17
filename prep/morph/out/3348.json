@@ -1,0 +1,22 @@
+{
+  "id": "3348",
+  "recognize_zh": "免疫染色中散佈的大型腫瘤細胞呈棕色強陽性，且核與細胞質同時著色，而周圍小淋巴細胞與組織細胞為陰性，符合 NPM1::ALK 融合典型的 ALK 核質雙染型態。",
+  "features": [
+    "Large atypical cells with strong brown staining of both nucleus and cytoplasm",
+    "Positive cells scattered individually and in small clusters among negative background cells",
+    "Some positive cells have irregular or kidney-shaped nuclear outlines",
+    "Background small lymphocytes and stromal/endothelial cells are negative (blue hematoxylin counterstain)",
+    "Specific antibody not labeled; nuclear-plus-cytoplasmic pattern is most compatible with ALK"
+  ],
+  "describe_en": "Immunohistochemical stain of a lymph node shows numerous large atypical cells with strong nuclear and cytoplasmic brown staining, distributed singly and in small clusters, while background small lymphocytes and stromal cells are negative. The antibody is not labeled in the image; the combined nuclear and cytoplasmic pattern is characteristic of ALK protein expression driven by the NPM1::ALK fusion. Findings are consistent with ALK-positive anaplastic large cell lymphoma, in conjunction with CD30 positivity and hallmark cell morphology.",
+  "ddx": [
+    {"dx": "ALK-positive ALCL with variant ALK partner", "vs": "Non-NPM1 partners (e.g., TPM3, ATIC, CLTC) yield cytoplasmic-only or granular ALK staining without nuclear positivity."},
+    {"dx": "ALK-negative ALCL", "vs": "ALK-negative ALCL has similar CD30-positive hallmark cells but is completely ALK negative by IHC."},
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "ALK+ LBCL shows granular cytoplasmic ALK (CLTC::ALK), plasmablastic morphology and is CD138/EMA positive and CD30 negative."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30/CD15 positive and ALK negative with weak PAX5 expression."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: ALK (presumed; antibody not labeled)",
+  "match": "consistent",
+  "high_yield": true
+}

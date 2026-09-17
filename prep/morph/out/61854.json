@@ -1,0 +1,23 @@
+{
+  "id": "61854",
+  "recognize_zh": "骨髓切片中看到成束排列的梭形細胞病灶（A、B），乍看像間質腫瘤，但 CD138、CD38、MUM1 與 kappa 皆彌漫陽性（D–G），證實這些梭形細胞其實是單株性漿細胞；網狀纖維染色（H）顯示纖維增加。",
+  "features": [
+    "Fascicles of spindle-shaped cells with elongated, cigar-shaped nuclei in the marrow (H&E)",
+    "Moderate eosinophilic cytoplasm without obvious plasmacytoid features at high power",
+    "Aspirate smear with numerous dispersed cells, limited morphologic detail at this magnification",
+    "Diffuse membranous CD138 and CD38 and nuclear MUM1 positivity in the spindle cells",
+    "Kappa light-chain restriction by IHC",
+    "Increased reticulin fiber network"
+  ],
+  "describe_en": "Composite bone marrow biopsy and aspirate figure. The core biopsy (A, B) shows a sheet-like lesion composed of fascicles of spindle cells with elongated nuclei and eosinophilic cytoplasm, mimicking a mesenchymal neoplasm; the aspirate (C) is cellular but lacks detail at this magnification. Immunohistochemistry demonstrates that the spindle cells are diffusely positive for CD138 (D), CD38 (E), and MUM1 (F), with kappa light-chain expression (G), and reticulin stain (H) shows increased fibrosis. Findings are consistent with a plasma cell neoplasm (plasma cell myeloma) with unusual spindle cell morphology.",
+  "ddx": [
+    {"dx": "Primary mesenchymal / spindle cell sarcoma", "vs": "A true sarcoma would be negative for CD138, MUM1, and light chains, whereas here the spindle cells are plasma-cell lineage and kappa restricted."},
+    {"dx": "Systemic mastocytosis with spindled mast cells", "vs": "Spindled mast cells are tryptase/CD117 positive with CD25 aberrancy and are negative for CD138 and immunoglobulin light chains."},
+    {"dx": "Myelofibrosis with streaming megakaryocytes/stromal cells", "vs": "Fibrotic MPN shows clustered atypical megakaryocytes and reactive stroma rather than a monotypic CD138+/kappa+ spindle population."},
+    {"dx": "Metastatic sarcomatoid carcinoma or melanoma", "vs": "Metastatic tumors express keratin or S100/SOX10 and lack plasma-cell markers and light-chain restriction."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E, Wright-Giemsa, IHC: CD138, CD38, MUM1, kappa; reticulin",
+  "match": "consistent",
+  "high_yield": false
+}

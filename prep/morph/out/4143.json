@@ -1,0 +1,22 @@
+{
+  "id": "4143",
+  "recognize_zh": "周邊血抹片中有三顆中等大小的芽細胞，核質比極高、核圓、染色質細緻均勻、細胞質僅剩一圈薄藍邊且無顆粒，屬淋巴芽細胞（lymphoblast）型態；T 或 B 系別必須靠流式細胞儀（cytoplasmic CD3）才能確定。",
+  "features": [
+    "Medium-sized blasts, about 1.5-2 times the diameter of a red cell",
+    "Very high N:C ratio with only a thin rim of basophilic, agranular cytoplasm",
+    "Round nuclei with finely dispersed to slightly stippled chromatin and inconspicuous nucleoli",
+    "No Auer rods or cytoplasmic granules",
+    "Red cells show refractile drying artifact; no platelets clumps or maturing granulocytes in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts of medium size with a very high nuclear-to-cytoplasmic ratio, round nuclei, finely dispersed chromatin, inconspicuous nucleoli, and a scant rim of agranular basophilic cytoplasm. No Auer rods are identified. Normal leukocytes and platelets are not evident in this field, and red cells show refractile drying artifact. The blasts have lymphoblastic morphology; lineage assignment requires flow cytometry, and in the stated context findings are consistent with T-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are morphologically indistinguishable and are separated by CD19/CD79a/CD22 expression versus cytoplasmic CD3 in T-ALL."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 blasts may also be agranular but express CD13/CD33/CD117 and lack lymphoid lineage markers."},
+    {"dx": "Reactive/atypical lymphocytes or CLL cells", "vs": "Mature lymphocytes have coarse clumped chromatin and no nucleolar detail, and flow lacks TdT and CD34."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and express surface light chain without TdT."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

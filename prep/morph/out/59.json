@@ -1,0 +1,37 @@
+{
+  "id": "59",
+  "recognize_zh": "骨髓抹片中充滿大量含紫色異染顆粒（metachromatic granules）的大型肥大細胞，許多細胞核呈雙葉或不規則且顆粒散落背景；骨髓切片中片狀淡染細胞呈 tryptase/CD117 陽性並異常表現 CD25 與 CD2，流式也見 CD117 強陽性/CD25+/CD2+ 族群（18%），符合肥大細胞白血病。",
+  "features": [
+    "BM aspirate: sheets of large mast cells with abundant cytoplasm packed with coarse purple metachromatic granules, many degranulated with granules scattered in the background",
+    "Atypical mast cells: round to oval, indented, bilobed and binucleated nuclei with open chromatin; variable hypogranulation",
+    "BM biopsy: hypercellular marrow with sheets of medium-to-large cells with pale granular cytoplasm and oval/indented nuclei, admixed megakaryocytes",
+    "IHC: diffuse sheets positive for tryptase-type granular and membranous CD117 staining; aberrant weak CD25 and CD2 in mast cells",
+    "Small bowel: lamina propria diffusely infiltrated by monotonous mast cells between crypts, highlighted by membranous IHC",
+    "Flow cytometry: CD117-bright/CD25+ population (18% of events) co-expressing CD2; PB smear shows a circulating granulated mast cell"
+  ],
+  "describe_en": "Peripheral blood smear shows neutrophilia with an occasional circulating mast cell with scattered metachromatic granules. The bone marrow aspirate is replaced by numerous large atypical mast cells with abundant coarse metachromatic granules, many with indented, bilobed or binucleated nuclei, and frequent degranulation into the background. The core biopsy is hypercellular with sheets of mast cells with pale granular cytoplasm that are diffusely positive for tryptase and CD117 and aberrantly express CD25 and CD2, and a small-bowel biopsy shows diffuse mucosal infiltration by CD117-positive cells. Flow cytometry identifies a CD117-bright population (18% of events) co-expressing CD25 and CD2. Findings are consistent with systemic mastocytosis, mast cell leukemia (mast cells at least 20% of marrow aspirate nucleated cells).",
+  "ddx": [
+    {"dx": "Aggressive systemic mastocytosis", "vs": "ASM has C-findings but mast cells constitute fewer than 20% of nucleated cells on the aspirate smear, unlike the mast-cell-replaced aspirate here."},
+    {"dx": "Acute basophilic leukemia", "vs": "Basophilic blasts are CD117-negative/dim, CD123+/CD203c+ and tryptase-negative or weak, whereas these cells are CD117-bright and diffusely tryptase-positive."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia or CML with mast cell proliferation", "vs": "These show increased but non-sheeting, typically CD25-negative mast cells with a defining BCR::ABL1 or PDGFRA/FGFR1 rearrangement, rather than sheets of CD25+/CD2+ atypical mast cells."},
+    {"dx": "Acute myeloid leukemia with abundant granules (e.g. APL-like hypergranular blasts)", "vs": "Myeloblasts/promyelocytes are MPO-positive, tryptase-negative and lack the CD117-bright/CD25+ mast cell immunophenotype."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, IHC (tryptase, CD117, CD25, CD2), flow",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "BM biopsy IHC: granular cytoplasmic staining of sheets of mast cells (likely tryptase)",
+    "Peripheral blood: neutrophils, lymphocytes and a circulating granulated mast cell",
+    "BM biopsy: hypercellular marrow with sheets of pale mononuclear cells and megakaryocytes (H&E)",
+    "BM biopsy high power: atypical cells with pale granular cytoplasm and indented nuclei (H&E)",
+    "BM biopsy IHC: strong membranous staining of mast cell sheets (likely CD117)",
+    "BM biopsy IHC: weak membranous/cytoplasmic staining of mast cells (likely CD25)",
+    "BM biopsy IHC: strong small T cells with weak granular staining of a mast cell (likely CD2)",
+    "BM aspirate low power: numerous mast cells with metachromatic granules and background degranulation",
+    "BM aspirate high power: atypical, bilobed and binucleated mast cells with variable granulation",
+    "Small bowel: lamina propria diffusely infiltrated by monotonous cells (H&E)",
+    "Small bowel IHC: membranous staining of infiltrating mast cells between crypts (likely CD117)",
+    "Flow cytometry: CD117-bright/CD25+ population (18%) co-expressing CD2"
+  ]
+}

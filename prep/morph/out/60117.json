@@ -1,0 +1,21 @@
+{
+  "id": "60117",
+  "recognize_zh": "骨髓切片四聯圖：H&E 見單形細胞浸潤於脂肪間，CD3 呈瀰漫強陽性，而 TdT 只零星陽性、CD34 陰性；與流式結果（TdT−、CD34−）一致，但判讀 T-ALL 時要記得 TdT/CD34 陰性不能排除。",
+  "features": [
+    "H&E: cellular marrow space between trabeculae with a diffuse monotonous infiltrate among fat cells",
+    "CD3: strong, diffuse positivity in the large majority of marrow cells",
+    "TdT: only scattered nuclear-positive cells; most infiltrating cells negative",
+    "CD34: essentially negative in the infiltrate",
+    "Pattern parallels the flow cytometry profile (cCD3+, TdT-, CD34-)"
+  ],
+  "describe_en": "Bone marrow core biopsy composite shows, on H&E, a diffuse monotonous cellular infiltrate among fat cells between bony trabeculae. Immunohistochemistry demonstrates strong diffuse CD3 positivity in the vast majority of cells, whereas TdT highlights only scattered cells and CD34 is essentially negative. This CD3-positive, TdT-largely-negative, CD34-negative profile matches the flow cytometric findings. In the context of blast morphology on the aspirate, findings are consistent with T-lymphoblastic leukemia with a TdT-negative phenotype; additional immature markers (CD1a, CD99) would further support immaturity.",
+  "ddx": [
+    {"dx": "Mature T-cell lymphoma/leukemia in marrow", "vs": "Also CD3+/TdT-/CD34-, so separation requires blast morphology, CD1a/CD99 expression, and flow cytometric CD45-dim gating."},
+    {"dx": "Reactive T-cell infiltrate", "vs": "Reactive T cells are small, mature, admixed with preserved hematopoiesis and do not replace the marrow diffusely."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL would be CD3-negative with PAX5/CD79a positivity and usually TdT positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD3, TdT, CD34",
+  "match": "consistent",
+  "high_yield": false
+}

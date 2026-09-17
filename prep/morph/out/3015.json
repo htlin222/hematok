@@ -1,0 +1,22 @@
+{
+  "id": "3015",
+  "recognize_zh": "高倍切片可見大型、明顯多形性的腫瘤細胞，細胞質豐富嗜酸性、核不規則甚至呈馬蹄形並有核仁，夾雜大量凋亡小體與可見核分裂，外觀呈「anaplastic」大細胞，符合 ALCL。",
+  "features": [
+    "Diffuse sheets of large, markedly pleomorphic cells with abundant eosinophilic to amphophilic cytoplasm",
+    "Irregular, reniform to horseshoe-shaped vesicular nuclei with distinct nucleoli; occasional multinucleated forms",
+    "Numerous apoptotic bodies and karyorrhectic debris, some within tumor cells or histiocytes",
+    "Mitotic figures present, including atypical forms",
+    "Discohesive to loosely cohesive growth with thin fibrovascular septa"
+  ],
+  "describe_en": "Tissue section shows a diffuse infiltrate of large, markedly pleomorphic neoplastic cells with abundant eosinophilic cytoplasm and irregular, reniform to horseshoe-shaped vesicular nuclei with distinct nucleoli. Frequent apoptotic bodies, karyorrhectic debris and mitoses are present, and occasional multinucleated tumor cells are seen. No gland formation, keratinization or pigment is identified. Findings are consistent with anaplastic large cell lymphoma; confirmation requires uniform strong CD30 staining, a T-cell or null phenotype, and ALK immunohistochemistry.",
+  "ddx": [
+    {"dx": "Metastatic poorly differentiated carcinoma", "vs": "Carcinoma is cytokeratin positive and CD30/ALK negative, while ALCL may be keratin negative but EMA positive."},
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-depleted or syncytial", "vs": "Hodgkin cells are CD15+, PAX5 weak, CD45- and ALK-, often with a mixed inflammatory background."},
+    {"dx": "Diffuse large B-cell lymphoma, anaplastic variant", "vs": "It expresses CD20/PAX5 and lacks ALK and T-cell antigens."},
+    {"dx": "Pleomorphic sarcoma or melanoma", "vs": "These lack CD30/ALK and express mesenchymal or melanocytic markers (S100, SOX10, HMB45) instead."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

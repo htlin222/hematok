@@ -1,0 +1,34 @@
+{
+  "id": "103",
+  "recognize_zh": "骨髓抹片中有大量芽細胞，並散在許多小型、核單葉或雙葉的發育異常巨核細胞（hypolobated micromegakaryocytes）；切片同樣可見小而不分葉的巨核細胞，加上核型 -7 與 MECOM FISH 訊號分離，符合 t(3;3)(q21;q26.2) AML。",
+  "features": [
+    "Increased blasts: medium to large cells with high N:C ratio, round nuclei, fine chromatin and scant to moderate basophilic cytoplasm",
+    "Numerous small megakaryocytes with non-lobated (monolobated) or bilobed nuclei, seen on both aspirate and biopsy",
+    "Hypercellular marrow particle with residual erythroid and granulocytic precursors",
+    "Biopsy: sheets of immature mononuclear cells with dispersed chromatin among dysplastic small megakaryocytes; scattered coarse dark-brown to black pigment deposits",
+    "Flow (blast gate): CD34+/CD117+ (71%), CD33+/CD13+ (70%), partial CD7, mostly CD11b-negative",
+    "Karyotype shows a single chromosome 7 (monosomy 7) with structurally abnormal chromosome 3 homologs; tricolor interphase FISH shows a separated signal pattern suggesting 3q26 (MECOM) rearrangement"
+  ],
+  "describe_en": "The bone marrow aspirate smear is hypercellular with a prominent population of blasts showing high N:C ratio, fine chromatin and basophilic cytoplasm, accompanied by numerous small megakaryocytes with non-lobated or bilobed nuclei. The core biopsy shows increased immature mononuclear cells and many small, hypolobated megakaryocytes, with scattered dark pigment deposits. Flow cytometry of the blast gate demonstrates myeloblasts positive for CD34, CD117, CD33 and CD13 with partial CD7 and largely lacking CD11b. The karyotype shows monosomy 7 with abnormal chromosome 3 homologs, and interphase FISH shows a split signal pattern supporting 3q26 (MECOM) rearrangement. Findings are consistent with relapsed acute myeloid leukemia with t(3;3)(q21.3;q26.2); GATA2::MECOM, with monosomy 7.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm with del(5q)", "vs": "It also has small monolobated megakaryocytes but lacks increased blasts, and cytogenetics shows isolated del(5q) rather than 3q26 rearrangement."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Blasts express CD41/CD61 and often lack CD34, whereas here the blasts are CD34+/CD117+/CD13+/CD33+ myeloblasts with dysplastic mature megakaryocytes."},
+    {"dx": "AML with myelodysplasia-related changes (monosomy 7 alone)", "vs": "Multilineage dysplasia with -7 may look similar, but the defining t(3;3)/inv(3) MECOM rearrangement can only be shown by karyotype or FISH."},
+    {"dx": "Primary myelofibrosis in accelerated/blast phase", "vs": "Megakaryocytes are large, clustered and hyperchromatic with cloud-like nuclei and marrow fibrosis, not small hypolobated forms, and driver JAK2/CALR/MPL mutations are usually present."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; flow cytometry; karyotype; FISH",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "BM aspirate: increased blasts with numerous small hypolobated megakaryocytes",
+    "BM biopsy (H&E): immature cells and small non-lobated megakaryocytes with dark pigment deposits",
+    "BM biopsy (H&E): small monolobated and bilobed megakaryocytes among immature cells",
+    "Flow CD117 vs CD34 (blast gate): CD34+CD117+ 71.02%",
+    "Flow CD7 vs CD34 (blast gate): partial CD7 expression on CD34+ blasts",
+    "Flow CD13 vs CD33 (blast gate): CD33+CD13+ 69.81%",
+    "Flow CD11b vs CD13 (blast gate): blasts largely CD11b-negative",
+    "Karyotype: monosomy 7 with abnormal chromosome 3 homologs",
+    "Interphase tricolor FISH with separated signals suggesting 3q26 (MECOM) rearrangement"
+  ]
+}

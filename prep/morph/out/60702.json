@@ -1,0 +1,21 @@
+{
+  "id": "60702",
+  "recognize_zh": "周邊血中增加的「淋巴球」其實核偏一側、染色質粗塊狀、旁邊有一圈窄的藍色細胞質（B 箭頭）；高倍 C 還看到雙核與多核的漿細胞，因此是被血球計數器誤判為淋巴球增多的非典型漿細胞白血病。",
+  "features": [
+    "Panel A: increased small mononuclear cells resembling mature lymphocytes, with occasional neutrophils",
+    "Small cells with round, slightly eccentric nuclei, coarsely clumped chromatin and a narrow rim of basophilic cytoplasm",
+    "Panel B (arrows): cells with eccentric nuclei and a crescent of basophilic cytoplasm, suggesting plasmacytoid differentiation",
+    "Panel C: binucleated plasma cells and a large multinucleated plasma cell with abundant basophilic cytoplasm",
+    "Red cells show mild rouleaux-like stacking in thicker areas"
+  ],
+  "describe_en": "Peripheral blood smear shows an increase in small mononuclear cells that at low power resemble mature lymphocytes. At higher magnification, many have eccentrically placed nuclei with clumped chromatin and a narrow crescent of basophilic cytoplasm, and binucleated and multinucleated plasma cells are also present. Findings are consistent with circulating atypical (lymphoplasmacytoid) plasma cells, supporting plasma cell leukemia; confirmation by flow cytometry (CD38 bright, CD138+, cytoplasmic light chain restriction) is recommended because automated counters may report these cells as lymphocytes.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells have central round nuclei with block-like chromatin, smudge cells and CD5/CD23/CD19 expression, without binucleated plasma cells."},
+    {"dx": "Lymphoplasmacytic lymphoma with circulating cells", "vs": "LPL shows a spectrum of CD20+ lymphocytes to plasma cells with IgM paraprotein and MYD88 mutation rather than a CD138+/CD19− clonal plasma cell population."},
+    {"dx": "Reactive plasmacytosis (viral infection)", "vs": "Reactive circulating plasma cells are few, polytypic and accompanied by reactive lymphocytes, not numerous atypical multinucleated forms."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

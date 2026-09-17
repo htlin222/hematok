@@ -1,0 +1,22 @@
+{
+  "id": "62295",
+  "recognize_zh": "EDTA 抹片中箭頭指出三團血小板凝集，團內有數顆體積偏大的血小板，其餘視野游離血小板稀少，紅血球形態正常，說明自動計數偏低是凝集造成的假性血小板減少（spurious thrombocytopenia），應以檸檬酸管重測。",
+  "features": [
+    "Three discrete clumps of aggregated platelets marked by arrows",
+    "Several enlarged platelets within the aggregates",
+    "Relatively few free-lying single platelets outside the clumps",
+    "Normocytic, normochromic red cells without fragments",
+    "No platelet satellitism around leukocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear from an EDTA-anticoagulated specimen shows three discrete platelet aggregates, marked by arrows, containing platelets of variable size including several large forms. Single free platelets outside the aggregates are relatively few. Red cells are normocytic and normochromic without schistocytes, and no leukocytes with platelet satellitism are present in this field. Findings indicate in vitro platelet clumping causing a spuriously low automated platelet count, confirmed by a normal count on a citrated sample.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "ITP shows evenly scattered, often large platelets that are genuinely reduced without clumps, and the count remains low in citrate."},
+    {"dx": "Inherited macrothrombocytopenia", "vs": "Giant platelets in MYH9-related disease or Bernard-Soulier syndrome are dispersed singly rather than aggregated, with a persistently low count in any anticoagulant."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows platelets adhering around neutrophils rather than free-standing platelet clumps."},
+    {"dx": "Heparin-induced or in vivo thrombocytopenia", "vs": "True consumptive thrombocytopenia shows a low count on smear review and in citrate, without in vitro aggregates."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

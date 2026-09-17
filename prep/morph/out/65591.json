@@ -1,0 +1,22 @@
+{
+  "id": "65591",
+  "recognize_zh": "穿刺抹片中的大細胞核呈腎形或馬蹄形（hallmark cells 樣）、細胞質豐富淡藍，看起來很像單核球；但 CD30 強陽性、ALK 陽性，證實是 ALK 陽性 ALCL，而不是單核球性腫瘤。",
+  "features": [
+    "Large discohesive cells with bean-shaped, kidney-shaped, and horseshoe-like nuclei (panel A)",
+    "Condensed to coarse chromatin with moderate to abundant pale basophilic cytoplasm, some with vacuoles",
+    "Flow cytometry: CD45-positive events in the monocyte gate, CD34 and CD38 negative, CD33 partially positive, CD11b negative, CD4 positive, CD56 negative (panel B)",
+    "Strong membranous and Golgi CD30 staining (panel C) and cytoplasmic/nuclear ALK staining (panel D)",
+    "Cytoplasmic MNDA staining in a subset of neoplastic cells (panel E)"
+  ],
+  "describe_en": "Fine-needle aspirate smear of a neck mass shows large discohesive cells with bean-shaped to horseshoe-shaped nuclei, coarse chromatin, and moderate to abundant pale basophilic cytoplasm, imparting a monocytoid appearance. Flow cytometry shows a CD45-positive population in the monocyte gate expressing CD4 and partial CD33, without CD34, CD38, CD11b, or CD56. Immunostains show strong CD30 and ALK expression, with cytoplasmic MNDA in a subset. Findings are consistent with ALK-positive anaplastic large cell lymphoma with aberrant CD33 and MNDA expression, a pitfall for misclassification as a monocytic neoplasm.",
+  "ddx": [
+    {"dx": "Myeloid sarcoma, monocytic type", "vs": "Monocytic sarcoma expresses CD11b, CD14, CD68/lysozyme and is ALK negative with weak or absent CD30, unlike this ALK+/CD30 strong neoplasm."},
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytic sarcoma expresses CD163, CD68, and lysozyme and lacks ALK and strong uniform CD30."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin cells are scattered in a mixed inflammatory background and are CD15+/PAX5 weak, ALK negative."},
+    {"dx": "Metastatic carcinoma (history of prostate cancer)", "vs": "Carcinoma forms cohesive clusters and is keratin/NKX3.1 positive and CD45/ALK negative."}
+  ],
+  "specimen": "LN",
+  "stain": "Wright-Giemsa; flow; IHC: CD30, ALK, MNDA",
+  "match": "consistent",
+  "high_yield": false
+}

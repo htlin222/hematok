@@ -1,0 +1,22 @@
+{
+  "id": "61865",
+  "recognize_zh": "兩顆中大型淋巴球，核圓到稍多角形、染色質中等凝集，中央有一個明顯的大核仁，細胞質少量、藍色且無顆粒；這種「單一明顯核仁的前淋巴球（prolymphocyte）」是 B-PLL 的線索。",
+  "features": [
+    "Medium-to-large lymphoid cells, roughly twice the diameter of a red cell",
+    "Moderate N:C ratio with a thin rim of pale-to-moderately basophilic agranular cytoplasm",
+    "Round to slightly polygonal nuclei with moderately condensed, clumped chromatin",
+    "Single conspicuous central nucleolus in each nucleus",
+    "Background red cells with scattered echinocytes/crenated cells and occasional platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows two adjacent medium-to-large lymphoid cells on a background of red cells with scattered crenated forms. The cells have round to slightly angulated nuclei with moderately condensed chromatin and a single prominent central nucleolus, surrounded by a modest rim of agranular basophilic cytoplasm. No hairy projections, cleaved nuclei, or blast-like fine chromatin are seen in these cells. In the appropriate context (prolymphocytes exceeding 55% of circulating lymphoid cells), findings are consistent with B-cell prolymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic (blastoid/pleomorphic)", "vs": "Leukemic MCL can show nucleolated prolymphocyte-like cells, so cyclin D1/SOX11 expression or t(11;14) must be excluded before diagnosing B-PLL."},
+    {"dx": "CLL with increased prolymphocytes", "vs": "CLL/PL shows a mixture of small mature lymphocytes with coarse block-like chromatin and smudge cells, with prolymphocytes below 55%, and a CD5+/CD23+/dim sIg immunophenotype."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells are often smaller with cytoplasmic blebs and irregular nuclei and express T-cell antigens (CD3, CD7) with TCL1 rearrangement rather than bright B-cell markers."},
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma with prominent nucleoli)", "vs": "HCL-v cells have a nucleolus but also villous cytoplasmic projections and a CD11c+/CD103+/CD25- phenotype."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

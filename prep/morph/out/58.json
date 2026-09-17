@@ -1,0 +1,29 @@
+{
+  "id": "58",
+  "recognize_zh": "腦組織切片中大型異型淋巴細胞呈血管周圍套袖狀（perivascular cuffing）聚集，網狀纖維染色（reticulin）在血管周圍形成同心圓層狀；IHC 為 CD20+、CD10−、BCL6+、MUM1+ 的非生發中心型，符合原發性中樞神經 DLBCL。",
+  "features": [
+    "Diffuse sheets of large atypical lymphoid cells with vesicular to coarse chromatin, prominent nucleoli and irregular nuclear contours",
+    "Striking angiocentric growth with tumor cells cuffing and infiltrating vessel walls (perivascular cuffing)",
+    "Numerous mitoses and apoptotic bodies; necrosis-adjacent brain parenchyma at the edge",
+    "Reticulin stain shows concentric perivascular reticulin rings splitting around vessels",
+    "IHC: CD20+, CD10-, BCL6+, MUM1+ (non-germinal center phenotype), BCL2+, c-MYC+ in a subset, high Ki-67"
+  ],
+  "describe_en": "Sections of brain show a diffusely infiltrative neoplasm composed of large atypical lymphoid cells with vesicular chromatin, conspicuous nucleoli and frequent mitoses and apoptotic bodies. The tumor cells show a prominent angiocentric pattern, forming concentric cuffs around vessels, and a reticulin stain highlights concentric perivascular layering of reticulin fibers. By immunohistochemistry, the neoplastic cells are positive for CD20, BCL6, MUM1 and BCL2, negative for CD10, show c-MYC expression in a subset of cells and have a high Ki-67 proliferation index. Findings are consistent with primary diffuse large B-cell lymphoma of the central nervous system, non-germinal center B-cell type, pending exclusion of systemic disease.",
+  "ddx": [
+    {"dx": "Secondary CNS involvement by systemic DLBCL", "vs": "Morphology is identical; separation requires staging to exclude systemic disease."},
+    {"dx": "Glioblastoma", "vs": "Glioblastoma shows GFAP-positive pleomorphic glial cells with microvascular proliferation and palisading necrosis and is CD20/CD45-negative."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Metastases form cohesive nests and are keratin- or SOX10/S100-positive and CD20-negative."},
+    {"dx": "EBV-positive lymphoproliferative disorder / lymphomatoid granulomatosis", "vs": "Immunodeficiency-associated or LYG lesions have a polymorphous background with angiodestruction, necrosis and EBER-positive B cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; reticulin; IHC: CD20, CD10, BCL6, MUM1, BCL2, MYC, Ki67",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E: sheets of large lymphoid cells cuffing a central vessel",
+    "H&E high power: large cells with vesicular chromatin, nucleoli and mitoses",
+    "H&E composite: brain parenchyma with perivascular tumor (1a), sheets of large cells (1b), vessel cuffing (1c), high power (1d)",
+    "Reticulin stain: concentric perivascular reticulin rings",
+    "IHC panel: CD20+, CD10-, BCL6+, MUM1+, BCL2+, c-MYC subset, high Ki-67"
+  ]
+}

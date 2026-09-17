@@ -1,0 +1,22 @@
+{
+  "id": "64004",
+  "recognize_zh": "這不是電泳膠片，而是 Bio-Rad 高效液相層析（HPLC）的色譜圖：主峰為約 2.3 分鐘的 HbA0，約 3.6 分鐘處有明顯的陰影 HbA2 峰，標題說明為 HbA2 升高，提示 β 地中海型貧血帶因者；百分比數字在此圖解析度下無法判讀。",
+  "features": [
+    "Cation-exchange HPLC chromatogram (Bio-Rad system) with absorbance versus retention time (0-6 min)",
+    "Dominant off-scale HbA0 peak at approximately 2.3 min",
+    "Shaded HbA2 peak at approximately 3.6 min, visually prominent relative to baseline",
+    "Small early-eluting peaks (approximately 1.1-1.8 min) corresponding to HbF, P2/P3, and glycated fractions",
+    "No abnormal variant peak (e.g., HbS or HbC window) is evident; peak percentage table is not shown"
+  ],
+  "describe_en": "The figure shows a cation-exchange high-performance liquid chromatography (HPLC) tracing rather than a conventional electrophoresis gel. There is a dominant HbA0 peak at approximately 2.3 minutes, small early-eluting minor fractions, and a shaded HbA2 peak at approximately 3.6 minutes. No abnormal variant peaks are identified in the S or C windows, and the numeric peak table is not included, so the HbA2 percentage cannot be verified from the image. Per the submitted history of increased HbA2 (typically >3.5%), findings are consistent with beta-thalassemia trait, to be correlated with red cell indices and iron status.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency lowers HbA2 and can mask beta-thalassemia trait, so HbA2 should be interpreted with ferritin; it does not raise HbA2."},
+    {"dx": "Alpha-thalassemia trait", "vs": "Alpha-thalassemia trait has normal or low HbA2 on HPLC and requires DNA testing for confirmation."},
+    {"dx": "HbE or Hb Lepore co-eluting in the A2 window", "vs": "HbE co-elutes with HbA2 on many HPLC systems giving a falsely very high A2 (typically >10%), distinguished by capillary electrophoresis or DNA analysis."},
+    {"dx": "Delta-beta thalassemia", "vs": "Delta-beta thalassemia shows markedly increased HbF with normal or low HbA2, unlike an isolated HbA2 elevation."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A (HPLC chromatogram)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

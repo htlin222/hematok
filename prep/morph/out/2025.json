@@ -1,0 +1,22 @@
+{
+  "id": "2025",
+  "recognize_zh": "骨髓抹片的細胞化學染色中，散在與成群的大型細胞質呈強烈深紅紫色陽性，大小遠大於背景的造血細胞與黃色紅血球；配合標題，這是高雪細胞（Gaucher cells）的強陽性染色（外觀最符合 PAS，但此圖無法確定染色種類）。",
+  "features": [
+    "Numerous large cells, singly and in clusters, with intensely red-magenta positive cytoplasm",
+    "Cells several times larger than surrounding hematopoietic elements",
+    "Intense staining obscures nuclear and cytoplasmic striation detail",
+    "Background of unstained or weakly stained smaller marrow cells and yellowish erythrocytes",
+    "Low image resolution limits identification of the exact cytochemical stain"
+  ],
+  "describe_en": "Cytochemical stain of a bone marrow aspirate shows numerous large histiocytes, singly and in clusters, with intensely red-magenta cytoplasmic positivity, contrasting with weakly stained or unstained smaller hematopoietic cells and erythrocytes. The intense staining obscures the fibrillary cytoplasmic texture and nuclear detail. The staining pattern is most compatible with PAS (or tartrate-resistant acid phosphatase), both of which are strongly positive in Gaucher cells, but the specific stain cannot be confirmed from the image alone. Findings are consistent with marrow infiltration by Gaucher cells.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells (CML, myeloma, thalassemia)", "vs": "Staining characteristics are similar; separated by normal glucocerebrosidase activity and demonstration of the underlying disorder."},
+    {"dx": "Niemann-Pick foam cells", "vs": "Foam cells are only weakly PAS positive with finely vacuolated cytoplasm and are sphingomyelinase deficient."},
+    {"dx": "Mycobacterial histiocytosis", "vs": "Striated histiocytes are PAS positive but contain acid-fast bacilli on AFB stain."},
+    {"dx": "Megakaryocytes", "vs": "Megakaryocytes are also PAS positive but have large lobulated nuclei and granular cytoplasm and are CD61 positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Cytochemical stain, likely PAS",
+  "match": "consistent",
+  "high_yield": false
+}

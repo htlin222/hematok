@@ -1,0 +1,22 @@
+{
+  "id": "14741",
+  "recognize_zh": "白血球增多的 CML 背景下，周邊血出現大量帶顆粒的前骨髓細胞與芽細胞（A），骨髓則被成片的異常前骨髓細胞佔滿：細胞大、細胞質充滿嗜天青顆粒、核圓或腎形並可見核仁（B），符合 CML 前骨髓細胞型急變期（promyelocytic blast crisis）。",
+  "features": [
+    "BM aspirate: sheets of large promyelocyte-like cells with abundant cytoplasm packed with azurophilic granules",
+    "Round to reniform nuclei with fine chromatin and visible nucleoli",
+    "Maturation largely arrested at the promyelocyte stage, with few myelocytes and mature granulocytes",
+    "PB: leukocytosis with circulating granulated promyelocytes and blasts plus occasional immature granulocytes",
+    "No Auer rod bundles (faggot cells) or bilobed hypogranular nuclei evident at this resolution"
+  ],
+  "describe_en": "Peripheral blood smear shows leukocytosis with circulating blasts and numerous granulated promyelocytes, together with occasional maturing granulocytes. The bone marrow aspirate is replaced by sheets of large promyelocyte-like cells with abundant cytoplasm containing coarse azurophilic granules, round to reniform nuclei, fine chromatin, and nucleoli, with markedly reduced later-stage granulocytic maturation. Faggot cells are not identified at this resolution. In a patient with BCR-ABL1-positive chronic myeloid leukemia, findings are consistent with blast phase with promyelocytic differentiation; cytogenetic or molecular testing for PML-RARA and additional clonal abnormalities is recommended.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia with PML::RARA", "vs": "APL shows hypergranular promyelocytes with bilobed nuclei and faggot cells and carries t(15;17) without BCR::ABL1, whereas this entity arises from known Ph-positive CML."},
+    {"dx": "CML, chronic phase", "vs": "Chronic phase shows a full spectrum of granulocytic maturation dominated by myelocytes and segmented neutrophils, not sheets of arrested promyelocytes."},
+    {"dx": "AML with maturation", "vs": "AML with maturation has agranular to lightly granulated myeloblasts >=20% with Auer rods and lacks BCR::ABL1."},
+    {"dx": "Marrow recovery after G-CSF or toxic insult", "vs": "Regenerating marrow shows a synchronized promyelocyte wave that matures within days, with no Ph chromosome and normal karyotype."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

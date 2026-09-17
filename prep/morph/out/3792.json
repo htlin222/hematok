@@ -1,0 +1,22 @@
+{
+  "id": "3792",
+  "recognize_zh": "左邊一顆大型組織球細胞質內包著五顆完整的有核細胞（含顆粒球前驅細胞），右邊另一顆組織球吞噬了許多圓形深染的小淋巴球大小細胞；多顆完整細胞被吞入就是噬血現象，背景有大量小淋巴球（CLL）。",
+  "features": [
+    "Large histiocyte (left) containing about five intact engulfed nucleated cells within abundant pale blue vacuolated cytoplasm",
+    "Engulfed cells retain nuclear detail, including granulated myeloid precursors",
+    "Second histiocyte (right) containing numerous small round dense nuclei of lymphocyte or nucleated red cell size",
+    "Background small mature lymphocytes with condensed chromatin",
+    "Scattered granulocytic precursors with azurophilic granules"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows two macrophages with active phagocytosis of intact hematopoietic cells. One contains approximately five well-preserved nucleated cells, including granulated myeloid precursors, within vacuolated cytoplasm, while the other harbors numerous small dense round nuclei consistent with lymphocytes or nucleated red cells. The background contains many small mature lymphocytes and maturing granulocytes. Findings represent hemophagocytosis; in a patient with CLL and compatible clinical criteria this supports secondary hemophagocytic lymphohistiocytosis.",
+  "ddx": [
+    {"dx": "Megakaryocyte emperipolesis", "vs": "Emperipolesis occurs within megakaryocytes with lobulated nuclei and granular cytoplasm, not within single-nucleated vacuolated histiocytes."},
+    {"dx": "Tingible body macrophage", "vs": "Tingible body macrophages contain fragmented apoptotic nuclear debris, not multiple intact cells with preserved nuclear and cytoplasmic detail."},
+    {"dx": "Rosai-Dorfman disease", "vs": "Rosai-Dorfman histiocytes show emperipolesis of lymphocytes but are S100 positive and rarely involve marrow, without HLH laboratory criteria."},
+    {"dx": "Cannibalism by tumor cells", "vs": "Tumor cell cannibalism occurs in atypical cohesive malignant cells, whereas these phagocytes have bland histiocytic nuclei."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

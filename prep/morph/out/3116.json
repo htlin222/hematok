@@ -1,0 +1,21 @@
+{
+  "id": "3116",
+  "recognize_zh": "多顆單核球系細胞核呈腎形或摺疊、染色質細緻，胞質灰藍並含細小嗜天青顆粒與空泡，左下有低顆粒的分葉嗜中性球，呈現慢性骨髓單核球白血病（CMML）的單核球增多與異型性。",
+  "features": [
+    "Increased monocytic cells with oval, indented, or folded nuclei",
+    "Relatively fine chromatin; some cells with small nucleoli or nuclear clearing (promonocyte-like)",
+    "Abundant gray-blue cytoplasm with fine azurophilic granules and small vacuoles",
+    "Hypogranular segmented neutrophil at lower left",
+    "Crowded red cells in the background"
+  ],
+  "describe_en": "The smear shows an increase in monocytic cells with oval to folded nuclei, relatively fine chromatin, and abundant gray-blue cytoplasm containing fine azurophilic granules and scattered vacuoles. Some cells have small nucleoli and would be counted as promonocytes. A hypogranular segmented neutrophil is present. Findings are consistent with chronic myelomonocytic leukemia, provided blasts plus promonocytes remain below 20% and persistent monocytosis is documented.",
+  "ddx": [
+    {"dx": "Acute monocytic or myelomonocytic leukemia", "vs": "AML requires at least 20% blasts plus promonocytes, which cannot be enumerated from a single field."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes are mature with condensed chromatin, lack neutrophil dysplasia, and resolve with the underlying condition."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows basophilia and a myelocyte bulge with BCR::ABL1, rather than dysplastic monocytosis."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

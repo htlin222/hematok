@@ -1,0 +1,22 @@
+{
+  "id": "64332",
+  "recognize_zh": "流式圖：先以 FSC-H/FSC-A 圈出單一細胞（singlets），再以 FSC/SSC 選出低側向散射的淋巴細胞；橘色 B 細胞群 CD5 陽性、CD10 陰性、CD20 亮陽性、CD38 表現不一，CD5+/CD10- 的 B 細胞需區分被套細胞淋巴瘤與 CLL。",
+  "features": [
+    "FSC-A vs FSC-H singlet gate, followed by an FSC vs SSC gate on small low-SSC cells (orange)",
+    "CD5 vs CD10: orange population is CD5 positive and CD10 negative",
+    "Grey CD10-positive events (granulocytes) and blue CD5-positive T cells provide internal controls",
+    "CD20 vs CD38: orange B cells are CD20 bright with variable, predominantly dim to moderate CD38",
+    "Blue CD20-negative T/NK cells separated from the B-cell population"
+  ],
+  "describe_en": "Flow cytometric dot plots show doublet exclusion (FSC-A vs FSC-H) and a scatter gate on small cells with low side scatter. The orange-painted B-cell population co-expresses CD5, is negative for CD10, and shows bright CD20 with variable dim to moderate CD38. Internal controls include CD10-positive granulocytes and CD5-positive, CD20-negative T cells. A CD5-positive, CD10-negative, CD20-bright B-cell population favors mantle cell lymphoma over CLL, pending CD23, CD200, light chain and cyclin D1/CCND1 evaluation.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL is CD5+ CD10- but has dim CD20 and is CD23 and CD200 positive."},
+    {"dx": "Follicular lymphoma", "vs": "FL is CD10 positive and CD5 negative."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL is typically CD5 and CD10 negative."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL shows high side scatter, bright CD11c, CD25, CD103 and CD123, and is usually CD5 negative."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

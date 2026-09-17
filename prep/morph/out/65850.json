@@ -1,0 +1,23 @@
+{
+  "id": "65850",
+  "recognize_zh": "H&E 為混合小淋巴球、組織球與間質的多形性浸潤；CD30 與 CD15 只標記少數散在大型細胞（膜狀與高基氏體點狀），PAX5 在大型細胞呈弱陽性，MUM1 大型細胞強陽性——這組合就是典型的 Hodgkin/Reed-Sternberg 細胞免疫表型；FISH 可見 IGH::CCND1 融合訊號，連結先前的被套細胞淋巴瘤。",
+  "features": [
+    "H&E: polymorphous infiltrate of small lymphocytes, histiocytes and scattered larger cells with sclerotic stroma; diagnostic HRS cells not well resolved at this magnification",
+    "CD30: scattered large cells with membranous and Golgi/dot-like staining; background negative",
+    "CD15: rare large cells with membranous/Golgi staining",
+    "PAX5: weak nuclear staining in scattered large cells, dimmer than expected for normal B cells (few B cells in background)",
+    "MUM1: strong nuclear staining of large cells plus many smaller background cells",
+    "FISH with t(11;14) dual-fusion probe: interphase nuclei with yellow/overlapping fusion signals in addition to separate red and green signals"
+  ],
+  "describe_en": "Lymph node section shows effacement by a polymorphous infiltrate of small lymphocytes and histiocytes within fibrous stroma, with scattered large cells. By immunohistochemistry, the large cells are CD30-positive with membranous and Golgi staining, CD15-positive in a subset, weakly PAX5-positive and strongly MUM1-positive, typical of Hodgkin/Reed-Sternberg cells; the background lacks a mantle cell lymphoma population. FISH with an IGH::CCND1 dual-fusion probe shows fusion signals, which per the case were localized to the Hodgkin/Reed-Sternberg cells, indicating clonal relationship to the preceding mantle cell lymphoma. Findings are consistent with classic Hodgkin lymphoma harboring IGH::CCND1, clonally related to prior mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Recurrent mantle cell lymphoma with Hodgkin-like cells", "vs": "MCL shows a monotonous sheet of CD20+/CD5+/cyclin D1+ small cells, whereas here the background lacks such cells and the large cells are CD30/CD15 positive with weak PAX5 and CD20 negativity."},
+    {"dx": "Nodal T-follicular helper cell lymphoma with HRS-like cells", "vs": "TFH lymphoma has atypical background T cells with PD1/ICOS/CXCL13 expression and FDC expansion, which were absent here (intact CD2/5/7, no TFH phenotype, no CD21/CD23 meshworks)."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL forms cohesive sheets of hallmark cells with strong uniform CD30, lacks PAX5 and usually CD15, unlike the scattered PAX5-weak CD15+ HRS cells."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "EBV+ DLBCL shows sheets of large CD20+ B cells and is EBER-positive, whereas these cells are CD20-negative, EBER-negative and scattered."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD30, CD15, PAX5, MUM1; FISH IGH::CCND1",
+  "match": "consistent",
+  "high_yield": false
+}

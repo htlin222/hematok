@@ -1,0 +1,23 @@
+{
+  "id": "61472",
+  "recognize_zh": "大量紅血球內可見細小、纖細的環狀體（ring form），紅血球大小正常且無 Schüffner 小點，並有多重感染（一顆紅血球內多個環狀體）；中央嗜中性球胞質內有棕黑色瘧色素（hemozoin），支持惡性瘧（P. falciparum）。",
+  "features": [
+    "High parasitemia: numerous erythrocytes contain small, delicate ring forms, many with appliqué (accolé) forms at the RBC margin",
+    "Multiply infected erythrocytes, including a cell with several rings, and occasional double-chromatin-dot rings",
+    "Infected RBCs are normal in size and shape without Schüffner stippling; no trophozoite enlargement",
+    "No mature trophozoites, schizonts, or gametocytes in this field",
+    "Central segmented neutrophil with a brown-black malarial pigment granule in its cytoplasm",
+    "Background of scattered platelets; a small dark cell/platelet clump at upper left"
+  ],
+  "describe_en": "Peripheral blood thin smear shows a high burden of intraerythrocytic parasites. Numerous normocytic erythrocytes contain small, fine ring forms, frequently multiple per cell, with occasional double chromatin dots and appliqué forms; infected cells are not enlarged and lack Schüffner stippling. No late trophozoites, schizonts, or gametocytes are identified in this field. A neutrophil contains phagocytosed brown-black hemozoin pigment. Findings are consistent with Plasmodium falciparum malaria with high parasitemia; a parasite percentage should be reported.",
+  "ddx": [
+    {"dx": "Plasmodium vivax/ovale", "vs": "Infected RBCs are enlarged with Schüffner stippling and rings are thicker, with ameboid trophozoites and schizonts usually present, unlike the numerous tiny rings in normal-sized RBCs here."},
+    {"dx": "Plasmodium knowlesi", "vs": "Early rings can mimic falciparum, but band forms and schizonts with up to 16 merozoites are seen in peripheral blood, and PCR is needed for confirmation."},
+    {"dx": "Babesia species", "vs": "Babesia forms pleomorphic rings and tetrads (Maltese cross) and never produces hemozoin pigment, whereas pigment is seen in the neutrophil here."},
+    {"dx": "Platelets overlying RBCs / stain precipitate", "vs": "Superimposed platelets lack a ring of cytoplasm with a discrete chromatin dot and are not in the same focal plane as the RBC."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

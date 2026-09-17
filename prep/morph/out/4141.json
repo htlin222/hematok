@@ -1,0 +1,21 @@
+{
+  "id": "4141",
+  "recognize_zh": "骨髓抹片中一顆遠大於周圍細胞的巨大細胞，單一多分葉核相連聚在一側，細胞質豐富、呈細緻淡紫色顆粒狀，是正常成熟巨核細胞（megakaryocyte）。",
+  "features": [
+    "Very large cell, many times the diameter of surrounding hematopoietic cells",
+    "Low N:C ratio with a single multilobulated nucleus whose lobes remain connected",
+    "Coarse, clumped chromatin without nucleoli",
+    "Abundant cytoplasm with fine, evenly distributed azurophilic (lilac) granules",
+    "Surrounding granulocytic and erythroid precursors and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large mature megakaryocyte with a single, connected multilobulated nucleus with clumped chromatin and abundant finely granular lilac cytoplasm. It is surrounded by maturing granulocytic and erythroid precursors. There is no nuclear hypolobation, separation of lobes or abnormal cytoplasmic maturation. Findings are consistent with a normal mature megakaryocyte.",
+  "ddx": [
+    {"dx": "Osteoclast", "vs": "Osteoclasts contain multiple separate, uniform round nuclei with nucleoli and coarser pink-purple granules, rather than one connected lobulated nucleus."},
+    {"dx": "Dysplastic megakaryocyte with separated nuclei", "vs": "Dysplastic forms show multiple widely separated round nuclear lobes (pawn-ball) instead of the contiguous lobulated nucleus seen here."},
+    {"dx": "Metastatic tumor giant cell", "vs": "Tumor giant cells are pleomorphic with prominent nucleoli and non-granular cytoplasm, often in cohesive clusters."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

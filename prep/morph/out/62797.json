@@ -1,0 +1,21 @@
+{
+  "id": "62797",
+  "recognize_zh": "這是血紅素HPLC報告：Ao峰57.1%為最大峰，S-window峰32.9%，HbA2 3.0%、HbF 0.8%，HbA多於HbS且兩者並存，符合鐮刀型血紅素帶因者（sickle cell trait）。",
+  "features": [
+    "Cation-exchange HPLC chromatogram with peak table",
+    "Dominant Ao peak at 2.45 min (57.1%)",
+    "Second major peak in the S-window at 4.34 min (32.9%)",
+    "HbA2 3.0% (3.62 min) and HbF 0.8% (1.09 min); minor P2/P3 peaks",
+    "Non-morphologic image; HbA2 may be mildly overestimated in the presence of HbS adducts"
+  ],
+  "describe_en": "Cation-exchange high-performance liquid chromatography shows a dominant Ao peak (57.1%) and a second major peak in the S-window at 4.34 minutes (32.9%). HbA2 is 3.0% and HbF is 0.8%, with small P2 and P3 peaks. The HbA fraction exceeds the HbS fraction, and no additional variant peak is identified. Findings are consistent with heterozygous HbS (sickle cell trait).",
+  "ddx": [
+    {"dx": "HbS/β+-thalassemia", "vs": "In HbS/β+-thalassemia HbS exceeds HbA, with elevated HbA2 (>3.5%) and microcytosis, the reverse of the A>S ratio here."},
+    {"dx": "HbAS with coinherited α-thalassemia", "vs": "Coinherited α-thalassemia lowers the HbS fraction to about 25–30% with microcytosis; the 32.9% here is near the usual trait range but indices should be checked."},
+    {"dx": "HbA/D-Punjab trait", "vs": "HbD elutes earlier in the D-window (about 4.0–4.1 min) and gives a negative sickle solubility test."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (HPLC)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

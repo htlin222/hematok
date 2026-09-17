@@ -1,0 +1,22 @@
+{
+  "id": "64364",
+  "recognize_zh": "整片紅血球大多失去中央淡染區、表面有多個短而不規則的棘狀突起（棘球形紅血球 spheroacanthocyte），夾雜緻密小球形紅血球與較大偏藍的多染性紅血球，符合藥物（alectinib）引起的溶血。",
+  "features": [
+    "Marked red cell poikilocytosis dominated by dense cells with multiple short, irregular surface projections (spheroacanthocytes/echinocytic forms)",
+    "Numerous small dense spherocytes lacking central pallor",
+    "Larger, slightly bluish polychromatic red cells indicating reticulocytosis",
+    "Rare nucleated or inclusion-bearing red cell; neutrophils morphologically unremarkable",
+    "Platelets present and not clumped"
+  ],
+  "describe_en": "Peripheral blood smear shows marked red cell poikilocytosis. A large proportion of red cells are dense and spherocytic with multiple short, irregularly spaced spicules (spheroacanthocytes), admixed with smooth spherocytes and larger polychromatic cells. Schistocytes are not a prominent feature, and leukocytes and platelets show no significant abnormality in this field. Findings are consistent with a spheroacanthocytic hemolytic anemia with reticulocytosis; in the clinical context of alectinib therapy, a drug-induced red cell membrane injury is favored after exclusion of liver disease and storage/drying artifact.",
+  "ddx": [
+    {"dx": "Crenation (echinocyte) artifact", "vs": "Artifactual echinocytes have regular, evenly spaced short projections and are confined to thick or slow-drying areas without spherocytes or polychromasia."},
+    {"dx": "Spur cell anemia of advanced liver disease", "vs": "Spur cells of cirrhosis look similar, so the distinction rests on liver function tests and clinical history rather than morphology."},
+    {"dx": "Hereditary spherocytosis", "vs": "Hereditary spherocytosis shows smooth spherocytes without spiculated forms, with a positive family history and abnormal EMA binding test."},
+    {"dx": "Neuroacanthocytosis / abetalipoproteinemia", "vs": "Congenital acanthocytosis has fewer, longer, irregular spicules on non-dense cells with neurologic findings or low lipoproteins, and lacks brisk reticulocytosis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

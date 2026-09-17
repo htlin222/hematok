@@ -1,0 +1,21 @@
+{
+  "id": "62040",
+  "recognize_zh": "紅色免疫染色高倍下，絕大多數小淋巴球與數顆核淡染的大型細胞皆為陰性，僅一顆中型細胞呈強陽性；在未知抗體的情況下，這張圖主要呈現大細胞的「陰性」結果，須對照標記名稱判讀。",
+  "features": [
+    "Background of small to intermediate lymphocytes negative for the marker",
+    "Scattered large cells with vesicular nuclei and pale chromatin that are also unstained",
+    "A single intermediate-to-large cell with strong cytoplasmic/membranous red staining",
+    "Faint granular red background deposits, possibly non-specific or dendritic/extracellular staining",
+    "Antibody identity not labeled in the image"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen, antibody not specified in the image) of lymph node at high power shows a background of small to intermediate lymphocytes and scattered large vesicular cells that are negative for the marker. Only a single intermediate-to-large cell shows strong cytoplasmic and membranous staining, and there is faint granular background deposition. Because the antibody is not identified, the pattern cannot be definitively interpreted; if this is CD30 or CD15, the lack of staining in the large cells would support LP cells of nodular lymphocyte predominant Hodgkin lymphoma, with the single positive cell likely a reactive immunoblast or granulocyte. Correlation with the case's labeled immunopanel is required.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-rich", "vs": "In LRCHL the large HRS cells would be strongly CD30+ (membrane and Golgi) and often CD15+, rather than negative as the large cells are here."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL large cells are also CD30-/CD15-, so separation depends on architecture and the T-cell composition (CD8+ versus PD-1+ rosettes) rather than this stain."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows sheets or sinusoidal clusters of large hallmark cells with uniform strong CD30 staining, not a single isolated positive cell."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (red chromogen)",
+  "match": "partial",
+  "high_yield": false
+}

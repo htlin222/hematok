@@ -1,0 +1,21 @@
+{
+  "id": "62212",
+  "recognize_zh": "周邊血抹片中可見數個中大型原始細胞（blasts），細胞核一側有淡染的凹陷區（杯狀核, cup-like nuclei），細胞質少且無明顯顆粒；此型態常見於 NPM1 突變合併 FLT3-ITD 的 AML。",
+  "features": [
+    "Medium to large blasts with high N:C ratio and scant agranular pale-blue cytoplasm",
+    "Nuclear invagination producing a pale, clear indentation at one pole (cup-like / fish-mouth nuclei)",
+    "Finely dispersed chromatin; nucleoli not clearly resolved due to image blur",
+    "Single small mature lymphocyte with dense chromatin for size comparison",
+    "Background red cells without obvious nucleated red cells; no Auer rods visible"
+  ],
+  "describe_en": "Peripheral blood smear shows several medium to large blasts with high nuclear-to-cytoplasmic ratio, scant agranular cytoplasm, and fine chromatin. Several blasts display a prominent pale nuclear invagination at one edge, imparting a cup-like morphology. Auer rods and cytoplasmic granules are not identified, and image resolution limits evaluation of nucleoli. Findings are consistent with acute myeloid leukemia with cup-like blasts, a morphology associated with NPM1 mutation and FLT3-ITD.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia (microgranular variant)", "vs": "APL blasts have bilobed/folded 'butterfly' nuclei with fine cytoplasmic granules and Auer rod bundles, and PML::RARA is detected, whereas cup-like nuclei show a single invagination without granules."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts may show nuclear indentations but are MPO-negative and TdT/CD19 or CD3 positive, whereas NPM1-mutated AML blasts are MPO-positive, often CD34-negative and HLA-DR-negative."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have more abundant grey-blue cytoplasm with delicate folded nuclei and are NSE-positive, lacking the sharply demarcated cup-like invagination."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

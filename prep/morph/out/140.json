@@ -1,0 +1,31 @@
+{
+  "id": "140",
+  "recognize_zh": "骨髓抹片中小型淋巴球、漿細胞樣淋巴球（plasmacytoid lymphocyte）與漿細胞混合，並可見核內偽包涵體 Dutcher body；切片 CD20 瀰漫陽性、kappa 限制性，流式 CD5−/CD10−，加上 MYD88 L265P，符合淋巴漿細胞淋巴瘤。",
+  "features": [
+    "Bone marrow aspirate: predominance of small mature lymphocytes admixed with plasmacytoid lymphocytes and plasma cells (circled)",
+    "Plasma cells with round intranuclear pale pseudo-inclusions (Dutcher bodies, arrows)",
+    "Core biopsy: hypercellular marrow diffusely replaced by small lymphoid cells, plasmacytoid cells and plasma cells",
+    "IHC: diffuse CD20-positive B cells, scattered-to-increased CD138-positive plasma cells, kappa-restricted with only rare lambda-positive cells",
+    "Flow cytometry: CD19+ CD20+ B cells, CD5-negative, CD10-negative, kappa light chain restricted",
+    "IGV view of MYD88 (chr3:38,182,641) showing a T>C substitution in a subset of reads, corresponding to p.L265P"
+  ],
+  "describe_en": "The peripheral blood smear in this field shows red cells without conspicuous rouleaux at this magnification and occasional small lymphocytes. The bone marrow aspirate shows numerous small lymphocytes admixed with plasmacytoid lymphocytes and plasma cells, several of which contain intranuclear pseudo-inclusions (Dutcher bodies). The core biopsy is hypercellular and diffusely infiltrated by small lymphoid and plasmacytoid cells, which are CD20-positive with increased CD138-positive plasma cells and kappa light chain restriction by immunohistochemistry. Flow cytometry identifies a kappa-restricted CD19+/CD20+ B-cell population negative for CD5 and CD10, and sequencing demonstrates MYD88 L265P. Findings are consistent with lymphoplasmacytic lymphoma (Waldenström macroglobulinemia in the setting of an IgM paraprotein).",
+  "ddx": [
+    {"dx": "Marginal zone lymphoma (nodal/splenic) with plasmacytic differentiation", "vs": "MZL can look identical morphologically, but it usually lacks MYD88 L265P and a high-level IgM paraprotein, and shows marginal zone/intrasinusoidal patterns."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL cells are CD5-positive and CD23-positive with dim CD20 and dim light chain, whereas this population is CD5-negative with bright CD20 and a plasmacytic component."},
+    {"dx": "Plasma cell myeloma (IgM or with lymphoplasmacytic features)", "vs": "Myeloma consists of clonal plasma cells without an accompanying clonal CD20-positive B-cell component and typically lacks MYD88 L265P; IgM myeloma often has t(11;14)."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is usually CD5-positive with cyclin D1/SOX11 expression and lacks plasmacytic differentiation and Dutcher bodies."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: CD20, CD138, kappa, lambda",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood smear, low power: red cells and occasional small lymphocytes",
+    "Bone marrow aspirate: small lymphocytes, plasmacytoid lymphocytes and plasma cells (circled); Dutcher bodies (arrows)",
+    "Core biopsy H&E: diffuse lymphoplasmacytic infiltrate (A) with Dutcher bodies in plasmacytoid cells (B, arrows)",
+    "IHC: diffuse CD20, increased CD138 plasma cells, kappa restriction with rare lambda-positive cells",
+    "Flow cytometry: CD19+/CD20+ B cells, CD5-negative, CD10-negative, kappa restricted",
+    "IGV sequencing view: MYD88 c.794T>C (p.L265P) variant reads"
+  ]
+}

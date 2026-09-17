@@ -1,0 +1,21 @@
+{
+  "id": "64023",
+  "recognize_zh": "左上角可見一顆一側平直、呈半月形的紅血球碎片（helmet cell/schistocyte）；但此張染色偏灰、倍率高而視野內多數紅血球是橢圓形（ovalocyte），只有少數碎片，單憑這張不足以判斷碎片數量。",
+  "features": [
+    "Single helmet-shaped red cell fragment with a straight cut edge and pointed ends (upper left)",
+    "Most red cells oval to elliptical with preserved central pallor",
+    "Mild anisocytosis",
+    "A small platelet and a few small refractile particles in the background",
+    "Poor staining quality and greyish color cast limit assessment"
+  ],
+  "describe_en": "Peripheral blood smear (high power; suboptimal, greyish staining) shows red cells with mild anisocytosis, most of which are oval to elliptical with preserved central pallor. A single helmet-shaped fragment with a straight cut border is present at the upper left, consistent with a schistocyte. Only a few cells are in this field, so the schistocyte proportion cannot be estimated, and the predominance of ovalocytes is not explained by fragmentation. The image supports the presence of a schistocyte, but quantification over multiple fields (ICSH: >1% suggests microangiopathic hemolysis) and correlation with platelet count and hemolysis markers are required.",
+  "ddx": [
+    {"dx": "Keratocytes (horn/bite-related cells)", "vs": "Keratocytes retain a central ruptured vacuole remnant with two horn-like projections, whereas a helmet cell has one straight cut edge without a vacuole."},
+    {"dx": "Hereditary elliptocytosis / ovalocytosis", "vs": "In HE most red cells are elliptical with occasional fragments in severe forms, whereas MAHA shows many fragments of varying shape in a background of normal discocytes."},
+    {"dx": "Smear artifact (cells cut at the feathered edge)", "vs": "Artifactual fragments cluster at the thin edge and share a uniform orientation, while true schistocytes are distributed throughout the monolayer."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

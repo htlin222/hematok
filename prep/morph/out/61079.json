@@ -1,0 +1,22 @@
+{
+  "id": "61079",
+  "recognize_zh": "網狀纖維染色下，血管周圍的網狀纖維被撐開成多層同心圓狀，淋巴瘤細胞夾在各層纖維之間呈袖套狀包繞血管（angiocentric pattern），這是中樞神經原發 DLBCL 的特徵性生長方式。",
+  "features": [
+    "Silver-impregnated reticulin fibers (black) around blood vessels split into multiple concentric layers",
+    "Tumor cells infiltrate between the reticulin layers, forming perivascular cuffs (angiocentric growth)",
+    "Several small vessels with thickened, concentrically laminated reticulin collars",
+    "Surrounding dense diffuse cellular infiltrate with only delicate background reticulin",
+    "Individual cytology not assessable on this special stain"
+  ],
+  "describe_en": "Reticulin stain of the brain lesion shows a diffuse cellular infiltrate with striking angiocentric growth: perivascular reticulin fibers are split into multiple concentric layers by infiltrating tumor cells, forming onion-skin-like cuffs around both large and small vessels. The intervening parenchyma shows only delicate reticulin. Cytologic detail cannot be evaluated on this stain. Findings are consistent with the perivascular growth pattern of primary diffuse large B-cell lymphoma of the CNS, to be confirmed with H&E and B-cell immunostains.",
+  "ddx": [
+    {"dx": "Glioblastoma", "vs": "Glioblastoma shows pseudopalisading necrosis and microvascular proliferation, with GFAP+ tumor cells lacking layered perivascular reticulin cuffs."},
+    {"dx": "Reactive perivascular lymphocytic cuffing (encephalitis, demyelination)", "vs": "Inflammatory cuffs are thin, composed of small mixed T cells and macrophages, and do not split reticulin into multiple layers with large atypical cells."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive nests surrounded by reticulin rather than individual cells between reticulin layers, and is keratin positive."},
+    {"dx": "Lymphomatoid granulomatosis", "vs": "LYG shows angiocentric and angiodestructive polymorphous infiltrates with EBV+ large B cells in a T-cell-rich background, typically in lung."}
+  ],
+  "specimen": "tissue",
+  "stain": "Reticulin (silver) stain",
+  "match": "consistent",
+  "high_yield": true
+}

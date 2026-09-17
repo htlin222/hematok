@@ -1,0 +1,20 @@
+{
+  "id": "4233",
+  "recognize_zh": "密集的異常前骨髓球，胞質含紫紅色顆粒、核摺疊；箭頭指的細胞胞質中隱約可見覆蓋在核上的細條棒狀結構，疑為成束的 Auer 小體（faggot cell），但此解析度難以完全確認。",
+  "features": [
+    "Densely packed abnormal promyelocytes with folded, reniform, or bilobed nuclei",
+    "Cytoplasm with abundant fine azurophilic granules and granular background",
+    "Arrowed cell shows faint linear rod-like structures overlying the nucleus, suggestive of bundled Auer rods (faggot cell)",
+    "Monotonous infiltrate with little normal hematopoietic maturation"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a dense population of abnormal promyelocytes with folded to bilobed nuclei and granular cytoplasm. The arrowed cell contains faint linear cytoplasmic structures overlapping the nucleus, suggestive of multiple Auer rods in a bundle (faggot cell), although this is not unequivocal at the current resolution. Normal maturing myeloid and erythroid elements are scant. Findings are consistent with acute promyelocytic leukemia; confirmation by PML::RARA FISH or RT-PCR is required.",
+  "ddx": [
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "Blasts in t(8;21) usually contain a single, long, slender Auer rod and a perinuclear hof with maturing dysplastic neutrophils, not bundles of Auer rods in bilobed promyelocytes."},
+    {"dx": "Microgranular APL variant", "vs": "The microgranular variant has bilobed nuclei but sparse visible granules, whereas these cells are overtly hypergranular; both carry PML::RARA."},
+    {"dx": "Reactive left-shifted granulopoiesis", "vs": "Reactive promyelocytes have round nuclei with a Golgi hof and a full maturation sequence, and never contain Auer rods."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

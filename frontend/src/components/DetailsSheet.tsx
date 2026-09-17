@@ -1,7 +1,17 @@
 import { useState, useEffect } from "react";
 import { X, ExternalLink, Eye, Download, ChevronDown, ChevronUp, Bot, Loader2 } from "lucide-react";
-import type { FeedItem } from "../types/feed";
+import { morphUrl, type FeedItem, type MorphNote } from "../types/feed";
 import { api } from "../lib/api";
+
+// Shards are small and immutable per deploy — fetch each at most once per session.
+const shardCache = new Map<string, Promise<Record<string, MorphNote>>>();
+function loadMorph(id: string): Promise<MorphNote | null> {
+    const url = morphUrl(id);
+    if (!shardCache.has(url)) {
+        shardCache.set(url, fetch(url).then((r) => (r.ok ? r.json() : {})).catch(() => ({})));
+    }
+    return shardCache.get(url)!.then((s) => s[id] ?? null);
+}
 
 interface DetailsSheetProps {
     item: FeedItem;
@@ -13,6 +23,17 @@ export function DetailsSheet({ item, onClose }: DetailsSheetProps) {
     const [explainExpanded, setExplainExpanded] = useState(false);
     const [explanation, setExplanation] = useState<string | null>(null);
     const [explainLoading, setExplainLoading] = useState(false);
+    const [morph, setMorph] = useState<MorphNote | null>(null);
+
+    useEffect(() => {
+        setMorph(null);
+        if (!item.morph) return;
+        let live = true;
+        loadMorph(item.id).then((m) => live && setMorph(m));
+        return () => {
+            live = false;
+        };
+    }, [item.id, item.morph]);
 
     useEffect(() => {
         const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
@@ -24,7 +45,8 @@ export function DetailsSheet({ item, onClose }: DetailsSheetProps) {
         setExplainExpanded(!explainExpanded);
         if (!explainExpanded && !explanation && !explainLoading) {
             setExplainLoading(true);
-            const res = await api.explain(item.title, item.description || "");
+            const context = [morph?.describe_en, item.description].filter(Boolean).join("\n\n");
+            const res = await api.explain(item.title, context);
             setExplanation(res);
             setExplainLoading(false);
         }
@@ -75,6 +97,8 @@ export function DetailsSheet({ item, onClose }: DetailsSheetProps) {
                         </div>
                     )}
                 </div>
+
+                {morph && <MorphSection note={morph} />}
 
                 {item.description && (
                     <div className="mb-5">
@@ -140,6 +164,66 @@ export function DetailsSheet({ item, onClose }: DetailsSheetProps) {
                     View on ASH Image Bank <ExternalLink className="w-4 h-4" />
                 </a>
             </div>
+        </div>
+    );
+}
+
+function SectionLabel({ children }: { children: React.ReactNode }) {
+    return <div className="text-[11px] uppercase tracking-wide text-white/40 mb-1.5">{children}</div>;
+}
+
+function MorphSection({ note }: { note: MorphNote }) {
+    return (
+        <div className="mb-5 space-y-4">
+            <div className="rounded-lg border border-orange-400/30 bg-orange-500/10 px-4 py-3">
+                <div className="text-[11px] tracking-wide text-orange-300/90 mb-1">如何認出這張圖</div>
+                <p className="text-[15px] leading-relaxed text-white/95">
+                    {note.recognize_zh.replace(/^如何認出這張圖[：:]\s*/, "")}
+                </p>
+            </div>
+
+            {note.features.length > 0 && (
+                <div>
+                    <SectionLabel>Key morphologic features</SectionLabel>
+                    <ul className="list-disc pl-5 space-y-1 text-[14px] leading-relaxed text-white/90">
+                        {note.features.map((f, i) => (
+                            <li key={i}>{f}</li>
+                        ))}
+                    </ul>
+                </div>
+            )}
+
+            <div>
+                <SectionLabel>
+                    How to describe · {note.specimen} · {note.stain}
+                </SectionLabel>
+                <p className="text-[14px] leading-relaxed text-white/90 italic">{note.describe_en}</p>
+            </div>
+
+            {note.ddx.length > 0 && (
+                <div>
+                    <SectionLabel>Differential diagnosis</SectionLabel>
+                    <dl className="space-y-2 text-[14px] leading-relaxed">
+                        {note.ddx.map((d, i) => (
+                            <div key={i}>
+                                <dt className="font-semibold text-cyan-200/90">{d.dx}</dt>
+                                <dd className="text-white/80">{d.vs}</dd>
+                            </div>
+                        ))}
+                    </dl>
+                </div>
+            )}
+
+            {note.captions && note.captions.length > 0 && (
+                <div>
+                    <SectionLabel>Images</SectionLabel>
+                    <ol className="list-decimal pl-5 space-y-1 text-[13px] leading-relaxed text-white/75">
+                        {note.captions.map((c, i) => (
+                            <li key={i}>{c}</li>
+                        ))}
+                    </ol>
+                </div>
+            )}
         </div>
     );
 }

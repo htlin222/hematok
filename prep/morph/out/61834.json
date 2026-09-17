@@ -1,0 +1,21 @@
+{
+  "id": "61834",
+  "recognize_zh": "PU.1 呈清楚的核染色，大多數腫瘤細胞核（圓形、腎形到不規則形）皆陽性，細胞質不著色；PU.1 是組織球/骨髓系轉錄因子，核陽性支持組織球肉瘤的組織球系分化。",
+  "features": [
+    "Diffuse strong nuclear PU.1 staining in most tumor cells",
+    "Nuclei of variable size and shape, including round, reniform, and irregular forms",
+    "Unstained, abundant cytoplasm between positive nuclei",
+    "Occasional larger pleomorphic positive nuclei",
+    "Scattered negative cells and a negative vessel at lower right"
+  ],
+  "describe_en": "Immunohistochemical stain for PU.1 shows diffuse, strong nuclear positivity in the majority of neoplastic cells, whose nuclei vary from round to reniform to irregular with occasional large pleomorphic forms, set in abundant unstained cytoplasm. PU.1 is a transcription factor expressed in macrophage/histiocytic and myeloid lineages (and in some B cells), and its nuclear localization is a useful lineage marker in poorly differentiated neoplasms. In the context of CD68 and CD163 co-expression and a lack of lymphoid, dendritic, and epithelial markers, findings are consistent with histiocytic sarcoma.",
+  "ddx": [
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma is also PU.1 positive, so MPO, CD34, CD117, and lysozyme profile plus marrow status are needed to separate it from histiocytic sarcoma."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL may show weaker PU.1 but is CD20/PAX5/CD79a positive and CD163 negative."},
+    {"dx": "Non-hematolymphoid malignancy (carcinoma, melanoma, sarcoma)", "vs": "These tumors are PU.1 negative in tumor cells and express keratin, SOX10, or mesenchymal lineage markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PU.1",
+  "match": "consistent",
+  "high_yield": false
+}

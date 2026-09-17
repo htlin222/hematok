@@ -1,0 +1,22 @@
+{
+  "id": "65059",
+  "recognize_zh": "骨髓抹片中出現一團彼此黏聚（cohesive）的大型細胞，核大而圓、細胞質深藍帶小空泡，細胞間界線不清且互相擠壓，大小遠超過旁邊的顆粒球，提示非造血來源的轉移性癌細胞。",
+  "features": [
+    "Cohesive three-dimensional cluster of large non-hematopoietic cells, many times larger than the adjacent neutrophil",
+    "High N:C ratio with large round-to-oval nuclei and nuclear crowding/molding",
+    "Finely granular chromatin with inconspicuous to small nucleoli",
+    "Deeply basophilic cytoplasm with small cytoplasmic vacuoles and indistinct cell borders",
+    "Background of scattered granulocytes and degenerated red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of large atypical cells with high nuclear-to-cytoplasmic ratio, round to oval nuclei with nuclear crowding, and deeply basophilic, focally vacuolated cytoplasm. The cells are markedly larger than adjacent granulocytes and form a tight syncytial aggregate, a feature not typical of hematopoietic cells. In a patient with known lung adenocarcinoma, the findings are consistent with metastatic adenocarcinoma involving the bone marrow; confirmation on trephine biopsy with immunohistochemistry (e.g., cytokeratin, TTF-1) is recommended.",
+  "ddx": [
+    {"dx": "Megakaryocyte clusters", "vs": "Megakaryocytes have single lobulated nuclei and abundant granular pink cytoplasm, not multiple discrete round nuclei in a cohesive sheet."},
+    {"dx": "Osteoblast clusters", "vs": "Osteoblasts are loosely arranged with eccentric nuclei and a pale perinuclear hof away from the nucleus, lacking the nuclear crowding and molding seen here."},
+    {"dx": "Clumped blasts or lymphoma cells", "vs": "Hematolymphoid cells are generally discohesive and form clumps only artifactually; cytokeratin positivity and CD45 negativity confirm carcinoma."},
+    {"dx": "Metastatic small round cell tumor (e.g., small cell carcinoma, neuroblastoma)", "vs": "Small cell tumors show smaller cells with scant cytoplasm and prominent nuclear molding, whereas these cells have more abundant vacuolated cytoplasm favoring adenocarcinoma."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

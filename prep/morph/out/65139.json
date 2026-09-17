@@ -1,0 +1,21 @@
+{
+  "id": "65139",
+  "recognize_zh": "流式細胞圖中一群 CD20 強表現、SSC 偏高的 B 細胞，同時 CD11c、CD103、CD25 共表現且為 lambda 限制；右下角周邊血中的淋巴細胞有淡藍色細胞質與周緣絨毛狀突起，符合毛細胞白血病（hairy cell leukemia）。",
+  "features": [
+    "Flow: CD19+ B-cell population (CD5-negative gate) with bright CD20 and relatively increased side scatter",
+    "Flow: lambda light-chain restriction (lambda 96% vs kappa 4% within gate)",
+    "Flow: co-expression of CD11c (bright), CD103 and CD25 on the clonal population",
+    "Morphology: medium-sized lymphocytes with oval to slightly indented nuclei and moderately condensed chromatin without prominent nucleoli",
+    "Morphology: moderate pale blue-grey cytoplasm with irregular, fine hair-like circumferential projections"
+  ],
+  "describe_en": "Composite figure of peripheral blood flow cytometry and cell morphology. Gating on CD45-positive lymphocytes identifies a CD19-positive, CD5-negative B-cell population with bright CD20 and increased side scatter, lambda light-chain restriction, and co-expression of CD11c, CD103 and CD25. The accompanying Wright-stained cell gallery shows medium-sized lymphoid cells with oval nuclei, moderately condensed chromatin, inconspicuous nucleoli, and ample pale blue cytoplasm with fine circumferential cytoplasmic projections. Findings are consistent with hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli)", "vs": "HCL-variant cells have a prominent nucleolus and are typically CD25-negative and CD123/annexin A1-negative, whereas this population co-expresses CD25 and the cells lack prominent nucleoli."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes show polar short projections and usually lack the CD103+/CD25+/bright CD11c triad seen here."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL may express CD103 but is usually CD25-negative and CD123-negative, with BRAF V600E absent, unlike classic HCL."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry; Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

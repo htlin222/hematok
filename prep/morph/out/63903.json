@@ -1,0 +1,21 @@
+{
+  "id": "63903",
+  "recognize_zh": "箭頭所指的紅血球一端拉長成單一尖尾，呈淚滴狀（dacrocyte），且在視野中數量多、方向不一，並伴隨輕度大小不均與少數棘狀紅血球；病史為骨髓纖維化。",
+  "features": [
+    "Numerous red cells with a single tapered tail at one pole (teardrop cells, dacrocytes), tails pointing in random directions",
+    "Mild anisocytosis and poikilocytosis; many cells retain central pallor",
+    "Occasional crenated cells (echinocytes) and a few fragmented forms",
+    "Scattered small platelets; no nucleated cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows moderate poikilocytosis with numerous teardrop-shaped red cells (dacrocytes) having single tapered tails oriented in varying directions. There is mild anisocytosis with occasional echinocytes; platelets are present in small numbers. No nucleated red cells or immature myeloid cells are seen in this field, so a leukoerythroblastic picture cannot be assessed here. Findings are consistent with numerous dacrocytes, suggestive of marrow fibrosis or other infiltrative marrow process in the appropriate clinical setting.",
+  "ddx": [
+    {"dx": "Smear artifact (tailed cells from spreading)", "vs": "Artifactual tails all point in the same direction along the smear axis, whereas true dacrocytes here have tails oriented randomly."},
+    {"dx": "Schistocytes", "vs": "Schistocytes are fragments with sharp angular edges (helmet, triangle) and lack central pallor, unlike intact teardrop cells with one rounded end."},
+    {"dx": "Elliptocytes", "vs": "Elliptocytes are symmetric oval or pencil shapes with both ends rounded, not a single tapered pole."},
+    {"dx": "Thalassemia/megaloblastic anemia poikilocytosis", "vs": "These may show some dacrocytes but also target cells, basophilic stippling or macro-ovalocytes with hypersegmented neutrophils; clinical data and marrow biopsy separate them from myelofibrosis."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

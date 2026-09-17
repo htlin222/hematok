@@ -1,0 +1,21 @@
+{
+  "id": "61655",
+  "recognize_zh": "高倍骨髓切片可見單一形態的細胞片狀排列，胞質豐富、呈淡粉紅細顆粒狀且細胞邊界清楚，核圓至摺疊、部分呈雙葉狀，符合 APL 異常前骨髓細胞在切片上的表現。",
+  "features": [
+    "Monotonous sheets of cells with abundant finely granular pink cytoplasm",
+    "Distinct cell borders producing a mosaic pattern",
+    "Nuclei round to indented, some folded or bilobed, with fine chromatin",
+    "Near-complete replacement of normal hematopoiesis",
+    "Background hemorrhage (extravasated red cells)"
+  ],
+  "describe_en": "Bone marrow core biopsy at high power shows diffuse sheets of monotonous cells with abundant, finely granular eosinophilic cytoplasm and distinct cell borders. Nuclei are round to indented, with some folded or bilobed forms and fine chromatin. Normal hematopoietic elements are nearly absent, and interstitial hemorrhage is present. Findings are consistent with acute promyelocytic leukemia in the appropriate context; PML::RARA confirmation is required.",
+  "ddx": [
+    {"dx": "AML with maturation", "vs": "AML with maturation has blasts with scantier cytoplasm and a spectrum of maturing myeloid cells rather than a monotonous granular population; PML::RARA is negative."},
+    {"dx": "Monocytic leukemia", "vs": "Monoblasts/promonocytes have abundant gray cytoplasm and delicately folded nuclei but lack coarse granules and are MPO weak with CD14/CD163/lysozyme positivity."},
+    {"dx": "Mast cell leukemia", "vs": "Mast cells are tryptase- and CD117-positive with metachromatic granules and are MPO-negative, whereas APL cells are strongly MPO-positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

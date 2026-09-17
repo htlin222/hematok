@@ -23,6 +23,11 @@ export default defineConfig({
             handler: "NetworkFirst",
             options: { cacheName: "feed", expiration: { maxEntries: 2 } },
           },
+          {
+            urlPattern: /\/morph\/\d+\.json$/,
+            handler: "NetworkFirst",
+            options: { cacheName: "morph", expiration: { maxEntries: 64 } },
+          },
         ],
       },
       manifest: {

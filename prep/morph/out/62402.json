@@ -1,0 +1,22 @@
+{
+  "id": "62402",
+  "recognize_zh": "胃腸黏膜的固有層被密集的小淋巴球與漿細胞樣細胞大片浸潤，把腺體推開、腺體數目減少，許多細胞核被拉長扭曲成條紋狀（擠壓假影 crush artifact），並有淋巴球侵入腺上皮的傾向——這種黏膜內致密單調的淋巴漿細胞浸潤要想到 MALT 淋巴瘤。",
+  "features": [
+    "Mucosal biopsy with lamina propria diffusely expanded by a dense lymphoid infiltrate that separates and reduces glands",
+    "Predominantly small lymphocytes with admixed plasma cells and occasional slightly larger centrocyte-like/monocytoid cells",
+    "Focal infiltration of glandular epithelium by lymphoid cells; well-formed lymphoepithelial lesions not clearly demonstrated in this field",
+    "Prominent crush artifact with elongated, smeared hyperchromatic nuclei",
+    "No overt sheets of large cells in this field"
+  ],
+  "describe_en": "Low-power view of a gastrointestinal mucosal biopsy (H&E) shows a dense, diffuse lymphoplasmacytic infiltrate that expands the lamina propria, separates the glands and reduces their number. The infiltrate is composed predominantly of small lymphocytes with admixed plasma cells and focally infiltrates the glandular epithelium; well-formed lymphoepithelial lesions are not clearly seen in this field, and prominent crush artifact limits cytologic assessment. Sheets of large transformed cells are not identified. Findings are suggestive of extranodal marginal zone lymphoma of MALT type, to be confirmed with CD20, cytokeratin (for lymphoepithelial lesions), light-chain restriction and clonality studies.",
+  "ddx": [
+    {"dx": "Chronic H. pylori gastritis with reactive lymphoid follicles", "vs": "Reactive gastritis has patchy, polytypic infiltrates with follicles and preserved glands rather than a dense monotonous B-cell infiltrate destroying glands."},
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma is a monotonous small-cell infiltrate without plasma cells and is cyclin D1/SOX11-positive."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL shows sheets of large cells with vesicular nuclei and high Ki-67, not a small-cell lymphoplasmacytic infiltrate."},
+    {"dx": "Poorly differentiated carcinoma with crush artifact", "vs": "Crushed carcinoma cells are cytokeratin-positive and CD45-negative, which resolves a crushed hyperchromatic infiltrate."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1062",
+  "recognize_zh": "骨髓抹片中一顆很大的多核細胞，內含 4 個大小相近、彼此分開的圓形核，胞質豐富呈藍紫色並有細顆粒、邊界不規則，這是破骨細胞（osteoclast）；與巨核細胞「單一分葉核」的差別是本題重點。",
+  "features": [
+    "Very large cell with abundant cytoplasm and irregular, frayed borders",
+    "Multiple (about 4) separate, uniform, round to oval nuclei",
+    "Nuclei with fine to slightly granular chromatin, each with a small nucleolus",
+    "Blue to lilac cytoplasm with fine azurophilic granules",
+    "Surrounding neutrophils, a lymphocyte, and red cells for size comparison"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a very large multinucleated cell with abundant blue-lilac, finely granular cytoplasm and irregular borders. It contains approximately four discrete, uniform, round to oval nuclei with fine chromatin and small nucleoli, which do not overlap or connect as a lobulated mass. Surrounding neutrophils, a lymphocyte, and red cells provide size reference. Findings are consistent with a normal osteoclast.",
+  "ddx": [
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes have a single multilobated, connected nucleus rather than multiple separate uniform nuclei."},
+    {"dx": "Multinucleated dysplastic megakaryocyte (widely separated nuclear lobes)", "vs": "Dysplastic megakaryocytes show separated lobes of varying size and dense chromatin in a granular pink cytoplasm, often with other dysplasia."},
+    {"dx": "Multinucleated metastatic tumor cell", "vs": "Tumor giant cells have pleomorphic, variably sized, hyperchromatic nuclei with prominent nucleoli and usually occur in cohesive clusters."},
+    {"dx": "Foreign-body or Langhans giant cell", "vs": "Histiocytic giant cells occur with granulomas or foreign material and lack the granular lilac cytoplasm typical of osteoclasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

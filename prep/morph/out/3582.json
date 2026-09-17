@@ -1,0 +1,22 @@
+{
+  "id": "3582",
+  "recognize_zh": "骨髓切片免疫組織化學染色中，在細胞豐富的骨髓內可見多處棕色陽性、紡錘形細胞的緻密聚集，部分靠近骨小樑，其餘散在；多灶性、緻密的陽性紡錘形肥大細胞聚集是系統性肥大細胞症的主要診斷準則。",
+  "features": [
+    "Multifocal compact aggregates of brown immunopositive spindle-shaped cells",
+    "Aggregates located near a bony trabecula (paratrabecular) and in the interstitium",
+    "Scattered individual positive cells between adipocytes",
+    "Background cellular marrow with negative hematopoietic cells",
+    "Antigen not labeled; pattern fits a mast cell marker such as tryptase or CD117"
+  ],
+  "describe_en": "Immunohistochemical stain of a bone marrow trephine biopsy shows a cellular marrow with multifocal compact aggregates of strongly staining, spindle-shaped cells in paratrabecular and interstitial locations, along with scattered single positive cells. Background hematopoietic cells are negative. The antigen is not labeled, but the distribution and spindle morphology are typical of a mast cell marker such as tryptase or CD117. Findings are consistent with multifocal dense mast cell infiltrates of systemic mastocytosis; CD25 expression, KIT D816V mutation, and serum tryptase level help confirm and classify the disease as indolent or advanced.",
+  "ddx": [
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Mast cells are round, scattered singly, and CD25-negative without compact aggregates of 15 or more cells."},
+    {"dx": "Systemic mastocytosis with an associated hematologic neoplasm", "vs": "Similar mast cell aggregates but with a concurrent myeloid neoplasm evident on H&E, CD34, and blood counts."},
+    {"dx": "Monocytic or histiocytic aggregates", "vs": "Histiocytes and monocytes are CD68/CD163-positive but tryptase-negative."},
+    {"dx": "Well-differentiated systemic mastocytosis", "vs": "Mast cells are round, well granulated, and often CD25-negative and KIT D816V-negative rather than spindle-shaped."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: mast cell marker (tryptase/CD117, unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

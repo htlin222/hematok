@@ -1,0 +1,20 @@
+{
+  "id": "64739",
+  "recognize_zh": "骨髓切片 CD138 染色中，棕色膜狀陽性的漿細胞在造血細胞與脂肪之間呈單顆或小群散佈，約佔細胞量一成多，比正常（<5%）明顯增加，但未形成大片集落。",
+  "features": [
+    "Scattered CD138-positive plasma cells with membranous and cytoplasmic staining",
+    "Interstitial distribution as single cells and small clusters, without large sheets",
+    "Positive cells estimated at roughly 10-15% of cellularity in this field",
+    "CD138-negative hematopoietic background with blue counterstain between adipocytes"
+  ],
+  "describe_en": "CD138 immunohistochemistry on the bone marrow trephine highlights an increased number of plasma cells distributed interstitially as single cells and small clusters. Positive cells represent approximately 10-15% of marrow cellularity in this field, without large confluent sheets. The remaining hematopoietic elements are CD138 negative. In a patient with an extramedullary plasmacytoma, the findings are consistent with marrow involvement by a plasma cell neoplasm, and kappa/lambda studies should be performed to confirm clonality.",
+  "ddx": [
+    {"dx": "Reactive polytypic plasmacytosis", "vs": "Reactive plasma cells are often perivascular and show a mixed kappa and lambda population; morphology alone on CD138 cannot separate them."},
+    {"dx": "Solitary plasmacytoma with minimal marrow involvement", "vs": "Minimal marrow involvement is defined as clonal plasma cells below 10%, so accurate enumeration across the whole core with light-chain restriction determines the category."},
+    {"dx": "B-cell lymphoma with plasmacytic differentiation", "vs": "This would show an accompanying CD20-positive lymphoid infiltrate sharing the same light chain."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD138",
+  "match": "consistent",
+  "high_yield": false
+}

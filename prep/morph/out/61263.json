@@ -1,0 +1,22 @@
+{
+  "id": "61263",
+  "recognize_zh": "周邊血高倍下單一顆母細胞，核大、染色質細緻，核的一側有深凹陷，淡染的細胞質嵌入凹陷中形成杯狀核（cup-like nucleus），淡藍的細胞質裡可見一條細長的紅紫色棒狀物（Auer rod）；杯狀核母細胞是 NPM1 突變 AML 的形態線索。",
+  "features": [
+    "Single large blast, about 1.5-2 times the diameter of adjacent red cells",
+    "Nucleus with a deep invagination occupied by pale cytoplasm, producing a cup-like (fish-mouth) appearance",
+    "Finely dispersed chromatin with faint nucleoli; high N:C ratio",
+    "Pale blue, largely agranular cytoplasm containing a slender rod-shaped inclusion consistent with an Auer rod",
+    "Surrounding red cells unremarkable; a small platelet clump at left"
+  ],
+  "describe_en": "Peripheral blood smear shows a circulating blast with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin and a prominent nuclear invagination filled with pale cytoplasm, imparting a cup-like morphology. The pale blue cytoplasm contains a slender rod-shaped inclusion consistent with an Auer rod, confirming myeloid lineage. Cup-like blasts are associated with NPM1 mutation, often together with FLT3-ITD, but molecular testing is required for classification. Findings are consistent with acute myeloid leukemia with cup-like blasts, in keeping with AML with mutated NPM1.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Shows bilobed, butterfly-shaped nuclei with multiple Auer rods and fine granules rather than a single cup-shaped invagination; confirmed by PML::RARA."},
+    {"dx": "AML with FLT3-ITD without NPM1 mutation", "vs": "Cup-like blasts can occur, so NPM1 mutation analysis (or cytoplasmic NPM1 IHC) is required rather than morphology alone."},
+    {"dx": "Acute monocytic leukemia", "vs": "Promonocytes have delicately folded nuclei and abundant gray-blue cytoplasm with fine granules, with NSE positivity and usually no Auer rods."},
+    {"dx": "Reactive lymphocyte with indented nucleus", "vs": "Has condensed chromatin without nucleoli and never contains Auer rods."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61705",
+  "recognize_zh": "骨髓切片中低倍即可見到骨小樑之間幾乎被一片單調、密集的圓核細胞取代，脂肪與正常三系造血明顯減少，呈片狀（sheet-like）浸潤，符合漿細胞瘤性浸潤的樣式。",
+  "features": [
+    "Markedly hypercellular marrow space with near-effacement of fat",
+    "Diffuse, sheet-like infiltrate of monotonous small-to-intermediate cells with round, often eccentric nuclei",
+    "Moderate amphophilic cytoplasm; individual plasmacytoid detail (clock-face chromatin, hof) not resolvable at this power",
+    "Marked reduction of normal trilineage hematopoiesis; megakaryocytes not conspicuous",
+    "Bony trabeculae and hemorrhage at the periphery; no granulomas or fibrosis evident"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E, low-to-medium power) shows a markedly hypercellular intertrabecular space with near-complete loss of fat. The marrow is replaced by diffuse sheets of monotonous cells with round, eccentrically placed nuclei and moderate cytoplasm, with marked reduction of normal hematopoietic elements. Cytologic detail is limited at this magnification, and plasma cell lineage should be confirmed with CD138 and kappa/lambda staining. Findings are consistent with extensive marrow involvement by plasma cell myeloma in the appropriate context.",
+  "ddx": [
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a mixed infiltrate of small lymphocytes, plasmacytoid lymphocytes and plasma cells with mast cells, often paratrabecular/nodular, and is CD20-positive with MYD88 L265P, whereas myeloma is a pure CD138+ plasma cell sheet."},
+    {"dx": "Marginal zone or other small B-cell lymphoma", "vs": "These are composed of CD20+ small lymphocytes rather than CD138+/CD20- light-chain-restricted plasma cells, which requires IHC to separate at this power."},
+    {"dx": "Acute leukemia", "vs": "Blasts have fine chromatin, high N:C ratio and scant cytoplasm and express CD34/TdT or MPO rather than CD138 with cytoplasmic light-chain restriction."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

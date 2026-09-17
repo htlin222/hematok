@@ -1,0 +1,21 @@
+{
+  "id": "62045",
+  "recognize_zh": "紅色免疫染色高倍下，數顆大型細胞呈強烈膜狀與細胞質陽性，其核大、淡染且形狀不規則，而周圍密集的小淋巴球幾乎全為陰性，顯示散在的大型 LP 細胞被該抗體標記。",
+  "features": [
+    "Several scattered large cells with strong membranous and cytoplasmic red staining",
+    "Positive large cells have large pale vesicular, oval to irregular nuclei, three to four times the size of background lymphocytes",
+    "Densely packed background small round lymphocytes are negative",
+    "Large cells lie singly, without clusters or sheets",
+    "Faint granular extracellular red staining in the background; antibody identity not labeled"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen, antibody not specified in the image) of lymph node at high power shows scattered large cells with strong membranous and cytoplasmic staining and large vesicular irregular nuclei. The surrounding dense population of small lymphocytes is negative, and the large cells are dispersed singly without forming sheets. Faint granular background staining is present. Findings are consistent with highlighted lymphocyte predominant (LP) cells in nodular lymphocyte predominant Hodgkin lymphoma, provided the marker is a B-cell or LP-cell antigen; negativity of background small lymphocytes for a B-cell marker would indicate a T-cell-rich milieu, and correlation with the labeled panel is required.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL shows identical scattered positive large B cells, so separation relies on diffuse architecture, CD8+ T-cell background and absence of CD21+ meshworks."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells show CD30 membrane and Golgi staining with CD15 and weak PAX5, and are negative or variable for CD20 and OCT2/BOB1."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL cells are CD30+ in cohesive sheets or sinuses with horseshoe-shaped nuclei and T-cell/ALK markers, not isolated B-cell-marker-positive cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (red chromogen)",
+  "match": "consistent",
+  "high_yield": false
+}

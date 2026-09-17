@@ -1,0 +1,21 @@
+{
+  "id": "61893",
+  "recognize_zh": "同一區域 CD3 標記出大量散在及血管周圍聚集的淋巴球，數量明顯多於 CD4 與 CD8 陽性細胞，顯示浸潤以 T 細胞（或帶胞質 CD3 的細胞）為主，支持 HV 樣淋巴增生性疾病（HVLPD）中的 T 細胞浸潤。",
+  "features": [
+    "Edematous dermis/subcutis with an interstitial and perivascular lymphoid infiltrate",
+    "Numerous CD3-positive small to medium lymphocytes, forming the dominant population",
+    "Positive cells cluster around small vessels and extend interstitially between collagen bundles",
+    "Membranous/cytoplasmic staining pattern with some cells showing irregular nuclear contours",
+    "CD3-positive cells appear more numerous than CD4- and CD8-positive cells in comparable fields"
+  ],
+  "describe_en": "Immunohistochemical stain for CD3 on a skin biopsy shows an interstitial and perivascular lymphoid infiltrate within edematous dermis and subcutis. CD3 highlights numerous small to medium lymphocytes, which constitute the predominant infiltrating population and cluster around small vessels. Compared with the corresponding CD4 and CD8 stains, CD3-positive cells appear more numerous, raising the possibility of a CD4/CD8 double-negative T-cell or cytoplasmic CD3-positive NK-cell component, which should be clarified with TCR and cytotoxic markers. Together with EBER positivity, findings support an EBV-associated T/NK-cell infiltrate consistent with hydroa vacciniforme-like lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "Extranodal NK/T-cell lymphoma, cutaneous", "vs": "ENKTL shows angiocentric destructive growth with extensive necrosis and CD56-positive cells, usually in adults, whereas HVLPD presents with photodistributed vesiculopapules and a less destructive infiltrate."},
+    {"dx": "Primary cutaneous gamma-delta T-cell lymphoma", "vs": "It shows CD3-positive, CD4/CD8 double-negative, TCR-delta-positive cytotoxic cells with an aggressive course and is typically EBER negative."},
+    {"dx": "Reactive lymphocytic infiltrate (arthropod bite, PLEVA)", "vs": "Reactive infiltrates contain mixed CD4/CD8 T cells, often with eosinophils, and lack EBER-positive lymphocytes."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

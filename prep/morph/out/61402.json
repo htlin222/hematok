@@ -1,0 +1,22 @@
+{
+  "id": "61402",
+  "recognize_zh": "整片紅血球中散佈大量碎裂紅血球（schistocytes），包括頭盔細胞、三角形與角形碎片，同時血小板幾乎看不到；配合新生兒黃疸、貧血、血小板低下，應想到微血管病變性溶血，例如先天性 TTP（ADAMTS13 缺乏）。",
+  "features": [
+    "Numerous schistocytes: helmet cells, triangular and irregular angular fragments, and keratocytes",
+    "Background of normocytic red cells with variable central pallor; scattered larger, bluish-tinged polychromatophilic cells",
+    "Occasional small, dense spherocyte-like microspherocytes",
+    "Platelets markedly decreased; only rare small platelet-sized particles seen",
+    "Single dark nucleated cell at upper right edge; fine dark specks over red cells likely stain precipitate"
+  ],
+  "describe_en": "Peripheral blood smear shows a markedly abnormal red cell population with abundant schistocytes, including helmet cells, triangular fragments and keratocytes, admixed with occasional microspherocytes and polychromatophilic red cells. Platelets are markedly decreased. No red cell agglutination or intraerythrocytic parasites are identified. In a neonate with jaundice, anemia and thrombocytopenia, the findings indicate a microangiopathic hemolytic anemia; congenital thrombotic thrombocytopenic purpura (ADAMTS13 deficiency, Upshaw-Schulman syndrome) should be excluded by ADAMTS13 activity and genetic testing. Findings are consistent with thrombotic microangiopathy.",
+  "ddx": [
+    {"dx": "Disseminated intravascular coagulation (e.g. neonatal sepsis)", "vs": "Schistocytes can look identical, so separation relies on prolonged PT/aPTT, low fibrinogen and high D-dimer in DIC versus normal coagulation tests and severely reduced ADAMTS13 activity in TTP."},
+    {"dx": "Atypical hemolytic uremic syndrome", "vs": "Morphology overlaps completely; aHUS shows prominent renal failure with preserved ADAMTS13 activity (>10%) and complement pathway abnormalities."},
+    {"dx": "Hereditary pyropoikilocytosis / elliptocytosis", "vs": "Shows extreme micropoikilocytes, budding forms and elliptocytes with a very low MCV and normal platelet count, rather than helmet cells with thrombocytopenia."},
+    {"dx": "Alloimmune hemolytic disease of the newborn", "vs": "Features spherocytes, polychromasia and nucleated red cells with a positive DAT, lacking abundant schistocytes and severe thrombocytopenia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "65025",
+  "recognize_zh": "三格周邊血抹片中布滿大小接近紅血球的小淋巴球，核圓、染色質呈粗塊狀（soccer-ball / 龜殼樣）、細胞質極少，左格可見一團被推擠破碎的核影（smudge cells），符合慢性淋巴球性白血病（CLL）。",
+  "features": [
+    "Increased small mature lymphocytes, about 1-1.5 times the diameter of a red cell",
+    "High N:C ratio with scant pale blue cytoplasm",
+    "Round nuclei with coarsely clumped, block-like chromatin; nucleoli inconspicuous",
+    "A few cells with slightly irregular or indented nuclear contours",
+    "Smudge (basket) cells in the left panel",
+    "Red cells normochromic; no significant schistocytes; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows an absolute lymphocytosis composed predominantly of small mature lymphocytes with scant cytoplasm, round nuclei and coarsely clumped chromatin without prominent nucleoli. Smudge cells are present. Prolymphocytes with prominent nucleoli are not conspicuous in these fields. In conjunction with flow cytometry showing a CD19+/CD5+/CD23+ B-cell population, findings are consistent with chronic lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells are often more irregular/cleaved with less clumped chromatin and are CD5+ but CD23-negative with cyclin D1/SOX11 positivity."},
+    {"dx": "B-cell prolymphocytic leukemia or CLL with increased prolymphocytes", "vs": "Prolymphocytes are larger with moderately condensed chromatin and a single prominent central nucleolus, which are not prominent here."},
+    {"dx": "Marginal zone / splenic marginal zone lymphoma", "vs": "SMZL cells may have villous cytoplasmic projections and are usually CD5-negative and CD23-negative."},
+    {"dx": "Reactive lymphocytosis (e.g., pertussis)", "vs": "Reactive lymphocytes are polyclonal, often with more cytoplasm or cleaved nuclei in children, and lack light-chain restriction."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

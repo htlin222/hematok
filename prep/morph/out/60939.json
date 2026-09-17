@@ -1,0 +1,22 @@
+{
+  "id": "60939",
+  "recognize_zh": "背部遍布紅色丘疹與斑塊，皮膚切片真皮層被密集、在膠原纖維間單排浸潤的大型異型細胞占據，細胞核不規則且可見核分裂，免疫染色呈瀰漫陽性，符合白血病皮膚浸潤（leukemia cutis），為次發性 AML 的表現。",
+  "features": [
+    "Clinical photo: numerous erythematous papules and small plaques over the back",
+    "Low power: dense, diffuse dermal infiltrate beneath an intact epidermis",
+    "Infiltrating cells dissecting between collagen bundles in single-file and sheet-like pattern",
+    "High power: large cells with irregular, folded to lobulated nuclei, fine chromatin, nucleoli and moderate cytoplasm; mitotic figures present",
+    "IHC: diffuse strong staining of the dermal infiltrate, sparing the epidermis (marker not labeled)"
+  ],
+  "describe_en": "Clinical photograph shows multiple erythematous papules and plaques over the back. Skin biopsy demonstrates a dense, diffuse dermal infiltrate extending between collagen bundles beneath an uninvolved epidermis. The infiltrate consists of large atypical cells with irregular, folded nuclei, fine chromatin, visible nucleoli and moderate cytoplasm, with frequent mitoses. An immunostain diffusely highlights the dermal infiltrate. In a patient with prior therapy, findings are consistent with cutaneous involvement by acute myeloid leukemia (leukemia cutis/myeloid sarcoma); confirmation with MPO, lysozyme, CD68, CD33, CD34 and CD117 is required.",
+  "ddx": [
+    {"dx": "Cutaneous diffuse large B-cell lymphoma", "vs": "Tumor cells are CD20/PAX5 positive and MPO/lysozyme negative."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN involves dermis with blastoid cells but is CD4+/CD56+/CD123+/TCF4+ and lacks MPO and lysozyme."},
+    {"dx": "Sweet syndrome (neutrophilic dermatosis)", "vs": "Sweet syndrome shows papillary dermal edema with mature neutrophils rather than sheets of atypical blasts with mitoses."},
+    {"dx": "Primary cutaneous anaplastic large cell lymphoma", "vs": "Large pleomorphic cells are strongly CD30+ T cells without myeloid markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (unlabeled); clinical photo",
+  "match": "consistent",
+  "high_yield": false
+}

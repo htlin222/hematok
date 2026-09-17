@@ -1,0 +1,21 @@
+{
+  "id": "1197",
+  "recognize_zh": "這是流式細胞儀散佈圖：左圖 FS/SS 顯示低側向散射的細胞群；右圖 CD45 對 SS 中，紅色 A 閘為 CD45 弱表現、低 SS 的母細胞群，藍色 B 閘為 CD45 強表現的淋巴球，顯示一群明顯的母細胞，須再以系列標記判定 T／骨髓混合表現型。",
+  "features": [
+    "Left plot: forward scatter versus side scatter with a large population of low-SSC, low-to-intermediate FSC events (red) and a slightly smaller low-FSC population (blue)",
+    "Right plot: CD45-PC7 versus side scatter with gate A (red) containing CD45-dim, low-SSC blasts",
+    "Gate B (blue) containing CD45-bright, low-SSC lymphocytes",
+    "Relatively few high-SSC CD45-positive granulocytic events, indicating blasts dominate the sample",
+    "Lineage-defining markers (CD3, MPO) are not shown in this figure"
+  ],
+  "describe_en": "Flow cytometric analysis shows, on forward versus side scatter, a predominant population of events with low side scatter and low-to-intermediate forward scatter. On CD45 versus side scatter gating, the dominant population (gate A, red) shows dim CD45 expression and low side scatter, characteristic of blasts, and is distinct from a smaller CD45-bright lymphocyte population (gate B, blue). Maturing granulocytes with high side scatter are relatively sparse. This gating identifies an expanded blast population but does not establish lineage; assignment of mixed phenotype T/myeloid acute leukemia requires demonstration of cytoplasmic CD3 and MPO (or monocytic differentiation) on the gated blasts.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia with myeloid antigen expression", "vs": "T-ALL can express CD13/CD33 but lacks MPO or monocytic differentiation, so it does not meet mixed phenotype criteria."},
+    {"dx": "AML with aberrant CD7 expression", "vs": "AML may express CD7 but lacks cytoplasmic CD3, which is required for T-lineage assignment."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL expresses stem/myeloid markers (CD34, CD117, CD13/33) with cCD3 but is MPO-negative."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

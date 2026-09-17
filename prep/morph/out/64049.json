@@ -1,0 +1,22 @@
+{
+  "id": "64049",
+  "recognize_zh": "中央一顆大型巨噬細胞（macrophage），偏心核旁的淡藍色胞質內包著數顆完整紅血球輪廓與多個小紫色顆粒（被吞噬的血小板或核碎片），這就是噬血現象（hemophagocytosis）。",
+  "features": [
+    "Large macrophage with abundant pale blue-grey, vacuolated cytoplasm and irregular ruffled border",
+    "Single eccentric oval nucleus with open chromatin",
+    "Several engulfed red cells visible as pale round outlines within cytoplasmic vacuoles",
+    "Multiple small dense purple bodies in the cytoplasm consistent with phagocytosed platelets or nuclear debris",
+    "Background of bone marrow aspirate red cells with a nearby immature myeloid cell"
+  ],
+  "describe_en": "Bone marrow aspirate smear (Romanowsky stain, high power) shows a large macrophage with abundant, vacuolated, pale blue cytoplasm and an eccentric oval nucleus. Its cytoplasm contains several intact engulfed red cells and multiple small dense purple bodies consistent with phagocytosed platelets and/or nuclear debris. The surrounding field contains red cells and occasional hematopoietic cells. Findings demonstrate hemophagocytosis, which in the appropriate clinical and laboratory setting supports hemophagocytic lymphohistiocytosis; hemophagocytosis alone is neither sensitive nor specific for HLH.",
+  "ddx": [
+    {"dx": "Post-transfusion or reactive hemophagocytosis", "vs": "Occasional hemophagocytic macrophages occur after transfusion, sepsis or marrow injury, so HLH requires HLH-2004 criteria (fever, cytopenias, ferritin, triglycerides/fibrinogen, sCD25) rather than morphology alone."},
+    {"dx": "Macrophage with ingested debris (tingible body macrophage)", "vs": "Tingible body macrophages contain apoptotic nuclear debris without intact engulfed red cells or platelets."},
+    {"dx": "Sea-blue histiocyte or Gaucher cell", "vs": "Storage histiocytes have striated or granular sea-blue cytoplasm filled with lipid rather than discrete phagocytosed blood cells."},
+    {"dx": "Malignant histiocytic or tumor cell with emperipolesis", "vs": "Emperipolesis (e.g., Rosai-Dorfman, megakaryocytes) shows intact living lymphocytes or cells passing through the cytoplasm rather than degraded red cells and platelets in a bland macrophage."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

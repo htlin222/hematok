@@ -1,0 +1,21 @@
+{
+  "id": "62787",
+  "recognize_zh": "這是VHL基因exon 3的Sanger定序圖：上方野生型在標示位置為單一C峰（藍），下方病人同一位置只有單一T峰（紅），沒有重疊雙峰，代表同型合子c.598C>T（Chuvash polycythemia）。",
+  "features": [
+    "Two Sanger sequencing electropherograms of VHL exon 3 aligned over the same sequence context (TGTGCAGAAAGACCTGGAG-x-GGCTGACACAGGAGCGCATTG)",
+    "Top trace (wild type): single blue C peak at the highlighted position",
+    "Bottom trace (patient): single red T peak at the same position, without an underlying C peak",
+    "Absence of overlapping double peaks indicates homozygosity rather than heterozygosity",
+    "Good-quality traces with evenly spaced, non-overlapping peaks flanking the variant"
+  ],
+  "describe_en": "Sanger sequencing electropherograms of VHL exon 3 are shown with a wild-type reference (top) and the patient sample (bottom). At the highlighted position, the reference shows a single C peak, whereas the patient trace shows a single T peak without a superimposed C signal. Flanking sequence and peak quality are good. Findings are consistent with a homozygous VHL c.598C>T (p.Arg200Trp) substitution, the characteristic Chuvash polycythemia variant.",
+  "ddx": [
+    {"dx": "Heterozygous VHL c.598C>T", "vs": "A heterozygote shows overlapping C and T peaks of roughly equal height at the variant position rather than a clean single T peak."},
+    {"dx": "Allele dropout masking heterozygosity", "vs": "A primer-site polymorphism can make a heterozygote appear homozygous; parental testing or an alternative primer set resolves this."},
+    {"dx": "Compound heterozygous VHL mutation", "vs": "Compound heterozygotes show a heterozygous c.598C>T with a second distinct VHL variant elsewhere, not a homozygous single-peak change."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

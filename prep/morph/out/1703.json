@@ -1,0 +1,21 @@
+{
+  "id": "1703",
+  "recognize_zh": "這是流式細胞儀圖：上圖以低側向散射（SSC）、中等前向散射（FSC）圈出母細胞區（blast gate）；下圖母細胞同時表現 CD13 與 CD19。注意 CD13 屬非系別決定性標記，單靠它不足以診斷混合表型急性白血病（MPAL）。",
+  "features": [
+    "Forward scatter vs side scatter dot plot with an R1 blast gate on the low-SSC, intermediate-FSC population",
+    "CD13 (PE) vs CD19 (FITC) plot of gated events",
+    "Dominant population in the upper-right quadrant coexpressing CD13 and CD19",
+    "Smaller double-negative population in the lower-left quadrant",
+    "No MPO, cytoplasmic CD79a or CD22 data shown"
+  ],
+  "describe_en": "Flow cytometry dot plots are shown. Blasts are gated in the low side scatter, intermediate forward scatter region (R1), and the gated population coexpresses CD19 and CD13, with a minor CD13-/CD19- population. This demonstrates a B-lineage blast population with aberrant expression of the myeloid-associated antigen CD13. Under current WHO/ICC criteria, CD13 or CD33 expression alone does not establish myeloid lineage; a diagnosis of B/myeloid mixed-phenotype acute leukemia requires MPO positivity (or monocytic differentiation) in addition to B-lineage markers, so these plots alone are most consistent with B-lymphoblastic leukemia with aberrant myeloid antigen expression.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia with aberrant myeloid antigen", "vs": "CD13/CD33 coexpression is common in B-ALL (notably with ETV6::RUNX1 or BCR::ABL1) and does not change the diagnosis when MPO is negative."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "Requires MPO expression (flow or cytochemistry) or clear monocytic differentiation in addition to strong CD19 with CD79a, CD22 or CD10."},
+    {"dx": "AML with aberrant CD19 (e.g., AML with RUNX1::RUNX1T1)", "vs": "Blasts are MPO-positive and usually only weakly or partially CD19-positive without cytoplasmic CD79a or CD22, and often show Auer rods morphologically."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

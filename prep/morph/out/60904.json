@@ -1,0 +1,22 @@
+{
+  "id": "60904",
+  "recognize_zh": "骨髓切片中正常造血被纖維化病灶取代，梭形纖維母細胞與膠原間夾雜小淋巴球、組織球、少數嗜酸性球與較大、核淡染的細胞，形成混合性發炎細胞浸潤；典型 Reed-Sternberg 細胞在此視野中不易確認，須以 CD30、CD15、PAX5 免疫染色標示腫瘤細胞。",
+  "features": [
+    "Complete replacement of hematopoietic marrow in this field by a fibrotic lesion",
+    "Spindled fibroblasts in a pale eosinophilic collagenous/edematous stroma with a vaguely storiform-streaming pattern",
+    "Mixed inflammatory infiltrate of small lymphocytes, histiocytes and occasional eosinophils",
+    "Scattered larger cells with vesicular nuclei; diagnostic Reed-Sternberg cells are not clearly identified at this magnification",
+    "No normal trilineage hematopoiesis or fat within the lesion"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a focal lesion that replaces normal hematopoietic elements and is composed of fibrous stroma with spindled fibroblasts and a mixed inflammatory infiltrate of small lymphocytes, histiocytes and occasional eosinophils. Scattered larger cells with vesicular nuclei are present, although unequivocal Hodgkin/Reed-Sternberg cells are not clearly identified at this magnification. In a patient with classical Hodgkin lymphoma, the fibrotic mixed-cell lesion is consistent with marrow involvement; immunostains for CD30, CD15, PAX5 (weak) and CD45 are recommended to highlight the neoplastic cells.",
+  "ddx": [
+    {"dx": "Reactive/post-therapy marrow fibrosis", "vs": "Reactive fibrosis lacks CD30/CD15-positive Hodgkin/Reed-Sternberg cells within the inflammatory background."},
+    {"dx": "Peripheral T-cell lymphoma with fibrosis", "vs": "PTCL shows cytologically atypical T cells with aberrant antigen loss and clonal TR rearrangement rather than rare large CD30/CD15-positive, CD45-negative cells."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Its scattered large cells are strongly CD20/CD45 positive and CD15/CD30 negative, unlike HRS cells."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows diffuse fibrosis with clustered atypical megakaryocytes and osteosclerosis rather than a focal mixed inflammatory lesion."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65231",
+  "recognize_zh": "目鏡拍攝的高細胞密度抹片，布滿大小不一的單核細胞，細胞質灰藍，核圓或分葉、染色質細而開放，部分細胞很大、似漿母細胞（plasmablastic）；但此圖看不到典型核偏位與核旁淡染區，須配合 CD38/CD138/kappa 表現才能確認為漿細胞白血病。",
+  "features": [
+    "Densely cellular field of monotonous atypical mononuclear cells with varying size, including very large forms",
+    "Moderate grey-blue cytoplasm; eccentric nuclei and perinuclear hof not consistently discernible",
+    "Round to lobulated or indented nuclei with finely dispersed, open chromatin",
+    "Occasional binucleate or multilobated cells and a possible mitotic figure",
+    "Numerous small refractile clear droplets and larger clear spaces in the background (likely artifact)",
+    "Few red cells; photographed through the eyepiece with limited resolution"
+  ],
+  "describe_en": "Photomicrograph taken through the eyepiece shows a densely cellular smear dominated by atypical mononuclear cells with few intervening red cells. The cells vary from medium to very large, with moderate grey-blue cytoplasm and round, indented or lobulated nuclei with finely dispersed chromatin, giving an immature, plasmablastic appearance; classic plasma cell features such as eccentric nuclei with clockface chromatin and a perinuclear hof are not reliably seen. Background refractile droplets are likely artifactual. Morphology alone is nonspecific at this resolution, but with the reported CD38+/CD138+ kappa-restricted phenotype the findings support plasma cell leukemia secondary to myeloma.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monoblasts/promonocytes also have folded nuclei and grey-blue cytoplasm but are CD38/CD138-negative and express CD33, CD64, CD14 or lysozyme."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL flower cells have multilobated nuclei with condensed chromatin and a CD4+/CD25+ T-cell phenotype with HTLV-1 serology."},
+    {"dx": "Plasmablastic lymphoma, leukemic phase", "vs": "Plasmablastic lymphoma shares the CD138+ phenotype but typically lacks a myeloma history, is often EBER-positive, and presents as an extramedullary mass."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

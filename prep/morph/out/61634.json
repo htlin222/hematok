@@ -1,0 +1,21 @@
+{
+  "id": "61634",
+  "recognize_zh": "這張周邊血液抹片只看到紅血球（部分鈍鋸齒狀、少數短鏈狀疊排）、零星小血小板聚集與一個小型單核細胞，沒有明確的淋巴瘤細胞；血管內大 B 細胞淋巴瘤周邊血通常找不到腫瘤細胞，單憑此圖無法診斷。",
+  "features": [
+    "Normochromic red cells with scattered crenated forms (echinocytes, possibly drying artifact)",
+    "Short rouleaux-like stack of red cells in the center",
+    "One small mononuclear cell with dense round nucleus and scant pale cytoplasm, most consistent with a lymphocyte",
+    "Small platelet clumps; platelets not increased",
+    "No large atypical lymphoid cells identified in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows normochromic red cells with scattered crenated forms, which may be artifactual, and a short rouleaux-like stack. A single small mononuclear cell with a dense round nucleus is present and is most consistent with a small lymphocyte. Platelets are present as small clumps. No circulating large atypical lymphoid cells are identified in this field. The peripheral blood is nonspecific; intravascular large B-cell lymphoma frequently lacks circulating tumor cells, and the diagnosis requires tissue (e.g., marrow or skin) biopsy.",
+  "ddx": [
+    {"dx": "Leukemic phase of DLBCL", "vs": "Leukemic DLBCL shows obvious large atypical lymphoid cells with basophilic cytoplasm and nucleoli in the blood, which are absent here."},
+    {"dx": "Paraproteinemia-related rouleaux", "vs": "True rouleaux forms long stacks throughout thin areas of the smear with increased background staining, rather than an isolated short stack."},
+    {"dx": "Echinocytes from uremia/liver disease versus artifact", "vs": "True echinocytes are uniformly distributed in all fields, whereas drying artifact is regional and near thick areas."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61575",
+  "recognize_zh": "細胞內染色的流式圖中，紅色母細胞群 cytoplasmic CD79a 陽性、cytoplasmic CD22 弱陽性到陰性，紫色細胞 cCD79a 與 cCD22 皆陽性，綠色非 B 細胞兩者皆陰性；cCD79a 陽性可指定 B 淋巴系，支持 B-ALL。",
+  "features": [
+    "Ungated ([U]) bivariate dot plot: cytoplasmic CD22-APC700 (x-axis) versus cytoplasmic CD79a-APC (y-axis)",
+    "Red (blast) population cCD79a-positive, with cCD22 ranging from negative to dim",
+    "Purple population cCD79a-positive and cCD22 dim-to-moderate positive, forming a diagonal cluster",
+    "Green population negative for both markers (non-B cells), serving as internal negative control",
+    "No discrete population bright for cCD22 above 10^1"
+  ],
+  "describe_en": "This intracellular flow cytometry dot plot displays cytoplasmic CD22 versus cytoplasmic CD79a on ungated events. The blast population (red) is cytoplasmic CD79a-positive with cytoplasmic CD22 expression ranging from negative to dim, while a purple population coexpresses cCD79a and dim-to-moderate cCD22 along a diagonal. Green non-B events are negative for both markers and serve as an internal negative control. Cytoplasmic CD79a positivity in the blasts, together with CD19 expression, establishes B-lineage and supports B-lymphoblastic leukemia; the relatively dim cCD22 is noteworthy because CD22 expression level may influence eligibility for anti-CD22 therapy such as inotuzumab.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia with aberrant cCD79a", "vs": "cCD79a can be positive in some T-ALL, but blasts express cytoplasmic CD3 and lack strong CD19."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "Requires additional MPO or monocytic differentiation markers on the same or separate blast population."},
+    {"dx": "Acute myeloid leukemia with aberrant B markers (e.g., t(8;21))", "vs": "May show CD19/cCD79a weakly but is MPO-positive with CD34/CD117 and lacks strong CD10/cCD22."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

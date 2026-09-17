@@ -1,0 +1,22 @@
+{
+  "id": "65983",
+  "recognize_zh": "一顆淋巴球核致密偏位，細胞質豐富而淡藍、內含散在的細小紫紅色嗜天青顆粒（azurophilic granules），細胞邊緣被周圍紅血球擠壓變形，為大顆粒淋巴球（large granular lymphocyte）。",
+  "features": [
+    "Lymphocyte larger than a small lymphocyte with a lower N:C ratio",
+    "Eccentric, somewhat angular nucleus with condensed chromatin and no visible nucleolus",
+    "Abundant pale blue cytoplasm with scattered fine azurophilic (red-purple) granules",
+    "Cytoplasmic margin indented by and molding around adjacent red cells",
+    "Normochromic, normocytic red cells with scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows normochromic, normocytic red cells with adequate platelets. A single lymphocyte has an eccentric nucleus with condensed chromatin and abundant pale blue cytoplasm containing scattered fine azurophilic granules, with cytoplasmic margins molding around adjacent red cells. No nucleoli, cytoplasmic projections, or blastic features are seen. Findings are consistent with a large granular lymphocyte; persistent LGL lymphocytosis (>2 × 10^9/L) would warrant flow cytometry and TCR clonality studies to evaluate for T-LGL leukemia.",
+  "ddx": [
+    {"dx": "Reactive (atypical) lymphocyte", "vs": "Reactive lymphocytes have deeply basophilic cytoplasm concentrated at points of red cell contact and usually lack discrete azurophilic granules."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "Individual cells look the same; T-LGL leukemia requires a sustained LGL count, often with neutropenia, and a clonal CD8+/CD57+ T-cell population with STAT3 mutation."},
+    {"dx": "Hairy cell", "vs": "Hairy cells have circumferential hair-like cytoplasmic projections, oval or bean-shaped nuclei, no azurophilic granules, and a CD11c/CD25/CD103 phenotype."},
+    {"dx": "Monocyte", "vs": "Monocytes have folded or kidney-shaped nuclei with lacy chromatin and gray-blue vacuolated cytoplasm with fine dust-like granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3051",
+  "recognize_zh": "周邊血抹片中一小群小型成熟淋巴球，核染色質濃密成塊、核上有明顯的裂溝或切口（clefted nuclei），細胞質少量淡藍，這種核裂淋巴球增多是百日咳（pertussis）淋巴球增多症的典型表現。",
+  "features": [
+    "Cluster of small mature lymphocytes, slightly larger than RBCs",
+    "High N:C ratio with scant pale to moderately blue cytoplasm",
+    "Nuclei with distinct clefts, notches, or folds (clefted/cleaved lymphocytes)",
+    "Condensed, clumped mature chromatin without visible nucleoli",
+    "Background RBCs and platelets unremarkable; no blasts or atypical large cells"
+  ],
+  "describe_en": "Peripheral blood smear shows a small aggregate of mature lymphocytes. The cells are small, with scant pale blue cytoplasm and condensed, clumped chromatin; several nuclei show deep clefts or notches. No nucleoli, blasts, or reactive immunoblasts are seen, and the red cells and platelets appear unremarkable. In a child with paroxysmal cough, this absolute lymphocytosis of small clefted lymphocytes is suggestive of Bordetella pertussis infection.",
+  "ddx": [
+    {"dx": "Follicular lymphoma in leukemic phase", "vs": "Buttock cells of follicular lymphoma occur in adults and are CD10+/BCL2+ clonal B cells, whereas pertussis lymphocytes are polyclonal, predominantly T cells in children."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are round with block-like chromatin, often with smudge cells, occur in older adults, and show a clonal CD5+/CD23+ B-cell phenotype."},
+    {"dx": "Mantle cell lymphoma, leukemic", "vs": "MCL cells have irregular nuclei but are clonal CD5+ cyclin D1+ B cells in adults, unlike the polyclonal reactive lymphocytosis of pertussis."},
+    {"dx": "Infectious mononucleosis", "vs": "EBV lymphocytosis consists of large reactive lymphocytes with abundant cytoplasm scalloped by RBCs rather than small clefted mature lymphocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

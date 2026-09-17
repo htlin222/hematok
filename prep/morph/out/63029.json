@@ -1,0 +1,21 @@
+{
+  "id": "63029",
+  "recognize_zh": "CD138 免疫染色中，棕色膜狀陽性的漿細胞圍繞在一個由小型陰性淋巴細胞組成的淋巴聚集（lymphoid aggregate）周邊呈環狀分布（rimming）；這種漿細胞包圍淋巴濾泡的型態是 POEMS 症候群骨髓的特徵線索。",
+  "features": [
+    "CD138-positive plasma cells with crisp membranous brown staining",
+    "Plasma cells arranged around the periphery of a lymphoid aggregate (rimming pattern)",
+    "Lymphoid aggregate composed of small CD138-negative lymphocytes",
+    "Additional scattered interstitial CD138-positive plasma cells",
+    "No sheets or large confluent clusters of plasma cells"
+  ],
+  "describe_en": "Bone marrow trephine immunostained for CD138 shows a lymphoid aggregate of small CD138-negative lymphocytes rimmed by CD138-positive plasma cells, with additional scattered interstitial plasma cells. The plasma cells show strong membranous staining and do not form sheets. Some nonspecific staining is present at the aggregate edge. Plasma cells rimming lymphoid aggregates are a characteristic marrow pattern in POEMS syndrome and should prompt light chain stains to demonstrate lambda restriction.",
+  "ddx": [
+    {"dx": "Reactive lymphoid aggregate with polytypic plasma cells", "vs": "Reactive aggregates may have occasional adjacent plasma cells, but these are polytypic on kappa/lambda staining rather than lambda-restricted."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma shows interstitial clusters or sheets of plasma cells unrelated to lymphoid aggregates, often with cytologic atypia and a higher burden."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "In MZL the aggregate itself contains clonal B cells (CD20+) and the plasma cells share the same light chain as the lymphoid component."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD138",
+  "match": "consistent",
+  "high_yield": false
+}

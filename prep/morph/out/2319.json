@@ -1,0 +1,22 @@
+{
+  "id": "2319",
+  "recognize_zh": "周邊血液中同時可見數顆大型芽細胞（細緻染色質、藍色胞質、高核質比）、一顆顆粒深紫而部分溶解的嗜鹼性球，以及一顆橘紅顆粒的嗜酸性球；芽細胞增加合併嗜鹼性球，是 CML 進入急變期的線索。",
+  "features": [
+    "Three large blasts with high N:C ratio, fine open chromatin, and a rim of basophilic agranular cytoplasm",
+    "Basophil at upper left with dark purple, partially dissolved granules extending beyond the cell",
+    "Eosinophil at lower left with coarse orange-red granules",
+    "Segmented neutrophil adjacent to a blast and a small lymphoid-appearing cell",
+    "Red cells show mild anisocytosis without nucleated red cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows several large blasts with high nuclear-to-cytoplasmic ratios, finely dispersed chromatin, and a thin rim of basophilic cytoplasm without evident Auer rods. A basophil with coarse, partially degranulated granules and an eosinophil are also present, together with a segmented neutrophil and a small lymphoid cell. Lineage of the blasts cannot be determined morphologically. In a patient with known BCR::ABL1-positive CML, findings are consistent with blast phase; flow cytometry is required to classify the blasts as myeloid or lymphoid.",
+  "ddx": [
+    {"dx": "CML, chronic phase", "vs": "Chronic phase shows a full granulocytic maturation spectrum with a myelocyte peak and few blasts, rather than a prominent population of circulating blasts."},
+    {"dx": "De novo acute myeloid leukemia with BCR::ABL1", "vs": "De novo AML with BCR::ABL1 lacks a preceding chronic phase, splenomegaly, and basophilia, and the history is the main discriminator."},
+    {"dx": "B-lymphoblastic leukemia with BCR::ABL1", "vs": "Ph+ B-ALL presents without basophilia or a CML background and often carries the p190 transcript rather than p210."},
+    {"dx": "Acute myeloid leukemia with basophilia (e.g., t(6;9))", "vs": "AML with DEK::NUP214 shows basophilia and dysplasia but is BCR::ABL1 negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

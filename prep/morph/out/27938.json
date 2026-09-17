@@ -1,0 +1,21 @@
+{
+  "id": "27938",
+  "recognize_zh": "一團大型原始細胞核大、染色質細緻均勻，胞質淡藍、含細小嗜天青顆粒並有少量空泡，旁邊仍可見分化中的顆粒球（帶狀核嗜中性球），屬於有部分成熟的 AML 樣貌；CEBPA 突變無法單憑形態判定，需分子檢測。",
+  "features": [
+    "Cluster of large blasts with high-to-moderate N:C ratio and round to polygonal nuclei",
+    "Finely dispersed, delicate chromatin with a pinkish-violet hue; nucleoli inconspicuous and small nuclear vacuoles in one cell",
+    "Moderate pale blue cytoplasm with fine azurophilic granulation and occasional vacuoles; no Auer rods seen",
+    "Background residual maturing granulocytes (band neutrophil, promyelocyte/myelocyte) and a small lymphocyte"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of large blasts with round nuclei, finely dispersed chromatin, inconspicuous nucleoli and moderate amounts of pale basophilic cytoplasm containing fine azurophilic granules and scattered vacuoles. Auer rods are not identified in this field. Maturing granulocytic elements, including a band neutrophil and promyelocyte/myelocyte forms, and a small lymphocyte are present in the background. The morphology is that of acute myeloid leukemia with some granulocytic maturation; the diagnosis of AML with CEBPA mutation (typically biallelic or in-frame bZIP) requires molecular confirmation, as there are no specific morphologic features.",
+  "ddx": [
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "t(8;21) blasts have salmon-colored perinuclear hofs, long single Auer rods and dysplastic neutrophils, but ultimately genetic testing separates it."},
+    {"dx": "AML with NPM1 mutation", "vs": "NPM1-mutated AML often shows cup-like nuclear invaginations and CD34 negativity, confirmed by NPM1 testing or cytoplasmic NPM1 IHC."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells have bilobed nuclei, dense azurophilic granules or faggot cells and PML::RARA, not the sparse fine granules seen here."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts lack azurophilic granules and are MPO-negative with TdT and B/T lymphoid antigen expression."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

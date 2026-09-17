@@ -1,0 +1,21 @@
+{
+  "id": "60451",
+  "recognize_zh": "骨髓切片細胞量明顯增加、脂肪細胞少，造血細胞以核深染、分葉或碎塊狀的成熟顆粒球為主，紅血球前驅細胞相對少（M:E 比上升）；在嗜中性球減少的病人，這種以成熟嗜中性球為主的高細胞性骨髓支持骨髓滯留症（myelokathexis）。",
+  "features": [
+    "Hypercellular marrow with only a few adipocytes at the right edge",
+    "Increased M:E ratio: sheets of granulocytic cells, predominantly mature neutrophils with lobated dark nuclei",
+    "Right-shifted maturation, with many nuclei appearing as small separated dense fragments",
+    "Scattered erythroid precursors and occasional megakaryocytes; eosinophils present",
+    "Bony trabecula at upper left; no blast clusters, granulomas, or fibrosis at this power"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E, medium power) shows a hypercellular marrow with scant fat. The hematopoietic population is dominated by granulocytic cells with an increased M:E ratio and a right shift in maturation, featuring numerous mature neutrophils with lobated to fragmented dense nuclei. Erythroid precursors and megakaryocytes are present but relatively reduced, and there is no increase in blasts or abnormal infiltrate. In a patient with chronic neutropenia, warts and hypogammaglobulinemia, these findings are consistent with myelokathexis (WHIM syndrome).",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows left-shifted myeloid hyperplasia with myelocyte peak, basophils and dwarf megakaryocytes with peripheral leukocytosis and BCR::ABL1, unlike right-shifted retained neutrophils with peripheral neutropenia."},
+    {"dx": "Reactive myeloid hyperplasia", "vs": "Reactive hyperplasia is left-shifted with toxic changes and peripheral neutrophilia rather than accumulation of hypersegmented mature neutrophils."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL shows neutrophilic hyperplasia but with sustained peripheral neutrophilia and CSF3R mutation, not neutropenia."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

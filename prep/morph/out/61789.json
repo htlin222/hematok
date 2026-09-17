@@ -1,0 +1,22 @@
+{
+  "id": "61789",
+  "recognize_zh": "這張不是抹片而是檢驗報告：A 為 CBC，RBC 數正常偏高但 Hb 6.4、MCV 53.1、MCH 14.9 且 RDW 升高；B 為毛細管電泳，Z15 區出現小的 HbH 峰（1.1%）且 HbA2 偏低（1.3%），支持 HbH disease。",
+  "features": [
+    "Panel A CBC: RBC 4.29 x10^6/uL with HGB 6.4 g/dL and HCT 22.8% (anemia with relatively preserved red cell count)",
+    "Marked microcytosis and hypochromia: MCV 53.1 fL, MCH 14.9 pg, MCHC 28.1 g/dL",
+    "Very high RDW-CV 41.2% and RDW-SD 80.7 fL, reflecting severe anisocytosis; platelets normal (246 x10^3/uL)",
+    "Panel B capillary zone electrophoresis: small fast-migrating HbH peak in zone 15 (1.1%)",
+    "HbA 97.6% and low HbA2 1.3%, with no HbF or variant peak shown"
+  ],
+  "describe_en": "The figure combines a complete blood count and a capillary zone hemoglobin electrophoresis tracing rather than a morphologic image. The CBC shows a severe microcytic, hypochromic anemia (Hb 6.4 g/dL, MCV 53.1 fL, MCH 14.9 pg) with a relatively preserved red cell count and a markedly elevated RDW. Electrophoresis demonstrates a small fast-migrating HbH fraction (1.1%) in the most anodal zone, HbA 97.6% and a reduced HbA2 of 1.3%. A low HbA2 with an HbH band is characteristic of alpha-thalassemia, and the findings are consistent with HbH disease; because HbH is unstable and often underestimated, supravital staining for inclusions and alpha-globin gene analysis are recommended for confirmation.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Also causes low MCV and low HbA2 but with a low red cell count, low ferritin and no HbH fraction on electrophoresis."},
+    {"dx": "Beta-thalassemia trait or intermedia", "vs": "Shows raised HbA2 (>3.5%) and often increased HbF rather than the low HbA2 and HbH band seen here."},
+    {"dx": "Alpha-thalassemia trait (two-gene deletion)", "vs": "Produces milder microcytosis with near-normal hemoglobin and no detectable HbH in adults."},
+    {"dx": "Hb Bart's or fast-migrating unstable variant", "vs": "Hb Bart's (gamma-4) is mainly seen in neonates, and other fast variants require HPLC retention times or DNA sequencing to separate from HbH."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,30 @@
+{
+ "id": "63128",
+ "recognize_zh": "Ki-67 染色中，許多大型異型細胞核呈不同強度的棕色陽性，並有少數強陽性核，代表增生指數偏高，支持低惡度濾泡性淋巴瘤已轉化為大細胞淋巴瘤。",
+ "features": [
+  "IHC for Ki-67 on bone marrow biopsy at high power, adjacent to a bony trabecula (left)",
+  "Large atypical cells with irregular nuclei show nuclear staining in a substantial proportion",
+  "Staining intensity is variable, mostly weak to moderate with occasional strongly positive nuclei",
+  "Small negative nuclei (stromal/endothelial and residual cells) interspersed",
+  "Weak overall chromogen intensity limits precise quantification"
+ ],
+ "describe_en": "Ki-67 immunostain at high power shows nuclear positivity in a substantial proportion of the large atypical lymphoid cells adjacent to a bony trabecula, with variable, mostly weak-to-moderate intensity and occasional strongly positive nuclei. Smaller spindle and stromal nuclei are negative. The weak staining intensity in this image limits exact enumeration, but the proliferation index is clearly elevated relative to low-grade follicular lymphoma. Findings support a high-grade (transformed) large B-cell lymphoma involving the marrow.",
+ "ddx": [
+  {
+   "dx": "Low-grade follicular lymphoma (grade 1–2)",
+   "vs": "Low-grade FL typically shows a Ki-67 index below about 20–30% in small cleaved cells, whereas transformation shows a high index in large cells."
+  },
+  {
+   "dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements",
+   "vs": "Near-100% Ki-67 can raise concern for double-hit lymphoma, which requires FISH for MYC, BCL2, and BCL6 rather than morphology alone."
+  },
+  {
+   "dx": "Burkitt lymphoma",
+   "vs": "Burkitt shows monotonous medium-sized cells with starry-sky pattern, Ki-67 near 100%, BCL2 negative, and MYC rearrangement."
+  }
+ ],
+ "specimen": "BM biopsy",
+ "stain": "IHC: Ki-67",
+ "match": "consistent",
+ "high_yield": false
+}

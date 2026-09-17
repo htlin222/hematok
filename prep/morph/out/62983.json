@@ -1,0 +1,21 @@
+{
+  "id": "62983",
+  "recognize_zh": "CT 可見骨盆骨硬化與薦骨病灶（箭頭），骨髓切片低倍下細胞量近 100%；淋巴結 H&E 可見細胞質透亮、核被推擠到一側的印戒細胞（signet ring cells），骨髓免疫染色則只見零星散在的陽性上皮細胞，提示轉移癌伴隨續發性骨髓纖維化。",
+  "features": [
+    "CT (A): diffuse sclerosis of the lumbar spine and pelvic bones with a focal sacral lesion (arrow)",
+    "BM biopsy low power (B): markedly hypercellular (~100%) marrow core with thin bony trabeculae and no fat",
+    "LN H&E (C): nests and sheets of epithelial cells with abundant clear to mucin-filled cytoplasm and peripherally displaced nuclei (signet ring cells) adjacent to residual lymphoid tissue",
+    "BM IHC (D): only rare, scattered single positive cells within the marrow, without cohesive tumor clusters",
+    "Fibrosis is not directly assessable in this composite (no reticulin/trichrome panel shown)"
+  ],
+  "describe_en": "Composite figure. Axial CT shows diffuse sclerosis of the pelvic bones with a focal sacral lesion. The bone marrow trephine biopsy is markedly hypercellular (approaching 100%) at low power. A lymph node biopsy shows infiltration by poorly cohesive carcinoma cells with abundant intracytoplasmic mucin and eccentric crescentic nuclei (signet ring cells) adjacent to residual lymphoid tissue. An epithelial immunostain on the marrow highlights only rare, scattered single tumor cells. Findings are consistent with metastatic signet ring cell adenocarcinoma (gastric primary) involving lymph node and bone marrow, with associated secondary marrow fibrosis and osteosclerosis.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "Primary myelofibrosis shows clustered atypical megakaryocytes and a driver mutation (JAK2/CALR/MPL), without keratin-positive epithelial cells on IHC."},
+    {"dx": "Histiocytes or signet-ring lymphoma mimicking carcinoma", "vs": "Foamy histiocytes are CD68/CD163-positive and keratin-negative, whereas signet ring carcinoma cells are cytokeratin-positive and mucin (PAS/mucicarmine)-positive."},
+    {"dx": "Osteoblastic metastasis from prostate or breast carcinoma", "vs": "Morphology is not signet ring, and site-specific IHC (NKX3.1/PSA, GATA3/ER) and the CK7+ gastric-type profile separate them."}
+  ],
+  "specimen": "other",
+  "stain": "CT; H&E; IHC: cytokeratin",
+  "match": "consistent",
+  "high_yield": false
+}

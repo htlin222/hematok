@@ -1,0 +1,21 @@
+{
+  "id": "1021",
+  "recognize_zh": "骨髓抹片中一群大型、細胞質豐富且核仁明顯的非造血細胞，細胞內外有大量黑綠色粗大色素顆粒（melanin），符合轉移性黑色素瘤侵犯骨髓。",
+  "features": [
+    "Cluster of large, loosely cohesive non-hematopoietic cells with abundant pale to basophilic cytoplasm",
+    "Large round to oval nuclei with open chromatin and visible nucleoli",
+    "Coarse black to greenish-black cytoplasmic pigment granules (melanin), with some pigment extracellular",
+    "Some tumor cells with vacuolated cytoplasm",
+    "Adjacent blood background with scattered normal hematopoietic cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of large, loosely cohesive atypical cells with abundant cytoplasm, large nuclei, and prominent nucleoli. Many of these cells contain coarse black to greenish-black cytoplasmic pigment, and pigment is also present extracellularly. Normal hematopoietic cells are seen in the adjacent blood background. Findings are consistent with metastatic malignant melanoma involving the bone marrow; immunohistochemistry (SOX10, S100, HMB-45, Melan-A) on the core biopsy is recommended for confirmation.",
+  "ddx": [
+    {"dx": "Hemosiderin-laden macrophages", "vs": "Macrophages contain blue-green to golden granular hemosiderin that is Prussian blue positive and have small bland nuclei rather than large nucleolated nuclei."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma clusters are more tightly cohesive, lack melanin, and are keratin positive/SOX10 negative."},
+    {"dx": "Anaplastic large cell lymphoma or myeloma", "vs": "Hematolymphoid malignancies lack pigment and express CD30/ALK or CD138, not melanocytic markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

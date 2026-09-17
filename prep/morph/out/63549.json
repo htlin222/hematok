@@ -1,0 +1,22 @@
+{
+  "id": "63549",
+  "recognize_zh": "a 圖是一顆染色質濃密、細胞核呈多葉花瓣狀的淋巴球（flower cell）；流式圖顯示這群異常 T 細胞（綠色）CD7 缺失、CD3/CD5 保留、CD4 與 CD8 共同表現且 CD25 陰性，配合 HTLV-1 陽性即為 CD25 陰性的 ATLL。",
+  "features": [
+    "Panel a: medium-sized lymphoid cell with dense chromatin and a multilobated, clover/flower-shaped nucleus with scant basophilic cytoplasm",
+    "Panel b: CD45 bright, low side scatter lymphocyte population (green) distinct from granulocytes",
+    "Panel c: gated atypical T cells (26.12%) are CD2 positive and CD7 negative",
+    "Panel d: atypical cells co-express CD3 and CD5",
+    "Panel e: atypical cells co-express CD4 and CD8 (double positive)",
+    "Panel f: atypical cells are negative for CD25 and CD56"
+  ],
+  "describe_en": "Composite figure of a peripheral blood smear (a) and flow cytometric dot plots (b-f). The smear shows a medium-sized lymphoid cell with condensed chromatin and a deeply convoluted, multilobated nucleus resembling a flower, with scant cytoplasm. Flow cytometry identifies a CD45-bright lymphoid population in which 26% of lymphocytes are aberrant T cells that are CD2+, CD3+, CD5+ and CD7-negative, co-express CD4 and CD8, and lack CD25 and CD56. Loss of CD7 with abnormal CD4/CD8 co-expression supports a clonal mature T-cell population; CD25 negativity is atypical for this entity. In the setting of HTLV-1 seropositivity and hypercalcemia, findings are consistent with adult T-cell leukemia/lymphoma, CD25-negative, CD4/CD8 double-positive variant.",
+  "ddx": [
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform grooved rather than petal-like lobated nuclei, are typically CD4+ CD7- CD26- and HTLV-1 negative; serology and clinical skin findings separate them."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells have a visible nucleolus and cytoplasmic blebs, frequently retain CD7 and may be CD4/CD8 double positive, with TCL1 rearrangement and negative HTLV-1."},
+    {"dx": "Reactive lymphocytes with nuclear irregularity", "vs": "Reactive lymphocytes are polyclonal with preserved CD7 and a normal CD4:CD8 distribution, without the uniform aberrant population."}
+  ],
+  "specimen": "flow",
+  "stain": "Wright-Giemsa (a); flow cytometry (b-f)",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "66051",
+  "recognize_zh": "右側細胞為圓形未分葉的核，細胞質布滿粗大、深紫黑色的嗜鹼性顆粒並部分覆蓋於核上，屬嗜鹼性骨髓細胞（basophilic myelocyte）；左側為核呈腎形、顆粒不明顯的後骨髓細胞，背景為 CML 周邊血。",
+  "features": [
+    "Right cell: medium-sized granulocyte with a round-to-oval, non-segmented eccentric nucleus",
+    "Dense, coarse, dark purple-black basophilic granules filling the cytoplasm and partially overlying the nucleus",
+    "Nuclear chromatin moderately condensed with visible nuclear outline beneath the granules",
+    "Left cell: oval to slightly indented nucleus with fine chromatin and pale grayish-blue cytoplasm lacking prominent granules",
+    "Background of normochromic red cells without other cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows two immature granulocytes adjacent to each other on a background of normochromic red cells. The cell on the right has a round, non-segmented nucleus and cytoplasm packed with coarse, dark basophilic granules that partially obscure the nucleus, consistent with a basophilic myelocyte. The cell on the left has an oval, slightly indented nucleus with fine chromatin and pale cytoplasm lacking prominent granulation, consistent with a metamyelocyte. In the context of BCR::ABL1-positive disease, circulating immature basophils and left-shifted granulocytes are consistent with chronic myeloid leukemia.",
+  "ddx": [
+    {"dx": "Mature basophil", "vs": "A mature basophil has a segmented or bilobed nucleus largely obscured by granules, whereas this cell has a round, non-segmented myelocyte-type nucleus."},
+    {"dx": "Mast cell", "vs": "Mast cells are larger with a round central nucleus and more uniform, densely packed granules, are rare in blood, and express CD117 and tryptase."},
+    {"dx": "Eosinophilic myelocyte", "vs": "Eosinophilic precursors contain refractile orange-red granules (sometimes with a few dark immature granules) rather than dark purple-black basophilic granules."},
+    {"dx": "Neutrophil with toxic granulation", "vs": "Toxic neutrophils have a segmented nucleus and finer dark granules that do not overlie the nucleus as heavily."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

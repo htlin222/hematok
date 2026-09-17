@@ -1,0 +1,21 @@
+{
+  "id": "60366",
+  "recognize_zh": "流式細胞圖中 CD45 弱／陰性、低側向散射（SSC）的母細胞群佔 84%，CD19 與 CD10 共同表現，CD34 大多陰性，CD20、CD13、CD5 陰性且表面輕鏈（kappa/lambda）皆不表現，是 B 淋巴母細胞的免疫表型。",
+  "features": [
+    "CD45 vs SSC: dominant population (~84%) with dim-to-negative CD45 and low side scatter in the blast region; few granulocytes (0.75%) and lymphocytes",
+    "CD19+/CD10+ in ~96% of gated events",
+    "CD34 largely negative (~2% CD19+CD34+)",
+    "CD20 negative, CD5 negative, CD13 negative",
+    "No surface kappa or lambda light chain expression"
+  ],
+  "describe_en": "Flow cytometric analysis of peripheral blood shows a dominant abnormal population comprising approximately 84% of events in the low side scatter, dim-to-negative CD45 blast region. These cells coexpress CD19 and CD10 (approximately 96%), are largely negative for CD34, and are negative for CD20, CD5, CD13 and surface kappa and lambda light chains. The lack of surface immunoglobulin and CD20 with CD10 expression indicates an immature B-cell phenotype rather than a mature B-cell neoplasm. Findings are consistent with B-lymphoblastic leukemia (common/pre-B phenotype, CD34-negative); TdT and cytogenetic studies are recommended for completion.",
+  "ddx": [
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells are CD10+CD19+ but express CD20, bright CD45 and monotypic surface light chain and are TdT-negative."},
+    {"dx": "Hematogones", "vs": "Hematogones show a continuous maturation spectrum from CD34+/TdT+ to CD20+ with normal CD45 and CD10 intensity, rather than a single uniform CD20-negative population."},
+    {"dx": "Follicular lymphoma in leukemic phase", "vs": "FL cells are CD10+ but are mature B cells with CD20 and bright CD45 and monotypic surface light chains."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

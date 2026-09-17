@@ -1,0 +1,21 @@
+{
+  "id": "64735",
+  "recognize_zh": "這是矢狀切面顯影後 T1 加權 MRI：額頂部顱骨處有一大塊均勻增強的腫塊，同時向外侵入頭皮、向內壓迫腦實質（顱內外皆有），此影像形態提示骨源性或硬腦膜腫瘤，需病理確認為漿細胞瘤。",
+  "features": [
+    "Sagittal post-contrast T1-weighted MRI of the head",
+    "Large, avidly enhancing mass centered on the frontoparietal calvarium",
+    "Extracranial extension into the scalp soft tissues along the vertex",
+    "Intracranial extra-axial component indenting and displacing the underlying frontal and parietal lobes",
+    "Mildly heterogeneous internal enhancement with sharp interface to brain"
+  ],
+  "describe_en": "Sagittal contrast-enhanced T1-weighted MRI shows a large, avidly enhancing mass arising from the frontoparietal calvarium, measuring approximately 10 cm per the submitters. The lesion extends outward into the scalp and inward as an extra-axial component that compresses and displaces the underlying brain. The imaging is non-specific and could represent a calvarial plasmacytoma, metastasis, lymphoma, or meningioma with transosseous extension; tissue biopsy is required. In this case, histology and CD138 immunohistochemistry confirmed a plasma cell neoplasm.",
+  "ddx": [
+    {"dx": "Meningioma with transosseous extension", "vs": "Meningioma is dural-based with a dural tail and often causes hyperostosis rather than destruction, and histology shows meningothelial whorls that are EMA and SSTR2A positive."},
+    {"dx": "Calvarial metastasis", "vs": "Metastases are often multiple and lytic with a known primary, and biopsy shows keratin-positive carcinoma."},
+    {"dx": "Lymphoma involving skull and dura", "vs": "Lymphoma may show similar transcalvarial spread, but histology shows CD20-positive or other lymphoid cells rather than CD138-positive plasma cells."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62778",
+  "recognize_zh": "抹片與腹水細胞離心片中大量中型淋巴細胞，核型略不規則、可見明顯單一核仁（箭頭），胞質嗜鹼性並有小泡狀突起；流式顯示 CD4+ 並表現胞質 TCL1，核型分析有染色體異常（箭頭），符合 T 細胞前淋巴球白血病以腹水表現。",
+  "features": [
+    "Medium-sized lymphoid cells with round to irregular nuclei and moderately condensed chromatin",
+    "Visible single nucleolus in many cells (arrow, cytospin)",
+    "Scant to moderate basophilic cytoplasm with cytoplasmic blebs or protrusions",
+    "Immunocytochemistry shows diffuse cytoplasmic/membranous positivity in the neoplastic cells",
+    "Flow cytometry: CD4-positive population co-expressing cytoplasmic TCL1; karyotype with structural abnormalities (arrows)"
+  ],
+  "describe_en": "Smears show numerous medium-sized atypical lymphoid cells with round to slightly irregular nuclei, moderately condensed chromatin, and scant to moderate basophilic cytoplasm with occasional cytoplasmic blebs. On the ascitic fluid cytospin, many cells display a distinct single nucleolus (arrow). Immunocytochemistry diffusely labels the neoplastic cells, and flow cytometry shows a CD4-positive population with bright cytoplasmic TCL1 expression. The karyotype shows structural chromosomal abnormalities (arrows), which cannot be fully characterized at this resolution. Findings are consistent with T-cell prolymphocytic leukemia with serous effusion involvement; FISH for TCL1A (14q32) or MTCP1 rearrangement is recommended.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells have polylobated flower-shaped nuclei, are CD25-positive, and occur in HTLV-1 carriers, while T-PLL cells are TCL1-positive with a single prominent nucleolus."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells show cerebriform convoluted nuclei without prominent nucleoli, often lose CD7, and lack TCL1 overexpression."},
+    {"dx": "B-cell prolymphocytic leukemia or CLL with prolymphocytes", "vs": "B-cell prolymphocytes look similar but are CD19/CD20-positive with light chain restriction rather than CD4+ T cells."},
+    {"dx": "Reactive lymphocytes in a lymphocytic effusion", "vs": "Reactive effusion lymphocytes are small mature cells without nucleoli and show normal polyclonal T-cell phenotype without TCL1 overexpression."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa; ICC; flow cytometry; karyotype",
+  "match": "consistent",
+  "high_yield": false
+}

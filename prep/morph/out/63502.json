@@ -1,0 +1,22 @@
+{
+  "id": "63502",
+  "recognize_zh": "A–F 格周邊血嗜鹼性球的深紫色粗顆粒大部分消失，細胞質留下許多空泡狀的空顆粒；G 格骨髓見異常嗜鹼性細胞與嗜酸性球，H 格 CD123 染色陽性，I–J 流式顯示 CD123 強陽性、HLA-DR 陰性族群，符合骨髓增生性腫瘤中的去顆粒嗜鹼性球（degranulated basophils）。",
+  "features": [
+    "A-C: basophils with partial degranulation, residual coarse dark purple granules mixed with clear empty granule spaces",
+    "D-F: basophils with near-complete degranulation, cytoplasm filled with clear vacuole-like empty granules and lobulated nuclei",
+    "G: hypercellular marrow (H&E) with eosinophils and abnormal mononuclear basophilic cells",
+    "H: IHC CD123 highlights numerous abnormal basophils in the marrow",
+    "I-J: flow cytometry shows a basophil population in the low-SSC blast region of CD45/SSC with bright CD123"
+  ],
+  "describe_en": "This composite figure shows peripheral blood basophils (A-F) with abnormal granulation: panels A-C show partial degranulation with residual coarse purple granules, and panels D-F show near-complete degranulation with cytoplasm occupied by clear, empty granule spaces around lobulated nuclei. The bone marrow biopsy (G) is hypercellular with eosinophils and abnormal basophilic cells, which are highlighted by CD123 immunohistochemistry (H). Flow cytometry (I-J) shows basophils falling within the low side-scatter blast gate on CD45 versus SSC with bright CD123 expression, a pitfall that may lead to overcounting blasts. Findings are consistent with a clonal basophilia with dysplastic, degranulated basophils in an advanced-phase myeloproliferative neoplasm.",
+  "ddx": [
+    {"dx": "Toxic vacuolated neutrophils", "vs": "Toxic neutrophils have pink cytoplasm with fine toxic granules and small vacuoles plus segmented nuclei, whereas these cells show large empty basophil granule spaces and express CD123 without MPO."},
+    {"dx": "CML in chronic or accelerated phase", "vs": "CML also shows basophilia, so BCR::ABL1 testing is required, and it was negative here with JAK2-positive MPN history."},
+    {"dx": "Mast cell neoplasm", "vs": "Mast cells have round nuclei and are tryptase and CD117 positive with CD25 aberrancy, while basophils have lobulated nuclei and are CD123 positive with weak or absent CD117."},
+    {"dx": "Blast increase in transformed MPN", "vs": "Degranulated basophils fall in the CD45-dim/low-SSC blast gate, so CD123-bright/HLA-DR-negative gating and CD34 IHC are needed to avoid overcounting blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E; IHC: CD123; flow",
+  "match": "consistent",
+  "high_yield": false
+}

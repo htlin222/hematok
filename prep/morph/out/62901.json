@@ -1,0 +1,22 @@
+{
+  "id": "62901",
+  "recognize_zh": "周邊血液中有一個大型單核吞噬細胞，細胞質豐富灰藍並含一個小而緻密的圓形核（被吞噬淋巴球的核）與數個血小板；背景紅血球聚成不規則團塊（RBC agglutination），這是冷凝集等自體免疫溶血時的線索。",
+  "features": [
+    "Large mononuclear phagocyte with abundant grey-blue, finely vacuolated cytoplasm",
+    "Two overlapping round to oval nuclei with fine chromatin and small nucleoli",
+    "Phagocytosed small dense round nucleus (consistent with an engulfed lymphocyte nucleus) and a few platelet fragments in the cytoplasm",
+    "Background red cells forming irregular clumps (agglutinates) rather than rouleaux",
+    "Adjacent small mature lymphocyte and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows irregular red cell agglutinates throughout the background, with scattered platelets and a small lymphocyte. Centrally there is a large mononuclear phagocyte with two overlapping nuclei and abundant grey-blue, finely vacuolated cytoplasm containing a small dense round nucleus and a few platelet fragments, indicating phagocytic activity. No blasts or organisms are identified. Findings are consistent with a circulating hemophagocytic cell in the setting of red cell agglutination, compatible with autoimmune (likely cold agglutinin-associated) hemolytic anemia; the markedly elevated MCV and MCHC reflect agglutination artifact.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "Occasional phagocytes alone are not diagnostic; HLH requires clinical and laboratory criteria (fever, cytopenias, ferritin, triglycerides, fibrinogen, sCD25)."},
+    {"dx": "Neutrophil containing an apoptotic body (LE cell-like)", "vs": "The engulfing cell would have a segmented nucleus and neutrophilic granules rather than two oval nuclei and grey-blue monocytic cytoplasm."},
+    {"dx": "Rouleaux", "vs": "Rouleaux form linear stacked-coin chains, whereas agglutinates are irregular three-dimensional clumps."},
+    {"dx": "Circulating megakaryocyte or tumor cell", "vs": "Megakaryocytes have lobulated nuclei and granular cytoplasm budding platelets, and tumor cells lack phagocytosed material."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

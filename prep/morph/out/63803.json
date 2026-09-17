@@ -1,0 +1,22 @@
+{
+  "id": "63803",
+  "recognize_zh": "大型非典型細胞呈強而一致的細胞膜與細胞質 CD30 陽性，並有核旁高基氏體區加強染色，且大細胞成串、成片聚集而非零星散在，背景小淋巴球陰性，符合灰區淋巴瘤中的 CD30 表現。",
+  "features": [
+    "Large atypical cells with strong membranous and cytoplasmic CD30 staining and paranuclear (Golgi) accentuation",
+    "Vesicular nuclei, some binucleated or multilobated, with prominent nucleoli",
+    "Positive cells forming cohesive clusters, cords and near-sheets",
+    "Small background lymphocytes and spindle stromal cells negative",
+    "Diffuse fibrillary stroma separating the tumor-cell cords"
+  ],
+  "describe_en": "Immunohistochemical stain for CD30 shows numerous large atypical cells with strong membranous and cytoplasmic staining with Golgi accentuation. The positive cells have vesicular, occasionally binucleated nuclei with nucleoli and are arranged in cohesive clusters and cords, approaching sheet-like growth, within a stroma containing negative small lymphocytes. Taken together with CD15 positivity and variable retention of CD20 and CD79a in the same cells, the findings support B-cell lymphoma with features intermediate between DLBCL and classic Hodgkin lymphoma (mediastinal gray zone lymphoma).",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma, syncytial variant", "vs": "Also has sheets of CD30+/CD15+ cells but the tumor cells lose CD20, CD79a and OCT2/BOB1 while retaining dim PAX5."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "CD30 is typically weak and heterogeneous, with strong uniform CD20/CD79a and CD15 negativity."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Hallmark cells are strongly CD30 positive but PAX5 and CD20 negative, with T-cell or cytotoxic markers and often ALK."},
+    {"dx": "Embryonal carcinoma or other CD30-positive non-lymphoid tumor", "vs": "Expresses keratin, SALL4 and OCT3/4 and lacks CD45 and B-cell markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

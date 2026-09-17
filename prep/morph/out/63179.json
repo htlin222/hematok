@@ -1,0 +1,22 @@
+{
+  "id": "63179",
+  "recognize_zh": "骨髓切片中成群的大型單核母細胞，核呈泡狀、染色質開放並有明顯核仁，可見分裂象（中央偏右）；周邊混有粉紅顆粒的成熟中骨髓細胞與嗜中性球，提示仍保有成熟分化的 AML。",
+  "features": [
+    "Clusters of large mononuclear blasts with vesicular nuclei, open chromatin and distinct nucleoli (arrows)",
+    "Moderate amounts of pale amphophilic cytoplasm",
+    "Mitotic figure present among the blasts",
+    "Admixed maturing granulocytic precursors and neutrophils, including cells with eosinophilic granular cytoplasm",
+    "Scattered brown hemosiderin-laden macrophages and black granular pigment deposits (likely fixation artifact)",
+    "Intervening adipocytes; section appears to be of marrow particles/clot with some processing artifact"
+  ],
+  "describe_en": "Bone marrow biopsy (H&E) shows hypercellular marrow with clusters of large blasts having vesicular nuclei, open chromatin, prominent nucleoli and moderate pale cytoplasm; a mitotic figure is identified. Maturing myeloid precursors, including cells with eosinophilic granular cytoplasm and segmented neutrophils, are present adjacent to the blast clusters. Scattered hemosiderin-laden macrophages and black granular pigment, likely fixation artifact, are noted. Findings are consistent with acute myeloid leukemia with maturation, in keeping with AML with RUNX1::RUNX1T1; blast enumeration on aspirate and confirmation by cytogenetics are required.",
+  "ddx": [
+    {"dx": "Regenerating marrow with left shift (post-chemotherapy or G-CSF)", "vs": "Regenerating marrow shows synchronized promyelocyte/myelocyte waves with abundant granular cytoplasm and paratrabecular maturation, not clusters of agranular nucleolated blasts."},
+    {"dx": "Metastatic carcinoma or large cell lymphoma", "vs": "These form cohesive or sheet-like non-hematopoietic infiltrates negative for MPO/CD34 and positive for cytokeratin or B/T-cell markers."},
+    {"dx": "Pronormoblast clusters in erythroid hyperplasia", "vs": "Pronormoblasts have deeply basophilic cytoplasm and round dark nuclei and are E-cadherin/CD71 positive rather than MPO positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

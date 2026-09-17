@@ -1,0 +1,21 @@
+{
+  "id": "63173",
+  "recognize_zh": "中央一顆白血球被約二十個血小板緊密環繞（platelet satellitism），而背景中游離血小板很少，這種貼附在白血球周圍的血小板會被血球計數儀漏算，造成偽血小板低下。",
+  "features": [
+    "Central leukocyte encircled by approximately 20 adherent platelets",
+    "Platelets are small, granular and closely apposed to the leukocyte membrane",
+    "Second leukocyte (lymphoid-appearing) with only a single adjacent platelet",
+    "Few free platelets in the background apart from small scattered clusters",
+    "Thick area of smear with overlapping red cells, limiting leukocyte subtyping"
+  ],
+  "describe_en": "Peripheral blood smear shows a leukocyte surrounded by a ring of approximately 20 adherent platelets, consistent with platelet satellitism. A second leukocyte shows only a single adjacent platelet, and free platelets in the background are relatively sparse with a few small aggregates. The field is from a thick area of the smear with overlapping red cells, which limits precise leukocyte identification. Findings are consistent with pseudothrombocytopenia due to EDTA-induced platelet satellitism; a repeat platelet count in a citrate or heparin tube is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows uniformly few platelets without satellitism or clumps, and the low count persists in non-EDTA anticoagulants."},
+    {"dx": "EDTA-induced platelet clumping", "vs": "Clumping produces free platelet aggregates, often at the feathered edge, rather than rings of platelets around leukocytes."},
+    {"dx": "Giant platelets (macrothrombocytopenia)", "vs": "Inherited macrothrombocytopenia shows large single platelets approaching red cell size that are undercounted, not normal-sized platelets adherent to leukocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

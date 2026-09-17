@@ -1,0 +1,21 @@
+{
+  "id": "1272",
+  "recognize_zh": "整個視野幾乎被形態一致的母細胞佔滿，核圓、染色質細緻、胞質少，只有極少數帶顆粒的細胞，缺乏往下成熟的顆粒球；這種單調的母細胞片狀分布符合無成熟的急性骨髓性白血病（AML without maturation）。",
+  "features": [
+    "Monotonous sheets of intermediate-sized blasts effacing the aspirate",
+    "High N:C ratio with round to slightly irregular nuclei and finely dispersed chromatin",
+    "Small nucleoli in some blasts; scant pale basophilic cytoplasm, mostly agranular with occasional fine azurophilic granules",
+    "Very few maturing granulocytes (promyelocytes onward) and rare erythroid precursors",
+    "A single residual megakaryocyte at the left edge"
+  ],
+  "describe_en": "Bone marrow aspirate smear is markedly cellular and composed predominantly of a monotonous population of intermediate-sized blasts. The blasts have high nuclear-to-cytoplasmic ratios, round nuclei with fine chromatin, inconspicuous to small nucleoli, and scant basophilic cytoplasm that is largely agranular, with occasional cells showing fine granules. Maturing granulocytic elements beyond the blast stage are scarce, and residual erythroid precursors and megakaryocytes are rare. No Auer rods are identified at this magnification. Findings are consistent with acute myeloid leukemia without maturation, pending MPO/flow cytometric confirmation of myeloid lineage.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL blasts can look identical when agranular, so lineage is resolved by MPO positivity in >=3% of blasts or flow expression of myeloid markers versus CD19/cCD3."},
+    {"dx": "AML with maturation", "vs": "AML with maturation has >=10% maturing granulocytes (promyelocytes to neutrophils), whereas here maturing forms are scarce."},
+    {"dx": "AML with minimal differentiation", "vs": "Minimally differentiated AML is MPO-negative (<3%) by cytochemistry and needs flow to prove myeloid lineage, while AML without maturation has >=3% MPO-positive blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61248",
+  "recognize_zh": "這是 PET 的冠狀最大強度投影（MIP）影像，不是形態學圖：整個中軸骨（脊椎、骨盆、肋骨、肩胛、鎖骨）與近端肱骨、股骨呈瀰漫、不均勻的顯影增加，腦部與膀胱為生理性攝取；廣泛骨骼侵犯提示瀰漫性骨轉移或骨髓浸潤。",
+  "features": [
+    "Coronal maximum intensity projection PET image (inverted gray scale)",
+    "Diffuse, heterogeneous increased uptake throughout the axial skeleton: vertebral column, pelvis, ribs, scapulae and clavicles",
+    "Increased uptake extends into the proximal humeri and proximal femora",
+    "Physiologic activity in the brain, kidneys and urinary bladder",
+    "Lytic versus blastic character cannot be assessed on the MIP image alone; correlation with CT is required"
+  ],
+  "describe_en": "This is a non-morphologic coronal maximum intensity projection image from a PET study. It shows diffuse, heterogeneous increased tracer uptake throughout the axial skeleton, including the spine, pelvis, ribs, scapulae and clavicles, with extension into the proximal humeri and femora, together with physiologic brain, renal and bladder activity. Focal discrete lesions are difficult to separate because involvement is widespread. The distinction between blastic and lytic lesions requires the corresponding CT images. In the clinical context, the pattern is consistent with diffuse skeletal metastatic disease or extensive marrow infiltration, which should prompt bone marrow examination.",
+  "ddx": [
+    {"dx": "Reactive marrow hyperplasia (G-CSF, recovery after chemotherapy, anemia)", "vs": "Produces uniform, symmetric marrow uptake without CT lytic or blastic lesions and with an appropriate clinical history."},
+    {"dx": "Hematologic marrow infiltration (acute leukemia, lymphoma, myeloma)", "vs": "May also produce diffuse marrow uptake; myeloma typically shows lytic lesions on CT, and marrow biopsy establishes the diagnosis."},
+    {"dx": "Metabolic superscan (hyperparathyroidism, renal osteodystrophy)", "vs": "Seen mainly on bone scintigraphy with symmetric uniform uptake including calvarium and mandible, without focal lytic lesions."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

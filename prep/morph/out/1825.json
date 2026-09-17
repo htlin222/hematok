@@ -1,0 +1,21 @@
+{
+  "id": "1825",
+  "recognize_zh": "三顆嗜中性球周圍都環繞著一圈小血小板（platelet satellitism），而遠離白血球處幾乎沒有游離血小板，這是 EDTA 依賴性假性血小板低下（pseudothrombocytopenia）的典型表現；紅血球上的透明折光點為乾燥假影。",
+  "features": [
+    "Platelets rosetting around three separate neutrophils (platelet satellitism)",
+    "Platelets are normal-sized with granular centers; very few free platelets away from neutrophils",
+    "Neutrophils otherwise morphologically normal",
+    "Red cells show refractile clear inclusions and crenation from slow-drying artifact",
+    "No schistocytes, giant platelets, or large fibrin-platelet clumps evident"
+  ],
+  "describe_en": "Peripheral blood smear shows platelets encircling three neutrophils, forming platelet satellitism, with very few free-lying platelets elsewhere in the field. The platelets are normal in size and the neutrophils are otherwise unremarkable. Red cells show refractile drying artifact but no schistocytes. Platelet satellitism sequesters platelets from automated counting, producing a spuriously low count. Findings are consistent with EDTA-dependent platelet satellitism causing pseudothrombocytopenia; a citrate-anticoagulated platelet count is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia", "vs": "Genuinely low platelet counts show sparse platelets without neutrophil rosettes, and the count stays low in citrate tubes."},
+    {"dx": "Phagocytosed platelets (e.g., in sepsis or immune thrombocytopenia)", "vs": "Engulfed platelets lie within the neutrophil cytoplasm, whereas satellitism shows platelets adherent to the outer cell membrane."},
+    {"dx": "Bacteria or fungal organisms adherent to neutrophils", "vs": "Organisms have uniform shape and staining without the granular chromomere and pale hyalomere of platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

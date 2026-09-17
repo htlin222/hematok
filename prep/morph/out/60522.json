@@ -1,0 +1,22 @@
+{
+  "id": "60522",
+  "recognize_zh": "骨髓抹片低倍下以大量原始細胞（blasts）為主，其間夾雜幾個體積偏小、核單葉或低分葉的發育異常巨核細胞；「芽細胞增加＋小型單核/低分葉巨核細胞」是 AML with inv(3)/t(3;3) 的典型組合。",
+  "features": [
+    "Hypercellular aspirate dominated by medium to large blasts with fine chromatin, nucleoli and scant to moderate basophilic cytoplasm",
+    "Dysplastic megakaryocytes that are small with non-lobated or hypolobated round nuclei",
+    "At least one megakaryocyte with a single dense eccentric nucleus and abundant pale cytoplasm",
+    "Few maturing granulocytes and scattered erythroid precursors in the background",
+    "No Auer rods or prominent granulation evident at this magnification"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular and composed predominantly of medium to large blasts with fine chromatin, visible nucleoli and scant basophilic cytoplasm, with reduced maturing myeloid and erythroid elements. Scattered megakaryocytes are dysplastic, including small forms with non-lobated or hypolobated round nuclei. Auer rods are not appreciated at this magnification. In the setting of an increased blast population, prominent mono-/hypolobated megakaryocytes should prompt cytogenetic testing for inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2) (GATA2::MECOM), and findings are consistent with AML with MECOM rearrangement.",
+  "ddx": [
+    {"dx": "AML with myelodysplasia-related changes", "vs": "MR-AML also shows multilineage dysplasia, so karyotype/FISH for 3q26 MECOM rearrangement is needed to separate it from inv(3)/t(3;3) AML."},
+    {"dx": "Myelodysplastic syndrome with del(5q)", "vs": "del(5q) MDS has small mononuclear megakaryocytes too but blasts are <5% (well below the blast count seen here) and anemia with thrombocytosis is typical."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL blasts are CD41/CD61 positive with cytoplasmic blebs and marrow fibrosis, whereas here dysplastic megakaryocytes are admixed with non-megakaryocytic blasts."},
+    {"dx": "Myeloid neoplasm with t(6;9) DEK::NUP214", "vs": "t(6;9) AML typically shows basophilia and multilineage dysplasia, and only cytogenetics reliably separates it from inv(3)."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

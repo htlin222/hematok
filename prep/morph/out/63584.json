@@ -1,0 +1,22 @@
+{
+  "id": "63584",
+  "recognize_zh": "周邊血片中有三顆中型單核細胞，核圓、染色質呈粗塊狀、胞質為一圈深藍嗜鹼性且邊緣略呈毛邊，屬漿細胞樣形態；周邊血中出現多顆此類腫瘤性漿細胞，配合臨床即為漿細胞白血病。",
+  "features": [
+    "Three medium-sized mononuclear cells, larger than small lymphocytes",
+    "Round nuclei with coarsely clumped chromatin and no visible nucleoli",
+    "Moderate N:C ratio with a narrow rim of deeply basophilic cytoplasm and slightly irregular, frayed borders",
+    "Perinuclear hof and eccentric nuclear placement are subtle in these cells, giving a lymphoplasmacytoid appearance",
+    "Background red cells with mild overlapping but no well-formed rouleaux in this thin field; platelet present"
+  ],
+  "describe_en": "Peripheral blood smear shows three circulating atypical mononuclear cells with round nuclei, coarsely clumped chromatin, and a narrow rim of deeply basophilic cytoplasm with slightly irregular borders. The cells have plasmacytoid features, although a distinct perinuclear hof is not evident, and they could be mistaken for lymphocytes on automated or casual review. Red cells show mild overlap without prominent rouleaux in this thin area. In the clinical context, the findings are consistent with circulating neoplastic plasma cells of plasma cell leukemia, which should be confirmed by flow cytometry (CD38/CD138+, CD19-, light-chain restriction) and enumeration (≥5% circulating plasma cells).",
+  "ddx": [
+    {"dx": "Lymphoplasmacytic lymphoma / Waldenström macroglobulinemia", "vs": "LPL cells are CD19+/CD20+ B cells with IgM paraprotein and MYD88 L265P, whereas neoplastic plasma cells are CD19-/CD20- and CD138+."},
+    {"dx": "Reactive plasmacytoid lymphocytes (viral infection)", "vs": "Reactive plasmacytoid cells are few, polyclonal and accompanied by other reactive lymphocyte forms, lacking light-chain restriction."},
+    {"dx": "Large granular lymphocytes or CLL cells", "vs": "LGLs have abundant pale cytoplasm with azurophilic granules and CLL cells have scant cytoplasm with soccer-ball chromatin and smudge cells, not deeply basophilic plasmacytoid cytoplasm."},
+    {"dx": "Leukemic phase of plasmablastic lymphoma", "vs": "Plasmablastic cells are larger with open chromatin and prominent nucleoli and are often EBV-positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

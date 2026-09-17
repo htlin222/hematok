@@ -1,0 +1,22 @@
+{
+  "id": "60026",
+  "recognize_zh": "一群中到大型母細胞核質比高、染色質細緻，許多細胞核一側有淡染的凹陷區（杯狀核 cup-like nucleus，核內凹陷約佔核面積四分之一以上），這是 NPM1 突變 AML 的典型型態線索。",
+  "features": [
+    "Cluster of medium to large blasts with high N:C ratio",
+    "Nuclei with a pale, clear invagination (cup-like or 'fish-mouth' nuclear contour) in many cells",
+    "Fine, dispersed chromatin with small nucleoli visible in some cells",
+    "Scant to moderate agranular pale-blue cytoplasm; no Auer rods seen",
+    "Background of normochromic red cells; no maturing granulocytes in field"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of medium to large blasts with high nuclear to cytoplasmic ratio, finely dispersed chromatin, and small nucleoli. Many blasts display a distinct pale nuclear invagination producing a cup-shaped nuclear contour. The cytoplasm is scant to moderate, pale blue, and agranular, and Auer rods are not identified. Findings are consistent with acute myeloid leukemia; the cup-like nuclear morphology is suggestive of AML with mutated NPM1 (or FLT3-ITD), to be confirmed by molecular testing.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL shows bilobed or folded butterfly-shaped nuclei with occasional Auer rod bundles and strong MPO, whereas these blasts have cup-shaped invaginations and no Auer rods; PML::RARA testing separates them."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts and promonocytes have abundant gray-blue cytoplasm with folded, delicate nuclei and are NSE positive, rather than scant cytoplasm with a discrete cup-like clearing."},
+    {"dx": "AML with FLT3-ITD without NPM1 mutation", "vs": "Cup-like blasts are also associated with FLT3-ITD, so morphology cannot separate them and molecular testing is required."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts can show nuclear clefts but lack cup-like invaginations and are MPO negative with B- or T-lineage markers; NPM1-mutated AML is typically CD34 negative and HLA-DR negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

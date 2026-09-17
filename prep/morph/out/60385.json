@@ -1,0 +1,22 @@
+{
+  "id": "60385",
+  "recognize_zh": "CD30 免疫染色中，背景大量小淋巴球為陰性（藍色核），只有散在的大型細胞呈細胞膜環狀加上核旁點狀（高基氏體，Golgi）陽性；這種「膜＋Golgi」染色的大細胞即 Hodgkin/Reed-Sternberg 細胞，在 CLL/SLL 背景中出現代表霍奇金型 Richter 轉化。",
+  "features": [
+    "CD30 IHC with scattered large cells showing membranous rim staining",
+    "Distinct paranuclear dot-like (Golgi) positivity in many large cells",
+    "Large cells with vesicular nuclei, some binucleate/multilobated (Hodgkin/Reed-Sternberg-like), singly and in small groups",
+    "Background small lymphocytes and histiocytes CD30-negative",
+    "No sheets of CD30-positive cells"
+  ],
+  "describe_en": "CD30 immunohistochemistry highlights scattered large cells with a membranous pattern and prominent paranuclear Golgi-zone dot positivity, distributed singly and in small loose clusters. These cells have large vesicular nuclei and occasionally appear binucleated or multilobated. The background small lymphocytes and histiocytes are negative. In a patient with small lymphocytic lymphoma, CD30-positive Hodgkin/Reed-Sternberg-type cells in this pattern support Richter transformation of Hodgkin lymphoma type, particularly if accompanied by CD15 positivity, weak/absent B-cell program and EBV positivity.",
+  "ddx": [
+    {"dx": "CLL/SLL with scattered HRS-like cells (no true cHL)", "vs": "HRS-like cells scattered within a background of CLL cells without a distinct polymorphous cHL microenvironment are classified separately; true Hodgkin-type Richter shows HRS cells in a mixed inflammatory T-cell/histiocyte background."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL forms cohesive sheets of CD30-strong hallmark cells, often sinusoidal, with T-cell/cytotoxic markers and frequently ALK, rather than scattered HRS cells."},
+    {"dx": "Richter transformation, DLBCL type", "vs": "DLBCL-type Richter shows sheets of large B cells with strong CD20/PAX5 and usually variable or negative CD30."},
+    {"dx": "Reactive CD30-positive immunoblasts", "vs": "Reactive immunoblasts are smaller, lack classic HRS nuclear features and show weaker, more heterogeneous CD30 without CD15 or loss of B-cell program."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

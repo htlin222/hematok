@@ -1,0 +1,21 @@
+{
+  "id": "63032",
+  "recognize_zh": "骨髓切片以 lambda 輕鏈染色（深藍黑色訊號）標示出大量胞質強陽性的漿細胞，沿著血管周圍與間質散在或小群分布；在 POEMS 症候群中，漿細胞幾乎一律為 lambda 限制型（lambda-restricted），是重要的診斷線索。",
+  "features": [
+    "Numerous cells with strong cytoplasmic lambda light chain signal (dark blue-black chromogen)",
+    "Positive cells scattered interstitially and concentrated around a small vessel",
+    "Positive cells have the size and eccentric outline of plasma cells",
+    "Background of negative hematopoietic cells, adipocytes and a bony trabecula",
+    "Kappa comparison stain not shown in this image"
+  ],
+  "describe_en": "Bone marrow trephine section stained for lambda light chain (likely in situ hybridization with a dark chromogen) shows numerous positive plasma cells distributed interstitially and in small perivascular clusters. Positive cells display strong cytoplasmic signal, while the surrounding hematopoietic elements and megakaryocytes are negative. Lambda restriction cannot be confirmed without a paired kappa stain, but in context the pattern supports a lambda-predominant plasma cell population. Findings are consistent with the monoclonal lambda plasma cell component of POEMS syndrome.",
+  "ddx": [
+    {"dx": "Reactive polytypic plasmacytosis", "vs": "Reactive plasma cells show a kappa:lambda ratio of roughly 2:1 on paired stains, whereas POEMS shows lambda predominance."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma usually shows sheets or large interstitial aggregates with a higher plasma cell burden and CRAB features, whereas POEMS typically has a low-level lambda clone with osteosclerotic lesions and polyneuropathy."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL contains a clonal B-lymphocyte and lymphoplasmacytoid component, MYD88 L265P, and typically IgM, rather than an isolated lambda plasma cell population."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "ISH: lambda light chain",
+  "match": "consistent",
+  "high_yield": false
+}

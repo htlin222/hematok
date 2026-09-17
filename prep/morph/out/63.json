@@ -1,0 +1,30 @@
+{
+  "id": "63",
+  "recognize_zh": "十二指腸黏膜固有層內有境界清楚、由單調小型有裂痕中心細胞（centrocytes）組成的濾泡狀結節，把絨毛撐開；免疫染色顯示結節 B 細胞瀰漫陽性、CD10 弱陽性、生發中心標記核陽性，符合十二指腸型濾泡性淋巴瘤。",
+  "features": [
+    "Small-bowel mucosa with well-circumscribed, expanded lymphoid follicles occupying the lamina propria and distending villi",
+    "Follicles composed predominantly of small to medium centrocytes with angulated, cleaved nuclei and scant cytoplasm; few centroblasts (low-grade)",
+    "Monotonous follicles without obvious tingible-body macrophages or polarization; attenuated mantle",
+    "Overlying villous epithelium intact with lymphoid cells extending into adjacent villous cores",
+    "IHC: diffuse strong B-cell/BCL2-type staining throughout follicles and interfollicular areas; weak CD10 in follicles (brush border internal positive control); nuclear germinal-center marker (likely BCL6) in follicular cells"
+  ],
+  "describe_en": "Duodenal biopsy shows small intestinal mucosa with intact villous epithelium overlying well-circumscribed, expanded lymphoid follicles in the lamina propria, with lymphoid cells spilling into adjacent villous cores. At high power the follicles consist of a monotonous population of small to medium-sized centrocytes with irregular, angulated nuclei and scant cytoplasm, with only rare centroblasts; tingible-body macrophages are not conspicuous. Immunohistochemistry shows diffuse strong staining of the follicular and interfollicular lymphoid cells with B-cell/BCL2-type markers, weak CD10 in follicle cells (with strong CD10 on the enterocyte brush border), and nuclear positivity for a germinal-center marker within follicles. Findings are consistent with duodenal-type follicular lymphoma, low grade.",
+  "ddx": [
+    {"dx": "Reactive lymphoid hyperplasia", "vs": "Reactive follicles show polarization, tingible-body macrophages, high Ki-67 and BCL2-negative germinal centers, unlike the monotonous BCL2-positive follicles here."},
+    {"dx": "Extranodal marginal zone lymphoma (MALT lymphoma) with follicular colonization", "vs": "MALT lymphoma has marginal-zone/monocytoid cells with lymphoepithelial lesions and is CD10-/BCL6- in the neoplastic population, whereas neoplastic cells here are CD10+/BCL6+."},
+    {"dx": "Mantle cell lymphoma (including lymphomatous polyposis)", "vs": "Mantle cell lymphoma is CD5+ and cyclin D1/SOX11+ and lacks CD10/BCL6, despite also presenting as small-cell nodules in GI mucosa."},
+    {"dx": "Systemic follicular lymphoma secondarily involving the duodenum", "vs": "Morphology is identical; distinction requires staging showing no nodal/marrow disease and features such as IgA/memory B-cell-like profile, whereas systemic FL has disseminated disease."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD20/BCL2 (unlabeled), CD10, BCL6 (probable)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Low power: expanded lymphoid follicles in duodenal lamina propria beneath villi (H&E)",
+    "High power: monotonous centrocytes with angulated cleaved nuclei (H&E)",
+    "Diffuse strong staining of follicle and interfollicular lymphoid cells (likely CD20)",
+    "CD10: strong brush border staining with weak staining of follicular cells",
+    "Nuclear germinal-center marker (likely BCL6) concentrated in the follicle",
+    "Strong cytoplasmic/membranous staining of lymphoid infiltrate with negative epithelium (likely BCL2)"
+  ]
+}

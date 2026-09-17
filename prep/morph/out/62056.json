@@ -1,0 +1,21 @@
+{
+  "id": "62056",
+  "recognize_zh": "中低倍 H&E 下淋巴結呈瀰漫性浸潤，看不到明顯結節，小淋巴球之間夾雜散在的大型淡染細胞與上皮樣組織球；這種 T 細胞與組織球豐富的瀰漫背景是 NLPHL 變異型態或進展時需注意的外觀。",
+  "features": [
+    "Diffuse lymphoid infiltrate effacing the architecture without discernible nodules in this field",
+    "Predominance of small mature lymphocytes",
+    "Scattered larger cells with pale cytoplasm and vesicular nuclei",
+    "Interspersed epithelioid histiocytes and small vessels with pink cytoplasm",
+    "No necrosis or sheets of large cells at this magnification"
+  ],
+  "describe_en": "H&E section of lymph node at intermediate magnification shows diffuse effacement by a lymphoid infiltrate composed predominantly of small lymphocytes with scattered larger cells having pale cytoplasm and vesicular nuclei, admixed with epithelioid histiocytes. Well-formed nodules are not evident in this field, and confluent sheets of large cells are not seen. Cytologic detail of the large cells is limited at this magnification. In the context of the referenced case, the findings are consistent with a diffuse T-cell/histiocyte-rich variant pattern of nodular lymphocyte-predominant Hodgkin lymphoma; immunostains are required to exclude T-cell/histiocyte-rich large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "H&E cannot reliably separate them; absence of any residual small-B-cell nodules and CD21+ FDC meshworks favors THRLBCL."},
+    {"dx": "Lymphocyte-rich classic Hodgkin lymphoma", "vs": "cHL large cells are CD30+/CD15+ and CD20 weak/negative, while LP cells are CD20+ and CD30/CD15 negative."},
+    {"dx": "Peripheral T-cell lymphoma with epithelioid histiocytes (lymphoepithelioid variant)", "vs": "Lennert lymphoma shows cytologically atypical small T cells with clonal TCR rearrangement and lacks large CD20+ LP cells."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

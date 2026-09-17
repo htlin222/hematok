@@ -1,0 +1,22 @@
+{
+  "id": "1523",
+  "recognize_zh": "H&E 組織切片可見中型淋巴樣細胞瀰漫浸潤，核圓形至不規則、染色質細緻、部分有小而明顯的核仁，胞質中等量；這些形態本身不具特異性，要確定為 T-PLL 必須結合周邊血、流式細胞儀與 TCL1 染色。",
+  "features": [
+    "Diffuse infiltrate of medium-sized lymphoid cells replacing the tissue",
+    "Round to irregular or indented nuclei with fine to vesicular chromatin",
+    "Small but distinct nucleoli in a subset of cells",
+    "Moderate amounts of pale to eosinophilic cytoplasm",
+    "Scattered small dark lymphocytes, vessels and red cells; no follicles or granulomas"
+  ],
+  "describe_en": "H&E-stained tissue section shows a diffuse infiltrate of medium-sized lymphoid cells with round to irregular nuclei, fine to vesicular chromatin, small distinct nucleoli in some cells and moderate amounts of pale cytoplasm. Scattered small mature lymphocytes and vessels are present, without follicles or granulomas. The morphology is that of an atypical medium-sized lymphoid infiltrate and is not specific on its own. In the context of known T-prolymphocytic leukemia, these findings are compatible with tissue involvement, to be confirmed by immunohistochemistry for CD3, CD7 and TCL1.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger (at least twice a small lymphocyte) with vesicular nuclei and prominent nucleoli and are CD20/PAX5-positive."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL usually shows more pleomorphic cells with a mixed inflammatory background and lacks TCL1 expression and inv(14)."},
+    {"dx": "Mantle cell lymphoma, blastoid variant", "vs": "Blastoid mantle cell lymphoma is a B-cell neoplasm with cyclin D1 and SOX11 positivity."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Lymphoblasts have finer blastic chromatin, scant cytoplasm and brisk mitoses and are TdT-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61184",
+  "recognize_zh": "HPLC 層析圖在 HbA2 滯留時間窗（約 2.81 分）出現巨大黑色峰，峰表中 A2 占 44.5%、A0 54.1%；β 地中海型貧血 HbA2 僅約 4–8%，超過 40% 表示有結構性血紅素變異（如 HbE）與 A2 共同溶出。",
+  "features": [
+    "Cation-exchange HPLC chromatogram (beta-thal short program style) with retention time 0-6 minutes on the x-axis",
+    "Dominant A0 peak at 1.72 min (54.1%) and a large broad peak in the A2 window at 2.81 min (44.5%, flagged with asterisk)",
+    "Minor peaks: A1a 1.0%, A1b 1.0%, LA1c/CHb-1 0.7%, A1c 5.4%, P3 2.8% and unknown peaks at 0.27, 1.50 and 3.57 min",
+    "No distinct peaks in the HbF, HbS or HbD windows are listed",
+    "Photographed printout; axis labels partly blurred"
+  ],
+  "describe_en": "Cation-exchange HPLC shows HbA0 of 54.1% and a large peak eluting in the HbA2 retention window at 2.81 minutes accounting for 44.5% of total hemoglobin, with no significant peaks listed in the HbF, HbS or HbD windows. A value this high far exceeds the HbA2 elevation of beta-thalassemia trait (typically 3.5-8%) and indicates a structurally abnormal hemoglobin co-eluting with HbA2. The pattern is most suggestive of heterozygosity for a variant such as HbE (or Hb Osu-Christiansborg/Hb G-Coushatta type variants); confirmation by capillary electrophoresis, alkaline/acid electrophoresis or beta-globin gene sequencing is recommended.",
+  "ddx": [
+    {"dx": "Beta-thalassemia trait", "vs": "True HbA2 elevation in beta-thalassemia trait rarely exceeds 8% and is accompanied by microcytosis."},
+    {"dx": "Hemoglobin Lepore trait", "vs": "Hb Lepore also elutes in or near the A2 window but usually constitutes only about 5-15% with thalassemic indices."},
+    {"dx": "Hemoglobin E trait", "vs": "HbE co-elutes with HbA2 and typically measures 25-35% in trait; a higher value may reflect coexisting alpha-thalassemia status or a different variant, so capillary electrophoresis or DNA analysis is needed to confirm."},
+    {"dx": "Hemoglobin D-Punjab or HbS trait", "vs": "HbD and HbS elute later, in their own windows (about 4.0-4.3 and 4.4-4.6 minutes), not in the A2 window."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

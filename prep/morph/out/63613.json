@@ -1,0 +1,21 @@
+{
+  "id": "63613",
+  "recognize_zh": "兩顆分葉核嗜中性球聚在一起，細胞膜外緣附著一圈排列緊密的血小板（platelet satellitism，箭頭），中間夾著一顆被擠壓變形、深藍色的細胞；這種血小板環繞白血球的現象見於 EDTA 抗凝血。",
+  "features": [
+    "Aggregate of two segmented neutrophils with fine lilac granules",
+    "Numerous platelets adherent in a ring (rosette) around the neutrophil membranes",
+    "Adherent platelets normal in size with granular purple centers",
+    "Compressed, deeply basophilic cell wedged between the neutrophils, nature indeterminate (possibly a lymphocyte)",
+    "Few free platelets and normal-appearing red cells in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows a small leukocyte aggregate composed of two segmented neutrophils with an intervening compressed, deeply basophilic cell. Numerous normal-sized platelets adhere in a rosette around the neutrophil membranes, with only a few free platelets in the background. The neutrophils show no toxic changes and red cells are unremarkable. Findings are consistent with platelet satellitism with neutrophil aggregation, an EDTA-dependent in vitro phenomenon that can cause spurious thrombocytopenia and leukopenia; a repeat count on citrate- or heparin-anticoagulated blood is recommended.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "In platelet clumping platelets aggregate with each other in free clumps rather than rimming leukocyte membranes, although both cause pseudothrombocytopenia."},
+    {"dx": "Platelet phagocytosis or intracellular bacteria", "vs": "Phagocytosed platelets or organisms lie within the neutrophil cytoplasm rather than attached to its outer surface."},
+    {"dx": "EDTA-dependent leukocyte agglutination without satellitism", "vs": "Leukoagglutination forms neutrophil clumps that lack the surrounding platelet rim."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

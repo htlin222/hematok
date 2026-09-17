@@ -1,0 +1,22 @@
+{
+  "id": "63883",
+  "recognize_zh": "同一淋巴結有兩種成分：上方 SLL 為密集小淋巴球，CD5、LEF-1、PAX5 陽性；下方 HS 為大型、細胞質豐富粉紅的異型細胞，CD4、CD11c、CD56 陽性而 LEF-1 陰性；右側 IGH FR2 片段分析兩區皆出現約 254.6–254.9 bp 的相同單株峰，證明同一克隆的跨譜系轉化。",
+  "features": [
+    "SLL H&E: diffuse sheets of small round lymphocytes with clumped chromatin and scant cytoplasm",
+    "SLL IHC: tumor cells positive for CD5, LEF-1 and PAX5",
+    "HS H&E: cohesive-appearing sheets of large atypical cells with round to oval vesicular nuclei, small nucleoli and abundant eosinophilic cytoplasm",
+    "HS IHC: positive for CD4, CD11c and CD56, negative for LEF-1 (and PAX5 per description); CD5 highlights only interspersed background T cells",
+    "IGH FR2 capillary electrophoresis: dominant clonal peak at 254.86 bp in the SLL sample and 254.62 bp in the HS sample, essentially identical size"
+  ],
+  "describe_en": "Composite figure from a pelvic lymph node biopsy. One component consists of diffuse small lymphocytes with round nuclei, clumped chromatin and scant cytoplasm that express CD5, LEF-1 and PAX5, consistent with small lymphocytic lymphoma. A second component is composed of large atypical cells with vesicular oval nuclei, small nucleoli and abundant eosinophilic cytoplasm that express CD4, CD11c and CD56 and lack LEF-1, consistent with histiocytic sarcoma. IGH FR2 fragment analysis shows a dominant clonal peak of the same size (about 254.6–254.9 bp) in both microdissected components, indicating a shared B-cell clone. Findings are consistent with small lymphocytic lymphoma with clonally related transdifferentiation to histiocytic sarcoma.",
+  "ddx": [
+    {"dx": "Richter transformation to diffuse large B-cell lymphoma", "vs": "DLBCL-type Richter cells retain B-cell markers (PAX5, CD20, CD79a) and lack histiocytic markers, whereas this large-cell component is PAX5-negative and CD4/CD11c-positive."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL cells are strongly CD30-positive with T-cell markers or ALK and have hallmark horseshoe nuclei, rather than a histiocytic CD11c/CD163 profile."},
+    {"dx": "Langerhans cell histiocytosis/sarcoma", "vs": "Langerhans cell neoplasms have grooved nuclei and express CD1a and langerin (CD207), which are not part of this profile."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "These are CD45-negative and express keratin or S100/SOX10/melan-A, and would not share the IGH clone with the SLL."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD5, LEF-1, PAX5, CD4, CD11c, CD56; IGH PCR",
+  "match": "consistent",
+  "high_yield": false
+}

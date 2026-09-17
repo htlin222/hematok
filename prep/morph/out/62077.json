@@ -1,0 +1,22 @@
+{
+  "id": "62077",
+  "recognize_zh": "HPLC 報告顯示 HbA2 升高至 4.6%（>3.5%）、HbF 僅 1.0%，主峰為 HbA0 且無異常變異血紅素峰，這是 β 型地中海貧血帶因者（β-thalassemia minor）的典型結果。",
+  "features": [
+    "Cation-exchange HPLC report (non-morphologic)",
+    "HbA2 elevated at 4.6% (retention time 3.64 min)",
+    "HbF 1.0% (retention time 1.09 min), normal to minimally increased",
+    "Dominant HbA0 peak (84.1%, 2.47 min) with P2/P3 minor peaks",
+    "No abnormal variant peak (e.g., HbS, HbE, HbD) in the variant windows"
+  ],
+  "describe_en": "This is a cation-exchange high-performance liquid chromatography report rather than a morphologic image. The chromatogram shows a dominant HbA0 peak with an elevated HbA2 fraction of 4.6% and HbF of 1.0%, with small P2 and P3 peaks and no abnormal variant hemoglobin peak. An HbA2 above 3.5% with a normal HbA pattern is diagnostic of beta-thalassemia trait when correlated with microcytosis (low MCV/MCH) and normal iron studies. Findings are consistent with beta-thalassemia minor.",
+  "ddx": [
+    {"dx": "Alpha-thalassemia trait", "vs": "Alpha-thalassemia trait shows normal or low HbA2 (<3.5%) despite microcytosis and requires alpha-globin gene deletion testing."},
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency lowers HbA2 and has low ferritin, so a raised HbA2 argues for beta-thalassemia trait (though coexisting iron deficiency can mask it)."},
+    {"dx": "HbE trait or other variant co-eluting in the A2 window", "vs": "HbE and Hb Lepore co-elute with HbA2 but typically give values well above 10%, far higher than the 4.6% seen here."},
+    {"dx": "Delta-beta thalassemia trait", "vs": "Delta-beta thalassemia shows normal or low HbA2 with markedly raised HbF (5-20%)."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (HPLC)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

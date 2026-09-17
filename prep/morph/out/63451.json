@@ -1,0 +1,22 @@
+{
+  "id": "63451",
+  "recognize_zh": "骨髓抹片中有一大團彼此緊密黏附的大型細胞，細胞核大、互相擠壓成形（nuclear molding），核質比高，細胞質淡藍並有融合成合胞體的感覺，與周圍失焦的造血細胞明顯不同，這種成團聚集的外來細胞提示轉移性腫瘤。",
+  "features": [
+    "Large cohesive cluster of tightly aggregated cells",
+    "Large nuclei with high N:C ratio and nuclear molding/overlap",
+    "Finely granular to reticulated chromatin; nucleoli not clearly resolved",
+    "Scant to moderate pale blue cytoplasm with indistinct, syncytial-appearing borders",
+    "Background of out-of-focus hematopoietic elements and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large cohesive cluster of tightly aggregated cells with large nuclei, high nuclear-to-cytoplasmic ratios, nuclear molding, and pale blue cytoplasm with indistinct cell borders. The cells are distinct in size and arrangement from the surrounding marrow elements, which are out of focus. The primary site cannot be determined morphologically. Findings are consistent with bone marrow involvement by metastatic non-hematopoietic malignancy; correlation with a trephine biopsy and immunohistochemistry (e.g., keratins, neuroendocrine markers, CD45) is recommended.",
+  "ddx": [
+    {"dx": "Clustered acute leukemia blasts or lymphoma cells", "vs": "Hematopoietic cells are discohesive and dispersed on smears, rarely forming true cohesive clusters with nuclear molding, and are CD45 positive."},
+    {"dx": "Osteoblast clusters", "vs": "Osteoblasts have eccentric round nuclei, abundant basophilic cytoplasm with a perinuclear Golgi clearing, and are loosely arranged rather than molded."},
+    {"dx": "Small cell carcinoma versus other metastatic carcinoma", "vs": "Small cell carcinoma shows scant cytoplasm, prominent molding, and neuroendocrine marker positivity, while adenocarcinoma shows more cytoplasm and gland-like clusters."},
+    {"dx": "Neuroblastoma or other small round blue cell tumor (in children)", "vs": "Shows Homer Wright rosettes with neuropil and positivity for PHOX2B/synaptophysin, with elevated urine catecholamines."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

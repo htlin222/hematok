@@ -1,0 +1,23 @@
+{
+  "id": "63515",
+  "recognize_zh": "Wright 染色骨髓抹片中多顆未增大的紅血球含細小環狀滋養體（黑箭頭）、線狀裂殖子（白箭頭）與疑似分裂中的形態（紅箭頭），無色素、無配子體，符合紅血球內巴貝西蟲（Babesia）。",
+  "features": [
+    "Many red cells contain small intraerythrocytic parasites; infected cells are not enlarged",
+    "Delicate ring-form trophozoites with a small chromatin dot (black arrow)",
+    "Linear/elongated merozoite forms (white arrow)",
+    "Paired or budding forms suggestive of binary fission (red arrow)",
+    "No hemozoin pigment, no Schüffner stippling, no gametocytes or schizonts",
+    "Some small extracellular dot-like forms in background"
+  ],
+  "describe_en": "Wright-stained bone marrow aspirate smear shows numerous red cells containing small intraerythrocytic parasites without red cell enlargement. Multiple forms are present, including delicate ring-like trophozoites (black arrow), elongated linear merozoites (white arrow), and paired/budding forms suggestive of division (red arrow). There is no hemozoin pigment, no stippling, and no gametocytes or schizonts. Findings are consistent with Babesia infection; parasitemia should be quantified on the peripheral blood smear and confirmed with PCR.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum", "vs": "P. falciparum rings are uniform with frequent accolé forms and may show crescent gametocytes and pigment, whereas Babesia shows pleomorphic rings, linear and dividing forms, and extracellular parasites without pigment."},
+    {"dx": "Pappenheimer or Howell-Jolly bodies", "vs": "These inclusions are solid dots without a ring of cytoplasm and do not show paired or tetrad arrangements."},
+    {"dx": "Platelets overlying red cells", "vs": "Overlying platelets are granular with a halo and lie in a different focal plane rather than forming discrete rings within the red cell."},
+    {"dx": "Stain precipitate", "vs": "Precipitate is distributed across the slide including between cells and lacks the uniform ring and chromatin structure of parasites."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright",
+  "match": "consistent",
+  "high_yield": true
+}

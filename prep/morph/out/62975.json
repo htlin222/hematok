@@ -1,0 +1,23 @@
+{
+  "id": "62975",
+  "recognize_zh": "周邊血抹片中血小板數量不少，其中多個血小板明顯變大，直徑接近甚至等同旁邊紅血球的大小，呈圓形、深紫紅色顆粒密集；血小板大小與紅血球相當即為巨大血小板（giant platelets），背景紅血球有部分皺縮成棘狀。",
+  "features": [
+    "Numerous platelets with marked size variation",
+    "Several giant platelets approaching or equaling the diameter of adjacent red cells",
+    "Giant platelets are round with densely packed purple-red granules and little visible hyalomere",
+    "Smaller normal-sized platelets also present",
+    "Background red cells largely normocytic with scattered crenated (echinocytic) forms, likely artifactual",
+    "No leukocytes present in this field for assessment of Döhle-like inclusions"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous platelets with marked anisocytosis, including several giant platelets that approach or equal the diameter of adjacent red cells. The large platelets are round and densely granulated, and normal-sized platelets are also present. Red cells are largely normocytic, with scattered crenated forms that are likely artifactual. No leukocytes are present in this field to assess for Döhle-like inclusions. The findings are consistent with giant platelets; correlation with platelet count, mean platelet volume, family history and review of neutrophils is recommended to separate inherited macrothrombocytopenias from acquired causes such as immune thrombocytopenia or a myeloproliferative neoplasm.",
+  "ddx": [
+    {"dx": "MYH9-related disorder (May-Hegglin anomaly)", "vs": "MYH9 disorders show giant platelets with thrombocytopenia and characteristic Döhle-like blue inclusions in neutrophils, which should be sought on the smear."},
+    {"dx": "Bernard-Soulier syndrome", "vs": "Bernard-Soulier syndrome has giant platelets with absent ristocetin-induced agglutination and reduced CD42b (GPIb-IX-V) on flow cytometry, without neutrophil inclusions."},
+    {"dx": "Immune thrombocytopenia", "vs": "ITP shows increased young large platelets with a reduced count but fewer platelets overall and normal-sized forms, and platelets rarely reach red cell size."},
+    {"dx": "Microspherocytes or red cell fragments", "vs": "Microspherocytes are homogeneous orange-pink without granules, whereas giant platelets are purple with a granular granulomere."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1792",
+  "recognize_zh": "細胞化學染色下，一顆大型細胞的豐富細胞質呈瀰漫性紅紫色細顆粒／纖維狀強陽性，周圍紅血球被染成黃色，符合高雪細胞對 PAS 或酸性磷酸酶（acid phosphatase）的強陽性反應。",
+  "features": [
+    "Single large cell with abundant cytoplasm and low N:C ratio",
+    "Diffuse strong magenta-purple granular to fibrillary cytoplasmic positivity",
+    "Nucleus obscured by the reaction product, appearing central to slightly eccentric",
+    "Surrounding erythrocytes counterstained yellow",
+    "Cytochemical preparation limits assessment of fine nuclear and cytoplasmic detail"
+  ],
+  "describe_en": "Cytochemically stained smear (reaction likely PAS or acid phosphatase; exact stain not specified) shows a single large cell with abundant cytoplasm displaying strong, diffuse magenta-purple granular to fibrillary positivity, with surrounding yellow-counterstained erythrocytes. The nucleus is largely obscured, and the striated cytoplasmic texture seen on Romanowsky stains cannot be evaluated here. Strong cytoplasmic positivity in a large histiocyte is consistent with a Gaucher cell in the given context; the diagnosis should be confirmed by glucocerebrosidase assay or GBA1 testing.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells (CML, myeloma, mycobacterial infection)", "vs": "Cytochemistry does not separate them reliably; normal enzyme activity and the underlying disease distinguish them."},
+    {"dx": "Niemann-Pick cells", "vs": "Niemann-Pick foam cells are vacuolated and typically weak or variable for PAS/acid phosphatase compared with the strong diffuse reaction of Gaucher cells."},
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes can be PAS positive but have a lobulated polyploid nucleus and granular platelet-type cytoplasm, which require a Romanowsky stain or CD61 to confirm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Cytochemical stain (likely PAS or acid phosphatase)",
+  "match": "partial",
+  "high_yield": false
+}

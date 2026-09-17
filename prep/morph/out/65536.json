@@ -1,0 +1,22 @@
+{
+  "id": "65536",
+  "recognize_zh": "E-cadherin 免疫染色中，只有少數散在、體積很大的細胞呈棕色膜狀陽性，細胞核圓且大、染色質淡；背景骨髓細胞很少且沒有成群的正常紅血球前驅細胞。這符合 parvovirus B19 造成純紅血球再生不良時的巨大原紅血球（giant proerythroblast）。",
+  "features": [
+    "Scattered, isolated very large cells (several times the size of surrounding nuclei) with membranous/cytoplasmic E-cadherin positivity",
+    "Large round to oval nuclei with pale, open chromatin inside a rim of positive cytoplasm",
+    "Absence of clusters of smaller E-cadherin-positive maturing erythroid precursors",
+    "Hypocellular background composed mainly of granulocytic nuclei, stromal cells and abundant fat spaces",
+    "E-cadherin marks early erythroid precursors, confirming the erythroid lineage of the giant cells"
+  ],
+  "describe_en": "Bone marrow biopsy section stained for E-cadherin by immunohistochemistry shows a hypocellular marrow with prominent fat and a residual population of granulocytic and stromal cells. Scattered single very large cells with large round nuclei and open chromatin show membranous and cytoplasmic E-cadherin staining, identifying them as early erythroid precursors. Normal erythroid islands composed of smaller, maturing E-cadherin-positive precursors are absent. Findings are consistent with giant proerythroblasts of parvovirus B19 infection with pure red cell aplasia.",
+  "ddx": [
+    {"dx": "Megakaryocytes", "vs": "Megakaryocytes are E-cadherin negative and CD61/CD42b positive, with lobulated rather than round single nuclei."},
+    {"dx": "Pure erythroid leukemia", "vs": "Erythroid leukemia shows sheets of E-cadherin-positive immature erythroid cells (often p53-positive) rather than rare isolated giant proerythroblasts in a hypocellular marrow."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells are also E-cadherin positive but form cohesive clusters and are keratin positive, whereas proerythroblasts are keratin negative and CD71/glycophorin positive."},
+    {"dx": "Megaloblastic erythroid hyperplasia", "vs": "Megaloblastic anemia shows increased, maturing erythroid precursors at all stages rather than absent maturation with only isolated giant pronormoblasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: E-cadherin",
+  "match": "consistent",
+  "high_yield": false
+}

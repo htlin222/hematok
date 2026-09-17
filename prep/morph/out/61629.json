@@ -1,0 +1,20 @@
+{
+  "id": "61629",
+  "recognize_zh": "BCL2 染色中大型細胞呈強烈棕色細胞質染色，沿著竇狀血管排成一串串環繞脂肪空泡，而小型造血細胞陰性；BCL2 陽性支持這些血管內大細胞為腫瘤性 B 細胞，但 BCL2 本身不具診斷特異性。",
+  "features": [
+    "Strong cytoplasmic/perinuclear BCL2 staining in large atypical cells",
+    "Positive cells arranged in chains and cords within sinusoidal channels around fat spaces",
+    "Surrounding small hematopoietic cells largely BCL2 negative",
+    "Positive nuclei oval with vesicular chromatin in the counterstain window"
+  ],
+  "describe_en": "BCL2 immunostain of the bone marrow biopsy shows strong cytoplasmic staining in large atypical cells arranged in chains and cords within sinusoidal spaces surrounding fat vacuoles. The adjacent small hematopoietic cells are largely negative. The distribution mirrors that of the CD20-positive intrasinusoidal infiltrate. BCL2 expression is common in intravascular large B-cell lymphoma, and the findings support the diagnosis in conjunction with CD20 positivity and the intravascular pattern.",
+  "ddx": [
+    {"dx": "Reactive T cells (BCL2 positive)", "vs": "Normal T cells are small and BCL2 positive, whereas the positive cells here are large and correspond to the CD20-positive intrasinusoidal population."},
+    {"dx": "Follicular lymphoma involving marrow", "vs": "FL is BCL2 positive but forms paratrabecular aggregates of small centrocytes that are CD10 positive, not large intrasinusoidal cells."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "Also sinusoidal, but the cells are medium-sized, CD3 positive and CD20 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: BCL2",
+  "match": "consistent",
+  "high_yield": false
+}

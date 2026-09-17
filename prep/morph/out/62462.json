@@ -1,0 +1,21 @@
+{
+  "id": "62462",
+  "recognize_zh": "這是 CD45 對 SSC 的流式圖（活細胞）：淋巴球 gate 佔 64.45%，顆粒球僅 24.47%、單核球 6.53%，淋巴球比例明顯上升；淋巴球區內藍色族群 CD45 表現較綠色族群略弱，提示異常 T 細胞族群。",
+  "features": [
+    "Dot plot of side scatter (SS INT) versus CD45-KO, gated on live cells",
+    "Lymphocyte gate (bright CD45, low SSC) contains 64.45% of events, indicating relative lymphocytosis",
+    "Granulocyte gate 24.47% (moderate CD45, high SSC) and monocyte gate 6.53% (intermediate SSC)",
+    "Within the lymphocyte gate, blue events show slightly dimmer CD45 than green events",
+    "Scattered CD45-dim/negative low-SSC events consistent with debris or residual non-leukocytes; non-morphologic figure"
+  ],
+  "describe_en": "Flow cytometric CD45 versus side-scatter plot of live peripheral blood leukocytes shows a markedly increased lymphocyte fraction (64.45%) with reduced granulocytes (24.47%) and monocytes (6.53%). Within the lymphocyte gate, the population painted blue shows slightly dimmer CD45 than the green population, corresponding to the abnormal and residual normal T-cell subsets defined in companion plots. No distinct CD45-dim blast population is evident. The findings indicate an expanded lymphocyte population warranting lineage and aberrancy analysis, which in this case supports Sezary cell involvement.",
+  "ddx": [
+    {"dx": "Blast population (acute leukemia)", "vs": "Blasts occupy a CD45-dim, low-to-intermediate SSC region, whereas this expanded population lies in the bright CD45 lymphocyte region."},
+    {"dx": "Chronic lymphocytic leukemia or other B-cell lymphocytosis", "vs": "The CD45/SSC pattern is similar, so lineage markers such as CD19, CD5 and CD23 versus CD3/CD4 separate B-cell from T-cell expansions."},
+    {"dx": "Reactive lymphocytosis", "vs": "Reactive expansions lack CD7/CD26 loss and aberrant CD3 or CD4 intensity on the lymphocyte subsets."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62074",
+  "recognize_zh": "抹片中央有一大團緊密黏聚、細胞邊界不清且互相重疊的細胞團塊（cohesive cluster），體積遠大於周圍零散的造血細胞，這種三度空間的黏聚團塊提示骨髓轉移性腫瘤。",
+  "features": [
+    "Large, three-dimensional cohesive cluster of tightly overlapping cells with indistinct cell borders",
+    "Crowded nuclei obscured by cluster thickness; individual nuclear detail and nucleoli not assessable",
+    "Deeply basophilic, frothy/ragged cytoplasm at the cluster periphery",
+    "Few scattered detached hematopoietic cells around the cluster, including granulocytic precursors",
+    "Background of thick, poorly spread blood/marrow material with smudged areas"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large, dense, three-dimensional cohesive cluster of overlapping cells that is distinctly foreign to the normal hematopoietic population. Cell borders are indistinct and the thickness of the aggregate precludes assessment of individual nuclear and nucleolar features at this magnification. Only a few scattered hematopoietic cells are present in this field; overall marrow cellularity cannot be reliably judged from a single aspirate field and should be correlated with the trephine biopsy. Findings are suggestive of metastatic non-hematopoietic neoplasm; immunohistochemistry on the core or clot section is recommended for lineage determination.",
+  "ddx": [
+    {"dx": "Megakaryocyte or megakaryocyte clusters", "vs": "Megakaryocytes are single large cells with lobulated nuclei and granular pink cytoplasm, whereas this aggregate is composed of many discrete overlapping cells forming a cohesive sheet."},
+    {"dx": "Clumped hematopoietic particles (marrow spicule)", "vs": "Marrow particles contain a heterogeneous mixture of maturing hematopoietic cells, fat vacuoles and stroma rather than a monotonous tightly cohesive cell ball."},
+    {"dx": "Osteoblast/osteoclast aggregates", "vs": "Osteoblasts show eccentric nuclei with a perinuclear hof in loose rows and osteoclasts are multinucleated single cells, unlike this dense epithelial-like cluster."},
+    {"dx": "Aggregated blasts in acute leukemia or lymphoma", "vs": "Leukemic blasts are discohesive and spread as single cells; true cohesion favors carcinoma or other solid tumor, confirmed by keratin-positive IHC."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

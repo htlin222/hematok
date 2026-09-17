@@ -1,0 +1,21 @@
+{
+  "id": "62719",
+  "recognize_zh": "這是流式細胞儀的點狀圖（非形態）：在 blast gate 中以 nTdT 對 CD34 作圖，芽細胞整群 TdT 呈連續的弱至中度表現，其中一部分（紅色）CD34 陽性，呈現異質性的不成熟表型，需與其他 B 系與骨髓系標記合併判讀混合表型急性白血病。",
+  "features": [
+    "Dot plot of gated blasts: nuclear TdT (FITC) on x-axis versus CD34 (PC7) on y-axis",
+    "Blast events show a continuous spread of TdT expression from about 10^3 to above 10^4",
+    "Red-colored subpopulation extends upward into CD34-positive range (about 10^3 to 5x10^4)",
+    "Green-colored subpopulation is predominantly CD34-dim to negative",
+    "Heterogeneous CD34 expression within the blast gate suggests more than one maturational subset"
+  ],
+  "describe_en": "This flow cytometry dot plot shows events gated as blasts, displaying nuclear TdT versus CD34. The blasts show a spread of TdT expression, with a red-colored subset that is CD34-positive and a larger green subset that is CD34-dim to negative. Without an isotype or internal negative control on this plot, the exact TdT positivity threshold cannot be defined from the image alone. This plot supports an immature blast population but is not lineage-defining; assignment of mixed phenotype acute leukemia, B/myeloid requires MPO positivity plus strong CD19 with CD79a, cytoplasmic CD22, or CD10 on the same or a distinct blast population.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia with aberrant myeloid antigens", "vs": "B-ALL may express CD13/CD33 but lacks MPO, whereas MPAL B/myeloid requires MPO (or monocytic markers) in addition to B-lineage criteria."},
+    {"dx": "Acute myeloid leukemia with aberrant CD19 or TdT", "vs": "AML with t(8;21) can show CD19 and TdT, but it lacks strong CD19 with strong CD79a/cCD22/CD10 required for B lineage, and recurrent genetic abnormalities take precedence."},
+    {"dx": "Hematogones (normal B-cell precursors)", "vs": "Hematogones show an orderly maturational continuum from CD34+TdT+ to CD20+ cells without aberrant myeloid antigen or MPO expression."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61740",
+  "recognize_zh": "CD3 免疫染色把背景中大量小型 T 淋巴球染成棕色膜狀，中央一區細胞稀少、僅剩少數陽性細胞；淋巴瘤樣肉芽腫（lymphomatoid granulomatosis）中大多數細胞是反應性 T 細胞，腫瘤性 B 細胞反而是少數。",
+  "features": [
+    "Numerous CD3-positive small to medium T lymphocytes with crisp membranous/cytoplasmic staining",
+    "CD3-positive cells form the dominant population of the infiltrate",
+    "Interspersed CD3-negative cells, including larger nuclei, likely represent the B-cell/histiocytic component",
+    "Central hypocellular zone with only scattered positive cells, possibly early necrosis",
+    "Polymorphous, non-sheet-like distribution of T cells"
+  ],
+  "describe_en": "Immunohistochemistry for CD3 shows a dense infiltrate composed predominantly of CD3-positive small T lymphocytes with membranous staining. Scattered CD3-negative cells are admixed, and a central hypocellular zone contains only rare positive cells, suggestive of necrosis. The large atypical cells are not highlighted by CD3. In the appropriate context, the T-cell-rich background is consistent with lymphomatoid granulomatosis, in which the neoplastic EBV-positive B cells are a minority population.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL shows cytologically atypical CD3-positive cells, often with aberrant antigen loss and clonal TCR, whereas in LYG the large atypical cells are CD20-positive/EBER-positive and the T cells are reactive."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "ENKTL is also angiocentric and EBV-positive, but the EBER-positive cells are cytoplasmic CD3-epsilon/CD56-positive rather than CD20-positive B cells."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL lacks angiocentricity and necrosis and its scattered large B cells are usually EBER-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

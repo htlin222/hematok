@@ -1,0 +1,22 @@
+{
+  "id": "13220",
+  "recognize_zh": "單顆中性球的核分成遠多於 5 葉（約 8 葉以上），各葉以細絲相連，細胞本身也偏大，是典型的過度分葉中性球（hypersegmented neutrophil），提示維生素 B12 或葉酸缺乏造成的巨母細胞性造血。",
+  "features": [
+    "Single neutrophil with a markedly hypersegmented nucleus (well over 5 lobes, approximately 8 or more)",
+    "Lobes connected by thin chromatin filaments, with dense clumped chromatin",
+    "Cell larger than a typical neutrophil (macropolycyte)",
+    "Pale cytoplasm with fine neutrophilic granules; no toxic granulation or Döhle bodies",
+    "Surrounding red cells round with central pallor; overall red cell size cannot be reliably judged in this crop"
+  ],
+  "describe_en": "Peripheral blood smear shows an enlarged neutrophil with a markedly hypersegmented nucleus composed of more than 5 lobes joined by thin chromatin strands. The cytoplasm contains fine neutrophilic granules without toxic granulation or Döhle bodies. The adjacent red cells are not diagnostic on their own in this high-power field. A neutrophil with 6 or more lobes (or more than 5% of neutrophils with 5 lobes) is suggestive of megaloblastic hematopoiesis, most commonly due to vitamin B12 or folate deficiency; correlation with MCV, serum B12/folate, methylmalonic acid, and homocysteine is recommended.",
+  "ddx": [
+    {"dx": "Inherited hereditary hypersegmentation of neutrophils", "vs": "The hereditary form is a benign autosomal dominant trait without macrocytosis or anemia, so it is separated by normal B12/folate and family studies."},
+    {"dx": "Drug-induced dysgranulopoiesis (hydroxyurea, methotrexate, antimetabolites)", "vs": "Drug effect gives the same hypersegmentation and is distinguished by medication history rather than morphology."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS more often shows hypolobated (pseudo-Pelger) and hypogranular neutrophils with cytopenias, with normal vitamin levels and clonal cytogenetic changes."},
+    {"dx": "Iron deficiency or renal failure–associated hypersegmentation", "vs": "These may show mild hypersegmentation with microcytosis or normocytosis rather than macro-ovalocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

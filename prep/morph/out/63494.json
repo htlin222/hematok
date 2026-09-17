@@ -1,0 +1,21 @@
+{
+  "id": "63494",
+  "recognize_zh": "骨髓切片免疫染色中，密集的小圓形細胞大多只呈藍色核對比染色，僅部分細胞核呈淡棕灰色、偶見少量棕色點狀陽性；標記名稱未標示，也看不到明顯壞死，只能當作白血病免疫染色的一部分來判讀。",
+  "features": [
+    "Densely packed small to intermediate round cells replacing the marrow",
+    "Predominantly negative staining with blue hematoxylin counterstain",
+    "Weak to moderate brownish nuclear tinge in a subset of cells",
+    "Rare scattered cells with small brown cytoplasmic dots",
+    "Marker not identified; necrosis not clearly discernible at this magnification"
+  ],
+  "describe_en": "Immunohistochemical stain on a bone marrow biopsy shows a diffuse, densely cellular infiltrate of small to intermediate round cells. Most cells are negative or show only weak brownish nuclear staining, with rare cells containing small cytoplasmic brown dots. The antibody is not indicated and the staining is weak, so the result cannot be confidently interpreted as positive or negative from this image. Interpretation requires correlation with the stated diagnosis of acute leukemia with focal coagulative necrosis and the remainder of the immunophenotypic panel.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Confirmation requires nuclear TdT and B-lineage markers (PAX5, CD79a, CD19) with definite rather than equivocal staining."},
+    {"dx": "Acute myeloid leukemia", "vs": "Would be supported by MPO or CD117 positivity in the blasts and absence of B-lineage markers."},
+    {"dx": "Non-specific staining in necrotic or poorly fixed marrow", "vs": "Weak diffuse brownish nuclear tinge without crisp positive/negative contrast can reflect necrosis or decalcification artifact rather than true antigen expression."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: marker not specified",
+  "match": "partial",
+  "high_yield": false
+}

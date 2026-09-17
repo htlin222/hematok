@@ -1,0 +1,22 @@
+{
+  "id": "61376",
+  "recognize_zh": "右側血片中的淋巴芽細胞核質比高、染色質細緻、細胞質少且呈嗜鹼性而無顆粒；左側流式直方圖顯示 CRLF2 PE 右移、陽性 76.72%，提示 CRLF2 過度表現，支持 Ph-like B-ALL 的篩檢方向。",
+  "features": [
+    "Medium to large blasts with high N:C ratio and scant agranular basophilic cytoplasm",
+    "Round to irregular/indented nuclei with finely dispersed chromatin; nucleoli inconspicuous",
+    "No Auer rods or cytoplasmic granules",
+    "Flow histogram: CRLF2 (PE) expression shifted above the negative control, 76.72% positive",
+    "Background of normocytic erythrocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous medium to large blasts with high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, irregular to indented nuclear contours and a thin rim of agranular basophilic cytoplasm. Accompanying flow cytometric histogram demonstrates overexpression of CRLF2 on the blast population (76.72% positive relative to the negative control gate). Blast morphology alone does not distinguish genetic subtypes; together with a B-lymphoblast immunophenotype, CRLF2 overexpression is suggestive of B-lymphoblastic leukemia, BCR::ABL1-like, which requires confirmation by FISH or molecular studies for CRLF2 rearrangement or other kinase-activating lesions.",
+  "ddx": [
+    {"dx": "B-ALL with BCR::ABL1", "vs": "Morphology and immunophenotype are indistinguishable; the presence of t(9;22)/BCR::ABL1 by FISH or RT-PCR separates it from BCR::ABL1-like B-ALL."},
+    {"dx": "B-ALL, NOS or other genetic subtypes", "vs": "CRLF2 expression is typically negative, and subtype assignment relies on cytogenetics and molecular testing rather than blast morphology."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Blasts can look similar but express myeloid markers (CD13/CD33/CD117) and lack B-lineage markers such as CD19, CD79a and PAX5."},
+    {"dx": "Mantle cell lymphoma, blastoid variant", "vs": "Cells are mature B cells with surface light chain restriction, CD5 and cyclin D1, and lack TdT and CD34."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry (CRLF2 PE)",
+  "match": "consistent",
+  "high_yield": false
+}

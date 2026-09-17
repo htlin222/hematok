@@ -1,0 +1,21 @@
+{
+  "id": "65418",
+  "recognize_zh": "流式細胞圖中紅色族群側向散射（SSC）偏高、CD33 強陽性、CD117 陽性、CD13 陽性，但 HLA-DR 與 CD34 陰性，細胞內 MPO 陽性、TdT 陰性，這種 CD34−/HLA-DR− 的高 SSC 骨髓系族群是 APL 的典型免疫表型。",
+  "features": [
+    "Abnormal population (red) with dim-moderate CD45 and high side scatter",
+    "Bright homogeneous CD33 and CD117 positive; CD13 positive with heterogeneous intensity",
+    "HLA-DR negative and CD34 negative; CD7 negative",
+    "CD15 expression on a subset within the CD117+ gate (80.75% of events in gate B); CD64 dim on a separate subset, CD14 negative",
+    "Cytoplasmic MPO positive; cytoplasmic CD79a, cytoplasmic CD3 and TdT negative"
+  ],
+  "describe_en": "Flow cytometric analysis shows a dominant abnormal myeloid population with dim-to-moderate CD45 and high side scatter. The cells are CD33 bright, CD117 positive, CD13 positive with heterogeneous intensity and partial CD15, while negative for HLA-DR, CD34, CD7 and CD14; CD64 is dim on a subset. Intracellular staining shows myeloperoxidase positivity with negative cytoplasmic CD79a, cytoplasmic CD3 and TdT, excluding B-, T- and lymphoblastic lineage. This CD34-negative, HLA-DR-negative, high-SSC myeloid phenotype is characteristic of abnormal promyelocytes and, together with morphology, is suggestive of acute promyelocytic leukemia; PML::RARA confirmation is required.",
+  "ddx": [
+    {"dx": "AML with NPM1 mutation", "vs": "Also frequently CD34-negative and HLA-DR-negative, but usually has lower side scatter, monocytic markers more often, and lacks PML::RARA."},
+    {"dx": "Normal/regenerating promyelocytes", "vs": "Normal promyelocytes are CD34-/HLA-DR- but show a synchronous CD13/CD16/CD11b maturation pattern with high CD15, rather than a homogeneous CD33-bright arrested population."},
+    {"dx": "AML with maturation (HLA-DR-negative)", "vs": "Separation is not possible by this panel alone; genetic testing for PML::RARA is decisive."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

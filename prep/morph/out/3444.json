@@ -1,0 +1,21 @@
+{
+  "id": "3444",
+  "recognize_zh": "中央白血球（分葉核、細胞質含顆粒）的周圍與細胞質邊緣聚集許多紫色小血小板，部分似已被吞入細胞質內，呈現白血球吞噬血小板；背景中可見棘狀（crenated）紅血球。",
+  "features": [
+    "Leukocyte with lobulated nucleus and granular cytoplasm at center",
+    "Numerous small platelets clustered on the cytoplasmic surface and around the cell, some appearing internalized",
+    "Loose aggregate of platelets adjacent to the leukocyte",
+    "Background red cells normochromic with scattered echinocytes (crenated cells), likely storage/EDTA artifact",
+    "Few free platelets elsewhere in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows normochromic red cells with scattered crenated forms. A granulated leukocyte with a lobulated nucleus is associated with a cluster of platelets, several of which appear to lie within or overlapping its cytoplasm, while others adhere to its surface. Free platelets are otherwise relatively sparse. Findings are consistent with leukocyte phagocytosis of platelets with associated platelet adherence; overlap with platelet satellitism should be considered, and a citrate-anticoagulated or fingerstick smear may help exclude an in vitro artifact causing pseudothrombocytopenia.",
+  "ddx": [
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows a rosette of platelets rimming the neutrophil membrane without internalization, typically in EDTA blood."},
+    {"dx": "Platelet clumping (pseudothrombocytopenia)", "vs": "Platelet clumps are free-standing aggregates not centered on or ingested by a leukocyte."},
+    {"dx": "Anaplasma phagocytophilum morulae", "vs": "Morulae are single intracytoplasmic mulberry-like clusters of basophilic organisms rather than multiple discrete platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

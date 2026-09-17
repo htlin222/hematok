@@ -1,0 +1,35 @@
+{
+  "id": "130",
+  "recognize_zh": "脾臟紅髓內有邊界清楚的病灶，由互相吻合、充滿血液的血管腔構成，腔內有乳頭狀突起，內襯細胞高而肥大並有脫落進腔內的細胞；免疫染色顯示內襯細胞同時帶有內皮與組織球標記（CD68/CD163 類顆粒狀陽性），而正常脾竇才有的 CD8 在病灶內消失，符合 littoral cell angioma。",
+  "features": [
+    "Well-circumscribed red pulp lesion of anastomosing, blood-filled vascular channels of variable caliber, sharply separated from adjacent white pulp",
+    "Papillary projections and pseudopapillary tufts protruding into cyst-like vascular lumina",
+    "Channels lined by plump, tall (hobnail-like) cells with ovoid bland nuclei and moderate pale cytoplasm; occasional desquamated lining cells float in lumina",
+    "No significant nuclear atypia, solid spindle-cell areas or mitotic activity in the fields shown",
+    "Lining cells express vascular and histiocytic markers (granular CD68/CD163-type staining, including sloughed cells), while the lesion lacks the CD8-positive sinus lattice seen in adjacent normal red pulp"
+  ],
+  "describe_en": "Sections of spleen show a well-demarcated lesion within the red pulp, adjacent to preserved white pulp, composed of anastomosing vascular channels filled with red blood cells, some cystically dilated and containing papillary fronds. At higher power, the channels are lined by plump, tall, bland endothelial-type cells with ovoid nuclei, some of which are shed into the lumina; atypia, mitoses and necrosis are not seen. Immunohistochemistry shows the lining cells to express endothelial markers together with a histiocytic marker with granular cytoplasmic staining, whereas the CD8-positive sinusoidal network of the normal red pulp is absent within the lesion, and a nuclear endothelial marker highlights residual native vessels. Findings are consistent with littoral cell angioma of the spleen.",
+  "ddx": [
+    {"dx": "Splenic hemangioma", "vs": "Hemangioma has flat, inconspicuous CD34-positive endothelial lining without papillary tufts, hobnail cells or histiocytic (CD68/CD163) coexpression."},
+    {"dx": "Splenic hamartoma (splenoma)", "vs": "Hamartoma consists of disorganized red pulp with CD8-positive sinus lining cells and lacks the CD8-negative, CD68/CD21-positive papillary lining of LCA."},
+    {"dx": "Angiosarcoma", "vs": "Angiosarcoma shows infiltrative dissecting channels lined by atypical multilayered cells with mitoses, necrosis and solid areas, unlike the bland lining cells of LCA."},
+    {"dx": "Sclerosing angiomatoid nodular transformation (SANT)", "vs": "SANT forms multiple angiomatoid nodules with a mixture of CD34+/CD8-, CD34-/CD8+ and CD34-/CD31+ vessels set in fibrosclerotic stroma, rather than uniform papillary channels with histiocytic marker expression."}
+  ],
+  "specimen": "spleen",
+  "stain": "H&E; IHC panel (endothelial, histiocytic, CD8)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "H&E low power: preserved white pulp (left) adjacent to a lesion of blood-filled anastomosing channels (right)",
+    "H&E: cyst-like and anastomosing vascular spaces filled with red cells and bordered by cellular septa",
+    "H&E medium power: papillary tufts projecting into a blood-filled lumen",
+    "H&E high power: anastomosing channels lined by plump bland cells with some desquamated cells in lumina",
+    "IHC (membranous vascular/littoral marker): strong staining of lining cells in the lesion, adjacent white pulp negative",
+    "Nuclear IHC (likely ERG or WT1): positive nuclei in native vessel endothelium; lesional cells in lumina largely negative",
+    "IHC likely CD8: normal red pulp sinus lattice positive (bottom) contrasted with a lesion lacking sinus staining (top), scattered positive lymphocytes",
+    "Endothelial IHC (likely CD34/CD31): small vessels and larger channel walls highlighted at the interface with white pulp",
+    "Histiocytic IHC (CD68/CD163-type): granular staining of lining cells and clusters of sloughed cells in a lumen",
+    "IHC highlighting the lining of anastomosing blood-filled channels at low power",
+    "IHC with membranous staining of clustered cells along channels (possibly CD21 or langerin)"
+  ]
+}

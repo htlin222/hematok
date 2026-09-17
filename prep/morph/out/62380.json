@@ -1,0 +1,21 @@
+{
+  "id": "62380",
+  "recognize_zh": "這是血球計數儀的輸出圖：左下 RBC 體積分布直方圖出現兩個峰，一個約 60 fL（小球性族群）、另一個約 95 fL（正球性族群），代表雙相紅血球（dimorphic）；白血球 DIFF/BASO 散佈圖與血小板分布則無明顯異常。",
+  "features": [
+    "Bimodal RBC volume histogram with peaks at ~60 fL and ~95 fL",
+    "Microcytic peak is taller than the normocytic peak",
+    "WBC DIFF scattergram shows distinct lymphocyte, monocyte, neutrophil and eosinophil clusters",
+    "BASO channel shows only a small basophil cluster",
+    "Platelet histogram right-skewed with tail toward larger volumes, without a clear giant platelet or RBC-fragment interference peak"
+  ],
+  "describe_en": "Automated hematology analyzer printout shows a bimodal red cell distribution histogram with a dominant microcytic population peaking at approximately 60 fL and a second normocytic population peaking at approximately 95 fL. The leukocyte differential scattergram and basophil channel show well-separated clusters without abnormal populations. The platelet histogram is right-skewed without an obvious interference peak. The dual red cell populations explain the widened RDW, and in a patient receiving iron therapy the findings are consistent with a dimorphic red cell population from treated iron deficiency.",
+  "ddx": [
+    {"dx": "Post-transfusion dual population", "vs": "Transfused normocytic donor cells give a similar bimodal histogram and are distinguished by transfusion history."},
+    {"dx": "Red cell agglutination (cold agglutinin)", "vs": "Agglutinates create a spurious large-volume peak with falsely low RBC count and high MCHC that corrects on warming."},
+    {"dx": "Sideroblastic anemia", "vs": "Sideroblastic anemia also shows two populations but is confirmed by ring sideroblasts on marrow iron stain."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

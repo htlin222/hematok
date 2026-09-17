@@ -1,0 +1,21 @@
+{
+  "id": "61652",
+  "recognize_zh": "周邊血中一個異常前骨髓細胞，核型不規則（摺疊、似雙葉），胞質邊緣呈藍色並充滿粗大紫紅色顆粒而遮蓋核，是 APL 在血中出現異常前骨髓細胞的線索。",
+  "features": [
+    "Single abnormal promyelocyte with irregular, folded to bilobed nucleus",
+    "Cytoplasm filled with coarse purple-red azurophilic granules overlying the nucleus",
+    "Pale-blue agranular cytoplasmic rim at one pole",
+    "No mature neutrophils in the field; platelets not evident",
+    "Background normochromic red cells with rouleaux-like overlap in thicker area"
+  ],
+  "describe_en": "Peripheral blood smear shows an abnormal promyelocyte with an irregular, folded nucleus partially obscured by coarse azurophilic cytoplasmic granules and a pale-blue agranular rim. No Auer rods are clearly resolved in this cell. Platelets and mature neutrophils are not evident in this field. Findings are suggestive of circulating abnormal promyelocytes of acute promyelocytic leukemia; coagulation studies and urgent PML::RARA testing are indicated.",
+  "ddx": [
+    {"dx": "Normal promyelocyte in left shift", "vs": "Normal promyelocytes have round nuclei with a Golgi hof and are accompanied by myelocytes and neutrophilia rather than cytopenia."},
+    {"dx": "Microgranular APL variant", "vs": "The microgranular variant has bilobed nuclei with few or dust-like granules and a high white count, not coarse obscuring granules."},
+    {"dx": "Hypergranular monocyte/promonocyte", "vs": "Monocytic cells have gray-blue cytoplasm with fine dust-like granules and vacuoles, and delicate lacy chromatin."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

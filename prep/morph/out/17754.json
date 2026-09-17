@@ -1,0 +1,21 @@
+{
+  "id": "17754",
+  "recognize_zh": "高倍下可見一大團由許多顆粒狀血小板緊密聚集而成的團塊，旁邊中性球附近亦有少數血小板聚集，背景單顆血小板稀少，符合周邊血液抹片中的血小板凝集（platelet clump）。",
+  "features": [
+    "Large aggregate of numerous individual platelets with purple granules at upper left",
+    "Platelets in the clump retain discrete outlines; no fibrin strands or nucleated cells within",
+    "Small cluster of platelets adjacent to a segmented neutrophil at lower center",
+    "Few isolated platelets in the background",
+    "Neutrophils with normal segmentation and granulation; RBCs without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear at higher power shows a large aggregate composed of many individual granular platelets, with a smaller platelet cluster near a segmented neutrophil and few isolated platelets elsewhere. Neutrophils appear morphologically normal and red cells show no significant abnormality. Platelet clumps are excluded from automated platelet counts. Findings are consistent with platelet clumping, typically EDTA-induced pseudothrombocytopenia; the platelet count should be verified on a citrate-anticoagulated sample.",
+  "ddx": [
+    {"dx": "True thrombocytopenia", "vs": "Genuine thrombocytopenia shows uniformly few platelets with no aggregates on the smear."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows platelets encircling neutrophils in a rosette rather than forming large free aggregates."},
+    {"dx": "Megakaryocyte fragments / micromegakaryocytes", "vs": "Megakaryocyte fragments contain a nucleus or a cohesive cytoplasmic mass, whereas this clump is made of separable individual platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

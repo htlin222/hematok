@@ -1,0 +1,22 @@
+{
+  "id": "60472",
+  "recognize_zh": "BCL2 免疫染色下，幾乎所有中至大型腫瘤細胞都呈強烈細胞質與核周陽性，只剩少數血管內皮與間質細胞陰性；腫瘤性生發中心細胞表現 BCL2 是與反應性濾泡（BCL2 陰性）區分的關鍵。",
+  "features": [
+    "Diffuse sheets of medium to large cells with strong cytoplasmic BCL2 staining",
+    "Perinuclear and granular cytoplasmic pattern outlining round to irregular nuclei",
+    "Nearly all tumor cells positive with uniform intensity",
+    "Negative endothelial cells lining small vessels and a few stromal cells",
+    "Follicle boundaries not discernible in this field"
+  ],
+  "describe_en": "BCL2 immunohistochemical stain shows strong, uniform cytoplasmic positivity in nearly all medium to large neoplastic cells, with only endothelial and stromal cells negative. Follicle boundaries are not discernible at this magnification. Aberrant BCL2 expression in germinal center-type B cells distinguishes neoplastic from reactive follicles and, together with CD10/BCL6 positivity and sheets of centroblasts, is consistent with follicular lymphoma, grade 3B.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal center B cells are BCL2-negative, with BCL2 staining limited to mantle zone B cells and T cells."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is characteristically BCL2-negative or weak, with a starry-sky pattern and near 100% Ki-67."},
+    {"dx": "Diffuse large B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "High-grade B-cell lymphoma with MYC/BCL2 can look similar and is BCL2+, requiring FISH for MYC to separate it."},
+    {"dx": "Small T-cell infiltrate masking BCL2 status", "vs": "BCL2 is expressed by normal T cells, so correlation with CD3 is needed to ensure the positivity is in the neoplastic B cells rather than admixed T cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BCL2",
+  "match": "consistent",
+  "high_yield": false
+}

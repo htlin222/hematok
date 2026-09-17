@@ -1,0 +1,22 @@
+{
+  "id": "60434",
+  "recognize_zh": "低倍 H&E 下淋巴結被模糊的大結節取代，結節內深藍色小淋巴球之間散布大量不規則的淡粉紅色小區塊（由組織球與 LP 細胞構成），使結節看起來像被蟲蛀過的「蛀蝕狀（moth-eaten）」外觀，是 NLPHL 的低倍線索。",
+  "features": [
+    "Effacement of lymph node architecture by vague, large, poorly demarcated nodules",
+    "Nodules composed of dark small lymphocytes interrupted by numerous irregular pale pink patches, giving a moth-eaten appearance",
+    "Pale areas correspond to clusters of epithelioid histiocytes and scattered large cells (not resolvable at this power)",
+    "No sclerotic bands, necrosis, or residual normal follicles with polarized germinal centers",
+    "Cytologic detail of LP cells cannot be evaluated at this magnification"
+  ],
+  "describe_en": "Low-power H&E section of lymph node shows effacement of the normal architecture by vague, large nodules. The nodules consist of sheets of small dark lymphocytes interspersed with numerous irregular pale areas, producing a mottled, moth-eaten appearance; there are no fibrous bands, necrosis or normal polarized germinal centers. The pale foci likely represent histiocytes and scattered large neoplastic cells, which require higher magnification and immunohistochemistry (CD20, OCT2, CD21, PD-1) to confirm. The pattern is suggestive of nodular lymphocyte predominant Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Nodular sclerosis classic Hodgkin lymphoma", "vs": "NSCHL has nodules delineated by broad collagen bands with lacunar HRS cells in a mixed inflammatory background, which are absent here."},
+    {"dx": "Follicular lymphoma", "vs": "FL shows more numerous, uniform, crowded follicles lacking mantle zones, without the mottled histiocyte-rich pale patches."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has a diffuse rather than nodular pattern with histiocytes and rare large B cells, lacking small B-cell-rich nodules and CD21 meshworks."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC nodules are few and admixed with reactive follicles, and lack LP cells and the moth-eaten histiocytic pattern."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

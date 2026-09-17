@@ -1,0 +1,21 @@
+{
+  "id": "62486",
+  "recognize_zh": "周邊血液中一顆嗜鹼性球（核被粗大深紫色顆粒遮蓋）緊鄰一顆分葉嗜中性球，背景血小板明顯增多；嗜鹼性球增多是 CML 加速期的重要線索。",
+  "features": [
+    "Basophil with coarse, dark purple-black granules obscuring the nucleus",
+    "Adjacent segmented neutrophil with multiple lobes",
+    "Numerous platelets in the background, suggesting thrombocytosis",
+    "Red cells largely normocytic with mild anisocytosis",
+    "Few leukocytes in this particular field; overall count requires CBC and a lower power view"
+  ],
+  "describe_en": "Peripheral blood smear shows a basophil with coarse dark granules obscuring the nucleus next to a segmented neutrophil, in a background of abundant platelets. Red cells show mild anisocytosis without significant poikilocytosis. No blasts are identified in this field. In a patient with BCR::ABL1-positive CML, basophilia of at least 20% is a criterion for accelerated phase under WHO 2016, and a differential count of the whole smear is required to quantify it.",
+  "ddx": [
+    {"dx": "CML, chronic phase", "vs": "Chronic phase also shows basophilia, but basophils are below 20% and blasts below 10%, which requires a full differential count rather than a single field."},
+    {"dx": "Essential thrombocythemia", "vs": "ET has thrombocytosis without significant basophilia or left-shifted granulocytosis and is BCR::ABL1 negative."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows leukoerythroblastosis with teardrop cells and is BCR::ABL1 negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

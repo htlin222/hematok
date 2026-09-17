@@ -1,0 +1,22 @@
+{
+  "id": "1289",
+  "recognize_zh": "骨髓切片中巨核細胞明顯增多並彼此緊貼成群（clusters），核大小不一、深染，呈雲朵狀或球狀（cloud-like/bulbous），部分核漿比偏高，旁邊有骨小樑與散在含鐵血黃素；這種異型巨核細胞緊密聚集是原發性骨髓纖維化（PMF）的特徵。",
+  "features": [
+    "Increased megakaryocytes forming tight clusters of several cells",
+    "Marked variation in megakaryocyte size with hyperchromatic, irregularly folded, cloud-like or bulbous nuclei",
+    "Some megakaryocytes with increased N:C ratio and abnormal chromatin clumping",
+    "Hypercellular marrow with background granulocytic proliferation",
+    "Scattered hemosiderin-laden macrophages; adjacent bony trabecula"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a hypercellular marrow with a proliferation of megakaryocytes forming tight clusters. The megakaryocytes vary markedly in size and have hyperchromatic, irregularly folded, cloud-like or bulbous nuclei, with some showing increased nuclear-to-cytoplasmic ratios. The background shows granulocytic proliferation, scattered hemosiderin-laden macrophages and an adjacent bony trabecula. Fibrosis cannot be graded on H&E alone. These atypical clustered megakaryocytes are characteristic of primary myelofibrosis, and a reticulin stain and JAK2/CALR/MPL testing are needed for grading and classification.",
+  "ddx": [
+    {"dx": "Essential thrombocythemia", "vs": "ET megakaryocytes are large to giant with hyperlobulated staghorn nuclei and are loosely scattered, without the hyperchromatic cloud-like nuclei and tight clustering seen here."},
+    {"dx": "Polycythemia vera", "vs": "PV shows panmyelosis with pleomorphic megakaryocytes of variable size but less nuclear atypia and prominent erythroid proliferation, together with erythrocytosis."},
+    {"dx": "Myelodysplastic neoplasm with fibrosis", "vs": "MDS megakaryocytes are small and hypolobated or with separated lobes, with dysplasia in other lineages, rather than large hyperchromatic cloud-like forms."},
+    {"dx": "Acute panmyelosis with myelofibrosis", "vs": "Increased CD34-positive blasts (>=20%) and small dysplastic megakaryocytes favor acute panmyelosis over PMF."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

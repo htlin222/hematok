@@ -1,0 +1,36 @@
+{
+  "id": "41",
+  "recognize_zh": "淋巴結結構被模糊的大結節取代，結節內以小淋巴球為主，散在核呈多葉狀、染色質淡、核仁小的 LP 細胞（popcorn cells）；CD21 類標記顯示結節內擴大的濾泡樹突細胞網，大細胞呈 B 細胞轉錄因子強陽性，符合典型型態的結節性淋巴球優勢型何杰金淋巴瘤（NLPHL）。",
+  "features": [
+    "Scattered large LP (popcorn) cells with multilobated, vesicular nuclei, thin nuclear membranes and small to medium nucleoli, much smaller nucleoli than Reed-Sternberg cells",
+    "Background of monotonous small round lymphocytes with admixed epithelioid histiocytes; eosinophils and plasma cells are not conspicuous",
+    "Low power: effaced node replaced by vague, large, closely packed nodules",
+    "Expanded, crowded follicular dendritic cell meshworks filling the nodules (membranous-dendritic IHC pattern, e.g., CD21/CD23)",
+    "Large cells show strong membranous staining for a B-cell-type marker and strong nuclear staining for a second marker; a membranous marker outlines ring-like rosettes of small cells around some large cells",
+    "One stain is essentially negative in the large cells (pertinent negative, marker unlabeled)"
+  ],
+  "describe_en": "Lymph node sections show effacement of the normal architecture by a vaguely nodular proliferation of large, closely packed nodules. The nodules are composed predominantly of small round lymphocytes and epithelioid histiocytes, within which scattered large cells with multilobated vesicular nuclei and small nucleoli (LP or popcorn cells) are present; classic Reed-Sternberg cells are not evident. Immunohistochemistry (markers not labeled in the images) shows expanded follicular dendritic cell meshworks filling the nodules, membranous staining of the large cells for a B-cell-type marker, strong nuclear staining of the large cells for a transcription-factor-type marker, and a membranous marker highlighting numerous small lymphocytes with ring-like rosettes around large cells; a further stain is negative in the large cells. Findings are consistent with nodular lymphocyte-predominant Hodgkin lymphoma, typical (B-cell-rich nodular) pattern.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-rich type", "vs": "LRCHL can form nodules but its Hodgkin/Reed-Sternberg cells are CD30+/CD15+ with weak PAX5 and loss of CD20/OCT2/BOB1, and they sit in expanded mantle zones around regressed germinal centers."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL shows scattered large B cells in a diffuse T-cell and histiocyte background without small B-cell nodules or CD21+ FDC meshworks, whereas this node retains B-cell-rich nodules with FDC networks."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC forms large nodules of mantle-type small B cells with disrupted germinal centers but lacks LP cells with strong CD20/OCT2 positivity and T-cell rosettes."},
+    {"dx": "Follicular lymphoma", "vs": "FL nodules consist of centrocytes and centroblasts with BCL2-positive germinal center cells rather than scattered popcorn cells in a small-lymphocyte background."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (markers unlabeled)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E, low power: lymph node effaced by vague, large, closely packed nodules",
+    "H&E, medium power: nodule composed of small round lymphocytes with rare larger cells",
+    "H&E, high power: LP cells with lobulated vesicular nuclei among small lymphocytes and histiocytes",
+    "H&E, high power: multilobated popcorn cell with small nucleoli and adjacent epithelioid histiocytes",
+    "IHC, membranous marker staining many small lymphocytes with ring-like rosettes around large cells",
+    "IHC, oil immersion: strong membranous staining of large cells, with a negative large cell centrally",
+    "IHC, nuclear marker (unlabeled) staining scattered small cells and large cells",
+    "IHC, high power: strong nuclear staining of lobulated LP cells with weaker small-cell staining",
+    "IHC, FDC marker pattern: expanded dendritic meshworks filling the nodules",
+    "IHC, low power: nuclear marker staining small cells in a nodular distribution",
+    "IHC, high power: stain essentially negative in large and small cells (pertinent negative)"
+  ]
+}

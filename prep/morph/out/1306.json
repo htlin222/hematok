@@ -1,0 +1,21 @@
+{
+  "id": "1306",
+  "recognize_zh": "骨髓淋巴聚集的免疫染色中，陽性棕色細胞密集於聚集周邊，中央一個淡色圓形區域只含零星陽性細胞，這種「周邊多、中心少」的分布符合 T 細胞標記勾勒出反應性濾泡與其生發中心內的少量 T 細胞。",
+  "features": [
+    "Lymphoid aggregate with strongly membranous-staining cells concentrated at the periphery",
+    "Central pale, rounded zone largely negative with only scattered positive cells, consistent with a germinal center",
+    "Positive cells are small lymphocytes with crisp membranous staining",
+    "Scattered positive cells in the interstitial marrow",
+    "Surrounding hematopoietic cells and adipocytes are negative"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostain shows a lymphoid aggregate in which positive small lymphocytes are concentrated at the periphery, while a central rounded zone is largely negative with only scattered positive cells. This distribution matches a T-cell marker (such as CD3) outlining a B-cell follicle with a germinal center containing scattered follicular T cells; the specific antibody is not stated. Scattered positive interstitial T cells are also present. Findings are consistent with a reactive lymphoid follicle with a germinal center in the bone marrow.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "FL follicles also contain scattered T cells, so separation relies on paratrabecular location and BCL2 co-expression by CD10-positive follicle center cells."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "NLPHL nodules show T-cell rosettes around large LP cells, not a uniform negative germinal center."},
+    {"dx": "Peripheral T-cell lymphoma involving marrow", "vs": "PTCL shows diffuse sheets of atypical T cells with antigen loss rather than a T-cell rim around a preserved follicle."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (antigen not specified)",
+  "match": "consistent",
+  "high_yield": false
+}

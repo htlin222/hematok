@@ -1,0 +1,21 @@
+{
+  "id": "12967",
+  "recognize_zh": "左圖周邊血中的單核細胞核圓、染色質粗塊、胞質少且深藍，外觀像小淋巴球，背景有棘狀紅血球（echinocytes）；右圖骨髓則是成片核偏位、有核周淡染區（perinuclear hof）的漿細胞，提示這些「淋巴球」其實是循環漿細胞（plasma cell leukemia）。",
+  "features": [
+    "PB: small to medium mononuclear cells with round nuclei, coarse clumped chromatin, and scant deeply basophilic cytoplasm resembling mature lymphocytes",
+    "PB: numerous echinocytes (crenated red cells) and a disrupted smudged cell",
+    "BM aspirate: sheets of plasma cells with eccentric round nuclei and clock-face chromatin",
+    "BM: moderately abundant basophilic cytoplasm with perinuclear hof in many cells",
+    "BM: near-complete replacement of normal hematopoiesis by plasma cells"
+  ],
+  "describe_en": "Peripheral blood smear shows a leukocytosis composed largely of small to medium mononuclear cells with round nuclei, coarsely clumped chromatin, and a thin rim of basophilic cytoplasm, closely mimicking mature lymphocytes; echinocytes and a smudged cell are also present. Bone marrow aspirate shows sheets of plasma cells with eccentric nuclei, clock-face chromatin, and perinuclear hofs, replacing normal hematopoietic elements. Because circulating cells lack an obvious hof, flow cytometry (CD45 negative, CD38/CD138 positive, kappa restricted) is required to establish their plasma cell lineage. Findings are consistent with plasma cell leukemia mimicking chronic lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are CD5/CD23/CD19/CD20 positive with dim surface light chain and smudge cells, whereas these cells are CD45 negative, CD38/CD138 positive, with sheets of plasma cells in the marrow."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a mixture of small lymphocytes, plasmacytoid lymphocytes, and plasma cells with CD19/CD20 bright B cells and MYD88 L265P, rather than a monotonous CD45-negative plasma cell population."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells in sepsis are polytypic and rarely exceed a few percent in blood, unlike this monoclonal kappa-restricted population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

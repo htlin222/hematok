@@ -1,0 +1,22 @@
+{
+  "id": "2833",
+  "recognize_zh": "骨髓抹片中數顆大型異常細胞，核圓、染色質細顆粒，細胞質邊緣聚集許多大小不一的圓形空泡，有些空泡覆在核上，非造血細胞外觀，符合轉移性橫紋肌肉瘤。",
+  "features": [
+    "Large atypical cells with round nuclei and finely granular chromatin",
+    "Cytoplasm with clustered, variably sized round vacuoles, often at the cell periphery",
+    "Vacuoles overlying the nucleus in several cells",
+    "Pale gray-blue cytoplasm; one cell shows a larger, frothy cytoplasmic rim",
+    "Background red cells with drying artifact"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a small group of large atypical cells with round nuclei, finely granular chromatin and gray-blue cytoplasm. Many cells contain clusters of variably sized, sharply defined round vacuoles, often located at the periphery of the cell and overlying the nucleus. The cells do not resemble normal hematopoietic elements, and the background shows red cells with drying artifact. Findings are suggestive of marrow involvement by a metastatic small round cell tumor, consistent with rhabdomyosarcoma in the appropriate clinical setting; immunohistochemistry for desmin and myogenin is recommended.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma / leukemia", "vs": "Burkitt cells are smaller and uniform with deeply basophilic cytoplasm and are B-cell marker positive, whereas these larger cells are non-hematopoietic and myogenic marker positive."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma cells also contain glycogen vacuoles but are CD99/NKX2-2 positive with EWSR1 fusion; ancillary testing is required."},
+    {"dx": "Metastatic neuroblastoma", "vs": "Neuroblastoma shows rosettes and neurofibrillary matrix with fewer cytoplasmic vacuoles and is positive for PHOX2B and synaptophysin."},
+    {"dx": "Myelodysplastic or erythroid precursors with vacuolization", "vs": "Vacuolated erythroid or myeloid precursors show normal maturation stages and markers, and vacuolization is associated with toxins or copper deficiency rather than cohesive tumor clusters."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

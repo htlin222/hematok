@@ -1,0 +1,23 @@
+{
+  "id": "64022",
+  "recognize_zh": "骨髓抹片（B、C）幾乎被深藍色胞質、細緻染色質並有核仁的原紅血球（proerythroblast）佔滿，PAS（E）呈粗顆粒狀陽性、CD71（G）大片膜染色，而MPO（D）只有少數細胞陽性，指向純紅血球白血病（pure erythroid leukemia）。",
+  "features": [
+    "Bone marrow aspirate dominated by large immature erythroid precursors (proerythroblasts) with round nuclei, fine chromatin, visible nucleoli and deeply basophilic, focally vacuolated cytoplasm",
+    "Relative paucity of maturing granulocytes; scattered later-stage erythroid precursors present",
+    "PAS stain shows coarse granular/dot-like cytoplasmic positivity in abnormal erythroid cells",
+    "MPO stain positive only in scattered cells, not in the predominant blast population",
+    "Hypercellular trephine with sheets of immature cells; CD71 shows extensive membranous staining of the erythroid population",
+    "CD41 highlights megakaryocytes including small hypolobated forms; peripheral blood contains occasional blasts and nucleated red cells"
+  ],
+  "describe_en": "Composite figure. The peripheral blood smear shows occasional circulating immature cells and nucleated red blood cells. The bone marrow aspirate is markedly hypercellular and dominated by proerythroblasts with deeply basophilic, vacuolated cytoplasm, round nuclei and nucleoli; myeloperoxidase is positive only in scattered myeloid cells, while PAS shows coarse granular positivity in the abnormal erythroid cells. The trephine biopsy shows sheets of immature cells that are extensively CD71-positive, and CD41 highlights dysplastic, including small hypolobated, megakaryocytes. Findings are consistent with pure erythroid leukemia (acute erythroid leukemia), pending quantification of erythroid precursors and proerythroblasts and TP53/cytogenetic studies.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic marrow shows orderly full-spectrum erythroid maturation with nuclear-cytoplasmic asynchrony and giant metamyelocytes rather than sheets of proerythroblasts, and corrects with vitamin replacement."},
+    {"dx": "AML with myelodysplasia-related changes / MDS with erythroid predominance", "vs": "Erythroid cells are mostly maturing forms and the blast count is based on MPO-positive myeloblasts, without the >80% erythroid and >=30% proerythroblast composition of pure erythroid leukemia."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Blasts with basophilic blebbing cytoplasm can look similar, but they express CD41/CD61 rather than CD71/E-cadherin/glycophorin."},
+    {"dx": "Lymphoma or small round blue cell tumor infiltrating marrow", "vs": "Deeply basophilic vacuolated cells may mimic Burkitt cells or metastatic tumor, but CD71/E-cadherin positivity and PAS granular staining establish erythroid lineage."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, MPO, PAS, H&E, IHC: CD71, CD41",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "61698",
+  "recognize_zh": "這是流式細胞儀 CD45 對側向散射（SSC）圖：淋巴球 gate 僅佔 4.70%，另有一群 CD45 較弱、SSC 低至中等的細胞位於淋巴球左側，這類 CD45 dim/陰性區域正是骨髓瘤漿細胞常出現的位置，但此圖本身無法確認其為漿細胞。",
+  "features": [
+    "Dot plot: CD45 KO (x-axis) versus side scatter (y-axis), gated on live events",
+    "Lymphocyte gate (CD45-bright, low SSC) contains 4.70% of total events",
+    "Large granulocytic cluster with moderate CD45 and high SSC",
+    "Distinct population with dim-to-negative CD45 and low-to-intermediate SSC to the left of the lymphocytes",
+    "No plasma cell-specific markers (CD38/CD138) shown; lineage of the CD45-dim population cannot be assigned from this plot alone"
+  ],
+  "describe_en": "Flow cytometric CD45 versus side scatter plot of live events shows a predominant granulocytic population with high side scatter and a small lymphocyte gate comprising 4.70% of total events. A separate population with dim-to-negative CD45 and low-to-intermediate side scatter lies to the left of the lymphocytes; this region contains erythroid precursors but is also where neoplastic plasma cells, which characteristically lose CD45, are found. This plot is a gating overview and does not by itself identify plasma cells; bright CD38/CD138 gating with CD19, CD56 and cytoplasmic kappa/lambda is required. The pattern is compatible with, but not diagnostic of, a plasma cell neoplasm.",
+  "ddx": [
+    {"dx": "Nucleated erythroid precursors", "vs": "Erythroid precursors also sit in the CD45-negative/low SSC region but are CD71/CD235a-positive and CD38/CD138-negative."},
+    {"dx": "Normal polyclonal plasma cells", "vs": "Normal plasma cells are usually CD45-positive (at least partially) and CD19+/CD56- with polytypic light chains, unlike CD45-negative clonal myeloma cells."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61794",
+  "recognize_zh": "A 抹片中兩個細胞的細胞質塞滿粗大深紫顆粒並遮住細胞核，屬嗜鹼性球樣；B 流式圖把 CD45 中弱、低 SSC 的綠色群圈出，顯示 CD117 陽性、CD33 陽性、CD34 陰性、HLA-DR 陰性、CD7 陰性，呈異常的嗜鹼性球免疫表型。",
+  "features": [
+    "Panel A: two medium-sized cells with coarse dark purple-black granules densely filling the cytoplasm and obscuring an irregular nucleus, consistent with basophils",
+    "Background red cells show mild anisocytosis with scattered small platelets",
+    "Panel B: gated population (green) has dim-to-moderate CD45 and low side scatter, the typical basophil region",
+    "Gated cells are CD117 positive and CD33 positive, while CD34, HLA-DR and CD7 are negative",
+    "CD117 expression on low-SSC CD45-dim basophils is aberrant; plot resolution is low, so intensity details are approximate"
+  ],
+  "describe_en": "Peripheral blood smear (panel A) shows atypical basophils with dense, coarse metachromatic granules that obscure irregular nuclei. Flow cytometry (panel B) identifies a population with dim CD45 and low side scatter in the basophil gate that expresses CD33 and CD117 but lacks CD34, HLA-DR and CD7. Normal basophils are CD123+, CD203c+, HLA-DR-negative and CD117-negative, so CD117 expression indicates an aberrant immunophenotype. The findings are suggestive of neoplastic basophils in a myeloid neoplasm (e.g. MDS/MPN or MPN), and BCR::ABL1 testing plus mast cell markers (CD25, tryptase) are required to exclude CML and systemic mastocytosis.",
+  "ddx": [
+    {"dx": "Mast cell leukemia / circulating neoplastic mast cells", "vs": "Mast cells are CD117 bright, CD25 and/or CD2 positive, CD123/CD203c-dim and have round non-lobulated nuclei with granules not obscuring the nucleus."},
+    {"dx": "Chronic myeloid leukemia with basophilia", "vs": "Morphology and phenotype can overlap, so separation depends on BCR::ABL1 detection."},
+    {"dx": "Reactive basophilia", "vs": "Reactive basophils retain a normal CD117-negative, CD123+ CD203c+ phenotype and normal granulation."},
+    {"dx": "Acute basophilic leukemia", "vs": "Requires at least 20% blasts with CD34 and/or CD117 positive immature basophilic precursors and scant granules, rather than mature-appearing granulated basophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

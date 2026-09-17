@@ -1,0 +1,22 @@
+{
+  "id": "2769",
+  "recognize_zh": "整片密集排列的小至中型腫瘤細胞，核卵圓、染色質細緻、細胞質稀少，看不到神經纖維基質（neuropil）或 Homer Wright 花環，卻有大量有絲分裂像與凋亡碎片，符合未分化型神經母細胞瘤（undifferentiated neuroblastoma）；需靠免疫染色與其他小圓藍細胞腫瘤鑑別。",
+  "features": [
+    "Diffuse sheets of small to medium-sized tumor cells with scant cytoplasm and indistinct borders",
+    "Oval to slightly irregular nuclei with fine, evenly dispersed chromatin and inconspicuous nucleoli",
+    "Numerous mitotic figures and apoptotic/karyorrhectic bodies",
+    "No neuropil, Homer Wright rosettes or ganglion cell differentiation in this field",
+    "Intervening hemorrhage and delicate vascular channels"
+  ],
+  "describe_en": "H&E section shows diffuse sheets of small to medium-sized tumor cells with scant cytoplasm and oval nuclei containing finely dispersed chromatin. Mitotic figures and karyorrhectic bodies are numerous, and areas of hemorrhage are present. Neuropil, Homer Wright rosettes and ganglionic differentiation are not seen, so the lineage cannot be established on morphology alone. In the given clinical context, findings are consistent with undifferentiated metastatic neuroblastoma; confirmation requires immunohistochemistry (PHOX2B, synaptophysin, chromogranin, with negative CD99/FLI1, desmin/myogenin, and CD45) and MYCN status.",
+  "ddx": [
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma cells show strong membranous CD99 and NKX2.2 with EWSR1 rearrangement and are PHOX2B-negative."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Rhabdomyosarcoma is desmin- and myogenin-positive and may show rhabdoid cells or FOXO1 fusions."},
+    {"dx": "Lymphoblastic lymphoma/leukemia", "vs": "Lymphoblasts are discohesive and express TdT, CD45 and CD34 or CD19/CD3, without neuroendocrine markers."},
+    {"dx": "Desmoplastic small round cell tumor", "vs": "DSRCT has nests within desmoplastic stroma and co-expresses cytokeratin, desmin (dot-like) and WT1 C-terminus."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

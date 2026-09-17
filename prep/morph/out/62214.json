@@ -1,0 +1,20 @@
+{
+  "id": "62214",
+  "recognize_zh": "這是冠狀切面 PET-CT 融合影像，脊椎、薦骨與骨盆（髂骨、髖臼附近）骨髓出現 FDG 攝取增加，對應乳癌骨髓浸潤部位；肝、腎的攝取需與生理性攝取區分。",
+  "features": [
+    "Coronal fused FDG PET-CT image of the trunk and proximal limbs",
+    "Increased tracer uptake along the thoracolumbar vertebral bodies",
+    "Intense uptake in the sacrum and multifocal uptake in the iliac bones and periacetabular regions",
+    "Heterogeneous uptake in the liver and spleen; renal collecting system activity consistent with excretion",
+    "Lungs without obvious focal uptake in this slice"
+  ],
+  "describe_en": "Coronal fused FDG PET-CT image shows increased tracer uptake throughout the vertebral column, sacrum and bilateral iliac and periacetabular bone marrow, distributed in a patchy multifocal pattern. Heterogeneous uptake is also seen in the liver and spleen, and renal activity is consistent with physiologic excretion. The image does not permit distinction between tumor infiltration and reactive marrow activation on its own. In the setting of breast cancer with marrow biopsy showing carcinoma, the skeletal uptake pattern supports diffuse bone marrow metastasis.",
+  "ddx": [
+    {"dx": "Reactive marrow hyperactivity (G-CSF, anemia, recent chemotherapy)", "vs": "Reactive uptake is diffuse and homogeneous throughout the red marrow, whereas metastases tend to be focal, asymmetric and associated with CT bone changes."},
+    {"dx": "Plasma cell myeloma or lymphoma with marrow involvement", "vs": "These can produce identical multifocal marrow FDG uptake, so tissue biopsy with morphology and immunostains is required to identify the neoplasm."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

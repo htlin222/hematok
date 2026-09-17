@@ -1,0 +1,21 @@
+{
+  "id": "3904",
+  "recognize_zh": "同一張骨髓抹片加上標示：黑色箭頭為細胞核偏心、藍色細胞質豐富並有核周淡染區的漿細胞；紅色箭頭為細胞核圓而置中、染色質極致密、細胞質僅一圈的晚期紅血球前驅細胞。",
+  "features": [
+    "Black arrows: plasma cells with eccentric nuclei, abundant basophilic cytoplasm and perinuclear hof",
+    "Red arrows: late (polychromatic/orthochromatic) normoblasts with central, round, dense pyknotic-appearing nuclei",
+    "Normoblasts with narrow rim of grey-blue to pinkish cytoplasm and no hof",
+    "Plasma cells larger with coarse 'clock-face' chromatin",
+    "Background granulocytic precursors and segmented neutrophils"
+  ],
+  "describe_en": "Annotated bone marrow aspirate smear demonstrates plasma cells (black arrows) with eccentric nuclei, coarse chromatin, abundant deeply basophilic cytoplasm and a perinuclear hof, contrasted with late erythroid precursors (red arrows) that are smaller with centrally located, round, very dense nuclei and a thin rim of polychromatic cytoplasm without a hof. Granulocytic precursors are present in the background. The image illustrates how nuclear position, chromatin density and the Golgi hof distinguish plasma cells from normoblasts.",
+  "ddx": [
+    {"dx": "Plasma cell vs. basophilic normoblast", "vs": "Basophilic normoblasts have a central nucleus with deep blue cytoplasm but no localized Golgi hof, whereas plasma cells have an eccentric nucleus with an adjacent hof."},
+    {"dx": "Orthochromatic normoblast vs. small lymphocyte", "vs": "Orthochromatic normoblasts have a very dense, round, homogeneous nucleus with pinkish hemoglobinized cytoplasm, while lymphocytes have slightly less dense chromatin and pale blue cytoplasm."},
+    {"dx": "Plasma cell vs. plasmacytoid lymphocyte", "vs": "Plasmacytoid lymphocytes have less abundant cytoplasm and lymphocyte-like chromatin with a less distinct hof."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

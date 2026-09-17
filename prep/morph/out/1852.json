@@ -1,0 +1,21 @@
+{
+  "id": "1852",
+  "recognize_zh": "骨髓中胚細胞與單核樣細胞（核折疊、細胞質灰藍）增生，箭頭所指的細胞含有粗大、深紫黑色的異常嗜伊紅性顆粒（abnormal eosinophil），這種單核球分化加上異常嗜伊紅球的組合是 inv(16) 急性骨髓性白血病的典型線索。",
+  "features": [
+    "Increased blasts and monocytoid cells with moderate gray-blue cytoplasm",
+    "Folded, indented or reniform nuclei with fine chromatin (myelomonocytic differentiation)",
+    "Abnormal eosinophil precursor with large, dark purple-black (basophilic-staining) granules (arrow)",
+    "Some cells with cytoplasmic vacuoles",
+    "Few mature neutrophils; a small nucleated red cell present"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows increased blasts and monocytoid cells with folded or reniform nuclei, fine chromatin and moderate gray-blue cytoplasm, some with vacuoles. An abnormal eosinophil precursor with coarse, dark purple-black granules is present (arrow). Mature granulocytes are reduced. Findings are consistent with acute myelomonocytic leukemia with abnormal eosinophils, suggestive of AML with inv(16)(p13.1q22) or t(16;16); CBFB-MYH11, which should be confirmed by cytogenetics/FISH or RT-PCR.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic leukemia without CBFB-MYH11", "vs": "AMML lacks the dysplastic eosinophils with large basophilic-staining granules and lacks CBFB-MYH11 on molecular testing."},
+    {"dx": "Chronic myelomonocytic leukemia with eosinophilia", "vs": "CMML has <20% blasts plus promonocytes and persistent monocytosis, while inv(16) AML is diagnostic regardless of blast count."},
+    {"dx": "Myeloid neoplasm with eosinophilia and PDGFRA/PDGFRB/FGFR1 rearrangement", "vs": "These show increased but cytologically less dysplastic eosinophils without the coarse basophilic granules, and are identified by FISH/RT-PCR for the specific rearrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62932",
+  "recognize_zh": "室溫下的周邊血液抹片，低倍即可見多個由嗜中性球緊密聚在一起的花團狀團塊，高倍確認團塊內是分葉核、細胞質帶顆粒的成熟嗜中性球；這種白血球成團是嗜中性球凝集（neutrophil agglutination）造成假性白血球減少的線索。",
+  "features": [
+    "Multiple tight rosette-like aggregates of mature neutrophils scattered across the smear at low power",
+    "High power: aggregates contain 5 to 30 segmented neutrophils with fine cytoplasmic granules",
+    "Neutrophil nuclei within clumps are intact without phagocytic inclusions or degenerative change",
+    "Single lymphocytes remain unclumped; scattered platelets present",
+    "Red cells show overlapping/chain-like arrangement in a thick area"
+  ],
+  "describe_en": "Peripheral blood smear from an EDTA sample kept at room temperature shows numerous discrete clumps of leukocytes at low power. At high power the aggregates are composed of mature segmented neutrophils with normal granulation, while lymphocytes are dispersed singly; no platelet aggregates are part of the clumps. No blasts or tumor cell clusters are identified. Findings are consistent with in vitro neutrophil agglutination, a cause of spurious leukopenia and analyzer differential failure that resolves with warming of the specimen.",
+  "ddx": [
+    {"dx": "Platelet clumping (EDTA pseudothrombocytopenia)", "vs": "The aggregates consist of platelets rather than segmented neutrophils."},
+    {"dx": "Platelet satellitism", "vs": "Platelets adhere in a ring around individual neutrophils, whereas here neutrophils adhere to one another."},
+    {"dx": "Circulating tumor cell clusters", "vs": "Tumor clusters contain large cells with non-segmented atypical nuclei and cohesive cytoplasm, not mature granulated neutrophils."},
+    {"dx": "Leukocyte carryover at the smear feathered edge", "vs": "Edge artifact concentrates cells at the tail but does not form discrete tight clumps throughout the monolayer and resolves with a better-made smear, not warming."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": true
+}

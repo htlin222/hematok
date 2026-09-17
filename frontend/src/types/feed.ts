@@ -11,10 +11,26 @@ export interface FeedItem {
   downloads: number;
   published_date?: string;
   size?: string;
-  description?: string; // clinical narrative — reference-cases only
-  High_Yield?: boolean; // tagged for high yield morphology features
+  description?: string; // clinical narrative / contributor caption
+  High_Yield?: boolean; // classic, commonly tested morphology (from the vision-reviewed note)
+  morph?: boolean; // a MorphNote exists in /morph/<shard>.json
   rand: number;
 }
+
+// Per-image morphology study note (prep/apply_morph.py), fetched lazily by the details sheet.
+export interface MorphNote {
+  recognize_zh: string; // 如何認出這張圖
+  features: string[];
+  describe_en: string; // report-style English description
+  ddx: { dx: string; vs: string }[];
+  specimen: string;
+  stain: string;
+  match: "consistent" | "partial" | "discordant" | "non-morphologic";
+  captions?: string[]; // one per image, multi-image records only
+}
+
+export const MORPH_SHARDS = 64; // keep in sync with SHARDS in prep/apply_morph.py
+export const morphUrl = (id: string): string => `/morph/${Number(id) % MORPH_SHARDS}.json`;
 
 const IMG_BASE = (import.meta.env.VITE_IMG_BASE ?? "").replace(/\/$/, "");
 export const FEED_URL = import.meta.env.VITE_FEED_URL ?? "/feed.json";

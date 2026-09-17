@@ -1,0 +1,22 @@
+{
+  "id": "60765",
+  "recognize_zh": "兩顆中型淋巴細胞具豐富淡藍灰色細胞質、邊緣呈不規則毛狀突起，核卵圓、染色質均勻細緻且無明顯核仁，這是周邊血中毛細胞（hairy cells）的典型樣貌。",
+  "features": [
+    "Medium-sized lymphoid cells with abundant pale blue-grey cytoplasm and irregular, fine hair-like cytoplasmic projections",
+    "Oval to slightly indented nuclei with homogeneous, finely stippled (ground-glass) chromatin and inconspicuous nucleoli",
+    "Low N:C ratio compared with normal small lymphocytes",
+    "A third lymphoid cell (upper right) with a bilobed/indented nucleus and less abundant cytoplasm",
+    "Background red cells with echinocytic crenation, suggesting an older or stored sample"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating medium-sized lymphoid cells with abundant pale blue-grey cytoplasm bearing irregular, fine circumferential hair-like projections. Their nuclei are oval to slightly indented with homogeneous finely dispersed chromatin and no prominent nucleoli. An additional lymphoid cell with an indented nucleus is present, and many red cells show crenation consistent with storage artifact. Findings are consistent with circulating hairy cells in relapsed hairy cell leukemia; flow cytometry (CD11c, CD25, CD103, CD123) or BRAF V600E testing would confirm.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli)", "vs": "Cells have a distinct central nucleolus and higher WBC counts, and are CD25 and annexin A1 negative without BRAF V600E."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Villous lymphocytes have shorter, polar (bipolar) projections, more condensed chromatin and often plasmacytoid features, and lack CD103/CD25/annexin A1."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "Cells have broad-based villi with more clumped chromatin and are usually CD25 and CD123 negative, BRAF wild type."},
+    {"dx": "Monocytes", "vs": "Monocytes have folded nuclei with lacy chromatin and grey cytoplasm with fine azurophilic granules and vacuoles rather than hair-like projections."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

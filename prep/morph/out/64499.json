@@ -1,0 +1,22 @@
+{
+  "id": "64499",
+  "recognize_zh": "兩個中型淋巴樣細胞，圓核、染色質均勻，細胞質淡而多，整圈邊緣伸出細長不規則的毛狀突起（hairy projections），這是毛細胞白血病（hairy cell leukemia）的典型外觀。",
+  "features": [
+    "Medium-sized lymphoid cells, larger than a small lymphocyte",
+    "Round to oval central nucleus with homogeneous, moderately condensed chromatin and no prominent nucleoli",
+    "Moderate amount of pale grey-blue cytoplasm",
+    "Fine, irregular circumferential cytoplasmic projections (hairy margins)",
+    "Background red cells with mild anisopoikilocytosis, including ovalocytes and occasional target-like forms",
+    "Leukocytes otherwise scant in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows two medium-sized lymphoid cells with round nuclei, homogeneous chromatin, inconspicuous nucleoli, and a moderate amount of pale cytoplasm bearing fine, circumferential hair-like projections. Background red cells show mild anisopoikilocytosis. Findings are consistent with circulating hairy cells; confirmation by flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing is recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli)", "vs": "HCL-v cells have a prominent central nucleolus and are CD25 and CD123 negative with wild-type BRAF."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes have short polar villi concentrated at one or both poles rather than circumferential fine projections, and are usually CD103 negative."},
+    {"dx": "Drying artifact in normal lymphocytes", "vs": "Artifactual cytoplasmic fraying is seen in thick smear areas and affects many cells, whereas hairy cells have abundant pale cytoplasm and are confirmed by flow cytometry."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

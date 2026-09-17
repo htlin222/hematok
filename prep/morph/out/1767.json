@@ -1,0 +1,23 @@
+{
+  "id": "1767",
+  "recognize_zh": "組合圖中左側為大片胞質豐富淡染、核偏心呈腎形或馬蹄形的大型細胞；右上高倍可見多核、核仁明顯的大型異型細胞；右下低倍為瀰漫片狀浸潤夾纖維帶，這些標誌細胞（hallmark cells）的形態符合間變性大細胞淋巴瘤（ALCL）。",
+  "features": [
+    "Sheets of large cells with abundant pale to clear cytoplasm and distinct cell borders",
+    "Eccentric kidney-shaped or horseshoe nuclei (hallmark cell features) in several cells",
+    "High-power panel: large atypical cell with multiple nuclei and prominent eosinophilic nucleoli",
+    "Vesicular chromatin with conspicuous nucleoli in many tumor cells",
+    "Low-power panel: diffuse cohesive-appearing infiltrate traversed by a fibrous band",
+    "Scattered small lymphocytes and occasional red cells between tumor cells"
+  ],
+  "describe_en": "Composite H&E images show a diffuse infiltrate of large atypical cells with abundant pale to clear cytoplasm, vesicular chromatin, and prominent nucleoli, many with eccentric kidney- or horseshoe-shaped nuclei characteristic of hallmark cells. At high power, a large multinucleated cell with prominent eosinophilic nucleoli resembling a Reed-Sternberg-like cell is present, and at low power the tumor forms sheets separated by fibrous bands. The cohesive growth may mimic carcinoma. Findings are consistent with anaplastic large cell lymphoma; strong uniform CD30 and ALK immunostaining (with loss of pan-T markers and EMA positivity) are required to confirm ALK-positive ALCL.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "CHL has scattered Hodgkin/Reed-Sternberg cells in a mixed inflammatory background and is CD15+, PAX5 weak, and ALK negative, rather than sheets of CD30+ hallmark cells."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Carcinoma is cytokeratin positive and melanoma is S100/SOX10 positive, whereas ALCL is CD30+ with T-cell or null phenotype."},
+    {"dx": "Diffuse large B-cell lymphoma, anaplastic variant", "vs": "Anaplastic DLBCL expresses CD20 and PAX5, while ALCL lacks B-cell markers."},
+    {"dx": "ALK-negative ALCL or PTCL-NOS with CD30 expression", "vs": "ALK-negative ALCL is morphologically identical and requires ALK immunostain; PTCL-NOS shows variable rather than strong uniform CD30."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1273",
+  "recognize_zh": "骨髓抹片中成群的母細胞，核圓、染色質細緻、有 1–2 個明顯核仁，細胞質中等量淡藍色且幾乎無顆粒，視野中幾乎看不到分化中的前骨髓球或骨髓球，符合 AML without maturation。",
+  "features": [
+    "Clusters of large blasts with high N:C ratio",
+    "Round to slightly indented nuclei with finely dispersed chromatin",
+    "One to two prominent nucleoli in many blasts",
+    "Moderate pale blue cytoplasm, largely agranular; no Auer rods seen",
+    "Minimal maturing granulocytes; one cell at upper left with coarse chromatin and a mitotic figure at lower center"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows clusters of large blasts with a high nuclear-to-cytoplasmic ratio, round to slightly indented nuclei, finely dispersed chromatin and one to two prominent nucleoli. The cytoplasm is moderate, pale blue and largely agranular, and no Auer rods are identified in this field. Maturing granulocytic elements are scarce, and a mitotic figure is present. Findings are consistent with acute myeloid leukemia without maturation, provided myeloid lineage is confirmed (MPO or flow cytometry) and maturing granulocytes are less than 10% of nonerythroid cells.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL blasts often have scant cytoplasm and are MPO negative with TdT/CD19 or CD3 expression, so cytochemistry or flow cytometry is required to exclude it."},
+    {"dx": "AML with minimal differentiation", "vs": "AML with minimal differentiation is morphologically similar but has fewer than 3% MPO-positive blasts, with myeloid lineage shown only by flow cytometry."},
+    {"dx": "AML with maturation", "vs": "AML with maturation shows at least 10% maturing granulocytes such as promyelocytes and myelocytes, which are nearly absent here."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts have more abundant gray-blue cytoplasm, folded nuclei and are nonspecific esterase positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

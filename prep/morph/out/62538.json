@@ -1,0 +1,21 @@
+{
+  "id": "62538",
+  "recognize_zh": "這是間期細胞核的 FISH 影像，探針為 D7S486（7q31，紅）與 CEP7（綠）；正常應各有 2 個訊號，此核只看到 1 個紅點與 1 個綠點，表示第 7 號染色體單體（monosomy 7），是兒童難治性血球低下（RCC）中需注意的異常。",
+  "features": [
+    "Interphase FISH nucleus counterstained with DAPI (blue)",
+    "Probe set: D7S486 at 7q31 (red) and D7Z1 centromere 7 / CEP7 (green)",
+    "One red and one green signal (1R1G) instead of the normal 2R2G pattern",
+    "Loss of both centromeric and 7q31 signals indicates loss of an entire chromosome 7",
+    "Tiny faint red speck is background, not a true signal"
+  ],
+  "describe_en": "Interphase FISH image using a D7S486 (7q31, red) and CEP7 (green) probe set shows a single nucleus with one red and one green signal. Concurrent loss of both the centromeric and 7q31 signals indicates monosomy 7 rather than an isolated 7q deletion, which would show two green and one red signal. A single nucleus cannot establish the clone size, which requires scoring an adequate number of nuclei against the laboratory cutoff. In the context of pediatric hypocellular marrow failure, monosomy 7 supports a diagnosis of myelodysplastic neoplasm, such as refractory cytopenia of childhood with a high risk of progression.",
+  "ddx": [
+    {"dx": "Deletion 7q (del(7q))", "vs": "del(7q) shows loss of the 7q31 red signal with retention of two CEP7 green signals (1R2G)."},
+    {"dx": "Normal nucleus with overlapping signals", "vs": "Signal overlap or a split signal can mimic loss, so monosomy 7 must be confirmed in a percentage of scored nuclei above the cutoff."},
+    {"dx": "Severe aplastic anemia", "vs": "Aplastic anemia with a similar hypocellular marrow usually lacks monosomy 7, whose presence favors MDS."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: D7S486 (7q31)/CEP7",
+  "match": "non-morphologic",
+  "high_yield": false
+}

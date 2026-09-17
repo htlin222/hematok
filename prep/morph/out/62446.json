@@ -1,0 +1,22 @@
+{
+  "id": "62446",
+  "recognize_zh": "大腸固有層表皮下方一片卵圓至梭形細胞呈 CD25 陽性（棕色膜/細胞質染色），分布呈帶狀；CD25 在異常（腫瘤性）肥大細胞表現，正常肥大細胞不表現，是系統性肥大細胞增生症的診斷次要準則之一。",
+  "features": [
+    "Colonic mucosa with intact crypts at higher magnification",
+    "Band-like subepithelial infiltrate of oval to spindle-shaped cells in the lamina propria",
+    "Infiltrating cells show diffuse granular membranous/cytoplasmic CD25 positivity",
+    "Crypt epithelium shows weak nonspecific apical cytoplasmic staining (background)",
+    "Deeper lamina propria contains mostly CD25-negative inflammatory cells with rare positive cells"
+  ],
+  "describe_en": "CD25 immunostain of colonic mucosa shows a band-like subepithelial infiltrate of oval to spindled cells in the superficial lamina propria that are uniformly positive for CD25. The crypts are preserved and show only weak nonspecific epithelial staining, and the deeper lamina propria contains mostly CD25-negative cells. In the context of a CD117/tryptase-positive infiltrate, aberrant CD25 expression by mast cells supports a neoplastic mast cell proliferation; findings are consistent with mastocytosis involving the colon.",
+  "ddx": [
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Non-neoplastic mast cells are CD25-negative and do not form spindled sheets or aggregates."},
+    {"dx": "Activated T-cell infiltrate or adult T-cell leukemia/lymphoma", "vs": "CD25-positive T cells are round lymphoid cells that co-express CD3 and lack CD117/tryptase, unlike spindled mast cells."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells have grooved nuclei with eosinophils but are CD1a/langerin/S100-positive and CD25-negative."},
+    {"dx": "Mucosal perineurioma / Schwann cell hamartoma", "vs": "Bland spindle cell proliferations in the lamina propria are EMA/claudin-1 or S100-positive and negative for CD25 and CD117."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD25",
+  "match": "consistent",
+  "high_yield": false
+}

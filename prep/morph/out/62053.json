@@ -1,0 +1,21 @@
+{
+  "id": "62053",
+  "recognize_zh": "紅色膜染色標示出許多散在、部分成小群的大型陽性細胞，細胞邊界清楚呈環狀，而周圍絕大多數小淋巴球為陰性；大型 B 細胞散佈在以非 B 細胞為主的背景中，符合 NLPHL 變異型態的 LP 細胞分佈。",
+  "features": [
+    "Numerous scattered large cells with crisp circumferential membranous red staining",
+    "Positive large cells occur singly and in small loose clusters",
+    "Background small lymphocytes largely negative, with only rare small positive cells",
+    "Positive cells distributed diffusely across the field without a compact B-cell nodule",
+    "Occasional positive cellular fragments/dendritic-like profiles"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen; antigen not labeled, membranous pattern suggests a B-cell marker such as CD20) shows numerous large positive cells distributed singly and in small loose clusters within a background of predominantly negative small lymphocytes. Compact nodules of small positive B cells are not evident in this field. The pattern of scattered large B cells in a small-lymphocyte background lacking small B cells is consistent with a T-cell-rich variant pattern of nodular lymphocyte-predominant Hodgkin lymphoma, which should be distinguished from T-cell/histiocyte-rich large B-cell lymphoma by architectural stains.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL lacks residual small B cells and CD21+ FDC meshworks throughout the specimen; any preserved B-cell-rich nodule favors NLPHL."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are typically CD20 weak or negative and CD30/CD15 positive, unlike these strongly membranous-positive large cells."},
+    {"dx": "Reactive paracortical hyperplasia with immunoblasts", "vs": "Reactive immunoblasts show a range of sizes, plasmacytoid maturation, and polytypic light chains rather than monotonous LP-cell atypia."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antigen not labeled (likely CD20)",
+  "match": "consistent",
+  "high_yield": false
+}

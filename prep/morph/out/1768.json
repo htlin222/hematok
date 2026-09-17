@@ -1,0 +1,21 @@
+{
+  "id": "1768",
+  "recognize_zh": "教學投影片：左上H&E以中小型、核不規則的腫瘤細胞為主，間雜少數較大的hallmark細胞；右上CD30染色顯示大細胞強陽性且聚集於血管周圍，小細胞多為陰性；右下H&E為轉變後成片的大細胞，符合小細胞型間變性大細胞淋巴瘤及其大細胞轉化。",
+  "features": [
+    "Composite teaching slide titled 'Small Cell Predominant ALCL' with three photomicrographs and the label 'Large cell transformation'",
+    "Upper left H&E: predominance of small to medium cells with irregular hyperchromatic nuclei and clear cytoplasm, with scattered larger atypical cells",
+    "Upper right CD30: strong staining concentrated in larger cells clustering in a band, likely around a vessel, with many small cells negative",
+    "Lower right H&E: sheet of monotonous large cells with vesicular nuclei and prominent nucleoli, representing large cell transformation",
+    "Image resolution limits assessment of individual nuclear contours"
+  ],
+  "describe_en": "This composite teaching slide shows an infiltrate composed predominantly of small to medium-sized atypical lymphoid cells with irregular nuclei and clear cytoplasm, with scattered larger hallmark-like cells. A CD30 immunostain highlights predominantly the larger cells, which cluster in a perivascular band, while many small neoplastic cells are weak or negative. A separate panel shows sheets of large cells with vesicular chromatin and prominent nucleoli, representing large cell transformation. Findings are consistent with the small cell pattern of ALK-positive anaplastic large cell lymphoma with progression to the common large cell pattern; ALK staining (often nuclear-restricted in small cells) aids diagnosis.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS lacks perivascular clustering of strongly CD30-positive hallmark cells and is ALK negative."},
+    {"dx": "Reactive lymphadenitis with CD30-positive immunoblasts", "vs": "Reactive immunoblasts show variable weaker CD30 staining in a polymorphous background without cytologic atypia of the small cells, and are ALK negative."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin lymphoma has scattered Reed-Sternberg cells that are CD15+ and weak PAX5+, rather than atypical T cells with ALK positivity."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

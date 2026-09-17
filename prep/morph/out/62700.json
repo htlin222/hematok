@@ -1,0 +1,21 @@
+{
+  "id": "62700",
+  "recognize_zh": "淋巴球門控（Lymphs gate）的 CD4 對 CD8 散點圖中，綠色標示的族群數量最多且 CD4 陰性、CD8 陰性至弱陽性，與藍色的 CD4+ 及 CD8 強陽性 T 細胞分開，代表擴增的 NK 細胞族群。",
+  "features": [
+    "Dot plot of CD8-ECD (x) versus CD4-APC750 (y) gated on lymphocytes",
+    "Dominant green-painted population is CD4-negative and CD8-negative to dim, far outnumbering T cells",
+    "Residual blue T cells form discrete CD4+CD8- and CD4-CD8 bright clusters",
+    "Magenta events (other lymphocytes, likely B cells) are CD4/CD8 double-negative",
+    "Lineage-defining NK markers (CD3, CD16, CD56, KIRs) are not displayed on this plot"
+  ],
+  "describe_en": "Flow cytometry dot plot gated on lymphocytes displays CD8 versus CD4. The largest population (green) is negative for CD4 and negative to dim for CD8, clearly separate from the residual CD4-positive and CD8-bright T cells (blue) and the double-negative magenta events. In the context of the case, the green population represents an expanded NK-cell population that dominates the lymphocyte gate. This plot alone cannot establish NK lineage or clonality, which requires CD3 negativity, CD16/CD56 expression and restricted or aberrant KIR/CD94 expression on other plots. Findings are supportive of an NK-cell lymphocytosis consistent with chronic lymphoproliferative disorder of NK cells.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "The expanded population would be surface CD3-positive and usually CD8-bright rather than CD4/CD8 negative-to-dim."},
+    {"dx": "Reactive NK-cell lymphocytosis", "vs": "Same CD4/CD8 pattern; reactive NK cells show polyclonal KIR expression and the expansion resolves over time."},
+    {"dx": "Double-negative gamma-delta T-cell expansion", "vs": "Gamma-delta T cells are also CD4/CD8 negative to dim but express surface CD3 and TCR gamma-delta."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

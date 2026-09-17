@@ -1,0 +1,23 @@
+{
+  "id": "63068",
+  "recognize_zh": "骨髓抹片細胞極多，以大量未成熟顆粒球系細胞為主，其中不少大細胞核圓、染色質細緻、細胞質嗜鹼性並帶少量嗜天青顆粒（原始細胞／前骨髓細胞），同時仍可見各階段成熟嗜中性球；在 BCR-ABL1 陽性背景下，原始細胞增加（≥20%）即為 CML 急變期（blast phase）。",
+  "features": [
+    "Markedly hypercellular smear dominated by immature granulocytic cells",
+    "Numerous large blasts with high N:C ratio, round to slightly indented nuclei and fine, open chromatin",
+    "Many blasts and promyelocytes contain fine azurophilic granules in basophilic cytoplasm",
+    "Persistent maturing myeloid cells: myelocytes, band and segmented neutrophils",
+    "Occasional eosinophilic precursors; scattered nucleated red cells and small lymphocytes",
+    "No Auer rods clearly identifiable at this magnification"
+  ],
+  "describe_en": "Bone marrow aspirate smear is markedly cellular with granulocytic hyperplasia. There is a prominent population of large blasts with high nuclear-to-cytoplasmic ratio, round to indented nuclei, fine chromatin and moderate basophilic cytoplasm, many containing fine azurophilic granules, admixed with promyelocytes, myelocytes and maturing band and segmented neutrophils. Occasional eosinophilic precursors are present. Auer rods are not clearly seen. In a patient with BCR-ABL1 positivity and a reported blast count of 23%, the findings are consistent with chronic myeloid leukemia in myeloid blast phase.",
+  "ddx": [
+    {"dx": "CML, chronic phase", "vs": "Chronic phase shows the full spectrum of granulocytic maturation with a myelocyte peak and blasts well below 20% (and <10% in the WHO 2016 accelerated-phase framework), not the expanded blast population seen here."},
+    {"dx": "Acute myeloid leukemia with BCR-ABL1 (de novo)", "vs": "De novo BCR-ABL1+ AML lacks a preceding CML history, basophilia and marked granulocytic hyperplasia with maturation, and usually shows the p190 rather than p210 transcript; morphology alone cannot separate them."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL shows a monotonous population of heavily granulated abnormal promyelocytes with bilobed nuclei and faggot cells, little maturation to segmented neutrophils, and PML-RARA rather than BCR-ABL1."},
+    {"dx": "Lymphoid blast phase of CML", "vs": "Lymphoid blasts are agranular with scant cytoplasm and express TdT/CD19/CD10 on flow cytometry, whereas the blasts here are granular and myeloid-appearing."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

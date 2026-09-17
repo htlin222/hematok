@@ -1,0 +1,22 @@
+{
+  "id": "63015",
+  "recognize_zh": "周邊血抹片中大多數紅血球呈卵圓形，且許多細胞中央淡染區變成橫向的縫隙（stomatocytes），有些甚至出現兩條平行縫隙或被橫條分隔（theta cells / knizocytes）；卵圓形紅血球加上多種縫隙型態，是東南亞卵圓形紅血球症（SAO）的特徵。",
+  "features": [
+    "Numerous oval to slightly elongated red cells (ovalocytes) with mild anisocytosis",
+    "Many stomatocytes with slit-like central pallor oriented along or across the long axis",
+    "Occasional cells with two slits or a central transverse ridge (theta cells/knizocytes)",
+    "Scattered round, slightly larger pale cells without central pallor",
+    "Platelets normal in appearance; no spherocytes, fragments or nucleated red cells"
+  ],
+  "describe_en": "Peripheral blood smear (Wright-Giemsa) shows a red cell population dominated by ovalocytes, many of which display slit-like central pallor (stomatocytes), with occasional cells showing double slits or a central transverse bar (theta cells). There is mild anisocytosis, without spherocytes, schistocytes, target cells or nucleated red cells, and platelets appear normal. The combination of oval stomatocytes with one or two transverse slits is characteristic. Findings are consistent with Southeast Asian ovalocytosis, supported by reduced eosin-5'-maleimide binding and confirmable by detecting the SLC4A1 27-bp deletion.",
+  "ddx": [
+    {"dx": "Hereditary elliptocytosis", "vs": "Hereditary elliptocytes are more elongated with preserved or absent central pallor and lack the slit-like stomatocytic pallor and theta cells of SAO."},
+    {"dx": "Hereditary stomatocytosis (overhydrated/dehydrated)", "vs": "Hereditary stomatocytes are round rather than oval, and the disorder shows cation leak with overt hemolysis instead of rigid ovalocytes."},
+    {"dx": "Acquired stomatocytosis (alcohol, liver disease, drugs)", "vs": "Acquired stomatocytes are round, usually fewer, and accompanied by target cells or macrocytes, without predominant ovalocytes."},
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency shows hypochromic microcytes with pencil cells and increased central pallor, not stomatocytic slits."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

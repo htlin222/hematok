@@ -1,0 +1,22 @@
+{
+  "id": "4066",
+  "recognize_zh": "中央四個小到中型淋巴球，細胞質少、深藍色，邊緣有明顯的細胞質突起（blebs），核形略不規則、染色質中度凝集，兩側有破碎的污斑細胞，符合 T 前淋巴球性白血病（T-PLL）。",
+  "features": [
+    "Small-to-medium lymphoid cells with high N:C ratio",
+    "Scant deeply basophilic cytoplasm with prominent cytoplasmic blebs/protrusions",
+    "Round to irregular nuclei with moderately condensed chromatin; nucleoli inconspicuous in these cells",
+    "Two smudge cells flanking the field",
+    "Background RBCs normocytic with occasional crenated forms"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of small-to-medium lymphoid cells with high nuclear-to-cytoplasmic ratios, round to slightly irregular nuclei with moderately condensed chromatin, and scant deeply basophilic cytoplasm with conspicuous cytoplasmic blebs. Nucleoli are not prominent in these particular cells (small-cell variant morphology). Two smudge cells are present. In the setting of marked lymphocytosis, findings are suggestive of T-prolymphocytic leukemia; confirmation by flow cytometry and TCL1A/MTCP1 rearrangement or TCL1 immunostaining is recommended.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells have soccer-ball clumped chromatin and scant pale cytoplasm without blebs, and are CD5+/CD23+ B cells."},
+    {"dx": "Sézary syndrome", "vs": "Sézary cells show cerebriform, deeply grooved nuclei rather than round nuclei with basophilic blebbed cytoplasm."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells have polylobated 'flower' nuclei and are CD25+/HTLV-1 associated, TCL1-negative."},
+    {"dx": "B-prolymphocytic leukemia / splenic marginal zone lymphoma", "vs": "B-PLL cells have a single prominent central nucleolus, and SMZL cells show polar villi; both are B-lineage by flow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

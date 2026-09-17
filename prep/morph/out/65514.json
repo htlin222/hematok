@@ -1,0 +1,22 @@
+{
+  "id": "65514",
+  "recognize_zh": "MPO 細胞化學染色下，左下方一顆芽細胞的淡紫色細胞質中，有幾條細長針狀、染成紅棕色的桿狀物，就是 Auer rod；右下另有一顆整個細胞質呈棕色顆粒陽性的細胞。Auer rod 呈 MPO 陽性，證明芽細胞屬骨髓系，支持 AML。",
+  "features": [
+    "Population of large blasts with high N:C ratio and pale lightly counterstained nuclei",
+    "One blast containing several thin, needle-shaped cytoplasmic Auer rods staining red-brown with MPO",
+    "Adjacent cell with diffuse coarse brown granular MPO positivity",
+    "Many surrounding blasts show weak to negligible MPO reaction (heterogeneous positivity)",
+    "Red cells in the background are unstained"
+  ],
+  "describe_en": "Peripheral blood or marrow smear stained cytochemically for myeloperoxidase with a light counterstain shows numerous large blasts. One blast contains several slender, needle-like cytoplasmic inclusions that are MPO positive, representing Auer rods, and a neighboring cell shows strong diffuse granular MPO positivity; many other blasts are weakly reactive or negative. MPO-positive Auer rods establish myeloid lineage. Findings are consistent with acute myeloid leukemia.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are MPO negative (<3%) and never contain Auer rods."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL shows intensely MPO-positive hypergranular cells with bundles of Auer rods (faggot cells) in most abnormal promyelocytes, not scattered single rods in otherwise weakly reactive blasts."},
+    {"dx": "Acute monoblastic leukemia", "vs": "Monoblasts are usually MPO negative or weak and NSE positive, and Auer rods are rare."},
+    {"dx": "Crystalline or staining artifact", "vs": "Precipitate lies on top of or outside cells in multiple planes, whereas Auer rods are intracytoplasmic, uniform in shape and MPO reactive."}
+  ],
+  "specimen": "PB",
+  "stain": "MPO (cytochemical)",
+  "match": "consistent",
+  "high_yield": true
+}

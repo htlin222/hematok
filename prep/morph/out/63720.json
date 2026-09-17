@@ -1,0 +1,22 @@
+{
+  "id": "63720",
+  "recognize_zh": "視野中幾乎每一顆分葉嗜中性球的邊緣都黏附一圈小而深紫紅的血小板，像衛星一樣環繞（platelet satellitism），背景游離血小板相對稀少；這是 EDTA 引起的體外現象，會造成假性血小板低下。",
+  "features": [
+    "Multiple segmented neutrophils each rimmed by adherent platelets (rosettes)",
+    "Platelets are small, granular, magenta and closely applied to the neutrophil membrane",
+    "Neutrophil nuclear segmentation and cytoplasm otherwise normal",
+    "Relatively few free platelets in the background",
+    "Red cells with some crenated forms and overlapping in thicker area"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous segmented neutrophils, each surrounded by a rim of adherent platelets forming rosettes (platelet satellitism). The neutrophils are otherwise morphologically unremarkable, and free platelets in the background are relatively sparse. Red cells show some crenation, likely artifactual. Findings are consistent with EDTA-dependent platelet satellitism, an in vitro phenomenon that can cause spurious thrombocytopenia (pseudothrombocytopenia); a repeat count on citrate- or heparin-anticoagulated blood is recommended.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Platelet clumping forms free platelet aggregates, often at the feathered edge, rather than rosettes around neutrophils."},
+    {"dx": "Phagocytosis of platelets by neutrophils", "vs": "Phagocytosed platelets lie within the neutrophil cytoplasm or vacuoles rather than adhering to the outer membrane."},
+    {"dx": "True thrombocytopenia (e.g., ITP)", "vs": "True thrombocytopenia shows few platelets throughout the smear without platelets sequestered around leukocytes, and the count is low on citrate samples too."},
+    {"dx": "Toxic granulation of neutrophils", "vs": "Toxic granules are intracytoplasmic within the neutrophil, whereas satellite platelets are separate bodies outside the cell border."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61373",
+  "recognize_zh": "NPM1 免疫染色（紅色呈色）中，大量細胞的細胞核與細胞質都被染成紅色（灰箭頭，異位於細胞質，代表 NPM1 突變），而少數細胞只有細胞核著色、細胞質淡染（黑箭頭，野生型的核內分布），這是 NPM1 突變 AML 的免疫組化替代指標。",
+  "features": [
+    "Numerous marrow cells with diffuse red nuclear and cytoplasmic NPM1 staining (aberrant cytoplasmic localization, gray arrow)",
+    "Scattered cells with nuclear-restricted staining and unstained cytoplasm (wild-type pattern, black arrow)",
+    "Cytoplasm-positive cells form cohesive clusters in the interstitium between fat spaces",
+    "Some small cells with blue hematoxylin-counterstained nuclei are negative or weak",
+    "Hemosiderin-laden macrophages with brown pigment scattered in the stroma"
+  ],
+  "describe_en": "Immunohistochemistry for nucleophosmin (NPM1) on the bone marrow biopsy shows numerous cells with combined nuclear and cytoplasmic staining (gray arrow), indicating aberrant cytoplasmic dislocation of NPM1, arranged in interstitial clusters between fat spaces. For comparison, other hematopoietic cells show a nuclear-restricted staining pattern consistent with wild-type NPM1 (black arrow). Scattered hemosiderin-laden macrophages are present. In a patient previously treated for NPM1-mutated acute myeloid leukemia, the findings are consistent with residual NPM1-mutated cells, and the extent of disease should be correlated with morphology and NPM1 quantitative PCR for measurable residual disease.",
+  "ddx": [
+    {"dx": "Regenerating normal hematopoiesis after therapy", "vs": "All cells show nuclear-restricted NPM1 staining without cytoplasmic positivity."},
+    {"dx": "Non-specific cytoplasmic staining artifact", "vs": "Is weak and diffuse including stroma and fat, whereas true NPM1c shows crisp cytoplasmic staining confined to hematopoietic cells with internal wild-type controls."},
+    {"dx": "AML with other NPM1 dislocation (e.g. NPM1 rearranged or rare variants)", "vs": "Cannot be separated by immunostain, so molecular testing for the NPM1 exon 12 mutation is required."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: NPM1",
+  "match": "consistent",
+  "high_yield": false
+}

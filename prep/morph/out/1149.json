@@ -1,0 +1,21 @@
+{
+  "id": "1149",
+  "recognize_zh": "淋巴結壞死區的免疫組織化學染色，散在許多細胞核呈深棕色強陽性、部分核形拉長或變形，代表病毒感染細胞，符合單純疱疹病毒（HSV）淋巴結炎。",
+  "features": [
+    "Strong brown nuclear (and some cytoplasmic) staining in numerous scattered cells",
+    "Positive nuclei are enlarged, rounded to elongated and irregular",
+    "Positive cells concentrated in a pale, necrotic-appearing zone",
+    "Faint diffuse brown background staining within necrotic debris",
+    "Adjacent viable area with small negative hematoxylin-stained lymphocytes"
+  ],
+  "describe_en": "Immunohistochemical stain on a lymph node section shows a necrotic zone containing numerous scattered cells with strong nuclear, and focally cytoplasmic, brown positivity, many with enlarged and irregular nuclei. There is faint granular staining of the necrotic background, and small unstained lymphocytes are present at the periphery. The antibody is not labeled on the image, but in context the pattern represents viral antigen in infected cells. Findings are consistent with herpes simplex virus lymphadenitis.",
+  "ddx": [
+    {"dx": "Cytomegalovirus lymphadenitis", "vs": "CMV-infected cells are markedly enlarged with single owl-eye intranuclear and granular cytoplasmic inclusions and stain with CMV rather than HSV antibodies."},
+    {"dx": "Kikuchi-Fujimoto necrotizing lymphadenitis", "vs": "Kikuchi shows karyorrhectic necrosis with crescentic histiocytes and plasmacytoid dendritic cells, lacks neutrophils, and is negative for viral antigen."},
+    {"dx": "Varicella-zoster virus lymphadenitis", "vs": "VZV produces identical Cowdry A inclusions and multinucleation, so separation requires virus-specific IHC or PCR."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: HSV (presumed)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "12567",
+  "recognize_zh": "范可尼貧血（Fanconi anemia）男孩大腿上有數個大型、邊界清楚的環狀紫紅色斑塊，部分中央潰瘍結痂；皮膚切片可見真皮內瀰漫浸潤的單核芽細胞，細胞化學染色呈紅色陽性顆粒，符合骨髓外的骨髓肉瘤（myeloid sarcoma，皮膚白血病）。",
+  "features": [
+    "Clinical: multiple large annular violaceous-to-erythematous plaques on the thigh, some with central ulceration and eschar",
+    "Skin biopsy: diffuse dermal infiltrate of discohesive mononuclear cells splaying collagen bundles",
+    "Infiltrating cells are medium to large with round to indented nuclei",
+    "Enzyme cytochemistry on tissue: many infiltrating cells show red granular cytoplasmic positivity (POX/NACE per source)",
+    "Lower panel: positive cells infiltrate between collagen/muscle fibers in a single-file pattern"
+  ],
+  "describe_en": "Clinical photograph shows multiple large, well-demarcated annular violaceous plaques on the lateral thigh, several with central ulceration and eschar. The skin biopsy shows a diffuse dermal infiltrate of discohesive medium-to-large mononuclear cells dissecting between collagen bundles and adnexal/muscle fibers. Enzyme cytochemical stains performed on tissue show granular red cytoplasmic positivity in many of the infiltrating cells, supporting myeloid (myelomonocytic) lineage; individual stains cannot be separated with certainty from the image alone. In a patient with Fanconi anemia and a non-leukemic, hypocellular marrow, findings are consistent with myeloid sarcoma (leukemia cutis) with myelomonocytic differentiation.",
+  "ddx": [
+    {"dx": "Cutaneous B- or T-cell lymphoma / lymphoblastic lymphoma", "vs": "Lymphoid infiltrates are negative for myeloperoxidase and chloroacetate esterase and express CD20/CD3 or TdT rather than MPO, CD33, CD68, and lysozyme."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN also forms violaceous skin plaques but is MPO/NACE negative and expresses CD4, CD56, CD123, and TCF4."},
+    {"dx": "Leukocytoclastic vasculitis or infectious (ecthyma) lesions in cytopenic host", "vs": "Vasculitis and infection show neutrophil-rich vessel-centered inflammation or organisms, not a monotonous sheet of blasts."},
+    {"dx": "Sweet syndrome", "vs": "Sweet syndrome shows a dermal infiltrate of mature neutrophils with papillary dermal edema rather than immature myelomonocytic blasts."}
+  ],
+  "specimen": "tissue",
+  "stain": "Clinical photo; cytochemistry: POX and NACE",
+  "match": "consistent",
+  "high_yield": false
+}

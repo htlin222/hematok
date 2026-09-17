@@ -1,0 +1,21 @@
+{
+  "id": "1664",
+  "recognize_zh": "骨髓抹片的骨髓小粒（particle）經普魯士藍（Prussian blue）染色，小粒內可見散在藍色含鐵血黃素沉積，代表儲存鐵存在；但影像失焦、厚度大，無法評估環狀鐵芽球。",
+  "features": [
+    "Thick marrow particle stained with Prussian blue",
+    "Blue granular and amorphous hemosiderin deposits within the particle stroma/macrophages",
+    "Deposits distributed across much of the particle, indicating presence of storage iron",
+    "Orange-brown counterstained cellular background",
+    "Out-of-focus, thick area precludes assessment of sideroblasts"
+  ],
+  "describe_en": "Bone marrow aspirate particle stained with Prussian blue shows blue hemosiderin deposits distributed within the particle, indicating that storage iron is present, likely within macrophages. The image is thick and out of focus, so a formal semiquantitative grade (0 to 6+) is only approximate and individual erythroid precursors cannot be evaluated for sideroblasts or ring sideroblasts. Findings indicate adequate marrow storage iron, which argues against iron deficiency; assessment of sideroblasts requires a thin, well-focused area at high power.",
+  "ddx": [
+    {"dx": "Iron deficiency", "vs": "Particles show absent blue staining in stromal macrophages, whereas storage iron is clearly present here."},
+    {"dx": "Anemia of chronic inflammation", "vs": "Shows normal or increased macrophage iron but reduced or absent sideroblasts, which cannot be evaluated in this thick field."},
+    {"dx": "Sideroblastic anemia / MDS with ring sideroblasts", "vs": "Requires identification of erythroblasts with at least five perinuclear iron granules encircling a third of the nucleus in a thin area, not particle iron."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Prussian blue",
+  "match": "consistent",
+  "high_yield": true
+}

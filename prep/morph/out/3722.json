@@ -1,0 +1,21 @@
+{
+  "id": "3722",
+  "recognize_zh": "骨髓抹片中有淡粉紫色、細絲狀交織的網狀纖維蛋白（fibrin strands），背景帶灰藍色，裡面困住並擠壓變形的造血細胞與紅血球，這是檢體凝固形成的纖維蛋白網，而非真正的病灶。",
+  "features": [
+    "Delicate pink-purple fibrillary strands forming an interlacing mesh across the field",
+    "Hazy grey-blue proteinaceous background within the clot",
+    "Entrapped hematopoietic cells with distorted, stretched or crushed nuclei",
+    "Red cells trapped and deformed within the mesh",
+    "Cell morphology within the fibrin is suboptimal for evaluation"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows an area of delicate, interlacing pink-purple fibrillary strands in a grey-blue proteinaceous background, entrapping distorted hematopoietic cells and red cells. The entrapped cells show stretching and crush artifact, limiting morphologic assessment. Findings represent a fibrin mesh from clotting of the specimen; areas with fibrin should be avoided for differential counts, and clotting may also cause platelet and megakaryocyte clumping and underestimation of cellularity.",
+  "ddx": [
+    {"dx": "Marrow stroma/fibrosis fragment", "vs": "Stromal fragments contain spindled stromal cells, vessels and fat with thicker collagen-like fibers, whereas fibrin forms fine, acellular interlacing strands with trapped blood cells."},
+    {"dx": "Gelatinous transformation", "vs": "Shows amorphous homogeneous pink extracellular material with fat atrophy and hypocellularity rather than fibrillary strands entrapping many cells."},
+    {"dx": "Amyloid deposition", "vs": "Appears as waxy, homogeneous pale blue-pink extracellular clumps that are Congo red positive with apple-green birefringence, not fine fibrillary threads."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

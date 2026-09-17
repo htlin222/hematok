@@ -1,0 +1,22 @@
+{
+  "id": "62293",
+  "recognize_zh": "CD20（A）只標出幾個殘存濾泡與副皮質區零星 B 細胞，PD-1（B）主要在生發中心內，副皮質只有少數陽性；EBER 原位雜交（C）則見大量陽性細胞核，表示大部分浸潤的淋巴細胞感染 EBV，支持全身性 EBV 陽性 T 細胞淋巴瘤。",
+  "features": [
+    "Panel A (CD20): compact positive residual follicles with only scattered B cells in the expanded paracortex",
+    "Panel B (PD-1): positive cells concentrated within germinal centers (follicular helper T cells), few in the paracortex",
+    "Panel C (EBER ISH): numerous dark-blue nuclear signals in the majority of infiltrating lymphoid cells",
+    "No expanded PD-1-positive interfollicular population to suggest a TFH-derived lymphoma",
+    "Expanded paracortex dominated by non-B, EBER-positive cells"
+  ],
+  "describe_en": "Immunohistochemical and in situ hybridization studies on the lymph node show CD20-positive B cells confined mainly to residual follicles, with only scattered B cells in the expanded paracortex. PD-1 highlights cells predominantly within germinal centers, consistent with physiologic follicular helper T cells, and only rare paracortical cells. EBER in situ hybridization shows nuclear positivity in the majority of the infiltrating lymphoid cells, which in correlation with the T-cell stains represent EBV-infected T cells. Findings are consistent with systemic EBV-positive T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows an expanded PD-1-positive interfollicular population and EBER positivity largely restricted to scattered B immunoblasts rather than most T cells."},
+    {"dx": "Infectious mononucleosis", "vs": "In IM, EBER-positive cells are mainly B immunoblasts of variable size and the T cells are polyclonal and EBV-negative."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "EBV+ DLBCL shows EBER in sheets of large CD20-positive B cells, unlike the CD20-sparse, T-cell-predominant infiltrate here."},
+    {"dx": "Chronic active EBV disease, T-cell type", "vs": "CAEBV also shows EBER-positive T cells but lacks effacement by a clonal, cytologically atypical T-cell population and follows a prolonged course."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20, PD-1; ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

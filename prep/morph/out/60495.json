@@ -1,0 +1,22 @@
+{
+  "id": "60495",
+  "recognize_zh": "四格組合圖：(A) 血液抹片中一顆細胞質豐富、含紫紅色嗜天青顆粒的大顆粒淋巴球；(B, C) 骨髓凝塊切片可見多個小淋巴球聚集；(D) CD3 染色顯示這些聚集主要為 T 細胞，符合 T 細胞大顆粒淋巴球白血病。",
+  "features": [
+    "Panel A: large granular lymphocyte with round slightly eccentric nucleus, condensed chromatin, and moderate pale cytoplasm containing coarse azurophilic granules",
+    "Panel B: low-power bone marrow aspirate particle section with several dense lymphoid aggregates",
+    "Panel C: aggregate composed of monotonous small round lymphocytes with condensed chromatin",
+    "Panel D: CD3 immunostain strongly highlights the aggregates and scattered interstitial T cells",
+    "Background red cells in panel A unremarkable; no blasts seen"
+  ],
+  "describe_en": "Peripheral blood smear (A) shows a large granular lymphocyte with a round nucleus, condensed chromatin, and moderate pale cytoplasm containing coarse azurophilic granules. The bone marrow aspirate particle section (B) contains multiple lymphoid aggregates that at higher power (C) are composed predominantly of small, mature-appearing lymphocytes. CD3 immunohistochemistry (D) highlights numerous T cells within the aggregates and in the interstitium. Findings are consistent with T-cell large granular lymphocytic leukemia in the appropriate clinical context (persistent LGL count, clonal TCR rearrangement, STAT3 mutation, and CD8/CD57/TIA-1 or granzyme B intrasinusoidal clusters).",
+  "ddx": [
+    {"dx": "Reactive LGL expansion (viral infection, post-transplant, autoimmune)", "vs": "Reactive expansions are usually transient and polyclonal without a clonal TCR rearrangement, STAT3 mutation, or intrasinusoidal linear cytotoxic T-cell clusters."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "NK-LGL cells are surface CD3 negative, CD56 positive, with no TCR rearrangement."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia shows atypical larger cells with nucleoli, EBV positivity, and a fulminant clinical course rather than indolent cytopenias."},
+    {"dx": "Reactive benign lymphoid aggregates", "vs": "Benign aggregates are small, well-circumscribed, non-paratrabecular, and mixed B/T without a clonal cytotoxic T-cell population."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, IHC: CD3",
+  "match": "consistent",
+  "high_yield": true
+}

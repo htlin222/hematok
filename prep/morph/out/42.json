@@ -1,0 +1,38 @@
+{
+  "id": "42",
+  "recognize_zh": "低倍下淋巴結呈模糊結節狀，結節由小 B 淋巴球構成（膜性 B 細胞標記陽性、濾泡樹突細胞網存在）；結節內散在具大核仁的單核 Hodgkin 細胞與少數多核細胞，B 細胞標記陰性、CD30/CD15 型膜加 Golgi 點狀陽性，符合富含淋巴球的典型 Hodgkin 淋巴瘤（結節型）。",
+  "features": [
+    "Low power: vaguely nodular architecture replacing the node, composed predominantly of small lymphocytes without sclerotic bands or necrosis",
+    "Scattered large mononuclear Hodgkin cells and occasional bi/multinucleated cells with vesicular chromatin and prominent eosinophilic nucleoli, some with retraction halos",
+    "Background of small round lymphocytes with few eosinophils, neutrophils or plasma cells (lymphocyte-rich milieu)",
+    "IHC (unlabeled): membranous B-cell-type marker outlines expanded nodules of small B cells, while the large neoplastic cells are negative",
+    "Nuclear stain strong in small B cells but weak in the large cells (PAX5-like dim pattern); dendritic meshwork-type staining in nodules",
+    "Large cells show membranous plus paranuclear dot (Golgi) staining with a CD30/CD15-type marker; a few scattered cells positive for another marker"
+  ],
+  "describe_en": "Lymph node biopsy shows effacement by a vaguely nodular proliferation composed predominantly of small lymphocytes, without broad sclerotic bands. Within the nodules are scattered large mononuclear and occasional binucleated cells with vesicular chromatin and prominent eosinophilic nucleoli, set in a lymphocyte-rich background with few eosinophils or neutrophils. Immunostains (markers not labeled in the figures) show that the nodules are composed of small B cells with an associated dendritic meshwork, whereas the large cells are negative for the membranous B-cell marker, show only weak nuclear staining with a nuclear B-cell marker, and display membranous and paranuclear dot staining with a CD30/CD15-type marker. Findings are consistent with classical Hodgkin lymphoma, lymphocyte-rich subtype with nodular growth.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant B-cell lymphoma (NLPHL)", "vs": "LP (popcorn) cells have multilobated nuclei with small nucleoli and are CD20+, OCT2/BOB1 strong, CD30-/CD15-, whereas the large cells here are B-marker-negative/PAX5-dim and CD30/CD15-positive."},
+    {"dx": "Nodular sclerosis classical Hodgkin lymphoma", "vs": "NScHL has broad collagen bands and lacunar cells with a mixed inflammatory background, which are absent in these lymphocyte-rich nodules."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered CD20+ large B cells in a diffuse T-cell and histiocyte background lacking small B-cell nodules, unlike the CD20-negative, CD30+ cells within B-cell nodules here."},
+    {"dx": "Reactive follicular hyperplasia with immunoblasts", "vs": "Reactive immunoblasts are CD20+/PAX5 bright, CD15-negative and confined to germinal centers or interfollicular areas, without Reed-Sternberg-type cells."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (unlabeled markers)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "IHC (unlabeled, B-cell type), low power: vague nodules of positive small lymphocytes",
+    "H&E, very low power: effaced node with vaguely nodular pattern",
+    "H&E, low power: nodular lymphocyte-rich infiltrate without sclerotic bands",
+    "H&E, medium power: scattered large cells among small lymphocytes",
+    "H&E, high power: mononuclear and binucleated Hodgkin/Reed-Sternberg cells with prominent nucleoli in a small lymphocyte background",
+    "IHC (unlabeled, membranous B-cell marker), high power: small lymphocytes positive, large cells negative",
+    "Nuclear IHC (unlabeled, PAX5-type): small B cells strong, large cells weak",
+    "Membranous IHC (unlabeled), high power: diffuse positive small cells with negative large cells",
+    "Membranous IHC (unlabeled), high power: positive cells surround negative large cells",
+    "IHC (unlabeled), low power: meshwork-type staining delineating nodules",
+    "CD30/CD15-type IHC (unlabeled), low power: scattered positive large cells",
+    "CD30/CD15-type IHC (unlabeled), high power: membranous and paranuclear dot staining of large cells",
+    "IHC (unlabeled), high power: rare scattered positive small cells, large cell negative"
+  ]
+}

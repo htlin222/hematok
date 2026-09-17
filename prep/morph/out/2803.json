@@ -1,0 +1,22 @@
+{
+  "id": "2803",
+  "recognize_zh": "數顆大型單核球系細胞核呈腎形或折疊、染色質細緻、細胞質灰藍，並有一顆有核紅血球與一顆破碎細胞；幼稚單核球的出現符合 CMML，但單張無法計算單核球比例。",
+  "features": [
+    "Several large monocytic cells with folded, reniform or lobulated nuclei",
+    "Fine to slightly clumped chromatin; some cells approach promonocyte morphology",
+    "Moderate to abundant gray-blue cytoplasm with fine granules",
+    "An orthochromatic normoblast (nucleated red cell) at upper left",
+    "Smudged/disrupted cell at right; red cells with mild anisocytosis"
+  ],
+  "describe_en": "The smear shows several monocytic cells with folded or lobulated nuclei, fine chromatin and gray-blue cytoplasm, some of which have immature features suggestive of promonocytes. A nucleated red cell and a smudged cell are also present, and red cells show mild anisocytosis. Dysplastic features in other lineages and the monocyte percentage cannot be evaluated in this single field. Findings are compatible with chronic myelomonocytic leukemia in the context of persistent absolute and relative monocytosis.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic or monocytic leukemia", "vs": "Acute leukemia requires >=20% blasts including promonocytes, so careful separation of promonocytes from mature abnormal monocytes is critical."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes are mature, lack accompanying dysplasia and are not clonal."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a myelocyte bulge with basophilia and is BCR::ABL1-positive, while monocytes are not dominant."},
+    {"dx": "Juvenile myelomonocytic leukemia", "vs": "JMML occurs in young children with RAS-pathway mutations and elevated hemoglobin F."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

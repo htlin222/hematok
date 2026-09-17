@@ -1,0 +1,21 @@
+{
+  "id": "64484",
+  "recognize_zh": "一顆圓形細胞的核質極度濃縮成深紫色團塊，其間夾雜多個淡染、邊界清楚的空隙，細胞質邊緣起泡不平整，顯示核濃縮與碎裂，符合凋亡的淋巴球。",
+  "features": [
+    "Round cell of roughly lymphocyte size with a thin, irregular, blebbed pale cytoplasmic rim",
+    "Nuclear material intensely condensed (pyknotic) and dark purple-blue, occupying most of the cell",
+    "Multiple sharply outlined pale clear spaces within the condensed chromatin, indicating nuclear breakdown",
+    "No nucleoli or recognizable chromatin pattern",
+    "Nearby pale round body with fine purple granules, likely a large platelet; background clean"
+  ],
+  "describe_en": "Peripheral blood smear shows a single round cell with a condensed, deeply basophilic nucleus interrupted by several sharply demarcated pale spaces, surrounded by a thin irregular rim of blebbed cytoplasm. No nuclear detail or nucleoli can be discerned. In the clinical context of cladribine therapy for hairy cell leukemia, the cell represents an apoptotic lymphocyte with nuclear condensation and early fragmentation.",
+  "ddx": [
+    {"dx": "Smudge (basket) cell", "vs": "Smudge cells are ruptured, flattened nuclei with a smeared, lacy chromatin and no cytoplasm, rather than a compact cell with dense condensed chromatin."},
+    {"dx": "Nucleated red blood cell (orthochromatic normoblast)", "vs": "Orthochromatic normoblasts have a single small round pyknotic nucleus with pink-orange hemoglobinized cytoplasm, not fragmented chromatin in a blue rim."},
+    {"dx": "Aged/degenerated neutrophil in stored EDTA blood", "vs": "Storage artifact produces round separated nuclear lobes in a neutrophil with residual specific granules, whereas this cell lacks granules and derives from a lymphocyte."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

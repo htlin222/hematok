@@ -1,0 +1,21 @@
+{
+  "id": "60478",
+  "recognize_zh": "血液抹片中央有一顆中等大小淋巴球，核圓偏心、染色質較疏，細胞質淡藍灰色且邊緣呈不規則毛狀突起（hairy projections），可與左側一般淋巴球及右側嗜中性球比較。",
+  "features": [
+    "Medium-sized mononuclear cell, larger than the adjacent small lymphocyte",
+    "Round to slightly oval eccentric nucleus with moderately condensed chromatin, no prominent nucleolus",
+    "Moderate pale blue-gray cytoplasm with irregular, frayed circumferential projections",
+    "Adjacent small lymphocyte and segmented neutrophil for size comparison",
+    "Background red cells largely unremarkable; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows a circulating atypical lymphoid cell of medium size with a round, slightly eccentric nucleus, moderately condensed chromatin, and abundant pale blue-gray cytoplasm with fine irregular cytoplasmic projections. A normal-appearing small lymphocyte and a segmented neutrophil are present for comparison. Red cells show no significant abnormality in this field. Findings are consistent with circulating hairy cells; confirmation by flow cytometry (CD11c, CD25, CD103, CD123) is recommended.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma (villous lymphocytes)", "vs": "Villous lymphocytes have short polar villi, more basophilic scant cytoplasm, and often a visible nucleolus, and are CD103/CD25 negative."},
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v cells show a prominent central nucleolus like prolymphocytes and are CD25 and annexin A1 negative with leukocytosis."},
+    {"dx": "Reactive monocyte", "vs": "Monocytes have folded nuclei, lacier chromatin, gray cytoplasm with vacuoles and fine granules rather than circumferential hair-like projections."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

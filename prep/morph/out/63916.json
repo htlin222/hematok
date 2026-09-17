@@ -1,0 +1,22 @@
+{
+  "id": "63916",
+  "recognize_zh": "骨髓切片四格免疫染色中，間質性浸潤的腫瘤細胞同時呈 CD56、CD123、CD4 與 TCL1 陽性，而右側一團結節狀淋巴聚集則為 CD123 與 TCL1 陰性；CD4＋CD56＋CD123＋TCL1＋ 的組合是 BPDCN 的典型表現。",
+  "features": [
+    "CD56: membranous staining of an interstitial infiltrate between fat cells",
+    "CD123: strong diffuse staining of the same interstitial population; a nodular aggregate (upper right) is negative",
+    "CD4: weaker but diffuse staining of the infiltrate",
+    "TCL1: strong staining of the infiltrate, sparing the nodular lymphoid-appearing aggregate",
+    "Marrow with interstitial and patchy distribution among preserved fat"
+  ],
+  "describe_en": "Immunohistochemical stains on the bone marrow core biopsy highlight an interstitial to patchy infiltrate of neoplastic cells between adipocytes. The infiltrate is positive for CD56, CD123 (strong), CD4 (weaker) and TCL1, while a well-circumscribed nodular aggregate is negative for CD123 and TCL1. Co-expression of CD4, CD56, CD123 and TCL1 establishes plasmacytoid dendritic cell differentiation, pending exclusion of myeloid (MPO, lysozyme, CD34) and lymphoid markers. Findings are consistent with marrow involvement by blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with CD56 or CD123 expression", "vs": "AML typically expresses MPO, lysozyme, CD34 or CD117 and is TCL1-negative, whereas this infiltrate is TCL1-positive with the full CD4/CD56/CD123 profile."},
+    {"dx": "Mature plasmacytoid dendritic cell proliferation associated with myeloid neoplasm", "vs": "Reactive or MDS/CMML-associated pDC nodules are CD123/TCL1-positive but CD56-negative and small, not a diffuse CD56-positive blastic infiltrate."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "NK/T-cell lymphoma is CD56-positive but CD123- and TCL1-negative and EBER-positive."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monocytic blasts are CD4-positive but usually CD123-dim, TCL1-negative and positive for CD11c, CD163 or lysozyme."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD56, CD123, CD4, TCL1",
+  "match": "consistent",
+  "high_yield": false
+}

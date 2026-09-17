@@ -1,0 +1,22 @@
+{
+  "id": "60804",
+  "recognize_zh": "八格組圖：胃黏膜固有層被瀰漫性單一形態的母細胞樣細胞擴張（A、B），腫瘤細胞在角蛋白（cytokeratin）染色呈核旁點狀陽性（C、G），易被誤為癌；但細胞學抹片為母細胞（F），其他髓系標記呈膜狀或胞質陽性（D、E、H），提示為胃的髓系肉瘤。",
+  "features": [
+    "Panel A-B: gastric mucosa with lamina propria diffusely expanded by monotonous medium-sized blasts with fine chromatin, separating preserved glands",
+    "Panel C/G: paranuclear dot-like cytoplasmic cytokeratin staining in tumor cells, with strong staining of native gastric glands as internal control",
+    "Panel D: diffuse membranous/cytoplasmic staining of the infiltrate with a hematopoietic marker, glands negative",
+    "Panel E/H: double-stained sections showing dot-like brown cytokeratin with a red chromogen co-labeling the same cells",
+    "Panel F: touch/cytology preparation with discohesive blasts having round nuclei, fine chromatin and basophilic cytoplasm"
+  ],
+  "describe_en": "Composite figure of a gastric biopsy shows lamina propria diffusely infiltrated by discohesive, monotonous medium-sized cells with fine chromatin and scant to moderate cytoplasm, surrounding intact glands. Cytokeratin immunostaining shows paranuclear dot-like positivity in the infiltrating cells in addition to strong staining of benign glands, whereas a hematopoietic marker shows diffuse membranous staining; double-labeling demonstrates coexpression in the same cells. A cytologic preparation shows blasts. The individual antibodies are not labeled in the figure, so marker assignment is inferred from the title. Findings are consistent with myeloid sarcoma with aberrant cytokeratin intermediate filament expression, a pitfall for poorly differentiated carcinoma.",
+  "ddx": [
+    {"dx": "Poorly cohesive (signet-ring/diffuse) gastric carcinoma", "vs": "Tumor cells show strong diffuse cytoplasmic cytokeratin, mucin and E-cadherin loss, and are negative for CD45, MPO, CD33 and CD117, unlike the dot-like keratin in myeloid blasts."},
+    {"dx": "Diffuse large B-cell lymphoma of stomach", "vs": "Larger centroblastic/immunoblastic cells that are CD20/PAX5 positive and MPO/lysozyme negative."},
+    {"dx": "Neuroendocrine carcinoma", "vs": "Also shows paranuclear dot keratin, but expresses synaptophysin, chromogranin and INSM1 and lacks myeloid markers."},
+    {"dx": "Extranodal marginal zone lymphoma (MALT)", "vs": "Small centrocyte-like B cells with lymphoepithelial lesions rather than fine-chromatin blasts, CD20+ and myeloid-marker negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: cytokeratin, myeloid markers; Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

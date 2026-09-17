@@ -1,0 +1,22 @@
+{
+  "id": "64128",
+  "recognize_zh": "骨髓抹片中可見一群大型巨噬細胞，細胞質大量、淡藍色、布滿細小均一空泡呈泡沫狀，核小而偏位，成簇分布，為儲積症的泡沫細胞（如 Niemann-Pick）。",
+  "features": [
+    "Clusters of very large macrophages many times the size of adjacent hematopoietic cells",
+    "Abundant pale blue cytoplasm filled with numerous fine, uniform vacuoles (foamy/mulberry appearance)",
+    "Small, round to irregular eccentric nuclei with condensed chromatin",
+    "No fibrillary striations or blue-green granules in the cytoplasm",
+    "Background of maturing erythroid and myeloid precursors and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows clusters of large histiocytes with abundant pale blue cytoplasm distended by numerous fine uniform vacuoles, giving a foamy appearance, and small eccentric nuclei. The cytoplasm lacks the fibrillary striations of Gaucher cells and the coarse blue-green granules of sea-blue histiocytes. The background contains maturing erythroid and myeloid precursors. Findings are consistent with foamy storage histiocytes, suggestive of Niemann-Pick disease; enzymatic and molecular confirmation is recommended.",
+  "ddx": [
+    {"dx": "Gaucher cells", "vs": "Gaucher cells have fibrillary 'wrinkled tissue paper' cytoplasm rather than discrete small vacuoles and show glucocerebrosidase deficiency."},
+    {"dx": "Sea-blue histiocytes", "vs": "Sea-blue histiocytes contain granular blue-green ceroid pigment on Romanowsky stain rather than clear uniform vacuoles."},
+    {"dx": "Pseudo-Gaucher or foamy macrophages of high cell turnover (CML, thalassemia, myeloma)", "vs": "Secondary foamy macrophages occur sporadically with an underlying disorder evident elsewhere in the marrow, and enzyme studies are normal."},
+    {"dx": "Hemophagocytic histiocytes", "vs": "Hemophagocytes contain engulfed red cells, platelets, or nucleated cells rather than uniform lipid vacuoles."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

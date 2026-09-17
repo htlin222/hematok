@@ -1,0 +1,23 @@
+{
+  "id": "61178",
+  "recognize_zh": "骨髓抽吸抹片中可見大型、成群或融合成團的非造血細胞，細胞質深藍、細胞核重疊、邊界不清，與周圍正常造血細胞明顯不同，這種黏聚性腫瘤細胞團提示轉移性腫瘤，配合病史為神經母細胞瘤（neuroblastoma）。",
+  "features": [
+    "Cohesive clusters and syncytial clumps of large tumor cells with overlapping, molded nuclei",
+    "Marked size variation (pleomorphism); nuclei round to oval with fine to smudged chromatin",
+    "Moderate to abundant deep-blue cytoplasm with indistinct cell borders",
+    "Tumor cells present singly and in clusters, far larger than surrounding hematopoietic cells",
+    "Paucity of normal hematopoietic elements in the field; background red cells and fine granular debris",
+    "No definite Homer Wright rosettes or fibrillary neuropil appreciable at this magnification"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows clusters and syncytial aggregates of large, pleomorphic non-hematopoietic cells, with scattered single tumor cells. The cells have round to oval nuclei with nuclear molding and overlapping, fine chromatin, and moderate to abundant deep basophilic cytoplasm with indistinct borders. Normal hematopoietic elements are sparse in this field. Rosettes and fibrillary material are not clearly identified. Findings are consistent with marrow involvement by a metastatic tumor, compatible with neuroblastoma in the given clinical context; immunostains (PHOX2B, synaptophysin) on the core biopsy are recommended.",
+  "ddx": [
+    {"dx": "Acute leukemia (blasts)", "vs": "Leukemic blasts are discohesive and evenly dispersed rather than forming molded syncytial clusters, and are CD45/CD34 positive."},
+    {"dx": "Metastatic rhabdomyosarcoma", "vs": "Rhabdomyosarcoma cells may also cluster and can be vacuolated but are desmin/myogenin positive and lack neuropil."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma clusters show more cohesive sheets with defined borders in adults and are cytokeratin positive, whereas neuroblastoma is cytokeratin negative."},
+    {"dx": "Osteoblast or megakaryocyte clusters", "vs": "Osteoblasts have eccentric nuclei with a paranuclear clear zone and megakaryocytes have lobulated nuclei with granular cytoplasm, unlike these molded atypical cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

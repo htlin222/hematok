@@ -1,0 +1,20 @@
+{
+  "id": "61407",
+  "recognize_zh": "BCL2 染色低倍（40x）見多個結節呈不均勻、中度陽性，部分區域較淡；高倍（400x）為中大型腫瘤細胞膜狀/胞質陽性且強度不一，顯示 IRF4 重組大B細胞淋巴瘤中 BCL2 可呈變異性表現，不能據此判定為濾泡性淋巴瘤。",
+  "features": [
+    "Low power (40x): nodular architecture with heterogeneous, moderate BCL2 staining across nodules; some nodules paler than surrounding areas",
+    "Negative pale round spaces (vessels/sinuses) and septa within the section",
+    "High power (400x): cytoplasmic and membranous BCL2 in many medium to large cells with variable intensity",
+    "Scattered small cells with stronger staining (likely admixed T cells) interspersed among weaker tumor cells"
+  ],
+  "describe_en": "BCL2 immunohistochemistry at low power shows a nodular pattern with heterogeneous, moderate staining that varies between nodules. At high power, many medium to large neoplastic cells show cytoplasmic/membranous BCL2 of variable intensity, admixed with scattered strongly positive small cells, likely reactive T cells. BCL2 expression is variable in large B-cell lymphoma with IRF4 rearrangement and does not by itself indicate t(14;18); correlation with MUM1 and IRF4/BCL2 FISH is required.",
+  "ddx": [
+    {"dx": "Follicular lymphoma with t(14;18)", "vs": "FL typically shows strong uniform BCL2 in neoplastic follicles with BCL2 rearrangement by FISH and lacks strong MUM1/IRF4 rearrangement."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal center B cells are BCL2-negative, with positivity confined to mantle and T cells."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Double-hit lymphoma shows strong BCL2 with MYC and BCL2 breaks on FISH rather than IRF4 rearrangement."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BCL2",
+  "match": "consistent",
+  "high_yield": false
+}

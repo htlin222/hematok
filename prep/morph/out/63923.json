@@ -1,0 +1,22 @@
+{
+  "id": "63923",
+  "recognize_zh": "四格骨髓切片對照：H&E 可見擴張的竇狀隙內塞滿小至中型、核深染的淋巴球；CD3 與 TCR-delta 染色都呈現分支狀、沿竇狀隙分布的陽性細胞群，而 TCR-beta 陽性細胞稀少且不呈竇狀隙分布，表示竇內浸潤為 γδ T 細胞，符合肝脾 T 細胞淋巴瘤。",
+  "features": [
+    "A (H&E): dilated marrow sinusoids filled with small to intermediate lymphoid cells with dark, slightly irregular nuclei among hypercellular hematopoiesis",
+    "B (CD3): positive cells in branching, cord-like intrasinusoidal clusters distributed throughout the marrow",
+    "C (TCR-delta): the same branching intrasinusoidal pattern as CD3, indicating gamma-delta T cells",
+    "D (TCR-beta): only scattered positive cells with a non-sinusoidal distribution",
+    "Background hematopoiesis with erythroid precursors and large megakaryocyte-like cells is preserved"
+  ],
+  "describe_en": "This four-panel composite of a bone marrow trephine biopsy shows a hypercellular marrow with preserved hematopoiesis in which dilated sinusoids are filled by small to intermediate atypical lymphoid cells with dark, mildly irregular nuclei (A). CD3 immunostaining highlights these cells in a branching, intrasinusoidal pattern (B), which is mirrored by TCR-delta staining (C), while TCR-beta labels only scattered, non-sinusoidal T cells (D). The intrasinusoidal infiltrate is therefore composed of gamma-delta T cells. In a young male with hepatosplenomegaly and cytopenias, the findings are consistent with hepatosplenic T-cell lymphoma involving the marrow; isochromosome 7q and trisomy 8 are supportive when present but were not detected in this case.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL is usually alpha-beta CD8+ with granzyme/TIA-1 and forms small linear intrasinusoidal clusters with neutropenia and without the marked hepatosplenomegaly and diffuse sinusoidal gamma-delta infiltration."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia is surface CD3 and TCR negative, EBER positive, and has larger granular cells."},
+    {"dx": "Intravascular large B-cell lymphoma", "vs": "Intravascular LBCL consists of large CD20+ B cells within vessels and sinusoids, not small CD3+ TCR-delta+ T cells."},
+    {"dx": "Reactive sinusoidal T-cell infiltrate (e.g. infection or hemolytic stress)", "vs": "Reactive T cells are polyclonal, predominantly alpha-beta and sparse, without a monomorphic TCR-delta+ sinusoidal population or clonal TCR gamma rearrangement."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD3, TCR-delta, TCR-beta",
+  "match": "consistent",
+  "high_yield": true
+}

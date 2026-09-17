@@ -1,0 +1,27 @@
+{
+  "id": "13",
+  "recognize_zh": "周邊血液 CellaVision 圖庫中是一致的中小型芽細胞：高核質比、細緻染色質、核仁不明顯、胞質稀少淡藍；流式顯示 CD45 弱至陰性芽細胞表現 CD19、CD34、CD10（強）、HLA-DR，缺 CD20 與 CD13/CD117，且三天內芽細胞由 4% 升至 43%，符合 B 淋巴芽細胞白血病。",
+  "features": [
+    "Uniform small to intermediate blasts, about 1.5-2 times a red cell diameter, with very high N:C ratio",
+    "Round to slightly irregular nuclei with fine to slightly condensed chromatin and inconspicuous or small nucleoli",
+    "Scant pale blue agranular cytoplasm, some cells with a small cytoplasmic tail or bleb; occasional small punched-out vacuoles or clear dots",
+    "Flow: CD45 dim/negative blasts (about 43-44%) positive for CD19, CD34, bright CD10 and HLA-DR; negative for CD20, CD13 and CD117",
+    "Serial flow: CD10+CD34+ blast fraction rises from about 4% to 19% to 43% over 72 hours"
+  ],
+  "describe_en": "Peripheral blood digital morphology images show a monotonous population of small to intermediate blasts with very high nuclear-to-cytoplasmic ratios, round to slightly irregular nuclei, fine chromatin, inconspicuous nucleoli and scant agranular pale blue cytoplasm; no Auer rods or cytoplasmic granules are seen. Flow cytometry of the peripheral blood identifies a CD45-dim to negative blast population positive for CD19, CD34, bright CD10, CD22, HLA-DR and CD58, and negative for CD20, CD117, CD13, CD33 and surface light chains. Serial studies show the circulating blast population increasing from 4% to 19% to 43% over three days. Findings are consistent with B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia", "vs": "Morphology is indistinguishable, but T-ALL blasts express cytoplasmic/surface CD3 and CD7 and lack CD19 and CD22, unlike this CD19+CD22+ population."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML blasts may look similarly agranular but express CD13, CD33 or CD117 and lack the CD19/bright CD10 B-lineage profile shown here."},
+    {"dx": "Hematogones (reactive B-cell precursors)", "vs": "Hematogones show a continuous maturation spectrum from CD34+CD10+ to CD20+ with normal CD45 and CD58 levels, whereas these blasts form a discrete CD20-negative cluster with high CD58 and rapidly rising counts."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and are mature CD34-, TdT-, surface light chain-restricted B cells, unlike these CD34+ light chain-negative blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (CellaVision digital images); flow cytometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "CellaVision gallery of peripheral blood lymphoblasts with high N:C ratio, fine chromatin and scant agranular cytoplasm",
+    "Peripheral blood flow cytometry: CD45-dim blasts positive for CD19, bright CD10, CD34 and HLA-DR, negative for CD20, CD13 and CD117",
+    "Serial CD45/SSC and CD10/CD34 plots showing blasts rising from 4% to 19% to 43% over 72 hours"
+  ]
+}

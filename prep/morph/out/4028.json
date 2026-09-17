@@ -1,0 +1,22 @@
+{
+  "id": "4028",
+  "recognize_zh": "低倍周邊血中血小板明顯偏多、散布整個視野，白血球僅見少數嗜中性球、單核球與淋巴球，紅血球大小不一且部分色淡；血小板增多合併貧血時，需以骨髓鐵染色找環狀鐵粒母細胞（ring sideroblast）來診斷伴環狀鐵粒母細胞與血小板增多之 MDS/MPN（MDS/MPN-RS-T）。",
+  "features": [
+    "Increased platelets scattered throughout the field, including occasional large forms",
+    "Mild anisocytosis with a subset of paler, hypochromic-appearing red cells (possible dimorphic population)",
+    "Normal-appearing segmented neutrophils without obvious dysplasia at this power",
+    "Occasional monocytes and lymphocytes; no blasts seen",
+    "No nucleated red cells or teardrop cells evident"
+  ],
+  "describe_en": "Peripheral blood smear at low power shows thrombocytosis with scattered large platelets. Red cells show mild anisocytosis with a suggestion of a paler hypochromic subpopulation. White cells include segmented neutrophils, occasional monocytes and lymphocytes, without blasts or leukoerythroblastic features. The blood findings are nonspecific; in a patient with anemia and thrombocytosis, they are compatible with myelodysplastic/myeloproliferative neoplasm with ring sideroblasts and thrombocytosis, which requires bone marrow iron stain and SF3B1/JAK2 studies for confirmation.",
+  "ddx": [
+    {"dx": "Essential thrombocythemia", "vs": "ET shows thrombocytosis without anemia, dimorphic red cells or marrow ring sideroblasts of 15% or more."},
+    {"dx": "Reactive thrombocytosis with iron deficiency", "vs": "Iron deficiency causes thrombocytosis with uniformly hypochromic microcytes and absent marrow iron, rather than ring sideroblasts."},
+    {"dx": "MDS with ring sideroblasts (MDS-SF3B1)", "vs": "MDS-RS has a normal or low platelet count, whereas MDS/MPN-RS-T requires a platelet count of at least 450 x 10^9/L."},
+    {"dx": "Congenital sideroblastic anemia", "vs": "Congenital forms present young with microcytosis and without thrombocytosis or clonal SF3B1/JAK2 mutations."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

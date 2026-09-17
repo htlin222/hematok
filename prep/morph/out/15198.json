@@ -1,0 +1,21 @@
+{
+  "id": "15198",
+  "recognize_zh": "這是頭部矢狀面顯影電腦斷層（CT venography），箭頭指向上矢狀竇（superior sagittal sinus）處顯影缺損，提示靜脈竇血栓；在急性前骨髓性白血病（APL）的情境下，要想到凝血異常或 ATRA 相關的血栓併發症。",
+  "features": [
+    "Sagittal contrast-enhanced CT (CT venogram) of the head",
+    "Arrow indicates the superior sagittal sinus near the vertex",
+    "Apparent filling defect/reduced opacification of the sinus at the arrow, suggesting cerebral venous sinus thrombosis",
+    "Cortical veins and deep venous structures otherwise opacified",
+    "No morphologic (cellular) findings; radiologic image only"
+  ],
+  "describe_en": "Sagittal contrast-enhanced CT venogram of the head. The arrow points to the superior sagittal sinus, where there appears to be a filling defect with reduced contrast opacification, consistent with cerebral venous sinus thrombosis; resolution of the reproduced image limits detailed assessment. No intraparenchymal hemorrhage is evident on this single slice. In a patient with acute promyelocytic leukemia, this finding illustrates that thrombosis, not only hemorrhage, can complicate APL-associated coagulopathy and its treatment (e.g., ATRA).",
+  "ddx": [
+    {"dx": "Intracranial hemorrhage in APL", "vs": "Hemorrhage appears as hyperdense parenchymal, subdural or subarachnoid blood on non-contrast CT, rather than a non-opacified venous sinus on venography."},
+    {"dx": "Arachnoid granulation / normal flow artifact", "vs": "Arachnoid granulations are small, round, well-defined defects often with CSF density, whereas thrombosis produces a longer segmental filling defect confirmed on MR venography."},
+    {"dx": "Dural sinus invasion by myeloid sarcoma or meningeal leukemia", "vs": "Tumor shows enhancing soft-tissue mass or dural thickening rather than a purely intraluminal non-enhancing clot."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

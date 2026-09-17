@@ -1,0 +1,20 @@
+{
+  "id": "60223",
+  "recognize_zh": "紅血球普遍偏小、中央淡染區擴大呈低色素，形狀大小不一並有少數橢圓或鉛筆狀細胞；背景血小板數量明顯偏多，符合缺鐵性貧血合併反應性血小板增多。",
+  "features": [
+    "Microcytic red cells with increased central pallor (hypochromia)",
+    "Anisopoikilocytosis with oval and elongated pencil-like forms",
+    "Numerous scattered platelets suggesting thrombocytosis; platelets small with normal granulation",
+    "No leukocytes in field; image resolution is low, limiting fine detail"
+  ],
+  "describe_en": "Peripheral blood smear shows hypochromic, microcytic red cells with anisopoikilocytosis, including oval and elongated pencil cells. Platelets appear increased in number and are morphologically unremarkable. No leukocytes are present in this field, and the low image resolution limits assessment of inclusions. Findings are consistent with iron deficiency anemia with reactive thrombocytosis.",
+  "ddx": [
+    {"dx": "Thalassemia trait", "vs": "Microcytosis is more uniform with target cells and basophilic stippling, platelets are not typically increased, and iron studies are normal."},
+    {"dx": "Essential thrombocythemia", "vs": "Platelets may be large and clumped with normocytic red cells, and JAK2/CALR/MPL mutations are present, whereas iron deficiency must be excluded first."},
+    {"dx": "Anemia of chronic disease", "vs": "Red cells are usually normochromic or only mildly hypochromic and ferritin is not low."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

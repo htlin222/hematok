@@ -1,0 +1,19 @@
+{
+  "id": "62377",
+  "recognize_zh": "流式細胞儀母細胞閘中 CD13 對 CD11b 作圖，大部分母細胞 CD13 陽性但 CD11b 陰性，只有 16.41% 為 CD13+CD11b+，顯示母細胞缺乏成熟（單核球/顆粒球）標記。",
+  "features": [
+    "Dot plot gated on blasts: CD13-PE (y-axis) versus CD11b-APC750 (x-axis)",
+    "Main cluster is CD13-positive and CD11b-negative (upper-left quadrant, percentage not labeled)",
+    "Minor CD13+CD11b+ subset (16.41%) and rare CD13-CD11b+ events (1.34%)",
+    "Separate CD13-negative, CD11b-negative population in the lower-left quadrant"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on blasts shows CD13 versus CD11b. The predominant population is CD13-positive and CD11b-negative, with only a minor CD13+CD11b+ fraction (16.41%) and rare CD11b-only events (1.34%). This indicates an immature myeloid phenotype without substantial monocytic or granulocytic maturation-associated CD11b acquisition. The plot supports a myeloid blast population but is not specific for AML with inv(3)/t(3;3).",
+  "ddx": [
+    {"dx": "AML with monocytic differentiation", "vs": "Monocytic leukemias acquire CD11b, CD14, CD64 and CD36 on the leukemic population, whereas these blasts are predominantly CD11b-negative."},
+    {"dx": "Regenerating normal myelopoiesis", "vs": "Normal maturing myeloid cells show an ordered CD13/CD11b maturation curve rather than a discrete CD11b-negative blast cluster."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63246",
+  "recognize_zh": "周邊血抹片（May-Grünwald-Giemsa）中兩個淋巴樣細胞，上方細胞核圓、染色質均勻，細胞質中等量淡灰藍色，周緣有細小毛狀突起、無顆粒；這種細胞質邊緣毛糙的淋巴球即毛細胞（hairy cell），支持毛細胞白血病，但影像解析度有限。",
+  "features": [
+    "Two mononuclear lymphoid cells in a red cell background (image captured through the eyepiece; resolution limited)",
+    "Upper cell: medium-sized, round nucleus with homogeneous chromatin, no obvious nucleolus",
+    "Moderate rim of pale gray-blue, agranular cytoplasm with fine, circumferential hair-like projections",
+    "Lower cell: smaller with scant cytoplasm and slightly ragged border, more condensed chromatin",
+    "Red cells show rouleaux-like overlapping in thicker areas; no granulocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear (May-Grünwald-Giemsa) shows two atypical lymphoid cells in a red cell background. The larger cell has a round nucleus with homogeneous chromatin finer than that of a mature lymphocyte, no obvious nucleolus, and a moderate rim of pale gray-blue agranular cytoplasm with fine circumferential hair-like projections; the second cell is smaller with scant cytoplasm and a slightly irregular border. Image resolution limits assessment of fine cytoplasmic detail. The findings are suggestive of circulating hairy cells; confirmation by flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing is recommended.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes show short villi concentrated at one or both poles and are CD103-negative, whereas hairy cells have circumferential projections and are CD103+/CD25+."},
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma with prominent nucleoli)", "vs": "HCL-variant cells have a conspicuous central nucleolus and lack CD25, annexin A1 and BRAF V600E."},
+    {"dx": "Smudged or crush-artifact lymphocytes", "vs": "Artifactual frayed borders occur in thick or slowly dried areas and affect all cells, while true hairy projections are fine, regular and seen in well-spread monolayer areas."},
+    {"dx": "Reactive lymphocytes", "vs": "Reactive lymphocytes have deeply basophilic cytoplasm that hugs adjacent red cells rather than pale cytoplasm with fine hair-like projections."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grunwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

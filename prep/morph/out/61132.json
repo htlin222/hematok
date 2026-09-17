@@ -1,0 +1,22 @@
+{
+  "id": "61132",
+  "recognize_zh": "S100 免疫染色下，大型組織球的細胞質與核強染成棕色，細胞質內有多個被「負染」圍出的圓形小淋巴球（周圍呈白色空暈），就是 Rosai-Dorfman 病的特徵：淋巴球穿入現象（emperipolesis）。",
+  "features": [
+    "Large histiocytes with abundant cytoplasm showing strong nuclear and cytoplasmic S100 positivity",
+    "Intact small lymphocytes within histiocyte cytoplasm, sharply outlined as S100-negative round cells with clear halos (emperipolesis)",
+    "Histiocyte nuclei large, round to oval, some appearing as dense dark-brown staining",
+    "Background of S100-negative small lymphocytes and plasma cells with oval nuclei",
+    "Fibrillary/stromal background with scattered smaller S100-positive processes"
+  ],
+  "describe_en": "S100 immunohistochemistry highlights scattered large histiocytes with abundant cytoplasm and strong nuclear and cytoplasmic staining. Several histiocytes contain intact small lymphocytes within their cytoplasm, which are negatively outlined as S100-negative round cells surrounded by clear halos, representing emperipolesis. The background consists of S100-negative small lymphocytes and plasma cells. Findings are consistent with Rosai-Dorfman disease (confirmation with CD68/CD163 and cyclin D1 or OCT2 as needed).",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are also S100 positive but are smaller with grooved nuclei, CD1a/langerin positive, and lack emperipolesis."},
+    {"dx": "Reactive sinus histiocytosis", "vs": "Ordinary sinus histiocytes are S100 negative and do not show conspicuous emperipolesis."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "Hemophagocytic histiocytes ingest and degrade red cells and nuclear debris and are S100 negative, whereas RDD histiocytes harbor viable intact lymphocytes."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma cells are S100 positive but show nuclear atypia, prominent nucleoli and SOX10/HMB45/Melan-A positivity without emperipolesis."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: S100",
+  "match": "consistent",
+  "high_yield": true
+}

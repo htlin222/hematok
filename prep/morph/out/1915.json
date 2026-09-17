@@ -1,0 +1,21 @@
+{
+  "id": "1915",
+  "recognize_zh": "周邊血中大量圓形細胞，胞質充滿粗大深紫黑色的嗜鹼性顆粒並遮蓋細胞核，部分細胞顆粒較少可見細緻染色質；與中上方正常的帶狀中性球相比，這些異常嗜鹼性細胞明顯增加，符合急性嗜鹼性白血病。",
+  "features": [
+    "Increased numbers of round cells packed with coarse dark purple-black basophilic granules obscuring nuclear detail",
+    "Some cells with less densely packed granules revealing round nuclei with finer chromatin (immature forms)",
+    "Cells slightly larger than red cells, with little visible agranular cytoplasm",
+    "Band neutrophil with fine pale granules at upper center for comparison",
+    "Red cells with rouleaux-like stacking and a scattered platelet"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous round cells containing coarse, dark purple-black basophilic granules that obscure the nucleus, with some less granular forms showing round nuclei with finer chromatin. A band neutrophil is present for comparison, and red cells show rouleaux-like stacking. Blasts without granules are not clearly identified in this field. Findings are consistent with acute basophilic leukemia in the appropriate clinical and immunophenotypic context; CML and other BCR::ABL1-positive or t(6;9) leukemias with basophilia must be excluded.",
+  "ddx": [
+    {"dx": "Reactive or CML-associated basophilia", "vs": "Mature basophils in CML or reactive states have segmented nuclei and occur with a full granulocytic left shift, and CML is BCR::ABL1-positive."},
+    {"dx": "Mast cell leukemia", "vs": "Mast cells are larger with oval eccentric nuclei and CD117/tryptase positivity, with KIT D816V mutation."},
+    {"dx": "Toxic granulation in neutrophils", "vs": "Toxic granulation shows dark granules in neutrophils with segmented nuclei and pink background cytoplasm, not granules obscuring a round nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

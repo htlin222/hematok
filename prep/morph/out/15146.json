@@ -1,0 +1,24 @@
+{
+  "id": "15146",
+  "recognize_zh": "多張下肢臨床照片並加上標示：足踝色素沉著與靜脈性潰瘍、小腿細小擴張靜脈（venous ectasia）、足部水腫，以及足跟周圍皮膚硬化，這些是深部靜脈血栓後遺症「血栓後症候群（post-thrombotic syndrome）」的典型表現。",
+  "features": [
+    "Hyperpigmentation of the medial ankle/lower leg with a shallow venous ulcer",
+    "Second example of an ulcer with surrounding erythema above the ankle",
+    "Venous ectasia: fine dilated reticular/telangiectatic veins on the calf",
+    "Pitting-type edema of the foot and ankle",
+    "Skin induration (lipodermatosclerosis) with venous ectasia around the heel",
+    "Labeled clinical photographs; no histology"
+  ],
+  "describe_en": "Labeled composite of clinical photographs of the lower limbs illustrating post-thrombotic syndrome. The images show hyperpigmentation of the gaiter area with shallow venous ulcers, fine dilated superficial veins (venous ectasia) on the calf, edema of the foot and ankle, and indurated, scaly skin with venous ectasia around the heel consistent with lipodermatosclerosis. These signs reflect chronic venous hypertension from valvular damage and residual obstruction after deep vein thrombosis. They correspond to the objective components of clinical scoring systems such as the Villalta scale, which also incorporates symptoms such as pain, heaviness and cramps.",
+  "ddx": [
+    {"dx": "Primary chronic venous insufficiency (without prior DVT)", "vs": "Skin changes are identical, so the distinction rests on a documented prior DVT and duplex ultrasound evidence of post-thrombotic venous obstruction or reflux."},
+    {"dx": "Arterial (ischemic) ulcer", "vs": "Arterial ulcers are punched-out, painful, on toes or pressure points with absent pulses and low ankle-brachial index, rather than shallow gaiter-area ulcers with pigmentation and edema."},
+    {"dx": "Recurrent acute DVT", "vs": "Recurrent DVT causes new acute painful swelling with a non-compressible vein on ultrasound, whereas PTS is chronic and its diagnosis should be deferred until 3-6 months after the acute event."},
+    {"dx": "Lymphedema", "vs": "Lymphedema involves the dorsum of the foot and toes (Stemmer sign) with non-pitting swelling and lacks hemosiderin pigmentation and venous ulcers."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false,
+  "captions": ["Hyperpigmentation and venous ulcer; venous ectasia; edema; skin induration with venous ectasia"]
+}

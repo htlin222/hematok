@@ -1,0 +1,22 @@
+{
+  "id": "60582",
+  "recognize_zh": "骨髓抹片中一個含色素顆粒與空泡的中央巨噬細胞，被一圈緊密排列的芽細胞環繞，形似紅血球島（erythroblastic island）但周圍是高核質比、染色質細緻的芽細胞，故稱「芽細胞島」。",
+  "features": [
+    "Central macrophage with abundant vacuolated cytoplasm containing brown-green pigment (hemosiderin/debris) and phagocytosed material",
+    "Rosette of tightly packed blasts surrounding the macrophage, mimicking an erythroblastic island",
+    "Blasts with high N:C ratio, finely dispersed chromatin, occasional small nucleoli and scant cytoplasm; nuclei molded against each other",
+    "Some blasts show small cytoplasmic vacuoles",
+    "Background red cells; no erythroid precursors in the island"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a central macrophage with abundant vacuolated cytoplasm containing pigmented phagocytic debris, encircled by a tightly packed rim of blasts. The blasts have high nuclear-to-cytoplasmic ratios, finely dispersed chromatin, occasional small nucleoli and scant cytoplasm with rare vacuoles, and they replace the erythroid precursors that normally populate such islands. Findings are consistent with a 'blastic island' in acute myeloid leukemia; immunophenotyping and genetic studies are required for classification.",
+  "ddx": [
+    {"dx": "Normal erythroblastic island", "vs": "Normal islands contain erythroid precursors with round nuclei, condensed chromatin and polychromatic cytoplasm at varying maturation stages rather than uniform blasts."},
+    {"dx": "Pure erythroid leukemia", "vs": "Proerythroblasts have deeply basophilic, often vacuolated cytoplasm and are E-cadherin/CD71 positive and MPO negative."},
+    {"dx": "Metastatic small round blue cell tumor (e.g. neuroblastoma rosettes)", "vs": "Tumor cells form Homer Wright rosettes around neuropil, are CD45 negative and synaptophysin/PHOX2B positive."},
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "Morphology can overlap; flow cytometry (TdT, CD19/cCD3 versus MPO/CD33) distinguishes lymphoblasts from myeloblasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

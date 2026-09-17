@@ -1,0 +1,22 @@
+{
+  "id": "64099",
+  "recognize_zh": "脊椎矢狀切 MRI 在上胸椎位置可見一顆邊界清楚、訊號不均勻的圓形軟組織腫塊，緊鄰椎體與脊椎管；在 APL 病人身上，這種髓外軟組織腫塊代表顆粒性肉瘤（myeloid sarcoma），確診仍須切片。",
+  "features": [
+    "Sagittal MRI of the thoracolumbar spine, fat-suppressed sequence (likely post-contrast)",
+    "Well-circumscribed, rounded, heterogeneous soft-tissue mass at the upper thoracic level adjacent to the vertebral column",
+    "Mass abuts the spinal canal region; degree of cord compression cannot be judged confidently on this single slice",
+    "Prominent tortuous enhancing vessels along the lower thoracic and lumbar canal",
+    "Non-morphologic image: radiology cannot determine tissue type"
+  ],
+  "describe_en": "Sagittal fat-suppressed MRI of the thoracolumbar spine shows a well-circumscribed, rounded, heterogeneous soft-tissue mass at the upper thoracic level adjacent to the vertebral column and spinal canal. Prominent tortuous vascular structures are seen along the lower spinal canal. The single slice and sequence limit assessment of cord compression and marrow signal. Imaging is not tissue-specific; in a patient with acute promyelocytic leukemia, the mass is consistent with an extramedullary myeloid sarcoma, which should be confirmed by biopsy showing MPO/CD33-positive myeloid cells and PML::RARA.",
+  "ddx": [
+    {"dx": "Lymphoma (e.g., DLBCL) of the spine or paraspinal tissue", "vs": "Biopsy distinguishes it: lymphoma shows CD20+ or CD3+ lymphoid cells, whereas myeloid sarcoma is MPO/CD33/CD117-positive, a pitfall because blastic myeloid sarcoma can mimic lymphoma on H&E."},
+    {"dx": "Plasmacytoma", "vs": "Plasmacytoma often arises in the vertebral body with bone destruction and shows CD138+ light-chain-restricted plasma cells on biopsy."},
+    {"dx": "Metastatic carcinoma or primary sarcoma", "vs": "These are cytokeratin-positive or show lineage-specific markers and lack myeloid antigens and PML::RARA."},
+    {"dx": "Epidural hematoma in coagulopathic APL", "vs": "Hematoma shows blood-product signal evolution without solid enhancement, whereas myeloid sarcoma is an enhancing solid mass."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60368",
+  "recognize_zh": "抹片上一群大小一致、互相擠壓成團的母細胞，核圓、染色質細緻均勻、細胞質少且偏嗜鹼性，沒有顆粒或 Auer rod，背景幾乎看不到成熟造血細胞，符合淋巴母細胞（lymphoblast）浸潤骨髓。",
+  "features": [
+    "Sheets and cohesive-appearing clusters of monotonous small-to-intermediate blasts (roughly 1.5-2x a red cell)",
+    "High N:C ratio with scant to moderate pale basophilic agranular cytoplasm",
+    "Round to slightly molded nuclei with finely dispersed, homogeneous chromatin; nucleoli inconspicuous",
+    "No cytoplasmic granules or Auer rods identified",
+    "Scattered smudged/disrupted cells; few recognizable maturing myeloid or erythroid precursors"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows clusters and sheets of monotonous small-to-intermediate blasts that crowd out normal hematopoietic elements. The blasts have a high nuclear-to-cytoplasmic ratio, round to slightly molded nuclei with finely dispersed chromatin and inconspicuous nucleoli, and scant pale basophilic agranular cytoplasm. No Auer rods or cytoplasmic granules are seen, and several smudged cells are present. Morphology alone cannot assign lineage; in conjunction with immunophenotyping (CD19+, CD10+, CD79a+, TdT+, CD34-), findings are consistent with B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Myeloblasts can look identical and agranular, so lineage requires flow cytometry (CD13/CD33/CD117, MPO) rather than morphology."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "Morphologically indistinguishable; T-ALL expresses cytoplasmic CD3 and lacks CD19/CD79a on immunophenotyping."},
+    {"dx": "Hematogones (benign B-cell precursors)", "vs": "Hematogones rarely form sheets, show a spectrum of maturation (CD34/TdT to CD20) on flow, and do not efface the marrow."},
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and are TdT-negative with surface light chain expression."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63335",
+  "recognize_zh": "A 圖為周邊血中一個單核球樣的吞噬細胞，胞質內包著一顆紅血球；B 圖為骨髓抹片中一個巨噬細胞吞入多個有核細胞（嗜中性球等）。兩者合看就是血球吞噬（hemophagocytosis），配合臨床可支持 HLH。",
+  "features": [
+    "Panel A (PB): mononuclear phagocyte with irregular nucleus and gray-blue cytoplasm containing an engulfed red cell",
+    "Panel A: background red cells with mild anisocytosis; no other leukocytes in field",
+    "Panel B (BM aspirate): macrophage with abundant cytoplasm containing multiple engulfed nucleated cells, including segmented neutrophils",
+    "Panel B: engulfed cells show intact nuclear lobes within a clear phagocytic vacuole",
+    "Panel B: thick hemodilute aspirate background limits cytologic detail"
+  ],
+  "describe_en": "Composite image. Panel A, peripheral blood smear, shows a mononuclear phagocyte (monocyte/histiocyte) containing an ingested red cell. Panel B, bone marrow aspirate, shows a macrophage engulfing multiple nucleated cells, including segmented neutrophils. No lymphoma cells are identified in these fields. Findings demonstrate hemophagocytosis in blood and marrow, which, in conjunction with fever, cytopenias and hypertriglyceridemia, supports secondary hemophagocytic lymphohistiocytosis associated with DLBCL; hemophagocytosis alone is not diagnostic.",
+  "ddx": [
+    {"dx": "Monocyte with vacuole or overlying red cell (artifact)", "vs": "An overlapping red cell lies outside the cytoplasmic boundary in a different focal plane, whereas true phagocytosis shows a surrounding vacuole within the cytoplasm."},
+    {"dx": "Reactive hemophagocytosis after transfusion or infection", "vs": "Isolated hemophagocytosis is common after transfusion or sepsis and is not HLH without meeting HLH-2004 clinical/laboratory criteria."},
+    {"dx": "Emperipolesis (e.g., megakaryocytes, Rosai-Dorfman histiocytes)", "vs": "In emperipolesis intact cells pass through the cytoplasm without degradation, whereas hemophagocytosis shows engulfed and degenerating cells in phagocytic vacuoles."},
+    {"dx": "Erythrophagocytic leukemic blasts", "vs": "Erythrophagocytic blasts have fine blast chromatin and high N:C ratio, as in AML with t(8;16), rather than mature histiocytic features."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

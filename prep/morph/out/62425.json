@@ -1,0 +1,22 @@
+{
+  "id": "62425",
+  "recognize_zh": "這是反向移位 PCR（inverse shift PCR）的洋菜膠電泳圖：F8 內含子 22 倒位（Inv22）產生約 559 bp 產物，正常等位基因約 487 bp；看每條泳道是單一 559、單一 487，還是兩者皆有，就能判斷患者、正常人或帶因母親，用於 A 型血友病（hemophilia A）的基因診斷與產前診斷。",
+  "features": [
+    "2% agarose gel with 7 lanes; lane 2 is a DNA size ladder with bright 500 bp band",
+    "Lane 1 (Inv22 positive control): single band at ~559 bp",
+    "Lane 3 (mother): dominant ~487 bp band plus a fainter ~559 bp band, indicating heterozygosity",
+    "Lane 4 (normal): single band at ~487 bp",
+    "Lanes 5 and 6 (index case and chorionic villus sample): single ~559 bp band (Inv22 positive)",
+    "Lane 7: single ~487 bp band (unlabelled in legend, presumably normal control)"
+  ],
+  "describe_en": "Agarose gel electrophoresis of inverse shift PCR products for the factor VIII intron 22 inversion is shown with a size ladder in lane 2. The positive control (lane 1), the index case (lane 5) and the chorionic villus sample (lane 6) show a single ~559 bp product indicative of the inversion, whereas the normal sample (lane 4) and lane 7 show the ~487 bp wild-type product. The mother (lane 3) shows both wild-type and inversion-associated products, consistent with a heterozygous carrier; lane 3 also has additional faint upper bands. The legend lists six lanes while seven are visible, so lane 7 assignment should be confirmed. Findings are consistent with an inherited F8 intron 22 inversion (severe hemophilia A) in the index case and an affected fetus.",
+  "ddx": [
+    {"dx": "F8 intron 1 inversion", "vs": "Intron 1 inversion is detected by a different primer set and would give a wild-type result on intron 22 IS-PCR."},
+    {"dx": "F8 point mutation or small deletion", "vs": "Non-inversion variants give a normal IS-PCR pattern and require F8 sequencing."},
+    {"dx": "Von Willebrand disease type 2N", "vs": "Low FVIII from impaired VWF binding is excluded by VWF:FVIIIB assay and VWF gene testing, not by F8 inversion studies."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

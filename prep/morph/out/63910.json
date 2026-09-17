@@ -1,0 +1,20 @@
+{
+  "id": "63910",
+  "recognize_zh": "三格免疫染色：CD34 在大量浸潤細胞呈膜狀陽性、CD123 有一群密集陽性細胞，而 TCL1 幾乎全陰性；CD34 陽性加 TCL1 陰性，支持急性骨髓性白血病而非母細胞性漿細胞樣樹突細胞腫瘤（BPDCN）。",
+  "features": [
+    "CD34: diffuse membranous staining in a large proportion of the infiltrating mononuclear cells",
+    "CD123: strong staining in a dense subpopulation, forming a sheet-like area",
+    "TCL1: essentially negative in the infiltrate (only rare scattered background staining)",
+    "Hypercellular marrow with scattered fat spaces in all panels"
+  ],
+  "describe_en": "Immunohistochemical stains on the bone marrow core biopsy show that the hypercellular infiltrate contains numerous CD34-positive blasts with membranous staining. CD123 highlights a dense population of cells, while TCL1 is essentially negative in the infiltrate. CD123 expression is not specific and can be seen in AML, whereas the combination of CD34 positivity and TCL1 negativity argues against blastic plasmacytoid dendritic cell neoplasm. Findings support acute myeloid leukemia with CD123 expression rather than BPDCN; correlation with MPO, CD4, CD56 and flow cytometry is recommended.",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is typically CD34-negative and TCL1-, CD4-, CD56- and CD123-bright positive, whereas this infiltrate is CD34-positive and TCL1-negative."},
+    {"dx": "AML with mature plasmacytoid dendritic cell proliferation", "vs": "Clusters of pDCs in AML are CD123/TCL1-positive and small, while the CD34-positive blast population is separate; here TCL1 is negative."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL is also CD34-positive but expresses TdT, PAX5 and CD19, which must be excluded with additional stains."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34, CD123, TCL1",
+  "match": "consistent",
+  "high_yield": false
+}

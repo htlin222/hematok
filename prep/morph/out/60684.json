@@ -1,0 +1,22 @@
+{
+  "id": "60684",
+  "recognize_zh": "巨噬細胞的細胞質被無數桿菌塞滿：螢光染色呈亮綠色、抗酸染色呈紅色；在 Romanowsky 染色下這些桿菌不著色，呈現細胞質中大量透明的「負影」桿狀結構，是分枝桿菌（常見於 MAC）的重要線索。",
+  "features": [
+    "Panel A (fluorochrome, likely auramine): macrophage with cytoplasm packed by innumerable bright green fluorescent bacilli surrounding a dark nucleus",
+    "Panel B (acid-fast stain): macrophage filled with red-magenta acid-fast bacilli against a blue counterstain",
+    "Panel C (Romanowsky, low power): dark purple background with numerous clear rod-shaped 'negative images' and clear vacuoles",
+    "Panel D (Romanowsky, high power): enlarged macrophages with pale, finely striated cytoplasm containing unstained negative-image rods, adjacent to hematopoietic cells",
+    "Specimen source not labeled; appears to be an aspirate smear"
+  ],
+  "describe_en": "Smear preparations show macrophages distended by innumerable slender bacilli. On Romanowsky staining, the organisms do not take up stain and appear as clear rod-shaped negative images within pale, striated macrophage cytoplasm and in the background. A fluorochrome stain shows the macrophage cytoplasm packed with brightly fluorescent bacilli, and an acid-fast stain confirms abundant red acid-fast rods. Findings are consistent with massive mycobacterial infection of macrophages, a pattern typical of disseminated Mycobacterium avium complex in an immunocompromised host; culture or PCR is needed for speciation.",
+  "ddx": [
+    {"dx": "Gaucher cells", "vs": "Gaucher cells have wrinkled tissue-paper cytoplasm that is PAS positive but acid-fast negative, without discrete clear rods."},
+    {"dx": "Pseudo-Gaucher cells", "vs": "Pseudo-Gaucher cells in CML or myeloma have similar striated cytoplasm but acid-fast and fluorochrome stains are negative."},
+    {"dx": "Leishmaniasis or histoplasmosis", "vs": "Leishmania and Histoplasma appear as round or oval stained bodies (with kinetoplast or halo) rather than unstained slender rods, and are not acid-fast."},
+    {"dx": "Whipple disease", "vs": "Tropheryma whipplei-laden macrophages are PAS positive and acid-fast negative, unlike these acid-fast bacilli."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; acid-fast stain; fluorochrome (auramine)",
+  "match": "consistent",
+  "high_yield": true
+}

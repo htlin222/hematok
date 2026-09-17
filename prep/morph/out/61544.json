@@ -1,0 +1,20 @@
+{
+  "id": "61544",
+  "recognize_zh": "骨髓切片 CD15 染色中，上方大型 HRS 細胞呈細顆粒狀胞質與核旁點狀陽性、核大而核仁明顯；周圍零星強陽性的小圓細胞是顆粒球系細胞，可作內部陽性對照。",
+  "features": [
+    "Large atypical cell with a large vesicular nucleus, prominent nucleolus and granular cytoplasmic/paranuclear CD15 staining",
+    "Scattered smaller cells with strong diffuse cytoplasmic CD15 (granulocytes/myeloid cells, internal positive control)",
+    "Background lymphocytes, histiocytes and stromal cells negative",
+    "Loose fibrotic stroma with no sheets of positive large cells"
+  ],
+  "describe_en": "Immunohistochemical stain for CD15 on a bone marrow biopsy highlights a large atypical cell with a vesicular nucleus and prominent nucleolus showing granular cytoplasmic and paranuclear staining. Scattered smaller cells with strong diffuse staining represent granulocytic cells and serve as an internal positive control. The remaining lymphocytes, histiocytes and stromal cells are negative. CD15 expression in the large cells, together with CD30 positivity, weak PAX5 and CD20 negativity, supports classic Hodgkin lymphoma involving marrow.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL is usually CD15-negative (or weak in a minority) and PAX5-negative with EMA/ALK or T-cell antigen expression."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "LP cells are CD15- and CD30-negative with strong CD20 and PAX5, unlike these CD15-positive large cells."},
+    {"dx": "CD15-positive myeloid precursors misread as tumor cells", "vs": "Myelocytes and neutrophils are smaller with condensed or lobated nuclei and diffuse strong granular staining, while HRS cells are large with huge nucleoli and Golgi-pattern staining."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD15",
+  "match": "consistent",
+  "high_yield": false
+}

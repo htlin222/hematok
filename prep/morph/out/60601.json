@@ -1,0 +1,21 @@
+{
+  "id": "60601",
+  "recognize_zh": "周邊血液與骨髓中的大型淋巴樣細胞核呈多葉、花瓣狀（flower cell）分葉，細胞質嗜鹼性；組織切片中也可見多葉核的大型細胞（箭頭）。花狀細胞常讓人聯想 ATLL，但在此為 DLBCL 白血病期，需靠 B 細胞免疫表型區分。",
+  "features": [
+    "Large lymphoid cells with deeply clefted, multilobated 'flower-like' or cloverleaf nuclei",
+    "Relatively condensed to coarse chromatin and moderate basophilic cytoplasm",
+    "Cells about 2 times the size of red cells, with occasional small vacuoles",
+    "Tissue section: large atypical cells with multilobated nuclei (arrow) in a loose, edematous background"
+  ],
+  "describe_en": "Peripheral blood smear shows large atypical lymphoid cells with deeply clefted, multilobated nuclei imparting a flower-like appearance and moderate amounts of basophilic cytoplasm; similar cells are present in the marrow aspirate. Tissue section shows large atypical cells with multilobated nuclei (arrow). Although the nuclear morphology resembles the flower cells of adult T-cell leukemia/lymphoma, in the context of a B-cell immunophenotype and negative HTLV-1 serology, findings are consistent with diffuse large B-cell lymphoma in leukemic phase with multilobated (flower cell) morphology.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL flower cells are CD4+/CD25+ T cells with HTLV-1 infection, whereas these cells express B-cell markers (CD19/CD20)."},
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform grooved nuclei and are CD4+ CD7- T cells with erythroderma, not multilobated large B cells."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have folded nuclei with fine chromatin, gray-blue cytoplasm and nonspecific esterase/CD14/CD64 positivity."},
+    {"dx": "Multilobated neutrophils or hypersegmented myeloid cells", "vs": "Neutrophils have pink specific granules and pale cytoplasm with thin chromatin bridges between lobes, unlike basophilic lymphoid cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E",
+  "match": "consistent",
+  "high_yield": false
+}

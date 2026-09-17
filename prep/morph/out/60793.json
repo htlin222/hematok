@@ -1,0 +1,21 @@
+{
+  "id": "60793",
+  "recognize_zh": "積液細胞塊或抹片中為大型、胞質嗜鹼性的非典型淋巴樣細胞（A）；雙重染色下多數腫瘤細胞核呈棕色（B、C），僅少數細胞呈紅色胞質染色，代表罕見角蛋白陽性，是原發性滲出性淋巴瘤被誤診為癌的陷阱。",
+  "features": [
+    "Panel A: discohesive large atypical cells with round to irregular nuclei, visible nucleoli and moderate basophilic cytoplasm",
+    "Panel B: many cells with dark brown nuclear staining and a single cell with red (fast red) cytoplasmic staining",
+    "Panel C: higher power showing a small group of brown-nuclear cells with red cytoplasmic reactivity in an adjacent cell",
+    "Only rare tumor cells show the red cytoplasmic signal; no cohesive epithelial clusters are seen"
+  ],
+  "describe_en": "Effusion cytology (A) shows sheets of discohesive large atypical lymphoid cells with irregular nuclei, nucleoli and basophilic cytoplasm. A double immunostain (B, C) shows nuclear brown reactivity in most tumor cells, presumably HHV-8 LANA, with only rare cells showing red cytoplasmic staining, presumably cytokeratin. The chromogens are not labeled in the figure, so marker assignment is inferred from the title. Findings are consistent with primary effusion lymphoma with rare aberrant cytokeratin immunoreactivity, a pitfall for metastatic carcinoma.",
+  "ddx": [
+    {"dx": "Metastatic poorly differentiated carcinoma", "vs": "Tumor cells form cohesive three-dimensional groups with diffuse strong cytokeratin and are HHV-8 negative, rather than rare keratin+ cells among HHV-8+ discohesive cells."},
+    {"dx": "Malignant mesothelioma", "vs": "Shows cohesive clusters with windows and diffuse keratin/calretinin/WT1 positivity, and lacks HHV-8."},
+    {"dx": "Diffuse large B-cell lymphoma with effusion", "vs": "Expresses CD20/PAX5 and is HHV-8 negative."},
+    {"dx": "Plasmablastic lymphoma or myeloma in effusion", "vs": "Share CD138/MUM1 plasmablastic phenotype but are HHV-8 negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa; IHC double stain (HHV-8/cytokeratin)",
+  "match": "consistent",
+  "high_yield": false
+}

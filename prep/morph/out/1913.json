@@ -1,0 +1,22 @@
+{
+  "id": "1913",
+  "recognize_zh": "中央一顆大型細胞，細胞核圓形偏小、染色質細緻，細胞質豐富、邊界不規則，內含吞噬的紅血球碎片、空泡與藍綠色顆粒狀含鐵血黃素（hemosiderin），這些吞噬物讓你認出它是組織球（巨噬細胞）。",
+  "features": [
+    "Large cell with abundant, grey-purple cytoplasm and irregular, frayed cell borders",
+    "Single round nucleus, small relative to cell size, with fine to reticular chromatin",
+    "Cytoplasmic phagocytosed material including red cell fragments, vacuoles, and dark granules",
+    "Blue-green refractile pigment consistent with hemosiderin",
+    "Background of red cells without other nucleated cells in the field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large macrophage with a low N:C ratio, a single round nucleus with fine chromatin, and abundant cytoplasm with irregular borders. The cytoplasm contains phagocytosed red cell fragments, vacuoles, dark granular debris, and blue-green hemosiderin-like pigment. No intracellular microorganisms are identified at this resolution. Findings are consistent with a reactive histiocyte with phagocytic and iron-laden cytoplasmic contents.",
+  "ddx": [
+    {"dx": "Hemophagocytic histiocyte (HLH)", "vs": "Hemophagocytosis requires intact engulfed erythrocytes, platelets, or nucleated cells, plus clinical HLH criteria, whereas this cell shows mainly fragmented debris and pigment."},
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes have a large lobulated nucleus and pink granular cytoplasm without phagocytosed material."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts are multinucleated with many separate, similar nuclei rather than a single nucleus."},
+    {"dx": "Histiocyte with intracellular organisms (Histoplasma, Leishmania)", "vs": "Organisms appear as uniform small yeasts with halos or amastigotes with a kinetoplast, which are not identified here."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

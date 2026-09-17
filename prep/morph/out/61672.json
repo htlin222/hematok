@@ -1,0 +1,22 @@
+{
+  "id": "61672",
+  "recognize_zh": "這是四格合成圖：A 的 HPLC 在最前端出現兩個提早沖提的尖峰（fast-moving/pre-integration peaks）且 HbA2 偏低（2.0%），B 的超活體染色（HbH 染色）可見許多紅血球內含藍色點狀包涵體，C/D 為 α2 基因 polyadenylation 訊號 AATAAA 缺兩個鹼基的定序圖，整體支持非缺失型 HbH 疾病。",
+  "features": [
+    "Panel A: HPLC chromatogram with two sharp early-eluting peaks near time zero before integration, P2 3.7%, P3 2.7%, A0 91.6%, HbA2 2.0% and HbF 0.0%",
+    "Panel B: supravital (brilliant cresyl blue type) preparation with many red cells containing blue-staining inclusions; fine evenly spaced golf-ball stippling cannot be resolved clearly at this magnification and some coarser clumps likely represent reticulocytes",
+    "Panel C: Sanger sequence chromatogram with the highlighted normal AATAAA polyadenylation signal",
+    "Panel D: patient chromatogram with a clean, single-peaked sequence showing the AATA-- two-base deletion, consistent with homozygosity",
+    "Low-normal to reduced HbA2 fraction without increased HbF"
+  ],
+  "describe_en": "This composite combines hemoglobin analysis, a supravital red cell preparation and DNA sequencing. The HPLC chromatogram (A) shows two fast-eluting pre-integration peaks with HbA2 of 2.0% and no increase in HbF, a pattern suggestive of HbH (beta4 tetramers) and Hb Bart's rather than beta-thalassemia trait. The supravital preparation (B) shows numerous red cells with blue-staining inclusions compatible with HbH precipitates, although the characteristic golf-ball stippling is not well resolved at this magnification. Sequencing (C, D) demonstrates a homozygous two-base deletion of the alpha2-globin polyadenylation signal (AATAAA to AATA--, HBA2:c.*93_*94delAA) compared with the normal sequence. Findings are consistent with non-deletional HbH disease due to homozygous alpha-thalassemia polyadenylation signal mutation.",
+  "ddx": [
+    {"dx": "Beta-thalassemia trait", "vs": "Beta-thalassemia trait shows an elevated HbA2 (usually above 3.5%) without fast-moving HbH/Bart's peaks or HbH inclusions."},
+    {"dx": "Deletional HbH disease (--/-alpha)", "vs": "Deletional HbH disease has a similar HPLC and inclusion pattern and is separated only by gap-PCR or MLPA showing alpha-globin gene deletions rather than a point mutation on sequencing."},
+    {"dx": "Unstable hemoglobin variant with Heinz bodies", "vs": "Heinz bodies are fewer, larger, eccentric membrane-bound inclusions seen with methyl violet stain, unlike the diffuse multiple HbH precipitates, and sequencing identifies a structural globin mutation."},
+    {"dx": "Reticulocytosis", "vs": "Reticulocytes show coarse filamentous or reticular blue-staining RNA networks rather than fine uniform golf-ball inclusions, and HPLC lacks fast-moving peaks."}
+  ],
+  "specimen": "other",
+  "stain": "HPLC; supravital HbH stain; Sanger sequencing",
+  "match": "consistent",
+  "high_yield": false
+}

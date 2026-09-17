@@ -1,0 +1,21 @@
+{
+  "id": "61096",
+  "recognize_zh": "骨髓切片中以黃色虛線圈出一個密集的小型芽細胞樣結節；一種免疫染色（C）在圈內呈瀰漫陽性，另一種（D）的陽性細胞則大多分布在結節周邊、僅少量滲入圈內，呈現 CAR-T 治療後殘存白血病灶與周圍 T 細胞的空間關係。",
+  "features": [
+    "Low power: hypercellular marrow with a well-demarcated, densely packed cellular nodule (outlined in yellow)",
+    "High power: sheets of small to intermediate cells with high N:C ratio and dark nuclei adjacent to fat spaces; arrow highlights a cell of interest (detail limited by resolution)",
+    "IHC panel C: diffuse strong positivity within the outlined nodule, consistent with a residual leukemic blast population (antibody not labeled)",
+    "IHC panel D: positive cells concentrated around the periphery of the nodule with only small clusters inside, pattern typical of a T-cell marker (antibody not labeled)",
+    "Image resolution limits cytologic detail and precise antibody identification"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a hypercellular marrow containing a discrete, densely cellular nodule (outlined) composed of small to intermediate cells with high N:C ratios. An immunostain shows diffuse positivity within the nodule, whereas a second immunostain highlights a population of cells largely surrounding the nodule with only scattered small clusters within it. The antibodies are not labeled in the figure and cytologic detail is limited by image resolution. In a patient with B-lymphoblastic leukemia treated with CAR T cells, the pattern suggests a residual/relapsing blast focus with peripheral T-cell infiltration; correlation with CD19, CD22, TdT and CD3 stains and flow cytometry for antigen loss is required.",
+  "ddx": [
+    {"dx": "Lymphoid aggregate (benign)", "vs": "Benign aggregates are small, well circumscribed and composed of mixed CD3+ T cells and CD20+ B cells without TdT/CD34 positivity or sheets of blasts."},
+    {"dx": "CD19-negative relapse / lineage switch after CAR-T", "vs": "Morphology cannot separate them; flow cytometry or IHC for CD19, CD22, CD79a and myeloid markers is needed to detect antigen escape or lineage switch."},
+    {"dx": "Hematogone-rich regeneration", "vs": "Hematogones are interstitially scattered with a maturing immunophenotypic continuum rather than forming a cohesive dense nodule."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (antibodies not labeled)",
+  "match": "partial",
+  "high_yield": false
+}

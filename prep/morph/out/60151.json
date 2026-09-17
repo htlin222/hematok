@@ -1,0 +1,19 @@
+{
+  "id": "60151",
+  "recognize_zh": "這是雙色雙融合（dual-color dual-fusion）BCR/ABL1間期FISH示意圖：正常細胞為兩紅（ABL1）兩綠（BCR）分開的訊號；異常細胞只剩一紅一綠，另出現兩個紅綠相疊的黃色融合訊號，代表t(9;22)形成BCR::ABL1。",
+  "features": [
+    "Interphase nuclei counterstained blue (DAPI) hybridized with ABL1 (9q34, red) and BCR (22q11.2, green) probes",
+    "Normal cells: two separate red and two separate green signals (2R2G), BCR::ABL1 negative",
+    "Abnormal cells: one red, one green and two red-green juxtaposed/yellow fusion signals (1R1G2F)",
+    "Two fusion signals reflect both derivative chromosomes der(22) (Philadelphia) and der(9) of the reciprocal t(9;22)(q34;q11.2)"
+  ],
+  "describe_en": "This figure illustrates interphase fluorescence in situ hybridization using a dual-color, dual-fusion BCR/ABL1 probe set, with ABL1 at 9q34 labeled red and BCR at 22q11.2 labeled green. Normal nuclei show two separate red and two separate green signals (2R2G). Abnormal nuclei show one red, one green and two fused red-green (yellow) signals (1R1G2F), indicating the reciprocal t(9;22)(q34;q11.2) with formation of BCR::ABL1 on the Philadelphia chromosome and ABL1::BCR on der(9). A positive result supports chronic myeloid leukemia or Ph-positive acute leukemia and excludes BCR::ABL1-negative MPN/MDS-MPN entities such as atypical CML; variant patterns (e.g., one fusion from der(9) deletion) should be recognized.",
+  "ddx": [
+    {"dx": "der(9) deletion variant pattern", "vs": "Deletion of sequences on der(9) produces a 2R2G-minus pattern with a single fusion (1R1G1F) instead of two fusions, still indicating BCR::ABL1 but associated with prior prognostic differences."},
+    {"dx": "Random signal overlap (false-positive fusion)", "vs": "Chance colocalization of signals in 2D nuclei yields single apparent fusions in a low percentage of normal cells, so laboratory cutoffs and the extra-signal dual-fusion design are used to reduce false positives."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: BCR/ABL1 dual-color dual-fusion",
+  "match": "non-morphologic",
+  "high_yield": true
+}

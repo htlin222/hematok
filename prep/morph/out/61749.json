@@ -1,0 +1,20 @@
+{
+  "id": "61749",
+  "recognize_zh": "標示為 CD20 的染色中，中央一團小淋巴球結節的細胞核與膜幾乎沒有棕色染色，只有結節內零星、細網狀的淡棕色訊號；這與脾邊緣區淋巴瘤應有的強 CD20 陽性不符，可能是標示錯誤或為其他陰性標記。",
+  "features": [
+    "Nodular aggregate of small uniform lymphoid cells surrounded by spindled stroma",
+    "Lymphoid cells are essentially unstained (no membranous positivity)",
+    "Faint, fine granular/reticular brown signal confined to the nodule, resembling a dendritic meshwork pattern",
+    "Background stromal cells negative"
+  ],
+  "describe_en": "Immunohistochemistry labeled as CD20 shows a nodular aggregate of small lymphoid cells in which the lymphoid cells lack membranous staining, with only faint, fine reticular brown signal within the nodule and a negative spindled background. This pattern contradicts the strong membranous CD20 positivity expected in splenic marginal zone lymphoma. The image is discordant with its label and more likely represents a negative or dendritic-cell-restricted marker (such as CD23 or CD21 staining a follicular dendritic meshwork) or a failed stain; correlation with the case's actual CD20 slide is required.",
+  "ddx": [
+    {"dx": "Follicular dendritic cell meshwork stain (CD21/CD23)", "vs": "A fine reticular signal between unstained lymphocytes is the pattern of FDC markers, not of membranous CD20 on B cells."},
+    {"dx": "Rituximab-treated B-cell lymphoma (CD20 loss)", "vs": "After anti-CD20 therapy, B cells may lose CD20 but remain PAX5/CD79a-positive."},
+    {"dx": "T-cell nodular infiltrate", "vs": "A CD20-negative nodule could be T-cell rich, which would be confirmed by CD3 positivity and PAX5 negativity."}
+  ],
+  "specimen": "spleen",
+  "stain": "IHC: CD20 (as labeled)",
+  "match": "discordant",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64390",
+  "recognize_zh": "周邊血中多顆中等大小的異常細胞，細胞質淡粉藍、只有極細小的顆粒（hypogranular），核呈腎形、摺疊或輕度分葉，染色質中度細緻，這種低顆粒、核摺疊的形態是微顆粒型 APL（M3v）的線索。",
+  "features": [
+    "Intermediate-sized abnormal cells with moderate N:C ratio",
+    "Irregular, reniform to folded nuclei, some with early lobation or indentation",
+    "Moderately fine chromatin with small nucleoli in some cells",
+    "Moderate pale pink-blue cytoplasm with sparse, very fine azurophilic granules (hypogranular)",
+    "No Auer rods or faggot cells identified in this field; background red cells unremarkable with a single large platelet"
+  ],
+  "describe_en": "Peripheral blood smear shows several intermediate-sized abnormal cells with reniform, folded or indented nuclei, moderately fine chromatin with small nucleoli, and a moderate rim of pale pink-blue cytoplasm containing only sparse, very fine granules. Auer rods and faggot cells are not seen in this field, and classic bilobed butterfly nuclei are only subtly suggested. Red cells are unremarkable and platelets appear decreased. Findings are suggestive of the microgranular (hypogranular) variant of acute promyelocytic leukemia; urgent confirmation by PML::RARA testing, strong MPO positivity and coagulation studies is required.",
+  "ddx": [
+    {"dx": "Acute monocytic/monoblastic leukemia", "vs": "Monocytic cells have folded nuclei too but show gray-blue vacuolated cytoplasm, lacy chromatin, nonspecific esterase positivity and weak MPO, whereas M3v is strongly MPO-positive and CD34-/HLA-DR-negative."},
+    {"dx": "Reactive monocytosis", "vs": "Mature monocytes have abundant gray cytoplasm with vacuoles and condensed chromatin and lack the uniform hypogranular promyelocyte-like appearance."},
+    {"dx": "Hypergranular APL", "vs": "Classic APL shows densely granular cytoplasm obscuring the nucleus with frequent Auer rod bundles, whereas M3v has sparse, fine granules visible only on careful review or by electron microscopy."},
+    {"dx": "AML with NPM1 mutation (cup-like blasts)", "vs": "NPM1-mutated AML can have nuclear invaginations and HLA-DR/CD34 negativity, so PML::RARA testing is needed to separate it."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

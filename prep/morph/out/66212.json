@@ -1,0 +1,22 @@
+{
+  "id": "66212",
+  "recognize_zh": "周邊血液抹片左上方有一顆與小紅血球相當大小、內含細緻紫紅顆粒的巨大血小板，而視野中正常大小的血小板很少，旁邊有一顆小淋巴球可做大小比對；巨大血小板合併血小板減少，是 Bernard-Soulier 症候群的型態線索。",
+  "features": [
+    "Giant platelet (upper left) approaching the diameter of an adjacent red cell, with evenly distributed fine azurophilic granules",
+    "Paucity of normal-sized platelets in the field (only a few tiny platelet fragments), suggesting thrombocytopenia",
+    "Small mature lymphocyte (lower center) available as a size reference; the giant platelet is not much smaller than it",
+    "Red cells are largely normocytic and normochromic without significant poikilocytosis",
+    "No neutrophil inclusions (Döhle-like bodies) are visible in this field; no platelet clumping"
+  ],
+  "describe_en": "Peripheral blood smear (Wright-Giemsa) shows a reduced number of platelets with a conspicuous giant platelet approaching the size of a red blood cell, containing normally distributed azurophilic granules. A small mature lymphocyte is present for size comparison, and red cells appear normocytic and normochromic without significant poikilocytosis. No platelet clumps are seen. The findings of macrothrombocytopenia are consistent with an inherited giant platelet disorder such as Bernard-Soulier syndrome in the appropriate clinical and laboratory context (absent ristocetin-induced aggregation, reduced GPIb-IX-V).",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia (ITP)", "vs": "ITP shows large young platelets but rarely true red-cell–sized giants, and ristocetin aggregation and GPIb expression are normal."},
+    {"dx": "MYH9-related disorder (May-Hegglin anomaly)", "vs": "MYH9 disorders show giant platelets plus Döhle-like basophilic inclusions in neutrophils, which should be sought and are not seen in this field."},
+    {"dx": "Gray platelet syndrome", "vs": "Gray platelets are large but pale and agranular, whereas this giant platelet contains normal azurophilic granules."},
+    {"dx": "Pseudothrombocytopenia (EDTA clumping)", "vs": "Clumped platelets appear as aggregates at the feathered edge rather than single giant platelets, and the count normalizes in citrate."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

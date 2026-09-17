@@ -1,0 +1,22 @@
+{
+  "id": "3379",
+  "recognize_zh": "箭頭所指的淋巴球核深染、核膜有多處摺痕與溝紋而呈腦迴狀（cerebriform），細胞質極少、無顆粒，與旁邊核分葉的嗜中性球及圓核小淋巴球不同，即為 Sézary 細胞。",
+  "features": [
+    "Arrowed lymphoid cell slightly larger than a small lymphocyte with a high N:C ratio",
+    "Nucleus with folded, grooved, convoluted (cerebriform) outline and dense hyperchromatic chromatin",
+    "No visible nucleolus; scant pale blue agranular cytoplasm",
+    "Additional atypical hyperchromatic lymphoid cells nearby with irregular nuclear contours",
+    "Background of mature neutrophils, small lymphocytes and numerous platelets; red cells unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows an atypical lymphoid cell (arrow), slightly larger than a small lymphocyte, with a high N:C ratio and a dense, hyperchromatic nucleus with deeply folded, grooved, cerebriform contours and scant agranular cytoplasm. Other hyperchromatic lymphoid cells with irregular nuclear outlines are present among mature neutrophils and platelets. Findings are consistent with circulating Sézary cells; quantification (absolute Sézary count at least 1000/uL or CD4:CD8 at least 10, or loss of CD7/CD26) and T-cell clonality support Sézary syndrome in the appropriate clinical setting of erythroderma.",
+  "ddx": [
+    {"dx": "Reactive lymphocytes with nuclear clefts (e.g. benign erythroderma, drug reaction)", "vs": "Small numbers of cerebriform cells can occur in reactive states, so flow cytometry showing CD4+ T cells with loss of CD7/CD26 and a clonal TCR rearrangement is needed."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells are multilobated with a flower-like (clover-leaf) nucleus and are HTLV-1 positive with CD25 expression."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells have a visible nucleolus, basophilic cytoplasmic blebs and a markedly high lymphocyte count with TCL1A rearrangement."},
+    {"dx": "Mantle cell lymphoma or CLL with cleaved nuclei", "vs": "These are B-cell neoplasms (CD19/CD20+, cyclin D1+ in MCL) rather than CD3/CD4-positive T cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

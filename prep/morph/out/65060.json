@@ -1,0 +1,22 @@
+{
+  "id": "65060",
+  "recognize_zh": "一顆大型巨噬細胞的細胞質裡包著數個被吞入的細胞：兩顆深染圓形核（有核紅血球）、分葉狀核（顆粒球）與小顆血小板，這是骨髓中典型的噬血現象（hemophagocytosis）。",
+  "features": [
+    "Large macrophage (several times the size of adjacent neutrophils) with abundant pale blue, finely vacuolated cytoplasm",
+    "Engulfed nucleated red cells seen as dense, round, dark-purple nuclei within the cytoplasm",
+    "Engulfed granulocyte with lobulated nucleus and phagocytosed debris/platelet fragments",
+    "Intact phagocytic membrane surrounding the ingested cells (true phagocytosis, not overlap)",
+    "Background of scattered segmented neutrophils, a myelocyte and aggregated red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large histiocyte with abundant vacuolated cytoplasm containing several ingested hematopoietic elements, including nucleated red blood cells, a granulocyte and platelet-sized fragments. The ingested cells lie within the cytoplasm rather than overlapping the cell border. Adjacent neutrophils and myeloid precursors are unremarkable in this field. In the clinical setting of fever, cytopenias, markedly elevated ferritin and hypertriglyceridemia, the findings are consistent with hemophagocytosis in secondary hemophagocytic lymphohistiocytosis.",
+  "ddx": [
+    {"dx": "Cell overlap/smearing artifact", "vs": "Overlapping cells lie on top of the histiocyte with their own cytoplasm and focal planes, whereas true hemophagocytosis shows ingested cells enclosed within vacuoles of the macrophage cytoplasm."},
+    {"dx": "Emperipolesis in megakaryocytes", "vs": "Emperipolesis occurs within a megakaryocyte with a large lobulated nucleus and granular cytoplasm, and the engulfed cells remain viable rather than degraded."},
+    {"dx": "Metastatic tumor cell cannibalism", "vs": "Tumor cells engulfing cells have high N:C ratio, coarse atypical nuclei and cohesive clustering, unlike the bland histiocyte nucleus here."},
+    {"dx": "Isolated reactive hemophagocytosis without HLH", "vs": "Morphology is identical; HLH requires meeting clinical/laboratory criteria (HLH-2004 or HScore) rather than hemophagocytes alone."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

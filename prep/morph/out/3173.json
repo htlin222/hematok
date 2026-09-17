@@ -1,0 +1,22 @@
+{
+  "id": "3173",
+  "recognize_zh": "腹水細胞離心抹片中大量形態一致的大細胞，胞核偏位、胞質豐富，部分有大空泡擠壓胞核呈印戒樣，胞膜外緣有粉紅色絨毛狀邊，這些不屬於造血細胞，屬於外來（非造血）細胞。",
+  "features": [
+    "Numerous large, discohesive to loosely clustered non-hematopoietic cells, larger than accompanying leukocytes",
+    "Round, eccentrically placed nuclei with moderately fine chromatin and a moderate N:C ratio",
+    "Abundant gray-purple cytoplasm, some cells with large clear vacuoles indenting the nucleus (signet-ring-like)",
+    "Pink fringe of fine surface projections around many cells",
+    "Scattered small lymphocytes and neutrophils among the large cells"
+  ],
+  "describe_en": "Cytospin of peritoneal fluid shows a large population of monotonous large cells with eccentric round nuclei and abundant gray-purple cytoplasm, many showing large cytoplasmic vacuoles that indent the nucleus. A delicate pink fringe of surface projections is present around many cells. Scattered small lymphocytes and neutrophils are present in the background. These cells are not of hematopoietic origin; the differential includes metastatic adenocarcinoma and reactive mesothelial cells, and correlation with cell block immunohistochemistry (e.g. calretinin, WT1, MOC31, BerEP4, claudin-4) is recommended.",
+  "ddx": [
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells are usually fewer, form small groups with 'windows' between cells and are calretinin/WT1 positive and BerEP4/MOC31/claudin-4 negative."},
+    {"dx": "Plasma cells or plasma cell neoplasm", "vs": "Plasma cells are smaller with deeply basophilic cytoplasm, clock-face chromatin and a perinuclear hof, and lack large vacuoles and a microvillous fringe."},
+    {"dx": "Macrophages (histiocytes)", "vs": "Histiocytes have kidney-shaped nuclei and foamy phagocytic cytoplasm with ingested debris and are CD68/CD163 positive and keratin negative."},
+    {"dx": "Large cell lymphoma", "vs": "Lymphoma cells are discohesive with scant deeply basophilic cytoplasm and are CD45 positive, lacking epithelial markers."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

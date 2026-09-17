@@ -1,0 +1,21 @@
+{
+  "id": "18539",
+  "recognize_zh": "兩個嗜中性球的細胞膜外緣整圈黏附著一顆顆血小板，形成像花環的血小板衛星現象（platelet satellitism），背景游離血小板很少；血小板被困在白血球周圍，使自動計數機低估血小板（假性血小板減少）。",
+  "features": [
+    "Two segmented neutrophils each rimmed by a ring of adherent platelets (rosettes)",
+    "Platelets of normal size and granulation attached to the neutrophil membrane",
+    "Few free-lying platelets in the background",
+    "Red cells normocytic and normochromic without fragments",
+    "No platelet clumps elsewhere in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows two segmented neutrophils surrounded by rosettes of normal-sized, well-granulated platelets adhering to their cell membranes, with relatively few free platelets in the background. Red cells are unremarkable. Findings are consistent with platelet satellitism, an in vitro EDTA-dependent phenomenon that causes spurious thrombocytopenia on automated counts; a repeat platelet count in citrate-anticoagulated blood or from a fingerstick smear is recommended.",
+  "ddx": [
+    {"dx": "EDTA-dependent platelet clumping", "vs": "Platelet clumping forms free-standing aggregates of platelets rather than rosettes around neutrophils, although the two may coexist."},
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows uniformly few platelets without satellitism or clumping, and the count does not correct in citrate."},
+    {"dx": "Phagocytosed platelets or intracellular bacteria", "vs": "Phagocytosed material lies within cytoplasmic vacuoles, whereas satellite platelets sit on the outer cell surface."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

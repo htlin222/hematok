@@ -1,0 +1,21 @@
+{
+  "id": "2067",
+  "recognize_zh": "高倍 H&E 下成片中型、形態一致的腫瘤細胞，核圓、染色質細緻並帶數個小核仁，細胞質少且邊緣因收縮呈方正（squared-off）排列，並可見分裂像與淡染的吞噬細胞，符合 Burkitt 淋巴瘤。",
+  "features": [
+    "Diffuse sheets of monotonous medium-sized cells with nuclei similar in size to histiocyte nuclei",
+    "Round nuclei with finely clumped chromatin and multiple small, paracentral nucleoli",
+    "Scant amphophilic cytoplasm with retraction artifact producing squared-off, cobblestone cell borders",
+    "Mitotic figure and apoptotic bodies present",
+    "Scattered pale tingible-body macrophages contributing to a starry-sky appearance"
+  ],
+  "describe_en": "Section shows diffuse sheets of monotonous medium-sized lymphoid cells with round nuclei, finely clumped chromatin and multiple small nucleoli. The cells have scant amphophilic cytoplasm with squared-off borders due to retraction. Mitotic figures, apoptotic bodies and scattered pale tingible-body macrophages are present. Findings are consistent with Burkitt lymphoma; confirmation by CD10+/BCL6+/BCL2-, Ki-67 near 100% and MYC rearrangement is recommended.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger and more variable with vesicular nuclei and prominent nucleoli, often BCL2 positive with Ki-67 below 90%."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "It can be morphologically identical and is separated by BCL2 expression and FISH showing BCL2 rearrangement."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Lymphoblasts have finer, dusty chromatin with inconspicuous nucleoli and are TdT positive, whereas Burkitt cells are TdT negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

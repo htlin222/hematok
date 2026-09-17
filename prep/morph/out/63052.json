@@ -1,0 +1,21 @@
+{
+  "id": "63052",
+  "recognize_zh": "A 圖的嗜中性球體積不大，但核分成六葉以上、緊密堆疊呈花瓣狀（hypersegmentation）；B 圖則是細胞質偏藍、核呈多個濃縮小葉的顆粒球，背景紅血球大致正常，出現在 COVID-19 感染的周邊血液。",
+  "features": [
+    "Panel A: neutrophil with markedly hypersegmented nucleus (six or more small, compact lobes) and pale granular cytoplasm",
+    "Panel B: granulocyte with more basophilic cytoplasm and multiple condensed, clustered nuclear lobes",
+    "Nuclear lobes small and densely clumped, closely packed rather than widely spread",
+    "Background red cells largely normocytic with central pallor; no macro-ovalocytes evident",
+    "Scattered platelets and fine stain precipitate in the background"
+  ],
+  "describe_en": "Peripheral blood smear (two panels) shows isolated granulocytes with striking nuclear hypersegmentation, each nucleus composed of multiple small, compact, clumped lobes. One cell displays more basophilic cytoplasm. The red cells are largely normocytic without obvious macro-ovalocytes, and platelets are present. Findings are consistent with acquired neutrophil hypersegmentation in the setting of SARS-CoV-2 infection; B12/folate deficiency and drug effect should be excluded.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic hypersegmentation is accompanied by macro-ovalocytes and large neutrophils with spread-out lobes, which are not seen here; serum B12/folate confirm."},
+    {"dx": "Drug effect (hydroxyurea, methotrexate, G-CSF)", "vs": "Morphology can be identical; distinction relies on medication history."},
+    {"dx": "Apoptotic/degenerating neutrophil (storage artifact)", "vs": "Apoptotic neutrophils show round, smooth, pyknotic nuclear fragments with dense homogeneous chromatin, whereas true hypersegmentation shows connected lobes with chromatin texture."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

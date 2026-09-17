@@ -1,0 +1,21 @@
+{
+  "id": "61619",
+  "recognize_zh": "此周邊血液視野只有一顆有核細胞：核呈不規則摺疊或雙葉狀、染色質中度凝集，細胞質布滿細小紫色顆粒，較像未成熟或異常的顆粒球系細胞；本視野看不到典型胚細胞，單張圖無法診斷 CEBPA 突變 AML，需參考病例的血球計數與分子檢測。",
+  "features": [
+    "Single nucleated cell, slightly larger than a mature neutrophil",
+    "Irregular, folded to bilobed nucleus with moderately condensed chromatin; nucleoli not evident",
+    "Cytoplasm filled with fine purple-lilac granules extending to the cell border",
+    "No Auer rods identified; no blasts present in this field",
+    "Red cells largely normocytic with occasional fragmented/helmet-shaped forms; platelets not evident"
+  ],
+  "describe_en": "Peripheral blood smear shows a single granulated myeloid cell with an irregular, folded to bilobed nucleus, moderately condensed chromatin, and cytoplasm filled with fine purple granules; the cell likely represents an immature or atypical granulocytic element. No blasts or Auer rods are present in this field. The red cells are mostly normocytic, with rare fragmented forms. This single field is non-diagnostic on its own; the diagnosis of AML with mutated CEBPA rests on blast enumeration in blood and marrow and demonstration of an in-frame bZIP CEBPA mutation.",
+  "ddx": [
+    {"dx": "Basophil", "vs": "Basophils have coarse, dark purple-black granules that obscure the nucleus, whereas this cell shows finer lilac granules with a visible folded nucleus."},
+    {"dx": "Promonocyte / monocyte", "vs": "Monocytic cells have grey-blue cytoplasm with sparse fine granules, vacuoles, and delicate folded chromatin rather than densely granulated cytoplasm."},
+    {"dx": "Reactive left shift (myelocyte/band)", "vs": "Reactive immature granulocytes accompany toxic granulation and a normal maturation sequence without circulating blasts, which requires clinical and marrow correlation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "61420",
+  "recognize_zh": "小腸黏膜固有層被單一型態中等大小淋巴細胞密集浸潤（A、B），免疫染色 CD3+、CD4−、CD8+、CD56+（C–F），流式細胞儀顯示 CD3+CD56+、CD8+ 且 TCRγδ 表現，符合 MEITL；MRI 顯示腦部增強病灶、細胞抹片見同型淋巴細胞，代表中樞神經侵犯。",
+  "features": [
+    "Intestinal mucosa with villi and lamina propria expanded by a dense lymphoid infiltrate extending into epithelium (A)",
+    "Monomorphic medium-sized cells with round nuclei, fine chromatin and a rim of pale cytoplasm (B)",
+    "IHC: CD3 positive, CD4 negative, CD8 positive, CD56 diffusely positive (C-F)",
+    "Brain MRI (G, H): enhancing lesions marked by arrows, including meningeal/temporal foci",
+    "Cytospin (I): sheets of monomorphic lymphoid cells",
+    "Flow cytometry (J): CD3+CD56+ population, CD8+CD4-, expressing TCR gamma-delta and lacking TCR alpha-beta"
+  ],
+  "describe_en": "Composite figure: small intestinal biopsy shows lamina propria expansion by a dense infiltrate of monomorphic medium-sized lymphoid cells with round nuclei and pale cytoplasm, with involvement of the epithelium. Immunohistochemistry shows the neoplastic cells are CD3+, CD4-, CD8+ and CD56+. Brain MRI demonstrates enhancing lesions, and a cytospin preparation shows monomorphic lymphoid cells. Flow cytometry confirms a CD3+CD56+CD8+CD4- T-cell population with gamma-delta T-cell receptor expression. Findings are consistent with monomorphic epitheliotropic intestinal T-cell lymphoma with central nervous system involvement.",
+  "ddx": [
+    {"dx": "Enteropathy-associated T-cell lymphoma", "vs": "EATL shows pleomorphic medium-to-large cells with inflammatory background and is usually CD8-, CD56-, with celiac-type background, unlike the monomorphic CD8+CD56+ cells here."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "ENKTL is angiocentric with necrosis and EBER-positive, whereas MEITL is EBV-negative."},
+    {"dx": "Primary intestinal T-cell lymphoma, NOS / indolent GI T-cell LPD", "vs": "Indolent T-cell LPD consists of small bland cells confined to mucosa without epitheliotropism and with a very low Ki-67, and lacks CD56."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL is gamma-delta and often CD56+ but involves hepatic/splenic/marrow sinusoids rather than forming intestinal epitheliotropic masses."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD3, CD4, CD8, CD56; MRI; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

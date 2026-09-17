@@ -1,0 +1,21 @@
+{
+  "id": "2978",
+  "recognize_zh": "骨髓切片細胞密度高、組織鬆散，可見巨核細胞、紅血球母細胞群與散在細胞質豐富的組織球樣細胞，部分似含紅血球；噬血現象在切片上不易確認，需搭配抹片或 CD163 染色。",
+  "features": [
+    "Hypercellular marrow with loose, edematous architecture",
+    "Megakaryocyte and clusters of erythroid precursors with round dark nuclei",
+    "Scattered histiocytes with abundant eosinophilic cytoplasm, some possibly containing red cells",
+    "Occasional mitotic figure",
+    "Interstitial red cell extravasation"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a hypercellular marrow with a loose, edematous background and interstitial hemorrhage. Megakaryocytes, erythroid precursors and granulocytic cells are present, together with scattered histiocytes with abundant eosinophilic cytoplasm, some of which appear to contain erythrocytes. Hemophagocytosis is difficult to confirm on H&E sections. Findings may be compatible with hemophagocytic lymphohistiocytosis in the appropriate context; CD163 immunostain and aspirate review are recommended.",
+  "ddx": [
+    {"dx": "Reactive marrow in infection", "vs": "Reactive marrow lacks increased histiocytes with engulfed cells; CD163 highlights the histiocytic expansion in HLH."},
+    {"dx": "Marrow involvement by lymphoma (e.g., T-cell lymphoma triggering HLH)", "vs": "Lymphoma shows atypical lymphoid aggregates or interstitial atypical cells confirmed by IHC and clonality studies."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS shows dysplastic megakaryocytes and abnormal localization of precursors without histiocytic proliferation."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

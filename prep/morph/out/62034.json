@@ -1,0 +1,22 @@
+{
+  "id": "62034",
+  "recognize_zh": "中倍免疫染色（紅色膜狀呈色，標記未註明，分布像 B 細胞標記）顯示左上區域大多陰性、只有散在陽性細胞，右下則由密集成片、體積較大的膜狀陽性細胞佔據，兩區界線清楚；在 NLPHL 病例中，大片陽性的大細胞提示向瀰漫性大 B 細胞淋巴瘤進展，但需對照 H&E 與其他標記。",
+  "features": [
+    "Sharp interface between a largely negative area (upper left) and a dense sheet of positive cells (lower right)",
+    "Strong membranous red staining in confluent sheets of medium to large cells",
+    "Scattered individual positive cells within the negative zone",
+    "Delicate vascular channels traversing the positive sheet",
+    "Marker identity not labeled; cytologic detail limited at this magnification"
+  ],
+  "describe_en": "Immunohistochemical stain with a red chromogen (marker not specified on the image) shows a sharply demarcated, confluent sheet of medium to large cells with strong membranous positivity occupying most of the field, adjacent to an area composed of negative small cells containing only scattered positive cells. The sheet-like, diffuse distribution of positive larger cells differs from the scattered single LP cells expected in classic nodular lymphocyte-predominant Hodgkin lymphoma. If this marker represents a B-cell antigen such as CD20, the pattern supports a diffuse large B-cell component; in the reported context, the findings are suggestive of NLPHL with progression to diffuse large B-cell lymphoma, pending correlation with H&E and the full panel.",
+  "ddx": [
+    {"dx": "NLPHL, nodular pattern (pattern A/B)", "vs": "Classic NLPHL nodules are CD20-positive meshworks of small B cells with scattered LP cells, rather than confluent sheets of large positive cells without small-cell nodularity."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has only scattered single large B cells in a T-cell/histiocyte background, not confluent sheets of positive large cells."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive follicles form round CD20-positive nodules with germinal centers and mantle zones separated by CD20-negative T-zones, rather than a diffuse sheet of large positive cells."},
+    {"dx": "De novo diffuse large B-cell lymphoma", "vs": "Morphology of the sheet is similar, so recognition of residual NLPHL nodules with LP cells in the same specimen is required to classify it as transformation."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC (red chromogen; marker not specified)",
+  "match": "partial",
+  "high_yield": false
+}

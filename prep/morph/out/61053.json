@@ -1,0 +1,20 @@
+{
+  "id": "61053",
+  "recognize_zh": "一顆大型異常前骨髓細胞，胞質內有許多交錯成束的細長桿狀物（成束 Auer rods），像一捆柴（faggot cell），這是急性前骨髓細胞白血病（APL, PML::RARA）的特徵。",
+  "features": [
+    "Large cell with abundant cytoplasm containing multiple bundles of slender, crisscrossing Auer rods",
+    "Nucleus partially obscured, with fine chromatin",
+    "Adjacent smaller cell with round nucleus, fine chromatin and basophilic cytoplasm with faint granules",
+    "Background red cells; photograph has a green-grey color cast that reduces granule contrast"
+  ],
+  "describe_en": "Peripheral blood smear shows a large leukemic cell whose cytoplasm contains numerous bundles of stacked, crisscrossing Auer rods (a faggot cell). The nucleus is partially obscured by the rods and has fine chromatin. An adjacent immature cell with basophilic cytoplasm is also present. Findings are highly suggestive of acute promyelocytic leukemia with PML::RARA; urgent coagulation studies and confirmatory PML::RARA testing are indicated.",
+  "ddx": [
+    {"dx": "AML with maturation, t(8;21)", "vs": "t(8;21) blasts typically have a single long slender Auer rod with a perinuclear hof and salmon granules, not bundles of multiple rods."},
+    {"dx": "Hypogranular (microgranular) APL variant", "vs": "The microgranular variant shows bilobed nuclei with sparse visible granules and rare faggot cells, while this cell shows abundant rod bundles; both require PML::RARA confirmation."},
+    {"dx": "Reactive promyelocytes", "vs": "Normal promyelocytes have discrete primary granules and a paranuclear hof but never contain Auer rods."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

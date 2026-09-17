@@ -1,0 +1,22 @@
+{
+  "id": "3945",
+  "recognize_zh": "骨髓切片以組織球標記做免疫染色，棕色陽性的上皮樣組織球聚成一大片結節，中間還有較大、棕色的多核巨細胞，周圍是陰性的造血細胞與脂肪，清楚標出肉芽腫的範圍。",
+  "features": [
+    "Large nodular aggregate of strongly brown-staining histiocytes against a hematoxylin-counterstained marrow",
+    "Positive cells include epithelioid histiocytes and larger multinucleated giant cells",
+    "Aggregate surrounds a central small vessel; unstained lymphocytes interspersed within the lesion",
+    "Scattered positive interstitial macrophages in the surrounding normocellular to hypocellular fatty marrow",
+    "No necrosis evident in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy stained with an immunohistochemical histiocyte marker (likely CD68 or CD163) shows a large nodular aggregate of strongly positive epithelioid histiocytes, including multinucleated giant cells, arranged around a small vessel and admixed with negative lymphocytes. Scattered positive interstitial macrophages are seen in the surrounding fatty marrow. Necrosis is not evident in this field. Findings are consistent with a histiocytic granuloma in the bone marrow; special stains for organisms and clinical correlation are needed to determine etiology.",
+  "ddx": [
+    {"dx": "Lymphoid aggregate", "vs": "Benign or neoplastic lymphoid aggregates are composed of histiocyte-marker-negative small lymphocytes that stain with CD3/CD20."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells have grooved nuclei with eosinophils and are CD1a/langerin-positive rather than forming epithelioid granulomas."},
+    {"dx": "Mast cell aggregate (systemic mastocytosis)", "vs": "Mast cell aggregates contain spindle mast cells positive for tryptase and CD117 (with aberrant CD25)."},
+    {"dx": "Megakaryocyte clusters", "vs": "Megakaryocytes can mimic giant cells but are CD61/CD42b-positive and histiocyte-marker-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: histiocyte marker (likely CD68/CD163)",
+  "match": "consistent",
+  "high_yield": false
+}

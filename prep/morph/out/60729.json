@@ -1,0 +1,21 @@
+{
+  "id": "60729",
+  "recognize_zh": "服用奎寧類藥物 (chloroquine) 的病人周邊血中，白血球細胞質出現不尋常的顆粒：A 為帶空泡與細小紫紅色顆粒的單核樣細胞，B 為細胞質佈滿粗大深紫色顆粒的分葉核嗜中性球，需結合用藥史判讀。",
+  "features": [
+    "Panel A: mononuclear cell with large kidney-shaped nucleus and moderately condensed chromatin",
+    "Panel A: pale grey-blue cytoplasm with multiple small clear vacuoles and scattered fine red-purple granules",
+    "Panel B: segmented neutrophil (three lobes joined by thin filaments)",
+    "Panel B: cytoplasm densely filled with coarse, dark purple granules, heavier than normal neutrophilic granulation",
+    "Background red cells normochromic without obvious inclusions"
+  ],
+  "describe_en": "Peripheral blood smear shows leukocytes with abnormal cytoplasmic contents. One mononuclear (monocytoid) cell contains a folded nucleus and vacuolated cytoplasm with scattered fine azurophilic granules, and a segmented neutrophil shows coarse, dark, toxic-appearing cytoplasmic granulation. The red cells are unremarkable. In the clinical context of chloroquine therapy, these cytoplasmic changes are consistent with a drug-associated leukocyte granulation/vacuolation artifact; infection-related toxic change and inherited granulation anomalies should be excluded clinically.",
+  "ddx": [
+    {"dx": "Toxic granulation with vacuolation (sepsis)", "vs": "Toxic change is usually accompanied by Döhle bodies, left shift and clinical infection, whereas the drug effect occurs without sepsis and resolves on drug withdrawal."},
+    {"dx": "Alder-Reilly anomaly", "vs": "Alder-Reilly granules are coarse and present in all granulocytes, lymphocytes and monocytes constitutively in mucopolysaccharidoses, not acquired in relation to a drug."},
+    {"dx": "Chédiak-Higashi syndrome", "vs": "Chédiak-Higashi shows few giant fused granules rather than numerous uniform coarse granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

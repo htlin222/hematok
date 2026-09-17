@@ -1,0 +1,20 @@
+{
+  "id": "61412",
+  "recognize_zh": "IRF4 分離探針（break-apart）螢光原位雜交中，多個腫瘤細胞核（藍色 DAPI）內的紅色與綠色訊號彼此分開（黃色與綠色箭頭標示），而非正常的紅綠融合訊號，代表 IRF4 基因重組。",
+  "features": [
+    "Interphase FISH on tissue section with DAPI-counterstained (blue) nuclei of tumor cells",
+    "IRF4 break-apart probe: arrows mark red (yellow arrows) and green (green arrows) signals separated from each other within individual nuclei",
+    "Separated signals indicate disruption of the IRF4 locus (rearrangement); some nuclei show an isolated green signal without a matching red",
+    "Overlapping nuclei and truncation from tissue sectioning limit complete signal counts; a few autofluorescent cells (bright yellow-white) are present"
+  ],
+  "describe_en": "Fluorescence in situ hybridization with an IRF4 break-apart probe on tissue sections shows multiple tumor nuclei with split red and green signals, indicated by paired yellow and green arrows, rather than a single fused signal per allele. Several nuclei show an isolated green signal, consistent with the reported pattern of one fusion and one green signal with loss of the telomeric red signal. Signal enumeration is limited by nuclear overlap and truncation in tissue sections. Findings indicate IRF4 rearrangement, supporting large B-cell lymphoma with IRF4 rearrangement.",
+  "ddx": [
+    {"dx": "Normal (non-rearranged) IRF4 pattern", "vs": "A normal cell shows two fused (yellow or adjacent red-green) signals, without widely separated or isolated single-color signals."},
+    {"dx": "Truncation artifact", "vs": "Isolated single signals from nuclear sectioning occur at low frequency in controls, so a rearrangement call requires exceeding the laboratory cutoff over many scored nuclei."},
+    {"dx": "IGH-IRF4 fusion with other partners / DUSP22-IRF4 (6p25) rearrangement in ALCL", "vs": "IRF4 break-apart probes also detect DUSP22 region breaks in ALK-negative ALCL, so morphology and B-cell immunophenotype are needed to interpret the result."}
+  ],
+  "specimen": "molecular",
+  "stain": "FISH: IRF4 break-apart probe",
+  "match": "non-morphologic",
+  "high_yield": false
+}

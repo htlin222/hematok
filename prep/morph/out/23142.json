@@ -1,0 +1,22 @@
+{
+  "id": "23142",
+  "recognize_zh": "周邊血抹片中散在多個紅血球碎片：有頂部被切平、尖角突出的盔形細胞（helmet cell，粉紅箭頭）與小三角形碎片，另見少數缺乏中央淡染的小球形紅血球，血小板明顯稀少；在靜脈注射藥物史的患者，這些微血管病性溶血線索提示 TTP 樣症候群。",
+  "features": [
+    "Schistocytes including helmet cells with straight cut edges and pointed horns (pink arrow)",
+    "Small triangular and irregular red cell fragments scattered throughout",
+    "Occasional microspherocytes lacking central pallor",
+    "Mild polychromasia with a few larger bluish red cells",
+    "Decreased platelets; a single segmented neutrophil with normal morphology"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic red cells with numerous schistocytes, including helmet cells and small triangular fragments, as well as occasional microspherocytes and mild polychromasia. Platelets are decreased. The single neutrophil present is morphologically unremarkable, and no blasts or intraerythrocytic parasites are seen. Findings are consistent with microangiopathic hemolytic anemia; in this patient with intravenous injection of crushed extended-release oxymorphone (Opana ER) and preserved ADAMTS13 activity, the picture fits a drug-associated TTP-like thrombotic microangiopathy.",
+  "ddx": [
+    {"dx": "Immune TTP (acquired ADAMTS13 deficiency)", "vs": "Morphology is identical; immune TTP is defined by ADAMTS13 activity <10% with an inhibitor, which was normal here."},
+    {"dx": "Hemolytic uremic syndrome (STEC or complement-mediated)", "vs": "HUS shows the same schistocytes but is dominated by acute kidney injury, whereas creatinine was normal in this patient."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC shows fragments with prolonged PT/aPTT, low fibrinogen and elevated D-dimer, while TTP-like microangiopathy has normal coagulation tests."},
+    {"dx": "Mechanical heart valve or severe burn-related fragmentation", "vs": "These cause schistocytes or microspherocytes with a relevant history and usually without severe thrombocytopenia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

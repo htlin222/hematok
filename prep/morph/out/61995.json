@@ -1,0 +1,22 @@
+{
+  "id": "61995",
+  "recognize_zh": "左側低倍 H&E 可見腫瘤細胞在脂肪組織旁呈大片、結節狀浸潤；右側高倍為成片大型多形性細胞，核呈腎形或馬蹄形、有多顆有絲分裂，插圖中的馬蹄形核細胞即標誌細胞（hallmark cell），是退行性大細胞淋巴瘤（ALCL）的形態特徵。",
+  "features": [
+    "Low power: diffuse, vaguely nodular sheets of tumor cells replacing tissue adjacent to fat, with fibrous bands",
+    "High power: cohesive-appearing sheets of large pleomorphic cells with moderate amphophilic to eosinophilic cytoplasm",
+    "Kidney-shaped and horseshoe-shaped nuclei (hallmark cells), highlighted in the inset",
+    "Vesicular chromatin with multiple small nucleoli; frequent mitoses and apoptotic/pyknotic cells",
+    "Scant inflammatory background"
+  ],
+  "describe_en": "H&E sections at low power show diffuse, vaguely nodular sheets of tumor cells effacing the tissue and abutting adipose tissue, with intervening fibrous bands. At high power, the infiltrate consists of large pleomorphic cells with moderate amphophilic cytoplasm, vesicular chromatin and small nucleoli, including characteristic kidney- and horseshoe-shaped hallmark cells (inset). Mitotic figures and apoptotic cells are frequent. The morphology is consistent with anaplastic large cell lymphoma; in the context of CD30+/ALK-negative immunophenotype, the referenced case represents TP63-rearranged ALK-negative ALCL.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma, syncytial variant", "vs": "cHL shows Reed-Sternberg cells with large inclusion-like nucleoli, CD15 positivity and PAX5 dim expression, whereas ALCL hallmark cells are PAX5 negative with T-cell lineage."},
+    {"dx": "Diffuse large B-cell lymphoma, anaplastic variant", "vs": "Anaplastic DLBCL expresses CD20/PAX5, which are negative in ALCL."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Cohesive sheets mimic carcinoma/melanoma; cytokeratin or S100/SOX10 positivity versus CD30 with T-cell/cytotoxic markers discriminates."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with CD30 expression", "vs": "PTCL-NOS shows variable, non-uniform CD30 and lacks the cohesive sheets of hallmark cells with uniform strong CD30."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

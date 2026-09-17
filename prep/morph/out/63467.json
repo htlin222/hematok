@@ -1,0 +1,21 @@
+{
+  "id": "63467",
+  "recognize_zh": "周邊血片右下方有一顆大型空泡狀細胞，細胞核偏心，灰藍色細胞質中包含一個深染的小圓形核（被吞噬細胞的殘核）和一個圓環狀被吞噬物，顯示循環中的組織球正在進行吞噬血球（hemophagocytosis）。",
+  "features": [
+    "Large mononuclear cell with an eccentric round to oval nucleus and moderately condensed chromatin",
+    "Abundant grey-blue, finely vacuolated cytoplasm",
+    "Intracytoplasmic ingested material: a small dense round nucleus and a ring-shaped inclusion within a vacuole",
+    "Ingested material consistent with phagocytosed nucleated cell/red cell remnants",
+    "Background red cells with mild poikilocytosis, a neutrophil, and abundant platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a large cell with an eccentric nucleus and abundant grey-blue vacuolated cytoplasm containing phagocytosed material, including a small dense pyknotic nucleus and a ring-shaped inclusion within a phagocytic vacuole. The surrounding red cells show mild poikilocytosis, and platelets are abundant. Findings are consistent with a circulating hemophagocytic histiocyte; while not diagnostic in isolation, this finding should prompt clinical and laboratory evaluation for hemophagocytic lymphohistiocytosis (HLH) or severe infection.",
+  "ddx": [
+    {"dx": "Monocyte with ingested debris in an in vitro aged sample", "vs": "Delayed processing can cause monocytes to phagocytose cells in the tube, so correlation with a fresh sample and clinical HLH criteria is needed."},
+    {"dx": "Neutrophil or monocyte with intracellular organisms (e.g., Histoplasma, Ehrlichia morulae)", "vs": "Organisms appear as uniform small yeasts with halos or basophilic stippled morulae rather than a single pyknotic nucleus and ring-shaped red cell remnant."},
+    {"dx": "Erythrophagocytosis in autoimmune hemolytic anemia", "vs": "Monocytes ingesting antibody-coated red cells are seen with spherocytes and a positive direct antiglobulin test, rather than ingestion of nucleated cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

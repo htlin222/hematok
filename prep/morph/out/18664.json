@@ -1,0 +1,21 @@
+{
+  "id": "18664",
+  "recognize_zh": "九格周邊血拼圖整理急性白血病的芽細胞（blasts）：共同特徵為細胞大、核質比高、染色質細緻、可見核仁；有些胞質深藍帶小泡突起（blebs），有些含細小嗜天青顆粒或核折疊，另有核質比極高、胞質極少的小型芽細胞，提示不同系別。",
+  "features": [
+    "A, F, I: low-power fields with increased circulating blasts among red cells",
+    "B, D: blasts with deeply basophilic cytoplasm and irregular cytoplasmic projections/blebs",
+    "C, G: large blasts with fine open chromatin, visible nucleoli, and moderate blue cytoplasm; G shows fine azurophilic granules and vacuoles",
+    "E: blast with folded/indented nucleus and moderate gray-blue cytoplasm suggesting monocytic lineage, beside a smaller mononuclear cell",
+    "H: blast with very high N:C ratio, round nucleus, and scant cytoplasm suggesting lymphoblast morphology"
+  ],
+  "describe_en": "This composite of peripheral blood smears illustrates circulating blasts in acute leukemia and precursor neoplasms. Low-power panels show numerous blasts, and high-power panels show large cells with high N:C ratio, fine open chromatin, and nucleoli. Features that hint at lineage include cytoplasmic blebs with deep basophilia (possible megakaryoblastic or erythroid lineage), fine azurophilic granules (myeloid), folded nuclei with gray-blue cytoplasm (monocytic), and small cells with scant agranular cytoplasm (lymphoblastic). Morphology alone is insufficient to assign lineage; flow cytometry, cytochemistry (MPO, nonspecific esterase), and genetic studies are required, and individual panel diagnoses are not labeled in the image.",
+  "ddx": [
+    {"dx": "Reactive large (atypical) lymphocytes", "vs": "Reactive lymphocytes have condensed chromatin and abundant cytoplasm that scallops around red cells, lacking the fine blastic chromatin and nucleoli of blasts."},
+    {"dx": "Leukemic phase of high-grade lymphoma (e.g., Burkitt)", "vs": "Burkitt cells have deeply basophilic vacuolated cytoplasm and are TdT negative with surface light chain and MYC rearrangement, whereas lymphoblasts are TdT positive."},
+    {"dx": "Circulating promonocytes versus monoblasts in CMML", "vs": "Blast equivalents are counted together, and the 20% threshold separates AML from CMML, so careful enumeration rather than qualitative recognition is needed."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "30266",
+  "recognize_zh": "周邊血抹片中有數個芽細胞，核圓、染色質細緻、細胞質嗜鹼性並有突出的細胞質泡狀突起（cytoplasmic blebs），其中一個為雙核，這是巨核芽細胞（megakaryoblast）的特徵；在唐氏症新生兒即為暫時性異常骨髓增生（TAM）。",
+  "features": [
+    "Blasts about two to three times red cell size with high N:C ratio and round nuclei",
+    "Finely dispersed chromatin with occasional faint nucleoli",
+    "Basophilic cytoplasm with prominent pale cytoplasmic blebs/budding projections",
+    "One binucleated blast with blebbed cytoplasm",
+    "Background red cells with numerous stomatocyte-like slit-shaped central pallor and a few echinocytes"
+  ],
+  "describe_en": "Peripheral blood smear (Wright-Giemsa, oil immersion) shows several circulating blasts with round nuclei, finely dispersed chromatin, a high N:C ratio and basophilic cytoplasm with prominent cytoplasmic blebs, including a binucleated form. These features are characteristic of megakaryoblasts. The background red cells show many stomatocyte-like forms with slit-like central pallor, which may be partly artifactual. In a neonate with Down syndrome, findings are consistent with transient abnormal myelopoiesis (transient myeloproliferative disorder); flow cytometry (CD41/CD61, CD34, CD117) and GATA1 mutation analysis support the diagnosis.",
+  "ddx": [
+    {"dx": "Myeloid leukemia associated with Down syndrome", "vs": "Morphology is similar, but it arises later (typically after the neonatal period, up to 4 years), is persistent, and often follows a myelodysplastic phase with additional mutations."},
+    {"dx": "Acute megakaryoblastic leukemia in non-Down syndrome infants", "vs": "It lacks trisomy 21 and GATA1 mutation and often carries RBM15::MRTFA or CBFA2T3::GLIS2 fusions."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts lack cytoplasmic blebs and express TdT, CD19 or CD3 rather than CD41/CD61."},
+    {"dx": "Platelets or giant platelets adherent to lymphocytes", "vs": "Platelet satellitism shows granular platelets attached outside the cell membrane, not cytoplasmic blebs continuous with a blast."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60194",
+  "recognize_zh": "流式細胞圖中紅色的 CD45 弱表現、低側散射（SSC）母細胞群為 CD34+、CD117+、CD13+、HLA-DR+，CD19 與 CD7 陰性、CD14 陰性，並在 CD56 呈部分陽性，代表增多的骨髓性母細胞帶異常抗原表現。",
+  "features": [
+    "CD45 vs SSC plot: gated blast population (red) with dim CD45 and low side scatter, separate from lymphocytes and granulocytes (gray)",
+    "Blasts are CD34 positive and CD19 negative",
+    "Partial CD56 expression with CD7 negative",
+    "CD13 and HLA-DR positive; CD33 dim to partial",
+    "CD117 positive and CD14 negative, supporting an immature myeloid rather than monocytic phenotype"
+  ],
+  "describe_en": "Flow cytometric analysis shows a distinct population of events in the CD45-dim, low side scatter blast region (highlighted in red). The gated blasts express CD34, CD117, CD13 and HLA-DR, with dim to partial CD33, and are negative for CD19, CD7 and CD14. Partial aberrant expression of CD56 is present. These findings indicate an increased myeloblast population with an aberrant immunophenotype; in conjunction with the reported blast count (11%), they support myelodysplastic syndrome with excess blasts-2.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "The same immunophenotype can be seen in AML, which is separated by a blast percentage of ≥20% on morphologic counts rather than by flow."},
+    {"dx": "Regenerating marrow / G-CSF effect", "vs": "Regenerating CD34+ blasts show a normal maturation pattern with hematogones and lack aberrant CD56 or CD7 expression."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are CD19 positive with CD10/CD22/CD79a, whereas these blasts are CD19 negative and express CD13/CD117."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63439",
+  "recognize_zh": "薄層血片中央有一團由許多（約十餘至二十個）紫紅色小顆粒狀裂殖子（merozoites）聚集而成的圓形結構，大小約與一顆紅血球相當，符合間日瘧原蟲（P. vivax）的成熟裂殖體（schizont）；周圍紅血球有乾燥折光假影。",
+  "features": [
+    "Rounded parasite cluster about the size of a red cell containing numerous discrete chromatin dots",
+    "Approximately 12-24 merozoites irregularly arranged, favoring P. vivax over P. malariae rosettes",
+    "Faint golden-brown pigment and pale host cell outline not well delineated",
+    "Background red cells with refractile drying artifact",
+    "Neutrophil with ring-shaped nucleus at upper right and small platelet nearby"
+  ],
+  "describe_en": "Thin peripheral blood smear shows a mature malarial schizont containing numerous discrete merozoites (approximately 12-24) filling a structure roughly the size of a red cell. The host red cell membrane is poorly delineated in this image, so enlargement and Schüffner stippling cannot be assessed. Background red cells show refractile drying artifact, and a neutrophil and platelets are present. Findings are consistent with a Plasmodium vivax schizont; species confirmation should include host cell size, Schüffner dots, other parasite stages, and PCR or rapid antigen testing if needed.",
+  "ddx": [
+    {"dx": "Plasmodium ovale schizont", "vs": "P. ovale schizonts usually contain fewer merozoites (6-12) in an enlarged, oval, fimbriated red cell with prominent Schüffner dots."},
+    {"dx": "Plasmodium malariae schizont", "vs": "P. malariae schizonts have 6-12 merozoites arranged in a rosette around central pigment in a normal-sized red cell."},
+    {"dx": "Plasmodium knowlesi or falciparum schizont", "vs": "Schizonts of P. falciparum are rarely seen in peripheral blood and are small with 16-24 merozoites in a normal-sized red cell, while P. knowlesi shows up to 16 merozoites with dense pigment."},
+    {"dx": "Platelet clump or stain precipitate", "vs": "Platelet clumps show granular purple material with irregular outlines and no discrete merozoite chromatin dots with cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

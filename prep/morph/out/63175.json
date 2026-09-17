@@ -1,0 +1,22 @@
+{
+  "id": "63175",
+  "recognize_zh": "這是血庫試管凝集反應在 40 倍顯微鏡下的圖：(a) IgM 抗 D 呈混合視野（Mf）反應，大量游離紅血球中夾雜少量弱凝集團；(b) 稀釋 IgG 抗 D 加抗人球蛋白後出現強凝集團，但因病人 DAT 陽性，這是偽陽性。",
+  "features": [
+    "Labeled two-panel figure of unstained red cell suspensions viewed at 40x",
+    "Panel a (monoclonal IgM anti-D): mostly free individual red cells with small weak agglutinates, i.e., mixed-field reaction",
+    "Panel b (1:32 diluted IgG anti-D with antiglobulin phase): large dense red cell agglutinates separated by clear spaces",
+    "Annotations mark 'free cells', 'weak agglutinates' and 'false positive strong agglutinates'",
+    "Serologic readout image; no cellular morphology is being assessed"
+  ],
+  "describe_en": "This is a non-morphologic immunohematology figure showing microscopic reading of tube agglutination tests. With monoclonal IgM anti-D (a), the red cells show a mixed-field pattern of predominantly free cells with small weak agglutinates. With diluted IgG anti-D followed by antihuman globulin (b), large strong agglutinates are present; because the patient's red cells are DAT positive (already IgG coated), this antiglobulin-phase reaction is a false positive and the weak D test is invalid. The RhD status is therefore interpreted as indeterminate (mixed field/possible D variant), and RhD-negative red cells should be selected for transfusion.",
+  "ddx": [
+    {"dx": "True weak D phenotype", "vs": "A true weak D reacts weakly or not at all with IgM anti-D and becomes positive in the antiglobulin phase only when the DAT and control are negative."},
+    {"dx": "Mixed-field due to recent transfusion of D-negative or D-positive cells", "vs": "A transfused mixed-field reflects two red cell populations and is explained by transfusion history, whereas DAT positivity causes false IAT-phase agglutination."},
+    {"dx": "Partial D variant", "vs": "Partial D lacks specific epitopes and reacts variably with different monoclonal anti-D clones; molecular RHD genotyping, not serology on DAT-positive cells, resolves it."},
+    {"dx": "Rouleaux causing pseudoagglutination", "vs": "Rouleaux appear as stacked coin-like chains that disperse with saline replacement, unlike true irregular agglutinates."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (unstained wet preparation)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

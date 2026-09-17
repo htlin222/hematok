@@ -1,0 +1,22 @@
+{
+  "id": "64091",
+  "recognize_zh": "骨髓抹片中出現與造血細胞截然不同的黏聚細胞團，胞質淡藍、帶大空泡把核推向一側呈戒指狀（signet ring），下方可見邊界不清的合胞狀大片；這種黏聚成團加印戒細胞的外觀，是轉移性腺癌（本例為胃癌）的骨髓浸潤。",
+  "features": [
+    "Cohesive clusters and syncytial sheets of large non-hematopoietic cells with indistinct cell borders",
+    "Abundant pale blue cytoplasm with large clear vacuoles indenting and displacing nuclei (signet-ring morphology), best seen in the upper right panel",
+    "Oval, hyperchromatic to finely granular nuclei with moderate pleomorphism",
+    "Nuclear molding and overlapping within the sheets (lower panel)",
+    "Few residual hematopoietic cells and red cells in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear (composite) shows cohesive clusters and syncytial sheets of large, non-hematopoietic cells with indistinct borders, abundant pale blue cytoplasm, and oval pleomorphic nuclei. Many cells contain large clear cytoplasmic vacuoles that indent and displace the nucleus to the periphery, giving a signet-ring appearance. Only scattered residual hematopoietic cells are seen in these fields. The cohesive growth and cytology exclude a plasma cell neoplasm and are consistent with metastatic signet-ring cell adenocarcinoma; immunohistochemistry on the core (cytokeratins, CK7/CK20, CDX2) supports a gastrointestinal primary.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma cells are discohesive with eccentric nuclei, clock-face chromatin, and perinuclear hofs, and are CD138-positive/cytokeratin-negative rather than forming cohesive sheets."},
+    {"dx": "Metastatic breast lobular carcinoma", "vs": "Also shows signet-ring cells, but is typically CK7+/CK20-, GATA3+ and ER+, whereas gastric carcinoma is often CK20+ and CDX2+."},
+    {"dx": "Histiocytes / foamy macrophages (e.g., storage disease)", "vs": "Histiocytes are dispersed single cells with small bland nuclei and foamy cytoplasm, CD68+/cytokeratin-negative, not cohesive pleomorphic clusters."},
+    {"dx": "Rhabdomyosarcoma or other small round cell tumors", "vs": "These can form clusters with vacuolated cytoplasm but show high N:C ratio small cells and myogenin/desmin or other lineage-specific markers rather than cytokeratin."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

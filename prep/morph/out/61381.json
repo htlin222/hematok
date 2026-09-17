@@ -1,0 +1,22 @@
+{
+  "id": "61381",
+  "recognize_zh": "血片中可見大型芽細胞，核質比高、染色質細緻，細胞質深嗜鹼性且邊緣有泡狀突起（cytoplasmic blebs），呈巨核芽細胞樣特徵；配合唐氏症新生兒臨床背景，符合短暫性異常骨髓生成（TAM）。",
+  "features": [
+    "Large blasts with high N:C ratio and round to slightly irregular nuclei",
+    "Finely dispersed chromatin; nucleoli not prominent",
+    "Deeply basophilic, agranular cytoplasm with irregular borders and cytoplasmic blebs/pseudopod-like projections (megakaryoblastic features)",
+    "Smaller blast with similar cytoplasmic budding at right",
+    "Band neutrophil at lower left; thick area of smear with crowded erythrocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts of variable size with high nuclear-to-cytoplasmic ratio, fine chromatin and deeply basophilic, agranular cytoplasm with irregular borders and cytoplasmic blebs, features suggestive of megakaryoblastic differentiation. A band neutrophil is also present. In a neonate with Down syndrome, these findings are consistent with transient abnormal myelopoiesis; confirmation of megakaryoblastic immunophenotype (CD41/CD61) and GATA1 mutation is recommended, and clinical follow-up is needed given the risk of subsequent myeloid leukemia of Down syndrome.",
+  "ddx": [
+    {"dx": "Myeloid leukemia associated with Down syndrome", "vs": "Blasts look the same; ML-DS typically presents after the neonatal period (usually before age 4) with persistent disease, often preceded by an MDS-like phase, rather than spontaneous resolution."},
+    {"dx": "Acute megakaryoblastic leukemia in non-Down syndrome children", "vs": "Morphology overlaps; absence of trisomy 21 and GATA1 mutation and presence of fusions such as CBFA2T3::GLIS2 or RBM15::MRTFA distinguish it."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "Lymphoblasts have scant, less basophilic cytoplasm without blebbing and express TdT and B-lineage markers rather than CD41/CD61."},
+    {"dx": "Neonatal leukemoid reaction or congenital infection", "vs": "Shows left-shifted maturing granulocytes with few or no blasts and lacks basophilic blebbing blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

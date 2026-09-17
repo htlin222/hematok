@@ -1,0 +1,22 @@
+{
+  "id": "64663",
+  "recognize_zh": "周邊血液抹片中兩顆相鄰的嗜中性球，細胞質有空泡，內含多簇大小一致、深藍紫色的小圓球菌，呈成對或短鏈排列，屬被吞噬的球菌（菌血症）；此為 Romanowsky 染色，無法判斷革蘭氏陽性與否，需靠血液培養。",
+  "features": [
+    "Two adjacent neutrophils with vacuolated cytoplasm",
+    "Numerous intracytoplasmic uniform, round, dark blue-purple cocci arranged in pairs, small clusters and short chains",
+    "Nuclei of the neutrophils are partly obscured and displaced by the bacterial load",
+    "Background red cells with mild anisopoikilocytosis; no extracellular organisms clearly identified",
+    "Gram reaction cannot be assessed on this Romanowsky-stained smear"
+  ],
+  "describe_en": "Peripheral blood smear shows two neutrophils with vacuolated cytoplasm containing numerous uniform, dark blue-purple intracytoplasmic cocci arranged in pairs, small clusters and short chains. Extracellular organisms are not clearly identified, and background red cells show mild anisopoikilocytosis. Intracellular bacteria in circulating neutrophils indicate high-grade bacteremia and warrant immediate notification and blood cultures; the Gram reaction and species cannot be determined on a Romanowsky stain. Findings are consistent with phagocytosed cocci, subsequently identified as Enterococcus faecalis on culture.",
+  "ddx": [
+    {"dx": "Toxic granulation", "vs": "Toxic granules are fine, evenly dispersed azurophilic granules throughout the cytoplasm, not discrete uniform cocci in pairs and chains within vacuoles."},
+    {"dx": "Staphylococcus or Streptococcus species", "vs": "These cocci look the same on a Wright stain; clusters versus chains on Gram stain and culture are required to distinguish them from Enterococcus."},
+    {"dx": "Stain precipitate overlying cells", "vs": "Precipitate is irregular in size, lies above the focal plane and also appears over red cells and background, whereas these cocci are uniform and confined to neutrophil vacuoles."},
+    {"dx": "Ehrlichia/Anaplasma morulae", "vs": "Morulae are a single mulberry-like cluster of tiny inclusions within a vacuole, rather than multiple discrete larger cocci in pairs and chains."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

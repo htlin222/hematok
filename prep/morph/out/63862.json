@@ -1,0 +1,21 @@
+{
+  "id": "63862",
+  "recognize_zh": "這是試管的肉眼照片而非顯微鏡圖：離心後試管底部的液體呈不透明、乳白偏淡粉紅色，透光性差，表示液體中有大量散射光線的脂蛋白顆粒（乳糜微粒/VLDL），對應三酸甘油脂高達 1500 mg/dL 的乳糜狀檢體。",
+  "features": [
+    "Gross photograph of a glass tube held horizontally over gauze",
+    "Fluid in the tube is opaque, creamy white with a pale pink-orange tinge rather than clear straw-colored",
+    "Poor light transmission through the fluid, indicating turbidity",
+    "No distinct cream layer or cell pellet can be resolved at this angle and resolution"
+  ],
+  "describe_en": "This is a non-morphologic gross photograph of a centrifuged specimen in a glass tube. The supernatant is opaque and creamy (lactescent) with a faint pink tinge instead of being clear, although a separate floating cream layer cannot be resolved at this angle. Marked plasma turbidity of this kind indicates high concentrations of light-scattering triglyceride-rich lipoproteins, correlating with the reported triglyceride level of 1500 mg/dL. Findings are consistent with lipemia due to severe hypertriglyceridemia, which can interfere with automated hematology and chemistry assays and clog extracorporeal circuits.",
+  "ddx": [
+    {"dx": "Chylous effusion or chylomicronemia (type I hyperlipoproteinemia)", "vs": "Chylomicrons float as a creamy top layer after overnight refrigeration with a clear infranatant, whereas VLDL excess (type IV) leaves diffusely turbid plasma."},
+    {"dx": "Hemolyzed specimen", "vs": "Hemolysis gives a transparent red-pink supernatant from free hemoglobin rather than an opaque milky one."},
+    {"dx": "Propofol or intravenous lipid emulsion infusion", "vs": "Exogenous lipid produces similar lactescence, so drug and nutrition history and repeat sampling after stopping infusion are needed."},
+    {"dx": "Paraprotein or cryoglobulin-related turbidity", "vs": "Cryoglobulins precipitate as a gel or white sediment in the cold that redissolves at 37 C, with normal triglyceride levels."}
+  ],
+  "specimen": "gross",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

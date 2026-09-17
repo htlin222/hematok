@@ -1,0 +1,22 @@
+{
+  "id": "63348",
+  "recognize_zh": "單一中型淋巴樣細胞，淡藍灰色細胞質周圍一圈細長毛髮狀突起，核為圓形偏卵圓、染色質較疏鬆，看不到明顯核仁，這是毛狀細胞（hairy cell）的典型外觀。",
+  "features": [
+    "Medium-sized lymphoid cell, larger than a mature small lymphocyte, with moderate N:C ratio",
+    "Abundant pale blue-gray cytoplasm with circumferential fine, irregular hair-like projections",
+    "Round to slightly oval centrally placed nucleus",
+    "Finely dispersed, somewhat open chromatin without a visible nucleolus",
+    "No cytoplasmic granules; background red cells show overlap in a thick area of the smear"
+  ],
+  "describe_en": "Peripheral blood smear shows a medium-sized atypical lymphoid cell with abundant pale blue-gray cytoplasm bearing circumferential fine, hair-like cytoplasmic projections. The nucleus is round to oval with relatively open chromatin and no conspicuous nucleolus. The surrounding red cells are unremarkable apart from overlap in a thick area. Findings are consistent with a hairy cell; a prominent nucleolus, which would be expected in hairy cell leukemia variant, is not seen, so flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing are needed to classify the process.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli)", "vs": "HCL-v cells have hairy projections but show a distinct central nucleolus and more condensed chromatin, and are CD25-, annexin A1- and BRAF V600E-negative."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes are smaller with more condensed chromatin and short polar (bipolar) villi rather than circumferential fine projections."},
+    {"dx": "Monocyte", "vs": "Monocytes are larger with folded or reniform nuclei, lacy chromatin and gray cytoplasm containing fine azurophilic granules and vacuoles, without circumferential hair-like projections."},
+    {"dx": "Reactive lymphocyte", "vs": "Reactive lymphocytes have abundant cytoplasm that hugs adjacent red cells with basophilic scalloped edges rather than fine circumferential filamentous projections."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

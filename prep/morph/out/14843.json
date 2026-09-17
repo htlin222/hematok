@@ -1,0 +1,22 @@
+{
+  "id": "14843",
+  "recognize_zh": "肺移植後患者的周邊血抹片中出現大量無中央淡染的小而深染球形紅血球（spherocyte）與多染性紅血球，並有有核紅血球，提示溶血；移植後早期出現此表現應想到過客淋巴球症候群（passenger lymphocyte syndrome，捐贈者 B 細胞產生抗受者 ABO 抗體）。",
+  "features": [
+    "Numerous spherocytes: small, densely staining red cells lacking central pallor",
+    "Scattered larger polychromatic red cells indicating reticulocytosis",
+    "A circulating nucleated red cell with dense pyknotic nucleus",
+    "Occasional red cell fragments/irregular forms",
+    "Neutrophils present; no agglutination clumps or blasts in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous spherocytes admixed with polychromatic macrocytes and an occasional nucleated red blood cell. Scattered irregular red cell forms are seen, but there is no significant schistocytosis or red cell agglutination in this field. Leukocytes present appear morphologically unremarkable. Findings indicate an active hemolytic process with spherocytes; in the setting of recent solid organ transplantation from an ABO-minor-incompatible donor, they are consistent with passenger lymphocyte syndrome, to be confirmed by a positive direct antiglobulin test and donor-derived anti-A/anti-B in the eluate.",
+  "ddx": [
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA shows identical spherocytes and IgG DAT positivity, but the antibody is a panreactive autoantibody rather than an ABO-specific donor-derived alloantibody."},
+    {"dx": "Hereditary spherocytosis", "vs": "HS is DAT negative with lifelong history and family history, whereas passenger lymphocyte syndrome starts 1-3 weeks after transplant with a positive DAT."},
+    {"dx": "Delayed hemolytic transfusion reaction", "vs": "DHTR is caused by recipient alloantibodies against transfused non-ABO red cell antigens, identified on antibody screen, not donor anti-A/B."},
+    {"dx": "Microangiopathic hemolytic anemia (e.g., calcineurin inhibitor TMA)", "vs": "TMA shows predominant schistocytes and thrombocytopenia with a negative DAT rather than a spherocyte-predominant picture."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

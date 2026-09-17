@@ -1,0 +1,20 @@
+{
+  "id": "63922",
+  "recognize_zh": "這是折線圖而非形態學：縱軸為血中 EBV PCR 定量（gEq/mL），病毒量從 10 月底近零逐步升到約 66,000，類固醇治療後短暫下降，隨後再升至約 114,000；第一劑 rituximab（抗 CD20）後迅速降到約 11,800，說明 B 細胞內 EBV 複製對清除 B 細胞的治療有反應。",
+  "features": [
+    "Line graph of quantitative EBV PCR (gEq/mL) versus date from late October to late December 2021",
+    "Gradual rise from near zero to about 12,000 (early November) and about 66,000 (late November)",
+    "Arrow marking steroid therapy near the first peak, followed by a transient fall to about 24,000",
+    "Rebound to about 91,000, 100,000 and a peak of about 114,000 in mid-December",
+    "Arrow marking the first rituximab dose at the peak, followed by a sharp fall to about 11,800"
+  ],
+  "describe_en": "This is a non-morphologic line graph showing serial quantitative EBV DNA PCR results in blood after allogeneic stem cell transplantation. Viral load rose progressively from near zero to approximately 66,000 gEq/mL, fell transiently to about 24,000 gEq/mL after steroid therapy for GVHD, then rebounded to a peak of approximately 114,000 gEq/mL. After the first dose of rituximab, the viral load fell abruptly to approximately 11,800 gEq/mL. The graph illustrates uncontrolled post-transplant EBV reactivation with a prompt virologic response to pre-emptive anti-CD20 therapy, which should be interpreted alongside clinical and histologic assessment for post-transplant lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "Established EBV-positive post-transplant lymphoproliferative disorder", "vs": "PTLD requires tissue showing a lymphoproliferation (mass lesion or destructive infiltrate with EBER-positive cells), whereas viremia alone indicates reactivation without proving PTLD."},
+    {"dx": "Laboratory or sampling artifact", "vs": "A single aberrant value would not form a consistent trend, whereas serial concordant rises and a treatment-linked fall support true viral kinetics."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

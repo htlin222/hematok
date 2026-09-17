@@ -1,0 +1,21 @@
+{
+  "id": "61719",
+  "recognize_zh": "骨髓切片 CD56 免疫染色：大量中等大小、染色質細緻的腫瘤細胞呈明顯細胞膜／胞質棕色陽性，陽性細胞密集散布於浸潤區，與 CD4、CD123 共同陽性時即指向 BPDCN。",
+  "features": [
+    "Many intermediate-sized tumor cells with crisp membranous and cytoplasmic CD56 staining",
+    "Positive cells are numerous and diffusely distributed, admixed with negative cells",
+    "Negative cells include smaller background hematopoietic elements with round blue nuclei",
+    "Tumor nuclei round to slightly irregular with fine chromatin on hematoxylin counterstain",
+    "Scattered hemosiderin-like brown granular pigment is present and should not be mistaken for staining"
+  ],
+  "describe_en": "Immunohistochemical stain for CD56 on a bone marrow biopsy highlights numerous intermediate-sized neoplastic cells with membranous and cytoplasmic positivity, distributed diffusely through the section. Admixed smaller hematopoietic cells are negative, and scattered granular brown pigment is present in the background. CD56 expression is characteristic of, but not specific for, blastic plasmacytoid dendritic cell neoplasm, and must be interpreted together with CD4, CD123, TCF4 and TCL1 positivity and lack of lineage-specific markers. Findings support involvement by BPDCN in the appropriate immunophenotypic context.",
+  "ddx": [
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "NK/T-cell lymphoma is CD56+ but also cytoplasmic CD3+, cytotoxic granule+ and EBER+, and is CD123/TCF4-negative."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation (including myeloid sarcoma)", "vs": "Monocytic AML can be CD4+/CD56+ but expresses lysozyme, CD14/CD163 and often MPO, and lacks the uniform CD123-bright/TCF4/TCL1 profile."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma cells are CD56+ but are CD138+ with cytoplasmic light-chain restriction and show plasmacytoid cytology with abundant cytoplasm."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD56",
+  "match": "consistent",
+  "high_yield": false
+}

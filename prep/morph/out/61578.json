@@ -1,0 +1,21 @@
+{
+  "id": "61578",
+  "recognize_zh": "流式散布圖中紅色母細胞群 CD34 由弱到強陽性、CD38 均勻陽性，形成一大群 CD34+CD38+ 的前驅細胞，另有少數 CD34+CD38 弱/陰性事件；紫色成熟細胞則 CD34 陰性。支持 B 淋巴母細胞為未成熟 CD34+ 前驅表型。",
+  "features": [
+    "Bivariate dot plot: CD34-PC7 (x-axis) versus CD38-ECD (y-axis), log scales",
+    "Red (blast-gated) population with CD34 expression from dim to bright (up to about 10^2)",
+    "Blasts are CD38 positive at moderate-to-bright intensity",
+    "Small tail of CD34-positive, CD38-dim/negative red events",
+    "Purple non-blast events are CD34-negative with variable CD38"
+  ],
+  "describe_en": "This flow cytometry dot plot displays CD34 versus CD38. The gated blast population (red) expresses CD34 from dim to bright and is uniformly CD38-positive, with a small tail of CD34-positive, CD38-dim to negative events. Non-blast events (purple) are CD34-negative with variable CD38. The dominant CD34+/CD38+ population confirms an immature precursor phenotype; lineage cannot be assigned from these two markers alone, but in combination with CD19/CD10 and cytoplasmic CD79a/CD22 it supports B-lymphoblastic leukemia. Relatively dim CD38 relative to normal B-cell precursors is a useful aberrancy in B-ALL MRD analysis.",
+  "ddx": [
+    {"dx": "Normal hematogones / regenerating marrow", "vs": "Normal CD34+ B precursors express uniformly bright CD38 and form a small population, rather than an expanded population with heterogeneous CD34 and dim-CD38 subsets."},
+    {"dx": "Acute myeloid leukemia", "vs": "Also CD34+/CD38+, but blasts are CD13/CD33/CD117/MPO-positive and lack CD19/CD10/cCD79a."},
+    {"dx": "Mixed-phenotype acute leukemia", "vs": "CD34/CD38 pattern is nonspecific; MPAL requires coexpression of lineage-defining markers such as MPO or cCD3 with B-lineage markers."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

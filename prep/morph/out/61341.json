@@ -1,0 +1,22 @@
+{
+  "id": "61341",
+  "recognize_zh": "切片中為一片中等大小、形態單一的細胞，核呈卵圓形或帶凹痕、染色質細緻、核仁不明顯，細胞質中等量淡嗜酸性，符合漿細胞樣樹突細胞（PDC）群聚的外觀；但單憑 H&E 無法確認，需 CD123、TCF4 等免疫染色。",
+  "features": [
+    "Dense, monotonous population of intermediate-sized cells",
+    "Oval to indented or elongated nuclei with fine, evenly dispersed chromatin",
+    "Inconspicuous nucleoli",
+    "Moderate amount of pale eosinophilic to amphophilic cytoplasm with indistinct borders",
+    "Delicate collagen strands and a few small vessels; no mitotic activity prominent in this field"
+  ],
+  "describe_en": "Section shows a dense, cohesive-appearing aggregate of monotonous intermediate-sized cells with oval to indented nuclei, finely dispersed chromatin, inconspicuous nucleoli, and a moderate amount of pale eosinophilic cytoplasm. Normal hematopoietic elements and fat are not appreciated in this field. The morphology is compatible with a cluster of plasmacytoid dendritic cells, but H&E alone cannot establish lineage; confirmation with CD123, TCF4, and CD303 and assessment of CD56 expression is required to distinguish reactive/clonal PDC nodules from blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN cells are more blastic with frequent mitoses and are CD56-positive, whereas non-neoplastic PDC nodules are CD56-negative."},
+    {"dx": "Acute myeloid leukemia / myeloid sarcoma", "vs": "Myeloid blasts are MPO and/or lysozyme positive and lack strong CD123/TCF4 co-expression."},
+    {"dx": "Mast cell aggregate (systemic mastocytosis)", "vs": "Mast cells are spindled with clear to granular cytoplasm and are tryptase and CD117 positive."},
+    {"dx": "Lymphoma infiltrate (e.g., mantle cell lymphoma)", "vs": "B-cell lymphomas express CD20/PAX5 and lineage-specific markers such as cyclin D1 rather than CD123."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

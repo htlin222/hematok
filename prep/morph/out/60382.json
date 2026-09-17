@@ -1,0 +1,21 @@
+{
+  "id": "60382",
+  "recognize_zh": "CD5 免疫染色中幾乎所有小淋巴球都呈強烈而完整的細胞膜陽性，形成密集一片的棕色網格，只有中央少數組織球／血管區為陰性；在 SLL 中，腫瘤性 B 細胞與背景 T 細胞都表現 CD5，因此整片陽性，需對照 CD3 才能區分兩者。",
+  "features": [
+    "CD5 IHC with diffuse, strong membranous staining of nearly all small lymphoid cells",
+    "Monotonous small round cells densely packed in a sheet-like pattern",
+    "Small unstained areas corresponding to vessels, histiocytes or stromal cells (e.g., center right)",
+    "No large cell sheets identifiable in this field",
+    "Staining includes both neoplastic B cells and background T cells (not separable on this stain alone)"
+  ],
+  "describe_en": "CD5 immunohistochemistry shows diffuse, strong membranous staining of a dense, monotonous population of small lymphoid cells, with only small unstained areas corresponding to vessels and histiocytes. Because both the neoplastic CLL/SLL B cells and reactive T cells express CD5, nearly the entire infiltrate is positive. Comparison with CD3, which stains fewer cells, and with CD20/CD23 confirms aberrant CD5 expression by the B-cell population. The findings are consistent with involvement by small lymphocytic lymphoma, the background for the Hodgkin-type Richter transformation in this case.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is also CD5-positive B-cell lymphoma, but cells are slightly irregular and express cyclin D1 and SOX11 while lacking CD23 and LEF1."},
+    {"dx": "T-cell lymphoma (e.g., T-prolymphocytic leukemia/lymphoma)", "vs": "A pure T-cell process would show CD3 staining equivalent to CD5 and negative CD20/PAX5, whereas here CD3 stains fewer cells than CD5."},
+    {"dx": "Reactive T-cell-rich lymphoid hyperplasia", "vs": "Reactive nodes preserve follicles with CD5-negative germinal center B cells, rather than effacing sheets of CD5-positive small cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD5",
+  "match": "consistent",
+  "high_yield": false
+}

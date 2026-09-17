@@ -1,0 +1,21 @@
+{
+  "id": "60979",
+  "recognize_zh": "紅血球之間可見一條由細小深藍色菌體排成的短鏈，位於細胞外、與紅血球同一焦平面；右下角嗜中性球已退化、細胞質空泡化並散出細小顆粒，提示周邊血中有游離細菌（菌血症）。",
+  "features": [
+    "Short chain of small, uniform, deeply basophilic organisms lying extracellularly between red cells",
+    "Organisms in the same focal plane as surrounding red cells, supporting true in vivo presence",
+    "Degenerating neutrophils (lower right) with vacuolated cytoplasm and scattered small dark particles nearby",
+    "Red cells normochromic with mild anisocytosis; no other specific abnormality"
+  ],
+  "describe_en": "Peripheral blood smear shows a short chain of small, uniform, deeply basophilic bacteria lying free between red cells in the same focal plane. Nearby neutrophils are degenerated with vacuolated cytoplasm and adjacent small dark particles. Red cell morphology is otherwise unremarkable. Findings are consistent with free bacteria on the peripheral smear, indicating high-grade bacteremia; Gram stain and blood culture are required for organism identification, and contamination should be excluded.",
+  "ddx": [
+    {"dx": "Slide or stain contamination", "vs": "Contaminating bacteria are often out of focal plane, overlie cells randomly and are unaccompanied by toxic or phagocytic neutrophil changes; negative blood culture supports contamination."},
+    {"dx": "Stain precipitate", "vs": "Precipitate is irregular, refractile and variably sized rather than uniform organisms arranged in a chain."},
+    {"dx": "Borrelia spirochetes", "vs": "Spirochetes are long, thin, loosely coiled extracellular organisms many times the length of a red cell, not short beaded chains."},
+    {"dx": "Platelet fragments or Howell-Jolly bodies", "vs": "Platelets are larger with granular centers, and Howell-Jolly bodies are single round inclusions inside red cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,39 @@
+{
+  "id": "75",
+  "recognize_zh": "骨髓抹片見成片漿細胞：核偏位、深藍色細胞質、核旁淡染區（hof），部分有明顯核仁；周邊血可見紅血球錢串（rouleaux）；流式顯示 CD38+CD138+ 細胞 CD19 陰性、CD56 陽性，且輕鏈限制為 kappa。",
+  "features": [
+    "Bone marrow aspirate with sheets of plasma cells of variable size, including large immature forms",
+    "Eccentric round nuclei with coarse to open chromatin; many cells show a distinct nucleolus",
+    "Abundant deep-blue cytoplasm with perinuclear hof and scattered fine vacuoles",
+    "Hypercellular trephine with diffuse sheets of plasmacytoid cells replacing normal hematopoiesis and fat",
+    "Peripheral blood with prominent rouleaux formation",
+    "Flow cytometry: CD38+/CD138+ population, CD19-negative, aberrant CD56-positive, cytoplasmic kappa-restricted (kappa 99.6%, lambda 0.09%)"
+  ],
+  "describe_en": "MRI of the thoracolumbar spine shows heterogeneous, multifocal vertebral marrow signal abnormality; the axial image shows abnormal soft tissue involving the vertebral body and spinal canal region. The peripheral blood smear shows prominent rouleaux formation. The bone marrow core biopsy is hypercellular with diffuse sheets of plasma cells replacing normal marrow elements, and the aspirate shows numerous atypical plasma cells with eccentric nuclei, deeply basophilic cytoplasm, perinuclear hofs, and frequent prominent nucleoli, including large immature forms. Flow cytometry identifies a CD38+/CD138+ plasma cell population (24% of live events) that is CD19-negative, aberrantly CD56-positive, and cytoplasmic kappa light chain restricted. Findings are consistent with involvement by kappa-restricted plasma cell myeloma.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are mature, scattered rather than in sheets, polytypic, and retain CD19 without CD56 expression."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with a CD19+/CD20+ clonal B-cell component, usually IgM paraprotein and MYD88 L265P, rather than pure sheets of CD19-negative plasma cells."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is a diffuse large-cell immunoblastic proliferation, often EBER-positive and extramedullary in immunocompromised patients, without the serum M-protein/CRAB profile and mature-plasma-cell spectrum seen here."},
+    {"dx": "Monoclonal gammopathy of undetermined significance / smoldering myeloma", "vs": "These have <10% (MGUS) or no myeloma-defining events, whereas this case shows marrow sheets, lytic/epidural disease and hypercalcemia."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, MRI, flow cytometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Sagittal MRI of the lumbar spine showing heterogeneous, multifocal vertebral marrow signal abnormality",
+    "Axial MRI of a thoracic vertebra showing abnormal marrow signal with soft tissue in the vertebral body and canal region",
+    "Sagittal fluid-sensitive MRI of the thoracic spine with heterogeneous vertebral marrow signal",
+    "Sagittal T1-weighted MRI of the thoracic spine with multiple focal vertebral body signal abnormalities",
+    "Marrow core biopsy, low power (H&E): hypercellular marrow with diffuse sheets of plasma cells",
+    "Marrow core biopsy, high power (H&E): sheets of plasma cells with eccentric nuclei and occasional nucleoli",
+    "Peripheral blood smear showing rouleaux formation",
+    "Marrow aspirate: numerous plasma cells with basophilic cytoplasm and perinuclear hofs among residual myeloid cells",
+    "Marrow aspirate, high power: atypical plasma cells with prominent nucleoli and cytoplasmic vacuoles",
+    "Marrow aspirate, high power: sheets of atypical plasma cells including large immature forms",
+    "Flow cytometry CD45 vs side scatter plot with lymphocyte gate (4.70%)",
+    "Flow cytometry CD138 vs CD38 plot gating CD38+/CD138+ plasma cells (24.23%)",
+    "Gated plasma cells are CD19-negative and CD56-positive (81.08%)",
+    "Gated plasma cells show cytoplasmic kappa light chain restriction (kappa 99.60%, lambda 0.09%)"
+  ]
+}

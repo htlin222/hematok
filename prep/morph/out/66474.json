@@ -1,0 +1,22 @@
+{
+  "id": "66474",
+  "recognize_zh": "H&E 為混合性小淋巴球背景中散在大型細胞，CD30 與 CD15 只標出零星大細胞（膜與高基體型態）、PAX5 弱陽性，符合典型何杰金淋巴瘤 (classic Hodgkin lymphoma)；cyclin D1 弱染 HRS 細胞（紅箭頭），FISH 可見 IGH::CCND1 融合訊號（白箭頭）。",
+  "features": [
+    "H&E: effaced lymph node with a polymorphous background of small lymphocytes and histiocytes containing scattered large atypical cells",
+    "CD30 and CD15: only scattered large cells positive with membranous and paranuclear (Golgi) staining; background negative",
+    "PAX5: weak nuclear staining in scattered large cells, with few strongly positive background B cells",
+    "Cyclin D1: weak staining of a Hodgkin/Reed-Sternberg cell (red arrow) and positive histiocytes (blue arrow) against negative small lymphocytes",
+    "t(11;14) dual-fusion FISH: interphase nuclei with separate red and green signals plus a yellow fusion signal (white arrow)"
+  ],
+  "describe_en": "Lymph node section shows effacement of architecture by a polymorphous infiltrate of small lymphocytes and histiocytes with scattered large atypical cells. The large cells are positive for CD30 and CD15 with membranous and Golgi-pattern staining and show weak PAX5 expression, consistent with Hodgkin/Reed-Sternberg cells. Cyclin D1 shows weak staining in the Hodgkin cells as well as positive histiocytes, while the small lymphocytes are negative, and there is no sheet-like mantle cell infiltrate. Interphase FISH with an IGH/CCND1 dual-fusion probe demonstrates a fusion signal in the neoplastic cells. Findings are consistent with classic Hodgkin lymphoma harboring IGH::CCND1, supporting clonal relation to the patient's prior mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Recurrent mantle cell lymphoma", "vs": "Recurrent MCL shows monotonous sheets of small-to-medium cyclin D1-positive, CD5+/CD20+ B cells, whereas here cyclin D1-negative small T cells form the background and only rare CD30+/CD15+ large cells are present."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL cells are more numerous, form sheets or sinusoidal clusters, are PAX5 negative and usually CD15 negative with T-cell or ALK/EMA expression."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "TCHRLBCL large cells are strongly CD20 and PAX5 positive and CD30/CD15 negative."},
+    {"dx": "EBV-positive mucocutaneous ulcer or polymorphic lymphoproliferation", "vs": "These contain HRS-like cells but are EBER positive and CD20 retained, while this case is EBER negative."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD30, CD15, PAX5, cyclin D1; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "65680",
+  "recognize_zh": "骨髓切片中細胞核間距寬、細胞質淡染呈「荷包蛋」（fried-egg）樣的單一淋巴球浸潤，CD20 瀰漫陽性、BRAF V600E 陽性；cyclin D1 在毛狀細胞弱而不均，另見 CD138 陽性漿細胞散在，符合毛細胞白血病合併漿細胞腫瘤。",
+  "features": [
+    "PB: rare small lymphoid cell with irregular cytoplasmic outline suggestive of fine projections; background red cells without other abnormal cells",
+    "BM biopsy H&E: hypercellular with diffuse infiltrate of small cells with widely spaced oval to reniform nuclei and abundant clear cytoplasm ('fried-egg' appearance) and extravasated red cells",
+    "CD20: diffuse strong membranous staining of the infiltrate",
+    "BRAF V600E: strong granular cytoplasmic positivity in the neoplastic cells",
+    "Cyclin D1: weak to moderate, variable nuclear staining in many cells with scattered strongly positive nuclei",
+    "CD138: scattered and small clusters of positive plasma cells (approximately 10-15%)"
+  ],
+  "describe_en": "Peripheral blood smear shows rare lymphoid cells with irregular cytoplasmic borders suggestive of hairy projections. The bone marrow biopsy is hypercellular and diffusely infiltrated by small lymphoid cells with widely spaced round to reniform nuclei and ample pale cytoplasm, imparting a fried-egg appearance, with interstitial red cell extravasation. The infiltrate is strongly CD20-positive and BRAF V600E-positive with weak, variable cyclin D1 expression, while CD138 highlights a separate interstitial population of plasma cells that show strong cyclin D1. Findings are consistent with classic hairy cell leukemia with a concomitant plasma cell neoplasm (smoldering myeloma with IGH::CCND1).",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Villous lymphocytes have polar projections, marrow infiltrate is nodular/intrasinusoidal, and cells are BRAF V600E-, annexin A1- and usually CD103/CD25 negative."},
+    {"dx": "Hairy cell leukemia variant / splenic B-cell lymphoma with prominent nucleoli", "vs": "Cells have prominent nucleoli, CD25 and annexin A1 are negative, and BRAF V600E is absent."},
+    {"dx": "Mantle cell lymphoma", "vs": "Strong uniform cyclin D1 and SOX11 with CD5 expression and IGH::CCND1 in the B cells, unlike weak variable cyclin D1 in HCL."},
+    {"dx": "Plasma cell myeloma as the sole process", "vs": "Would lack the CD20+ BRAF V600E+ fried-egg B-cell infiltrate that explains the pancytopenia here."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Giemsa (PB); H&E; IHC: CD20, BRAF V600E, cyclin D1, CD138",
+  "match": "consistent",
+  "high_yield": false
+}

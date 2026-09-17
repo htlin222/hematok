@@ -1,0 +1,22 @@
+{
+  "id": "2095",
+  "recognize_zh": "骨髓抹片以大型母細胞為主，核染色質細緻、核仁可見、細胞質淡藍（箭頭指一顆典型的 myeloblast），同時仍可見帶顆粒的前骨髓細胞與成熟嗜中性球，代表母細胞增生合併部分成熟，符合 AML with maturation。",
+  "features": [
+    "Predominance of large blasts with round to oval nuclei, finely dispersed chromatin and visible nucleoli",
+    "Moderate amount of pale to basophilic cytoplasm; occasional fine azurophilic granules",
+    "Arrow marks a large myeloblast with a round nucleus and a thin rim of grayish-blue cytoplasm",
+    "Maturing granulocytic cells present, including a granulated promyelocyte and segmented neutrophils",
+    "No definite Auer rods identified in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular and dominated by large blasts with fine chromatin, visible nucleoli and moderate basophilic cytoplasm, some with sparse azurophilic granules (arrow indicates a representative myeloblast). Maturing granulocytic elements, including promyelocytes and segmented neutrophils, are also present. Auer rods are not seen in this field. Findings are consistent with acute myeloid leukemia with maturation, provided blasts are at least 20% with at least 10% maturing granulocytic cells and monocytic cells are under 20%.",
+  "ddx": [
+    {"dx": "AML without maturation", "vs": "AML without maturation has fewer than 10% maturing granulocytic cells, whereas this field still shows promyelocytes and neutrophils."},
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "It often shows long slender Auer rods, salmon-colored cytoplasm, pseudo-Pelger neutrophils and CD19/PAX5 expression, requiring cytogenetics or molecular testing to separate."},
+    {"dx": "Acute myelomonocytic leukemia", "vs": "It has at least 20% monocytic cells with folded nuclei and gray-blue cytoplasm and nonspecific esterase positivity, which are not evident here."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts lack granules and Auer rods and are MPO negative, whereas myeloblasts with accompanying granulocytic maturation are MPO positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

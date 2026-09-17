@@ -1,0 +1,22 @@
+{
+  "id": "63100",
+  "recognize_zh": "骨髓抹片為富細胞、左移的顆粒球系增生，並有嗜鹼性球與嗜酸性球（B、C），呈 CML 樣貌；但核型（D）未見費城染色體，而 FISH（E、F）仍顯示 BCR::ABL1 融合訊號位於 der(9) 上，提示隱匿性插入或複雜易位造成的 Ph 陰性 CML。",
+  "features": [
+    "Panel A: hypercellular aspirate particle with abundant cellular trails",
+    "Panels B-C: granulocytic proliferation across maturation stages (myelocytes, metamyelocytes, bands) with basophils and eosinophils",
+    "Panel D: G-banded karyotype without a visible Philadelphia chromosome (apparently normal 46,XY)",
+    "Panel E: interphase/metaphase dual-color FISH with fusion signals in nuclei",
+    "Panel F: metaphase FISH localizing a BCR::ABL1 fusion signal to der(9), with both chromosome 22 homologs labeled"
+  ],
+  "describe_en": "Bone marrow aspirate smears are hypercellular with a granulocytic proliferation showing the full spectrum of maturation, accompanied by basophils and eosinophils, a picture typical of chronic myeloid leukemia. Conventional karyotype does not show a Philadelphia chromosome. Dual-color BCR/ABL1 FISH nevertheless demonstrates fusion signals, and metaphase FISH localizes the fusion to a derivative chromosome 9 rather than chromosome 22. Findings are consistent with Philadelphia-negative, BCR::ABL1-positive CML arising through a cryptic insertion or complex rearrangement; RT-PCR for transcript type is recommended for monitoring.",
+  "ddx": [
+    {"dx": "Atypical CML (MDS/MPN with neutrophilia)", "vs": "aCML has marked dysgranulopoiesis without basophilia and is BCR::ABL1-negative, whereas FISH here shows a BCR::ABL1 fusion."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL shows predominantly mature neutrophils with few precursors, no basophilia, CSF3R mutation and absence of BCR::ABL1."},
+    {"dx": "Leukemoid (reactive) reaction", "vs": "Reactive neutrophilia has toxic granulation, no basophilia and no clonal BCR::ABL1 fusion."},
+    {"dx": "Classic Ph-positive CML with t(9;22)", "vs": "Classic cases show a visible Ph chromosome on karyotype with fusion on der(22), while here the karyotype is Ph-negative and fusion localizes to der(9)."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; G-banding; FISH: BCR/ABL1",
+  "match": "consistent",
+  "high_yield": false
+}

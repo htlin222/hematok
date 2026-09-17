@@ -1,0 +1,22 @@
+{
+  "id": "60885",
+  "recognize_zh": "同一視野中，上方與左下方是大型、核深染、彼此緊密黏聚成巢的腫瘤細胞，右下方則是含紅系前驅細胞、顆粒球與巨核細胞的正常造血區；造血細胞不會形成黏聚性細胞巢，因此強烈提示轉移性非造血腫瘤。",
+  "features": [
+    "Sharp interface between cohesive tumor nests (upper field, lower left) and residual trilineage hematopoiesis (lower right)",
+    "Tumor cells larger than hematopoietic cells, with high N:C ratio, hyperchromatic oval to molded nuclei and scant cytoplasm",
+    "Tumor cells arranged in tightly packed sheets and cords, lining spaces in a pseudoalveolar/pseudoglandular pattern",
+    "Residual marrow with erythroid precursors (small round dark nuclei), maturing granulocytes and a megakaryocyte",
+    "Adjacent bony trabecula at left; interspersed adipocytes and dilated sinusoids"
+  ],
+  "describe_en": "Hematoxylin and eosin-stained bone marrow biopsy shows a paratrabecular field with two distinct populations. Cohesive nests and cords of large tumor cells with hyperchromatic, overlapping oval nuclei and scant cytoplasm occupy the upper and lower left portions of the field, focally lining spaces in a pseudoalveolar arrangement. They abut residual normal hematopoiesis containing erythroid precursors, maturing granulocytes and a megakaryocyte. The cohesive growth pattern is uncharacteristic of hematopoietic cells and indicates a metastatic non-hematopoietic neoplasm, consistent with metastatic alveolar rhabdomyosarcoma in this child.",
+  "ddx": [
+    {"dx": "Metastatic neuroblastoma", "vs": "Neuroblastoma nests often contain eosinophilic fibrillary neuropil and Homer Wright rosettes and stain for synaptophysin/PHOX2B rather than myogenin."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing cells are monotonous with fine chromatin and clear cytoplasm, CD99 and NKX2.2 positive."},
+    {"dx": "Acute leukemia (lymphoblastic or myeloid)", "vs": "Leukemic blasts grow as diffuse discohesive sheets replacing marrow rather than cohesive nests with a sharp interface, and are TdT/CD34/MPO positive."},
+    {"dx": "Clusters of erythroid precursors or megakaryocytes", "vs": "Normal erythroid islands consist of small round nuclei with perinuclear halos and show maturation, unlike these large pleomorphic overlapping nuclei."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

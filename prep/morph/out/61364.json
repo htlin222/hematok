@@ -1,0 +1,22 @@
+{
+  "id": "61364",
+  "recognize_zh": "一群大型紅血球母細胞，細胞質深藍、核圓、染色質細緻，多數細胞質內有大小一致的透亮小空泡（punched-out vacuoles），此為異常早期紅系前驅細胞的特徵；是否達急性紅系白血病需依原紅血球母細胞比例判定。",
+  "features": [
+    "Cluster of large erythroid precursors (pronormoblasts) with high N:C ratio",
+    "Round nuclei with finely granular chromatin and occasional nucleoli",
+    "Deeply basophilic cytoplasm containing multiple sharply punched-out clear vacuoles, sometimes forming a perinuclear ring",
+    "Cytoplasmic blebbing and irregular borders in some cells",
+    "Adjacent eosinophil with bilobed nucleus and orange granules; small dark degenerating cells in the cluster"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of large pronormoblasts with round nuclei, fine chromatin, occasional nucleoli and deeply basophilic cytoplasm containing numerous discrete clear vacuoles. An eosinophil is present adjacent to the cluster. Vacuolated early erythroid precursors are a dysplastic feature seen in myeloid neoplasms with erythroid predominance. Classification depends on quantitation: with pronormoblasts below 30% of nucleated cells and 7% myeloblasts, as reported in this case, the findings are consistent with a myelodysplastic neoplasm with increased blasts (MDS-EB-1) rather than pure erythroid leukemia; TP53 status and karyotype should be assessed.",
+  "ddx": [
+    {"dx": "Acute erythroid leukemia (pure erythroid leukemia)", "vs": "Requires at least 30% pronormoblasts with erythroid predominance (at least 80%), so the distinction is quantitative rather than cytologic."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblasts show nuclear-cytoplasmic asynchrony with open sieve-like chromatin in maturing cells, without vacuolated basophilic blasts, and correct with B12/folate."},
+    {"dx": "Copper deficiency or alcohol/zinc toxicity", "vs": "Cause vacuolization of erythroid and myeloid precursors with ringed sideroblasts, but without increased myeloblasts and resolve with correction."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells also have deep blue vacuolated cytoplasm but are mature B cells (CD19/CD20, surface light chain) that lack erythroid markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

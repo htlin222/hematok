@@ -1,0 +1,22 @@
+{
+  "id": "65785",
+  "recognize_zh": "這是流式細胞儀散佈圖：紅色標記的「suspected atypical cells」在 CD45 呈亮陽性，側向散射（SSC）偏低到中等，且 CD19、CD20、CD10、CD73、CD86、CD123 皆為陰性，代表一群非 B 細胞、非顆粒球的淋巴樣族群，需再以 T/NK 標記確認。",
+  "features": [
+    "CD45 vs SSC plot: red atypical population is CD45 bright with low to intermediate SSC, extending toward the granulocyte SSC range",
+    "CD19 negative and CD20 negative, clearly separated from the small orange normal B-cell population",
+    "CD10 negative, separated from the CD10-positive green granulocytes",
+    "CD73, CD86 and CD123 negative; CD38 negative to dim",
+    "No T-cell or NK-cell markers (CD3, CD2, CD7, CD56, TCR gamma-delta) are displayed in this figure"
+  ],
+  "describe_en": "Flow cytometric dot plots show a distinct population (painted red, gated as suspected atypical cells) that is CD45 bright with low to intermediate side scatter. This population lacks CD19, CD20, CD10, CD73, CD86 and CD123 and is CD38 negative to dim, distinguishing it from residual normal B cells (orange), granulocytes (green) and CD123-positive cells (cyan). The markers shown exclude a B-cell or myeloid blast phenotype, but T/NK lineage markers are not included in this figure. Findings are compatible with an abnormal non-B lymphoid population, and in the appropriate clinical context support hepatosplenic T-cell lymphoma pending CD3, TCR gamma-delta, CD5 and CD56 evaluation.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL is typically TCR alpha-beta, CD8+, CD57+ and CD5 dim, whereas HSTCL is usually TCR gamma-delta, CD5-, CD8-, CD57- with sinusoidal marrow infiltration."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "NK cells lack surface CD3 and TCR and are EBV positive, which requires markers not shown here."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts are CD45 dim with CD34, CD117 or CD13/CD33 expression, not CD45 bright."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells also have increased SSC but are CD19/CD20 bright with CD11c, CD25 and CD103, unlike this CD19/CD20-negative population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "63685",
+  "recognize_zh": "一群大型細胞，細胞核呈細緻摺疊、凹陷或腦迴狀（delicately folded / convoluted），染色質細緻、核仁不明顯，細胞質中等量、灰藍色帶細顆粒，這是單核芽細胞等價的前單核球（promonocytes）。",
+  "features": [
+    "Large cells with moderate N:C ratio arranged in a loose cluster",
+    "Irregular, delicately folded, indented or lobulated (convoluted) nuclei",
+    "Fine, lacy chromatin with small pale patches; nucleoli small and indistinct",
+    "Moderate pale gray-blue cytoplasm with very fine, sparse granules",
+    "Occasional cells with a more rounded nucleus resembling monoblasts; no Auer rods seen",
+    "Background of lysed/smeared material suggests a marrow aspirate preparation"
+  ],
+  "describe_en": "The smear shows a cluster of large mononuclear cells with moderate amounts of pale gray-blue, finely granular cytoplasm. The nuclei are irregular with delicate folds, indentations and lobulation, fine lacy chromatin, and small indistinct nucleoli. No Auer rods, coarse granules or cytoplasmic vacuoles are evident, and mature monocytes with condensed chromatin are not seen in this field. These cells represent promonocytes, which are counted as blast equivalents; when they and monoblasts reach 20% or more, findings are consistent with acute monocytic or myelomonocytic leukemia.",
+  "ddx": [
+    {"dx": "Mature (atypical) monocytes", "vs": "Mature monocytes have more condensed, clumped chromatin, abundant gray cytoplasm with vacuoles, and are not counted as blast equivalents, whereas promonocytes retain fine chromatin."},
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL cells have bilobed sliding-plate nuclei with strong MPO positivity and PML::RARA, while promonocytes are nonspecific esterase positive and MPO weak or negative."},
+    {"dx": "Monoblasts", "vs": "Monoblasts are larger with round nuclei, one or more prominent nucleoli and more abundant basophilic cytoplasm, lacking the nuclear folding of promonocytes."},
+    {"dx": "Sézary cells / convoluted lymphoma cells", "vs": "Sézary cells have cerebriform nuclei with hyperchromatic chromatin and scant cytoplasm, and are CD4+ T cells on flow cytometry."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

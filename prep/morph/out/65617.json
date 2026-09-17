@@ -1,0 +1,23 @@
+{
+  "id": "65617",
+  "recognize_zh": "淋巴結 H&E 在瀰漫圓形小淋巴球（CLL/SLL）背景中出現多核巨細胞，核呈花環/葡萄串狀（wreath-like）排列或伴有豐富雙染性細胞質，核特徵與周圍腫瘤細胞相同；CD20、CD5、CD23、LEF1 在巨細胞上同樣陽性，證實為 CLL/SLL 中的 Warthin-Finkeldey 樣細胞而非轉移癌。",
+  "features": [
+    "Diffuse effacement by small round lymphocytes with round nuclei and clumped chromatin",
+    "Scattered multinucleated giant cells with nuclei arranged in a wreath-like or grape-cluster configuration",
+    "Other multinucleated cells with abundant pale amphophilic cytoplasm and peripherally placed nuclei",
+    "Nuclei of giant cells identical in size and chromatin to the surrounding neoplastic lymphocytes; no nuclear inclusions",
+    "IHC: CD20, CD5 and CD23 membranous positivity in both background cells and multinucleated cells",
+    "LEF1: diffuse nuclear positivity including multinucleated forms"
+  ],
+  "describe_en": "Lymph node section shows diffuse effacement by a monotonous population of small round lymphocytes with clumped chromatin. Scattered among them are multinucleated giant cells with nuclei arranged in wreath-like clusters, as well as multinucleated cells with abundant amphophilic cytoplasm; their nuclei are cytologically identical to the adjacent neoplastic cells. By immunohistochemistry, both the small cells and the multinucleated cells are positive for CD20, CD5, CD23 and LEF1 (cytokeratin negative, not shown). Findings are consistent with nodal involvement by chronic lymphocytic leukemia/small lymphocytic lymphoma with Warthin-Finkeldey-like multinucleated tumor cells, without evidence of large-cell transformation or metastatic carcinoma.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma (e.g., squamous cell carcinoma)", "vs": "Carcinoma cells are cytokeratin-positive with cohesive growth and different nuclear features, whereas these giant cells share the CLL/SLL immunophenotype."},
+    {"dx": "Hodgkin-like / Richter transformation with Reed-Sternberg-like cells", "vs": "Reed-Sternberg cells have huge eosinophilic macronucleoli and are CD30+/CD15+ with loss of CD20 and CD5, unlike these CD5+/CD23+ cells with small bland nuclei."},
+    {"dx": "Measles lymphadenitis", "vs": "Occurs in reactive nodes with preserved follicles and viral nuclear/cytoplasmic inclusions, not in a node effaced by a CD5+/CD23+ clonal B-cell population."},
+    {"dx": "Kimura disease", "vs": "Features eosinophilic infiltrates, eosinophilic microabscesses and follicular hyperplasia rather than diffuse CLL/SLL."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD20, CD5, CD23, LEF1",
+  "match": "consistent",
+  "high_yield": false
+}

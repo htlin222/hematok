@@ -1,0 +1,21 @@
+{
+  "id": "62672",
+  "recognize_zh": "BCL2 染色中，一大片密集的中小型淋巴細胞呈細胞質/核周強陽性，包括結節內的細胞；生發中心細胞正常應為 BCL2 陰性，所以結節內 BCL2 陽性支持濾泡性淋巴瘤。",
+  "features": [
+    "Dense sheet/nodule of small-to-medium lymphoid cells with strong cytoplasmic and perinuclear BCL2 staining",
+    "Positivity present in the vast majority of cells within the nodular area",
+    "Nuclei round-to-slightly irregular, unstained centrally (ring-like pattern)",
+    "Fewer positive cells in paler peripheral areas with scattered negative larger cells and endothelium",
+    "No clear BCL2-negative germinal center within the nodule"
+  ],
+  "describe_en": "BCL2 immunohistochemistry shows a dense nodular population of small-to-medium lymphoid cells with strong cytoplasmic and perinuclear BCL2 expression throughout, without a BCL2-negative germinal center. The less cellular peripheral areas contain scattered negative cells. Since normal germinal center B cells are BCL2 negative, BCL2 expression in CD10/BCL6-positive follicles indicates neoplastic follicles. Findings are consistent with follicular lymphoma.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers are BCL2 negative, with positivity only in mantle cells and intrafollicular T cells."},
+    {"dx": "Follicular colonization by marginal zone lymphoma", "vs": "MZL cells are BCL2 positive but CD10 and BCL6 negative, so correlation with germinal center markers is required."},
+    {"dx": "Pediatric-type follicular lymphoma", "vs": "PTFL is typically BCL2 protein negative or weak and lacks BCL2 rearrangement, unlike this strong expression."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BCL2",
+  "match": "consistent",
+  "high_yield": true
+}

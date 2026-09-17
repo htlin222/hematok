@@ -1,0 +1,21 @@
+{
+  "id": "61229",
+  "recognize_zh": "EBER 原位雜交中，淋巴樣浸潤細胞的細胞核普遍呈深藍紫色陽性訊號，與粉紅色對比染色的腺體上皮對照明顯，表示腫瘤細胞瀰漫帶有 EBV。",
+  "features": [
+    "Diffuse lymphoid infiltrate expanding the mucosa with residual glands in the upper portion",
+    "Dark blue-purple nuclear signal in the majority of infiltrating lymphoid cells",
+    "Glandular epithelium shows only pink counterstain (negative internal control)",
+    "Signal is strictly nuclear with no cytoplasmic staining",
+    "Positive cells extend to the surface and among glands"
+  ],
+  "describe_en": "EBV-encoded RNA (EBER) in situ hybridization on the mucosal biopsy shows a dark nuclear signal in the vast majority of the infiltrating lymphoid cells, while residual glandular epithelium is negative with pink counterstain. Combined with the CD3+, CD56+ immunophenotype, the diffuse EBER positivity is consistent with extranodal NK/T-cell lymphoma, nasal type, in which EBER positivity is essentially required for the diagnosis.",
+  "ddx": [
+    {"dx": "Reactive infiltrate with scattered EBV-positive cells", "vs": "Reactive conditions show only rare scattered EBER-positive cells rather than diffuse positivity in the majority of the infiltrate."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "EBV+ DLBCL is also diffusely EBER positive but consists of large CD20/PAX5-positive B cells rather than CD3+/CD56+ cells."},
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma", "vs": "MEITL is CD56 positive but EBER negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

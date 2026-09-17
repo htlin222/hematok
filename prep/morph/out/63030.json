@@ -1,0 +1,21 @@
+{
+  "id": "63030",
+  "recognize_zh": "骨髓切片中造血細胞密度偏高，間質內可見多個大型巨核細胞彼此靠近成簇（megakaryocyte clustering），部分核分葉明顯；在 POEMS 症候群中，這種類似骨髓增生性腫瘤（MPN-like）的巨核細胞變化是提示線索。",
+  "features": [
+    "Hypercellular marrow for age with preserved but reduced adipocytes between bony trabeculae",
+    "Increased megakaryocytes forming loose clusters in the interstitium",
+    "Megakaryocytes of variable size, some large with hyperlobated nuclei",
+    "Trilineage hematopoiesis with abundant small mature-appearing cells",
+    "Bony trabeculae unremarkable at this power; no discrete plasma cell sheets identified"
+  ],
+  "describe_en": "Bone marrow trephine biopsy (H&E, low-intermediate power) shows a hypercellular marrow with trilineage hematopoiesis between unremarkable bony trabeculae. Megakaryocytes are increased and form loose clusters, with variation in size and some large forms with hyperlobated nuclei. No sheets of plasma cells are evident at this magnification. In the appropriate clinical setting, megakaryocytic hyperplasia with clustering is a recognized marrow finding in POEMS syndrome; correlation with plasma cell immunostains (lambda restriction) and exclusion of a myeloproliferative neoplasm (JAK2/CALR/MPL) are recommended.",
+  "ddx": [
+    {"dx": "Essential thrombocythemia / other MPN", "vs": "MPN shows similar megakaryocyte clustering, but POEMS marrow additionally harbors lambda-restricted plasma cells rimming lymphoid aggregates and lacks JAK2/CALR/MPL driver mutations."},
+    {"dx": "Primary myelofibrosis, prefibrotic", "vs": "PMF megakaryocytes are more bizarre with cloud-like hyperchromatic nuclei and tight clusters, often with increased reticulin, whereas POEMS megakaryocytes are typically hyperlobated without marked atypia."},
+    {"dx": "Reactive megakaryocytic hyperplasia", "vs": "Reactive hyperplasia (e.g., ITP, iron deficiency) shows dispersed, morphologically normal megakaryocytes without clustering or an associated clonal plasma cell population."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

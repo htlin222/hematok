@@ -1,0 +1,22 @@
+{
+  "id": "63361",
+  "recognize_zh": "上方凝膠卡正向定型的 anti-A、anti-B 與對照管都呈混合凝集（MF），反向 A1、B 細胞 3+；下方血片中紅血球聚成不規則團塊並有血小板聚集，這組合提示冷凝集素（cold agglutinin）干擾血型鑑定。",
+  "features": [
+    "Column agglutination (gel) card: anti-A, anti-B and control show mixed-field reactions; anti-D 4+; reverse typing with A1 and B cells 3+",
+    "Positive control well indicates an invalid forward type caused by autoagglutination",
+    "Peripheral smear with irregular grape-like clusters of agglutinated red cells rather than linear stacks",
+    "Several platelet clumps in the smear",
+    "Occasional scattered single red cells between agglutinates"
+  ],
+  "describe_en": "The composite shows an automated gel ABO/RhD typing card and a peripheral blood smear. Forward typing shows mixed-field reactions with anti-A, anti-B and the control, with 4+ anti-D, and reverse typing shows 3+ reactions with A1 and B cells; the reactive control invalidates the forward type and indicates red cell autoagglutination. The smear shows extensive irregular red cell agglutinates and platelet clumps. Findings are consistent with a potent cold agglutinin causing an ABO typing discrepancy, which is resolved by washing red cells with warm saline and prewarming plasma.",
+  "ddx": [
+    {"dx": "Rouleaux", "vs": "Rouleaux form linear coin-like stacks in the thin area, disperse with saline replacement and do not make the gel control reactive in the same way as autoagglutination."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA shows spherocytes rather than large agglutinates and a DAT positive for IgG, whereas cold agglutinin disease is C3d-positive."},
+    {"dx": "Mixed-field from recent transfusion or ABO-incompatible transplant", "vs": "True chimerism gives mixed-field in specific antisera with a negative control, not in all wells including the control."},
+    {"dx": "EDTA-dependent pseudothrombocytopenia", "vs": "EDTA-induced platelet clumping occurs without red cell agglutination or typing discrepancy."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; gel column agglutination",
+  "match": "consistent",
+  "high_yield": true
+}

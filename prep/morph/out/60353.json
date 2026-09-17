@@ -1,0 +1,21 @@
+{
+  "id": "60353",
+  "recognize_zh": "G 帶核型圖為女性（XX，Y 欄空白）46 條染色體，箭頭指出 9 號染色體短臂與 11 號染色體長臂的交換（der(9)、der(11)），即 t(9;11)(p22;q23)，形成 KMT2A-MLLT3 融合。",
+  "features": [
+    "G-banded karyogram with 46 chromosomes and two X chromosomes (no Y)",
+    "Arrow at the short arm of one chromosome 9 indicating altered 9p banding (der(9))",
+    "Arrow at the long arm of one chromosome 11 indicating altered 11q banding (der(11))",
+    "Interpretation: 46,XX,t(9;11)(p22;q23) involving KMT2A (MLL) and MLLT3 (AF9)",
+    "No additional clonal abnormalities apparent in this metaphase"
+  ],
+  "describe_en": "This G-banded karyogram shows a female metaphase with 46 chromosomes and a reciprocal translocation between the short arm of chromosome 9 and the long arm of chromosome 11, with arrows marking the derivative chromosomes. The karyotype is 46,XX,t(9;11)(p22;q23). This rearrangement fuses KMT2A at 11q23 with MLLT3 at 9p22 and defines AML with t(9;11)(p22;q23); KMT2A-MLLT3, which typically shows monocytic or myelomonocytic differentiation and is more frequent in children. KMT2A break-apart FISH is useful to confirm the rearrangement, since the translocated segments are small and other 11q23 partners exist.",
+  "ddx": [
+    {"dx": "AML with other KMT2A rearrangements (e.g., t(6;11), t(11;19))", "vs": "The partner chromosome differs, so identification of chromosome 9p22 involvement (or MLLT3 by molecular testing) separates t(9;11) from other 11q23 translocations."},
+    {"dx": "Therapy-related myeloid neoplasm with KMT2A rearrangement", "vs": "The karyotype can be identical; a history of topoisomerase II inhibitor exposure defines the therapy-related category."},
+    {"dx": "Cryptic KMT2A partial tandem duplication or deletion 11q", "vs": "These alter 11q23 without a partner chromosome and are detected by molecular testing rather than a reciprocal exchange on karyotype."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": false
+}

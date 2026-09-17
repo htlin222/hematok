@@ -1,0 +1,23 @@
+{
+  "id": "63084",
+  "recognize_zh": "PET（A）見多處淋巴結與結外高攝取病灶；組織（B）為中小型淋巴細胞瀰漫浸潤，其間散在帶大核仁與空暈的大型 HRS 樣細胞（插圖）；大細胞有膜狀免疫染色（C、D）與點狀 ISH 訊號（E），提示為 ATLL 背景中的 HRS 樣細胞，而非典型霍奇金淋巴瘤。",
+  "features": [
+    "Panel A: FDG-PET maximum intensity projection with multiple hypermetabolic nodal and extranodal lesions",
+    "Panel B: diffuse infiltrate of small-to-medium atypical lymphoid cells with scattered large cells",
+    "Panel B insets: large Hodgkin/Reed-Sternberg-like cells with vesicular nuclei, prominent eosinophilic nucleoli and perinuclear halo",
+    "Panels C-D: membranous and cytoplasmic staining of the large cells with an unlabeled IHC marker, background small cells negative",
+    "Panel E: punctate dot-like nuclear/cytoplasmic ISH signals in large cells",
+    "Panel F: red chromogenic signal highlighting a cluster of cells (marker not labeled in the image)"
+  ],
+  "describe_en": "FDG-PET shows widespread hypermetabolic nodal and extranodal disease. The biopsy demonstrates a diffuse infiltrate of small-to-medium atypical lymphoid cells within which scattered large Hodgkin/Reed-Sternberg-like cells with prominent nucleoli are present. The large cells show membranous staining on immunohistochemistry and punctate signals on in situ hybridization, while the background small cells are largely negative for these markers. The markers are not labeled in the figure, limiting precise interpretation; in the context of the title, the findings support HRS-like cells in adult T-cell leukemia/lymphoma associated with HTLV-1 infection, a mimic of classic Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "In cHL the background is reactive, non-clonal T cells, whereas in ATLL the background small-to-medium cells are atypical clonal CD4+CD25+ HTLV-1-positive T cells."},
+    {"dx": "Peripheral T-cell lymphoma with HRS-like B cells (including AITL)", "vs": "These lack HTLV-1 integration and AITL shows TFH markers (PD1, CXCL13) with expanded FDC meshworks."},
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "ALCL consists of sheets of CD30-strong hallmark cells rather than scattered HRS-like cells in a small-cell background."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "EBV+ DLBCL shows EBER in many large B cells with a polyclonal T-cell background and no HTLV-1 serology or clonal integration."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC; ISH; FDG-PET",
+  "match": "consistent",
+  "high_yield": false
+}

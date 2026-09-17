@@ -1,0 +1,21 @@
+{
+  "id": "1127",
+  "recognize_zh": "低倍的周邊血抹片中，白血球多為中型、細胞質少、無顆粒的芽細胞，成熟中性球很少；芽細胞無顆粒亦無 Auer 小體，形態上無法分辨系別，需流式細胞儀才能確認為 AML 微分化型。",
+  "features": [
+    "Increased circulating medium-sized mononuclear cells with high N:C ratio (blasts)",
+    "Round to slightly irregular nuclei; chromatin detail limited at this low magnification",
+    "Scant, agranular pale blue cytoplasm without visible Auer rods",
+    "Rare mature neutrophil; red cells appear normocytic",
+    "Platelets appear reduced"
+  ],
+  "describe_en": "Low-power peripheral blood smear shows increased circulating medium-sized blasts with high nuclear-to-cytoplasmic ratios and scant, agranular cytoplasm; Auer rods are not seen. Mature neutrophils are rare and platelets appear decreased. Chromatin and nucleolar details cannot be adequately assessed at this magnification. Findings are consistent with acute leukemia; because blasts in AML with minimal differentiation lack morphologic and cytochemical evidence of myeloid differentiation, lineage assignment requires flow cytometry.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL blasts look similar but express B- or T-lineage antigens (CD19, CD79a, cyCD3) instead of myeloid markers such as CD13, CD33 and CD117."},
+    {"dx": "Mixed-phenotype acute leukemia", "vs": "MPAL blasts express lineage-defining markers of more than one lineage by flow cytometry, which morphology cannot detect."},
+    {"dx": "Large reactive lymphocytes", "vs": "Reactive lymphocytes have abundant basophilic cytoplasm and mature chromatin, not the high N:C ratio of blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

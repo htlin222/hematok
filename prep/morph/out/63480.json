@@ -1,0 +1,22 @@
+{
+  "id": "63480",
+  "recognize_zh": "周邊血液抹片中央一顆比紅血球大的巨大血小板，細胞質淡藍、含細顆粒且邊緣有芽狀突起，周圍另有多顆淡藍色、顆粒稀少的異常血小板，配合 CML 病史，提示巨核母細胞急變（megakaryoblastic crisis）。",
+  "features": [
+    "Giant platelet larger than adjacent red cells with granular blue-gray cytoplasm and a budding bleb",
+    "Several additional platelets that are large, pale blue, and hypogranular/agranular",
+    "No nucleus in the central giant platelet (distinguishing it from a micromegakaryocyte)",
+    "Red cells show anisopoikilocytosis with scattered echinocytes and a teardrop cell",
+    "No blasts or granulocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows anisopoikilocytosis with scattered crenated cells and an occasional teardrop cell. A giant anucleate platelet, larger than surrounding red cells, is present with granular blue-gray cytoplasm and a peripheral cytoplasmic bleb, accompanied by several large, pale, hypogranular platelets. No blasts are present in this field, although they predominate elsewhere per the clinical data. In a patient with known Ph-positive CML and megakaryoblasts by flow cytometry, these abnormal giant platelets are consistent with megakaryocytic dysplasia in megakaryoblastic blast crisis of CML.",
+  "ddx": [
+    {"dx": "Micromegakaryocyte or megakaryoblast", "vs": "Micromegakaryocytes and megakaryoblasts contain a nucleus, whereas this giant platelet is anucleate."},
+    {"dx": "Inherited macrothrombocytopenia (e.g., Bernard-Soulier, MYH9-related disorder)", "vs": "Inherited giant platelets occur with lifelong thrombocytopenia and normal WBC, and MYH9 disorders show Döhle-like inclusions in neutrophils, rather than a leukemic picture."},
+    {"dx": "Essential thrombocythemia or primary myelofibrosis", "vs": "These MPNs can show giant platelets but are BCR::ABL1 negative and lack an increase in blasts."},
+    {"dx": "Gray platelet syndrome", "vs": "Gray platelet syndrome has uniformly agranular large platelets with marrow fibrosis in the absence of CML or blasts, and alpha-granule deficiency is confirmed by electron microscopy."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

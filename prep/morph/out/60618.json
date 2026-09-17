@@ -1,0 +1,22 @@
+{
+  "id": "60618",
+  "recognize_zh": "同一視野中有兩群紅血球：大部分為大小、血色正常的紅血球，另有一群淡染、低色素、形狀不規則或細長的小紅血球（dimorphic picture），在小球性貧血的女性要想到 X 染色體連鎖鐵粒母細胞貧血帶因者的萊昂化（lyonization）。",
+  "features": [
+    "Dimorphic red cell population: majority normocytic normochromic red cells",
+    "Second population of pale, markedly hypochromic cells with thin rims, many small, irregular, elongated or fragmented",
+    "Anisocytosis and poikilocytosis confined largely to the hypochromic population",
+    "Platelets present and adequate in number; no leukocytes in this field",
+    "No basophilic stippling or Pappenheimer bodies are discernible at this resolution"
+  ],
+  "describe_en": "Peripheral blood smear shows a dimorphic erythrocyte population composed of normocytic normochromic red cells admixed with a distinct population of small, markedly hypochromic cells showing poikilocytosis, including elongated and irregular forms. Platelets are present in normal numbers. In a woman with microcytic anemia, a dual red cell population raises the possibility of skewed X-inactivation in a carrier of X-linked sideroblastic anemia (ALAS2), which should be confirmed with a bone marrow iron stain for ring sideroblasts and genetic testing. Findings are suggestive of X-linked sideroblastic anemia in a heterozygous female.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia after transfusion or iron therapy", "vs": "A post-transfusion or recovering iron-deficiency dimorphic picture is distinguished by history, low ferritin and absence of ring sideroblasts."},
+    {"dx": "Myelodysplastic syndrome with ring sideroblasts", "vs": "MDS-RS usually shows macrocytic red cells as the dominant population with other cytopenias and dysplasia, and SF3B1 mutation rather than ALAS2."},
+    {"dx": "Thalassemia trait", "vs": "Thalassemia trait shows uniformly microcytic cells with target cells and a raised RBC count rather than two separate populations."},
+    {"dx": "Mixed nutritional deficiency (iron plus B12/folate)", "vs": "Combined deficiency gives macrocytes with hypersegmented neutrophils together with hypochromic microcytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

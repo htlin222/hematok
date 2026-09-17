@@ -1,0 +1,20 @@
+{
+  "id": "2371",
+  "recognize_zh": "Kleihauer-Betke 酸洗脫染色中，整片紅血球都只剩淡粉紅的「鬼影」空殼（成人 HbA 已被酸洗出），此視野沒有看到被伊紅深染、充滿血紅素的胎兒紅血球（HbF 細胞）。",
+  "features": [
+    "Uniform field of pale pink ghost red cells with only membrane outlines retained",
+    "Cells appear empty after acid elution of adult hemoglobin (HbA)",
+    "No darkly eosin-stained, hemoglobin-filled acid-resistant (HbF-containing) red cells in this field",
+    "No nucleated cells or leukocytes identifiable; densely packed monolayer"
+  ],
+  "describe_en": "Kleihauer-Betke acid elution preparation of peripheral blood shows a field of pale ghost red cells in which adult hemoglobin has been eluted, leaving only faintly stained membrane outlines. No acid-resistant, darkly staining fetal hemoglobin–containing cells are identified in this field. Interpretation requires counting a large number of cells (typically 2,000) with appropriate positive and negative controls to calculate the percentage of fetal cells and estimate fetomaternal hemorrhage volume. This field is consistent with HbA-containing (adult) red cells lacking detectable F cells.",
+  "ddx": [
+    {"dx": "Fetomaternal hemorrhage (positive KB test)", "vs": "A positive test shows scattered bright pink, hemoglobin-filled fetal cells among ghost cells, which are absent in this field."},
+    {"dx": "Hereditary persistence of fetal hemoglobin, pancellular", "vs": "Pancellular HPFH shows HbF evenly distributed so nearly all cells retain stain, whereas heterocellular elevations (e.g., thalassemia, sickle cell) show a mixed population."},
+    {"dx": "Inadequate elution (technical artifact)", "vs": "Under-elution leaves many cells partially stained with intermediate intensity, whereas this field shows uniformly empty ghosts."}
+  ],
+  "specimen": "PB",
+  "stain": "Kleihauer-Betke acid elution",
+  "match": "consistent",
+  "high_yield": true
+}

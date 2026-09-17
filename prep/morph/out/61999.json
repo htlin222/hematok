@@ -1,0 +1,21 @@
+{
+  "id": "61999",
+  "recognize_zh": "免疫染色（棕色）顯示密集成片的細胞呈強而完整的環狀膜染色，細胞形狀一致、核位於中央偏淡；這張是膜型標記（抗原未標示，可能為 CD138 或 CD20），表示腫瘤細胞呈瀰漫性浸潤，但 cyclin D1 為核染色，無法由此圖判讀。",
+  "features": [
+    "Diffuse sheets of cells with strong circumferential membranous DAB staining",
+    "Cells are relatively uniform, round to polygonal, with pale unstained nuclei",
+    "Near-complete replacement of the field by positive cells",
+    "Occasional negative large cell (possibly megakaryocyte) and vascular/stromal spaces",
+    "Antigen not labeled; nuclear detail obscured by strong membranous staining"
+  ],
+  "describe_en": "Immunohistochemical stain (DAB; antigen not labeled) shows diffuse sheets of uniform cells with strong circumferential membranous staining, replacing nearly the entire field, with a rare negative large cell and small stromal spaces. In the context of plasma cell myeloma with t(11;14), the membranous pattern is compatible with CD138 highlighting a diffuse plasma cell infiltrate, or CD20, which is frequently expressed in t(11;14) myeloma. Cyclin D1 expression (nuclear) is not demonstrated in this image; the antigen should be confirmed with the case materials.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is CD5+/CD20+/SOX11+ and CD138 negative, whereas t(11;14) myeloma is CD138+ with cytoplasmic light chain restriction and often dim or absent CD45."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger with vesicular nuclei and prominent nucleoli, CD20+ and usually CD138 negative."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is CD138+ but typically has immunoblastic cytology, high Ki-67, frequent EBER positivity and MYC rearrangement."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: antigen not labeled (membranous)",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61760",
+  "recognize_zh": "整片中型淋巴樣細胞呈瀰漫片狀排列，幾乎全部呈強陽性的細胞質／膜型 BCL2 染色，只有散在的組織細胞與內皮細胞為陰性（藍色）；配合標題，這是被套細胞淋巴瘤（mantle cell lymphoma）母細胞樣亞型的 BCL2 免疫染色。",
+  "features": [
+    "Diffuse sheet-like proliferation of monotonous medium-sized lymphoid cells without follicular architecture",
+    "Strong, uniform cytoplasmic and perinuclear/membranous BCL2 staining in nearly all tumor cells",
+    "Round to slightly irregular nuclei outlined by the brown rim of staining",
+    "Scattered BCL2-negative histiocytes and endothelial cells with blue hematoxylin counterstain",
+    "No residual BCL2-negative germinal centers identified in this field"
+  ],
+  "describe_en": "Immunohistochemical stain for BCL2 shows a diffuse, sheet-like infiltrate of monotonous medium-sized lymphoid cells. Virtually all neoplastic cells show strong cytoplasmic/perinuclear BCL2 positivity, with only interspersed histiocytes and endothelial cells negative. BCL2 expression is expected in mantle cell lymphoma and is not discriminatory by itself; the blastoid cytology is not assessable on this stain and cyclin D1/SOX11 are required for classification. Findings are consistent with the provided diagnosis of mantle cell lymphoma, blastoid variant.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma / high-grade B-cell lymphoma", "vs": "Both can be BCL2-positive with blastoid cells, but mantle cell lymphoma is cyclin D1 and SOX11 positive with t(11;14)(q13;q32)."},
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts express TdT and often CD34 and lack surface light chain and cyclin D1."},
+    {"dx": "Follicular lymphoma, diffuse pattern", "vs": "Follicular lymphoma is CD10/BCL6 positive and cyclin D1 negative, whereas mantle cell lymphoma is CD5 positive and CD10 negative."},
+    {"dx": "Pleomorphic variant of mantle cell lymphoma", "vs": "Separated from blastoid variant only on H&E cytology (larger, pleomorphic nuclei with nucleoli), not on BCL2 staining."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BCL2",
+  "match": "consistent",
+  "high_yield": false
+}

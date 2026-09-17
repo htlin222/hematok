@@ -1,0 +1,22 @@
+{
+  "id": "60133",
+  "recognize_zh": "骨髓切片左上方是充滿亮紅色顆粒嗜酸性球的高細胞性區域，右下方則是一片紡錘狀細胞呈流線狀、疏鬆排列的聚集，這些拉長、胞質淡嗜酸性的細胞就是紡錘形肥大細胞，合併大量嗜酸性球是PDGFRA重排腫瘤的典型骨髓表現。",
+  "features": [
+    "Hypercellular marrow with a markedly eosinophil-rich area (bright eosinophilic granular cytoplasm) at upper left",
+    "Loose, streaming aggregate of spindle-shaped cells with oval to elongated nuclei and pale eosinophilic cytoplasm at lower right, consistent with spindled mast cells",
+    "Intermixed eosinophils and lymphocytes within the spindle cell aggregate",
+    "Associated fine fibrillary stroma/fibrosis within the spindle cell area",
+    "A megakaryocyte at left edge; mast cell nature requires tryptase/CD117/CD25 confirmation"
+  ],
+  "describe_en": "Bone marrow trephine section shows a hypercellular marrow with a marked increase in eosinophils and eosinophil precursors. Adjacent to this, there is a loose, streaming infiltrate of spindle-shaped cells with oval to elongated nuclei and pale eosinophilic cytoplasm, admixed with eosinophils and associated with fine stromal fibrosis; these are morphologically consistent with spindled mast cells. The aggregate is loose rather than forming compact dense clusters. Tryptase, CD117 and CD25 immunostains and molecular testing for FIP1L1::PDGFRA and KIT D816V are recommended. The findings are consistent with a myeloid/lymphoid neoplasm with eosinophilia and PDGFRA rearrangement.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis (KIT D816V)", "vs": "SM usually shows compact, well-circumscribed mast cell aggregates of ≥15 cells, often paratrabecular or perivascular with lymphoid cuffs, and KIT D816V, while PDGFRA neoplasms show looser infiltrates and marked eosinophilia without KIT D816V."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows streaming fibrosis with clusters of atypical megakaryocytes rather than spindled tryptase-positive mast cells with eosinophilia."},
+    {"dx": "Reactive eosinophilia with marrow fibrosis", "vs": "Reactive states lack clonal spindled CD25-positive mast cells and PDGFRA rearrangement."},
+    {"dx": "Hodgkin or peripheral T-cell lymphoma involving marrow", "vs": "Lymphoma infiltrates contain Reed-Sternberg cells or atypical T cells (CD30/CD15 or aberrant T-cell phenotype) in a mixed background, not tryptase-positive spindle cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "66042",
+  "recognize_zh": "一群中大型不成熟骨髓性細胞，核染色質細緻、核輪廓不規則或摺疊，胞質中度嗜鹼性、顆粒不多；下方一顆細胞胞質內可見細長粉紅色 Auer 小體，右側深藍胞質、圓核的細胞為早期紅血球前驅細胞，此組合在臨床上須優先排除 APL。",
+  "features": [
+    "Cluster of medium-to-large immature myeloid cells with fine chromatin and irregular, folded or indented nuclear contours",
+    "Moderate amounts of basophilic cytoplasm with sparse fine granules and a pale paranuclear zone in some cells",
+    "A slender pink Auer rod in the cytoplasm of one cell in the lower part of the cluster",
+    "Immature erythroid precursor with round nucleus, coarser chromatin and deeply basophilic cytoplasm (right of cluster)",
+    "Background of normochromic red cells and scattered small platelets; no faggot cells seen in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of medium-to-large immature myeloid cells with fine chromatin, irregular or folded nuclear contours and moderately basophilic cytoplasm containing sparse fine granules. One cell contains a single slender Auer rod. An immature erythroid precursor with deeply basophilic cytoplasm is present adjacent to the cluster. Coarse hypergranularity and bundles of Auer rods (faggot cells) are not seen in this field. Findings are suggestive of acute promyelocytic leukemia, likely a hypogranular pattern; urgent PML::RARA testing and coagulation studies are required for confirmation.",
+  "ddx": [
+    {"dx": "AML with maturation or other non-APL AML", "vs": "Non-APL myeloblasts usually have round nuclei, prominent nucleoli and are CD34+/HLA-DR+, whereas APL cells show folded bilobed nuclei and are CD34-/HLA-DR- with PML::RARA."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts and promonocytes have more abundant gray-blue vacuolated cytoplasm, delicately folded nuclei, strong nonspecific esterase and CD14/CD11b/CD64 expression, and rarely Auer rods."},
+    {"dx": "AML with NPM1 mutation (cup-like nuclei)", "vs": "NPM1-mutated AML can be CD34-/HLA-DR- but shows cup-like nuclear invaginations and lacks PML::RARA."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

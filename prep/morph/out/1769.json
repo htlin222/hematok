@@ -1,0 +1,21 @@
+{
+  "id": "1769",
+  "recognize_zh": "組織切片中散布大型多形性細胞，細胞核不規則或呈腎形、核仁明顯，周圍混有細胞質充滿空泡的組織球與小淋巴球，符合間變性大細胞淋巴瘤（ALCL）伴隨組織球反應的表現。",
+  "features": [
+    "Scattered large pleomorphic cells with irregular to reniform nuclei, vesicular chromatin, and prominent nucleoli",
+    "A large cell with dense amphophilic cytoplasm and a kidney-shaped nucleus near the center, compatible with a hallmark cell",
+    "Numerous histiocytes with multivacuolated, foamy cytoplasm",
+    "Admixed small lymphocytes with dark round nuclei",
+    "Loose, edematous stroma; moderate image resolution limits nuclear detail"
+  ],
+  "describe_en": "Tissue section shows a polymorphous infiltrate of large pleomorphic cells with irregular to kidney-shaped nuclei and prominent nucleoli, admixed with numerous foamy, multivacuolated histiocytes and small lymphocytes in a loose stroma. Occasional cells resemble hallmark cells. The large atypical cells are less densely packed than in the common pattern, and the abundant histiocytes can obscure them. Findings are suggestive of anaplastic large cell lymphoma with a histiocyte-rich background; CD30 and ALK immunostains are needed to highlight the neoplastic cells.",
+  "ddx": [
+    {"dx": "Histiocytic sarcoma or reactive histiocytosis", "vs": "Histiocytic proliferations are CD68/CD163 positive and CD30/ALK negative, and lack atypical hallmark cells among the foamy histiocytes."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin lymphoma shows Reed-Sternberg cells with owl-eye macronucleoli in an eosinophil- and lymphocyte-rich background and is PAX5 weak positive, ALK negative."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS shows a spectrum of atypical T cells without uniform strong CD30 expression or hallmark cells, and is ALK negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62752",
+  "recognize_zh": "骨髓抹片中成群的大型原始細胞（A），多張高倍圖可見一個原始細胞將另一個細胞或紅血球完整包入胞質內（B–E），被吞入的細胞外圍有空泡邊緣，形成「細胞吞噬細胞」（cannibalism）影像；F 為 Sanger 定序顯示 ZMYND11-MBTD1 融合接點。",
+  "features": [
+    "Clusters of large blasts with high N:C ratio, round nuclei and fine chromatin (A)",
+    "Blasts with moderate basophilic cytoplasm containing fine granules",
+    "Intact engulfed cells (blasts or other nucleated cells) and a red cell within a clear vacuole in the cytoplasm of host blasts (B-E), compressing the host nucleus to a crescent",
+    "Engulfed cells retain distinct nuclear chromatin, excluding simple vacuolation",
+    "Sanger sequencing electropherogram showing the ZMYND11 exon 1-12 to MBTD1 exon 3-17 fusion junction (F)"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows cohesive-appearing clusters of large blasts with high N:C ratio, fine chromatin and moderately basophilic, finely granular cytoplasm. Several blasts display cannibalism, with whole nucleated cells or an erythrocyte enclosed within a clear cytoplasmic vacuole that compresses the host nucleus into a peripheral crescent. Sanger sequencing (panel F) demonstrates an in-frame ZMYND11-MBTD1 fusion junction. Findings are consistent with acute myeloid leukemia with blast cell cannibalism (emperipolesis/phagocytosis) associated with ZMYND11-MBTD1 fusion; lineage should be confirmed by flow cytometry and cytochemistry.",
+  "ddx": [
+    {"dx": "AML with t(8;16)(p11;p13) KAT6A::CREBBP", "vs": "Also shows monocytic blasts with hemophagocytosis (erythrophagocytosis) by blasts, but is distinguished by KAT6A::CREBBP rearrangement and often coagulopathy."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "Phagocytosis is performed by mature, low N:C ratio benign histiocytes with abundant cytoplasm rather than by high N:C ratio blasts."},
+    {"dx": "Metastatic carcinoma with cell-in-cell structures", "vs": "Tumor cells form cohesive sheets with epithelial features and are cytokeratin-positive and CD45-negative."},
+    {"dx": "Smudge/overlap artifact", "vs": "Overlapping cells lack a surrounding clear vacuole and do not indent the host nucleus into a crescent."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; Sanger sequencing (F)",
+  "match": "consistent",
+  "high_yield": false
+}

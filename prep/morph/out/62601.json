@@ -1,0 +1,20 @@
+{
+  "id": "62601",
+  "recognize_zh": "這是數位切片瀏覽器截圖的 CD56 染色：腫瘤細胞群不著色，只見零星小型陽性細胞與纖細基質結構著色，與同病例另一張 CD56 圖相同，表示腫瘤 CD56 陰性。",
+  "features": [
+    "Screenshot of a whole-slide viewer (toolbar at left, slide panel at top right)",
+    "Sheets of tumor cells with round nuclei, negative for CD56",
+    "Rare scattered small CD56-positive cells with membranous staining",
+    "Faint staining of thin spindled stromal/neural processes",
+    "Same field as the companion CD56 image of this case"
+  ],
+  "describe_en": "CD56 immunohistochemistry, captured from a digital slide viewer, shows the neoplastic plasma cell infiltrate to be negative, with only rare scattered positive cells and faint staining of delicate stromal processes. The field duplicates the other CD56 image from this case. Absence of aberrant CD56 on the tumor cells is in keeping with EBV-positive plasmacytoma-like post-transplant lymphoproliferative disorder rather than favoring conventional plasma cell myeloma.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma / plasmacytoma", "vs": "Myeloma plasma cells are CD56-positive in the majority of cases, whereas the tumor here is negative, though negativity alone does not exclude it."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "NK/T-cell lymphoma is diffusely CD56-positive and EBER-positive, not CD56-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD56",
+  "match": "consistent",
+  "high_yield": false
+}

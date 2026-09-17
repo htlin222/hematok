@@ -1,0 +1,23 @@
+{
+  "id": "1222",
+  "recognize_zh": "周邊血液抹片中紅血球之間到處都是血小板，數量明顯增加，大小不一，可見接近紅血球大小的大型血小板與小群聚集；紅血球形態大致正常，符合原發性血小板增多症的血小板增多。",
+  "features": [
+    "Marked increase in platelets distributed throughout the field",
+    "Platelet anisocytosis with large and occasional giant forms approaching red cell size",
+    "Small platelet aggregates in addition to single platelets",
+    "Platelet granules visible; some hypogranular/pale platelets",
+    "Red cells normocytic and normochromic without significant poikilocytosis",
+    "No leukocytes, blasts or nucleated red cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic, normochromic red cells without significant poikilocytosis. Platelets are markedly increased and show striking anisocytosis, including large to giant forms and small aggregates. No white cells are present in this field to assess leukocyte morphology, and no teardrop cells or nucleated red cells are seen. Findings are consistent with marked thrombocytosis with platelet anisocytosis, compatible with essential thrombocythemia in the appropriate clinical and molecular context.",
+  "ddx": [
+    {"dx": "Reactive thrombocytosis", "vs": "Reactive thrombocytosis usually has uniformly small to normal platelets without giant forms, and lacks JAK2/CALR/MPL mutations."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows giant platelets too but is accompanied by teardrop cells and leukoerythroblastosis, not seen here."},
+    {"dx": "Chronic myeloid leukemia with thrombocytosis", "vs": "CML shows leukocytosis with a myelocyte peak and basophilia, and requires BCR::ABL1 testing to exclude."},
+    {"dx": "Pseudothrombocytosis from red cell or white cell fragments", "vs": "Cell fragments lack the purple granular centers of true platelets, whereas these are well-granulated platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

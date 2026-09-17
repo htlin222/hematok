@@ -1,0 +1,22 @@
+{
+  "id": "64190",
+  "recognize_zh": "在紅血球之間可見一顆較大的血小板，內含明顯粗大、深紫色的顆粒（hypergranulated platelet）；單看血小板並無特異性，需搭配白血球中的巨大顆粒才能指向 Chediak-Higashi 症候群。",
+  "features": [
+    "Single enlarged platelet (roughly one-third to half a red cell diameter) with irregular outline",
+    "Coarse, dense purple granules distributed throughout the platelet cytoplasm",
+    "A few normal-sized small platelets nearby for comparison",
+    "Background red cells overlapping in a thick area of the smear with a few crenated cells",
+    "No leukocytes in this field to assess for giant granules"
+  ],
+  "describe_en": "Peripheral blood smear shows an enlarged platelet with an irregular outline and coarse, dense purple granules, alongside a few normal-sized platelets. Red cells are overlapping in this thicker area of the film with occasional crenated forms. No leukocytes are present in the field for assessment of giant cytoplasmic granules. This platelet finding is nonspecific on its own; in the setting of Chediak-Higashi syndrome it is compatible with the reported hypergranulated platelets, although the platelet dense-granule deficiency underlying the bleeding tendency is not visible by light microscopy.",
+  "ddx": [
+    {"dx": "Normal large platelet with increased turnover (e.g., ITP)", "vs": "Reactive large platelets show normal fine granulation and occur without giant inclusions in neutrophils or lymphocytes."},
+    {"dx": "MYH9-related disorder (May-Hegglin anomaly)", "vs": "MYH9 disorders show giant platelets with thrombocytopenia and pale blue Dohle-like inclusions in neutrophils rather than giant azurophilic granules."},
+    {"dx": "Gray platelet syndrome", "vs": "Gray platelet syndrome shows large platelets that are pale gray and agranular due to alpha-granule deficiency, the opposite of hypergranulation."},
+    {"dx": "Platelet satellitism or clumping artifact", "vs": "EDTA-related artifacts produce platelets aggregated around neutrophils or in clumps rather than a single coarsely granular platelet."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "36",
+  "recognize_zh": "骨髓抹片充滿大型單核球系母細胞：細胞核圓形至折疊/腎形，染色質細緻、可見核仁，細胞質豐富、灰藍色帶細小嗜天青顆粒（monoblast/promonocyte），這種單核球分化型態常見於 KMT2A 重組的 AML，例如 t(9;11)。",
+  "features": [
+    "Large blasts with abundant grey-blue cytoplasm containing fine azurophilic granules and occasional vacuoles",
+    "Round to folded, indented or reniform nuclei with delicate lacy chromatin and one or more nucleoli (monoblasts and promonocytes)",
+    "Aspirate markedly hypercellular with sheets of monocytic blasts and few maturing granulocytes",
+    "Peripheral blood with a circulating blast showing fine chromatin and scant blue cytoplasm",
+    "Core biopsy field (limited) shows loose edematous/fatty stroma adjacent to bone with scattered mononuclear cells having folded nuclei",
+    "No Auer rods identified in the images"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts with fine chromatin and scant basophilic cytoplasm. The bone marrow aspirate is hypercellular and composed predominantly of large blasts with round to folded nuclei, fine chromatin, nucleoli and abundant grey-blue cytoplasm with fine azurophilic granules, consistent with monoblasts and promonocytes; residual granulocytic maturation is sparse and Auer rods are not seen. The core biopsy field shown contains loose stroma with scattered mononuclear cells with folded nuclei and is of limited diagnostic value on its own. Cytochemistry (nonspecific esterase) or flow cytometry for monocytic markers and karyotype are required for classification. Findings are consistent with acute myeloid leukemia with monocytic differentiation, which in this case harbors t(9;11)(p21.3;q23.3); KMT2A::MLLT3.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with NPM1 mutation", "vs": "Often shows similar monocytic blasts with cup-like nuclear invaginations and is separated by molecular testing (NPM1 mutation, cytoplasmic NPM1) rather than morphology."},
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Bilobed 'butterfly' nuclei with dust-like granules and faggot cells, strong MPO, CD34/HLA-DR negativity and PML::RARA distinguish it from these NSE-positive monoblasts."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "Consists mainly of mature monocytes with dysplasia and fewer than 20% blasts plus promonocytes, unlike the sheets of monoblasts and promonocytes here."},
+    {"dx": "Reactive monocytosis", "vs": "Monocytes are mature with condensed chromatin and no nucleoli, without increased monoblasts or promonocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: circulating blast with fine chromatin and scant basophilic cytoplasm",
+    "Bone marrow aspirate: sheets of monocytic blasts with folded nuclei and granular grey-blue cytoplasm",
+    "High power: cluster of monoblasts and promonocytes with fine chromatin and nucleoli beside a neutrophil",
+    "Core biopsy: loose stroma adjacent to bone with scattered mononuclear cells with folded nuclei"
+  ]
+}

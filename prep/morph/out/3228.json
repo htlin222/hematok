@@ -1,0 +1,22 @@
+{
+  "id": "3228",
+  "recognize_zh": "骨髓切片中一顆組織球的細胞質內包含多顆完整的橘紅色紅血球，右下另一顆大型組織球泡沫狀細胞質內含數個被吞噬的核碎片／有核細胞，符合噬血現象。",
+  "features": [
+    "Histiocyte with abundant pale cytoplasm containing multiple intact orange-red erythrocytes",
+    "Histiocyte nucleus oval with fine chromatin, displaced by ingested cells",
+    "Second large histiocyte with vacuolated cytoplasm containing engulfed dense nuclear material (nucleated cells or apoptotic debris)",
+    "Background marrow with erythroid precursors and a fat space",
+    "Intact red cells indicate recent phagocytosis rather than hemosiderin"
+  ],
+  "describe_en": "Bone marrow core biopsy section shows a histiocyte with abundant cytoplasm containing multiple intact phagocytosed erythrocytes. A second, larger histiocyte displays vacuolated cytoplasm containing dense nuclear fragments consistent with engulfed nucleated cells or apoptotic debris. The surrounding marrow contains erythroid precursors and fat. Findings are consistent with hemophagocytosis; in the clinical setting of acute EBV infection, HLH should be evaluated using clinical and laboratory criteria, because morphologic hemophagocytosis alone is not diagnostic.",
+  "ddx": [
+    {"dx": "Tingible body macrophage / apoptotic debris clearance", "vs": "Tingible body macrophages ingest apoptotic nuclear debris in proliferative states without engulfing intact erythrocytes."},
+    {"dx": "Hemosiderin-laden macrophage", "vs": "Siderophages contain coarse golden-brown iron granules that are Prussian blue positive rather than intact red cells."},
+    {"dx": "Gaucher or foamy storage histiocytes", "vs": "Storage cells have crinkled-paper or finely foamy cytoplasm without ingested erythrocytes or nucleated cells."},
+    {"dx": "Erythroblastic island", "vs": "In erythroblastic islands nucleated erythroid precursors surround the central macrophage rather than being enclosed in its phagocytic vacuoles."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

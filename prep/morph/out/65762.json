@@ -1,0 +1,22 @@
+{
+  "id": "65762",
+  "recognize_zh": "骨髓抹片與切片被胞質稀少、染色質細緻的母細胞樣細胞大片取代，形態看似急性白血病；但 CD138 膜狀瀰漫陽性、p53 強陽性、EBER 陰性，流式為 CD38/CD138 亮陽性且 kappa 單株，加上骨髓瘤病史，符合母細胞樣漿細胞白血病。",
+  "features": [
+    "Aspirate: sheets of medium-sized blastoid cells with high N:C ratio, fine chromatin and scant to moderate basophilic cytoplasm, some eccentric nuclei",
+    "Blood: circulating blastoid cells with round nuclei and a thin rim of blue cytoplasm",
+    "Core biopsy: diffuse sheets of monotonous cells with vesicular nuclei and small nucleoli (inset)",
+    "CD138: diffuse membranous positivity; p53: strong nuclear staining in nearly all cells; EBER ISH negative",
+    "Flow: CD45-dim/low-SSC population (red) that is CD19+, CD20+, partial CD10, surface kappa+, CD38 and CD138 bright, CD34-negative"
+  ],
+  "describe_en": "Peripheral blood contains circulating blastoid cells, and the bone marrow aspirate is replaced by sheets of medium-sized cells with fine chromatin, high nuclear-to-cytoplasmic ratio and basophilic cytoplasm, without obvious plasmacytoid features. The core biopsy shows diffuse sheets of monotonous cells that are diffusely CD138-positive with strong p53 overexpression and negative EBER in situ hybridization. Flow cytometry identifies a dominant CD45-dim population with bright CD38 and CD138, surface kappa restriction and aberrant CD19/CD20 with partial CD10, lacking CD34 and TdT. In the context of known myeloma, findings are consistent with secondary plasma cell leukemia with blastoid morphology.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "PBL is usually EBER-positive, arises in immunodeficiency or extranodal sites without a myeloma history, and is CD20-negative."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are TdT- and/or CD34-positive and lack bright CD38/CD138 and surface light-chain restriction."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL also carries IGH::CCND1 but is CD5+, SOX11+ and CD138-negative with dim rather than bright CD38."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts express CD34/CD117/MPO and myeloid antigens, all negative here."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: CD138, p53; EBER; flow",
+  "match": "consistent",
+  "high_yield": false
+}

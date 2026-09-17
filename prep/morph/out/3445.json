@@ -1,0 +1,21 @@
+{
+  "id": "3445",
+  "recognize_zh": "中央一顆白血球（偏單核球/組織球樣，核不規則）細胞質內有數個含紫色小顆粒的空泡，形狀大小與旁邊的游離血小板相同，代表吞噬了血小板。",
+  "features": [
+    "Single leukocyte with irregular, folded nucleus and gray-violet granular cytoplasm",
+    "Several cytoplasmic vacuoles, at least two containing small purple bodies the size of platelets",
+    "Free platelets nearby are of similar size and staining to the ingested bodies",
+    "Background red cells normocytic, normochromic with central pallor",
+    "Platelets overall appear sparse in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic, normochromic red cells and sparse platelets. A leukocyte with an irregular folded nucleus contains several clear phagocytic vacuoles, some of which enclose small purple bodies morphologically identical to adjacent free platelets. Findings are consistent with leukocyte phagocytosis of platelets, which may be seen in immune-mediated thrombocytopenia, sepsis, or as an in vitro EDTA-related phenomenon.",
+  "ddx": [
+    {"dx": "Platelet satellitism", "vs": "In satellitism platelets adhere around the outer rim of neutrophils rather than lying within cytoplasmic vacuoles."},
+    {"dx": "Intracellular organisms (Histoplasma, Ehrlichia/Anaplasma)", "vs": "Histoplasma yeasts have a clear halo with a crescentic nucleus and Anaplasma morulae are stippled clusters, unlike granular platelet fragments."},
+    {"dx": "Phagocytosed nuclear debris (LE cell)", "vs": "An LE cell contains a large homogeneous purple nuclear mass displacing the nucleus rather than small granular platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3708",
+  "recognize_zh": "組織切片的免疫染色中，大量細胞呈強烈膜狀/細胞質陽性並成片分布，左下方則為陰性區；在移植後 AML 復發的脈絡下，應理解為腫瘤性骨髓系細胞浸潤。圖中未標示抗體，單憑此圖無法確定譜系。",
+  "features": [
+    "Tissue section with dense sheets of cells showing strong membranous and cytoplasmic immunoreactivity",
+    "Positive cells are medium-sized, closely packed, with a diffuse infiltrative pattern",
+    "Sharp demarcation from a less cellular, largely negative area in the lower left",
+    "Scattered positive cells extend into the negative region",
+    "Antibody and tissue site not labeled; nuclear detail not assessable"
+  ],
+  "describe_en": "Immunohistochemical stain on a tissue section shows dense sheets of medium-sized cells with strong membranous and cytoplasmic staining in a diffuse infiltrative pattern, with a less cellular, largely negative area in the lower left containing scattered positive cells. The antibody and the anatomic site are not indicated in the image, so lineage cannot be assigned from this figure alone. In the context of recurrent acute myeloid leukemia after peripheral stem cell transplantation, the findings are suggestive of an infiltrate of recurrent leukemia (e.g., marrow relapse or myeloid sarcoma); correlation with a myeloid panel (CD34, CD117, MPO, CD33, CD43, lysozyme) and chimerism studies is required.",
+  "ddx": [
+    {"dx": "Post-transplant lymphoproliferative disorder", "vs": "PTLD expresses B-cell markers (CD20, CD79a) and is frequently EBER-positive, whereas relapsed AML expresses MPO, CD33, CD117, or CD34 without B-cell markers."},
+    {"dx": "Reactive lymphoid or histiocytic infiltrate (e.g., GVHD-related inflammation)", "vs": "Reactive infiltrates are polymorphous with mixed T cells and macrophages rather than monotonous sheets of a single immature myeloid immunophenotype."},
+    {"dx": "Donor-derived myeloid neoplasm", "vs": "Morphology and immunophenotype are identical to recipient relapse, so separation requires chimerism analysis and cytogenetic/molecular comparison with the original leukemia."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC (marker not specified)",
+  "match": "partial",
+  "high_yield": false
+}

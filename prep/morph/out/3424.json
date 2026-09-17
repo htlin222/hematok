@@ -1,0 +1,21 @@
+{
+  "id": "3424",
+  "recognize_zh": "這是一張非對比頭部電腦斷層（CT）軸切面，雙側側腦室位置可見高密度（白色）出血，左側（影像右側）較大，周圍有低密度水腫；配合急性前骨髓性白血病（APL）病史，代表凝血病變造成的中樞神經出血。",
+  "features": [
+    "Axial non-contrast head CT image",
+    "Large hyperdense (acute blood) collections centered in the region of both lateral ventricles/periventricular parenchyma, larger on the patient's left (image right)",
+    "Surrounding hypodense rim consistent with edema",
+    "Mild mass effect with effacement of adjacent sulci; midline structures not markedly displaced",
+    "No morphologic (cellular) information in this image"
+  ],
+  "describe_en": "This is an axial non-contrast head CT image rather than a morphologic specimen. It shows bilateral hyperdense acute hemorrhage in the region of the lateral ventricles and adjacent periventricular parenchyma, larger on the patient's left, with surrounding hypodense edema and mild mass effect. In a patient with acute promyelocytic leukemia, such intracranial hemorrhage reflects APL-associated coagulopathy (DIC with hyperfibrinolysis), the leading cause of early death. The image underscores the need to start ATRA immediately on morphologic suspicion and aggressively replace platelets and fibrinogen.",
+  "ddx": [
+    {"dx": "Hypertensive intracerebral hemorrhage", "vs": "Hypertensive bleeds are typically single and centered in the basal ganglia, thalamus, pons or cerebellum in older patients without coagulopathy."},
+    {"dx": "Leukostatic hemorrhage in hyperleukocytic AML", "vs": "Leukostasis-related bleeds occur with very high blast counts and are often multifocal, whereas APL usually presents with low WBC and laboratory evidence of DIC."},
+    {"dx": "Hemorrhagic transformation of infarct or venous sinus thrombosis", "vs": "These follow vascular territories or show sinus thrombus on CT venography, rather than coagulopathy-driven bleeding."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

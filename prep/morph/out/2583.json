@@ -1,0 +1,22 @@
+{
+  "id": "2583",
+  "recognize_zh": "箭頭所指是一顆圓形、無細胞核、淡藍色並帶數個小空泡的細胞質碎片，大小接近旁邊的淋巴球，並非真正的血小板或細胞；這種細胞質碎片可被自動計數儀誤算為血小板（偽血小板）。",
+  "features": [
+    "Arrowed round anucleate fragment of pale blue cytoplasm with a few small clear vacuoles",
+    "Fragment about the size of the adjacent lymphocyte, much larger than a normal platelet",
+    "No azurophilic granules or granulomere typical of platelets",
+    "Adjacent small lymphocyte and segmented neutrophil for comparison",
+    "Thick background with overlapping, crenated red cells and drying artifact"
+  ],
+  "describe_en": "The smear shows a thick area with overlapping, crenated red cells, a small lymphocyte and a segmented neutrophil. The arrow indicates a round, anucleate fragment of pale blue cytoplasm containing a few small clear vacuoles and no platelet-type granules, approximately the size of the nearby lymphocyte. This represents a cytoplasmic fragment (pseudothrombocyte) rather than a true platelet; such fragments, commonly derived from leukemic or other fragile cells, can be counted as platelets by automated analyzers and falsely elevate the platelet count.",
+  "ddx": [
+    {"dx": "Giant platelet", "vs": "Giant platelets contain a central purple granulomere with azurophilic granules, whereas this fragment is agranular pale blue cytoplasm."},
+    {"dx": "Microspherocytes or red cell fragments", "vs": "Red cell fragments stain pink-orange like other erythrocytes and lack blue cytoplasm with vacuoles."},
+    {"dx": "Bare nucleus or smudge cell", "vs": "Smudge cells and bare nuclei show purple chromatin, whereas this fragment has no nuclear material."},
+    {"dx": "Microorganisms (fungi/yeast)", "vs": "Yeasts are smaller, oval, often budding, with a refractile wall and a dark staining center rather than pale blue vacuolated cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

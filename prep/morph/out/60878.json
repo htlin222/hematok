@@ -1,0 +1,21 @@
+{
+  "id": "60878",
+  "recognize_zh": "這是一張流式細胞儀教學投影片：CD34/CD10/CD19/CD20/CD38/TdT 雙參數圖上，早期（藍，CD34+TdT+CD10 亮）、中間期（紅，CD34−CD10+ CD20 逐漸上升）與成熟 B 細胞（黃，CD20+CD10−）形成連續的成熟路徑，這種可預期的連續成熟模式就是 hematogone 的特徵。",
+  "features": [
+    "Non-morphologic slide of eight flow cytometry dot plots with color-coded B-cell stages: blue early, red intermediate, yellow mature B cells",
+    "CD45 vs SSC: B-lineage events in the low-SSC region spanning dim to bright CD45",
+    "CD19 vs CD10 and CD34 vs CD10: early hematogones CD34+/CD10 bright, intermediate CD34-/CD10+, mature B cells CD10-",
+    "CD20 vs CD19 and CD38 vs CD20: continuous acquisition of CD20 from negative to positive across stages with CD38 on immature cells",
+    "CD34 vs cytoplasmic TdT: TdT restricted to CD34+ early (blue) cells; cytoplasmic CD22 vs TdT gating shown",
+    "Slide text: MRD detection relies on leukemia-associated immunophenotype and/or 'different-from-normal' approach"
+  ],
+  "describe_en": "This figure is a flow cytometry teaching slide rather than a morphologic image. Bone marrow B-lineage precursors are displayed on eight dot plots, with early-stage hematogones (blue) expressing CD34, TdT and bright CD10 without CD20, intermediate hematogones (red) losing CD34/TdT while retaining CD10 and gradually acquiring CD20, and mature B cells (yellow) showing CD20 positivity and loss of CD10. The populations form a continuous, predictable maturation spectrum without discrete clustered abnormal events. Interpretation: this normal antigen continuum distinguishes hematogones from B-lymphoblastic leukemia/MRD, which typically shows an aberrant, 'different-from-normal' cluster (e.g., asynchronous CD34/CD20, CD10/CD38 aberrancy, or loss of CD45).",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia / MRD", "vs": "Leukemic blasts form a tight discrete cluster deviating from the normal maturation pathway (e.g., CD10 overexpression, CD38 underexpression, CD45 negative, CD58/CD81 aberrancy) instead of a smooth continuum."},
+    {"dx": "Mature B-cell lymphoma involving marrow", "vs": "Lymphoma cells are CD34/TdT negative with surface light-chain restriction rather than a TdT+/CD34+ to CD20+ maturation spectrum."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow: CD45, CD19, CD10, CD20, CD34, CD38, TdT, cCD22",
+  "match": "non-morphologic",
+  "high_yield": true
+}

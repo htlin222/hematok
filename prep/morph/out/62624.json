@@ -1,0 +1,21 @@
+{
+  "id": "62624",
+  "recognize_zh": "高倍下積液細胞塊中的腫瘤細胞很大，核圓或不規則、染色質呈泡狀、核仁明顯，部分核偏心且細胞質偏嗜雙性，呈免疫母細胞／漿母細胞樣，並夾雜多形性大細胞，符合原發性積液淋巴瘤。",
+  "features": [
+    "Large atypical lymphoid cells, many 3-4 times the size of a small lymphocyte",
+    "Round to irregular, sometimes eccentric nuclei with vesicular chromatin",
+    "Prominent single central or multiple nucleoli (immunoblastic/plasmablastic)",
+    "Moderate amphophilic cytoplasm; occasional pleomorphic and multinucleated forms",
+    "Scattered apoptotic bodies and admixed red blood cells in a fibrinous background"
+  ],
+  "describe_en": "Cell block of effusion fluid at high power shows a dense aggregate of large, discohesive atypical lymphoid cells embedded in fibrin. The cells have round to irregular, occasionally eccentric nuclei with vesicular chromatin and prominent nucleoli, and a moderate amount of amphophilic cytoplasm; occasional pleomorphic and multinucleated forms and apoptotic bodies are present. There is no epithelial or mesothelial architecture. The morphology is that of an immunoblastic/plasmablastic high-grade lymphoma, consistent with primary effusion lymphoma in the appropriate context (HHV8 LANA-1+, CD45+, CD30+, CD138+, CD20-).",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma usually presents as a mass (oral cavity, GI) and is HHV8 LANA-1 negative, whereas PEL is effusion-based and LANA-1 positive."},
+    {"dx": "Anaplastic large cell lymphoma involving effusion", "vs": "ALCL shows hallmark cells with horseshoe nuclei and is T-cell/ALK marker positive, while PEL is HHV8+ with plasma cell-associated markers."},
+    {"dx": "Metastatic poorly differentiated carcinoma or melanoma", "vs": "These are CD45 negative and express keratin or S100/SOX10 respectively, and usually show some cohesion."}
+  ],
+  "specimen": "body fluid",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

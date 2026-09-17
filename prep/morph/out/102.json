@@ -1,0 +1,30 @@
+{
+  "id": "102",
+  "recognize_zh": "血片中的淋巴球細胞質邊緣呈毛刷狀細長突起（hairy projections）；骨髓切片細胞間距寬、胞質透亮，呈「荷包蛋」（fried-egg）樣瀰漫浸潤；CD20、TRAP、Annexin A1 強陽性，流式為亮 CD20/CD11c/CD25/CD103 陽性，BRAF V600E 突變，即為毛狀細胞白血病。",
+  "features": [
+    "Peripheral blood: small to medium lymphoid cells with oval to slightly indented nuclei, moderately condensed chromatin, and pale blue cytoplasm with circumferential fine hair-like projections",
+    "Bone marrow biopsy: hypercellular marrow diffusely infiltrated by evenly spaced cells with round to reniform nuclei and abundant clear cytoplasm (fried-egg appearance), with reduced normal hematopoiesis",
+    "IHC: diffuse CD20, TRAP and annexin A1 positivity in the infiltrate; annexin A1-negative residual cells stand out",
+    "Flow cytometry: bright CD19/CD20 B cells co-expressing CD11c, CD25 and CD103, CD5 and CD38 negative, lambda light-chain restricted",
+    "BRAF V600E melting-curve assay: patient shows an additional lower-temperature mutant peak (~59 C) beside the wild-type peak (~64.5 C) seen in the control"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered atypical lymphoid cells with moderate pale cytoplasm bearing circumferential hair-like projections; no neutrophils or monocytes are present in these fields. The bone marrow biopsy is hypercellular and diffusely infiltrated by monotonous cells with bland round to oval nuclei and abundant clear cytoplasm imparting a fried-egg pattern, with marked reduction of normal hematopoietic elements. Immunohistochemistry shows the infiltrate to be CD20, TRAP and annexin A1 positive, and flow cytometry identifies a lambda-restricted, bright CD20-positive B-cell population co-expressing CD11c, CD25 and CD103 and lacking CD5 and CD38. Molecular testing demonstrates BRAF V600E. Findings are consistent with hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli)", "vs": "HCL-v has prominent central nucleoli, leukocytosis without monocytopenia, and is CD25 negative, annexin A1 negative and BRAF V600E wild-type."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes have polar short projections, infiltrate the marrow in an intrasinusoidal or nodular pattern, and are typically CD103, CD25, annexin A1 and BRAF V600E negative."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL has broad-based villi, an intrasinusoidal marrow pattern, and is usually CD25, CD123 and annexin A1 negative without BRAF V600E."},
+    {"dx": "Systemic mastocytosis or other clear-cell marrow infiltrate", "vs": "Mast cell infiltrates are spindled and paratrabecular with CD117/tryptase positivity, whereas this infiltrate is CD20, TRAP and annexin A1 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC: CD20, TRAP, annexin A1",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood smear: lymphoid cells with hairy cytoplasmic projections",
+    "Bone marrow biopsy H&E: diffuse fried-egg infiltrate",
+    "Bone marrow IHC: CD20, TRAP and annexin A1 positive",
+    "Flow cytometry: bright CD19/CD20 B cells positive for CD25, CD103 and CD11c",
+    "Flow cytometry: CD5-negative, CD38-negative, lambda-restricted B cells with HCL marker panel",
+    "BRAF V600E melting-curve analysis: mutant peak in patient versus normal control"
+  ]
+}

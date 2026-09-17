@@ -1,0 +1,21 @@
+{
+  "id": "2299",
+  "recognize_zh": "骨髓抹片中大型細胞具有大量藍灰色、帶細小嗜天青顆粒的細胞質，細胞核偏心、圓到卵圓形、染色質細緻，細胞邊緣有突起，為典型單核母細胞/前單核球外觀。",
+  "features": [
+    "Large cells with abundant blue-gray cytoplasm containing fine azurophilic granules",
+    "Eccentric round to oval nuclei, some slightly indented",
+    "Fine, delicate chromatin",
+    "Cytoplasmic blebs and irregular pseudopod-like borders",
+    "Monotonous infiltrate with red cells in background; no Auer rods seen"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows sheets of large cells with abundant blue-gray cytoplasm containing fine azurophilic granules and irregular cytoplasmic borders with blebs. Nuclei are eccentric, round to oval or slightly indented, with fine delicate chromatin. No Auer rods are identified and maturing granulocytes are inconspicuous. Findings are consistent with acute monoblastic/monocytic leukemia.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic leukemia", "vs": "AMML shows a significant neutrophil lineage component (at least 20%) with MPO-positive myeloblasts, not a pure monocytic population."},
+    {"dx": "Plasma cell neoplasm (plasmablastic)", "vs": "Plasma cells have deeply basophilic cytoplasm with a perinuclear hof and clock-face chromatin and are CD138 positive, unlike granular gray monocytic cytoplasm."},
+    {"dx": "Microgranular APL", "vs": "Microgranular APL has bilobed nuclei and strong MPO with PML::RARA, whereas monoblasts are NSE positive and MPO weak."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

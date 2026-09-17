@@ -1,0 +1,35 @@
+{
+  "id": "132",
+  "recognize_zh": "乳房脂肪組織旁有纖維化背景與濃密淋巴漿細胞浸潤，其間散在胞質豐富淡染、核呈泡狀且核仁明顯的大型組織球；高倍下組織球胞質內含完整淋巴球或漿細胞（emperipolesis，箭頭），S-100 強陽性並清楚勾勒出被吞入的細胞輪廓，符合結外 Rosai-Dorfman disease。",
+  "features": [
+    "Large polygonal histiocytes with abundant pale, finely vacuolated to foamy eosinophilic cytoplasm and indistinct cell borders",
+    "Round vesicular nuclei with fine chromatin and small distinct central nucleoli",
+    "Emperipolesis: intact lymphocytes, plasma cells and a neutrophil/eosinophil-like cell within histiocyte cytoplasm (arrows)",
+    "Strong nuclear and cytoplasmic S-100 staining of histiocytes, with engulfed cells appearing as unstained halos",
+    "Dense lymphoplasmacytic infiltrate in a fibrotic/sclerotic stroma extending around a muscular vessel and into adjacent adipose tissue",
+    "Numerous plasma cells highlighted by IHC; kappa and lambda ISH show a polytypic plasma cell population"
+  ],
+  "describe_en": "Core biopsy of breast shows a cellular, partly sclerotic lesion adjacent to mature adipose tissue, composed of sheets of large pale histiocytes admixed with a dense lymphoplasmacytic infiltrate and extending around a thick-walled vessel. At high power, the histiocytes have abundant pale to foamy cytoplasm and round vesicular nuclei with small nucleoli, and many contain intact lymphocytes and plasma cells within their cytoplasm (emperipolesis). No significant nuclear atypia, mitotic activity, necrosis or cohesive epithelial clusters are seen in these fields. The histiocytes are strongly S-100 positive, outlining the engulfed cells. Plasma cells are abundant, and kappa and lambda in situ hybridization show a polytypic pattern. Findings are consistent with extranodal Rosai-Dorfman disease involving the breast.",
+  "ddx": [
+    {"dx": "IgG4-related disease (mastitis)", "vs": "IgG4-RD shows storiform fibrosis and obliterative phlebitis without large S-100-positive emperipolesis-containing histiocytes, although RDD may also contain increased IgG4-positive plasma cells."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are smaller with grooved, reniform nuclei, are CD1a and langerin positive, lack emperipolesis and are typically accompanied by eosinophils."},
+    {"dx": "Granular cell tumor", "vs": "Granular cell tumor is also S-100 positive but has coarse eosinophilic PAS-positive cytoplasmic granules, lacks emperipolesis and lacks the heavy lymphoplasmacytic background."},
+    {"dx": "Invasive lobular carcinoma (histiocytoid)", "vs": "Carcinoma cells are keratin and GATA3 positive, often show intracytoplasmic lumina and single-file infiltration, and are S-100 negative without emperipolesis."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: S-100, plasma cell IHC; ISH: kappa/lambda",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E low power: lymphoplasmacytic and histiocytic infiltrate with sclerosis around a muscular vessel, adjacent fat",
+    "H&E medium power: dense lymphoplasmacytic infiltrate admixed with clusters of large pale histiocytes",
+    "H&E high power: large histiocyte with vesicular nucleus engulfing intact inflammatory cells (emperipolesis, arrow)",
+    "H&E high power: pale histiocyte containing multiple intact lymphocytes (emperipolesis, arrow)",
+    "S-100 IHC: strong staining of histiocytes with engulfed cells seen as negative halos (arrows)",
+    "S-100 IHC high power: large positive histiocyte containing several unstained lymphocytes (arrow)",
+    "IHC for plasma cells (likely IgG/IgG4) at low power: numerous positive plasma cells among histiocytes",
+    "Same plasma cell IHC at higher power: strongly positive plasma cells in a background of negative histiocytes",
+    "Kappa ISH: numerous positive plasma cells",
+    "Lambda ISH: fewer but readily identified positive plasma cells, supporting a polytypic population"
+  ]
+}

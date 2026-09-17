@@ -1,0 +1,22 @@
+{
+  "id": "65191",
+  "recognize_zh": "縱膈腫塊切片中上皮細胞與小淋巴球混合，keratin 顯示網狀上皮細胞，CD5 與 TdT 標示大量不成熟胸腺 T 細胞；CD20 雖在大片細胞團呈強膜狀陽性，但著色於黏聚的上皮細胞群而非淋巴球，是胸腺瘤（AB 型）的 CD20 異常表現陷阱。",
+  "features": [
+    "Cellular mediastinal lesion with cohesive clusters/sheets of intermediate-sized oval to spindle cells with fine chromatin, admixed with small lymphocytes",
+    "Keratin highlights a meshwork of epithelial cells throughout the lesion",
+    "CD5 diffusely positive in abundant background small T cells",
+    "TdT shows nuclear positivity in numerous small lymphocytes, consistent with immature thymic T cells",
+    "CD20 shows strong membranous staining in cohesive clusters and cords of epithelial cells, with negative intervening lymphocytes (higher power)"
+  ],
+  "describe_en": "Mediastinal biopsy shows a cellular neoplasm composed of cohesive clusters of intermediate-sized epithelial cells with fine chromatin and thin nuclear membranes, admixed with small lymphocytes lacking atypia. Keratin highlights a network of epithelial cells, and the background lymphocytes are CD5- and TdT-positive immature thymic T cells. CD20 is strongly positive in large cohesive clusters of cells that correspond to the epithelial component, while other B-cell markers (CD19, CD79a, PAX5, OCT2) were negative. Findings are consistent with thymoma, type AB, with aberrant CD20 expression by neoplastic epithelial cells, a potential pitfall for B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Primary mediastinal (thymic) large B-cell lymphoma", "vs": "PMBL consists of large discohesive B cells with sclerosis that are CD20, PAX5 and CD79a positive and keratin negative, whereas these CD20+ cells are cohesive keratin-positive epithelial cells lacking other B markers."},
+    {"dx": "T-lymphoblastic lymphoma", "vs": "T-LBL also has TdT+ T cells but shows sheets of cytologically atypical blasts without a keratin-positive epithelial meshwork."},
+    {"dx": "Thymic carcinoma", "vs": "Thymic carcinoma shows overt cytologic atypia, desmoplasia, and CD5/CD117 positivity in the epithelial cells with few TdT+ immature T cells."},
+    {"dx": "Classic Hodgkin lymphoma, nodular sclerosis", "vs": "cHL shows scattered large Hodgkin/Reed-Sternberg cells that are CD30/CD15 positive in a mixed inflammatory background, not keratin-positive epithelial clusters."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: keratin, CD5, TdT, CD20",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62050",
+  "recognize_zh": "紅色免疫染色低倍下，陽性細胞聚集成彼此相連、形狀不規則的蛇行狀或模糊結節帶，與陰性小淋巴球區交錯分布，並散在環狀陽性結構，顯示 NLPHL 中不典型（serpiginous/interconnected）的結節型態。",
+  "features": [
+    "Positive cells concentrated in ill-defined, interconnected serpiginous nodular bands",
+    "Intervening broad zones of negative small lymphocytes",
+    "Positive cells small to intermediate with membranous red staining; scattered ring-like larger positive profiles",
+    "No sharply circumscribed follicles or mantle zones",
+    "Cytologic detail limited at this magnification; antibody identity not labeled"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen, antibody not specified in the image) of lymph node at low power shows positive cells aggregated in ill-defined, interconnected serpiginous bands and vague nodules, separated by broad zones of negative small lymphocytes. Scattered ring-like positive profiles are present within the positive zones, but individual cytology cannot be assessed at this magnification. No sharply circumscribed follicles with mantle zones are recognized. In a case of nodular lymphocyte predominant Hodgkin lymphoma, this appearance fits a serpiginous/interconnected nodular or extranodular variant pattern; the specific marker and correlation with CD20, CD3, PD-1 and CD21 staining are required for interpretation.",
+  "ddx": [
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC forms discrete, round, enlarged nodules of small B cells amid reactive follicles, not interconnected serpiginous bands with LP cells."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma shows back-to-back rounded follicles of BCL2+ CD10+ cells rather than irregular serpiginous zones."},
+    {"dx": "Classic Hodgkin lymphoma, nodular lymphocyte-rich", "vs": "Nodular LRCHL can mimic this architecture, but its large cells are CD30+/CD15+ HRS cells within expanded mantle zones."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL lacks nodular or serpiginous B-cell compartments and has a purely diffuse T-cell-rich background."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (red chromogen)",
+  "match": "consistent",
+  "high_yield": false
+}

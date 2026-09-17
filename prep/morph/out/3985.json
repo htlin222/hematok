@@ -1,0 +1,22 @@
+{
+  "id": "3985",
+  "recognize_zh": "骨髓抹片中的顆粒（particle）幾乎只剩脂肪空泡與交織的基質、巨噬細胞網絡，看不到造血細胞，背景也只有零星細胞；化療後骨髓這種「空的顆粒」代表造血抑制（aplasia）的階段。",
+  "features": [
+    "Marrow particle composed of a network of stromal cells and macrophages with numerous fat vacuoles",
+    "Virtual absence of hematopoietic precursors within the particle",
+    "Sparse cellularity in the smear background (few scattered cells)",
+    "No abnormal cell clusters or blasts visible at this low power",
+    "Low magnification precludes cytologic detail"
+  ],
+  "describe_en": "Bone marrow aspirate smear at low power shows a marrow particle composed predominantly of adipocytes and stromal/macrophage elements with a delicate reticular network. Hematopoietic precursors are markedly reduced to absent within the particle, and the smear background is paucicellular. No clusters of abnormal cells are identified at this magnification. Findings are consistent with a markedly hypocellular marrow, compatible with post-chemotherapy aplasia in the appropriate clinical context.",
+  "ddx": [
+    {"dx": "Aplastic anemia", "vs": "Aplastic anemia produces identical empty fatty particles; the distinction rests on history of cytotoxic therapy and the expected regeneration afterward."},
+    {"dx": "Hypocellular MDS or AML", "vs": "Hypocellular myeloid neoplasms retain dysplastic or blast populations, which must be excluded on the biopsy and a differential count."},
+    {"dx": "Hemodilute aspirate", "vs": "A hemodilute sample lacks particles, whereas here particles are present but devoid of hematopoiesis, indicating true hypocellularity."},
+    {"dx": "Serous fat atrophy (gelatinous transformation)", "vs": "Gelatinous transformation shows pink amorphous ground substance around atrophic fat cells, often in cachexia or anorexia, rather than a stromal network alone."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

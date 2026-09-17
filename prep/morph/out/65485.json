@@ -1,0 +1,22 @@
+{
+  "id": "65485",
+  "recognize_zh": "多顆大型單核樣細胞聚在一起，核有摺痕或凹陷、染色質細緻如花邊（lacy），部分可見淡色核仁；細胞質量中等、灰藍色，偶有細小空泡，沒有明顯粗顆粒或 Auer rod。這些核摺、細緻染色質的細胞是前單核球（promonocyte），在 AML 中算作芽細胞等同物。",
+  "features": [
+    "Large cells with moderate to abundant grey-blue cytoplasm",
+    "Nuclei round to oval with delicate folds, grooves or indentations",
+    "Finely dispersed lacy chromatin; small nucleoli visible in some cells",
+    "Occasional fine cytoplasmic vacuoles; no coarse granules or Auer rods seen",
+    "Cells cluster together; background red cells show stacking and a few crenated forms"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous large circulating cells with moderate grey-blue cytoplasm and round to folded nuclei containing finely dispersed lacy chromatin and occasional small nucleoli. Fine cytoplasmic vacuoles are occasionally seen, while coarse granules and Auer rods are not identified. The nuclear folding with immature chromatin identifies these cells as promonocytes, which count as blast equivalents. Findings are consistent with acute monocytic leukemia; confirmation with non-specific esterase cytochemistry and flow cytometry (CD14, CD64, CD11b, CD4) is recommended.",
+  "ddx": [
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows mature monocytes with clumped chromatin and <20% blasts plus promonocytes, whereas these cells have fine lacy chromatin and dominate the smear."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes have condensed chromatin, abundant vacuolated cytoplasm and no nucleoli."},
+    {"dx": "Microgranular acute promyelocytic leukemia", "vs": "M3v cells have bilobed 'butterfly' nuclei and are strongly MPO positive, CD34/HLA-DR negative, and may show occasional Auer rods, while monocytic cells are NSE positive."},
+    {"dx": "Blastoid mantle cell lymphoma or other large lymphoid cells", "vs": "Lymphoma cells have higher N:C ratio and scant cytoplasm and express B-cell markers rather than monocytic antigens."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1932",
+  "recognize_zh": "視野下方一顆小型淋巴球，核深染並有細密交錯的溝紋，呈腦迴狀，幾乎看不到胞質；左上角的中性球可作為大小與顆粒胞質的對照，典型小型 Sézary 細胞。",
+  "features": [
+    "Small lymphoid cell about the size of a red cell with a very high N:C ratio",
+    "Nucleus with multiple fine grooves producing a cerebriform (brain-like) pattern",
+    "Dense hyperchromatic chromatin without visible nucleoli",
+    "Scant, barely perceptible cytoplasm",
+    "Normal segmented neutrophil at upper left; red cells include occasional target and stomatocyte-like forms"
+  ],
+  "describe_en": "Peripheral blood smear shows a small lymphoid cell with a very high nuclear-to-cytoplasmic ratio, dense hyperchromatic chromatin, and a finely grooved cerebriform nucleus without visible nucleoli. A normal segmented neutrophil is present for comparison. Red cells show occasional target and stomatocyte-like forms, and platelets are present. Findings are consistent with a small Sezary cell; quantitation by flow cytometry is required for a diagnosis of Sezary syndrome.",
+  "ddx": [
+    {"dx": "Normal small lymphocyte", "vs": "Normal lymphocytes have a round nucleus with smooth contour and at most a single shallow indentation, not multiple fine convoluted grooves."},
+    {"dx": "Chronic lymphocytic leukemia cell", "vs": "CLL cells have round nuclei with coarse clumped soccer-ball chromatin and are CD5/CD23-positive B cells."},
+    {"dx": "Reactive lymphocytosis in erythrodermic dermatitis", "vs": "Benign erythroderma may have occasional cerebriform cells, so diagnosis requires a clonal CD4-positive population with CD7 or CD26 loss."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

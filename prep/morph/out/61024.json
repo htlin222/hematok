@@ -1,0 +1,22 @@
+{
+  "id": "61024",
+  "recognize_zh": "視野中大多數紅血球呈淚滴狀，尾端朝向各個不同方向，部分尾巴細長彎曲；隨機方向的尾端可排除抹片製作假象，支持真正的淚滴細胞（dacrocyte），常見於原發性骨髓纖維化。",
+  "features": [
+    "Numerous dacrocytes with single tapered tails pointing in random directions",
+    "Several cells with long, thin or slightly curved tails",
+    "Admixed ovalocytes and elongated poikilocytes; occasional fragmented/irregular cell at left edge",
+    "Red cells normochromic with preserved central pallor",
+    "No leukocytes, nucleated red cells or platelets identified in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked poikilocytosis with numerous teardrop cells whose tails are oriented in random directions, together with ovalocytes and occasional irregular fragments. Red cells are normochromic with preserved central pallor. No leukocytes or nucleated red cells are present in this field to evaluate for a leukoerythroblastic picture. These findings are consistent with marrow fibrosis or infiltration, such as primary myelofibrosis.",
+  "ddx": [
+    {"dx": "Smear preparation artifact", "vs": "Artifactual teardrops all point in one direction along the spreading axis, whereas these tails are randomly oriented."},
+    {"dx": "Thalassemia", "vs": "Thalassemia smears are dominated by microcytic, hypochromic target cells with only occasional teardrops."},
+    {"dx": "Myelophthisis from metastatic tumor or granulomas", "vs": "Blood morphology overlaps; bone marrow biopsy distinguishes infiltrating tumor/granulomas from MPN megakaryocytic atypia with reticulin fibrosis."},
+    {"dx": "Microangiopathic hemolytic anemia", "vs": "MAHA features schistocytes (helmet cells, triangular fragments) with thrombocytopenia rather than intact teardrop-shaped cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

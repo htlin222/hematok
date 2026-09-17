@@ -1,0 +1,20 @@
+{
+  "id": "62209",
+  "recognize_zh": "兩張流式點圖（panel C）：左圖 CD23 對 FMC7，64.3% 細胞為 CD23+/FMC7−；右圖 CD19 對 CD5，74.8% 細胞落在 CD19+/CD5+ 象限，顯示 CD5 異常共表現的 B 細胞群，符合 CLL 表型。",
+  "features": [
+    "Left dot plot (CD23 PE vs FMC-7 FITC): 64.30% in upper-left quadrant (CD23+/FMC7-), 3.44% CD23+/FMC7+, 0.76% FMC7+ only",
+    "Right dot plot (CD19 PE vs CD5 FITC): discrete cluster of 74.80% in upper-right quadrant (CD19+/CD5+)",
+    "Minor CD19+/CD5- population (20.18%) and small CD5+/CD19- T-cell population (3.24%)",
+    "Tight, homogeneous B-cell cluster with CD5 expression at a level comparable to or slightly below the T cells",
+    "Quadrant gates on gated population P1"
+  ],
+  "describe_en": "This figure shows two flow cytometry dot plots gated on the lymphoid population rather than a morphologic image. The CD19 versus CD5 plot shows a dominant homogeneous population of CD19-positive B cells co-expressing CD5 (74.8%), separate from a small CD5-positive, CD19-negative T-cell population (3.2%). The CD23 versus FMC7 plot shows that most cells are CD23-positive and FMC7-negative (64.3%). This CD5+/CD23+/FMC7-negative B-cell phenotype is consistent with chronic lymphocytic leukemia; demonstration of light-chain restriction would confirm clonality.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma would populate the CD19+/CD5+ quadrant but typically falls in the FMC7-positive, CD23-negative region, with cyclin D1 confirming the diagnosis."},
+    {"dx": "CD5-positive marginal zone lymphoma", "vs": "Rare CD5-positive marginal zone lymphomas are usually CD23-negative and FMC7-positive with bright CD20/surface Ig, and lack a typical CLL score."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

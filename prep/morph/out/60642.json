@@ -1,0 +1,22 @@
+{
+  "id": "60642",
+  "recognize_zh": "數位影像分析（如 CellaVision）的細胞圖庫中，上排為核圓、染色質塊狀的典型小型 CLL 淋巴球，下排則為較大、核形不規則或有切跡、細胞質較多的非典型淋巴球，兩群並存提示非典型 CLL。",
+  "features": [
+    "Digital morphology analyzer gallery of individually cropped peripheral blood lymphocytes",
+    "Upper rows: small mature lymphocytes with round nuclei, condensed clumped chromatin and scant cytoplasm (typical CLL cells)",
+    "Lower rows: larger lymphoid cells with irregular, angulated, notched or cleaved nuclei",
+    "Atypical cells have coarser but less condensed chromatin and a moderate rim of pale blue cytoplasm",
+    "No obvious prominent nucleoli visible at this resolution"
+  ],
+  "describe_en": "Digital image gallery of the peripheral blood shows two populations of lymphoid cells. One consists of small mature lymphocytes with round nuclei, clumped chromatin and scant cytoplasm, while the other comprises larger cells with irregular, cleaved or angulated nuclei and more abundant cytoplasm. The cropped images limit assessment of smudge cells and overall cell counts. Findings are suggestive of atypical chronic lymphocytic leukemia with cleaved/atypical lymphocytes; flow cytometry (CD5, CD23, CD200, FMC7, light-chain intensity) and cyclin D1/SOX11 or t(11;14) testing are needed to exclude mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells also show notched nuclei but are CD23 negative/CD200 dim, cyclin D1 and SOX11 positive with t(11;14)."},
+    {"dx": "Follicular lymphoma in leukemic phase", "vs": "FL buttock cells have deep narrow clefts with CD10+ and BCL2 t(14;18), whereas CLL is CD5+/CD23+ and CD10 negative."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells have polar villous cytoplasmic projections and are typically CD5 and CD23 negative."},
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform convoluted nuclei and a CD4+ T-cell phenotype with loss of CD7/CD26."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (digital morphology analyzer images)",
+  "match": "consistent",
+  "high_yield": false
+}

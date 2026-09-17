@@ -1,0 +1,20 @@
+{
+  "id": "62478",
+  "recognize_zh": "CD10 染色下，擴大的淋巴結節整體呈陰性，只有結節間紅髓內散在的陽性細胞（多為顆粒球等非淋巴細胞），沒有 CD10 陽性的濾泡中心，排除濾泡性淋巴瘤，支持脾邊緣區淋巴瘤。",
+  "features": [
+    "Large lymphoid nodules entirely CD10 negative",
+    "No CD10-positive germinal center or follicle center cell population",
+    "Scattered CD10-positive cells confined to internodular red pulp/cords, likely neutrophils or stromal cells",
+    "Low-power pattern of expanded nodules separated by red pulp"
+  ],
+  "describe_en": "CD10 immunohistochemical stain on spleen at low power shows expanded lymphoid nodules that are uniformly negative, with no CD10-positive germinal centers. Scattered positive cells are restricted to the internodular red pulp and most likely represent neutrophils or stromal elements, serving as an internal control. Lack of CD10 expression by the nodular B cells argues against follicular lymphoma and Burkitt lymphoma and supports splenic marginal zone lymphoma in context.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma nodules would be CD10 positive, often with interfollicular spillover of CD10-positive cells."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL can be CD10 positive in a minority of cases but diffusely infiltrates red pulp rather than forming white pulp nodules."},
+    {"dx": "Diffuse large B-cell lymphoma, GCB type", "vs": "GCB-type DLBCL forms sheets of large CD10-positive cells rather than CD10-negative nodules of small lymphocytes."}
+  ],
+  "specimen": "spleen",
+  "stain": "IHC: CD10",
+  "match": "consistent",
+  "high_yield": false
+}

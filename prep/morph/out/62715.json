@@ -1,0 +1,21 @@
+{
+  "id": "62715",
+  "recognize_zh": "這是流式 CD45 對側向散射（SS）圖：絕大部分事件落在 CD45 弱陽性、低 SS 的「原始細胞區」（Blasts 93.69%），正常顆粒球（0.93%）、單核球（0.06%）與淋巴球（2.13%）幾乎被取代，代表檢體被原始細胞大量浸潤。",
+  "features": [
+    "CD45 versus side scatter plot of live events",
+    "Dominant population with dim CD45 and low side scatter in the blast gate, 93.69% of live events",
+    "Markedly reduced granulocytes (0.93%) in the high side scatter region",
+    "Near absence of monocytes (0.06%) and few lymphocytes (2.13%) with bright CD45",
+    "Blast cluster shows a continuous tail toward brighter CD45 and slightly higher side scatter"
+  ],
+  "describe_en": "Flow cytometric CD45 versus side scatter analysis of live events shows a dominant population with dim CD45 and low side scatter occupying the blast gate, accounting for 93.69% of events. Normal populations are markedly reduced, with granulocytes 0.93%, monocytes 0.06% and lymphocytes 2.13%. This pattern indicates near-complete replacement by blasts but does not define lineage, which requires the subsequent B-cell and myeloid marker analysis. In context, the findings support acute leukemia, subsequently characterized as mixed phenotype acute leukemia, B/myeloid.",
+  "ddx": [
+    {"dx": "Hematogone (normal B-precursor) expansion", "vs": "Hematogones occupy a similar CD45-dim/low SS region but show a continuous maturation spectrum (CD34/CD10/CD20/CD45) without a discrete aberrant population and rarely exceed a minority of events."},
+    {"dx": "Mature lymphoid neoplasm (e.g., CLL)", "vs": "Neoplastic mature lymphocytes are CD45 bright in the lymphocyte gate rather than CD45 dim in the blast gate."},
+    {"dx": "Plasma cell or non-hematopoietic tumor", "vs": "These cells are typically CD45 negative, falling left of the blast gate, and lack blast-associated markers."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry: CD45-KO vs SS",
+  "match": "non-morphologic",
+  "high_yield": false
+}

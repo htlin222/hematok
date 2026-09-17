@@ -1,0 +1,22 @@
+{
+  "id": "1211",
+  "recognize_zh": "骨髓切片中細胞核卵圓或腎形、彼此之間被淡染透明胞質隔開、間距均勻（像煎蛋 fried-egg 樣），並在浸潤區間夾雜外滲紅血球湖；這種間隔分明的間質性浸潤是毛狀細胞白血病（HCL）在切片上的典型表現。",
+  "features": [
+    "Diffuse interstitial infiltrate of small to medium mononuclear cells with evenly spaced nuclei",
+    "Oval, reniform or indented nuclei with bland, finely stippled chromatin and inconspicuous nucleoli",
+    "Abundant pale to clear cytoplasm creating a fried-egg appearance with distinct cell separation",
+    "Extravasated red cells forming small blood lakes between cells",
+    "Residual fat cells; few normal hematopoietic elements in the infiltrated area"
+  ],
+  "describe_en": "Bone marrow core biopsy shows an interstitial to diffuse infiltrate of small to medium mononuclear cells with oval, reniform or indented nuclei, bland chromatin, inconspicuous nucleoli and abundant pale cytoplasm that keeps the nuclei widely and evenly spaced, imparting a fried-egg appearance. Extravasated red cells form small blood lakes within the infiltrate, and residual normal hematopoiesis is reduced. Mitotic activity is not conspicuous. Findings are consistent with involvement by hairy cell leukemia, which should be confirmed by immunohistochemistry for CD20, annexin A1, cyclin D1 and BRAF V600E, with reticulin stain to document the typical fibrosis responsible for a dry tap.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis", "vs": "Mast cell infiltrates are paratrabecular or perivascular aggregates of spindled cells with fibrosis and eosinophils, and are tryptase/CD117 positive rather than CD20/annexin A1 positive."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL typically forms intrasinusoidal and nodular infiltrates of cells with less abundant cytoplasm and is annexin A1 and BRAF V600E negative."},
+    {"dx": "Hypocellular MDS or aplastic anemia", "vs": "These lack the monotonous evenly spaced lymphoid infiltrate, and hematopoietic cells are simply reduced with CD20-negative interstitium."},
+    {"dx": "Monocytic leukemia infiltrate", "vs": "Monocytic cells also have reniform nuclei but show higher-grade chromatin, mitoses and lysozyme/CD68/CD163 positivity instead of B-cell markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

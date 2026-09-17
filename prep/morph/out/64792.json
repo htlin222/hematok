@@ -1,0 +1,22 @@
+{
+  "id": "64792",
+  "recognize_zh": "骨髓抽吸見中大型原始細胞，切片呈原始細胞片狀增生，免疫染色 CD34 陽性、MPO 與 CD3 各有部分細胞陽性；流式顯示同一群原始細胞（紅色）同時表現 MPO 與強度接近正常 T 細胞的細胞質 CD3，CD19/cCD79a 陰性，符合 T/骨髓混合表型急性白血病（MPAL）。",
+  "features": [
+    "Aspirate: medium to large blasts with high N:C ratio, fine chromatin and scant to moderate basophilic cytoplasm among hemodiluted marrow",
+    "Trephine H&E: hypercellular marrow with sheets of immature blasts",
+    "IHC: CD34 membranous positivity in blasts; MPO positive in a subset; CD3 positive in a subset",
+    "Flow: single blast population (red) co-expressing MPO and bright cytoplasmic CD3 (intensity similar to residual T cells) with surface CD3 negative",
+    "Flow: blasts negative for CD19 and cytoplasmic CD79a, excluding B-lineage"
+  ],
+  "describe_en": "Bone marrow aspirate shows increased medium to large blasts with high N:C ratio and fine chromatin, and the trephine biopsy is hypercellular with sheets of blasts. Immunohistochemistry shows the blasts to be CD34-positive, with subsets positive for MPO and CD3. Flow cytometry demonstrates a single blast population co-expressing MPO and cytoplasmic CD3 at an intensity comparable to normal T cells, with surface CD3, CD19 and cytoplasmic CD79a negative. These findings fulfill criteria for mixed-phenotype acute leukemia, T/myeloid; in this case NGS identified biallelic CEBPA mutations.",
+  "ddx": [
+    {"dx": "AML with aberrant CD7 or weak cCD3", "vs": "AML may express CD7 or dim cCD3, but T-lineage assignment in MPAL requires cCD3 at an intensity approaching normal T cells, as seen here."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia (ETP-ALL)", "vs": "ETP-ALL expresses stem/myeloid markers (CD34, CD117, CD13/33) but is MPO-negative, whereas these blasts are MPO-positive."},
+    {"dx": "AML with biallelic/bZIP CEBPA mutation", "vs": "CEBPA-mutated AML lacks strong cCD3 expression; when T-lineage criteria are met the case is classified by immunophenotype as MPAL T/myeloid."},
+    {"dx": "B/myeloid MPAL", "vs": "B/myeloid MPAL requires strong CD19 with CD79a/CD22/CD10 or PAX5, whereas these blasts are CD19 and cCD79a negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, IHC: CD34, MPO, CD3; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

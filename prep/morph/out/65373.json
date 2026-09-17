@@ -1,0 +1,21 @@
+{
+  "id": "65373",
+  "recognize_zh": "周邊血液抹片中兩顆中型淋巴樣細胞核圓、染色質均勻，細胞質淡藍灰且周緣有細毛狀突起（hairy projections），是毛細胞白血病（hairy cell leukemia）的特徵。",
+  "features": [
+    "Two medium-sized lymphoid cells, about 1.5 to 2 times a small lymphocyte",
+    "Round to oval nuclei with homogeneous, moderately condensed chromatin; no distinct nucleoli",
+    "Moderate pale blue-gray cytoplasm",
+    "Fine, hair-like circumferential cytoplasmic projections",
+    "Thick-area background with closely packed red cells; low magnification limits nuclear detail"
+  ],
+  "describe_en": "Peripheral blood smear, examined at moderate magnification in a relatively thick area, shows two medium-sized lymphoid cells with round nuclei, homogeneous chromatin and moderate pale blue-gray cytoplasm bearing fine circumferential hair-like projections. Nucleoli are not conspicuous. Nuclear detail is limited by magnification. Findings are suggestive of hairy cell leukemia; flow cytometry for CD11c, CD25, CD103 and CD123 and BRAF V600E testing are recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "Cells have a prominent nucleolus, often with leukocytosis and no monocytopenia, and are CD25 and ANXA1 negative and BRAF V600E wild type."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Villous lymphocytes have short polar villi and more condensed chromatin, and lack the CD103/CD25/CD123 hairy cell phenotype."},
+    {"dx": "Reactive lymphocytes or drying artifact", "vs": "Artifactual cytoplasmic projections occur in thick areas and on normal lymphocytes, so confirmation in thin areas and by flow cytometry is needed."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

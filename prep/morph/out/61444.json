@@ -1,0 +1,20 @@
+{
+  "id": "61444",
+  "recognize_zh": "BCR/ABL1 雙色雙融合 FISH：左上間期細胞見 1 紅 1 綠 2 融合（2F1R1G）；中期分裂相中標示正常 Chr 9（紅）、Chr 22（綠），以及 der(22)（Ph）與 der(9) 上各一個融合訊號，確認 t(9;22) 在費城染色體上。",
+  "features": [
+    "Interphase nucleus (upper left) with two yellow fusion signals, one red, and one green signal (2F1R1G)",
+    "Adjacent metaphase with labeled chromosomes: normal chromosome 9 carrying a single red (ABL1) signal and normal chromosome 22 carrying a single green (BCR) signal",
+    "Fusion signals localized to der(22) (Philadelphia chromosome) and der(9)",
+    "DAPI counterstain (blue) of interphase nucleus and metaphase chromosomes"
+  ],
+  "describe_en": "Dual-color dual-fusion BCR/ABL1 FISH performed on interphase and metaphase cells shows an interphase nucleus with two fusion signals, one red, and one green signal (2F1R1G). In the accompanying metaphase, the fusion signals localize to the der(22) Philadelphia chromosome and the reciprocal der(9), while single-color signals mark the normal chromosomes 9 and 22. Metaphase localization confirms a classic reciprocal t(9;22)(q34;q11.2). Findings are consistent with BCR::ABL1-positive chronic myeloid leukemia in chronic phase in this clinical context; quantitative RT-PCR is recommended for baseline transcript type and monitoring.",
+  "ddx": [
+    {"dx": "der(9) deletion", "vs": "Deletion of sequences flanking the ABL1 breakpoint on der(9) yields a single fusion pattern (1F1R1G) rather than 2F1R1G."},
+    {"dx": "Variant/complex t(9;22) or insertion", "vs": "Three-way translocations and insertions give atypical patterns, and metaphase FISH shows fusion on a chromosome other than 22 or 9."},
+    {"dx": "Extra Philadelphia chromosome (clonal evolution)", "vs": "An additional der(22) produces three fusion signals (3F1R1G), a feature of disease progression."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: BCR/ABL1 DC-DF probe, DAPI",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13325",
+  "recognize_zh": "右側可見一顆細胞質豐富、帶有粗大紫紅色顆粒（azurophilic granules）的大型淋巴球，搭配圖說中慢性貧血的病人，提示 T 細胞大顆粒淋巴球白血病（T-LGL）；但此視野只有一顆顆粒淋巴球，需以流式與 TCR 重排確認。",
+  "features": [
+    "One large lymphoid cell with abundant pale-grey cytoplasm containing scattered coarse azurophilic granules",
+    "Eccentric, round-to-oval dense nucleus with condensed chromatin in the granular cell",
+    "Two small mature-appearing lymphocytes with scant cytoplasm and no visible granules",
+    "Red cells largely normocytic with central pallor; mild anisocytosis",
+    "Fine dark punctate dots overlying red cells and background, most consistent with stain precipitate artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic red cells with mild anisocytosis and no significant polychromasia. A large lymphocyte with abundant cytoplasm containing coarse azurophilic granules is present, alongside two small mature lymphocytes without visible granules. Fine dark dots overlie many red cells and the background, favored to represent stain precipitate rather than basophilic stippling. In a patient with chronic anemia, large granular lymphocytes raise the possibility of T-cell large granular lymphocytic leukemia with associated pure red cell aplasia; a single field cannot establish lymphocytosis, and flow cytometry (CD3+, CD8+, CD57+, CD16+) with TCR gene rearrangement studies is required.",
+  "ddx": [
+    {"dx": "Reactive large granular lymphocytosis", "vs": "Reactive LGL expansions are polyclonal and transient, so they are separated from T-LGL leukemia by TCR clonality and persistence (>6 months), not morphology."},
+    {"dx": "Chronic NK-cell lymphoproliferative disorder", "vs": "NK-LPD granular lymphocytes look identical but are surface CD3-negative, CD56+ and lack clonal TCR rearrangement."},
+    {"dx": "Basophil", "vs": "Basophils have dark granules that obscure a lobulated nucleus, whereas this cell has sparse granules in abundant pale cytoplasm around a single round nucleus."},
+    {"dx": "Basophilic stippling (lead poisoning, thalassemia)", "vs": "True stippling is confined within red cells and often with polychromasia, whereas the dots here also lie in the background, favoring stain precipitate."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61832",
+  "recognize_zh": "非黏合性的大型多形細胞成片生長，細胞質豐富嗜伊紅、部分呈空泡狀，核偏心、形狀不規則，並散見奇異的多核巨細胞，夾雜發炎細胞；這種大型組織球樣惡性細胞的組合，經 CD68/CD163/PU.1 證實後即為組織球肉瘤。",
+  "features": [
+    "Large discohesive neoplastic cells with abundant eosinophilic to focally vacuolated cytoplasm",
+    "Marked nuclear pleomorphism with eccentric, oval to irregular and reniform nuclei",
+    "Scattered bizarre multinucleated tumor giant cells",
+    "Vesicular chromatin with visible nucleoli in some cells",
+    "Admixed small lymphocytes and inflammatory cells in a loose background"
+  ],
+  "describe_en": "Section shows a diffuse proliferation of large discohesive cells with abundant eosinophilic, focally vacuolated cytoplasm and markedly pleomorphic, eccentric oval to irregular nuclei with vesicular chromatin and occasional nucleoli. Scattered bizarre multinucleated tumor giant cells are present, together with admixed small lymphocytes and other inflammatory cells. The morphology is that of a high-grade neoplasm with histiocytoid features and requires immunohistochemistry to exclude lymphoma, carcinoma, and melanoma. With CD68, CD163, and PU.1 expression and absence of other lineage markers, findings are consistent with histiocytic sarcoma.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL hallmark cells have horseshoe nuclei with a paranuclear Golgi zone, often sinusoidal growth, and are CD30+ with ALK or T-cell markers rather than CD163/PU.1."},
+    {"dx": "Poorly differentiated carcinoma or melanoma", "vs": "Carcinoma and melanoma form more cohesive groups and express keratins or SOX10/S100/HMB45, lacking CD163."},
+    {"dx": "Langerhans cell sarcoma", "vs": "LC sarcoma retains grooved nuclei and CD1a/Langerin positivity."},
+    {"dx": "Pleomorphic sarcoma (undifferentiated)", "vs": "Undifferentiated pleomorphic sarcoma may contain CD68+ cells but lacks diffuse CD163 and PU.1 expression and has a more spindled fascicular component."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63969",
+  "recognize_zh": "骨髓切片中有成巢、成腺泡狀排列的大型外來上皮細胞，細胞質豐富淡染微泡狀、核圓形空泡狀並有明顯核仁，與旁邊小而深染的紅系及顆粒球前驅細胞截然不同，符合轉移性攝護腺腺癌。",
+  "features": [
+    "Nests and vague acinar/glandular clusters of large cohesive epithelial cells foreign to marrow",
+    "Round to oval vesicular nuclei with prominent single nucleoli and relatively uniform size",
+    "Abundant pale, finely vacuolated to amphophilic cytoplasm with distinct cell borders",
+    "Adjacent residual trilineage hematopoiesis: erythroid precursors with dark round nuclei, eosinophilic myelocytes and neutrophils",
+    "Scattered hemosiderin-laden macrophages and fat spaces in the background"
+  ],
+  "describe_en": "H&E-stained bone marrow biopsy section shows infiltration by nests and small gland-like clusters of large, cohesive epithelial cells that are foreign to the marrow. The tumor cells have round vesicular nuclei with prominent nucleoli and abundant pale, finely vacuolated cytoplasm, contrasting with adjacent residual hematopoiesis that includes erythroid precursors, eosinophilic myelocytes and neutrophils. Scattered hemosiderin-laden macrophages are present. Findings are consistent with metastatic adenocarcinoma, and in this clinical setting with metastatic prostatic adenocarcinoma, confirmable by NKX3.1, PSA or PSMA immunohistochemistry.",
+  "ddx": [
+    {"dx": "Megakaryocytes or osteoblast clusters", "vs": "Megakaryocytes are single cells with lobulated hyperchromatic nuclei and osteoblasts line bone with eccentric nuclei and a perinuclear hof, unlike cohesive nests with prominent nucleoli that are keratin positive."},
+    {"dx": "Metastatic adenocarcinoma from another primary (e.g. lung, breast, GI)", "vs": "Morphology overlaps, so an immunopanel (NKX3.1/PSA for prostate versus TTF-1, GATA3 or CDX2) is needed to assign the primary."},
+    {"dx": "Histiocytic aggregates (e.g. Gaucher or storage cells)", "vs": "Histiocytes have small eccentric nuclei without prominent nucleoli and are CD68/CD163 positive and keratin negative."},
+    {"dx": "Plasma cell myeloma with plasmablastic morphology", "vs": "Plasmablasts are discohesive with eccentric nuclei and are CD138/MUM1 positive with light chain restriction rather than forming glands."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

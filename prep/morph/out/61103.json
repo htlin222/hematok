@@ -1,0 +1,22 @@
+{
+  "id": "61103",
+  "recognize_zh": "同一張血片中並列正常分葉的嗜中性球與細胞縮小、核濃縮成數個圓形深染碎塊（核碎裂，karyorrhexis）的嗜中性球，並可見一個僅剩圓形核碎片的小型凋亡小體，即嗜中性球凋亡的各階段。",
+  "features": [
+    "Shrunken neutrophils with dense, homogeneously condensed (pyknotic) nuclear chromatin and more eosinophilic cytoplasm (panel A)",
+    "Nuclear fragmentation into multiple round, smooth, darkly staining spheres (karyorrhexis) within intact cytoplasm (panels B, C)",
+    "Small apoptotic body composed of a few dense nuclear fragments with scant cytoplasm (panel D)",
+    "Normal segmented neutrophils in the same fields for comparison",
+    "Background red cells with echinocytes (crenated cells), consistent with smear/storage artifact contribution"
+  ],
+  "describe_en": "Peripheral blood smear shows, alongside morphologically normal segmented neutrophils, occasional neutrophils at progressive stages of apoptosis: cell shrinkage with pyknotic chromatin, fragmentation of the nucleus into multiple round dense spheres, and a small apoptotic body with residual nuclear fragments. The fragments are smooth and round rather than lobulated, distinguishing them from hypersegmentation. Echinocytes are present in the background. In the clinical context of MDS, findings are consistent with apoptotic neutrophils in peripheral blood; storage artifact should be excluded by reviewing a freshly prepared smear.",
+  "ddx": [
+    {"dx": "Hypersegmented neutrophil (megaloblastic change)", "vs": "Hypersegmented nuclei retain connected lobes with normal chromatin texture, whereas apoptotic nuclei break into separate, round, homogeneously dense spheres in a shrunken cell."},
+    {"dx": "Storage (EDTA) artifact", "vs": "Storage artifact affects many leukocytes diffusely with nuclear lobe rounding and vacuolation in a sample older than several hours; a fresh smear resolves it."},
+    {"dx": "Nucleated red blood cell with Howell-Jolly bodies", "vs": "An nRBC has hemoglobinized cytoplasm and a single dense nucleus, lacking the granular neutrophil cytoplasm and multiple nuclear spheres."},
+    {"dx": "Pelger-Huet (pseudo-Pelger) neutrophil", "vs": "Pseudo-Pelger cells have bilobed or round nuclei with coarse clumped chromatin but no nuclear fragmentation or cell shrinkage."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

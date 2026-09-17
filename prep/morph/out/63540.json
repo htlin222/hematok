@@ -1,0 +1,22 @@
+{
+  "id": "63540",
+  "recognize_zh": "骨髓抹片中有數顆胞質呈天藍色、顆粒狀且邊界不規則的組織球，核小而偏心，這種藍綠色胞質就是海藍組織球（sea-blue histiocyte），是細胞轉換增加時脂質堆積的表現。",
+  "features": [
+    "At least three histiocytes with abundant sky-blue to blue-green, finely granular cytoplasm and ill-defined borders",
+    "Small eccentric round to oval nuclei within the sea-blue histiocytes",
+    "Surrounding hematopoietic cells include immature myeloid cells with fine chromatin, lymphocytes and erythroid precursors",
+    "Smudged/streaked nuclear material (crushed cells) in the particle",
+    "Blood-rich background with fat vacuoles and scattered platelets"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows several histiocytes with abundant granular sky-blue to blue-green cytoplasm and small eccentric nuclei, consistent with sea-blue histiocytes, among a mixed population of myeloid precursors, lymphocytes and erythroid cells with admixed fat vacuoles and smudged nuclear material. The background cells include immature forms, but blast enumeration requires a formal differential count. Sea-blue histiocytes represent accumulation of ceroid/phospholipid from increased cell turnover and are nonspecific. In the clinical context of prior cytotoxic therapy, findings are consistent with secondary sea-blue histiocytosis associated with a therapy-related myeloid neoplasm.",
+  "ddx": [
+    {"dx": "Gaucher cells", "vs": "Gaucher cells have pale grey-blue cytoplasm with a wrinkled tissue paper or crumpled silk texture rather than blue-green granules."},
+    {"dx": "Pseudo-Gaucher cells in CML or myeloma", "vs": "Pseudo-Gaucher cells mimic Gaucher cells with fibrillary cytoplasm, whereas sea-blue histiocytes have coarse blue granules; both are secondary to high turnover."},
+    {"dx": "Niemann-Pick cells (foamy histiocytes)", "vs": "Niemann-Pick cells show foamy, vacuolated, pale cytoplasm with lipid droplets, although sea-blue histiocytes may coexist in type B disease."},
+    {"dx": "Hemosiderin-laden macrophages", "vs": "Hemosiderin appears as coarse blue-black or golden-brown granules that are Prussian blue positive, whereas sea-blue pigment is diffuse blue-green on Romanowsky stain."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

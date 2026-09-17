@@ -1,0 +1,21 @@
+{
+  "id": "4089",
+  "recognize_zh": "組織中充滿大型、多形性的腫瘤細胞，核呈泡狀、核仁明顯，並可見怪異的大核與核分裂像，呈現間變性（anaplastic）外觀；需以 CD20/PAX5 與 CD30、ALK 免疫染色才能與 ALCL 區分。",
+  "features": [
+    "Sheets of large pleomorphic cells, many 3-5 times a small lymphocyte",
+    "Vesicular nuclei with irregular contours and prominent nucleoli",
+    "Scattered bizarre, multilobated or giant nuclei",
+    "Moderate to abundant amphophilic cytoplasm with discohesive growth",
+    "Frequent mitotic figures and apoptotic bodies"
+  ],
+  "describe_en": "Sections show a diffuse, discohesive proliferation of large pleomorphic cells with vesicular, irregular nuclei, prominent nucleoli and moderate amphophilic cytoplasm. Bizarre and multilobated nuclei are scattered, and mitotic figures and apoptotic debris are frequent. The appearance is that of an anaplastic large-cell neoplasm; with B-cell marker expression (CD20/PAX5) this is consistent with diffuse large B-cell lymphoma, anaplastic variant.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma, ALK-negative", "vs": "ALCL shows hallmark cells with strong uniform CD30 and T-cell/cytotoxic markers but lacks CD20/PAX5, whereas anaplastic DLBCL is a B-cell lymphoma."},
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-depleted", "vs": "cHL has scattered Hodgkin/Reed-Sternberg cells in a reactive background, CD15+ with weak PAX5 and absent CD45/CD20, rather than sheets of B cells."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Non-hematolymphoid tumors are CD45-negative and express keratins or S100/SOX10."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

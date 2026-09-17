@@ -1,0 +1,23 @@
+{
+  "id": "63148",
+  "recognize_zh": "低倍下淋巴組織內大量擴大的濾泡（A，紅圈），高倍濾泡內由中到大型細胞取代正常生發中心結構（B、C）；免疫染色中濾泡內細胞呈強核陽性（E，符合 MUM1/IRF4）且增生指數高（H），FISH 顯示分離訊號（I，紅綠分開），是 IRF4 重排大 B 細胞淋巴瘤早期的濾泡型分布。",
+  "features": [
+    "A: low-power section of lymphoid tissue with numerous closely packed, expanded follicle-like nodules (red circle marks area magnified)",
+    "B-C: follicles populated by medium to large cells with vesicular nuclei, lacking polarization and tingible body macrophages, rimmed by small lymphocytes",
+    "D: immunostain negative in follicles with positivity in surrounding mantle/interfollicular cells",
+    "E: strong diffuse nuclear positivity within follicular cells (pattern consistent with MUM1/IRF4)",
+    "F-G: additional unlabeled immunostains, one largely negative and one with cytoplasmic/membranous positivity in follicles; H: high nuclear proliferation index within follicles",
+    "I: interphase FISH with separated red and green signals (break-apart) alongside fused yellow signals, indicating a gene rearrangement"
+  ],
+  "describe_en": "Composite figure. Low-power H&E (A) shows lymphoid tissue with numerous expanded follicular nodules, and higher power (B-C) shows follicles effaced by medium to large atypical lymphoid cells with vesicular chromatin, lacking normal germinal center polarity and tingible body macrophages. Immunostains (D-H; antibody labels not shown on the figure) highlight strong nuclear positivity within the follicular population in a pattern consistent with MUM1/IRF4, with a high proliferation index confined to the nodules, while the surrounding compartment is highlighted by a separate marker. Break-apart FISH (I) shows split red and green signals indicating rearrangement. Findings are consistent with an early follicular (intrafollicular) pattern of large B-cell lymphoma with IRF4 rearrangement; exact stain identities require the original legend.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers show polarization, tingible body macrophages and are MUM1 weak/negative in most centroblasts with BCL2-negative germinal centers and no IRF4 rearrangement."},
+    {"dx": "Pediatric-type follicular lymphoma", "vs": "PTFL shows expanded serpiginous follicles of blastoid cells but is MUM1 negative and lacks IRF4 rearrangement."},
+    {"dx": "Follicular lymphoma grade 3B / FL with BCL2 rearrangement", "vs": "Conventional FL is usually BCL2 positive with t(14;18) and centrocytic background, whereas IRF4-rearranged LBCL is strong MUM1 positive and typically lacks BCL2 rearrangement."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL NOS shows diffuse sheets without the site/age profile and IRF4 break-apart; FISH for IRF4 is the discriminator."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (unlabeled, incl. MUM1-pattern); FISH: IRF4",
+  "match": "consistent",
+  "high_yield": false
+}

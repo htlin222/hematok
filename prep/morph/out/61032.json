@@ -1,0 +1,21 @@
+{
+  "id": "61032",
+  "recognize_zh": "流式散點圖中一群棕色的 T 細胞同時表現 CD5 與 CD10（空心箭頭），CD19 陰性；正常 T 細胞不表現 CD10，因此這群 CD10 陽性 T 細胞代表 TFH 表型的異常族群，支持 AITL；另有一小群綠色 CD19 陽性 B 細胞（實心箭頭）。",
+  "features": [
+    "Lymphocyte-gated flow cytometry dot plots",
+    "Distinct brown population co-expressing CD5 and CD10 (open arrow), separate from CD10-negative CD5+ T cells",
+    "Brown population is CD19-negative, confirming T-cell lineage of the CD10+ cells",
+    "Small green CD19-positive B-cell population (solid arrow) displayed on kappa and lambda plots",
+    "Kappa vs lambda plots show the B cells with low light-chain expression; resolution of restriction is limited in this figure"
+  ],
+  "describe_en": "Flow cytometric analysis of the lymphocyte gate identifies an aberrant CD5-positive, CD10-positive, CD19-negative T-cell population (brown), distinct from the normal CD10-negative T cells. A separate small CD19-positive B-cell population (green) is highlighted on the light-chain plots, reported as clonal; the degree of light-chain restriction is difficult to judge at this figure's resolution. CD10 co-expression on T cells indicates a T follicular helper phenotype and is consistent with angioimmunoblastic T-cell lymphoma, with a concurrent small B-cell clone, a known association in AITL.",
+  "ddx": [
+    {"dx": "Reactive TFH cells in follicular hyperplasia", "vs": "Reactive TFH cells are few and retain bright surface CD3 and normal pan-T antigen intensity, without an expanded discrete CD10+ T-cell cluster."},
+    {"dx": "Follicular lymphoma or other CD10+ B-cell lymphoma", "vs": "The CD10+ population here is CD19-negative and CD5-positive, i.e., T-lineage, whereas FL cells are CD19+/CD20+."},
+    {"dx": "T-lymphoblastic lymphoma", "vs": "T-LBL can be CD10+ but expresses TdT/CD34/CD1a and often lacks surface CD3."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

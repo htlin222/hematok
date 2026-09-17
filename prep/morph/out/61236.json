@@ -1,0 +1,30 @@
+{
+ "id": "61236",
+ "recognize_zh": "血液抹片中可見一顆核分成六葉以上的過度分葉中性球（hypersegmented neutrophil），背景紅血球有明顯大小不一與異形（箭頭處淚滴形、碎片狀細胞），合起來提示維生素 B12 缺乏的巨母紅血球性貧血。",
+ "features": [
+  "Hypersegmented neutrophil with at least six nuclear lobes",
+  "Marked anisopoikilocytosis with numerous teardrop cells (dacrocytes) and irregular fragmented forms (arrows)",
+  "Scattered oval macrocytes interspersed with smaller poikilocytes",
+  "Red cells with preserved central pallor; no nucleated red cells in the field",
+  "Occasional small platelets; overall low red cell density"
+ ],
+ "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with numerous teardrop cells and irregular fragmented or pointed red cells (arrows), admixed with oval macrocytes. A hypersegmented neutrophil with six or more nuclear lobes is present. Red cell density is low, consistent with anemia. Findings are consistent with megaloblastic anemia, such as vitamin B12 deficiency due to pernicious anemia; confirmatory tests include serum B12/folate, methylmalonic acid, homocysteine and anti-intrinsic factor antibodies.",
+ "ddx": [
+  {
+   "dx": "Primary myelofibrosis",
+   "vs": "Teardrop cells are accompanied by a leukoerythroblastic picture with nucleated red cells and immature myeloid cells, without hypersegmented neutrophils or oval macrocytes."
+  },
+  {
+   "dx": "Myelodysplastic neoplasm",
+   "vs": "Macrocytosis with dysplasia shows hyposegmented (pseudo-Pelger) and hypogranular neutrophils rather than hypersegmentation, with normal B12/folate."
+  },
+  {
+   "dx": "Thrombotic microangiopathy",
+   "vs": "Schistocytes (helmet cells, triangles) predominate with thrombocytopenia, and neutrophils are not hypersegmented."
+  }
+ ],
+ "specimen": "PB",
+ "stain": "Wright-Giemsa",
+ "match": "consistent",
+ "high_yield": true
+}

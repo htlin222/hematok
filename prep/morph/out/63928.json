@@ -1,0 +1,22 @@
+{
+  "id": "63928",
+  "recognize_zh": "箭頭所指的紅血球一側有一道深凹的裂口，把細胞分成兩個突出的「鉗口」，形如蘑菇或鉗子（pincer / mushroom-shaped cell）；周圍其他紅血球大小與形狀大致正常，因此這是一個孤立但典型的形狀異常。",
+  "features": [
+    "Single red cell (arrow) with a deep notch-like cleft on one side producing two knob-like projections (pincer/mushroom shape)",
+    "Remaining red cells largely normocytic and round, many with reduced central pallor",
+    "Mild anisocytosis without prominent schistocytes, spherocyte clusters or target cells",
+    "No red cell inclusions, parasites or nucleated red cells in this field",
+    "Leukocytes and platelets are not represented in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a background of mostly normocytic, round red cells with mild anisocytosis. A single red cell (arrow) shows a deep one-sided cleft producing two small projections, giving a pincer-like or mushroom-shaped appearance. Schistocytes, clusters of spherocytes, target cells and red cell inclusions are not evident in this field. This is an isolated pincer (mushroom-shaped) red cell; the finding is nonspecific and should be interpreted with the clinical context, here SARS-CoV-2 infection, and screened for hemolysis or a membrane disorder if frequent.",
+  "ddx": [
+    {"dx": "Schistocyte (helmet or keratocyte fragment)", "vs": "Schistocytes are smaller fragments with sharp angular edges or horn-like points, whereas the pincer cell is a near-full-size cell with a single rounded central notch."},
+    {"dx": "Bite cell (degmacyte) in oxidative hemolysis", "vs": "Bite cells have a semicircular peripheral bite with blister cells and Heinz bodies, not a narrow cleft between two knobs."},
+    {"dx": "Stomatocyte or knizocyte", "vs": "Stomatocytes have a slit-like central pallor and knizocytes a central bar, both lacking a cleft that reaches the cell margin."},
+    {"dx": "Smear preparation artifact", "vs": "Artifacts involve many cells in thick areas or show overlap, whereas a true pincer cell is isolated in a well-spread monolayer."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

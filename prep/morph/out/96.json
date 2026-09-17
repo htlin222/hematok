@@ -1,0 +1,47 @@
+{
+  "id": "96",
+  "recognize_zh": "同一顆淋巴結中可見由小淋巴球構成的模糊結節、散在具泡狀核與明顯核仁的大型 LP 細胞，以及小 B 細胞稀少、大型 B 細胞散布於 T 細胞背景的 THRLBCL 樣區域；另有大型 B 細胞成片生長區（免疫染色膜狀強陽性），提示 NLPHL 合併變異型態並轉化為 DLBCL。",
+  "features": [
+    "Vaguely nodular to diffuse architecture with serpiginous nodules and pale histiocyte-rich zones at low power",
+    "Scattered large LP-type cells with vesicular, lobated nuclei and small-to-moderate nucleoli in a background of small lymphocytes and epithelioid histiocytes",
+    "IHC (antigens not labeled in figures): membrane-positive large cells scattered within positive small-B-cell nodules and, elsewhere, within a largely negative small-cell background (THRLBCL-like pattern)",
+    "Areas where positive small cells are depleted and large positive cells lie singly among negative small lymphocytes, some with rosetting",
+    "Confluent sheets of large pleomorphic cells with vesicular chromatin, prominent nucleoli and mitoses, showing uniform membranous positivity (DLBCL component)",
+    "Abrupt transition from scattered large positive cells to sheet-like growth in one field"
+  ],
+  "describe_en": "Sections of the axillary lymph node show architectural effacement with a spectrum of patterns, ranging from vaguely nodular, serpiginous areas composed of small lymphocytes and histiocytes to diffuse areas with pale histiocyte-rich zones. At high power, scattered large atypical cells with vesicular, lobulated nuclei and distinct nucleoli are present in a background of small lymphocytes. Immunostains (antigens not labeled in these figures) highlight large neoplastic cells in variable settings: within nodules rich in positive small cells, as scattered cells in extranodular locations, and as isolated large cells in a background depleted of positive small cells, resembling T-cell/histiocyte-rich large B-cell lymphoma. Other areas show confluent sheets of large pleomorphic cells with prominent nucleoli and mitoses that are uniformly membrane-positive, with an abrupt transition from the scattered-cell pattern. Findings are consistent with nodular lymphocyte predominant Hodgkin lymphoma with typical and variant patterns and transformation to diffuse large B-cell lymphoma; the specific antigens should be confirmed from the stain labels.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma (de novo)", "vs": "De novo THRLBCL shows a diffuse pattern with near-absent small B cells and no residual NLPHL nodules, whereas this node retains nodules containing numerous small B cells around the large cells."},
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-rich", "vs": "Reed-Sternberg cells are CD30+/CD15+ with weak PAX5 and loss of CD20/OCT2/BOB1, while LP cells are CD20+, OCT2+, BOB1+ and CD30/CD15 negative."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC nodules contain mantle B cells and centroblasts but lack LP cells and the extranodular or diffuse large-cell spread seen here."},
+    {"dx": "Follicular lymphoma with large cell transformation", "vs": "FL shows back-to-back neoplastic follicles of centrocytes and centroblasts with BCL2 and CD10 expression, rather than scattered LP cells ringed by PD1+ T cells in a small-B-cell-rich meshwork."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (antigens not labeled in figures)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E, high power: small lymphocytes and histiocytes with scattered large cells with vesicular nuclei and nucleoli",
+    "H&E, low power: vaguely nodular to diffuse architecture with pale histiocyte-rich zones",
+    "H&E, low power: serpiginous nodules of pale larger cells and histiocytes rimmed by dark small lymphocytes",
+    "H&E, low power: vague nodular pattern of small lymphocytes",
+    "IHC (red, membranous): nodule rich in positive small cells containing larger positive cells",
+    "IHC (brown): large atypical cells with membranous-cytoplasmic staining among small lymphocytes",
+    "IHC (red, nuclear): scattered positive nuclei of variable size in a small-cell background",
+    "IHC (red, membranous): scattered large positive cells in a negative small-lymphocyte background",
+    "IHC (brown, granular cytoplasmic/membranous): scattered large cells positive, small lymphocytes negative",
+    "IHC (red): rare single positive cell; large and small cells otherwise negative",
+    "IHC (red, membranous): scattered large positive cells among negative small lymphocytes",
+    "IHC (red), low power: positive cells arranged in irregular nodular aggregates separated by negative zones",
+    "IHC (red), low power: nodular area of positive small cells with scattered positive large cells",
+    "H&E, low power: diffuse pattern with pale histiocyte-rich areas",
+    "H&E, medium power: diffuse small lymphocytes with scattered large cells and histiocytes",
+    "IHC (red), low power: scattered large positive cells in a predominantly negative background (THRLBCL-like)",
+    "IHC (red): numerous scattered large membrane-positive cells with few positive small cells",
+    "IHC (red): scattered large membrane-positive cells increasing in density toward one side",
+    "IHC (red), low power: widespread positive cells throughout a diffuse area",
+    "H&E, high power: sheets of large pleomorphic cells with prominent nucleoli and mitoses (DLBCL component)",
+    "IHC (red), low power: transition from scattered positive large cells to confluent sheets of positive cells",
+    "IHC (red), high power: sheets of large cells with strong membranous positivity (DLBCL component)"
+  ]
+}

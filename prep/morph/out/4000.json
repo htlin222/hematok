@@ -1,0 +1,22 @@
+{
+  "id": "4000",
+  "recognize_zh": "低倍周邊血抹片中白血球明顯增加，混有多顆單核球（monocyte）、成熟嗜中性球與有核紅血球（nucleated RBC），並有多染性紅血球；兒童出現單核球增多合併有核紅血球與未成熟細胞，應想到幼年型骨髓單核球性白血病（JMML）。",
+  "features": [
+    "Leukocytosis with conspicuous monocytes showing folded nuclei and gray-blue cytoplasm",
+    "Mature and band neutrophils admixed with occasional immature-appearing mononuclear cells",
+    "Several circulating nucleated red blood cells (small dense round nuclei)",
+    "Mild anisocytosis with scattered polychromatophilic and target-like red cells",
+    "Occasional small lymphocytes; platelets not prominent in this field"
+  ],
+  "describe_en": "Peripheral blood smear at low power shows increased leukocytes composed of monocytes, neutrophils and bands, with scattered nucleated red blood cells. Monocytes have lobulated or folded nuclei and moderate gray-blue cytoplasm; no significant population of blasts is evident in this field. Red cells show mild anisocytosis with polychromasia. In a young child, findings are suggestive of juvenile myelomonocytic leukemia; correlation with absolute monocyte count, hemoglobin F, and RAS-pathway mutation studies is required.",
+  "ddx": [
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows similar monocytosis but occurs in older adults, whereas JMML is a disease of young children with frequent NRBCs and elevated HbF."},
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "CML has a myelocyte and neutrophil bulge with basophilia rather than prominent monocytosis, and is defined by BCR::ABL1 which is absent in JMML."},
+    {"dx": "Reactive monocytosis from viral infection (e.g., CMV, EBV)", "vs": "Infection-related monocytosis lacks persistent NRBCs and dysplasia and resolves; morphology alone may not separate them, so viral studies and RAS-pathway genetics are needed."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "AML shows at least 20% blasts including promonocytes, whereas JMML has fewer than 20% blasts in blood and marrow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

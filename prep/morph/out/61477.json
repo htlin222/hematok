@@ -1,0 +1,22 @@
+{
+  "id": "61477",
+  "recognize_zh": "觸片中央有一顆特大的多核／多葉細胞，數個大型核擠在一起、染色質淡、可見核仁，大小遠超過周圍的小淋巴球，符合 Hodgkin/Reed-Sternberg 變異型（lacunar）細胞；圖中未見原描述的箭頭標記。",
+  "features": [
+    "Very large multinucleated/multilobated cell (center top) with several overlapping nuclei, pale chromatin and visible nucleoli",
+    "Additional medium-to-large mononuclear cells with oval nuclei and moderate pale cytoplasm, some loosely aggregated in strands",
+    "Background small lymphocytes with round dark nuclei and scant cytoplasm",
+    "Several small crenated red cells scattered in the background",
+    "Clumped cell groups and crush artifact (stringy nuclear material, upper left) typical of touch preparations; arrow cited in the description is not present"
+  ],
+  "describe_en": "Touch imprint of a lymph node shows a mixed population of small lymphocytes and larger mononuclear cells. A very large multinucleated or multilobated cell in the center contains several overlapping nuclei with relatively pale chromatin and nucleoli, far exceeding the size of the surrounding lymphocytes, consistent with a Hodgkin/Reed-Sternberg variant cell. Loose aggregates of larger cells and crush artifact are present, which could mimic cohesive epithelial groups, and the arrow referenced in the description is not visible on this image. In context, findings are suggestive of classical Hodgkin lymphoma; confirmation requires histologic sections with CD30, CD15, PAX5 (weak) and CD45 immunostains.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells form truly cohesive three-dimensional clusters with sharp cell borders and are keratin positive, whereas HRS cells are isolated in a lymphoid background and CD30/CD15 positive."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL hallmark cells have horseshoe-shaped nuclei in sheets and are CD30+ with T-cell markers or ALK, lacking the PAX5-weak, CD45-negative HRS phenotype."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Large cells are CD20 and CD45 strongly positive and CD15/CD30 negative, unlike HRS cells."},
+    {"dx": "Reactive immunoblasts (e.g., infectious mononucleosis)", "vs": "Immunoblasts are mononuclear with basophilic cytoplasm and a single nucleolus and are CD45+ and CD15-, lacking multilobated nuclei with inclusion-like nucleoli."}
+  ],
+  "specimen": "LN",
+  "stain": "Romanowsky-type (Diff-Quik)",
+  "match": "consistent",
+  "high_yield": false
+}

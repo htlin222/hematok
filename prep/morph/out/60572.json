@@ -1,0 +1,22 @@
+{
+  "id": "60572",
+  "recognize_zh": "骨髓抹片與切片中許多漿細胞的細胞質內有一個大型透明空泡，把細胞核推擠成新月形貼在細胞邊緣，形似印戒細胞（signet ring）；旁邊仍可見典型核偏位、核旁淡染的漿細胞，且 CD138 瀰漫陽性，證實是漿細胞骨髓瘤而非轉移性印戒細胞癌。",
+  "features": [
+    "Hypercellular marrow particles with numerous vacuolated cells (low power)",
+    "Plasma cells with a single large, clear cytoplasmic vacuole compressing the nucleus into a crescent at the periphery (signet ring morphology)",
+    "Admixed conventional plasma cells with eccentric nuclei, clock-face chromatin and perinuclear hof (open arrows)",
+    "Biopsy H&E: sheets of plasma cells with intracytoplasmic clear vacuoles indenting the nucleus",
+    "IHC: diffuse strong membranous staining (CD138) of the infiltrate; special stain panels (Ji/Jii) highlight vacuolated cells, PAS/mucin status not determinable from the figure"
+  ],
+  "describe_en": "Bone marrow aspirate smears show increased plasma cells, many containing a single large clear cytoplasmic vacuole that displaces and compresses the nucleus into a crescent, imparting a signet-ring appearance, admixed with conventional plasma cells showing eccentric nuclei and perinuclear hofs. The core biopsy shows sheets of similar vacuolated plasma cells that are diffusely positive for a plasma cell marker (consistent with CD138). Additional histochemical stains highlight the vacuolated cells, although their specific nature cannot be determined from the figure alone. Findings are consistent with plasma cell myeloma with signet ring morphology.",
+  "ddx": [
+    {"dx": "Metastatic signet ring cell adenocarcinoma", "vs": "Carcinoma cells are cohesive, mucicarmine positive and keratin positive, and lack CD138 with cytoplasmic light-chain restriction and perinuclear hof."},
+    {"dx": "Signet ring cell lymphoma (follicular or other B-cell lymphoma)", "vs": "Lymphoma cells are CD20 positive with vacuoles containing immunoglobulin, whereas myeloma cells are CD20 negative, CD138 positive plasma cells."},
+    {"dx": "Serous fat atrophy/adipocytes or lipid-laden histiocytes", "vs": "Adipocytes have a thin rim of cytoplasm with no plasma cell chromatin, and histiocytes have multiple small vacuoles and are CD68/CD163 positive."},
+    {"dx": "Plasma cells with Russell bodies (Mott cells)", "vs": "Russell bodies are eosinophilic or gray-blue homogeneous globules, not optically clear vacuoles."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: CD138; special stains",
+  "match": "consistent",
+  "high_yield": false
+}

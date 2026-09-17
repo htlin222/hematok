@@ -1,0 +1,22 @@
+{
+  "id": "66143",
+  "recognize_zh": "箭頭所指細胞比中性球大，細胞核圓至略偏心、染色質仍細緻，細胞質中等量且佈滿紫紅色嗜天青（azurophilic）顆粒、未見核周淡染區（hof）；周圍還有骨髓球、帶狀核與分葉核中性球，呈核左移背景，是認出前骨髓球（promyelocyte）的線索。",
+  "features": [
+    "Arrowed cell is large (larger than adjacent neutrophils) with moderate amounts of basophilic cytoplasm",
+    "Round to slightly indented nucleus with relatively fine chromatin; nucleolus not clearly resolved",
+    "Cytoplasm packed with coarse purple azurophilic (primary) granules, extending over the nucleus",
+    "No Auer rods or bundles; no clear Golgi zone discernible at this resolution",
+    "Background shows a left-shifted granulocytic series (myelocytes, metamyelocytes, bands, segmented neutrophils) and a small lymphocyte"
+  ],
+  "describe_en": "Peripheral blood smear (Wright-Giemsa) shows a left-shifted granulocytic population including myelocytes, metamyelocytes, band and segmented neutrophils. The arrowed cell is a large granulocytic precursor with a round to slightly indented nucleus, relatively fine chromatin, and moderately abundant basophilic cytoplasm filled with coarse azurophilic granules, without Auer rods. The morphology is consistent with a promyelocyte; its presence in blood indicates a leukoerythroblastic or left-shifted picture (e.g., marrow stress, infection, or a myeloproliferative neoplasm) and should prompt correlation with the CBC.",
+  "ddx": [
+    {"dx": "Myelocyte", "vs": "Myelocytes have more condensed chromatin, no nucleolus, a clear perinuclear Golgi zone and predominantly lilac specific granules rather than coarse azurophilic granules."},
+    {"dx": "Abnormal promyelocyte of APL", "vs": "APL promyelocytes have bilobed/reniform nuclei, hypergranular cytoplasm often with Auer rod bundles (faggot cells), and occur with DIC and cytopenias rather than a maturing left shift."},
+    {"dx": "Myeloblast", "vs": "Myeloblasts have higher N:C ratio, very fine chromatin with prominent nucleoli and absent or only few granules."},
+    {"dx": "Toxic neutrophil / basophil", "vs": "Toxic neutrophils have segmented nuclei with dark granules, and basophils have dense lobulated nuclei obscured by large dark metachromatic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

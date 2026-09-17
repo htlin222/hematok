@@ -1,0 +1,22 @@
+{
+  "id": "60516",
+  "recognize_zh": "這顆淋巴球比周圍紅血球大，核圓而染色質濃縮，最重要的是有豐富淡藍色細胞質，內含數顆散在的粗大嗜天青顆粒（azurophilic granules），即大顆粒淋巴球（LGL）。",
+  "features": [
+    "Cell larger than a resting lymphocyte (roughly 1.5-2 red cell diameters)",
+    "Low to moderate N:C ratio with abundant pale blue cytoplasm",
+    "Round to slightly indented nucleus with coarse, condensed chromatin and no visible nucleolus",
+    "Several coarse, discrete azurophilic granules clustered in the cytoplasm",
+    "Normal-appearing background red cells"
+  ],
+  "describe_en": "Peripheral blood smear shows a single lymphocyte that is larger than a resting lymphocyte, with a round to slightly indented nucleus, coarse condensed chromatin and no visible nucleolus. The cytoplasm is abundant and pale blue and contains scattered coarse azurophilic granules. Background red cells are unremarkable. Findings are consistent with a large granular lymphocyte (cytotoxic T or NK cell); persistent LGL counts above 2 x 10^9/L would warrant flow cytometry and TCR/STAT3 studies for T-LGL leukemia.",
+  "ddx": [
+    {"dx": "Reactive (atypical) lymphocyte", "vs": "Reactive lymphocytes have deeply basophilic cytoplasm that hugs adjacent red cells and often open chromatin, and usually lack discrete azurophilic granules."},
+    {"dx": "Monocyte", "vs": "Monocytes are larger with folded, lacy chromatin and grey-blue cytoplasm with fine dust-like granules and vacuoles rather than a few coarse granules."},
+    {"dx": "Promyelocyte / myelocyte", "vs": "Granulocyte precursors have more numerous primary or secondary granules, a paranuclear hof and less condensed chromatin with nucleoli in promyelocytes."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "Individual LGLs look identical, so neoplasia requires sustained LGL lymphocytosis with clonal TCR rearrangement and aberrant phenotype (e.g. CD5/CD7 loss)."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

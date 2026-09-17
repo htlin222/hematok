@@ -1,0 +1,22 @@
+{
+  "id": "62753",
+  "recognize_zh": "周邊血中大型母細胞染色質細緻、胞質內有明顯的嗜天青顆粒，外觀像骨髓性母細胞；但流式顯示 CD19+CD10+、cCD79a+CD34+、TdT+ 而 MPO 陰性，證實是帶顆粒的 B 前驅細胞急性淋巴母細胞白血病。",
+  "features": [
+    "Large blasts with high N:C ratio, fine dispersed chromatin, and indistinct nucleoli",
+    "Moderate basophilic cytoplasm containing prominent coarse azurophilic granules",
+    "No Auer rods identified",
+    "Flow: CD45-dim/low side-scatter blasts that are CD19+ CD10+, cytoplasmic CD79a+ CD34+, and TdT-positive",
+    "Flow: cytoplasmic MPO negative"
+  ],
+  "describe_en": "Peripheral blood smear shows large blasts with high N:C ratio, finely dispersed chromatin, and moderate basophilic cytoplasm containing conspicuous coarse azurophilic granules, without Auer rods. Occasional mature leukocytes are present in the background. Flow cytometry of the CD45-dim, low side-scatter blast gate demonstrates expression of CD19, CD10, cytoplasmic CD79a, CD34, and TdT, with no cytoplasmic MPO. Despite the granular cytoplasm, the immunophenotype establishes B-lineage; findings are consistent with granular B-cell precursor acute lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with maturation", "vs": "Myeloblasts may contain azurophilic granules and Auer rods but are MPO-positive and lack the CD19/CD10/cCD79a/TdT B-lineage profile."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "MPAL requires MPO or monocytic differentiation markers in addition to B-lineage markers, whereas these blasts are MPO-negative."},
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "t(8;21) AML shows granular blasts with CD19 and sometimes TdT but is MPO-positive with Auer rods and salmon-colored granules, and lacks CD10."},
+    {"dx": "Hematogones", "vs": "Hematogones are small cells with scant agranular cytoplasm and show a maturing, continuous CD10/CD20/CD34 pattern rather than a monomorphic expanded blast population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

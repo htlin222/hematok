@@ -1,0 +1,22 @@
+{
+  "id": "12947",
+  "recognize_zh": "視野中滿是大型、核質發育不同步的顆粒球前驅細胞，包括馬蹄形大核的巨大後骨髓細胞與桿狀核（giant metamyelocytes/bands），並有細胞質深藍、核染色質細緻的大型紅血球前驅細胞，是巨母細胞性（megaloblastic）造血的表現，儘管血清 B12 值「正常」。",
+  "features": [
+    "Numerous enlarged granulocytic precursors, including giant metamyelocytes and giant bands with large horseshoe-shaped nuclei",
+    "Nuclear-cytoplasmic asynchrony: open, immature chromatin in cells with mature granulated cytoplasm",
+    "Large erythroid precursors with deeply basophilic cytoplasm and finely stippled (sieve-like) chromatin",
+    "Occasional hypersegmented neutrophils",
+    "Macrocytic and oval red cells with anisopoikilocytosis in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular specimen with prominent megaloblastic change. Granulocytic precursors are enlarged, with giant metamyelocytes and bands bearing large, horseshoe-shaped nuclei with immature chromatin. Erythroid precursors are large with deeply basophilic cytoplasm and finely dispersed, sieve-like chromatin, showing nuclear-cytoplasmic asynchrony. Background red cells include macro-ovalocytes. Findings are consistent with megaloblastic hematopoiesis; given the clinical data (elevated methylmalonic acid and homocysteine, low holotranscobalamin, intrinsic factor antibodies), this represents vitamin B12 deficiency due to pernicious anemia despite a falsely normal serum B12 assay.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS shows hypogranular and pseudo-Pelger neutrophils, ring sideroblasts or clonal cytogenetics, and does not correct with vitamin replacement or show elevated MMA/homocysteine."},
+    {"dx": "Acute erythroid leukemia", "vs": "Pure erythroid leukemia shows >80% erythroid cells with ≥30% proerythroblasts and TP53 abnormalities rather than orderly megaloblastic maturation."},
+    {"dx": "Drug-induced megaloblastosis (methotrexate, hydroxyurea, azathioprine)", "vs": "Drug effect is morphologically identical and is excluded by medication history and normal B12-related metabolites."},
+    {"dx": "Folate deficiency", "vs": "Folate deficiency raises homocysteine but not methylmalonic acid, whereas both are elevated in B12 deficiency."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

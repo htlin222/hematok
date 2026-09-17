@@ -1,0 +1,21 @@
+{
+  "id": "62394",
+  "recognize_zh": "IgG4 免疫染色中大量深棕色陽性漿細胞主要聚集在多個生發中心內，濾泡間區也有散在陽性細胞；高密度的 IgG4 陽性漿細胞（需搭配 IgG 計算 IgG4/IgG 比例 >40% 且每高倍視野 >100 個）支持 IgG4 相關淋巴結病變（IgG4-related lymphadenopathy）。",
+  "features": [
+    "Numerous IgG4-positive plasma cells with strong cytoplasmic staining",
+    "Positive cells concentrated within germinal centers of multiple reactive follicles",
+    "Scattered IgG4-positive cells in interfollicular areas",
+    "Negative mantle zones outlining follicles",
+    "Preserved follicular architecture"
+  ],
+  "describe_en": "IgG4 immunostain of the lymph node shows numerous strongly positive plasma cells, predominantly concentrated within the germinal centers of multiple reactive follicles, with additional scattered positive cells in the interfollicular regions. Mantle zones are negative, and nodal architecture is preserved. The density of IgG4-positive cells appears well above 100 per high-power field within follicles. When correlated with an IgG stain showing an IgG4/IgG ratio greater than 40%, the findings are suggestive of IgG4-related lymphadenopathy, which must be interpreted together with clinical and serologic findings.",
+  "ddx": [
+    {"dx": "Multicentric Castleman disease (plasma cell type)", "vs": "MCD can have increased IgG4+ cells but shows sheets of interfollicular plasma cells, systemic inflammation with high IL-6/CRP, and a lower IgG4/IgG ratio pattern."},
+    {"dx": "Reactive follicular hyperplasia (rheumatoid, nonspecific)", "vs": "Nonspecific reactive nodes may contain IgG4+ cells, but the IgG4/IgG ratio and absolute counts usually fall below diagnostic thresholds."},
+    {"dx": "Lymphoma with plasmacytic differentiation", "vs": "Marginal zone or lymphoplasmacytic lymphoma shows light chain restricted plasma cells, whereas IgG4-related plasma cells are polytypic."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: IgG4",
+  "match": "consistent",
+  "high_yield": true
+}

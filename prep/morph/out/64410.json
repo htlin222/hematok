@@ -1,0 +1,22 @@
+{
+  "id": "64410",
+  "recognize_zh": "紅血球內血紅素被推擠到細胞一側，另一側只剩一層薄膜包住的蒼白空泡狀區域（blister/eccentrocyte 樣外觀），這種偏心分布的無血紅素區是氧化性溶血（如 G6PD 缺乏症）的線索。",
+  "features": [
+    "Normocytic red cells with hemoglobin retracted/condensed to one side of the cell",
+    "Sharply demarcated clear, vacuole-like zone bounded by a thin intact membrane (blister cells)",
+    "Some cells with a central or irregular pale blister rather than a peripheral one",
+    "Small dark punctate bodies within cells and at the membrane edge (possible Heinz bodies versus stain precipitate; not resolvable at this resolution)",
+    "Clean background without spherocyte clusters or schistocytes in these fields"
+  ],
+  "describe_en": "Composite high-power views of a peripheral blood smear show several red cells in which hemoglobin is displaced to one side, leaving a clear, membrane-bound blister-like zone. Some cells contain multiple small dark punctate inclusions, several abutting the membrane; their nature (Heinz bodies versus precipitate) cannot be confirmed without a supravital stain, and image resolution is limited. Findings are consistent with blister cells/eccentrocytes, suggestive of oxidant hemolysis such as G6PD deficiency.",
+  "ddx": [
+    {"dx": "Bite cell (degmacyte)", "vs": "Bite cells show a peripheral notch where the membrane edge is removed, whereas blister cells retain a thin membrane enclosing a hemoglobin-free space."},
+    {"dx": "Stomatocyte", "vs": "Stomatocytes have a central slit-like pallor, not an eccentric membrane-bound clear zone with hemoglobin pushed to the opposite side."},
+    {"dx": "Drying artifact / refractile vacuoles", "vs": "Artifact vacuoles are refractile, variably shaped and focus-dependent, and are not accompanied by condensed hemoglobin crowding to one side."},
+    {"dx": "Pitted cells with Pappenheimer bodies", "vs": "Pappenheimer bodies are small basophilic granule clusters without blister formation and stain with Prussian blue, whereas Heinz bodies require supravital stains."}
+  ],
+  "specimen": "PB",
+  "stain": "Romanowsky-type stain (likely Wright-Giemsa)",
+  "match": "consistent",
+  "high_yield": true
+}

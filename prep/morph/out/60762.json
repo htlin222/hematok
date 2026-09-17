@@ -1,0 +1,22 @@
+{
+  "id": "60762",
+  "recognize_zh": "四格組圖：A、B 骨髓抹片的巨噬細胞細胞質內充滿 2–4 µm、帶透明暈的小酵母菌（箭頭），B 同時吞噬有核細胞與紅血球（噬血現象）；C 切片中的巨噬細胞含多顆吞噬細胞與小酵母；D 銀染（GMS）將成群黑色卵圓形酵母染出，綜合指向組織漿菌感染引發的噬血症候群。",
+  "features": [
+    "Panel A (Wright-Giemsa): macrophage with vacuolated blue cytoplasm containing numerous small (2-4 um) oval intracellular yeasts with a clear halo and eccentric dark chromatin (arrow)",
+    "Panel B (Wright-Giemsa): macrophage engulfing nucleated hematopoietic cells and red cells (hemophagocytosis) together with clustered intracellular yeasts (arrow)",
+    "Panel C (H&E): large histiocyte containing several phagocytosed nucleated cells, with small yeast forms in an adjacent histiocyte (arrows)",
+    "Panel D (GMS/silver stain): clusters of black-staining small oval yeasts, some with narrow-based budding, against a green counterstain",
+    "Background marrow elements including red cells, lymphocytes and myeloid precursors"
+  ],
+  "describe_en": "Composite of bone marrow findings. Aspirate smears (A, B) show macrophages whose cytoplasm contains numerous small, uniform oval yeast forms with a surrounding clear halo, and one macrophage has engulfed nucleated hematopoietic cells and red cells, indicating hemophagocytosis. The marrow section (C) shows histiocytes containing phagocytosed nucleated cells and small intracellular yeasts, and a Grocott methenamine silver stain (D) highlights clusters of small oval yeasts with occasional narrow-based budding. Findings are consistent with hemophagocytic lymphohistiocytosis secondary to disseminated histoplasmosis; confirmation by fungal culture, Histoplasma urine/serum antigen or PCR is recommended.",
+  "ddx": [
+    {"dx": "Leishmaniasis (visceral)", "vs": "Amastigotes are similar in size but show a rod-shaped kinetoplast next to the nucleus and do not stain with GMS."},
+    {"dx": "Talaromyces (Penicillium) marneffei infection", "vs": "Intracellular yeasts divide by fission with a central transverse septum rather than budding, and are often sausage-shaped."},
+    {"dx": "Cryptococcosis", "vs": "Yeasts are larger and more variable (4-10 um) with a thick mucicarmine-positive capsule and narrow-based budding."},
+    {"dx": "Toxoplasmosis or Pneumocystis", "vs": "Toxoplasma tachyzoites are crescent-shaped and GMS negative, whereas Pneumocystis cysts are cup-shaped, extracellular and lack budding."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; GMS",
+  "match": "consistent",
+  "high_yield": true
+}

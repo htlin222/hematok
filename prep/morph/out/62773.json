@@ -1,0 +1,22 @@
+{
+  "id": "62773",
+  "recognize_zh": "骨髓中成片漿細胞 CD38 與 MUM1 強陽性，但 CD138 免疫染色與流式皆為陰性，流式另顯示 CD19−、CD45−、CD27−、CD56−、CD117− 並有胞質 kappa 限制，說明這是 CD138 陰性的漿細胞骨髓瘤。",
+  "features": [
+    "Aspirate: plasma cells with eccentric nuclei, perinuclear hof, and basophilic cytoplasm, including atypical and binucleate forms",
+    "Biopsy: sheets of plasmacytoid cells effacing the marrow (H&E)",
+    "IHC: CD138 negative; CD38 strong membranous positive; MUM1 strong nuclear positive",
+    "Flow: CD38-bright population (about 36% of events) lacking CD138",
+    "Flow: CD19-negative, CD45-negative, CD27-negative, CD56-negative, CD117-negative, with cytoplasmic kappa restriction"
+  ],
+  "describe_en": "Bone marrow aspirate shows increased plasma cells, including atypical and binucleate forms with eccentric nuclei and abundant basophilic cytoplasm. The core biopsy shows diffuse sheets of plasmacytoid cells replacing normal hematopoiesis. By immunohistochemistry the neoplastic cells are strongly positive for CD38 and MUM1 but negative for CD138. Flow cytometry confirms a CD38-bright, CD138-negative population that is CD19, CD45, CD27, CD56, and CD117 negative and shows cytoplasmic kappa light chain restriction. Findings are consistent with plasma cell myeloma with loss of CD138 expression.",
+  "ddx": [
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL contains a spectrum of small lymphocytes and plasmacytoid lymphocytes with CD19/CD20-positive clonal B cells and MYD88 L265P, whereas this population is uniformly CD19-negative plasma cells."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma shows large immunoblastic cells with prominent nucleoli, very high Ki-67, and frequent EBER positivity, typically in extramedullary sites with immunodeficiency."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are polytypic, retain CD19 and CD27, and do not form effacing sheets."},
+    {"dx": "Metastatic carcinoma or other CD138-positive/negative round cell tumor", "vs": "Carcinoma is keratin-positive and forms cohesive nests, while this infiltrate expresses CD38, MUM1, and monotypic cytoplasmic kappa."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa, H&E; IHC: CD138, CD38, MUM1; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

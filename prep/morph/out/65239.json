@@ -1,0 +1,22 @@
+{
+  "id": "65239",
+  "recognize_zh": "骨髓抹片中可見深藍細胞質的嗜鹼性紅血球母細胞與顆粒球前驅細胞，其中數顆細胞的細胞質或覆蓋於核上出現多個圓形打孔狀透明空泡（punched-out vacuoles），是 VEXAS 前驅細胞空泡的典型表現。",
+  "features": [
+    "Basophilic erythroblast with deep blue cytoplasm and perinuclear clearing",
+    "Myeloid precursors (promyelocytes, myelocytes) with azurophilic granules",
+    "Multiple round punched-out clear vacuoles in precursor cytoplasm, some overlying the nucleus",
+    "Bands and segmented neutrophils with coarse granulation",
+    "No increase in blasts in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows maturing granulocytic and erythroid precursors, including basophilic erythroblasts with deeply basophilic cytoplasm. Several precursors contain multiple round, punched-out clear cytoplasmic vacuoles, some superimposed over the nucleus. Mature granulocytes show coarse granulation, and blasts are not increased. In a patient with a UBA1 p.Met41Leu variant, findings are consistent with the cytoplasmic vacuolization of myeloid and erythroid precursors characteristic of VEXAS syndrome.",
+  "ddx": [
+    {"dx": "Copper deficiency", "vs": "Copper deficiency produces similar precursor vacuoles, so it is excluded by normal copper/ceruloplasmin and confirmed VEXAS by UBA1 mutation."},
+    {"dx": "Alcohol or linezolid/chloramphenicol toxicity", "vs": "Toxic vacuoles are reversible after exposure withdrawal and lack a somatic UBA1 variant."},
+    {"dx": "Acute erythroid leukemia", "vs": "Pure erythroid leukemia shows sheets of vacuolated proerythroblasts exceeding 80% with erythroid predominance, rather than orderly trilineage maturation."},
+    {"dx": "Smear artifact (drying vacuoles)", "vs": "Artifactual vacuoles are irregular and also appear in red cells and background, whereas these are sharp and confined to precursor cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

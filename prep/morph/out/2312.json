@@ -1,0 +1,21 @@
+{
+  "id": "2312",
+  "recognize_zh": "周邊血抹片中出現大量成群聚集的中大型母細胞（blasts），高核質比、細緻染色質、少量嗜鹼性細胞質，數量遠超過成熟白血球，搭配慢性骨髓性白血病病史即為急性轉化（blast crisis）。",
+  "features": [
+    "Numerous medium to large blasts, many clumped in small aggregates",
+    "High N:C ratio with round to slightly irregular nuclei and fine chromatin",
+    "Scant to moderate basophilic cytoplasm without obvious granules at this power",
+    "Occasional smudged/degenerated cells and a granular fragmented cell",
+    "Rare maturing neutrophil; red cells unremarkable at this magnification"
+  ],
+  "describe_en": "Peripheral blood smear at low-intermediate power shows a marked increase in circulating blasts, many forming small aggregates. The blasts are medium to large with high nuclear-to-cytoplasmic ratios, fine chromatin and scant basophilic cytoplasm; maturing granulocytes are sparse and scattered smudged cells are present. Lineage cannot be assigned morphologically at this magnification. In a patient with known CML, BCR-ABL1-positive, the findings are consistent with blast phase; flow cytometry is required to distinguish myeloid from lymphoid blast phase.",
+  "ddx": [
+    {"dx": "De novo AML with BCR-ABL1", "vs": "De novo disease lacks a prior chronic phase, basophilia and marked splenomegaly, and is separated by history and BCR-ABL1 transcript/cytogenetic pattern rather than blast morphology."},
+    {"dx": "Ph-positive B-lymphoblastic leukemia", "vs": "Lymphoblasts have scantier cytoplasm and denser chromatin, but distinction from lymphoid blast phase of CML requires flow cytometry and BCR-ABL1 in neutrophils/FISH."},
+    {"dx": "CML, chronic phase", "vs": "Chronic phase shows a left-shifted spectrum dominated by myelocytes and segmented neutrophils with basophilia and few blasts, not sheets of blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

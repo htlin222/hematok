@@ -1,0 +1,22 @@
+{
+  "id": "60651",
+  "recognize_zh": "骨髓抹片中有大量異常前骨髓細胞（promyelocyte），胞質充滿粗大紫紅顆粒，部分細胞內含成束交錯的針狀 Auer 小體（faggot cell），核圓或雙葉狀；這種形態即使 PML::RARA FISH 陰性仍強烈提示急性前骨髓細胞白血病（APL）。",
+  "features": [
+    "Predominance of abnormal promyelocytes with round to reniform nuclei, fine chromatin, and visible nucleoli",
+    "Abundant cytoplasm packed with coarse azurophilic granules, some obscuring the nucleus",
+    "Faggot cells containing bundles of numerous crisscrossing needle-like Auer rods (panels A and B)",
+    "Some hypogranular cells with basophilic cytoplasm and folded or bilobed nuclei (panel C)",
+    "Scarce maturing granulocytes and a single background nucleated red cell"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows sheets of abnormal promyelocytes with round to folded nuclei, fine chromatin, and abundant cytoplasm filled with coarse azurophilic granules. Several cells contain bundles of numerous needle-like Auer rods (faggot cells), and occasional cells show bilobed nuclei with less granular cytoplasm. Normal granulocytic maturation beyond the promyelocyte stage is markedly reduced. The morphology is characteristic of acute promyelocytic leukemia; a negative PML::RARA FISH result should prompt RT-PCR or sequencing for a cryptic/submicroscopic PML::RARA insertion or a variant RARA fusion. Note that the assigned category (EBV-positive T-cell lymphoproliferative disorder) does not correspond to this image.",
+  "ddx": [
+    {"dx": "AML with maturation (non-APL)", "vs": "Non-APL AML shows blasts with single Auer rods and fewer granules, without sheets of hypergranular promyelocytes or faggot cells."},
+    {"dx": "APL with variant RARA fusion (e.g., ZBTB16::RARA)", "vs": "ZBTB16::RARA cases have more regular nuclei, fewer Auer rods, and pseudo-Pelger cells and are ATRA-resistant, so molecular testing beyond PML::RARA FISH is required."},
+    {"dx": "Reactive promyelocyte-rich marrow (e.g., G-CSF, recovery)", "vs": "Regenerating marrow has orderly maturation with a Golgi hof in promyelocytes and never contains Auer rods."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monocytic cells have gray-blue cytoplasm with fine granules and folded nuclei, are nonspecific esterase positive, and lack bundles of Auer rods."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

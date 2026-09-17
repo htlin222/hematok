@@ -1,0 +1,21 @@
+{
+  "id": "12649",
+  "recognize_zh": "HIV 病人尿液抹片（A）出現成群的大型漿母細胞樣（plasmablastic）細胞，胞質深藍、有空泡，核大且有明顯核仁；B 圖免疫染色呈細點狀核染色（典型 HHV-8 LANA 型態），提示腔外型原發性滲出液淋巴瘤（extracavitary PEL）。",
+  "features": [
+    "Large cohesive-appearing clusters of large atypical lymphoid cells, several times the size of admixed inflammatory cells",
+    "Round to irregular nuclei with open chromatin and prominent nucleoli; some binucleate or pleomorphic forms",
+    "Moderate to abundant deeply basophilic cytoplasm, some with vacuoles (plasmablastic/immunoblastic appearance)",
+    "Background degenerating neutrophils and debris typical of urine cytology",
+    "IHC panel: granular, dot-like (stippled) nuclear positivity in nearly all tumor cells, pattern characteristic of HHV-8 LANA-1"
+  ],
+  "describe_en": "Urine cytology cytospin shows numerous large atypical lymphoid cells with high N:C ratio, open chromatin, prominent nucleoli and deeply basophilic, focally vacuolated cytoplasm, admixed with degenerating neutrophils. The cells lack epithelial cohesion features such as molding or keratinization. Immunohistochemistry on the corresponding material shows diffuse speckled nuclear staining in the tumor cells, a pattern typical of HHV-8 (LANA-1). In an HIV-positive patient, findings are consistent with extracavitary primary effusion lymphoma involving the urinary tract; confirmation with CD45, CD138/MUM1, lack of B-cell markers and EBER ISH is advised.",
+  "ddx": [
+    {"dx": "Urothelial carcinoma, high grade", "vs": "Carcinoma cells show cohesive groups, hyperchromatic coarse chromatin and keratin/GATA3 positivity, whereas PEL cells are discohesive, CD45/CD138 positive and HHV-8 LANA positive."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma has similar morphology but is HHV-8 negative and usually EBER positive with MYC rearrangement, while PEL shows nuclear HHV-8 LANA staining."},
+    {"dx": "HHV-8-positive DLBCL, NOS", "vs": "HHV-8-positive DLBCL is typically IgM-lambda, EBV-negative and expresses CD20 in some cases, whereas PEL is usually EBV co-infected and lacks surface B-cell markers."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa; IHC: HHV-8 LANA (presumed)",
+  "match": "consistent",
+  "high_yield": false
+}

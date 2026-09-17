@@ -1,0 +1,21 @@
+{
+  "id": "60347",
+  "recognize_zh": "流式圖中 CD45 弱陽性、側向散射（SSC）偏高且分布寬的異常群，MPO 強陽性、TdT 陰性，CD33 均勻亮、CD13 不均、CD117 部分陽性，而 CD34 與 HLA-DR 皆陰性，是急性前骨髓細胞白血病（APL）的典型表型。",
+  "features": [
+    "CD45 vs SSC: large CD45-dim population with intermediate-to-high, broad side scatter (gated 'Dim CD45+'), separate from CD45-bright lymphocytes",
+    "MPO strongly positive; TdT negative",
+    "CD33 bright and homogeneous with heterogeneous CD13 expression",
+    "CD117 partially positive; CD34 negative",
+    "HLA-DR negative; CD2 largely negative with a small dim tail"
+  ],
+  "describe_en": "Flow cytometric analysis shows a predominant abnormal population with dim CD45 and increased, broad side scatter reflecting cytoplasmic granularity. The gated cells are strongly positive for MPO, brightly and homogeneously positive for CD33, heterogeneously positive for CD13 and partially positive for CD117, and are negative for TdT, CD34 and HLA-DR, with only a minor dim CD2-positive tail. This CD34-negative, HLA-DR-negative, high side scatter myeloid phenotype with bright CD33 and heterogeneous CD13 is characteristic of acute promyelocytic leukemia. Urgent confirmation of PML-RARA by FISH or RT-PCR is recommended given the risk of coagulopathy.",
+  "ddx": [
+    {"dx": "Normal/reactive promyelocytes (left shift, G-CSF effect)", "vs": "Normal maturation shows a continuous CD13/CD16/CD11b maturation pattern with CD13 bright-dim-bright and no expanded uniform CD33-bright population."},
+    {"dx": "AML with NPM1 mutation", "vs": "NPM1-mutated AML can be CD34-/HLA-DR- but often shows monocytic markers and lacks the high side scatter and heterogeneous CD13 pattern; PML-RARA is absent."},
+    {"dx": "AML with maturation", "vs": "These blasts are usually CD34+ and/or HLA-DR+ with lower side scatter and show maturation to CD11b/CD15+ granulocytes."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

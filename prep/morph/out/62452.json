@@ -1,0 +1,22 @@
+{
+  "id": "62452",
+  "recognize_zh": "這是同一中期分裂相的反轉 DAPI 影像（染色體呈灰黑色類似 G 帶，方便辨認染色體）：der(9) 與 Ph 各有一個融合訊號，正常 9 號為紅、22 號為綠（2F1R1G），7 號與 dic(7;12) 皆有完整的 7q 探針訊號，12 號與 dic(7;12) 各有一個 CEP12 紅訊號。",
+  "features": [
+    "Reverse (inverted) DAPI metaphase image rendering chromosomes grey-black with G-like banding for chromosome identification",
+    "BCR/ABL1 dual-fusion probe: red ABL1 signal on normal chromosome 9, green BCR signal on normal chromosome 22",
+    "Red-green fusion signals on der(9) and the Philadelphia chromosome (2F1R1G pattern)",
+    "CEP12 red signals on normal chromosome 12 and the dic(7;12)",
+    "Aqua, red and green del(7q) probe signals present on both normal chromosome 7 and dic(7;12), indicating no 7q deletion",
+    "Non-morphologic cytogenetic image"
+  ],
+  "describe_en": "Reverse DAPI image of a metaphase hybridized with a BCR/ABL1 dual-color dual-fusion probe, a chromosome 12 centromere enumeration probe, and a triple-color 7q deletion probe; inversion of the DAPI counterstain produces G-like banding that allows each signal to be assigned to a specific chromosome. The BCR/ABL1 probe shows a 2F1R1G pattern with fusion signals on der(9) and the Philadelphia chromosome. CEP12 signals localize to the normal chromosome 12 and the dic(7;12), and the 7q probe signal set is present on both the normal chromosome 7 and the dic(7;12). These findings confirm t(9;22)(q34;q11.2) with BCR::ABL1 fusion and localize chromosome 7 and 12 material to the dic(7;12) without 7q loss.",
+  "ddx": [
+    {"dx": "Der(9) deletion with BCR::ABL1 (1F1R1G)", "vs": "Deletions adjacent to the der(9) breakpoint remove one fusion signal, whereas two fusion signals are present here."},
+    {"dx": "Monosomy 7 / del(7q)", "vs": "These would show only one set of 7q probe signals, whereas two complete sets are present."},
+    {"dx": "Interphase FISH signal overlap", "vs": "Chance colocalization in interphase can mimic fusion, whereas metaphase localization here assigns the fusion signals to der(9) and Ph."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH (reverse DAPI)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "23143",
+  "recognize_zh": "骨髓抹片中可見成群的大型異常細胞，細胞質豐富偏藍、核偏位，旁邊有吞入血球的巨噬細胞；右側核型圖顯示多條結構異常與標記染色體（marker chromosomes），提示非造血腫瘤轉移合併噬血現象。",
+  "features": [
+    "Large atypical non-hematopoietic cells, several times the size of neighboring myeloid cells, in loose clusters",
+    "Abundant pale to deep-blue cytoplasm with eccentric round to oval nuclei and visible nucleoli",
+    "Large macrophage-like cells containing phagocytosed nucleated cells and erythrocytes (hemophagocytosis)",
+    "Background of residual maturing granulocytes, small lymphocytes and erythrocytes",
+    "Panel B: G-banded karyotype with multiple structural rearrangements (add, der) and marker chromosomes, i.e., a complex karyotype"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows clusters of large atypical cells with abundant basophilic cytoplasm, eccentric nuclei and conspicuous nucleoli that are foreign to normal hematopoiesis. Scattered histiocytes contain engulfed nucleated hematopoietic cells and erythrocytes, consistent with hemophagocytosis. Residual granulocytic and lymphoid elements are present in the background. The accompanying marrow karyotype is complex, with multiple structural abnormalities and marker chromosomes. Findings are consistent with metastatic carcinoma (adenocarcinoma) involving the marrow with secondary hemophagocytosis; confirmation requires cytokeratin and site-specific immunohistochemistry on the core biopsy.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with complex karyotype", "vs": "AML blasts are discohesive with high N:C ratio and fine chromatin and express CD34/MPO, whereas these tumor cells are large, cohesive-looking and cytokeratin-positive on immunohistochemistry."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma cells show a perinuclear hof and clock-face chromatin and are CD138-positive and cytokeratin-negative."},
+    {"dx": "Primary hemophagocytic lymphohistiocytosis", "vs": "Primary or infection-associated HLH shows hemophagocytosis without a population of cohesive foreign tumor cells."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma may show melanin pigment and is S100/SOX10/HMB45-positive and cytokeratin-negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; G-banded karyotype",
+  "match": "consistent",
+  "high_yield": false
+}

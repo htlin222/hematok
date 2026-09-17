@@ -1,0 +1,22 @@
+{
+  "id": "60128",
+  "recognize_zh": "骨髓抹片中成片小至中型圓形腫瘤細胞彼此緊貼、核相互擠壓（molding），核質比高、染色質細顆粒狀，背景可見淡紫色纖維狀的 neuropil 帶狀物，符合轉移性神經母細胞瘤。",
+  "features": [
+    "Sheets and cohesive clusters of small-to-medium round tumor cells",
+    "High N:C ratio with scant pale-blue cytoplasm and nuclear molding",
+    "Round nuclei with finely granular, salt-and-pepper chromatin and inconspicuous nucleoli",
+    "Pale lilac fibrillary streaks of neuropil between cell groups",
+    "Admixed red cells and few normal hematopoietic cells"
+  ],
+  "describe_en": "Wright-Giemsa-stained bone marrow aspirate smear shows sheets and cohesive clusters of small to medium-sized round tumor cells with high nuclear-to-cytoplasmic ratios, scant cytoplasm, finely granular chromatin and nuclear molding. Pale lilac fibrillary neuropil is present between the cell groups. Normal hematopoietic elements are sparse. Findings are consistent with metastatic neuroblastoma, which can be confirmed with immunostains such as PHOX2B, synaptophysin or chromogranin.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are non-cohesive, lack molding and neuropil, and are CD45, TdT and CD19 or CD3 positive."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing cells often show cytoplasmic vacuoles and PAS-positive glycogen without neuropil, expressing CD99 and NKX2.2."},
+    {"dx": "Rhabdomyosarcoma", "vs": "Rhabdomyosarcoma may have more cytoplasm and multinucleate forms, and is desmin/myogenin positive."},
+    {"dx": "Medulloblastoma or small cell carcinoma metastasis", "vs": "Clinical age and primary site plus markers (e.g., TTF-1, keratin) help separate these from PHOX2B-positive neuroblastoma."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

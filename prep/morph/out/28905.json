@@ -1,0 +1,21 @@
+{
+  "id": "28905",
+  "recognize_zh": "抹片中原始/前骨髓細胞胞質豐富嗜鹼、布滿粗大嗜天青顆粒，外觀很像急性前骨髓細胞白血病；但 RARA break-apart FISH 在中期染色體上兩個訊號均維持融合（未分離），排除 RARA 重組，符合經 G-CSF 刺激的非 APL 型 AML。",
+  "features": [
+    "Cluster of large myeloid cells with moderate-to-abundant deeply basophilic cytoplasm and prominent coarse azurophilic granulation (panel A)",
+    "Round to oval nuclei with fine-to-intermediate chromatin; nuclei are not bilobed or folded as in hypogranular APL",
+    "Cytoplasmic blebs/pseudopods at the cell margins; no Auer rod bundles (faggot cells) identified",
+    "RARA break-apart FISH on a metaphase showing two intact fused (colocalized) signal pairs on chromosome 17, indicating no RARA rearrangement (panel B)"
+  ],
+  "describe_en": "Smear shows a cluster of large myeloid cells with abundant basophilic cytoplasm heavily packed with coarse azurophilic granules and round to oval nuclei with relatively fine chromatin, closely resembling abnormal promyelocytes; bilobed nuclei and faggot cells are not identified. Metaphase FISH with a RARA (17q21) break-apart probe shows two colocalized signal pairs without split signals, excluding a RARA rearrangement. In a patient who received filgrastim, the hypergranular appearance reflects G-CSF-induced maturation and granulation of leukemic blasts, and findings support acute myeloid leukemia other than acute promyelocytic leukemia.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia with PML::RARA", "vs": "APL shows bilobed or reniform nuclei, faggot cells and a RARA split/PML::RARA fusion signal, whereas the RARA break-apart probe here is intact."},
+    {"dx": "Reactive left-shifted granulopoiesis after G-CSF", "vs": "G-CSF effect alone shows a maturing spectrum with toxic granulation and no increase in blasts, whereas leukemic AML shows a clonal, maturation-arrested blast population."},
+    {"dx": "AML with maturation or t(8;21)", "vs": "AML with t(8;21) has blasts with salmon-colored Golgi zones, single slender Auer rods and dysplastic neutrophils, confirmed by RUNX1::RUNX1T1."},
+    {"dx": "Variant RARA translocations (e.g. ZBTB16::RARA)", "vs": "Variant APL would still show separation of the RARA break-apart probe, which is absent here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; FISH: RARA break-apart",
+  "match": "consistent",
+  "high_yield": false
+}

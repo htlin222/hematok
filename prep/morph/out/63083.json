@@ -1,0 +1,22 @@
+{
+  "id": "63083",
+  "recognize_zh": "A 圖周邊血見中等大小、核質比高、核稍不規則的母細胞；B 圖流式顯示 cCD3+、CD45 弱、CD1a+、CD5+、CD2+、CD7+；C 圖組織由單一形態小至中型淋巴細胞瀰漫取代且 CD1a 瀰漫陽性；CD1a 陽性提示皮質型 T 淋巴母細胞白血病/淋巴瘤。",
+  "features": [
+    "Panel A: blasts of small to medium size with high N:C ratio, scant basophilic cytoplasm and slightly irregular or indented nuclei",
+    "Panel A: moderately condensed to fine chromatin without visible nucleoli or granules",
+    "Panel B: cytoplasmic CD3 positive with dim CD45; CD1a+/CD5+ and CD2+/CD7+ populations",
+    "Panel C-i: diffuse sheets of monotonous small-to-medium lymphoid cells (HES)",
+    "Panel C-ii: diffuse membranous CD1a staining of the infiltrate"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts with high N:C ratios, slightly irregular nuclei, fairly condensed chromatin and scant agranular cytoplasm. Flow cytometry demonstrates cytoplasmic CD3 with dim CD45 and coexpression of CD1a, CD5, CD2 and CD7. The tissue section shows diffuse sheets of monotonous small-to-medium lymphoid cells that are diffusely CD1a-positive. The immunophenotype corresponds to a cortical T-lymphoblastic leukemia/lymphoma; TdT or CD34 staining would further confirm precursor status.",
+  "ddx": [
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells have prominent nucleoli and cytoplasmic blebs and are TdT-negative and CD1a-negative mature T cells."},
+    {"dx": "Thymoma with lymphocyte-rich component", "vs": "Thymoma contains CD1a+/TdT+ immature T cells but also a cytokeratin-positive epithelial meshwork and no circulating blasts."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL is CD1a-negative and CD8-negative with stem/myeloid markers, whereas these blasts are strongly CD1a-positive."},
+    {"dx": "Leukemic phase of mature T-cell lymphoma", "vs": "Mature T-cell lymphomas are surface CD3-positive, TdT/CD1a-negative and often show loss of CD7."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; flow; HES; IHC: CD1a",
+  "match": "consistent",
+  "high_yield": false
+}

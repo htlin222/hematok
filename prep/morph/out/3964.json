@@ -1,0 +1,20 @@
+{
+  "id": "3964",
+  "recognize_zh": "白血球鹼性磷酸酶（LAP）染色中，三顆分葉核嗜中性球的細胞質有中等至密集的藍色沉澱顆粒，核以紅色對比染色，紅血球為淡黃背景；依沉澱密度分級計分（0 至 4+）。",
+  "features": [
+    "Three segmented neutrophils with red-counterstained lobulated nuclei",
+    "Cytoplasm filled with moderate to dense blue granular precipitate indicating alkaline phosphatase activity",
+    "Precipitate distributed throughout the cytoplasm with variable density between cells (roughly 2+ to 3+)",
+    "Unstained, pale yellow erythrocytes in the background"
+  ],
+  "describe_en": "Peripheral blood smear stained for leukocyte alkaline phosphatase (LAP) shows three segmented neutrophils with moderate to dense blue granular cytoplasmic precipitate, corresponding to approximately 2+ to 3+ reactivity, with red nuclear counterstain. The LAP score is calculated by grading 100 consecutive neutrophils from 0 to 4+ and summing the grades. A high score reflects neutrophil activation, as seen in leukemoid reaction, infection, pregnancy, and polycythemia vera, whereas a low score is characteristic of CML and PNH. A complete 100-cell count is required for interpretation of a single field.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia (low LAP score)", "vs": "CML neutrophils show absent or minimal (0 to 1+) precipitate, giving a markedly low score, unlike the strong staining shown here."},
+    {"dx": "Paroxysmal nocturnal hemoglobinuria", "vs": "PNH neutrophils also show low LAP activity, which is confirmed by FLAER/CD55/CD59 flow cytometry."},
+    {"dx": "Myeloperoxidase or Sudan black B stain", "vs": "These stain primary granules of all granulocytes and are not graded for activation, whereas LAP is a graded activation marker of mature neutrophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Leukocyte alkaline phosphatase (LAP) cytochemistry",
+  "match": "consistent",
+  "high_yield": true
+}

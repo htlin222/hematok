@@ -1,0 +1,22 @@
+{
+  "id": "60012",
+  "recognize_zh": "骨髓切片中可見數個巨核細胞，其核分成多個彼此完全分開的圓形核葉（separated nuclear lobes），且細胞本身不算大，這種核葉分離是多系發育不良（dysplasia）的線索，符合 AML 伴隨骨髓發育不良相關變化。",
+  "features": [
+    "Megakaryocytes with multiple widely separated, round, non-lobulated nuclear lobes",
+    "Megakaryocytes of small to intermediate size with abundant pale granular cytoplasm",
+    "Nuclear lobes with coarse chromatin, lacking the normal interconnected lobulation",
+    "Cellular marrow with many immature-appearing mononuclear cells with vesicular chromatin in the background",
+    "Incidental elongated basophilic linear artifact/debris in the field"
+  ],
+  "describe_en": "Bone marrow core biopsy section (H&E, high power) shows a cellular marrow containing megakaryocytes with multiple widely separated, round nuclear lobes rather than a single interconnected lobulated nucleus. The surrounding hematopoietic cells include numerous immature mononuclear cells with open chromatin. Blast percentage cannot be reliably quantified on this single field and requires aspirate differential and immunohistochemistry. Findings are consistent with megakaryocytic dysplasia, supporting acute myeloid leukemia with myelodysplasia-related changes in the appropriate context.",
+  "ddx": [
+    {"dx": "Reactive megakaryocytes", "vs": "Reactive megakaryocytes have a single hyperlobated but connected nucleus, whereas these cells show discrete separated round lobes."},
+    {"dx": "Osteoclasts", "vs": "Osteoclasts have many uniform nuclei with small nucleoli and lie along bone trabeculae, while megakaryocytes lie within the hematopoietic space and stain for CD61/CD42b."},
+    {"dx": "MPN megakaryocytes (e.g., PMF)", "vs": "PMF megakaryocytes form clusters with hyperchromatic cloud-like or bulbous nuclei rather than widely separated small round lobes."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic marrow shows megaloblastic erythroid precursors and giant metamyelocytes without an increase in blasts, and megakaryocyte changes resolve with vitamin replacement."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

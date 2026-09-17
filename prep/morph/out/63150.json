@@ -1,0 +1,21 @@
+{
+  "id": "63150",
+  "recognize_zh": "同一病人的血液在 37°C 下製作抹片時，紅血球分散均勻、沒有凝集團塊，與低溫下的大片凝集形成對比，表示凝集會隨加溫消失，是冷凝集素（cold agglutinin）的特徵。",
+  "features": [
+    "Red cells evenly dispersed as single cells without agglutinates",
+    "Occasional small overlapping pairs only, without true clumping or rouleaux stacks",
+    "Red cells normocytic with preserved central pallor; rare crenated cell",
+    "Three segmented neutrophils with normal morphology",
+    "Adequate scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear prepared from a sample maintained at 37 degrees C shows evenly dispersed red cells without agglutination. Red cell morphology is largely unremarkable with preserved central pallor and only occasional overlapping cells; segmented neutrophils and platelets appear normal. When compared with the smear prepared at low temperature, the disappearance of agglutinates on warming indicates a thermally reversible cold-reactive antibody. Findings are consistent with cold agglutinin-mediated red cell agglutination that resolves at body temperature.",
+  "ddx": [
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA shows spherocytes and agglutination or DAT IgG positivity that does not resolve on warming the sample to 37 degrees C."},
+    {"dx": "Rouleaux formation (paraproteinemia)", "vs": "Rouleaux form stacked linear chains that persist at 37 degrees C and disperse with saline, unlike cold agglutinates that dissolve on warming."},
+    {"dx": "Normal peripheral blood smear", "vs": "Morphology at 37 degrees C can appear normal, so the diagnosis depends on comparison with a cold smear and on DAT (C3d) and cold agglutinin titer."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

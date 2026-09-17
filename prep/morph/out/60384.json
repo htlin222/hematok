@@ -1,0 +1,21 @@
+{
+  "id": "60384",
+  "recognize_zh": "CD20 免疫染色中，大量小型 B 細胞呈強膜狀陽性，形成緻密的背景；其間穿插 CD20 陰性的區域，內含較大的未染色細胞，提示小淋巴球性淋巴瘤（SLL）的背景中混有 CD20 陰性的大型細胞（Hodgkin 型 Richter 轉化時應以 CD30/CD15 確認）。",
+  "features": [
+    "Sheets of small, uniform lymphocytes with strong, crisp membranous CD20 staining",
+    "Diffuse architecture without follicular pattern in the positive areas",
+    "Interspersed irregular CD20-negative zones containing unstained small cells and occasional larger cells",
+    "Large cells within negative zones lack CD20 membrane staining",
+    "Delicate CD20-positive cells outlining the negative areas in a reticular pattern"
+  ],
+  "describe_en": "Immunohistochemistry for CD20 on a lymph node shows a diffuse infiltrate of small lymphocytes with strong membranous CD20 expression. Irregular CD20-negative areas are interspersed, containing unstained small lymphocytes and scattered larger cells that do not express CD20. In the setting of CLL/SLL, the CD20-negative large cells should be characterized with CD30, CD15, PAX5 and EBER to confirm Hodgkin-type Richter transformation. Findings are consistent with an SLL background with CD20-negative large cells, compatible with the reported Hodgkin-type Richter transformation.",
+  "ddx": [
+    {"dx": "CLL/SLL without transformation (proliferation centers)", "vs": "Proliferation-center prolymphocytes and paraimmunoblasts are CD20-positive B cells, whereas Hodgkin/Reed-Sternberg cells are CD20-negative or weak and CD30+/CD15+."},
+    {"dx": "CLL/SLL with scattered HRS-like cells (Hodgkin-like cells in a CLL background)", "vs": "HRS-like cells scattered within CLL without a distinct polymorphous reactive T-cell/histiocyte-rich background are not classified as classic Hodgkin lymphoma; the architecture of the negative zones is the discriminator."},
+    {"dx": "DLBCL-type Richter transformation", "vs": "DLBCL-type Richter forms confluent sheets of large CD20-positive B cells rather than isolated CD20-negative large cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

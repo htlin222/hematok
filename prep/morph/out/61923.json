@@ -1,0 +1,21 @@
+{
+ "id": "61923",
+ "recognize_zh": "與H&E同一塊黏膜的免疫染色：固有層內大量浸潤細胞呈棕色陽性，密集包圍陰性（藍色）的腺窩，但腺窩上皮內幾乎沒有陽性細胞；圖題未註明抗體，只能確認浸潤細胞為強陽性、不具明顯上皮親和性，需對照CD56、CD3等染色判讀。",
+ "features": [
+  "Immunohistochemical stain with strong brown positivity in a dense lamina propria infiltrate",
+  "Positive cells encircle and separate crypts, which are negative",
+  "Minimal intraepithelial positive cells, indicating no significant epitheliotropism",
+  "Crypt architecture preserved; positive cells less dense in the adjacent fragment at lower right",
+  "Specific antibody not indicated in the image or title"
+ ],
+ "describe_en": "An immunohistochemical stain (antibody not specified) on colonic-type mucosa highlights a dense infiltrate of positive cells expanding the lamina propria and surrounding negative crypts. Intraepithelial positive cells are sparse, and crypt architecture is preserved. The specific marker cannot be determined from the image, so lineage cannot be assigned on this stain alone. When the infiltrate is CD56-positive with cytoplasmic CD3 and negative for CD5 and EBER, the findings support NK-cell enteropathy.",
+ "ddx": [
+  {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "ENKTL has the same NK phenotype but is EBER-positive with angiodestruction and necrosis, which are not seen in this non-destructive mucosal infiltrate."},
+  {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma", "vs": "MEITL shows heavy intraepithelial infiltration by CD8+ CD56+ T cells, whereas positive cells here spare the crypt epithelium."},
+  {"dx": "Indolent T-cell lymphoproliferative disorder of the GI tract", "vs": "Indolent T-LPD cells are CD56-negative T cells with surface CD3 and a clonal TCR rearrangement."}
+ ],
+ "specimen": "tissue",
+ "stain": "IHC: marker not specified",
+ "match": "partial",
+ "high_yield": false
+}

@@ -1,0 +1,34 @@
+{
+	"id": "60650",
+	"recognize_zh": "A 圖骨髓抹片可見多個巨噬細胞吞噬紅血球與有核細胞（箭頭，嗜血現象 hemophagocytosis），旁邊有深染的不典型淋巴樣細胞；B 圖 IHC 顯示大量瀰漫浸潤的陽性淋巴球，C 圖紅色核訊號 ISH 顯示許多細胞 EBV（EBER）陽性。",
+	"features": [
+		"Aspirate: macrophages engulfing erythrocytes and nucleated cells (hemophagocytosis, arrows)",
+		"Atypical medium-sized lymphoid cells with dark, irregular nuclei and scant basophilic cytoplasm",
+		"Biopsy IHC (panel B): dense, diffuse interstitial infiltrate of membrane/cytoplasm-positive lymphoid cells replacing marrow",
+		"In situ hybridization (panel C): numerous cells with red nuclear signal, consistent with EBER positivity",
+		"Residual fat spaces scattered among the infiltrate"
+	],
+	"describe_en": "Bone marrow aspirate smear (panel A) shows several histiocytes containing phagocytosed red cells and nucleated cells, accompanied by atypical lymphoid cells with hyperchromatic, irregular nuclei. The core biopsy immunostain (panel B) highlights a dense, diffuse interstitial infiltrate of positive lymphoid cells, presumed to be a T-cell marker given the title, occupying most of the marrow space. EBER in situ hybridization (panel C) labels the nuclei of a large proportion of the infiltrating cells. Findings are consistent with marrow involvement by an EBV-positive peripheral T-cell lymphoma with secondary hemophagocytosis; the specific T-cell antigen in panel B cannot be determined from the image alone.",
+	"ddx": [
+		{
+			"dx": "EBV-associated hemophagocytic lymphohistiocytosis (non-neoplastic)",
+			"vs": "Reactive EBV-HLH lacks a dense, diffuse sheet-like marrow infiltrate of atypical T cells; clonal TCR rearrangement and aberrant T-cell phenotype support lymphoma."
+		},
+		{
+			"dx": "Aggressive NK-cell leukemia",
+			"vs": "Also EBV-positive with hemophagocytosis, but the neoplastic cells lack surface CD3 and TCR rearrangement and express CD56, whereas PTCL shows T-cell lineage."
+		},
+		{
+			"dx": "Systemic EBV-positive T-cell lymphoma of childhood",
+			"vs": "Morphologically overlapping; distinguished mainly by age, clinical setting of acute or chronic active EBV infection, and a CD8-positive phenotype."
+		},
+		{
+			"dx": "Classic Hodgkin lymphoma involving marrow",
+			"vs": "EBV-positive cHL shows scattered large Reed-Sternberg cells (CD30/CD15 positive) with EBER restricted to those cells rather than a diffuse EBER-positive small-medium lymphoid infiltrate."
+		}
+	],
+	"specimen": "BM aspirate",
+	"stain": "Wright-Giemsa; IHC (T-cell marker); ISH: EBER",
+	"match": "consistent",
+	"high_yield": false
+}

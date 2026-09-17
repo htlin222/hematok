@@ -1,0 +1,23 @@
+{
+  "id": "63376",
+  "recognize_zh": "一個約兩倍紅血球大的芽細胞（blast），核染色質細緻、胞質少且偏藍，胞質內包著一整顆完整的紅血球把核擠到一邊，這就是芽細胞的吞噬紅血球（erythrophagocytosis）。",
+  "features": [
+    "Single medium-sized blast, roughly twice the diameter of a red cell",
+    "High N:C ratio with finely dispersed chromatin; nucleoli not distinct",
+    "Scant deeply basophilic agranular cytoplasm rim",
+    "Intact engulfed red cell within the cytoplasm indenting the nucleus",
+    "No Auer rods or cytoplasmic granules seen",
+    "Background of normochromic red cells without other leukocytes in field"
+  ],
+  "describe_en": "Peripheral blood smear shows a medium-sized blast with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin and a thin rim of basophilic agranular cytoplasm. The cytoplasm contains an intact phagocytosed red cell that indents the nucleus. No Auer rods or cytoplasmic granules are seen. In the context of immunophenotyping confirming B-lineage, findings represent erythrophagocytosis by B-lymphoblasts, an uncommon finding in B-ALL.",
+  "ddx": [
+    {"dx": "Acute monocytic/monoblastic leukemia", "vs": "Monoblasts have more abundant gray-blue cytoplasm, folded nuclei and nonspecific esterase positivity; lineage must be confirmed by flow cytometry."},
+    {"dx": "AML with t(8;16)(p11;p13) KAT6A::CREBBP", "vs": "This AML shows prominent erythrophagocytosis by monocytoid blasts with MPO/NSE positivity and the characteristic translocation."},
+    {"dx": "Hemophagocytic histiocyte (HLH)", "vs": "Histiocytes are larger with abundant pale vacuolated cytoplasm and mature chromatin rather than blast chromatin."},
+    {"dx": "Red cell overlying a lymphocyte (artifact)", "vs": "An overlapping red cell lies in a different focal plane and lacks a surrounding cytoplasmic rim or nuclear indentation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

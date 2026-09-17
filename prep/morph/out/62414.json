@@ -1,0 +1,21 @@
+{
+  "id": "62414",
+  "recognize_zh": "骨髓抹片以小淋巴球為主，其中夾雜帶有偏心核、少量藍色細胞質的漿細胞樣淋巴球（黃箭頭）、漿細胞（黑箭頭），以及充滿深紫色顆粒的肥大細胞（紅箭頭）；小淋巴球、漿細胞樣分化加上肥大細胞增多是淋巴漿細胞淋巴瘤（lymphoplasmacytic lymphoma）的典型組合。",
+  "features": [
+    "Increased small mature lymphocytes with round nuclei and condensed chromatin",
+    "Plasmacytoid lymphocytes with eccentric nuclei and a rim of basophilic cytoplasm (yellow arrow)",
+    "Mature plasma cell with eccentric nucleus and abundant blue cytoplasm (black arrow)",
+    "Mast cell packed with dark purple metachromatic granules (red arrow)",
+    "Spectrum of lymphocyte-to-plasma cell differentiation in the same cluster"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows an increase in small mature lymphocytes with condensed chromatin. Admixed are plasmacytoid lymphocytes with eccentric nuclei and modest basophilic cytoplasm, occasional mature plasma cells, and a mast cell with densely packed metachromatic granules. Blasts and large atypical lymphoid cells are not seen in this field. In the context of an IgM paraprotein and MYD88 L265P mutation, the findings are consistent with involvement by lymphoplasmacytic lymphoma.",
+  "ddx": [
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "MZL can look identical, so separation depends on clinical distribution, absence of MYD88 L265P in most cases, and lack of a prominent IgM paraprotein syndrome."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL cells have clumped soccer-ball chromatin with smudge cells, lack plasmacytoid differentiation, and co-express CD5 and CD23."},
+    {"dx": "Plasma cell myeloma (IgM type)", "vs": "Myeloma shows sheets of clonal plasma cells without an accompanying clonal small B-lymphocyte population and usually lacks MYD88 mutation."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

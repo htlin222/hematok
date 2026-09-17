@@ -1,0 +1,21 @@
+{
+  "id": "2414",
+  "recognize_zh": "骨髓切片中片狀的單核芽細胞樣細胞（核摺疊、腎形）之間穿插大量帶亮紅色顆粒的嗜酸性系細胞，芽細胞浸潤加上嗜酸球增多是 AML with inv(16) 在切片上的線索。",
+  "features": [
+    "Diffuse sheets of immature cells effacing normal marrow architecture",
+    "Blasts with oval to folded, indented or reniform nuclei, fine chromatin and small nucleoli",
+    "Moderate pale amphophilic cytoplasm",
+    "Numerous interspersed eosinophil precursors with bright eosinophilic granular cytoplasm",
+    "Scattered small dark pyknotic nuclei and erythroid cells"
+  ],
+  "describe_en": "Bone marrow biopsy (H&E) shows a hypercellular marrow diffusely replaced by sheets of immature cells with oval to folded or reniform nuclei, fine chromatin, small nucleoli, and moderate pale cytoplasm, consistent with myelomonocytic blasts and promonocytes. Numerous eosinophils and eosinophil precursors with brightly eosinophilic granular cytoplasm are scattered among the blasts. Normal trilineage hematopoiesis is not appreciated in this field. Findings are consistent with acute myelomonocytic leukemia with increased eosinophils, suggestive of AML with inv(16)(p13.1q22)/CBFB::MYH11; confirmation by cytogenetics or FISH is required.",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia (PDGFRA/PDGFRB/FGFR1)", "vs": "These show eosinophilia usually with fewer blasts and mast cell or MPN features, and are defined by tyrosine kinase fusions rather than CBFB::MYH11."},
+    {"dx": "Chronic eosinophilic leukemia", "vs": "CEL has mature eosinophils predominating with <20% blasts, rather than sheets of myelomonocytic blasts."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "Langerhans cells have grooved coffee-bean nuclei and abundant pale cytoplasm with CD1a/langerin positivity, while blasts are CD34/CD117/MPO or monocytic marker positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

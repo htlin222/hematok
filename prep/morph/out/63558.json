@@ -1,0 +1,22 @@
+{
+  "id": "63558",
+  "recognize_zh": "三顆嗜中性球的細胞質內含有多個淡藍色、長條或卵圓、帶透亮暈圈的菌體，排列成分節或出芽狀的假菌絲（pseudohyphae），代表白血球正在吞噬酵母菌（如 Candida）。",
+  "features": [
+    "Three neutrophils containing intracytoplasmic organisms (arrows)",
+    "Organisms are blue, elongated to oval, with a clear halo/capsule-like space, some in branching chains with constrictions consistent with budding pseudohyphae",
+    "Phagocytosed organisms displace and compress the lobated neutrophil nucleus",
+    "Organisms are much larger than bacteria and lack the tiny uniform dot-like morphology of Histoplasma",
+    "Background: thick area of smear with crowded, overlapping red cells and a small platelet or nuclear fragment"
+  ],
+  "describe_en": "Peripheral blood smear (May-Grünwald stain, 1000x) shows three neutrophils containing phagocytosed fungal elements (arrows). The organisms are pale blue, oval to elongated structures surrounded by a clear halo, several arranged in short segmented, budding chains consistent with pseudohyphae, and they indent the neutrophil nuclei. The background is a thick area of the smear with overlapping red cells. Findings are consistent with fungemia with neutrophil phagocytosis of yeast and pseudohyphae, most suggestive of Candida species; blood cultures and species identification are required.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts are small (2-4 micrometers), uniform, oval with a crescentic nuclear dot and pseudocapsule, typically within monocytes/macrophages, and do not form pseudohyphae."},
+    {"dx": "Döhle bodies", "vs": "Döhle bodies are pale blue-grey amorphous cytoplasmic patches at the cell periphery without a refractile wall, halo or budding."},
+    {"dx": "Phagocytosed bacteria (bacilli)", "vs": "Bacilli are much smaller, darker and uniform rods without clear halos or budding segmentation."},
+    {"dx": "Overlying platelets or stain precipitate", "vs": "Platelets are purple granular fragments and precipitate is dark and in a different plane, whereas these organisms are within vacuoles with defined walls."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald",
+  "match": "consistent",
+  "high_yield": true
+}

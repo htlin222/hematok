@@ -1,0 +1,22 @@
+{
+  "id": "5843",
+  "recognize_zh": "視野中大量芽細胞，核染色質細緻、核仁明顯；中央一個芽細胞的細胞質空泡內包著一顆完整紅血球，把核擠成新月形，這就是芽細胞吞噬紅血球（erythrophagocytosis）。",
+  "features": [
+    "Numerous medium to large blasts with round to slightly irregular nuclei and high N:C ratio",
+    "Finely dispersed chromatin with one or more prominent nucleoli",
+    "Scant to moderate grey-blue cytoplasm, a few with fine granules or blebs",
+    "Central blast containing an intact engulfed red cell within a clear phagocytic vacuole, compressing the nucleus into a crescent",
+    "Crowded thick-area smear with many red cells and a few small dark nucleated cells"
+  ],
+  "describe_en": "Smear shows a predominance of blasts with round to slightly irregular nuclei, finely dispersed chromatin, prominent nucleoli and scant to moderate agranular to finely granular cytoplasm. One blast contains an intact red cell within a clear phagocytic vacuole, displacing the nucleus to a crescent (erythrophagocytosis by blasts). Mature histiocytes are not seen in this field. Findings are consistent with acute myeloid leukemia with blast erythrophagocytosis; this feature should prompt evaluation for monocytic differentiation and KAT6A::CREBBP t(8;16)(p11.2;p13.3).",
+  "ddx": [
+    {"dx": "AML with t(8;16)(p11.2;p13.3); KAT6A::CREBBP", "vs": "This entity characteristically shows monocytic blasts with erythrophagocytosis, so cytogenetic testing is needed to separate it from AML without a defining genetic abnormality."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "In HLH the phagocytes are mature benign macrophages with abundant cytoplasm and condensed nuclei, not blasts with fine chromatin and nucleoli."},
+    {"dx": "Megakaryocyte emperipolesis", "vs": "Emperipolesis occurs in large multilobated megakaryocytes and the enclosed cells are intact and viable, unlike a phagocytic vacuole within a blast."},
+    {"dx": "Acute monocytic leukemia (AML with monocytic differentiation)", "vs": "Monoblasts and promonocytes may also phagocytose red cells; nonspecific esterase positivity and CD14/CD64/CD11b expression define monocytic lineage."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

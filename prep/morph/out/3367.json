@@ -1,0 +1,22 @@
+{
+  "id": "3367",
+  "recognize_zh": "骨髓切片 H&E 中可見成片大型組織球，細胞質豐富、呈灰粉紅色細顆粒或纖維狀質地，細胞核小而偏心，其間夾雜紅血球與殘存造血細胞；大量顆粒狀細胞質的組織球取代骨髓，是骨髓組織球增生的表現，外觀類似 Gaucher 或假 Gaucher 細胞。",
+  "features": [
+    "Aggregates of large histiocytes with abundant pale grey-pink cytoplasm",
+    "Cytoplasm finely granular to fibrillary, giving a stippled texture",
+    "Small, bland, eccentric round to oval nuclei",
+    "Interspersed residual hematopoietic cells, including erythroid and myeloid precursors",
+    "Extravasated red cells and loose, partly disrupted stroma"
+  ],
+  "describe_en": "Bone marrow section shows extensive aggregates of large histiocytes with abundant pale grey-pink, finely granular to fibrillary cytoplasm and small bland eccentric nuclei. Residual hematopoietic cells, including erythroid and myeloid precursors, and extravasated red cells are interspersed among the histiocytes. No granulomas, necrosis or atypical tumor cells are identified in this field. Findings are consistent with marrow histiocytosis with Gaucher-like (storage-type) histiocytes; the differential includes Gaucher disease and pseudo-Gaucher cells secondary to high cell turnover, and PAS, AFB stains and clinical correlation are recommended.",
+  "ddx": [
+    {"dx": "Gaucher disease", "vs": "True Gaucher cells show the same crumpled fibrillary cytoplasm but are confirmed by deficient glucocerebrosidase activity or GBA1 mutation."},
+    {"dx": "Pseudo-Gaucher cells in CML, myeloma or thalassemia", "vs": "Pseudo-Gaucher cells are morphologically similar but occur with an underlying neoplasm or hemolytic state recognizable elsewhere in the marrow."},
+    {"dx": "Mycobacterium avium complex infection", "vs": "MAC-laden histiocytes have a striated pseudo-Gaucher appearance but are strongly AFB-positive, typically in immunosuppressed patients."},
+    {"dx": "Metastatic signet-ring or clear cell carcinoma", "vs": "Carcinoma cells have atypical hyperchromatic nuclei and are cytokeratin-positive and CD68/CD163-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

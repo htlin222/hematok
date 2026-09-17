@@ -1,0 +1,22 @@
+{
+  "id": "60081",
+  "recognize_zh": "中倍視野內可數到十個以上大型巨核細胞，細胞質豐富、核多葉或深度分葉，彼此分散在造血組織中而非密集成簇，背景細胞量高；這種「大而成熟、分散分布」的巨核細胞增生是本態性血小板增多症（ET）的典型切片表現。",
+  "features": [
+    "Hypercellular marrow with markedly increased megakaryocytes",
+    "Megakaryocytes large to giant with abundant eosinophilic cytoplasm",
+    "Nuclei deeply lobulated/hyperlobated with mature chromatin",
+    "Megakaryocytes dispersed singly throughout the marrow, without tight clusters",
+    "Background erythroid and granulocytic precursors with preserved maturation; dilated sinusoids"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a hypercellular marrow with a marked increase in megakaryocytes. The megakaryocytes are predominantly large with abundant eosinophilic cytoplasm and deeply lobulated or hyperlobated nuclei, and they are dispersed individually throughout the interstitium rather than forming dense clusters. Erythroid and granulocytic lineages appear to mature normally, with no increase in blasts and no obvious fibrosis on H&E. Findings are consistent with essential thrombocythemia, pending correlation with platelet count, driver mutation status, and reticulin grade.",
+  "ddx": [
+    {"dx": "Prefibrotic primary myelofibrosis", "vs": "Megakaryocytes are dysplastic with hyperchromatic, bulbous cloud-like nuclei and abnormal N:C ratio, forming tight clusters, often with increased reticulin."},
+    {"dx": "Polycythemia vera", "vs": "Shows panmyelosis with pleomorphic megakaryocytes of varying size and prominent erythroid hyperplasia, with elevated hemoglobin."},
+    {"dx": "MDS/MPN with ring sideroblasts and thrombocytosis", "vs": "Has similar large megakaryocytes but shows erythroid dysplasia and >=15% ring sideroblasts on iron stain, often with SF3B1 mutation."},
+    {"dx": "Reactive megakaryocytic hyperplasia", "vs": "Reactive megakaryocytes lack the consistent giant hyperlobated forms, and the clinical context (bleeding, iron deficiency, inflammation) and absent JAK2/CALR/MPL mutation support it."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

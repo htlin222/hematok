@@ -1,0 +1,22 @@
+{
+  "id": "65454",
+  "recognize_zh": "中央這顆顆粒球的核呈甜甜圈狀，中間有一個淡色的圓孔，染色質粗而成塊，細胞質淡粉紫色帶細顆粒。核成環狀、中央有孔（不是單純分葉重疊）就是 ring neutrophil，可見於 MDS、白血病或巨母紅血球性貧血。",
+  "features": [
+    "Granulocyte with a doughnut-shaped (ring) nucleus enclosing a central pale hole",
+    "Coarse, condensed mature chromatin around the ring",
+    "Rim of pale pink-lilac cytoplasm with fine granules",
+    "Cell size close to that of a neutrophil or slightly smaller",
+    "Background red cells show crenation (echinocytes), likely an artifact of smear preparation"
+  ],
+  "describe_en": "Peripheral blood smear shows a granulocyte whose nucleus forms a continuous ring around a central clear hole, with condensed chromatin and a rim of pale, finely granular cytoplasm. Background red cells show diffuse crenation, most likely artifactual. The nuclear configuration represents a ring (doughnut) neutrophil or ring-form granulocyte. This finding is non-specific but may be seen in myelodysplastic neoplasms, myeloid leukemias, megaloblastic anemia and drug effects; correlation with the rest of the smear and clinical history is recommended.",
+  "ddx": [
+    {"dx": "Normal neutrophil with overlapping lobes", "vs": "Overlapping lobes show focal separation and filaments on fine focusing, whereas a ring nucleus is a continuous band surrounding a clear central space."},
+    {"dx": "Hypersegmented neutrophil of megaloblastic anemia", "vs": "Hypersegmented neutrophils have six or more discrete lobes, while this nucleus is a single annular structure."},
+    {"dx": "Pseudo-Pelger-Huët neutrophil", "vs": "Pseudo-Pelger cells have a round unilobed or bilobed nucleus without a central hole."},
+    {"dx": "Ring-shaped nucleus in an erythroblast or lymphocyte", "vs": "Erythroblasts have basophilic to polychromatic agranular cytoplasm and lymphocytes a high N:C ratio, unlike the pale granular cytoplasm here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

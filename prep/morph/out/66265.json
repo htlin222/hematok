@@ -1,0 +1,22 @@
+{
+  "id": "66265",
+  "recognize_zh": "八格組合圖：A 圖 H&E 骨切片被單調的小至中型未成熟細胞（核圓、細胞質少）取代；免疫染色 PAX5（B）、TdT（C）、CD10（F）、CD79a（G）強陽性，CD34 局部陽性（D），但 CD19（E）幾乎全陰、CD22 僅弱陽性（H），重點是認出 CD19 陰性的 B 淋巴母細胞白血病。",
+  "features": [
+    "Panel A (H&E): bone biopsy with marrow replaced by sheets of monotonous small to medium immature cells with scant cytoplasm and round to oval nuclei (inset)",
+    "Panel B: diffuse strong nuclear PAX5 positivity",
+    "Panel C: diffuse strong nuclear TdT positivity; Panel D: focal CD34 positivity",
+    "Panel E: CD19 essentially negative in the blasts, with only rare scattered positive cells",
+    "Panel F: strong diffuse CD10; Panel G: CD79a positive; Panel H: CD22 weak in a subset"
+  ],
+  "describe_en": "Bone biopsy from a lytic lesion shows marrow replacement by sheets of monotonous small to medium-sized immature cells with scant cytoplasm and round to oval nuclei. By immunohistochemistry, the blasts are strongly positive for PAX5, TdT, CD10 and CD79a, focally positive for CD34 and weakly positive for CD22 in a subset, but are negative for CD19. The provided panel also reports negativity for CD20, T-cell markers, CD117, MPO, CK20 and neuroendocrine markers. Findings are consistent with B-lymphoblastic leukemia/lymphoma with an unusual de novo CD19-negative immunophenotype, which has implications for CD19-directed therapy and MRD monitoring.",
+  "ddx": [
+    {"dx": "Merkel cell carcinoma", "vs": "Merkel cell carcinoma can express PAX5 and TdT but is CK20 dot-positive and expresses synaptophysin, chromogranin and INSM1, while lacking CD10 and CD79a."},
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-LBL shares TdT and CD34 positivity but expresses cytoplasmic CD3, CD7 and CD1a and lacks PAX5 and CD79a."},
+    {"dx": "Ewing sarcoma or other small round blue cell tumor", "vs": "Ewing sarcoma is CD99 and NKX2.2 positive with EWSR1 rearrangement and lacks PAX5, CD79a and TdT."},
+    {"dx": "Acute myeloid leukemia with aberrant PAX5 (e.g., t(8;21))", "vs": "AML with t(8;21) can express PAX5 and CD19 but is MPO and CD117 positive, which were negative here."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: PAX5, TdT, CD34, CD19, CD10, CD79a, CD22",
+  "match": "consistent",
+  "high_yield": false
+}

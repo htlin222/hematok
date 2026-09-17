@@ -1,0 +1,22 @@
+{
+  "id": "66271",
+  "recognize_zh": "腦脊髓液細胞離心抹片中央可見一團深紫色、橢圓形、部分呈芽生狀的酵母菌（budding yeast），位於細胞外，大小比周圍的白血球小，型態符合念珠菌（Candida）；菌種需靠培養或分子檢測確認。",
+  "features": [
+    "Central extracellular aggregate of numerous small oval to slightly elongated deeply basophilic yeast forms, some showing narrow-based budding",
+    "Individual yeasts are smaller than the surrounding leukocytes and lack a visible clear capsule/halo",
+    "Scattered small round leukocytes, several poorly preserved, distributed across the cytospin",
+    "Amorphous purple precipitate/debris clumps and a few refractile brownish-green particles (likely contaminant or debris)",
+    "Image magnification and resolution limit assessment of pseudohyphae and fine budding detail"
+  ],
+  "describe_en": "Cytospin preparation of cerebrospinal fluid shows a cluster of numerous extracellular, small oval basophilic yeast forms, some with narrow-based budding, in a background of scattered, partly degenerated leukocytes and amorphous debris. No definite capsule or halo is seen around the organisms, and true hyphae are not identified. A few refractile brownish particles are present, likely debris or contaminant. Findings are consistent with yeast forms suggestive of Candida species; confirmation by culture and exclusion of Cryptococcus by India ink/cryptococcal antigen are recommended.",
+  "ddx": [
+    {"dx": "Cryptococcus neoformans", "vs": "Cryptococcus shows round yeasts of variable size with a thick clear capsule halo and narrow-based budding, and is cryptococcal antigen positive, whereas Candida yeasts are small, oval, uniform and non-encapsulated."},
+    {"dx": "Stain precipitate or debris", "vs": "Precipitate is irregular, non-budding and refractile at different focal planes, while yeasts are uniform oval bodies with consistent size and budding."},
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts are tiny (2-4 um) and typically intracellular within macrophages or neutrophils rather than forming extracellular clusters."},
+    {"dx": "Bacterial cocci clusters", "vs": "Cocci are much smaller than yeasts and round without budding."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

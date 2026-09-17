@@ -1,0 +1,21 @@
+{
+  "id": "61635",
+  "recognize_zh": "周邊血液中一個大型非典型單核細胞，核不規則分葉/摺疊、染色質略開放，細胞質灰藍且邊緣不規則；可能為循環中的淋巴瘤細胞，但型態與單核球重疊，需流式或骨髓切片確認。",
+  "features": [
+    "Single large atypical mononuclear cell, about 2-2.5 times a red cell diameter",
+    "Irregular, folded to lobulated nucleus with moderately open chromatin and a possible pale nucleolar area",
+    "Moderate gray-blue cytoplasm with irregular, slightly ruffled borders and no granules",
+    "Adjacent small dense dark round nucleus (likely pyknotic/naked nucleus)",
+    "Background red cells with occasional crenated forms; platelets sparse"
+  ],
+  "describe_en": "Peripheral blood smear shows a single large atypical mononuclear cell with an irregular folded to lobulated nucleus, moderately open chromatin and moderate gray-blue cytoplasm with irregular borders. A small dense naked nucleus lies nearby, and the background red cells include scattered crenated forms with sparse platelets. The large cell may represent a circulating neoplastic lymphoid cell, but its features overlap with a monocyte and it cannot be classified with certainty on morphology alone. In the clinical context of intravascular large B-cell lymphoma, flow cytometry or tissue correlation is needed to confirm circulating lymphoma cells.",
+  "ddx": [
+    {"dx": "Normal monocyte", "vs": "Monocytes have lacy chromatin without nucleoli, gray-blue cytoplasm with fine azurophilic granules and vacuoles, whereas lymphoma cells have more basophilic agranular cytoplasm and distinct nucleoli and are CD20 positive by flow."},
+    {"dx": "Reactive (atypical) lymphocyte", "vs": "Reactive lymphocytes show abundant cytoplasm that scallops around adjacent red cells with basophilia at the periphery, occurring in a heterogeneous spectrum."},
+    {"dx": "Circulating blast", "vs": "Blasts have round nuclei with very fine chromatin, high N:C ratio and prominent nucleoli, and express CD34/CD117 or TdT."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

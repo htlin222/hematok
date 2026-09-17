@@ -1,0 +1,22 @@
+{
+  "id": "62783",
+  "recognize_zh": "骨髓抹片中嗜伊紅球與其前驅細胞明顯增多，其間散在紡錘形、兩端拉出細尾、胞質塞滿深紫色顆粒的異常肥大細胞；嗜伊紅球增多加上梭形異型肥大細胞，要想到伴 PDGFRB 重排的骨髓/淋巴腫瘤。",
+  "features": [
+    "Markedly increased eosinophils and eosinophilic myelocytes with coarse orange-purple granules (low power)",
+    "Spindle-shaped (fusiform) mast cells with elongated cytoplasmic tails",
+    "Mast cell cytoplasm densely packed with dark metachromatic granules obscuring the nucleus",
+    "Occasional mast cells with irregular hypogranular cytoplasmic extensions",
+    "No obvious increase in blasts in the fields shown"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a hypercellular specimen with a marked increase in eosinophils and eosinophilic precursors. Scattered among them are atypical mast cells with spindle-shaped, fusiform outlines and tapering cytoplasmic tails, with cytoplasm densely packed with dark metachromatic granules that obscure the nuclei. Blasts are not conspicuously increased in the fields shown. In the context of eosinophilia, findings are consistent with a myeloid/lymphoid neoplasm with eosinophilia and PDGFRB rearrangement with atypical mast cell proliferation; tryptase and CD25 immunostaining and confirmation of PDGFRB rearrangement are recommended.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis with associated myeloid neoplasm (KIT D816V)", "vs": "SM shows multifocal dense mast cell aggregates with KIT D816V mutation, whereas PDGFRB-rearranged neoplasms show loose spindle mast cells without KIT mutation and respond to imatinib."},
+    {"dx": "Myeloid/lymphoid neoplasm with PDGFRA (FIP1L1::PDGFRA) rearrangement", "vs": "Morphology including eosinophilia and spindle CD25-positive mast cells overlaps, so separation depends on FISH or RT-PCR for PDGFRA versus PDGFRB."},
+    {"dx": "Chronic eosinophilic leukemia, NOS or reactive eosinophilia", "vs": "Reactive or CEL-NOS eosinophilia lacks atypical spindle-shaped mast cells and tyrosine kinase gene rearrangement."},
+    {"dx": "Normal (reactive) mast cells", "vs": "Normal mast cells are round to oval with centrally placed nuclei and evenly distributed granules, not fusiform cells with tails."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

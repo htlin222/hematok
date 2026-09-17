@@ -1,0 +1,22 @@
+{
+  "id": "65465",
+  "recognize_zh": "這是九格流式細胞儀圖：紅色的芽細胞群位於 CD45 弱陽性、低側散射（SSC）的位置，並呈 HLA-DR 與 CD123 強陽性（標為 BPDC）、CD4 陽性、CD56 部分陽性、CD304 陽性；CD34、CD117、MPO、cCD3、CD19、CD14、CD64 則全為陰性。這個「CD4+/CD56+/CD123 強陽性、其他系別標記陰性」的組合，是 BPDCN 的免疫表型。",
+  "features": [
+    "CD45 versus SSC: red blast gate with dim CD45 and low side scatter, distinct from granulocytes, monocytes and lymphocytes",
+    "HLA-DR versus CD123: blasts are bright CD123 and HLA-DR positive, separate from the basophil gate (CD123+/HLA-DR−)",
+    "CD4 positive with surface CD3 negative; CD56 variable positive with CD8 negative",
+    "CD304 (BDCA-4) positive and CD38 positive, CD34 and CD117 negative",
+    "Lineage markers negative: cMPO, cCD3, CD19, CD14 and CD64"
+  ],
+  "describe_en": "Flow cytometric dot plots show a distinct blast population (red) with dim to moderate CD45 and low side scatter. The blasts are HLA-DR+, bright CD123+, CD304+, CD4+, CD38+ and variably CD56+, and are negative for CD34, CD117, surface and cytoplasmic CD3, CD8, CD19, cytoplasmic MPO, CD14 and CD64. The lack of myeloid, monocytic, B- and T-lineage markers together with co-expression of CD4, CD56 and bright CD123 is characteristic. Findings support a diagnosis of blastic plasmacytoid dendritic cell neoplasm; TCF4, TCL1 or CD2AP on tissue can further confirm.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monocytic AML is often CD4+/CD56+/CD123+ but expresses CD14, CD64, CD11b or lysozyme, which are negative here."},
+    {"dx": "Mature plasmacytoid dendritic cell proliferation associated with myeloid neoplasm", "vs": "Reactive or MN-associated pDCs are CD56 negative, often CD34-positive myeloid blasts coexist, and the pDCs show a mature CD123+/CD303+ phenotype without an atypical dominant blast population."},
+    {"dx": "NK-cell or T-lymphoblastic leukemia", "vs": "NK/T neoplasms express CD2, CD7 or cytoplasmic CD3 and lack bright CD123 with HLA-DR."},
+    {"dx": "Early T-precursor or mixed-phenotype acute leukemia", "vs": "These express cCD3 and/or MPO and stem-cell markers such as CD34/CD117, all negative in this case."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

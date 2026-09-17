@@ -1,0 +1,21 @@
+{
+  "id": "63321",
+  "recognize_zh": "中倍視野中央的嗜中性球（綠線）四周貼滿一圈紅血球形成玫瑰花狀（rosette），周圍多處紅血球重疊成不規則團塊（黃線，agglutination）；兩者並見提示紅血球表面有抗體或補體結合。",
+  "features": [
+    "Segmented neutrophil encircled by a ring of adherent red cells (rosette, green line)",
+    "Multiple irregular red cell agglutinates scattered through the field (yellow lines)",
+    "Agglutinates are clustered rather than linear coin stacks",
+    "Occasional crenated red cells and scattered normal platelets",
+    "No nucleated red cells or schistocytes evident in this field"
+  ],
+  "describe_en": "Peripheral blood smear at intermediate power shows multiple irregular red cell agglutinates and a central segmented neutrophil surrounded by a rosette of adherent red cells. Occasional crenated red cells and normal-appearing platelets are present; schistocytes and nucleated red cells are not seen in this field. Findings of red cell agglutination with rosetting around neutrophils are suggestive of immune-mediated hemolytic anemia with antibody- or complement-coated red cells, to be correlated with the direct antiglobulin test.",
+  "ddx": [
+    {"dx": "Rouleaux", "vs": "Rouleaux are linear coin stacks without rosetting and disperse on saline replacement."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows platelets, not red cells, ringing neutrophils and is an EDTA-dependent artifact."},
+    {"dx": "Pseudoagglutination from slow drying", "vs": "Drying artifact produces uneven clumping in thick areas without circumferential red cell adherence to neutrophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

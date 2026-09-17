@@ -1,0 +1,22 @@
+{
+  "id": "65198",
+  "recognize_zh": "影像上後腹腔含脂肪的腫塊，粗針切片可見三系造血細胞（含巨核細胞）構成骨髓脂肪瘤；其中另有一群伴隨嗜酸性球的梭形/長形細胞聚集，CD117 與 CD25 陽性，提示異常肥大細胞（全身性肥大細胞增生症）。",
+  "features": [
+    "PET-CT and axial CT: fat-containing retroperitoneal mass in the left lower abdomen (arrows) with low FDG avidity",
+    "H&E: trilineage hematopoietic elements including a megakaryocyte and erythroid/myeloid precursors adjacent to adipose tissue",
+    "Aggregate of spindle to elongated cells with oval nuclei and moderate pale eosinophilic cytoplasm, admixed with eosinophils",
+    "CD117 strong membranous/cytoplasmic staining in the aggregated cells",
+    "CD25 aberrant membranous positivity in the same cell population"
+  ],
+  "describe_en": "Imaging shows a fat-containing retroperitoneal mass. Needle core biopsy shows adipose tissue with trilineage hematopoietic elements including megakaryocytes, consistent with myelolipoma. In addition, there is an aggregate of spindle-shaped cells with oval nuclei and pale cytoplasm associated with eosinophils; these cells are positive for CD117 with aberrant CD25 expression (tryptase positive per the report). Findings are consistent with myelolipoma involved by an abnormal mast cell aggregate, suspicious for systemic mastocytosis, which was confirmed on marrow and KIT D816V testing.",
+  "ddx": [
+    {"dx": "Extramedullary hematopoiesis", "vs": "EMH shows hematopoietic elements in organs such as spleen or liver in a patient with marrow failure or hemoglobinopathy, lacking the discrete mature adipose tumor mass of myelolipoma; neither explains CD25+ mast cells."},
+    {"dx": "Liposarcoma (well-differentiated)", "vs": "Liposarcoma shows atypical hyperchromatic stromal cells and lipoblasts with MDM2 amplification rather than benign trilineage hematopoiesis."},
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are scattered, round and CD25 negative, whereas these are spindled, aggregated and CD25 positive."},
+    {"dx": "Eosinophil-rich spindle cell lesion (e.g., Langerhans cell histiocytosis)", "vs": "LCH cells have grooved nuclei and are CD1a/langerin positive, not CD117/tryptase/CD25 positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD117, CD25; PET-CT/CT",
+  "match": "consistent",
+  "high_yield": false
+}

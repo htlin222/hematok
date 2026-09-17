@@ -1,0 +1,22 @@
+{
+  "id": "63013",
+  "recognize_zh": "周邊血中可見中型異常淋巴球，胞質淡藍、周邊有空泡且透亮，核呈分葉或腦回狀；流式在 CD4+ T 細胞中找到一群 CD10+（35.5%）的濾泡輔助 T 細胞表型，淋巴結切片則為多形性浸潤伴高內皮小靜脈，支持血管免疫母細胞性 T 細胞淋巴瘤（AITL）的周邊血侵犯。",
+  "features": [
+    "Medium-sized atypical lymphoid cells with moderate pale-blue cytoplasm containing peripheral vacuoles and clear zones (A-D, G)",
+    "Irregular, lobulated to cerebriform nuclei with moderately condensed chromatin and inconspicuous nucleoli",
+    "Occasional large basophilic immunoblast-like/plasmacytoid cells (E, F arrow)",
+    "Flow cytometry gated on CD4+ lymphocytes shows a distinct CD10+ subset (35.5%) with variable CD200 (H)",
+    "Lymph node H&E with polymorphous infiltrate of small-medium lymphocytes, clear cells, eosinophils and vessels (I)"
+  ],
+  "describe_en": "Composite figure. Peripheral blood smear shows medium-sized atypical lymphoid cells with moderate amounts of pale cytoplasm containing vacuoles and perinuclear clearing, and irregular lobulated to cerebriform nuclei with moderately condensed chromatin (panels A-D; cytospin cluster in G). Scattered large basophilic immunoblast-like cells are also present (E, F). Flow cytometry gated on CD4+ lymphocytes demonstrates an aberrant CD10+ T-cell population comprising about 35% of CD4+ events (H), and the lymph node shows a polymorphous infiltrate with prominent vasculature and clear cells (I). Findings are consistent with circulating angioimmunoblastic T-cell lymphoma (nodal T-follicular helper cell lymphoma, angioimmunoblastic type).",
+  "ddx": [
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform nuclei but lack clear vacuolated cytoplasm and are CD4+CD7-CD26- without CD10 or other TFH markers (PD1, ICOS, CXCL13)."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows polylobated 'flower cells' with more condensed chromatin, CD25 strong expression, and HTLV-1 serology, rather than a CD10+ TFH phenotype."},
+    {"dx": "Reactive T lymphocytosis / infectious mononucleosis", "vs": "Reactive lymphocytes are heterogeneous with abundant basophilic cytoplasm hugging red cells and do not form a phenotypically aberrant CD4+CD10+ population or clonal TCR rearrangement."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS lacks expression of two or more TFH markers (CD10, PD1, ICOS, CXCL13, BCL6) and the node lacks the FDC meshwork expansion and HEV proliferation of AITL."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry; H&E",
+  "match": "consistent",
+  "high_yield": false
+}

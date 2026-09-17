@@ -1,0 +1,34 @@
+{
+	"id": "60942",
+	"recognize_zh": "胸部 CT 左上肺有空洞性腫塊（像肺膿瘍），PET 呈強烈攝取；切片為混合性發炎背景（嗜伊紅性球、組織球、壞死）中散在大型異型細胞，免疫染色大型細胞呈膜與高基氏體區陽性，符合典型何杰金淋巴瘤。",
+	"features": [
+		"Clinical photo: hand with metallic-painted, curved nails (nail changes/clubbing cannot be reliably assessed)",
+		"Cytology: large atypical mononuclear/multinucleated cell with prominent nucleolus among small lymphocytes",
+		"H&E: polymorphous infiltrate of lymphocytes, eosinophils and histiocytes with necrotic areas and scattered large Hodgkin/Reed-Sternberg-like cells",
+		"IHC: large cells with membranous and paranuclear dot-like staining (consistent with CD30/CD15); background lymphocytes negative",
+		"CT: left upper lobe cavitating consolidation/mass; PET-CT: intense FDG uptake; follow-up PET: resolution with residual physiologic mediastinal activity"
+	],
+	"describe_en": "Chest CT shows a cavitary consolidative mass in the left upper lobe that is intensely FDG-avid on PET-CT, radiologically mimicking a lung abscess, with marked metabolic response on follow-up imaging. Cytologic preparation contains a large atypical cell with a prominent nucleolus among small lymphocytes. The biopsy shows a polymorphous inflammatory background of small lymphocytes, eosinophils and histiocytes with necrosis, in which scattered large cells with irregular, multilobated nuclei and prominent nucleoli are present. The large cells show membranous and Golgi-pattern immunoreactivity, while the background is negative. Findings are consistent with classic Hodgkin lymphoma involving lung, presenting as a cavitating lesion.",
+	"ddx": [
+		{
+			"dx": "Lung abscess / necrotizing pneumonia",
+			"vs": "Abscesses show neutrophil-rich necrosis with organisms and lack CD30+/CD15+ Hodgkin/Reed-Sternberg cells."
+		},
+		{
+			"dx": "Granulomatosis with polyangiitis",
+			"vs": "GPA shows geographic necrosis with palisading histiocytes, vasculitis and ANCA positivity rather than CD30+ HRS cells."
+		},
+		{
+			"dx": "Anaplastic large cell lymphoma or diffuse large B-cell lymphoma",
+			"vs": "These form sheets of large neoplastic cells (ALK/CD30 cohesive sheets, or CD20/CD45+ B cells) rather than rare HRS cells in a reactive milieu."
+		},
+		{
+			"dx": "Lymphomatoid granulomatosis",
+			"vs": "Angiocentric EBV+ large B cells expressing CD20 and CD45 with vascular infiltration, whereas HRS cells are CD15+ and CD20/CD45 negative."
+		}
+	],
+	"specimen": "tissue",
+	"stain": "H&E; cytology; IHC (CD30/CD15 pattern); CT; PET-CT",
+	"match": "consistent",
+	"high_yield": false
+}

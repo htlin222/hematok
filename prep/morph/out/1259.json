@@ -1,0 +1,22 @@
+{
+  "id": "1259",
+  "recognize_zh": "免疫染色中，陰性小淋巴球背景裡有成群及散在的大型細胞呈強棕色細胞質陽性，細胞明顯大於周圍細胞，此分布符合黑色素細胞標記（如 Melan-A/HMB45/S100）凸顯轉移的黑色素瘤細胞。",
+  "features": [
+    "Clusters and scattered single large cells with strong brown cytoplasmic staining",
+    "Positive cells are 2-3 times larger than the surrounding negative small cells",
+    "Some positive cells show granular or dark, pigment-like cytoplasmic staining",
+    "Positive cells arranged in irregular groups and streaks rather than diffuse sheets",
+    "Background of densely packed negative small round cells"
+  ],
+  "describe_en": "Immunohistochemical stain shows clusters and scattered single large cells with strong cytoplasmic positivity in a background of negative small round cells. The positive cells are considerably larger than the background cells and form irregular aggregates and streaks. The specific antibody is not stated, but the cytoplasmic pattern is compatible with a melanocytic marker such as Melan-A, HMB45 or S100; intrinsic melanin pigment should not be mistaken for chromogen. Findings support involvement by metastatic melanoma.",
+  "ddx": [
+    {"dx": "Melanophages with pigment mimicking chromogen", "vs": "Melanin-laden macrophages appear brown on any stain, so a red chromogen or SOX10 nuclear staining is needed to separate true melanocytic positivity."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma clusters would be keratin-positive and negative for melanocytic markers."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL large cells are CD30/ALK-positive and often sinusoidal, and negative for melanocytic markers."},
+    {"dx": "Clear cell sarcoma", "vs": "Clear cell sarcoma also expresses melanocytic markers but is a soft-tissue primary with EWSR1::ATF1 fusion rather than a metastasis from a cutaneous melanoma."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: melanocytic marker (antigen not specified)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "65789",
+  "recognize_zh": "這是流式細胞儀圖，不是形態學影像：先圈 CD7 強陽性、低側散射的 T 細胞，再依 CD8 分成 F（CD8 陰/弱）與 H（CD8 強）兩群；兩群的 TRBC1 都分成陽性與陰性兩個群落，屬多株（polytypic）αβ T 細胞模式。TRBC1 只標記 αβ T 細胞，γδ T 細胞應完全陰性。",
+  "features": [
+    "Top left: CD7-bright, low side scatter lymphocyte gate (7vsSSC) separated from CD7-negative granulocytes",
+    "Top right: CD7 versus CD8 with gate F (CD8 negative to dim) and gate H (CD8 bright)",
+    "Bottom left (gate F): TRBC1 shows two discrete clusters, TRBC1-negative and TRBC1-positive, of comparable size",
+    "Bottom right (gate H): TRBC1 likewise bimodal with both negative and positive clusters",
+    "A bimodal TRBC1 distribution indicates polytypic alpha-beta T cells; a monotypic population would be uniformly positive or uniformly negative"
+  ],
+  "describe_en": "This figure shows flow cytometry plots rather than a morphologic image. After gating CD7-bright, low side scatter T cells, the CD8-negative/dim (F) and CD8-bright (H) subsets were each assessed for TRBC1. Both subsets show two well-separated TRBC1-negative and TRBC1-positive clusters of roughly similar proportion, a pattern consistent with polytypic alpha-beta T cells without evidence of TRBC1 restriction in these gates. Because TRBC1 is expressed only on alpha-beta T cells, a gamma-delta neoplasm such as hepatosplenic T-cell lymphoma would be TRBC1 negative and should be evaluated with TCR gamma-delta staining on the abnormal population.",
+  "ddx": [
+    {"dx": "Clonal alpha-beta T-cell population (e.g. T-LGL leukemia, PTCL)", "vs": "A clonal alpha-beta population shows a single uniformly TRBC1-positive or uniformly TRBC1-negative cluster, or a skewed ratio outside the normal range."},
+    {"dx": "Gamma-delta T-cell neoplasm", "vs": "Gamma-delta T cells lack TRBC1 entirely, so they are identified by TCR gamma-delta positivity rather than by a TRBC1 ratio."},
+    {"dx": "Reactive T-cell expansion", "vs": "Reactive expansions retain a bimodal TRBC1 distribution with a positive-to-negative ratio within the reference range, as seen here."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

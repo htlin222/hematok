@@ -1,0 +1,22 @@
+{
+  "id": "62562",
+  "recognize_zh": "四格組圖：低倍淋巴結保留部分殘存濾泡、其間被瀰漫浸潤取代；高倍可見大型多形細胞，胞質豐富嗜酸性，箭頭處為腎形／馬蹄形核的標誌細胞（hallmark cell），是 ALCL 的關鍵線索。",
+  "features": [
+    "Large pleomorphic cells with abundant eosinophilic to amphophilic cytoplasm",
+    "Hallmark cells with eccentric horseshoe- or kidney-shaped nuclei and paranuclear eosinophilic region (arrows)",
+    "Vesicular to hyperchromatic chromatin with small to distinct nucleoli; occasional multinucleated forms",
+    "Cohesive sheets of tumor cells effacing the node, with residual darker lymphoid follicles at low power",
+    "Tumor extends beneath a thickened fibrous capsule with a spindled/streaming growth pattern in one panel"
+  ],
+  "describe_en": "Composite H&E images of lymph node show, at low power, a thickened capsule and residual dark-staining lymphoid follicles set within a diffuse, paler infiltrate that effaces much of the parenchyma. At intermediate power the infiltrate forms cohesive sheets with focal spindled, streaming areas beneath the capsule. High power shows large pleomorphic cells with abundant eosinophilic cytoplasm and irregular nuclei, including hallmark cells with eccentric horseshoe- or kidney-shaped nuclei (arrows) and bizarre hyperchromatic forms. Findings are consistent with anaplastic large cell lymphoma, with confirmation by strong uniform CD30 and ALK immunohistochemistry.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "CHL has scattered Reed-Sternberg cells in a mixed inflammatory background rather than cohesive sheets of hallmark cells, and is PAX5 weak-positive and ALK-negative."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Cohesive sinusoidal growth can mimic carcinoma, but ALCL is keratin- and S100/SOX10-negative and CD30/ALK-positive."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS lacks uniform strong CD30 in hallmark cells and is ALK-negative."},
+    {"dx": "Diffuse large B-cell lymphoma, anaplastic variant", "vs": "Anaplastic DLBCL expresses B-cell markers (CD20, PAX5) and is ALK-negative."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

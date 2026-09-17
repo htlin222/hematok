@@ -1,0 +1,19 @@
+{
+  "id": "62375",
+  "recognize_zh": "這是流式細胞儀散佈圖，在母細胞閘（blast gate）中 CD34 對 CD117 作圖，71.02% 母細胞同時表現 CD34 與 CD117，顯示為未成熟骨髓系母細胞族群。",
+  "features": [
+    "Dot plot gated on blasts: CD34-PC7 (y-axis) versus CD117-APC (x-axis)",
+    "Dominant cluster in the upper-right quadrant: CD34+CD117+ 71.02%",
+    "CD34-CD117+ 11.25%, CD34-CD117- 14.47%, CD34+CD117- 3.26%",
+    "Tight, relatively homogeneous population indicating a clonal immature myeloid blast population"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on the blast region displays CD34 versus CD117. The majority of gated events (71.02%) co-express CD34 and CD117 as a cohesive cluster, with smaller CD117-only (11.25%) and double-negative (14.47%) fractions. This indicates an immature myeloid blast population. Lineage assignment and aberrancies require the remaining panel, and the specific genetic subtype (inv(3)/t(3;3)) cannot be inferred from this plot alone.",
+  "ddx": [
+    {"dx": "Mixed phenotype acute leukemia", "vs": "MPAL requires MPO or monocytic markers plus lineage-defining T (cytoplasmic CD3) or B markers, which are not assessed in this CD34/CD117 plot."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are CD34+ but typically CD117-negative, whereas this population is predominantly CD117-positive."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

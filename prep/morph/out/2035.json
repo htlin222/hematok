@@ -1,0 +1,21 @@
+{
+  "id": "2035",
+  "recognize_zh": "高倍 H&E：背景為小淋巴球、漿細胞樣細胞與中型不規則核細胞的混合浸潤，中央有一顆雙核、核仁明顯、細胞質淡染的大型細胞（Reed-Sternberg-like cell）；多形性背景中出現這類大細胞，是多形性 PTLD 常見的表現。",
+  "features": [
+    "Polymorphous infiltrate of small lymphocytes, plasmacytoid cells and intermediate cells with irregular nuclei",
+    "Central large binucleate cell with vesicular chromatin and distinct nucleoli (Reed-Sternberg-like)",
+    "Scattered large cells with open chromatin and pale cytoplasm",
+    "Occasional small pyknotic/apoptotic nuclei",
+    "Loose fibrillary, vacuolated background stroma"
+  ],
+  "describe_en": "High-power H&E section shows a polymorphous infiltrate of small lymphocytes, plasmacytoid cells and intermediate cells with irregular nuclei, set in a loose fibrillary background. A large binucleate cell with vesicular chromatin and distinct nucleoli, resembling a Reed-Sternberg cell, is present centrally, along with scattered other large transformed cells. Findings are consistent with polymorphic post-transplant lymphoproliferative disorder; immunohistochemistry (CD20, CD30, CD15, CD45) and EBER in situ hybridization are needed to exclude classic Hodgkin lymphoma-type PTLD.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma-type PTLD", "vs": "True HRS cells are CD30+, CD15+, CD45- with weak PAX5 and loss of CD20, while Reed-Sternberg-like cells in polymorphic PTLD usually retain CD20 and CD45."},
+    {"dx": "Monomorphic PTLD (DLBCL type)", "vs": "Monomorphic PTLD consists of sheets of large transformed B cells rather than scattered large cells within a mixed small-cell background."},
+    {"dx": "Peripheral T-cell lymphoma with EBV-positive B immunoblasts", "vs": "PTCL shows atypical T cells with clear cytoplasm and aberrant T-cell phenotype, with the large EBV-positive B cells being bystanders."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

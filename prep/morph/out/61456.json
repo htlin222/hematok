@@ -1,0 +1,21 @@
+{
+  "id": "61456",
+  "recognize_zh": "MPO 細胞化學染色中，箭頭所指的細胞胞質布滿深藍色顆粒狀陽性反應（成熟嗜中性球，作為內部陽性對照），左下另一顆細胞亦為陽性；急性未分化白血病的母細胞應為 MPO 陰性，但本視野中陰性母細胞不明顯。",
+  "features": [
+    "Arrowed cell with strong, coarse granular MPO reaction filling the cytoplasm around a pale nucleus",
+    "Second strongly positive granulocytic cell at lower left, partly obscured",
+    "Background dominated by red cells and fat spaces on a light counterstain",
+    "Few if any MPO-negative nucleated blasts clearly visible in this cropped field",
+    "Scattered fine positive granules/debris in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear stained for myeloperoxidase shows a mature neutrophil (arrow) with strong granular cytoplasmic positivity, serving as an internal positive control, and a second positive granulocyte at lower left. The remainder of this cropped field consists mainly of red cells and fat spaces, and MPO-negative blasts are not well demonstrated in the image. In a case of acute undifferentiated leukemia, blasts are expected to be MPO-negative (<3% positive) with no lineage-specific markers by flow cytometry. The stain is technically adequate given the positive internal control.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Blasts are MPO-negative by cytochemistry (<3%) but express myeloid antigens (CD13/CD33/CD117) or MPO by flow, unlike AUL."},
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "Blasts are also MPO-negative but express CD19 with CD79a/CD22/CD10 or cytoplasmic CD3."},
+    {"dx": "Mixed phenotype acute leukemia", "vs": "Blasts meet criteria for two lineages (e.g., MPO plus CD19 or cCD3), whereas AUL lacks lineage-defining markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "MPO cytochemistry",
+  "match": "partial",
+  "high_yield": false
+}

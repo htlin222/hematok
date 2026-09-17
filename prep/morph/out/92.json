@@ -1,0 +1,30 @@
+{
+  "id": "92",
+  "recognize_zh": "乳房植入物周圍積液抹片與纖維包膜內側，可見散在或成群的大型多形性細胞（核不規則、核仁明顯、偶見多核）；免疫染色 CD30 強陽性（膜及高基氏體點狀）、ALK 陰性、CD4/CD43 陽性但多數 T 細胞抗原喪失，符合 BIA-ALCL。",
+  "features": [
+    "Large pleomorphic cells, several times the size of small lymphocytes, with abundant cytoplasm and variable N:C ratio",
+    "Irregular, indented to multilobated or horseshoe-like nuclei with vesicular chromatin and prominent nucleoli; occasional multinucleated and mitotic cells",
+    "Cells lie singly and in loose cohesive-appearing clusters within fibrinous/necrotic exudate on the luminal side of a thick hyalinized fibrous capsule, without invasion through the capsule in the section shown",
+    "Mixed background of small lymphocytes and neutrophils in the Papanicolaou-stained fluid",
+    "IHC: CD30 strong membranous and Golgi-dot staining in large cells; ALK, CD20, CD3, CD5, CD7, CD8, TCR beta-F1 and TCR delta negative; CD4 and CD43 positive; CD2 weak partial; CD45 weak/partial",
+    "DUSP22 break-apart FISH: fused signals without split, i.e., no DUSP22 rearrangement"
+  ],
+  "describe_en": "Papanicolaou-stained seroma fluid shows numerous large pleomorphic cells with irregular, occasionally multilobated nuclei, prominent nucleoli, and abundant cytoplasm, admixed with small lymphocytes and neutrophils; the cell block contains fibrin with scattered similar large atypical cells. Sections of the periprosthetic capsule show a thick hyalinized fibrous capsule lined on the luminal aspect by fibrinoid exudate containing clusters of large atypical cells with vesicular nuclei, prominent nucleoli, and mitotic figures, confined to the luminal surface in the section shown. By immunohistochemistry the large cells are strongly and uniformly CD30 positive (membranous and Golgi pattern), CD4 and CD43 positive, weakly partially CD2 and CD45 positive, and negative for ALK, CD20, CD3, CD5, CD7, CD8, TCR beta-F1 and TCR delta, indicating a T-cell lineage with extensive antigen loss. DUSP22 break-apart FISH shows fused signals without rearrangement. Findings are consistent with breast implant-associated anaplastic large cell lymphoma, ALK negative.",
+  "ddx": [
+    {"dx": "ALK-negative systemic ALCL with secondary breast involvement", "vs": "Morphology and CD30+/ALK- phenotype overlap, so separation relies on clinical staging and the confinement of disease to the implant effusion/capsule."},
+    {"dx": "ALK-positive anaplastic large cell lymphoma", "vs": "Identical hallmark-type cytology, but ALK immunostaining is positive (nuclear and cytoplasmic with NPM1::ALK), whereas ALK is negative here."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30+ but typically CD15+, PAX5 weak, CD45 negative and lack CD4/CD43 T-cell expression, and occur as scattered cells in a mixed inflammatory background rather than cohesive sheets in a seroma."},
+    {"dx": "Metastatic (recurrent) breast carcinoma", "vs": "Carcinoma cells are cytokeratin and GATA3 positive and CD30/CD4/CD43 negative, which excludes it in this immunoprofile."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Papanicolaou, H&E, IHC panel, DUSP22 FISH",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Seroma fluid (Pap) with large pleomorphic cells, cell block low power, and cell block H&E high power",
+    "IHC: CD20 and CD3 negative in large cells, CD45 weak/partial, CD30 strongly positive, ALK negative",
+    "IHC: CD4 and CD43 positive, CD2 weak partial; CD5, CD7, CD8, TCR beta-F1 and TCR delta negative in large cells",
+    "DUSP22 break-apart FISH: fused signals, no rearrangement",
+    "Capsule H&E: large atypical cells in fibrinous exudate on the luminal surface of the fibrous capsule"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "19923",
+  "recognize_zh": "血液抹片中有多顆中等大小（約為紅血球兩倍）的淋巴樣細胞，核圓、染色質中度凝集，且每顆都有一個清楚的中央單一大核仁，細胞質中等量、淡藍色，這是典型的前淋巴球（prolymphocyte）。",
+  "features": [
+    "Medium-sized lymphoid cells, roughly twice the diameter of a red cell",
+    "Moderate N:C ratio with a rim of moderate pale-blue agranular cytoplasm",
+    "Round nuclei, occasionally with a shallow cleft or indentation",
+    "Moderately condensed chromatin that is more mature than a blast",
+    "Single prominent central vesicular nucleolus in most cells",
+    "Background red cells unremarkable; one neutrophil and a platelet present"
+  ],
+  "describe_en": "Peripheral blood smear shows a population of medium-sized lymphoid cells with round, occasionally indented nuclei, moderately condensed chromatin, a single prominent central nucleolus, and a moderate amount of pale-blue agranular cytoplasm. The chromatin is more condensed than that of blasts, and no cytoplasmic granules, hairy projections, or vacuoles are seen. Red cells and the occasional neutrophil appear unremarkable. Findings are consistent with prolymphocytes; if they constitute more than 55% of circulating lymphoid cells, the differential includes B-prolymphocytic leukemia (now largely reclassified as splenic B-cell lymphoma/leukemia with prominent nucleoli or leukemic mantle cell lymphoma) and T-prolymphocytic leukemia, requiring flow cytometry and cyclin D1/t(11;14) studies.",
+  "ddx": [
+    {"dx": "Leukemic mantle cell lymphoma, prolymphocytoid variant", "vs": "Morphology can be identical, so cyclin D1 expression, SOX11, and t(11;14) are required to exclude MCL before accepting a prolymphocytic neoplasm."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells are often smaller with cytoplasmic blebs and less conspicuous nucleoli, and express CD3/CD7 with TCL1A rearrangement."},
+    {"dx": "CLL with increased prolymphocytes", "vs": "CLL has a dominant background of small lymphocytes with clumped chromatin and smudge cells, with prolymphocytes under 55%, and a CD5+/CD23+/CD200+ dim sIg phenotype."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Blasts have finer, more dispersed chromatin, higher N:C ratio, less cytoplasm, and are TdT/CD34 positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

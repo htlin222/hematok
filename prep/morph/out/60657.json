@@ -1,0 +1,22 @@
+{
+  "id": "60657",
+  "recognize_zh": "脾臟切面瀰漫性腫大、呈均勻暗紅色而無結節；組織切片中淋巴瘤細胞充塞紅髓脾竇，肝臟與骨髓切片（箭頭）亦見腫瘤細胞侷限於竇狀隙內浸潤，這種竇內分布模式是肝脾 T 細胞淋巴瘤的特徵。",
+  "features": [
+    "Panel A (gross): enlarged spleen with homogeneous dark red cut surface and no discrete nodules (red pulp expansion, white pulp not apparent)",
+    "Panel B (H&E): red pulp expanded by monotonous medium-sized lymphoid cells with round nuclei, fine chromatin, small nucleoli and moderate pale cytoplasm filling cords and sinuses",
+    "Panel C (IHC, antigen not labeled): positive cells distributed in a sinusoidal/cordal pattern throughout the red pulp",
+    "Panel D (liver, H&E): clusters of atypical lymphoid cells within hepatic sinusoids (arrow) without portal-based masses",
+    "Panel E (bone marrow): subtle intrasinusoidal lymphoid infiltrate in a hypocellular fatty marrow (arrows)"
+  ],
+  "describe_en": "Splenectomy specimen shows diffuse splenomegaly with a homogeneous beefy red cut surface without nodules. Histologically, the red pulp cords and sinusoids are infiltrated by monotonous medium-sized lymphoid cells with round nuclei and moderate pale cytoplasm, with white pulp atrophy, and an immunostain highlights the sinusoidal distribution of the tumor cells. Liver and bone marrow sections show similar cells confined to hepatic and marrow sinusoids. Findings are consistent with hepatosplenic T-cell lymphoma; confirmation with CD3+, CD5−, CD4−/CD8−, TCRγδ, cytotoxic markers (TIA-1+, granzyme B−) and isochromosome 7q is recommended.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells have abundant cytoplasm with azurophilic granules, are usually CD8+/TCRαβ, granzyme B+ and have a more indolent course without i(7q)."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia is surface CD3 negative, CD56+ and EBV-positive, whereas HSTCL is EBV negative."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "It also involves red pulp and marrow sinusoids but consists of CD20+ B cells with villous cytoplasm."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL shows red pulp blood lakes with fried-egg cells that are CD20+, CD11c+, CD25+, CD103+ and annexin A1/BRAF V600E positive."}
+  ],
+  "specimen": "spleen",
+  "stain": "H&E; IHC (antigen not labeled); gross",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "65159",
+  "recognize_zh": "流式細胞圖：CD45 偏弱、SSC 低的異常族群（紅色），CD3、CD5、CD19、CD10、CD20、CD34、CD117、CD13、CD25 皆陰性，但表現 CD7、CD33、HLA-DR 與 CD26；缺乏系列專一標記，須追加 CD123、CD4、CD56 以考慮 BPDCN。",
+  "features": [
+    "Abnormal population (red, gate G) with dim-to-intermediate CD45 and low side scatter",
+    "Negative for surface CD3, CD5, CD19, CD10 and CD20 (no T- or B-lineage evidence)",
+    "Negative for CD34 and CD117, and CD13-negative",
+    "Positive for CD7, CD33 (moderate) and HLA-DR",
+    "CD26-positive and CD25-negative (92% CD26+ CD25-)"
+  ],
+  "describe_en": "Flow cytometry dot plots (panel 1) show an abnormal population with dim-to-intermediate CD45 and low side scatter. The population lacks CD3, CD5, CD19, CD10, CD20, CD34, CD117, CD13 and CD25, and expresses CD7, CD33, HLA-DR and CD26. This profile lacks lineage-defining markers and could initially be misinterpreted as T-ALL on the basis of CD7 expression, but the absence of CD34 and T-lineage markers should prompt evaluation of CD4, CD56 and CD123. In conjunction with the complementary panel (CD4+, CD56+, CD123+, NG2+), the findings are suggestive of blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL expresses cytoplasmic CD3 and often TdT/CD1a/CD34, whereas this population is surface and cytoplasmic CD3-negative and TdT-negative."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monocytic AML can be CD4+/CD56+/CD33+ but usually expresses CD13, CD11b, CD14/CD64 or lysozyme, and lacks bright CD123 with TCF4/TCL1."},
+    {"dx": "Acute leukemia of ambiguous lineage (acute undifferentiated leukemia)", "vs": "AUL is a diagnosis of exclusion that requires a negative pDC panel (CD123, TCF4, TCL1, CD303), which was ultimately positive here."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

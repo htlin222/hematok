@@ -1,0 +1,22 @@
+{
+  "id": "14298",
+  "recognize_zh": "骨髓抹片中一個大型巨噬細胞的細胞質內有多個 2–4 µm 小型卵圓形酵母菌，菌體中央有深染的核質、周圍有透明暈圈，同時可見被吞噬的紅血球，符合組織漿菌症造成的全血球減少。",
+  "features": [
+    "Large macrophage with abundant vacuolated gray-blue cytoplasm and an eccentric nucleus with coarse chromatin",
+    "Multiple small (approximately 2–4 µm), uniform, oval intracellular yeasts each surrounded by a clear halo",
+    "Yeasts with a central or polar basophilic dot/crescent of cytoplasm; no kinetoplast",
+    "Phagocytosed red cell/erythroid remnant within the macrophage cytoplasm (hemophagocytosis)",
+    "Additional small dark intracytoplasmic fragments; surrounding red cells and a nucleated cell at the lower edge"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large macrophage with abundant vacuolated cytoplasm containing numerous small, uniform, oval yeast forms, each with a basophilic center and a surrounding clear halo, together with a phagocytosed red cell. No kinetoplasts are seen, distinguishing the organisms from Leishmania amastigotes. Findings are consistent with Histoplasma capsulatum infection of the marrow with associated hemophagocytosis, explaining the pancytopenia; confirmation by GMS/PAS stain, culture or Histoplasma antigen testing is recommended.",
+  "ddx": [
+    {"dx": "Visceral leishmaniasis", "vs": "Leishmania amastigotes contain a nucleus and a separate bar-shaped kinetoplast without a surrounding halo or PAS/GMS-positive cell wall."},
+    {"dx": "Talaromyces marneffei", "vs": "Talaromyces yeasts show central septation from binary fission and elongated forms rather than budding oval yeasts with halos."},
+    {"dx": "Candida glabrata / other small yeasts", "vs": "Candida glabrata is slightly larger, less consistently intracellular and grows rapidly in routine culture without the endemic exposure history."},
+    {"dx": "Toxoplasma gondii pseudocysts", "vs": "Toxoplasma bradyzoites are crescent-shaped with a central nucleus and PAS-negative walls, lacking clear halos."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "66299",
+  "recognize_zh": "箭頭所指的細胞充滿粗大、深紫黑色的嗜鹼性顆粒，幾乎遮蔽細胞核，即為嗜鹼性球（basophil）；背景可見分葉中性球、帶狀核中性球與較大的骨髓細胞/前骨髓細胞，呈左移的顆粒球系，符合慢性骨髓性白血病（CML）的背景。",
+  "features": [
+    "Arrowed cell about the size of a neutrophil, densely packed with coarse dark purple-black granules",
+    "Granules overlie and obscure the nucleus, so nuclear lobation is not discernible",
+    "Background shows segmented neutrophils, band forms and larger immature granulocytes (myelocyte/promyelocyte-like cells) indicating a left shift",
+    "A small lymphocyte and scattered platelets; red cells normocytic without significant poikilocytosis",
+    "No blasts clearly identified in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a basophil (arrow) with abundant coarse, dark purple-black cytoplasmic granules obscuring the nucleus. The background contains increased granulocytes at various stages of maturation, including segmented neutrophils, bands and immature myelocyte-like forms, reflecting a left-shifted granulocytic series. Red cells and platelets are unremarkable in this field and no blasts are seen. In the clinical context, basophilia with a left-shifted myeloid series is consistent with chronic myeloid leukemia.",
+  "ddx": [
+    {"dx": "Mast cell (circulating)", "vs": "Mast cells are larger with a round central nucleus and more uniform, less overlapping metachromatic granules, and are CD117/tryptase positive."},
+    {"dx": "Neutrophil with toxic granulation", "vs": "Toxic granulation is finer and dispersed with a clearly visible segmented nucleus, not coarse granules obscuring the nucleus."},
+    {"dx": "Eosinophil", "vs": "Eosinophils have refractile orange-red uniform granules and a visible bilobed nucleus rather than blue-black granules."},
+    {"dx": "Stain precipitate over a lymphocyte", "vs": "Precipitate is irregular and extends beyond the cell border, while basophil granules are confined to the cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

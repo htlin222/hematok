@@ -1,0 +1,22 @@
+{
+  "id": "62724",
+  "recognize_zh": "周邊血中一群中大型細胞的核呈雙葉或蝴蝶狀凹折、胞質幾乎看不到顆粒，其中一顆可見 Auer rod（紅箭頭），背景有破碎紅血球（黑箭頭），是微顆粒型急性前骨髓球性白血病（APL, microgranular variant）的典型表現。",
+  "features": [
+    "Medium to large leukemic cells with bilobed, folded, or butterfly-shaped nuclei",
+    "Hypogranular to agranular pale basophilic cytoplasm with only sparse fine granules",
+    "Auer rod within one abnormal promyelocyte (red arrow)",
+    "Fine nuclear chromatin with indistinct nucleoli",
+    "Schistocytes in the background (black arrows), consistent with DIC"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous medium to large abnormal cells with bilobed, reniform, or butterfly-shaped nuclei, finely dispersed chromatin, and moderate amounts of hypogranular pale blue cytoplasm. An Auer rod is identified in one cell (red arrow). Scattered schistocytes are present in the background (black arrows), and platelets are markedly reduced. Findings are consistent with the hypogranular (microgranular) variant of acute promyelocytic leukemia; urgent confirmation of PML::RARA and coagulation monitoring are indicated.",
+  "ddx": [
+    {"dx": "Acute monocytic/myelomonocytic leukemia", "vs": "Monoblasts and promonocytes also have folded nuclei but show gray-blue cytoplasm with vacuoles, are strongly nonspecific esterase-positive, and are typically HLA-DR-positive, whereas microgranular APL is strongly MPO-positive and HLA-DR/CD34-negative."},
+    {"dx": "Hypergranular (classic) APL", "vs": "Classic APL shows abundant coarse azurophilic granules and bundles of Auer rods (faggot cells), while the microgranular variant has near-agranular cytoplasm with bilobed nuclei and a high WBC."},
+    {"dx": "AML with NPM1 mutation (cup-like blasts)", "vs": "NPM1-mutated AML may show nuclear invaginations and HLA-DR/CD34 negativity, so RT-PCR or FISH for PML::RARA is required to separate them."},
+    {"dx": "Reactive monocytosis", "vs": "Mature monocytes have abundant gray cytoplasm with fine granules and condensed lacy chromatin, without Auer rods or schistocytes with coagulopathy."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

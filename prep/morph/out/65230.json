@@ -1,0 +1,22 @@
+{
+  "id": "65230",
+  "recognize_zh": "胸水抹片中出現大型、細網狀染色質、有核仁、細胞質深藍且有空泡與泡狀突起的原紅血球樣細胞（pronormoblast-like），細胞塊免疫染色 E-cadherin 陽性、p53 強烈核染色，指向紅血球系白血病的髓外浸潤。",
+  "features": [
+    "Large discohesive cells, several times red cell diameter, with high N:C ratio",
+    "Round nuclei with finely reticulated/stippled chromatin and one to several distinct nucleoli",
+    "Deeply basophilic agranular cytoplasm with scattered small vacuoles and irregular cytoplasmic blebs/budding",
+    "Cell block H&E: scattered large discohesive atypical cells in a fibrinous background",
+    "E-cadherin shows cytoplasmic/membranous staining in the large cells; p53 shows strong diffuse nuclear staining"
+  ],
+  "describe_en": "Cytospin preparations of pleural fluid show scattered large atypical cells with round nuclei, finely reticulated chromatin, prominent nucleoli, and a rim of deeply basophilic, agranular cytoplasm with occasional vacuoles and cytoplasmic blebs, morphologically resembling pronormoblasts. The corresponding cell block shows discohesive large cells in a fibrinous background, which are positive for E-cadherin and show strong nuclear p53 expression. Cohesive epithelial clusters are not seen. In a patient with TP53-mutated MDS, findings are consistent with extramedullary involvement by acute erythroid leukemia.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma in effusion", "vs": "Carcinoma forms cohesive three-dimensional clusters and is keratin positive, whereas these cells are discohesive with erythroblast morphology and lack epithelial markers despite E-cadherin expression."},
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells show dense two-tone cytoplasm with a lacy brush border and 'windows' between cells, lack the finely reticulated blast chromatin, and are calretinin/WT1 positive rather than showing strong p53 and erythroid markers."},
+    {"dx": "Myeloid sarcoma / AML (non-erythroid) in effusion", "vs": "Myeloblasts are usually MPO or CD34/CD117 positive and have less intensely basophilic cytoplasm, whereas these cells are MPO and CD34 negative and E-cadherin positive."},
+    {"dx": "Plasmablastic lymphoma or primary effusion lymphoma", "vs": "Both show deeply basophilic cytoplasm, but PEL/PBL cells often have a paranuclear hof and are CD138/MUM1 (and HHV-8 for PEL) positive rather than E-cadherin positive."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa; H&E; IHC: E-cadherin, p53",
+  "match": "consistent",
+  "high_yield": false
+}

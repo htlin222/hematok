@@ -1,0 +1,21 @@
+{
+  "id": "2483",
+  "recognize_zh": "高倍周邊血液抹片中可見幾個小型、核深染的有核細胞（形態像有核紅血球或小淋巴球），紅血球大小不一且血小板稀少；單看這張圖並不具專一性，需搭配單核球增多等其他表現才能支持 JMML。",
+  "features": [
+    "Small nucleated cells with dense, clumped chromatin and scant irregular cytoplasm, possibly nucleated red blood cells or lymphocytes",
+    "One larger cell at right with dark irregular nucleus and scant cytoplasm",
+    "Red cells with mild anisocytosis and occasional stomatocyte-like central pallor changes",
+    "Platelets sparse, only small fragments seen",
+    "No blasts or monocytes clearly present in this field"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows red cells with mild anisocytosis and scattered small nucleated cells with dense chromatin and scant cytoplasm, most suggestive of nucleated red blood cells or small lymphocytes; cytoplasmic detail is insufficient to separate them with confidence. Platelets are sparse. No monocytes or blasts are present in this field. These findings are nonspecific but can be seen in juvenile myelomonocytic leukemia, where circulating nucleated red cells and thrombocytopenia accompany monocytosis.",
+  "ddx": [
+    {"dx": "Neonatal/stress erythropoiesis", "vs": "Nucleated red cells in stressed infants occur without monocytosis, splenomegaly or RAS-pathway mutations."},
+    {"dx": "Hemolytic anemia", "vs": "Hemolysis shows polychromasia, spherocytes or schistocytes and reticulocytosis rather than an increase in monocytes and immature myeloid cells."},
+    {"dx": "Leukoerythroblastic reaction (marrow infiltration)", "vs": "Leukoerythroblastosis shows teardrop cells with left-shifted neutrophils, and the marrow reveals the infiltrating process rather than a myelomonocytic proliferation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

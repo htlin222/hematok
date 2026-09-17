@@ -1,0 +1,21 @@
+{
+  "id": "62207",
+  "recognize_zh": "圖中箭頭標示的前淋巴球（pro-lymphocyte）為中型細胞、圓核、染色質中度濃縮且細胞質淡藍較多；另一箭頭指向破碎的塗抹細胞（smudge cell），兩者並存於成熟淋巴球背景中，是 CLL 伴前淋巴球的典型抹片表現。",
+  "features": [
+    "Labeled prolymphocyte: medium-sized cell with round nucleus, moderately condensed chromatin, faint nucleolus, and moderate pale-blue cytoplasm",
+    "Labeled smudge cell: disrupted nuclear material spread as a pale pink amorphous smear",
+    "Surrounding small to medium lymphocytes with clumped chromatin and scant to moderate cytoplasm",
+    "Additional smudge cells at the upper right",
+    "Background red cells with scattered platelets"
+  ],
+  "describe_en": "This annotated smear (panel A) shows small to medium-sized lymphocytes with round nuclei and clumped chromatin, admixed with prolymphocytes, one of which is labeled, characterized by medium size, moderately condensed chromatin, an inconspicuous nucleolus, and moderate faintly basophilic cytoplasm. Several smudge cells, including the labeled one, are present as disrupted, amorphous nuclear remnants. Findings are consistent with chronic lymphocytic leukemia with prolymphocytes.",
+  "ddx": [
+    {"dx": "B-prolymphocytic leukemia", "vs": "B-PLL requires >55% prolymphocytes with prominent nucleoli and typically lacks CD23 and smudge cells are less characteristic, whereas here prolymphocytes are mixed with smaller CLL cells and many smudge cells."},
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "Mantle cell lymphoma shows cleaved irregular nuclei and cyclin D1/SOX11 positivity with a CD23-negative phenotype."},
+    {"dx": "Reactive lymphocytosis (e.g., pertussis or viral)", "vs": "Reactive lymphocytes are polyclonal and heterogeneous, and smudge cells are not a prominent feature."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

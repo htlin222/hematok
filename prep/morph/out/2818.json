@@ -1,0 +1,22 @@
+{
+  "id": "2818",
+  "recognize_zh": "骨髓抹片中顆粒球系增生，並有多顆染色質細緻、細胞質嗜鹼性的母細胞/早幼粒細胞，另可見嗜酸性骨髓細胞（紅色顆粒）與含黑色粗顆粒的嗜鹼性球，母細胞增加伴嗜鹼性球提示 CML 進展期。",
+  "features": [
+    "Increased blasts and promyelocytes with fine chromatin, occasional nucleoli and basophilic cytoplasm",
+    "Granulocytic maturation to bands and segmented neutrophils",
+    "Eosinophilic myelocyte with refractile orange-red granules",
+    "Basophil with coarse dark purple-black granules; a large cell with dense purple granules at upper right",
+    "Background red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a granulocytic proliferation with an increased proportion of immature cells, including blasts with fine chromatin, occasional nucleoli and basophilic cytoplasm, and promyelocytes. Maturing myelocytes, bands and segmented neutrophils are present, together with an eosinophilic myelocyte and basophils with coarse dark granules. A formal blast and basophil count is needed to confirm accelerated phase. In a patient with known BCR::ABL1-positive CML, the increased immature cells and basophils are consistent with disease progression (accelerated phase).",
+  "ddx": [
+    {"dx": "CML, blast phase", "vs": "Blast phase requires >=20% blasts; accelerated phase has 10-19% blasts in blood or marrow."},
+    {"dx": "AML with BCR::ABL1", "vs": "De novo AML with BCR::ABL1 lacks a preceding chronic phase and shows less basophilia and splenomegaly."},
+    {"dx": "AML with inv(16)/CBFB::MYH11", "vs": "Abnormal eosinophils in inv(16) contain large purple-violet granules, with myelomonocytic blasts and no BCR::ABL1."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL shows sheets of abnormal hypergranular promyelocytes with bilobed nuclei and Auer rod bundles without a maturing granulocytic background."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

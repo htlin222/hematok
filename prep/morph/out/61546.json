@@ -1,0 +1,20 @@
+{
+  "id": "61546",
+  "recognize_zh": "骨髓切片 CD30 染色中，散在的大型單核與雙核細胞呈強膜狀加核旁高爾基體點狀（Golgi dot）陽性，周圍小淋巴球與組織球陰性，符合 CHL 的 HRS 細胞。",
+  "features": [
+    "Scattered large mononuclear and binucleate cells with strong CD30 expression",
+    "Membranous staining with paranuclear Golgi-zone accentuation; nuclei with prominent nucleoli visible through the stain",
+    "Occasional smaller CD30-positive cells, possibly mononuclear Hodgkin cells or activated cells",
+    "Background small lymphocytes and histiocytes negative, with faint diffuse background staining"
+  ],
+  "describe_en": "Immunohistochemical stain for CD30 on a bone marrow biopsy highlights scattered large atypical cells, including binucleate forms, with strong membranous and paranuclear Golgi-pattern staining. The surrounding small lymphocytes, histiocytes and stromal cells are negative, with mild nonspecific background staining. The large cells are present singly rather than in cohesive sheets. In conjunction with CD15 positivity, weak PAX5 and CD20 negativity, findings are consistent with marrow involvement by classic Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL forms cohesive sheets or sinusoidal clusters of uniformly CD30+ hallmark cells that are PAX5-negative, often ALK+ or EMA+, rather than scattered HRS cells with weak PAX5."},
+    {"dx": "EBV-positive DLBCL or large B-cell lymphoma with CD30 expression", "vs": "The CD30+ large cells in DLBCL are CD20+ with strong PAX5 and often form sheets, unlike scattered CD20-negative HRS cells."},
+    {"dx": "Reactive CD30+ immunoblasts", "vs": "Activated immunoblasts in viral infection are smaller, lack Golgi-pattern accentuation and CD15, and retain CD20/CD45 expression."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": true
+}

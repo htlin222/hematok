@@ -1,0 +1,32 @@
+{
+  "id": "22",
+  "recognize_zh": "骨髓抹片被成片的中型芽細胞取代，核圓至卵圓、染色質細緻、胞質少；切片中芽細胞瀰漫浸潤且 CD3 大片陽性，流式顯示 CD45 弱陽性芽細胞 77% 表現胞質與表面 CD3、CD5、CD7，缺 CD19，指向 T 淋巴芽細胞白血病；但此例 TdT 與 CD34 皆陰性，屬少見表型。",
+  "features": [
+    "Aspirate: sheets of intermediate to large blasts with high N:C ratio, round to oval or slightly indented nuclei, finely dispersed chromatin and indistinct to small nucleoli",
+    "Scant to moderate pale blue agranular cytoplasm; residual normal elements (occasional eosinophil) are sparse",
+    "PB: scattered circulating blasts with fine chromatin and scant cytoplasm",
+    "Biopsy: diffuse interstitial infiltrate of monotonous intermediate-sized cells between fat cells, labeled hypocellular for age",
+    "IHC: CD3 diffusely positive in the infiltrate; TdT stains only rare scattered nuclei; CD34 negative",
+    "Flow: 77% blasts, CD45 dim-moderate, CD3+ (cytoplasmic and surface), CD5+, CD7+, partial CD2+, CD4-, CD8-, CD19-, CD10-, CD34-"
+  ],
+  "describe_en": "The peripheral blood smear shows scattered blasts with fine chromatin and scant cytoplasm on a background of largely unremarkable red cells. The bone marrow aspirate is replaced by sheets of intermediate-sized blasts with high nuclear-to-cytoplasmic ratios, round to slightly indented nuclei, finely dispersed chromatin, inconspicuous nucleoli and scant agranular cytoplasm. The core biopsy, described as hypocellular for age, shows a diffuse infiltrate of monotonous immature cells that is diffusely CD3 positive and CD34 negative, with TdT staining only rare cells. Flow cytometry identifies 77% abnormal T-lineage blasts expressing cytoplasmic and surface CD3, CD5, CD7 and HLA-DR, with partial CD2, and lacking CD4, CD8, CD19, CD10 and CD34; TdT is reported negative, which is unusual and warrants additional immaturity markers such as CD1a or CD99. Findings are consistent with T-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Blasts look identical on smear, but B-ALL expresses CD19, CD22 and usually CD10 and lacks cytoplasmic CD3, the opposite of this CD3+CD7+CD19- profile."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL is CD1a-, CD8-, with CD5 absent or dim (<75%) and expresses stem/myeloid markers such as CD34, CD117 or CD13/CD33, whereas these blasts are CD5 bright and CD34 negative."},
+    {"dx": "Mature T-cell leukemia (e.g., T-PLL)", "vs": "Mature T-cell leukemias occur in adults with nucleolated but more condensed cells and usually express CD4 or CD8, whereas this child has fine-chromatin blasts with double-negative CD4/CD8; TdT negativity makes CD1a and clinical context important."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts express MPO, CD13, CD33 or CD117 and lack cytoplasmic CD3, unlike this T-lineage population."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: CD3, TdT, CD34; flow cytometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: circulating blasts with fine chromatin and scant cytoplasm",
+    "BM core biopsy low power, labeled hypocellular for age, with a diffuse interstitial infiltrate",
+    "BM core biopsy higher power: monotonous immature cells with scattered residual myeloid cells",
+    "BM aspirate: sheets of blasts replacing normal hematopoiesis",
+    "BM aspirate high power: blasts with round to indented nuclei, fine chromatin and scant cytoplasm",
+    "Biopsy H&E with IHC: diffuse CD3 positivity, rare TdT-positive nuclei and negative CD34",
+    "Marrow flow cytometry: 77% T-lineage blasts CD3+, CD5+, CD7+, CD4-/CD8-, CD19-, CD34-"
+  ]
+}

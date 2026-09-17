@@ -1,0 +1,21 @@
+{
+  "id": "62041",
+  "recognize_zh": "免疫染色中只有散在的大型細胞呈顆粒狀細胞質陽性，細胞核大而淡、呈空泡狀，周圍的小淋巴球全為陰性；這些孤立的大型陽性細胞代表 NLPHL 背景中的 LP 細胞。",
+  "features": [
+    "Scattered large cells with granular cytoplasmic and perinuclear DAB staining",
+    "Positive cells have large, pale, vesicular nuclei, some irregular in contour",
+    "Positive cells are widely spaced, not forming clusters or sheets",
+    "Background of dense small round negative lymphocytes",
+    "Occasional faint granular staining in small cells/histiocytes"
+  ],
+  "describe_en": "Immunohistochemical stain (DAB; antigen not labeled) of a lymph node shows scattered large cells with granular cytoplasmic and perinuclear staining in a dense background of negative small lymphocytes. The positive cells have large vesicular nuclei and are individually dispersed without sheet formation. The findings highlight scattered large atypical cells consistent with LP cells of nodular lymphocyte-predominant Hodgkin lymphoma; the specific marker (e.g., EMA or another LP-cell marker) should be confirmed in the referenced case.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells show CD30 and CD15 membranous plus Golgi staining with weak/absent CD20, whereas LP cells are CD30/CD15 negative with strong B-cell program markers."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Architecture (absence of nodules and CD21+ FDC meshworks) rather than the single-cell immunophenotype separates THRLBCL from NLPHL."},
+    {"dx": "Reactive immunoblasts", "vs": "Reactive immunoblasts are polymorphous, often interfollicular, and lack the LP-cell nuclear lobation and consistent rosetting by PD1+ T cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antigen not labeled",
+  "match": "consistent",
+  "high_yield": false
+}

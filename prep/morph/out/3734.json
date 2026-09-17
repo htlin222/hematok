@@ -1,0 +1,21 @@
+{
+  "id": "3734",
+  "recognize_zh": "下方嗜中性球的細胞膜外圍黏附一圈血小板排成花環狀（rosette），上方嗜中性球周邊也有數個血小板貼附，這就是 EDTA 引起的血小板衛星現象（platelet satellitism），可造成偽性血小板低下。",
+  "features": [
+    "Neutrophil ringed by numerous adherent platelets forming a rosette around the cell membrane",
+    "Second neutrophil with several platelets attached at its periphery",
+    "Platelets are normal in size and granulation",
+    "Neutrophils mature, segmented, with normal nuclear and cytoplasmic features",
+    "Few free platelets in the background; red cells unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows two mature segmented neutrophils with platelets adhering to their surfaces; one neutrophil is completely rimmed by a rosette of normal-sized platelets, while the second has several attached platelets. Free platelets in the background are relatively few, and red cells are unremarkable. Findings are consistent with platelet satellitism, an in vitro EDTA-dependent phenomenon that can cause spurious thrombocytopenia; recollection in citrate or heparin, or a fingerstick smear, is recommended to obtain an accurate platelet count.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Clumping forms free platelet aggregates in the background and at the feathered edge rather than rosettes around neutrophils; both cause pseudothrombocytopenia."},
+    {"dx": "Platelet phagocytosis by neutrophils", "vs": "In phagocytosis platelets lie within the neutrophil cytoplasm, often in vacuoles, rather than adhering to the outer membrane."},
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows few platelets without satellitism or clumps and persists when the count is repeated in citrate."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

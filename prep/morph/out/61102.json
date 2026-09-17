@@ -1,0 +1,22 @@
+{
+  "id": "61102",
+  "recognize_zh": "周邊血抹片可見多顆較小、深染且無中央淡染區的球形紅血球（spherocytes），夾雜體積較大、偏藍的多染性紅血球（A）；超活體染色顯示大量含網狀沉澱物的網狀紅血球（B），呈現溶血伴骨髓代償反應。",
+  "features": [
+    "Numerous spherocytes: small, dense, round red cells lacking central pallor",
+    "Anisocytosis with larger polychromatophilic (bluish-gray) red cells",
+    "Occasional red cells with retained central pallor; no significant schistocytes or agglutinates in this field",
+    "Single neutrophil with normal segmentation",
+    "Supravital stain shows markedly increased reticulocytes with blue-staining reticular RNA precipitates"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous spherocytes with loss of central pallor, anisocytosis and polychromasia; schistocytes and red cell agglutination are not evident in this field. White cell morphology in the visible neutrophil is unremarkable. A supravital (new methylene blue) preparation shows a markedly increased proportion of reticulocytes containing precipitated reticular material. The findings indicate spherocytic hemolysis with a brisk marrow response; together with a positive direct antiglobulin test, they are consistent with autoimmune hemolytic anemia.",
+  "ddx": [
+    {"dx": "Hereditary spherocytosis", "vs": "HS shows identical spherocytes but has a negative DAT, family history and abnormal EMA-binding flow cytometry, so morphology alone cannot separate it from warm AIHA."},
+    {"dx": "Microangiopathic hemolytic anemia", "vs": "MAHA shows schistocytes (helmet cells, triangles) with thrombocytopenia rather than predominantly round spherocytes."},
+    {"dx": "Clostridial sepsis or burns", "vs": "Clostridial toxin and thermal injury produce microspherocytes with fragments and budding (and in sepsis, ghost cells) in the appropriate clinical setting."},
+    {"dx": "Cold agglutinin disease", "vs": "CAD shows red cell agglutinates in clumps on the smear and a C3d-only DAT, with fewer spherocytes than warm IgG AIHA."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; new methylene blue (supravital)",
+  "match": "consistent",
+  "high_yield": true
+}

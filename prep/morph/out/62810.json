@@ -1,0 +1,22 @@
+{
+  "id": "62810",
+  "recognize_zh": "周邊血液抹片中出現成群的大型非造血細胞：細胞核圓而偏位、核仁可見、細胞質豐富且淡染，與周圍嗜中性球明顯不同；切片中同樣的大細胞呈核染色陽性的免疫染色，支持轉移性黑色素瘤細胞。",
+  "features": [
+    "Clusters of large cells in peripheral blood, several times the size of neutrophils (A)",
+    "Round, eccentric nuclei with finely granular chromatin and visible nucleoli; abundant pale, lightly basophilic cytoplasm with ill-defined borders (B)",
+    "No melanin pigment clearly identifiable at this resolution",
+    "H&E section with scattered large epithelioid cells with vesicular nuclei among blood elements (C)",
+    "Nuclear immunostaining in a cohesive cluster of tumor cells (D; marker not labeled)"
+  ],
+  "describe_en": "Peripheral blood smear shows clusters of large atypical cells, markedly larger than accompanying neutrophils, with round eccentric nuclei, visible nucleoli and abundant pale cytoplasm; melanin pigment is not clearly discernible at this resolution. A corresponding H&E section shows scattered large epithelioid cells with vesicular nuclei, and an immunohistochemical stain shows strong nuclear positivity in a cluster of tumor cells (antibody not labeled in the figure). These cells are morphologically non-hematopoietic. Findings are consistent with circulating metastatic melanoma cells, supported by immunophenotyping (e.g., SOX10, S100, Melan-A, HMB-45).",
+  "ddx": [
+    {"dx": "Circulating carcinoma cells", "vs": "Carcinoma cells tend to form tighter cohesive clusters with molding and are keratin positive and SOX10/Melan-A negative."},
+    {"dx": "Megakaryocytes or megakaryoblasts in blood", "vs": "Megakaryocytic cells have lobulated nuclei or cytoplasmic blebs with platelet budding and express CD61/CD42b rather than melanocytic markers."},
+    {"dx": "Monoblasts or large-cell lymphoma cells", "vs": "Hematolymphoid cells are dispersed rather than clustered and express CD45; melanoma cells are CD45 negative."},
+    {"dx": "Endothelial cells or squamous contaminants from venipuncture", "vs": "Contaminant cells have bland small nuclei, no nucleoli and do not show atypia or melanocytic marker expression."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa, H&E, IHC (marker not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65637",
+  "recognize_zh": "骨髓抹片有兩群細胞：一群是 N:C 比接近 1、染色質未成熟且有明顯核仁的母細胞（A、B），另一群核偏位、細胞質淡藍並拖出尾狀延伸的漿細胞樣樹突細胞（C）；流式顯示母細胞 cCD3、CD7、TdT、CD34、CD13/CD33 陽性而 CD1a、CD5 陰性，另一群 CD123、CD304、HLA-DR 陽性且 CD34/CD56 陰性，符合 ETP-ALL 合併成熟 pDC 增生。",
+  "features": [
+    "Medium-sized blasts with high N:C ratio, fine immature chromatin and visible nucleoli (panels A-B)",
+    "Second population of medium-sized cells with eccentric round nucleus, finer chromatin and a pale blue cytoplasmic tail-like extension (plasmacytoid dendritic cells, panel C)",
+    "Flow D: two CD45-dim, low side-scatter populations gated as blasts and pDC",
+    "Flow E-G (blasts): CD7 bright, CD2 negative, CD5 negative to dim, CD1a negative, TdT positive",
+    "Flow H-K (pDC): CD123 bright/CD45RA+, CD304+, CD33+, CD4+, CD56 negative, CD34 negative, HLA-DR positive"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows two distinct populations. The predominant population consists of medium-sized blasts with high nuclear-to-cytoplasmic ratios, finely dispersed immature chromatin and prominent nucleoli. A second population comprises medium-sized cells with eccentric nuclei, fine chromatin and pale basophilic cytoplasm forming tail-like extensions, typical of plasmacytoid dendritic cells. Flow cytometry shows blasts positive for CD7, TdT, cytoplasmic CD3, CD34 and myeloid markers CD13/CD33 but negative for CD1a, CD5, CD2 and CD4/CD8, and a separate mature pDC population expressing CD123, CD304, HLA-DR, CD4 and CD33 without CD34 or CD56. Findings are consistent with early T-precursor lymphoblastic leukemia with an associated mature plasmacytoid dendritic cell proliferation.",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN cells are CD4+/CD56+/CD123+/TCF4+ neoplastic blasts, whereas the pDCs here are CD56-negative and accompany a separate cCD3+/TdT+ blast population."},
+    {"dx": "AML with pDC expansion (e.g., RUNX1-mutated AML, CMML)", "vs": "Blasts would lack cytoplasmic CD3 and show MPO or other myeloid lineage-defining features rather than an ETP T-lineage profile."},
+    {"dx": "Mixed phenotype acute leukemia, T/myeloid", "vs": "Requires MPO or definitive monocytic differentiation in addition to cCD3; this case is MPO-negative."},
+    {"dx": "Cortical T-ALL", "vs": "Cortical T-ALL expresses CD1a and often CD5/CD4/CD8, lacks stem/myeloid markers, and does not meet ETP criteria."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa; flow",
+  "match": "consistent",
+  "high_yield": false
+}

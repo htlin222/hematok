@@ -1,0 +1,22 @@
+{
+  "id": "14086",
+  "recognize_zh": "周邊血同一視野中有四個嗜酸性球，核多為雙葉、胞質充滿均勻橙紅色粗顆粒，形態成熟、無明顯去顆粒或核分葉過多，顯示嗜酸性球增多；是否為反應性須靠臨床與分子檢查，無法僅憑形態判定。",
+  "features": [
+    "Four eosinophils in a single field, indicating eosinophilia",
+    "Mostly bilobed nuclei with condensed chromatin; one cell with three lobes",
+    "Cytoplasm filled with uniform, coarse orange-pink secondary granules",
+    "No conspicuous hypogranularity, vacuolation, nuclear hypersegmentation or immature eosinophil precursors",
+    "Background red cells normochromic with mild anisocytosis and scattered platelets; no blasts"
+  ],
+  "describe_en": "Peripheral blood smear shows eosinophilia, with four mature eosinophils in a single field. They have bilobed or trilobed nuclei and cytoplasm packed with coarse orange-pink granules, without appreciable degranulation, vacuolation or immature forms. No blasts or other abnormal leukocytes are seen, and the red cells show only mild anisocytosis. Findings are consistent with mature eosinophilia; morphology cannot distinguish reactive from clonal eosinophilia, and evaluation for secondary causes and end-organ damage, including thrombosis, is recommended.",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and tyrosine kinase fusion (PDGFRA, PDGFRB, FGFR1)", "vs": "Clonal eosinophilia may show dysplastic or immature eosinophils, but distinction requires FISH or molecular testing for FIP1L1::PDGFRA and related fusions."},
+    {"dx": "Chronic eosinophilic leukemia", "vs": "CEL shows clonal markers or increased blasts with dysplastic eosinophils and marrow abnormalities, not purely mature normal-appearing forms."},
+    {"dx": "Lymphocyte-variant hypereosinophilic syndrome", "vs": "Morphologically identical eosinophils; an aberrant clonal T-cell population (e.g. CD3-CD4+) on flow cytometry separates it."},
+    {"dx": "Neutrophils with toxic granulation", "vs": "Toxic neutrophils have 3–5 lobes and dark purple granules on pink cytoplasm, not refractile orange granules on a bilobed nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

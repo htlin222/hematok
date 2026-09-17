@@ -1,0 +1,22 @@
+{
+  "id": "61874",
+  "recognize_zh": "低倍下可見成群的中型原始細胞，胞質深藍並帶有明顯的空泡，外觀很像 Burkitt 淋巴瘤（L3 型）；但確診為 T 淋巴母細胞白血病/淋巴瘤（T-ALL/LBL）需要流式細胞儀，形態不能單獨區分。",
+  "features": [
+    "Numerous clusters and loose sheets of medium-sized blasts among red cells",
+    "High N:C ratio with round nuclei and dense-appearing chromatin at low power",
+    "Deeply basophilic cytoplasm with prominent small punched-out vacuoles",
+    "Smudged/disrupted cells in the background",
+    "Few residual normal granulocytes"
+  ],
+  "describe_en": "Low-power view of a smear, probably a bone marrow aspirate, shows numerous clusters and loose sheets of medium-sized blasts scattered among red cells. The blasts have high nucleus-to-cytoplasm ratios, round nuclei and deeply basophilic cytoplasm containing prominent small vacuoles, closely resembling Burkitt-type (L3) morphology. Occasional smudged cells are present and residual normal hematopoietic cells are sparse. Morphology alone cannot distinguish this from Burkitt lymphoma; immunophenotyping is required, and in this case flow cytometry established a diagnosis of T-lymphoblastic leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells are mature B cells (CD19, CD20, CD10, surface light-chain restricted, TdT negative) with MYC rearrangement, whereas these blasts lack B and myeloid markers and express T-lineage markers."},
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "B-ALL blasts express CD19, CD22, cytoplasmic CD79a and often CD10/TdT, whereas these blasts are negative for B-lineage markers."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monoblasts have more abundant grey-blue cytoplasm, folded nuclei and express CD33, CD13, CD64 and CD11b, which are negative here."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts can show basophilic cytoplasm with blebs but express CD41/CD61 and are not vacuolated in the Burkitt pattern."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

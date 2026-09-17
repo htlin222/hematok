@@ -1,0 +1,37 @@
+{
+  "id": "65",
+  "recognize_zh": "血液與骨髓抹片見大量高核質比、染色質細緻的芽細胞，骨髓切片幾乎被芽細胞填滿；流式細胞儀顯示 CD45 弱陽性、CD19/CD10/cCD79a 陽性的 B 淋巴芽細胞，且 CRLF2 表面表現陽性（76.72%），提示 BCR-ABL1-like B-ALL；但型態本身無法區分亞型，需分子檢查確認。",
+  "features": [
+    "Blood and aspirate: numerous medium-to-large blasts with high N:C ratio, finely dispersed chromatin, inconspicuous nucleoli, and scant agranular blue cytoplasm; occasional small cytoplasmic vacuoles",
+    "Bone marrow biopsy: hypercellular marrow with near-total replacement by sheets of monotonous blasts with round to irregular nuclei, fine chromatin, and scattered mitoses; normal hematopoiesis markedly reduced",
+    "Flow CD45 vs SSC: dim-to-negative CD45, low side-scatter blast population comprising 82.39% of events",
+    "Blasts CD19+, CD10 bright+, cCD79a+, cCD22 dim/partial, CD34 variable (dim to positive), CD38 bright, CD20 mostly negative to partial",
+    "Surface CRLF2 expressed on 76.72% of gated blasts, shifted relative to the residual normal population",
+    "No Auer rods, cytoplasmic granules, or morphologic lineage-specific features"
+  ],
+  "describe_en": "Peripheral blood smears show numerous circulating blasts with high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, and scant agranular basophilic cytoplasm. The bone marrow aspirate is dominated by similar blasts, some with fine cytoplasmic vacuoles, and the core biopsy shows a hypercellular marrow almost entirely replaced by sheets of monotonous blasts with frequent mitotic figures and marked reduction of residual hematopoiesis. Flow cytometry identifies a CD45 dim-to-negative, low side-scatter blast population (82.39%) expressing CD19, bright CD10, cytoplasmic CD79a, dim cytoplasmic CD22, bright CD38, and variable CD34, with CD20 largely negative, and aberrant surface CRLF2 expression on 76.72% of blasts. Findings are consistent with B-lymphoblastic leukemia; CRLF2 overexpression supports a CRLF2-rearranged BCR-ABL1-like (Ph-like) subtype, which requires molecular confirmation and exclusion of BCR::ABL1.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia with BCR::ABL1 (Ph-positive)", "vs": "Morphology and immunophenotype overlap (CD25/myeloid antigen coexpression can occur), so BCR::ABL1 FISH/RT-PCR is required to distinguish it from Ph-like ALL."},
+    {"dx": "Hematogones (benign B-cell precursors)", "vs": "Hematogones show a continuous maturation spectrum of CD34, CD10, CD20 and CD38 with normal CD45 and no CRLF2 aberrancy, unlike this monotonous aberrant blast population."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML blasts may look identical but lack CD19/cCD79a/CD10 and express myeloid markers such as MPO, CD13, and CD33."},
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and are surface immunoglobulin-positive, TdT/CD34-negative with MYC rearrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, flow cytometry",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood: several blasts with high N:C ratio, fine chromatin, and scant blue cytoplasm.",
+    "Peripheral blood: large blasts beside a small mature lymphocyte for size comparison.",
+    "Bone marrow biopsy (H&E): marrow packed with sheets of blasts adjacent to a bone trabecula, with mitoses.",
+    "Bone marrow biopsy (H&E), high power: monotonous blasts with fine chromatin and scattered mitotic figures.",
+    "Bone marrow aspirate: sheets of blasts, some with fine cytoplasmic vacuoles.",
+    "Flow CD45 vs SSC: CD45 dim/negative, low-SSC blast gate at 82.39%.",
+    "Flow CD19 vs CD34: CD19-positive blasts (red) with variable CD34 compared with CD34-negative mature B cells (purple).",
+    "Flow cCD79a vs cCD22: blasts cytoplasmic CD79a positive with dim cCD22.",
+    "Flow CD20 vs CD10: blasts bright CD10 with CD20 negative to partial, separate from mature CD10-negative B cells.",
+    "Flow CD58 vs CD10: CD10-bright blasts express CD58.",
+    "Flow CD38 vs CD34: blasts bright CD38 with variable CD34.",
+    "Flow histogram: surface CRLF2 expressed on 76.72% of gated blasts."
+  ]
+}

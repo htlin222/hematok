@@ -1,0 +1,21 @@
+{
+  "id": "2481",
+  "recognize_zh": "周邊血液中出現一個大型、染色質細緻、胞質淡藍的未成熟細胞（原始細胞或前單核球），右下另有一個核圓、染色質細的單核球樣細胞；兒童血片中出現這類未成熟骨髓單核球系細胞，支持 JMML。",
+  "features": [
+    "Large immature cell with fine, lacy chromatin and moderate pale blue agranular cytoplasm (blast/promonocyte)",
+    "Second medium-sized cell with round nucleus, fine chromatin and grey-blue cytoplasm (monocytoid)",
+    "Faint nucleolar outline in the large cell; no Auer rods",
+    "Red cells with anisocytosis and occasional target-like and irregular forms",
+    "Platelets scarce"
+  ],
+  "describe_en": "Peripheral blood smear shows a large immature mononuclear cell with finely dispersed chromatin, a faint nucleolus and a moderate amount of pale blue agranular cytoplasm, consistent with a blast or promonocyte, and a second monocytoid cell with fine chromatin. No Auer rods are identified. Red cells show anisocytosis with scattered irregular forms, and platelets are scarce. In the appropriate pediatric setting, circulating immature myelomonocytic cells are consistent with juvenile myelomonocytic leukemia; blasts plus promonocytes should remain below 20% to exclude AML.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "AML requires >=20% blasts plus promonocytes in blood or marrow, whereas JMML shows fewer blasts with a prominent mature monocytosis."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytosis shows mature monocytes with vacuolated cytoplasm and no circulating blasts or promonocytes."},
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "Lymphoblasts have scantier cytoplasm and a lymphoid immunophenotype, and are MPO and nonspecific esterase negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

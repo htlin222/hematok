@@ -1,0 +1,22 @@
+{
+  "id": "66457",
+  "recognize_zh": "骨髓抹片 (A) 為大量圓形大母細胞、染色質細緻並帶嗜酸性顆粒與細胞質突起；butyrate esterase (B) 呈瀰漫紅棕色陽性、MPO (C) 同時陽性，流式 (D) 母細胞落在顆粒球區且 CD64/CD15/CD33 陽性、CD34/CD117/HLA-DR 陰性，顯示顆粒球與單核球混合表型。",
+  "features": [
+    "Panel A: sheets of large round blasts with high N:C ratio, fine dispersed chromatin, basophilic cytoplasm with scattered granules and cytoplasmic blebs; a maturing granulocyte is also present",
+    "Panel B: nonspecific (butyrate) esterase shows diffuse strong red-brown cytoplasmic positivity in the blasts",
+    "Panel C: myeloperoxidase shows blue-green granular positivity in blasts, with one negative cell",
+    "Panel D (flow): CD45/SSC plot with the dominant population in the granulocytic region rather than the blast gate",
+    "Panel D (flow): blasts CD64+, CD15+, CD33 bright, CD38+, partial CD4 and CD13, and negative for CD123, HLA-DR, CD117 and CD34"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a predominance of large round blasts with fine chromatin, moderate basophilic cytoplasm, scattered granules and cytoplasmic blebs. Cytochemistry demonstrates strong butyrate esterase positivity and concurrent myeloperoxidase positivity in the blasts. Flow cytometry shows that the leukemic cells fall within the granulocytic region of the CD45/side-scatter plot and express CD64, CD15, bright CD33, CD38 and partial CD4 and CD13, while lacking CD34, CD117, CD123 and HLA-DR. Findings are consistent with acute myeloid leukemia with a single blast population showing hybrid granulocytic and monocytic features, in keeping with the known NPM1 mutation.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Pure monocytic AML is MPO weak/negative with strong NSE and CD14/CD11c expression, whereas these blasts are also strongly MPO and CD15 positive."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL is also CD34/HLA-DR negative with high side scatter but shows strong MPO with NSE negativity, bilobed or hypergranular cells and PML::RARA, unlike these NSE-positive round blasts."},
+    {"dx": "Classic acute myelomonocytic leukemia", "vs": "Classic AMML contains separate blast, granulocytic and monocytic populations each ≥20%, whereas here a single population carries both lineage features."},
+    {"dx": "Reactive granulocytic/monocytic hyperplasia", "vs": "Reactive states show a full maturation spectrum with CD16/CD14 acquisition rather than monotonous immature cells lacking maturation markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; butyrate esterase; MPO; flow",
+  "match": "consistent",
+  "high_yield": false
+}

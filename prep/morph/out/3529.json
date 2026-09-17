@@ -1,0 +1,22 @@
+{
+  "id": "3529",
+  "recognize_zh": "兩顆巨大細胞各含 4 個彼此分離、大小一致的圓至卵圓形細胞核，細胞質豐富呈藍灰色帶細小顆粒、邊緣不規則，這是蝕骨細胞（osteoclast），而非核融合分葉的巨核細胞。",
+  "features": [
+    "Two giant multinucleated cells, each with about four separate, uniform round-to-oval nuclei",
+    "Nuclei are discrete (not interconnected lobes) with fine chromatin and small nucleoli",
+    "Abundant blue-gray cytoplasm with fine azurophilic granules and irregular frayed borders",
+    "No platelet budding from cell margins",
+    "Background erythrocytes, a neutrophil and a few myeloid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows two large multinucleated cells, each containing several separate, uniform, round nuclei set in abundant finely granular blue-gray cytoplasm with irregular borders. The nuclei do not overlap or connect as a single lobulated mass, and there is no platelet budding. These features identify osteoclasts, which should not be confused with megakaryocytes.",
+  "ddx": [
+    {"dx": "Megakaryocyte", "vs": "Megakaryocyte nuclei are lobulated and interconnected into a single polyploid nucleus with pink granular cytoplasm, rather than multiple discrete round nuclei."},
+    {"dx": "Osteoblasts", "vs": "Osteoblasts are mononuclear with an eccentric nucleus and a perinuclear hof, often in clusters, not giant multinucleated cells."},
+    {"dx": "Metastatic carcinoma clump", "vs": "Carcinoma cells form cohesive clusters of separate cells with pleomorphic nuclei and distinct cell borders, not a single cytoplasmic syncytium with uniform nuclei."},
+    {"dx": "Multinucleated histiocyte / foreign-body giant cell", "vs": "Histiocytic giant cells usually have vacuolated or phagocytic cytoplasm and occur with granulomatous inflammation; morphologic overlap may require clinical context."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

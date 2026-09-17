@@ -1,0 +1,22 @@
+{
+  "id": "66223",
+  "recognize_zh": "這是九格流式細胞儀散布圖：CD45 強陽性、低側向散射的淋巴球閘中約 80% 為 CD19+ B 細胞（紅色），CD79b、CD22 陽性，CD23 陰性、CD200 陰性至弱，CD43 部分陽性；CD5 未顯示，此 CD23−/CD200 低的成熟 B 細胞表型支持脾邊緣區淋巴瘤而非 CLL。",
+  "features": [
+    "Gating: CD45 vs FSC and CD45 vs SSC identify a bright CD45, low SSC lymphocyte gate (58.6% of events)",
+    "CD19-positive B cells (red) comprise 79.6% of the gated lymphocytes",
+    "B cells are CD79b positive and CD22 positive",
+    "CD23 negative (Q2-UR 0.95%) and CD200 negative to dim",
+    "CD43 partially positive on B cells (Q1-UR 62.7% versus Q1-LR 17.5%), with T cells (green) serving as the CD43-positive internal control"
+  ],
+  "describe_en": "Flow cytometric analysis shows a predominant population of CD45-bright, low side scatter lymphocytes, of which approximately 80% are CD19-positive B cells. The B cells express CD79b and CD22, partially express CD43, and are negative for CD23 and negative to dim for CD200. Light chain restriction and CD5, CD10 and CD11c status are not shown in this panel and are required to confirm clonality and complete the classification. In the context of splenomegaly and villous lymphocytes, this CD23-negative, CD200-low mature B-cell phenotype is compatible with splenic marginal zone lymphoma, although CD43 expression is relatively uncommon in this entity.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL is CD5+, CD23+ and CD200 bright with dim CD79b, CD22 and surface light chain, the opposite of the CD23-negative, CD79b-bright population here."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is typically CD5+ and CD200 negative like this case but carries cyclin D1/t(11;14), so CD5 and cyclin D1 or FISH are needed."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL is CD11c bright, CD25+, CD103+, CD123+ and CD200 bright, whereas this population is CD200 negative to dim."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a similar CD5-/CD23- B-cell phenotype but with a clonal plasma cell component, IgM paraprotein and MYD88 L265P."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

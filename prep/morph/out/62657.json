@@ -1,0 +1,21 @@
+{
+  "id": "62657",
+  "recognize_zh": "左側一群大型腫瘤細胞呈強烈的細胞膜/細胞質 CD3 陽性，與右側散在的小型反應性 T 細胞一樣著色；PEL 雖為 B 細胞來源，卻常失去 B 細胞標記並可異常表現 T 細胞抗原（aberrant CD3）。",
+  "features": [
+    "Cohesive cluster of large cells with abundant cytoplasm and strong membranous/cytoplasmic CD3 staining",
+    "Large vesicular nuclei with nucleoli in the positive cells",
+    "Numerous small CD3-positive reactive T cells in the background at right",
+    "Small CD3-negative lymphocytes interspersed (presumed B cells)",
+    "Staining intensity of tumor cells comparable to background T cells"
+  ],
+  "describe_en": "CD3 immunohistochemistry shows a cohesive cluster of large neoplastic cells with abundant cytoplasm and vesicular nuclei displaying strong membranous and cytoplasmic CD3 staining, with numerous small reactive T cells staining in the background. The large-cell staining represents aberrant T-cell antigen expression, which is well described in primary effusion lymphoma, particularly the extracavitary form, despite its B-cell (clonal IG rearrangement) derivation. This pattern is a pitfall that can lead to misclassification as a T-cell lymphoma. Findings are consistent with aberrant CD3 expression in extracavitary primary effusion lymphoma when HHV8 positivity is confirmed.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma / peripheral T-cell lymphoma", "vs": "True T-cell lymphomas are HHV8-negative and show TCR rather than immunoglobulin gene rearrangement."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Can show similar large-cell morphology and B-marker loss but is HHV8-negative."},
+    {"dx": "Reactive T-cell rich background", "vs": "Reactive T cells are small with condensed nuclei, unlike the large vesicular CD3-positive tumor cells here."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

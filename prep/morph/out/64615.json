@@ -1,0 +1,22 @@
+{
+  "id": "64615",
+  "recognize_zh": "周邊血液拼圖中多顆中等大小的淋巴細胞，核圓形、卵圓或腎形，細胞質淡藍紫色且邊緣呈不規則、四周放射狀的細毛突起，是毛細胞白血病的典型毛細胞。",
+  "features": [
+    "Medium-sized lymphoid cells, larger than small lymphocytes, with moderate N:C ratio",
+    "Round, oval or bean/kidney-shaped nuclei with homogeneous, moderately condensed chromatin",
+    "Nucleoli absent or inconspicuous",
+    "Moderate pale blue-violet cytoplasm with irregular, ruffled circumferential hair-like projections",
+    "Background red cells normochromic; scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear (composite) shows medium-sized lymphoid cells with round, oval or kidney-shaped nuclei, homogeneous chromatin and inconspicuous nucleoli. The cells have moderate amounts of pale blue-violet cytoplasm with irregular, circumferential hair-like projections. Background red cells are unremarkable. Findings are consistent with circulating hairy cells of hairy cell leukemia; flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing are recommended for confirmation.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli)", "vs": "HCL-v cells show a distinct central nucleolus, higher WBC counts, and are CD25-negative and BRAF wild-type."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells have short polar villi at one or two poles and more clumped chromatin rather than circumferential projections."},
+    {"dx": "Large granular lymphocytes", "vs": "LGLs have abundant pale cytoplasm containing distinct azurophilic granules and no hairy projections."},
+    {"dx": "Monocytes", "vs": "Monocytes are larger with folded nuclei, lacy chromatin, fine azurophilic granules and vacuoles."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

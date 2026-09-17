@@ -1,0 +1,22 @@
+{
+  "id": "3320",
+  "recognize_zh": "骨髓切片免疫染色中，大量大型細胞呈強而完整的棕色細胞膜陽性，成片或叢狀分布，周圍小型造血細胞為藍色陰性；圖中未標示抗體，在 ALCL 的情境下最符合 CD30 膜染色。",
+  "features": [
+    "Numerous large cells with strong, crisp membranous brown staining and occasional dot-like paranuclear accentuation",
+    "Positive cells form confluent sheets and clusters replacing large areas of marrow",
+    "Hematoxylin-counterstained nuclei of positive cells appear large and irregular",
+    "Interspersed small negative (blue) hematopoietic and stromal cells",
+    "Antibody not labeled in the image"
+  ],
+  "describe_en": "Immunohistochemical stain on a bone marrow core biopsy shows extensive sheets and clusters of large cells with strong, uniform membranous immunoreactivity, with small negative hematopoietic cells in between. The antibody is not specified in the image; the membranous pattern with paranuclear accentuation is typical of CD30 in anaplastic large cell lymphoma, though a pan-leukocyte or T-cell membrane marker could produce a similar pattern. In the context of the title, the findings are consistent with extensive marrow involvement by anaplastic large cell lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma (CD30 stain)", "vs": "CD30-positive Hodgkin cells are sparse and scattered in a mixed inflammatory background rather than forming confluent sheets."},
+    {"dx": "CD30-positive DLBCL or other large B-cell lymphoma", "vs": "These express CD20/PAX5 and lack ALK, whereas ALCL is B-cell marker negative."},
+    {"dx": "Embryonal carcinoma (CD30 stain)", "vs": "Embryonal carcinoma is CD30-positive but also keratin, OCT4 and SALL4 positive and CD45 negative."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "CD30 expression in PTCL-NOS is usually heterogeneous and weaker rather than strong and uniform in nearly all tumor cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: unlabeled (likely CD30)",
+  "match": "consistent",
+  "high_yield": false
+}

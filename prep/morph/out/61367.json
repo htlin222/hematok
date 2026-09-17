@@ -1,0 +1,34 @@
+{
+	"id": "61367",
+	"recognize_zh": "左側可見成片、大小一致的早期紅血球前驅細胞，核圓、染色質細緻並有核仁；右側則是增加的顆粒球系與大量帶鮮紅顆粒的嗜酸性球，這種早期紅系聚集合併嗜酸性球增多，是 PCM1::JAK2 骨髓/淋巴腫瘤的典型骨髓樣貌。",
+	"features": [
+		"Large sheet-like clusters of immature erythroid precursors with round nuclei, fine chromatin, visible nucleoli and moderate amphophilic cytoplasm",
+		"Left-shifted erythroid islands displacing normal marrow elements",
+		"Increased granulopoiesis with numerous eosinophils and eosinophilic precursors containing bright red granules",
+		"Scattered erythroid normoblasts with dense nuclei among myeloid cells",
+		"Paratrabecular bone at top edge; interstitial hemorrhage/erythrocytes in the background"
+	],
+	"describe_en": "Bone marrow core biopsy shows a hypercellular marrow containing large sheets of immature erythroid precursors with round nuclei, fine chromatin and nucleoli, forming expanded left-shifted erythroid islands. The adjacent marrow shows increased granulopoiesis with conspicuous eosinophilia. The combination of clustered early erythroid precursors, eosinophilia and myeloid hyperplasia is characteristic of myeloid/lymphoid neoplasm with PCM1::JAK2, which requires confirmation by karyotype t(8;9)(p22;p24) or FISH/RT-PCR; immunostains (E-cadherin, CD71, CD34) help separate early erythroid cells from blasts.",
+	"ddx": [
+		{
+			"dx": "Acute erythroid leukemia (pure erythroid leukemia)",
+			"vs": "Requires more than 30% pronormoblasts among nucleated cells, typically with TP53 mutation and complex karyotype, and lacks the eosinophilia with JAK2 rearrangement."
+		},
+		{
+			"dx": "Metastatic carcinoma",
+			"vs": "Cohesive sheets of tumor cells could mimic erythroid clusters, but are cytokeratin positive and lack erythroid markers such as CD71 and glycophorin."
+		},
+		{
+			"dx": "Myeloid/lymphoid neoplasm with PDGFRA or FGFR1 rearrangement",
+			"vs": "Shares eosinophilia but usually lacks prominent early erythroid sheets; distinguished by FISH for PDGFRA or FGFR1."
+		},
+		{
+			"dx": "Chronic myeloid leukemia",
+			"vs": "Shows myeloid hyperplasia with small hypolobated megakaryocytes and basophilia, and is confirmed by BCR::ABL1 rather than JAK2 rearrangement."
+		}
+	],
+	"specimen": "BM biopsy",
+	"stain": "H&E",
+	"match": "consistent",
+	"high_yield": false
+}

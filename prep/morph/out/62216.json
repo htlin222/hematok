@@ -1,0 +1,21 @@
+{
+  "id": "62216",
+  "recognize_zh": "紅血球背景中有一小團約七顆彼此黏著的大細胞，細胞質灰紫並充滿透明空泡，核有明顯藍色核仁，這種成團、帶空泡且非造血的細胞是骨髓轉移性癌的線索。",
+  "features": [
+    "Small cohesive cluster of about seven large cells sharing cell borders",
+    "Round to oval nuclei with granular chromatin and prominent blue nucleoli",
+    "Moderate grey-purple cytoplasm with numerous small clear vacuoles",
+    "Cells far larger than surrounding red cells; relatively high N:C ratio",
+    "Background of red cells with stacking; no admixed hematopoietic cells in the cluster"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a small cohesive cluster of large non-hematopoietic cells in a background of red cells. The cells have round to oval nuclei with granular chromatin and prominent nucleoli, and moderate grey-purple cytoplasm containing numerous clear vacuoles. The tight cohesion with shared borders is not a feature of normal marrow elements. Findings are consistent with metastatic carcinoma, compatible with breast primary in this patient; immunohistochemical confirmation is recommended.",
+  "ddx": [
+    {"dx": "Osteoblasts", "vs": "Osteoblasts have eccentric nuclei with a distant pale hof and small nucleoli, and are not tightly cohesive with vacuolated cytoplasm."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are vacuolated but discohesive, with deeply basophilic cytoplasm and CD45/CD20/CD10 expression."},
+    {"dx": "Plasma cell clusters in myeloma", "vs": "Plasma cells have eccentric clock-face nuclei with perinuclear hof and are CD138 positive, cytokeratin negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

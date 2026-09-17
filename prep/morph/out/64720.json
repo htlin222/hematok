@@ -1,0 +1,22 @@
+{
+  "id": "64720",
+  "recognize_zh": "皮膚切片高倍下為瀰漫浸潤的中型母細胞樣細胞，核形不規則、扭曲拉長或摺疊，染色質細緻、核仁小，細胞質少而淡，缺乏發炎細胞與壞死，需配合 CD123/CD4/CD56/TCF4 確認 BPDCN。",
+  "features": [
+    "Diffuse monotonous infiltrate of medium-sized blast-like cells",
+    "Irregular nuclei: elongated, folded, indented and twisted contours",
+    "Finely dispersed chromatin with small inconspicuous nucleoli",
+    "Scant pale to lightly eosinophilic agranular cytoplasm",
+    "Scattered small round mature lymphocytes; little inflammatory background and no necrosis or angioinvasion in this field"
+  ],
+  "describe_en": "High-power H&E section of the skin shows a diffuse, dense dermal infiltrate of medium-sized, blast-like cells. The cells have irregular, often elongated or folded nuclei with finely dispersed chromatin, small nucleoli, and scant pale cytoplasm. Eosinophils, neutrophils, necrosis, and angiodestruction are not seen in this field, and the overlying epidermis is not included. The morphology is nonspecific among blastic hematolymphoid neoplasms; in the appropriate immunophenotypic context (CD4+, CD56+, CD123+, TCF4+, TCL1+; MPO- and lineage-specific markers negative), findings are consistent with blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "Myeloid sarcoma / AML cutis (monocytic)", "vs": "Monocytic leukemia cutis can look identical and may express CD4/CD56, but it expresses lysozyme, CD14/CD163 or MPO and lacks the strong CD123/TCF4/TCL1 coexpression of BPDCN."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "ENKTL is CD56+ but shows angiocentric necrosis, cytoplasmic CD3 and EBER positivity, whereas BPDCN is EBV-negative and CD123+."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Lymphoblastic lymphoma expresses TdT with B or T lineage markers (CD19/CD79a or cCD3), whereas BPDCN lacks lineage markers (TdT may be focally positive) and expresses CD123/TCF4."},
+    {"dx": "Merkel cell carcinoma", "vs": "Merkel cell carcinoma has salt-and-pepper chromatin with nuclear molding and is keratin (CK20 perinuclear dot) positive, unlike the CD45+/CD123+ BPDCN cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

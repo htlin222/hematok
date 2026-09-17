@@ -1,0 +1,22 @@
+{
+  "id": "3866",
+  "recognize_zh": "周邊血液中一顆分葉嗜中性球的細胞質內（箭頭）有數顆 2–4 µm 小型卵圓形微生物，周圍有透明暈、內含新月形深染物質，是瀰漫性組織漿菌病在血球內的酵母菌；本圖為血液抹片而非骨髓肉芽腫。",
+  "features": [
+    "Segmented neutrophil containing several small intracytoplasmic oval organisms (arrow)",
+    "Organisms approximately 2–4 µm with a clear halo and crescent-shaped basophilic chromatin cap",
+    "No kinetoplast visible within the organisms",
+    "Adjacent neutrophil with toxic-appearing granulation and irregular nuclear lobation",
+    "Background red cells with echinocytes/crenation"
+  ],
+  "describe_en": "Peripheral blood smear shows a segmented neutrophil containing several small, oval, intracytoplasmic yeast-like organisms (arrow) measuring approximately 2–4 µm, each with a clear surrounding halo and an eccentric crescent of basophilic material; no kinetoplast is seen. An adjacent neutrophil shows toxic-appearing granulation, and red cells are crenated. Although titled as a marrow granuloma case, this image is a blood smear. Findings are consistent with circulating intracellular Histoplasma capsulatum in disseminated histoplasmosis, to be confirmed by culture and antigen testing.",
+  "ddx": [
+    {"dx": "Leishmania amastigotes", "vs": "Leishmania amastigotes contain a nucleus and a rod-shaped kinetoplast, reside mainly in macrophages, and are not GMS positive, whereas Histoplasma yeasts lack a kinetoplast and stain with GMS."},
+    {"dx": "Candida species in neutrophils", "vs": "Candida yeasts are usually larger, more variably sized and may show pseudohyphae, without the characteristic halo and crescent pattern."},
+    {"dx": "Toxic granulation/Döhle bodies", "vs": "Toxic granules are small dark granules and Döhle bodies are pale blue patches, not discrete oval organisms with clear halos."},
+    {"dx": "Ingested platelets or stain precipitate", "vs": "Platelets and precipitate lack the uniform oval shape, halo and internal crescent of yeast forms."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

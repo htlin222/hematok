@@ -1,0 +1,35 @@
+{
+  "id": "67",
+  "recognize_zh": "成片的大型細胞帶偏心核、泡狀染色質與明顯中央核仁，細胞質嗜雙色（amphophilic），伴壞死與星空樣巨噬細胞；免疫染色上腫瘤細胞 CD138 類膜狀強陽性、B 細胞標記陰性，EBER 原位雜交陽性，符合漿母細胞淋巴瘤（plasmablastic lymphoma）。",
+  "features": [
+    "Diffuse sheets of large, discohesive-to-cohesive neoplastic cells with geographic necrosis",
+    "Large cells with eccentric nuclei, vesicular chromatin, and prominent central nucleoli (plasmablastic/immunoblastic)",
+    "Moderate amphophilic cytoplasm; frequent mitoses and apoptotic bodies with tingible-body macrophages (starry-sky)",
+    "Pan-B-cell marker negative in tumor cells, with strong membranous/cytoplasmic plasma-cell marker (CD138-type) staining",
+    "Strong nuclear staining in most tumor cells with a nuclear marker (e.g., MUM1/MYC); scattered reactive T cells/histiocytes highlighted by other stains",
+    "Nuclear dark signal in tumor cells on in situ hybridization, consistent with EBER positivity"
+  ],
+  "describe_en": "Sections of the maxillary sinus mass show diffuse sheets of large atypical lymphoid cells with areas of geographic necrosis. At high power, the cells have eccentric, round to oval nuclei with vesicular chromatin, prominent central nucleoli, and moderate amphophilic cytoplasm; mitotic figures, apoptotic debris, and tingible-body macrophages are numerous. By immunohistochemistry, the neoplastic cells lack pan-B-cell marker expression and show strong membranous/cytoplasmic staining with a plasma-cell marker (CD138 pattern) and diffuse strong nuclear staining with a nuclear marker; small reactive T cells and histiocytic/dendritic cells are highlighted separately. In situ hybridization shows nuclear signal in the tumor cells, consistent with EBER positivity. Findings are consistent with EBV-positive plasmablastic lymphoma.",
+  "ddx": [
+    {"dx": "Plasmablastic (anaplastic) plasma cell myeloma/extramedullary plasmacytoma", "vs": "Myeloma typically has serum/urine M-protein, lytic bone lesions, marrow clonal plasma cells, and is usually EBER-negative, whereas this lesion is EBER-positive."},
+    {"dx": "Diffuse large B-cell lymphoma, immunoblastic (NOS)", "vs": "Immunoblastic DLBCL expresses CD20 and PAX5, whereas the tumor cells here are negative for pan-B-cell markers and positive for plasma-cell markers."},
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "Also CD20-negative and CD138-positive with plasmablastic morphology, but shows granular cytoplasmic ALK staining and is EBER-negative."},
+    {"dx": "Primary effusion lymphoma, extracavitary", "vs": "Morphology and CD138+/CD20- phenotype overlap, but PEL is HHV8 (LANA-1) positive, which should be excluded by immunostaining."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (B-cell, CD138-type, nuclear markers); ISH: EBER",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E, low power: diffuse sheets of large cells with geographic necrosis",
+    "H&E, high power: plasmablastic cells with vesicular nuclei and central nucleoli",
+    "H&E, high power: sheets of large cells with eccentric nuclei and tingible-body macrophages",
+    "IHC: tumor cells negative for a pan-B-cell marker with rare positive cells",
+    "IHC: tumor cells essentially negative, single strongly positive background cell",
+    "IHC: tumor cells negative; scattered small reactive cells positive (T-cell/leukocyte marker pattern)",
+    "IHC: strong membranous and cytoplasmic staining in tumor cells (CD138 pattern)",
+    "IHC: strong nuclear staining in most tumor cells (e.g., MUM1/MYC)",
+    "In situ hybridization: nuclear signal in tumor cells, consistent with EBER",
+    "IHC: tumor negative; interspersed histiocytic/dendritic cells highlighted"
+  ]
+}

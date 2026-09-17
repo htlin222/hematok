@@ -1,0 +1,22 @@
+{
+  "id": "65141",
+  "recognize_zh": "紅血球背景中散在多個大型母細胞，核圓到有摺疊或凹陷、染色質細緻並可見核仁，細胞質中等、灰藍色且邊緣含許多小空泡；其中一顆細胞核周有細顆粒。這些帶空泡的母細胞與腹水中的細胞型態相同，支持 AML 的診斷。圖中是 Romanowsky 染色，並非敘述中的 MPO 染色。",
+  "features": [
+    "Scattered large blasts in an RBC-rich smear, several times the size of an RBC",
+    "Round to indented or folded nuclei with fine to slightly coarse dispersed chromatin and visible nucleoli",
+    "Moderate grey-blue cytoplasm with numerous small peripheral clear vacuoles",
+    "Occasional cell with fine azurophilic granulation; one smudged cell at top of field",
+    "No MPO reaction product is shown; image is a Romanowsky-stained smear"
+  ],
+  "describe_en": "Romanowsky-stained smear, likely bone marrow aspirate, shows numerous large blasts dispersed among red cells. The blasts have round to folded or indented nuclei, finely dispersed chromatin, visible nucleoli, and moderate grey-blue cytoplasm with prominent small vacuoles, occasionally with fine granulation. Auer rods are not clearly seen at this magnification, and although the case description refers to MPO positivity, no cytochemical stain is shown in this image. The blast morphology matches the cells seen in the ascitic fluid and is consistent with acute myeloid leukemia with monocytic differentiation, as reported with inv(16).",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts have scant non-vacuolated cytoplasm and are MPO-negative with TdT/CD19 or CD3 expression, whereas these blasts have more vacuolated cytoplasm and were MPO-positive."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells have abundant coarse granules or bilobed nuclei with bundles of Auer rods and PML::RARA, not vacuolated monocytoid blasts."},
+    {"dx": "AML with t(8;21)", "vs": "t(8;21) blasts often have a perinuclear hof, salmon-coloured granules and single long Auer rods, while inv(16) typically shows monocytic features with abnormal eosinophils; cytogenetics or RUNX1::RUNX1T1 versus CBFB::MYH11 testing separates them."},
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells show deeply basophilic cytoplasm with sharply punched-out lipid vacuoles and a mature B-cell phenotype with MYC rearrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa (Romanowsky)",
+  "match": "consistent",
+  "high_yield": false
+}

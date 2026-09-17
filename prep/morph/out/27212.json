@@ -1,0 +1,22 @@
+{
+  "id": "27212",
+  "recognize_zh": "骨髓抹片呈模糊的無定形嗜鹼性背景，細胞輪廓不清、核固縮或溶解（ghost cells）；切片中骨小樑之間的骨髓大片呈淡粉紅色壞死（星號），僅少部分殘存有活性細胞（箭頭），而殘存腫瘤細胞免疫染色呈瀰漫強陽性——急性骨髓性白血病合併骨髓壞死。",
+  "features": [
+    "Panel A (aspirate, low power): amorphous granular basophilic-to-eosinophilic background with indistinct cell outlines",
+    "Panel B (aspirate, high power): degenerated 'ghost' cells with smudged, pyknotic or karyorrhectic nuclei and vacuolated debris",
+    "Panel C (H&E biopsy): extensive coagulative marrow necrosis (asterisk) with loss of nuclear detail between bony trabeculae",
+    "Panel C: residual viable cellular marrow in an adjacent intertrabecular space (arrow)",
+    "Panel D (IHC): diffuse strong cytoplasmic staining of the viable leukemic infiltrate (marker not labeled)"
+  ],
+  "describe_en": "Bone marrow aspirate smears (A, B) consist largely of amorphous, granular necrotic material with degenerated cells showing indistinct cytoplasmic borders and smudged or pyknotic nuclei, precluding a reliable differential count. The trephine biopsy (C) shows extensive coagulative necrosis of intertrabecular marrow (asterisk) with a residual focus of viable hypercellular marrow (arrow); bone trabeculae appear intact. Immunohistochemistry (D; antibody not labeled) shows diffuse strong staining of the viable leukemic cells. Findings are consistent with bone marrow necrosis secondary to acute myeloid leukemia (reported as acute myelomonocytic leukemia); lineage and subtype should be established on viable tissue, peripheral blood or repeat sampling.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma with marrow necrosis", "vs": "Viable tumor at the necrotic edge is cohesive and keratin-positive, CD45- and myeloid marker-negative."},
+    {"dx": "Sickle cell crisis or DIC-related marrow infarction", "vs": "Infarction in these settings lacks a viable blast population and is associated with sickled cells or consumptive coagulopathy."},
+    {"dx": "Gelatinous (serous) transformation", "vs": "Gelatinous transformation shows fat atrophy with pale extracellular mucopolysaccharide (Alcian blue-positive) and preserved but hypocellular cells, not ghost cells."},
+    {"dx": "Acute lymphoblastic leukemia or high-grade lymphoma with necrosis", "vs": "Viable lymphoblasts or lymphoma cells express TdT/CD19/CD3 or CD20 and lack myeloid/monocytic markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC (marker not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

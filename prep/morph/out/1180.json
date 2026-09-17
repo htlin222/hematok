@@ -1,0 +1,22 @@
+{
+  "id": "1180",
+  "recognize_zh": "周邊血液中央有一個圓形、極深染且幾乎無細胞質的巨核細胞裸核，下方連著成群血小板碎片；上方可見一顆與紅血球等大的巨大血小板，背景紅血球大小不一並有少數淚滴細胞，提示骨髓纖維化。",
+  "features": [
+    "Round, very dense, hyperchromatic naked megakaryocyte nucleus with minimal cytoplasm",
+    "Platelet fragments clustered at the edge of the bare nucleus",
+    "Giant platelet approaching the size of a red cell with pale, finely granular cytoplasm",
+    "Anisocytosis with occasional teardrop cells, a large polychromatic cell and elliptocytes",
+    "Scattered normal-sized platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows mild to moderate anisopoikilocytosis with occasional teardrop cells, elliptocytes and a large polychromatophilic red cell. A small, round, hyperchromatic nucleus with minimal cytoplasm and adherent platelet fragments is present, consistent with a circulating naked megakaryocyte nucleus. A giant platelet approximately the size of a red cell is also seen. Findings are consistent with the peripheral blood picture of primary myelofibrosis, with correlation with marrow biopsy and MPN driver mutation testing.",
+  "ddx": [
+    {"dx": "Small lymphocyte", "vs": "Lymphocytes show a visible rim of blue cytoplasm and less opaque chromatin, and lack attached budding platelet fragments."},
+    {"dx": "Nucleated red cell (orthochromic normoblast)", "vs": "A normoblast has a small pyknotic nucleus surrounded by pink hemoglobinized cytoplasm, not platelet fragments."},
+    {"dx": "Essential thrombocythemia", "vs": "ET shows giant platelets and thrombocytosis but lacks teardrop poikilocytosis and circulating megakaryocyte nuclei."},
+    {"dx": "Myelophthisis", "vs": "Marrow infiltration by tumor or granulomas gives the same leukoerythroblastic features; distinction requires marrow biopsy."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

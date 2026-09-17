@@ -1,0 +1,22 @@
+{
+  "id": "61486",
+  "recognize_zh": "一顆大型巨噬細胞內吞噬了數個有核細胞（分葉或腎形核），細胞質中又散布大量約 2–3 µm 的小圓形紫色小體（LD 小體，Leishman-Donovan bodies），同時呈現噬血現象與利什曼原蟲無鞭毛體。",
+  "features": [
+    "Large macrophage containing several engulfed nucleated cells (band/segmented granulocytes and other hematopoietic cells), indicating hemophagocytosis",
+    "Numerous small (about 2-3 um) round-to-oval dark purple bodies scattered in the macrophage cytoplasm and at its periphery",
+    "Tiny bodies consistent with amastigotes; nucleus and rod-shaped kinetoplast not clearly resolved at this magnification",
+    "Adjacent intermediate-sized mononuclear cells with fine chromatin and occasional myeloid precursors",
+    "Aspirate background with red cells; free extracellular amastigotes are possible along the cell edge"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large macrophage that has engulfed several nucleated hematopoietic cells, including granulocytes, consistent with hemophagocytosis. The macrophage cytoplasm contains numerous small, round-to-oval, dark-staining bodies approximately 2-3 um in size, consistent with Leishman-Donovan bodies (amastigotes), although the kinetoplast is not clearly resolved at this magnification. Surrounding marrow cells include myeloid precursors and mononuclear cells. In a child with fever, massive splenomegaly and pancytopenia, findings are consistent with visceral leishmaniasis with secondary hemophagocytic lymphohistiocytosis.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts show a clear halo and budding and lack the rod-shaped kinetoplast of Leishmania amastigotes."},
+    {"dx": "Toxoplasma gondii", "vs": "Toxoplasma tachyzoites are crescent-shaped with a central nucleus and no kinetoplast."},
+    {"dx": "Platelets overlying a macrophage", "vs": "Superimposed platelets are larger, granular and lie out of the plane, whereas amastigotes are uniform, intracellular and have a nucleus plus kinetoplast."},
+    {"dx": "Primary (familial) HLH or other infection-associated HLH", "vs": "Hemophagocytosis alone is nonspecific; demonstration of intracellular amastigotes (or rK39 serology/PCR) identifies Leishmania as the trigger."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2816",
+  "recognize_zh": "細胞離心抹片上只有四顆異常髓系細胞：右側較大的一顆核分兩葉、細胞質灰藍，可能是小型巨核細胞（micromegakaryocyte），其餘為核形不規則的未成熟細胞；解析度有限，單憑此圖無法確立加速期。",
+  "features": [
+    "Small cluster of four nucleated cells on a sparse cytocentrifuge-like background",
+    "Largest cell with a bilobed nucleus and gray-blue, faintly granular cytoplasm, possibly a micromegakaryocyte",
+    "Two cells with irregular folded nuclei and pale granular cytoplasm (immature granulocytes)",
+    "One smaller cell with dense purple cytoplasm obscuring the nucleus, possibly a basophil",
+    "Single red cell; fine granule and chromatin detail limited by resolution"
+  ],
+  "describe_en": "The preparation shows a small cluster of four nucleated cells. The largest has a bilobed nucleus and gray-blue, faintly granular cytoplasm, raising the possibility of a micromegakaryocyte, while two cells with irregular folded nuclei resemble immature granulocytes and one smaller cell with dense purple cytoplasm may be a basophil. Chromatin and granule detail are limited at this resolution, and cell lineage cannot be assigned with confidence without immunostaining (e.g., CD61) or a larger field. Such dysplastic megakaryocytes and basophils support, but do not by themselves establish, accelerated phase of CML.",
+  "ddx": [
+    {"dx": "Monocytes/promonocytes", "vs": "Monocytic cells have lacy chromatin and vacuolated gray cytoplasm and are NSE/CD14-positive, whereas micromegakaryocytes are CD61/CD42b-positive."},
+    {"dx": "Binucleate plasma cell or blast", "vs": "Plasma cells have clock-face chromatin with a perinuclear hof, and blasts have fine chromatin with nucleoli, unlike the dense lobulated megakaryocyte nucleus."},
+    {"dx": "Dysplastic megakaryocyte of MDS", "vs": "MDS micromegakaryocytes occur without BCR::ABL1 and without the granulocytic hyperplasia and basophilia of CML."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

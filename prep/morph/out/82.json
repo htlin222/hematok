@@ -1,0 +1,31 @@
+{
+  "id": "82",
+  "recognize_zh": "穿刺切片中一大片體積大、多形性的細胞，細胞質豐富且嗜酸性，核呈卵圓或腎形，偶見奇異巨核與多核細胞；IHC 呈顆粒狀細胞質染色（CD68 型）與強細胞質染色（組織球標記型），加上 PET-CT 顯示腸繫膜與後腹膜淋巴結 FDG 高攝取，符合組織球肉瘤（histiocytic sarcoma）。",
+  "features": [
+    "Sheets of large, discohesive, pleomorphic cells effacing the sampled tissue, forming a solid nodule at low power with adjacent adipose tissue",
+    "Abundant eosinophilic, finely vacuolated to glassy cytoplasm with well-defined cell borders",
+    "Oval, reniform to folded vesicular nuclei with small distinct nucleoli; scattered bizarre hyperchromatic and multinucleated giant cells",
+    "Admixed small inflammatory cells in the background",
+    "IHC: diffuse granular cytoplasmic staining (CD68-like pattern) and strong diffuse cytoplasmic/membranous staining (histiocytic marker pattern) in the large cells",
+    "IHC: strong nuclear positivity in most tumor nuclei (antibody not labeled)"
+  ],
+  "describe_en": "Coronal PET-CT shows multiple FDG-avid mesenteric and retroperitoneal lymph nodes (arrows). The percutaneous core biopsy shows a solid proliferation of large, pleomorphic, discohesive cells with abundant eosinophilic cytoplasm, oval to reniform vesicular nuclei with small nucleoli, and scattered bizarre and multinucleated tumor giant cells, admixed with small inflammatory cells. By immunohistochemistry, the neoplastic cells show diffuse granular cytoplasmic staining and strong diffuse cytoplasmic staining in patterns typical of histiocytic markers (e.g., CD68, CD163), and a nuclear marker is positive in most tumor nuclei; the individual antibodies are not labeled in the figure. Myeloid (MPO, CD34), dendritic cell (S100, CD1a, langerin), lymphoid and epithelial markers are required to exclude mimics but are not shown. Findings are consistent with histiocytic sarcoma, possibly clonally related to the prior B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "Myeloid sarcoma (monocytic)", "vs": "Myeloid sarcoma consists of more monotonous blasts with finer chromatin and scant cytoplasm and usually expresses CD34, CD117, MPO or lysozyme with CD43, whereas histiocytic sarcoma shows mature-appearing abundant eosinophilic cytoplasm, CD163 positivity and lacks blast markers."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL has hallmark cells with horseshoe nuclei, sinusoidal growth and strong uniform CD30 (often ALK) with T-cell antigens, while histiocytic sarcoma is CD30-negative or weak and CD163/CD68-positive."},
+    {"dx": "Langerhans cell sarcoma / interdigitating dendritic cell sarcoma", "vs": "These express S100 (plus CD1a and langerin in Langerhans cell sarcoma) and often show grooved nuclei, whereas histiocytic sarcoma is S100-negative or focal and CD1a/langerin-negative."},
+    {"dx": "Metastatic poorly differentiated carcinoma or melanoma", "vs": "Carcinoma shows cohesive nests with keratin positivity and melanoma expresses S100, SOX10 and HMB45, whereas histiocytic sarcoma is discohesive and negative for these but positive for CD163 and lysozyme."}
+  ],
+  "specimen": "LN",
+  "stain": "PET-CT; H&E; IHC (unlabeled histiocytic and nuclear markers)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Coronal PET-CT: multiple FDG-avid mesenteric and retroperitoneal lymph nodes (arrows)",
+    "H&E low power: core biopsy with a solid nodule of large eosinophilic cells and adjacent adipose tissue",
+    "H&E high power: large pleomorphic cells with abundant eosinophilic cytoplasm, vesicular nuclei and bizarre multinucleated forms",
+    "IHC: diffuse granular cytoplasmic staining of tumor cells (CD68-like pattern)",
+    "IHC: strong diffuse cytoplasmic staining of large tumor cells (histiocytic marker pattern)",
+    "IHC: strong nuclear positivity in most tumor nuclei (antibody not labeled)"
+  ]
+}

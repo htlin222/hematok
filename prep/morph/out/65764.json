@@ -1,0 +1,21 @@
+{
+  "id": "65764",
+  "recognize_zh": "兩顆大型母細胞，核圓至卵圓、染色質細緻呈網狀、核質比高，細胞質中量偏嗜鹼性且看不到顆粒或 Auer 小體；單憑這張型態只能說是「無顆粒母細胞」，無法判斷 inv(16) 或排除混合表型，需靠 MPO、流式與核型確認。",
+  "features": [
+    "Two large blasts with high N:C ratio",
+    "Round to oval nuclei with finely dispersed, lacy chromatin; a refractile vacuole/artifact overlies one nucleus",
+    "Moderate rim of basophilic cytoplasm with cytoplasmic blebs; no visible granules",
+    "No Auer rods identified",
+    "No abnormal eosinophils in this cropped field; image is heavily processed, limiting fine detail"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows large blasts with high nuclear-to-cytoplasmic ratio, round to oval nuclei with fine lacy chromatin, and a moderate rim of basophilic agranular cytoplasm with small blebs. No Auer rods are seen, and abnormal eosinophils with basophilic granules are not represented in this cropped, digitally processed field. The morphology is that of undifferentiated-appearing blasts and is not lineage-specific. With reported MPO positivity in 31% of blasts and inv(16)(p13q22)/CBFB::MYH11, findings are consistent with acute myeloid leukemia with CBFB::MYH11, despite aberrant T-lineage antigen expression.",
+  "ddx": [
+    {"dx": "T/myeloid mixed phenotype acute leukemia", "vs": "Morphology cannot separate them; under WHO criteria T-lineage requires bright cytoplasmic CD3, and the presence of CBFB::MYH11 assigns the case to AML with a defining genetic abnormality regardless of EGIL score."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL blasts are MPO-negative and lack CD117/CD13/CD33 co-expression, whereas these blasts are MPO-positive in 31%."},
+    {"dx": "AML with minimal differentiation", "vs": "Minimally differentiated AML has <3% MPO-positive blasts, while this case shows 31% MPO positivity and inv(16)."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Romanowsky (Wright-Giemsa type)",
+  "match": "consistent",
+  "high_yield": false
+}

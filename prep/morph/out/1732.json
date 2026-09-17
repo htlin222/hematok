@@ -1,0 +1,22 @@
+{
+  "id": "1732",
+  "recognize_zh": "抹片中一群大型圓形細胞，細胞質充滿密集、深紫色的嗜鹼性（metachromatic）顆粒並部分遮蓋圓形至卵圓形細胞核，周圍還散落脫出的顆粒，這種成群出現的肥大細胞符合肥大細胞白血病（mast cell leukemia）。",
+  "features": [
+    "Sheet of large round to oval cells packed together, several times the size of red cells",
+    "Cytoplasm filled with dense, coarse dark purple metachromatic granules that partly obscure the nucleus",
+    "Round to oval centrally placed nuclei with finely granular chromatin; nucleoli not discernible",
+    "Numerous extruded granules scattered in the background between cells",
+    "Some cells show paler, less granular zones, suggesting partial hypogranularity; image resolution limits fine detail"
+  ],
+  "describe_en": "Wright-Giemsa-stained smear shows a cohesive-appearing sheet of large round cells with abundant cytoplasm densely packed with coarse dark purple metachromatic granules, round to oval central nuclei, and numerous extruded granules in the background. Some cells show areas of relative hypogranularity. The specimen source and the proportion of mast cells cannot be determined from this image. Findings are consistent with a marked increase in mast cells; in the appropriate setting, mast cells forming at least 20% of nucleated cells on the aspirate smear support mast cell leukemia, with confirmation by tryptase, CD117, CD25, and KIT D816V testing.",
+  "ddx": [
+    {"dx": "Basophils (e.g., basophilia in CML or acute basophilic leukemia)", "vs": "Basophils are smaller with segmented or lobulated nuclei and water-soluble granules that overlie the nucleus, whereas mast cells are larger with round central nuclei and are strongly CD117 and tryptase positive."},
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are scattered singly, spindled or round, without sheets, and lack CD25/CD2 expression and KIT D816V."},
+    {"dx": "Acute promyelocytic leukemia (hypergranular)", "vs": "Promyelocytes have azurophilic red-purple granules, bilobed nuclei, and Auer rod bundles, and are MPO strongly positive rather than tryptase positive."},
+    {"dx": "Tryptase-positive AML or myelomastocytic leukemia", "vs": "These show a blast population with admixed immature mast cells and lack the dominant mature-appearing granular mast cell sheets; flow and KIT mutation testing help separate them."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

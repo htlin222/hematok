@@ -1,0 +1,21 @@
+{
+  "id": "63526",
+  "recognize_zh": "低倍下視野中六顆嗜中性球周圍都黏附一圈小紫色血小板，排列成花環狀（rosette），而背景中游離血小板很少，這就是血小板衛星現象（platelet satellitism），會造成假性血小板減少。",
+  "features": [
+    "Multiple neutrophils each rimmed by numerous adherent platelets forming rosettes",
+    "Platelets are small, purple, granular fragments of normal size attached around the cell membrane",
+    "Paucity of free platelets in the background",
+    "Neutrophils otherwise show segmented nuclei without toxic change evident at this magnification",
+    "Thick area of smear with overlapping red cells, limiting red cell morphology assessment"
+  ],
+  "describe_en": "Peripheral blood smear at low-medium power shows multiple neutrophils, each surrounded by a rosette of adherent platelets, while relatively few platelets lie free in the background. The platelets appear morphologically normal in size and granularity. The field is from a thick area with overlapping red cells, limiting assessment of red cell morphology. Findings are consistent with platelet satellitism, an in vitro EDTA-dependent phenomenon that can cause spurious thrombocytopenia on automated counts; repeat count in a citrate or heparin tube and smear review is recommended.",
+  "ddx": [
+    {"dx": "Platelet clumping (EDTA-induced aggregation)", "vs": "Platelet clumps form free-lying aggregates of platelets in the background or at the feathered edge rather than rosettes encircling neutrophils; both cause pseudothrombocytopenia."},
+    {"dx": "Platelet phagocytosis by neutrophils", "vs": "Phagocytosed platelets lie within the neutrophil cytoplasm in vacuoles, whereas satellite platelets adhere to the external cell surface."},
+    {"dx": "True thrombocytopenia", "vs": "In true thrombocytopenia platelets are sparse throughout the smear without rosettes or clumps, and counts remain low in citrate-anticoagulated samples."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

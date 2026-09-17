@@ -1,0 +1,20 @@
+{
+  "id": "64036",
+  "recognize_zh": "DAPI 藍色細胞核中，大多數只見到一個橘紅色訊號，少數細胞有兩個訊號（正常），表示 20q 探針區域單套缺失，即 del(20q)。",
+  "features": [
+    "Interphase FISH with DAPI-counterstained (blue) nuclei and an orange/red locus-specific 20q probe",
+    "Most nuclei show a single orange signal, indicating loss of one 20q locus",
+    "Rare nuclei show two orange signals (normal pattern), serving as internal control",
+    "Overlapping nuclei and split signals can mimic abnormal patterns and must be excluded when scoring"
+  ],
+  "describe_en": "Interphase fluorescence in situ hybridization on bone marrow cells shows DAPI-counterstained nuclei hybridized with a 20q-specific probe. The majority of nuclei display a single orange signal, whereas occasional nuclei retain two signals. Per the report, 89% of scored nuclei showed one signal, well above the laboratory cutoff. Findings are consistent with deletion of 20q, concordant with the karyotype 46,XY,del(20)(q11.2).",
+  "ddx": [
+    {"dx": "Normal (two-signal) pattern with signal overlap", "vs": "Overlapping or out-of-focus signals produce sporadic one-signal nuclei at low frequency below the cutoff, not in the large majority of cells."},
+    {"dx": "Monosomy 20", "vs": "Monosomy also gives one 20q signal, so a 20p or centromeric control probe or karyotype is needed to distinguish it from a 20q deletion."},
+    {"dx": "Loss of Y or other MDS FISH abnormalities", "vs": "These are detected with different probes and colors; the single orange signal here pertains only to the 20q locus."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: 20q probe with DAPI",
+  "match": "non-morphologic",
+  "high_yield": false
+}

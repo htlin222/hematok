@@ -1,0 +1,20 @@
+{
+  "id": "60861",
+  "recognize_zh": "CD10 染色僅在結節周圍的真皮基質（纖維母細胞／血管周圍）呈條紋狀陽性，結節內的 B 細胞則為陰性；腫瘤細胞 CD10 陰性有助排除皮膚濾泡中心淋巴瘤，支持邊緣區淋巴瘤。",
+  "features": [
+    "Large dermal lymphoid nodule composed of CD10-negative cells",
+    "Streaky, reticular CD10 staining of stromal cells and fibroblasts around and between nodules",
+    "No CD10-positive germinal center-type cells within the nodule",
+    "Epidermis/adnexal epithelium at upper right negative"
+  ],
+  "describe_en": "CD10 immunostain of the skin biopsy shows a large dermal lymphoid nodule that is negative for CD10. Staining is restricted to streaky stromal and perivascular cells surrounding and dissecting the nodules. No CD10-positive follicle center cells are identified within the infiltrate. The lack of CD10 expression by the lesional B cells argues against a follicle center cell origin and is consistent with primary cutaneous marginal zone lymphoma.",
+  "ddx": [
+    {"dx": "Primary cutaneous follicle center lymphoma", "vs": "PCFCL neoplastic cells are BCL6 positive and frequently CD10 positive in follicular areas, whereas the lesional nodule here is CD10 negative."},
+    {"dx": "Cutaneous lymphoid hyperplasia with germinal centers", "vs": "Reactive germinal centers contain CD10-positive centroblasts and centrocytes in discrete follicles, which are not seen in this nodule."},
+    {"dx": "Mantle cell lymphoma involving skin", "vs": "MCL is also CD10 negative, so cyclin D1 and SOX11 are needed to exclude it."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD10",
+  "match": "consistent",
+  "high_yield": false
+}

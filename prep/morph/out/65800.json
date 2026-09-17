@@ -1,0 +1,22 @@
+{
+  "id": "65800",
+  "recognize_zh": "油鏡下多數紅血球內有一至數個大小不一的小型透亮空泡，單獨或成群分佈、未見內含物，病人為脾臟切除後一個月，符合脾臟移除後無法清除的紅血球空泡（pits/vesicles）；中央另有一團破碎的紫色顆粒狀細胞/血小板聚集。",
+  "features": [
+    "Many red cells contain one to several small, sharply outlined clear vacuoles of varying size, single or clustered",
+    "Vacuoles lack stainable inclusions",
+    "Some red cells crenated (echinocytic) with a few pointed/teardrop-like forms",
+    "A central irregular purple granular structure, likely a smudged leukocyte or platelet aggregate",
+    "Scattered small platelet clumps in the background"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows numerous red cells containing small, clear, sharply demarcated vacuoles that vary in size and number and occur singly or in clusters, without visible inclusions. Some red cells are crenated, and a smudged granular cell or platelet aggregate is present centrally with scattered platelet clumps. In a patient one month after splenectomy, the vacuoles are compatible with red cell pits/autophagic vesicles normally removed by the spleen; drying artifact should be excluded by reviewing a well-prepared smear.",
+  "ddx": [
+    {"dx": "Drying (water) artifact", "vs": "Artifactual refractile holes are highly refractile, change with focusing, and cluster in poorly dried areas, whereas true vacuoles are consistent across the smear."},
+    {"dx": "Howell-Jolly bodies", "vs": "Howell-Jolly bodies are dense round purple DNA remnants, not clear vacuoles, although both reflect hyposplenism."},
+    {"dx": "Pappenheimer bodies", "vs": "Pappenheimer bodies are small clustered basophilic granules that stain with Prussian blue, rather than clear spaces."},
+    {"dx": "Stomatocytes", "vs": "Stomatocytes have a single slit-like central pallor rather than multiple discrete round vacuoles."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64727",
+  "recognize_zh": "A 圖 PET-CT 右肝周邊有一個 FDG 高攝取的分葉狀病灶；B 圖腫瘤細胞呈片狀 CD138 細胞膜強陽性；C 圖 Diff-Quik 抹片見偏心核、核仁明顯、部分雙核的漿細胞樣腫瘤細胞，符合肝臟髓外漿細胞瘤。",
+  "features": [
+    "PET-CT: lobulated hypoattenuating lesion at the periphery of the right hepatic lobe with intense rim-to-diffuse FDG avidity",
+    "IHC: diffuse, strong membranous CD138 staining in sheets/nests of tumor cells",
+    "Cytology: dyscohesive plasmacytoid cells with eccentric nuclei and moderate basophilic cytoplasm",
+    "Nuclear pleomorphism with prominent nucleoli, binucleate forms, and high N:C ratio in a subset",
+    "Background of small mature lymphocytes and blood"
+  ],
+  "describe_en": "Composite figure. PET-CT (A) shows a lobulated hypoattenuating mass at the periphery of the right hepatic lobe with marked FDG avidity. The biopsy immunostain (B) demonstrates sheets of tumor cells with strong, diffuse membranous CD138 positivity. The Diff-Quik-stained cytologic preparation (C) shows dyscohesive plasmacytoid cells with eccentric nuclei, moderate basophilic cytoplasm, variable nuclear pleomorphism, prominent nucleoli, and occasional binucleation. Findings are consistent with extraosseous (hepatic) plasmacytoma with atypical, immature features; light-chain restriction and exclusion of systemic myeloma should be documented.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "PBL cells are larger immunoblastic cells with a very high Ki-67, often EBER-positive and in immunocompromised hosts, whereas plasmacytoma retains recognizable plasma cell morphology and is usually EBV-negative."},
+    {"dx": "Hepatocellular carcinoma", "vs": "HCC cells are polygonal with trabecular architecture and express HepPar-1/arginase-1, not CD138 with light-chain restriction."},
+    {"dx": "Metastatic neuroendocrine or poorly differentiated carcinoma", "vs": "Carcinomas are cohesive and keratin-positive; CD138 can stain epithelium, so kappa/lambda restriction and CD79a/MUM1 are needed to confirm plasma cell lineage."},
+    {"dx": "Secondary hepatic involvement by multiple myeloma", "vs": "Morphology is identical; marrow examination, serum/urine M-protein, and skeletal survey distinguish systemic myeloma from solitary plasmacytoma."}
+  ],
+  "specimen": "tissue",
+  "stain": "PET-CT; IHC: CD138; Diff-Quik",
+  "match": "consistent",
+  "high_yield": false
+}

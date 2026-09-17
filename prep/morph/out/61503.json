@@ -1,0 +1,23 @@
+{
+  "id": "61503",
+  "recognize_zh": "六格合成圖：A–C 周邊血液中出現多個漿母細胞樣細胞（深嗜鹼性豐富細胞質、偏心核、核旁淡染區），D 為骨髓抹片混合細胞與巨噬細胞，E、F 為免疫染色（E 成群陽性、F 僅單一核陽性，推測為 HHV8 LANA 等標記，圖中未標示）；循環中的漿母細胞是 HHV8 相關淋巴增生疾患的線索。",
+  "features": [
+    "Panel A: several circulating atypical lymphoid cells with dark nuclei and basophilic cytoplasm at low power",
+    "Panels B-C: medium to large plasmablastic cells with eccentric nuclei, open chromatin, and abundant deeply basophilic cytoplasm, some with a perinuclear hof",
+    "Panel C also shows a neutrophil and an immature granulocyte for size comparison",
+    "Panel D: marrow aspirate with mixed hematopoietic cells, plasmacytoid cells, and a large histiocyte",
+    "Panel E: immunostain with clusters of strongly positive cells; panel F: immunostain with a single nuclear-positive cell (antibodies not labeled)",
+    "Image resolution is low, limiting assessment of nucleoli and inclusions"
+  ],
+  "describe_en": "This composite figure shows peripheral blood smears (A-C), a bone marrow aspirate (D), and two immunohistochemical stains (E-F). The blood smears contain increased circulating plasmablast-like cells with eccentric nuclei, dispersed chromatin, and abundant deeply basophilic cytoplasm, some with a perinuclear hof. The marrow aspirate shows mixed hematopoietic elements with plasmacytoid cells and a histiocyte, while the immunostains show clusters of positive cells (E) and a rare nuclear-positive cell (F), although the antibodies are not labeled and resolution is limited. In the appropriate context, and with confirmation by HHV8 LANA staining, light-chain restriction studies, and EBV status, the findings are suggestive of an HHV8-associated lymphoproliferative disorder with circulating plasmablasts, such as HHV8-positive multicentric Castleman disease.",
+  "ddx": [
+    {"dx": "Plasma cell leukemia", "vs": "Plasma cell leukemia cells are more mature plasma cells that are HHV8 negative, CD138+, and usually CD20 negative, with myeloma-type cytogenetics."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is typically EBER positive and HHV8 negative, forming destructive masses of plasmablasts."},
+    {"dx": "HHV8-positive diffuse large B-cell lymphoma, NOS", "vs": "This entity forms sheets of LANA+, IgM lambda-restricted plasmablasts effacing tissue, whereas MCD shows scattered plasmablasts in the mantle zones."},
+    {"dx": "Reactive plasmacytosis (e.g., viral infection or dengue)", "vs": "Reactive plasmacytoid lymphocytes are polytypic and HHV8 LANA negative, with a spectrum of maturation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; IHC (unlabeled)",
+  "match": "partial",
+  "high_yield": false
+}

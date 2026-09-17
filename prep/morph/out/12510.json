@@ -1,0 +1,21 @@
+{
+  "id": "12510",
+  "recognize_zh": "A 圖抹片可見大量聚集的母細胞（染色質細緻、核有摺痕、偶見核內空泡），代表高白血球血症；B 圖 CT 與 C 圖 MRI 箭頭處顯示多處腦實質出血／病灶，合併起來指向白血病性白血球淤滯（leukostasis）造成的中樞神經併發症。",
+  "features": [
+    "Panel A: numerous blasts in a crowded aggregate, with high N:C ratio and fine dispersed chromatin",
+    "Blasts have round to folded or indented nuclei, some with small nucleoli and a nuclear pseudo-inclusion/cup-like clear area",
+    "Scant to moderate basophilic agranular cytoplasm; occasional segmented neutrophil",
+    "Panel B: non-contrast head CT with multiple small hyperdense foci (arrows), suggesting hemorrhage",
+    "Panel C: axial FLAIR MRI with multiple rim-like lesions in bilateral hemispheres (arrows)"
+  ],
+  "describe_en": "Smear (panel A) shows a marked increase in blasts clustered together, with high N:C ratio, fine chromatin, round to folded nuclei with occasional clear nuclear invaginations and scant agranular cytoplasm; Auer rods are not identified at this magnification. Head CT (panel B) demonstrates multiple small hyperdense parenchymal foci, and FLAIR MRI (panel C) shows multifocal lesions with surrounding signal change in both hemispheres. Findings are consistent with hyperleukocytic acute leukemia complicated by CNS leukostasis with multifocal intracerebral hemorrhage; lineage assignment requires flow cytometry and cytochemistry.",
+  "ddx": [
+    {"dx": "CNS infiltration by leukemia (myeloid sarcoma / leptomeningeal disease)", "vs": "Parenchymal or meningeal leukemic masses enhance and show blasts in CSF, whereas leukostasis produces microvascular occlusion with hemorrhagic foci in the setting of very high blast counts."},
+    {"dx": "Hemorrhage due to DIC in acute promyelocytic leukemia", "vs": "APL shows hypergranular promyelocytes with Auer rod bundles and coagulopathy, while the blasts here are agranular; PML-RARA testing resolves it."},
+    {"dx": "Septic emboli / fungal infection", "vs": "Infectious lesions are ring-enhancing abscesses with fever and positive cultures rather than hemorrhagic foci accompanying a blast-dominated smear."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; CT; MRI FLAIR",
+  "match": "consistent",
+  "high_yield": false
+}

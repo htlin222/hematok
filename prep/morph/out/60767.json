@@ -1,0 +1,22 @@
+{
+  "id": "60767",
+  "recognize_zh": "左側骨髓切片由片狀、核卵圓至腎形的芽細胞取代；右側 NPM1 免疫染色在芽細胞呈核加細胞質的紅色瀰漫染色，而箭頭所指的正常細胞只有核染色，這種「細胞質異位」模式代表 NPM1 突變。",
+  "features": [
+    "H&E: hypercellular core biopsy replaced by sheets of monotonous blasts with oval to folded/reniform nuclei, fine chromatin and moderate pale cytoplasm",
+    "Occasional small nucleoli; paucity of normal trilineage hematopoiesis",
+    "NPM1 IHC (red chromogen): strong staining of both nucleus and cytoplasm in the majority of blasts",
+    "Internal control cells (arrows) show nuclear-restricted NPM1 staining with clear cytoplasm",
+    "Scattered fat spaces and small residual non-neoplastic cells between blasts"
+  ],
+  "describe_en": "Bone marrow core biopsy (left, H&E) is hypercellular and diffusely replaced by sheets of blasts with oval to folded nuclei, fine chromatin and moderate amounts of pale cytoplasm, consistent with blasts showing monocytic features. Immunohistochemistry for nucleophosmin (right) shows aberrant cytoplasmic as well as nuclear staining in the neoplastic cells, while residual normal cells (arrows) retain nuclear-restricted staining. Findings are consistent with acute myeloid leukemia with NPM1 mutation; confirmation by molecular testing and assessment for co-occurring FLT3-ITD are recommended.",
+  "ddx": [
+    {"dx": "AML with wild-type NPM1 (e.g. monocytic AML NOS)", "vs": "Morphology is similar, but NPM1 IHC is restricted to the nucleus in all blasts, without cytoplasmic delocalization."},
+    {"dx": "Myeloid sarcoma or AML with other genetic drivers such as KMT2A rearrangement", "vs": "Shows comparable monocytic blasts but nuclear-only NPM1 staining and a distinct cytogenetic/molecular lesion."},
+    {"dx": "Diffuse large B-cell lymphoma involving marrow", "vs": "Large cells express CD20/PAX5 rather than myeloid/monocytic markers and have nuclear-only NPM1 staining."},
+    {"dx": "Anaplastic large cell lymphoma with NPM1::ALK", "vs": "Also shows cytoplasmic NPM staining from the fusion protein, but cells are pleomorphic hallmark cells that are CD30+ and ALK+ rather than myeloid blasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: NPM1",
+  "match": "consistent",
+  "high_yield": true
+}

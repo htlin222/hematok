@@ -1,0 +1,21 @@
+{
+  "id": "60598",
+  "recognize_zh": "芽細胞旁邊有多個細胞質充滿粗大、深紫黑色嗜鹼性顆粒且顆粒覆蓋細胞核的細胞，插圖箭頭指出不成熟細胞的顆粒；芽細胞合併異常嗜鹼性分化，符合急性嗜鹼性白血病。",
+  "features": [
+    "Blast with high N:C ratio, fine chromatin and scant agranular blue cytoplasm",
+    "Several cells packed with coarse, dark purple-black basophilic granules obscuring the nucleus",
+    "Granules extend over the nuclear outline and to the cell periphery; nuclear detail barely visible",
+    "Inset: immature cell with a more open nuclear area and coarse basophilic granules (arrow)"
+  ],
+  "describe_en": "Peripheral blood (or marrow) smear shows blasts with fine chromatin and scant agranular cytoplasm admixed with abnormal immature basophils whose cytoplasm is packed with coarse, dark purple-black granules that overlie and obscure the nucleus. The inset highlights an immature basophilic precursor with coarse granules. In the absence of a BCR::ABL1 fusion or other defining genetic abnormality, and with confirmation by toluidine blue metachromasia and immunophenotype (CD123+, CD203c+, CD117-, tryptase negative or weak), findings are consistent with acute basophilic leukemia.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia in blast phase", "vs": "Also shows basophilia with blasts but carries BCR::ABL1 and usually a preceding chronic phase with left-shifted granulocytes."},
+    {"dx": "Mast cell leukemia", "vs": "Mast cells have round/oval nuclei with less nuclear overlap by granules, and are CD117-bright, tryptase-positive and often KIT D816V, unlike CD117-negative basophil blasts."},
+    {"dx": "Acute promyelocytic leukemia (hypergranular)", "vs": "APL granules are azurophilic red-purple with Auer rod bundles and strong MPO, not coarse metachromatic basophilic granules."},
+    {"dx": "AML with t(6;9) DEK::NUP214 or inv(3)", "vs": "May show accompanying basophilia, but defining cytogenetics establish these as genetically defined entities."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

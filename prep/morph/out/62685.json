@@ -1,0 +1,21 @@
+{
+  "id": "62685",
+  "recognize_zh": "低倍 Ki-67 染色下，淋巴結中緊密排列的濾泡內增生指數偏低到中等、分布較均勻，沒有反應性生發中心那種高 Ki-67 且具極性（dark/light zone）的分區；配合 BCL2 陽性的濾泡，支持低惡性度濾泡性淋巴瘤。",
+  "features": [
+    "Lymph node with numerous closely packed, irregular follicles highlighted by nuclear Ki-67 staining",
+    "Moderate, relatively evenly distributed Ki-67 positivity within follicles without zonal polarization",
+    "Follicular proliferation index appears lower than expected for reactive germinal centers",
+    "Interfollicular areas show sparse Ki-67-positive nuclei",
+    "Precise proliferation percentage cannot be counted at this magnification"
+  ],
+  "describe_en": "Low-power view of a lymph node immunostained for Ki-67 shows numerous closely packed follicles with irregular contours. Within the follicles, Ki-67-positive nuclei are present at a moderate density and are distributed fairly evenly, without the high proliferation and polarized dark-zone/light-zone pattern expected in reactive germinal centers. Interfollicular regions show only scattered positive cells. Exact quantification is not possible at this power, but the pattern is consistent with a low-grade nodal follicular lymphoma.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers show very high Ki-67 (often >90%) with polarization toward the dark zone, whereas low-grade FL follicles have lower, non-polarized proliferation."},
+    {"dx": "Follicular lymphoma, high grade (grade 3A/3B)", "vs": "Grade 3 FL shows numerous centroblasts on H&E and often a high Ki-67 index (>30–40%), which requires high-power counting to separate."},
+    {"dx": "Nodal marginal zone lymphoma", "vs": "MZL has low proliferation outside colonized follicles and lacks CD10/BCL6 expression in the neoplastic cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

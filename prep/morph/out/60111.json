@@ -1,0 +1,20 @@
+{
+  "id": "60111",
+  "recognize_zh": "骨髓切片 CD34 免疫染色幾乎全為藍色背景，只有零星單顆細胞與小血管內皮呈棕色陽性；提醒 ML-DS 的巨核母細胞常為 CD34 陰性，不能以 CD34 低估芽細胞比例。",
+  "features": [
+    "Cellular marrow with a mixed population of hematopoietic cells, predominantly CD34-negative",
+    "Only rare scattered single CD34-positive cells with membranous/cytoplasmic brown staining",
+    "Positive staining of small capillary endothelial cells serves as internal control",
+    "No clusters or sheets of CD34-positive blasts"
+  ],
+  "describe_en": "CD34 immunohistochemical stain of the bone marrow core biopsy shows a cellular marrow in which the vast majority of hematopoietic cells are negative. Only rare scattered CD34-positive cells are present, with no clusters or sheets, and small vessels stain positively as an internal control. Because megakaryoblasts in myeloid leukemia associated with Down syndrome are frequently CD34-negative, this pattern does not exclude an increase in blasts; correlation with aspirate morphology, flow cytometry, and megakaryocytic markers (CD61/CD42b) is required.",
+  "ddx": [
+    {"dx": "Reactive or regenerating marrow", "vs": "Both show rare CD34-positive cells, so separation relies on aspirate blast count, atypical megakaryocytes, and megakaryocytic marker staining rather than CD34."},
+    {"dx": "CD34-positive AML (e.g., myelodysplasia-related AML)", "vs": "Those typically show clusters or sheets of CD34-positive blasts, unlike the rare scattered positivity here."},
+    {"dx": "Myelofibrosis with megakaryocytic proliferation", "vs": "CD34 may highlight increased vascularity and blasts in fibrotic marrow; reticulin stain and H&E architecture are needed to separate it."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

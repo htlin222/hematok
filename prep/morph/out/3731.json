@@ -1,0 +1,21 @@
+{
+  "id": "3731",
+  "recognize_zh": "低倍周邊血液抹片中，紅血球聚成大小不一、邊界不規則的大團塊（agglutination），而非排成錢串，白血球散在其間，提示冷凝球蛋白或冷凝集素造成的紅血球凝集。",
+  "features": [
+    "Red cells aggregated into large, irregular, three-dimensional clumps of varying size",
+    "Clumps have irregular 'map-like' outlines rather than linear stacked rouleaux",
+    "Scattered neutrophils visible between clumps",
+    "Intervening clear background with isolated single red cells and platelets",
+    "No visible extracellular precipitate at this magnification"
+  ],
+  "describe_en": "Low-power view of a peripheral blood smear shows extensive red cell agglutination, with red cells forming large irregular clumps separated by clear spaces. The pattern differs from rouleaux, which forms linear stacks. Scattered neutrophils are present. Findings are consistent with in vitro red cell agglutination; in this setting a cryoglobulin (e.g., HCV-associated) or cold agglutinin should be considered, and warming the specimen to 37°C before smear preparation and repeat CBC is recommended.",
+  "ddx": [
+    {"dx": "Rouleaux formation", "vs": "Rouleaux are linear coin-stack arrays due to increased plasma proteins, whereas agglutinates are irregular clumps."},
+    {"dx": "Cold agglutinin disease", "vs": "Morphology is identical, so direct antiglobulin test (C3d positive) and cold agglutinin titer versus cryoglobulin assay are required."},
+    {"dx": "Thick area / drying artifact", "vs": "Overlap in thick areas is uniform near the head of the smear, whereas true agglutination persists as discrete clumps in the monolayer."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

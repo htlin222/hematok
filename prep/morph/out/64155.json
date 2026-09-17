@@ -1,0 +1,21 @@
+{
+  "id": "64155",
+  "recognize_zh": "中倍視野中央三顆嗜中性球聚在一起，外緣與細胞之間都黏著小顆粒狀血小板，而周圍背景幾乎看不到游離血小板；嗜中性球被血小板環繞，是血小板衛星現象，會讓儀器計數假性偏低。",
+  "features": [
+    "Small aggregate of three mature segmented neutrophils in the center of the field",
+    "Platelets adherent around the periphery of and between the neutrophils",
+    "Very few free platelets in the surrounding background",
+    "Neutrophils show normal nuclear segmentation and granulation",
+    "Red cells normocytic with occasional crenated forms (likely preparation artifact)"
+  ],
+  "describe_en": "Peripheral blood smear at medium power shows a small cluster of three mature segmented neutrophils with numerous platelets adhering to their surfaces and lodged between them. Free platelets are sparse elsewhere in the field, illustrating how platelet sequestration around leukocytes can lower the automated platelet count. The neutrophils are morphologically unremarkable. Findings are consistent with platelet satellitism with a neutrophil-platelet aggregate; the platelet count should be verified on a non-EDTA sample.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Clumping consists of platelet-only aggregates, whereas here platelets are specifically attached to neutrophil membranes."},
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia persists on citrated samples and shows no platelet rosetting around leukocytes."},
+    {"dx": "Leukocyte aggregation (cold agglutinin/EDTA-induced leukoagglutination)", "vs": "Leukoagglutination forms clusters of neutrophils without a platelet rim and can cause spurious leukopenia instead."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

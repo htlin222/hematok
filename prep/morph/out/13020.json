@@ -1,0 +1,22 @@
+{
+  "id": "13020",
+  "recognize_zh": "AIDS 患者的血液抹片中，中性球（A）與單核球／巨噬細胞（B）的細胞質內塞滿許多 2–4 µm 的小型卵圓形酵母菌，每個有偏心新月形的染色質與周圍透明暈（pseudocapsule），符合播散性組織漿菌症（disseminated histoplasmosis）。",
+  "features": [
+    "Numerous small (2-4 µm) oval intracellular yeasts within neutrophils (panel A) and a monocyte/macrophage (panel B)",
+    "Each yeast has an eccentric crescent of dark-staining chromatin",
+    "Clear halo (pseudocapsule) surrounding each organism",
+    "No budding on broad bases or hyphae visible; organisms are uniform in size",
+    "A few extracellular yeasts adjacent to the ruptured/host cell; background leukocytes and red cells"
+  ],
+  "describe_en": "Peripheral blood smear shows neutrophils and a monocyte/macrophage containing numerous small, uniform oval yeast forms measuring approximately 2-4 µm. Each organism has an eccentric crescent-shaped chromatin mass and a surrounding clear halo (pseudocapsule), and some lie extracellularly adjacent to the host cell. No hyphae or pseudohyphae are identified. In a severely immunosuppressed patient with pancytopenia and hepatosplenomegaly, findings are consistent with disseminated Histoplasma capsulatum infection; fungal culture, GMS/PAS stains, and urine antigen testing are recommended.",
+  "ddx": [
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts are similar in size but divide by fission with a central transverse septum and are elongated or sausage-shaped rather than budding oval forms."},
+    {"dx": "Leishmania donovani (amastigotes)", "vs": "Leishmania amastigotes contain a distinct rod-shaped kinetoplast next to the nucleus and lack a clear pseudocapsular halo."},
+    {"dx": "Candida species", "vs": "Candida yeasts are larger (3-6 µm), stain more deeply without a halo, and often show budding with pseudohyphae."},
+    {"dx": "Toxoplasma gondii or Cryptococcus", "vs": "Toxoplasma tachyzoites are crescentic with central nuclei, while Cryptococcus is larger (4-10 µm) with a thick mucicarmine-positive capsule and narrow-based budding."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "64502",
+  "recognize_zh": "流式細胞圖中紅色的 CD19+ B 細胞群（約占全部事件 67%）側向散射偏高，並同時表現 CD103、CD11c（強）、CD25 與 CD123，CD13 陰性，是典型毛細胞白血病的免疫表型組合。",
+  "features": [
+    "Gating: singlets and viable cells, then CD45 vs SSC shows a CD45-bright population with higher side scatter than normal lymphocytes",
+    "Abnormal CD19-bright B-cell population (red) comprising ~82% of viable events (~67% of total events)",
+    "Red population is CD103 positive and CD123 positive (moderate)",
+    "Red population is CD11c bright and CD25 positive",
+    "CD13 negative; CD43 negative to dim with CD49d expression, distinct from CD43+ normal T/NK lymphocytes (blue)",
+    "CD20 and light-chain restriction are not displayed in this figure"
+  ],
+  "describe_en": "Flow cytometric analysis (gated on singlet viable events) reveals an abnormal CD19-bright B-cell population (red) comprising approximately 82% of viable events, with increased side scatter relative to normal lymphocytes on CD45 versus SSC. The population co-expresses CD103, bright CD11c, CD25 and CD123, is negative for CD13, and is negative to dim for CD43 with CD49d expression, in contrast to the residual CD43-positive normal lymphocytes (blue). CD20 and surface light-chain plots are not shown, so clonality cannot be confirmed from this figure alone. The immunophenotype is characteristic of hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli)", "vs": "HCL-v is typically CD103+ and CD11c+ but CD25-negative and CD123-negative, unlike the CD25+ CD123+ population here."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL may express CD11c and occasionally CD25 or CD103 but usually not all four HCL markers together, and lacks bright CD123 and increased side scatter."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL is often CD11c+ and may be CD103+ but is usually CD25-, CD123- and annexin A1-negative."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL is CD5+, CD23+, CD43+ with dim CD20 and dim light chain, and lacks CD103, CD25 bright and CD123 coexpression."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

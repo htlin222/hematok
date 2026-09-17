@@ -1,0 +1,21 @@
+{
+  "id": "2397",
+  "recognize_zh": "周邊血液中一顆小型單核細胞，細胞質幾乎看不到，核圓、染色質細緻均勻而非成熟淋巴球的粗塊狀，符合小型淋巴芽細胞；但單一細胞與小淋巴球外觀接近，需流式確認。",
+  "features": [
+    "Single small cell, slightly larger than a red cell",
+    "Very high N:C ratio with barely visible cytoplasmic rim",
+    "Round nucleus with fine, evenly distributed chromatin lacking coarse clumping",
+    "No visible nucleolus at this magnification; no granules",
+    "Background normochromic red cells with few platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a single small mononuclear cell with a very high N:C ratio, scant cytoplasm, and a round nucleus with fine, evenly distributed chromatin without the coarse clumping of a mature lymphocyte. Nucleoli are not discernible at this magnification, and no granules are present. The background red cells are unremarkable. The morphology is compatible with a small (L1-type) lymphoblast, but a single cell cannot be reliably separated from a mature lymphocyte; flow cytometry for TdT, CD34, and lineage markers is required.",
+  "ddx": [
+    {"dx": "Mature small lymphocyte", "vs": "Mature lymphocytes have dense, coarse, block-like chromatin and a thin crescent of cytoplasm, and lack TdT/CD34 expression."},
+    {"dx": "Myeloblast", "vs": "Myeloblasts are larger with more cytoplasm, open chromatin and prominent nucleoli, and are MPO positive."},
+    {"dx": "Nucleated red cell (orthochromic/polychromatic normoblast)", "vs": "Normoblasts have very condensed pyknotic chromatin and gray-pink hemoglobinized cytoplasm rather than fine chromatin with a blue rim."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

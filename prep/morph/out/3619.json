@@ -1,0 +1,23 @@
+{
+  "id": "3619",
+  "recognize_zh": "紅血球大小正常，但有些紅血球裡有多個細小環狀體（ring form），其中一顆裡有三個環，還看得到雙染色質點（double chromatin dot）和貼在紅血球邊緣的貼附型（appliqué form）；這些線索指向惡性瘧原蟲（P. falciparum）。",
+  "features": [
+    "Multiple delicate ring-form trophozoites within normal-sized, non-enlarged RBCs",
+    "Multiply infected RBCs (one cell contains three rings)",
+    "Double chromatin dots and appliqué (accolé) forms at the RBC margin",
+    "Occasional slightly more mature trophozoite with denser cytoplasm and dark pigment",
+    "No Schüffner stippling; no schizonts or crescent gametocytes in this field",
+    "Background platelets adequate; one platelet clump in center"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous RBCs infected by small, delicate ring-form trophozoites. Infected RBCs are normal in size without stippling, and several contain two or three parasites, with double chromatin dots and appliqué forms at the cell margin. A few slightly more mature trophozoites with dark pigment are present; schizonts and gametocytes are not seen in this field. Findings are consistent with Plasmodium falciparum infection; parasitemia should be quantified.",
+  "ddx": [
+    {"dx": "Plasmodium vivax/ovale", "vs": "Infected RBCs are enlarged with Schüffner stippling and amoeboid trophozoites or schizonts, and multiply infected cells are uncommon."},
+    {"dx": "Babesia species", "vs": "Tiny pleomorphic rings without hemozoin pigment and tetrad (Maltese cross) forms, with a travel/tick history rather than malaria exposure."},
+    {"dx": "Plasmodium knowlesi", "vs": "Early rings can look identical, but band-form trophozoites and mature schizonts in circulation favor knowlesi, and PCR is needed to separate them."},
+    {"dx": "Platelet overlying an RBC", "vs": "A superimposed platelet lacks a ring of cytoplasm with a discrete chromatin dot and usually shows a halo and granular texture."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

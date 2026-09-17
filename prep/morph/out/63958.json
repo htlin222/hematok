@@ -1,0 +1,22 @@
+{
+  "id": "63958",
+  "recognize_zh": "四格對照圖：1A/1B（室溫處理）紅血球分布均勻、形態大致正常；2A/2B（檢體置 4 °C 後）低倍可見紅血球聚成不規則團塊（autoagglutination），高倍紅血球互相重疊成群並伴皺縮，提示冷凝集素造成的凝集。",
+  "features": [
+    "Composite of four peripheral blood smear panels labeled 1A, 1B, 2A, 2B",
+    "1A-1B: evenly dispersed red cells with largely normal shape; a segmented neutrophil in 1B",
+    "2A (after 4 C incubation): low-power irregular clumping of red cells into agglutinates with uneven distribution",
+    "2B: red cells in overlapping irregular clusters, many crenated (echinocytic) cells, limiting morphologic assessment",
+    "Scattered platelets in all panels; no rouleaux stacking pattern"
+  ],
+  "describe_en": "This composite shows peripheral blood smears prepared before (1A, 1B) and after (2A, 2B) incubation of the sample at 4 C. The initial smears show evenly spread red cells with essentially unremarkable morphology at low and high power. After cold incubation, the low-power view shows irregular three-dimensional red cell clumps, and the high-power view shows overlapping clusters of red cells with crenation, obscuring fine red cell morphology. The cold-dependent red cell agglutination, in the setting of macrocytic hemolytic anemia and acrocyanosis, is suggestive of cold agglutinin disease, to be confirmed by a positive C3d direct antiglobulin test and cold agglutinin titer.",
+  "ddx": [
+    {"dx": "Rouleaux (e.g. paraproteinemia)", "vs": "Rouleaux form linear stacks like coins that disperse with saline, whereas agglutinates are irregular grape-like clusters that persist with saline and reverse on warming."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA shows spherocytes with an IgG-positive DAT and no temperature-dependent clumping."},
+    {"dx": "Paroxysmal cold hemoglobinuria", "vs": "PCH is caused by a biphasic IgG Donath-Landsteiner antibody, usually in children, and typically shows erythrophagocytosis rather than prominent agglutination."},
+    {"dx": "Crenation or drying artifact", "vs": "Artifactual echinocytes are evenly distributed and not clustered, and they do not appear only after cold exposure of the sample."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (May-Grunwald-Giemsa type)",
+  "match": "consistent",
+  "high_yield": true
+}

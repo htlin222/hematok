@@ -1,0 +1,22 @@
+{
+  "id": "61631",
+  "recognize_zh": "骨髓切片中可見大量大型異型細胞，核大、空泡狀染色質、核仁明顯且核膜不規則，大小約為小淋巴球的兩到三倍，散布於造血細胞之間；此放大倍率下無法確認血管/竇內分布，需以 CD20 與 CD34 雙染等免疫染色證實血管內生長。",
+  "features": [
+    "Numerous large atypical cells (2-3 times small lymphocyte size) with vesicular chromatin",
+    "Prominent nucleoli and irregular, indented or cleaved nuclear contours",
+    "Moderate amphophilic cytoplasm; occasional mitotic figure",
+    "Large cells distributed interstitially among residual hematopoietic cells and small lymphocytes",
+    "Intrasinusoidal/intravascular localization not clearly demonstrable at this magnification on H&E"
+  ],
+  "describe_en": "Bone marrow core biopsy at high power shows a hypercellular marrow containing numerous large atypical lymphoid-appearing cells with vesicular chromatin, prominent nucleoli, irregular nuclear contours, and moderate amphophilic cytoplasm, admixed with residual hematopoietic elements and small lymphocytes. A predominantly intrasinusoidal distribution is not clearly evident on this H&E field. Immunohistochemistry for CD20/PAX5 together with an endothelial marker (CD34 or ERG) is required to demonstrate intravascular/intrasinusoidal localization; with such confirmation, findings would be consistent with involvement by intravascular large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, NOS involving marrow", "vs": "Systemic DLBCL forms extravascular paratrabecular or diffuse masses, whereas IVLBCL cells are confined to sinusoids and capillaries as highlighted by CD34/CD20 double staining."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts have fine chromatin and less vesicular nuclei, and are CD34/CD117/MPO-positive rather than CD20/PAX5-positive."},
+    {"dx": "Hemophagocytic lymphohistiocytosis or reactive large cells", "vs": "HLH shows histiocytes with phagocytosed hematopoietic cells and bland nuclei, lacking atypical B-cells with prominent nucleoli."},
+    {"dx": "Intravascular NK/T-cell lymphoma", "vs": "Morphology is identical; the NK/T-cell form is CD20-negative, CD3ε/CD56-positive, and EBER-positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

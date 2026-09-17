@@ -1,0 +1,37 @@
+{
+  "id": "37",
+  "recognize_zh": "周邊血液白血球大增，從骨髓細胞（myelocyte）到分節嗜中性球各階段都有，並夾雜嗜鹼性球；骨髓抹片極度富細胞、以顆粒球系為主，可見 pseudo-Gaucher 組織球；染色體有 t(9;22) 箭頭，FISH 出現 BCR::ABL1 融合訊號，符合慢性骨髓性白血病（CML）；後幾張出現成群芽細胞，代表芽細胞期（blast phase）。",
+  "features": [
+    "Peripheral blood leukocytosis with a full spectrum of granulocytic maturation (myelocytes, metamyelocytes, bands, segmented neutrophils) and a myelocyte/segmented neutrophil 'bimodal' predominance",
+    "Absolute basophilia with scattered eosinophils; blasts are not increased in the chronic-phase fields",
+    "Markedly hypercellular marrow aspirate dominated by granulocytic precursors with left-shifted but orderly maturation and few erythroid precursors",
+    "Pseudo-Gaucher histiocytes with abundant pale blue, finely fibrillar cytoplasm and a small eccentric round nucleus",
+    "G-banded karyotype with arrows on chromosomes 9 and 22 marking t(9;22)(q34;q11.2); dual-color dual-fusion FISH shows 1 red, 1 green and 2 yellow fusion signals in abnormal nuclei versus 2 red/2 green in normal nuclei",
+    "Separate blood and marrow fields show sheets and clusters of large blasts with fine chromatin, nucleoli and moderate basophilic cytoplasm, admixed with basophils, consistent with blast phase"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with a full spectrum of granulocytic maturation, predominantly myelocytes and segmented neutrophils, accompanied by basophilia and occasional eosinophils; blasts are not increased in these fields. The bone marrow aspirate is markedly hypercellular with granulocytic predominance and orderly maturation, and contains scattered pseudo-Gaucher histiocytes with fibrillar blue cytoplasm. G-banded karyotype demonstrates t(9;22)(q34;q11.2) (Philadelphia chromosome), and interphase FISH with a BCR/ABL1 dual-color dual-fusion probe shows the typical 1R1G2F positive pattern. Additional blood and marrow images show clusters and sheets of large blasts with fine chromatin and basophilic cytoplasm among basophils, indicating blast transformation; whether these represent the same time point as the chronic-phase smears cannot be determined from the images. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, including images of blast phase.",
+  "ddx": [
+    {"dx": "Leukemoid (neutrophilic) reaction", "vs": "A leukemoid reaction shows mostly bands and segmented neutrophils with toxic granulation, few myelocytes and no basophilia, and is BCR::ABL1 negative."},
+    {"dx": "Atypical chronic myeloid leukemia, BCR::ABL1-negative", "vs": "aCML shows prominent dysgranulopoiesis without significant basophilia and lacks t(9;22)/BCR::ABL1."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL consists of mature segmented neutrophils with <10% immature granulocytes, no basophilia and a CSF3R mutation rather than BCR::ABL1."},
+    {"dx": "De novo Ph-positive acute leukemia", "vs": "For the blast-phase images, de novo Ph+ AML/ALL lacks a preceding chronic phase, marked basophilia and splenomegaly, and often carries the p190 (minor bcr) transcript; morphology alone cannot separate them."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; G-banding; FISH (BCR/ABL1)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood, low power: leukocytosis with full granulocytic maturation spectrum and basophils (chronic phase)",
+    "Bone marrow aspirate: granulocytic precursors with orderly maturation, basophil and myelocytes",
+    "Bone marrow aspirate: myelocytes, metamyelocytes, basophils and eosinophilic precursors",
+    "Bone marrow aspirate, low power: markedly hypercellular with granulocytic predominance",
+    "Bone marrow aspirate: myeloid precursors with scattered pseudo-Gaucher histiocytes",
+    "Pseudo-Gaucher histiocyte with abundant fibrillar blue cytoplasm",
+    "G-banded karyotype: t(9;22)(q34;q11.2), arrows on der(9) and der(22)",
+    "Interphase FISH, BCR/ABL1 dual-fusion probe: normal 2R2G versus abnormal 1R1G2F pattern",
+    "Peripheral blood, blast phase: large blasts with a basophil, eosinophil and neutrophil",
+    "Peripheral blood, blast phase: two blasts adjacent to a heavily granulated basophil",
+    "Bone marrow aspirate, blast phase: sheets of blasts with scattered granulocytes",
+    "Peripheral blood, blast phase: cohesive-appearing cluster of large blasts"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1651",
+  "recognize_zh": "骨髓顆粒邊緣有一顆細胞質淡染、邊界模糊的巨噬細胞，細胞質內散布許多深藍黑色、大小不一的吞噬碎屑顆粒（藍色箭頭），這些被吞入的碎屑讓你認出它是吞噬碎屑的巨噬細胞（debris-laden macrophage）。",
+  "features": [
+    "Macrophage with abundant pale, poorly demarcated cytoplasm at the edge of a marrow particle",
+    "Numerous coarse dark blue-black and blue-green cytoplasmic granules of variable size representing ingested debris (arrow)",
+    "Round nucleus with fine chromatin, partly overlapped by adjacent cells",
+    "Surrounding marrow cells with open chromatin, some with scattered similar dark granules",
+    "Background red cells with drying artifact (crenated, dense forms)"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a marrow particle containing a macrophage with abundant pale cytoplasm stuffed with coarse, dark blue-black and blue-green granular debris (arrow). The adjacent marrow cells have open chromatin, and scattered red cells show drying artifact. No intact phagocytosed hematopoietic cells or microorganisms are identified at this resolution. Findings are consistent with a debris-laden (tingible body-type) macrophage, which indicates increased cell turnover or apoptosis; iron stain would distinguish hemosiderin from nuclear debris.",
+  "ddx": [
+    {"dx": "Hemosiderin-laden macrophage", "vs": "Hemosiderin granules are golden-brown to blue-green and refractile and are confirmed by Prussian blue positivity, whereas apoptotic nuclear debris is Prussian blue negative."},
+    {"dx": "Mast cell", "vs": "Mast cells have uniform, densely packed metachromatic granules filling a well-defined round or spindle cell, not irregular debris in a pale ill-defined macrophage."},
+    {"dx": "Hemophagocytic histiocyte", "vs": "Hemophagocytosis shows intact engulfed erythrocytes, platelets, or nucleated cells rather than fine granular debris."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

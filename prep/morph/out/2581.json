@@ -1,0 +1,22 @@
+{
+  "id": "2581",
+  "recognize_zh": "骨髓抹片中一顆圓形細胞，細胞質塞滿大小一致、深紫黑色的嗜鹼性顆粒，顆粒密到遮住部分細胞核，核圓形且位於中央，是正常組織肥大細胞（mast cell）的樣子。",
+  "features": [
+    "Round to oval cell larger than surrounding nuclei",
+    "Cytoplasm packed with densely crowded, uniform, dark purple-black metachromatic granules",
+    "Central round nucleus partially obscured by granules",
+    "Cell outline smooth and round, not spindled",
+    "Background of stromal and lymphoid nuclei, red cells and a fibrillary background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a single round cell with abundant cytoplasm that is densely packed with uniform, dark purple-black granules that partially obscure a centrally located round nucleus. The cell has a smooth, round contour without spindling or hypogranularity. Surrounding cells include stromal and lymphoid nuclei. The morphology is that of a normal tissue mast cell; isolated round, well-granulated mast cells are not by themselves indicative of systemic mastocytosis.",
+  "ddx": [
+    {"dx": "Basophil", "vs": "Basophils are smaller with a segmented nucleus and fewer, larger, coarser granules that overlie rather than fill the cytoplasm evenly."},
+    {"dx": "Neoplastic mast cell (systemic mastocytosis)", "vs": "Neoplastic mast cells are spindled, hypogranular or with bilobed nuclei and form aggregates, and they are CD25/CD2 positive, whereas this cell is round and fully granulated."},
+    {"dx": "Promyelocyte", "vs": "Promyelocytes have azurophilic red-purple granules, a visible nucleolus and a perinuclear hof, without granules obscuring the nucleus."},
+    {"dx": "Hemosiderin-laden macrophage", "vs": "Hemosiderin appears as coarse, irregular blue-black to golden clumps of varying size in a larger macrophage, not uniform fine granules."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

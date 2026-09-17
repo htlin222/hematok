@@ -1,0 +1,21 @@
+{
+  "id": "60061",
+  "recognize_zh": "三天連續的周邊血液流式圖並排比較：CD45 對 SSC 圖中紅色「母細胞」族群（CD45 弱/陰性、低 SSC）從第 1 天約 5%、第 2 天約 21% 增加到第 3 天約 44%，下方 CD10 對 CD34 圖中同一群 CD10 強陽性、CD34 陽性細胞也同步擴大；這呈現 B-ALL 母細胞在短時間內快速增加。",
+  "features": [
+    "Top row CD45 vs SSC: red blast gate (CD45 dim/negative, low SSC) rising from 5.36% (Day 1) to 20.79% (Day 2) to 44.04% (Day 3)",
+    "Reciprocal relative decrease of granulocytes (40% to 21%) and lymphocytes (51% to 32%)",
+    "Bottom row CD10 vs CD34: expanding red population in the CD10 bright/CD34 positive quadrant (about 4%, 19%, 43%)",
+    "Blast immunophenotype remains stable across the three time points",
+    "Day 3 blast cluster smears toward more negative CD45, consistent with a larger, more homogeneous leukemic population"
+  ],
+  "describe_en": "Serial flow cytometric analyses of peripheral blood obtained over 72 hours are displayed as CD45 versus side-scatter plots (top) and CD10 versus CD34 plots of gated events (bottom). A population of CD45-dim to negative, low side-scatter blasts (red) increases from approximately 5% on Day 1 to 21% on Day 2 and 44% on Day 3, with a proportional relative decline of granulocytes and lymphocytes. The expanding population is uniformly CD10 bright and CD34 positive, and its immunophenotype is stable over time. These findings document a rapidly rising circulating B-lymphoblast population consistent with progressive peripheral blood involvement by B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "Hematogone expansion (e.g. regenerating marrow)", "vs": "Hematogones rarely circulate in such numbers and show a continuous maturation spectrum with loss of CD34 and acquisition of CD20, rather than a discrete, expanding CD34+/CD10 bright cluster."},
+    {"dx": "Acute myeloid leukemia", "vs": "Would populate the same CD45-dim blast gate but lack bright CD10 and B-lineage antigens, expressing CD13/CD33/CD117 instead."},
+    {"dx": "Burkitt leukemia", "vs": "Also rapidly proliferative and CD10 positive, but CD34 negative with bright CD45 and surface light chain restriction."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

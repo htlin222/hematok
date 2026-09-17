@@ -1,0 +1,21 @@
+{
+  "id": "65512",
+  "recognize_zh": "血片中大型異常細胞帶淡藍細胞質與細長針狀包涵體，看似 Auer rod；但 MPO 染色陰性，流式顯示 CD19/CD20+、κ 單株、CD5−/CD10− 的 B 細胞，骨髓切片 CD20 瀰漫陽性，指向 B 細胞淋巴瘤的假 Auer rod。",
+  "features": [
+    "Panel A: large atypical cells with oval nuclei, open immature-appearing chromatin and abundant pale cytoplasm",
+    "Thin, dark, needle-like rod-shaped cytoplasmic inclusions mimicking Auer rods (inset)",
+    "Panel B: cytochemical MPO stain without brown-black reactivity in the atypical cell",
+    "Panel C: flow cytometry shows CD19+ CD20+ B cells with kappa light chain restriction, negative for CD5 and CD10",
+    "Panel D: marrow imprint with lymphoid cells, H&E trephine with diffuse sheets of small lymphocytes, and diffuse CD20 immunostaining"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous large atypical mononuclear cells with oval nuclei, open chromatin and abundant pale cytoplasm containing thin, needle-like Auer rod-like inclusions. A cytochemical myeloperoxidase stain is negative in the atypical cells, arguing against true Auer rods. Flow cytometry demonstrates a kappa-restricted CD19+ CD20+ B-cell population lacking CD5 and CD10. The bone marrow trephine shows a diffuse lymphoid infiltrate that is strongly CD20 positive. Findings are consistent with relapsed B-cell (marginal zone) lymphoma with Auer rod-like (presumably immunoglobulin) inclusions, mimicking therapy-related acute myeloid leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with true Auer rods", "vs": "True Auer rods are fused primary granules that are MPO positive and occur in CD34/CD117-positive myeloblasts, whereas these inclusions are MPO negative in kappa-restricted mature B cells."},
+    {"dx": "Acute promyelocytic leukemia (faggot cells)", "vs": "APL shows bundles of MPO-positive Auer rods in heavily granulated bilobed promyelocytes with CD34-/HLA-DR- myeloid phenotype, not CD20-positive lymphoid cells."},
+    {"dx": "Plasma cell neoplasm with crystalline inclusions", "vs": "Crystal-storing plasma cells are CD138-positive with cytoplasmic light chain and usually lack CD19/CD20, unlike this surface kappa-positive CD20-positive population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa, MPO, flow, H&E, IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

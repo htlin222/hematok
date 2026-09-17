@@ -1,0 +1,22 @@
+{
+  "id": "61333",
+  "recognize_zh": "骨髓抹片中數顆大型紅血球母細胞，胞質深藍、核染色質細緻呈篩孔狀（megaloblastic），細胞之間以細長的胞質橋相連，符合巨母細胞性貧血的骨髓變化。",
+  "features": [
+    "Large erythroblasts with deeply basophilic cytoplasm and round central nuclei",
+    "Open, finely stippled ('sieve-like') chromatin that is immature for the degree of cytoplasmic development",
+    "Thin cytoplasmic/internuclear bridges connecting adjacent erythroblasts",
+    "Perinuclear clear zone (Golgi) in some cells",
+    "Background of red cells and a granulocytic precursor with azurophilic granules"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a group of large erythroid precursors with deeply basophilic cytoplasm and round nuclei with open, finely stippled chromatin. Several of these cells are joined by thin cytoplasmic bridges. No ring-shaped nuclei, multinucleation or blasts with granules are evident in this field. Findings are consistent with megaloblastic erythropoiesis with intercellular bridging, as seen in megaloblastic anemia (vitamin B12 or folate deficiency).",
+  "ddx": [
+    {"dx": "Congenital dyserythropoietic anemia type I", "vs": "CDA I shows internuclear chromatin bridges between erythroblasts with spongy chromatin on electron microscopy, in the absence of B12/folate deficiency and with a lifelong history."},
+    {"dx": "Acute erythroid leukemia (pure erythroid)", "vs": "Pure erythroid leukemia shows sheets of proerythroblasts with vacuolated cytoplasm constituting >30% of marrow cells with TP53 mutation, and does not correct with vitamin replacement."},
+    {"dx": "Myelodysplastic neoplasm with megaloblastoid change", "vs": "MDS shows megaloblastoid erythroid changes with ring sideroblasts, dysgranulopoiesis or cytogenetic abnormalities despite normal B12/folate levels."},
+    {"dx": "Pronormoblasts in normal marrow", "vs": "Normal pronormoblasts are sparse and do not show a cohort of bridged large cells with nuclear-cytoplasmic asynchrony."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

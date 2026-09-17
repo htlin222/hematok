@@ -1,0 +1,21 @@
+{
+  "id": "61354",
+  "recognize_zh": "視野中央一個巨大組織球，細胞質淡染多泡，內含數個被吞噬的完整有核細胞（圓核細胞與分葉核嗜中性球）及紅血球碎片，是骨髓抹片上的吞噬血球現象（hemophagocytosis）。",
+  "features": [
+    "Large histiocyte with abundant pale, finely vacuolated (foamy) cytoplasm",
+    "Engulfed intact nucleated cells within the cytoplasm, including round-nucleated cells and a segmented neutrophil",
+    "Phagocytosed red cell fragments/debris and small purple inclusions in cytoplasm",
+    "Background cellular aspirate with maturing granulocytes, erythroid precursors, lymphocytes and plasmacytoid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular with trilineage hematopoietic elements. A large histiocyte with abundant vacuolated cytoplasm contains several engulfed intact nucleated cells, including a neutrophil, together with red cell debris, consistent with hemophagocytosis. Hemophagocytosis is a supportive but neither sensitive nor specific finding; correlation with HLH-2004 clinical and laboratory criteria (fever, cytopenias, ferritin, soluble CD25, NK activity) and a search for an underlying infection or malignancy is recommended.",
+  "ddx": [
+    {"dx": "Non-specific reactive histiocytes (transfusion, sepsis)", "vs": "Isolated hemophagocytic histiocytes occur after transfusion or in sepsis without HLH, so the finding must be weighed against clinical criteria rather than morphology alone."},
+    {"dx": "Tingible body macrophage", "vs": "Tingible body macrophages contain apoptotic nuclear debris rather than intact red cells, platelets or whole nucleated cells."},
+    {"dx": "Sea-blue histiocyte / Gaucher cell", "vs": "Storage histiocytes have striated or granular blue cytoplasm filled with lipid material, not phagocytosed intact cells."},
+    {"dx": "Emperipolesis in megakaryocytes", "vs": "Emperipolesis shows intact cells passing within megakaryocyte cytoplasm with a lobulated megakaryocyte nucleus, unlike a histiocyte with a small bland oval nucleus."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

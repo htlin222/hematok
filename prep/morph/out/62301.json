@@ -1,0 +1,22 @@
+{
+  "id": "62301",
+  "recognize_zh": "EDTA 周邊血抹片中可見數團（箭頭處）聚集在一起的血小板，其中不少血小板體積偏大，而紅血球形態正常，說明儀器計數偏低是血小板凝集造成的假性血小板減少症（pseudothrombocytopenia）。",
+  "features": [
+    "Multiple discrete platelet aggregates (arrows) scattered across the smear",
+    "Aggregated platelets include several large platelets approaching red cell size",
+    "Individual free platelets are relatively sparse between clumps",
+    "Normocytic, normochromic red cells without schistocytes",
+    "No leukocytes or platelet satellitism around neutrophils in this field"
+  ],
+  "describe_en": "Peripheral blood smear prepared from an EDTA-anticoagulated sample shows several discrete platelet aggregates, indicated by arrows, composed of platelets of variable size including several large forms. Free platelets between the clumps are relatively few, and red cells are normocytic and normochromic without schistocytes. No platelet satellitism is seen in this field. Findings are consistent with EDTA-dependent platelet clumping causing pseudothrombocytopenia, supported by a normal platelet count on a citrated sample.",
+  "ddx": [
+    {"dx": "True thrombocytopenia (e.g. immune thrombocytopenia)", "vs": "ITP shows genuinely few, often large, platelets evenly distributed without clumps, and the low count persists in citrate."},
+    {"dx": "Inherited macrothrombocytopenia (e.g. MYH9-related disorder, Bernard-Soulier)", "vs": "Inherited macrothrombocytopenia shows evenly dispersed giant platelets without clumps (and Döhle-like inclusions in MYH9 disease), with a low count in citrate."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism is also EDTA-dependent but shows platelets rosetting around neutrophils rather than free-standing aggregates."},
+    {"dx": "Clotted or poorly collected sample", "vs": "A partially clotted specimen shows fibrin strands with platelet clumps and requires recollection, rather than a reproducible EDTA-specific phenomenon corrected by citrate."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

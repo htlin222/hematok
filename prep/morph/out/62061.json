@@ -1,0 +1,20 @@
+{
+  "id": "62061",
+  "recognize_zh": "這是一支採血管的外觀照片：沿著管壁可見肉眼可辨的暗紅色顆粒狀紅血球凝集塊，上方血漿呈均勻橘紅色，符合室溫下冷凝集素造成的自發性紅血球凝集。",
+  "features": [
+    "Gross photograph of a blood collection tube held horizontally",
+    "Macroscopic dark red granular clumps of red cells layered along the dependent tube wall",
+    "Clumps are discrete and coarse rather than a smooth homogeneous red-cell layer",
+    "Overlying fluid appears orange-red; degree of hemolysis cannot be quantified from the photo"
+  ],
+  "describe_en": "Gross photograph of an anticoagulated blood sample shows coarse, macroscopically visible red cell agglutinates distributed along the dependent wall of the tube, in contrast to the uniform suspension expected in a normal sample. No microscopic detail is available from this image type. Spontaneous agglutination at room temperature that disperses on warming to 37 degrees C is characteristic of a cold agglutinin, and would be accompanied by spurious RBC count decrease and MCV/MCHC elevation on automated analyzers. Findings are consistent with cold agglutinin disease; confirmation requires a positive DAT for C3d with negative or weak IgG and a cold agglutinin titer.",
+  "ddx": [
+    {"dx": "Clotted specimen (fibrin clot)", "vs": "A clot is a single cohesive gelatinous mass that does not disperse on warming, whereas cold agglutinates are granular clumps that disperse at 37 degrees C."},
+    {"dx": "Rouleaux formation (e.g. paraproteinemia)", "vs": "Rouleaux are stacked coins on smear that disperse with saline replacement and are not typically visible as coarse clumps in the tube."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm IgG antibodies rarely cause gross agglutination at room temperature; DAT is IgG positive and smears show spherocytes rather than agglutinates."}
+  ],
+  "specimen": "gross",
+  "stain": "N/A",
+  "match": "consistent",
+  "high_yield": true
+}

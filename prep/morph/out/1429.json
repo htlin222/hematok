@@ -1,0 +1,23 @@
+{
+  "id": "1429",
+  "recognize_zh": "骨髓切片（H&E）細胞量偏高、造血成分混雜；箭頭標示數顆型態異常的前驅細胞（核仁明顯、核周空亮），雙箭頭指一顆小而單葉核的細胞，疑為小型異常巨核細胞，提示多系發育不良的 MDS。",
+  "features": [
+    "Cellular marrow with mixed trilineage hematopoiesis between fat spaces",
+    "Single arrows: cells with round nuclei, open chromatin and distinct nucleoli surrounded by clear cytoplasm, suggestive of atypical/immature precursors",
+    "Double arrow: small cell with dense, eccentric non-lobated nucleus and eosinophilic cytoplasm, suggestive of a micromegakaryocyte",
+    "Scattered erythroid precursors with round dark nuclei and mature granulocytes",
+    "No sheets of blasts identified in this field",
+    "Limited resolution precludes detailed assessment of individual lineage dysplasia"
+  ],
+  "describe_en": "Bone marrow core biopsy section (H&E) shows a cellular marrow with mixed hematopoietic elements between adipocytes. Scattered precursor cells with open chromatin, visible nucleoli and perinuclear clearing are highlighted (single arrows), and a small cell with a dense non-lobated nucleus suggestive of a dysplastic micromegakaryocyte is indicated (double arrow). No sheets or clusters of blasts are evident in this field, although resolution limits evaluation. Findings are suggestive of a myelodysplastic syndrome with multilineage dysplasia in the appropriate clinical and aspirate context; blast enumeration requires aspirate smears and CD34 immunohistochemistry.",
+  "ddx": [
+    {"dx": "Reactive marrow hyperplasia (e.g., nutritional deficiency, drug effect)", "vs": "Reactive or megaloblastic changes lack micromegakaryocytes and resolve with correction of B12/folate or removal of the toxin; clonal cytogenetics favor MDS."},
+    {"dx": "MDS with excess blasts", "vs": "Requires 5-19% marrow blasts or ALIP clusters confirmed by CD34 staining, which is not established in this field."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML shows sheets of blasts (>=20%) effacing normal hematopoiesis rather than scattered atypical precursors within mixed hematopoiesis."},
+    {"dx": "Primary myelofibrosis (prefibrotic)", "vs": "PMF shows clustered, large megakaryocytes with cloud-like hyperchromatic nuclei rather than small monolobated micromegakaryocytes."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

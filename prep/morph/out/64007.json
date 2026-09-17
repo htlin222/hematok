@@ -1,0 +1,22 @@
+{
+  "id": "64007",
+  "recognize_zh": "空心箭頭指的紅血球邊緣有一個透明泡狀區（blister cell），實心箭頭指的紅血球邊緣像被咬掉一口（bite cell），背景還有許多皺縮紅血球，符合氧化性溶血的表現。",
+  "features": [
+    "Blister cell (open arrow): red cell with hemoglobin retracted to one side leaving a clear peripheral vacuole",
+    "Bite cells (solid arrows): red cells with one or more semicircular peripheral defects, some giving a mushroom-like outline",
+    "Numerous crenated red cells (echinocytes) in the background",
+    "Mild anisocytosis; no spherocytes clearly predominant",
+    "Scattered platelets; no leukocytes in field"
+  ],
+  "describe_en": "Peripheral blood smear (Leishman stain, high power) shows red cells with poikilocytosis including blister cells, in which hemoglobin is displaced to one side leaving a clear peripheral vacuole, and bite cells with semicircular notches in the cell margin, some producing a mushroom-like contour. Many crenated red cells are present in the background. Schistocytes and spherocytes are not prominent in this field. Findings are consistent with oxidative hemolysis, as seen in drug-induced hemolytic anemia or G6PD deficiency.",
+  "ddx": [
+    {"dx": "G6PD deficiency with oxidant stress", "vs": "Identical bite and blister cells occur, so G6PD enzyme assay (repeated after the acute reticulocytosis) is required to distinguish it from oxidant drug injury in normal red cells."},
+    {"dx": "Microangiopathic hemolytic anemia", "vs": "MAHA shows fragmented helmet and triangular schistocytes with thrombocytopenia rather than intact cells with a single rounded bite or hemoglobin-free blister."},
+    {"dx": "Unstable hemoglobin disease", "vs": "Congenital unstable hemoglobins can produce the same Heinz bodies and bite cells, and are identified by isopropanol stability testing, HPLC or globin gene sequencing."},
+    {"dx": "Keratocytes (horn cells)", "vs": "Keratocytes have two horn-like projections around a ruptured vacuole and associate with fragmentation, whereas bite cells show a smooth concave defect without horns."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": true
+}

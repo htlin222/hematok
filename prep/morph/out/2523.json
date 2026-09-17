@@ -1,0 +1,21 @@
+{
+  "id": "2523",
+  "recognize_zh": "箭頭指向一顆原始細胞在核與胞質交界處的細長粉紅色桿狀包涵體，即 Auer 小體（Auer rod），出現在骨髓性原始細胞中代表 AML。",
+  "features": [
+    "Blast with a large round nucleus, fine chromatin and high N:C ratio",
+    "Moderate rim of agranular basophilic cytoplasm with a small cytoplasmic bleb",
+    "Thin, slender pink-red rod-shaped inclusion at the nuclear-cytoplasmic interface (arrow)",
+    "Single Auer rod; no bundles (faggots) seen",
+    "Background red cells show drying artifact; subtle inclusion is near the limit of image resolution"
+  ],
+  "describe_en": "Smear at high power shows a blast with a large round nucleus, finely dispersed chromatin and a moderate rim of agranular basophilic cytoplasm. A single slender pink-red rod-shaped inclusion, indicated by the arrow, lies at the nuclear-cytoplasmic interface, consistent with an Auer rod. No multiple Auer rods (faggot cells) are seen. The presence of Auer rods establishes myeloid lineage of the blast and is consistent with acute myeloid leukemia; if blasts are below 20%, Auer rods still indicate at least MDS with excess blasts.",
+  "ddx": [
+    {"dx": "Faggot cell (acute promyelocytic leukemia)", "vs": "APL cells contain bundles of multiple Auer rods and heavy azurophilic granules with bilobed nuclei, unlike this single rod in an agranular blast."},
+    {"dx": "Azurophilic granules in a lymphoblast or large granular lymphocyte", "vs": "Azurophilic granules are round dots rather than elongated rods and do not stain as needle-like MPO-positive inclusions."},
+    {"dx": "Platelet or stain precipitate overlying a cell", "vs": "Overlying debris lies in a different plane and is not a sharply linear rod within the cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

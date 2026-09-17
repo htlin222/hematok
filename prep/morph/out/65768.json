@@ -1,0 +1,20 @@
+{
+  "id": "65768",
+  "recognize_zh": "這是 G 顯帶核型圖：一條 16 號染色體被箭頭標為 der(16)，帶型與另一條正常 16 號不同，符合 16 號染色體臂間倒位 inv(16)(p13q22)；其餘染色體數目為 46 條、性染色體 XY，這個細微的 16 號異常要仔細比對兩條同源染色體才看得出來。",
+  "features": [
+    "G-banded karyogram with 46 chromosomes and XY sex chromosomes",
+    "One chromosome 16 marked der(16) with an altered banding pattern compared with its normal homolog",
+    "Banding change is consistent with pericentric inversion inv(16)(p13.1q22)",
+    "No other numerical or structural abnormality evident at this band resolution",
+    "Moderate band resolution; the Y chromosome appears faded/partially masked in the image"
+  ],
+  "describe_en": "This is a G-banded karyogram rather than a morphologic image. It shows a male karyotype with 46 chromosomes in which one chromosome 16 (arrow, der(16)) has an abnormal banding pattern relative to its homolog, consistent with inv(16)(p13.1q22). No additional abnormalities are apparent at this resolution. Because inv(16) is subtle on banding, confirmation by CBFB break-apart FISH or RT-PCR for CBFB::MYH11 is recommended; here RT-PCR confirmed the fusion. Findings are consistent with 46,XY,inv(16)(p13.1q22), defining AML with CBFB::MYH11.",
+  "ddx": [
+    {"dx": "t(16;16)(p13.1;q22)", "vs": "The balanced translocation involves both chromosome 16 homologs and yields the same CBFB::MYH11 fusion, whereas here only one chromosome 16 is abnormal."},
+    {"dx": "Deletion 16q (del(16)(q22))", "vs": "A 16q deletion shortens the long arm without restoring band length, whereas an inversion preserves overall length with rearranged bands; FISH resolves ambiguous cases."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

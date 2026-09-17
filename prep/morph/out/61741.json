@@ -1,0 +1,22 @@
+{
+  "id": "61741",
+  "recognize_zh": "EBER 原位雜交低倍圖中，許多深藍黑色的陽性細胞核成群聚集並環繞血管樣結構分佈，背景為大片粉紅色壞死物質；大量 EBV 陽性細胞呈血管中心性分佈並伴壞死，支持淋巴瘤樣肉芽腫病。",
+  "features": [
+    "Numerous nuclei with dark blue-black EBER signal against a pink counterstain",
+    "Positive cells form clusters and cuffs around round vessel-like structures, suggesting an angiocentric distribution",
+    "Extensive pale pink necrotic/fibrinoid background between cellular aggregates",
+    "Density of positive cells is high in several fields (well over 50 per high-power field in aggregates), suggesting higher-grade disease",
+    "Low magnification limits confirmation that positive cells are the large atypical B cells"
+  ],
+  "describe_en": "EBER in situ hybridization at low power shows numerous EBV-encoded RNA-positive nuclei arranged in clusters and perivascular cuffs within an extensively necrotic background. The positive cells appear to be distributed around vessel-like structures, supporting an angiocentric process. The density of EBER-positive cells appears high in aggregates, although precise counting and correlation with cell size require high-power examination and CD20 staining. Findings support EBV-driven lymphomatoid granulomatosis, likely higher grade given the number of positive cells.",
+  "ddx": [
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "Also shows angiocentric EBER-positive cells with necrosis, but the EBER+ cells co-express CD56 and cytoplasmic CD3 rather than CD20."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "EBER-positive large B cells form confluent sheets without the angiocentric distribution in a polymorphous background."},
+    {"dx": "Classic Hodgkin lymphoma, EBV-positive", "vs": "EBER highlights only scattered Hodgkin/Reed-Sternberg cells that are CD30/CD15 positive and CD20 negative or weak."},
+    {"dx": "Background EBV-positive bystander lymphocytes (reactive or post-transplant)", "vs": "Consist of rare scattered small positive cells rather than dense perivascular aggregates of positive cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

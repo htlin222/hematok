@@ -1,0 +1,23 @@
+{
+  "id": "15148",
+  "recognize_zh": "新生兒血液抹片中可見多顆大型原始細胞（blasts），核質比高、染色質細緻，部分細胞質含細小顆粒，其中一顆有粗大嗜鹼性顆粒；在新生兒（尤其唐氏症）出現這種原始細胞，要想到暫時性異常骨髓增生（transient abnormal myelopoiesis）。",
+  "features": [
+    "Numerous large blasts, roughly 2-2.5 times the diameter of a red cell",
+    "High N:C ratio with round nuclei and finely dispersed chromatin",
+    "Scant deeply basophilic cytoplasm, some cells with fine granules",
+    "One cell with abundant coarse basophilic/metachromatic granules, suggesting basophilic differentiation",
+    "A small dense nucleated cell (lymphocyte or nucleated red cell) for size comparison",
+    "Background red cells with some teardrop-like and irregular forms; platelets not prominent"
+  ],
+  "describe_en": "Peripheral blood smear from a neonate shows numerous large blasts with high N:C ratio, round nuclei, finely dispersed chromatin and a narrow rim of deeply basophilic cytoplasm, several of which contain fine cytoplasmic granules. One cell has abundant coarse basophilic granules, consistent with basophilic differentiation often seen alongside megakaryoblasts in this setting. Cytoplasmic blebbing is not clearly evident at this resolution, so megakaryoblastic lineage cannot be confirmed morphologically. In a newborn, particularly with Down syndrome or trisomy 21 mosaicism, these findings are suggestive of transient abnormal myelopoiesis; flow cytometry (CD41/CD61, CD7), karyotype and GATA1 mutation analysis are recommended.",
+  "ddx": [
+    {"dx": "Myeloid leukemia associated with Down syndrome", "vs": "ML-DS usually presents after the neonatal period (typically before age 4) with persistent or progressive disease and additional mutations, whereas TAM appears in the first days to weeks and usually regresses spontaneously."},
+    {"dx": "Congenital/infant acute leukemia (e.g., KMT2A-rearranged)", "vs": "Non-Down syndrome neonatal leukemia lacks trisomy 21 and GATA1 mutation, often shows monoblastic or lymphoblastic lineage with skin infiltrates, and does not regress."},
+    {"dx": "Leukemoid reaction of sepsis or congenital infection", "vs": "Reactive neonatal leukocytosis shows a left shift with maturing granulocytes and toxic changes rather than a population of uniform blasts."},
+    {"dx": "Normal neonatal nucleated red cells and lymphocytes", "vs": "Nucleated red cells have dense pyknotic nuclei and hemoglobinized cytoplasm, unlike blasts with fine chromatin and basophilic cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

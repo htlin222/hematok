@@ -1,0 +1,22 @@
+{
+  "id": "61449",
+  "recognize_zh": "組合圖：A 冠狀切 CT 顯示鼻腔與鼻竇大片軟組織腫塊，B 為瀰漫成片的大型異型淋巴細胞，C–E 免疫染色瀰漫強陽性，F 為治療後腫塊明顯消退；形態符合瀰漫性大 B 細胞淋巴瘤，但 1α-羥化酶與細胞激素產生無法由圖片判定。",
+  "features": [
+    "Panel A: coronal CT with a large soft-tissue mass filling the nasal cavity and paranasal sinuses with bony remodeling",
+    "Panel B (H&E): diffuse sheets of large atypical lymphoid cells with vesicular nuclei, effacing architecture",
+    "Panel C: immunostain with diffuse strong positivity infiltrating between skeletal muscle-like fibers",
+    "Panels D-E: diffuse membranous/cytoplasmic positivity in the large-cell infiltrate (antibodies not labeled)",
+    "Panel F: follow-up coronal CT with near-complete resolution of the mass"
+  ],
+  "describe_en": "Composite figure. Coronal CT (A) demonstrates a large sinonasal soft-tissue mass that has largely resolved on follow-up imaging (F). Biopsy (B) shows diffuse sheets of large atypical lymphoid cells with vesicular chromatin, and immunostains (C-E) show diffuse strong positivity in the neoplastic cells, including infiltration around muscle fibers; the specific antibodies are not labeled and cannot be identified from the image. The morphology is compatible with diffuse large B-cell lymphoma. The claimed 25-hydroxyvitamin D-1α-hydroxylase and cytokine production cannot be confirmed from these panels and requires clinical correlation (hypercalcemia with elevated 1,25-dihydroxyvitamin D) and specific immunostains.",
+  "ddx": [
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "Shows angiocentric necrosis with CD3ε+/CD56+ cytotoxic cells and EBER positivity, rather than CD20+ sheets."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Common in the oral/sinonasal region but is CD20-negative, CD138+/MUM1+ and often EBER+."},
+    {"dx": "Sinonasal undifferentiated carcinoma / olfactory neuroblastoma", "vs": "Epithelial or neuroendocrine markers (keratin, synaptophysin) are positive and CD45/B-cell markers negative."},
+    {"dx": "Rhabdomyosarcoma", "vs": "Tumor cells express desmin/myogenin rather than lymphoid markers, which matters because panel C shows infiltration among muscle."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; unlabeled IHC; CT",
+  "match": "partial",
+  "high_yield": false
+}

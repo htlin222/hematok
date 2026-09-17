@@ -1,0 +1,21 @@
+{
+  "id": "3995",
+  "recognize_zh": "骨髓切片中多個組織球的淡染、泡沫狀細胞質內，含有許多細小、均一的點狀小體（LD bodies），分布在細胞質內而非胞外；在 HIV 患者背景下提示內臟利什曼原蟲感染。",
+  "features": [
+    "Numerous histiocytes with abundant pale, vacuolated cytoplasm",
+    "Tiny uniform dot-like intracytoplasmic bodies (about 2-3 um) within macrophages",
+    "Organism internal detail (kinetoplast) poorly resolved in tissue section",
+    "Scattered plasma cells, lymphocytes and hematopoietic cells",
+    "Suboptimal section quality with cracking artifact"
+  ],
+  "describe_en": "Bone marrow biopsy section shows an infiltrate of histiocytes with abundant pale vacuolated cytoplasm containing numerous small, uniform dot-like intracellular organisms, admixed with plasma cells, lymphocytes and residual hematopoietic cells. The kinetoplast is not clearly resolved at this resolution in the section. In an HIV-infected patient, findings are consistent with Leishman-Donovan bodies of visceral leishmaniasis; confirmation by aspirate smear, Leishmania immunostain or PCR is recommended.",
+  "ddx": [
+    {"dx": "Histoplasmosis", "vs": "Histoplasma yeasts are GMS/PAS positive with a halo and lack a kinetoplast, whereas Leishmania amastigotes are GMS negative."},
+    {"dx": "Mycobacterium avium complex", "vs": "MAC-laden histiocytes show striated foamy cytoplasm without discrete dots on H&E and are AFB positive."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts divide by transverse septation and are GMS positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

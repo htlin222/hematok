@@ -1,0 +1,22 @@
+{
+  "id": "61855",
+  "recognize_zh": "血片中的淋巴球核分成多葉、呈花瓣狀（flower cell），是成人 T 細胞白血病/淋巴瘤（ATLL）的特徵；右側手部 X 光可見中節指骨兩側骨膜下骨吸收（箭頭處），反映 ATLL 相關的高血鈣與骨吸收。",
+  "features": [
+    "Medium-sized lymphoid cells with deeply lobulated, clover-leaf ('flower cell') nuclei",
+    "Condensed chromatin without prominent nucleoli",
+    "Scant basophilic cytoplasm, focally vacuolated",
+    "Hand radiograph with subperiosteal bone resorption along the radial and ulnar margins of the middle phalanges (arrowheads)",
+    "Second radiograph shows smoother cortical outlines of the phalanges compared with the first"
+  ],
+  "describe_en": "Composite figure. Peripheral blood smears (A, B) show atypical lymphoid cells with markedly convoluted, multilobated 'flower-like' nuclei, condensed chromatin, and scant basophilic cytoplasm. A plain radiograph of the hand (C) demonstrates subperiosteal bone resorption along the cortical margins of multiple phalanges (arrowheads), a pattern resembling hyperparathyroid bone disease; a second radiograph (D) shows less conspicuous cortical irregularity, presumably after treatment. Findings are consistent with adult T-cell leukemia/lymphoma with skeletal involvement related to increased osteoclastic bone resorption and hypercalcemia.",
+  "ddx": [
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform, finely grooved nuclei rather than petal-like lobation, and are HTLV-1 negative."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells have a visible nucleolus and cytoplasmic blebs, with TCL1 rearrangement, and lack flower-shaped nuclei and HTLV-1 integration."},
+    {"dx": "Primary hyperparathyroidism", "vs": "Identical subperiosteal resorption on radiographs occurs in hyperparathyroidism, but PTH is elevated, whereas ATLL-related hypercalcemia is PTHrP-mediated with suppressed PTH."},
+    {"dx": "Neutrophils (hypersegmented) or artefactually folded lymphocytes", "vs": "Neutrophils have pink granular cytoplasm and thin chromatin bridges between discrete lobes rather than a single convoluted lymphoid nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; plain radiograph",
+  "match": "consistent",
+  "high_yield": true
+}

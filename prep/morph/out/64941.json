@@ -1,0 +1,22 @@
+{
+  "id": "64941",
+  "recognize_zh": "這其實是骨髓抹片（標題誤植為周邊血尾端說明）：可見成群的成熟漿細胞（偏心核、車輪狀染色質、藍色細胞質與核周淡染區），夾雜小淋巴球與漿細胞樣淋巴球，背景有淡黃褐色無結構的團塊狀沉積物，符合淋巴漿細胞淋巴瘤合併冷凝球蛋白沉積。",
+  "features": [
+    "Cluster of mature plasma cells with eccentric round nuclei, clock-face chromatin, perinuclear hof and deep blue cytoplasm",
+    "Admixed small lymphocytes with condensed chromatin and plasmacytoid lymphocytes",
+    "Occasional neutrophil and myeloid precursor; no blasts in this field",
+    "Background with pale tan/yellowish amorphous globular extracellular deposits and a bluish-staining ground",
+    "Cells trapped at edges of the deposits; no discrete blue globules as described in the title"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of mature plasma cells with eccentric nuclei, clock-face chromatin and basophilic cytoplasm, admixed with small lymphocytes and plasmacytoid lymphocytes, with occasional granulocytic cells. The background contains pale, tan-to-pale-blue amorphous globular extracellular deposits. The image depicts a marrow aspirate rather than the tail of a peripheral smear stated in the title, so the match is partial. In the context of lymphoplasmacytic lymphoma, the lymphoplasmacytic infiltrate with amorphous background deposits is suggestive of cryoglobulin precipitation; flow cytometry, MYD88 L265P testing and serum studies are needed for confirmation.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma shows sheets of plasma cells, often immature, without the admixed small lymphocytes and plasmacytoid lymphocytes of LPL, and is MYD88 wild-type."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "MZL overlaps morphologically; MYD88 L265P and IgM paraprotein with marrow paratrabecular/interstitial pattern favor LPL."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are polytypic and not accompanied by a clonal B-cell population or cryoglobulin deposits."},
+    {"dx": "Bone marrow fat/lipid droplets", "vs": "Fat droplets are clear, empty round spaces, whereas cryoglobulin deposits are homogeneous, lightly stained amorphous material."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Leishman/Romanowsky stain",
+  "match": "partial",
+  "high_yield": false
+}

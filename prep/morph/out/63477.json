@@ -1,0 +1,22 @@
+{
+  "id": "63477",
+  "recognize_zh": "周邊血液抹片中央一顆中型母細胞，核圓、染色質細緻，深藍色無顆粒的細胞質邊緣長出多個芽狀泡突（cytoplasmic blebs/budding），這種「冒泡」外觀是巨核母細胞（megakaryoblast）的典型線索；配合 CML 病史符合巨核母細胞急變。",
+  "features": [
+    "Medium-sized blast with round nucleus and fine, homogeneous chromatin",
+    "Narrow rim of deeply basophilic agranular cytoplasm with multiple peripheral blebs/buds",
+    "Adjacent monocytoid cell with vacuolated gray-blue cytoplasm (left) and small high N:C cells",
+    "Scattered pale platelets and a dark precipitate/platelet clump",
+    "Background red cells with mild crenation and rouleaux-like overlap"
+  ],
+  "describe_en": "Peripheral blood smear shows a medium-sized blast with a round nucleus, fine homogeneous chromatin, and a narrow rim of deeply basophilic, agranular cytoplasm bearing multiple peripheral blebs. A monocytoid cell with vacuolated gray-blue cytoplasm and small cells with high N:C ratios are also present. No granules or Auer rods are seen in the blast. Cytoplasmic blebbing is suggestive but not specific for megakaryocytic lineage; with CD41/CD61 expression by flow cytometry in a patient with CML, findings are consistent with megakaryoblastic blast crisis.",
+  "ddx": [
+    {"dx": "Myeloblastic blast crisis", "vs": "Myeloblasts may show granules or Auer rods with MPO positivity and lack the CD41/CD61 expression of megakaryoblasts."},
+    {"dx": "Lymphoblastic blast crisis", "vs": "Lymphoblasts have scant cytoplasm without blebs and express TdT and B- or T-lineage antigens."},
+    {"dx": "Blebbing artifact in other blasts or lymphoma cells", "vs": "Cytoplasmic blebs can appear as a smear artifact in any blast or large lymphoid cell, so lineage requires immunophenotyping."},
+    {"dx": "Acute megakaryoblastic leukemia de novo or with Down syndrome", "vs": "Morphology is identical, so distinction rests on the BCR::ABL1 fusion and prior CML history versus GATA1 mutation or RBM15::MRTFA."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

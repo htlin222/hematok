@@ -1,0 +1,21 @@
+{
+  "id": "62876",
+  "recognize_zh": "四格免疫染色：CD20 僅少數散在 B 細胞，CD3 與 CD2 在腺窩間固有層呈瀰漫陽性，而 CD5 大部分陰性（CD5 表現喪失），顯示異常 T 細胞表型；注意圖中標示為 CD5 而非標題的 CD8。",
+  "features": [
+    "CD20: only rare scattered positive B cells in the lamina propria",
+    "CD3: diffuse positivity of the lamina propria infiltrate between crypts",
+    "CD2: strong diffuse membranous staining of the same infiltrate",
+    "CD5: largely negative in the infiltrate with only scattered positive cells (aberrant loss)",
+    "Crypts intact and negative for all markers"
+  ],
+  "describe_en": "Low-power immunohistochemical panel of colonic mucosa shows that the lamina propria infiltrate is diffusely positive for CD3 and CD2, with only rare CD20-positive B cells. CD5 stains only scattered cells, indicating aberrant loss of CD5 in the neoplastic T-cell population. The crypts are preserved. Note that the four panels are labeled CD20, CD3, CD5 and CD2, whereas the title lists CD8 instead of CD5. The findings support an immunophenotypically aberrant T-cell infiltrate consistent with indolent T-cell lymphoproliferative disorder of the gastrointestinal tract.",
+  "ddx": [
+    {"dx": "Reactive T-cell-rich colitis", "vs": "Reactive T cells retain pan-T-cell antigens including CD5 and are accompanied by more B cells and plasma cells."},
+    {"dx": "Extranodal marginal zone lymphoma", "vs": "MALT lymphoma would show sheets of CD20-positive cells rather than rare B cells in a CD3-positive infiltrate."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "NK/T-cell lymphoma lacks surface CD3 and CD5, is CD56 and EBER positive, and shows angiocentric necrosis."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20, CD3, CD5, CD2",
+  "match": "partial",
+  "high_yield": false
+}

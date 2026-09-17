@@ -1,0 +1,20 @@
+{
+  "id": "63238",
+  "recognize_zh": "骨髓抹片中有數顆嗜中性球，胞質內含一大團均質、沒有染色質紋路的淡紫色圓形物質（LE body），把分葉核擠到邊緣呈新月形；這就是典型的 LE 細胞（LE cell）。",
+  "features": [
+    "Neutrophils containing a large, round, smooth, homogeneous pale purple intracytoplasmic mass (LE body)",
+    "Host neutrophil nucleus compressed and displaced to the periphery, often crescent-shaped",
+    "Inclusion lacks chromatin texture, nucleoli or nuclear membrane detail, indicating denatured opsonized nuclear material",
+    "Background hypercellular aspirate with granulocytic predominance across maturation stages and scattered erythroid precursors"
+  ],
+  "describe_en": "Bone marrow aspirate smear is hypercellular with a myeloid predominance showing orderly maturation. Scattered neutrophils contain large, round, homogeneous, structureless pale purple intracytoplasmic bodies that compress and displace the neutrophil nucleus to the periphery. The inclusions lack a chromatin pattern, distinguishing them from engulfed intact nuclei. Findings are consistent with LE cells, supporting the clinical diagnosis of systemic lupus erythematosus.",
+  "ddx": [
+    {"dx": "Tart cell", "vs": "The host is usually a monocyte and the ingested nucleus retains recognizable chromatin structure, whereas the LE body is swollen and homogeneous."},
+    {"dx": "Neutrophil with phagocytosed apoptotic body or bacteria", "vs": "Apoptotic debris appears as dense pyknotic fragments and bacteria as small discrete rods or cocci, not a single swollen homogeneous lilac mass."},
+    {"dx": "Free smudged nucleus (hematoxylin body) overlapping a neutrophil", "vs": "A free nucleus lies beside or on top of the neutrophil without the host nucleus wrapped around it; the LE body must be truly engulfed."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

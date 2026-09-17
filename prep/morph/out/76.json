@@ -1,0 +1,47 @@
+{
+  "id": "76",
+  "recognize_zh": "抹片中的母細胞核染色質細緻、核仁不明顯，淡灰藍色細胞質的邊緣有一圈細小空泡（周邊微空泡，像一串珍珠）。流式細胞圖顯示 CD34 陰性的母細胞族群 CD123 強陽性、CD56 與 CD4 陽性、HLA-DR 陽性，符合母細胞性漿細胞樣樹突細胞腫瘤（BPDCN）。",
+  "features": [
+    "Medium to large blasts with round to slightly irregular nuclei, finely dispersed chromatin and inconspicuous to small nucleoli",
+    "Moderate grey-blue agranular cytoplasm with small vacuoles lining the cell membrane (peripheral microvacuoles, 'pearl necklace')",
+    "Hypercellular marrow biopsy with diffuse interstitial sheets of monotonous blasts replacing normal hematopoiesis; scattered megakaryocytes, some small and hypolobated",
+    "Background dysplasia: hypogranular neutrophil with abnormal nuclear segmentation and a megakaryocyte with widely separated nuclei on aspirate",
+    "Flow cytometry: CD45-dim, low side-scatter blasts (~13%) that are CD34-negative, bright CD123+, CD56+, CD4+, HLA-DR+, CD38 dim to negative, CD33 negative to dim, CD15-, CD19-, partial CD2; a separate small CD34+ myeloblast population",
+    "Diffuse membranous IHC positivity and strong nuclear IHC positivity in most infiltrating cells; NGS shows TP53 p.H179R and c.782+2T>G with copy-number loss of TP53 and 5q"
+  ],
+  "describe_en": "Peripheral blood and bone marrow aspirate smears show circulating and marrow blasts of intermediate to large size with fine chromatin, inconspicuous nucleoli and moderate grey-blue agranular cytoplasm containing peripheral microvacuoles; background neutrophils and megakaryocytes show dysplastic features. The core biopsy is hypercellular with diffuse interstitial sheets of monotonous blasts; immunohistochemistry shows diffuse membranous staining and strong nuclear staining in the majority of the infiltrate (individual markers are not labeled in the images). Flow cytometry identifies a CD45-dim, low side-scatter population lacking CD34, CD15 and CD19 that brightly expresses CD123 and co-expresses CD56, CD4 and HLA-DR, distinct from a small residual CD34+ myeloblast population. Sequencing shows two TP53 variants (p.H179R and c.782+2T>G) with TP53 and 5q copy-number loss. Findings are consistent with blastic plasmacytoid dendritic cell neoplasm involving marrow, arising in a background of myelodysplasia.",
+  "ddx": [
+    {"dx": "AML with monocytic differentiation (acute monoblastic/monocytic leukemia)", "vs": "Monocytic blasts can express CD4, CD56 and CD123 but usually show folded nuclei, cytoplasmic granules, nonspecific esterase activity, CD11b/CD14/CD64 and lysozyme expression, whereas BPDCN is MPO/lysozyme negative and expresses TCF4, TCL1 and CD303."},
+    {"dx": "AML with myelodysplasia-related changes", "vs": "Its blasts are typically CD34+/CD117+ with MPO or CD33/CD13 expression, while the dominant population here is CD34-negative, bright CD123+, CD56+ and CD4+ with only a minor separate CD34+ myeloblast population."},
+    {"dx": "Mature plasmacytoid dendritic cell proliferation associated with myeloid neoplasm", "vs": "Those pDC nodules consist of mature-appearing cells that are CD56 negative with low proliferation and are clonally related to the myeloid neoplasm, unlike the diffuse sheets of CD56+ blasts seen here."},
+    {"dx": "NK-cell or T-lymphoblastic leukemia", "vs": "CD56 and CD2/CD7 overlap, but NK/T-lineage blasts lack bright CD123 and TCF4 and T-ALL expresses cytoplasmic CD3 and TdT with CD1a/CD7."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC (unlabeled); flow cytometry; NGS",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "PB: blast with fine chromatin and a rim of peripheral cytoplasmic microvacuoles",
+    "PB: larger blast with fine chromatin, small nucleolus and pale grey-blue cytoplasm with peripheral vacuolation",
+    "BM biopsy H&E, medium power: hypercellular marrow with diffuse blast sheets and scattered megakaryocytes",
+    "BM biopsy H&E, high power: monotonous blasts with fine chromatin, small nucleoli and moderate pale cytoplasm; mitoses present",
+    "BM biopsy H&E, low power: dense intertrabecular infiltrate effacing marrow fat",
+    "IHC (marker not labeled): diffuse membranous/cytoplasmic staining of most blasts",
+    "IHC (marker not labeled): membranous staining in a large subset of infiltrating cells",
+    "IHC (marker not labeled): diffuse granular membranous staining of the blast population",
+    "Nuclear IHC (marker not labeled; TCF4 per case history): strong nuclear staining in most infiltrating cells",
+    "BM aspirate: cluster of blasts with abundant grey-blue cytoplasm and prominent peripheral microvacuoles",
+    "BM aspirate: blasts with vacuolated cytoplasm and a hypogranular dysplastic neutrophil",
+    "BM aspirate: blasts with pale agranular cytoplasm next to a megakaryocyte with widely separated nuclei",
+    "Flow, CD45 vs side scatter: CD45-dim, low-SSC blast gate (13.3%)",
+    "Flow, CD123 vs CD34 (blast gate): bright CD123+ CD34- neoplastic population (green) distinct from CD34+ myeloblasts (red)",
+    "Flow, CD34 vs CD56: neoplastic population CD56+ CD34-",
+    "Flow, CD38 vs HLA-DR: neoplastic population HLA-DR+ with dim to negative CD38",
+    "Flow, CD10 vs CD15: neoplastic population CD15- with CD10 negative to dim",
+    "Flow, CD4 vs CD2: neoplastic population CD4+ with a CD2+ subset",
+    "Flow, CD123 vs HLA-DR (all live events): CD123+ HLA-DR+ neoplastic cluster separate from CD123+ HLA-DR- basophils",
+    "Flow, CD56 vs CD33: neoplastic population CD56+ with negative to dim CD33",
+    "Flow, CD19 vs CD34: neoplastic population CD19- CD34-",
+    "NGS copy-number plot and IGV views: 5q and TP53 copy-number loss with TP53 p.H179R and c.782+2T>G variants"
+  ]
+}

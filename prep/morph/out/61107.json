@@ -1,0 +1,22 @@
+{
+  "id": "61107",
+  "recognize_zh": "皮膚切片中大量真皮小血管內腔被大型異型淋巴細胞塞滿（E），血管內皮標記呈環狀勾勒出血管壁（C），另一染色則強染血管腔內成團腫瘤細胞（D），周邊組織相對少浸潤，符合血管內大細胞淋巴瘤（NK/T 細胞型）。",
+  "features": [
+    "Low power (A): dermis with ill-defined cellular foci and edema beneath the epidermis",
+    "Medium power (B): numerous small dermal vessels near a hair follicle distended by cells",
+    "High power (E): large atypical lymphoid cells with hyperchromatic, irregular nuclei confined within vascular lumina",
+    "IHC (C): endothelial marker outlines numerous vessels, confirming the intraluminal location of the cells",
+    "Stain (D): strong labeling of the intravascular tumor cell clusters with little extravascular positivity (marker not labeled; EBER/NK-T marker expected)"
+  ],
+  "describe_en": "Composite figure of a skin biopsy. At low and medium power, the dermis contains numerous small vessels that appear distended and hypercellular, with only a limited extravascular infiltrate. At high power the vascular lumina are filled by large atypical lymphoid cells with irregular hyperchromatic nuclei. An endothelial immunostain outlines the vessel walls around the tumor cells, and a second stain strongly highlights the intravascular tumor cell aggregates. With EBV (EBER) positivity and an NK/T-cell phenotype, the findings are consistent with intravascular large cell lymphoma of NK/T-cell type, EBV positive.",
+  "ddx": [
+    {"dx": "Intravascular large B-cell lymphoma", "vs": "IVLBCL shares the intraluminal pattern but expresses CD20/PAX5 and is EBV negative, lacking cytotoxic markers and CD56."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "ENKTL forms angiocentric and angiodestructive mass-like infiltrates with necrosis rather than cells confined to vessel lumina."},
+    {"dx": "Leukemic cells in vessels (leukostasis)", "vs": "Leukostasis involves circulating leukemia with a corresponding peripheral blood and marrow picture, not EBER-positive NK/T cells confined to small vessels."},
+    {"dx": "Intralymphatic histiocytosis or reactive angioendotheliomatosis", "vs": "These contain CD68-positive histiocytes or proliferating endothelial cells rather than atypical lymphoid cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC (endothelial and tumor markers)",
+  "match": "consistent",
+  "high_yield": false
+}

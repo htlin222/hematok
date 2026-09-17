@@ -1,0 +1,22 @@
+{
+  "id": "2579",
+  "recognize_zh": "周邊血液抹片中，紅血球之間到處是成群聚集的血小板，數量明顯增加且大小不一，白血球為形態正常的嗜中性球，符合原發性血小板增多症（ET）。",
+  "features": [
+    "Markedly increased platelets forming multiple clusters and aggregates across the field",
+    "Platelet anisocytosis with scattered large platelets",
+    "Two morphologically normal segmented neutrophils",
+    "Red cells largely normocytic without teardrop cells or nucleated red cells",
+    "No blasts or immature granulocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked increase in platelets, present both singly and in numerous clusters, with variation in platelet size including occasional large forms. Two segmented neutrophils are morphologically unremarkable. Red cells show no significant poikilocytosis, and no teardrop cells, nucleated red cells, immature myeloid cells or blasts are seen in this field. Findings are consistent with marked thrombocytosis, compatible with essential thrombocythemia in the appropriate clinical and molecular context.",
+  "ddx": [
+    {"dx": "Reactive (secondary) thrombocytosis", "vs": "Reactive thrombocytosis (iron deficiency, inflammation, asplenia) has uniform normal-sized platelets and lacks driver mutations, often with microcytosis or Howell-Jolly bodies pointing to the cause."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows leukocytosis with a left shift, myelocyte bulge and basophilia and is BCR-ABL1 positive."},
+    {"dx": "Prefibrotic primary myelofibrosis", "vs": "Prefibrotic PMF may show leukoerythroblastosis and teardrop cells and has hypercellular marrow with atypical cloud-like megakaryocytes on biopsy."},
+    {"dx": "Platelet clumping artifact", "vs": "EDTA-induced clumping is associated with a low automated count, whereas true thrombocytosis shows increased platelets throughout, including single platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

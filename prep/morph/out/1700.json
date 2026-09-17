@@ -1,0 +1,21 @@
+{
+  "id": "1700",
+  "recognize_zh": "骨髓抹片滿是圓形母細胞，大小不一（中央一顆特大），核質比高、染色質細緻均勻、核仁不明顯，細胞質少量淡藍無顆粒；背景小藍色團塊為血小板。系別需靠流式判定。",
+  "features": [
+    "Blasts of variable size, including one conspicuously large central blast",
+    "High N:C ratio with round nuclei and smooth nuclear contours",
+    "Finely dispersed chromatin with inconspicuous nucleoli",
+    "Thin rim of pale basophilic agranular cytoplasm; no Auer rods",
+    "Background with scattered platelet clumps and a single red cell"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a population of round blasts that vary from medium to large in size. They have high nuclear-to-cytoplasmic ratios, smooth round nuclei with finely dispersed chromatin and inconspicuous nucleoli, and a thin rim of pale blue agranular cytoplasm. Auer rods, granules and maturing myeloid cells are not seen in this field; background platelets are present. Findings are consistent with acute leukemia, and lineage determination (including mixed-phenotype acute leukemia) requires immunophenotyping.",
+  "ddx": [
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "Size heterogeneity and agranular cytoplasm overlap completely; lineage is established by flow cytometry (CD19/CD79a/CD10 or cCD3) with absent MPO."},
+    {"dx": "AML without maturation", "vs": "Some blasts would contain fine azurophilic granules or Auer rods and show MPO positivity in at least 3% of blasts."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and a mature B (sIg-positive, TdT-negative) phenotype, unlike these pale agranular blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62436",
+  "recognize_zh": "骨髓抹片中散在一群大小一致的小圓形藍細胞，核圓、染色質細緻、細胞質極少且常有泡狀突起，背景可見淡粉紅色細絲狀物質（疑似神經纖維網 neuropil）；這群非造血小藍圓細胞在兒童骨髓中需考慮轉移性神經母細胞瘤。",
+  "features": [
+    "Discohesive population of small-to-intermediate round blue cells, larger than mature lymphocytes",
+    "Round nuclei with fine to slightly granular chromatin and inconspicuous nucleoli",
+    "Very scant pale-blue cytoplasm, often with irregular blebs or cytoplasmic tags",
+    "Wispy pink-purple fibrillary material in the background, suggestive of neuropil",
+    "Scattered residual granulocytes; photo taken with a camera, with grey-tinted red cells and uneven focus"
+  ],
+  "describe_en": "Bone marrow aspirate smear (Wright-Giemsa) shows a population of discohesive small round blue cells with round nuclei, fine chromatin, inconspicuous nucleoli and scant, frequently blebbed cytoplasm. Faint fibrillary pink material is present in the background, and only occasional maturing granulocytes are seen. These cells are foreign to normal hematopoiesis but can closely mimic lymphoblasts when dispersed; image quality limits fine nuclear detail. In the appropriate clinical context, findings are consistent with metastatic neuroblastoma, to be confirmed by clusters/rosettes, PHOX2B or synaptophysin/chromogranin immunostains, and urine catecholamines.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Lymphoblasts are uniformly dispersed without clusters or neuropil and are TdT/CD19/CD10-positive, whereas neuroblastoma cells are CD45-negative and PHOX2B/synaptophysin-positive."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing cells often show vacuolated PAS-positive cytoplasm without neuropil and are CD99/NKX2.2-positive with EWSR1 rearrangement."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Rhabdomyosarcoma cells may be multinucleated with vacuolated cytoplasm and are desmin/myogenin-positive, lacking neuropil."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with sharp lipid vacuoles and are CD20/CD10-positive, unlike blebbed neuroblastoma cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

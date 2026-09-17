@@ -1,0 +1,26 @@
+{
+  "id": "60721",
+  "recognize_zh": "周邊血中一群核大、染色質細緻的單核母細胞旁邊，有從細胞質脫落、大小似血小板但顏色偏灰藍且無顆粒的碎片（箭頭），與真正的紫色顆粒狀血小板（箭頭頭）不同；細胞化學染色中碎片與母細胞同樣呈陽性，證實為假血小板（pseudoplatelets）。",
+  "features": [
+    "Large blasts with round to folded nuclei, fine lacy chromatin, and moderate gray-blue cytoplasm consistent with monoblasts/promonocytes",
+    "Small platelet-sized cytoplasmic fragments budding from or lying next to blasts (arrows), pale gray-blue and agranular",
+    "True platelets (arrowheads) are smaller and purple with granular centers",
+    "Cytochemistry (B): blasts show strong dark reaction product, and the pseudoplatelet fragment (arrow) is also positive while true platelets (arrowheads) are negative",
+    "Background red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous large blasts with fine chromatin, folded to round nuclei and moderate gray-blue cytoplasm, consistent with monoblasts and promonocytes. Several small platelet-sized fragments of blast cytoplasm are seen detaching from or adjacent to the leukemic cells; these are agranular and paler than the true platelets present in the field. On cytochemical staining the fragments share the strong reaction product of the blasts, whereas genuine platelets are nonreactive. Findings are consistent with pseudoplatelets (leukemic cytoplasmic fragments) in acute monocytic leukemia, which can spuriously elevate automated platelet counts.",
+  "ddx": [
+    {"dx": "True platelets / giant platelets", "vs": "Genuine platelets are purple with central azurophilic granules and do not share the cytochemical reaction of the blasts."},
+    {"dx": "Red cell fragments (schistocytes) or microspherocytes", "vs": "Schistocytes are pink, hemoglobinized and angular, while pseudoplatelets are gray-blue and match blast cytoplasm."},
+    {"dx": "Circulating micromegakaryocytes / megakaryoblast fragments", "vs": "Megakaryocytic fragments are CD41/CD61 positive and often show blebbing with granules, whereas these fragments stain like monocytic blast cytoplasm."},
+    {"dx": "Microorganisms (e.g., fungal yeast or bacteria)", "vs": "Organisms have defined walls or uniform shape and staining, rather than irregular pale cytoplasmic blebs continuous with blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; cytochemical stain (enzyme, unlabeled)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Wright-Giemsa: monocytic blasts with platelet-sized cytoplasmic fragments (arrows) versus true platelets (arrowheads)",
+    "Cytochemistry: positive blasts and positive pseudoplatelet (arrow), negative true platelets (arrowheads)"
+  ]
+}

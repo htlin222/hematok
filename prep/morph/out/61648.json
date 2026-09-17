@@ -1,0 +1,22 @@
+{
+  "id": "61648",
+  "recognize_zh": "周邊血中可見一個核形不規則、胞質充滿粗大紫紅色嗜苯胺藍顆粒（azurophilic granules）而遮蓋核輪廓的異常前骨髓細胞，是急性前骨髓細胞白血病（APL）在血中出現的線索。",
+  "features": [
+    "Single abnormal promyelocyte with irregular, folded nucleus partly obscured by granules",
+    "Cytoplasm densely packed with coarse purple-red azurophilic granules",
+    "Faint linear cytoplasmic inclusions suspicious for Auer rods",
+    "Background red cells in thick area with rouleaux-like stacking; platelets sparse",
+    "No mature neutrophils in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows a single abnormal promyelocyte with an irregular, folded nucleus and cytoplasm densely filled with coarse azurophilic granules that partly obscure the nuclear outline; faint linear inclusions suggestive of Auer rods are present. Platelets appear decreased in this field and no mature neutrophils are seen. In the appropriate setting (pancytopenia, coagulopathy), findings are suggestive of acute promyelocytic leukemia; urgent confirmation of PML::RARA by FISH or PCR is required.",
+  "ddx": [
+    {"dx": "Normal/reactive promyelocyte (left shift)", "vs": "Normal promyelocytes have a round nucleus with a perinuclear Golgi hof and evenly distributed granules, without the bilobed nucleus, obscuring granules, or Auer rods."},
+    {"dx": "Microgranular APL variant", "vs": "The hypogranular variant shows bilobed 'butterfly' nuclei with sparse fine granules, unlike the heavily granulated cytoplasm here."},
+    {"dx": "AML with maturation", "vs": "AML with maturation has blasts with single Auer rods and a spectrum of maturing neutrophils rather than hypergranular promyelocytes; PML::RARA is absent."},
+    {"dx": "Toxic granulation", "vs": "Toxic granulation occurs in mature segmented neutrophils, not in an immature cell with a folded non-segmented nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

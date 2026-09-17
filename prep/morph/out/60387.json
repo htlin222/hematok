@@ -1,0 +1,21 @@
+{
+  "id": "60387",
+  "recognize_zh": "高倍 H&E 下，小而深染的淋巴球之間可見大型細胞，具大核、明顯嗜酸性核仁，其中有雙核或多葉核的 Reed-Sternberg 樣細胞與帶周圍空暈的 lacunar 樣細胞，符合 SLL 背景中的 Hodgkin 細胞。",
+  "features": [
+    "Large atypical cells with vesicular nuclei and prominent eosinophilic nucleoli",
+    "Occasional binucleate/multilobated Reed-Sternberg-like cells",
+    "Lacunar-type cells with cytoplasmic retraction halos",
+    "Background of small round lymphocytes with dense chromatin",
+    "Admixed histiocytes with pale eosinophilic cytoplasm and scattered eosinophils"
+  ],
+  "describe_en": "High-power view of lymph node shows numerous small, round lymphocytes with condensed chromatin, among which are scattered large atypical cells with vesicular nuclei and prominent eosinophilic nucleoli. Some are binucleate or multilobated, resembling Reed-Sternberg cells, and others show lacunar-type retraction. Histiocytes and occasional eosinophils are admixed. Findings are suggestive of Hodgkin/Reed-Sternberg cells arising in a background of small lymphocytic lymphoma (Hodgkin-type Richter transformation), to be confirmed by CD30, CD15 and PAX5 immunostains.",
+  "ddx": [
+    {"dx": "Paraimmunoblasts in CLL/SLL proliferation centers", "vs": "Paraimmunoblasts lack binucleation and lacunar halos and are CD20+/CD30-, whereas HRS cells are CD30+/CD15+ with weak PAX5."},
+    {"dx": "CLL/SLL with isolated HRS-like cells", "vs": "Scattered HRS-like cells set directly in CLL cells without a reactive T-cell/histiocyte/eosinophil microenvironment are not diagnosed as classic Hodgkin lymphoma."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows cohesive sheets of hallmark cells with horseshoe nuclei and uniform strong CD30 with T-cell markers or ALK, not scattered HRS cells in a B-cell background."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

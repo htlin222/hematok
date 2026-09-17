@@ -1,0 +1,22 @@
+{
+  "id": "15071",
+  "recognize_zh": "大腸癌接受 oxaliplatin/5-FU 化療 6 年後出現：周邊血可見有核紅血球與大型不典型細胞、骨髓抹片充滿大型且核形不規則／多核的紅血球前驅細胞（dyserythropoiesis），加上複雜核型（D），符合治療相關骨髓分化不良症候群（therapy-related MDS）合併複雜染色體異常。",
+  "features": [
+    "Panel A (PB): circulating nucleated red cells and a larger immature cell with irregular nucleus; anisopoikilocytosis",
+    "Panels B-C (BM aspirate): numerous erythroid precursors with deeply basophilic cytoplasm and megaloblastoid chromatin",
+    "Large bizarre/multinucleated erythroid precursors with nuclear irregularity (panel C and inset)",
+    "Dysplastic granulocytic forms with abnormal nuclear segmentation in the background",
+    "Panel D: G-banded karyotype with multiple numerical and structural abnormalities (complex karyotype)"
+  ],
+  "describe_en": "Peripheral blood smear shows anisopoikilocytosis with circulating nucleated red cells and occasional large immature mononuclear cells. The bone marrow aspirate is cellular with a prominent erythroid population showing marked dyserythropoiesis, including megaloblastoid maturation, deeply basophilic cytoplasm, nuclear irregularity, and large multinucleated forms; dysplastic granulocytes are also present. The accompanying G-banded karyotype shows multiple numerical and structural abnormalities, although chromosome-level detail is limited at this resolution. The blast percentage cannot be reliably estimated from these fields. In a patient with prior oxaliplatin/fluorouracil exposure, findings are consistent with a therapy-related myelodysplastic neoplasm with complex karyotype; erythroid-predominant AML should be excluded by a formal differential count.",
+  "ddx": [
+    {"dx": "Acute erythroid leukemia (pure erythroid leukemia)", "vs": "Requires >80% erythroid precursors with >=30% proerythroblasts on a formal count, which cannot be established from selected fields and would reclassify the case."},
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic anemia shows nuclear-cytoplasmic asynchrony with giant metamyelocytes and hypersegmented neutrophils but a normal karyotype and response to vitamin replacement."},
+    {"dx": "Metastatic colorectal carcinoma to marrow", "vs": "Carcinoma forms cohesive clusters of non-hematopoietic cells that are cytokeratin/CDX2 positive, unlike the discohesive erythroid precursors here."},
+    {"dx": "Toxic dyserythropoiesis from chemotherapy or alcohol", "vs": "Transient drug-related dysplasia lacks a clonal complex karyotype and resolves after the exposure is removed."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; G-banded karyotype",
+  "match": "consistent",
+  "high_yield": false
+}

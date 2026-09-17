@@ -1,0 +1,22 @@
+{
+  "id": "63957",
+  "recognize_zh": "六格中的異常骨髓細胞，核呈摺疊或分葉狀，細胞質中含大而圓、粉紅至橘紅色的球狀包涵體（pseudo-Chediak-Higashi granules），D 格則是較典型的密集紫紅細顆粒；配合流式 CD34−、HLA-DR− 與 PML::RARA，這些大顆粒是 APL 中 Auer rod 的變異形式。",
+  "features": [
+    "Medium to large cells with folded, lobulated or bilobed nuclei and moderately condensed chromatin",
+    "Large round pink-orange to salmon globular cytoplasmic inclusions (pseudo-Chediak-Higashi granules), often multiple (A, B, E)",
+    "Some cells with pale cytoplasmic vacuoles and fewer inclusions (B, C)",
+    "Panel D: cell with numerous coarse purple-red azurophilic granules typical of promyelocytes",
+    "Panel F: trilobed cell with a thin slender pink rod-like inclusion; background normal red cells"
+  ],
+  "describe_en": "This composite of six fields from a bone marrow aspirate smear shows abnormal myeloid cells with folded to lobulated nuclei and moderately abundant pale cytoplasm. Many cells contain large, round, pink-orange globular inclusions consistent with pseudo-Chediak-Higashi granules, some accompanied by cytoplasmic vacuoles, while an occasional cell (D) shows the more usual dense coarse azurophilic granulation and another (F) shows a slender rod-like inclusion. In combination with the reported CD34-negative, HLA-DR-negative, CD11b-negative myeloid immunophenotype, these findings are consistent with acute promyelocytic leukemia with prominent pseudo-Chediak-Higashi inclusions, requiring PML::RARA confirmation.",
+  "ddx": [
+    {"dx": "Chediak-Higashi syndrome", "vs": "True Chediak-Higashi granules are present in all granulocytes and lymphocytes of mature normal-appearing cells in a child with albinism and immunodeficiency, not in a clonal leukemic population."},
+    {"dx": "AML with maturation or other AML with PCH inclusions", "vs": "PCH granules also occur in non-APL AML and MDS, so HLA-DR and CD34 expression plus absence of PML::RARA separate them from APL."},
+    {"dx": "Hemophagocytosing or erythrophagocytic blasts (e.g. AML with t(8;16))", "vs": "Phagocytosed red cells are pale biconcave discs within a vacuole rather than dense homogeneous salmon globules."},
+    {"dx": "Toxic granulation or Dohle bodies in reactive neutrophils", "vs": "Toxic granules are fine dark and Dohle bodies are pale blue peripheral patches in mature segmented neutrophils, not large eosinophilic globules in abnormal promyelocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

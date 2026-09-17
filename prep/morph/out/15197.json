@@ -1,0 +1,22 @@
+{
+  "id": "15197",
+  "recognize_zh": "死於分化症候群（retinoic acid syndrome）病人的肺部切片：A 圖肺泡腔（L）與薄的肺泡壁，星號處血管內有白血球聚集；B 圖肺泡腔（W）內充滿大量髓系白血球浸潤，並伴隨粉紅色的玻璃樣膜或纖維素沉積（箭頭）。",
+  "features": [
+    "Panel A (lung, H&E, grayscale): open alveolar lumen (L) with thin alveolar septa; asterisk marks a septal vessel containing leukocytes",
+    "Panel B: alveolar space (W) filled with numerous round leukocytes with dense nuclei, consistent with infiltrating maturing myeloid cells",
+    "Arrows in panel B: eosinophilic homogeneous hyaline membrane/fibrinous material lining alveolar walls",
+    "Intra-alveolar edema-like granular proteinaceous background",
+    "Black-and-white reproduction limits assessment of cytoplasmic granules and nuclear detail"
+  ],
+  "describe_en": "Lung sections from fatal cases (grayscale H&E reproductions) show, in panel A, relatively preserved thin alveolar septa around an alveolar lumen (L), with a septal vessel (asterisk) containing aggregated leukocytes. Panel B shows an alveolar space (W) filled with numerous leukocytes with dense round-to-lobated nuclei, admixed with proteinaceous exudate, and hyaline membrane-like fibrinous deposits along the alveolar walls (arrows). Individual cell lineage and granulation cannot be confirmed in these grayscale images. In APL patients receiving ATRA, findings are consistent with differentiation (retinoic acid) syndrome with leukocyte infiltration of the lung and diffuse alveolar damage.",
+  "ddx": [
+    {"dx": "Bacterial or fungal pneumonia", "vs": "Infectious pneumonia shows neutrophilic exudate with organisms on Gram/GMS stains and may form abscesses, whereas differentiation syndrome shows infiltrating maturing leukemic myeloid cells in the setting of ATRA/ATO without organisms."},
+    {"dx": "Pulmonary leukostasis / leukemic infiltration", "vs": "Leukostasis shows intravascular plugs of blasts or promyelocytes, while differentiation syndrome shows extravasation of differentiating myeloid cells into interstitium and alveoli with edema."},
+    {"dx": "Diffuse alveolar hemorrhage", "vs": "DAH fills alveoli with red cells and hemosiderin-laden macrophages rather than predominantly leukocytes."},
+    {"dx": "Cardiogenic pulmonary edema", "vs": "Cardiogenic edema shows eosinophilic transudate with few inflammatory cells and no hyaline membranes."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E (grayscale reproduction)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "4070",
+  "recognize_zh": "骨髓切片免疫染色中，大量小至中型淋巴樣細胞呈細胞膜陽性，成片或間質性分布於脂肪空泡之間，與藍色未染色的造血細胞交錯；圖上未標示抗體，推測為 T 細胞標記，用於呈現 T-PLL 的骨髓浸潤程度。",
+  "features": [
+    "Numerous small to medium lymphoid cells with membranous brown staining",
+    "Interstitial to sheet-like infiltrate between adipocytes",
+    "Interspersed unstained residual hematopoietic cells with blue nuclei",
+    "Positive cells account for a large proportion of marrow cellularity",
+    "Specific antibody not indicated in the image"
+  ],
+  "describe_en": "Immunohistochemical stain of a bone marrow core biopsy shows an extensive interstitial to sheet-like infiltrate of small to medium lymphoid cells with membranous staining, interspersed among fat spaces and unstained residual hematopoietic cells. The antibody is not labeled on the image; the membranous pattern would fit a T-cell marker such as CD3, CD7 or CD52. In the context of T-prolymphocytic leukemia, the stain highlights substantial marrow involvement; TCL1 immunostaining can confirm the neoplastic population.",
+  "ddx": [
+    {"dx": "Reactive T-cell infiltrate", "vs": "Reactive T cells are scattered and polyclonal without aberrant antigen loss or TCL1 expression."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL shows subtle intrasinusoidal linear CD8+/TIA-1+/granzyme B+ cells rather than dense interstitial sheets."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL forms nodular/interstitial infiltrates of CD20+/CD5+/LEF1+ B cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: membranous marker (not specified)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60867",
+  "recognize_zh": "組合圖 A 可見大型芽細胞（核質比高、染色質細緻、胞質淡藍無顆粒）與伴隨的發育異常顆粒球（低分葉、胞質低顆粒）；B 流式圖顯示芽細胞群同時有 MPO 等骨髓系標記與 CD19/cCD79a 等 B 系標記的異質表現，屬帶有混合表型的 AML-MRC。",
+  "features": [
+    "Panel A: large blasts with high N:C ratio, round to indented nuclei, fine chromatin and moderate agranular pale-to-deep blue cytoplasm",
+    "Panel A (right): blasts admixed with dysplastic granulocytes showing hypolobated/pseudo-Pelger-like nuclei and hypogranular cytoplasm",
+    "Panel B: flow plots of a CD45-dim blast population with color-coded subpopulations (red, blue, green)",
+    "Blast subsets show variable myeloid (e.g., MPO, CD117, CD13/CD33) and B-lineage (e.g., CD19, cCD79a) antigen expression with CD34 positivity; axis labels only partly legible at this resolution",
+    "Heterogeneous, non-uniform antigen expression across subsets suggesting mixed-lineage phenotype"
+  ],
+  "describe_en": "Composite figure: panel A shows bone marrow aspirate smears with increased large blasts having fine chromatin, visible nucleoli and moderate agranular basophilic cytoplasm, accompanied by dysplastic granulocytes with hypolobated nuclei and hypogranular cytoplasm. Panel B shows flow cytometry of a CD45-dim blast population comprising color-coded subsets with variable expression of myeloid-associated antigens (including MPO and CD117) and B-lineage antigens (including CD19 and cytoplasmic CD79a), with CD34 expression; several axis labels are illegible at this resolution, limiting precise interpretation. Findings are consistent with acute myeloid leukemia with myelodysplasia-related changes showing a mixed myeloid/B-lineage phenotype; per WHO criteria, the presence of myelodysplasia-related features/cytogenetics excludes a diagnosis of mixed-phenotype acute leukemia.",
+  "ddx": [
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "MPAL requires lineage-defining markers in the absence of AML-defining genetic/myelodysplasia-related criteria; documented MDS-related cytogenetics or multilineage dysplasia/history reclassifies the case as AML-MR."},
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "t(8;21) AML also shows CD19/PAX5 and cCD79a expression, but blasts have salmon-colored granules, prominent hofs and long Auer rods and the translocation is detectable."},
+    {"dx": "B-lymphoblastic leukemia with aberrant myeloid antigens", "vs": "B-ALL blasts may express CD13/CD33 but are MPO negative and lack multilineage dysplasia."},
+    {"dx": "Myelodysplastic neoplasm with increased blasts (MDS-IB2)", "vs": "Separated by blast count: MDS-IB2 has 10–19% blasts whereas AML-MR requires at least 20%."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

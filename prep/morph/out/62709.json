@@ -1,0 +1,21 @@
+{
+  "id": "62709",
+  "recognize_zh": "這是母細胞 gate 的 CD7 對 CD34 流式散點圖（dot plot）：大部分母細胞 CD34 陰性到弱陽性，只有一小群 CD34 強陽性；CD7 從弱到中度部分表現，沒有形成明確的 T 細胞族群。",
+  "features": [
+    "Dot plot gated on blasts: CD7-APC700 (x) versus CD34-PC7 (y), log scales",
+    "Majority of blasts CD34 negative to dim (<10^3)",
+    "Minor subset CD34 bright (~10^4), predominantly CD7 negative",
+    "CD7 shows a continuous smear from negative to ~10^4 (partial dim-to-moderate expression)",
+    "No discrete CD7-bright population"
+  ],
+  "describe_en": "Flow cytometric dot plot of the blast gate displays CD7 versus CD34. The blasts are largely CD34 negative to dim with a minor CD34-bright subset, and show heterogeneous partial dim-to-moderate CD7 expression. CD7 is a nonspecific marker frequently aberrant in myeloid and mixed phenotype blasts and does not assign T lineage; cytoplasmic CD3 is required for that. Findings are compatible with an immature population with heterogeneous CD34 expression, as seen in the reported mixed phenotype acute leukemia, B/myeloid.",
+  "ddx": [
+    {"dx": "T/myeloid mixed phenotype acute leukemia", "vs": "T lineage requires bright cytoplasmic CD3 (at the level of mature T cells), not CD7 expression alone."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL is cCD3 positive with CD7 typically bright, CD1a/CD8 negative and CD5 dim, plus stem/myeloid markers, whereas this population lacks bright CD7."},
+    {"dx": "AML with aberrant CD7", "vs": "Separation from B/myeloid MPAL depends on B-lineage markers (strong CD19 with CD79a, CD22 or CD10), not on the CD7/CD34 pattern."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

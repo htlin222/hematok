@@ -1,0 +1,22 @@
+{
+  "id": "62944",
+  "recognize_zh": "骨髓切片高倍下，大量小型深染不規則淋巴球與有淡粉紅色豐富細胞質的上皮樣組織球（epithelioid histiocytes）為背景，其間散在少數核較大、染色質空泡狀、帶核仁的大型非典型細胞，這種「少數大細胞淹沒在 T 細胞與組織球中」的比例是 T 細胞/組織球豐富型大 B 細胞淋巴瘤的線索。",
+  "features": [
+    "Scattered large atypical cells with oval to irregular vesicular nuclei and distinct nucleoli",
+    "Large cells are a minority, dispersed singly rather than in sheets or clusters",
+    "Abundant background epithelioid histiocytes with pale eosinophilic cytoplasm and oval nuclei",
+    "Numerous small lymphocytes with dark, slightly irregular nuclei",
+    "No well-formed granulomas, eosinophils, or necrosis in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy at high power shows a lymphohistiocytic infiltrate composed of numerous small lymphocytes with dark irregular nuclei and abundant epithelioid histiocytes with pale eosinophilic cytoplasm. Scattered singly dispersed large atypical cells with vesicular, somewhat pleomorphic nuclei and distinct nucleoli are present. No sheets of large cells, granulomas, or necrosis are seen. Because the large cells are sparse and easily overlooked, immunohistochemistry is required; with CD20+/OCT2+ large cells in a CD3-rich background, findings are consistent with T-cell/histiocyte-rich large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (NLPHL)", "vs": "NLPHL LP cells sit in nodules with a small B-cell-rich background and CD21+ follicular dendritic meshworks, whereas THRLBCL lacks background small B cells."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30+/CD15+ with weak PAX5 and absent OCT2/CD20, unlike the strongly CD20+/OCT2+ large cells of THRLBCL."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "In PTCL the atypical cells are T cells with aberrant antigen loss and clonal TCR rearrangement, and any large B cells are EBV-driven bystanders."},
+    {"dx": "Granulomatous marrow inflammation", "vs": "Reactive granulomas contain epithelioid histiocytes and small lymphocytes without scattered atypical large B cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

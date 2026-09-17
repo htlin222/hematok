@@ -1,0 +1,21 @@
+{
+  "id": "61826",
+  "recognize_zh": "骨髓切片可見數顆巨核細胞，核呈單一圓形、未分葉（monolobated），細胞質豐富，背景為高細胞性並以紅血球前驅細胞為主，散在含鐵血黃素，提示巨核細胞發育不良。",
+  "features": [
+    "Megakaryocytes with round, non-lobated (monolobated) or hypolobated nuclei and abundant cytoplasm",
+    "Megakaryocytes loosely grouped near adipocytes",
+    "Hypercellular marrow with prominent erythroid precursors with dark round nuclei",
+    "Admixed granulocytic precursors including mature neutrophils",
+    "Scattered coarse brown hemosiderin granules; adipocytes along the left edge"
+  ],
+  "describe_en": "H&E-stained bone marrow core biopsy shows a hypercellular marrow with prominent erythroid precursors and maturing granulocytes. Megakaryocytes are present in normal-to-increased numbers and are notably hypolobated, with several displaying single round non-lobated nuclei. Scattered hemosiderin deposits are seen, and blast aggregates are not evident in this field. Findings are consistent with megakaryocytic dysplasia in a myelodysplastic neoplasm associated with germline GATA2 mutation.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm with isolated del(5q)", "vs": "Del(5q) also features monolobated megakaryocytes but requires the 5q deletion on cytogenetics, and typically shows erythroid hypoplasia rather than prominent erythropoiesis."},
+    {"dx": "Reactive marrow", "vs": "Reactive megakaryocytes are predominantly multilobated with only occasional hypolobated forms."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML dwarf megakaryocytes accompany marked granulocytic hyperplasia with myelocyte bulge and BCR::ABL1."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

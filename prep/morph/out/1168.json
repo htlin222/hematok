@@ -1,0 +1,22 @@
+{
+  "id": "1168",
+  "recognize_zh": "骨髓抹片中散在多顆大型組織球，核小而偏心，細胞質豐富淡藍並呈纖維狀、像揉皺的衛生紙（crumpled tissue paper），這是 Gaucher 細胞的典型外觀。",
+  "features": [
+    "Multiple large macrophages, much larger than surrounding hematopoietic cells",
+    "Low N:C ratio with small, eccentric round to oval nuclei",
+    "Abundant pale grey-blue cytoplasm with fibrillar, striated 'crumpled tissue paper' texture",
+    "No discrete vacuoles or engulfed cells within the cytoplasm",
+    "Background of cellular marrow with myeloid and erythroid precursors and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows cellular marrow with numerous scattered large histiocytes. These cells have small eccentric nuclei and abundant pale blue-grey cytoplasm with a fibrillary, wrinkled 'crumpled tissue paper' appearance, without foamy vacuoles or ingested cells. The background hematopoietic elements are present. Findings are consistent with Gaucher cells; confirmation by glucocerebrosidase enzyme assay and GBA1 genotyping is recommended.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells (e.g., CML, myeloma, thalassemia)", "vs": "Pseudo-Gaucher cells look identical on light microscopy; separation requires the clinical context and normal glucocerebrosidase activity."},
+    {"dx": "Niemann-Pick (foamy) cells", "vs": "Niemann-Pick cells have soap-bubble, uniformly vacuolated cytoplasm rather than fibrillar striations."},
+    {"dx": "Sea-blue histiocytes", "vs": "Sea-blue histiocytes contain blue-green granules of ceroid rather than a pale fibrillar cytoplasm."},
+    {"dx": "Mycobacterium avium complex-laden histiocytes", "vs": "MAC histiocytes show negative-image striations that are acid-fast positive, and occur in immunocompromised patients."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "63992",
+  "recognize_zh": "低倍 Perls 鐵染色下，一個骨髓顆粒（particle）內多處細胞含藍色顆粒狀含鐵血黃素，背景為粉紅色對比染色；在 AML 情境中，這些吸收鐵染色的細胞對應類 Gaucher 細胞。",
+  "features": [
+    "Low-power view of a bone marrow particle with pink counterstained cellular background",
+    "Multiple cells within the particle containing blue granular Prussian blue-positive material",
+    "Iron-positive cells clustered within the particle rather than free in the background",
+    "Fat vacuoles at the particle periphery",
+    "Cell-level morphology (Gaucher-like cytoplasm) cannot be resolved at this magnification"
+  ],
+  "describe_en": "Perls' Prussian blue stain of the bone marrow aspirate at low power shows a marrow particle containing multiple cells with blue granular iron-positive cytoplasmic material against a pink counterstained background. The iron-positive cells are distributed throughout the particle, indicating readily identifiable storage iron. Individual cellular detail cannot be assessed at this magnification. In the context of AML with pseudo-Gaucher cells, these iron-laden cells correspond to macrophages/Gaucher-like cells that accumulate hemosiderin, a feature that helps separate pseudo-Gaucher cells from true Gaucher cells.",
+  "ddx": [
+    {"dx": "Increased storage iron from transfusion or anemia of inflammation", "vs": "Iron-laden macrophages alone cannot identify Gaucher-like cells; correlation with Romanowsky-stained fibrillar macrophages is required."},
+    {"dx": "True Gaucher cells", "vs": "True Gaucher cells may also show some iron positivity, so the distinction rests on the underlying leukemia and glucocerebrosidase activity rather than this stain."},
+    {"dx": "Ring sideroblasts (MDS/AML with SF3B1)", "vs": "Ring sideroblasts are erythroid precursors with perinuclear blue granules encircling the nucleus, which must be assessed at high power rather than in particle macrophages."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Prussian blue (Perls)",
+  "match": "consistent",
+  "high_yield": false
+}

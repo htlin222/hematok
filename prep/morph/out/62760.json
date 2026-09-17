@@ -1,0 +1,22 @@
+{
+  "id": "62760",
+  "recognize_zh": "淋巴結呈結節狀，濾泡 BCL6 陽性且 BCL2 在濾泡內也強陽性（濾泡性淋巴瘤）；cyclin D1 染色則只在濾泡周圍外套層內側形成一圈陽性細胞，加上流式有一小群 CD5+ kappa 限制 B 細胞，代表合併原位外套細胞腫瘤（isMCN）。",
+  "features": [
+    "Nodular architecture with closely packed follicles effacing the lymph node (H&E)",
+    "Neoplastic follicles BCL6-positive and aberrantly BCL2-positive, consistent with follicular lymphoma",
+    "Cyclin D1-positive cells confined to a thin rim in the inner mantle zones around follicles, without expansion",
+    "Flow cytometry: small distinct CD19+ CD5+ B-cell subset (gated) with kappa light chain restriction",
+    "Additional CD19+ CD5-negative B-cell population separate from the CD5+ subset"
+  ],
+  "describe_en": "Lymph node sections show a nodular proliferation of closely packed follicles effacing the normal architecture. Immunostains show that the follicles are BCL6-positive with aberrant BCL2 expression, consistent with follicular lymphoma. Cyclin D1 highlights a rim of positive cells restricted to the inner mantle zones surrounding the follicles, without an expanded or diffuse cyclin D1-positive infiltrate. Flow cytometry identifies a small separate CD19+ CD5+ kappa-restricted B-cell population in addition to CD5-negative B cells. Findings are consistent with follicular lymphoma with composite in situ mantle cell neoplasia; SOX11 staining and CCND1 FISH may further characterize the mantle cell component.",
+  "ddx": [
+    {"dx": "Overt mantle cell lymphoma, mantle zone pattern", "vs": "Mantle zone pattern MCL shows expanded, broad cyclin D1-positive mantles, whereas isMCN positive cells are confined to a thin inner mantle rim without architectural distortion."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers are BCL2-negative with polarization and tingible body macrophages, and cyclin D1-positive mantle cells are absent."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL is also CD5-positive but is cyclin D1-negative, CD23-positive, and forms proliferation centers rather than a mantle zone rim."},
+    {"dx": "Cyclin D1-positive endothelial or histiocytic cells", "vs": "Weak cyclin D1 staining in endothelial cells or histiocytes is scattered and non-lymphoid, whereas isMCN cells are small lymphocytes aligned in the inner mantle and co-express CD5 and SOX11."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: BCL6, BCL2, cyclin D1; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

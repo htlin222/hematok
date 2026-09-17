@@ -1,0 +1,23 @@
+{
+  "id": "65987",
+  "recognize_zh": "骨髓切片被單一形態的小型淋巴細胞瀰漫取代，抹片見核稍不規則、染色質濃縮的小至中型淋巴細胞；免疫染色 CD20、cyclin D1、SOX11 陽性，FISH 見 IGH::CCND1 融合訊號及 KMT2A 分離訊號，符合合併 KMT2A 重排的被套細胞淋巴瘤。",
+  "features": [
+    "Panel A: marrow biopsy diffusely replaced by monotonous small lymphoid cells with dark round-to-slightly irregular nuclei",
+    "Panel B: aspirate with small-to-medium lymphoid cells with condensed chromatin, slightly irregular nuclear contours and scant cytoplasm",
+    "Panel C: diffuse membranous CD20 positivity",
+    "Panel D: nuclear cyclin D1 and SOX11 positivity in the lymphoid cells",
+    "Panel E: optical genome mapping circos plot showing t(11;14) and a complex t(6;11;14)",
+    "Panel F: FISH with IGH::CCND1 dual-fusion signals and a KMT2A break-apart split signal pattern"
+  ],
+  "describe_en": "Bone marrow core biopsy shows near-complete replacement by a diffuse, monotonous infiltrate of small lymphoid cells. The aspirate smear shows small-to-medium lymphoid cells with condensed chromatin, slightly irregular nuclear contours, and scant cytoplasm, without blastoid features. The infiltrate is CD20 positive with nuclear cyclin D1 and SOX11 expression. Optical genome mapping and FISH demonstrate IGH::CCND1 fusion and a KMT2A rearrangement. Findings are consistent with bone marrow involvement by mantle cell lymphoma with an accompanying KMT2A rearrangement.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL cells have round nuclei with clumped chromatin and are CD23+/CD200+ and cyclin D1/SOX11 negative, lacking t(11;14)."},
+    {"dx": "KMT2A-rearranged B-lymphoblastic leukemia", "vs": "B-ALL blasts have fine chromatin and are CD34/TdT positive, often CD10 negative CD19+, whereas this infiltrate is TdT/CD34 negative and cyclin D1 positive."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL cells have more cytoplasm and monocytoid/plasmacytoid features and are CD5 and cyclin D1 negative."},
+    {"dx": "Plasma cell myeloma with t(11;14)", "vs": "Myeloma with t(11;14) expresses cyclin D1 but consists of CD138+ plasma cells or lymphoplasmacytoid cells and lacks CD20/SOX11 with a mature B-cell phenotype."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E, Giemsa; IHC CD20, cyclin D1, SOX11; FISH; OGM",
+  "match": "consistent",
+  "high_yield": false
+}

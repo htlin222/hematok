@@ -1,0 +1,21 @@
+{
+  "id": "63264",
+  "recognize_zh": "淋巴球門控的流式雙參數圖：紅色的主要族群位在左上象限，CD43 明亮陽性而 CD19 陰性，右側零星藍點是 CD19 陽性的殘存 B 細胞；CD43+/CD19- 支持異常細胞非 B 細胞系，需配合 CD3 等 T 細胞標記確認 T-LGL。",
+  "features": [
+    "Two-parameter dot plot gated on lymphocytes: CD43 APC-H7 (y-axis) vs CD19 PE-Cy7 (x-axis)",
+    "Dominant red population in Q1: bright CD43 expression, CD19 negative",
+    "Sparse light-blue CD19-positive B cells in Q2 and Q4, with variable CD43",
+    "Virtually no events in the double-negative quadrant",
+    "Marked reduction of B cells relative to the expanded CD43+ CD19- population"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on lymphocytes shows CD43 (y-axis) versus CD19 (x-axis). The predominant population (red) expresses bright CD43 and is negative for CD19, while only a few residual CD19-positive B cells (blue) are present with variable CD43 expression. CD43 is not lineage-specific, but its bright expression on a CD19-negative expanded population, together with CD3 expression shown on companion plots, supports a T-cell population. In context, the findings are consistent with involvement by T-cell large granular lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "CD43+ B-cell neoplasm (e.g., CLL/SLL, mantle cell lymphoma)", "vs": "These co-express CD43 with CD19/CD20, whereas the neoplastic population here is CD19-negative."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "NK-LGL cells are also CD43+ CD19- but are surface CD3-negative and CD16/CD56-positive, so a CD3 plot is needed to separate them."},
+    {"dx": "Reactive T-lymphocytosis", "vs": "Reactive T cells are also CD43+ CD19-, so this plot cannot separate them; persistence, aberrant antigen loss (CD5/CD7) and clonal TCR rearrangement favor T-LGL leukemia."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

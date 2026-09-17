@@ -1,0 +1,21 @@
+{
+  "id": "60575",
+  "recognize_zh": "這是螢光原位雜交（FISH）與細胞遺傳學合成圖：A 圖多個間期細胞核內布滿大量散在、成團的訊號，像「煙火」一樣；B 圖中期染色體周圍散布許多訊號；C 圖的中期分裂相可見大量微小的雙微小體（double minutes）；代表 MYC 基因擴增。",
+  "features": [
+    "Panel A: interphase FISH with numerous nuclei containing innumerable scattered and clustered red/green (yellow fusion) signals, a 'fireworks' pattern of gene amplification",
+    "Panel A: signal burden varies between nuclei, with some cells showing few signals and others dense confluent clusters",
+    "Panel B: metaphase FISH with many signals dispersed around and between chromosomes rather than on a single chromosomal locus",
+    "Panel C: G-banded/DAPI-inverted metaphase with numerous tiny paired dot-like chromatin bodies consistent with double minutes",
+    "Adjacent interphase nuclei in panel C for size comparison"
+  ],
+  "describe_en": "Composite cytogenetic figure. Interphase FISH (panel A) shows many nuclei containing innumerable scattered and clustered probe signals, a 'fireworks' pattern indicating high-level gene amplification with heterogeneous copy number between cells. Metaphase FISH (panel B) shows the amplified signals dispersed around the chromosomes rather than at a fixed locus, and the corresponding banded metaphase (panel C) shows numerous small double minute chromosomes. Findings are consistent with extrachromosomal MYC amplification in the form of double minutes, a finding associated with complex karyotypes and myelodysplasia-related acute myeloid leukemia and adverse prognosis.",
+  "ddx": [
+    {"dx": "Hyperdiploidy or trisomy 8 (extra MYC copies)", "vs": "Chromosomal gain yields only one or two extra discrete signals per nucleus, not innumerable clustered signals with double minutes."},
+    {"dx": "Homogeneously staining region (hsr) amplification", "vs": "An hsr localizes amplified signals in a single contiguous block on one chromosome, whereas double minutes scatter signals across the metaphase."},
+    {"dx": "MYC rearrangement (e.g., t(8;14))", "vs": "A break-apart probe shows one split red/green signal pair per nucleus rather than high-level amplification."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH (MYC probe) and G-banding",
+  "match": "non-morphologic",
+  "high_yield": false
+}

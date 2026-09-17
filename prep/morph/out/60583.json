@@ -1,0 +1,22 @@
+{
+  "id": "60583",
+  "recognize_zh": "骨髓切片可見細胞量逐漸增加、巨核細胞增生且成簇、形態不規則，網狀纖維染色（inset）顯示纖維明顯增加；周邊血可見有核紅血球與未成熟骨髓細胞（leukoerythroblastic picture），符合骨髓纖維化進展為骨髓增生性腫瘤。",
+  "features": [
+    "Bone marrow biopsy with increasing cellularity across panels, from mildly hypercellular (A) to markedly hypercellular with reduced fat (B, C)",
+    "Megakaryocytic hyperplasia with enlarged, hyperlobated or hyperchromatic megakaryocytes forming loose clusters",
+    "Reticulin stain insets show a progressive increase in reticulin fibers, dense and intersecting in the later biopsy",
+    "Low-power inset of core shows a densely cellular marrow abutting bone trabecula",
+    "Peripheral blood smear with nucleated red blood cell, immature myeloid precursor and a basophil-like granulated cell (leukoerythroblastic features)"
+  ],
+  "describe_en": "Sequential bone marrow core biopsies (H&E) show progression from a mildly hypercellular marrow with scattered megakaryocytes to a markedly hypercellular marrow with granulocytic and megakaryocytic proliferation, including atypical, clustered megakaryocytes. Reticulin stains (insets) demonstrate a progressive increase in reticulin fibrosis. The peripheral blood smear shows nucleated red cells and immature myeloid forms, a leukoerythroblastic picture. Findings are suggestive of progression from thrombopoietin receptor agonist (romiplostim)-associated marrow fibrosis to a myeloproliferative neoplasm; molecular testing (JAK2, CALR, MPL) and clinical correlation are needed.",
+  "ddx": [
+    {"dx": "Reversible romiplostim-associated reticulin fibrosis", "vs": "Drug-related fibrosis is usually low grade with normal cellularity and regresses on withdrawal, lacking the progressive hypercellularity, atypical megakaryocyte clusters and leukoerythroblastosis seen here."},
+    {"dx": "Primary myelofibrosis", "vs": "Morphology is overlapping, so separation rests on the clinical history of TPO-agonist exposure and serial biopsies documenting evolution."},
+    {"dx": "Myelodysplastic syndrome with fibrosis", "vs": "MDS with fibrosis shows small hypolobated dysplastic megakaryocytes and dysgranulopoiesis rather than large hyperlobated MPN-type megakaryocytes."},
+    {"dx": "Immune thrombocytopenia marrow", "vs": "ITP marrow shows increased megakaryocytes without clustering, significant fibrosis, or leukoerythroblastic blood."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; reticulin; Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

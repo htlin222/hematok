@@ -1,0 +1,22 @@
+{
+  "id": "61051",
+  "recognize_zh": "周邊血可見大卵圓形紅血球（macro-ovalocytes），骨髓抹片出現巨大後髓細胞（giant metamyelocyte）、分葉過多嗜中性球與核質發育不同步的巨母紅血球，三系皆有異常造血，符合 B12 代謝障礙（transcobalamin II 缺乏）造成的巨母細胞變化。",
+  "features": [
+    "Peripheral blood with anisocytosis and scattered oval macrocytes (macro-ovalocytes)",
+    "Aspirate panels show giant metamyelocytes/bands and hypersegmented neutrophils",
+    "Megaloblastic erythroid precursors with open, sieve-like chromatin and relatively mature cytoplasm (nuclear-cytoplasmic asynchrony)",
+    "Dysplastic-appearing megakaryocytic/myeloid forms mimicking myelodysplasia",
+    "Markedly hypercellular marrow biopsy (H&E) with sheets of immature-appearing precursors",
+    "Immunostain (panel C) highlights only scattered positive cells, without increased positive blasts"
+  ],
+  "describe_en": "Multipanel figure. The peripheral blood smear shows anisocytosis with oval macrocytes. The bone marrow biopsy is markedly hypercellular with a predominance of immature-appearing hematopoietic precursors, and an immunostain labels only scattered cells. Aspirate smears show megaloblastic erythroid precursors with nuclear-cytoplasmic asynchrony, giant metamyelocytes and bands, and hypersegmented neutrophils, i.e., trilineage dyspoiesis. Findings are consistent with megaloblastic hematopoiesis due to impaired cobalamin transport (transcobalamin II deficiency), which can mimic myelodysplastic syndrome or acute leukemia.",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS lacks giant metamyelocytes with uniformly megaloblastic open chromatin and does not reverse with cobalamin; serum/functional B12 studies (homocysteine, methylmalonic acid, TCII levels) and cytogenetics separate them."},
+    {"dx": "Acute erythroid leukemia / AML", "vs": "Leukemia shows a true blast population by CD34/CD117 staining, whereas here the immunostain labels only scattered cells and the precursors mature into giant granulocytes."},
+    {"dx": "Nutritional B12 or folate deficiency", "vs": "Morphology is identical; transcobalamin II deficiency typically presents in infancy with normal serum B12 but low functional cobalamin, requiring biochemical/genetic testing."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, IHC",
+  "match": "consistent",
+  "high_yield": false
+}

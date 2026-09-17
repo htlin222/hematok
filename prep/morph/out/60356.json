@@ -1,0 +1,21 @@
+{
+  "id": "60356",
+  "recognize_zh": "骨髓切片 CD56 免疫染色：成片腫瘤細胞呈強而完整的細胞膜環狀棕色染色，幾乎全部陽性；在母細胞樣浸潤中 CD56 合併 CD4、CD123 陽性，是診斷 BPDCN 的核心組合。",
+  "features": [
+    "Diffuse sheets of intermediate-sized tumor cells replacing marrow between scattered fat spaces",
+    "CD56: strong, crisp membranous (ring-like) staining with some cytoplasmic accentuation",
+    "Positivity in the large majority of neoplastic cells",
+    "Occasional unstained small cells and stroma provide internal negative contrast"
+  ],
+  "describe_en": "Immunohistochemical stain for CD56 on the bone marrow core biopsy shows diffuse sheets of intermediate-sized cells with strong, crisp membranous CD56 expression in the large majority of the neoplastic population. Interspersed small cells and stromal elements are negative. Diffuse CD56 expression in a blastic marrow infiltrate that also expresses CD4 and CD123 is consistent with blastic plasmacytoid dendritic cell neoplasm; CD56 alone is not specific.",
+  "ddx": [
+    {"dx": "Extranodal NK/T-cell lymphoma or NK-cell leukemia", "vs": "These are CD56+ but express cytoplasmic CD3epsilon and cytotoxic granule proteins and are usually EBER-positive, while being CD4- and CD123-."},
+    {"dx": "Plasma cell myeloma", "vs": "Neoplastic plasma cells are often CD56+ but show plasmacytoid morphology and express CD138 with light chain restriction."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation or aberrant CD56", "vs": "AML may be CD56+ and CD4+ but expresses MPO, lysozyme or CD14/CD163 and lacks TCF4/TCL1/CD303."},
+    {"dx": "Small round blue cell tumors (neuroblastoma, small cell carcinoma)", "vs": "These are CD56+ but CD45-negative and express synaptophysin/chromogranin or keratin, forming cohesive nests."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD56",
+  "match": "consistent",
+  "high_yield": false
+}

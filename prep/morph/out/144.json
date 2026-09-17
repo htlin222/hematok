@@ -1,0 +1,31 @@
+{
+  "id": "144",
+  "recognize_zh": "血片中可見多個兩端尖細的鐮刀狀紅血球（sickle cells），HPLC 在 D-window（43.6%）與 S-window（33.8%）出現兩個緊鄰交錯的高峰且幾乎無 HbA0，配合母親為 HbS trait、父親為 HbD-Punjab trait，即為 HbSD 雙異合子鐮刀症。",
+  "features": [
+    "Peripheral smear with scattered sickled (drepanocytic) red cells with pointed ends, plus boat-shaped and irregularly contracted forms",
+    "Mild anisopoikilocytosis with occasional target cells and small dense cells; red cells otherwise normochromic",
+    "HPLC: two adjacent overlapping variant peaks in the D-window (43.6%, RT 4.09 min) and S-window (33.8%, RT 4.36 min), HbF 12.6%, HbA2 3.5%, negligible HbA0",
+    "Alkaline cellulose acetate electrophoresis: patient lane (arrow) with a dominant slow band in the S/D/G position and no HbA band",
+    "Sodium metabisulphite sickling test: numerous sickled and holly-leaf deoxygenated red cells",
+    "Parental HPLC: mother with S-window peak 26.1% (HbAS); father with D-window peak 30.8% (HbAD-Punjab)"
+  ],
+  "describe_en": "Peripheral blood smear shows normochromic red cells with moderate poikilocytosis, including scattered sickle cells and occasional target cells; no nucleated red cells are seen in this field. Cation-exchange HPLC demonstrates two closely eluting variant peaks in the D-window (43.6%) and S-window (33.8%) with HbF 12.6%, HbA2 3.5% and essentially no HbA0, and alkaline electrophoresis shows a single dominant band in the S/D/G region because HbS and HbD-Punjab co-migrate at pH 8.6. The metabisulphite sickling test is positive, and parental studies show HbS trait in the mother and HbD-Punjab trait in the father. Findings are consistent with compound heterozygous HbSD-Punjab disease.",
+  "ddx": [
+    {"dx": "Homozygous sickle cell anemia (HbSS)", "vs": "HbSS shows a single dominant S-window peak without a separate D-window peak, and both parents carry HbS; alkaline electrophoresis alone cannot separate them because HbD co-migrates with HbS."},
+    {"dx": "HbS/beta-thalassemia", "vs": "HbS/beta-thal shows microcytic hypochromic indices, an elevated HbA2 (>3.5%) and a single S-window peak, whereas this case is normocytic with a distinct D-window peak."},
+    {"dx": "HbD-Punjab homozygote or HbD/beta-thalassemia", "vs": "These lack a positive sickling test and sickle cells on smear, and HPLC shows only a D-window peak without an S-window component."},
+    {"dx": "HbSC disease", "vs": "HbSC shows a C-window peak eluting later than HbS on HPLC, a distinct band in the C/E/O/A2 position on alkaline electrophoresis, and HbC crystals or target cells on smear."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; HPLC; Hb electrophoresis",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood smear with sickle cells",
+    "Patient HPLC: twin D-window (43.6%) and S-window (33.8%) peaks, HbF 12.6%",
+    "Alkaline cellulose acetate electrophoresis: patient lane (arrow) with slow S/D/G band and no HbA",
+    "Positive sodium metabisulphite sickling test",
+    "Mother HPLC: S-window 26.1% (sickle cell trait)",
+    "Father HPLC: D-window 30.8% (HbD-Punjab trait)"
+  ]
+}

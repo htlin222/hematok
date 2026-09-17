@@ -1,0 +1,21 @@
+{
+  "id": "62694",
+  "recognize_zh": "淋巴球 gate 的 CD3 對 CD5 流式圖：綠色 NK 細胞 CD3 陰性、CD5 陰性，形成水平長條的大族群；藍色 T 細胞 CD3、CD5 皆陽性，CD5 強度正常，沒有 CD5 缺失的 T 細胞群。",
+  "features": [
+    "Dot plot gated on lymphocytes: CD3-PC5.5 (x) versus CD5-PB (y)",
+    "Large green population CD3 negative and CD5 negative (NK cells)",
+    "Blue T cells CD3 positive with CD5 positive, vertically spread",
+    "Magenta CD3/CD5 double-negative population near origin (B cells), with small CD5-dim tail",
+    "No distinct CD3-positive, CD5-negative aberrant T-cell population"
+  ],
+  "describe_en": "Flow cytometric dot plot of the lymphocyte gate displays CD3 versus CD5. A large CD3-negative, CD5-negative population consistent with NK cells is present, together with CD3-positive, CD5-positive T cells and a small double-negative B-cell population. No CD5-loss T-cell population is identified, arguing against an aberrant T-cell LGL clone. Findings support the NK-cell expansion of the reported chronic lymphoproliferative disorder of NK cells.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL typically shows a CD3-positive population with dim or absent CD5, which is not present here."},
+    {"dx": "Reactive NK-cell lymphocytosis", "vs": "The CD3-CD5- NK phenotype is shared, so persistence and KIR restriction or clonality surrogates are needed."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL cells are CD3 positive, CD5 negative gamma-delta T cells with sinusoidal marrow and splenic involvement, rather than CD3-negative cells."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

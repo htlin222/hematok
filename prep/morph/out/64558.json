@@ -1,0 +1,22 @@
+{
+  "id": "64558",
+  "recognize_zh": "BAL 抹片中有許多細胞質淡藍、呈泡沫狀的肺泡巨噬細胞，背景與細胞內散布大量洋紅至紫紅色、顆粒狀或團塊狀的無定形蛋白質物質，可解讀為界面活性物質豐富的板層小體（lamellar bodies），提示肺泡蛋白沉積症（PAP）。",
+  "features": [
+    "Numerous alveolar macrophages with abundant pale blue, finely vacuolated/foamy cytoplasm",
+    "Abundant extracellular magenta-purple granular to clumped amorphous proteinaceous material in the background",
+    "Similar magenta granular material within macrophage cytoplasm",
+    "Scattered small lymphocytes and occasional larger cells with round nuclei; no organisms identified",
+    "Image focus and depth of field are limited (photomicrograph through eyepiece), precluding fine structural assessment"
+  ],
+  "describe_en": "May-Grünwald-Giemsa-stained smear of bronchoalveolar lavage fluid shows numerous alveolar macrophages with abundant foamy, pale blue cytoplasm, together with abundant extracellular and intracytoplasmic magenta, granular to clumped amorphous proteinaceous material. Scattered lymphocytes are present, and no microorganisms are evident, although focus is limited. In a patient with milky BAL fluid and negative infectious workup, findings are suggestive of accumulated surfactant material (lamellar bodies), consistent with pulmonary alveolar proteinosis; PAS positivity and anti-GM-CSF antibody testing would support the diagnosis.",
+  "ddx": [
+    {"dx": "Pneumocystis jirovecii pneumonia", "vs": "PJP forms foamy, alveolar-cast-like clusters containing small cyst/trophozoite dots highlighted by GMS or immunofluorescence, whereas this material is granular magenta debris and PJP testing was negative."},
+    {"dx": "Lipoid pneumonia / lipid-laden macrophages", "vs": "Lipid-laden macrophages have large clear cytoplasmic vacuoles that stain with Oil Red O, rather than dense magenta granular extracellular proteinaceous material."},
+    {"dx": "Mucus and cellular debris contamination", "vs": "Mucus forms strands and sheets with entrapped cells rather than discrete granular PAS-positive surfactant globules associated with foamy macrophages."},
+    {"dx": "Diffuse alveolar hemorrhage (hemosiderin-laden macrophages)", "vs": "Siderophages contain coarse blue-black to golden-brown pigment positive with Prussian blue, whereas this material is magenta and extracellular."}
+  ],
+  "specimen": "body fluid",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

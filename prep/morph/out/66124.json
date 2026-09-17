@@ -1,0 +1,22 @@
+{
+  "id": "66124",
+  "recognize_zh": "骨髓抹片中有一大團彼此緊貼、核相互擠壓（nuclear molding）的圓至卵圓形深染細胞，胞質僅為淡藍絲狀，團塊內與上方可見粉紅色纖維狀神經纖維網（neuropil），與周圍散在的造血細胞明顯不同，符合轉移性神經母細胞瘤。",
+  "features": [
+    "Large cohesive cluster of small-to-medium round-to-oval tumor cells with prominent nuclear molding",
+    "Hyperchromatic nuclei with finely granular chromatin and very high N:C ratio; nucleoli inconspicuous at this magnification",
+    "Scant wispy pale-blue cytoplasm with indistinct cell borders",
+    "Pink-violet fibrillary neuropil-like material within and adjacent to the cluster, with focal rosette-like arrangement around it",
+    "Background dispersed hematopoietic cells (lymphocytes, neutrophil) and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large cohesive cluster of non-hematopoietic small round blue cells with hyperchromatic, molded nuclei, scant wispy cytoplasm and indistinct cell borders. Pink fibrillary neuropil-like material is present within and at the edge of the cluster, with focal rosette-like arrangement of tumor cells around it, although a sharply circumscribed Homer-Wright rosette is not clearly delineated in this field. Scattered normal hematopoietic cells are present in the background. Findings are consistent with bone marrow involvement by metastatic neuroblastoma.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are discohesive single cells without nuclear molding or neuropil and express TdT/CD19 or CD3 rather than PHOX2B/synaptophysin."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma forms clusters with vacuolated glycogen-rich cytoplasm and no neuropil, and is CD99/NKX2.2-positive with EWSR1 rearrangement."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Rhabdomyosarcoma cells have more vacuolated cytoplasm, occasional multinucleated forms and express desmin/myogenin, without neuropil."},
+    {"dx": "Metastatic small cell carcinoma (adults)", "vs": "Small cell carcinoma shows similar molding and crush artifact but occurs in adults, lacks neuropil and is cytokeratin/TTF-1-positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,28 @@
+{
+  "id": "93",
+  "recognize_zh": "淋巴結被大型多形性細胞成片取代，插圖可見腎形核的標誌細胞（hallmark cell）；免疫染色 CD30 強陽性、ALK 陰性、T 細胞標記（CD3/CD4/CD8）與 CD45 幾乎全失（null phenotype），p63 核強陽性，FISH 見 TBL1XR1/TP63 融合訊號。",
+  "features": [
+    "Diffuse cohesive sheets of large pleomorphic cells effacing the node, extending to capsule and perinodal fat",
+    "Abundant amphophilic to eosinophilic cytoplasm; vesicular nuclei with prominent nucleoli and frequent mitoses",
+    "Hallmark cells with eccentric kidney/horseshoe-shaped nuclei and paranuclear eosinophilic region (inset)",
+    "IHC: CD30 strong uniform membranous/Golgi positivity; ALK negative",
+    "IHC: loss of CD45, CD3, CD4 and CD8 in tumor cells (null phenotype); CD20 negative; strong nuclear p63",
+    "Interphase FISH: two yellow TBL1XR1/TP63 fusion signals (arrows) plus separate red and green signals, indicating TP63 rearrangement"
+  ],
+  "describe_en": "Lymph node sections show near-total effacement by diffuse, cohesive sheets of large atypical lymphoid cells that extend into the capsule and perinodal adipose tissue. At high power, the cells have abundant amphophilic cytoplasm, pleomorphic vesicular nuclei with distinct nucleoli, and brisk mitotic activity; hallmark cells with horseshoe-shaped nuclei are present. Immunohistochemistry shows strong, uniform CD30 expression with ALK negativity; the neoplastic cells are negative for CD20, CD3, CD4 and CD8 and largely negative for CD45 (only scattered background cells staining), while p63 shows strong diffuse nuclear positivity. Interphase FISH with a TBL1XR1/TP63 dual-fusion probe demonstrates two fusion signals, confirming a TBL1XR1-TP63 rearrangement. Findings are consistent with ALK-negative anaplastic large cell lymphoma with TP63 rearrangement.",
+  "ddx": [
+    {"dx": "ALK-positive ALCL", "vs": "Shares hallmark cells and uniform CD30, but ALK IHC is positive (usually nuclear and cytoplasmic with NPM1-ALK) and patients are typically younger; ALK is negative here."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "CD30-positive Reed-Sternberg cells are scattered within a mixed inflammatory background with CD15 and PAX5 (weak) expression, rather than cohesive CD30-positive sheets lacking PAX5."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with CD30 expression", "vs": "CD30 is typically heterogeneous and weaker with retained T-cell antigens, whereas ALCL shows uniform strong CD30 with frequent loss of pan-T-cell markers and hallmark cells."},
+    {"dx": "Metastatic carcinoma (e.g., squamous cell) or embryonal carcinoma", "vs": "Cohesive sheets with CD45 loss and p63 positivity can mimic carcinoma, so keratin (negative in ALCL), EMA, CD30 pattern, and cytotoxic markers or TCR clonality are needed to resolve it."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC panel incl. CD30, ALK, p63; FISH TBL1XR1/TP63",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E: low-power nodal effacement by sheets of large cells extending into perinodal fat; high power shows pleomorphic large cells with a hallmark cell (inset)",
+    "IHC panel: CD45, CD20, CD3, CD4, CD8 negative in tumor cells; CD30 strong diffuse positive; ALK negative; p63 strong nuclear positive",
+    "Interphase FISH with TBL1XR1 (green)/TP63 (red) probes showing two fusion signals (arrows) indicating TP63 rearrangement"
+  ]
+}

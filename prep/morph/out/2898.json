@@ -1,0 +1,19 @@
+{
+  "id": "2898",
+  "recognize_zh": "同一視野並列不同強度：上方中性球有密集藍色顆粒（約 3 分），下方細胞整個被深藍色沉澱蓋住看不到核（4 分），右側與左下的淡紅色細胞則沒有顆粒（0 分）。",
+  "features": [
+    "Upper neutrophil with dense blue granules, nucleus still faintly visible (about 3+)",
+    "Lower cell with intense confluent dark blue precipitate obscuring the nucleus (4+)",
+    "Adjacent pale cells with red nuclei and no blue granules (score 0)",
+    "Unstained red cells in background"
+  ],
+  "describe_en": "High-power view of a leukocyte alkaline phosphatase-stained peripheral blood smear demonstrates the grading spectrum within a single field. One neutrophil contains dense blue granules with a faintly visible nucleus (approximately 3+), another shows intense confluent dark blue reaction product completely obscuring the nucleus (4+), and nearby cells with red-counterstained nuclei lack any granules (0). The LAP score is the sum of grades for 100 consecutive neutrophils.",
+  "ddx": [
+    {"dx": "Score 1+ to 2+ neutrophils", "vs": "These show sparse to moderate granules with clearly visible nuclear lobes, unlike the heavily stained cells here."},
+    {"dx": "Non-neutrophil leukocytes", "vs": "Lymphocytes and monocytes are excluded from scoring and are recognized by round or folded nonsegmented nuclei."}
+  ],
+  "specimen": "PB",
+  "stain": "Cytochemistry: LAP (azo dye, red counterstain)",
+  "match": "consistent",
+  "high_yield": true
+}

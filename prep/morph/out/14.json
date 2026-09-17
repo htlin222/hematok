@@ -1,0 +1,32 @@
+{
+  "id": "14",
+  "recognize_zh": "周邊血液可見雙相（dimorphic）紅血球族群、淚滴狀與橢圓形紅血球，並有帶粗大嗜鹼性點彩或 Pappenheimer bodies 的紅血球；骨髓鐵染色（Prussian blue）中大量有核紅血球的藍色鐵顆粒環繞細胞核排列，即環狀鐵粒母細胞（ring sideroblasts），加上骨髓紅血球系增生，符合鐵粒母細胞性貧血。",
+  "features": [
+    "Prussian blue stain: numerous erythroid precursors with coarse blue siderotic granules arranged in a perinuclear ring (ring sideroblasts)",
+    "Peripheral blood: dimorphic red cell population with hypochromic cells admixed with normochromic cells, marked anisopoikilocytosis with teardrop cells and elliptocytes",
+    "Scattered red cells with coarse basophilic stippling/Pappenheimer bodies (siderocytes)",
+    "Aspirate: marked erythroid hyperplasia with erythroid precursors at all stages of maturation, occasional binucleate forms",
+    "Biopsy: hypercellular marrow (near 90-100%) with erythroid predominance and preserved megakaryocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows a dimorphic red cell population with hypochromic cells, marked anisopoikilocytosis including teardrop cells and elliptocytes, and scattered red cells containing coarse basophilic inclusions consistent with basophilic stippling/Pappenheimer bodies. The bone marrow aspirate shows marked erythroid hyperplasia with precursors at all stages of maturation and occasional binucleate erythroblasts; blasts are not increased in the fields shown. Iron stain demonstrates numerous ring sideroblasts, with siderotic granules encircling the nucleus of erythroid precursors. The core biopsy is markedly hypercellular with erythroid predominance. In an 8-year-old, findings are consistent with congenital (hereditary) sideroblastic anemia; correlation with ALAS2/SLC25A38 and other genetic testing is recommended.",
+  "ddx": [
+    {"dx": "MDS with ring sideroblasts (SF3B1-mutated)", "vs": "Occurs in older adults with dysplasia in other lineages and SF3B1 mutation, whereas congenital sideroblastic anemia presents in childhood with germline ALAS2/SLC25A38 variants."},
+    {"dx": "Acquired sideroblastic anemia (alcohol, isoniazid, copper deficiency/zinc excess, lead)", "vs": "Ring sideroblasts are similar, but history of toxin/drug exposure, low copper, or elevated lead with prominent basophilic stippling and reversal after removal of the cause separate these."},
+    {"dx": "Iron deficiency anemia", "vs": "Also hypochromic microcytic, but marrow iron stores are absent and ring sideroblasts are not seen, while sideroblastic anemia shows increased iron and ring sideroblasts."},
+    {"dx": "Thalassemia", "vs": "Shows microcytosis with target cells and abnormal hemoglobin electrophoresis/globin gene testing, without significant ring sideroblasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, Prussian blue, H&E",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: dimorphic red cells, teardrop cells, a lymphocyte, and a red cell with coarse stippling",
+    "Peripheral blood: anisopoikilocytosis with a heavily stippled red cell at center",
+    "Peripheral blood: hypochromic and dimorphic red cells with Pappenheimer bodies/stippling in two cells",
+    "Bone marrow aspirate: marked erythroid hyperplasia with maturing erythroid precursors",
+    "Iron stain: numerous ring sideroblasts",
+    "Iron stain: ring sideroblasts with perinuclear siderotic granules",
+    "Core biopsy, low power: hypercellular marrow",
+    "Core biopsy, high power: erythroid predominance with megakaryocytes"
+  ]
+}

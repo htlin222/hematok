@@ -1,0 +1,22 @@
+{
+  "id": "15797",
+  "recognize_zh": "腦部 MRI 顯示右額葉大型病灶，T1 呈低訊號、DWI 呈高訊號（擴散受限）、T2 與皮質等訊號並伴周邊水腫，注射顯影劑後明顯增強並造成中線偏移，這種細胞密度高、擴散受限的腫塊符合原發性中樞神經淋巴瘤（PCNSL）。",
+  "features": [
+    "Panel A (non-contrast T1): expansile hypointense right frontal mass (arrows) compressing the frontal horn of the lateral ventricle",
+    "Panel B (DWI): hyperintense signal within the lesion indicating restricted diffusion, reflecting high cellularity",
+    "Panel C (T2): lesion roughly isointense to cortex with surrounding hyperintense vasogenic edema and mass effect",
+    "Panel D (post-contrast T1): avid, largely peripheral/heterogeneous enhancement with a periventricular component (arrows)",
+    "Deep periventricular location with subfalcine midline shift"
+  ],
+  "describe_en": "Axial brain MRI shows an expansile right frontal lobe mass that is hypointense on non-contrast T1-weighted imaging, isointense to cortex on T2-weighted imaging with surrounding vasogenic edema, and hyperintense on diffusion-weighted imaging with reduced apparent diffusion coefficient. After gadolinium, the lesion enhances avidly with a periventricular component and causes mass effect on the lateral ventricle with midline shift. This is a radiologic, not morphologic, image; restricted diffusion and T2 isointensity reflect a highly cellular tumor with high nuclear-to-cytoplasmic ratio. Findings are suggestive of primary CNS lymphoma, requiring stereotactic biopsy (ideally before corticosteroids) and CSF cytology/flow cytometry for confirmation.",
+  "ddx": [
+    {"dx": "Glioblastoma", "vs": "GBM typically shows thick irregular rim enhancement around central necrosis with T2 hyperintensity and less uniform diffusion restriction, often crossing the corpus callosum in a butterfly pattern."},
+    {"dx": "Brain metastasis", "vs": "Metastases are often multiple at the gray-white junction with disproportionate edema and a known primary, and usually lack marked diffusion restriction."},
+    {"dx": "Brain abscess", "vs": "Abscesses show a smooth thin enhancing rim with central (not solid) diffusion restriction and a T2-hypointense capsule."},
+    {"dx": "Tumefactive demyelination", "vs": "Tumefactive MS shows incomplete (open-ring) enhancement with peripheral diffusion restriction and less mass effect than expected for size."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

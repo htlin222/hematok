@@ -1,0 +1,22 @@
+{
+  "id": "60770",
+  "recognize_zh": "骨髓抹片中在正常骨髓球系細胞之間，散在大型非典型淋巴細胞，核呈扭曲、分葉或花瓣狀（flower-like），細胞質深嗜鹼性並帶空泡，配合 HTLV-1 背景即指向成人 T 細胞白血病/淋巴瘤。",
+  "features": [
+    "Scattered large atypical lymphoid cells with deeply basophilic cytoplasm",
+    "Nuclei convoluted, indented to multilobated with a clover-leaf/flower-like cell (lower center), coarse to moderately condensed chromatin",
+    "Fine cytoplasmic vacuoles in some atypical cells (upper left)",
+    "Admixed normal hematopoietic elements: myelocytes/metamyelocytes with pink granular cytoplasm and band/segmented neutrophils",
+    "Occasional smaller cells with dark condensed nuclei and a basophilic rim"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered large, highly atypical lymphoid cells admixed with maturing granulocytic precursors. The atypical cells have deeply basophilic, focally vacuolated cytoplasm and convoluted to multilobated nuclei, including flower-like forms, with moderately condensed chromatin. Normal myeloid maturation is still evident in the background. In a patient with HTLV-1 infection and a CD4+/CD25+ T-cell phenotype, findings are consistent with marrow involvement by adult T-cell leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform nuclear grooves rather than petal-like lobation and occur with erythroderma, are usually CD25-negative/weak, and lack HTLV-1."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "Cells are small to medium with a single prominent nucleolus and cytoplasmic blebs, TCL1-positive, and often CD4+/CD8+ with inv(14) rather than multilobated flower cells."},
+    {"dx": "Monocytes or monoblastic leukemia", "vs": "Monocytic cells have lacy chromatin, grey-blue cytoplasm with fine azurophilic granules and express CD14/CD64/lysozyme rather than T-cell markers."},
+    {"dx": "Reactive atypical lymphocytes (e.g. viral infection)", "vs": "Reactive lymphocytes have abundant cytoplasm that scallops around red cells and non-lobated nuclei, and show a polyclonal mixed T-cell population."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

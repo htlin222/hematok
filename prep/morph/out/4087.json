@@ -1,0 +1,22 @@
+{
+  "id": "4087",
+  "recognize_zh": "中倍 H&E 下組織被瀰漫、黏著成片的中至大型腫瘤細胞取代，細胞質淡染或透亮、核圓至卵圓帶小核仁，間以纖細膠原條索；此倍率只能判定為大細胞淋巴瘤，間變型態與 B/T 系別需高倍與免疫染色確認。",
+  "features": [
+    "Diffuse sheet-like proliferation of medium-to-large atypical cells effacing normal architecture",
+    "Cells appear cohesive with moderate pale to clear cytoplasm and distinct cell borders",
+    "Round to oval nuclei with vesicular chromatin and small nucleoli; occasional larger irregular nuclei",
+    "Delicate intersecting collagen/vascular strands and scattered mitoses",
+    "Denser small lymphocytes at the right edge"
+  ],
+  "describe_en": "H&E section at intermediate power shows diffuse effacement by sheets of cohesive medium-to-large atypical cells with moderate pale to clear cytoplasm, round to oval nuclei with vesicular chromatin and small nucleoli, separated by delicate collagenous and vascular strands. Scattered mitotic figures are seen, and residual small lymphocytes are present at the periphery. Marked nuclear pleomorphism is not well appreciated at this magnification. Findings are consistent with a large cell lymphoma with a cohesive growth pattern; immunohistochemistry (CD20, PAX5, CD30, ALK, CD3, keratin) is needed to establish the anaplastic variant of diffuse large B-cell lymphoma and exclude ALCL and carcinoma.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma (ALK-negative)", "vs": "ALCL shows hallmark horseshoe-nucleus cells with sinusoidal growth but lacks B-cell antigens, requiring CD20/PAX5 to separate."},
+    {"dx": "Metastatic poorly differentiated carcinoma", "vs": "The cohesive pattern mimics carcinoma, which is distinguished by keratin positivity and CD45 negativity."},
+    {"dx": "Diffuse large B-cell lymphoma, centroblastic", "vs": "Centroblastic DLBCL is less cohesive with multiple membrane-bound nucleoli and lacks the bizarre pleomorphic cells of the anaplastic variant."},
+    {"dx": "Seminoma/germ cell tumor (if mediastinal)", "vs": "Seminoma has clear cells with fibrous septa and lymphocytes but is OCT3/4 and SALL4-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "62938",
+  "recognize_zh": "這張是高度放大、嚴重模糊的單一白血球影像，只看得到深紫色團塊狀的核/顆粒區與邊緣幾顆較大的深色顆粒，無法確認細胞種類或顆粒形態；只能依病例背景推測為 Chediak-Higashi 異常顆粒，不宜單憑此圖診斷。",
+  "features": [
+    "Single leukocyte photographed at very high digital magnification with marked pixelation and blur",
+    "Dense dark purple central mass (nucleus and/or granules) with lobulated contour",
+    "A few discrete large dark granules at the cell periphery",
+    "Cell lineage and granule size relative to normal cannot be reliably assessed"
+  ],
+  "describe_en": "This digitally enlarged image of a single peripheral blood leukocyte is markedly pixelated and blurred. A dense, lobulated dark purple central mass is seen with a few discrete large dark granules at the periphery, but nuclear detail, cytoplasm, and granule size relative to normal cannot be reliably assessed. The image is non-diagnostic on its own; in the context of the other images from this case, it may represent a leukocyte with Chediak-Higashi giant granules.",
+  "ddx": [
+    {"dx": "Normal lymphocyte or monocyte", "vs": "Normal cells would show a discernible nucleus with pale cytoplasm and no giant granules, which cannot be excluded at this resolution."},
+    {"dx": "Toxic granulation", "vs": "Toxic granules are fine and uniform throughout the cytoplasm rather than a few large discrete granules."},
+    {"dx": "Platelet overlying a leukocyte", "vs": "An overlying platelet shows a pale hyalomere with central purple granulomere in a different focal plane."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

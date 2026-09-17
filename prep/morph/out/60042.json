@@ -1,0 +1,21 @@
+{
+  "id": "60042",
+  "recognize_zh": "G 帶染色核型圖中，箭頭分別指向一條 8 號與一條 21 號染色體：8 號衍生染色體較短、21 號衍生染色體較長，代表 8q22 與 21q22 之間的平衡易位 t(8;21)，即 RUNX1::RUNX1T1。",
+  "features": [
+    "G-banded karyotype with 23 chromosome pairs including two X chromosomes (female)",
+    "Arrow on one chromosome 8 showing a shortened long arm (der(8))",
+    "Arrow on one chromosome 21 showing an elongated long arm carrying translocated 8q material (der(21))",
+    "No other numeric or structural abnormality apparent in this metaphase, including no sex chromosome loss",
+    "Interpretation: 46,XX,t(8;21)(q22;q22)"
+  ],
+  "describe_en": "G-banded karyotype of a single metaphase shows a female complement with a balanced reciprocal translocation between the long arms of chromosomes 8 and 21, indicated by arrows on the derivative 8 (shortened 8q) and derivative 21 (lengthened 21q). No additional numeric or structural abnormalities are evident in this metaphase. The findings correspond to 46,XX,t(8;21)(q22;q22.1), producing the RUNX1::RUNX1T1 fusion, which defines acute myeloid leukemia with t(8;21) regardless of blast count under WHO criteria.",
+  "ddx": [
+    {"dx": "AML with inv(16) or t(16;16); CBFB::MYH11", "vs": "The other core-binding factor leukemia involves pericentric inversion of chromosome 16, whereas chromosomes 16 here appear normal and the rearrangement involves 8 and 21."},
+    {"dx": "t(3;21) RUNX1::MECOM in therapy-related myeloid neoplasm or CML blast phase", "vs": "This alternative RUNX1 translocation involves chromosome 3 rather than chromosome 8; FISH or RT-PCR confirms the partner."},
+    {"dx": "Cryptic or variant t(8;21)", "vs": "Complex variants involve a third chromosome and may need RUNX1::RUNX1T1 FISH or RT-PCR, whereas this is a simple two-way translocation visible by banding."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

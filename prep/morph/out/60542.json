@@ -1,0 +1,21 @@
+{
+  "id": "60542",
+  "recognize_zh": "CD123 免疫染色下，成群、片狀聚集的中型細胞呈強烈膜性與細胞質陽性，與周圍未染色的背景細胞形成清楚分區，符合漿細胞樣樹突細胞（plasmacytoid dendritic cells）結節性聚集。",
+  "features": [
+    "Large confluent aggregates of CD123-positive cells separated by negative areas",
+    "Strong membranous and cytoplasmic brown staining in medium-sized cells",
+    "Positive cells have round to slightly irregular nuclei with scant to moderate cytoplasm",
+    "Some elongated/spindled positive cells, possibly endothelial staining (CD123 also marks endothelium)",
+    "Background small round cells are CD123-negative"
+  ],
+  "describe_en": "CD123 immunohistochemical stain highlights large nodular and sheet-like clusters of medium-sized cells with strong membranous and cytoplasmic positivity, separated by areas of CD123-negative small cells. Scattered elongated positive profiles likely represent endothelial staining. The staining pattern is consistent with nodular aggregates of plasmacytoid dendritic cells; distinguishing a reactive/MPN- or CMML-associated mature PDC proliferation from blastic plasmacytoid dendritic cell neoplasm requires correlation with morphology and additional markers (CD4, CD56, TCF4, TCL1, CD34, TdT).",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN shows diffuse infiltration by blast-like cells co-expressing CD4, CD56, CD123 and TCL1, whereas mature PDC nodules are cohesive clusters usually lacking CD56 and associated with a myeloid neoplasm."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monocytic AML may express CD123 and CD4 but is lysozyme/CD14/CD163 positive and lacks the TCF4/TCL1 PDC profile."},
+    {"dx": "Reactive lymphoid aggregate", "vs": "Benign lymphoid aggregates are composed of CD3/CD20-positive small lymphocytes and are CD123-negative apart from scattered PDCs."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD123",
+  "match": "consistent",
+  "high_yield": false
+}

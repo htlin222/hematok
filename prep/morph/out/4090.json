@@ -1,0 +1,21 @@
+{
+  "id": "4090",
+  "recognize_zh": "免疫組織化學染色中，大型腫瘤細胞呈瀰漫、強烈的細胞膜環狀陽性，勾勒出大而形狀不規則的細胞輪廓；圖上未標示抗體名稱，需搭配 CD20/PAX5 與 CD30 染色結果判讀。",
+  "features": [
+    "Diffuse sheet of large tumor cells with strong membranous staining",
+    "Crisp circumferential membrane outlines with some cytoplasmic/dot-like accentuation",
+    "Large, pleomorphic unstained nuclei with vesicular chromatin in hematoxylin counterstain",
+    "Scattered larger cells with abundant cytoplasm",
+    "Nearly all neoplastic cells positive; antibody not specified in image"
+  ],
+  "describe_en": "Immunohistochemical stain shows a diffuse population of large pleomorphic cells with strong, circumferential membranous staining and focal cytoplasmic accentuation in virtually all tumor cells. The specific antibody is not indicated on the image; the staining pattern would fit either a pan-B-cell marker such as CD20 or CD30. In the context of an anaplastic large B-cell morphology, findings support diffuse large B-cell lymphoma, anaplastic variant, and should be interpreted with the full panel.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma, ALK-negative", "vs": "ALCL is uniformly CD30+ with membrane and Golgi staining but negative for CD20/PAX5 and positive for T-cell or cytotoxic markers."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL shows CD30/CD15 staining of scattered Hodgkin/Reed-Sternberg cells rather than diffuse sheets, with weak PAX5 and CD20 negativity."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL has sclerosis with clear-cell morphology, often weak CD30, and CD23/MAL positivity in a mediastinal mass."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: membranous marker (not specified)",
+  "match": "consistent",
+  "high_yield": false
+}

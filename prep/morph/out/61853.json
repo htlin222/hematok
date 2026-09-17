@@ -1,0 +1,21 @@
+{
+  "id": "61853",
+  "recognize_zh": "CD34 免疫染色中，大型、形態不規則的巨核細胞呈強陽性（異常表現），另可見線狀陽性的血管內皮與少數小型陽性細胞；巨核細胞 CD34 異常染色常見於 AML/MDS 的發育不良巨核細胞。",
+  "features": [
+    "Strong cytoplasmic CD34 staining in large megakaryocytes, some small with hypolobated nuclei (dysplastic)",
+    "Linear CD34 staining of sinusoidal endothelium serving as internal positive control",
+    "Few small CD34-positive cells consistent with persistent blasts",
+    "Numerous CD34-negative myeloid and erythroid precursors",
+    "Hypocellular background with abundant fat spaces"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostained for CD34 shows a background of CD34-negative hematopoietic precursors and fat. Numerous megakaryocytes, including small hypolobated forms, show strong aberrant cytoplasmic CD34 expression, and sinusoidal endothelial cells are linearly positive as an internal control. Scattered small CD34-positive cells are present, although at this magnification they are less conspicuous than the megakaryocytes and should be quantified separately from the megakaryocytic staining. Findings are consistent with persistent acute myeloid leukemia with dysplastic, aberrantly CD34-positive megakaryocytes in the post-hypomethylating-agent setting.",
+  "ddx": [
+    {"dx": "Increased CD34+ blasts (true blast count)", "vs": "Blasts are small mononuclear cells with CD34 staining, whereas large lobated megakaryocytes should be excluded from the blast estimate despite CD34 positivity."},
+    {"dx": "Megaloblastic anemia or immune cytopenia with CD34+ megakaryocytes", "vs": "Megakaryocytic CD34 expression is not specific and can occur in megaloblastic and autoimmune conditions, so dysplasia and blast count must be assessed on other preparations."},
+    {"dx": "Endothelial/vascular proliferation", "vs": "Endothelial staining is linear along sinusoids and co-expresses CD31/ERG, unlike the round cytoplasmic staining in megakaryocytes."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

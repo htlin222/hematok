@@ -1,0 +1,27 @@
+{
+  "id": "87",
+  "recognize_zh": "周邊血抹片中紅血球普遍比旁邊小淋巴球的核還小（小球性），可見少數靶形細胞（target cell）、橢圓與淚滴狀紅血球，但貧血輕微；HPLC 圖上 HbA2 峰（3.68 分）明顯升高、HbF 略升高，另有 4.53 分處的 HbA2′ 變異峰，計算總 HbA2 時需將兩者相加，符合 β 型地中海貧血帶因者。",
+  "features": [
+    "Red cells are uniformly small (microcytic), most smaller than the nucleus of the adjacent small lymphocyte, with preserved to mildly increased central pallor",
+    "Scattered target cells and occasional stomatocyte-like cells with a slit-like central pallor",
+    "Mild poikilocytosis with ovalocytes and occasional teardrop or tapered forms; no schistocytes or basophilic stippling evident at this magnification",
+    "Normal-appearing small lymphocyte and scattered platelets",
+    "HPLC chromatogram: dominant HbA0 peak (2.48 min), increased shaded HbA2 peak (3.68 min), small HbF peak (1.11 min) and an additional sharp peak at 4.53 min consistent with the HbA2-prime (delta-chain) variant"
+  ],
+  "describe_en": "Peripheral blood smear shows a microcytic red cell population with mild anisopoikilocytosis, including scattered target cells, ovalocytes and occasional teardrop forms; a small lymphocyte provides a size reference. White cells and platelets appear unremarkable in these fields. Cation-exchange HPLC shows a predominant HbA0 peak with an increased HbA2 fraction (3.68 min) and mildly increased HbF (1.11 min), plus a separate peak at 4.53 min representing the HbA2-prime delta-chain variant, which must be added to HbA2 to avoid underestimating total HbA2 (total about 6% in this case). Together with the elevated RBC count and low MCV/MCH, findings are consistent with beta-thalassemia trait.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency also causes microcytosis and pencil cells but has a low or normal RBC count, low ferritin and normal or reduced HbA2, unlike the high RBC count and elevated HbA2 here."},
+    {"dx": "Alpha-thalassemia trait", "vs": "Alpha-thalassemia trait has a similar smear and high RBC count but a normal or low HbA2 on HPLC, requiring alpha-globin gene deletion testing for confirmation."},
+    {"dx": "Hemoglobin E trait", "vs": "HbE co-elutes in the HbA2 window on cation-exchange HPLC and gives a much larger peak (typically about 25-30%), whereas true beta-thalassemia trait shows HbA2 of about 3.5-8%."},
+    {"dx": "Heterozygous hemoglobin S (sickle cell trait)", "vs": "An HbS peak also elutes near the 4.5-min window but typically makes up about 35-40% of total hemoglobin, whereas the HbA2-prime peak is small (roughly 1-2%) and is paired with HbA2."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; HPLC chromatogram",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood smear: microcytic red cells with scattered target cells beside a small lymphocyte",
+    "Peripheral blood smear: microcytes with target cells, ovalocytes and occasional teardrop forms",
+    "HPLC: increased HbA2 (3.68 min), mildly increased HbF, and a separate HbA2-prime variant peak at 4.53 min"
+  ]
+}

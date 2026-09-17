@@ -1,0 +1,21 @@
+{
+  "id": "60748",
+  "recognize_zh": "周邊血出現大量中大型、染色質細緻、細胞質深藍的母細胞樣細胞，容易誤認為急性白血病；組織切片為瀰漫性中大型細胞浸潤，染色體核型異常，FISH 顯示 MYC 斷裂與 BCL2/IGH 融合，證實為 MYC/BCL2 雙重打擊淋巴瘤/白血病。",
+  "features": [
+    "Panel A (PB): numerous medium-to-large atypical cells with fine to slightly clumped chromatin, some with nucleoli, resembling blasts",
+    "Panel A: moderate deeply basophilic cytoplasm with irregular angular contours; no granules or Auer rods",
+    "Panel B (tissue H&E): diffuse sheet of monotonous medium-sized cells with round nuclei and scant cytoplasm",
+    "Panel B inset: G-banded karyotype with structural abnormalities",
+    "Panel B inset: FISH with MYC break-apart split signals and BCL2/IGH dual-fusion (yellow fusion) signals"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous circulating medium-to-large atypical lymphoid cells with fine chromatin, occasional nucleoli and deeply basophilic cytoplasm, closely mimicking blasts. The tissue biopsy shows a diffuse infiltrate of monotonous medium-sized cells. Cytogenetic studies show an abnormal karyotype, and FISH demonstrates a MYC rearrangement (break-apart) and BCL2::IGH fusion. Findings are consistent with high-grade B-cell lymphoma with MYC and BCL2 rearrangements (double-hit) in leukemic phase; flow cytometry for TdT/CD34 negativity and surface light chain helps exclude B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are TdT+/CD34+ with absent surface light chain, whereas double-hit lymphoma cells are mature (TdT−, sIg+) with MYC/BCL2 rearrangements (rare TdT+ cases exist, making FISH decisive)."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts show MPO/CD33/CD117 positivity and may contain Auer rods, not B-cell markers."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells have vacuolated basophilic cytoplasm and isolated MYC::IG rearrangement without BCL2 rearrangement and are BCL2 negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E; karyotype; FISH: MYC, BCL2/IGH",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "63716",
+  "recognize_zh": "成群的中型芽細胞（blasts），細胞核一側有明顯凹陷、凹陷處呈淡染的「杯口」狀（cup-like nuclear invagination），細胞質中等量、淡藍色、顆粒稀少，是與 NPM1 突變相關的 cup-like blasts。",
+  "features": [
+    "Medium to large blasts with high to moderate N:C ratio arranged in loose clusters",
+    "Nuclei with a prominent cup-shaped invagination forming a pale clear zone (>25% of nuclear area) on one side",
+    "Fine, open chromatin; nucleoli inconspicuous at this magnification",
+    "Moderate amount of pale blue agranular to finely granular cytoplasm",
+    "Occasional smaller cells with dense, purple granular nuclei, possibly degenerating or smudged cells",
+    "Background echinocytic (crenated) red cells, likely artifact; no platelets conspicuous"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous circulating blasts arranged in clusters. The blasts are medium-sized with moderate pale blue cytoplasm containing few or no granules, fine nuclear chromatin, and a distinctive cup-shaped nuclear invagination creating a pale perinuclear clear zone. No Auer rods or maturing granulocytes are evident in this field, and the background red cells show crenation. Findings are consistent with acute myeloid leukemia with cup-like blast morphology, which is suggestive of NPM1 mutation (with or without FLT3-ITD); molecular confirmation is required.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia, hypogranular variant", "vs": "Hypogranular APL shows bilobed or butterfly-shaped (sliding-plate) nuclei with occasional Auer rod bundles and strong MPO, rather than a single cup-like invagination; PML::RARA testing separates them."},
+    {"dx": "Acute monocytic leukemia (promonocytes)", "vs": "Promonocytes have delicately folded, convoluted nuclei and more abundant gray-blue cytoplasm with vacuoles, lacking the sharply punched-out cup-like clear zone."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts have scant cytoplasm and are MPO-negative with B/T-lineage markers on flow; cup-like nuclei are rare."},
+    {"dx": "AML with FLT3-ITD without NPM1", "vs": "Cup-like blasts can occur in FLT3-ITD AML without NPM1 mutation, so only molecular testing (NPM1 exon 12, FLT3) resolves the genotype."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

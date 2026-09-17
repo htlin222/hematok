@@ -1,0 +1,22 @@
+{
+  "id": "60017",
+  "recognize_zh": "流式圖中紅色母細胞 CD45 弱陽，表現 CD34、HLA-DR 與強陽性 CD7，但細胞內 MPO、CD19 與細胞內 CD3 皆為陰性；缺乏任何系別特異標記（MPO、cCD3、CD19 強陽），加上 CD7 本身非系別特異，符合未分化型急性白血病。",
+  "features": [
+    "Red-gated blasts with dim CD45, distinct from bright CD45 lymphocytes",
+    "CD34 positive (broad, moderate to bright) and HLA-DR positive",
+    "CD7 bright positive (not lineage specific)",
+    "Intracellular MPO negative",
+    "CD19 negative and intracellular CD3 negative, with normal gray T cells as internal positive control"
+  ],
+  "describe_en": "Flow cytometric plots show a red-gated blast population with dim CD45 expression. The blasts express CD34, HLA-DR, and bright CD7, but are negative for intracellular myeloperoxidase, CD19, and intracellular CD3, with residual normal T cells serving as a positive internal control for CD3. CD7 is not lineage specific and does not assign T lineage in the absence of cytoplasmic CD3. The lack of lineage-defining markers, together with absence of other myeloid, B, megakaryocytic, and monocytic antigens, is consistent with acute undifferentiated leukemia after exclusion of BPDCN and other rare entities.",
+  "ddx": [
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL is CD7 positive but requires cytoplasmic CD3 expression, which is absent in these blasts."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 can be CD7 and CD34 positive and MPO negative but expresses myeloid markers such as CD13, CD33, or CD117, reported as negative here."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN may be CD7 positive but is characteristically CD4, CD56, and bright CD123 positive and usually CD34 negative."},
+    {"dx": "Mixed phenotype acute leukemia, T/myeloid", "vs": "MPAL T/myeloid requires both cytoplasmic CD3 and MPO or monocytic differentiation, both lacking here."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

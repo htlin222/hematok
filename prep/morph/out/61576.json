@@ -1,0 +1,21 @@
+{
+  "id": "61576",
+  "recognize_zh": "流式圖中紅色母細胞群 CD19 陽性、CD34 由弱到強陽性（多數偏強），與紫色 CD19+CD34− 成熟 B 細胞及綠色 CD19− 非 B 細胞分開；CD19+CD34+ 的前驅 B 細胞群大量擴張支持 B 淋巴母細胞白血病。",
+  "features": [
+    "Bivariate dot plot: CD34-PC7 (x-axis) versus CD19-APC700 (y-axis), log scales",
+    "Red (blast-gated) population CD19-positive (about 10^1) with CD34 spanning dim to bright, densest near 10^2",
+    "Purple CD19-positive, CD34-negative cluster representing mature B cells",
+    "Green CD19-negative, CD34-negative events (T/NK/myeloid cells)",
+    "Few scattered CD19-negative, CD34-positive events (non-B progenitors)"
+  ],
+  "describe_en": "This flow cytometry dot plot displays CD34 versus CD19. The gated blast population (red) is CD19-positive with CD34 expression spanning dim to bright, most events being brightly CD34-positive. Mature B cells (purple) are CD19-positive and CD34-negative, non-B events (green) are negative for both, and a few scattered CD19-negative, CD34-positive events represent residual non-B progenitors. The expanded CD19+/CD34+ population supports a precursor B-cell (B-lymphoblastic) leukemia phenotype, which is further characterized by CD10, cCD79a and CRLF2 expression.",
+  "ddx": [
+    {"dx": "Hematogones", "vs": "Normal CD34+ stage-1 hematogones are few and transition smoothly to CD34-negative CD20+ stages rather than forming a dominant CD34-bright population."},
+    {"dx": "AML with aberrant CD19 (e.g., RUNX1::RUNX1T1)", "vs": "CD34+ blasts show only partial dim CD19 with MPO/CD117/CD13 positivity and lack CD10/cCD22."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "Requires concurrent MPO or monocytic marker expression in addition to strong B-lineage markers."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

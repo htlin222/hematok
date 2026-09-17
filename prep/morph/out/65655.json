@@ -1,0 +1,22 @@
+{
+  "id": "65655",
+  "recognize_zh": "中央嗜中性球的核至少分成 5 葉，小葉大小不一、以細絲相連，細胞質內顆粒略粗；細胞大小正常，周圍紅血球無明顯巨大卵圓形紅血球，重點在計算分葉數。",
+  "features": [
+    "Single neutrophil of normal size",
+    "Nucleus with at least five lobes of varying size joined by thin filaments",
+    "Clumped mature chromatin",
+    "Cytoplasm with fine to slightly coarse granules; no Döhle bodies or vacuoles clearly identified",
+    "Background normocytic red cells with scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a mature neutrophil of normal size with at least five nuclear lobes of varying size connected by thin chromatin filaments. The cytoplasm contains fine to slightly coarse granules without definite vacuolization. Surrounding red cells are normocytic without macro-ovalocytes, and platelets are present. Findings are consistent with neutrophil hypersegmentation, which should be quantified on a lobe count and correlated with vitamin B12, folate, and medication history.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic anemia is favored when hypersegmentation accompanies macro-ovalocytes and an elevated MCV, which are absent in this field."},
+    {"dx": "Normal neutrophil with superimposed lobes", "vs": "Normal neutrophils have two to four lobes, and apparent extra lobes from nuclear folding should be excluded by focusing through the cell."},
+    {"dx": "Drug-induced hypersegmentation", "vs": "Hydroxyurea, methotrexate, or other antimetabolites produce identical morphology and are identified by history."},
+    {"dx": "Iron deficiency or uremia-associated hypersegmentation", "vs": "These associations are separated by iron studies and renal function rather than by neutrophil morphology."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

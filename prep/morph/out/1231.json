@@ -1,0 +1,22 @@
+{
+  "id": "1231",
+  "recognize_zh": "骨髓抹片中散在明顯大於周圍造血細胞的大型腫瘤細胞，核呈腎形或馬蹄形、有雙核細胞，細胞質豐富偏嗜鹼性並有多個空泡，符合 ALCL 的 hallmark cells 樣態。",
+  "features": [
+    "Scattered very large neoplastic cells, several times the size of adjacent erythroid and myeloid precursors",
+    "Kidney-shaped, horseshoe-like and bilobed/binucleate nuclei",
+    "Coarsely stippled chromatin with visible nucleoli",
+    "Abundant grey-blue cytoplasm with prominent clear cytoplasmic vacuoles",
+    "Background of residual hematopoietic cells and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered, markedly enlarged atypical cells among residual hematopoietic elements. The large cells have abundant grey-blue, vacuolated cytoplasm and pleomorphic kidney-shaped, horseshoe-shaped or bilobed nuclei with coarse chromatin and nucleoli; one cell is binucleate. These cells resemble the hallmark cells of anaplastic large cell lymphoma. Confirmation requires CD30 (strong, uniform) and ALK immunostaining or flow cytometry. Findings are consistent with marrow involvement by anaplastic large cell lymphoma.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells form cohesive clusters and are keratin-positive, whereas ALCL cells are discohesive and CD30-positive with T-cell/cytotoxic markers."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Reed-Sternberg cells have huge eosinophilic inclusion-like nucleoli and are CD15+/PAX5 weak, while ALCL shows horseshoe nuclei, vacuolated cytoplasm and ALK or cytotoxic marker expression."},
+    {"dx": "Acute monoblastic/monocytic leukemia", "vs": "Monoblasts have fine chromatin, folded nuclei and fine granules with nonspecific esterase positivity, whereas ALCL cells are more pleomorphic, CD30+ and MPO/NSE negative."},
+    {"dx": "Megakaryocytes/dysplastic megakaryocytes", "vs": "Megakaryocytes have granular pink cytoplasm and multilobated nuclei without clear vacuoles and express CD61, unlike these vacuolated CD30+ cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

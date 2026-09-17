@@ -1,0 +1,22 @@
+{
+  "id": "60193",
+  "recognize_zh": "CD34免疫染色中，棕色陽性的是散布於造血細胞間的單核小圓細胞（芽細胞），數量明顯多於正常骨髓，部分聚成小群；另有沿血管排列的拉長陽性細胞是內皮細胞，計算芽細胞時要排除。",
+  "features": [
+    "Moderately to markedly hypercellular marrow with scattered adipocytes",
+    "Numerous CD34-positive (brown membranous/cytoplasmic) small round mononuclear cells consistent with blasts",
+    "Blasts are dispersed interstitially with occasional small clusters, not forming confluent sheets",
+    "Some elongated CD34-positive cells trace capillaries/sinusoids (endothelial internal control)",
+    "Megakaryocytes and most maturing hematopoietic cells are CD34-negative"
+  ],
+  "describe_en": "CD34 immunohistochemistry on the bone marrow trephine section shows a hypercellular marrow with an increased number of CD34-positive round mononuclear cells, distributed interstitially with occasional small clusters. Elongated CD34-positive cells lining vessels represent endothelium and serve as an internal positive control. Megakaryocytes and maturing cells are negative, and there are no confluent sheets of blasts. The staining pattern supports an increase in marrow blasts, consistent with myelodysplastic syndrome with excess blasts when correlated with the aspirate blast count (10–19% for the former RAEB-2 category).",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "AML shows ≥20% blasts, usually as confluent sheets of CD34-positive cells rather than scattered interstitial positivity."},
+    {"dx": "Normal or regenerating marrow", "vs": "Normal marrow has only rare (<2–3%) interstitial CD34-positive cells apart from endothelium, without clusters."},
+    {"dx": "Monocytic or promyelocytic proliferation", "vs": "Monoblasts, promonocytes and promyelocytes are often CD34-negative, so a low CD34 count can underestimate blasts; morphology and CD117/lysozyme help."},
+    {"dx": "Increased endothelial staining in fibrosis", "vs": "In fibrotic marrow CD34 highlights many elongated vessel-lining cells, which must not be counted as blasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

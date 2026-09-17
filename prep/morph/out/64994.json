@@ -1,0 +1,23 @@
+{
+  "id": "64994",
+  "recognize_zh": "腎臟切片中度倍率下，腎實質幾乎被瀰漫的小淋巴樣細胞浸潤取代，只剩散在的血管，看不到明確的腎小管或腎絲球；此視野未見明顯濾泡結構，濾泡性淋巴瘤的診斷需靠免疫染色佐證。",
+  "features": [
+    "Diffuse, dense infiltrate of small lymphoid cells effacing renal parenchyma",
+    "Small cells with round to slightly irregular dark nuclei and scant cytoplasm",
+    "Residual thick-walled vessels, including a larger congested vessel at the top",
+    "No clearly recognizable tubules or glomeruli in this field",
+    "No well-formed follicular (nodular) pattern discernible at this magnification",
+    "Pale, faded staining limits cytologic detail"
+  ],
+  "describe_en": "H&E-stained renal biopsy at intermediate power shows effacement of the renal parenchyma by a dense, diffuse infiltrate of small lymphoid cells with scant cytoplasm, with only residual interspersed blood vessels and no clearly preserved tubules or glomeruli. A follicular growth pattern is not evident in this field, and image quality limits assessment of centrocytes versus centroblasts. The infiltrate is monotonous without a prominent mixed inflammatory component. Findings are consistent with renal involvement by a low-grade B-cell lymphoma; immunohistochemistry (CD20, CD10, BCL6, BCL2) is needed to support follicular lymphoma.",
+  "ddx": [
+    {"dx": "Acute or chronic interstitial nephritis", "vs": "Interstitial nephritis contains a mixed infiltrate with plasma cells, eosinophils, and tubulitis while preserving tubules, rather than monotonous effacement."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL shows proliferation centers and is CD5+/CD23+, whereas follicular lymphoma is CD10+/BCL6+ with BCL2 and t(14;18)."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL cells often have more pale cytoplasm with plasmacytic differentiation and are CD10- and BCL6-."},
+    {"dx": "Post-transplant lymphoproliferative disorder", "vs": "PTLD occurs in transplant recipients, is often polymorphous with plasma cells and immunoblasts, and is frequently EBER positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

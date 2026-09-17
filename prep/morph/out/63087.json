@@ -1,0 +1,22 @@
+{
+  "id": "63087",
+  "recognize_zh": "骨髓抹片中大量早幼粒球、骨髓球等未成熟顆粒球，核內染色質聚集成粗大塊狀（abnormal chromatin clumping），細胞質顆粒減少、呈淡灰藍色；這種異常染色質凝集是 aCML 變異型的特殊形態。",
+  "features": [
+    "Predominance of immature granulocytic precursors (promyelocytes, myelocytes) with left shift",
+    "Nuclei with coarse, block-like clumps of chromatin separated by clear spaces",
+    "Hypogranular, pale gray-blue cytoplasm in precursors",
+    "Occasional larger immature cell with a more open chromatin pattern",
+    "Scattered orthochromatic normoblasts and lymphocytes; fibrin strands in background; platelets scarce"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a granulocytic proliferation with a left shift, dominated by promyelocytes and myelocytes whose nuclei contain coarse, block-like clumps of chromatin. The cytoplasm of these precursors is hypogranular. Scattered normoblasts are present and platelets are scarce. In a patient with leukocytosis, anemia and thrombocytopenia, the dysgranulopoiesis with abnormal chromatin clumping is suggestive of the syndrome of abnormal chromatin clumping, a variant of atypical CML (MDS/MPN with neutrophilia); exclusion of BCR::ABL1 and assessment of blasts are required.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "CML shows basophilia and orderly granulocytic maturation without marked dysgranulopoiesis or chromatin clumping, and is BCR::ABL1-positive."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML requires persistent monocytosis (>=0.5 x10^9/L and >=10% of leukocytes)."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML requires increased blasts (typically >=20%), whereas this field is dominated by maturing precursors rather than blasts."},
+    {"dx": "Toxic changes / G-CSF effect", "vs": "Reactive granulopoiesis shows hypergranular, toxic granules without hypogranularity or bizarre chromatin clumping."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Leishman-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

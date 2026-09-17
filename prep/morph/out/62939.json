@@ -1,0 +1,22 @@
+{
+  "id": "62939",
+  "recognize_zh": "周邊血抹片白血球大量增加，可見從骨髓球、後骨髓球、帶狀到分葉嗜中性球的各階段顆粒球，並有數個含粗大深紫顆粒的嗜鹼性球與一個大型未成熟細胞，符合慢性骨髓性白血病（CML）；此視野中看不到微絲蟲。",
+  "features": [
+    "Marked leukocytosis with a full spectrum of granulocytic maturation (myelocytes, metamyelocytes, bands, segmented neutrophils)",
+    "Several basophils with coarse dark purple granules obscuring the nucleus",
+    "A large immature cell with finely dispersed chromatin and moderate basophilic cytoplasm (blast or promyelocyte)",
+    "Occasional small lymphocytes/dark round nuclei",
+    "Red cells with mild anisopoikilocytosis; no microfilariae in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with a left-shifted granulocytic series spanning myelocytes, metamyelocytes, bands, and segmented neutrophils. Several basophils with coarse dark granules and a large immature cell with fine chromatin and basophilic cytoplasm are present. Red cells show mild anisopoikilocytosis. No microfilariae are present in this field; the parasites were reported at the smear edges and tail. Together with the reported 12% blasts and 15% basophils, findings are consistent with chronic myeloid leukemia in accelerated phase (as defined by ELN/ICC criteria).",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "Leukemoid reactions show toxic granulation and Döhle bodies with a myelocyte-poor spectrum and lack basophilia; BCR::ABL1 is negative."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL consists predominantly of mature neutrophils with <10% immature granulocytes, no basophilia, and a CSF3R mutation."},
+    {"dx": "Atypical CML (MDS/MPN with neutrophilia)", "vs": "aCML shows prominent dysgranulopoiesis without basophilia and is BCR::ABL1 negative."},
+    {"dx": "CML in blast phase", "vs": "Blast phase requires ≥20% blasts (ICC) or ≥20%/extramedullary blast proliferation, higher than the reported 12%."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

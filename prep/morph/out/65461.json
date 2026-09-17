@@ -1,0 +1,22 @@
+{
+  "id": "65461",
+  "recognize_zh": "藍色箭頭指的是一顆脹大、顏色變淡的紅血球，裡面有多個紫紅色小點狀或小環狀的裂殖子，並夾雜棕色色素，是間日瘧（P. vivax）的裂殖體。圓圈中是一顆鐮刀狀紅血球；背景有明顯大小與形狀不一，包括淚滴狀與不規則紅血球。",
+  "features": [
+    "Enlarged, pale infected red cell containing multiple small purple merozoite-like chromatin dots and small rings (schizont, blue arrow)",
+    "Fine brownish pigment granules within the infected cell",
+    "Infected cell larger than surrounding red cells, favoring P. vivax/ovale over P. falciparum",
+    "Crescent-shaped sickle cell with pointed ends (circled)",
+    "Marked anisopoikilocytosis with teardrop-like, pointed and target-like red cells"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with teardrop-like and pointed red cells, occasional target-like forms and a sickle cell. One red cell is enlarged and pale and contains multiple chromatin dots and small ring-like merozoites with scattered brown malarial pigment, consistent with a schizont. Enlargement of the host red cell favors Plasmodium vivax. Findings are consistent with Plasmodium vivax infection in a patient with sickle cell disease; thick and thin smear parasitemia quantification and rapid antigen or PCR confirmation of species are recommended.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum", "vs": "Falciparum schizonts are rarely seen in peripheral blood, infected cells are not enlarged, and multiple delicate rings and banana-shaped gametocytes predominate."},
+    {"dx": "Plasmodium ovale", "vs": "P. ovale also enlarges red cells but typically shows oval, fimbriated host cells and schizonts with fewer (about 8) merozoites."},
+    {"dx": "Plasmodium malariae", "vs": "P. malariae infects normal-sized or small red cells and forms rosette schizonts or band forms with coarse dark pigment."},
+    {"dx": "Babesia species", "vs": "Babesia shows small pleomorphic rings and tetrad (Maltese cross) forms without pigment or schizonts."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": false
+}

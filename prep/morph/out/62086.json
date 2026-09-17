@@ -1,0 +1,21 @@
+{
+  "id": "62086",
+  "recognize_zh": "骨髓抹片中可見多核巨細胞：數個分離、大小一致的圓核（各有小核仁）共用一大片淡藍色細胞質，是破骨細胞（osteoclast）；旁邊有細胞質深藍、核偏位的漿細胞，對應多發性骨髓瘤中破骨活性增加。",
+  "features": [
+    "Multinucleated giant cells with multiple separate, uniform, round-to-oval nuclei within abundant pale blue cytoplasm (osteoclasts)",
+    "Osteoclast nuclei with fine chromatin and small single nucleoli; nuclei not overlapping into a single lobulated mass",
+    "Faint fine pink granules in the osteoclast cytoplasm",
+    "Scattered plasma cells with deeply basophilic cytoplasm and eccentric nuclei",
+    "Occasional neutrophils and smeared stromal/crushed material in background; slightly thick smear area"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows multinucleated giant cells containing numerous discrete, uniform round nuclei with fine chromatin and small nucleoli, set within abundant pale blue, faintly granular cytoplasm, consistent with osteoclasts. Scattered plasma cells with deeply basophilic cytoplasm and eccentric nuclei are present in the background along with occasional granulocytes. The field is somewhat thick and smeared, limiting quantitation. In the clinical context, findings represent osteoclasts accompanying a plasma cell neoplasm, reflecting increased bone resorption in multiple myeloma; plasma cell percentage should be assessed on a well-spread area and with CD138 on biopsy.",
+  "ddx": [
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes have a single multilobated, interconnected nucleus, whereas osteoclasts have multiple separate, uniform round nuclei."},
+    {"dx": "Multinucleated myeloma plasma cells", "vs": "Neoplastic multinucleated plasma cells have deeply basophilic cytoplasm with a perinuclear hof and fewer (2-4) atypical nuclei, unlike the many uniform nuclei in pale cytoplasm of osteoclasts."},
+    {"dx": "Metastatic tumor cell clusters", "vs": "Metastatic cells form cohesive clusters of separate cells with cell borders, nuclear pleomorphism and molding, rather than a syncytium of identical nuclei."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

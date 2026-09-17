@@ -1,0 +1,22 @@
+{
+  "id": "60593",
+  "recognize_zh": "抹片中可見一條捲曲的大型蠕蟲狀幼蟲，體內充滿密集排列的深藍色細胞核柱，外圍有一層淡粉紅透明的鞘膜（sheath）延伸超出蟲體前後端，符合有鞘微絲蟲（microfilaria），指向蚊媒傳播的淋巴絲蟲病。",
+  "features": [
+    "Large coiled larval nematode many times the size of surrounding leukocytes",
+    "Body filled with a column of densely packed, dark blue somatic nuclei",
+    "Clear, pale pink sheath enveloping the body and extending beyond the ends of the organism",
+    "Cephalic space at the anterior end; tail nuclei detail not clearly resolvable in this image",
+    "Background with scattered leukocytes and no intact red cells (thick film or fluid preparation), plus extraneous fibers"
+  ],
+  "describe_en": "Giemsa-type stained preparation shows a large, coiled, sheathed microfilaria with a column of densely packed dark somatic nuclei and a distinct clear sheath extending beyond the body, surrounded by scattered leukocytes in a background lacking intact red cells, suggestive of a thick blood film. The anterior cephalic space is visible, but the arrangement of nuclei in the tail tip cannot be assessed confidently at this resolution. Findings are consistent with a sheathed microfilaria of lymphatic filariasis (Wuchereria bancrofti or Brugia species); species identification requires assessment of tail nuclei, and specimens are best collected at night for nocturnally periodic species.",
+  "ddx": [
+    {"dx": "Loa loa", "vs": "Also sheathed, but nuclei extend continuously to the tip of the tail and the sheath stains poorly with Giemsa; diurnal periodicity and African rainforest exposure support it."},
+    {"dx": "Brugia malayi versus Wuchereria bancrofti", "vs": "Brugia has two separate terminal tail nuclei and a pink-staining sheath with Giemsa, whereas Wuchereria has a tail tip free of nuclei."},
+    {"dx": "Mansonella perstans / Mansonella ozzardi", "vs": "Mansonella microfilariae are smaller and unsheathed."},
+    {"dx": "Strongyloides larva (contaminant or hyperinfection)", "vs": "Strongyloides larvae are unsheathed with a visible buccal cavity and differentiated gut and genital primordium rather than a uniform nuclear column."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

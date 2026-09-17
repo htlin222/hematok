@@ -1,0 +1,22 @@
+{
+  "id": "15166",
+  "recognize_zh": "單一中小型淋巴細胞，細胞核圓、染色質細緻，周圍一圈淡藍灰色細胞質向外伸出許多細長毛髮狀突起（hairy projections），是毛細胞白血病（hairy cell leukemia）的典型毛細胞。",
+  "features": [
+    "Medium-sized lymphoid cell, about 1.5-2 times the diameter of a red cell",
+    "Round, centrally placed nucleus with moderately condensed, stippled chromatin and no prominent nucleolus",
+    "Moderate amount of pale blue-gray cytoplasm",
+    "Circumferential fine, hair-like cytoplasmic projections",
+    "Background red cells unremarkable apart from mild drying artifact"
+  ],
+  "describe_en": "Peripheral blood smear at oil immersion shows a medium-sized lymphoid cell with a round nucleus, finely clumped chromatin without a conspicuous nucleolus, and a moderate rim of pale blue-gray cytoplasm. The cytoplasmic border bears numerous fine, circumferential hair-like projections. The surrounding red cells show no specific abnormality. Findings are consistent with a hairy cell of hairy cell leukemia; confirmation by flow cytometry (CD11c, CD25, CD103, CD123 positive) and/or BRAF V600E testing is recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma with prominent nucleoli)", "vs": "HCL-v cells have a prominent central nucleolus, higher WBC without monocytopenia, and are CD25-negative and BRAF V600E wild-type."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes show short, polar (bipolar) villi rather than fine circumferential projections and lack CD103/CD25/annexin A1."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL cells have broad-based, unevenly distributed villi and are usually CD25- and annexin A1-negative."},
+    {"dx": "Monocyte or reactive lymphocyte with drying artifact", "vs": "Monocytes have folded nuclei with gray vacuolated cytoplasm, and artifactual cytoplasmic fraying is irregular rather than evenly distributed fine hairs."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

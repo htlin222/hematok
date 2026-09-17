@@ -1,0 +1,21 @@
+{
+  "id": "62974",
+  "recognize_zh": "中期細胞 FISH 上，MYC 分離探針與 KMT2A 探針訊號在 add(8)(q24) 與兩個環狀染色體上呈多組重複聚集；右側核型可見 add(8)(q24) 與兩個標記環狀染色體，代表 MYC 與 KMT2A 以擴增形式存在於環狀染色體中。",
+  "features": [
+    "Metaphase FISH (A): MYC dual-color break-apart probe plus KMT2A (green)-MLLT3 (orange) dual-fusion probe",
+    "Multiple clustered green (KMT2A) and orange signals on an add(8)(q24) chromosome and on two ring chromosomes (arrows), indicating extra copies/amplification",
+    "Normal-appearing single signals on other chromosomes for comparison",
+    "Karyotype (B): add(8)(q24) and two marker ring chromosomes (mar); sex chromosomes shown as X with Y faded in the template",
+    "No KMT2A-MLLT3 fusion pattern evident; signal clustering indicates gain rather than rearrangement"
+  ],
+  "describe_en": "Composite cytogenetic figure. Metaphase FISH using a MYC break-apart probe and a KMT2A/MLLT3 dual-fusion probe shows multiple clustered signals located on an abnormal chromosome 8 with additional material at 8q24 and on two ring chromosomes, consistent with multiple extra copies (amplification) of MYC and KMT2A. The G-banded karyotype confirms add(8)(q24) and two marker ring chromosomes. Interpretation: MYC and KMT2A amplification carried on ring chromosomes/add(8q), a complex, adverse-risk finding in acute myeloid leukemia that should be distinguished from KMT2A rearrangement.",
+  "ddx": [
+    {"dx": "KMT2A-rearranged AML (e.g. t(9;11) KMT2A::MLLT3)", "vs": "Rearrangement shows split or fused signals at a single locus rather than multiple clustered copies of the KMT2A signal."},
+    {"dx": "Double minute chromosomes with MYC amplification", "vs": "Double minutes appear as tiny paired acentric bodies scattered in the metaphase, whereas here amplicons reside in ring chromosomes and add(8q)."},
+    {"dx": "Trisomy 8 / polysomy 8", "vs": "Polysomy gives one signal per extra whole chromosome 8, not tandem clustered signals on marker chromosomes."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH; G-banding karyotype",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65058",
+  "recognize_zh": "視野中央一顆大細胞含三個卵圓形核與大量淡藍、細空泡狀細胞質，周圍是小淋巴球與骨髓細胞；本張看不到明確被吞入的血球，因此只能說是多核大型組織球或腫瘤細胞，需搭配同病例其他圖判斷噬血現象。",
+  "features": [
+    "Single very large cell (roughly 8-10 times the diameter of surrounding small cells) with three oval nuclei",
+    "Nuclei with finely reticular chromatin and no conspicuous nucleoli",
+    "Abundant pale blue, finely vacuolated cytoplasm with a smooth cell border",
+    "No unequivocally ingested nucleated cells or red cells identified within the cytoplasm in this field",
+    "Background of small lymphocytes, erythroid precursors and thick red cell aggregates"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large multinucleated cell containing three oval nuclei with fine chromatin and abundant pale, finely vacuolated cytoplasm, set in a background of small mononuclear hematopoietic cells. No clearly engulfed hematopoietic elements are identified within this cell at this focal plane, so hemophagocytosis cannot be confirmed from this image alone. The cell may represent an activated multinucleated histiocyte or a metastatic tumor cell; correlation with the other fields of this case, which show hemophagocytes and metastatic adenocarcinoma, is required. Findings are suggestive of, but not diagnostic for, secondary hemophagocytic lymphohistiocytosis.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma cell", "vs": "Carcinoma cells show nuclear pleomorphism, prominent nucleoli, deeply basophilic cytoplasm and cohesive clusters, whereas this cell has bland nuclei and pale cytoplasm."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts contain many (often >10) uniform, separate nuclei and granular reddish cytoplasm rather than three nuclei in pale vacuolated cytoplasm."},
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes have a single multilobed connected nucleus and granular pink cytoplasm, not separate discrete nuclei."},
+    {"dx": "Hemophagocytic histiocyte", "vs": "A diagnostic hemophagocyte must contain recognizable engulfed red cells, nucleated cells or platelets, which are not clearly seen here."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

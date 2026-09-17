@@ -1,0 +1,21 @@
+{
+  "id": "2030",
+  "recognize_zh": "lambda 輕鏈免疫組織化學染色：細胞之間只有淡棕色、網狀的背景（間質血清）染色，細胞本身的細胞質幾乎不著色；與 kappa 染色強陽性對照，代表這群漿細胞是 kappa 單株性。",
+  "features": [
+    "Immunoperoxidase stain for lambda light chain with hematoxylin counterstain",
+    "Faint brown reticular staining in interstitial spaces between cells",
+    "Tumor cells lack crisp intracytoplasmic lambda staining",
+    "Only rare small dark-staining cells, not a significant positive population",
+    "Densely cellular infiltrate of plasmacytoid cells with round nuclei"
+  ],
+  "describe_en": "Immunohistochemical stain for lambda light chain shows only faint interstitial background staining between cells, with no convincing intracytoplasmic staining in the infiltrating plasmacytoid cells. Rare small dark cells are present but do not constitute a positive population. In conjunction with strong kappa staining of the same cells, this indicates kappa light chain restriction. Findings support a monoclonal plasma cell proliferation in post-transplant lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "True weak lambda positivity", "vs": "Genuine positivity outlines the cell cytoplasm in a perinuclear pattern, whereas the staining here is extracellular and follows the interstitium."},
+    {"dx": "Polyclonal plasma cell infiltrate", "vs": "A polyclonal infiltrate would show a substantial subset of cells with crisp cytoplasmic lambda staining alongside kappa-positive cells."},
+    {"dx": "Non-secretory or light chain-negative neoplasm", "vs": "If both kappa and lambda were negative, clonality would need to be addressed by ISH for light chain mRNA or PCR for IG gene rearrangement."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: lambda light chain",
+  "match": "consistent",
+  "high_yield": false
+}

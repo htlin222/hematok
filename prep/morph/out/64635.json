@@ -1,0 +1,22 @@
+{
+  "id": "64635",
+  "recognize_zh": "A–C 的淋巴球有成熟染色質與淡藍細胞質，其中可見細針狀的嗜天青性包涵體，形似 Auer rod；D–F 流式顯示 CD5+/CD23+、CD200+/FMC7−、λ 輕鏈限制，確認是 CLL 而非骨髓性腫瘤。",
+  "features": [
+    "Small to medium-sized lymphocytes with round nuclei and clumped, mature-appearing chromatin; a small nucleolus is faintly visible in some cells",
+    "Moderate rim of pale blue cytoplasm",
+    "Thin needle-shaped azurophilic (pink-purple) cytoplasmic inclusions resembling Auer rods",
+    "Flow panel D: CD19+ cells co-express CD5 and CD23",
+    "Flow panel E: CD19+/CD5+ cells are CD200 positive and FMC7 negative",
+    "Flow panel F: surface lambda light chain restriction (kappa negative)"
+  ],
+  "describe_en": "Peripheral blood smear (panels A–C) shows small to medium-sized mature-appearing lymphocytes with clumped chromatin and a moderate rim of pale blue cytoplasm. Several lymphocytes contain slender, needle-shaped azurophilic cytoplasmic inclusions resembling Auer rods; no blasts or myeloid features are present in these fields. Flow cytometry (panels D–F) demonstrates a CD19+ B-cell population co-expressing CD5 and CD23, positive for CD200, negative for FMC7, and lambda light chain restricted. Findings are consistent with chronic lymphocytic leukemia with Auer rod-like cytoplasmic inclusions.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with Auer rods", "vs": "True Auer rods occur in blasts with fine chromatin, nucleoli, and MPO positivity, whereas these cells are mature CD5+/CD23+ monotypic B cells."},
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL is typically CD5+ but CD23 negative/dim, CD200 negative, and FMC7 positive, with cyclin D1/SOX11 expression."},
+    {"dx": "B-cell lymphoproliferative disorder with crystalline immunoglobulin inclusions (e.g., lymphoplasmacytic lymphoma)", "vs": "LPL shows plasmacytoid differentiation and is usually CD5 and CD23 negative, unlike the CLL immunophenotype shown here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

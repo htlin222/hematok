@@ -1,0 +1,21 @@
+{
+  "id": "62617",
+  "recognize_zh": "EBER 原位雜交：積液細胞塊中約一半的大型腫瘤細胞核呈棕色陽性訊號，其餘細胞核為藍色（陰性）；PEL 多數同時帶有 HHV8 與 EBV（尤其 HIV 病人），EBER 陽性支持診斷但 HHV8 才是必要條件。",
+  "features": [
+    "Nuclear brown EBER signal in roughly half of the large atypical cells",
+    "Variable signal intensity from strong to weak among positive nuclei",
+    "Negative cells show blue hematoxylin counterstained nuclei",
+    "Positive cells are large, discohesive and arranged in a loose cluster",
+    "Clean background without non-specific cytoplasmic staining"
+  ],
+  "describe_en": "In situ hybridization for EBV-encoded small RNA (EBER) on the effusion cell block shows nuclear positivity in a substantial subset, approximately half, of the large atypical lymphoid cells, with variable signal intensity; the remaining cells are negative. There is no non-specific background staining. Most primary effusion lymphomas, particularly in HIV-positive patients, are dually infected by KSHV/HHV8 and EBV. The findings support the diagnosis of EBV-positive primary effusion lymphoma, provided HHV8 LANA-1 positivity is also demonstrated.",
+  "ddx": [
+    {"dx": "Fibrin-associated diffuse large B-cell lymphoma", "vs": "Fibrin-associated DLBCL is also EBER positive but is HHV8 LANA-1 negative, expresses B-cell markers and arises in chronic fibrin deposits."},
+    {"dx": "EBV-positive DLBCL, NOS", "vs": "EBV+ DLBCL forms tissue masses, expresses CD20/PAX5 and lacks HHV8, unlike the effusion-based HHV8+ null-phenotype PEL."},
+    {"dx": "Pyothorax-associated lymphoma (DLBCL associated with chronic inflammation)", "vs": "It arises after long-standing pyothorax as a pleural mass, is EBV+ B-cell lineage and HHV8 negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

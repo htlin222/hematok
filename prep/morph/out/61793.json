@@ -1,0 +1,22 @@
+{
+  "id": "61793",
+  "recognize_zh": "拼圖中多個中大型細胞，細胞質帶稀疏或粗大的深紫色嗜鹼性顆粒並常覆蓋在核上，核形不規則、分葉不全或有切痕，部分顆粒明顯減少或只見空泡；這些是形態異常的嗜鹼性球（atypical basophils）。",
+  "features": [
+    "Medium to large cells with round, indented, bilobed or irregularly folded nuclei and relatively fine to moderately condensed chromatin",
+    "Cytoplasmic granules are heterogeneous: coarse dark purple-black basophilic granules in some cells, sparse or absent granules (hypogranular) in others",
+    "Granules frequently overlie and obscure the nucleus, a basophil feature",
+    "Some cells show cytoplasmic vacuoles or clear halos where granules have dissolved, and a few have more abundant pale cytoplasm resembling immature forms",
+    "Background red cells without notable abnormality in the cropped tiles"
+  ],
+  "describe_en": "Composite of peripheral blood cells (panels A and B) demonstrates numerous atypical basophils. The cells are medium to large with irregular, indented or incompletely lobulated nuclei, and their cytoplasm contains variable, often reduced, coarse purple-black granules that overlie the nucleus, with vacuolated or degranulated areas in some cells. Several cells appear immature with less condensed chromatin and more cytoplasm. Such dysplastic, hypogranular basophils raise concern for a myeloid neoplasm and are suggestive of a myeloproliferative or MDS/MPN process; flow cytometry (CD123, CD203c, CD117, CD25) and BCR::ABL1 testing are needed to exclude CML and systemic mastocytosis.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia with basophilia", "vs": "May show identical basophils, so it is excluded by BCR::ABL1 FISH/PCR rather than morphology."},
+    {"dx": "Circulating mast cells (systemic mastocytosis or mast cell leukemia)", "vs": "Mast cells have round/oval non-lobulated nuclei, more numerous uniform metachromatic granules not overlying the nucleus, spindle shapes, and are tryptase+ CD117 bright CD25+ but CD123-/CD203c-dim."},
+    {"dx": "Hypogranular neutrophils or monocytes", "vs": "Lack coarse metachromatic granules entirely and show CD123-negative, CD16/CD14 lineage-appropriate immunophenotypes."},
+    {"dx": "Toxic granulation in reactive neutrophils", "vs": "Toxic granules are fine, evenly distributed in segmented neutrophils with Döhle bodies, and do not obscure the nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

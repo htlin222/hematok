@@ -1,0 +1,23 @@
+{
+  "id": "62324",
+  "recognize_zh": "九格合成圖：淋巴結中在 CD5 陽性的 CLL 背景（D）裡出現大細胞結節與竇內浸潤（A、C），大細胞核仁明顯、細胞質豐富（B），且 CD20 陰性（E）、EMA（F）與 MUM1（G）陽性、EBER（H）與 HHV8（I）核陽性，符合 CLL 背景下的淋巴結外腔型原發性滲出液淋巴瘤。",
+  "features": [
+    "A: low-power lymph node with pale nodules of large cells within a sea of small lymphocytes",
+    "B: large cells with abundant amphophilic cytoplasm, vesicular nuclei and prominent eosinophilic nucleoli, some immunoblastic/plasmablastic",
+    "C: large atypical cells within a subcapsular/peripheral sinus",
+    "D-E: CD5 highlights the small-cell CLL background with negative nodules; CD20 stains small background B cells but not the large cells",
+    "F-G: EMA and MUM1 strongly positive in the large cells, including the sinusoidal component",
+    "H-I: EBER in situ hybridization and HHV8 (LANA) show nuclear positivity in the large cells"
+  ],
+  "describe_en": "This composite of a cervical lymph node shows two distinct populations. At low and high power (A-B), nodules of large cells with abundant amphophilic cytoplasm, vesicular nuclei and prominent eosinophilic nucleoli are embedded in a background of small lymphocytes, and large cells also fill a peripheral sinus (C). Immunostains show that the small background cells are CD5-positive (D) and CD20-positive, whereas the large cells lack CD20 (E) and express EMA (F) and MUM1 (G), with nuclear positivity for EBER (H) and HHV8/LANA (I). The findings are consistent with chronic lymphocytic leukemia/small lymphocytic lymphoma with transformation to an HHV8- and EBV-positive large cell lymphoma with the phenotype of extracavitary primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "Richter transformation to diffuse large B-cell lymphoma", "vs": "Conventional Richter DLBCL retains CD20/PAX5 expression and is HHV8-negative, unlike the CD20-negative, HHV8-positive large cells here."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma shares CD20 negativity, MUM1 and EBER positivity but is HHV8/LANA-negative, making HHV8 staining the key discriminator."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL is CD30- and EMA-positive with sinusoidal spread but shows T-cell/cytotoxic markers or ALK and is negative for HHV8 and EBER."},
+    {"dx": "HHV8-positive diffuse large B-cell lymphoma, NOS", "vs": "HHV8-positive DLBCL arises in the setting of multicentric Castleman disease and is typically EBER-negative with cytoplasmic IgM lambda, whereas PEL is usually EBER-positive and immunoglobulin-negative."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD5, CD20, EMA, MUM1, HHV8; ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

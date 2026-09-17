@@ -1,0 +1,22 @@
+{
+  "id": "61197",
+  "recognize_zh": "背景中散佈大量短胖的藍色桿菌，並可見被嗜中性球與單核細胞吞噬的細胞內桿菌；紅血球內有 Howell-Jolly 小體（箭頭）及刺狀紅血球，提示無脾狀態下的革蘭氏陰性桿菌敗血症。",
+  "features": [
+    "Numerous extracellular short, plump, blue-staining bacilli scattered throughout the smear background",
+    "Intracellular bacilli within a neutrophil (lower left) and within a vacuole of a mononuclear cell (top)",
+    "Howell-Jolly bodies in red cells (arrows), consistent with asplenia",
+    "Marked poikilocytosis with echinocytic/spiculated cells, teardrop forms and polychromatic red cells",
+    "A small dense nucleated cell with adherent bacilli (right), likely a nucleated red cell"
+  ],
+  "describe_en": "Peripheral blood smear shows abundant extracellular short bacilli throughout the film, with phagocytosed bacilli in a neutrophil and in a vacuole of a mononuclear cell. Red cells show poikilocytosis with spiculated cells, teardrop forms and polychromasia, and Howell-Jolly bodies are present (arrows), indicating hyposplenism or asplenia. Bacteremia of this magnitude visible on a routine smear indicates overwhelming sepsis; in a patient with pyruvate kinase deficiency and asplenia, the findings are consistent with fulminant gram-negative bacillary sepsis (Klebsiella pneumoniae on culture). Gram stain and blood culture are needed for organism identification.",
+  "ddx": [
+    {"dx": "Stain precipitate or contaminating bacteria in stain/water", "vs": "Contaminants lie on top of cells in varying focal planes and are never phagocytosed, whereas here bacilli are clearly within neutrophil vacuoles."},
+    {"dx": "Capnocytophaga canimorsus sepsis in asplenia", "vs": "Capnocytophaga appears as thin fusiform elongated rods, whereas these are short plump bacilli; culture identifies the organism."},
+    {"dx": "Pappenheimer bodies", "vs": "Pappenheimer bodies are clustered small granules within red cells that are Prussian blue positive, unlike the single round Howell-Jolly bodies and extracellular rods."},
+    {"dx": "Platelet fragments or cryoprotein debris", "vs": "Debris is irregular and variably sized, lacking the uniform rod morphology and intracellular phagocytosis of bacteria."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

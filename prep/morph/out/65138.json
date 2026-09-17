@@ -1,0 +1,22 @@
+{
+  "id": "65138",
+  "recognize_zh": "周邊血抹片中央的嗜中性白血球細胞質內有數顆大小不一、圓形且與細胞核同色的深紫色小顆粒，排列在核旁，形態像紅血球中的 Howell-Jolly body，屬於嗜中性球內 Howell-Jolly body 樣包涵物。",
+  "features": [
+    "Neutrophil containing several (about 4-5) small, round, dense dark purple cytoplasmic inclusions",
+    "Inclusions stain like nuclear chromatin and are well-circumscribed, varying slightly in size",
+    "Host neutrophil nucleus lobulated/clumped with pink cytoplasm",
+    "A second round leukocyte with dense clumped chromatin below, without clear inclusions",
+    "Background crenated red cells (echinocytes, likely artifactual) with stacked red cells in thicker areas; normal-appearing platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil containing several small, round, sharply defined cytoplasmic inclusions that stain dark purple, similar to nuclear chromatin, located adjacent to the nucleus. These resemble Howell-Jolly bodies and are distinct from pale blue Dohle bodies or coarse toxic granules. A second leukocyte in the field lacks such inclusions. The background shows crenated red cells and red cell stacking in thicker areas, with platelets present. Findings are consistent with Howell-Jolly body-like inclusions in neutrophils, which are associated with immunosuppressive or cytotoxic drugs (e.g., mycophenolate, chemotherapy), HIV infection or transplantation.",
+  "ddx": [
+    {"dx": "Dohle bodies", "vs": "Dohle bodies are pale blue-grey, irregular, peripheral cytoplasmic patches of rough ER, not dense round purple chromatin-like dots."},
+    {"dx": "Anaplasma/Ehrlichia morulae", "vs": "Morulae are stippled, mulberry-like clusters of basophilic organisms, larger and granular rather than smooth homogeneous round dots."},
+    {"dx": "Overlying platelets or stain precipitate", "vs": "Platelets show granular purple centers with pale periphery and lie in a different focal plane, whereas these inclusions are uniformly dense and within the cytoplasm."},
+    {"dx": "Apoptotic neutrophil with nuclear fragmentation", "vs": "Apoptotic cells show complete nuclear pyknosis with multiple condensed fragments replacing the nucleus, whereas here the lobulated nucleus remains intact."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

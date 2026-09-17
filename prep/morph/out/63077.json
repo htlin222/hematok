@@ -1,0 +1,21 @@
+{
+  "id": "63077",
+  "recognize_zh": "OCT2 染色中，散在的大型細胞核呈濃厚棕色強陽性，明顯比周圍淡染的背景小 B 細胞更強，其中左下一顆為多葉核的爆米花樣（popcorn）細胞；大細胞強表現 OCT2 支持 NLPHL 的 LP 細胞，可與 OCT2 常消失的典型何杰金細胞區分。",
+  "features": [
+    "Immunohistochemical stain for OCT2 at high power",
+    "Scattered large cells with strong, dense nuclear OCT2 staining",
+    "Large positive cell with multilobated popcorn-like nucleus (lower left)",
+    "Background small lymphocytes show weak to moderate nuclear OCT2 staining, weaker than the large cells",
+    "Some small cells are OCT2-negative (T cells)"
+  ],
+  "describe_en": "Immunohistochemical stain for OCT2 shows scattered large cells with strong nuclear positivity, including a cell with a multilobated popcorn-like nucleus, set in a background of small lymphocytes with weaker, variable OCT2 staining. The intensity of OCT2 in the large cells exceeds that of the background B cells. Preserved strong expression of the B-cell transcription factor OCT2 in these large cells supports their identity as LP cells. Findings are consistent with nodular lymphocyte predominant Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells characteristically lose or show only weak OCT2 and BOB1 expression, together with CD30/CD15 positivity, unlike the strongly OCT2-positive large cells here."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Large cells are also OCT2-positive, so the distinction relies on diffuse architecture lacking small B-cell-rich nodules."},
+    {"dx": "Reactive follicular hyperplasia with centroblasts/immunoblasts", "vs": "Reactive large B cells are OCT2-positive but lie within polarized germinal centers rather than as isolated popcorn cells within small lymphocyte nodules."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: OCT2",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "66329",
+  "recognize_zh": "肝臟切片中淋巴球不在門脈區聚集，而是沿著竇狀隙 (sinusoids) 排成一串（黃色箭頭），CD3 陽性、CD5 缺失、CD8 部分陽性，這種竇狀隙分布的異常 T 細胞是肝脾 T 細胞淋巴瘤 (HSTCL) 的特徵。",
+  "features": [
+    "Panel A (H&E): mildly dilated hepatic sinusoids containing small clusters of medium-sized lymphocytes aligned in single file (arrowheads)",
+    "Panel A: hepatocyte plates preserved with pale, clear to finely vacuolated cytoplasm; no portal-based infiltrate or mass lesion in this field",
+    "Panel B: CD3 highlights numerous intrasinusoidal lymphocytes in a linear, branching pattern",
+    "Panel C: CD5 is essentially negative in the sinusoidal cells, with only rare positive cells (loss of pan-T antigen)",
+    "Panel D: CD8 shows partial positivity in the sinusoidal lymphocytes"
+  ],
+  "describe_en": "Core liver biopsy shows preserved lobular architecture with mildly dilated sinusoids containing an increased number of medium-sized lymphocytes distributed in an intrasinusoidal, single-file pattern, without a portal-predominant infiltrate. By immunohistochemistry, the sinusoidal lymphocytes are CD3 positive with loss of CD5 and only partial CD8 expression. The CD3+ cells markedly outnumber CD5+ cells, indicating an aberrant T-cell population. Findings are suggestive of hepatosplenic T-cell lymphoma; confirmation with TCR gamma-delta (or alpha-beta) staining, cytotoxic markers, flow cytometry and cytogenetics (isochromosome 7q, trisomy 8) is recommended.",
+  "ddx": [
+    {"dx": "Reactive intrasinusoidal lymphocytosis (e.g., EBV/CMV hepatitis)", "vs": "Viral hepatitis shows mixed CD8+ T cells that retain CD5 and usually has portal and lobular inflammation with hepatocyte injury."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells are small with azurophilic granules and typically CD8+/CD57+ with preserved or dim CD5, and marrow involvement is interstitial rather than a predominant hepatosplenic sinusoidal pattern."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "NK-cell leukemia is surface CD3 negative (cytoplasmic CD3ε only) and EBER positive."},
+    {"dx": "Hepatic involvement by other peripheral T-cell lymphoma", "vs": "PTCL-NOS usually forms portal-based or mass-like infiltrates of pleomorphic cells rather than a monotonous sinusoidal pattern."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD3, CD5, CD8",
+  "match": "consistent",
+  "high_yield": false
+}

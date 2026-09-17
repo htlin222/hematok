@@ -1,0 +1,22 @@
+{
+  "id": "16885",
+  "recognize_zh": "中央中性球核分成約7葉以上（hypersegmented neutrophil），右側另一顆中性球也有多葉；背景紅血球偏大並有橢圓形巨紅血球（macro-ovalocytes）與不規則形紅血球，符合惡性貧血（pernicious anemia）等巨母細胞性貧血。",
+  "features": [
+    "Central neutrophil with about seven or more discrete nuclear lobes (hypersegmentation)",
+    "Second neutrophil at right edge also shows multiple lobes",
+    "Mature clumped chromatin with thin interlobar strands; normal pale granular cytoplasm",
+    "Red cells are large with oval macrocytes (macro-ovalocytes) and mild poikilocytosis, including a crenated cell and irregular forms",
+    "Neutrophil diameter slightly larger than usual relative to RBCs"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil with marked nuclear hypersegmentation, containing approximately seven or more lobes connected by thin chromatin strands, and a second multilobated neutrophil at the edge of the field. The red cells are predominantly macrocytic with oval macrocytes and mild poikilocytosis. Hypersegmented neutrophils (six or more lobes, or more than 5% with five lobes) together with macro-ovalocytes indicate impaired DNA synthesis. Findings are consistent with megaloblastic anemia, as seen in pernicious anemia due to vitamin B12 deficiency.",
+  "ddx": [
+    {"dx": "Folate deficiency", "vs": "Folate deficiency produces identical smear findings; separation requires serum B12, folate, methylmalonic acid and homocysteine levels."},
+    {"dx": "Drug-induced megaloblastosis (methotrexate, hydroxyurea, azathioprine)", "vs": "Morphology is indistinguishable, and medication history with normal vitamin levels identifies drug effect."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS shows dysplastic neutrophils that are more often hypogranular and hyposegmented (pseudo-Pelger) with normal B12/folate, rather than classic hypersegmentation."},
+    {"dx": "Hereditary neutrophil hypersegmentation / renal failure or iron deficiency", "vs": "These cause only mild hypersegmentation without macro-ovalocytes or megaloblastic marrow change."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

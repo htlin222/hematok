@@ -1,0 +1,22 @@
+{
+  "id": "30588",
+  "recognize_zh": "A 圖抹片中一群大型淋巴樣細胞，細胞質深藍、核大、染色質細緻並有小核仁，部分核有凹陷或切痕，細胞質可見少量空泡；B 圖組織免疫染色瀰漫性核陽性。典型花瓣狀（flower cell）多葉核在此視野並不明顯。",
+  "features": [
+    "Panel A: cluster of large lymphoid cells, about 2-3 times red cell diameter, with high N:C ratio",
+    "Nuclei round to indented with occasional clefts/notches, finely dispersed chromatin and small nucleoli",
+    "Moderately basophilic cytoplasm with occasional small vacuoles",
+    "Background crenated red cells (echinocytes) and a macrophage with foamy cytoplasm",
+    "Panel B: tissue section with diffuse sheets of cells showing strong nuclear immunostaining (antigen not labeled)"
+  ],
+  "describe_en": "Composite figure. The smear (A, Wright-Giemsa) shows a cluster of large atypical lymphoid cells with high N:C ratio, round to indented and notched nuclei, finely dispersed chromatin, small nucleoli and basophilic, focally vacuolated cytoplasm, admixed with crenated red cells. Distinct multilobated flower-like nuclei are only subtly suggested by nuclear notching in this field. The tissue section (B) shows a diffuse infiltrate with strong nuclear immunostaining, antigen not specified. Findings are suggestive of diffuse large B-cell lymphoma in leukemic phase, which should be confirmed by flow cytometry showing a clonal large B-cell population.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL flower cells are medium-sized with condensed chromatin and deeply lobulated petal-like nuclei, express CD4/CD25 and are HTLV-1 positive rather than B-cell markers."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells are medium-sized with deeply basophilic cytoplasm containing prominent sharply punched-out lipid vacuoles and have MYC rearrangement with Ki-67 near 100%."},
+    {"dx": "Acute lymphoblastic or myeloid leukemia", "vs": "Blasts express CD34/TdT (ALL) or MPO/CD33 (AML) and lack mature surface immunoglobulin light chain restriction."},
+    {"dx": "Mantle cell lymphoma, blastoid/pleomorphic variant", "vs": "Blastoid MCL can look identical but is CD5-positive with cyclin D1 and t(11;14)."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; IHC (unspecified nuclear marker)",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "63266",
+  "recognize_zh": "骨髓抹片中一群成簇的大細胞，細胞核圓至橢圓、偏向一側，染色質細緻，細胞質豐富呈灰藍色、邊界模糊，部分細胞質內可見離核較遠的淡染區；這種成群排列、淡染區不緊貼核旁的特徵是造骨細胞（osteoblast），可與漿細胞區分。",
+  "features": [
+    "Cohesive cluster of large cells (roughly 2-3 times the size of the adjacent small lymphocyte)",
+    "Round to oval, eccentrically placed nuclei with low N:C ratio",
+    "Finely granular, evenly distributed chromatin; nucleoli inconspicuous",
+    "Abundant gray-blue to basophilic cytoplasm with indistinct cell borders",
+    "Pale clear zone within the cytoplasm, separated from the nucleus",
+    "Background of dense blue-staining particle/stromal material"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of large cells with abundant, gray-blue cytoplasm and poorly defined cell borders. Nuclei are round to oval and eccentrically placed, with finely granular chromatin and inconspicuous nucleoli. Several cells show a pale cytoplasmic clear zone located away from the nuclear membrane. The cells lack the coarse clock-face chromatin and juxtanuclear hof of plasma cells, and there is no nuclear pleomorphism or mitotic activity to suggest a metastatic tumor. Findings are consistent with a cluster of osteoblasts.",
+  "ddx": [
+    {"dx": "Plasma cells", "vs": "Plasma cells are smaller, occur singly rather than in cohesive sheets, have coarse clock-face chromatin, and their perinuclear hof lies immediately adjacent to the nucleus rather than at a distance from it."},
+    {"dx": "Metastatic carcinoma cells", "vs": "Carcinoma clusters show nuclear pleomorphism, high N:C ratio, prominent nucleoli and nuclear molding, unlike the uniform bland nuclei of osteoblasts."},
+    {"dx": "Osteoclasts", "vs": "Osteoclasts are much larger multinucleated cells with many separate, uniform nuclei in a single cytoplasm, whereas osteoblasts are mononuclear cells grouped together."},
+    {"dx": "Megaloblastic or dyserythropoietic erythroid precursors", "vs": "Erythroid precursors have centrally placed round nuclei, deeply basophilic cytoplasm and a higher N:C ratio, and do not form cohesive sheets with indistinct borders."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61603",
+  "recognize_zh": "整片單調、互相黏合的中大型腫瘤細胞呈瀰漫性浸潤，右側有地圖狀壞死與出血；形態上是高度惡性的大細胞淋巴瘤，需靠 CD138/MUM1 陽性、CD20 陰性與 EBER 陽性才能確認為漿母細胞淋巴瘤。",
+  "features": [
+    "Diffuse, sheet-like proliferation of monotonous medium-to-large cells",
+    "Round nuclei with vesicular chromatin; some cells with eccentric nuclei and moderate amphophilic cytoplasm",
+    "Delicate intervening capillaries and thin fibrous septa",
+    "Scattered clear spaces, possibly tingible-body macrophages",
+    "Large geographic zone of necrosis with hemorrhage on the right"
+  ],
+  "describe_en": "H&E section at low-to-medium power shows effacement by a diffuse, sheet-like proliferation of monotonous medium-to-large neoplastic cells with round nuclei, vesicular chromatin and moderate amphophilic cytoplasm, some with eccentric nuclei. Delicate vessels traverse the tumor, and scattered clear spaces suggest tingible-body macrophages. A large geographic area of necrosis with hemorrhage is present on the right. Plasmacytoid detail is limited at this magnification; with the supporting CD138-positive, EBER-positive immunoprofile, findings are consistent with EBV-positive plasmablastic lymphoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "Can look identical on H&E but expresses CD20/PAX5 and lacks the CD138+/MUM1+ plasmacytic phenotype."},
+    {"dx": "Burkitt lymphoma", "vs": "Shows a starry-sky pattern of medium-sized cells with squared-off cytoplasm, CD20+/CD10+/BCL6+, near-100% Ki-67 and MYC::IGH without plasmacytic markers."},
+    {"dx": "Anaplastic plasma cell myeloma / plasmacytoma", "vs": "Similar phenotype; favors myeloma if there is M-protein, marrow clonal plasma cells and EBV negativity."},
+    {"dx": "Poorly differentiated carcinoma or melanoma", "vs": "Cohesive nests on H&E may mimic; keratin or S100/SOX10 positivity and lack of CD45/CD138/MUM1 separate them."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60364",
+  "recognize_zh": "四格圖：H&E 為成片小至中型、染色質細緻的母細胞並見核分裂；CD79a 瀰漫陽性、TdT 核陽性，而 CD34 在腫瘤細胞為陰性、只染到血管內皮（內部陽性對照），指向 CD34 陰性的 B 淋巴母細胞白血病。",
+  "features": [
+    "H&E: diffuse sheets of small-to-intermediate blasts with round to irregular/convoluted nuclei, fine chromatin, scant cytoplasm and scattered mitoses",
+    "CD79a: strong diffuse positivity in essentially all tumor cells (red chromogen)",
+    "TdT: diffuse nuclear positivity in the vast majority of cells",
+    "CD34: negative in the blasts; only endothelial cells of small vessels stain, serving as an internal positive control"
+  ],
+  "describe_en": "The H&E section shows effacement by diffuse sheets of small-to-intermediate blasts with high nuclear-to-cytoplasmic ratios, round to irregular nuclear contours, finely dispersed chromatin and scattered mitotic figures. By immunohistochemistry, the neoplastic cells are diffusely positive for CD79a and show nuclear TdT expression. CD34 is negative in the blasts, with appropriate staining of endothelial cells as an internal control. Findings are consistent with B-lymphoblastic leukemia/lymphoma with a CD34-negative immunophenotype.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "Also TdT-positive, but T-LBL expresses cytoplasmic CD3 and is generally CD79a-negative (CD79a can rarely be aberrant), so a B-lineage panel including CD19/PAX5 is needed."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is TdT-negative with near-100% Ki-67 and a starry-sky pattern, whereas these blasts are diffusely TdT-positive."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is TdT-negative and cyclin D1/SOX11-positive."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts are CD79a-negative and express MPO, CD33 or CD117; TdT can be positive in a subset, so lineage markers rather than TdT decide."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD79a, TdT, CD34",
+  "match": "consistent",
+  "high_yield": false
+}

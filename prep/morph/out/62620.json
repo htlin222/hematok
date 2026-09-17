@@ -1,0 +1,22 @@
+{
+  "id": "62620",
+  "recognize_zh": "H&E 低中倍（比例尺 200 µm）可見緻密膠原間質中有成群、成片的中大型非典型細胞浸潤，細胞質嗜雙染、核較大；此倍率細胞學細節有限，需配合 HHV8/LANA 染色確認為體腔外型 PEL。",
+  "features": [
+    "Dermal/submucosal-type tissue with dense eosinophilic collagen (scale bar 200 µm)",
+    "Infiltrate of intermediate-to-large atypical cells in cords, nests and sheets dissecting collagen",
+    "Cells with moderate amphophilic cytoplasm and enlarged hyperchromatic to vesicular nuclei",
+    "Scattered small lymphoid aggregate at left upper field",
+    "Cytologic detail (nucleoli, plasmablastic features) limited at this magnification"
+  ],
+  "describe_en": "Section of tissue at low-to-intermediate power shows an infiltrate of intermediate-to-large atypical cells arranged in cords, nests and sheets that dissect a dense collagenous stroma, with a small lymphoid aggregate. The cells have moderate amphophilic cytoplasm and enlarged nuclei, but nucleolar and plasmablastic detail cannot be resolved at this magnification, and the nested pattern could mimic carcinoma or melanoma. Immunostains on this case show HHV8/LANA nuclear positivity with CD45 and MUM1 expression and lack of immunoglobulin light chains, supporting extracavitary (solid) primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma nests are cohesive and keratin-positive and CD45-negative, whereas PEL cells are CD45+, MUM1+ and HHV8/LANA+."},
+    {"dx": "Kaposi sarcoma", "vs": "Kaposi sarcoma is composed of spindle cells lining slit-like vessels with extravasated RBCs, not round large lymphoid cells, though both are HHV8-positive."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL can infiltrate in cohesive sheets and is CD30-positive but expresses T-cell antigens and is HHV8-negative."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma has similar immunophenotype but is HHV8/LANA-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

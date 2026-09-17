@@ -1,0 +1,22 @@
+{
+  "id": "2160",
+  "recognize_zh": "高倍下多數為大型芽細胞，核圓、染色質細緻均勻，周圍一圈中等量深藍色胞質、偶見少許細顆粒，視野中僅見一個小淋巴球與一個成熟中細胞，缺乏顆粒球系成熟階段，支持 AML without maturation。",
+  "features": [
+    "Large blasts with round to slightly indented nuclei",
+    "Finely granular, evenly dispersed chromatin; nucleoli indistinct at this resolution",
+    "Moderate rim of deeply basophilic cytoplasm, occasionally with sparse fine azurophilic granules",
+    "No Auer rods identified",
+    "Maturing granulocytic cells essentially absent; rare small lymphocyte and single maturing myeloid cell"
+  ],
+  "describe_en": "Bone marrow aspirate smear at high power shows sheets of large blasts with round to slightly indented nuclei, finely dispersed chromatin, and a moderate rim of deeply basophilic cytoplasm, a few containing sparse fine azurophilic granules. Auer rods are not seen. Maturing granulocytic precursors are virtually absent, with only a rare lymphocyte and an occasional maturing myeloid cell present. Findings are consistent with acute myeloid leukemia without maturation.",
+  "ddx": [
+    {"dx": "AML with maturation", "vs": "Requires ≥10% maturing granulocytic cells beyond the blast stage, which are not present in this field."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "The presence of any cytoplasmic azurophilic granules favors myeloid blasts; ALL is MPO-negative with lymphoid markers on flow."},
+    {"dx": "Acute monoblastic/monocytic leukemia", "vs": "Monoblasts have more abundant gray cytoplasm and folded nuclei, and are NSE positive and CD14/CD64 positive."},
+    {"dx": "Acute promyelocytic leukemia, microgranular", "vs": "APL cells have bilobed or folded nuclei with many fine granules or Auer rod bundles and are strongly MPO positive with PML::RARA."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3860",
+  "recognize_zh": "骨髓抹片中出現成群、比周圍正常造血細胞大很多的淋巴樣大細胞，核有凹陷或分葉、染色質細緻並見核仁，胞質深藍並帶小空泡，和旁邊的小淋巴球、骨髓球形成明顯大小落差，符合瀰漫性大 B 細胞淋巴瘤（DLBCL）侵犯。",
+  "features": [
+    "Clusters of large atypical lymphoid cells, several times the size of small lymphocytes",
+    "Irregular, cleaved to lobated nuclei (including a multilobated 'cloverleaf' cell) and round nuclei",
+    "Open, finely granular chromatin with one or more visible nucleoli",
+    "Moderate basophilic cytoplasm with fine vacuoles; many fragile cells with bare cytoplasmic fragments",
+    "Residual hematopoiesis: myelocyte with granules, orthochromatic normoblasts, small lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows aggregates of large atypical lymphoid cells that dwarf the residual small lymphocytes and erythroid precursors. The cells have irregular, cleaved or multilobated nuclei with open chromatin and nucleoli, and a moderate amount of basophilic, finely vacuolated cytoplasm; numerous cytoplasmic fragments indicate cell fragility. Background hematopoietic elements, including granulated myelocytes and normoblasts, are present. Findings are consistent with marrow involvement by diffuse large B-cell lymphoma, to be confirmed by flow cytometry and core biopsy immunohistochemistry.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts have finer chromatin with less nuclear lobation and may show granules or Auer rods, and they are CD34/CD117/MPO-positive rather than CD19/CD20-positive."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells form cohesive clusters with molding and are cytokeratin-positive and CD45-negative."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL hallmark cells have horseshoe-shaped nuclei with a paranuclear eosinophilic region and are CD30-positive with T-cell or null phenotype."},
+    {"dx": "Plasmablastic neoplasm", "vs": "Plasmablasts have eccentric nuclei with a paranuclear hof and are CD138/MUM1-positive and CD20-negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

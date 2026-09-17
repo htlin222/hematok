@@ -1,0 +1,20 @@
+{
+  "id": "61551",
+  "recognize_zh": "骨髓切片 PAX5 染色中，少數小型反應性 B 細胞呈深褐色強核染，而中央的大型 HRS 細胞只呈弱而淡的染色，這種「大細胞弱、小 B 細胞強」的 PAX5 對比是 CHL 的重要線索。",
+  "features": [
+    "Large atypical cell (center) with weak, pale brown staining that is much fainter than surrounding small B cells",
+    "Staining in the large cell appears somewhat granular and partly obscures the nucleus",
+    "Rare small lymphocytes with strong nuclear PAX5 (internal positive control)",
+    "Background stromal cells, histiocytes and T cells negative in a loose fibrotic stroma"
+  ],
+  "describe_en": "Immunohistochemical stain for PAX5 on a bone marrow biopsy shows rare small lymphocytes with strong nuclear staining that serve as an internal control. A large atypical cell in the center of the field shows only weak, pale staining, markedly dimmer than the background B cells; the staining appears somewhat granular. The surrounding fibrotic infiltrate is otherwise negative. Weak PAX5 expression in the large cells, together with CD30 and CD15 positivity and CD20 negativity, supports classic Hodgkin lymphoma involving marrow.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL cells are PAX5-negative, so weak PAX5 in the large cells favors HRS cells over ALCL."},
+    {"dx": "Large B-cell lymphoma (including THRLBCL)", "vs": "Neoplastic large B cells show strong PAX5 equal to or brighter than background B cells, together with CD20 and OCT2/BOB1 expression."},
+    {"dx": "Nonspecific staining of a megakaryocyte or histiocyte", "vs": "Megakaryocytes and histiocytes are PAX5-negative and any cytoplasmic blush lacks nuclear localization; correlation with CD30/CD15 and H&E morphology confirms the cell type."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: PAX5",
+  "match": "consistent",
+  "high_yield": false
+}

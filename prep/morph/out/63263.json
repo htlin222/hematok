@@ -1,0 +1,21 @@
+{
+  "id": "63263",
+  "recognize_zh": "淋巴球門控的流式雙參數圖：紅色主要族群位於右下象限，CD38 陽性、CD19 陰性，另有一部分紅點拖向 CD38 弱至陰性；上方零星藍點為 CD19 陽性 B 細胞；顯示擴增族群不是 B 細胞，CD38 本身不具細胞系專一性，需搭配 T 細胞標記判讀。",
+  "features": [
+    "Two-parameter dot plot gated on lymphocytes: CD19 PE-Cy7 (y-axis) vs CD38 APC-H7 (x-axis)",
+    "Dominant red population in Q4: moderate to bright CD38, CD19 negative",
+    "Smear of red events extending leftward into CD38 dim/negative region (Q3)",
+    "Sparse light-blue CD19-positive B cells in Q1/Q2",
+    "No CD19-positive expanded population"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on lymphocytes shows CD19 (y-axis) versus CD38 (x-axis). The predominant population (red) is CD19-negative and expresses moderate to bright CD38, with a subset trailing into dim to negative CD38 expression. Only rare CD19-positive B cells (blue) are present. CD38 is an activation marker without lineage specificity; the absence of CD19 excludes a B-cell or plasmablastic population and, with CD3 and TCR gamma/delta expression on companion plots, supports an expanded T-cell population consistent with T-cell large granular lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Plasma cell neoplasm", "vs": "Neoplastic plasma cells are also CD19-negative but show very bright CD38 with CD138 and lack surface CD3, whereas this population is CD3+ T cells with moderate CD38."},
+    {"dx": "CD38+ B-cell neoplasm (e.g., CLL with CD38 expression)", "vs": "B-cell neoplasms co-express CD19 and would fall in the upper right quadrant, not the CD19-negative quadrant seen here."},
+    {"dx": "Reactive activated T cells", "vs": "Activated reactive T cells may also be CD38+ CD19-, so this plot cannot distinguish them; clonal TCR rearrangement and persistence are required."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "50",
+  "recognize_zh": "骨切片中大片瀰漫的大型淋巴細胞，細胞核大於組織球核，呈多葉狀、凹陷或扭曲（polylobated centroblast），染色質疏鬆、可見多個小核仁與有絲分裂；B 細胞標記強膜狀陽性，符合原發骨瀰漫性大 B 細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheets of large lymphoid cells with nuclei larger than histiocyte nuclei",
+    "Irregular, multilobated to cleaved nuclei with vesicular chromatin and one to several small peripheral nucleoli (polylobated centroblastic cytology)",
+    "Scant to moderate pale cytoplasm; fine delicate stroma between cells",
+    "Scattered mitoses and apoptotic bodies",
+    "Strong diffuse membranous positivity of the neoplastic cells on a B-cell marker IHC (likely CD20), adjacent to bone",
+    "Weaker granular cytoplasmic/Golgi-pattern staining of the large cells on a second unlabeled IHC"
+  ],
+  "describe_en": "Biopsy of the mandibular lytic lesion shows a diffuse infiltrate of large atypical lymphoid cells replacing the marrow space and abutting bone. The cells have multilobated and irregular nuclei with vesicular chromatin, small nucleoli and scant pale cytoplasm, with frequent mitoses and apoptotic bodies; no epithelial, melanocytic or small round blue cell architecture is evident. Immunohistochemistry shows strong diffuse membranous staining with a B-cell marker (presumably CD20) and granular cytoplasmic staining with a second, unlabeled marker. Findings are consistent with diffuse large B-cell lymphoma involving bone, in this clinical setting primary bone lymphoma, with a polylobated centroblastic cytomorphology.",
+  "ddx": [
+    {"dx": "Ewing sarcoma / small round blue cell tumor", "vs": "Tumor cells are smaller and uniform with fine chromatin, lack polylobated nuclei and are CD20-negative, CD99/NKX2-2-positive."},
+    {"dx": "Plasmablastic myeloma or plasmacytoma", "vs": "Cells have eccentric nuclei with prominent central nucleoli and amphophilic cytoplasm and are CD20-negative, CD138/MUM1-positive with light chain restriction."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Shows cohesive nests with keratin or S100/SOX10 positivity rather than discohesive sheets of CD20+ lymphoid cells."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Contains hallmark horseshoe-nucleus cells with strong uniform CD30 and loss of B-cell markers instead of CD20+ centroblasts."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (probable CD20; second marker unlabeled)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "H&E high power: sheets of large cells with multilobated vesicular nuclei and mitoses",
+    "IHC (probable CD20): strong membranous staining of tumor cells adjacent to bone",
+    "IHC (marker unlabeled): granular cytoplasmic/Golgi staining of the large tumor cells"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64645",
+  "recognize_zh": "周邊血液中出現一顆漿細胞：核圓而偏於一側、染色質粗顆粒，細胞質豐富深藍並有明顯核旁淡染區（perinuclear hof），背景紅血球有數顆堆疊的輕度錢串狀排列，符合骨髓瘤病人血中的循環漿細胞。",
+  "features": [
+    "Single plasma cell, about 2 times the size of a red cell",
+    "Round, eccentric nucleus with coarse clumped chromatin; no conspicuous nucleolus",
+    "Abundant deeply basophilic cytoplasm with prominent perinuclear hof and fine cytoplasmic vacuolation",
+    "Background red cells with short stacks of 2-4 cells suggesting mild rouleaux formation",
+    "Scattered normal-appearing platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a circulating plasma cell with an eccentric round nucleus, coarse clumped chromatin, and abundant deeply basophilic, finely vacuolated cytoplasm with a distinct perinuclear hof. Background red cells show short stacks suggestive of mild rouleaux formation, and platelets are unremarkable. A single circulating plasma cell does not by itself establish plasma cell leukemia; the absolute and percentage count of circulating plasma cells (≥5% defines plasma cell leukemia per current criteria) should be determined. In a patient with known multiple myeloma, findings are consistent with circulating neoplastic plasma cells.",
+  "ddx": [
+    {"dx": "Reactive plasmacytoid lymphocyte (viral infection)", "vs": "Reactive plasmacytoid lymphocytes are part of a heterogeneous reactive lymphocytosis with less distinct hofs, and they are polytypic on flow cytometry."},
+    {"dx": "Lymphoplasmacytic lymphoma cells", "vs": "LPL shows circulating small lymphocytes and plasmacytoid lymphocytes with IgM paraprotein and MYD88 L265P, rather than a mature plasma cell in a myeloma patient."},
+    {"dx": "Plasma cell leukemia", "vs": "Morphology is identical; plasma cell leukemia requires ≥5% circulating clonal plasma cells on the differential count."},
+    {"dx": "Basophilic normoblast (early erythroid precursor)", "vs": "Basophilic normoblasts have a central round nucleus with dense chromatin and uniformly blue cytoplasm without a perinuclear hof."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

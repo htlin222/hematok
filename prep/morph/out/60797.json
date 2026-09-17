@@ -1,0 +1,23 @@
+{
+  "id": "60797",
+  "recognize_zh": "骨髓抹片中大量母細胞樣腫瘤細胞，核圓、染色質細緻、胞質灰藍含細小空泡，部分成小團黏聚（A），易誤認為急性白血病；切片為瀰漫片狀浸潤（B），流式顯示 CD45 陰性族群（C），免疫染色瀰漫陽性（D、E），FISH 顯示基因分離訊號（Fi、Fii），支持橫紋肌肉瘤。",
+  "features": [
+    "Panel A: numerous large blast-like cells with round nuclei, fine chromatin, small nucleoli and gray-blue cytoplasm with fine vacuoles",
+    "Some tumor cells form small cohesive clusters with molding, a clue to non-hematopoietic origin",
+    "Panel B: biopsy with diffuse sheet-like marrow replacement by small round blue cells",
+    "Panel C: flow cytometry plot showing a CD45-negative population (red) separate from CD45-positive leukocytes",
+    "Panels D-E: diffuse strong immunoreactivity of tumor cells (myogenic markers expected; antibodies not labeled)",
+    "Panels Fi-Fii: interphase FISH with split red/green signals suggesting a gene rearrangement (e.g. FOXO1 break-apart)"
+  ],
+  "describe_en": "Bone marrow aspirate (A) shows extensive infiltration by large blast-like cells with fine chromatin, small nucleoli and vacuolated gray-blue cytoplasm, some arranged in small cohesive clusters. The biopsy (B) shows diffuse replacement of the marrow by small round blue cells. Flow cytometry (C) identifies a CD45-negative tumor population, and immunohistochemistry (D, E) shows diffuse strong staining of the tumor cells. Interphase FISH (Fi, Fii) demonstrates separated signals consistent with a gene rearrangement. Findings are consistent with rhabdomyosarcoma (likely alveolar type) with massive marrow involvement, mimicking acute leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid or lymphoblastic leukemia", "vs": "Blasts are discohesive and CD45-positive with CD34/TdT/MPO expression, whereas these cells are CD45-negative and form clusters."},
+    {"dx": "Neuroblastoma", "vs": "Forms Homer Wright rosettes with neuropil and is PHOX2B/synaptophysin positive, myogenin negative."},
+    {"dx": "Ewing sarcoma", "vs": "Small round cells with membranous CD99 and NKX2-2 and EWSR1 rearrangement rather than desmin/myogenin and FOXO1 rearrangement."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Vacuolated basophilic cells can mimic, but they are CD45+, CD20+/CD10+ with MYC rearrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC; flow cytometry; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64498",
+  "recognize_zh": "四格圖中的中等大小淋巴細胞，核圓或卵圓、部分略呈腎形，染色質細緻均勻、無明顯核仁，周圍有豐富淡灰藍色細胞質並向四周伸出細毛狀突起，正是毛細胞（hairy cell）。",
+  "features": [
+    "Medium to large lymphoid cells, about 1.5-2 times the size of a red cell, with moderate N:C ratio",
+    "Round, oval to slightly indented/kidney-shaped nuclei",
+    "Homogeneous, finely stippled 'ground-glass' chromatin, paler than a small lymphocyte, without conspicuous nucleoli",
+    "Abundant pale gray-blue cytoplasm with fine circumferential hair-like projections",
+    "No cytoplasmic granules; background red cells unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear (composite) shows medium to large lymphoid cells with round to oval or slightly indented nuclei, finely stippled homogeneous chromatin and inconspicuous nucleoli. The cells have abundant pale gray-blue agranular cytoplasm with fine, circumferential hair-like cytoplasmic projections. Findings are consistent with hairy cell leukemia; confirmation by flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E or annexin A1 is recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli)", "vs": "HCL-v cells have a prominent central nucleolus and more condensed chromatin with leukocytosis, and are CD25-, CD123-, annexin A1- and BRAF wild-type."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes are smaller with more clumped chromatin and short polar (bipolar) villi rather than circumferential projections, and lack CD103/CD25/annexin A1."},
+    {"dx": "Monocytes", "vs": "Monocytes have folded nuclei with lacy chromatin, gray-blue cytoplasm with fine azurophilic granules and vacuoles, and lack circumferential hairy projections."},
+    {"dx": "Reactive or atypical lymphocytes with drying artifact", "vs": "Artifactual cytoplasmic fraying is uneven and seen in scattered cells, whereas hairy cells show consistent fine projections with ground-glass chromatin and a CD103+ CD25+ CD11c+ phenotype."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

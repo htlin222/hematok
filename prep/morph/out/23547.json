@@ -1,0 +1,22 @@
+{
+  "id": "23547",
+  "recognize_zh": "周邊血抹片中一顆吞噬性白血球的淡紫色細胞質內有多顆粗大、深藍黑色、大小不一的顆粒（吞噬的黑色素），明顯比正常嗜天青顆粒粗大深黑；此細胞核為腎形未分葉，形態偏向單核球或帶狀核細胞，而非典型分葉中性球。",
+  "features": [
+    "Single leukocyte with a non-segmented, indented/reniform nucleus and moderately condensed chromatin",
+    "Pale lilac, finely granular cytoplasm",
+    "Multiple coarse, irregular blue-black cytoplasmic granules of variable size, clustered at the cell periphery (phagocytosed melanin pigment)",
+    "Granules are much coarser and darker than normal azurophilic or toxic granules",
+    "Background red cells with central pallor and drying/refractile artifact; no organisms"
+  ],
+  "describe_en": "Peripheral blood smear shows a phagocytic leukocyte with an indented, non-segmented nucleus and pale, finely granular cytoplasm containing multiple coarse, irregular blue-black inclusions of variable size. The inclusions are distinctly larger and darker than toxic granulation or normal azurophilic granules. The nuclear shape of this particular cell is closer to a band neutrophil or monocyte than to a segmented neutrophil. Background red cells show refractile drying artifact without parasites. In a patient with metastatic melanoma, findings are consistent with phagocytosed melanin pigment in circulating phagocytes (melanin-laden leukocytes); a Fontana-Masson stain can confirm melanin.",
+  "ddx": [
+    {"dx": "Toxic granulation", "vs": "Toxic granules are fine, evenly distributed dark purple granules throughout the cytoplasm, not sparse coarse blue-black clumps."},
+    {"dx": "Malaria pigment (hemozoin) in phagocytes", "vs": "Hemozoin is golden-brown to black refractile pigment accompanied by intraerythrocytic parasites, which are absent here."},
+    {"dx": "Chediak-Higashi or Alder-Reilly granules", "vs": "Chediak-Higashi shows giant lysosomal granules in all granulocytes and Alder-Reilly shows diffuse dense granules in a congenital disorder, without an associated melanoma."},
+    {"dx": "Phagocytosed bacteria or fungi (e.g. Histoplasma)", "vs": "Organisms show regular shape, size and internal structure (cocci, yeasts with halos), unlike irregular amorphous pigment clumps."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

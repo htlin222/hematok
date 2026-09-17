@@ -1,0 +1,39 @@
+{
+  "id": "99",
+  "recognize_zh": "低倍下淋巴結結構保留，但有數個特別大、邊界不清的濾泡；免疫染色可見外套區小淋巴球長入並把生發中心切成碎塊，生發中心標記只剩散在的小群聚，這種結構符合生發中心進行性轉化（PTGC）。",
+  "features": [
+    "Preserved nodal architecture with a few markedly enlarged, expansile follicles several times the size of adjacent reactive follicles",
+    "Blurred follicle borders on H&E with small mantle-type lymphocytes infiltrating the follicle",
+    "IHC highlights mantle-zone B cells extending into and replacing the follicle center",
+    "Germinal-center cells reduced to scattered, fragmented clusters within the enlarged follicle",
+    "Interfollicular T-zone and smaller secondary follicles with intact germinal centers and mantle zones nearby",
+    "No diffuse effacement or monotonous neoplastic nodules evident at this power"
+  ],
+  "describe_en": "Sections of the lymph node show preserved architecture with reactive-appearing secondary follicles and several markedly enlarged follicles with indistinct borders. On immunohistochemistry, small mantle-zone B cells extend into these follicles and break the germinal centers into small, irregular residual clusters, while the adjacent smaller follicles retain normal germinal centers with intact mantle cuffs. The interfollicular T-zone is preserved. The stains are not labeled in these images, and the fragments of germinal-center cells are best seen on the nuclear stains. Large atypical lymphocyte-predominant cells cannot be evaluated at this magnification. Findings are consistent with progressive transformation of germinal centers.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "NLPHL nodules efface the architecture and contain scattered large CD20+/OCT2+ LP (popcorn) cells rimmed by PD-1+ T cells, whereas PTGC has preserved architecture, lacks LP cells, and shows an even distribution of follicular helper T cells."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Hyperplastic follicles keep sharp germinal centers with polarization, tingible-body macrophages and a crisp mantle cuff, without mantle-cell ingrowth fragmenting the follicle center."},
+    {"dx": "Follicular lymphoma", "vs": "FL shows back-to-back monotonous follicles lacking polarization and mantle zones, with BCL2-positive germinal-center cells, rather than few enlarged follicles containing BCL2-negative germinal-center fragments."},
+    {"dx": "Mantle cell lymphoma, mantle zone or nodular pattern", "vs": "MCL is a monotonous cyclin D1+/SOX11+, CD5+ B-cell proliferation expanding the mantles, whereas the ingrowing mantle cells in PTGC are polytypic, IgD+ and cyclin D1-negative."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E and IHC panel (stain labels not provided)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "IHC (likely IgD): enlarged follicle filled by positive mantle-type B cells with pale residual germinal-center areas",
+    "H&E low power: very large follicle with indistinct borders within a preserved node",
+    "H&E low power: enlarged, poorly demarcated follicles near the capsule",
+    "IHC (likely IgD): mantle-zone B cells expanding into a large follicle, with adjacent smaller normal follicles",
+    "Nuclear IHC (germinal-center or proliferation marker): fragmented clusters of germinal-center cells within the enlarged follicle",
+    "Nuclear IHC: disrupted, patchy germinal-center cell clusters in the enlarged follicle; intact small follicle at right",
+    "IHC (possibly BCL2): positive mantle cells encroaching into the follicle with pale germinal-center fragments",
+    "IHC (possibly BCL2): large follicles broken up by positive small lymphocytes",
+    "IHC (T-cell–type pattern): diffuse staining with relatively pale follicular areas",
+    "IHC (T-cell–type pattern): diffuse staining with paler follicle centers near the capsule",
+    "IHC: dense positive clusters representing fragmented germinal centers within a large follicle",
+    "IHC: irregular positive nodules within enlarged follicles on a positive background",
+    "Nuclear IHC (label not provided): relatively even distribution of scattered positive cells across the follicle",
+    "Nuclear IHC (label not provided): diffuse scattered positive cells without discrete rosettes or clusters"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62002",
+  "recognize_zh": "H&E 下可見整片小到中型圓形細胞，細胞核圓、偏心、染色質粗塊，並帶少量雙染性細胞質，呈淋巴漿細胞樣（lymphoplasmacytoid）外觀；這種「小而成熟」的形態是 t(11;14) 骨髓瘤常見的樣貌，但 cyclin D1 需以免疫染色確認。",
+  "features": [
+    "Diffuse sheet of small to medium-sized, monotonous round cells",
+    "Round, often eccentric nuclei with coarse, clumped chromatin; nucleoli inconspicuous",
+    "Moderate amphophilic cytoplasm giving a lymphoplasmacytoid appearance",
+    "No residual fat or trilineage hematopoiesis in this field",
+    "Right half shows a looser area with vacuolated, edematous stroma and extravasated red cells",
+    "Small vessel at upper left; no Dutcher bodies or amyloid clearly identified"
+  ],
+  "describe_en": "H&E section shows a diffuse, sheet-like infiltrate of small to medium-sized, monotonous round cells with eccentric round nuclei, clumped chromatin, inconspicuous nucleoli, and moderate amphophilic cytoplasm, imparting a lymphoplasmacytoid appearance. No residual hematopoietic elements are seen in this field, and the right side shows looser, edematous stroma with scattered red cells. The small, mature, lymphoplasmacytoid morphology is characteristic of myeloma with t(11;14). Findings are consistent with a plasma cell neoplasm; immunohistochemistry (CD138, light chains, cyclin D1) and FISH are required to confirm the cyclin D1-expressing subtype.",
+  "ddx": [
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL is a mixture of small lymphocytes, plasmacytoid lymphocytes and plasma cells with a CD20+/PAX5+ B-cell component and MYD88 L265P, whereas t(11;14) myeloma is a monotypic CD138+ population, often CD20+ but PAX5-negative and cyclin D1-positive."},
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma cells have irregular nuclei with scant cytoplasm and are CD5+/SOX11+/CD138-negative, in contrast to CD138+ plasma cells with light-chain restriction."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "Marginal zone lymphoma shows a predominant CD20+ monocytoid/centrocyte-like B-cell component with plasma cells as a minor subset, and lacks cyclin D1."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

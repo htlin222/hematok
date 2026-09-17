@@ -1,0 +1,22 @@
+{
+  "id": "60604",
+  "recognize_zh": "胸水細胞離心抹片中有大量大型芽細胞：核質比高、染色質細緻、有核仁，細胞質嗜鹼性且常有小空泡與細胞質突起，並有一群成團的芽細胞（插圖 B）；混雜少量嗜中性球與淋巴球，缺乏間皮細胞特徵，符合 AML 侵犯胸水。",
+  "features": [
+    "Numerous large blasts with high N:C ratio, fine chromatin and visible nucleoli",
+    "Moderate basophilic cytoplasm with small vacuoles and irregular blebs/pseudopods (cytospin artifact)",
+    "Some cells with folded/monocytoid nuclei and a very large cell with deep basophilic cytoplasm",
+    "Inset: cohesive-appearing aggregate of blasts with vacuolated cytoplasm, mimicking an epithelial cluster",
+    "Background: scattered neutrophils, lymphocytes and red cells"
+  ],
+  "describe_en": "Cytospin preparation of pleural fluid shows a cellular specimen dominated by large atypical blasts with high nuclear-to-cytoplasmic ratios, finely dispersed chromatin, nucleoli and basophilic, often vacuolated cytoplasm with cytoplasmic blebs; some cells show folded nuclei. The blasts also form tight clusters (inset) that can mimic metastatic carcinoma or reactive mesothelial cells. Scattered neutrophils and lymphocytes are present. Findings are consistent with involvement of pleural fluid by acute myeloid leukemia; flow cytometry or cytochemistry on the fluid is recommended for confirmation.",
+  "ddx": [
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells have dense two-toned cytoplasm with a peripheral lacy skirt, windows between cells and calretinin positivity, and lack blast chromatin."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma clusters are truly cohesive with three-dimensional architecture and are keratin/EpCAM positive, whereas blasts are CD45 and myeloid-marker positive."},
+    {"dx": "Lymphoma or lymphoblastic leukemia effusion", "vs": "Lymphoma cells are discohesive lymphoid cells with scant cytoplasm and B/T markers, lacking MPO or monocytic markers."},
+    {"dx": "Peripheral blood contamination by circulating blasts", "vs": "Traumatic tap contamination is accompanied by many red cells and a blast proportion similar to blood, whereas true involvement shows blasts enriched out of proportion."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa (cytospin)",
+  "match": "consistent",
+  "high_yield": false
+}

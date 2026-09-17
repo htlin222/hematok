@@ -1,0 +1,35 @@
+{
+  "id": "86",
+  "recognize_zh": "胃／腸黏膜固有層被中型、胞質淡嗜酸性的非典型淋巴樣細胞瀰漫擴張，但腺體大致保留、無明顯破壞或壞死；免疫染色中這些細胞呈強陽性、而旁邊的 T 細胞標記僅散在少數細胞陽性，符合表淺、非破壞性的 NK 細胞增生（NK-cell enteropathy）。",
+  "features": [
+    "Lamina propria diffusely expanded by a dense, superficial infiltrate that separates but largely spares the glands",
+    "Medium-sized atypical lymphoid cells with irregular to slightly indented nuclei, fine chromatin, inconspicuous nucleoli and moderate pale eosinophilic cytoplasm",
+    "No destructive lymphoepithelial lesions, angiocentric destruction or geographic necrosis; focal lamina propria hemorrhage",
+    "Infiltrate strongly and diffusely positive for a membranous/cytoplasmic marker (images consistent with NK-associated markers such as CD56/cytoplasmic CD3; labels not provided)",
+    "Another marker (likely a T-cell marker such as CD5/CD8; label not provided) stains only scattered small lymphocytes, leaving the atypical cells negative",
+    "Second biopsy shows the same lamina propria expansion with preserved crypts on H&E and diffuse positivity on IHC"
+  ],
+  "describe_en": "Endoscopic gastrointestinal mucosal biopsies show marked expansion of the lamina propria by a dense, predominantly superficial infiltrate that separates and surrounds intact glands without significant gland destruction, ulcer-bed necrosis or angiodestruction. At high power the infiltrate consists of medium-sized lymphoid cells with mildly irregular nuclei, fine chromatin, inconspicuous nucleoli and moderate amounts of pale eosinophilic cytoplasm; mitotic activity is not conspicuous. Immunohistochemical stains (markers not labeled on the images) show the atypical cells to be diffusely positive for a membranous/cytoplasmic marker in both biopsies, while a separate marker highlights only scattered small reactive lymphocytes and is negative in the atypical population. In the appropriate context (CD3ε+, CD56+, cytotoxic granule+, CD5-, EBER-negative, no clonal TCR rearrangement), findings are consistent with NK-cell enteropathy (lymphomatoid gastropathy).",
+  "ddx": [
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "ENKTL shows angiocentric, angiodestructive growth with extensive necrosis and is EBER-positive, whereas NK-cell enteropathy is superficial, non-destructive and EBER-negative."},
+    {"dx": "Enteropathy-associated / monomorphic epitheliotropic intestinal T-cell lymphoma", "vs": "These show transmural destructive infiltrates, prominent epitheliotropism and clonal TCR rearrangement (MEITL CD8+/CD56+), unlike the mucosa-confined, non-clonal NK proliferation here."},
+    {"dx": "Indolent T-cell lymphoproliferative disorder of the GI tract", "vs": "It is composed of small, mature-appearing clonal CD3+ T cells (usually CD8+ or CD4+, surface CD5 often retained) rather than medium-sized CD56+ NK cells with cytoplasmic CD3ε and polyclonal TCR."},
+    {"dx": "Reactive chronic gastritis/duodenitis with dense lamina propria inflammation", "vs": "Reactive infiltrates are mixed (plasma cells, eosinophils, small lymphocytes) without a monotonous sheet of medium-sized atypical cells uniformly expressing NK markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (markers not labeled)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Low power H&E: mucosal biopsy with lamina propria diffusely expanded by a dense infiltrate",
+    "Medium power H&E: sheets of lymphoid cells separating intact glands",
+    "High power H&E: medium-sized atypical cells with pale eosinophilic cytoplasm, no gland destruction",
+    "IHC: diffuse membranous/cytoplasmic staining of the lamina propria infiltrate, glands negative",
+    "IHC: diffuse positivity of the infiltrate around negative glands",
+    "IHC (likely T-cell marker): only scattered small lymphocytes positive; atypical cells negative",
+    "Low power IHC (low resolution): strong staining concentrated in one fragment",
+    "IHC: strong diffuse membranous staining of the infiltrate",
+    "Second biopsy H&E: lamina propria expansion with preserved crypts and hemorrhage",
+    "Second biopsy IHC: diffuse positivity of lamina propria cells between negative crypts"
+  ]
+}

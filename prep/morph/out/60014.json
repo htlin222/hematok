@@ -1,0 +1,22 @@
+{
+  "id": "60014",
+  "recognize_zh": "骨髓切片細胞密度極高、看不到脂肪，幾乎全被一致的不成熟細胞取代：細胞核卵圓至不規則、染色質淡而細緻、有小核仁，僅夾雜少量紅系前驅細胞與顆粒球，符合急性白血病的骨髓取代表現。",
+  "features": [
+    "Markedly hypercellular marrow with near-total effacement and no visible fat",
+    "Sheets of immature mononuclear cells with oval to irregular or indented nuclei",
+    "Fine to vesicular chromatin with small nucleoli and scant pale cytoplasm",
+    "Scattered residual erythroid precursors with dense round nuclei and occasional eosinophilic granulocytes",
+    "No megakaryocytes identified in this field; scattered small artifactual clear spaces"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a markedly hypercellular marrow with near-complete replacement by sheets of immature mononuclear cells. The cells have oval to irregular nuclei, finely dispersed to vesicular chromatin, small nucleoli, and scant cytoplasm. Residual hematopoiesis is limited to scattered erythroid precursors and occasional granulocytes, and megakaryocytes are not apparent in this field. The morphology indicates marrow replacement by acute leukemia but cannot establish lineage; with flow cytometric B/myeloid mixed phenotype and t(9;22), the findings are consistent with mixed phenotype acute leukemia with BCR::ABL1.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "AML produces the same sheet-like marrow replacement, so lineage assignment depends on flow cytometry or IHC (MPO, CD19, PAX5, CD3) rather than H&E."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL can look identical on biopsy but is PAX5/TdT positive without an MPO-positive population."},
+    {"dx": "Chronic myeloid leukemia in blast phase", "vs": "CML-BP often shows residual myeloid hyperplasia with small hypolobated megakaryocytes and fibrosis, and a prior chronic-phase history."},
+    {"dx": "Large cell lymphoma involving marrow", "vs": "Lymphoma cells are usually larger with vesicular chromatin and prominent nucleoli, often in paratrabecular or nodular aggregates, and are CD20/PAX5 positive with TdT/CD34 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

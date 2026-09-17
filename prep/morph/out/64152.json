@@ -1,0 +1,21 @@
+{
+  "id": "64152",
+  "recognize_zh": "五顆成熟嗜中性球聚成一團，每顆外緣與細胞間隙都密密黏著血小板，形成嗜中性球—血小板聚集；血小板環繞嗜中性球是血小板衛星現象，應以檸檬酸鈉管重測血小板。",
+  "features": [
+    "Aggregate of five mature segmented neutrophils",
+    "Numerous normal-sized platelets adherent to the outer membranes of all neutrophils and between them",
+    "Neutrophils show normal segmentation and fine pink granulation",
+    "Few free platelets in the adjacent background",
+    "Out-of-focus dark artifact at left; red cells normocytic"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of five mature segmented neutrophils with numerous platelets adhering to their outer membranes and between adjacent cells, forming a neutrophil-platelet aggregate. The neutrophils are morphologically normal and the platelets are extracellular and normal in appearance. Free platelets in the background are scant. Findings are consistent with prominent platelet satellitism, which can cause spurious thrombocytopenia and occasionally spurious leukopenia on automated analyzers.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Clumps are aggregates of platelets alone rather than platelets bound to neutrophil surfaces."},
+    {"dx": "Leukoagglutination", "vs": "Neutrophil aggregates without a surrounding platelet rim, typically due to EDTA-dependent antibodies against leukocytes."},
+    {"dx": "True thrombocytopenia", "vs": "Platelets are scarce everywhere without adherence to leukocytes, and the low count persists in citrate or heparin samples."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

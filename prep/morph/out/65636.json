@@ -1,0 +1,23 @@
+{
+  "id": "65636",
+  "recognize_zh": "淋巴結切片由小至中型、核圓或卵圓、間距均勻、細胞質豐富淡染的單一 B 細胞瀰漫浸潤，伴紅血球外滲；CD20 強陽性、cyclin D1 弱而不均、BRAF V600E 與 annexin A1 陽性，確認為罕見的淋巴結毛細胞白血病。",
+  "features": [
+    "Low power: dense monotonous lymphoid infiltrate with areas of red cell extravasation",
+    "Small to medium cells with round to oval, evenly spaced nuclei and bland chromatin, without prominent nucleoli",
+    "Abundant pale to clear cytoplasm producing distinct cell borders ('fried-egg' appearance)",
+    "CD20: strong diffuse membranous staining",
+    "Cyclin D1: weak and variable nuclear staining in a subset of cells",
+    "BRAF V600E and annexin A1: diffuse cytoplasmic positivity"
+  ],
+  "describe_en": "Lymph node biopsy shows a dense, monotonous infiltrate of small to medium-sized lymphoid cells with round to oval, evenly spaced nuclei, bland chromatin and abundant pale cytoplasm, with interspersed extravasated red cells. The nodular perisinusoidal distribution described clinically is not well appreciated in these fields. The neoplastic cells are strongly positive for CD20 and show weak, variable nuclear cyclin D1, with diffuse cytoplasmic expression of BRAF V600E and annexin A1. In a patient with established hairy cell leukemia, findings are consistent with nodal involvement by hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Nodal marginal zone lymphoma", "vs": "Monocytoid B cells colonize around reactive follicles and are annexin A1-negative, BRAF V600E-negative and cyclin D1-negative."},
+    {"dx": "Mantle cell lymphoma", "vs": "Shows strong uniform nuclear cyclin D1 with SOX11 and CD5 expression and IGH::CCND1, rather than weak variable cyclin D1 with BRAF V600E."},
+    {"dx": "Hairy cell leukemia variant / splenic B-cell lymphoma with prominent nucleoli", "vs": "Cells have prominent nucleoli and are annexin A1-negative and BRAF V600E wild type."},
+    {"dx": "Mastocytosis or monocytoid histiocytic infiltrate", "vs": "Clear-cell mast cells or histiocytes are CD117/tryptase or CD68/CD163 positive and CD20 negative."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD20, cyclin D1, BRAF V600E, annexin A1",
+  "match": "consistent",
+  "high_yield": false
+}

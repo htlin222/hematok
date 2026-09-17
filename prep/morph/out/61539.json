@@ -1,0 +1,21 @@
+{
+  "id": "61539",
+  "recognize_zh": "紅色箭頭指的巨大血小板呈淡紫色顆粒狀、大小約與紅血球相當，黃色箭頭指的是較小但仍大於一般血小板的大血小板；不要把巨大血小板當成紅血球或淋巴球而漏算。",
+  "features": [
+    "Giant platelet (red arrow) roughly the size of a red cell with pale purple granular cytoplasm, adjacent to a small dense dark body",
+    "Large platelet (yellow arrow) clearly larger than surrounding normal platelets",
+    "Many small normal platelets and loose platelet aggregates scattered among red cells",
+    "Crowded red cells with mild crenation; no schistocytes or spherocytes evident",
+    "Strand of pink-purple amorphous material at left edge (likely smear/fibrin artifact)"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells with mild crenation and numerous normal-sized platelets with small aggregates. A giant platelet approaching the diameter of a red cell (red arrow) and a large platelet (yellow arrow) are identified. No leukocytes are present in this field. The findings illustrate platelet macrocytosis; because giant platelets may fall outside the analyzer platelet size gate, an automated count may be falsely low and should be verified on the smear.",
+  "ddx": [
+    {"dx": "Nucleated red cell or small lymphocyte", "vs": "Both have a discrete dense nucleus, whereas a giant platelet is anucleate with a central granular zone."},
+    {"dx": "Gray platelet syndrome", "vs": "Gray platelets are large but pale gray and agranular due to absent alpha granules, unlike these platelets with visible purple granules."},
+    {"dx": "Immune thrombocytopenia with young large platelets", "vs": "ITP shows occasional large platelets but with a genuinely low platelet count on smear, whereas this smear shows abundant platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

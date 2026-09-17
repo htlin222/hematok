@@ -1,0 +1,21 @@
+{
+  "id": "60761",
+  "recognize_zh": "視野中央有一顆無核、粉紫色顆粒狀、大小與紅血球相當並帶許多細棘突起的巨大血小板，周圍血小板數量明顯增多，左側三顆嗜中性球核分葉增多（5 葉以上），符合血小板增多症中的巨大血小板。",
+  "features": [
+    "Giant platelet approximately the size of a red cell, anucleate, with fine purple granules and multiple spiky pseudopodial projections",
+    "Markedly increased number of platelets scattered throughout the background, including some large forms",
+    "Neutrophils with hypersegmented nuclei (five or more lobes)",
+    "Red cells normochromic with some overlapping areas and refractile drying artifact; occasional target-like forms"
+  ],
+  "describe_en": "Peripheral blood smear shows a markedly increased number of platelets with anisocytosis, including a giant anucleate platelet about the size of a red cell with granular cytoplasm and spiky pseudopodial projections. Three neutrophils show nuclear hypersegmentation with five or more lobes. Red cells are largely normochromic with drying artifact and no significant schistocytes. Findings are consistent with thrombocytosis with giant platelets and neutrophil hypersegmentation; a myeloproliferative neoplasm and megaloblastic process should be considered and correlated with CBC indices, B12/folate levels and JAK2/CALR/MPL testing.",
+  "ddx": [
+    {"dx": "Micromegakaryocyte or megakaryoblast", "vs": "Contains a nucleus, often small and dense or with visible chromatin, whereas this giant platelet is entirely anucleate."},
+    {"dx": "Lymphocyte or nucleated red cell miscounted", "vs": "Has a distinct nucleus and uniform cytoplasm without the granular, spiky platelet morphology seen here."},
+    {"dx": "Inherited macrothrombocytopenia (e.g. Bernard-Soulier, MYH9-related disorder)", "vs": "Giant platelets occur with thrombocytopenia, and MYH9 disorders show Döhle-like neutrophil inclusions, unlike this thrombocytosis with hypersegmented neutrophils."},
+    {"dx": "Reactive thrombocytosis", "vs": "Platelets are usually normal in size without giant forms, and morphology alone cannot exclude it, so iron status, inflammation markers and MPN driver mutations are required."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

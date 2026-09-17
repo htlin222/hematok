@@ -1,0 +1,21 @@
+{
+  "id": "20381",
+  "recognize_zh": "血片中大量中大型原始細胞（blasts），染色質細緻、可見核仁、胞質嗜鹼性，部分聚集成團；紅血球呈小球性且大小不均並有標靶細胞，細胞化學染色部分原始細胞呈深色陽性。血紅素 E（Hgb E）無法單靠形態確認，需電泳或 HPLC。",
+  "features": [
+    "Numerous medium-to-large blasts with high N:C ratio, fine open chromatin and visible nucleoli, some in cohesive clusters",
+    "Scant-to-moderate basophilic agranular cytoplasm",
+    "Microcytic red cells with anisopoikilocytosis and scattered target cells",
+    "Marrow aspirate (panel B) replaced by sheets of blasts",
+    "Cytochemical stain (panel C) with dark granular positivity in a subset of blasts, consistent with myeloid lineage"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed predominantly of medium-to-large blasts with fine chromatin, visible nucleoli and basophilic cytoplasm, some forming clusters. The background red cells are microcytic with anisopoikilocytosis and occasional target cells. The bone marrow aspirate shows sheets of similar blasts, and a cytochemical stain highlights granular positivity in a subset of blasts, supporting myeloid lineage. Findings are consistent with acute myeloid leukemia; the microcytic target cell picture could reflect hemoglobin E, which must be confirmed by hemoglobin HPLC or electrophoresis.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are MPO/Sudan black negative with scant cytoplasm, so the cytochemical positivity here and flow cytometry favor AML."},
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency causes microcytosis with pencil cells and low ferritin, whereas Hgb E shows target cells with normal iron studies and an abnormal Hb band on HPLC."},
+    {"dx": "Beta-thalassemia trait", "vs": "Thal trait gives microcytosis with basophilic stippling and raised Hb A2, whereas Hgb E co-elutes with A2 on HPLC at much higher percentage (25–30% in trait)."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; cytochemistry (MPO/SBB)",
+  "match": "partial",
+  "high_yield": false
+}

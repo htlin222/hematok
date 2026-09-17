@@ -1,0 +1,22 @@
+{
+  "id": "65185",
+  "recognize_zh": "骨髓切片中小型成熟淋巴球聚集，cyclin D1 與 SOX11 核陽性，符合套細胞淋巴瘤；流式顯示兩群 CD5+ B 細胞（kappa 亮與 kappa 暗），IGHV 定序熱圖出現兩個不同的主要重排（VH3-J4 與 VH3-J5），證明為雙株（biclonal）MCL。",
+  "features": [
+    "Bone marrow biopsy with an interstitial/nodular aggregate of small mature lymphoid cells with round to slightly irregular nuclei among fat spaces and megakaryocytes",
+    "Cyclin D1 nuclear positivity in a subset of the lymphoid aggregate cells",
+    "SOX11 nuclear positivity in the lymphoid cells",
+    "Flow cytometry: CD19+/CD20+ B cells with CD5 expression forming two populations, one kappa-bright (clone 1) and one kappa-dim (clone 2), lambda negative",
+    "IGHV-IGHJ NGS heat map with two dominant rearrangements: IGHV3-J4 (clone 1) and IGHV3-J5 (clone 2)"
+  ],
+  "describe_en": "Bone marrow biopsy shows a hypercellular marrow with scattered aggregates of small mature lymphoid cells that express nuclear cyclin D1 and SOX11. Flow cytometry identifies two aberrant CD5-positive B-cell populations with similar phenotypes that differ in kappa light chain intensity (bright versus dim). Immunoglobulin heavy chain NGS demonstrates two distinct dominant productive rearrangements (IGHV3-9/IGHJ4 and IGHV3-15/IGHJ5) with differing somatic hypermutation status. Findings are consistent with bone marrow involvement by biclonal mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Composite CLL/SLL and mantle cell lymphoma", "vs": "A CLL clone would be CD23+/CD200+ and cyclin D1/SOX11 negative, whereas both populations here share a CD5+ cyclin D1+/SOX11+ phenotype."},
+    {"dx": "Single MCL clone with class switch or intraclonal light chain variation", "vs": "Clonal evolution shares the same IGHV-IGHJ rearrangement, whereas two different V-J rearrangements with different mutation status indicate independent clones."},
+    {"dx": "CD5-positive marginal zone lymphoma", "vs": "CD5+ MZL lacks cyclin D1 and SOX11 and IGH::CCND1 rearrangement."},
+    {"dx": "Reactive benign lymphoid aggregate", "vs": "Benign aggregates are small, well-circumscribed, mixed T and B cells, and cyclin D1 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: cyclin D1, SOX11; flow; NGS",
+  "match": "consistent",
+  "high_yield": false
+}

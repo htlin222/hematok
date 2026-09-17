@@ -1,0 +1,20 @@
+{
+  "id": "61608",
+  "recognize_zh": "PD-L1 染色中圓核的腫瘤細胞片狀排列卻呈陰性，棕色膜/胞質染色集中在散在、細胞質豐富且有突起的組織球（巨噬細胞）；判讀時要分清陽性是腫瘤細胞還是腫瘤相關巨噬細胞。",
+  "features": [
+    "Sheets of tumor cells with round nuclei and no PD-L1 membranous staining",
+    "Strong membranous and cytoplasmic PD-L1 in scattered large cells with abundant cytoplasm and dendritic processes (histiocytes/macrophages)",
+    "Positive macrophages distributed in a network between tumor cells",
+    "Light nonspecific background cytoplasmic tint in tumor cells"
+  ],
+  "describe_en": "PD-L1 immunostain shows the neoplastic cells to be essentially negative, whereas scattered tumor-associated histiocytes with abundant cytoplasm and dendritic processes show strong membranous and cytoplasmic staining. The positive cells form a loose interstitial network among the tumor sheets. PD-L1 expression in this field is therefore attributable to the immune microenvironment rather than tumor cells. The stain is ancillary and not diagnostic; the diagnosis of EBV-positive plasmablastic lymphoma rests on morphology, CD20 negativity, MUM1/CD138 and EBER.",
+  "ddx": [
+    {"dx": "PD-L1 expression by tumor cells", "vs": "True tumor-cell positivity shows membranous staining on the round-nucleated neoplastic cells themselves, not on large histiocytes with dendritic cytoplasm."},
+    {"dx": "Primary mediastinal large B-cell lymphoma / classic Hodgkin lymphoma", "vs": "These characteristically show PD-L1 on tumor cells because of 9p24.1 alterations, and are CD20 or CD30/CD15 positive rather than plasmablastic."},
+    {"dx": "EBV-positive DLBCL, NOS", "vs": "Often PD-L1 positive in tumor cells and microenvironment but retains CD20/PAX5 expression."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PD-L1",
+  "match": "consistent",
+  "high_yield": false
+}

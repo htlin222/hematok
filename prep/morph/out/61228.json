@@ -1,0 +1,21 @@
+{
+  "id": "61228",
+  "recognize_zh": "同一黏膜淋巴瘤浸潤區中，許多淋巴樣細胞呈膜狀 CD56 陽性（棕色），強度深淺不一，腺體上皮與角落一個淋巴濾泡樣區域為陰性，支持 NK 細胞表型。",
+  "features": [
+    "Diffuse lymphoid infiltrate expanding the mucosa with residual glands in the upper left",
+    "Membranous CD56 staining in a large proportion of infiltrating cells, heterogeneous in intensity (weak to strong)",
+    "Positive cells are scattered throughout rather than uniformly strong in every cell",
+    "Glandular epithelium and a rounded negative nodular aggregate (right center) are CD56 negative",
+    "Small to medium-sized cells; cytologic detail limited on IHC"
+  ],
+  "describe_en": "Immunohistochemical stain for CD56 on the mucosal biopsy shows membranous staining in a substantial proportion of the infiltrating small to medium lymphoid cells, with variable intensity from weak to strong. Residual glands and a small nodular lymphoid aggregate are negative. In combination with CD3 positivity, loss of CD4/CD5/CD8 and diffuse EBER positivity, the findings support extranodal NK/T-cell lymphoma, nasal type.",
+  "ddx": [
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma", "vs": "MEITL is also CD56 positive but is EBER negative, typically CD8 positive, and shows marked epitheliotropism."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia is also CD56+ and EBER+ but presents with systemic marrow and blood involvement rather than a localized mucosal mass."},
+    {"dx": "Plasma cell neoplasm", "vs": "Neoplastic plasma cells may be CD56 positive but have plasmacytoid morphology, are CD3 negative and express CD138 with light-chain restriction."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD56",
+  "match": "consistent",
+  "high_yield": false
+}

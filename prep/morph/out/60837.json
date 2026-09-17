@@ -1,0 +1,21 @@
+{
+  "id": "60837",
+  "recognize_zh": "數顆紅血球的血紅素集中於細胞一側、另一側只剩透明的囊泡狀薄膜（像水泡），就是 blister cell（半影細胞，hemighost）；多見於氧化性溶血如 G6PD 缺乏或鐮刀細胞疾病。",
+  "features": [
+    "Several red cells with hemoglobin concentrated eccentrically into a dense segment with a sharp straight or curved border",
+    "Opposite portion of each cell is a clear, hemoglobin-free vesicle outlined by a thin membrane (blister/hemighost)",
+    "One cell at left with hemoglobin compressed toward an angular pointed contour",
+    "Background red cells normocytic with central pallor; a few slightly dense cells",
+    "Adequate platelets; no leukocytes in field"
+  ],
+  "describe_en": "Peripheral blood smear shows mostly normocytic, normochromic red cells with several blister cells, in which hemoglobin is condensed to one side of the cell and the remainder forms a clear, membrane-bound vesicle. A few adjacent red cells appear dense without central pallor. No bite cells with discrete notches or spherocytes predominate in this field. Findings are consistent with blister cells (hemighosts), which are seen in oxidative hemolysis (e.g., G6PD deficiency) and may also occur in sickling disorders; clinical correlation, G6PD assay and hemoglobin analysis are recommended.",
+  "ddx": [
+    {"dx": "Bite cells (degmacytes)", "vs": "Bite cells have a notch-like peripheral defect where Heinz bodies were removed, rather than a retained empty membrane vesicle."},
+    {"dx": "Hemoglobin C crystals", "vs": "HbC crystals form rectangular bar-like hemoglobin condensations with parallel edges rather than a half-filled cell with a curved blister."},
+    {"dx": "Stomatocytes/slide artifact", "vs": "Stomatocytes have a slit-like central pallor within a uniformly hemoglobinized cell, and drying artifact produces refractile crenations rather than a hemoglobin-free membrane pocket."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60924",
+  "recognize_zh": "高核質比的大圓形母細胞，染色質細緻開放，細胞質為一圈藍色邊緣；右上方細胞質中可見細長的粉紅色棒狀包涵體（Auer rod），這是骨髓母細胞（myeloblast）的關鍵證據。",
+  "features": [
+    "Large round cell, roughly twice the red cell diameter, with a high N:C ratio",
+    "Round nucleus with finely granular, open (blastic) chromatin; nucleoli not sharply defined at this resolution",
+    "Thin rim of basophilic, blue cytoplasm without conspicuous granules",
+    "Slender, linear pink-red rod-shaped inclusion(s) in the upper right cytoplasm, consistent with Auer rod(s)",
+    "Background normochromic red cells"
+  ],
+  "describe_en": "High-power smear shows a large blast with a round nucleus, finely dispersed chromatin and a high nuclear-to-cytoplasmic ratio. The scant basophilic cytoplasm lacks conspicuous granules but contains slender, needle-like pink-red inclusions in the upper right portion, consistent with Auer rods. Nucleoli are not well resolved in this image. Findings are consistent with a myeloblast containing Auer rods, which establishes myeloid lineage and supports a diagnosis of acute myeloid leukemia (or a myeloid neoplasm with increased blasts) in the appropriate context.",
+  "ddx": [
+    {"dx": "Lymphoblast", "vs": "Lymphoblasts never contain Auer rods and are MPO negative, often with scantier cytoplasm and less distinct nucleoli."},
+    {"dx": "Abnormal promyelocyte (APL)", "vs": "APL cells have bilobed or folded nuclei with abundant coarse azurophilic granules and often bundles of multiple Auer rods (faggot cells)."},
+    {"dx": "Overlying platelet or stain artifact", "vs": "Artifacts sit in a different focal plane or outside the cell and are not needle-shaped azurophilic rods within the cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

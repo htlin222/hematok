@@ -1,0 +1,22 @@
+{
+  "id": "64333",
+  "recognize_zh": "流式散佈圖中，淋巴球閘門內橘色的 CD19+ B 細胞群 CD20 亮陽性，輕鏈只表現 lambda（lambda restriction），同時 CD5 陽性、CD43 弱至中度陽性（藍色 T 細胞為 CD5/CD43 強陽性作對照），表示單株性 CD5+ B 細胞，符合被套細胞淋巴瘤的免疫表型。",
+  "features": [
+    "CD45 vs SSC: gated lymphocytes (orange) are CD45 bright with low side scatter",
+    "CD19 vs CD20: orange B-cell population is CD19 positive with bright CD20",
+    "Kappa vs lambda: orange B cells express lambda only (lambda light chain restriction), with no kappa-positive population",
+    "CD5 vs CD43: orange B cells are CD5 positive (slightly dimmer than T cells) with dim to moderate CD43",
+    "Blue background T cells serve as internal control, bright for CD5 and CD43"
+  ],
+  "describe_en": "Flow cytometric analysis of viable events shows an expanded lymphoid population (orange) with bright CD45 and low side scatter. These cells are CD19 positive and CD20 bright, show surface lambda light chain restriction, and co-express CD5 and CD43 at a lower intensity than the background T cells (blue). The findings indicate a clonal CD5-positive, CD43-positive mature B-cell neoplasm. Together with CD10 negativity, CD23 and CD200 negativity, the phenotype is consistent with mantle cell lymphoma, to be confirmed by cyclin D1/SOX11 immunostaining or t(11;14) CCND1 rearrangement.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL is also CD5+ CD43+ but shows dim CD20, dim surface light chain, and CD23 and CD200 positivity, whereas this population is CD20 bright."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL is usually CD5 negative; the CD5-positive subset requires cyclin D1 and CCND1 testing to exclude MCL."},
+    {"dx": "Diffuse large B-cell lymphoma, CD5+", "vs": "CD5+ DLBCL has large cells with high forward scatter and is cyclin D1 negative."},
+    {"dx": "B-prolymphocytic leukemia", "vs": "B-PLL shows prominent nucleolated prolymphocytes and bright CD20, and cases with t(11;14) are reclassified as MCL."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

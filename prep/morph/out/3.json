@@ -1,0 +1,28 @@
+{
+  "id": "3",
+  "recognize_zh": "骨髓以大量無顆粒、無 Auer 小體的芽細胞為主，形態無法判定系列；流式顯示 CD34+、HLA-DR+、CD7+，但 MPO、CD19 與 cytoplasmic CD3 均為陰性，缺乏任何系列特異標記，符合未分化型急性白血病。",
+  "features": [
+    "Medium-to-large blasts with high N:C ratio, round to irregular nuclei and fine, dispersed chromatin",
+    "Small inconspicuous nucleoli in some blasts",
+    "Scant to moderate pale basophilic agranular cytoplasm without Auer rods",
+    "Aspirate is densely packed by monotonous blasts with scattered smudged cells",
+    "Flow: CD45-dim blasts, CD34+, HLA-DR+, CD7+; cytoplasmic MPO, CD19 and cytoplasmic CD3 negative"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts with high N:C ratio, fine chromatin and scant agranular cytoplasm; red cells are normocytic and platelets are present. The bone marrow aspirate is replaced by a monotonous population of medium-to-large blasts with fine chromatin, small nucleoli and pale basophilic cytoplasm lacking granules or Auer rods. Flow cytometry identifies a CD45-dim blast population positive for CD34, HLA-DR and CD7, and negative for cytoplasmic MPO, CD19 and cytoplasmic CD3. The absence of lineage-assigning markers is consistent with acute undifferentiated leukemia, provided a full panel (including cCD79a, CD22, cCD3, lysozyme, CD41/CD61) and genetic studies exclude a defined entity.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Morphologically identical, but AML-M0 expresses at least two myeloid markers such as CD13, CD33 or CD117, which must be excluded by a broader panel."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL shares CD7 and CD34 but expresses cytoplasmic CD3, which is negative here."},
+    {"dx": "Mixed-phenotype acute leukemia", "vs": "MPAL requires expression of lineage-defining markers of two lineages (e.g., MPO plus cCD3 or strong CD19), whereas these blasts express none."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN blasts are usually CD34 negative and express CD4, CD56, CD123 and TCF4, distinguishing them from these CD34+ blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood: two agranular blasts with high N:C ratio",
+    "Bone marrow aspirate, low power: sheets of blasts",
+    "Bone marrow aspirate, high power: agranular blasts with fine chromatin",
+    "Flow cytometry: CD34+, HLA-DR+, CD7+ blasts negative for MPO, CD19 and cCD3"
+  ]
+}

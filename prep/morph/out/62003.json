@@ -1,0 +1,21 @@
+{
+  "id": "62003",
+  "recognize_zh": "骨髓切片中幾乎每顆細胞都呈淡紅色核對比染色，細胞質周圍有瀰漫性深藍色顆粒狀訊號，呈片狀一致陽性；這種單一型態、一致陽性的染色提示漿細胞輕鏈限制（可能為 kappa 或 lambda 原位雜交），但探針未標示，無法從此圖直接判讀 cyclin D1。",
+  "features": [
+    "Sheet of densely packed cells with nuclear fast red-type pink counterstain",
+    "Diffuse fine blue-black granular cytoplasmic signal surrounding most cells",
+    "Uniform positivity across the field, suggesting a monotypic population",
+    "No normal hematopoietic architecture discernible in this field",
+    "Probe/antigen not labeled; cytologic detail limited by the chromogen"
+  ],
+  "describe_en": "Section of bone marrow shows a dense sheet of cells stained with a chromogenic in situ hybridization or immunostain (dark blue chromogen with pink nuclear counterstain; probe not labeled). Nearly all cells in the field show fine granular cytoplasmic signal, indicating a diffuse, monotonous population. In the context of plasma cell myeloma, this pattern is most consistent with light chain mRNA in situ hybridization demonstrating light-chain restriction in a plasma cell infiltrate; the image itself does not demonstrate cyclin D1 expression, which would be nuclear, and the specific probe should be verified in the referenced case.",
+  "ddx": [
+    {"dx": "Polytypic reactive plasmacytosis", "vs": "Reactive plasma cells show a mixture of kappa- and lambda-positive cells (roughly 2:1) rather than uniform positivity with one probe."},
+    {"dx": "Mantle cell lymphoma (cyclin D1+)", "vs": "MCL is CD5+/CD20+/SOX11+ lymphoid B cells without CD138 or cytoplasmic light chain mRNA, while t(11;14) myeloma is CD138+ with monotypic cytoplasmic light chain."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL has a small B-cell component with MYD88 L265P and fewer monotypic plasma cells, not a sheet of uniformly positive plasma cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "ISH: probe not labeled (likely kappa/lambda)",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62017",
+  "recognize_zh": "骨髓切片 CD34 染色中，陽性的主要是細長的血管內皮，造血細胞中幾乎沒有陽性母細胞；另見一顆巨核細胞呈細胞質顆粒狀 CD34 陽性，巨核細胞表現 CD34 可見於 MDS 等骨髓發育不良狀態。",
+  "features": [
+    "Cellular marrow with numerous CD34-negative hematopoietic cells",
+    "CD34 highlights endothelial cells of small vessels and capillaries (internal control)",
+    "No increased or clustered CD34-positive blasts",
+    "A megakaryocyte with granular cytoplasmic CD34 staining (right center)",
+    "Other megakaryocytes negative or faintly stained"
+  ],
+  "describe_en": "CD34 immunohistochemical stain of the bone marrow core biopsy shows a cellular marrow in which CD34 highlights capillary endothelium, while hematopoietic precursors are essentially negative with no increase or clustering of CD34-positive blasts. A megakaryocyte shows granular cytoplasmic CD34 expression. The absence of increased blasts supports a lower-risk myelodysplastic neoplasm, and aberrant CD34 expression in megakaryocytes may be seen in myelodysplastic neoplasms, consistent with MDS with ring sideroblasts and multilineage dysplasia in this case.",
+  "ddx": [
+    {"dx": "MDS with excess blasts", "vs": "MDS-EB shows increased CD34-positive blasts often in clusters, not seen here."},
+    {"dx": "Myeloproliferative neoplasm", "vs": "MPNs show clustered large, atypical megakaryocytes on H&E; CD34 megakaryocyte staining is not specific and must be interpreted with morphology."},
+    {"dx": "Reactive marrow", "vs": "Reactive megakaryocytes are usually CD34 negative, and there is no morphologic dysplasia or ring sideroblasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

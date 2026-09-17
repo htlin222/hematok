@@ -1,0 +1,22 @@
+{
+  "id": "3292",
+  "recognize_zh": "低倍血液抹片中紅血球呈團塊狀，其間散布數顆比淋巴球大的單核細胞，核圓、細胞質中等量淡灰藍色，左下一顆細胞質有泡沫狀空泡，暗示為組織球（histiocyte）；但此倍率下難以確認細節。",
+  "features": [
+    "Scattered large mononuclear cells, clearly larger than adjacent small lymphocytes",
+    "Round to oval, eccentric or central nuclei with fine chromatin",
+    "Moderate pale gray-blue cytoplasm; one cell at lower left with foamy/vacuolated cytoplasm",
+    "Small dark lymphocytes interspersed for size comparison",
+    "Red cells aggregated into irregular clumps (thick area or preparation artifact)"
+  ],
+  "describe_en": "Low-power view of a peripheral blood smear (thick area, with red cells aggregated into irregular clumps) shows several large mononuclear cells with round to oval nuclei and moderate amounts of pale gray-blue cytoplasm, one of which contains foamy cytoplasmic vacuoles. Small lymphocytes are interspersed and provide a size reference. At this magnification the cells are suggestive of circulating histiocytes/macrophages, but nuclear and cytoplasmic detail is insufficient to exclude monocytes, plasma cells, or other abnormal cells; high-power review (ideally of a buffy coat preparation) is required.",
+  "ddx": [
+    {"dx": "Monocytes", "vs": "Monocytes have folded or kidney-shaped nuclei with lacy chromatin and gray cytoplasm with fine azurophilic granules, and are usually smaller than activated histiocytes."},
+    {"dx": "Circulating plasma cells (plasma cell leukemia)", "vs": "Plasma cells show eccentric nuclei with clock-face chromatin, deep basophilic cytoplasm and a perinuclear hof."},
+    {"dx": "Circulating carcinoma or lymphoma cells", "vs": "Tumor cells show high N:C ratio, nuclear atypia, prominent nucleoli and often cohesive clusters."},
+    {"dx": "Endothelial cells (venipuncture contaminant)", "vs": "Endothelial cells are elongated with oval nuclei and occur in cohesive sheets from the needle tip rather than as isolated round cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

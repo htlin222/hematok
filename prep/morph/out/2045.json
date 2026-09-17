@@ -1,0 +1,23 @@
+{
+  "id": "2045",
+  "recognize_zh": "低倍下周邊血液抹片中散布大量小而深染的淋巴球，數量遠超過其他白血球，大小僅略大於紅血球、細胞質極少，符合 CLL 的絕對淋巴球增多（absolute lymphocytosis）。",
+  "features": [
+    "Marked increase in small lymphocytes at low power",
+    "Lymphocytes only slightly larger than red cells with scant cytoplasm",
+    "Dense, darkly staining round nuclei",
+    "Monotonous population without appreciable granulocytes in field",
+    "Occasional smudge-like disrupted cell (lower left)",
+    "Red cells normochromic with no significant poikilocytosis at this magnification"
+  ],
+  "describe_en": "Low-power view of a peripheral blood smear shows a marked lymphocytosis composed of a monotonous population of small lymphocytes with dense round nuclei and scant cytoplasm. Granulocytes are not appreciated in this field, and an occasional smudge-like cell is present. Red cells are unremarkable at this magnification. Nuclear chromatin detail cannot be assessed at this power. Findings are suggestive of chronic lymphocytic leukemia, to be confirmed by flow cytometry showing a clonal B-cell population of at least 5 x 10^9/L.",
+  "ddx": [
+    {"dx": "Reactive lymphocytosis (e.g., viral infection, pertussis)", "vs": "Reactive lymphocytes are pleomorphic with abundant cytoplasm or, in pertussis, cleaved nuclei in children, and lack a clonal CD5+/CD23+ B-cell population."},
+    {"dx": "Leukemic mantle cell lymphoma", "vs": "Leukemic MCL cells are often more irregular and pleomorphic and are CD23 negative with cyclin D1 positivity, which requires flow/IHC to exclude."},
+    {"dx": "Monoclonal B-cell lymphocytosis", "vs": "MBL is morphologically identical but has a clonal B-cell count below 5 x 10^9/L without lymphadenopathy, organomegaly or cytopenias."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL lymphocytes have polar villous cytoplasmic projections and are usually CD5 and CD23 negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

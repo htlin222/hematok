@@ -1,0 +1,22 @@
+{
+  "id": "62134",
+  "recognize_zh": "九格圖中的細胞胞質充滿粗大嗜酸性顆粒，細胞核呈甜甜圈狀環形（ring-shaped nucleus），中央有淡染孔洞，符合環狀核嗜酸性球。",
+  "features": [
+    "Granulocytes filled with coarse orange-red to purplish eosinophilic granules",
+    "Ring- or doughnut-shaped nuclei encircling a central pale cytoplasmic hole",
+    "Some cells with incompletely closed rings or band-like/bilobed nuclei (B, C, G)",
+    "Occasional granules with a darker purple hue, suggesting immature or mixed granulation",
+    "Normal-appearing background red cells; single cells shown at high magnification"
+  ],
+  "describe_en": "This composite of high-power peripheral blood or aspirate fields shows multiple eosinophils with abundant coarse eosinophilic granules. Most cells have ring-shaped (doughnut) nuclei surrounding a central pale zone, while a few show band-like or partially segmented nuclei. Granules are occasionally darker purple, but no blast features are seen in the pictured cells. Findings are consistent with eosinophils with ring-shaped nuclei, a nonspecific nuclear variant that can be seen with drug exposure (such as adalimumab) and also in myeloid neoplasms, so clinical and hematologic correlation is required.",
+  "ddx": [
+    {"dx": "Ring neutrophils in myeloid neoplasm or MDS", "vs": "Ring-nucleated neutrophils have fine lilac granules, whereas these cells carry coarse eosinophilic granules identifying the eosinophil lineage."},
+    {"dx": "Ring sideroblast", "vs": "Ring sideroblasts are erythroid precursors with perinuclear iron granules seen only on Prussian blue stain, not granulocytes with doughnut-shaped nuclei."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia", "vs": "Clonal eosinophilia shows sustained eosinophil counts with dysplastic features and PDGFRA/PDGFRB/FGFR1/JAK2 rearrangements rather than isolated nuclear variants after drug exposure."},
+    {"dx": "Basophil", "vs": "Basophils have dark blue-black granules obscuring the nucleus rather than refractile orange-red eosinophilic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3940",
+  "recognize_zh": "兒童骨髓抹片細胞量豐富，以各階段成熟中的顆粒球（前骨髓球、骨髓球、後骨髓球）為主，夾雜小淋巴球與晚期有核紅血球，沒有單一型態的母細胞群，屬反應性骨髓。",
+  "features": [
+    "Cellular aspirate dominated by maturing granulocytic precursors (promyelocytes, myelocytes, metamyelocytes, bands)",
+    "Myeloid cells show orderly maturation with azurophilic to specific granules and no Auer rods",
+    "Scattered small mature lymphocytes and occasional hematogone-like cells with scant cytoplasm",
+    "Late (orthochromatic) erythroid precursors with dense pyknotic nuclei",
+    "No monotonous blast population; background red cells with drying artifact"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular and shows a predominance of granulocytic precursors with an orderly progression through promyelocyte, myelocyte, metamyelocyte, and band stages. Scattered small lymphocytes and late erythroid precursors are present. No Auer rods, monotonous blast population, or significant dysplasia is identified in this field. Findings are consistent with a reactive marrow with myeloid hyperplasia in a pediatric patient; correlation with differential count and clinical history (infection, recovery) is recommended.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "AML shows a monotonous population of blasts (typically >=20%) with fine chromatin, nucleoli, and possibly Auer rods, rather than orderly full-spectrum maturation."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL replaces the marrow with uniform lymphoblasts, whereas hematogones are few and show a maturational spectrum on flow cytometry."},
+    {"dx": "Chronic myeloid leukemia (pediatric)", "vs": "CML shows marked myeloid hyperplasia with basophilia, eosinophilia, and small megakaryocytes, and is BCR::ABL1 positive."},
+    {"dx": "Juvenile myelomonocytic leukemia", "vs": "JMML shows monocytosis, dysplasia, and RAS-pathway mutations rather than a simple granulocytic left shift."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

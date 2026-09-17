@@ -1,0 +1,22 @@
+{
+  "id": "63341",
+  "recognize_zh": "箭頭所指的紅血球大小正常，裡面的環狀體有兩個染色質點（double chromatin dot，俗稱耳機狀），左側另一顆紅血球也有類似雙點環；雙點環且紅血球不腫大是惡性瘧原蟲（P. falciparum）的經典線索。",
+  "features": [
+    "Normal-sized red cell containing a ring-form trophozoite with a double chromatin dot (headphone form)",
+    "Additional infected red cell with paired chromatin dots on the left",
+    "Infected red cells not enlarged; no Schüffner stippling",
+    "No schizonts or crescent-shaped gametocytes in this field",
+    "Background crenated and overlapping red cells with a smear streak artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered red cells, some crenated. The arrowed normal-sized red cell contains a small ring-form trophozoite with a double chromatin dot, and a second red cell shows a similar form. There is no red cell enlargement, Schüffner stippling, schizont or gametocyte in this field. Findings are consistent with Plasmodium falciparum ring-form trophozoites.",
+  "ddx": [
+    {"dx": "Plasmodium vivax", "vs": "Vivax rings occur in enlarged red cells with Schüffner dots and are accompanied by amoeboid trophozoites and schizonts."},
+    {"dx": "Plasmodium knowlesi", "vs": "Knowlesi early rings can mimic falciparum but show band-form trophozoites and schizonts; PCR is needed for confirmation."},
+    {"dx": "Babesia", "vs": "Babesia shows pleomorphic and extracellular rings and tetrads without hemozoin pigment."},
+    {"dx": "Overlying platelets", "vs": "Platelets on red cells are granular and lack a ring of cytoplasm connecting chromatin dots."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

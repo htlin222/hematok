@@ -1,0 +1,21 @@
+{
+  "id": "1022",
+  "recognize_zh": "周邊血抹片白血球極多、幾乎佔滿視野，可見從骨髓球、中骨髓球、後骨髓球到帶狀與分葉中性球的完整成熟階段，並有嗜鹼性球，呈「骨髓在血液中」的樣貌，符合慢性骨髓性白血病（CML）的高白血球。",
+  "features": [
+    "Marked leukocytosis with white cells crowding the field",
+    "Full spectrum of granulocytic maturation: myelocytes, metamyelocytes, bands and segmented neutrophils",
+    "Myelocytes predominate among immature forms (myelocyte bulge); blasts not increased in this field",
+    "Scattered basophils with dark granules",
+    "Occasional nucleated red cells; red cells compressed between leukocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with a left-shifted granulocytic population spanning myelocytes, metamyelocytes, bands and segmented neutrophils, with a prominence of myelocytes. Basophils are present, and blasts are not increased in this field. Granulocytes lack significant dysplasia or toxic change. Findings are consistent with chronic myeloid leukemia with hyperleukocytosis; confirmation of BCR::ABL1 by FISH or RT-PCR is required.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "Leukemoid reactions show toxic granulation and Döhle bodies with a metamyelocyte/band predominance, no basophilia, and lack BCR::ABL1."},
+    {"dx": "Atypical CML (BCR::ABL1-negative)", "vs": "aCML shows prominent granulocytic dysplasia with little basophilia and lacks BCR::ABL1."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL consists mainly of mature segmented neutrophils with less than 10% immature granulocytes and harbors CSF3R mutation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

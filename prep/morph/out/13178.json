@@ -1,0 +1,21 @@
+{
+  "id": "13178",
+  "recognize_zh": "左圖腦脊髓液細胞離心抹片可見兩顆核偏位、染色質粗塊、胞質灰藍的漿細胞；右圖腦脊髓液免疫固定電泳顯示 IgG 與 kappa 同位置的單株帶、lambda 為陰性，符合骨髓瘤腦膜侵犯（meningeal myelomatosis）。",
+  "features": [
+    "CSF cytospin with two plasma cells having eccentric round nuclei",
+    "Coarsely clumped chromatin without prominent nucleoli",
+    "Moderate gray-blue cytoplasm with a paler perinuclear zone and irregular cell borders",
+    "Immunofixation of CSF: discrete band in ELP, IgG and kappa lanes at the same position",
+    "No band in the lambda lane, indicating monoclonal IgG kappa"
+  ],
+  "describe_en": "Cerebrospinal fluid cytospin shows plasma cells with eccentric round nuclei, coarse chromatin, and moderate amounts of basophilic cytoplasm with a perinuclear clear zone; the cytospin artifact slightly distorts cell borders. Immunofixation electrophoresis of the CSF demonstrates a discrete band in the electrophoresis, IgG, and kappa lanes with no corresponding lambda band, indicating a monoclonal IgG kappa protein matching the patient's known paraprotein. Findings are consistent with central nervous system involvement by plasma cell myeloma (meningeal myelomatosis); flow cytometry of the CSF can confirm clonality.",
+  "ddx": [
+    {"dx": "Reactive CSF plasmacytosis (infection, multiple sclerosis)", "vs": "Reactive plasma cells are polytypic and accompanied by lymphocytes and monocytes, and oligoclonal bands rather than a single monoclonal IgG kappa band are seen."},
+    {"dx": "Lymphomatous meningitis", "vs": "Lymphoma cells have high N:C ratio, irregular nuclei, and scant cytoplasm without hof, and flow cytometry shows CD19/CD20 B cells rather than CD38/CD138 plasma cells."},
+    {"dx": "Serum paraprotein leak across a disrupted blood-brain barrier", "vs": "A CSF band alone can reflect passive transfer, so the presence of clonal plasma cells in the CSF is required to diagnose meningeal involvement."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa; immunofixation electrophoresis",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "64076",
+  "recognize_zh": "流式細胞散佈圖（CD45dim 閘門）顯示這群細胞 cytoplasmic CD3 與 CD7 強陽性，但 CD4、CD8、CD1a 皆陰性，CD5 弱，並表現 CD13/CD33 與部分 CD56、CD10；確立 T 淋巴母細胞系，且 CD1a−/CD8−/CD5 弱加骨髓系標記的組合要想到 early T-precursor（ETP）表型。",
+  "features": [
+    "Seven flow cytometry dot plots gated on CD45-dim events",
+    "Cytoplasmic CD3 and CD7 positive (bright CD7), establishing T lineage",
+    "CD4 and CD8 double negative; CD1a negative; HLA-DR negative",
+    "Dim-to-partial CD5 and partial CD10 expression",
+    "CD13 positive and weak CD33 expression; CD56 positive on a subset with a heterogeneous smear",
+    "Non-morphologic image; CD34, CD117, and surface CD3 are stated negative but not plotted"
+  ],
+  "describe_en": "Flow cytometric dot plots gated on CD45-dim events show an abnormal population expressing cytoplasmic CD3 and bright CD7, with dim/partial CD5, partial CD10, CD13, weak CD33, and a CD56-positive subset. The population is negative for CD4, CD8, CD1a, and HLA-DR, and per the report lacks surface CD3, CD34, and CD117. Cytoplasmic CD3 with CD7 establishes T-lineage commitment, and the immature phenotype supports T-lymphoblastic leukemia/lymphoma in the appropriate setting (TdT status not shown). The CD1a-negative, CD8-negative, CD5-dim profile with myeloid antigen expression raises the possibility of an early T-precursor (ETP) immunophenotype, and exclusion of mixed-phenotype acute leukemia requires MPO assessment.",
+  "ddx": [
+    {"dx": "Mixed-phenotype acute leukemia, T/myeloid", "vs": "MPAL T/myeloid requires MPO positivity (or monocytic differentiation) in addition to cytoplasmic CD3, whereas CD13/CD33 alone are insufficient to assign myeloid lineage."},
+    {"dx": "AML with aberrant CD7 expression", "vs": "AML may express CD7 and CD56 but lacks strong cytoplasmic CD3 and is usually MPO-positive or shows CD34/CD117 expression."},
+    {"dx": "Mature T-cell or NK-cell neoplasm", "vs": "Mature T-cell lymphomas express surface CD3 and usually CD4 or CD8 without TdT or CD10, and NK neoplasms lack cytoplasmic CD3 epsilon by most flow clones."},
+    {"dx": "Cortical thymic T-ALL", "vs": "Cortical T-ALL is CD1a-positive and often CD4/CD8 double positive, unlike this CD1a-negative double-negative population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20992",
+  "recognize_zh": "周邊血液中一顆分葉核嗜中性球的細胞質內有數顆被吞入的血小板，位於淡色空泡中，呈紫色顆粒狀小體；背景血小板稀少，這是血小板被嗜中性球吞噬（platelet phagocytosis），可能造成假性血小板低下。",
+  "features": [
+    "Segmented neutrophil with multiple engulfed platelets within clear cytoplasmic vacuoles",
+    "Phagocytosed platelets appear as purple granular bodies of platelet size",
+    "Neutrophil nucleus with normal lobation",
+    "Very few free platelets in the background",
+    "Normocytic red cells without schistocytes or intraerythrocytic inclusions"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic erythrocytes and few free platelets. A segmented neutrophil contains several phagocytosed platelets, recognized as small purple granular bodies within clear cytoplasmic vacuoles. No platelet clumps, schistocytes or organisms are identified in this field. Findings are consistent with platelet phagocytosis by neutrophils, an in vitro EDTA-associated phenomenon that can cause spurious thrombocytopenia; a citrate-anticoagulated count and smear review are recommended.",
+  "ddx": [
+    {"dx": "Platelet satellitism", "vs": "In satellitism platelets adhere around the outer surface of neutrophils rather than lying inside cytoplasmic vacuoles."},
+    {"dx": "Anaplasma or Ehrlichia morula", "vs": "A morula is a single dense stippled cluster without a surrounding clear vacuole and with a clinical tick exposure."},
+    {"dx": "Phagocytosed bacteria or fungi", "vs": "Bacteria are uniform rods or cocci and Histoplasma yeasts show halos, whereas platelets are granular and the size of free platelets."},
+    {"dx": "Toxic vacuolization with toxic granulation", "vs": "Toxic vacuoles are empty and accompanied by fine dark granules and Döhle bodies, not platelet-sized granular bodies."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

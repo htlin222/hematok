@@ -1,0 +1,21 @@
+{
+  "id": "65134",
+  "recognize_zh": "這是周邊血流式細胞圖：在 CD19+ B 細胞中圈出一小群 CD20 與 CD22 強表現、CD11c 強陽性的細胞，並共表現 CD25、CD103、CD123、CD200，數量極少，代表毛細胞白血病治療後的微量殘存疾病（MRD）。",
+  "features": [
+    "Sequential gating: singlets, CD45 versus SSC, CD19-positive B cells with slightly higher SSC",
+    "Small cluster (black events) with bright CD20 and bright CD22 co-expressing bright CD11c (P3 gate)",
+    "P3 events co-express CD25, CD103, CD123 and CD200, separating them from normal B cells (red events)",
+    "Light-chain plot shows the black events skewed to one light chain (lambda per description)",
+    "Very low event count consistent with low-level residual disease"
+  ],
+  "describe_en": "Peripheral blood flow cytometry plots with sequential gating from singlets through CD45/SSC to CD19-positive B cells. A small discrete population is identified with bright CD20 and CD22, bright CD11c, and co-expression of CD25, CD103, CD123 and CD200, with light-chain skewing; residual normal B cells (red events) lack CD103, CD25 and CD123. The population is present at a very low frequency (0.04% of events per clinical history). Findings are consistent with minimal residual hairy cell leukemia after cladribine therapy.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-variant is typically CD25-negative and CD123-negative, whereas this residual population co-expresses CD25 and CD123."},
+    {"dx": "Normal/regenerating B cells (hematogones or naive B cells)", "vs": "Normal B cells are polytypic and lack CD103, CD25 and bright CD11c, as shown by the red background events."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL may express CD11c or CD25 weakly but rarely shows the full CD103+/CD25+/CD123+/bright CD11c/CD200+ profile."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

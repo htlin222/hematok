@@ -1,0 +1,22 @@
+{
+  "id": "29549",
+  "recognize_zh": "A 圖為鱗狀上皮下真皮組織，膠原間散布非典型大型細胞浸潤；B 圖在脂肪組織背景中大型異型細胞呈深黑色核訊號，型態上符合 EBV 原位雜交（EBER ISH）陽性的大型淋巴瘤細胞。標題中的乳酸酸中毒屬臨床資訊，無法由圖像判讀。",
+  "features": [
+    "Panel A: squamous epithelium with underlying dermis containing a perivascular and interstitial infiltrate of atypical cells with enlarged hyperchromatic nuclei",
+    "Panel B: large atypical cells with strong dark nuclear signal scattered among adipocytes",
+    "Positive cells are large with irregular nuclei and vacuolated/foamy surrounding cytoplasm",
+    "Staining method in panel B is not labeled; the dark nuclear signal pattern resembles EBER in situ hybridization",
+    "Image quality and color cast limit fine cytologic assessment"
+  ],
+  "describe_en": "Composite figure. Panel A (H&E) shows squamous epithelium with an underlying dermal infiltrate of atypical cells with enlarged hyperchromatic nuclei among collagen bundles and small vessels. Panel B shows large atypical cells within adipose tissue with a strong dark nuclear signal, a pattern consistent with EBER in situ hybridization, although the stain is not labeled. Resolution and color balance limit detailed cytologic assessment, and the metabolic complication (lactic acidosis) cannot be evaluated morphologically. Findings are suggestive of an EBV-positive large B-cell lymphoma in an HIV-positive patient, requiring CD20/PAX5, CD30, MUM1, Ki-67 and EBER studies for confirmation.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is also EBER positive in HIV but is CD20/PAX5 negative and expresses CD138, MUM1 and PRDM1 with plasmacytoid morphology."},
+    {"dx": "Primary effusion lymphoma, extracavitary", "vs": "Extracavitary PEL is HHV-8 (LANA) positive, usually CD20 negative, whereas EBV-positive DLBCL is HHV-8 negative."},
+    {"dx": "Kaposi sarcoma", "vs": "Kaposi sarcoma is a spindle cell vascular proliferation with slit-like spaces and HHV-8 positivity rather than discohesive large lymphoid cells."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are medium-sized and monotonous with a starry-sky pattern, Ki-67 near 100% and MYC rearrangement."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; possible ISH: EBER (B)",
+  "match": "partial",
+  "high_yield": false
+}

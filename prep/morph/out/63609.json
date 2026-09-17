@@ -1,0 +1,22 @@
+{
+  "id": "63609",
+  "recognize_zh": "H&E 圖中淡粉紅色類上皮組織球肉芽腫（epithelioid granuloma）旁邊夾雜深染的原始樣淋巴細胞，這些細胞 TdT 核染色與 CD3 皆瀰漫陽性，代表不成熟 T 細胞，即伴肉芽腫的 T 淋巴母細胞白血病／淋巴瘤；CD34 圖以血管內皮陽性為主。",
+  "features": [
+    "H&E: dense infiltrate of small to medium hyperchromatic blast-like lymphoid cells bordering pale eosinophilic epithelioid histiocyte aggregates",
+    "TdT: diffuse strong nuclear staining of the infiltrate, sparing the granulomatous area",
+    "CD3: diffuse staining of the atypical lymphoid cells",
+    "CD34: prominent endothelial staining of vessels; staining of the neoplastic cells is weak or not convincingly demonstrated",
+    "Composite of H&E and three immunohistochemical panels on a biopsy core"
+  ],
+  "describe_en": "Composite figure of a tissue biopsy. The H&E panel shows a dense infiltrate of hyperchromatic blast-like lymphoid cells admixed with and surrounding aggregates of epithelioid histiocytes forming granulomas. The lymphoid cells are diffusely positive for nuclear TdT and for CD3, indicating an immature T-cell phenotype. In the CD34 panel the endothelium is strongly positive while the neoplastic cells show only weak or equivocal staining, so CD34 positivity described in the legend is not clearly evident in this field. Findings are consistent with T-lymphoblastic leukemia/lymphoma accompanied by an epithelioid granulomatous reaction.",
+  "ddx": [
+    {"dx": "Mycobacterial or fungal granulomatous inflammation", "vs": "Infectious granulomas are accompanied by mature TdT-negative lymphocytes and often necrosis, with organisms on special stains."},
+    {"dx": "Type B thymoma", "vs": "Thymoma has a cytokeratin-positive epithelial meshwork among TdT+ T cells, which is absent in lymphoblastic lymphoma."},
+    {"dx": "Classic Hodgkin lymphoma with granulomas", "vs": "Hodgkin lymphoma contains CD30+/CD15+ Hodgkin/Reed-Sternberg cells, and the background T cells are TdT-negative."},
+    {"dx": "Peripheral T-cell lymphoma, lymphoepithelioid (Lennert) variant", "vs": "Lennert lymphoma shows mature CD3+ T cells that lack TdT and CD34."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: TdT, CD3, CD34",
+  "match": "partial",
+  "high_yield": false
+}

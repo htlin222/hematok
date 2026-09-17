@@ -1,0 +1,22 @@
+{
+  "id": "64375",
+  "recognize_zh": "紅血球之間有兩隻細長、呈 S 形或波浪狀的細胞外寄生蟲，一端有游離鞭毛、沿蟲體有波動膜，後端可見小的動基體（kinetoplast），這是非洲錐蟲（Trypanosoma brucei rhodesiense）的錐鞭毛體。",
+  "features": [
+    "Two extracellular, slender, serpentine flagellates lying between red cells",
+    "Length roughly 2-3 red cell diameters, with a tapering anterior free flagellum",
+    "Undulating membrane along the body giving a wavy outline",
+    "Central nucleus with a small, inconspicuous terminal kinetoplast",
+    "Background red cells normochromic; numerous platelets; no intracellular parasites"
+  ],
+  "describe_en": "Peripheral blood smear shows two extracellular slender, serpentine trypomastigotes lying free between red cells. Each organism has an undulating membrane, a central nucleus, a free anterior flagellum and a small posterior kinetoplast. No intraerythrocytic parasites are seen, and the red cells and platelets are otherwise unremarkable. Findings are consistent with trypanosomiasis of the Trypanosoma brucei type; in the stated clinical context this represents T. b. rhodesiense (East African sleeping sickness), which cannot be separated from T. b. gambiense by morphology alone.",
+  "ddx": [
+    {"dx": "Trypanosoma cruzi", "vs": "T. cruzi trypomastigotes are C- or U-shaped with a large, prominent terminal kinetoplast that bulges the body, whereas T. brucei has a small kinetoplast and slender wavy form."},
+    {"dx": "Trypanosoma brucei gambiense", "vs": "Gambiense and rhodesiense are morphologically identical; distinction is by geography, clinical tempo, and molecular testing (e.g., SRA gene PCR for rhodesiense)."},
+    {"dx": "Microfilariae", "vs": "Microfilariae are much larger, many red cells long, with a column of nuclei and no undulating membrane or kinetoplast."},
+    {"dx": "Fibrin strands or platelet artifact", "vs": "Fibrin strands lack a nucleus, kinetoplast and undulating membrane."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

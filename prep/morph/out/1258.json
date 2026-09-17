@@ -1,0 +1,22 @@
+{
+  "id": "1258",
+  "recognize_zh": "H&E 切片中有一群細胞的細胞質內含大量粗細不一的棕色色素顆粒，部分遮蓋細胞核，周圍是小淋巴球、漿細胞與具淡染核、細胞質豐富的上皮樣大細胞；在骨髓轉移的背景下，棕色色素支持黑色素，但需與含鐵血黃素鑑別。",
+  "features": [
+    "Cluster of large cells with abundant coarse and fine brown granular cytoplasmic pigment, partly obscuring nuclei",
+    "Scattered single pigment-laden cells elsewhere in the field",
+    "Admixed larger epithelioid cells with oval vesicular nuclei and pale eosinophilic cytoplasm",
+    "Background of many small lymphocytes and plasma cells",
+    "Occasional small vessels with red cells; no normal fat or hematopoietic lineage architecture clearly visible in this field"
+  ],
+  "describe_en": "Section shows a cellular infiltrate containing a cluster of large cells with abundant coarse brown granular cytoplasmic pigment, along with scattered epithelioid cells with oval vesicular nuclei in a background of small lymphocytes and plasma cells. Many pigmented cells may represent melanophages rather than tumor cells, and the pigment cannot be distinguished from hemosiderin on H&E alone. Special stains (Fontana-Masson, Prussian blue) and melanocytic immunostains (SOX10, S100, Melan-A, HMB45) are needed for confirmation. In the clinical context, findings are suggestive of metastatic melanoma involving the bone marrow.",
+  "ddx": [
+    {"dx": "Hemosiderin-laden macrophages", "vs": "Hemosiderin is golden-brown, refractile and Prussian blue-positive, whereas melanin is finer, dark brown and Fontana-Masson-positive, and background tumor cells are SOX10-positive."},
+    {"dx": "Formalin (acid hematin) pigment", "vs": "Formalin pigment is extracellular, birefringent, uniformly fine black-brown and unrelated to cells, unlike this intracytoplasmic pigment."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells are cohesive, keratin-positive and non-pigmented."},
+    {"dx": "Histiocytic sarcoma or reactive histiocytosis", "vs": "Histiocytic proliferations are CD163/CD68-positive and SOX10/S100-negative apart from pigment phagocytosis."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

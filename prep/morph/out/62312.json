@@ -1,0 +1,34 @@
+{
+	"id": "62312",
+	"recognize_zh": "骨髓切片細胞密度增加，腫瘤細胞核圓形或腎形、彼此被清亮細胞質隔開，呈「荷包蛋」（fried-egg）樣外觀，正常造血細胞明顯減少，是毛狀細胞白血病（HCL）的典型骨髓切片。",
+	"features": [
+		"Hypercellular marrow with a diffuse interstitial infiltrate replacing normal hematopoiesis",
+		"Small to medium cells with round, oval or reniform nuclei and bland chromatin",
+		"Abundant clear cytoplasm with distinct cell borders keeping nuclei widely spaced ('fried-egg' appearance)",
+		"Inconspicuous nucleoli and absent mitotic activity",
+		"Scattered extravasated red cells; residual hematopoietic elements markedly reduced"
+	],
+	"describe_en": "Bone marrow core biopsy is hypercellular and shows a diffuse interstitial infiltrate that effaces much of the normal hematopoietic tissue. At high power the infiltrate consists of small to medium-sized cells with round to reniform nuclei, bland chromatin and inconspicuous nucleoli, separated by abundant clear cytoplasm with well-defined cell borders, imparting a 'fried-egg' appearance. Extravasated red cells are present in the background, and mitoses are not evident. Findings are consistent with bone marrow involvement by hairy cell leukemia; reticulin stain and immunohistochemistry (CD20, annexin A1, TRAP, cyclin D1, BRAF V600E) are recommended for confirmation.",
+	"ddx": [
+		{
+			"dx": "Systemic mastocytosis",
+			"vs": "Mast cell lesions form paratrabecular/perivascular aggregates of spindled cells with fibrosis and eosinophils, and are CD117/tryptase positive and CD20 negative."
+		},
+		{
+			"dx": "Splenic marginal zone lymphoma",
+			"vs": "SMZL cells have scant cytoplasm and form nodular or intrasinusoidal infiltrates rather than widely spaced fried-egg cells, and are annexin A1 negative."
+		},
+		{
+			"dx": "Hypoplastic MDS / aplastic anemia",
+			"vs": "Hypocellular marrows lack a monotonous infiltrate of CD20+ B cells and do not show the fried-egg spacing pattern."
+		},
+		{
+			"dx": "Hairy cell leukemia variant",
+			"vs": "HCL-v shows more intrasinusoidal involvement and cells with prominent nucleoli, and is annexin A1 and BRAF V600E negative."
+		}
+	],
+	"specimen": "BM biopsy",
+	"stain": "H&E",
+	"match": "consistent",
+	"high_yield": true
+}

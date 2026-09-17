@@ -1,0 +1,22 @@
+{
+  "id": "64010",
+  "recognize_zh": "周邊血液中多顆大型母細胞與單核球樣細胞，核呈摺疊、腎形或有凹陷，染色質細緻、細胞質灰藍，上方一顆細胞含粗大紫紅顆粒（疑為異常嗜酸性球前驅細胞）；「單核球分化的母細胞＋異常嗜酸性球」提示 AML 合併 inv(16)。",
+  "features": [
+    "Large blasts with fine, lacy chromatin and small nucleoli",
+    "Monocytoid cells with folded, reniform, or indented nuclei",
+    "Moderate grayish-blue cytoplasm, some with fine granules",
+    "One cell (top) with coarse purple-red cytoplasmic granules, suggestive of an abnormal eosinophil",
+    "No Auer rods evident; background red cells with rouleaux-like overlap and uneven staining"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous large blasts and monocytoid cells with fine chromatin, small nucleoli, moderate grayish-blue cytoplasm, and folded or reniform nuclei. One cell contains coarse purple-red granules and likely represents an abnormal eosinophil, although granule detail is limited by image quality. Auer rods are not evident in this field. Findings are suggestive of acute myeloid leukemia with myelomonocytic differentiation; the presence of abnormal eosinophils raises AML with inv(16)/t(16;16) (CBFB::MYH11), which should be confirmed by cytogenetics or molecular testing.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia (without inv(16))", "vs": "Morphology of monocytic blasts overlaps; absence of abnormal eosinophils and negative CBFB::MYH11 testing distinguish it."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML has fewer than 20% blasts including promonocytes with mature monocytosis, rather than predominant blasts."},
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL cells have bilobed 'butterfly' nuclei, often with Auer rod bundles, and strong MPO with PML::RARA."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes have mature condensed chromatin, abundant vacuolated cytoplasm, and no blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

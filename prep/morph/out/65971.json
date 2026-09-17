@@ -1,0 +1,22 @@
+{
+  "id": "65971",
+  "recognize_zh": "紅血球間散在多種碎裂紅血球（schistocytes），包括頭盔狀（helmet cell）、三角形與不規則收縮的碎片，視野內幾乎看不到血小板，符合微血管病變性溶血合併嚴重血小板低下。",
+  "features": [
+    "Multiple fragmented red cells: helmet cells, triangular fragments and irregular contracted forms",
+    "Fragments lack central pallor and show sharp angular edges or straight cut margins",
+    "Remaining red cells are normocytic with central pallor, some with mild crenation",
+    "Platelets markedly decreased; essentially none visible in this field",
+    "One neutrophil with a band/C-shaped nucleus and fine granules; no nucleated red cells or spherocyte clusters"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic red cells with numerous schistocytes, including helmet cells, triangular fragments, and irregularly contracted forms with sharp angular margins. Platelets are markedly decreased, with essentially none identified in this field. A single neutrophil with a band-form nucleus is present without toxic changes or blasts. Findings are consistent with microangiopathic hemolysis with severe thrombocytopenia; correlation with LDH, haptoglobin, coagulation studies (DIC screen), and ADAMTS13 activity is recommended.",
+  "ddx": [
+    {"dx": "Thrombotic thrombocytopenic purpura / hemolytic uremic syndrome", "vs": "TTP/HUS produce identical schistocytes; TTP is distinguished by ADAMTS13 activity <10% and HUS by renal failure with Shiga toxin or complement abnormalities, with normal coagulation times."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC shows schistocytes with prolonged PT/aPTT, low fibrinogen and elevated D-dimer, which is expected in dengue-associated coagulopathy."},
+    {"dx": "Bite cells / blister cells (oxidative hemolysis)", "vs": "Bite cells have a semicircular bite with an intact cell and Heinz bodies on supravital stain, not triangular or helmet-shaped fragments."},
+    {"dx": "Crenation or drying artifact", "vs": "Artifactual echinocytes have regular scalloped spicules evenly around an intact cell and appear in thick areas, unlike true fragmented cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60799",
+  "recognize_zh": "骨髓抹片中大型非造血細胞成黏聚團塊（A）或散在分布（B），核偏位、核仁明顯、胞質灰藍，無可見黑色素；切片呈上皮樣細胞片狀取代骨髓（C），免疫染色呈強烈胞質及核陽性（D），支持無色素性黑色素瘤轉移。",
+  "features": [
+    "Panel A: cohesive syncytial-like cluster of large cells with overlapping round to oval nuclei on the aspirate",
+    "Panel B: dispersed large cells with eccentric nuclei, prominent nucleoli and moderate gray-blue cytoplasm, mimicking plasma cells or blasts",
+    "No melanin pigment visible in the cytoplasm",
+    "Panel C: biopsy with sheets of epithelioid cells with vesicular nuclei and eosinophilic cytoplasm replacing marrow between fat spaces",
+    "Panel D: strong diffuse nuclear and cytoplasmic immunoreactivity (melanocytic marker, likely S100) in tumor cells"
+  ],
+  "describe_en": "Bone marrow aspirate smears show cohesive clusters (A) and scattered single (B) large non-hematopoietic cells with eccentric round nuclei, prominent nucleoli and moderate gray-blue cytoplasm without visible pigment. The core biopsy (C) shows sheets of epithelioid tumor cells with vesicular nuclei replacing normal hematopoiesis. Immunohistochemistry (D) shows strong nuclear and cytoplasmic positivity in the tumor cells; the specific antibody is not labeled. Findings are consistent with metastatic amelanotic melanoma involving the bone marrow.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Plasmacytoid single cells can mimic this, but myeloma cells are discohesive, CD138/MUM1 positive with light-chain restriction and negative for S100/SOX10."},
+    {"dx": "Metastatic carcinoma", "vs": "Also forms cohesive clusters but is cytokeratin positive and S100/SOX10/Melan-A negative."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Large cohesive-appearing cells can mimic metastasis, but they are CD30 and ALK/CD45 positive and melanocytic-marker negative."},
+    {"dx": "Acute myeloid leukemia", "vs": "Blasts are discohesive with fine chromatin and express CD34/CD117/MPO rather than melanocytic markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC (melanocytic marker)",
+  "match": "consistent",
+  "high_yield": false
+}

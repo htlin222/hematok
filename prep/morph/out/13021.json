@@ -1,0 +1,22 @@
+{
+  "id": "13021",
+  "recognize_zh": "A 圖膝關節 MRI 的股骨遠端與脛骨近端骨髓出現大片異常低至中等訊號區，B 圖骨髓切片細胞密度極高、以各階段顆粒球為主並有嗜酸性顆粒細胞，對應慢性骨髓性白血病（CML）的骨髓過度增生；診斷需 BCR::ABL1 證實。",
+  "features": [
+    "Radiology (A): sagittal knee MRI with extensive abnormal intermediate-low signal replacing marrow of distal femur and proximal tibia metaphyses; inset shows fibular epiphyseal involvement (arrow)",
+    "BM biopsy (B): markedly hypercellular (near 100%) marrow abutting a bony trabecula with no visible fat",
+    "BM biopsy (B): sheets of maturing granulocytic precursors with round to indented nuclei",
+    "BM biopsy (B): scattered cells with eosinophilic granular cytoplasm (eosinophil precursors)",
+    "Megakaryocyte morphology not well assessable in this field"
+  ],
+  "describe_en": "Sagittal MRI of the knee shows extensive intermediate-to-low signal intensity replacing normal fatty marrow in the diametaphyseal regions of the distal femur and proximal tibia, with involvement of the fibular epiphysis on the inset. The bone marrow biopsy shows a markedly hypercellular marrow with near-absent fat, composed of sheets of maturing granulocytic precursors with admixed eosinophilic granulocytes. No sheets of blasts are evident at this magnification. In conjunction with the leukocytosis and left-shifted differential, findings are consistent with a myeloproliferative neoplasm, and with the demonstrated t(9;22) are diagnostic of chronic myeloid leukemia, BCR::ABL1-positive.",
+  "ddx": [
+    {"dx": "Red marrow reconversion (athletes, anemia, smoking)", "vs": "Reconversion shows patchy signal that spares epiphyses and a normocellular marrow with normal blood counts, whereas CML involves epiphyses with hypercellular granulocytic marrow."},
+    {"dx": "Leukemoid reaction / reactive granulocytic hyperplasia", "vs": "Reactive hyperplasia lacks basophilia and eosinophilia, has high LAP score and is BCR::ABL1 negative."},
+    {"dx": "Chronic neutrophilic leukemia or atypical CML", "vs": "These are BCR::ABL1 negative, with CSF3R mutation or dysgranulopoiesis respectively."},
+    {"dx": "Acute leukemia or marrow-infiltrating lymphoma", "vs": "These also cause diffuse MRI marrow replacement but show sheets of blasts or atypical lymphoid cells rather than full granulocytic maturation."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; MRI (T2-weighted, T1 inset)",
+  "match": "consistent",
+  "high_yield": false
+}

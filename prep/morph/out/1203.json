@@ -1,0 +1,22 @@
+{
+  "id": "1203",
+  "recognize_zh": "免疫組織化學（紅色呈色）中大多數大型腫瘤細胞呈強烈、瀰漫的核染色，小淋巴球等背景細胞為陰性（藍色），配合原發性積液淋巴瘤（PEL），此核陽性型態符合 HHV8（LANA）或漿細胞相關核標記的表現。",
+  "features": [
+    "Strong diffuse nuclear staining with red chromogen in the majority of large tumor cells",
+    "Positive nuclei round to oval and variably sized, reflecting large-cell morphology",
+    "Interspersed negative hematoxylin-counterstained smaller cells",
+    "Loose, discohesive cellular arrangement without tissue architecture",
+    "Marker not labeled; nuclear pattern compatible with HHV8 LANA or MUM1/IRF4"
+  ],
+  "describe_en": "Immunohistochemical stain with a red chromogen (marker not specified) shows strong, diffuse nuclear positivity in the majority of large, discohesive tumor cells, while interspersed smaller background cells are negative. The staining is confined to the nucleus without membranous or cytoplasmic reactivity. In the context of primary effusion lymphoma, this nuclear pattern is compatible with HHV8 latency-associated nuclear antigen (LANA) or MUM1/IRF4 expression, although LANA often appears more finely speckled. Findings support the diagnosis of primary effusion lymphoma; the identity of the antibody should be confirmed.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is MUM1-positive but HHV8 LANA-negative and usually EBER-positive."},
+    {"dx": "HHV8-positive diffuse large B-cell lymphoma, NOS", "vs": "HHV8+ DLBCL arises in lymph nodes/spleen, often with multicentric Castleman disease, and is typically EBV-negative, unlike the effusion-based EBV-coinfected PEL."},
+    {"dx": "Extracavitary PEL", "vs": "Extracavitary PEL shares the same phenotype but forms a solid tissue mass without a body cavity effusion."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma shows nuclear MYC/Ki-67 near 100% with CD10/BCL6 and is HHV8-negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "IHC: nuclear marker not stated (red chromogen)",
+  "match": "consistent",
+  "high_yield": false
+}

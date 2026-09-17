@@ -1,0 +1,22 @@
+{
+  "id": "63996",
+  "recognize_zh": "H&E 中是一片單調、小到中型的淋巴細胞，核輪廓略不規則、染色質濃縮、胞質稀少，缺乏大型中心母細胞或免疫母細胞，間有散在粉紅色上皮樣組織球；右側 cyclin D1 呈瀰漫性核陽性，符合被套細胞淋巴瘤。",
+  "features": [
+    "Diffuse monotonous sheet of small to medium-sized lymphoid cells",
+    "Slightly irregular to angulated nuclear contours with condensed to moderately dispersed chromatin and inconspicuous nucleoli",
+    "Scant cytoplasm; absence of admixed large centroblasts, immunoblasts, or proliferation centers",
+    "Scattered single pink epithelioid histiocytes and thin hyalinized vessels",
+    "Cyclin D1 IHC: strong diffuse nuclear positivity in the neoplastic cells"
+  ],
+  "describe_en": "Sections show a diffuse, monotonous infiltrate of small to medium-sized lymphoid cells with slightly irregular nuclear contours, condensed chromatin, inconspicuous nucleoli, and scant cytoplasm. Large transformed cells and proliferation centers are not seen, while scattered single epithelioid histiocytes and small hyalinized vessels are present. Cyclin D1 immunostain shows strong diffuse nuclear positivity in the neoplastic cells. Findings are consistent with mantle cell lymphoma; assessment for blastoid/pleomorphic features, Ki-67, p53, and SOX11 is recommended for prognostication.",
+  "ddx": [
+    {"dx": "Small lymphocytic lymphoma/CLL", "vs": "SLL shows round nuclei with proliferation centers containing prolymphocytes and paraimmunoblasts and is cyclin D1 negative (except in proliferation centers) and LEF1 positive."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma has cleaved centrocytes admixed with centroblasts in a follicular pattern and is CD10/BCL6 positive and cyclin D1 negative."},
+    {"dx": "Marginal zone lymphoma", "vs": "Marginal zone lymphoma shows monocytoid cells with pale cytoplasm, plasmacytic differentiation, and is CD5 and cyclin D1 negative."},
+    {"dx": "Cyclin D1-positive plasma cell neoplasm or hairy cell leukemia", "vs": "These can express cyclin D1 but show plasma cell or hairy cell cytology with CD138 or annexin A1/CD103 expression, respectively, rather than monotonous small lymphocytes."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: cyclin D1",
+  "match": "consistent",
+  "high_yield": true
+}

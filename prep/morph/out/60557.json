@@ -1,0 +1,21 @@
+{
+  "id": "60557",
+  "recognize_zh": "箭頭所指是一個較小的橢圓形紅血球，細胞內有一條紫色細線沿邊緣繞行並扭成長條迴圈狀，符合 Cabot 環；背景紅血球大小不一，另有淚滴狀與不規則形紅血球。",
+  "features": [
+    "Small oval red cell (arrow) containing a thin violet threadlike loop running along and folding within the cell periphery",
+    "Ring lacks a chromatin dot and is not beaded",
+    "Background red cells show anisocytosis and poikilocytosis, including a teardrop cell and an irregularly contoured cell with central pallor",
+    "Most red cells are normochromic with little central pallor",
+    "No Howell-Jolly body, parasites, or leukocytes evident in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows anisopoikilocytosis with a teardrop cell and occasional irregularly shaped red cells. A small oval red cell contains a thin, violet-staining, looped thread-like inclusion tracing its periphery, consistent with a Cabot ring; its elongated, folded configuration reflects the variable figure-of-eight or loop forms these structures can adopt. No intraerythrocytic parasites are seen. Findings are consistent with a Cabot ring in a patient with hemolytic anemia.",
+  "ddx": [
+    {"dx": "Plasmodium ring form or ameboid trophozoite", "vs": "Malaria parasites show blue cytoplasm with a red chromatin dot and may have pigment, whereas this inclusion is a fine dot-less thread following the cell outline."},
+    {"dx": "Babesia", "vs": "Babesia shows small multiple rings or Maltese-cross tetrads within cells, not a single peripheral loop."},
+    {"dx": "Stomatocyte slit or drying artifact", "vs": "A stomatocytic slit is a central pale linear area without staining, while a Cabot ring is a stained violet line that persists on focusing."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

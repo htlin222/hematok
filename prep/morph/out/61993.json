@@ -1,0 +1,22 @@
+{
+  "id": "61993",
+  "recognize_zh": "骨髓切片 CD30 免疫染色中，一群中到大型的細胞呈細胞膜及核旁點狀（Golgi）棕色陽性，散在分布於小淋巴球之間，右側可見一個圓形、淡染的肉芽腫結構；少量散在的 CD30 陽性活化淋巴球符合 EBV 感染的反應性變化。",
+  "features": [
+    "Cluster of scattered medium to large cells with membranous and paranuclear dot-like CD30 staining",
+    "Positive cells are single and loosely grouped, not forming sheets",
+    "Positive cells have round to oval nuclei without bizarre multilobation",
+    "Background of CD30-negative small lymphocytes, histiocytes and marrow elements",
+    "Rounded, pale granuloma-like structure at the right edge of the field",
+    "Bone trabecula and fat spaces at upper left"
+  ],
+  "describe_en": "CD30 immunostain on a bone marrow biopsy highlights a loose cluster of scattered medium to large cells with membranous and Golgi-pattern staining, set in a background of CD30-negative small lymphocytes and marrow elements. The positive cells are single or loosely grouped without sheets, and a rounded granuloma-like structure is present nearby. Scattered CD30-positive activated immunoblasts adjacent to granulomas are consistent with a reactive response to EBV infection; classic Hodgkin lymphoma should be excluded by the cells' morphology and CD15/PAX5/CD45 profile.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma involving marrow", "vs": "Hodgkin/Reed-Sternberg cells are large with prominent inclusion-like nucleoli, are CD45-negative, CD15-positive and weakly PAX5-positive, and usually sit in a fibrotic mixed background rather than as reactive CD45+ immunoblasts."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows sheets or sinusoidal clusters of large hallmark cells with uniformly strong CD30 and frequent ALK or loss of T-cell antigens, not scattered positive cells."},
+    {"dx": "CD30-positive DLBCL / EBV-positive DLBCL", "vs": "Lymphoma forms sheets of large atypical B cells with numerous EBER-positive cells, unlike this sparse immunoblastic reaction."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

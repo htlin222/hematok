@@ -1,0 +1,21 @@
+{
+  "id": "1592",
+  "recognize_zh": "周邊血抹片中一顆圓形白血球，核分成4葉並圍繞中央呈花瓣狀排列，染色質濃縮成塊，細胞質淡粉紅佈滿細小顆粒，無中毒顆粒或空泡，為正常分葉核中性球。",
+  "features": [
+    "Round cell roughly twice the diameter of adjacent red cells",
+    "Nucleus with four lobes arranged peripherally around the center, connected by thin strands",
+    "Dense clumped chromatin without nucleoli",
+    "Pale pink cytoplasm with fine neutrophilic granules",
+    "Background normochromic red cells and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a mature segmented neutrophil with four nuclear lobes connected by thin chromatin filaments, dense clumped chromatin, and pale pink cytoplasm containing fine neutrophilic granules. Toxic granulation, Döhle bodies and cytoplasmic vacuoles are absent. The surrounding red cells are normochromic and platelets are present. Findings are consistent with a normal segmented neutrophil.",
+  "ddx": [
+    {"dx": "Hypersegmented neutrophil (megaloblastic anemia)", "vs": "Hypersegmented neutrophils have six or more lobes or a population with >5% five-lobed cells, whereas this cell has four lobes."},
+    {"dx": "Basophil", "vs": "Basophils have coarse dark purple-black granules obscuring the nucleus, unlike the fine pale granules seen here."},
+    {"dx": "Pelger-Huët anomaly", "vs": "Pelger-Huët cells have bilobed spectacle-shaped or non-lobed nuclei with coarse chromatin, not four well-formed lobes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

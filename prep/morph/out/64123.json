@@ -1,0 +1,22 @@
+{
+  "id": "64123",
+  "recognize_zh": "淋巴結結構被瀰漫小淋巴球取代（A；CD20 瀰漫陽性、CD3 僅散在），壞死與顆粒球浸潤旁（B）可見核內毛玻璃狀包涵體、染色質邊緣化（margination）的細胞（C 箭頭），HSV 免疫染色在這些細胞核呈強陽性，提示 SLL 合併單純疱疹病毒淋巴結炎。",
+  "features": [
+    "Low power (A): effaced nodal architecture with vague paler zones suggestive of proliferation centers",
+    "CD20: diffuse positivity of the small lymphoid infiltrate; CD3 highlights only scattered background T cells",
+    "Medium power (B): necrotic area with neutrophils and karyorrhectic debris; arrows mark enlarged cells with nuclear inclusions",
+    "High power (C): cell with glassy, eosinophilic-to-amphophilic intranuclear inclusion and marginated chromatin (Cowdry A-type), adjacent atypical cells",
+    "HSV IHC: strong nuclear (and some cytoplasmic) staining in clustered cells at the edge of necrosis"
+  ],
+  "describe_en": "Lymph node biopsy shows effacement of the nodal architecture by a diffuse proliferation of small lymphocytes with vague paler zones, which are diffusely CD20-positive with only scattered CD3-positive T cells. Focally, there are areas of necrosis with neutrophils and karyorrhectic debris, adjacent to which are enlarged cells with glassy intranuclear inclusions and chromatin margination. An HSV immunostain highlights numerous infected nuclei at the edge of the necrotic focus. In conjunction with flow cytometry, findings are consistent with small lymphocytic lymphoma with superimposed herpes simplex virus lymphadenitis.",
+  "ddx": [
+    {"dx": "Richter transformation (DLBCL or Hodgkin-like) in CLL/SLL", "vs": "Large atypical cells in Richter transformation lack viral inclusions and are HSV-negative, forming confluent sheets of large B cells or CD30+/CD15+ Hodgkin-like cells."},
+    {"dx": "Cytomegalovirus infection", "vs": "CMV causes cytomegaly with a single large owl-eye intranuclear inclusion plus granular cytoplasmic inclusions and is CMV IHC-positive rather than HSV-positive."},
+    {"dx": "Kikuchi-Fujimoto necrotizing lymphadenitis", "vs": "Kikuchi necrosis lacks neutrophils and viral inclusions and is rich in histiocytes and plasmacytoid dendritic cells."},
+    {"dx": "Varicella-zoster lymphadenitis", "vs": "VZV inclusions are morphologically identical to HSV, so separation requires virus-specific IHC or PCR."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD3, CD20, HSV",
+  "match": "consistent",
+  "high_yield": false
+}

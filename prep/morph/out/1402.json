@@ -1,0 +1,22 @@
+{
+  "id": "1402",
+  "recognize_zh": "骨髓切片免疫組化中，大多數中小型未成熟細胞的細胞質與細胞膜呈棕色陽性，並排列在帶流線狀纖維化的間質中，符合巨核細胞系標記（如 CD61/CD42b）陽性的母細胞浸潤。",
+  "features": [
+    "Diffuse cytoplasmic and membranous brown staining in a large proportion of small to medium-sized cells",
+    "Positive cells lack the size and lobulated nuclei of mature megakaryocytes",
+    "Negative cells show oval to elongated nuclei with hematoxylin counterstain",
+    "Streaming, fascicular arrangement suggesting stromal fibrosis",
+    "Few fat spaces; marrow largely replaced"
+  ],
+  "describe_en": "Bone marrow biopsy immunohistochemistry (megakaryocytic marker, presumably CD61 or CD42b; antibody not specified in the image) shows strong cytoplasmic and membranous staining in numerous small to medium-sized mononuclear cells. The positive cells are arranged in a streaming pattern within a fibrotic-appearing stroma and are far smaller than mature megakaryocytes. Findings support megakaryocytic lineage of an immature infiltrate, consistent with acute megakaryoblastic leukemia in the appropriate context of blast count and morphology.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis / MPN with clustered megakaryocytes", "vs": "MPN megakaryocytes stain as large, mature, often atypical cells, whereas here the positive cells are small immature forms."},
+    {"dx": "Metastatic carcinoma or sarcoma with fibrosis", "vs": "Metastatic tumor is negative for CD61/CD42b and positive for keratin or other lineage markers."},
+    {"dx": "Myelodysplastic neoplasm with fibrosis", "vs": "Shows dysplastic micromegakaryocytes but fewer than 20% blasts; CD34 and blast enumeration separate it from AMKL."},
+    {"dx": "Acute panmyelosis with myelofibrosis", "vs": "Features trilineage proliferation with blasts that are not predominantly megakaryoblastic, requiring a panel of lineage stains."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: megakaryocytic marker (likely CD61)",
+  "match": "consistent",
+  "high_yield": false
+}

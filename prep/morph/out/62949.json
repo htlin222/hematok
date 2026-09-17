@@ -1,0 +1,20 @@
+{
+  "id": "62949",
+  "recognize_zh": "CD3 染色中只有散在的小型反應性 T 細胞呈棕色膜/質染色，背景大片中型腫瘤細胞為藍色陰性，說明腫瘤不是 T 細胞來源，是判讀被套細胞淋巴瘤時的內部對照。",
+  "features": [
+    "Scattered small CD3-positive T cells with membranous/cytoplasmic staining",
+    "Sheets of intermediate-sized neoplastic cells negative for CD3",
+    "Positive T cells are small and dispersed, not forming sheets",
+    "Some granular extracellular/dot-like background staining"
+  ],
+  "describe_en": "Immunohistochemical stain for CD3 highlights scattered small reactive T cells, while the diffuse sheets of intermediate-sized neoplastic lymphoid cells are negative. There is mild granular background staining. The CD3-negative tumor population supports a B-cell neoplasm; in this case the tumor cells express CD5 and cyclin D1, consistent with mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma", "vs": "In PTCL the neoplastic sheets themselves are CD3+, whereas here CD3 marks only scattered small background T cells."},
+    {"dx": "T-lymphoblastic lymphoma", "vs": "T-LBL shows diffuse CD3 (cytoplasmic) and TdT positivity of the blastic population, unlike the CD3-negative tumor here."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has an overwhelming CD3+ T-cell background with only rare large B cells, rather than CD3-negative monotonous sheets."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

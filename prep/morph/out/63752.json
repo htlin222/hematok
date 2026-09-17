@@ -1,0 +1,21 @@
+{
+  "id": "63752",
+  "recognize_zh": "CD20 染色中大多區域的大型非典型細胞呈弱陽（箭頭）或陰性（圓圈），僅小 B 細胞強陽；另一區大細胞 CD20 較明顯。OCT-2 與 BOB.1 在大細胞多為陰性、少數弱陽，這種 B 細胞轉錄程式缺失支持古典何杰金淋巴瘤。",
+  "features": [
+    "CD20 (upper left): large atypical cells weak (arrows) or negative (circles); small reactive B cells strongly positive",
+    "CD20 (upper right): another area with stronger membranous CD20 on many large cells, showing heterogeneity",
+    "OCT-2: large atypical cells mostly negative (circles) while scattered small cells are positive",
+    "BOB.1: occasional weak nuclear positivity in large cells (arrows) with most negative (circles)",
+    "Background of numerous small lymphocytes"
+  ],
+  "describe_en": "Additional immunohistochemical stains on the lymph node show heterogeneous CD20 expression in the large atypical cells: in most areas CD20 is weak or negative in the large cells compared with the strongly positive small background B cells, while other areas show more prominent CD20 staining. The B-cell transcription factors OCT-2 and BOB.1 are largely negative in the large atypical cells, with only occasional weak nuclear positivity. Loss or down-regulation of the B-cell program (weak/variable CD20, absent OCT-2 and BOB.1) in CD30+/CD15+ large cells supports classical Hodgkin lymphoma; the focal strong CD20 should prompt consideration of gray zone lymphoma if accompanied by sheet-like growth.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "LP cells are uniformly strong CD20, OCT-2 and BOB.1 positive, unlike the weak or lost expression here."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL large cells are strongly and uniformly CD20, OCT-2 and BOB.1 positive and CD30/CD15 negative."},
+    {"dx": "Gray zone lymphoma (B-cell lymphoma with features intermediate between DLBCL and cHL)", "vs": "Gray zone lymphoma shows sheets of large cells with strong, uniform CD20 and preserved OCT-2/BOB.1 despite CD30/CD15 expression."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20, OCT-2, BOB.1",
+  "match": "consistent",
+  "high_yield": false
+}

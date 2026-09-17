@@ -1,0 +1,23 @@
+{
+  "id": "60819",
+  "recognize_zh": "骨髓抹片呈顆粒球系各階段增生（骨髓細胞、後骨髓細胞、帶狀與分節球）並有嗜鹼性球，B 圖見小型、低分葉的異常巨核細胞；核型與 FISH 顯示 BCR::ABL1 融合位於衍生的 12 號染色體上，屬於複雜染色體重排的慢性骨髓性白血病（CML）。",
+  "features": [
+    "Hypercellular aspirate particles with granulocytic hyperplasia showing a full maturation spectrum (myelocytes, metamyelocytes, bands, segmented neutrophils)",
+    "Basophils with dark purple granules and occasional eosinophils",
+    "Dysplastic megakaryocyte with a small hypolobated/monolobated nucleus and abundant blue cytoplasm (panel B)",
+    "No obvious increase in blasts in the fields shown",
+    "Karyotype (panel C) with arrows marking abnormal chromosomes; metaphase FISH (panel D) with BCR (green) and ABL1 (red) probes showing BCR::ABL1 fusion on a der(12)"
+  ],
+  "describe_en": "Bone marrow aspirate smears show hypercellular particles with marked granulocytic hyperplasia and orderly maturation from myelocytes to segmented neutrophils, with increased basophils. Megakaryocytes include small hypolobated dysplastic forms with abundant cytoplasm. Blasts are not increased in the fields shown. The karyotype shows rearranged chromosomes (arrows), and sequential G-banding to FISH localizes the BCR::ABL1 fusion signal to a derivative chromosome 12, indicating a complex/variant Philadelphia translocation. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, with complex chromosomal rearrangement and dysplastic megakaryocytes.",
+  "ddx": [
+    {"dx": "Atypical chronic myeloid leukemia (MDS/MPN with neutrophilia)", "vs": "aCML shows prominent granulocytic dysplasia without basophilia and, by definition, lacks BCR::ABL1."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL has mature neutrophil predominance with few immature granulocytes and no basophilia, with CSF3R mutation and no BCR::ABL1."},
+    {"dx": "Leukemoid reaction", "vs": "Reactive neutrophilia has toxic granulation, no basophilia or dwarf megakaryocytes, and no clonal cytogenetic abnormality."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS shows cytopenias and multilineage dysplasia with hypogranular neutrophils rather than marked left-shifted granulocytic proliferation with BCR::ABL1."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; G-banded karyotype; FISH: BCR/ABL1",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": ["A: hypercellular aspirate with granulocytic hyperplasia; B: dysplastic hypolobated megakaryocyte among maturing granulocytes and basophils; C: karyotype with abnormal chromosomes marked (arrows); D: sequential G-banding and FISH showing BCR::ABL1 fusion on der(12)"]
+}

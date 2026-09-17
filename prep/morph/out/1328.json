@@ -1,0 +1,22 @@
+{
+  "id": "1328",
+  "recognize_zh": "臨床照片顯示下肢皮膚有數處邊界模糊的紫藍至黃綠色瘀青（ecchymoses），沒有點狀出血或明顯腫脹；在類澱粉沉積症合併後天性凝血因子 X 缺乏的病人，這類皮下出血是凝血因子缺乏型出血的表現，但照片本身無法確立病因。",
+  "features": [
+    "Clinical photograph of a lower extremity with several poorly demarcated ecchymoses",
+    "Central violaceous-blue bruise with surrounding yellow-green discoloration indicating resolving hemorrhage",
+    "Additional faint purplish bruising on the proximal portion of the limb",
+    "No petechiae, palpable purpura, or hemarthrosis-type swelling evident",
+    "Overlying skin otherwise intact without ulceration"
+  ],
+  "describe_en": "Clinical photograph of the lower extremity shows several poorly demarcated ecchymoses with a central violaceous area and surrounding yellow-green discoloration, indicating hemorrhages of different ages. No petechiae, palpable purpura, or skin necrosis is seen. Superficial ecchymoses without petechiae favor a coagulation factor or vascular fragility defect over thrombocytopenia. In a patient with systemic AL amyloidosis, the appearance is compatible with bleeding from acquired factor X deficiency, which must be confirmed by prolonged PT and aPTT with a low factor X activity.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "Thrombocytopenic bleeding typically produces petechiae and mucosal bleeding, and platelet count would be low, whereas this image shows ecchymoses without petechiae."},
+    {"dx": "Anticoagulant or vitamin K deficiency coagulopathy", "vs": "These cause similar ecchymoses but show deficiency of multiple vitamin K-dependent factors correctable by vitamin K, rather than isolated factor X deficiency."},
+    {"dx": "Acquired hemophilia A", "vs": "Acquired hemophilia causes extensive soft-tissue ecchymoses with an isolated prolonged aPTT and factor VIII inhibitor, with a normal PT."},
+    {"dx": "Senile purpura or amyloid vascular fragility", "vs": "Vascular fragility purpura occurs with normal coagulation studies and, in amyloidosis, often appears as periorbital pinch purpura."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61602",
+  "recognize_zh": "EBER 原位雜交在紅色對比染色背景上，許多腫瘤細胞核內出現深藍黑色的顆粒狀訊號，定位在細胞核；大量 EBER 陽性的漿母細胞樣腫瘤支持 EBV 陽性漿母細胞淋巴瘤。",
+  "features": [
+    "Nuclear blue-black chromogenic signal (EBER) in a large proportion of tumor cell nuclei",
+    "Signal is granular to solid and confined to nuclei",
+    "Pink nuclear fast red-type counterstain of negative cells and cytoplasm",
+    "Tissue shows retraction/crush artifact with discohesive clefts, limiting cellular detail"
+  ],
+  "describe_en": "EBER in situ hybridization shows nuclear signal in a large proportion of the neoplastic cells against a red counterstain. The positive signal is confined to nuclei; negative cells show only counterstain. Tissue retraction and crush artifact limit assessment of cytologic detail. Diffuse EBER positivity in a CD20-negative, MUM1-positive large cell neoplasm supports EBV-positive plasmablastic lymphoma.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma with plasmablastic morphology is almost always EBER negative, so strong diffuse EBER favors plasmablastic lymphoma."},
+    {"dx": "EBV-positive DLBCL, NOS", "vs": "Also EBER positive but expresses CD20/PAX5 and lacks the plasmacytic immunophenotype."},
+    {"dx": "Extracavitary primary effusion lymphoma", "vs": "PEL is frequently EBER positive but is defined by HHV8 (LANA) nuclear positivity, which is absent in plasmablastic lymphoma."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "Also diffusely EBER positive but expresses cytoplasmic CD3 and CD56 with cytotoxic markers rather than MUM1/CD138."}
+  ],
+  "specimen": "tissue",
+  "stain": "ISH: EBER",
+  "match": "consistent",
+  "high_yield": true
+}

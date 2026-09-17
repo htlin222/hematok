@@ -1,0 +1,22 @@
+{
+  "id": "63097",
+  "recognize_zh": "下方中央一顆巨噬細胞的細胞質內擠滿許多小卵圓形小體，周圍也有散在的細胞外小體，每個小體有核與棒狀動基體（kinetoplast）；巨噬細胞內含 LD bodies 是內臟型利什曼病的診斷線索。",
+  "features": [
+    "Macrophage with abundant pale cytoplasm packed with numerous small oval amastigotes",
+    "Amastigotes about 2-4 um, each with a nucleus and a small rod-like kinetoplast",
+    "Additional extracellular amastigotes scattered around the macrophage",
+    "Background multilineage hematopoiesis: erythroid precursors, myelocytes, band neutrophils",
+    "Occasional plasma cells in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a macrophage whose cytoplasm is filled with numerous small oval amastigotes, each bearing a nucleus and a rod-shaped kinetoplast, with additional extracellular organisms nearby. The background shows maturing erythroid and granulocytic precursors with occasional plasma cells. Findings are consistent with visceral leishmaniasis.",
+  "ddx": [
+    {"dx": "Histoplasmosis", "vs": "Histoplasma yeasts in macrophages show a surrounding clear halo, stain with GMS/PAS and lack a kinetoplast."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "T. marneffei yeasts divide by central transverse septation and lack a kinetoplast."},
+    {"dx": "Sea-blue histiocyte or Gaucher-like cell", "vs": "Storage histiocytes contain granular or striated material, not discrete organisms with nuclei and kinetoplasts."},
+    {"dx": "Phagocytosed platelets (pseudoparasites)", "vs": "Engulfed platelets are irregular granular fragments without the paired nucleus-kinetoplast structure."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

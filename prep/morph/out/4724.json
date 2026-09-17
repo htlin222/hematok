@@ -1,0 +1,22 @@
+{
+  "id": "4724",
+  "recognize_zh": "新生兒周邊血液中可見一顆有核紅血球（NRBC），並有大小不一的紅血球與略大的多染性紅血球；另有深藍色不規則物質疊在紅血球上，性質不確定。單一高倍視野中溶血證據有限，需搭配 DAT 與臨床。",
+  "features": [
+    "Nucleated red blood cell with a round dense nucleus and a small rim of cytoplasm",
+    "Irregular deep-blue clumped material overlying or adjacent to red cells, of uncertain nature (possibly platelets or stain precipitate)",
+    "Anisocytosis with some larger pale polychromatophilic red cells",
+    "Occasional small round red cells with reduced central pallor",
+    "Stain precipitate/debris at the upper left edge of the field"
+  ],
+  "describe_en": "Peripheral blood smear shows a nucleated red blood cell with a round, dense nucleus. The red cells show anisocytosis, including larger pale polychromatophilic cells and occasional small round cells with reduced central pallor. Irregular deep-blue clumped material lies over several red cells, including one with a small dark dot; its nature is uncertain in this image and may represent overlying platelets or stain precipitate. The findings of circulating nucleated red cells and polychromasia can be seen in hemolytic disease of the newborn, but the field alone is limited and correlation with the direct antiglobulin test, maternal antibody screen and bilirubin is needed.",
+  "ddx": [
+    {"dx": "ABO hemolytic disease of the newborn", "vs": "ABO HDN typically shows more numerous microspherocytes with a weak or negative DAT, whereas RhD HDN has fewer spherocytes and a strongly positive DAT with anti-D."},
+    {"dx": "Physiologic neonatal nucleated red cells", "vs": "Healthy newborns can have a few circulating NRBCs in the first days of life, without significant anemia, hyperbilirubinemia or a positive DAT."},
+    {"dx": "Hereditary spherocytosis", "vs": "HS shows spherocytes with a negative DAT and a family history, while alloimmune HDN has a positive DAT."},
+    {"dx": "Congenital infection (e.g., CMV, syphilis)", "vs": "Congenital infection can cause NRBCs and hemolysis but is DAT negative and usually accompanied by thrombocytopenia and hepatosplenomegaly."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

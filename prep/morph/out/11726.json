@@ -1,0 +1,21 @@
+{
+  "id": "11726",
+  "recognize_zh": "這是 CSF 流式細胞圖：CD45 亮、低 SSC 的淋巴球閘門內約 97% 事件，主族群為 CD19 陽性且共表現 CD5、CD10 陰性，這種 CD5+ CD10- B 細胞表型支持被套細胞淋巴瘤（需加 CD23 與 cyclin D1 區分）。",
+  "features": [
+    "CD45 vs SSC: dominant CD45-bright, low side scatter lymphoid population (R2, about 97% of gated events)",
+    "CD19 vs CD5: large CD19-positive population co-expressing CD5 at moderate intensity (upper right quadrant)",
+    "Small separate CD19-negative CD5-bright population representing residual T cells",
+    "CD19 vs CD10: B cells are CD10-negative to dim, without a distinct CD10-positive subset",
+    "Total events about 5,700 - adequate for a CSF specimen"
+  ],
+  "describe_en": "Flow cytometric analysis of the cerebrospinal fluid shows that nearly all events fall within a CD45-bright, low side scatter lymphoid gate. The predominant population is CD19-positive B cells that co-express CD5 and lack CD10, with a minor residual CD5-bright T-cell population. This aberrant CD5-positive, CD10-negative B-cell population in CSF indicates involvement by a CD5-positive B-cell lymphoproliferative disorder; in the clinical context, findings support CNS involvement by mantle cell lymphoma, pending light chain restriction, CD23/FMC7 status and cyclin D1 confirmation.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL is CD5+CD23+ with dim CD20 and dim surface light chain, FMC7 negative, whereas mantle cell lymphoma is CD23-negative, FMC7 positive and cyclin D1/SOX11 positive."},
+    {"dx": "Reactive B cells in CSF", "vs": "Reactive B cells are polytypic for kappa and lambda and generally CD5-negative, unlike a light chain restricted CD5-positive clone."},
+    {"dx": "Diffuse large B-cell lymphoma (CD5-positive)", "vs": "CD5+ DLBCL shows larger cells with higher forward scatter and is cyclin D1-negative, requiring morphology and IHC to separate from blastoid MCL."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

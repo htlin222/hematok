@@ -1,0 +1,22 @@
+{
+  "id": "65628",
+  "recognize_zh": "胸椎矢狀 MRI 在 T6 背側見一顯影增強、壓迫脊髓的腫塊（箭頭）；手術切片卻不是造血組織，而是富含破骨細胞樣多核巨細胞（細箭頭）、梭形纖維母細胞基質、出血與反應性骨樣組織（粗箭頭），加上 USP6 重排，診斷為實質型動脈瘤樣骨囊腫，而非地中海貧血的髓外造血。",
+  "features": [
+    "Sagittal contrast-enhanced MRI of thoracic spine: enhancing posterior epidural/paraspinal mass at T6 (arrow) compressing the spinal cord",
+    "H&E: cellular lesion with numerous scattered osteoclast-like multinucleated giant cells (thin arrows)",
+    "Background bland spindle fibroblastic stroma with extravasated red cells/hemorrhage",
+    "Pink reactive osteoid/woven bone (thick arrow)",
+    "No trilineage hematopoietic elements (erythroid precursors, megakaryocytes, granulocytes) identified"
+  ],
+  "describe_en": "Sagittal post-contrast MRI of the thoracic spine demonstrates an enhancing, cord-compressing mass centered at the posterior aspect of T6. The resected tissue shows a cellular proliferation of bland spindle fibroblastic cells with numerous scattered osteoclast-like multinucleated giant cells, extravasated red cells and foci of reactive osteoid and woven bone. Trilineage hematopoiesis is not identified, arguing against extramedullary hematopoiesis. Immunostains for cytokeratin, EMA, GFAP and PR were negative, and FISH demonstrated USP6 rearrangement. Findings are consistent with solid variant aneurysmal bone cyst.",
+  "ddx": [
+    {"dx": "Extramedullary hematopoiesis (paraspinal)", "vs": "EMH contains erythroid precursors, granulocytic cells and megakaryocytes with fat, rather than spindle stroma with osteoclast-like giant cells."},
+    {"dx": "Giant cell tumor of bone", "vs": "Giant cells are evenly distributed among mononuclear cells whose nuclei match the giant cell nuclei, with H3F3A G34W mutation rather than USP6 rearrangement."},
+    {"dx": "Brown tumor of hyperparathyroidism", "vs": "Histology overlaps closely; elevated PTH and calcium with other bone changes separate it, and USP6 is not rearranged."},
+    {"dx": "Telangiectatic osteosarcoma", "vs": "Shows markedly atypical, mitotically active stromal cells producing malignant osteoid, unlike the bland stroma here."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; MRI",
+  "match": "consistent",
+  "high_yield": false
+}

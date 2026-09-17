@@ -1,0 +1,22 @@
+{
+  "id": "60662",
+  "recognize_zh": "周邊血抹片中，有些顆粒減少、核分葉不良（pseudo-Pelger 樣）的異常顆粒球細胞質內可見細長粉紅色棒狀 Auer 小體（黑、藍箭頭），同時伴有胞質含空泡、核染色質細緻的母細胞，代表骨髓性（myeloid）來源的急性白血病。",
+  "features": [
+    "Myeloid blasts with fine chromatin, visible nucleoli/nuclear clearing, and a rim of basophilic cytoplasm, some with a small cytoplasmic bleb",
+    "Thin, needle-like pink Auer rods within the cytoplasm of blasts and of a more mature granulocytic cell",
+    "Dysplastic granulocytes with hypogranular pale pink cytoplasm and hyposegmented or clumped nuclei (red arrows)",
+    "Auer rod in a cell with a partially condensed nucleus, indicating maturing neoplastic granulocyte",
+    "Background red cells without significant schistocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating myeloid blasts with fine chromatin, occasional nucleoli, and moderate basophilic cytoplasm. Several cells contain slender, needle-shaped Auer rods, including a hypogranular granulocyte with a relatively condensed nucleus (panel A) and blasts (panels B and C). Accompanying neutrophils are dysplastic, with hypogranular cytoplasm and abnormal nuclear segmentation. No bundles of Auer rods (faggot cells) are seen. Findings are consistent with acute myeloid leukemia with maturation, showing Auer rods in dysplastic granulocytes.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL shows hypergranular promyelocytes with bilobed nuclei and bundles of Auer rods (faggot cells), whereas these cells are hypogranular with single rods; PML::RARA testing is definitive."},
+    {"dx": "Myelodysplastic syndrome with excess blasts", "vs": "Auer rods can occur in MDS-EB (formerly EB-2), so the separation depends on the blast count (≥20% for AML) rather than on the rods themselves."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts never contain Auer rods, and the accompanying granulocytic dysplasia points to a myeloid process; MPO would be negative in ALL."},
+    {"dx": "Döhle bodies / toxic change", "vs": "Döhle bodies are pale blue, irregular peripheral cytoplasmic patches, not sharp pink needle-shaped rods."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

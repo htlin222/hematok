@@ -1,0 +1,23 @@
+{
+  "id": "64448",
+  "recognize_zh": "骨髓抹片滿布中至大型母細胞（核質比高、染色質細緻、細胞質少且嗜鹼性）；流式細胞儀示 CD34+、CD19+、CD10+ 的 B 淋巴母細胞；間期 FISH 顯示 BCL2-IGH 融合訊號，MYC 斷裂探針卻呈陰性，直到中期 FISH 以 MYC-IGH 雙融合探針才看到隱藏的 MYC 易位。",
+  "features": [
+    "Panel A: marrow aspirate replaced by medium to large blasts with high N:C ratio, fine chromatin, occasional nucleoli and scant to moderate basophilic cytoplasm",
+    "No Auer rods or cytoplasmic granules; a residual neutrophil and red cells in background",
+    "Panel B: blast gate expressing CD34, HLA-DR, CD19 and CD10",
+    "Panel C: interphase BCL2-IGH dual-fusion FISH with 2 fusion signals (2F2G1R pattern) indicating t(14;18)",
+    "Panel D: MYC break-apart probe with intact fused signals (falsely negative)",
+    "Panel E: metaphase MYC-IGH dual-fusion FISH localizing fusion signals to der(8) and der(14)"
+  ],
+  "describe_en": "Bone marrow aspirate is extensively replaced by medium to large blasts with high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, inconspicuous to small nucleoli and scant basophilic, agranular cytoplasm. Flow cytometry shows the blasts to express CD34, HLA-DR, CD19 and CD10, consistent with B-lymphoblasts. Interphase FISH demonstrates IGH::BCL2 fusion, while the MYC break-apart probe shows no split signal; metaphase FISH with an MYC-IGH dual-fusion probe reveals a cryptic MYC-IGH translocation. Findings are consistent with B-lymphoblastic leukemia with concurrent MYC and BCL2 rearrangements, a high-risk genetic combination.",
+  "ddx": [
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements (leukemic phase)", "vs": "HGBL cells are usually TdT-negative, CD34-negative mature B cells with surface light chain, whereas these blasts are CD34+/TdT+ with an IKZF1 deletion."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic, vacuolated cytoplasm, are sIg+/CD34-/TdT- and carry MYC rearrangement without BCL2 rearrangement."},
+    {"dx": "Transformed follicular lymphoma with blastoid morphology", "vs": "Transformed FL shows a prior or concurrent FL component and mature B-cell phenotype without CD34/TdT expression."},
+    {"dx": "Acute myeloid leukemia, minimally differentiated", "vs": "AML blasts may look identical but lack CD19/CD10/cCD79a and express myeloid markers such as CD13/CD33/CD117."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; flow; FISH: BCL2-IGH, MYC, MYC-IGH",
+  "match": "consistent",
+  "high_yield": false
+}

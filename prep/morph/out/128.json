@@ -1,0 +1,41 @@
+{
+  "id": "128",
+  "recognize_zh": "結腸黏膜固有層被小型、成熟外觀的淋巴球瀰漫性擴張，把腺窩撐開但腺窩結構大致保留、無明顯破壞或上皮浸潤；免疫染色為 CD3+、CD8+、CD4−、CD5 喪失、TIA-1+、Granzyme B−，MIB-1 極低，PCR 顯示 TCR 單株重排，符合胃腸道惰性 T 細胞淋巴增生性疾病（indolent T-cell lymphoproliferative disorder of the GI tract）。",
+  "features": [
+    "Dense, monotonous infiltrate of small lymphocytes expanding the lamina propria and separating crypts, with largely preserved crypt architecture",
+    "Small cells with slightly irregular, dense nuclei, inconspicuous nucleoli and scant cytoplasm; no significant cytologic atypia or large cells",
+    "No destructive lymphoepithelial lesions or prominent epitheliotropism; scattered eosinophils and plasma cells in the background",
+    "IHC: CD3+, CD2+, CD7+, CD5 largely lost, CD8+, CD4-, TCR-beta F1+, TIA-1+, granzyme B-, CD56-, CD20 only scattered B cells",
+    "MIB-1 (Ki-67) very low in the lymphoid infiltrate (positive mainly in crypt epithelium)",
+    "PCR: clonal TCR beta and TCR gamma rearrangements with polyclonal IGH; endoscopy shows multiple small mucosal polyps"
+  ],
+  "describe_en": "Endoscopic colonic biopsies show fragments of mucosa in which the lamina propria is diffusely expanded by a dense, monotonous infiltrate of small lymphocytes that separates but does not destroy the crypts. The lymphocytes have small, slightly irregular dense nuclei, inconspicuous nucleoli and scant cytoplasm, admixed with occasional eosinophils and plasma cells; there is no significant epitheliotropism, necrosis or large-cell component. Immunohistochemistry shows the infiltrate to be CD3+, CD2+, CD7+, CD8+, TCR-beta F1+ and TIA-1+ with loss of CD5 and negativity for CD4, CD56 and granzyme B, with only scattered CD20+ B cells and a very low MIB-1 proliferation index. PCR studies demonstrate clonal TCR beta and gamma gene rearrangements with a polyclonal IGH pattern. In the setting of multiple small polyps and a protracted course without progression, findings are consistent with indolent T-cell lymphoproliferative disorder of the GI tract (indolent T-cell lymphoma of the GI tract, WHO 5th edition).",
+  "ddx": [
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma (MEITL)", "vs": "MEITL shows marked epitheliotropism by medium-sized monomorphic cells that are typically CD8+, CD56+, often MATK+ with a high Ki-67, unlike the non-epitheliotropic CD56-negative, low-proliferation infiltrate here."},
+    {"dx": "Enteropathy-associated T-cell lymphoma", "vs": "EATL presents with ulcerating, destructive masses of medium-to-large pleomorphic cells with necrosis, frequent CD30 expression and a high proliferation index in the setting of celiac disease."},
+    {"dx": "Inflammatory bowel disease / reactive colitis", "vs": "Reactive colitis has a mixed CD4/CD8 infiltrate with plasma cell-rich lamina propria, crypt distortion or cryptitis, preserved CD5 and polyclonal TCR, whereas this infiltrate is monotonous CD8+, CD5-lost and clonal."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "NK/T-cell lymphoma is angiocentric and necrotic with CD56+, cytotoxic granule (granzyme B) positive cells and EBER positivity, which are absent here."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC panel, PCR TCR/IGH clonality, endoscopy",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Early biopsy IHC panel: CD3, CD2 and CD7 positive, CD5 largely lost, CD20 only scattered B cells",
+    "Colonoscopy: multiple small sessile mucosal polyps",
+    "H&E low power: fragmented colonic biopsies with lamina propria expanded by lymphoid infiltrate",
+    "H&E, four fields: dense sheets of small lymphocytes in lamina propria",
+    "Early biopsy IHC: CD4 negative, CD8 positive in the lymphoid infiltrate",
+    "PCR gels: clonal TCR beta and TCR gamma rearrangements (boxed bands), IGH polyclonal/negative",
+    "H&E low power: colonic mucosa with crypts separated by a dense lamina propria infiltrate",
+    "H&E low power: preserved crypt architecture with diffuse lamina propria expansion",
+    "H&E medium power: intact crypts surrounded by dense small lymphocytes without destruction",
+    "H&E high power: small lymphocytes with irregular dense nuclei, scattered eosinophils",
+    "H&E high power: monotonous small lymphocytes between crypts with admixed eosinophils and plasma cells",
+    "Colon IHC: CD3 and CD2 positive, CD5 negative, CD20 rare",
+    "Colon IHC: CD4 scattered, CD8 diffusely positive",
+    "Colon IHC: CD56 and granzyme B negative, TIA-1 and TCR-beta F1 positive",
+    "CD8 high power: strong membranous staining of the lamina propria lymphocytes",
+    "MIB-1: very low proliferation in lymphoid cells, positive in crypt epithelium"
+  ]
+}

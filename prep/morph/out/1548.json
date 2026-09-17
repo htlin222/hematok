@@ -1,0 +1,21 @@
+{
+  "id": "1548",
+  "recognize_zh": "周邊血片紅血球大致正常大小與顏色，但整片看不到任何多染性紅血球（polychromasia），也沒有有核紅血球或破碎紅血球，白血球（一顆嗜中性球、一顆淋巴球）與血小板形態正常；網狀紅血球缺乏正是純紅血球再生不良（PRCA）在血片上的線索。",
+  "features": [
+    "Red cells predominantly normocytic and normochromic with mild anisocytosis",
+    "Complete absence of polychromatophilic red cells, indicating reticulocytopenia",
+    "No nucleated red cells, schistocytes, or spherocytes",
+    "One segmented neutrophil and one small lymphocyte with normal morphology",
+    "Occasional normal-appearing platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic, normochromic red cells with mild anisocytosis and a striking absence of polychromatophilic cells. No nucleated red cells, schistocytes, or spherocytes are seen. Neutrophils, lymphocytes, and platelets appear morphologically unremarkable. The smear is not diagnostic on its own, but the lack of polychromasia in an anemic patient supports reticulocytopenic anemia; in this context findings are consistent with pure red cell aplasia, with confirmation by reticulocyte count, marrow examination for giant pronormoblasts, and parvovirus B19 PCR.",
+  "ddx": [
+    {"dx": "Anemia of chronic disease / renal anemia", "vs": "These also show normocytic red cells with low reticulocytes, so separation depends on marrow erythroid precursors being present rather than absent and on iron studies and erythropoietin levels."},
+    {"dx": "Aplastic anemia", "vs": "Aplastic anemia shows concurrent neutropenia and thrombocytopenia, whereas PRCA spares granulocytes and platelets."},
+    {"dx": "Hemolytic anemia", "vs": "Hemolysis shows polychromasia, spherocytes, or schistocytes, which are absent here, unless complicated by a parvovirus aplastic crisis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

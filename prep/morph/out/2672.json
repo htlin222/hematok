@@ -1,0 +1,21 @@
+{
+  "id": "2672",
+  "recognize_zh": "周邊血高倍視野中央為一顆有核紅血球：圓形細胞核、染色質濃縮呈棋盤狀、無核仁，細胞質灰藍帶粉紅（多染性），大小介於小淋巴球之間；周圍紅血球有堆疊傾向，在骨髓瘤患者可提示紅血球串錢狀排列與骨髓浸潤造成的白血球/紅血球母細胞血症。",
+  "features": [
+    "Nucleated red blood cell with a round, eccentric nucleus and coarse, clumped checkerboard chromatin",
+    "No nucleoli; moderately high N:C ratio",
+    "Moderate gray-blue to lilac cytoplasm (polychromatophilic normoblast)",
+    "Adjacent red cells overlapping in short stacks, suggestive of early rouleaux",
+    "Red cells show crenation and refractile drying artifact"
+  ],
+  "describe_en": "High-power view of a peripheral blood smear shows a nucleated red blood cell with a round nucleus, coarsely clumped checkerboard chromatin and moderate gray-blue polychromatophilic cytoplasm, consistent with a polychromatophilic normoblast. Surrounding red cells overlap in short stacks suggestive of rouleaux, and several show drying artifact. No blasts or plasma cells are present in this field. In a patient with plasma cell myeloma, circulating nucleated red cells may indicate marrow infiltration (leukoerythroblastic reaction), and red cell stacking reflects increased paraprotein.",
+  "ddx": [
+    {"dx": "Small mature lymphocyte", "vs": "Lymphocytes have a smooth rim of sky-blue cytoplasm and less sharply clumped chromatin, whereas the normoblast has checkerboard chromatin and hemoglobin-tinged gray cytoplasm."},
+    {"dx": "Plasma cell (plasma cell leukemia)", "vs": "Plasma cells have abundant deep blue cytoplasm with an eccentric nucleus and a perinuclear Golgi hof."},
+    {"dx": "Micromegakaryocyte or megakaryocytic nucleus", "vs": "Megakaryocytic cells have irregular granular cytoplasm with platelet budding rather than homogeneous gray-blue cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64773",
+  "recognize_zh": "組合圖中周邊血可見雙葉核（bilobed）且細胞質佈滿粗大嗜天青顆粒的異常前骨髓球，MPO 細胞化學強陽性，流式呈 SSC 偏高、CD34−、HLA-DR−、CD117 弱、cMPO 強陽性，屬典型 APL 表型；本例 FISH 與核型皆未見 PML::RARA，需靠 NGS 融合基因檢測確認。",
+  "features": [
+    "PB: large atypical promyelocytes with bilobed/folded (butterfly-like) nuclei and cytoplasm densely packed with coarse azurophilic granules",
+    "BM biopsy H&E: sheets of cells with moderate eosinophilic granular cytoplasm and oval to folded nuclei",
+    "MPO cytochemistry: intense, coarse blue-green granular positivity filling the cytoplasm; MPO IHC also positive",
+    "Flow: CD45-dim population with high side scatter, CD34 negative, HLA-DR negative, CD117 partially dim, CD33 bright, CD64 dim/partial, CD14 negative, cytoplasmic MPO bright",
+    "Morphology and immunophenotype alone cannot distinguish cryptic PML::RARA from RARA-variant or APL-like AML"
+  ],
+  "describe_en": "Peripheral blood smear (A-C) shows abnormal promyelocytes with bilobed to folded nuclei and abundant cytoplasm containing numerous coarse azurophilic granules. Bone marrow biopsy (D) shows sheets of immature granulated myeloid cells, and cytochemical and immunohistochemical MPO stains are strongly positive (E-F). Flow cytometry (G-L) demonstrates a CD45-dim, high side scatter population that is CD34-negative, HLA-DR-negative, CD33 bright, CD117 dim/partial, CD14-negative, and bright cytoplasmic MPO-positive. The morphology and immunophenotype are characteristic of acute promyelocytic leukemia; because FISH and karyotype were negative for t(15;17), confirmation of a cryptic PML::RARA fusion by RT-PCR or NGS fusion panel is required.",
+  "ddx": [
+    {"dx": "AML with NPM1 mutation (cup-like/APL-like phenotype)", "vs": "NPM1-mutated AML can be CD34−/HLA-DR− but usually lacks bilobed hypergranular promyelocytes and is PML::RARA-negative with NPM1 mutation by molecular testing."},
+    {"dx": "APL with variant RARA translocation (e.g., ZBTB16::RARA)", "vs": "Variant RARA fusions show RARA break-apart positivity by FISH and ZBTB16::RARA cells tend to have regular nuclei and are ATRA-resistant, whereas this case had a cryptic PML::RARA insertion."},
+    {"dx": "Reactive promyelocyte-rich marrow (G-CSF effect or recovery)", "vs": "Recovering marrow shows orderly maturation with normal promyelocytes having round nuclei and a perinuclear hof, and lacks a monotonous CD34−/HLA-DR− SSC-high population."},
+    {"dx": "AML with maturation", "vs": "AML with maturation shows CD34+/HLA-DR+ agranular or lightly granular blasts with maturing granulocytes rather than a dominant hypergranular bilobed promyelocyte population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa, H&E, MPO, IHC: MPO; flow cytometry",
+  "match": "consistent",
+  "high_yield": true
+}

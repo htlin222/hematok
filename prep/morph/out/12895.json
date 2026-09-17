@@ -1,0 +1,22 @@
+{
+  "id": "12895",
+  "recognize_zh": "左圖可見三團緊密聚集、互相擠壓成多角形的中性球（leukoagglutination），自動血球計數儀可能將其誤判為血小板團塊或漏計白血球；右圖另一區只剩少數被拉扯的白血球，顯示白血球數被假性降低。",
+  "features": [
+    "Left: three tight clusters of mature segmented neutrophils molded against each other",
+    "Left: individual neutrophils show normal lobation; background red cells and scattered platelets",
+    "Right: another area with few leukocytes, including stretched/smeared neutrophil forms",
+    "Right: red cells normocytic without significant poikilocytosis",
+    "No blasts or intracellular organisms identified"
+  ],
+  "describe_en": "Peripheral blood smear shows multiple tight aggregates of mature segmented neutrophils with nuclear molding, while other areas contain only sparse, partly smeared leukocytes. Red cells and platelets are otherwise unremarkable, and no blasts or organisms are seen. Findings are consistent with in vitro leukoagglutination (neutrophil clumping), commonly EDTA-dependent and occasionally associated with autoimmune or inflammatory disease, which can cause a spurious decrease in the automated white cell count and interference flags misreported as platelet clumps; repeating the count on a citrate- or heparin-anticoagulated sample, or a manual count, is recommended.",
+  "ddx": [
+    {"dx": "Platelet clumps (pseudothrombocytopenia)", "vs": "Platelet clumps are aggregates of small anucleate granular fragments, not nucleated segmented neutrophils."},
+    {"dx": "True neutropenia", "vs": "True neutropenia shows uniformly few neutrophils across the smear without clusters, and persists with alternative anticoagulants."},
+    {"dx": "Tumor cell clusters or cohesive malignant cells", "vs": "Tumor clusters consist of large atypical cells with high N:C ratios and nucleoli rather than mature lobated neutrophils."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows platelets rimming individual neutrophils rather than neutrophils adhering to each other."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

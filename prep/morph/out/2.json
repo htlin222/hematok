@@ -1,0 +1,27 @@
+{
+  "id": "2",
+  "recognize_zh": "血液與骨髓抹片可見大量母細胞，且有兩種大小：小型、染色質較緻密、細胞質極少的淋巴母細胞樣細胞，以及較大、染色質細緻、核仁明顯、細胞質較多的母細胞；骨髓切片為瀰漫母細胞取代。形態上無法確定系別，需靠流式與免疫染色證實 B/T 雙系及 BCR::ABL1。",
+  "features": [
+    "PB: circulating blasts of intermediate to large size with high N:C ratio, fine chromatin and scant agranular basophilic cytoplasm, alongside a mature neutrophil",
+    "BM aspirate: marked increase in blasts with a dimorphic appearance: smaller blasts with condensed chromatin and scant cytoplasm and larger blasts with finely dispersed chromatin, visible nucleoli and moderate pale-blue cytoplasm",
+    "Blast nuclei round to irregular or indented; no Auer rods or cytoplasmic granules evident",
+    "BM biopsy: hypercellular marrow diffusely replaced by sheets of monotonous blasts with scattered residual erythroid precursors",
+    "Occasional maturing granulocytes present, without basophilia or myeloid left-shifted maturation typical of CML in the fields shown"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts with high nuclear-to-cytoplasmic ratio, fine chromatin and scant agranular cytoplasm. The bone marrow aspirate is replaced by blasts that appear heterogeneous in size, including small lymphoblast-like cells with scant cytoplasm and larger blasts with dispersed chromatin, nucleoli and moderate cytoplasm; Auer rods are not seen. The trephine biopsy is hypercellular with diffuse sheets of blasts and marked reduction of normal hematopoiesis. Lineage cannot be assigned morphologically; flow cytometry and immunohistochemistry demonstrate discrete B-lymphoblastic and T-lymphoblastic populations, and cytogenetics show t(9;22)(q34;q11.2) with BCR::ABL1 fusion. Findings are consistent with mixed phenotype acute leukemia, B/T, with t(9;22)(q34.1;q11.2); BCR::ABL1.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia with BCR::ABL1", "vs": "Morphology is identical, but flow cytometry shows a single B-lineage blast population without a separate cytoplasmic CD3+/CD1a+ T-lymphoblast population."},
+    {"dx": "Chronic myeloid leukemia in lymphoid blast phase", "vs": "History or residual chronic-phase features (basophilia, myeloid left shift, small hypolobated megakaryocytes) favor CML blast phase, which is excluded before diagnosing MPAL."},
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "Shows only a T-lineage blast population and typically lacks t(9;22), whereas here a distinct B-lineage population coexists."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Blasts are MPO-negative by morphology too, but flow shows CD13/CD33/CD117 with MPO by flow in a subset and no lymphoid lineage-defining markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood: circulating blasts with fine chromatin and scant cytoplasm",
+    "Bone marrow aspirate: dimorphic blast population of small and larger blasts",
+    "Bone marrow biopsy: diffuse sheets of blasts replacing the marrow"
+  ]
+}

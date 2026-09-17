@@ -1,0 +1,20 @@
+{
+  "id": "62594",
+  "recognize_zh": "CD56 免疫染色中腫瘤細胞核呈藍色、細胞膜不著色，僅少數散在的小型陽性細胞與纖細神經/梭形結構著色，表示腫瘤漿細胞 CD56 陰性。",
+  "features": [
+    "Sheets of tumor cells with round to oval nuclei, negative for CD56",
+    "Rare scattered small CD56-positive cells with membranous/cytoplasmic staining (likely NK cells)",
+    "Weak staining of thin fibrillary/spindled stromal structures (nerve twigs or processes)",
+    "Clean background without significant non-specific staining"
+  ],
+  "describe_en": "CD56 immunohistochemistry shows the neoplastic plasma cell population to be negative, with only rare scattered positive small cells and faint staining of thin stromal fibrillary structures serving as internal controls. Aberrant CD56 expression, commonly seen in plasma cell myeloma, is therefore not present. This immunoprofile is in keeping with EBV-positive plasmacytoma-like post-transplant lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma / plasmacytoma", "vs": "Neoplastic plasma cells in myeloma are frequently CD56-positive, whereas the tumor here is CD56-negative, although negativity does not exclude myeloma."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "NK/T-cell lymphoma shows diffuse CD56 positivity with cytoplasmic CD3 and EBER, unlike the CD56-negative tumor here."},
+    {"dx": "Neuroendocrine carcinoma", "vs": "Small-cell/neuroendocrine carcinomas are diffusely CD56-positive and keratin-positive, not CD56-negative plasmacytoid sheets."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD56",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62668",
+  "recognize_zh": "IgM 染色中，大型腫瘤細胞呈強烈、瀰漫的細胞質陽性，核呈負染的空泡狀，周圍有中度背景染色；PEL 典型上不表現免疫球蛋白，因此這種細胞質 IgM 表現須與 HHV8 陽性 DLBCL 等病變鑑別。",
+  "features": [
+    "Large tumor cells with intense diffuse cytoplasmic IgM staining",
+    "Negatively outlined large vesicular nuclei with nucleoli",
+    "Variable staining intensity among tumor cells, some weakly stained",
+    "Moderate diffuse background (interstitial) staining",
+    "Smaller spindle and lymphoid cells in stroma largely negative"
+  ],
+  "describe_en": "IgM immunohistochemistry shows large neoplastic cells with intense, diffuse cytoplasmic staining surrounding large vesicular nuclei, with variable intensity among cells and moderate background interstitial staining. Smaller stromal and lymphoid cells are largely negative. Primary effusion lymphoma usually lacks surface and cytoplasmic immunoglobulin, so this degree of IgM expression is unusual and warrants correlation with light chain studies and background staining controls. In combination with HHV8 positivity, the findings are reported as part of an extracavitary primary effusion lymphoma phenotype in this case, but HHV8-positive diffuse large B-cell lymphoma (typically IgM lambda) should be considered.",
+  "ddx": [
+    {"dx": "HHV8-positive diffuse large B-cell lymphoma, NOS", "vs": "Characteristically expresses cytoplasmic IgM lambda, is EBER-negative and often retains CD20, arising in HHV8-positive multicentric Castleman disease."},
+    {"dx": "HHV8-positive germinotropic lymphoproliferative disorder", "vs": "Also HHV8 and EBV positive plasmablasts, but they partially replace germinal centers and are usually polytypic or IgM-negative."},
+    {"dx": "Lymphoplasmacytic lymphoma / IgM plasma cell neoplasm", "vs": "Cytoplasmic IgM in small plasmacytoid lymphocytes or mature plasma cells, without large atypical plasmablasts or HHV8."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: IgM",
+  "match": "consistent",
+  "high_yield": false
+}

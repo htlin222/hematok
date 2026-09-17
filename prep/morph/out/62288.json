@@ -1,0 +1,21 @@
+{
+  "id": "62288",
+  "recognize_zh": "骨髓抹片中央有一團紅血球前驅細胞（erythroid island），細胞體積大、核染色質呈開放篩網狀或細點棋盤狀，細胞質深藍，較成熟的細胞仍保留不成熟染色質，旁邊一個小而緻密的晚期細胞可作大小對照，符合巨母紅血球性變化。",
+  "features": [
+    "Cluster of erythroid precursors forming an erythroid island in the center of the field",
+    "Large basophilic erythroblast with coarse stippled 'checkerboard' open chromatin and a deep blue cytoplasmic rim",
+    "Several smaller erythroblasts with open sieve-like chromatin and basophilic to polychromatic cytoplasm",
+    "Nuclear-cytoplasmic asynchrony; occasional pale nuclear indentation/Golgi zone",
+    "Small dense pyknotic late erythroblast for size comparison; oval macrocytes in background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of erythroid precursors forming an erythroid island. The precursors are enlarged and display open, stippled sieve-like to checkerboard chromatin with deeply basophilic to early polychromatic cytoplasm, so that nuclear maturation lags behind cytoplasmic maturation. A small dense late erythroblast nearby provides a size comparison, and the background contains oval macrocytes. Findings are consistent with megaloblastic erythropoiesis, supporting megaloblastic anemia.",
+  "ddx": [
+    {"dx": "Acute erythroid leukemia", "vs": "Pure erythroid leukemia shows sheets of proerythroblasts with vacuolated cytoplasm and marked atypia, lacking the maturing spectrum within erythroid islands."},
+    {"dx": "Plasma cell neoplasm", "vs": "Plasma cells have eccentric nuclei with a perinuclear hof and clock-face chromatin, whereas these cells have central nuclei with deep blue cytoplasm lacking a Golgi hof."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS megaloblastoid erythropoiesis is accompanied by dysplasia in other lineages and clonal cytogenetics with normal B12/folate."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

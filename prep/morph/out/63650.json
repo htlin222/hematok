@@ -1,0 +1,22 @@
+{
+  "id": "63650",
+  "recognize_zh": "CellaVision 影像中淋巴球中等大小、核不規則，部分有明顯核仁與細胞質泡狀突起（bleb）；流式圖顯示這群 T 細胞 CD45 表現高低不一，表面 CD3 陰性、細胞質 CD3 陽性、TdT 陰性，CD2、CD5、CD7 陽性且 CD4+/CD8−。",
+  "features": [
+    "(a) Medium-sized atypical lymphocytes with irregular nuclear contours, moderately condensed chromatin, and basophilic agranular cytoplasm",
+    "(a) Some cells with cytoplasmic blebs, a visible nucleolus, or more abundant cytoplasm",
+    "(b) CD45 vs side scatter: low-SSC population split into CD45-negative, dim-moderate, and bright subsets",
+    "(c, d) CD5 positive, surface CD3 negative; cytoplasmic CD3 positive, TdT negative",
+    "(e-g) CD2 and CD7 positive; CD4 positive, CD8 negative; CD25 and CD56 negative"
+  ],
+  "describe_en": "Composite of peripheral blood morphology and flow cytometry. The CellaVision images (a) show medium-sized atypical lymphocytes with irregular nuclear outlines, basophilic agranular cytoplasm, focal cytoplasmic blebs, and occasional visible nucleoli. Flow cytometric dot plots show a dominant low side-scatter population with heterogeneous CD45 expression (negative, dim-moderate, and bright subsets) that is surface CD3 negative, cytoplasmic CD3 positive, TdT negative, CD5, CD2 and CD7 positive, CD4 positive/CD8 negative, and CD25 and CD56 negative. Loss of CD45 on a subset is a gating pitfall that can mimic an immature or non-hematopoietic population. Together with marked lymphocytosis, findings are consistent with T-cell prolymphocytic leukemia; demonstration of TCL1A or MTCP1 rearrangement or TCL1 overexpression is recommended.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL blasts are also cytoplasmic CD3 positive/surface CD3 negative but express TdT, CD1a, or CD34, all negative here."},
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform nuclei and are CD4 positive with frequent CD7 and CD26 loss, whereas T-PLL usually retains bright CD7."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows polylobated flower cells, strong CD25 expression, and HTLV-1 positivity, while this population is CD25 negative."},
+    {"dx": "T-large granular lymphocytic leukemia", "vs": "T-LGL cells have abundant cytoplasm with azurophilic granules and are usually CD8 and CD57 positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (CellaVision); flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

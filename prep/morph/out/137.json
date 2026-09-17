@@ -1,0 +1,29 @@
+{
+  "id": "137",
+  "recognize_zh": "周邊血液可見中型淋巴球，核圓至卵圓、染色質略塊狀、核仁不明顯，細胞質豐富、淡灰藍色，周緣有細毛狀突起；骨髓切片細胞間距寬、呈「荷包蛋（fried-egg）」樣，CD20 強陽性、Annexin A1 陽性，流式 CD103、CD25、CD200 陽性且 lambda 單株性，符合毛狀細胞白血病（HCL）。",
+  "features": [
+    "Medium-sized lymphoid cells with round to oval nuclei and low-moderate N:C ratio",
+    "Moderately condensed ('spongy') chromatin with inconspicuous nucleoli",
+    "Abundant pale grey-blue cytoplasm with fine circumferential hair-like projections",
+    "BM aspirate: sheets of monotonous cells with oval to slightly indented nuclei and ragged pale cytoplasm",
+    "BM biopsy: diffuse infiltrate of widely spaced nuclei separated by clear cytoplasm (fried-egg pattern) with red cell extravasation",
+    "IHC: CD20 strongly positive, Annexin A1 positive, cyclin D1 weak nuclear; flow CD103+, CD25+, CD200+, CD123 largely negative, lambda-restricted"
+  ],
+  "describe_en": "Peripheral blood smear shows medium-sized lymphoid cells with round to oval nuclei, moderately condensed chromatin, inconspicuous nucleoli and abundant pale grey-blue cytoplasm with fine circumferential hair-like projections, admixed with a small mature lymphocyte. The bone marrow aspirate contains sheets of morphologically similar cells. The core biopsy shows a diffuse infiltrate of monotonous cells with evenly spaced round to oval nuclei surrounded by clear cytoplasm, imparting a fried-egg appearance, with areas of red cell extravasation. Immunohistochemistry shows strong CD20, cytoplasmic Annexin A1 and weak nuclear cyclin D1 (BCL1) expression, and flow cytometry identifies a lambda-restricted B-cell population (97.6% of B cells) expressing bright CD20, CD103, CD25 and CD200 with little or no CD123. Findings are consistent with hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant / splenic B-cell lymphoma with prominent nucleoli", "vs": "HCL-v cells have a prominent nucleolus, lack CD25 and Annexin A1 and are BRAF V600E negative, whereas these cells have inconspicuous nucleoli and express CD25 and Annexin A1."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes have polar (bipolar) short projections and are typically CD103-, CD25-/weak, Annexin A1-negative with a nodular/intrasinusoidal marrow pattern rather than diffuse fried-egg infiltration."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL shows broad-based villous cytoplasm, intrasinusoidal marrow involvement and is Annexin A1-negative and usually CD25-negative, unlike this Annexin A1+/CD25+ infiltrate."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is cyclin D1 strongly positive but CD5+, CD103-, CD25- and Annexin A1-negative with scant cytoplasm, whereas HCL shows only weak cyclin D1 with abundant hairy cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E; IHC: CD20/Annexin A1/BCL1",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "PB smear: hairy cells with abundant pale cytoplasm and circumferential projections",
+    "BM aspirate: sheets of monotonous hairy cells",
+    "BM biopsy: fried-egg infiltrate (H&E) with CD20, Annexin A1 and weak BCL1 positivity",
+    "Flow cytometry: lambda-restricted CD20-bright B cells expressing CD103, CD25 and CD200, CD123 largely negative"
+  ]
+}

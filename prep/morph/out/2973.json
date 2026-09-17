@@ -1,0 +1,22 @@
+{
+  "id": "2973",
+  "recognize_zh": "骨髓抹片細胞豐富，其中可見巨噬細胞淡染的大片細胞質內吞入完整的有核細胞（右側一顆巨噬細胞內含多個深染的紅血球母細胞/淋巴球核）與細胞碎屑，這種組織球吞噬血球的現象即為噬血症（hemophagocytosis），需配合臨床 HLH 診斷標準。",
+  "features": [
+    "Cellular aspirate with mixed maturing myeloid and erythroid precursors and lymphocytes",
+    "Histiocyte with abundant pale vacuolated cytoplasm containing several engulfed dark nucleated cells (right of center)",
+    "Second histiocyte (center) with pale foamy cytoplasm containing phagocytosed debris and granular material",
+    "Numerous small dense nucleated cells (orthochromatic normoblasts/lymphocytes) in the background",
+    "No blast population or atypical lymphoid infiltrate evident"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular with maturing granulocytic and erythroid elements and scattered lymphocytes. Several histiocytes with abundant pale, vacuolated cytoplasm are present, one of which contains multiple engulfed intact nucleated hematopoietic cells, and another contains phagocytosed debris. No increase in blasts or atypical lymphoid cells is identified in this field. Findings are consistent with hemophagocytosis; in the appropriate clinical setting (fever, cytopenias, splenomegaly, high ferritin and soluble CD25), this supports hemophagocytic lymphohistiocytosis, although hemophagocytosis alone is neither sensitive nor specific.",
+  "ddx": [
+    {"dx": "Reactive hemophagocytosis after transfusion, sepsis or chemotherapy", "vs": "Morphology is identical; distinction relies on clinical HLH criteria rather than the histiocytes themselves."},
+    {"dx": "Malignancy-associated HLH (T/NK-cell lymphoma, EBV)", "vs": "Lymphoma-associated HLH shows an atypical lymphoid infiltrate or EBER-positive cells, which are not evident in this field."},
+    {"dx": "Leishmaniasis or histoplasmosis with macrophage activation", "vs": "Infected macrophages contain small organisms (amastigotes with kinetoplasts or haloed yeasts) rather than whole engulfed blood cells."},
+    {"dx": "Erythroid islands (central macrophage with surrounding normoblasts)", "vs": "In erythroid islands the normoblasts surround the macrophage rather than lying within its cytoplasmic vacuoles."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

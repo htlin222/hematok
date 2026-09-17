@@ -1,0 +1,22 @@
+{
+  "id": "62701",
+  "recognize_zh": "活細胞的 CD45 對側向散射（SS）流式圖：淋巴球 gate 占 42.88%，顆粒球 23.26%、單核球 1.00%、母細胞僅 0.13%；淋巴球比例偏高且母細胞極少，符合成熟淋巴球增多而非急性白血病。",
+  "features": [
+    "Dot plot of living cells: CD45-KO (x) versus side scatter (y) with gates",
+    "Lymphocyte gate (CD45 bright, low SS) 42.88%, relatively increased",
+    "Granulocytes (CD45 moderate, high SS) 23.26%",
+    "Monocytes 1.00% (CD45 bright, intermediate SS)",
+    "Blast gate (CD45 dim, low SS) 0.13%, not increased",
+    "Large CD45-negative low-SS events at left (likely nucleated RBCs/debris, specimen-dependent)"
+  ],
+  "describe_en": "Flow cytometric CD45 versus side scatter plot of living cells shows lymphocytes comprising 42.88%, granulocytes 23.26%, monocytes 1.00% and CD45-dim blasts only 0.13%. A sizable CD45-negative low side scatter population is also present at the left of the plot. The relative lymphocytosis without increased blasts indicates a mature lymphoid process, which is further characterized on the lymphocyte gate. Findings are in keeping with the lymphocytosis of the reported chronic lymphoproliferative disorder of NK cells.",
+  "ddx": [
+    {"dx": "Acute leukemia", "vs": "Acute leukemia would show an expanded CD45-dim, low side scatter blast gate, which here comprises only 0.13%."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL also expands the lymphocyte gate, but the cells are CD19/CD5/CD23 positive B cells rather than CD3-negative NK cells."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL produces a similar lymphocyte-gate expansion and is separated by surface CD3 expression on subsequent gating."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

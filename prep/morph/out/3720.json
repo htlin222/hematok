@@ -1,0 +1,21 @@
+{
+  "id": "3720",
+  "recognize_zh": "骨髓抹片中一條橫貫畫面的管狀結構，由一排細長梭形、首尾相接的內皮細胞核（endothelial nuclei）和淡藍色基質組成，周圍是被抹破的裸核細胞與紅血球，這是骨髓中的小血管。",
+  "features": [
+    "Linear tubular structure composed of elongated spindle-shaped endothelial nuclei aligned end to end",
+    "Pale blue-grey fibrillar stromal/basement membrane material along the vessel",
+    "Adjacent smudged, bare hematopoietic nuclei with fine reticular chromatin (crush/smear artifact)",
+    "Scattered intact small lymphocytes, a neutrophil and red cells nearby",
+    "No atypical cohesive tumor cells within or around the vessel"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a capillary-sized vessel traversing the field, composed of a row of elongated, spindle-shaped endothelial nuclei with pale blue fibrillar stroma. Numerous adjacent disrupted bare nuclei with smudged chromatin represent smearing artifact of hematopoietic cells, admixed with intact lymphocytes, a neutrophil and red cells. No cohesive atypical cells are present. Findings represent a normal marrow vascular/stromal element and should not be mistaken for a spindle-cell neoplasm or metastatic tumor.",
+  "ddx": [
+    {"dx": "Metastatic tumor cluster", "vs": "Metastatic cells form cohesive clusters of large pleomorphic cells with high N:C ratio and nuclear molding, not a single-file row of bland elongated endothelial nuclei."},
+    {"dx": "Mast cell aggregate (systemic mastocytosis)", "vs": "Spindled mast cells contain abundant metachromatic purple granules, whereas these endothelial cells have agranular pale cytoplasm."},
+    {"dx": "Fibroblasts/stromal fragment in myelofibrosis", "vs": "Fibroblastic fragments are haphazardly arranged with wavy nuclei and collagen rather than forming an organized tubular vessel wall."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

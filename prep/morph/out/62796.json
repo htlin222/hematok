@@ -1,0 +1,22 @@
+{
+  "id": "62796",
+  "recognize_zh": "這是血紅素HPLC報告：S-window峰占71.8%為最大峰，HbF 16.1%、HbA2 1.9%，Ao僅8.5%，呈HbS為主、F升高的圖形，符合鐮刀型貧血。",
+  "features": [
+    "Cation-exchange HPLC chromatogram with peak table",
+    "Dominant peak in the S-window at 4.36 min (71.8% area)",
+    "Elevated HbF peak at 1.15 min (16.1%)",
+    "HbA2 1.9% at 3.62 min; small Ao peak at 2.44 min (8.5%)",
+    "Non-morphologic image; a small Ao fraction may reflect recent transfusion or glycated/adduct hemoglobins and should be correlated clinically"
+  ],
+  "describe_en": "Cation-exchange high-performance liquid chromatography shows a dominant peak eluting in the S-window at 4.36 minutes comprising 71.8% of total hemoglobin, with HbF 16.1% and HbA2 1.9%. A small Ao peak (8.5%) is present, which should be correlated with transfusion history, as HbSS itself produces no HbA. There is no additional variant peak. Findings are consistent with sickle cell anemia (HbSS) with elevated HbF; confirmation with a sickle solubility test and family studies is appropriate.",
+  "ddx": [
+    {"dx": "HbS/β0-thalassemia", "vs": "HbS/β0-thalassemia has a similar S-dominant profile but HbA2 is typically above 3.5% with microcytosis, whereas HbA2 is 1.9% here."},
+    {"dx": "HbS/β+-thalassemia", "vs": "HbS/β+-thalassemia shows a substantial HbA fraction (usually 5–30%) with raised HbA2 and microcytosis; transfusion history and indices help separate it from the small Ao seen here."},
+    {"dx": "HbSD-Punjab or HbD disease", "vs": "HbD elutes in a distinct D-window (about 4.0–4.1 min) rather than the S-window and gives a negative solubility test."},
+    {"dx": "HbS/HPFH", "vs": "HbS/HPFH has higher, pancellular HbF (typically 20–30%) with a mild clinical course and normal HbA2."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (HPLC)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

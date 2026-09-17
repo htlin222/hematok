@@ -1,0 +1,23 @@
+{
+  "id": "61012",
+  "recognize_zh": "多格骨髓抹片：A–B 可見大量核偏位、細胞質藍染、核旁有淡染區的不典型漿細胞；C–F 另有核型不規則的紅血球母細胞、顆粒缺失或分葉不足的嗜中性球、極巨大多核分葉的巨核細胞與雙核巨核細胞，提示骨髓瘤合併多系發育不良（MDS）。",
+  "features": [
+    "Panels A-B: sheets of plasma cells with eccentric nuclei, coarse chromatin, basophilic cytoplasm, some with visible nucleoli and binucleation",
+    "Panel B: hypogranular neutrophil admixed with plasma cells",
+    "Panel C: late erythroblast with irregular, lobulated nucleus (nuclear budding)",
+    "Panel D: degranulated neutrophilic precursors and small hypogranular neutrophils with abnormal nuclear segmentation",
+    "Panel E: giant megakaryocyte with abundant cytoplasm and a large hyperlobated/fragmented nucleus",
+    "Panel F: megakaryocyte with two separate round nuclei (binucleated)"
+  ],
+  "describe_en": "Bone marrow aspirate smears show a marked increase in plasma cells, many with eccentric nuclei, clumped chromatin, basophilic cytoplasm and occasional binucleation or nucleoli (panels A-B, reported at 76% of cells). In addition there is dysplasia in the other lineages: a hypogranular neutrophil (B), an erythroblast with an irregular lobulated nucleus (C), degranulated and hyposegmented neutrophil lineage cells (D), a giant megakaryocyte with a bizarre hyperlobated nucleus (E), and a binucleated megakaryocyte with widely separated nuclei (F). Findings are consistent with plasma cell myeloma with concomitant myelodysplasia; confirmation of the concurrent MDS rests on cytogenetics and molecular studies given that dysplasia can be reactive or therapy-related.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma with reactive dyserythropoiesis", "vs": "Mild reactive dyspoiesis is common in marrow-replacing myeloma, but multilineage dysplasia in >=10% of cells with a myeloid clonal mutation (TET2 here) supports a true coexisting MDS."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are mature, polyclonal, usually <10-20% and lack binucleation/nucleoli and a monoclonal paraprotein."},
+    {"dx": "Therapy-related myeloid neoplasm", "vs": "Requires prior cytotoxic therapy (e.g., alkylators or lenalidomide), whereas this dysplasia is present at diagnosis."},
+    {"dx": "Megaloblastic anemia", "vs": "B12/folate deficiency causes nuclear-cytoplasmic asynchrony and hypersegmented neutrophils rather than hypogranular hyposegmented neutrophils, and corrects with vitamin replacement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

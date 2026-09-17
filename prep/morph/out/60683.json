@@ -1,0 +1,22 @@
+{
+  "id": "60683",
+  "recognize_zh": "A 圖腦部 MRI FLAIR 影像見雙側枕葉皮質下白質對稱性高訊號，典型後部可逆性腦病變症候群（PRES）；B 圖周邊血抹片有多個碎裂紅血球（schistocyte，含盔形與三角形碎片）且血小板少，代表 tacrolimus 相關血栓性微血管病變（TMA）。",
+  "features": [
+    "MRI FLAIR (A): bilateral, fairly symmetric hyperintense signal in the parieto-occipital subcortical white matter and cortex",
+    "PB (B): multiple schistocytes including helmet cells, triangular fragments, and small irregular fragments",
+    "Background red cells largely normocytic with scattered microspherocyte-like dense cells",
+    "Platelets appear markedly decreased in the field",
+    "No nucleated red cells or leukemic cells seen in this field"
+  ],
+  "describe_en": "Axial FLAIR MRI (panel A) shows bilateral, symmetric parieto-occipital hyperintensities involving subcortical white matter and cortex, characteristic of posterior reversible encephalopathy syndrome. The peripheral blood smear (panel B) shows numerous schistocytes, including helmet cells and triangular fragments, with a paucity of platelets in the field. There are no nucleated red cells or blasts. In a recipient of allogeneic marrow transplant on tacrolimus, findings are consistent with calcineurin inhibitor-associated PRES accompanied by transplant-associated thrombotic microangiopathy.",
+  "ddx": [
+    {"dx": "Thrombotic thrombocytopenic purpura", "vs": "TTP shows the same schistocytes and thrombocytopenia but has severely reduced ADAMTS13 activity (<10%), which is typically preserved in transplant-associated TMA."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC also produces schistocytes but is accompanied by prolonged PT/aPTT, low fibrinogen, and markedly elevated D-dimer, which are usually normal or mild in TA-TMA."},
+    {"dx": "Mechanical hemolysis or smear artifact", "vs": "Artifactual fragments are few and localized to thin smear edges, whereas true TMA shows reproducible schistocytes (>1%) with elevated LDH and low haptoglobin."},
+    {"dx": "Posterior circulation stroke or infection (e.g., PML, CNS GVHD)", "vs": "Posterior stroke follows a vascular territory with diffusion restriction, and PML is asymmetric without mass effect, whereas PRES is symmetric vasogenic edema that reverses after stopping tacrolimus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; MRI FLAIR",
+  "match": "consistent",
+  "high_yield": true
+}

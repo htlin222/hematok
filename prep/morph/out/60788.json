@@ -1,0 +1,22 @@
+{
+  "id": "60788",
+  "recognize_zh": "大片中至大型、核卵圓且泡狀的腫瘤細胞呈瀰漫性 CD10 陽性（棕色膜/細胞質染色），左下角小型背景淋巴球則為陰性，支持生發中心來源（GCB）的瀰漫性大 B 細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheet of medium-to-large cells with round to oval vesicular nuclei",
+    "Moderate-to-strong membranous and granular cytoplasmic CD10 staining in most large cells",
+    "Occasional dot-like/Golgi-pattern accentuation of CD10 staining",
+    "Small background lymphocytes and stromal/endothelial cells (lower left) are CD10 negative, serving as internal negative control",
+    "No residual follicular architecture evident in this field"
+  ],
+  "describe_en": "Immunohistochemical stain for CD10 on a biopsy of a bone lesion shows a diffuse infiltrate of medium-to-large atypical lymphoid cells with vesicular oval nuclei. The large neoplastic cells show moderate-to-strong membranous and granular cytoplasmic CD10 positivity, whereas admixed small lymphocytes and stromal cells are negative. In the context of a diffuse large B-cell proliferation (Ki-67 about 50%, BCL2 strong, MUM1 variable, MYC not overexpressed per history), findings are consistent with diffuse large B-cell lymphoma, NOS, germinal center B-cell subtype by the Hans algorithm, presenting as primary bone lymphoma.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Also CD10 positive, but shows monotonous medium-sized cells with a starry-sky pattern, Ki-67 near 100%, BCL2 negativity and MYC rearrangement, unlike this BCL2-strong case with Ki-67 about 50%."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Can be CD10+/BCL2+ GCB-type, so FISH for MYC, BCL2 and BCL6 is required; morphology and IHC alone cannot exclude it."},
+    {"dx": "B-lymphoblastic lymphoma of bone", "vs": "Also CD10 positive and common in bone in children, but cells have fine blastic chromatin and express TdT and often CD34, with weak or absent CD20 and surface immunoglobulin."},
+    {"dx": "Ewing sarcoma / small round cell tumor", "vs": "Lacks CD20/CD45 and shows membranous CD99 with NKX2-2 and EWSR1 rearrangement rather than B-cell markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD10",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "61160",
+  "recognize_zh": "大腸黏膜固有層被淡染的組織球樣細胞浸潤，高倍下細胞核有核溝、折疊或腎形，細胞質淡嗜酸性，夾雜嗜酸性球；免疫染色大片陽性，符合蘭格漢斯細胞組織球增生症（Langerhans cell histiocytosis）。",
+  "features": [
+    "Panel A: colonic mucosa with intact crypts and a pale, expansile infiltrate in the lamina propria/submucosa",
+    "Panel B: sheets of medium-sized cells with oval, folded, grooved or reniform (coffee-bean) nuclei, fine chromatin and inconspicuous nucleoli",
+    "Moderate pale eosinophilic cytoplasm with indistinct borders; scattered admixed eosinophils",
+    "Panels C/D: strong diffuse immunohistochemical positivity of the infiltrate, sparing the crypt epithelium (antigens not labeled; typically CD1a, langerin/CD207 or S100)",
+    "Panel E: weak cytoplasmic staining in lesional cells; panel F: brown staining of the lesion with green counterstain (consistent with a BRAF V600E-type mutation-specific or second IHC)",
+    "No necrosis or marked mitotic activity in the visible fields"
+  ],
+  "describe_en": "Colonic mucosal biopsy shows intact crypts with an expansile, pale-staining infiltrate occupying the lamina propria. At high power the infiltrate consists of sheets of medium-sized histiocytoid cells with grooved, folded, or reniform nuclei, fine chromatin, and moderate pale eosinophilic cytoplasm, with admixed eosinophils. Immunohistochemical stains show strong diffuse positivity of the lesional cells with sparing of the epithelium, and additional stains highlight the same population (antigens not labeled in the figure). Findings are consistent with Langerhans cell histiocytosis of the colon; CD1a and langerin positivity with BRAF p.V600E mutation supports the diagnosis, and systemic staging is recommended.",
+  "ddx": [
+    {"dx": "Erdheim-Chester disease or Rosai-Dorfman disease", "vs": "These non-LCH histiocytoses lack nuclear grooves and are CD1a and langerin negative (Rosai-Dorfman S100+ with emperipolesis; ECD foamy CD163+ histiocytes)."},
+    {"dx": "Langerhans cell sarcoma", "vs": "Langerhans cell sarcoma has marked cytologic atypia, prominent nucleoli and high mitotic rate, unlike the bland grooved cells here."},
+    {"dx": "Mucosal xanthoma or reactive histiocytes", "vs": "Xanthoma cells are foamy CD68-positive macrophages with small round nuclei and are CD1a negative."},
+    {"dx": "Eosinophilic colitis or poorly differentiated carcinoma", "vs": "Eosinophilic colitis lacks sheets of grooved CD1a+ cells, and carcinoma cells are cohesive with cytokeratin positivity."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC (multiple, antigens not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

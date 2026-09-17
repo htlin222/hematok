@@ -1,0 +1,37 @@
+{
+  "id": "27",
+  "recognize_zh": "血液與骨髓抹片可見芽細胞增加，合併多系發育不良：顆粒稀少的嗜中性球、假 Pelger 核、紅血球前驅細胞核分葉/出芽、切片中核葉分離的異常巨核細胞；骨髓切片富細胞，流式顯示 CD34+/CD117+/CD13+ 骨髓性芽細胞，符合 MDS 伴隨芽細胞增加（RAEB）。",
+  "features": [
+    "Increased blasts in blood and marrow: medium-to-large cells with high N:C ratio, fine chromatin, visible nucleoli and scant to moderate agranular basophilic cytoplasm",
+    "Dysgranulopoiesis: hypogranular neutrophils and myeloid precursors with pale cytoplasm, hyposegmented (pseudo-Pelger-like) nuclei",
+    "Dyserythropoiesis: erythroid precursors with nuclear lobulation/budding and megaloblastoid chromatin",
+    "Dysmegakaryopoiesis on biopsy: megakaryocytes with multiple widely separated round nuclei and small hypolobated forms",
+    "Hypercellular marrow biopsy with reduced fat; IHC highlights increased scattered interstitial positive mononuclear cells (antigen not labeled, likely CD34)",
+    "Flow cytometry: CD45-dim, low-SSC blast gate that is CD34+, CD117+, CD13+, HLA-DR+, partial CD33 and partial aberrant CD56, CD19-, CD7-, CD14-"
+  ],
+  "describe_en": "Peripheral blood smear shows anisopoikilocytosis with ovalocytes and teardrop cells, hypogranular neutrophils and circulating blasts with fine chromatin, nucleoli and scant basophilic cytoplasm; platelets appear reduced at low power. The bone marrow aspirate shows increased blasts with multilineage dysplasia, including hypogranular and hyposegmented granulocytes and erythroid precursors with nuclear lobulation and megaloblastoid change. The core biopsy is hypercellular with dysplastic megakaryocytes, including forms with multiple separated nuclei, and immunohistochemistry (antigen not labeled) highlights increased interstitial positive mononuclear cells without large aggregates. Flow cytometry identifies a CD45-dim myeloid blast population expressing CD34, CD117, CD13 and HLA-DR with partial CD33 and aberrant partial CD56, and lacking CD19, CD7 and CD14. The blast percentage must be established by manual differential count; findings are consistent with myelodysplastic syndrome with excess blasts (RAEB).",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia (myelodysplasia-related)", "vs": "AML requires >=20% blasts in blood or marrow (or a defining genetic lesion), whereas MDS-EB has 5-19% marrow or 2-19% blood blasts on manual count."},
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic anemia shows hypersegmented neutrophils, giant metamyelocytes and nuclear-cytoplasmic asynchrony without increased CD34+ blasts, and corrects with vitamin replacement."},
+    {"dx": "Reactive/regenerating marrow after chemotherapy or G-CSF", "vs": "Regenerating marrow shows left-shifted but granulated myeloid precursors with synchronous maturation and a transient CD34+ increase without aberrant CD56 or persistent dysplasia."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML requires persistent peripheral monocytosis (>=0.5 x10^9/L and >=10% of WBC), which is not evident in these fields."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC (unlabeled); flow cytometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: circulating blast next to a small nucleated cell (left) and hypogranular segmented neutrophil (right); ovalocytes and teardrop cells",
+    "Bone marrow aspirate: hypogranular myeloid precursors and erythroid precursors",
+    "Bone marrow aspirate: dyserythropoiesis with lobulated erythroid nucleus and megaloblastoid precursors",
+    "Bone marrow aspirate: two blasts with fine chromatin and nucleoli beside a hypogranular band",
+    "Bone marrow aspirate: blasts and immature myeloid cells with sparse granulation and abnormal nuclear shapes",
+    "Bone marrow biopsy, low power: hypercellular marrow with scattered megakaryocytes",
+    "Bone marrow biopsy: hypercellular marrow with immature cells and small megakaryocytes",
+    "Bone marrow biopsy, high power: dysplastic megakaryocyte with multiple widely separated round nuclei",
+    "IHC (antigen not labeled, likely CD34): increased scattered interstitial positive mononuclear cells",
+    "Flow cytometry: CD45-dim blasts CD34+ CD117+ CD13+ HLA-DR+ with partial CD33 and CD56, CD19- CD7- CD14-",
+    "Peripheral blood, high power: circulating blast with nucleoli and basophilic cytoplasm",
+    "Peripheral blood, low power: several circulating blasts with a rare neutrophil"
+  ]
+}

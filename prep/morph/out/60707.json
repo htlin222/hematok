@@ -1,0 +1,23 @@
+{
+  "id": "60707",
+  "recognize_zh": "骨髓切片細胞過多、巨核細胞增生且成簇，網狀纖維染色顯示明顯纖維化；淋巴結可見萎縮退化的生發中心、血管玻璃樣變穿入濾泡，濾泡間區血管增生，符合 TAFRO 症候群（Castleman 病變異型）。",
+  "features": [
+    "Panel A (BM, 100x): hypercellular marrow between trabeculae",
+    "Panel A (BM, 400x): megakaryocytic hyperplasia with clustered, hyperlobated megakaryocytes",
+    "Panel A (reticulin): increased reticulin fibers forming a dense network (marrow fibrosis)",
+    "Panel B (LN, 40x): preserved follicles with small regressed germinal centers and expanded interfollicular zones",
+    "Panel B (LN, 400x): atrophic hyalinized germinal center surrounded by concentric mantle zone lymphocytes (onion-skin pattern)",
+    "Panel B (LN, 400x): hypervascular interfollicular area with congested vessels and plasma cells/red cells"
+  ],
+  "describe_en": "Bone marrow biopsy is hypercellular with megakaryocytic hyperplasia, including clusters of hyperlobated megakaryocytes, and reticulin stain shows increased reticulin fibrosis. The lymph node shows preserved architecture with regressed, hyalinized germinal centers surrounded by concentrically arranged mantle zone lymphocytes, together with interfollicular hypervascularity. Findings are consistent with multicentric Castleman disease of hyaline-vascular/mixed type in a patient with the TAFRO clinical syndrome (thrombocytopenia, anasarca, fever, reticulin fibrosis, organomegaly).",
+  "ddx": [
+    {"dx": "HHV8-associated multicentric Castleman disease", "vs": "HHV8 MCD shows plasmablasts in mantle zones positive for LANA-1 and lambda, whereas TAFRO is HHV8 negative."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows atypical cloud-like megakaryocytes with JAK2/CALR/MPL mutation and leukoerythroblastosis, not associated with Castleman lymphadenopathy and anasarca."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows regressed follicles with expanded follicular dendritic meshworks and atypical TFH-phenotype T cells with clonal TCR, rather than onion-skin mantle zones."},
+    {"dx": "Autoimmune lymphadenopathy (e.g., SLE)", "vs": "SLE may show necrosis with hematoxylin bodies and serologic autoantibodies, which are absent in TAFRO."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; reticulin",
+  "match": "consistent",
+  "high_yield": false
+}

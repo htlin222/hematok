@@ -1,0 +1,22 @@
+{
+  "id": "1238",
+  "recognize_zh": "骨髓抹片中大量母細胞（核圓、染色質細緻、細胞質少至中等）與具粗大嗜天青顆粒的前骨髓球／骨髓球混雜，並有少數成熟嗜中性球，顯示母細胞增生同時仍有顆粒球分化，符合 AML with maturation。",
+  "features": [
+    "Hypercellular aspirate dominated by blasts with round nuclei and finely dispersed chromatin",
+    "Blasts with scant to moderate pale basophilic cytoplasm, some with a few azurophilic granules",
+    "Admixed promyelocytes and myelocytes with coarse azurophilic granules",
+    "Occasional segmented neutrophils and a mitotic figure",
+    "Paucity of erythroid precursors; Auer rods not clearly identified at this magnification"
+  ],
+  "describe_en": "Bone marrow aspirate smear is markedly cellular and dominated by blasts with round nuclei, finely dispersed chromatin and scant to moderate pale basophilic cytoplasm, some containing a few azurophilic granules. There is admixed granulocytic maturation, including promyelocytes and myelocytes with coarse azurophilic granules and occasional segmented neutrophils. Erythroid precursors are sparse, and Auer rods are not clearly seen at this magnification. Findings are consistent with acute myeloid leukemia with maturation, provided blasts are at least 20% with at least 10% maturing granulocytic cells; cytogenetic and molecular studies, including RUNX1::RUNX1T1, are needed for classification.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL shows sheets of abnormal hypergranular promyelocytes with bilobed nuclei and bundles of Auer rods (faggot cells), rather than a mixture of blasts with orderly maturing granulocytes."},
+    {"dx": "AML without maturation", "vs": "AML without maturation has less than 10% maturing granulocytic cells, whereas this field shows readily identifiable promyelocytes, myelocytes and neutrophils."},
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "MDS-IB has fewer than 20% blasts with multilineage dysplasia, requiring an accurate differential count to separate from AML."},
+    {"dx": "Regenerating marrow (left shift)", "vs": "Recovery after chemotherapy or G-CSF shows a synchronous wave of promyelocytes and myelocytes with few true blasts and normal maturation."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

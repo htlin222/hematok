@@ -1,0 +1,22 @@
+{
+  "id": "62033",
+  "recognize_zh": "這是一張綜合圖：A、B 為血液/骨髓抹片，可見顆粒豐富、核不規則的異常前骨髓細胞，以及紅色箭頭標示的深紫色粗顆粒嗜鹼性細胞；C 為流式細胞圖、D 為染色體核型，需以 PML::RARA 確認急性前骨髓細胞白血病。",
+  "features": [
+    "Composite figure: panels A and B smear photomicrographs, panel C flow cytometry dot plots, panel D G-banded karyotype",
+    "Panels A/B: large cells with abundant granular cytoplasm and irregular/folded nuclei, compatible with abnormal promyelocytes (black arrows indicate cells with cytoplasmic projections)",
+    "Panels A/B: cells with coarse dark purple granules obscuring the nucleus (red arrows), compatible with basophils or basophilic-type granulated cells",
+    "No Auer rod bundles (faggot cells) are discernible at this resolution",
+    "Panels C and D are too low in resolution to read antigen labels or specific chromosomal breakpoints"
+  ],
+  "describe_en": "This composite figure combines smear morphology with flow cytometry and karyotype. The smears (panels A and B) show large abnormal granular cells with irregular folded nuclei and abundant granular cytoplasm, admixed with cells bearing coarse, dark purple granules consistent with basophils (red arrows). Faggot cells and Auer rods cannot be confirmed at this resolution. Panel C shows flow cytometric dot plots with distinct colored populations and panel D a G-banded karyotype, but axis labels and chromosomal breakpoints are not legible in this image. Findings are compatible with an atypical acute promyelocytic leukemia with basophilic differentiation, as indicated in the title; the diagnosis rests on demonstration of PML::RARA by FISH, RT-PCR, or karyotype, and coagulopathy (DIC/bleeding) should be urgently evaluated.",
+  "ddx": [
+    {"dx": "Acute basophilic leukemia", "vs": "Acute basophilic leukemia shows blasts with coarse basophilic granules and metachromasia on toluidine blue but lacks PML::RARA, which defines APL."},
+    {"dx": "Chronic myeloid leukemia in accelerated/blast phase", "vs": "CML shows basophilia with a left-shifted granulocytic series and BCR::ABL1 fusion rather than PML::RARA."},
+    {"dx": "AML with t(6;9)(p22.3;q34.1); DEK::NUP214", "vs": "This AML is characteristically associated with marrow basophilia and multilineage dysplasia, and is separated from APL by cytogenetics/molecular testing."},
+    {"dx": "AML with NPM1 mutation (cup-like blasts)", "vs": "NPM1-mutated AML can mimic microgranular APL with HLA-DR negativity, but lacks PML::RARA and shows NPM1 mutation by molecular testing."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa (A, B); flow (C); G-banding (D)",
+  "match": "partial",
+  "high_yield": false
+}

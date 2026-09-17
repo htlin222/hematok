@@ -1,0 +1,22 @@
+{
+  "id": "3200",
+  "recognize_zh": "周邊血中一顆中等大小的淋巴細胞，比小淋巴球大，核圓、染色質中度濃縮，中央可見一個淡而明顯的核仁，周圍有一圈中等量的嗜鹼性胞質，符合前淋巴細胞（prolymphocyte）。",
+  "features": [
+    "Medium-sized lymphoid cell, about twice the diameter of a red cell",
+    "Round nucleus with moderately condensed chromatin",
+    "Single, fairly conspicuous central nucleolus",
+    "Moderate rim of basophilic cytoplasm with slightly irregular border",
+    "Background red cells largely normocytic without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows a medium-sized lymphoid cell with a round nucleus, moderately condensed chromatin and a single prominent central nucleolus. The cell has a moderate rim of basophilic cytoplasm. Background red cells are unremarkable in this field. The morphology is that of a prolymphocyte; when these cells constitute a large proportion of circulating lymphocytes, differential considerations include B-prolymphocytic transformation of CLL, mantle cell lymphoma and T-prolymphocytic leukemia, requiring flow cytometry and cytogenetic studies.",
+  "ddx": [
+    {"dx": "Small lymphocyte of CLL", "vs": "CLL cells are smaller with scant cytoplasm and coarse block-like 'soccer ball' chromatin without a prominent nucleolus."},
+    {"dx": "Lymphoblast", "vs": "Lymphoblasts have finely dispersed immature chromatin and a high N:C ratio, whereas the prolymphocyte has moderately condensed chromatin with a single distinct nucleolus."},
+    {"dx": "Leukemic mantle cell lymphoma (blastoid/pleomorphic)", "vs": "Mantle cell lymphoma can mimic prolymphocytes morphologically but is CD5+/cyclin D1+ with t(11;14), which must be excluded by ancillary testing."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells often show cytoplasmic blebs and irregular nuclei and are distinguished by T-cell markers and TCL1A rearrangement."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

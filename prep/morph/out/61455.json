@@ -1,0 +1,22 @@
+{
+  "id": "61455",
+  "recognize_zh": "A 圖 CellaVision 自動影像只抓到桿狀/分葉嗜中性球、單核球與骨髓細胞，沒有母細胞；但 B 圖 Sysmex WDF 散佈圖上方有高側向螢光（SFL）的異常族群（紅圈），而 C、D 圖在抹片羽狀緣與側緣找到大量巨大母細胞，說明大細胞會被推到抹片邊緣而被自動系統漏掉。",
+  "features": [
+    "Panel A: CellaVision gallery shows band and segmented neutrophils, myelocytes, metamyelocytes, lymphocytes, and monocytes, without blasts",
+    "Panel B: Sysmex WDF scattergram (SFL vs SSC) with a discrete high side-fluorescence population (dotted circle) above the normal clusters",
+    "Panel C: feathered edge of the smear with clusters of very large cells with high N:C ratio, fine chromatin, and basophilic cytoplasm (blasts), some with vacuoles",
+    "Panel D: lateral edge of the smear with isolated large blasts",
+    "Monocytosis and left-shifted granulocytes in the reading area"
+  ],
+  "describe_en": "Composite figure. Automated digital morphology of the smear body (A) shows left-shifted neutrophils, myelocytes, and monocytes without blasts, whereas the analyzer WDF scattergram (B) displays an abnormal population with high side fluorescence consistent with cells of high nucleic acid content. Manual review of the feathered (C) and lateral (D) edges reveals numerous very large blasts with high N:C ratios, fine chromatin, and basophilic, occasionally vacuolated cytoplasm. The discordance reflects preferential displacement of large cells to the smear edges, beyond the area sampled by the automated imager. Findings are suspicious for acute leukemia (confirmed as AML on marrow) and illustrate the need to scan smear edges when flags and images disagree.",
+  "ddx": [
+    {"dx": "Leukemoid reaction/left shift", "vs": "A leukemoid reaction shows a full spectrum of maturing granulocytes without a discrete blast population on the edges or a high-SFL cluster."},
+    {"dx": "Reactive lymphocytes", "vs": "Reactive lymphocytes also flag as abnormal lymphocytes but have abundant cytoplasm hugging RBCs and more condensed chromatin than blasts."},
+    {"dx": "Smudge/degenerated cells", "vs": "Smudge cells lack intact cytoplasm and nuclear detail and do not form a coherent high-SFL population."},
+    {"dx": "Carcinoma or lymphoma cells in blood", "vs": "Cohesive clusters of large cells can mimic blasts, so flow cytometry is needed to establish myeloid blast lineage."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; analyzer scattergram",
+  "match": "consistent",
+  "high_yield": false
+}

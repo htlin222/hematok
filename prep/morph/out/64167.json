@@ -1,0 +1,22 @@
+{
+  "id": "64167",
+  "recognize_zh": "骨髓切片 CD163 免疫染色中，大量大型上皮樣細胞的細胞膜與細胞質呈強烈棕色顆粒狀、樹枝狀陽性，勾勒出細胞輪廓，支持這群上皮樣細胞為組織球（histiocyte／macrophage）來源。",
+  "features": [
+    "Dense sheet-like infiltrate of large cells with ovoid pale nuclei replacing much of the marrow",
+    "Strong CD163 staining with membranous and coarse granular cytoplasmic pattern",
+    "Positive cells show irregular, dendritic-like cytoplasmic extensions outlining cell borders",
+    "Admixed CD163-negative smaller hematopoietic cells",
+    "Few residual adipocyte spaces"
+  ],
+  "describe_en": "CD163 immunohistochemistry on the bone marrow core biopsy shows strong membranous and granular cytoplasmic staining in numerous large epithelioid cells, which form a dense, sheet-like infiltrate with irregular cytoplasmic processes. Interspersed smaller hematopoietic cells are negative. In conjunction with CD34 negativity and only dot-like keratin staining, the CD163 expression supports histiocytic/monocyte-macrophage lineage of the epithelioid infiltrate; distinction between a reactive histiocytic proliferation and a histiocytic neoplasm requires correlation with cytologic atypia, extent, and additional markers.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells are CD163-negative with strong diffuse cytokeratin, whereas these cells are CD163-positive with only dot-like keratin."},
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytic sarcoma is also CD163-positive but shows marked cytologic atypia and mitoses on H&E with CD68/lysozyme, and requires exclusion of other lineages."},
+    {"dx": "Acute monocytic leukemia infiltrate", "vs": "Monoblasts/promonocytes are smaller with fine chromatin, often CD34/CD117 variable, and typically CD163 weak to negative, with blasts evident on aspirate."},
+    {"dx": "Normal resident marrow macrophages", "vs": "Resident macrophages are scattered, interstitial, and dendritic rather than forming a dense cohesive sheet of large epithelioid cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD163",
+  "match": "consistent",
+  "high_yield": false
+}

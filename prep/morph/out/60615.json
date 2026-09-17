@@ -1,0 +1,21 @@
+{
+  "id": "60615",
+  "recognize_zh": "骨髓切片在造血組織中散布數個界線清楚、淡粉紅色的上皮樣組織球聚集（箭頭），即肉芽腫；CD68 免疫染色標出肉芽腫及其中的多核巨細胞，在接種 BCG 的病人要想到 BCG 感染（BCGitis）。",
+  "features": [
+    "Hypercellular marrow with trilineage hematopoiesis containing several discrete, pale eosinophilic nodules (arrows)",
+    "Nodules composed of epithelioid histiocytes with ill-defined borders, forming non-necrotizing granulomas at this magnification",
+    "Multinucleated giant cell within a granuloma highlighted on immunostain",
+    "CD68 immunostain strongly positive in granuloma histiocytes, giant cell, and scattered background macrophages",
+    "No caseous necrosis evident in these fields"
+  ],
+  "describe_en": "The bone marrow core biopsy (H&E) is hypercellular with maturing trilineage hematopoiesis and contains multiple small, discrete aggregates of epithelioid histiocytes forming granulomas without obvious necrosis. CD68 immunohistochemistry highlights the granulomas, including a multinucleated giant cell, and background macrophages. In a patient with prior BCG exposure (vaccination or intravesical therapy), findings are consistent with granulomatous marrow inflammation due to disseminated BCG infection; acid-fast staining, mycobacterial culture and PCR should be performed.",
+  "ddx": [
+    {"dx": "Disseminated Mycobacterium tuberculosis or MAC", "vs": "Morphology is similar, so distinction requires culture/PCR speciation; TB granulomas more often show caseous necrosis."},
+    {"dx": "Fungal granulomas (Histoplasma, Cryptococcus)", "vs": "Fungal granulomas contain yeasts visible on GMS or PAS stains rather than acid-fast bacilli."},
+    {"dx": "Sarcoidosis", "vs": "Sarcoid granulomas are tight, well-formed and non-necrotizing with negative microbiology and a compatible clinical picture."},
+    {"dx": "Lymphoma-associated granulomas (e.g., Hodgkin lymphoma)", "vs": "Lymphoma-associated granulomas are accompanied by atypical CD30+ Hodgkin cells or an abnormal lymphoid infiltrate."}  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD68",
+  "match": "consistent",
+  "high_yield": false
+}

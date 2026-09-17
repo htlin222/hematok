@@ -1,0 +1,22 @@
+{
+  "id": "64035",
+  "recognize_zh": "普魯士藍鐵染色（Perls stain）中，箭頭所指的紅血球母細胞在核周圍排列著藍色鐵顆粒，即環形鐵粒母細胞（ringed sideroblast）；背景同時可見大量藍色鐵沉積；但此張對焦與解析度有限，環狀排列不甚清楚。",
+  "features": [
+    "Erythroblast (arrow) with blue siderotic granules arranged around the nucleus, consistent with a ringed sideroblast",
+    "Abundant coarse blue iron deposits within particles/macrophages, indicating increased storage iron",
+    "Erythroid nuclei counterstained pink with neutral red/nuclear fast red",
+    "Other erythroblasts in the field with scattered perinuclear granules",
+    "Limited focus and thick particle areas reduce precision of granule counting"
+  ],
+  "describe_en": "Bone marrow aspirate smear stained with Perls Prussian blue (high power) shows increased storage iron, with abundant coarse blue deposits in the particle and macrophages. An erythroblast (arrow) shows blue siderotic granules distributed around the nucleus, consistent with a ringed sideroblast, and other erythroblasts contain perinuclear granules. The focus and thickness of the preparation limit precise counting of granules per cell (ICSH: >=5 granules encircling at least one third of the nucleus). In the setting of MDS, findings support ringed sideroblasts; quantification (>=15%, or >=5% with SF3B1 mutation) is required for classification.",
+  "ddx": [
+    {"dx": "Normal (non-ringed) sideroblasts", "vs": "Normal sideroblasts contain a few (1-4) small granules scattered randomly in the cytoplasm rather than >=5 granules encircling the nucleus."},
+    {"dx": "Congenital sideroblastic anemia (e.g., ALAS2)", "vs": "Congenital forms present young, with microcytic hypochromic red cells and no dysplasia or clonal cytogenetic/SF3B1 changes."},
+    {"dx": "Acquired non-clonal ringed sideroblasts (alcohol, copper deficiency, zinc toxicity, isoniazid, linezolid)", "vs": "Reversible causes lack SF3B1 mutation and clonal abnormalities and resolve after removing the cause, so history and copper levels are essential."},
+    {"dx": "Stain precipitate", "vs": "Artifactual precipitate lies on top of cells in multiple focal planes and is also present in cell-free background, unlike intracellular perinuclear granules."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Perls Prussian blue",
+  "match": "consistent",
+  "high_yield": true
+}

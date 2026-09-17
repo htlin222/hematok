@@ -1,0 +1,22 @@
+{
+  "id": "62039",
+  "recognize_zh": "高倍免疫染色（紅色呈色，標記未註明）中，箭頭指向數顆大型、核呈淡染泡狀且輪廓不規則分葉的 LP 細胞（爆米花細胞），它們在這個標記為陰性；視野中只有一顆大型細胞呈強陽性，背景淋巴球也多為陰性，須對照同病例其他染色才能判讀。",
+  "features": [
+    "Large atypical cells (arrows) with vesicular, pale, lobulated or folded nuclei and small nucleoli, consistent with LP (popcorn) cells",
+    "Arrowed LP cells negative for the illustrated red-chromogen marker",
+    "Single large cell with strong red membranous/cytoplasmic positivity (upper center)",
+    "Background of numerous small to medium lymphoid cells with round to slightly irregular nuclei, largely negative",
+    "Marker identity not labeled on the image, limiting interpretation"
+  ],
+  "describe_en": "High-power immunohistochemical stain with a red chromogen (marker not specified on the image) shows a dense lymphoid background containing several large atypical cells with vesicular, lobulated nuclei (arrows), morphologically consistent with lymphocyte-predominant (LP) cells. The LP cells are negative for this marker, while a single large cell elsewhere in the field is strongly positive and the small background lymphocytes are largely negative. Because the marker is not identified, the stain is best interpreted as a negative result in LP cells (for example, CD30 or CD15 negativity, which would argue against classic Hodgkin lymphoma) and must be correlated with the full panel. Findings are consistent with nodular lymphocyte-predominant Hodgkin lymphoma in the reported context of variant patterns with progression.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma (lymphocyte-rich)", "vs": "Hodgkin/Reed-Sternberg cells are CD30+/CD15+ with weak PAX5 and loss of OCT2/BOB1, whereas LP cells are CD30/CD15-negative and strongly CD20/OCT2/BOB1-positive."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered large B cells in a diffuse T-cell and histiocyte background without residual small B-cell nodules or FDC meshworks, which mirrors NLPHL pattern E and requires the full architectural panel."},
+    {"dx": "Diffuse large B-cell lymphoma arising from NLPHL", "vs": "Transformation is recognized when large B cells form confluent sheets rather than scattered single LP cells as seen here."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC lacks LP cells and shows fragmented CD10+/BCL6+ germinal center remnants within enlarged nodules."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC (red chromogen; marker not specified)",
+  "match": "partial",
+  "high_yield": false
+}

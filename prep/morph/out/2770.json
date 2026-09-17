@@ -1,0 +1,22 @@
+{
+  "id": "2770",
+  "recognize_zh": "骨髓抽吸抹片中一大片成群的小至中型圓形細胞，細胞質極少、染色質細緻，細胞間夾著淡藍色纖維狀基質（neuropil-like material），這種非造血細胞聚團提示轉移性神經母細胞瘤。",
+  "features": [
+    "Sheets and cohesive aggregates of small to intermediate-sized round cells, roughly 1.5-2 times a lymphocyte",
+    "High N:C ratio with scant, barely visible pale cytoplasm",
+    "Round to slightly molded nuclei with finely granular chromatin; nucleoli inconspicuous",
+    "Pale blue-gray fibrillary material between tumor cells (neuropil-like matrix)",
+    "No rosettes or ganglionic differentiation evident in this field; normal hematopoietic elements are largely absent"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows large cohesive aggregates of small round blue cells that largely replace normal hematopoietic elements in this field. The cells have a high N:C ratio, scant cytoplasm, round to focally molded nuclei with finely granular chromatin, and inconspicuous nucleoli. Delicate pale blue fibrillary material is present between cells. Well-formed Homer Wright rosettes and ganglion cell differentiation are not identified. Findings are consistent with metastatic undifferentiated neuroblastoma; confirmation with immunohistochemistry (e.g., PHOX2B, synaptophysin) and urine catecholamines is recommended.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are dispersed as single cells without cohesive clusters, nuclear molding or fibrillary matrix, and are TdT/CD19 or CD3 positive rather than PHOX2B/synaptophysin positive."},
+    {"dx": "Metastatic rhabdomyosarcoma (alveolar)", "vs": "Rhabdomyoblasts often show more cytoplasm, occasional vacuoles and multinucleated forms, lack neuropil, and are desmin/myogenin positive."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing cells may have cytoplasmic vacuoles (PAS-positive glycogen) and lack neuropil; they are CD99/NKX2.2 positive with EWSR1 rearrangement."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and are non-cohesive B cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

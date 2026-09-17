@@ -1,0 +1,23 @@
+{
+  "id": "64320",
+  "recognize_zh": "粗針切片中大型異型淋巴細胞呈瀰漫片狀浸潤，伴出血與壞死；多條血管壁被深藍紫色的 DNA 物質包覆（Azzopardi 現象），Ki-67 染色（D）顯示許多細胞核陽性。",
+  "features": [
+    "Diffuse sheets of medium to large atypical lymphoid cells effacing the core biopsy",
+    "Neoplastic cells with round to oval nuclei, open chromatin and moderate to abundant cytoplasm (panel C)",
+    "Basophilic hematoxylin-staining DNA encrustation of small vessel walls (Azzopardi phenomenon) in panels A-C",
+    "Areas of hemorrhage and eosinophilic necrosis between cellular zones",
+    "Ki-67 IHC (panel D) with a high proliferation fraction, roughly half of cells positive",
+    "Crush artifact and small-lymphocyte-rich area at one edge of panel A"
+  ],
+  "describe_en": "Core biopsies of lymph node show diffuse effacement by sheets of large atypical lymphoid cells with round to oval nuclei, vesicular chromatin and moderate cytoplasm, admixed with areas of hemorrhage and necrosis. Numerous small vessels show basophilic encrustation of their walls by nuclear DNA released from necrotic tumor cells (Azzopardi phenomenon). Ki-67 immunostain highlights a high proliferation index (approximately 50%). In the context of CD20+, CD5+, BCL6+, MUM1+ immunophenotype, findings are consistent with diffuse large B-cell lymphoma, CD5-positive, non-germinal center type.",
+  "ddx": [
+    {"dx": "Small cell carcinoma (neuroendocrine carcinoma)", "vs": "Azzopardi effect is classic for small cell carcinoma, but those cells are small with nuclear molding, salt-and-pepper chromatin and keratin/INSM1 positivity, whereas these cells are large, CD45+/CD20+ and keratin-negative."},
+    {"dx": "Blastoid/pleomorphic mantle cell lymphoma", "vs": "Both can be CD5+, but mantle cell lymphoma expresses cyclin D1 and SOX11, which were negative here."},
+    {"dx": "Richter transformation of CLL/SLL", "vs": "Richter transformation arises with a background CLL/SLL component (CD5+/CD23+ small cells) and a clinical history of CLL, which were not present."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows hallmark cells with horseshoe nuclei and strong uniform CD30 with T-cell or null phenotype, rather than CD20+ B cells."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

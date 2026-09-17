@@ -1,0 +1,22 @@
+{
+  "id": "2098",
+  "recognize_zh": "周邊血抹片中一群中型淋巴細胞，核呈明顯多葉、凹陷或花瓣狀（flower cell / clover-leaf），染色質粗糙濃縮、無明顯核仁，胞質少而淡嗜鹼性，是成人 T 細胞白血病/淋巴瘤（ATLL）的經典形態。",
+  "features": [
+    "Cluster of medium-sized atypical lymphocytes",
+    "Markedly lobulated, indented, or cloverleaf nuclei (flower cells)",
+    "Coarse, condensed chromatin without prominent nucleoli",
+    "Scant to moderate pale basophilic agranular cytoplasm",
+    "Background of normochromic red cells; no platelet clumping"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of medium-sized atypical lymphocytes with markedly lobulated, indented, and cloverleaf-shaped nuclei, coarse condensed chromatin, inconspicuous nucleoli, and scant pale basophilic agranular cytoplasm. Red cells are unremarkable. Findings are consistent with the flower cells of adult T-cell leukemia/lymphoma; confirmation requires CD4+/CD25+ T-cell immunophenotype and HTLV-1 serology or proviral integration studies.",
+  "ddx": [
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform grooved nuclei rather than deep polylobation, and Sézary syndrome lacks HTLV-1 and usually CD25 expression."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells have a prominent single nucleolus and cytoplasmic blebs, with TCL1A rearrangement."},
+    {"dx": "Chronic lymphocytic leukemia with atypical nuclei", "vs": "CLL cells have round nuclei with soccer-ball chromatin and are CD5+/CD23+ B cells."},
+    {"dx": "Reactive lymphocytes / artifactual nuclear lobation", "vs": "Reactive lymphocytes show abundant basophilic cytoplasm scalloping around RBCs and lack clonal CD4+ T-cell expansion."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61404",
+  "recognize_zh": "這是流式細胞儀 CD4（y 軸）對 CD8（x 軸）點圖，已圈選 CD3+ T 細胞：CD8+ 75.24%、CD4+ 17.00%，CD4/CD8 比例倒置約 1:4.4，另有 7.46% CD4-/CD8- 雙陰性 T 細胞，後者多為 γδ T 細胞。",
+  "features": [
+    "Two-parameter dot plot gated on CD3+ events: CD4-APC750 versus CD8-ECD",
+    "CD4+CD8- T cells (red, upper left) 17.00%",
+    "CD4-CD8+ T cells (green, lower right) 75.24%, giving an inverted CD4:CD8 ratio of about 0.23",
+    "CD4-CD8- double-negative T cells (light blue, lower left) 7.46%, mildly increased",
+    "CD4+CD8+ double-positive events (dark blue, upper right) negligible at 0.31%"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on CD3-positive T cells displays CD4 versus CD8 expression. CD8-positive T cells predominate (75.24%) over CD4-positive T cells (17.00%), yielding a markedly inverted CD4:CD8 ratio of approximately 1:4.4. A distinct CD4/CD8 double-negative T-cell population comprises 7.46% of T cells, and double-positive T cells are negligible (0.31%). The double-negative population is most often TCR gamma/delta T cells, which typically express brighter CD3 and dimmer CD5; confirmation requires TCR gamma/delta staining, and clonality cannot be determined from this plot alone.",
+  "ddx": [
+    {"dx": "Reactive CD8 T-cell expansion (e.g. viral infection, HIV)", "vs": "Shows an inverted ratio with CD8 T cells of normal antigen intensity and preserved CD5/CD7, without a discrete aberrant population."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "CD8+ T cells are clonal, often CD57+ with dim or lost CD5/CD7, requiring TRBC1 or TCR gene rearrangement studies to confirm."},
+    {"dx": "Hepatosplenic T-cell lymphoma / gamma-delta T-cell lymphoma", "vs": "Double-negative TCR gamma/delta+ cells are clonal and phenotypically aberrant (e.g. CD5 loss, CD56+), with clinical hepatosplenomegaly, rather than a small polyclonal population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61452",
+  "recognize_zh": "A 圖血液抹片可見多顆循環中的中到大型肥大細胞，核圓至卵圓、胞質含紫黑色嗜鹼性顆粒且顆粒外溢到周圍；配合 B–D 骨髓切片中瀰漫浸潤及免疫染色陽性，符合肥大細胞白血病進入白血病期。",
+  "features": [
+    "Panel A: several circulating medium-to-large mast cells in peripheral blood with round to oval, centrally placed nuclei and moderately abundant cytoplasm",
+    "Cytoplasm contains dark purple metachromatic granules, unevenly distributed, with granules scattered outside the cells (degranulation)",
+    "Some mast cells show hypogranular areas and slightly irregular cytoplasmic outlines, consistent with atypical mast cells",
+    "Background RBCs are unremarkable; platelets and extracellular granules in background",
+    "Panels B-D (small insets): diffuse, dense marrow infiltrate on a special stain and two immunostains with positive cells replacing marrow (antibodies not labeled)"
+  ],
+  "describe_en": "Peripheral blood smear (panel A) shows multiple circulating mast cells with round to oval nuclei, fine chromatin, and cytoplasm filled with coarse basophilic granules, some partially degranulated with extracellular granules. Insets B-D show a diffuse, sheet-like bone marrow infiltrate on a special stain and immunostains highlighting the neoplastic mast cells; the specific markers are not labeled and are too small to assess in detail. In a patient with previously aleukemic mast cell leukemia, the appearance of numerous circulating mast cells indicates progression to a leukemic phase. Findings are consistent with mast cell leukemia, leukemic variant.",
+  "ddx": [
+    {"dx": "Basophilia (e.g., CML)", "vs": "Basophils have segmented nuclei obscured by large granules that are water-soluble, whereas mast cells have a round central nucleus and are CD117+ tryptase+ CD25+."},
+    {"dx": "Acute basophilic leukemia", "vs": "Blasts show sparse coarse granules and high N:C ratio and are CD123+/CD203c+ but usually lack KIT D816V and strong tryptase/CD25 of mast cells."},
+    {"dx": "Hypergranular promyelocytes (APL)", "vs": "Promyelocytes have azurophilic red-purple granules, often bilobed nuclei and Auer rods, are MPO+, and lack metachromatic tryptase-positive granules."},
+    {"dx": "Myeloid neoplasm with mast cell differentiation (myelomastocytic leukemia)", "vs": "Metachromatic blasts are present but they fail SM criteria (no dense tryptase+ aggregates, usually no KIT D816V or CD25)."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (A); unlabeled special stain and IHC (B-D)",
+  "match": "consistent",
+  "high_yield": false
+}

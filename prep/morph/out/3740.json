@@ -1,0 +1,21 @@
+{
+  "id": "3740",
+  "recognize_zh": "周邊血液中有數顆中型淋巴球，核圓形、染色質均勻，細胞質淡灰藍且邊緣長出一圈細毛狀突起（hairy projections），是毛細胞白血病的典型樣子。",
+  "features": [
+    "Three medium-sized lymphoid cells, larger than a small lymphocyte",
+    "Moderate to abundant pale grey-blue cytoplasm with fine circumferential hair-like projections",
+    "Round to oval nuclei with evenly dispersed, homogeneous chromatin; nucleoli inconspicuous",
+    "Moderate N:C ratio",
+    "One cell at right lacks projections and has clumped chromatin (likely a normal lymphocyte); red cells with rouleaux-like stacking in thick area"
+  ],
+  "describe_en": "Peripheral blood smear shows several atypical medium-sized lymphoid cells with round to oval nuclei, homogeneous chromatin, inconspicuous nucleoli and moderate pale blue-grey cytoplasm bearing fine circumferential hair-like projections. A separate small lymphocyte lacks these projections. Findings are consistent with hairy cell leukemia; confirmation by flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing is recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v cells have a prominent central nucleolus and are CD25/CD123 negative, whereas these cells lack visible nucleoli."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes have short polar (bipolar) villi and more condensed chromatin rather than circumferential fine projections."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "Morphology overlaps, so immunophenotype (CD25-, CD103 often -, annexin A1-) and BRAF wild type separate it from HCL."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "79",
+  "recognize_zh": "骨髓切片被瀰漫片狀的中型細胞取代，核染色質細緻分散、核輪廓略不規則、可見小核仁，外觀像母細胞；周邊血可見類似的不典型淋巴細胞；B 細胞膜染色強陽性，而 cyclin D1 在腫瘤細胞為陰性（只有散在組織球/內皮細胞陽性作內部對照），核標記強陽性（符合 SOX11 型），指向 cyclin D1 陰性母細胞樣被套細胞淋巴瘤（blastoid mantle cell lymphoma）。",
+  "features": [
+    "Bone marrow core: diffuse sheets of monotonous medium-sized to large lymphoid cells replacing normal hematopoiesis, with residual megakaryocytes",
+    "Blastoid cytology: round to slightly irregular or indented nuclei, finely dispersed chromatin, small nucleoli and scant cytoplasm; frequent mitoses and apoptotic bodies",
+    "Peripheral blood: circulating atypical lymphoid cells with fine chromatin, irregular or cleaved nuclear contours and a thin rim of basophilic cytoplasm",
+    "IHC: strong diffuse membranous B-cell marker staining and strong cytoplasmic staining (BCL2-like pattern) in the infiltrate",
+    "Cyclin D1 IHC negative in tumor cells, with scattered positive internal-control histiocytes/endothelial cells",
+    "Strong diffuse nuclear staining in tumor cells (SOX11-like pattern) and a nuclear proliferation marker positive in a high proportion of cells with variable intensity"
+  ],
+  "describe_en": "Axial PET-CT shows splenomegaly with diffuse FDG uptake, FDG-avid upper abdominal/porta hepatis lymph nodes and increased vertebral marrow activity. The peripheral blood smear contains atypical medium-sized lymphoid cells with finely dispersed chromatin, irregular to cleaved nuclei and scant basophilic cytoplasm. The bone marrow biopsy is extensively replaced by sheets of monotonous blastoid lymphoid cells with fine chromatin, small nucleoli, slightly irregular nuclear contours and brisk mitotic and apoptotic activity. Immunohistochemistry shows strong membranous B-cell marker expression, a strong nuclear marker in nearly all tumor cells, cyclin D1 negativity in tumor cells with positive internal controls, and a high but variable proliferation index; individual antibodies other than cyclin D1 are not labeled in the figure. Findings are consistent with the blastoid variant of cyclin D1-negative mantle cell lymphoma, which requires SOX11 positivity and ideally demonstration of a CCND2/CCND3 rearrangement.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "B-ALL expresses TdT and CD34 with dim or absent surface immunoglobulin and CD20, whereas blastoid MCL is TdT-negative with bright surface light chain, CD20 and usually CD5 and SOX11."},
+    {"dx": "Diffuse large B-cell lymphoma / high-grade B-cell lymphoma", "vs": "DLBCL cells are typically larger with vesicular chromatin and prominent nucleoli and are usually CD5- and SOX11-negative, whereas blastoid MCL shows monotonous fine chromatin and SOX11 positivity with CCND1, CCND2 or CCND3 rearrangement."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts may look similar in marrow sections but express MPO, CD34, CD117 or CD33 and lack B-cell antigens, whereas this infiltrate is strongly positive for a B-cell membrane marker."},
+    {"dx": "Atypical CLL / prolymphocytic progression", "vs": "CLL/SLL is CD23-positive and SOX11-negative with dim surface light chain and clumped chromatin, whereas cyclin D1-negative MCL is usually CD23-negative and SOX11-positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "PET-CT; Wright-Giemsa; H&E; IHC incl. cyclin D1",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Axial PET-CT: splenomegaly with diffuse FDG uptake, avid upper abdominal lymph nodes and vertebral marrow uptake",
+    "Peripheral blood: two atypical lymphoid cells with irregular/cleaved nuclei, fine chromatin and scant basophilic cytoplasm",
+    "Peripheral blood: medium-sized atypical lymphoid cell with finely dispersed chromatin and thin cytoplasmic rim",
+    "Bone marrow biopsy H&E: diffuse sheets of blastoid lymphoid cells adjacent to bone trabecula",
+    "Bone marrow biopsy H&E high power: monotonous blastoid cells with fine chromatin, small nucleoli and mitoses",
+    "IHC: strong diffuse membranous staining of tumor cells (B-cell marker pattern)",
+    "IHC: strong diffuse nuclear staining of tumor cells (SOX11-like pattern)",
+    "IHC: strong cytoplasmic/perinuclear staining of tumor cells (BCL2-like pattern)",
+    "Cyclin D1 IHC: tumor cells negative; scattered positive histiocytes/endothelial cells serve as internal control",
+    "IHC: nuclear proliferation marker positive in most tumor cells with variable intensity (Ki-67 pattern)"
+  ]
+}

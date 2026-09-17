@@ -1,0 +1,23 @@
+{
+  "id": "63664",
+  "recognize_zh": "H&E 切片中骨髓被形態單一的小淋巴球片狀取代，核圓至卵圓、間距平均，周圍有清澈細胞質，呈「荷包蛋」（fried-egg）樣外觀；CD20 瀰漫強陽性，annexin A1 陽性，cyclin D1（BCL1）為弱核染色。",
+  "features": [
+    "H&E: hypercellular marrow replaced by sheets of monotonous small lymphoid cells",
+    "Round to oval, evenly spaced nuclei with bland chromatin and inconspicuous nucleoli",
+    "Moderate clear to pale cytoplasm creating a 'fried-egg' pattern; interstitial extravasated red cells",
+    "CD20: diffuse strong membranous staining of the infiltrate",
+    "Annexin A1: weak to moderate cytoplasmic staining of lymphoid cells, stronger in scattered myeloid cells",
+    "BCL1 (cyclin D1): weak nuclear staining in a subset of cells"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a hypercellular marrow extensively infiltrated by sheets of monotonous small lymphoid cells with round to oval, evenly spaced nuclei, bland chromatin, and moderate clear cytoplasm imparting a 'fried-egg' appearance, with interstitial extravasated erythrocytes. By immunohistochemistry the infiltrate is diffusely positive for CD20, shows cytoplasmic annexin A1 positivity (with strong staining of scattered myeloid cells as internal control), and weak nuclear cyclin D1 (BCL1) staining in a subset of cells. Findings are consistent with hairy cell leukemia; BRAF V600E testing (VE1 immunohistochemistry or molecular) can provide further confirmation.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL shows strong uniform nuclear cyclin D1, CD5 positivity, and annexin A1 negativity, without the widely spaced fried-egg pattern."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL shows a nodular or intrasinusoidal pattern and is cyclin D1 and annexin A1 negative."},
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL variant is annexin A1 and CD25 negative and lacks BRAF V600E."},
+    {"dx": "Systemic mastocytosis", "vs": "Mast cell infiltrates can have clear cytoplasm but are CD117 and tryptase positive and CD20 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD20, annexin A1, cyclin D1",
+  "match": "consistent",
+  "high_yield": true
+}

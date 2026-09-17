@@ -1,0 +1,19 @@
+{
+  "id": "65206",
+  "recognize_zh": "這是非形態學圖：FISH 間期核中 RUNX1（紅）訊號多達 4–5 個而 ETV6（綠）只有 2 個，表示第 21 號染色體內擴增（iAMP21）；核型可見衍生自 rob(14;21) 的異常染色體，t-SNE 表現譜落在 iAMP21 群，WGS 顯示 chr14 與 chr21 拷貝數震盪。",
+  "features": [
+    "Interphase FISH (ETV6 green / RUNX1 red): 4-5 RUNX1 signals with 2 ETV6 signals per nucleus, indicating RUNX1 amplification without ETV6::RUNX1 fusion",
+    "G-banded karyotype with abnormal chromosome 21 material, a marker chromosome, and a derivative 14;21 Robertsonian chromosome (inset)",
+    "t-SNE of transcriptome profiles places the patient sample within the iAMP21 B-ALL cluster",
+    "Whole-genome copy-number plot shows oscillating copy states across chr14 and distal chr21 with interconnecting structural rearrangement arcs (chromothripsis-like pattern)"
+  ],
+  "describe_en": "This composite figure is non-morphologic. Interphase FISH with ETV6/RUNX1 probes shows 4 to 5 RUNX1 signals with only two ETV6 signals, consistent with intrachromosomal amplification of chromosome 21 rather than ETV6::RUNX1 fusion. The karyotype shows abnormal chromosome 21 and a derivative chromosome arising from a constitutional rob(14;21), and transcriptome t-SNE clustering places the sample with iAMP21 cases. Whole-genome sequencing demonstrates oscillating copy numbers and structural rearrangements between chromosomes 14 and 21. Findings are consistent with B-lymphoblastic leukemia with iAMP21 arising on a constitutional Robertsonian translocation chromosome.",
+  "ddx": [
+    {"dx": "B-ALL with ETV6::RUNX1", "vs": "ETV6::RUNX1 shows fused red-green signals with loss of a separate ETV6 signal, not isolated amplification of RUNX1 signals."},
+    {"dx": "High hyperdiploid B-ALL or constitutional trisomy 21", "vs": "Whole chromosome 21 gains give only 3-4 RUNX1 signals that track with whole chromosome copies, whereas iAMP21 requires ≥5 RUNX1 signals (or ≥3 extra copies on one abnormal chromosome 21)."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: ETV6/RUNX1; G-banding; N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

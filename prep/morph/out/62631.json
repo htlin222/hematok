@@ -1,0 +1,21 @@
+{
+  "id": "62631",
+  "recognize_zh": "體液細胞塊中的大型腫瘤細胞核呈強棕色 MUM1 陽性，而夾雜其中較小的反應性淋巴球核呈藍色陰性，大小對比清楚，顯示腫瘤具漿母細胞分化。",
+  "features": [
+    "Cell block aggregate of large tumor cells admixed with small lymphocytes",
+    "Strong nuclear MUM1 staining in large cells with vesicular nuclei and visible nucleoli",
+    "Small round lymphocytes are MUM1-negative (blue), internal size and staining contrast",
+    "Some cells show additional weak cytoplasmic blush",
+    "Loose, discohesive arrangement in proteinaceous material"
+  ],
+  "describe_en": "MUM1 (IRF4) immunohistochemistry on an effusion cell block shows strong nuclear staining in the large neoplastic cells, while the admixed small reactive lymphocytes are negative. The positive cells have enlarged vesicular nuclei with nucleoli. MUM1 positivity indicates plasmablastic/post-germinal center differentiation; in a CD20-negative, light-chain-negative, HHV8-positive effusion lymphoma, findings are consistent with primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Also MUM1-positive with CD20 loss but HHV8/LANA-negative."},
+    {"dx": "ABC-type DLBCL involving effusion", "vs": "Also MUM1-positive but retains CD20/PAX5 and is HHV8-negative."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma may express MUM1 but is S100/SOX10-positive and CD45-negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "IHC: MUM1",
+  "match": "consistent",
+  "high_yield": false
+}

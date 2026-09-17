@@ -1,0 +1,21 @@
+{
+  "id": "1875",
+  "recognize_zh": "視野中央的中性球細胞核分成約六個以上、以細絲相連的核葉（≥6 lobes），即過度分葉中性球（hypersegmented neutrophil），常提示維生素 B12 或葉酸缺乏；背景紅血球有錢串狀排列（rouleaux）。",
+  "features": [
+    "Neutrophil of normal to slightly enlarged size",
+    "Nucleus with six or more discrete lobes connected by thin chromatin filaments",
+    "Condensed chromatin in each lobe",
+    "Pale cytoplasm with fine neutrophilic granules",
+    "Background red cells show rouleaux formation; scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil whose nucleus is divided into six or more discrete lobes connected by thin chromatin filaments, with fine neutrophilic granules in the cytoplasm. Red cells in the background show rouleaux formation, and platelets are present. Although a single cell is not diagnostic, a neutrophil with six or more lobes is abnormal. Findings are consistent with neutrophil hypersegmentation, suggestive of megaloblastic anemia (vitamin B12 or folate deficiency) and warranting correlation with MCV and vitamin levels.",
+  "ddx": [
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "This rare benign autosomal dominant trait shows hypersegmentation without macrocytosis or cytopenias, with normal B12 and folate levels."},
+    {"dx": "Drug effect (hydroxyurea, methotrexate, antimetabolites)", "vs": "Drug-induced megaloblastic change looks identical morphologically and is distinguished by medication history."},
+    {"dx": "Overlapping neutrophils or lobe counting artifact", "vs": "Lobes should be counted only when separated by thin filaments; overlapping or folded lobes can mimic extra segments."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

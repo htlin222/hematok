@@ -1,0 +1,21 @@
+{
+  "id": "62711",
+  "recognize_zh": "原始細胞閘門內的 CD15 對 CD10 流式圖：大部分原始細胞（紅色）CD15 陰性、CD10 陰性到弱陽性並有部分延伸至陽性；另有一群被框起（O 閘門，橘色）的原始細胞 CD15 陽性、CD10 表現不一，提示存在帶骨髓系分化標記的次族群。",
+  "features": [
+    "Gated on blasts; CD15-PB (x-axis) versus CD10-APC700 (y-axis)",
+    "Main blast population (red) CD15 negative with CD10 negative to dim and a partial tail of CD10-positive events up to about 10^4",
+    "Discrete gated subset 'O' (orange) with CD15 expression (about 2x10^3 to 3x10^4)",
+    "CD15-positive subset shows variable CD10 from negative to about 10^4",
+    "No CD10-bright uniform population"
+  ],
+  "describe_en": "Flow cytometric analysis gated on blasts displays CD15 versus CD10. The majority of blasts are CD15 negative with CD10 negative to dim and a partial tail of CD10-positive events. A distinct gated subset (O, orange) expresses CD15 with variable CD10. Partial CD10 expression can contribute to B-lineage assignment in combination with strong CD19 and CD79a/cCD22, whereas CD15 is a myeloid-associated but not lineage-defining marker. These findings support a heterogeneous blast population in keeping with mixed phenotype acute leukemia, B/myeloid.",
+  "ddx": [
+    {"dx": "B-ALL with KMT2A rearrangement", "vs": "Typically CD10 negative with CD15 and CD65 co-expression on CD19-positive blasts but lacks MPO expression, and must be classified by the defining KMT2A rearrangement."},
+    {"dx": "AML with maturation", "vs": "CD15 is acquired along granulocytic maturation with increasing side scatter, and blasts lack B-lineage markers such as strong CD19 with CD79a/CD10."},
+    {"dx": "Normal maturing granulocytes contaminating the gate", "vs": "Mature granulocytes are CD15 bright with high side scatter and CD10 bright on segmented neutrophils, not low-scatter blasts."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry: CD15-PB vs CD10-APC700",
+  "match": "non-morphologic",
+  "high_yield": false
+}

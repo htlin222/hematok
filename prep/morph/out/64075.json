@@ -1,0 +1,22 @@
+{
+  "id": "64075",
+  "recognize_zh": "一顆大型組織球，胞質淡灰藍色帶空泡，內含數個完整的圓形深染小細胞核，其中左下方一顆被透明吞噬泡包住；組織球吞下完整的血球細胞，是噬血現象，本例為 COVID 感染後、全血球減少合併高 ferritin 的次發性 HLH。",
+  "features": [
+    "Large histiocyte with abundant pale gray-blue, finely vacuolated cytoplasm and indistinct borders",
+    "Several engulfed intact cells with small round dense nuclei (lymphocytes or nucleated red cells), one lying within a clear phagocytic vacuole",
+    "Larger nuclei with open, reticular chromatin at the upper left and right may represent the histiocyte nucleus or overlapping adjacent cells; the plane of focus limits separation",
+    "Possible engulfed red cell material near the right margin",
+    "Background red cells and small platelet clumps; mild image blur limits fine detail"
+  ],
+  "describe_en": "Smear shows a large histiocyte with abundant pale, finely vacuolated cytoplasm containing several intact cells with small, round, dense nuclei, at least one of which lies within a clear phagocytic vacuole. Larger nuclei with open chromatin at the periphery may belong to the histiocyte or to overlapping adjacent cells, which cannot be resolved with certainty at this image quality. The engulfment of whole hematopoietic cells represents hemophagocytosis. In a young patient with pancytopenia and elevated ferritin after COVID-19 infection, the findings support secondary hemophagocytic lymphohistiocytosis, which must be confirmed by HLH-2004 criteria or HScore.",
+  "ddx": [
+    {"dx": "Tingible-body macrophage", "vs": "Tingible-body macrophages contain fragmented apoptotic nuclear debris, whereas here the ingested cells are intact with preserved nuclear outlines."},
+    {"dx": "Cell overlap on a thick smear", "vs": "Overlying cells lack a surrounding clear vacuole and lie in a different focal plane; true engulfment shows a halo within the histiocyte cytoplasm."},
+    {"dx": "Megakaryocyte emperipolesis", "vs": "Emperipolesis involves passage of intact cells through a megakaryocyte with granular cytoplasm and a large lobulated nucleus, not a histiocyte with foamy cytoplasm."},
+    {"dx": "Macrophage activation in lymphoma-associated HLH", "vs": "Morphology of the hemophagocyte is identical; a search for an underlying lymphoma (atypical lymphoid infiltrate, EBV status) is needed."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

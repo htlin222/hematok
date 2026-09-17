@@ -1,0 +1,22 @@
+{
+  "id": "63405",
+  "recognize_zh": "骨髓切片 CD61 免疫染色中，棕色陽性細胞散在整條骨髓芯內，大小不一、部分成小群聚，並有數個小型深染的陽性細胞；這是以血小板標記勾勒出巨核細胞（megakaryocyte）分布與形態的圖。",
+  "features": [
+    "Bone marrow core biopsy with membranous/cytoplasmic brown CD61 staining restricted to megakaryocytic cells",
+    "Megakaryocytes vary markedly in size, including small, dense, hypolobated-appearing forms",
+    "Loose clusters of two or more megakaryocytes and irregular, non-uniform spacing across the core",
+    "Some elongated/distorted positive cells, suggestive of streaming in a sclerotic stroma",
+    "CD61-negative background of hematopoietic and stromal cells; fibrosis itself cannot be graded on this stain"
+  ],
+  "describe_en": "Low-power view of a bone marrow core biopsy immunostained for CD61 highlights numerous megakaryocytes distributed irregularly throughout the core. The megakaryocytes are pleomorphic, ranging from small hyperchromatic forms to larger cells, and several form loose clusters; some appear elongated, raising the possibility of streaming in a fibrotic stroma. Other marrow elements are CD61-negative. Reticulin/trichrome stains are required to grade fibrosis, which cannot be assessed on this stain. In the appropriate clinical context, findings are consistent with atypical megakaryocytic proliferation of a myeloproliferative neoplasm, such as post-polycythemic myelofibrosis.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "Megakaryocyte atypia and clustering overlap entirely, so separation depends on a documented prior history of polycythemia vera (JAK2 V617F with erythrocytosis) rather than on CD61 morphology."},
+    {"dx": "Essential thrombocythemia", "vs": "ET shows loosely dispersed large-to-giant megakaryocytes with hyperlobulated (staghorn) nuclei and little atypia or fibrosis, unlike the small, pleomorphic, clustered forms here."},
+    {"dx": "Reactive megakaryocytic hyperplasia", "vs": "Reactive megakaryocytes are increased but maintain normal size spectrum, lobation and perisinusoidal spacing without tight clusters or distortion."},
+    {"dx": "Acute megakaryoblastic leukemia / acute panmyelosis with myelofibrosis", "vs": "These show sheets of small CD61-positive blasts and micromegakaryocytes with increased CD34-positive blasts, rather than scattered mature-appearing megakaryocytes."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD61",
+  "match": "consistent",
+  "high_yield": false
+}

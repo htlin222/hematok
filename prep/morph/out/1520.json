@@ -1,0 +1,20 @@
+{
+  "id": "1520",
+  "recognize_zh": "這是流式細胞儀 CD4（PE）對 CD8（FITC）散點圖，閘選細胞幾乎全部落在左上象限，呈 CD4 陽性、CD8 陰性的單一族群，符合 T-PLL 最常見的 CD4+/CD8- 表現型。",
+  "features": [
+    "Flow cytometry dot plot with CD8 FITC on the x-axis and CD4 PE on the y-axis",
+    "A single tight population in the upper-left quadrant (CD4 positive at about 10^3, CD8 negative)",
+    "Virtual absence of CD8-positive or double-negative events in the gated population",
+    "Plot labeled CD4+/CD8-, indicating a restricted T-cell subset"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD4 versus CD8 on the gated lymphoid population shows a single, tight, homogeneous population that is CD4-positive and CD8-negative, with virtually no CD8-positive T cells. Such marked restriction to one subset indicates an expanded, likely clonal CD4-positive T-cell population rather than a normal polyclonal mixture. In the context of T-prolymphocytic leukemia, this represents the most common CD4+/CD8- phenotype; co-expression of CD4 and CD8 or CD8-only expression occurs in a minority of cases.",
+  "ddx": [
+    {"dx": "Sezary syndrome", "vs": "Sezary cells are also CD4+/CD8- but typically lose CD7 and CD26, whereas T-PLL is usually CD7-bright and TCL1-positive."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL is CD4+/CD8- but CD25-bright and CD7-negative, with HTLV-1 positivity."},
+    {"dx": "Reactive CD4 T-cell predominance", "vs": "Reactive states retain a CD8 population and show no aberrant antigen loss or clonal TCR rearrangement."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

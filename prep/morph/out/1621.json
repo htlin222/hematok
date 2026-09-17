@@ -1,0 +1,21 @@
+{
+  "id": "1621",
+  "recognize_zh": "油鏡下可見大型細胞，核卵圓、核膜清楚纖細、染色質淡而細、核仁小而居中，其中有雙核相貼的細胞，細胞質淡粉且邊界不清，符合生發中心內的濾泡樹突細胞（FDC），並夾雜中心母細胞與巨噬細胞。",
+  "features": [
+    "Large cells with oval nuclei, thin sharp nuclear membranes, pale finely dispersed chromatin and small central nucleoli",
+    "Binucleate cell with two closely apposed nuclei (characteristic of follicular dendritic cells)",
+    "Abundant pale eosinophilic cytoplasm with indistinct cell borders (syncytial appearance)",
+    "Admixed cells with vesicular nuclei and peripheral nucleoli (centroblasts)",
+    "Scattered small dark nuclear fragments/lymphocytes and a cell with dense pink cytoplasm"
+  ],
+  "describe_en": "High-power H&E section shows large cells with oval nuclei, delicate nuclear membranes, pale chromatin and small central nucleoli, including a binucleate form with closely apposed nuclei, set within ill-defined pale eosinophilic cytoplasm. These are admixed with centroblast-like cells and scattered small lymphocytes. The cytologic features are those of follicular dendritic cells within a germinal center; confirmation would require CD21, CD23 or CD35. Findings are consistent with normal germinal center constituents.",
+  "ddx": [
+    {"dx": "Reed-Sternberg cells (classic Hodgkin lymphoma)", "vs": "RS cells have large eosinophilic inclusion-like macronucleoli and thick membranes in a mixed inflammatory background, whereas FDC nuclei have small nucleoli and delicate membranes."},
+    {"dx": "Follicular dendritic cell sarcoma", "vs": "FDC sarcoma forms fascicles or whorls of spindle-to-ovoid cells with atypia effacing the tissue, not individual FDCs within a germinal center."},
+    {"dx": "Tingible body macrophages", "vs": "Macrophages have abundant cytoplasm containing phagocytosed apoptotic debris and a single nucleus, whereas FDCs are often binucleate without ingested material."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

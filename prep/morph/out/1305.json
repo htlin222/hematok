@@ -1,0 +1,21 @@
+{
+  "id": "1305",
+  "recognize_zh": "骨髓切片免疫染色中，淋巴聚集內的陽性棕色細胞環繞一個淡色、陰性的圓形中心區，形成環狀（ring）分布，此模式代表陽性的是濾泡周邊（外套區）細胞，而中央生發中心為陰性，符合反應性生發中心。",
+  "features": [
+    "Lymphoid aggregate with brown-staining cells forming a ring around a pale, largely negative central nodule",
+    "Negative center contains larger pale cells and a vessel, consistent with a germinal center",
+    "Positive cells extend in a broad band away from the center into the rest of the aggregate",
+    "Surrounding hematopoietic marrow and fat are negative",
+    "Bony trabeculae at left and right edges"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostain shows a lymphoid aggregate in which positive cells form a ring around a pale, negative central nodule. This zonal pattern indicates a germinal center that is negative for the marker, surrounded by positive mantle/perifollicular lymphocytes; the specific antibody is not stated, but BCL2, IgD or a T-cell marker would produce this pattern. The preserved follicular architecture favors a reactive process. Findings are consistent with a bone marrow lymphoid follicle with a germinal center.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "If the stain is BCL2, neoplastic follicle centers would be positive rather than negative as in this image."},
+    {"dx": "Marginal zone lymphoma colonizing a follicle", "vs": "Colonization shows marker-positive neoplastic cells infiltrating into the germinal center, disrupting the clean negative center seen here."},
+    {"dx": "Mantle cell lymphoma with mantle zone pattern", "vs": "MCL expands the mantle zone with cyclin D1/SOX11-positive cells; cyclin D1 staining would separate it from a reactive mantle."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (antigen not specified)",
+  "match": "consistent",
+  "high_yield": false
+}

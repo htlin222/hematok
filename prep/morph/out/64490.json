@@ -1,0 +1,22 @@
+{
+  "id": "64490",
+  "recognize_zh": "骨髓切片細胞極度增生，滿是細胞質粉紅、帶顆粒的嗜酸性球；CD117 與 CD25 標出散在或鬆散聚集的紡錘形肥大細胞，網狀纖維染色顯示明顯纖維化，符合伴嗜酸性球增多與 FIP1L1::PDGFRA 重排的骨髓/淋巴腫瘤。",
+  "features": [
+    "Markedly hypercellular marrow (A) replaced by sheets of eosinophils and eosinophil precursors with bright eosinophilic granular cytoplasm",
+    "CD117 (B) highlights numerous spindle-shaped mast cells, singly and in loose interstitial clusters with occasional small dense aggregates",
+    "CD25 (C) is expressed by the same spindle mast cells, indicating an aberrant immunophenotype",
+    "Reticulin stain (D) shows diffuse dense coarse fiber network with intersections, consistent with marked fibrosis (MF-3)",
+    "No sheets of blasts identifiable at this magnification"
+  ],
+  "describe_en": "Bone marrow core biopsy is markedly hypercellular, with the intertrabecular space filled by eosinophils and their precursors. CD117 and CD25 immunostains highlight increased spindle-shaped mast cells distributed singly and in loose interstitial clusters, with rare dense aggregates, and the mast cells show aberrant CD25 expression. Reticulin staining demonstrates marked diffuse fibrosis. In a patient with persistent hypereosinophilia, negative KIT D816V, and an FIP1L1::PDGFRA fusion detected by NGS, findings are consistent with myeloid/lymphoid neoplasm with eosinophilia and FIP1L1::PDGFRA rearrangement, presenting with CEL-like features.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis with associated hematologic neoplasm", "vs": "SM shows compact dense mast cell aggregates of 15 or more cells and usually KIT D816V, whereas here mast cells are mostly loose/interstitial with PDGFRA fusion and KIT D816V negative."},
+    {"dx": "Chronic eosinophilic leukemia (NOS)", "vs": "CEL is defined only after excluding PDGFRA, PDGFRB, FGFR1, JAK2 and FLT3 rearrangements; detection of FIP1L1::PDGFRA reclassifies the case."},
+    {"dx": "Reactive eosinophilia (parasitic, drug, allergic)", "vs": "Reactive eosinophilia lacks atypical CD25+ spindle mast cells, marked fibrosis, and a clonal fusion gene."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows clustered atypical megakaryocytes with JAK2/CALR/MPL mutations rather than eosinophil-predominant hypercellularity with mast cell proliferation."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD117, CD25; reticulin",
+  "match": "consistent",
+  "high_yield": false
+}

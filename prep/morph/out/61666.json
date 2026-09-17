@@ -1,0 +1,22 @@
+{
+  "id": "61666",
+  "recognize_zh": "四格合成圖中，A 的嗜中性球與淋巴球內有異常巨大的紫紅色顆粒，B、C 的骨髓抹片可見吞噬血球的大型組織球（hemophagocytosis）與白血球內的巨大包涵體，D 顯示病人頭髮色素淡且黑色素呈團塊狀，合起來符合 Chediak-Higashi 症候群合併加速期（HLH）。",
+  "features": [
+    "Panel A (PB): neutrophil containing coarse, abnormally large purple-red cytoplasmic granules and a lymphocyte with a single large azurophilic inclusion",
+    "Panel B (BM aspirate, low power): large histiocyte with cytoplasm filled with engulfed cells and granular material among cells bearing coarse granules",
+    "Panel C (BM aspirate, high power): myeloid cell with multiple giant round purple inclusions, a vacuolated cell, and a cell with a large pink granular inclusion",
+    "Panel D (hair microscopy): normal dark uniformly pigmented hair versus thin, pale patient hair with irregular clumped pigment granules",
+    "Giant granules involve multiple leukocyte lineages"
+  ],
+  "describe_en": "This composite combines blood, marrow and hair findings. The peripheral blood smear (A) shows a neutrophil with abnormally large, coarse purple-red cytoplasmic granules and a lymphocyte containing a large azurophilic inclusion. Bone marrow aspirate smears (B, C) show giant cytoplasmic inclusions in myeloid cells together with a large histiocyte containing phagocytosed cellular material, consistent with hemophagocytosis. Light microscopy of the patient's hair (D) shows hypopigmentation with irregularly clumped melanin compared with a normal hair. Findings are consistent with Chediak-Higashi syndrome in the accelerated (hemophagocytic lymphohistiocytosis) phase.",
+  "ddx": [
+    {"dx": "Toxic granulation in sepsis", "vs": "Toxic granules are fine to moderately coarse, evenly distributed and confined to neutrophils, without the giant fused inclusions in lymphocytes or pigmentary hair abnormalities."},
+    {"dx": "Alder-Reilly anomaly", "vs": "Alder-Reilly granules are dense, dark purple and diffusely distributed in all leukocytes in mucopolysaccharidoses, but are not giant fused inclusions and are not associated with albinism or HLH."},
+    {"dx": "Pseudo-Chediak-Higashi granules in AML or MDS", "vs": "Pseudo-Chediak-Higashi granules occur in dysplastic or leukemic myeloid cells with increased blasts, without lymphocyte involvement, partial albinism or childhood onset."},
+    {"dx": "Griscelli syndrome type 2", "vs": "Griscelli syndrome also causes partial albinism and HLH, but leukocytes lack giant granules and hair shows large irregular pigment clumps, with RAB27A rather than LYST mutation."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; unstained hair light microscopy",
+  "match": "consistent",
+  "high_yield": true
+}

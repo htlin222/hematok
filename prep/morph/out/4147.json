@@ -1,0 +1,21 @@
+{
+  "id": "4147",
+  "recognize_zh": "周邊血液中一顆淋巴球具有中等量淡藍透明的細胞質，其中散布數顆明顯的粗大紫紅色嗜苯胺藍顆粒（azurophilic granules），核略凹陷、染色質緻密，即大顆粒淋巴球（LGL）。",
+  "features": [
+    "Single lymphocyte larger than a small lymphocyte",
+    "Moderate to abundant pale, clear-blue cytoplasm",
+    "Distinct coarse azurophilic (red-purple) granules scattered in the cytoplasm",
+    "Round to slightly indented nucleus with condensed chromatin; no nucleolus",
+    "Background normal red cells and occasional platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a lymphocyte with a round to slightly indented nucleus with condensed chromatin and moderate pale blue cytoplasm containing several coarse azurophilic granules, consistent with a large granular lymphocyte. Red cells and platelets appear unremarkable in this field. A single LGL is a normal finding; a persistent LGL count above 2 x 10^9/L with clonal T-cell receptor rearrangement and a CD3+/CD8+/CD57+ phenotype would support T-cell large granular lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Reactive (variant) lymphocyte", "vs": "Reactive lymphocytes have deeply basophilic cytoplasm hugging red cells and usually lack discrete azurophilic granules."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "NK-LGL is morphologically identical and separated by CD3-negative, CD16/CD56-positive phenotype without TCR clonality."},
+    {"dx": "Promyelocyte or monocyte", "vs": "Promyelocytes have fine chromatin with nucleoli and heavy granules, and monocytes have folded nuclei with gray vacuolated cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

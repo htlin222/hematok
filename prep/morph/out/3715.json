@@ -1,0 +1,22 @@
+{
+  "id": "3715",
+  "recognize_zh": "一顆巨大多核細胞，約八個彼此分離、大小一致的圓至卵圓形細胞核，染色質細緻、各有小核仁，散布於豐富淡藍灰色、細顆粒的細胞質中；核是分開的而不是單一分葉核，這點區分蝕骨細胞（osteoclast）與巨核細胞。",
+  "features": [
+    "Very large multinucleated cell with approximately eight separate nuclei",
+    "Nuclei round to oval, uniform in size, with fine chromatin and small nucleoli",
+    "Abundant pale blue-gray cytoplasm with fine azurophilic granularity and irregular frayed borders",
+    "Nuclei are discrete and not interconnected, unlike a megakaryocyte's single lobulated nucleus",
+    "Background red cells with drying/refractile artifact"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a very large multinucleated cell containing approximately eight discrete, uniform, round-to-oval nuclei with fine chromatin and small nucleoli. The cytoplasm is abundant, pale blue-gray, and finely granular with irregular borders. The nuclei are separate rather than forming a single multilobated nucleus, and there is no nuclear atypia. Findings are consistent with an osteoclast, a normal marrow constituent more often seen in pediatric aspirates or states of increased bone turnover.",
+  "ddx": [
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes have a single hyperlobulated, interconnected nucleus with pink granular cytoplasm rather than multiple separate uniform nuclei."},
+    {"dx": "Osteoblast clusters", "vs": "Osteoblasts are separate mononuclear cells with eccentric nuclei and a perinuclear hof, occurring in groups rather than fused in one cytoplasm."},
+    {"dx": "Metastatic tumor with giant cells", "vs": "Malignant giant cells show pleomorphic, hyperchromatic nuclei with irregular nucleoli rather than bland uniform nuclei."},
+    {"dx": "Foreign-body or Langhans giant cell", "vs": "Histiocytic giant cells occur with granulomas or foreign material and may show peripheral horseshoe nuclear arrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

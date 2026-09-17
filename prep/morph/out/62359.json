@@ -1,0 +1,19 @@
+{
+  "id": "62359",
+  "recognize_zh": "密集的腫瘤細胞全部為藍色 CD8 陰性，只有少數散在的小型反應性 T 細胞呈棕色陽性，可作為內部陽性對照。",
+  "features": [
+    "Diffuse sheet of medium-sized cells with irregular oval nuclei, CD8-negative",
+    "Rare scattered small CD8-positive cells with strong membranous/cytoplasmic staining (reactive T cells)",
+    "Positive internal control cells confirm adequate staining",
+    "Tumor nuclei show fine chromatin on hematoxylin counterstain"
+  ],
+  "describe_en": "Immunohistochemical stain for CD8 shows that the diffuse population of tumor cells is negative. Scattered small reactive T cells are strongly positive and serve as an internal control. Combined with CD4 expression, the tumor shows a CD4-positive, CD8-negative profile, which in the context of CD3 and TdT positivity is consistent with T-lymphoblastic leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "Cortical-stage T-lymphoblastic lymphoma (CD4+CD8+)", "vs": "Double-positive cortical T-LBL would show CD8 expression in the tumor sheet, not only in scattered cells."},
+    {"dx": "Cytotoxic peripheral T-cell or NK/T-cell lymphoma", "vs": "These are frequently CD8+ with TIA-1/granzyme expression and are TdT-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD8",
+  "match": "consistent",
+  "high_yield": false
+}

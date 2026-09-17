@@ -1,0 +1,22 @@
+{
+  "id": "1723",
+  "recognize_zh": "周邊血液抹片中兩顆中性球的細胞核只分成兩葉，其中一顆呈兩個圓葉以細絲相連的眼鏡狀（pince-nez），另一顆呈花生或腎形，染色質粗糙團塊狀且細胞質顆粒偏少，符合假性Pelger-Huet細胞。",
+  "features": [
+    "Two mature-sized neutrophils with hypolobated nuclei",
+    "Lower cell: bilobed nucleus with two round lobes joined by a thin strand (pince-nez or spectacle form)",
+    "Upper cell: nonsegmented peanut- to kidney-shaped nucleus",
+    "Coarsely clumped, mature chromatin inappropriate for a band form",
+    "Pale cytoplasm with sparse fine granules, suggesting hypogranularity",
+    "Background red cells with mild poikilocytosis including occasional target and teardrop forms"
+  ],
+  "describe_en": "Peripheral blood smear shows two neutrophils with hypolobated nuclei: one bilobed with two round lobes connected by a thin chromatin bridge (pince-nez form) and one with a nonsegmented peanut-shaped nucleus. Both nuclei have coarsely clumped mature chromatin, and the cytoplasm appears relatively hypogranular. The red cells show mild poikilocytosis. Findings are consistent with pseudo-Pelger-Huet (acquired Pelger-Huet) neutrophils, which should prompt evaluation for myelodysplastic syndrome or a drug effect (e.g., mycophenolate, tacrolimus, valproate).",
+  "ddx": [
+    {"dx": "Inherited Pelger-Huet anomaly (LBR mutation)", "vs": "The inherited anomaly affects nearly all neutrophils uniformly with normal granulation and no cytopenias, whereas acquired pseudo-Pelger cells are a subset often with hypogranulation and dysplasia in other lineages."},
+    {"dx": "Band neutrophil", "vs": "Band forms have a curved, uniformly thick horseshoe nucleus with less condensed chromatin, not two discrete round lobes with coarse clumped chromatin."},
+    {"dx": "Myelocyte or metamyelocyte", "vs": "Immature myeloid cells have round or kidney-shaped nuclei with finer chromatin and more abundant specific granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

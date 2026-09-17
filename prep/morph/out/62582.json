@@ -1,0 +1,20 @@
+{
+  "id": "62582",
+  "recognize_zh": "BCL2 免疫染色：腫瘤濾泡內幾乎所有細胞呈強而瀰漫的細胞質陽性；正常反應性生發中心的 B 細胞應為 BCL2 陰性，所以生發中心細胞 BCL2 陽性是濾泡性淋巴瘤（t(14;18)）的經典判讀重點。",
+  "features": [
+    "Strong diffuse cytoplasmic and perinuclear BCL2 staining in nearly all neoplastic cells",
+    "Positivity involves the entire follicular population rather than only mantle zone or T cells",
+    "Only rare scattered negative larger cells",
+    "Monotonous medium-sized cells packed closely"
+  ],
+  "describe_en": "Immunohistochemical stain for BCL2 shows strong, diffuse cytoplasmic staining in nearly all of the densely packed neoplastic follicular cells, with only rare negative larger cells. Because reactive germinal-center B cells are BCL2 negative, aberrant BCL2 expression by the follicle-center cells indicates a neoplastic process, typically driven by t(14;18)(q32;q21) IGH::BCL2. BCL2 positivity should be interpreted alongside germinal-center markers to confirm that the positive cells are not residual T cells or mantle cells. Findings support follicular lymphoma (grade 3a in this case).",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers are BCL2 negative, with staining limited to mantle zone B cells and intrafollicular T cells."},
+    {"dx": "Follicular lymphoma grade 3b / BCL2-negative FL", "vs": "A subset of high-grade or t(14;18)-negative FL is BCL2 negative or weak, so negativity does not exclude FL."},
+    {"dx": "Mantle cell lymphoma or marginal zone lymphoma", "vs": "These are also BCL2 positive but are CD10/BCL6 negative, with MCL cyclin D1/SOX11 positive."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BCL2",
+  "match": "consistent",
+  "high_yield": true
+}

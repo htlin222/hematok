@@ -1,0 +1,22 @@
+{
+  "id": "62272",
+  "recognize_zh": "低倍 CD10 染色中，上方一個明顯擴大的結節裡，CD10 陽性的生發中心 B 細胞被打散成許多不規則的小團塊，彼此之間夾著大量 CD10 陰性的小淋巴球（外套區細胞侵入）；下方則有一個較小、較完整的生發中心可比較，這就是生發中心漸進性轉化（PTGC）的典型碎裂樣式。",
+  "features": [
+    "Markedly enlarged nodule several times the size of a normal follicle (upper field)",
+    "CD10-positive germinal center cells broken up into multiple irregular, fragmented clusters within the nodule",
+    "Large numbers of CD10-negative small lymphocytes (mantle zone cells) permeating and separating the germinal center fragments",
+    "Smaller, more compact CD10-positive germinal center in the lower field for comparison",
+    "Scattered single CD10-positive cells in interfollicular areas; no CD10 staining outside follicular structures in sheets"
+  ],
+  "describe_en": "Low-power CD10 immunohistochemistry of a lymph node shows a markedly enlarged nodule in which CD10-positive germinal center B cells are fragmented into multiple irregular clusters that are separated and infiltrated by numerous CD10-negative small lymphocytes, representing mantle zone cell ingrowth. A smaller, more intact CD10-positive germinal center is present nearby for comparison. No CD10-positive cells are seen in interfollicular sheets. The findings are consistent with progressive transformation of germinal centers.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "NLPHL nodules also contain small B cells but harbor scattered large LP cells (CD20+, OCT2/BOB1 strong, EMA+) ringed by PD-1+ T cells, whereas PTGC has no LP cells and retains CD10+ germinal center remnants."},
+    {"dx": "Follicular lymphoma", "vs": "FL shows back-to-back uniform follicles with CD10+ cells that are BCL2-positive and may extend into interfollicular areas, unlike the fragmented BCL2-negative germinal center remnants in PTGC."},
+    {"dx": "Nodal marginal zone lymphoma with follicular colonization", "vs": "Follicular colonization shows CD10-negative, BCL2-positive marginal zone cells replacing germinal centers with light-chain restriction, whereas PTGC is polytypic."},
+    {"dx": "Mantle cell lymphoma, nodular pattern", "vs": "MCL may surround residual 'naked' germinal centers, but the expanded cells are CD5+, cyclin D1+ and SOX11+."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD10",
+  "match": "consistent",
+  "high_yield": false
+}

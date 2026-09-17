@@ -1,0 +1,20 @@
+{
+  "id": "65736",
+  "recognize_zh": "這是流式細胞圖：CD45/SSC 圖分出 CD45 亮的淋巴球群與 CD45 較暗的母細胞群；淋巴球中的 B 細胞為 CD5+ 且 CD20 偏弱（CLL 表型），母細胞群則 CD34+、CD117+、CD33+、CD13-，代表同時存在的髓系母細胞。",
+  "features": [
+    "CD45 vs SSC: lymphocyte gate (bright CD45, low SSC) and a distinct CD45-dim, low-SSC blast gate",
+    "Lymphocyte gate: CD19+ B cells separated from CD3+ T cells",
+    "Gated B cells: uniformly CD5-positive with dim CD20",
+    "Gated blasts: CD34-positive with dim to moderate CD117",
+    "Gated blasts: CD33-positive and CD13-negative"
+  ],
+  "describe_en": "Flow cytometric dot plots show two abnormal populations. In the lymphocyte gate, CD19+ B cells are uniformly CD5-positive with dim CD20, a pattern typical of chronic lymphocytic leukemia (the report adds CD43+, CD81-negative and dim lambda restriction). A separate CD45-dim, low side-scatter blast population expresses CD34, dim CD117 and CD33 without CD13, consistent with myeloblasts. Interpreted with the morphology, karyotype and NGS results, the findings support concurrent CLL and a therapy-related high-grade myeloid neoplasm.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is also CD5+ but has brighter CD20 and surface light chain, is usually CD23-negative/CD200-negative, and carries cyclin D1/CCND1 rearrangement."},
+    {"dx": "Hematogones", "vs": "Hematogones form a continuous CD34/CD10/CD19 maturation spectrum rather than a discrete CD34+/CD117+/CD33+ myeloid blast cluster lacking CD19."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

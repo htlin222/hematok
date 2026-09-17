@@ -1,0 +1,22 @@
+{
+  "id": "60947",
+  "recognize_zh": "骨髓抹片中大型細胞核質比高、染色質細緻分散且有核仁，外觀像芽細胞，但細胞核仍略偏位並有一圈深藍細胞質；切片 CD34 陰性（僅血管內皮陽性）、CD138 強陽性，確認是具漿母細胞形態的漿細胞腫瘤。",
+  "features": [
+    "Large mononuclear cells with high N:C ratio, fine dispersed chromatin and visible nucleoli (blast-like)",
+    "Narrow rim of deeply basophilic cytoplasm, nucleus central to slightly eccentric, no obvious perinuclear hof",
+    "Admixed smaller, more mature plasmacytoid cells and residual erythroid precursors",
+    "Biopsy H&E: diffuse sheets of monotonous cells with round nuclei",
+    "IHC: CD34 negative in neoplastic cells (only endothelium stains); CD138 strong membranous positivity in sheets"
+  ],
+  "describe_en": "Bone marrow aspirate shows diffuse infiltration by large blast-like mononuclear cells with high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, nucleoli and a thin rim of deep basophilic cytoplasm, admixed with smaller plasmacytoid cells. The trephine biopsy shows sheets of monotonous cells effacing normal hematopoiesis. The infiltrate is negative for CD34, which highlights only endothelial cells, and strongly positive for CD138. Findings are consistent with plasma cell myeloma with plasmablastic morphology, which should not be mistaken for acute leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts are MPO/CD33/CD34 or CD117 positive and CD138 negative without a monoclonal paraprotein, whereas these cells are CD138+ with cytoplasmic kappa and CD34-negative."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Usually extranodal in immunodeficient patients, EBER-positive and often MYC-rearranged, without the marrow-based IgG paraprotein picture of myeloma."},
+    {"dx": "Diffuse large B-cell lymphoma, immunoblastic", "vs": "DLBCL cells express CD20/PAX5 and lack CD138/cytoplasmic light-chain predominance."},
+    {"dx": "Plasma cell leukemia", "vs": "Defined by circulating clonal plasma cells (≥5% in PB, WHO 2022), which must be assessed on the blood smear rather than marrow morphology."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa; H&E; IHC: CD34, CD138",
+  "match": "consistent",
+  "high_yield": false
+}

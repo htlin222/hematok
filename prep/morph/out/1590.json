@@ -1,0 +1,21 @@
+{
+  "id": "1590",
+  "recognize_zh": "周邊血抹片中一顆與中性球大小相近的細胞，細胞內佈滿粗大、深紫黑色的顆粒，覆蓋在核上使核輪廓幾乎看不清，這是嗜鹼性球（basophil）最典型的辨識線索。",
+  "features": [
+    "Cell slightly larger than a red cell, similar in size to a neutrophil",
+    "Numerous coarse, dark purple-black granules distributed over the cytoplasm and nucleus",
+    "Nuclear outline largely obscured by overlying granules",
+    "Granules extend to the cell periphery giving a slightly irregular border",
+    "Background red cells show fine dark dots, most likely a staining/drying artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows a single basophil with abundant coarse, dark purple-black granules that overlie and obscure the nucleus and extend to the cell margin. The surrounding red cells are normocytic with fine dark dots that most likely represent a preparation artifact. No blasts or other abnormal leukocytes are present in the field. Findings are consistent with a normal basophil.",
+  "ddx": [
+    {"dx": "Mast cell", "vs": "Mast cells are larger with a round central nucleus that remains visible and are rarely seen in blood outside systemic mastocytosis or mast cell leukemia."},
+    {"dx": "Neutrophil with toxic granulation", "vs": "Toxic granulation consists of dark granules in a neutrophil whose lobated nucleus remains clearly visible, often with Döhle bodies or vacuoles."},
+    {"dx": "Eosinophil", "vs": "Eosinophils contain uniform refractile orange-red granules with a visible bilobed nucleus rather than dark purple-black granules obscuring the nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

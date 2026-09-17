@@ -1,0 +1,21 @@
+{
+  "id": "2813",
+  "recognize_zh": "一小群顆粒球系細胞同時包含一顆嗜鹼性細胞質的大型母細胞、骨髓細胞、後骨髓細胞、帶狀及分葉核中性球，呈現左移的完整成熟譜系；母細胞比例與嗜鹼性球數目需全片計數才能判定加速期。",
+  "features": [
+    "Cluster of granulocytic cells spanning blast to segmented neutrophil",
+    "One large blast with fine chromatin and a rim of deeply basophilic cytoplasm",
+    "Several myelocytes/promyelocytes with round to oval nuclei and grayish granular cytoplasm",
+    "Metamyelocytes, bands and segmented neutrophils; no obvious dysplasia",
+    "Sparse red cells in the background, suggesting a buffy coat or cytocentrifuge preparation"
+  ],
+  "describe_en": "The smear shows a cluster of granulocytic cells representing the full maturation spectrum, including one large blast with fine chromatin and basophilic cytoplasm, myelocytes, metamyelocytes, bands and segmented neutrophils. Obvious dysgranulopoiesis is not seen, and basophils are not clearly identified in this cluster. Accelerated phase criteria (blasts 10-19% or basophils >=20% in blood or marrow, or additional clonal abnormalities) cannot be assessed from a single field. The findings are compatible with CML showing a left-shifted granulocytic proliferation.",
+  "ddx": [
+    {"dx": "CML, chronic phase", "vs": "Chronic phase has <10% blasts and <20% basophils; separation from accelerated phase depends on counts, not individual cell morphology."},
+    {"dx": "CML, myeloid blast phase", "vs": "Blast phase requires >=20% blasts in blood or marrow or an extramedullary blast proliferation."},
+    {"dx": "Leukemoid reaction", "vs": "Reactive left shift shows toxic granulation and is BCR::ABL1-negative without basophilia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

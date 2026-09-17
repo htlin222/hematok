@@ -1,0 +1,23 @@
+{
+  "id": "1417",
+  "recognize_zh": "兩顆中等大小的淋巴母細胞，核質比極高、只剩一圈細薄的藍色細胞質，染色質細緻且上方細胞核有凹陷（nuclear indentation），缺乏顆粒與 Auer 小體，符合 T 淋巴母細胞白血病。",
+  "features": [
+    "Two medium-sized blasts, roughly 1.5-2 times the diameter of adjacent red cells",
+    "Very high N:C ratio with a scant rim of basophilic, agranular cytoplasm",
+    "Round to slightly convoluted nuclei; the upper cell shows a nuclear notch/indentation",
+    "Finely dispersed to slightly condensed chromatin with inconspicuous nucleoli",
+    "No cytoplasmic granules or Auer rods",
+    "Background red cells without specific abnormality; no platelets in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows two medium-sized blasts adjacent to each other. The cells have a very high nuclear-to-cytoplasmic ratio with a thin rim of agranular basophilic cytoplasm, round to indented nuclei, finely dispersed chromatin and inconspicuous nucleoli. No Auer rods or cytoplasmic granules are identified. The morphology is that of lymphoblasts; lineage assignment requires flow cytometry (cytoplasmic CD3, TdT). Findings are consistent with the stated diagnosis of T-lymphoblastic leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Morphologically indistinguishable; B-ALL expresses CD19/CD79a/PAX5 whereas T-ALL expresses cytoplasmic CD3 on flow cytometry."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Myeloblasts may have similar agranular cytoplasm, but they are MPO/CD13/CD33/CD117 positive and lack cytoplasmic CD3 and TdT-lymphoid profile."},
+    {"dx": "Sezary cell / T-cell prolymphocyte", "vs": "Mature T-cell leukemias show more condensed chromatin (cerebriform or with a single prominent nucleolus) and are TdT and CD34 negative."},
+    {"dx": "Reactive large granular or atypical lymphocytes", "vs": "Reactive lymphocytes have more abundant cytoplasm and coarse mature chromatin rather than fine blastic chromatin."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3142",
+  "recognize_zh": "低倍周邊血液抹片中紅血球明顯呈錢串狀排列（rouleaux），並可見兩顆核偏位、胞質藍色的漿細胞在血中循環，提示漿細胞白血病。",
+  "features": [
+    "Prominent rouleaux formation of red cells throughout the field",
+    "Two circulating small-to-intermediate plasmacytoid cells with round eccentric nuclei and clumped chromatin",
+    "Moderate rim of basophilic cytoplasm with a paler perinuclear zone in the upper cell",
+    "Background of normocytic red cells without other obvious leukocytes except a partially obscured granular cell at lower right",
+    "Nuclear detail limited at this low magnification"
+  ],
+  "describe_en": "Peripheral blood smear at low power shows marked rouleaux formation. Two circulating plasma cells are present, with round eccentric nuclei, coarse clumped chromatin, and moderate basophilic cytoplasm. Fine nuclear detail cannot be assessed at this magnification. In the appropriate context (circulating plasma cells at or above 5% of leukocytes), findings are consistent with plasma cell leukemia.",
+  "ddx": [
+    {"dx": "Lymphoplasmacytic lymphoma / Waldenström macroglobulinemia", "vs": "LPL shows a spectrum of small lymphocytes, plasmacytoid lymphocytes, and few plasma cells with IgM paraprotein and MYD88 L265P, whereas PCL shows predominantly mature or immature plasma cells that are CD19-negative and CD138-positive."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive circulating plasma cells are few, polytypic by flow cytometry, and occur with infection, without a monoclonal protein."},
+    {"dx": "Plasmacytoid lymphocytes (reactive)", "vs": "Plasmacytoid lymphocytes have a more central nucleus and lack a well-developed perinuclear hof."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

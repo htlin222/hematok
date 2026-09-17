@@ -1,0 +1,22 @@
+{
+  "id": "62132",
+  "recognize_zh": "周邊血抹片中可見數個大小不一的血小板聚集團塊（platelet clumps），單顆散在血小板很少，紅血球與嗜中性球形態正常，提示 EDTA 引起的假性血小板減少（pseudothrombocytopenia）。",
+  "features": [
+    "Multiple platelet aggregates of variable size scattered across the field",
+    "Individual platelets within clumps show normal granularity and size",
+    "Very few single free platelets outside the clumps",
+    "Normocytic normochromic red cells without schistocytes",
+    "Morphologically normal segmented neutrophil"
+  ],
+  "describe_en": "Peripheral blood smear shows several platelet aggregates of variable size distributed through the field, with few single platelets between them. The platelets within the aggregates are of normal size and granularity. Red cells are normocytic and normochromic without fragments, and the neutrophil present is unremarkable. In a patient with a low automated platelet count and no bleeding, the findings are consistent with EDTA-dependent pseudothrombocytopenia, which should be confirmed by repeating the count in a citrate-anticoagulated sample.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "ITP shows genuinely reduced single platelets, often with large forms, and lacks platelet clumps, with no correction in citrate."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism is another EDTA artifact in which platelets rosette around neutrophils rather than forming free-floating aggregates."},
+    {"dx": "Clotted or partially clotted specimen", "vs": "Clotted samples show fibrin strands with platelet clumps in any anticoagulant and usually a visible clot, whereas EDTA pseudothrombocytopenia corrects in citrate."},
+    {"dx": "Inherited giant platelet disorders", "vs": "Macrothrombocytopenias are undercounted because individual giant platelets approach red cell size, not because platelets aggregate."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

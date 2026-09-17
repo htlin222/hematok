@@ -1,0 +1,22 @@
+{
+  "id": "2076",
+  "recognize_zh": "高倍 H&E 下可見成片大型細胞，核大於組織球核、呈卵圓形、染色質空泡狀（vesicular），多有明顯核仁與清楚核膜，細胞質中等量淡嗜酸性，呈瀰漫性排列，符合瀰漫性大 B 細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheets of large lymphoid cells with nuclei larger than histiocyte nuclei",
+    "Oval to round nuclei with vesicular chromatin, distinct nuclear membranes and one or several prominent nucleoli (some membrane-bound, some central)",
+    "Moderate amount of pale eosinophilic to amphophilic cytoplasm with indistinct cell borders",
+    "Scattered small dark apoptotic or pyknotic cells",
+    "No residual normal lymphoid architecture visible in this high-power field"
+  ],
+  "describe_en": "Section shows diffuse sheets of large atypical lymphoid cells. The cells have oval vesicular nuclei with prominent nuclear membranes, peripheral and central nucleoli, and moderate pale eosinophilic cytoplasm. Scattered apoptotic cells are present, and no normal architecture is evident in this field. Findings are consistent with diffuse large B-cell lymphoma; immunohistochemistry (CD20, CD10, BCL6, MUM1, Ki-67, MYC/BCL2) is required to confirm B-cell lineage and exclude mimics.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL has hallmark cells with horseshoe-shaped nuclei and strong CD30 (±ALK) with T-cell markers, whereas DLBCL expresses CD20/PAX5."},
+    {"dx": "Poorly differentiated carcinoma or melanoma", "vs": "These can show cohesive nests and are cytokeratin or S100/SOX10 positive, while lymphoma is CD45 and B-cell marker positive."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are medium-sized and monotonous with squared-off cytoplasm, starry-sky pattern, Ki-67 near 100% and MYC rearrangement without BCL2 expression."},
+    {"dx": "Classic Hodgkin lymphoma (syncytial variant)", "vs": "Hodgkin/Reed-Sternberg cells are CD30/CD15 positive with weak PAX5 and loss of CD20/CD45 in a mixed inflammatory background."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62404",
+  "recognize_zh": "BCL2 染色中黏膜固有層被大片密集、強陽性的淋巴細胞充滿，腺體上皮為陰性並被浸潤細胞包圍；在沒有生發中心結構的瀰漫 B 細胞浸潤中 BCL2 陽性，配合 CD20、CD43 共表現，支持黏膜相關淋巴組織淋巴瘤（MALT lymphoma）。",
+  "features": [
+    "Dense diffuse BCL2-positive lymphoid infiltrate filling the lamina propria",
+    "Residual BCL2-negative glandular epithelium surrounded by the infiltrate",
+    "Focal positive lymphocytes within gland epithelium",
+    "Strong cytoplasmic/membranous staining of small lymphoid cells",
+    "No BCL2-negative germinal centers identifiable in this field"
+  ],
+  "describe_en": "BCL2 immunostain shows a dense, diffuse infiltrate of strongly positive small lymphoid cells occupying the lamina propria and surrounding BCL2-negative residual glands. Occasional positive cells are present within the glandular epithelium. No BCL2-negative reactive germinal centers are identified in this field. These cells are reported to co-express CD20 and CD43; the findings are consistent with extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue.",
+  "ddx": [
+    {"dx": "Reactive lymphoid hyperplasia", "vs": "BCL2 stains normal T cells and mantle/marginal B cells too, so reactive cases are identified by BCL2-negative germinal centers, lack of CD43 co-expression on B cells, and polyclonality."},
+    {"dx": "Follicular lymphoma", "vs": "FL shows BCL2 within neoplastic follicles that co-express CD10 and BCL6 and carry t(14;18)."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is also BCL2-positive but co-expresses CD5 and cyclin D1."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: BCL2",
+  "match": "consistent",
+  "high_yield": false
+}

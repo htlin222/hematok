@@ -1,0 +1,21 @@
+{
+  "id": "2316",
+  "recognize_zh": "周邊血中有數群緊靠在一起的大型母細胞，核染色質細緻、偶見小空泡，細胞質淡藍色，其中一顆細胞質呈細顆粒狀並有空泡與突起，背景可見標靶紅血球，符合 CML 急性轉化的循環母細胞。",
+  "features": [
+    "Clusters of large blasts with high N:C ratio, molded against one another",
+    "Fine, lacy chromatin with small nuclear vacuoles or indistinct nucleoli",
+    "Pale to moderately blue cytoplasm; one blast with finely granular, vacuolated cytoplasm and surface blebs",
+    "Background red cells include several target cells",
+    "No maturing granulocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows clusters of large blasts with high nuclear-to-cytoplasmic ratios, fine chromatin and pale to moderately basophilic cytoplasm; one blast has finely granular, vacuolated cytoplasm with cytoplasmic blebs. Blasts are molded against one another. Background red cells include target cells. In a patient with CML, BCR-ABL1-positive, the findings are consistent with blast phase; lineage requires flow cytometry.",
+  "ddx": [
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts show cytoplasmic blebbing like one cell here, but are confirmed by CD41/CD61 expression; megakaryoblastic blast phase of CML also occurs and needs BCR-ABL1 status."},
+    {"dx": "De novo AML", "vs": "Morphology is overlapping, and separation depends on history of chronic phase and BCR-ABL1 testing."},
+    {"dx": "Ph-positive B-ALL", "vs": "Lymphoblasts tend to have scantier cytoplasm without blebs or granules, and flow cytometry is needed for distinction."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "66494",
+  "recognize_zh": "單顆嗜中性球被一整圈血小板緊密包圍，形成明顯的血小板玫瑰花環 (platelet rosette)，其餘背景幾乎沒有游離血小板，是血小板衛星現象 (platelet satellitism) 的典型畫面。",
+  "features": [
+    "Single mature neutrophil completely surrounded by a dense corona of adherent platelets",
+    "Platelets are normal in size and granularity",
+    "Neutrophil shows segmented nucleus and fine granular cytoplasm without toxic change",
+    "Scarce free platelets in the surrounding field",
+    "Normochromic red cells in a moderately thick area"
+  ],
+  "describe_en": "Peripheral blood smear shows a mature neutrophil surrounded by a complete ring of normal-sized platelets adherent to its surface. Free-lying platelets are rare in the remainder of the field. Red cells are normochromic without notable poikilocytosis. Findings are consistent with platelet satellitism, an in vitro artifact that sequesters platelets and yields a spuriously low automated platelet count.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Clumps are free aggregates of platelets not centered on a leukocyte."},
+    {"dx": "Platelet phagocytosis by neutrophils", "vs": "Phagocytosis shows platelets within cytoplasmic vacuoles inside the neutrophil rather than attached to its outer surface."},
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia lacks rosettes, and the low count persists in citrate or heparin samples."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

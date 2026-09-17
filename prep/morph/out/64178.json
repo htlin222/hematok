@@ -1,0 +1,23 @@
+{
+  "id": "64178",
+  "recognize_zh": "紅血球大範圍排成疊錢狀（rouleaux）長串，背景中散在數顆小型成熟樣淋巴球，核圓、染色質塊狀、胞質極少；循環淋巴瘤細胞加上 paraprotein 造成的 rouleaux，提示 Waldenström macroglobulinemia。",
+  "features": [
+    "Prominent rouleaux: red cells stacked in long coin-like chains throughout the thin area of the film",
+    "Several small lymphoid cells only slightly larger than red cells, with very high N:C ratio",
+    "Round nuclei with coarse, clumped but somewhat open chromatin; no visible nucleoli",
+    "Scant rim of basophilic cytoplasm; distinct plasmacytoid features are not evident in this field",
+    "One pale, disrupted cell at the lower center consistent with a smudged/degenerated cell",
+    "Scattered small refractile dots on red cells, most likely drying artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows marked rouleaux formation, with red cells arranged in long stacked chains even in the thin portion of the film, implying an increased plasma protein such as a paraprotein. Scattered small lymphoid cells are present, with round nuclei, coarse but slightly open chromatin, inconspicuous nucleoli, and scant cytoplasm; one smudged cell is also seen. Definite plasmacytoid lymphocytes or plasma cells are not identified in this field. In the appropriate clinical setting (IgM paraprotein, MYD88 L265P), the findings are consistent with circulating lymphoplasmacytic lymphoma (Waldenström macroglobulinemia).",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells have more coarsely clumped 'soccer-ball' chromatin with numerous smudge cells and typically lack rouleaux; flow shows CD5+/CD23+ with dim sIg rather than a CD5-negative IgM-bearing clone."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma also causes rouleaux, but circulating cells, if present, are plasma cells with eccentric nuclei and perinuclear hofs, and the paraprotein is usually IgG/IgA rather than IgM."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL may show IgM paraprotein and rouleaux but circulating cells often have polar villous projections, and MYD88 L265P is usually absent."},
+    {"dx": "Thick-area artifactual rouleaux", "vs": "Pseudo-rouleaux is confined to thick parts of the film, whereas here stacking persists where cells are otherwise separated."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

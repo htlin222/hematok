@@ -1,0 +1,22 @@
+{
+  "id": "60798",
+  "recognize_zh": "抹片中為中至大型、胞質深嗜鹼性的淋巴樣細胞，部分細胞形狀不規則帶胞質突起（A、B）；組織切片呈單一形態的中型細胞瀰漫片狀排列（C），膜狀 B 細胞標記陽性（D）且核染色幾乎全部陽性（E），型態介於 DLBCL 與 Burkitt 淋巴瘤之間，歸為高惡性度 B 細胞淋巴瘤 NOS。",
+  "features": [
+    "Panel A: medium to large lymphoid cells with dense chromatin and deeply basophilic cytoplasm, one with a cytoplasmic fragment",
+    "Panel B: large irregular cells with abundant basophilic cytoplasm and angular outlines on a blood/marrow smear",
+    "Panel C: diffuse sheet of monotonous medium-sized round cells with round nuclei and scant to moderate cytoplasm",
+    "Panel D: membranous staining of the neoplastic cells with a B-cell/surface marker",
+    "Panel E: nuclear staining in nearly all tumor cells, indicating a very high proliferation index or strong MYC expression (antibody not labeled)"
+  ],
+  "describe_en": "Smear preparations (A, B) show medium to large atypical lymphoid cells with deeply basophilic cytoplasm and irregular cytoplasmic contours. The tissue section (C) shows a diffuse, monotonous infiltrate of medium-sized cells with round nuclei. Immunohistochemistry shows membranous positivity (D) and nuclear positivity in nearly all tumor cells (E); the antibodies are not identified in the figure. The morphology and phenotype are intermediate between diffuse large B-cell lymphoma and Burkitt lymphoma, suggestive of high-grade B-cell lymphoma, NOS, provided MYC/BCL2 rearrangement status excludes double-hit lymphoma.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Shows strictly monomorphic medium cells with starry-sky pattern, CD10+/BCL2-negative, Ki-67 near 100% and isolated MYC rearrangement without a complex karyotype."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "May look identical; separated only by FISH demonstrating concurrent MYC and BCL2 rearrangements."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "Cells are larger and more pleomorphic (centroblasts/immunoblasts) with a lower, more variable proliferation index."},
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Blasts have fine chromatin and scant cytoplasm and express TdT/CD34, lacking surface immunoglobulin."}
+  ],
+  "specimen": "tissue",
+  "stain": "Wright-Giemsa; H&E; IHC (unlabeled markers)",
+  "match": "consistent",
+  "high_yield": false
+}

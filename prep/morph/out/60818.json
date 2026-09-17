@@ -1,0 +1,20 @@
+{
+  "id": "60818",
+  "recognize_zh": "骨髓抹片中造血細胞稀少，中央為數個大型多核細胞，其細胞核呈許多分開、大小一致的圓形核（separated nuclear lobes），胞質藍紫色；在 GATA2 缺乏症中這類核分離的異常巨核細胞是重要線索，但需與破骨細胞鑑別。",
+  "features": [
+    "Paucicellular aspirate field with few hematopoietic cells and abundant red cells and fat vacuoles",
+    "Cluster of large multinucleated cells containing numerous widely separated, small, round, uniform nuclei",
+    "Abundant purple-blue, finely granular cytoplasm without pink osteoclast-type granules",
+    "Scattered small lymphocytes and few myeloid/erythroid precursors in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a hypocellular-appearing field with few hematopoietic precursors, scattered small lymphocytes and prominent fat vacuoles. A cluster of large multinucleated cells is present, each containing multiple widely separated, round, uniform nuclei within abundant purple-blue granular cytoplasm. These cells most likely represent dysplastic megakaryocytes with separated nuclear lobes, although osteoclasts should be excluded by CD61 immunostaining. In a patient with marrow failure, these findings are suggestive of GATA2 deficiency-associated hypocellular marrow with megakaryocytic dysplasia; GATA2 sequencing, flow cytometry for monocytopenia and B/NK-cell deficiency, and cytogenetics are recommended.",
+  "ddx": [
+    {"dx": "Osteoclasts", "vs": "Osteoclasts have similar separated uniform nuclei but often show visible nucleoli, paler cytoplasm with fine pink-red granules and are CD61-negative/CD68-positive."},
+    {"dx": "Aplastic anemia", "vs": "Acquired aplastic anemia is hypocellular without megakaryocytic dysplasia and lacks monocytopenia and B/NK lymphopenia typical of GATA2 deficiency."},
+    {"dx": "Hypocellular myelodysplastic neoplasm", "vs": "Hypoplastic MDS also shows separated-lobe megakaryocytes and requires cytogenetic/molecular clonality, with germline GATA2 testing to identify predisposition."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

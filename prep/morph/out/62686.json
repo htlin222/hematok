@@ -1,0 +1,21 @@
+{
+  "id": "62686",
+  "recognize_zh": "高倍 Ki-67 染色下，約四到五成的細胞核呈棕色陽性，陽性細胞平均散布、沒有反應性生發中心常見的明暗區極性（polarization），表示這是增殖指數偏高的濾泡性淋巴瘤區域。",
+  "features": [
+    "Dense sheet of small-to-medium lymphoid cells at high power",
+    "Nuclear Ki-67 positivity in roughly 40-50% of cells with variable intensity",
+    "Positive cells evenly distributed without zonal polarization",
+    "Negative cells have small round to slightly irregular nuclei",
+    "Follicle borders not discernible in this field"
+  ],
+  "describe_en": "High-power Ki-67 immunohistochemistry shows a dense population of small to medium lymphoid cells with nuclear staining in approximately 40-50% of cells. The positive cells are evenly distributed without the polarized dark-zone/light-zone pattern expected in reactive germinal centers. Follicle boundaries are not visible in this field, so the estimate applies to the area shown. A proliferation index of this level is higher than typical for low-grade follicular lymphoma and should prompt correlation with centroblast counts for grading or exclusion of a diffuse large B-cell component. Findings are consistent with follicular lymphoma with a relatively high proliferation index.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers have a very high Ki-67 index (often >90%) with polarization toward the dark zone and a sharp drop in the mantle zone."},
+    {"dx": "Diffuse large B-cell lymphoma arising in follicular lymphoma", "vs": "Shows diffuse sheets of large centroblast-like cells, usually with a higher Ki-67 index, without a follicular pattern on low power."},
+    {"dx": "Low-grade follicular lymphoma (grade 1-2)", "vs": "Typically has a low Ki-67 index (<20-30%) evenly spread through the follicles."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

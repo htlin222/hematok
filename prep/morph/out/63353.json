@@ -1,0 +1,21 @@
+{
+  "id": "63353",
+  "recognize_zh": "視野中多個核染色質散開、形狀不規則的塗抹細胞（smudge cell），與完整的小型淋巴球並存，其中一顆淋巴球有圓形透明的球狀包涵體，符合 CLL。",
+  "features": [
+    "Multiple smudge cells with disrupted, spread-out nuclear chromatin and no intact cytoplasm",
+    "Intact small mature lymphocytes with clumped chromatin",
+    "One lymphocyte with a round, clear globular cytoplasmic inclusion",
+    "Occasional lymphocytes with slightly irregular nuclear outlines due to smearing",
+    "Normocytic red cells with rare elongated forms and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous smudge cells alongside intact small mature lymphocytes with clumped chromatin. One lymphocyte contains a round, clear globular cytoplasmic inclusion. Red cells are normocytic with occasional elongated forms attributable to smear preparation. Findings are consistent with chronic lymphocytic leukemia; addition of albumin before smearing can reduce smudging for an accurate differential.",
+  "ddx": [
+    {"dx": "Smudge cells in reactive lymphocytosis", "vs": "Reactive lymphocytosis has fewer smudge cells and heterogeneous lymphocytes with abundant cytoplasm rather than a monotonous small-cell population."},
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells tend to have more nuclear irregularity and show fewer smudge cells, and they are CD23-negative and cyclin D1-positive."},
+    {"dx": "Acute leukemia with smudged blasts", "vs": "Smudged blasts come from larger cells with fine chromatin and nucleoli visible in intact cells, which are not present here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63261",
+  "recognize_zh": "油鏡下一個大型淋巴球，細胞質豐富淡藍色，其中含有數顆明顯粗大、圓形的紅紫色嗜天青顆粒（大小接近紅血球的五分之一），類似 pseudo-Chediak-Higashi 顆粒；這種帶粗大顆粒的大顆粒淋巴球（LGL）是 T-LGL 白血病的形態線索。",
+  "features": [
+    "Large lymphoid cell, roughly 1.5-2 times the diameter of an adjacent red cell",
+    "Moderate N:C ratio with an oval, slightly indented nucleus and moderately condensed, clumped chromatin; no distinct nucleolus",
+    "Abundant pale blue cytoplasm with an angular, slightly irregular outline",
+    "Few coarse, round, deep red-purple azurophilic granules (giant granules) in the cytoplasm, mimicking pseudo-Chediak-Higashi inclusions",
+    "Background red cells with mild anisopoikilocytosis (occasional teardrop/irregular forms) and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows a large granular lymphocyte with a moderately condensed, oval to slightly indented nucleus and abundant pale blue cytoplasm. The cytoplasm contains a few coarse, round, red-purple azurophilic granules that are strikingly larger than typical LGL granules, resembling pseudo-Chediak-Higashi inclusions. Background red cells show mild anisopoikilocytosis, and platelets are present. In the context of a persistent clonal T-cell population, the findings are consistent with T-cell large granular lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Chediak-Higashi syndrome", "vs": "Chediak-Higashi syndrome shows giant granules in all granulocytes and most lymphocytes in a child with oculocutaneous albinism and infections, whereas here the giant granules are confined to an expanded clonal LGL population in an adult."},
+    {"dx": "Reactive large granular lymphocytosis", "vs": "Reactive LGLs (viral infection, post-splenectomy) have fine small azurophilic granules, are transient and polyclonal, lacking the persistent clonal TCR rearrangement of T-LGL leukemia."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "NK-LGLs are morphologically identical but are surface CD3-negative and CD16/CD56-positive on flow cytometry."},
+    {"dx": "Pseudo-Chediak-Higashi granules in AML/MDS", "vs": "In myeloid neoplasms giant granules occur in blasts or granulocytic precursors that are MPO-positive, not in mature lymphocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3211",
+  "recognize_zh": "疏鬆水腫的組織中散在大型異型細胞，核大、空泡狀染色質、核仁明顯，混雜小淋巴球與溢出的紅血球；但本視野無法清楚看出這些大細胞侷限於血管腔內，需以 CD34 等血管標記確認。",
+  "features": [
+    "Scattered large atypical cells with enlarged vesicular nuclei and prominent nucleoli",
+    "Irregular nuclear contours with moderate amphophilic cytoplasm",
+    "Admixed small lymphocytes and extravasated red cells",
+    "Loose, edematous stroma with thin-walled capillary channels",
+    "Intravascular location of the large cells not clearly demonstrated at this magnification"
+  ],
+  "describe_en": "Tissue section shows loose, edematous stroma containing a mixed infiltrate of small lymphocytes and scattered large atypical cells with vesicular nuclei, irregular nuclear contours and prominent nucleoli. Thin-walled capillary channels and extravasated red cells are present. The large cells appear to lie in and around small vascular spaces, but a strictly intravascular distribution cannot be confirmed on this H&E field alone. The findings are compatible with involvement by intravascular large B-cell lymphoma in the appropriate context; CD20 with CD34 or CD31 immunostaining is recommended to demonstrate intraluminal localization.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, NOS (extravascular)", "vs": "Conventional DLBCL forms extravascular sheets or masses, whereas IVLBCL cells are confined to vessel lumina on CD34/CD31 staining."},
+    {"dx": "Reactive immunoblastic proliferation", "vs": "Reactive immunoblasts are admixed with plasma cells and a polymorphous background and are polytypic without clonal B-cell restriction."},
+    {"dx": "Metastatic carcinoma or melanoma in vessels", "vs": "Tumor emboli are cohesive and keratin+ or S100/SOX10+, rather than discohesive CD20+ CD45+ lymphoid cells."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30+ CD15+ with weak PAX5 and are set within a rich inflammatory background forming nodules, not intravascular."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

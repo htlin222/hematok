@@ -1,0 +1,22 @@
+{
+  "id": "60634",
+  "recognize_zh": "抹片中成群的大型淋巴樣細胞，核大、染色質疏鬆且有明顯核仁，細胞質嗜鹼性並有小空泡；B 圖免疫染色顯示腫瘤細胞瀰漫成片陽性，符合瀰漫性大 B 細胞淋巴瘤白血病期。",
+  "features": [
+    "Large atypical lymphoid cells, 2–3 times the size of a red cell, with high N:C ratio",
+    "Round to slightly irregular nuclei with vesicular/open chromatin and one or more distinct nucleoli",
+    "Scant to moderate deeply basophilic cytoplasm, some with small vacuoles",
+    "Adjacent macrophage with foamy, debris-laden cytoplasm (panel A, upper left)",
+    "Panel B: tissue section with diffuse sheets of tumor cells showing strong brown immunostaining (specific antigen not labeled), effacing normal architecture"
+  ],
+  "describe_en": "Panel A shows a smear with numerous large atypical lymphoid cells having vesicular chromatin, prominent nucleoli and basophilic, focally vacuolated cytoplasm, accompanied by a macrophage containing phagocytosed debris. Panel B shows a tissue section in which the tumor grows in diffuse sheets with strong immunohistochemical positivity; the antigen is not labeled in the figure, so lineage must be confirmed with B-cell markers (CD20, PAX5, CD19) and flow cytometry. Findings are consistent with diffuse large B-cell lymphoma in leukemic phase.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells are medium-sized and monotonous with multiple small nucleoli and intensely basophilic cytoplasm with prominent lipid vacuoles, a Ki-67 near 100% and MYC rearrangement without BCL2."},
+    {"dx": "Acute lymphoblastic or myeloid leukemia", "vs": "Blasts have finer chromatin and express TdT/CD34 or myeloid markers, whereas DLBCL cells are mature (surface light chain restricted, TdT negative)."},
+    {"dx": "Mantle cell lymphoma, blastoid/pleomorphic", "vs": "Blastoid MCL is cyclin D1 and SOX11 positive with t(11;14), which is absent in DLBCL."},
+    {"dx": "Prolymphocytic transformation of CLL", "vs": "Prolymphocytes have a single central prominent nucleolus with more condensed chromatin and a CLL phenotype (CD5+, CD23+)."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; IHC (antigen not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

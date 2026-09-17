@@ -1,0 +1,21 @@
+{
+  "id": "63676",
+  "recognize_zh": "G 帶染色核型圖中，第 5 號染色體一條正常、另一條（紅色箭頭）長臂明顯變短，代表 5q 缺失（del(5q)）；性染色體為 XX，其他染色體未見明顯異常，是 del(5q) MDS 的細胞遺傳學證據，非形態學影像。",
+  "features": [
+    "G-banded karyogram with chromosomes arranged 1-22 plus sex chromosomes",
+    "One chromosome 5 shows a markedly shortened long arm with loss of distal q-arm bands (red arrow)",
+    "Homologous chromosome 5 retains normal length and banding",
+    "Two X chromosomes (female karyotype); no Y",
+    "No other numerical or structural abnormality apparent in this single metaphase"
+  ],
+  "describe_en": "This figure is a G-banded karyogram of a single metaphase. One homolog of chromosome 5 shows an interstitial/terminal loss of long-arm material (arrow), while the partner chromosome 5 is normal; the sex chromosomes are XX and no additional abnormalities are apparent in this cell. Precise breakpoints cannot be determined at this image resolution, but the pattern is typical of del(5)(q13q33)-type deletions. Findings are consistent with 46,XX,del(5q), which, as a sole abnormality (or with one additional abnormality other than -7/del(7q)) and without increased blasts, supports myelodysplastic neoplasm with isolated del(5q).",
+  "ddx": [
+    {"dx": "Unbalanced translocation involving 5q", "vs": "A derivative chromosome 5 from an unbalanced translocation carries extra banded material from another chromosome, which requires FISH or SKY to exclude when banding is ambiguous."},
+    {"dx": "Complex karyotype with -5/del(5q)", "vs": "Therapy-related or high-risk MDS/AML shows del(5q) with three or more additional abnormalities (often TP53-associated), whereas this metaphase shows an isolated deletion."},
+    {"dx": "Monosomy 5", "vs": "Monosomy 5 shows complete loss of one chromosome 5, whereas here both homologs are present with only long-arm shortening."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

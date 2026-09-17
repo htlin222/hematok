@@ -1,0 +1,22 @@
+{
+  "id": "60431",
+  "recognize_zh": "低倍 CD21 免疫染色把整個淋巴結染出許多大而圓、邊界清楚、緊密排列的棕色結節，每一結節內都是擴大的濾泡樹突細胞（FDC）網，結節之間為陰性區；這種大量、擴大的 FDC 網狀大結節即結節性淋巴球為主型霍奇金淋巴瘤（NLPHL）的結節結構。",
+  "features": [
+    "CD21 immunostain at low power highlighting numerous large, round to irregular, closely packed nodules",
+    "Each nodule contains an expanded, dense follicular dendritic cell meshwork with sharp to slightly frayed borders",
+    "Some nodules show a speckled pattern of small unstained holes within the meshwork (entrapped cells)",
+    "CD21-negative internodular zones between the nodules",
+    "Nodules replace most of the lymph node, with no normal-sized follicle pattern"
+  ],
+  "describe_en": "CD21 immunohistochemistry at low magnification highlights numerous large, expanded follicular dendritic cell meshworks forming closely packed nodules that replace most of the lymph node. The meshworks are dense and well-delineated, with small unstained spaces corresponding to entrapped lymphocytes and LP cells, separated by CD21-negative internodular areas. This macronodular pattern of expanded FDC networks is characteristic of nodular lymphocyte predominant Hodgkin lymphoma (nodular lymphocyte predominant B-cell lymphoma in newer classification), typical pattern A/B.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "FL nodules are more numerous, smaller and back-to-back with CD10+/BCL2+ neoplastic centrocytes, rather than large nodules of small B cells containing scattered LP cells."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC produces only a few enlarged nodules within an otherwise reactive node, whereas here nodules efface most of the architecture and contain LP cells."},
+    {"dx": "Lymphocyte-rich classic Hodgkin lymphoma (nodular)", "vs": "Nodular LRCHL also has CD21+ meshworks, but the large cells are CD30+/CD15+ HRS cells located in expanded mantle zones, often with residual regressed germinal centers."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL shows a diffuse pattern with loss of FDC meshworks, so extensive nodular CD21 staining argues against it."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD21",
+  "match": "consistent",
+  "high_yield": true
+}

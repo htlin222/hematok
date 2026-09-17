@@ -1,0 +1,20 @@
+{
+  "id": "62551",
+  "recognize_zh": "CD10 在腫瘤細胞呈弱到中度、完整的細胞膜網狀染色，細胞核大且可見明顯小核仁；表示生發中心 B 細胞（GCB）表現型，雙打擊淋巴瘤多屬此型。",
+  "features": [
+    "Weak to moderate complete membranous CD10 staining in the majority of tumor cells",
+    "Large cells with vesicular nuclei and one to several distinct nucleoli visible on the hematoxylin counterstain",
+    "Cohesive-appearing sheets with a honeycomb membrane outline",
+    "No follicular distribution of staining"
+  ],
+  "describe_en": "CD10 immunohistochemistry shows weak to moderate, complete membranous staining in the majority of neoplastic cells, producing a honeycomb pattern across diffuse sheets. The counterstained nuclei are large and vesicular with distinct nucleoli. CD10 positivity indicates a germinal center B-cell phenotype, which is the usual immunophenotype of high-grade B-cell lymphoma with MYC and BCL2 rearrangements, and is also seen in Burkitt lymphoma and GCB-type DLBCL.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt is also CD10-positive but is BCL2-negative with a Ki67 near 100% and MYC rearrangement only."},
+    {"dx": "Activated B-cell type DLBCL", "vs": "ABC-type DLBCL is CD10-negative and MUM1-positive and rarely carries BCL2 with MYC rearrangement."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "MCL is usually CD10-negative and cyclin D1-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD10",
+  "match": "consistent",
+  "high_yield": false
+}

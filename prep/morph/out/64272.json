@@ -1,0 +1,22 @@
+{
+  "id": "64272",
+  "recognize_zh": "骨髓抹片中的大型原始細胞呈圓核、細緻染色質並有核仁，細胞質深藍嗜鹼性且邊緣有多個細胞質泡突（blebs），這種深藍細胞質加泡突的原紅血球樣原始細胞是純紅血球白血病的特徵。",
+  "features": [
+    "Large blasts with round central to slightly eccentric nuclei, finely dispersed chromatin and one or more nucleoli",
+    "Intensely basophilic, deep royal-blue cytoplasm with a paler perinuclear zone in some cells",
+    "Multiple small cytoplasmic blebs/pseudopod-like projections at the cell border",
+    "No cytoplasmic granules or Auer rods in the blasts",
+    "Background includes mature neutrophils, a small lymphocyte, erythrocytes and a few degenerated/smudged cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows several large blasts with round nuclei, finely dispersed chromatin and visible nucleoli, surrounded by a rim of intensely basophilic, agranular cytoplasm with prominent cytoplasmic blebs. Auer rods are not seen, and a few mature neutrophils and red cells are present in the background. These cells resemble proerythroblasts; when such cells constitute the dominant population (erythroid precursors at least 80% with at least 30% proerythroblasts), the findings are consistent with pure erythroid leukemia, to be confirmed with E-cadherin, CD71, glycophorin A and TP53 studies.",
+  "ddx": [
+    {"dx": "Megakaryoblasts (acute megakaryoblastic leukemia)", "vs": "Megakaryoblasts also have basophilic cytoplasm with blebs, so CD61/CD42b positivity versus E-cadherin/CD71/glycophorin positivity is needed to separate them."},
+    {"dx": "Parvovirus B19 giant pronormoblasts", "vs": "Parvovirus-infected pronormoblasts show large glassy intranuclear inclusions with an otherwise hypoplastic erythroid series, rather than sheets of malignant blasts."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with sharply punched-out lipid vacuoles rather than blebs and are CD19/CD10/sIg positive."},
+    {"dx": "Plasmablastic neoplasm or metastatic small round cell tumor", "vs": "Plasmablasts show eccentric nuclei with a perinuclear hof and are CD138 positive, and small round cell tumors form cohesive clusters negative for erythroid markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

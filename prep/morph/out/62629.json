@@ -1,0 +1,22 @@
+{
+  "id": "62629",
+  "recognize_zh": "體液細胞塊中大型腫瘤細胞核呈強烈且帶斑點顆粒狀的 LANA 陽性，而較小的淋巴球核為藍色陰性；大型細胞 LANA 核染色是確立 PEL 的關鍵。",
+  "features": [
+    "Effusion cell block with aggregates of large tumor cells and small lymphocytes",
+    "Strong nuclear LANA (HHV8) staining in large cells, with coarse speckled/granular pattern in many",
+    "Small admixed lymphocytes are negative (blue nuclei)",
+    "Positive cells have enlarged nuclei with occasional visible nucleoli",
+    "Clean background"
+  ],
+  "describe_en": "LANA-1 (HHV8) immunohistochemistry on an effusion cell block shows strong nuclear staining, frequently with a speckled granular pattern, in the large neoplastic cells, whereas admixed small reactive lymphocytes are negative. Nuclear LANA positivity in the tumor cells confirms HHV8 latent infection and is the defining diagnostic feature. In a lymphomatous effusion lacking B-cell antigens and immunoglobulin, findings are diagnostic of primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "Fluid overload-associated large B-cell lymphoma (HHV8-negative effusion lymphoma)", "vs": "This entity is morphologically similar but LANA-negative and usually CD20-positive."},
+    {"dx": "Plasmablastic lymphoma involving effusion", "vs": "Plasmablastic lymphoma shares CD20 loss and MUM1 positivity but is LANA-negative."},
+    {"dx": "Pyothorax-associated DLBCL (DLBCL associated with chronic inflammation)", "vs": "It forms a pleural mass after long-standing pyothorax, is EBV-positive, CD20-positive and HHV8-negative."},
+    {"dx": "Metastatic carcinoma in effusion", "vs": "Carcinoma is keratin-positive and LANA-negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "IHC: LANA-1 (HHV8)",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "18540",
+  "recognize_zh": "周邊血抹片中數顆嗜中性球的細胞膜外緣黏附一圈小血小板，形成「衛星」排列（platelet satellitism），而背景游離血小板稀少，這就是自動計數器誤判血小板低下的原因。",
+  "features": [
+    "Clump of segmented neutrophils rimmed by adherent platelets encircling the cell membranes",
+    "Platelets are small, granular, and morphologically normal",
+    "Neutrophils themselves show normal segmentation and granulation",
+    "Few free platelets in the background red cell field",
+    "Unremarkable red cell morphology"
+  ],
+  "describe_en": "Peripheral blood smear shows a group of segmented neutrophils whose cell membranes are rimmed by adherent platelets in a rosette-like arrangement. The platelets are morphologically unremarkable, and relatively few free platelets are seen in the background. Neutrophil and red cell morphology are otherwise normal. Findings are consistent with platelet satellitism, a typically EDTA-dependent in vitro phenomenon that causes spurious thrombocytopenia (pseudothrombocytopenia); a repeat count in citrate or heparin, or from a fingerstick smear, is recommended.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Platelet clumping forms free aggregates of platelets at the feathered edge rather than rings of platelets adhering to neutrophil membranes."},
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows uniformly few platelets without neutrophil-adherent rosettes, and the low count persists in citrate-anticoagulated samples."},
+    {"dx": "Phagocytosed platelets or intracellular inclusions", "vs": "Satellite platelets lie on the outer surface of the membrane rather than within the cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

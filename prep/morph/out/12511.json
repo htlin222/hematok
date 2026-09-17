@@ -1,0 +1,22 @@
+{
+  "id": "12511",
+  "recognize_zh": "血液抹片（A）可見多顆邊緣尖角、形態破碎的紅血球碎片（schistocytes，含盔狀細胞），腎臟切片（B）箭頭處小動脈管腔被嗜伊紅性血栓或內膜增厚阻塞，呈血栓性微血管病變（TMA），符合 TTP/TMA 表現；但病史為接受 bortezomib 治療的骨髓瘤患者，藥物相關 TMA 須列入考量。",
+  "features": [
+    "Red cell fragments with sharp angular edges, including helmet cells and triangular schistocytes (panel A)",
+    "Several crenated red cells (echinocytes) and reduced platelets in the field",
+    "Kidney arteriole with luminal occlusion by eosinophilic thrombotic material and concentric intimal change (arrow, panel B)",
+    "Glomerulus with congested, mildly bloodless-appearing capillary loops in the upper field",
+    "Tubules containing eosinophilic proteinaceous casts and focal epithelial injury"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous schistocytes including helmet and triangular fragments, with several crenated red cells and few platelets in the field. Renal biopsy shows an arteriole whose lumen is occluded by eosinophilic thrombotic material with concentric intimal change, a glomerulus with congested capillary loops, and tubules containing eosinophilic proteinaceous casts. Findings are consistent with a thrombotic microangiopathy. Given the stated history of plasma cell myeloma treated with bortezomib after autologous transplant, ADAMTS13 activity is essential to distinguish acquired TTP (activity <10%) from drug-induced or transplant-associated TMA, and the tubular casts should be evaluated for light chain cast nephropathy.",
+  "ddx": [
+    {"dx": "Drug-induced thrombotic microangiopathy (bortezomib or other agents)", "vs": "Drug-induced TMA has identical schistocytes and renal thrombi but ADAMTS13 activity above 10% and improvement after drug withdrawal."},
+    {"dx": "Transplant-associated TMA", "vs": "TA-TMA also shows schistocytes with renal arteriolar injury but has preserved ADAMTS13, elevated sC5b-9, and is linked to conditioning, calcineurin inhibitors, or GVHD."},
+    {"dx": "Atypical hemolytic uremic syndrome", "vs": "aHUS is dominated by renal TMA with complement-pathway abnormalities and ADAMTS13 activity above 10%."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC can produce schistocytes but shows prolonged PT/aPTT with low fibrinogen, whereas coagulation times are usually normal in TTP."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (A); H&E (B)",
+  "match": "consistent",
+  "high_yield": true
+}

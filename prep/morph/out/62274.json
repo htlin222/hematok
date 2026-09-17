@@ -1,0 +1,21 @@
+{
+  "id": "62274",
+  "recognize_zh": "CD20 染色顯示一個巨大的 B 細胞結節，大小遠超下方與右側的正常濾泡，結節內染色呈斑駁不均（深棕色套層細胞夾雜較淡的區域），結節間區為 CD20 陰性的 T 區，符合 PTGC 的 B 細胞結節。",
+  "features": [
+    "Giant CD20-positive B-cell nodule several times larger than adjacent CD20-positive follicles",
+    "Mottled staining within the nodule: dense strongly positive small B cells interrupted by lighter, less cellular zones",
+    "Smaller, well-formed CD20-positive follicles at the lower and right edges for size comparison",
+    "Interfollicular areas largely CD20-negative with scattered positive cells",
+    "Nodule borders are irregular and ill-defined"
+  ],
+  "describe_en": "CD20 immunohistochemistry highlights a markedly enlarged B-cell nodule composed of densely packed CD20-positive small B cells with an irregular, mottled internal pattern of lighter-staining zones. Adjacent follicles are normal in size, providing an internal comparison, and the interfollicular regions are predominantly CD20-negative. The findings indicate an expanded B-cell nodule without effacement of the surrounding nodal compartments. Findings are consistent with progressive transformation of germinal centers in the appropriate H&E and IgD context.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (NLPHL)", "vs": "NLPHL also forms large CD20-rich nodules, so the discriminator is the presence of large CD20+/OCT2+ LP cells with PD-1+ T-cell rosettes, which should be sought at high power."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma shows numerous back-to-back CD20+ follicles of similar size that co-express CD10 and BCL2, rather than a solitary giant nodule among normal-sized follicles."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive follicles are enlarged but retain a sharply demarcated germinal center with an intact mantle, lacking the mottled mantle-cell infiltration of a PTGC nodule."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

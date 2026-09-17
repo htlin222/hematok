@@ -1,0 +1,22 @@
+{
+  "id": "62005",
+  "recognize_zh": "雙畫面超音波：左圖未加壓時可見右膕靜脈（RT Pop V）與膕動脈（A）；右圖加壓後靜脈只被部分壓扁（Partial Comp），仍殘留管腔，靜脈不能完全壓扁即是深部靜脈血栓（DVT）的關鍵徵象。",
+  "features": [
+    "Side-by-side B-mode (grayscale) ultrasound of the right popliteal fossa",
+    "Left panel (no compression): hypoechoic right popliteal vein (RT Pop V) adjacent to the popliteal artery (A)",
+    "Right panel (with compression): vein only partially compressible, with persistent residual lumen",
+    "Incomplete venous compressibility is the primary sonographic criterion for DVT",
+    "Intraluminal echogenic thrombus is not clearly resolved at this image quality",
+    "Non-morphologic image: chronicity is inferred clinically, not from this frame"
+  ],
+  "describe_en": "Paired grayscale compression ultrasound images of the right popliteal fossa show the popliteal vein adjacent to the popliteal artery. With probe compression, the vein is only partially compressible and retains a residual lumen, indicating intraluminal thrombus. Discrete echogenic thrombus is not clearly resolved on this still image, and Doppler flow is not shown. Findings are consistent with partially occlusive deep vein thrombosis of the right popliteal vein; features favoring chronicity (echogenic, retracted, wall-adherent thrombus, collaterals) are not assessable here.",
+  "ddx": [
+    {"dx": "Acute deep vein thrombosis", "vs": "Acute thrombus is typically hypoechoic and expands a noncompressible vein, whereas chronic thrombus is echogenic, retracted, wall-adherent and associated with a contracted vein, collaterals or synechiae."},
+    {"dx": "Baker (popliteal) cyst", "vs": "A Baker cyst is an anechoic collection separate from the vein, communicating between the gastrocnemius and semimembranosus tendons, with a fully compressible adjacent vein."},
+    {"dx": "Popliteal artery aneurysm", "vs": "An aneurysm is a pulsatile dilated artery with arterial Doppler flow and mural thrombus, while the adjacent vein compresses normally."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A (duplex ultrasound, B-mode)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

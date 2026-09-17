@@ -1,0 +1,22 @@
+{
+  "id": "2831",
+  "recognize_zh": "骨髓抹片中有大型、非造血細胞：細胞質灰藍且細胞質與核上都有多個清楚圓形空泡，其中一顆為雙核、染色質細顆粒狀，與周圍小淋巴球差異明顯，符合轉移性橫紋肌肉瘤。",
+  "features": [
+    "Large atypical cells, one binucleate, much larger than adjacent lymphocytes",
+    "Round nuclei with finely granular chromatin and inconspicuous nucleoli",
+    "Pale gray-blue cytoplasm with numerous small, sharply punched-out vacuoles, some overlying the nucleus",
+    "Background of small lymphoid cells and crenated red cells with drying artifact",
+    "No cytoplasmic granules seen in the tumor cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered large atypical cells that are distinctly larger than the surrounding lymphoid cells. One cell is binucleate; the nuclei are round with finely granular chromatin, and the gray-blue cytoplasm contains multiple small, sharply defined vacuoles that also overlie the nuclei. The background shows small lymphocytes and red cells with drying artifact. These cells are not of hematopoietic appearance and are suggestive of metastatic small round cell tumor; in the appropriate clinical setting, findings are consistent with rhabdomyosarcoma, to be confirmed by desmin/myogenin immunohistochemistry.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma / leukemia", "vs": "Burkitt cells are uniform with deeply basophilic cytoplasm and lipid vacuoles, but they are not binucleate, are dispersed rather than clustered, and are CD20+/CD10+ rather than desmin/myogenin positive."},
+    {"dx": "Neuroblastoma", "vs": "Neuroblastoma forms rosettes with a fibrillary neuropil background and lacks prominent cytoplasmic vacuoles; urine catecholamines and PHOX2B support it."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing cells have scant cytoplasm with glycogen vacuoles and are CD99/NKX2-2 positive with EWSR1 rearrangement; morphology alone may not separate them."},
+    {"dx": "Acute myeloid leukemia with vacuolated blasts", "vs": "AML blasts are MPO or CD34/CD117 positive and dispersed, not large binucleate tumor cells that are desmin/myogenin positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

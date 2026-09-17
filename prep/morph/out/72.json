@@ -1,0 +1,38 @@
+{
+  "id": "72",
+  "recognize_zh": "骨髓抹片中滿是顆粒粗大的異常前骨髓細胞，核呈雙葉或摺疊（butterfly/sliding-plate），部分細胞可見成束的 Auer rods（faggot cells）；切片中細胞質豐富、顆粒狀的細胞成片取代骨髓。臨床有 DIC，染色體與 dual-fusion FISH 雖未見 t(15;17)，RT-PCR 仍證實 PML-RARA。",
+  "features": [
+    "Sheets of large abnormal promyelocytes with abundant cytoplasm packed with coarse azurophilic granules",
+    "Bilobed, folded or reniform nuclei (butterfly/sliding-plate shapes) with fine chromatin and visible nucleoli",
+    "Numerous cells with multiple Auer rods in bundles (faggot cells)",
+    "Core biopsy: hypercellular marrow effaced by monotonous cells with ample granular eosinophilic cytoplasm; strong diffuse cytoplasmic IHC positivity (consistent with MPO)",
+    "Peripheral blood: rare circulating atypical granulated cells with folded nuclei; leukopenic background",
+    "Karyotype with t(1;11)(p32;q23) and del(13q) but no t(15;17); interphase FISH with separate PML/RARA signals (no fusion)"
+  ],
+  "describe_en": "The peripheral blood smear shows leukopenia with rare circulating atypical cells that have folded nuclei and granular cytoplasm. The bone marrow core biopsy is markedly hypercellular and effaced by sheets of cells with abundant granular eosinophilic cytoplasm and round-to-reniform nuclei. On immunohistochemistry, these cells show strong, diffuse cytoplasmic positivity, consistent with a myeloperoxidase stain. The aspirate is dominated by abnormal promyelocytes with coarse azurophilic granules, bilobed or sliding-plate nuclei, and frequent cells containing bundles of Auer rods (faggot cells). G-banded karyotype shows 46,XY,t(1;11)(p32;q23),del(13)(q12q22) without t(15;17), and dual-fusion interphase FISH shows no PML-RARA fusion; however, RT-PCR detected a PML-RARA transcript. Findings are consistent with acute promyelocytic leukemia with a cryptic PML-RARA fusion.",
+  "ddx": [
+    {"dx": "Microgranular (hypogranular) variant APL", "vs": "The microgranular variant shows bilobed nuclei with sparse or dust-like granules and often leukocytosis with CD34/HLA-DR positivity, whereas these cells are overtly hypergranular with faggot cells."},
+    {"dx": "APL-like AML with variant RARA partner (e.g., ZBTB16-RARA)", "vs": "ZBTB16-RARA cases have regular round nuclei, fewer Auer rods and pseudo-Pelger cells and are ATRA-resistant, and they are separated from this case by RARA break-apart FISH or RT-PCR rather than by morphology."},
+    {"dx": "AML with maturation / NPM1-mutated AML with cup-like nuclei", "vs": "These contain agranular or finely granular blasts and lack sheets of hypergranular promyelocytes with faggot cells, and they are CD34 and/or HLA-DR positive without a PML-RARA fusion."},
+    {"dx": "Reactive promyelocyte-rich marrow (G-CSF effect, recovery after agranulocytosis)", "vs": "Recovering marrow shows normal promyelocytes with round nuclei, a perinuclear hof, and orderly progression to mature neutrophils, without Auer rods or DIC."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC (MPO); G-banding; FISH",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Bone marrow core biopsy, low power: hypercellular marrow effaced by sheets of granular cells with hemorrhage (H&E)",
+    "Peripheral blood: atypical cell with folded nucleus and granular cytoplasm (Wright-Giemsa)",
+    "Peripheral blood: circulating atypical granulated cell with irregular nucleus (Wright-Giemsa)",
+    "Core biopsy, high power: monotonous cells with abundant granular eosinophilic cytoplasm and reniform nuclei (H&E)",
+    "Core biopsy, higher power: sheets of promyelocyte-like cells with ample granular cytoplasm (H&E)",
+    "Core biopsy immunohistochemistry: strong diffuse granular cytoplasmic positivity in leukemic cells (consistent with MPO)",
+    "Aspirate: hypergranular promyelocytes with bilobed nuclei and Auer rods (Wright-Giemsa)",
+    "Aspirate: abnormal promyelocytes with sliding-plate nuclei and faggot cells containing Auer rod bundles",
+    "Aspirate: multiple faggot cells with bundles of Auer rods and coarse azurophilic granules",
+    "G-banded karyogram of a normal 46,XY metaphase (the normal clone)",
+    "G-banded karyogram of the abnormal clone: t(1;11)(p32;q23) and del(13)(q12q22) (arrows); no t(15;17)",
+    "Interphase FISH with PML/RARA dual-fusion probe: two separate red and two separate green signals, no fusion",
+    "Metaphase FISH: two sets of juxtaposed red-green signals on the chromosomes; the probe set is not specified in the image, so interpret alongside the report"
+  ]
+}

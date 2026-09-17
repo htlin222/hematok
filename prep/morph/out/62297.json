@@ -1,0 +1,22 @@
+{
+  "id": "62297",
+  "recognize_zh": "這是一袋紅血球血品的外觀照片：袋內與管路中的血液呈鮮亮的櫻桃紅色，而非一般較暗的深紅色，照片上看不到分層或溶血跡象；鑑別需考慮溶血、動脈血採集、低血比容與一氧化碳中毒，本例歸因於捐血者血比容偏低。",
+  "features": [
+    "Gross photograph of a blood component bag containing packed red cells",
+    "Uniform bright cherry-red coloration of the bag contents and attached segment tubing",
+    "No visible clots, clumps, air or layering in the bag",
+    "Supernatant clarity cannot be assessed without centrifugation of a segment",
+    "Intact bag seams and ports without leakage"
+  ],
+  "describe_en": "The image is a gross photograph of a red cell component bag whose contents and attached segment tubing show a uniform bright cherry-red color rather than the usual darker red. No clots, visible layering or leakage are identified, although the presence or absence of hemolysis cannot be judged from the bag alone and requires inspection of the supernatant after centrifugation of a segment. The differential for a cherry-red unit includes hemolysis, arterial collection, low donor hematocrit and carbon monoxide exposure. In this case, a clear supernatant, a non-pulsatile collection and a donor hematocrit of 37.1% support a lower hematocrit as the most likely cause.",
+  "ddx": [
+    {"dx": "Hemolyzed unit", "vs": "Hemolysis produces a red to pink supernatant after segment centrifugation, whereas here the supernatant was clear."},
+    {"dx": "Arterial blood collection", "vs": "Arterial collection is suggested by rapid, pulsatile filling during donation and a high oxygen saturation of the unit."},
+    {"dx": "Carbon monoxide exposure", "vs": "Carboxyhemoglobin gives a cherry-red color and is confirmed by CO-oximetry showing elevated COHb, typically in heavy smokers or exposure victims."},
+    {"dx": "Bacterial contamination", "vs": "Contaminated units usually appear darker purple or show clots, hemolysis or gas, with discordant segment and bag color, confirmed by Gram stain and culture."}
+  ],
+  "specimen": "gross",
+  "stain": "N/A",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "14405",
+  "recognize_zh": "A 圖骨髓抹片中一團緊密黏附的大型細胞簇（cohesive cluster），核大、細胞質深藍、細胞界線不清，與周圍造血細胞明顯不同；B 圖切片中淡藍色黏液池內漂浮著腺體上皮條帶（箭頭），符合轉移性（黏液性）腺癌侵犯骨髓。",
+  "features": [
+    "Cohesive three-dimensional cluster of large non-hematopoietic cells on the aspirate smear",
+    "High N:C ratio with overlapping, molded oval nuclei and indistinct cell borders",
+    "Deeply basophilic cytoplasm with small vacuoles; background of RBCs and scattered marrow cells",
+    "Biopsy: pools of pale extracellular mucin containing strips of columnar epithelium (arrow)",
+    "Marrow fat and a bony trabecula at the edge; normal hematopoiesis largely replaced in the field"
+  ],
+  "describe_en": "The bone marrow aspirate smear (A) contains a tightly cohesive cluster of large epithelial-appearing cells with high N:C ratio, overlapping and molded oval nuclei, and basophilic, focally vacuolated cytoplasm, clearly distinct from the surrounding hematopoietic elements. The core biopsy (B) shows the intertrabecular space replaced by lakes of pale extracellular mucin lined and traversed by strips of columnar epithelium (arrow), with residual fat adjacent to a bony trabecula. Findings are consistent with metastatic mucinous adenocarcinoma involving the bone marrow; immunohistochemistry (e.g., keratins, CDX2, TTF-1, PSA/NKX3.1) is recommended to suggest a primary site.",
+  "ddx": [
+    {"dx": "Gelatinous (serous fat) transformation", "vs": "Gelatinous transformation shows amorphous hyaluronic acid-rich ground substance with fat atrophy but no epithelial cells lining or floating within the matrix."},
+    {"dx": "Clumped megakaryocytes or osteoblast clusters on aspirate", "vs": "Osteoblasts have eccentric nuclei with a perinuclear hof and megakaryocytes are lobulated with granular cytoplasm, whereas carcinoma cells form molded, cohesive syncytial clumps."},
+    {"dx": "Acute leukemia or lymphoma with cellular clumping", "vs": "Hematolymphoid blasts are discohesive and CD45-positive, while metastatic carcinoma is cohesive and cytokeratin-positive/CD45-negative."},
+    {"dx": "Metastatic small round blue cell tumor (e.g., neuroblastoma, rhabdomyosarcoma)", "vs": "These occur mainly in children, may form rosettes, and lack gland formation and mucin production."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa (A); H&E (B)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": ["A: Aspirate smear with a cohesive cluster of carcinoma cells", "B: Core biopsy with mucin pools and strips of glandular epithelium (arrow)"]
+}

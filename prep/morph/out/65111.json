@@ -1,0 +1,22 @@
+{
+  "id": "65111",
+  "recognize_zh": "Giemsa 骨髓抹片可見紅血球系前驅細胞形態異常：雙核與核分葉（出芽）的大型紅母細胞、核質發育不同步，部分晚期紅母細胞細胞質帶有粗顆粒；但環狀鐵粒母細胞（ring sideroblasts）必須靠普魯士藍鐵染色證實，本圖並未呈現鐵染色。",
+  "features": [
+    "Erythroid precursors at various stages with round nuclei and coarsely clumped chromatin",
+    "Dyserythropoiesis: large binucleated/lobulated early erythroblasts with nuclear budding and deeply basophilic cytoplasm (lower right)",
+    "Megaloblastoid features with nuclear-cytoplasmic asynchrony and irregular cytoplasmic margins",
+    "Some erythroid cells with coarse cytoplasmic dots/granules and pale, frayed cytoplasm",
+    "Ring sideroblasts not demonstrable on this Romanowsky stain; iron stain required"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows erythroid precursors with dysplastic features, including binucleated and nuclear-budding erythroblasts, megaloblastoid nuclear-cytoplasmic asynchrony and irregular, frayed cytoplasm, with occasional coarse cytoplasmic granules. Granulocytic cells present in the fields are not specifically assessable for dysplasia. Ring sideroblasts cannot be evaluated on this Giemsa-stained preparation; the reported Prussian blue stain showing 70% ring sideroblasts, together with refractory macrocytic anemia, supports myelodysplastic syndrome with ring sideroblasts (SF3B1 testing recommended).",
+  "ddx": [
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic change shows open sieve-like chromatin with giant metamyelocytes and corrects with vitamin replacement, without ring sideroblasts on iron stain."},
+    {"dx": "Congenital sideroblastic anemia (ALAS2)", "vs": "Congenital forms are typically microcytic and present in young patients, rather than macrocytic anemia with dysplasia in an elderly patient."},
+    {"dx": "Copper deficiency or zinc/alcohol toxicity", "vs": "Copper deficiency produces ring sideroblasts with cytoplasmic vacuoles in myeloid and erythroid precursors and neutropenia, reversible with correction."},
+    {"dx": "MDS/MPN with SF3B1 mutation and thrombocytosis", "vs": "Morphology of erythroid precursors overlaps; this entity requires platelets >=450 x10^9/L with atypical large megakaryocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

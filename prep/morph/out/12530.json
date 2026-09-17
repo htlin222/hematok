@@ -1,0 +1,22 @@
+{
+  "id": "12530",
+  "recognize_zh": "周邊血液抹片中箭頭指出的紅血球邊緣有半月形缺口，像被咬掉一口的咬痕細胞（bite cell），配合服用 dapsone 的病史，提示氧化性溶血。",
+  "features": [
+    "Scattered bite cells (degmacytes) with smooth semicircular peripheral defects, marked by arrows",
+    "Background red cells largely normocytic with preserved central pallor; mild anisocytosis",
+    "Occasional red cells with eccentric hemoglobin (blister-like) appearance",
+    "No spherocyte predominance, schistocytes or agglutination",
+    "Neutrophil, lymphocyte and adequate platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows mostly normocytic, normochromic red cells with scattered bite cells showing smooth, semicircular membrane defects (arrows). Spherocytes, schistocytes and red cell agglutination are not prominent. White cells and platelets appear unremarkable. In the setting of dapsone exposure with a negative direct antiglobulin test, findings are consistent with drug-induced oxidative hemolysis; G6PD assay (after recovery) and methemoglobin level are recommended.",
+  "ddx": [
+    {"dx": "G6PD deficiency with oxidant-induced hemolysis", "vs": "Morphology is identical (bite and blister cells, Heinz bodies), so a quantitative G6PD assay performed after reticulocytosis subsides is needed to separate intrinsic deficiency from dose-related dapsone toxicity."},
+    {"dx": "Microangiopathic hemolytic anemia", "vs": "MAHA shows fragmented schistocytes with sharp angular edges and thrombocytopenia rather than smooth rounded bite defects with normal platelets."},
+    {"dx": "Autoimmune hemolytic anemia", "vs": "Warm AIHA shows spherocytes and a positive DAT, whereas this smear shows bite cells with a negative DAT."},
+    {"dx": "Unstable hemoglobin disease", "vs": "Unstable hemoglobins also produce bite cells and Heinz bodies but are congenital with lifelong hemolysis and detectable by isopropanol stability testing or Hb analysis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

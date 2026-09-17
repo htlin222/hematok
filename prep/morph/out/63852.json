@@ -1,0 +1,21 @@
+{
+  "id": "63852",
+  "recognize_zh": "這是 HPLC 層析圖：除了 2.43 分鐘的 HbA（Ao 60.6%）外，在 4.03 分鐘的 D-window 出現 30.8% 的變異峰，HbA2 0.7%、HbF 0.8% 不高；單一 D 窗峰約三成加上大量 HbA，符合父親為 HbD（如 HbD-Punjab）帶因者。",
+  "features": [
+    "Cation-exchange HPLC report with peak table and chromatogram (retention time 0-6 min)",
+    "Dominant Ao (HbA) peak at 2.43 min, 60.6% of total area",
+    "Sharp variant peak at 4.03 min in the D-window, 30.8%",
+    "HbA2 0.7% and HbF 0.8%, not elevated",
+    "Small P2 (2.6%) and P3 (3.5%) peaks; no peak in the S or A2/E window beyond baseline"
+  ],
+  "describe_en": "Cation-exchange HPLC shows a major HbA peak (60.6%) and a single variant peak eluting at 4.03 minutes in the D-window, comprising 30.8% of total hemoglobin. HbF (0.8%) and HbA2 (0.7%) are not increased, and no S-window or A2/E-window variant is present. The pattern of HbA plus roughly one-third D-window variant indicates heterozygous carriage of a D-window hemoglobin variant, most commonly HbD-Punjab (HbD-Los Angeles), which should be confirmed by alkaline/acid electrophoresis or beta-globin sequencing. Findings are consistent with HbD trait in the father of an index case with HbSD disease.",
+  "ddx": [
+    {"dx": "HbS trait", "vs": "HbS elutes later in the S-window (about 4.4-4.5 min) and is sickling-test positive, whereas HbD elutes earlier in the D-window and is sickling-negative."},
+    {"dx": "HbG-Philadelphia or other D-window variants", "vs": "Several variants co-elute in the D-window and migrate with HbS on alkaline electrophoresis, so separation requires acid electrophoresis (where HbD/G run with HbA) and DNA sequencing."},
+    {"dx": "HbE trait", "vs": "HbE co-elutes in the A2 window at about 3.6 min with a value of roughly 25-30%, not in the D-window at 4.0 min."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

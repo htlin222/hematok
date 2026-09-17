@@ -1,0 +1,22 @@
+{
+  "id": "63386",
+  "recognize_zh": "這是毛細管血紅素電泳報告：HbS 49.7% 為最高峰，同時存在 HbA 36.1%、HbF 11.2%、HbA2 3.0%；HbS 大於 HbA，不符合單純鐮刀型特質（sickle trait），需考慮輸血後的鐮刀型貧血或 HbS/β+ 地中海貧血。",
+  "features": [
+    "Capillary electrophoresis trace with four peaks: Hb A, Hb F, Hb S and Hb A2 in order of migration",
+    "Hb S is the dominant fraction at 49.7%, exceeding Hb A at 36.1%",
+    "Hb F elevated at 11.2% (reference 0-0.5%)",
+    "Hb A2 3.0%, within the stated reference range 2.5-3.5%",
+    "No additional variant peaks (e.g., Hb C or Hb D zones) identified"
+  ],
+  "describe_en": "Capillary hemoglobin electrophoresis shows Hb S 49.7%, Hb A 36.1%, Hb F 11.2% and Hb A2 3.0%, with no other variant peaks. The proportion of Hb S exceeds Hb A, which is not the pattern of sickle cell trait, where Hb A predominates and Hb S is usually below 45%. Together with the elevated Hb F, this pattern is most compatible with sickle cell anemia after recent red cell transfusion, or alternatively Hb S/beta-plus thalassemia; transfusion history, red cell indices and family or DNA studies are needed to distinguish these.",
+  "ddx": [
+    {"dx": "Sickle cell trait (Hb AS)", "vs": "Trait shows Hb A greater than Hb S (typically Hb S 35-45%) with normal Hb F and normal red cell indices."},
+    {"dx": "Hb S/beta-plus thalassemia", "vs": "S/beta-plus has Hb S greater than Hb A with microcytosis and a raised Hb A2 (often above 3.5%) without a recent transfusion."},
+    {"dx": "Sickle cell anemia on hydroxyurea without transfusion", "vs": "Untransfused Hb SS shows no Hb A peak, with Hb F that may be markedly elevated on hydroxyurea."},
+    {"dx": "Hb S with hereditary persistence of fetal hemoglobin", "vs": "S/HPFH shows no Hb A with Hb F around 20-30% distributed pancellularly and a mild clinical course."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

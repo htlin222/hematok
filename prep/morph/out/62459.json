@@ -1,0 +1,21 @@
+{
+  "id": "62459",
+  "recognize_zh": "gate 在 CD3 T 細胞的 CD4 對 SSC 流式圖：CD4 gate 佔 CD3 細胞 99.76%，幾乎所有 T 細胞都是 CD4 陽性，但大部分 CD4 表現偏弱（藍色），只有 7.06% 位於正常 CD4 亮度的 gate A（綠色），顯示 CD4 dim 的異常 T 細胞大量擴增。",
+  "features": [
+    "Dot plot of side scatter (SS INT) versus CD4-FITC gated on CD3-positive T cells",
+    "CD4 gate contains 99.76% of CD3 T cells (56.89% of total), indicating near-absent CD8 T cells",
+    "Most CD4 T cells (blue) show dim, broadly spread CD4 intensity below the normal range",
+    "Gate A (green) at normal CD4 intensity contains only 7.06% of gated T cells (residual normal CD4 T cells)",
+    "Low side scatter throughout; non-morphologic figure"
+  ],
+  "describe_en": "Flow cytometric plot of side scatter versus CD4 on CD3-gated T cells shows that 99.76% of T cells fall within the CD4 gate, indicating a marked CD4 predominance with virtually absent CD8 T cells. Most of these cells express CD4 at dim intensity, with only 7.06% of T cells located in gate A at normal CD4 brightness. The expanded CD4-dim population correlates with the CD7-negative and CD26-negative population in companion plots. Findings are consistent with a markedly elevated CD4:CD8 ratio and an aberrant CD4-dim T-cell population, supporting peripheral blood involvement by Sezary cells.",
+  "ddx": [
+    {"dx": "Normal peripheral blood T cells", "vs": "Normal T cells show about 60-70% CD4 and 30-40% CD8 with uniform bright CD4, unlike the near-exclusive CD4-dim population here."},
+    {"dx": "Monocyte contamination", "vs": "Monocytes are CD4 dim but CD3 negative with higher side scatter, so they would be excluded by the CD3 gate."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL also shows a CD4-predominant aberrant T-cell population but is CD25 bright and HTLV-1 positive."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

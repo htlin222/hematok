@@ -1,0 +1,22 @@
+{
+  "id": "60970",
+  "recognize_zh": "PET/CT 顯示左頸多顆 FDG 攝取淋巴結；切片低倍為副皮質區淡染擴張，高倍見大量核碎屑（karyorrhexis）、組織球與淋巴樣細胞但幾乎沒有嗜中性球，TCL1 陽性細胞與 CD123 陽性漿細胞樣樹突細胞團聚集在壞死周邊，符合菊池病（Kikuchi-Fujimoto disease）。",
+  "features": [
+    "Panel A (PET/CT): multiple FDG-avid left cervical lymph nodes (arrow)",
+    "Panel B (low power H&E): pale, expanded paracortical area replacing normal architecture",
+    "Panel C (high power H&E): abundant apoptotic karyorrhectic debris with histiocytes (some with crescentic nuclei), immunoblasts and medium-sized plasmacytoid cells; neutrophils absent",
+    "Panel D: strongly positive cells (TCL1 per legend) at the interface of necrosis and viable tissue",
+    "Panel E: clusters of CD123-positive plasmacytoid dendritic cells at the periphery of necrosis"
+  ],
+  "describe_en": "PET/CT shows multiple FDG-avid left cervical lymph nodes. The excised node shows a pale, expanded paracortex with patchy necrotizing lesions containing abundant karyorrhectic debris, histiocytes with crescentic nuclei, immunoblasts and plasmacytoid cells, and a conspicuous absence of neutrophils and eosinophils. Immunostains highlight TCL1-positive cells and clusters of CD123-positive plasmacytoid dendritic cells at the periphery of the necrotic foci. Findings are consistent with histiocytic necrotizing lymphadenitis (Kikuchi-Fujimoto disease).",
+  "ddx": [
+    {"dx": "Lupus lymphadenitis", "vs": "Shares karyorrhexis and pDC clusters but shows hematoxylin bodies, plasma cells and Azzopardi vessel changes; ANA/dsDNA serology is required."},
+    {"dx": "Peripheral T-cell or large B-cell lymphoma with necrosis", "vs": "Immunoblasts are sheet-forming with clonal/aberrant phenotype, whereas Kikuchi shows a mixed CD8-T-cell, MPO-positive histiocyte and pDC population."},
+    {"dx": "Necrotizing infectious lymphadenitis (cat-scratch, tuberculosis, HSV)", "vs": "Suppurative/granulomatous necrosis with neutrophils or epithelioid granulomas, or viral inclusions, which are absent in Kikuchi."},
+    {"dx": "Infectious mononucleosis", "vs": "Paracortical immunoblastic proliferation with EBER-positive cells and heterophile antibodies, usually without extensive karyorrhectic necrosis lacking neutrophils."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: TCL1, CD123; PET/CT",
+  "match": "consistent",
+  "high_yield": true
+}

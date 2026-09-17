@@ -1,0 +1,22 @@
+{
+  "id": "64062",
+  "recognize_zh": "三顆中型淋巴球，核圓且邊緣平滑、染色質較疏鬆、核仁不明顯，細胞質豐富淡灰藍色，周邊呈毛絨絨的細絲狀突起（hairy projections）環繞整個細胞，這就是毛細胞白血病的毛細胞。",
+  "features": [
+    "Medium-sized mononuclear cells, about 1.5–2 times a red cell diameter",
+    "Abundant pale grey-blue cytoplasm with circumferential fine, fuzzy hair-like projections",
+    "Round nuclei with smooth contours, some slightly oval",
+    "Moderately open, finely stippled chromatin; nucleoli inconspicuous",
+    "Background red cells include occasional crenated echinocytes (likely artifact); no granulocytes or monocytes in field"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered medium-sized lymphoid cells with round, smooth-contoured nuclei, moderately open chromatin and inconspicuous nucleoli. The cells have abundant pale grey-blue cytoplasm with fine circumferential hair-like projections and ill-defined borders. Background red cells show occasional crenation, likely artifactual, and no monocytes are seen in this field. Findings are consistent with hairy cell leukemia; confirmation by flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing is recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant / splenic B-cell lymphoma with prominent nucleoli", "vs": "HCL-variant cells have prominent central nucleoli, higher counts without monocytopenia, and are CD25-negative and BRAF wild-type."},
+    {"dx": "Splenic marginal zone lymphoma (villous lymphocytes)", "vs": "SMZL villous lymphocytes are smaller with more condensed chromatin and short polar projections rather than circumferential hairs, and lack CD103/CD25 co-expression."},
+    {"dx": "Monocytes", "vs": "Monocytes have folded nuclei, lacy chromatin and grey vacuolated cytoplasm without fine hair-like projections."},
+    {"dx": "Large granular lymphocytes", "vs": "LGLs have round nuclei with condensed chromatin and azurophilic cytoplasmic granules rather than agranular cytoplasm with fuzzy borders."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

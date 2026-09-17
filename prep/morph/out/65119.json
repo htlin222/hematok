@@ -1,0 +1,23 @@
+{
+  "id": "65119",
+  "recognize_zh": "血液抹片中有一群中到大型的淋巴樣細胞，核輪廓不規則（有凹陷、切跡），染色質比典型成熟淋巴球細緻，部分可見小核仁，細胞質淡藍、量少到中等；在淋巴瘤病史背景下，這種「介於成熟與母細胞之間」的單形性異常淋巴球提示被套細胞淋巴瘤（mantle cell lymphoma）周邊血侵犯。",
+  "features": [
+    "Cluster of medium to large atypical lymphoid cells, roughly 1.5-2.5 times the diameter of an RBC",
+    "Moderately high N:C ratio with a rim of pale to moderately basophilic agranular cytoplasm",
+    "Irregular nuclear contours with indentations and notches in several cells",
+    "Finely to moderately dispersed chromatin, more open than a mature small lymphocyte; small nucleoli visible in some cells",
+    "Relatively monomorphic population; no smudge-cell predominance in this field",
+    "Background RBCs without notable abnormality; some smear artifact at the edges"
+  ],
+  "describe_en": "Peripheral blood smear shows a population of medium to large atypical lymphoid cells occurring singly and in small clusters. The cells have a moderately high N:C ratio, scant to moderate pale blue agranular cytoplasm, irregular and focally indented nuclear contours, and relatively dispersed chromatin with small nucleoli in a subset. Mature small round lymphocytes with clumped chromatin and prominent smudge cells are not a feature of this field. In the appropriate immunophenotypic context (CD5+, CD23-, cyclin D1/SOX11+), findings are consistent with circulating mantle cell lymphoma, possibly a blastoid/pleomorphic-leaning morphology.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia (including atypical CLL/prolymphocytic progression)", "vs": "CLL cells are small with round nuclei, coarse block-like chromatin and abundant smudge cells, and are CD23+/cyclin D1-, whereas these cells are larger with irregular nuclei and dispersed chromatin."},
+    {"dx": "B-prolymphocytic leukemia", "vs": "Prolymphocytes typically have round nuclei with a single conspicuous central nucleolus and moderately condensed chromatin; many historical cases are in fact cyclin D1+ MCL, so t(11;14) testing is required."},
+    {"dx": "Follicular lymphoma in leukemic phase", "vs": "FL buttock cells are small with deeply cleaved nuclei and dense chromatin and are CD10+/BCL6+ and CD5-."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts have finer, homogeneous chromatin with very scant cytoplasm and express TdT/CD34, which MCL lacks."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

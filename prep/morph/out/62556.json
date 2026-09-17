@@ -1,0 +1,22 @@
+{
+  "id": "62556",
+  "recognize_zh": "中倍下是一片中等大小、核圓、胞質少的單調腫瘤細胞，散布著空泡狀的吞噬碎屑巨噬細胞與凋亡小體、核分裂，呈星空樣；形態介於 Burkitt 與 DLBCL 之間，需 FISH 確認雙打擊。",
+  "features": [
+    "Monotonous medium-sized cells with round to oval nuclei and scant cytoplasm",
+    "Scattered tingible-body macrophages with clear halos (starry sky)",
+    "Frequent apoptotic bodies and mitotic figures",
+    "Thin fibrovascular strands and small vessels coursing through diffuse sheets",
+    "No follicles or nodular architecture"
+  ],
+  "describe_en": "Intermediate-power H&E shows diffuse sheets of monotonous medium-sized lymphoid cells with round to oval nuclei, finely clumped chromatin and scant cytoplasm, traversed by thin fibrovascular strands. Numerous tingible-body macrophages with clear halos, apoptotic bodies and mitotic figures are present, producing a starry-sky pattern. No nodular or follicular architecture is seen. The features indicate a high-grade B-cell lymphoma; distinction from Burkitt lymphoma and DLBCL requires BCL2 and MYC immunostains and FISH for MYC and BCL2 rearrangements.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are more uniform with squared-off cytoplasmic borders, BCL2-negative and Ki67 near 100%, with MYC rearrangement only."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL cells are larger (at least twice a small lymphocyte) with more pleomorphism and lack double rearrangement."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is cyclin D1- and SOX11-positive and usually lacks a prominent starry sky."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "Lymphoblasts have very fine chromatin and are TdT-positive with often weak or absent CD20."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

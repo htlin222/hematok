@@ -1,0 +1,21 @@
+{
+  "id": "4064",
+  "recognize_zh": "這張皮膚免疫染色幾乎沒有棕色陽性訊號，只有蘇木紫複染；真皮血管與附屬器周圍的淋巴球團呈陰性，代表此標記在 T-PLL 皮膚浸潤細胞中為陰性（抗體名稱圖中未標示）。",
+  "features": [
+    "Hematoxylin-counterstained skin section with no appreciable chromogen staining in the infiltrate",
+    "Dense perivascular and periadnexal dermal aggregates of small-to-medium lymphoid cells",
+    "Superficial dermal infiltrate extending up to the dermoepidermal junction",
+    "Epidermis with mild acanthosis and orthokeratosis",
+    "Rare isolated red-brown dot in the dermis, likely nonspecific"
+  ],
+  "describe_en": "Immunohistochemical stain of a skin biopsy (antibody not specified) shows dense perivascular and periadnexal dermal aggregates of small-to-medium lymphoid cells that are essentially negative for the marker, with only hematoxylin counterstain visible. The infiltrate extends into the superficial dermis up to the dermoepidermal junction. The image documents a negative immunostain in the dermal infiltrate; its significance depends on the antibody used (for example, CD8, CD25 or a B-cell marker would be expected to be negative in T-prolymphocytic leukemia cutis).",
+  "ddx": [
+    {"dx": "Cutaneous involvement by ATLL", "vs": "ATLL infiltrates are typically CD25-positive and HTLV-1 associated, whereas T-PLL is CD25-negative/TCL1-positive."},
+    {"dx": "Cutaneous B-cell lymphoma / CLL cutis", "vs": "B-cell infiltrates would stain with CD20/PAX5, and CLL is CD23-positive; a negative T-cell-specific stain would not be expected in T-PLL."},
+    {"dx": "Failed or technically inadequate stain", "vs": "A true negative requires positive internal or external controls, which are not evident in this field."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: marker not specified (negative)",
+  "match": "partial",
+  "high_yield": false
+}

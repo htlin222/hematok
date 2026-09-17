@@ -1,0 +1,30 @@
+{
+  "id": "38",
+  "recognize_zh": "4 歲男童血液與骨髓中見大量小至中型、高核質比、染色質細緻、胞質稀少淡藍且無顆粒的母細胞；骨髓切片 100% 被取代，IHC 為 CD79a 與 TdT 陽性、CD34 陰性，流式 CD19+/CD10+、CD45−、表面輕鏈陰性，符合 B 淋巴母細胞白血病。",
+  "features": [
+    "Small to intermediate blasts (1-2x lymphocyte size) with very high N:C ratio",
+    "Round to slightly indented nuclei with fine, homogeneous chromatin and inconspicuous nucleoli",
+    "Scant, pale to moderately basophilic agranular cytoplasm without Auer rods",
+    "Aspirate: cohesive-appearing clusters of monotonous blasts with smudged cells",
+    "BM biopsy: 100% cellular marrow with sheets of blasts replacing normal hematopoiesis",
+    "IHC: CD79a+, TdT+ (nuclear), CD34 negative in blasts (vessels positive); flow CD19+ CD10+ CD45- CD20- CD13- sIg light chain-negative"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts that are small to intermediate in size with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, inconspicuous nucleoli and scant agranular cytoplasm. The bone marrow aspirate contains sheets and clusters of similar monotonous blasts, and the core biopsy is 100% cellular with diffuse replacement by blasts and near-total loss of normal trilineage hematopoiesis. Immunohistochemistry shows the blasts are positive for CD79a and TdT and negative for CD34 (which highlights only endothelium), and flow cytometry of the blood demonstrates a CD19+, CD10+ blast population that is largely CD34-negative and negative for CD45, CD20, CD13 and surface light chains. Findings are consistent with B-lymphoblastic leukemia/lymphoma, NOS; cytogenetic and molecular studies are needed for genetic subclassification.",
+  "ddx": [
+    {"dx": "Hematogones (benign B-cell precursors)", "vs": "Hematogones show a continuous maturation spectrum (CD34/TdT to CD20) with dim CD10 and normal CD45, and never replace 100% of the marrow as here."},
+    {"dx": "Acute myeloid leukemia, minimally differentiated", "vs": "AML blasts may look identical but express CD13/CD33/CD117 or MPO and lack CD19/CD79a/CD10, whereas these blasts are CD19+CD10+ and CD13-negative."},
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-ALL blasts are morphologically similar but express cytoplasmic CD3 and CD7 without CD19/CD79a, and often present with a mediastinal mass."},
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells have deeply basophilic vacuolated cytoplasm, are TdT-negative and surface light chain-restricted with MYC rearrangement, unlike these TdT+ sIg-negative blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: CD79a, TdT, CD34; flow cytometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: three small lymphoblasts with high N:C ratio, fine chromatin and scant cytoplasm",
+    "Bone marrow aspirate: clusters of monotonous lymphoblasts",
+    "Bone marrow core biopsy (H&E): 100% cellularity with marrow replaced by blasts, low and high power",
+    "H&E and IHC: blasts positive for CD79a and TdT, negative for CD34 (endothelium positive)",
+    "Flow cytometry: CD45-negative blasts positive for CD19 and CD10, largely CD34-negative, negative for CD5, CD13, CD20 and surface light chains"
+  ]
+}

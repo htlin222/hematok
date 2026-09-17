@@ -1,0 +1,37 @@
+{
+  "id": "112",
+  "recognize_zh": "小腸壁被一大塊單調、瀰漫成片的中型至大型淋巴瘤細胞取代，可見星空樣（starry-sky）易染體巨噬細胞、大量核分裂與凋亡小體；免疫染色顯示腫瘤多數細胞呈核染色，且 MYC 與 BCL2 斷裂分離（break-apart）FISH 皆出現紅綠訊號分開，支持 MYC 與 BCL2 雙重轉位（double-hit）。",
+  "features": [
+    "Diffuse, monotonous sheets of medium-to-large lymphoid cells effacing the bowel wall and dissecting between smooth muscle bundles",
+    "Round to slightly irregular nuclei with vesicular to finely granular chromatin and small, often multiple nucleoli; scant to moderate amphophilic cytoplasm",
+    "Brisk mitotic activity, numerous apoptotic bodies and scattered tingible-body macrophages (starry-sky pattern)",
+    "IHC: tumor cells show strong membranous staining for a B-cell/germinal-center-type marker, a high fraction of nuclear-positive cells, and only scattered small positive reactive cells on a T-cell-type stain (markers not labeled in images)",
+    "FISH: MYC break-apart probe with one fused and one split red/green signal pair; BCL2 break-apart probe likewise shows one fused and one split signal pair"
+  ],
+  "describe_en": "Sections of a resected small bowel/mesenteric mass show a large, transmural lymphoid neoplasm that underlies intact mucosa and infiltrates the muscularis propria. The tumor grows in diffuse sheets of monotonous medium-to-large cells with vesicular chromatin, small nucleoli, numerous mitoses and apoptotic bodies, and scattered tingible-body macrophages imparting a starry-sky appearance. Immunohistochemical stains (markers not labeled in the images) show a diffusely positive neoplastic B-cell population with a high proportion of nuclear-positive cells, while background small T cells are scattered. Dual-color break-apart FISH demonstrates split signals for both MYC and BCL2. Findings are consistent with high-grade B-cell lymphoma with MYC and BCL2 rearrangements (double-hit lymphoma).",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is more uniformly medium-sized, BCL2-negative or weak, has Ki-67 near 100%, and carries MYC rearrangement without a concurrent BCL2 rearrangement."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS (MYC/BCL2 double-expressor)", "vs": "Can look identical on H&E and IHC; only FISH separates them, as double-expressor DLBCL lacks concurrent MYC and BCL2 translocations."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid mantle cell lymphoma shares a blastoid, high-mitotic morphology but is CD5+ and cyclin D1/SOX11+ with t(11;14) and is usually CD10-negative."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Lymphoblastic lymphoma has finer, blastic chromatin and inconspicuous nucleoli and is TdT-positive, whereas double-hit lymphoma is a TdT-negative mature germinal-center B-cell neoplasm."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (markers not labeled); FISH MYC/BCL2 break-apart",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Scanning view: small bowel wall with intact mucosa overlying a large transmural lymphoid mass",
+    "Low power: diffuse monotonous sheets with scattered tingible-body macrophages (starry-sky)",
+    "Tumor cells infiltrating and dissecting muscularis propria smooth muscle bundles",
+    "Intermediate power: sheets of medium-to-large cells with starry-sky macrophages and mitoses",
+    "High power: vesicular chromatin, small nucleoli, numerous mitoses and apoptotic bodies",
+    "IHC (marker not labeled): strong membranous staining of most tumor cells",
+    "IHC (marker not labeled): scattered positive small reactive cells; tumor cells negative",
+    "IHC (marker not labeled): weaker membranous staining across the tumor cells",
+    "IHC (nuclear marker, not labeled): majority of tumor nuclei positive with variable intensity",
+    "IHC (marker not labeled): diffuse strong membranous/cytoplasmic staining in nearly all tumor cells",
+    "IHC (marker not labeled): nuclear and cytoplasmic staining in nearly all tumor cells",
+    "IHC (marker not labeled): weak, patchy staining; most tumor cells largely negative",
+    "FISH: MYC and BCL2 break-apart probes each showing one fused and one split red/green signal, indicating rearrangement of both genes"
+  ]
+}

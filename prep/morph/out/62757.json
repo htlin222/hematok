@@ -1,0 +1,22 @@
+{
+  "id": "62757",
+  "recognize_zh": "周邊血液出現單核、細胞質帶紫色顆粒且有尾狀突起的不典型肥大細胞；骨髓切片被瀰漫陽性的肥大細胞免疫染色取代；抹片另見吞噬血球的巨噬細胞，符合肥大細胞白血病合併噬血現象。",
+  "features": [
+    "Circulating atypical mononuclear cells with basophilic cytoplasm, sparse purple granules and cytoplasmic tail-like projections; neutrophil for comparison (A)",
+    "Bone marrow biopsy diffusely replaced by cells with strong cytoplasmic immunostaining (B; mast cell marker, not labeled)",
+    "Atypical mast cell with oval nucleus, hypogranular vacuolated cytoplasm and a unipolar cytoplasmic process (C)",
+    "Macrophage containing engulfed nucleated cell/red cells, indicating hemophagocytosis (D)",
+    "Rouleaux-like red cell stacking in background (C, D)"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating atypical mononuclear cells with basophilic, partially hypogranular cytoplasm containing scattered purple metachromatic granules and tail-like cytoplasmic projections. The bone marrow biopsy is diffusely effaced by cells showing strong cytoplasmic immunoreactivity for a mast cell marker (antibody not labeled). Aspirate smears show atypical hypogranular mast cells with vacuolated cytoplasm and a macrophage containing phagocytosed hematopoietic cells. Findings are consistent with mast cell leukemia accompanied by hemophagocytosis, arising in a patient with myelodysplastic syndrome; quantitation of mast cells (≥20% on aspirate) and tryptase, CD117, CD25 and KIT D816V studies are required.",
+  "ddx": [
+    {"dx": "Basophilic leukemia / chronic myeloid leukemia with basophilia", "vs": "Basophils have lobulated nuclei with coarse granules obscuring the nucleus, are tryptase-negative or weak and CD117-negative, and CML is BCR-ABL1 positive."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monoblasts lack metachromatic granules and tryptase/CD117 co-expression and are CD14/CD64 positive."},
+    {"dx": "Myelomastocytic leukemia", "vs": "Myelomastocytic leukemia has increased myeloblasts with metachromatic cells but does not meet criteria for systemic mastocytosis (no CD25 aberrancy, no KIT D816V, no compact aggregates)."},
+    {"dx": "Hemophagocytic lymphohistiocytosis (primary or infection-associated)", "vs": "HLH shows hemophagocytic macrophages without an infiltrate of neoplastic tryptase/CD117-positive mast cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; IHC (mast cell marker)",
+  "match": "consistent",
+  "high_yield": false
+}

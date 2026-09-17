@@ -1,0 +1,22 @@
+{
+  "id": "3028",
+  "recognize_zh": "骨髓抹片中大量形態一致的中型芽細胞，核質比極高、細胞質極少、染色質均勻細緻、核仁不明顯，細胞質內沒有顆粒或 Auer 小體，符合兒童前 B 淋巴芽細胞白血病（pre-B ALL）。",
+  "features": [
+    "Monotonous population of small-to-medium blasts, about 1.5-2 times RBC diameter",
+    "Very high N:C ratio with only a thin rim of cytoplasm",
+    "Round to slightly irregular nuclei with homogeneous, finely dispersed chromatin",
+    "Nucleoli inconspicuous; no cytoplasmic granules or Auer rods",
+    "Occasional dark peripheral staining artifact at cell borders; few residual myeloid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a predominance of monotonous small-to-medium sized blasts that replace normal hematopoietic elements. The blasts have a very high N:C ratio, scant agranular cytoplasm, round to slightly indented nuclei with finely dispersed homogeneous chromatin, and inconspicuous nucleoli. No Auer rods are seen; a few residual myeloid cells are present at the periphery of the field. Findings are consistent with acute lymphoblastic leukemia; flow cytometry is required to confirm B-lineage (CD19, CD10, TdT) and to exclude myeloid blasts.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 blasts can be agranular but typically are larger with more cytoplasm and nucleoli, and lack B-cell markers while expressing CD13/CD33/CD117."},
+    {"dx": "Hematogones", "vs": "Hematogones are a heterogeneous maturing B-cell continuum with smudged chromatin and orderly antigen expression on flow, not a marrow-replacing monotonous blast population."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and are surface-immunoglobulin positive and TdT negative."},
+    {"dx": "Metastatic small round blue cell tumor (neuroblastoma)", "vs": "Neuroblastoma forms clusters or rosettes and is CD45-negative, whereas ALL blasts are dispersed and CD45 dim/positive with TdT."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

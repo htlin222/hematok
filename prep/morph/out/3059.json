@@ -1,0 +1,20 @@
+{
+  "id": "3059",
+  "recognize_zh": "這是極低倍數的周邊血抹片，紅血球分布均勻、大小形狀看起來一致，看不到鐮刀型或標靶細胞；此解析度無法辨識細部形態，HbS/HPFH 的診斷需靠血紅素電泳/HPLC 與 HbF 分布（pancellular）而非形態。",
+  "features": [
+    "Very low-power field of evenly spread red cells of fairly uniform size",
+    "No sickle cells, target cells or red cell fragments discernible at this magnification",
+    "Very few leukocytes and platelets visible",
+    "Resolution does not allow assessment of fine red cell morphology or inclusions"
+  ],
+  "describe_en": "Low-power view of a peripheral blood smear shows a well-spread monolayer of red cells of relatively uniform size and shape, with sparse leukocytes and platelets. No sickle cells, target cells or schistocytes are recognizable at this magnification, although fine morphologic detail cannot be assessed. The paucity of sickled forms is in keeping with compound heterozygosity for hemoglobin S and hereditary persistence of fetal hemoglobin, in which pancellular HbF inhibits polymerization; the diagnosis requires hemoglobin HPLC/electrophoresis and HbF distribution studies rather than morphology.",
+  "ddx": [
+    {"dx": "Sickle cell anemia (HbSS)", "vs": "HbSS smears show irreversibly sickled cells, target cells, polychromasia and Howell-Jolly bodies, which are not seen here."},
+    {"dx": "HbS-beta+ thalassemia", "vs": "S-beta thalassemia shows microcytosis, hypochromia and target cells with HbA2 elevation, whereas S/HPFH is normocytic with high pancellular HbF."},
+    {"dx": "Sickle cell trait (HbAS)", "vs": "Both have a near-normal smear; HPLC shows HbA present in AS but absent with high HbF in S/HPFH."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

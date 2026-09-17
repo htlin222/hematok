@@ -1,0 +1,21 @@
+{
+  "id": "62018",
+  "recognize_zh": "骨髓切片 CD34 免疫染色中，只有少數散在的單顆陽性細胞與血管內皮著色，沒有陽性母細胞成群或成片；表示母細胞未增加（<5%），符合 MDS-RS 而非高風險 MDS 或急性白血病。",
+  "features": [
+    "Hypercellular marrow with numerous negative hematopoietic cells between fat spaces",
+    "Only rare scattered single CD34-positive mononuclear cells",
+    "No clusters or aggregates of CD34-positive blasts",
+    "Positive internal control staining of endothelial cells lining small vessels/sinusoids",
+    "Faint granular staining in a megakaryocyte-like cell"
+  ],
+  "describe_en": "CD34 immunohistochemical stain of the bone marrow core biopsy shows a cellular marrow with only rare scattered single CD34-positive cells, estimated at well below 5% of cellularity in this field. There are no clusters or sheets of CD34-positive blasts. Endothelial cells of small vessels are positive, serving as an internal control. The findings indicate no increase in blasts, supporting a lower-risk myelodysplastic neoplasm such as MDS with ring sideroblasts and multilineage dysplasia in the appropriate context.",
+  "ddx": [
+    {"dx": "MDS with excess blasts", "vs": "MDS-EB shows increased CD34+ blasts (5-19% in marrow), often in clusters or abnormal localization, unlike the rare single cells here."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML shows sheets of CD34+ blasts (≥20%), not seen in this field."},
+    {"dx": "Reactive/regenerative marrow", "vs": "CD34 alone cannot separate them; dysplasia, ring sideroblasts, and cytogenetic/SF3B1 findings are required."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

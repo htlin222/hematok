@@ -1,0 +1,22 @@
+{
+  "id": "12693",
+  "recognize_zh": "四格周邊血中的單核球／巨噬細胞細胞質內含深黑褐色的瘧色素顆粒（hemozoin），左下一顆細胞還吞入了帶有被寄生紅血球殘影的空泡；從非洲返國的發燒病人出現周邊血吞噬現象，應積極尋找瘧原蟲。",
+  "features": [
+    "Monocytes/macrophages with abundant blue-grey cytoplasm containing dark brown-black hemozoin (malaria pigment) granules",
+    "One monocyte contains a vacuole with an engulfed red cell remnant (erythrophagocytosis)",
+    "One monocyte contains a dense dark round phagocytosed body",
+    "A neutrophil in one panel without visible pigment",
+    "Red cells show mild anisocytosis; intraerythrocytic parasites are not clearly identified in these fields"
+  ],
+  "describe_en": "Peripheral blood smear shows several circulating monocytes with abundant basophilic cytoplasm containing dark brown-black pigment granules consistent with hemozoin, and monocytes with phagocytosed material, including an engulfed red cell within a cytoplasmic vacuole. A neutrophil without pigment is also present. Intraerythrocytic parasites are not clearly seen in the fields shown. Pigment-laden and erythrophagocytic monocytes in a febrile traveler returning from an endemic area are consistent with malaria (typically Plasmodium falciparum); thick and thin smears, rapid antigen testing, and parasitemia quantification are required, and severe infection should prompt assessment for secondary hemophagocytic syndrome.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis (other causes)", "vs": "HLH-related phagocytes lack hemozoin pigment and parasites, and HLH is defined by clinical criteria such as ferritin and soluble CD25."},
+    {"dx": "Babesiosis", "vs": "Babesia forms intraerythrocytic rings and tetrads without producing hemozoin pigment."},
+    {"dx": "Stain precipitate overlying leukocytes", "vs": "Precipitate is extracellular, lies in a different focal plane and is not confined to phagocyte cytoplasm."},
+    {"dx": "Histoplasma or Leishmania in monocytes", "vs": "These organisms appear as small oval yeasts or amastigotes with a nucleus (and kinetoplast for Leishmania) rather than refractile brown-black pigment."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

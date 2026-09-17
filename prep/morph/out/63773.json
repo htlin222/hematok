@@ -1,0 +1,22 @@
+{
+  "id": "63773",
+  "recognize_zh": "這是影像學圖片而非形態學：左為矢狀面 CT、右為融合 PET-CT，脊椎多個椎體內出現局部高代謝（黃亮）病灶，代表多發性骨髓病灶，需再以骨髓切片確認病因。",
+  "features": [
+    "Sagittal CT (left) and fused PET-CT MPR (right) of the head, neck and trunk",
+    "Multiple discrete foci of increased FDG uptake within thoracic and lumbar vertebral bodies on the fused image",
+    "Additional hypermetabolic foci anterior to the lumbar spine in the abdomen, of uncertain site at this resolution",
+    "Corresponding CT shows no obvious destructive or sclerotic vertebral lesion at this resolution",
+    "Physiologic brain uptake at the top of the fused image"
+  ],
+  "describe_en": "This is a non-morphologic radiology image showing paired sagittal CT and fused FDG PET-CT reconstructions. The fused image demonstrates multiple discrete hypermetabolic foci within the thoracic and lumbar vertebral bodies, with additional hypermetabolic foci in the abdomen anterior to the spine, while the CT window shows no obvious corresponding lytic or sclerotic change at this resolution. Multifocal FDG-avid marrow lesions are nonspecific and may reflect granulomatous infection, lymphoma, myeloma or metastatic disease; tissue sampling is required. In this case context, the findings are consistent with multifocal marrow involvement by a granulomatous (tubercular) process.",
+  "ddx": [
+    {"dx": "Lymphoma involving marrow", "vs": "PET pattern can be identical, so bone marrow or nodal biopsy showing lymphoma rather than necrotizing granulomas with acid-fast bacilli is required."},
+    {"dx": "Metastatic carcinoma", "vs": "Metastases are often associated with a known primary and lytic or sclerotic CT changes, and biopsy shows cohesive keratin-positive epithelial clusters."},
+    {"dx": "Multiple myeloma", "vs": "Myeloma typically shows punched-out lytic lesions on CT with a serum/urine M-protein and clonal plasma cells on marrow biopsy."},
+    {"dx": "Reactive diffuse marrow hyperplasia (e.g. G-CSF effect)", "vs": "Growth-factor or reactive uptake is diffuse and homogeneous throughout the axial marrow rather than discrete focal lesions."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

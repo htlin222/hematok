@@ -1,0 +1,22 @@
+{
+  "id": "2420",
+  "recognize_zh": "血片中多個異常細胞的核有摺痕或呈雙葉狀，細胞質帶細小、稀疏的顆粒而非粗大顆粒，高核質比，這種核型態搭配缺乏明顯顆粒的細胞質要想到低顆粒型 APL（M3v）。",
+  "features": [
+    "Medium to large cells with high to moderate N:C ratio",
+    "Nuclei folded, indented or bilobed with overlapping lobes",
+    "Fine, delicate chromatin; small inconspicuous nucleoli",
+    "Basophilic to gray-blue cytoplasm with very fine, sparse granules; some cells appear agranular",
+    "Irregular cytoplasmic borders with small blebs",
+    "Background red cells without significant poikilocytosis; platelets sparse"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous atypical medium-to-large cells with folded, indented to bilobed nuclei, fine chromatin, and inconspicuous nucleoli. The cytoplasm is moderately basophilic with only fine, sparse granules, and several cells appear nearly agranular; Auer rods are not evident in this field. Platelets are sparse. Findings are suggestive of the hypogranular (microgranular) variant of acute promyelocytic leukemia; PML::RARA testing and DIC screening should be performed urgently.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Promonocytes have folded nuclei but more abundant gray cytoplasm with vacuoles and are NSE positive, MPO weak, and often HLA-DR positive, unlike APL."},
+    {"dx": "Acute myelomonocytic leukemia with inv(16)", "vs": "AML with inv(16) shows myelomonocytic blasts plus abnormal eosinophils with basophilic granules and is CBFB::MYH11 positive rather than PML::RARA."},
+    {"dx": "Sézary syndrome/large cell T-lymphoma in blood", "vs": "Sézary cells have convoluted cerebriform nuclei with dense chromatin and are MPO negative, CD4 positive by flow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

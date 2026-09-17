@@ -1,0 +1,30 @@
+{
+  "id": "10",
+  "recognize_zh": "芽細胞具豐富嗜鹼性細胞質、明顯核旁淡染區（perinuclear hof）與細小嗜天青顆粒，流式顯示 CD34 亮陽性、CD19 部分陽性且 CD33 偏弱，核型圖箭頭標示 8 號與 21 號染色體的轉位，符合 t(8;21) AML。",
+  "features": [
+    "Large blasts with moderate-to-abundant basophilic cytoplasm, round to slightly indented nuclei and fine chromatin with nucleoli",
+    "Prominent perinuclear clearing (Golgi hof) and fine azurophilic granules in many blasts",
+    "Scattered maturing granulocytic cells and occasional dysplastic neutrophil in the aspirate",
+    "Flow: CD45-dim blasts, bright CD34, CD13+, weak/negative CD33, partial CD19, partial CD117 and CD15",
+    "Karyotype: arrows on chromosomes 8 and 21 indicating the balanced t(8;21)(q22;q22.1)"
+  ],
+  "describe_en": "Bone marrow aspirate shows increased large blasts with abundant basophilic cytoplasm, conspicuous perinuclear hofs and fine azurophilic granules, admixed with maturing granulocytes including occasional dysplastic forms; similar blasts circulate in the peripheral blood. Flow cytometry demonstrates a CD45-dim population that is CD34 bright, CD13 positive, CD33 weak, with partial CD19, CD117 and CD15 expression. G-banded karyotype shows a translocation involving chromosomes 8 and 21 (arrows). Findings are consistent with acute myeloid leukemia with t(8;21)(q22;q22.1); RUNX1::RUNX1T1, which qualifies as AML irrespective of blast percentage.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with maturation (not otherwise specified)", "vs": "May look similar, but lacks the characteristic salmon-pink granules/hofs, aberrant CD19 with weak CD33, and the t(8;21) on karyotype."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells have bilobed nuclei or heavy granules with bundles of Auer rods and are typically CD34 and HLA-DR negative, unlike these CD34-bright blasts."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "CD19 in t(8;21) is usually dim without strong CD79a/CD22/CD10, and the defining translocation takes precedence over an MPAL diagnosis."},
+    {"dx": "Acute myeloid leukemia with inv(16)", "vs": "Also core-binding factor AML, but shows monocytic differentiation and abnormal eosinophils with large basophilic granules rather than hof-rich granulocytic blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; flow cytometry; G-banded karyotype",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Bone marrow aspirate: cluster of blasts with perinuclear hofs and fine granules",
+    "Single blast with basophilic cytoplasm, Golgi hof and fine azurophilic granules",
+    "Blasts with abundant basophilic, finely granular cytoplasm",
+    "Peripheral blood: circulating blasts",
+    "Flow cytometry: CD34 bright, partial CD19, weak CD33 blasts (red)",
+    "Karyotype with arrows marking the der(8) and der(21) of t(8;21)"
+  ]
+}

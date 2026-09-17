@@ -1,0 +1,22 @@
+{
+  "id": "3235",
+  "recognize_zh": "胸水抹片中見一顆含五個核的大型漿細胞，細胞質深藍、核染色質較細緻開放，旁邊兩顆單核細胞也有偏心核與深藍細胞質，顯示不成熟、多核的腫瘤性漿細胞。",
+  "features": [
+    "Large multinucleated plasma cell with five separate round nuclei",
+    "Abundant, deeply basophilic cytoplasm with a paler central zone",
+    "Nuclei with relatively fine, open chromatin rather than clock-face clumping",
+    "Two adjacent mononuclear plasmacytoid cells with eccentric nuclei and basophilic cytoplasm; one with a small vacuole",
+    "Clean body-fluid background with scattered red cells and echinocytes"
+  ],
+  "describe_en": "Cytospin preparation of pleural fluid shows atypical plasma cells, including a large multinucleated form with five round nuclei embedded in abundant deeply basophilic cytoplasm. The nuclei have relatively fine chromatin, indicating immaturity. Two adjacent mononuclear cells show eccentric nuclei and basophilic cytoplasm consistent with plasma cells. Findings are consistent with a malignant pleural effusion involved by a plasma cell neoplasm (myelomatous effusion); confirmation with CD138 and light-chain restriction studies is recommended.",
+  "ddx": [
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells have central nuclei, dense two-tone cytoplasm with a peripheral brush border or windows and are calretinin+ CD138-, not eccentric nuclei with a perinuclear hof."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive three-dimensional clusters and is keratin+, whereas these cells are discohesive plasmacytoid cells with basophilic cytoplasm."},
+    {"dx": "Plasmablastic lymphoma / DLBCL with plasmacytic differentiation", "vs": "Plasmablastic lymphoma shows larger blasts with prominent central nucleoli, high Ki-67 and often EBER positivity, and lacks a clinical myeloma context."},
+    {"dx": "Reactive plasmacytosis in effusion", "vs": "Reactive plasma cells are mature, mononuclear and polytypic, whereas multinucleation and immature chromatin favor neoplasia."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

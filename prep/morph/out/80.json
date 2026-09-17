@@ -1,0 +1,30 @@
+{
+  "id": "80",
+  "recognize_zh": "淋巴結竇內擴張，充滿大型組織球，細胞質豐富淡染、核圓且泡狀、核仁明顯，細胞質內可見多個完整的淋巴球與漿細胞被包住（伸入運動 emperipolesis）；S100 染色使大型組織球呈陽性並勾勒出其內被吞入的淋巴球，典型的 Rosai-Dorfman 病。",
+  "features": [
+    "Low power: lymph node with dilated sinuses filled by pale-staining histiocytes, contrasting with dark lymphocyte-rich medullary cords",
+    "Very large histiocytes with abundant pale eosinophilic to foamy cytoplasm and indistinct cell borders",
+    "Round to oval vesicular nuclei with a single distinct nucleolus and minimal atypia",
+    "Emperipolesis: multiple intact lymphocytes and plasma cells, some surrounded by a clear halo, within histiocyte cytoplasm",
+    "Background of numerous plasma cells, lymphocytes and occasional neutrophils",
+    "S100 IHC: strong nuclear and cytoplasmic staining of the large histiocytes, outlining engulfed unstained lymphocytes"
+  ],
+  "describe_en": "Sections of the cervical lymph node show marked sinus expansion by sheets of pale-staining histiocytes separating lymphoplasmacytic cords. At high power, the histiocytes are very large with abundant pale eosinophilic cytoplasm and round vesicular nuclei with distinct nucleoli, without significant atypia or mitotic activity. Many histiocytes contain intact lymphocytes and plasma cells within their cytoplasm (emperipolesis), and the background contains numerous plasma cells. S100 immunostain is strongly positive in the large histiocytes and highlights the engulfed, unstained lymphocytes. Findings are consistent with Rosai-Dorfman disease, nodal type.",
+  "ddx": [
+    {"dx": "Reactive sinus histiocytosis", "vs": "Reactive sinus histiocytes are smaller, lack conspicuous emperipolesis and are S100-negative, whereas Rosai-Dorfman histiocytes are large, show emperipolesis and are S100-positive."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are smaller with grooved, coffee-bean nuclei, accompanied by eosinophils, and express CD1a and langerin, whereas Rosai-Dorfman histiocytes have round nuclei, emperipolesis and are CD1a-negative."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH histiocytes phagocytose erythrocytes and degenerated cells and are S100-negative, whereas emperipolesis in RDD involves intact viable lymphocytes and plasma cells within S100-positive histiocytes."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells have huge eosinophilic macronucleoli and are CD30/CD15-positive in a mixed background, whereas RDD histiocytes have small nucleoli, emperipolesis and S100 positivity."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: S100",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E low power: lymph node with dilated sinuses filled with pale histiocytes between lymphoid cords",
+    "H&E high power: large histiocyte containing a cluster of intact lymphocytes (emperipolesis)",
+    "H&E high power: numerous large pale histiocytes with vesicular nuclei, several showing emperipolesis",
+    "H&E high power: histiocytes engulfing multiple lymphocytes and plasma cells, with background plasma cells",
+    "S100 IHC: large positive histiocyte outlining engulfed unstained lymphocytes"
+  ]
+}

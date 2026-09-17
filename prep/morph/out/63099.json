@@ -1,0 +1,22 @@
+{
+  "id": "63099",
+  "recognize_zh": "A 圖腦脊髓液中見一團核質比高、染色質細緻、細胞質布滿透明空泡的母細胞樣細胞（白血病侵犯腦膜）；B 圖則以分葉核嗜中性球為主並夾雜泡沫狀巨噬細胞，符合藥物引起的無菌性腦膜炎反應。",
+  "features": [
+    "Panel A: cluster of medium-to-large mononuclear cells with high N:C ratio and molded round-to-indented nuclei",
+    "Panel A: fine chromatin and abundant, sharply punched-out clear cytoplasmic vacuoles at the cell periphery",
+    "Panel B: mixed cellularity dominated by segmented neutrophils",
+    "Panel B: vacuolated macrophages/monocytes and scattered red cells; no vacuolated blast clusters",
+    "No microorganisms visible in either panel"
+  ],
+  "describe_en": "Two cytospin preparations of cerebrospinal fluid are shown. Panel A shows a cohesive-appearing cluster of immature mononuclear cells with high N:C ratios, fine chromatin and prominent peripheral cytoplasmic vacuoles, consistent with CSF involvement by the patient's known lymphoblastic leukemia. Panel B shows a neutrophil-predominant pleocytosis with admixed vacuolated macrophages and red cells, without an evident blast population or organisms. In the clinical setting, panel B supports a drug-induced aseptic meningitis superimposed on prior meningeal leukemia; microbiologic cultures are required to exclude infection.",
+  "ddx": [
+    {"dx": "Bacterial meningitis", "vs": "Also neutrophil-predominant, but shows organisms on Gram stain/culture with low glucose, whereas drug-induced aseptic meningitis is culture-negative."},
+    {"dx": "Reactive vacuolated monocytes/macrophages", "vs": "Macrophages have lower N:C ratio, reniform nuclei, abundant gray-blue cytoplasm and phagocytosed debris, unlike the high N:C blasts of panel A."},
+    {"dx": "Burkitt lymphoma/leukemia CSF involvement", "vs": "Burkitt cells have deeply basophilic cytoplasm with vacuoles and a mature B (CD10+, TdT-negative, sIg+) phenotype, versus TdT+ Ph-positive B-lymphoblasts."},
+    {"dx": "Traumatic tap with blood contamination", "vs": "Peripheral blood contamination yields leukocytes proportional to red cells, not a disproportionate neutrophilic pleocytosis."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa (cytospin)",
+  "match": "consistent",
+  "high_yield": false
+}

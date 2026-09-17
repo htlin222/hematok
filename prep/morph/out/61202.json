@@ -1,0 +1,30 @@
+{
+ "id": "61202",
+ "recognize_zh": "血液抹片下方有一顆巨大血小板，大小與周圍紅血球相當，中央有紫紅色顆粒區、周邊為淡染透明區，旁邊中性球顆粒正常，這種紅血球大小的巨血小板是 Bernard-Soulier 症候群的典型表現。",
+ "features": [
+  "Giant platelet approximately the size of adjacent red cells",
+  "Clustered central purple granules (granulomere) with a pale gray peripheral hyalomere",
+  "Band/segmented neutrophil with normal cytoplasmic granulation and no visible Döhle-like inclusions",
+  "Normocytic, normochromic red cells with central pallor",
+  "Low-resolution, enlarged image limits fine granule detail"
+ ],
+ "describe_en": "Peripheral blood smear at high magnification shows a giant platelet comparable in size to the surrounding red cells, with a central aggregate of purple granules and a pale hyalomere. An adjacent neutrophil shows normal granulation without Döhle-like inclusions, and red cells are normocytic and normochromic. No platelet clumping is present in this field. Findings are consistent with macrothrombocytopenia as seen in Bernard-Soulier syndrome, confirmed by absent ristocetin-induced platelet agglutination that does not correct with normal plasma and decreased CD42b/CD42a expression by flow cytometry.",
+ "ddx": [
+  {
+   "dx": "MYH9-related disorder",
+   "vs": "Giant platelets occur with Döhle-like inclusions in neutrophils and normal ristocetin agglutination."
+  },
+  {
+   "dx": "Platelet-type (pseudo) von Willebrand disease",
+   "vs": "Also shows large platelets and thrombocytopenia but has enhanced, not absent, low-dose ristocetin-induced aggregation due to gain-of-function GPIBA variants."
+  },
+  {
+   "dx": "Gray platelet syndrome",
+   "vs": "Large platelets are pale and agranular rather than containing a well-granulated granulomere."
+  }
+ ],
+ "specimen": "PB",
+ "stain": "Wright-Giemsa",
+ "match": "consistent",
+ "high_yield": true
+}

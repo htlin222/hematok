@@ -1,0 +1,22 @@
+{
+  "id": "62423",
+  "recognize_zh": "抹片薄邊處兩顆白血球：上方嗜中性球雙葉核、細胞質佈滿粗大深紫色毒性顆粒（toxic granulation）；下方細胞核圓至腎形、細胞質淡而帶顆粒與小空泡——這些反應性變化提示感染或發炎（如敗血症）。",
+  "features": [
+    "Neutrophil with bilobed nucleus and cytoplasm filled with coarse, dark purple toxic granules",
+    "Second cell (monocyte-like) with round to reniform nucleus and pale cytoplasm containing coarse granules and fine vacuoles",
+    "Cytoplasmic vacuolization in the leukocytes",
+    "Red cells at the thin feathered edge with crenation/drying artifact",
+    "No blasts or intracellular organisms clearly identified in this field"
+  ],
+  "describe_en": "Peripheral blood smear, photographed near the feathered edge, shows two leukocytes with prominent reactive changes. A neutrophil contains abundant coarse, dark toxic granules, and an adjacent monocyte-like cell has a round to reniform nucleus with pale, granular and finely vacuolated cytoplasm. Red cells show crenation related to the thin edge of the smear. No organisms are identified in this field. Findings are consistent with reactive leukocyte changes (toxic granulation and cytoplasmic vacuolization), suggestive of infection or systemic inflammation such as sepsis.",
+  "ddx": [
+    {"dx": "G-CSF effect", "vs": "Growth factor therapy produces identical toxic granulation and Döhle bodies, so drug history is needed to separate it from sepsis."},
+    {"dx": "Alder-Reilly anomaly", "vs": "Alder-Reilly granules are present in all leukocyte lineages including lymphocytes and are not accompanied by vacuolization or clinical infection."},
+    {"dx": "Storage artifact (EDTA vacuolization)", "vs": "Prolonged EDTA storage causes neutrophil vacuoles without toxic granulation, so a fresh smear resolves the question."},
+    {"dx": "Hypergranular promyelocyte or myelocyte", "vs": "Promyelocytes and myelocytes have round nuclei with nucleoli or less condensed chromatin, whereas these cells have mature segmented or reniform nuclei."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

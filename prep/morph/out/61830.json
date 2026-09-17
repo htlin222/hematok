@@ -1,0 +1,22 @@
+{
+  "id": "61830",
+  "recognize_zh": "CD163 在大多數大型多形腫瘤細胞呈強烈的膜與細胞質陽性，上方一區小型細胞則陰性；CD163 是較專一的組織球/巨噬細胞標記，強陽性支持組織球肉瘤。",
+  "features": [
+    "Sheets of large pleomorphic cells with abundant cytoplasm",
+    "Strong membranous and cytoplasmic CD163 staining in the majority of tumor cells",
+    "Round to irregular nuclei with occasional large bizarre forms outlined by stain",
+    "Adjacent zone of smaller CD163-negative cells at the top of the field",
+    "Loose, discohesive growth pattern"
+  ],
+  "describe_en": "Immunohistochemical stain for CD163 shows strong, diffuse membranous and cytoplasmic positivity in sheets of large, discohesive, pleomorphic neoplastic cells, with an adjacent area of smaller negative cells. CD163 is a hemoglobin-haptoglobin scavenger receptor that is more specific for monocyte/macrophage lineage than CD68. Together with CD68 and PU.1 expression and absence of B-, T-, dendritic, myeloid precursor, melanocytic, and epithelial markers, findings are consistent with histiocytic sarcoma.",
+  "ddx": [
+    {"dx": "Tumor-associated macrophages in carcinoma or lymphoma", "vs": "Background macrophages are scattered and cytologically bland, whereas here the atypical tumor cells themselves are diffusely CD163 positive."},
+    {"dx": "Langerhans cell sarcoma", "vs": "LC sarcoma is CD1a+/Langerin+ and usually CD163 negative or weak."},
+    {"dx": "Follicular dendritic cell sarcoma", "vs": "FDC sarcoma is CD21/CD23/CD35 positive with a spindled whorled pattern rather than CD163-positive large round cells."},
+    {"dx": "Acute monocytic leukemia / myeloid sarcoma", "vs": "Monocytic blasts can express CD163 but have finer blastic chromatin, and a concurrent marrow or blood leukemia with CD34/CD117 or lysozyme profile supports myeloid sarcoma."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD163",
+  "match": "consistent",
+  "high_yield": false
+}

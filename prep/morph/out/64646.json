@@ -1,0 +1,22 @@
+{
+  "id": "64646",
+  "recognize_zh": "淋巴結濾泡間區被中等大小、細胞質透明的淋巴細胞浸潤（A 插圖），並表現 CD3、異常 CD20 與 PD-1、ICOS 等 TFH 標記（B–E）；另一群小而圓、染色質細的母細胞樣細胞呈 CD4/CD8 雙陽性且 TdT 陽性、成片聚集（F–J），代表合併惰性 T 淋巴母細胞增生（iT-LBP）。",
+  "features": [
+    "Panel A: lymph node with a residual follicle and expanded interfollicular zone containing medium-sized atypical lymphocytes with clear cytoplasm (inset), with prominent small vessels",
+    "Panels B-E: neoplastic cells show membranous CD3, aberrant CD20, and TFH markers PD-1 and ICOS",
+    "Panel F: second patchy component of small-to-medium round blastoid lymphocytes with fine chromatin and scant cytoplasm around high endothelial venules",
+    "Panels G-I: blastoid component shows dim CD5 with CD4 and CD8 co-expression (double-positive)",
+    "Panel J: TdT highlights a discrete aggregate of nuclear-positive cells in an interfollicular region at low power"
+  ],
+  "describe_en": "Lymph node sections show partial effacement by an interfollicular infiltrate of medium-sized atypical lymphocytes with clear cytoplasm, admixed with arborizing small vessels and a residual follicle. The atypical cells express CD3 and aberrant CD20 and are positive for the TFH markers PD-1 and ICOS. A second, patchy population of small-to-medium blastoid lymphocytes with fine chromatin and scant cytoplasm is present in interfollicular areas; these cells show dim CD5, dual CD4/CD8 expression and nuclear TdT, forming discrete aggregates rather than sheets. Findings are consistent with nodal peripheral T-cell lymphoma of T-follicular helper phenotype with an associated indolent T-lymphoblastic proliferation; clonality studies of the TdT-positive component help exclude T-lymphoblastic lymphoma.",
+  "ddx": [
+    {"dx": "T-lymphoblastic lymphoma/leukemia", "vs": "T-LBL forms confluent sheets effacing the node with clonal TCR rearrangement and a mediastinal/marrow presentation, whereas iT-LBP forms small nonclonal interfollicular TdT+ clusters."},
+    {"dx": "Thymoma or ectopic thymic tissue", "vs": "Thymic TdT+ CD4/CD8 double-positive T cells are accompanied by a keratin-positive epithelial meshwork, which is not present in this node."},
+    {"dx": "Reactive paracortical hyperplasia", "vs": "Reactive paracortex lacks clear-cell atypical lymphocytes with aberrant CD20 and coordinated PD-1/ICOS/CXCL13 expression, and lacks TdT+ blast aggregates."},
+    {"dx": "Classic Hodgkin lymphoma or EBV+ large B-cell proliferation", "vs": "These are defined by CD30+ CD15+ Hodgkin cells or EBV+ large B cells, whereas the dominant population here is CD3+ TFH-phenotype T cells with only scattered EBV+ cells."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD3, CD20, PD-1, ICOS, CD5, CD4, CD8, TdT",
+  "match": "consistent",
+  "high_yield": false
+}

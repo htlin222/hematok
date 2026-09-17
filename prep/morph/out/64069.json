@@ -1,0 +1,22 @@
+{
+  "id": "64069",
+  "recognize_zh": "周邊血抹片中可見多個兩端尖細、呈新月或鐮刀狀的紅血球（紅色箭頭），與正常圓盤狀紅血球（藍色箭頭）對比，另有標靶細胞（target cell）與一顆分葉核嗜中性球（黃色箭頭），符合鐮刀型紅血球貧血。",
+  "features": [
+    "Several elongated, crescent-shaped sickle cells (drepanocytes) with pointed ends (red arrow and others)",
+    "Scattered target cells (codocytes) and occasional oval/boat-shaped forms",
+    "Normal biconcave red cell with central pallor for comparison (blue arrow)",
+    "Occasional red cell with a small dark inclusion suggestive of a Howell-Jolly body (functional asplenia)",
+    "Segmented neutrophil (yellow arrow); smudged/crushed cell at left and small platelet clumps"
+  ],
+  "describe_en": "Peripheral blood smear shows anisopoikilocytosis with numerous irreversibly sickled cells characterized by elongated, crescent shapes with pointed ends, along with target cells and occasional boat-shaped cells. A normal discocyte is labeled for comparison, and a small inclusion suggestive of a Howell-Jolly body is noted, consistent with functional asplenia. A segmented neutrophil and a smudged cell are present, and platelets are seen in small clumps. Findings are consistent with sickle cell disease; hemoglobin electrophoresis or HPLC is required to distinguish HbSS from compound heterozygous states.",
+  "ddx": [
+    {"dx": "Hemoglobin SC disease", "vs": "HbSC shows fewer classic sickles and more target cells with blunt, crystal-containing 'folded' or 'Washington monument' cells, confirmed by electrophoresis."},
+    {"dx": "Sickle cell trait (HbAS)", "vs": "Sickle trait does not show sickled cells on routine smears under normal oxygenation, and HbS is less than 50% on electrophoresis."},
+    {"dx": "Hereditary elliptocytosis", "vs": "Elliptocytes are oval with rounded blunt ends and uniform shape rather than crescent-shaped cells with pointed ends."},
+    {"dx": "Sickle cell/beta-thalassemia", "vs": "Sickle beta-thalassemia shows sickle cells with prominent microcytosis and hypochromia and requires HPLC with HbA2 quantitation for distinction."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61519",
+  "recognize_zh": "箭頭指出的兩顆細胞是有核紅血球（NRBC）：核小而圓、染色質濃縮深染，外圍有一圈灰藍到淡粉紅的細胞質，大小接近紅血球；背景紅血球多呈圓鋸齒狀，並散佈粉紫色顆粒狀沉澱，染色品質欠佳。",
+  "features": [
+    "Two arrowed nucleated red cells with small, round, dense pyknotic nuclei and a rim of pale gray to pink cytoplasm",
+    "NRBC size comparable to or slightly larger than surrounding red cells, consistent with orthochromatic normoblasts",
+    "Background red cells show crenation (echinocytic change) and variable size",
+    "Some red cells show increased central pallor",
+    "Abundant pink-purple granular stain precipitate or platelet debris in the background; suboptimal staining quality"
+  ],
+  "describe_en": "Peripheral blood smear shows two nucleated red cells (arrows) with small, round, dense nuclei and a rim of gray to pink cytoplasm, consistent with orthochromatic normoblasts. The background red cells show anisocytosis, some increased central pallor, and diffuse crenation that likely reflects slide preparation artifact. Abundant granular precipitate limits evaluation of platelets and fine red cell inclusions. When NRBCs are this numerous (130 per 100 WBC in this case), automated leukocyte counts must be corrected, and the combination of hypochromia and target cells should prompt evaluation for thalassemia major/intermedia, hemolysis, or marrow infiltration.",
+  "ddx": [
+    {"dx": "Small mature lymphocytes", "vs": "Lymphocytes have a larger nucleus with clumped but not homogeneously pyknotic chromatin and a scant sky-blue cytoplasm, rather than the pink hemoglobinized cytoplasm of normoblasts."},
+    {"dx": "Beta-thalassemia major/intermedia", "vs": "Thalassemia is suggested by microcytic hypochromic red cells with abundant target cells, basophilic stippling, and NRBCs, and is confirmed by hemoglobin HPLC."},
+    {"dx": "Leukoerythroblastic reaction (myelophthisis or myelofibrosis)", "vs": "A leukoerythroblastic reaction adds immature granulocytes and teardrop cells to circulating NRBCs."},
+    {"dx": "Stain precipitate or platelet clumps overlying red cells", "vs": "Precipitate is refractile and lies in a different focal plane without a defined cytoplasmic rim."}
+  ],
+  "specimen": "PB",
+  "stain": "Romanowsky (Leishman/Wright-type)",
+  "match": "consistent",
+  "high_yield": false
+}

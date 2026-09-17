@@ -1,0 +1,22 @@
+{
+  "id": "2386",
+  "recognize_zh": "骨髓抹片中有一團緊密黏聚、核質比高、核互相擠壓塑形（nuclear molding）的小圓藍細胞，旁邊有淡藍色纖維狀的神經絲背景（neuropil，箭頭），與周圍正常造血細胞明顯不同，提示轉移性神經母細胞瘤。",
+  "features": [
+    "Cohesive cluster of medium-sized tumor cells with very high N:C ratio, distinct from surrounding hematopoietic cells",
+    "Round to oval nuclei with nuclear molding and fine to slightly coarse chromatin; nucleoli inconspicuous",
+    "Scant pale basophilic cytoplasm with indistinct cell borders",
+    "Pale blue fibrillary neuropil-like material at the periphery of the cluster (arrows)",
+    "Background of normal trilineage hematopoietic precursors and lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear contains a cohesive clump of non-hematopoietic small round blue cells set against a background of maturing trilineage hematopoiesis. The tumor cells have a high N:C ratio, scant cytoplasm, and molded round nuclei with fine chromatin and inconspicuous nucleoli. Pale fibrillary neuropil-like material surrounds the cluster (arrows). No Homer Wright rosettes are clearly formed in this field. In a child, findings are suggestive of metastatic neuroblastoma; confirmation by marrow biopsy immunohistochemistry (PHOX2B, synaptophysin, GD2) and urine catecholamine metabolites is recommended.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Leukemic blasts are discohesive and lie singly without neuropil or nuclear molding, and they express TdT/CD19 or CD3 rather than neural markers."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Rhabdomyosarcoma cells often show cytoplasmic vacuoles and multinucleated forms and are myogenin/desmin-positive, without fibrillary neuropil."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma cells contain PAS-positive glycogen vacuoles, are CD99/NKX2.2-positive with EWSR1 rearrangement, and lack neuropil."},
+    {"dx": "Clusters of normal hematogones or megakaryocyte nuclei", "vs": "Normal marrow cells do not form tight molded clumps embedded in fibrillary matrix."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

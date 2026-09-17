@@ -1,0 +1,21 @@
+{
+  "id": "61712",
+  "recognize_zh": "這是分子檢測圖：上方為全基因組拷貝數散點圖（log2 fold change），紅圈標示 17 號染色體 TP53 位點拷貝數缺失；下方兩張 IGV 讀段截圖分別顯示 TP53 p.H179R 錯義突變與 c.782+2T>G 剪接位點突變，代表 TP53 雙等位失活。",
+  "features": [
+    "Top: genome-wide copy-number plot of log2 fold change by chromosome with dashed gain/loss thresholds",
+    "Red circle on chromosome 17 marks TP53 copy-number loss (values below baseline)",
+    "Additional apparent segmental losses on chromosome 5 and a focal region of chromosome 13 below the threshold",
+    "Bottom left: IGV read pileup showing a variant column annotated TP53 p.H179R (missense)",
+    "Bottom right: IGV read pileup showing TP53 c.782+2T>G (canonical splice-donor variant)",
+    "Combination indicates multi-hit (biallelic) TP53 alteration"
+  ],
+  "describe_en": "Molecular figure from next-generation sequencing. The upper panel is a genome-wide copy-number plot of log2 fold change by chromosome, with a circled region on chromosome 17 indicating TP53 copy-number loss; segmental losses are also suggested on chromosome 5 and part of chromosome 13, although exact boundaries cannot be read from this image. The lower panels are IGV read-alignment views showing two TP53 variants, a missense p.H179R and a canonical splice-site c.782+2T>G, with high variant read representation. Together these indicate multi-hit TP53 inactivation, which in blastic plasmacytoid dendritic cell neoplasm is uncommon and associated with adverse prognosis; the more typical BPDCN alterations (TET2, ASXL1, ZRSR2, loss of 9p21/CDKN2A, 12p13/ETV6, 13q) should be sought.",
+  "ddx": [
+    {"dx": "Therapy-related myeloid neoplasm or AML/MDS with mutated TP53", "vs": "Multi-hit TP53 with 5q/17p loss is the hallmark of TP53-mutated AML/MDS, so lineage must be established by immunophenotype (CD4/CD56/CD123/TCF4 versus MPO/CD34/CD117)."},
+    {"dx": "Germline TP53 variant (Li-Fraumeni syndrome)", "vs": "A variant allele frequency near 50% persisting in non-hematopoietic tissue indicates germline origin, which requires testing of skin fibroblasts or other constitutional DNA."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

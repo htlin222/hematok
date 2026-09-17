@@ -1,0 +1,21 @@
+{
+  "id": "1058",
+  "recognize_zh": "厚區抹片中有多顆胞質嗜鹼性、染色質細緻的母細胞（blast），旁邊夾雜含橘紅色粗顆粒的嗜酸性骨髓球、嗜鹼性顆粒細胞與分葉嗜中性球；CML 背景中母細胞增加，符合加速期／復發。",
+  "features": [
+    "Several blasts with high N:C ratio, fine chromatin, and rim of basophilic cytoplasm",
+    "Eosinophilic myelocyte with coarse orange-red granules surrounding an immature nucleus",
+    "Granulated immature cells and a basophil with dark granules at the right",
+    "Band/segmented neutrophil and a small dark-staining cell (lymphocyte or late erythroblast)",
+    "Thick smear area with crowded, dried red cells; specimen type (blood vs marrow) not certain from this field"
+  ],
+  "describe_en": "Smear from a thick area shows increased blasts, which are medium to large cells with high nuclear-to-cytoplasmic ratios, finely dispersed chromatin, and basophilic cytoplasm. They are admixed with granulocytic precursors, including an eosinophilic myelocyte with coarse orange granules, a basophil, and a neutrophil. Red cells are crowded with drying artifact, and it cannot be determined with certainty whether this is blood or marrow. In the context of known CML, findings are consistent with disease progression with increased blasts (accelerated/blast phase); blast enumeration and ABL1 kinase domain mutation analysis (e.g., T315I) are indicated.",
+  "ddx": [
+    {"dx": "CML in chronic phase", "vs": "Chronic phase shows a myelocyte and neutrophil peak with blasts <10% (typically <2% in blood), not clusters of blasts."},
+    {"dx": "De novo AML with BCR::ABL1", "vs": "De novo AML lacks the preceding CML history, basophilia, and full spectrum of maturing granulocytes, and often shows lower BCR::ABL1 burden in myeloid subsets."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows absolute monocytosis with dysplasia and no BCR::ABL1 fusion, and basophilia and eosinophilic myelocytes are not prominent."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65204",
+  "recognize_zh": "淋巴結中小型單形淋巴球瀰漫浸潤並圍繞殘存生發中心，cyclin D1 核陽性細胞形成套區環狀帶，而其外側擴張的邊緣區由 IRTA1 陽性、cyclin D1 陰性的 B 細胞組成，顯示為套細胞淋巴瘤合併反應性邊緣區擴張。",
+  "features": [
+    "Lymph node with diffuse infiltrate of small monotonous lymphocytes with slightly irregular nuclei around residual germinal centers; scattered pink histiocytes",
+    "CD20 diffusely positive in the infiltrate",
+    "Cyclin D1 nuclear positivity in a mantle zone distribution surrounding cyclin D1-negative germinal centers",
+    "IRTA1 membranous/cytoplasmic positivity in the outer marginal zone B cells, sparing germinal center and mantle",
+    "Triple stain: CD10 (green) germinal center, cyclin D1 (red) mantle cells and IRTA1 (brown) marginal zone cells in mutually exclusive compartments"
+  ],
+  "describe_en": "Lymph node biopsy shows effacement by a diffuse proliferation of small, monotonous lymphocytes with scattered epithelioid histiocytes, surrounding residual germinal centers. The lymphoid cells are CD20 positive, and nuclear cyclin D1 highlights an expanded mantle zone rim around cyclin D1-negative germinal centers. An expanded marginal zone external to the mantle is composed of IRTA1-positive B cells, which are cyclin D1 negative on triple immunostaining. Findings are consistent with mantle cell lymphoma with a reactive IRTA1-positive marginal zone expansion.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma with marginal zone differentiation", "vs": "A neoplastic MZ component would co-express cyclin D1 with IRTA1, whereas here IRTA1 and cyclin D1 are mutually exclusive."},
+    {"dx": "Nodal marginal zone lymphoma", "vs": "NMZL cells are CD5 and cyclin D1 negative, whereas the dominant mantle-pattern population here is cyclin D1 and SOX11 positive."},
+    {"dx": "Reactive mantle zone hyperplasia", "vs": "Reactive mantle cells are cyclin D1 negative and polytypic, lacking the diffuse cyclin D1-positive infiltrate."},
+    {"dx": "Small lymphocytic lymphoma/CLL", "vs": "SLL shows proliferation centers and is CD23 and LEF1 positive but cyclin D1 negative (except in proliferation centers weakly)."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD20, cyclin D1, IRTA1, CD10 triple",
+  "match": "consistent",
+  "high_yield": false
+}

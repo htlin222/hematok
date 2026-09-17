@@ -1,0 +1,22 @@
+{
+  "id": "62531",
+  "recognize_zh": "淋巴結中可見一大片淡染區，由細胞質豐富、淡嗜酸性的大型組織球組成，核圓、呈泡狀並有小核仁，部分細胞質內含有完整的淋巴球（emperipolesis）；周圍為小淋巴球與漿細胞，符合 Rosai-Dorfman 病（SHML）。",
+  "features": [
+    "Expanded pale zone (distended sinus) filled with large histiocytes, contrasting with surrounding dense small lymphocytes",
+    "Histiocytes with abundant pale eosinophilic to foamy cytoplasm and indistinct cell borders",
+    "Round to oval vesicular nuclei with small but distinct nucleoli; no nuclear grooves",
+    "Intact lymphocytes within histiocyte cytoplasm (emperipolesis) focally evident",
+    "Background of small lymphocytes and plasma cells in the medullary cords"
+  ],
+  "describe_en": "Intermediate-power H&E section of lymph node shows a large pale area corresponding to a distended sinus, populated by sheets of large histiocytes with abundant pale eosinophilic cytoplasm, round vesicular nuclei, and small distinct nucleoli. Scattered histiocytes contain intact lymphocytes within their cytoplasm (emperipolesis). The surrounding parenchyma contains numerous small lymphocytes and plasma cells. There is no significant nuclear atypia, necrosis, or eosinophil-rich infiltrate. Findings are consistent with sinus histiocytosis with massive lymphadenopathy (Rosai-Dorfman disease); confirmation with S100 positivity and CD1a/langerin negativity is recommended.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are smaller with grooved, coffee-bean nuclei and scant emperipolesis, are accompanied by eosinophils, and are CD1a/langerin positive."},
+    {"dx": "Reactive sinus histiocytosis", "vs": "Reactive sinus histiocytes lack prominent emperipolesis, large vesicular nuclei, and S100 positivity."},
+    {"dx": "Metastatic carcinoma or melanoma in sinuses", "vs": "Metastatic cells are cohesive with nuclear atypia and express keratin or melanocytic markers (SOX10, HMB45), unlike bland S100+/CD68+ RDD histiocytes with emperipolesis."},
+    {"dx": "Anaplastic large cell lymphoma, sinusoidal", "vs": "ALCL cells show hallmark cells with horseshoe nuclei, marked atypia, mitoses, and strong CD30 (with or without ALK) expression."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "65154",
+  "recognize_zh": "腹水抹片中一小團三顆大細胞，細胞質被大型淡染空泡撐滿，深染細胞核被擠成新月形貼在細胞邊緣，呈典型印戒細胞（signet ring cell）外觀，且細胞成團聚集，提示轉移性腺癌。",
+  "features": [
+    "Small cohesive cluster of three large cells, several times the size of a lymphocyte",
+    "Large pale, finely vacuolated intracytoplasmic mucin vacuoles occupying most of each cell",
+    "Dense hyperchromatic nuclei compressed into crescents at the cell periphery (signet ring configuration)",
+    "Deeply basophilic rim of cytoplasm with sharp, smooth cell borders",
+    "Clean, paucicellular background without inflammatory cells in this field"
+  ],
+  "describe_en": "Cytospin of ascitic fluid shows a small three-dimensional cluster of large atypical cells in a clean background. The cells contain large pale intracytoplasmic vacuoles that indent and displace hyperchromatic nuclei into crescentic shapes at the periphery, imparting a signet ring appearance. Cohesion of the cells favors an epithelial rather than mesothelial or hematolymphoid origin. Findings are consistent with metastatic adenocarcinoma with signet ring cell features; mucin stains and an immunocytochemical panel are needed to confirm and to explore the primary site.",
+  "ddx": [
+    {"dx": "Reactive mesothelial cells with degenerative vacuoles", "vs": "Mesothelial cells have central round nuclei, dense two-tone cytoplasm with a lacy edge and 'windows' between cells, whereas true signet ring cells show a single large mucin vacuole indenting the nucleus; calretinin/WT1 positivity versus MOC-31/BerEP4 positivity separates them."},
+    {"dx": "Vacuolated macrophages (siderophages/lipophages)", "vs": "Macrophages are dispersed singly with bean-shaped nuclei and foamy multivacuolated cytoplasm, lack three-dimensional cohesion, and are CD68/CD163 positive and mucicarmine negative."},
+    {"dx": "Signet ring lymphoma or plasma cells with Russell bodies", "vs": "Lymphoma cells are non-cohesive, and their vacuoles contain immunoglobulin rather than mucin, which is confirmed by CD45 and light-chain staining with keratin negativity."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Romanowsky (Wright-Giemsa type)",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61034",
+  "recognize_zh": "三格並列的免疫染色：CD10 在散在中型淋巴細胞呈膜陽性、PD-1 在大量淋巴細胞呈強膜狀陽性、CXCL13 呈細胞質點狀顆粒陽性；同一淋巴結中多個濾泡輔助 T 細胞（TFH）標記陽性，支持 AITL。",
+  "features": [
+    "CD10 panel: membranous staining of scattered and clustered medium-sized lymphocytes, many with clear cytoplasm",
+    "PD-1 panel: strong membranous staining of a large proportion of lymphoid cells in sheets",
+    "CXCL13 panel: dot-like/granular paranuclear cytoplasmic staining in numerous lymphoid cells",
+    "Positive cells are small-to-medium lymphocytes rather than large blasts",
+    "Composite image of three immunostains (labeled CD10, PD-1, CXCL13)"
+  ],
+  "describe_en": "Composite immunohistochemistry of a lymph node infiltrate shows that the atypical lymphoid population expresses follicular helper T-cell markers. CD10 highlights scattered and clustered medium-sized lymphocytes with membranous staining, PD-1 is strongly expressed in a large proportion of the infiltrating cells, and CXCL13 shows granular dot-like cytoplasmic positivity in many cells. Expression of at least two (ideally three) TFH markers in the neoplastic T cells is consistent with nodal T-follicular helper cell lymphoma, angioimmunoblastic type (AITL).",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Normal TFH cells (PD-1+/CXCL13+) are confined to germinal centers, whereas here they are expanded in sheets outside follicles."},
+    {"dx": "Nodal TFH-cell lymphoma, follicular type", "vs": "Shares the TFH phenotype but the neoplastic cells form nodular, follicle-like aggregates without extrafollicular FDC expansion or HEV proliferation."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS by definition lacks expression of two or more TFH markers."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "PD-1+ T cells there form rosettes around CD20+ LP cells within B-cell nodules rather than diffuse sheets."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD10, PD-1, CXCL13",
+  "match": "consistent",
+  "high_yield": true
+}

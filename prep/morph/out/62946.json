@@ -1,0 +1,22 @@
+{
+  "id": "62946",
+  "recognize_zh": "CD20 只標出散在、單個分布的大型非典型細胞（膜狀棕色、核大而空泡狀），周圍大量小淋巴球與組織球皆不染；少數腫瘤性大 B 細胞散布在豐富的非腫瘤背景中，正是富含 T 細胞/組織球大 B 細胞淋巴瘤（THRLBCL）的樣貌。",
+  "features": [
+    "Scattered, individually dispersed large atypical cells with strong membranous CD20 staining",
+    "Large cells with vesicular nuclei and moderate cytoplasm, several times the size of background lymphocytes",
+    "Abundant background of CD20-negative small lymphocytes and elongated histiocyte/endothelial nuclei",
+    "No CD20-positive small B-cell nodules or meshwork in this field",
+    "Some granular CD20 debris around positive cells; mitosis not clearly resolvable at this resolution"
+  ],
+  "describe_en": "CD20 immunohistochemistry shows scattered, singly dispersed large atypical lymphoid cells with strong membranous staining, set within an abundant CD20-negative background of small lymphocytes and histiocytes. The positive cells have enlarged vesicular nuclei and do not form sheets or cohesive clusters, and no background nodules of small B cells are seen in this field. The findings support B-cell lineage of the large atypical cells and, in the context of a T-cell- and histiocyte-rich background, are consistent with T-cell/histiocyte-rich large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (pattern E)", "vs": "NLPHL retains at least a focal nodular pattern with a CD20-positive small B-cell meshwork and PD-1+ T-cell rosettes around LP cells, whereas THRLBCL lacks residual small B-cell nodules."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30/CD15-positive with weak PAX5 and usually absent or heterogeneous CD20, rather than uniform strong CD20 with CD30 negativity."},
+    {"dx": "Peripheral T-cell lymphoma with large B-cell blasts (e.g., angioimmunoblastic T-cell lymphoma)", "vs": "AITL has atypical CD3+/PD-1+/CD10+ T cells with expanded CD21 FDC meshworks and often EBV+ B blasts, whereas here the background T cells are non-neoplastic."},
+    {"dx": "Reactive lymphadenitis with immunoblasts", "vs": "Reactive immunoblasts are a mix of B and T cells, lack atypia and occur alongside preserved follicles."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": true
+}

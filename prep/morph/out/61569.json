@@ -1,0 +1,22 @@
+{
+  "id": "61569",
+  "recognize_zh": "周邊血液中出現多顆中大型母細胞，核質比高、染色質細緻均勻、核仁不明顯，細胞質極少且淡藍無顆粒，部分核有凹痕；缺乏顆粒與 Auer 小體，符合循環中的淋巴母細胞（B-ALL）。",
+  "features": [
+    "Multiple circulating blasts, medium to large (about 1.5-2 times a red cell)",
+    "Very high N:C ratio with a thin rim of pale-to-moderately basophilic agranular cytoplasm",
+    "Round to irregular nuclei, some with indentations or angular contours",
+    "Finely dispersed, homogeneous chromatin with inconspicuous nucleoli",
+    "Smudge cell at the bottom of the field; red cells largely normocytic"
+  ],
+  "describe_en": "Peripheral blood smear shows multiple circulating medium-to-large blasts. The blasts have very high nuclear-to-cytoplasmic ratios, round to irregular nuclei with occasional indentations, finely dispersed homogeneous chromatin and inconspicuous nucleoli, and a thin rim of agranular basophilic cytoplasm. Auer rods and cytoplasmic granules are absent, and a smudge cell is present. Findings are consistent with circulating lymphoblasts; flow cytometry is required to confirm B-lymphoblastic leukemia and exclude myeloid lineage.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Agranular myeloblasts can look identical; MPO/CD13/CD33/CD117 positivity and absence of CD19/cCD79a distinguish them."},
+    {"dx": "Reactive lymphocytes (e.g., pertussis, viral infection)", "vs": "Reactive cells have mature condensed chromatin and more cytoplasm, without blastic fine chromatin."},
+    {"dx": "Leukemic mantle cell lymphoma, blastoid variant", "vs": "CD5+/cyclin D1+ mature B cells with surface light chain and no TdT/CD34."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "Morphologically identical; cytoplasmic CD3 positivity on flow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

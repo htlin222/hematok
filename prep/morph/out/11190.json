@@ -1,0 +1,21 @@
+{
+  "id": "11190",
+  "recognize_zh": "骨髓切片免疫染色中大量棕色陽性的漿細胞呈間質散在與小團聚集，許多細胞中央有大型透明圓形包涵體、周圍一圈染色，像戒指般，代表胞質內充滿免疫球蛋白的 Russell body，提示漿細胞增生。",
+  "features": [
+    "Numerous immunoreactive (brown) plasma cells scattered interstitially and in small clusters",
+    "Many positive cells contain large round clear globular inclusions with a rim of staining (Russell bodies)",
+    "Positive cells vary in size, some markedly enlarged by the inclusions",
+    "Negative background hematopoietic cells with blue hematoxylin counterstain",
+    "Fat spaces preserved; the specific antibody is not labeled in the image"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostain for a plasma cell marker (antibody not specified; pattern compatible with CD138 or a light chain) highlights increased plasma cells distributed interstitially and in small clusters. Many plasma cells contain large, round cytoplasmic globular inclusions consistent with Russell bodies, producing a ring-like staining pattern. The remaining hematopoietic cells are negative. Findings support a plasma cell proliferation with Russell body formation; quantification of plasma cells, kappa/lambda light chain staining to demonstrate monotypia and correlation with serum paraprotein are needed to establish plasma cell myeloma.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are perivascular and polytypic for kappa and lambda, whereas myeloma shows clustered or sheet-like monotypic plasma cells often exceeding 10% of cellularity."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows paratrabecular/interstitial small lymphocytes and plasmacytoid lymphocytes with IgM paraprotein and MYD88 L265P, rather than a pure plasma cell population."},
+    {"dx": "Signet ring cell carcinoma or lipid-laden macrophages", "vs": "Signet ring cells are keratin-positive with mucin vacuoles and macrophages are CD68/CD163 positive, while Russell body cells are CD138 and light chain positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: plasma cell marker (likely CD138)",
+  "match": "consistent",
+  "high_yield": false
+}

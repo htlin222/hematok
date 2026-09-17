@@ -1,0 +1,21 @@
+{
+  "id": "62280",
+  "recognize_zh": "IgD 染色中，大結節內 IgD 陽性套層細胞（mantle cells）向內滲入、把生發中心切割成網狀的淡染碎片；下方的正常濾泡則是完整的 IgD 陽性套層環包住 IgD 陰性的生發中心，兩者對比正是 PTGC 的典型表現。",
+  "features": [
+    "Enlarged nodule with IgD-positive mantle zone B cells extending into and permeating the germinal center",
+    "Germinal center broken into irregular, IgD-negative pale fragments giving a reticulated, moth-eaten pattern",
+    "Normal secondary follicle at the bottom with an intact IgD-positive mantle ring surrounding an IgD-negative germinal center (internal control)",
+    "Small IgD-positive ring-like follicle at the left edge",
+    "Interfollicular areas show only weak background staining"
+  ],
+  "describe_en": "IgD immunohistochemistry shows an enlarged nodule in which IgD-positive mantle zone B cells infiltrate the germinal center and break it into irregular IgD-negative fragments, producing a reticulated pattern with loss of the sharp mantle-germinal center boundary. By contrast, an adjacent normal secondary follicle shows an intact IgD-positive mantle cuff surrounding an IgD-negative germinal center. This pattern of mantle cell infiltration into a disrupted germinal center is characteristic of progressive transformation of germinal centers.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (NLPHL)", "vs": "NLPHL nodules also contain IgD+ small B cells, so the discriminator is the presence of LP cells (CD20+, OCT2+, BOB1+, EMA+, sometimes IgD+) rimmed by PD-1+ T cells within the nodules."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma follicles show attenuated or absent IgD-positive mantles around expanded IgD-negative neoplastic follicles, rather than IgD+ mantle cells invading a fragmented germinal center."},
+    {"dx": "Mantle cell lymphoma, mantle zone pattern", "vs": "Mantle cell lymphoma shows expanded monotonous cyclin D1/SOX11-positive mantle zones around naked germinal centers, not polytypic IgD+ cells infiltrating the center."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: IgD",
+  "match": "consistent",
+  "high_yield": true
+}

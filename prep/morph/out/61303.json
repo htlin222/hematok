@@ -1,0 +1,21 @@
+{
+  "id": "61303",
+  "recognize_zh": "骨髓抹片中有數個大型巨噬細胞，細胞質豐富、充滿大小不一的透明空泡（泡沫狀），多個造血細胞（包括嗜中性球與幼稚細胞）位於其細胞質範圍內，提示噬血現象；但抹片品質與重疊使吞噬是否確實位於胞內較難完全確認。",
+  "features": [
+    "Large macrophages with abundant pale blue, finely vacuolated (foamy) cytoplasm",
+    "Multiple hematopoietic cells, including segmented neutrophils and immature myeloid cells, within the macrophage cytoplasm",
+    "Macrophage nuclei round to oval with open chromatin",
+    "Poorly spread red cells appearing as grey ghosts and smear streak artifacts",
+    "Scattered intact myeloid and erythroid precursors in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows several large macrophages with abundant foamy, vacuolated cytoplasm. Multiple hematopoietic cells, including neutrophils and immature myeloid precursors, are situated within the macrophage cytoplasm, consistent with phagocytosis of hematopoietic elements. Preparation quality is suboptimal with poorly spread red cells and streak artifact, and overlap cannot be fully excluded for every cell. Findings are suggestive of hemophagocytosis; correlation with clinical and laboratory HLH criteria (ferritin, soluble CD25, cytopenias, fever, splenomegaly) is recommended.",
+  "ddx": [
+    {"dx": "Cells overlying macrophages on a thick smear", "vs": "Overlapping cells lie in a different plane and lack a surrounding clear phagocytic vacuole, whereas engulfed cells are enclosed within cytoplasm."},
+    {"dx": "Gaucher or pseudo-Gaucher cells", "vs": "Gaucher cells have crumpled tissue-paper cytoplasm without ingested intact hematopoietic cells."},
+    {"dx": "Sea-blue histiocytes / lipid-laden macrophages", "vs": "These contain blue-green granules or lipid vacuoles but no engulfed erythrocytes, platelets, or leukocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

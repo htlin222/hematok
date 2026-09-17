@@ -1,0 +1,22 @@
+{
+  "id": "3989",
+  "recognize_zh": "視野中央一顆大型嗜中性球的細胞核分成約 7 葉，周圍紅血球大小不一並可見大型卵圓紅血球（macro-ovalocyte）；嗜中性球出現 6 葉以上（或 5 葉以上達 5%）即為分葉過多，是維生素 B12 或葉酸缺乏之巨母紅血球性貧血（megaloblastic anemia）的經典線索。",
+  "features": [
+    "Enlarged neutrophil with about seven discrete nuclear lobes (hypersegmentation)",
+    "Neutrophil cytoplasm with normal fine pink granulation",
+    "Anisocytosis with scattered oval macrocytes among normocytic red cells",
+    "A monocyte (lower left) and a lymphocyte with clumped chromatin (upper right)",
+    "Small cell with dense round nucleus at lower center; occasional platelet clump"
+  ],
+  "describe_en": "Peripheral blood smear shows a large neutrophil with approximately seven nuclear lobes connected by thin chromatin strands, consistent with hypersegmentation. Red cells show anisocytosis with scattered oval macrocytes. A monocyte and a lymphocyte are also present. Findings are consistent with hypersegmented neutrophils and macro-ovalocytes, suggestive of megaloblastic anemia due to vitamin B12 or folate deficiency; serum B12, folate, methylmalonic acid and homocysteine levels should be correlated.",
+  "ddx": [
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "The hereditary form is a benign autosomal dominant finding without macro-ovalocytes, cytopenias or abnormal vitamin levels."},
+    {"dx": "Drug effect (methotrexate, hydroxyurea, azathioprine, antiretrovirals)", "vs": "Antimetabolite drugs produce identical megaloblastic changes, distinguished only by medication history with normal B12 and folate."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS more often shows hypolobated pseudo-Pelger-Huet neutrophils and hypogranulation rather than hypersegmentation, with normal vitamin levels."},
+    {"dx": "Iron deficiency or uremia", "vs": "These may cause occasional hypersegmented neutrophils but have microcytic or normocytic red cells rather than macro-ovalocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

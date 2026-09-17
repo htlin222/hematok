@@ -1,0 +1,20 @@
+{
+  "id": "61417",
+  "recognize_zh": "MUM1（IRF4）染色低倍（40x）見大型腫瘤結節幾乎全部細胞核陽性、纖維帶陰性；高倍（400x）為瀰漫強烈核染，這種強而一致的 MUM1 表現是 IRF4 重組大B細胞淋巴瘤的關鍵免疫表型線索。",
+  "features": [
+    "Low power (40x): large nodules with diffuse, uniform nuclear MUM1 staining separated by negative fibrous septa",
+    "High power (400x): strong nuclear MUM1 in nearly all medium to large tumor cells",
+    "Positive nuclei round to oval with variable intensity but near-complete extent",
+    "Scattered negative stromal and endothelial cells"
+  ],
+  "describe_en": "MUM1 (IRF4) immunohistochemistry demonstrates strong, diffuse nuclear expression in nearly all neoplastic cells within large nodules separated by negative fibrous septa. This uniformly strong MUM1 expression, particularly when co-expressed with BCL6 (and often CD10) in a young patient with nodal or Waldeyer ring disease, raises strong suspicion for large B-cell lymphoma with IRF4 rearrangement, which should be confirmed by IRF4 break-apart FISH.",
+  "ddx": [
+    {"dx": "Pediatric-type follicular lymphoma", "vs": "Pediatric-type FL is MUM1-negative or weak and lacks IRF4 rearrangement."},
+    {"dx": "Diffuse large B-cell lymphoma, ABC type", "vs": "ABC-type DLBCL is MUM1-positive but usually BCL6/CD10-negative or variable and lacks IRF4 rearrangement."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is MUM1-positive but CD20/PAX5-negative, CD138-positive and often EBER-positive."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: MUM1",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62131",
+  "recognize_zh": "上排血液抹片可見卵圓形巨紅血球、淚滴狀與碎片紅血球；下排可見核分葉過多（hypersegmented）的嗜酸性球，其中部分細胞顆粒稀疏、像是顆粒外漏，提示維生素 B12/葉酸缺乏的巨母細胞性貧血。",
+  "features": [
+    "Marked anisopoikilocytosis with oval macrocytes, teardrop cells, fragments and microcytes (Ai-ii)",
+    "A large macrocyte with an irregular internal inclusion or ring-like structure (Aii)",
+    "Eosinophils with coarse orange granules and hypersegmented nuclei of four or more lobes (Bi-ii)",
+    "Multilobed granulocytes with sparse, pale or unevenly distributed granules suggesting degranulated eosinophils (Biii-iv)",
+    "Hypersegmentation involving the eosinophil lineage in addition to neutrophil-sized cells"
+  ],
+  "describe_en": "Peripheral blood smear (A) shows marked anisopoikilocytosis with oval macrocytes, teardrop cells, red cell fragments and microcytes, and a large macrocyte containing an irregular inclusion. High-power views (B) show eosinophils with coarse eosinophilic granules and hypersegmented nuclei, together with multilobed granulocytes whose granules are sparse or unevenly distributed, suggesting partial degranulation of hypersegmented eosinophils. Findings are consistent with megaloblastic anemia with hypersegmentation extending to eosinophils; serum B12, folate, methylmalonic acid and homocysteine should be measured.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS shows hypogranular pseudo-Pelger-Huet neutrophils with hypolobation rather than hypersegmentation, and does not correct with vitamin replacement."},
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "Inherited hypersegmentation occurs with normal MCV and red cell morphology, unlike the oval macrocytes and poikilocytosis here."},
+    {"dx": "Drug-induced megaloblastosis (methotrexate, hydroxyurea)", "vs": "Morphology is identical, so separation depends on medication history with normal B12 and folate levels."},
+    {"dx": "Hypersegmented neutrophils", "vs": "Neutrophils have fine lilac granules, whereas residual coarse orange granules identify these multilobed cells as eosinophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

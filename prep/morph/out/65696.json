@@ -1,0 +1,23 @@
+{
+  "id": "65696",
+  "recognize_zh": "周邊血中大型淋巴球的核呈多葉花瓣狀（flower/clover-leaf），胞質中等淡藍；流式證實是 CD20+ 的單株 B 細胞，而淋巴結切片為大型細胞片狀、MUM1 陽性的 DLBCL，這些花瓣細胞並非 ATLL。",
+  "features": [
+    "Blood: large lymphoid cells with deeply lobulated, flower petal- or clover-leaf-like nuclei and moderate pale blue cytoplasm",
+    "Nuclear chromatin moderately condensed; lobes radiate around a central point",
+    "Lymph node: diffuse sheets of large cells with vesicular nuclei, prominent nucleoli and mitoses",
+    "MUM1: diffuse strong nuclear positivity in the large cells",
+    "Flow (CD3 vs CD4): small CD4+/surface CD3-negative aberrant T-cell population (2.91%)",
+    "Genomic panels: EBV DNA 122 IU/mL, microarray showing 1p cnLOH and gains of 3q and 10p, NGS table with TNFRSF14 and BLM variants"
+  ],
+  "describe_en": "Peripheral blood smear shows large atypical lymphoid cells with multilobated, flower petal-like nuclei and moderate amounts of pale blue cytoplasm. The concurrent lymph node biopsy shows diffuse sheets of large lymphoid cells with vesicular chromatin and prominent nucleoli that are diffusely MUM1-positive, while flow cytometry reveals only a small residual CD4+/CD3-negative aberrant T-cell population. Shared copy-number changes and TNFRSF14/BLM variants in blood and node link the circulating flower-like cells to the nodal lymphoma. Findings are consistent with leukemic non-germinal center diffuse large B-cell lymphoma with flower-like morphology arising in the setting of angioimmunoblastic T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL flower cells are CD4+/CD25+ T cells in HTLV-1-positive patients, whereas these cells are CD20+ clonal B cells."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform grooved nuclei and a CD4+/CD7-negative/CD26-negative T-cell phenotype."},
+    {"dx": "Circulating AITL cells", "vs": "AITL cells are CD4+ TFH T cells (PD-1, CXCL13) and rarely show floral lobation; here the lobated cells are B cells."},
+    {"dx": "Follicular lymphoma or other small B-cell lymphoma with cleaved nuclei", "vs": "Leukemic FL cells are small with cleaved notched nuclei and CD10+, not large multilobated CD10-negative cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E; IHC: MUM1; flow; genomics",
+  "match": "consistent",
+  "high_yield": false
+}

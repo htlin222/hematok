@@ -1,0 +1,22 @@
+{
+  "id": "60724",
+  "recognize_zh": "骨髓切片中有一個結節狀淋巴球聚集，外觀似良性淋巴聚集；但 B 細胞標記整個結節陽性，D 的核染色陽性細胞（符合 cyclin D1）集中在結節外圍呈環狀分布，代表早期套細胞淋巴瘤以類似套區 (mantle zone) 的型態侵犯骨髓。",
+  "features": [
+    "Panel A (H&E): well-circumscribed nodular lymphoid aggregate of small lymphocytes in a normocellular marrow, paratrabecular location not evident",
+    "Panel B (IHC, unlabeled): diffuse strong staining of the entire aggregate, consistent with a B-cell marker",
+    "Panel C (IHC, unlabeled): strong staining in a peripheral rim and scattered cells within the aggregate center",
+    "Panel D (IHC, unlabeled): nuclear staining in a subset of cells concentrated in a ring at the periphery of the aggregate (pattern fits cyclin D1)",
+    "Small cell size without large cells or proliferation centers"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a well-circumscribed, non-paratrabecular nodular aggregate of small lymphocytes. Immunostains (markers not labeled in the figure) show diffuse staining of the aggregate with a B-cell-type marker, a second marker highlighting a peripheral rim and scattered central cells, and nuclear positivity in cells arranged in a ring at the periphery of the nodule. In context, findings are consistent with early/limited bone marrow involvement by mantle cell lymphoma in a mantle zone-like pattern; cyclin D1 staining is essential because such aggregates can be mistaken for benign lymphoid aggregates.",
+  "ddx": [
+    {"dx": "Benign (reactive) lymphoid aggregate", "vs": "Reactive aggregates are small, well circumscribed and composed of mixed T and B cells with no cyclin D1-positive population."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL nodules are CD5+/CD23+/LEF1+ and cyclin D1 negative, with proliferation centers."},
+    {"dx": "Follicular lymphoma", "vs": "FL nodules are typically paratrabecular and CD10/BCL6 positive without cyclin D1."},
+    {"dx": "Plasma cell myeloma with cyclin D1", "vs": "Cyclin D1+ myeloma cells are CD138+ plasma cells in interstitial sheets rather than a CD20+ lymphoid nodule."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (markers unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

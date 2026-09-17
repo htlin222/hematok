@@ -1,0 +1,21 @@
+{
+  "id": "2430",
+  "recognize_zh": "骨髓切片中造血細胞只剩淡粉紅色的「鬼影」輪廓，核不染色或僅殘留模糊核影，背景為無結構的嗜酸性顆粒狀壞死物，脂肪空泡輪廓仍在，這是骨髓壞死（bone marrow necrosis）的典型表現。",
+  "features": [
+    "Loss of nuclear staining in hematopoietic cells, leaving pale eosinophilic ghost cell outlines",
+    "Only faint, smudged residual nuclear outlines; no crisp basophilic chromatin",
+    "Amorphous, granular eosinophilic background replacing normal marrow architecture",
+    "Preserved fat vacuole outlines scattered through the necrotic tissue",
+    "No viable hematopoietic elements or inflammatory infiltrate evident in this field"
+  ],
+  "describe_en": "Bone marrow biopsy (H&E) shows marrow spaces replaced by pale eosinophilic, amorphous granular material. Cellular outlines are still discernible as ghost cells, but nuclear staining is lost or reduced to faint smudges, and no viable hematopoietic cells are identified in this field. Adipocyte vacuoles remain as empty spaces. There is no evident fibrosis or inflammatory reaction. Findings are consistent with bone marrow necrosis; evaluation of viable areas for an underlying cause (e.g., acute leukemia, metastatic tumor, sickle cell disease, infection) is recommended.",
+  "ddx": [
+    {"dx": "Serous (gelatinous) atrophy of marrow", "vs": "Gelatinous transformation shows pale extracellular mucoid material with fat atrophy and hypocellularity but lacks ghost cell outlines of dead cells."},
+    {"dx": "Poorly fixed or crushed marrow biopsy", "vs": "Fixation/crush artifact produces smeared, streaming basophilic nuclei rather than uniformly anucleate eosinophilic ghost cells."},
+    {"dx": "Post-chemotherapy aplastic marrow", "vs": "Therapy-related aplasia shows empty stroma with fat, edema and hemorrhage, not sheets of necrotic ghost cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

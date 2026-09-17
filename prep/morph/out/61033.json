@@ -1,0 +1,21 @@
+{
+  "id": "61033",
+  "recognize_zh": "淋巴結免疫染色：胞質透明的中型非典型細胞 CD4 及 CD5 僅呈淡的膜染色（白箭頭），而背景小型反應性 T 細胞強陽性（黑箭頭）；CD8 只染出散在的小淋巴球，顯示腫瘤 T 細胞抗原表現減弱，支持 AITL。",
+  "features": [
+    "Medium-to-large atypical cells with clear cytoplasm showing dim/weak membranous CD4 (white arrows)",
+    "Same clear cells show dim CD5, weaker than the strongly stained small background T cells (black arrows)",
+    "Small reactive T cells with strong CD5 staining clustered between neoplastic cells",
+    "CD8 marks numerous scattered small reactive T cells, negative in the large clear cells",
+    "Polymorphous background with vessels visible between cells"
+  ],
+  "describe_en": "Immunohistochemical stains on lymph node sections show that the atypical medium-to-large cells with clear cytoplasm express CD4 and CD5 with dim membranous intensity, compared with strongly stained small reactive T cells. CD8 highlights a substantial population of small, scattered reactive cytotoxic T cells and is negative in the neoplastic cells. Diminished expression of pan-T-cell antigens in the CD4-positive clear cells is an aberrant phenotype supporting a T-cell lymphoma, consistent with angioimmunoblastic T-cell lymphoma in context.",
+  "ddx": [
+    {"dx": "Reactive T-cell hyperplasia", "vs": "Reactive T cells retain bright, uniform pan-T antigens without a distinct population showing dim CD4/CD5."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS can show antigen loss but lacks co-expression of TFH markers (PD-1, CD10, CXCL13) and expanded FDC meshworks."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL is CD4+/CD25+ with frequent CD7 loss in HTLV-1 seropositive patients and lacks the TFH phenotype."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD4, CD5, CD8",
+  "match": "consistent",
+  "high_yield": false
+}

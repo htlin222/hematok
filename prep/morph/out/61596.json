@@ -1,0 +1,22 @@
+{
+  "id": "61596",
+  "recognize_zh": "三格組合圖：A 為富細胞骨髓，巨核細胞明顯增加並聚集，其中不少是小型、單葉或低分葉核；B 為巨核細胞標記 IHC 顯示大量大小不一的陽性巨核細胞；C 為網狀纖維染色顯示纖維增加。小型單葉巨核細胞加上纖維化，呼應 del(5q) 與 JAK2 同時存在的特徵。",
+  "features": [
+    "Hypercellular bone marrow with marked megakaryocytic hyperplasia and loose clustering (panel A)",
+    "Megakaryocytes of variable size, including many small forms with hypolobated or monolobated nuclei (panel A)",
+    "Megakaryocyte immunostain highlighting numerous positive megakaryocytes of variable size (panel B)",
+    "Reticulin stain showing increased reticulin fiber network (panel C)",
+    "Limited resolution precludes precise grading of fibrosis and detailed megakaryocyte nuclear morphology"
+  ],
+  "describe_en": "This composite shows a bone marrow core biopsy. The H&E section (A) is hypercellular with marked megakaryocytic hyperplasia; megakaryocytes vary in size and include many small forms with hypolobated to monolobated nuclei, some in loose clusters. A megakaryocyte-lineage immunostain (B) highlights the increased megakaryocytes, and a reticulin stain (C) shows increased reticulin fibrosis. Image resolution limits formal fibrosis grading. Given the concurrent JAK2 mutation and isolated del(5q), the combination of small hypolobated megakaryocytes and marrow fibrosis reflects overlapping features of MDS with isolated del(5q) and a JAK2-driven myeloproliferative process.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "PMF megakaryocytes are large, pleomorphic, with hyperchromatic cloud-like nuclei in dense clusters, rather than predominantly small monolobated forms."},
+    {"dx": "MDS with isolated del(5q) without JAK2 mutation", "vs": "Classic del(5q) MDS shows small monolobated megakaryocytes but usually no significant fibrosis and no JAK2-driven thrombocytosis/myeloproliferation."},
+    {"dx": "MDS/MPN with SF3B1 mutation and thrombocytosis", "vs": "MDS/MPN-SF3B1-T shows ring sideroblasts and large MPN-like megakaryocytes with SF3B1 mutation rather than isolated del(5q)."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML contains small hypolobated 'dwarf' megakaryocytes and fibrosis but is defined by BCR::ABL1 with granulocytic hyperplasia and basophilia."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (megakaryocyte marker); reticulin",
+  "match": "consistent",
+  "high_yield": false
+}

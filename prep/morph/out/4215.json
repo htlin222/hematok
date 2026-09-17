@@ -1,0 +1,21 @@
+{
+  "id": "4215",
+  "recognize_zh": "淋巴結免疫染色中，瀰漫分布的中型淋巴球絕大多數呈核染色陽性，僅高內皮小靜脈與基質細胞陰性，顯示結構被單一 T 細胞群取代；抗體名稱未標示，需對照其他染色與 HTLV-1 才能判讀 ATLL。",
+  "features": [
+    "Diffuse sheet-like lymphoid infiltrate effacing nodal architecture at low-intermediate power",
+    "Majority of medium-sized lymphoid cells show brown, predominantly nuclear staining of variable intensity",
+    "Negative high endothelial venules and stromal cells scattered through the infiltrate",
+    "No residual follicular pattern evident",
+    "Specific antibody not indicated; nuclear pattern (e.g., FOXP3, Ki-67 or a transcription factor) cannot be further specified from the image"
+  ],
+  "describe_en": "Immunohistochemical stain of a lymph node (antibody not labeled) shows diffuse effacement by medium-sized lymphoid cells, the majority of which display predominantly nuclear staining of variable intensity, while high endothelial venules and stromal elements are negative. No residual follicles are appreciated. The image documents a diffuse, immunoreactive lymphoid population but does not by itself establish lineage; in the context of HTLV-1 infection and a CD4+/CD25+ T-cell phenotype, findings are consistent with nodal involvement by adult T-cell leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS can look identical and is separated by absence of HTLV-1 integration and usually lack of diffuse CD25/FOXP3 expression."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows arborizing HEVs with expanded CD21+ FDC meshworks and TFH markers (PD1, CXCL13) in a polymorphous background."},
+    {"dx": "Classic Hodgkin lymphoma (ATLL Hodgkin-like pattern)", "vs": "cHL has scattered CD30+/CD15+ Reed-Sternberg cells in a reactive background rather than a monotonous diffuse infiltrate."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: nuclear marker (not specified)",
+  "match": "partial",
+  "high_yield": false
+}

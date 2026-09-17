@@ -1,0 +1,22 @@
+{
+  "id": "61388",
+  "recognize_zh": "血液抹片的紅血球之間出現細長、深紫色、呈線狀或蜷曲的蟲體（A–C 低倍），D 高倍可見體寬均勻、染色深、末端漸細的蠕蟲型態，長度約數十個紅血球直徑，符合血中微絲蟲（microfilaria）。",
+  "features": [
+    "Elongated slender worm-like organisms lying among red cells, straight in A and C and coiled in B and D",
+    "Length spans many red cell diameters (roughly 200-300 um) with a width of a few micrometers",
+    "Intensely basophilic body with tapering anterior and posterior ends (D)",
+    "Sheath and the arrangement of somatic nuclei in the tail cannot be resolved at this magnification and stain intensity",
+    "Background red cells, occasional neutrophils and small lymphocytes unremarkable"
+  ],
+  "describe_en": "Peripheral blood smears (panels A-C, low power; panel D, high power) show several elongated, slender, intensely basophilic worm-like organisms lying free among red cells, measuring many red cell diameters in length and displaying straight to coiled configurations with tapered ends. The surrounding leukocytes and red cells are unremarkable. A sheath and the distribution of tail nuclei, which are needed for species identification, cannot be reliably assessed in these images. Findings are consistent with microfilaremia (filariasis); species determination requires evaluation of sheath, tail nuclei and size on Giemsa-stained thick films, correlated with periodicity of blood draw and travel history, or molecular testing.",
+  "ddx": [
+    {"dx": "Wuchereria bancrofti", "vs": "Sheathed microfilaria with a sheath that stains poorly with Giemsa and a tapered tail free of terminal nuclei, with nocturnal periodicity."},
+    {"dx": "Brugia malayi", "vs": "Sheathed microfilaria whose sheath stains pink with Giemsa, with a kinked appearance and two separate terminal tail nuclei."},
+    {"dx": "Loa loa", "vs": "Sheathed microfilaria with nuclei extending continuously to the tip of the tail, diurnal periodicity and African rainforest exposure."},
+    {"dx": "Fibers or fungal hyphae contaminant", "vs": "Lacks internal nuclear column and tapered anatomic ends, and often lies out of the plane of focus or crosses cell outlines."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

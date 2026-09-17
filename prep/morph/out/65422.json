@@ -1,0 +1,22 @@
+{
+  "id": "65422",
+  "recognize_zh": "三格周邊血拼圖中的異常細胞，核深深凹陷成雙葉或摺疊狀，形似蝴蝶或「滑動重疊」（sliding）的兩葉，細胞質淡粉紫色、顆粒細小稀少甚至看不到。雙葉核加上低顆粒細胞質，是微顆粒型 APL（M3v）的線索，容易被誤認為單核球。",
+  "features": [
+    "Medium to large cells with bilobed, folded or deeply cleft nuclei (butterfly/sliding-lobe configuration)",
+    "Finely dispersed chromatin with occasional small nucleoli",
+    "Moderate pale pink-lilac cytoplasm with sparse fine or dust-like granules (hypogranular)",
+    "No obvious Auer rods identified in these fields",
+    "Numerous abnormal cells in the middle panel, suggesting high leukocyte count"
+  ],
+  "describe_en": "Peripheral blood smear, composite of three fields, shows numerous atypical cells with bilobed, folded or deeply cleft nuclei, finely dispersed chromatin and moderate pale cytoplasm containing only sparse fine granules. Auer rods are not evident in these fields. The bilobed hypogranular morphology is characteristic of microgranular atypical promyelocytes and can mimic monocytes. Findings are suggestive of the microgranular variant of acute promyelocytic leukemia; urgent confirmation with MPO cytochemistry, PML::RARA testing and coagulation studies is recommended.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Monocytic cells have grey-blue cytoplasm, are MPO weak/negative and NSE positive, whereas M3v cells are strongly MPO positive and CD34/HLA-DR negative."},
+    {"dx": "Hypergranular APL", "vs": "Classic APL shows abundant coarse granules and frequent faggot cells, whereas these cells appear nearly agranular on light microscopy."},
+    {"dx": "Sézary cells or ATLL flower cells", "vs": "T-cell leukemias have convoluted or cerebriform nuclei with condensed chromatin and scant agranular basophilic cytoplasm, not fine chromatin with pale granular cytoplasm."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows mature monocytes with clumped chromatin and dysplastic neutrophils with low blast counts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

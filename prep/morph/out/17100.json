@@ -1,0 +1,22 @@
+{
+  "id": "17100",
+  "recognize_zh": "周邊血液中大量破碎紅血球（schistocytes），包括頭盔形、三角形與不規則碎片，並有小球形紅血球；視野中血小板極少。在使用 mitomycin 的病人身上，符合藥物相關血栓性微血管病（thrombotic microangiopathy）造成的血小板低下與溶血性貧血。",
+  "features": [
+    "Numerous schistocytes: helmet cells, triangular and irregular fragments scattered throughout",
+    "Microspherocytes lacking central pallor among the red cells",
+    "Many residual RBCs show central pallor with mild anisocytosis",
+    "Markedly decreased platelets in the field",
+    "Single small lymphocyte at center; no leukoerythroblastic cells or tumor cells identified"
+  ],
+  "describe_en": "Peripheral blood smear shows marked red cell fragmentation with numerous schistocytes, including helmet cells, triangular forms and irregular fragments, accompanied by microspherocytes and mild anisocytosis. Platelets are markedly decreased. A single small lymphocyte is present and no circulating tumor cells or nucleated red cells are seen in this field. In a patient receiving mitomycin, findings are consistent with drug-associated thrombotic microangiopathy (microangiopathic hemolytic anemia with thrombocytopenia).",
+  "ddx": [
+    {"dx": "Thrombotic thrombocytopenic purpura (ADAMTS13 deficiency)", "vs": "Smear morphology is identical; severe ADAMTS13 deficiency (<10%) distinguishes TTP from drug-associated TMA."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC also produces schistocytes but shows prolonged PT/aPTT, low fibrinogen and elevated D-dimer, which are usually normal in drug-induced TMA."},
+    {"dx": "Cancer-associated microangiopathy with marrow metastasis", "vs": "Metastatic carcinoma-related MAHA often shows leukoerythroblastosis with nucleated RBCs and immature granulocytes, which are not seen here."},
+    {"dx": "Autoimmune hemolytic anemia", "vs": "Warm AIHA shows spherocytes and polychromasia with a positive DAT but lacks abundant fragmented cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,34 @@
+{
+ "id": "63137",
+ "recognize_zh": "S-100 染色中，大型組織球的細胞核與細胞質呈強陽性，箭頭處細胞內可見多個未染色的淋巴球輪廓（被吞入的細胞呈負影），清楚凸顯 emperipolesis，是 Rosai-Dorfman 病的關鍵免疫染色。",
+ "features": [
+  "IHC for S100 at high power",
+  "Large histiocytes with strong nuclear and cytoplasmic S100 staining",
+  "Negative-image intracytoplasmic lymphocytes within a large positive histiocyte (emperipolesis, arrow)",
+  "Engulfed cells retain intact round nuclei with surrounding halos",
+  "Diffuse staining of neighboring histiocytes creates a dense brown background"
+ ],
+ "describe_en": "S100 immunostain at high power shows large histiocytes with strong nuclear and cytoplasmic positivity. A large S100-positive histiocyte contains multiple intact, unstained lymphocytes within its cytoplasm, highlighted as negative images (emperipolesis, arrow). Neighboring histiocytes are also strongly positive. Findings confirm the Rosai-Dorfman histiocyte phenotype (S100+, typically CD68+/CD163+, CD1a−) and are consistent with extranodal Rosai-Dorfman disease.",
+ "ddx": [
+  {
+   "dx": "Langerhans cell histiocytosis",
+   "vs": "LCH is also S100 positive but shows grooved nuclei and CD1a/langerin positivity without emperipolesis."
+  },
+  {
+   "dx": "Metastatic melanoma",
+   "vs": "Melanoma is S100 positive but shows cytologic atypia, nucleoli, and SOX10/HMB45/Melan-A positivity, and lacks emperipolesis."
+  },
+  {
+   "dx": "Interdigitating dendritic cell sarcoma",
+   "vs": "IDCS is S100 positive but forms a spindled-to-ovoid fascicular or whorled neoplasm with atypia, lacking emperipolesis and the plasma cell-rich background."
+  },
+  {
+   "dx": "Hemophagocytic lymphohistiocytosis",
+   "vs": "HLH macrophages are S100 negative and degrade the engulfed cells."
+  }
+ ],
+ "specimen": "tissue",
+ "stain": "IHC: S100",
+ "match": "consistent",
+ "high_yield": true
+}

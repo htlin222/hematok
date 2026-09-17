@@ -1,0 +1,22 @@
+{
+  "id": "61130",
+  "recognize_zh": "周邊血抹片中三顆反應性淋巴球：中間細胞核不規則、胞質淡藍含多個空泡且邊緣呈扇貝狀；右側為大型、胞質深嗜鹼並有胞質泡突（bleb）的細胞；左下為較小的漿細胞樣淋巴球。多形性的反應性淋巴球是傳染性單核球增多症的線索。",
+  "features": [
+    "Large reactive lymphocytes with abundant cytoplasm and heterogeneous appearance",
+    "Center cell: irregular, lobulated nucleus with pale blue vacuolated cytoplasm and scalloped margins",
+    "Right cell: large round nucleus with moderately condensed chromatin and deeply basophilic cytoplasm forming a cytoplasmic bleb",
+    "Lower left cell: smaller lymphocyte with more basophilic cytoplasm at the periphery",
+    "Background red cells normocytic and normochromic; one platelet present"
+  ],
+  "describe_en": "Peripheral blood smear shows several large reactive lymphocytes with a spectrum of morphology. One cell has an irregular, lobulated nucleus with pale blue vacuolated cytoplasm and scalloped borders, another is a large cell with deeply basophilic cytoplasm and a cytoplasmic bleb, and a third is a smaller lymphocyte with peripheral cytoplasmic basophilia. Red cells are unremarkable and blasts are not seen. The heterogeneous reactive lymphocytosis is consistent with infectious mononucleosis, supported clinically by a positive heterophile (monospot) test.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia or other B-cell lymphoproliferative disorder", "vs": "Neoplastic lymphocytes are monotonous with uniform nuclei and clonal on flow cytometry, whereas reactive lymphocytes are heterogeneous in size and cytoplasm."},
+    {"dx": "Acute leukemia (blasts)", "vs": "Blasts have high N:C ratio, fine chromatin and nucleoli rather than abundant basophilic cytoplasm with condensed chromatin."},
+    {"dx": "CMV or acute HIV infection, toxoplasmosis", "vs": "These produce morphologically identical reactive lymphocytes and are separated only by serology or PCR (heterophile-negative)."},
+    {"dx": "Monocyte", "vs": "Monocytes have grey-blue cytoplasm with fine azurophilic granules and a folded nucleus with lacy chromatin, without deep peripheral basophilia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

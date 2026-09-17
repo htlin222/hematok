@@ -1,0 +1,22 @@
+{
+  "id": "61466",
+  "recognize_zh": "許多正常大小紅血球內有細小環狀體，其中不少為雙核點（double chromatin）或一顆紅血球內兩個環狀體；中央白血球胞質內可見吞噬的寄生蟲殘骸與棕色瘧色素，符合惡性瘧（P. falciparum）。",
+  "features": [
+    "Numerous normocytic erythrocytes with small, delicate ring forms; several with double chromatin dots and double infections",
+    "Appliqué (marginal) ring forms at the RBC edge",
+    "Infected RBCs are not enlarged and show no Schüffner stippling",
+    "Central phagocyte (neutrophil) containing phagocytosed parasite material and brown hemozoin granules",
+    "Adjacent immature myeloid cell (metamyelocyte/myelocyte) with coarse chromatin",
+    "No mature trophozoites, schizonts, or gametocytes in this field"
+  ],
+  "describe_en": "Peripheral blood thin smear shows numerous intraerythrocytic ring-form parasites within normal-sized red cells, many with double chromatin dots and multiple rings per cell, including appliqué forms. Infected red cells lack enlargement and Schüffner stippling, and no late trophozoites, schizonts, or gametocytes are seen. A central neutrophil contains ingested parasite remnants and brown malarial pigment, next to an immature granulocyte. Findings are consistent with Plasmodium falciparum infection; parasitemia should be quantified.",
+  "ddx": [
+    {"dx": "Plasmodium vivax", "vs": "Enlarged RBCs with Schüffner dots and ameboid trophozoites are expected, whereas here the rings are tiny and the RBCs normal-sized."},
+    {"dx": "Babesia species", "vs": "Babesia lacks hemozoin pigment and may show extracellular forms and tetrads; pigment in the leukocyte here favors Plasmodium."},
+    {"dx": "Plasmodium malariae", "vs": "Parasitemia is low with band-form trophozoites and rosette schizonts in normal-sized or small RBCs, not a high burden of multiply infected cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62388",
+  "recognize_zh": "兩格末梢血中的淋巴樣細胞核染色質成塊，核輪廓不規則，有小的核芽（nuclear budding）突出，旁邊還有與主核分離的小圓形核碎片（micronucleus），細胞質少、淡藍；背景紅血球與血小板大致正常。在單株 B 細胞淋巴球增多症（MBL）的追蹤抹片上，這種核出芽變化值得注意。",
+  "features": [
+    "Small to intermediate lymphoid cells with scant pale blue cytoplasm and clumped chromatin",
+    "Irregular nuclear contours with small nuclear buds/protrusions",
+    "Small detached round nuclear fragments adjacent to the main nucleus (micronucleus-like), left panel",
+    "Adjacent normal-appearing small mature lymphocyte with dense chromatin for comparison (left panel)",
+    "Background red cells largely normocytic; platelets present; no smudge cells in these fields"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered small to intermediate lymphoid cells with scant pale cytoplasm, coarsely clumped chromatin and irregular nuclear outlines with small nuclear buds. In the left field a small round nuclear fragment lies adjacent to the lymphoid cell, resembling a micronucleus, next to an unremarkable small mature lymphocyte. Red cells and platelets show no significant abnormality in these fields. In a patient with a known monoclonal B-cell lymphocytosis, these nuclear budding changes are noted descriptively; they are not specific and require correlation with flow cytometry and clinical follow-up.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL has a similar CD5+/CD23+ phenotype, so separation from MBL rests on an absolute monoclonal B-cell count ≥5 x10^9/L or tissue/cytopenic disease rather than on nuclear morphology."},
+    {"dx": "Adult T-cell leukemia/lymphoma ('flower cells')", "vs": "ATLL cells show multilobated, clover-leaf nuclei with deep indentations and a CD4+/CD25+ T-cell phenotype, not small buds with separate fragments on B cells."},
+    {"dx": "Sézary cells", "vs": "Sézary cells have cerebriform, finely grooved nuclei rather than discrete nuclear buds and micronuclei."},
+    {"dx": "Apoptotic lymphocytes or drug/radiation-induced nuclear damage", "vs": "Apoptotic cells have condensed, fragmented dense chromatin balls with eosinophilic cytoplasm, and genotoxic injury is suggested by clinical exposure history."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "65034",
+  "recognize_zh": "箭頭所指的紅血球比周圍紅血球略大、顏色較淡，內含一個細胞質環、只有單一紅色染色質點的環狀體（ring form），而且整個視野只見單一感染，符合間日瘧（P. vivax）偏好感染網狀紅血球的特徵。",
+  "features": [
+    "Single infected red cell slightly larger and paler than adjacent erythrocytes",
+    "Intraerythrocytic ring form with thin blue cytoplasmic ring and a single red-purple chromatin dot",
+    "Low parasitemia: no multiply infected cells, no appliqué forms, no gametocytes in this field",
+    "Background erythrocytes are normocytic; scattered platelets and smear artifacts (fiber, scratches)"
+  ],
+  "describe_en": "Thin peripheral blood smear shows a single intraerythrocytic ring-form parasite with a delicate cytoplasmic ring and one chromatin dot. The infected erythrocyte is slightly enlarged and paler than the surrounding red cells, suggesting infection of a reticulocyte. There are no multiply infected erythrocytes, appliqué forms, or banana-shaped gametocytes in this field, and parasitemia appears low. Findings are suggestive of Plasmodium vivax ring form; species confirmation should include review of later-stage forms (amoeboid trophozoites, Schüffner stippling) and/or PCR.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum", "vs": "P. falciparum rings are small and delicate in normal-sized red cells, often with double chromatin dots, appliqué forms and multiple rings per cell, with high parasitemia."},
+    {"dx": "Plasmodium ovale", "vs": "P. ovale also infects enlarged reticulocytes but the host cells are often oval with fimbriated edges and Schüffner dots."},
+    {"dx": "Babesia species", "vs": "Babesia forms are pleomorphic small rings without pigment that may form extracellular clusters and tetrad 'Maltese cross' forms."},
+    {"dx": "Platelet overlying an erythrocyte", "vs": "An overlying platelet shows a halo and granular purple material without a true cytoplasmic ring and chromatin dot in the same focal plane."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3730",
+  "recognize_zh": "極低倍的血液抹片上，紅血球全面聚成不規則、斑駁的大團塊，白血球散布其間，整張片子呈地圖狀，是冷凝球蛋白引起的紅血球凝集。",
+  "features": [
+    "Diffuse clumping of red cells into irregular, confluent aggregates across the entire field",
+    "Aggregates have a mottled, map-like pattern with clear intervening spaces",
+    "Scattered small leukocytes visible as blue dots",
+    "No linear rouleaux arrays",
+    "Cellular detail not assessable at this very low magnification"
+  ],
+  "describe_en": "Very low-power view of a peripheral blood smear shows widespread red cell agglutination, with red cells forming large, irregular, confluent clumps separated by clear spaces throughout the smear. Linear rouleaux are not seen, and individual cell morphology cannot be assessed at this magnification. Findings are consistent with red cell agglutination, which in this context may be due to a cryoglobulin; warming the sample to 37°C, cryoglobulin testing and evaluation for HCV infection are recommended.",
+  "ddx": [
+    {"dx": "Cold agglutinin disease", "vs": "Smear pattern is the same, so DAT (C3d positive) and cold agglutinin titer versus cryoglobulin precipitate testing are needed."},
+    {"dx": "Rouleaux formation", "vs": "Rouleaux form linear stacks of red cells due to paraprotein, not irregular clumps."},
+    {"dx": "Smear preparation artifact", "vs": "Artifactual overlap is confined to thick areas and resolves in the monolayer, while agglutination persists across the feathered edge."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

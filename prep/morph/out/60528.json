@@ -1,0 +1,21 @@
+{
+  "id": "60528",
+  "recognize_zh": "免疫組織化學染色（未標示抗體）中，大量小至中型淋巴樣細胞呈清楚的膜狀棕色陽性、瀰漫分布，其間夾雜細胞核淡染卵圓、陰性的類上皮組織球；陽性淋巴細胞佔多數，符合以 T 細胞為主的浸潤型態。",
+  "features": [
+    "IHC with brown DAB chromogen and hematoxylin counterstain; antibody not labeled",
+    "Diffuse membranous positivity in numerous small-to-medium lymphoid cells",
+    "Positive cells show mildly irregular nuclei outlined by crisp membrane staining",
+    "Interspersed negative larger cells with pale oval nuclei and abundant cytoplasm, resembling epithelioid histiocytes",
+    "Small negative vascular structures traverse the field; faint background cytoplasmic blush"
+  ],
+  "describe_en": "Immunohistochemical stain shows diffuse membranous positivity in a dense population of small-to-medium lymphoid cells with mildly irregular nuclei. Interspersed negative cells with pale oval nuclei and abundant cytoplasm, consistent with epithelioid histiocytes, and small negative vessels are also present. The antibody is not labeled, so the specific lineage marker cannot be read from the image, although the membranous pattern in the predominant lymphoid population is typical of a pan-T-cell marker such as CD3 or CD2. In the context of the title, the findings are compatible with the T-cell-predominant infiltrate of lymphoepithelioid (Lennert) lymphoma, a variant of peripheral T-cell lymphoma, NOS, which requires assessment for aberrant antigen loss and TCR clonality.",
+  "ddx": [
+    {"dx": "Reactive T-cell-rich paracortical hyperplasia", "vs": "Reactive T cells retain all pan-T antigens with a normal CD4:CD8 mix and are polyclonal, whereas PTCL often shows antigen loss (e.g., CD7, CD5) and clonal TCR."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL neoplastic cells express TFH markers (PD1, ICOS, CXCL13) with expanded CD21+ dendritic meshworks around high endothelial venules."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL contains scattered large CD20+ B cells, which would be negative on a T-cell marker and highlighted by CD20."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antibody not labeled",
+  "match": "partial",
+  "high_yield": false
+}

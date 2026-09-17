@@ -1,0 +1,22 @@
+{
+  "id": "60490",
+  "recognize_zh": "免疫組織化學染色 TIA-1 下，大多數中型腫瘤淋巴細胞的胞質呈棕色顆粒狀陽性，顯示細胞毒性顆粒表型；搭配 NK/T 細胞淋巴瘤的背景，這是支持診斷的重要染色，但仍需 EBER 陽性確認。",
+  "features": [
+    "Diffuse sheets of medium-sized lymphoid cells with round to irregular nuclei (hematoxylin counterstain)",
+    "Strong granular to dot-like brown cytoplasmic staining in the majority of tumor cells",
+    "Staining is cytoplasmic, sparing the blue nuclei",
+    "Scattered negative cells interspersed among positive cells",
+    "No clear architecture discernible; focal loose areas with background staining"
+  ],
+  "describe_en": "Immunohistochemical stain for TIA-1 shows a diffuse infiltrate of medium-sized atypical lymphoid cells, the majority of which display strong granular cytoplasmic positivity, with scattered admixed negative cells. The staining pattern indicates a cytotoxic phenotype. TIA-1 positivity is not specific for NK/T-cell lymphoma and must be interpreted with CD3 (cytoplasmic), CD56, granzyme B, and EBER in situ hybridization. In that context, findings are consistent with extranodal NK/T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS with cytotoxic phenotype", "vs": "Cytotoxic PTCL-NOS may be TIA-1 positive but is EBER negative, whereas extranodal NK/T-cell lymphoma is consistently EBV-positive."},
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma", "vs": "MEITL is CD56+ and TIA-1+ but is EBER-negative and typically CD8+ in the intestine with epitheliotropism."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "ANKL shares the NK/cytotoxic EBV+ phenotype but presents systemically with marrow and blood involvement rather than a nasal mass."},
+    {"dx": "Reactive cytotoxic T-cell infiltrate", "vs": "Reactive infiltrates are polymorphous without cytologic atypia or angiocentric necrosis and are EBER negative or only rarely positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: TIA-1",
+  "match": "consistent",
+  "high_yield": false
+}

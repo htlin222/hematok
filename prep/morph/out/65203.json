@@ -1,0 +1,22 @@
+{
+  "id": "65203",
+  "recognize_zh": "周邊血液中嗜酸性球明顯增多，且許多嗜酸性球顆粒分布不均、細胞質有空泡、核分葉異常；骨髓切片與抹片為大量嗜酸性球增生並伴隨發育不良的巨核細胞（核分離），符合慢性嗜酸性球白血病。",
+  "features": [
+    "Low-power peripheral blood with markedly increased eosinophils",
+    "Eosinophils with uneven, sparse or clumped orange granules, degranulated areas, cytoplasmic vacuoles and hypolobated or ring-like nuclei",
+    "Hypercellular marrow with sheets of eosinophils and eosinophilic myelocytes; decreased erythroid precursors",
+    "Aspirate: eosinophil precursors with mixed basophilic-staining and eosinophilic granules",
+    "Dysplastic megakaryocyte with multiple widely separated nuclear lobes; graph shows rapid fall in eosinophil % and absolute count after ruxolitinib"
+  ],
+  "describe_en": "Peripheral blood smear shows marked eosinophilia, with many eosinophils displaying dysplastic features including uneven granulation, partial degranulation, cytoplasmic vacuoles and abnormal nuclear lobation. The bone marrow biopsy is hypercellular with marked eosinophilic proliferation and decreased erythropoiesis, and aspirate smears show eosinophilic precursors and dysplastic megakaryocytes with separated nuclear lobes. The accompanying graph documents a rapid decline in eosinophil percentage and absolute eosinophil count following JAK1/2 inhibitor therapy. In the setting of clonal cytogenetic abnormalities and a JAK1 mutation without tyrosine kinase fusions, findings are consistent with chronic eosinophilic leukemia.",
+  "ddx": [
+    {"dx": "Reactive eosinophilia (parasitic, allergic, drug)", "vs": "Reactive eosinophils can be degranulated or vacuolated, so morphology alone is not decisive; demonstration of clonality (karyotype, NGS) and associated megakaryocytic dysplasia establishes a neoplasm."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and PDGFRA/PDGFRB/FGFR1/JAK2 fusion", "vs": "These must be excluded by FISH/RNA fusion or optical genome mapping, which showed no tyrosine kinase rearrangement here."},
+    {"dx": "Lymphocyte-variant hypereosinophilic syndrome", "vs": "L-HES shows an aberrant T-cell population (e.g., CD3-CD4+) on flow cytometry with polyclonal myeloid cells, and no aberrant T cells were identified here."},
+    {"dx": "MDS/MPN with SF3B1 mutation and thrombocytosis", "vs": "MDS/MPN-SF3B1-T has ring sideroblasts and thrombocytosis but lacks marked eosinophilic proliferation and shows erythroid hyperplasia rather than decreased erythropoiesis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E",
+  "match": "consistent",
+  "high_yield": false
+}

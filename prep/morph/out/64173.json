@@ -1,0 +1,22 @@
+{
+  "id": "64173",
+  "recognize_zh": "肋膜液抹片中可見巨大、多核的漿細胞，細胞質深藍嗜鹼性且可見核周淡染區，另有數顆核偏位、有核周淡染區的小型漿細胞，符合多發性骨髓瘤侵犯肋膜的骨髓瘤性肋膜積液。",
+  "features": [
+    "Giant multinucleated plasma cells (upper right with about 8 nuclei, lower center large cell with multiple overlapping nuclei)",
+    "Deeply basophilic cytoplasm with a pale perinuclear region in the giant cells",
+    "Smaller plasma cells with eccentric round nuclei, clumped chromatin, and perinuclear hof (left)",
+    "Nuclei with coarse chromatin; nucleoli not clearly resolved",
+    "Background of scant red cells, degenerating cells, and proteinaceous material"
+  ],
+  "describe_en": "Cytospin preparation of pleural fluid shows scattered neoplastic plasma cells, including strikingly enlarged multinucleated forms with deeply basophilic cytoplasm and numerous nuclei. Smaller plasma cells with eccentric nuclei, clumped chromatin, and perinuclear hofs are also present. The background contains scant red cells and degenerating cells. In a patient with known multiple myeloma, findings are consistent with myelomatous pleural effusion; confirmation by flow cytometry (CD138/CD38 with light chain restriction) or immunocytochemistry is recommended.",
+  "ddx": [
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells have central nuclei, a two-tone cytoplasm with a peripheral lacy skirt, and form windows between cells, and are calretinin/WT1 positive rather than CD138/light-chain restricted."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells form cohesive three-dimensional clusters with nuclear molding and are cytokeratin positive, unlike discohesive plasma cells with hofs."},
+    {"dx": "Plasmablastic lymphoma or anaplastic large cell lymphoma", "vs": "These show large blastic cells with prominent nucleoli; ALCL hallmark cells are CD30/ALK positive and PBL is often EBER positive without a known myeloma history."},
+    {"dx": "Megakaryocytes or osteoclast-like giant cells contaminating the fluid", "vs": "Megakaryocytes have a single lobulated nucleus with granular pink cytoplasm, and osteoclasts have evenly spaced small nuclei with pink granular cytoplasm rather than basophilic plasma cell cytoplasm."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

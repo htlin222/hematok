@@ -1,0 +1,22 @@
+{
+  "id": "63667",
+  "recognize_zh": "周邊血（A、B）可見大型異常細胞，細胞質充滿粗大深紫色嗜鹼性顆粒且核呈雙葉；骨髓抹片（C）見大量含異染性顆粒、外形不規則的肥大細胞；切片（D）為紡錘形細胞片狀浸潤，CD117 與 tryptase 強陽性、CD25 部分陽性。",
+  "features": [
+    "PB (A, B): large atypical cells with abundant coarse dark purple granules partly obscuring bilobed or irregular nuclei",
+    "BM aspirate (C): numerous atypical mast cells with dense metachromatic granules, irregular to spindled outlines, some hypogranular",
+    "BM biopsy H&E (D): sheets of spindled cells with oval to elongated nuclei and pale eosinophilic cytoplasm next to a bone trabecula",
+    "IHC (E-G): diffuse strong CD117 and tryptase; weaker, partial CD25",
+    "Multipanel composite"
+  ],
+  "describe_en": "Multipanel composite. The peripheral blood smear (A, B) shows circulating large atypical cells with abundant coarse, dark purple cytoplasmic granules and bilobed or irregular nuclei. The bone marrow aspirate (C) contains numerous atypical mast cells with dense metachromatic granules, irregular and focally spindled contours, and variable hypogranularity. The core biopsy (D) shows a dense paratrabecular and interstitial infiltrate of spindled mast cells that are diffusely positive for CD117 (E) and tryptase (F) with partial CD25 expression (G). With mast cells exceeding 20% of aspirate cells, circulating mast cells, and KIT D816V, findings are consistent with mast cell leukemia.",
+  "ddx": [
+    {"dx": "Basophilic leukemia or CML with basophilia", "vs": "Basophils have segmented nuclei with water-soluble granules and are CD117 negative with weak tryptase and no CD25, unlike these CD117/tryptase-strong spindled mast cells."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "Hypergranular promyelocytes have azurophilic granules and Auer rods, are strongly MPO positive, and are tryptase negative."},
+    {"dx": "Systemic mastocytosis with associated hematologic neoplasm (non-leukemic)", "vs": "Non-leukemic SM has mast cells below 20% of aspirate nucleated cells."},
+    {"dx": "Myelomastocytic leukemia", "vs": "Myelomastocytic leukemia has metachromatic blasts in a myeloid neoplasm without SM criteria such as dense tryptase-positive aggregates, CD25, or KIT D816V."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; H&E; IHC: CD117, tryptase, CD25",
+  "match": "consistent",
+  "high_yield": false
+}

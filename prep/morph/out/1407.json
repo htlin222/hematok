@@ -1,0 +1,22 @@
+{
+  "id": "1407",
+  "recognize_zh": "這是血小板凝集試驗曲線圖而非形態圖：以 ADP（A）及花生四烯酸（B）刺激時，藍色曲線（Channel 1）的最大凝集率明顯低於洋紅色曲線（Channel 3），提示血小板功能受抑制，可見於骨髓瘤副蛋白干擾。",
+  "features": [
+    "Light transmission aggregometry tracings, percent aggregation versus time (min:sec)",
+    "Panel A (ADP): Channel 1 (blue) plateaus near 20% aggregation, while Channel 3 (magenta) reaches about 68%",
+    "Panel B (arachidonic acid): Channel 1 (blue) reaches about 55% with a slow slope, while Channel 3 (magenta) reaches about 65%",
+    "Channel 4 (light blue) is a secondary tracing on the right axis, likely ATP release",
+    "Low image resolution; channel assignment (patient vs control) is not labeled in the figure"
+  ],
+  "describe_en": "Light transmission platelet aggregometry is shown with ADP (panel A) and arachidonic acid (panel B) as agonists. With ADP, the Channel 1 tracing shows markedly reduced maximal aggregation (about 20%) compared with Channel 3 (about 68%). With arachidonic acid, Channel 1 shows a slower and lower aggregation response (about 55%) compared with Channel 3 (about 65%). If Channel 1 represents the patient and Channel 3 the normal control, the pattern indicates impaired platelet aggregation, which in multiple myeloma can result from paraprotein coating of platelet membranes. The channel legend is not explicitly labeled, so interpretation depends on the accompanying clinical context.",
+  "ddx": [
+    {"dx": "Aspirin or NSAID effect", "vs": "Aspirin causes an absent arachidonic acid response with a preserved primary ADP wave, whereas this tracing shows the largest defect with ADP."},
+    {"dx": "P2Y12 inhibitor effect (clopidogrel)", "vs": "Morphology cannot help; drug history is needed, as clopidogrel selectively reduces ADP aggregation just like this pattern."},
+    {"dx": "Glanzmann thrombasthenia", "vs": "Glanzmann shows absent aggregation to all agonists except ristocetin, rather than a partial reduction."},
+    {"dx": "Acquired von Willebrand syndrome", "vs": "AVWS primarily reduces ristocetin-induced aggregation and VWF activity, which requires VWF assays rather than ADP/AA tracings."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

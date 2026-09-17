@@ -1,0 +1,22 @@
+{
+  "id": "63571",
+  "recognize_zh": "血片中到處都是一端拉尖的淚滴狀紅血球（dacrocytes），並可見未成熟的骨髓球（myelocyte）與偏多的血小板，這種白紅血球母細胞樣（leukoerythroblastic）變化加上淚滴細胞，強烈提示骨髓纖維化。",
+  "features": [
+    "Numerous teardrop poikilocytes (dacrocytes) with single tapered tails",
+    "Anisopoikilocytosis with occasional larger polychromatic red cells",
+    "Circulating immature granulocytes: myelocytes with round-oval nuclei and granular cytoplasm",
+    "Mature segmented neutrophil also present",
+    "Platelets appear increased, with some variation in size including enlarged forms"
+  ],
+  "describe_en": "Peripheral blood smear shows marked poikilocytosis with numerous teardrop cells (dacrocytes) and mild anisocytosis with scattered polychromatic macrocytes. Immature granulocytes, including myelocytes, are present alongside mature neutrophils, indicating a leukoerythroblastic picture; nucleated red cells are not seen in this field. Platelets appear increased with some size variation. No blasts are identified in this field. Findings are suggestive of primary myelofibrosis; bone marrow biopsy with reticulin staining and JAK2/CALR/MPL testing are recommended.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma or other marrow infiltration (myelophthisis)", "vs": "Myelophthisic anemia produces the same leukoerythroblastic picture with dacrocytes, so marrow biopsy showing tumor cells rather than atypical megakaryocytes with driver mutations is needed."},
+    {"dx": "Post-polycythemia vera / post-ET myelofibrosis", "vs": "Morphology is identical; the distinction depends on a documented prior history of PV or ET."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a much higher leukocytosis with a full spectrum of granulocytes, basophilia and few teardrop cells, and is BCR::ABL1 positive."},
+    {"dx": "Thalassemia / megaloblastic anemia", "vs": "These produce dacrocytes but with target cells/microcytosis or oval macrocytes and hypersegmented neutrophils, without circulating myelocytes and thrombocytosis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

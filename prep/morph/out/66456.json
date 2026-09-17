@@ -1,0 +1,22 @@
+{
+  "id": "66456",
+  "recognize_zh": "骨髓抹片 (A) 幾乎全是中等大小、核質比高、染色質細緻、細胞質少且無顆粒的母細胞；流式 (B) 母細胞 (紅色) CD34、CD19、TdT、cCD79a 陽性而 cMPO、CD10 陰性，加上核型 (C) 與 FISH (D–G) 顯示 KMT2A 與 IGH 雙重重排，故為 B 淋巴母細胞白血病。",
+  "features": [
+    "Panel A: sheets of medium-sized blasts with high N:C ratio, round to slightly irregular nuclei, fine chromatin and scant agranular basophilic cytoplasm; no Auer rods",
+    "Panel B (flow): blast population (red) CD34+, CD19+, cytoplasmic CD79a+, TdT+, with CD22 dim/partial and negative for cMPO, CD33, CD10, cytoplasmic IgM and CD20",
+    "Panel C (karyotype): arrows mark an extra X, t(8;14) and t(11;12) abnormalities",
+    "Panels D–E: IGH and KMT2A break-apart FISH each show one split red/green signal pair plus a fused signal, indicating rearrangement",
+    "Panels F–G: dual-fusion probes show fusion signals for KMT2A::TXNRD1 and SPIDR::IGH; Panel H plots marked CEBPD overexpression versus other B-ALL cases"
+  ],
+  "describe_en": "Bone marrow aspirate smear is replaced by medium-sized blasts with high nuclear-to-cytoplasmic ratio, fine chromatin, inconspicuous nucleoli and scant agranular cytoplasm, without Auer rods. Flow cytometry shows the blasts to express CD34, CD19, cytoplasmic CD79a and TdT, with dim CD22, and to lack myeloperoxidase, CD33, CD10, cytoplasmic IgM and CD20, a CD10-negative (pro-B) immunophenotype. Karyotype demonstrates 47,XX,+X,t(8;14)(q11;q32),t(11;12)(q23;q23), and break-apart and dual-fusion FISH confirm KMT2A and IGH rearrangements with KMT2A::TXNRD1 and SPIDR/CEBPD::IGH fusions, the latter associated with CEBPD overexpression. Findings are consistent with B-lymphoblastic leukemia with concurrent KMT2A and IGH::CEBPD rearrangements.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 blasts are MPO cytochemistry negative but express CD13/CD33/CD117 and lack cytoplasmic CD79a and strong CD19."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL blasts are morphologically identical but express cytoplasmic CD3 and lack CD19/CD79a."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid (KMT2A-rearranged)", "vs": "MPAL requires MPO positivity or monocytic differentiation in addition to B-lineage markers, which is absent here (cMPO negative)."},
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells have deeply basophilic vacuolated cytoplasm, are TdT/CD34 negative with surface light chain and MYC rearrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; flow; karyotype; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61829",
+  "recognize_zh": "CD68 染色在成片的大型腫瘤細胞中呈彌漫、顆粒狀的細胞質陽性（溶酶體型態），僅血管與間質陰性；支持組織球系分化，需與 CD163、PU.1 合併判讀以診斷組織球肉瘤。",
+  "features": [
+    "Diffuse sheets of large cells with abundant cytoplasm",
+    "Strong granular (lysosomal-pattern) cytoplasmic CD68 staining in nearly all tumor cells",
+    "Round to oval nuclei unstained by the chromogen",
+    "Small vessels and stroma negative",
+    "No cohesive epithelial architecture"
+  ],
+  "describe_en": "Immunohistochemical stain for CD68 shows diffuse, strong, granular cytoplasmic positivity in sheets of large neoplastic cells with round to oval nuclei, while small vessels and stromal elements are negative. The granular pattern corresponds to lysosomal staining and supports histiocytic differentiation, although CD68 is not lineage-specific and can be expressed by melanoma, some carcinomas, and myeloid neoplasms. In combination with CD163 and PU.1 positivity and negative dendritic cell, myeloid, lymphoid, and epithelial markers, findings are consistent with histiocytic sarcoma.",
+  "ddx": [
+    {"dx": "Myeloid sarcoma (monocytic)", "vs": "Monoblastic myeloid sarcoma may be CD68+ but typically also expresses lysozyme, CD34/CD117 or MPO in part, and shows blastic chromatin with a clinical myeloid neoplasm."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL is CD30+ with T-cell or ALK expression and lacks CD163/PU.1 in the tumor cells."},
+    {"dx": "Melanoma", "vs": "Melanoma may show granular CD68 but is S100/SOX10/HMB45 positive and CD163 negative."},
+    {"dx": "Reactive histiocyte-rich infiltrate", "vs": "Reactive histiocytes lack the cytologic atypia, mitoses, and destructive sheet-like growth of histiocytic sarcoma."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD68",
+  "match": "consistent",
+  "high_yield": false
+}

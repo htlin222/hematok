@@ -1,0 +1,21 @@
+{
+  "id": "65372",
+  "recognize_zh": "周邊血液抹片中散布數顆中型淋巴樣細胞，核圓、細胞質淡藍灰且四周有細毛狀突起，一片視野就看到多顆這種毛細胞，指向毛細胞白血病。",
+  "features": [
+    "Several medium-sized mononuclear cells with round to oval nuclei and moderately condensed chromatin",
+    "Moderate pale blue-gray cytoplasm with fine circumferential hair-like projections",
+    "No conspicuous nucleoli",
+    "An irregular purple aggregate at lower field, likely a platelet clump or smudged cell",
+    "Thick-area background with closely packed red cells"
+  ],
+  "describe_en": "Peripheral blood smear at moderate magnification shows several medium-sized lymphoid cells with round nuclei, moderately condensed chromatin and pale gray-blue cytoplasm with fine circumferential hair-like projections. Nucleoli are not prominent. An irregular purple aggregate likely represents a platelet clump or smudged cell. Normal neutrophils and monocytes are not seen in this field. Findings are suggestive of hairy cell leukemia; flow cytometric confirmation (CD11c, CD25, CD103, CD123) and BRAF V600E testing are recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "Cells have a distinct central nucleolus and are CD25/ANXA1 negative with wild-type BRAF."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Villous lymphocytes show short polar villi, more condensed chromatin and sometimes plasmacytoid features, without CD103/CD123 co-expression."},
+    {"dx": "Large granular lymphocytic leukemia", "vs": "LGL cells have abundant cytoplasm with azurophilic granules and smooth borders rather than hairy projections."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

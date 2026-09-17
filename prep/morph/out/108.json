@@ -1,0 +1,44 @@
+{
+  "id": "108",
+  "recognize_zh": "血片滿是小而成熟、染色質塊狀的淋巴球並有多量破碎細胞（smudge cells）；骨髓切片被小淋巴球瀰漫取代，其間有較大、核仁明顯的前淋巴球/類免疫母細胞（prolymphocytes/paraimmunoblasts）聚集；流式為 CD19+ B 細胞共表現弱 CD5 與 CD23、輕鏈表現極弱，符合 CLL。",
+  "features": [
+    "Peripheral blood: marked absolute lymphocytosis of small mature lymphocytes with round nuclei, clumped chromatin and scant cytoplasm, with numerous smudge cells",
+    "Bone marrow biopsy: markedly hypercellular marrow with diffuse, packed infiltration by small round lymphocytes and paler areas containing larger cells with vesicular chromatin and distinct nucleoli (proliferation-center-like), residual megakaryocytes",
+    "Bone marrow aspirate: sheets of small lymphocytes with scattered larger prolymphocytes bearing prominent nucleoli (arrows); a megakaryocyte is present",
+    "IHC: diffuse positivity of the infiltrate for a nuclear marker and a membranous marker, scattered membranous-positive small T cells, a minority of nuclear-positive cells with a second nuclear marker, and heterogeneous cytoplasmic/nuclear staining with a further marker (antibodies not labeled on the images)",
+    "Flow cytometry: CD19+ B cells about 79% of living events, dim CD5 (dimmer than T cells) with variable CD23, moderate CD20, heterogeneous partial CD38, and very dim surface light chain",
+    "T-cell tubes: residual CD3+CD2+ T cells with both CD4+ and CD8+ subsets; the dominant population is CD3/CD2/CD4/CD8 negative"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked lymphocytosis composed of small, mature-appearing lymphocytes with condensed, clumped chromatin and scant cytoplasm, accompanied by numerous smudge cells. The bone marrow core biopsy is markedly hypercellular and diffusely replaced by small lymphocytes, with vaguely paler zones containing larger cells with open chromatin and nucleoli consistent with prolymphocytes/paraimmunoblasts; residual trilineage hematopoiesis is reduced. The aspirate confirms sheets of small lymphocytes with a minor admixed population of prolymphocytes. Immunohistochemistry shows the infiltrate to be diffusely positive for the B-lineage/CLL markers applied, with scattered background T cells; the specific antibodies are not labeled in the images. Flow cytometry identifies a dominant CD19+ B-cell population with dim CD5, CD23 expression, moderate CD20, partial CD38 and very dim light chain, and trisomy 12 cannot be assessed morphologically. Findings are consistent with extensive involvement by chronic lymphocytic leukemia/small lymphocytic lymphoma.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells are CD5+ but usually CD23 negative with bright CD20 and brighter light chain, show irregular nuclei, and are cyclin D1/SOX11 positive, whereas CLL is CD23+ with dim CD20 and dim light chain."},
+    {"dx": "B-prolymphocytic leukemia or CLL with increased prolymphocytes", "vs": "B-PLL requires >55% prolymphocytes in blood with prominent nucleoli, whereas here prolymphocytes are a minority among small clumped-chromatin lymphocytes."},
+    {"dx": "Richter transformation (diffuse large B-cell lymphoma)", "vs": "Richter shows confluent sheets of large cells with high Ki-67, whereas the large cells here are scattered or clustered in proliferation-center-like zones against a small-cell background."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL cells usually have more cytoplasm, lack smudge-cell-rich smears, and are CD5 and CD23 negative with brighter CD20 and light chain."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC (unlabeled); flow",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood smear: small mature lymphocytes with numerous smudge cells",
+    "Bone marrow biopsy H&E, low power: hypercellular marrow diffusely replaced by lymphoid infiltrate",
+    "Bone marrow biopsy H&E, medium power: small lymphocytes with paler proliferation-center-like zones",
+    "Bone marrow biopsy H&E, high power: small lymphocytes admixed with larger nucleolated prolymphocytes/paraimmunoblasts",
+    "Bone marrow biopsy H&E, paratrabecular area: lymphoid infiltrate with residual hematopoietic cells",
+    "IHC (antibody not labeled): diffuse nuclear positivity in nearly all infiltrating cells",
+    "IHC (antibody not labeled): scattered membranous-positive small cells, likely background T cells",
+    "IHC (antibody not labeled): diffuse membranous positivity of the infiltrate; arrows mark individual cells",
+    "IHC (antibody not labeled): nuclear positivity in a minority of cells; solid arrows positive, open arrows negative",
+    "IHC (antibody not labeled): heterogeneous cytoplasmic and nuclear staining with brighter scattered cells",
+    "Bone marrow aspirate, high power: small lymphocytes with admixed prolymphocytes (arrows) and a megakaryocyte",
+    "Bone marrow aspirate, low power: lymphocyte-rich aspirate with megakaryocyte; arrow marks a prolymphocyte",
+    "Flow cytometry CD19 vs side scatter: CD19+ B cells 78.84% of living cells",
+    "Flow cytometry, B-cell gate: dim CD5 with variable CD23 expression",
+    "Flow cytometry, B-cell gate: moderate CD20 with heterogeneous partial CD38",
+    "Flow cytometry, lymphocyte gate: B cells with dimmer CD5 than T cells; partial CD38",
+    "Flow cytometry, B-cell gate: very dim kappa and lambda surface light chain",
+    "Flow cytometry, ungated: CD4+ and CD8+ T-cell subsets with a large CD4/CD8 negative population",
+    "Flow cytometry, lymphocyte gate: minor CD3+CD2+ T cells and dominant CD3/CD2 negative cells"
+  ]
+}

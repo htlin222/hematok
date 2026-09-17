@@ -1,0 +1,22 @@
+{
+  "id": "62754",
+  "recognize_zh": "子宮內膜息肉在低倍下看似良性，但箭頭處血管內塞滿大型異型淋巴細胞；免疫染色中陽性的腫瘤細胞被局限在內皮標記勾勒出的血管腔內，IGH PCR 呈單一克隆峰，符合血管內大 B 細胞淋巴瘤。",
+  "features": [
+    "Low power: endometrial polyp stroma with hemorrhage and focal vessels showing hypercellular lumens (arrows)",
+    "Vascular lumen distended by large atypical lymphoid cells with vesicular nuclei and prominent nucleoli",
+    "Membranous immunostaining of large neoplastic cells confined within vascular spaces",
+    "Endothelial immunostain outlines vessel walls surrounding the intraluminal tumor cells",
+    "IGH PCR (FR1, FR2) shows dominant monoclonal peaks"
+  ],
+  "describe_en": "Sections of an endometrial polyp show, at low power, stroma with hemorrhage and scattered vessels whose lumens appear hypercellular (arrows). At high power, the vessels are filled by large atypical lymphoid cells with vesicular nuclei, prominent nucleoli, and brisk mitotic activity, without a significant extravascular mass. Immunostains show strong membranous positivity of the intraluminal tumor cells, and an endothelial marker outlines the vascular walls confining them; the specific antibodies are not labeled in the image. IGH PCR demonstrates monoclonal rearrangement in FR1 and FR2. Findings are consistent with intravascular large B-cell lymphoma involving an endometrial polyp.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma with secondary vascular invasion", "vs": "DLBCL forms a solid extravascular mass with only incidental vascular spread, whereas IVLBCL cells are restricted to vessel lumens."},
+    {"dx": "Intravascular NK/T-cell lymphoma", "vs": "Intravascular NK/T-cell lymphoma is CD20-negative, CD3/CD56-positive, and EBER-positive, rather than a clonal B-cell population on IGH PCR."},
+    {"dx": "Leukemic cells or marginated leukocytes in vessels", "vs": "Circulating leukocytes are mixed small mature cells, not a monotonous population of large atypical B cells packing the lumen."},
+    {"dx": "Intravascular carcinoma or lymphovascular tumor emboli", "vs": "Carcinoma emboli form cohesive keratin-positive epithelial clusters, whereas lymphoma cells are discohesive and CD45/CD20-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (unlabeled); IGH PCR",
+  "match": "consistent",
+  "high_yield": false
+}

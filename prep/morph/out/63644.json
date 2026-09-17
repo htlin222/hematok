@@ -1,0 +1,22 @@
+{
+  "id": "63644",
+  "recognize_zh": "箭頭標出細長兩端尖的鐮刀狀紅血球（sickle cell）、細胞邊緣有透明泡狀缺口的水泡／咬痕細胞（blister/bite cell），以及數顆有核紅血球（nucleated RBC），背景白血球數量偏多，符合鐮刀型血紅素病合併氧化溶血的表現。",
+  "features": [
+    "Occasional elongated sickle cell with tapered ends (arrow)",
+    "Blister/bite cell with a clear peripheral hemoglobin-free zone (arrow)",
+    "Several nucleated red blood cells with condensed nuclei (arrows)",
+    "Many segmented neutrophils in the field, suggesting leukocytosis",
+    "Anisopoikilocytosis with polychromatic cells and scattered small dense red cells"
+  ],
+  "describe_en": "Peripheral blood smear shows anisopoikilocytosis with scattered sickle cells, blister/bite cells with eccentric clear hemoglobin-free zones, and polychromatic red cells. Several nucleated red blood cells are present, and neutrophils appear increased in number. Findings are consistent with a sickling hemoglobinopathy with superimposed oxidative-type hemolysis; the blister/bite cells raise the possibility of coexisting G6PD deficiency or oxidant exposure, and correlation with hemoglobin fractionation and G6PD assay is recommended.",
+  "ddx": [
+    {"dx": "G6PD deficiency without sickling disorder", "vs": "G6PD deficiency shows bite/blister cells and Heinz bodies but no sickle cells, with normal hemoglobin electrophoresis."},
+    {"dx": "Hemoglobin SC disease", "vs": "HbSC shows crystal-containing cells and many target cells with fewer classic sickle forms, and HbC on electrophoresis."},
+    {"dx": "Elliptocytes/pencil cells", "vs": "Elliptocytes have blunt rounded ends and lack the pointed crescent shape of sickle cells."},
+    {"dx": "Microangiopathic hemolytic anemia", "vs": "MAHA shows helmet cells and schistocytes with sharp angular fragments rather than cells with a preserved outline and a peripheral blister."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

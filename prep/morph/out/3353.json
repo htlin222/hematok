@@ -1,0 +1,21 @@
+{
+  "id": "3353",
+  "recognize_zh": "間期細胞核 FISH 影像：一個黃色融合訊號代表正常等位基因，另有分開的紅色與綠色訊號，表示 ALK 分離探針（break-apart）斷裂重排，支持 ALK 陽性間變性大細胞淋巴瘤。",
+  "features": [
+    "Single interphase nucleus counterstained blue with DAPI",
+    "One fused yellow (red-green overlapping) signal representing an intact allele",
+    "One separate green signal and one separate red signal widely apart, indicating a split",
+    "Signal pattern 1F1R1G is consistent with rearrangement of the probed locus",
+    "Single cell shown; percentage of abnormal nuclei cannot be assessed from this image"
+  ],
+  "describe_en": "Interphase fluorescence in situ hybridization with a dual-color break-apart probe shows a DAPI-counterstained nucleus with one fused yellow signal and one separated red and green signal pair (1F1R1G). The separated signals indicate a break within the probed locus on one allele, while the fused signal represents the normal allele. In the context of anaplastic large cell lymphoma, this pattern is consistent with ALK (2p23) rearrangement, most commonly t(2;5)(p23;q35) NPM1::ALK; only a single nucleus is shown, so the proportion of abnormal cells must be taken from the full scoring report.",
+  "ddx": [
+    {"dx": "Normal (unrearranged) signal pattern", "vs": "A normal nucleus shows two fused yellow signals (2F), without separated red and green signals."},
+    {"dx": "Truncation artifact or signal overlap", "vs": "Apparent splits due to nuclear three-dimensionality are small (less than two signal diameters), whereas true rearrangements show widely separated signals as here."},
+    {"dx": "DUSP22 or TP63 rearrangement in ALK-negative ALCL", "vs": "These are detected with their own locus-specific break-apart probes and occur with ALK immunostain negativity."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: break-apart probe (likely ALK)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2588",
+  "recognize_zh": "周邊血液中一顆單核白血球旁邊有一小群大小一致的深藍色圓形球菌，排列成葡萄串狀（grape-like clusters），提示葡萄球菌菌血症；但細菌位於細胞外，須排除污染並以血液培養確認。",
+  "features": [
+    "Cluster of uniform, small, round, dark-blue cocci arranged in grape-like groups",
+    "Organisms lie extracellularly adjacent to a leukocyte; no definite intracellular organisms in this cell",
+    "Mononuclear leukocyte with round nucleus, moderately condensed chromatin and a rim of basophilic cytoplasm",
+    "A few scattered single cocci elsewhere in the background",
+    "Thick area of smear with red cells aggregated in rouleaux-like sheets"
+  ],
+  "describe_en": "Peripheral blood smear, in a thick area with aggregated red cells, shows a cluster of uniform round, dark-staining cocci arranged in small grape-like clusters adjacent to a mononuclear leukocyte, with a few isolated cocci scattered nearby. The leukocyte has a round nucleus and a rim of basophilic cytoplasm and does not contain phagocytosed organisms. Because the bacteria are extracellular, contamination during collection or staining cannot be excluded on morphology alone. Findings are suggestive of staphylococcal bacteremia in the appropriate clinical setting; blood culture and Gram stain confirmation are required.",
+  "ddx": [
+    {
+      "dx": "Contaminant bacteria or stain precipitate",
+      "vs": "Contaminants and precipitate are extracellular and often in variable focal planes, whereas true sepsis is supported by organisms phagocytosed within neutrophils and a positive blood culture."
+    },
+    {
+      "dx": "Streptococcal bacteremia",
+      "vs": "Streptococci form pairs or chains rather than irregular grape-like clusters and are catalase negative."
+    },
+    {
+      "dx": "Platelets or Pappenheimer-like debris",
+      "vs": "Platelets are larger, irregular and granular with a pale hyalomere, while cocci are small, perfectly round and uniformly dense."
+    }
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

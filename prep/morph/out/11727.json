@@ -1,0 +1,21 @@
+{
+  "id": "11727",
+  "recognize_zh": "這是 CSF 流式細胞圖：CD19 陽性 B 細胞表現 FMC7（部分偏陽性移位）、CD23 陰性，這種 FMC7+ CD23- 的組合配合先前 CD5 陽性，是區分被套細胞淋巴瘤與慢性淋巴球白血病（CD23+ FMC7-）的關鍵。",
+  "features": [
+    "CD45 vs SSC: CD45-bright, low side scatter lymphoid gate with about 97% of events",
+    "CD19 vs FMC7: CD19-positive B cells show dim to moderate FMC7 expression, with a large fraction crossing into the positive quadrant",
+    "CD19 vs CD23: CD19-positive B cells are CD23-negative",
+    "Separate CD19-negative population (T cells) negative for FMC7 and CD23",
+    "Total events about 5,800"
+  ],
+  "describe_en": "Flow cytometric analysis of the cerebrospinal fluid gated on CD45-bright lymphocytes shows a predominant CD19-positive B-cell population with partial to dim-moderate FMC7 expression and absent CD23 expression, alongside a minor CD19-negative T-cell population. Together with CD5 co-expression, CD10 negativity and kappa light chain restriction, this CD5+, CD23-, FMC7+ monoclonal B-cell phenotype is characteristic of mantle cell lymphoma involving the CSF; cyclin D1 or t(11;14) confirmation is recommended.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL is CD23-positive and FMC7-negative with dim CD20 and light chain, the reverse of this CD23-negative FMC7-positive profile."},
+    {"dx": "Atypical CLL / CD5-positive marginal zone lymphoma", "vs": "Some CD5+ non-MCL lymphomas are CD23-negative, so cyclin D1/SOX11 immunostaining or CCND1 rearrangement is needed for definitive separation."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma is CD10-positive and CD5-negative, unlike this CD5-positive CD10-negative population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

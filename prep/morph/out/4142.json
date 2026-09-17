@@ -1,0 +1,21 @@
+{
+  "id": "4142",
+  "recognize_zh": "周邊血液低倍下可見多顆中型、核質比高、核圓且細胞質稀少的單核細胞，數量明顯多於旁邊唯一的嗜中性球，提示循環母細胞；此倍率無法看清染色質與核仁，T 淋巴母細胞需流式確認。",
+  "features": [
+    "Increased circulating medium-sized mononuclear cells with very high N:C ratio",
+    "Round nuclei with scant cytoplasm; chromatin and nucleoli not resolvable at low power",
+    "Only a single mature neutrophil in the field, suggesting relative neutropenia",
+    "Red cells show rouleaux-like stacking and scattered target-like forms, likely thick-area artifact",
+    "Platelets appear decreased in this field"
+  ],
+  "describe_en": "Low-power peripheral blood smear shows numerous medium-sized mononuclear cells with high nuclear-to-cytoplasmic ratio and round nuclei, while mature neutrophils are sparse and platelets appear reduced. Red cells show stacking and target-like forms in a thicker area of the smear. Cytologic detail is limited at this magnification. Findings are suggestive of circulating blasts and, in context, consistent with T-lymphoblastic leukemia; flow cytometry (cytoplasmic CD3, TdT, CD7) is required.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are morphologically indistinguishable and require flow cytometry showing CD19/CD79a rather than cytoplasmic CD3."},
+    {"dx": "Acute myeloid leukemia (minimally differentiated)", "vs": "AML blasts may have granules or Auer rods and express MPO/CD13/CD33/CD117."},
+    {"dx": "Mature lymphocytosis (CLL)", "vs": "CLL cells have clumped mature chromatin, smudge cells and a CD5+/CD23+ B-cell phenotype."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3369",
+  "recognize_zh": "骨髓（凝塊/切片）免疫染色中，大量大型細胞的豐富細胞質呈棕色顆粒狀陽性、並有樹枝狀突起，在造血細胞與脂肪空泡間成片分布，代表組織球標記（多為 CD68 或 CD163）凸顯的骨髓組織球增多。",
+  "features": [
+    "Immunohistochemical stain of marrow with numerous positive large cells showing brown granular cytoplasmic staining",
+    "Positive cells have abundant cytoplasm and dendritic/irregular outlines, forming a confluent central aggregate",
+    "Negative background hematopoietic cells with blue hematoxylin-stained nuclei",
+    "Numerous round clear fat spaces throughout the fragment",
+    "Antibody not labeled; staining pattern is compatible with a histiocytic marker"
+  ],
+  "describe_en": "Immunohistochemical stain of a bone marrow particle/clot section shows a markedly increased population of large cells with abundant granular cytoplasmic positivity and irregular dendritic outlines, forming confluent aggregates among fat spaces and negative hematopoietic elements. The antibody is not labeled in the image; the granular cytoplasmic pattern is most consistent with a histiocytic marker such as CD68 or CD163. Findings support marked marrow histiocytosis; correlation with H&E morphology for hemophagocytosis or storage features and with clinical data is needed to determine the cause.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH shows CD163-positive histiocytes containing engulfed hematopoietic cells, which requires H&E or CD163 high-power review and clinical HLH criteria."},
+    {"dx": "Storage disease (Gaucher, Niemann-Pick)", "vs": "Storage histiocytes are CD68 positive too but show distinctive cytoplasmic morphology on H&E and aspirate with enzymatic confirmation."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are CD1a/langerin positive with grooved nuclei, whereas CD68/CD163 alone does not identify Langerhans cells."},
+    {"dx": "Myeloid (monocytic) infiltrate", "vs": "Monocytic leukemic cells may also express CD68/CD163 but are smaller, blast-like and co-express CD34/CD117 or lysozyme with abnormal flow phenotype."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: histiocytic marker (likely CD68/CD163)",
+  "match": "consistent",
+  "high_yield": false
+}

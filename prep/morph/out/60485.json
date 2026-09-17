@@ -1,0 +1,22 @@
+{
+  "id": "60485",
+  "recognize_zh": "免疫染色中一群大型腫瘤細胞呈強烈的細胞質與膜陽性，部分有核旁點狀加強（Golgi 區），背景小細胞為陰性；依描述為 CD3 陽性的大細胞，對應 ALK 陽性未分化大細胞淋巴瘤（ALCL）。",
+  "features": [
+    "Numerous large tumor cells with strong cytoplasmic and membranous positivity",
+    "Perinuclear/paranuclear dot-like accentuation in many cells (Golgi pattern)",
+    "Large, round to kidney-shaped nuclei visible as negative centers within stained cytoplasm",
+    "Cohesive-appearing sheet-like distribution of positive cells",
+    "Intervening negative background cells with blue hematoxylin counterstain"
+  ],
+  "describe_en": "Immunohistochemical stain (reported as CD3) shows a dense population of large neoplastic cells with strong cytoplasmic and membranous staining, frequently with paranuclear Golgi-type accentuation, while intervening smaller background cells are negative. The positive cells have large round to reniform nuclei. CD3 is lost in a majority of ALK-positive ALCL, so positivity here is an uncommon but recognized finding; diagnosis rests on strong uniform CD30 and ALK expression. Findings support a T-cell lineage large cell lymphoma, consistent with the provided diagnosis of ALK-positive anaplastic large cell lymphoma.",
+  "ddx": [
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "Morphologically and CD30-identical, but lacks ALK protein expression and ALK rearrangement."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with CD30 expression", "vs": "Shows more heterogeneous, weaker CD30 staining and lacks the uniform hallmark cell population and ALK expression."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Reed-Sternberg cells are CD15/PAX5 weakly positive, usually CD3 and EMA negative, and scattered in an inflammatory background rather than forming sheets."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Cohesive large cells in sinuses may mimic ALCL but express keratin or S100/SOX10 and lack T-cell markers and CD30/ALK."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

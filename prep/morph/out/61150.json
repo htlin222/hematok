@@ -1,0 +1,21 @@
+{
+  "id": "61150",
+  "recognize_zh": "骨髓切片 CD117 染色：中至大型、胞質豐富的細胞呈強烈膜狀加胞質棕色陽性，聚集成片與小簇，周圍小型造血細胞為陰性，顯示大量 CD117 強陽性的肥大細胞浸潤。",
+  "features": [
+    "Confluent sheets and clusters of medium to large cells with strong membranous and cytoplasmic CD117 staining",
+    "Positive cells are polygonal with abundant cytoplasm and oval, pale nuclei",
+    "Sharp demarcation between the positive infiltrate and CD117-negative small hematopoietic cells",
+    "Residual megakaryocyte-sized negative cells and fat spaces in the background",
+    "Infiltrate occupies most of the lower half of the field"
+  ],
+  "describe_en": "Bone marrow biopsy stained for CD117 shows a dense infiltrate of medium to large polygonal cells with abundant cytoplasm and strong membranous and cytoplasmic CD117 positivity, forming confluent sheets and smaller aggregates. The residual small hematopoietic cells are negative. The pattern and extent of CD117-bright cells indicate extensive marrow infiltration by mast cells, consistent with mast cell leukemia when correlated with tryptase, CD25 and aspirate mast cell count.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "CD117-positive myeloblasts are smaller with high N:C ratio and are CD34/MPO-positive and tryptase-negative."},
+    {"dx": "Gastrointestinal stromal tumor or melanoma metastasis", "vs": "These CD117-positive tumors are spindled or epithelioid masses that are DOG1 or SOX10/melan-A positive, respectively, and tryptase-negative."},
+    {"dx": "Myeloma with aberrant CD117", "vs": "Plasma cells are CD138-positive with light-chain restriction and have plasmacytoid cytology."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD117",
+  "match": "consistent",
+  "high_yield": false
+}

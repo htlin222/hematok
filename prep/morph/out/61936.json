@@ -1,0 +1,22 @@
+{
+  "id": "61936",
+  "recognize_zh": "A 圖血片中黑色箭頭為核不規則、細胞質含顆粒的大型顆粒淋巴球（LGL），綠色箭頭為中型芽細胞，染色質細緻、可見核仁、無 Auer 小體，背景紅血球多呈棘狀（crenated）；B 圖骨髓抹片中有多個芽細胞（綠色箭頭）與小型異型淋巴球（黑色箭頭）；同時存在兩群異常細胞是本例 AML 合併 LGL 白血病的線索。",
+  "features": [
+    "A (blood): large granular lymphocyte with irregular, condensed nucleus and moderate cytoplasm (black arrow)",
+    "A: medium-sized blast with high N:C ratio, fine chromatin, visible nucleolus and a rim of basophilic cytoplasm, no Auer rods (green arrowhead)",
+    "Numerous crenated red cells (echinocytes), likely a preparation artifact",
+    "B (marrow aspirate): several large blasts with fine chromatin, nucleoli and moderate basophilic cytoplasm without Auer rods (green arrowheads)",
+    "B: smaller lymphoid cells with condensed chromatin and scant cytoplasm (black arrows), plus an erythroid precursor with clumped chromatin",
+    "Granules in the lymphoid cells are subtle at this resolution"
+  ],
+  "describe_en": "Peripheral blood smear (A) shows a circulating medium-sized blast with a high N:C ratio, fine chromatin, a visible nucleolus and no Auer rods, adjacent to a lymphoid cell with an irregular condensed nucleus and moderate cytoplasm consistent with a large granular lymphocyte; red cells show prominent crenation, likely artifactual. Bone marrow aspirate (B) shows multiple blasts with fine chromatin, nucleoli and moderate basophilic cytoplasm without Auer rods, together with smaller atypical lymphoid cells and erythroid precursors. The coexistence of blasts and a distinct population of atypical lymphocytes indicates two separate abnormal populations. Findings are consistent with acute myeloid leukemia with a concomitant large granular lymphocyte proliferation, which in this case was confirmed by flow cytometry as a clonal CD8+/CD57+ T-LGL leukemia.",
+  "ddx": [
+    {"dx": "Reactive large granular lymphocytosis", "vs": "Reactive LGL expansions are polyclonal by TCR V-beta or TRG studies and usually transient, whereas LGL leukemia shows a persistent clonal CD8+/CD57+ population often with STAT3 mutation."},
+    {"dx": "Acute leukemia with maturation of blasts into monocytes", "vs": "Monocytic cells have folded nuclei and gray-blue cytoplasm with fine vacuoles and are CD14/CD64-positive, unlike the CD3+/CD8+ LGL population."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia cells are CD3-negative, CD56-positive and EBV-positive with a fulminant course, whereas this LGL population is surface CD3-positive and TCR-restricted."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

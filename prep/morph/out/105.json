@@ -1,0 +1,38 @@
+{
+  "id": "105",
+  "recognize_zh": "皮膚照片可見軀幹、背部大範圍色素沉著斑塊並有手掌角化脫屑；周邊血抹片中有小至中型、核輪廓不規則且染色質濃縮的淋巴球，流式細胞儀顯示 CD4+ T 細胞群失去 CD7 與 CD26，符合蕈狀肉芽腫（mycosis fungoides）侵犯血液。",
+  "features": [
+    "Small to intermediate-sized atypical lymphocytes with high N:C ratio and scant pale-blue cytoplasm",
+    "Nuclei with irregular, indented to subtly folded contours and dense, coarsely clumped chromatin; nucleoli not evident",
+    "Occasional larger lymphoid cell with more abundant cytoplasm (reactive-appearing) admixed; red cells and platelets unremarkable",
+    "Flow cytometry: CD3+ T cells predominate with a dominant CD4+ (dim), CD8-negative population and very few CD8+ cells",
+    "The expanded CD4+ population is CD7-negative and CD26-negative, whereas a minor residual CD4+ subset retains CD7",
+    "Clinical photos: widespread hyperpigmented patches and plaques over chest, abdomen and back, with scaling and fissuring of the palm"
+  ],
+  "describe_en": "Clinical photographs show extensive hyperpigmented, partly scaly patches and plaques involving the anterior trunk and back, with palmar scaling and fissuring. The peripheral blood smear contains small to intermediate-sized lymphocytes with high N:C ratio, dense chromatin and irregular, indented nuclear contours; convincing cerebriform folding is subtle at this magnification. Flow cytometry of the lymphocyte gate shows a predominance of CD3+ T cells with a markedly increased CD4:CD8 ratio, and the dominant CD4+ population shows loss of CD7 and CD26, with a small residual CD7+ CD4+ subset. Findings are consistent with peripheral blood involvement by mycosis fungoides (circulating Sezary-type cells) in a patient with known cutaneous disease.",
+  "ddx": [
+    {"dx": "Reactive lymphocytosis / benign inflammatory dermatosis (erythroderma)", "vs": "Reactive T cells retain CD7 and CD26 with a normal or mildly increased CD4:CD8 ratio and lack a clonal TCR rearrangement, unlike the CD7-/CD26- CD4+ population here."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows polylobated 'flower' cells, is typically CD25 bright and CD7-negative, and requires HTLV-1 serology for separation."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells have a visible nucleolus and cytoplasmic blebs, usually retain CD7, express TCL1, and present with very high lymphocyte counts."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells have round nuclei with block-like chromatin and are CD5+/CD23+ B cells (CD19+, dim light chain) rather than CD3+/CD4+ T cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Anterior trunk with widespread hyperpigmented patches and plaques",
+    "Back with confluent hyperpigmented, scaly patches",
+    "Palm with hyperpigmentation, scaling and fissuring",
+    "PB: atypical lymphocyte with dense chromatin and irregular nuclear outline",
+    "PB: two lymphocytes with dense chromatin and slightly irregular contours",
+    "PB: small atypical lymphocytes with indented nuclei and scant cytoplasm",
+    "PB: small atypical lymphocyte next to a larger reactive-appearing lymphocyte",
+    "Flow CD45 vs side scatter: lymphocytes 64.45% of live cells",
+    "Flow CD3 vs side scatter: CD3+ T cells 60.90%",
+    "Flow CD4 vs CD8 (lymphocytes): dominant CD4+ population, few CD8+ cells",
+    "Flow CD4 vs side scatter (CD3 gate): CD4+ T cells 99.76% of gated",
+    "Flow CD7 vs CD4: dominant CD4+ population is CD7-negative",
+    "Flow CD26 vs CD4: dominant CD4+ population is CD26-negative"
+  ]
+}

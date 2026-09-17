@@ -1,0 +1,21 @@
+{
+  "id": "60093",
+  "recognize_zh": "骨髓切片印片（touch imprint）上成片的芽細胞，核質比高、核形不規則並有凹陷或裂溝、染色質細緻、細胞質淡藍含小空泡，幾乎看不到成熟造血細胞；芽細胞為主，符合 AML。",
+  "features": [
+    "Sheets of blasts with virtually no maturing hematopoietic elements",
+    "High N:C ratio with irregular, notched or cleaved nuclear contours",
+    "Fine chromatin with occasional small nucleoli",
+    "Pale blue cytoplasm with small vacuoles; no definite Auer rods",
+    "Background of bubbly lipid/crush artifact typical of an imprint preparation"
+  ],
+  "describe_en": "Touch imprint of the bone marrow core biopsy shows sheets of blasts with essentially no residual maturing hematopoietic cells. The blasts have a high N:C ratio, irregular nuclear contours with notches and occasional cleaves, fine chromatin, and pale blue vacuolated cytoplasm. No definite Auer rods are identified, and a bubbly background artifact is present from the imprint technique. Findings are consistent with acute myeloid leukemia, in this clinical setting therapy-related.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have more abundant gray-blue cytoplasm with delicate nuclear folds and are nonspecific esterase positive with CD14/CD64 expression."},
+    {"dx": "Lymphoblastic leukemia", "vs": "Lymphoblasts may also have irregular nuclei; MPO negativity and lymphoid markers by flow cytometry separate them."},
+    {"dx": "Metastatic small round cell tumor", "vs": "Tumor cells form cohesive clusters or rosettes and are CD45-negative, whereas these blasts are dyscohesive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa (touch imprint)",
+  "match": "consistent",
+  "high_yield": false
+}

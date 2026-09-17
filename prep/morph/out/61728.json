@@ -1,0 +1,20 @@
+{
+  "id": "61728",
+  "recognize_zh": "這是 blast gate 的 CD56 對 CD34 流式圖：綠色異常芽細胞群 CD56 陽性、CD34 陰性，位於右下；紅色正常前驅細胞則為 CD34 亮陽性、CD56 陰性；CD34−/CD56+ 的芽細胞群符合 BPDCN 表現型。",
+  "features": [
+    "Dot plot: CD56-ECD (x-axis) versus CD34-PC7 (y-axis), gated on blasts",
+    "Abnormal population (green) CD56-positive (moderate) and CD34-negative",
+    "Residual normal progenitors (red) CD34-bright and CD56-negative",
+    "Few red events in transition and rare blue lymphoid events negative for both markers",
+    "Clear phenotypic separation of neoplastic and normal blast compartments"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD56 versus CD34 gated on blasts shows an abnormal population (green) that is CD56-positive and CD34-negative. Residual normal progenitors (red) are CD34-bright and CD56-negative and are clearly separated from the abnormal cells. Lack of CD34 with CD56 expression on blasts is typical of blastic plasmacytoid dendritic cell neoplasm, although CD56 may be negative in a minority of cases. Integration with CD4, CD123, HLA-DR and absence of MPO and lineage-specific markers is required.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with aberrant CD56", "vs": "CD56+ AML blasts generally retain CD34 and/or CD117 with myeloid antigens, unlike these CD34-negative blasts."},
+    {"dx": "NK-cell leukemia/lymphoma", "vs": "NK neoplasms are CD56+/CD34- but express CD2/CD7 and cytotoxic granules and lack CD4 and bright CD123."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

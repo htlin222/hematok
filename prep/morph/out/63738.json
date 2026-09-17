@@ -1,0 +1,21 @@
+{
+  "id": "63738",
+  "recognize_zh": "低倍血液抹片可見紅血球聚成大小不一、形狀不規則的團塊（agglutination），而不是成串的錢串狀（rouleaux）；團塊分布於整張片子，提示冷凝集素造成的紅血球凝集。",
+  "features": [
+    "Low-power smear with red cells forming irregular, variably sized three-dimensional clumps",
+    "Clumps have irregular grape-like borders rather than linear stacked chains",
+    "Agglutinates distributed throughout the smear with intervening single red cells",
+    "Scattered leukocytes visible but not assessable at this magnification"
+  ],
+  "describe_en": "Low-power view of a peripheral blood smear shows extensive red blood cell agglutination, with erythrocytes forming irregular, variably sized clumps distributed throughout the field and interspersed with single cells. The aggregates are irregular rather than linear coin-stack chains, distinguishing them from rouleaux. Leukocyte and red cell morphology cannot be assessed at this magnification. Findings are consistent with red cell agglutination due to a cold agglutinin; correlation with warming the sample to 37°C, direct antiglobulin test (C3d positive) and cold agglutinin titer is recommended. Agglutination may spuriously lower RBC count and elevate MCV and MCHC.",
+  "ddx": [
+    {"dx": "Rouleaux formation (paraproteinemia, inflammation)", "vs": "Rouleaux form linear stacks of coins and disperse with saline dilution, whereas agglutinates are irregular clumps that disperse with warming."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA shows spherocytes and IgG-positive DAT with little agglutination on the smear."},
+    {"dx": "Thick area / drying artifact", "vs": "Drying artifact produces overlapping cells in the thick part of the smear only, not discrete clumps with clear spaces in the monolayer."},
+    {"dx": "Paroxysmal cold hemoglobinuria", "vs": "PCH (Donath-Landsteiner IgG) causes hemolysis and erythrophagocytosis, usually without prominent agglutination."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

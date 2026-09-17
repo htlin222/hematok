@@ -1,0 +1,22 @@
+{
+  "id": "62450",
+  "recognize_zh": "這是 G 顯帶核型圖：7 號只剩一條正常染色體，另一條 7 號與 12 號形成雙著絲點 dic(7;12)（排在 12 號位置），9 號與 22 號各有一條衍生染色體（t(9;22)，22 號上較小的即 Ph 染色體），性染色體為 XX，總數 45 條。",
+  "features": [
+    "GTG-banded karyotype arranged in standard order, two X chromosomes and no Y",
+    "Only one normal chromosome 7 in its position",
+    "Abnormal dicentric chromosome placed with pair 12, labeled dic(7;12)(p13;p11.2), composed of 7 and 12 material",
+    "Derivative chromosome 9 with extra material at 9q and a shortened chromosome 22 (Philadelphia chromosome), labeled t(9;22)(q34;q11.2)",
+    "Modal count 45 due to the dicentric fusion of two chromosomes",
+    "Non-morphologic cytogenetic image; banding resolution is moderate"
+  ],
+  "describe_en": "GTG-banded karyotype shows a female chromosome complement with 45 chromosomes. There is a reciprocal translocation between chromosomes 9 and 22 producing a derivative chromosome 9 and a small Philadelphia chromosome, and a dicentric chromosome formed from chromosomes 7 and 12, accounting for the loss of one normal chromosome 7 and one normal chromosome 12 from the count. The karyotype is described as 45,XX,dic(7;12)(p13;p11.2),t(9;22)(q34;q11.2). The t(9;22) establishes a BCR::ABL1 rearrangement, and the additional dic(7;12) represents a secondary clonal abnormality that should be correlated with FISH and the clinical phase of disease.",
+  "ddx": [
+    {"dx": "Monosomy 7", "vs": "True monosomy 7 shows a single chromosome 7 without any 7-derived material elsewhere, whereas here 7p-7q material is retained within the dic(7;12), as confirmed by FISH."},
+    {"dx": "Variant or cryptic BCR::ABL1 rearrangement", "vs": "Variant or cryptic rearrangements may lack a visible Ph chromosome and require FISH or RT-PCR, whereas a classic t(9;22) is visible here."},
+    {"dx": "del(12p) as an isolated abnormality", "vs": "A simple 12p deletion would not alter the chromosome count or include chromosome 7 material, unlike the dicentric seen here."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "GTG banding",
+  "match": "non-morphologic",
+  "high_yield": false
+}

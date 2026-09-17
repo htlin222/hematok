@@ -1,0 +1,21 @@
+{
+  "id": "1054",
+  "recognize_zh": "低倍周邊血中白血球數增加且種類混雜：分葉嗜中性球、未成熟顆粒球、深染的嗜鹼性球，以及數顆較大、胞質嗜鹼性的母細胞樣細胞，提示 CML 疾病進展；細節需高倍確認。",
+  "features": [
+    "Increased leukocytes at low power with a mixed granulocytic population",
+    "Segmented neutrophils and immature granulocytes with granular cytoplasm",
+    "Small cells with dense dark granules consistent with basophils",
+    "Several larger cells with high N:C ratio and basophilic cytoplasm, suspicious for blasts",
+    "Red cells with target-like and stomatocyte-like central clearing, likely partly drying artifact; platelets present"
+  ],
+  "describe_en": "Low-power peripheral blood smear shows increased leukocytes composed of segmented neutrophils, immature granulocytes, basophils, and several larger cells with high nuclear-to-cytoplasmic ratios and basophilic cytoplasm that are suspicious for blasts. Red cells show variable central clearing, partly attributable to drying artifact, and platelets are present. Cytologic detail is limited at this magnification. In a patient with CML, findings are suggestive of disease progression with basophilia and circulating blasts; a manual differential and ABL1 kinase domain mutation testing are recommended.",
+  "ddx": [
+    {"dx": "CML in chronic phase", "vs": "Chronic phase shows a leukocytosis dominated by myelocytes and neutrophils with few blasts, whereas accelerated/blast phase shows increasing blasts and basophils."},
+    {"dx": "Leukemoid reaction", "vs": "Leukemoid reactions show toxic changes without basophilia or blasts and are BCR::ABL1 negative."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML features absolute monocytosis and dysplasia without basophilia or BCR::ABL1."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

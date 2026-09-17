@@ -1,0 +1,22 @@
+{
+  "id": "17853",
+  "recognize_zh": "骨髓抹片中大量母細胞，細胞質灰藍且常有空泡；視野下方一顆大型組織球細胞質泡沫狀、內含被吞噬的細胞核與碎片，左上母細胞旁亦見紅血球貼附/吞入，顯示在急性骨髓性白血病背景下出現噬血現象（hemophagocytosis）。",
+  "features": [
+    "Sheets of medium-to-large blasts with high N:C ratio, fine chromatin and occasional nucleoli",
+    "Blast cytoplasm grey-blue, several with prominent clear vacuoles",
+    "Large histiocyte at lower center with foamy vacuolated cytoplasm containing ingested nuclear material/cells",
+    "Some cells show engulfed or closely apposed erythrocytes, suggesting phagocytosis",
+    "Background erythrocytes with mild anisopoikilocytosis"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular field dominated by medium-to-large blasts with high nuclear-to-cytoplasmic ratio, fine chromatin and grey-blue cytoplasm, many containing clear vacuoles. A large histiocyte at the lower center has abundant foamy vacuolated cytoplasm containing phagocytosed nuclear material, and several cells appear to engulf erythrocytes. Definitive lineage assignment and any specific genetic subtype cannot be determined from this image alone. Findings are consistent with acute myeloid leukemia accompanied by hemophagocytosis, compatible with a leukemia-associated hemophagocytic syndrome in the appropriate clinical setting.",
+  "ddx": [
+    {"dx": "AML with t(8;16)(p11;p13) KAT6A::CREBBP", "vs": "In t(8;16) AML the erythrophagocytosis is typically performed by the monocytic blasts themselves, which are often granulated; confirmation requires cytogenetics."},
+    {"dx": "Infection-associated hemophagocytic lymphohistiocytosis", "vs": "Secondary HLH from infection shows benign-appearing histiocytes phagocytosing blood cells without an excess of blasts."},
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells have deeply basophilic cytoplasm with sharply punched-out vacuoles and a starry-sky macrophage pattern, and are mature B-cell by flow (CD19+, sIg+, MYC rearranged)."},
+    {"dx": "Acute monoblastic leukemia", "vs": "Monoblasts have abundant, often vacuolated cytoplasm and may phagocytose, but are nonspecific esterase-positive and CD64/CD14-positive, which is needed to separate them from other AML."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

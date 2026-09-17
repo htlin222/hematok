@@ -1,0 +1,28 @@
+{
+  "id": "60745",
+  "recognize_zh": "骨髓抹片中巨噬細胞內與周圍散布大量細小、卵圓形、帶一個核與一個小桿狀動基體（kinetoplast）的無鞭毛體（amastigote），同一巨噬細胞也吞噬有核細胞與紅血球，同時呈現利什曼原蟲感染與噬血現象。",
+  "features": [
+    "Aspirate (C, D): large macrophages containing phagocytosed nucleated hematopoietic cells and red cells (hemophagocytosis)",
+    "Numerous small oval amastigotes (about 2–4 µm) within macrophage cytoplasm and scattered extracellularly, each with a nucleus and a small rod-shaped kinetoplast",
+    "Biopsy (A): marrow with abundant fat and patchy hematopoietic cellularity at low power",
+    "Biopsy (B): histiocytes with abundant pale, finely granular to vacuolated cytoplasm containing tiny dot-like organisms and engulfed cells",
+    "Smear background yellowish-brown clumped red cells; no granulomas evident"
+  ],
+  "describe_en": "The bone marrow core biopsy shows patchy hematopoietic cellularity with increased histiocytes that have abundant granular cytoplasm containing minute dot-like bodies. Aspirate smears reveal macrophages engulfing nucleated hematopoietic cells and erythrocytes, together with numerous intracellular and extracellular small oval organisms each bearing a nucleus and a rod-shaped kinetoplast, characteristic of Leishmania amastigotes. Findings are consistent with visceral leishmaniasis with associated hemophagocytosis, supporting secondary hemophagocytic lymphohistiocytosis; confirmation by PCR, culture or serology and species identification are recommended.",
+  "ddx": [
+    {"dx": "Histoplasmosis", "vs": "Histoplasma yeasts are similar in size but have a clear halo and no kinetoplast, and stain with GMS/PAS, whereas Leishmania amastigotes are GMS-negative with a kinetoplast."},
+    {"dx": "Toxoplasma or Trypanosoma cruzi amastigotes", "vs": "Toxoplasma tachyzoites lack a kinetoplast and T. cruzi amastigotes favor cardiac and muscle tissue rather than marrow macrophages."},
+    {"dx": "HLH due to other causes (EBV, lymphoma)", "vs": "Other HLH triggers show hemophagocytosis without intracellular kinetoplastid organisms."},
+    {"dx": "Platelets or granular debris overlying macrophages", "vs": "Platelets lack the paired nucleus-and-kinetoplast structure and uniform oval shape of amastigotes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "H&E; Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "BM biopsy low power: fatty marrow with patchy cellularity",
+    "BM biopsy high power: histiocytes with granular cytoplasm containing organisms",
+    "Aspirate: macrophage with engulfed cells and amastigotes",
+    "Aspirate: hemophagocytic macrophage surrounded by numerous Leishmania amastigotes"
+  ]
+}

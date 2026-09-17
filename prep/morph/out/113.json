@@ -1,0 +1,30 @@
+{
+  "id": "113",
+  "recognize_zh": "淋巴結內大片具豐富嗜酸性細胞質、腎形或馬蹄形偏心核的大型多形性細胞（hallmark cells，箭頭），CD30 強陽性且 CD3/CD20 陰性、ALK1 細胞質陽性，NGS 顯示 TRAF1-ALK 融合，符合 ALK 陽性間變性大細胞淋巴瘤。",
+  "features": [
+    "Large pleomorphic cells in cohesive sheets with abundant eosinophilic to amphophilic cytoplasm",
+    "Eccentric horseshoe- or kidney-shaped nuclei with paranuclear eosinophilic region (hallmark cells, arrows), including multilobated forms",
+    "Vesicular chromatin with multiple small to prominent nucleoli; binucleate/bilobed large cell on cytologic preparation",
+    "Partial nodal effacement with residual lymphoid follicles and involvement of the paracortex/sinus regions",
+    "IHC: strong membranous and Golgi CD30, cytoplasmic ALK1, granular TIA1 and focal granzyme; tumor cells negative for CD3 and CD20 (scattered reactive T and B cells only)",
+    "NGS fusion panel read alignment spanning TRAF1 and ALK exon 20, indicating a TRAF1-ALK variant fusion"
+  ],
+  "describe_en": "Sections of the lymph node show partial effacement of the architecture by sheets of large atypical cells that surround residual lymphoid follicles beneath the capsule. At high power the neoplastic cells are pleomorphic with abundant eosinophilic cytoplasm and eccentric horseshoe- or kidney-shaped nuclei with paranuclear eosinophilic regions (hallmark cells), including multilobated forms; an additional tissue fragment shows similar pleomorphic large cells, and a cytologic preparation shows a large binucleate cell with basophilic cytoplasm. By immunohistochemistry the large cells are strongly positive for CD30 in a membranous and Golgi pattern, positive for ALK1 (predominantly cytoplasmic), and express the cytotoxic markers TIA1 and granzyme, while CD3 and CD20 highlight only background small lymphocytes. Next-generation sequencing read alignment demonstrates a TRAF1-ALK fusion, a non-NPM1 partner in keeping with the cytoplasmic ALK staining pattern. Findings are consistent with anaplastic large cell lymphoma, ALK-positive.",
+  "ddx": [
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "Morphology and CD30 staining overlap, so the discriminator is ALK immunostaining and fusion testing, which are positive here (cytoplasmic ALK1, TRAF1-ALK)."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are scattered in a mixed inflammatory background and are PAX5 weak, CD15-positive and ALK-negative, whereas here CD30-positive cells form cohesive sheets with hallmark cells and ALK positivity."},
+    {"dx": "Diffuse large B-cell lymphoma, anaplastic variant", "vs": "Anaplastic DLBCL expresses B-cell markers such as CD20 and PAX5, whereas the neoplastic cells here are CD20-negative with cytotoxic markers."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Cohesive sinusoidal large cells can mimic metastasis, but these cells are CD30- and ALK-positive with cytotoxic granule proteins, and keratin/S100 would be negative."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; Wright-Giemsa; IHC (CD3, CD20, CD30, ALK1, TIA1); NGS",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E composite: nodal involvement around residual follicles; sheets of large cells with hallmark cells (arrows)",
+    "H&E: additional tissue fragment with eosinophilic trabecular/collagenous structure and pleomorphic large cells",
+    "Cytologic preparation: large binucleate/bilobed cell with basophilic cytoplasm beside a small lymphocyte",
+    "IHC panel: CD3 and CD20 negative in tumor cells, CD30 strong, ALK1 cytoplasmic, granzyme and TIA1 positive",
+    "NGS fusion panel (JBrowse): reads spanning TRAF1 (red arrow) and ALK exon 20 (black arrow), TRAF1-ALK fusion"
+  ]
+}

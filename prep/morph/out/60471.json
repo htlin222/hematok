@@ -1,0 +1,22 @@
+{
+  "id": "60471",
+  "recognize_zh": "BCL6 免疫染色下，大多數中至大型腫瘤細胞呈強烈細胞核陽性，僅散在的梭形間質細胞與小細胞為陰性；表示腫瘤具生發中心（germinal center）表型，與濾泡性淋巴瘤 3B 級相符。",
+  "features": [
+    "Diffuse to vaguely nested population of medium to large cells with strong nuclear BCL6 staining",
+    "Positive nuclei are round to irregular, some vesicular with speckled staining",
+    "Majority of tumor cells positive; staining intensity varies from moderate to strong",
+    "Negative spindle-shaped stromal/endothelial cells and small cells interspersed",
+    "Follicular architecture cannot be assessed at this magnification"
+  ],
+  "describe_en": "BCL6 immunohistochemical stain shows strong nuclear positivity in the majority of medium to large neoplastic cells, with variable intensity and interspersed negative stromal and endothelial cells. Architecture is not well assessed at this magnification. BCL6 expression indicates a germinal center B-cell phenotype, which in a follicular proliferation composed of sheets of centroblasts supports follicular lymphoma, grade 3B.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, GCB type", "vs": "DLBCL also expresses BCL6 but shows diffuse effacement without a CD21/CD23-positive follicular dendritic meshwork, and diffuse areas beside FL 3B are diagnosed as DLBCL."},
+    {"dx": "Follicular lymphoma, grade 1-2", "vs": "Low-grade FL is also BCL6+ but is composed predominantly of small centrocytes with fewer than 15 centroblasts/HPF."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers are BCL6+ but polarized, BCL2-negative with tingible-body macrophages and a very high organized Ki-67."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are medium-sized, BCL6+/CD10+ but BCL2-negative with near 100% Ki-67 and MYC rearrangement."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BCL6",
+  "match": "consistent",
+  "high_yield": false
+}

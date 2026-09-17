@@ -1,0 +1,21 @@
+{
+  "id": "63843",
+  "recognize_zh": "這張 HPLC 圖只見 HbA（Ao 83.9%）主峰，A2 視窗 3.59 分鐘的峰定量 5.8%（>3.5%），HbF 1.0%，沒有其他變異峰；HbA2 輕度升高但遠低於 HbE 帶因的 25–30%，符合 β 型地中海貧血帶因（β-thalassemia trait）。",
+  "features": [
+    "Cation-exchange HPLC report with peak table and chromatogram",
+    "Dominant Ao (HbA) peak at 2.34 min, 83.9% of total area",
+    "Discrete A2-window peak at 3.59 min quantified at 5.8%",
+    "HbF 1.0%; small P2 and P3 peaks only",
+    "No variant peak in the D- or S-windows"
+  ],
+  "describe_en": "Cation-exchange HPLC shows a predominant HbA peak with a discrete A2-window peak at 3.59 minutes quantified at 5.8%, and HbF of 1.0%. No abnormal variant peak is detected in the D- or S-windows. An HbA2 level in the 4-8% range without a structural variant is the characteristic pattern of beta-thalassemia heterozygosity; correlation with red cell indices (microcytosis, low MCH) and iron studies is advised. Findings are consistent with beta-thalassemia trait in the husband.",
+  "ddx": [
+    {"dx": "HbE trait", "vs": "HbE co-elutes in the A2 window but produces a much larger peak of about 25-30%, whereas beta-thalassemia trait gives an A2 of roughly 4-8%."},
+    {"dx": "Borderline HbA2 from other causes (e.g., HIV/zidovudine, hyperthyroidism, megaloblastic anemia)", "vs": "These give only mild HbA2 elevation without consistent microcytosis, whereas beta-thalassemia trait shows microcytic hypochromic indices with a normal or high red cell count."},
+    {"dx": "Alpha-thalassemia trait or iron deficiency", "vs": "Both cause microcytosis but have normal or low HbA2 (iron deficiency can lower HbA2 and mask beta-thalassemia trait)."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

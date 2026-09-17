@@ -1,0 +1,22 @@
+{
+  "id": "60101",
+  "recognize_zh": "四格合成圖中的芽細胞都有深藍、無顆粒的細胞質，邊緣呈泡狀突起或多角尖突，右下還有一片脫落的無核細胞質碎片；這種帶 blebs 的芽細胞與類血小板碎片是巨核母細胞的典型型態。",
+  "features": [
+    "Blasts with high N:C ratio, round to slightly irregular nuclei and fine chromatin",
+    "Deeply basophilic, agranular cytoplasm with cytoplasmic blebs and angular pseudopod-like projections",
+    "Anucleate basophilic cytoplasmic fragment (lower right panel), consistent with megakaryocytic cytoplasmic budding",
+    "Smaller blast with scant cytoplasm in the lower left panel",
+    "Background red cells with anisopoikilocytosis; platelets markedly reduced"
+  ],
+  "describe_en": "Composite images of the peripheral blood show blasts with a high N:C ratio, round to slightly irregular nuclei, finely dispersed chromatin and deeply basophilic agranular cytoplasm that forms irregular blebs and angular projections. One panel shows an anucleate basophilic cytoplasmic fragment consistent with megakaryocytic budding, and platelets are markedly reduced throughout. No Auer rods or granules are seen. Findings are suggestive of acute megakaryoblastic leukemia; confirmation requires flow cytometry or immunohistochemistry for CD41, CD61 and/or CD42b.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 blasts lack megakaryocytic antigens (CD41/CD61), whereas megakaryoblasts express them."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts lack cytoplasmic blebbing and express TdT with B- or T-lineage markers."},
+    {"dx": "Metastatic small round cell tumor (e.g., neuroblastoma) in young children", "vs": "Tumor cells in marrow form cohesive clusters and are CD45-negative, while megakaryoblasts are CD45+ and CD61+."},
+    {"dx": "Blast phase of a myeloproliferative neoplasm", "vs": "Megakaryoblastic blast phase can look identical but shows a prior MPN history and driver mutations such as JAK2, CALR, MPL or BCR::ABL1."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "21730",
+  "recognize_zh": "三個畫面都是體積很大的巨噬細胞，細胞質內吞入十餘顆完整的有核細胞（多為小淋巴球）及紅血球，C 圖並含黑色色素顆粒；在發燒與全血球低下的 CLL 病人，符合噬血現象（hemophagocytosis）。",
+  "features": [
+    "Very large macrophages with abundant pale vacuolated cytoplasm",
+    "Cytoplasm contains numerous engulfed intact nucleated cells, predominantly small round lymphocyte-like nuclei",
+    "Phagocytosed erythrocytes and dark pigment/debris in panel C",
+    "Panel A: the same phenomenon highlighted with a different (unspecified) stain showing red-brown ingested nuclei",
+    "Adjacent free small lymphocytes and red cells in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smears show large macrophages with abundant vacuolated cytoplasm containing numerous engulfed intact nucleated cells, predominantly small lymphocytes, as well as erythrocytes and pigmented debris. Panel A demonstrates a similar histiocyte with a different staining method. The ingested cells retain nuclear integrity rather than appearing as apoptotic fragments. Findings are consistent with hemophagocytosis; in a febrile, pancytopenic patient with CLL, correlation with HLH-2004 criteria (ferritin, triglycerides, fibrinogen, soluble CD25, organomegaly) and evaluation for infection are recommended.",
+  "ddx": [
+    {"dx": "Tingible body macrophages", "vs": "Tingible body macrophages contain apoptotic nuclear debris of varying size rather than intact whole cells."},
+    {"dx": "Emperipolesis", "vs": "In emperipolesis intact cells pass through megakaryocytes or Rosai-Dorfman histiocytes (S100-positive) without being degraded."},
+    {"dx": "Overlapping cell clump (smear artifact)", "vs": "Overlapped cells lie in different focal planes and are not enclosed by a continuous macrophage cytoplasmic membrane."},
+    {"dx": "Tumor cell cannibalism", "vs": "Cannibalism is performed by atypical carcinoma or lymphoma cells rather than CD68/CD163-positive benign histiocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; additional stain (panel A)",
+  "match": "consistent",
+  "high_yield": false
+}

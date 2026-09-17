@@ -1,0 +1,20 @@
+{
+  "id": "1952",
+  "recognize_zh": "低倍免疫組化染色（抗體未標示）中，可見多個不規則、地圖狀的淡棕色區塊，被含散在深色細胞核的淡藍綠色間質分隔；影像對比度與解析度低，只能看出染色呈不規則擴張的區域性分布，難以精確判讀。",
+  "features": [
+    "Very low-power IHC with multiple irregular, geographic tan-staining zones",
+    "Zones separated by paler blue-green areas containing scattered dark nuclei",
+    "Irregular shapes and variable sizes of the stained zones rather than round, discrete follicles",
+    "Low contrast and resolution preclude assessment of the staining pattern at the cellular level"
+  ],
+  "describe_en": "Very low-power immunohistochemical stain (antibody not labeled) of a lymph node shows multiple irregular, geographic tan-staining zones of variable size separated by paler areas with scattered hematoxylin-stained nuclei. The stained zones are irregular rather than round and discrete. Owing to low contrast and resolution, the cellular localization of staining cannot be assessed and the antibody cannot be inferred with confidence. If this represents a follicular dendritic cell marker such as CD21 or CD23, the irregular expanded pattern would support angioimmunoblastic T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "FDC markers in reactive nodes highlight compact, round, well-circumscribed meshworks confined to germinal centers."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma shows crowded, back-to-back round FDC meshworks within neoplastic follicles that are BCL2-positive B-cell nodules."},
+    {"dx": "Follicular dendritic cell sarcoma", "vs": "FDC sarcoma forms sheets and whorls of atypical spindle to ovoid cells with CD21/CD23/CD35 positivity, not expanded meshworks among lymphoid cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antibody not labeled",
+  "match": "partial",
+  "high_yield": false
+}

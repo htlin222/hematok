@@ -1,0 +1,22 @@
+{
+  "id": "2521",
+  "recognize_zh": "腎臟切片（H&E）中，腎小管之間的間質被大量核偏位的漿細胞樣細胞浸潤，部分腎小管內有均質粉紅色管柱（casts），符合漿細胞腫瘤的腎臟浸潤。",
+  "features": [
+    "Renal cortex with tubules separated by an expanded interstitium",
+    "Dense interstitial infiltrate of cells with round eccentric nuclei and amphophilic cytoplasm (plasmacytoid)",
+    "Homogeneous eosinophilic casts within several tubular lumina",
+    "Tubular epithelial flattening and injury adjacent to the infiltrate",
+    "Congested capillaries with red cells; no glomeruli in this field"
+  ],
+  "describe_en": "Section of renal cortex shows a dense interstitial infiltrate of discohesive cells with round eccentric nuclei and moderate amphophilic cytoplasm, consistent with plasma cells, separating and distorting tubules. Several tubules contain homogeneous eosinophilic casts, with adjacent tubular epithelial injury. Glomeruli are not included in this field. Findings are consistent with renal parenchymal infiltration by a plasma cell neoplasm, compatible with plasma cell leukemia in context; the casts raise consideration of light chain cast nephropathy, and CD138 with kappa/lambda staining is recommended.",
+  "ddx": [
+    {"dx": "Acute interstitial nephritis", "vs": "Drug-induced interstitial nephritis has a mixed infiltrate with lymphocytes and eosinophils and polytypic plasma cells rather than sheets of monotypic plasma cells."},
+    {"dx": "IgG4-related tubulointerstitial nephritis", "vs": "IgG4-related disease shows storiform fibrosis with increased IgG4+ polytypic plasma cells, not a clonal infiltrate."},
+    {"dx": "Renal involvement by lymphoma", "vs": "Lymphoma cells lack eccentric nuclei and hofs and are CD20 or CD3 positive and CD138 negative."},
+    {"dx": "Tamm-Horsfall protein casts", "vs": "Ordinary hyaline casts are pale and smooth without fractures or giant-cell reaction, while myeloma casts are dense, fractured and light-chain restricted."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

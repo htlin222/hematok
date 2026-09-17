@@ -1,0 +1,22 @@
+{
+  "id": "64613",
+  "recognize_zh": "胸水抹片中有一團立體、邊緣呈圓弧「砲彈/桑椹狀」（cannonball/morula）的外來上皮細胞簇，細胞核深染重疊、細胞間緊密黏合，左側細胞有大空泡使核被擠向一側，與背景零散的間皮與發炎細胞明顯不同。",
+  "features": [
+    "Three-dimensional cohesive cluster of epithelial cells with smooth knobby community borders (morula/cannonball pattern)",
+    "Crowded, overlapping, hyperchromatic nuclei with high N:C ratio",
+    "Some cells contain large cytoplasmic vacuoles displacing the nucleus to the periphery (signet-ring-like)",
+    "Size of cluster cells markedly larger than background single cells",
+    "Clean proteinaceous background with scattered small inflammatory/mesothelial cells"
+  ],
+  "describe_en": "Cytospin of pleural fluid shows a three-dimensional cohesive cluster of large epithelial cells with knobby, smooth community borders, crowded hyperchromatic overlapping nuclei and high N:C ratios. Several cells display cytoplasmic vacuoles, including signet-ring-like forms. The cluster is distinctly foreign to the background population of scattered small inflammatory cells. Findings are consistent with metastatic adenocarcinoma in pleural fluid, compatible with the known breast primary; immunocytochemistry (e.g., GATA3, ER, Ber-EP4/MOC-31 vs calretinin) on a cell block would confirm.",
+  "ddx": [
+    {"dx": "Reactive mesothelial cells", "vs": "Reactive mesothelial clusters are flat or loosely cohesive with knobby borders but show 'windows' between cells, two-tone cytoplasm and calretinin/WT1 positivity, and lack a distinct foreign second population."},
+    {"dx": "Malignant mesothelioma", "vs": "Mesothelioma cells retain mesothelial features (windows, skirt-like cytoplasm) and express calretinin, WT1 and D2-40 while being negative for adenocarcinoma markers."},
+    {"dx": "Lymphoma or leukemia involving effusion", "vs": "Hematolymphoid cells are dyscohesive single cells without true three-dimensional epithelial clusters."},
+    {"dx": "Macrophage aggregates", "vs": "Macrophage clusters have loosely arranged bean-shaped nuclei with foamy cytoplasm and CD68/CD163 positivity rather than tight cohesive hyperchromatic epithelial groups."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

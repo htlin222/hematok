@@ -1,0 +1,22 @@
+{
+  "id": "15767",
+  "recognize_zh": "周邊血液中的血小板偏大、呈淡灰藍色，幾乎看不到紫色 α 顆粒，看起來像「幽靈」血小板，這是灰色血小板症候群（gray platelet syndrome）的典型形態，易被誤診為 ITP。",
+  "features": [
+    "Enlarged platelets approaching or exceeding the size of a small red cell",
+    "Platelets pale gray-blue and nearly devoid of purple azurophilic (alpha) granules",
+    "Irregular, ghost-like platelet outlines with homogeneous hyaline cytoplasm",
+    "Few platelets per field, consistent with thrombocytopenia",
+    "Red cells normocytic and normochromic; no leukocyte abnormalities in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows decreased platelets, and the platelets present are large with pale gray-blue, agranular cytoplasm and irregular ghost-like outlines, lacking the normal purple granulomere. Red cells are normocytic and normochromic. Findings are suggestive of gray platelet syndrome (NBEAL2-related alpha-granule deficiency); confirmation by electron microscopy showing absent alpha granules and reduced platelet factor 4/P-selectin content is recommended, and the patient should not be labeled as ITP.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia (ITP)", "vs": "ITP may show large platelets but they retain normal purple alpha granules, and marrow megakaryocytes are not associated with myelofibrosis or emperipolesis."},
+    {"dx": "In vitro degranulation (EDTA/storage artifact)", "vs": "Artifactual hypogranular platelets occur in delayed specimens and are corrected on a fresh smear, whereas GPS persists with EM-confirmed alpha-granule absence."},
+    {"dx": "Bernard-Soulier syndrome", "vs": "BSS shows giant platelets with normal granulation and absent ristocetin-induced aggregation due to GPIb-IX-V deficiency."},
+    {"dx": "MYH9-related disorder", "vs": "MYH9 disorders show giant granulated platelets with Döhle-like inclusions in neutrophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

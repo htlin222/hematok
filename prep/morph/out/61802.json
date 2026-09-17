@@ -1,0 +1,21 @@
+{
+  "id": "61802",
+  "recognize_zh": "免疫組織化學染色中，散在的圓形小至中型細胞呈棕色膜狀／細胞質染色，另有細長內皮細胞樣血管結構同樣陽性，型態最符合 CD34（標記未標示）；陽性母細胞零散分布於大量陰性骨髓細胞中。",
+  "features": [
+    "Hypercellular tissue composed predominantly of negative cells with oval vesicular nuclei",
+    "Scattered round mononuclear cells with crisp membranous/cytoplasmic brown staining",
+    "Elongated positive endothelial-lined capillary structures serving as internal control",
+    "Positive round cells present singly and in small groups, not forming sheets",
+    "Bone trabecula edge at upper left"
+  ],
+  "describe_en": "Immunohistochemical stain on a hypercellular marrow core (marker not labeled; pattern most consistent with CD34) highlights scattered small-to-intermediate round cells with membranous and cytoplasmic staining, present singly and in small clusters, together with positive capillary endothelium as an internal control. The majority of hematopoietic cells, including larger cells with vesicular nuclei, are negative. The positive cells should be quantified and checked for clustering or abnormal localization; the findings support an increase in CD34-positive precursors in this GATA2-associated myeloid neoplasm rather than sheets of blasts.",
+  "ddx": [
+    {"dx": "Reactive marrow with normal CD34 distribution", "vs": "Normal marrow shows CD34 mainly in endothelium with fewer than about 2% scattered positive precursors and no clustering."},
+    {"dx": "AML with CD34-positive blasts", "vs": "AML shows diffuse sheets of CD34-positive blasts replacing the marrow, not scattered single cells."},
+    {"dx": "CD117 or CD68 stained section", "vs": "Mast-cell or macrophage markers would label cells with granular or spindled morphology and would not outline capillary endothelium."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: likely CD34",
+  "match": "partial",
+  "high_yield": false
+}

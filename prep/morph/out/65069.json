@@ -1,0 +1,22 @@
+{
+  "id": "65069",
+  "recognize_zh": "四格骨髓抹片中都可見大型組織球，細胞質豐富、淡粉紅泡沫狀並含藍灰色顆粒，胞質內吞入有核的紅血球前驅細胞、血小板與其他細胞碎片；組織球增加且活躍吞噬血球（hemophagocytosis），在登革熱背景下符合續發性噬血球症候群。",
+  "features": [
+    "Large macrophages with abundant pale, foamy to fibrillar cytoplasm and a single oval nucleus with open chromatin",
+    "Intracytoplasmic engulfed hematopoietic cells, including dense nucleated erythroid precursors, granulocytic cells and small platelet-like particles",
+    "Scattered blue-grey granular debris within macrophage cytoplasm (probable hemosiderin/phagocytosed material)",
+    "Several macrophages identifiable across four fields, indicating increased histiocytes",
+    "Background of RBCs and scattered erythroblasts and lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear, shown in four fields, contains increased macrophages with abundant pale foamy cytoplasm and bland oval nuclei. Many macrophages contain phagocytosed hematopoietic elements, including nucleated erythroid precursors, granulocytic cells and platelet-sized fragments, together with blue-grey granular debris. The macrophages lack nuclear atypia and there is no associated atypical lymphoid or blast population in these fields. Findings are consistent with hemophagocytosis; in the clinical setting of dengue shock syndrome this supports secondary hemophagocytic lymphohistiocytosis, although HLH is a clinical diagnosis requiring HLH-2004 criteria.",
+  "ddx": [
+    {"dx": "Incidental macrophage phagocytosis (e.g. post-transfusion, sepsis, chemotherapy)", "vs": "Occasional engulfed RBCs or debris are nonspecific and do not by themselves establish HLH, which requires clinical and laboratory criteria such as ferritin, sCD25, cytopenias and fever."},
+    {"dx": "Malignancy-associated HLH (e.g. T/NK-cell lymphoma)", "vs": "Lymphoma-associated HLH shows an atypical lymphoid infiltrate and may need biopsy, flow cytometry or EBER ISH, none of which is evident in these smears."},
+    {"dx": "Visceral leishmaniasis", "vs": "Leishmania-laden macrophages contain numerous 2-4 micron amastigotes each with a nucleus and rod-shaped kinetoplast rather than whole engulfed blood cells."},
+    {"dx": "Storage-type histiocytes (Gaucher / pseudo-Gaucher)", "vs": "Gaucher cells have crinkled-paper cytoplasm without engulfed hematopoietic cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa (Romanowsky)",
+  "match": "consistent",
+  "high_yield": true
+}

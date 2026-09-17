@@ -1,0 +1,23 @@
+{
+  "id": "61658",
+  "recognize_zh": "血片中紅血球密密麻麻擠在一起、幾乎沒有空隙（反映血球容積升高），紅血球大小形狀大致正常，並可見嗜鹼性球（中央偏下的粗顆粒細胞）與嗜中性球、嗜酸性球，這些是真性紅血球增多症的非特異性血片線索。",
+  "features": [
+    "Densely crowded, overlapping red cells with little intervening space, suggestive of erythrocytosis",
+    "Red cells largely normocytic and normochromic with minimal poikilocytosis; a few polychromatic cells",
+    "Basophil with coarse dark purple granules (lower centre)",
+    "Segmented neutrophil (upper right) and eosinophil-like bilobed granulocyte (left)",
+    "Angular mononuclear cell with indistinct nuclear detail, deformed by surrounding red cells (centre)",
+    "Platelets present in adequate to increased numbers, singly dispersed"
+  ],
+  "describe_en": "Peripheral blood smear shows densely packed, overlapping red cells with scant background space, in keeping with an increased red cell mass. Red cells are predominantly normocytic and normochromic without significant poikilocytosis, and occasional polychromatic cells are present. Leukocytes include a segmented neutrophil, a bilobed eosinophil-like granulocyte and a basophil, and platelets are adequate to increased. No blasts, teardrop cells or leukoerythroblastic features are seen. These findings are nonspecific on their own but are consistent with polycythemia vera in the appropriate clinical and molecular context.",
+  "ddx": [
+    {"dx": "Secondary erythrocytosis", "vs": "Secondary erythrocytosis also shows crowded red cells but typically lacks basophilia and thrombocytosis, has high erythropoietin and is JAK2 negative."},
+    {"dx": "Relative (spurious) polycythemia", "vs": "Dehydration-related relative polycythemia shows similar red cell crowding with a normal red cell mass and no leukocytosis, basophilia or thrombocytosis, and resolves with volume repletion."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows marked leukocytosis with a left-shifted myeloid series including myelocytes and prominent basophilia, not predominant red cell crowding."},
+    {"dx": "Post-polycythemic myelofibrosis", "vs": "The spent phase shows teardrop cells, anisopoikilocytosis and a leukoerythroblastic picture, which are absent here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

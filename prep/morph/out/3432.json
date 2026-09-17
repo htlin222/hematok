@@ -1,0 +1,23 @@
+{
+  "id": "3432",
+  "recognize_zh": "整片密集排列的中到大型非典型淋巴樣細胞，核圓、染色質細緻、細胞質少且偏嗜鹼性，部分可見小空泡，並夾雜許多被擠破、呈洋紅色的裸核；缺乏典型裂核（cleaved nuclei），符合「形態不典型」的周邊化濾泡性淋巴瘤。",
+  "features": [
+    "Dense population of intermediate to large atypical lymphoid cells, larger than admixed red cells",
+    "High N:C ratio with round to slightly irregular nuclei; nuclear clefts are not conspicuous",
+    "Fine to moderately condensed chromatin with occasional small nucleoli",
+    "Scant basophilic cytoplasm, some cells with small cytoplasmic vacuoles",
+    "Numerous disrupted cells with smeared magenta chromatin (smudge/crush artifact)",
+    "Monotonous lymphoid population without granulocytes in this field"
+  ],
+  "describe_en": "A highly cellular, concentrated smear preparation (presumably peripheral blood/buffy coat) shows a monotonous population of intermediate to large atypical lymphoid cells. The cells have high N:C ratios, round to slightly irregular nuclei with fine to moderately condensed chromatin, occasional small nucleoli, and scant basophilic cytoplasm that is focally vacuolated. Numerous disrupted cells with smeared magenta chromatin are admixed. Classic small cleaved (buttock) cells are not evident, so the morphology overlaps with blastoid lymphoma and leukemia. In the given clinical context, findings are consistent with leukemic involvement by follicular lymphoma with atypical (large/blastoid-appearing) morphology; flow cytometry (CD10+, surface light chain restriction) and BCL2/IGH studies are required for confirmation.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Lymphoblasts have finer, more homogeneous chromatin and are TdT/CD34 positive with dim or absent surface immunoglobulin, whereas FL cells are TdT-negative with surface light chain restriction."},
+    {"dx": "Leukemic phase of blastoid mantle cell lymphoma", "vs": "Morphology can be identical; cyclin D1/SOX11 expression and CCND1 rearrangement separate MCL from CD10+ BCL2-rearranged FL."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Transformed disease may look similar; FISH for MYC in addition to BCL2 and a high Ki-67 fraction are needed to exclude it."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts often show azurophilic granules or Auer rods and are MPO/CD33/CD117 positive, unlike the agranular, B-marker positive FL cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

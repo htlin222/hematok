@@ -1,0 +1,22 @@
+{
+  "id": "21543",
+  "recognize_zh": "骨髓切片 H&E（A）細胞量高、巨核細胞增多並有群聚，間質呈流水狀纖維化；網狀纖維染色（B）顯示瀰漫性增加、交錯的網狀纖維，在長期使用 romiplostim 的 ITP 病人，符合藥物相關骨髓纖維化。",
+  "features": [
+    "Hypercellular marrow with increased megakaryocytes, including loose clusters",
+    "Megakaryocytes of variable size, some with hyperlobated or hyperchromatic nuclei",
+    "Streaming, spindled stromal background suggesting fibrosis",
+    "Reticulin stain: diffuse increase in intersecting reticulin fibers throughout the cellular areas",
+    "No obvious collagenous osteosclerosis or blast clusters at this magnification"
+  ],
+  "describe_en": "Bone marrow trephine biopsy is hypercellular with a marked increase in megakaryocytes, which form loose clusters and show variable size with some hyperlobated nuclei, set in a streaming stromal background. The reticulin stain shows a diffuse, dense network of intersecting reticulin fibers. No increase in blasts or osteosclerosis is evident at this magnification. In a patient with chronic ITP treated with a thrombopoietin receptor agonist, findings are consistent with romiplostim-associated reticulin fibrosis, which is usually reversible on drug discontinuation.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows dense clusters of bizarre cloud-like megakaryocytes, often osteosclerosis, leukoerythroblastosis and a JAK2, CALR or MPL driver mutation."},
+    {"dx": "Essential thrombocythemia", "vs": "ET has large hyperlobulated staghorn megakaryocytes with normal cellularity and no more than grade 1 reticulin, with thrombocytosis rather than ITP."},
+    {"dx": "Myelodysplastic neoplasm with fibrosis", "vs": "MDS with fibrosis has small hypolobated dysplastic megakaryocytes, cytopenias and increased blasts or clonal cytogenetics."},
+    {"dx": "Untreated ITP marrow", "vs": "ITP marrow shows increased megakaryocytes but no significant reticulin increase."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; reticulin",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65197",
+  "recognize_zh": "淋巴結結構被小淋巴球與增殖中心（CLL）瀰漫取代，但淋巴竇內另有黏聚、大型、多形性的異型細胞，含腎形核的 hallmark cell；這些竇內大細胞 CD30 強陽性、ALK 陰性、Ki-67 高，屬 CLL 合併隱匿性 ALK 陰性 ALCL 的複合性淋巴瘤。",
+  "features": [
+    "Low power: lymph node effaced by a diffuse small lymphocytic infiltrate with pale proliferation centers",
+    "Small round lymphocytes with admixed prolymphocytes and paraimmunoblasts",
+    "Subcapsular/sinusoidal clusters of large pleomorphic cells with abundant cytoplasm and horseshoe or kidney-shaped 'hallmark' nuclei",
+    "Small cells: weak CD20, CD5, CD23 and nuclear LEF1 positive, cyclin D1 negative (inset)",
+    "Large sinusoidal cells: strong CD30 in a sinusoidal pattern, weak CD4, high Ki-67 and ALK negative (inset)"
+  ],
+  "describe_en": "Lymph node excision shows effacement by a diffuse infiltrate of small lymphocytes with scattered proliferation centers; these cells are weakly CD20 positive and co-express CD5, CD23 and LEF1, and are negative for cyclin D1, consistent with CLL/SLL. In addition, the subcapsular and medullary sinuses contain cohesive clusters of large pleomorphic cells including hallmark cells with horseshoe-shaped nuclei. The large cells are strongly CD30 positive with weak CD4 and a high Ki-67 index, and are negative for ALK and B-cell markers. Findings are consistent with composite lymphoma: CLL/SLL with ALK-negative anaplastic large cell lymphoma in a sinusoidal distribution.",
+  "ddx": [
+    {"dx": "Richter transformation to DLBCL", "vs": "Richter DLBCL consists of large B cells expressing CD20/PAX5 in sheets, whereas these large cells lack B markers and are CD30+ T/null cells."},
+    {"dx": "Hodgkin-type Richter transformation / classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30+ and CD15+ with weak PAX5 and scattered in a mixed background, not cohesive sinusoidal sheets of PAX5-negative hallmark cells."},
+    {"dx": "ALK-positive ALCL", "vs": "ALK-positive ALCL shows identical hallmark cells but nuclear/cytoplasmic ALK staining, which was negative here."},
+    {"dx": "Metastatic carcinoma or melanoma in sinuses", "vs": "Metastases also fill sinuses as cohesive large cells but express keratin or S100/SOX10 and lack uniform strong CD30 with T-cell antigens."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD5, CD23, LEF1, cyclin D1, CD30, Ki-67, ALK",
+  "match": "consistent",
+  "high_yield": false
+}

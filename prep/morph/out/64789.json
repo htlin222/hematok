@@ -1,0 +1,22 @@
+{
+  "id": "64789",
+  "recognize_zh": "股骨病灶切片中大量組織球的細胞質充滿嗜酸性、顆粒狀至結晶狀物質（晶體儲積組織球，箭頭），混有嗜酸性球與散在短紡錘形細胞（箭頭尖）；KIT 免疫染色標出成群紡錘狀肥大細胞，提示病灶其實是系統性肥大細胞增生症。",
+  "features": [
+    "MRI (A): solitary lesion in the left proximal femur (arrow)",
+    "H&E (B): numerous large histiocytes with abundant eosinophilic granular to crystalline cytoplasm (crystal-storing histiocytes) and small round nuclei",
+    "Admixed eosinophils and scattered short spindle cells with pale amphophilic cytoplasm (arrowheads)",
+    "H&E (C): small clusters of spindle cells with elongated oval nuclei adjacent to marrow and bone trabecula",
+    "IHC KIT (D): strong membranous/cytoplasmic staining of spindle and round mast cells in aggregates"
+  ],
+  "describe_en": "MRI demonstrates a solitary lesion in the left femur. Sections show a prominent infiltrate of histiocytes with abundant eosinophilic, granular to crystalline cytoplasm, admixed with eosinophils and scattered short spindle cells with pale amphophilic cytoplasm that focally form small clusters. KIT immunohistochemistry highlights numerous spindle-shaped cells in aggregates, supporting a mast cell origin. In conjunction with CD25 expression and KIT D816V, the findings are consistent with systemic mastocytosis with associated crystal-storing histiocytosis (Charcot-Leyden-type crystals in an eosinophil-rich lesion).",
+  "ddx": [
+    {"dx": "Crystal-storing histiocytosis due to plasma cell neoplasm/lymphoma", "vs": "Immunoglobulin-derived crystals are accompanied by a clonal light-chain-restricted plasma cell or B-cell population, whereas here KIT+/CD25+ mast cells and eosinophils are present."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH shows grooved Langerhans cells that are CD1a+/S100+/langerin+, while these histiocytes are CD1a- and S100-."},
+    {"dx": "Rosai-Dorfman disease", "vs": "Rosai-Dorfman histiocytes are S100+ and show emperipolesis, which is absent here."},
+    {"dx": "Rhabdomyoma/granular cell tumor", "vs": "These have granular eosinophilic cells that are desmin or S100/SOX10 positive rather than CD68+ histiocytes with KIT+ spindle mast cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC: KIT (CD117); MRI",
+  "match": "consistent",
+  "high_yield": false
+}

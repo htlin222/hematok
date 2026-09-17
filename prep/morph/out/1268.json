@@ -1,0 +1,22 @@
+{
+  "id": "1268",
+  "recognize_zh": "周邊血液中明顯的淋巴球增多，細胞中等大小，核圓、部分可見單一明顯核仁，胞質中等量淡藍、有些邊緣不規則或有細突起；兼具「毛狀胞質」與「前淋巴球樣明顯核仁」是毛狀細胞白血病變異型（HCL-v）的線索，且白血球數高、不像典型 HCL 會單核球減少。",
+  "features": [
+    "Marked absolute lymphocytosis of medium-sized lymphoid cells",
+    "Round to oval nuclei with moderately condensed chromatin; some with a single distinct central nucleolus",
+    "Moderate pale blue cytoplasm, several cells with irregular borders or fine villous projections",
+    "Occasional larger cells with folded nuclei",
+    "Background red cells normocytic; a nucleated red cell and no monocytes evident at this power"
+  ],
+  "describe_en": "Peripheral blood smear at low to intermediate power shows a marked lymphocytosis composed of medium-sized lymphoid cells with round to oval nuclei, moderately condensed chromatin and, in many cells, a single distinct nucleolus. The cytoplasm is moderate and pale blue, with irregular borders or fine villous projections in a subset of cells. Fine nuclear detail is limited at this magnification. The combination of hairy cytoplasmic projections, prolymphocyte-like nucleoli and a high circulating count is suggestive of hairy cell leukemia variant (splenic B-cell lymphoma with prominent nucleoli in WHO 5th edition), which should be confirmed by flow cytometry showing CD11c and CD103 positivity with CD25 and annexin A1 negativity and absence of BRAF V600E.",
+  "ddx": [
+    {"dx": "Classic hairy cell leukemia", "vs": "Classic HCL presents with leukopenia and monocytopenia and cells lack prominent nucleoli, and it is CD25+, CD123+, annexin A1+ and BRAF V600E-mutated."},
+    {"dx": "B-prolymphocytic leukemia / splenic lymphoma with prominent nucleoli", "vs": "Prolymphocytes have similar prominent nucleoli but smooth cytoplasmic borders without villous projections and are usually CD103-negative."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes have short polar projections and smaller nuclei without prominent nucleoli, and are CD103-negative."},
+    {"dx": "Mantle cell lymphoma, leukemic", "vs": "MCL cells can have nucleoli but have irregular nuclear contours without villi and are CD5+ with cyclin D1/SOX11 expression."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

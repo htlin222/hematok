@@ -1,0 +1,21 @@
+{
+  "id": "62604",
+  "recognize_zh": "EBER 原位雜交高倍圖：在淡粉紅色對比染色的背景下，許多腫瘤細胞核呈深藍黑色訊號，細胞質不著色，表示 EBV 感染腫瘤細胞。",
+  "features": [
+    "Densely cellular infiltrate with pink/red counterstain",
+    "Numerous nuclei with dark blue-black EBER signal, varying in intensity",
+    "Signal confined to nuclei; cytoplasm and stroma unstained",
+    "Positive cells include intermediate and large atypical forms",
+    "Section shows some crush/processing artifact that limits crispness"
+  ],
+  "describe_en": "EBER in situ hybridization shows nuclear signal in a large proportion of the neoplastic cells, with dark blue-black staining confined to nuclei against a pink counterstain. Positive cells include larger atypical forms, indicating EBV infection of the tumor rather than scattered bystander lymphocytes, although some processing artifact reduces sharpness. In a transplant recipient with a CD20-negative, MUM1-positive, light-chain-restricted plasma cell proliferation, findings are consistent with EBV-positive plasmacytoma-like post-transplant lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "EBV-negative plasma cell myeloma/plasmacytoma", "vs": "Conventional plasma cell neoplasms are typically EBER-negative, whereas diffuse tumor-cell EBER favors PTLD."},
+    {"dx": "Reactive lesion with scattered EBV-positive bystanders", "vs": "Bystander EBV infection shows only rare positive small lymphocytes, not signal in the majority of the atypical cells."},
+    {"dx": "Primary effusion lymphoma", "vs": "PEL is often EBER-positive too but is defined by HHV8/LANA nuclear positivity."}
+  ],
+  "specimen": "tissue",
+  "stain": "ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

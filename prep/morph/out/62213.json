@@ -1,0 +1,21 @@
+{
+  "id": "62213",
+  "recognize_zh": "同一病人的兩支採血管並排：紅頭無抗凝管的上清液呈鮮紅色（溶血），紫頭 EDTA 管血漿則清澈黃色；EDTA 螯合鈣離子阻斷補體活化，這種對比指向高效價冷凝集素引起的補體性體外溶血。",
+  "features": [
+    "Clinical photograph of two blood collection tubes from the same patient",
+    "Red-top (plain, no anticoagulant) tube with bright red, transparent hemolyzed supernatant",
+    "Purple-top (K2EDTA) tube with clear yellow plasma above a red cell layer",
+    "Contrast indicates complement-dependent hemolysis in vitro that is prevented by calcium chelation",
+    "No microscopic morphology is shown"
+  ],
+  "describe_en": "Photograph shows two blood collection tubes drawn from the same patient. The plain red-top tube contains bright red, hemoglobin-stained supernatant indicating marked in vitro hemolysis, whereas the K2EDTA purple-top tube has clear yellow plasma. Because EDTA chelates calcium and blocks the classical complement cascade, the discrepancy points to complement-mediated hemolysis occurring after sample collection at room temperature. With a positive monospecific anti-C3d DAT and a high-titer, wide-thermal-amplitude cold agglutinin, findings are consistent with complement-mediated hemolysis due to cold agglutinins.",
+  "ddx": [
+    {"dx": "Traumatic (pre-analytic) hemolysis from difficult venipuncture", "vs": "Mechanical hemolysis affects tubes regardless of anticoagulant, whereas here the EDTA tube drawn simultaneously is clear."},
+    {"dx": "Paroxysmal cold hemoglobinuria (Donath-Landsteiner antibody)", "vs": "PCH is caused by a biphasic IgG anti-P antibody detected by the Donath-Landsteiner test, usually in children after viral infection, with a low-titer antibody."},
+    {"dx": "In vivo intravascular hemolysis", "vs": "True in vivo hemolysis would also discolor EDTA plasma and is supported by hemoglobinuria, high LDH and low haptoglobin."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

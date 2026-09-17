@@ -1,0 +1,21 @@
+{
+  "id": "62372",
+  "recognize_zh": "骨髓切片中可見多個小型、單葉或低分葉核的巨核細胞（hypolobated micromegakaryocytes），夾雜具開放染色質、明顯核仁的母細胞，這種小而低分葉的巨核細胞是 inv(3)/t(3;3) AML 的形態線索。",
+  "features": [
+    "Small megakaryocytes with abundant eosinophilic cytoplasm and non-lobated or bilobed nuclei",
+    "Increased immature cells with oval nuclei, open chromatin and small nucleoli consistent with blasts",
+    "Admixed erythroid precursors with round dense nuclei",
+    "Hypercellular intertrabecular spaces with interspersed fat",
+    "Scattered black granular pigment deposits, likely fixative (e.g., B5/formalin) artifact or hemosiderin"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows a cellular marrow with an increase in immature mononuclear cells having open chromatin and small nucleoli, consistent with blasts. Megakaryocytes are present and dysplastic, many being small with monolobated or bilobed nuclei. Erythroid precursors are admixed, and black granular pigment deposits are noted, likely artifactual. Blast enumeration by aspirate/CD34 IHC and cytogenetics are required, but the combination of increased blasts and hypolobated megakaryocytes is suggestive of AML with inv(3)(q21q26.2)/t(3;3)(q21;q26.2), GATA2::MECOM.",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome with del(5q)", "vs": "del(5q) also shows hypolobated megakaryocytes but with low blasts, macrocytic anemia, and normal or high platelets; cytogenetics separates it from 3q26 rearrangement."},
+    {"dx": "MDS/AML with monosomy 7 or complex karyotype", "vs": "These show micromegakaryocytes and multilineage dysplasia but lack MECOM rearrangement on karyotype/FISH."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL is dominated by CD41/CD61-positive megakaryoblasts with marrow fibrosis rather than a CD34+ myeloid blast population with dysplastic mature megakaryocytes."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

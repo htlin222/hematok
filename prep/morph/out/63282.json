@@ -1,0 +1,21 @@
+{
+  "id": "63282",
+  "recognize_zh": "骨髓抹片中央有兩顆胞質豐富淡藍、帶細顆粒、只有單一大圓核的巨核細胞（箭頭），核未分葉，屬於單核／低分葉巨核細胞異生，周圍夾雜帶核仁的芽細胞，支持 AML 伴骨髓發育不良相關變化。",
+  "features": [
+    "Two large cells with abundant pale blue, finely granular cytoplasm and a single large round non-lobated nucleus (arrow), consistent with mononuclear megakaryocytes",
+    "Megakaryocyte nuclei with fine chromatin and small nucleoli, relatively immature for the cytoplasmic volume",
+    "Surrounding blasts with high N:C ratio, fine chromatin and visible nucleoli, including one with nuclear vacuolation/pseudo-inclusion",
+    "Scattered granulocytic precursors and dense erythroid cells",
+    "Fat vacuoles and red cells in a cellular particle area"
+  ],
+  "describe_en": "Bone marrow aspirate smear (high power) from a cellular particle shows two large megakaryocytes with abundant pale, finely granular cytoplasm and single large, round, non-lobated nuclei (arrow), consistent with dysplastic mononuclear megakaryocytes. The surrounding cells include numerous blasts with high N:C ratio, fine chromatin and conspicuous nucleoli, one showing a nuclear vacuole, together with scattered granulocytic and erythroid precursors. Findings demonstrate megakaryocytic dysplasia in a blast-rich marrow, consistent with acute myeloid leukemia with myelodysplasia-related changes in the appropriate cytogenetic context.",
+  "ddx": [
+    {"dx": "Megakaryocytes in 5q- syndrome (MDS with isolated del(5q))", "vs": "del(5q) megakaryocytes are also small with non-lobated nuclei, but occur without blast excess and with isolated del(5q) on karyotype."},
+    {"dx": "Megakaryocytes in CML or other MPN", "vs": "CML megakaryocytes are small and hypolobated (dwarf) with myeloid hyperplasia and basophilia but no blast excess, and are BCR::ABL1-positive."},
+    {"dx": "Osteoblast or plasma cell", "vs": "Osteoblasts have eccentric nuclei with a pale hof distant from the nucleus and plasma cells are smaller with clock-face chromatin, rather than abundant granular megakaryocytic cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

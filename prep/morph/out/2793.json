@@ -1,0 +1,21 @@
+{
+  "id": "2793",
+  "recognize_zh": "骨髓切片中大量小型淋巴細胞呈細胞膜棕色陽性，染色像是 T 細胞標記（如 CD3），陽性細胞密集散佈於脂肪空泡之間，顯示骨髓內淋巴細胞以 T 細胞為主，符合 rituximab 後的 T 細胞增生。",
+  "features": [
+    "Numerous small lymphocytes with crisp membranous brown immunoreactivity (T-cell marker pattern, likely CD3)",
+    "Positive cells are interstitially distributed at high density between adipocytes",
+    "Positive cells have small round nuclei with condensed chromatin and scant cytoplasm",
+    "Admixed negative larger cells with paler nuclei represent residual hematopoietic and stromal elements",
+    "No large atypical positive cells or sheets of blasts identified"
+  ],
+  "describe_en": "Bone marrow core biopsy immunohistochemical stain (presumed T-cell marker, e.g., CD3) highlights a markedly increased population of small lymphocytes with membranous staining, distributed interstitially at high density among adipocytes and residual hematopoietic cells. The positive cells are cytologically bland, with small round nuclei and scant cytoplasm, and no large atypical forms are seen. In a patient treated with rituximab, this pattern of T-cell predominance accompanied by B-cell depletion is typical. Findings are consistent with rituximab-associated reactive marrow T-cell hyperplasia; TCR clonality studies can exclude a T-cell neoplasm if clinically indicated.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL shows intrasinusoidal linear arrays of CD8+/TIA-1+/granzyme B+ cells with clonal TCR, whereas this post-rituximab infiltrate is a diffuse polyclonal interstitial T-cell increase."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL shows medium to large atypical T cells, aberrant antigen loss (CD5/CD7) and clonality, which are not seen in these small bland T cells."},
+    {"dx": "Residual B-cell lymphoma masked by CD20 loss", "vs": "PAX5/CD79a staining would reveal a B-cell population in residual lymphoma, whereas here the lymphoid cells are T-marker positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (likely CD3)",
+  "match": "consistent",
+  "high_yield": false
+}

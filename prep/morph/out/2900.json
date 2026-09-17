@@ -1,0 +1,19 @@
+{
+  "id": "2900",
+  "recognize_zh": "中低倍 LAP 染色：視野裡大量中性球只見紅色分葉核，幾乎沒有藍色顆粒，僅一兩顆有少量藍色，代表 LAP 分數偏低（如 CML）。",
+  "features": [
+    "Increased number of neutrophils with red-counterstained lobulated nuclei",
+    "Almost all neutrophils lack blue cytoplasmic granules (score 0)",
+    "Only one or two cells with faint blue reaction product",
+    "Unstained red cell aggregates in background"
+  ],
+  "describe_en": "Peripheral blood smear stained for leukocyte alkaline phosphatase shows numerous neutrophils, nearly all of which lack blue cytoplasmic reaction product and display only red-counterstained nuclei. Rare cells show faint positivity. This pattern corresponds to a markedly reduced LAP score, as classically seen in chronic myeloid leukemia (and in PNH), in contrast to the high scores of leukemoid reactions.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "Reactive neutrophilia shows most neutrophils with 2+ to 4+ blue granules and a high LAP score."},
+    {"dx": "Poor substrate/technical failure", "vs": "A concurrently run positive control with strongly reactive neutrophils is required to exclude a false-low result from old or improperly fixed smears."}
+  ],
+  "specimen": "PB",
+  "stain": "Cytochemistry: LAP (azo dye, red counterstain)",
+  "match": "consistent",
+  "high_yield": true
+}

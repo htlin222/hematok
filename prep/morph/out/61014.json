@@ -1,0 +1,22 @@
+{
+  "id": "61014",
+  "recognize_zh": "視野中央一顆分葉型嗜中性球的外緣緊貼著一圈（約 6–7 顆）血小板，像衛星環繞，即血小板衛星現象（platelet satellitism）；這是 EDTA 採血管引起的體外現象，可造成自動計數的假性血小板低下。",
+  "features": [
+    "Segmented neutrophil with 3-4 nuclear lobes and fine pink cytoplasmic granules",
+    "About six to seven platelets adherent around the neutrophil membrane, mostly along its lower and left border (rosetting)",
+    "Adherent platelets are normal in size and granularity",
+    "Few free platelets elsewhere in the background",
+    "Normocytic, normochromic red cells with mild overlap"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic, normochromic red cells and a mature segmented neutrophil in the center. Multiple normal-sized platelets are adherent to the neutrophil surface in a rosette-like arrangement, consistent with platelet satellitism, while relatively few free platelets are seen in the background. No platelet clumps, leukocyte inclusions or phagocytosed platelets are identified. This EDTA-dependent in vitro phenomenon can cause spurious thrombocytopenia (pseudothrombocytopenia); the platelet count should be verified on a citrated or fingerstick sample.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Platelet clumps are aggregates of platelets among themselves at the feathered edge, not platelets ringing the surface of neutrophils."},
+    {"dx": "Platelet phagocytosis by neutrophils", "vs": "Phagocytosed platelets lie within cytoplasmic vacuoles of the neutrophil rather than attached to the outer membrane."},
+    {"dx": "Giant platelets / true thrombocytopenia", "vs": "True thrombocytopenia shows few platelets without any rosetting, and the count does not normalize in citrate."},
+    {"dx": "Overlap artifact in thick areas", "vs": "Chance overlap involves isolated platelets without a consistent circumferential ring around multiple leukocytes across the smear."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

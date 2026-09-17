@@ -1,0 +1,28 @@
+{
+  "id": "60739",
+  "recognize_zh": "抹片中滿是成熟分葉嗜中性球（類白血病反應），真正的腫瘤細胞稀少而容易漏看；ALK 分離探針 FISH 顯示紅綠訊號分開（重組），免疫染色則標出散在的大型陽性細胞，證實為 ALK 陽性退行性大細胞淋巴瘤。",
+  "features": [
+    "Aspirate/smear (A): marked predominance of mature segmented and band neutrophils, consistent with a leukemoid reaction; few larger mononuclear cells",
+    "FISH (B): ALK break-apart probe with separated 3′ (red) and 5′ (green) signals in the rearranged nucleus versus fused signals in the normal nucleus",
+    "IHC (C): scattered large cells with strong membranous and cytoplasmic staining, including Golgi-pattern accentuation, among many negative small cells",
+    "IHC (D): rare large positive cells with cytoplasmic staining (second marker, unlabeled)",
+    "Tumor cells are sparse and would be easily obscured by the neutrophilic background"
+  ],
+  "describe_en": "The smear shows an overwhelming population of mature segmented and band neutrophils, representing a marked leukemoid reaction, with only occasional larger mononuclear cells. Interphase FISH with an ALK break-apart probe demonstrates split 3′ and 5′ ALK signals in an abnormal nucleus, indicating ALK rearrangement, in contrast to the fused signals of a normal nucleus. Immunohistochemical stains (antibodies not labeled in the figure) highlight scattered large neoplastic cells with membranous/Golgi and cytoplasmic positivity among numerous negative cells. Findings are consistent with ALK-positive anaplastic large cell lymphoma with a leukemoid neutrophilic reaction; the associated hemophagocytic lymphohistiocytosis is not directly demonstrated in these panels.",
+  "ddx": [
+    {"dx": "Chronic neutrophilic leukemia / CML", "vs": "Myeloid neoplasms show a clonal left shift or CSF3R/BCR::ABL1 abnormality, whereas here the neutrophilia is reactive and ALK rearrangement is found in rare large lymphoma cells."},
+    {"dx": "Neutrophil-rich (sarcomatoid/inflammatory) classic Hodgkin lymphoma", "vs": "Hodgkin cells are CD30+/CD15+/PAX5 weak and ALK-negative without ALK break-apart signals."},
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "Morphology can be identical, but ALK protein and ALK rearrangement by FISH are absent."},
+    {"dx": "ALK-positive large B-cell lymphoma or ALK-rearranged histiocytosis", "vs": "These are also ALK+ but ALK-positive LBCL is plasmablastic and CD30-negative, and ALK-histiocytosis expresses CD68/CD163 rather than T-cell markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; FISH: ALK break-apart; IHC (unlabeled)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Smear dominated by mature neutrophils (leukemoid reaction)",
+    "ALK break-apart FISH: split red/green signals (rearranged) versus fused signals (normal)",
+    "IHC: scattered large lymphoma cells with membranous/Golgi staining",
+    "IHC: rare large positive cells with cytoplasmic staining"
+  ]
+}

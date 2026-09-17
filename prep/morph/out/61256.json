@@ -1,0 +1,22 @@
+{
+  "id": "61256",
+  "recognize_zh": "組圖中黑箭頭是毛狀細胞（hairy cell）：核卵圓或腎形、染色質均勻，細胞質大量淡藍、周邊有細毛狀突起；紅箭頭則是細胞質深藍、核偏心的漿細胞；流式 D 顯示 CD103+/CD123+ 細胞共表現 CD11c 與 CD25，E 顯示 CD38+/CD138+ 漿細胞 kappa 限制。同一病人同時有毛狀細胞白血病與漿細胞腫瘤。",
+  "features": [
+    "Panels A-C, black arrows: hairy cells with oval to bean-shaped nuclei, evenly dispersed chromatin, absent nucleoli and abundant pale blue-gray cytoplasm with circumferential fine hair-like projections",
+    "Panels A-C, red arrows: plasma cells with eccentric round nuclei, clumped chromatin and deeply basophilic cytoplasm, some with irregular cytoplasmic blebs",
+    "Panel C background includes maturing myeloid precursors, indicating a marrow aspirate",
+    "Panel D (flow): CD103+/CD123+ lymphocytes co-express CD11c and CD25 as a tight cluster",
+    "Panel E (flow): CD38+/CD138+ tumoral plasma cells show kappa light-chain restriction"
+  ],
+  "describe_en": "Aspirate smears show two distinct abnormal populations: hairy cells with oval to reniform nuclei, homogeneous chromatin and abundant pale cytoplasm with circumferential fine projections (black arrows), and plasma cells with eccentric nuclei and deeply basophilic, focally irregular cytoplasm (red arrows). Flow cytometry demonstrates a CD103+/CD123+ B-cell population that co-expresses CD11c and CD25, and a separate CD38+/CD138+ plasma cell population with kappa light-chain restriction. The coexistence of two clonal populations supports two concurrent neoplasms. Findings are consistent with hairy cell leukemia coexisting with a kappa-restricted plasma cell neoplasm.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli)", "vs": "Cells have a distinct nucleolus and lack CD25 and CD123 (and annexin A1/BRAF V600E), whereas this population is CD25+/CD123+."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Villous lymphocytes have polar short projections and usually are CD103-negative and CD25/CD11c variable, and may show plasmacytic differentiation from the same clone rather than a separate plasma cell clone."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "Shows a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells sharing one light chain with MYD88 L265P, rather than hairy cells plus a separate plasma cell population."},
+    {"dx": "Reactive polyclonal plasmacytosis", "vs": "Plasma cells show a normal kappa:lambda ratio without restriction on flow cytometry."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

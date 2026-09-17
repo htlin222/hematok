@@ -1,0 +1,31 @@
+{
+  "id": "2602",
+  "recognize_zh": "骨髓抹片中多顆大型異常前骨髓球，細胞質布滿紫紅色細至粗顆粒，核呈腎形、凹陷或雙葉（中下方一顆心形分葉核），與正常顆粒球系成熟序列不同，符合APL。",
+  "features": [
+    "Large abnormal promyelocytes with abundant cytoplasm",
+    "Dense fine-to-coarse azurophilic granules filling the cytoplasm, focally obscuring the nuclear border",
+    "Reniform, indented and bilobed (heart-shaped) nuclei with fine chromatin",
+    "Some cells with irregular cytoplasmic outlines and pale-blue agranular peripheral cytoplasm",
+    "Auer rod bundles not clearly identified",
+    "Occasional small orthochromatic erythroid precursor in the field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows numerous large abnormal promyelocytes with abundant cytoplasm densely filled with fine to coarse azurophilic granules. Nuclei are reniform, indented or bilobed with fine chromatin, and granules focally obscure the nuclear outline. Some cells have pale agranular cytoplasmic margins. Auer rod bundles are not clearly identified in this field, and normal maturing granulocytes are sparse. Findings are consistent with hypergranular acute promyelocytic leukemia; urgent PML::RARA testing and coagulation studies are recommended.",
+  "ddx": [
+    {
+      "dx": "Reactive promyelocytes (marrow recovery, G-CSF)",
+      "vs": "Normal promyelocytes have a round eccentric nucleus with a Golgi hof and are accompanied by an orderly maturation sequence rather than bilobed nuclei and obscuring granules."
+    },
+    {
+      "dx": "AML with maturation",
+      "vs": "Blasts in AML with maturation have fewer granules and nuclei are not bilobed, with MPO positivity but no PML::RARA."
+    },
+    {
+      "dx": "Acute monocytic leukemia with folded nuclei",
+      "vs": "Monocytic cells have gray-blue cytoplasm with fine dust-like granules and are nonspecific esterase positive and CD14/CD64 positive, unlike strongly MPO-positive hypergranular promyelocytes."
+    }
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

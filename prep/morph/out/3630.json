@@ -1,0 +1,21 @@
+{
+  "id": "3630",
+  "recognize_zh": "標題寫的是細胞散佈圖（cytogram），但這張是周邊血抹片：有兩顆被紅血球擠壓成方角形的小淋巴球、一顆正常分葉中性球，紅血球有不少乾燥造成的折光性假影；看不到腫瘤性細胞，屬正常血球形態。",
+  "features": [
+    "Two small lymphocytes with round nuclei and scant pale-blue cytoplasm, deformed into angular shapes by adjacent RBCs",
+    "One mature segmented neutrophil with normal lobation and granulation",
+    "RBCs with refractile, crisp-edged central inclusions consistent with drying/water artifact",
+    "Occasional small dark precipitate particles and scattered normal platelets",
+    "No blasts, dysplasia, or inclusions in leukocytes"
+  ],
+  "describe_en": "Although the title refers to a cytogram, the image is a peripheral blood smear rather than an analyzer scatter plot. It shows two small mature lymphocytes, compressed into angular shapes by surrounding red cells, and a normal segmented neutrophil. Many red cells contain refractile, sharply outlined clear areas typical of drying (water) artifact, and a few stain precipitate particles are present; these should not be mistaken for inclusions or parasites. No blasts or dysplastic features are seen, and the findings represent normal leukocyte morphology.",
+  "ddx": [
+    {"dx": "Intraerythrocytic parasites (malaria, Babesia)", "vs": "Drying artifact is refractile and colorless with sharp edges, whereas parasites have blue cytoplasm and red-purple chromatin dots."},
+    {"dx": "Pappenheimer or Howell-Jolly bodies", "vs": "True inclusions are basophilic and stay in focus with the cell, unlike the refractile clear artifacts here."},
+    {"dx": "Hairy cells or villous lymphocytes", "vs": "The cytoplasmic angularity here is compression artifact from neighboring RBCs rather than circumferential hair-like projections with abundant cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "discordant",
+  "high_yield": false
+}

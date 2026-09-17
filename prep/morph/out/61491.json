@@ -1,0 +1,22 @@
+{
+  "id": "61491",
+  "recognize_zh": "骨髓切片可見數個巨核細胞（megakaryocyte），其中三個聚在一起，細胞大、細胞質豐富嗜酸性、核分葉正常且無明顯異型，背景為紅血球系與顆粒球系前驅細胞；巨核細胞數量增加但型態成熟正常，符合 ITP 的周邊破壞型血小板減少。",
+  "features": [
+    "Several megakaryocytes, including a loose cluster of three, indicating increased numbers",
+    "Megakaryocytes are large with abundant eosinophilic cytoplasm and normally lobulated nuclei",
+    "No hypolobated, small dysplastic, or bizarre hyperchromatic megakaryocytes",
+    "Background trilineage hematopoiesis with erythroid precursors (round dark nuclei) and granulocytic cells",
+    "Interspersed fat spaces; section quality shows some processing artifact and uneven staining"
+  ],
+  "describe_en": "Bone marrow section shows cellular hematopoietic marrow with interspersed fat spaces. Megakaryocytes appear increased, including a small loose cluster, and are large with abundant eosinophilic cytoplasm and normally lobulated nuclei, without dysplastic or bizarre hyperchromatic forms. Erythroid and granulocytic precursors are present in the background, and no infiltrative process is seen in this field, although section quality limits fine cytologic detail. Findings are consistent with a peripheral consumptive thrombocytopenia such as immune thrombocytopenia, in the appropriate clinical setting.",
+  "ddx": [
+    {"dx": "Essential thrombocythemia", "vs": "ET megakaryocytes are also increased and large but hyperlobulated (staghorn) with a high platelet count and JAK2/CALR/MPL mutation, rather than thrombocytopenia."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS megakaryocytes are small, hypolobated, or have separated nuclear lobes, with dysplasia in other lineages."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF megakaryocytes form tight clusters with bulbous, hyperchromatic, cloud-like nuclei and are associated with reticulin fibrosis."},
+    {"dx": "Hypoproductive (amegakaryocytic) thrombocytopenia", "vs": "Aplastic anemia or congenital amegakaryocytic thrombocytopenia shows reduced or absent megakaryocytes, the opposite of this field."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

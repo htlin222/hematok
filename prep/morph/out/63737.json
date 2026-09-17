@@ -1,0 +1,20 @@
+{
+  "id": "63737",
+  "recognize_zh": "這是一支紫頭 EDTA 採血管的照片，傾斜後管壁上沾滿一粒一粒的紅色顆粒狀凝集物，而不是均勻的全血，代表室溫下紅血球已經凝集（體外冷凝集），加溫到 37°C 通常會散開。",
+  "features": [
+    "Photograph of a lavender-top (EDTA) blood collection tube held horizontally",
+    "Coarse granular red clumps coating the inner tube wall instead of a smooth uniform film",
+    "Visible macroscopic agglutinates at room temperature",
+    "No fibrin clot or gross hemolysis evident"
+  ],
+  "describe_en": "Gross photograph of an EDTA-anticoagulated whole blood tube shows coarse, granular red cell aggregates coating the inner tube wall when the tube is tilted, rather than a smooth homogeneous film. This macroscopic agglutination at room temperature indicates in vitro cryoagglutination due to a cold agglutinin. Warming the tube to 37°C should disperse the agglutinates, and a repeat CBC on a pre-warmed sample corrects spurious results such as low RBC count, falsely high MCV and MCHC. A true clot would appear as a single cohesive fibrin mass rather than dispersed granules.",
+  "ddx": [
+    {"dx": "Clotted specimen (inadequate anticoagulation)", "vs": "A clotted sample shows a cohesive fibrin clot or strands that do not disperse with warming."},
+    {"dx": "Cryofibrinogenemia / cryoglobulinemia", "vs": "Cryoproteins cause a gel or precipitate in plasma after cooling rather than granular red-cell clumps, and cryofibrinogen is seen in plasma but not serum."},
+    {"dx": "Marked rouleaux (paraproteinemia)", "vs": "Rouleaux cause rapid sedimentation but not grossly visible granular clumps on the tube wall."}
+  ],
+  "specimen": "gross",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

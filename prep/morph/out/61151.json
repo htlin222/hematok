@@ -1,0 +1,21 @@
+{
+  "id": "61151",
+  "recognize_zh": "這是 CD25 免疫組化：一片中大型、核呈卵圓至腎形的腫瘤細胞，大多只有淡藍色背景染色，僅少數細胞胞質內可見細顆粒狀棕色染色，屬弱且局部陽性，需搭配 CD117/tryptase 判讀為異常肥大細胞表現 CD25。",
+  "features": [
+    "Sheet of medium to large cells with oval, indented to reniform nuclei and moderate pale cytoplasm",
+    "Fine, dot-like granular brown cytoplasmic staining in scattered cells only",
+    "Most tumor cells show no convincing membranous or cytoplasmic CD25 signal",
+    "No strong, crisp membranous staining pattern identifiable at this magnification",
+    "Occasional small vacuoles/fat spaces in a densely cellular background"
+  ],
+  "describe_en": "Immunohistochemical stain for CD25 on a densely cellular infiltrate composed of medium to large cells with oval to reniform nuclei and moderate amounts of pale cytoplasm. Only scattered cells show weak, fine granular cytoplasmic staining; the majority of the infiltrate lacks definite reactivity, and the dot-like pattern should be distinguished from pigment or nonspecific deposits. Interpretation requires correlation with CD117 and tryptase stains on the same infiltrate; aberrant CD25 expression by mast cells, if confirmed, supports systemic mastocytosis, here in the context of mast cell leukemia.",
+  "ddx": [
+    {"dx": "Hemosiderin or nonspecific chromogen deposition", "vs": "Pigment is refractile and golden-brown, is present on an unstained control slide, and is not confined to the cytoplasm of cells that coexpress CD117/tryptase."},
+    {"dx": "CD25+ activated T cells or regulatory T cells", "vs": "T cells are small lymphocytes with membranous CD25 that are CD3-positive and tryptase-negative, unlike the larger oval-nucleated mast cells."},
+    {"dx": "Reactive (non-neoplastic) mast cell hyperplasia", "vs": "Reactive mast cells are scattered, round, and CD25-negative, whereas neoplastic mast cells form clusters or sheets and express CD25 and/or CD2."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD25",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63733",
+  "recognize_zh": "骨髓抹片中有數個核偏心、胞質藍灰、核旁淡染區（hof）的成熟漿細胞，背景（箭頭）則布滿淡紫藍色、細顆粒至絲狀的無細胞沉澱物，這是低溫下析出的冷凝球蛋白（cryoglobulin），不是細胞碎片或血小板。",
+  "features": [
+    "Plasma cells with eccentric round nuclei, clock-face chromatin, basophilic cytoplasm and perinuclear hof",
+    "Admixed small round cells with dense nuclei and scant cytoplasm (lymphocytes/late erythroid precursors)",
+    "Background coated by extracellular pale violet granular to fibrillary amorphous precipitate (arrows)",
+    "Red cells appear pale and ghost-like with refractile outlines, partly obscured by the precipitate",
+    "Few elongated smeared nuclear strands (crush artifact)"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered plasma cells with eccentric nuclei, coarse chromatin, basophilic cytoplasm and perinuclear clearing, admixed with small lymphoid cells or late erythroid precursors. The background contains abundant extracellular, pale violet, finely granular to fibrillary precipitate (arrows) that lies between cells and over red cells, consistent with precipitated cryoglobulin. Plasma cell percentage cannot be estimated from this single field. In a patient with multiple myeloma, the findings are consistent with a monoclonal (type I) cryoglobulin precipitating in the smear.",
+  "ddx": [
+    {"dx": "Platelet clumps or platelet-rich background", "vs": "Platelets are discrete granular bodies with a pale hyalomere, whereas cryoglobulin forms an amorphous confluent granular-fibrillar coating."},
+    {"dx": "Stain precipitate artifact", "vs": "Stain precipitate is dark, crystalline and lies in a different focal plane, while cryoglobulin is pale, homogeneous and dissolves when the sample is warmed to 37°C."},
+    {"dx": "Amyloid deposits", "vs": "Amyloid appears as waxy pale-blue acellular clumps that are Congo red positive with apple-green birefringence, not a diffuse granular precipitate."},
+    {"dx": "Crystal-storing histiocytosis / intracellular crystals", "vs": "Immunoglobulin crystals are intracellular needle-like or rhomboid inclusions in plasma cells or histiocytes rather than extracellular precipitate."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

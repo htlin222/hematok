@@ -1,0 +1,21 @@
+{
+  "id": "19394",
+  "recognize_zh": "血液抹片中小型、染色質粗塊狀的 CLL 淋巴球與污斑細胞之間，混有兩顆細胞質豐富淡藍、核較大且染色質較開放的大型淋巴樣細胞，大小與形態明顯不一，符合 CLL 混合細胞型。",
+  "features": [
+    "Mixture of small lymphocytes with dense clumped chromatin and scant cytoplasm",
+    "Two large lymphoid cells with abundant pale-blue cytoplasm, oval nuclei, and more open chromatin (center)",
+    "Medium-sized lymphoid cell with a moderate rim of cytoplasm and slightly indented nucleus (lower right)",
+    "Smudge cell (upper right) and a mature segmented neutrophil for size comparison",
+    "Red cells normocytic with drying artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows a lymphoid population of variable size, comprising small lymphocytes with clumped chromatin and scant cytoplasm, medium-sized cells, and larger lymphoid cells with abundant pale-blue cytoplasm and more open chromatin. A smudge cell and a mature neutrophil are also present. Red cells are unremarkable aside from drying artifact. Findings are consistent with chronic lymphocytic leukemia of mixed cell type; the proportion of larger cells and prolymphocytes should be quantified, and mantle cell lymphoma and other CD5-positive neoplasms should be excluded by immunophenotyping and cyclin D1/t(11;14) studies.",
+  "ddx": [
+    {"dx": "Leukemic mantle cell lymphoma", "vs": "Mantle cell lymphoma is cyclin D1/SOX11 positive with t(11;14) and typically CD23-negative, a distinction morphology cannot make reliably in atypical CLL."},
+    {"dx": "Reactive large granular or atypical lymphocytes", "vs": "Reactive lymphocytes have abundant cytoplasm that hugs adjacent red cells in a polyclonal background without numerous smudge cells or small clumped-chromatin lymphocytes."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL lymphocytes show polar villous projections and plasmacytoid differentiation and are generally CD5-negative and CD23-negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

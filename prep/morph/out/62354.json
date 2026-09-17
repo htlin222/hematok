@@ -1,0 +1,20 @@
+{
+  "id": "62354",
+  "recognize_zh": "幾乎所有腫瘤細胞都呈強而瀰漫的 CD3 棕色膜狀（及胞質）染色，核為淡藍色、形狀不規則，確立腫瘤細胞為 T 細胞系。",
+  "features": [
+    "Strong, diffuse membranous and cytoplasmic CD3 staining in virtually all tumor cells",
+    "Sheet-like growth of medium-sized cells with high N:C ratio",
+    "Nuclei (pale on counterstain) oval to irregular and angulated",
+    "Only rare negative interstitial or endothelial cells"
+  ],
+  "describe_en": "Immunohistochemical stain for CD3 shows strong, diffuse membranous and cytoplasmic staining in virtually all tumor cells, which form a sheet of medium-sized cells with irregular nuclei and scant cytoplasm. Negative cells are limited to scattered stromal and endothelial elements. This establishes T-cell lineage and, together with nuclear TdT expression, supports T-lymphoblastic leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL is CD3+ but TdT-negative and CD1a-negative, with pleomorphic mature cells and frequent loss of pan-T antigens."},
+    {"dx": "Thymoma (type B1/B2)", "vs": "Thymic lymphocytes are CD3+ TdT+ but are admixed with cytokeratin-positive epithelial cells and show a lobulated architecture."},
+    {"dx": "Early T-precursor lymphoblastic leukemia", "vs": "ETP-ALL is cytoplasmic CD3+ but CD1a-negative, CD8-negative, CD5 weak/negative and expresses stem cell or myeloid markers such as CD34, CD117 or CD13/CD33."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

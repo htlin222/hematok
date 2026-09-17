@@ -1,0 +1,22 @@
+{
+  "id": "63938",
+  "recognize_zh": "薄層血片中紅血球之間有一條細長、彎成 C 字形的紫色鞭毛蟲體，位於細胞外而不在紅血球內，這種固定血片中的 C 形錐鞭毛體（trypomastigote）是克氏錐蟲（T. cruzi）的典型外觀。",
+  "features": [
+    "Single slender, extracellular flagellate curved into a C shape between red cells",
+    "Purple-staining elongated body; nucleus and kinetoplast not clearly resolved at this magnification",
+    "Organism length roughly two to three red cell diameters",
+    "Nearby small purple clumped structure, most consistent with a platelet clump",
+    "Background red cells in a thick area with scattered dark rod-like stain precipitate and refractile artifacts"
+  ],
+  "describe_en": "Giemsa-stained thin peripheral blood smear shows densely packed red cells with scattered stain precipitate and a small platelet clump. Between the red cells there is a single slender extracellular flagellate curved into a characteristic C shape, measuring roughly two to three red cell diameters in length; the nucleus and the terminal kinetoplast cannot be clearly resolved at this magnification. No intracellular parasites are seen. Findings are consistent with a Trypanosoma cruzi trypomastigote, which should be correlated with epidemiologic exposure and confirmed by PCR or serology.",
+  "ddx": [
+    {"dx": "Trypanosoma brucei (African trypanosomiasis)", "vs": "T. brucei trypomastigotes are longer and more undulating with a small subterminal kinetoplast and a prominent undulating membrane, rather than the C shape with a large terminal kinetoplast of T. cruzi."},
+    {"dx": "Trypanosoma rangeli", "vs": "T. rangeli is longer and thinner with a small kinetoplast and is non-pathogenic, often requiring PCR to separate it in co-endemic areas."},
+    {"dx": "Microfilaria", "vs": "Microfilariae are much larger, many red cells long, with a column of nuclei and sometimes a sheath rather than a single nucleus and kinetoplast."},
+    {"dx": "Fibrin strand or stain artifact", "vs": "Artifacts lack an internal nucleus or kinetoplast and do not show the uniform tapered organism outline."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

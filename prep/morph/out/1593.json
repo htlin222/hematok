@@ -1,0 +1,21 @@
+{
+  "id": "1593",
+  "recognize_zh": "周邊血抹片中央一顆約為紅血球兩倍大的細胞，核分成3至4葉並以細絲相連，染色質粗塊狀，細胞質淡粉紅並有細小紫紅顆粒，是典型的分葉核中性球（segmented neutrophil）。",
+  "features": [
+    "Cell about twice the diameter of a red cell",
+    "Nucleus segmented into 3-4 lobes connected by thin chromatin strands",
+    "Coarsely clumped dark chromatin without nucleoli",
+    "Pale pink cytoplasm with fine lilac (secondary) granules",
+    "Background red cells with central pallor, some overlapping, and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a mature neutrophil with a nucleus divided into three to four lobes joined by thin filaments, coarsely clumped chromatin and pale cytoplasm containing fine lilac granules. There is no toxic granulation, Döhle body, vacuolization or hypersegmentation. Background red cells show normal central pallor with some overlap, and platelets are present. Findings are consistent with a normal segmented neutrophil.",
+  "ddx": [
+    {"dx": "Band neutrophil", "vs": "A band has a curved nucleus of uniform width without filamentous constrictions, whereas this nucleus is separated into distinct lobes by thin strands."},
+    {"dx": "Hypersegmented neutrophil", "vs": "Hypersegmentation requires six or more lobes (or >5% with five lobes), whereas this cell has three to four lobes."},
+    {"dx": "Eosinophil", "vs": "Eosinophils are usually bilobed with coarse refractile orange-red granules, unlike the fine lilac granules here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

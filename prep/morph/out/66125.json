@@ -1,0 +1,22 @@
+{
+  "id": "66125",
+  "recognize_zh": "骨髓抹片中有一大團緊密黏聚的小圓藍細胞，核深染、彼此擠壓成形（nuclear molding）、胞質極少，細胞間夾雜粉紅色纖維狀物質（神經纖維網，neuropil），部分細胞圍繞其排列成玫瑰花樣，大小明顯異於周邊造血細胞，符合轉移性神經母細胞瘤。",
+  "features": [
+    "Large cohesive syncytial cluster of small-to-medium round tumor cells, distinct from dispersed hematopoietic cells",
+    "Hyperchromatic round-to-oval nuclei with nuclear molding and very high N:C ratio",
+    "Scant, wispy pale-blue cytoplasm with indistinct cell borders",
+    "Pink-violet fibrillary neuropil-like material within the cluster, with surrounding cells arranged in a rosette-like pattern",
+    "Background normal hematopoietic elements (segmented neutrophil, lymphocytes, erythroid precursors) and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large cohesive cluster of non-hematopoietic small round blue cells with hyperchromatic nuclei, prominent nuclear molding, scant cytoplasm and indistinct cell borders. Pink fibrillary neuropil-like material is present within the cluster, around which tumor cells are arranged in a Homer-Wright rosette-like pattern, although the rosette is not sharply delineated in this field. Normal hematopoietic elements are present in the background. Findings are consistent with marrow involvement by metastatic neuroblastoma; confirmation with immunohistochemistry (PHOX2B, synaptophysin) on the core biopsy and urine catecholamines is recommended.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are discohesive, lack nuclear molding and neuropil, and are CD45/TdT-positive rather than PHOX2B/synaptophysin-positive."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma cells form clusters with PAS-positive cytoplasmic glycogen vacuoles but lack fibrillary neuropil, and are CD99/NKX2.2-positive with EWSR1 rearrangement."},
+    {"dx": "Rhabdomyosarcoma (alveolar)", "vs": "Rhabdomyosarcoma may show clusters and multinucleated cells with vacuolated cytoplasm but no neuropil, and expresses desmin/myogenin."},
+    {"dx": "Megakaryocyte clusters or bone marrow stromal fragments", "vs": "Megakaryocytes are large with abundant granular cytoplasm and lobulated nuclei, and stromal fragments contain fat and vessels rather than molded small blue cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

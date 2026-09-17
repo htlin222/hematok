@@ -1,0 +1,21 @@
+{
+  "id": "61553",
+  "recognize_zh": "G 帶核型圖中第 15 與 17 號染色體各有一條被圈起來：一條 15 號長臂較長、一條 17 號長臂變短，代表兩者長臂互換的平衡易位 t(15;17)(q24;q21)，形成 PML::RARA，是急性前骨髓細胞白血病（APL）的定義性異常。",
+  "features": [
+    "G-banded karyotype with 46 chromosomes and XY sex chromosomes (male)",
+    "Circled chromosome 15 pair: one homolog with an abnormal, slightly longer long arm, the derivative 15",
+    "Circled chromosome 17 pair: one homolog with a shortened, altered long arm, the derivative 17",
+    "Reciprocal exchange of 15q and 17q material consistent with t(15;17)(q24;q21)",
+    "No marker chromosome or other numerical abnormality in this metaphase"
+  ],
+  "describe_en": "This G-banded karyogram from an unstimulated bone marrow culture shows a male metaphase with 46 chromosomes. One chromosome 15 and one chromosome 17 are circled: the derivative chromosome 15 carries additional distal long-arm material, and the derivative chromosome 17 shows a shortened long arm, consistent with a balanced reciprocal translocation 46,XY,t(15;17)(q24;q21). No additional structural or numerical abnormalities are apparent in this cell. This rearrangement generates the PML::RARA fusion and is diagnostic of acute promyelocytic leukemia; FISH or RT-PCR is recommended because cryptic insertions can produce PML::RARA with a normal-appearing karyotype, and to establish a baseline for molecular monitoring.",
+  "ddx": [
+    {"dx": "APL variant RARA translocations, e.g., t(11;17)(q23;q21) ZBTB16::RARA", "vs": "Involve chromosome 11 rather than 15 and are ATRA-resistant, so the partner chromosome must be confirmed."},
+    {"dx": "Cryptic PML::RARA insertion with normal karyotype", "vs": "Karyotype appears normal, but FISH or RT-PCR detects the fusion."},
+    {"dx": "AML with t(8;21) or inv(16)", "vs": "Other recurrent balanced rearrangements involve chromosomes 8/21 or 16, not 15/17."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

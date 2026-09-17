@@ -1,0 +1,22 @@
+{
+  "id": "65568",
+  "recognize_zh": "周邊血與骨髓都是單一型態的芽細胞，切片中芽細胞成片取代骨髓並夾雜吞噬細胞；CD34 陽性、BCL6 核強陽性而 PAX5 陰性，加上 BCL6 break-apart FISH 紅綠訊號分離，表示這是帶 BCL6 重排的 AML 而非 B 細胞腫瘤。",
+  "features": [
+    "Peripheral blood with medium-sized blasts showing round to indented nuclei, fine chromatin, and moderate basophilic cytoplasm (panel A)",
+    "Marrow biopsy with diffuse sheets of monotonous blasts and scattered pale macrophages imparting a starry-sky-like pattern (panel B)",
+    "BCL6 break-apart FISH with one fused signal and separated red and green signals indicating rearrangement (panel C)",
+    "Blasts diffusely membranous CD34 positive (panel D) and strongly nuclear BCL6 positive (panel E)",
+    "PAX5 negative in blasts, excluding B-lineage (panel F)"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts with fine chromatin and moderate basophilic cytoplasm. The bone marrow biopsy is replaced by diffuse sheets of monotonous blasts with interspersed macrophages. By immunohistochemistry, the blasts are CD34 positive and show strong nuclear BCL6 expression, while PAX5 is negative, arguing against a B-cell neoplasm. Break-apart FISH shows a split BCL6 signal pattern. Findings are consistent with acute myeloid leukemia with BCL6 rearrangement, in this case co-occurring with KMT2A::MLLT10.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are PAX5/CD19/CD79a positive and usually TdT positive, whereas these blasts are PAX5 negative and MPO positive by flow."},
+    {"dx": "Burkitt or high-grade B-cell lymphoma (BCL6+)", "vs": "These can show a starry-sky pattern and BCL6 expression but are CD34 negative and express CD20/PAX5 with MYC rearrangement."},
+    {"dx": "Acute monoblastic/monocytic leukemia with KMT2A rearrangement only", "vs": "Morphology and phenotype overlap, and BCL6 rearrangement is identified only by FISH or genome mapping."},
+    {"dx": "Myeloid sarcoma/other small round blue cell tumors of childhood", "vs": "Non-hematopoietic tumors are CD34/MPO negative and express lineage markers such as desmin, synaptophysin, or CD99 with FLI1."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Giemsa; IHC: CD34, BCL6, PAX5; FISH: BCL6",
+  "match": "consistent",
+  "high_yield": false
+}

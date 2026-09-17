@@ -1,0 +1,22 @@
+{
+  "id": "60311",
+  "recognize_zh": "視野中散在數顆一端圓鈍、另一端拉長成單一尾巴的淚滴狀紅血球（dacrocytes），尾巴方向各不相同，而非全部朝同一方向，較支持真正的淚滴細胞而非推片假影。",
+  "features": [
+    "Several red cells tapering to a single elongated tail at one end (teardrop cells/dacrocytes)",
+    "Tails point in different directions, favoring true dacrocytes over spreading artifact",
+    "Background red cells are mostly round with mild anisocytosis",
+    "Occasional small dense cells lacking central pallor",
+    "No leukocytes, nucleated red cells or inclusions in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells with mild anisopoikilocytosis. Scattered teardrop-shaped cells are present, each with a rounded body tapering to a single tail, and the tails are randomly oriented. Occasional small dense cells are also noted. No nucleated red cells or immature myeloid cells are seen in this field. Findings are consistent with dacrocytes, which should prompt evaluation for marrow infiltration or fibrosis (a leukoerythroblastic picture), extramedullary hematopoiesis, thalassemia or megaloblastic anemia.",
+  "ddx": [
+    {"dx": "Smear preparation artifact", "vs": "Artifactual teardrops have very sharp tails all pointing in the same direction, whereas these tails are blunt and randomly oriented."},
+    {"dx": "Sickle cells", "vs": "Sickle cells taper at both ends into a crescent, whereas dacrocytes have one rounded end and one tail."},
+    {"dx": "Schistocytes", "vs": "Schistocytes are fragments with straight cut edges and sharp corners rather than intact cells with a single tapering tail."},
+    {"dx": "Elliptocytes", "vs": "Elliptocytes are symmetric ovals with both ends rounded, without a single drawn-out tail."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

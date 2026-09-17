@@ -1,0 +1,22 @@
+{
+  "id": "16886",
+  "recognize_zh": "中央一顆嗜中性球的細胞核分成六葉以上（hypersegmented），背景紅血球大小不一且有大卵圓形紅血球（macro-ovalocytes）與淚滴狀細胞，是惡性貧血等巨母紅血球性貧血的典型組合。",
+  "features": [
+    "Large neutrophil with a hypersegmented nucleus of six or more discrete lobes connected by thin chromatin strands",
+    "Lobes contain dense, clumped mature chromatin; cytoplasm with fine neutrophilic granules",
+    "Background anisopoikilocytosis with oval macrocytes (macro-ovalocytes)",
+    "Occasional teardrop-shaped and irregular poikilocytes",
+    "Red cells largely lack increased central pallor abnormalities; no nucleated red cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with numerous oval macrocytes (macro-ovalocytes) and occasional teardrop and irregularly shaped poikilocytes. A single neutrophil in the center displays a hypersegmented nucleus with at least six lobes joined by thin filaments. Platelets are sparse in this field. Findings are consistent with megaloblastic anemia, in this case attributed to pernicious anemia (vitamin B12 deficiency).",
+  "ddx": [
+    {"dx": "Folate deficiency", "vs": "Morphology is identical; distinction requires serum B12, folate, methylmalonic acid (elevated only in B12 deficiency) and intrinsic factor/parietal cell antibodies."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS may show macrocytosis but typically has hypogranular or pseudo-Pelger neutrophils rather than true hypersegmentation, with normal B12/folate levels."},
+    {"dx": "Drug-induced megaloblastosis (methotrexate, hydroxyurea, antiretrovirals)", "vs": "Drug-related changes mimic megaloblastic anemia morphologically and are identified by medication history with normal vitamin levels."},
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "This benign autosomal dominant trait shows hypersegmented neutrophils without macro-ovalocytes, anemia or cytopenias."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

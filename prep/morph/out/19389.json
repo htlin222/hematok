@@ -1,0 +1,22 @@
+{
+  "id": "19389",
+  "recognize_zh": "血液抹片中央有一顆淋巴球，核呈深色且表面有多道縱向摺痕與溝紋的腦迴狀（cerebriform）外觀、細胞質極少，這就是 Sézary 細胞，符合 Sézary 症候群。",
+  "features": [
+    "Small-to-medium lymphoid cell slightly larger than a red cell, with very high N:C ratio",
+    "Nucleus with multiple deep grooves and folds giving a cerebriform (convoluted) appearance",
+    "Dense, hyperchromatic chromatin without visible nucleoli",
+    "Scant, barely perceptible rim of cytoplasm without granules",
+    "Second small lymphocyte with condensed chromatin at the lower edge; background red cells and platelets largely unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating lymphoid cells, including a small-to-medium cell with a hyperchromatic nucleus bearing multiple deep grooves and folds, imparting a cerebriform contour, with scant agranular cytoplasm and no visible nucleoli. A second small lymphocyte is present at the field edge, and red cells and platelets show no significant abnormality. Findings are consistent with a Sézary cell and are suggestive of Sézary syndrome in the appropriate clinical setting of erythroderma; confirmation requires flow cytometry showing an expanded CD4-positive population with loss of CD7 and/or CD26 (absolute Sézary count at least 1000/µL) and a clonal TCR gene rearrangement.",
+  "ddx": [
+    {"dx": "Reactive lymphocytes with nuclear folding", "vs": "Occasional reactive or benign lymphocytes can show a single cleft, but a large circulating population of CD4+CD7−/CD26− cells with a clonal TCR is absent."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells have polylobated flower-shaped nuclei rather than cerebriform grooves, are CD25-positive, and are associated with HTLV-1."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells usually have a visible nucleolus and cytoplasmic blebs with marked lymphocytosis and TCL1A rearrangement, rather than cerebriform nuclei with erythroderma."},
+    {"dx": "Leukemic follicular lymphoma or mantle cell lymphoma", "vs": "These B-cell neoplasms may show cleaved nuclei but express CD19/CD20 with light chain restriction rather than a CD4+ T-cell phenotype."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3210",
+  "recognize_zh": "中倍下見一團大型異型細胞聚集，核大、空泡狀染色質、核仁可見，周圍為富含紅血球的疏鬆組織與混合發炎細胞；此團塊似位於血管／竇腔內，但本視野未能清楚顯示血管內皮邊界。",
+  "features": [
+    "Discrete aggregate of large atypical cells with enlarged vesicular nuclei and visible nucleoli",
+    "Moderate amphophilic cytoplasm; cells loosely cohesive",
+    "Aggregate appears to occupy a vascular or sinusoidal space without a clearly visible endothelial lining",
+    "Surrounding loose stroma with abundant red cells and mixed small inflammatory/hematopoietic cells",
+    "Cluster of small dark nuclei at the upper right (possibly granulocytes or a megakaryocyte)"
+  ],
+  "describe_en": "Tissue section shows a discrete aggregate of large atypical cells with vesicular nuclei, visible nucleoli and moderate amphophilic cytoplasm. The aggregate appears to lie within a vascular or sinusoidal space, surrounded by loose stroma rich in erythrocytes and mixed small cells. An endothelial lining around the aggregate is not clearly discernible at this magnification, so intravascular localization cannot be established on H&E alone. The findings are compatible with intravascular large B-cell lymphoma; CD20 and CD34/CD31 immunostains are needed to confirm an intraluminal B-cell population.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL forms extravascular sheets, whereas IVLBCL remains within vessel lumina on endothelial marker staining."},
+    {"dx": "Metastatic carcinoma cluster", "vs": "Carcinoma clusters are cohesive with defined cell borders and keratin positivity rather than CD45+ CD20+ lymphoid cells."},
+    {"dx": "Megakaryocyte cluster or erythroid colony (in marrow)", "vs": "Megakaryocytes have abundant granular cytoplasm with lobulated nuclei and erythroid colonies have small round dense nuclei, unlike large cells with vesicular chromatin and nucleoli."},
+    {"dx": "Granuloma (epithelioid histiocytes)", "vs": "Epithelioid histiocytes have elongated slipper-shaped nuclei with abundant pink cytoplasm and are CD68+ rather than round vesicular nuclei with nucleoli."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

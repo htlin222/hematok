@@ -1,0 +1,23 @@
+{
+  "id": "61177",
+  "recognize_zh": "高倍骨髓切片中腫瘤細胞大而呈多角形，細胞質豐富嗜酸性，細胞核偏位、呈泡狀並有單一大核仁，形似神經節細胞（ganglion cell），背景是淡粉紅色纖維狀神經氈，符合具神經節分化的神經母細胞瘤。",
+  "features": [
+    "Large polygonal tumor cells with abundant eosinophilic to amphophilic cytoplasm",
+    "Eccentric round vesicular nuclei with a single large, prominent nucleolus (ganglion-like cells)",
+    "Occasional binucleate cells and nuclear pleomorphism",
+    "Pale fibrillary neuropil-like background between tumor cells",
+    "Admixed smaller neuroblasts with hyperchromatic nuclei and scant cytoplasm",
+    "Residual thin-walled vessels with red cells; normal hematopoiesis absent in field"
+  ],
+  "describe_en": "Bone marrow biopsy at high power shows replacement of the marrow by a tumor composed predominantly of large polygonal cells with abundant eosinophilic cytoplasm and eccentric vesicular nuclei bearing single prominent nucleoli, resembling ganglion cells. Occasional binucleate forms and smaller hyperchromatic neuroblastic cells are admixed, set in a pale fibrillary neuropil-like background. No normal hematopoietic elements are seen in this field. Findings are consistent with metastatic neuroblastoma showing ganglionic (differentiating) features.",
+  "ddx": [
+    {"dx": "Metastatic rhabdomyosarcoma", "vs": "Rhabdomyoblasts have dense eosinophilic cytoplasm, sometimes strap-like with cross-striations, without neuropil, and are desmin/myogenin positive."},
+    {"dx": "Megakaryocytes", "vs": "Megakaryocytes have multilobated nuclei without a single large nucleolus and lack fibrillary neuropil, staining with CD61."},
+    {"dx": "Metastatic melanoma or carcinoma", "vs": "Melanoma and carcinoma cells may have macronucleoli but lack neuropil and are SOX10/S100 or cytokeratin positive respectively."},
+    {"dx": "Hodgkin lymphoma involving marrow", "vs": "Reed-Sternberg cells have inclusion-like nucleoli but sit in a mixed inflammatory and fibrotic background and are CD30/CD15 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

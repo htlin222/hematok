@@ -1,0 +1,21 @@
+{
+  "id": "2031",
+  "recognize_zh": "EBV 潛伏膜蛋白（LMP1）免疫染色：在大量藍色、未染色的淋巴球與較大細胞之間，只有少數散在細胞的細胞質／細胞膜呈深棕色陽性，代表部分細胞帶有 EBV，支持 EBV 相關的 PTLD。",
+  "features": [
+    "Immunohistochemical stain for EBV latent membrane protein 1 (LMP1) with hematoxylin counterstain",
+    "Scattered cells with strong brown cytoplasmic/membranous staining",
+    "Positive cells vary in size, including a larger elongated cell and small round cells",
+    "Majority of small lymphoid cells and larger vesicular cells are negative",
+    "Loose, partly edematous background in the upper field"
+  ],
+  "describe_en": "Immunohistochemical stain for EBV LMP1 shows scattered cells with strong cytoplasmic and membranous staining, including a larger elongated cell and several smaller round cells, among a predominantly negative population of small lymphoid cells and larger vesicular cells. Only a minority of cells are positive in this field. Findings indicate the presence of EBV-infected cells and support an EBV-associated post-transplant lymphoproliferative disorder; EBER in situ hybridization is more sensitive for quantifying EBV-positive cells.",
+  "ddx": [
+    {"dx": "EBV-negative PTLD", "vs": "EBV-negative PTLD typically occurs late after transplant and lacks LMP1/EBER-positive cells, whereas positive cells are present here."},
+    {"dx": "Scattered EBV-positive bystander B cells in reactive tissue", "vs": "Rare EBER-positive cells can be seen in reactive nodes of healthy carriers, so the diagnosis depends on architectural effacement and a significant positive population rather than any positivity."},
+    {"dx": "Classic Hodgkin lymphoma-like PTLD", "vs": "LMP1 highlights large Hodgkin/Reed-Sternberg-like cells that are CD30+ and CD15+ in cHL-type PTLD, rather than variably sized plasmacytoid cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: EBV LMP1",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1163",
+  "recognize_zh": "紅色箭頭指的細胞比周圍顆粒球略大，核圓、染色質較細，胞質深藍且邊緣呈毛絨狀、有血小板樣小突起脫落；這是早期未成熟巨核細胞（megakaryoblast/promegakaryocyte），背景是成熟完整的顆粒球系，屬反應性高轉換狀態。",
+  "features": [
+    "Arrowed cell: large immature megakaryocyte with round nucleus, relatively dense chromatin and high N:C ratio",
+    "Deeply basophilic cytoplasm with a frayed, blebby border shedding platelet-like fragments",
+    "Background of orderly granulocytic maturation: myelocytes, metamyelocytes, bands and segmented neutrophils",
+    "Normal secondary granulation in neutrophil precursors without obvious dysplasia",
+    "Occasional erythroid precursors; no blast excess evident"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular field with orderly, full-spectrum granulocytic maturation including myelocytes, metamyelocytes, band forms and segmented neutrophils with normal granulation. The arrowed cell is an immature megakaryocyte (megakaryoblast/promegakaryocyte stage) with a round nucleus, high nuclear-to-cytoplasmic ratio, and deeply basophilic cytoplasm with frayed blebbing margins and early platelet-like budding. No dysplastic features or blast excess are evident in this field. Findings represent immature megakaryocytes as seen in states of increased platelet turnover.",
+  "ddx": [
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL shows sheets of megakaryoblasts and >=20% blasts, whereas here a single immature megakaryocyte sits within normal granulocytic maturation."},
+    {"dx": "Micromegakaryocyte (dysplastic)", "vs": "Dysplastic micromegakaryocytes are small with mature, pink granular cytoplasm and a condensed monolobated nucleus, not basophilic immature cytoplasm."},
+    {"dx": "Basophil or mast cell", "vs": "Basophils and mast cells contain discrete dark metachromatic granules, rather than basophilic cytoplasm with blebs and platelet budding."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

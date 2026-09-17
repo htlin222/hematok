@@ -1,0 +1,22 @@
+{
+  "id": "66482",
+  "recognize_zh": "低倍下骨髓幾近全滿 (A)，PAX5 標出廣泛 CLL 浸潤 (B)、CD34 顯示母細胞聚集區 (C)；高倍 CD71 與 CD61 標出部分母細胞 (E、F)，而 p53 在母細胞區呈強而瀰漫的核染色、CLL 區較弱 (G)，用以判斷 TP53 突變來源。",
+  "features": [
+    "Panel A: hypercellular marrow core at low power with near-complete loss of fat",
+    "Panel B: PAX5 highlights a diffuse interstitial B-cell infiltrate (CLL); Panel C: CD34 shows a dense cluster of positive blasts in a separate region",
+    "Panel D: H&E at higher power shows sheets of intermediate-sized cells with scattered atypical megakaryocytes",
+    "Panels E–F: CD71 and CD61 stain a subset of scattered larger cells, indicating erythroid and megakaryocytic differentiation",
+    "Panel G: p53 shows strong nuclear staining in a large subset of cells in one region, contrasting with weaker, heterogeneous staining elsewhere"
+  ],
+  "describe_en": "Bone marrow core biopsy is hypercellular (approximately 95%) with near-total replacement of fat. PAX5 immunostaining highlights an extensive interstitial B-cell infiltrate corresponding to the known chronic lymphocytic leukemia, while CD34 shows a separate, geographically distinct population of increased blasts. Higher power shows atypical megakaryocytes, and subsets of blasts express CD71 and CD61. p53 immunohistochemistry demonstrates diffuse strong nuclear overexpression in the blast population, in contrast to the heterogeneous weak-to-moderate (wild-type pattern) staining of the CLL cells. Findings are consistent with concurrent CLL and acute myeloid leukemia with erythroid/megakaryocytic differentiation, with the p53-overexpression pattern localizing the TP53 mutation to the AML compartment.",
+  "ddx": [
+    {"dx": "Richter transformation of CLL (DLBCL)", "vs": "Richter transformation consists of sheets of large PAX5/CD20-positive B cells, whereas the large cells here are CD34, CD71 and CD61 positive myeloid blasts."},
+    {"dx": "CLL with prolymphocytic progression", "vs": "Prolymphocytes are PAX5-positive B cells and would not account for the CD34-positive, CD71/CD61-positive population."},
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "MDS-IB shows <20% blasts, so separation from AML depends on blast enumeration in the aspirate and CD34 extent."},
+    {"dx": "Acute megakaryoblastic or pure erythroid leukemia", "vs": "These show a dominant single lineage, whereas here blasts show mixed CD71 and CD61 subsets with a separate CD34 population."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: PAX5, CD34, CD71, CD61, p53",
+  "match": "consistent",
+  "high_yield": false
+}

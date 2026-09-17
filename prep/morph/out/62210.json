@@ -1,0 +1,20 @@
+{
+  "id": "62210",
+  "recognize_zh": "這是全血球計數報告（panel D）：白血球 179.8×10³/µL、淋巴球絕對值 126.4×10³/µL 明顯升高，合併貧血（Hb 10.1 g/dL、MCV 102.3 fL）與血小板減少（115×10³/µL），支持 CLL 的臨床表現。",
+  "features": [
+    "WBC 179.80 x10^3/uL with lymphocytes 70.3% and absolute lymphocyte count 126.4 x10^3/uL (marked absolute lymphocytosis)",
+    "Neutrophil and mixed-cell counts reported as 0.0, an analyzer artifact likely related to extreme lymphocytosis (differential does not total 100%)",
+    "Anemia: RBC 3.03 x10^6/uL, Hgb 10.1 g/dL, Hct 31.0%, with macrocytosis (MCV 102.3 fL) and increased RDW (19.0%)",
+    "Thrombocytopenia: platelets 115 x10^3/uL",
+    "WBC histogram with a dominant small-cell lymphocyte peak"
+  ],
+  "describe_en": "This figure is an automated complete blood count report rather than a morphologic image. It shows marked leukocytosis (WBC 179.8 x10^3/uL) with absolute lymphocytosis (126.4 x10^3/uL), macrocytic anemia (Hgb 10.1 g/dL, MCV 102.3 fL, RDW-CV 19.0%), and thrombocytopenia (115 x10^3/uL). The neutrophil and mixed-cell values of zero with a differential that does not sum to 100% indicate an automated differential failure in the setting of extreme lymphocytosis and require a manual smear review. In conjunction with the smear and a CD5+/CD23+ B-cell phenotype, these results are consistent with chronic lymphocytic leukemia with cytopenias (anemia and thrombocytopenia, relevant to Rai/Binet staging).",
+  "ddx": [
+    {"dx": "Reactive lymphocytosis", "vs": "Reactive lymphocytosis rarely exceeds 30-50 x10^3/uL and is polyclonal without cytopenias, unlike the extreme lymphocytosis here."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL can produce similarly extreme lymphocyte counts but shows a T-cell phenotype (CD3/CD7+, TCL1+) on flow cytometry rather than CD19/CD5/CD23 co-expression."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

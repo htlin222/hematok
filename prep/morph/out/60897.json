@@ -1,0 +1,22 @@
+{
+  "id": "60897",
+  "recognize_zh": "CT 可見右側骨盆（髂骨）溶骨性合併軟組織腫塊（箭頭）；骨髓切片為瀰漫成片、中等大小、染色質細緻的芽細胞樣淋巴細胞，核染色（推測為 cyclin D3）大多強陽性，另一胞質染色（推測為 PTHrP）瀰漫強陽性，對應以高血鈣表現的母細胞型被套細胞淋巴瘤。",
+  "features": [
+    "CT (A): destructive right pelvic bone lesion with associated soft tissue mass (arrow)",
+    "BM biopsy (B): hypercellular marrow with diffuse sheets of monotonous medium-sized cells with fine blastoid chromatin and scant cytoplasm",
+    "IHC (C): strong nuclear staining in the majority of tumor cells, compatible with cyclin D3",
+    "IHC (D): diffuse strong cytoplasmic staining of tumor cells, compatible with PTHrP",
+    "Residual fat spaces with near-complete replacement of normal hematopoiesis"
+  ],
+  "describe_en": "Axial CT image shows a destructive lesion of the right pelvic bone with an associated soft tissue mass. The bone marrow core biopsy is hypercellular and diffusely replaced by sheets of monotonous medium-sized lymphoid cells with finely dispersed blastoid chromatin and scant cytoplasm. Immunohistochemistry shows strong nuclear positivity in most tumor cells (compatible with cyclin D3) and diffuse cytoplasmic positivity (compatible with parathyroid hormone-related protein); the specific antibodies are not labeled in the figure. In the stated context, findings are consistent with blastoid mantle cell lymphoma expressing cyclin D3 with PTHrP production causing hypercalcemia; SOX11 and CCND1/CCND2/CCND3 rearrangement studies are relevant for confirmation.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts are TdT and CD34 positive and often CD10 positive, whereas blastoid MCL is TdT negative with CD5 and SOX11 expression."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger with vesicular chromatin and nucleoli and lack SOX11 and cyclin D1/D2/D3 translocations."},
+    {"dx": "Plasma cell myeloma with hypercalcemia", "vs": "Myeloma causes lytic lesions and hypercalcemia via osteoclast activation, but tumor cells are plasmacytoid, CD138 positive and CD20 negative."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts express MPO, CD117 or CD34 and lack B-cell markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (cyclin D3, PTHrP); CT",
+  "match": "consistent",
+  "high_yield": false
+}

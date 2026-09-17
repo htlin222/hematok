@@ -1,0 +1,22 @@
+{
+  "id": "65893",
+  "recognize_zh": "這是流式細胞儀散佈圖，不是形態學影像：紅色母細胞群 CD45 弱、側散射低，表現 CD34、CD117、CD13 與 cCD3/cTdT，但 CD1a、CD5、CD4、CD8 陰性、cMPO 陰性；T 系標記加上幹細胞/骨髓系標記且缺 CD1a/CD8、CD5 陰性，符合早期 T 前驅細胞淋巴母細胞白血病（ETP-ALL）。",
+  "features": [
+    "Blast gate (red) is CD45-dim with low side scatter, distinct from brighter CD45 mature lymphocytes (blue)",
+    "Cytoplasmic CD3 positive with cytoplasmic TdT co-expression (~75% double positive)",
+    "Stem/myeloid markers expressed: CD34 (majority) and CD117, CD13 positive (~86%)",
+    "CD1a negative, CD4/CD8 double negative, and CD5 entirely negative; CD2 positive",
+    "Cytoplasmic MPO negative on gated blasts, excluding myeloid lineage assignment"
+  ],
+  "describe_en": "Flow cytometric immunophenotyping of bone marrow identifies a dominant CD45-dim, low side scatter blast population (red). The blasts express cytoplasmic CD3 and TdT together with CD34, CD117 and CD13, and are positive for CD2. They are negative for CD1a, CD4, CD8, CD5 and cytoplasmic MPO. The combination of T-lineage commitment (cCD3) with absent CD1a/CD8, absent CD5 and expression of stem cell/myeloid markers (CD34, CD117, CD13) without MPO fulfils the immunophenotypic criteria for early T-cell precursor lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "Mixed phenotype acute leukemia, T/myeloid", "vs": "MPAL T/myeloid requires MPO positivity or monocytic differentiation in addition to cCD3, whereas these blasts are cMPO negative."},
+    {"dx": "Cortical or non-ETP T-lymphoblastic leukemia", "vs": "Non-ETP T-ALL is usually CD5 positive and often CD1a or CD8 positive, and lacks CD117/CD13 expression."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML with minimal differentiation shares CD34/CD117/CD13 but lacks cytoplasmic CD3."},
+    {"dx": "Near-ETP T-ALL", "vs": "Near-ETP blasts have the ETP profile except for CD5 expression on at least 75% of blasts, whereas CD5 is negative here."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

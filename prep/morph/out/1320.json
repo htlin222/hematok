@@ -1,0 +1,20 @@
+{
+  "id": "1320",
+  "recognize_zh": "巨核細胞核呈濃縮、深染的大團塊，細胞質內包含數個完整的造血細胞（細胞穿入現象，emperipolesis），屬化療後骨髓中巨核細胞的變化。",
+  "features": [
+    "Megakaryocyte with a large, dense, hyperchromatic, poorly lobated nuclear mass",
+    "Several intact hematopoietic cells (granulocytes) enclosed within the megakaryocyte cytoplasm (emperipolesis), each surrounded by a clear halo",
+    "Deeply basophilic, vacuolated cytoplasm at the periphery",
+    "Background of maturing granulocytes, erythroid precursors, and lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a megakaryocyte with a dense, hyperchromatic, poorly lobated nucleus and basophilic cytoplasm containing several intact granulocytic cells within clear vacuoles, consistent with emperipolesis. The surrounding marrow cells include maturing granulocytes and erythroid precursors. Emperipolesis itself is a nonspecific finding; in a post-chemotherapy marrow, the nuclear condensation and hypolobation are consistent with chemotherapy effect on megakaryocytes.",
+  "ddx": [
+    {"dx": "Hemophagocytosis by macrophages", "vs": "In hemophagocytosis a histiocyte with a small bland nucleus engulfs and degrades cells, whereas here intact cells traverse the cytoplasm of a megakaryocyte with a large polyploid nucleus."},
+    {"dx": "Myelodysplastic neoplasm with dysplastic megakaryocytes", "vs": "MDS megakaryocytic dysplasia is persistent, multilineage and clonal, and emperipolesis is not a dysplastic feature."},
+    {"dx": "Primary myelofibrosis or other MPN megakaryocytes", "vs": "MPN megakaryocytes are clustered with hyperlobated or cloud-like nuclei and emperipolesis in a biopsy context, with driver mutations (JAK2, CALR, MPL) rather than a therapy history."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "24572",
+  "recognize_zh": "D 圖骨髓鐵染色可見大量紅血球母細胞核周圍環狀排列的藍色鐵顆粒（環狀鐵粒母細胞, ring sideroblasts），配合周邊血中血小板增多與部分低色素紅血球（雙相性族群），指向 RARS-T（現稱 MDS/MPN-RS-T）。",
+  "features": [
+    "Peripheral blood with increased platelets, including some large platelets (panels A and B)",
+    "Red cells show mild anisocytosis with a subpopulation of hypochromic cells (dimorphic picture)",
+    "Bone marrow aspirate with erythroid precursors and myeloid cells showing mild dyspoiesis (panel C)",
+    "Prussian blue stain shows numerous erythroblasts with coarse perinuclear iron granules encircling the nucleus (ring sideroblasts, panel D)"
+  ],
+  "describe_en": "Peripheral blood smear shows increased platelets with occasional large forms and red cells with mild anisocytosis including a subpopulation of hypochromic cells. Bone marrow aspirate shows active erythropoiesis with erythroid and granulocytic precursors. An iron stain demonstrates numerous ring sideroblasts, with coarse iron granules encircling the nuclei of many erythroblasts. Megakaryocyte morphology and the ring sideroblast percentage cannot be fully assessed from these images. In the setting of chronic anemia with thrombocytosis, findings are consistent with refractory anemia with ring sideroblasts and thrombocytosis (MDS/MPN with ring sideroblasts and thrombocytosis, typically SF3B1-mutated with JAK2 V617F in about half of cases).",
+  "ddx": [
+    {"dx": "MDS with ring sideroblasts (MDS-RS/MDS-SF3B1)", "vs": "Shares ring sideroblasts but lacks a platelet count >=450 x 10^9/L and the proliferative, MPN-like megakaryocytes of MDS/MPN-RS-T."},
+    {"dx": "Essential thrombocythemia", "vs": "ET shows thrombocytosis with large hyperlobated megakaryocytes but lacks anemia, dyserythropoiesis and >=15% ring sideroblasts."},
+    {"dx": "Congenital or acquired non-clonal sideroblastic anemia (ALAS2 defect, copper deficiency, alcohol, isoniazid)", "vs": "Ring sideroblasts are also present, but history, reversibility with removal of the cause, and absence of SF3B1/JAK2 mutations separate them."},
+    {"dx": "Iron-deficiency anemia with reactive thrombocytosis", "vs": "Iron deficiency also causes hypochromia and thrombocytosis but shows absent marrow iron and no ring sideroblasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; Prussian blue",
+  "match": "consistent",
+  "high_yield": true
+}

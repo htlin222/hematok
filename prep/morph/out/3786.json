@@ -1,0 +1,21 @@
+{
+  "id": "3786",
+  "recognize_zh": "紅血球背景中散佈多個短棒狀、邊緣平直、染色比紅血球更深的長方形結晶（HbC crystals），部分為摺疊狀的紅血球；背景可見許多標靶細胞（target cells）與球形樣小紅血球。這種「深染棒狀結晶＋標靶細胞」組合指向血紅素 C 疾病。",
+  "features": [
+    "Scattered dense, dark-staining rod/rectangular intraerythrocytic crystals with straight parallel edges",
+    "Occasional folded or boat-shaped dense red cells",
+    "Numerous target cells in the background",
+    "Some small, dense spherocyte-like and irregularly contracted cells",
+    "No sickle cells clearly identified in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous target cells with scattered small dense cells. Several red cells contain dark, rod-shaped to rectangular hemoglobin crystals with straight parallel edges, and a few folded dense cells are present. Classic sickle cells are not evident in this field. Findings are consistent with hemoglobin C crystals, as seen in homozygous hemoglobin C disease (or post-splenectomy HbC states); confirmation by hemoglobin electrophoresis/HPLC is recommended.",
+  "ddx": [
+    {"dx": "Hemoglobin SC disease", "vs": "HbSC shows angulated 'Washington monument'/glove-shaped crystals with protruding knobs and some folded or sickled cells, whereas pure HbC crystals are uniform straight-edged rods."},
+    {"dx": "Sickle cell anemia (HbSS)", "vs": "Sickle cells are elongated crescents with pointed ends and lack dense straight-sided crystals."},
+    {"dx": "Staining or drying artifact", "vs": "Artifacts are refractile or appear in only one area of the smear, while true HbC crystals are dense hemoglobin bodies distributed throughout the smear."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

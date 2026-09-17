@@ -1,0 +1,22 @@
+{
+  "id": "1763",
+  "recognize_zh": "CD30免疫染色中，強陽性（棕色）的大型細胞密集排列在淋巴結被膜下竇（subcapsular sinus）並沿竇道向內延伸，呈現間變性大細胞淋巴瘤典型的竇內浸潤模式。",
+  "features": [
+    "Strong CD30 membranous and paranuclear dot-like (Golgi) staining in large cells",
+    "Dense band of CD30-positive cells lining the subcapsular sinus just beneath the fibrous capsule",
+    "Additional positive cells tracking into interfollicular and medullary sinuses",
+    "Background small lymphocytes negative (blue counterstain)",
+    "Fibrous capsule at top without staining"
+  ],
+  "describe_en": "CD30 immunohistochemistry on a lymph node shows strong membranous and Golgi-pattern staining in large cells concentrated within the subcapsular sinus beneath the capsule, with additional positive cells extending into deeper sinuses. The background small lymphocytes are negative. This sinusoidal distribution of strongly and uniformly CD30-positive large cells is characteristic. Findings are consistent with anaplastic large cell lymphoma; ALK immunostaining is needed to classify it as ALK-positive or ALK-negative.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma in sinuses", "vs": "Sinusoidal carcinoma is keratin positive and generally CD30 negative (except embryonal carcinoma)."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "CD30-positive Hodgkin cells are scattered singly in a mixed background rather than packing sinuses, and are CD15 and weak PAX5 positive."},
+    {"dx": "Reactive CD30-positive immunoblasts", "vs": "Reactive immunoblasts are scattered in interfollicular areas with variable weaker staining rather than forming cohesive sinus-filling sheets."},
+    {"dx": "Sinus histiocytosis", "vs": "Sinus histiocytes fill sinuses but are CD30 negative and CD68/CD163 positive."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": true
+}

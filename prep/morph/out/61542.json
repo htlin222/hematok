@@ -1,0 +1,21 @@
+{
+  "id": "61542",
+  "recognize_zh": "淋巴球門控的 CD3 對 CD5 散點圖中，藍色族群 CD3 強陽性但 CD5 弱至陰性，且另圖顯示 CD4/CD8 雙陰性，最符合 γδ T 細胞；紅、綠色為 CD5 陽性的 CD4 與 CD8 T 細胞，紫色 CD3 陰性為 B/NK 細胞。",
+  "features": [
+    "Lymphocyte-gated dot plot of CD3-PC5.5 (x-axis) versus CD5-PB (y-axis)",
+    "Red population: CD3 positive, CD5 brightest (CD4+ helper T cells)",
+    "Green population: CD3 positive with slightly lower CD3 and moderate CD5 (CD8+ T cells)",
+    "Blue population: bright CD3 with dim to absent, heterogeneous CD5 (CD4−/CD8− T cells, gamma-delta phenotype)",
+    "Purple population: CD3 and CD5 negative (B and NK cells)"
+  ],
+  "describe_en": "Flow cytometry dot plot gated on lymphocytes displays CD3 versus CD5. CD3-negative, CD5-negative events (purple) represent B and NK cells. CD3-positive T cells separate into CD5-positive populations (red, green) and a distinct blue population with bright CD3 and dim to absent, heterogeneous CD5 expression that is CD4/CD8 double-negative on the companion plot. This bright CD3, dim CD5, double-negative profile is most consistent with gamma-delta T cells; a clonal T-cell process with aberrant CD5 loss should be excluded by TCR gamma-delta staining and clonality studies if clinically indicated.",
+  "ddx": [
+    {"dx": "T-cell lymphoma with aberrant CD5 loss (e.g. hepatosplenic T-cell lymphoma, T-LGL leukemia)", "vs": "Neoplastic populations tend to be expanded with uniform antigen loss and clonal TCR rearrangement, whereas physiologic gamma-delta T cells are a minor, heterogeneous CD5-dim subset confirmed by TCRγδ antibody."},
+    {"dx": "NK cells", "vs": "NK cells lack surface CD3 (and would fall with the purple CD3-negative events), whereas the blue cells are brightly surface CD3-positive."},
+    {"dx": "Double-negative alpha-beta T cells (e.g. ALPS)", "vs": "These express TCRαβ rather than TCRγδ and are expanded in autoimmune lymphoproliferative syndrome, requiring TCRαβ/γδ staining to separate."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

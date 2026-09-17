@@ -1,0 +1,21 @@
+{
+  "id": "11725",
+  "recognize_zh": "這是 CSF 流式細胞圖：淋巴球閘門內 CD19 陽性 B 細胞幾乎全部表現 kappa、lambda 陰性，呈現單一 kappa 輕鏈限制（light chain restriction），證明是單株 B 細胞族群，支持淋巴瘤侵犯。",
+  "features": [
+    "CD45 vs SSC: CD45-bright, low side scatter lymphoid gate containing about 96% of events",
+    "CD19 vs kappa: CD19-positive B cells uniformly express surface kappa at moderate-bright intensity",
+    "CD19 vs lambda: CD19-positive B cells are lambda-negative (upper left quadrant)",
+    "Separate CD19-negative, kappa-negative population representing T cells",
+    "Kappa:lambda ratio markedly skewed, indicating monotypic B cells"
+  ],
+  "describe_en": "Flow cytometric analysis of the cerebrospinal fluid gated on CD45-bright, low side scatter lymphocytes shows a dominant CD19-positive B-cell population that expresses surface kappa light chain and lacks lambda light chain, together with a minor CD19-negative T-cell population. The findings demonstrate a kappa-restricted monoclonal B-cell population in the CSF. In conjunction with the CD5-positive, CD10-negative, CD23-negative phenotype on companion tubes, results support CNS involvement by mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Reactive polyclonal B cells", "vs": "Reactive B cells show both kappa- and lambda-positive subsets with a normal ratio, whereas this population is exclusively kappa-positive."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL typically shows dim surface light chain with CD23 positivity and FMC7 negativity, while MCL shows brighter light chain with CD23-negative, FMC7-positive phenotype."},
+    {"dx": "Other kappa-restricted B-cell lymphoma (e.g., DLBCL, marginal zone)", "vs": "Light chain restriction proves clonality but not subtype; CD5/CD10/CD23 status and cyclin D1 IHC or t(11;14) FISH are needed to assign mantle cell lymphoma."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

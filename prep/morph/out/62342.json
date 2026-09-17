@@ -1,0 +1,21 @@
+{
+  "id": "62342",
+  "recognize_zh": "Ki-67 染色中，真皮內腫瘤細胞絕大多數細胞核呈深棕色陽性，陽性比例遠高於左側表皮只有基底層細胞染色的正常對照，顯示腫瘤增生指數非常高。",
+  "features": [
+    "Nuclear Ki-67 staining in the majority of dermal tumor cells, with variable intensity",
+    "Positive nuclei vary in size, including large and multilobated positive tumor nuclei",
+    "Scattered Ki-67-negative (blue) tumor and stromal cells intermixed",
+    "Overlying epidermis at left shows positivity limited mainly to basal/parabasal keratinocytes as internal control",
+    "Loose dermal stroma separating epidermis from tumor sheet"
+  ],
+  "describe_en": "Ki-67 immunohistochemistry on the skin biopsy shows nuclear staining in the majority of the dermal tumor cells, including large pleomorphic and multilobated nuclei, with only scattered negative cells. The adjacent epidermis shows the expected Ki-67 positivity restricted largely to basal and parabasal keratinocytes, serving as an internal control. The proliferation index in the tumor is visually estimated to be high (well over 50%), although a formal count is not possible from a single field. In the context of cutaneous plasma cell myeloma, this indicates a highly proliferative, aggressive neoplasm.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma also has a very high Ki-67 index, so EBER, HIV status, bone marrow myeloma and M-protein are needed to separate it from myeloma with plasmablastic features."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma shows near-100% Ki-67 in monotonous medium-sized CD20/CD10-positive cells rather than pleomorphic CD138-positive plasma cells."},
+    {"dx": "Cutaneous marginal zone lymphoma", "vs": "Marginal zone lymphoma has a low Ki-67 index outside reactive germinal centers, unlike the diffuse high proliferation here."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

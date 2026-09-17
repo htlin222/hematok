@@ -1,0 +1,22 @@
+{
+  "id": "3994",
+  "recognize_zh": "骨髓切片保存不佳、細胞間水腫，組織球細胞質內可見成群直徑約 2–3 µm 的小圓點狀體（Leishman-Donovan bodies）；此解析度看不清核與動基體，需 Giemsa 抹片或 PCR 佐證內臟利什曼原蟲症。",
+  "features": [
+    "Edematous, poorly preserved marrow with vacuolated, loosely arranged cells",
+    "Histiocytes with abundant pale, granular-foamy cytoplasm",
+    "Clusters of tiny round dot-like bodies (~2–3 µm) within and around histiocytes, most evident near the lower center",
+    "Scattered plasma cells and lymphocytes with dense nuclei; occasional erythroid/myeloid precursors",
+    "Nucleus and kinetoplast of individual organisms not resolvable at this resolution"
+  ],
+  "describe_en": "H&E section of bone marrow biopsy shows edematous, poorly preserved marrow containing histiocytes with abundant foamy cytoplasm, admixed with plasma cells, lymphocytes and scattered hematopoietic precursors. Clusters of minute round intracellular bodies approximately 2–3 µm in size are present within histiocytes, consistent with Leishman-Donovan bodies (amastigotes). The nucleus and kinetoplast cannot be resolved on this H&E image. In a patient with HIV infection, findings are suggestive of visceral leishmaniasis; confirmation by Giemsa-stained aspirate, CD1a-negative intracellular organisms, culture or PCR is recommended.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts have a clear halo and no kinetoplast, and stain with GMS/PAS, whereas Leishmania amastigotes are GMS-negative with a bar-shaped kinetoplast."},
+    {"dx": "Toxoplasma gondii", "vs": "Toxoplasma tachyzoites lack a kinetoplast and are rarely seen in marrow histiocytes; immunostain or PCR separates them."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts divide by fission with a central septum and are GMS-positive."},
+    {"dx": "Phagocytosed platelets or nuclear debris", "vs": "Debris is irregular in size and shape, while amastigotes are uniform ovoid bodies of consistent size."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

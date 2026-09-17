@@ -1,0 +1,21 @@
+{
+  "id": "65375",
+  "recognize_zh": "周邊血抹片中有三顆小到中型的單核細胞，核圓或卵圓、染色質均勻，淡藍色細胞質邊緣呈毛絨狀、不規則的細突起（hairy projections），與旁邊兩顆分葉核嗜中性球形成對比，符合毛狀細胞白血病（hairy cell leukemia）。",
+  "features": [
+    "Small to medium-sized mononuclear cells, slightly larger than a mature lymphocyte",
+    "Round to oval nuclei with homogeneous, moderately condensed chromatin; nucleoli not appreciable at this magnification",
+    "Moderate pale blue-grey cytoplasm with ragged, fine circumferential hair-like projections",
+    "Scattered mature segmented neutrophils; background red cells with normal size and central pallor, no nucleated red cells",
+    "Image resolution limits assessment of nuclear contour detail and cytoplasmic granules"
+  ],
+  "describe_en": "Peripheral blood smear shows several atypical mononuclear cells admixed with occasional segmented neutrophils. The atypical cells are small to intermediate in size with round to oval nuclei, homogeneous chromatin, and a moderate rim of pale blue-grey cytoplasm bearing fine, irregular circumferential hair-like projections. No blasts or nucleated red cells are seen in this field; red cells appear unremarkable. Findings are consistent with circulating hairy cells, in keeping with hairy cell leukemia; confirmation by flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing is recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v cells usually show a distinct central nucleolus and blastoid chromatin with a high white count and lack CD25, CD123 and BRAF V600E, whereas classic hairy cells have inconspicuous nucleoli."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Villous lymphocytes have short polar villi concentrated at one or both poles and more condensed chromatin, rather than the circumferential fine projections of hairy cells."},
+    {"dx": "Reactive lymphocytes / drying artifact", "vs": "Artifactual cytoplasmic fraying affects cells focally at the thick edge, while hairy cells retain circumferential projections in well-spread areas and are immunophenotypically clonal."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

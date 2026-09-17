@@ -1,0 +1,21 @@
+{
+  "id": "3713",
+  "recognize_zh": "骨髓抹片中多顆圓至不規則形的細胞核完全沒有包圍的細胞質，染色質呈模糊的網狀、邊界略毛糙，散落在紅血球與脂肪空泡之間，這些就是抹片時破裂造成的裸核（naked nuclei）。",
+  "features": [
+    "Multiple bare nuclei without any surrounding cytoplasm",
+    "Nuclei round to irregular, some with smudged or finely reticular chromatin and ragged edges",
+    "Nuclei are roughly lymphocyte to myelocyte size, precluding reliable lineage assignment",
+    "Fat vacuoles and spread red cells in a thin background with scattered platelets",
+    "A few smeared/crushed cells with streaming chromatin at the periphery"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows numerous bare (naked) nuclei lacking cytoplasm, with smudged to finely reticular chromatin, scattered among red cells and fat vacuoles; several crushed cells with streaming chromatin are also present. These represent cells disrupted during smear preparation. Naked nuclei cannot be reliably classified and should be excluded from the differential count. Frequent naked nuclei can indicate a traumatic smear or fragile cells, such as blasts or lymphoma cells, and a better-preserved area should be examined.",
+  "ddx": [
+    {"dx": "Blasts (acute leukemia)", "vs": "Intact blasts retain a rim of basophilic cytoplasm and show fine chromatin with nucleoli, whereas naked nuclei lack cytoplasm and cannot be counted as blasts."},
+    {"dx": "Small lymphocytes", "vs": "Intact lymphocytes have a thin but visible cytoplasmic rim and coarsely clumped chromatin rather than smudged chromatin without cytoplasm."},
+    {"dx": "Smudge cells of CLL", "vs": "Smudge cells are flattened, spread-out lymphocyte nuclei typically seen in large numbers in peripheral blood of CLL, whereas these are scattered bare nuclei in a marrow aspirate."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

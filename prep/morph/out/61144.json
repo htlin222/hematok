@@ -1,0 +1,21 @@
+{
+  "id": "61144",
+  "recognize_zh": "這是流式細胞儀散點圖：紅色族群在 CD117 vs CD25 圖上呈 CD117 強陽性且 CD25 陽性（占 18%），在 CD25 vs CD2 圖上也表現 CD2，即 CD117bright/CD25+/CD2+ 的異常肥大細胞表型。",
+  "features": [
+    "Left plot (SSC vs CD45): red-gated events show intermediate-to-high side scatter and CD45 positivity overlapping the granulocyte region",
+    "Middle plot (CD117 vs CD25): a discrete CD117-bright population coexpressing CD25 accounts for 18% of events",
+    "Right plot (CD25 vs CD2): the same red population shows CD2 expression (circled) above the negative blue background",
+    "Blue background events are CD117-negative, CD25-negative, CD2-negative",
+    "Immunophenotype CD117bright/CD25+/CD2+ indicates aberrant (neoplastic) mast cells"
+  ],
+  "describe_en": "Flow cytometric analysis displays three dot plots. Gated red events have intermediate to high side scatter with CD45 expression, and on the CD117 versus CD25 plot form a distinct CD117-bright population coexpressing CD25 that represents 18% of analyzed events. The same population expresses CD2 on the CD25 versus CD2 plot, whereas background events are negative for all three markers. Aberrant CD25 and CD2 expression on CD117-bright cells fulfills a minor WHO criterion for systemic mastocytosis, and the high proportion of mast cells is consistent with mast cell leukemia in the appropriate morphologic context.",
+  "ddx": [
+    {"dx": "Normal/reactive marrow mast cells", "vs": "Normal mast cells are CD117-bright but CD25-negative and CD2-negative and usually constitute <0.1% of marrow events."},
+    {"dx": "Acute myeloid leukemia with CD117 expression", "vs": "Myeloblasts are CD117 dim-to-moderate with low side scatter and CD34/HLA-DR expression, not CD117-bright with high side scatter."},
+    {"dx": "CD25+ T-cell or hairy cell leukemia populations", "vs": "These CD25+ cells are CD117-negative and express CD3 or CD19/CD103/CD11c respectively."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

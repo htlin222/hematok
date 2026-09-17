@@ -1,0 +1,22 @@
+{
+  "id": "62951",
+  "recognize_zh": "CD20 免疫染色中，成片單一型態的中小型淋巴球全部呈強烈膜陽性，核圓至略不規則，只有血管內皮與間質細胞陰性，證明是 B 細胞腫瘤；需搭配 CD5、cyclin D1/SOX11 才能判定為被套細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheets of monotonous small to medium-sized lymphoid cells",
+    "Strong, uniform membranous CD20 staining in virtually all tumor cells",
+    "Round to slightly irregular nuclei with scant to moderate cytoplasm",
+    "No residual CD20-negative T-cell rich areas evident in the field",
+    "Negative stromal and endothelial cells along small vessels"
+  ],
+  "describe_en": "CD20 immunostain shows diffuse sheets of monotonous small to medium-sized lymphoid cells with strong, uniform membranous positivity. The tumor cells have round to slightly irregular nuclei with scant cytoplasm, while vessels and stromal cells are negative. This establishes a diffuse B-cell population; in the context of the reference case, the findings support mantle cell lymphoma, which requires CD5 co-expression and cyclin D1 or SOX11 positivity for confirmation.",
+  "ddx": [
+    {"dx": "Small lymphocytic lymphoma", "vs": "SLL shows proliferation centers and dim CD20 with CD23+/LEF1+ and cyclin D1-negative cells."},
+    {"dx": "Follicular lymphoma, diffuse area", "vs": "FL is CD10+/BCL6+ with centrocytes and centroblasts and is CD5- and cyclin D1-negative."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL has monocytoid/plasmacytoid cells and is CD5-, CD10- and cyclin D1-negative."},
+    {"dx": "Blastoid MCL or DLBCL", "vs": "These have larger cells with finer chromatin or vesicular nuclei and high Ki-67, which cannot be judged on CD20 alone."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

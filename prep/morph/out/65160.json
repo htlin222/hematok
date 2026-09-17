@@ -1,0 +1,21 @@
+{
+  "id": "65160",
+  "recognize_zh": "流式細胞圖第二組：異常族群（紅色）CD4 與 CD123 共表現、NG2 陽性、CD56 部分陽性，而 CD16、CD57、CD8、TCR、CD2、CD1a、CD38、cyMPO、cyCD79a、cyTdT、cyCD3 皆陰性，這組 CD4+/CD56+/CD123+ 的表型指向 BPDCN。",
+  "features": [
+    "CD56 partially positive (about half the events) with CD16 negative",
+    "CD57, CD8, TCR alpha/beta, TCR gamma/delta, CD2 and CD1a negative",
+    "NG2 (CSPG4) positive with CD38 negative",
+    "CD4 and CD123 co-expressed on the abnormal population",
+    "Cytoplasmic MPO, CD79a, TdT and CD3 negative, excluding myeloid, B- and T-lineage commitment"
+  ],
+  "describe_en": "Flow cytometry dot plots (panel 2) of the abnormal population (red) show partial CD56 expression without CD16, and absence of CD57, CD8, TCR alpha/beta, TCR gamma/delta, CD2 and CD1a. The cells co-express CD4 and CD123 and are NG2-positive and CD38-negative. Cytoplasmic MPO, CD79a, TdT and CD3 are all negative, excluding myeloid, B- and T-lymphoblastic lineage assignment. Together with CD7, CD33 and HLA-DR expression on the companion panel, the CD4+/CD56+/CD123+ phenotype is most suggestive of blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monocytic AML may be CD4+/CD56+ but usually has MPO or nonspecific esterase activity and CD11b/CD14/CD64, whereas these cells are cyMPO-negative with bright CD123."},
+    {"dx": "NK-cell leukemia/lymphoma", "vs": "NK neoplasms are CD56+ with CD2, CD16 or cytoplasmic CD3 epsilon and are typically CD4-negative and CD123-negative, unlike this CD4+/CD123+ population."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL requires cytoplasmic CD3 and commonly TdT, both negative here."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

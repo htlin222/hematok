@@ -1,0 +1,22 @@
+{
+  "id": "62310",
+  "recognize_zh": "流式細胞儀散點圖：藍色 CD19 陽性 B 細胞群呈 CD45 亮、CD20 極亮（超出刻度），並同時表現 CD25、CD103 與亮 CD11c，而 CD3 陰性；CD11c/CD25/CD103 三者皆陽性的單一 B 細胞群就是毛細胞白血病（HCL）的典型表型。",
+  "features": [
+    "Six dot plots gated on lymphocytes, with CD19 on the x-axis in five plots",
+    "Blue population: CD19-positive B cells with bright CD45 expression",
+    "CD25 positive on the B-cell population (arrow)",
+    "CD103 positive, gated as CD19+CD103+ population",
+    "Bright CD11c co-expression (arrow); CD3-negative",
+    "Very bright CD20, piling against the upper axis limit (thick arrow); red events are residual T/NK cells"
+  ],
+  "describe_en": "Flow cytometric dot plots gated on lymphocytes show a dominant CD19-positive B-cell population (blue) with bright CD45 and very bright CD20 expression, the latter reaching the upper limit of the scale. This population co-expresses CD25, CD103 and bright CD11c and is negative for surface CD3, whereas the residual red events represent CD3-positive T cells and other lymphocytes. Light-chain restriction is not shown in these plots. The CD11c+/CD25+/CD103+ bright CD20 phenotype is characteristic of hairy cell leukemia; CD123 and annexin A1 or BRAF V600E testing can provide further confirmation.",
+  "ddx": [
+    {"dx": "Splenic B-cell lymphoma/leukemia with prominent nucleoli (HCL variant)", "vs": "HCL variant is CD11c+ and CD103+ but characteristically CD25-negative, CD123-negative and BRAF wild-type, whereas this population is CD25-positive."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL may be CD11c-positive and occasionally CD25-positive but is usually CD103-negative and scores low on the HCL flow score."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL is often CD11c-positive and can be CD103-positive but is CD25-negative and CD123-negative, lacking BRAF V600E."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

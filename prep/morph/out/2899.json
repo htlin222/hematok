@@ -1,0 +1,19 @@
+{
+  "id": "2899",
+  "recognize_zh": "視野中可比較：右上中性球顆粒密集（約 3 分），左上中性球只有稀疏細小藍點（約 1 分），右下中性球無藍色顆粒（0 分），中左圓核細胞為淋巴球，不列入評分。",
+  "features": [
+    "Upper right neutrophil with dense blue granules over red nucleus (about 3+)",
+    "Upper left neutrophil with sparse fine blue granules (about 1+)",
+    "Lower right band/segmented neutrophil without granules (0)",
+    "Round-nucleated lymphocyte (left) with no reaction product, excluded from scoring"
+  ],
+  "describe_en": "High-power view of a leukocyte alkaline phosphatase-stained peripheral blood smear shows neutrophils with differing reactivity. One neutrophil has dense blue granules (approximately 3+), another has only sparse fine granules (approximately 1+), and a third lacks reaction product (0). A lymphocyte with a round red nucleus is present and is not included in the count. This field illustrates the per-cell grading used to derive the LAP score.",
+  "ddx": [
+    {"dx": "Score 4+ neutrophil", "vs": "4+ cells show confluent precipitate that completely obscures the nucleus, not seen here."},
+    {"dx": "Monocyte", "vs": "Monocytes have a single folded nucleus and are excluded from the LAP score even if weakly stained."}
+  ],
+  "specimen": "PB",
+  "stain": "Cytochemistry: LAP (azo dye, red counterstain)",
+  "match": "consistent",
+  "high_yield": true
+}

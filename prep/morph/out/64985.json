@@ -1,0 +1,22 @@
+{
+  "id": "64985",
+  "recognize_zh": "H&E 顯示瀰漫的多形性浸潤，以漿細胞、漿細胞樣細胞及中型淋巴樣細胞為主；EBER 只標記零星散在的細胞，kappa 與 lambda 皆有大量陽性細胞（多株性），這種 EBV 陽性、輕鏈不受限的多形性增生符合 EBV 相關淋巴增生性疾病，而非單株淋巴瘤或漿細胞腫瘤。",
+  "features": [
+    "Dense polymorphous infiltrate of plasma cells, plasmacytoid cells, small to intermediate lymphocytes and occasional larger blasts",
+    "Plasma cells with eccentric nuclei, clock-face chromatin and perinuclear hofs; scattered cells with clear cytoplasmic halos",
+    "No sheets of monotonous large atypical cells or Reed-Sternberg-like cells in this field",
+    "EBER ISH: scattered, single positive nuclei of small to medium cells",
+    "Kappa and lambda both expressed by numerous plasma cells (polytypic pattern)"
+  ],
+  "describe_en": "H&E section shows a dense polymorphous infiltrate composed of numerous plasma cells and plasmacytoid cells admixed with small and intermediate lymphocytes and occasional larger transformed cells, without sheets of monotonous atypical large cells or Hodgkin/Reed-Sternberg-like cells. EBER in situ hybridization highlights scattered single positive small to medium-sized cells. Kappa and lambda immunostains show abundant positive plasma cells for both light chains, indicating a polytypic population. Findings are consistent with an EBV-driven polymorphic lymphoproliferative disorder; the specimen type (lymph node vs marrow) is not determinable from these fields alone.",
+  "ddx": [
+    {"dx": "Plasma cell neoplasm / plasmacytoma", "vs": "Neoplastic plasma cells show kappa or lambda light chain restriction and are usually EBER-negative, unlike this polytypic infiltrate."},
+    {"dx": "Relapsed classic Hodgkin lymphoma", "vs": "cHL requires CD30+/CD15+ PAX5-dim Hodgkin/Reed-Sternberg cells in an inflammatory background, which are not identified."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "EBV+ DLBCL shows sheets of large EBER-positive B cells with monoclonality, rather than scattered EBER+ cells in a polytypic background."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL also contains scattered EBER+ B blasts and polytypic plasma cells, but has atypical CD10+/PD-1+ TFH cells, HEV proliferation and clonal TCR rearrangement."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; ISH: EBER, kappa, lambda",
+  "match": "consistent",
+  "high_yield": false
+}

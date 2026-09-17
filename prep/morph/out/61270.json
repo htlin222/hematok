@@ -1,0 +1,22 @@
+{
+  "id": "61270",
+  "recognize_zh": "骨髓抹片中央有一團緊密黏聚的小圓藍細胞，核圓、深染、細胞質極少，細胞彼此擠壓成核塑形（nuclear molding），團塊之間有淡藍細絲狀物質；這種緊密成團、非造血細胞的排列，是神經母細胞瘤骨髓轉移的典型外觀。",
+  "features": [
+    "Large cohesive three-dimensional cluster of small to intermediate round cells, clearly separate from dispersed hematopoietic cells",
+    "Very high N:C ratio with scant, barely visible cytoplasm",
+    "Round nuclei with nuclear molding and overlapping; chromatin dark and finely granular",
+    "Faint pale blue fibrillary material between cells at the edges of the cluster (neuropil-like)",
+    "Adjacent pink granular fragment (likely megakaryocyte fragment or platelet aggregate), scattered lymphocytes and red cells; eyepiece photograph with limited focus"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large cohesive cluster of small round cells with a very high nuclear-to-cytoplasmic ratio, dark finely granular chromatin and nuclear molding, clearly distinct from the surrounding dispersed hematopoietic elements. Faint fibrillary material is present at the periphery of the cluster. Well-formed Homer Wright rosettes are not clearly identified, and image focus limits nucleolar assessment. Findings are consistent with metastatic small round blue cell tumor, in keeping with neuroblastoma involving the bone marrow; confirmation by biopsy and immunohistochemistry (PHOX2B, synaptophysin, chromogranin) with urine catecholamines is recommended.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are discohesive and dispersed singly rather than forming molded clusters with fibrillary matrix, and are TdT-positive."},
+    {"dx": "Ewing sarcoma", "vs": "Forms clusters with glycogen-rich pale cytoplasm and lacks neuropil; CD99 membranous and NKX2.2 positive with EWSR1 rearrangement."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Cells often have more cytoplasm, may be multinucleated and are desmin/myogenin positive."},
+    {"dx": "Clumped erythroid precursors (erythroid island)", "vs": "Erythroblasts have round nuclei with a rim of deep blue cytoplasm and show maturation to orthochromatic forms, without molding."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

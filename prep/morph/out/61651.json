@@ -1,0 +1,21 @@
+{
+  "id": "61651",
+  "recognize_zh": "骨髓抹片中滿是異常前骨髓細胞（abnormal promyelocytes）：細胞質充滿粗大紫紅色顆粒，核呈雙葉或「蝴蝶形」並有凹陷，部分可見核仁，視野中有細長棒狀結構疑似 Auer rods；這是急性前骨髓細胞白血病（APL）的經典形態。",
+  "features": [
+    "Sheets of large abnormal promyelocytes replacing normal marrow elements",
+    "Nuclei bilobed, reniform or folded (butterfly/sliding-plate shapes), with fine chromatin and visible nucleoli",
+    "Abundant cytoplasm densely packed with coarse azurophilic (purple-red) granules, often obscuring the nuclear border",
+    "Slender rod-like structures in the background suggestive of Auer rods (released from disrupted cells)",
+    "Occasional cell with basophilic cytoplasm and few granules; background granular debris from ruptured cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a markedly increased population of large abnormal promyelocytes with abundant cytoplasm densely packed with coarse azurophilic granules. Nuclei are frequently bilobed, folded, or reniform with fine chromatin and visible nucleoli. Scattered slender rod-like inclusions consistent with Auer rods are seen, and the background contains granular debris from disrupted cells; normal maturing granulocytes and erythroid precursors are not identified in this field. Findings are consistent with acute promyelocytic leukemia (hypergranular type); urgent confirmation of PML::RARA and evaluation for coagulopathy are warranted.",
+  "ddx": [
+    {"dx": "Reactive promyelocytosis (marrow recovery, G-CSF effect)", "vs": "Reactive promyelocytes have a prominent perinuclear Golgi hof, round eccentric nuclei, lack faggot cells, and are followed by orderly maturation."},
+    {"dx": "AML with maturation (AML with RUNX1::RUNX1T1)", "vs": "t(8;21) AML shows myeloblasts with single long Auer rods, salmon-colored cytoplasm, and perinuclear hofs rather than hypergranular bilobed promyelocytes, and is CD34/HLA-DR positive."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have grey-blue cytoplasm with sparse fine granules and are non-specific esterase positive, whereas APL cells are strongly MPO positive and CD34/HLA-DR negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "62595",
+  "recognize_zh": "這是一張 PET 軸切面影像（非形態圖）：腹部/骨盆橫切面中，箭頭指向病人左前方一個邊界清楚的局部高度 FDG 攝取病灶，雙側上肢橫切面也在畫面兩側；單一高代謝腸道腫塊對應移植後漿細胞瘤樣 PTLD 的病灶，並可作為切片定位與治療追蹤依據。",
+  "features": [
+    "Axial PET image at the level of the abdomen/pelvis with both arms seen in cross-section laterally",
+    "Single well-circumscribed focus of intense FDG uptake in the left anterior abdomen (arrow)",
+    "Otherwise low-level diffuse background activity without additional discrete hypermetabolic foci in this slice",
+    "No anatomic CT correlation shown; SUV values not provided"
+  ],
+  "describe_en": "This is a non-morphologic axial PET image through the abdomen/pelvis. It shows a single, well-circumscribed focus of intense FDG avidity in the left anterior abdomen (arrow), with otherwise low-grade background uptake and no other discrete hypermetabolic lesions in this slice. Without fused CT and SUV measurements the precise anatomic location cannot be determined from this image alone. In the clinical context of a transplant recipient, the lesion corresponds to the biopsied mass-forming plasmacytoma-like EBV-positive post-transplant lymphoproliferative disorder, and PET is used for staging and response assessment.",
+  "ddx": [
+    {"dx": "Physiologic bowel or urinary tract (ureter) activity", "vs": "Physiologic uptake is usually linear or segmental and changes on delayed imaging or CT fusion, whereas a lymphoma mass is focal, round and corresponds to a soft-tissue lesion."},
+    {"dx": "Infectious/inflammatory focus (abscess, CMV colitis)", "vs": "FDG uptake cannot separate infection from PTLD, so tissue biopsy is required."},
+    {"dx": "Second primary carcinoma", "vs": "Carcinomas are also FDG-avid; histology with hematolymphoid markers (CD138, light chains, EBER) versus cytokeratin distinguishes them."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "4198",
+  "recognize_zh": "視野中央有一個無細胞核、紫紅色顆粒集中於中央（granulomere）、邊緣呈細毛狀突起的血小板，直徑約為紅血球的一半以上，遠大於旁邊一般小血小板，即巨大血小板（giant platelet）。",
+  "features": [
+    "Single anucleate platelet in the center measuring roughly half to two-thirds of an RBC diameter, far larger than adjacent normal platelets",
+    "Central purple granulomere with a pale blue hyalomere forming a fimbriated, spiculated margin",
+    "No nucleus, distinguishing it from a lymphocyte",
+    "Surrounding normal-sized platelets for comparison",
+    "Background RBCs largely normocytic with a few crenated/echinocytic forms (likely artifact)"
+  ],
+  "describe_en": "Peripheral blood smear shows a single giant platelet, approximately half to two-thirds the diameter of a red cell, with a centrally condensed azurophilic granulomere and a pale, fimbriated hyalomere. Several normal-sized platelets are present nearby for comparison. Red cells are largely normocytic and normochromic with a few crenated forms, likely drying artifact. Findings show a giant platelet; correlation with platelet count, MPV and clinical history (inherited macrothrombocytopenia, ITP, or myeloproliferative neoplasm) is recommended.",
+  "ddx": [
+    {"dx": "Small lymphocyte", "vs": "A lymphocyte has a nucleus with clumped chromatin and a rim of blue cytoplasm, whereas the giant platelet is anucleate with only granules."},
+    {"dx": "Micromegakaryocyte / megakaryocyte fragment", "vs": "Micromegakaryocytes contain a dense nucleus, while platelets, however large, have no nuclear material."},
+    {"dx": "Platelet overlying a red cell", "vs": "A superimposed platelet sits on an RBC and appears as a halo-bearing inclusion, whereas this platelet lies free in the background."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

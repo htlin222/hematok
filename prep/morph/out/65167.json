@@ -1,0 +1,22 @@
+{
+  "id": "65167",
+  "recognize_zh": "骨髓抹片中小圓形腫瘤細胞核深染、細胞質極少，聚成一團並拖出細長纖維狀突起，類似神經纖維（neuropil）；這種成團的小圓藍細胞加上纖維狀尾巴是神經母細胞瘤轉移的線索。",
+  "features": [
+    "Small to medium round cells with high N:C ratio and dense, darkly staining nuclei",
+    "Loosely cohesive cluster with nuclear crowding and molding",
+    "Thin, elongated fibrillary cytoplasmic process extending from the cluster (neuritic/neuropil-like)",
+    "Scant cytoplasm; nucleoli not discernible at this staining quality",
+    "Background of red cells and smudged/disrupted cells; stain is faded and magenta-toned, limiting nuclear detail"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows numerous small to medium round cells with high N:C ratio and dense nuclei, including a loosely cohesive cluster with nuclear crowding. A thin fibrillary process extends from the cluster, suggestive of neuritic or neuropil-like material. Many cells are disrupted, and the faded magenta staining limits assessment of chromatin and nucleoli. Normal hematopoietic elements are difficult to identify in this field. In correlation with the CD45-negative, CD56-positive flow cytometric population, findings are consistent with bone marrow infiltration by metastatic neuroblastoma.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are discohesive single cells without clusters or fibrillary processes and are CD45/CD19 or CD3 positive with TdT."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma cells also form small round cell clusters but lack neuropil and show vacuolated PAS-positive cytoplasm with CD99 and EWSR1 rearrangement."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Rhabdomyosarcoma cells often have more cytoplasm, multinucleated forms and vacuoles, and are desmin/myogenin positive rather than PHOX2B/synaptophysin positive."},
+    {"dx": "Megakaryocyte fragments or clumped platelets", "vs": "Platelet clumps are anucleate granular aggregates, whereas this cluster consists of intact nucleated cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Romanowsky-type (faded)",
+  "match": "consistent",
+  "high_yield": true
+}

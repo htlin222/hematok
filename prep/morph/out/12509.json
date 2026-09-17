@@ -1,0 +1,21 @@
+{
+  "id": "12509",
+  "recognize_zh": "腦脊髓液（CSF）細胞離心抹片中出現三顆遠大於正常淋巴球的異型大細胞，核大不規則、有核仁，胞質嗜鹼性並帶小空泡與不規則突起，在已知瀰漫性大 B 細胞淋巴瘤的病人提示腦膜復發。",
+  "features": [
+    "Three large atypical lymphoid cells, many times the size of a normal small lymphocyte",
+    "Large round to irregular nuclei with open chromatin and visible nucleoli",
+    "Moderate amount of basophilic cytoplasm with small clear vacuoles and irregular blebbed borders",
+    "Cells lie singly in a sparse, acellular-appearing proteinaceous background",
+    "Suboptimal staining and background artifact limit fine chromatin assessment"
+  ],
+  "describe_en": "Cerebrospinal fluid cytospin shows a paucicellular specimen containing scattered large atypical lymphoid cells. The cells have high N:C ratios, large irregular nuclei with open chromatin and nucleoli, and basophilic cytoplasm with fine vacuoles and cytoplasmic blebs. Normal small lymphocytes and monocytes are not prominent in this field, and background staining artifact limits detail. In a patient with known diffuse large B-cell lymphoma, findings are consistent with leptomeningeal relapse; CSF flow cytometry for a clonal B-cell population is recommended for confirmation.",
+  "ddx": [
+    {"dx": "Reactive activated lymphocytes/monocytes (e.g., viral meningitis)", "vs": "Reactive CSF shows a polymorphous mix of small lymphocytes, plasmacytoid forms and monocytes, whereas lymphoma shows a monotonous population of large atypical cells with clonal B-cell phenotype by flow."},
+    {"dx": "Metastatic carcinoma to meninges", "vs": "Carcinoma cells form cohesive clusters with molding and are keratin positive/CD45 negative, unlike discohesive CD45/CD20 positive lymphoma cells."},
+    {"dx": "Choroid plexus or ependymal cells", "vs": "Lining cells occur in cohesive sheets with bland round nuclei and abundant cytoplasm, lacking the high N:C ratio and nucleoli of lymphoma cells."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa (May-Grunwald-Giemsa)",
+  "match": "consistent",
+  "high_yield": false
+}

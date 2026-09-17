@@ -1,0 +1,22 @@
+{
+  "id": "1212",
+  "recognize_zh": "骨髓切片免疫組織化學染色中，幾乎整片造血組織被強陽性、呈膜狀棕色染色的單一細胞群瀰漫性取代，只殘留少數藍色未染的正常造血細胞，符合毛細胞白血病的瀰漫間質浸潤；標記名稱未註明，推測為 B 細胞標記（如 CD20）。",
+  "features": [
+    "Hypercellular marrow with diffuse, sheet-like replacement of the intertrabecular space",
+    "Strong, uniform membranous brown staining of nearly all hematopoietic-space cells",
+    "Cells are evenly spaced with regular outlines, producing a honeycomb-like pattern",
+    "Only small clusters of unstained (blue) residual hematopoietic cells remain",
+    "Interspersed fat spaces without paratrabecular or nodular aggregation"
+  ],
+  "describe_en": "Bone marrow core biopsy immunohistochemical stain at low magnification shows a hypercellular marrow diffusely infiltrated by a monotonous cell population with strong, uniform membranous staining. The positive cells are evenly spaced in an interstitial-to-diffuse pattern and replace most of the marrow, with only small foci of unstained residual hematopoietic cells. The specific antibody is not stated; the membranous pattern is most consistent with a pan-B-cell marker such as CD20. In conjunction with morphology and hairy cell-specific markers (annexin A1, cyclin D1, BRAF V600E VE1), findings are consistent with extensive marrow involvement by hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL typically shows intrasinusoidal and nodular patterns rather than diffuse evenly spaced infiltration, and is annexin A1, cyclin D1 and BRAF VE1 negative."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL infiltrates are nodular or packed without the widely spaced fried-egg pattern and are CD5/CD23-positive with LEF1 expression."},
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v shows a similar B-cell infiltrate but is annexin A1 and BRAF VE1 negative."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger with vesicular nuclei and a high Ki-67, rather than small evenly spaced cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: marker not specified (likely CD20)",
+  "match": "consistent",
+  "high_yield": false
+}

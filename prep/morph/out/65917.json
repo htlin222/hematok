@@ -1,0 +1,21 @@
+{
+  "id": "65917",
+  "recognize_zh": "A/B 圖的母細胞中等大小、細胞質少至中量淡藍色、無顆粒，染色質呈塊狀粗糙（blocky），核仁不明顯，外觀像成熟淋巴球而非典型母細胞；C 圖部分核型顯示 der(4) 與 der(12)，D 圖 ETV6 分離探針出現分開的紅綠訊號，提示 ETV6 重排。",
+  "features": [
+    "Medium-sized blasts with moderate N:C ratio and pale blue agranular cytoplasm (A, B)",
+    "Round to slightly irregular nuclei with coarse, blocky clumped chromatin mimicking mature lymphocytes; nucleoli inconspicuous",
+    "Occasional small cytoplasmic vacuoles; no Auer rods seen",
+    "Partial G-banded karyotype showing der(4) and der(12) of t(4;12)(q12;p13) (C)",
+    "ETV6 break-apart FISH with separated 5' and 3' signals in interphase and metaphase cells (D)"
+  ],
+  "describe_en": "Peripheral blood smear shows medium-sized blasts with pale blue agranular cytoplasm and round to slightly irregular nuclei with unusually coarse, blocky chromatin and inconspicuous nucleoli, imparting a pseudo-lymphoid appearance. No Auer rods are identified. Partial karyotype demonstrates der(4) and der(12) consistent with t(4;12)(q12;p13), and ETV6 break-apart FISH shows split signals indicating ETV6 rearrangement. Because morphology alone mimics a mature lymphoid neoplasm, immunophenotyping is essential; with the reported CD34+/CD13+/CD33+/CD117+ blasts, findings are consistent with acute myeloid leukemia with ETV6 rearrangement (ETV6::CHIC2 by RNA sequencing).",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia or other mature B-cell leukemia", "vs": "CLL cells are small with scant cytoplasm and soccer-ball chromatin and are CD19+/CD5+/CD23+, whereas these blasts are CD34+/CD117+ myeloid by flow."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Morphology overlaps, but the blasts lack CD19/CD79a/cCD3 and express CD13, CD33 and CD117, establishing myeloid lineage."},
+    {"dx": "Myeloid/lymphoid neoplasm with PDGFRA rearrangement", "vs": "t(4;12) with ETV6 FISH split suggested ETV6::PDGFRA, but RNA sequencing showed ETV6::CHIC2 and there is no eosinophilia."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald Giemsa; G-banding; FISH (ETV6 break-apart)",
+  "match": "consistent",
+  "high_yield": false
+}

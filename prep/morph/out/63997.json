@@ -1,0 +1,22 @@
+{
+  "id": "63997",
+  "recognize_zh": "視野中央一個橢圓形紅血球內有一條紫色、細線狀並扭成環形或 8 字形的 Cabot 環，背景紅血球大小不一且有大型卵圓紅血球（macro-ovalocytes）、淚滴細胞與破碎紅血球，符合嚴重維生素 B12 缺乏。",
+  "features": [
+    "Central red cell containing a thin purple loop/figure-of-eight Cabot ring",
+    "Marked anisocytosis with macro-ovalocytes admixed with microcytes",
+    "Poikilocytosis including teardrop cells, elongated/elliptical cells, and occasional fragmented cells",
+    "Numerous crenated red cells (echinocytes), likely partly a drying artifact",
+    "Small platelets; no nucleated cells or neutrophils in this field for hypersegmentation assessment"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with macro-ovalocytes, microcytes, teardrop cells, elongated cells, and occasional fragmented red cells. One red cell contains a thin, purple, looped figure-of-eight Cabot ring. Numerous crenated red cells are present and likely reflect a preparation artifact. Neutrophils are not present in this field, so hypersegmentation cannot be assessed. Findings are consistent with severe megaloblastic anemia due to cobalamin deficiency with ineffective erythropoiesis.",
+  "ddx": [
+    {"dx": "Malaria ring forms (Plasmodium)", "vs": "Malaria rings are small, with a distinct red chromatin dot and blue cytoplasmic ring occupying a fraction of the cell, whereas Cabot rings are thin loops spanning the cell periphery without a chromatin dot."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS can show macrocytosis and poikilocytes but has normal B12/folate and often shows pseudo-Pelger neutrophils or ring sideroblasts; nutritional deficiency resolves with replacement."},
+    {"dx": "Thrombotic microangiopathy", "vs": "TMA also shows schistocytes and high LDH, but lacks macro-ovalocytes and Cabot rings and has more numerous schistocytes with marked thrombocytopenia."},
+    {"dx": "Lead poisoning or thalassemia", "vs": "These produce basophilic stippling in microcytic cells rather than macro-ovalocytes with Cabot rings."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

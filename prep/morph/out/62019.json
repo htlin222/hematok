@@ -1,0 +1,22 @@
+{
+  "id": "62019",
+  "recognize_zh": "骨髓抹片鐵染色中，多顆紅血球系前驅細胞的細胞核周圍被藍色粗鐵顆粒環繞（至少 5 顆、環繞核周 1/3 以上），即環狀鐵粒母細胞（ring sideroblast）；這是 MDS-RS 的診斷性發現。",
+  "features": [
+    "Multiple erythroid precursors with coarse blue siderotic granules encircling the nucleus (ring sideroblasts)",
+    "Granules number ≥5 and cover at least one third of the nuclear circumference in several cells",
+    "Other erythroid precursors show fewer, scattered granules",
+    "Myeloid precursors and larger cells lack siderotic granules",
+    "Occasional extracellular/macrophage iron in background; nuclear fast red counterstain"
+  ],
+  "describe_en": "Prussian blue iron stain of the bone marrow aspirate shows numerous erythroid precursors containing coarse blue siderotic granules arranged in a perinuclear ring, fulfilling criteria for ring sideroblasts (≥5 granules encircling at least one third of the nucleus). Other erythroid precursors contain scattered granules, and stainable storage iron is present. Ring sideroblasts should be enumerated as a percentage of erythroid precursors (≥15%, or ≥5% with SF3B1 mutation). The findings are consistent with MDS with ring sideroblasts in the context of multilineage dysplasia.",
+  "ddx": [
+    {"dx": "Congenital sideroblastic anemia (e.g., ALAS2)", "vs": "Congenital forms present in youth, often microcytic, without granulocytic or megakaryocytic dysplasia."},
+    {"dx": "Acquired reversible sideroblastic anemia (alcohol, isoniazid, copper deficiency, zinc excess)", "vs": "Ring sideroblasts are identical; exposure history, copper/zinc levels and resolution after correction exclude MDS."},
+    {"dx": "MDS/MPN with SF3B1 mutation and thrombocytosis", "vs": "Iron stain is identical; platelet count ≥450 x10^9/L with large MPN-like megakaryocytes defines MDS/MPN-RS-T."},
+    {"dx": "Normal sideroblasts", "vs": "Normal sideroblasts have few fine granules scattered randomly in the cytoplasm rather than a perinuclear ring."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Prussian blue",
+  "match": "consistent",
+  "high_yield": true
+}

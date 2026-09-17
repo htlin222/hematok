@@ -1,0 +1,22 @@
+{
+  "id": "63784",
+  "recognize_zh": "整片抹片背景呈灰藍色，紅血球排成像疊錢幣般的長鏈與分枝（rouleaux），提示血中有大量單株免疫球蛋白，符合多發性骨髓瘤。",
+  "features": [
+    "Diffuse bluish-gray background staining of the smear",
+    "Prominent rouleaux: red cells stacked in linear and branching chains",
+    "A mature segmented neutrophil with unremarkable morphology",
+    "Scattered normal-appearing platelets",
+    "No circulating plasma cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a diffusely bluish background with prominent rouleaux formation, with red cells aligned in linear and branching stacks throughout the field. A single mature neutrophil and scattered platelets are unremarkable. No circulating plasma cells are identified in this field. These findings indicate increased plasma protein, typically a monoclonal paraprotein, and are suggestive of a plasma cell neoplasm such as plasma cell myeloma; correlation with serum protein electrophoresis and immunofixation is recommended.",
+  "ddx": [
+    {"dx": "Red cell agglutination (cold agglutinin)", "vs": "Agglutinates form irregular three-dimensional clumps rather than linear coin-like stacks and disperse on warming, while rouleaux disperse with saline."},
+    {"dx": "Pseudo-rouleaux in thick smear areas", "vs": "Overlapping cells occur only in the thick part of the smear and lack the blue background, whereas true rouleaux persist in the monolayer."},
+    {"dx": "Polyclonal hypergammaglobulinemia or high fibrinogen (inflammation, liver disease)", "vs": "Can also cause rouleaux; distinction requires SPEP/immunofixation showing polyclonal rather than monoclonal protein."},
+    {"dx": "Waldenström macroglobulinemia", "vs": "Also produces rouleaux and blue background from IgM paraprotein; lymphoplasmacytic cells and IgM with MYD88 L265P mutation separate it."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61766",
+  "recognize_zh": "PAX5 免疫染色中幾乎所有腫瘤細胞呈瀰漫、密集的棕色核陽性，片狀排列並夾雜圓形脂肪空泡，證實為 B 細胞腫瘤；PAX5 本身無法區分亞型，母細胞型被套細胞淋巴瘤需靠 cyclin D1/SOX11 確認。",
+  "features": [
+    "Diffuse sheets of tumor cells with strong nuclear PAX5 positivity in the vast majority of cells",
+    "Nuclei are medium-sized, round to oval and closely packed, with a monotonous distribution",
+    "Scattered PAX5-negative cells with blue nuclei (likely stromal, T cells or residual hematopoietic elements)",
+    "Round clear spaces consistent with adipocytes interspersed within the infiltrate",
+    "Faint background cytoplasmic blush without true membranous staining"
+  ],
+  "describe_en": "PAX5 immunohistochemistry shows a diffuse, sheet-like infiltrate of medium-sized cells with strong nuclear positivity, interspersed with adipocytes and occasional negative background cells. The staining confirms the B-cell lineage of the infiltrate but is not specific for subtype. In the context of the stated diagnosis, the findings are consistent with involvement by blastoid mantle cell lymphoma, which requires confirmation by cyclin D1 and/or SOX11 positivity or CCND1 rearrangement and assessment of Ki-67.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Also PAX5 positive with blastic morphology but expresses TdT and/or CD34 and lacks cyclin D1 and SOX11."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "PAX5 positive large cells with vesicular nuclei and prominent nucleoli that are cyclin D1 negative (or only weakly positive in a subset) and lack CCND1 rearrangement."},
+    {"dx": "Acute myeloid leukemia with t(8;21)", "vs": "Myeloblasts may aberrantly express PAX5 but are MPO, CD34 and CD117 positive and negative for CD20 and cyclin D1."},
+    {"dx": "High-grade B-cell lymphoma / Burkitt lymphoma", "vs": "Shows a starry-sky pattern, CD10 positivity, near-100% Ki-67 and MYC rearrangement without cyclin D1."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PAX5",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "62502",
+  "recognize_zh": "CD3 染色中，大片小型淋巴球為陰性，只有散在的小淋巴球呈棕色膜狀陽性（T 細胞），部分成小群；表示浸潤的主體不是 T 細胞，而是背景 T 細胞混雜於 B 細胞浸潤中，支持 CLL。",
+  "features": [
+    "Diffuse sheets of small round lymphoid cells that are CD3-negative",
+    "Scattered CD3-positive small T cells with membranous staining, singly and in small clusters",
+    "CD3-positive T cells are small and cytologically bland",
+    "Occasional CD3-negative megakaryocytes (upper left)"
+  ],
+  "describe_en": "Immunohistochemical stain for CD3 shows a diffuse infiltrate of small lymphoid cells that are negative, with scattered admixed small CD3-positive T cells distributed singly and in small clusters. The T cells are small and cytologically unremarkable. This pattern indicates that the infiltrate is composed predominantly of non-T cells with a reactive T-cell background. Together with PAX5 and CD5 positivity in the infiltrate, the findings support involvement by chronic lymphocytic leukemia/small lymphocytic lymphoma.",
+  "ddx": [
+    {"dx": "T-cell lymphoma", "vs": "A T-cell lymphoma would show sheets of CD3-positive cells rather than scattered T cells in a CD3-negative infiltrate."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has abundant CD3-positive T cells surrounding rare large CD20-positive B cells, not a small-cell CD3-negative sheet."},
+    {"dx": "Reactive lymphoid aggregate", "vs": "Reactive aggregates contain a mixture of T cells and B cells with T cells often predominating."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

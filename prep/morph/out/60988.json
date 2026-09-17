@@ -1,0 +1,23 @@
+{
+  "id": "60988",
+  "recognize_zh": "骨髓抹片中央一顆大型漿細胞，核圓偏心、旁邊有淡染核周區，細胞質濃厚紫紅色、邊緣呈不規則毛邊狀，即「火焰細胞」（flame cell），常見於 IgA 型漿細胞增生；C 圖切片 IHC 呈瀰漫陽性。",
+  "features": [
+    "Large plasma cells with abundant, intensely stained reddish-purple (fuchsinophilic) cytoplasm",
+    "Ragged, frayed cytoplasmic margins producing a flame-like outline",
+    "Round, eccentric nucleus with clumped chromatin and a paler perinuclear zone",
+    "Occasional plasma cell with conventional deep-blue cytoplasm (panel A, lower)",
+    "Blood-rich aspirate background with crowded red cells and scattered granulocytes",
+    "Panel C: marrow biopsy immunostain with widespread positive (brown) cells among fat spaces; antibody not labeled"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered plasma cells, some with abundant, deeply fuchsinophilic cytoplasm with frayed, flame-shaped margins and round eccentric nuclei with clumped chromatin (flame cells); a plasma cell with conventional basophilic cytoplasm is also present. The background is blood-rich with crowded red cells and granulocytes. A corresponding biopsy immunostain (antibody not specified in the figure) shows abundant positive cells among adipocytes. Flame cells reflect accumulated glycoprotein-rich immunoglobulin, classically IgA; in this context the findings are consistent with a plasma cell proliferation producing IgA, and distinction between MGUS and myeloma requires clonal plasma cell quantitation and clinical criteria.",
+  "ddx": [
+    {"dx": "IgA plasma cell myeloma", "vs": "Same flame-cell morphology; separated from MGUS by ≥10% clonal marrow plasma cells or myeloma-defining events, not by the cytology of individual cells."},
+    {"dx": "Reactive plasmacytosis", "vs": "Polytypic plasma cells on kappa/lambda staining without an M-protein; flame cells are uncommon and plasma cells are usually perivascular and mature."},
+    {"dx": "Mott cells / Russell body-containing plasma cells", "vs": "Show discrete round globular inclusions (grape-like) rather than diffuse red cytoplasm with frayed edges."},
+    {"dx": "Lymphoplasmacytic lymphoma (IgM)", "vs": "Contains a mixed population of small lymphocytes, plasmacytoid lymphocytes and mast cells with MYD88 L265P, rather than isolated flame-type plasma cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; IHC (unlabeled)",
+  "match": "consistent",
+  "high_yield": true
+}

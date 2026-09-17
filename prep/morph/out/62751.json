@@ -1,0 +1,22 @@
+{
+  "id": "62751",
+  "recognize_zh": "流式圖顯示擴增的 CD3+CD8+CD57+ T 細胞（插圖為具嗜天青顆粒的大顆粒淋巴球），代表 T-LGL；組織切片與抹片則有大型非典型淋巴細胞，CD22 陽性、EBER 大量核陽性，同時可見吞噬血球的組織球（CD163 陽性），顯示同一病人併發 EBV 陽性 DLBCL 與噬血症候群（HLH）。",
+  "features": [
+    "Flow cytometry (A-C): CD3+ T cells ~28% of events; most CD3+ cells are CD8+, with a CD3+CD8+CD57+ population of ~13% of total, consistent with a T-LGL expansion; inset shows a large granular lymphocyte",
+    "H&E (D): sheets of large atypical lymphoid cells with vesicular nuclei and prominent nucleoli admixed with erythroid cells",
+    "Wright-Giemsa (E): very large atypical cell with fine chromatin, nucleoli and vacuolated basophilic cytoplasm",
+    "CD22 (F): membranous positivity of large cells, supporting B lineage; EBER ISH (G): numerous positive nuclei",
+    "Aspirate (H): macrophage with phagocytosed red cells/nucleated cells (hemophagocytosis); CD163 (I): increased large histiocytes"
+  ],
+  "describe_en": "Peripheral blood flow cytometry demonstrates an expanded CD3+CD8+CD57+ T-cell population, and a large granular lymphocyte with azurophilic granules is illustrated, consistent with T-cell large granular lymphocytic leukemia. Bone marrow sections and smears show infiltration by large atypical lymphoid cells with vesicular chromatin, prominent nucleoli and vacuolated cytoplasm that express CD22 and are positive for EBER in situ hybridization. In addition, macrophages with engulfed hematopoietic cells are present and CD163 highlights increased histiocytes. Findings are consistent with EBV-positive diffuse large B-cell lymphoma with hemophagocytic lymphohistiocytosis arising in a patient with T-LGL leukemia, reflecting underlying immune dysregulation.",
+  "ddx": [
+    {"dx": "Reactive CD8+ large granular lymphocytosis", "vs": "Reactive LGL expansions (e.g., post-viral) are transient and polyclonal, whereas T-LGL leukemia shows persistent clonal TR rearrangement and often STAT3 mutation."},
+    {"dx": "Chronic active EBV disease or EBV-positive T/NK lymphoproliferative disorder", "vs": "In these, EBER localizes to CD3/CD56-positive T or NK cells, whereas here the EBER-positive large cells are CD22-positive B cells."},
+    {"dx": "Classic Hodgkin lymphoma with HLH", "vs": "EBV+ cHL has scattered CD30+/CD15+ Reed-Sternberg cells in a mixed inflammatory background rather than sheets of CD22+ large B cells."},
+    {"dx": "Primary (familial) HLH without lymphoma", "vs": "Primary HLH shows hemophagocytosis and CD163+ histiocytes but no atypical EBER-positive large B-cell infiltrate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E, Wright-Giemsa, IHC: CD22, CD163, ISH: EBER; flow",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60129",
+  "recognize_zh": "高倍骨髓抹片中約八個小圓形腫瘤細胞呈花瓣狀環繞在中央淡藍色纖維物質周圍，形成 Homer Wright 假玫瑰花結（rosette），是神經母細胞瘤轉移至骨髓的典型線索。",
+  "features": [
+    "Cluster of about eight small round tumor cells arranged radially around a central core",
+    "Central pale-blue fibrillary material (neuropil) forming a Homer Wright-type pseudorosette",
+    "High N:C ratio with round nuclei, finely granular chromatin and nuclear molding",
+    "Scant cytoplasm merging with the central fibrillary core",
+    "Background red cells show crenation/artifact; an adjacent histiocyte-like cell with vacuolated cytoplasm"
+  ],
+  "describe_en": "High-power view of a Wright-Giemsa-stained bone marrow aspirate smear shows a cohesive group of small round tumor cells arranged radially around a central core of pale blue fibrillary material, forming a Homer Wright-type pseudorosette. The tumor cells have high nuclear-to-cytoplasmic ratios, finely granular chromatin and nuclear molding. Background red cells show drying artifact. Findings are consistent with metastatic neuroblastoma.",
+  "ddx": [
+    {"dx": "Megakaryocyte with surrounding cells (emperipolesis) or clumped blasts", "vs": "A megakaryocyte has a single large lobulated nucleus with granular cytoplasm, and leukemic blasts do not form rosettes around fibrillary cores."},
+    {"dx": "Ewing sarcoma / PNET", "vs": "Ewing sarcoma can form rosettes but usually lacks true neuropil and is CD99/NKX2.2 positive with EWSR1 fusion."},
+    {"dx": "Retinoblastoma or medulloblastoma metastasis", "vs": "These also form rosettes but differ in age, primary site and immunoprofile (PHOX2B negative)."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL blasts are discohesive, without rosettes or neuropil, and are CD45/TdT positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

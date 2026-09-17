@@ -1,0 +1,22 @@
+{
+  "id": "2577",
+  "recognize_zh": "周邊血液中兩顆中等大小淋巴球，核圓、染色質中度濃縮，胞質淡藍量中等，外觀符合前淋巴球（prolymphocyte）；但本圖核仁不明顯，特徵有限。",
+  "features": [
+    "Two intermediate-sized lymphoid cells, about twice the diameter of a red cell",
+    "Round to slightly oval nuclei with moderately condensed, somewhat stippled chromatin",
+    "Nucleoli not distinctly prominent at this resolution",
+    "Moderate rim of pale blue, agranular cytoplasm",
+    "Normocytic red cells in the background; no smudge cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows two intermediate-sized lymphoid cells with round nuclei, moderately condensed chromatin and a moderate amount of pale blue agranular cytoplasm. A single prominent central nucleolus, characteristic of prolymphocytes, is not clearly resolved in this image. The cells are more mature-appearing than lymphoblasts. Findings are suggestive of a mature lymphoid neoplasm with prolymphocytoid cells; flow cytometry and cytogenetics are required to distinguish B-PLL, T-PLL, CLL with increased prolymphocytes and mantle cell lymphoma. The archive category of B-lymphoblastic leukemia does not match this morphology.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Lymphoblasts have fine blastic chromatin, scant cytoplasm and higher N:C ratio, and express TdT/CD34, unlike these more condensed, moderately cytoplasmic cells."},
+    {"dx": "Leukemic mantle cell lymphoma", "vs": "Mantle cell lymphoma can mimic prolymphocytes but shows irregular nuclear contours and cyclin D1/t(11;14), which must be excluded before diagnosing B-PLL."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells are often smaller with cytoplasmic blebs and are CD3+/CD7+ with TCL1 rearrangement, requiring flow and cytogenetics to separate."},
+    {"dx": "CLL with increased prolymphocytes", "vs": "CLL shows a background of small lymphocytes with clumped soccer-ball chromatin and smudge cells, with prolymphocytes forming a minority population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

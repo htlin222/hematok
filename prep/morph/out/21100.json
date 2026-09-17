@@ -1,0 +1,22 @@
+{
+  "id": "21100",
+  "recognize_zh": "周邊血液抹片中可見多顆巨大血小板（紅色箭頭），有些與紅血球一樣大甚至比淋巴球還大，顆粒完整；搭配自幼的皮膚黏膜出血，提示 Bernard-Soulier 症候群，而非只是血小板被破壞的 ITP。",
+  "features": [
+    "Giant platelets equal to or larger than red cells, some exceeding lymphocyte size (red arrows)",
+    "Giant platelets retain purple azurophilic granulation (not gray/agranular)",
+    "Scattered normal-sized platelets and small dark objects over red cells (blue arrows)",
+    "Inset: giant platelet adjacent to a small lymphocyte for size comparison",
+    "Red cells show mild anisopoikilocytosis with occasional elliptocytes; no platelet clumps"
+  ],
+  "describe_en": "Peripheral blood smear shows a reduced number of platelets with many giant forms, several as large as or larger than erythrocytes and neighboring lymphocytes, with preserved granulation. No platelet clumping is seen to account for pseudothrombocytopenia. Red cells show mild anisopoikilocytosis. In a patient with lifelong mucocutaneous bleeding, findings are suggestive of an inherited macrothrombocytopenia such as Bernard-Soulier syndrome; platelet aggregometry (absent ristocetin response not corrected by normal plasma) and flow cytometry for CD42b/GPIb-IX-V are required for confirmation.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "ITP platelets are only mildly enlarged, platelet function and GPIb expression are normal, and bleeding is not lifelong."},
+    {"dx": "MYH9-related disorder (May-Hegglin anomaly)", "vs": "MYH9 disorders show Döhle-like inclusions in neutrophils and normal ristocetin-induced agglutination."},
+    {"dx": "Gray platelet syndrome", "vs": "Gray platelets are large but pale gray and agranular due to absent alpha granules."},
+    {"dx": "Type 2B or platelet-type von Willebrand disease", "vs": "These cause macrothrombocytopenia with enhanced, not absent, low-dose ristocetin-induced aggregation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

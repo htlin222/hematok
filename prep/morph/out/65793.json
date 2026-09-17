@@ -1,0 +1,23 @@
+{
+  "id": "65793",
+  "recognize_zh": "骨髓切片中大型多形性淋巴瘤細胞呈線狀與團塊排列在竇腔內（PAX5 勾勒出竇內分佈），且 cyclin D1、SOX11、p53 強陽性；抹片上是胞質嗜鹼性的大型不規則細胞，這是多形性被套細胞淋巴瘤而非血管內大 B 細胞淋巴瘤。",
+  "features": [
+    "Large pleomorphic lymphoma cells with irregular vesicular nuclei and moderate cytoplasm, arranged in cords and clusters within dilated sinusoids",
+    "Aspirate: large atypical lymphoid cells with irregular nuclear contours, moderately condensed chromatin and deeply basophilic cytoplasm with occasional blebs",
+    "PAX5 highlights intrasinusoidal linear and nodular clusters of B cells, with background hematopoiesis negative",
+    "Strong diffuse nuclear cyclin D1 in the same intrasinusoidal population",
+    "Strong nuclear p53 overexpression in most tumor cells, suggesting TP53 mutation",
+    "SOX11 nuclear positivity of variable intensity"
+  ],
+  "describe_en": "Bone marrow core biopsy shows infiltration by large, pleomorphic atypical lymphoid cells distributed predominantly within sinusoids as linear cords and cohesive intravascular clusters. The aspirate smear contains large atypical lymphoid cells with irregular nuclei and basophilic cytoplasm. By immunohistochemistry the neoplastic cells are positive for PAX5, cyclin D1 and SOX11 and show strong p53 overexpression; the PAX5 stain accentuates the intrasinusoidal pattern. Findings are consistent with relapsed pleomorphic mantle cell lymphoma with an intrasinusoidal pattern of marrow involvement, a pattern that can mimic intravascular large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Intravascular large B-cell lymphoma", "vs": "IVLBCL shows similar intrasinusoidal large B cells but is cyclin D1- and SOX11-negative and lacks IGH::CCND1."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL also favors an intrasinusoidal pattern but consists of small cells that are cyclin D1- and SOX11-negative."},
+    {"dx": "Diffuse large B-cell lymphoma (cyclin D1-positive)", "vs": "Occasional DLBCL expresses weak cyclin D1 but is SOX11-negative and lacks CCND1 rearrangement, whereas here cyclin D1 is strong and uniform."},
+    {"dx": "Plasma cell myeloma with CCND1 translocation", "vs": "Myeloma cells are cyclin D1-positive but PAX5-negative and CD138-positive, unlike these PAX5-positive B cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC: PAX5, cyclin D1, p53, SOX11",
+  "match": "consistent",
+  "high_yield": false
+}

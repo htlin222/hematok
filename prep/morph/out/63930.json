@@ -1,0 +1,22 @@
+{
+  "id": "63930",
+  "recognize_zh": "箭頭所指細胞含五個大小相近、染色質濃縮的圓形核，細胞質呈均勻灰藍色（多染性紅血球母細胞質地）且無顆粒，即為多核（五核）紅血球母細胞，是紅系發育異常（dyserythropoiesis）的線索。",
+  "features": [
+    "Erythroblast (arrow) containing five separate round nuclei of similar size",
+    "Nuclei have condensed, clumped chromatin without nucleoli, consistent with polychromatophilic-stage maturation",
+    "Agranular gray-blue cytoplasm with a smooth round cell outline",
+    "Adjacent granulocytes (band and segmented forms) with preserved granulation",
+    "Background red cells and scattered platelets; a smudged pink granular cell fragment is present"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered maturing granulocytes and red cells. The arrowed cell is an erythroblast with agranular gray-blue cytoplasm containing five discrete, round nuclei with condensed chromatin, representing a multinucleated (pentanucleated) erythroid precursor. Adjacent granulocytes show preserved granulation in this field. Findings indicate dyserythropoiesis; in the clinical context, they are consistent with myelodysplastic syndrome, though multinuclearity alone is not specific and must be interpreted with the proportion of dysplastic erythroid cells and cytogenetics.",
+  "ddx": [
+    {"dx": "Congenital dyserythropoietic anemia type II or III", "vs": "CDA shows multinucleated erythroblasts (bi-nucleated in type II, giant multinucleated in type III) in a young patient without other lineage dysplasia or clonal cytogenetics."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic anemia gives nuclear-cytoplasmic asynchrony with open sieve-like chromatin and giant metamyelocytes, and it corrects with B12 or folate."},
+    {"dx": "Megakaryocyte or osteoclast", "vs": "Osteoclasts have many separate nuclei with abundant granular cytoplasm and megakaryocytes have lobulated nuclei in far larger cells, unlike this small agranular erythroblast."},
+    {"dx": "Chemotherapy, alcohol or arsenic effect", "vs": "Toxic dyserythropoiesis can look identical, so exposure history and reversibility after withdrawal separate it from clonal MDS."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64757",
+  "recognize_zh": "A 圖淋巴結中瀰漫的大型淋巴細胞，核不規則、染色質淡、核仁明顯；B 圖 BCL2 強陽性、C 圖 EBER 核陽性；D–F 圖 FISH 顯示 IGH/BCL2 融合訊號同時出現在 EBV 陽性（綠色點狀）的腫瘤細胞內。",
+  "features": [
+    "Panel A (H&E): diffuse sheets of large lymphoid cells with irregular vesicular nuclei and prominent nucleoli, with scattered apoptotic bodies",
+    "Panel B: strong cytoplasmic/membranous BCL2 staining in large cells",
+    "Panel C: EBER ISH with nuclear positivity in many large cells",
+    "Panel D: FISH with multiple green EBV signals within nuclei plus red (5'BCL2) and blue (3'IGH) probes",
+    "Panels E-F: single nuclei showing a colocalized red-blue fusion signal (arrowhead) in an EBV-positive cell, and a BCL2 break-apart pattern in an EBV-negative cell"
+  ],
+  "describe_en": "Composite figure of a lymph node biopsy. The H&E section (A) shows diffuse effacement by large lymphoid cells with irregular vesicular nuclei, prominent nucleoli, and scattered apoptotic debris. The large cells are strongly BCL2 positive (B) and a large proportion show nuclear EBER positivity by in situ hybridization (C). FISH on paraffin sections (D-F) demonstrates punctate EBV genome signals within nuclei together with IGH::BCL2 fusion signals (arrowhead), and confirms BCL2 rearrangement in both EBV-positive and EBV-negative tumor cells. Findings are consistent with EBV-positive diffuse large B-cell lymphoma, germinal center type, harboring t(14;18)(q32;q21), with EBV infection likely acquired after the BCL2 rearrangement.",
+  "ddx": [
+    {"dx": "EBV-positive DLBCL, NOS (without BCL2 rearrangement)", "vs": "Typical EBV+ DLBCL is usually non-germinal-center type and lacks t(14;18), whereas this case is CD10+ with IGH::BCL2 fusion by FISH."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Double-hit lymphoma requires an additional MYC rearrangement, which must be excluded by MYC FISH."},
+    {"dx": "Transformed follicular lymphoma", "vs": "Transformation is supported by a prior or coexisting follicular component, which is not seen in this diffuse field."},
+    {"dx": "EBV-positive bystander lymphocytes in DLBCL", "vs": "Bystander EBV infection involves only scattered small cells, whereas here EBER and FISH EBV signals are present in the large neoplastic cells carrying the fusion."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: BCL2; ISH: EBER; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

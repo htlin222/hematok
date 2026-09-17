@@ -1,0 +1,21 @@
+{
+  "id": "1628",
+  "recognize_zh": "這是免疫組織化學染色（紅色 AEC 呈色、蘇木紫複染），淋巴組織中成片中至大型細胞呈細胞膜/細胞質紅色陽性；圖上未標示抗體種類，無法單憑此圖判定是哪一群淋巴細胞，也無法確定是否為正常組織。",
+  "features": [
+    "Immunohistochemical stain with red (AEC-type) chromogen and hematoxylin counterstain",
+    "Diffuse sheet of medium-to-large lymphoid cells with round to oval vesicular nuclei",
+    "Membranous and granular cytoplasmic red staining in the majority of cells",
+    "Staining relatively uniform across the field without clear zonation",
+    "Antibody not specified; architecture limited at this magnification"
+  ],
+  "describe_en": "Immunohistochemical stain with a red chromogen on lymphoid tissue shows a diffuse sheet of medium-to-large cells with round to oval nuclei, most of which show membranous and granular cytoplasmic positivity. No clear follicular or zonal pattern is evident in this high-power field. Because the antibody is not specified, the lineage of the positive cells cannot be determined from the image, and a uniformly positive population of larger cells would need to be correlated with the H&E and additional markers before interpreting it as normal (for example, a germinal center) versus a neoplastic infiltrate.",
+  "ddx": [
+    {"dx": "Reactive germinal center stained with a B-cell marker", "vs": "Would be a circumscribed nodule with a surrounding mantle and polarization, and a proliferation marker would show a high but zonated Ki-67."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "Shows diffuse architectural effacement on H&E with sheets of large atypical B cells, often with aberrant marker expression."},
+    {"dx": "Paracortical T-zone stained with a T-cell marker", "vs": "Positive cells would be predominantly small lymphocytes admixed with negative interdigitating cells and high endothelial venules."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: red chromogen, antibody not specified",
+  "match": "partial",
+  "high_yield": false
+}

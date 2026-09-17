@@ -1,0 +1,21 @@
+{
+  "id": "62699",
+  "recognize_zh": "這是流式細胞儀散佈圖，不是形態學影像：淋巴球門控下 CD2 對 CD7 雙參數圖，可見一群 CD2 與 CD7 皆表現的族群（綠色），與 CD2 較亮的 T 細胞（藍色）部分重疊，左下角為 CD2−/CD7− 族群（洋紅色）。需配合 CD3、CD16、CD56、CD57、KIR 等標記判讀 NK 細胞增生。",
+  "features": [
+    "Flow cytometry dot plot gated on lymphocytes: CD2-PC7 (y-axis) versus CD7-APC700 (x-axis), log scale",
+    "Green population: CD2 positive (slightly dimmer than blue population) and CD7 positive, forming a dense cluster",
+    "Blue population: CD2 brighter, CD7 positive, overlapping the green cluster (likely T cells)",
+    "Magenta population in lower-left quadrant: CD2 negative, CD7 negative (likely B cells), with a minor tail of events",
+    "No distinct CD7-negative or CD2-negative abnormal population is evident on this single plot; color-to-lineage assignment is inferred"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on lymphocytes displays CD2 versus CD7. A dense population (green) expresses CD2 and CD7 and overlaps with a CD2-brighter population (blue), while a separate CD2-negative/CD7-negative population (magenta) lies in the lower-left quadrant. Lineage assignment of the colored populations is not labeled and must be inferred from the full panel; in the reference case, the green events presumably represent the expanded NK-cell population. This single plot cannot establish the diagnosis alone; NK-cell clonality/abnormality should be supported by CD3-negative, CD16/CD56 expression patterns, CD57, and restricted KIR isoform expression, together with a persistent (>6 months) NK lymphocytosis, consistent with chronic lymphoproliferative disorder of NK cells.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells are surface CD3+ with TCR alpha/beta (or gamma/delta) expression and clonal TCR rearrangement, whereas CLPD-NK cells are surface CD3-negative."},
+    {"dx": "Reactive NK-cell lymphocytosis", "vs": "Reactive NK expansions are transient with polytypic KIR expression and normal CD56/CD16/CD94 patterns, lacking the persistent restricted KIR or aberrant antigen loss seen in CLPD-NK."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia presents with fulminant illness, EBV positivity, and often CD56-bright atypical cells, unlike the indolent course of CLPD-NK."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

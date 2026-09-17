@@ -1,0 +1,21 @@
+{
+  "id": "20422",
+  "recognize_zh": "這是流式細胞儀與 FISH 的非型態圖：CD19+/CD10+、CD34−、cTdT−、表面 kappa 輕鏈限制的成熟 B 細胞表型，加上 FISH 顯示 t(8;14) 融合訊號，支持 Burkitt 白血病。",
+  "features": [
+    "Flow cytometry: dominant CD45-positive population that is CD19+ and CD10+ (dual CD10:CD19 quadrant)",
+    "CD34-negative with HLA-DR expression; cytoplasmic TdT negative and cytoplasmic CD79a and CD22 positive",
+    "Surface kappa light chain restriction with lambda negative on CD19+ cells",
+    "CD56 and CD117 negative",
+    "Interphase FISH with dual-fusion probe showing yellow fused signals and juxtaposed red-green signals indicating t(8;14)"
+  ],
+  "describe_en": "This composite is non-morphologic. Flow cytometric plots show a predominant CD45-positive B-cell population expressing CD19, CD10, cytoplasmic CD79a, cytoplasmic CD22, and HLA-DR, with surface kappa light chain restriction, and lacking CD34, TdT, CD56, and CD117, indicating a clonal mature germinal-center B-cell phenotype. Interphase FISH shows fusion (yellow or juxtaposed red-green) signals, interpreted as positive for t(8;14)(q24;q32) IGH::MYC. The combination of a TdT-negative, CD10-positive, light chain-restricted B-cell population with MYC rearrangement is consistent with Burkitt leukemia/lymphoma in the appropriate morphologic context.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL is typically TdT and/or CD34 positive and lacks surface immunoglobulin light chain expression, whereas this population is TdT-negative, CD34-negative, and kappa-restricted."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Double-hit lymphoma can share the CD10+ light chain-restricted phenotype and MYC break, and is separated by BCL2 rearrangement FISH and usually strong BCL2 protein expression."},
+    {"dx": "Diffuse large B-cell lymphoma, germinal center type", "vs": "DLBCL cells are larger with more pleomorphism and MYC rearrangement is less common and often non-IG partner, whereas Burkitt shows a near 100% Ki-67 and simple IG::MYC karyotype."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

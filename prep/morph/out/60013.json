@@ -1,0 +1,21 @@
+{
+  "id": "60013",
+  "recognize_zh": "紅色母細胞群 CD45 弱陽、SSC 低，表現 CD34、CD117、CD13 與弱陽性 CD33，細胞內 MPO 部分陽性；CD19、CD7、CD3、CD15 與細胞內 CD79a 皆陰性，確認為髓系母細胞而非淋巴或混合表型。",
+  "features": [
+    "Blasts (red) in the CD45-dim, low side scatter gate",
+    "CD34 and CD117 positive",
+    "CD13 positive with dim CD33",
+    "Partial intracellular MPO positivity",
+    "Negative for CD19, CD7, CD3, CD15, and intracellular CD79a"
+  ],
+  "describe_en": "Flow cytometric immunophenotyping shows an expanded blast population with dim CD45 and low side scatter. The blasts are positive for CD34, CD117, and CD13, with dim CD33 and partial intracellular myeloperoxidase expression. B-lineage (CD19, cytoplasmic CD79a) and T-lineage (CD3, CD7) markers are negative, and CD15 is not expressed, indicating little maturation. The immunophenotype is that of myeloid blasts, consistent with acute myeloid leukemia; assignment to the myelodysplasia-related category depends on morphologic dysplasia, cytogenetics, or prior MDS history.",
+  "ddx": [
+    {"dx": "Mixed phenotype acute leukemia", "vs": "MPAL requires lineage-specific B or T markers such as strong CD19 with cCD79a or cytoplasmic CD3, which are absent here."},
+    {"dx": "AML with minimal differentiation", "vs": "AML-M0 shows fewer than 3% MPO-positive blasts, whereas a distinct subset here is MPO positive."},
+    {"dx": "Acute myelomonocytic or monocytic leukemia", "vs": "Monocytic differentiation would show CD14, CD64, CD11b, or CD36 with brighter CD45 and higher side scatter, not this CD34/CD117-positive immature profile."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65510",
+  "recognize_zh": "第一次皮膚切片是 CD20+、EBER+ 的中大型 B 細胞增生，夾雜 CD3+ T 細胞；復發切片則換成 CD20−、EBER−、PD1+/CD3+ 的中小型淋巴球，顯示 EBV+ 大 B 細胞增生掩蓋了底下的濾泡輔助 T 細胞淋巴瘤（TFH lymphoma）。",
+  "features": [
+    "Panel A: dense nodular dermal lymphoid infiltrate at low power",
+    "Panels B-F (first biopsy): medium to large atypical lymphocytes, CD20-positive with EBER-positive nuclei, interspersed CD3-positive T cells, high Ki-67",
+    "Panel G: recurrent diffuse dermal infiltrate at low power",
+    "Panels H-L (second biopsy): small to medium lymphocytes negative for CD20 and EBER, diffusely PD1-positive with CD3 positivity (inset) and high Ki-67",
+    "Loss of the B-cell/EBV component in the relapse biopsy (post-rituximab treatment effect)"
+  ],
+  "describe_en": "The initial skin biopsy shows a dense dermal infiltrate of medium to large atypical lymphocytes that are CD20 positive and EBER positive, with interspersed CD3-positive T cells and a high Ki-67 proliferation index. The subsequent skin biopsy shows a diffuse infiltrate of small to medium lymphocytes that are negative for CD20 and EBER, and positive for PD1 and CD3, again with high Ki-67. Shared TRG rearrangement and TET2/DNMT3A/RHOA G17V mutations link the two biopsies. Findings are consistent with follicular helper T-cell lymphoma whose initial presentation was obscured by a prominent EBV-positive large B-cell proliferation.",
+  "ddx": [
+    {"dx": "EBV-positive diffuse large B-cell lymphoma, NOS", "vs": "EBV+ DLBCL lacks an underlying PD1/CXCL13-positive clonal T-cell population and RHOA G17V/TET2 mutations, which were demonstrated here."},
+    {"dx": "Primary cutaneous CD4-positive small/medium T-cell lymphoproliferative disorder", "vs": "This shows PD1-positive small/medium T cells with low Ki-67 and localized lesions, rather than widespread disease with high proliferation and TFH-associated mutations."},
+    {"dx": "Mycosis fungoides/Sezary syndrome", "vs": "MF shows epidermotropism of CD4-positive T cells and lacks the EBV-positive B-blast component and RHOA G17V mutation typical of TFH lymphoma."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered large B cells in a background of non-clonal CD8-rich T cells and histiocytes, without PD1-positive clonal TFH cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC: CD20, CD3, PD1, Ki-67, ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

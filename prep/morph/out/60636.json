@@ -1,0 +1,22 @@
+{
+  "id": "60636",
+  "recognize_zh": "抹片同時出現數個有核紅血球、髓細胞與顆粒球左移，另見大小不一的紅血球與少量變形紅血球，呈類似骨髓增生性腫瘤的白血球–紅血球母細胞樣（leukoerythroblastic）變化；需配合鐮狀細胞疾病與小病毒 B19 感染的臨床背景判讀。",
+  "features": [
+    "Several nucleated red blood cells with dense pyknotic nuclei and orthochromatic to polychromatic cytoplasm",
+    "Immature granulocytes including a myelocyte and a promyelocyte-like cell with coarse granules, together with segmented neutrophils (left shift)",
+    "Large cell with vacuolated granular cytoplasm and immature nucleus (lower center), likely a reactive/immature myeloid cell",
+    "Red cells with anisopoikilocytosis, including occasional polychromatophilic cells, target-like forms and a rare elongated cell; few classic sickle cells in this field",
+    "Platelets not increased in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a leukoerythroblastic picture with multiple circulating nucleated red cells, immature granulocytes at myelocyte and earlier stages, and mature neutrophils. Red cells show anisopoikilocytosis with scattered polychromatophilic and target-like forms, although classic sickle cells are few in this field. No definite blasts with Auer rods are identified. In a toddler with sickle cell disease, this pattern can mimic a myeloproliferative neoplasm; parvovirus B19 testing (PCR, bone marrow for giant pronormoblasts) is recommended. Findings are suggestive of a reactive leukoerythroblastic reaction related to parvovirus B19 infection.",
+  "ddx": [
+    {"dx": "Juvenile myelomonocytic leukemia", "vs": "JMML shows persistent monocytosis, splenomegaly, elevated HbF and RAS-pathway mutations, whereas the parvovirus reaction is transient and lacks clonal genetics."},
+    {"dx": "Transient abnormal myelopoiesis / myeloproliferative neoplasm", "vs": "Clonal MPN/TAM shows blasts, megakaryocytic atypia and a genetic driver (e.g., GATA1, JAK2), whereas parvovirus-associated changes resolve with viral clearance."},
+    {"dx": "Marrow infiltrative process (leukoerythroblastosis from infiltration)", "vs": "Infiltration shows teardrop cells and marrow fibrosis or tumor on biopsy, while parvovirus marrow shows giant pronormoblasts with intranuclear inclusions."},
+    {"dx": "Hyposplenism in sickle cell disease alone", "vs": "Sickle hyposplenism causes Howell-Jolly bodies, target cells and few nRBCs but not a marked left shift with immature granulocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

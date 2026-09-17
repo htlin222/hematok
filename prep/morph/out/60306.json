@@ -1,0 +1,21 @@
+{
+  "id": "60306",
+  "recognize_zh": "在大致正常的紅血球之間，可見少數小而染色較深、有直線切緣或尖角的紅血球碎片，以及一側被切平的頭盔狀細胞（helmet cells），符合裂紅血球（schistocytes）。",
+  "features": [
+    "Scattered small, dense red cell fragments with straight edges and angular points",
+    "Occasional helmet-shaped cells with one flattened, cut border",
+    "Fragments are fewer than intact cells; most red cells are normocytic discocytes with central pallor",
+    "Platelets appear sparse in this field",
+    "No agglutination, nucleated red cells or leukocytes seen"
+  ],
+  "describe_en": "Peripheral blood smear shows mostly normocytic, normochromic red cells with scattered schistocytes, including small angular fragments and helmet-shaped cells with straight cut edges. Platelets appear sparse in the field. No spherocyte predominance, agglutination or inclusions are seen. Findings are consistent with schistocytes; a count of more than about 1% of red cells in an appropriate setting supports microangiopathic hemolytic anemia (TTP, HUS, DIC) or mechanical hemolysis, and should be correlated with platelet count and hemolysis markers.",
+  "ddx": [
+    {"dx": "Bite cells", "vs": "Bite cells are intact cells with a rounded bite-like defect, not small fragments with straight edges and sharp corners."},
+    {"dx": "Artifactual fragmentation", "vs": "Artifact produces fragments mainly at the feathered edge or near crushed cells, whereas true schistocytes are distributed in the evaluable monolayer."},
+    {"dx": "Microspherocytes", "vs": "Microspherocytes are small but round and smooth-contoured, lacking the angular cut edges of schistocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

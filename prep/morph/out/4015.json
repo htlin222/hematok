@@ -1,0 +1,22 @@
+{
+  "id": "4015",
+  "recognize_zh": "骨髓抹片中成片的中大型細胞緊密聚集，核質比高、染色質細緻、細胞質少，且彼此核互相擠壓（nuclear molding）；外觀易被誤認為母細胞或淋巴瘤，但成團黏聚與核擠壓指向小細胞神經內分泌癌轉移。",
+  "features": [
+    "Cohesive sheets and clusters of medium to large cells with high N:C ratio",
+    "Finely granular, salt-and-pepper-like chromatin with inconspicuous nucleoli",
+    "Nuclear molding between adjacent tumor cells",
+    "Scant pale blue cytoplasm with indistinct cell borders",
+    "Few residual hematopoietic cells and red cells at the periphery"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows cohesive sheets of medium to large cells with high nuclear-to-cytoplasmic ratios, finely granular chromatin, inconspicuous nucleoli and scant cytoplasm. Nuclear molding is evident between adjacent cells, and normal hematopoietic elements are sparse. Although these cells may mimic lymphoma or leukemic blasts, their cohesive growth favors a non-hematopoietic neoplasm. Findings are suggestive of metastatic small-cell neuroendocrine carcinoma; confirmation by biopsy immunohistochemistry (keratin, synaptophysin, chromogranin, INSM1, TTF-1; CD45 negative) is recommended.",
+  "ddx": [
+    {"dx": "Acute leukemia", "vs": "Leukemic blasts are discohesive and lack nuclear molding; clumping in thick smear areas can mimic cohesion, so CD45 and lineage markers are decisive."},
+    {"dx": "Diffuse large B-cell or Burkitt lymphoma", "vs": "Lymphoma cells are discohesive with basophilic cytoplasm and lymphoglandular bodies, and are CD45 and CD20 positive."},
+    {"dx": "Metastatic neuroblastoma or Ewing sarcoma", "vs": "These small round cell tumors occur mainly in children and require CD99, NKX2.2, PHOX2B or genetic studies to separate from small-cell carcinoma."},
+    {"dx": "Merkel cell carcinoma", "vs": "Merkel cell carcinoma is morphologically similar but shows perinuclear dot CK20 and Merkel cell polyomavirus, and is usually TTF-1 negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

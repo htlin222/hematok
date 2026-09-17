@@ -1,0 +1,21 @@
+{
+  "id": "3923",
+  "recognize_zh": "骨髓抹片中散在不定形、淡藍至紫色、雲霧狀或蠟樣的細胞外物質，周圍夾著造血細胞，這種無結構的沉積物即為類澱粉（amyloid）在抹片上的樣子。",
+  "features": [
+    "Amorphous, pale blue to violet, waxy/cloud-like extracellular material in irregular clumps",
+    "Material lacks cellular structure and has smudgy, indistinct edges",
+    "Hematopoietic cells (maturing granulocytes, lymphocytes, erythroid precursors) adherent around the deposits",
+    "Background of blood with red cells; plasma cells not conspicuous in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows multiple irregular clumps of amorphous, pale blue to violet, waxy extracellular material with indistinct edges, admixed with hematopoietic cells. The material does not have a cellular or fibrillar architecture resembling stromal particles. Plasma cells are not conspicuous in this field. Findings are suggestive of amyloid deposition; confirmation by Congo red staining with apple-green birefringence on the biopsy and evaluation for a plasma cell neoplasm are recommended.",
+  "ddx": [
+    {"dx": "Stromal/fibrin clumps", "vs": "Fibrin and stromal fragments are stringy or contain stromal cells and capillaries, whereas amyloid is homogeneous and Congo red positive."},
+    {"dx": "Serous fat atrophy (gelatinous transformation)", "vs": "Gelatinous transformation shows pink-purple mucopolysaccharide that is Alcian blue positive and Congo red negative, with hypocellular marrow."},
+    {"dx": "Drying/stain precipitate artifact", "vs": "Stain precipitate is granular and refractile and lies on top of cells, not as smooth waxy masses surrounding them."},
+    {"dx": "Crystal-storing histiocytosis or immunoglobulin deposits", "vs": "These are intracellular or crystalline aggregates within histiocytes rather than extracellular amorphous material, and are Congo red negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

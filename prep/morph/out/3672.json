@@ -1,0 +1,22 @@
+{
+  "id": "3672",
+  "recognize_zh": "床邊前後位（AP portable）胸部 X 光顯示雙側瀰漫、以肺門周圍及中下肺野為主的肺泡浸潤影，心臟影未見明顯擴大，配合輸血後 6 小時內發生的急性缺氧可考慮 TRALI。",
+  "features": [
+    "Portable AP semi-erect chest radiograph",
+    "Bilateral diffuse airspace opacities, most prominent in perihilar and mid-to-lower zones",
+    "Cardiac silhouette not grossly enlarged (limited by AP projection)",
+    "No large pleural effusion evident; costophrenic angles partly obscured",
+    "Support/monitoring lines overlie the chest"
+  ],
+  "describe_en": "Portable AP semi-erect chest radiograph shows bilateral, diffuse, patchy-to-confluent airspace opacities predominantly in the perihilar and lower lung zones. The cardiac silhouette does not appear markedly enlarged, although AP technique limits assessment, and no large pleural effusion is evident. In the setting of acute hypoxemia within 6 hours of transfusion, this pattern of noncardiogenic pulmonary edema is consistent with transfusion-related acute lung injury; the radiograph itself is nonspecific and requires clinical correlation.",
+  "ddx": [
+    {"dx": "Transfusion-associated circulatory overload (TACO)", "vs": "TACO shows hydrostatic features such as cardiomegaly, vascular redistribution, effusions, elevated BNP and response to diuretics, whereas TRALI is noncardiogenic with normal filling pressures."},
+    {"dx": "ARDS from another cause (sepsis, aspiration)", "vs": "Radiographically identical; TRALI is defined by temporal onset within 6 hours of transfusion without another ARDS risk factor."},
+    {"dx": "Multifocal pneumonia", "vs": "Pneumonia evolves with fever and infectious markers and does not typically resolve within 48-96 hours as TRALI often does."},
+    {"dx": "Diffuse alveolar hemorrhage", "vs": "Suggested by falling hemoglobin, hemoptysis and hemosiderin-laden macrophages on BAL rather than a transfusion time link."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "consistent",
+  "high_yield": false
+}

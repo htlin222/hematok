@@ -1,0 +1,42 @@
+{
+  "id": "120",
+  "recognize_zh": "淋巴結結構被背靠背、邊界模糊的腫瘤性濾泡取代；高倍下濾泡內幾乎全是成片的中心母細胞（centroblasts，核大、染色質空泡狀、多個貼近核膜的核仁），看不到中心細胞（centrocytes）混雜，加上濾泡內 BCL2 陽性與 CD21 樹突細胞網，支持濾泡性淋巴瘤 grade 3B。",
+  "features": [
+    "Lymph node effaced by closely packed, back-to-back neoplastic follicles with attenuated mantles and extension into perinodal fat",
+    "Follicles composed of solid sheets of large centroblasts (nuclei ~3x a small lymphocyte) without an admixed centrocyte population",
+    "Round to oval vesicular nuclei with multiple small nucleoli applied to the nuclear membrane; scant amphophilic cytoplasm",
+    "Frequent mitotic figures and scattered apoptotic bodies within the follicles; no tingible-body macrophage-rich starry-sky pattern",
+    "IHC: follicles strongly highlighted by membranous B-cell/germinal-center markers and nuclear markers, with cytoplasmic staining consistent with BCL2 in the follicles",
+    "Preserved CD21/CD23-type follicular dendritic cell meshworks outlining each nodule, confirming follicular (not diffuse) architecture in the depicted areas"
+  ],
+  "describe_en": "Sections of lymph node show effacement of the normal architecture by a vaguely nodular proliferation of crowded, back-to-back follicles that extends to the capsule and perinodal adipose tissue. At high power, the follicles are composed of sheets of large centroblasts with vesicular chromatin, multiple peripheral nucleoli and scant cytoplasm, with numerous mitoses and apoptotic bodies; centrocytes are not a significant component in these fields. Immunohistochemical stains highlight the neoplastic follicles with membranous and nuclear germinal-center-type staining, cytoplasmic staining consistent with BCL2 within follicles, a substantial nuclear-positive fraction, and intact follicular dendritic cell meshworks. Findings are consistent with follicular lymphoma, grade 3B (follicular large B-cell lymphoma in WHO 5th edition); diffuse areas, reported elsewhere in this specimen, should be separately reported as diffuse large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Follicular lymphoma, grade 3A", "vs": "Grade 3A follicles contain >15 centroblasts/HPF but retain admixed centrocytes, whereas 3B follicles consist of solid sheets of centroblasts as seen here."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL lacks follicular architecture, so CD21/CD23 staining shows no organized FDC meshworks around the large cells, unlike the intact nodular meshworks in this image."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive follicles are polarized with tingible-body macrophages, preserved mantles and BCL2-negative germinal centers, whereas these crowded follicles are monotonous, unpolarized and BCL2-positive."},
+    {"dx": "Large B-cell lymphoma with IRF4 rearrangement", "vs": "This entity, usually in children or young adults in Waldeyer ring or cervical nodes, shows strong diffuse MUM1/IRF4 with often weak or absent BCL2 and requires IRF4 FISH to separate it from grade 3B FL in an older adult."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (B-cell/GC markers, BCL2, CD21)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E, low power: node effaced by crowded vague nodules extending to perinodal fat",
+    "H&E, intermediate power: large-cell follicles separated by a small-lymphocyte interfollicular zone",
+    "H&E, high power: sheets of centroblasts with peripheral nucleoli and mitoses",
+    "H&E, high power: monotonous centroblasts with vesicular chromatin and apoptotic bodies",
+    "IHC, low power: strong staining of back-to-back neoplastic follicles (membranous B-cell/GC marker)",
+    "IHC, high power: membranous staining of follicular cells with scattered interfollicular positive cells",
+    "IHC, low power: second membranous marker highlighting the nodular follicles",
+    "IHC, high power: dense membranous staining within a follicle",
+    "IHC, low power: nuclear germinal-center-type staining confined to the follicles",
+    "IHC, high power: strong nuclear staining in most large follicular cells",
+    "IHC, low power: cytoplasmic staining of follicles and interfollicular cells, consistent with BCL2",
+    "IHC, high power: cytoplasmic/membranous positivity of the large neoplastic cells, consistent with BCL2",
+    "IHC, high power: heterogeneous nuclear staining in a subset of large cells",
+    "IHC, low power: nuclear marker highlighting follicles with scattered interfollicular positive cells",
+    "IHC, high power: nuclear positivity in a large fraction of follicular cells",
+    "IHC, high power: follicular dendritic cell processes (CD21/CD23-type) around negative neoplastic cells",
+    "IHC, low power: intact follicular dendritic cell meshworks outlining each neoplastic follicle"
+  ]
+}

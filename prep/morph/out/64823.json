@@ -1,0 +1,21 @@
+{
+  "id": "64823",
+  "recognize_zh": "ALK 免疫染色中大量大小不一的淋巴瘤細胞同時呈強烈的核與胞質棕色陽性，連中小型細胞也著色，這種核加胞質的分布提示典型 NPM1::ALK 融合，確認為 ALK 陽性間變性大細胞淋巴瘤。",
+  "features": [
+    "Strong ALK staining in numerous tumor cells",
+    "Combined nuclear and cytoplasmic staining pattern (typical of NPM1::ALK)",
+    "Positive cells range from small-medium to large, including some ring-like large cells",
+    "Scattered ALK-negative cells with pale blue nuclei, likely histiocytes"
+  ],
+  "describe_en": "ALK immunohistochemistry shows strong nuclear and cytoplasmic staining in a large population of lymphoma cells of varying size, including many small to medium-sized cells as well as larger forms. Interspersed negative cells likely represent background histiocytes. The nuclear plus cytoplasmic pattern suggests an NPM1::ALK fusion, and staining of small neoplastic cells is characteristic of the lymphohistiocytic and small cell patterns. Findings are consistent with anaplastic large cell lymphoma, ALK-positive.",
+  "ddx": [
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "This shows granular cytoplasmic ALK in plasmablastic cells that are CD138 positive and CD30 negative or weak, without T-cell markers."},
+    {"dx": "ALCL with variant ALK partner (e.g., TPM3, ATIC)", "vs": "Variant fusions usually show cytoplasmic-only or membranous ALK staining without nuclear positivity."},
+    {"dx": "ALK-negative ALCL", "vs": "ALK-negative ALCL has similar morphology and CD30 staining but no ALK expression and a worse prognosis."},
+    {"dx": "Inflammatory myofibroblastic tumor or ALK-positive histiocytosis", "vs": "These are ALK-positive non-lymphoid lesions with spindle or histiocytic cells lacking CD30 and T-cell markers."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: ALK",
+  "match": "consistent",
+  "high_yield": true
+}

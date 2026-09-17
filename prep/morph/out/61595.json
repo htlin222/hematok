@@ -1,0 +1,23 @@
+{
+  "id": "61595",
+  "recognize_zh": "這是多面板組合圖：PET 顯示全身多處淋巴結與器官攝取，流式中腫瘤族群（洋紅色）CD45 呈陰性、表面 CD3 陰性但 CD5 陽性、CD4 陽性並有不等程度 CD8，IHC 顯示 CD3 與 TCL1 陽性，FISH 為 TCL1 重組；即使缺乏表面 CD3/CD45，TCL1 陽性仍指向 T 前淋巴球白血病。",
+  "features": [
+    "PET maximum-intensity projection: widespread FDG-avid lymphadenopathy with splenic and marrow uptake (panel A)",
+    "Flow cytometry: dominant population (about 94%) with CD45 negative/very dim expression on CD45 vs SSC (panel C)",
+    "Neoplastic cells CD5 positive but surface CD3 negative, with CD4 expression and variable CD8 (panels B, D)",
+    "H&E: diffuse sheets of small to medium lymphoid cells (panel E)",
+    "IHC: CD3 and TCL1 positive in tumor cells; third IHC panel largely negative; TCL1 break-apart FISH shows split signals (panels F-H, FISH)",
+    "Second flow sample shows a small residual CD45-negative population (about 0.3%) (panels J, K)"
+  ],
+  "describe_en": "This composite figure integrates imaging, flow cytometry, histology, immunohistochemistry and FISH. Flow cytometry identifies a dominant abnormal T-cell population that is CD45 negative and surface CD3 negative, yet CD5 positive with CD4 expression and heterogeneous CD8, a phenotype that could be missed with standard CD45/CD3 gating. Tissue shows diffuse sheets of small to medium lymphoid cells that are CD3 and TCL1 positive by immunohistochemistry, and FISH demonstrates TCL1 rearrangement. A later sample shows a small residual population of the same phenotype. Resolution of the panels is limited, but the combination is consistent with T-cell prolymphocytic leukemia with aberrant loss of surface CD3 and CD45.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-ALL may lack surface CD3 and be CD4/CD8 double positive, but is TdT/CD1a positive and TCL1 rearrangement negative."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells are CD4+ with CD7 and CD26 loss, cerebriform nuclei and no TCL1 overexpression or TCL1 rearrangement."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL is CD4+ CD25+ with flower cells and HTLV-1 seropositivity, lacking TCL1 rearrangement."},
+    {"dx": "Non-hematopoietic small round cell tumor", "vs": "CD45 negativity raises this concern, but CD5/CD4 expression by flow and CD3/TCL1 by IHC establish T-cell lineage."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry; H&E; IHC: CD3, TCL1; FISH: TCL1",
+  "match": "non-morphologic",
+  "high_yield": false
+}

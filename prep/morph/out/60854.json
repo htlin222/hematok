@@ -1,0 +1,21 @@
+{
+  "id": "60854",
+  "recognize_zh": "S-100 免疫染色中，左側一大片細胞核卵圓、帶核溝、胞質豐富的蘭格漢斯細胞同時呈細胞核與胞質陽性，與右側陰性的小淋巴球區域分界清楚，支持 LCH（但 S-100 不具專一性，需搭配 CD1a/langerin）。",
+  "features": [
+    "Large sheet of lesional cells on the left with moderate-to-strong nuclear and cytoplasmic S-100 staining",
+    "Lesional cells with abundant cytoplasm and oval, folded/grooved nuclei visible through the stain",
+    "Negative small lymphocytes forming the background on the right",
+    "Scattered individual S-100 positive cells at the edge of the infiltrate",
+    "Occasional small clear spaces within the infiltrate"
+  ],
+  "describe_en": "S-100 immunohistochemistry on a lymph node shows a sheet of large lesional cells with abundant cytoplasm and oval, grooved nuclei displaying moderate to strong nuclear and cytoplasmic staining, sharply demarcated from S-100-negative small lymphocytes. Scattered single positive cells extend into the adjacent lymphoid tissue. S-100 positivity supports a dendritic/Langerhans cell phenotype and, together with CD1a and langerin, is consistent with Langerhans cell histiocytosis.",
+  "ddx": [
+    {"dx": "Rosai-Dorfman disease", "vs": "Rosai-Dorfman histiocytes are also strongly S-100 positive, but they are much larger with emperipolesis and are CD1a/langerin negative."},
+    {"dx": "Interdigitating dendritic cell sarcoma", "vs": "IDC sarcoma is S-100 positive but CD1a and langerin negative, with spindle-to-ovoid cells in a paracortical distribution."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma is S-100 positive but also SOX10, Melan-A and HMB-45 positive, and CD1a/langerin negative."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: S-100",
+  "match": "consistent",
+  "high_yield": false
+}

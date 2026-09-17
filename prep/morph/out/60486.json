@@ -1,0 +1,21 @@
+{
+  "id": "60486",
+  "recognize_zh": "大型不典型細胞片狀排列，只有部分細胞呈膜性／細胞質 CD5 棕色陽性，許多大型腫瘤細胞為陰性；ALK 陽性間變性大細胞淋巴瘤常丟失多種 T 細胞抗原，CD5 部分表現即屬此現象。",
+  "features": [
+    "Sheet of medium-to-large atypical cells with vesicular, irregular nuclei",
+    "Heterogeneous CD5 staining: a subset of large cells shows membranous and cytoplasmic positivity",
+    "Many large neoplastic cells are CD5 negative, indicating partial loss of a pan-T-cell antigen",
+    "Some positive cells have abundant cytoplasm with perinuclear/Golgi accentuation",
+    "No background of uniformly positive small reactive T cells dominating the field"
+  ],
+  "describe_en": "Immunohistochemical stain for CD5 on a diffuse infiltrate of large atypical lymphoid cells shows positivity in only a subset of the neoplastic cells, with membranous and cytoplasmic staining, while many large cells are negative. This heterogeneous expression reflects the frequent loss of pan-T-cell antigens in this entity. In conjunction with strong CD30 and ALK expression, findings are consistent with anaplastic large cell lymphoma, ALK-positive.",
+  "ddx": [
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "Morphology and CD5 pattern overlap; distinction requires ALK immunostain (negative) and, when relevant, DUSP22/TP63 rearrangement testing."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with CD30 expression", "vs": "PTCL-NOS shows heterogeneous rather than uniform strong CD30, lacks ALK, and usually retains more T-cell antigens."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are scattered in a mixed inflammatory background, express PAX5 (weak) and CD15, and lack T-cell antigens and ALK."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD5",
+  "match": "consistent",
+  "high_yield": false
+}

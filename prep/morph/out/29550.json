@@ -1,0 +1,22 @@
+{
+  "id": "29550",
+  "recognize_zh": "採血管內整管血液呈暗紅漆色、無清澈血漿層（A）；抹片中紅血球幾乎只剩淡色空殼（ghost cells），僅見少數白血球，其中嗜中性球含大空泡、可能為吞噬的紅血球殘骸（B、C），這種近乎完全的血管內溶血在敗血症（如產氣莢膜梭菌）應優先懷疑。",
+  "features": [
+    "Panel A: blood collection tube with uniformly dark red, lacquered-appearing blood without a clear plasma layer",
+    "Panels B-C: near-complete loss of intact red cells, leaving only faint pale red cell ghosts",
+    "Neutrophil with multiple clear cytoplasmic vacuoles, possibly containing ingested red cell remnants",
+    "Scattered small dark basophilic clumps of platelets or possible bacterial aggregates in the background",
+    "Degenerating leukocyte with vacuolated cytoplasm in panel C"
+  ],
+  "describe_en": "Composite figure. The blood tube (A) shows diffusely dark, lacquered blood consistent with massive hemolysis. The peripheral smear (B, C; Wright-Giemsa) is strikingly devoid of intact red cells, showing only faint red cell ghosts, with a few leukocytes including a neutrophil with prominent cytoplasmic vacuoles that may contain phagocytosed red cell remnants; definitive erythrophagocytosis is difficult to confirm at this magnification. Small dark basophilic clumps are present and could represent platelets or bacteria. Findings are consistent with fulminant intravascular hemolysis in severe sepsis, a pattern classically associated with Clostridium perfringens alpha-toxin, and warrant urgent blood cultures and Gram stain review.",
+  "ddx": [
+    {"dx": "In vitro hemolysis / sample artifact", "vs": "Artifactual hemolysis from traumatic draw or delayed processing does not remove nearly all red cells from the smear or cause neutrophil phagocytosis, and a repeat sample is normal."},
+    {"dx": "Acute hemolytic transfusion reaction (ABO incompatibility)", "vs": "It follows transfusion with a positive direct antiglobulin test, often with agglutination and spherocytes rather than ghosts with bacteria."},
+    {"dx": "Severe malaria (blackwater fever)", "vs": "Plasmodium falciparum shows intraerythrocytic ring forms or gametocytes in residual red cells."},
+    {"dx": "Paroxysmal cold hemoglobinuria or cold agglutinin disease", "vs": "These show red cell agglutination or erythrophagocytosis by neutrophils with a positive Donath-Landsteiner test or complement-positive DAT, without sepsis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; gross tube photo",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "4211",
+  "recognize_zh": "幾乎每個紅血球都有細小環狀體（ring form），不少紅血球含多個環狀體或貼邊的 appliqué 型，中央還有一個香蕉形配子體（crescent gametocyte），紅血球大小不變，為高寄生率的惡性瘧（Plasmodium falciparum）。",
+  "features": [
+    "Very high parasitemia: a large proportion of RBCs contain delicate ring forms",
+    "Multiple rings within single RBCs and rings with double chromatin dots",
+    "Accolé/appliqué forms at the RBC margin",
+    "Crescent (banana-shaped) gametocyte with dark pigment in the center of the field",
+    "Infected RBCs are not enlarged and lack Schüffner stippling; no mature trophozoites or schizonts seen",
+    "Scattered platelets and a single neutrophil; occasional crenated RBCs"
+  ],
+  "describe_en": "Peripheral blood thin smear shows an extremely high parasite burden, with numerous small delicate ring forms involving a large proportion of red cells. Many red cells harbor multiple rings, some with double chromatin dots, and appliqué forms are present at the cell margins. A crescent-shaped gametocyte is seen in the center of the field. Infected red cells are normal in size without Schüffner dots, and late trophozoites and schizonts are not identified. Findings are diagnostic of Plasmodium falciparum malaria with hyperparasitemia (severe malaria); parasitemia should be quantified urgently.",
+  "ddx": [
+    {"dx": "Babesia spp.", "vs": "Babesia forms pleomorphic rings and tetrad (Maltese cross) forms without pigment or gametocytes, whereas a crescent gametocyte here is specific for P. falciparum."},
+    {"dx": "Plasmodium vivax/ovale", "vs": "These enlarge infected RBCs, show Schüffner stippling and all stages in blood, with round rather than crescent gametocytes."},
+    {"dx": "Plasmodium knowlesi / malariae", "vs": "P. knowlesi rings mimic falciparum but mature band forms and schizonts appear in blood and gametocytes are round; P. malariae has band forms and low parasitemia."},
+    {"dx": "Platelets overlying RBCs", "vs": "Overlying platelets lack a ring of blue cytoplasm with a discrete red chromatin dot and are not seen in so many cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

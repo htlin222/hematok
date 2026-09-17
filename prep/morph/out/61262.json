@@ -1,0 +1,22 @@
+{
+  "id": "61262",
+  "recognize_zh": "箭頭處是一團黏聚的大型細胞，共享大片深藍色細胞質、界線不清，核大而圓、染色質細緻並有多個明顯核仁，細胞比周邊的造血細胞大得多，左下另有一顆含細胞質空泡的細胞；這種黏聚成團、核仁明顯的非造血細胞，是骨髓轉移性腺癌。",
+  "features": [
+    "Cohesive cluster of large non-hematopoietic cells with indistinct borders (arrow)",
+    "Large round to oval nuclei with finely granular chromatin and multiple conspicuous nucleoli",
+    "Moderate to abundant basophilic, somewhat foamy cytoplasm",
+    "Single detached cell at lower left with a large cytoplasmic vacuole indenting the nucleus (possible mucin/signet-ring-like vacuole)",
+    "Background red cells, scattered platelets and stain precipitate; eyepiece photograph with blue-green cast"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of large cells with indistinct cell borders, abundant basophilic cytoplasm and large round nuclei with fine chromatin and multiple prominent nucleoli. A nearby single cell contains a large cytoplasmic vacuole that indents the nucleus. These cells are morphologically distinct from hematopoietic elements. Findings are consistent with metastatic adenocarcinoma involving the bone marrow; trephine biopsy with immunohistochemistry is needed to confirm epithelial origin and suggest a primary site.",
+  "ddx": [
+    {"dx": "Osteoblasts", "vs": "Osteoblasts have small nucleoli, uniform eccentric nuclei and a Golgi zone away from the nucleus, without prominent multiple nucleoli or vacuoles."},
+    {"dx": "Plasmablastic myeloma or plasmablastic lymphoma", "vs": "Cells are discohesive with eccentric nuclei and perinuclear hof and are CD138/MUM1 positive and keratin negative."},
+    {"dx": "Metastatic melanoma", "vs": "May show prominent nucleoli but often contains fine melanin pigment and is S100/SOX10/HMB45 positive rather than keratin positive."},
+    {"dx": "Acute megakaryoblastic leukemia or erythroid clusters", "vs": "Blast clusters have scant cytoplasm with blebs or deep blue rims and express CD61 or E-cadherin/CD71 rather than cytokeratin."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

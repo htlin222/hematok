@@ -1,0 +1,22 @@
+{
+  "id": "65814",
+  "recognize_zh": "周邊血液抹片白血球極度增加，同一視野就看到從前骨髓細胞、骨髓細胞、後骨髓細胞、帶狀核到分節嗜中性球的完整成熟階段（「骨髓樣」血液），且原始細胞不多、血小板偏多，這是 CML 慢性期的典型表現。",
+  "features": [
+    "Marked leukocytosis with virtually no gaps between white cells and red cells",
+    "Full spectrum of granulocytic maturation: promyelocytes, numerous myelocytes, metamyelocytes, bands and segmented neutrophils",
+    "Myelocyte and neutrophil peak (myelocyte bulge) without a significant blast population in this field",
+    "Immature cells with round to indented nuclei, moderately condensed chromatin and lilac granular cytoplasm; no dysplastic hypogranulation",
+    "Numerous platelets in the background; red cells normocytic with central pallor"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed of granulocytes at all stages of maturation. Myelocytes, metamyelocytes, bands and segmented neutrophils predominate, with occasional promyelocytes; blasts are not increased in this field and granulocytes show no significant dysplasia. Platelets appear increased and red cells are normocytic and normochromic. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, chronic phase, in the appropriate molecular context.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "A leukemoid reaction shows toxic granulation and Dohle bodies with a left shift dominated by bands and metamyelocytes, fewer myelocytes, no basophilia, and a high LAP score."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML shows prominent granulocytic dysplasia (hypogranulation, pseudo-Pelger nuclei) and lacks basophilia, whereas maturation here is orderly."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL consists predominantly of mature segmented neutrophils with immature granulocytes under 10%, unlike the myelocyte-rich picture here."},
+    {"dx": "Leukoerythroblastic reaction (marrow infiltration or fibrosis)", "vs": "Leukoerythroblastosis includes nucleated red cells and teardrop cells with a lower white count."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

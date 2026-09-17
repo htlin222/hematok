@@ -1,0 +1,21 @@
+{
+  "id": "3581",
+  "recognize_zh": "骨髓切片免疫組織化學染色中，脂肪為主的骨髓內有一團緻密、棕色陽性的紡錘形細胞聚集，另有散在沿脂肪細胞邊緣的陽性細胞；緻密的紡錘形肥大細胞聚集（≥15 顆）即為系統性肥大細胞症的主要診斷準則。",
+  "features": [
+    "Compact interstitial aggregate of strongly positive (brown) spindle-shaped cells",
+    "Additional smaller positive clusters and single cells lining adipocytes",
+    "Background of predominantly fatty marrow with residual negative hematopoietic cells",
+    "Positive cells show granular cytoplasmic staining pattern",
+    "Antigen not labeled; pattern fits a mast cell marker such as tryptase or CD117"
+  ],
+  "describe_en": "Immunohistochemical stain of a bone marrow trephine biopsy shows a largely fatty marrow with a compact interstitial aggregate of strongly staining, spindle-shaped cells, accompanied by smaller clusters and scattered positive cells along adipocyte borders. Surrounding hematopoietic cells are negative. The antigen is not labeled, but the pattern is typical of a mast cell marker such as tryptase or CD117. Findings are consistent with multifocal dense mast cell infiltrates of systemic mastocytosis; CD25/CD2 and KIT D816V testing and serum tryptase support the diagnosis and classification.",
+  "ddx": [
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are scattered, round, and interstitial without compact aggregates of 15 or more spindle cells and are CD25-negative."},
+    {"dx": "Myeloid neoplasm with eosinophilia and PDGFRA rearrangement", "vs": "May show spindle mast cells but with marked eosinophilia and FIP1L1::PDGFRA, typically lacking KIT D816V."},
+    {"dx": "Marrow fibroblast or histiocytic aggregate", "vs": "Fibroblasts and histiocytes are tryptase-negative, with histiocytes CD68/CD163-positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: mast cell marker (tryptase/CD117, unlabeled)",
+  "match": "consistent",
+  "high_yield": true
+}

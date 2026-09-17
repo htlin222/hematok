@@ -1,0 +1,38 @@
+{
+  "id": "118",
+  "recognize_zh": "流式細胞圖中 FLAER/CD24 雙陰性的顆粒球占 97%、FLAER/CD14 雙陰性的單核球占 94.5%，紅血球 CD59 出現完全缺失（type III 40.4%）族群，這是 GPI 錨定蛋白缺失的大型 PNH clone；骨髓則呈紅血球系增生，符合溶血。",
+  "features": [
+    "Flow: granulocytes gated on SSC vs CD15 show 97.03% FLAER-negative/CD24-negative PNH cells",
+    "Flow: monocytes gated on SSC vs CD64 show 94.54% FLAER-negative/CD14-negative PNH cells",
+    "Flow: red cells show CD59 type I 57.66%, type II 1.93% and type III (complete deficiency) 40.42%",
+    "Bone marrow aspirate and biopsy: hypercellular with marked erythroid hyperplasia, including clusters of erythroid precursors with open chromatin and mitoses; megakaryocytes present",
+    "CD34 IHC highlights vessels only, with rare positive cells and no increase in blasts",
+    "Peripheral blood: polychromatophilic macrocytes, occasional spherocytes and small red cell clumps (arrows) on a low-power smear"
+  ],
+  "describe_en": "High-sensitivity flow cytometry demonstrates a large PNH clone: 97.03% of gated granulocytes lack FLAER and CD24, 94.54% of gated monocytes lack FLAER and CD14, and red cells show 40.42% type III (complete CD59 loss) and 1.93% type II (partial loss) populations. The lower red cell clone size relative to granulocytes is expected with ongoing hemolysis of complement-sensitive type III cells and/or transfusion. The bone marrow aspirate and core biopsy are hypercellular with marked erythroid hyperplasia and preserved megakaryocytes; CD34 immunostain highlights vessels without increased blasts. The peripheral blood smear shows polychromasia and red cell anisocytosis with small red cell clumps. Findings are consistent with paroxysmal nocturnal hemoglobinuria with a large clone; morphology alone is nonspecific and the diagnosis rests on the flow cytometric GPI-anchor deficiency.",
+  "ddx": [
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "AIHA shows spherocytes and DAT positivity but granulocytes and monocytes retain FLAER and GPI-linked antigens, and red cells lack a CD59 type III population."},
+    {"dx": "Aplastic anemia with a small PNH clone", "vs": "Aplastic anemia shows a hypocellular marrow with a small (often <10%) GPI-deficient population, whereas this marrow is hypercellular with erythroid hyperplasia and a clone >90% of granulocytes."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS may show erythroid hyperplasia but with dysplasia and cytogenetic abnormalities; GPI-deficient clones are small or absent."},
+    {"dx": "Congenital CD59 deficiency or CD55 (Inab) deficiency", "vs": "Isolated inherited deficiency affects a single antigen on all cells, whereas PNH shows loss of multiple GPI-linked proteins and FLAER binding in a clonal subset of cells."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow (FLAER/CD24/CD14/CD59), Wright-Giemsa, H&E, IHC: CD34",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Flow: SSC vs CD64 gating of granulocytes, lymphocytes and monocytes",
+    "Bone marrow aspirate: erythroid hyperplasia with numerous erythroid precursors and mixed myeloid cells",
+    "Bone marrow aspirate: erythroid precursors, platelet clumps and scattered myeloid cells",
+    "Flow: SSC vs CD15 gating of granulocytes, monocytes and lymphocytes",
+    "Flow: granulocytes, 97.03% FLAER-negative/CD24-negative PNH clone (arrow)",
+    "Flow: monocytes, 94.54% FLAER-negative/CD14-negative PNH clone (arrow)",
+    "Flow: FS vs SS gating of red blood cells",
+    "Flow: red cell CD59 expression, type I 57.66%, type II 1.93%, type III 40.42%",
+    "Peripheral blood, low power: small red cell clumps (arrows) with few leukocytes",
+    "Peripheral blood, high power: polychromatophilic macrocytes, anisocytosis and occasional spherocytes",
+    "Bone marrow biopsy H&E: hypercellular marrow with erythroid hyperplasia (arrow) adjacent to trabecular bone",
+    "Bone marrow biopsy H&E, high power: erythroid precursor clusters with mitoses and megakaryocytes",
+    "CD34 IHC: vessels highlighted, rare positive cell (arrow), no increase in blasts"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62208",
+  "recognize_zh": "這是一張流式細胞儀的百分比表格（panel B）：CD19 94%、CD20 93%、CD22 95%、CD5 77%、CD23 67%，而 FMC7 僅 4%、CD10 <1%，呈現 CD5+/CD23+/FMC7− 的 B 細胞表型，符合 CLL。",
+  "features": [
+    "Tabulated flow cytometry results (percent positive) for lymphoid, myeloid and other markers",
+    "B-cell markers high: CD19 94%, CD20 93%, CD22 95%, HLA-DR 95%, CD45 95%",
+    "Aberrant CD5 co-expression 77% with CD23 67%",
+    "FMC7 4%, CD10 <1%, CD25 2%, CD33 2%; CD11c 23%",
+    "No T-cell, myeloid or immaturity markers (CD34, TdT) reported as positive"
+  ],
+  "describe_en": "This figure is a tabulated flow cytometry report rather than a morphologic image. The gated population is predominantly B cells (CD19 94%, CD20 93%, CD22 95%, HLA-DR 95%) with co-expression of CD5 (77%) and CD23 (67%), while FMC7 (4%), CD10 (<1%) and CD25 (2%) are essentially negative and CD11c is partially expressed (23%). Immaturity markers are not reported as positive. This CD5+/CD23+/FMC7-negative/CD10-negative B-cell phenotype is consistent with chronic lymphocytic leukemia; light-chain restriction and antigen intensity (dim CD20, dim surface immunoglobulin) are not shown in this table and would strengthen the interpretation.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma is CD5-positive but usually CD23-negative and FMC7-positive with bright CD20, and requires cyclin D1/SOX11 or t(11;14) confirmation."},
+    {"dx": "B-prolymphocytic leukemia", "vs": "B-PLL is typically CD5-weak/negative, CD23-negative and FMC7-bright, in contrast to the CD5+/CD23+/FMC7-negative profile shown."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cell leukemia is CD11c/CD25/CD103-bright and CD5/CD23-negative, whereas here CD25 is 2% and CD5/CD23 are positive."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

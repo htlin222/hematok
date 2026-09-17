@@ -1,0 +1,22 @@
+{
+  "id": "63863",
+  "recognize_zh": "整個視野布滿大小不一、圓形、被染成橘紅色的油滴，背景為淡紫色細顆粒，比例尺 50 µm；Oil Red O 陽性代表這些是中性脂質（VLDL/乳糜微粒），對應乳白色的高三酸甘油脂血漿。",
+  "features": [
+    "Innumerable round, refractile droplets stained orange-red by Oil Red O",
+    "Marked size variation from fine dust-like droplets to globules roughly 10-15 um (50 um scale bar)",
+    "Droplets are free and evenly dispersed, not contained within cells",
+    "Pale lilac finely granular background from the counterstain with no cellular elements identified",
+    "No crystalline (cholesterol plate) structures present"
+  ],
+  "describe_en": "Oil Red O preparation of a lipemic fluid sample shows innumerable free, round lipid droplets of variable size, ranging from fine dust-like particles to globules of roughly 10-15 um, dispersed evenly over a pale granular background. The droplets stain orange-red, indicating neutral lipid (triglyceride-rich particles). No cells or cholesterol crystals are identified. Findings are consistent with triglyceride-rich lipoprotein particles (chylomicrons/VLDL) accounting for a milky, lactescent specimen, correlating with marked hypertriglyceridemia.",
+  "ddx": [
+    {"dx": "Pseudochylous (cholesterol-rich) effusion", "vs": "Pseudochylous fluid contains notched rhomboid cholesterol crystals and high cholesterol with low triglycerides rather than Oil Red O-positive triglyceride droplets."},
+    {"dx": "Lipid-laden macrophages (e.g. lipoid pneumonia or fat embolism)", "vs": "In those settings the lipid is intracellular within foamy macrophages rather than free extracellular droplets."},
+    {"dx": "Propofol or parenteral lipid emulsion contamination", "vs": "Infused lipid emulsions produce similar Oil Red O-positive droplets, so infusion history and repeat sampling are needed to separate them from endogenous lipemia."},
+    {"dx": "Air bubbles or starch/talc artifact", "vs": "Bubbles and starch are unstained by Oil Red O, and starch shows a Maltese-cross pattern under polarized light."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Oil Red O",
+  "match": "consistent",
+  "high_yield": false
+}

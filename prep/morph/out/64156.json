@@ -1,0 +1,23 @@
+{
+  "id": "64156",
+  "recognize_zh": "周邊血液中一群中等大小的母細胞，核質比高、染色質細緻、部分核有凹陷或摺痕，只有少量藍色細胞質（其中一顆帶小空泡），且未見 Auer 小體；這種形態符合淋巴母細胞，需以流式細胞儀確認 T 細胞系（T-ALL）。",
+  "features": [
+    "Medium-sized blasts, roughly 1.5-2 times red cell diameter",
+    "High N:C ratio with scant basophilic cytoplasm",
+    "Finely dispersed to slightly stippled chromatin; nucleoli inconspicuous",
+    "Nuclear indentations and folded/convoluted contours in several blasts",
+    "Occasional small cytoplasmic vacuoles; no Auer rods or granules",
+    "Background red cells in thick area; strong blue color cast of the image"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of medium-sized blasts with high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, inconspicuous nucleoli, and scant basophilic agranular cytoplasm. Several blasts show nuclear indentation or convolution, and one contains small cytoplasmic vacuoles; Auer rods are not identified. The image has a blue color cast, which limits assessment of cytoplasmic tint. Findings are consistent with lymphoblasts; flow cytometry demonstrating cytoplasmic CD3 and TdT is needed to confirm T-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are morphologically indistinguishable; lineage requires flow cytometry (CD19/CD79a/CD22 versus cytoplasmic CD3)."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML blasts may have Auer rods, granules, or more cytoplasm and are MPO/CD13/CD33/CD117-positive, but morphology alone cannot exclude AML-M0."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with numerous prominent vacuoles and are TdT-negative with MYC rearrangement."},
+    {"dx": "Leukemic phase of mantle cell lymphoma (blastoid)", "vs": "Blastoid MCL cells are TdT-negative mature B cells with cyclin D1 expression."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

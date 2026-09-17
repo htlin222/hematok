@@ -1,0 +1,21 @@
+{
+  "id": "3025",
+  "recognize_zh": "骨髓抹片中一顆大型巨核細胞，有兩個圓形核、胞質淡灰藍帶細顆粒，胞質邊緣與下方拖出成串的紫色小顆粒團（成形中的血小板），示範巨核細胞釋放血小板（platelet formation）的樣子。",
+  "features": [
+    "Large megakaryocyte with abundant pale gray-blue finely granular cytoplasm and irregular, ruffled border",
+    "Two large round-to-oval nuclear lobes with moderately condensed chromatin and small pale areas",
+    "Clusters of purple granular platelet fragments budding from the upper margin and streaming from the lower pole of the cytoplasm",
+    "Adjacent segmented neutrophil and surrounding erythrocytes for size comparison"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large megakaryocyte with abundant finely granular pale gray-blue cytoplasm and two round-to-oval nuclear lobes. Aggregates of granular platelet material are budding from the cytoplasmic margin and extend as a trailing stream from one pole, consistent with active platelet release (thrombopoiesis). A mature neutrophil and erythrocytes are nearby for scale. No dysplastic micromegakaryocytic features are present, although the separated nuclear lobes should not be over-interpreted from a single cell. Findings are consistent with a mature megakaryocyte undergoing platelet formation.",
+  "ddx": [
+    {"dx": "Dysplastic megakaryocyte with separated nuclear lobes (MDS)", "vs": "Dysplasia is assessed on many megakaryocytes and shows multiple widely separated small round lobes or hypolobated micromegakaryocytes, not a single cell actively shedding platelets."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts have multiple (often many) separate uniform nuclei and cytoplasm with coarse azurophilic granules, without platelet budding."},
+    {"dx": "Histiocyte with phagocytosed platelets", "vs": "Histiocytes have a single smaller nucleus and ingested platelets within vacuoles, rather than platelets emerging from the cytoplasmic periphery."},
+    {"dx": "Platelet satellitism/clumping artifact", "vs": "Artifactual clumps lie free or around neutrophils without continuity with megakaryocyte cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

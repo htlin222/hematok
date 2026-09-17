@@ -1,0 +1,28 @@
+{
+  "id": "123",
+  "recognize_zh": "骨髓形態只見細胞量增加、紅血球系與三系造血皆存在，並無特異性；真正定診的線索是 Sanger 定序圖中 VHL c.598 位置由 C 變成單一 T 峰（同型合子 c.598C>T），PCR-RFLP 膠片中亦有一條與其他樣本不同的 268 bp 條帶。",
+  "features": [
+    "Aspirate smear with densely packed red cells in the background, reflecting high hematocrit",
+    "Cellular marrow particles and a hypercellular trephine with trilineage hematopoiesis and megakaryocytes",
+    "Clusters of basophilic and polychromatic erythroblasts without obvious dysplasia",
+    "No morphologic feature on these images that separates congenital from acquired erythrocytosis",
+    "Sanger chromatogram: wild-type C peak (upper) versus single homozygous T peak (lower) at VHL c.598",
+    "PCR-RFLP gel: one lane with a 268 bp undigested band; other lanes show 187 bp (and faint 81 bp) digested fragments"
+  ],
+  "describe_en": "The bone marrow aspirate smear shows a densely packed red cell background, cellular particles, and erythroid precursors in clusters admixed with maturing granulocytic cells; no significant dysplasia is evident. The trephine biopsy (H&E) is hypercellular for age with trilineage hematopoiesis and scattered megakaryocytes, without clustering or atypia recognizable at this magnification. Sanger sequencing shows a single T peak at the position occupied by C in the reference trace, indicating homozygous VHL c.598C>T (p.Arg200Trp), and the PCR-RFLP gel shows one sample with an altered restriction pattern (268 bp band) distinct from the digested 187/81 bp pattern of the others. In the setting of erythrocytosis with normal-range erythropoietin and negative family history, findings are consistent with Chuvash polycythemia; the marrow morphology itself is nonspecific.",
+  "ddx": [
+    {"dx": "Polycythemia vera", "vs": "Marrow shows panmyelosis with pleomorphic, clustered megakaryocytes and low serum erythropoietin with JAK2 V617F/exon 12 mutation, whereas Chuvash polycythemia is JAK2-negative with normal-to-high EPO and VHL p.Arg200Trp."},
+    {"dx": "Secondary erythrocytosis (hypoxia, smoking, EPO-secreting tumor)", "vs": "Morphology is similarly nonspecific; distinguished by low oxygen saturation, carboxyhemoglobin or elevated EPO from a tumor rather than a germline VHL variant."},
+    {"dx": "High oxygen-affinity hemoglobin variant", "vs": "Shows a low p50 and often an abnormal HPLC/electrophoresis pattern, whereas HPLC was normal here."},
+    {"dx": "Other congenital erythrocytosis (EPOR, EGLN1, EPAS1)", "vs": "Morphologically identical; separated only by gene sequencing and EPO level (low in EPOR mutation)."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E; Sanger sequencing; PCR-RFLP",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Bone marrow composite: aspirate cells (A, C), cellular particle (B) and hypercellular trephine (D)",
+    "Sanger sequencing: reference C (top) versus homozygous T (bottom) at VHL c.598",
+    "PCR-RFLP agarose gel: 268 bp undigested band in one lane versus 187/81 bp digested fragments"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "4095",
+  "recognize_zh": "周邊血液中出現三顆漿細胞：核偏心、染色質粗塊、細胞質藍色並有核旁淡染區；背景紅血球呈疊錢狀（rouleaux）排列，提示漿細胞白血病或骨髓瘤白血病期。",
+  "features": [
+    "Three circulating plasma cells with eccentric round nuclei and coarse clumped chromatin",
+    "Moderate amount of basophilic cytoplasm with perinuclear hof",
+    "One small mature lymphocyte for size comparison (upper field)",
+    "Red cells stacked in short chains consistent with rouleaux formation",
+    "No blasts or nucleated red cells in field"
+  ],
+  "describe_en": "Peripheral blood smear shows three circulating plasma cells with eccentric nuclei, coarsely clumped chromatin, perinuclear hofs, and moderate basophilic cytoplasm, along with a small mature lymphocyte. The background red cells display rouleaux formation, reflecting elevated serum paraprotein. Circulating clonal plasma cells at a frequency of at least 5% of leukocytes define plasma cell leukemia in current criteria. Findings are consistent with the leukemic phase of plasma cell myeloma (plasma cell leukemia); a manual differential and flow cytometric quantitation of clonal plasma cells are recommended.",
+  "ddx": [
+    {"dx": "Reactive circulating plasma cells (e.g., viral infection, sepsis)", "vs": "Reactive plasmacytosis in blood is transient, polytypic, and usually lacks rouleaux and marrow myeloma."},
+    {"dx": "Reactive/atypical lymphocytes", "vs": "Reactive lymphocytes have central nuclei with cytoplasm hugging adjacent red cells and lack a perinuclear hof."},
+    {"dx": "Lymphoplasmacytic lymphoma in blood", "vs": "Shows a continuum of small lymphocytes and plasmacytoid lymphocytes with CD19/CD20 expression and IgM paraprotein."},
+    {"dx": "Leukemic phase of marginal zone lymphoma", "vs": "Cells are villous lymphocytes with polar cytoplasmic projections and CD20 positivity rather than hof-bearing plasma cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

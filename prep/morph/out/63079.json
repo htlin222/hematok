@@ -1,0 +1,21 @@
+{
+  "id": "63079",
+  "recognize_zh": "EMA 免疫染色中，一片小淋巴球背景裡只有兩顆大型細胞呈細胞膜及細胞質棕色陽性，另有少數大細胞淡染；背景小淋巴球皆為陰性，這種散在的 EMA 陽性大細胞符合 NLPHL 的 LP 細胞（popcorn cells）。",
+  "features": [
+    "Immunohistochemical stain for EMA at high power",
+    "Two large cells with membranous and cytoplasmic brown EMA staining and vesicular nuclei (upper center)",
+    "A few other large cells show faint, weak EMA staining",
+    "Background small lymphocytes with round dark nuclei are EMA-negative",
+    "Diffuse sheets of small lymphocytes without sheets of large cells"
+  ],
+  "describe_en": "Immunohistochemical stain for EMA shows scattered large cells with membranous and cytoplasmic positivity, including two strongly stained cells, while a few additional large cells show weak staining. The background small lymphocytes are negative. EMA expression is seen in a subset of cases of nodular lymphocyte predominant Hodgkin lymphoma and supports the identity of these large cells as LP (lymphocyte predominant) cells. Findings are consistent with nodular lymphocyte predominant Hodgkin lymphoma in the appropriate morphologic and immunophenotypic context (CD20+, CD45+, CD30-, CD15-).",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are generally EMA-negative and CD30/CD15-positive with weak PAX5, whereas LP cells are EMA-positive in a subset with strong CD20, OCT2 and BOB1."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Neoplastic cells may be EMA-positive and similar in appearance, but they lie in a diffuse T-cell and histiocyte-rich background lacking nodules with follicular dendritic meshworks and small B cells."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL cells are often EMA-positive but form cohesive clusters with strong uniform CD30 and T-cell/ALK expression, unlike CD30-negative LP cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: EMA",
+  "match": "consistent",
+  "high_yield": false
+}

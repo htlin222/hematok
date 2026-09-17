@@ -1,0 +1,22 @@
+{
+  "id": "64222",
+  "recognize_zh": "這是非形態學的血清蛋白毛細管電泳圖：gamma 區出現一個窄而高的尖峰（陰影標示 M Band，2.68 g/dL、占 28.8%），總蛋白 9.31 g/dL、白蛋白偏低，提示單株免疫球蛋白（M 蛋白）。",
+  "features": [
+    "Sebia capillary electrophoresis tracing with a tall, narrow, symmetric spike in the gamma region (shaded, labeled M Band)",
+    "M band quantified at 28.8% of total protein, 2.68 g/dL",
+    "Total protein 9.31 g/dL; albumin decreased at 3.90 g/dL; A/G ratio 0.72",
+    "Gamma fraction increased at 3.41 g/dL; alpha-2 and beta-1 mildly increased",
+    "Residual background gamma globulin present on either side of the spike"
+  ],
+  "describe_en": "This is a non-morphologic serum protein capillary electrophoresis report. The tracing shows a discrete, narrow, homogeneous peak in the gamma region quantified as an M band of 2.68 g/dL (28.8%), with total protein elevated at 9.31 g/dL, gamma fraction increased at 3.41 g/dL, mildly decreased albumin, and an inverted A/G ratio of 0.72. Findings are consistent with a monoclonal protein; immunofixation is required to determine heavy and light chain type (for example IgM lambda in lymphoplasmacytic lymphoma).",
+  "ddx": [
+    {"dx": "Polyclonal hypergammaglobulinemia", "vs": "Chronic inflammation, liver disease, or HIV produce a broad-based, diffuse gamma elevation rather than a narrow discrete spike."},
+    {"dx": "Plasma cell myeloma (IgG or IgA)", "vs": "Electrophoresis cannot assign isotype; immunofixation showing IgG or IgA rather than IgM, plus marrow clonal plasma cells and CRAB features, distinguishes myeloma."},
+    {"dx": "Monoclonal gammopathy of undetermined significance", "vs": "MGUS has an M protein below 3 g/dL without end-organ damage and less than 10% clonal marrow plasma cells or lymphoplasmacytic infiltrate, so marrow evaluation separates it."},
+    {"dx": "Pseudo-paraprotein artifact (fibrinogen in plasma, hemolysis, contrast)", "vs": "Fibrinogen from an unclotted sample migrates between beta and gamma and is negative on immunofixation."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

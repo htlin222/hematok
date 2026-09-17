@@ -1,0 +1,22 @@
+{
+  "id": "1821",
+  "recognize_zh": "同一視野中可見黑色箭頭的芽細胞（核圓、染色質細緻、細胞質少量藍色），以及紅色與藍色箭頭所指的異常嗜中性球：核葉排列異常、呈多個分離小葉，且細胞質顆粒偏少，這種芽細胞增加合併顆粒球發育不良的組合，指向伴多系發育不良的 AML。",
+  "features": [
+    "Black arrow: blast with round nucleus, fine chromatin and a thin rim of basophilic agranular cytoplasm",
+    "Red arrow: dysplastic neutrophil with abnormally clumped, irregularly segmented nucleus and pale, hypogranular cytoplasm",
+    "Blue arrow: neutrophil with multiple small, separated nuclear lobes (abnormal hypersegmentation/nuclear fragmentation) and pale cytoplasm",
+    "Additional immature cells with fine chromatin and moderate blue cytoplasm (upper right, left edge)",
+    "Adjacent normally granulated neutrophil for comparison"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows increased blasts (black arrow) with round nuclei, fine chromatin and scant to moderate basophilic agranular cytoplasm. Dysgranulopoiesis is present, including a hypogranular neutrophil with abnormal nuclear segmentation (red arrow) and a neutrophil with multiple small separated nuclear lobes (blue arrow), in contrast to an adjacent normally granulated neutrophil. Dysplasia in the erythroid and megakaryocytic lineages cannot be assessed in this field. Findings are consistent with acute myeloid leukemia with myelodysplasia-related changes (formerly AML with multilineage dysplasia), provided blasts are at least 20% and dysplasia involves at least 50% of cells in two or more lineages.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "Shows identical dysplasia but blasts are below 20% of marrow nucleated cells."},
+    {"dx": "AML with NPM1 mutation", "vs": "May show multilineage dysplasia, but NPM1 mutation takes precedence and the case is classified by the genetic lesion."},
+    {"dx": "Acute myeloid leukemia with maturation", "vs": "Lacks significant dysplasia in at least 50% of cells of two lineages and lacks MDS-defining cytogenetic abnormalities or history."},
+    {"dx": "Therapy-related or megaloblastic dysplasia", "vs": "Megaloblastic change produces large hypersegmented neutrophils with normal granules and no blast excess, and reverses with B12/folate; therapy-related myeloid neoplasms require a history of cytotoxic therapy."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

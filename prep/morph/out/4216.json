@@ -1,0 +1,21 @@
+{
+  "id": "4216",
+  "recognize_zh": "淋巴結免疫染色中，絕大多數淋巴樣細胞呈強烈的細胞核棕色陽性，瀰漫分布；圖上未標示抗體，若為 FOXP3 或高 Ki-67 則支持 ATLL 的腫瘤性 T 細胞浸潤。",
+  "features": [
+    "Diffuse nuclear immunoreactivity in the majority of lymphoid cells",
+    "Strong, crisp brown nuclear staining with little cytoplasmic signal",
+    "Negative cells include endothelial and stromal cells along vessels",
+    "Diffuse architecture without follicular compartmentalization",
+    "Specific antibody not identified in the image"
+  ],
+  "describe_en": "Immunohistochemical stain of lymph node shows strong nuclear staining in the large majority of the diffusely infiltrating lymphoid cells, with negative stromal and endothelial cells outlining vessels. The antibody is not indicated on the image; a nuclear marker such as FOXP3 or Ki-67 would give this pattern. Interpreted together with morphology and a CD4+/CD25+ phenotype with HTLV-1 positivity, findings support nodal involvement by adult T-cell leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS is usually FOXP3-negative or only focally positive and lacks HTLV-1 integration."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL neoplastic cells express TFH markers (PD1, CXCL13, ICOS) with expanded CD21+ FDC meshworks."},
+    {"dx": "Reactive node with regulatory T cells", "vs": "Reactive nodes show only scattered FOXP3+ cells rather than diffuse sheets."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: nuclear marker (not specified)",
+  "match": "consistent",
+  "high_yield": false
+}

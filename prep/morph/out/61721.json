@@ -1,0 +1,20 @@
+{
+  "id": "61721",
+  "recognize_zh": "這是 blast gate 的 CD34 對 CD19 流式圖：綠色異常芽細胞群 CD34 陰性、CD19 陰性，與右側紅色 CD34 陽性的正常前驅細胞分開，藍色少量為 CD19 陽性 B 細胞；BPDCN 芽細胞典型上不表現 CD34 及 B 細胞標記。",
+  "features": [
+    "Dot plot: CD34-PC7 (x-axis) versus CD19-APC700 (y-axis), gated on blasts",
+    "Abnormal population (green) negative for CD34 and CD19",
+    "Discrete CD34-bright/CD19-negative normal progenitor population (red)",
+    "Small CD19-positive/CD34-negative B-cell cluster (blue) as internal control",
+    "No CD34+/CD19+ hematogone population evident"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD34 versus CD19 gated on blasts shows that the abnormal population (green) is negative for both CD34 and CD19. A separate CD34-bright population of residual normal progenitors (red) and a small CD19-positive mature B-cell cluster (blue) serve as internal controls. The absence of CD34 and B-lineage antigens on the abnormal blasts argues against B-lymphoblastic leukemia and most CD34-positive AMLs. This negative profile is compatible with blastic plasmacytoid dendritic cell neoplasm when combined with CD4, CD56 and CD123 positivity.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are CD19-positive with CD10/CD22/TdT and frequently CD34-positive, unlike this CD19-negative population."},
+    {"dx": "CD34-negative AML (e.g., NPM1-mutated or monocytic)", "vs": "CD34-negative AML still expresses myeloid (CD13/CD33/CD117) or monocytic (CD64/CD14/CD36) markers rather than a CD4+/CD56+/CD123-bright phenotype."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

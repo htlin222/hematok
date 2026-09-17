@@ -1,0 +1,22 @@
+{
+  "id": "2040",
+  "recognize_zh": "一群大型細胞的細胞質充滿粗大紫色顆粒，顆粒甚至蓋在核上；多顆核呈雙葉或摺疊（bilobed），這是顆粒過多型急性前骨髓細胞白血病（APL）的異常前骨髓細胞。",
+  "features": [
+    "Cluster of large cells with abundant cytoplasm",
+    "Dense coarse azurophilic granules overlying and obscuring the nucleus",
+    "Nuclei folded, reniform or bilobed in several cells",
+    "One cell shows a granular tail-like cytoplasm with a sharply demarcated nuclear lobe",
+    "Discrete Auer rod bundles not clearly identified at this resolution",
+    "Red cells with drying artifact and a nucleated/dense small cell in the background"
+  ],
+  "describe_en": "Smear shows a cluster of large abnormal cells with abundant cytoplasm heavily laden with coarse azurophilic granules that obscure the nuclear margins. Nuclei, where discernible, are folded to bilobed. Distinct Auer rod bundles are not resolved in this image. Findings are consistent with abnormal hypergranular promyelocytes of acute promyelocytic leukemia, a hematologic emergency given the risk of DIC.",
+  "ddx": [
+    {"dx": "Reactive left shift with increased promyelocytes", "vs": "Reactive promyelocytes have round nuclei with a perinuclear hof and are accompanied by myelocytes and mature neutrophils, without clustered granule-obscured bilobed cells."},
+    {"dx": "AML with t(8;21)", "vs": "t(8;21) blasts have fewer granules, a prominent hof and single slender Auer rods rather than cells packed with coarse granules and bilobed nuclei."},
+    {"dx": "AML with NPM1 mutation (cup-like blasts)", "vs": "NPM1-mutated AML may show cup-like nuclear invaginations but usually sparse granules; separation from APL rests on PML::RARA testing and HLA-DR/CD34 pattern."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

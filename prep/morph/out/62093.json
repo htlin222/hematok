@@ -1,0 +1,22 @@
+{
+  "id": "62093",
+  "recognize_zh": "A 圖 H&E 骨髓細胞稀少，脂肪細胞縮小，其間被淡粉紅、細顆粒狀的無定形膠狀物質填滿；B 圖 Alcian blue 將此物質染成藍色（富含玻尿酸），C 圖 S100 顯示萎縮的脂肪細胞外膜，符合漿液性脂肪萎縮（膠狀轉化）。",
+  "features": [
+    "A (H&E): hypocellular marrow with small, atrophic adipocytes of variable size",
+    "Intertrabecular spaces filled with pale pink, finely granular amorphous extracellular material",
+    "Residual hematopoietic cells in thin cords between the gelatinous material",
+    "B (Alcian blue, pH 2.5): extracellular material stains blue, indicating acid mucopolysaccharide (hyaluronic acid)",
+    "C (S100): highlights shrunken, irregular atrophic adipocyte membranes"
+  ],
+  "describe_en": "Bone marrow core biopsy (A, H&E) shows a hypocellular marrow in which adipocytes are reduced in size and number and the intertrabecular spaces are occupied by pale pink, finely granular, amorphous extracellular material, with residual hematopoietic cells in thin cords. An Alcian blue stain at pH 2.5 (B) highlights the extracellular material blue, consistent with hyaluronic acid-rich ground substance, and S100 (C) outlines small atrophied adipocytes. There is no evidence of a neoplastic infiltrate in these panels. Findings are consistent with severe serous fat atrophy (gelatinous transformation) of the marrow, typically associated with starvation, anorexia, cachexia, or chronic malabsorption, which in this clinical setting mimics aplastic anemia.",
+  "ddx": [
+    {"dx": "Aplastic anemia", "vs": "Aplastic marrow is replaced by normal-sized mature fat cells without extracellular Alcian blue-positive gelatinous material."},
+    {"dx": "Marrow amyloidosis", "vs": "Amyloid is glassy eosinophilic, often perivascular, Congo red-positive with apple-green birefringence and Alcian blue-negative."},
+    {"dx": "Marrow edema or necrosis", "vs": "Edema is a paler fluid without mucopolysaccharide staining, and necrosis shows ghost cells and nuclear debris."},
+    {"dx": "Myxoid/fibrotic stromal change in myelofibrosis", "vs": "Myelofibrosis shows increased reticulin/collagen and atypical megakaryocytes, whereas reticulin was not increased here."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Alcian blue pH 2.5; IHC: S100",
+  "match": "consistent",
+  "high_yield": true
+}

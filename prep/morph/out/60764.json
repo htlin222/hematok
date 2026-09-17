@@ -1,0 +1,22 @@
+{
+  "id": "60764",
+  "recognize_zh": "周邊血中有大量中至大型淋巴細胞，核圓至卵圓、染色質中度濃縮，可見單一清楚的中央核仁，細胞質中等量、淡藍色，這種「有核仁的中大型淋巴球」為主體是 B 細胞前淋巴球性白血病（B-PLL）的樣貌。",
+  "features": [
+    "Numerous medium-to-large lymphoid cells, about twice the diameter of a red cell",
+    "Round to oval, occasionally irregular or angulated nuclei with moderately condensed chromatin",
+    "Single distinct central nucleolus visible in several cells",
+    "Moderate amount of pale blue cytoplasm, some with fine vacuoles and small blebs",
+    "Relatively uniform population without small mature CLL-type lymphocytes or smudge cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous circulating medium-to-large lymphoid cells with round to oval nuclei, moderately condensed chromatin and a single distinct central nucleolus in many cells. The cells have a moderate amount of pale blue cytoplasm, occasionally with fine vacuoles or small blebs. Small mature lymphocytes and smudge cells are not evident in this field. Findings are consistent with a prolymphocytic proliferation of B-cell type (B-prolymphocytic leukemia), provided the B-cell phenotype is confirmed and mantle cell lymphoma is excluded by cyclin D1/t(11;14) testing.",
+  "ddx": [
+    {"dx": "Leukemic blastoid or pleomorphic mantle cell lymphoma", "vs": "Can look identical, so cyclin D1 or SOX11 expression and CCND1 rearrangement must be excluded before diagnosing B-PLL."},
+    {"dx": "CLL with increased prolymphocytes", "vs": "Prolymphocytes make up fewer than 55% of lymphoid cells, set in a background of small CLL lymphocytes with smudge cells and a CD5+/CD23+ phenotype."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "Cells are smaller with cytoplasmic blebs and prominent nucleoli but express T-cell markers and TCL1 with inv(14)/t(14;14)."},
+    {"dx": "Splenic B-cell lymphoma/leukemia with prominent nucleoli (HCL variant)", "vs": "Cells show more abundant cytoplasm with villous projections and are CD11c/CD103 positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

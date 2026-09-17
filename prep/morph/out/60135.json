@@ -1,0 +1,22 @@
+{
+  "id": "60135",
+  "recognize_zh": "骨髓切片細胞密度極高，視野中布滿胞質呈亮紅色顆粒的嗜酸性球及其前驅細胞，並夾雜數顆巨核細胞；嗜酸性球這樣大量取代骨髓時，要想到伴隨PDGFRA重排的骨髓／淋巴腫瘤。此視野中不易辨認紡錘狀肥大細胞聚集。",
+  "features": [
+    "Hypercellular marrow with essentially no residual fat",
+    "Markedly increased eosinophils and eosinophil precursors with bright eosinophilic granular cytoplasm and round to bilobed nuclei",
+    "Several megakaryocytes scattered in the field, some with small clustered or hypolobated nuclei",
+    "Background of maturing myeloid cells and erythroid precursors with a somewhat loose, retracted appearance",
+    "Mast cell aggregates and spindle-shaped mast cells are not clearly identifiable in this H&E field"
+  ],
+  "describe_en": "Bone marrow trephine section shows a hypercellular marrow, approaching 100% cellularity. There is a marked increase in eosinophils and eosinophil precursors, identified by their bright eosinophilic granular cytoplasm, admixed with other maturing myeloid elements and erythroid precursors. Megakaryocytes are present in normal to increased numbers, some with small or hypolobated nuclei. Discrete mast cell aggregates are not evident in this field, and tryptase/CD25 immunostains are recommended. In conjunction with PDGFRA rearrangement (e.g., FIP1L1::PDGFRA), the findings are consistent with a myeloid/lymphoid neoplasm with eosinophilia and PDGFRA rearrangement.",
+  "ddx": [
+    {"dx": "Reactive eosinophilia (parasitic, allergic, drug, T-cell lymphoma)", "vs": "Reactive eosinophilia lacks spindled mast cell infiltrates and clonal genetic abnormalities, and an underlying cause or aberrant T-cell population is usually found."},
+    {"dx": "Systemic mastocytosis with eosinophilia (KIT D816V)", "vs": "SM forms dense compact mast cell aggregates of ≥15 cells with KIT D816V, whereas PDGFRA neoplasms have loose spindled mast cell infiltrates and are KIT D816V-negative but FIP1L1::PDGFRA-positive."},
+    {"dx": "Chronic eosinophilic leukemia, NOS", "vs": "CEL-NOS shows similar eosinophilia but lacks PDGFRA, PDGFRB, FGFR1, JAK2 or FLT3 rearrangements, often with increased blasts or dysplasia."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML can have eosinophilia but shows granulocytic predominance with basophilia, dwarf megakaryocytes and BCR::ABL1."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

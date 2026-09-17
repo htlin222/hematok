@@ -1,0 +1,21 @@
+{
+  "id": "1111",
+  "recognize_zh": "骨髓切片免疫組織化學染色中，許多大細胞的胞質呈強烈棕色、並呈多顆粒球狀（桑椹狀），對應充滿免疫球蛋白的 Mott 細胞；背景淋巴細胞與骨髓細胞為弱染或陰性。",
+  "features": [
+    "Numerous large cells with intense brown cytoplasmic staining in globular/mulberry pattern",
+    "Staining outlines discrete Russell body globules within the cytoplasm",
+    "Positive cells distributed interstitially between fat spaces",
+    "Weak granular background staining in interstitium; small hematopoietic cells largely negative",
+    "Hematoxylin counterstain shows blue nuclei of background cells"
+  ],
+  "describe_en": "Immunohistochemical stain of a bone marrow biopsy shows numerous large cells with strong brown cytoplasmic staining in a globular, mulberry-like pattern corresponding to Russell body-laden plasma cells (Mott cells), distributed interstitially between fat spaces. Small background hematopoietic and lymphoid cells are largely negative, with weak granular interstitial background staining. The specific antibody is not stated; the pattern is compatible with an immunoglobulin light chain or plasma cell marker. Paired kappa and lambda staining is required to determine whether the plasmacytic component is monotypic, as in marginal zone lymphoma with plasmacytic differentiation.",
+  "ddx": [
+    {"dx": "Megakaryocytes stained by CD61/CD42b", "vs": "Megakaryocyte IHC gives homogeneous cytoplasmic staining of large lobated cells rather than discrete globular Russell bodies."},
+    {"dx": "Polytypic reactive plasmacytosis with Mott cells", "vs": "Reactive plasma cells show a mixed kappa and lambda pattern, whereas a lymphoma-associated clone shows single light chain restriction."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma shows sheets or nodules of CD138+ monotypic plasma cells, often >10% with cytologic atypia, rather than scattered Mott cells with a lymphoid component."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (antibody not specified; likely light chain or CD138)",
+  "match": "consistent",
+  "high_yield": false
+}

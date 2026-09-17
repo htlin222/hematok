@@ -1,0 +1,21 @@
+{
+  "id": "1280",
+  "recognize_zh": "抽吸液中可見數個中型巨核細胞，核只分成兩葉或幾個分開的圓葉（bilobed / separated lobes），不像正常巨核細胞多葉相連；周圍有母細胞與顆粒球，這種型態異常的巨核細胞搭配 AML 是 inv(3)/t(3;3) 的提示。",
+  "features": [
+    "Several intermediate-sized megakaryocytes with bilobed or hypolobated nuclei and separated round lobes",
+    "Megakaryocytes have abundant pale granular cytoplasm; nuclei with moderately condensed chromatin",
+    "Background blasts with round nuclei, fine chromatin and scant basophilic cytoplasm",
+    "Admixed maturing granulocytes and small lymphocytes near a cellular particle",
+    "Megakaryocytes clustered near the particle edge"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular particle with numerous megakaryocytes at its edge. The megakaryocytes are intermediate in size with abundant granular cytoplasm and dysplastic nuclei that are bilobed, hypolobated, or composed of separated round lobes, rather than the normal multilobated configuration. The background contains increased blasts along with residual maturing granulocytes. In the context of acute myeloid leukemia, dysplastic hypolobated megakaryocytes are characteristic of AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2) involving MECOM, which should be confirmed by karyotype or FISH.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm with isolated del(5q)", "vs": "del(5q) megakaryocytes are small with round monolobated nuclei and blasts are <5%, whereas this marrow shows increased blasts."},
+    {"dx": "AML with myelodysplasia-related changes", "vs": "Dysplastic megakaryocytes also occur here, so the separation is genetic, with inv(3)/t(3;3) taking precedence as a defining MECOM rearrangement."},
+    {"dx": "Reactive megakaryocytic hyperplasia", "vs": "Reactive megakaryocytes are normally lobulated with no blast excess, unlike these bilobed forms in a blast-rich background."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

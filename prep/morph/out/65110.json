@@ -1,0 +1,22 @@
+{
+  "id": "65110",
+  "recognize_zh": "骨髓切片 H&E 40 倍：出血背景中散布許多大型細胞，核圓至卵圓、染色質呈泡狀、核仁明顯、細胞質雙嗜性，與小而深染的紅血球系前驅細胞混雜，並見有絲分裂，這些大型細胞即 plasmablasts。",
+  "features": [
+    "Numerous large cells with round to oval vesicular nuclei and distinct nucleoli",
+    "Moderate amphophilic to lightly eosinophilic cytoplasm, some cells slightly plasmacytoid",
+    "Scattered interstitial distribution without cohesive clusters",
+    "Occasional mitotic figure",
+    "Admixed small dark erythroid precursors and granulocytes; hemorrhagic background with fat spaces"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E, 40x) shows a cellular marrow with a prominent interstitial population of large cells containing round to oval vesicular nuclei, distinct nucleoli and moderate amphophilic cytoplasm, with an occasional mitotic figure. These cells are admixed with residual erythroid precursors and granulocytic cells in a hemorrhagic background. No cohesive epithelial clusters or granulomas are seen. Findings are consistent with marrow involvement by plasmablasts in HHV8-associated multicentric Castleman disease; LANA-1, CD138, MUM1 and light-chain immunostains are needed to confirm and to exclude HHV8-positive large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "HHV8-positive diffuse large B-cell lymphoma, NOS", "vs": "Lymphoma forms confluent sheets of LANA-1-positive plasmablasts replacing marrow, rather than scattered interstitial cells among preserved hematopoiesis."},
+    {"dx": "Plasma cell myeloma with plasmablastic morphology", "vs": "Myeloma is CD138-positive with a serum/urine paraprotein, whereas MCD plasmablasts are often CD138-negative, HHV8-positive and IgM lambda."},
+    {"dx": "Megaloblastic or regenerating erythroid hyperplasia (proerythroblasts)", "vs": "Proerythroblasts are E-cadherin/glycophorin-positive and form erythroid colonies with maturing forms, unlike MUM1-positive plasmablasts."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive clusters with desmoplasia and is cytokeratin-positive, whereas these cells are discohesive and lymphoid."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60670",
+  "recognize_zh": "血性腦脊髓液（CSF）細胞離心抹片中可見數團黏附成片的細胞，核圓形、大小一致、染色質細緻、胞質豐富淡紫藍色且界線模糊，呈蜂巢狀排列，屬於良性室管膜（ependymal）細胞，背景大量紅血球提示穿刺創傷。",
+  "features": [
+    "Cohesive sheets and clusters of cells with abundant pale lavender cytoplasm and indistinct cell borders",
+    "Round to oval, uniform, centrally placed nuclei with finely granular chromatin",
+    "Low N:C ratio; no prominent nucleoli, mitoses, or nuclear molding",
+    "Flat, monolayer honeycomb-like arrangement without three-dimensional clustering",
+    "Heavily bloody background with numerous red cells and few scattered leukocytes"
+  ],
+  "describe_en": "Cytocentrifuge preparation of cerebrospinal fluid shows a markedly bloody background containing several cohesive, flat sheets of cells. The cells have abundant pale cytoplasm with ill-defined borders and uniform round to oval nuclei with fine chromatin and inconspicuous nucleoli. There is no significant nuclear pleomorphism, hyperchromasia, molding, or mitotic activity. Findings are consistent with benign ependymal/choroid plexus lining cells, most likely introduced by a traumatic tap, and should not be interpreted as metastatic carcinoma or leukemic involvement.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma in CSF", "vs": "Carcinoma cells form three-dimensional clusters with nuclear enlargement, pleomorphism, hyperchromasia, and prominent nucleoli, unlike these bland, uniform monolayer sheets."},
+    {"dx": "Choroid plexus cells", "vs": "Choroid plexus cells are closely related and also benign, often forming papillary clusters with more granular cytoplasm; both are clinically insignificant contaminants."},
+    {"dx": "Leukemic or lymphoma involvement of CSF", "vs": "Leukemic cells are discohesive, single cells with high N:C ratio rather than cohesive sheets with abundant cytoplasm."},
+    {"dx": "Germinal matrix cells in neonatal CSF", "vs": "Germinal matrix cells are small, dark, blast-like cells with scant cytoplasm in tight clusters, whereas these cells have abundant cytoplasm and bland round nuclei."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

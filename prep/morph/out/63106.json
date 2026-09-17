@@ -1,0 +1,21 @@
+{
+  "id": "63106",
+  "recognize_zh": "CD31 強陽性地勾勒出病灶中呈結節狀、囊狀的血管腔與其內乳頭狀突起，左側白髓淋巴球為陰性；證明病灶為血管內皮來源，搭配 CD68 陽性即符合 littoral cell angioma。",
+  "features": [
+    "Strong membranous CD31 staining outlining anastomosing and nodular vascular channels",
+    "Positive cells form papillary tufts and ring-like structures within cystic spaces",
+    "Blood-filled cystic lumen (upper right) lined by CD31-positive cells",
+    "Adjacent white pulp lymphocytes (left) negative, with only small vessels staining",
+    "Lesion is sharply demarcated from the lymphoid tissue"
+  ],
+  "describe_en": "CD31 immunostain of spleen shows strong membranous staining of the cells lining the anastomosing and cystic vascular channels of the lesion, including papillary tufts projecting into lumens. The adjacent white pulp is negative apart from small vessels. The findings confirm the vascular nature of the lesion and, together with histiocytic marker expression, support littoral cell angioma.",
+  "ddx": [
+    {"dx": "Splenic hemangioma", "vs": "Both are CD31-positive, but hemangioma is also CD34-positive and lacks CD68/CD163/CD21 expression."},
+    {"dx": "Littoral cell angiosarcoma", "vs": "Angiosarcoma shares CD31 positivity but shows solid areas, atypia, high Ki-67 and infiltrative growth."},
+    {"dx": "Sclerosing angiomatoid nodular transformation (SANT)", "vs": "SANT nodules contain mixed CD34+ capillaries, CD8+ sinusoids and CD31-only veins within fibrous stroma."}
+  ],
+  "specimen": "spleen",
+  "stain": "IHC: CD31",
+  "match": "consistent",
+  "high_yield": false
+}

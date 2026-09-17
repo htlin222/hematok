@@ -1,0 +1,22 @@
+{
+  "id": "63481",
+  "recognize_zh": "周邊血液抹片中央一顆大型母細胞，核圓、染色質細緻，細胞質深藍無顆粒且邊緣有不規則的泡狀突起（cytoplasmic blebs），旁邊有兩顆小型高核質比細胞與淡藍無顆粒血小板，配合 CML 病史符合巨核母細胞（megakaryoblast）。",
+  "features": [
+    "Large blast with round nucleus, fine dispersed chromatin, and a faint nucleolus",
+    "Moderate deeply basophilic, agranular cytoplasm with irregular angular outline and peripheral blebs",
+    "Two smaller cells with very high N:C ratio and scant basophilic cytoplasm (small blasts versus lymphocytes)",
+    "Pale, hypogranular platelets in the background",
+    "Red cells show crenation and mild anisopoikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows a large blast with a round nucleus, finely dispersed chromatin, a faint nucleolus, and a rim of deeply basophilic agranular cytoplasm with an irregular outline and peripheral cytoplasmic blebs. Two smaller cells with high N:C ratios and scant basophilic cytoplasm are also present, and background platelets are pale and hypogranular. No Auer rods or cytoplasmic granules are identified. Morphology alone cannot assign lineage, but in a patient with CML and flow cytometry showing CD41/CD61-positive blasts, findings are consistent with megakaryoblasts in megakaryoblastic blast crisis.",
+  "ddx": [
+    {"dx": "Lymphoblastic blast crisis of CML", "vs": "Lymphoblasts are usually smaller with scant cytoplasm lacking blebs and express TdT with CD19/CD10 or CD3, whereas megakaryoblasts express CD41/CD61."},
+    {"dx": "Myeloblastic blast crisis", "vs": "Myeloblasts may contain azurophilic granules or Auer rods and are MPO positive, while megakaryoblasts are MPO negative and CD41/CD61 positive."},
+    {"dx": "Acute monocytic leukemia (monoblast)", "vs": "Monoblasts have more abundant gray-blue cytoplasm, folded nuclei, and nonspecific esterase positivity with CD14/CD64 expression."},
+    {"dx": "Circulating plasma cell or reactive lymphocyte", "vs": "Plasma cells have eccentric clumped nuclei with a hof, and reactive lymphocytes have mature chromatin with cytoplasm hugging red cells rather than fine blast chromatin with blebs."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "15144",
+  "recognize_zh": "四格骨髓免疫染色：CD20 陽性 B 細胞沿竇狀隙呈線狀、串珠狀排列，A 圖同時伴隨結節性聚集，B 圖則以單純竇內分布為主；CD3 陽性 T 細胞在 C 圖稀疏散在於竇內，D 圖則在擴張的竇內大量充填，這種竇內浸潤（intrasinusoidal）模式是脾臟淋巴瘤侵犯骨髓的線索。",
+  "features": [
+    "A: CD20+ B cells forming a nodular aggregate plus linear intrasinusoidal cords (pattern typical of splenic marginal zone lymphoma)",
+    "B: CD20+ cells confined to sinusoids as linear strings between fat cells without nodules",
+    "C: scattered CD3+ T cells in subtle intrasinusoidal and interstitial distribution",
+    "D: extensive, dense intrasinusoidal CD3+ infiltrate filling dilated sinusoids of a hypercellular marrow (pattern typical of hepatosplenic T-cell lymphoma)",
+    "Bony trabeculae (blue) and fat preserved; intrasinusoidal pattern often inconspicuous on H&E"
+  ],
+  "describe_en": "Composite bone marrow core biopsies immunostained for CD20 (A, B) and CD3 (C, D) illustrate intrasinusoidal infiltration by splenic lymphomas. In A, CD20-positive B cells form a paratrabecular/interstitial nodule accompanied by linear intrasinusoidal cords, a combination typical of splenic marginal zone lymphoma. In B, CD20-positive cells are predominantly restricted to sinusoidal lumens as thin linear strings, as seen in splenic diffuse red pulp small B-cell lymphoma or hairy cell leukemia variant. In C, CD3-positive T cells are subtly distributed within sinusoids, while in D a dense intrasinusoidal CD3-positive infiltrate expands the sinusoids of a hypercellular marrow, a pattern characteristic of hepatosplenic T-cell lymphoma. Exact entity assignment per panel requires the original legend and additional immunophenotyping (e.g., TCR gamma-delta, CD8, granzyme B for T-cell panels).",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL infiltrates marrow in nodular, interstitial or diffuse patterns with CD5/CD23 co-expression and rarely shows a predominantly intrasinusoidal pattern."},
+    {"dx": "Hairy cell leukemia", "vs": "Classic HCL produces a diffuse interstitial spaced-out infiltrate with reticulin fibrosis and is annexin A1/BRAF V600E-positive, rather than purely linear intrasinusoidal cords."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL also shows intrasinusoidal CD8+/granzyme B+ linear arrays but with small interstitial clusters and a mature indolent phenotype, unlike the heavy sinusoidal filling of HSTL."},
+    {"dx": "Reactive intravascular lymphocytes", "vs": "Occasional reactive intrasinusoidal lymphocytes are sparse, polyclonal and lack the continuous cord-like arrays of neoplastic infiltration."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD20 (A, B); IHC: CD3 (C, D)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": ["A: CD20 showing nodular and intrasinusoidal B-cell infiltration", "B: CD20 showing purely intrasinusoidal linear B-cell cords", "C: CD3 showing subtle intrasinusoidal T cells", "D: CD3 showing dense intrasinusoidal T-cell infiltration"]
+}

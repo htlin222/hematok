@@ -1,0 +1,22 @@
+{
+  "id": "64005",
+  "recognize_zh": "視野中多顆紅血球邊緣有半圓形缺口（bite cell）或一側透明泡狀區（blister cell），左上角嗜中性球胞質顆粒偏粗、偏深（toxic granulation），符合藥物引起的氧化性溶血合併發炎反應。",
+  "features": [
+    "Multiple bite cells with smooth semicircular defects in the red cell margin",
+    "Occasional blister cells with hemoglobin retracted to one side and a pale peripheral zone",
+    "Scattered crenated red cells (echinocytes) and mild anisocytosis",
+    "Segmented neutrophil with increased, coarse, darker cytoplasmic granules consistent with toxic granulation",
+    "Platelets present; background stain precipitate"
+  ],
+  "describe_en": "Peripheral blood smear (Leishman stain, high power) shows red cell poikilocytosis with numerous bite cells bearing smooth semicircular marginal defects, occasional blister cells with hemoglobin displaced to one side, and scattered crenated cells. A segmented neutrophil displays coarse, dark cytoplasmic granules consistent with toxic granulation. Spherocytes and schistocytes are not prominent, and platelets are present. Findings are consistent with oxidative hemolysis, compatible with the clinical history of drug-induced hemolytic anemia.",
+  "ddx": [
+    {"dx": "G6PD deficiency with acute hemolytic episode", "vs": "Morphology is indistinguishable, so a G6PD enzyme assay (ideally repeated after reticulocytosis settles) is needed."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Immune-mediated hemolysis shows spherocytes and polychromasia with a positive direct antiglobulin test rather than bite and blister cells."},
+    {"dx": "Microangiopathic hemolytic anemia", "vs": "MAHA shows helmet cells, triangular fragments and thrombocytopenia, rather than intact cells with single rounded bites."},
+    {"dx": "Neutrophil with normal granulation or Alder-Reilly anomaly", "vs": "Toxic granulation accompanies left shift, Döhle bodies or vacuoles in infection or stress, whereas Alder-Reilly granules are inherited, uniformly dense, and also seen in lymphocytes and monocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62429",
+  "recognize_zh": "CD10 免疫染色中整片單形性腫瘤細胞完全呈藍色陰性，只有少數血管/基質呈淡棕色可作為內部對照；典型伯奇氏淋巴瘤（Burkitt lymphoma）應為 CD10 陽性，所以這張 CD10 陰性的結果屬於少見情況，需重新審視診斷並依靠 MYC 檢測與其他標記。",
+  "features": [
+    "Diffuse monotonous sheet of tumor cells negative for CD10",
+    "Faint staining limited to scattered vessels/stromal elements (internal positive control)",
+    "Medium-sized round nuclei on hematoxylin counterstain",
+    "No membranous staining of tumor cells",
+    "No germinal center-like CD10-positive clusters in this field"
+  ],
+  "describe_en": "CD10 immunostain shows a diffuse, monotonous population of medium-sized tumor cells that are negative for CD10. Only faint staining of scattered vascular/stromal elements is present, serving as an internal control. Of note, classic Burkitt lymphoma is characteristically CD10-positive; CD10 negativity is uncommon and should prompt careful exclusion of other high-grade B-cell lymphomas. The stain is interpreted as negative, which is partially concordant with the stated diagnosis and requires correlation with BCL6, BCL2, TdT, Ki-67 and MYC/BCL2/BCL6 FISH.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, non-germinal center type", "vs": "Non-GCB DLBCL is CD10-negative and MUM1-positive with larger pleomorphic cells and a lower Ki-67 than Burkitt lymphoma."},
+    {"dx": "High-grade B-cell lymphoma, NOS", "vs": "Cases with Burkitt-like morphology but discordant phenotype (e.g., CD10-negative or BCL2-positive) without double-hit rearrangements fall here."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is CD10-negative but expresses cyclin D1, SOX11 and usually CD5."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "B-LBL can be CD10-variable but expresses TdT and CD34 and lacks surface immunoglobulin."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD10",
+  "match": "partial",
+  "high_yield": false
+}

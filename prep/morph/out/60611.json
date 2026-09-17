@@ -1,0 +1,21 @@
+{
+  "id": "60611",
+  "recognize_zh": "骨髓鐵染色（Prussian blue）見紅血球前驅細胞核周圍環繞藍色鐵顆粒，即環狀鐵粒母細胞（ring sideroblasts）；周邊血紅血球大小稍不一、可見數個血小板，搭配臨床血小板增多，符合 MDS/MPN-RS-T。",
+  "features": [
+    "Peripheral blood: mild anisocytosis with some macrocytic and a subset of hypochromic red cells; platelets visible between red cells",
+    "Aspirate (Wright-Giemsa): erythroid hyperplasia with erythroid precursors showing irregular nuclear contours and megaloblastoid features; scattered myeloid cells",
+    "Iron stain: numerous erythroid precursors with coarse blue siderotic granules arranged around the nucleus (ring sideroblasts)",
+    "Image resolution does not allow reliable assessment of megakaryocyte morphology or platelet count"
+  ],
+  "describe_en": "Peripheral blood smears show mild anisocytosis with scattered hypochromic and larger red cells and visible platelets. The bone marrow aspirate is cellular with erythroid predominance and mild dyserythropoietic changes. Prussian blue iron stain demonstrates numerous ring sideroblasts, with siderotic granules encircling the erythroid nuclei. In the context of persistent thrombocytosis, findings are consistent with myelodysplastic/myeloproliferative neoplasm with ring sideroblasts and thrombocytosis (MDS/MPN-RS-T); correlation with platelet count (≥450 × 10^9/L), megakaryocyte morphology on biopsy and SF3B1/JAK2 mutation testing is required.",
+  "ddx": [
+    {"dx": "MDS with ring sideroblasts (MDS-RS)", "vs": "MDS-RS has ring sideroblasts without persistent thrombocytosis ≥450 × 10^9/L or MPN-type large megakaryocytes."},
+    {"dx": "Essential thrombocythemia", "vs": "ET lacks ring sideroblasts ≥15% and dyserythropoiesis, and has isolated clustered hyperlobated megakaryocytes."},
+    {"dx": "Congenital or acquired non-neoplastic sideroblastic anemia (e.g., alcohol, copper deficiency, isoniazid)", "vs": "Secondary sideroblastic anemia shows no thrombocytosis or clonal mutations and resolves after removing the cause."},
+    {"dx": "Iron overload / hemosiderosis", "vs": "Iron overload increases storage iron in macrophages and scattered cytoplasmic granules but does not create perinuclear rings in erythroblasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; Prussian blue",
+  "match": "consistent",
+  "high_yield": true
+}

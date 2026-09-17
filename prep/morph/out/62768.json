@@ -1,0 +1,22 @@
+{
+  "id": "62768",
+  "recognize_zh": "周邊血中出現有核紅血球（紅箭頭），鐵染色下這些有核紅血球的核周圍排列一圈藍色含鐵顆粒，即環形鐵粒母細胞（ring sideroblast）；旁邊無核的紅血球內也有散在藍色顆粒（藍箭頭，siderocyte / Pappenheimer bodies）。",
+  "features": [
+    "Circulating nucleated red blood cells with dense pyknotic nuclei and polychromatic to orthochromatic cytoplasm (red arrows)",
+    "Prussian blue stain: nucleated red cells with coarse blue iron granules arranged in a perinuclear ring (ring sideroblasts)",
+    "Anucleate red cells containing clusters of blue iron granules (siderocytes; Pappenheimer bodies on Wright stain, blue arrows)",
+    "Background red cells with anisocytosis and polychromasia",
+    "A band neutrophil adjacent to a nucleated red cell on the Wright-stained field"
+  ],
+  "describe_en": "Wright-stained peripheral blood smear shows circulating nucleated red blood cells with condensed nuclei, together with polychromasia and occasional red cells containing small basophilic inclusions consistent with Pappenheimer bodies. Prussian blue iron stain of the same specimen demonstrates coarse siderotic granules encircling the nuclei of nucleated red cells in a perinuclear ring, consistent with circulating ring sideroblasts, as well as siderocytes containing clustered iron granules. Findings are consistent with transient circulating ring sideroblasts and siderocytes in the setting of acute hemolysis; correlation with follow-up smears is needed to exclude an underlying sideroblastic process.",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome with ring sideroblasts (SF3B1-mutated)", "vs": "MDS-RS shows persistent marrow ring sideroblasts with dyserythropoiesis and SF3B1 mutation, whereas these circulating ring sideroblasts are transient during acute hemolysis."},
+    {"dx": "Congenital sideroblastic anemia (e.g., ALAS2 deficiency)", "vs": "Congenital forms present with lifelong microcytic hypochromic anemia and a dimorphic red cell population rather than a transient finding with hemolysis."},
+    {"dx": "Basophilic stippling", "vs": "Basophilic stippling consists of fine, evenly distributed RNA granules that are Prussian blue-negative, unlike the iron-positive granules seen here."},
+    {"dx": "Howell-Jolly bodies", "vs": "Howell-Jolly bodies are single round DNA remnants that are Prussian blue-negative, rather than multiple small iron granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa, Prussian blue",
+  "match": "consistent",
+  "high_yield": false
+}

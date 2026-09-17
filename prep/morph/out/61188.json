@@ -1,0 +1,23 @@
+{
+  "id": "61188",
+  "recognize_zh": "四格血液抹片中可見體積大的組織球（histiocyte），細胞質充滿空泡、細胞核被擠到一側呈新月形，形似印戒（signet-ring）；D 格組織球內含被吞噬的細胞，提示活化巨噬細胞，配合發燒病史應想到傷寒（typhoid fever）。",
+  "features": [
+    "Large histiocytes (roughly 3-4 times the diameter of a red cell) circulating in peripheral blood",
+    "Nucleus compressed and displaced to the cell periphery, crescent-shaped, imparting a signet-ring appearance",
+    "Abundant pale blue-violet cytoplasm with vacuolation and a frothy, irregular border",
+    "Phagocytosed cell within a histiocyte cytoplasmic vacuole (panel D), consistent with hemophagocytosis",
+    "Low-power view (A) shows scattered large mononuclear cells among red cells, suggesting a buffy-coat-enriched or concentrated area",
+    "Accompanying lymphocytes and a neutrophil; no parasites or intracellular organisms resolvable at this magnification"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered large mononuclear cells at low power. At high power these are histiocytes with abundant vacuolated cytoplasm and eccentric, crescent-shaped nuclei displaced to the periphery, producing a signet-ring configuration. One histiocyte contains an engulfed cell within a vacuole, indicating phagocytic activity. No intracellular microorganisms are identified at this resolution. In the appropriate clinical setting of Salmonella Typhi infection, findings are consistent with circulating activated (signet-ring) histiocytes of typhoid fever.",
+  "ddx": [
+    {"dx": "Metastatic signet-ring cell carcinoma (carcinocythemia)", "vs": "Carcinoma cells form cohesive clusters with high N:C ratio and mucin vacuoles and are cytokeratin positive, whereas these histiocytes are singly dispersed, phagocytic and CD68/CD163 positive."},
+    {"dx": "Histoplasmosis or other intracellular infection", "vs": "Histoplasma shows uniform 2-4 micron yeasts with a clear halo inside monocytes/neutrophils, which are not seen in these vacuoles."},
+    {"dx": "Hemophagocytic lymphohistiocytosis (HLH) of other cause", "vs": "Morphology is shared; separation relies on clinical/laboratory criteria (ferritin, sCD25) and blood culture or serology for Salmonella."},
+    {"dx": "Reactive monocytes", "vs": "Monocytes have folded nuclei centrally placed with fine lacy chromatin and lack the large peripheral-nucleus signet-ring vacuolation and engulfed cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

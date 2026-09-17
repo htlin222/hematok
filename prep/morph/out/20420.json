@@ -1,0 +1,22 @@
+{
+  "id": "20420",
+  "recognize_zh": "H&E 切片中是一片單調、中等大小、核圓且有數個小核仁的淋巴樣細胞，其中散在周圍有透亮空隙、吞噬凋亡碎片的巨噬細胞（A，starry sky）與多個有絲分裂像（B），符合 Burkitt 淋巴瘤/白血病。",
+  "features": [
+    "Diffuse sheet of monotonous medium-sized cells, with nuclei roughly the size of a histiocyte nucleus",
+    "Round to slightly irregular nuclei with finely clumped chromatin and several small nucleoli",
+    "Scant amphophilic cytoplasm with cells appearing cohesive or squared-off against each other",
+    "Tingible-body macrophages with clear surrounding halo producing a starry-sky pattern (arrow A)",
+    "Frequent mitotic figures (arrows B) indicating a very high proliferative rate"
+  ],
+  "describe_en": "Section stained with H&E shows effacement by a diffuse, monotonous infiltrate of medium-sized lymphoid cells with round nuclei, finely clumped chromatin, multiple small nucleoli, and scant amphophilic cytoplasm. Interspersed tingible-body macrophages with clear halos impart a starry-sky appearance, and mitotic figures are readily identified. No significant large-cell pleomorphism is seen. Findings are consistent with Burkitt lymphoma/leukemia; confirmation with CD10, BCL6, near-100% Ki-67, negative BCL2 and TdT, and MYC rearrangement studies is recommended.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger (nuclei exceeding a histiocyte nucleus) and more pleomorphic, with a lower and more variable Ki-67 and usually BCL2 expression."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Double-hit lymphoma can show starry-sky Burkitt-like morphology and is separated by BCL2 rearrangement and strong BCL2 staining."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Lymphoblasts have finer, more dispersed chromatin with inconspicuous nucleoli and are TdT positive, whereas Burkitt cells are TdT negative with multiple small nucleoli."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid mantle cell lymphoma is CD5 and cyclin D1 positive with t(11;14) and typically lacks CD10."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

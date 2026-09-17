@@ -1,0 +1,22 @@
+{
+  "id": "61044",
+  "recognize_zh": "周邊血與骨髓出現大量小至中型、核形不規則甚至有裂痕或雙葉的非典型淋巴球，切片瀰漫浸潤；免疫染色 CD20、CD5 陽性、CD3 陰性，SOX11 強核陽性且 Ki-67 高，即使 cyclin D1 陰性仍支持母細胞型被套細胞淋巴瘤。",
+  "features": [
+    "Peripheral blood with numerous small-to-medium atypical lymphoid cells",
+    "Irregular, cleaved to bilobed/binucleated-appearing nuclei with slightly condensed chromatin",
+    "Bone marrow aspirate and biopsy with diffuse sheets of similar atypical lymphoid cells",
+    "IHC: diffuse CD20 and CD5 positivity with CD3 highlighting only scattered T cells",
+    "Strong nuclear SOX11 in most tumor cells and high Ki-67 proliferation index"
+  ],
+  "describe_en": "Composite figure. The peripheral blood contains numerous atypical small-to-medium lymphoid cells with irregular, cleaved and bilobed nuclear contours. The bone marrow aspirate and biopsy show diffuse replacement by similar cells. By immunohistochemistry, the neoplastic cells are CD20-positive and CD5-positive, CD3 marks only scattered reactive T cells, SOX11 shows strong nuclear staining, and the Ki-67 proliferation index is high. In the stated absence of cyclin D1 protein and CCND1 rearrangement, findings are consistent with cyclin D1-negative, SOX11-positive blastoid mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Follicular lymphoma (leukemic phase)", "vs": "FL cells are CD10+/BCL6+, CD5-negative and SOX11-negative with IGH::BCL2."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL 'flower cells' are CD3+/CD4+/CD25+ T cells with HTLV-1 serology, not CD20+ B cells."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL is CD5+/CD23+ with dim FMC7 and SOX11-negative, and cells have round nuclei with soccer-ball chromatin rather than cleaved nuclei."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts express TdT/CD34, lack surface light chain, and are CD5-negative."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa, H&E, IHC: CD20, CD5, CD3, SOX11, Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "62683",
+  "recognize_zh": "高倍下幾乎全是中到大型的中心母細胞（centroblasts）：圓形泡狀核、周邊核仁、細胞質少，夾雜少數有切痕的中心細胞（centrocytes）與可見的有絲分裂；左側有纖維束。這種大細胞為主的區域代表高級別（grade 3）濾泡性淋巴瘤區域。",
+  "features": [
+    "Sheet-like population dominated by medium-to-large cells with round-to-oval vesicular nuclei (centroblast-like)",
+    "One to several small nucleoli, often peripheral/membrane-bound",
+    "Scant pale amphophilic cytoplasm with distinct cell borders",
+    "Admixed smaller cleaved cells (centrocytes) in minority",
+    "Several mitotic figures and scattered apoptotic bodies",
+    "Fibrous bands with spindle cells at left edge"
+  ],
+  "describe_en": "High-power H&E section of lymph node shows a crowded population composed predominantly of medium-to-large cells with vesicular chromatin, round to oval nuclei and small peripheral nucleoli, consistent with centroblasts, with a minority of smaller cleaved centrocytes. Mitotic figures and apoptotic bodies are readily seen, and a thin fibrous band traverses the left side of the field. Tingible body macrophages are not prominent in this field. In the context of a nodular architecture this field is consistent with follicular lymphoma with a high proportion of centroblasts (grade 3A-like field; grading requires counting centroblasts per high-power field across follicles).",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL shows diffuse effacement without follicles or CD21/CD23-positive FDC meshworks, so architecture rather than this cytology separates it."},
+    {"dx": "Reactive germinal center", "vs": "Reactive centers show polarization, tingible body macrophages and BCL2-negative germinal center cells, which are not evident here."},
+    {"dx": "Follicular lymphoma grade 3B", "vs": "Grade 3B consists of solid sheets of centroblasts without residual centrocytes, whereas centrocytes are still admixed here."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are monotonous medium-sized with basophilic cytoplasm and a starry-sky pattern, not the variably sized centroblasts and centrocytes seen here."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

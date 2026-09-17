@@ -1,0 +1,20 @@
+{
+  "id": "62933",
+  "recognize_zh": "同一份 EDTA 血液在 37°C 孵育後所做的抹片，低倍與高倍下嗜中性球都單獨散在分布，先前的成團聚集已消失；這證明聚集是體外、溫度相關的假性現象。",
+  "features": [
+    "Neutrophils distributed singly and evenly across the smear with no clumps",
+    "Individual neutrophils show normal segmented nuclei and fine pink granules",
+    "Occasional lymphocytes and scattered platelets without platelet clumping",
+    "Red cells in a thick area with overlapping, chain-like arrangement (smear thickness artifact)"
+  ],
+  "describe_en": "Peripheral blood smear prepared after incubation of the EDTA sample at 37 °C for 30 minutes, shown at low and high power. Neutrophils are evenly dispersed as single cells with normal segmented nuclei and cytoplasmic granulation, and no leukocyte aggregates are identified. Platelets are scattered singly, and the red cells show overlapping in this relatively thick area. Resolution of the aggregates seen at room temperature is consistent with in vitro, temperature-dependent (EDTA-associated) neutrophil agglutination causing pseudoleukopenia.",
+  "ddx": [
+    {"dx": "True leukopenia", "vs": "A genuinely low count does not rise after warming and the smear shows no clumps before incubation."},
+    {"dx": "Platelet clumping (EDTA pseudothrombocytopenia)", "vs": "Aggregates are composed of platelets rather than neutrophils and cause a falsely low platelet count."},
+    {"dx": "Platelet satellitism", "vs": "Platelets rosette around neutrophils instead of neutrophils clumping together."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": false
+}

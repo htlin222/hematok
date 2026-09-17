@@ -1,0 +1,22 @@
+{
+  "id": "63649",
+  "recognize_zh": "四張未標示的低倍影像：上排推測為 kappa 與 lambda 原位雜交（ISH），只有右側大量細胞著色，表示 lambda 輕鏈限制；下排為 Congo red 染色見淡紅色無細胞沉積物，偏光下沉積物出現雙折射，支持類澱粉（amyloid）。",
+  "features": [
+    "Four-panel low-power composite of a lymph node core biopsy; panels unlabeled",
+    "Top left: pale, lightly stained core with few or no positive cells (interpreted as kappa ISH)",
+    "Top right: many cells with dark purple chromogenic signal (interpreted as lambda ISH), indicating lambda restriction",
+    "Bottom left: Congo red stain showing salmon-pink amorphous acellular deposits with cracking artifact",
+    "Bottom right: same area under polarized light with birefringent streaks; apple-green hue not clearly resolved at this resolution"
+  ],
+  "describe_en": "Four-panel low-power composite of a lymph node core biopsy with unlabeled panels. The upper panels are interpreted as kappa and lambda in situ hybridization, with scant staining in the left panel and abundant positive plasma cells in the right, indicating lambda light chain restriction. The lower panels show Congo red staining of extensive salmon-pink amorphous deposits with cracking artifact and, under polarized light, birefringence of the deposits, although the characteristic apple-green color is not clearly resolved at this magnification and image quality. Findings support a lambda-restricted plasma cell neoplasm with AL amyloid deposition; confirmation of apple-green birefringence on the glass slide and amyloid typing by mass spectrometry are recommended.",
+  "ddx": [
+    {"dx": "Hyalinized collagen or fibrosis", "vs": "Collagen may be pink on Congo red but shows white/silvery rather than apple-green birefringence."},
+    {"dx": "Light chain deposition disease", "vs": "LCDD deposits are Congo red negative and non-fibrillar granular by electron microscopy."},
+    {"dx": "Reactive polytypic plasmacytosis", "vs": "Reactive plasma cells are positive for both kappa and lambda ISH in roughly a 2:1 ratio."},
+    {"dx": "Lymphoplasmacytic or marginal zone lymphoma with amyloid", "vs": "These contain a CD20-positive clonal B-cell component sharing the same light chain."}
+  ],
+  "specimen": "LN",
+  "stain": "ISH: kappa/lambda; Congo red with polarization",
+  "match": "partial",
+  "high_yield": false
+}

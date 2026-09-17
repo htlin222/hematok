@@ -1,0 +1,21 @@
+{
+  "id": "1800",
+  "recognize_zh": "高倍周邊血液抹片中多數紅血球周邊有數個長短、粗細不一且間距不規則的尖刺（箭頭），部分細胞緻密缺乏中央淡染區，符合棘狀紅血球（spur cell/acanthocyte）。",
+  "features": [
+    "Red cells with irregularly spaced spicules of unequal length and width, some with knob-like tips (arrows)",
+    "Some spiculated cells are dense without central pallor; others retain a central pale zone",
+    "Admixed cells with finer, more regular crenation resembling echinocytes",
+    "An occasional ovalocyte with preserved central pallor",
+    "A neutrophil and scattered platelets in the background"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows many red cells with irregular, unevenly distributed spicules of variable length and thickness (arrows); several are dense with loss of central pallor. Some cells show finer, more regular projections overlapping with echinocytic change. A neutrophil and platelets are present. Findings are consistent with acanthocytes (spur cells), as seen in spur cell hemolytic anemia of severe liver disease; correlation with liver function is recommended.",
+  "ddx": [
+    {"dx": "Echinocytes (burr cells)", "vs": "Echinocytes have numerous short, uniform, evenly spaced projections around the whole circumference with central pallor, typical of uremia or drying artifact."},
+    {"dx": "Keratocytes (horn cells)", "vs": "Keratocytes have one or two horn-like projections flanking a ruptured vacuole, as seen in microangiopathic hemolysis, rather than multiple spicules."},
+    {"dx": "McLeod phenotype or abetalipoproteinemia", "vs": "These hereditary acanthocytoses are morphologically similar and are separated by Kell antigen testing or lipid studies."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

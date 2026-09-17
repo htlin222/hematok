@@ -1,0 +1,23 @@
+{
+  "id": "65770",
+  "recognize_zh": "同一張骨髓切片裡有兩種腫瘤：大片偏心核、嗜伊紅胞質的漿細胞（箭頭），旁邊是有腺腔、核大且核仁明顯的上皮腺體（圓圈）；PSA 染腺體、CD138 呈膜狀陽性、lambda 單株限制。",
+  "features": [
+    "Two distinct neoplastic populations in the marrow space: sheets of discohesive plasma cells and cohesive epithelial glands",
+    "Plasma cells: medium-sized, round eccentric nuclei with coarse chromatin and moderate amphophilic to eosinophilic cytoplasm (arrows)",
+    "Glands: enlarged overlapping nuclei with vesicular chromatin and visible nucleoli, forming a central lumen (circles)",
+    "PSA: diffuse cytoplasmic positivity in the glandular tumor cells, surrounding stroma negative",
+    "CD138: diffuse membranous staining of the sheet-like plasma cell infiltrate",
+    "Lambda: strong cytoplasmic staining in the large majority of plasma cells, indicating light-chain restriction"
+  ],
+  "describe_en": "Bone marrow core biopsy shows marked replacement of hematopoietic tissue by two separate processes. There are sheets of atypical plasma cells with eccentric nuclei and moderate eosinophilic cytoplasm, and admixed cohesive nests and glands of epithelial cells with enlarged nuclei, prominent nucleoli and luminal formation. By immunohistochemistry the glandular component is diffusely positive for PSA, while the plasma cells are diffusely CD138-positive and lambda light chain-restricted. Findings are consistent with concurrent involvement by metastatic prostatic adenocarcinoma and a lambda-restricted plasma cell neoplasm (plasma cell myeloma).",
+  "ddx": [
+    {"dx": "Metastatic carcinoma with reactive plasmacytosis", "vs": "Reactive plasma cells are scattered or perivascular and polytypic on kappa/lambda staining, not sheet-forming and lambda-restricted as here."},
+    {"dx": "Plasma cell myeloma with epithelioid or anaplastic morphology", "vs": "Myeloma cells do not form true lumina and are keratin- and PSA-negative, whereas the circled glands here are PSA-positive."},
+    {"dx": "Metastatic adenocarcinoma of non-prostatic origin", "vs": "Morphology of the glands is not site-specific; PSA (and NKX3.1) positivity establishes prostatic origin."},
+    {"dx": "Clusters of osteoblasts", "vs": "Osteoblasts line trabecular surfaces with a hof separated from the nucleus and are PSA-negative, lacking the atypia and lumen formation of these glands."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: PSA, CD138, lambda",
+  "match": "consistent",
+  "high_yield": false
+}

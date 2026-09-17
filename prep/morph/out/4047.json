@@ -1,0 +1,22 @@
+{
+  "id": "4047",
+  "recognize_zh": "周邊血中一顆比紅血球大約兩倍的淋巴球，核略呈腎形、染色質成塊，細胞質豐富淡藍且散布細小紅紫色嗜天青顆粒（azurophilic granule）；豐富細胞質內的嗜天青顆粒就是大顆粒淋巴球（large granular lymphocyte, LGL）的辨識重點。",
+  "features": [
+    "Medium to large lymphocyte about twice the diameter of a red cell",
+    "Moderate to abundant pale blue cytoplasm with low N:C ratio",
+    "Fine to coarse azurophilic granules scattered in the cytoplasm",
+    "Round to slightly indented nucleus with condensed, clumped chromatin; no nucleoli",
+    "Background red cells normochromic and normocytic; small platelet clump nearby"
+  ],
+  "describe_en": "Peripheral blood smear shows a large granular lymphocyte with an indented nucleus, condensed chromatin and abundant pale blue cytoplasm containing scattered azurophilic granules. Red cells are normocytic and normochromic, and platelets are present. A single cell does not establish a diagnosis; a persistent absolute large granular lymphocyte count above 2 x 10^9/L with clonality demonstrated by flow cytometry (CD3+, CD8+, CD57+) and TRG/TRB rearrangement or STAT3 mutation is required for T-cell large granular lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Reactive large granular lymphocytosis (viral infection, post-transplant, splenectomy)", "vs": "Reactive LGLs are morphologically identical and polyclonal, and the increase is transient."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "NK-cell LGLs look the same but are surface CD3-negative, CD56-positive with no TCR rearrangement."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia shows larger atypical cells with irregular nuclei, visible nucleoli and more basophilic cytoplasm, often EBV positive."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells have circumferential hair-like cytoplasmic projections and oval or bean-shaped nuclei with spongy chromatin but lack azurophilic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "1234",
+  "recognize_zh": "周邊血抹片中有許多單一型態的小型成熟淋巴球，大小約與紅血球相近，細胞質極少，染色質呈粗塊狀、塊狀分布的「足球樣/龜殼樣」（soccer ball chromatin），且無明顯核仁，符合慢性淋巴球性白血病（CLL）。",
+  "features": [
+    "Increased numbers of small, monomorphic mature lymphocytes, about 1-1.5 times the diameter of a red cell",
+    "High N:C ratio with a thin rim of pale blue cytoplasm",
+    "Round nuclei with coarse, block-like clumped chromatin (soccer ball pattern)",
+    "Nucleoli inconspicuous in most cells",
+    "Occasional slightly larger lymphocyte with more cytoplasm; smudge cells not evident in this field",
+    "Background red cells without significant poikilocytosis; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows an increased number of small, monomorphic mature-appearing lymphocytes. The cells have scant cytoplasm, round nuclei with coarse block-like clumped chromatin and inconspicuous nucleoli; an occasional slightly larger lymphocyte is present, but prolymphocytes are not increased in this field. Smudge cells are not seen here. Red cells show no significant morphologic abnormality and platelets are present. Findings are consistent with chronic lymphocytic leukemia, pending flow cytometric confirmation (CD5+, CD23+, dim CD20 and dim surface light chain).",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells are often more pleomorphic with irregular or cleaved nuclei and less clumped chromatin, and are CD23-negative/cyclin D1-positive."},
+    {"dx": "Reactive lymphocytosis", "vs": "Reactive lymphocytes are heterogeneous with abundant cytoplasm and variable size, whereas these are monomorphic small cells; flow shows a polytypic population."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells have villous polar cytoplasmic projections and more cytoplasm, and are CD5/CD23-negative."},
+    {"dx": "Follicular lymphoma, leukemic phase", "vs": "FL cells are small with notched or cleft (buttock-like) nuclei and are CD10-positive, CD5-negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

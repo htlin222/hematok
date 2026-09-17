@@ -1,0 +1,21 @@
+{
+  "id": "64907",
+  "recognize_zh": "低倍視野中幾乎全是單調的母細胞，許多核內有明顯淡染的杯狀凹陷，染色質細緻、胞質稀少，背景紅血球皺縮，符合伴杯狀母細胞的急性骨髓性白血病（高白血球）。",
+  "features": [
+    "Monotonous sheet of medium-sized blasts replacing normal leukocytes",
+    "Frequent cup-like pale nuclear invaginations",
+    "Fine chromatin with high N:C ratio",
+    "Scant pale basophilic cytoplasm; no Auer rods identified",
+    "Crenated background erythrocytes"
+  ],
+  "describe_en": "Peripheral blood smear at lower magnification shows marked leukocytosis with a monotonous population of blasts and no evident maturing granulocytes. The blasts have fine chromatin, high nuclear-to-cytoplasmic ratios, and scant cytoplasm, and a large proportion exhibits cup-like nuclear invaginations. Red cells show crenation artifact. Findings are consistent with acute myeloid leukemia with cup-like blasts, suggestive of NPM1 and/or FLT3-ITD mutation; confirmation by flow cytometry and molecular studies is recommended.",
+  "ddx": [
+    {"dx": "Microgranular acute promyelocytic leukemia", "vs": "APL variant blasts have bilobed nuclei and faint granules with Auer rods and need PML::RARA exclusion rather than showing uniform nuclear cups."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL blasts are MPO negative and TdT positive without cup-like nuclear invaginations."},
+    {"dx": "Blast phase of chronic myeloid leukemia", "vs": "CML blast phase usually shows basophilia and residual myelocytes and is BCR::ABL1 positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

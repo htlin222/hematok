@@ -1,0 +1,22 @@
+{
+  "id": "1736",
+  "recognize_zh": "抹片中一群中大型芽細胞，細胞核圓或略凹陷、染色質細緻、可見多個核仁，細胞質少量淡藍色且看不到顆粒或Auer小體，也沒有成熟中的顆粒球，符合未分化成熟的急性骨髓性白血病（AML without maturation）。",
+  "features": [
+    "Medium to large blasts with high N:C ratio",
+    "Round to slightly indented or folded nuclei with finely dispersed chromatin",
+    "One to several distinct nucleoli per nucleus",
+    "Scant to moderate pale blue agranular cytoplasm; no Auer rods seen",
+    "No maturing granulocytic cells in this field; background of red cells"
+  ],
+  "describe_en": "Wright-Giemsa-stained smear shows a population of medium to large blasts with high nuclear-to-cytoplasmic ratios, round to indented nuclei, finely dispersed chromatin, and conspicuous nucleoli. The cytoplasm is scant to moderate, pale blue, and agranular without Auer rods. No maturing myeloid cells are present in this field. Morphology alone cannot establish lineage; confirming myeloid lineage requires MPO positivity in at least 3% of blasts or flow cytometry, with fewer than 10% maturing granulocytic cells in the marrow. Findings are consistent with acute myeloid leukemia without maturation in the appropriate immunophenotypic context.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts may be morphologically indistinguishable but are MPO negative and express B- or T-lineage markers on flow cytometry."},
+    {"dx": "AML with minimal differentiation", "vs": "AML with minimal differentiation has fewer than 3% MPO-positive blasts and is identified only by myeloid markers on flow cytometry."},
+    {"dx": "AML with maturation", "vs": "AML with maturation shows at least 10% maturing granulocytes (promyelocytes onward) and more frequent granules and Auer rods."},
+    {"dx": "Acute monoblastic leukemia", "vs": "Monoblasts have more abundant, often vacuolated cytoplasm with pseudopods, are nonspecific esterase positive, and express CD14/CD64 rather than being MPO-strong."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

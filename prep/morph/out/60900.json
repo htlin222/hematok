@@ -1,0 +1,21 @@
+{
+  "id": "60900",
+  "recognize_zh": "骨髓切片左側一大片擠壓密集的細胞呈強而瀰漫的 CD99 膜／細胞質陽性，與右側含脂肪、染色較弱且不均的正常造血組織形成清楚分界，符合尤文氏肉瘤（Ewing sarcoma）骨髓轉移；CD99 不具特異性，須搭配其他標記。",
+  "features": [
+    "Sharply demarcated focus of densely packed cells with strong, diffuse CD99 staining at left",
+    "Tumor area appears crushed/streaming, obscuring individual cell detail",
+    "Adjacent residual hematopoietic marrow with fat spaces shows weaker, patchy staining of scattered cells",
+    "Small bone fragments stained blue by counterstain"
+  ],
+  "describe_en": "CD99 immunostain of the staging bone marrow core biopsy shows a sharply demarcated focus of densely packed, partly crushed cells with strong, diffuse membranous and cytoplasmic CD99 positivity. The adjacent residual marrow with fat spaces shows only weaker, patchy staining of scattered hematopoietic cells. In a patient with known Ewing sarcoma, the strongly positive focus is consistent with metastatic Ewing sarcoma; confirmation with NKX2.2 immunostain and/or EWSR1 rearrangement is advisable, since CD99 is not specific.",
+  "ddx": [
+    {"dx": "B- or T-lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts are also CD99 positive with similar morphology but express TdT and CD19/PAX5 or CD3, while Ewing sarcoma is TdT and CD45 negative and NKX2.2 positive."},
+    {"dx": "Metastatic neuroblastoma", "vs": "Neuroblastoma forms rosettes with neuropil, is CD99 negative and PHOX2B/synaptophysin positive."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Rhabdomyosarcoma is desmin and myogenin positive, with CD99 usually weak or focal."},
+    {"dx": "Myeloid sarcoma / AML", "vs": "Myeloid blasts may express CD99 but are also MPO, CD34, CD117 and CD45 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD99",
+  "match": "consistent",
+  "high_yield": true
+}

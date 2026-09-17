@@ -1,0 +1,21 @@
+{
+  "id": "62849",
+  "recognize_zh": "左右並排的輕鏈免疫染色：kappa 只有零星 3–4 個陽性細胞，lambda 則有大量、成群的胞質陽性漿細胞，lambda 明顯多於 kappa，代表 lambda 輕鏈限制（light chain restriction），證明漿細胞為單株性。",
+  "features": [
+    "Paired immunohistochemistry for kappa (left) and lambda (right) light chains on the same marrow",
+    "Kappa: only rare scattered cytoplasm-positive cells",
+    "Lambda: numerous cells with strong granular cytoplasmic staining, singly and in small clusters",
+    "Lambda-positive cells have round eccentric nuclei and abundant cytoplasm consistent with plasma cells",
+    "Lambda-to-kappa ratio visually well above 10:1; background hematopoietic cells negative"
+  ],
+  "describe_en": "Immunohistochemical stains for kappa and lambda immunoglobulin light chains were performed on the bone marrow trephine. Kappa highlights only rare scattered plasma cells, whereas lambda stains numerous plasma cells distributed singly and in small clusters, with a markedly skewed lambda-to-kappa ratio. The background hematopoietic cells are negative. Findings demonstrate lambda light chain-restricted, monotypic plasma cells, consistent with plasma cell myeloma in the appropriate clinical and laboratory context.",
+  "ddx": [
+    {"dx": "Reactive polytypic plasmacytosis", "vs": "Reactive plasma cells show a mixed kappa-predominant pattern with a kappa:lambda ratio of about 2:1, not marked lambda excess."},
+    {"dx": "Monoclonal gammopathy of undetermined significance", "vs": "MGUS also shows light chain restriction but with fewer than 10% clonal plasma cells and no myeloma-defining events, so quantification on CD138 is needed."},
+    {"dx": "Lymphoplasmacytic or marginal zone lymphoma", "vs": "These lymphomas can show light chain-restricted plasma cells but also have a CD20-positive clonal B-cell component, which is absent here."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: kappa and lambda light chains",
+  "match": "consistent",
+  "high_yield": true
+}

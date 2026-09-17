@@ -1,0 +1,21 @@
+{
+  "id": "4001",
+  "recognize_zh": "周邊血抹片同一視野內有多顆中性球、一顆核折疊呈腎形的單核球，以及左側一顆胞質豐富灰藍的大型單核樣細胞，呈白血球增多並伴單核球增加；型態本身不具特異性，須配合孩童年齡、單核球 ≥1×10^9/L 與 RAS 路徑突變診斷 JMML。",
+  "features": [
+    "Increased white cells in a single field: several segmented neutrophils and bands",
+    "Monocyte with folded, reniform nucleus and gray-blue cytoplasm (center bottom)",
+    "Large mononuclear cell at left with abundant gray-blue cytoplasm and irregular nucleus, suggestive of an immature monocyte",
+    "Neutrophils show mostly normal granulation; one with ring-like nuclear configuration",
+    "Red cells largely normocytic with occasional stomatocytes; blasts not clearly identified"
+  ],
+  "describe_en": "Peripheral blood smear shows leukocytosis with several segmented neutrophils and bands, a mature monocyte with a folded reniform nucleus, and a larger monocytoid cell with abundant gray-blue cytoplasm consistent with an immature monocyte. Neutrophil granulation is largely preserved, and one neutrophil has a ring-like nucleus. Red cells are mostly normocytic with occasional stomatocytes, and no definite blasts are seen in this field. In a young child, the combination of neutrophilia and monocytosis with immature monocytoid forms is consistent with juvenile myelomonocytic leukemia, which requires an absolute monocyte count of at least 1 x 10^9/L and genetic confirmation.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia (BCR::ABL1+)", "vs": "CML shows a left-shifted myeloid bulge with basophilia and myelocyte peak rather than prominent monocytosis, and is defined by BCR::ABL1."},
+    {"dx": "Infection-associated (e.g., EBV, CMV) monocytosis in infancy", "vs": "Reactive monocytosis lacks fetal hemoglobin elevation, GM-CSF hypersensitivity and RAS-pathway mutations and resolves with the infection."},
+    {"dx": "Acute myelomonocytic/monoblastic leukemia", "vs": "AML requires at least 20% blasts including promonocytes, whereas JMML has fewer than 20% blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

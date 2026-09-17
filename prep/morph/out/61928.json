@@ -1,0 +1,22 @@
+{
+ "id": "61928",
+ "recognize_zh": "腦實質（神經膠網與膠質細胞）中一條小血管的管腔被大型、核大而空泡狀的淋巴樣細胞塞滿，周圍腦組織內幾乎沒有腫瘤細胞浸潤；這種「腫瘤細胞只在血管內」的分布是血管內大B細胞淋巴瘤（IVLBCL）的特徵。",
+ "features": [
+  "Small vessel lumen distended by a cohesive-appearing cluster of large atypical lymphoid cells",
+  "Tumor cells have round-to-irregular nuclei about 2-3 times a small lymphocyte, vesicular chromatin, occasional small nucleoli and scant cytoplasm",
+  "Neoplastic cells confined to the vascular lumen, lined by flattened endothelium, with no extravascular tumor mass",
+  "Surrounding brain parenchyma shows neuropil with glial nuclei and neurons, without significant infiltrate",
+  "A second small vessel at lower left contains only red cells and scattered nucleated cells"
+ ],
+ "describe_en": "Sections of brain parenchyma show a small vessel whose lumen is expanded by a cluster of large atypical lymphoid cells with vesicular chromatin, irregular nuclear contours and scant cytoplasm. The atypical cells are confined within the vascular lumen, and the surrounding neuropil shows no appreciable parenchymal infiltrate or mass lesion. The morphology is suggestive of intravascular large B-cell lymphoma; immunohistochemistry (CD20, CD3) is needed to confirm B-cell lineage and exclude intravascular carcinoma or other intravascular hematolymphoid neoplasms.",
+ "ddx": [
+  {"dx": "Intravascular NK/T-cell lymphoma", "vs": "Morphology is similar, but intravascular NK/T-cell lymphoma is CD20-negative and CD3epsilon/CD56/cytotoxic marker-positive with EBER positivity."},
+  {"dx": "Intravascular carcinomatosis (tumor emboli)", "vs": "Carcinoma emboli form cohesive nests with more cytoplasm and are cytokeratin-positive and CD45-negative."},
+  {"dx": "Leukostasis in acute leukemia", "vs": "Leukostasis shows blasts with fine chromatin in many vessels together with a markedly elevated peripheral blast count, and the cells express blast markers (CD34, MPO) rather than CD20."},
+  {"dx": "Primary CNS diffuse large B-cell lymphoma", "vs": "Primary CNS DLBCL forms parenchymal masses with an angiocentric, perivascular cuffing pattern rather than being confined to vessel lumina."}
+ ],
+ "specimen": "tissue",
+ "stain": "H&E",
+ "match": "consistent",
+ "high_yield": true
+}

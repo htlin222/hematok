@@ -1,0 +1,22 @@
+{
+  "id": "1937",
+  "recognize_zh": "骨髓抹片中一群紅血球系前驅細胞核體積大、染色質呈細點狀或篩孔狀（sieve-like），胞質卻已帶灰藍或粉紅色，呈核質發育不同步（nuclear-cytoplasmic asynchrony），這是巨母紅血球（megaloblast）的典型表現。",
+  "features": [
+    "Cluster of enlarged erythroid precursors with abundant cytoplasm",
+    "Large round nuclei with open, finely stippled 'sieve-like' chromatin",
+    "Nuclear-cytoplasmic asynchrony: immature nuclei with gray-blue to more hemoglobinized cytoplasm",
+    "Occasional small nucleoli in the less mature forms",
+    "Admixed smaller cells with more condensed nuclei and a few irregular nuclear shapes",
+    "Background of scattered platelets and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of enlarged erythroid precursors with abundant cytoplasm and large round nuclei containing open, finely granular sieve-like chromatin. The cytoplasm appears more mature than the nuclei, demonstrating nuclear-cytoplasmic asynchrony. Admixed smaller precursors show more condensed nuclei, and some nuclear irregularity is present. Findings are consistent with megaloblastic erythropoiesis; serum vitamin B12 and folate levels should be correlated.",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome with megaloblastoid change", "vs": "MDS megaloblastoid erythroids coexist with other dyslineage changes and persist despite normal B12/folate, often with ring sideroblasts or clonal cytogenetics."},
+    {"dx": "Acute erythroid leukemia (pure erythroid leukemia)", "vs": "Pure erythroid leukemia shows sheets of proerythroblasts with deeply basophilic vacuolated cytoplasm, comprising at least 30% of marrow cells with TP53 mutation."},
+    {"dx": "Drug-induced megaloblastosis (e.g., methotrexate, hydroxyurea, zidovudine)", "vs": "Morphology is identical; history of antimetabolite use with normal vitamin levels distinguishes it."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

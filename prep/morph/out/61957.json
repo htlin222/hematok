@@ -1,0 +1,20 @@
+{
+  "id": "61957",
+  "recognize_zh": "CD3染色中許多中型細胞呈膜狀／細胞質陽性，但其間夾雜不少CD3陰性、核較大而淡的細胞；ALK陰性ALCL常有pan-T抗原（如CD3）部分或完全喪失，陽性細胞可能包含反應性T細胞。",
+  "features": [
+    "Many intermediate-sized cells with membranous and cytoplasmic CD3 staining",
+    "Admixed CD3-negative cells with larger, paler nuclei",
+    "Heterogeneous staining pattern without uniform positivity of all large cells",
+    "Faint granular cytoplasmic staining in some cells"
+  ],
+  "describe_en": "CD3 immunostain shows numerous positive cells with membranous and cytoplasmic staining admixed with a population of CD3-negative cells with larger, paler nuclei. The staining is heterogeneous rather than uniform across the large-cell population. In ALK-negative ALCL, CD3 is frequently lost in a proportion of neoplastic cells, and positive cells may include reactive T cells; lineage assignment relies on a panel (CD2, CD4, CD5, CD43, cytotoxic markers) and TCR clonality.",
+  "ddx": [
+    {"dx": "PTCL, NOS", "vs": "PTCL NOS usually retains more pan-T antigens and lacks uniform strong CD30 in hallmark cells."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are usually CD3-negative with CD15+ and weak PAX5 in a background rich in reactive CD3+ T cells, a pattern that can mimic ALCL on CD3 alone."},
+    {"dx": "Null-cell ALCL versus B-cell lymphoma", "vs": "Loss of T-cell markers raises concern for a B-cell lymphoma, which is excluded by negative CD20/PAX5 and positive cytotoxic markers or TCR rearrangement."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

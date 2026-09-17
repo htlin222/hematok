@@ -1,0 +1,22 @@
+{
+  "id": "1145",
+  "recognize_zh": "周邊血中可見數個單核球系細胞，核呈摺疊、分葉狀或腦迴樣，灰藍色細胞質有空泡與毛邊，另有一個核呈環狀的小型顆粒球，提示急性單核球性白血病中的異常單核球。",
+  "features": [
+    "Monocytic cells with gray-blue cytoplasm and irregular, frayed cytoplasmic borders",
+    "Nuclei folded, lobulated or convoluted with delicate chromatin",
+    "Cytoplasmic vacuoles in several cells",
+    "Fine azurophilic granules in some monocytic cells",
+    "Small granulocyte with a ring-shaped nucleus",
+    "Background red cells with rouleaux-like stacking"
+  ],
+  "describe_en": "Peripheral blood smear shows several monocytic cells with gray-blue, variably vacuolated cytoplasm with frayed borders and folded, lobulated or convoluted nuclei with delicate chromatin. A small granulocyte with a ring-shaped nucleus is also present. Red cells show rouleaux-like stacking in this area. The monocytic cells show atypical nuclear configurations and immature chromatin. Findings are suggestive of abnormal monocytes/promonocytes in the setting of acute monocytic leukemia; flow cytometry and nonspecific esterase are recommended to enumerate blast equivalents.",
+  "ddx": [
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes have mature condensed chromatin, lack nucleoli and do not form a population of atypical promonocytes."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows persistent monocytosis ≥0.5 x 10^9/L with <20% blasts plus promonocytes, whereas acute monocytic leukemia requires ≥20%."},
+    {"dx": "Sézary cells", "vs": "Sézary cells have cerebriform nuclei with dense chromatin and scant nongranular cytoplasm, and are CD4+ T cells rather than CD14/CD64-positive monocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

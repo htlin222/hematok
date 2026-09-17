@@ -1,0 +1,22 @@
+{
+  "id": "62749",
+  "recognize_zh": "骨髓切片中成片漿細胞，cyclin D1 強陽性；kappa 與 lambda 免疫染色竟然都呈強陽性，流式也顯示同一群 CD38/CD138 漿細胞同時表現胞質 kappa 與 lambda，這種雙輕鏈表現就是雙表型（biphenotypic）漿細胞骨髓瘤。",
+  "features": [
+    "Hypercellular marrow with interstitial sheets of plasma cells replacing hematopoiesis (H&E)",
+    "Neoplastic plasma cells show strong nuclear cyclin D1 expression",
+    "Both kappa and lambda immunostains strongly label the same diffuse plasma cell infiltrate",
+    "Flow: CD38/CD138-positive population co-expresses cytoplasmic kappa and cytoplasmic lambda",
+    "No discrete polytypic admixture pattern; staining is diffuse rather than mixed scattered cells"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a hypercellular marrow with extensive interstitial and sheet-like infiltration by plasma cells. The plasma cells are diffusely positive for cyclin D1. In situ light chain stains show strong, diffuse labeling of the infiltrate for both kappa and lambda, and flow cytometry demonstrates that the CD38/CD138-positive plasma cell population co-expresses cytoplasmic kappa and lambda light chains. Findings are consistent with plasma cell myeloma with a biphenotypic (dual light chain) expression pattern; CCND1 rearrangement (t(11;14)) testing is recommended.",
+  "ddx": [
+    {"dx": "Reactive polytypic plasmacytosis", "vs": "Reactive plasma cells are scattered, cyclin D1-negative, and show separate kappa-positive and lambda-positive cells at roughly 2:1, not co-expression in a single population on flow."},
+    {"dx": "Biclonal plasma cell myeloma", "vs": "Biclonal myeloma contains two distinct plasma cell populations, one kappa and one lambda, which separate on flow cytometry rather than co-expressing both light chains."},
+    {"dx": "Nonspecific light chain immunostaining (background artifact)", "vs": "Serum immunoglobulin uptake gives weak diffuse interstitial background, whereas true dual expression is confirmed here by cytoplasmic flow cytometry in the same gated cells."},
+    {"dx": "Mantle cell lymphoma with plasmacytic differentiation", "vs": "MCL is also cyclin D1-positive but shows CD5-positive, CD20-positive small lymphoid cells rather than a CD38/CD138-bright plasma cell population."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: cyclin D1, kappa, lambda; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

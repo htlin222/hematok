@@ -1,0 +1,22 @@
+{
+  "id": "1309",
+  "recognize_zh": "腹水抹片中一群中型腫瘤細胞，細胞質深藍色、邊緣清楚，並含許多清楚的圓形脂肪空泡，核圓、染色質細緻並有數個小核仁；深藍細胞質加上空泡是柏奇氏淋巴瘤（Burkitt lymphoma）的典型形態。",
+  "features": [
+    "Cluster of medium-sized, monomorphic lymphoid cells",
+    "Deeply basophilic cytoplasm with crisp borders",
+    "Numerous sharply punched-out clear cytoplasmic (lipid) vacuoles",
+    "Round to oval nuclei with finely clumped chromatin and several small nucleoli",
+    "Background with smudged cell debris and scattered red cells"
+  ],
+  "describe_en": "Cytospin preparation of ascitic fluid shows a cluster of monomorphic medium-sized lymphoid cells with round to oval nuclei, finely clumped chromatin, and multiple small nucleoli. The cells have deeply basophilic cytoplasm with sharp borders containing numerous punched-out clear lipid vacuoles. Smudged cell debris is present in the background. Findings are consistent with involvement by Burkitt lymphoma; confirmation by flow cytometry (CD10+ mature B cells with light chain restriction) and demonstration of MYC rearrangement are recommended.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "Cells are larger and more pleomorphic with more variable cytoplasm, with less uniform vacuolation, a Ki-67 below ~95%, and often BCL2 expression."},
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts have fine blastic chromatin with scant, less basophilic cytoplasm and are TdT positive and surface immunoglobulin negative."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "May be morphologically similar but shows BCL2 protein expression and BCL2 rearrangement by FISH."},
+    {"dx": "Acute myeloid leukemia with vacuolated blasts", "vs": "Myeloid or monocytic blasts are MPO or nonspecific esterase positive and lack mature B-cell markers."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}
