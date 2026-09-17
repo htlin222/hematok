@@ -13,13 +13,17 @@ function loadMorph(id: string): Promise<MorphNote | null> {
     return shardCache.get(url)!.then((s) => s[id] ?? null);
 }
 
+// Keep in sync with the feed's left inset in App.tsx (Tailwind needs literal classes).
+export const DRAWER_WIDTH = "w-[440px] xl:w-[500px]";
+
 interface DetailsSheetProps {
     item: FeedItem;
     onClose: () => void;
+    drawer?: boolean; // wide screens: left side panel instead of a modal sheet
 }
 
-/** Bottom sheet with the full (untruncated) metadata for an image. */
-export function DetailsSheet({ item, onClose }: DetailsSheetProps) {
+/** Full (untruncated) metadata for an image — bottom sheet, or left drawer on wide screens. */
+export function DetailsSheet({ item, onClose, drawer = false }: DetailsSheetProps) {
     const [explainExpanded, setExplainExpanded] = useState(false);
     const [explanation, setExplanation] = useState<string | null>(null);
     const [explainLoading, setExplainLoading] = useState(false);
@@ -52,10 +56,25 @@ export function DetailsSheet({ item, onClose }: DetailsSheetProps) {
         }
     };
 
+    // Drawer: a non-modal left panel (no backdrop, no data-modal) so the feed stays
+    // scrollable beside it. Sheet: the modal bottom sheet used on narrow screens.
     return (
-        <div data-modal="details" className="fixed inset-0 z-[90] flex items-end sm:items-center justify-center">
-            <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={onClose} />
-            <div className="relative z-10 w-full sm:max-w-2xl max-h-[88vh] overflow-y-auto bg-gray-900 text-white rounded-t-2xl sm:rounded-2xl p-5 sm:p-7 pb-8">
+        <div
+            {...(drawer ? { "data-drawer": "details" } : { "data-modal": "details" })}
+            className={
+                drawer
+                    ? `fixed inset-y-0 left-0 z-[60] ${DRAWER_WIDTH}`
+                    : "fixed inset-0 z-[90] flex items-end sm:items-center justify-center"
+            }
+        >
+            {!drawer && <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={onClose} />}
+            <div
+                className={
+                    drawer
+                        ? "relative h-full w-full overflow-y-auto overscroll-contain bg-gray-900 text-white border-r border-white/10 shadow-2xl p-6 pt-[calc(env(safe-area-inset-top)+1.5rem)]"
+                        : "relative z-10 w-full sm:max-w-2xl max-h-[88vh] overflow-y-auto bg-gray-900 text-white rounded-t-2xl sm:rounded-2xl p-5 sm:p-7 pb-8"
+                }
+            >
                 <button
                     onClick={onClose}
                     className="absolute top-3 right-3 p-1.5 rounded-full text-white/60 hover:text-white hover:bg-white/10 transition-colors"
