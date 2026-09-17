@@ -1,0 +1,21 @@
+{
+  "id": "62509",
+  "recognize_zh": "淋巴球門內的 CD3 對 CD2 流式圖：左下角為大量 CD3-/CD2- 細胞（CLL 的 B 細胞），右上角為一小群 CD3+/CD2+ 的正常 T 細胞，另有少量 CD2+/CD3- 的 NK 細胞；T 細胞沒有抗原喪失，屬背景正常 T 細胞。",
+  "features": [
+    "Lymphocyte-gated dot plot of CD3-PC5.5 (x-axis) versus CD2-PC7 (y-axis)",
+    "Dominant CD3-negative/CD2-negative population in the lower left, representing B cells",
+    "Discrete CD3-positive/CD2-positive T-cell cluster with uniform bright expression",
+    "Small scattered CD2-positive/CD3-negative events consistent with NK cells",
+    "No aberrant T-cell population with loss of CD2 or CD3"
+  ],
+  "describe_en": "Flow cytometric plot of CD3 versus CD2 on gated lymphocytes shows that most lymphocytes are CD3-negative and CD2-negative, consistent with a predominant B-cell population. A discrete T-cell cluster coexpresses CD3 and CD2 with normal intensity, and a few CD2-positive, CD3-negative NK cells are present. There is no evidence of an aberrant T-cell population with pan-T antigen loss. Findings indicate relatively reduced but phenotypically normal T cells, consistent with a background to chronic lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "T-cell lymphoma with pan-T antigen loss", "vs": "Neoplastic T cells show loss or dim expression of CD2, CD3, CD5, or CD7, unlike the uniformly bright CD3/CD2 T cells here."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "NK-cell expansions show a large CD2-positive/CD3-negative population, whereas NK cells here are sparse."},
+    {"dx": "T-large granular lymphocytic leukemia", "vs": "T-LGL expands a CD3-positive/CD8-positive/CD57-positive population often with dim CD5 or CD7, rather than a small normal T-cell cluster."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A (flow cytometry)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

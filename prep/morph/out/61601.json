@@ -1,0 +1,21 @@
+{
+  "id": "61601",
+  "recognize_zh": "這張是免疫組織化學染色：大多數腫瘤細胞核呈強弱不一的棕色核染色，少數核只有藍色對比染色；標題未註明抗體，依此圖型態只能判定為高比例的核型標記（如 MUM1、Ki-67 或 MYC）陽性。",
+  "features": [
+    "Nuclear DAB staining in the majority (roughly 70-80%) of tumor cell nuclei",
+    "Heterogeneous staining intensity from weak to strong between cells",
+    "No convincing membranous or cytoplasmic pattern",
+    "Interspersed negative hematoxylin-counterstained nuclei, including smaller background cells",
+    "Tumor cells arranged diffusely without architecture"
+  ],
+  "describe_en": "Immunohistochemical stain shows nuclear positivity in the majority of the neoplastic cells, with variable intensity, and a minor population of negative nuclei. The specific antibody is not stated in the record; the nuclear pattern and high proportion of positive cells would fit MUM1/IRF4, a high Ki-67 proliferation index, or MYC, each of which is typical of plasmablastic lymphoma. Interpretation should be tied to the labelled marker on the original slide. Findings are supportive of, but not by themselves diagnostic of, EBV-positive plasmablastic lymphoma.",
+  "ddx": [
+    {"dx": "DLBCL, NOS with high proliferation", "vs": "A high nuclear Ki-67 or MYC index is shared, so separation relies on CD20/PAX5 positivity in DLBCL versus loss of B-cell markers with MUM1/CD138 expression in plasmablastic lymphoma."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt shows near 100% uniform Ki-67 staining with CD20/CD10 positivity and IG::MYC translocation, rather than CD20-negative plasmablastic immunophenotype."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma is also MUM1 positive but usually has a low Ki-67 index, is EBER negative and is marrow-based with an M-protein."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: nuclear marker (antibody not specified)",
+  "match": "partial",
+  "high_yield": false
+}

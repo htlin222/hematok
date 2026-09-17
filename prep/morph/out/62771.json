@@ -1,0 +1,22 @@
+{
+  "id": "62771",
+  "recognize_zh": "腹部 CT 顯示腎臟腫大、增強不均並有浸潤性低密度區（箭頭）；腎臟切片中瀰漫性的淋巴細胞浸潤把腎小管撐開，但腎絲球本身保留未被侵犯，是淋巴瘤浸潤腎間質的型態。",
+  "features": [
+    "CT: enlarged kidney with heterogeneous enhancement and infiltrative hypodense areas (arrows)",
+    "Renal core: diffuse, sheet-like interstitial infiltrate of atypical lymphoid cells",
+    "Infiltrate separates and replaces tubules, with residual tubules mainly at the periphery of the core",
+    "Glomeruli preserved and not infiltrated by tumor cells (inset)",
+    "Cytologic detail limited at this magnification; no ancillary stains shown"
+  ],
+  "describe_en": "Contrast-enhanced abdominal CT shows an enlarged kidney with heterogeneous enhancement and ill-defined infiltrative hypodense areas (arrows). The renal core biopsy shows a diffuse, sheet-like interstitial infiltrate of atypical lymphoid cells that separates and effaces the tubules, while the glomeruli are preserved and not involved by the infiltrate. Detailed cytology cannot be assessed at this magnification and no immunostains or cytogenetic studies are shown. In context, findings are consistent with diffuse renal interstitial involvement by high-grade B-cell lymphoma with MYC, BCL2, and BCL6 rearrangements, with sparing of glomeruli.",
+  "ddx": [
+    {"dx": "Acute interstitial nephritis", "vs": "Interstitial nephritis shows a mixed inflammatory infiltrate with eosinophils, edema, and tubulitis rather than a monotonous sheet of atypical lymphoid cells replacing tubules."},
+    {"dx": "Intravascular large B-cell lymphoma involving kidney", "vs": "IVLBCL fills glomerular and peritubular capillaries, whereas this infiltrate is interstitial with glomeruli spared."},
+    {"dx": "Renal involvement by diffuse large B-cell lymphoma, NOS", "vs": "Histology may be identical, so separation requires FISH for MYC, BCL2, and BCL6 rearrangements."},
+    {"dx": "Post-transplant or IgG4-related interstitial infiltrates", "vs": "These show polymorphous plasma cell-rich infiltrates, storiform fibrosis, or clinical transplant context rather than a monomorphic high-grade lymphoid sheet."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; CT",
+  "match": "consistent",
+  "high_yield": false
+}

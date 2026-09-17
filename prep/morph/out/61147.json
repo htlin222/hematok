@@ -1,0 +1,21 @@
+{
+  "id": "61147",
+  "recognize_zh": "骨髓抹片中央有一顆巨大的雙核（多葉）細胞，胞質充滿細密紫紅色的嗜異染顆粒（metachromatic granules）並向外散出，旁邊還有數顆較小的顆粒性細胞，這種大型、多核、顆粒滿布的細胞是非典型肥大細胞的表現。",
+  "features": [
+    "Very large cell with two (or multilobated) round nuclei largely obscured by granules",
+    "Cytoplasm packed with fine purple-red metachromatic granules that extend beyond the cell margin",
+    "Scattered smaller mononuclear cells nearby also contain similar metachromatic granules",
+    "Background of erythroid precursors, lymphocytes and occasional myeloid cells with rouleaux-like red cell clumping",
+    "Free granules dispersed in the background, consistent with degranulation/smearing artifact"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a mixed hematopoietic background with thick, clumped red cells. A strikingly large binucleated/multilobated cell has abundant cytoplasm densely filled with fine metachromatic granules that obscure the nuclei and spill into the surrounding field. Several smaller mononuclear cells with similar granules are present. Multinucleated, highly atypical mast cells of this type are seen in aggressive mast cell neoplasms; findings are consistent with atypical mast cells in mast cell leukemia, pending quantification (≥20% mast cells) and immunophenotyping.",
+  "ddx": [
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes have a single hyperlobated nucleus with fine azurophilic granules and platelet budding, not coarse metachromatic granules obscuring separate nuclei."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts contain many discrete, evenly spaced nuclei with blue-grey cytoplasm and fine azurophilic granules rather than dense metachromatic granules."},
+    {"dx": "Basophilic blast crisis of CML or acute basophilic leukemia", "vs": "Basophilic blasts are smaller with immature chromatin and coarse basophilic granules and are tryptase-negative or weak and CD117-negative, unlike mast cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61001",
+  "recognize_zh": "高倍（但略失焦）骨髓抹片中央一顆大型細胞，細胞質淡藍灰、邊界圓滑，核由兩個相互重疊的圓形核葉組成，未呈正常巨核細胞的多分葉連續核；這種核葉分離、圓形的型態是 MDS/MPN 中常見的非典型（發育不良）巨核細胞。",
+  "features": [
+    "Very large cell with a smooth round outline and a rim of pale grey-blue cytoplasm",
+    "Nucleus composed of two large, round, overlapping lobes rather than a complex multilobated nucleus",
+    "Chromatin appears finely granular; nucleoli not discernible (image out of focus)",
+    "Adjacent granulocytic precursors with coarse dark granules, including a heavily granulated cell at right",
+    "Resolution and focus limit assessment of cytoplasmic granularity and nuclear detail"
+  ],
+  "describe_en": "High-magnification bone marrow aspirate smear shows a large megakaryocyte with a smooth rounded contour, a rim of grey-blue cytoplasm and a nucleus composed of two round, overlapping lobes instead of the normal multilobated configuration. Adjacent cells include granulocytic precursors, one with coarse dark granules. The image is somewhat out of focus, which limits evaluation of chromatin and cytoplasmic maturation. The megakaryocyte shows dysplastic features (round, separated/bilobed nuclear lobes), which in context are consistent with megakaryocytic atypia of an MDS/MPN such as atypical CML.",
+  "ddx": [
+    {"dx": "Normal megakaryocyte seen in a single plane", "vs": "Normal megakaryocytes have a continuous, compactly lobulated nucleus with granular pink-purple cytoplasm, not two discrete round lobes."},
+    {"dx": "Micromegakaryocyte of CML/MDS", "vs": "Micromegakaryocytes are small (about the size of a myelocyte) with a single round nucleus, whereas this cell is large."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts contain many separate, uniform oval nuclei with visible nucleoli within abundant granular cytoplasm, rather than two large lobes."},
+    {"dx": "Megakaryocyte of 5q- syndrome", "vs": "5q- megakaryocytes are medium-sized with a non-lobated or hypolobated single round nucleus rather than separated lobes; cytogenetics distinguishes them."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

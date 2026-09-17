@@ -1,0 +1,23 @@
+{
+  "id": "64028",
+  "recognize_zh": "流式圖中 CD45 dim 族群分成 CD34 陰性（紫色）與 CD34 陽性（綠色）兩群，紫色群 CD38/CD138 強陽性且胞質 kappa 單株限制，卻同時表現 CD33、CD56、CD117，易被誤認為芽細胞；切片 CD138 大片陽性證實為漿細胞瘤。",
+  "features": [
+    "Flow: CD45-dim population split into CD34-negative (purple) and CD34-positive myeloblast (green) subsets",
+    "Purple population is CD38 bright/CD138 positive with cytoplasmic kappa light-chain restriction",
+    "Aberrant CD56 and CD117 (dim) on plasma cells, overlapping with CD117+ myeloblasts",
+    "Plasma cells are CD33 positive but CD13 negative, whereas myeloblasts are CD13+/CD33+",
+    "H&E (G): hypercellular marrow with diffuse sheets of plasmacytoid cells with eccentric nuclei",
+    "CD138 IHC (H): diffuse membranous staining of the infiltrate"
+  ],
+  "describe_en": "Flow cytometric analysis of the bone marrow identifies a CD45-dim, low side scatter population that is CD34 negative and distinct from a CD34-positive myeloblast population. The CD34-negative cells are CD38 bright and CD138 positive with cytoplasmic kappa light-chain restriction, and aberrantly express CD56, CD117 (dim), and CD33 while lacking CD13. The core biopsy shows diffuse infiltration by sheets of plasma cells with eccentric nuclei, confirmed by diffuse CD138 immunostaining. Findings are consistent with plasma cell myeloma with aberrant CD33, CD56, and CD117 expression, a phenotype that can mimic myeloblasts if CD38/CD138 and light chains are not assessed.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts are CD34+ and/or CD13+/CD33+ without bright CD38/CD138 or cytoplasmic light-chain restriction, and appear as blasts rather than plasma cells on the biopsy."},
+    {"dx": "Plasmablastic lymphoma", "vs": "PBL has large immunoblastic cells, is often EBV/EBER positive and extramedullary, and lacks the CRAB-featured diffuse marrow myeloma picture."},
+    {"dx": "Reactive polyclonal plasmacytosis", "vs": "Reactive plasma cells are CD19+/CD56- with polytypic kappa/lambda expression, unlike this light-chain-restricted CD56+ population."},
+    {"dx": "Mast cell neoplasm", "vs": "Mast cells are CD117 bright with high side scatter and CD25/CD2 expression and lack CD138/cytoplasmic immunoglobulin."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry; H&E; IHC: CD138",
+  "match": "consistent",
+  "high_yield": false
+}

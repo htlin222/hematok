@@ -1,0 +1,22 @@
+{
+  "id": "65188",
+  "recognize_zh": "新生兒周邊血液中可見高核質比的母細胞（B），部分細胞質有不規則泡狀突起；同時有一群嗜中性球（N-e）的顆粒為細小點狀粉紅色，而非一般嗜中性球（N）的紫色顆粒，也比真正嗜酸性球（E）的顆粒小，這種嗜中性球變異與 GATA1 突變的 Down 症候群暫時性異常骨髓增生（TAM）相關。",
+  "features": [
+    "Circulating blasts (B) with high N:C ratio, fine chromatin and scant basophilic cytoplasm, some with irregular cytoplasmic blebs or projections (megakaryoblast-like)",
+    "Neutrophil variant (N-e) with segmented nucleus and cytoplasm filled with small, dotlike pink/eosinophilic granules",
+    "Conventional neutrophil (N) with fine lilac azurophilic granules for comparison",
+    "True eosinophil (E, inset) with larger, coarser orange-red granules and a bilobed nucleus",
+    "Background red cells with mild anisopoikilocytosis and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts with high N:C ratio, fine chromatin and basophilic cytoplasm, some with cytoplasmic blebs suggestive of megakaryoblastic differentiation. Two neutrophil populations are present: conventional neutrophils with lilac azurophilic granules and a variant population whose cytoplasm contains small, dotlike pink granules that are finer than those of the patient's true eosinophils. Scattered platelets and mild red cell poikilocytosis are also seen. In a neonate with trisomy 21 and a GATA1 mutation, findings are consistent with transient abnormal myelopoiesis with an unusual neutrophil variant bearing eosinophil-like granules.",
+  "ddx": [
+    {"dx": "Eosinophils", "vs": "True eosinophils have larger, refractile orange granules and usually bilobed nuclei, whereas the variant neutrophils have smaller dotlike pink granules and are not counted as eosinophils by flow cytometry."},
+    {"dx": "Toxic granulation", "vs": "Toxic granulation shows coarse dark blue-purple granules, not fine pink eosinophil-like granules."},
+    {"dx": "Myeloid leukemia associated with Down syndrome", "vs": "ML-DS occurs later (usually after the neonatal period, by age 4-5) with marrow fibrosis and additional mutations, whereas TAM presents in the first days of life and often resolves spontaneously."},
+    {"dx": "Congenital acute megakaryoblastic leukemia without trisomy 21", "vs": "Non-Down AMKL lacks GATA1 mutation and usually carries fusions such as RBM15::MRTFA or CBFA2T3::GLIS2 and does not remit spontaneously."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

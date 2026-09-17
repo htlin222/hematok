@@ -1,0 +1,22 @@
+{
+  "id": "13443",
+  "recognize_zh": "周邊血抹片中大量紅血球失去中央淡染區、變成小而緻密的球形，並伴隨許多細小的紅血球碎片與出芽狀微球體（microspherocytes/fragments），均勻遍布整個視野；這是檢體受熱造成的紅血球熱傷害假象，碎片可被分析儀誤計為血小板。",
+  "features": [
+    "Diffuse loss of central pallor with many small, dense, round microspherocytes",
+    "Numerous tiny red cell fragments and budding forms of variable size throughout the field",
+    "Some red cells with small surface blebs or attached fragments",
+    "Uniform involvement across the smear rather than a focal area",
+    "Occasional small platelet clump; no leukocytes or schistocyte-dominant helmet forms"
+  ],
+  "describe_en": "Peripheral blood smear shows diffuse red cell alteration, with loss of central pallor, numerous dense microspherocytes and abundant tiny red cell fragments and buds distributed uniformly throughout the field. A small platelet clump is present. The appearance is uniform and lacks the helmet cells and triangular schistocytes of microangiopathic hemolysis. Findings are consistent with thermal (heat) artifact of the specimen; the red cell fragments may be counted as platelets by impedance analyzers, causing spurious elevation of the platelet count, and a fresh, properly handled sample should be examined.",
+  "ddx": [
+    {"dx": "Severe thermal burns in vivo", "vs": "Burn patients show identical microspherocytes and budding fragments, so clinical history of burns versus specimen overheating is the only discriminator."},
+    {"dx": "Hereditary pyropoikilocytosis", "vs": "HPP shows the same fragmentation and microspherocytes in fresh samples from a patient with lifelong hemolysis and very low MCV, with spectrin defects on testing."},
+    {"dx": "Microangiopathic hemolytic anemia (TTP/HUS/DIC)", "vs": "MAHA shows helmet cells and triangular schistocytes with thrombocytopenia rather than uniform budding microspherocytes."},
+    {"dx": "Hereditary spherocytosis", "vs": "HS shows spherocytes without abundant tiny red cell fragments and buds."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

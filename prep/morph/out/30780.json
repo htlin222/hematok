@@ -1,0 +1,22 @@
+{
+  "id": "30780",
+  "recognize_zh": "骨髓切片中許多細胞具大型細胞質內空泡、核被推擠成新月形，呈印戒細胞（signet ring cell）樣；抹片中單一細胞的空泡與偏位核類似漿細胞，但免疫染色（C 細胞質強陽性、D 核陽性）顯示為上皮性轉移癌，符合乳腺小葉癌。",
+  "features": [
+    "Panel A: marrow infiltrated by discohesive single cells with eccentric, crescent-shaped hyperchromatic nuclei compressed by intracytoplasmic vacuoles (signet ring morphology)",
+    "Panel B: aspirate cell with eccentric nucleus and a large pale intracytoplasmic vacuole/target-like inclusion, superficially resembling a plasma cell",
+    "Panel C: strong cytoplasmic immunostaining outlining the vacuolated tumor cells, compatible with an epithelial marker",
+    "Panel D: strong nuclear immunostaining in tumor cells, compatible with a hormone receptor or lineage transcription factor",
+    "Individually dispersed rather than cohesive tumor cells, mimicking a plasma cell infiltrate"
+  ],
+  "describe_en": "Bone marrow sections and aspirate composite. The biopsy (A, H&E) is infiltrated by discohesive cells with eccentric crescentic nuclei displaced by intracytoplasmic vacuoles, imparting a signet ring appearance, and the aspirate (B, Wright-Giemsa) contains a similar cell with an eccentric nucleus and a large cytoplasmic vacuole that can mimic a plasma cell. Immunohistochemistry shows strong cytoplasmic staining (C) and nuclear staining (D) of the tumor cells; the specific antigens are not labeled in the image but the pattern supports an epithelial origin. Findings are consistent with metastatic lobular breast carcinoma mimicking a plasma cell neoplasm, which should be confirmed with cytokeratin, GATA3/ER and negative CD138/light chain restriction (noting CD138 can also stain carcinoma).",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma cells have a clockface nucleus with a perinuclear hof and basophilic cytoplasm without mucin vacuoles, and are cytokeratin-negative with light chain restriction."},
+    {"dx": "Metastatic signet ring gastric carcinoma", "vs": "Gastric signet ring carcinoma is CDX2/CK20-positive and GATA3/ER-negative, whereas lobular breast carcinoma is GATA3/ER-positive and E-cadherin-negative."},
+    {"dx": "Serous fat atrophy / lipid-laden histiocytes", "vs": "Histiocytes have small bland nuclei and foamy cytoplasm and are CD68/CD163-positive and cytokeratin-negative."},
+    {"dx": "Signet ring cell lymphoma", "vs": "Lymphoma cells express CD45 and B-cell markers with immunoglobulin-filled vacuoles and are keratin-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa (B); IHC (C, D)",
+  "match": "consistent",
+  "high_yield": false
+}

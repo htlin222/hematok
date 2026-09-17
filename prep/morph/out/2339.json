@@ -1,0 +1,22 @@
+{
+  "id": "2339",
+  "recognize_zh": "周邊血液抹片中一顆紅血球顏色較淡，內含不規則、伸出多條偽足狀藍色細絲的變形蟲樣（amoeboid）滋養體，並有紅色染色質點，這種分散不規則的滋養體是間日瘧（Plasmodium vivax）的特徵。",
+  "features": [
+    "Single infected red cell that appears paler than surrounding erythrocytes",
+    "Intraerythrocytic parasite with irregular, spread-out amoeboid blue cytoplasm forming thin processes",
+    "Small magenta-red chromatin dot within the parasite",
+    "Schüffner stippling is not clearly resolved in this image",
+    "Surrounding red cells unremarkable; a single platelet is present"
+  ],
+  "describe_en": "Peripheral blood smear shows a single pale red cell containing an amoeboid trophozoite with irregular, stringy blue cytoplasm and a red chromatin dot. The infected cell is not distinctly enlarged in this field, and Schüffner dots are not clearly resolved. No other parasitized cells, gametocytes or schizonts are present in this field. Findings are suggestive of Plasmodium vivax (amoeboid trophozoite); speciation should be confirmed by review of additional forms, rapid antigen testing or PCR, since P. ovale can appear similar.",
+  "ddx": [
+    {"dx": "Plasmodium ovale", "vs": "Infected cells are oval with fimbriated edges and the trophozoite is more compact, with prominent Schüffner-type (James) dots."},
+    {"dx": "Plasmodium falciparum", "vs": "Shows small delicate rings, often multiple per cell with appliqué forms and banana-shaped gametocytes, in normal-sized cells without stippling."},
+    {"dx": "Plasmodium malariae", "vs": "Trophozoites are compact, forming band forms across normal-sized or small red cells."},
+    {"dx": "Babesia", "vs": "Small pleomorphic rings, sometimes tetrads (Maltese cross), without pigment or amoeboid trophozoites."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

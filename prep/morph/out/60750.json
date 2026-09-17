@@ -1,0 +1,22 @@
+{
+  "id": "60750",
+  "recognize_zh": "周邊血液中的大型異常細胞核偏位、細胞質深藍且有拖尾或芽狀突起，看起來像芽細胞；但流式細胞儀顯示 CD45 弱/陰性、CD38 強陽性與 CD138 陽性的族群，證實是漿細胞而非骨髓芽細胞。",
+  "features": [
+    "Large atypical circulating cells with eccentric round nuclei and moderately condensed to dispersed chromatin",
+    "Deeply basophilic cytoplasm, some with tail-like (hand-mirror) projections or irregular cytoplasmic blebs",
+    "Perinuclear hof inconspicuous in several cells, producing a blast-like appearance",
+    "Flow cytometry: dominant CD45-dim/negative, CD138-positive, bright CD38 population (purple) lacking CD34, CD117 and HLA-DR",
+    "Neutrophils and red cells otherwise unremarkable in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous large atypical mononuclear cells with eccentric nuclei, relatively fine chromatin and abundant deeply basophilic cytoplasm, some with cytoplasmic tails or blebs, imparting a blast-like appearance. Flow cytometry reveals a large CD45-dim to negative population that is CD38 bright and CD138 positive and does not express CD34, CD117 or HLA-DR; the cytoplasmic light-chain plot resolution is limited in this figure. Findings are consistent with plasma cell leukemia with atypical, blast-like morphology mimicking acute myeloid leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia (monoblastic or erythroid/megakaryoblastic)", "vs": "AML blasts are CD34/CD117/HLA-DR or monocytic-marker positive and lack bright CD38 with CD138 and cytoplasmic light-chain restriction."},
+    {"dx": "Plasmablastic lymphoma in leukemic phase", "vs": "Shares CD138/CD38 expression but usually presents as extramedullary mass in immunodeficiency with EBER positivity and MYC rearrangement rather than primary marrow myeloma with circulating clone."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are mature-appearing, polytypic for light chains and usually retain CD19 and CD45 without CD56 aberrancy."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "Shows a spectrum of small lymphocytes and plasmacytoid lymphocytes with a CD19+/CD20+ B-cell component and MYD88 L265P, not sheets of large atypical plasma cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

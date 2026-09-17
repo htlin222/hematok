@@ -1,0 +1,22 @@
+{
+  "id": "60071",
+  "recognize_zh": "抹片中大多數有核細胞是紅血球系前驅細胞：可見大型深藍細胞質的原紅血球、嗜鹼性與多染性正母紅血球，以及核濃縮的正染性母紅血球，粒細胞相對很少；這是明顯的紅血球系增生（erythroid hyperplasia），需以鐵染色找環狀鐵粒母細胞確認鐵粒母細胞性貧血。",
+  "features": [
+    "Marked erythroid hyperplasia with erythroid precursors outnumbering granulocytic cells",
+    "Full spectrum of erythroid maturation: proerythroblasts/basophilic normoblasts with deep blue cytoplasm to polychromatic and orthochromatic normoblasts with pyknotic nuclei",
+    "Some later normoblasts show scant, poorly hemoglobinized gray-blue cytoplasm with irregular borders",
+    "Occasional binucleated erythroid precursor; scattered band/segmented neutrophils and one eosinophil",
+    "No increase in myeloblasts; ring sideroblasts cannot be assessed on Wright-Giemsa"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular specimen with marked erythroid hyperplasia and a reduced myeloid-to-erythroid ratio. Erythroid precursors span all stages of maturation, from proerythroblasts and basophilic normoblasts with deeply basophilic cytoplasm to polychromatic and orthochromatic normoblasts, several of which have scant, poorly hemoglobinized cytoplasm with ragged borders; an occasional binucleated form is present. Granulocytic precursors are relatively sparse but mature, with scattered neutrophils and an eosinophil, and blasts are not increased. Findings are consistent with ineffective erythropoiesis; in conjunction with a Prussian blue stain demonstrating ring sideroblasts, this supports congenital sideroblastic anemia.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia", "vs": "Erythroid precursors show nuclear-cytoplasmic asynchrony with open sieve-like chromatin in hemoglobinized cells and giant metamyelocytes, not seen here."},
+    {"dx": "MDS with ring sideroblasts (SF3B1-mutated)", "vs": "Occurs in older adults with dysplasia in multiple lineages and SF3B1 mutation, whereas congenital forms (ALAS2, SLC25A38) present in youth with microcytosis and a family history."},
+    {"dx": "Hemolytic anemia with compensatory erythroid hyperplasia", "vs": "Precursors mature normally with good hemoglobinization, peripheral reticulocytosis is high, and iron stain lacks ring sideroblasts."},
+    {"dx": "Pure erythroid leukemia", "vs": "Shows >=80% erythroid precursors with >=30% proerythroblasts that are large and atypical, often with TP53 mutation, rather than orderly maturation."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

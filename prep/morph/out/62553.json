@@ -1,0 +1,20 @@
+{
+  "id": "62553",
+  "recognize_zh": "c-MYC 蛋白在大多數腫瘤細胞核呈中到強度陽性，估計遠超過 40%，只有少數細胞核為藍色陰性；MYC 高表現提示需進行 FISH 檢查 MYC 重排，但蛋白表現不等於基因重排。",
+  "features": [
+    "Nuclear MYC staining of moderate to strong intensity in the large majority of tumor cells (well above 40%)",
+    "Minority of blue unstained nuclei, including small background cells and endothelial cells",
+    "Medium to large nuclei with round to oval contours arranged in diffuse sheets",
+    "Blood vessels with erythrocytes serve as internal negative structures"
+  ],
+  "describe_en": "MYC immunohistochemistry shows moderate to strong nuclear staining in the large majority of neoplastic cells, visually well above the 40% threshold used to define MYC protein overexpression, with only a minority of unstained nuclei. The positive cells form diffuse sheets around small vessels. High MYC protein expression, particularly when combined with BCL2 expression, defines a double-expressor phenotype and should prompt FISH; in this case FISH confirmed MYC and BCL2 rearrangements, consistent with high-grade B-cell lymphoma with MYC and BCL2 rearrangements.",
+  "ddx": [
+    {"dx": "Double-expressor DLBCL without rearrangements", "vs": "Double-expressor lymphomas show MYC (40% or more) and BCL2 (50% or more) protein by IHC but lack gene rearrangements on FISH."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt shows near-100% MYC nuclear staining with BCL2 negativity."},
+    {"dx": "DLBCL, NOS with low MYC", "vs": "Most DLBCL, NOS show MYC in a smaller fraction of cells below 40%."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: c-MYC",
+  "match": "consistent",
+  "high_yield": false
+}

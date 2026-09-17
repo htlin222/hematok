@@ -1,0 +1,21 @@
+{
+  "id": "1090",
+  "recognize_zh": "中央一顆大型中性球，核分成九葉以上（hypersegmentation），旁邊有大片血小板團塊，屬於 JMML 周邊血中可見的發育不良（dysplasia）變化。",
+  "features": [
+    "Large neutrophil with markedly hypersegmented nucleus (more than 6 lobes)",
+    "Fine pink granular cytoplasm of normal neutrophil type",
+    "Adjacent large platelet aggregate/megakaryocyte fragment with purple granular center",
+    "Scattered single platelets, some large",
+    "Red cells with occasional crenated forms and stomatocyte-like cells"
+  ],
+  "describe_en": "Peripheral blood smear shows a large neutrophil with a markedly hypersegmented nucleus containing numerous lobes, adjacent to a large platelet aggregate. Scattered platelets, some enlarged, are present, and red cells show mild crenation. The hypersegmented neutrophil represents a dysplastic granulocyte, which can be seen in juvenile myelomonocytic leukemia but is not specific by itself. Correlation with monocytosis, hemoglobin F and genetic studies is required.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic anemia shows hypersegmented neutrophils with oval macrocytes and no monocytosis; B12/folate levels separate it."},
+    {"dx": "Drug effect (hydroxyurea, methotrexate)", "vs": "Drug-related hypersegmentation occurs with macrocytosis and clinical exposure history rather than a myelomonocytic proliferation."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS shows multilineage dysplasia with cytopenias but lacks the monocytosis and RAS-pathway alterations of JMML."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

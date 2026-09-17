@@ -1,0 +1,22 @@
+{
+  "id": "63524",
+  "recognize_zh": "骨髓抹片中除了染色質細緻、核質比高的芽細胞與單核系細胞外，還有數顆嗜酸性前驅細胞含有粗大、深紫藍色的顆粒（eo-baso 異常嗜酸性球），這種異常嗜酸性球是 AML with inv(16)/CBFB::MYH11 的線索。",
+  "features": [
+    "Abnormal eosinophil precursors packed with large, coarse, dark purple-violet (basophilic-staining) granules mixed with fewer orange granules",
+    "Blasts with high to moderate N:C ratio, fine open chromatin and moderately basophilic cytoplasm, some with nucleoli",
+    "Monocytoid cells with folded or indented nuclei and grey-blue cytoplasm",
+    "Ruptured abnormal eosinophils releasing dark granules into the background",
+    "Occasional maturing myeloid cells; red cells in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a mixed population of blasts and monocytoid cells with fine chromatin, moderate basophilic cytoplasm and folded nuclei, accompanied by abnormal eosinophil precursors. These eosinophils contain unusually large, coarse, dark purple-violet granules admixed with smaller eosinophilic granules, and several have ruptured with granules dispersed into the background. The blast percentage cannot be determined from a single field. The combination of increased myelomonocytic blasts and abnormal eosinophils with basophilic-staining granules is consistent with acute myeloid leukemia with CBFB::MYH11 [inv(16)/t(16;16)], to be confirmed by FISH, karyotype or RT-PCR.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic leukemia without inv(16)", "vs": "AMML lacks the abnormal eosinophils with large dark granules, and CBFB::MYH11 testing is negative."},
+    {"dx": "CML with eosinophilia and basophilia", "vs": "CML shows a maturing granulocytic spectrum with separate mature basophils rather than hybrid eosinophil-basophil granules in precursors, and carries BCR::ABL1."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and tyrosine kinase gene fusion", "vs": "These show mature-appearing eosinophilia with PDGFRA, PDGFRB, FGFR1 or JAK2 rearrangements rather than dysplastic eo-basophilic granules in a blast-rich AML."},
+    {"dx": "Normal eosinophil myelocytes", "vs": "Normal eosinophil precursors may contain a few immature purple granules but are dominated by uniform refractile orange granules, without the large, dense dark granules seen here."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

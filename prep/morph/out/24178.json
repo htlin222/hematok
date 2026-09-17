@@ -1,0 +1,20 @@
+{
+  "id": "24178",
+  "recognize_zh": "這是 FISH 與染色體圖而非形態：間期細胞核內出現大量散布或成團的 MYC 訊號（像煙火一樣），分裂中期也見到許多散在的訊號、倒相 DAPI 核型可見大量雙微體（double minutes），代表 MYC 基因擴增，常見於骨髓發育不良相關 AML。",
+  "features": [
+    "Interphase FISH: many nuclei with numerous amplified probe signals, clustered or scattered throughout the nucleus ('fireworks')",
+    "Some nuclei show only a few normal signals (non-amplified cells)",
+    "Metaphase FISH: many small signals scattered around and between chromosomes, consistent with extrachromosomal amplification",
+    "Inverted DAPI/G-banded metaphase shows numerous tiny paired chromatin bodies (double minutes)"
+  ],
+  "describe_en": "Interphase FISH with a MYC probe shows a large proportion of nuclei with innumerable amplified signals, either clustered or dispersed, alongside occasional nuclei with a normal signal pattern. Metaphase FISH demonstrates numerous small signals scattered among the chromosomes rather than confined to a single chromosomal locus, and the corresponding banded metaphase shows multiple double minute chromosomes. Findings indicate high-level MYC amplification in the form of double minutes, a rare adverse-risk finding typically seen in AML with myelodysplasia-related changes and complex karyotype.",
+  "ddx": [
+    {"dx": "MYC amplification as homogeneously staining region (hsr)", "vs": "In an hsr the amplified signals are clustered on one marker chromosome at metaphase rather than scattered as double minutes."},
+    {"dx": "MYC rearrangement/translocation", "vs": "A break-apart pattern shows split red and green signals without increased copy number, unlike the many signals seen here."},
+    {"dx": "Hyperdiploidy with trisomy 8", "vs": "Trisomy 8 yields three discrete MYC signals per nucleus, not dozens."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: MYC; DAPI/G-banded karyotype",
+  "match": "non-morphologic",
+  "high_yield": false
+}

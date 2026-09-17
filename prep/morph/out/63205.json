@@ -1,0 +1,22 @@
+{
+  "id": "63205",
+  "recognize_zh": "骨髓切片 H&E 中，多顆大型組織細胞的胞質淡染、呈細網狀泡沫樣，細胞膜清楚、細胞核小而圓位於中央，夾雜在造血細胞之間；胞質內偶見細小黃褐色點狀色素。",
+  "features": [
+    "Clusters and single large polygonal histiocytes with well-defined cell borders",
+    "Abundant pale, finely vacuolated to reticulated foamy cytoplasm",
+    "Small round to oval, centrally placed nuclei with bland chromatin",
+    "Occasional fine brown-green cytoplasmic specks, possibly ceroid pigment",
+    "Intervening hematopoietic cells including erythroid precursors and myeloid cells"
+  ],
+  "describe_en": "Bone marrow trephine biopsy (H&E, high power) shows numerous large polygonal histiocytes with well-defined cell borders, abundant pale, finely vacuolated foamy cytoplasm and small, round, centrally placed bland nuclei. Occasional fine brown-green cytoplasmic specks, possibly ceroid pigment, are present. The foamy cells are interspersed among residual erythroid and myeloid precursors. No nuclear atypia or striated fibrillary cytoplasm is seen. Findings are consistent with infiltration by foamy storage macrophages, as seen in Niemann-Pick disease.",
+  "ddx": [
+    {"dx": "Gaucher cells", "vs": "Gaucher cells have eosinophilic, fibrillary 'crumpled tissue paper' cytoplasm with eccentric nuclei rather than bubbly clear vacuoles."},
+    {"dx": "Metastatic clear cell or signet ring carcinoma", "vs": "Carcinoma cells have atypical, often hyperchromatic nuclei, form cohesive nests and are cytokeratin positive, unlike CD68-positive bland histiocytes."},
+    {"dx": "Mycobacterial infection (e.g., M. avium complex)", "vs": "Infected histiocytes are often striated, form granulomatous clusters and contain acid-fast bacilli."},
+    {"dx": "Serous fat atrophy/lipogranulomas", "vs": "Lipogranulomas are small aggregates of lipid vacuoles with lymphocytes and occasional giant cells rather than sheets of uniformly foamy cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

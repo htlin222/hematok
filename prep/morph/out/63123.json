@@ -1,0 +1,30 @@
+{
+ "id": "63123",
+ "recognize_zh": "CD19 免疫染色中，成片中大型細胞呈強膜狀陽性，而左下殘存的造血細胞為陰性，證實骨髓內浸潤細胞為 B 細胞淋巴瘤。",
+ "features": [
+  "IHC for CD19 on bone marrow core biopsy",
+  "Strong membranous staining of sheets of intermediate-to-large cells",
+  "Positive cells occupy most of the field, abutting bone",
+  "Residual hematopoietic cells in lower left are CD19-negative",
+  "Scattered isolated positive cells within residual marrow"
+ ],
+ "describe_en": "Immunohistochemical stain for CD19 highlights sheets of intermediate-to-large lymphoid cells with strong membranous staining, occupying most of the marrow space adjacent to bone. The residual hematopoietic elements in the lower left are negative, serving as an internal negative control. Findings confirm extensive marrow involvement by a B-cell lymphoma, consistent with transformed follicular lymphoma in conjunction with CD10, BCL2, and Ki-67 stains.",
+ "ddx": [
+  {
+   "dx": "Hematogones (B-lymphoblast precursors)",
+   "vs": "Hematogones are small, scattered interstitial cells with a maturation spectrum (CD34/TdT/CD10 variable) and do not form sheets of large atypical cells."
+  },
+  {
+   "dx": "B-lymphoblastic leukemia",
+   "vs": "B-ALL is also CD19+ but blasts are TdT and often CD34 positive, with fine blastic chromatin."
+  },
+  {
+   "dx": "Plasma cell neoplasm",
+   "vs": "Plasma cells are typically CD19-negative, CD138+ and light-chain restricted, lacking CD20."
+  }
+ ],
+ "specimen": "BM biopsy",
+ "stain": "IHC: CD19",
+ "match": "consistent",
+ "high_yield": false
+}

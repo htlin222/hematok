@@ -1,0 +1,22 @@
+{
+  "id": "5675",
+  "recognize_zh": "骨髓抹片中一群大型、細胞質豐富的非造血細胞聚集成團，細胞質內及背景散布大量粗大的黑褐色色素顆粒（melanin），部分細胞幾乎被色素塞滿，符合轉移性惡性黑色素瘤。",
+  "features": [
+    "Cohesive cluster of large cells with abundant pink-purple finely granular cytoplasm",
+    "Coarse black-brown pigment granules within cytoplasm, heavily obscuring some cells",
+    "Nuclei largely obscured by pigment and cytoplasm; nuclear detail limited",
+    "Free extracellular pigment granules scattered in the background",
+    "No normal hematopoietic cells in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of large non-hematopoietic cells with abundant pink-purple, finely granular cytoplasm. Many cells contain coarse black-brown pigment granules, and several are so heavily pigmented that nuclear detail is obscured; free pigment granules are also seen in the background. Normal hematopoietic elements are not present in this field. Findings are consistent with metastatic malignant melanoma involving the marrow; immunohistochemistry for SOX10, S100 and Melan-A/HMB-45 on the biopsy can confirm.",
+  "ddx": [
+    {"dx": "Hemosiderin-laden macrophages", "vs": "Hemosiderin is golden-brown to blue-black on Wright stain, occurs in scattered single macrophages, and is Prussian blue positive, whereas this pigment is in cohesive tumor-cell clusters and Prussian blue negative."},
+    {"dx": "Mast cells", "vs": "Mast cells are single round cells packed with uniform purple metachromatic granules and a visible central nucleus, not cohesive clusters with coarse brown-black pigment."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma clusters show cohesion and nuclear molding without melanin and are keratin positive."},
+    {"dx": "Stain precipitate", "vs": "Stain precipitate lies on top of cells and background in a random distribution and is not confined to the cytoplasm of a cohesive cell group."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

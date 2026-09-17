@@ -1,0 +1,22 @@
+{
+  "id": "1840",
+  "recognize_zh": "紅血球背景中成群出現的芽細胞，核圓、大小相近、細胞質極少，染色質細緻而深染，與右下角的小型成熟淋巴球相比明顯較大，並可見幾顆被推擠變形的細胞；背景紅血球密集，推測為周邊血或稀釋的骨髓抹片。",
+  "features": [
+    "Clusters of round blasts about 2 times the diameter of a red cell with very high N:C ratio",
+    "Round, regular nuclei with fine but dark-staining chromatin and inconspicuous nucleoli",
+    "Scant to barely visible agranular cytoplasm",
+    "Occasional crushed/smudged cells with streaked chromatin",
+    "Small mature lymphocyte (lower right) for size comparison; abundant erythrocytes in the background"
+  ],
+  "describe_en": "Smear with a dense erythrocyte background shows clusters of relatively uniform blasts approximately twice the size of a red cell. The blasts have very high N:C ratios, round regular nuclei, fine dark-staining chromatin, inconspicuous nucleoli and scant agranular cytoplasm. A few smudged cells and a small mature lymphocyte are present; no Auer rods are identified. Whether this is peripheral blood or a hemodilute marrow aspirate cannot be determined with certainty from this field. Findings are consistent with circulating lymphoblasts of B-lymphoblastic leukemia, pending flow cytometry.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "Indistinguishable morphologically; cytoplasmic CD3 by flow defines T lineage and T-ALL often presents with a mediastinal mass and high WBC."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "Cells are smaller with coarse clumped chromatin and numerous smudge cells and are CD5/CD23 positive, TdT-negative."},
+    {"dx": "Pertussis-associated lymphocytosis", "vs": "Lymphocytes are small mature cells with cleaved or clefted nuclei and condensed chromatin, not blasts."},
+    {"dx": "AML with minimal differentiation", "vs": "Requires MPO cytochemistry or myeloid antigen expression by flow to exclude."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

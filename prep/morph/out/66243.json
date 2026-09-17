@@ -1,0 +1,22 @@
+{
+  "id": "66243",
+  "recognize_zh": "低倍下可見兩大團緊密聚在一起的分葉核中性球（左側與右下），另有一小團中性球夾雜單核球樣細胞；紅血球與血小板本身正常，這種中性球成團（neutrophil aggregation）會讓自動血球計數器低估白血球數，需人工看片確認。",
+  "features": [
+    "Two large tight aggregates of segmented neutrophils (left mid-field and lower right) and a smaller aggregate at upper left",
+    "Neutrophils within clumps show intact segmented nuclei and granular cytoplasm without obvious phagocytosed material",
+    "Upper left aggregate includes a larger mononuclear cell with basophilic cytoplasm (possibly monocyte or immature granulocyte) adjacent to a separate large mononuclear cell",
+    "Scattered single lymphocyte (lower center) and platelets adequate in number",
+    "Red cells normocytic with mild anisocytosis; no platelet satellitism or clumping"
+  ],
+  "describe_en": "Peripheral blood smear at low-to-intermediate power shows several tight aggregates of segmented neutrophils, including two large clusters, with occasional admixed mononuclear cells. Individual neutrophils show intact nuclear segmentation, and a single lymphocyte is present outside the clumps. Red cells are normocytic with mild anisocytosis, and platelets appear adequate without clumping. Findings represent neutrophil aggregation, which can cause spurious leukopenia on automated counts; it may reflect in vivo neutrophil activation in sepsis or an EDTA-dependent in vitro artifact, and repeat counts in a citrate or heparin sample with a manual estimate are advised.",
+  "ddx": [
+    {"dx": "Platelet clumping / satellitism (pseudothrombocytopenia)", "vs": "Platelet clumps consist of aggregated platelets or platelets rimming neutrophils, whereas these clusters are composed of neutrophils themselves."},
+    {"dx": "Tumor cell or blast clusters", "vs": "Neoplastic clusters show immature nuclei with fine chromatin and nucleoli, unlike these mature segmented neutrophils."},
+    {"dx": "Thick area / smear edge artifact", "vs": "Cells piled at the feathered edge are distributed along the edge with other cell types, whereas these are discrete tight neutrophil clumps in a well-spread monolayer."},
+    {"dx": "Leukoagglutination due to cold or EDTA-dependent antibodies", "vs": "Morphology is identical; persistence in citrate/heparin or at 37°C favors in vivo activation, while resolution favors an EDTA or cold-dependent artifact."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": false
+}

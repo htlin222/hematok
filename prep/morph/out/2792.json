@@ -1,0 +1,21 @@
+{
+  "id": "2792",
+  "recognize_zh": "骨髓切片免疫染色中，一個邊界不清、沿脂肪空泡延伸的淋巴球聚集有許多棕色陽性小淋巴球，周圍間質也散在陽性細胞；抗體未標示，推測為 T 細胞標記，顯示聚集以 T 細胞為主。",
+  "features": [
+    "Loosely formed, ill-defined lymphoid aggregate adjacent to a trabecula",
+    "Numerous small positive lymphocytes with membranous/cytoplasmic brown staining",
+    "Many scattered positive cells throughout the interstitium",
+    "Weak background staining in some areas",
+    "Negative hematopoietic precursors; prominent fat spaces"
+  ],
+  "describe_en": "Immunohistochemical stain on a bone marrow core biopsy highlights a loosely organized lymphoid aggregate near a trabecula composed of numerous positive small lymphocytes, with many additional positive cells scattered in the interstitium. Background hematopoietic cells are negative, and there is mild nonspecific background staining. The antibody is not labeled; the pattern is compatible with a T-cell marker highlighting a T-cell rich aggregate and increased interstitial T cells. In the post-rituximab setting, this supports rituximab-associated marrow T-cell hyperplasia rather than residual B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Residual B-cell lymphoma", "vs": "Residual lymphoma would show a PAX5/CD79a-positive B-cell aggregate, sometimes with CD20 loss after rituximab."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL shows intrasinusoidal linear clusters of CD8+/TIA-1+/granzyme B+ cells rather than a nodular aggregate."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "PTCL shows atypical medium-to-large T cells with antigen loss and TCR clonality."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: likely T-cell marker (antibody not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

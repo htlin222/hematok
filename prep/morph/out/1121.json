@@ -1,0 +1,21 @@
+{
+  "id": "1121",
+  "recognize_zh": "周邊血中多顆中型淋巴球，胞質為強嗜鹼性並有突出的小泡狀胞質突起（cytoplasmic bleb，箭頭），核圓或略不規則，是 T-PLL 的特徵。",
+  "features": [
+    "Increased small-to-medium lymphoid cells with moderate N:C ratio",
+    "Round to slightly irregular nuclei with condensed chromatin; small nucleoli in some cells",
+    "Intensely basophilic, agranular cytoplasm",
+    "Cytoplasmic protrusions/blebs (arrow)",
+    "Background normochromic red cells and platelets without smudge cells"
+  ],
+  "describe_en": "Peripheral blood smear shows increased small-to-medium lymphoid cells with round to slightly irregular nuclei, condensed chromatin and occasional small nucleoli. The cytoplasm is deeply basophilic and agranular, and several cells show cytoplasmic blebs or protrusions (arrow). Smudge cells are not a feature in this field. Findings are consistent with T-cell prolymphocytic leukemia; confirmation requires flow cytometry (CD2, CD3, CD5, CD7 positive; often CD4+) and TCL1A rearrangement (inv(14)/t(14;14)).",
+  "ddx": [
+    {"dx": "B-cell prolymphocytic leukemia / CLL with increased prolymphocytes", "vs": "B-cell prolymphocytes have a single prominent central nucleolus and less basophilic cytoplasm without blebs, and express B-cell markers."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells have pale gray-blue cytoplasm with circumferential fine hair-like projections and oval/bean-shaped nuclei, and are CD103/CD25/CD11c positive."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells are highly convoluted 'flower cells' and patients are HTLV-1 positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

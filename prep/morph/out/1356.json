@@ -1,0 +1,22 @@
+{
+  "id": "1356",
+  "recognize_zh": "低倍 H&E 組織切片中，正常結構被瀰漫性小型淋巴球浸潤取代，其間可見淡染、較大細胞聚集的模糊區域（疑為增殖中心 proliferation centers）與含紅血球的血管腔，符合 CLL/SLL 組織浸潤（可能為脾臟切除標本）。",
+  "features": [
+    "Low-power H&E section with diffuse, dense infiltrate of small round lymphocytes",
+    "Vague paler zones containing slightly larger cells with more cytoplasm, suggestive of proliferation centers",
+    "Interspersed vascular/sinusoidal spaces containing red cells",
+    "Effacement of normal architecture; no distinct germinal centers or white pulp/red pulp demarcation seen",
+    "Cytologic detail is limited at this magnification"
+  ],
+  "describe_en": "Low-power H&E section of lymphoid tissue, likely spleen given the title context of thrombocytopenia, shows diffuse effacement by a dense infiltrate of small round lymphocytes. Vague paler zones with slightly larger cells suggest proliferation centers, and sinusoidal/vascular spaces containing red cells are interspersed. No normal germinal centers are identified. The findings are consistent with involvement by chronic lymphocytic leukemia/small lymphocytic lymphoma; thrombocytopenia in CLL may reflect immune-mediated destruction, hypersplenism or marrow infiltration, and confirmation of CD5/CD23 co-expression by immunohistochemistry is advised.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL lacks proliferation centers, has slightly irregular nuclei with scattered epithelioid histiocytes and pink hyalinized vessels, and is cyclin D1/SOX11 positive."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL shows a biphasic white pulp nodular pattern with marginal zone cells having pale cytoplasm and is CD5 and CD23 negative."},
+    {"dx": "Follicular lymphoma", "vs": "FL forms back-to-back neoplastic follicles of centrocytes and centroblasts that are CD10/BCL6 positive, rather than diffuse sheets with pale proliferation centers."},
+    {"dx": "Reactive lymphoid hyperplasia", "vs": "Reactive tissue preserves architecture with polarized germinal centers and a polyclonal mixed population."}
+  ],
+  "specimen": "spleen",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

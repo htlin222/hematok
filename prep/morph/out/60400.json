@@ -1,0 +1,22 @@
+{
+  "id": "60400",
+  "recognize_zh": "中央的嗜中性球核分成 6 葉以上，背景紅血球大小不一、偏大且呈卵圓形（macro-ovalocytes），並可見淚滴狀細胞，符合維生素 B12 缺乏造成的核過度分葉嗜中性球（hypersegmented neutrophil）。",
+  "features": [
+    "Neutrophil with six or more distinct nuclear lobes connected by fine filaments",
+    "Condensed chromatin with fine specific granules in pale cytoplasm",
+    "Background red cells show anisopoikilocytosis with macro-ovalocytes",
+    "Occasional teardrop-shaped red cells",
+    "No toxic granulation or Döhle bodies in the neutrophil"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with numerous large oval red cells (macro-ovalocytes) and occasional teardrop forms. A neutrophil with six or more nuclear lobes is present. The combination of macro-ovalocytes and neutrophil hypersegmentation indicates megaloblastic hematopoiesis. Findings are consistent with a hypersegmented neutrophil in megaloblastic anemia, here due to vitamin B12 deficiency.",
+  "ddx": [
+    {"dx": "Normal segmented neutrophil", "vs": "Normal neutrophils have 2-5 lobes, whereas this cell has at least six."},
+    {"dx": "Inherited hypersegmentation (hereditary constitutional hypersegmentation)", "vs": "The inherited form lacks macro-ovalocytes and has normal B12/folate levels; morphology of the neutrophil alone cannot separate them."},
+    {"dx": "Myelodysplastic syndrome with dysgranulopoiesis", "vs": "MDS usually shows hypogranular or pseudo-Pelger neutrophils and cytopenias with normal B12/folate, whereas this smear shows granulated hypersegmented neutrophils with macro-ovalocytes."},
+    {"dx": "Hydroxyurea or antimetabolite drug effect", "vs": "Drug-induced megaloblastic change looks identical morphologically and is distinguished by medication history and vitamin levels."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

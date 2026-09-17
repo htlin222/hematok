@@ -1,0 +1,30 @@
+{
+  "id": "60704",
+  "recognize_zh": "頸部影像見增大的淋巴結（箭頭）與上下頜骨髓腔擴張（箭頭頭），切下的結節呈暗紅色；抹片與切片中可見巨核細胞與大量紅系前驅細胞，表示淋巴結被髓外造血（extramedullary hematopoiesis）取代，符合重型地中海貧血。",
+  "features": [
+    "Axial CT (A): enlarged enhancing right cervical nodal mass (arrow) and expanded mandibular/maxillary marrow spaces with cortical thinning (arrowheads)",
+    "Coronal MRI (B): well-circumscribed heterogeneous hyperintense cervical nodal lesion (arrow)",
+    "Gross (D): dark red-brown, blood-colored nodular tissue about 1.5–3 cm",
+    "Imprint/aspirate (C): trilineage hematopoietic cells dominated by erythroid precursors with a megakaryocyte",
+    "H&E (E, F): lymph node with a capsule-bordered hematopoietic infiltrate containing sheets of normoblasts, granulocytic precursors and megakaryocytes"
+  ],
+  "describe_en": "Cross-sectional imaging demonstrates an enlarged cervical lymph node lesion together with expansion of the facial bone marrow spaces. The excised nodules are dark red grossly. Touch/aspirate preparations and histologic sections show replacement of nodal parenchyma by trilineage hematopoiesis with erythroid predominance, scattered granulocytic precursors and megakaryocytes, without atypical blasts or a neoplastic infiltrate. Findings are consistent with nodal extramedullary hematopoiesis in the setting of β-thalassemia with marrow expansion of the facial bones.",
+  "ddx": [
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma consists of sheets of immature blasts (CD34/CD117/MPO+) effacing the node rather than orderly maturing trilineage hematopoiesis."},
+    {"dx": "Extramedullary hematopoiesis in myelofibrosis", "vs": "EMH in primary myelofibrosis features atypical clustered megakaryocytes and JAK2/CALR/MPL mutation, without thalassemic red cell indices."},
+    {"dx": "Lymphoma or metastatic tumor in a cervical node", "vs": "A neoplasm shows a monotonous atypical infiltrate or cohesive tumor cells, not erythroid precursors and megakaryocytes."},
+    {"dx": "Hemangioma or vascular lesion", "vs": "Vascular lesions show blood-filled vascular channels grossly red but lack hematopoietic precursors histologically."}
+  ],
+  "specimen": "LN",
+  "stain": "CT; MRI; gross; Wright-Giemsa; H&E",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Axial CT: cervical nodal mass (arrow) and expanded facial bone marrow (arrowheads)",
+    "Coronal MRI: hyperintense cervical nodal lesion (arrow)",
+    "Imprint: erythroid-predominant hematopoiesis with a megakaryocyte",
+    "Gross: dark red excised nodules",
+    "H&E low power: node replaced by hematopoietic tissue",
+    "H&E high power: megakaryocyte among erythroid and granulocytic precursors"
+  ]
+}

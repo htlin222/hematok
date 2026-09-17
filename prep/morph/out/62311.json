@@ -1,0 +1,35 @@
+{
+	"id": "62311",
+	"recognize_zh": "流式細胞圖中 CD19 陽性 B 細胞族群（藍色）CD20 高亮、CD5 陰性、CD38 陰性、lambda 輕鏈限制，並共同表現 CD25、CD103 與 CD11c（箭頭處），這組抗原組合是毛狀細胞白血病（HCL）的免疫表型。",
+	"features": [
+		"Dominant CD19+ B-cell population (blue) gated in the lymphocyte region with bright CD45",
+		"Bright CD20 expression (arrowhead) compared with background cells",
+		"CD5-negative and CD38-negative B cells",
+		"Lambda light-chain restriction with absent kappa expression",
+		"Co-expression of CD25, CD103 and bright CD11c by the B-cell population (arrows)",
+		"Surface CD3-negative B cells separated from residual T cells (red)"
+	],
+	"describe_en": "Flow cytometric analysis of the lymphocyte gate shows a predominant clonal B-cell population that is CD19-positive, bright CD20-positive and CD45 bright. The B cells are negative for CD5 and CD38 and demonstrate lambda light-chain restriction. They co-express CD25, CD103 and bright CD11c, while residual T cells are separated by surface CD3 expression. This immunophenotype (CD11c+, CD25+, CD103+, bright CD20, lambda restricted) is diagnostic of a clonal B-cell population consistent with hairy cell leukemia.",
+	"ddx": [
+		{
+			"dx": "Hairy cell leukemia variant",
+			"vs": "HCL-v is CD11c+ and often CD103+ but CD25-negative (and CD123/CD200 dim), unlike this CD25-positive population."
+		},
+		{
+			"dx": "Splenic marginal zone lymphoma",
+			"vs": "SMZL B cells are usually CD103-negative and CD25-negative or weak, with CD11c at most partial."
+		},
+		{
+			"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma",
+			"vs": "CLL is CD5+, CD23+ with dim CD20 and dim light chain, unlike the CD5-negative, bright CD20 population here."
+		},
+		{
+			"dx": "Mantle cell lymphoma",
+			"vs": "MCL is CD5-positive and CD103/CD25-negative, with cyclin D1/SOX11 expression."
+		}
+	],
+	"specimen": "flow",
+	"stain": "N/A",
+	"match": "non-morphologic",
+	"high_yield": true
+}

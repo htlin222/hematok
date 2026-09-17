@@ -1,0 +1,22 @@
+{
+  "id": "4048",
+  "recognize_zh": "視野中有多個三角形、盔甲狀（helmet cell）與尖角狀的紅血球碎片（箭頭），即裂紅血球（schistocyte），同時血小板很少，符合血栓性微血管病變（如 TTP）的微血管病性溶血。",
+  "features": [
+    "Numerous schistocytes including triangular fragments (arrow), helmet cells and keratocyte-like forms with sharp angles",
+    "Fragments lack central pallor and are smaller than intact red cells",
+    "Occasional larger bluish polychromatophilic red cell (left center)",
+    "Echinocyte/crenated cell present at right",
+    "Markedly reduced platelets in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous schistocytes, including triangular fragments, helmet cells, and angular forms with sharp points, among otherwise normochromic red cells. A polychromatophilic red cell is present, and platelets are markedly decreased. The combination of fragmented red cells and thrombocytopenia indicates intravascular mechanical red cell destruction. Findings are consistent with microangiopathic hemolytic anemia, which in the appropriate clinical setting suggests thrombotic thrombocytopenic purpura; urgent ADAMTS13 activity testing, LDH, haptoglobin, and coagulation studies are recommended.",
+  "ddx": [
+    {"dx": "Disseminated intravascular coagulation", "vs": "Also shows schistocytes and thrombocytopenia but with prolonged PT/aPTT, low fibrinogen and elevated D-dimer, while TTP has normal coagulation tests."},
+    {"dx": "Hemolytic uremic syndrome", "vs": "Morphology is identical, so separation relies on predominant renal failure, Shiga toxin or complement abnormalities and ADAMTS13 activity above 10%."},
+    {"dx": "Mechanical heart valve hemolysis", "vs": "Schistocytes occur with a prosthetic valve history and usually normal platelet counts."},
+    {"dx": "Bite/blister cells in oxidative hemolysis (G6PD deficiency)", "vs": "Bite cells show a semicircular notch with hemoglobin retracted, and Heinz bodies are present, rather than sharp-angled fragments with thrombocytopenia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

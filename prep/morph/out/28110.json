@@ -1,0 +1,22 @@
+{
+  "id": "28110",
+  "recognize_zh": "腦部 MRI FLAIR 看不出異常，但周邊血中出現大型、細胞質深藍的異常淋巴細胞，骨髓切片的免疫染色則顯示棕色陽性大細胞沿著竇狀血管呈線狀、分支狀排列——這種血管內分布是血管內大 B 細胞淋巴瘤（intravascular large B-cell lymphoma）的線索。",
+  "features": [
+    "Panel A: axial FLAIR MRI without discernible parenchymal signal abnormality",
+    "Panel B (PB): large atypical lymphoid cells with round nuclei, fine-to-moderately condensed chromatin and a rim of deeply basophilic cytoplasm",
+    "Panel C (BM H&E): hypercellular marrow with large atypical cells; inset shows a branching linear vascular structure",
+    "Panel D (IHC): positive large cells distributed in linear, branching intrasinusoidal/intravascular cords",
+    "Relative sparing of the interstitial marrow away from the stained sinusoids"
+  ],
+  "describe_en": "Composite figure: an axial FLAIR MRI of the brain shows no discernible abnormality (A). The peripheral blood smear contains occasional large atypical lymphoid cells with round nuclei and moderately abundant, deeply basophilic cytoplasm (B). The bone marrow trephine is hypercellular with large atypical cells (C), and immunohistochemistry (likely a B-cell marker) highlights these cells in a linear, branching intrasinusoidal distribution (D). Findings are consistent with intravascular large B-cell lymphoma involving bone marrow and blood.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, NOS with marrow involvement", "vs": "DLBCL forms nodular or interstitial mass-like infiltrates rather than being confined to the lumina of sinusoids and small vessels."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "Also sinusoidal, but the cells are medium-sized, express CD3 (usually CD4/CD8-negative, TCR gamma-delta) and lack B-cell markers."},
+    {"dx": "Aggressive NK-cell leukemia / intravascular NK/T-cell lymphoma", "vs": "Can be intravascular but is CD20-negative, cytoplasmic CD3-epsilon/CD56-positive and EBER-positive."},
+    {"dx": "Metastatic carcinoma with lymphovascular spread", "vs": "Carcinoma cells are cohesive and keratin-positive, CD45/CD20-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "MRI FLAIR; Wright-Giemsa; H&E; IHC (B-cell marker)",
+  "match": "consistent",
+  "high_yield": true
+}

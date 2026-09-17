@@ -1,0 +1,20 @@
+{
+  "id": "63808",
+  "recognize_zh": "PAX5 核染色中，許多大型、核仁明顯輪廓的腫瘤細胞核呈強且均勻的棕色核陽性，強度與周圍陰性細胞對比清楚；古典何杰金淋巴瘤的 RS 細胞通常只有弱 PAX5，這種強陽性支持 B 細胞來源的灰區淋巴瘤。",
+  "features": [
+    "Numerous large nuclei with strong, uniform nuclear PAX5 positivity",
+    "Positive nuclei are larger than background cells and irregularly clustered",
+    "Background of PAX5-negative cells with blue hematoxylin counterstain",
+    "Nuclear (not cytoplasmic) staining pattern confirms specificity"
+  ],
+  "describe_en": "Immunohistochemical stain for PAX5 on a tissue biopsy shows numerous large atypical cells with strong nuclear PAX5 expression, distributed in clusters within a background of PAX5-negative cells. The strong intensity of PAX5 in the large neoplastic cells supports B-cell derivation and is unusual for classical Hodgkin lymphoma, in which Hodgkin/Reed-Sternberg cells are characteristically dim PAX5 positive. In conjunction with CD45 positivity and the morphology, the findings support B-cell lymphoma with features intermediate between DLBCL and classical Hodgkin lymphoma (gray zone lymphoma).",
+  "ddx": [
+    {"dx": "Classical Hodgkin lymphoma", "vs": "HRS cells show weak PAX5 compared with the bright staining of reactive small B cells, whereas here the large cells are strongly positive."},
+    {"dx": "Diffuse large B-cell lymphoma / PMBL", "vs": "DLBCL/PMBL also show strong PAX5 but have uniform CD20, OCT2, BOB1 and lack CD15 and cHL-like morphology."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "LP cells are strongly PAX5/CD20+ but CD30-/CD15- and sit in nodules rich in small B cells with PD1+ T-cell rosettes."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PAX5",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "1308",
+  "recognize_zh": "腹水細胞離心抹片中充滿一致的中型腫瘤細胞，細胞質深藍並含小而清楚的脂質空泡，核圓、有數個小核仁，背景大量凋亡細胞核碎片，符合 Burkitt 淋巴瘤的高增生形態。",
+  "features": [
+    "Monotonous population of medium-sized discohesive lymphoid cells",
+    "High N:C ratio with deeply basophilic cytoplasm",
+    "Round nuclei with finely clumped chromatin and several small nucleoli",
+    "Punched-out clear cytoplasmic (lipid) vacuoles in many cells",
+    "Abundant apoptotic cells and karyorrhectic nuclear fragments in the background",
+    "Scattered red cells; no mesothelial or epithelial clusters"
+  ],
+  "describe_en": "Cytocentrifuge preparation of ascitic fluid is highly cellular, containing a monotonous population of medium-sized discohesive lymphoid cells. The cells have round nuclei with finely clumped chromatin and multiple small nucleoli, and scant to moderate deeply basophilic cytoplasm with sharply defined clear vacuoles. Numerous apoptotic cells and nuclear fragments are present in the background, reflecting high cell turnover. No cohesive epithelial or mesothelial groups are identified. Findings are consistent with involvement by Burkitt lymphoma; confirmation by flow cytometry (CD10+, BCL2-negative, Ki-67 near 100%) and MYC rearrangement studies is recommended.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma (including high-grade B-cell lymphoma with MYC and BCL2 rearrangements)", "vs": "DLBCL cells are larger and more pleomorphic with less uniform vacuolation; separation from double-hit lymphoma requires BCL2 expression and FISH."},
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts have finer blastic chromatin, scant non-vacuolated cytoplasm and are TdT+/surface Ig-negative, unlike TdT-negative, surface Ig-positive Burkitt cells."},
+    {"dx": "Metastatic carcinoma in effusion", "vs": "Carcinoma cells form cohesive three-dimensional clusters with larger nuclei and are keratin-positive."},
+    {"dx": "Reactive mesothelial cells and macrophages", "vs": "Mesothelial cells have dense two-tone cytoplasm with 'windows' and macrophages have foamy cytoplasm with bean-shaped nuclei, lacking a monotonous basophilic population."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

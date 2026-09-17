@@ -1,0 +1,22 @@
+{
+  "id": "60467",
+  "recognize_zh": "Ki-67 免疫染色下，大量中至大型腫瘤細胞呈細胞核強陽性，粗估約一半以上的腫瘤細胞為陽性且分布無極性，顯示高增殖指數，符合高級別濾泡性淋巴瘤（3B 級）。",
+  "features": [
+    "Numerous tumor nuclei with strong nuclear Ki-67 staining",
+    "Positive cells are medium to large with round to irregular nuclei",
+    "Estimated proliferation index roughly 50-60% in this field, without zonal polarization",
+    "Negative small cells and spindle stromal cells interspersed",
+    "Architecture (follicle boundaries) not evaluable at this magnification"
+  ],
+  "describe_en": "Ki-67 immunohistochemical stain shows strong nuclear positivity in a large proportion of medium to large neoplastic cells, estimated at roughly half or more of tumor cells in this field, distributed without the polarized pattern of a reactive germinal center. Interspersed small cells and stromal cells are negative. The high proliferation index supports a high-grade follicular lymphoma and, with sheets of centroblasts, is consistent with follicular lymphoma, grade 3B; Ki-67 alone does not substitute for centroblast counting in grading.",
+  "ddx": [
+    {"dx": "Low-grade follicular lymphoma (grade 1-2)", "vs": "Low-grade FL typically has a Ki-67 index below 20-30%, although some cases show discordantly high proliferation."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers have very high Ki-67 with a polarized dark-zone/light-zone distribution and are BCL2-negative."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma shows a near 100% Ki-67 index in a monotonous medium-sized population, higher than the index seen here."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL may have a similar proliferation index, so distinction requires demonstrating follicular architecture with CD21/CD23."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

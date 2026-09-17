@@ -1,0 +1,20 @@
+{
+  "id": "1406",
+  "recognize_zh": "周邊血液抹片中紅血球像一疊硬幣般串連成長鏈（rouleaux），在紅血球本來應分開的薄區仍成串出現，提示血中有大量單株免疫球蛋白，符合多發性骨髓瘤。",
+  "features": [
+    "Red cells stacked in long, linear chains resembling stacks of coins (rouleaux)",
+    "Rouleaux present in a thin area where red cells should lie separately",
+    "Individual red cells normocytic with central pallor where not stacked",
+    "Occasional small platelets in the background; no leukocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows prominent rouleaux formation, with red cells arranged in linear, coin-stack chains that persist in the thin monolayer portion of the smear. Unstacked red cells are normocytic with preserved central pallor. Few platelets are seen, and no leukocytes are present in this high-power field. Findings suggest increased plasma proteins, such as a monoclonal immunoglobulin, and are consistent with a plasma cell neoplasm in the appropriate clinical setting; serum protein electrophoresis with immunofixation is recommended.",
+  "ddx": [
+    {"dx": "Red cell agglutination (cold agglutinin disease)", "vs": "Agglutinates are irregular three-dimensional clumps rather than orderly linear stacks, and they may disperse on warming."},
+    {"dx": "Thick-area artifact", "vs": "Overlapping red cells in the thick part of a smear are random and disappear in the monolayer, whereas true rouleaux persist in the thin area."},
+    {"dx": "Polyclonal hypergammaglobulinemia or high fibrinogen (inflammation)", "vs": "Morphology cannot separate them; SPE/immunofixation shows a broad polyclonal increase or acute-phase pattern rather than a monoclonal spike."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61504",
+  "recognize_zh": "紅血球之間可見多個碎片狀紅血球（schistocyte），邊緣呈尖角、三角形或頭盔狀（helmet cell），另有兩顆較大、偏灰藍色的多染性紅血球（polychromasia）；在移植後使用 tacrolimus 的病人，應考慮移植相關血栓性微血管病變。",
+  "features": [
+    "Several schistocytes: small triangular and helmet-shaped red cell fragments with sharp angular edges",
+    "Mild anisocytosis with scattered microspherocyte-like fragments",
+    "Two large bluish-gray polychromatophilic red cells indicating reticulocytosis",
+    "Platelets present as small single forms; no platelet clumps",
+    "No nucleated red cells, agglutination, or intracellular parasites in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells with mild anisopoikilocytosis and several schistocytes, including triangular fragments and helmet cells with sharp angular edges. Occasional polychromatophilic red cells are present, indicating a marrow response. Platelets are seen as single forms without clumping, and no red cell agglutination or parasites are identified. In a patient receiving tacrolimus after hematopoietic stem cell transplantation, findings are consistent with a microangiopathic hemolytic process such as transplant-associated thrombotic microangiopathy.",
+  "ddx": [
+    {"dx": "Thrombotic thrombocytopenic purpura (ADAMTS13 deficiency)", "vs": "TTP shows the same schistocytes, so separation depends on ADAMTS13 activity below 10% rather than morphology."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC also produces schistocytes but is accompanied by prolonged PT/aPTT, low fibrinogen, and high D-dimer."},
+    {"dx": "Mechanical valve hemolysis", "vs": "Valve-related fragmentation occurs with a prosthetic valve history and normal platelet counts."},
+    {"dx": "Bite or blister cells of oxidative hemolysis", "vs": "Bite cells retain an intact rounded contour with a semicircular notch, whereas schistocytes are small angular fragments with pointed ends."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

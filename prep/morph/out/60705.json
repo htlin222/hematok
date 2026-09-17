@@ -1,0 +1,28 @@
+{
+  "id": "60705",
+  "recognize_zh": "骨髓抹片中大型細胞緊密聚集成團、彼此以細胞邊界相貼，外觀像轉移性癌細胞團；但細胞質灰藍、核卵圓、染色質細緻且有小核仁，屬於淋巴瘤細胞的黏聚假象，需以免疫表型確認為肝脾 T 細胞淋巴瘤。",
+  "features": [
+    "Cohesive-appearing clusters of large atypical cells with molded cell borders, mimicking epithelial tumor clumps",
+    "Oval to reniform nuclei with fine to slightly granular chromatin and one or more small nucleoli",
+    "Moderate pale gray-blue cytoplasm, occasionally with small vacuoles and faint granularity",
+    "Relatively uniform (monomorphic) population within each cluster",
+    "Background peripheral red cells, a neutrophil and scattered small erythroid/lymphoid cells outside the clusters"
+  ],
+  "describe_en": "Bone marrow aspirate smears contain tight clusters of large atypical cells with molded borders, oval to indented nuclei, finely dispersed chromatin, small nucleoli and moderate pale gray-blue cytoplasm. The clumping pattern closely mimics metastatic carcinoma or a small round cell tumor, but the cells show hematolymphoid rather than epithelial cytologic features, without gland formation or mucin. Flow cytometry or immunohistochemistry (CD45, CD3, TCRγδ, cytokeratin) is required; with a CD3+, CD4−/CD8−, TCRγδ+ phenotype, findings are consistent with hepatosplenic T-cell lymphoma mimicking bone marrow metastasis.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells are truly cohesive with acinar/glandular arrangements, cytokeratin positivity and CD45 negativity, unlike these CD45+/CD3+ lymphoma cells."},
+    {"dx": "Metastatic small round blue cell tumor (neuroblastoma, rhabdomyosarcoma)", "vs": "These form rosettes or syncytial clumps in children, are CD45-negative and express neural or myogenic markers (synaptophysin, myogenin)."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows more pleomorphic hallmark cells with horseshoe nuclei and strong CD30 (±ALK), while HSTCL cells are monomorphic, CD30-negative γδ T cells in sinusoids."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts rarely cluster, may have Auer rods and are MPO/CD33/CD117 positive rather than surface CD3 positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Aspirate: cluster of large atypical cells with molded borders beside a neutrophil",
+    "Aspirate: tightly packed cluster mimicking metastatic tumor",
+    "Aspirate: cohesive group with oval nuclei and small nucleoli",
+    "Aspirate: clump of monomorphic lymphoma cells with pale cytoplasm"
+  ]
+}

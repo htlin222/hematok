@@ -1,0 +1,21 @@
+{
+  "id": "62826",
+  "recognize_zh": "雌激素受體（ER）免疫染色下，瀰漫浸潤骨髓的腫瘤細胞核大多呈強烈深棕色陽性，夾雜的小型造血細胞核為藍色陰性；腫瘤細胞 ER 核陽性，支持轉移性乳癌。",
+  "features": [
+    "IHC for estrogen receptor on a marrow core with diffuse tumor infiltration and scattered fat spaces",
+    "Strong nuclear staining in the large majority of tumor cells, with some weaker nuclei",
+    "Faint nonspecific cytoplasmic blush in some tumor cells",
+    "Interspersed small residual hematopoietic cells with negative blue nuclei",
+    "Tumor cells arranged in discohesive sheets without glands"
+  ],
+  "describe_en": "Immunohistochemical stain for estrogen receptor on the bone marrow core shows strong nuclear positivity in the large majority of the diffusely infiltrating tumor cells, while interspersed small residual hematopoietic cells are negative. Faint cytoplasmic blush is present but nuclear localization is unequivocal. In conjunction with GATA3 positivity, cytoplasmic p120 and the plasmacytoid discohesive morphology, findings support metastatic ER-positive lobular breast carcinoma.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Plasma cells are ER and GATA3 negative and show CD138/MUM1 positivity with light chain restriction."},
+    {"dx": "Metastatic gynecologic (endometrial or ovarian) carcinoma", "vs": "These can be ER positive but are PAX8 positive and usually GATA3 negative."},
+    {"dx": "Metastatic gastric signet ring carcinoma", "vs": "Gastric signet ring carcinoma is typically ER and GATA3 negative and often CDX2 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: ER",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1201",
+  "recognize_zh": "積液細胞抹片中大量中到大型、胞質深藍嗜鹼性的淋巴樣細胞，中央一顆巨大多核、胞質強嗜鹼的奇異細胞，背景有嗜中性球與紅血球；這種漿母細胞樣／免疫母細胞樣大細胞在積液中出現，符合原發性積液淋巴瘤（PEL）。",
+  "features": [
+    "Numerous medium-to-large discohesive lymphoid cells with round nuclei and moderate deeply basophilic cytoplasm",
+    "Central giant bizarre cell with abundant intensely basophilic cytoplasm and a large irregular/multilobated nucleus with visible nucleoli",
+    "Some tumor cells with scalloped or blebbed cytoplasmic borders",
+    "Admixed neutrophils and occasional small lymphocytes",
+    "Hemorrhagic background with abundant erythrocytes; no cohesive epithelial clusters"
+  ],
+  "describe_en": "Cytospin preparation of an effusion shows a hemorrhagic background with numerous discohesive medium-to-large atypical lymphoid cells that have round nuclei, fine chromatin and moderate amounts of deeply basophilic cytoplasm. A large bizarre cell with an irregular multilobated nucleus and abundant intensely basophilic cytoplasm is present centrally. Scattered neutrophils and occasional small lymphocytes are seen; cohesive epithelial or mesothelial clusters are not identified. Findings are consistent with a high-grade large cell lymphoma with plasmablastic/immunoblastic features and, in the effusion setting, suggestive of primary effusion lymphoma; HHV8 (LANA) immunostaining is required for confirmation.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma in effusion", "vs": "Burkitt cells are monotonous medium-sized cells with deeply basophilic cytoplasm containing lipid vacuoles, lacking the pleomorphic giant cells seen here."},
+    {"dx": "Diffuse large B-cell lymphoma involving effusion", "vs": "DLBCL expresses pan-B-cell markers (CD20, PAX5) and is HHV8-negative, whereas PEL has a null/plasmablastic phenotype."},
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells form cohesive groups with dense cytoplasm, 'windows' and knobby borders, and are cytokeratin/calretinin positive."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells form three-dimensional cohesive clusters and are epithelial-marker positive rather than dispersed CD45/CD138-positive cells."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

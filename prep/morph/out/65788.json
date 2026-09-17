@@ -1,0 +1,21 @@
+{
+  "id": "65788",
+  "recognize_zh": "這是流式細胞儀散佈圖，不是形態學影像：紅色異常細胞群 cCD3 陽性、MPO 陰性（綠色為 MPO+ 顆粒球作內部對照），CD22 與 cCD79a 陰性；橘色小群為 CD22+/cCD79a+ 的正常 B 淋巴球，確認腫瘤細胞為 T 系。",
+  "features": [
+    "Plot 1: dominant red population is cytoplasmic CD3 positive and MPO negative; green granulocytes are MPO positive/cCD3 negative as internal control",
+    "Plot 2: red population CD22 negative across the cCD3-positive range; small orange cluster is CD22 positive/cCD3 negative",
+    "Plot 3: red population cCD79a negative, with a gated residual B-lymphocyte population (orange) co-expressing CD22 and cCD79a",
+    "Plot 4: CD22-positive cells are CD34 negative (mature B cells), and the red population is CD34 negative",
+    "Lineage conclusion: T-lineage without myeloid or B-lineage co-expression"
+  ],
+  "describe_en": "This figure shows flow cytometry lineage-assignment plots rather than a morphologic image. The abnormal population (red) is positive for cytoplasmic CD3 and negative for MPO, cytoplasmic CD79a, CD22 and CD34. Internal controls behave appropriately, with MPO-positive granulocytes (green) and a small population of CD22/cCD79a-positive, CD34-negative mature B cells (orange). Findings establish T-lineage without evidence of myeloid or B-lineage co-expression, consistent with the T-cell neoplasm (hepatosplenic T-cell lymphoma) in this case.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-ALL is also cCD3 positive but usually expresses TdT and/or CD34 or CD1a, whereas this population is CD34 negative."},
+    {"dx": "Mixed phenotype acute leukemia, T/myeloid", "vs": "MPAL T/myeloid would show MPO co-expression on the cCD3-positive population, which is absent here."},
+    {"dx": "NK-cell neoplasm", "vs": "NK cells may express cytoplasmic CD3 epsilon but lack surface CD3 and TCR, requiring surface CD3 and TCR gamma-delta/alpha-beta staining to separate."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

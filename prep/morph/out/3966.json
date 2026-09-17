@@ -1,0 +1,20 @@
+{
+  "id": "3966",
+  "recognize_zh": "箭頭指的紅血球內血紅素濃縮成邊緣平直、有稜角的深色結晶塊，周圍留下淡染的空殼，形狀像手套或指狀突起，這就是 HbSC 結晶；背景還有許多靶形紅血球（target cells）。",
+  "features": [
+    "Red cells with dense, straight-edged, angular hemoglobin crystals protruding from the cell (arrows)",
+    "Crystals leave pale, hemoglobin-poor cytoplasm in the rest of the cell; one has a glove/finger-like shape",
+    "Numerous target cells and folded cells in the background",
+    "No classic thin sickle cells in this field; platelets adequate"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered red cells containing dense, straight-edged, angular hemoglobin crystals that bulge from the cell outline, leaving the remaining cytoplasm pale (arrows); one crystal-containing cell has a glove-like shape. The background shows numerous target cells and folded forms, while classic elongated sickle cells are not seen in this field. Findings are consistent with hemoglobin SC disease; hemoglobin HPLC or electrophoresis should confirm HbS and HbC.",
+  "ddx": [
+    {"dx": "Hemoglobin CC disease", "vs": "HbC crystals in HbCC are hexagonal or rod-shaped with parallel sides, with many target cells and spherocytes, and without finger-like SC crystal projections."},
+    {"dx": "Sickle cell anemia (HbSS)", "vs": "HbSS shows many thin, crescent sickle cells with pointed ends rather than blunt, angular crystals."},
+    {"dx": "Irregularly contracted cells or fragmented red cells", "vs": "Contracted cells and schistocytes are uniformly dense throughout without a crystal inside a pale ghost of residual membrane."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

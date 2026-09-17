@@ -1,0 +1,22 @@
+{
+  "id": "64056",
+  "recognize_zh": "這是 G 顯帶核型圖：箭頭標示 13、14、18、22 號染色體異常，單一條 8 號與 17 號染色體（-8、-17），並另排一組標記染色體（mar）；下方核型式寫明 t(14;18)(q32;q21)，這是濾泡性淋巴瘤的特徵易位（IGH::BCL2）。",
+  "features": [
+    "GTG-banded karyogram at ~400 band resolution, male (XY), 50 metaphases analyzed",
+    "Arrows mark abnormal chromosomes 13, 14, 18 and 22",
+    "Only one chromosome 8 and one chromosome 17 are displayed (monosomy 8 and 17)",
+    "A separate 'mar' slot shows two unidentified marker chromosomes",
+    "Stated karyotype: 46,XY,-8,add(13)(q34),t(14;18)(q32;q21),-17,del(22)(q11)[15]/46,XY[35]"
+  ],
+  "describe_en": "Conventional G-banded chromosome analysis of 50 metaphases shows an abnormal clone in 15 cells and a normal male karyotype in 35 cells. The abnormal clone carries t(14;18)(q32;q21), additional material on 13q34, a 22q11 deletion and loss of chromosomes 8 and 17, and the karyogram displays two marker chromosomes that restore the modal number to 46; note that the written karyotype omits +2mar, which should be reconciled with the laboratory report. This is a non-morphologic figure. The t(14;18) indicates IGH::BCL2 rearrangement consistent with a follicular lymphoma-derived clone, and the complex secondary abnormalities (including 17/TP53 loss) support possible transformation to large B-cell lymphoma in the clinical context.",
+  "ddx": [
+    {"dx": "De novo diffuse large B-cell lymphoma with BCL2 rearrangement", "vs": "Cytogenetics cannot separate de novo from transformed DLBCL; history or histologic evidence of a follicular component is required."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Double-hit lymphoma additionally shows an 8q24 MYC rearrangement (e.g., t(8;14) or variant), which is not described here, and should be excluded by MYC FISH."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL carries t(11;14)(q13;q32) CCND1::IGH rather than t(14;18)."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is defined by t(8;14)(q24;q32) or variants with a usually simple karyotype, not t(14;18)."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "GTG banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65190",
+  "recognize_zh": "骨髓抹片中漿細胞（包括雙核漿細胞）的細胞質內可見粗大、嗜天青/粉紅色的顆粒（箭頭），配合流式細胞儀 CD138+/CD56+/cKappa+ 的單株漿細胞群，為 Snapper-Schneid bodies。",
+  "features": [
+    "Flow cytometry: CD138-positive population (green) with cytoplasmic kappa expression and CD56 positivity, CD19 negative",
+    "Plasma cells with eccentric nuclei, clumped chromatin and basophilic cytoplasm; one binucleated form",
+    "Coarse azurophilic to pink cytoplasmic granules in a subset of plasma cells (arrows), distinct from Russell bodies",
+    "Scattered small clear cytoplasmic vacuoles; one plasma cell with large confluent vacuoles (panel F)",
+    "Background of mixed marrow elements including granulocytic precursors and red cells"
+  ],
+  "describe_en": "Flow cytometric plots show a CD138-positive plasma cell population with cytoplasmic kappa light chain restriction and aberrant CD56 expression, lacking CD19. Bone marrow aspirate smears show increased plasma cells, including binucleated forms, some of which contain coarse azurophilic/pink cytoplasmic granules and others showing prominent cytoplasmic vacuolization. The granules are coarser than normal primary granules and distinct from globular Russell bodies. Findings are consistent with plasma cell myeloma with Snapper-Schneid bodies.",
+  "ddx": [
+    {"dx": "Plasma cells with Russell bodies (Mott cells)", "vs": "Russell bodies are larger, round, pale or eosinophilic immunoglobulin globules, whereas Snapper-Schneid bodies are smaller coarse azurophilic lysosomal granules."},
+    {"dx": "Promyelocytes / myeloid precursors", "vs": "Promyelocytes have perinuclear hofs as well but finer chromatin, nucleoli and abundant azurophilic granules throughout, and they are CD138 negative and MPO positive."},
+    {"dx": "Pseudo-Chédiak-Higashi granules in a myeloid or lymphoid neoplasm", "vs": "Pseudo-Chédiak-Higashi inclusions are large, few, and occur in blasts or non-plasma cells, whereas here the granules are in clonal CD138+ plasma cells."},
+    {"dx": "Mast cells", "vs": "Mast cells have dense purple metachromatic granules filling the cytoplasm and are tryptase/CD117 positive rather than CD138/kappa positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

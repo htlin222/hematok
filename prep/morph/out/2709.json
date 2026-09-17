@@ -1,0 +1,21 @@
+{
+  "id": "2709",
+  "recognize_zh": "骨髓抹片中央有一顆比周圍造血細胞大數倍的巨噬細胞，細胞質淡藍色、充滿纖維狀條紋，呈「皺紙（crumpled tissue paper）」外觀，核小且偏位，是典型的高雪氏細胞（Gaucher cell）。",
+  "features": [
+    "Very large histiocyte, several times the diameter of adjacent myeloid precursors",
+    "Abundant pale blue-gray cytoplasm with fibrillary, wrinkled 'crumpled tissue paper' striations",
+    "Small, eccentric, round-to-oval nuclei with condensed chromatin",
+    "No discrete vacuoles or phagocytosed cells within the cytoplasm",
+    "Background of normal maturing granulocytic precursors and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows normal maturing granulocytic precursors and a large histiocyte several times the size of surrounding cells. The histiocyte has abundant pale blue-gray cytoplasm with a fibrillary, wrinkled 'crumpled tissue paper' texture and small eccentric nuclei. There is no hemophagocytosis or vacuolated foamy change. Findings are consistent with a Gaucher cell; confirmation of Gaucher disease requires glucocerebrosidase enzyme assay and GBA1 genotyping, since pseudo-Gaucher cells occur in other disorders.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells (CML, myeloma, thalassemia, mycobacterial infection)", "vs": "Pseudo-Gaucher cells are morphologically similar but occur with an underlying neoplasm or infection and normal glucocerebrosidase activity; mycobacterial forms contain acid-fast bacilli."},
+    {"dx": "Niemann-Pick disease (foam cells) / sea-blue histiocytes", "vs": "Niemann-Pick cells have finely vacuolated soap-bubble cytoplasm and sea-blue histiocytes have blue-green granules, not fibrillary striations."},
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes have a single large multilobated nucleus and granular pink cytoplasm, not small eccentric nuclei with striated pale cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62765",
+  "recognize_zh": "左邊周邊血液（A）、右邊骨髓抹片（B）都可見中大型淋巴樣細胞，胞質深藍色並佈滿明顯空泡，外觀很像 Burkitt 淋巴瘤；但診斷為被套細胞淋巴瘤，必須靠 cyclin D1/SOX11 或 t(11;14) 確認，不能只看形態。",
+  "features": [
+    "Medium to large lymphoid cells with round to slightly irregular nuclei",
+    "Finely dispersed to moderately condensed chromatin with small nucleoli in some cells",
+    "Deeply basophilic cytoplasm containing numerous discrete clear vacuoles",
+    "Panel A: circulating atypical cells in peripheral blood with normal-appearing red cells",
+    "Panel B: marrow aspirate largely replaced by the same vacuolated cells with few residual normal elements"
+  ],
+  "describe_en": "Composite image shows peripheral blood (A) and bone marrow aspirate (B). Both contain a population of medium to large atypical lymphoid cells with round to mildly irregular nuclei, fine chromatin, and moderate amounts of deeply basophilic cytoplasm with numerous prominent vacuoles, closely mimicking Burkitt lymphoma cells. The marrow is extensively infiltrated with few residual hematopoietic precursors. Morphology alone cannot distinguish this from Burkitt lymphoma; cyclin D1 or SOX11 expression or t(11;14)(q13;q32) is required. In that context, findings are consistent with mantle cell lymphoma with unusual Burkitt-like morphology.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells are CD10+, BCL2-negative, have MYC rearrangement with Ki-67 near 100%, and lack cyclin D1 and t(11;14)."},
+    {"dx": "Blastoid or pleomorphic mantle cell lymphoma", "vs": "Blastoid MCL shares cyclin D1 positivity but usually has lymphoblast-like fine chromatin without prominent cytoplasmic vacuoles."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Double-hit lymphoma can look Burkitt-like but is defined by MYC plus BCL2 rearrangements on FISH and is cyclin D1 negative."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monoblasts may be vacuolated but have folded nuclei, gray-blue cytoplasm with fine granules, and are NSE and CD64/CD14 positive rather than B-cell markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

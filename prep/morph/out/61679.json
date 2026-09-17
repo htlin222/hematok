@@ -1,0 +1,23 @@
+{
+  "id": "61679",
+  "recognize_zh": "這顆淋巴樣細胞比小淋巴球稍大，核圓至橢圓、染色質中度濃縮，中央隱約可見一個小核仁，細胞質深嗜鹼性且左緣有小突起（cytoplasmic bleb），這些是 T 前淋巴球白血病（T-PLL）細胞的線索，但需免疫表型確認。",
+  "features": [
+    "Single medium-sized lymphoid cell, larger than a small mature lymphocyte",
+    "Moderate N:C ratio with round to slightly oval, eccentric nucleus",
+    "Moderately condensed, somewhat clumped chromatin with a faint small central nucleolus",
+    "Moderate amount of deeply basophilic cytoplasm without granules",
+    "Small cytoplasmic protrusion (bleb) at the left cell border",
+    "Background normocytic red cells without other leukocytes in field"
+  ],
+  "describe_en": "Peripheral blood smear shows a medium-sized atypical lymphoid cell among unremarkable red cells. The cell has a round to oval nucleus with moderately condensed chromatin and a small, inconspicuous nucleolus, surrounded by a moderate rim of deeply basophilic, agranular cytoplasm with a small cytoplasmic bleb. A single cell cannot establish the diagnosis, but in context the morphology is consistent with T-prolymphocytic leukemia; confirmation requires flow cytometry (CD3+, CD7 bright) and TCL1A/MTCP1 rearrangement studies.",
+  "ddx": [
+    {"dx": "B-prolymphocytic leukemia / CLL with increased prolymphocytes", "vs": "B-lineage prolymphocytes have a single prominent central nucleolus and paler cytoplasm without blebs, and flow cytometry shows B-cell markers rather than CD3/CD7."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform, deeply grooved nuclei with scant cytoplasm and are CD7 negative/CD26 negative, whereas T-PLL cells have rounder nuclei and basophilic blebbed cytoplasm."},
+    {"dx": "Reactive (atypical) lymphocyte", "vs": "Reactive lymphocytes are heterogeneous, with abundant cytoplasm that scallops around red cells and basophilia at the periphery, rather than a monotonous population with blebs."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells have circumferential fine hair-like projections, pale gray-blue cytoplasm and an oval or bean-shaped nucleus with no nucleolus, and are CD11c/CD25/CD103 positive B cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

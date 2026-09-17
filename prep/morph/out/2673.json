@@ -1,0 +1,21 @@
+{
+  "id": "2673",
+  "recognize_zh": "多處紅血球疊成硬幣串，中央一條長鏈與左側短串都呈線狀排列，背景偏淡粉色；線性堆疊而非不規則成團，是 rouleaux，提示血漿蛋白增加（如漿細胞腫瘤）。",
+  "features": [
+    "Red cells stacked in linear chains of 3 to about 10 cells",
+    "Stacks linear or gently curved with regular overlap, not irregular clumps",
+    "Many single red cells with central pallor interspersed",
+    "Occasional crenated (echinocytic) red cells and a platelet",
+    "Faintly tinted background"
+  ],
+  "describe_en": "Peripheral blood smear shows prominent rouleaux formation, with red cells arranged in linear, coin-like stacks ranging from a few cells to chains of about ten. Numerous single red cells and occasional crenated forms are interspersed, and irregular agglutinates are absent. The background shows faint staining. Findings are consistent with rouleaux formation, which in the appropriate clinical setting raises concern for a plasma cell neoplasm or other cause of increased plasma proteins.",
+  "ddx": [
+    {"dx": "Cold agglutinin disease", "vs": "Agglutinates are irregular, randomly oriented clumps and are associated with a high MCV/low RBC artifact on the analyzer that corrects with warming."},
+    {"dx": "Smear thickness artifact", "vs": "In thick areas cells overlap randomly everywhere; true rouleaux is seen in the proper monolayer reading zone."},
+    {"dx": "Inflammatory rouleaux (fibrinogen, polyclonal IgG)", "vs": "Morphology is the same; protein electrophoresis, immunofixation and free light chains separate reactive from monoclonal causes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

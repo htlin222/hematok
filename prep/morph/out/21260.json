@@ -1,0 +1,22 @@
+{
+  "id": "21260",
+  "recognize_zh": "腦脊髓液細胞離心抹片中大量單一形態的大型淋巴樣細胞，核圓、偏大、可見明顯核仁，細胞質中等量偏藍，部分有細小空泡，缺乏正常小淋巴球與單核球背景，提示瀰漫性大 B 細胞淋巴瘤的中樞神經侵犯。",
+  "features": [
+    "Monotonous population of large lymphoid cells, about 2-3 times the size of a small lymphocyte",
+    "Round to slightly indented nuclei with vesicular chromatin and one or more distinct nucleoli",
+    "Moderate grey-blue cytoplasm, some cells with fine cytoplasmic vacuoles",
+    "Cells crowded together with artifactual flattening from cytocentrifugation but no true cohesive molding",
+    "Few background small lymphocytes or monocytes"
+  ],
+  "describe_en": "CSF cytospin preparation is hypercellular and composed of a monotonous population of large atypical lymphoid cells with round nuclei, vesicular chromatin, distinct nucleoli and moderate basophilic cytoplasm, some with fine vacuoles. Cells are crowded by cytocentrifugation without true epithelial cohesion, and normal small lymphocytes and monocytes are sparse. Findings are consistent with leptomeningeal involvement by large B-cell lymphoma; confirmation by CSF flow cytometry demonstrating a light chain-restricted CD19/CD20-positive population is recommended.",
+  "ddx": [
+    {"dx": "Reactive lymphocytosis (viral meningitis)", "vs": "Reactive CSF shows a mixed population of small lymphocytes, activated lymphocytes and monocytes rather than a monotonous large-cell population."},
+    {"dx": "Carcinomatous meningitis", "vs": "Carcinoma cells form true three-dimensional cohesive clusters with nuclear molding and are cytokeratin-positive."},
+    {"dx": "Burkitt lymphoma or lymphoblastic leukemia", "vs": "Burkitt cells are medium-sized with deeply basophilic, heavily vacuolated cytoplasm, and lymphoblasts have fine chromatin and TdT positivity."},
+    {"dx": "Plasma cell leptomeningeal disease", "vs": "Plasma cells have eccentric nuclei, perinuclear hof and a CD38/CD138-positive phenotype."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

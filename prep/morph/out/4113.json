@@ -1,0 +1,22 @@
+{
+  "id": "4113",
+  "recognize_zh": "一串大型母細胞，細胞質豐富灰藍色、布滿細小空泡，核圓至腎形、染色質細緻帶核仁，最上方的母細胞細胞質空泡內吞入一個紅血球，即白血病母細胞吞噬紅血球（單核球系母細胞特徵）。",
+  "features": [
+    "Cluster of large blasts with abundant gray-blue cytoplasm containing numerous small vacuoles",
+    "Round to reniform nuclei with finely dispersed chromatin and one or more nucleoli",
+    "Uppermost blast contains an engulfed erythrocyte within a cytoplasmic vacuole (erythrophagocytosis)",
+    "Absence of Auer rods; few fine azurophilic granules",
+    "Adjacent smaller cells include a neutrophil and a crushed cell; background RBCs"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of large blasts with abundant gray-blue, finely vacuolated cytoplasm, round to reniform nuclei with delicate chromatin and visible nucleoli, consistent with monoblasts/promonocytes. The uppermost blast contains a phagocytosed red blood cell within a cytoplasmic vacuole. Auer rods are not seen. Findings are consistent with acute monoblastic/monocytic leukemia with blast erythrophagocytosis; this feature should prompt evaluation for KAT6A::CREBBP t(8;16)(p11.2;p13.3) and for coagulopathy.",
+  "ddx": [
+    {"dx": "Reactive hemophagocytic macrophage", "vs": "Benign macrophages have small bland nuclei with condensed chromatin and no nucleoli, unlike these blasts with fine chromatin and nucleoli."},
+    {"dx": "Acute promyelocytic leukemia (microgranular)", "vs": "APL cells have bilobed nuclei, dense granules or Auer rod bundles and strong MPO, and lack erythrophagocytosis."},
+    {"dx": "Plasma cells / plasmablastic neoplasm", "vs": "Plasmablasts have eccentric nuclei with a perinuclear hof and deeply basophilic cytoplasm, without phagocytosed RBCs."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN cells show a pearl-necklace row of cytoplasmic vacuoles but are CD123/TCL1/CD4/CD56-positive and nonspecific esterase negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

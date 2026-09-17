@@ -1,0 +1,22 @@
+{
+  "id": "61610",
+  "recognize_zh": "骨髓抹片以中大型芽細胞為主，核圓、染色質細緻、胞質中等量呈嗜鹼性，部分可見少量顆粒與核旁淡染區，旁邊夾雜少數成熟嗜中性球，符合伴成熟的 AML 型態（CEBPA 突變需分子檢測確認）。",
+  "features": [
+    "Predominance of medium-to-large blasts with round to oval nuclei",
+    "Fine, dispersed chromatin with small inconspicuous nucleoli",
+    "Moderate basophilic cytoplasm, some cells with sparse azurophilic granules and a perinuclear hof",
+    "Scattered maturing neutrophils (segmented forms) and a few erythroid precursors",
+    "No hypergranular promyelocytes, monocytic nuclear folding, or overt dysplasia"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular and composed predominantly of medium-to-large blasts with round to oval nuclei, finely dispersed chromatin, inconspicuous nucleoli, and moderate basophilic cytoplasm, a subset containing sparse azurophilic granules. Scattered maturing neutrophils are present, suggesting some granulocytic maturation. There are no hypergranular promyelocytes, no monocytoid features, and no significant dysplasia in this field. Findings are consistent with acute myeloid leukemia; the specific genetic subtype (mutated CEBPA) cannot be determined morphologically and requires molecular testing.",
+  "ddx": [
+    {"dx": "AML with NPM1 mutation", "vs": "NPM1-mutated AML often shows cup-like nuclear invaginations and monocytic features, but separation from CEBPA-mutated AML requires molecular testing."},
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "t(8;21) blasts have abundant cytoplasm with salmon-colored granules, prominent perinuclear hofs, and long single Auer rods with dysplastic neutrophils."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts have scant agranular cytoplasm and lack accompanying granulocytic maturation; MPO negativity and lymphoid flow markers confirm."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells are hypergranular promyelocytes with bilobed nuclei and bundles of Auer rods, not agranular to sparsely granular blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

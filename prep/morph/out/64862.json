@@ -1,0 +1,22 @@
+{
+  "id": "64862",
+  "recognize_zh": "這張其實不是 H&E，而是骨髓切片的免疫組織化學染色：幾乎所有中等大小的腫瘤細胞，細胞質都有棕色顆粒狀、點狀的陽性。這種 cytotoxic granule 型的染色分布，放在 EBV 陽性 NK 細胞白血病的背景下，支持 aggressive NK-cell leukemia 的瀰漫性浸潤。",
+  "features": [
+    "Diffuse, sheet-like interstitial infiltrate replacing marrow, with only a few residual adipocytes",
+    "Medium to large cells with round to oval, pale hematoxylin-counterstained nuclei",
+    "Scant to moderate cytoplasm with coarse granular/dot-like brown (DAB) immunoreactivity in most cells",
+    "Granular cytoplasmic pattern resembles cytotoxic granule protein staining (e.g., TIA-1/granzyme B/perforin), but the antibody is not labeled",
+    "Normal trilineage hematopoiesis is not identifiable in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy section stained by immunohistochemistry (not H&E as titled), with hematoxylin counterstain. The marrow is diffusely replaced by sheets of medium to large atypical cells with round to oval nuclei. Most infiltrating cells show granular, dot-like cytoplasmic immunoreactivity, a pattern typical of cytotoxic granule-associated proteins, although the specific antibody is not identified in the image. Residual normal hematopoiesis is not evident in this field. In the appropriate clinical and immunophenotypic context (CD3ε+, surface CD3−, CD56+, EBER+), findings are consistent with marrow involvement by aggressive NK-cell leukemia.",
+  "ddx": [
+    {"dx": "Extranodal NK/T-cell lymphoma with marrow involvement", "vs": "Shares the same NK phenotype and EBV positivity; separation relies on clinical presentation (leukemic, multiorgan, fulminant course versus a nasal/extranodal mass) rather than marrow morphology."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL shows a subtle interstitial/intrasinusoidal infiltrate of small mature cells that are surface CD3+, CD8+ and EBV-negative, not diffuse sheets of atypical cells."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL shows a mainly intrasinusoidal pattern of monomorphic γδ T cells that are EBER-negative and usually lack cytotoxic granule protein expression other than TIA-1."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts would be MPO/CD33/CD34/CD117 positive and EBER-negative, lacking the NK-associated cytotoxic granule and CD56/CD3ε profile."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (antibody not specified; granular cytoplasmic)",
+  "match": "discordant",
+  "high_yield": false
+}

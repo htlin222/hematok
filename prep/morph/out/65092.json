@@ -1,0 +1,21 @@
+{
+  "id": "65092",
+  "recognize_zh": "這是影像學圖而非切片：左為胸部增強 CT 軸切面、中為矢狀切面，藍色箭頭指前縱膈血管前區一個輕度顯影的軟組織腫塊；右為 PET-CT 融合影像，綠色箭頭顯示該病灶攝取 FDG。單一部位的縱膈腫塊是單中心性 Castleman 病常見表現，但確診仍需切除後病理。",
+  "features": [
+    "Axial contrast-enhanced chest CT: mildly enhancing soft tissue mass in the prevascular (anterior) mediastinum (blue arrow)",
+    "Sagittal CT reformat: same well-circumscribed anterior mediastinal lesion anterior to the great vessels (blue arrow)",
+    "Axial fused PET-CT: FDG uptake localized to the anterior mediastinal lesion (green arrow)",
+    "No other enlarged lymph node stations are shown in these selected images",
+    "Figure includes an explanatory text caption beneath the images"
+  ],
+  "describe_en": "This is a non-morphologic radiology figure. Axial and sagittal contrast-enhanced CT images demonstrate a mildly enhancing, well-circumscribed soft tissue mass in the prevascular region of the anterior mediastinum, and the fused PET-CT image shows that the lesion is FDG-avid. The findings indicate a solitary metabolically active mediastinal mass, which is a recognized presentation of unicentric Castleman disease but is radiologically nonspecific. Excision with histologic examination is required to distinguish it from thymic epithelial tumors and lymphoma.",
+  "ddx": [
+    {"dx": "Thymoma or thymic carcinoma", "vs": "Thymic epithelial tumors arise in the same prevascular compartment and can be FDG-avid, so histology showing keratin-positive epithelial cells is needed for separation."},
+    {"dx": "Classic Hodgkin lymphoma or primary mediastinal large B-cell lymphoma", "vs": "Lymphomas are typically more intensely FDG-avid, often bulky or multistation, and require biopsy with CD30/CD15 or CD20/CD23 immunostaining."},
+    {"dx": "Mediastinal germ cell tumor", "vs": "Germ cell tumors may contain fat, calcification or cystic change and are associated with elevated AFP or beta-hCG."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

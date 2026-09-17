@@ -1,0 +1,23 @@
+{
+  "id": "60738",
+  "recognize_zh": "周邊血中血小板少且出現與紅血球大小相近的巨大血小板（C 箭頭），嗜中性球細胞質內有淡藍色、類似 Döhle 小體的包涵體 (A 虛線箭頭)，電子顯微鏡 (B) 見無膜包覆的細絲狀聚集區，組合符合 MYH9 相關疾病。",
+  "features": [
+    "Panel A: thrombocytopenic smear; neutrophils (dashed arrow) with a faint pale-blue cytoplasmic inclusion resembling a Döhle body (subtle at this resolution)",
+    "Panel A: small platelet at upper right, few platelets overall",
+    "Panel B (electron microscopy): neutrophil cytoplasm with a non-membrane-bound area of fine filamentous, ribosome-poor material (arrow)",
+    "Panel C: giant platelet approaching the size of a red cell (arrow) next to a lymphocyte and neutrophils",
+    "Panel D: pale-blue structure between red cells (arrow), likely a pale giant platelet or detached inclusion",
+    "Red cells normocytic, normochromic"
+  ],
+  "describe_en": "Peripheral blood smear shows thrombocytopenia with giant platelets, some approaching the size of red cells, and neutrophils containing faint pale-blue, Döhle-like cytoplasmic inclusions. Electron microscopy of a neutrophil demonstrates a non-membrane-bound aggregate of fine filaments corresponding to the light microscopic inclusion. Findings are consistent with an MYH9-related disorder (congenital macrothrombocytopenia with neutrophil inclusions); confirmation by non-muscle myosin IIA immunofluorescence and MYH9 genetic testing is recommended.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "ITP may have large platelets but lacks neutrophil inclusions and giant platelets as large as red cells, and responds to immunosuppression."},
+    {"dx": "Bernard-Soulier syndrome", "vs": "Bernard-Soulier shows giant platelets without neutrophil inclusions and absent ristocetin-induced agglutination due to GPIb-IX-V deficiency."},
+    {"dx": "Gray platelet syndrome", "vs": "Gray platelets are large, pale and agranular due to alpha-granule deficiency, without Döhle-like neutrophil inclusions."},
+    {"dx": "Toxic Döhle bodies in infection", "vs": "True Döhle bodies accompany toxic granulation in sepsis and are not associated with lifelong giant platelets or MYH9 aggregates."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; electron microscopy",
+  "match": "consistent",
+  "high_yield": true
+}

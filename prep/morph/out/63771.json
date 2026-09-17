@@ -1,0 +1,22 @@
+{
+  "id": "63771",
+  "recognize_zh": "藍色（methylene blue）背景下散布大量細長、略彎曲、呈串珠狀的洋紅色桿菌，這就是抗酸染色（Ziehl-Neelsen）陽性的抗酸桿菌（AFB），配合肉芽腫背景支持結核分枝桿菌感染。",
+  "features": [
+    "Numerous slender, slightly curved, beaded magenta-red bacilli retaining carbol fuchsin",
+    "Bacilli scattered singly and in small clusters, some in parallel or criss-cross arrangements",
+    "Methylene blue counterstain highlights background elongated histiocytic (epithelioid) nuclei",
+    "Bacillary load is high (many organisms per high-power field)",
+    "No other organism morphology (e.g. branching filaments or yeast) identified in this field"
+  ],
+  "describe_en": "Ziehl-Neelsen acid-fast stained tissue section shows a cellular background of blue-counterstained, elongated histiocytic nuclei. At high power, numerous slender, slightly curved and beaded acid-fast bacilli are present, scattered singly and in small clusters, indicating a high organism burden. No branching filaments are identified. Findings are consistent with mycobacterial infection; in the setting of granulomatous inflammation, this supports a tubercular etiology, with culture or PCR required for speciation.",
+  "ddx": [
+    {"dx": "Non-tuberculous mycobacteria (e.g. M. avium complex)", "vs": "MAC often shows sheets of histiocytes stuffed with shorter, plumper bacilli in immunocompromised hosts, but morphology cannot reliably separate species, so culture or PCR is required."},
+    {"dx": "Mycobacterium leprae", "vs": "Leprosy bacilli cluster in globi within foamy histiocytes and nerves and are better shown with the Fite (weaker acid-fast) stain, with a distinct clinical skin/nerve setting."},
+    {"dx": "Nocardia species", "vs": "Nocardia forms thin branching, beaded filaments that are only weakly (modified) acid-fast rather than discrete short straight-to-curved rods."},
+    {"dx": "Staining artifact or precipitate", "vs": "Precipitate is amorphous or granular without the uniform rod shape and beading of true bacilli."}
+  ],
+  "specimen": "tissue",
+  "stain": "Ziehl-Neelsen (acid-fast)",
+  "match": "consistent",
+  "high_yield": true
+}

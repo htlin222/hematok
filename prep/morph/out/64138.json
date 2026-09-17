@@ -1,0 +1,22 @@
+{
+  "id": "64138",
+  "recognize_zh": "骨髓切片中數顆巨大巨核細胞，細胞質豐富粉紅，核高度分葉、摺疊成鹿角狀（staghorn），細胞質內可見嗜中性球穿入（emperiopolesis），背景為富含顆粒球的高細胞性骨髓；這種大型過度分葉巨核細胞是原發性血小板增多症（ET）的特徵。",
+  "features": [
+    "Large to giant megakaryocytes with abundant eosinophilic cytoplasm",
+    "Hyperlobulated, deeply folded staghorn-like nuclei with mature chromatin",
+    "Emperiopolesis: neutrophils/granulocytes within megakaryocyte cytoplasm",
+    "Megakaryocytes loosely grouped without tight clusters or bizarre hyperchromatic nuclei",
+    "Background hypercellular marrow with maturing granulocytes and erythroid precursors"
+  ],
+  "describe_en": "H&E section of the bone marrow core biopsy shows a hypercellular marrow with maturing granulocytic and erythroid elements and several enlarged megakaryocytes. The megakaryocytes are large to giant with abundant mature eosinophilic cytoplasm and hyperlobulated, staghorn-like nuclei, and show emperiopolesis of granulocytes. No dense clusters of atypical megakaryocytes with hyperchromatic, cloud-like nuclei are seen in this field. Findings are consistent with the megakaryocyte morphology of essential thrombocythemia in the appropriate clinical and molecular context (JAK2/CALR/MPL).",
+  "ddx": [
+    {"dx": "Prefibrotic primary myelofibrosis", "vs": "Pre-PMF megakaryocytes form dense clusters with hyperchromatic, bulbous, cloud-like nuclei and abnormal N:C ratio, often with granulocytic hypercellularity."},
+    {"dx": "Polycythemia vera", "vs": "PV shows panmyelosis with pleomorphic megakaryocytes of varying sizes rather than predominantly giant hyperlobulated forms, and elevated hemoglobin."},
+    {"dx": "Reactive thrombocytosis", "vs": "Reactive megakaryocytes are increased but of normal size and lobation, without giant staghorn forms."},
+    {"dx": "MDS with del(5q)", "vs": "5q- megakaryocytes are small to medium with non-lobated round nuclei, the opposite of hyperlobulation."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

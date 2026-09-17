@@ -1,0 +1,22 @@
+{
+  "id": "62095",
+  "recognize_zh": "流式細胞圖中紅色母細胞族群 CD45 弱、CD34 陽性且部分表現 CD42b（巨核母細胞），同時表現胞質 CD3（cyCD3，T 系）；周邊血母細胞有細胞質泡突（blebs），骨髓切片見多形性母細胞，雙重免疫染色支持 T/巨核母細胞混合表型急性白血病。",
+  "features": [
+    "A (CD45 vs SSC): blast population (red) with dim CD45 and low SSC, distinct from lymphocytes (blue) and granulocytes (orange)",
+    "B (CD42b vs CD34): blasts are CD34-positive with a subset co-expressing CD42b (megakaryocytic)",
+    "C (CD45 vs cytoplasmic CD3): blasts show cytoplasmic CD3 expression at a lower CD45 intensity than normal T cells",
+    "D (PB smear): medium-sized blasts with high N:C ratio, dense chromatin, and cytoplasmic blebs/budding",
+    "E (marrow H&E): sheets of pleomorphic blasts with irregular nuclei and occasional dysplastic megakaryocytic forms",
+    "F (dual IHC): co-localized brown nuclear and red membranous/cytoplasmic staining in the infiltrate (antibodies not labeled)"
+  ],
+  "describe_en": "This composite combines flow cytometry and morphology. Flow cytometry identifies a CD45-dim, low side-scatter blast population that is CD34-positive, partly CD42b-positive, and expresses cytoplasmic CD3, indicating concurrent megakaryoblastic and T-lineage differentiation. The peripheral blood smear shows medium-sized blasts with high nuclear-to-cytoplasmic ratios and cytoplasmic blebs typical of megakaryoblasts, and the marrow biopsy shows sheets of pleomorphic blasts, with a dual immunohistochemical stain highlighting co-expressing cells (markers not labeled). Findings are consistent with mixed-phenotype acute leukemia with T-lineage and megakaryoblastic features, a rare entity outside the standard WHO MPAL lineage combinations.",
+  "ddx": [
+    {"dx": "Acute megakaryoblastic leukemia with aberrant CD7", "vs": "AMKL may express CD7 but lacks bright cytoplasmic CD3, which is the defining T-lineage marker here."},
+    {"dx": "Early T-precursor lymphoblastic leukemia", "vs": "ETP-ALL expresses cyCD3 with stem/myeloid markers (CD34, CD117, CD33) but not megakaryocytic CD41/CD42b/CD61."},
+    {"dx": "MPAL, T/myeloid", "vs": "T/myeloid MPAL requires MPO or monocytic differentiation rather than megakaryocytic antigens such as CD42b."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry; Wright-Giemsa; H&E; dual IHC",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64814",
+  "recognize_zh": "八格周邊血中多數異常細胞的核呈雙葉、蝴蝶狀或深凹摺（bilobed/butterfly），細胞質僅見稀疏細小顆粒甚至近乎無顆粒，這種「核型怪、顆粒少」的組合正是微顆粒型 APL（M3v）的線索。",
+  "features": [
+    "Medium to large cells with bilobed, butterfly-shaped or deeply folded/reniform nuclei",
+    "Fine, relatively dispersed chromatin with occasional visible nucleoli",
+    "Moderate grey-blue to lilac cytoplasm with sparse fine azurophilic granules or appearing agranular",
+    "No readily identified Auer rod bundles (faggot cells) in these fields",
+    "Monotonous population replacing normal leukocytes; background erythrocytes and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous medium to large abnormal cells with characteristic bilobed, butterfly-shaped or deeply folded nuclei, finely dispersed chromatin, and occasional nucleoli. The cytoplasm is moderate in amount and contains only sparse, fine azurophilic granules, with many cells appearing nearly agranular; Auer rod bundles are not evident in these fields. In a patient with marked leukocytosis and DIC, the findings are consistent with the hypogranular (microgranular) variant of acute promyelocytic leukemia; urgent confirmation of PML::RARA by FISH or RT-PCR is required.",
+  "ddx": [
+    {"dx": "Acute monocytic/myelomonocytic leukemia", "vs": "Monoblasts/promonocytes have delicately folded nuclei too, but are MPO weak, nonspecific esterase positive and CD14/CD64/HLA-DR positive, whereas M3v cells are strongly MPO positive and HLA-DR/CD34 negative."},
+    {"dx": "AML with NPM1 mutation (cup-like blasts)", "vs": "Cup-like blasts show a nuclear invagination rather than bilobed butterfly nuclei and lack PML::RARA."},
+    {"dx": "Hypergranular (classic) APL", "vs": "Classic APL cells are packed with coarse azurophilic granules that obscure the nucleus and often contain faggot cells, whereas M3v shows sparse fine granules and high WBC."},
+    {"dx": "Sézary/large granular or other lymphoid cells with lobated nuclei", "vs": "Lymphoid cells lack azurophilic granules and MPO reactivity and have condensed chromatin or cerebriform nuclear folds."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

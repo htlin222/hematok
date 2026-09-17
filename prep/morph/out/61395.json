@@ -1,0 +1,20 @@
+{
+  "id": "61395",
+  "recognize_zh": "CD3 免疫染色中，大量背景小淋巴球呈細胞膜與細胞質棕色陽性，而中央及右上方的大型淡染核巨細胞完全不著色（陰性），表示大細胞不是 T 細胞，而是散佈在反應性 T 細胞背景中的 B 細胞。",
+  "features": [
+    "Numerous small background lymphocytes with membranous and granular cytoplasmic CD3 staining",
+    "Large giant cells with pale vesicular, lobated nuclei are CD3-negative (center and upper right)",
+    "Histiocytes and stromal cells with oval nuclei negative",
+    "No rosetting pattern clearly evident around the large cells in this field"
+  ],
+  "describe_en": "CD3 immunohistochemistry highlights a rich background of small T lymphocytes with membranous and cytoplasmic staining. The large atypical giant cells, recognizable by their large pale lobated nuclei, are negative, as are histiocytes and stromal cells. The findings indicate that the large atypical cells are not of T-cell lineage and lie within a reactive T-cell-rich background; together with B-cell marker expression and EBER positivity, this supports EBV-positive mucocutaneous ulcer.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "Atypical medium-to-large cells are themselves CD3-positive, often with aberrant loss of CD5 or CD7, rather than CD3-negative large cells in a small T-cell background."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Also shows CD3-negative HRS cells with a T-cell background often forming rosettes, so separation relies on CD20, CD15 and clinical site rather than CD3."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Shares CD3-negative large B cells in a T-cell background, but typically EBER-negative with nodal or systemic disease."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

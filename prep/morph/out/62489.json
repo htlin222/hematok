@@ -1,0 +1,22 @@
+{
+  "id": "62489",
+  "recognize_zh": "骨髓切片 CD34 染色主要標出線狀、分支的血管內皮，另外有散在單個的圓形小陽性細胞（芽細胞）；背景是大量顆粒球系細胞與多顆小型、低分葉的巨核細胞（CD34 陰性），用來估算 CML 加速期的芽細胞比例並排除芽細胞聚集。",
+  "features": [
+    "Hypercellular marrow with granulocytic predominance and numerous small, hypolobated megakaryocytes (CD34-negative)",
+    "CD34 strongly highlights elongated, branching vascular endothelium",
+    "Scattered individual small round CD34-positive cells consistent with blasts",
+    "No large clusters or sheets of CD34-positive blasts in this field",
+    "Background granulocytic precursors negative"
+  ],
+  "describe_en": "CD34 immunohistochemistry on a hypercellular bone marrow core biopsy highlights prominent branching vasculature and scattered, individually distributed small CD34-positive blasts. The background consists of CD34-negative granulocytic precursors and numerous small, hypolobated megakaryocytes. No large clusters or sheets of blasts are identified in this field, and the blast percentage should be quantified across the entire core together with the aspirate differential. In the context of BCR::ABL1-positive CML with accelerated-phase features, the stain supports an increased but not blast-phase level of CD34-positive cells.",
+  "ddx": [
+    {"dx": "CML, blast phase", "vs": "Blast phase shows ≥20% blasts or large focal clusters/sheets of CD34-positive blasts replacing marrow, which are not seen here."},
+    {"dx": "CML, chronic phase", "vs": "Chronic phase has <10% blasts with only rare CD34-positive cells, so quantitative comparison and other criteria (basophils, platelets, additional cytogenetic abnormalities) are needed."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF also shows increased vascularity and CD34+ cells, but megakaryocytes are large, atypical and clustered with cloud-like nuclei, and BCR::ABL1 is absent."},
+    {"dx": "MDS with increased blasts", "vs": "MDS shows multilineage dysplasia with abnormally localized immature precursors in a usually non-granulocytic-dominant marrow and is BCR::ABL1-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

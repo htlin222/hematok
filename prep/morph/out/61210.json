@@ -1,0 +1,34 @@
+{
+ "id": "61210",
+ "recognize_zh": "CSF 細胞離心抹片中大量中至大型淋巴樣細胞，核膜極度不規則、呈折疊或腦迴狀（cerebriform），細胞質淡藍、部分含細小紫紅色顆粒，與少數小而深染的正常淋巴球對比，符合 T 細胞淋巴瘤侵犯 CSF。",
+ "features": [
+  "Markedly increased cellularity composed of atypical small to large lymphoid cells",
+  "Profound nuclear membrane irregularities: deeply folded, convoluted, lobulated and cerebriform nuclei",
+  "Finely granular to slightly clumped chromatin with occasional small nucleoli",
+  "Moderate pale blue cytoplasm, some cells containing fine azurophilic granules",
+  "Scattered small mature lymphocytes with dense round nuclei and rare red cells for size comparison"
+ ],
+ "describe_en": "Cytospin preparation of cerebrospinal fluid shows a marked lymphocytosis dominated by atypical small to large lymphoid cells with profoundly irregular, folded and cerebriform nuclear contours, finely granular chromatin and moderate pale blue cytoplasm, some containing fine azurophilic granules. Scattered small mature lymphocytes are present for comparison, and there is no neutrophilic or monocytic component. The atypia is well beyond that of reactive lymphocytes. Findings are consistent with CSF involvement by peripheral T-cell lymphoma, supported by flow cytometry showing an aberrant CD3+/CD5-/CD7 bright/CD8+/CD16/56+ T-cell population.",
+ "ddx": [
+  {
+   "dx": "Reactive lymphocytosis (viral meningitis)",
+   "vs": "Reactive lymphocytes are mostly small with smooth to mildly indented nuclei, admixed with monocytes, and show no aberrant antigen loss on flow cytometry."
+  },
+  {
+   "dx": "Adult T-cell leukemia/lymphoma",
+   "vs": "Flower cells with multilobated nuclei are typically CD4+/CD25+/CD7- and HTLV-1 positive, unlike this CD8+/CD7-bright phenotype."
+  },
+  {
+   "dx": "Sézary syndrome / mycosis fungoides with CNS spread",
+   "vs": "Cerebriform cells are CD4+ and CD7/CD26 negative with a cutaneous history."
+  },
+  {
+   "dx": "CNS diffuse large B-cell lymphoma",
+   "vs": "Cells are large with round to cleaved nuclei and prominent nucleoli and express CD19/CD20 rather than T-cell antigens."
+  }
+ ],
+ "specimen": "CSF",
+ "stain": "Wright-Giemsa",
+ "match": "consistent",
+ "high_yield": false
+}

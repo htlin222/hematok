@@ -1,0 +1,21 @@
+{
+  "id": "11293",
+  "recognize_zh": "抹片邊緣附近可見約十顆型態正常的分葉嗜中性球緊密擠成一團（neutrophil clumping），而其他區域白血球很少，提示體外聚集造成的假性嗜中性球減少（pseudoneutropenia）。",
+  "features": [
+    "Tight aggregate of about ten mature segmented neutrophils near the feathered edge",
+    "Individual neutrophils have normal segmented nuclei and pale granular cytoplasm",
+    "No leukocytes dispersed elsewhere in the field",
+    "Background red cells with target-like central pallor and scattered platelets",
+    "No phagocytosed material or bacteria in the aggregate"
+  ],
+  "describe_en": "Peripheral blood smear shows a tight cluster of morphologically normal segmented neutrophils located near the feathered edge, while the rest of the field contains no dispersed leukocytes. Red cells form a monolayer and platelets are present individually without clumping. No toxic changes or organisms are seen in the aggregated neutrophils. Findings are consistent with in vitro neutrophil aggregation, a cause of spuriously low automated white cell and neutrophil counts; a repeat count using citrate or heparin anticoagulant or a fingerstick smear is recommended.",
+  "ddx": [
+    {"dx": "True neutropenia", "vs": "Genuine neutropenia shows sparse neutrophils evenly across the slide without clusters at the feathered edge, and persists with alternate anticoagulants."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows platelets encircling individual neutrophils, rather than neutrophils adhering to one another."},
+    {"dx": "Leukoagglutination due to storage or infection", "vs": "Clumps with engulfed bacteria or fibrin strands suggest bacteremia or delayed processing, whereas these aggregates contain clean normal neutrophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

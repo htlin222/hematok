@@ -1,0 +1,22 @@
+{
+  "id": "62746",
+  "recognize_zh": "H&E 中片狀分布的中大型不典型淋巴樣細胞，核形不規則、看似侵襲性淋巴瘤（A）；但免疫染色一個標記完全陰性（B，可能為原本淋巴瘤的 B 細胞標記），另有 T 細胞標記呈大片膜狀強陽性（C、D），提示浸潤細胞為活化的 CAR T 細胞而非復發淋巴瘤。",
+  "features": [
+    "Diffuse sheets of medium to large atypical lymphoid cells with irregular, hyperchromatic nuclei and moderate eosinophilic cytoplasm (A)",
+    "Admixed histiocytoid cells and delicate vessels without necrosis evident in this field",
+    "Complete absence of staining in the infiltrate with one marker (B)",
+    "Strong, diffuse membranous staining of the large cells with a second marker (C), consistent with a pan-T-cell antigen",
+    "Diffuse cytoplasmic/membranous staining with a third marker (D) and scattered positive cells with a fourth marker (E), indicating a mixed T-cell subset composition"
+  ],
+  "describe_en": "Tissue section shows a diffuse infiltrate of medium to large atypical lymphoid cells with irregular, hyperchromatic nuclei and moderate cytoplasm, which at H&E level mimics an aggressive large cell lymphoma. Immunohistochemistry (markers not labeled) shows the infiltrate is negative for one marker, while a second marker stains the large cells diffusely and strongly in a membranous pattern and additional markers highlight diffuse and scattered subsets, supporting a T-cell rather than B-cell composition. In a patient after CD19-directed CAR T-cell therapy, findings are consistent with a reactive infiltrate of activated CAR T cells mimicking lymphoma; recurrence of the original B-cell lymphoma (including CD19-negative relapse) should be excluded with a B-cell panel (CD20, PAX5, CD79a) and, if needed, CAR transgene detection.",
+  "ddx": [
+    {"dx": "Relapsed diffuse large B-cell lymphoma", "vs": "Large cells express B-cell markers (CD20, PAX5, CD79a) even when CD19 is lost, whereas CAR T cells are CD3-positive and B-cell marker negative."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "Shows aberrant pan-T-cell antigen loss and clonal TCR rearrangement independent of CAR therapy, whereas CAR T cells retain the infused product signature and are detected by CAR-specific PCR/IHC."},
+    {"dx": "CAR T-cell-derived T-cell lymphoma (secondary T-cell malignancy)", "vs": "Rare but requires demonstration of CAR transgene integration within a clonal, persistent T-cell population with progressive disease, not a transient post-infusion expansion."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Hallmark cells with horseshoe nuclei show uniform strong CD30 and often ALK expression with frequent loss of CD3."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E and IHC panel (markers not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

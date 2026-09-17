@@ -1,0 +1,22 @@
+{
+  "id": "60791",
+  "recognize_zh": "腎臟穿刺切片中腎小管間質看起來只是「細胞較多」（A、C、E），但 CD20 顯示大型 B 細胞塞滿管周微血管與腎絲球微血管（B、D），內皮標記（F）勾勒出血管輪廓，證明腫瘤細胞位於血管腔內，符合血管內大 B 細胞淋巴瘤。",
+  "features": [
+    "Panels A, C, E: renal cortex with hypercellular interstitium around tubules and a glomerulus, without a discrete mass",
+    "Large atypical cells within peritubular capillaries and glomerular capillary loops, easily mistaken for interstitial inflammation",
+    "Panel B: diffuse CD20 positivity throughout the core at low power",
+    "Panel D: CD20+ large cells filling and distending peritubular capillaries between unstained tubules",
+    "Panel F: endothelial marker (CD34) outlining capillaries, confirming the intravascular location of the tumor cells"
+  ],
+  "describe_en": "Kidney biopsy H&E sections (A, C, E) show a hypercellular cortex in which the tubules and a glomerulus are surrounded by increased mononuclear cells, mimicking interstitial nephritis. CD20 immunostaining (B, D) reveals large B cells confined to and distending peritubular and glomerular capillaries, while an endothelial marker (F) outlines the vascular channels containing these cells. No extravascular mass is identified. Findings are consistent with intravascular large B-cell lymphoma involving the kidney.",
+  "ddx": [
+    {"dx": "Acute interstitial nephritis", "vs": "Inflammatory cells are small T cells, eosinophils and plasma cells in the interstitium with tubulitis, not CD20+ large cells within capillaries."},
+    {"dx": "Diffuse large B-cell lymphoma with renal involvement", "vs": "Forms destructive interstitial sheets or masses outside vessels rather than being restricted to vascular lumina."},
+    {"dx": "Leukemic involvement (e.g. CLL)", "vs": "Consists of small mature lymphocytes, often in interstitial nodules, rather than large atypical intravascular cells."},
+    {"dx": "Antibody-mediated rejection with peritubular capillaritis", "vs": "Capillaries contain neutrophils and monocytes with C4d positivity, not CD20+ large atypical lymphocytes."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD20, CD34",
+  "match": "consistent",
+  "high_yield": true
+}

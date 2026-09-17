@@ -1,0 +1,21 @@
+{
+  "id": "60623",
+  "recognize_zh": "縱膈腫塊切片同時有兩個區域：左上為結節硬化型何杰金淋巴瘤（NSHL），CD30 染出散在大型 Hodgkin/Reed-Sternberg 細胞；右下為密集單一樣的骨髓肉瘤（myeloid sarcoma），骨髓標記瀰漫陽性，FISH 顯示腫瘤細胞紅綠訊號分離（基因重組）。",
+  "features": [
+    "Low power H&E: two juxtaposed areas labeled NSHL and myeloid sarcoma, the latter a dense sheet of monotonous cells",
+    "CD30 immunostain: scattered large cells with membranous and Golgi-dot staining in a background of small non-staining lymphocytes (Hodgkin/Reed-Sternberg cells)",
+    "Diffuse granular cytoplasmic staining of the sheet-like infiltrate with a myeloid marker in panel C",
+    "Interphase FISH with a break-apart probe: one nucleus with two fused (yellow) signals and a larger nucleus with separated red and green signals, indicating rearrangement"
+  ],
+  "describe_en": "Sections of the mediastinal mass (H&E) show two distinct components: one with a mixed inflammatory background containing scattered large atypical cells, and an adjacent area composed of diffuse sheets of monotonous intermediate-sized cells. CD30 highlights scattered large Hodgkin/Reed-Sternberg cells in the first component, whereas the sheet-like infiltrate shows diffuse positivity for a myeloid marker. Break-apart FISH demonstrates split signals in tumor nuclei, indicating a gene rearrangement. Findings are consistent with relapsed nodular sclerosis classic Hodgkin lymphoma with a synchronous therapy-related myeloid sarcoma in the same mass.",
+  "ddx": [
+    {"dx": "Syncytial variant of nodular sclerosis Hodgkin lymphoma", "vs": "Syncytial cHL sheets are composed of CD30+/CD15+ Reed-Sternberg cells, whereas myeloid sarcoma sheets are CD30-negative and express MPO/CD33/lysozyme."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows sheets of CD30-positive hallmark cells with strong uniform CD30 and often ALK, unlike the myeloid-marker-positive sheet here."},
+    {"dx": "Diffuse large B-cell lymphoma (primary mediastinal)", "vs": "PMBL sheets express CD20/PAX5 strongly with compartmentalizing sclerosis and lack myeloid markers."},
+    {"dx": "Thymic carcinoma or germ cell tumor", "vs": "Epithelial and germ cell tumors are keratin, SALL4 or OCT3/4 positive rather than myeloid markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD30, myeloid marker; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

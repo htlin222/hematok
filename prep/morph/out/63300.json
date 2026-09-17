@@ -1,0 +1,21 @@
+{
+  "id": "63300",
+  "recognize_zh": "CD3/CD5 散佈圖中，閘門 R 內有一大群 CD5 強陽性但表面 CD3 陰性的藍色細胞，和右上方 CD3+CD5+ 的正常 T 細胞（紅色）分開；這種表面 CD3 陰性（sCD3−）的 T 細胞族群是淋巴球型 HES 的典型免疫表型。",
+  "features": [
+    "Flow cytometry dot plot: CD3-PC5.5 (x-axis) versus CD5-PB (y-axis), panel C",
+    "Gated population R (blue): bright CD5 expression with absent surface CD3",
+    "Normal T cells (red) are CD3-bright and CD5-positive",
+    "Small green population with CD3 positivity and dimmer CD5",
+    "Orange CD3-negative, CD5-negative events (B/NK cells) and scattered purple events near the origin"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD3 versus CD5 demonstrates a large, discrete population (gate R, blue) that expresses bright CD5 but lacks surface CD3, clearly separated from the normal CD3+CD5+ T cells (red) and the CD3-/CD5- non-T lymphocytes (orange). Combined with the CD4-positive, CD7-negative profile shown in the companion plots, this surface CD3-negative T-cell population is an aberrant immunophenotype. Findings are consistent with the lymphocytic variant of hypereosinophilic syndrome.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia (CD5+ B cells)", "vs": "CLL cells are also CD3-negative and CD5-positive but co-express CD19, CD20 (dim) and CD23 with light-chain restriction, and are CD5 dim rather than T-cell bright; B-cell markers resolve this."},
+    {"dx": "Mantle cell lymphoma", "vs": "Another CD5+CD3- population, but it is a B-cell neoplasm (CD19+, CD20 bright, cyclin D1+) rather than a CD4+ T-cell population."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells are usually surface CD3-positive (sometimes dim) CD4+CD7-/CD26- with cutaneous disease, whereas complete surface CD3 loss with hypereosinophilia favors lymphocytic HES."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

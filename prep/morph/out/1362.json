@@ -1,0 +1,21 @@
+{
+  "id": "1362",
+  "recognize_zh": "流式散點圖顯示主要族群落在 CD20+/CD23+ 象限（第 2 象限），CD23 明顯陽性而 CD20 僅中低強度（dim），這種 CD23 陽性、CD20 弱表現正是 CLL 與被套細胞淋巴瘤區分的重點。",
+  "features": [
+    "Single two-parameter dot plot of CD23-PE (y-axis) versus CD20-PECy5 (x-axis)",
+    "Dominant population in quadrant 2, co-expressing CD23 and CD20",
+    "CD20 expression is moderate/dim, not reaching the bright upper range",
+    "CD23 expression is uniformly positive across the population",
+    "Minor double-negative events in quadrant 3 represent non-B cells"
+  ],
+  "describe_en": "Flow cytometry dot plot shows a dominant B-cell population uniformly positive for CD23 with dim to moderate CD20 expression (quadrant 2), with a minor double-negative population representing non-B cells. Combined with CD5 co-expression and CD10 negativity, this immunophenotype supports chronic lymphocytic leukemia (Matutes score features include CD23 positivity and weak CD20/surface immunoglobulin). Light-chain restriction is not displayed in this figure.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Usually CD23-negative or dim with bright CD20 and surface Ig, and cyclin D1/SOX11-positive."},
+    {"dx": "Hairy cell leukemia", "vs": "Shows bright CD20 with CD11c, CD25, CD103 and CD123 positivity and is CD23-negative."},
+    {"dx": "Marginal zone lymphoma", "vs": "Typically bright CD20 and CD5-negative, with variable weak CD23."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

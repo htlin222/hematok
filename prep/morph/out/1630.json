@@ -1,0 +1,22 @@
+{
+  "id": "1630",
+  "recognize_zh": "高倍 H&E 下可見一群較大的細胞，核呈摺疊、凹陷、有核溝（grooved）或分葉，染色質淡、偶見小核仁，細胞質豐富淡粉紅且邊界不清，淋巴球很少；右側為纖維性間質。這些是組織球/樹突狀細胞樣細胞，需 IHC 分辨。",
+  "features": [
+    "Aggregate of large cells with abundant pale eosinophilic cytoplasm and indistinct borders",
+    "Irregular nuclei that are folded, indented, grooved or lobulated",
+    "Vesicular chromatin with small nucleoli in some nuclei",
+    "Few admixed small lymphocytes",
+    "Fibrous stroma with spindle cells along the right edge"
+  ],
+  "describe_en": "Section at high power shows an aggregate of large cells with abundant pale eosinophilic cytoplasm, indistinct cell borders and irregular, folded to grooved or lobulated nuclei with vesicular chromatin and small nucleoli. Small lymphocytes are sparse, and fibrous stroma is present at the right edge. Significant mitotic activity or marked pleomorphism is not seen. The cells have a histiocytic/dendritic cell appearance, as seen with sinus histiocytes, interdigitating dendritic cells or Langerhans cells in lymphoid tissue; precise identification requires immunohistochemistry (CD68/CD163, S100, CD1a, langerin).",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells have similar grooved nuclei but form sheets with eosinophils and are CD1a/langerin-positive with BRAF V600E in many cases."},
+    {"dx": "Interdigitating dendritic cells (dermatopathic change)", "vs": "IDCs are S100-positive but CD1a-negative and sit in an expanded paracortex with melanin-laden macrophages."},
+    {"dx": "Anaplastic large cell lymphoma (sinusoidal)", "vs": "ALCL cells are more pleomorphic with horseshoe-shaped hallmark nuclei, mitoses and strong CD30 positivity."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Tumor cells form cohesive nests with more atypical nuclei and are keratin- or SOX10/melan-A-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

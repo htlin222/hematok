@@ -1,0 +1,22 @@
+{
+  "id": "61384",
+  "recognize_zh": "A 圖鐵染色可見一顆紅血球前驅細胞核周圍環繞藍綠色鐵顆粒（環狀鐵粒母細胞）；C、D 圖骨髓抹片中的早期骨髓系與紅血球系前驅細胞細胞質內有多個清楚空泡；B 圖週邊血液有嗜中性球及淋巴球。空泡化前驅細胞加上環狀鐵粒母細胞，是銅缺乏模仿骨髓化生不良症候群（MDS）的典型線索。",
+  "features": [
+    "Panel A: Prussian blue stain with an erythroid precursor showing perinuclear blue-green iron granules, consistent with a ring sideroblast",
+    "Panels C-D: cytoplasmic vacuoles in early myeloid (promyelocyte/myelocyte) and erythroid precursors",
+    "Panel D: maturing granulocytes with preserved segmentation and granulation",
+    "Panel B: peripheral blood with a neutrophil and a lymphocyte; red cells show crenation, likely artifact",
+    "Low image resolution limits assessment of subtle dysplasia"
+  ],
+  "describe_en": "Iron-stained aspirate (A) shows an erythroid precursor with perinuclear siderotic granules consistent with a ring sideroblast. Wright-Giemsa-stained aspirate smears (C, D) show prominent cytoplasmic vacuolization of early myeloid and erythroid precursors, while maturing granulocytes appear adequately granulated and segmented. The peripheral blood smear (B) shows a neutrophil and a lymphocyte with crenated red cells, likely an artifact. Image resolution limits evaluation for other dysplastic features. In a patient with cytopenias, vacuolated precursors with ring sideroblasts are suggestive of copper deficiency, which mimics myelodysplastic syndrome and should be confirmed with serum copper and ceruloplasmin (and zinc levels) before a diagnosis of MDS is made.",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome with ring sideroblasts", "vs": "Morphology can overlap, but MDS typically shows multilineage dysplasia and SF3B1 mutation or clonal cytogenetics with normal copper levels."},
+    {"dx": "Alcohol-induced marrow toxicity", "vs": "Also causes vacuolated precursors and ring sideroblasts; history, macrocytosis and reversal with abstinence separate it from copper deficiency."},
+    {"dx": "Linezolid or chloramphenicol toxicity", "vs": "Produces identical pronormoblast vacuolation, distinguished by drug exposure history and normal copper levels."},
+    {"dx": "VEXAS syndrome", "vs": "Vacuoles are largely restricted to myeloid and erythroid precursors in older men with systemic inflammation, confirmed by somatic UBA1 mutation."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; Prussian blue",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3791",
+  "recognize_zh": "骨髓抹片中央一顆組織球的空泡化胞質內包著約五顆完整的有核細胞，右側另一團含大量深色小圓核的吞噬體，背景充滿小而成熟的淋巴球，符合慢性淋巴球性白血病（CLL）合併噬血現象（HLH）。",
+  "features": [
+    "Central histiocyte with pale vacuolated cytoplasm engulfing approximately five intact nucleated cells (erythroid/myeloid precursors)",
+    "Adjacent cluster of numerous small, dense, round dark nuclei within purple cytoplasm, suggestive of a second histiocyte containing phagocytosed nucleated red cells or lymphocytes",
+    "Background dominated by small mature lymphocytes with condensed chromatin and scant cytoplasm",
+    "Scattered granulocytic precursors, neutrophils and occasional erythroid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows numerous small mature-appearing lymphocytes with condensed chromatin and scant cytoplasm, admixed with residual granulocytic and erythroid precursors. A histiocyte with pale vacuolated cytoplasm contains approximately five intact engulfed nucleated hematopoietic cells, and an adjacent aggregate of many small dense round nuclei within cytoplasm suggests further phagocytosis of nucleated cells. The finding of hemophagocytosis is not by itself diagnostic of HLH and must be correlated with HLH-2004 clinical and laboratory criteria (fever, cytopenias, ferritin, triglycerides, fibrinogen, soluble CD25). Findings are consistent with hemophagocytosis in a marrow involved by a small lymphocytic neoplasm such as CLL.",
+  "ddx": [
+    {"dx": "Emperipolesis by megakaryocytes", "vs": "In emperipolesis the cells lie within a megakaryocyte with a large lobulated nucleus and granular cytoplasm, rather than within a histiocyte with vacuolated cytoplasm."},
+    {"dx": "Tingible body macrophage", "vs": "Tingible body macrophages contain apoptotic nuclear fragments of variable size rather than intact whole nucleated cells."},
+    {"dx": "Cell overlap/smearing artifact", "vs": "Overlapping cells lie in different focal planes without an encircling cytoplasmic rim or phagocytic vacuoles."},
+    {"dx": "Mantle cell or other small B-cell lymphoma", "vs": "Background lymphocyte morphology overlaps, so separation from CLL relies on flow cytometry (CD5/CD23/CD200) and cyclin D1 or t(11;14)."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

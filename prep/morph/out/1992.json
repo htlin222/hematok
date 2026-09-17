@@ -1,0 +1,20 @@
+{
+  "id": "1992",
+  "recognize_zh": "視野中央一顆多核巨大異型細胞，有強烈的細胞膜與胞質陽性染色（圖型提示 CD30），旁邊數顆大細胞染色較弱，周圍大量小淋巴球為陰性，呈現間變型的奇異巨細胞。",
+  "features": [
+    "Central giant multinucleated cell with vesicular nuclei and strong membranous/cytoplasmic positivity",
+    "Adjacent large cells with weaker membranous and cytoplasmic staining",
+    "Isolated positive large cell at lower right",
+    "Background of numerous small, negative lymphocytes with dense nuclei"
+  ],
+  "describe_en": "Immunohistochemical stain (antibody not labeled; pattern suggests CD30) shows a giant multinucleated atypical cell with strong membranous and cytoplasmic positivity, accompanied by a cluster of large cells with weaker staining. The background small lymphocytes are negative. This field alone resembles a Reed-Sternberg-like cell; in the context of sheets of large cells with a B-cell immunophenotype, findings are consistent with diffuse large B-cell lymphoma, anaplastic variant.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Reed-Sternberg cells in cHL are CD15-positive, CD45-negative, and weakly PAX5-positive, and are isolated rather than part of sheets of CD20-positive large cells."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered large CD20-positive cells in a T-cell and histiocyte background, typically without strong CD30 expression."},
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "ALCL shows strong uniform CD30 in all tumor cells with a T-cell or null phenotype and no B-cell marker expression."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: likely CD30 (antibody not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

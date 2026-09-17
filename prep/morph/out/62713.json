@@ -1,0 +1,21 @@
+{
+  "id": "62713",
+  "recognize_zh": "母細胞 gate 的 CD33 對 CD58 流式圖：幾乎所有母細胞 CD58 均一強陽性（約 10^4–10^5），CD33 從陰性到約 5×10^4 連續性表現，呈斜向延伸的單一大族群。",
+  "features": [
+    "Dot plot gated on blasts: CD33-PC5.5 (x) versus CD58-FITC (y), log scales",
+    "Single dominant population with uniformly bright CD58 (~10^4 to 10^5)",
+    "CD33 expression heterogeneous, from negative to moderately bright (~5 x 10^4)",
+    "Slight positive diagonal: CD33-brighter cells also brighter for CD58",
+    "Minor tail of CD58-dimmer cells (~10^3.5), few in number"
+  ],
+  "describe_en": "Flow cytometric dot plot of the blast gate displays CD33 versus CD58. The blasts form a single dominant population with uniformly bright CD58 and heterogeneous CD33 expression ranging from negative to moderately bright. Bright CD58 is a leukemia-associated feature used for B-lymphoblast detection and MRD, while CD33 is myeloid-associated but not lineage defining. Findings are compatible with the immunophenotype of the reported mixed phenotype acute leukemia, B/myeloid, which requires MPO (or monocytic differentiation) plus strong CD19 with other B markers.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia with aberrant CD33", "vs": "CD33 is common in B-ALL; B/myeloid MPAL requires additional myeloid lineage evidence such as MPO positivity by flow or cytochemistry."},
+    {"dx": "Acute myeloid leukemia with aberrant CD19", "vs": "In AML (e.g., with t(8;21)) CD19 is typically weak without strong CD79a/CD22/CD10, which fails B-lineage criteria."},
+    {"dx": "Hematogones", "vs": "Normal B-cell precursors show a maturational continuum with normal CD58 intensity and no CD33, unlike this uniform bright CD58, CD33-positive population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

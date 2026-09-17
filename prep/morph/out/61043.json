@@ -1,0 +1,21 @@
+{
+  "id": "61043",
+  "recognize_zh": "周邊血的「母細胞」體積大、核不規則且有凹陷（類似花瓣狀核），骨髓切片為瀰漫中大型母細胞樣細胞；CD20 膜陽性、cyclin D1 核陽性、MYC/BCL6 陽性且 Ki-67 極高，提示合併 MYC、BCL6 重組的母細胞型被套細胞淋巴瘤，而非急性白血病。",
+  "features": [
+    "Peripheral blood with large atypical lymphoid cells with irregular, indented to lobated ('flower-like') nuclei",
+    "Fine chromatin and moderate basophilic cytoplasm mimicking blasts",
+    "Bone marrow biopsy: diffuse sheets of medium-to-large blastoid cells with vesicular nuclei and scattered apoptotic bodies",
+    "IHC: strong membranous CD20; nuclear MYC and BCL6 positivity",
+    "Nuclear cyclin D1 positivity and very high Ki-67 (>95%)"
+  ],
+  "describe_en": "Composite figure. The peripheral blood contains large atypical lymphoid cells with irregular, indented to lobated nuclei and fine chromatin that closely mimic blasts. The bone marrow biopsy shows diffuse replacement by medium-to-large blastoid cells with scattered apoptotic bodies. Immunohistochemistry shows the neoplastic cells to be CD20-positive with nuclear expression of cyclin D1, MYC and BCL6 and a Ki-67 index exceeding 95%. With FISH-confirmed CCND1, MYC and BCL6 rearrangements, findings are consistent with blastoid mantle cell lymphoma with triple-hit rearrangements.",
+  "ddx": [
+    {"dx": "Acute leukemia (B-ALL or AML)", "vs": "Leukemic blasts are TdT/CD34 or MPO positive and cyclin D1-negative, whereas these cells are mature CD20+ cyclin D1+ B cells."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2/BCL6 rearrangements", "vs": "HGBL lacks cyclin D1 expression and IGH::CCND1."},
+    {"dx": "Pleomorphic variant of MCL or DLBCL", "vs": "Cyclin D1/SOX11 positivity and CCND1 rearrangement separate MCL from DLBCL; blastoid vs pleomorphic is a morphologic distinction of monotonous lymphoblast-like vs larger pleomorphic cells."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa, H&E, IHC: CD20, MYC, BCL6, cyclin D1, Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

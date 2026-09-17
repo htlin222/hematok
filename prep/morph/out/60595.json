@@ -1,0 +1,21 @@
+{
+  "id": "60595",
+  "recognize_zh": "紅血球之間可見一條細長、規則螺旋捲曲的游離螺旋菌（spirochete），長度約為紅血球直徑的 1–2 倍，位於細胞外，這是回歸熱疏螺旋體（Borrelia）在周邊血液抹片的典型表現。",
+  "features": [
+    "Single thin, loosely coiled, extracellular spirochete lying in the plasma between red cells",
+    "Organism length roughly 1-2 red cell diameters with several regular spiral turns",
+    "Neutrophil with a band-like/segmented nucleus in the field",
+    "Red cells show mild anisocytosis without intracellular parasites"
+  ],
+  "describe_en": "Peripheral blood smear shows a thin, helically coiled, extracellular spirochete in the plasma between erythrocytes, measuring approximately one to two red cell diameters in length. A neutrophil is present; red cells show mild anisocytosis without intraerythrocytic inclusions. In the appropriate clinical setting of recurrent fevers, findings are consistent with relapsing fever borreliosis (Borrelia hermsii); organisms are most numerous during febrile episodes and may be missed between them.",
+  "ddx": [
+    {"dx": "Fibrin strand or smear artifact", "vs": "Fibrin strands are straight or branching and irregular, lacking the regular spiral coils and tapered ends of a spirochete."},
+    {"dx": "Microfilaria", "vs": "Microfilariae are much larger (many red cell diameters long) with nuclear columns, not thin spirals."},
+    {"dx": "Trypanosoma species", "vs": "Trypanosomes are broader, with an undulating membrane, a nucleus, a kinetoplast and a flagellum."},
+    {"dx": "Leptospira", "vs": "Leptospira are finer, tightly coiled with hooked ends and are rarely visible on Wright-stained blood smears."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

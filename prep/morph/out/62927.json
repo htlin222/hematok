@@ -1,0 +1,22 @@
+{
+  "id": "62927",
+  "recognize_zh": "骨髓抽吸片可見成團的小圓藍細胞，細胞核圓、彼此擠壓（nuclear molding），並嵌在粉紫色纖維狀基質（neuropil）中形成合胞體樣團塊；這種成團排列與背景纖維物質提示轉移性神經母細胞瘤，而非散在分布的淋巴母細胞。",
+  "features": [
+    "Cohesive clusters of small round blue cells embedded in pink-purple fibrillary matrix (neuropil)",
+    "Small to intermediate cells with high N:C ratio and round, hyperchromatic nuclei",
+    "Nuclear crowding and molding within clusters",
+    "Scant, ill-defined cytoplasm; many crushed/smudged cells with streaked chromatin",
+    "Tumor cells arranged in syncytial aggregates rather than as dispersed single cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows large cohesive aggregates of small round blue cells in a syncytial pattern. The cells have high nuclear-to-cytoplasmic ratio, round hyperchromatic nuclei with nuclear molding, and scant indistinct cytoplasm, and are set within a pale pink-purple fibrillary background consistent with neuropil. Numerous crushed cells are present; well-formed Homer Wright rosettes are not clearly seen in this field. The clustering and neurofibrillary matrix favor a metastatic small round blue cell tumor over leukemia, and in this clinical context findings are consistent with metastatic neuroblastoma, confirmed by CD45-negative/CD56-positive flow cytometry and synaptophysin/NSE immunohistochemistry.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are discohesive single cells without neuropil or rosettes and are CD45+, TdT+ with B- or T-lineage markers."},
+    {"dx": "Ewing sarcoma", "vs": "Also forms clusters of small round cells but lacks neuropil, is CD99 membranous and NKX2.2 positive, and carries EWSR1 rearrangement."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Tumor cells may cluster and show vacuolated cytoplasm but are myogenin/desmin positive and lack neuropil."},
+    {"dx": "Retinoblastoma or medulloblastoma metastasis", "vs": "Can show similar rosettes, but clinical site and markers (e.g., lack of PHOX2B, catecholamine metabolites) separate them from neuroblastoma."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

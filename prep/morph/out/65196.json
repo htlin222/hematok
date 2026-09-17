@@ -1,0 +1,21 @@
+{
+  "id": "65196",
+  "recognize_zh": "骨髓切片中造血組織被大片淡染、細胞質豐富呈灰藍泡沫/顆粒狀的巨噬細胞取代，缺乏典型壞死性肉芽腫；抗酸染色（Ziehl-Neelsen）可見巨噬細胞內塞滿大量紅色、彎曲且較長的桿菌，符合非典型分枝桿菌感染。",
+  "features": [
+    "Bone marrow core with extensive sheet-like infiltrate of large histiocytes replacing hematopoietic tissue, adjacent fat spaces",
+    "Histiocytes with abundant pale gray-blue, finely granular/striated cytoplasm and bland oval nuclei; no well-formed epithelioid granulomas, caseation or giant cells",
+    "Scattered residual lymphocytes, plasma cells and hematopoietic cells between histiocytes",
+    "Ziehl-Neelsen stain: macrophages packed with innumerable magenta acid-fast bacilli, many long and curved, forming dense intracellular bundles"
+  ],
+  "describe_en": "Bone marrow trephine biopsy shows a diffuse infiltrate of large histiocytes with abundant pale, finely granular cytoplasm replacing much of the hematopoietic marrow. Well-formed epithelioid granulomas, necrosis and multinucleated giant cells are not identified. Ziehl-Neelsen stain demonstrates macrophages laden with innumerable acid-fast bacilli, many of which are elongated and curved. Findings are consistent with disseminated mycobacterial infection of the marrow, morphologically favoring atypical (nontuberculous) mycobacteria in an immunocompromised host; culture or molecular speciation is recommended.",
+  "ddx": [
+    {"dx": "Mycobacterium tuberculosis infection with granulomas", "vs": "Typical TB in immunocompetent hosts forms epithelioid granulomas with caseous necrosis and scant bacilli, whereas here there are sheets of macrophages with enormous bacillary loads; speciation requires culture/PCR."},
+    {"dx": "Gaucher disease (pseudo-Gaucher cells)", "vs": "Gaucher cells show 'crinkled tissue-paper' cytoplasm that is PAS positive but acid-fast negative, whereas these histiocytes are stuffed with acid-fast bacilli."},
+    {"dx": "Histoplasmosis or leishmaniasis", "vs": "These show small intracellular yeasts or amastigotes (GMS/Giemsa positive) rather than rod-shaped acid-fast bacilli."},
+    {"dx": "Whipple disease", "vs": "Whipple macrophages contain PAS-positive diastase-resistant material but are not acid-fast, unlike mycobacteria."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Ziehl-Neelsen",
+  "match": "consistent",
+  "high_yield": true
+}

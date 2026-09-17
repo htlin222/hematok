@@ -1,0 +1,21 @@
+{
+  "id": "3637",
+  "recognize_zh": "一顆比紅血球稍大的淋巴球，細胞核有明顯的摺疊與溝紋、輪廓不規則，染色質濃密，周圍只剩一圈薄薄淡藍色細胞質；這種核摺皺的淋巴球符合 Sézary 細胞。背景紅血球皺縮為乾燥假象。",
+  "features": [
+    "Medium-sized lymphocyte with high N:C ratio",
+    "Irregular, folded nucleus with grooves and overlapping lobes (convoluted contour)",
+    "Dense, hyperchromatic chromatin without prominent nucleoli",
+    "Thin rim of pale blue agranular cytoplasm",
+    "Background crenated RBCs, consistent with drying artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows a single medium-sized atypical lymphocyte with a high nuclear-to-cytoplasmic ratio, a folded and grooved nuclear contour, dense chromatin and no prominent nucleolus. The cytoplasm forms a thin pale blue agranular rim. Background red cells are crenated, most likely artifactual. The nuclear convolutions are less finely cerebriform than in classic examples at this resolution. Findings are consistent with a Sézary cell; diagnosis requires an adequate count of such cells with supportive flow cytometry and T-cell clonality.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL flower cells have multilobated petal-like nuclei with distinct lobes, and patients are HTLV-1 seropositive."},
+    {"dx": "Mantle cell lymphoma or other B-cell lymphoma with nuclear clefts", "vs": "Cleaved B cells have a single notch or cleft rather than multiple grooves, and flow cytometry shows a clonal B-cell population."},
+    {"dx": "Normal lymphocyte with overlapping nucleus", "vs": "Normal small lymphocytes have a smooth round or slightly indented contour without multiple folds."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

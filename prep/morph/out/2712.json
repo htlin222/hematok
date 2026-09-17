@@ -1,0 +1,22 @@
+{
+  "id": "2712",
+  "recognize_zh": "骨髓切片中大片緊密排列的大型細胞，細胞質豐富、淡灰粉紅色帶細條紋如「皺摺衛生紙」（wrinkled tissue paper），核小、圓形且偏心，左上角殘留造血細胞，是典型高雪氏細胞（Gaucher cells）成片浸潤。",
+  "features": [
+    "Sheets of large polygonal histiocytes with abundant pale gray-pink cytoplasm",
+    "Cytoplasm with fine fibrillary, striated texture (wrinkled tissue paper appearance)",
+    "Small round to oval eccentric nuclei with fine chromatin and occasional small nucleoli",
+    "Distinct cell borders forming a mosaic pattern",
+    "Residual hematopoietic cells, including erythroid precursors, at the upper left"
+  ],
+  "describe_en": "Bone marrow core biopsy shows effacement of much of the marrow by sheets of large histiocytes with abundant pale gray-pink, finely fibrillary cytoplasm and small, round, eccentric nuclei. Cell borders are distinct, producing a mosaic arrangement. Residual hematopoietic elements are confined to the periphery at the upper left. No atypical mitoses or malignant cells are identified. Findings are consistent with extensive marrow infiltration by Gaucher cells in Gaucher disease.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells (CML, multiple myeloma, thalassemia)", "vs": "Pseudo-Gaucher cells are usually scattered rather than forming sheets and accompany a background neoplasm or hemolytic disorder with normal glucocerebrosidase activity."},
+    {"dx": "Mycobacterium avium complex infection", "vs": "MAC-laden histiocytes can have striated pale cytoplasm but contain numerous acid-fast bacilli on Ziehl-Neelsen stain."},
+    {"dx": "Niemann-Pick disease", "vs": "Niemann-Pick cells show foamy, finely vacuolated cytoplasm rather than fibrillary cytoplasm."},
+    {"dx": "Crystal-storing histiocytosis", "vs": "Crystal-storing histiocytes contain eosinophilic crystalline immunoglobulin inclusions and are associated with a light chain-restricted plasma cell or B-cell neoplasm."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "63388",
+  "recognize_zh": "這是尿沉渣自動影像分析儀擷取的單一灰階影像（Class 2 #77），比例尺 12.5 µm；可見一個約紅血球大小、兩端尖細的彎月形物體，外形類似鐮刀形紅血球，但解析度低，無法單憑此圖確認。",
+  "features": [
+    "Grayscale digital sediment image from an automated urine analyzer (Class 2, particle #77) with a 12.5 um scale bar",
+    "Single crescent/sickle-shaped particle roughly 7-9 um long with tapered ends",
+    "Homogeneous content without visible internal structure or nucleus",
+    "No surrounding cells or casts for comparison",
+    "Low resolution and unstained imaging limit definitive identification"
+  ],
+  "describe_en": "Automated urine sediment digital imaging shows a single unstained particle measuring approximately 7-9 um with a crescentic shape and tapered ends, classified by the analyzer into a red cell-related class. The morphology resembles a sickled red cell, but the low resolution and absence of internal detail prevent definitive distinction from a folded or crenated red cell or other debris. Findings are suggestive of sickled red cells in urine in a patient with sickle cell disease and should be verified by manual microscopy of the sediment.",
+  "ddx": [
+    {"dx": "Folded or crenated red cell", "vs": "Folded red cells show a double contour or central fold line and variable shape on focusing, whereas sickle cells have tapered crescentic ends; manual phase-contrast review is needed."},
+    {"dx": "Yeast or pseudohyphal fragment", "vs": "Yeasts are oval, refractile and show budding, while pseudohyphae are longer segmented structures rather than a single crescent."},
+    {"dx": "Mucus strand or amorphous debris", "vs": "Mucus and debris are irregular, variably sized and lack the uniform red cell-sized volume of a sickled cell."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "partial",
+  "high_yield": false
+}

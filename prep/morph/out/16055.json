@@ -1,0 +1,23 @@
+{
+  "id": "16055",
+  "recognize_zh": "骨髓抹片中出現成群、黏聚的大型細胞，細胞質豐富呈灰藍色並帶小空泡，細胞核大、染色質細緻且有核仁，形態不像正常造血細胞，在縱膈生殖細胞瘤病人需考慮腫瘤細胞侵犯骨髓或伴隨的巨核母細胞性白血病。",
+  "features": [
+    "Large atypical cells several times the size of adjacent lymphocytes, forming cohesive aggregates/syncytial clusters",
+    "Abundant gray-blue cytoplasm with fine vacuoles and irregular, ill-defined borders",
+    "Large round to oval nuclei with finely granular, open chromatin and small nucleoli",
+    "Left panel: a giant cell with a large nucleus closely associated with smaller round cells at its periphery",
+    "Right panel: tight cluster of large cells intermixed with smaller dark lymphoid/erythroid cells",
+    "Background of red cells with crenation/drying artifact"
+  ],
+  "describe_en": "Bone marrow aspirate smears show clusters of large atypical cells with abundant gray-blue, finely vacuolated cytoplasm, large round-oval nuclei with fine chromatin and small nucleoli, forming cohesive aggregates with smaller hematopoietic cells closely apposed. These cells do not resemble normal marrow elements. On morphology alone, metastatic germ cell tumor cells cannot be separated from megakaryoblasts or malignant histiocytes, both of which occur in association with primary mediastinal nonseminomatous germ cell tumors. Findings are suggestive of marrow involvement by a non-hematopoietic or GCT-associated neoplasm; immunophenotyping (SALL4, OCT3/4, CD30, AFP, keratin versus CD41/CD61, CD163) and i(12p) testing are required.",
+  "ddx": [
+    {"dx": "Acute megakaryoblastic leukemia associated with mediastinal germ cell tumor", "vs": "Megakaryoblasts show cytoplasmic blebs, express CD41/CD61 and are keratin/SALL4 negative, although they share i(12p) with the germ cell tumor."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells form cohesive clusters that are keratin positive but SALL4/OCT3/4 negative, with a primary site outside the mediastinal germ cell context."},
+    {"dx": "Malignant histiocytosis / histiocytic sarcoma", "vs": "Histiocytic neoplasms show hemophagocytosis and CD163/CD68/lysozyme positivity rather than germ cell markers."},
+    {"dx": "Osteoblasts / osteoclasts in aspirate", "vs": "Osteoblasts are eccentric-nucleated with a perinuclear hof and osteoclasts are multinucleated with separate uniform nuclei, both lacking nuclear atypia."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

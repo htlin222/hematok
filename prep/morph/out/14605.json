@@ -1,0 +1,21 @@
+{
+  "id": "14605",
+  "recognize_zh": "骨髓抹片中央一個細胞質豐富且呈藍色的大型細胞，胞內透明空泡裡含有形態完整的造血細胞（小型有核細胞與顆粒球），被吞入的細胞沒有被分解，這種「活細胞穿行」即為 emperipolesis。",
+  "features": [
+    "Large cell with abundant pale-blue cytoplasm and a single round-to-oval eccentric nucleus",
+    "Intact hematopoietic cells (a small dense nucleated cell and a granulocyte) within clear cytoplasmic vacuoles",
+    "Engulfed cells retain crisp nuclear detail without degradation, unlike phagocytosed debris",
+    "Background marrow aspirate with mixed maturing granulocytic and erythroid precursors",
+    "No hemosiderin or ingested nuclear debris within the host cell"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows mixed maturing hematopoietic cells. A large cell with abundant pale-blue cytoplasm and an eccentric round nucleus contains intact hematopoietic cells, including a granulocyte and a small dense nucleated cell, sitting within clear cytoplasmic vacuoles without evidence of degradation. The precise identity of the host cell (megakaryocyte versus histiocyte) is difficult to establish at this magnification. Findings represent emperipolesis, a nonspecific phenomenon seen in reactive and neoplastic marrows.",
+  "ddx": [
+    {"dx": "Hemophagocytosis (e.g., HLH)", "vs": "In hemophagocytosis engulfed cells are destroyed and show pyknosis or digestion within phagolysosomes, whereas in emperipolesis they remain intact and viable."},
+    {"dx": "Rosai-Dorfman disease histiocyte", "vs": "Rosai-Dorfman shows large S100+ CD68+ histiocytes with emperipolesis of lymphocytes and plasma cells, typically in lymph node or extranodal tissue with lymphadenopathy."},
+    {"dx": "Cell overlap on the smear", "vs": "Overlapping cells lie in a different focal plane without a surrounding clear vacuole, whereas true emperipolesis shows a cell enclosed within a cytoplasmic halo."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "17753",
+  "recognize_zh": "低倍視野中散布多個大小不一、由數十顆血小板聚成的紫色團塊，位於紅血球之間與抹片邊緣，單獨散在的血小板相對少，符合血小板凝集（platelet clumping），是自動計數假性血小板低下的常見原因。",
+  "features": [
+    "Multiple variably sized aggregates of platelets scattered among RBCs, including large clumps at the upper left and upper right",
+    "Clumps composed of individual granular platelets without a surrounding fibrin strand or nucleus",
+    "Few isolated single platelets in the background",
+    "Several unremarkable segmented neutrophils; some platelets adjacent to neutrophils",
+    "RBCs appear normocytic without significant poikilocytosis; field is from a thin smear area"
+  ],
+  "describe_en": "Peripheral blood smear at low-to-medium power shows numerous platelet aggregates of variable size distributed throughout the field, with relatively few isolated platelets in between. Scattered segmented neutrophils appear morphologically unremarkable, and red cells show no significant poikilocytosis. Platelet clumps cause automated analyzers to undercount platelets. Findings are consistent with platelet clumping, most often an in vitro EDTA-dependent artifact producing pseudothrombocytopenia; a repeat count in citrate or heparin, or examination of a fingerstick smear, is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia", "vs": "In true thrombocytopenia platelets are sparse throughout the smear and no aggregates are seen, including at the feathered edge."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows platelets rosetting around neutrophils rather than free-standing clumps, although both are EDTA-related artifacts."},
+    {"dx": "Clotted specimen / fibrin strands", "vs": "A partially clotted sample shows platelet clumps enmeshed in fibrin strands with falsely low counts of multiple lineages; redrawing is needed."},
+    {"dx": "Giant platelets (macrothrombocytopenia)", "vs": "Giant platelets are single platelets approaching RBC size that are also excluded by analyzers, not aggregates of normal-sized platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

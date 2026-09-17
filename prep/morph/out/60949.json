@@ -1,0 +1,22 @@
+{
+  "id": "60949",
+  "recognize_zh": "骨髓切片中箭頭指出圓形或梭形、由波浪狀細長纖維與細長核組成的束狀結構，周圍有神經束膜包覆，免疫染色呈棕色陽性，這是骨髓內的周邊神經，不應誤認為腫瘤或肉芽腫。",
+  "features": [
+    "Well-circumscribed bundle of wavy, pale eosinophilic fibers with elongated slender nuclei (arrow, H&E)",
+    "Thin perineurial sheath surrounding the bundle",
+    "Longitudinally cut nerve alongside a small vessel in an IHC-stained section (arrow)",
+    "Nerve bundles strongly highlighted by immunostain (brown) in several sections (arrows), consistent with a neural marker",
+    "Surrounding marrow cellular with hematopoietic/leukemic cells and fat"
+  ],
+  "describe_en": "Bone marrow trephine sections show small, well-circumscribed bundles composed of wavy fibrillary eosinophilic stroma with slender elongated nuclei and a thin perineurial sheath, located within the intertrabecular marrow adjacent to vessels. Immunohistochemical stains highlight these structures as discrete brown bundles consistent with peripheral nerve twigs. The surrounding marrow is cellular. These structures represent normal intramedullary nerves, an incidental finding that should not be mistaken for granulomas, metastatic spindle cell tumor or fibrosis in this case of therapy-related acute myeloid leukemia.",
+  "ddx": [
+    {"dx": "Epithelioid granuloma", "vs": "Granulomas consist of plump epithelioid histiocytes with abundant pink cytoplasm, often with giant cells, rather than wavy fibers with slender nuclei and a perineurium."},
+    {"dx": "Metastatic spindle cell tumor", "vs": "Metastases infiltrate destructively with atypia and mitoses and lack an organized perineurial sheath."},
+    {"dx": "Mastocytosis lesion", "vs": "Mast cell aggregates are spindled but tryptase/CD117 positive and associated with eosinophils and fibrosis rather than being S100/neurofilament positive."},
+    {"dx": "Arteriole or tangentially cut vessel", "vs": "Vessels have a lumen and smooth muscle media rather than a solid bundle of wavy neural fibers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (neural marker, unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

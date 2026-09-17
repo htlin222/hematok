@@ -1,0 +1,23 @@
+{
+  "id": "66014",
+  "recognize_zh": "抹片中母細胞有兩型：紅箭頭為細胞質深嗜鹼、核圓的紅系母細胞，藍箭頭為細胞質淡嗜鹼且有泡狀突起（blebs）的巨核系母細胞；切片見成片母細胞夾雜異型巨核細胞，NPM1 免疫染色呈核與細胞質共同陽性（突變型）。",
+  "features": [
+    "Panel A: blasts with deeply basophilic cytoplasm, round nuclei and visible nucleoli (erythroid-type, red arrow)",
+    "Panel A: blast with paler basophilic cytoplasm showing cytoplasmic blebs and ovoid nucleus (megakaryoblast-type, blue arrow)",
+    "Panel B: marrow biopsy with sheets of blasts and interspersed small dysplastic megakaryocytes with eosinophilic cytoplasm",
+    "Panel C: CD71 diffuse positivity in the blast population",
+    "Panel D: CD61 positivity in a subset of cells with membranous/cytoplasmic pattern",
+    "Panel E: NPM1 immunostain with both nuclear and cytoplasmic reactivity (mutant pattern)"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows increased blasts, including cells with deeply basophilic cytoplasm, round nuclei, and nucleoli suggestive of erythroid differentiation, and cells with paler cytoplasm and cytoplasmic blebs suggestive of megakaryocytic differentiation. The core biopsy shows sheets of blasts with scattered dysplastic megakaryocytes. Immunohistochemistry shows CD71 positivity in the blast population, CD61 positivity in a subset, and aberrant cytoplasmic plus nuclear NPM1 staining consistent with an NPM1 mutation. Findings are consistent with NPM1-mutated acute myeloid leukemia with erythroid and megakaryocytic differentiation.",
+  "ddx": [
+    {"dx": "Acute erythroid leukemia (pure erythroid)", "vs": "AEL shows ≥80% erythroid cells with ≥30% proerythroblasts, usually with complex karyotype and TP53 mutation, and NPM1 staining is nuclear-restricted."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL shows megakaryoblasts with blebs and marrow fibrosis but lacks the mutant cytoplasmic NPM1 pattern and has its own genetic drivers (e.g., RBM15::MRTFA in infants)."},
+    {"dx": "AML, myelodysplasia-related", "vs": "AML-MR is defined by MDS-related cytogenetic/gene mutations or prior MDS; an NPM1 mutation takes precedence and excludes this category."},
+    {"dx": "Metastatic small round cell tumor", "vs": "Non-hematopoietic tumors form cohesive clusters and are negative for CD71, CD61 and myeloid markers while expressing lineage-specific markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Giemsa; H&E; IHC CD71, CD61, NPM1",
+  "match": "consistent",
+  "high_yield": false
+}

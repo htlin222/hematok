@@ -1,0 +1,22 @@
+{
+  "id": "60062",
+  "recognize_zh": "這是周邊血液流式細胞圖：紅色族群位於 CD45 弱陽性/陰性、低側散射（SSC）的「母細胞區」，約占 44%，並呈 CD19+、CD10 強陽性、CD34+、HLA-DR+，而 CD20、CD13、CD117 陰性；這組免疫表型即為 B 淋巴母細胞白血病（B-ALL）。",
+  "features": [
+    "CD45 vs SSC: red population (about 44%) in the dim-to-negative CD45, low SSC blast gate, distinct from granulocytes (green), monocytes (cyan), and lymphocytes (blue)",
+    "CD19 vs CD45: blasts are CD19 positive with dim CD45, separate from normal CD45-bright B cells",
+    "CD10 vs CD34 and HLA-DR vs CD34: blasts are uniformly CD10 bright, CD34 positive, and HLA-DR positive",
+    "CD10 vs CD20: blasts are CD20 negative, unlike mature CD20-positive B cells",
+    "CD13 vs CD117: blasts negative for CD117 and essentially negative for CD13, whereas granulocytes express CD13"
+  ],
+  "describe_en": "Flow cytometric analysis of peripheral blood shows an abnormal population (red) comprising approximately 43-44% of events, located in the dim-to-negative CD45, low side-scatter region. The population is positive for CD19, CD34, HLA-DR, and bright CD10 (with CD22 and CD58 reported), and negative for CD20, CD117, CD13, CD33, and surface immunoglobulin light chains. Normal granulocytes, monocytes, and CD45-bright lymphocytes, including mature CD20-positive B cells, serve as internal controls. This immunophenotype is consistent with B-lymphoblastic leukemia; cytogenetic and molecular studies are needed for risk classification.",
+  "ddx": [
+    {"dx": "Hematogones (benign B-cell precursors)", "vs": "Hematogones show a continuous maturation spectrum from CD34+/CD10 bright to CD20+/CD10 dim with normal CD45 and CD58, rather than a discrete CD45-dim, uniform CD34+/CD10 bright/CD20-negative cluster."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts in the same CD45-dim gate would express myeloid markers such as CD13, CD33, CD117, or MPO, which are negative here."},
+    {"dx": "Mixed phenotype acute leukemia, B/myeloid", "vs": "Requires MPO positivity or monocytic differentiation in addition to strong B markers; absence of CD13/CD33/CD117 argues against it."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells are CD10+ and CD19+ but CD34 and TdT negative, CD20 and surface light chain positive, with bright CD45."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

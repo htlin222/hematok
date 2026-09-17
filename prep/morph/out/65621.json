@@ -1,0 +1,21 @@
+{
+  "id": "65621",
+  "recognize_zh": "骨髓切片 H&E 中骨小樑旁有一層較寬、細胞質淡染至透明、核圓的未成熟顆粒球系細胞，而小樑間以核深染的小細胞（紅血球前驅細胞/淋巴球）為主、成熟分葉嗜中性球不明顯；需搭配 MPO 染色確認為成熟停滯的顆粒球系。",
+  "features": [
+    "H&E bone marrow trephine at low power with two bony trabeculae",
+    "Paratrabecular expansion of medium-to-large cells with round nuclei and pale to clear cytoplasm (immature granulocytes)",
+    "Intertrabecular areas with clusters of small cells with dark round nuclei (erythroid islands/lymphocytes)",
+    "Paucity of recognizable segmented neutrophils",
+    "Scattered adipocytes; megakaryocytes present but not conspicuous"
+  ],
+  "describe_en": "H&E-stained bone marrow trephine shows bony trabeculae lined by an expanded paratrabecular layer of medium to large cells with round nuclei and pale to clear cytoplasm, consistent with immature granulocytic precursors. The intertrabecular spaces contain clusters of small cells with dense round nuclei representing erythroid precursors and lymphocytes, with scattered adipocytes. Recognizable mature segmented neutrophils are sparse. The granulocytic nature and maturation stage of the paratrabecular cells are better defined by MPO immunostaining; in the setting of a pathogenic ELANE variant, findings are consistent with severe congenital neutropenia with maturation arrest.",
+  "ddx": [
+    {"dx": "Paratrabecular lymphoma or metastatic tumor", "vs": "The paratrabecular cells here are MPO-positive granulocytic precursors, whereas lymphoma or carcinoma would be MPO-negative and CD20/CD3 or cytokeratin positive."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML shows diffuse effacement by blasts with loss of normal topography rather than a paratrabecular layer with preserved erythroid islands."},
+    {"dx": "Reactive left shift after G-CSF or infection", "vs": "Maturation continues to abundant band and segmented neutrophils, whereas they are sparse here."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

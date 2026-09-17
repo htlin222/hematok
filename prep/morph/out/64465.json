@@ -1,0 +1,22 @@
+{
+  "id": "64465",
+  "recognize_zh": "低倍下淋巴結呈結節狀並有纖維帶分隔，高倍見多分葉大型異型細胞散在於淋巴球、組織球、嗜酸性球的混合背景中，看起來像典型何杰金淋巴瘤；但 CD30 陽性的大細胞數量多且成片，FISH 顯示 JAK2 分離並伴 3′ 端擴增，指向 ALK 陰性 ALCL。",
+  "features": [
+    "Panel A: effaced lymph node with a nodular growth pattern separated by broad fibrous bands",
+    "Panel B: large atypical cells with multilobated or horseshoe-shaped nuclei, vesicular chromatin, and prominent nucleoli",
+    "Panel B: mixed background of small lymphocytes, histiocytes, plasma cells, and eosinophils",
+    "Panel C: CD30 strong membranous and Golgi staining in numerous large cells, forming dense clusters",
+    "Panel D: JAK2 break-apart FISH with separated green (5′) and multiple red (3′) signals indicating rearrangement with 3′ amplification"
+  ],
+  "describe_en": "Lymph node sections show effaced architecture with a nodular pattern and bands of sclerosis (panel A). At high power, large atypical cells with multilobated nuclei and prominent nucleoli are scattered in a mixed inflammatory background of small lymphocytes, histiocytes, plasma cells, and eosinophils (panel B), closely mimicking nodular sclerosis classic Hodgkin lymphoma. The large cells are strongly and diffusely CD30 positive with membranous and Golgi staining in dense clusters (panel C). JAK2 break-apart FISH shows split signals with amplification of the 3′ probe (panel D). With the reported cytotoxic, T-cell clonal, ALK-negative, PAX5-negative profile, findings are consistent with ALK-negative anaplastic large cell lymphoma with JAK2 rearrangement.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma, nodular sclerosis", "vs": "Hodgkin/Reed-Sternberg cells are weakly PAX5 positive, usually lack cytotoxic markers and clonal TCR rearrangement, and are fewer in number than the CD30+ cells here."},
+    {"dx": "ALK-positive anaplastic large cell lymphoma", "vs": "ALK-positive ALCL shows ALK protein expression by IHC and ALK rearrangement, which are negative here."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with CD30 expression", "vs": "PTCL-NOS shows heterogeneous, variable CD30 staining rather than uniform strong CD30 in all neoplastic cells with hallmark-type morphology."},
+    {"dx": "Primary mediastinal/grey-zone large B-cell lymphoma", "vs": "These are B-cell lineage tumors expressing PAX5, CD20, and CD79a, which are negative in this case."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD30; FISH: JAK2 break-apart",
+  "match": "consistent",
+  "high_yield": false
+}

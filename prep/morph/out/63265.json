@@ -1,0 +1,22 @@
+{
+  "id": "63265",
+  "recognize_zh": "淋巴球門控的流式細胞雙參數圖：紅色族群集中在左上象限（Q1），即 TCRγδ 陽性、TCRαβ 陰性，形成一團緊密的單一族群，綠色的背景正常 T 細胞則為 TCRαβ 陽性；γδ T 細胞異常擴增支持 γδ 型 T-LGL 白血病。",
+  "features": [
+    "Two-parameter dot plot gated on lymphocytes: TCR gamma/delta PE (y-axis) vs TCR alpha/beta FITC (x-axis)",
+    "Dominant, tight red population in Q1: TCR gamma/delta positive, TCR alpha/beta negative",
+    "Green background T cells in Q3/Q4: TCR gamma/delta negative with dim to moderate TCR alpha/beta",
+    "Small light-blue population near the origin, negative for both TCRs (likely B and NK cells)",
+    "Clustered, homogeneous expression pattern of the gamma/delta population suggests clonal expansion"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on lymphocytes displays TCR gamma/delta (y-axis) versus TCR alpha/beta (x-axis). The predominant population (red) is TCR gamma/delta-positive and TCR alpha/beta-negative, forming a compact, homogeneous cluster in the upper left quadrant, while a smaller residual population of background T cells (green) expresses TCR alpha/beta without TCR gamma/delta. A minor double-negative population (blue) likely represents non-T lymphocytes. An expanded, phenotypically uniform gamma/delta T-cell population in the appropriate clinical and morphologic setting is consistent with gamma/delta T-cell large granular lymphocytic leukemia; clonality should be confirmed by TCR gene rearrangement studies.",
+  "ddx": [
+    {"dx": "Reactive gamma/delta T-cell expansion", "vs": "Reactive expansions (e.g., infection, post-transplant) are polyclonal on TCR gene rearrangement or V-delta/V-gamma repertoire analysis and are usually transient, whereas T-LGL leukemia is clonal and persistent."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "Hepatosplenic T-cell lymphoma is also usually gamma/delta but presents with hepatosplenomegaly, sinusoidal marrow infiltration, CD56 positivity, isochromosome 7q and aggressive course rather than indolent cytopenias with LGL morphology."},
+    {"dx": "Primary cutaneous or mucosal gamma/delta T-cell lymphoma", "vs": "These are aggressive extranodal tumors with tissue masses and cytotoxic phenotype, not a circulating indolent LGL population."},
+    {"dx": "Alpha/beta T-LGL leukemia", "vs": "The more common alpha/beta type would place the clonal CD8+ population in the TCR alpha/beta-positive quadrant, not the TCR gamma/delta quadrant."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

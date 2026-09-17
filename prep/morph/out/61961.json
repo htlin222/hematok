@@ -1,0 +1,21 @@
+{
+  "id": "61961",
+  "recognize_zh": "CD30染色中大型腫瘤細胞一致性呈強烈膜狀加核旁點狀（Golgi）陽性，成群呈黏著性團塊或巢狀分布於陰性小細胞之間，這種「成片、強度一致」的CD30是ALCL的必要特徵。",
+  "features": [
+    "Strong, uniform membranous and paranuclear Golgi-type CD30 staining in large cells",
+    "Positive cells form cohesive clusters, nests and sheets, some with a sinusoidal-like distribution",
+    "Large cells with abundant cytoplasm and vesicular nuclei",
+    "Intervening negative small lymphocytes and stromal cells"
+  ],
+  "describe_en": "CD30 immunostain shows strong and uniform membranous and Golgi-zone staining in virtually all large neoplastic cells, which grow in cohesive clusters, nests and sheets separated by negative small lymphocytes and stroma. The intensity is homogeneous across the large-cell population. This pattern is characteristic of anaplastic large cell lymphoma; with negative ALK it supports ALK-negative ALCL.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL shows CD30 in scattered HRS cells (except syncytial variant) with CD15 and weak PAX5, rather than uniform sheets of CD30+ T cells."},
+    {"dx": "PTCL, NOS with CD30 expression", "vs": "CD30 in PTCL NOS is variable in intensity and proportion, while ALCL shows strong uniform CD30 in nearly all tumor cells."},
+    {"dx": "Embryonal carcinoma", "vs": "Embryonal carcinoma is CD30-positive but also keratin, SALL4 and OCT3/4-positive and CD45/T-cell-marker negative."},
+    {"dx": "Breast implant-associated ALCL", "vs": "BIA-ALCL shares the CD30+ ALK- phenotype but arises in periprosthetic effusion or capsule, a clinical rather than morphologic distinction."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": true
+}

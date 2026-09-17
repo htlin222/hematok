@@ -1,0 +1,21 @@
+{
+  "id": "63837",
+  "recognize_zh": "右上方的超大細胞有大量淡粉紅、細顆粒狀細胞質與多分葉的核，是成熟巨核細胞；左下方細胞較小、核大而圓、細胞質深藍且邊緣有泡狀突起，是未成熟（嗜鹼性）巨核細胞；兩者並列正好示範巨核細胞的成熟階段。",
+  "features": [
+    "Very large mature megakaryocyte with abundant pale pink, finely granular cytoplasm and a compact multilobulated nucleus (upper right)",
+    "Immature megakaryocyte with a large round, dense nucleus, high N:C ratio and deeply basophilic cytoplasm with peripheral blebs (lower left)",
+    "Faint granules and budding at the periphery of the immature cell",
+    "Background mixed hematopoietic cells including erythroid precursors, lymphocytes and a band neutrophil",
+    "Scattered platelets and red cells in a thick aspirate background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows megakaryocytes at different stages of maturation. A mature megakaryocyte has abundant pale eosinophilic, finely granular cytoplasm and a lobulated nucleus, while an immature megakaryocyte has a large round nucleus with dense chromatin and a rim of deeply basophilic cytoplasm with surface blebs. The background contains trilineage hematopoietic elements without increased blasts in this field. Findings illustrate normal megakaryocytic maturation.",
+  "ddx": [
+    {"dx": "Osteoclast", "vs": "Osteoclasts contain multiple separate, evenly sized round nuclei with visible nucleoli and coarser cytoplasmic granules, whereas the megakaryocyte nucleus is a single connected lobulated mass."},
+    {"dx": "Dysplastic megakaryocyte with separated nuclear lobes (MDS)", "vs": "MDS megakaryocytes show widely separated, discrete round nuclear lobes or micromegakaryocytes with hypolobated nuclei, rather than a compact contiguous lobulated nucleus."},
+    {"dx": "Megakaryoblast or metastatic tumor cell", "vs": "Megakaryoblasts are smaller with finer chromatin and nucleoli and occur in excess, and metastatic cells form cohesive clusters, whereas this immature megakaryocyte is an isolated large cell with platelet-type budding confirmed by CD61/CD42b if needed."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

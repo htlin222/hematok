@@ -1,0 +1,21 @@
+{
+  "id": "64601",
+  "recognize_zh": "腦脊髓液抹片中沒有可見的宿主細胞，只見一群聚集與散在的短小桿菌（bacilli），染成藍色；型態只能說明是桿菌感染，無法區分綠膿桿菌（Pseudomonas aeruginosa）與陰溝腸桿菌（Enterobacter cloacae），需靠革蘭染色與培養鑑定。",
+  "features": [
+    "Clustered aggregate of numerous short, straight rod-shaped bacteria with rounded ends",
+    "Additional scattered single bacilli throughout the field",
+    "Bacteria stain blue with this Romanowsky-type stain; Gram reaction cannot be assessed",
+    "No neutrophils or other host inflammatory cells visible in this field",
+    "Clean proteinaceous background; organisms are uniform without spores or capsules evident"
+  ],
+  "describe_en": "Cytocentrifuge preparation of cerebrospinal fluid shows a cluster and scattered single short, straight bacilli with rounded ends, staining blue with a Romanowsky-type stain. No inflammatory cells are present in this field, and Gram reaction cannot be determined from this stain. The findings indicate bacterial organisms (bacilli) in the CSF, suggestive of bacterial meningitis or contamination; morphology cannot distinguish Pseudomonas aeruginosa from Enterobacter cloacae or other gram-negative rods, and identification requires Gram stain and culture with susceptibility testing.",
+  "ddx": [
+    {"dx": "Other Enterobacterales (E. coli, Klebsiella)", "vs": "These gram-negative rods are morphologically indistinguishable on smear and are separated by culture and biochemical/MALDI-TOF identification."},
+    {"dx": "Gram-positive bacilli (Listeria monocytogenes, Cutibacterium contaminant)", "vs": "Listeria and diphtheroids are gram-positive short rods, often palisading or coccobacillary, which a Gram stain distinguishes."},
+    {"dx": "Stain precipitate or debris", "vs": "Precipitate is irregular, refractile and variably sized, whereas bacteria are uniform rods with consistent width and rounded ends."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

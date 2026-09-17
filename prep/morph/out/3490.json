@@ -1,0 +1,20 @@
+{
+  "id": "3490",
+  "recognize_zh": "箭頭所指的細胞質內有多條交錯成束的 Auer rods（faggot cell），周圍是細胞質充滿顆粒、核呈折疊或雙葉狀的異常前骨髓細胞，典型急性前骨髓細胞白血病（APL）表現。",
+  "features": [
+    "Abnormal promyelocyte (arrow) with bundles of multiple crisscrossing Auer rods (faggot cell)",
+    "Surrounding large cells with abundant cytoplasm packed with coarse azurophilic granules obscuring nuclear borders",
+    "Nuclei folded, reniform, or bilobed with fine chromatin",
+    "Monotonous population of abnormal promyelocytes without normal maturation in field"
+  ],
+  "describe_en": "Aspirate smear shows a monotonous population of abnormal promyelocytes with abundant cytoplasm containing coarse azurophilic granules and folded to bilobed nuclei with fine chromatin. One cell (arrow) contains bundles of numerous crisscrossing Auer rods, a so-called faggot cell. Normal maturing granulocytic elements are not evident in this field. Findings are consistent with acute promyelocytic leukemia with PML::RARA; urgent coagulation studies and molecular confirmation are recommended.",
+  "ddx": [
+    {"dx": "AML with maturation (e.g., t(8;21))", "vs": "AML with t(8;21) typically shows single long slender Auer rods and salmon-colored granules with maturation, not bundles of Auer rods in hypergranular promyelocytes."},
+    {"dx": "Reactive left shift with increased promyelocytes", "vs": "Reactive promyelocytes have round nuclei with a Golgi hof and orderly maturation, and never contain Auer rods."},
+    {"dx": "APL variant with ZBTB16::RARA", "vs": "The PLZF variant shows more regular nuclei and pseudo-Pelger cells with fewer faggot cells and is ATRA-resistant, requiring molecular testing to separate."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

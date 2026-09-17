@@ -1,0 +1,20 @@
+{
+  "id": "62362",
+  "recognize_zh": "瀰漫的淋巴母細胞中，散在一部分細胞呈膜狀 CD1a 陽性，多數細胞為陰性；CD1a 陽性代表皮質型胸腺細胞階段，有助於將腫瘤歸為 T 淋巴母細胞淋巴瘤。",
+  "features": [
+    "Diffuse infiltrate of medium-sized cells with round to irregular nuclei and scant cytoplasm",
+    "Membranous CD1a staining in a minority subset of scattered tumor cells",
+    "Most tumor cells negative for CD1a",
+    "A few cells with strong ring-like membranous staining"
+  ],
+  "describe_en": "Immunohistochemical stain for CD1a shows membranous positivity in a minority of scattered cells within a diffuse lymphoblastic infiltrate, with the majority of tumor cells negative. CD1a is a marker of cortical thymocyte differentiation, and even partial expression, in combination with CD3 and TdT, supports T-lymphoblastic leukemia/lymphoma and helps exclude early T-precursor phenotype, which by definition is CD1a-negative.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are CD1a+ and langerin+ with grooved nuclei and abundant eosinophilic cytoplasm, and are CD3- and TdT-negative."},
+    {"dx": "Thymoma", "vs": "CD1a+ thymocytes in thymoma are accompanied by a cytokeratin-positive epithelial network and lobulated fibrous septa."},
+    {"dx": "Early T-precursor lymphoblastic leukemia", "vs": "ETP-ALL is CD1a-negative (under 5% positive) and expresses stem or myeloid markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD1a",
+  "match": "consistent",
+  "high_yield": false
+}

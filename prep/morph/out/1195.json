@@ -1,0 +1,21 @@
+{
+  "id": "1195",
+  "recognize_zh": "這是胸水流式細胞圖：高 FSC 的大細胞閘門（B）中，91.1% 事件表現 kappa、僅 3.6% 表現 lambda，呈 kappa 輕鏈限制（light chain restriction），且 CD19 在一半 kappa+ 細胞中偏弱/陰性，支持單株性大型 B 細胞淋巴瘤。",
+  "features": [
+    "FS vs SS plot: a distinct population with high forward scatter (large cells, gate B) separate from small red lymphocytes",
+    "CD45 vs SS: gated events are CD45-positive with variable side scatter, confirming hematolymphoid cells",
+    "Kappa vs lambda on large-cell gate: 91.1% kappa-positive versus 3.6% lambda-positive (kappa restriction)",
+    "Kappa vs CD19: 48.5% kappa+/CD19+ with an additional 47.2% kappa+ events that are CD19-dim to negative",
+    "Non-morphologic figure; no cytologic detail"
+  ],
+  "describe_en": "Flow cytometric analysis of the pleural fluid shows a population of large cells with high forward scatter that are CD45-positive. Within the large-cell gate, surface light-chain analysis shows marked kappa predominance (91.1% kappa versus 3.6% lambda), indicating a monotypic B-cell population. CD19 is expressed on approximately half of the kappa-positive events, with the remainder CD19-dim to negative, which may reflect aberrant CD19 loss or nonspecific kappa binding by Fc receptor-bearing macrophages and should be correlated with CD20/CD22 gating. Findings are consistent with a kappa-restricted large B-cell lymphoma involving the pleural effusion.",
+  "ddx": [
+    {"dx": "Reactive polytypic B cells", "vs": "Reactive B cells show a kappa:lambda ratio of roughly 0.5-3:1, not the ~25:1 skew seen here."},
+    {"dx": "Primary effusion lymphoma", "vs": "PEL typically lacks CD19/CD20 and surface immunoglobulin and expresses CD138/CD38 with HHV8 positivity, rather than a surface kappa-restricted CD19+ population."},
+    {"dx": "Nonspecific immunoglobulin binding by macrophages", "vs": "Macrophages bind light-chain antibodies nonspecifically via Fc receptors and are CD19-negative, high side scatter and CD14/CD64-positive, so the CD19-negative kappa+ events must be excluded by lineage gating."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

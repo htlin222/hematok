@@ -1,0 +1,21 @@
+{
+  "id": "2909",
+  "recognize_zh": "這是一袋血小板輸血製劑的照片：透明塑膠袋內為黃色半透明血漿液體，標籤標示 A 型、Rh 陽性，並貼有另一張產品標籤，外觀符合血小板成分血而非紅血球製劑。",
+  "features": [
+    "Clinical photograph of a transfusion bag containing yellow, translucent fluid",
+    "Label indicating blood group A, Rh positive",
+    "Additional product label strip on the lower portion of the bag",
+    "Fluid color consistent with plasma-suspended platelets rather than red cells",
+    "Swirling phenomenon cannot be assessed on a static photograph"
+  ],
+  "describe_en": "This is a photograph of a blood component bag, not a microscopic image. The bag contains a yellow, translucent fluid, without visible red cell sediment, and bears a label showing group A, Rh positive, with an additional product label below. The appearance is consistent with a platelet component suspended in plasma. Visual inspection before release should include checking for clots, abnormal color, turbidity or absence of swirling, which may indicate bacterial contamination or platelet activation; swirling cannot be evaluated from a still image.",
+  "ddx": [
+    {"dx": "Fresh frozen plasma (thawed)", "vs": "Thawed plasma is also yellow but clearer and lacks platelet swirling, and it is labeled as plasma rather than platelets."},
+    {"dx": "Cryoprecipitate", "vs": "Cryoprecipitate is supplied as a small-volume, cloudy concentrate rather than a large bag of yellow fluid."},
+    {"dx": "Bacterially contaminated platelet unit", "vs": "Contaminated units may show clumps, abnormal color, gas or loss of swirling, which require inspection and culture rather than a photograph alone."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "consistent",
+  "high_yield": false
+}

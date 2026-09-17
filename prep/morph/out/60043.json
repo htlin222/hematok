@@ -1,0 +1,21 @@
+{
+  "id": "60043",
+  "recognize_zh": "流式圖中紅色母細胞群位於 CD45 弱陽、低到中等 SSC 的母細胞區，CD34 強陽、CD13 陽性，並有部分弱陽性的 CD19 表現；髓系母細胞帶 CD19 異常表現是 t(8;21) AML 的典型免疫表型線索。",
+  "features": [
+    "Red-gated blast population with dim CD45 and low-to-intermediate, somewhat broad side scatter",
+    "Bright, uniform CD34 expression",
+    "Partial dim aberrant CD19 expression on a subset of CD34-positive blasts",
+    "CD13 positive; CD33 dim (weaker than typical myeloid blasts)",
+    "CD117 dim to partial, with a subset showing partial CD15 (maturing myeloid spectrum)"
+  ],
+  "describe_en": "Flow cytometric plots show a red-gated blast population in the CD45-dim, low-to-intermediate side scatter region. The blasts are brightly CD34 positive and CD13 positive, with dim CD33, dim-to-partial CD117, and partial CD15 expression reflecting a maturing myeloid component. A subset of the CD34-positive blasts shows aberrant dim CD19 expression, distinct from the brighter CD19-positive normal B cells (gray). This myeloid immunophenotype with aberrant CD19 expression is characteristic of, and should prompt cytogenetic or molecular confirmation for, acute myeloid leukemia with t(8;21)(q22;q22.1); RUNX1::RUNX1T1.",
+  "ddx": [
+    {"dx": "Mixed phenotype acute leukemia, B/myeloid", "vs": "MPAL requires strong CD19 with at least one other B-lineage marker (cCD79a, cCD22, CD10) plus MPO, whereas dim partial CD19 alone on myeloid blasts is an aberrancy typical of t(8;21) and does not assign B lineage."},
+    {"dx": "B-lymphoblastic leukemia with myeloid antigen expression", "vs": "B-ALL shows bright uniform CD19 with CD10, cCD79a, and CD22 and lacks MPO, whereas here CD19 is dim and partial on CD13/CD117-positive blasts."},
+    {"dx": "AML with inv(16); CBFB::MYH11", "vs": "Inv(16) AML typically shows a monocytic component (CD14, CD64, CD11b) and aberrant CD2 rather than CD19; cytogenetics separates the two core-binding factor leukemias."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

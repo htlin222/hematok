@@ -1,0 +1,22 @@
+{
+  "id": "63792",
+  "recognize_zh": "這是矢狀切面 CT（左）與 PET/CT 融合影像（右），多節胸腰椎椎體呈多發、片狀的高代謝攝取，提示骨髓多處受侵犯；本身不是形態學影像，需骨髓切片確認病因。",
+  "features": [
+    "Sagittal CT (left) and fused FDG PET/CT (right) of the head, neck and trunk",
+    "Multifocal increased FDG uptake within multiple cervical, thoracic and lumbar vertebral bodies",
+    "No obvious lytic destruction or vertebral collapse on the CT window at this resolution",
+    "Additional foci of uptake in the upper abdomen, of uncertain organ localization on this single slice",
+    "Physiologic uptake in brain; image quality limited (photograph of monitor)"
+  ],
+  "describe_en": "This figure is a sagittal CT image paired with a fused FDG PET/CT reconstruction rather than a morphologic specimen. The PET component shows multifocal hypermetabolic foci involving multiple vertebral bodies along the axial skeleton, without clear corresponding lytic lesions or collapse on the CT window at this resolution. Additional foci of uptake are seen in the upper abdomen. Multifocal hypermetabolic marrow lesions are nonspecific and may reflect granulomatous infection, lymphoma, myeloma, or metastatic disease, so targeted bone marrow biopsy with culture and special stains is needed; in this case the biopsy showed granulomatous inflammation.",
+  "ddx": [
+    {"dx": "Lymphoma involving marrow", "vs": "PET pattern can be identical; biopsy shows a monoclonal lymphoid infiltrate rather than epithelioid granulomas."},
+    {"dx": "Plasma cell myeloma", "vs": "Often shows lytic lesions on CT and an M-protein, with biopsy showing clonal plasma cells."},
+    {"dx": "Metastatic carcinoma", "vs": "Frequently has a known primary and sclerotic or lytic CT changes; biopsy shows keratin-positive tumor cells."},
+    {"dx": "Reactive diffuse marrow hypermetabolism (G-CSF, anemia recovery)", "vs": "Produces homogeneous uniform uptake across the skeleton rather than discrete multifocal lesions."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

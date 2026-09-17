@@ -1,0 +1,22 @@
+{
+  "id": "60635",
+  "recognize_zh": "骨髓中細胞核偏心、形似漿細胞的腫瘤細胞，細胞質內有大空泡把核推擠成新月形（印戒樣），空泡中央可見嗜酸性小點（標靶樣）；免疫染色顯示細胞質／空泡周圍環狀陽性與核陽性，證實為轉移性乳小葉癌而非多發性骨髓瘤。",
+  "features": [
+    "Panel A (clot/biopsy section): sheets of discohesive plasmacytoid cells with eccentric, hyperchromatic nuclei",
+    "Many cells contain large intracytoplasmic vacuoles compressing the nucleus into a crescent (signet-ring morphology)",
+    "Panel B (aspirate): single cell with eccentric nucleus and a large pale intracytoplasmic vacuole with a central targetoid dot (intracytoplasmic lumen)",
+    "Panel C: strong cytoplasmic immunostaining accentuated around the vacuoles (consistent with cytokeratin; antigen not labeled)",
+    "Panel D: nuclear immunostaining of tumor cells (consistent with a hormone receptor or GATA3; antigen not labeled)"
+  ],
+  "describe_en": "Bone marrow section shows diffuse infiltration by discohesive tumor cells with eccentric nuclei and abundant cytoplasm, many containing intracytoplasmic vacuoles that indent the nucleus, imparting a plasmacytoid to signet-ring appearance. The aspirate shows a single plasmacytoid cell with a large intracytoplasmic lumen containing a central targetoid inclusion, a feature of lobular carcinoma rather than plasma cells. Immunohistochemistry shows strong cytoplasmic staining rimming the vacuoles and nuclear positivity in the tumor cells; antigens are not labeled in the figure. Findings are consistent with metastatic lobular breast carcinoma mimicking multiple myeloma; confirmation with cytokeratin, GATA3/ER and E-cadherin loss with negative CD138/light chains is advised.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma cells have clock-face chromatin and a perinuclear hof without intracytoplasmic lumina, and are CD138 and light-chain restricted but cytokeratin negative."},
+    {"dx": "Metastatic signet-ring gastric carcinoma", "vs": "Morphology overlaps; gastric carcinoma is CDX2/CK20 positive and GATA3/ER negative, whereas lobular breast carcinoma is GATA3/ER positive with E-cadherin loss."},
+    {"dx": "Mott cells / plasma cells with Russell bodies", "vs": "Mott cells contain multiple round glassy immunoglobulin inclusions rather than a single mucin-filled lumen with a targetoid dot and are cytokeratin negative."},
+    {"dx": "Fat-containing histiocytes or lipogranulomas", "vs": "Lipid-laden histiocytes have small central nuclei and multiple clear vacuoles, and are CD68/CD163 positive and keratin negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC (antigens not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

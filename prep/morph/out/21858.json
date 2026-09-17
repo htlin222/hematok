@@ -1,0 +1,21 @@
+{
+  "id": "21858",
+  "recognize_zh": "MRI 顯示顱底及腰椎馬尾神經根周圍的軟腦膜顯影病灶（箭頭）；腦脊髓液抹片（B）見大量核偏位、有核旁淡染區（hof）、部分雙核的漿細胞；流式（C）呈 CD38/CD138 雙陽性族群，證實為漿細胞白血病的軟腦膜轉移。",
+  "features": [
+    "MRI: enhancing focal lesion at the skull base (axial) and nodular leptomeningeal enhancement along the lumbar cauda equina (sagittal)",
+    "CSF cytospin: numerous plasma cells with eccentric nuclei, coarse chromatin and perinuclear hof",
+    "Moderate basophilic cytoplasm, some cells binucleate or with cytoplasmic vacuoles",
+    "Monomorphic population with minimal admixed lymphocytes or monocytes",
+    "Flow cytometry: discrete CD38-bright/CD138-positive population gated as plasma cells"
+  ],
+  "describe_en": "Contrast-enhanced MRI shows an enhancing skull-base lesion and nodular leptomeningeal enhancement along the cauda equina. The CSF cytospin is highly cellular and composed of plasma cells with eccentric nuclei, clumped chromatin, perinuclear clearing and moderate basophilic cytoplasm, including binucleate forms. Flow cytometry of the CSF demonstrates a distinct CD38-bright, CD138-positive plasma cell population. Findings are consistent with leptomeningeal involvement by plasma cell leukemia (CNS myelomatosis); light chain restriction should be documented.",
+  "ddx": [
+    {"dx": "Reactive CSF plasmacytosis (infection, demyelinating disease)", "vs": "Reactive plasma cells are few, mixed with lymphocytes and polytypic for kappa and lambda."},
+    {"dx": "CNS involvement by lymphoma with plasmacytoid differentiation", "vs": "Lymphoplasmacytic or plasmablastic lymphoma cells show a B-cell or plasmablastic phenotype with CD20 or high Ki-67 and a mixed lymphoid component."},
+    {"dx": "Carcinomatous meningitis", "vs": "Carcinoma cells form cohesive clusters and are cytokeratin-positive and CD138/CD38-negative on flow."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa; MRI; flow CD38/CD138",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1098",
+  "recognize_zh": "骨髓切片免疫組織化學染色中，大量細胞的細胞質呈棕色粗顆粒狀陽性，標示出豐富的骨髓單核球系細胞，符合JMML的骨髓單核球增生；確切標記名稱未標示。",
+  "features": [
+    "Densely cellular marrow with numerous positive cells",
+    "Coarse granular to dot-like brown cytoplasmic staining pattern, typical of lysosomal/granule-associated markers",
+    "Positive cells include medium-sized cells with oval to folded nuclei and larger cells with abundant cytoplasm",
+    "Hematoxylin-counterstained negative nuclei interspersed, including some erythroid-appearing round nuclei",
+    "Specific antibody not indicated on the image"
+  ],
+  "describe_en": "Immunohistochemical stain on a bone marrow biopsy section shows a hypercellular marrow in which a large proportion of cells display coarse granular brown cytoplasmic positivity. The positive population includes medium-sized cells with oval to indented nuclei and larger cells with more abundant cytoplasm, consistent with expanded myelomonocytic elements. The specific antibody is not stated; the granular pattern is compatible with a myeloid/monocytic marker such as lysozyme, CD68, or MPO. In context, findings support myelomonocytic proliferation as seen in juvenile myelomonocytic leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "AML requires at least 20% blasts/promonocytes with sheets of immature cells, whereas JMML shows maturing myelomonocytic cells with blasts below 20%."},
+    {"dx": "Reactive monocytosis/histiocytic hyperplasia (e.g., infection)", "vs": "Reactive states lack the RAS-pathway mutations, GM-CSF hypersensitivity, and elevated HbF characteristic of JMML."},
+    {"dx": "Juvenile xanthogranuloma or Langerhans cell histiocytosis in marrow", "vs": "Histiocytic lesions form discrete aggregates of CD163/CD1a-positive histiocytes rather than a diffuse maturing myelomonocytic expansion."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: marker not stated (granular myeloid/monocytic pattern)",
+  "match": "partial",
+  "high_yield": false
+}

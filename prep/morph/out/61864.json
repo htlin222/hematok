@@ -1,0 +1,22 @@
+{
+  "id": "61864",
+  "recognize_zh": "同一視野中三個嗜中性球的核都分成 6 葉以上（hypersegmented neutrophils），背景紅血球有淚滴狀、橢圓形等大小與形狀不一的變化並有大型血小板；在 JAK2 陽性骨髓增生性腫瘤中，須考慮 hydroxyurea 等藥物或合併葉酸/B12 缺乏。",
+  "features": [
+    "Three neutrophils each with six or more nuclear lobes (hypersegmentation)",
+    "Neutrophils of normal to slightly increased size with fine pink granular cytoplasm",
+    "Marked anisopoikilocytosis with teardrop cells (dacrocytes) and elliptocytes",
+    "Large/giant platelet and a platelet clump",
+    "Background with scattered normal-sized platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows three neutrophils in a single field, each with six or more nuclear lobes, meeting criteria for neutrophil hypersegmentation. The red cells show marked anisopoikilocytosis with teardrop cells and elliptocytes, and there is a large platelet and a platelet clump. No blasts or nucleated red cells are seen in this field. In a JAK2-positive myeloproliferative neoplasm, hypersegmentation raises the possibility of hydroxyurea (or other antimetabolite) effect or concurrent vitamin B12/folate deficiency, while the teardrop cells may reflect marrow fibrosis. Findings are consistent with hypersegmented neutrophils in a JAK2-positive myeloproliferative neoplasm.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia (vitamin B12/folate deficiency)", "vs": "Megaloblastic anemia also shows hypersegmented neutrophils but with macro-ovalocytes, raised MCV and low B12/folate levels rather than JAK2 positivity and teardrop cells."},
+    {"dx": "Hydroxyurea or methotrexate effect", "vs": "Drug-induced hypersegmentation occurs with macrocytosis in treated patients and is identified by medication history rather than morphology alone."},
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "This benign autosomal dominant trait shows hypersegmentation in a proportion of neutrophils in otherwise normal blood without poikilocytosis or a clonal marker."},
+    {"dx": "Primary myelofibrosis without antimetabolite exposure", "vs": "PMF shows leukoerythroblastosis with teardrop cells and giant platelets but does not itself cause consistent neutrophil hypersegmentation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

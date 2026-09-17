@@ -1,0 +1,22 @@
+{
+  "id": "66221",
+  "recognize_zh": "組合圖：淋巴結 H&E（A、B）見濾泡間區小至中型、無明顯異型的淋巴球浸潤，免疫染色 CD3（C）、CD99（D）陽性，TdT（E）部分陽性，看起來像 T 淋巴母細胞；但流式（F）顯示 CD4+CD8+ 皮質胸腺細胞表型且 sTRBC1/sTRBC2 與 cyTRBC1/cyTRBC2 皆為多株性分布，支持惰性 T 淋巴母細胞增生（iT-LBP）而非 T-LBL。",
+  "features": [
+    "Panels A-B (H&E): lymph node with interfollicular infiltrate of small to medium lymphocytes without significant atypia, around vessels in a Castleman-type background",
+    "Panel C: CD3 highlights numerous interfollicular T cells",
+    "Panel D: CD99 positive in a large subset; Panel E: TdT positive in a partial, patchy subset",
+    "Panel F flow: CD4/CD8 double-positive population (orange/purple) with CD5 and CD7 expression and CD99 positivity",
+    "Panel F flow: sCD3-negative and sCD3-positive subsets; CD4+CD8+ T cells show both TRBC1 and TRBC2 expression (polytypic) on surface and cytoplasmic staining"
+  ],
+  "describe_en": "Lymph node biopsy shows interfollicular expansion by small to medium-sized lymphocytes lacking significant cytologic atypia. By immunohistochemistry these cells are CD3 and CD99 positive with partial TdT expression. Flow cytometry of the node identifies a CD4/CD8 double-positive immature T-cell population resembling cortical thymocytes; both surface TRBC1/TRBC2 on sCD3-positive cells and cytoplasmic TRBC1/TRBC2 on sCD3-negative cells show a mixed, polytypic distribution rather than restriction to one constant region. Together with the absence of clonal TCR rearrangement and the multicentric Castleman disease background, findings are consistent with indolent T-lymphoblastic proliferation rather than T-lymphoblastic lymphoma.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-LBL shows effacing sheets of blasts with mitoses, clonal TCR rearrangement and restricted or absent TRBC1/TRBC2, whereas here TRBC1/TRBC2 are polytypic and TCR PCR is polyclonal."},
+    {"dx": "Thymoma (with ectopic or metastatic immature T cells)", "vs": "Thymoma contains a cytokeratin-positive epithelial meshwork, which should be excluded with keratin stains, whereas iT-LBP lacks epithelial cells."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL is composed of TdT-negative, CD1a-negative mature T cells that often lose pan-T antigens and show TRBC1 restriction."},
+    {"dx": "Reactive paracortical hyperplasia", "vs": "Reactive T cells are mature single-positive (CD4 or CD8) and TdT negative, without a CD4+CD8+ CD1a+ cortical thymocyte population."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD3, CD99, TdT; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

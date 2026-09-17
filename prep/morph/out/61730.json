@@ -1,0 +1,21 @@
+{
+  "id": "61730",
+  "recognize_zh": "這是 CD45 對 SSC 的流式圖：芽細胞 gate（CD45 dim、低 SSC）佔 13.26%，其中綠色為異常芽細胞群，單核球僅 0.30% 幾乎消失；CD45 dim 芽細胞明顯增加而正常單核球缺乏，是後續判讀 BPDCN 表現型的起點。",
+  "features": [
+    "Dot plot: CD45-KO (x-axis) versus side scatter (y-axis), gated on live events",
+    "Blast gate (dim CD45, low SSC) comprises 13.26% and contains a dominant green abnormal population",
+    "Granulocytes 15.27% with high SSC and moderate CD45",
+    "Monocytes markedly reduced (0.30%)",
+    "Lymphocyte gate (bright CD45, low SSC) adjacent to the blast gate",
+    "Large CD45-negative low-SSC population (gray) consistent with nucleated red cells/debris"
+  ],
+  "describe_en": "Flow cytometric CD45 versus side scatter plot of live events shows an expanded blast region with dim CD45 and low side scatter comprising 13.26% of events, occupied predominantly by an abnormal (green) population. Granulocytes account for 15.27% and monocytes are nearly absent at 0.30%, with a lymphocyte cluster adjacent to the blast gate and a large CD45-negative population consistent with erythroid precursors or debris. This plot establishes gating only and does not assign lineage. Subsequent analysis of the green population for CD4, CD56, CD123, HLA-DR and lack of CD34 and lineage markers is needed to support blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts share the CD45-dim/low SSC location but typically express CD34/CD117, CD13/CD33 or MPO rather than CD4/CD56/CD123-bright without CD34."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts also fall in the CD45-dim region but express TdT with CD19/CD22 or cytoplasmic CD3."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

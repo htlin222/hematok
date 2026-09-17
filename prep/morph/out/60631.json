@@ -1,0 +1,22 @@
+{
+  "id": "60631",
+  "recognize_zh": "眼球切片可見葡萄膜上的腫瘤結節，PET-CT 顯示整條中軸骨骼瀰漫性攝取增加，而周邊血與骨髓抹片出現巨大、細胞質豐富且呈聚團的非造血細胞，提示葡萄膜黑色素瘤瀰漫性骨髓侵犯。",
+  "features": [
+    "Enucleated globe (H&E, whole mount) with a nodular intraocular mass arising from the uveal tract",
+    "Tumor on high power composed of sheets of discohesive epithelioid cells with hyperchromatic nuclei; no obvious melanin pigment at this resolution",
+    "PET-CT: diffuse, symmetric FDG uptake throughout the axial skeleton (vertebrae, pelvis, ribs, proximal long bones)",
+    "Peripheral blood: single very large circulating cell with eccentric nucleus and abundant pale, finely vacuolated cytoplasm (arrow)",
+    "Bone marrow aspirate: cohesive cluster of large tumor cells with round nuclei, visible nucleoli and pale gray-blue cytoplasm, distinct from surrounding myeloid cells"
+  ],
+  "describe_en": "Composite figure. Section of the enucleated eye shows a nodular uveal tumor composed of sheets of epithelioid cells with pleomorphic, hyperchromatic nuclei. Whole-body PET-CT demonstrates diffuse hypermetabolism of the axial and proximal appendicular skeleton. The peripheral blood smear contains a rare very large non-hematopoietic cell with abundant vacuolated cytoplasm, and the bone marrow aspirate shows cohesive clusters of large tumor cells with prominent nucleoli set among normal hematopoietic elements. Melanin pigment is not clearly appreciable at this resolution, so immunostains (SOX10, HMB-45, Melan-A) are needed for confirmation. Findings are consistent with metastatic uveal melanoma with diffuse bone marrow involvement and circulating tumor cells.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma clusters are also cohesive but lack melanin and are cytokeratin positive and SOX10/HMB-45 negative, whereas uveal melanoma is the reverse."},
+    {"dx": "Acute leukemia / blasts", "vs": "Blasts are dispersed, have scant cytoplasm and form no cohesive clusters, whereas these tumor cells are much larger, clustered and CD45 negative."},
+    {"dx": "Megakaryocytes or osteoclasts in aspirate", "vs": "Megakaryocytes have lobulated nuclei and osteoclasts have multiple separate uniform nuclei, unlike the clusters of individual mononuclear tumor cells here."},
+    {"dx": "Hemophagocytic histiocytes", "vs": "Histiocytes are single cells with engulfed blood cells and bland nuclei rather than cohesive aggregates of atypical cells with nucleoli."}
+  ],
+  "specimen": "other",
+  "stain": "H&E; PET-CT; Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

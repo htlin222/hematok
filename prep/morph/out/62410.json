@@ -1,0 +1,22 @@
+{
+  "id": "62410",
+  "recognize_zh": "骨髓切片 CD20 染色中，脂肪空泡之間有大片呈強烈膜性棕色陽性的小淋巴細胞，形成瀰漫間質性至片狀浸潤；大量 CD20 陽性小 B 細胞浸潤骨髓，配合形態上的漿細胞樣分化，支持淋巴漿細胞淋巴瘤（lymphoplasmacytic lymphoma）。",
+  "features": [
+    "Extensive infiltrate of CD20-positive small lymphoid cells with strong membranous staining",
+    "Interstitial to confluent paratrabecular/sheet-like distribution between fat spaces",
+    "Scattered CD20-negative (blue) residual hematopoietic cells",
+    "Small cell size consistent with mature B lymphocytes",
+    "Adjacent bony trabecula at lower edge"
+  ],
+  "describe_en": "CD20 immunostain of the bone marrow shows an extensive interstitial to confluent infiltrate of small lymphoid cells with strong membranous positivity, occupying much of the intertrabecular space between adipocytes. Only scattered CD20-negative residual hematopoietic elements are present. CD20 does not highlight the plasmacytic component, which should be assessed with CD138 and kappa/lambda stains. In conjunction with the morphology and an IgM paraprotein, the findings are consistent with marrow involvement by lymphoplasmacytic lymphoma.",
+  "ddx": [
+    {"dx": "Marginal zone lymphoma", "vs": "MZL shows a similar CD20-positive small B-cell infiltrate, so separation requires MYD88 L265P testing and clinicopathologic correlation."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL cells show dim CD20 and co-express CD5, CD23 and LEF1, whereas LPL is typically CD5- and CD23-negative."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is CD5-positive and cyclin D1/SOX11-positive, which LPL is not."},
+    {"dx": "Reactive B-cell lymphoid aggregates", "vs": "Benign aggregates are small, well-circumscribed, non-paratrabecular and mixed with CD3-positive T cells rather than diffuse sheets of B cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

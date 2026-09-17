@@ -1,0 +1,22 @@
+{
+  "id": "64928",
+  "recognize_zh": "箭頭處的紅血球幾乎被一個圓形、實心的寄生蟲填滿，胞質內散佈金褐色瘧色素（hemozoin），一側有粉紅色染色質團，不見分裂成裂殖子，符合間日瘧配子體（gametocyte）。",
+  "features": [
+    "Round, compact parasite nearly filling a slightly enlarged red cell",
+    "Diffusely scattered golden-brown malarial pigment (hemozoin)",
+    "Eccentric condensed magenta chromatin mass",
+    "No segmentation into merozoites (not a schizont)",
+    "Surrounding erythrocytes normocytic; scattered platelets"
+  ],
+  "describe_en": "Thin peripheral blood smear shows normocytic erythrocytes with scattered platelets. One slightly enlarged red cell is almost completely occupied by a round, unsegmented parasite containing abundant dispersed golden-brown pigment and an eccentric chromatin mass. No merozoites are identified, excluding a mature schizont. Findings are consistent with a Plasmodium vivax gametocyte.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum gametocyte", "vs": "P. falciparum gametocytes are crescent or banana-shaped and distort the red cell, unlike this round gametocyte filling an enlarged cell."},
+    {"dx": "Plasmodium vivax schizont", "vs": "A schizont contains 12-24 discrete merozoites with clumped pigment, whereas this parasite shows a single chromatin mass and no segmentation."},
+    {"dx": "Plasmodium malariae gametocyte", "vs": "P. malariae gametocytes are similar in shape but fill a normal-sized or small red cell and lack Schüffner stippling; species confirmation may need PCR."},
+    {"dx": "Babesia", "vs": "Babesia forms are small pleomorphic rings or tetrads without hemozoin pigment."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa (thin smear)",
+  "match": "consistent",
+  "high_yield": true
+}

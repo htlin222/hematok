@@ -1,0 +1,22 @@
+{
+  "id": "62766",
+  "recognize_zh": "骨髓切片中的肉芽腫中央是一個圓形透明脂肪空泡，外圍環繞一圈嗜伊紅纖維素樣環，再往外是上皮樣組織球與發炎細胞，形成「甜甜圈狀」纖維素環肉芽腫（fibrin-ring granuloma），在發燒待查的旅遊者應優先想到 Q 熱（Coxiella burnetii）。",
+  "features": [
+    "Cellular marrow with a focal granulomatous lesion adjacent to bone trabeculae (low power)",
+    "Granuloma with a central clear lipid vacuole (doughnut configuration)",
+    "Thin eosinophilic fibrinoid ring encircling the central vacuole",
+    "Surrounding epithelioid histiocytes, neutrophils, and lymphocytes; no caseous necrosis",
+    "Immunostain (antibody not labeled) highlights the ring and the surrounding histiocytic rim"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a cellular marrow containing a focal granulomatous lesion. At high power, the granuloma consists of a central clear lipid vacuole encircled by a thin eosinophilic fibrinoid ring, surrounded in turn by epithelioid histiocytes admixed with neutrophils and lymphocytes, without caseous necrosis. An immunostain, whose antibody is not labeled in the image, highlights the ring and the surrounding histiocytic cuff. Findings are consistent with fibrin-ring (doughnut) granulomas; in a returning traveler with fever of unknown origin, Coxiella burnetii (Q fever) serology and PCR are recommended.",
+  "ddx": [
+    {"dx": "Fibrin-ring granulomas of other causes (EBV, CMV, leishmaniasis, Hodgkin lymphoma, allopurinol hypersensitivity)", "vs": "The ring granuloma morphology is shared, so these are separated by serology, organism stains, drug history, and absence of Reed-Sternberg cells rather than by the granuloma itself."},
+    {"dx": "Mycobacterial (tuberculous) granuloma", "vs": "Tuberculous granulomas show caseous necrosis with Langhans giant cells and acid-fast bacilli, lacking a central fat vacuole with a fibrin ring."},
+    {"dx": "Lipogranuloma", "vs": "Lipogranulomas contain lipid vacuoles surrounded by lipid-laden macrophages and lymphocytes but lack the concentric eosinophilic fibrin ring and associated neutrophils."},
+    {"dx": "Sarcoidosis", "vs": "Sarcoid granulomas are tight, non-necrotizing epithelioid aggregates with giant cells and no central vacuole or fibrin ring."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (unlabeled)",
+  "match": "consistent",
+  "high_yield": true
+}

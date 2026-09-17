@@ -1,0 +1,21 @@
+{
+  "id": "61574",
+  "recognize_zh": "CD45 對側向散射（SSC）圖中，一大群 CD45 弱表現、低 SSC 的細胞落在「blasts」閘門內佔 82.39%，正常顆粒球僅 2.14%、單核球 0.20%；典型「CD45 dim 母細胞區」大量擴張，代表急性白血病（此例 B-ALL）取代正常造血。",
+  "features": [
+    "CD45-KO (x-axis, log) versus side scatter SS INT (y-axis, linear) dot plot",
+    "Dominant population in the CD45-dim, low-SSC blast gate, labeled 82.39%",
+    "Markedly reduced granulocytes (Gr 2.14%) in the CD45-moderate, high-SSC region",
+    "Very few monocytes (Mono 0.20%)",
+    "Small residual lymphocyte cluster with bright CD45 and low SSC"
+  ],
+  "describe_en": "This CD45 versus side-scatter flow cytometry plot shows a dominant population in the CD45-dim, low-side-scatter region, gated as blasts and accounting for 82.39% of events. Normal populations are markedly reduced, with granulocytes 2.14%, monocytes 0.20% and a small residual CD45-bright lymphocyte cluster. This pattern indicates replacement of normal hematopoiesis by a blast population and is consistent with acute leukemia; lineage assignment requires further antigen analysis, which in this case supports B-lymphoblastic leukemia. Note that percentages are relative to gated events and may differ from the morphologic blast count.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts also sit in the CD45-dim/low-SSC region; lineage-specific markers (MPO, CD13, CD33, CD117 vs CD19, CD10, cCD79a) are required."},
+    {"dx": "Hematogone hyperplasia", "vs": "Hematogones fall in a CD45-dim-to-moderate low-SSC area but show a normal maturation continuum and rarely reach such a high percentage with near absence of granulocytes."},
+    {"dx": "Plasma cell neoplasm or nucleated red cells", "vs": "Plasma cells and erythroid precursors can be CD45-negative/dim with low SSC but are CD38/CD138-bright or CD71/CD235a-positive rather than CD34/CD19/CD10."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

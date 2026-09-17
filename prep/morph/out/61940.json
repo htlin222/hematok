@@ -1,0 +1,21 @@
+{
+  "id": "61940",
+  "recognize_zh": "高倍IgD染色可見左下方一條帶狀排列的IgD膜狀陽性小淋巴球（外套區細胞），右上方則是IgD陰性、核較大的生發中心細胞，另有兩個強陽性的細胞，顯示外套細胞與生發中心的交界與互相穿插。",
+  "features": [
+    "Band of small lymphocytes with membranous IgD staining streaming diagonally across the lower left",
+    "Adjacent area of larger IgD-negative germinal center cells with vesicular nuclei",
+    "Two isolated strongly positive cells with intense cytoplasmic staining (likely IgD-expressing plasma cells)",
+    "Faint background staining in the germinal center area",
+    "Interface between mantle and germinal center appears irregular"
+  ],
+  "describe_en": "High-power IgD immunostain shows a band of small lymphocytes with membranous IgD staining streaming alongside and into a zone of larger IgD-negative germinal center cells with vesicular nuclei. Two isolated cells with intense cytoplasmic IgD staining, likely plasma cells, are present in the germinal center area. The irregular intermingling of IgD-positive mantle cells with germinal center cells supports progressive transformation of germinal centers.",
+  "ddx": [
+    {"dx": "Normal reactive follicle", "vs": "Reactive follicles show a sharp, circumferential IgD-positive mantle clearly separated from the germinal center, whereas PTGC shows mantle cells infiltrating the center."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "Separation relies on finding large LP cells (CD20+, OCT2+) within nodules, which are not identifiable in this field."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL IgD+ cells are monomorphic with slightly irregular nuclei and cyclin D1/SOX11 positivity, which reactive mantle cells lack."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: IgD",
+  "match": "consistent",
+  "high_yield": false
+}

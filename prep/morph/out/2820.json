@@ -1,0 +1,22 @@
+{
+  "id": "2820",
+  "recognize_zh": "周邊血液抹片整個視野只有紅血球，幾乎找不到血小板，也沒有血小板凝集或碎裂紅血球，符合單純的血小板減少；但單憑此圖無法確定是免疫性血小板減少症（ITP）。",
+  "features": [
+    "Red cells are predominantly normocytic and normochromic with central pallor preserved",
+    "Platelets are essentially absent in this field; no platelet clumps are seen",
+    "No schistocytes, spherocytes or red cell agglutination",
+    "Occasional mild poikilocytes (teardrop-like or folded cells), likely smear artifact",
+    "No leukocytes present in this field"
+  ],
+  "describe_en": "Peripheral blood smear, examined in a well-spread area, shows normocytic, normochromic red cells without significant anisopoikilocytosis. Platelets are markedly decreased, with essentially none present in this field, and no platelet clumping is identified to suggest pseudothrombocytopenia. Schistocytes are not seen, arguing against a microangiopathic process. No leukocytes are present in the field for assessment. Findings are consistent with isolated thrombocytopenia, as seen in immune thrombocytopenia, although the morphology is not specific.",
+  "ddx": [
+    {"dx": "Thrombotic thrombocytopenic purpura / microangiopathic hemolytic anemia", "vs": "TTP shows schistocytes and polychromasia with thrombocytopenia, whereas this smear has no fragmented red cells."},
+    {"dx": "EDTA-induced pseudothrombocytopenia", "vs": "Pseudothrombocytopenia shows platelet clumps or platelet satellitism, typically at the feathered edge, which are absent here."},
+    {"dx": "Inherited macrothrombocytopenia (e.g., MYH9-related disorder, Bernard-Soulier)", "vs": "Inherited forms show giant platelets (and Döhle-like inclusions in MYH9 disorders), whereas ITP platelets are normal to mildly enlarged; no platelets are available here to assess size."},
+    {"dx": "Bone marrow failure (aplastic anemia, leukemia)", "vs": "Marrow failure is usually accompanied by other cytopenias or circulating blasts, requiring CBC and marrow examination to exclude."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

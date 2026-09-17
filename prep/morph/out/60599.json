@@ -1,0 +1,21 @@
+{
+  "id": "60599",
+  "recognize_zh": "周邊血液的淋巴球核分成兩葉（雙核樣、binucleated/lobated lymphocyte），細胞質淡藍；骨髓切片 CD20 免疫染色可見竇內（intrasinusoidal）B 細胞排列，這是持續性多株 B 淋巴球增多症（PPBL）的典型組合。",
+  "features": [
+    "Medium-sized lymphocyte with a bilobed nucleus giving a binucleate appearance",
+    "Moderately condensed chromatin and a rim of pale blue cytoplasm",
+    "Otherwise unremarkable red cells in the background",
+    "Bone marrow biopsy immunostain (B-cell marker, likely CD20): linear clusters of positive cells within sinusoids (intrasinusoidal pattern)"
+  ],
+  "describe_en": "Peripheral blood smear shows a lymphocyte with a deeply cleaved, bilobed nucleus producing a binucleate appearance, with mature chromatin and a moderate rim of pale cytoplasm. Immunohistochemistry on the bone marrow biopsy highlights B cells arranged in linear aggregates within sinusoids. In a patient with lymphocytosis, these findings are suggestive of persistent polyclonal B-cell lymphocytosis, typically seen in young female smokers with HLA-DR7, polyclonal IgM elevation and isochromosome 3q; polyclonality should be confirmed by flow cytometry.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Also shows intrasinusoidal marrow infiltration, but cells are villous lymphocytes with monotypic light-chain restriction rather than polyclonal binucleated lymphocytes."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are small round lymphocytes with soccer-ball chromatin and smudge cells, CD5+/CD23+ and light-chain restricted."},
+    {"dx": "Adult T-cell leukemia/lymphoma (flower cells)", "vs": "ATLL cells have multilobated flower-like nuclei and are CD4+ T cells with HTLV-1 serology, not polyclonal B cells."},
+    {"dx": "Hairy cell leukemia", "vs": "Shows hairy cytoplasmic projections, CD11c/CD25/CD103 and BRAF V600E with diffuse fried-egg marrow infiltrate, not bilobed nuclei."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; IHC: B-cell marker (likely CD20)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63055",
+  "recognize_zh": "A 圖骨髓切片中箭頭所指是大型、核仁明顯的非典型細胞，混在造血細胞間；B 圖抹片中巨噬細胞吞噬多個有核細胞（噬血現象）；D 圖膜性染色的大細胞沿骨髓竇狀隙呈線狀分支排列，提示血管內大 B 細胞淋巴瘤合併噬血症候群。",
+  "features": [
+    "Panel A (H&E): hypercellular marrow with scattered large atypical cells (arrows) having vesicular nuclei, prominent nucleoli and moderate cytoplasm",
+    "Panel B (aspirate): macrophage with vacuolated cytoplasm engulfing nucleated hematopoietic cells (hemophagocytosis)",
+    "Panel C: nuclear immunostain highlighting clusters of positive cells scattered in the interstitium (marker not specified in the image)",
+    "Panel D: membranous immunostain outlining large cells confined to linear, branching sinusoidal channels (intrasinusoidal pattern)",
+    "Background fat with preserved trilineage hematopoiesis around the infiltrate"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a hypercellular marrow in which scattered large atypical lymphoid cells with vesicular chromatin and prominent nucleoli are admixed with hematopoietic elements. The aspirate contains histiocytes with active hemophagocytosis of nucleated cells. Immunohistochemistry highlights the large cells in a predominantly linear, branching intrasinusoidal distribution on a membranous stain, while a nuclear stain decorates clusters of interstitial cells. Findings are consistent with intravascular large B-cell lymphoma involving bone marrow with associated hemophagocytic syndrome; lineage should be confirmed with CD20/PAX5.",
+  "ddx": [
+    {"dx": "Secondary HLH (infection-associated) without lymphoma", "vs": "Infection-associated HLH shows hemophagocytosis but lacks large atypical B cells confined to sinusoids on CD20/PAX5 staining."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL also has a sinusoidal pattern but its cells are medium-sized, CD3+ CD5- gamma-delta T cells, not large CD20+ B cells."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "ANKL cells are CD56+, cytoplasmic CD3+, EBER+ and circulate in blood, unlike CD20+ intravascular B cells."},
+    {"dx": "Diffuse large B-cell lymphoma with marrow involvement", "vs": "Conventional DLBCL forms nodular or diffuse interstitial masses rather than being restricted to vascular/sinusoidal lumina."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E, Wright-Giemsa, IHC (nuclear and membranous markers)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3226",
+  "recognize_zh": "骨髓切片透明腔隙中有一團約十餘顆緊密堆疊、完整的橘紅色紅血球，右緣可見被推擠成新月形的組織球核，代表紅血球被組織球吞噬；周圍為紅血球前驅細胞豐富的骨髓。",
+  "features": [
+    "Cluster of about a dozen intact, tightly packed orange-red erythrocytes",
+    "Crescentic, compressed histiocyte nucleus at the right edge of the cluster, indicating intracytoplasmic location",
+    "Additional red cell just outside the cluster within the same clear space",
+    "Surrounding cellular marrow with erythroid precursors (dense round nuclei) and occasional larger cells with open chromatin",
+    "Delicate histiocyte cytoplasmic membrane barely visible around the ingested cells"
+  ],
+  "describe_en": "Bone marrow core biopsy section shows a histiocyte distended by a tightly packed cluster of intact erythrocytes, with its nucleus compressed into a crescent at the periphery. The histiocyte lies within a clear space, and the surrounding marrow is cellular with numerous erythroid precursors and occasional larger mononuclear cells. The delicate histiocyte cytoplasm is only faintly visible, so an intrasinusoidal red cell aggregate is a technical consideration, but the compressed peripheral nucleus supports phagocytosis. Findings are consistent with hemophagocytosis in a patient with acute EBV infection, requiring clinical correlation for HLH.",
+  "ddx": [
+    {"dx": "Red cell aggregate within a sinusoid", "vs": "Intravascular red cells lack an enveloping cell membrane and a compressed histiocyte nucleus at the edge of the cluster."},
+    {"dx": "Erythroblastic island", "vs": "Erythroblastic islands contain nucleated erythroid precursors around a central macrophage, not anucleate red cells inside it."},
+    {"dx": "Hemosiderin-laden macrophage", "vs": "Siderophages contain amorphous golden-brown granules rather than discrete round red cells and stain with Prussian blue."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2806",
+  "recognize_zh": "數顆大型母細胞染色質細緻、細胞質淡藍，右下一顆細胞質較多呈灰藍色、偏向單核母細胞樣，左上另有一顆成熟中性球；混合原始細胞形態可提示急性骨髓單核球性白血病，但需細胞化學確認。",
+  "features": [
+    "Large blasts with high N:C ratio and finely dispersed chromatin",
+    "Round to oval nuclei; one cell with a slightly irregular contour",
+    "Lower-right blast with more abundant gray-blue cytoplasm, suggestive of monocytic differentiation",
+    "No Auer rods or obvious cytoplasmic granules in the blasts",
+    "A segmented neutrophil with granular cytoplasm at upper left; red cells unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows several large blasts with finely dispersed chromatin, indistinct nucleoli and scant to moderate basophilic cytoplasm without Auer rods. One blast has more abundant gray-blue cytoplasm, raising the possibility of monocytic differentiation, and a mature segmented neutrophil is present nearby. The monocytic and granulocytic components cannot be quantified from this field. Findings indicate circulating blasts and are compatible with acute myelomonocytic leukemia when supported by NSE/MPO cytochemistry and flow cytometry.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with maturation", "vs": "AML with maturation has >=10% maturing neutrophil-lineage cells but <20% monocytic cells, confirmed by NSE negativity and lack of CD14/CD64 expression."},
+    {"dx": "Acute monocytic leukemia", "vs": "Acute monocytic leukemia has >=80% monocytic cells with prominent folded nuclei and gray cytoplasm and minimal neutrophil lineage."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL blasts are MPO/NSE-negative and express TdT with B- or T-lineage markers."},
+    {"dx": "AML with inv(16)/CBFB::MYH11", "vs": "This genetic entity often has myelomonocytic morphology plus abnormal eosinophils with basophilic granules and requires cytogenetic confirmation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

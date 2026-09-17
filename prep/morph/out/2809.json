@@ -1,0 +1,23 @@
+{
+  "id": "2809",
+  "recognize_zh": "骨髓抽吸抹片以一致的中小型母細胞為主：高核質比、核圓、染色質細緻、細胞質少且無顆粒，正常造血細胞明顯減少，符合前驅 B 淋巴母細胞白血病（B-ALL）；確診仍需流式細胞儀。",
+  "features": [
+    "Monotonous population of small to intermediate blasts, roughly 1.5-2 times a red cell diameter",
+    "High N:C ratio with scant, agranular pale-blue cytoplasm",
+    "Round to slightly irregular nuclei with fine, homogeneous chromatin and indistinct nucleoli",
+    "No Auer rods or cytoplasmic granules identified",
+    "Blasts arranged in clusters and singly; residual maturing myeloid and erythroid cells markedly reduced",
+    "Some smudged/crushed cells in thicker areas of the smear"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular specimen largely replaced by a monotonous population of small to intermediate-sized blasts. The blasts have a high nuclear-to-cytoplasmic ratio, round to slightly irregular nuclei with finely dispersed chromatin and inconspicuous nucleoli, and scant agranular basophilic cytoplasm. Auer rods are not identified, and normal trilineage hematopoiesis is markedly reduced. Findings are consistent with acute lymphoblastic leukemia; flow cytometric immunophenotyping (CD19, CD10, CD22, TdT, cytoplasmic CD79a) and cytogenetic studies are needed to confirm B-lineage and risk stratify.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 blasts may look identical and lack granules; separation requires flow cytometry showing myeloid markers (CD13, CD33, CD117) without B-lineage antigens."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL is morphologically indistinguishable and is separated by cytoplasmic CD3 expression and lack of CD19/CD79a."},
+    {"dx": "Hematogone hyperplasia", "vs": "Hematogones show a spectrum of maturation with more condensed chromatin and a normal maturational flow pattern, rather than a monotonous sheet replacing the marrow."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and are surface-immunoglobulin positive, TdT negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

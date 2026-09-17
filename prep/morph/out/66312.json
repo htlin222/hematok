@@ -1,0 +1,22 @@
+{
+  "id": "66312",
+  "recognize_zh": "左側細胞比旁邊的小淋巴球大，細胞核圓形偏在一側、染色質呈粗塊狀，細胞質豐富呈灰藍色；偏心核加粗塊染色質與豐富細胞質，符合漿細胞或淋巴漿細胞樣細胞，在周邊血中出現需考慮淋巴漿細胞淋巴瘤等疾病。",
+  "features": [
+    "Cell larger than the adjacent small lymphocyte with a round, eccentrically placed nucleus",
+    "Coarse, clumped chromatin with small areas of parachromatin clearing; no nucleoli",
+    "Abundant grey-blue cytoplasm, paler than a classic plasma cell, with an indistinct perinuclear hof",
+    "Adjacent small mature lymphocyte with dense chromatin and a thin rim of basophilic cytoplasm",
+    "Background normocytic red cells without definite rouleaux; scattered normal platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic red cells without definite rouleaux formation and adequate scattered platelets. There is a plasmacytoid cell with a round, eccentric nucleus, coarsely clumped chromatin, and abundant grey-blue cytoplasm; the perinuclear hof is not conspicuous and the cytoplasm is less basophilic than a classic mature plasma cell. An adjacent small mature lymphocyte is present for comparison. Findings are consistent with a circulating plasma cell/plasmacytoid lymphocyte, which in the reported clinical context of an IgM-lambda paraprotein and marrow lymphoplasmacytic infiltrate supports lymphoplasmacytic lymphoma.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis (viral infection, sepsis, serum sickness)", "vs": "Reactive circulating plasma cells are polytypic on flow cytometry and resolve with the underlying illness, whereas LPL shows a light chain-restricted B-cell and plasma cell population with IgM paraprotein."},
+    {"dx": "Plasma cell leukemia/plasma cell myeloma", "vs": "Plasma cell leukemia shows many circulating clonal plasma cells without a CD19+ B-cell component, typically with IgG/IgA or light chain paraprotein rather than IgM."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "Morphology overlaps; MYD88 L265P mutation, IgM paraprotein and a diffuse marrow pattern favor LPL, while splenic or extranodal involvement and absent MYD88 favor MZL."},
+    {"dx": "Reactive (atypical) lymphocyte", "vs": "Reactive lymphocytes have abundant cytoplasm that scallops around red cells with a centrally placed nucleus and more open chromatin rather than an eccentric nucleus with clumped chromatin."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": false
+}

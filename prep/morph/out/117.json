@@ -1,0 +1,44 @@
+{
+  "id": "117",
+  "recognize_zh": "肋膜積液細胞塊中漂浮成團的大型漿母細胞樣（plasmablastic/immunoblastic）細胞，核仁明顯、細胞質雙染性，且無實體腫塊；同一病人皮膚有 Kaposi sarcoma 的紫紅結節與梭形細胞增生，病灶細胞呈 HHV8 LANA-1 顆粒狀核染色，指向 HIV 相關的原發性積液淋巴瘤（PEL）。",
+  "features": [
+    "Effusion cell block: discohesive clusters of large atypical lymphoid cells floating in fibrinous/proteinaceous background",
+    "Large cells with round to irregular vesicular nuclei, prominent central nucleoli and moderate amphophilic cytoplasm (plasmablastic/immunoblastic)",
+    "Admixed small reactive lymphocytes that remain negative on the tumor-cell markers",
+    "Tumor cells show strong membranous/cytoplasmic staining with one marker and nuclear staining (including a speckled, LANA-1-like pattern) with others; one marker is negative with heavy background",
+    "Skin biopsy: dermal spindle cell proliferation with slit-like vascular spaces, extravasated red cells and nuclear HHV8 LANA-1 positivity (Kaposi sarcoma)",
+    "Clinical photo: multiple violaceous macules/nodules on the scalp"
+  ],
+  "describe_en": "Pleural fluid cell block sections show clusters of large, discohesive neoplastic lymphoid cells with vesicular nuclei, prominent nucleoli and moderate amphophilic cytoplasm, set in a fibrinous background with scattered small lymphocytes. Immunostains demonstrate strong membranous/cytoplasmic positivity of the large cells for one marker, nuclear positivity for others including a granular LANA-1-type pattern, and negativity for a marker that shows only background staining; the specific antibodies are not labeled on the images. A concurrent skin biopsy shows a dermal spindle cell proliferation with slit-like vascular channels and nuclear HHV8 LANA-1 expression, corresponding to the violaceous scalp nodules. In an HIV-positive patient, findings are consistent with HHV8+/EBV+ primary effusion lymphoma with concurrent Kaposi sarcoma.",
+  "ddx": [
+    {"dx": "Extracavitary/solid variant PEL or HHV8+ DLBCL, NOS", "vs": "PEL here is confined to the effusion without a solid mass, whereas HHV8+ DLBCL arises in lymph nodes/spleen, is usually EBV-negative and often expresses IgM lambda."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma usually forms solid (often oral/GI) masses and is EBV+ but HHV8 LANA-1 negative."},
+    {"dx": "Fluid overload-associated large B-cell lymphoma (HHV8-negative effusion-based lymphoma)", "vs": "It occurs in elderly HIV-negative patients, usually retains CD20 and is HHV8-negative, unlike the LANA-1+ null-phenotype cells of PEL."},
+    {"dx": "Metastatic carcinoma or mesothelial cells in effusion", "vs": "Carcinoma forms cohesive 3D clusters with keratin positivity, whereas PEL cells are discohesive, keratin-negative and express CD138/MUM1 with HHV8 LANA-1."}
+  ],
+  "specimen": "body fluid",
+  "stain": "H&E, IHC (incl. HHV8 LANA-1), clinical photo",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Clinical photo: violaceous macules and nodules on the scalp (Kaposi sarcoma)",
+    "Skin biopsy, H&E low power: dermal spindle cell proliferation with slit-like vascular spaces",
+    "Skin biopsy, H&E: interlacing spindle cells between collagen bundles",
+    "Skin biopsy, H&E high power: spindle-to-plump lesional cells with slit-like spaces containing red cells",
+    "Skin biopsy, HHV8 LANA-1 IHC: nuclear positivity in lesional spindle cells",
+    "Skin biopsy, HHV8 LANA-1 IHC high power: granular nuclear staining",
+    "Pleural fluid cell block, H&E: clusters of atypical lymphoid cells in fibrinous background",
+    "Cell block, H&E: dense aggregate of large discohesive tumor cells",
+    "Cell block, H&E high power: large plasmablastic cells with prominent nucleoli",
+    "Cell block, H&E high power: vesicular nuclei and amphophilic cytoplasm",
+    "Cell block IHC (marker unlabeled): partial membranous staining of tumor cluster",
+    "Cell block IHC (marker unlabeled): strong membranous/cytoplasmic staining of large cells",
+    "Same marker, high power: ring-like membranous staining of tumor cells",
+    "Cell block IHC (marker unlabeled): nuclear staining in large cells, small lymphocytes negative",
+    "Same nuclear marker, higher power",
+    "Cell block IHC (marker unlabeled): tumor cells negative with heavy background staining",
+    "Same negative marker, higher power",
+    "Cell block nuclear stain in subset of large cells (likely HHV8 LANA-1 or EBER)",
+    "Cell block nuclear stain with speckled/granular pattern in most large cells (LANA-1-type)"
+  ]
+}

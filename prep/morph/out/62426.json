@@ -1,0 +1,22 @@
+{
+  "id": "62426",
+  "recognize_zh": "低倍周邊血液抹片中央有一顆巨大細胞，具多葉、深染的聚集核與拉長如尾巴的紫色細胞質，即循環中的巨核細胞（或其裸核碎片）；背景紅血球呈疊錢狀（rouleaux）排列、白血球很少，符合內臟利什曼病的高球蛋白血症與全血球減少。",
+  "features": [
+    "Large megakaryocyte with a compact, multilobated, hyperchromatic nucleus",
+    "Elongated, stretched purple cytoplasmic extensions trailing from the nucleus",
+    "Prominent rouleaux formation of red cells throughout the field",
+    "Paucity of leukocytes, with only a single small granulocyte at the upper left",
+    "Low magnification (approximately 200x) limits evaluation of red cell and platelet detail"
+  ],
+  "describe_en": "Low-power view of a Leishman-stained peripheral blood smear shows a circulating megakaryocyte with a compact multilobated hyperchromatic nucleus and elongated cytoplasmic extensions. Red cells show prominent rouleaux formation, and leukocytes are sparse. Detailed red cell and platelet morphology cannot be assessed at this magnification, and no parasites are evident in this field. Circulating megakaryocytes are nonspecific but can accompany marrow infiltration or stress; together with rouleaux (hypergammaglobulinemia) and pancytopenia, findings are compatible with visceral leishmaniasis, which is confirmed by amastigotes on the marrow aspirate.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis or other myeloproliferative neoplasm", "vs": "MPNs with circulating megakaryocytes show a leukoerythroblastic picture with teardrop cells and often thrombocytosis rather than pancytopenia with rouleaux."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma also causes rouleaux and cytopenias but shows circulating plasma cells and a monoclonal protein rather than polyclonal gammopathy and Leishmania."},
+    {"dx": "Metastatic tumor cell cluster", "vs": "Tumor clusters are cohesive groups of multiple cells with discrete nuclei, rather than a single cell with a lobulated nucleus and platelet-producing cytoplasm."},
+    {"dx": "Smudge artifact / damaged leukocyte", "vs": "Smudged cells lack the multilobated nucleus and granular cytoplasmic tails of a megakaryocyte."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": false
+}

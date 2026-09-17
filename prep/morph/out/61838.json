@@ -1,0 +1,22 @@
+{
+  "id": "61838",
+  "recognize_zh": "小淋巴球背景中有一顆巨大的雙核細胞，兩個核呈對稱「鷹眼」樣，CD30 在細胞膜與細胞質呈強陽性；小淋巴球完全陰性，這就是典型的 Reed-Sternberg 細胞 CD30 染色型態。",
+  "features": [
+    "Single very large binucleate cell with two mirror-image round nuclei (owl-eye appearance)",
+    "Nuclei with central nucleoli visible through the counterstain",
+    "Strong membranous and granular cytoplasmic CD30 staining",
+    "Background of small CD30-negative lymphocytes and histiocytes",
+    "Faint scattered CD30 staining in rare background cells only"
+  ],
+  "describe_en": "Immunohistochemical stain for CD30 shows a very large binucleate cell with two mirror-image nuclei containing central nucleoli, displaying strong membranous and granular cytoplasmic CD30 positivity. The surrounding small lymphocytes and histiocytes are negative. In classical Hodgkin lymphoma, the Hodgkin/Reed-Sternberg cells are typically CD30+ and CD15+, with weak PAX5 and loss of CD45 and CD20; EBV (EBER) positivity was reported in this case. Findings are consistent with a Reed-Sternberg cell of classical Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows sheets of CD30+ hallmark cells with horseshoe nuclei, often ALK+ and EMA+, and lacks PAX5 and CD15."},
+    {"dx": "Nodular lymphocyte predominant Hodgkin lymphoma (LP cells)", "vs": "LP 'popcorn' cells are CD30-negative, CD20+, and CD45+, unlike the CD30+ Reed-Sternberg cell."},
+    {"dx": "EBV-positive reactive immunoblasts (e.g. infectious mononucleosis)", "vs": "Reactive CD30+ immunoblasts retain CD45 and strong CD20/PAX5 and lie in a polymorphous activated background rather than showing classic HRS phenotype."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL large cells are CD20+/CD45+ and usually CD30-negative, scattered in a T-cell and histiocyte background."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": true
+}

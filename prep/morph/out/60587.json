@@ -1,0 +1,22 @@
+{
+  "id": "60587",
+  "recognize_zh": "低倍 H&E 淋巴組織中有數個結節狀區域，被周圍小淋巴球包覆；核染色的免疫染色只在其中兩個結節呈幾乎全部細胞核強陽性，其他結節與背景僅散在陽性，提示濾泡內（被「包覆」的）高增生性病灶，如 Burkitt 淋巴瘤。此放大倍率下星空樣（starry sky）巨噬細胞無法清楚辨認。",
+  "features": [
+    "Low-power lymphoid tissue with multiple vague nodules separated by sheets of small lymphocytes",
+    "Nodules composed of densely packed cells; tingible-body macrophages suggested as scattered pale spots but not resolvable at this magnification",
+    "Nuclear immunostain (likely Ki-67 or MYC; not labeled) with near-100% strong nuclear positivity confined to two well-circumscribed nodules",
+    "Other nodules and interfollicular areas show only scattered positive nuclei",
+    "Sharp demarcation between positive nodules and surrounding negative lymphoid cells (mantle-like cuff)"
+  ],
+  "describe_en": "Low-power H&E section shows lymphoid tissue with multiple ill-defined nodules surrounded by small lymphocytes, without obvious diffuse effacement at this magnification. A nuclear immunostain highlights two sharply circumscribed nodules with near-uniform strong nuclear positivity, whereas the remaining nodules and interfollicular regions show only scattered positive nuclei. The starry-sky pattern cannot be assessed at this resolution, and the antibody is not labeled; high-power morphology, MYC FISH and a complete B-cell phenotype (CD10, BCL6, BCL2 negative) are required. In the stated context, findings are suggestive of Burkitt lymphoma with a follicular/nodular (in situ-like) distribution cloaked within otherwise preserved lymphoid tissue.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers show polarized, moderate-to-high Ki-67 with tingible-body macrophages in all follicles and are BCL2 negative without MYC rearrangement, rather than near-100% staining restricted to select nodules."},
+    {"dx": "Follicular lymphoma, high grade", "vs": "Neoplastic follicles are usually BCL2 positive, back-to-back and show lower, non-polarized proliferation with BCL2 rearrangement."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Morphology may overlap; FISH demonstrating concurrent BCL2 rearrangement discriminates it from Burkitt lymphoma."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger and more pleomorphic with variable Ki-67 and usually lack the IG::MYC translocation as the sole driver."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: nuclear marker (likely Ki-67, not labeled)",
+  "match": "partial",
+  "high_yield": false
+}

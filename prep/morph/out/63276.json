@@ -1,0 +1,22 @@
+{
+  "id": "63276",
+  "recognize_zh": "四格組圖中，骨髓造血組織被梭形纖維化間質取代，其中散在少數大型、核仁明顯的非典型細胞（1a、1b），CD30 染色使這些大細胞呈膜狀及點狀陽性（1c），網狀纖維染色顯示纖維增加（1d）；纖維化背景中的 CD30+ 大型 RS 細胞是典型何杰金淋巴瘤侵犯骨髓的線索。",
+  "features": [
+    "Figure 1a (H&E, low-medium power): marrow space replaced by a cellular fibrotic stroma with spindled cells and scattered larger atypical cells adjacent to a bony trabecula",
+    "Figure 1b (H&E, high power): large cells with irregular hyperchromatic to vesicular nuclei in a mixed background; RS cell nucleoli are only partly resolved due to focus",
+    "Figure 1c (CD30 IHC): scattered large cells with membranous and paranuclear dot-like CD30 staining; background small cells negative",
+    "Figure 1d (reticulin stain): increased network of reticulin fibers with intersections, consistent with increased fibrosis (grade II)",
+    "Normal hematopoietic elements are sparse in the fibrotic areas"
+  ],
+  "describe_en": "Bone marrow core biopsy shows marrow spaces extensively replaced by a fibrotic, spindle-cell-rich stroma containing scattered large atypical mononuclear and occasionally multinucleated cells within a mixed inflammatory background. Immunohistochemistry for CD30 highlights these large cells with membranous and Golgi-type staining, while the background cells are negative. Reticulin stain demonstrates a diffuse increase in reticulin fibers with intersections, consistent with grade II fibrosis. Focus and image resolution limit assessment of nucleolar detail in the H&E panels. Findings are consistent with involvement of the bone marrow by classic Hodgkin lymphoma; CD15, PAX5 (weak) and CD45 staining would further support the diagnosis.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL cells are strongly CD30-positive but form cohesive sheets or sinusoidal clusters of hallmark cells and are T-cell/ALK-positive, lacking PAX5 and CD15."},
+    {"dx": "Primary myelofibrosis", "vs": "Shows reticulin fibrosis with clustered bizarre megakaryocytes that are CD61-positive and CD30-negative, rather than CD30+ RS cells."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Large cells are strongly CD20/PAX5-positive and CD30/CD15-negative within a T-cell and histiocyte-rich background."},
+    {"dx": "Metastatic carcinoma with desmoplasia", "vs": "Tumor cells form cohesive nests that are cytokeratin-positive and CD30-negative (except embryonal carcinoma)."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD30; reticulin",
+  "match": "consistent",
+  "high_yield": false
+}

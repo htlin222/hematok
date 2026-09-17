@@ -1,0 +1,22 @@
+{
+  "id": "60165",
+  "recognize_zh": "周邊血抹片白血球明顯增多，多數嗜中性球核分葉少（雙葉或帶狀、類Pelger-Huët型），胞質顆粒稀少而偏淡，並夾雜胞核圓形、胞質較多的未成熟顆粒球（myelocyte），但沒有嗜鹼性球或單核球增多，符合非典型慢性骨髓性白血病（aCML）。",
+  "features": [
+    "Leukocytosis with numerous neutrophilic cells in a single field",
+    "Dysplastic neutrophils: hypolobated (bilobed, band-like, pseudo-Pelger) nuclei with coarse clumped chromatin",
+    "Hypogranular, pale pink-gray neutrophil cytoplasm",
+    "Circulating immature granulocytes (myelocytes) with round to indented nuclei and moderate pale cytoplasm",
+    "No basophils or increase in monocytes in this field; red cells largely normocytic with mild anisocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed predominantly of neutrophils and circulating immature granulocytes, including myelocytes. Neutrophils are dysplastic, with hypolobated, band-like and bilobed (pseudo-Pelger) nuclei and hypogranular cytoplasm. Basophils are not seen and monocytes are not increased in this field; red cells show mild anisocytosis and platelets are present. Findings are consistent with atypical chronic myeloid leukemia, BCR::ABL1-negative, pending exclusion of BCR::ABL1 and correlation with the marrow findings.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "CML shows a myelocyte peak with absolute basophilia and no significant dysgranulopoiesis, and BCR::ABL1 is detected."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL has mature, normally granulated segmented neutrophils (often toxic granulation) with <10% circulating precursors and CSF3R mutation."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML requires peripheral monocytes ≥10% of leukocytes and ≥0.5–1×10^9/L, whereas monocytes are not increased here."},
+    {"dx": "Leukemoid reaction", "vs": "A leukemoid reaction shows toxic granulation and Döhle bodies with normally lobated neutrophils rather than hypogranular pseudo-Pelger forms."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

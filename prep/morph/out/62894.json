@@ -1,0 +1,21 @@
+{
+  "id": "62894",
+  "recognize_zh": "CD30 免疫染色下，背景大多數小淋巴球與組織球為陰性，只有少數散在的大細胞呈膜狀加上核旁高基氏體點狀（Golgi dot）棕色染色，這是 Hodgkin/Reed-Sternberg 細胞的典型 CD30 染色型態。",
+  "features": [
+    "Scattered isolated large cells with membranous and paranuclear (Golgi) dot-like brown staining for CD30",
+    "Positive cells are sparse and individually dispersed, not in sheets",
+    "Background small lymphocytes and histiocytes negative",
+    "A few cells show weak, granular cytoplasmic staining",
+    "Multinucleated polykaryocytes in the background are not highlighted"
+  ],
+  "describe_en": "Immunohistochemical stain for CD30 on the lymph node shows a predominantly negative background of small lymphocytes and histiocytes. Scattered, individually dispersed large cells show membranous and paranuclear Golgi-pattern positivity, with a few cells showing weaker cytoplasmic staining. The multinucleated Warthin-Finkeldey-like cells are not highlighted. This staining pattern supports Hodgkin/Reed-Sternberg cells and is consistent with classic Hodgkin lymphoma, to be interpreted with CD15, PAX5, and CD45 results.",
+  "ddx": [
+    {"dx": "Reactive CD30-positive immunoblasts", "vs": "Activated immunoblasts are CD30 positive but lack typical Reed-Sternberg morphology, are CD45+ with strong PAX5/CD20, and are CD15 negative."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Shows strong, uniform CD30 staining in cohesive sheets or sinusoidal clusters, often ALK positive, rather than rare scattered cells."},
+    {"dx": "Measles or other viral lymphadenitis", "vs": "Warthin-Finkeldey polykaryocytes are CD30 negative and there are no CD30+/CD15+ Reed-Sternberg cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

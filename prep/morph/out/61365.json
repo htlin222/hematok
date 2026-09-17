@@ -1,0 +1,22 @@
+{
+  "id": "61365",
+  "recognize_zh": "鐵染色（Prussian blue）下，多個紅血球前驅細胞的核周圍有一圈藍色鐵顆粒，至少包住核周三分之一以上，形成環狀；這些就是環狀鐵粒幼紅血球（ring sideroblasts）。",
+  "features": [
+    "Multiple erythroid precursors with coarse blue siderotic granules arranged in a perinuclear ring",
+    "Granules encircle a third or more of the nuclear circumference in many cells",
+    "Nuclei counterstained pink (nuclear fast red); some precursors show scattered non-ring granules",
+    "Occasional coarse extracellular/macrophage iron fragments in the background",
+    "Granulocytic precursors without iron granules for comparison"
+  ],
+  "describe_en": "Prussian blue iron stain of a bone marrow aspirate shows numerous erythroid precursors containing coarse blue siderotic granules arranged in a perinuclear ring encircling at least one-third of the nucleus, diagnostic of ring sideroblasts. Other erythroid precursors show scattered non-ring granules, and granulocytic precursors are negative. Ring sideroblasts should be enumerated as a percentage of erythroid precursors (≥15%, or ≥5% with SF3B1 mutation, for MDS with ring sideroblasts). Findings are consistent with ring sideroblastic erythropoiesis; correlation with blast count, dysplasia, SF3B1 status, and reversible causes (alcohol, isoniazid, copper deficiency, zinc excess) is required.",
+  "ddx": [
+    {"dx": "Normal (non-ring) sideroblasts", "vs": "Normal sideroblasts contain only a few fine granules scattered in the cytoplasm without a perinuclear ring."},
+    {"dx": "Reactive sideroblastic anemia (alcohol, isoniazid, copper deficiency)", "vs": "Morphologically identical ring sideroblasts; separated by history, reversibility, copper/zinc levels, and absence of SF3B1 mutation or clonal cytogenetics."},
+    {"dx": "Congenital sideroblastic anemia (ALAS2)", "vs": "Presents early in life with microcytic hypochromic red cells, family history, and germline ALAS2/SLC25A38 mutation rather than acquired macrocytosis with dysplasia."},
+    {"dx": "MDS/MPN with SF3B1 mutation and thrombocytosis", "vs": "Also has ring sideroblasts but shows platelet count ≥450 × 10^9/L with large atypical megakaryocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Prussian blue",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "47",
+  "recognize_zh": "骨髓切片中有界線不清的淋巴組織球性浸潤，以小淋巴球和組織球為主，只散在少數核大、染色質淡的大型異型細胞；膜型 B 細胞標記只標出這些散在的大細胞，背景小細胞多被 T 細胞標記染色，符合 T 細胞/組織球豐富型大 B 細胞淋巴瘤（THRLBCL）侵犯骨髓。",
+  "features": [
+    "Scattered single large atypical cells with vesicular, irregular to oval nuclei and small nucleoli, not forming sheets or clusters",
+    "Large cells show membranous positivity for an (unlabeled) B-cell marker and nuclear positivity for a second unlabeled marker, while the background small cells are negative",
+    "Predominant background of small, slightly irregular lymphocytes that stain for a membranous T-cell-type marker, admixed with numerous histiocytes with pale to eosinophilic cytoplasm",
+    "Ill-defined, poorly circumscribed interstitial/paratrabecular lymphohistiocytic infiltrate replacing hematopoietic marrow at low power",
+    "Residual fat spaces and bony trabeculae; no discrete B-cell nodules or follicular dendritic meshworks evident"
+  ],
+  "describe_en": "Bone marrow core biopsy shows an ill-defined lymphohistiocytic infiltrate occupying intertrabecular spaces and replacing normal hematopoiesis. At high power the infiltrate is composed predominantly of small, slightly irregular lymphocytes and numerous histiocytes, among which scattered single large atypical cells with vesicular nuclei and small nucleoli are present. Immunohistochemistry (markers not labeled in the images) shows membranous staining of the scattered large cells for a B-cell-type marker and nuclear staining of the large cells for a second marker, whereas the background small lymphocytes are diffusely positive for a membranous T-cell-type marker. No sheets of large cells or discrete small B-cell nodules are seen. In the clinical context of splenomegaly and pancytopenia, findings are consistent with marrow involvement by T-cell/histiocyte-rich large B-cell lymphoma; the TCR gene rearrangement result likely reflects the reactive T-cell background rather than a T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma involving marrow", "vs": "Hodgkin/Reed-Sternberg cells are CD30+/CD15+ with weak PAX5 and absent CD20/OCT2/BOB1, and marrow involvement usually shows fibrosis, whereas the large cells here are strongly CD20-type positive."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (T-cell-rich variant pattern)", "vs": "NLPHL retains at least focal small B-cell nodules with CD21+ FDC meshworks and PD-1+ T-cell rosettes around LP cells, while THRLBCL lacks residual small B-cell nodules in a diffuse T-cell/histiocyte background."},
+    {"dx": "Peripheral T-cell lymphoma, NOS or angioimmunoblastic T-cell lymphoma", "vs": "The atypical large cells in PTCL/AITL are T cells (often with antigen loss or TFH markers), with scattered B immunoblasts being small and EBV-associated, whereas here the atypical large cells are B cells and the small T cells lack cytologic atypia."},
+    {"dx": "Reactive lymphohistiocytic aggregate or granulomatous marrow lesion", "vs": "Reactive aggregates lack atypical large B cells, which are the diagnostic population highlighted by the B-cell marker in this case."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (markers unlabeled)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "IHC, membranous B-cell-type marker highlighting scattered single large cells in a negative small-cell background",
+    "H&E, low power: marrow core with ill-defined interstitial lymphohistiocytic infiltrate between trabeculae",
+    "H&E, medium power: infiltrate of small lymphocytes and histiocytes replacing hematopoiesis",
+    "H&E, high power: small irregular lymphocytes and pale histiocytes with scattered large vesicular atypical cells",
+    "IHC, nuclear marker (unlabeled) strongly positive in scattered large cells, weak to negative in small cells",
+    "IHC, high power: membranous T-cell-type marker staining the majority of small lymphocytes, sparing histiocytes",
+    "IHC, low power: membranous marker diffusely highlighting the small lymphocytes of the infiltrate",
+    "IHC, low power: nuclear marker (unlabeled) staining numerous scattered small cells throughout the marrow"
+  ]
+}

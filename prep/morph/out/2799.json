@@ -1,0 +1,22 @@
+{
+  "id": "2799",
+  "recognize_zh": "單顆大型單核球系細胞，核呈不規則分葉/折疊、染色質細緻如花邊，細胞質豐富灰藍色，為異常單核球或前單核球（promonocyte），在 CMML 周邊血可見。",
+  "features": [
+    "Large mononuclear cell, much larger than surrounding red cells",
+    "Irregular, lobulated to folded nucleus",
+    "Fine, lacy chromatin without prominent nucleoli",
+    "Abundant gray-blue cytoplasm without vacuoles or visible granules",
+    "Background red cells with mild poikilocytosis (occasional elongated forms)"
+  ],
+  "describe_en": "Peripheral blood smear shows a large monocytic cell with an irregular, lobulated nucleus, fine lacy chromatin and abundant gray-blue cytoplasm. Nucleoli are inconspicuous and cytoplasmic vacuoles are not seen. The delicate chromatin and nuclear folding raise the question of an immature monocyte versus a promonocyte, a distinction that matters because promonocytes count as blast equivalents. In the setting of persistent absolute monocytosis, findings are consistent with chronic myelomonocytic leukemia.",
+  "ddx": [
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes are mature with condensed chromatin and are not accompanied by dysplasia, clonal mutations (TET2, SRSF2, ASXL1) or abnormal CD14+/CD16- monocyte partitioning."},
+    {"dx": "Acute monocytic leukemia", "vs": "Acute monocytic leukemia requires >=20% monoblasts plus promonocytes in blood or marrow, rather than predominantly mature and abnormal monocytes."},
+    {"dx": "Atypical lymphocyte", "vs": "Reactive lymphocytes have deeper basophilic cytoplasm scalloped around red cells and a round nucleus with coarser chromatin."},
+    {"dx": "Hypogranular dysplastic myelocyte", "vs": "Myelocytes have a round eccentric nucleus with coarser chromatin and pinkish secondary granules, while monocytes are MPO weak and NSE positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

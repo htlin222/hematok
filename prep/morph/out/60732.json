@@ -1,0 +1,29 @@
+{
+  "id": "60732",
+  "recognize_zh": "骨髓切片細胞增多、以小淋巴球與漿細胞浸潤為主，血管壁被均質粉紅色無定形物質增厚，Congo red 偏光下血管周圍呈黃綠色雙折射；流式顯示 kappa 限制的 B 細胞與漿細胞，符合 Waldenström 巨球蛋白血症合併 AL 類澱粉沉積。",
+  "features": [
+    "BM biopsy (A): hypercellular intertrabecular marrow with a diffuse infiltrate of small lymphoid cells and plasmacytoid cells",
+    "H&E (B): vessel walls thickened by homogeneous, acellular, pale eosinophilic amorphous material with surrounding lymphoplasmacytic cells",
+    "Congo red under polarized light (C): yellow-to-apple-green birefringence in a vessel wall",
+    "Flow (D): CD19+/CD20+ B cells with kappa light chain restriction (~95.9% kappa vs 1.3% lambda)",
+    "Flow (E): CD45−/dim CD38+ CD138+ plasma cells with cytoplasmic kappa restriction (~94% kappa vs 3.75% lambda)"
+  ],
+  "describe_en": "The bone marrow core biopsy is hypercellular with an extensive interstitial to diffuse infiltrate of small lymphocytes, plasmacytoid lymphocytes and plasma cells. Several small vessels show mural thickening by homogeneous, acellular eosinophilic material, which demonstrates yellow-green birefringence on Congo red staining viewed under polarized light, confirming amyloid deposition. Flow cytometry identifies a kappa-restricted CD19+/CD20+ B-cell population and kappa-restricted CD38+/CD138+ plasma cells. Findings are consistent with lymphoplasmacytic lymphoma (Waldenström macroglobulinemia) with associated AL amyloidosis; mass spectrometry typing of the amyloid and MYD88 L265P testing are recommended.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma with AL amyloidosis", "vs": "Myeloma lacks the clonal CD19+/CD20+ B-cell component and usually has a non-IgM paraprotein without MYD88 L265P."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "MZL can look similar but typically forms paratrabecular-sparing nodules with monocytoid cells and is usually MYD88 wild-type."},
+    {"dx": "AA or ATTR amyloidosis", "vs": "Congo red birefringence does not type the amyloid; mass spectrometry or immunostaining is needed to show light-chain rather than serum amyloid A or transthyretin protein."},
+    {"dx": "Hyalinized vessels / arteriolosclerosis", "vs": "Hyaline arteriolosclerosis is Congo red negative without apple-green birefringence under polarized light."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Congo red (polarized); flow cytometry",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "BM biopsy: hypercellular marrow with lymphoplasmacytic infiltrate",
+    "H&E: vessels with walls thickened by amorphous eosinophilic material",
+    "Congo red, polarized: yellow-green birefringence in a vessel wall",
+    "Flow: kappa-restricted CD19+/CD20+ B cells",
+    "Flow: CD38+/CD138+ plasma cells with cytoplasmic kappa restriction"
+  ]
+}

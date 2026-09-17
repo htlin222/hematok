@@ -1,0 +1,22 @@
+{
+  "id": "63051",
+  "recognize_zh": "骨髓切片中 CD3 陽性的小型 T 細胞沿著竇狀隙排成線狀並散布於間質，TIA1 在同一群細胞呈細顆粒狀胞質陽性、聚成小簇，符合 T 細胞大顆粒淋巴球白血病的間質及竇內浸潤型態。",
+  "features": [
+    "CD3: small to medium lymphocytes with membranous/cytoplasmic positivity arranged in linear intrasinusoidal chains and scattered interstitially",
+    "Positive cells lining vascular spaces between adipocytes, forming single-file strands",
+    "TIA1: dense granular cytoplasmic staining in clustered interstitial lymphocytes",
+    "No discrete nodular lymphoid aggregates",
+    "Background trilineage hematopoietic cells negative for both markers"
+  ],
+  "describe_en": "Paired immunohistochemical stains on a bone marrow core biopsy show an increased population of small CD3-positive T cells arranged in a linear intrasinusoidal pattern and scattered singly and in small clusters within the interstitium. TIA1 highlights the same population with granular cytoplasmic positivity, indicating a cytotoxic phenotype. No nodular lymphoid aggregates are seen and residual hematopoietic cells are negative. Findings are consistent with involvement by T-cell large granular lymphocytic leukemia, supported by CD8 expression, loss of CD5/CD7 and clonal TR gene rearrangement or STAT3 mutation.",
+  "ddx": [
+    {"dx": "Reactive cytotoxic T-cell expansion (viral infection, post-transplant)", "vs": "Reactive expansions are polyclonal and usually lack intrasinusoidal linear chains, so clonality (TRG/TRB, STAT3) is needed to separate them."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL cells are medium-sized, CD4-/CD8-, gamma-delta TCR positive with isochromosome 7q and massive hepatosplenomegaly, versus small CD8+ alpha-beta LGL cells."},
+    {"dx": "Aggressive NK-cell leukemia / chronic lymphoproliferative disorder of NK cells", "vs": "NK-cell processes lack surface CD3 (CD3 epsilon cytoplasmic only) and express CD56, with ANKL being EBV-positive."},
+    {"dx": "Splenic marginal zone lymphoma (intrasinusoidal pattern)", "vs": "SMZL sinusoidal cells are CD20+ B cells, not CD3+/TIA1+ T cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD3, TIA1",
+  "match": "consistent",
+  "high_yield": false
+}

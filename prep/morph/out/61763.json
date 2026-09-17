@@ -1,0 +1,20 @@
+{
+  "id": "61763",
+  "recognize_zh": "這張 Cyclin D1 染色中，成片的中型腫瘤細胞核幾乎全為藍色陰性，只有零星散在的細胞（內皮細胞或組織球等內在對照）呈棕色陽性；表示此腫瘤 Cyclin D1 陰性，需以 SOX11 或 CCND2 重組支持被套細胞淋巴瘤。",
+  "features": [
+    "Sheets of medium-sized tumor cells with round to irregular nuclei, negative for nuclear cyclin D1",
+    "Only rare scattered cells show brown staining, serving as internal positive controls",
+    "Some positive signals are cytoplasmic/granular, compatible with histiocytes or endothelial cells",
+    "Finely dispersed chromatin on hematoxylin counterstain, compatible with blastoid morphology"
+  ],
+  "describe_en": "Immunohistochemistry for cyclin D1 shows that the diffuse population of medium-sized tumor cells lacks nuclear staining, while rare scattered non-neoplastic cells are positive, indicating adequate staining. The image therefore does not demonstrate the cyclin D1 overexpression expected in most mantle cell lymphomas. A cyclin D1-negative mantle cell lymphoma is still possible and would be supported by SOX11 positivity (as in the companion image) and CCND2 rearrangement; otherwise alternative blastoid B-cell neoplasms should be excluded.",
+  "ddx": [
+    {"dx": "Cyclin D1-negative mantle cell lymphoma", "vs": "This variant is SOX11-positive and often carries CCND2 rearrangement despite lacking cyclin D1 protein."},
+    {"dx": "Diffuse large B-cell lymphoma / high-grade B-cell lymphoma", "vs": "These are SOX11-negative and may show MYC/BCL2 rearrangements, whereas MCL is SOX11-positive."},
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "B-ALL is TdT-positive and may express SOX11, so TdT and surface immunoglobulin separate it from MCL."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Cyclin D1",
+  "match": "partial",
+  "high_yield": false
+}

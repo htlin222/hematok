@@ -1,0 +1,22 @@
+{
+  "id": "61998",
+  "recognize_zh": "整片密集排列的圓形細胞幾乎全部呈清楚的細胞膜（環狀）棕色染色，腫瘤細胞呈片狀取代組織；標記名稱未標示，依病例脈絡應為漿細胞標記（如 CD138），或 t(11;14) 骨髓瘤常見的 CD20。",
+  "features": [
+    "Diffuse sheet of densely packed, uniform round cells",
+    "Strong, crisp membranous (ring-like) staining in virtually all cells",
+    "Nuclei unstained and centrally to eccentrically placed within the stained membrane rings",
+    "Rare unstained structures (e.g., a small vessel/stromal space) interrupt the sheet",
+    "No residual unstained hematopoietic population visible in this field",
+    "Marker not labeled; interpretation relies on case context"
+  ],
+  "describe_en": "Immunohistochemical stain (marker not labeled on the image) shows a diffuse, sheet-like infiltrate of uniform round cells with strong membranous staining in essentially all cells, replacing the normal architecture in this field. Only scattered unstained stromal elements are present. In the context of this case, the pattern is compatible with a membranous marker such as CD138 (plasma cells) or aberrant CD20, which is enriched in myeloma with t(11;14). Findings support extensive involvement by a plasma cell neoplasm; the specific marker should be confirmed from the source case.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma (CD20+)", "vs": "DLBCL cells are larger with vesicular nuclei and prominent nucleoli and are CD138-negative with PAX5 positivity, whereas myeloma cells are CD138+ with cytoplasmic light-chain restriction and usually PAX5-negative."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma also expresses CD138 but shows immunoblastic morphology, very high Ki-67, frequent EBER positivity and MYC rearrangement, typically in extramedullary sites of immunocompromised patients."},
+    {"dx": "Metastatic carcinoma (CD138+)", "vs": "Carcinoma can be CD138+ but forms cohesive nests and is cytokeratin-positive and light-chain negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: membranous marker, unlabeled (likely CD138 or CD20)",
+  "match": "partial",
+  "high_yield": false
+}

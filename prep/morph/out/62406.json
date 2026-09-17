@@ -1,0 +1,21 @@
+{
+  "id": "62406",
+  "recognize_zh": "CD43 在黏膜固有層中呈密集、瀰漫的陽性浸潤，把腺體撐開，腺體上皮則不染，並可見少數陽性細胞侵入腺體上皮；這麼大片的 CD43 陽性細胞遠超過正常 T 細胞數量，配合 CD20、BCL2 共表現，代表 B 細胞異常表現 CD43，支持 MALT 淋巴瘤。",
+  "features": [
+    "Dense diffuse infiltrate of small lymphoid cells expanding the lamina propria and separating glands",
+    "Strong membranous CD43 staining in the vast majority of infiltrating cells",
+    "Glandular epithelium negative, with scattered CD43-positive cells infiltrating glands (possible lymphoepithelial lesions)",
+    "Sheet-like extent of staining disproportionate to expected reactive T cells"
+  ],
+  "describe_en": "CD43 immunohistochemistry on a mucosal biopsy shows a dense, diffuse lymphoid infiltrate expanding the lamina propria and separating the glands, with strong membranous staining in most infiltrating cells. The glandular epithelium is negative, and scattered positive lymphoid cells infiltrate the epithelium. Because the neoplastic cells co-express CD20 and BCL2, the sheet-like CD43 staining indicates aberrant CD43 expression by B cells rather than a reactive T-cell population. Findings are consistent with extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue (MALT lymphoma).",
+  "ddx": [
+    {"dx": "Reactive lymphoid hyperplasia/chronic gastritis", "vs": "In reactive infiltrates CD43 stains only T cells, which are mixed with CD20+ B cells in follicles, so CD43 is not diffuse in sheets that overlap with CD20."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is also CD43-positive but co-expresses CD5, cyclin D1 and SOX11."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL is CD43-positive but also CD5- and CD23-positive with LEF1 expression and proliferation centers."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "A true T-cell infiltrate would be CD3-positive and CD20-negative, unlike these CD20+/BCL2+ cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD43",
+  "match": "consistent",
+  "high_yield": false
+}

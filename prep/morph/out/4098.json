@@ -1,0 +1,21 @@
+{
+  "id": "4098",
+  "recognize_zh": "周邊血液中央有一顆與淋巴球差不多大小的細胞，核圓而深染、細胞質淡藍並有不規則的出芽狀突起與顆粒，形態符合小巨核細胞（micromegakaryocyte）；背景血小板增多且大小不一。",
+  "features": [
+    "Lymphocyte-sized cell with a single round dense nucleus",
+    "Rim of pale blue-gray cytoplasm with irregular budding edges and fine azurophilic granules (platelet shedding)",
+    "Background thrombocytosis with platelet anisocytosis, including large platelets",
+    "Mature segmented and band neutrophils present",
+    "Red cells mostly normocytic; lymphocyte-like size can cause misclassification"
+  ],
+  "describe_en": "Peripheral blood smear shows a small cell, approximately the size of a lymphocyte, with a round hyperchromatic nucleus and a scant rim of pale gray-blue cytoplasm with ragged, budding margins and fine granules, consistent with a circulating micromegakaryocyte. Platelets are increased with variation in size, and mature neutrophils are seen. Circulating micromegakaryocytes indicate a myeloid neoplasm such as chronic myeloid leukemia or myelofibrosis in this setting; correlation with BCR-ABL1 testing is recommended.",
+  "ddx": [
+    {"dx": "Atypical lymphocyte", "vs": "Lymphocytes have smooth cytoplasmic borders without platelet-like budding and lack the granular gray cytoplasm; CD41/CD61 staining confirms megakaryocytic origin."},
+    {"dx": "Blast", "vs": "Blasts have finer open chromatin and nucleoli with basophilic cytoplasm rather than dense chromatin and platelet-shedding edges."},
+    {"dx": "Naked megakaryocyte nucleus", "vs": "Bare megakaryocyte nuclei lack any cytoplasmic rim and are usually larger and lobulated."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

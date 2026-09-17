@@ -1,0 +1,20 @@
+{
+  "id": "64047",
+  "recognize_zh": "CD45 免疫染色中，左側胞質豐富、泡狀核的大型異型細胞與右側小淋巴球都呈棕色細胞膜染色，證實大細胞為造血淋巴來源而非上皮癌。",
+  "features": [
+    "Membranous and cytoplasmic brown CD45 staining of large atypical cells with abundant cytoplasm (left)",
+    "Strong crisp membranous staining of background small lymphocytes (right)",
+    "Large cells have vesicular nuclei and visible nucleoli on hematoxylin counterstain",
+    "No CD45-negative cohesive epithelial nests identified in this field"
+  ],
+  "describe_en": "CD45 (leukocyte common antigen) immunohistochemistry shows diffuse membranous and cytoplasmic staining of the large atypical cells, which have vesicular nuclei and abundant cytoplasm. Background small lymphocytes are strongly positive and serve as an internal positive control. No CD45-negative tumor population is identified in this field. The staining supports a hematolymphoid origin of the large atypical cells, favoring large cell lymphoma over carcinoma or melanoma.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells are CD45 negative with the positive staining confined to intervening lymphocytes, whereas here the large cells themselves are CD45 positive."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are characteristically CD45 negative with surrounding CD45+ rosetting T cells."},
+    {"dx": "Plasmablastic lymphoma or plasma cell neoplasm", "vs": "These are often CD45 weak/negative and PAX5 negative with CD138/MUM1 expression, unlike this diffusely CD45+ PAX5+ population."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD45",
+  "match": "consistent",
+  "high_yield": false
+}

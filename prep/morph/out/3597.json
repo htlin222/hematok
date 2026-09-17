@@ -1,0 +1,22 @@
+{
+  "id": "3597",
+  "recognize_zh": "細胞比中性球大，細胞核深度凹折成馬蹄形（U 字形），染色質呈細緻花邊狀（lacy），細胞質是灰藍色、帶細小顆粒與少數空泡；這是典型的單核球。",
+  "features": [
+    "Large cell, about 2 times RBC diameter, with moderate N:C ratio",
+    "Deeply folded, horseshoe/U-shaped nucleus",
+    "Fine, lacy (stringy) chromatin without visible nucleoli",
+    "Grey-blue (ground-glass) cytoplasm with fine azurophilic dust-like granules",
+    "Small cytoplasmic vacuoles"
+  ],
+  "describe_en": "Peripheral blood smear shows a large mononuclear cell with a deeply folded, horseshoe-shaped nucleus and fine, lacy chromatin without conspicuous nucleoli. The cytoplasm is abundant, grey-blue, and finely granular with a few small vacuoles. Surrounding red cells show rouleaux-like overlap consistent with a thick area of the smear. Findings are consistent with a normal mature monocyte.",
+  "ddx": [
+    {"dx": "Band neutrophil", "vs": "Band neutrophils have condensed, clumped chromatin and pink cytoplasm with neutrophilic granules rather than lacy chromatin and grey-blue cytoplasm."},
+    {"dx": "Promonocyte", "vs": "Promonocytes have more delicate chromatin, may show nucleoli, and have gentler nuclear folding, while this cell has mature lacy chromatin and a deep fold."},
+    {"dx": "Reactive (atypical) lymphocyte", "vs": "Reactive lymphocytes have clearer blue cytoplasm that hugs adjacent RBCs with a darker basophilic rim and lack the ground-glass granular cytoplasm and folded lacy nucleus."},
+    {"dx": "Metamyelocyte", "vs": "Metamyelocytes have a kidney-shaped nucleus with clumped chromatin and pink granular cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

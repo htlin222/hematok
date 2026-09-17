@@ -1,0 +1,20 @@
+{
+  "id": "66230",
+  "recognize_zh": "三張流式散點圖：綠色 P2 族群為 cyVS38c 強陽、CD45 陰性至弱陽；該族群 CD56 陽性、CD19 陰性，且細胞質輕鏈集中在 kappa 陽性象限（Q4）、lambda 陰性，代表單株性（kappa 限制）且表型異常的漿細胞，符合漿細胞骨髓瘤。",
+  "features": [
+    "Flow cytometry dot plots (non-morphologic figure), three panels",
+    "Panel 1: bright cytoplasmic VS38c (CD38 surrogate) population (green, P2) that is CD45 negative to dim, separated from CD45-bright orange events",
+    "Panel 2 (P3-gated): plasma cells are CD56 positive and CD19 negative (aberrant phenotype)",
+    "Panel 3 (P3-gated): cytoplasmic kappa positive with lambda negative, falling mainly in the kappa quadrant (Q4), indicating light chain restriction"
+  ],
+  "describe_en": "Flow cytometric analysis identifies a distinct plasma cell population with bright cytoplasmic VS38c expression and negative to dim CD45. Gated plasma cells are CD19-negative and CD56-positive, an aberrant phenotype, and show cytoplasmic kappa light chain restriction with no lambda expression. These findings demonstrate a monotypic, phenotypically abnormal plasma cell population consistent with plasma cell myeloma (in this case, involving CSF).",
+  "ddx": [
+    {"dx": "Reactive/polyclonal plasma cells", "vs": "Normal plasma cells are CD19-positive, CD56-negative, often CD45-positive, and show a mixed kappa:lambda distribution rather than single light chain restriction."},
+    {"dx": "Lymphoplasmacytic lymphoma / marginal zone lymphoma with plasmacytic differentiation", "vs": "The clonal plasma cells in LPL/MZL typically retain CD19 and CD45, lack CD56, and are accompanied by a light chain–restricted CD19+/CD20+ B-cell population."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Immunophenotype overlaps (CD38/CD138+, CD19−, CD45 dim); distinction depends on clinical context, EBER, MYC status and absence of myeloma-defining events."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

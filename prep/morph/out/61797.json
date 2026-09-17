@@ -1,0 +1,23 @@
+{
+  "id": "61797",
+  "recognize_zh": "血液抹片中一條遠大於紅血球、彎曲成環狀的細長蟲體，體內充滿排列成柱的深紫色體細胞核，周圍有淡色鞘狀輪廓，這是微絲蚴（microfilaria）。",
+  "features": [
+    "Large, elongated, gently coiled worm many times the length of a red cell lying among erythrocytes",
+    "Body filled with a column of densely packed dark purple somatic nuclei",
+    "Faint pale outline around the body suggestive of a sheath, and a smooth curving body contour",
+    "A magenta-staining elongated internal area in the mid-body, possibly the inner body",
+    "One end tapering to a thin tail; whether nuclei extend to the tail tip cannot be judged reliably at this resolution",
+    "Background of crowded red cells in a thick area of the smear; no other parasites seen"
+  ],
+  "describe_en": "Peripheral blood smear shows a single large, sheathed-appearing microfilaria coiled among red cells. The larva has a smooth curving body filled with a column of dark-staining somatic nuclei and tapers toward one end; the cephalic space and the distribution of nuclei at the tail tip cannot be assessed with confidence at this resolution. No other parasites or leukocyte abnormalities are evaluable in this field. The findings are consistent with microfilaremia; in an endemic Indian setting with nocturnal sampling, Wuchereria bancrofti is most likely, but species confirmation requires evaluation of tail nuclei and sheath staining, or antigen/PCR testing.",
+  "ddx": [
+    {"dx": "Brugia malayi microfilaria", "vs": "Also sheathed but has a kinky body with two distinct terminal nuclei at the tail tip, whereas W. bancrofti has graceful curves and no nuclei at the tail tip."},
+    {"dx": "Loa loa microfilaria", "vs": "Sheathed with nuclei extending continuously to the tail tip, diurnal periodicity and a West/Central African travel history."},
+    {"dx": "Mansonella perstans", "vs": "Smaller, unsheathed larva with a blunt tail containing nuclei to the tip."},
+    {"dx": "Fibers or smear artifacts", "vs": "Cotton fibers or debris lack an organized column of stained nuclei and an internal body structure."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman/Giemsa-type Romanowsky stain",
+  "match": "consistent",
+  "high_yield": true
+}

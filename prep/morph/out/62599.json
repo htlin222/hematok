@@ -1,0 +1,21 @@
+{
+  "id": "62599",
+  "recognize_zh": "CD20 免疫染色中成片腫瘤細胞完全不著色，只有極少數散在的小 B 細胞呈膜狀陽性，顯示腫瘤喪失 B 細胞標記，符合漿細胞分化的單形性 PTLD。",
+  "features": [
+    "Diffuse sheet of tumor cells with round-oval nuclei and moderate cytoplasm, CD20-negative",
+    "Only rare (2–3) scattered small cells with membranous CD20 staining as internal positive control",
+    "Nuclei show fine chromatin with small nucleoli on hematoxylin counterstain",
+    "No residual B-cell follicles in field"
+  ],
+  "describe_en": "CD20 immunohistochemistry shows the diffuse neoplastic infiltrate to be negative, with only rare scattered residual small B cells staining as an internal control. Loss of CD20 in a lymphoid neoplasm indicates terminal plasma cell differentiation or a non-B-cell origin and should prompt plasma cell markers (CD138, MUM1) and light-chain studies. In conjunction with MUM1 positivity, EBER positivity and light-chain restriction, findings are consistent with plasmacytoma-like PTLD.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma PTLD", "vs": "DLBCL-type PTLD is typically diffusely CD20-positive, whereas this tumor is CD20-negative."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Also CD20-negative and MUM1-positive; it is distinguished by immunoblastic cytology with prominent nucleoli and Ki-67 >90%."},
+    {"dx": "Primary effusion lymphoma (extracavitary)", "vs": "PEL is CD20-negative too but is HHV8/LANA-positive, which is not a feature of plasmacytoma-like PTLD."},
+    {"dx": "T-cell PTLD", "vs": "T-cell lesions are CD20-negative but express CD3 and other T-cell antigens, whereas CD3 here highlights only background cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

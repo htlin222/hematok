@@ -1,0 +1,20 @@
+{
+  "id": "63185",
+  "recognize_zh": "MPO 細胞化學染色中，左下與中央的顆粒球細胞質呈棕色陽性，右側一顆核過度分葉的嗜中性球細胞質卻完全淡染無棕色顆粒，代表這顆發育異常的嗜中性球 MPO 陰性。",
+  "features": [
+    "Myeloperoxidase cytochemistry on peripheral blood with blue nuclear counterstain",
+    "Neutrophil on the right with multiple (hypersegmented) nuclear lobes and pale cytoplasm lacking brown MPO reaction product",
+    "Adjacent granulocytes (center and lower left) show brown granular MPO positivity as internal positive controls",
+    "Unstained red cells in the background, some with target-like central pallor"
+  ],
+  "describe_en": "Myeloperoxidase cytochemical stain of a peripheral blood smear shows granulocytes with strong brown granular cytoplasmic positivity, serving as internal positive controls. In contrast, a neutrophil with abnormal nuclear hypersegmentation shows complete absence of MPO reaction product in its cytoplasm. In a patient with a myelodysplastic neoplasm, findings are consistent with acquired MPO deficiency in dysplastic neutrophils.",
+  "ddx": [
+    {"dx": "Hereditary myeloperoxidase deficiency", "vs": "Inherited MPO deficiency affects essentially all neutrophils uniformly, whereas here MPO-negative neutrophils coexist with normally positive granulocytes."},
+    {"dx": "Monocyte or lymphocyte (normally MPO negative/weak)", "vs": "Those cells have non-lobated nuclei, whereas this MPO-negative cell has a multilobed neutrophil nucleus."},
+    {"dx": "Megaloblastic hypersegmented neutrophil", "vs": "Megaloblastic neutrophils are hypersegmented but retain normal MPO activity, so MPO loss favors a clonal dysplastic process."}
+  ],
+  "specimen": "PB",
+  "stain": "MPO cytochemistry",
+  "match": "consistent",
+  "high_yield": false
+}

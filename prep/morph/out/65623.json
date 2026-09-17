@@ -1,0 +1,22 @@
+{
+  "id": "65623",
+  "recognize_zh": "MPO 免疫染色下，骨小樑旁排成厚帶的大型細胞胞質強陽性、呈粗顆粒狀，核圓且偏位，形態像前骨髓細胞/骨髓細胞，而遠離骨小樑的區域多為 MPO 陰性小細胞、成熟分葉顆粒球稀少；符合 ELANE 先天性嚴重嗜中性球低下的前骨髓細胞階段成熟停滯。",
+  "features": [
+    "MPO IHC on bone marrow trephine, higher power",
+    "Thick paratrabecular band of large MPO-positive cells with abundant coarse granular cytoplasmic staining",
+    "Positive cells have round to oval, often eccentric nuclei with visible nucleoli, resembling promyelocytes/myelocytes",
+    "Few small MPO-positive segmented neutrophils in the intertrabecular space",
+    "Intertrabecular areas composed mainly of MPO-negative small round cells (erythroid precursors/lymphocytes)"
+  ],
+  "describe_en": "Myeloperoxidase immunostain of the bone marrow trephine highlights an expanded paratrabecular layer of large granulocytic precursors with abundant, coarsely granular MPO-positive cytoplasm and round, eccentric nuclei, morphologically corresponding to promyelocytes and early myelocytes. Mature segmented MPO-positive neutrophils are sparse in the intertrabecular spaces, which are populated predominantly by MPO-negative small cells. This pattern indicates arrested granulocytic maturation at the promyelocyte/myelocyte stage. In a child with a pathogenic ELANE variant, findings are consistent with severe congenital neutropenia; given G-CSF exposure and risk of clonal evolution, blasts should be assessed with CD34 and cytogenetic/molecular studies.",
+  "ddx": [
+    {"dx": "Recovering marrow after chemotherapy or G-CSF effect", "vs": "Regenerating marrow shows a synchronized left shift that progresses to mature neutrophils on follow-up, without persistent maturation arrest or an ELANE variant."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL shows sheets of atypical promyelocytes with Auer rods and PML::RARA replacing the marrow, rather than a paratrabecular layer with preserved erythropoiesis."},
+    {"dx": "Evolution to MDS/AML in severe congenital neutropenia", "vs": "Would show increased CD34+ blasts, dysplasia and acquired CSF3R/RUNX1 mutations or monosomy 7."},
+    {"dx": "Autoimmune neutropenia", "vs": "Marrow shows normal or increased granulopoiesis with maturation to band/segmented forms and antineutrophil antibodies."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: MPO",
+  "match": "consistent",
+  "high_yield": false
+}

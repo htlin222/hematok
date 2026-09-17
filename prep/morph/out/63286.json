@@ -1,0 +1,20 @@
+{
+  "id": "63286",
+  "recognize_zh": "CD34 免疫染色中大量芽細胞呈棕色陽性，箭頭所指是一顆單核、胞質豐富且 CD34 強陽性的較大細胞，型態像異常的小型巨核細胞，屬於 AML-MRC 中常見的芽細胞增加與巨核細胞異生表現。",
+  "features": [
+    "Arrowed larger cell with a single round nucleus and abundant cytoplasm showing strong granular CD34 staining, consistent with an aberrant CD34-positive small megakaryocyte",
+    "Numerous CD34-positive mononuclear cells with membranous and cytoplasmic staining in sheets and clusters",
+    "A focus of CD34-negative small cells with round dense nuclei (likely erythroid precursors) in the lower center",
+    "Adipocytes and CD34-negative cells with blue counterstained nuclei"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostained for CD34 shows numerous CD34-positive blasts with membranous and cytoplasmic staining arranged in sheets and clusters. The arrow highlights a larger cell with a single round nucleus and abundant, strongly CD34-positive cytoplasm, morphologically consistent with an aberrantly CD34-expressing small (dysplastic) megakaryocyte. A cluster of CD34-negative small round cells, likely erythroid precursors, is also present. Findings support a marked increase in blasts with megakaryocytic dysplasia, consistent with acute myeloid leukemia with myelodysplasia-related changes; CD61 immunostaining can confirm megakaryocytic lineage.",
+  "ddx": [
+    {"dx": "Endothelial cell or small vessel cut in cross-section", "vs": "Endothelium stains as thin linear or ring-like profiles around a lumen rather than a single rounded cell with abundant cytoplasm."},
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "MDS-IB also shows CD34+ blast clusters and dysplastic megakaryocytes but with a blast percentage below the AML threshold."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL shows a predominant population of megakaryoblasts that are CD61/CD42b-positive, often with marrow fibrosis, rather than scattered dysplastic megakaryocytes among myeloblasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

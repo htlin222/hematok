@@ -1,0 +1,21 @@
+{
+  "id": "62718",
+  "recognize_zh": "未設閘門的 cMPO 對 CD33 流式圖：綠色族群（B 系原始細胞）MPO 僅弱表現約 10³–10⁴；紅色原始細胞族群 MPO 由弱延伸到明顯陽性（約 10⁴·⁵–10⁵），並接近棕/灰色成熟顆粒球的亮 MPO 區，紫色淋巴球為陰性對照，顯示一部分原始細胞確實表現 MPO，支持骨髓系。",
+  "features": [
+    "Ungated events; cytoplasmic MPO-PE (x-axis) versus CD33-PC5.5 (y-axis)",
+    "Green population (B-lineage-committed blasts) with CD33 dim-to-positive and MPO low (about 10^3 to 10^4)",
+    "Red blast population with CD33 positive and MPO extending from low to clearly positive (about 3x10^4 to 10^5)",
+    "Brown/grey events with bright MPO (10^5 to 10^6), consistent with residual mature granulocytes as internal positive control",
+    "Purple events negative for both MPO and CD33, consistent with lymphocytes as internal negative control"
+  ],
+  "describe_en": "Ungated flow cytometric analysis displays cytoplasmic MPO versus CD33. Lymphocytes (purple) are negative for both markers and residual granulocytes (brown/grey) are MPO bright, providing internal controls. The green blast population shows only low MPO, whereas the red blast population contains a subset with clearly positive MPO at an intensity above the lymphocyte level and approaching that of mature granulocytes, with CD33 co-expression. MPO expression in a distinct blast subset establishes myeloid lineage, and together with strong CD19 and cCD79a on another blast subset the findings are consistent with mixed phenotype acute leukemia, B/myeloid.",
+  "ddx": [
+    {"dx": "B-ALL with low-level MPO by flow", "vs": "Low-intensity MPO overlapping lymphocyte levels without a distinct bright subset is insufficient for myeloid lineage and may be seen in B-ALL."},
+    {"dx": "AML with aberrant CD19 and CD79a", "vs": "MPO-positive blasts lacking strong CD19 with at least one additional B-cell marker should be classified as AML, not MPAL."},
+    {"dx": "Contamination by residual normal granulocytes", "vs": "Normal granulocytes have high side scatter and very bright MPO, whereas leukemic MPO-positive blasts have low side scatter and dim CD45."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry: cMPO-PE vs CD33-PC5.5",
+  "match": "non-morphologic",
+  "high_yield": false
+}

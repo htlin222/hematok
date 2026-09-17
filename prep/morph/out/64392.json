@@ -1,0 +1,22 @@
+{
+  "id": "64392",
+  "recognize_zh": "九格拼圖皆為骨髓中的巨大細胞：有成熟分葉核、細胞質富含顆粒的巨核細胞，也有核分離成數個圓形核、單葉/低分葉核，以及細胞質偏嗜鹼的較不成熟形態，用來比較巨核細胞的各種型態。",
+  "features": [
+    "Very large cells (many times the size of surrounding red cells) with abundant granular pink-violet cytoplasm, typical of megakaryocytes",
+    "Mature forms with lobulated, folded nuclei (bottom left, bottom center)",
+    "Hypolobated / monolobated or bilobed nuclei in several cells (top center, center right)",
+    "Megakaryocyte with multiple widely separated round nuclei (middle left), a dysplastic pattern",
+    "Less mature forms with more basophilic, less granular cytoplasm and a large single nucleus (top right, bottom right)",
+    "Platelet budding/cytoplasmic fragmentation at the edge of some cells"
+  ],
+  "describe_en": "Composite of bone marrow aspirate fields from different patients illustrates the morphologic range of megakaryocytes. Mature megakaryocytes are very large with abundant granular cytoplasm and multilobated nuclei, and some show peripheral platelet budding. Other examples show hypolobated or monolobated nuclei, a megakaryocyte with multiple separated round nuclei, and less mature forms with a single large nucleus and more basophilic, less granular cytoplasm. Hypolobated and separated-nuclei forms are dysplastic patterns that, when numerous (at least 10% of megakaryocytes), support dysplasia in the appropriate clinical context.",
+  "ddx": [
+    {"dx": "Osteoclast", "vs": "Osteoclasts have multiple separate, uniform oval nuclei each with a nucleolus, whereas megakaryocyte nuclei are lobulated and connected (except in dysplastic separated-nuclei forms)."},
+    {"dx": "Metastatic tumor cells", "vs": "Tumor cells form cohesive clusters with high N:C ratio and prominent nucleoli, lacking the granular platelet-forming cytoplasm of megakaryocytes."},
+    {"dx": "Histiocyte / Gaucher cell", "vs": "Histiocytes have a small single eccentric nucleus and vacuolated or wrinkled cytoplasm rather than a large lobulated nucleus with fine azurophilic granules."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

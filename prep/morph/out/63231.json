@@ -1,0 +1,22 @@
+{
+  "id": "63231",
+  "recognize_zh": "腦脊髓液細胞離心抹片（cytospin）幾乎被成片、形態單一的中小型淋巴母細胞（lymphoblast）佔滿，核質比極高，並夾雜染色質凝集的有絲分裂像；正常 CSF 不應出現這麼多細胞。",
+  "features": [
+    "Markedly hypercellular cytospin with crowded sheets of monomorphic blasts",
+    "Small to medium-sized cells with very high N:C ratio and scant basophilic cytoplasm",
+    "Round nuclei with fine to slightly condensed chromatin; nucleolar detail limited by crowding and magnification",
+    "Scattered cells with clumped chromatin and cleared cytoplasm consistent with mitotic figures, plus darker pyknotic apoptotic cells",
+    "No appreciable admixture of mature lymphocytes, monocytes or neutrophils"
+  ],
+  "describe_en": "Cytocentrifuge preparation of cerebrospinal fluid is markedly hypercellular, composed of crowded sheets of monomorphic small to medium-sized blasts with very high N:C ratios, round nuclei and scant basophilic cytoplasm. Numerous cells with clumped chromatin and cleared perinuclear cytoplasm, consistent with mitotic figures, are present, along with scattered dark apoptotic cells. Background reactive lymphocytes and monocytes are not appreciable. Crowding and magnification limit assessment of nucleoli. In the context of known Ph-positive B-ALL and BCR::ABL1 fusion detected by FISH on the CSF, findings are consistent with CNS relapse of B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "Reactive CSF lymphocytosis (viral/aseptic meningitis)", "vs": "Reactive cells are polymorphous small mature lymphocytes with admixed monocytes and plasmacytoid forms at much lower cellularity, without sheets of blasts or mitoses."},
+    {"dx": "Traumatic tap with blood contamination", "vs": "Contamination brings red cells and a blood-like differential in proportion to the peripheral count, and cannot produce sheets of blasts when the marrow and blood are in remission."},
+    {"dx": "CNS involvement by Burkitt or large B-cell lymphoma", "vs": "Burkitt cells have deeply basophilic vacuolated cytoplasm and large B cells are bigger and pleomorphic; TdT/CD34 versus mature B-cell markers resolve the distinction."},
+    {"dx": "Small round blue cell tumor (e.g., medulloblastoma)", "vs": "Tumor cells form cohesive clusters or rosettes with nuclear molding and lack TdT/CD19, unlike discohesive lymphoblasts."}
+  ],
+  "specimen": "CSF",
+  "stain": "Romanowsky (Wright-Giemsa type)",
+  "match": "consistent",
+  "high_yield": false
+}

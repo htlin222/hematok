@@ -1,0 +1,20 @@
+{
+  "id": "62507",
+  "recognize_zh": "PAX5 染色中，骨髓幾乎全被強陽性的棕色細胞核佔滿，呈瀰漫片狀，只有少數陰性的間質細胞、血管與巨核細胞；表示大量 B 細胞瀰漫浸潤骨髓，符合 CLL 骨髓侵犯。",
+  "features": [
+    "Diffuse sheets of cells with strong nuclear PAX5 positivity",
+    "Small, uniform round nuclei in positive cells",
+    "Scattered PAX5-negative stromal/endothelial cells and small vessels",
+    "Near-total replacement of marrow by B cells, with only rare negative hematopoietic cells"
+  ],
+  "describe_en": "Bone marrow biopsy stained for PAX5 shows diffuse sheets of small cells with strong nuclear positivity, replacing nearly all normal marrow elements. Only scattered stromal cells, vessels, and rare residual hematopoietic cells are negative. This pattern indicates extensive diffuse B-cell infiltration of the marrow. In the setting of a CD5/CD23-positive small lymphocytic infiltrate, the findings are consistent with diffuse marrow involvement by chronic lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL is also PAX5-positive but shows blasts with fine chromatin that express TdT/CD34."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is PAX5-positive as well and requires cyclin D1/SOX11 staining to distinguish it."},
+    {"dx": "Plasma cell myeloma", "vs": "Plasma cells are typically PAX5-negative and CD138-positive, unlike this PAX5-positive infiltrate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: PAX5",
+  "match": "consistent",
+  "high_yield": false
+}

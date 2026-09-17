@@ -1,0 +1,23 @@
+{
+  "id": "60792",
+  "recognize_zh": "A 格積液細胞學為大型免疫母細胞／漿母細胞樣細胞，核仁明顯、胞質深藍，B 格 HHV-8（LANA）核點狀陽性支持原發性滲出性淋巴瘤；同一病人小腿皮膚紫色斑塊（C、D）、切片梭形細胞增生（E）與 HHV-8 陽性（F）為卡波西肉瘤。",
+  "features": [
+    "Panel A: effusion cytology with large pleomorphic immunoblastic/plasmablastic cells, prominent nucleoli and deeply basophilic cytoplasm",
+    "Panel B: nuclear stippled HHV-8 (LANA) immunostaining in lymphoma cells (labeled PEL)",
+    "Panels C-D: clinical photographs of the lower leg with progressive violaceous plaques and hyperpigmented, edematous skin",
+    "Panel E: fascicles of spindle cells with slit-like vascular spaces and extravasated red cells (Kaposi sarcoma)",
+    "Panel F: nuclear HHV-8 staining in the spindle cells (labeled KS)",
+    "Panel G: low-power H&E section of a thick-walled tubular structure surrounded by a cellular infiltrate (arrowheads); specific detail is limited at this magnification"
+  ],
+  "describe_en": "Composite figure from a patient with two HHV-8-associated neoplasms. Effusion cytology (A) shows large pleomorphic lymphoid cells with immunoblastic to plasmablastic features, and these cells show nuclear HHV-8 LANA positivity (B), consistent with primary effusion lymphoma. Clinical photographs (C, D) show progressive violaceous lesions of the lower leg, and biopsy (E) reveals a spindle-cell proliferation with slit-like vascular channels that is HHV-8 positive (F), consistent with Kaposi sarcoma. The low-power section (G) shows a thick-walled tubular structure with a surrounding cellular infiltrate marked by arrowheads, whose precise nature cannot be determined from this image alone. Findings are consistent with primary effusion lymphoma with concurrent progressive Kaposi sarcoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma with effusion (secondary)", "vs": "Cells are CD20/PAX5 positive and HHV-8 negative, and usually a solid mass is present."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Morphology and CD138/MUM1 phenotype overlap, but it is HHV-8 negative (usually EBV+) and forms solid masses."},
+    {"dx": "HHV-8 positive diffuse large B-cell lymphoma, NOS", "vs": "Arises from HHV-8+ multicentric Castleman disease as solid nodal disease with IgM lambda expression and is typically EBV negative."},
+    {"dx": "Metastatic carcinoma or mesothelioma in effusion", "vs": "Forms cohesive clusters and is cytokeratin/calretinin positive and HHV-8 negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa; IHC: HHV-8 LANA; H&E; clinical photo",
+  "match": "consistent",
+  "high_yield": false
+}

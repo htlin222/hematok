@@ -1,0 +1,22 @@
+{
+  "id": "4118",
+  "recognize_zh": "周邊血液中一顆淋巴球有淡藍色胞質與明顯粗大的嗜天青顆粒，核呈腎形略凹陷、染色質濃縮，這是典型的大顆粒淋巴球（LGL）；需以流式與 TCR 克隆性確認是否為 T-LGL 白血病。",
+  "features": [
+    "Lymphocyte slightly larger than a small lymphocyte",
+    "Moderate pale blue cytoplasm",
+    "Coarse, distinct azurophilic granules scattered in the cytoplasm",
+    "Reniform, slightly indented nucleus with condensed chromatin and no nucleoli",
+    "Background normochromic red cells and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a large granular lymphocyte with a reniform nucleus, condensed chromatin and a moderate amount of pale blue cytoplasm containing coarse azurophilic granules. The red cells are normochromic with scattered platelets in the background. A single LGL is not diagnostic; a persistent LGL count greater than 2 x 10^9/L with a clonal CD3+/CD8+/CD57+ population, often with STAT3 mutation, would be consistent with T-cell large granular lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Reactive LGL expansion (viral infection, post-transplant)", "vs": "Reactive LGLs are morphologically identical and are separated only by polyclonal TCR studies and transient course."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "NK-cell LGLs are surface CD3-negative and CD16+/CD56+ by flow cytometry."},
+    {"dx": "Monocyte or promyelocyte", "vs": "Monocytes have folded nuclei with lacy chromatin and fine dusty granules, and promyelocytes have nucleoli with abundant granular basophilic cytoplasm."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells have circumferential hair-like cytoplasmic projections, oval nuclei with open chromatin and no azurophilic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61091",
+  "recognize_zh": "CT 冠狀與軸切面顯示脾臟被巨大、薄壁、內含均勻低密度液體並有細隔的囊性病灶撐大；組織學為囊壁內襯一層上皮，免疫染色時該內襯上皮呈陽性，提示上皮性（腺癌）來源而非單純脾囊腫。",
+  "features": [
+    "Radiology (A): massive splenomegaly replaced by a large, thin-walled, fluid-attenuation cystic lesion with fine internal septa, displacing adjacent viscera",
+    "H&E (B, top): cyst wall lined by a single to focally stratified epithelial layer overlying fibrotic/hemorrhagic splenic tissue, with luminal debris",
+    "IHC (B, middle and bottom): strong staining confined to the epithelial lining (antibodies not labeled; pattern consistent with epithelial markers)",
+    "Cytologic atypia of the lining cannot be assessed at this resolution"
+  ],
+  "describe_en": "Contrast CT shows marked splenic enlargement due to a large, thin-walled cystic lesion with fine septations. Histologic sections show a cyst wall lined by an epithelial layer overlying compressed splenic parenchyma, and immunostains highlight the lining epithelium. The antibodies are not labeled and cytologic atypia cannot be judged at the available resolution. In context, findings are consistent with a cystic splenic lesion lined by epithelium; correlation with keratin/CK7/CK20/CDX2/TTF-1 profile and exclusion of a mesothelial or true epithelial cyst is needed to support metastatic adenocarcinoma of unknown primary.",
+  "ddx": [
+    {"dx": "Primary (epidermoid) epithelial cyst of spleen", "vs": "Epidermoid cysts are lined by bland squamous or mesothelial-type epithelium without architectural complexity, atypia or mitoses, and are CK+/calretinin variable but not adenocarcinoma-type (e.g., CDX2/TTF-1)."},
+    {"dx": "Splenic pseudocyst (post-traumatic)", "vs": "Pseudocysts have a fibrous wall without any epithelial lining and would be keratin-negative."},
+    {"dx": "Cystic lymphangioma/hemangioma", "vs": "Vascular cysts are lined by flattened endothelium that is CD31/D2-40 positive and keratin negative."},
+    {"dx": "Hydatid cyst", "vs": "Echinococcal cysts show a laminated acellular membrane with germinal layer and protoscolices rather than an epithelial lining."}
+  ],
+  "specimen": "spleen",
+  "stain": "H&E; IHC (antibodies not labeled); CT",
+  "match": "partial",
+  "high_yield": false
+}

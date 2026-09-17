@@ -1,0 +1,22 @@
+{
+  "id": "62433",
+  "recognize_zh": "低倍下左上角可見小腸絨毛黏膜，其下方腸壁被一大片均一、瀰漫性的淋巴樣細胞取代並伴有出血；這是腸道（非淋巴結）的瀰漫性淋巴瘤浸潤，典型的 starry-sky 淡色巨噬細胞斑點在此倍率下僅隱約可見，需高倍確認。",
+  "features": [
+    "Small intestinal mucosa with villi and crypts at the upper left edge",
+    "Underlying bowel wall replaced by a diffuse, sheet-like, monotonous lymphoid infiltrate",
+    "Loss of normal submucosal and mural architecture without nodularity",
+    "Foci of hemorrhage at the mucosa-tumor interface",
+    "Starry-sky mottling from tingible-body macrophages is only faintly discernible at this low magnification"
+  ],
+  "describe_en": "Low-power H&E section shows small intestinal mucosa with villi at the upper left, beneath which the bowel wall is effaced by a diffuse, monotonous, sheet-like lymphoid infiltrate with scattered foci of hemorrhage. No nodular or follicular architecture is present. At this magnification the characteristic starry-sky pattern of interspersed tingible-body macrophages is only faintly appreciable, and cytologic features cannot be assessed; the tissue is intestine rather than lymph node as the title states. In the ileocecal region of a young patient, this diffuse transmural lymphoid infiltrate is suggestive of Burkitt lymphoma, pending high-power cytology, Ki-67, CD10/BCL2 and MYC studies.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL is composed of larger pleomorphic cells with vesicular nuclei, variable BCL2 expression and Ki-67 usually below near-100%."},
+    {"dx": "Mantle cell lymphoma (lymphomatous polyposis)", "vs": "Mantle cell lymphoma forms multiple nodules of small cyclin D1-positive cells without a starry-sky pattern."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Lymphoblastic lymphoma can show starry-sky change but is TdT-positive with fine blastic chromatin."},
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma contains eosinophilic myelocytes and is MPO/CD117-positive rather than CD20/CD10-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60655",
+  "recognize_zh": "周邊血的母細胞在一端伸出一個淡藍色胞質尾突（uropod，箭頭），整體形如手鏡，即手鏡細胞（hand-mirror cell）；核染色質細緻、有小空泡，尾突內可見顆粒（箭頭頭），這種形態不能決定系列，需靠流式細胞分析。",
+  "features": [
+    "Large blast with high N:C ratio and fine, open chromatin",
+    "Distinct unipolar cytoplasmic projection (uropod) giving a hand-mirror shape (arrows)",
+    "Cytoplasm concentrated in the uropod, pale basophilic, with a few fine granules (arrowheads)",
+    "Irregular nuclear contour with small nuclear/cytoplasmic vacuoles",
+    "No Auer rods visible in these two cells"
+  ],
+  "describe_en": "Peripheral blood smear shows large blasts with high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, and irregular nuclear outlines. The scant pale basophilic cytoplasm is gathered into a single tail-like uropod, producing a hand-mirror configuration, and a few fine granules are present within the uropod. Auer rods are not identified in these cells. Hand-mirror morphology is lineage-nonspecific and has been described in both ALL and AML; lineage assignment requires flow cytometry and cytochemistry, which in this case supported acute myeloid leukemia.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia with hand-mirror cells", "vs": "Hand-mirror morphology occurs in ALL as well, so the discriminator is immunophenotype (CD19/CD79a or cCD3 and TdT versus MPO/CD33/CD117), not the uropod."},
+    {"dx": "Large granular lymphocytes", "vs": "LGLs have mature condensed chromatin and abundant cytoplasm with azurophilic granules, not blast chromatin with a focal uropod."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have abundant gray-blue, often vacuolated cytoplasm surrounding folded nuclei rather than cytoplasm concentrated in one pole; NSE and CD14/CD64 help."},
+    {"dx": "Smear artifact/cytoplasmic blebs", "vs": "Artifactual blebs are multiple, detached, or seen at the smear edge, whereas a uropod is a single, attached polar projection present in many cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+ "id": "61889",
+ "recognize_zh": "周邊血液抹片中同時出現一個細胞質深藍、核染色質細緻的大型原始細胞（標1），以及多個後髓細胞、帶狀核與髓細胞（標2–5），呈現完整的顆粒球成熟階段「左移」，背景血小板偏多，符合慢性骨髓性白血病（CML）的血液表現。",
+ "features": [
+  "Left-shifted granulocytic series in peripheral blood: myelocytes, metamyelocytes with kidney-shaped nuclei, and band neutrophils (labeled 2-5)",
+  "One large blast-like cell (labeled 1) with high N:C ratio, round nucleus, fine chromatin and a rim of deeply basophilic cytoplasm",
+  "Myelocytes (labeled 5) with round-to-oval eccentric nuclei and pale granular cytoplasm",
+  "No dysplastic features evident in the maturing granulocytes (normal granulation, no pseudo-Pelger forms)",
+  "Numerous small platelets scattered in the background; red cells show mild poikilocytosis"
+ ],
+ "describe_en": "Peripheral blood smear shows a leukoerythroblastic-appearing but orderly left-shifted granulocytic population, including myelocytes, metamyelocytes and band forms, without appreciable dysplasia. A single large immature cell with a high N:C ratio, fine chromatin and deeply basophilic cytoplasm is present; its lineage (myeloblast versus basophilic/pro-normoblast) cannot be assigned with certainty on morphology alone. Platelets appear increased in number. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, in chronic phase, pending confirmation of BCR::ABL1 and blast enumeration on a full differential.",
+ "ddx": [
+  {"dx": "Leukemoid reaction", "vs": "A reactive neutrophilia shows predominantly segmented and band forms with toxic granulation and Döhle bodies, few myelocytes, and no basophilia or thrombocytosis, and is BCR::ABL1-negative."},
+  {"dx": "Atypical CML / MDS/MPN with neutrophilia", "vs": "Atypical CML shows prominent granulocytic dysplasia (hypogranulation, abnormal nuclear segmentation) and lacks BCR::ABL1, whereas the maturing cells here appear non-dysplastic."},
+  {"dx": "Leukoerythroblastosis from marrow infiltration or fibrosis", "vs": "Leukoerythroblastic smears pair immature granulocytes with nucleated red cells and teardrop cells in a usually normal or low total WBC, unlike the marked myelocyte-rich leukocytosis of CML."},
+  {"dx": "CML in accelerated or blast phase", "vs": "Progression is defined by increased blasts (and basophils) on a full differential; a single blast in one field does not establish it."}
+ ],
+ "specimen": "PB",
+ "stain": "Wright-Giemsa",
+ "match": "consistent",
+ "high_yield": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": "143",
+  "recognize_zh": "HPLC 在 HbA2 window（滯留時間約 3.60 分）出現高達 87.5% 的單一巨峰、HbA0 僅 3.8%，鹼性電泳在 C/E/O/A2 位置有粗帶而無 HbA 帶，血片為小球性紅血球並有標靶細胞，符合同型合子 HbE 疾病。",
+  "features": [
+    "Peripheral smear with small, relatively uniform red cells and scattered target cells; one polychromatic cell present",
+    "Many crenated (echinocytic) red cells across the field, most consistent with a preparation artifact",
+    "No sickle cells, spherocytes or nucleated red cells in this field",
+    "HPLC: single dominant peak in the A2 window (87.5%, RT 3.60 min), HbA0 3.8%, HbF 1.5%",
+    "Alkaline cellulose acetate electrophoresis: patient lane (arrow) with a single heavy band at the C/E/O/A2 position and no HbA band",
+    "Family HPLC: A2-window variant 27.5% with normal HbA0 (HbE trait) and HbA2 5.8% (beta-thalassemia trait)"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells that are small with scattered target cells; numerous crenated cells are present and are likely a drying artifact, and no sickle cells or nucleated red cells are identified. Cation-exchange HPLC shows a single dominant variant peak in the HbA2 window (87.5%) with markedly reduced HbA0 (3.8%) and HbF 1.5%, and alkaline cellulose acetate electrophoresis shows a single band in the C/E/O/A2 region without HbA. The mother's HPLC shows an A2-window variant of 27.5% with normal HbA0 (HbE trait), and the husband's study shows HbA2 5.8% (beta-thalassemia trait). In a patient with normal iron studies, findings are consistent with homozygous HbE disease.",
+  "ddx": [
+    {"dx": "HbE/beta0-thalassemia", "vs": "HbE/beta0-thal also lacks HbA but has a substantially raised HbF (often 30-60%), more severe anemia and prominent poikilocytosis, whereas HbF here is only 1.5%."},
+    {"dx": "HbE trait (heterozygous)", "vs": "HbE trait shows an A2-window variant of about 25-30% with abundant HbA0, as in the parental tracing, rather than >85% with near-absent HbA0."},
+    {"dx": "Homozygous HbC or HbO-Arab", "vs": "These co-migrate with HbE on alkaline electrophoresis but elute in separate C- or later windows on HPLC, and HbC disease shows intracellular crystals."},
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency causes microcytosis with anisocytosis and pencil cells but a normal or low HbA2 and no variant peak, and iron studies here were normal."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; HPLC; Hb electrophoresis",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood smear: microcytes and target cells with crenation artifact",
+    "Patient HPLC: A2-window variant 87.5%, HbA0 3.8%, HbF 1.5%",
+    "Alkaline electrophoresis: patient lane (arrow) with C/E/O/A2 band and no HbA",
+    "Family HPLC: A2-window variant 27.5% (HbE trait)",
+    "Husband HPLC: HbA2 5.8% (beta-thalassemia trait)"
+  ]
+}

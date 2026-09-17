@@ -1,0 +1,22 @@
+{
+  "id": "65876",
+  "recognize_zh": "多圖組合：A、D 母細胞增多並夾雜含粗大深紫色嗜鹼性顆粒的母細胞與嗜鹼性前驅細胞，D 小圖鐵染色見環狀鐵粒母細胞；B、C 為流式（CD34+ 母細胞、CD22+ 子群），E 為光學基因體圖譜的複雜核型 circos 圖，整體指向 TP53 突變、治療相關 AML 伴嗜鹼性分化。",
+  "features": [
+    "Panels A and D: increased medium-to-large blasts with fine chromatin, several containing coarse dark purple basophilic granules, plus basophilic myeloid precursors",
+    "Panel D inset (Perls): erythroid precursors with perinuclear iron granules consistent with ring sideroblasts",
+    "Panel B: CD34-positive blast gate comprising about 78% of events on CD34 versus FSC",
+    "Panel C: a small CD22-positive, CD34-positive subset (about 6.6%) corresponding to basophil-lineage blasts",
+    "Panel E: circos plot from optical genome mapping with multiple interchromosomal links indicating a highly complex karyotype"
+  ],
+  "describe_en": "Peripheral blood and bone marrow aspirate smears (panels A and D) show increased blasts with fine chromatin, a subset of which contain coarse dark basophilic granules, together with increased basophilic myeloid precursors and basophils; the Perls-stained inset demonstrates ring sideroblasts. Flow cytometry (panels B and C) shows a predominant CD34-positive blast population with a minor CD22-positive subset, consistent with basophilic differentiation given the CD123-bright/CD13/CD33/CD11b profile described. The optical genome mapping circos plot (panel E) shows numerous structural rearrangements, indicating a complex karyotype. In the setting of prior chemotherapy and biallelic TP53 mutation, findings are consistent with therapy-related acute myeloid leukemia with mutated TP53, with basophilic differentiation and ring sideroblasts.",
+  "ddx": [
+    {"dx": "AML with t(6;9)(p22.3;q34.1)/DEK::NUP214", "vs": "This is the classic AML with basophilia and ring sideroblasts, and is separated by the specific translocation rather than a TP53-mutated complex karyotype."},
+    {"dx": "Acute basophilic leukemia", "vs": "Acute basophilic leukemia is a diagnosis of exclusion that cannot be made when a defining genetic abnormality such as mutated TP53 or therapy relation is present."},
+    {"dx": "Chronic myeloid leukemia in blast phase", "vs": "CML-BP also shows marked basophilia but carries BCR::ABL1, which must be excluded by FISH or PCR."},
+    {"dx": "Mixed phenotype acute leukemia, B/myeloid", "vs": "CD22 on basophil-lineage blasts is lineage-infidelity without CD19, CD79a or CD10, so B-lineage criteria are not met."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa, MGG, Perls (inset); flow; OGM",
+  "match": "consistent",
+  "high_yield": false
+}

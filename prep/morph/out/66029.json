@@ -1,0 +1,22 @@
+{
+  "id": "66029",
+  "recognize_zh": "視野中央一顆無核、帶細紫色顆粒、邊緣呈鋸齒狀的血小板，大小接近周圍紅血球，明顯大於右上方數顆一般大小的血小板，屬巨大血小板（giant platelet）。",
+  "features": [
+    "Single anucleate platelet approaching the diameter of adjacent red cells",
+    "Cytoplasm filled with fine purple (azurophilic) granules without a nucleus",
+    "Slightly irregular, fringed outline",
+    "Several normal-sized small platelets present elsewhere for comparison",
+    "Normochromic red cells with mild shape variation; no leukocytes in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows normochromic red cells with mild variation in shape. In the center of the field is an anucleate, granular platelet nearly the size of a red cell, considerably larger than the few normal-sized platelets in the field. No platelet clumps, leukocyte inclusions, or schistocytes are seen in this field. Findings represent an isolated giant platelet, which may be seen occasionally in healthy individuals; numerous giant platelets would warrant evaluation for an inherited macrothrombocytopenia or increased platelet turnover.",
+  "ddx": [
+    {"dx": "Small lymphocyte", "vs": "A lymphocyte has a dense nucleus with a rim of blue cytoplasm, whereas this cell is anucleate with granular purple cytoplasm throughout."},
+    {"dx": "Inherited macrothrombocytopenia (Bernard-Soulier, MYH9-related disorder)", "vs": "These show many giant platelets with thrombocytopenia (and Döhle-like inclusions in MYH9-RD), rather than an isolated large platelet in a normal smear."},
+    {"dx": "Platelet overlying a red cell", "vs": "An overlying platelet sits within a red cell outline with a surrounding halo, whereas this platelet lies free on the background."},
+    {"dx": "Platelet clump", "vs": "A clump shows multiple aggregated platelets with discernible individual borders rather than one continuous granular cell."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

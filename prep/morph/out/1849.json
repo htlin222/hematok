@@ -1,0 +1,22 @@
+{
+  "id": "1849",
+  "recognize_zh": "骨髓抹片中混合了芽細胞/前單核球（箭頭所指的大細胞，核折疊、染色質細緻）與大量顆粒球及單核球系細胞，下方中央還有一顆含粗大紫色顆粒的異常嗜酸性球，這種骨髓單核球系增生合併異常嗜酸性球的組合提示 AML 伴 inv(16)。",
+  "features": [
+    "Arrowed large cell with folded/indented nucleus, fine chromatin and moderate grey-blue cytoplasm (blast/promonocyte)",
+    "Abnormal eosinophil precursor (lower center) with coarse, dark purple basophilic-staining granules admixed with orange granules",
+    "Mixed myelomonocytic population: blasts, monocytoid cells with folded nuclei, and maturing neutrophils",
+    "Numerous segmented and band neutrophils indicating some granulocytic maturation",
+    "Hypercellular aspirate background with scattered erythrocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular specimen with a mixed myelomonocytic population. Large blasts and promonocytes with folded nuclei, fine chromatin and moderate grey-blue cytoplasm (arrow) are admixed with monocytoid cells and maturing neutrophils. An eosinophil precursor with abnormally large, dark purple (basophilic-staining) granules is present. Findings are consistent with acute myelomonocytic leukemia with abnormal eosinophils, as seen in AML with inv(16)(p13.1q22)/CBFB::MYH11; confirmation requires cytogenetic or molecular testing.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic leukemia without CBFB::MYH11", "vs": "Morphology overlaps, but lacks the abnormal eosinophils with basophilic granules and is negative for inv(16)/t(16;16) by karyotype, FISH or RT-PCR."},
+    {"dx": "AML with t(8;21); RUNX1::RUNX1T1", "vs": "Shows blasts with long slender Auer rods, perinuclear hofs and salmon-colored granules rather than a monocytic component with abnormal eosinophils."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "Blasts plus promonocytes are below 20% and there is persistent peripheral monocytosis, whereas inv(16) defines AML regardless of blast count."},
+    {"dx": "Reactive eosinophilia with monocytosis", "vs": "Eosinophils have normal orange granules and blasts/promonocytes are not increased."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

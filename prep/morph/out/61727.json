@@ -1,0 +1,20 @@
+{
+  "id": "61727",
+  "recognize_zh": "這是 blast gate 的 CD33 對 CD56 流式圖：綠色異常芽細胞群 CD56 陽性、CD33 陰性至弱陽性，而紅色殘存正常髓系芽細胞 CD33 陽性、CD56 陰性；芽細胞表現 CD56 且缺乏 CD33 支持 BPDCN。",
+  "features": [
+    "Dot plot: CD33-PC5.5 (x-axis) versus CD56-ECD (y-axis), gated on blasts",
+    "Neoplastic population (green) CD56-positive at moderate intensity",
+    "Green population CD33-negative to dim, with a tail toward partial dim expression",
+    "Residual normal myeloid blasts (red) CD33-positive and CD56-negative to dim",
+    "Rare blue events (lymphoid) negative for both markers"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD33 versus CD56 gated on blasts shows the abnormal population (green) to be CD56-positive and predominantly CD33-negative to dim. A separate population of residual normal myeloid blasts (red) expresses CD33 without CD56. CD56 expression on CD33-negative/dim blasts provides an internal contrast with normal myeloblasts and is compatible with blastic plasmacytoid dendritic cell neoplasm, noting that partial dim CD33 can be seen in BPDCN. Integration with CD4 and bright CD123/HLA-DR expression and negative MPO, CD34 and lineage markers is required.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with aberrant CD56", "vs": "AML blasts with CD56 usually retain bright CD33 and/or CD13, CD34 or CD117, unlike these CD33-negative/dim blasts."},
+    {"dx": "NK-lymphoblastic or aggressive NK-cell leukemia", "vs": "NK neoplasms are CD56+/CD33- but express CD2, CD7, cytoplasmic CD3-epsilon and cytotoxic molecules and lack bright CD123 and CD4."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

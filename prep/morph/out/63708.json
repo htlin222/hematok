@@ -1,0 +1,21 @@
+{
+  "id": "63708",
+  "recognize_zh": "這是 IGV 基因體瀏覽器截圖，位置在第 5 號染色體 NPM1 基因末端外顯子，許多定序讀段在同一位置出現紫色「I」插入標記（Insertion 4 bases: TAGG），代表 NPM1 的 4 個鹼基插入造成移碼突變，不是形態學影像。",
+  "features": [
+    "Integrative Genomics Viewer display of chr5:170,837,526-170,837,566 (41 bp window) within NPM1",
+    "Purple 'I' insertion markers stacked at the same genomic position in a large subset of aligned reads",
+    "Tooltip identifies a 4-base insertion (TAGG) at the codon W288 region of the reference amino acid track",
+    "Remaining reads show wild-type sequence, consistent with a heterozygous somatic variant",
+    "Scattered isolated single-read mismatches elsewhere represent sequencing noise"
+  ],
+  "describe_en": "This figure is a visualization of next-generation sequencing data from formalin-fixed paraffin-embedded tissue in the Integrative Genomics Viewer, centered on the 3' coding region of NPM1 on chromosome 5q35. A recurrent 4-base-pair insertion (TAGG) is present at the same position in a substantial fraction of reads, adjacent to the tryptophan 288 codon, with the remaining reads showing reference sequence. Such exon 12 frameshift insertions alter the C-terminus of nucleophosmin, disrupting the nucleolar localization signal and creating a nuclear export signal, resulting in aberrant cytoplasmic localization. Findings are consistent with a pathogenic NPM1 mutation, which in this context supports classification as myeloid sarcoma/AML with mutated NPM1.",
+  "ddx": [
+    {"dx": "Sequencing or alignment artifact", "vs": "Artifacts appear as isolated low-frequency or strand-biased events, whereas this insertion is recurrent at an identical position across many independent reads."},
+    {"dx": "Germline NPM1 variant", "vs": "Pathogenic NPM1 exon 12 insertions are somatic, and a variant allele frequency well below 50% together with absence in non-tumor tissue supports a somatic event."},
+    {"dx": "Other NPM1 insertion types (type A TCTG duplication)", "vs": "Different exon 12 4-bp insertions (types A, B, D) share the same frameshift consequence and are separated only by the inserted sequence, not by clinical behavior."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61649",
+  "recognize_zh": "骨髓抹片中異常前骨髓細胞密集，核摺疊或呈雙葉（butterfly），胞質布滿紫紅顆粒，數個細胞內可見多根交錯成束的 Auer 小體（faggot cells），是 APL 的經典診斷圖。",
+  "features": [
+    "Packed abnormal promyelocytes with abundant heavily granulated cytoplasm",
+    "Nuclei folded, reniform, or bilobed (butterfly) with fine chromatin and nucleoli",
+    "Several cells with multiple crisscrossing Auer rods (faggot cells)",
+    "Granules scattered in the smear background from cell breakage",
+    "Rare small lymphocytes; normal hematopoiesis largely absent"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows near-total replacement by abnormal promyelocytes with abundant cytoplasm densely packed with azurophilic granules and folded, reniform, or bilobed nuclei with fine chromatin. Several cells contain multiple Auer rods arranged in bundles (faggot cells). Normal hematopoietic elements are markedly reduced, with only rare lymphocytes. Findings are characteristic of acute promyelocytic leukemia, hypergranular type; urgent confirmation of PML::RARA and assessment for disseminated intravascular coagulation are indicated.",
+  "ddx": [
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "t(8;21) typically has single slender Auer rods in blasts with prominent hofs and dysplastic maturing neutrophils, not faggot cells in hypergranular promyelocytes."},
+    {"dx": "AML with maturation, not otherwise specified", "vs": "Occasional Auer rods may be seen but blasts lack bilobed nuclei and dense granules, and PML::RARA is absent."},
+    {"dx": "Reactive promyelocytosis", "vs": "Reactive promyelocytes show round nuclei with a Golgi zone, no Auer rods, and orderly downstream maturation."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

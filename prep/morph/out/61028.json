@@ -1,0 +1,22 @@
+{
+  "id": "61028",
+  "recognize_zh": "視野中許多紅血球的血紅素濃縮偏向細胞一側，另一側只剩透明、輪廓仍在的空膜，呈「半邊鬼影」外觀（hemighost / blister cell），是氧化性溶血（如 G6PD 缺乏者使用 rasburicase）的線索。",
+  "features": [
+    "Numerous red cells with hemoglobin condensed into one half of the cell and a sharply demarcated, pale, empty membrane remnant on the other side (hemighosts)",
+    "Some cells show irregular, crenated outlines of the hemoglobin-free portion (blister-like)",
+    "Admixed spherocyte-like dense small red cells and occasional ovalocytes/target-like cells",
+    "Scattered fine dark dots in the background and on some cells, likely precipitate/artifact",
+    "Occasional small platelets; no leukocytes in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous hemighost (eccentrocyte/blister-type) red cells in which hemoglobin is retracted to one side of the cell, leaving a sharply demarcated, colorless membrane-bound space on the opposite side. Dense, spherocyte-like cells and mild poikilocytosis are also present. No leukocytes are included in this field. In the clinical setting of rasburicase administration, these findings are consistent with acute oxidative hemolysis, and G6PD deficiency should be excluded; a supravital stain for Heinz bodies may be supportive.",
+  "ddx": [
+    {"dx": "Bite cells (degmacytes)", "vs": "Bite cells have a peripheral notch where Heinz bodies were removed by splenic macrophages, rather than a retained colorless membrane half."},
+    {"dx": "Spherocytes of immune hemolytic anemia", "vs": "Spherocytes are uniformly dense, small cells without an eccentric hemoglobin-free zone, and DAT is usually positive."},
+    {"dx": "Drying artifact / refractile water artifact", "vs": "Artifactual clear areas are irregular, refractile and vary with focus, whereas hemighosts have a crisp membrane outline around a truly empty space."},
+    {"dx": "Stomatocytes", "vs": "Stomatocytes have a central slit-like pallor, not a hemoglobin-free half of the cell."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

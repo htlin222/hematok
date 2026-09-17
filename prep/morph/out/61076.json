@@ -1,0 +1,21 @@
+{
+  "id": "61076",
+  "recognize_zh": "臨床照片顯示雙側眼瞼腫脹、黃褐色結痂與瘀青樣變色的眼周浸潤；抹片中為大型芽細胞，核圓形、染色質細緻、有明顯核仁及中等量淡藍色細胞質（單核芽細胞，monoblast），治療後照片浸潤消退。",
+  "features": [
+    "Clinical photos (A, B): bilateral periorbital swelling with violaceous-brown discoloration and yellow crusting of eyelid margins",
+    "Smear (C): large blasts with round to oval nuclei, fine lacy chromatin, one or more prominent nucleoli, and moderate to abundant pale blue agranular cytoplasm (monoblasts)",
+    "Cytologic preparation (D): cohesive-appearing cluster of monomorphic blasts with round nuclei, likely from a tissue imprint/aspirate of the infiltrate",
+    "Clinical photos (E, F): resolution of periorbital and periauricular infiltration after treatment"
+  ],
+  "describe_en": "Clinical photographs show bilateral periorbital swelling with discoloration and crusting, with later images demonstrating resolution after therapy. The smear shows a population of large blasts with round nuclei, fine chromatin, prominent nucleoli and moderate to abundant pale blue cytoplasm without Auer rods, consistent with monoblasts; a second cytologic preparation shows sheets of similar monomorphic blasts. Findings are consistent with acute monoblastic leukemia with extramedullary (periorbital/periauricular soft tissue) infiltration; nonspecific esterase positivity and a monocytic immunophenotype (CD14, CD64, CD11b, lysozyme) would support monocytic lineage.",
+  "ddx": [
+    {"dx": "Myeloid sarcoma of myeloblastic type", "vs": "Myeloblasts have scant cytoplasm, may contain Auer rods and are MPO-strong, whereas monoblasts have abundant cytoplasm and are NSE-positive with weak or absent MPO."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN also causes skin infiltration but blasts are CD4+/CD56+/CD123+/TCF4+ and lack NSE, lysozyme and CD14."},
+    {"dx": "Orbital lymphoma", "vs": "Lymphoma cells are CD45+ B or T lymphocytes lacking monocytic markers and usually lack circulating monoblasts."},
+    {"dx": "Periorbital cellulitis or hematoma (e.g., amyloidosis purpura)", "vs": "Inflammatory or hemorrhagic swelling lacks a blast population on smear or tissue sampling."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; clinical photographs",
+  "match": "consistent",
+  "high_yield": false
+}

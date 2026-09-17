@@ -1,0 +1,22 @@
+{
+  "id": "2785",
+  "recognize_zh": "周邊血液中一顆比紅血球大約兩倍的淋巴球，細胞質豐富淡藍，內含多顆粗大紫紅色嗜天青顆粒（azurophilic granules），核圓略凹、染色質成熟，是典型的大顆粒淋巴球（LGL）。",
+  "features": [
+    "Lymphocyte about twice the diameter of adjacent red cells",
+    "Low to moderate N:C ratio with abundant pale blue cytoplasm",
+    "Numerous coarse azurophilic (red-purple) granules scattered through the cytoplasm",
+    "Round to oval, eccentrically placed nucleus with a slight indentation",
+    "Mature, moderately condensed chromatin without visible nucleoli"
+  ],
+  "describe_en": "Peripheral blood smear shows a large lymphocyte with abundant pale blue cytoplasm containing numerous coarse azurophilic granules. The nucleus is round to oval, slightly indented and eccentrically placed, with mature condensed chromatin and no nucleoli. The surrounding red cells are unremarkable in this field. This is a large granular lymphocyte; a persistent absolute increase (typically >2 x 10^9/L for more than 6 months) with a clonal CD3+/CD8+/CD57+ phenotype would support T-cell large granular lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Reactive large granular lymphocytosis (viral infection, post-transplant)", "vs": "Morphologically identical; distinguished by transient course, polyclonal TCR and absence of STAT3 mutation."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "NK-cell LGLs look the same but are surface CD3-negative, CD16/CD56-positive, with clonality inferred from KIR restriction."},
+    {"dx": "Promyelocyte or myelocyte", "vs": "Granulocyte precursors have more numerous finer primary granules, a larger nucleus with nucleoli or Golgi hof, and lack the lymphoid clear pale-blue cytoplasm."},
+    {"dx": "Hairy cell", "vs": "Hairy cells have circumferential fine cytoplasmic projections, spongy chromatin and no azurophilic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

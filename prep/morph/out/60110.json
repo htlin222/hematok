@@ -1,0 +1,21 @@
+{
+  "id": "60110",
+  "recognize_zh": "骨髓抹片中聚集多個大小不一、核分葉少或單核的異常巨核細胞（atypical megakaryocytes），右上角可見細胞質邊緣呈泡狀突起的芽細胞；巨核細胞系異常加上帶 blebs 的芽細胞，符合 ML-DS。",
+  "features": [
+    "Numerous atypical megakaryocytes of variable size, many with hypolobated, monolobated or folded nuclei",
+    "Megakaryocytic cells with moderate to abundant gray-blue cytoplasm and indistinct granulation",
+    "Large cell (upper right) with coarse cytoplasmic granules and a rim of vacuolated cytoplasmic blebs",
+    "Admixed maturing granulocytes, including segmented neutrophils, and small erythroid precursors",
+    "Clustered arrangement of megakaryocytic elements in a blood-rich background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of numerous atypical megakaryocytes with variable size and predominantly hypolobated to monolobated or folded nuclei, admixed with maturing granulocytes and erythroid precursors. A large cell at the upper right shows cytoplasm with prominent peripheral blebs. The degree of megakaryocytic atypia and clustering is abnormal. In the setting of Down syndrome with 11% blasts, findings are consistent with myeloid leukemia associated with Down syndrome.",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome with megakaryocytic dysplasia", "vs": "In a Down syndrome child under 4 years, MDS and AML are unified as ML-DS; outside that context MDS lacks the megakaryoblast predominance and GATA1 mutation."},
+    {"dx": "Acute megakaryoblastic leukemia (non-DS)", "vs": "Morphology overlaps; constitutional trisomy 21 with somatic GATA1 mutation defines ML-DS."},
+    {"dx": "Immune thrombocytopenia with increased megakaryocytes", "vs": "ITP megakaryocytes are increased but show normal lobation without blasts or blebbed megakaryoblasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

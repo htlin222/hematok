@@ -1,0 +1,20 @@
+{
+  "id": "61960",
+  "recognize_zh": "CD20染色中陽性細胞為大小中等、散在或成小群的背景B細胞，而核大、淡染的大型腫瘤細胞為陰性；ALCL腫瘤細胞不表現B細胞標記，這是排除大B細胞淋巴瘤的重要一步。",
+  "features": [
+    "Membranous and granular cytoplasmic CD20 staining in scattered and loosely clustered small-to-intermediate cells",
+    "Large cells with vesicular, pale nuclei are CD20-negative",
+    "Positive cells interspersed among negative tumor cells rather than forming uniform sheets",
+    "Granular background staining in the stroma"
+  ],
+  "describe_en": "CD20 immunostain shows positive staining in scattered and loosely clustered small-to-intermediate B cells, whereas the large atypical cells with vesicular nuclei are negative. The positive cells are interpreted as residual reactive B cells. Lack of CD20 in the neoplastic population supports a non-B-cell lineage, consistent with anaplastic large cell lymphoma in conjunction with CD30 and T-cell/cytotoxic markers.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, anaplastic variant", "vs": "Anaplastic DLBCL may be CD30+ but the large cells are CD20+/PAX5+, unlike the negative large cells here."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are usually CD20-negative too, so separation relies on weak PAX5 and CD15 positivity in cHL versus PAX5 negativity with cytotoxic markers in ALCL."},
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "This entity has plasmablastic large cells that are CD20-negative but ALK-positive with plasma cell markers and granular cytoplasmic ALK, and is CD30-negative or weak."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

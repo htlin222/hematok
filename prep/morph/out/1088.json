@@ -1,0 +1,21 @@
+{
+  "id": "1088",
+  "recognize_zh": "低倍骨髓切片整體被深棕黑色染料浸染，細胞間有密集纖維狀結構並圍住多顆巨核細胞，推測為過度染色的網狀纖維（silver）染色；影像品質限制判讀，只能提示骨髓纖維化。",
+  "features": [
+    "Low-power bone marrow biopsy with diffuse dark brown silver-type staining",
+    "Dense fibrillary background suggesting increased reticulin fibers, poorly separated from cells",
+    "Multiple scattered megakaryocytes visible as rounded pale-brown cells",
+    "Focal bluish fibrillary areas and streaming around vessels/spaces",
+    "Tissue retraction artifact; heavy background staining limits grading"
+  ],
+  "describe_en": "Low-power section of a bone marrow biopsy shows diffuse dark brown staining with a dense fibrillary background, most consistent with an overdeveloped reticulin (silver) stain, in which fibers appear increased and surround numerous megakaryocytes. Areas of streaming are present. Heavy background staining and the low magnification preclude reliable fiber grading or cytologic assessment. The findings suggest increased marrow fibrosis in chronic myeloid leukemia, but a well-differentiated reticulin and trichrome stain are needed for grading.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows clustered, atypical cloud-like megakaryocytes and lacks BCR::ABL1, which requires molecular testing to exclude."},
+    {"dx": "Staining artifact without true fibrosis", "vs": "Artifactual background precipitate is non-fibrillary and does not form discrete intersecting fibers on a properly differentiated repeat stain."},
+    {"dx": "Diffuse immunohistochemical positivity (e.g., CD61)", "vs": "IHC shows a hematoxylin counterstain with crisp cellular brown staining rather than a diffuse fibrillary silver deposit."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Reticulin (silver), presumed",
+  "match": "partial",
+  "high_yield": false
+}

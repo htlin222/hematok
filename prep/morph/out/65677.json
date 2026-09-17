@@ -1,0 +1,21 @@
+{
+  "id": "65677",
+  "recognize_zh": "密集的小淋巴球浸潤全數不染 cyclin D1（CCND1），只有散在的內皮細胞、組織球及左側非淋巴區的間質／上皮細胞核呈棕色，作為內部陽性對照；在 CLL/SLL 的背景下，這樣的陰性結果可排除被套細胞淋巴瘤（mantle cell lymphoma）。",
+  "features": [
+    "Dense sheet of small, uniform lymphoid cells with round nuclei",
+    "Lymphoid cells show no nuclear cyclin D1 (CCND1) staining",
+    "Scattered positive nuclei in endothelial cells, histiocytes and stromal cells serve as internal positive control",
+    "Left edge shows a non-lymphoid tissue component with more frequent positive nuclei",
+    "Clean background without nonspecific staining"
+  ],
+  "describe_en": "Cyclin D1 immunohistochemistry shows a dense infiltrate of small lymphoid cells that are entirely negative for nuclear cyclin D1. Scattered endothelial cells, histiocytes and stromal cells, including those in the adjacent non-lymphoid tissue, show nuclear staining and serve as an adequate internal positive control. The lack of cyclin D1 expression in the neoplastic lymphocytes argues against mantle cell lymphoma and, in the appropriate immunophenotypic context (CD5+, CD23+), is consistent with chronic lymphocytic leukemia/small lymphocytic lymphoma.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma shows diffuse strong nuclear cyclin D1 in the neoplastic small lymphocytes (or SOX11 positivity in cyclin D1-negative cases), whereas here the lymphocytes are negative."},
+    {"dx": "CLL/SLL with cyclin D1-positive proliferation centers", "vs": "CLL/SLL may show weak cyclin D1 in paraimmunoblasts within proliferation centers, but not diffuse staining of the small cells as in MCL."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cell leukemia can be weakly cyclin D1-positive but is CD5-negative, annexin A1/BRAF V600E-positive and typically involves marrow and red pulp rather than forming a nodular infiltrate like this."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: cyclin D1 (CCND1)",
+  "match": "consistent",
+  "high_yield": true
+}

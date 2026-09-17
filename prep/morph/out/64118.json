@@ -1,0 +1,22 @@
+{
+  "id": "64118",
+  "recognize_zh": "中央一顆活化巨噬細胞，胞質淡藍灰、邊緣不規則且有空泡，胞質內可見一顆完整的帶狀/分葉嗜中性球、一顆圓核單核細胞與紅血球物質；巨噬細胞吞噬完整血球，是 HLH 的噬血現象。",
+  "features": [
+    "Large activated macrophage with abundant pale gray-blue, vacuolated cytoplasm and irregular borders",
+    "Engulfed intact band/segmented neutrophil with a horseshoe-shaped nucleus inside a vacuole",
+    "Additional ingested mononuclear cell with a round nucleus and dense dark cell remnants",
+    "Background: eosinophils, segmented neutrophils, larger immature myeloid/erythroid precursors, and red cells",
+    "Degenerating smudged cells at the lower right"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large activated macrophage with abundant, pale, vacuolated cytoplasm containing an intact band neutrophil within a phagocytic vacuole, an additional mononuclear cell, and dense cellular remnants. The background includes eosinophils, segmented neutrophils, and immature hematopoietic precursors without an obvious blast population in this field. The findings represent hemophagocytosis by an activated macrophage. This is supportive of hemophagocytic lymphohistiocytosis, but the diagnosis requires fulfilment of clinical and laboratory criteria (HLH-2004 or HScore) and a search for an underlying trigger.",
+  "ddx": [
+    {"dx": "Nonspecific reactive hemophagocytosis", "vs": "Occasional hemophagocytes appear after transfusion, infection, or chemotherapy without the systemic HLH syndrome, so morphology alone cannot diagnose HLH."},
+    {"dx": "Tingible-body macrophage", "vs": "Contains fragmented apoptotic debris instead of whole identifiable cells such as the intact band neutrophil here."},
+    {"dx": "Megakaryocyte emperipolesis", "vs": "The host cell in emperipolesis is a megakaryocyte with a large lobulated nucleus and granular cytoplasm rather than a vacuolated macrophage."},
+    {"dx": "Cell overlap artifact", "vs": "Overlapping cells sit on top of the macrophage without a surrounding clear vacuole."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

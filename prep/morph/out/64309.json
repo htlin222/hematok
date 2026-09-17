@@ -1,0 +1,20 @@
+{
+  "id": "64309",
+  "recognize_zh": "這是未設門的流式散點圖（CD138 對 CD38）：傳統漿細胞框（CD38+/CD138+）內幾乎沒有細胞，但右下方有一群 CD138+ 而 CD38 陰性/弱的細胞（紅色），提示 daratumumab 治療後 CD38 抗原被遮蔽，漿細胞仍存在。",
+  "features": [
+    "Ungated bivariate dot plot of CD138 (x-axis) versus CD38 (y-axis) on log scales",
+    "Conventional CD38-bright/CD138+ plasma cell gate (upper right box) contains essentially no events",
+    "Discrete population (red) with CD138 expression above 10^1 but CD38 at negative-to-dim levels",
+    "Bulk of marrow events (gray) CD138-negative with low CD38"
+  ],
+  "describe_en": "This is an ungated flow cytometry dot plot of bone marrow displaying CD138 versus CD38. The standard plasma cell gate for CD38-bright/CD138-positive events contains essentially no cells, which on its own would suggest absence of plasma cells. However, a distinct population highlighted in red expresses CD138 while being negative to dim for CD38. In a patient previously treated with daratumumab, this pattern indicates that CD38 is masked or downregulated on residual plasma cells, which should be gated with CD138 and alternative markers (e.g., CD229, CD319, multiepitope CD38) and assessed for light-chain restriction; findings are consistent with CD38-negative persistent myeloma.",
+  "ddx": [
+    {"dx": "True complete response / no residual plasma cells", "vs": "Absence of events in the CD38+/CD138+ gate is misleading after anti-CD38 therapy, and a CD138+ CD38- population with cytoplasmic kappa restriction indicates persistent disease."},
+    {"dx": "Nonspecific CD138 binding (debris, dead cells)", "vs": "Debris lacks forward/side scatter characteristics of plasma cells and cytoplasmic light-chain restriction, which were demonstrated in the gated population."},
+    {"dx": "Plasmablastic lymphoma or other CD138+ neoplasm", "vs": "Separation relies on clinical history, morphology and immunophenotype (e.g., MYC, EBER, CD45), not on this single plot."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

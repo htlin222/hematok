@@ -1,0 +1,22 @@
+{
+  "id": "64268",
+  "recognize_zh": "周邊血抹片中一個比紅血球大約兩倍的原始細胞，核圓、染色質細緻均勻、核質比高，外圍一圈深藍嗜鹼性細胞質且無顆粒；單看此細胞只能判定為原始細胞，無法單憑型態確定其系別。",
+  "features": [
+    "Single circulating blast roughly twice the diameter of adjacent erythrocytes",
+    "High N:C ratio with a round central nucleus",
+    "Finely dispersed, homogeneous chromatin; nucleoli indistinct at this resolution",
+    "Narrow rim of deeply basophilic, agranular cytoplasm without Auer rods or blebs",
+    "Background erythrocytes largely normochromic; no nucleated red cells or other leukocytes in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows a circulating blast with a high N:C ratio, a round nucleus with finely dispersed chromatin, and a thin rim of deeply basophilic, agranular cytoplasm. No Auer rods, granules or cytoplasmic blebs are identified, and nucleoli are not well resolved. The background red cells show no specific abnormality in this field. The cell is a blast of indeterminate lineage by morphology alone; in the context of pure erythroid leukemia, the deep basophilia is compatible with a circulating proerythroblast, but lineage should be established by flow cytometry or immunohistochemistry.",
+  "ddx": [
+    {"dx": "Lymphoblast (B- or T-ALL)", "vs": "Lymphoblasts may look identical, requiring flow cytometry showing CD19/CD79a or cCD3 versus erythroid markers such as CD71/CD235a."},
+    {"dx": "Myeloblast", "vs": "Myeloblasts typically have less basophilic cytoplasm, more prominent nucleoli and may contain azurophilic granules or Auer rods, and are MPO positive."},
+    {"dx": "Reactive large lymphocyte/immunoblast", "vs": "Immunoblasts have more abundant cytoplasm, coarser chromatin with a prominent central nucleolus and occur among a spectrum of reactive lymphocytes."},
+    {"dx": "Megakaryoblast", "vs": "Megakaryoblasts often show cytoplasmic blebs and are CD41/CD61 positive, which morphology of a single cell cannot exclude."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62500",
+  "recognize_zh": "骨髓切片 LEF1 核染色：大片小型淋巴球浸潤中，散在強陽性的棕色細胞核（實心箭頭），多數細胞核僅弱染或陰性（空心箭頭），巨核細胞為陰性；LEF1 在 CLL 細胞中常呈核陽性，此視野強度不一，判讀需搭配 T 細胞內部對照。",
+  "features": [
+    "Diffuse marrow infiltrate of small round lymphoid cells replacing hematopoiesis",
+    "Scattered cells with strong nuclear LEF1 staining (solid arrows)",
+    "Many lymphoid nuclei with weak or absent staining (open arrows)",
+    "LEF1-negative megakaryocytes in pale spaces",
+    "Heterogeneous staining intensity rather than uniform strong nuclear positivity"
+  ],
+  "describe_en": "Bone marrow biopsy stained for LEF1 shows a diffuse infiltrate of small lymphoid cells with heterogeneous nuclear staining. Scattered nuclei are strongly positive (solid arrows), while many lymphoid nuclei show only weak or no staining (open arrows); megakaryocytes are negative. Strong positive cells may include background T cells, which normally express LEF1, so neoplastic-cell positivity should be judged against this internal control. Nuclear LEF1 expression in a CD5-positive small B-cell infiltrate supports chronic lymphocytic leukemia/small lymphocytic lymphoma over other small B-cell lymphomas.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is typically LEF1-negative and cyclin D1/SOX11-positive."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL is LEF1-negative in B cells and usually CD5-negative."},
+    {"dx": "Reactive lymphoid aggregate", "vs": "Reactive aggregates show LEF1 only in T cells and contain mixed polytypic B and T cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: LEF1",
+  "match": "consistent",
+  "high_yield": false
+}

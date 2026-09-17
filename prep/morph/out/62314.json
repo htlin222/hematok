@@ -1,0 +1,35 @@
+{
+	"id": "62314",
+	"recognize_zh": "低倍下可見散在的中小型淋巴球樣細胞，高倍下細胞核圓形至略呈腎形、染色質均勻，周邊淡藍色細胞質有細毛狀突起（hairy projections），符合毛狀細胞白血病（HCL）的周邊血表現。",
+	"features": [
+		"Small to medium-sized mononuclear cells, slightly larger than mature lymphocytes",
+		"Moderate N:C ratio with round, oval to slightly indented/bilobed nuclei",
+		"Homogeneous, moderately condensed chromatin without conspicuous nucleoli",
+		"Pale blue cytoplasm with fine circumferential hair-like projections",
+		"Low-power field shows scattered abnormal cells without neutrophils or monocytes (suggesting cytopenias/monocytopenia)",
+		"Background red cells largely normocytic with occasional target cells"
+	],
+	"describe_en": "Peripheral blood smear at low power shows scattered mononuclear cells, with no neutrophils or monocytes evident in the field. At high power these are small to medium-sized lymphoid cells with round to slightly indented nuclei, homogeneous chromatin, inconspicuous nucleoli and moderate pale blue cytoplasm bearing fine circumferential hair-like projections. Red cells show mild anisocytosis with occasional target cells; platelets appear sparse. Findings are consistent with involvement by hairy cell leukemia, to be confirmed by flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing.",
+	"ddx": [
+		{
+			"dx": "Splenic marginal zone lymphoma",
+			"vs": "Villous lymphocytes of SMZL have polar, shorter villi and often a basophilic cytoplasm with occasional nucleoli, and are CD25/CD103/annexin A1 negative."
+		},
+		{
+			"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma with prominent nucleoli)",
+			"vs": "HCL-v cells have a prominent central nucleolus, higher counts without monocytopenia, and lack CD25, annexin A1 and BRAF V600E."
+		},
+		{
+			"dx": "Splenic diffuse red pulp small B-cell lymphoma",
+			"vs": "SDRPL shows broad-based polar villi and is typically CD25-negative, CD103 variably positive, and annexin A1/BRAF V600E negative."
+		},
+		{
+			"dx": "Reactive lymphocytes with smudging artifact",
+			"vs": "Reactive lymphocytes show varied size with abundant cytoplasm hugging red cells rather than fine uniform circumferential projections, and are polyclonal by flow cytometry."
+		}
+	],
+	"specimen": "PB",
+	"stain": "Wright-Giemsa",
+	"match": "consistent",
+	"high_yield": true
+}

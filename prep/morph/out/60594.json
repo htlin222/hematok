@@ -1,0 +1,22 @@
+{
+  "id": "60594",
+  "recognize_zh": "腦部 MRI FLAIR 未見明顯異常，周邊血液出現少數大型異常淋巴球；骨髓切片看似造血細胞為主，但免疫染色（B 細胞標記）顯示大型陽性細胞沿著竇狀血管內呈線性排列，說明腫瘤細胞侷限在血管腔內，符合血管內大 B 細胞淋巴瘤。",
+  "features": [
+    "Brain MRI (FLAIR, axial) without evident parenchymal signal abnormality or mass",
+    "Peripheral blood: occasional large atypical lymphoid cells with high N:C ratio, fine to slightly open chromatin and basophilic cytoplasm",
+    "Bone marrow biopsy H&E: cellular marrow with trilineage hematopoiesis; large atypical cells inconspicuous on H&E",
+    "Inset schematic outlines the tortuous sinusoidal distribution",
+    "IHC (B-cell marker, likely CD20): large positive cells confined to marrow sinusoids in linear/branching intravascular pattern"
+  ],
+  "describe_en": "Axial FLAIR MRI of the brain shows no evident parenchymal abnormality. Peripheral blood smear contains occasional large atypical lymphoid cells with high nuclear-to-cytoplasmic ratio, fine chromatin and basophilic cytoplasm. The bone marrow biopsy appears relatively unremarkable on H&E, but immunohistochemistry for a B-cell marker highlights large atypical cells distributed exclusively within sinusoidal lumens in a linear, branching pattern. In a patient with rapidly progressive neurological deterioration, findings are consistent with intravascular large B-cell lymphoma; random skin and marrow biopsies are useful diagnostic sites when imaging is unrevealing.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma with marrow involvement", "vs": "Forms interstitial or nodular extravascular aggregates rather than cells restricted to sinusoidal lumens."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Also intrasinusoidal, but consists of small lymphocytes with low proliferation rather than large atypical B cells."},
+    {"dx": "Intravascular NK/T-cell lymphoma", "vs": "Shows the same intravascular pattern but cells are CD20 negative, CD3/CD56 positive and EBER positive."},
+    {"dx": "Hemophagocytic lymphohistiocytosis (Asian variant presentation)", "vs": "HLH shows hemophagocytic macrophages without CD20-positive large cells in vessels, though the two may coexist."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "MRI FLAIR; Wright-Giemsa; H&E; IHC: CD20 (likely)",
+  "match": "consistent",
+  "high_yield": true
+}

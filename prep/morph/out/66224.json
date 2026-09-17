@@ -1,0 +1,22 @@
+{
+  "id": "66224",
+  "recognize_zh": "這是流式細胞儀九格圖：CD19+ B 細胞（藍色）約占淋巴球 79%，FMC7 強陽性、CD11c 異質性部分陽性，但 CD25、CD103、CD123 皆陰性；此組合用來排除毛細胞白血病（HCL 需 CD11c/CD25/CD103/CD123 陽性），支持脾邊緣區淋巴瘤。",
+  "features": [
+    "CD45-bright, low SSC lymphocyte gate (63.8%) with CD19-positive B cells (blue) forming 78.6% of lymphocytes",
+    "B cells are FMC7 bright positive",
+    "CD11c heterogeneous, ranging from negative to moderately positive (partial expression)",
+    "CD25 negative, CD103 negative and CD123 negative on the B-cell population",
+    "Non-B lymphocytes (orange) and monocytes (gray) serve as internal controls"
+  ],
+  "describe_en": "Flow cytometric analysis shows a dominant CD45-bright, low side scatter lymphocyte population composed predominantly of CD19-positive B cells. The B cells are brightly FMC7 positive with heterogeneous partial CD11c expression, and are negative for CD25, CD103 and CD123. The absence of CD25, CD103 and CD123 argues against classic hairy cell leukemia, and the CD103-negative phenotype also argues against hairy cell leukemia variant. Light chain restriction is not shown in this panel. Combined with the CD23-negative, CD200-low profile and villous lymphocyte morphology, findings are compatible with splenic marginal zone lymphoma.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia", "vs": "HCL co-expresses bright CD11c, CD25, CD103 and CD123 (score 3-4), whereas this population is negative for CD25, CD103 and CD123."},
+    {"dx": "Splenic B-cell lymphoma/leukemia with prominent nucleoli (HCL variant)", "vs": "This entity is CD11c+ and CD103+ but CD25- and CD123-, so the CD103 negativity here favors SMZL."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL has a similar CD25-/CD123- phenotype, often CD103 partial and IgG+, and is best separated by red pulp-predominant splenic histology and cyclin D3 expression."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL is typically FMC7 negative with dim CD20/CD22 and CD23/CD200 positivity, unlike this FMC7-bright population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

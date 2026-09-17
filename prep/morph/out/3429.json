@@ -1,0 +1,23 @@
+{
+  "id": "3429",
+  "recognize_zh": "周邊血抹片中可見數個中到大型淋巴樣細胞，染色質細緻呈網狀、部分可見核仁，其中一顆有明顯的核中央裂溝（nuclear cleft），細胞質淡藍而少；比一般成熟淋巴球大且不典型，是周邊化濾泡性淋巴瘤的非典型細胞。",
+  "features": [
+    "Intermediate to large lymphoid cells, roughly 1.5-2 times the diameter of a red cell",
+    "Moderate to high N:C ratio with round, oval or angulated nuclei",
+    "Distinct nuclear cleft/groove in at least one cell",
+    "Finely reticulated chromatin with small but visible nucleoli in several cells",
+    "Scant to moderate pale blue agranular cytoplasm",
+    "Background red cells largely normocytic with an occasional echinocyte"
+  ],
+  "describe_en": "Peripheral blood smear shows several circulating atypical lymphoid cells in a background of normochromic red cells. The cells are intermediate to large, with moderate to high N:C ratios, round to angulated nuclei, finely reticulated chromatin, small visible nucleoli, and scant pale blue agranular cytoplasm. One cell displays a distinct nuclear cleft. These cells are larger and have less condensed chromatin than typical small cleaved follicular lymphoma cells. Findings are consistent with peripheral blood involvement by follicular lymphoma with atypical morphology; flow cytometry is recommended to confirm a CD10+ clonal B-cell population and exclude transformation or a blastic process.",
+  "ddx": [
+    {"dx": "Leukemic mantle cell lymphoma", "vs": "MCL cells can also be irregular and nucleolated, but they are CD5+, CD10-, cyclin D1+, whereas FL cells are CD5-, CD10+."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "Blasts have more homogeneous blast chromatin and express TdT/CD34, absent in FL."},
+    {"dx": "Reactive atypical lymphocytes", "vs": "Reactive lymphocytes are heterogeneous with abundant cytoplasm that hugs adjacent red cells and are polyclonal on flow cytometry."},
+    {"dx": "B-prolymphocytic transformation of CLL", "vs": "Prolymphocytes have a single central prominent nucleolus and moderately condensed chromatin without clefts, with a CLL/B-PLL immunophenotype lacking CD10."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

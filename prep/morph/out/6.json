@@ -1,0 +1,27 @@
+{
+  "id": "6",
+  "recognize_zh": "成群的中大型芽細胞核質比高、染色質細緻，數顆細胞核中可見淡染的凹陷區（杯狀核凹陷，cup-like nuclear invagination），加上NPM1 突變的病史，符合 NPM1 突變急性骨髓性白血病。",
+  "features": [
+    "Medium-to-large blasts, about 2 RBC diameters, occurring in cohesive-appearing clusters on the smear",
+    "High N:C ratio with a narrow rim of pale blue, agranular cytoplasm; no Auer rods seen",
+    "Finely dispersed chromatin; nucleoli inconspicuous at this resolution",
+    "Several nuclei show a pale, clear area at the nuclear margin, consistent with cup-like (fish-mouth) nuclear invaginations",
+    "Some nuclei indented or folded; cytoplasm often concentrated at one pole",
+    "Background of red cells with no maturing granulocytes in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous blasts, including clusters, in a background of unremarkable red cells with no maturing myeloid cells in these fields. The blasts are medium to large with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, and a scant rim of agranular pale blue cytoplasm; Auer rods are not identified. Several blasts show a pale, sharply demarcated clear zone indenting the nucleus, consistent with cup-like nuclear invaginations, and others have folded nuclear contours. In conjunction with the detected NPM1 exon 12 frameshift mutation, findings are consistent with acute myeloid leukemia with mutated NPM1.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL shows bilobed/folded nuclei with fine granules or Auer rod bundles and is CD34/HLA-DR negative with PML::RARA, whereas cuplike blasts here are agranular."},
+    {"dx": "AML with FLT3-ITD or myelomonocytic AML without NPM1", "vs": "Cup-like invaginations are not specific; NPM1 molecular testing or aberrant cytoplasmic NPM1 immunohistochemistry is the discriminator."},
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "Lymphoblasts can look similar and lack granules, so MPO cytochemistry and flow cytometry (myeloid vs lymphoid lineage markers) are required."},
+    {"dx": "Acute monoblastic/monocytic leukemia", "vs": "Monoblasts have more abundant, often vacuolated gray-blue cytoplasm and delicately folded nuclei with nonspecific esterase positivity."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Cluster of three blasts with high N:C ratio, fine chromatin, and scant agranular blue cytoplasm.",
+    "Cluster of blasts, several with pale cup-like nuclear invaginations."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64927",
+  "recognize_zh": "薄層血片中可見三種瘧原蟲時期：白箭頭是正常大小紅血球內的小環狀體，黑箭頭是被寄生而變大、形狀不規則並帶棕色色素的變形體滋養體，藍箭頭是充滿細小棕黑色瘧色素的大型圓形配子體；受感染紅血球變大是間日瘧（P. vivax）的特徵。",
+  "features": [
+    "Ring stage (white arrow): delicate cytoplasmic ring with a single chromatin dot in a normal-sized red cell",
+    "Trophozoite (black arrow): irregular amoeboid parasite with brown pigment in an enlarged, distorted red cell",
+    "Gametocyte (blue arrow): round parasite filling an enlarged red cell with scattered fine brown-black hemozoin pigment",
+    "Infected red cells enlarged compared with uninfected cells; Schüffner stippling faint at this resolution",
+    "Low parasitemia with single infections per cell; no banana-shaped gametocytes"
+  ],
+  "describe_en": "Thin peripheral blood smear shows intraerythrocytic parasites at several developmental stages. A ring form with a single chromatin dot is present within a normal-sized red cell, an amoeboid trophozoite with brown pigment occupies an enlarged irregular red cell, and a round pigmented gametocyte fills an enlarged red cell. Parasitemia appears low, and there are no multiply infected cells or crescentic gametocytes. Findings are consistent with Plasmodium vivax infection.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum", "vs": "P. falciparum shows numerous small rings in normal-sized cells, multiple infections, appliqué forms and banana-shaped gametocytes, with mature trophozoites rarely seen."},
+    {"dx": "Plasmodium ovale", "vs": "P. ovale also enlarges red cells but produces oval cells with fimbriated edges and more compact, less amoeboid trophozoites."},
+    {"dx": "Plasmodium malariae", "vs": "P. malariae infects normal or small red cells and forms band-shaped trophozoites and rosette schizonts without enlargement or stippling."},
+    {"dx": "Babesia species", "vs": "Babesia forms small pleomorphic rings and tetrads (Maltese cross) without hemozoin pigment or gametocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa (thin smear)",
+  "match": "consistent",
+  "high_yield": true
+}

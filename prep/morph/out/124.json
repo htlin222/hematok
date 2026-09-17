@@ -1,0 +1,30 @@
+{
+  "id": "124",
+  "recognize_zh": "周邊血液抹片中可見兩端尖細的鐮刀狀紅血球與船形紅血球（boat cells），偏亞硫酸氫鈉鐮變試驗中大量紅血球變成鐮刀或冬青葉形；HPLC 顯示 S-window 71.8%、HbF 16.1%，父親 HbS 32.9% 為帶因者。",
+  "features": [
+    "Elongated sickle cells with pointed ends and boat-shaped (oat) cells",
+    "Anisopoikilocytosis with crenated cells, occasional target-like and folded cells",
+    "Sodium metabisulfite wet preparation: numerous sickled and holly-leaf red cells (positive sickling test)",
+    "Patient HPLC: S-window 71.8% at 4.36 min, HbF 16.1%, HbA0 8.5% (residual transfused cells), HbA2 1.9%",
+    "Alkaline cellulose acetate electrophoresis: dominant band in the S/D/G region (arrow)",
+    "Father HPLC: HbA0 57.1% with S-window 32.9%, pattern of sickle cell trait"
+  ],
+  "describe_en": "Peripheral blood smear shows anisopoikilocytosis with numerous elongated sickle cells, boat-shaped cells, crenated cells and occasional folded forms. A sodium metabisulfite wet preparation shows extensive sickling with classic sickle and holly-leaf forms, a positive sickling test. Hemoglobin HPLC shows a dominant peak in the S window (71.8%, retention time 4.36 min) with HbF 16.1%, HbA2 1.9% and a small HbA0 fraction (8.5%) attributable to transfusion three months earlier; alkaline cellulose acetate electrophoresis shows a prominent band in the S/D/G region. Paternal HPLC shows HbA 57.1% with an S-window peak of 32.9%, consistent with sickle cell trait. Findings are consistent with homozygous sickle cell disease (HbSS) with a transfusion effect; confirmation of the S variant by solubility testing or acid electrophoresis separates it from HbD/HbG, which co-migrate at alkaline pH.",
+  "ddx": [
+    {"dx": "HbS/beta-thalassemia", "vs": "Shows microcytosis with elevated HbA2 (typically >3.5%) and absent (beta0) or reduced (beta+) HbA, whereas here MCV is normal, HbA2 is 1.9% and one parent has plain sickle trait."},
+    {"dx": "HbSC disease", "vs": "Has target cells and HbC crystals with a second variant peak in the C window on HPLC, not seen here."},
+    {"dx": "HbD-Punjab or HbG variant", "vs": "Co-migrates with HbS on alkaline electrophoresis but elutes in a different HPLC window, gives a negative sickling test, and does not form sickle cells."},
+    {"dx": "Sickle cell trait", "vs": "HbA exceeds HbS (about 55-60% vs 35-40%) with no sickle cells on the smear, as in the father, whereas the patient has HbS >70% with sickled cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; wet prep; HPLC; electrophoresis",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: sickle cells and boat-shaped cells with anisopoikilocytosis",
+    "Sodium metabisulfite sickling test: numerous sickled and holly-leaf red cells",
+    "Patient HPLC: S-window 71.8%, HbF 16.1%, HbA0 8.5%, HbA2 1.9%",
+    "Alkaline cellulose acetate electrophoresis: prominent band in S/D/G region (arrow)",
+    "Father HPLC: HbA 57.1% and S-window 32.9%, sickle cell trait"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61421",
+  "recognize_zh": "睪丸腫瘤由瀰漫片狀的中大型母細胞樣淋巴細胞構成（A、B、F、G），Ki-67 幾近全陽性（C、H），流式顯示 CD10+ B 細胞族群，FISH 見 MYC 分離訊號（1R1G1Y），支持高惡性度 B 細胞淋巴瘤合併 MYC 重組；BCL2 重組的 FISH 未在此圖呈現。",
+  "features": [
+    "Touch/cytology preparation (A): monotonous medium to large cells with round nuclei, fine chromatin and scant basophilic cytoplasm",
+    "Tissue (B, F, G): diffuse sheets of medium to large atypical lymphoid cells effacing testicular parenchyma, with brisk mitoses",
+    "Ki-67 (C, H): very high proliferation index, approaching 100%",
+    "Flow cytometry (D): 41% CD10-positive B-cell population across CD20 expression; (E) second plot shows a proliferation/DNA parameter",
+    "FISH (I): MYC break-apart probe with 1R1G1Y pattern indicating MYC rearrangement"
+  ],
+  "describe_en": "Composite figure: a cytologic preparation and testicular sections show diffuse sheets of monotonous medium to large lymphoid cells with fine chromatin, scant cytoplasm and numerous mitoses. Ki-67 labels nearly all tumor cells. Flow cytometry identifies a CD10-positive B-cell population, and MYC break-apart FISH shows a 1 red/1 green/1 fusion pattern consistent with MYC rearrangement. BCL2 and BCL6 FISH results are not depicted in this figure. In the context of prior follicular lymphoma and the stated double-hit status, findings are consistent with high-grade B-cell lymphoma with MYC and BCL2 rearrangements.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is BCL2-negative with MYC as the sole rearrangement (no BCL2 break), whereas double-hit lymphoma carries BCL2 rearrangement and often arises from follicular lymphoma."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL NOS lacks concurrent MYC and BCL2 rearrangements, which only FISH can separate."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "Lymphoblasts express TdT and often CD34 and lack surface immunoglobulin, unlike mature CD10+ germinal center B cells."},
+    {"dx": "Seminoma", "vs": "Seminoma cells have clear cytoplasm with lymphocyte-rich fibrous septa and are OCT3/4, SALL4 and CD117-positive but CD20/CD45-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: Ki-67; flow; FISH: MYC break-apart",
+  "match": "consistent",
+  "high_yield": false
+}

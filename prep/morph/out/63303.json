@@ -1,0 +1,21 @@
+{
+  "id": "63303",
+  "recognize_zh": "三格序列圖顯示骨髓巨噬細胞以偽足（pseudopodia）接觸造血細胞（A）、偽足包覆該細胞（B）、最後將其吞入胞質形成吞噬體（C），依序呈現噬血現象（hemophagocytosis）的不同階段。",
+  "features": [
+    "Macrophages with abundant pale grey-blue cytoplasm, irregular cytoplasmic extensions and round nuclei with fine reticular chromatin",
+    "Panel A: a round hematopoietic cell with dense chromatin abutting a cytoplasmic projection (pseudopodium) of the macrophage",
+    "Panel B: a hematopoietic cell partially enveloped by macrophage cytoplasm, nestled against the macrophage nucleus",
+    "Panel C: an ingested cell within macrophage cytoplasm surrounded by a phagosome, with adjacent attached hematopoietic cells",
+    "Background crenated red cells (echinocytes, likely drying artifact) and scattered myeloid precursors"
+  ],
+  "describe_en": "Bone marrow aspirate smear at 100x (panels A-C) illustrates sequential stages of hemophagocytosis by marrow macrophages. In panel A, a hematopoietic cell is attached to a pseudopodial extension of a macrophage; in panel B, macrophage cytoplasm partially surrounds an adherent hematopoietic cell; and in panel C, an ingested cell, reported as a plasma cell, lies within a cytoplasmic phagosome, although its lineage cannot be confirmed with certainty at this resolution. The macrophage nuclei are bland. Background erythrocytes show crenation consistent with artifact. Findings demonstrate active hemophagocytosis, which should be interpreted with clinical and laboratory criteria for hemophagocytic lymphohistiocytosis.",
+  "ddx": [
+    {"dx": "Erythroblastic island", "vs": "Erythroblasts in an island are arranged around the outside of the macrophage without enclosure in phagosomes."},
+    {"dx": "Smear overlap artifact", "vs": "Superimposed cells lack cytoplasmic envelopment or a phagosome halo and lie in a different focal plane."},
+    {"dx": "Emperipolesis by megakaryocytes", "vs": "In emperipolesis intact cells pass through megakaryocyte cytoplasm, which is granular with a lobulated nucleus, rather than a bland histiocyte."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

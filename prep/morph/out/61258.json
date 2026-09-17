@@ -1,0 +1,22 @@
+{
+  "id": "61258",
+  "recognize_zh": "周邊血中可見三顆漿細胞：核偏心、染色質粗塊狀，細胞質深藍並有核旁淡染區（hof）；背景紅血球像疊錢幣般串成長鏈（rouleaux）。周邊血出現循環漿細胞加上 rouleaux，是漿細胞白血病的線索。",
+  "features": [
+    "Three circulating plasma cells of variable size, the largest at upper left",
+    "Eccentric round nuclei with coarse clumped chromatin; small nucleolus-like dot in some nuclei",
+    "Moderate to abundant deeply basophilic cytoplasm with a pale perinuclear hof",
+    "Prominent red cell rouleaux forming stacked chains across the thicker area of the smear",
+    "Scattered platelets; no other leukocytes in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows several circulating plasma cells with eccentric nuclei, coarsely clumped chromatin and deeply basophilic cytoplasm with perinuclear clearing; one cell is larger than the others. The red cells show prominent rouleaux formation, reflecting increased plasma paraprotein. No blasts or other abnormal leukocytes are present in this field. An absolute plasma cell count (or plasma cells at least 5% of leukocytes) and flow cytometry with light-chain restriction are required for the diagnosis. Findings are consistent with plasma cell leukemia.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis (e.g., infection, serum sickness, viral illness)", "vs": "Circulating plasma cells are few, polyclonal on flow cytometry and usually not accompanied by marked rouleaux."},
+    {"dx": "Lymphoplasmacytic lymphoma/Waldenstrom macroglobulinemia", "vs": "Shows a spectrum of small lymphocytes and plasmacytoid lymphocytes with IgM paraprotein and MYD88 L265P rather than a population of mature plasma cells."},
+    {"dx": "Reactive lymphocytes with basophilic cytoplasm", "vs": "Have central or slightly eccentric nuclei without clock-face chromatin or a perinuclear hof, with cytoplasm hugging adjacent red cells."},
+    {"dx": "Rouleaux artifact in thick smear areas", "vs": "Artifactual stacking disappears in the thin feathered edge, whereas true rouleaux persists and correlates with high ESR and paraprotein."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

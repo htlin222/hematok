@@ -1,0 +1,44 @@
+{
+  "id": "116",
+  "recognize_zh": "小腸壁固有肌層被一片單一形態的漿細胞樣腫瘤細胞（偏心核、豐富嗜雙性細胞質、明顯核仁）瀰漫浸潤；原位雜交顯示腫瘤呈單一輕鏈限制（light chain restriction），而大多數腫瘤細胞 CD20 陰性，加上器官移植病史，指向漿細胞瘤樣單形性 PTLD（plasmacytoma-like PTLD）。",
+  "features": [
+    "Diffuse, sheet-like infiltrate of monotonous medium-to-large plasmacytoid cells effacing the small bowel wall and dissecting the muscularis propria, with overlying mucosa spared",
+    "Eccentric round nuclei with vesicular to clock-face chromatin and prominent central nucleoli; occasional binucleate and enlarged atypical plasma cells",
+    "Moderate to abundant amphophilic cytoplasm with perinuclear hof; touch/cytology preparation shows discohesive cells with deep blue cytoplasm",
+    "IHC: rare scattered CD20-type membranous positivity only, strong cytoplasmic staining in most tumor cells with a plasma-cell marker, and a nuclear/cytoplasmic marker positive in the majority",
+    "Chromogenic ISH: tumor strongly positive for one light chain and negative for the other, while mucosal plasma cells stain for both (light chain restriction)",
+    "PET/CT: FDG-avid mediastinal/paratracheal mass and a focal avid abdominal lesion"
+  ],
+  "describe_en": "Sections of small bowel show a transmural, diffuse infiltrate of atypical plasmacytoid cells that effaces the submucosa and splits the muscularis propria, while the overlying villous mucosa is preserved. At high power the cells are monotonous, medium to large, with eccentric nuclei, vesicular chromatin, prominent nucleoli and moderate amphophilic cytoplasm; no significant polymorphous background of small lymphocytes, histiocytes or eosinophils is seen. Immunostains show only rare CD20-type positive cells, with strong cytoplasmic plasma-cell marker expression and a nuclear marker positive in most tumor cells; in situ hybridization demonstrates monotypic light chain expression in the tumor, contrasted with polytypic mucosal plasma cells. Stain identities are inferred from the pattern because the panels are unlabeled, and EBV status (EBER) cannot be confirmed with certainty from these images. In a lung transplant recipient with FDG-avid mediastinal and abdominal lesions, findings are consistent with monomorphic post-transplant lymphoproliferative disorder, plasmacytoma-like type (EBV-positive per case history).",
+  "ddx": [
+    {"dx": "Polymorphic PTLD", "vs": "Polymorphic PTLD shows a mixed population of small lymphocytes, immunoblasts and plasma cells, often polytypic, whereas this lesion is a monotonous sheet of plasmacytoid cells with light chain restriction."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma has immunoblastic/plasmablastic cells with a very high Ki-67 and frequent starry-sky pattern, whereas here most cells retain mature-to-intermediate plasma-cell morphology with clock-face chromatin; distinction may need Ki-67 and clinical context."},
+    {"dx": "Plasma cell myeloma with extramedullary involvement", "vs": "Myeloma requires marrow involvement and systemic features (M-protein, CRAB), which must be excluded clinically since extramedullary morphology is identical."},
+    {"dx": "DLBCL with plasmacytic differentiation (monomorphic PTLD)", "vs": "DLBCL retains CD20/PAX5 expression in sheets of large centroblastic or immunoblastic cells, whereas this tumor is largely CD20-negative with plasma-cell phenotype."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, Diff-Quik-type cytology, IHC, ISH; PET/CT",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "WHO classification table of PTLD highlighting the monomorphic B-cell plasmacytoma subtype",
+    "Axial PET image of the abdomen showing a focal FDG-avid lesion (arrow)",
+    "Axial PET image of the chest showing a large intensely FDG-avid anterior mediastinal/right paratracheal mass",
+    "Axial chest CT (lung window) showing the corresponding soft-tissue mass (arrow) with post-transplant lung changes",
+    "Low power H&E: small bowel with preserved mucosa and a diffuse infiltrate beneath the muscularis",
+    "Medium power H&E: sheets of atypical cells dissecting the muscularis propria",
+    "High power H&E: monotonous plasmacytoid cells with eccentric nuclei infiltrating between smooth muscle bundles",
+    "Very high power H&E: atypical plasma cells with vesicular chromatin, prominent nucleoli and amphophilic cytoplasm, including enlarged forms",
+    "Cytology preparation (Romanowsky-type stain): discohesive plasmacytoid cells with round eccentric nuclei and blue cytoplasm",
+    "IHC (likely CD20): tumor cells negative with only rare scattered positive cells",
+    "IHC with membranous/cytoplasmic staining of a subset of cells, likely reactive T cells or histiocytes, tumor cells largely negative",
+    "IHC with strong cytoplasmic staining in most tumor cells, consistent with a plasma-cell or cytoplasmic immunoglobulin marker",
+    "IHC with nuclear staining in the majority of tumor cells, consistent with a plasma-cell transcription factor such as MUM1",
+    "IHC with weak-to-moderate cytoplasmic staining in a subset of tumor cells",
+    "IHC with rare scattered positive cells and vessels; tumor cells negative",
+    "Whole-slide scan of the resected bowel mass showing a large solid tumor nodule",
+    "High power chromogenic ISH-type preparation with dark nuclear signal in many tumor cells, possibly EBER",
+    "Low power light chain ISH: tumor and mucosal plasma cells strongly positive",
+    "Low power ISH for the other light chain: mucosal plasma cells positive but tumor negative, indicating light chain restriction"
+  ]
+}

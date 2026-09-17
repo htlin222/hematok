@@ -1,0 +1,22 @@
+{
+  "id": "65892",
+  "recognize_zh": "骨髓抹片中充滿小到中型、核質比高的母細胞，細胞質少呈淡藍色、無顆粒，部分細胞質拉出一端尾巴呈手鏡形（hand-mirror）；形態上只能判定為淋巴母細胞樣，ETP-ALL 的診斷需要流式細胞儀。",
+  "features": [
+    "Monotonous small-to-medium blasts, about 1.5-2 times the diameter of red cells, with high N:C ratio",
+    "Round to slightly irregular nuclei with finely dispersed to moderately condensed chromatin and inconspicuous nucleoli",
+    "Scant pale-to-moderately basophilic agranular cytoplasm, focally polarized into a tail (hand-mirror forms)",
+    "No Auer rods or cytoplasmic granules in the blasts",
+    "Occasional mature small lymphocyte for size comparison; residual normal hematopoiesis is sparse"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a sheet-like infiltrate of small-to-medium sized blasts with high nuclear-to-cytoplasmic ratio, round to slightly irregular nuclei, fine chromatin and inconspicuous nucleoli. The cytoplasm is scant, lightly basophilic and agranular, and several blasts display a polarized cytoplasmic tail imparting hand-mirror morphology. Auer rods are not identified. Findings are consistent with a lymphoblastic leukemia; the early T-cell precursor subtype cannot be distinguished morphologically and requires flow cytometric immunophenotyping.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts look identical including hand-mirror forms and are separated only by CD19/CD79a expression without cytoplasmic CD3."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 blasts may be agranular and similar in size but are cCD3 negative on flow, while ETP-ALL shares CD34/CD117/CD13 and needs cCD3 to separate."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL cells are TdT negative, CD5 and cyclin D1 positive with a mature B-cell phenotype."},
+    {"dx": "Hematogones", "vs": "Hematogones have smoother condensed chromatin, are present in lower numbers and show an orderly maturation continuum on flow."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

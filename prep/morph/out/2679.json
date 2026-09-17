@@ -1,0 +1,21 @@
+{
+  "id": "2679",
+  "recognize_zh": "淋巴球核呈腎形凹陷，箭頭處凹陷內的細胞質有一小段透明、不著色的棒狀結構，這是結晶包涵體的負像；核染色質粗、細胞質少，符合惡性成熟淋巴球。",
+  "features": [
+    "Lymphocyte with high N:C ratio and indented nucleus",
+    "Coarse chromatin with irregular pale areas; nucleoli not evident",
+    "Scant pale cytoplasm with a thin rim",
+    "Short colorless crystalline rod within the nuclear indentation (arrow)",
+    "Normochromic red cells; low-resolution enlarged image"
+  ],
+  "describe_en": "High-power, digitally enlarged view of a peripheral blood smear shows a lymphocyte with a high N:C ratio, an indented nucleus with coarse chromatin and scant pale cytoplasm. A short, unstained, rod-like crystalline inclusion lies within the cytoplasm in the nuclear indentation (arrow). No granules or Auer rods are identified. Findings are consistent with a crystalline inclusion in a malignant lymphocyte, as seen in CLL and related B-cell neoplasms; image resolution limits evaluation of chromatin detail.",
+  "ddx": [
+    {"dx": "Auer rod in a blast", "vs": "Auer rods take a pink-purple stain and occur in blasts with open chromatin and nucleoli, unlike this clear inclusion in a mature cell."},
+    {"dx": "Smear artifact", "vs": "Artifacts extend beyond the cell or change shape across fields, whereas true crystals are intracytoplasmic with straight edges."},
+    {"dx": "Lymphoplasmacytic lymphoma cell with Dutcher body", "vs": "Dutcher bodies are round PAS-positive pale inclusions overlying the nucleus rather than straight colorless rods in the cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

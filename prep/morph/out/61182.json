@@ -1,0 +1,23 @@
+{
+  "id": "61182",
+  "recognize_zh": "複合圖：B 格血液抹片為染色質呈塊狀「足球樣」（soccer ball）的小淋巴球（CLL）；E、F 格則出現大型細胞、細胞核中央有空洞或凹陷呈「甜甜圈」（donut）狀，流式顯示 kappa 單株限制，代表 Richter 轉化為大 B 細胞淋巴瘤。",
+  "features": [
+    "Panel B: small mature lymphocytes with coarse, block-like clumped chromatin (soccer-ball pattern) and scant cytoplasm, typical of CLL",
+    "Panel E (H&E, high power): sheets of large cells, nuclei 3-4 times a small lymphocyte, with ring-shaped or doughnut nuclei showing central clearing/holes and conspicuous nucleoli",
+    "Panel F (smear): large atypical lymphoid cells with a central nuclear hole/inclusion and one with abundant cytoplasmic vacuoles",
+    "Panel A: dense diffuse infiltrate of intermediate to large lymphoid cells",
+    "Flow cytometry: CD5+ population with partial CD20 (49.1% CD20+) and kappa light chain restriction (99.6% kappa)",
+    "Panels G/H: strong membranous and cytoplasmic IHC staining in the large cell sheets (specific antigen not labeled)"
+  ],
+  "describe_en": "This composite figure shows peripheral blood with small lymphocytes having coarsely clumped soccer-ball chromatin, consistent with the underlying chronic lymphocytic leukemia. Tissue sections and smears show a diffuse proliferation of large atypical lymphoid cells with abundant cytoplasm, prominent nucleoli, and distinctive ring-shaped (doughnut) nuclei with central nuclear holes. Flow cytometry demonstrates a CD5-positive B-cell population with partial CD20 expression and kappa light-chain restriction, and immunohistochemistry shows strong diffuse staining of the large cells (marker not labeled in the figure). Findings are consistent with Richter transformation of CLL to a diffuse large B-cell lymphoma with unusual doughnut-cell morphology; clonal relatedness requires IGHV comparison.",
+  "ddx": [
+    {"dx": "Prolymphocytic progression of CLL", "vs": "Prolymphocytes are medium-sized with a single central nucleolus and condensed chromatin but do not form sheets of large cells with ring-shaped nuclei."},
+    {"dx": "Clonally unrelated de novo DLBCL", "vs": "Morphology is identical; IGHV rearrangement comparison with the CLL clone determines clonal relationship."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL doughnut cells are T-cell/null, CD30 and often ALK positive and lack surface light-chain restriction, unlike this kappa-restricted B-cell process."},
+    {"dx": "Classic Hodgkin-variant Richter transformation", "vs": "Hodgkin variant shows scattered CD30+/CD15+ Reed-Sternberg cells in a mixed inflammatory background rather than confluent sheets of large B cells."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa, H&E, IHC, flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

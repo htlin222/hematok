@@ -1,0 +1,22 @@
+{
+  "id": "20993",
+  "recognize_zh": "血液抹片低倍（A–C）可見成團的腫瘤細胞群，乍看像循環中的癌細胞團（carcinocythemia）；放大（D、F）其實是核偏位、細胞質深藍的漿細胞聚集，骨髓抹片與切片（E、G、H）更見瀰漫性漿細胞浸潤，證實為漿細胞白血病。",
+  "features": [
+    "Panels A-C: low-power blood smear with discrete clumps of nucleated cells among red cells, mimicking tumor cell clusters",
+    "Panel D: clump composed of cells with eccentric round nuclei, clumped chromatin and deep blue cytoplasm",
+    "Panels E-F: marrow aspirate with sheets and aggregates of plasma cells with perinuclear hof",
+    "Panels G-H: hypercellular biopsy with diffuse sheets of plasma cells replacing normal marrow",
+    "No glandular or keratinizing features in the clusters"
+  ],
+  "describe_en": "Low-power views of the peripheral blood smear show tight clusters of nucleated cells mimicking circulating carcinoma cell aggregates. On higher power the clustered cells are plasma cells with eccentric nuclei, coarse chromatin and deeply basophilic cytoplasm. The bone marrow aspirate contains numerous plasma cells in aggregates, and the trephine biopsy is hypercellular with diffuse sheets of plasma cells. Findings are consistent with plasma cell leukemia with clumping of circulating plasma cells masquerading as carcinocythemia; immunophenotyping (CD138, CD38, light chain restriction, cytokeratin negativity) confirms the lineage.",
+  "ddx": [
+    {"dx": "Carcinocythemia (circulating carcinoma cells)", "vs": "Carcinoma cell clusters show nuclear molding and cohesive epithelial borders and are cytokeratin-positive and CD138/CD45 variable, without a perinuclear hof."},
+    {"dx": "Circulating lymphoma cells (e.g., plasmablastic or large B-cell lymphoma)", "vs": "Lymphoma cells are usually discohesive and express B-cell markers or plasmablastic features with a high Ki-67."},
+    {"dx": "EDTA-induced leukocyte or platelet clumping", "vs": "Artifactual clumps consist of normal neutrophils or platelets and disappear in citrate-anticoagulated blood."},
+    {"dx": "Metastatic small round cell tumor", "vs": "Small round cell tumors have scant cytoplasm and lack the eccentric nucleus and hof of plasma cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E (G-H)",
+  "match": "consistent",
+  "high_yield": false
+}

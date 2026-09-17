@@ -1,0 +1,22 @@
+{
+  "id": "63164",
+  "recognize_zh": "拼圖顯示骨髓瘤少見形態：1A–C 漿細胞胞質內有成束針狀、類似 Auer rod 的結晶；2A 周邊血為類淋巴漿細胞樣小細胞，2B–C 骨髓切片實性增生的中型非典型細胞；3A 周邊血漿細胞表面有毛狀突起（inset），3B–C 為瀰漫間質浸潤的小到中型漿細胞樣細胞。",
+  "features": [
+    "1A-C (aspirate): plasma cells with eccentric nuclei, perinuclear hof and bundles of slender needle-like, Auer rod-like cytoplasmic crystalline inclusions",
+    "2A (PB): small lymphoplasmacytoid cells with condensed chromatin and scant basophilic cytoplasm",
+    "2B-C (trephine, H&E): solidly packed hypercellular marrow with medium-sized atypical cells having irregular nuclei, coarse chromatin and scant cytoplasm",
+    "3A (PB): circulating cells with irregular hair-like cytoplasmic projections (inset), mimicking hairy cells",
+    "3B-C (trephine, H&E): diffuse interstitial infiltrate of small to medium plasmacytoid cells with high N:C ratio, with a residual megakaryocyte"
+  ],
+  "describe_en": "Composite figure of three plasma cell myeloma cases with unusual morphology. In case 1, the bone marrow aspirate shows atypical plasma cells containing bundles of needle-like crystalline cytoplasmic inclusions resembling Auer rods. In case 2, the peripheral blood shows small lymphoplasmacytoid cells and the trephine biopsy shows solid sheets of medium-sized atypical cells with irregular nuclei and scant cytoplasm. In case 3, circulating plasma cells show hair-like cytoplasmic projections, and the trephine shows a diffuse interstitial infiltrate of small to medium plasmacytoid cells. Findings are consistent with morphologic variants of plasma cell myeloma that can mimic acute myeloid leukemia, lymphoplasmacytic lymphoma and hairy cell leukemia; CD138, light chain and flow cytometric studies are required.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with Auer rods (for case 1)", "vs": "AML blasts with Auer rods have fine chromatin and MPO positivity, whereas these crystal-containing cells have clock-face chromatin, a hof and CD138/light chain restriction."},
+    {"dx": "Lymphoplasmacytic lymphoma (for case 2)", "vs": "LPL contains a spectrum of small lymphocytes, plasmacytoid cells and plasma cells with CD19/CD20 positive B cells and MYD88 L265P, whereas myeloma cells are CD19-negative, CD20 usually negative and MYD88 wild-type."},
+    {"dx": "Hairy cell leukemia (for case 3)", "vs": "Hairy cells are CD20, CD11c, CD25, CD103 and annexin A1 positive with BRAF V600E, whereas hairy plasma cells are CD138 positive with cytoplasmic light chain restriction."},
+    {"dx": "Mantle cell or other small B-cell lymphoma", "vs": "These express pan-B markers (CD19/CD20) and surface light chains, and mantle cell lymphoma shows cyclin D1 with SOX11, while plasma cell myeloma lacks pan-B markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E",
+  "match": "consistent",
+  "high_yield": false
+}

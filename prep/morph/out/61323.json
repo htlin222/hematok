@@ -1,0 +1,22 @@
+{
+  "id": "61323",
+  "recognize_zh": "紅血球之間可見數團由數十至上百顆紫紅色顆粒狀血小板緊密聚集而成的大團塊，這種血小板凝集會讓自動血球計數機把血小板低估，形成偽性血小板低下（常見於 EDTA 抗凝管）。",
+  "features": [
+    "Multiple large aggregates of densely packed platelets between red cells",
+    "Individual platelets within clumps are small, granular and purple with preserved outlines",
+    "Red cells overlap and sit on top of the clumps; morphology otherwise normocytic without schistocytes",
+    "Few free-lying single platelets outside the aggregates",
+    "Scattered dark stain precipitate over some red cells (artifact)"
+  ],
+  "describe_en": "Peripheral blood smear shows several large platelet aggregates, each composed of numerous granular platelets clumped together between red cells. Free single platelets are sparse, and red cells show no significant schistocytes. The dark particles overlying occasional red cells are consistent with stain precipitate rather than inclusions. Platelet clumping of this degree causes spuriously low automated platelet counts; findings are consistent with pseudothrombocytopenia, most commonly EDTA-dependent, and a repeat count in citrate or heparin tubes with smear review is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia", "vs": "Shows uniformly few platelets across the smear, including the feathered edge, without clumps."},
+    {"dx": "Platelet satellitism", "vs": "Platelets rosette around neutrophils rather than forming free-standing aggregates, though both are EDTA-related artifacts."},
+    {"dx": "Clotted sample / fibrin strands", "vs": "Platelet clumps are trapped within fibrin threads, often with a falsely low count of other lineages as well; the tube shows a visible clot."},
+    {"dx": "Giant platelets or megakaryocyte fragments", "vs": "Single large platelet or cytoplasmic fragment rather than an aggregate of many normal-sized platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

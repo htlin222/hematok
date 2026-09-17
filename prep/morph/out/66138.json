@@ -1,0 +1,22 @@
+{
+  "id": "66138",
+  "recognize_zh": "整個視野白血球極多，從前期細胞、骨髓球、後骨髓球到帶狀與分葉核中性球都有，右上還有一顆嗜鹼性球，呈 CML 的連續成熟光譜；上方箭頭細胞大、細胞質豐富且含嗜天青顆粒，下方箭頭細胞核偏心、細胞質粉紅，為骨髓球。注意上方細胞帶明顯顆粒，型態上較像前骨髓球而非典型骨髓母細胞。",
+  "features": [
+    "Marked leukocytosis with a full spectrum of granulocytic maturation: bands and segmented neutrophils, metamyelocytes, myelocytes and early precursors",
+    "Upper arrowed cell: large, moderately abundant basophilic cytoplasm with azurophilic granules, oval nucleus with relatively fine chromatin",
+    "Lower arrowed cell: smaller cell with eccentric oval nucleus, more condensed chromatin and pinkish granular cytoplasm (myelocyte)",
+    "Basophil with coarse dark granules at upper right; a small lymphocyte at right",
+    "Normocytic red cells without significant poikilocytosis; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed of granulocytes at all stages of maturation, including early precursors, myelocytes, metamyelocytes, band and segmented neutrophils, with an accompanying basophil. The upper arrowed cell is a large immature granulocyte with an oval nucleus, relatively fine chromatin and moderately abundant basophilic cytoplasm containing azurophilic granules; its granularity favors a promyelocyte (or a granular blast) over an agranular myeloblast. The lower arrowed cell is a myelocyte with an eccentric nucleus, condensed chromatin and pink secondary granulation. Findings are consistent with chronic myeloid leukemia; blast and basophil percentages should be enumerated by manual differential.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "Leukemoid reactions show predominantly mature neutrophils with toxic granulation and Döhle bodies, few myelocytes, no basophilia and BCR::ABL1 negativity."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML shows striking dysgranulopoiesis (hypogranular, pseudo-Pelger cells) with little basophilia, whereas granulocytes here are well granulated with a basophil present."},
+    {"dx": "Leukoerythroblastic reaction (marrow infiltration or myelofibrosis)", "vs": "Leukoerythroblastosis has nucleated red cells and teardrop cells with a lower WBC and fewer myelocytes, unlike the dense granulocytic spectrum here."},
+    {"dx": "CML in blast phase", "vs": "Requires ≥20% blasts or extramedullary blast proliferation, which is not evident in this field where maturing forms dominate."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

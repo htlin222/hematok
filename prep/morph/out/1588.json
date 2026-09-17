@@ -1,0 +1,21 @@
+{
+  "id": "1588",
+  "recognize_zh": "紅色顯色劑的免疫組織化學染色，大量小型、核略不規則的淋巴細胞呈強陽性並聚成模糊結節與片狀，夾雜陰性細胞與血管；抗原未標示，需配合 H&E 與其他染色（如 BCL2、CD10）才能支持濾泡性淋巴瘤。",
+  "features": [
+    "Dense lymphoid infiltrate of small cells with round to slightly irregular nuclei",
+    "Strong red-brown membranous/cytoplasmic staining in a large proportion of cells",
+    "Positive cells arranged in vague nodular aggregates and sheets with interspersed negative cells",
+    "Scattered negative larger cells and small vessels",
+    "Specific antigen not identified in the image; follicular architecture not clearly evaluable at this magnification"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen) of a lymphoid infiltrate shows a dense population of small cells with round to slightly irregular nuclei, a large proportion of which show strong membranous/cytoplasmic positivity arranged in vague nodular aggregates and sheets, with interspersed negative cells and vessels. The antigen is not indicated and the follicular architecture is not clearly evaluable in this field, so the image alone does not establish the diagnosis. In the stated context, findings may represent a B-cell or BCL2 stain in follicular lymphoma, grade 1-2, but correlation with H&E and a full panel (CD20, CD10, BCL6, BCL2, CD21) is required.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers are BCL2 negative with tingible body macrophages and polarization, whereas FL follicle centers co-express BCL2 with CD10/BCL6."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL can be vaguely nodular but its cells are CD5+, cyclin D1+ and SOX11+ and CD10 negative."},
+    {"dx": "Nodal marginal zone lymphoma", "vs": "NMZL cells are CD10 and BCL6 negative with monocytoid cytology and may colonize residual follicles, unlike the germinal center phenotype of FL."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC (red chromogen; antigen not specified)",
+  "match": "partial",
+  "high_yield": false
+}

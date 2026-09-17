@@ -1,0 +1,22 @@
+{
+  "id": "62357",
+  "recognize_zh": "組織內為一致性、密集排列的中型細胞，核質比高、核膜不規則（部分呈扭曲狀）、染色質細緻，並有散在凋亡小體與核分裂，形成典型的淋巴母細胞淋巴瘤外觀。",
+  "features": [
+    "Diffuse sheets of monotonous medium-sized cells with very high N:C ratio and scant cytoplasm",
+    "Oval to irregular, focally convoluted nuclei with finely dispersed to vesicular chromatin",
+    "Inconspicuous to occasionally visible small nucleoli",
+    "Scattered apoptotic bodies and mitotic figures, some within clear-halo macrophage spaces",
+    "Delicate fibrovascular septa between tumor cells; no follicular architecture"
+  ],
+  "describe_en": "H&E section shows a diffuse, highly cellular infiltrate of monotonous medium-sized cells with scant cytoplasm and high N:C ratio. Nuclei are oval to irregular with finely dispersed chromatin, occasional small nucleoli, and irregular nuclear membranes. Numerous apoptotic bodies and mitotic figures are present, and no follicular or epithelial structures are seen in this field. The morphology is that of a lymphoblastic neoplasm; with CD3 and TdT positivity, findings are consistent with T-lymphoblastic leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells have round nuclei with multiple small nucleoli, basophilic cytoplasm, a prominent starry-sky pattern, and are TdT-negative."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is CD20+ cyclin D1+ SOX11+ and TdT-negative in most cases."},
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma may show eosinophilic myelocytes and expresses MPO, lysozyme or CD117 rather than CD3."},
+    {"dx": "Small round blue cell tumors (e.g., Ewing sarcoma)", "vs": "Ewing sarcoma is CD99+ NKX2.2+ with EWSR1 rearrangement and is negative for CD45, CD3 and TdT (though CD99 is also expressed in LBL)."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

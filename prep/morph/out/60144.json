@@ -1,0 +1,21 @@
+{
+  "id": "60144",
+  "recognize_zh": "骨髓抹片中母細胞大量取代正常造血，且呈兩種族群：中大型、核仁明顯、細胞質中等偏嗜鹼性的母細胞，與較小、核質比高、核仁不明顯的母細胞混雜，提示混合表型急性白血病（MPAL），需以流式確認。",
+  "features": [
+    "Marked increase in blasts replacing normal hematopoiesis",
+    "Dimorphic blast population: intermediate-to-large blasts with prominent nucleoli and moderate basophilic cytoplasm",
+    "Second population of smaller blasts with high N:C ratio, scant cytoplasm and indistinct nucleoli",
+    "Fine, dispersed chromatin in both populations; no Auer rods evident",
+    "Residual megakaryocyte and a few maturing granulocytes and erythroid precursors"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular and shows a marked increase in blasts with relatively little residual normal hematopoiesis. The blasts form two morphologic populations: intermediate to large cells with prominent nucleoli and moderate basophilic cytoplasm, and smaller cells with scant cytoplasm and indistinct nucleoli. Auer rods are not identified in this field. A residual megakaryocyte and occasional maturing myeloid cells are present. Findings are consistent with acute leukemia with a dimorphic blast population, and in conjunction with flow cytometry are consistent with mixed phenotype acute leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "AML may show myeloid-looking blasts, but flow cytometry lacks lineage-defining lymphoid markers (cCD3 or strong CD19 with CD79a/CD22/CD10)."},
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "ALL lacks MPO and monocytic differentiation markers, and a coexisting large nucleolated myeloid blast population argues against it."},
+    {"dx": "Acute leukemia of ambiguous lineage, undifferentiated", "vs": "AUL lacks lineage-specific markers altogether, whereas MPAL meets criteria for two lineages by flow or cytochemistry."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

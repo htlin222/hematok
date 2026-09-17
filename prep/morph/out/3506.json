@@ -1,0 +1,21 @@
+{
+  "id": "3506",
+  "recognize_zh": "紅血球堆成不規則、立體的葡萄串狀大團塊，並非直線錢串狀排列，旁邊還有散在的鋸齒狀紅血球（echinocytes）與一個分葉核嗜中性球，典型的紅血球凝集表現。",
+  "features": [
+    "Large irregular three-dimensional clusters of overlapping red cells in a grape-like pattern",
+    "Aggregates are non-linear, distinguishing agglutination from rouleaux",
+    "Scattered crenated red cells (echinocytes), likely artifactual",
+    "Single segmented neutrophil and a few platelets",
+    "Individual red cells between clumps are largely normocytic"
+  ],
+  "describe_en": "Peripheral blood smear shows prominent red cell agglutination, with large irregular, three-dimensional clusters of erythrocytes rather than linear rouleaux. Scattered crenated red cells are present, likely a drying artifact. A segmented neutrophil and scattered platelets are seen. Findings are consistent with red cell agglutination, as seen in cold agglutinin-mediated autoimmune hemolytic anemia; correlation with a warmed specimen, DAT (C3d), and cold agglutinin titer is recommended.",
+  "ddx": [
+    {"dx": "Rouleaux", "vs": "Rouleaux are linear coin-stack arrays and disperse with saline replacement, whereas agglutinates are irregular clumps."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA shows spherocytes with IgG-positive DAT and does not typically form large agglutinates."},
+    {"dx": "EDTA or drying artifact", "vs": "Artifactual clumping is limited to thick areas and lacks the persistent grape-like aggregates at the thin edge."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

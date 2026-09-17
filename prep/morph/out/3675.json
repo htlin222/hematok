@@ -1,0 +1,21 @@
+{
+  "id": "3675",
+  "recognize_zh": "細胞量豐富的骨髓抹片中，大多數細胞是核呈腎形、帶狀或分葉、細胞質淡粉色帶顆粒的顆粒球系，核圓而濃縮、細胞質灰藍的紅血球母細胞只佔少數，因此 M:E 比明顯升高。",
+  "features": [
+    "Cellular aspirate dominated by granulocytic precursors: myelocytes, metamyelocytes, bands and segmented neutrophils",
+    "Erythroid precursors with dense round nuclei are comparatively few, indicating an increased M:E ratio",
+    "Orderly granulocytic maturation with a full spectrum of stages",
+    "Occasional mitotic figure and scattered promyelocytes without an obvious blast excess",
+    "Fat vacuoles and interspersed red cells in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular field composed predominantly of granulocytic cells at all stages of maturation, with numerous myelocytes, metamyelocytes, bands and segmented neutrophils. Erythroid precursors are relatively sparse, yielding an increased myeloid-to-erythroid ratio. Maturation appears orderly, and blasts are not conspicuously increased in this field. Findings are consistent with an increased M:E ratio, which may reflect granulocytic hyperplasia (infection, inflammation, growth factor, CML) and/or erythroid hypoplasia, so correlation with the CBC, reticulocyte count and clinical history is needed.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia", "vs": "Shows granulocytic hyperplasia with a myelocyte peak, basophilia and dwarf megakaryocytes and requires BCR::ABL1 detection."},
+    {"dx": "Pure red cell aplasia", "vs": "Increases the M:E ratio by near-absence of erythroid precursors with normal granulocytic cellularity, requiring reticulocyte count and cellularity assessment to separate from granulocytic hyperplasia."},
+    {"dx": "Acute myeloid leukemia with maturation", "vs": "Has ≥20% myeloblasts, often with Auer rods and dysplasia, unlike this predominantly maturing population."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

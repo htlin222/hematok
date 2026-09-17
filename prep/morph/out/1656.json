@@ -1,0 +1,21 @@
+{
+  "id": "1656",
+  "recognize_zh": "骨髓抹片中綠色箭頭指向一團緊密重疊、深染、比周圍造血細胞大且形態不同的黏聚細胞團，細胞界線不清、核深黑，與散在的正常紅系與顆粒球前驅細胞明顯不同，提示外來（非造血）腫瘤細胞。",
+  "features": [
+    "Cohesive, three-dimensional cluster of large overlapping cells (green arrow) distinct from surrounding hematopoietic cells",
+    "Hyperchromatic, crowded nuclei with high N:C ratio and indistinct cell borders",
+    "Scant to moderate grey-blue cytoplasm at the edge of the cluster; adjacent clear vacuolated spaces",
+    "Background of normal maturing granulocytic precursors, erythroblasts, and lymphocytes",
+    "Detail of nucleoli and chromatin obscured by cluster thickness and image resolution"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive clump of large, overlapping, hyperchromatic cells (arrow) that differ in size, staining, and arrangement from the surrounding trilineage hematopoietic precursors. Cell borders are indistinct and nuclei are crowded, with a high N:C ratio. Nuclear detail is limited by the thickness of the cluster and image resolution. Findings are suggestive of metastatic non-hematopoietic tumor cells; correlation with the core biopsy and immunohistochemistry (e.g. cytokeratin, neuroendocrine or lineage-specific markers) is recommended.",
+  "ddx": [
+    {"dx": "Megakaryocyte or megakaryocyte nuclear fragments", "vs": "A megakaryocyte is a single cell with a lobulated nucleus and granular pink cytoplasm, not a cluster of many separate overlapping nuclei."},
+    {"dx": "Osteoblast clusters", "vs": "Osteoblasts have eccentric nuclei, abundant blue cytoplasm with a hof set away from the nucleus, and form loose rows rather than dense overlapping clumps."},
+    {"dx": "Clumped leukemic blasts or lymphoma cells", "vs": "Hematopoietic neoplastic cells are typically discohesive, whereas true cohesion with nuclear crowding favors epithelial or other non-hematopoietic tumor, confirmed by CD45-negative/cytokeratin-positive staining."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

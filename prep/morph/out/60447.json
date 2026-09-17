@@ -1,0 +1,21 @@
+{
+  "id": "60447",
+  "recognize_zh": "Factor VIII-related antigen（vWF）免疫染色把巨核細胞染成深棕色，可見其大小落差很大：除少數大型細胞（右下、中央）外，散布大量只比周圍造血細胞略大的單核小型巨核細胞（micromegakaryocytes），這種小而單核的型態即巨核細胞發育不良的線索。",
+  "features": [
+    "IHC for factor VIII-related antigen (von Willebrand factor) with strong brown cytoplasmic staining of megakaryocytes",
+    "Megakaryocytes markedly variable in size; numerous small mononuclear or hypolobated forms comparable to surrounding precursors",
+    "Few large megakaryocytes (lower right, center) with hypolobated nuclei",
+    "Megakaryocytes scattered singly and in loose small groups rather than tight clusters",
+    "Faint background staining of plasma/endothelium; negative hematopoietic background with interspersed adipocytes"
+  ],
+  "describe_en": "Immunohistochemical stain for factor VIII-related antigen (von Willebrand factor) on the bone marrow core biopsy highlights megakaryocytes with strong cytoplasmic staining. The megakaryocytes show a wide range in size, including numerous small mononuclear forms (micromegakaryocytes) and a few larger hypolobated cells, distributed singly and in small loose groups. Nonspecific faint staining of background plasma and stroma is present. Increased small mononuclear megakaryocytes are a feature of megakaryocytic dysplasia; in the setting of GATA2 deficiency with monosomy 7, findings are consistent with refractory cytopenia of childhood.",
+  "ddx": [
+    {"dx": "Normal megakaryopoiesis", "vs": "Normal marrow megakaryocytes are predominantly large with multilobated nuclei, with only rare small immature forms, unlike the many micromegakaryocytes highlighted here."},
+    {"dx": "Chronic myeloid leukemia (dwarf megakaryocytes)", "vs": "CML dwarf megakaryocytes occur in a markedly hypercellular granulocytic marrow with BCR::ABL1, not in a hypocellular pediatric marrow with monosomy 7."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL shows sheets or clusters of megakaryoblasts with blast-level immaturity and >=20% blasts, whereas here the small megakaryocytes are scattered with no blast increase."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: Factor VIII-related antigen (vWF)",
+  "match": "consistent",
+  "high_yield": false
+}

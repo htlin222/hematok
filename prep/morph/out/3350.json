@@ -1,0 +1,23 @@
+{
+  "id": "3350",
+  "recognize_zh": "免疫組織化學染色中，大型腫瘤細胞呈現強陽性的細胞膜染色，加上核旁點狀（Golgi dot）染色，背景小淋巴球與基質細胞為陰性；這種「膜＋高基氏體」的型態是 CD30 的典型表現，符合間變性大細胞淋巴瘤（ALCL）。",
+  "features": [
+    "Large tumor cells with abundant cytoplasm and vesicular, often indented nuclei",
+    "Strong brown membranous staining outlining individual large cells",
+    "Paranuclear dot-like (Golgi) accentuation in many positive cells",
+    "Granular cytoplasmic staining in a subset of cells",
+    "Background small lymphocytes, histiocytes and stromal cells are negative",
+    "Positive cells arranged in loose clusters and cords"
+  ],
+  "describe_en": "Immunohistochemical stain of a lymph node shows numerous large atypical cells arranged in clusters and cords. The large cells show strong membranous staining with paranuclear Golgi-zone dot accentuation and granular cytoplasmic positivity, whereas background small lymphocytes and spindle stromal cells are negative. The antibody is not labeled; this membrane-plus-Golgi pattern is characteristic of CD30. In the context of the H&E morphology, findings are consistent with anaplastic large cell lymphoma, and ALK immunostaining is needed to classify ALK-positive versus ALK-negative disease.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are also CD30+ with Golgi staining but are scattered singly in a mixed inflammatory background, usually CD15+ and PAX5 weak+, and ALK-negative."},
+    {"dx": "CD30-positive diffuse large B-cell lymphoma", "vs": "DLBCL expresses B-cell markers (CD20, PAX5), and CD30 is usually heterogeneous rather than strong and uniform."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with CD30 expression", "vs": "PTCL-NOS shows variable, weaker CD30 in a subset of cells rather than strong uniform staining in all large cells."},
+    {"dx": "Embryonal carcinoma or CD30+ metastatic tumor", "vs": "Carcinomas are cytokeratin-positive and negative for CD45 and T-cell markers."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30 (presumed; antibody not labeled)",
+  "match": "consistent",
+  "high_yield": true
+}

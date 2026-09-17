@@ -1,0 +1,22 @@
+{
+  "id": "65253",
+  "recognize_zh": "周邊血液抹片中一個核偏位、染色質粗塊狀的漿細胞，細胞質被大量圓形、淡藍灰色的球狀包涵體（Russell bodies）塞滿，呈葡萄串樣外觀，即 Mott 細胞。",
+  "features": [
+    "Single medium-sized plasma cell in peripheral blood, roughly 1.5-2 times the diameter of adjacent red cells",
+    "Round, somewhat eccentric nucleus with coarse, clumped chromatin; no nucleolus evident",
+    "Cytoplasm packed with numerous round, pale blue-gray globular inclusions of varying size (Russell bodies), imparting a grape-cluster (morular) appearance",
+    "Deeply basophilic cytoplasmic rim between the globules",
+    "Background red cells largely normocytic with an occasional crenated cell (echinocyte); scattered small platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a single circulating plasma cell with a round, slightly eccentric nucleus with clumped chromatin. The cytoplasm is distended by innumerable round, pale-staining globular inclusions consistent with Russell bodies, producing a grape-like (Mott cell) appearance. Background red cells show occasional echinocytes; no blasts or other abnormal cells are present in this field. Findings represent a Mott cell (plasma cell with Russell bodies); in this clinical setting it is suggestive of a reactive plasmacytosis associated with COVID-19, although correlation to exclude a plasma cell neoplasm is warranted.",
+  "ddx": [
+    {"dx": "Circulating myeloma cells / plasma cell leukemia", "vs": "Plasma cell neoplasms show numerous circulating plasma cells, often with nucleoli or immature chromatin and a monoclonal immunophenotype, rather than a rare isolated Mott cell in a reactive setting."},
+    {"dx": "Burkitt lymphoma or blast with cytoplasmic vacuoles", "vs": "Burkitt cells have sharply punched-out empty lipid vacuoles in deeply basophilic cytoplasm with finer chromatin and nucleoli, whereas Russell bodies are larger, rounded, pale-staining globules in a cell with mature clumped plasma cell chromatin."},
+    {"dx": "Plasmacytoid (reactive) lymphocyte", "vs": "Plasmacytoid lymphocytes have basophilic cytoplasm but lack the cytoplasm-filling globular immunoglobulin inclusions."},
+    {"dx": "Basophil", "vs": "Basophils have dark purple-black metachromatic granules overlying a lobulated nucleus rather than pale, uniformly rounded globules around a round plasma cell nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

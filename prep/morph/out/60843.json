@@ -1,0 +1,22 @@
+{
+  "id": "60843",
+  "recognize_zh": "腹水細胞離心抹片中多數嗜中性白血球的核失去分葉絲、濃縮成數個圓形深染的核碎塊，胞質淡染但仍保持完整細胞邊界，屬於凋亡（apoptotic）嗜中性球。",
+  "features": [
+    "Cytospin preparation of body fluid with numerous neutrophils on a clean background",
+    "Nuclei condensed into two to four smooth, round, dense, separated lobes lacking chromatin filaments (pyknotic/apoptotic)",
+    "Some cells show tiny dark karyorrhectic fragments",
+    "Cytoplasm preserved, pale-pink to grayish with intact cell membranes",
+    "Scattered macrophages/mesothelial-type cells with larger irregular nuclei and bluish vacuolated cytoplasm"
+  ],
+  "describe_en": "Cytocentrifuged ascitic fluid shows a neutrophil-predominant cellularity with scattered macrophages. Many neutrophils display apoptotic change, with nuclei condensed into round, smooth, homogeneously dark fragments that have lost their connecting filaments, while the cytoplasm and cell membranes remain intact. Some cells contain small karyorrhectic nuclear particles. No organisms or malignant cells are evident in this field. Findings are consistent with apoptotic (necrobiotic) neutrophils, an in vitro/in vivo ageing artifact that should not be mistaken for nucleated red cells or atypical cells.",
+  "ddx": [
+    {"dx": "Nucleated red blood cells", "vs": "NRBCs have a single round dense nucleus with hemoglobinized cytoplasm, whereas apoptotic neutrophils show multiple round nuclear fragments in granular neutrophil cytoplasm."},
+    {"dx": "LE cells", "vs": "An LE cell contains a large homogeneous glassy phagocytosed nuclear mass that pushes the neutrophil nucleus aside, not multiple small condensed lobes."},
+    {"dx": "Hypersegmented or dysplastic neutrophils", "vs": "Hypersegmented neutrophils retain lobes connected by thin chromatin filaments with open lobar chromatin, not smooth pyknotic spheres."},
+    {"dx": "Small lymphocytes", "vs": "Lymphocytes have one round nucleus with scant agranular basophilic cytoplasm rather than several separated dense spheres."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa (cytospin)",
+  "match": "consistent",
+  "high_yield": true
+}

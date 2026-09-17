@@ -1,0 +1,22 @@
+{
+  "id": "63765",
+  "recognize_zh": "流式細胞散佈圖顯示 CD19+ B 細胞共同表現 CD5（黑箭頭），kappa 輕鏈限制且為弱表現（紅箭頭），CD20 弱、CD23 與 CD200 陽性、FMC7 與 CD79b 弱或陰性、CD10 陰性，這組免疫表型符合 CLL。",
+  "features": [
+    "Dominant CD19-positive B-cell population co-expressing CD5 (black arrow)",
+    "Kappa light chain restriction with dim intensity, no lambda-positive population (red arrow)",
+    "Dim CD20 (curved arrow) and CD45-positive, CD10-negative",
+    "CD23 positive (yellow arrow) and CD200 bright (green circle)",
+    "FMC7 negative, CD79b dim to negative, CD43 positive"
+  ],
+  "describe_en": "This figure shows flow cytometry dot plots rather than morphology. Gated lymphocytes contain a predominant CD19-positive B-cell population that co-expresses CD5 and CD43, shows dim CD20, and is negative for CD10. The population is kappa-restricted with dim surface light chain intensity. It is positive for CD23 and CD200 and negative for FMC7, with dim to negative CD79b. This immunophenotype (Matutes score 5) is consistent with chronic lymphocytic leukemia/small lymphocytic lymphoma.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "CD5-positive but typically CD23 negative, CD200 negative or dim, FMC7 positive, bright CD20 and bright light chain, with cyclin D1/t(11;14)."},
+    {"dx": "Marginal zone lymphoma", "vs": "Usually CD5 and CD23 negative with bright CD20, CD79b and FMC7."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "CD5 and CD23 usually negative, with a monotypic plasma cell component and MYD88 L265P."},
+    {"dx": "Monoclonal B-cell lymphocytosis (CLL-type)", "vs": "Identical phenotype but clonal B-cell count is below 5 x 10^9/L without lymphadenopathy or cytopenias."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

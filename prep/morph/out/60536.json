@@ -1,0 +1,22 @@
+{
+  "id": "60536",
+  "recognize_zh": "四格 H&E：低倍可見腸壁全層被淋巴瘤浸潤並有表面潰瘍（箭頭），高倍中大型多形性淋巴細胞穿插於平滑肌纖維之間；右下格鄰近黏膜上皮內有大量上皮內淋巴球（箭頭），代表背景腸病變，符合 EATL。",
+  "features": [
+    "Low power: transmural, mass-forming lymphoid infiltrate of the bowel wall with mucosal ulceration (arrow)",
+    "Medium power: sheets of tumor cells dissecting and splaying bundles of muscularis propria",
+    "High power: medium-to-large pleomorphic lymphoid cells with vesicular, irregular nuclei, distinct nucleoli, and moderate pale cytoplasm infiltrating between smooth muscle fibers",
+    "Admixed inflammatory cells in the infiltrate",
+    "Adjacent mucosa: increased intraepithelial lymphocytes within surface columnar epithelium (arrow), indicating enteropathy"
+  ],
+  "describe_en": "Sections of small intestine show a transmural lymphoid infiltrate forming a mass with overlying mucosal ulceration. The infiltrate is composed of sheets of medium-to-large pleomorphic lymphoid cells with irregular vesicular nuclei, conspicuous nucleoli, and moderate pale cytoplasm that dissect through and separate smooth muscle bundles of the muscularis propria, accompanied by admixed inflammatory cells. The adjacent mucosa shows increased intraepithelial lymphocytes within the surface epithelium. Findings are consistent with enteropathy-associated T-cell lymphoma (classic type, formerly type I), to be confirmed by T-cell immunophenotyping (CD3+, CD4-/CD8-, CD56-, often CD30+).",
+  "ddx": [
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma", "vs": "MEITL shows monotonous small-to-medium round cells with marked epitheliotropism and a CD8+/CD56+ phenotype, not large pleomorphic cells."},
+    {"dx": "Diffuse large B-cell lymphoma of the intestine", "vs": "DLBCL cells are CD20+/PAX5+ B cells and lack an adjacent T-cell intraepithelial lymphocytosis."},
+    {"dx": "Poorly differentiated carcinoma", "vs": "Carcinoma is cohesive and cytokeratin positive, whereas this discohesive infiltrate is CD45/CD3 positive."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "ENKTL shows angiocentric destruction with necrosis and is EBER-positive and CD56-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62303",
+  "recognize_zh": "CD30 免疫染色中，陽性的大型淋巴細胞（免疫母細胞）集中在二級濾泡生發中心的周邊呈環狀排列，並散在於濾泡間區，細胞形態一致且未成片，符合反應性濾泡增生中的反應性免疫母細胞，而非淋巴瘤。",
+  "features": [
+    "Secondary lymphoid follicles with germinal centers surrounded by CD30-negative mantle and interfollicular zones",
+    "CD30-positive large cells with membranous and Golgi-type staining concentrated at the periphery of germinal centers (rimming pattern)",
+    "Scattered small clusters of CD30-positive cells in perifollicular and interfollicular areas, including around a small vessel",
+    "Faint reticular CD30 staining within the germinal center",
+    "No sheets or cohesive clusters of CD30-positive cells and no effacement of architecture"
+  ],
+  "describe_en": "Lymph node section immunostained for CD30 shows preserved architecture with secondary lymphoid follicles containing germinal centers. CD30-positive large lymphoid cells with membranous and dot-like staining are concentrated at the periphery of the germinal centers, forming a rim, with additional scattered small clusters in the perifollicular and interfollicular regions. The positive cells do not form sheets, and the background small lymphocytes are negative. The distribution is typical of reactive CD30-positive immunoblasts and, in the absence of architectural effacement, is consistent with reactive follicular hyperplasia.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30+ with CD15 positivity and weak/absent PAX5 and CD45, set in an inflammatory background with architectural effacement rather than a perifollicular rim."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows sheets or sinusoidal clusters of strongly and uniformly CD30-positive hallmark cells with loss of T-cell antigens, not scattered perifollicular immunoblasts."},
+    {"dx": "Infectious mononucleosis (EBV lymphadenitis)", "vs": "EBV-driven immunoblastic proliferations show numerous CD30+ immunoblasts expanding the paracortex, often with EBER positivity, whereas here they are sparse and perifollicular."},
+    {"dx": "Nodular lymphocyte-predominant B-cell lymphoma", "vs": "LP cells are typically CD30-negative, CD20 and OCT2 positive, and lie within large expansile nodules rather than at germinal-center rims."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

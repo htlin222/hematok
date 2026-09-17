@@ -1,0 +1,22 @@
+{
+  "id": "1274",
+  "recognize_zh": "這是低倍周邊血液抹片，大量紅血球中散布極多數量一致的小型有核細胞，顯示明顯的淋巴球增多；此放大倍率看不到核仁、細胞質突起等細節，只能支持 T 前淋巴球白血病（T-PLL）典型的高白血球數。",
+  "features": [
+    "Low-power peripheral blood smear with marked leukocytosis",
+    "Numerous small, fairly uniform mononuclear cells evenly distributed among red cells",
+    "Cells appear small to medium with dark nuclei and scant cytoplasm at this magnification",
+    "No obvious large blasts, granulocytic left shift, or clumping",
+    "Nuclear detail, nucleoli, and cytoplasmic blebs cannot be assessed at this magnification"
+  ],
+  "describe_en": "Low-power view of a peripheral blood smear shows marked leukocytosis composed of numerous small, relatively uniform mononuclear cells distributed evenly among the red cells. At this magnification the cytologic features that characterize prolymphocytes, such as a single prominent nucleolus, irregular nuclear contour, and cytoplasmic blebs, cannot be evaluated. The image supports a marked lymphocytosis but is not diagnostic on its own. Correlation with high-power morphology and flow cytometry (CD4+/CD7+ bright T cells) and TCL1A rearrangement is required to confirm T-cell prolymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are CD5+/CD23+/CD20 dim B cells with clumped chromatin and smudge cells, whereas T-PLL cells are T cells with nucleoli and TCL1 overexpression."},
+    {"dx": "Sézary syndrome / adult T-cell leukemia/lymphoma", "vs": "Show cerebriform or flower-shaped nuclei on high power, CD7 loss, and skin involvement or HTLV-1 positivity."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "Blasts have fine immature chromatin and are TdT and CD1a positive, unlike mature TdT-negative T-PLL cells."},
+    {"dx": "Reactive lymphocytosis", "vs": "Shows polymorphous reactive lymphocytes with polyclonal T-cell populations and a milder lymphocyte count."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

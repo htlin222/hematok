@@ -1,0 +1,22 @@
+{
+  "id": "12531",
+  "recognize_zh": "骨髓抹片被大量芽細胞佔據（高核質比、細緻染色質、部分細胞質有空泡），箭頭指的是一顆成熟且形態異常的顆粒球，細胞質內有 Auer 小體，而芽細胞本身沒有；搭配流式同時表現 T 與骨髓系標記，符合混合表型急性白血病（MPAL）。",
+  "features": [
+    "Sheets of medium-to-large blasts with high N:C ratio, fine chromatin, and variably prominent nucleoli",
+    "Blast cytoplasm is scant to moderate, basophilic, with some vacuoles and cytoplasmic blebs",
+    "Nuclei are round to irregular with occasional folding",
+    "A mature, dysplastic-appearing granulocyte (arrow) with clumped chromatin containing cytoplasmic inclusions reported as Auer rods (rod detail limited at this resolution)",
+    "Mitotic figure present; scant residual normal hematopoiesis"
+  ],
+  "describe_en": "Bone marrow aspirate smear is replaced by a population of medium-to-large blasts with high nuclear-to-cytoplasmic ratio, fine chromatin, variably prominent nucleoli, irregular or folded nuclei, and scant basophilic, focally vacuolated cytoplasm. A mitotic figure is present. A mature, dysplastic-appearing granulocyte (arrow) contains cytoplasmic Auer rods, whereas Auer rods are not seen within the blasts; the rods themselves are difficult to resolve at this image resolution. Morphology alone cannot assign lineage; with flow cytometry showing TdT/CD34-positive blasts co-expressing cytoplasmic CD3 and myeloid markers, findings are consistent with mixed phenotype acute leukemia, T/myeloid.",
+  "ddx": [
+    {"dx": "AML with maturation", "vs": "AML with maturation shows MPO-positive myeloblasts often containing Auer rods themselves and lacks cytoplasmic CD3 expression."},
+    {"dx": "T-lymphoblastic leukemia with aberrant myeloid antigens", "vs": "T-ALL may express CD13/CD33 but does not show MPO positivity or Auer rods, which would indicate true myeloid lineage."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL is CD1a-/CD8-, CD5 dim, with stem/myeloid markers but is MPO negative and lacks Auer rods."},
+    {"dx": "Therapy-related or MDS-related AML with dysplastic granulocytes", "vs": "Dysplastic maturing granulocytes with Auer rods also occur in myelodysplasia-related AML, which is separated by lineage-defining flow and cytogenetics."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

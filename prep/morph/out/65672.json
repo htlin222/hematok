@@ -1,0 +1,23 @@
+{
+  "id": "65672",
+  "recognize_zh": "右側大圖一顆大細胞內染色質凝集成兩團不規則、邊緣參差的塊狀，屬分裂中期至後期的有絲分裂像（mitotic figure），周圍為骨髓細胞與後骨髓細胞；多極紡錘在此解析度下無法確認，僅能說是可疑異常分裂。",
+  "features": [
+    "Right panel: large cell with abundant pale gray-blue cytoplasm containing two separated, irregular, condensed chromatin masses (anaphase/telophase-like mitotic figure)",
+    "Chromatin masses are ragged and asymmetric; spindle poles are not resolvable",
+    "Surrounding granulocytic precursors (myelocytes/metamyelocytes) with pink granular cytoplasm",
+    "Lower left panel: cell with two separate condensed nuclear/chromatin clumps in granular cytoplasm",
+    "Upper left panel: large round cell with granular cytoplasm and indistinct chromatin next to two small dense erythroid precursors",
+    "Image quality and pink cast limit detailed chromatin assessment"
+  ],
+  "describe_en": "Marrow aspirate smear shows granulocytic precursors at myelocyte and metamyelocyte stages. Several cells show mitotic activity, including a large cell with two separated, irregular, condensed chromatin masses in an anaphase/telophase-like configuration, and another cell with two condensed chromatin clumps. The chromatin masses appear ragged and asymmetric, but multipolar spindles cannot be confidently resolved at this image quality. Isolated mitoses are not specific; atypical mitotic figures together with multilineage dysplasia and cytopenias are suggestive of, but not diagnostic for, a myelodysplastic neoplasm, which requires blast count, dysplasia quantitation, and cytogenetic/molecular correlation.",
+  "ddx": [
+    {"dx": "Normal mitoses in a regenerating marrow", "vs": "Normal mitoses show a symmetric bipolar metaphase plate or two equal daughter chromatin sets, whereas atypical mitoses show asymmetric, multipolar or lagging chromatin."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic marrow shows nuclear-cytoplasmic asynchrony, giant metamyelocytes and increased mitoses, reversible with B12/folate replacement."},
+    {"dx": "Apoptotic cell / karyorrhexis", "vs": "Apoptotic cells have multiple round, smooth, dense nuclear fragments with condensed eosinophilic cytoplasm rather than elongated ragged chromosome masses."},
+    {"dx": "Pseudo-Pelger-Huët or binucleated dysplastic precursor", "vs": "These have intact nuclear membranes with smooth-contoured lobes, whereas mitotic chromatin lacks a nuclear membrane and appears as irregular chromosome clumps."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

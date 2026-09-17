@@ -1,0 +1,22 @@
+{
+  "id": "64184",
+  "recognize_zh": "周邊血液中多顆與紅血球差不多大的小型淋巴球，核質比極高、細胞質幾乎看不到，染色質呈粗塊狀、深淺交錯的「足球／龜殼狀」（soccer-ball）凝集，左上方並有一個 smudge cell，是典型 CLL 細胞。",
+  "features": [
+    "Small lymphocytes approximately the size of a red cell",
+    "Very high N:C ratio with scant to barely visible cytoplasm",
+    "Round nuclei with coarse, block-like clumped chromatin (soccer-ball pattern)",
+    "No visible nucleoli",
+    "Smudge cell in the upper field; red cells normocytic and normochromic"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous small mature lymphocytes, roughly the size of a red cell, with very high nuclear-to-cytoplasmic ratio, round nuclei, and coarse, block-like clumped chromatin without nucleoli. A smudge cell is present. Prolymphocytes with prominent nucleoli are not seen in this field, and red cells are unremarkable. Findings are consistent with chronic lymphocytic leukemia; confirmation by flow cytometry is required.",
+  "ddx": [
+    {"dx": "Normal small lymphocytes", "vs": "Normal lymphocytes look similar individually; CLL is recognized by absolute monotonous lymphocytosis with smudge cells and a clonal CD5+/CD23+ B-cell phenotype."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL cells typically have more irregular or notched nuclei and less clumped chromatin, and are cyclin D1-positive/CD23-negative."},
+    {"dx": "B-prolymphocytic transformation", "vs": "Prolymphocytes are larger with moderately condensed chromatin and a single prominent central nucleolus, making up more than 15% in CLL/PL."},
+    {"dx": "Follicular lymphoma, leukemic", "vs": "FL cells are small with deep nuclear clefts and are CD10-positive, CD5-negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

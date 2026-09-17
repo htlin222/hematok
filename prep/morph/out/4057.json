@@ -1,0 +1,21 @@
+{
+  "id": "4057",
+  "recognize_zh": "細胞密度高的骨髓切片中，只見棕色陽性細胞零星散布於間質，沒有形成緊密聚集；此圖標記未標示，單憑這種散在分布無法滿足系統性肥大細胞增生症的主要標準，需搭配 CD25 與其他切片判讀。",
+  "features": [
+    "Hypercellular marrow with scattered immunoreactive cells",
+    "Positive cells distributed singly and in small loose groups in the interstitium",
+    "No compact aggregates of positive cells in this field",
+    "Positive cells small, round to slightly spindled",
+    "Majority of hematopoietic cells negative"
+  ],
+  "describe_en": "Low-power immunohistochemical stain (DAB; marker not specified) of a hypercellular bone marrow biopsy shows scattered positive cells distributed singly and in small loose clusters throughout the interstitium. No compact multifocal aggregates are identified in this field. If this represents a mast cell marker, an interstitial increase of mast cells alone does not meet the WHO major criterion, and minor criteria (spindled morphology >25%, CD25/CD2/CD30 aberrancy, KIT D816V, serum tryptase >20 ng/mL) must be evaluated. Findings are suggestive of, but not by themselves diagnostic of, marrow involvement by systemic mastocytosis.",
+  "ddx": [
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are round, CD25-negative and lack KIT D816V despite an interstitial increase."},
+    {"dx": "Normal scattered CD117+ progenitors or plasma cells", "vs": "CD117 also stains myeloid progenitors, and tryptase or CD25 co-expression is needed to confirm mast cell identity."},
+    {"dx": "Reactive T-cell infiltrate (if T-cell marker)", "vs": "Scattered interstitial CD3+ T cells are small round lymphocytes without granular cytoplasm and are tryptase-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: marker not specified, DAB",
+  "match": "partial",
+  "high_yield": false
+}

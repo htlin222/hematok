@@ -1,0 +1,21 @@
+{
+  "id": "62740",
+  "recognize_zh": "骨髓抹片中可見大型組織球，胞質含多個空泡，並吞入紅血球、有核紅血球或淋巴球等完整細胞（A、B），即噬血現象（hemophagocytosis），配合臨床用藥史支持 lamotrigine 相關的 HLH。",
+  "features": [
+    "Large macrophages with abundant pale, vacuolated cytoplasm",
+    "Engulfed intact nucleated cells (erythroid precursors/lymphocytes) and red cell fragments within macrophage cytoplasm (A, B)",
+    "Macrophage nucleus displaced to the periphery by phagocytosed material",
+    "Background of mature-appearing erythroid precursors and lymphocytes without an obvious blast population in these fields"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered large macrophages with abundant vacuolated cytoplasm containing engulfed intact nucleated hematopoietic cells, including erythroid precursors and lymphocytes, as well as red cell debris. The background hematopoietic cells appear mature without a conspicuous blast population in the illustrated fields. Hemophagocytosis is supportive but not diagnostic on its own; in the appropriate clinical and laboratory context (HLH-2004 criteria, recent lamotrigine exposure) the findings are consistent with drug-associated secondary hemophagocytic lymphohistiocytosis.",
+  "ddx": [
+    {"dx": "Nonspecific hemophagocytosis (post-transfusion, sepsis)", "vs": "Morphology is identical, so distinction rests on HLH-2004 clinical criteria such as fever, splenomegaly, ferritin, triglycerides, fibrinogen and soluble CD25."},
+    {"dx": "DRESS syndrome", "vs": "Also drug-induced and overlaps with HLH, but is defined by rash, eosinophilia and atypical lymphocytes rather than marrow hemophagocytosis with cytopenias and hyperferritinemia."},
+    {"dx": "Lymphoma-associated HLH", "vs": "Requires search for an atypical lymphoid infiltrate by biopsy, flow cytometry or clonality studies, which is not evident in these aspirate fields."},
+    {"dx": "AML with blast erythrophagocytosis (e.g., t(8;16))", "vs": "Phagocytosis is performed by high N:C ratio monocytic blasts rather than by mature histiocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

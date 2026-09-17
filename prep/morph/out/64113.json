@@ -1,0 +1,22 @@
+{
+  "id": "64113",
+  "recognize_zh": "畫面中央一個大型巨噬細胞（histiocyte），細胞質內可見多個被吞噬、仍保有分葉核的顆粒球，外圍有空泡狀吞噬泡（phagocytic vacuole）包覆，還有一團粉紅色被消化中的物質，這就是噬血現象（hemophagocytosis）。",
+  "features": [
+    "Single large macrophage with abundant pale grey-blue, vacuolated cytoplasm",
+    "Several intact engulfed granulocytes with clumped, lobulated nuclei, each within a clear phagocytic vacuole",
+    "Amorphous eosinophilic/pink ingested material consistent with a partially digested cell",
+    "Macrophage's own nucleus is obscured by the ingested cells",
+    "Background of numerous erythrocytes, a small orthochromatic normoblast/lymphocyte, and marrow particle-poor spread"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a hemodilute background of red cells with scattered hematopoietic cells. At high power, a large macrophage contains multiple engulfed granulocytes with lobulated, pyknotic nuclei, each surrounded by a clear phagocytic vacuole, as well as amorphous eosinophilic material consistent with partially digested cellular debris. Findings show hemophagocytosis, which in the appropriate clinical and laboratory context (HLH-2004 criteria) is suggestive of hemophagocytic lymphohistiocytosis; hemophagocytosis alone is neither sensitive nor specific for HLH.",
+  "ddx": [
+    {"dx": "Reactive hemophagocytosis after transfusion, infection or chemotherapy", "vs": "Isolated hemophagocytic macrophages are morphologically identical and are common after transfusion or sepsis, so HLH requires clinical/laboratory criteria (fever, cytopenias, ferritin, sCD25, triglycerides/fibrinogen)."},
+    {"dx": "Macrophage with apoptotic bodies (tingible body macrophage)", "vs": "Tingible body macrophages contain small dense round nuclear debris rather than intact recognizable cells with lobulated nuclei in vacuoles."},
+    {"dx": "Emperipolesis in megakaryocytes or Rosai-Dorfman histiocytes", "vs": "In emperipolesis the intact cells pass through the cytoplasm without degradation, whereas here the host is a macrophage and ingested material shows digestion."},
+    {"dx": "Erythrophagocytosis in immune hemolytic anemia or malignancy-associated HLH", "vs": "Morphology cannot separate the trigger; a search for lymphoma (especially T/NK) and infections (EBV) is needed."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

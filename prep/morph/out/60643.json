@@ -1,0 +1,22 @@
+{
+  "id": "60643",
+  "recognize_zh": "同一淋巴結切片中，左上方為深染、密集的小淋巴球區（CLL/SLL），右下方則為淡染、由大型細胞組成的區域；免疫染色中增殖指標只在大細胞區明顯升高，呈現 CLL 正在轉化為大細胞淋巴瘤（Richter 轉化）的交界。",
+  "features": [
+    "Panel A (H&E, low power): sharp interface between a dark, densely cellular small lymphocytic area (upper left) and a paler area of large cells (lower right)",
+    "Inset: large cells with vesicular nuclei, prominent nucleoli and moderate amphophilic cytoplasm with scattered apoptotic bodies",
+    "Panel B: a pan-lymphoid/B-cell immunostain (antigen not labeled) strongly positive in both compartments",
+    "Panel C: immunostain (antigen not labeled) diffusely positive in the small-cell area and more patchy/weaker in the large-cell area",
+    "Panel D: nuclear proliferation marker-like staining (antigen not labeled) low in the small-cell area and high in the large-cell area"
+  ],
+  "describe_en": "Lymph node section shows effacement by two juxtaposed components. The upper left contains a diffuse infiltrate of small round lymphocytes typical of small lymphocytic lymphoma, while the lower right consists of sheets of large cells with vesicular chromatin, prominent nucleoli and apoptotic debris. Immunostains show both components express the same broad lineage marker, a second marker is strong in the small-cell component and attenuated in the large-cell component, and nuclear staining consistent with a proliferation index is markedly higher in the large-cell area; the antigens are not labeled in the figure. Findings are consistent with chronic lymphocytic leukemia/small lymphocytic lymphoma with Richter transformation to diffuse large B-cell lymphoma, captured at the interface.",
+  "ddx": [
+    {"dx": "CLL/SLL with expanded (confluent) proliferation centers", "vs": "Proliferation centers contain prolymphocytes and paraimmunoblasts with intermediate Ki-67 and are not broader than a 20x field, whereas true Richter shows confluent sheets of centroblast/immunoblast-sized cells."},
+    {"dx": "Composite lymphoma (unrelated DLBCL and SLL)", "vs": "Morphology is similar; clonal relatedness requires IGHV/IG rearrangement comparison, which has prognostic importance."},
+    {"dx": "Hodgkin-type Richter transformation", "vs": "Hodgkin-type transformation shows scattered CD30+/CD15+ Reed-Sternberg cells in a mixed inflammatory background, not sheets of large B cells."},
+    {"dx": "Mantle cell lymphoma, blastoid", "vs": "Blastoid MCL is cyclin D1/SOX11 positive throughout, while the small-cell component here is CLL/SLL."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (antigens not labeled)",
+  "match": "consistent",
+  "high_yield": true
+}

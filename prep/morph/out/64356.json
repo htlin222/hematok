@@ -1,0 +1,21 @@
+{
+  "id": "64356",
+  "recognize_zh": "畫面中央一顆大細胞，核分成多個小圓葉排成環狀、中間留下幾個清亮空區（葡萄串狀），旁邊是核折疊、細胞質灰藍的單核球，符合 botryoid 嗜中性球合併單核球。",
+  "features": [
+    "Enlarged neutrophil with multiple small rounded nuclear lobes arranged in a ring around central clear spaces (botryoid pattern)",
+    "Dense chromatin in the lobes; pale finely granular cytoplasm",
+    "Adjacent monocytes with folded/indented nuclei, lacy chromatin and gray-blue cytoplasm",
+    "Scattered small lymphocytes and platelets",
+    "Red cells aggregated into irregular masses in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered leukocytes in a background of aggregated red cells. A large neutrophil in the center has a nucleus composed of multiple small rounded lobes arranged radially around clear central spaces, forming a grape-like (botryoid) configuration. Nearby cells are monocytes with folded nuclei and gray-blue cytoplasm, along with a few lymphocytes. Findings are consistent with a botryoid neutrophil, a reactive change associated with hyperthermia and severe febrile infections such as scrub typhus.",
+  "ddx": [
+    {"dx": "Megaloblastic hypersegmented neutrophil", "vs": "Megaloblastic hypersegmentation shows a linear string of 6 or more lobes with macro-ovalocytes, rather than rounded lobes clustered radially around a central clearing."},
+    {"dx": "Ring (doughnut) neutrophil", "vs": "Ring neutrophils have a continuous annular nucleus with a single central hole, whereas botryoid nuclei are fragmented into discrete rounded lobes."},
+    {"dx": "Apoptotic neutrophil", "vs": "Apoptotic neutrophils are smaller with smooth, homogeneous, pyknotic fragments and condensed cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

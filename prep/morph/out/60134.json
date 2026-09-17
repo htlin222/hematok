@@ -1,0 +1,22 @@
+{
+  "id": "60134",
+  "recognize_zh": "骨髓切片細胞密度極高，充滿細胞質鮮紅顆粒的嗜酸性球及其前驅細胞，並夾雜巨核細胞與成群、核卵圓或拉長、細胞質淡染的細胞（疑似肥大細胞），符合 PDGFRA 重組相關的骨髓性腫瘤。",
+  "features": [
+    "Hypercellular marrow with numerous eosinophils and eosinophilic precursors with bright red granular cytoplasm",
+    "Loose aggregates of larger cells with oval to elongated pale nuclei and moderate amphophilic cytoplasm, likely mast cells",
+    "Occasional spindle-shaped cells with elongated nuclei within the aggregates",
+    "Scattered megakaryocytes of variable size",
+    "Mast cell nature of the aggregates cannot be confirmed on H&E alone (tryptase/CD117/CD25 needed)"
+  ],
+  "describe_en": "Hematoxylin and eosin-stained bone marrow biopsy is markedly hypercellular and dominated by eosinophils and eosinophilic precursors with brightly eosinophilic granular cytoplasm. Loose aggregates of larger cells with oval to elongated nuclei and pale amphophilic cytoplasm, including spindle forms, are present and likely represent mast cells. Megakaryocytes are scattered. Confirmation of the mast cell population requires tryptase, CD117 and CD25 immunostains. Findings are consistent with a myeloid neoplasm with eosinophilia, such as one associated with FIP1L1-PDGFRA rearrangement.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis with eosinophilia (KIT D816V)", "vs": "SM forms dense, compact multifocal aggregates of ≥15 mast cells with KIT D816V, whereas PDGFRA-rearranged neoplasms show loose, scattered mast cells and are identified by FIP1L1-PDGFRA FISH/RT-PCR."},
+    {"dx": "Reactive eosinophilia (parasites, drugs, allergy, T-cell driven)", "vs": "Reactive eosinophilia lacks clonal genetic abnormalities and atypical spindle mast cells, and clinical work-up identifies a cause."},
+    {"dx": "Chronic eosinophilic leukemia, NOS", "vs": "CEL-NOS requires clonality or increased blasts without PDGFRA, PDGFRB, FGFR1, PCM1-JAK2 or other defining rearrangements."},
+    {"dx": "Myeloid/lymphoid neoplasm with FGFR1 rearrangement", "vs": "FGFR1-rearranged cases often present with lymphoblastic lymphoma or AML, and genetics separate them."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

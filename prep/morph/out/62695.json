@@ -1,0 +1,21 @@
+{
+  "id": "62695",
+  "recognize_zh": "淋巴球 gate 的 CD3 對 CD7 流式四象限圖：CD7+CD3− 細胞高達 40.63%（綠色 NK 細胞），CD7+CD3+ T 細胞 52.33%，CD7−CD3− 為 6.37%，表示表面 CD3 陰性的 NK 細胞明顯增加。",
+  "features": [
+    "Quadrant dot plot gated on lymphocytes: CD3-PC5.5 (x) versus CD7-APC700 (y)",
+    "CD7+CD3- quadrant 40.63%, dominated by green NK-cell population",
+    "CD7+CD3+ quadrant 52.33% (blue T cells), with some T cells showing dimmer CD7",
+    "CD7-CD3- quadrant 6.37% (magenta, likely B cells)",
+    "CD7-CD3+ quadrant 0.67%, no significant CD7-loss T-cell population"
+  ],
+  "describe_en": "Flow cytometric quadrant plot of the lymphocyte gate displays CD3 versus CD7. Surface CD3-negative, CD7-positive NK cells account for 40.63% of lymphocytes, with CD3-positive, CD7-positive T cells 52.33%, double-negative cells 6.37%, and only 0.67% CD7-negative T cells. The marked expansion of surface CD3-negative NK cells without a CD7-loss T-cell population supports an NK-cell rather than T-cell LGL process. Findings are consistent with the reported chronic lymphoproliferative disorder of NK cells, pending absolute NK count and persistence over 6 months.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL expands a surface CD3-positive population, often with CD7 or CD5 loss, whereas the expansion here is CD3 negative."},
+    {"dx": "Reactive NK-cell lymphocytosis", "vs": "Reactive expansions are transient with polyclonal KIR expression, whereas CLPD-NK persists with restricted KIR or uniform CD94/NKG2A."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "ANKL is typically CD56 bright, EBV positive and clinically fulminant rather than an indolent lymphocytosis."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

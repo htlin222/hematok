@@ -1,0 +1,22 @@
+{
+  "id": "64006",
+  "recognize_zh": "油鏡下可見一顆紅血球內有深紫色圓點（Howell-Jolly body）、一顆偏大偏藍的多染性紅血球（polychromatophil），並有邊緣缺角或凹陷的紅血球（bite cell），配合藥物史指向氧化性溶血。",
+  "features": [
+    "Red cells show anisopoikilocytosis with numerous crenated cells (echinocytes), likely partly artifactual",
+    "Single dense round purple inclusion within a red cell consistent with a Howell-Jolly body",
+    "Occasional larger, bluish-grey polychromatophilic red cells",
+    "A few red cells with irregular peripheral defects or eccentric clearing suggestive of bite/blister cells",
+    "Fine punctate inclusions in some red cells; convincing coarse basophilic stippling is not clearly resolved"
+  ],
+  "describe_en": "Peripheral blood smear (Leishman stain, high power) shows red cells with anisopoikilocytosis and many crenated forms, which may partly reflect drying artifact. A red cell containing a single dense round inclusion consistent with a Howell-Jolly body is present, along with polychromatophilic cells and occasional cells with peripheral bites or eccentric clearing. Fine punctate inclusions are seen in a few cells, but definite basophilic stippling is not clearly resolved at this resolution. In the appropriate drug history, findings are suggestive of oxidative (drug-induced) hemolysis.",
+  "ddx": [
+    {"dx": "G6PD deficiency with oxidant exposure", "vs": "Morphology (bite and blister cells, Heinz bodies) is identical, so a G6PD enzyme assay after recovery of reticulocytosis is needed to separate it from drug-induced hemolysis in a G6PD-normal patient."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Immune hemolysis is characterized by spherocytes and a positive direct antiglobulin test rather than bite and blister cells."},
+    {"dx": "Hyposplenism", "vs": "Howell-Jolly bodies with target cells and acanthocytes but without bite/blister cells or Heinz bodies favor hyposplenism rather than oxidative hemolysis."},
+    {"dx": "Crenation (drying artifact)", "vs": "Artifactual echinocytes have evenly spaced short projections across many cells in thick areas and lack true peripheral bites or hemoglobin-free blisters."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "partial",
+  "high_yield": false
+}

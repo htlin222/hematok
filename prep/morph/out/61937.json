@@ -1,0 +1,21 @@
+{
+  "id": "61937",
+  "recognize_zh": "低倍淋巴結中央有一個比周圍濾泡大好幾倍的圓形結節，外圈深染的小淋巴球（外套區細胞）向內擴散，使中央生發中心變得模糊、斑駁；旁邊仍有大小正常的反應性濾泡，這是PTGC的典型低倍線索。",
+  "features": [
+    "One markedly enlarged, round nodule several times the size of adjacent follicles",
+    "Nodule composed predominantly of small dark lymphocytes with a mottled, ill-defined germinal center",
+    "Blurred boundary between mantle zone and germinal center",
+    "Adjacent smaller reactive follicles with intact germinal centers and interfollicular high endothelial venules",
+    "Background nodal architecture preserved"
+  ],
+  "describe_en": "Low-power H&E section of lymph node shows a markedly enlarged round nodule, several times the size of neighboring follicles, composed predominantly of small lymphocytes with a mottled and poorly delineated germinal center. Adjacent follicles are of usual size with preserved germinal centers, and the interfollicular areas and vessels appear unremarkable. Findings are consistent with progressive transformation of germinal centers in a background of reactive follicular hyperplasia.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma / lymphocyte-predominant B-cell lymphoma", "vs": "NLPHL nodules efface the node and contain scattered large LP (popcorn) cells that are CD20+/OCT2+/BCL6+ and ringed by PD1+ T cells, whereas PTGC lacks LP cells."},
+    {"dx": "Follicular lymphoma", "vs": "FL shows back-to-back uniform follicles with attenuated mantles and BCL2+ germinal centers, rather than a single enlarged nodule among reactive follicles."},
+    {"dx": "Mantle cell lymphoma, mantle-zone pattern", "vs": "MCL shows expanded mantles of cyclin D1+/CD5+ monotonous cells, whereas PTGC mantle cells are IgD+ reactive cells without cyclin D1."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

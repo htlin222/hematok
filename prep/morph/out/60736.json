@@ -1,0 +1,22 @@
+{
+  "id": "60736",
+  "recognize_zh": "骨髓切片中（A 箭頭）與凝塊切片 (B) 可見黏聚成團的大型上皮樣細胞，核大、細胞質嗜酸性，看似轉移癌；但細胞團呈 CD31、CD34 膜染及 ERG、FLI1 核染陽性，證實為內皮來源的上皮樣血管肉瘤轉移。",
+  "features": [
+    "Panel A (core H&E): intertrabecular marrow with a focal area of atypical epithelioid cells (arrow) disrupting hematopoiesis",
+    "Panel B (clot H&E): cohesive cluster of large epithelioid cells with vesicular nuclei, nucleoli and moderate eosinophilic-to-amphophilic cytoplasm in a hemorrhagic background",
+    "Panel C: strong membranous CD31 in the tumor cluster",
+    "Panel D: strong membranous CD34 in the tumor cluster",
+    "Panels E-F: strong nuclear ERG and FLI1 in tumor cells, confirming endothelial differentiation"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a focal infiltrate of atypical epithelioid cells disrupting normal hematopoiesis, and the clot section contains cohesive clusters of large epithelioid cells with vesicular nuclei, prominent nucleoli and eosinophilic cytoplasm in a hemorrhagic background. Immunohistochemistry shows membranous CD31 and CD34 and nuclear ERG and FLI1 positivity in the tumor cells. Findings are consistent with metastatic epithelioid angiosarcoma involving the bone marrow; cytokeratin may be positive in epithelioid angiosarcoma and should not lead to a misdiagnosis of carcinoma.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma is negative for CD31/ERG, whereas epithelioid angiosarcoma may express keratin but is defined by vascular markers."},
+    {"dx": "Acute leukemia (CD34-positive blasts)", "vs": "Blasts are discohesive with scant cytoplasm and CD45/CD117/myeloid or lymphoid markers, lacking cohesive clusters and ERG/CD31 membranous co-expression in epithelioid cells."},
+    {"dx": "Megakaryocytic proliferation or megakaryoblastic leukemia", "vs": "Megakaryocytic cells express CD31 and FLI1 but are CD61/CD42b positive, ERG/CD34 pattern differs, and they do not form cohesive epithelioid nests."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma is S100/SOX10 positive and negative for CD31/ERG."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD31, CD34, ERG, FLI1",
+  "match": "consistent",
+  "high_yield": false
+}

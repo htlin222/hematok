@@ -1,0 +1,22 @@
+{
+  "id": "61460",
+  "recognize_zh": "骨髓切片中幾乎全為成片的漿細胞：核偏位、胞質豐富嗜雙性、核旁淡染區（hof），許多細胞核較大並有明顯核仁，正常造血細胞幾乎被取代，符合多發性骨髓瘤。",
+  "features": [
+    "Sheets of plasma cells effacing the marrow with virtually no residual normal hematopoiesis",
+    "Moderate to abundant amphophilic cytoplasm with eccentric nuclei and perinuclear clearing (hof)",
+    "Many cells with enlarged nuclei, vesicular chromatin, and prominent central nucleoli (atypical/immature plasma cells)",
+    "Occasional binucleate plasma cells and variation in nuclear size",
+    "Scattered red cells in capillaries; no fat or megakaryocytes in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a packed, diffuse infiltrate of plasma cells replacing normal hematopoietic elements. The plasma cells have eccentric nuclei, amphophilic cytoplasm, and perinuclear hofs; many show nuclear enlargement, vesicular chromatin, and prominent nucleoli, with occasional binucleation. Normal trilineage hematopoiesis is not identified in this field. Findings are consistent with plasma cell myeloma with diffuse marrow replacement; CD138 immunostaining and kappa/lambda ISH are recommended to quantify plasma cells and confirm light-chain restriction.",
+  "ddx": [
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a mixture of small lymphocytes, plasmacytoid lymphocytes and plasma cells with CD20+ B cells and MYD88 L265P, not pure sheets of atypical plasma cells."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Cells are larger blastic with high mitotic/apoptotic rate, often EBER+ in immunocompromised patients, and lack a myeloma M-protein/lytic lesion profile."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are interstitial and perivascular, polytypic by kappa/lambda, and do not form sheets."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells are cohesive with keratin positivity and lack the plasma cell hof and CD138+/light-chain restricted profile."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

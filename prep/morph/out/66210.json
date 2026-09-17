@@ -1,0 +1,35 @@
+{
+  "id": "66210",
+  "recognize_zh": "D 與 I 圖可見中等大小、胞質透亮的非典型淋巴球，混在發炎細胞與分支狀高內皮小靜脈（HEV）之間；E/F/J/K 圖 PD-1 與 ICOS 陽性表示 T 濾泡輔助（TFH）表型，L 圖 TCRγ PCR 呈單株峰，符合血管免疫母細胞型 TFH 淋巴瘤。",
+  "features": [
+    "Gross (A-B): well-circumscribed yellow-tan transmural colonic mass with homogeneous fleshy cut surface",
+    "Low power (C, G-H): dense diffuse lymphoid infiltrate with residual follicles; nodal lesion outlined with dashed line",
+    "Medium-sized atypical lymphocytes with clear cytoplasm and round-to-irregular nuclei in a mixed inflammatory background",
+    "Prominent arborizing high endothelial venules with pink perivascular stroma (D, I)",
+    "IHC: clusters of PD-1-positive and ICOS-positive atypical cells in colon (E-F) and lymph node (J-K)",
+    "TCR gamma PCR (L): dominant discrete peaks indicating clonal rearrangement"
+  ],
+  "describe_en": "Composite figure. The resected colon contains a well-circumscribed, yellow-tan, fleshy transmural mass (A-B). Sections show a dense lymphoid infiltrate with scattered residual follicles (C); at high power, medium-sized atypical lymphocytes with clear cytoplasm and irregular nuclei are admixed with small lymphocytes, plasma cells and histiocytes around prominent arborizing high endothelial venules (D). The atypical cells express PD-1 and ICOS (E-F). A regional lymph node shows a similar partially effacing infiltrate (G-I) with PD-1 and ICOS positivity (J-K), and PCR demonstrates a clonal TCR gamma gene rearrangement (L). Findings are consistent with T-follicular helper cell lymphoma, angioimmunoblastic type, arising primarily in the colon with secondary nodal involvement.",
+  "ddx": [
+    {
+      "dx": "Peripheral T-cell lymphoma, NOS",
+      "vs": "PTCL-NOS lacks expression of at least two TFH markers (PD-1, ICOS, BCL6, CXCL13, CD10) and usually lacks the clear-cell, HEV-rich angioimmunoblastic background."
+    },
+    {
+      "dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma",
+      "vs": "MEITL shows monotonous CD8+/CD56+ cells with marked epitheliotropism, whereas these cells are CD4+/CD8- with TFH markers and an inflammatory, vascular-rich background."
+    },
+    {
+      "dx": "Reactive follicular hyperplasia / colitis with TFH cells",
+      "vs": "Reactive PD-1+ TFH cells stay within germinal centers without clear-cell interfollicular expansion and lack clonal TCR rearrangement."
+    },
+    {
+      "dx": "Adult T-cell leukemia/lymphoma",
+      "vs": "ATLL can express TFH-like markers but shows pleomorphic flower cells, CD25 positivity and HTLV-1 seropositivity, which was negative here."
+    }
+  ],
+  "specimen": "tissue",
+  "stain": "Gross; H&E; IHC: PD-1, ICOS; PCR",
+  "match": "consistent",
+  "high_yield": false
+}

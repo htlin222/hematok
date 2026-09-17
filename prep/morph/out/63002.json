@@ -1,0 +1,20 @@
+{
+  "id": "63002",
+  "recognize_zh": "這是臨床照片而非顯微影像：左圖為重度血友病患者左大腿明顯腫大、皮膚緊繃發亮；右圖為手術後，大腿周徑明顯縮小，外側可見縱向手術疤痕。慢性肌肉內出血形成的假腫瘤（hemophilic pseudotumor）是重度血友病的罕見併發症。",
+  "features": [
+    "Clinical photographs, not a microscopic image",
+    "Pre-operative: marked diffuse swelling of the left thigh with tense, shiny overlying skin",
+    "Post-operative: reduced thigh girth with a healed longitudinal surgical scar on the lateral thigh",
+    "No overt skin ulceration, sinus tract or ecchymosis visible in either photograph"
+  ],
+  "describe_en": "Clinical photographs of the left lower limb of a patient with severe hemophilia. The pre-operative image shows marked, diffuse enlargement of the thigh with tense overlying skin, without visible ulceration or fistula. The post-operative image shows substantial reduction in thigh girth with a healed longitudinal scar along the lateral thigh. Microscopic and radiologic features cannot be assessed from these images. The appearance is consistent with a hemophilic pseudotumor of the quadriceps muscle treated by surgical excision under factor replacement.",
+  "ddx": [
+    {"dx": "Soft tissue sarcoma", "vs": "Sarcoma is a solid enhancing mass on MRI, whereas a pseudotumor is an encapsulated blood-filled cyst with heterogeneous blood products of varying age; biopsy should be avoided in hemophilia without factor cover."},
+    {"dx": "Acute intramuscular hematoma", "vs": "An acute hematoma develops over hours to days and resolves with factor replacement, while a pseudotumor enlarges slowly over months with a fibrous capsule and bone erosion."},
+    {"dx": "Pyomyositis or abscess", "vs": "Infection presents with fever, erythema, warmth and leukocytosis with fluid collection and rim enhancement on imaging."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2527",
+  "recognize_zh": "骨髓抹片細胞量高，許多中型細胞核染色質細緻、胞質藍而無顆粒，屬原始細胞，夾雜顆粒減少的嗜中性球及紅血球前驅細胞，提示 MDS 伴過量原始細胞（MDS-EB）。",
+  "features": [
+    "Hypercellular aspirate smear with numerous intermediate-sized immature cells",
+    "Blasts with fine chromatin, round to oval nuclei and scant to moderate agranular blue cytoplasm",
+    "Scattered segmented neutrophils, several with pale hypogranular cytoplasm",
+    "Occasional erythroid precursors with dense round nuclei",
+    "Limited image resolution precludes precise blast enumeration"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a hypercellular specimen with numerous blasts that have fine chromatin, round to oval nuclei and agranular basophilic cytoplasm, admixed with maturing granulocytes, some appearing hypogranular, and scattered erythroid precursors. Auer rods are not evident at this resolution. An accurate blast percentage requires a 500-cell differential count, and dysplasia requires high-power review. Findings are suggestive of myelodysplastic syndrome with excess blasts; distinction from acute myeloid leukemia depends on the blast count.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with maturation", "vs": "AML with maturation has at least 20% blasts with at least 10% maturing granulocytes, so the manual blast count separates it from MDS-EB."},
+    {"dx": "Hematogone-rich regenerating marrow", "vs": "Hematogones have scant cytoplasm and homogeneous smudgy chromatin with a maturing B-precursor flow pattern, not CD34+/CD117+ myeloblasts."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts lack granules and Auer rods and are MPO-negative with TdT and lymphoid markers, requiring flow cytometry."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

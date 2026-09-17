@@ -1,0 +1,26 @@
+{
+  "id": "60714",
+  "recognize_zh": "體腔積液中出現大型、多形性的淋巴瘤細胞，核不規則或多葉、細胞質深嗜鹼性且邊緣有細毛狀突起；免疫細胞化學顯示腫瘤細胞核呈點狀顆粒狀（speckled）HHV8 LANA-1 陽性，為原發性積液淋巴瘤的典型表現。",
+  "features": [
+    "Large pleomorphic cells, many times the size of red cells, with high N:C ratio",
+    "Irregular, folded to multilobated nuclei with coarse chromatin and variably visible nucleoli",
+    "Deeply basophilic cytoplasm with ruffled or hairy cytoplasmic projections and occasional clear vacuoles",
+    "Immunocytochemistry (B): dense granular/speckled nuclear staining in the large cells, typical of HHV8 LANA-1",
+    "Background red cells and occasional small non-staining cells; no cohesive epithelial clusters"
+  ],
+  "describe_en": "Cytospin of the effusion fluid shows numerous large, discohesive, pleomorphic lymphoid cells with irregular to multilobated nuclei, coarse chromatin and deeply basophilic cytoplasm bearing fine surface projections, with features ranging from immunoblastic to anaplastic. An immunocytochemical stain demonstrates a speckled nuclear pattern in the large cells, characteristic of HHV8 latency-associated nuclear antigen (LANA-1). No cohesive epithelial clusters are seen. Findings are consistent with primary effusion lymphoma; the typical 'null' phenotype (CD45+, CD138+, CD30+, lacking CD20/CD79a and surface Ig) and EBER co-infection should be assessed.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma involving effusion / fluid overload-associated LBCL", "vs": "These express pan-B markers (CD20, PAX5) and are HHV8/LANA-1 negative."},
+    {"dx": "Metastatic carcinoma or mesothelioma", "vs": "Carcinoma and mesothelial cells form cohesive 3D groups with cytokeratin positivity and lack CD45 and nuclear LANA-1."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows hallmark horseshoe nuclei with strong CD30 and T-cell/ALK expression and is HHV8-negative, whereas PEL is LANA-1 positive."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma shares the plasmablastic phenotype but is EBV+/HHV8-negative and usually forms a solid mass rather than a lymphomatous effusion."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa; ICC: HHV8 LANA-1",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Effusion cytospin: large pleomorphic lymphoma cells with basophilic cytoplasm and irregular nuclei",
+    "Immunocytochemistry: speckled nuclear HHV8 LANA-1 staining in tumor cells"
+  ]
+}

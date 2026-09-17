@@ -1,0 +1,21 @@
+{
+  "id": "1990",
+  "recognize_zh": "免疫組織化學染色：大型、多形的腫瘤細胞呈清楚的細胞膜棕色陽性，核大、泡狀染色質、核仁明顯，中央可見一顆雙核／多葉核的巨大細胞；這張圖顯示 anaplastic 型 DLBCL 的大型異型細胞表現膜性標記，但抗體名稱未標示。",
+  "features": [
+    "Immunohistochemical stain with strong membranous brown staining in most tumor cells",
+    "Large cells with vesicular nuclei and prominent nucleoli",
+    "Marked nuclear pleomorphism including binucleate/multilobated bizarre cells",
+    "Sheet-like cohesive growth pattern",
+    "Scattered small negative lymphocytes and a thin vessel as internal controls"
+  ],
+  "describe_en": "Immunohistochemical stain (antibody not specified in the record) shows sheets of large pleomorphic cells with vesicular nuclei, prominent nucleoli and occasional binucleate or multilobated bizarre forms, exhibiting strong circumferential membranous staining. Small background lymphocytes and endothelial cells are negative. The marker identity cannot be confirmed from the image; the pattern would fit CD20 or CD30 expression. In context, findings are consistent with the anaplastic variant of diffuse large B-cell lymphoma, provided a B-cell phenotype (CD20/PAX5) is established and ALK and T-cell markers are negative.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL cells show CD30 membranous and Golgi staining but lack CD20 and PAX5, and express T-cell markers, cytotoxic granules and in some cases ALK."},
+    {"dx": "Classic Hodgkin lymphoma (syncytial variant)", "vs": "cHL cells are CD30+, CD15+ with CD45 negativity and weak PAX5, usually lacking strong uniform CD20, set in an inflammatory background."},
+    {"dx": "Metastatic poorly differentiated carcinoma", "vs": "Carcinoma shows keratin positivity with CD45 and B-cell marker negativity."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (membranous)",
+  "match": "consistent",
+  "high_yield": false
+}

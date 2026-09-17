@@ -1,0 +1,22 @@
+{
+  "id": "66159",
+  "recognize_zh": "骨髓抽取抹片中央一顆巨大細胞，細胞質豐富、淡藍灰色並有細密纖維狀條紋，像皺摺的衛生紙（wrinkled tissue paper），這是 Gaucher 細胞；細胞本身的核在此圖不易辨認，其上重疊的粉紅色核應為其他造血細胞。",
+  "features": [
+    "Very large cell with abundant pale blue-gray cytoplasm showing fine fibrillary, striated texture (wrinkled tissue paper or crumpled silk appearance)",
+    "The cell's own nucleus is not clearly discernible; nuclei overlying the cytoplasm appear to belong to superimposed hematopoietic cells",
+    "No discrete vacuoles or ingested cells within the cytoplasm",
+    "Background of mixed granulocytic and erythroid precursors",
+    "Red cells show a gray-green tint consistent with a staining artifact"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows mixed granulocytic and erythroid precursors with a staining artifact imparting a gray-green tint to red cells. A very large histiocytic cell with abundant pale blue-gray cytoplasm displaying a fine fibrillary, wrinkled tissue paper texture is present; its nucleus is not clearly delineated, with overlying hematopoietic cells superimposed on the cytoplasm. No soap-bubble vacuolation, hemophagocytosis or organisms are seen. Findings are consistent with a Gaucher cell, and confirmation by glucocerebrosidase activity or GBA1 testing is recommended.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cell (CML, myeloma, thalassemia, mycobacterial infection)", "vs": "Pseudo-Gaucher cells look nearly identical but occur with an underlying neoplasm or infection and normal glucocerebrosidase activity."},
+    {"dx": "Niemann-Pick cell (sea-blue histiocyte or foam cell)", "vs": "Niemann-Pick cells have uniform soap-bubble vacuoles or sea-blue granules rather than fibrillary striated cytoplasm."},
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes have a lobulated nucleus and finely granular lilac cytoplasm without striations."},
+    {"dx": "Hemophagocytic macrophage", "vs": "Hemophagocytes contain engulfed red cells, platelets or nucleated cells within vacuoles rather than homogeneous striated cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60383",
+  "recognize_zh": "霍奇金區域的 CD20 染色中，大型 Hodgkin 細胞的細胞膜染色強弱不一、多為薄弱或不完整的膜染，部分大細胞幾乎陰性；背景散布的小淋巴球僅少數陽性，其餘多為陰性（T 細胞為主）。大細胞 B 細胞標記弱化／不一致是典型霍奇金細胞（HRS）的特徵之一。",
+  "features": [
+    "CD20 IHC in the Hodgkin-type area",
+    "Large cells with weak, incomplete or variable membranous CD20; some large cells negative",
+    "Small scattered strongly stained cells and cell fragments/debris",
+    "Background small lymphocytes largely CD20-negative, consistent with a T-cell-rich microenvironment",
+    "No sheets of strongly CD20-positive large B cells"
+  ],
+  "describe_en": "CD20 immunohistochemistry in the Hodgkin-type area shows weak to moderate, often incomplete membranous staining in a subset of the scattered large neoplastic cells, while other large cells are negative. The background small lymphocytes are predominantly CD20-negative, with scattered positive small cells and dot-like debris. There are no sheets of strongly CD20-positive large cells. Weak and heterogeneous CD20 in the large cells, together with CD30 positivity, supports Hodgkin/Reed-Sternberg cells in Richter transformation of Hodgkin lymphoma type.",
+  "ddx": [
+    {"dx": "Richter transformation, DLBCL type", "vs": "DLBCL-type Richter shows confluent sheets of large cells with uniformly strong CD20 and PAX5, unlike this weak, variable staining of scattered cells."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL large cells are strongly and uniformly CD20-positive, CD30- and CD15-negative, in contrast to weak/variable CD20 in HRS cells."},
+    {"dx": "Nodular lymphocyte predominant Hodgkin lymphoma", "vs": "LP cells show strong CD20 and OCT2 expression within small B-cell-rich nodules, unlike the weak CD20 and T-cell-rich background here."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

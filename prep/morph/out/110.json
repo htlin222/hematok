@@ -1,0 +1,37 @@
+{
+  "id": "110",
+  "recognize_zh": "淋巴結竇狀隙被大片淡染、胞質豐富的大型組織球撐開，胞質內可見完整的淋巴球與漿細胞（emperipolesis，伸入運動），且這些組織球 S100 核與胞質強陽性，符合 Rosai-Dorfman 病（竇組織球增生合併巨大淋巴結病）。",
+  "features": [
+    "Markedly distended lymph node sinuses filled with sheets of large histiocytes alternating with dark lymphoid cords",
+    "Histiocytes with abundant pale eosinophilic to vacuolated cytoplasm and round vesicular nuclei with small distinct nucleoli",
+    "Emperipolesis: intact lymphocytes and plasma cells within histiocyte cytoplasm, surrounded by clear halos (best seen on S100)",
+    "Strong nuclear and cytoplasmic S100 positivity in the large histiocytes, including a multinucleated form",
+    "Lymphoid marker IHC stains the background lymphocytes and plasma cells while the histiocytes are negative; a further marker is negative in the histiocytes",
+    "Contrast CT: enlarged left cervical nodal mass with central low attenuation"
+  ],
+  "describe_en": "Axial contrast-enhanced CT of the neck shows an enlarged left cervical lymph node mass with central low attenuation. Sections of the lymph node show architectural distortion by markedly dilated sinuses packed with large histiocytes, separated by cords of small lymphocytes and plasma cells. The histiocytes have abundant pale eosinophilic to finely vacuolated cytoplasm and round vesicular nuclei with small nucleoli, and many contain intact engulfed lymphocytes and plasma cells (emperipolesis). By immunohistochemistry the histiocytes are strongly positive for S100 in both nucleus and cytoplasm, highlighting emperipolesis, whereas lymphoid markers stain only the background inflammatory cells and an additional stain is negative in the histiocytes. No atypical mitoses or malignant cells are identified in the fields shown. Findings are consistent with Rosai-Dorfman disease (sinus histiocytosis with massive lymphadenopathy).",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are smaller with grooved, reniform nuclei, are accompanied by eosinophils, and are CD1a and langerin positive, whereas RDD histiocytes are large with round nuclei, show emperipolesis and are CD1a negative."},
+    {"dx": "Reactive sinus histiocytosis", "vs": "Reactive sinus histiocytes are S100 negative and lack prominent emperipolesis and massive sinus distension."},
+    {"dx": "Metastatic carcinoma or melanoma in sinuses", "vs": "Metastatic cells show cytologic atypia and cohesive clusters and are keratin or melanocytic marker (HMB45, Melan-A, SOX10) positive, while RDD histiocytes are cytologically bland, CD68/CD163 positive and keratin negative."},
+    {"dx": "IgG4-related lymphadenopathy", "vs": "IgG4-related disease shows plasma cell-rich infiltrates with increased IgG4/IgG ratio and fibrosis without S100-positive emperipolesis-bearing histiocytes, although IgG4-positive plasma cells can be increased in RDD."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E, IHC: S100 and lymphoid markers; CT",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Axial contrast CT neck: enlarged left cervical nodal mass with central low attenuation",
+    "Lymph node, low power: sinuses distended by pale histiocytes between lymphoid cords (H&E)",
+    "Medium power: sheets of pale histiocytes within dilated sinuses (H&E)",
+    "High power: large histiocytes with abundant pale cytoplasm and vesicular nuclei (H&E)",
+    "High power: vacuolated histiocytes admixed with lymphocytes and plasma cells (H&E)",
+    "IHC: lymphoid marker staining background lymphocytes; histiocytes negative",
+    "IHC: positive background lymphoid cells around a negative histiocyte-rich sinus",
+    "IHC: scattered positive plasma cell/lymphoid cells; histiocytes negative",
+    "IHC: negative stain in the histiocytes",
+    "S100: strongly positive histiocytes with emperipolesis of lymphocytes",
+    "S100: positive multinucleated histiocyte containing engulfed lymphocytes",
+    "S100: histiocytes with intracytoplasmic lymphocytes surrounded by clear halos"
+  ]
+}

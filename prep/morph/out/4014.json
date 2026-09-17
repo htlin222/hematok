@@ -1,0 +1,21 @@
+{
+  "id": "4014",
+  "recognize_zh": "血液抹片中兩顆大型細胞緊貼在一起，核質比極高、染色質細緻、細胞質極少，交界處呈核互相擠壓變形（nuclear molding）；形似母細胞或淋巴瘤細胞，但成對擠壓的外觀應想到小細胞神經內分泌癌。",
+  "features": [
+    "Two adjacent large cells with very high N:C ratio and scant rim of cytoplasm",
+    "Finely granular, evenly dispersed chromatin without prominent nucleoli",
+    "Nuclear molding where the two cells abut",
+    "Red cells poorly spread with artifact (thick or air-drying area of the smear)",
+    "No cytoplasmic granules or vacuoles in the atypical cells"
+  ],
+  "describe_en": "Peripheral blood smear shows a pair of large atypical cells with very high nuclear-to-cytoplasmic ratios, finely granular chromatin and scant cytoplasm, with nuclear molding at their interface. Red cell morphology in the field is distorted by smear artifact. Cytologically the cells could be mistaken for blasts or leukemic lymphoma cells, but the cohesive molding is a clue to a non-hematopoietic small round cell tumor. Findings are suggestive of circulating carcinoma cells, compatible with small-cell neuroendocrine carcinoma; immunophenotyping (CD45 negative, keratin, synaptophysin, INSM1) is required.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic or myeloid leukemia", "vs": "Blasts are discohesive single cells without nuclear molding and express CD45 with lineage markers on flow cytometry."},
+    {"dx": "Leukemic phase of lymphoma (e.g., Burkitt or mantle cell blastoid)", "vs": "Lymphoma cells are discohesive, may show vacuolated basophilic cytoplasm, and are CD45 and B- or T-cell marker positive, unlike keratin-positive carcinoma."},
+    {"dx": "Metastatic neuroblastoma or other small round blue cell tumor", "vs": "Neuroblastoma forms rosettes with fibrillary neuropil in children; separation requires immunostains and clinical age."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

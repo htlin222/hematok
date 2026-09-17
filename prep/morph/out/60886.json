@@ -1,0 +1,22 @@
+{
+  "id": "60886",
+  "recognize_zh": "Desmin 免疫染色中，縱向走行、帶橫紋（cross-striation）的骨骼肌纖維強陽性可作為內部陽性對照，周圍片狀的小圓形腫瘤細胞胞質也呈棕色點狀/環狀陽性，支持肌源性分化的橫紋肌肉瘤。",
+  "features": [
+    "Three to four entrapped skeletal muscle fibers running vertically with strong desmin staining and visible cross-striations (internal positive control)",
+    "Sheets of densely packed tumor cells with round, hematoxylin-counterstained nuclei",
+    "Tumor cell cytoplasmic desmin positivity, often as perinuclear dot-like or rim-like brown deposits",
+    "Staining heterogeneous, with a subset of tumor cells weak or negative",
+    "No alveolar architecture assessable at this high-power field"
+  ],
+  "describe_en": "Desmin immunohistochemistry on the primary soft-tissue mass shows sheets of discohesive-appearing small round tumor cells infiltrating between entrapped skeletal muscle fibers. The native muscle fibers are strongly desmin positive with preserved cross-striations, serving as an internal positive control. The majority of tumor cells show cytoplasmic desmin staining, frequently in a dot-like or perinuclear pattern, while a minority are weak. Findings support myogenic differentiation and are consistent with rhabdomyosarcoma, in keeping with the provided diagnosis of alveolar rhabdomyosarcoma; myogenin/MyoD1 and FOXO1 rearrangement studies help confirm the alveolar subtype.",
+  "ddx": [
+    {"dx": "Neuroblastoma", "vs": "Neuroblastoma is desmin and myogenin negative and expresses synaptophysin, PHOX2B and PGP9.5."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma shows membranous CD99 and nuclear NKX2.2 with EWSR1 rearrangement, and lacks nuclear myogenin (desmin is usually negative)."},
+    {"dx": "Lymphoblastic lymphoma/leukemia", "vs": "Lymphoblasts are TdT, CD34/CD99 and CD45 or CD19/CD3 positive and desmin negative."},
+    {"dx": "Embryonal rhabdomyosarcoma", "vs": "Both are desmin positive; alveolar type shows diffuse strong myogenin and PAX3/PAX7::FOXO1 fusion, whereas embryonal type has patchy myogenin and fusion-negative status."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: desmin",
+  "match": "consistent",
+  "high_yield": false
+}

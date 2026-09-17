@@ -1,0 +1,22 @@
+{
+  "id": "3827",
+  "recognize_zh": "骨髓抹片中央有一顆巨大組織球，細胞質充滿均一的小空泡、呈淡藍灰色泡沫狀（桑葚或肥皂泡樣），核小而卵圓，體積遠大於周圍造血細胞，是 Niemann-Pick 泡沫細胞的典型樣貌。",
+  "features": [
+    "Very large histiocyte, many times the size of adjacent neutrophils and red cells",
+    "Low N:C ratio with a single small oval nucleus and fine chromatin",
+    "Abundant pale blue-gray cytoplasm filled with uniform small clear vacuoles (foamy/mulberry appearance)",
+    "No fibrillary 'crumpled tissue paper' texture",
+    "Background normal hematopoietic cells: metamyelocyte/band, myelocyte, lymphocytes, erythroid precursors"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a very large histiocyte with a single small oval nucleus and abundant pale blue-gray cytoplasm uniformly packed with small, clear, round vacuoles, giving a foamy or mulberry appearance. The cytoplasm lacks the fibrillary striations of Gaucher cells. Surrounding hematopoietic cells appear unremarkable. Findings are consistent with a lipid-laden foam cell (Niemann-Pick cell), compatible with Niemann-Pick disease in the appropriate clinical context; confirmation by acid sphingomyelinase activity or NPC1/NPC2 testing is recommended.",
+  "ddx": [
+    {"dx": "Gaucher cell", "vs": "Gaucher cells have striated, fibrillary 'crumpled tissue paper' cytoplasm rather than uniform round vacuoles."},
+    {"dx": "Sea-blue histiocyte", "vs": "Sea-blue histiocytes contain blue-green granules on Romanowsky stain, although they can coexist with foam cells in Niemann-Pick disease."},
+    {"dx": "Foamy macrophages in hyperlipidemia or TPN/lipid infusion", "vs": "Secondary lipid-laden macrophages are fewer, occur with a clinical lipid source, and enzyme studies are normal."},
+    {"dx": "Mycobacterium avium complex-laden histiocytes", "vs": "MAC-laden histiocytes show faint striated negative images of bacilli and are strongly AFB positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1223",
+  "recognize_zh": "周邊血液抹片中散在許多單顆血小板，數量看起來偏多，大小大致正常到略大；嗜中性球與紅血球形態正常，無淚滴細胞或幼稚細胞。此單一視野無法確定血小板計數，需結合全血計數才能判讀為原發性血小板增多症。",
+  "features": [
+    "Numerous scattered single platelets, apparently increased in number",
+    "Platelets of normal to mildly increased size with granular centers; no large clumps",
+    "Five mature segmented neutrophils with normal granulation and segmentation",
+    "Red cells largely normocytic and normochromic without teardrop cells",
+    "No immature myeloid cells, blasts or nucleated red cells in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic, normochromic red cells without significant poikilocytosis. Platelets are dispersed singly and appear increased, with normal to slightly large forms and no clumping. Several mature segmented neutrophils with normal granulation are present, and no blasts, immature granulocytes, teardrop cells or nucleated red cells are seen. The degree of thrombocytosis cannot be quantified from this field and requires correlation with the platelet count. Findings are consistent with essential thrombocythemia in the appropriate clinical and molecular (JAK2, CALR, MPL) context.",
+  "ddx": [
+    {"dx": "Reactive (secondary) thrombocytosis", "vs": "Reactive thrombocytosis has similar smear morphology; separation depends on clinical context (iron deficiency, inflammation), absence of driver mutations and marrow megakaryocyte morphology."},
+    {"dx": "Primary myelofibrosis (prefibrotic)", "vs": "PMF shows teardrop cells and leukoerythroblastosis in the blood and atypical clustered megakaryocytes in marrow, which are absent here."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows leukocytosis with a left shift and basophilia and is BCR::ABL1-positive, unlike this field with only mature neutrophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

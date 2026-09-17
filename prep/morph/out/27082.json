@@ -1,0 +1,22 @@
+{
+  "id": "27082",
+  "recognize_zh": "骨髓切片由正常細胞密度、散在巨核細胞（A）逐步變為過度增生、巨核細胞增多且成群、形態不典型（B、C），網狀纖維染色顯示纖維增加；周邊血可見未成熟骨髓細胞與有核紅血球（leukoerythroblastic picture）——呈現 romiplostim 相關骨髓纖維化進展為骨髓增生性腫瘤的過程。",
+  "features": [
+    "Panel A (H&E): roughly age-appropriate cellularity with scattered megakaryocytes and fat",
+    "Panels B–C (H&E): hypercellular marrow with increased, loosely clustered megakaryocytes showing variable size and hyperlobated/hyperchromatic nuclei",
+    "Insets (reticulin): increased reticulin fibers, more dense and intersecting in panel C",
+    "Panel C inset (low power): markedly hypercellular marrow core",
+    "Panel D (PB): circulating immature granulocytes and a nucleated red cell (leukoerythroblastic picture)"
+  ],
+  "describe_en": "Sequential bone marrow trephine sections show progression from a marrow with preserved fat and scattered megakaryocytes (A) to a hypercellular marrow with increased, clustered megakaryocytes of variable size with hyperlobated and hyperchromatic nuclei (B, C). Reticulin stains (insets) demonstrate increasing reticulin fibrosis, becoming a dense intersecting network. The peripheral blood smear (D) shows immature granulocytes and a nucleated red cell, consistent with a leukoerythroblastic reaction. In a patient treated with romiplostim, the findings are consistent with thrombopoietin-receptor agonist-associated marrow fibrosis evolving into a myeloproliferative neoplasm (MPN, unclassifiable), with fibrosis grade requiring formal reticulin scoring.",
+  "ddx": [
+    {"dx": "Reversible TPO-receptor agonist-induced reticulin fibrosis", "vs": "Drug-related fibrosis is usually low grade (MF-1) with normal megakaryocyte morphology and regresses after drug withdrawal, without persistent leukoerythroblastosis or clonal markers."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows dense clusters of bulbous 'cloud-like' megakaryocytes with JAK2/CALR/MPL driver mutations and no preceding TPO-agonist exposure."},
+    {"dx": "Essential thrombocythemia", "vs": "ET has normocellular marrow with large hyperlobulated 'staghorn' megakaryocytes and no significant reticulin fibrosis or leukoerythroblastosis."},
+    {"dx": "MDS with fibrosis", "vs": "MDS with fibrosis shows small hypolobated micromegakaryocytes and multilineage dysplasia rather than large hyperlobated megakaryocytes."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; reticulin; Wright-Giemsa (PB)",
+  "match": "consistent",
+  "high_yield": false
+}

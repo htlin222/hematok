@@ -1,0 +1,21 @@
+{
+  "id": "3443",
+  "recognize_zh": "周邊血抹片右側一顆中性球的細胞邊緣附著並疑似吞入數個血小板，旁邊還有散在血小板，左側則有一團聚集的血小板；中性球吞噬血小板可造成假性血小板低下，需與血小板衛星現象區分。",
+  "features": [
+    "Segmented neutrophil with a few platelets at its cytoplasmic margin, some appearing internalized",
+    "Neutrophil granulation and nuclear segmentation otherwise normal",
+    "Separate small platelet clump on the left side of the field",
+    "Scattered single platelets near the neutrophil",
+    "Red cells normochromic and normocytic with central pallor"
+  ],
+  "describe_en": "Peripheral blood smear shows normochromic, normocytic red cells. A segmented neutrophil on the right has several platelets at its cytoplasmic edge, with at least one appearing to lie within the cytoplasm, and scattered single platelets nearby. A separate small platelet clump is present on the left. At this resolution, true internalization cannot be distinguished with certainty from platelets overlying the neutrophil. The appearance is consistent with leukocyte phagocytosis of platelets (an EDTA-related in vitro phenomenon), which can contribute to spurious thrombocytopenia.",
+  "ddx": [
+    {"dx": "Platelet satellitism", "vs": "In satellitism platelets form a rosette around the entire outer membrane of neutrophils without being engulfed, rather than lying within the cytoplasm."},
+    {"dx": "Intracellular bacteria (sepsis)", "vs": "Bacteria are uniform small dark cocci or rods within vacuoles, often with toxic granulation, whereas platelets are larger, pale purple with central granules."},
+    {"dx": "Döhle bodies or toxic granulation", "vs": "Döhle bodies are pale blue cytoplasmic patches and toxic granules are fine dark granules, not discrete granular platelet fragments."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

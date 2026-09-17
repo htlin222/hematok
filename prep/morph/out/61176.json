@@ -1,0 +1,23 @@
+{
+  "id": "61176",
+  "recognize_zh": "骨髓切片中骨小樑（下方粉紅色）旁的骨髓腔被大型腫瘤細胞取代，細胞核呈泡狀、核仁明顯，細胞質豐富偏嗜酸性，背景是淡粉紅色纖維網狀的神經氈（neuropil），提示神經分化，符合轉移性神經母細胞瘤（neuroblastoma）。",
+  "features": [
+    "Marrow space adjacent to a bony trabecula replaced by a tumor infiltrate with loss of normal hematopoiesis",
+    "Large pleomorphic tumor cells with round vesicular nuclei and conspicuous, often single, nucleoli",
+    "Moderate to abundant eosinophilic to amphophilic cytoplasm; some cells polygonal and ganglion-like",
+    "Pale eosinophilic fibrillary background matrix consistent with neuropil",
+    "Scattered mitotic figures and occasional bizarre nuclei",
+    "No Homer Wright rosettes identified in this field"
+  ],
+  "describe_en": "Bone marrow biopsy shows marrow spaces adjacent to a bony trabecula replaced by a metastatic tumor with effacement of normal hematopoietic elements. The tumor cells are large, with vesicular nuclei, prominent nucleoli, and moderate to abundant eosinophilic cytoplasm, set within a pale fibrillary neuropil-like background. Mitotic figures are present; Homer Wright rosettes are not identified. Findings are consistent with metastatic neuroblastoma with differentiating features; confirmation with PHOX2B, synaptophysin, or chromogranin immunostains is recommended.",
+  "ddx": [
+    {"dx": "Metastatic rhabdomyosarcoma", "vs": "Rhabdomyoblasts have dense eosinophilic cytoplasm with cross-striations and no fibrillary neuropil, and are desmin/myogenin positive."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma consists of uniform small round cells with scant clear cytoplasm lacking neuropil and ganglionic differentiation, and is CD99/NKX2.2 positive."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive nests with desmoplastic stroma rather than neuropil and is cytokeratin positive."},
+    {"dx": "Acute megakaryoblastic leukemia or megakaryocytic hyperplasia", "vs": "Megakaryocytes have lobulated nuclei and are CD61/CD42b positive, without fibrillary neuropil."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

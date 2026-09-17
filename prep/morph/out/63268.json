@@ -1,0 +1,22 @@
+{
+  "id": "63268",
+  "recognize_zh": "高倍血液抹片中可見大小差異明顯的芽細胞：左上一顆大型芽細胞有豐富深藍色細胞質與不規則突起（cytoplasmic blebs），右下與右側芽細胞也有細緻染色質與鋸齒狀胞膜；具細胞質泡狀突起的巨核母細胞樣芽細胞，出現在唐氏症新生兒血中即是 TAM 的典型樣貌。",
+  "features": [
+    "Blasts of markedly variable size: one large blast (upper left) and smaller blasts (right, lower right)",
+    "Fine, dispersed chromatin with faintly visible small nucleoli",
+    "Moderate to abundant deeply basophilic, agranular cytoplasm",
+    "Irregular cell borders with cytoplasmic blebs and pseudopod-like projections, resembling megakaryoblasts",
+    "Band neutrophil (lower left) for comparison; thick smear area with overlapping red cells"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows circulating blasts of variable size with fine chromatin, small nucleoli and moderate to abundant deeply basophilic, agranular cytoplasm. Several blasts have irregular borders with cytoplasmic blebs and projections; the large blast at the upper left resembles a megakaryoblast. A band neutrophil is present for comparison. In a neonate with Down syndrome, blasts with this megakaryoblastic morphology are consistent with transient abnormal myelopoiesis; immunophenotyping for CD41/CD61 and GATA1 mutation analysis are supportive.",
+  "ddx": [
+    {"dx": "Myeloid leukemia associated with Down syndrome (AMKL)", "vs": "Blasts are morphologically identical; distinction depends on age beyond the neonatal period, persistence and marrow fibrosis rather than cytology."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts have scant cytoplasm and smooth borders without cytoplasmic blebs, and are negative for myeloid/megakaryocytic markers."},
+    {"dx": "Reactive lymphocytes", "vs": "Reactive lymphocytes have condensed chromatin without nucleoli and cytoplasm that hugs adjacent red cells rather than blebbing."},
+    {"dx": "Non-Down syndrome acute megakaryoblastic leukemia", "vs": "Similar blebbed blasts but occurs without trisomy 21 and GATA1 mutation, often with RBM15-MKL1 or CBFA2T3-GLIS2 fusions."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

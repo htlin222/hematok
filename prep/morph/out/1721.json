@@ -1,0 +1,22 @@
+{
+  "id": "1721",
+  "recognize_zh": "周邊血液抹片中一顆細胞含兩個分開、大小相近的細胞核，染色質粗糙團塊狀，細胞質中等量、呈深藍色且邊緣較深染，屬於雙核的反應性淋巴球樣細胞；型態上無法直接判定是否為非整倍體（aneuploid），標題需配合細胞遺傳學解讀。",
+  "features": [
+    "Single binucleate cell larger than surrounding red cells",
+    "Two separate, similarly sized round nuclei with coarsely clumped chromatin; no distinct nucleoli",
+    "Moderate amount of deeply basophilic cytoplasm, darker at the periphery, with a pale perinuclear zone",
+    "Smooth oval cell outline; no granules or vacuoles",
+    "Normocytic red cells with occasional irregular forms in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows a binucleate cell with two separate, similarly sized nuclei containing coarsely clumped chromatin and a moderate rim of deeply basophilic cytoplasm with peripheral accentuation. No nucleoli, granules, or vacuoles are seen. The appearance resembles a binucleate reactive (plasmacytoid) lymphocyte, a cell that may result from abnormal mitosis or failed cytokinesis. Ploidy cannot be determined from morphology; the designation 'aneuploid cell' requires cytogenetic or DNA content correlation, so the image only partially supports the title.",
+  "ddx": [
+    {"dx": "Binucleate plasma cell", "vs": "Plasma cells have eccentric nuclei with clock-face chromatin and a distinct paranuclear hof in more abundant cytoplasm."},
+    {"dx": "Cell in late telophase", "vs": "A telophase cell shows a cleavage furrow with condensed chromosomes pulling toward opposite poles rather than two fully reconstituted interphase nuclei."},
+    {"dx": "Two overlapping lymphocytes", "vs": "Overlapping cells show two separate cytoplasmic outlines, whereas this cell has a single continuous cell membrane."},
+    {"dx": "Hodgkin/Reed-Sternberg cell", "vs": "Reed-Sternberg cells are much larger with vesicular chromatin and huge eosinophilic macronucleoli and are not found in peripheral blood."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

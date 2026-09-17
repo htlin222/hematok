@@ -1,0 +1,22 @@
+{
+  "id": "1447",
+  "recognize_zh": "上方骨髓切片（H&E）與下方抹片中的巨核細胞，細胞核都是單一圓形、不分葉且偏於一側，細胞質豐富，是 del(5q) MDS 典型的非分葉巨核細胞（non-lobated megakaryocytes）。",
+  "features": [
+    "Upper panel (H&E biopsy): megakaryocytes with single round to oval non-lobated nuclei and abundant eosinophilic cytoplasm",
+    "Upper panel background: clusters of erythroid precursors with round dense nuclei near fat spaces",
+    "Lower panel (aspirate smear): two megakaryocytes with abundant granular cytoplasm and single eccentric round nuclei",
+    "Megakaryocytes are normal to slightly reduced in size, not micromegakaryocytes",
+    "Adjacent platelets and platelet clumps in the aspirate background"
+  ],
+  "describe_en": "Composite of a bone marrow core biopsy section (H&E, upper) and aspirate smear (Wright-Giemsa, lower). In the biopsy, megakaryocytes with single round to oval non-lobated nuclei and abundant cytoplasm are seen among erythroid precursors. The aspirate shows two megakaryocytes of near-normal size with abundant granular cytoplasm and single, eccentric, round nuclei, with nearby platelet clumps. Non-lobated or hypolobated megakaryocytes of normal to slightly reduced size are the characteristic finding of myelodysplastic syndrome with isolated del(5q), and the findings are consistent with that diagnosis.",
+  "ddx": [
+    {"dx": "Micromegakaryocytes (other MDS, CML)", "vs": "Micromegakaryocytes are small with scant cytoplasm and a single small nucleus, whereas del(5q) megakaryocytes retain normal size and abundant cytoplasm."},
+    {"dx": "Essential thrombocythemia", "vs": "ET megakaryocytes are large to giant with hyperlobulated staghorn nuclei in loose clusters."},
+    {"dx": "MDS with separated nuclear lobes", "vs": "Other MDS show megakaryocytes with multiple widely separated round nuclear lobes rather than one compact round nucleus."},
+    {"dx": "Immature megakaryocytes in regeneration", "vs": "Immature forms have scant basophilic cytoplasm and high N:C ratio rather than abundant mature granular cytoplasm."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E (upper); Wright-Giemsa (lower)",
+  "match": "consistent",
+  "high_yield": true
+}

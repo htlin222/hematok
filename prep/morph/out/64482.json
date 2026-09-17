@@ -1,0 +1,21 @@
+{
+  "id": "64482",
+  "recognize_zh": "一顆比紅血球還小的皺縮細胞，核染色質濃縮成深藍紫色，並可見兩個小而圓的濃縮核碎片位於淡染空泡內，細胞質少且泛藍，符合凋亡淋巴球的核碎裂（karyorrhexis）。",
+  "features": [
+    "Small, shrunken cell (about 7 µm), smaller than adjacent red cells",
+    "Intensely condensed, homogeneous dark nuclear chromatin",
+    "Two small round dense nuclear fragments (apoptotic bodies) within a pale vacuolated area",
+    "Scant deeply basophilic cytoplasm with an irregular outline",
+    "Background normochromic red cells, including a teardrop-like cell"
+  ],
+  "describe_en": "Peripheral blood smear shows a small shrunken cell with markedly condensed chromatin and two small, round, dense nuclear fragments lying within a clear vacuole, surrounded by scant basophilic cytoplasm. No nucleolus or preserved chromatin pattern is identified. In a patient treated with cladribine for hairy cell leukemia, these features represent an apoptotic lymphocyte showing cell shrinkage, pyknosis, and karyorrhexis.",
+  "ddx": [
+    {"dx": "Orthochromatic normoblast", "vs": "A late normoblast has a single round pyknotic nucleus and hemoglobinized pink cytoplasm rather than multiple nuclear fragments in blue cytoplasm."},
+    {"dx": "Hypersegmented or storage-damaged neutrophil", "vs": "Storage-damaged neutrophils are larger, retain neutrophilic granules, and show round detached lobes in pink cytoplasm."},
+    {"dx": "Micromegakaryocyte / small megakaryocytic fragment", "vs": "Micromegakaryocytes have a dense single nucleus with granular pink cytoplasm and platelet budding, not fragmented chromatin in vacuoles."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

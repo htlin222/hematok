@@ -1,0 +1,21 @@
+{
+  "id": "60147",
+  "recognize_zh": "骨髓抹片中成群的中到大型胚細胞，核大且常有凹陷或摺痕、染色質細緻、可見核仁，外圍為中等量灰藍色細胞質並帶少許空泡；形態偏單核球樣，但譜系需靠流式細胞儀確認為混合表型急性白血病。",
+  "features": [
+    "Cluster of intermediate to large blasts with high N:C ratio",
+    "Nuclei round to indented/folded, some with cleft or notched contours",
+    "Fine, dispersed chromatin with small but discernible nucleoli",
+    "Moderate grey-blue to basophilic cytoplasm with scattered fine vacuoles; no Auer rods seen",
+    "Occasional smaller cell with more condensed chromatin; background red cells and smudged nuclear material"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of intermediate to large blasts with high nuclear-to-cytoplasmic ratios, round to indented and folded nuclei, finely dispersed chromatin, and small visible nucleoli. The cytoplasm is moderate in amount, grey-blue to basophilic, and contains scattered fine vacuoles; no Auer rods or distinct granules are identified. Normal maturing hematopoietic elements are not evident in this field. Findings are consistent with acute leukemia with markedly increased blasts; the monocytoid nuclear folding raises myelomonocytic differentiation, and in the setting of immunophenotypic B-lymphoid co-expression and KMT2A rearrangement, the findings support mixed phenotype acute leukemia.",
+  "ddx": [
+    {"dx": "Acute monocytic/myelomonocytic leukemia", "vs": "Morphology overlaps completely, so exclusion relies on flow cytometry showing no B-lineage (CD19 with strong CD79a/CD22/CD10) or T-lineage (cytoplasmic CD3) commitment."},
+    {"dx": "B-lymphoblastic leukemia with KMT2A rearrangement", "vs": "KMT2A-rearranged B-ALL (often CD10-negative) lacks MPO and monocytic markers, whereas MPAL shows a second myeloid/monocytic component."},
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "APL-M3v has bilobed/folded nuclei but typically shows fine granules, strong MPO, CD34/HLA-DR negativity, and PML::RARA."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

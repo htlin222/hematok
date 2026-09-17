@@ -1,0 +1,22 @@
+{
+  "id": "63920",
+  "recognize_zh": "骨髓抹片中有一群比周圍顆粒球大好幾倍的外來細胞，彼此黏聚成小團，核大且圓或凹凸不平、染色質顆粒狀並可見核仁，細胞質豐富淡藍色、呈泡沫狀且邊界不清，這種黏聚性大細胞團提示轉移性癌。",
+  "features": [
+    "Clusters of large cohesive non-hematopoietic cells, several times the size of adjacent neutrophils",
+    "Large round to lobulated or indented nuclei with coarsely granular chromatin and small nucleoli",
+    "Abundant pale blue, finely vacuolated to foamy cytoplasm with indistinct, frayed borders",
+    "Cells arranged in small groups and a loose sheet with overlapping nuclei",
+    "Background red cells, a few mature neutrophils and platelets; normal hematopoietic precursors are sparse in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows clusters and loose sheets of large, cohesive cells that are foreign to the marrow, in a background of red cells and scattered neutrophils. The cells have large round to lobulated nuclei with coarsely granular chromatin and small nucleoli, and abundant pale blue, finely vacuolated cytoplasm with ill-defined borders. Normal hematopoietic precursors are sparse in this field. Findings are consistent with metastatic non-hematopoietic malignancy, and with the reported AE1/AE3 and TTF-1 positivity and CD45 negativity, are consistent with metastatic lung carcinoma.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts are discohesive single cells with delicate lacy chromatin, nonspecific esterase positivity and CD45 expression, unlike cohesive keratin-positive clusters."},
+    {"dx": "Osteoblast clusters", "vs": "Osteoblasts have eccentric nuclei with a distinct paranuclear hof away from the nucleus and occur in children or healing bone, and they are keratin negative."},
+    {"dx": "Anaplastic large cell lymphoma or plasmablastic neoplasm", "vs": "These can mimic cohesive clusters but are CD45 or CD30/CD138 positive and keratin negative."},
+    {"dx": "Metastatic carcinoma from other sites (e.g. breast, GI, kidney)", "vs": "Morphology overlaps, so the TTF-1 positive, CDX2 negative, PSA negative immunoprofile is what assigns a lung primary."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61600",
+  "recognize_zh": "整片密集排列的中大型腫瘤細胞，細胞膜呈強而一致的 CD138 陽性（棕色蜂巢狀），核圓、部分偏位，顯示腫瘤細胞為漿細胞表型，符合漿母細胞淋巴瘤（plasmablastic lymphoma）。",
+  "features": [
+    "Diffuse sheet of medium-to-large, closely packed tumor cells",
+    "Strong, uniform membranous CD138 staining in virtually all tumor cells, giving a honeycomb pattern",
+    "Round to oval nuclei, some eccentrically placed, with open chromatin",
+    "Moderate amounts of cytoplasm with weaker cytoplasmic staining",
+    "Thin fibrovascular septa traverse the sheet; no intervening CD138-negative population"
+  ],
+  "describe_en": "Immunohistochemical stain for CD138 on a tissue section shows a diffuse, sheet-like proliferation of medium-to-large neoplastic cells. Virtually all tumor cells show strong, uniform membranous (and weaker cytoplasmic) CD138 expression. The cells have round, often eccentric nuclei with moderate cytoplasm. In the context of a large-cell lymphoma with plasmacytic differentiation, this supports a plasma-cell immunophenotype and is consistent with plasmablastic lymphoma (EBV-positive by EBER ISH in this case).",
+  "ddx": [
+    {"dx": "Plasmablastic plasma cell myeloma", "vs": "Both are CD138+; myeloma usually has a known M-protein, lytic lesions, marrow involvement and is typically EBV-negative, whereas PBL is often EBER+ in an immunocompromised host or oral/extranodal site."},
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "Also CD138+ with plasmablastic morphology but shows granular cytoplasmic ALK staining and is EBV-negative."},
+    {"dx": "Primary effusion lymphoma (extracavitary)", "vs": "Shares a CD138+/CD20- phenotype but is HHV8 (LANA) positive."},
+    {"dx": "Diffuse large B-cell lymphoma with plasmablastic features", "vs": "Retains CD20/PAX5 expression, whereas PBL lacks or only weakly expresses pan-B-cell markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD138",
+  "match": "consistent",
+  "high_yield": false
+}

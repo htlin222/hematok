@@ -1,0 +1,23 @@
+{
+  "id": "60741",
+  "recognize_zh": "周邊血嗜酸性球增多並伴隨核略不規則的非典型淋巴球，流式可見一群表面抗原異常的 T 細胞（框選處）；淋巴結副皮質區擴張、混有許多嗜酸性球，CD2 陽性但 CD7 大量流失，形似周邊 T 細胞淋巴瘤，實為淋巴球變異型嗜酸性球增多症候群。",
+  "features": [
+    "Panel A (PB): increased mature eosinophils with bilobed nuclei and orange granules",
+    "Panel A (PB): small-to-medium lymphocytes with mildly irregular/indented nuclei and moderate pale cytoplasm",
+    "Panel B: flow cytometry plots with a gated aberrant T-cell population (red) separated from normal T cells (axis labels not legible)",
+    "Panel C (LN low power): preserved follicles with markedly expanded paracortex",
+    "Panel D (LN high power): polymorphous paracortical infiltrate of small-to-medium lymphocytes with numerous eosinophils and high endothelial venules",
+    "Panel E: CD2 diffusely positive in the paracortex; CD7 positive in only scattered cells (loss of CD7)"
+  ],
+  "describe_en": "Peripheral blood smear shows eosinophilia accompanied by atypical small-to-medium lymphocytes with irregular nuclei, and flow cytometry identifies a distinct aberrant T-cell population. The lymph node shows preserved follicles with marked paracortical expansion by a polymorphous infiltrate rich in eosinophils; immunostains show diffuse CD2 expression with loss of CD7 in most paracortical T cells. In context, findings are consistent with the lymphocytic variant of hypereosinophilic syndrome driven by an aberrant cytokine-producing T-cell clone (typically CD3−CD4+ or CD7−), which can mimic peripheral T-cell lymphoma and requires clinical correlation and follow-up.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL effaces nodal architecture with sheets of cytologically atypical T cells and broader antigen loss, whereas L-HES preserves follicles with a mild aberrant population and indolent course."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows expanded FDC meshworks, arborizing HEVs and TFH markers (PD1, CXCL13, ICOS) with EBV+ B blasts."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and tyrosine kinase fusion", "vs": "These carry PDGFRA/PDGFRB/FGFR1/JAK2 rearrangements with myeloid marrow abnormalities and lack a cytokine-producing aberrant T-cell clone."},
+    {"dx": "Reactive paracortical hyperplasia (drug reaction/DRESS)", "vs": "Reactive hyperplasia has an immunophenotypically normal T-cell population without CD7 loss or a clonal aberrant subset."}
+  ],
+  "specimen": "LN",
+  "stain": "Wright-Giemsa; H&E; IHC: CD2, CD7; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "66326",
+  "recognize_zh": "骨髓抹片上方兩格可見體積大、核圓、染色質細緻、具明顯核仁的非造血腫瘤細胞，細胞質灰藍並含空泡，其中一顆為雙核；下方切片可見骨小樑旁有多形性、深染的梭形至不規則核細胞浸潤，需以 desmin、myogenin 免疫染色確認為橫紋肌肉瘤（rhabdomyosarcoma）。",
+  "features": [
+    "Top panels (aspirate): large atypical cells, several times the size of red cells, with round to oval nuclei and a binucleate/overlapping-nucleus form",
+    "Finely granular to vesicular chromatin with one or more distinct nucleoli",
+    "Moderate grey-blue cytoplasm with irregular frayed borders and cytoplasmic vacuoles",
+    "Cells occur singly without myeloid maturation features or granules",
+    "Bottom panel (trephine H&E): marrow replaced by pleomorphic hyperchromatic spindled to irregular cells in a loose fibrillary/edematous stroma adjacent to a bony trabecula"
+  ],
+  "describe_en": "Bone marrow aspirate contains large atypical non-hematopoietic-appearing cells with round nuclei, fine chromatin, prominent nucleoli and moderate vacuolated grey-blue cytoplasm, including a binucleate form. The accompanying trephine biopsy shows marrow spaces replaced by pleomorphic hyperchromatic spindled and irregular tumor cells in a loose stroma adjacent to bone trabeculae, without residual hematopoiesis in this field. The morphology indicates metastatic malignancy; with desmin, myogenin and MyoD1 positivity, findings are consistent with marrow involvement by rhabdomyosarcoma (alveolar type in this case).",
+  "ddx": [
+    {"dx": "Acute leukemia (e.g., AML with monocytic or megakaryoblastic differentiation)", "vs": "Leukemic blasts are CD45+ and express myeloid markers on flow, while rhabdomyosarcoma cells are CD45− and desmin/myogenin positive, often forming cohesive clusters."},
+    {"dx": "Ewing sarcoma / other small round blue cell tumors", "vs": "Ewing cells are smaller and more monotonous with scant cytoplasm and are CD99/NKX2.2 positive with EWSR1 rearrangement rather than myogenin positive."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive epithelial clusters and is cytokeratin positive and desmin/myogenin negative."},
+    {"dx": "Alveolar rhabdomyosarcoma mimicking hematolymphoid neoplasm (CD56/CD19 expression)", "vs": "Aberrant CD56 or CD19 on flow can mislead, so a CD45-negative gate should prompt myogenin/MyoD1 staining and FOXO1 rearrangement testing."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E",
+  "match": "consistent",
+  "high_yield": false
+}

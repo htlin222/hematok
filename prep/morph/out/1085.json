@@ -1,0 +1,21 @@
+{
+  "id": "1085",
+  "recognize_zh": "骨髓切片中可見多顆細胞質豐富、嗜酸性、核為單一圓形且較小的大細胞，符合CML常見的小型低分葉巨核細胞（dwarf megakaryocytes），周圍為流線狀的梭形細胞基質；單憑此圖無法確立CML，需搭配BCR-ABL1。",
+  "features": [
+    "Clusters of large cells with abundant eosinophilic cytoplasm and a single round, hypolobated nucleus",
+    "Nuclei with vesicular chromatin and a small visible nucleolus, favoring small hypolobated megakaryocytes",
+    "Streaming, dark spindle-shaped nuclei between the large cells suggesting fibrosis and/or crush",
+    "Adjacent hemorrhagic area with scattered hematopoietic cells",
+    "Granulocytic hyperplasia is not well assessable in this field"
+  ],
+  "describe_en": "Bone marrow biopsy section shows a fragment containing clustered large cells with abundant eosinophilic cytoplasm and single, round, hypolobated nuclei, in keeping with small hypolobated megakaryocytes. The intervening stroma contains streaming, hyperchromatic spindle nuclei suggestive of fibrosis with some crush artifact, and an adjacent area is hemorrhagic. Overall marrow cellularity and myeloid maturation cannot be assessed in this field. In the appropriate context, the megakaryocytic morphology is compatible with chronic myeloid leukemia; confirmation of BCR-ABL1 is required.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "PMF megakaryocytes are atypical with cloud-like, hyperchromatic, bulbous nuclei and form dense clusters, rather than small monolobated forms; BCR-ABL1 is negative."},
+    {"dx": "Myelodysplastic syndrome with micromegakaryocytes", "vs": "MDS micromegakaryocytes are usually smaller with dysplasia in other lineages and a hypocellular-to-normocellular marrow without the granulocytic hyperplasia of CML."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Metastatic cells form cohesive sheets with pleomorphic nuclei and are keratin- or melanocytic marker-positive, whereas megakaryocytes express CD61/CD42b."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

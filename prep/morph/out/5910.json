@@ -1,0 +1,22 @@
+{
+  "id": "5910",
+  "recognize_zh": "一群異常前骨髓細胞，核不規則或折疊，細胞質內可見成束交錯的 Auer 小體（柴束細胞 faggot cell），並有粗大嗜天青顆粒，這是急性前骨髓細胞白血病（APL, PML::RARA）的典型形態。",
+  "features": [
+    "Cluster of large abnormal promyelocytes with irregular, folded to reniform nuclei",
+    "Moderate N:C ratio; nuclear outlines partly obscured by granules",
+    "Multiple Auer rods arranged in crisscrossing bundles within the cytoplasm (faggot cells)",
+    "Abundant cytoplasm with coarse azurophilic granules, some cells with a clear ectoplasmic rim",
+    "Background of normocytic red cells without other obvious leukocytes"
+  ],
+  "describe_en": "Smear shows a cluster of large abnormal promyelocytes with irregular, folded nuclei and abundant cytoplasm packed with azurophilic granules. Several cells contain multiple Auer rods arranged in bundles (faggot cells), and one cell shows coarse granules with a clear ectoplasmic rim. Normal maturing granulocytes are not evident in this field. Findings are consistent with acute promyelocytic leukemia (hypergranular type); urgent confirmation of PML::RARA and coagulation screening for DIC are recommended.",
+  "ddx": [
+    {"dx": "AML with t(8;21)(q22;q22.1); RUNX1::RUNX1T1", "vs": "Blasts in t(8;21) typically have a single long slender Auer rod and a salmon-colored perinuclear hof, not bundles of Auer rods in hypergranular cells."},
+    {"dx": "Microgranular (hypogranular) APL", "vs": "The microgranular variant shows bilobed nuclei with sparse or invisible granules and rare Auer rods, unlike the heavily granulated faggot cells here."},
+    {"dx": "Reactive promyelocytes (marrow recovery, G-CSF)", "vs": "Reactive promyelocytes have round eccentric nuclei with a Golgi hof and orderly maturation, and never contain Auer rods."},
+    {"dx": "APL variant with RARA partner other than PML (e.g. ZBTB16::RARA)", "vs": "Morphology can overlap, but ZBTB16::RARA cases have more regular nuclei and fewer Auer rods and are ATRA-resistant, so molecular testing is required."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

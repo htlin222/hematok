@@ -1,0 +1,22 @@
+{
+  "id": "65256",
+  "recognize_zh": "周邊血抹片可見少數中至大型異常淋巴球，核輪廓不規則、染色質較細緻，部分有中等量淡藍色細胞質；流式細胞儀同時分出兩群：CD19+/CD20+ 無輕鏈表現的 B 細胞，以及表面 CD3 陰性、胞質 CD3+、CD4+、CD10+、CD279 (PD-1)+ 的 TFH 表型 T 細胞，提示循環中的複合型 B 與 T 細胞淋巴瘤。",
+  "features": [
+    "Medium to large atypical lymphoid cells in peripheral blood with irregular, indented nuclear contours (A-D)",
+    "Moderately condensed to finely clumped chromatin; nucleoli inconspicuous at this resolution in most cells",
+    "Moderate amount of pale to deeply basophilic cytoplasm, without granules",
+    "Flow: small CD19+/CD20 bright B-cell population lacking surface kappa and lambda light chains",
+    "Flow: aberrant T-cell population (orange) surface CD3-negative, cytoplasmic CD3+, CD2+, CD5+, CD4+, CD7 dim/negative, CD10+ and CD279+ (TFH phenotype)"
+  ],
+  "describe_en": "Peripheral blood smear shows a few medium- to large-sized atypical lymphoid cells with irregular nuclear contours, condensed chromatin and moderate basophilic cytoplasm; morphology alone does not assign lineage. Flow cytometry identifies two abnormal populations: a minor CD19+ CD20-bright B-cell population without surface light chain expression, and a larger T-cell population that lacks surface CD3 but expresses cytoplasmic CD3, CD2, CD5, CD4, CD10 and CD279, with diminished CD7. Findings are suggestive of circulating composite lymphoma with a B-lymphoproliferative disorder and a T-follicular helper cell lymphoma; tissue biopsy is required for classification.",
+  "ddx": [
+    {"dx": "Sezary syndrome", "vs": "Sezary cells are CD4+ with loss of CD7/CD26 and cerebriform nuclei but lack CD10 and PD-1 coexpression with surface CD3 loss, and there is no separate abnormal B-cell population."},
+    {"dx": "Reactive lymphocytes (viral infection)", "vs": "Reactive lymphocytes are polyclonal with normal T-cell antigen expression and polytypic B cells, lacking surface CD3 loss or light chain-negative B cells."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows flower-shaped nuclei and CD4+/CD25+ T cells with CD7 loss but is CD10- and HTLV-1-positive."},
+    {"dx": "Leukemic phase of DLBCL alone", "vs": "A pure B-cell process would not explain the phenotypically aberrant CD10+/PD-1+ T-cell population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

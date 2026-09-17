@@ -1,0 +1,21 @@
+{
+  "id": "63138",
+  "recognize_zh": "S-100 在大型組織球的細胞核與豐富細胞質強烈陽性，而箭頭所指的是被包入組織球細胞質中、呈淡色未染的完整淋巴球（細胞穿入現象 emperipolesis），陰性輪廓在棕色背景中特別明顯，這是 Rosai-Dorfman 病的典型表現。",
+  "features": [
+    "Large histiocytes with abundant cytoplasm showing strong nuclear and cytoplasmic S-100 positivity",
+    "Intact S-100-negative lymphocytes/inflammatory cells within histiocyte cytoplasm (emperipolesis, arrows)",
+    "Histiocyte nuclei round to oval, vesicular, with small nucleoli",
+    "Background of fibrous stroma with spindle cells and interspersed small lymphoid cells lacking staining"
+  ],
+  "describe_en": "S-100 immunohistochemistry highlights numerous large histiocytes with abundant cytoplasm and strong nuclear and cytoplasmic staining. Within the cytoplasm of several histiocytes, intact unstained lymphocytes are seen (arrows), representing emperipolesis, which is accentuated by the negative outline against the S-100-positive cytoplasm. The background shows fibrous stroma with spindle cells and scattered inflammatory cells. Findings are consistent with extranodal Rosai-Dorfman disease.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are smaller with grooved, reniform nuclei, co-express CD1a and langerin, and lack emperipolesis."},
+    {"dx": "Erdheim-Chester disease/xanthogranuloma", "vs": "ECD shows foamy histiocytes with Touton giant cells that are usually S-100-negative (or weak), without emperipolesis, and often BRAF V600E-positive."},
+    {"dx": "Reactive sinus histiocytosis", "vs": "Reactive histiocytes are S-100-negative and do not show prominent emperipolesis."},
+    {"dx": "IgG4-related disease", "vs": "IgG4-RD shows storiform fibrosis, obliterative phlebitis and increased IgG4+ plasma cells without S-100-positive emperipolesis-rich histiocytes, although RDD may have increased IgG4 cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: S-100",
+  "match": "consistent",
+  "high_yield": true
+}

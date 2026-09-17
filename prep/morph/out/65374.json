@@ -1,0 +1,21 @@
+{
+  "id": "65374",
+  "recognize_zh": "周邊血液抹片中三顆中型淋巴樣細胞核圓、染色質均勻，淡藍灰色細胞質四周伸出細毛狀突起，是毛細胞（hairy cell）的樣子。",
+  "features": [
+    "Three medium-sized lymphoid cells with round to oval nuclei",
+    "Homogeneous, moderately condensed chromatin without prominent nucleoli",
+    "Moderate pale blue-gray cytoplasm",
+    "Fine, irregular hair-like cytoplasmic projections around the cell border",
+    "Thick smear area with closely packed red cells; magnification limits fine detail"
+  ],
+  "describe_en": "Peripheral blood smear at moderate magnification shows three medium-sized lymphoid cells with round nuclei, homogeneous chromatin and moderate pale blue-gray cytoplasm with fine circumferential hair-like projections. Nucleoli are not conspicuous, and no other leukocytes are present in this field. Evaluation is limited by magnification and smear thickness. Findings are suggestive of hairy cell leukemia; confirmation by flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing is recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "Cells have a prominent nucleolus and lack CD25, ANXA1 and BRAF V600E."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Villous lymphocytes have short polar villi and lack the CD103/CD25/CD123 co-expression of hairy cells."},
+    {"dx": "Monocytes", "vs": "Monocytes are larger with folded nuclei, lacy chromatin and vacuolated gray cytoplasm rather than round nuclei with hairy borders."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64102",
+  "recognize_zh": "胃黏膜固有層被成片、核偏心的漿細胞取代（A），插圖箭頭指出核內 Dutcher body；CD138 膜陽性（B）、MUM1 核陽性（C 插圖）、CD20 與 PAX5 陰性（E、F），加上單一輕鏈表現，符合胃部髓外漿細胞腫瘤。",
+  "features": [
+    "Lamina propria expanded by sheets of plasma cells with eccentric nuclei, clumped chromatin and amphophilic cytoplasm, displacing gastric glands (A)",
+    "Inset: atypical plasma cell with an intranuclear Dutcher body (arrow) adjacent to gastric epithelium",
+    "CD138: strong membranous staining of the sheet (B); MUM1: strong nuclear staining (C inset)",
+    "Light chains per figure legend: lambda (C) negative and kappa (D) diffusely cytoplasmic positive, indicating monotypic expression",
+    "CD20 (E) and PAX5 (F) negative in the plasma cells"
+  ],
+  "describe_en": "Gastric polyp biopsy shows the lamina propria diffusely expanded by sheets of plasma cells with eccentric nuclei and focal atypia, including Dutcher bodies, separating residual gastric glands. The infiltrate is positive for CD138 and MUM1 and negative for CD20 and PAX5, with monotypic cytoplasmic light chain expression. Note that the figure legend labels panel C as lambda (negative) and panel D as kappa (positive), which conflicts with the case description stating lambda restriction; the correct light chain should be confirmed against the original report. In a patient with known myeloma, findings are consistent with extramedullary involvement by plasma cell neoplasm.",
+  "ddx": [
+    {"dx": "Extranodal marginal zone lymphoma (MALT) with plasmacytic differentiation", "vs": "MALT lymphoma contains a CD20+/PAX5+ neoplastic B-cell component with lymphoepithelial lesions in addition to monotypic plasma cells, whereas here CD20 and PAX5 are negative."},
+    {"dx": "Reactive plasma cell-rich gastritis (e.g., H. pylori)", "vs": "Reactive plasma cells are polytypic with mixed kappa and lambda staining and lack sheets with Dutcher bodies."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma shows large immunoblastic cells with high Ki-67, frequent EBER positivity and usually no prior myeloma history."},
+    {"dx": "Poorly differentiated carcinoma or signet ring cell carcinoma", "vs": "Carcinoma is cytokeratin-positive and CD138 can be positive in carcinoma, so keratin and light chain stains are needed when plasmacytoid morphology is present."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD138, lambda, MUM1, kappa, CD20, PAX5",
+  "match": "partial",
+  "high_yield": false
+}

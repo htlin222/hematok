@@ -1,0 +1,21 @@
+{
+  "id": "13712",
+  "recognize_zh": "上方周邊血可見三個胞質深藍、核圓的原始紅血球樣細胞；下方血液分析儀散佈圖顯示網狀紅血球區（LFR/MFR/HFR）幾乎無點、而有核紅血球（NRBC）區點數密集，代表大量未成熟紅系細胞進入血液卻無法成熟為網狀紅血球，即紅血球成熟阻斷。",
+  "features": [
+    "Three circulating immature cells with round nuclei, fine to slightly clumped chromatin and deeply basophilic cytoplasm with irregular borders, consistent with early erythroblasts",
+    "Background red cells normochromic with mild anisocytosis; no polychromatophilic cells evident",
+    "Reticulocyte scattergram (left): dense mature RBC cluster with very sparse events in the LFR, MFR and HFR reticulocyte gates",
+    "NRBC scattergram (right): large, dense NRBC population clearly separated from the white cell cluster",
+    "Discordance between abundant nucleated erythroid cells and near-absent reticulocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating immature cells with round nuclei and intensely basophilic cytoplasm, consistent with early erythroid precursors, against a background of normochromic red cells without polychromasia. The accompanying automated analyzer plots show a prominent nucleated red cell population in the NRBC channel, while the reticulocyte channel contains very few events in the low, medium and high fluorescence reticulocyte gates. This combination indicates release of immature erythroid cells without effective terminal maturation. In a patient with prior polycythemia vera, findings are consistent with transformation to acute erythroid leukemia with a block in red cell maturation; marrow examination with E-cadherin/CD71 immunostaining and TP53 analysis is recommended.",
+  "ddx": [
+    {"dx": "Leukoerythroblastic reaction (marrow infiltration or post-PV myelofibrosis)", "vs": "Leukoerythroblastosis shows mostly late orthochromatic NRBCs with teardrop cells and left-shifted myeloid cells, and reticulocytes are usually preserved."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic anemia shows macro-ovalocytes and hypersegmented neutrophils, and the marrow precursors mature with nuclear-cytoplasmic asynchrony rather than arresting at the pronormoblast stage."},
+    {"dx": "Acute megakaryoblastic or other AML with basophilic blasts", "vs": "Megakaryoblasts show cytoplasmic blebs and CD41/CD61 positivity, whereas erythroid blasts are CD71, E-cadherin and glycophorin positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; hematology analyzer scattergrams",
+  "match": "consistent",
+  "high_yield": false
+}

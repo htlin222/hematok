@@ -1,0 +1,20 @@
+{
+  "id": "64037",
+  "recognize_zh": "這是一張 G 帶染色的核型圖（karyogram），男性（XY），第 20 號染色體其中一條的長臂明顯變短（紅色箭頭），代表 del(20q)，是 MDS 常見的細胞遺傳異常。",
+  "features": [
+    "G-banded karyogram with 22 autosome pairs plus X and Y (male, 46 chromosomes)",
+    "One chromosome 20 homolog with a visibly shortened long arm (red arrow), consistent with del(20)(q11.2)",
+    "No other numerical or obvious structural abnormalities in the displayed metaphase",
+    "Banding resolution is modest; breakpoint assignment relies on the reported karyotype rather than this image alone"
+  ],
+  "describe_en": "Conventional cytogenetic analysis of the bone marrow shows a G-banded male karyogram with an interstitial/terminal deletion of the long arm of one chromosome 20 (arrow). The remaining autosomes and sex chromosomes appear numerically and structurally normal at this resolution. Per the report, the abnormality was present in all 20 metaphases analyzed: 46,XY,del(20)(q11.2)[20]. Isolated del(20q) is a recurrent abnormality in MDS and other myeloid neoplasms but is not by itself MDS-defining in the absence of morphologic dysplasia.",
+  "ddx": [
+    {"dx": "Normal chromosome 20 homolog / banding artifact", "vs": "A true del(20q) is reproducible across multiple metaphases and confirmable by interphase FISH (e.g., D20S108 probe), whereas contraction artifact is inconsistent."},
+    {"dx": "Isolated del(20q) in CCUS or non-neoplastic setting", "vs": "Karyotype cannot separate these; del(20q) without diagnostic dysplasia does not establish MDS, so marrow morphology is required."},
+    {"dx": "Monosomy 20 or ring 20", "vs": "Monosomy shows a single chromosome 20 and ring 20 shows a circular chromosome, whereas here two chromosome 20s are present with one having a shortened q arm."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": false
+}

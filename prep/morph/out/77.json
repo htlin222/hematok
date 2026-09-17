@@ -1,0 +1,38 @@
+{
+  "id": "77",
+  "recognize_zh": "肺組織中可見以血管為中心（angiocentric）、侵犯血管壁的非典型大型淋巴細胞浸潤，伴大片壞死；EBER 原位雜交在血管周圍有大量陽性核，大 B 細胞成片分布，符合第 3 級淋巴瘤樣肉芽腫（lymphomatoid granulomatosis）。",
+  "features": [
+    "Angiocentric and angioinvasive lymphoid infiltrate expanding and destroying vessel walls in lung parenchyma",
+    "Extensive geographic necrosis with viable perivascular cuffs of lymphoid cells",
+    "Numerous large atypical lymphoid cells with vesicular to hyperchromatic, pleomorphic nuclei and prominent nucleoli, including bizarre forms, forming sheets",
+    "Polymorphous background of small lymphocytes, histiocytes, and apoptotic debris; no well-formed granulomas",
+    "IHC shows many large membrane-positive (presumed CD20+) B cells in confluent aggregates",
+    "EBER ISH: numerous positive nuclei in large cells, concentrated around vessels"
+  ],
+  "describe_en": "Wedge biopsy of lung shows a dense lymphoid infiltrate with an angiocentric and angiodestructive pattern, vessel walls infiltrated by lymphoid cells, and extensive surrounding necrosis. The infiltrate is polymorphous, containing small lymphocytes and histiocytes admixed with numerous large atypical lymphoid cells with pleomorphic, vesicular to hyperchromatic nuclei and prominent nucleoli, which form confluent sheets in areas; well-formed granulomas are not seen. Immunohistochemistry (presumed CD20) highlights many large membrane-positive B cells, and EBER in situ hybridization shows abundant positive nuclei in large cells, most concentrated in perivascular zones. Findings are consistent with lymphomatoid granulomatosis, grade 3.",
+  "ddx": [
+    {"dx": "EBV-positive diffuse large B-cell lymphoma, NOS", "vs": "EBV+ DLBCL forms nodal or extranodal sheets of large B cells without the dominant pulmonary angiocentric/angiodestructive pattern and T-cell-rich background characteristic of LYG."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "ENKTL is also angiocentric, necrotic, and EBER-positive, but the EBV-positive cells are CD3ε+/CD56+/cytotoxic T/NK cells rather than CD20+ B cells."},
+    {"dx": "Granulomatosis with polyangiitis", "vs": "GPA shows necrotizing granulomatous vasculitis with neutrophilic microabscesses and multinucleated giant cells, lacks atypical EBER-positive large B cells, and is ANCA (PR3) positive."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "CHL has Reed-Sternberg cells that are CD30+/CD15+ with weak PAX5 and CD20 negative, rather than sheets of CD20+ EBV-positive large B cells in an angiocentric distribution."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (presumed CD20); ISH: EBER",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "High power H&E: large pleomorphic atypical lymphoid cells with a bizarre hyperchromatic cell and apoptotic debris.",
+    "Low-medium power H&E: diffuse sheet of atypical lymphoid cells with eosinophilic fibrinoid material.",
+    "H&E: lung parenchyma with a vessel wall infiltrated by lymphoid cells (angiocentric infiltrate).",
+    "H&E: viable cuff of atypical lymphoid cells around a vessel amid necrosis.",
+    "H&E: necrotic background with scattered atypical lymphoid cells and small vessels.",
+    "H&E low power: vessel with mural lymphoid infiltrate surrounded by extensive necrosis.",
+    "IHC low power (presumed CD20): patchy confluent aggregates of positive cells.",
+    "IHC medium power: clusters of large cells with membranous positivity.",
+    "IHC high power: large atypical cells with strong membranous staining.",
+    "IHC: numerous membrane-positive cells surrounding a vessel.",
+    "EBER ISH low power: positive nuclei concentrated around vessels in necrotic tissue.",
+    "EBER ISH medium power: perivascular cuff of EBER-positive nuclei.",
+    "EBER ISH high power: strong nuclear signal in many large atypical cells."
+  ]
+}

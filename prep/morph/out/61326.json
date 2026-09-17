@@ -1,0 +1,21 @@
+{
+  "id": "61326",
+  "recognize_zh": "四格 CD34 骨髓切片：A、B 見大量 CD34 陽性母細胞成群分布，並勾勒出竇狀血管內皮；C、D 在脂肪較多的區域中，一些形狀不規則、帶分葉核的較大細胞呈 CD34 陽性，形態似小型或發育不良的巨核細胞，提醒判讀時不可把所有 CD34 陽性細胞都算作母細胞。",
+  "features": [
+    "Panels A-B: numerous CD34-positive mononuclear blasts forming clusters and sheets in cellular marrow",
+    "CD34-positive sinusoidal endothelium outlining vascular channels (internal control)",
+    "Panels C-D: in fatty marrow, larger irregular CD34-positive cells with lobated nuclei and moderate cytoplasm, suggestive of small dysplastic megakaryocytes",
+    "Adjacent CD34-positive capillaries in C-D",
+    "Negative background myeloid and erythroid cells"
+  ],
+  "describe_en": "This composite of CD34 immunohistochemistry on bone marrow core biopsy shows, at low and intermediate power (A, B), markedly increased CD34-positive blasts forming clusters and sheets, with CD34-positive sinusoidal endothelium serving as an internal control. At high power in a hypocellular, fat-rich area (C, D), several larger, irregularly shaped cells with lobated nuclei and moderate cytoplasm are CD34-positive; their size and nuclear configuration suggest small dysplastic megakaryocytes rather than blasts. The figure illustrates that CD34 highlights endothelium and, in myeloid neoplasms, aberrant megakaryocytes, so blast counts should rely on cytologic confirmation; correlation with CD61 or CD42b is recommended for the cells in C-D.",
+  "ddx": [
+    {"dx": "CD34-positive capillaries/endothelium", "vs": "Endothelial cells are flattened and line lumens, whereas blasts are round mononuclear cells and megakaryocytes are large lobated cells."},
+    {"dx": "Increased blasts in MDS/AML", "vs": "Blasts are small, uniform, round mononuclear cells without nuclear lobation and are CD61-negative."},
+    {"dx": "Hematogones/early B-cell precursors", "vs": "Hematogones are small scattered cells with a maturation spectrum (CD34 dim to negative, CD20 acquired) and do not form sheets."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

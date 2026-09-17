@@ -1,0 +1,22 @@
+{
+  "id": "61643",
+  "recognize_zh": "低倍骨髓切片幾乎全為細胞、脂肪極少，並可見多處顏色較深藍、呈結節或片狀的細胞聚集散布在較淡的骨髓中；這些深染聚集在高倍下為未成熟紅系前驅細胞群，是 PCM1::JAK2 腫瘤的線索，但低倍本身不具特異性。",
+  "features": [
+    "Bone marrow core with near 100% cellularity and markedly reduced fat",
+    "Multiple darker basophilic nodular to sheet-like aggregates of immature cells",
+    "Paler intervening areas of mixed hematopoiesis with red cells",
+    "Bony trabeculae of normal thickness without osteosclerosis",
+    "Low magnification precludes cytologic assessment"
+  ],
+  "describe_en": "Low-power view of the bone marrow core biopsy shows a markedly hypercellular marrow with near 100% cellularity and minimal fat. Multiple darker basophilic nodular and sheet-like aggregates of immature-appearing cells are distributed among paler areas of mixed hematopoiesis. Bony trabeculae appear unremarkable. Cytologic detail cannot be assessed at this magnification; higher power and immunostains (glycophorin, CD34, CD117) are needed to characterize the aggregates. In the context of PCM1::JAK2 fusion, the aggregates correspond to expanded islands of immature erythroid precursors.",
+  "ddx": [
+    {"dx": "Acute leukemia with blast clusters", "vs": "Blast aggregates are CD34/CD117 positive and glycophorin negative on immunohistochemistry."},
+    {"dx": "Lymphoma involving marrow", "vs": "Lymphoid aggregates are composed of CD20 or CD3 positive lymphocytes and may be paratrabecular or nodular."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML marrow is hypercellular with granulocytic predominance and small megakaryocytes, and requires BCR::ABL1 rather than erythroid islands."},
+    {"dx": "Metastatic tumor", "vs": "Tumor nests show cohesive epithelial or other non-hematopoietic morphology with desmoplasia and lineage-specific markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

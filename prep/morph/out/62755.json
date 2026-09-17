@@ -1,0 +1,22 @@
+{
+  "id": "62755",
+  "recognize_zh": "骨髓切片細胞密度極高、以成熟中的顆粒球為主並有網狀纖維明顯增生，免疫染色未見母細胞增加；下排的追蹤切片細胞密度下降、脂肪重新出現、纖維減少，符合腫瘤異位分泌 G-CSF 造成的反應性嗜中性類白血病反應與纖維化。",
+  "features": [
+    "Markedly hypercellular marrow with near-complete loss of fat, dominated by maturing granulocytic cells (H&E, panel A)",
+    "Diffuse dense reticulin fibrosis with streaming fibers (panel B)",
+    "Immunostains (unlabeled) show myeloid-predominant infiltrate without clusters of positive blasts",
+    "Megakaryocytes present without prominent clustering or marked atypia in the fields shown",
+    "Lower row (presumably follow-up): reduced cellularity with return of adipocytes and less fibrosis"
+  ],
+  "describe_en": "Bone marrow biopsy (upper row) shows a markedly hypercellular marrow with near-total replacement of fat by maturing granulocytic elements, accompanied by diffuse dense reticulin fibrosis. The immunostains shown, whose specific antibodies are not labeled in the image, do not demonstrate increased blast clusters. The lower row, presumably a subsequent biopsy, shows lower cellularity with reappearance of adipocytes and a less dense reticulin network. In the appropriate clinical context of a G-CSF-secreting tumor, findings are consistent with a neutrophilic leukemoid reaction with reactive marrow fibrosis that regressed after removal of the stimulus.",
+  "ddx": [
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL shows similar granulocytic hyperplasia but carries CSF3R mutations and persists without an identifiable G-CSF-producing tumor or regression after its removal."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows basophilia, a myelocyte peak, small hypolobated megakaryocytes, and BCR::ABL1, which a leukemoid reaction lacks."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF has clustered atypical cloud-like megakaryocytes, JAK2/CALR/MPL mutations, and does not regress when an extramedullary tumor is resected."},
+    {"dx": "Metastatic carcinoma with desmoplasia", "vs": "Metastatic tumor would show keratin-positive cohesive epithelial nests within the fibrotic marrow."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E, reticulin; IHC (unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

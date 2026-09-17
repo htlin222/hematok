@@ -1,0 +1,22 @@
+{
+  "id": "4175",
+  "recognize_zh": "骨髓抹片中央一顆漿細胞核偏位、染色質粗塊，胞質豐富且帶淡紫紅色調而非一般的深藍色，這種胞質富含免疫球蛋白的樣子就是火焰細胞（flame cell），常與 IgA 骨髓瘤相關。",
+  "features": [
+    "Plasma cell with eccentric round nucleus and clumped chromatin",
+    "Abundant cytoplasm with a pinkish-lilac (reddish-purple) hue instead of deep blue",
+    "Smooth cytoplasmic borders without granules",
+    "Adjacent large cell with round nucleus and fine chromatin",
+    "Background myelocytes, band neutrophils, erythroid precursors and small lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows mixed hematopoietic elements including granulocytic precursors, band neutrophils and erythroid precursors. A plasma cell in the center displays an eccentric nucleus with clumped chromatin and abundant cytoplasm with a reddish-purple (flame-like) tint, representing a 'flame cell'. The fuchsia coloration is relatively subtle in this preparation. Flame cells reflect immunoglobulin-rich cytoplasm and are most often associated with IgA plasma cell myeloma, though they are not specific and can occur in reactive plasmacytosis.",
+  "ddx": [
+    {"dx": "Mott cell", "vs": "Mott cells contain multiple discrete round pale Russell bodies (grape-like) rather than diffusely pink cytoplasm."},
+    {"dx": "Promyelocyte / myelocyte", "vs": "Granulocytic precursors show azurophilic or specific granules and a paler perinuclear Golgi area without the plasma cell's clumped clock-face chromatin."},
+    {"dx": "Reactive plasma cell", "vs": "Reactive plasma cells usually have deep blue cytoplasm with a hof and are polytypic on kappa/lambda studies."},
+    {"dx": "Thesaurocyte", "vs": "Thesaurocytes are enlarged plasma cells with abundant pale-to-pink cytoplasm distending the cell; the distinction from flame cells is descriptive rather than diagnostic."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

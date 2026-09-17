@@ -1,0 +1,21 @@
+{
+  "id": "60917",
+  "recognize_zh": "抹片中出現中至大型、染色質細緻像芽細胞的淋巴樣細胞，切片為成片的中大型細胞，免疫染色呈瀰漫但沿竇狀隙排列的陽性，FISH 以 7 號著絲點與 7q31 探針評估 7q 拷貝數（等臂染色體 7q），在克隆氏症病人應想到肝脾 T 細胞淋巴瘤的芽細胞樣變異。",
+  "features": [
+    "Aspirate: medium-to-large blastoid lymphoid cells with fine chromatin, round to slightly irregular nuclei and moderate basophilic cytoplasm",
+    "Biopsy H&E: sheets of medium-to-large cells with vesicular chromatin, small nucleoli and moderate pale cytoplasm",
+    "IHC: extensive positivity of the infiltrate with a cord-like/sinusoidal distribution at low power (marker not labeled)",
+    "FISH with centromere 7 (green) and 7q31 (red) probes on interphase nuclei to assess 7q gain/isochromosome 7q"
+  ],
+  "describe_en": "Bone marrow aspirate shows medium-to-large blastoid lymphoid cells with fine chromatin, slightly irregular nuclei and moderate basophilic cytoplasm. The trephine biopsy is extensively infiltrated by sheets of similar cells with vesicular chromatin and small nucleoli. An immunostain highlights the neoplastic cells diffusely with a cord-like, sinusoidal-appearing pattern. Interphase FISH using centromere 7 and 7q31 probes is performed to detect isochromosome 7q, although signal enumeration is limited at this image resolution. In a young patient with Crohn disease on immunosuppression, the findings are consistent with hepatosplenic T-cell lymphoma with blastoid morphology, pending confirmation of a CD3+/CD5-/CD4-/CD8- cytotoxic γδ (or αβ) T-cell phenotype.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-LBL cells express TdT and often CD1a/CD34 with cytoplasmic CD3, whereas HSTCL is TdT-negative, CD5-negative and TIA-1 positive with i(7q)."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloid blasts are MPO/CD33/CD117 positive and lack T-cell antigens."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells are small with abundant cytoplasm and azurophilic granules, show interstitial linear clusters and have an indolent course without i(7q)."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Surface CD3 negative, EBV (EBER) positive, typically in young Asian patients, and lacks TCR gene rearrangement."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC (unlabeled); FISH: CEP7/7q31",
+  "match": "consistent",
+  "high_yield": false
+}

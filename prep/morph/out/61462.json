@@ -1,0 +1,21 @@
+{
+  "id": "61462",
+  "recognize_zh": "骨髓切片 H&E 顯示明顯高細胞性骨髓，三系造血仍存在，另有許多小至中型淋巴樣細胞散布並沿竇狀隙線狀排列；H&E 上浸潤很隱微，需要 CD3 等免疫染色凸顯竇內分布才能確認肝脾 T 細胞淋巴瘤。",
+  "features": [
+    "Markedly hypercellular marrow core with reduced fat",
+    "Trilineage hematopoiesis present, including megakaryocytes and erythroid islands",
+    "Increased small to medium lymphoid cells with dark, round nuclei, some arranged in subtle linear rows along sinusoids",
+    "No discrete lymphoid aggregates or granulomas",
+    "Intrasinusoidal pattern is subtle on H&E; peripheral blood clot/hemorrhage at upper left"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows a markedly hypercellular marrow with persistent trilineage hematopoiesis. There is an increased population of small to medium-sized lymphoid cells with dark nuclei, some aligned in linear arrays suggestive of an intrasinusoidal distribution, without discrete nodular aggregates. The infiltrate is subtle and cannot be confidently characterized on H&E alone at this magnification. Immunohistochemistry for CD3, CD8, TIA-1 and TCR delta would be required; in that context the findings are consistent with marrow involvement by hepatosplenic T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Reactive hypercellular marrow (e.g., hypersplenism)", "vs": "Reactive marrow lacks a clonal, sinusoid-restricted CD3+ infiltrate and TCR clonality."},
+    {"dx": "T-large granular lymphocytic leukemia", "vs": "Also intrasinusoidal on CD8 staining but the cells are CD8+ alpha-beta T cells with granzyme B positivity and no i(7q)."},
+    {"dx": "Myeloproliferative neoplasm", "vs": "Hypercellularity is driven by atypical megakaryocytes and granulocytic expansion rather than an increased lymphoid infiltrate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3467",
+  "recognize_zh": "骨髓抹片中大多為中大型原始細胞（blasts），核圓或略有凹摺、染色質細緻、部分可見小核仁，細胞質量少到中等、淡灰藍且無明顯顆粒，與少數成熟桿狀中性球並存；此形態可見於 ALL 也可見於單核球性白血病，必須靠流式或細胞化學區分。",
+  "features": [
+    "Increased medium to large blasts with high N:C ratio",
+    "Round to indented/folded nuclei with fine, dispersed chromatin",
+    "Small nucleoli visible in some cells",
+    "Scant to moderate agranular pale gray-blue cytoplasm without Auer rods",
+    "Admixed small dark lymphocytes/erythroid precursors and occasional band neutrophils"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a predominance of medium to large blasts with high N:C ratios, round to indented nuclei, finely dispersed chromatin, occasional small nucleoli and scant to moderate agranular gray-blue cytoplasm. Auer rods are not seen, and there are scattered band neutrophils and small mature-appearing cells. The blasts lack definitive lineage-specific features. Morphology alone cannot distinguish lymphoblasts from monoblasts/promonocytes in this image; flow cytometry (CD19, CD10, cCD79a, CD34, TdT versus CD14, CD64, CD11b, lysozyme) and cytochemistry (MPO, nonspecific esterase) are required for classification.",
+  "ddx": [
+    {"dx": "Acute monoblastic/monocytic leukemia", "vs": "Monoblasts usually have more abundant gray-blue cytoplasm with fine vacuoles or granules, delicate nuclear folds and are nonspecific esterase positive and CD14/CD64 positive, while lymphoblasts are TdT and CD19 or cCD3 positive."},
+    {"dx": "AML with minimal differentiation", "vs": "Minimally differentiated myeloblasts are morphologically similar but express CD13/CD33/CD117 and MPO by flow while lacking B- or T-lineage markers."},
+    {"dx": "Hematogone-rich regenerating marrow", "vs": "Hematogones have homogeneous condensed chromatin and scant cytoplasm and show a maturing CD10/CD20/CD34 continuum rather than a discrete blast population."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

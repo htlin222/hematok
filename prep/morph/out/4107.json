@@ -1,0 +1,22 @@
+{
+  "id": "4107",
+  "recognize_zh": "箭頭指的兩顆細胞核偏心、染色質呈粗塊狀、核旁有淡染的高爾基區（hof），細胞質深藍且含小空泡，是典型的漿細胞（plasma cell）。",
+  "features": [
+    "Oval cells (arrows) with abundant deeply basophilic cytoplasm and eccentric round nuclei",
+    "Coarsely clumped chromatin without prominent nucleoli",
+    "Pale perinuclear hof adjacent to the nucleus",
+    "Fine cytoplasmic vacuoles in the plasma cells",
+    "Background of maturing myeloid precursors, a lymphocyte and erythroid cells in a bloody aspirate"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a mixed hematopoietic population with maturing granulocytic and erythroid precursors. Two plasma cells are highlighted, each with an eccentric round nucleus, coarsely clumped chromatin, a perinuclear hof, and abundant basophilic, finely vacuolated cytoplasm. The plasma cells appear mature without nucleoli or multinucleation in this field. Findings illustrate plasma cell morphology; distinguishing reactive from neoplastic plasma cells requires quantitation, CD138 immunohistochemistry, and light-chain restriction.",
+  "ddx": [
+    {"dx": "Osteoblasts", "vs": "Osteoblasts are larger, occur in clusters, and have the hof located away from the nucleus rather than directly adjacent to it."},
+    {"dx": "Promyelocytes/myelocytes", "vs": "They have azurophilic or specific granules and a Golgi zone, but the cytoplasm is less deeply basophilic and granulated rather than vacuolated."},
+    {"dx": "Plasmacytoid lymphocytes (LPL)", "vs": "They are smaller with less cytoplasm and a less distinct hof, and are CD20-positive."},
+    {"dx": "Basophilic normoblasts", "vs": "They have central round nuclei with checkerboard chromatin and a narrow rim of deep blue cytoplasm without a hof."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

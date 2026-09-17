@@ -1,0 +1,21 @@
+{
+  "id": "65322",
+  "recognize_zh": "骨髓切片 CD123 免疫染色中，脂肪空泡間大多數腫瘤細胞呈顆粒狀的細胞質與膜棕色染色，強度中等且廣泛分布，顯示 CD123 陽性細胞瀰漫浸潤，支持 BPDCN 的骨髓侵犯。",
+  "features": [
+    "Diffuse infiltrate of medium-sized cells between fat spaces",
+    "Moderate, granular cytoplasmic and membranous CD123 staining in the majority of cells",
+    "Staining intensity is weaker and more granular than the companion CD4 stain",
+    "Occasional CD123-negative cells with blue nuclei",
+    "Uneven section thickness with loosened cellularity toward the top"
+  ],
+  "describe_en": "CD123 immunohistochemical stain of the bone marrow trephine biopsy shows a diffuse infiltrate of medium-sized cells, the majority of which display moderate granular cytoplasmic and membranous CD123 positivity. Occasional negative background cells are present. CD123 is not specific in isolation, as it is expressed in some AML and in reactive plasmacytoid dendritic cells, so interpretation requires the CD4, CD56, TCF4 and TCL1 profile. Findings support involvement by blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "AML with CD123 expression", "vs": "CD123-positive AML blasts express myeloid markers such as MPO, CD13, CD33 or CD117 and lack the CD4+CD56+TCF4+TCL1+ pDC profile."},
+    {"dx": "Reactive plasmacytoid dendritic cell aggregates", "vs": "Reactive pDCs form small clusters of CD123+ cells rather than diffuse sheets replacing marrow."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells are CD123-positive but are B cells expressing CD20, CD11c, CD103 and annexin A1."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD123",
+  "match": "consistent",
+  "high_yield": false
+}

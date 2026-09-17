@@ -1,0 +1,21 @@
+{
+  "id": "2929",
+  "recognize_zh": "周邊血液低倍視野中，中央兩顆嗜中性球被一圈聚集的血小板環繞貼附（platelet satellitism），而背景其他區域游離血小板很少；這是 EDTA 引起的體外假性血小板減少，改用檸檬酸抗凝管重抽即可確認。",
+  "features": [
+    "Two neutrophils in the center surrounded by a rosette of adherent platelets",
+    "Platelets are normal-sized and clustered around and on the neutrophil membranes",
+    "Few free platelets elsewhere in the field",
+    "Additional neutrophil with associated platelets at the top edge",
+    "Background red cells unremarkable at this low magnification"
+  ],
+  "describe_en": "Peripheral blood smear at low power shows neutrophils rimmed by numerous adherent platelets, forming platelet satellites, with relatively few free platelets in the background. The red cells are unremarkable at this magnification, and no platelet clumps unrelated to leukocytes are evident in this field. This phenomenon is an in vitro artifact mediated by EDTA-dependent antibodies and causes falsely low automated platelet counts. Findings are consistent with EDTA-induced platelet satellitism (pseudothrombocytopenia); a repeat count in citrate or heparin anticoagulant is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia (e.g., ITP)", "vs": "True thrombocytopenia shows a genuinely sparse platelet population without platelets adhering to neutrophils or clumping, and the count is low in citrate tubes as well."},
+    {"dx": "EDTA-dependent platelet clumping", "vs": "Clumping forms free platelet aggregates, often at the feathered edge, rather than rosettes around neutrophils, though both cause pseudothrombocytopenia."},
+    {"dx": "Phagocytosis of platelets by neutrophils", "vs": "Phagocytosed platelets lie within the neutrophil cytoplasm in vacuoles, whereas satellitism shows platelets adhering to the outer cell surface."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

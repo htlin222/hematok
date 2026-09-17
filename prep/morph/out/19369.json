@@ -1,0 +1,22 @@
+{
+  "id": "19369",
+  "recognize_zh": "同一視野左側為大片單調、核小而圓、深染的小淋巴球（CLL/SLL），右側則是界線分明的大型上皮樣腫瘤細胞，細胞質豐富淡粉紅、核多形且有明顯核仁（黑色素瘤），兩種腫瘤直接相鄰，即所謂碰撞腫瘤（collision tumor）。",
+  "features": [
+    "Two distinct populations sharply juxtaposed within the same section",
+    "Left: diffuse sheet of monotonous small lymphocytes with round dark nuclei, clumped chromatin, and scant cytoplasm, with small vessels coursing through",
+    "Right: cohesive nests and sheets of large epithelioid cells with abundant pale eosinophilic cytoplasm",
+    "Tumor cells with pleomorphic vesicular nuclei, prominent eosinophilic nucleoli, and occasional binucleation or intranuclear pseudoinclusions",
+    "No obvious melanin pigment in this field; scattered red cells in between"
+  ],
+  "describe_en": "Section stained with H&E shows two morphologically distinct neoplastic populations in direct contact. One consists of a diffuse sheet of monotonous small lymphocytes with round hyperchromatic nuclei and scant cytoplasm, consistent with chronic lymphocytic leukemia/small lymphocytic lymphoma. The other is composed of large, discohesive-to-nested epithelioid cells with abundant pale eosinophilic cytoplasm, pleomorphic vesicular nuclei, and prominent nucleoli, without obvious melanin pigment in this field. Findings are consistent with a collision of CLL/SLL and metastatic melanoma; confirmation with CD5/CD23/CD20 for the lymphoid component and S100, SOX10, HMB-45, or Melan-A for the epithelioid component is recommended.",
+  "ddx": [
+    {"dx": "Richter transformation (large B-cell lymphoma arising in CLL)", "vs": "Large transformed B cells form discohesive sheets with centroblastic or immunoblastic nuclei and express CD20/PAX5, whereas melanoma cells are cohesive, S100/SOX10-positive, and CD45-negative."},
+    {"dx": "Hodgkin-like variant of Richter transformation", "vs": "Hodgkin/Reed-Sternberg-like cells are scattered singly in a mixed inflammatory background and are CD30/CD15-positive rather than forming cohesive epithelioid nests."},
+    {"dx": "Metastatic carcinoma in a lymph node with SLL", "vs": "Carcinoma also forms cohesive epithelioid nests but expresses cytokeratins and lacks S100/SOX10 and melanocytic markers."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL hallmark cells have horseshoe-shaped nuclei and are CD30 and often ALK positive with sinusoidal spread, rather than S100-positive melanocytic cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

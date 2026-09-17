@@ -1,0 +1,22 @@
+{
+  "id": "61751",
+  "recognize_zh": "免疫染色顯示一團密集、呈強膜狀陽性的小型淋巴球結節，周圍有陽性細胞向外散布到陰性的梭形基質區；這種以結節擴張為主的 B 細胞染色型態可對應脾邊緣區淋巴瘤。",
+  "features": [
+    "Dense nodular aggregate of small lymphoid cells with strong membranous staining",
+    "Positive cells spill out from the nodule as single cells into the surrounding tissue",
+    "Surrounding stroma composed of negative spindled/elongated cells",
+    "Uniform small cell size of the positive population",
+    "Specific antibody not labeled in the image; pattern suggests a pan-B-cell marker"
+  ],
+  "describe_en": "Immunohistochemistry (antibody not specified; staining pattern of a pan-B-cell marker such as CD20) highlights a dense nodular aggregate of small lymphoid cells with strong membranous positivity. Positive cells also extend individually into the surrounding negative stroma. Because the antibody is not identified and only one field is shown, the pattern supports a B-cell nodular infiltrate but is not by itself specific. In the clinical and splenic context, findings are consistent with involvement by splenic marginal zone lymphoma.",
+  "ddx": [
+    {"dx": "Reactive white pulp hyperplasia", "vs": "Reactive white pulp retains germinal centers, IgD-positive mantle zones, and polytypic light chains, while SMZL shows monotypic B cells replacing the follicle with a marginal zone pattern."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL cells coexpress CD5 and CD23 with LEF1, whereas SMZL is typically CD5-negative and CD23-negative."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is CD5-positive with nuclear cyclin D1 and SOX11, which SMZL lacks."},
+    {"dx": "Follicular lymphoma", "vs": "FL nodules are CD10/BCL6-positive with BCL2-positive germinal centers, whereas SMZL is CD10-negative."}
+  ],
+  "specimen": "spleen",
+  "stain": "IHC: unlabeled (pan-B-cell pattern, likely CD20)",
+  "match": "consistent",
+  "high_yield": false
+}

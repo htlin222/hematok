@@ -1,0 +1,21 @@
+{
+  "id": "2053",
+  "recognize_zh": "這是低倍免疫組織化學染色（綠色對比染色），棕黑色陽性訊號只出現在數個結節狀區域，呈不規則、破碎的網狀分布，結節間區域陰性；最可能是標示濾泡樹突細胞網（如 CD21/CD23）的染色，突顯濾泡性淋巴瘤中擴張且變形的濾泡結構，但圖上未標明抗體。",
+  "features": [
+    "Low-power immunohistochemical stain with brown-black chromogen and methyl green counterstain",
+    "Positive staining confined to several nodular (follicle-shaped) regions",
+    "Staining within nodules is irregular, fragmented and meshwork-like rather than uniform cellular",
+    "Interfollicular areas are negative",
+    "Antibody is not labeled; pattern most resembles a follicular dendritic cell marker (e.g. CD21/CD23)"
+  ],
+  "describe_en": "Low-power immunohistochemical preparation with methyl green counterstain shows positive brown-black staining restricted to multiple nodular follicle-like areas, with a coarse, irregular and fragmented meshwork pattern. The interfollicular areas are negative. The antibody is not specified, but the distribution most closely resembles expanded, disrupted follicular dendritic cell meshworks. In the context of follicular lymphoma, these findings highlight the nodular follicular architecture of the neoplasm.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia (CD21 stain)", "vs": "Reactive follicles show compact, well-circumscribed FDC meshworks of variable size, and confirmation relies on BCL2-negative germinal centers."},
+    {"dx": "Nodal marginal zone lymphoma with follicular colonization", "vs": "Colonized follicles show fragmented, disrupted CD21 meshworks but the neoplastic cells are CD10 negative."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows extrafollicular expanded CD21 meshworks around high endothelial venules rather than meshworks confined to discrete nodules."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antibody not stated (likely CD21/CD23)",
+  "match": "consistent",
+  "high_yield": false
+}

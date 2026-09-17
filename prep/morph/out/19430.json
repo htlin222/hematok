@@ -1,0 +1,21 @@
+{
+  "id": "19430",
+  "recognize_zh": "室溫下 EDTA 試管壁上可見肉眼可辨的紅色顆粒狀紅血球凝集（A 與放大 inset），血液抹片（B）中紅血球聚成不規則團塊而非排成錢串，符合冷凝集素病（cold agglutinin disease）。",
+  "features": [
+    "Gross: coarse granular red cell agglutinates coating the inner wall of the blood tube at room temperature (panel A and inset)",
+    "Smear: irregular three-dimensional clumps of red cells rather than linear stacked rouleaux (panel B)",
+    "Background red cells with polychromasia-free normocytic appearance and a few small dense spherocyte-like cells",
+    "Scattered platelets and a single small mature lymphocyte",
+    "No red cell fragments or circulating blasts in the field"
+  ],
+  "describe_en": "The EDTA blood tube held at room temperature shows grossly visible granular red cell agglutinates along the tube wall. The peripheral blood smear shows irregular clumps of red cells distributed across the film, without the linear coin-stack pattern of rouleaux; a few small dense spherocyte-like cells, scattered platelets, and a small mature lymphocyte are present, with no schistocytes. Red cell agglutination at room temperature can falsely lower the RBC count and raise MCV and MCHC on automated analyzers. Findings are consistent with cold agglutinin disease; confirmation with a direct antiglobulin test (C3d positive, IgG negative), cold agglutinin titer, warming of the sample to 37 °C, and evaluation for an underlying clonal B-cell disorder or infection is recommended.",
+  "ddx": [
+    {"dx": "Rouleaux formation", "vs": "Rouleaux consists of linear coin-like stacks in thick areas associated with high paraprotein or fibrinogen and disperses with saline, whereas agglutinates are irregular clumps that disperse on warming to 37 °C."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA shows prominent spherocytes with minimal agglutination and a DAT positive for IgG, rather than room-temperature agglutination with C3d-only DAT."},
+    {"dx": "Paroxysmal cold hemoglobinuria", "vs": "PCH, typically in children after viral infection, is caused by a biphasic IgG Donath-Landsteiner antibody and shows erythrophagocytosis rather than prominent agglutination."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

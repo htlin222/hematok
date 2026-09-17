@@ -1,0 +1,23 @@
+{
+  "id": "3287",
+  "recognize_zh": "周邊血抹片羽狀邊緣可見一大團緊密相黏的淋巴樣細胞，細胞核彼此擠壓成多角形（molding），部分核有凹陷或裂溝，細胞質少，旁邊有正常中性球；這種成團聚集而非散在分布就是淋巴球凝集（lymphocyte agglutination），常與淋巴瘤細胞相關，可能造成白血球計數假性偏低。",
+  "features": [
+    "Large cohesive aggregate of small to intermediate lymphoid cells at the smear edge",
+    "Tightly apposed cells with polygonal, molded outlines",
+    "Nuclei with moderately condensed chromatin; some irregular, indented or cleaved contours",
+    "Scant pale basophilic cytoplasm",
+    "Two normal-appearing segmented neutrophils adjacent to the aggregate",
+    "Background normochromic red cells without platelet clumps"
+  ],
+  "describe_en": "Peripheral blood smear shows a large cohesive aggregate of small to intermediate lymphoid cells near the feathered edge, adjacent to normal-appearing segmented neutrophils. The aggregated cells are tightly apposed with polygonal molded outlines, scant pale cytoplasm, moderately condensed chromatin and focally irregular or cleaved nuclear contours. The clumping involves lymphoid cells selectively rather than platelets or neutrophils. Findings are consistent with lymphocyte agglutination, an in vitro phenomenon that may be associated with a circulating lymphoma (in context follicular lymphoma) and can cause spuriously low automated white cell counts; a fingerstick or non-EDTA smear and flow cytometry are recommended.",
+  "ddx": [
+    {"dx": "Circulating clusters of metastatic carcinoma", "vs": "Carcinoma cells are larger with abundant cytoplasm, prominent nucleoli and true epithelial cohesion, and are CD45-negative."},
+    {"dx": "Blast aggregates in acute leukemia", "vs": "Blasts have fine chromatin and nucleoli and are usually dispersed, whereas these cells have condensed chromatin."},
+    {"dx": "Platelet clumping or satellitism", "vs": "Platelet clumps consist of anucleate granular fragments, and satellitism shows platelets rimming neutrophils rather than lymphoid cell aggregates."},
+    {"dx": "Smear edge artifact with overlapping cells", "vs": "Overlap from thick areas lacks the discrete aggregation of a single lineage in an otherwise monolayer field."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

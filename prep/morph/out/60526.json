@@ -1,0 +1,22 @@
+{
+  "id": "60526",
+  "recognize_zh": "血液抹片中可見數顆芽細胞（blast），核染色質細緻；左上方一顆細胞一端拉出細長的細胞質尾巴（uropod），呈「手鏡狀」（hand mirror）外觀，其餘芽細胞圓形或核有凹陷，搭配 t(8;21) 臨床背景。",
+  "features": [
+    "Several medium-to-large blasts with high-to-moderate N:C ratio and finely dispersed chromatin",
+    "One blast (upper left) with a tapered cytoplasmic tail (uropod), giving a hand-mirror configuration",
+    "Nuclei round to slightly indented, some with faint nucleoli",
+    "Scant to moderate pale-blue cytoplasm; granules and Auer rods not resolvable at this magnification",
+    "Background red cells with central pallor and mild anisocytosis; no mature neutrophils in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows several circulating blasts in a background of red cells with mild anisocytosis. The blasts are medium to large, with finely dispersed chromatin, slightly indented to round nuclei, and a thin rim of pale basophilic cytoplasm. One blast displays a polar cytoplasmic projection (uropod), producing a hand-mirror appearance. Cytoplasmic granules and Auer rods cannot be confidently assessed at this magnification, and hand-mirror morphology itself is nonspecific for lineage. In the context of myeloid immunophenotype with aberrant CD19 and t(8;21)(q22;q22), findings are consistent with AML with RUNX1::RUNX1T1.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia with hand-mirror cells", "vs": "Hand-mirror cells occur in ALL as well, so lineage requires MPO/SBB cytochemistry and flow cytometry; Auer rods or salmon-colored granules favor AML with t(8;21)."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells are bilobed or heavily granular with multiple Auer rods (faggot cells) and PML::RARA, unlike these agranular-appearing blasts."},
+    {"dx": "AML with NPM1 mutation (cup-like nuclei)", "vs": "NPM1-mutated blasts show cup-shaped nuclear invaginations and CD34 negativity, while t(8;21) blasts are CD34+ often with CD19/PAX5 coexpression."},
+    {"dx": "Reactive lymphocytes with uropods", "vs": "Reactive lymphocytes have more condensed chromatin and abundant cytoplasm without blast-type fine chromatin or nucleoli."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

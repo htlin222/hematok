@@ -1,0 +1,22 @@
+{
+  "id": "65012",
+  "recognize_zh": "周邊血抹片中可見中大型細胞，核質比高、染色質細緻、細胞質含紫紅色顆粒且邊緣不規則，左格三顆聚在一起；在此解析度下看不清楚描述中的 Auer 小體，因此只能判定為符合治療中急性前骨髓細胞性白血病（APL）的異常芽細胞/前骨髓細胞。",
+  "features": [
+    "Medium-to-large immature myeloid cells, singly (right) and in a group of three (left)",
+    "High N:C ratio with round to slightly folded nuclei and finely dispersed chromatin",
+    "Cytoplasm with fine purple-red granules and irregular, frayed cell borders",
+    "No definite Auer rods or faggot cells can be resolved at this image resolution",
+    "Background red cells include target cells, stomatocyte-like forms and scattered crenated cells; platelets sparse"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered medium-to-large immature myeloid cells with high nuclear-to-cytoplasmic ratio, finely dispersed chromatin and granular cytoplasm with irregular borders. Nucleoli and Auer rods cannot be confidently resolved at this magnification and resolution. Background red cells show target cells and minor poikilocytosis, and platelets appear decreased. In a patient with acute promyelocytic leukemia under treatment (e.g., ATRA/arsenic), the findings are compatible with circulating abnormal blasts/promyelocytes with therapy-related changes; the Auer rod described cannot be verified in this image.",
+  "ddx": [
+    {"dx": "Microgranular (hypogranular) APL variant", "vs": "Microgranular APL shows bilobed or butterfly-shaped nuclei with sparse granules and high WBC; PML::RARA testing is definitive in both."},
+    {"dx": "Acute myeloid leukemia with maturation or monocytic AML", "vs": "Non-APL AML lacks faggot cells and bundles of Auer rods and is PML::RARA negative, often HLA-DR positive."},
+    {"dx": "Differentiation (ATRA) syndrome-associated maturing myeloid cells", "vs": "During ATRA therapy, cells mature toward myelocytes and neutrophils with nuclear indentation and secondary granules, a clinical-temporal rather than purely morphologic distinction."},
+    {"dx": "Reactive left shift (G-CSF effect)", "vs": "G-CSF produces promyelocytes with coarse toxic granules and a full maturation spectrum without Auer rods or coagulopathy."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

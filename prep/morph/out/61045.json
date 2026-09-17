@@ -1,0 +1,21 @@
+{
+  "id": "61045",
+  "recognize_zh": "骨髓抹片中紅血球系與骨髓系前驅細胞的胞質有許多細小空泡（cytoplasmic vacuolization），鐵染色可見藍綠色鐵顆粒環繞細胞核的環狀鐵粒母細胞（ring sideroblasts），嬰兒合併骨髓衰竭即應想到 Pearson 症候群。",
+  "features": [
+    "Myeloid and erythroid precursors with prominent small, punched-out cytoplasmic vacuoles",
+    "Vacuoles concentrated at the cytoplasmic periphery of an erythroid precursor and a promyelocyte-like cell",
+    "Prussian blue stain: erythroblasts with coarse blue-green iron granules encircling the nucleus (ring sideroblasts)",
+    "Additional non-ring iron granules scattered in the background"
+  ],
+  "describe_en": "Composite of bone marrow aspirate smears. On Wright-Giemsa stain, granulocytic and erythroid precursors show conspicuous cytoplasmic vacuolization. Prussian blue iron stain demonstrates ring sideroblasts, with iron granules encircling at least one third of the nuclear circumference. In an infant with marrow failure, findings are consistent with Pearson marrow-pancreas syndrome (mitochondrial DNA deletion), which should be confirmed by mtDNA deletion analysis.",
+  "ddx": [
+    {"dx": "Copper deficiency or zinc toxicity", "vs": "Morphology is similar (vacuoles plus ring sideroblasts) but occurs in older patients with low serum copper/ceruloplasmin and no mtDNA deletion."},
+    {"dx": "Alcohol or linezolid/chloramphenicol toxicity", "vs": "Drug/alcohol-induced vacuolization has an exposure history and resolves on withdrawal."},
+    {"dx": "Congenital sideroblastic anemia (ALAS2, SLC25A38)", "vs": "These cause ring sideroblasts with microcytosis but lack precursor vacuolization and pancreatic insufficiency."},
+    {"dx": "MDS with ring sideroblasts", "vs": "MDS-RS occurs in older adults with SF3B1 mutation and lacks prominent vacuolization."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, Prussian blue",
+  "match": "consistent",
+  "high_yield": true
+}

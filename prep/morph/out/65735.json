@@ -1,0 +1,22 @@
+{
+  "id": "65735",
+  "recognize_zh": "骨髓抹片有兩群細胞：大量染色質粗塊狀的小型成熟淋巴球（紅箭頭）與較大、核仁明顯、胞質藍的母細胞（黃箭頭）；切片 CD20 標出結節狀 B 細胞聚集，CD34 陽性母細胞則散佈在結節之外的間質。",
+  "features": [
+    "Aspirate: numerous small to medium mature lymphocytes with round nuclei and coarsely clumped chromatin (red arrow)",
+    "Admixed larger blasts with fine chromatin, prominent nucleoli and scant to moderate blue cytoplasm (yellow arrow)",
+    "Core biopsy: markedly hypercellular marrow with a lymphoid aggregate of small cells and interstitial immature cells outside it",
+    "CD20: large nodular aggregates of B cells occupying much of the cellularity",
+    "CD34: increased positive blasts in the interstitium between the CD20+ nodules, which are themselves CD34-negative"
+  ],
+  "describe_en": "Bone marrow aspirate shows a marked increase in small mature lymphocytes with clumped chromatin together with an increased population of medium to large blasts with fine chromatin, prominent nucleoli and basophilic cytoplasm. The core biopsy is markedly hypercellular (about 90%) with nodular aggregates of small lymphocytes and interstitial clusters of immature cells outside the aggregates. CD20 highlights large nodular B-cell aggregates, and CD34 shows a separate, increased interstitial blast population (roughly 10-20% of cellularity) sparing the lymphoid nodules. Findings are consistent with concurrent chronic lymphocytic leukemia and a high-grade therapy-related myeloid neoplasm (MDS/AML, therapy-related).",
+  "ddx": [
+    {"dx": "CLL with increased prolymphocytes/paraimmunoblasts", "vs": "Paraimmunoblasts lie within proliferation centers and are CD20+/CD34-negative, whereas the large cells here are interstitial and CD34+."},
+    {"dx": "Richter transformation", "vs": "Richter shows sheets of large CD20+ B cells, not CD34+ myeloblasts separate from the B-cell nodules."},
+    {"dx": "Hematogone hyperplasia", "vs": "Hematogones are small with scant cytoplasm and show a maturing CD34/CD10/CD20 continuum on flow rather than CD34+/CD117+/CD33+ myeloblasts."},
+    {"dx": "De novo AML without CLL", "vs": "The CD5+ B-cell nodules and separate monotypic B-cell population on flow establish a coexisting CLL."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC: CD20, CD34",
+  "match": "consistent",
+  "high_yield": false
+}

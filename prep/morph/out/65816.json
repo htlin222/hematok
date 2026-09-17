@@ -1,0 +1,23 @@
+{
+  "id": "65816",
+  "recognize_zh": "視野中白血球密集，可見骨髓細胞、後骨髓細胞、帶狀核與分節嗜中性球等各成熟階段並存，中央還有一顆含橘紅色粗顆粒的嗜伊紅性球（eosinophil），這種左移加嗜伊紅性球增多的組合符合 CML。",
+  "features": [
+    "Marked leukocytosis with granulocytes at all stages of maturation",
+    "Numerous myelocytes with round to oval eccentric nuclei, clumped chromatin and lilac granular cytoplasm",
+    "Metamyelocytes and bands with kidney-shaped or horseshoe nuclei, plus segmented neutrophils",
+    "An eosinophil (orange-red refractile granules) in the center of the field",
+    "Occasional cytoplasmic vacuoles in immature granulocytes; blasts not increased in this field",
+    "Increased platelets; red cells normocytic with central pallor"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with a continuous spectrum of granulocytic maturation, consisting predominantly of myelocytes, metamyelocytes, bands and segmented neutrophils. An eosinophil is present centrally, and blasts are not increased in this field. Granulocytes show normal granulation without dysplastic nuclear features. Platelets are numerous and red cells are normocytic and normochromic. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, chronic phase.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "Reactive neutrophilia shows toxic granulation and Dohle bodies with fewer myelocytes and no absolute eosinophilia or basophilia."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML has conspicuous dysgranulopoiesis and lacks the orderly maturation and eosinophil/basophil increase seen here; BCR::ABL1 testing separates them."},
+    {"dx": "CMML", "vs": "CMML has an absolute monocytosis (monocytes 10% or more) with dysplasia rather than a myelocyte-predominant left shift."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and tyrosine kinase gene fusion", "vs": "These neoplasms show prominent eosinophilia and PDGFRA/PDGFRB/FGFR1/JAK2 rearrangement rather than BCR::ABL1."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2609",
+  "recognize_zh": "骨髓抹片中一顆巨大原紅血球，細胞質深藍並有鈍圓的偽足狀突起，核大、染色質細緻並可見數個深色核仁樣結構，下方一顆較小的原紅血球作對比，符合微小病毒 B19 感染。",
+  "features": [
+    "Giant pronormoblast, several times the diameter of adjacent red cells",
+    "Large round nucleus with finely granular chromatin and dark nucleolus-like bodies",
+    "Deeply basophilic cytoplasm with blunt cytoplasmic protrusions (blebs)",
+    "Paler perinuclear zone around the nucleus",
+    "Smaller pronormoblast beneath for size comparison; a neutrophil and myeloid cell nearby"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a giant pronormoblast with a large round nucleus, finely granular chromatin and several dark nucleolus-like bodies. The cytoplasm is deeply basophilic with blunt protrusions and a paler perinuclear zone. A smaller, more typical pronormoblast lies directly beneath for comparison, and a neutrophil and myeloid precursor are present nearby. Findings are suggestive of parvovirus B19 infection, particularly in the setting of red cell aplasia; B19 PCR or immunohistochemistry can confirm.",
+  "ddx": [
+    {"dx": "Megakaryoblast", "vs": "Megakaryoblasts also show cytoplasmic blebs, but they lack the erythroid perinuclear clearing and are CD41/CD61 positive rather than E-cadherin/glycophorin positive."},
+    {"dx": "Pure erythroid leukemia", "vs": "Pure erythroid leukemia forms sheets of proerythroblasts, whereas here giant cells are isolated in an otherwise non-erythroid-predominant marrow."},
+    {"dx": "Metastatic tumor cell", "vs": "Tumor cells cluster with nuclear pleomorphism and variable cytoplasmic features rather than showing deep erythroid basophilia."},
+    {"dx": "Dyserythropoiesis in MDS", "vs": "MDS shows megaloblastoid changes, multinucleation and ring sideroblasts across maturation stages rather than giant early precursors alone."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

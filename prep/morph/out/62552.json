@@ -1,0 +1,20 @@
+{
+  "id": "62552",
+  "recognize_zh": "CD20 在幾乎所有中大型腫瘤細胞呈強而完整的細胞膜環狀染色，確認為 B 細胞淋巴瘤；但 CD20 本身無法區分 Burkitt、DLBCL 與雙打擊淋巴瘤。",
+  "features": [
+    "Strong, complete membranous CD20 staining in the large majority of tumor cells",
+    "Medium to large cells with round nuclei and scant cytoplasm outlined by membrane staining",
+    "Diffuse sheet-like distribution without a follicular pattern",
+    "Occasional negative spaces corresponding to vessels and macrophages"
+  ],
+  "describe_en": "CD20 immunohistochemistry shows strong, diffuse membranous staining of the sheets of medium to large neoplastic cells, confirming a B-cell lineage. The positive cells are arranged diffusely without a follicular distribution, and unstained gaps correspond to vessels and interspersed macrophages. This supports an aggressive mature B-cell lymphoma; distinction between Burkitt lymphoma, DLBCL and high-grade B-cell lymphoma with MYC and BCL2 rearrangements requires BCL2, Ki67 and FISH.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Also CD20-positive; separated by BCL2 negativity, Ki67 near 100% and isolated MYC rearrangement."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is CD20-negative and CD138/MUM1-positive."},
+    {"dx": "T-lymphoblastic lymphoma", "vs": "T-LBL is CD20-negative and positive for CD3 and TdT."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

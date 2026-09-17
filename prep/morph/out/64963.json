@@ -1,0 +1,22 @@
+{
+  "id": "64963",
+  "recognize_zh": "周邊血抹片中散布多個頭盔狀、三角形與新月形的紅血球碎片（schistocytes），並有數顆偏藍色的大型多染性紅血球（polychromasia），整個視野幾乎看不到血小板，這組合就是微血管病性溶血，符合 TTP。",
+  "features": [
+    "Numerous schistocytes including helmet cells, triangular and crescent-shaped fragments",
+    "Polychromatic macrocytes (larger bluish-gray red cells) indicating reticulocytosis",
+    "Two small, densely stained blue-purple red cells without central pallor (polychromatic microspherocyte-like forms)",
+    "Marked thrombocytopenia with only rare platelets in the field",
+    "No leukocytes, blasts or red cell agglutination in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous red cell fragments, including helmet cells and triangular schistocytes, accompanied by polychromatic macrocytes indicating a reticulocyte response. Platelets are markedly decreased, with only rare forms identified. No red cell agglutination or spherocyte-predominant picture is seen. Findings are consistent with microangiopathic hemolytic anemia with thrombocytopenia, in keeping with thrombotic thrombocytopenic purpura given ADAMTS13 activity <5%.",
+  "ddx": [
+    {"dx": "Hemolytic uremic syndrome", "vs": "HUS shows identical schistocytes but is associated with severe renal failure, Shiga toxin or complement dysregulation and ADAMTS13 activity >10%."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC has schistocytes with prolonged PT/aPTT and low fibrinogen, whereas TTP coagulation studies are usually near normal."},
+    {"dx": "Mechanical heart valve hemolysis", "vs": "Valve hemolysis shows schistocytes typically without severe thrombocytopenia and with a relevant cardiac history."},
+    {"dx": "Autoimmune hemolytic anemia (Evans syndrome)", "vs": "AIHA shows spherocytes rather than fragments with a positive direct antiglobulin test."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

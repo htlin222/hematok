@@ -1,0 +1,22 @@
+{
+  "id": "62893",
+  "recognize_zh": "淋巴結 H&E 可見混合型發炎背景（小淋巴球、上皮樣組織球），黃圈內為多個細胞核聚成葡萄串狀的多核巨細胞（Warthin-Finkeldey-like cells），紅圈內為雙核、核仁明顯的 Reed-Sternberg 細胞；在混合背景中找到 RS 細胞才是 cHL 的依據。",
+  "features": [
+    "Diffuse polymorphous infiltrate of small lymphocytes and abundant epithelioid histiocytes with eosinophilic cytoplasm",
+    "Multinucleated giant cells with clustered, overlapping grape-like nuclei (Warthin-Finkeldey-like cells, yellow circles)",
+    "Binucleate/multilobated large cell with prominent nucleoli (Reed-Sternberg cell, red circle)",
+    "Scattered larger mononuclear cells with vesicular nuclei",
+    "No sheets of large atypical cells; lymph node architecture effaced in this field"
+  ],
+  "describe_en": "Lymph node section shows effacement by a diffuse polymorphous infiltrate of small lymphocytes and numerous epithelioid histiocytes with pale eosinophilic cytoplasm. Scattered multinucleated giant cells with clustered, overlapping grape-like nuclei resembling Warthin-Finkeldey cells are present (yellow circles). A binucleate large cell with prominent nucleoli, consistent with a Reed-Sternberg cell, is identified in the background (red circle). Findings are consistent with classic Hodgkin lymphoma with Warthin-Finkeldey-like polykaryocytes; immunohistochemistry (CD30+, CD15+, PAX5 weak, CD45-) is needed to confirm the Hodgkin/Reed-Sternberg cells.",
+  "ddx": [
+    {"dx": "Measles lymphadenitis (true Warthin-Finkeldey cells)", "vs": "Shows follicular hyperplasia with polykaryocytes but lacks CD30+/CD15+ Hodgkin/Reed-Sternberg cells and has a relevant viral history."},
+    {"dx": "Granulomatous lymphadenitis (e.g., tuberculosis, sarcoidosis)", "vs": "Langhans-type giant cells with peripheral horseshoe nuclei and epithelioid granulomas, without Reed-Sternberg cells."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Scattered large cells are CD20+/BCL6+ and CD30/CD15 negative in a T-cell and histiocyte-rich background."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Hallmark cells grow in cohesive sheets or sinusoidal clusters with strong uniform CD30 and often ALK positivity."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

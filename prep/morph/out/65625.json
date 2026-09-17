@@ -1,0 +1,22 @@
+{
+  "id": "65625",
+  "recognize_zh": "骨髓抹片滿是胞質充滿粗大紫紅色顆粒、核圓或腎形的異常前骨髓細胞，形態像 APL；但 PML::RARA 陰性，核型顯示第 3、7 號染色體重排及 Y 缺失，光學基因體定序（OGM）圈圖呈多染色體斷點的 chromoplexy，Sanger 定序證實 FNDC3B::RARB 融合，屬 RARA 陰性的 APL 樣白血病。",
+  "features": [
+    "BM aspirate: sheets of large abnormal promyelocyte-like cells with abundant cytoplasm densely packed with coarse red-purple azurophilic granules",
+    "Round to reniform, sometimes eccentric nuclei with fine chromatin; granules partly obscure nuclear detail",
+    "Karyotype: rearranged chromosomes 3 and 7 (arrows) and loss of Y",
+    "Optical genome mapping circos plot: multiple interconnected translocation links between chromosome 3 and 7 loci (chromoplexy) producing FNDC3B::RARB",
+    "Sanger chromatogram: in-frame junction joining FNDC3B exon 6 to RARB exon 2"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows marked replacement by large abnormal promyelocyte-like cells with abundant cytoplasm containing dense, coarse azurophilic granules and round to reniform nuclei, morphologically indistinguishable from hypergranular acute promyelocytic leukemia. The accompanying karyotype demonstrates structural rearrangement of chromosomes 3 and 7 with loss of the Y chromosome, and optical genome mapping resolves a complex multi-breakpoint chromoplexy generating an FNDC3B::RARB fusion, confirmed by RT-PCR with Sanger sequencing across the FNDC3B exon 6-RARB exon 2 junction. PML::RARA was not detected. Findings are consistent with an APL-like acute myeloid leukemia with a variant RARB rearrangement, which is expected to be poorly responsive to retinoids.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia with PML::RARA", "vs": "Morphology is identical; separation requires FISH/RT-PCR demonstrating PML::RARA, which was negative here."},
+    {"dx": "APL with other RARA partners (ZBTB16::RARA, NPM1::RARA, STAT5B::RARA)", "vs": "These involve the RARA locus at 17q21 and are detected with RARA break-apart FISH, whereas this case rearranges RARB at 3p24."},
+    {"dx": "AML with maturation (hypergranular) or AML with NPM1 mutation", "vs": "Show more blasts with less dense granulation, often HLA-DR or CD34 expression and lack RAR-family fusions."},
+    {"dx": "Reactive promyelocyte-rich marrow (G-CSF recovery, agranulocytosis recovery)", "vs": "Promyelocytes are normal in appearance with progressive maturation and a normal karyotype, without clonal RAR rearrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa; karyotype; OGM; Sanger",
+  "match": "consistent",
+  "high_yield": false
+}

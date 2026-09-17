@@ -1,0 +1,22 @@
+{
+  "id": "1185",
+  "recognize_zh": "箭頭所指的紅血球淡染、略呈藍灰色，細胞內散布許多細小深色點狀顆粒（basophilic stippling，核糖體聚集）；背景可見標靶細胞、淚滴細胞與多染性紅血球，需聯想鉛中毒、地中海貧血等。",
+  "features": [
+    "Arrowed red cell with numerous fine, evenly distributed dark punctate granules throughout the cell",
+    "Stippled cell appears pale with faint bluish (polychromatic) tint",
+    "Background target cells and hypochromic red cells",
+    "Occasional teardrop cell and a larger polychromatophilic red cell",
+    "No leukocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows anisopoikilocytosis with target cells, occasional teardrop forms and polychromatophilic red cells. A red cell (arrow) contains numerous fine, diffusely distributed dark blue punctate granules consistent with basophilic stippling, representing aggregated ribosomal RNA. Stippling is distinguished from Pappenheimer bodies by its diffuse distribution and small uniform granules. Findings are consistent with basophilic stippling, which in this context raises consideration of thalassemia, lead poisoning, pyrimidine 5'-nucleotidase deficiency or dyserythropoiesis.",
+  "ddx": [
+    {"dx": "Pappenheimer bodies", "vs": "Pappenheimer bodies are few, larger, clustered granules at the cell periphery and are Prussian blue positive, unlike diffuse fine stippling."},
+    {"dx": "Malaria (early Plasmodium stages or Schüffner dots)", "vs": "Parasitized cells contain ring forms with chromatin dots and cytoplasm, and Schüffner dots are pink and accompany an enlarged host cell."},
+    {"dx": "Howell-Jolly bodies", "vs": "Howell-Jolly bodies are usually single, round, larger dense purple nuclear remnants rather than many fine granules."},
+    {"dx": "Platelets or stain precipitate overlying red cells", "vs": "Stain debris lies in a different focal plane and also appears between cells, while stippling is confined within the red cell."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

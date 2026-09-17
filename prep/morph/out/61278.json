@@ -1,0 +1,22 @@
+{
+  "id": "61278",
+  "recognize_zh": "軟組織切片被成片的中大型不成熟細胞浸潤於膠原纖維之間，核圓至橢圓、染色質細緻、核仁明顯，細胞質中等量、淡嗜酸性，並有分裂相；下格 PAX5 呈弱至中等核染色。t(8;21) AML 的母細胞常異常表現 PAX5/CD19，不可因此誤判為 B 細胞淋巴瘤或混合表現型白血病。",
+  "features": [
+    "Diffuse infiltrate of discohesive medium to large immature cells dissecting between eosinophilic collagen bundles",
+    "Round to oval, occasionally indented nuclei with finely dispersed chromatin and distinct nucleoli",
+    "Moderate amount of pale granular amphophilic to eosinophilic cytoplasm",
+    "Scattered mitotic figures and occasional apoptotic cells",
+    "Bottom panel, PAX5 IHC: weak to moderate nuclear staining in the majority of tumor cells, with negative stromal/endothelial cells"
+  ],
+  "describe_en": "Soft tissue biopsy shows a diffuse infiltrate of discohesive medium to large immature cells percolating between collagen bundles. The cells have round to oval, focally indented nuclei with fine chromatin, distinct nucleoli and a moderate amount of pale granular cytoplasm, with scattered mitoses and apoptotic bodies. PAX5 immunostaining shows weak to moderate nuclear positivity in most tumor cells. Myeloid markers (CD13, CD33, CD117, MPO) and cytogenetics are required, because aberrant PAX5/CD19 expression is characteristic of AML with t(8;21). Findings are consistent with myeloid sarcoma representing relapse of AML with t(8;21)(q22;q22.1); RUNX1::RUNX1T1.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "Tumor cells are strongly CD20/PAX5 positive and myeloid-marker negative, whereas these PAX5-weak blasts express CD13/CD33/CD117 and MPO."},
+    {"dx": "Mixed phenotype acute leukemia, B/myeloid", "vs": "PAX5/CD19 co-expression in AML with RUNX1::RUNX1T1 is expected and does not qualify, as defining genetic AML takes precedence."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "Blasts are TdT and CD79a positive with smaller size and scant cytoplasm, and lack MPO and myeloid antigens."},
+    {"dx": "Undifferentiated carcinoma or melanoma", "vs": "Cells may have prominent nucleoli but are cohesive, CD45-negative and keratin- or S100/SOX10-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC: PAX5",
+  "match": "consistent",
+  "high_yield": false
+}

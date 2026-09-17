@@ -1,0 +1,22 @@
+{
+  "id": "4092",
+  "recognize_zh": "免疫染色中大型、細胞質豐富、核形怪異的腫瘤細胞呈強膜狀加核旁高爾基體點狀（Golgi dot）陽性，背景小淋巴球陰性，這正是 CD30 的典型染色型態，見於間變型 DLBCL 或 ALCL。",
+  "features": [
+    "Large pleomorphic cells with abundant cytoplasm and irregular, sometimes kidney-shaped or multilobated nuclei",
+    "Strong membranous staining with paranuclear Golgi-zone dot accentuation",
+    "Positive cells scattered singly and in small clusters",
+    "Background small lymphocytes and histiocytes negative",
+    "Staining pattern typical of CD30 (marker not labeled in image)"
+  ],
+  "describe_en": "Immunohistochemical stain (marker not labeled; pattern typical of CD30) shows scattered and clustered large pleomorphic tumor cells with abundant cytoplasm and irregular to horseshoe-shaped nuclei displaying strong membranous and paranuclear Golgi-dot staining. Background small lymphocytes are negative. In a tumor classified as the anaplastic variant of diffuse large B-cell lymphoma, CD30 expression is expected; confirmation of B-cell lineage (CD20, PAX5, CD79a) and absence of ALK and T-cell markers is required to exclude anaplastic large cell lymphoma and classic Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "ALCL shows similar CD30+ hallmark cells but is PAX5/CD20-negative with T-cell or cytotoxic markers, whereas anaplastic DLBCL expresses strong B-cell antigens."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30+/CD15+ with weak PAX5 and loss of CD20/CD45, set in a mixed inflammatory background rather than sheets."},
+    {"dx": "ALK-positive ALCL", "vs": "ALK-positive ALCL shows ALK protein expression (nuclear/cytoplasmic) by IHC."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Carcinoma and melanoma are CD45-negative and express keratins or S100/SOX10."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: likely CD30",
+  "match": "consistent",
+  "high_yield": false
+}

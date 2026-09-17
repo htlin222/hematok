@@ -1,0 +1,23 @@
+{
+  "id": "60943",
+  "recognize_zh": "低倍下淋巴結被密集的背靠背結節取代，結節內充滿淡粉紅色無結構的細胞外沉積物，腫瘤細胞散在其中；免疫染色中沉積物呈強棕色、腫瘤細胞核與膜陽性，提示濾泡性淋巴瘤合併細胞外嗜伊紅物質沉積的罕見變異型。",
+  "features": [
+    "Low power: effacement of lymph node by numerous closely packed nodules (follicular pattern)",
+    "Nodules filled with pale eosinophilic, amorphous extracellular material separating neoplastic cells",
+    "Neoplastic cells within nodules: centrocyte/centroblast-like cells with irregular nuclei; darker small lymphocytes between nodules",
+    "IHC panel D: intense staining of the extracellular deposits within follicles (antigen not labeled)",
+    "IHC panel E: nuclear staining of intrafollicular cells (germinal center marker such as BCL6 or proliferation marker)",
+    "IHC panel F: diffuse strong staining of lymphoid cells (e.g., B-cell marker/BCL2)"
+  ],
+  "describe_en": "Lymph node sections show effacement of architecture by numerous back-to-back neoplastic follicles. The follicles are expanded by pale eosinophilic, acellular amorphous material in which neoplastic follicle center cells are dispersed, while interfollicular areas contain small dark lymphocytes. Immunostains show intense staining of the intrafollicular deposits in one panel, nuclear positivity of intrafollicular cells in another, and diffuse strong lymphoid staining in a third; antigens are not labeled in the figure. In the context of the stated diagnosis, findings are consistent with follicular lymphoma with intrafollicular extracellular eosinophilic (proteinaceous) deposits, a rare histologic variant; Congo red and immunoglobulin stains help characterize the material.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive follicles are polarized with tingible-body macrophages, a mantle zone and BCL2-negative germinal centers, rather than back-to-back BCL2+ nodules."},
+    {"dx": "Nodal amyloidoma / AL amyloidosis with lymphoplasmacytic lymphoma", "vs": "Amyloid is Congo red positive with apple-green birefringence and often deposited around vessels in a plasmacytic background rather than confined to neoplastic follicles."},
+    {"dx": "Nodular sclerosis or nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "Hodgkin nodules contain scattered CD30/CD15 or CD20+ LP cells in a reactive background instead of sheets of CD10/BCL6+ neoplastic centrocytes."},
+    {"dx": "Hyaline-vascular Castleman disease", "vs": "Castleman follicles show regressed germinal centers with penetrating hyalinized vessels and onion-skin mantles, not amorphous intrafollicular deposits."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (unlabeled markers)",
+  "match": "partial",
+  "high_yield": false
+}

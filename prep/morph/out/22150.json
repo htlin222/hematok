@@ -1,0 +1,22 @@
+{
+  "id": "22150",
+  "recognize_zh": "骨髓切片 H&E（A）可見巨噬細胞內含粗大金褐色的含鐵血黃素顆粒；普魯士藍染色（B）巨噬細胞內鐵呈大量藍色聚集，顯示網狀內皮鐵儲存增加，這是慢性發炎性貧血的特徵（鐵被困在巨噬細胞中）。",
+  "features": [
+    "H&E: scattered macrophages containing coarse golden-brown refractile hemosiderin granules (inset)",
+    "Trilineage hematopoietic cells and fat spaces in the background of the H&E section",
+    "Prussian blue: multiple macrophages with abundant coarse blue iron aggregates",
+    "Inset of Prussian blue: macrophage cytoplasm heavily laden with blue-staining iron",
+    "Iron is predominantly within macrophages rather than dispersed in parenchyma"
+  ],
+  "describe_en": "Bone marrow biopsy sections show trilineage hematopoiesis with scattered macrophages containing coarse golden-brown hemosiderin on H&E. The Prussian blue stain highlights markedly increased storage iron within macrophages, forming coarse blue aggregates. Erythroid sideroblastic iron cannot be assessed on this decalcified section and should be evaluated on an aspirate smear. Findings are consistent with increased reticuloendothelial iron stores, as seen in anemia of chronic inflammation with hepcidin-mediated iron sequestration.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency shows absent or markedly reduced stainable macrophage iron rather than increased stores."},
+    {"dx": "Transfusional or hereditary iron overload", "vs": "Iron overload also increases marrow iron, so serum transferrin saturation (high in overload, low in inflammation) and hepatic iron discriminate."},
+    {"dx": "Sideroblastic anemia or MDS with ring sideroblasts", "vs": "Ring sideroblasts are identified as perinuclear blue granules in erythroblasts on an aspirate iron stain, not by macrophage iron alone."},
+    {"dx": "Non-iron pigment (formalin pigment, malarial hemozoin)", "vs": "Formalin pigment and hemozoin are brown-black but do not stain blue with Prussian blue."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Prussian blue",
+  "match": "consistent",
+  "high_yield": true
+}

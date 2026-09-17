@@ -1,0 +1,20 @@
+{
+  "id": "62883",
+  "recognize_zh": "MIB-1（Ki-67）染色下，固有層內密集的淋巴球絕大多數為陰性，只有零星核陽性細胞，而腺窩基部上皮作為內部陽性對照；低增生指數是惰性 T 細胞淋巴增生性疾病的重要線索。",
+  "features": [
+    "Dense lamina propria lymphoid infiltrate almost entirely negative for Ki-67",
+    "Only scattered nuclear-positive lymphocytes (low proliferation index, well under 10%)",
+    "Crypt epithelium shows strong nuclear positivity, serving as internal positive control",
+    "No clusters of proliferating large cells"
+  ],
+  "describe_en": "MIB-1 (Ki-67) immunostain of colonic mucosa shows a dense lamina propria lymphoid infiltrate in which only scattered lymphocytes show nuclear staining, indicating a low proliferation index. The crypt epithelium stains strongly and serves as a valid internal control. No foci of increased proliferation are seen. A low Ki-67 index in a clonal CD8-positive T-cell infiltrate supports indolent T-cell lymphoproliferative disorder of the gastrointestinal tract rather than an aggressive T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma", "vs": "MEITL typically shows a high Ki-67 index (often >50%), in contrast to the sparse staining here."},
+    {"dx": "Peripheral T-cell lymphoma, NOS involving gut", "vs": "PTCL-NOS shows larger atypical cells with a moderate to high proliferation fraction, rather than a bland infiltrate with few Ki-67-positive cells."},
+    {"dx": "Reactive colitis", "vs": "Reactive infiltrates may also have low Ki-67 but are polyclonal with a mixed CD4/CD8 and B/plasma cell composition."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Ki-67 (MIB-1)",
+  "match": "consistent",
+  "high_yield": false
+}

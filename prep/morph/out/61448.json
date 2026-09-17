@@ -1,0 +1,21 @@
+{
+  "id": "61448",
+  "recognize_zh": "G 帶核型圖：一條第 1 號染色體長臂縮短（箭頭，del(1q)），第 5 號只剩一條，另一條第 10 號較長並帶有額外物質（箭頭，der(10)t(5;10)），性染色體為 XY，即 45,XY,del(1)(q21q25),-5,der(10)t(5;10)(q10;q10)。",
+  "features": [
+    "G-banded karyogram, male (X and faint Y) with 45 chromosomes",
+    "One chromosome 1 homolog with a shortened long arm (arrow), consistent with interstitial del(1q)",
+    "Only one normal chromosome 5 present",
+    "One chromosome 10 is elongated with additional material (arrow), consistent with der(10) whole-arm translocation with chromosome 5",
+    "Remaining autosomes appear paired and structurally normal at this band resolution"
+  ],
+  "describe_en": "G-banded karyogram from an overnight unstimulated bone marrow culture shows a male hypodiploid complement. There is an interstitial deletion of the long arm of one chromosome 1 and an abnormal chromosome 10 carrying extra material derived from chromosome 5, with loss of one normal chromosome 5, reported as 45,XY,del(1)(q21q25),-5,der(10)t(5;10)(q10;q10). The unbalanced whole-arm translocation results in net loss of 5p or 5q material depending on the retained arm. These are uncommon abnormalities in T-lymphoblastic leukemia, so their prognostic significance is uncertain; confirmation with FISH or chromosomal microarray is recommended.",
+  "ddx": [
+    {"dx": "Isolated monosomy 5 / del(5q)", "vs": "True monosomy lacks chromosome 5 material on another chromosome, whereas here extra material is attached to chromosome 10."},
+    {"dx": "Common T-ALL rearrangements (TLX1 t(10;14), TLX3 t(5;14))", "vs": "These involve 10q24 or 5q35 with chromosome 14 (TCR loci), and t(5;14) is cryptic by karyotype, so FISH is needed."},
+    {"dx": "Normal chromosome length polymorphism", "vs": "Heteromorphisms involve heterochromatin regions (1qh, 9qh) rather than euchromatic band loss or gain."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding (karyotype)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

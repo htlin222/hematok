@@ -1,0 +1,22 @@
+{
+  "id": "60672",
+  "recognize_zh": "骨髓抹片中有多個大型巨噬細胞，胞質淡灰藍色，內含大量交錯的細長桿狀「負影」（negative images，箭頭），外觀像皺紙樣的假戈謝細胞（pseudo-Gaucher cell），代表胞質內塞滿未被染色的分枝桿菌（mycobacteria）。",
+  "features": [
+    "Large histiocytes with abundant pale gray-blue cytoplasm and eccentric nuclei",
+    "Cytoplasm filled with innumerable slender, crisscrossing rod-shaped clear 'negative images' (unstained bacilli), giving a striated pseudo-Gaucher appearance (arrow)",
+    "Some macrophages with multiple nuclei or clustered around hematopoietic cells",
+    "Background marrow with myeloid precursors, band/segmented neutrophils, lymphocytes, and erythroid cells",
+    "No granuloma formation discernible on this smear"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows several large macrophages with abundant pale, gray-blue cytoplasm containing numerous fine, rod-shaped, negatively staining striations that give a fibrillary, crinkled-paper texture. These negative images correspond to masses of intracellular bacilli that do not take up Romanowsky stains. The background contains maturing granulocytic and erythroid elements. Findings are consistent with disseminated mycobacterial infection (typically Mycobacterium avium complex in an immunocompromised host) producing pseudo-Gaucher macrophages; acid-fast staining and culture are recommended for confirmation.",
+  "ddx": [
+    {"dx": "Gaucher disease", "vs": "True Gaucher cells show wrinkled tissue-paper cytoplasm from glucocerebroside and are acid-fast negative, whereas mycobacteria-laden macrophages show discrete rod-shaped negative images that are Ziehl-Neelsen positive."},
+    {"dx": "Pseudo-Gaucher cells in CML or myeloma", "vs": "Pseudo-Gaucher cells from high cell turnover are acid-fast negative and occur with a neoplastic background, not with infection."},
+    {"dx": "Leishmaniasis or histoplasmosis", "vs": "Leishmania and Histoplasma appear as stained round/oval organisms with nuclei, not as unstained slender rods."},
+    {"dx": "Sea-blue histiocytes", "vs": "Sea-blue histiocytes contain blue-green granular ceroid pigment rather than rod-shaped negative images."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

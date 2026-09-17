@@ -1,0 +1,22 @@
+{
+  "id": "65344",
+  "recognize_zh": "骨髓切片（H&E）中大量組織球聚集成片，細胞質淡而泡沫狀，裡面塞滿許多約 2–4 µm 的深色小點狀體，這些即細胞內無鞭毛體（amastigotes，Leishman-Donovan bodies），背景夾雜淋巴球與漿細胞，符合內臟利什曼原蟲病。",
+  "features": [
+    "Sheets of enlarged histiocytes with abundant pale, vacuolated cytoplasm replacing marrow space",
+    "Numerous tiny (2–4 µm) basophilic dot-like intracytoplasmic organisms filling histiocyte cytoplasm",
+    "Organism internal detail (nucleus and kinetoplast) not resolvable on H&E at this magnification",
+    "Admixed small lymphocytes and plasma cells with scattered eosinophilic stromal material",
+    "Normal trilineage hematopoiesis not evident in this field"
+  ],
+  "describe_en": "Bone marrow trephine biopsy shows extensive infiltration by sheets of histiocytes with abundant pale, finely vacuolated cytoplasm, admixed with small lymphocytes and plasma cells. At higher magnification the histiocytes contain numerous tiny, round, basophilic intracytoplasmic bodies measuring approximately 2–4 µm. The kinetoplast cannot be resolved on this H&E section, so correlation with a Giemsa-stained aspirate or touch preparation, serology, or PCR is advised. Findings are consistent with Leishman-Donovan bodies of visceral leishmaniasis.",
+  "ddx": [
+    {"dx": "Histoplasmosis", "vs": "Histoplasma yeasts show a clear halo artifact, lack a kinetoplast, and stain with GMS and PAS, whereas Leishmania amastigotes are GMS-negative and have a bar-like kinetoplast on Giemsa."},
+    {"dx": "Talaromyces (Penicillium) marneffei infection", "vs": "T. marneffei yeasts divide by central transverse septation and are GMS-positive, lacking the nucleus-plus-kinetoplast pattern of amastigotes."},
+    {"dx": "Toxoplasmosis", "vs": "Toxoplasma tachyzoites are crescentic, lack a kinetoplast and are confirmed by Toxoplasma immunohistochemistry."},
+    {"dx": "Gaucher disease or storage histiocytosis", "vs": "Storage cells have fibrillary 'wrinkled tissue paper' cytoplasm without discrete punctate organisms."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

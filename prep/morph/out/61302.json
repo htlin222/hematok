@@ -1,0 +1,21 @@
+{
+  "id": "61302",
+  "recognize_zh": "這是一份全血球計數報告：血紅素 12.9 g/dL 與紅血球數 5.07×10^6/µL 正常，但 MCV 77.2 fL、MCH 25.4 pg 偏低，RDW 13.3% 正常，白血球與血小板正常，呈現「無貧血的單純小球性」變化。",
+  "features": [
+    "WBC 7.31 ×10^3/µL with normal absolute differential; relative lymphocytosis 42.2% and Neu% 48.8% flagged",
+    "RBC 5.07 ×10^6/µL and HGB 12.9 g/dL within reference range (no anemia)",
+    "Low MCV 77.2 fL and low MCH 25.4 pg with normal MCHC 33.0 g/dL",
+    "Normal RDW-CV 13.3% and RDW-SD 39.5 fL",
+    "Platelets 266 ×10^3/µL with normal MPV and indices"
+  ],
+  "describe_en": "Complete blood count shows a normal white cell count with a normal absolute differential (only relative neutrophil and lymphocyte percentages flagged), a normal hemoglobin of 12.9 g/dL, and a red cell count of 5.07 ×10^6/µL. Red cell indices show mild microcytosis (MCV 77.2 fL) and hypochromia (MCH 25.4 pg) with a normal MCHC and normal RDW. Platelet count and indices are normal. Isolated microcytosis without anemia and with a normal RDW is compatible with a hemoglobin variant such as Hb D trait, but coexisting thalassemia trait or early iron deficiency should be excluded with iron studies and hemoglobin analysis.",
+  "ddx": [
+    {"dx": "Iron deficiency (early)", "vs": "Iron deficiency usually shows elevated RDW, a lower RBC count, and low ferritin, whereas here RDW is normal."},
+    {"dx": "Beta- or alpha-thalassemia trait", "vs": "Thalassemia trait typically shows a higher RBC count and lower MCV (Mentzer index <13), with raised Hb A2 in beta-thalassemia trait; here the Mentzer index is about 15."},
+    {"dx": "Anemia of chronic inflammation", "vs": "Chronic inflammation usually produces anemia with low serum iron and high ferritin, not normal hemoglobin with isolated microcytosis."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

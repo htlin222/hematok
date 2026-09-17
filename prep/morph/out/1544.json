@@ -1,0 +1,22 @@
+{
+  "id": "1544",
+  "recognize_zh": "箭頭所指為體積大、橢圓形且缺乏中央淡染區的巨紅血球（macro-ovalocytes），背景還有淚滴狀紅血球與小紅血球，大小與形狀明顯不一，這是惡性貧血等巨母細胞性貧血最具代表性的紅血球變化。",
+  "features": [
+    "Large oval red cells (macro-ovalocytes, arrows) larger than neighboring cells",
+    "Macro-ovalocytes are well hemoglobinized with little or no central pallor",
+    "Marked anisopoikilocytosis including teardrop cells and elongated forms",
+    "Admixed small microcytic red cells and fragments",
+    "No polychromasia; a single small platelet in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with numerous large, well-hemoglobinized oval macrocytes (macro-ovalocytes, arrows) lacking central pallor. Teardrop cells, elongated forms, and small microcytic fragments are also present. Polychromasia is not seen. No leukocytes are present in this field. Findings are consistent with megaloblastic anemia, such as pernicious anemia.",
+  "ddx": [
+    {"dx": "Round macrocytosis (liver disease, alcohol, hypothyroidism)", "vs": "Non-megaloblastic macrocytes are round rather than oval and are not accompanied by marked poikilocytosis."},
+    {"dx": "Hereditary elliptocytosis", "vs": "Elliptocytes are normocytic, uniform, and cigar-shaped with a central bar of hemoglobin, rather than enlarged oval cells with teardrops."},
+    {"dx": "Spherocytes", "vs": "Spherocytes are small dense round cells, whereas these lack pallor because they are large and thick oval macrocytes."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS can produce macro-ovalocytes, but vitamin B12/folate levels are normal and dysplastic leukocytes or cytopenias are present."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

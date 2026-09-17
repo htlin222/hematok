@@ -1,0 +1,22 @@
+{
+  "id": "64418",
+  "recognize_zh": "甲狀腺細針抽吸抹片中有許多核偏心、染色質呈粗塊、核旁淡染、細胞質藍色並帶少量顆粒的漿細胞，流式細胞顯示 CD38+/CD138+、cyLambda 限制且 CD19 陰性，符合骨髓瘤侵犯甲狀腺。",
+  "features": [
+    "MRI (A): enhancing mass in the right thyroid lobe",
+    "Aspirate smear (B, C): numerous plasma cells with eccentric round nuclei, coarse clock-face chromatin and perinuclear hof",
+    "Moderate to abundant blue cytoplasm, some cells with fine azurophilic granules; occasional large plasma cells",
+    "Scattered stripped naked nuclei with pale nucleoli and a single neutrophil in the background",
+    "Flow (D): CD45+ CD38 bright CD138+ plasma cells with cytoplasmic lambda restriction and CD19 negativity"
+  ],
+  "describe_en": "Fine-needle aspiration smears of the right thyroid lesion show numerous plasma cells with eccentric round nuclei, coarse clumped chromatin, perinuclear clearing, and moderate to abundant blue cytoplasm, some containing fine granules, admixed with stripped nuclei and rare neutrophils. No follicular epithelial groups or colloid are apparent in these fields. Flow cytometry of the aspirate demonstrates a CD45-positive, CD38-bright, CD138-positive plasma cell population with cytoplasmic lambda light chain restriction and absent CD19. Findings are consistent with thyroid involvement by a lambda-restricted plasma cell neoplasm (multiple myeloma/extramedullary plasmacytoma).",
+  "ddx": [
+    {"dx": "Medullary thyroid carcinoma (plasmacytoid)", "vs": "Medullary carcinoma cells may look plasmacytoid but have salt-and-pepper chromatin, amyloid, calcitonin positivity, and lack CD138/light chain restriction."},
+    {"dx": "Hashimoto thyroiditis", "vs": "Hashimoto thyroiditis contains polytypic plasma cells with lymphocytes, germinal center cells and Hürthle cells rather than a monotypic plasma cell sheet."},
+    {"dx": "Extranodal marginal zone lymphoma with plasmacytic differentiation", "vs": "MALT lymphoma shows a CD19/CD20-positive monotypic B-cell component with lymphoepithelial lesions, whereas here plasma cells are CD19-negative without a B-cell population."},
+    {"dx": "Metastatic hepatocellular carcinoma", "vs": "HCC cells are cohesive polygonal cells with central nuclei, prominent nucleoli, and HepPar1/arginase positivity rather than dispersed eccentric-nucleus plasma cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "Pappenheim; flow cytometry; MRI",
+  "match": "consistent",
+  "high_yield": false
+}

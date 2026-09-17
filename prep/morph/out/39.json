@@ -1,0 +1,32 @@
+{
+  "id": "39",
+  "recognize_zh": "骨髓抹片中大量小至中型母細胞，核質比極高、染色質細緻、細胞質少且呈淡藍色，沒有顆粒或 Auer rods；切片呈 100% 母細胞成片浸潤。免疫染色 CD34、TdT、CD79a（及 CD10）陽性，符合 B 淋巴母細胞白血病復發。",
+  "features": [
+    "Small-to-intermediate blasts with very high N:C ratio and scant agranular pale-blue cytoplasm; no Auer rods",
+    "Round to slightly irregular or indented nuclei with finely dispersed chromatin and inconspicuous-to-small nucleoli",
+    "Core biopsy: near 100% cellular marrow diffusely replaced by monotonous sheets of blasts with mitoses and scattered residual erythroid precursors",
+    "IHC: blasts positive for CD34, TdT (nuclear) and CD79a; CD10 positive per caption",
+    "Peripheral blood: circulating blasts with marked poikilocytosis including teardrop cells, target cells and ovalocytes"
+  ],
+  "describe_en": "The peripheral blood smear shows occasional circulating blasts with a high N:C ratio, fine chromatin, and scant basophilic cytoplasm. The red cells show marked anisopoikilocytosis with teardrop cells, target cells, and ovalocytes. The bone marrow aspirate is dominated by small-to-intermediate blasts with scant agranular cytoplasm, round-to-indented nuclei, and finely dispersed chromatin; no Auer rods are seen. The core biopsy is nearly 100% cellular and diffusely replaced by sheets of monotonous blasts, with frequent mitoses and only scattered residual erythroid elements. On immunohistochemistry, the blasts are positive for CD34, TdT, and CD79a, and they are reported as CD10 positive. In this patient with a history of B-lymphoblastic leukemia, findings are consistent with relapsed B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-ALL blasts look the same on morphology, but they express cytoplasmic CD3 and lack CD79a/CD19/PAX5, whereas these blasts are CD79a positive."},
+    {"dx": "AML with minimal differentiation", "vs": "Minimally differentiated AML blasts may also be agranular, but they express CD13, CD33, CD117 and often MPO by flow, and they lack the CD79a/CD10 B-lineage profile seen here."},
+    {"dx": "Hematogones (regenerating B-cell precursors)", "vs": "Hematogones do not form effacing sheets, and they show a continuous maturation spectrum (TdT/CD34 to CD20) by flow cytometry, whereas this marrow is diffusely replaced by a uniform CD34+/TdT+ population."},
+    {"dx": "Blastoid mantle cell lymphoma / Burkitt lymphoma", "vs": "These mature B-cell neoplasms are TdT and CD34 negative (cyclin D1+ in MCL, MYC rearranged with vacuolated cytoplasm in Burkitt), whereas these blasts are TdT and CD34 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC: CD34, TdT, CD79a",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Bone marrow aspirate: clusters of blasts with high N:C ratio, fine chromatin and scant agranular cytoplasm (Wright-Giemsa)",
+    "Peripheral blood: circulating blast with target cells and poikilocytosis",
+    "Peripheral blood: two circulating blasts with teardrop cells, target cells and ovalocytes",
+    "Core biopsy, medium power: diffuse sheets of blasts replacing the marrow (H&E)",
+    "Core biopsy, high power: monotonous blasts with fine chromatin and mitoses, with scattered residual erythroid cells",
+    "Core biopsy, highest power: blasts with round-to-indented nuclei, fine chromatin and a mitotic figure",
+    "Core biopsy, low power: nearly 100% cellular marrow between bony trabeculae",
+    "Composite: H&E with IHC showing blasts positive for CD34, TdT and CD79a (CD10 also positive per caption)"
+  ]
+}

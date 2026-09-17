@@ -1,0 +1,21 @@
+{
+  "id": "3141",
+  "recognize_zh": "紅血球之間有一大團由許多單顆血小板緊密聚集、邊緣不規則、中央帶紫色顆粒的團塊，旁邊是一顆單核球，典型的血小板凝集（可導致假性血小板低下）。",
+  "features": [
+    "Large irregular aggregate of numerous individual platelets with purple granulomeres and pale hyalomeres",
+    "Aggregate is anucleate with ragged, feathery margins",
+    "Adjacent monocyte with folded nucleus and gray vacuolated cytoplasm",
+    "A lymphocyte and a smudged cell at the upper left",
+    "Erythrocytes largely normocytic without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows a large aggregate of platelets composed of many discrete granular platelets without a nucleus, adjacent to a monocyte. Red cells are unremarkable in this field. Platelet clumping of this kind can falsely lower the automated platelet count (pseudothrombocytopenia, often EDTA-dependent); correlation with a citrate-anticoagulated sample or a smear review is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows few platelets without aggregates on the smear, whereas clumps indicate an artifactually low analyzer count."},
+    {"dx": "Platelet satellitism", "vs": "In satellitism platelets rim neutrophils individually rather than forming free aggregates."},
+    {"dx": "Microorganisms or stain precipitate", "vs": "Stain precipitate is refractile and lacks hyalomere/granulomere structure; organisms are uniform in size and shape."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

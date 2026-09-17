@@ -1,0 +1,22 @@
+{
+  "id": "62073",
+  "recognize_zh": "組合圖中周邊血紅血球小球性低色素且大小形狀不一（A），嗜中性球核分葉異常（B）；超活體 brilliant cresyl blue 染色見布滿細點狀包涵體的「高爾夫球」細胞（HbH，C）；骨髓抹片（E–G）有紅血球系與骨髓系發育異常，鐵染色（H、I）見鐵顆粒，提示 MDS 合併後天性 α 地中海貧血。",
+  "features": [
+    "A-B (PB): microcytic hypochromic red cells with anisopoikilocytosis; neutrophils with abnormal nuclear segmentation/clumped chromatin",
+    "C (brilliant cresyl blue supravital stain): scattered red cells with numerous fine, evenly distributed golf-ball inclusions (HbH precipitates)",
+    "D: test strip/immunochromatographic or electrophoresis-type assay image (details not interpretable at this resolution)",
+    "E-G (BM aspirate): dysplastic erythroid precursors including multinucleated/megaloblastoid forms and dysplastic myeloid cells",
+    "H-I (iron stain): erythroid precursors with coarse perinuclear siderotic granules",
+    "Low-resolution composite limits quantitative assessment of dysplasia"
+  ],
+  "describe_en": "This composite includes peripheral blood, supravital, and bone marrow images. The peripheral smear shows microcytic, hypochromic red cells with anisopoikilocytosis and neutrophils with abnormal nuclear segmentation, and brilliant cresyl blue supravital staining demonstrates red cells with numerous fine golf-ball inclusions characteristic of HbH. Bone marrow aspirate panels show dyserythropoiesis with multinucleated and megaloblastoid erythroid precursors and dysplastic myeloid cells, and the iron stain highlights erythroid precursors with coarse siderotic granules, raising the possibility of ring sideroblasts. Panel D appears to be a strip-based assay whose details cannot be read at this resolution. Findings are consistent with acquired HbH disease (alpha-thalassemia myelodysplastic syndrome), classically associated with somatic ATRX mutations in MDS.",
+  "ddx": [
+    {"dx": "Inherited HbH disease", "vs": "Inherited HbH disease has lifelong microcytosis with alpha-globin gene deletions and no marrow dysplasia, whereas the acquired form arises in older patients with MDS and ATRX mutation."},
+    {"dx": "MDS with ring sideroblasts without alpha-thalassemia", "vs": "MDS-RS may also show microcytic/dimorphic red cells but lacks HbH golf-ball inclusions and HbH on HPLC."},
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency shows absent marrow iron and no HbH inclusions or dysplasia."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; brilliant cresyl blue; Prussian blue",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,20 @@
+{
+ "id": "61931",
+ "recognize_zh": "CD3染色下，兩條被大型不規則核細胞塞滿的血管內，腫瘤細胞全為藍色陰性，只有血管周邊少數小型棕色T細胞呈陽性；以陽性小T細胞作為內在對照，確認腫瘤不是T細胞，搭配CD20陽性支持血管內大B細胞淋巴瘤。",
+ "features": [
+  "Two vessels packed with large atypical cells that are CD3-negative (blue hematoxylin only)",
+  "Tumor nuclei are large with irregular, folded contours, vesicular chromatin and occasional small nucleoli",
+  "Scattered small CD3-positive reactive T cells with brown membranous staining at the periphery of and around the vessels, serving as internal positive control",
+  "Adjacent brain parenchyma with CD3-negative glial nuclei and no extravascular tumor infiltrate"
+ ],
+ "describe_en": "CD3 immunohistochemistry on brain tissue shows two vessels distended by large atypical lymphoid cells with irregular vesicular nuclei that are negative for CD3. Rare small CD3-positive T cells are present at the periphery of the vessels and serve as an internal positive control. The surrounding parenchyma shows no CD3-positive infiltrate. The CD3-negative intravascular population, together with CD20 positivity, supports intravascular large B-cell lymphoma.",
+ "ddx": [
+  {"dx": "Intravascular NK/T-cell lymphoma", "vs": "In intravascular NK/T-cell lymphoma the large intravascular cells express cytoplasmic CD3epsilon (often with CD56 and EBER), whereas here they are CD3-negative."},
+  {"dx": "Primary CNS diffuse large B-cell lymphoma with reactive T cells", "vs": "Primary CNS DLBCL has a similar CD3-negative tumor with admixed reactive T cells but infiltrates the parenchyma in perivascular cuffs rather than staying intraluminal."},
+  {"dx": "Leukostasis in acute myeloid leukemia", "vs": "Intravascular myeloblasts are also CD3-negative but are CD20-negative and express myeloid markers such as MPO or CD33 with a high peripheral blast count."}
+ ],
+ "specimen": "tissue",
+ "stain": "IHC: CD3",
+ "match": "consistent",
+ "high_yield": false
+}

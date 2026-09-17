@@ -1,0 +1,22 @@
+{
+  "id": "61890",
+  "recognize_zh": "骨髓切片呈高度細胞密集，被成片偏心核、嗜鹼性胞質的漿細胞取代，核染色免疫標記大量陽性；FDG PET 最大投影與 PET/CT 顯示下肢及足部（箭頭）多處代謝活性骨病灶，符合漿細胞骨髓瘤（plasma cell myeloma）累及足骨。",
+  "features": [
+    "Markedly hypercellular marrow core with near-effacement of fat by a monotonous infiltrate",
+    "Sheets of plasma cells with eccentric round nuclei, clock-face chromatin and ample amphophilic cytoplasm",
+    "Nuclear immunostain positive in the large majority of infiltrating cells (antibody not labeled)",
+    "FDG PET maximum-intensity projection with multiple hypermetabolic foci in the lower limbs",
+    "Fused PET/CT of the leg highlighting an FDG-avid lesion in the foot (arrow)"
+  ],
+  "describe_en": "Composite figure of a bone marrow biopsy and FDG PET imaging. The H&E core biopsy is markedly hypercellular, with sheets of mature-appearing plasma cells showing eccentric nuclei, coarse chromatin and abundant cytoplasm replacing normal hematopoiesis. A nuclear immunohistochemical stain (antibody not specified, likely a plasma cell-associated marker) is positive in most of the infiltrating cells. Whole-body FDG PET shows multiple hypermetabolic lesions predominantly in the lower extremities, including a focal lesion in the foot confirmed on fused PET/CT. Findings are consistent with plasma cell myeloma with extensive skeletal involvement, including the bones of the foot.",
+  "ddx": [
+    {"dx": "Solitary plasmacytoma of bone", "vs": "Solitary plasmacytoma is a single lesion with no or minimal (<10%) clonal marrow plasma cells, whereas here the marrow is diffusely replaced and PET shows multiple lesions."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL contains a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with CD20-positive B cells and MYD88 L265P, rather than sheets of pure plasma cells."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive epithelial clusters with desmoplasia and is keratin positive and CD138/light-chain restriction negative, unlike these discohesive plasma cells."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are scattered, perivascular and polytypic by kappa/lambda staining, not sheet-like and clonal."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (nuclear marker, unlabeled); FDG PET/CT",
+  "match": "consistent",
+  "high_yield": false
+}

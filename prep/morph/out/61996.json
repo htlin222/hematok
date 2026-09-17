@@ -1,0 +1,23 @@
+{
+  "id": "61996",
+  "recognize_zh": "八格免疫染色組合中，大型腫瘤細胞 CD30 強陽性（膜與高基氏體）、p63 強核陽性，而 ALK 陰性，CD3、CD4、CD8、CD20 均陰性（只有少數反應性 T 細胞陽性），CD45 也幾乎陰性；CD30+/ALK−/p63+ 且 T 細胞標記丟失，指向 TP63 重排的 ALK 陰性退行性大細胞淋巴瘤（ALCL）。",
+  "features": [
+    "Sheets of large pleomorphic tumor cells with vesicular nuclei and moderate cytoplasm",
+    "CD30: strong, uniform membranous and Golgi-dot staining in virtually all tumor cells",
+    "p63: strong diffuse nuclear staining in tumor cells",
+    "ALK: negative",
+    "CD3, CD4, CD8 negative in tumor cells (only rare reactive T cells positive) - loss of T-cell antigens (null phenotype)",
+    "CD20 negative; CD45 negative to weak"
+  ],
+  "describe_en": "Immunohistochemical panel of a lymphoid neoplasm composed of sheets of large pleomorphic cells shows strong, uniform membranous and Golgi CD30 expression and strong diffuse nuclear p63 staining. The tumor cells are negative for ALK, CD20, CD3, CD4 and CD8, with only rare reactive T cells staining, and CD45 is negative to weak. This CD30-positive, ALK-negative null-phenotype immunoprofile with diffuse p63 expression is consistent with ALK-negative anaplastic large cell lymphoma and suggestive of TP63 rearrangement, which should be confirmed by FISH.",
+  "ddx": [
+    {"dx": "ALK-positive ALCL", "vs": "ALK-positive ALCL shows nuclear/cytoplasmic ALK staining, which is negative here."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL has scattered CD30+/CD15+ HRS cells with PAX5 dim in a mixed inflammatory background rather than cohesive sheets of CD30+ cells."},
+    {"dx": "Undifferentiated carcinoma or squamous carcinoma", "vs": "p63 and weak CD45 can mimic carcinoma; cytokeratin negativity and TCR gene rearrangement or cytotoxic markers support ALCL."},
+    {"dx": "DUSP22-rearranged ALK-negative ALCL", "vs": "DUSP22-rearranged cases are typically p63 negative and LEF1 positive with a favorable prognosis, whereas diffuse p63 suggests TP63 rearrangement with poor prognosis."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC panel: CD45, CD20, CD3, CD4, CD8, CD30, ALK, p63",
+  "match": "consistent",
+  "high_yield": false
+}

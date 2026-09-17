@@ -1,0 +1,22 @@
+{
+  "id": "63064",
+  "recognize_zh": "在正常大小、有中央淡區的紅血球之間，散布許多明顯較小、染色深且沒有中央淡區的圓形細胞，即小球形紅血球（microspherocytes），可被分析儀誤計為血小板。",
+  "features": [
+    "Numerous microspherocytes: small, dense, uniformly dark-staining round red cells lacking central pallor",
+    "Microspherocytes clearly smaller than adjacent normocytic discocytes",
+    "Background red cells normochromic with preserved central pallor",
+    "Rare platelet; no obvious schistocytes in this field",
+    "Photograph slightly out of focus, limiting assessment of fine fragments"
+  ],
+  "describe_en": "Peripheral blood smear shows a background of normocytic normochromic red cells with preserved central pallor, admixed with numerous small, dense, round red cells lacking central pallor (microspherocytes). Platelets appear sparse in this field and no leukocytes are present. Image focus limits evaluation for small fragments. Findings are consistent with microspherocytosis due to toxin-induced and microangiopathic red cell injury, which can spuriously elevate automated platelet counts.",
+  "ddx": [
+    {"dx": "Hereditary spherocytosis", "vs": "HS spherocytes are more uniform and less extremely small, with a chronic history, family history and negative DAT, rather than acute microspherocytes accompanying fragmentation in DIC."},
+    {"dx": "Autoimmune hemolytic anemia", "vs": "Warm AIHA spherocytes are accompanied by polychromasia and a positive DAT, and lack the extreme small size of traumatic microspherocytes."},
+    {"dx": "Thermal injury / burns", "vs": "Burns produce identical microspherocytes plus budding fragments; distinction is clinical history."},
+    {"dx": "Giant platelets", "vs": "Platelets have purple granular texture and no hemoglobin color, whereas microspherocytes are homogeneously orange-pink."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

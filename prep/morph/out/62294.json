@@ -1,0 +1,22 @@
+{
+  "id": "62294",
+  "recognize_zh": "這是流式細胞 CD4/CD8 雙參數散佈圖（淋巴球 gate）：CD8 陽性族群佔 51.13%、CD4 陽性僅 26.59%，CD4:CD8 比例倒置（約 0.5），配合臨床與 EBER 結果支持全身性 EBV 陽性 T 細胞淋巴瘤（多為 CD8 陽性）。",
+  "features": [
+    "Two-parameter dot plot of CD4 FITC versus CD8 PE gated on lymphocytes",
+    "CD8+CD4- population 51.13% forming a tight, bright CD8 cluster",
+    "CD4+CD8- population 26.59%, relatively dim CD4 intensity",
+    "CD4-CD8- population 21.28% (includes B cells, NK cells and any double-negative T cells)",
+    "CD4+CD8+ events only 1.00%; CD4:CD8 ratio approximately 0.5 (inverted)"
+  ],
+  "describe_en": "Flow cytometric analysis of peripheral blood lymphocytes displayed as a CD4 versus CD8 dot plot shows 51.13% CD8-positive/CD4-negative cells, 26.59% CD4-positive/CD8-negative cells, 21.28% double-negative events and 1.00% double-positive events. The CD4:CD8 ratio is therefore inverted at approximately 0.5, with a prominent, homogeneous bright CD8-positive population. This plot alone does not establish clonality, since an inverted ratio also occurs in reactive viral responses; correlation with T-cell antigen loss, TCR clonality studies and EBER in situ hybridization is required. In context, the findings support an expanded CD8-positive T-cell population consistent with systemic EBV-positive T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Reactive CD8 lymphocytosis (acute EBV/CMV infection)", "vs": "Reactive infections also invert the CD4:CD8 ratio but show polyclonal TCR (Vbeta repertoire or PCR) and preserved pan-T-cell antigens."},
+    {"dx": "Chronic active EBV disease of T-cell type", "vs": "CAEBV shows EBV-infected T or NK cells with a more indolent course, separated by clinical duration, clonality and histologic features rather than by this plot."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL is a clonal CD8+ CD57+ population with granular lymphocyte morphology, EBV negative, and often STAT3 mutated."},
+    {"dx": "HIV infection", "vs": "HIV causes an inverted ratio mainly through CD4 depletion, identified by serology and absolute CD4 counts rather than an expanded clonal CD8 population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

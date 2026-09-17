@@ -1,0 +1,22 @@
+{
+  "id": "1256",
+  "recognize_zh": "骨髓抹片中散在大型細胞，細胞質內充滿大量藍黑色至墨綠色、細小粉末狀的色素顆粒（melanin），並溢出到背景中；周圍有許多中大型、染色質細緻、具核仁的非造血腫瘤細胞，符合黑色素瘤骨髓轉移。",
+  "features": [
+    "Several large cells with cytoplasm packed with fine, dusty blue-black to green-black pigment granules (melanin)",
+    "Pigment granules also scattered extracellularly in the background",
+    "Many medium-to-large discohesive cells with round-to-oval nuclei, fine chromatin and occasional nucleoli, distinct from normal hematopoietic cells",
+    "Some cells with abundant pale grey-blue cytoplasm and eccentric nuclei (upper right)",
+    "Relatively few maturing myeloid or erythroid cells in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows an infiltrate of medium-to-large, loosely cohesive non-hematopoietic-appearing cells with round-to-oval nuclei, fine chromatin and occasional nucleoli. Scattered large cells contain abundant fine, dusty blue-black cytoplasmic pigment, and similar pigment granules are dispersed in the background. Normal trilineage hematopoiesis is sparse in this field. Findings are suggestive of metastatic melanoma involving the bone marrow; confirmation with melanocytic markers (S100, SOX10, Melan-A, HMB45) on the core biopsy is recommended.",
+  "ddx": [
+    {"dx": "Hemosiderin-laden macrophages", "vs": "Hemosiderin on Wright-Giemsa is coarser, golden-blue to blue-black and Prussian blue-positive, whereas melanin is finer, dusty and Fontana-Masson-positive with melanocytic marker-positive tumor cells."},
+    {"dx": "Acute myeloid leukemia", "vs": "Leukemic blasts lack cytoplasmic pigment and are CD45-positive with myeloid markers, whereas melanoma cells are CD45-negative and SOX10/S100-positive."},
+    {"dx": "Basophils or mast cells", "vs": "Basophil and mast cell granules are coarse, round and deep purple-black, obscure the nucleus, and are tryptase/CD117-positive rather than fine greenish-black melanin."},
+    {"dx": "Pseudo-Chediak-Higashi granules", "vs": "Pseudo-Chediak granules are large, discrete azurophilic inclusions within myeloid blasts, not dusty pigment in non-hematopoietic cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2046",
+  "recognize_zh": "背景為多顆染色質粗塊狀的小淋巴球；兩個箭頭指向較大的淋巴細胞，細胞質較多、染色質較不緻密，代表 CLL 中混雜的較大細胞（疑似 prolymphocyte）；左下有一顆被壓碎的細胞（smudge cell）。",
+  "features": [
+    "Background of small lymphocytes with coarsely clumped chromatin and scant cytoplasm",
+    "Arrowed cells are larger lymphoid cells with more abundant pale blue cytoplasm and less condensed chromatin",
+    "Nucleoli not sharply resolved in the arrowed cells at this image quality",
+    "Irregular crushed lymphoid nucleus (smudge-type cell) at lower left",
+    "Normal neutrophil and a granulated mononuclear cell with folded nucleus for size comparison",
+    "Red cells normocytic without significant abnormality"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous small lymphocytes with coarsely clumped chromatin and scant cytoplasm. Admixed are larger lymphoid cells (arrows) with more abundant pale cytoplasm and somewhat less condensed chromatin; distinct central nucleoli are not clearly resolved at this resolution. A crushed smudge-type cell, a neutrophil and a granulated mononuclear cell are also present. Findings are consistent with chronic lymphocytic leukemia with admixed larger cells; if prolymphocytes are confirmed, their proportion should be quantified.",
+  "ddx": [
+    {"dx": "B-prolymphocytic leukemia / CLL with increased prolymphocytes", "vs": "Prolymphocytic disease is defined by a predominance of medium-sized cells with a prominent central nucleolus, not a minority of larger cells among block-chromatin small lymphocytes."},
+    {"dx": "Leukemic mantle cell lymphoma", "vs": "MCL shows more pleomorphic, irregular nuclei and requires CD23, CD200 and cyclin D1/SOX11 testing to exclude."},
+    {"dx": "Reactive large granular or atypical lymphocytes", "vs": "Reactive lymphocytes have abundant cytoplasm that hugs adjacent red cells or contains azurophilic granules and occur without a monotonous small-lymphocyte background."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

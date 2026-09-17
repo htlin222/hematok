@@ -1,0 +1,20 @@
+{
+  "id": "62371",
+  "recognize_zh": "這是間期細胞核的螢光原位雜交（FISH）影像，DAPI 藍色核內可見紅、綠、藍三色訊號，其中一個紅色訊號遠離其他訊號、單獨存在，呈現分離（split）型態，符合 3q26 MECOM 區域重組。",
+  "features": [
+    "Interphase nucleus counterstained with DAPI, hybridized with a three-color probe set (red, green, aqua/blue signals)",
+    "One red signal isolated at the periphery of the nucleus, separated from the other signals",
+    "A second red signal closely juxtaposed to a green signal (intact/colocalized pattern)",
+    "Additional small green signals and two blue signals clustered nearby",
+    "Single-nucleus image: probe identity and cutoff are not labeled, so interpretation relies on the case context"
+  ],
+  "describe_en": "Interphase FISH image shows a single DAPI-counterstained nucleus hybridized with a multicolor probe set. One red signal is widely separated from its partner green signal, while the remaining red signal lies adjacent to a green signal, producing an abnormal split pattern. In the context of this case, the pattern is interpreted as rearrangement of the 3q26 (MECOM) region, consistent with inv(3)(q21q26.2) or t(3;3)(q21;q26.2). Probe design and the scored percentage of abnormal nuclei are not provided in the image and should be reported from the laboratory study.",
+  "ddx": [
+    {"dx": "Other 3q26 MECOM rearrangements (e.g., t(3;21), t(3;12))", "vs": "Break-apart MECOM probes detect all 3q26 rearrangements; identifying the partner (3q21/GATA2 for inv(3)/t(3;3)) needs karyotype or dual-fusion probes."},
+    {"dx": "Normal nucleus with signal splitting artifact", "vs": "Artifactual splits are small and occur in a low percentage of nuclei below the laboratory cutoff, whereas true rearrangement shows wide separation in a clonal proportion of cells."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH (DAPI counterstain)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

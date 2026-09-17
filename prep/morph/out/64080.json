@@ -1,0 +1,23 @@
+{
+  "id": "64080",
+  "recognize_zh": "頸部顯影 CT（冠狀切與橫切）可見左側頸部多顆腫大、成串甚至融合的淋巴結，部分內部呈低密度（壞死），並往下延伸到左鎖骨上區；廣泛頸部淋巴結病變本身不具特異性，需切片才能確診 T 淋巴母細胞淋巴瘤。",
+  "features": [
+    "Contrast-enhanced CT of the neck, coronal (left) and axial (right) reconstructions",
+    "Multiple enlarged, rounded left cervical lymph nodes forming a chain from the upper neck to the supraclavicular region",
+    "Some nodes show central low attenuation suggestive of necrosis",
+    "Nodes displace surrounding soft tissue but airway remains patent on the axial image",
+    "Right side of the neck shows no comparable nodal enlargement on these slices",
+    "Non-morphologic image: tissue diagnosis required"
+  ],
+  "describe_en": "Contrast-enhanced CT of the neck in coronal and axial planes demonstrates extensive left-sided cervical lymphadenopathy, with multiple enlarged, rounded, partly confluent lymph nodes extending from the upper neck toward the supraclavicular region. Several nodes show central low attenuation suggestive of necrosis. The airway is patent on the axial slice, and the contralateral neck shows no comparable nodal enlargement on these images. The findings indicate bulky nodal disease but are not specific; excisional biopsy is required, and in this case histology and immunophenotyping established T-lymphoblastic lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Also presents with cervical and mediastinal adenopathy, but biopsy shows CD30+/CD15+ Hodgkin/Reed-Sternberg cells in a mixed inflammatory background."},
+    {"dx": "Metastatic squamous cell carcinoma of head and neck", "vs": "Necrotic cervical nodes are classic for SCC; biopsy shows cytokeratin/p40-positive squamous cells, often HPV-associated (p16+)."},
+    {"dx": "Tuberculous lymphadenitis (scrofula)", "vs": "Produces necrotic, matted nodes with rim enhancement; biopsy shows caseating granulomas with acid-fast bacilli or positive mycobacterial culture/PCR."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "Imaging cannot separate them; DLBCL is CD20+ large cells without TdT, while T-LBL is TdT+ cytoplasmic CD3+ lymphoblasts."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

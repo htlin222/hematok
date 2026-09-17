@@ -1,0 +1,21 @@
+{
+  "id": "60072",
+  "recognize_zh": "這是骨髓流式圖（含 CD71）：正常紅血球系前驅細胞應出現在 CD45 陰性、低 SSC、CD71 強陽性的位置，但 CD45 對 SSC 與 CD45 對 CD71 圖中都看不到這群細胞，CD71 幾乎全為陰性到弱陽性；畫面以顆粒球（淺藍）占多數，印證 Diamond-Blackfan anemia 的紅血球系缺乏。",
+  "features": [
+    "FSC vs SSC and CD45 vs SSC: dominant granulocytic population (light blue, high SSC, CD45 moderate), with monocytes (green) and lymphocytes (red/dark blue, low SSC, CD45 bright)",
+    "No CD45-negative, low-SSC event cluster where nucleated erythroid precursors normally reside",
+    "CD71 vs CD45: essentially all events CD71 negative to dim; no CD71-bright CD45-negative erythroid population",
+    "CD33 vs HLA-DR and CD33 vs CD45: CD33+ granulocytes (HLA-DR negative) and CD33 bright HLA-DR+ monocytes; CD33-negative lymphocytes",
+    "No discrete CD45-dim blast population apparent"
+  ],
+  "describe_en": "Flow cytometric analysis of bone marrow displays FSC/SSC, CD45/SSC, CD33/HLA-DR, CD45/CD71, CD33/CD45, and HLA-DR/CD45 plots. The events are dominated by maturing granulocytes (CD33 positive, HLA-DR negative, high side scatter), with smaller populations of monocytes (bright CD33, HLA-DR positive) and CD45-bright lymphocytes. There is no CD45-negative, low side-scatter population and no CD71-bright events, indicating an absence of nucleated erythroid precursors, and no discrete CD45-dim blast population is evident. These findings support marked erythroid hypoplasia with myeloid predominance, consistent with the morphologic impression of Diamond-Blackfan anemia; note that lysis protocols and hemodilution can reduce erythroid events, so correlation with the aspirate is required.",
+  "ddx": [
+    {"dx": "Pre-analytic loss of erythroid precursors (RBC lysis, hemodilution)", "vs": "Ammonium chloride lysis and peripheral blood contamination can deplete nucleated red cells artifactually; the aspirate morphology must confirm true erythroid hypoplasia."},
+    {"dx": "Transient erythroblastopenia of childhood or parvovirus B19 aplasia", "vs": "Produce the same flow pattern; distinguished clinically and by B19 PCR, HbF, eADA, and ribosomal protein gene testing."},
+    {"dx": "Acute leukemia", "vs": "Would show a discrete CD45-dim, low side-scatter blast population, which is not present here."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

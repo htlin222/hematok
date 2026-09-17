@@ -1,0 +1,30 @@
+{
+ "id": "61198",
+ "recognize_zh": "血液抹片右側可見一顆接近紅血球大小、含紫紅色顆粒的巨大血小板，與畫面中央正常大小的小血小板形成對比；但本圖只見一顆巨血小板且解析度低，無法看出「大量」巨血小板。",
+ "features": [
+  "One giant platelet at right, approaching the diameter of an adjacent red cell, with a central purple granulomere and pale peripheral hyalomere",
+  "A normal-sized small platelet in the center for comparison",
+  "Two neutrophils (one band-like, one segmented) with normal granulation and no visible Döhle-like inclusions",
+  "Normocytic red cells with central pallor",
+  "Low image resolution limits assessment of platelet number and granule detail"
+ ],
+ "describe_en": "Peripheral blood smear shows a giant platelet approaching red cell size with preserved purple granulation, contrasting with a normal-sized platelet nearby. Two neutrophils show normal granulation without obvious Döhle-like cytoplasmic inclusions, and red cells are unremarkable. Only a single giant platelet is present in this low-resolution field, so the degree of macrothrombocytopenia cannot be assessed. The finding is compatible with an inherited macrothrombocytopenia such as Bernard-Soulier syndrome, which requires absent ristocetin-induced agglutination and reduced GPIb-IX-V expression by flow cytometry for confirmation.",
+ "ddx": [
+  {
+   "dx": "MYH9-related disorder",
+   "vs": "Giant platelets are accompanied by Döhle-like basophilic inclusions in neutrophils, and ristocetin agglutination is normal."
+  },
+  {
+   "dx": "Gray platelet syndrome",
+   "vs": "Large platelets are pale gray and agranular rather than normally granulated."
+  },
+  {
+   "dx": "Immune thrombocytopenia",
+   "vs": "Young large platelets are present but not consistently red-cell sized, platelet function testing is normal, and there is no lifelong family history."
+  }
+ ],
+ "specimen": "PB",
+ "stain": "Wright-Giemsa",
+ "match": "partial",
+ "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2641",
+  "recognize_zh": "骨髓抽吸顆粒（particle）以普魯士藍（Prussian blue）染色，顆粒內可見大量藍色含鐵血黃素沉積，代表儲存鐵存在且偏多；這與缺鐵性貧血應看到的「沒有藍色」相反。",
+  "features": [
+    "Marrow particle with abundant blue granular and diffuse hemosiderin deposits",
+    "Blue staining distributed throughout the particle stroma and macrophages",
+    "Background red cells stain orange-brown with the counterstain",
+    "Thick particle obscures individual cells; sideroblasts cannot be assessed in this field"
+  ],
+  "describe_en": "Prussian blue-stained bone marrow aspirate smear shows a marrow particle with abundant blue granular and diffuse hemosiderin deposits within stromal macrophages, against an orange-brown red cell background. Storage iron appears present and at least adequate to increased (approximately grade 3-4+ on this field). Erythroid precursors cannot be evaluated for sideroblasts in this thick particle. These findings do not support iron deficiency; if the clinical question is iron deficiency, abundant stainable iron would instead point toward anemia of inflammation, iron overload, or ineffective erythropoiesis.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency shows absent blue staining in particles, whereas this particle contains abundant stainable iron."},
+    {"dx": "Anemia of chronic disease/inflammation", "vs": "Anemia of inflammation shows normal to increased macrophage iron with reduced sideroblasts, so sideroblast assessment in a thin area is needed."},
+    {"dx": "Sideroblastic anemia / MDS with ring sideroblasts", "vs": "These show increased storage iron plus ring sideroblasts in erythroid precursors, which must be counted in single-cell areas."},
+    {"dx": "Transfusional iron overload", "vs": "Iron overload shows markedly increased particle iron with clinical history of repeated transfusions or elevated ferritin."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Prussian blue",
+  "match": "partial",
+  "high_yield": false
+}

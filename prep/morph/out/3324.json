@@ -1,0 +1,22 @@
+{
+  "id": "3324",
+  "recognize_zh": "抹片中一群中型淋巴細胞，核圓或橢圓、染色質中度濃縮，部分可見單一明顯核仁，細胞質淡藍、邊緣毛糙不規則，符合毛細胞白血病變異型（核仁明顯是與典型 HCL 區別的線索）。",
+  "features": [
+    "Cluster of intermediate-sized lymphoid cells with round to oval nuclei",
+    "Moderately condensed chromatin with a distinct central nucleolus in some cells",
+    "Moderate pale blue-gray cytoplasm with ragged, irregular borders suggesting fine projections",
+    "Occasional binucleate-appearing or indented nuclei within the cluster",
+    "Paucicellular background with scattered red cells, one small dark cell, and clear lipid-like spaces"
+  ],
+  "describe_en": "Smear shows a cluster of intermediate-sized atypical lymphoid cells in a paucicellular background containing clear lipid-like spaces, suggestive of an aspirate preparation. The cells have round to oval nuclei with moderately condensed chromatin, a conspicuous nucleolus in several cells, and moderate pale blue-gray cytoplasm with ragged borders. Normal hematopoietic elements are sparse in this field. Findings are consistent with involvement by hairy cell leukemia variant; immunophenotyping (CD25 and annexin A1 negative) and BRAF V600E testing are needed to exclude classic HCL.",
+  "ddx": [
+    {"dx": "Classic hairy cell leukemia", "vs": "Classic hairy cells lack prominent nucleoli, often yield a dry tap, and are CD25/annexin A1/BRAF V600E positive."},
+    {"dx": "B-prolymphocytic leukemia", "vs": "Prolymphocytes have prominent nucleoli but scant cytoplasm without hairy projections and lack CD103/CD11c co-expression."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells have more condensed chromatin, no prominent nucleoli and polar villi, and are CD103 negative."},
+    {"dx": "Mantle cell lymphoma, blastoid or pleomorphic", "vs": "MCL is CD5 and cyclin D1 positive with t(11;14), while cytoplasmic projections are not a feature."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

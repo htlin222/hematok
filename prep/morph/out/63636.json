@@ -1,0 +1,20 @@
+{
+  "id": "63636",
+  "recognize_zh": "右上方一群嗜中性球（neutrophil）的細胞膜外緣一圈圈黏附著許多小紫色血小板，像花環一樣環繞每顆嗜中性球，而其他背景的血小板很少，這就是血小板衛星現象（platelet satellitism）。",
+  "features": [
+    "Cluster of six segmented/band neutrophils with normal nuclear and granular morphology",
+    "Numerous small purple platelets adhering in a ring around the cell membrane of each neutrophil (rosetting)",
+    "Few free platelets in the remainder of the field, explaining a falsely low automated count",
+    "Normocytic red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of neutrophils, each surrounded by a rim of adherent platelets forming rosettes around the cell membrane. The neutrophils themselves are morphologically unremarkable, and relatively few free platelets are present elsewhere in the field. Red cells are normocytic without significant poikilocytosis. Findings are consistent with platelet satellitism, an EDTA-dependent in vitro phenomenon that can cause spurious thrombocytopenia; a repeat count in citrate or heparin anticoagulant or a fingerstick smear is recommended.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Pseudothrombocytopenia from clumping shows free aggregates of platelets in the background and feathered edge rather than platelets encircling neutrophils."},
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows reduced platelets throughout the smear with no rosettes, and the count does not correct in citrate."},
+    {"dx": "Neutrophil phagocytosis of platelets", "vs": "Phagocytosed platelets lie within the neutrophil cytoplasm, whereas satellite platelets adhere to the outer membrane."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": true
+}

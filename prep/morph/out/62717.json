@@ -1,0 +1,21 @@
+{
+  "id": "62717",
+  "recognize_zh": "這是原始細胞閘門內的 CD123 對 CD19 流式圖：一大群原始細胞 CD19 陽性（藍色，約 2×10³ 以上）代表 B 系，另一群 CD19 陰性（紅色）；兩群 CD123 多為弱到中度表現，只有少數延伸到較亮，顯示原始細胞中同時存在 B 系與非 B 系族群。",
+  "features": [
+    "Gated on blasts; CD123-APC (x-axis) versus CD19-APC700 (y-axis)",
+    "Large blast subset (blue) with moderate-to-bright CD19 expression (about 10^3.3 to 10^4.7)",
+    "Second blast subset (red) that is CD19 negative to dim",
+    "CD123 largely negative to dim on both subsets, with a minor tail of brighter CD123 (10^4 to 10^5)",
+    "No discrete CD123-bright/CD19-negative population to suggest plasmacytoid dendritic cell neoplasm"
+  ],
+  "describe_en": "Flow cytometric analysis gated on blasts displays CD123 versus CD19. A large blast subset (colored blue) shows moderate-to-bright CD19 expression, while a second subset (red) is CD19 negative to dim. CD123 is negative to dim on most blasts, with a small tail of brighter events. Strong CD19 on a subset of blasts supports B-lineage commitment when accompanied by CD79a, cCD22 or CD10, while the CD19-negative subset corresponds to the myeloid component; together with the other plots, these findings are consistent with mixed phenotype acute leukemia, B/myeloid.",
+  "ddx": [
+    {"dx": "AML with aberrant CD19 expression (e.g., RUNX1::RUNX1T1)", "vs": "CD19 is usually partial and dim without strong co-expression of CD79a/cCD22/CD10, so it does not qualify as B-lineage commitment."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "Shows uniform bright CD123 with CD4 and CD56, lacking CD19 and MPO."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "Blasts are uniformly CD19 positive without a separate CD19-negative MPO-positive myeloid subset."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry: CD123-APC vs CD19-APC700",
+  "match": "non-morphologic",
+  "high_yield": false
+}

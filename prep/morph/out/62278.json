@@ -1,0 +1,21 @@
+{
+  "id": "62278",
+  "recognize_zh": "低倍 H&E 下可見一個比周圍濾泡大好幾倍、邊界模糊的淋巴結節，內部呈斑駁狀（小淋巴球為主、夾雜淡染的生發中心碎片），下方另有較小的結節，符合生發中心進行性轉化（PTGC）。",
+  "features": [
+    "Markedly enlarged, vaguely nodular lymphoid follicle several times the size of adjacent follicles",
+    "Nodule composed predominantly of densely packed small lymphocytes (mantle-type), imparting a dark staining quality",
+    "Mottled internal appearance with ill-defined paler islands consistent with fragmented germinal center remnants",
+    "Adjacent smaller nodules in the background lymphoid tissue",
+    "No sheets of large atypical cells discernible at this low magnification; cytologic detail not assessable"
+  ],
+  "describe_en": "Low-power H&E section of lymph node shows a markedly enlarged, poorly circumscribed lymphoid nodule that is several times the size of the surrounding follicles. The nodule is composed mainly of small lymphocytes with a mottled pattern produced by irregular paler zones, suggestive of germinal center fragments broken up by infiltrating mantle cells; smaller nodules are present nearby. Cytologic detail, including the presence or absence of LP ('popcorn') cells, cannot be evaluated at this magnification. Findings are suggestive of progressive transformation of germinal centers, pending immunostains (CD20, IgD, CD10, BCL2, PD-1) and high-power review to exclude nodular lymphocyte-predominant Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (NLPHL)", "vs": "NLPHL effaces the node with multiple large nodules containing scattered LP cells (CD20+, OCT2+, EMA+) ringed by PD-1+ T cells, whereas PTGC is usually a single or few nodules in an otherwise reactive node without LP cells."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma shows back-to-back monotonous follicles lacking tingible-body macrophages with BCL2-positive germinal center cells, whereas PTGC germinal center remnants are BCL2-negative and the nodule is dominated by IgD+ mantle cells."},
+    {"dx": "Lymphocyte-rich classic Hodgkin lymphoma", "vs": "Lymphocyte-rich CHL shows nodules with regressed germinal centers and scattered CD30+/CD15+ Hodgkin/Reed-Sternberg cells in the expanded mantle zone, which are not part of PTGC."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

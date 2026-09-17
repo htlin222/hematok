@@ -1,0 +1,21 @@
+{
+  "id": "65070",
+  "recognize_zh": "A 圖（EDTA 採血）低倍下可見多團大型血小板聚集，夾雜被困住的白血球；B 圖（檸檬酸鈉採血）同一病人的血小板則單顆均勻散布、無聚集，說明儀器計數的血小板低下是 EDTA 引起的假性血小板低下。",
+  "features": [
+    "Panel A (EDTA): multiple large platelet clumps of dozens of platelets scattered along the smear",
+    "Panel A: leukocytes entrapped at the edge of the aggregates",
+    "Panel B (citrate): platelets evenly dispersed as single cells with no aggregates",
+    "Panel B: two neutrophils with normal segmented nuclei; red cells unremarkable at this power",
+    "Low-power ocular photographs; fine platelet morphology not assessable"
+  ],
+  "describe_en": "Peripheral blood smears from the same patient are shown at low power. The EDTA-anticoagulated smear (A) contains numerous large platelet clumps with entrapped leukocytes, explaining the spuriously low automated platelet count of 25 x10^9/L. The citrate-anticoagulated smear (B) shows evenly dispersed single platelets without aggregates, corresponding to a smear-estimated count of about 140-150 x10^9/L. Red cells and neutrophils are unremarkable at this magnification. Findings are consistent with EDTA-dependent pseudothrombocytopenia; the citrate count (corrected for dilution) should be reported and no treatment for thrombocytopenia is needed.",
+  "ddx": [
+    {"dx": "True thrombocytopenia (e.g., ITP)", "vs": "True thrombocytopenia shows few single platelets and no clumps in both EDTA and citrate samples, whereas clumps here disappear in citrate with a near-normal count."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism is also EDTA dependent but shows platelets rosetting around neutrophils rather than free-standing large aggregates."},
+    {"dx": "Clumping from traumatic or delayed collection (clotted sample)", "vs": "Pre-analytic clotting produces clumps with fibrin strands in any anticoagulant, whereas EDTA-dependent clumping resolves in a properly collected citrate tube."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

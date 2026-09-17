@@ -1,0 +1,22 @@
+{
+  "id": "63243",
+  "recognize_zh": "骨髓切片 H&E（2a、2b）在骨小樑之間可見疏鬆纖維間質中瀰漫浸潤的多形性異型細胞，核深染、梭形至卵圓，取代正常造血組織；IHC（2c、2d）腫瘤細胞呈棕色陽性（myoD1、desmin），肌源性標記陽性指向轉移性橫紋肌肉瘤。",
+  "features": [
+    "Panels 2a-2b (H&E): interstitial to diffuse infiltrate of atypical cells between bony trabeculae, replacing hematopoietic marrow",
+    "Tumor cells are pleomorphic, oval to spindled and angulated, with hyperchromatic nuclei and scant to moderate eosinophilic cytoplasm",
+    "Loose, edematous fibrous/myxoid stroma; occasional larger bizarre cells",
+    "Panel 2c: brown nuclear staining of tumor cells (reported as myoD1)",
+    "Panel 2d: brown staining of tumor cells (reported as desmin); cytoplasmic versus nuclear localization is difficult to resolve at this resolution"
+  ],
+  "describe_en": "Bone marrow trephine biopsy sections (H&E) show an interstitial to diffuse infiltrate of pleomorphic, oval to spindle-shaped atypical cells with hyperchromatic nuclei and scant eosinophilic cytoplasm, set in a loose fibrous stroma between bony trabeculae, with effacement of normal hematopoiesis. Immunohistochemical stains show the tumor cells to be positive for myoD1 (nuclear) and desmin. Image resolution limits assessment of fine cytologic detail and the precise staining pattern. Findings are consistent with marrow infiltration by rhabdomyosarcoma.",
+  "ddx": [
+    {"dx": "Metastatic neuroblastoma", "vs": "Neuroblastoma infiltrates are small round blue cells with neuropil, positive for PHOX2B/synaptophysin and negative for myoD1 and desmin."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma consists of monotonous small round cells with CD99 membranous and NKX2-2 nuclear positivity and lacks myogenic markers."},
+    {"dx": "Acute leukemia with marrow fibrosis (e.g., acute megakaryoblastic leukemia)", "vs": "Leukemic blasts are CD45/CD34/CD117 or CD61-positive and desmin/myoD1-negative, and are less spindled and pleomorphic."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Carcinoma is cytokeratin-positive and melanoma is SOX10/S100-positive, whereas this tumor expresses myoD1 and desmin."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: myoD1, desmin",
+  "match": "consistent",
+  "high_yield": false
+}

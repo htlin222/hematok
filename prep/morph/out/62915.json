@@ -1,0 +1,22 @@
+{
+  "id": "62915",
+  "recognize_zh": "這不是形態圖，而是一張血液分析儀的全血計數報表：血紅素 6.3 g/dL、RBC 2.09 的重度貧血，但 MCV 90.1 fL 正常、RDW 13.1 正常，RBC 直方圖峰位正常；重點在於維生素 B12 缺乏合併缺鐵或先前補充綜合維生素時，末梢血可能看不到巨球性變化，須靠骨髓判讀。",
+  "features": [
+    "Automated hematology analyzer printout (CBC with 5-part differential), not a morphologic image",
+    "RBC 2.09 x10^12/L, Hb 6.3 g/dL, Hct 18.8% (severe anemia) with normal MCV 90.1 fL, MCH 30.1 pg, MCHC 33.4 g/dL and RDW 13.1%",
+    "RBC volume histogram with a single peak in the normal range without a macrocytic shift",
+    "WBC 5.3 x10^9/L with relative neutrophilia (76.3%) and lymphopenia; flag for immature granulocytes/bands",
+    "Platelets 214 x10^9/L, MPV 7.7 fL (low-flagged); reticulocyte values not reported"
+  ],
+  "describe_en": "This figure is an automated complete blood count printout rather than a morphologic image. It shows severe normocytic, normochromic anemia (Hb 6.3 g/dL, MCV 90.1 fL, RDW 13.1%) with a unimodal RBC histogram, normal white cell count with relative neutrophilia and lymphopenia, an immature granulocyte flag, and a normal platelet count. The absence of macrocytosis and anisocytosis does not exclude megaloblastic anemia, because concurrent iron deficiency or prior multivitamin/folate supplementation can mask macrocytosis in the peripheral blood while megaloblastosis persists in the marrow. Interpretation requires correlation with vitamin B12, folate and iron studies, reticulocyte count, smear review (hypersegmented neutrophils, dimorphic red cells) and, if indicated, bone marrow examination.",
+  "ddx": [
+    {"dx": "Anemia of chronic disease/inflammation", "vs": "Normocytic anemia of inflammation has low serum iron with high ferritin and normal B12/folate, and the marrow lacks megaloblastic erythroid and giant metamyelocyte changes."},
+    {"dx": "Acute blood loss or hemolysis", "vs": "These show reticulocytosis (and hemolysis markers), whereas megaloblastic anemia has inappropriately low reticulocytes with elevated LDH from ineffective erythropoiesis."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS can show normocytic or macrocytic anemia with megaloblastoid change but has normal B12/folate, persistent dysplasia after replacement, and often cytogenetic or molecular abnormalities."},
+    {"dx": "Combined iron deficiency and B12 deficiency (dimorphic anemia)", "vs": "Mixed deficiency gives a normal MCV but typically a raised RDW and a dimorphic smear, so a normal RDW here argues for prior partial treatment."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

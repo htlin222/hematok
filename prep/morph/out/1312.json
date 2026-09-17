@@ -1,0 +1,21 @@
+{
+  "id": "1312",
+  "recognize_zh": "周邊血液中一群母細胞，胞質深藍且邊緣有泡狀突起（cytoplasmic blebs），部分核呈不規則或凹陷，旁邊還可見有核紅血球；這種帶胞質突起的母細胞是巨核母細胞（megakaryoblast）的典型線索，配合唐氏症背景即 ML-DS。",
+  "features": [
+    "Cluster of medium to large blasts with high N:C ratio and moderately condensed to fine chromatin",
+    "Deeply basophilic cytoplasm with irregular borders and cytoplasmic blebs/pseudopod-like projections",
+    "Some blasts with indented or folded nuclei; cytoplasm agranular with pale vacuolated zones",
+    "Circulating nucleated red cell (orthochromatic normoblast) at lower left",
+    "Background red cells with mild anisopoikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of circulating blasts. The blasts are medium to large with high nuclear-to-cytoplasmic ratios, round to indented nuclei, relatively fine chromatin, and deeply basophilic agranular cytoplasm with prominent cytoplasmic blebs and irregular projections. A nucleated red blood cell is present, and red cells show mild anisopoikilocytosis. The blast morphology suggests megakaryoblastic differentiation; in a patient with Down syndrome, findings are consistent with myeloid leukemia associated with Down syndrome (acute megakaryoblastic type), to be confirmed by flow cytometry for CD41/CD61 and GATA1 mutation studies.",
+  "ddx": [
+    {"dx": "Transient abnormal myelopoiesis (TAM)", "vs": "TAM blasts are morphologically identical megakaryoblasts, so the distinction is clinical: TAM presents in the neonatal period (usually <3 months) and regresses spontaneously, whereas ML-DS arises later, typically before age 5."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts lack cytoplasmic blebbing and are CD19 or cCD3 positive, whereas megakaryoblasts express CD41/CD61."},
+    {"dx": "Acute monoblastic leukemia", "vs": "Monoblasts have more abundant gray-blue cytoplasm with fine granules and nonspecific esterase positivity, while megakaryoblasts are NSE-negative and platelet glycoprotein positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

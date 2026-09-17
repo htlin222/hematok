@@ -1,0 +1,21 @@
+{
+  "id": "62712",
+  "recognize_zh": "原始細胞閘門內的 cCD22 對 cCD79a 流式圖：一群原始細胞（M 閘門，綠色）胞質 CD79a 明顯陽性（約 10⁴–10⁵），其餘原始細胞（紅色）CD79a 陰性到弱；cCD22 在兩群皆為陰性到弱陽性，顯示 B 系標記集中在部分原始細胞上。",
+  "features": [
+    "Gated on blasts; cytoplasmic CD22-APC700 (x-axis) versus cytoplasmic CD79a-APC (y-axis)",
+    "Gated subset 'M' (green) with bright cytoplasmic CD79a (about 10^4 to 1.5x10^5)",
+    "Remaining blasts (red) cytoplasmic CD79a negative to dim (below 10^4)",
+    "Cytoplasmic CD22 negative to dim on both subsets, with only scattered events above 5x10^3",
+    "Two separable blast populations defined by CD79a intensity"
+  ],
+  "describe_en": "Flow cytometric analysis gated on blasts displays cytoplasmic CD22 versus cytoplasmic CD79a. A distinct subset of blasts (gate M, green) shows bright cytoplasmic CD79a, while the remaining blasts (red) are CD79a negative to dim. Cytoplasmic CD22 is negative to dim across the blast population. Bright cCD79a on a subset that also expresses strong CD19 fulfills B-lineage criteria, while the CD79a-negative subset corresponds to the MPO-positive myeloid component; the findings are consistent with mixed phenotype acute leukemia, B/myeloid with bilineal blast populations.",
+  "ddx": [
+    {"dx": "AML with aberrant cytoplasmic CD79a (e.g., APL, AML with t(8;21))", "vs": "CD79a can be expressed in some AML, but without strong CD19 it does not assign B lineage."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "cCD79a can be positive in some T-ALL, but blasts express cytoplasmic CD3 and lack CD19."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "Blasts typically co-express CD79a and cCD22 uniformly without an MPO-positive CD79a-negative blast subset."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry: cCD22-APC700 vs cCD79a-APC",
+  "match": "non-morphologic",
+  "high_yield": false
+}

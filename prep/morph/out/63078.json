@@ -1,0 +1,21 @@
+{
+  "id": "63078",
+  "recognize_zh": "BOB1 染色中，數顆散在的大型細胞呈均勻強烈的棕色陽性，明顯比背景小淋巴球的淡染更強；大細胞保留強 BOB1 表現，支持 NLPHL 的 LP 細胞，而非 BOB1 通常喪失的典型何杰金細胞。",
+  "features": [
+    "Immunohistochemical stain for BOB1 at high power",
+    "Scattered large cells with strong nuclear and cytoplasmic BOB1 staining",
+    "Positive large cells are several times the size of background lymphocytes",
+    "Background small lymphocytes show weak or negative staining",
+    "Large cells are isolated rather than forming sheets"
+  ],
+  "describe_en": "Immunohistochemical stain for BOB1 highlights scattered large cells with strong staining, clearly more intense than the weak to negative staining of the background small lymphocytes. The large cells are isolated within a lymphocyte-rich background without sheet formation. Preserved strong BOB1 expression, together with OCT2 positivity, supports an intact B-cell transcription program in these large cells. Findings are consistent with LP cells of nodular lymphocyte predominant Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells usually lack BOB1 and/or OCT2 and are CD30/CD15-positive, whereas the large cells here strongly express BOB1."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Neoplastic cells are also BOB1-positive, so the distinction depends on diffuse growth with loss of follicular dendritic meshworks and scant small B cells."},
+    {"dx": "EBV-positive reactive immunoblastic proliferation", "vs": "Immunoblasts retain BOB1 but are EBER-positive, show a spectrum toward plasma cells, and occur with preserved nodal architecture."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BOB1",
+  "match": "consistent",
+  "high_yield": false
+}

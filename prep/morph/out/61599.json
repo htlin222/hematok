@@ -1,0 +1,20 @@
+{
+  "id": "61599",
+  "recognize_zh": "CD79a 染色中腫瘤細胞大多陰性或僅有極淡的細胞質染色，只有中央一個細胞呈強烈環狀陽性（內部對照）；漿母細胞淋巴瘤常見 CD79a 弱陽性、部分陽性或陰性，所以 B 細胞標記缺失不可據以排除 B 細胞來源。",
+  "features": [
+    "Monotonous sheet of tumor cells with round nuclei and moderate cytoplasm",
+    "Tumor cells negative to at most faint, weak cytoplasmic CD79a staining",
+    "Single strongly positive cell with ring-like cytoplasmic staining acting as internal control",
+    "Patchy faint granular background staining"
+  ],
+  "describe_en": "CD79a immunostain shows the neoplastic cells to be largely negative, with at most faint, weak cytoplasmic staining in a subset. A rare admixed cell displays strong cytoplasmic positivity, confirming staining adequacy. Plasmablastic lymphoma frequently shows weak, partial or absent CD79a, reflecting loss of the mature B-cell program. The findings are compatible with EBV-positive plasmablastic lymphoma when interpreted with MUM1/CD138 positivity and EBER in situ hybridization.",
+  "ddx": [
+    {"dx": "DLBCL, NOS", "vs": "DLBCL shows strong, diffuse CD79a together with CD20/PAX5, unlike the weak or absent CD79a of plasmablastic lymphoma."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma may be CD79a negative or weak as well, so it is separated by clinical/serologic features and usual EBER negativity."},
+    {"dx": "T-cell or NK-cell lymphoma", "vs": "CD79a negativity may suggest a non-B lineage, which is excluded by absence of CD3/CD2/CD56 and presence of MUM1/CD138 and immunoglobulin light-chain restriction."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD79a",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60596",
+  "recognize_zh": "骨髓抹片中早期紅血球前驅細胞（原紅血球）與顆粒球前驅細胞的細胞質內有多個小圓形空泡，這種早期前驅細胞空泡化是銅缺乏（或酒精、linezolid）造成貧血的線索。",
+  "features": [
+    "Early erythroid precursor (pronormoblast) with round nucleus, fine chromatin and deeply basophilic cytoplasm",
+    "Multiple small, discrete, round cytoplasmic vacuoles, some at the cell periphery",
+    "Myeloid precursor (panel B) with similar cytoplasmic vacuolation",
+    "Adjacent neutrophils and myelocytes without significant dysplasia; platelets in background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows early erythroid precursors with deeply basophilic cytoplasm containing multiple small, sharply defined vacuoles, and a myeloid precursor with similar cytoplasmic vacuolation. Neighboring maturing granulocytes lack overt dysplasia in these fields. Vacuolization of early erythroid and myeloid precursors is suggestive of copper deficiency, with alcohol, linezolid/chloramphenicol exposure and zinc excess as alternative causes; iron stain for ring sideroblasts and serum copper/ceruloplasmin and zinc levels are recommended.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS shows multilineage dysplasia and clonal cytogenetic/molecular changes, while copper deficiency vacuoles resolve with copper repletion and occur with low serum copper."},
+    {"dx": "Alcohol toxicity or chloramphenicol/linezolid effect", "vs": "Produces identical precursor vacuoles; exposure history and normal copper levels discriminate."},
+    {"dx": "Acute erythroid leukemia / pure erythroid leukemia", "vs": "Pure erythroid leukemia has sheets (>80%) of vacuolated pronormoblasts with PAS-positive vacuoles and TP53 mutation, not scattered vacuolated precursors amid normal maturation."},
+    {"dx": "Storage artifact (EDTA/delayed smear)", "vs": "Artifactual vacuoles affect mature neutrophils and monocytes diffusely, rather than selectively involving early erythroid and myeloid precursors in a fresh aspirate."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

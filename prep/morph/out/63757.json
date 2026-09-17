@@ -1,0 +1,22 @@
+{
+  "id": "63757",
+  "recognize_zh": "這是流式細胞儀點圖加抗原總表：CD45 弱陽性、低 SSC 的芽細胞群同時表現骨髓系（MPO、CD117）、T 系（cyCD3、CD7、CD1a）與 B 系（CD19、cyCD22、CD79a）抗原，外加 TdT、HLA-DR；三系抗原同時出現在同一群芽細胞上，是極罕見的 B/T/骨髓系混合表現型急性白血病（MPAL）。",
+  "features": [
+    "Flow cytometry figure: 12 dot plots plus a summary table (Panel G) of positive and negative antigens",
+    "Blast gate (A) with dim CD45 and low side scatter",
+    "Gated blasts co-express CD117 and HLA-DR, with TdT and cytoplasmic CD3 positivity on a single population",
+    "CD7 positive with variable (partial) CD34 expression; CD99, CD9, CD200 and CD45RA positive",
+    "Table lists myeloid (MPO, CD117), T-lineage (cyCD3, CD1a, CD7, CD99) and B-lineage (CD19, cyCD22, CD79a, TdT, HLA-DR, CD200) antigens as positive; CD2, CD4, CD5, CD8, CD10, CD13, CD20, CD23, CD33, CD38, CD56 negative"
+  ],
+  "describe_en": "Flow cytometric analysis identifies a blast population with dim CD45 and low side scatter. The blasts co-express HLA-DR, CD117, TdT and cytoplasmic CD3, and are positive for CD7, CD99, CD9, CD200 and CD45RA with variable CD34; the summary panel additionally reports MPO, CD1a, CD19, cytoplasmic CD22 and CD79a positivity, with CD2, CD4, CD5, CD8, CD10, CD13, CD20, CD23, CD33, CD38 and CD56 negative. Expression of lineage-defining markers of myeloid (MPO), T (cytoplasmic CD3) and B (CD19 with cyCD22/CD79a) lineages on the same blasts fulfils criteria for a trilineage mixed phenotype acute leukemia (B/T/myeloid). Lineage assignment should be confirmed by assessing intensity of cyCD3 and CD19 relative to normal populations, and BCR::ABL1 and KMT2A rearrangements should be excluded.",
+  "ddx": [
+    {"dx": "Early T-cell precursor lymphoblastic leukemia (ETP-ALL)", "vs": "ETP-ALL is cyCD3+ CD7+ with stem/myeloid markers (CD117, CD34, HLA-DR) but lacks MPO and CD1a and does not show strong B-lineage CD19 expression."},
+    {"dx": "AML with aberrant lymphoid antigen expression", "vs": "AML may express CD7 or CD19 aberrantly, but true MPAL requires lineage-defining markers such as bright cytoplasmic CD3 or strong CD19 with CD79a/cyCD22, not a single weak lymphoid antigen."},
+    {"dx": "MPAL with BCR::ABL1 or KMT2A rearrangement", "vs": "These genetically defined MPAL subtypes share the mixed phenotype and are separated only by cytogenetic and molecular testing."},
+    {"dx": "Blast phase of CML", "vs": "Mixed-lineage blast crisis arises with a prior or concurrent CML history and BCR::ABL1 in all cases, which must be excluded before diagnosing de novo MPAL."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

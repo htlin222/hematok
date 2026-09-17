@@ -1,0 +1,22 @@
+{
+  "id": "61349",
+  "recognize_zh": "低倍下淋巴結被寬厚粉紅色膠原帶分隔成多個細胞結節（nodular sclerosis）；右下插圖中大型 Hodgkin/RS 細胞核的 PAX5 染色明顯比周圍強陽性的小 B 細胞弱，是古典型霍奇金淋巴瘤的特徵。",
+  "features": [
+    "Low power: lymph node architecture replaced by cellular nodules",
+    "Broad bands of pink, birefringent-appearing collagen separating the nodules (nodular sclerosis pattern)",
+    "Individual cell detail not resolvable at this magnification in the main panel",
+    "Inset IHC: large multilobated Hodgkin/Reed-Sternberg-type cell with weak to barely detectable nuclear PAX5",
+    "Inset background small lymphocytes with strong nuclear PAX5 serving as internal control"
+  ],
+  "describe_en": "Low-power section of lymph node shows effacement of architecture by cellular nodules separated by broad collagen bands. Individual large atypical cells cannot be assessed at this magnification. The inset PAX5 immunostain highlights a large lobulated neoplastic cell with weak nuclear staining in contrast to strongly positive background small B cells. Findings are consistent with classic Hodgkin lymphoma, nodular sclerosis subtype, supported by CD30 and usually CD15 positivity of the Hodgkin/Reed-Sternberg cells.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant B-cell lymphoma (NLPHL)", "vs": "LP cells have strong PAX5/CD20 and OCT2 expression, are CD30/CD15 negative and sit in expanded follicular dendritic cell meshworks without broad birefringent collagen bands."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "Shows fine compartmentalizing fibrosis around sheets of large cells with strong CD20/PAX5 rather than broad bands around nodules containing rare weakly PAX5+ cells."},
+    {"dx": "Anaplastic large cell lymphoma, ALK-negative", "vs": "Tumor cells are CD30 strong but PAX5 negative with T-cell markers or cytotoxic proteins, and hallmark cells often form sinusoidal sheets."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Scattered large cells are strongly CD20/PAX5 positive and CD15/CD30 negative in a diffuse T-cell and histiocyte background."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; inset IHC: PAX5",
+  "match": "consistent",
+  "high_yield": true
+}

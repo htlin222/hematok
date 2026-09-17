@@ -1,0 +1,22 @@
+{
+  "id": "15122",
+  "recognize_zh": "骨髓切片左下方為成片大型組織球，細胞質豐富淡粉紅、呈皺紙樣（wrinkled tissue paper）紋理、核小偏位，即高雪氏細胞（Gaucher cells，箭頭）；右上方則為密集的小型深染未成熟細胞取代正常造血，對應高雪氏症合併急性骨髓性白血病。",
+  "features": [
+    "Sheets of large histiocytes with abundant pale eosinophilic, finely striated 'wrinkled tissue paper' cytoplasm and small eccentric nuclei (Gaucher cells, arrows)",
+    "Gaucher cells occupy the left and lower portions of the field",
+    "Separate densely cellular area of small to medium cells with dark nuclei and scant cytoplasm, consistent with an immature myeloid infiltrate",
+    "Scattered erythroid/red cell elements and fat spaces between the two components",
+    "Blast cytology cannot be fully assessed at this magnification"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows two distinct components. Sheets of large histiocytes with abundant pale eosinophilic cytoplasm having a fibrillary 'wrinkled tissue paper' texture and small eccentric nuclei are present in the lower and left portions of the field (arrows), consistent with Gaucher cells. The remaining marrow space is replaced by a dense infiltrate of small to medium-sized cells with hyperchromatic nuclei and scant cytoplasm, suggestive of an immature myeloid (blast) population, although cytologic detail is limited at this magnification. Findings are consistent with Gaucher disease with concomitant acute myeloid leukemia, as stated in the legend; blast enumeration on the aspirate and immunohistochemistry (CD34, CD117, MPO) would be needed for confirmation.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells in CML, myeloma or other high-turnover disorders", "vs": "Pseudo-Gaucher cells look identical, but they occur in the setting of the underlying neoplasm with normal glucocerebrosidase activity, whereas true Gaucher disease shows low enzyme activity and GBA1 mutations."},
+    {"dx": "Mycobacterial infection with foamy histiocytes (e.g., MAI in HIV)", "vs": "Infected histiocytes have a similar striated cytoplasm but contain acid-fast bacilli on AFB/Ziehl-Neelsen stain."},
+    {"dx": "Niemann-Pick disease (sea-blue histiocytes/foam cells)", "vs": "Niemann-Pick cells have bubbly vacuolated, lipid-laden cytoplasm rather than fibrillary wrinkled-paper texture, and filipin/sphingomyelinase testing differs."},
+    {"dx": "Metastatic signet ring or clear cell carcinoma", "vs": "Carcinoma cells are cohesive, cytokeratin-positive and CD68-negative, unlike CD68-positive Gaucher cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

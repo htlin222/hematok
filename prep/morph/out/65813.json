@@ -1,0 +1,22 @@
+{
+  "id": "65813",
+  "recognize_zh": "周邊血液抹片白血球極多，同一視野就能看到骨髓細胞（myelocyte）、後骨髓細胞、帶狀及分節嗜中性球等各成熟階段，並有一顆深紫色顆粒遮蓋細胞核的嗜鹼性球與少數大型未成熟細胞，背景血小板不少，是慢性骨髓性白血病（CML）慢性期的典型血片。",
+  "features": [
+    "Marked leukocytosis with a continuous spectrum of granulocytic maturation: myelocytes, metamyelocytes, bands and segmented neutrophils",
+    "Occasional large immature cells (promyelocyte/blast-like) with fine chromatin and basophilic cytoplasm, few in number",
+    "Basophil with coarse dark purple granules obscuring the nucleus",
+    "Granulocytes lack toxic granulation, Döhle bodies or obvious dysplasia",
+    "Numerous platelets in the background; red cells normochromic with central pallor accentuated by smear thickness"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed of granulocytes at all stages of maturation, including myelocytes, metamyelocytes, bands and segmented neutrophils, with only occasional large immature cells. A basophil is present, and the granulocytes lack toxic changes or significant dysplasia. Platelets appear increased, and red cells are largely normocytic and normochromic. Eosinophilia described in the case is not prominent in this particular field. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, chronic phase, as confirmed by RT-PCR.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "A leukemoid reaction shows mainly mature neutrophils and bands with toxic granulation and Döhle bodies, few myelocytes, no basophilia and no BCR::ABL1 fusion."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML has prominent dysgranulopoiesis (hypogranular, pseudo-Pelger neutrophils) without basophilia and is BCR::ABL1 negative."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL shows predominantly mature segmented neutrophils with <10% immature granulocytes and a CSF3R mutation."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows leukoerythroblastosis with teardrop cells and nucleated red cells rather than the myelocyte-rich leukocytosis with basophilia seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

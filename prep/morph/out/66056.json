@@ -1,0 +1,20 @@
+{
+  "id": "66056",
+  "recognize_zh": "這不是形態圖，而是血球計數儀的體積分布直方圖：RBC 曲線主峰約在 80–90 fL，但右側有一條延伸到 300 fL 以上、未回到基線的長尾巴，代表凝集成對或成團的紅血球被當成大顆粒計算；WBC 曲線在最左端（約 35 fL）出現異常尖峰，提示小顆粒干擾。",
+  "features": [
+    "RBC histogram: main peak near 80–90 fL with a prolonged right-sided tail extending beyond 300 fL that does not return to baseline (doublets/aggregates)",
+    "WBC histogram: sharp spike at the lower threshold (~35 fL) followed by a small lymphocyte peak and a dominant granulocyte peak near 300 fL",
+    "The low-end WBC spike indicates interference by small particles at the lymphocyte threshold",
+    "PLT histogram: peak around 4–5 fL with right skew and a tail approaching baseline near 20 fL; no marked abnormality evident on this plot alone"
+  ],
+  "describe_en": "This figure shows automated analyzer volume histograms rather than morphology. The RBC histogram has a main peak at approximately 80–90 fL with an abnormally long right-sided tail extending past 300 fL, indicating red cell doublets and aggregates counted as single large particles; this pattern falsely lowers the RBC count and hematocrit and falsely raises the MCV and MCHC. The WBC histogram shows a spike at the lower threshold of about 35 fL, indicating interference by small particles in the lymphocyte region, while the platelet histogram shows a right-skewed curve that is not clearly abnormal on its own. In context with visible agglutination on the smear, these findings are consistent with cold agglutinin interference; rewarming the sample to 37 °C and re-running is recommended.",
+  "ddx": [
+    {"dx": "Platelet clumping (EDTA-dependent pseudothrombocytopenia)", "vs": "Platelet clumps give a platelet histogram that does not return to baseline at the upper end and a spike at the WBC lower threshold, with platelet aggregates on the smear rather than red cell agglutinates."},
+    {"dx": "Dimorphic red cell population (transfusion, treated deficiency)", "vs": "A dimorphic population shows a second discrete peak or broad shoulder within the physiologic range, not a flat tail extending to very large volumes that resolves on warming."},
+    {"dx": "Nucleated red cells or giant platelets", "vs": "NRBCs and giant platelets also cause a WBC lower-threshold spike but are identified on smear review and do not produce a prolonged RBC histogram tail."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1038",
+  "recognize_zh": "周邊血抹片中可見兩處血小板聚集成團（右上與左下中性球旁），而紅血球之間游離的單顆血小板很少，這種血小板凝集是假性血小板低下（pseudothrombocytopenia）的線索，常與EDTA抗凝管有關。",
+  "features": [
+    "Clumps of aggregated platelets (upper right and lower center-left)",
+    "Paucity of single free platelets between red cells",
+    "Segmented neutrophil adjacent to a platelet clump",
+    "Central dark, angular nucleated cell with distorted outline, of uncertain identity",
+    "Normochromic red cells with fine dark stain precipitate scattered over the field"
+  ],
+  "describe_en": "Peripheral blood smear shows several platelet clumps, with few individually dispersed platelets in the intervening field. A segmented neutrophil lies adjacent to one clump, and a distorted dark nucleated cell is present centrally. Red cells are normochromic, with fine stain precipitate over the background. The platelet aggregation indicates that an automated platelet count is likely falsely low; findings are consistent with pseudothrombocytopenia, and a repeat count in citrate or heparin anticoagulant is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia (e.g., immune thrombocytopenia)", "vs": "True thrombocytopenia shows few platelets without clumps across the smear, including the feathered edge."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows platelets rosetting around neutrophils rather than free-standing platelet aggregates."},
+    {"dx": "Inherited giant platelet disorder", "vs": "Macrothrombocytopenias show individual large platelets that analyzers undercount, not aggregates of normal-sized platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

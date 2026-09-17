@@ -1,0 +1,22 @@
+{
+  "id": "4051",
+  "recognize_zh": "周邊血液中的嗜中性球細胞核分成約 7 葉以上（正常 3–4 葉，≥6 葉即為過度分葉），細胞偏大，背景紅血球有些呈卵圓形，符合巨母細胞性貧血的過度分葉嗜中性球（hypersegmented neutrophil）。",
+  "features": [
+    "Enlarged neutrophil with at least 6-7 discrete nuclear lobes connected by thin chromatin strands",
+    "Coarsely condensed chromatin within each lobe",
+    "Pale pink cytoplasm with fine neutrophilic granules; no toxic granulation or Döhle bodies",
+    "Background red cells include several oval macrocytes (macro-ovalocytes)",
+    "No nucleated red cells or blasts in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows a large neutrophil with a markedly hypersegmented nucleus comprising at least six to seven lobes joined by fine chromatin filaments, with normal-appearing specific granules. Background red cells include oval macrocytes. Neutrophil hypersegmentation (one cell with six or more lobes, or more than 5% with five lobes) is an early and sensitive sign of impaired DNA synthesis. Findings are suggestive of megaloblastic anemia due to vitamin B12 or folate deficiency; correlation with MCV, vitamin levels, and methylmalonic acid is recommended.",
+  "ddx": [
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "A benign inherited trait with hypersegmentation in otherwise normal counts and normocytic red cells, lacking macro-ovalocytes."},
+    {"dx": "Drug effect (hydroxyurea, methotrexate, antiretrovirals)", "vs": "Morphology is identical, so medication history and normal B12/folate levels are needed to separate it."},
+    {"dx": "Myelodysplastic syndrome", "vs": "Dysplastic neutrophils are more often hypogranular or hyposegmented (pseudo-Pelger-Huët) with cytopenias and other lineage dysplasia."},
+    {"dx": "Iron deficiency or uremia-associated hypersegmentation", "vs": "Occurs with microcytic hypochromic red cells or renal failure context rather than macro-ovalocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

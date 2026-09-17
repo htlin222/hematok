@@ -1,0 +1,22 @@
+{
+  "id": "61385",
+  "recognize_zh": "一團中至大型母細胞，染色質細緻、核形不規則，細胞質中等量、淡灰藍色且無顆粒，最特別的是細胞質邊緣排成一圈的小空泡（像珍珠項鍊），這是母細胞性漿細胞樣樹突細胞腫瘤（BPDCN）的典型線索。",
+  "features": [
+    "Cluster of medium-to-large blasts with irregular, folded or indented nuclei",
+    "Fine, finely granular to dispersed chromatin with inconspicuous nucleoli",
+    "Moderate pale gray-blue agranular cytoplasm",
+    "Small cytoplasmic microvacuoles aligned along the cell membrane in a peripheral string-of-pearls pattern, most evident in the upper cells",
+    "Two small cells with round dense nuclei (lymphocytes or late erythroblasts) within the cluster for size comparison"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of medium-to-large blasts with irregular, focally indented nuclei, finely dispersed chromatin, inconspicuous nucleoli and a moderate amount of pale gray-blue agranular cytoplasm. Several cells display small cytoplasmic vacuoles arranged circumferentially beneath the cell membrane in a pearl-necklace pattern. No Auer rods or cytoplasmic granules are identified. Two small cells with dense round nuclei are admixed for comparison. The morphology is suggestive of blastic plasmacytoid dendritic cell neoplasm, which should be confirmed by flow cytometry or immunohistochemistry for CD4, CD56, CD123, TCF4 and TCL1.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have folded nuclei with prominent nucleoli and fine azurophilic granules and are nonspecific esterase and lysozyme positive, lacking the CD123-bright/TCF4+ phenotype."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts have scant cytoplasm and high N:C ratio without peripheral vacuoles, and express TdT with CD19 or cytoplasmic CD3."},
+    {"dx": "Myeloid sarcoma / AML with CD56 expression", "vs": "Blasts usually contain granules or Auer rods and are MPO-positive, with weaker CD123 and absence of TCL1/TCF4."},
+    {"dx": "Burkitt leukemia", "vs": "Vacuoles are distributed throughout intensely basophilic cytoplasm rather than aligned peripherally, and cells are mature B cells with MYC rearrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

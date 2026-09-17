@@ -1,0 +1,22 @@
+{
+  "id": "3873",
+  "recognize_zh": "骨髓切片免疫組織化學染色中，許多呈棕色細胞質染色、帶樹突狀突起的組織球散布於整片骨髓間質，顯示組織球數量增加；本圖未見明確成形的肉芽腫，所用抗體未標示，推測為組織球標記。",
+  "features": [
+    "Numerous scattered brown cytoplasmic-positive cells with irregular, dendritic-like processes",
+    "Positive cells distributed interstitially, with a vague central concentration",
+    "Granular brown staining of cytoplasm consistent with a histiocytic marker",
+    "No discrete compact granuloma outline in this field",
+    "Background hematopoietic cells and adipocytes negative (blue hematoxylin counterstain)"
+  ],
+  "describe_en": "Immunohistochemical stain of the bone marrow biopsy shows numerous scattered cells with granular brown cytoplasmic staining and irregular, dendritic-like processes distributed interstitially throughout the marrow, with a vague central concentration. The specific antibody is not indicated, but the staining pattern is consistent with a histiocytic marker such as CD68 or CD163. A compact granuloma is not delineated in this field, and organisms cannot be assessed on this stain. Findings indicate an increased interstitial histiocytic population, compatible with the loose granulomatous response of disseminated histoplasmosis.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH also increases CD163-positive macrophages, but shows hemophagocytosed blood cells without intracellular yeasts on H&E or GMS."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells have grooved nuclei with eosinophils and are CD1a and langerin positive, unlike CD68/CD163-positive macrophages."},
+    {"dx": "Systemic mastocytosis", "vs": "Mast cells form spindle cell aggregates and stain with tryptase, CD117 and CD25 rather than macrophage markers."},
+    {"dx": "Acute monocytic leukemia", "vs": "Leukemic monocytes form diffuse sheets that are also CD68/CD163 positive but show blast cytology on aspirate and flow cytometry."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: histiocytic marker (likely CD68/CD163)",
+  "match": "partial",
+  "high_yield": false
+}

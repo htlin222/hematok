@@ -1,0 +1,22 @@
+{
+  "id": "60074",
+  "recognize_zh": "兩張骨髓抹片中，除了大量顆粒球系前驅細胞外，各有一顆細胞的核碎裂成 3–4 顆大小相近、極濃縮深染的圓球（karyorrhexis），周圍是淡染細胞質；這些是凋亡細胞（apoptotic cells），在 Diamond-Blackfan anemia 可能反映紅血球系前驅細胞凋亡增加，但圖中數量少，只能作為輔助觀察。",
+  "features": [
+    "Cells with nuclei fragmented into 3-4 dense, uniformly round, hyperchromatic nuclear fragments within pale cytoplasm (karyorrhexis), one in each panel",
+    "Background marked myeloid predominance: promyelocytes, myelocytes, metamyelocytes, bands, and an eosinophil precursor",
+    "Maturing erythroid precursors not identified",
+    "Scattered small lymphocytes with condensed chromatin",
+    "Brownish red cell staining artifact; apoptotic cell frequency cannot be quantified from two fields"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a marked myeloid predominance with promyelocytes, myelocytes, metamyelocytes, bands, and an eosinophil precursor, while maturing erythroid precursors are not identified. In each field there is a cell whose nucleus has fragmented into several dense, uniformly round, hyperchromatic nuclear fragments within pale cytoplasm, consistent with apoptotic cells (karyorrhexis). Whether apoptosis is truly increased cannot be established from these two fields and would require systematic counting or ancillary assays. Findings are consistent with erythroid hypoplasia with scattered apoptotic cells, which in Diamond-Blackfan anemia may reflect p53-mediated apoptosis of erythroid progenitors.",
+  "ddx": [
+    {"dx": "Dyserythropoiesis with multinucleated or budding normoblasts (e.g. CDA, MDS)", "vs": "Dysplastic normoblasts have hemoglobinized cytoplasm and nuclear fragments with retained chromatin texture and variable size, rather than uniformly dense round apoptotic bodies."},
+    {"dx": "Howell-Jolly body-containing red cells or nuclear debris", "vs": "Howell-Jolly bodies are single small inclusions in anucleate red cells, not multiple large fragments in a nucleated cell's cytoplasm."},
+    {"dx": "Tingible-body macrophage", "vs": "Contains phagocytosed apoptotic debris within an abundant histiocyte cytoplasm with its own intact nucleus."},
+    {"dx": "Hypersegmented or pyknotic neutrophil", "vs": "Neutrophil lobes are connected by chromatin strands with granular cytoplasm, whereas these fragments are separate, perfectly round, and uniformly dense."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

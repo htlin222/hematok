@@ -1,0 +1,22 @@
+{
+  "id": "4156",
+  "recognize_zh": "整片密集排列的中小型淋巴細胞呈強烈、完整的細胞膜型（membranous）免疫染色；此為表面標記染色，本身無法單獨確立被套細胞淋巴瘤，需搭配 cyclin D1／SOX11。",
+  "features": [
+    "Diffuse sheet of densely packed, medium-sized lymphoid cells",
+    "Strong, crisp circumferential membranous brown staining in nearly all tumor cells",
+    "Unstained pale nuclei that appear round to slightly irregular; nuclear detail limited by the chromogen",
+    "No residual negative background population evident in this field",
+    "Antigen not specified in the image; pattern fits a surface marker (e.g., CD20 or CD5)"
+  ],
+  "describe_en": "Immunohistochemical stain shows a diffuse, monotonous population of medium-sized lymphoid cells with strong, uniform membranous staining. Nuclear features are partially obscured, and the specific antigen is not identified in the image. A diffuse membranous-positive neoplastic infiltrate of this type supports a mature lymphoid neoplasm, and in combination with cyclin D1 or SOX11 nuclear positivity, CD5 co-expression, and t(11;14), it is consistent with mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Small lymphocytic lymphoma/CLL", "vs": "Also CD5+/CD20+ but shows proliferation centers, dim surface markers, LEF1/CD23 positivity and lacks cyclin D1/SOX11."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "Cells are larger with vesicular nuclei and prominent nucleoli, and cyclin D1 is typically negative."},
+    {"dx": "Follicular lymphoma, diffuse area", "vs": "CD10/BCL6 positive and CD5/cyclin D1 negative, usually with a follicular dendritic meshwork."},
+    {"dx": "Marginal zone lymphoma", "vs": "CD5-negative and cyclin D1-negative, often with monocytoid cells and plasmacytic differentiation."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: membranous marker (antigen not stated)",
+  "match": "partial",
+  "high_yield": false
+}

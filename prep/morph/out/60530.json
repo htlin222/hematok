@@ -1,0 +1,21 @@
+{
+  "id": "60530",
+  "recognize_zh": "免疫組織化學染色（未標示抗體）中，一群散在、強陽性的小至中型淋巴細胞呈膜狀與細胞質棕色染色，形狀不規則；其間大多數細胞核卵圓淡染的細胞為陰性，可見兩個脂肪空泡；陽性細胞只佔一部分，屬於某一 T 細胞亞群的分布型態。",
+  "features": [
+    "IHC with brown DAB chromogen and hematoxylin counterstain; antibody not labeled",
+    "Strong membranous and cytoplasmic positivity in a subset of scattered small-to-medium lymphoid cells with irregular shapes",
+    "Majority of cells, including larger cells with pale oval nuclei (histiocyte-like), are negative or only weakly blushed",
+    "Positive cells distributed evenly without forming sheets",
+    "Two round clear fat vacuoles in the field"
+  ],
+  "describe_en": "Immunohistochemical stain shows strong membranous and cytoplasmic staining in a subset of scattered, irregularly shaped small-to-medium lymphoid cells, evenly distributed through the infiltrate. The majority of the cells, including larger cells with pale oval nuclei resembling epithelioid histiocytes, are negative, with only faint background blush. The antibody is not labeled, so it cannot be determined from the image which lineage subset is highlighted; a pattern like this would be expected with a T-cell subset marker (such as CD8) or a cytotoxic marker. In the context of the title, this represents part of the immunophenotypic workup of lymphoepithelioid (Lennert) lymphoma, a variant of peripheral T-cell lymphoma, NOS.",
+  "ddx": [
+    {"dx": "Reactive lymphadenitis with mixed T-cell subsets", "vs": "Reactive nodes show a normal CD4:CD8 ratio with intact pan-T antigens and polyclonal TCR, unlike an aberrant clonal T-cell population."},
+    {"dx": "Classic Hodgkin lymphoma, mixed cellularity", "vs": "Classic Hodgkin lymphoma is identified by CD30+/CD15+ Reed-Sternberg cells rather than by T-cell subset distribution."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL neoplastic cells are CD4+ TFH cells (PD1, CXCL13) with expanded follicular dendritic cell networks."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antibody not labeled",
+  "match": "partial",
+  "high_yield": false
+}

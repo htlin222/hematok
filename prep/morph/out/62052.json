@@ -1,0 +1,21 @@
+{
+  "id": "62052",
+  "recognize_zh": "密集的小淋巴球背景中，可見許多散在的大型細胞呈淡紅色、較弱的環狀膜染色，小淋巴球均為陰性；大型細胞孤立散佈而非成片，提示為 NLPHL 中的 LP 細胞，但抗原未標示且染色強度偏弱。",
+  "features": [
+    "Dense background of small round negative lymphocytes",
+    "Scattered large cells with weak-to-moderate membranous/cytoplasmic red chromogen staining",
+    "Positive cells are evenly dispersed singly without forming sheets",
+    "Large positive cells show pale vesicular nuclei",
+    "Weak staining intensity limits assessment of fine detail"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen; antigen not labeled) shows numerous scattered large cells with weak-to-moderate membranous staining in a dense background of negative small lymphocytes. The positive cells are individually dispersed and do not form sheets. The staining intensity is relatively weak, limiting evaluation. In the context of the referenced case, the scattered positive large cells are consistent with LP cells of nodular lymphocyte-predominant Hodgkin lymphoma with a variant pattern; the marker identity should be verified with the case materials.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "If this were CD30, strong membrane-plus-Golgi staining of HRS cells would favor cHL; LP cells are usually CD30 negative."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Separated by the absence of small-B-cell nodules and FDC meshworks, which is not assessable on this single stain."},
+    {"dx": "Reactive lymphoid hyperplasia with scattered immunoblasts", "vs": "Reactive immunoblasts lack T-cell rosettes and the monotonous large-cell atypia of LP cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antigen not labeled (red chromogen)",
+  "match": "partial",
+  "high_yield": false
+}

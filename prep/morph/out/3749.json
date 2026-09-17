@@ -1,0 +1,21 @@
+{
+  "id": "3749",
+  "recognize_zh": "周邊血液中一顆嗜中性球胞質內布滿粗大、深紫紅色的中毒性顆粒（toxic granulation），核分葉較少（約三葉、葉間較粗），在使用 G-CSF 的病人即為典型的藥物刺激效應。",
+  "features": [
+    "Single neutrophil with cytoplasm densely filled with coarse dark purple-red (toxic) granules",
+    "Nucleus with two to three lobes connected by relatively broad bridges (hyposegmented appearance)",
+    "Clumped mature chromatin without nucleoli",
+    "No distinct Dohle bodies or cytoplasmic vacuoles identified in this cell",
+    "Background red cells normocytic with some elliptical forms"
+  ],
+  "describe_en": "Peripheral blood smear shows a mature neutrophil with prominent coarse, dark azurophilic cytoplasmic granulation and a nucleus with few lobes joined by broad chromatin bridges. Dohle bodies and cytoplasmic vacuolization are not evident in this cell. Red cells are normocytic without significant poikilocytosis. In a patient receiving granulocyte colony-stimulating factor, findings are consistent with G-CSF effect; infection or sepsis can produce identical toxic granulation and should be clinically excluded.",
+  "ddx": [
+    {"dx": "Toxic granulation due to sepsis or inflammation", "vs": "Sepsis produces morphologically identical granulation, often with vacuolization and Dohle bodies; distinction depends on clinical history of G-CSF administration."},
+    {"dx": "Alder-Reilly anomaly", "vs": "Alder-Reilly granules are large dark inclusions present in all leukocyte types including lymphocytes and monocytes, independent of infection or cytokine therapy."},
+    {"dx": "Chediak-Higashi syndrome", "vs": "Chediak-Higashi cells contain a few giant, irregular fused granules rather than numerous uniformly coarse fine-to-medium granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

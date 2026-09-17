@@ -1,0 +1,21 @@
+{
+  "id": "62659",
+  "recognize_zh": "EBER 原位雜交中，一群大型細胞的細胞核呈深藍紫色陽性訊號，周圍組織為淡粉紅色對比染色且陰性；表示腫瘤細胞帶有 EB 病毒，常見於與 HHV8 共感染的原發性滲出性淋巴瘤。",
+  "features": [
+    "Cluster of large cells with dark blue-purple nuclear EBER signal",
+    "Signal intensity varies from strong to weak among tumor nuclei",
+    "Some nuclei in the cluster are negative, showing only pink counterstain",
+    "Signal confined to nuclei, no cytoplasmic or background staining",
+    "Surrounding stroma negative; morphology of cells poorly preserved on this preparation"
+  ],
+  "describe_en": "EBER in situ hybridization with chromogenic (blue-purple) detection shows a cluster of large cells with nuclear EBER signal of variable intensity, while the surrounding stroma and some nuclei in the cluster are negative with pink counterstain. Cytologic detail is limited on this preparation. Findings indicate EBV infection of the neoplastic cells, which is common in primary effusion lymphoma arising in HIV-positive patients and supports the diagnosis in combination with HHV8 positivity.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Frequently EBER-positive with similar plasmablastic phenotype, but HHV8 (LANA-1) is negative."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma, NOS", "vs": "EBER-positive but usually retains CD20/PAX5 and is HHV8-negative."},
+    {"dx": "HHV8-positive diffuse large B-cell lymphoma, NOS", "vs": "HHV8-positive but characteristically EBER-negative, whereas PEL is often EBV co-infected."}
+  ],
+  "specimen": "LN",
+  "stain": "ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

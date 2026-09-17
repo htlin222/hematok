@@ -1,0 +1,22 @@
+{
+  "id": "64277",
+  "recognize_zh": "左側為三維立體、細胞核重疊的惡性細胞團（細胞核大、核仁明顯），右側一顆大細胞帶有巨大細胞質空泡把多個核擠到一邊（印戒樣），這些都不是間皮細胞或發炎細胞，符合肺癌轉移至肋膜積液。",
+  "features": [
+    "Cohesive three-dimensional cluster of large cells with high N:C ratio and nuclear overlap/molding (left)",
+    "Enlarged round nuclei with prominent magenta nucleoli",
+    "Large cell/cell group with a single giant cytoplasmic vacuole compressing nuclei to one side (signet ring-like, right)",
+    "Deeply basophilic cytoplasm with fine vacuolation",
+    "Clean background with few scattered small inflammatory cells and cell debris"
+  ],
+  "describe_en": "Pleural fluid cytospin shows cohesive three-dimensional clusters of large atypical epithelial cells with high nuclear-to-cytoplasmic ratios, nuclear crowding and molding, and prominent nucleoli. A separate cell group shows a large intracytoplasmic vacuole displacing the nuclei peripherally, imparting a signet ring-like appearance. The background contains only scattered inflammatory cells, and a population of these cells is foreign to the normal mesothelial and inflammatory cell repertoire. Findings are consistent with metastatic carcinoma, favoring adenocarcinoma given the vacuolated cytoplasm, in keeping with the known lung primary; immunocytochemistry (e.g., TTF-1, MOC-31/Ber-EP4 versus calretinin) on a cell block is recommended.",
+  "ddx": [
+    {"dx": "Reactive mesothelial cells", "vs": "Reactive mesothelial cells form flat or small loose groups with 'windows' between cells, two-tone cytoplasm and a single small nucleolus, and are calretinin/WT1 positive and MOC-31/Ber-EP4 negative."},
+    {"dx": "Malignant mesothelioma", "vs": "Mesothelioma can form 3D balls but lacks true mucin vacuoles and is calretinin, WT1 and D2-40 positive with loss of BAP1 or CDKN2A deletion."},
+    {"dx": "Lymphoma or myeloma in effusion", "vs": "Hematolymphoid malignancies present as dyscohesive single cells without clusters, molding or signet ring vacuoles."},
+    {"dx": "Vacuolated histiocytes", "vs": "Histiocytes are dispersed single cells with bean-shaped nuclei and foamy cytoplasm, and are CD68 positive and keratin negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

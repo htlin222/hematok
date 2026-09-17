@@ -1,0 +1,23 @@
+{
+  "id": "3869",
+  "recognize_zh": "骨髓切片中成片的上皮樣組織球，細胞質淡而空泡狀，內含許多帶透明暈的小圓形微生物（箭頭），旁邊為紅血球前驅細胞，是組織漿菌感染引起的組織球/肉芽腫性浸潤。",
+  "features": [
+    "Sheets of histiocytes with abundant pale, finely vacuolated cytoplasm",
+    "Numerous small round intracytoplasmic organisms with clear halos (arrows), approximately 2–4 µm",
+    "Histiocyte nuclei oval to reniform with vesicular chromatin and small nucleoli",
+    "No multinucleated giant cells or necrosis in this field",
+    "Adjacent clusters of erythroid precursors with dense round nuclei",
+    "Adipocytes present"
+  ],
+  "describe_en": "Bone marrow biopsy shows sheets of histiocytes with oval to reniform vesicular nuclei and abundant pale, vacuolated cytoplasm, many containing numerous small, uniform, round intracytoplasmic organisms with clear halos (arrows). Well-formed giant cells and necrosis are not seen, and residual erythroid precursors are present at the lower right. Findings are consistent with a histiocytic/poorly formed granulomatous infiltrate containing intracellular yeasts, suggestive of disseminated histoplasmosis; confirmation with GMS/PAS stains and culture or antigen testing is recommended.",
+  "ddx": [
+    {"dx": "Visceral leishmaniasis", "vs": "Leishmania amastigotes have a kinetoplast and are GMS negative, whereas Histoplasma yeasts are GMS and PAS positive without a kinetoplast."},
+    {"dx": "Mycobacterial infection (MAC)", "vs": "MAC-laden histiocytes have striated, finely granular cytoplasm with acid-fast bacilli rather than discrete haloed round yeasts."},
+    {"dx": "Gaucher disease", "vs": "Gaucher cells have abundant wrinkled 'crumpled tissue paper' cytoplasm without discrete intracellular organisms."},
+    {"dx": "Toxoplasma or Pneumocystis infection", "vs": "Toxoplasma tachyzoites are crescent-shaped without halos, and Pneumocystis forms extracellular foamy exudate with cup-shaped cysts on GMS."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

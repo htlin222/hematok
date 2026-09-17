@@ -1,0 +1,21 @@
+{
+  "id": "61195",
+  "recognize_zh": "CSF 細胞離心抹片中，一排細胞具偏心圓核、粗塊狀染色質與深藍色細胞質，部分可見核旁淡染區與細胞質泡狀突起，為漿細胞，出現在 CSF 提示骨髓瘤中樞神經侵犯。",
+  "features": [
+    "Cluster of four medium-sized plasma cells in an otherwise acellular cytospin background",
+    "Eccentric round nuclei with coarse clumped chromatin",
+    "Moderate to abundant deep basophilic cytoplasm with a perinuclear pale zone (hof) in some cells",
+    "Irregular cytoplasmic blebs/budding in some cells, possibly partly cytospin artifact",
+    "No nucleoli prominently seen; no other inflammatory cells in the field"
+  ],
+  "describe_en": "Cerebrospinal fluid cytospin shows a small cluster of plasma cells with eccentric round nuclei, coarsely clumped chromatin and abundant deep basophilic cytoplasm, some with perinuclear hofs and irregular cytoplasmic blebs. The background is otherwise clean without accompanying lymphocytes or neutrophils in this field. In a patient with known multiple myeloma and neurologic symptoms, the findings are consistent with CNS (leptomeningeal) involvement by plasma cell myeloma; confirmation by flow cytometry for light-chain restricted CD38+/CD138+ cells is recommended.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis in infectious or inflammatory meningitis", "vs": "Reactive plasma cells occur among many lymphocytes and are polytypic by flow cytometry, whereas here they appear in isolation."},
+    {"dx": "Lymphoma with plasmacytic differentiation", "vs": "Lymphoplasmacytic or marginal zone lymphomas show a spectrum of small lymphocytes and plasmacytoid lymphocytes with clonal B cells expressing CD19/CD20."},
+    {"dx": "Monocytes/macrophages", "vs": "Monocytes have folded nuclei with lacy chromatin and grey vacuolated cytoplasm without a perinuclear hof."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa (cytospin)",
+  "match": "consistent",
+  "high_yield": false
+}

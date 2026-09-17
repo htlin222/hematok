@@ -1,0 +1,22 @@
+{
+  "id": "63241",
+  "recognize_zh": "單一漿細胞樣細胞，深染的偏心核佔去大半，周邊胞質排滿一圈大小一致的圓形小體，各有透亮暈環與偏心深色點。作者判讀為 Snapper-Schneid 顆粒，但在此解析度下必須與胞內酵母菌（如 Histoplasma）鑑別。",
+  "features": [
+    "Single mononuclear cell larger than adjacent red cells with an eccentric, dark, condensed nucleus occupying much of the cell",
+    "Peripheral cytoplasmic rim packed with numerous uniform round inclusions about 2-3 um across",
+    "Inclusions show a clear halo/ring outline with a dark eccentric dot or crescent, rather than fine dust-like azurophilic granules",
+    "Perinuclear hof and clock-face chromatin not discernible at this resolution",
+    "Adjacent red cells without specific abnormality; a small platelet at lower left"
+  ],
+  "describe_en": "Blood smear shows a single mononuclear cell with an eccentric, dark, condensed nucleus and a rim of cytoplasm filled with numerous uniform round inclusions. The inclusions have a clear halo with a dark eccentric dot or crescent, rather than the fine azurophilic granules usually expected. The submitted interpretation is Snapper-Schneid granules (lysosomal azurophilic granules) in a plasma cell; however, the image resolution does not allow confident identification of the host cell as a plasma cell, and the halo-and-dot appearance overlaps with intracellular yeasts such as Histoplasma capsulatum or Talaromyces marneffei. Review of additional fields and, if doubt remains, GMS/PAS staining or culture is recommended before accepting this as a plasma cell with azurophilic granules.",
+  "ddx": [
+    {"dx": "Intracellular Histoplasma or Talaromyces yeasts", "vs": "Yeasts are 2-4 um oval bodies with a crescent of basophilic chromatin inside a clear halo (Talaromyces with a central septum), are GMS/PAS positive and usually sit in monocytes or neutrophils rather than plasma cells."},
+    {"dx": "Mott cell (Russell bodies)", "vs": "Russell bodies are larger, homogeneous pale blue to pink immunoglobulin globules without a central dark dot."},
+    {"dx": "Plasma cell with crystalline inclusions", "vs": "Crystals are angular, rod- or needle-shaped rather than round ringed bodies."},
+    {"dx": "Pseudo-Chediak-Higashi granules", "vs": "These are few, large, irregular azurophilic or pink granules in granulocytes, typically in AML/MDS, not uniform ring-like bodies."}
+  ],
+  "specimen": "PB",
+  "stain": "Romanowsky (Wright-Giemsa type)",
+  "match": "partial",
+  "high_yield": false
+}

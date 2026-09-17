@@ -1,0 +1,36 @@
+{
+  "id": "61",
+  "recognize_zh": "兒童扁桃腺中可見大而擴張、背靠背的濾泡樣結節，由單一形態的中至大型類中心母細胞（centroblast-like）組成，缺乏星空樣（starry-sky）巨噬細胞；結節內核型 IHC 強陽性（符合 MUM1/IRF4 型態），FISH IRF4 break-apart 顯示分離訊號，支持 IRF4 重排大 B 細胞淋巴瘤。",
+  "features": [
+    "Large, expansile, closely packed follicle-like nodules separated by fibrous bands and attenuated rims of small lymphocytes",
+    "Monotonous medium-to-large centroblast-like cells with round to oval vesicular nuclei, open chromatin and small nucleoli",
+    "Frequent mitoses without prominent tingible-body macrophages (no starry-sky pattern), no serpiginous follicle shapes",
+    "Neoplastic nodules show strong membranous B-cell marker staining and strong diffuse nuclear staining in the large cells (MUM1/IRF4 pattern)",
+    "CD21/CD23-type follicular dendritic cell meshworks retained within nodules",
+    "IRF4 break-apart FISH shows split red and green signals in tumor nuclei"
+  ],
+  "describe_en": "Sections of tonsil show effacement by large, back-to-back, expansile follicle-like nodules separated by fibrous septa and compressed rims of small lymphocytes. The nodules are composed of a monotonous population of medium-to-large centroblast-like cells with vesicular chromatin, small nucleoli and brisk mitotic activity; a starry-sky pattern and serpiginous follicles are not seen. Immunostains show strong membranous positivity for a pan-B-cell marker, strong diffuse nuclear staining in the neoplastic cells consistent with MUM1/IRF4, and preserved follicular dendritic cell meshworks; individual stains in the panel are unlabeled. FISH with an IRF4 break-apart probe demonstrates separated signals indicating IRF4 rearrangement. Findings are consistent with large B-cell lymphoma with IRF4 rearrangement.",
+  "ddx": [
+    {"dx": "Pediatric-type follicular lymphoma", "vs": "PTFL shows serpiginous follicles with a starry-sky pattern, blastoid/centrocytic cells, weak or absent MUM1 and lacks IRF4 rearrangement."},
+    {"dx": "Follicular lymphoma, grade 3B (follicular large B-cell lymphoma)", "vs": "Adult-type FL is usually MUM1-negative or weak, often BCL2+ with t(14;18) and lacks IRF4 break-apart."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers show polarization, tingible-body macrophages, intact mantle zones, mixed centrocytes/centroblasts and MUM1 only in scattered cells."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt shows diffuse sheets of medium-sized cells with starry-sky pattern, Ki-67 near 100%, CD10+/BCL2- and MYC rearrangement rather than IRF4."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (unlabeled panel); FISH: IRF4 break-apart",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "H&E low power: large expansile nodules separated by fibrous bands",
+    "H&E: nodule of monotonous large cells rimmed by small lymphocytes",
+    "H&E medium power: sheets of centroblast-like cells without starry-sky pattern",
+    "H&E high power: vesicular nuclei, small nucleoli, mitoses",
+    "IHC (40x/400x): strong membranous pan-B-cell marker pattern in nodules",
+    "IHC (40x/400x): membranous/cytoplasmic positivity in neoplastic cells (marker unlabeled)",
+    "IHC (40x/400x): strong nuclear staining of large cells, MUM1/IRF4 pattern",
+    "IHC (40x/400x): nuclear staining throughout nodules (marker unlabeled, BCL6/PAX5 pattern)",
+    "IHC (40x/400x): variable membranous/cytoplasmic staining of nodules (marker unlabeled)",
+    "IHC 100x: follicular dendritic cell meshwork (CD21/CD23 pattern)",
+    "FISH IRF4 break-apart: split red and green signals (arrows)"
+  ]
+}

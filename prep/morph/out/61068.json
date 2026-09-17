@@ -1,0 +1,21 @@
+{
+  "id": "61068",
+  "recognize_zh": "周邊血片中一個中型細胞，核圓形偏位、染色質粗塊狀，細胞質深藍色並有核旁淡染區（perinuclear hof），即循環中的漿細胞；單張只見一個細胞，無法據此計算是否超過 20%。",
+  "features": [
+    "Single medium-sized cell with round, eccentrically placed nucleus",
+    "Coarse, clumped (clock-face-like) chromatin without conspicuous nucleolus",
+    "Moderate deeply basophilic cytoplasm with a paler perinuclear zone (hof)",
+    "Background red cells with rouleaux-like stacking",
+    "Refractile crystalline/debris artifacts and a weakly stained, yellow-tinged preparation"
+  ],
+  "describe_en": "Peripheral blood smear shows a single circulating plasma cell with an eccentric round nucleus, coarse chromatin, and deeply basophilic cytoplasm with a perinuclear hof. Background red cells show rouleaux-like stacking, and refractile debris artifacts are present. Only one plasma cell is shown, so the proportion of circulating plasma cells cannot be assessed from this image. In a patient with myeloma and leukocytosis, a manual differential showing ≥5% circulating plasma cells (current WHO/IMWG threshold; historically ≥20%) would support plasma cell leukemia.",
+  "ddx": [
+    {"dx": "Reactive plasmacytoid lymphocyte (viral infection)", "vs": "Reactive plasmacytoid lymphocytes are polytypic, have less eccentric nuclei and occur with other reactive lymphocyte forms rather than a clonal CD38+/CD138+ population."},
+    {"dx": "Lymphoplasmacytic lymphoma in blood", "vs": "LPL shows a spectrum of small lymphocytes to plasmacytoid cells that express CD19/CD20 with MYD88 L265P."},
+    {"dx": "Circulating plasmablastic lymphoma cells", "vs": "Plasmablasts are larger with prominent nucleoli and open chromatin, often EBV-associated."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

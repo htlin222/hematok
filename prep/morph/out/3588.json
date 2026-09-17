@@ -1,0 +1,23 @@
+{
+  "id": "3588",
+  "recognize_zh": "淋巴球體積大，細胞質豐富、淡藍色，周邊顏色較深，邊緣被旁邊紅血球壓出凹痕；核卵圓、染色質略疏鬆，細胞質角落有少數小空泡。這是反應性（非典型）淋巴球。",
+  "features": [
+    "Large lymphocyte, about 2 times RBC diameter, with low-to-moderate N:C ratio",
+    "Oval nucleus with moderately condensed, slightly open chromatin; no prominent nucleolus",
+    "Abundant pale-blue cytoplasm with deeper basophilia at the periphery",
+    "Cytoplasmic border indented by adjacent RBCs",
+    "A few small vacuoles at one pole of the cytoplasm",
+    "Adjacent normal platelets; RBCs normochromic"
+  ],
+  "describe_en": "Peripheral blood smear shows a large lymphocyte with an oval nucleus, moderately condensed chromatin, and abundant pale-blue cytoplasm. The cytoplasm shows peripheral basophilia, is indented by neighboring red cells, and contains a few small vacuoles. No nucleoli or cytoplasmic granules are seen. Findings are consistent with a reactive (atypical) lymphocyte, as in infectious mononucleosis or other viral infections.",
+  "ddx": [
+    {"dx": "Lymphoblast", "vs": "Lymphoblasts have fine chromatin, nucleoli, and scant cytoplasm with a high N:C ratio."},
+    {"dx": "Hairy cell", "vs": "Hairy cells have circumferential fine cytoplasmic projections and a spongy chromatin pattern and are BRAF V600E+/CD103+/CD25+/CD11c+."},
+    {"dx": "Monocyte", "vs": "Monocytes have folded nuclei and grey ground-glass cytoplasm without peripheral basophilia."},
+    {"dx": "Large cell lymphoma in blood", "vs": "Lymphoma cells are monotonous and show nuclear irregularity, nucleoli, and clonal immunophenotype, unlike this heterogeneous reactive cell."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

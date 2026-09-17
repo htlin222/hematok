@@ -1,0 +1,21 @@
+{
+  "id": "3503",
+  "recognize_zh": "骨髓抹片中一顆組織球（右側腎形核）的胞質內吞入了一顆有分葉核的細胞（位於清亮空泡中），胞質上方另有粗大黑褐色顆粒，符合噬血現象（hemophagocytosis）；形態本身無法分辨家族性或續發性 HLH。",
+  "features": [
+    "Macrophage with abundant pale blue, vacuolated cytoplasm and an eccentric kidney-shaped nucleus",
+    "Engulfed nucleated cell with a lobulated dark nucleus lying within a clear phagocytic vacuole",
+    "Coarse dark brown-black granular pigment/debris in the cytoplasmic process (likely hemosiderin or ingested material)",
+    "Dendritic cytoplasmic extensions among surrounding red cells",
+    "Background red cells with refractile drying artifact inclusions"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a macrophage with abundant pale vacuolated cytoplasm and an eccentric kidney-shaped nucleus, containing an engulfed nucleated cell with a lobulated nucleus (likely a granulocyte) within a phagocytic vacuole. Coarse dark pigmented granules are also present in the cytoplasm. The surrounding red cells show drying artifact. Findings demonstrate hemophagocytosis, consistent with hemophagocytic lymphohistiocytosis in the appropriate clinical and laboratory setting; hemophagocytosis alone is neither sensitive nor specific, and familial HLH requires genetic testing (e.g., PRF1, UNC13D, STX11, STXBP2).",
+  "ddx": [
+    {"dx": "Secondary (acquired) HLH due to infection, malignancy, or autoimmunity (macrophage activation syndrome)", "vs": "Morphology is identical; distinction relies on age, family history, genetic testing, and identification of triggers such as EBV or lymphoma."},
+    {"dx": "Non-specific hemophagocytosis after transfusion or infection", "vs": "Isolated hemophagocytosis can occur without HLH, so diagnosis requires HLH-2004 criteria such as fever, cytopenias, ferritin, triglycerides, and soluble CD25."},
+    {"dx": "Overlapping or adjacent cells (pseudo-phagocytosis)", "vs": "True phagocytosis shows the ingested cell within a clear vacuole enclosed by macrophage cytoplasm, rather than a cell merely lying on top."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

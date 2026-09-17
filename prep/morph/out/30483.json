@@ -1,0 +1,22 @@
+{
+  "id": "30483",
+  "recognize_zh": "眼球全切片可見脈絡膜腫瘤（A），高倍為上皮樣腫瘤細胞（B）；PET-CT 顯示全脊椎與骨盆瀰漫性攝取（C）；骨髓抹片中出現大型、核仁明顯的非造血腫瘤細胞群，細胞質含細小深色顆粒（D、E，箭頭），符合葡萄膜黑色素瘤（uveal melanoma）瀰漫侵犯骨髓。",
+  "features": [
+    "Panel A: enucleated globe with a choroidal/ciliary body mass (boxed area)",
+    "Panel B: sheets of epithelioid tumor cells with vesicular nuclei, prominent nucleoli and moderate clear to eosinophilic cytoplasm",
+    "Panel C: PET-CT with diffuse, intense FDG uptake throughout the axial skeleton and pelvis",
+    "Panel D: large single tumor cell with round eccentric nucleus and abundant pale cytoplasm containing fine granules (arrow)",
+    "Panel E: cohesive clump of large tumor cells with round nuclei, prominent nucleoli and fine dark cytoplasmic pigment granules, much larger than surrounding myeloid cells"
+  ],
+  "describe_en": "Composite figure. The enucleated globe (A, H&E) contains a choroidal mass composed of epithelioid tumor cells with prominent nucleoli (B), and PET-CT (C) shows diffuse skeletal FDG avidity involving the spine and pelvis. The bone marrow aspirate (D, E, Wright-Giemsa) contains large non-hematopoietic cells, singly and in a cohesive clump, with round nuclei, prominent nucleoli and abundant cytoplasm with fine dark pigment-like granules (arrows), clearly larger than the background myeloid precursors. Findings are consistent with diffuse bone marrow involvement by metastatic uveal melanoma, which can be confirmed with Fontana-Masson or immunohistochemistry for SOX10, Melan-A and HMB-45.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma clumps lack melanin pigment and are cytokeratin-positive and SOX10/Melan-A-negative."},
+    {"dx": "Hemosiderin-laden macrophages", "vs": "Macrophages have small bland nuclei and coarse blue-black iron granules that are Prussian blue positive, rather than large nuclei with prominent nucleoli."},
+    {"dx": "Anaplastic large cell lymphoma or large cell lymphoma", "vs": "Lymphoma cells are discohesive, lack pigment, and express CD45 with CD30/ALK or B-cell markers."},
+    {"dx": "Megakaryocytes / osteoblasts", "vs": "Megakaryocytes have lobulated nuclei with granular pink cytoplasm and osteoblasts show a perinuclear hof in a single-file arrangement, both without melanin."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "H&E; Wright-Giemsa; PET-CT",
+  "match": "consistent",
+  "high_yield": false
+}

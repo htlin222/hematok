@@ -1,0 +1,22 @@
+{
+  "id": "63632",
+  "recognize_zh": "左上 H&E 可見淡粉紅色的類上皮組織球聚集（epithelioid granuloma），周圍是深染的非典型淋巴樣細胞；TdT 與 CD3 在腫瘤細胞呈瀰漫強陽性，顯示為 T 淋巴母細胞；CD34 圖中主要是血管內皮染色，腫瘤細胞染色不明顯。",
+  "features": [
+    "H&E: sheets of small to medium hyperchromatic atypical lymphoid cells adjacent to a pale eosinophilic aggregate of epithelioid histiocytes (granuloma)",
+    "TdT: diffuse strong nuclear positivity in the neoplastic infiltrate, with a negative granulomatous area",
+    "CD3: diffuse positivity in the neoplastic lymphoid cells",
+    "CD34: strong staining of endothelial cells lining vessels; neoplastic cells show at most faint/equivocal staining in this panel",
+    "Four-panel composite of H&E and immunohistochemistry on a tissue/core biopsy"
+  ],
+  "describe_en": "Composite figure of a tissue biopsy. The H&E panel shows sheets of small to medium hyperchromatic atypical lymphoid cells surrounding pale eosinophilic aggregates of epithelioid histiocytes forming non-necrotizing granulomas. Immunohistochemistry shows diffuse nuclear TdT and diffuse CD3 staining of the lymphoid infiltrate, establishing an immature T-cell phenotype. The CD34 panel shows strong endothelial staining, with the neoplastic cells largely negative or only faintly stained in this field, so CD34 positivity stated in the legend is not clearly demonstrated. Findings are consistent with T-lymphoblastic leukemia/lymphoma with an associated epithelioid granulomatous reaction.",
+  "ddx": [
+    {"dx": "Granulomatous infection (tuberculosis) with reactive lymphocytes", "vs": "Reactive lymphocytes around infectious granulomas are TdT-negative, and the lymphoid cells are not sheet-like atypical blasts."},
+    {"dx": "Thymoma (type B) with TdT+ immature T cells", "vs": "Thymoma contains cytokeratin-positive epithelial cells within the TdT+ T-cell population, unlike lymphoblastic lymphoma."},
+    {"dx": "Classic Hodgkin lymphoma with granulomas", "vs": "Hodgkin lymphoma shows CD30+/CD15+ Reed-Sternberg cells in a mixed background, and the surrounding lymphocytes are mature TdT-negative T cells."},
+    {"dx": "Peripheral T-cell lymphoma (Lennert pattern)", "vs": "Lennert lymphoma has epithelioid histiocyte clusters with mature CD3+ T cells that are TdT-negative and CD34-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: TdT, CD3, CD34",
+  "match": "partial",
+  "high_yield": false
+}

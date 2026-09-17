@@ -1,0 +1,20 @@
+{
+  "id": "63646",
+  "recognize_zh": "這是毛細管電泳圖（capillary electrophoresis），可見 Hb A 41.9%、Hb S 54.6%、Hb F 0.4%、Hb A2 3.1% 兩個主峰；Hb S 多於 Hb A，在已知鐮刀型貧血的病人代表輸血後捐血者 Hb A 混入。",
+  "features": [
+    "Capillary electrophoresis tracing with labeled migration zones",
+    "Two dominant peaks: Hb A (41.9%) in zone A and Hb S (54.6%) in zone S",
+    "Small Hb A2 peak at 3.1% and minimal Hb F at 0.4%",
+    "HbS exceeds HbA, a ratio not expected in sickle cell trait"
+  ],
+  "describe_en": "Hemoglobin capillary electrophoresis shows two major fractions, Hb A 41.9% and Hb S 54.6%, with Hb A2 3.1% and Hb F 0.4%. The proportion of Hb S exceeds Hb A, which is inconsistent with sickle cell trait, where Hb A normally predominates (Hb S typically below about 40%). In a patient with sickle cell anemia who has recently been transfused, the Hb A represents donor hemoglobin. Findings are consistent with homozygous HbS disease post transfusion; interpretation requires transfusion history, red cell indices and, if needed, HBB genotyping.",
+  "ddx": [
+    {"dx": "Sickle cell trait (HbAS)", "vs": "In trait Hb A is the major fraction (about 55-60%) and Hb S is below about 40%, the reverse of this tracing."},
+    {"dx": "HbS/beta+ thalassemia", "vs": "HbS/beta+ thalassemia also shows Hb S > Hb A but with microcytosis, low MCV and typically elevated Hb A2 without a history of transfusion."},
+    {"dx": "HbSC disease", "vs": "HbSC shows Hb S and Hb C peaks of roughly equal size with no Hb A."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

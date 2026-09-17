@@ -1,0 +1,21 @@
+{
+  "id": "1039",
+  "recognize_zh": "高倍周邊血抹片中，一顆分葉核中性球下方有一大團聚集的血小板（platelet clump），而紅血球間幾乎沒有單獨散在的血小板，這種聚集會讓儀器低估血小板數，是假性血小板低下的直接證據。",
+  "features": [
+    "Large aggregate of platelets with granular purple centers below the neutrophil",
+    "Individual platelets within the clump are normal in size",
+    "Segmented neutrophil with multiple nuclear lobes and fine cytoplasmic granules",
+    "Very few single free platelets among the red cells",
+    "Red cells with rouleaux-like stacking in thicker areas of the smear"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows a large aggregate of normal-sized platelets adjacent to a segmented neutrophil, with very few free single platelets in the field. Red cells are normochromic and stacked in thicker areas of the smear. Findings demonstrate in vitro platelet clumping and are consistent with pseudothrombocytopenia, most often EDTA-dependent; the platelet count should be verified on a citrated sample or by smear estimate.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "ITP shows genuinely reduced platelets, often large, without aggregates on the smear."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism is platelet rosetting around the neutrophil membrane rather than a free-lying aggregate."},
+    {"dx": "Giant platelet", "vs": "A giant platelet is a single cell with uniform granular cytoplasm, while a clump shows multiple discrete platelets with separate outlines."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

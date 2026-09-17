@@ -1,0 +1,21 @@
+{
+  "id": "61057",
+  "recognize_zh": "視野中央一顆嗜中性球核分成約 7 葉（分葉過多，hypersegmentation），周圍紅血球大小不一並有許多大卵圓形紅血球（macro-ovalocytes），加上淚滴狀紅血球，是巨母細胞性貧血的典型周邊血表現。",
+  "features": [
+    "Neutrophil with about 7 nuclear lobes (hypersegmentation; >=6 lobes is diagnostic, >5% with 5 lobes suggestive)",
+    "Marked anisocytosis with numerous oval macrocytes (macro-ovalocytes)",
+    "Poikilocytosis including teardrop cells",
+    "Some red cells contain small dark inclusions, possibly Howell-Jolly bodies or basophilic material",
+    "Platelets small and clumped; photograph has a yellow-green color cast limiting color assessment"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with prominent oval macrocytes and occasional teardrop cells. A neutrophil with approximately seven nuclear lobes is present. Several red cells contain small dark inclusions consistent with Howell-Jolly bodies, although the color cast of the photograph limits characterization. Platelets are present in small clumps. Findings are consistent with megaloblastic anemia (vitamin B12 or folate deficiency).",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS more often shows hypolobated (pseudo-Pelger) and hypogranular neutrophils, and macrocytes are usually round rather than oval, with normal B12/folate levels."},
+    {"dx": "Drug-induced macrocytosis (e.g., hydroxyurea, methotrexate, antiretrovirals)", "vs": "Morphology can be identical; medication history and normal vitamin levels distinguish it."},
+    {"dx": "Liver disease or alcohol-related macrocytosis", "vs": "These produce round macrocytes and target cells without hypersegmented neutrophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

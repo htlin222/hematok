@@ -1,0 +1,22 @@
+{
+  "id": "60752",
+  "recognize_zh": "A 圖一群細胞的細胞質與核上覆蓋大量粗大深紫黑色嗜鹼性顆粒，核形不規則、部分像是顆粒脫落的不成熟嗜鹼性球；B 圖骨髓抹片有許多芽細胞、含顆粒的嗜鹼性前驅細胞，以及多核分離的異常細胞，提示伴嗜鹼性分化的骨髓分化不良相關 AML。",
+  "features": [
+    "Panel A: cluster of large immature cells with abundant cytoplasm studded with coarse dark purple-black basophilic granules overlying the nuclei, some with partial degranulation",
+    "Panel A: irregular, folded to lobulated nuclei with open chromatin",
+    "Panel B: marrow aspirate with numerous blasts showing fine chromatin, variable basophilic cytoplasm and occasional fine granules",
+    "Panel B: a cell packed with coarse dark granules (immature basophil) among the blasts",
+    "Panel B: dysplastic cell with multiple separated round nuclei (lower left) and a background of cytolysis/stain debris"
+  ],
+  "describe_en": "Composite of smears shows a cluster of large immature cells with irregular folded nuclei and abundant cytoplasm containing coarse, dark purple-black basophilic granules that overlie the nuclei (A). The bone marrow aspirate (B) shows increased blasts with fine chromatin and variable basophilic cytoplasm, admixed with immature basophils with coarse granules and a dysplastic cell with multiple separated nuclei. Blast percentage and multilineage dysplasia cannot be accurately quantified from these fields. Findings are consistent with acute myeloid leukemia with myelodysplasia-related changes showing prominent basophilic differentiation, pending cytogenetic/molecular correlation and exclusion of BCR::ABL1.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia in blast phase", "vs": "Also shows blasts with marked basophilia, but is defined by BCR::ABL1/Philadelphia chromosome, which must be excluded."},
+    {"dx": "Acute basophilic leukemia", "vs": "Is a primary AML with predominant basophilic blasts without myelodysplasia-related cytogenetic/molecular changes or antecedent MDS."},
+    {"dx": "Systemic mastocytosis with associated myeloid neoplasm", "vs": "Mast cells are spindled or oval with granules, express CD117/tryptase with CD25/CD2 and KIT D816V, whereas basophils are CD123+/CD203c+ and tryptase-weak."},
+    {"dx": "AML with t(6;9)(p23;q34.1); DEK::NUP214", "vs": "Frequently shows basophilia with multilineage dysplasia, so karyotype is required to separate it from AML-MR."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

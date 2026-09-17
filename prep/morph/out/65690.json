@@ -1,0 +1,22 @@
+{
+  "id": "65690",
+  "recognize_zh": "三個嗜中性球周圍各被一圈緊貼細胞膜的血小板環繞（像衛星一樣），而背景游離血小板很少；這是 EDTA 引起的血小板衛星現象（platelet satellitism），會造成假性血小板減少。",
+  "features": [
+    "Three segmented neutrophils, each rimmed by a ring of small platelets adherent to the cell membrane",
+    "Platelets are normal-sized, granular and not internalized within the neutrophil cytoplasm",
+    "Neutrophils otherwise normal with fine granules and segmented nuclei",
+    "Very few free platelets in the background",
+    "Red cells normocytic, normochromic"
+  ],
+  "describe_en": "Peripheral blood smear shows several segmented neutrophils encircled by rosettes of normal-appearing platelets adherent to their surface membranes, without evidence of platelet phagocytosis. Free platelets in the background are sparse, and the neutrophils and red cells are otherwise morphologically unremarkable. Findings are consistent with platelet satellitism, an in vitro EDTA-dependent phenomenon that can produce a spuriously low automated platelet count; a repeat count in citrate or a heparin tube is recommended.",
+  "ddx": [
+    {"dx": "EDTA-dependent platelet clumping", "vs": "Platelet clumps form free-floating aggregates, often at the feathered edge, rather than rings attached to neutrophils."},
+    {"dx": "Platelet phagocytosis by neutrophils", "vs": "In phagocytosis the platelets lie inside the neutrophil cytoplasm, often within vacuoles, instead of on its outer surface."},
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows few platelets without satellites or clumps and persists when recounted in a citrate tube."},
+    {"dx": "Extracellular bacteria or cocci", "vs": "Bacteria are smaller, uniform, deeply basophilic and lack the granular platelet texture."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

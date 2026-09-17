@@ -1,0 +1,22 @@
+{
+  "id": "1200",
+  "recognize_zh": "體液抹片中大量分散的大型異型淋巴樣細胞，細胞質深藍嗜鹼性、核圓且部分有明顯核仁，少數細胞特別大（免疫母細胞至間變性外觀），背景混有紅血球與少量中性球；在積液中出現此形態應想到原發性積液淋巴瘤（PEL）。",
+  "features": [
+    "Numerous discohesive large atypical lymphoid cells dispersed singly among red cells",
+    "Marked size variation, with scattered very large cells two to three times the size of most tumor cells",
+    "Round to slightly irregular nuclei with high N:C ratio and visible nucleoli in the larger cells",
+    "Deeply basophilic cytoplasm, some cells with a paler paranuclear zone or vacuoles (plasmablastic-immunoblastic appearance)",
+    "Occasional neutrophils and histiocytes in the background; fine cytologic detail limited at this magnification"
+  ],
+  "describe_en": "Cytospin of an effusion shows a highly cellular population of discohesive large atypical lymphoid cells with deeply basophilic cytoplasm, round to irregular nuclei and visible nucleoli. There is marked variation in size, with scattered very large immunoblastic to anaplastic-appearing cells. Scattered neutrophils and histiocytes are present, and no cohesive epithelial groups are seen. Findings are consistent with involvement by a high-grade lymphoma with plasmablastic features, in keeping with primary effusion lymphoma; confirmation requires HHV8 (LANA-1) positivity and a null or plasmacytic phenotype (CD45+, CD138+, CD30+, lacking CD20/CD79a).",
+  "ddx": [
+    {"dx": "Extracavitary or secondary effusion involvement by DLBCL", "vs": "DLBCL cells express CD20, PAX5 and CD79a and are HHV8 negative, whereas PEL lacks B-cell markers and is HHV8 positive."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma shares the plasmablastic phenotype but is HHV8 negative and usually forms solid oral or extranodal masses rather than lymphomatous effusion alone."},
+    {"dx": "Metastatic carcinoma or melanoma in effusion", "vs": "Carcinoma forms cohesive three-dimensional clusters and expresses keratin, and melanoma expresses S100/SOX10, while PEL cells are discohesive and CD45/CD138 positive."},
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells show cohesive groups with windows, dense two-tone cytoplasm with a peripheral skirt and bland nuclei, and are calretinin/WT1 positive."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

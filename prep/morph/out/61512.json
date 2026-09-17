@@ -1,0 +1,23 @@
+{
+  "id": "61512",
+  "recognize_zh": "周邊血液中滿是大型母細胞，細胞質豐富、呈灰藍色，核圓形至略有凹陷、染色質細緻且可見明顯核仁，部分有細小空泡；細胞大、核質比相對低、細胞質多，這些是單核母細胞（monoblast）的線索。",
+  "features": [
+    "Numerous large blasts, roughly 2-3 times the diameter of a red cell",
+    "Moderate to abundant gray-blue cytoplasm, giving a relatively low N:C ratio for blasts",
+    "Round to slightly indented or folded nuclei with finely dispersed, lacy chromatin",
+    "One or more conspicuous nucleoli in many cells",
+    "Occasional small cytoplasmic vacuoles; no Auer rods or coarse granules identified",
+    "A few smaller, densely stained cells with a coarse granular appearance in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked increase in large blasts with abundant gray-blue cytoplasm. The blasts have round to slightly indented nuclei with finely dispersed chromatin and conspicuous nucleoli, and some contain fine cytoplasmic vacuoles. Auer rods and cytoplasmic granulation are not identified, and maturing monocytes are few. Findings are suggestive of acute monoblastic leukemia, which is best confirmed by nonspecific esterase cytochemistry and flow cytometry (CD14, CD64, CD11b, lysozyme).",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with minimal or no maturation", "vs": "Myeloblasts usually have less cytoplasm, may show Auer rods, and are MPO strongly positive and nonspecific esterase negative."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are smaller with scant cytoplasm and a high N:C ratio, and are MPO/NSE negative with B- or T-lineage markers."},
+    {"dx": "Microgranular acute promyelocytic leukemia", "vs": "APL cells have bilobed, sliding-plate nuclei, strong MPO, and PML::RARA, whereas monoblasts have round nuclei and weak or absent MPO."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows mature monocytes with fewer than 20% blasts and promonocytes, whereas this field is dominated by blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

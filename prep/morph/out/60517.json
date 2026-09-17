@@ -1,0 +1,22 @@
+{
+  "id": "60517",
+  "recognize_zh": "視野中許多紅血球邊緣呈鋸齒狀，其中數個細胞較小、較緻密，帶有長短不一、分布不規則的尖刺（棘狀紅血球 acanthocytes）；但也有不少細胞為規則的短突起並保留淡染區，較像棘皮紅血球（echinocytes），判讀時需區分。",
+  "features": [
+    "Several small dense red cells with irregular, unevenly spaced spicules of varying length (acanthocytes)",
+    "Many other red cells show regular, short, evenly spaced crenations with retained central pallor (echinocyte-like)",
+    "Occasional red cell fragments and irregular forms",
+    "Mild anisocytosis; some overlapping cells",
+    "No leukocytes or nucleated red cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked poikilocytosis. Several small, dense red cells lacking central pallor carry irregular, unevenly distributed spicules of varying length, consistent with acanthocytes (spur cells). Numerous additional red cells show regular, short, evenly spaced crenations with preserved central pallor, resembling echinocytes; these may be partly artifactual (thick area/slow drying) and should be assessed in a well-spread area. Findings are consistent with acanthocytosis, as seen in liver disease, with admixed echinocyte-like forms.",
+  "ddx": [
+    {"dx": "Echinocytes (burr cells)", "vs": "Echinocytes carry many short uniform projections evenly around the cell with central pallor, whereas acanthocytes have few irregular spicules and no pallor."},
+    {"dx": "Crenation artifact", "vs": "Storage or drying artifact crenates red cells uniformly across the smear, while true acanthocytes are a subpopulation of dense cells seen in well-spread areas."},
+    {"dx": "Schistocytes", "vs": "Schistocytes are true fragments with sharp straight edges rather than intact cells with multiple spicules."},
+    {"dx": "Pyruvate kinase deficiency", "vs": "PK deficiency produces dense echinocytic cells mainly after splenectomy, requiring enzyme assay rather than morphology to separate from liver-disease spur cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3517",
+  "recognize_zh": "中央一顆大小正常、未脹大的紅血球邊緣貼著一個細小環狀體，含兩到三個染色質點，屬位於紅血球邊緣的環狀滋養體（accolé form），提示瘧疾，尤其是惡性瘧（P. falciparum）。",
+  "features": [
+    "Normal-sized red cell containing a small delicate ring-form trophozoite at the cell margin (accolé or appliqué position)",
+    "Ring with more than one chromatin dot",
+    "Infected red cell not enlarged and without Schüffner dots",
+    "A second red cell (top) with a small irregular dark chromatin body, possibly an additional early parasite",
+    "Adjacent free platelet for comparison; background red cells with fine refractile dots of uncertain significance (likely stain precipitate)"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic red cells, one of which contains a small ring-form trophozoite positioned at the red cell margin with multiple chromatin dots. The infected cell is not enlarged and shows no Schüffner stippling; a second red cell contains a small dark chromatin body that may represent another early ring. Mature trophozoites, schizonts and gametocytes are not seen in this field. Findings are consistent with Plasmodium infection and suggestive of P. falciparum; thick and thin smears with parasitemia quantification and species confirmation (antigen test or PCR) are recommended.",
+  "ddx": [
+    {"dx": "Plasmodium vivax / P. ovale", "vs": "Infected red cells are enlarged with Schüffner dots and show larger amoeboid trophozoites and schizonts, unlike the small marginal ring in an unenlarged cell."},
+    {"dx": "Babesia species", "vs": "Babesia forms pleomorphic rings, sometimes extracellular or in tetrads (Maltese cross), without pigment or gametocytes, and typically lacks the accolé position."},
+    {"dx": "Platelet overlying a red cell", "vs": "An overlying platelet shows granular texture and a surrounding halo rather than a blue ring of cytoplasm with discrete red chromatin dots."},
+    {"dx": "Howell-Jolly body or Pappenheimer bodies", "vs": "Howell-Jolly bodies are single dense round dots and Pappenheimer bodies are small peripheral granule clusters, neither with a ring of cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

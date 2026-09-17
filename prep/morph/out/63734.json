@@ -1,0 +1,22 @@
+{
+  "id": "63734",
+  "recognize_zh": "紅血球背景中有一條遠大於血球、蜷曲成環狀的細長蟲體，體內充滿深紫色、成柱狀排列的細胞核，這就是血中微絲蟲（microfilaria）；此張解析度下鞘膜與尾端無核的特徵看不太清楚，需結合流行區與夜間採血確認為班氏絲蟲。",
+  "features": [
+    "Large elongated, coiled/looped worm many times the length of a red cell",
+    "Body packed with deeply basophilic nuclei in a column along its length",
+    "Rounded cephalic end; tail end and sheath not clearly resolved at this contrast",
+    "Dense background of red cells with low-contrast, greyish staining (thick area of smear)",
+    "No accompanying leukocyte detail assessable"
+  ],
+  "describe_en": "Peripheral blood smear shows a single large, coiled microfilaria lying among densely packed red cells. The organism is elongated and slender, many times the length of an erythrocyte, with a column of deeply basophilic somatic nuclei extending along the body. A sheath and the pattern of nuclei at the tail tip, which are needed for species identification, are not clearly resolved in this image. Findings are consistent with microfilaremia, compatible with Wuchereria bancrofti in the appropriate epidemiologic setting; species confirmation relies on sheath, tail nuclei and periodicity or antigen/PCR testing.",
+  "ddx": [
+    {"dx": "Brugia malayi", "vs": "Brugia microfilariae are sheathed with a sheath staining pink on Giemsa and two separate terminal nuclei at the tail tip, whereas W. bancrofti has a tail free of nuclei."},
+    {"dx": "Loa loa", "vs": "Loa loa is sheathed with nuclei extending continuously to the tip of the tail and shows diurnal periodicity."},
+    {"dx": "Mansonella perstans", "vs": "Mansonella microfilariae are smaller and unsheathed with nuclei to a blunt tail tip."},
+    {"dx": "Fibrin strand or cotton fiber artifact", "vs": "Fibers and fibrin lack a column of discrete nuclei and a defined head and tail."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

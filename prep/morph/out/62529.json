@@ -1,0 +1,20 @@
+{
+  "id": "62529",
+  "recognize_zh": "CD138 染色中，散在與小群聚集的漿細胞呈棕色膜狀陽性，主要分布在組織球竇的周邊與髓索；大型組織球與小淋巴球為陰性。Rosai-Dorfman 病常伴隨大量漿細胞，此圖顯示漿細胞增加但無單株性腫瘤的片狀排列。",
+  "features": [
+    "Scattered and loosely clustered cells with strong membranous CD138 positivity (plasma cells)",
+    "Plasma cells with eccentric nuclei concentrated around the sinus and in cords",
+    "Large histiocytes and small lymphocytes are CD138-negative",
+    "No sheets of CD138-positive cells to suggest a plasma cell neoplasm"
+  ],
+  "describe_en": "Immunohistochemical stain for CD138 highlights increased numbers of plasma cells distributed singly and in small clusters around expanded sinuses and within medullary cords. The large sinus histiocytes and background lymphocytes are negative. There are no confluent sheets of plasma cells. Findings are consistent with the polytypic plasmacytosis that commonly accompanies Rosai-Dorfman disease; kappa/lambda ISH and IgG4 staining can be used to exclude a clonal process or IgG4-related disease.",
+  "ddx": [
+    {"dx": "IgG4-related lymphadenopathy", "vs": "IgG4-related disease shows increased IgG4-positive plasma cells (high IgG4:IgG ratio) with S100-negative histiocytes."},
+    {"dx": "Plasmacytoma / marginal zone lymphoma with plasmacytic differentiation", "vs": "Neoplastic plasma cells form sheets and are light chain-restricted on kappa/lambda ISH."},
+    {"dx": "Castleman disease, plasma cell variant", "vs": "Plasma cell Castleman shows sheets of interfollicular plasma cells with regressed follicles and lacks S100-positive histiocytes with emperipolesis."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD138",
+  "match": "consistent",
+  "high_yield": false
+}

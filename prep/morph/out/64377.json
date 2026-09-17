@@ -1,0 +1,23 @@
+{
+  "id": "64377",
+  "recognize_zh": "新生兒周邊血中出現數顆胚芽球，細胞質深藍、邊緣有細胞質泡狀突起（cytoplasmic bleb），符合巨核母細胞（megakaryoblast）型態；背景可見形狀不規則的血小板，配合 Down 症候群即指向 TAM。",
+  "features": [
+    "Several blasts, variable in size (small to large), with high N:C ratio",
+    "Round to slightly irregular nuclei with finely granular chromatin",
+    "Deeply basophilic, agranular cytoplasm with cytoplasmic blebs/tag-like projections (megakaryoblast-like)",
+    "One smaller blast with a cytoplasmic vacuole",
+    "Background with an irregular, granular platelet and a large pale-staining platelet-like fragment",
+    "Red cells show mild anisopoikilocytosis with occasional echinocytes/crenated forms"
+  ],
+  "describe_en": "Peripheral blood smear from a neonate shows circulating blasts of variable size with high N:C ratios, finely dispersed chromatin and scant deeply basophilic cytoplasm; one blast shows a prominent cytoplasmic bleb, a feature suggestive of megakaryoblastic differentiation. Platelets include irregular granular forms and a large pale-staining platelet-like fragment. Red cells show mild poikilocytosis. In a neonate with trisomy 21 and a GATA1 mutation, findings are consistent with transient abnormal myelopoiesis.",
+  "ddx": [
+    {"dx": "Myeloid leukemia associated with Down syndrome (ML-DS)", "vs": "ML-DS usually presents after the neonatal period (typically before age 4-5) with persistent disease and additional mutations, whereas TAM appears in the first days of life and usually resolves spontaneously; morphology alone cannot separate them."},
+    {"dx": "Acute megakaryoblastic leukemia in a non-Down syndrome infant", "vs": "Morphology is similar, but absence of trisomy 21/GATA1 mutation and frequent fusion genes such as CBFA2T3::GLIS2 or RBM15::MRTFA distinguish it."},
+    {"dx": "Neonatal leukemoid reaction or sepsis", "vs": "Reactive states show a left-shifted granulocytic series with toxic changes rather than blasts with cytoplasmic blebs."},
+    {"dx": "Circulating normal neonatal blasts or NRBC", "vs": "Occasional blasts may be seen in stressed neonates, and nucleated red cells have condensed chromatin and polychromatic cytoplasm without blebs."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grunwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

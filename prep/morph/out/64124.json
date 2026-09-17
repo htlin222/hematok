@@ -1,0 +1,22 @@
+{
+  "id": "64124",
+  "recognize_zh": "周邊血片中單一顆中大型不成熟細胞，核圓、染色質呈細顆粒點狀、胞質為一圈淡色邊緣；題目提到異常前骨髓球與 Auer 小體，但這張圖的解析度下看不清楚 Auer 小體或粗大嗜天青顆粒，需要搭配其他視野判讀。",
+  "features": [
+    "Single medium-to-large immature-appearing cell among red cells, about 2 times red cell diameter",
+    "High N:C ratio with a round, slightly eccentric nucleus",
+    "Finely stippled, granular-appearing chromatin; nucleoli not clearly resolved",
+    "Thin rim of pale cytoplasm; distinct azurophilic granules or Auer rods cannot be confirmed at this resolution",
+    "Red cells show stacking consistent with a thicker area of the film"
+  ],
+  "describe_en": "Peripheral blood smear shows a single medium-to-large immature cell with a high nuclear-to-cytoplasmic ratio, a round nucleus with finely stippled chromatin, and a thin rim of pale cytoplasm. Heavy azurophilic granulation, bilobed nuclear folding, and Auer rods described for this case are not clearly resolved in this image, likely because of focus and resolution. The image alone therefore does not permit confident classification beyond a circulating immature myeloid-appearing cell. If abnormal promyelocytes with Auer rods are confirmed on the film, urgent evaluation for acute promyelocytic leukemia (coagulation studies, PML::RARA testing) is warranted.",
+  "ddx": [
+    {"dx": "Myeloblast (AML with maturation)", "vs": "Myeloblasts have fine chromatin, visible nucleoli, and few or no granules, whereas APL promyelocytes are packed with coarse azurophilic granules and often multiple Auer rods (faggot cells)."},
+    {"dx": "Normal promyelocyte", "vs": "Normal promyelocytes have a paranuclear hof, an eccentric nucleus with nucleolus, and never contain Auer rods."},
+    {"dx": "Microgranular APL variant", "vs": "Hypogranular APL cells have bilobed or butterfly-shaped nuclei with sparse visible granules, requiring PML::RARA testing to confirm."},
+    {"dx": "Lymphoblast", "vs": "Lymphoblasts lack granules and Auer rods and are MPO-negative, TdT-positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

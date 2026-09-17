@@ -1,0 +1,21 @@
+{
+  "id": "62998",
+  "recognize_zh": "CD25 免疫染色中，成束排列的紡錘形細胞呈細顆粒狀細胞質/膜陽性，分布區域與 CD117 陽性的紡錘形浸潤一致；肥大細胞異常表現 CD25 是系統性肥大細胞增生症的次要診斷標準。",
+  "features": [
+    "Infiltrate of spindled cells arranged in streaming fascicles",
+    "Finely granular cytoplasmic and membranous CD25 staining in a large proportion of spindled cells",
+    "Staining intensity weaker and more granular than the companion CD117 stain",
+    "Elongated oval nuclei with fine chromatin in positive cells",
+    "Adjacent round hematopoietic cells largely negative"
+  ],
+  "describe_en": "CD25 immunostain shows a streaming infiltrate of spindled cells with finely granular cytoplasmic and membranous positivity in a large proportion of the cells. The nuclei are elongated and oval, and adjacent round cells are largely negative. The distribution mirrors the CD117-positive spindled infiltrate. Findings are consistent with aberrant CD25 expression by atypical mast cells, supporting systemic mastocytosis.",
+  "ddx": [
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are CD25-negative, round and scattered rather than aggregated spindled cells."},
+    {"dx": "Myelofibrosis with fibroblast proliferation", "vs": "Fibroblasts and stromal cells are spindled but negative for CD25, CD117 and tryptase."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells are CD25+ but round with bean-shaped nuclei and co-express CD20/annexin A1/BRAF V600E, not CD117/tryptase."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD25",
+  "match": "consistent",
+  "high_yield": false
+}

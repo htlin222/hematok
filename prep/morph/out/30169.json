@@ -1,0 +1,21 @@
+{
+  "id": "30169",
+  "recognize_zh": "H&E 切片中骨骼肌纖維之間被密集、核不規則且深染的異型淋巴球浸潤並破壞（A），免疫染色腫瘤細胞呈強膜/細胞質陽性（B）與核陽性（D），PCR 電泳證實 HTLV-1 pX 區段陽性（C），綜合符合成人 T 細胞白血病/淋巴瘤（ATLL）侵犯肌肉。",
+  "features": [
+    "Panel A: dense infiltrate of medium to large atypical lymphoid cells with irregular, hyperchromatic nuclei dissecting between and replacing skeletal muscle fibers",
+    "Panel B: diffuse strong membranous/cytoplasmic immunostaining of the infiltrating lymphoid cells (antigen not labeled)",
+    "Panel C: PCR agarose gel showing a 327 bp HTLV-1 pX band in the patient sample, with internal control and positive/negative controls",
+    "Panel D: nuclear immunostaining in a large proportion of tumor cells (antigen not labeled)"
+  ],
+  "describe_en": "Composite figure. Skeletal muscle (A, H&E) is extensively infiltrated by atypical medium to large lymphoid cells with irregular hyperchromatic nuclei that dissect between and destroy muscle fibers. The tumor cells show diffuse membranous/cytoplasmic immunostaining (B) and nuclear immunostaining (D); the specific antigens are not labeled in the figure. PCR (C) demonstrates the 327 bp HTLV-1 pX product in the patient sample alongside the positive control, with an internal control band and a clean negative control. Findings are consistent with adult T-cell leukemia/lymphoma with destructive muscular infiltration; the expected immunophenotype is CD3+, CD4+, CD25+ and often FOXP3/CCR4 positive.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS can look identical but is HTLV-1 negative, so clonal HTLV-1 integration is the key discriminator."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells express CD20/PAX5 and lack T-cell markers and HTLV-1 provirus."},
+    {"dx": "Inflammatory myopathy (polymyositis)", "vs": "Polymyositis shows endomysial small mature lymphocytes invading non-necrotic fibers without cytologic atypia or a monotonous destructive sheet."},
+    {"dx": "Rhabdomyosarcoma or other small round cell tumor", "vs": "These tumors express desmin/myogenin or other lineage markers and are CD45 negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (unspecified); PCR gel",
+  "match": "consistent",
+  "high_yield": false
+}

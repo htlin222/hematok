@@ -1,0 +1,23 @@
+{
+  "id": "1196",
+  "recognize_zh": "四格合成圖：周邊血中有中大型原始細胞（blast），核圓、染色質細緻、細胞質少至中等且無明顯顆粒或 Auer rod；骨髓切片為高度細胞性並被未成熟細胞取代。形態本身無法判定 T/骨髓雙系列，需靠流式確認 cCD3 與 MPO 共表現。",
+  "features": [
+    "Peripheral blood blasts of medium to large size with high N:C ratio and round nuclei",
+    "Finely dispersed chromatin with inconspicuous to small nucleoli",
+    "Scant to moderate agranular pale blue-gray cytoplasm without visible Auer rods",
+    "One blast adjacent to a neutrophil with clumped, abnormally lobated nucleus",
+    "Bone marrow biopsy (H&E) hypercellular with sheets of immature cells displacing fat",
+    "Occasional echinocytes/crenated red cells in the smear background"
+  ],
+  "describe_en": "Composite figure: peripheral blood smears show circulating medium to large blasts with high nuclear-to-cytoplasmic ratios, round nuclei, finely dispersed chromatin and scant to moderate agranular gray-blue cytoplasm; no Auer rods are identified. A neutrophil with abnormal nuclear lobation is also present. The bone marrow core biopsy is hypercellular with sheets of immature mononuclear cells replacing normal hematopoiesis. Morphology is that of an acute leukemia without distinguishing lineage features; the diagnosis of mixed-phenotype acute leukemia, T/myeloid, requires flow cytometric demonstration of cytoplasmic CD3 together with MPO (or monocytic differentiation) on the blasts.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-ALL blasts express cytoplasmic CD3 but lack MPO and monocytic markers, which only flow cytometry or cytochemistry can separate."},
+    {"dx": "AML with minimal differentiation", "vs": "AML-M0 blasts may express CD7 but lack cytoplasmic CD3; MPO is positive by flow in a minority without T-lineage commitment."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL expresses stem/myeloid markers (CD117, CD34, CD13/33) but is MPO-negative, unlike T/myeloid MPAL."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "B/myeloid MPAL shows strong CD19 with CD79a/CD22/CD10 rather than cytoplasmic CD3; morphology is indistinguishable."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa (PB) and H&E (BM biopsy)",
+  "match": "consistent",
+  "high_yield": false
+}

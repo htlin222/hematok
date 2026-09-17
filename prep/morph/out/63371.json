@@ -1,0 +1,21 @@
+{
+  "id": "63371",
+  "recognize_zh": "這是腦部 MRI 軸切面 FLAIR：右顳葉與左顳枕葉各有一個高訊號病灶，中央有較低訊號的圓形區，周圍水腫明顯。移植後免疫低下病人出現多發病灶，要想到弓漿蟲（toxoplasmosis）。",
+  "features": [
+    "Axial FLAIR MRI of the brain (non-microscopic image)",
+    "Bilateral hyperintense lesions in the right temporal lobe and left temporo-occipital region",
+    "Central rounded lower-signal focus within each lesion producing a target-like appearance",
+    "Surrounding vasogenic edema without marked midline shift",
+    "Contrast enhancement pattern cannot be assessed on this single FLAIR slice"
+  ],
+  "describe_en": "Axial FLAIR MRI of the brain shows two separate hyperintense lesions involving the right temporal lobe and the left temporo-occipital region, each with a central rounded focus of lower signal and surrounding edema. No significant midline shift is seen on this slice. Enhancement characteristics cannot be evaluated without post-contrast images. In a post-HSCT patient with seizures, multifocal lesions of this type are suggestive of cerebral toxoplasmosis, to be confirmed by Toxoplasma PCR, serology and response to therapy.",
+  "ddx": [
+    {"dx": "Primary or secondary CNS lymphoma / PTLD", "vs": "Lymphoma is more often solitary, periventricular or subependymal with homogeneous enhancement and restricted diffusion, and is thallium/PET-avid, unlike toxoplasmosis."},
+    {"dx": "Fungal abscess (Aspergillus)", "vs": "Angioinvasive fungal lesions tend to be hemorrhagic and at gray-white junctions; distinction requires CSF/tissue studies such as galactomannan."},
+    {"dx": "Progressive multifocal leukoencephalopathy", "vs": "PML involves subcortical white matter without mass effect or target-like enhancement and is JC virus PCR-positive."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

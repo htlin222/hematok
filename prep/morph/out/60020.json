@@ -1,0 +1,22 @@
+{
+  "id": "60020",
+  "recognize_zh": "周邊血液中兩顆小到中型母細胞，核質比極高、染色質細緻、核輪廓平滑至略不規則、僅有極少量淡藍色細胞質，且無 Auer 小體或顆粒；單憑型態無法判定系別，需流式細胞儀才可診斷未分化型急性白血病。",
+  "features": [
+    "Two small to intermediate blasts, roughly 1.5 times red cell diameter",
+    "Very high N:C ratio with scant pale-blue agranular cytoplasm",
+    "Round to slightly angulated nuclear contours with fine chromatin; nucleoli inconspicuous",
+    "No Auer rods or cytoplasmic granules",
+    "Background red cells include target cells; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows two small to intermediate blasts with a very high nuclear to cytoplasmic ratio, finely dispersed chromatin, smooth to slightly irregular nuclear contours, and scant agranular cytoplasm. No Auer rods are identified. Red cells include scattered target cells, and platelets are present. The morphology is nonspecific and does not permit lineage assignment; cytochemistry and comprehensive flow cytometry are required. In this case, with absence of lineage-specific markers, the findings are consistent with acute undifferentiated leukemia.",
+  "ddx": [
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "Lymphoblasts look identical morphologically; expression of CD19 with cCD79a/CD10 or cytoplasmic CD3 by flow cytometry excludes AUL."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 blasts are similarly agranular but express myeloid markers (CD13, CD33, CD117) despite MPO negativity, whereas AUL lacks these."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN blasts may have cytoplasmic vacuoles or pseudopods and express CD4, CD56, CD123, and TCF4, which must be excluded before calling AUL."},
+    {"dx": "Mature lymphocyte or small lymphoma cell", "vs": "Mature lymphocytes have clumped, condensed chromatin rather than the fine blastic chromatin seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

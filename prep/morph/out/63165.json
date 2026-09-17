@@ -1,0 +1,23 @@
+{
+  "id": "63165",
+  "recognize_zh": "拼圖呈現骨髓瘤的少見形態：4A–C 為充滿纖維狀結晶的組織球與結晶儲存組織球增生，5A–C 為類似異常巨核細胞的多葉多形性漿細胞且 MUM1 核陽性，6A–B 漿細胞含大量粗大藍紫色嗜天青樣顆粒，7 為多葉「爆米花」狀核的漿細胞。",
+  "features": [
+    "4A-B (aspirate): histiocytes with abundant pale cytoplasm packed with fibrillary/needle-like crystalline material, with adjacent plasma cells, one containing cytoplasmic inclusions",
+    "4C (trephine, H&E): sheets of pale eosinophilic histiocytes with interspersed plasma cells, consistent with crystal-storing histiocytosis",
+    "5A-B: large atypical plasma cells with multilobated, hyperchromatic pleomorphic nuclei resembling dysplastic megakaryocytes; sheets of pleomorphic cells in the biopsy",
+    "5C (IHC): nuclear MUM1 positivity in the atypical cells",
+    "6A-B: plasma cells with eccentric nuclei and numerous coarse dark azurophilic cytoplasmic granules",
+    "7: numerous plasma cells with multilobated, cloverleaf/popcorn-like nuclei including immature forms"
+  ],
+  "describe_en": "Composite figure of four plasma cell myeloma cases with unusual morphology. Case 4 shows histiocytes filled with fibrillary crystalline material on aspirate and sheets of crystal-storing histiocytes admixed with plasma cells on trephine biopsy. Case 5 shows large pleomorphic plasma cells with multilobated hyperchromatic nuclei mimicking dysplastic megakaryocytes, forming sheets on biopsy and confirmed by nuclear MUM1 positivity. Case 6 shows plasma cells with numerous coarse azurophilic cytoplasmic granules, and case 7 shows a marrow largely replaced by plasma cells with multilobated popcorn-like nuclei. Findings are consistent with morphologic variants of plasma cell myeloma, which require CD138/MUM1 and light chain studies to avoid misclassification.",
+  "ddx": [
+    {"dx": "Adult Gaucher disease or mycobacterial infection (for crystal-storing histiocytes)", "vs": "Gaucher cells have wrinkled tissue-paper cytoplasm that is glucocerebrosidase-deficient, whereas crystal-storing histiocytes contain monotypic immunoglobulin crystals with an associated clonal plasma cell population."},
+    {"dx": "Megakaryocytic dysplasia / metastatic tumor (for pleomorphic case 5)", "vs": "Megakaryocytes are CD61/CD42b positive and MUM1/CD138 negative, and carcinoma is cytokeratin positive, while these cells are MUM1 positive."},
+    {"dx": "Acute myeloid or promyelocytic leukemia (for granular case 6)", "vs": "Myeloid blasts have fine chromatin, lack an eccentric nucleus with hof, and are MPO positive, whereas granular plasma cells are CD138 positive and MPO negative."},
+    {"dx": "Adult T-cell leukemia/lymphoma (for flower-like case 7)", "vs": "ATLL flower cells are CD4+ T cells with HTLV-1 infection, while multilobated plasma cells express CD138 with light chain restriction."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: MUM1",
+  "match": "consistent",
+  "high_yield": false
+}

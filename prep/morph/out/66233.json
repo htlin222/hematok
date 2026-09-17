@@ -1,0 +1,22 @@
+{
+  "id": "66233",
+  "recognize_zh": "視野中三顆彼此相鄰的中性球，細胞質佈滿大小不一的空泡（toxic vacuolation）並有細小深色顆粒，背景幾乎看不到血小板，另有一顆棘狀紅血球；描述中的梭形細菌在此解析度下僅隱約可見細小桿狀物，無法明確辨認，需高倍檢視或血液培養證實。",
+  "features": [
+    "Three adjacent neutrophils with segmented nuclei and extensive cytoplasmic vacuolation (toxic vacuolation)",
+    "Cytoplasm shows fine dark granules/possible faint thin rod-like structures within vacuolated cytoplasm; individual bacteria not clearly resolved at this magnification",
+    "Few tiny linear extracellular objects in background (upper left), possibly bacteria versus debris",
+    "Marked paucity of platelets across the field, consistent with thrombocytopenia",
+    "Normocytic red cells with an occasional echinocyte; no schistocytes clearly identified in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows three neutrophils with segmented nuclei and prominent toxic vacuolation of the cytoplasm. Platelets are markedly reduced, and red cells are largely normocytic with an occasional echinocyte. Faint thin intracytoplasmic and a few extracellular linear structures may represent bacteria, but they are not definitively resolved at this magnification, so review at oil immersion (and Gram stain) is recommended. In a febrile patient with DIC, toxic vacuolation with suspected fusiform organisms is suggestive of overwhelming bacteremia, here confirmed as Capnocytophaga canimorsus on blood culture.",
+  "ddx": [
+    {"dx": "Toxic changes of sepsis without visible bacteremia", "vs": "Vacuolation alone is nonspecific; definite intracellular organisms with uniform fusiform shape and consistent staining are required to report bacteria on the smear."},
+    {"dx": "EDTA storage artifact vacuolation", "vs": "Storage vacuoles appear in delayed samples as small uniform vacuoles without toxic granulation or organisms; a fresh smear resolves this."},
+    {"dx": "Jordans anomaly / neutral lipid storage disease", "vs": "These show lipid vacuoles in all neutrophils (and monocytes) persistently in healthy individuals, without infection or bacteria."},
+    {"dx": "Stain precipitate or platelet fragments mimicking bacteria", "vs": "Precipitate is irregular, refractile and lies above cells and on red cells, whereas bacteria are uniform rods within neutrophil cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

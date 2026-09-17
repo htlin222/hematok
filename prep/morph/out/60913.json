@@ -1,0 +1,34 @@
+{
+  "id": "60913",
+  "recognize_zh": "骨髓抹片中聚集成群的大型細胞，細胞質深藍且有小空泡、細胞彼此黏附；切片為成片的圓形藍細胞，免疫染色呈細胞核陽性（肌源性標記），流式顯示 CD45 陰性、CD56 陽性，細胞遺傳與 FISH 顯示 FOXO1 相關轉位，符合轉移性腺泡型橫紋肌肉瘤。",
+  "features": [
+    "Aspirate: cohesive clusters of large cells with high N:C ratio, round nuclei, fine chromatin and deeply basophilic, finely vacuolated cytoplasm",
+    "Biopsy: diffuse sheets of monotonous small round blue cells replacing marrow",
+    "IHC: strong nuclear staining in the majority of tumor cells (consistent with myogenin/MyoD1)",
+    "Flow cytometry: 98.9% of events CD45-negative/CD56-positive; only 0.6% CD45+CD14+ cells",
+    "Metaphase karyotype/FISH images with arrows marking translocation partners and interphase break-apart pattern (1R1G1F) versus normal (2F)"
+  ],
+  "describe_en": "Bone marrow aspirate contains cohesive clusters of large tumor cells with round nuclei, fine chromatin, high nuclear-to-cytoplasmic ratio and deeply basophilic vacuolated cytoplasm, which could be mistaken for leukemic blasts. The trephine is diffusely replaced by sheets of small round blue cells, which show strong nuclear immunoreactivity with a myogenic transcription factor stain. Flow cytometry shows that nearly all events are CD45-negative and CD56-positive. Metaphase and interphase FISH demonstrate a translocation (arrows) and an interphase split-signal (1R1G1F) pattern indicating a gene rearrangement, which in this context corresponds to the FOXO1 rearrangement of alveolar rhabdomyosarcoma (probe identity not labeled in the figure). Findings are consistent with metastatic alveolar rhabdomyosarcoma, first diagnosed on bone marrow.",
+  "ddx": [
+    {
+      "dx": "Acute leukemia (including acute megakaryoblastic or monoblastic leukemia)",
+      "vs": "Leukemic blasts are discohesive and CD45-positive, whereas these cohesive clusters are CD45-negative with nuclear myogenin."
+    },
+    {
+      "dx": "Neuroblastoma",
+      "vs": "Neuroblastoma forms Homer-Wright rosettes with neuropil and is PHOX2B/synaptophysin positive and myogenin negative."
+    },
+    {
+      "dx": "Ewing sarcoma",
+      "vs": "Ewing cells show membranous CD99 and NKX2-2 with EWSR1 rearrangement rather than FOXO1 rearrangement and myogenin."
+    },
+    {
+      "dx": "Plasma cell myeloma (CD56+)",
+      "vs": "Myeloma cells are CD138+/CD38 bright with eccentric nuclei and hof, not myogenin positive."
+    }
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC (myogenic); flow; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

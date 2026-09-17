@@ -1,0 +1,22 @@
+{
+  "id": "61000",
+  "recognize_zh": "此圖並非紀錄描述中的脊椎 MRI（STIR），而是一張偏黃色調的骨髓抹片：可見數顆細胞質藍染、核偏位的漿細胞，右下方有一顆細胞質豐富、藍染的多核大細胞（多核漿細胞或蝕骨細胞），背景為骨髓系前驅細胞，與漿細胞腫瘤的臨床情境相符。",
+  "features": [
+    "Bone marrow aspirate smear with a yellow color cast (white-balance artifact)",
+    "Several plasma cells with eccentric round nuclei, clock-face chromatin and basophilic cytoplasm, some with perinuclear hof",
+    "Large multinucleated cell with abundant blue cytoplasm and several round nuclei at lower right (multinucleated plasma cell vs osteoclast)",
+    "Admixed granulocytic precursors (myelocytes, metamyelocytes) and an eosinophil at upper left",
+    "Small lymphocytes and occasional erythroid precursors; red cells appear pale/ghost-like due to color cast"
+  ],
+  "describe_en": "Note: the record description refers to MRI STIR signal changes of the lumbar spine, but the image provided is a bone marrow aspirate smear rather than a radiologic study. The smear shows a mixed hematopoietic population with granulocytic precursors, an eosinophil and small lymphocytes, together with several plasma cells showing eccentric nuclei, coarse chromatin and basophilic cytoplasm. A large cell at the lower right contains multiple round nuclei within abundant blue cytoplasm, favoring a multinucleated plasma cell over an osteoclast. The yellow color cast limits evaluation of subtle cytoplasmic features. Plasma cell quantification on a well-stained smear and CD138/light-chain studies are required; findings are suggestive of a plasma cell neoplasm in the appropriate clinical context.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are mature, mononuclear, polyclonal and usually <10%, without multinucleated or atypical forms."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts are much larger with many (often >5) uniform, well-separated oval nuclei with single nucleoli and pink granular cytoplasm, rather than a few nuclei in basophilic cytoplasm."},
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes have a single multilobated nucleus and granular pink cytoplasm instead of separate round nuclei in blue cytoplasm."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with an IgM paraprotein and MYD88 mutation, not lytic bone lesions."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

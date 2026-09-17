@@ -1,0 +1,22 @@
+{
+  "id": "1276",
+  "recognize_zh": "周邊血液中多顆中小型淋巴球，核圓或有凹陷（notched／腎形），染色質中度凝集，部分可見小核仁，胞質少到中等且偏深藍、邊緣有時有小突起；這群外觀成熟但核不規則、胞質嗜鹼性的淋巴球增多，符合 T 細胞前淋巴球白血病（T-PLL）。",
+  "features": [
+    "Small to medium-sized lymphoid cells, larger than a small mature lymphocyte",
+    "Round to irregular nuclei with notches or indentations; moderately condensed chromatin",
+    "Small but visible nucleoli in some cells",
+    "Scant to moderate basophilic cytoplasm, occasionally with small cytoplasmic protrusions",
+    "Adjacent normal segmented neutrophil for size comparison; red cells without significant abnormalities"
+  ],
+  "describe_en": "Peripheral blood smear shows an increase in small to medium-sized lymphoid cells with round to irregular, notched nuclei, moderately condensed chromatin, small visible nucleoli in a subset, and scant to moderate basophilic cytoplasm that occasionally forms small protrusions. A normal segmented neutrophil is present for comparison, and red cells appear unremarkable. The cells lack the fine blastic chromatin of lymphoblasts. Findings are consistent with T-cell prolymphocytic leukemia, to be confirmed by flow cytometry (mature T-cell phenotype, often CD4+, TdT-negative with TCL1A overexpression) and cytogenetics for inv(14)/t(14;14) or t(X;14).",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia", "vs": "Lymphoblasts have fine blastic chromatin and are TdT/CD1a positive, whereas T-PLL cells have more condensed chromatin and a mature TdT-negative phenotype."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform grooved nuclei with condensed chromatin and no nucleoli, and occur with erythroderma, lacking TCL1A rearrangement."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows multilobated flower cells and is HTLV-1 associated and CD25 positive."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are small B cells with block-like clumped chromatin and scant pale cytoplasm, and are CD5+/CD23+/CD19+ rather than T-cell."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

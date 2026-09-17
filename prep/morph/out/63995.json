@@ -1,0 +1,22 @@
+{
+  "id": "63995",
+  "recognize_zh": "肝組織被成片的大型上皮樣單核細胞取代，細胞有豐富嗜酸性胞質、凹陷或摺疊的泡狀核與明顯核仁，夾雜多核大細胞；IHC 顯示 lysozyme 顆粒狀陽性、CD163 強陽性，Ki-67 高，符合組織球肉瘤（histiocytic sarcoma）。",
+  "features": [
+    "Diffuse sheets of large epithelioid mononuclear cells with abundant eosinophilic cytoplasm",
+    "Moderately pleomorphic oval, indented to folded nuclei with vesicular chromatin and conspicuous nucleoli",
+    "Scattered multinucleated tumor giant cells and admixed small lymphocytes/neutrophils",
+    "Lysozyme: coarse granular cytoplasmic positivity; CD163: strong membranous/cytoplasmic positivity",
+    "Ki-67: high proliferation index in the neoplastic cells"
+  ],
+  "describe_en": "Sections of liver show hepatic parenchyma replaced by a diffuse, discohesive-to-sheetlike proliferation of large epithelioid cells with abundant eosinophilic cytoplasm, moderately pleomorphic indented to folded nuclei, vesicular chromatin, and conspicuous nucleoli. Scattered multinucleated tumor giant cells and admixed inflammatory cells are present. The neoplastic cells show granular cytoplasmic lysozyme and strong CD163 expression, with a high Ki-67 proliferation index (approximately 60% per report). In the absence of epithelial, melanocytic, lymphoid, dendritic cell, and Langerhans cell marker expression (per report CD4, CD11c, CD33, CD68 positive), findings are consistent with histiocytic sarcoma.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma or diffuse large B-cell lymphoma", "vs": "Lymphomas express CD30/ALK or CD20/PAX5 and lack CD163 and lysozyme, whereas these cells are CD163+ and lysozyme+."},
+    {"dx": "Langerhans cell sarcoma/histiocytosis", "vs": "Langerhans cells have grooved coffee-bean nuclei and express CD1a, langerin (CD207), and S100, which histiocytic sarcoma lacks."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Carcinoma is keratin positive and melanoma is S100/SOX10/HMB45 positive, while histiocytic sarcoma is negative for these and positive for CD163."},
+    {"dx": "Myeloid sarcoma with monocytic differentiation", "vs": "Monocytic myeloid sarcoma cells are smaller blasts/promonocytes with MPO/CD34/CD117 or CD14 expression and usually marrow involvement, rather than large epithelioid cells with abundant eosinophilic cytoplasm."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: lysozyme, CD163, Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

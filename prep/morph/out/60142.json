@@ -1,0 +1,21 @@
+{
+  "id": "60142",
+  "recognize_zh": "周邊血液抹片中有一顆大型胚細胞（blast），核大、染色質細緻、核質比高，外圍有中等量嗜鹼性（藍色）細胞質，細胞質無明顯顆粒；右下角的小淋巴球可作為大小對照。僅憑形態無法分辨譜系，需流式細胞儀確定為混合表型急性白血病。",
+  "features": [
+    "Large blast (approximately 2–2.5 times the diameter of a small lymphocyte) with irregular, angular outline",
+    "High N:C ratio with a large, slightly irregular nucleus",
+    "Finely dispersed chromatin; nucleoli are faintly visible at best",
+    "Moderate rim of basophilic, agranular cytoplasm without Auer rods",
+    "Small mature lymphocyte in lower right for size comparison; red cells largely normocytic without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows a large circulating blast with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, and a moderate amount of basophilic, agranular cytoplasm. No Auer rods or cytoplasmic granules are seen. A small mature lymphocyte is present for size comparison, and the red cells show no significant poikilocytosis; platelets are not evident in this field. Morphology alone cannot assign lineage; findings are consistent with circulating blasts of acute leukemia and, with flow cytometric demonstration of both myeloid/monocytic and B-lymphoid lineage markers and KMT2A rearrangement, support mixed phenotype acute leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia (monocytic)", "vs": "Monoblasts/promonocytes can look identical, and separation requires flow cytometry showing absence of B- or T-lineage–defining markers (CD19 with CD79a/CD22/CD10, or cytoplasmic CD3)."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are often smaller with scant cytoplasm, and MPAL is distinguished only by additional MPO or monocytic differentiation markers on flow or cytochemistry."},
+    {"dx": "Reactive large granular or atypical lymphocyte", "vs": "Reactive lymphocytes have more condensed chromatin, abundant pale-blue cytoplasm that hugs adjacent red cells, and no nucleoli."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

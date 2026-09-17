@@ -1,0 +1,31 @@
+{
+  "id": "12",
+  "recognize_zh": "周邊血與骨髓觸片可見中型、高核質比、染色質細緻的母細胞，骨髓切片被片狀母細胞取代，免疫染色 CD34、CD79a、TdT 陽性；流式顯示 CD19+/CD10+/CD34+ 並異常表現 CD13，染色體核型為 t(9;22)(q34;q11.2)，符合 BCR-ABL1 陽性 B 淋巴母細胞白血病。",
+  "features": [
+    "Blasts are small to intermediate with high N:C ratio, finely dispersed chromatin, inconspicuous nucleoli and scant agranular basophilic cytoplasm (PB and touch prep)",
+    "No Auer rods or cytoplasmic granules seen in blasts; background RBCs are unremarkable and platelets appear decreased on the smear",
+    "Core biopsy: hypercellular marrow replaced by sheets of blasts with oval, focally irregular nuclei, fine chromatin and mitotic figures, with small residual clusters of maturing hematopoiesis",
+    "IHC: blasts diffusely positive for CD34 (membranous), CD79a (cytoplasmic/membranous) and TdT (nuclear)",
+    "Flow cytometry: CD45 dim/negative, low-SSC blasts positive for CD19, CD34, CD10, HLA-DR and aberrant CD13; negative for CD117, CD33, CD20 and surface light chains",
+    "Karyotype: 46,XX,t(9;22)(q34;q11.2) with arrows marking derivative chromosomes 9 and 22"
+  ],
+  "describe_en": "Peripheral blood smear shows occasional circulating blasts that are intermediate in size with a high N:C ratio, finely dispersed chromatin and scant agranular cytoplasm; no Auer rods are seen. The bone marrow aspirate was hemodilute, but the biopsy touch preparation shows frequent similar blasts. The core biopsy is hypercellular and largely replaced by sheets of blasts with fine chromatin and frequent mitoses, with only small residual foci of maturing hematopoiesis. By immunohistochemistry the blasts are diffusely positive for CD34, CD79a and TdT, and flow cytometry shows a CD19+, CD10+, CD34+, HLA-DR+ population with aberrant CD13 expression, lacking CD20, CD117, CD33 and surface light chains. Karyotype shows t(9;22)(q34;q11.2) (reported p190 transcript). Findings are consistent with B-lymphoblastic leukemia with t(9;22)(q34;q11.2); BCR-ABL1.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia in lymphoid blast phase", "vs": "CML-BP usually shows a preceding chronic phase, basophilia and marked granulocytic hyperplasia with a p210 transcript and BCR-ABL1 in myeloid lineages, whereas this case shows marrow replacement by lymphoblasts without a myeloid background and a p190 transcript."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "MPAL requires MPO or two or more monocytic markers in the blast population; isolated CD13 expression with CD33, CD117 and MPO negativity does not qualify, so this remains B-ALL with myeloid-associated antigen expression."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 blasts are CD13/CD34/CD117 positive but lack CD19, CD10, cytoplasmic CD79a and strong TdT, all of which are expressed here."},
+    {"dx": "Ph-like (BCR-ABL1-like) B-ALL", "vs": "Ph-like B-ALL is morphologically and immunophenotypically identical but lacks t(9;22), which is demonstrated on the karyotype here."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa, H&E, IHC: CD34/CD79a/TdT, flow, karyotype",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: intermediate-sized blasts with high N:C ratio and fine chromatin",
+    "Bone marrow biopsy touch prep: frequent agranular blasts in a hemodilute background",
+    "Bone marrow core biopsy: hypercellular marrow replaced by sheets of blasts",
+    "High-power H&E with mitoses; blasts positive for CD34, CD79a and TdT",
+    "Flow cytometry: CD19+/CD34+/CD10+/HLA-DR+ blasts with aberrant CD13, negative for CD117, CD33 and CD20",
+    "Karyotype 46,XX,t(9;22)(q34;q11.2)"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "61035",
+  "recognize_zh": "CD20 染色下 B 細胞沒有形成正常濾泡，只沿著血管或被膜呈帶狀分布（箭頭），並有散在大型 B 免疫母細胞；CD3 則染出大量胞質透明、核不規則的 T 細胞，這種 B 細胞被推擠、T 細胞主導的模式符合 AITL。",
+  "features": [
+    "Low-power CD20: no well-formed follicles; B cells arranged in linear bands along vessels/capsule (arrows) and scattered throughout",
+    "High-power CD20: scattered small and larger B cells including immunoblast-like cells, with CD20-negative clear cells in between",
+    "CD3: diffuse membranous positivity in most cells, including medium-to-large cells with clear cytoplasm and irregular nuclei (arrows)",
+    "T cells predominate over B cells in the infiltrate"
+  ],
+  "describe_en": "Immunohistochemical stains on lymph node show loss of normal follicular architecture. CD20 highlights B cells distributed in linear bands along vascular or capsular structures and as scattered small and large B cells, including immunoblast-like forms, whereas the intervening infiltrate is CD20-negative. CD3 stains the majority of cells, including medium-to-large atypical T cells with clear cytoplasm and irregular nuclei. This pattern of T-cell predominance with dispersed, displaced B cells and scattered B immunoblasts is consistent with angioimmunoblastic T-cell lymphoma.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "In TCRBCL the large atypical cells are CD20+ while the background T cells are small and non-atypical, the reverse of this pattern."},
+    {"dx": "Reactive paracortical hyperplasia", "vs": "Reactive nodes retain discrete CD20+ primary/secondary follicles and CD3+ T cells are small and non-atypical."},
+    {"dx": "EBV-positive DLBCL arising in AITL", "vs": "A secondary B-cell lymphoma would show confluent sheets of large CD20+ cells rather than scattered B immunoblasts."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20, CD3",
+  "match": "consistent",
+  "high_yield": false
+}

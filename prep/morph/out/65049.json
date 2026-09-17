@@ -1,0 +1,22 @@
+{
+  "id": "65049",
+  "recognize_zh": "血液抹片中紅血球大小不一，散在多個頭盔狀與三角形碎片的裂紅血球（schistocytes，黑色箭頭），另有鋸齒狀細胞，血小板稀少；藍色箭頭處一個紅血球旁有圓形深藍色核狀物，對應描述中的正在脫核紅血球。大量裂紅血球配合血小板低與腎衰竭，符合血栓性微血管病變（Shiga 毒素相關 HUS）。",
+  "features": [
+    "Anisocytosis with numerous schistocytes, including helmet cells, triangular fragments and keratocytes (black arrow)",
+    "Scattered crenated/spiculated red cell fragments and occasional small dense cells",
+    "Dark blue round nuclear body closely apposed to a red cell (blue arrow), consistent with a nucleus being extruded from a nucleated RBC",
+    "Paucity of platelets in the field, compatible with thrombocytopenia",
+    "Thin rod-shaped extracellular artifacts/stain debris in the background; no leukocytes in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows anisocytosis with numerous schistocytes per high-power field, including helmet cells, triangular fragments and keratocytes, together with crenated fragmented forms. A red cell with an adjacent dense blue round nucleus is present, interpreted as a nucleus being extruded from a nucleated red cell. Platelets are sparse, and occasional linear stain precipitates are present as artifact. Findings are consistent with a thrombotic microangiopathy with microangiopathic hemolytic anemia, in keeping with the reported Shiga toxin 2-induced hemolytic uremic syndrome; ADAMTS13 activity should be measured to exclude TTP.",
+  "ddx": [
+    {"dx": "Thrombotic thrombocytopenic purpura", "vs": "TTP shows an identical schistocyte-rich smear, so severe ADAMTS13 deficiency (<10%) rather than morphology separates it from STEC-HUS."},
+    {"dx": "Complement-mediated (atypical) HUS", "vs": "aHUS is morphologically indistinguishable and is diagnosed by negative STEC testing, normal ADAMTS13 and complement studies or genetic testing."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC can produce schistocytes but is accompanied by prolonged PT/aPTT, low fibrinogen and elevated D-dimer, which are usually normal or near-normal in HUS."},
+    {"dx": "Mechanical hemolysis (prosthetic valve) or burns", "vs": "Valve-related fragmentation lacks thrombocytopenia and renal failure, and burns produce microspherocytes and budding fragments with a clear clinical history."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (Romanowsky)",
+  "match": "consistent",
+  "high_yield": true
+}

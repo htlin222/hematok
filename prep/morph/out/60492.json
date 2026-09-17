@@ -1,0 +1,21 @@
+{
+  "id": "60492",
+  "recognize_zh": "CD3 染色中，密集的中型腫瘤細胞呈顆粒狀、核周點狀的細胞質陽性（cytoplasmic CD3ε），而散在的正常小 T 細胞為較深且完整的膜性染色，呈「雙色調」差異，是 NK 細胞表型的線索。",
+  "features": [
+    "Diffuse infiltrate of medium-sized atypical lymphoid cells with round to irregular nuclei",
+    "Granular, dot-like and perinuclear cytoplasmic CD3 staining in most neoplastic cells",
+    "Lack of crisp circumferential membranous staining in the neoplastic cells",
+    "Scattered cells with darker, more solid staining (reactive T cells) providing a two-tone contrast",
+    "Endothelial-lined vessel at upper left with negative spindle nuclei"
+  ],
+  "describe_en": "CD3 immunostain shows a diffuse infiltrate of medium-sized atypical lymphoid cells with granular and perinuclear cytoplasmic staining, without the crisp membranous pattern expected of mature T cells. Scattered admixed cells with darker, more uniform staining represent reactive T cells and create a two-tone pattern. This cytoplasmic CD3ε pattern in the absence of surface CD3 supports an NK-cell phenotype. With CD56, cytotoxic granule protein, and EBER positivity, findings are consistent with extranodal NK/T-cell lymphoma, nasal type.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS cells usually show membranous surface CD3 and are EBER negative in most cases."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Shares cytoplasmic CD3ε/CD56/EBER positivity but presents as a systemic leukemic process with marrow and blood involvement rather than a localized nasal mass."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is CD3 negative and expresses CD4, CD56, CD123, and TCF4 without EBV or cytotoxic granules."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

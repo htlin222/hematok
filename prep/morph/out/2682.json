@@ -1,0 +1,21 @@
+{
+  "id": "2682",
+  "recognize_zh": "箭頭指向淋巴球核旁一條細長、不著色的透明棒狀空隙，這是細胞質內結晶（多為免疫球蛋白結晶）的負像；細胞核染色質濃縮、細胞質少，屬成熟型惡性淋巴球。",
+  "features": [
+    "Small-to-medium lymphocyte with high N:C ratio",
+    "Oval nucleus with coarsely clumped chromatin and pale streaks",
+    "Scant pale blue cytoplasm",
+    "Thin, straight, colorless rod-shaped crystalline inclusion along the nuclear edge (arrow)",
+    "Surrounding red cells with mild poikilocytosis; enlarged, pixelated image"
+  ],
+  "describe_en": "High-power, digitally enlarged view of a peripheral blood smear shows a mature-appearing lymphocyte with a high N:C ratio, coarsely clumped chromatin and scant pale cytoplasm. A slender, straight, unstained rod-like inclusion lies in the cytoplasm immediately adjacent to the nucleus, as indicated by the arrow. No granules or Auer rods are present. Findings are consistent with a crystalline (likely immunoglobulin) inclusion in a neoplastic lymphocyte, as described in CLL and other low-grade B-cell lymphomas; the pixelated enlargement limits fine detail, so correlation with other cells and immunophenotyping is needed.",
+  "ddx": [
+    {"dx": "Auer rod in a myeloblast", "vs": "Auer rods are pink-purple staining needles in blasts with fine chromatin and nucleoli, whereas these crystals are colorless negative images in mature lymphocytes."},
+    {"dx": "Smear or scratch artifact", "vs": "Artifact crosses cell borders or background, while a true crystal is confined to the cytoplasm and recurs in multiple lymphoid cells."},
+    {"dx": "Plasma cell with crystalline inclusions (myeloma/Fanconi syndrome)", "vs": "Plasma cells have eccentric nuclei, deeply basophilic cytoplasm and a perinuclear hof, unlike this scant-cytoplasm lymphocyte."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

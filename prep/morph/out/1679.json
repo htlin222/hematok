@@ -1,0 +1,23 @@
+{
+  "id": "1679",
+  "recognize_zh": "骨髓抹片以大型細胞為主，核圓或卵圓、部分有摺痕或凹陷，染色質細緻呈網狀、可見核仁，細胞質豐富呈灰藍色、邊緣有偽足狀突起，這是單核母細胞/前單核細胞的特徵，符合急性單核球性白血病。",
+  "features": [
+    "Large blasts with moderate to abundant cytoplasm (lower N:C ratio than lymphoblasts)",
+    "Round to oval nuclei, some indented or folded (promonocyte-like)",
+    "Finely reticular, lacy chromatin with one or more nucleoli",
+    "Grey-blue cytoplasm with cytoplasmic blebs/pseudopod-like projections and occasional vacuoles",
+    "Granules sparse; no Auer rods identified",
+    "Few residual maturing cells in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear is largely replaced by large blasts with abundant grey-blue cytoplasm, round to oval or indented nuclei, finely reticular chromatin and visible nucleoli. The cytoplasm shows irregular blebs and pseudopod-like projections with occasional vacuoles, and granules are sparse without Auer rods. Residual normal hematopoiesis is minimal. Findings are consistent with acute monoblastic/monocytic leukemia; confirmation by nonspecific esterase cytochemistry and flow cytometry (CD14, CD64, CD11b, CD4, lysozyme) is recommended, along with testing for KMT2A rearrangement.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic leukemia", "vs": "AMML contains at least 20% neutrophil-lineage cells and MPO-positive myeloblasts in addition to monocytic cells, whereas this field is dominated by monoblasts/promonocytes."},
+    {"dx": "AML with NPM1 mutation", "vs": "Often monocytic with cup-like nuclei; separated by NPM1 mutation testing and cytoplasmic NPM1 immunostaining rather than morphology alone."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN cells have agranular cytoplasm with small peripheral vacuoles and are CD4/CD56/CD123/TCF4-positive but NSE- and lysozyme-negative."},
+    {"dx": "Large cell lymphoma in leukemic phase", "vs": "Lymphoma cells have deeply basophilic cytoplasm, coarser chromatin and B- or T-cell markers without monocytic esterase activity."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

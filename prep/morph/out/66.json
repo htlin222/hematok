@@ -1,0 +1,32 @@
+{
+  "id": "66",
+  "recognize_zh": "肝臟切片可見肝竇（sinusoid）與匯管區內浸潤大量單核球樣與顆粒球系列細胞，肝細胞板被推擠；脾臟紅髓瀰漫擴張，充滿不成熟骨髓單核球細胞。免疫染色只見少數散在母細胞陽性，符合幼兒肝脾腫大的幼年型骨髓單核球白血病（JMML）髓外浸潤。",
+  "features": [
+    "Liver, low power: portal tracts and sinusoids diffusely infiltrated by hematopoietic cells in a sinusoidal pattern, with preserved hepatocyte plates",
+    "Liver, high power: sinusoidal infiltrate of monocytoid cells with oval to indented nuclei and moderate cytoplasm, admixed with maturing granulocytes, band forms and occasional erythroid precursors",
+    "Spleen: red pulp diffusely expanded by a mixed population of monocytoid cells, immature and maturing granulocytes and interspersed red cells",
+    "IHC (unlabeled marker): cytoplasmic granular staining of numerous infiltrating myelomonocytic cells in the splenic/hepatic infiltrate",
+    "IHC (unlabeled markers): one stain outlines the sinusoidal infiltrate; another highlights only scattered single cells plus vessel walls, consistent with a low blast count"
+  ],
+  "describe_en": "Sections of liver show a diffuse sinusoidal and portal infiltrate of hematopoietic cells that expands the sinusoids while the hepatocyte plates are preserved. At high power the infiltrate consists of monocytoid cells with oval to indented nuclei and moderate cytoplasm, admixed with maturing granulocytes and occasional nucleated red cells. The spleen shows diffuse expansion of the red pulp by a similar mixed myelomonocytic population. Immunohistochemistry (markers not labeled in the figure) shows granular cytoplasmic staining of many infiltrating cells and, on a separate stain, only scattered positive single cells, supporting a low blast proportion without sheets of blasts. In a 3-year-old with hepatosplenomegaly, findings are consistent with extramedullary involvement by juvenile myelomonocytic leukemia; confirmation requires peripheral blood monocytosis and RAS-pathway genetic studies.",
+  "ddx": [
+    {"dx": "Extramedullary hematopoiesis (reactive)", "vs": "EMH shows trilineage hematopoiesis with megakaryocytes and erythroid islands rather than a monocyte-predominant myelomonocytic infiltrate, and lacks peripheral monocytosis or RAS-pathway mutations."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation (myeloid sarcoma)", "vs": "AML/myeloid sarcoma forms sheets of blasts or promonocytes with at least 20% blasts, whereas here the blast-marker stain highlights only scattered cells within a maturing infiltrate."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH shows sinusoidal histiocytes with engulfed erythrocytes and lymphocytes rather than a proliferation of immature and maturing granulocytic and monocytic cells."},
+    {"dx": "Viral infection (CMV, EBV) mimicking JMML", "vs": "Infection can cause hepatosplenomegaly and monocytosis, so the distinction relies on viral studies and demonstration of PTPN11, KRAS, NRAS, NF1 or CBL alterations or monosomy 7."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC (unlabeled markers)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "IHC (marker unlabeled): granular cytoplasmic staining of numerous infiltrating myelomonocytic cells",
+    "Liver, low power: diffuse sinusoidal and portal infiltrate",
+    "Liver, high power: sinusoidal infiltrate of monocytoid and granulocytic cells",
+    "Liver, higher power: monocytoid cells with indented nuclei and maturing granulocytes in sinusoids",
+    "Liver IHC (marker unlabeled): staining outlining the sinusoidal infiltrate",
+    "Liver IHC (marker unlabeled): only scattered positive single cells and vessel walls",
+    "Spleen: red pulp expanded by myelomonocytic cells",
+    "Spleen, high power: mixed immature and maturing myelomonocytic cells in red pulp"
+  ]
+}

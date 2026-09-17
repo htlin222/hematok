@@ -1,0 +1,22 @@
+{
+  "id": "66290",
+  "recognize_zh": "視野中央一顆與中性球差不多大小的細胞，細胞質與細胞核上佈滿粗大、深紫黑色的顆粒，把細胞核輪廓遮蓋得模糊不清，只隱約看到分葉核；這種遮核的粗大深色顆粒就是嗜鹼性球（basophil）的特徵。",
+  "features": [
+    "Cell of neutrophil size (about 10-14 µm), round outline",
+    "Numerous coarse, dark purple-black granules scattered over both cytoplasm and nucleus",
+    "Nucleus obscured by granules; faintly lobulated/segmented outline with condensed chromatin",
+    "Pale pink-lavender cytoplasmic background visible between granules",
+    "Surrounding red cells normocytic and normochromic; a single platelet present"
+  ],
+  "describe_en": "Peripheral blood smear shows a single round granulocyte of neutrophil size whose cytoplasm and nucleus are overlain by coarse, dark purple-black granules that partially obscure a segmented nucleus. The background red cells are normocytic and normochromic, and a platelet is present. Findings are consistent with a normal basophil; if basophils are increased in number, correlation for a myeloproliferative neoplasm such as CML is warranted.",
+  "ddx": [
+    {"dx": "Mast cell (circulating)", "vs": "Mast cells are larger with a round, non-lobed central nucleus and densely packed, uniform smaller granules, and are rarely seen in blood outside mast cell leukemia."},
+    {"dx": "Neutrophil with toxic granulation", "vs": "Toxic granules are finer, lie only in the cytoplasm and do not obscure the clearly visible segmented nucleus."},
+    {"dx": "Eosinophil", "vs": "Eosinophils have refractile orange-red granules filling the cytoplasm with a bilobed nucleus that remains visible."},
+    {"dx": "Stain precipitate over a lymphocyte", "vs": "Precipitate lies in a different focal plane and extends onto adjacent red cells and background, rather than being confined within the cell outline."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

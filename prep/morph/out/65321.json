@@ -1,0 +1,21 @@
+{
+  "id": "65321",
+  "recognize_zh": "骨髓切片 CD4 免疫染色中，脂肪空泡之間幾乎所有細胞都呈強烈的膜與細胞質棕色染色，顯示單一形態的 CD4 陽性細胞瀰漫取代骨髓，配合 CD123 等標記支持母細胞性漿細胞樣樹突細胞腫瘤（BPDCN）。",
+  "features": [
+    "Diffuse sheets of medium-sized cells between fat spaces",
+    "Strong membranous and cytoplasmic CD4 staining in the vast majority of cells",
+    "Monotonous round cell outlines highlighted by the chromogen",
+    "Few scattered CD4-negative cells with blue hematoxylin-stained nuclei",
+    "Near-complete replacement of normal hematopoiesis"
+  ],
+  "describe_en": "CD4 immunohistochemical stain of the bone marrow trephine biopsy shows diffuse infiltration by sheets of monotonous medium-sized cells with strong membranous and cytoplasmic CD4 positivity, largely replacing normal hematopoietic elements between fat spaces. Only occasional CD4-negative cells are identified. CD4 alone is not lineage-specific, and co-expression of CD123, CD56, TCF4 and TCL1 with absence of lineage markers should be confirmed. Findings support marrow involvement by blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monocytic AML also expresses CD4 and CD56 but is lysozyme/CD14/CD11c/MPO-positive and usually lacks strong CD123 with TCF4 and TCL1."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "T-cell lymphomas express CD3 and other T-cell antigens, which BPDCN lacks."},
+    {"dx": "Mature plasmacytoid dendritic cell proliferation associated with CMML", "vs": "Reactive or clonal mature pDC nodules are CD34/TdT-negative small aggregates with CD56 negativity, not diffuse blastic sheets."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD4",
+  "match": "consistent",
+  "high_yield": false
+}

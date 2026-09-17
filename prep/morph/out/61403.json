@@ -1,0 +1,21 @@
+{
+  "id": "61403",
+  "recognize_zh": "流式細胞儀 CD5（y 軸）對 CD3（x 軸）點圖，圈選淋巴球：紫色為 CD3 陰性細胞，紅色 CD4 T 細胞 CD5 較亮，綠色 CD8 T 細胞 CD5 稍暗，藍色小群 CD3 最亮、CD5 偏暗，對應 γδ T 細胞。",
+  "features": [
+    "Dot plot of lymphocyte gate: CD5-PB (y-axis) versus CD3-PC5.5 (x-axis), color-coded by T-cell subset",
+    "Magenta CD3-negative, CD5-negative population (B and NK cells)",
+    "Red CD4+ T cells with moderate CD3 and the brightest CD5",
+    "Green CD8+ T cells with similar CD3 but slightly dimmer, more spread CD5",
+    "Small blue population with the brightest CD3 and dim-to-moderate CD5, corresponding to gamma/delta T cells"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on lymphocytes displays CD5 versus CD3 expression. A CD3-negative, CD5-negative population (magenta) represents non-T lymphocytes. Three CD3-positive T-cell subsets are color-coded: CD4 T cells (red) with the brightest CD5, CD8 T cells (green) with slightly dimmer CD5, and a small population (blue) with the brightest CD3 and relatively dimmer CD5. The bright-CD3/dim-CD5 phenotype is characteristic of gamma/delta T cells, a normal minor subset; this should not be mistaken for aberrant CD5 loss without further markers such as TCR gamma/delta and clonality assessment.",
+  "ddx": [
+    {"dx": "T-cell lymphoma with aberrant CD5 loss", "vs": "Neoplastic T cells show a discrete population with markedly diminished or absent CD5, often with other aberrancies (CD7 loss, abnormal CD3 intensity) and clonality, rather than a small normal-appearing bright-CD3 subset."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "Gamma/delta T cells form an expanded clonal population, usually CD4-/CD8-, CD5-negative and CD56-positive, with hepatosplenomegaly."},
+    {"dx": "CD5-negative reactive CD8 T cells / NK-like T cells", "vs": "These show CD5-dim CD8+ cells without the bright CD3 intensity; TCR gamma/delta staining separates them."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

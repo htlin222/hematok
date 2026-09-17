@@ -1,0 +1,22 @@
+{
+  "id": "66257",
+  "recognize_zh": "中央一顆體積遠大於周圍造血細胞的細胞，細胞核呈多葉狀、彼此相連，細胞質大量且充滿細小紫紅色顆粒，這是成熟（產生血小板期）巨核細胞；周圍有各階段骨髓與紅血球系前驅細胞，屬正常骨髓抹片。",
+  "features": [
+    "Very large cell, many times the diameter of surrounding precursors",
+    "Single multilobulated, interconnected nucleus with coarse chromatin and no nucleoli (not multinucleated)",
+    "Abundant pale lilac cytoplasm densely filled with fine azurophilic granules, indicating a granular/platelet-producing megakaryocyte",
+    "Background of maturing granulocytic precursors (myelocytes, band and segmented neutrophils) and erythroid precursors with dark round nuclei",
+    "No dysplastic features such as separated nuclear lobes or micro-megakaryocytic forms"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular particle-adjacent field with trilineage hematopoiesis, including maturing granulocytic and erythroid precursors. A mature megakaryocyte is present, markedly larger than surrounding cells, with a single lobulated interconnected nucleus and abundant finely granular cytoplasm. No dysplastic megakaryocytic features, such as hypolobated or widely separated nuclei, are seen. Findings are consistent with a normal mature megakaryocyte.",
+  "ddx": [
+    {"dx": "Osteoclast", "vs": "Osteoclasts contain multiple separate, uniform round nuclei with nucleoli, rather than a single lobulated nucleus."},
+    {"dx": "Dysplastic megakaryocyte (MDS)", "vs": "Dysplastic forms are small hypolobated micromegakaryocytes or have multiple widely separated nuclei, unlike this normally lobulated cell."},
+    {"dx": "Metastatic tumor cell or giant cell", "vs": "Tumor cells occur in cohesive clusters with nucleoli and lack the finely granular platelet-type cytoplasm."},
+    {"dx": "Megakaryocyte in MPN (e.g., essential thrombocythemia)", "vs": "ET megakaryocytes are hyperlobulated staghorn giant forms in clusters, a judgment requiring biopsy architecture and counts rather than a single cell."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

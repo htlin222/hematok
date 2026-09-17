@@ -1,0 +1,23 @@
+{
+  "id": "65187",
+  "recognize_zh": "淋巴結呈模糊結節狀浸潤，結節周圍有大量漿細胞樣細胞與組織球，內含明亮嗜伊紅、多角形的免疫球蛋白結晶包涵體；CD5 與 cyclin D1 同時在淋巴細胞與漿細胞樣細胞陽性，MUM1 標記含包涵體的漿細胞，提示伴明顯漿細胞分化的被套細胞淋巴瘤。",
+  "features": [
+    "Whole-mount lymph node with vaguely nodular lymphoid infiltrate and pale interfollicular/medullary areas (A)",
+    "Perinodular sheets of atypical plasmacytoid cells and histiocytes filled with glassy eosinophilic crystalline immunoglobulin inclusions (B, inset)",
+    "Small lymphoid cells CD20+ with weaker staining in plasmacytoid areas (C)",
+    "Diffuse CD5 positivity in the nodular lymphoid component (D)",
+    "Nuclear cyclin D1 in lymphoid cells and in plasma cells (E, inset)",
+    "MUM1-positive plasmacytoid cells, several containing clear crystalline intracytoplasmic inclusions (F, arrows)"
+  ],
+  "describe_en": "The lymph node shows a vaguely nodular lymphoid infiltrate. Surrounding the nodules and expanding the medullary cords are sheets of atypical plasmacytoid cells and histiocytes containing abundant crystalline, eosinophilic immunoglobulin inclusions. The lymphoid cells are CD20 and CD5 positive with nuclear cyclin D1 expression, and cyclin D1 is also expressed by the MUM1-positive plasmacytoid cells that harbor the inclusions. Findings are consistent with mantle cell lymphoma with marked plasmacytic differentiation and crystal-storing features; molecular confirmation of CCND1 rearrangement supports the diagnosis.",
+  "ddx": [
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "MZL commonly shows plasmacytic differentiation and crystal-storing histiocytes but is CD5-negative and cyclin D1-negative."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL is usually CD5-negative, cyclin D1-negative and MYD88 L265P-mutated, typically IgM rather than IgA."},
+    {"dx": "Plasma cell neoplasm with CCND1 translocation (crystal-storing histiocytosis)", "vs": "Myeloma with t(11;14) lacks the CD20+/CD5+ small B-cell nodular component seen here."},
+    {"dx": "Small lymphocytic lymphoma with plasmacytoid features", "vs": "SLL is CD5+ but CD23+/LEF1+ and cyclin D1-negative apart from proliferation centers."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD20, CD5, cyclin D1, MUM1",
+  "match": "consistent",
+  "high_yield": false
+}

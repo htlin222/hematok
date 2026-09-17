@@ -1,0 +1,25 @@
+{
+  "id": "104",
+  "recognize_zh": "這不是形態學圖：一張為男童雙膝腫脹（左膝明顯）的臨床照片，提示反覆關節出血；另一張為 inverse shift PCR 洋菜膠電泳，可見 559 bp 與 487 bp 不同大小的條帶，用來判定 F8 基因 intron 22 倒位（Inv22）與帶因者狀態。",
+  "features": [
+    "Clinical photo: bilateral knee swelling in a child, more marked on one side, without visible overlying skin lesions",
+    "Agarose gel with a DNA ladder (lane 2; 500 bp band brightest) and six sample lanes",
+    "Single band at about 559 bp in lane 1 and a similar-sized band in lane 5 (inversion-type product size)",
+    "Single band at 487 bp in lane 7 (normal/wild-type product size)",
+    "Lanes 3 and 6 show a main band with additional fainter bands, a pattern that may indicate two alleles (carrier) but cannot be assigned without the lane legend"
+  ],
+  "describe_en": "Figure 1 is a clinical photograph of a boy showing swelling of both knees, more pronounced on one side, consistent with hemarthrosis or hemophilic arthropathy. Figure 2 is an ethidium-stained 2% agarose gel of inverse shift PCR products for the F8 intron 22 inversion, with a size ladder in lane 2. Discrete bands of about 559 bp (inversion-associated) and 487 bp (normal allele) are seen in different lanes, and some lanes show more than one band suggesting heterozygosity; lane-to-family-member assignment is not labeled on the image itself. In the clinical context (aPTT prolongation correcting on mixing, factor VIII <1%, normal VWF antigen), the findings support severe hemophilia A due to Inv22, with a hemizygous proband, carrier mother and affected fetus.",
+  "ddx": [
+    {"dx": "Hemophilia B (factor IX deficiency)", "vs": "Clinically and on aPTT/mixing studies it is identical, so separation requires a factor IX assay and F9 sequencing rather than Inv22 testing."},
+    {"dx": "Type 2N or type 3 von Willebrand disease", "vs": "Low factor VIII can result from defective VWF binding (2N) or absent VWF (type 3), distinguished by VWF antigen/activity and FVIII-binding assays, which were normal here."},
+    {"dx": "Acquired hemophilia A (factor VIII inhibitor)", "vs": "An inhibitor produces an aPTT that fails to correct or corrects then prolongs on incubated mixing and is confirmed by Bethesda assay, whereas this aPTT corrected."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A (agarose gel, clinical photo)",
+  "match": "non-morphologic",
+  "high_yield": false,
+  "captions": [
+    "Clinical photo: bilateral knee swelling (hemarthrosis/hemophilic arthropathy)",
+    "Inverse shift PCR agarose gel for F8 intron 22 inversion (559 bp vs 487 bp products)"
+  ]
+}

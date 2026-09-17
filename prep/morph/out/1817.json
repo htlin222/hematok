@@ -1,0 +1,22 @@
+{
+  "id": "1817",
+  "recognize_zh": "紅血球背景中唯一的白血球是分三葉的嗜中性球，細胞質內靠近核葉之間可見一顆小而圓的淡色包涵體，疑為細菌聚集形成的桑椹體（morula）；因位於嗜中性球內，現今命名應屬 Anaplasma phagocytophilum（人類顆粒球無形體症），解析度有限。",
+  "features": [
+    "Segmented neutrophil with three nuclear lobes as the only leukocyte in the field",
+    "Small round cytoplasmic inclusion between the nuclear lobes, compatible with a morula (limited resolution)",
+    "Neutrophil cytoplasm otherwise with fine granules",
+    "Normocytic, normochromic red cells without parasites",
+    "Small platelet clump and scattered platelets in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic, normochromic red cells without intraerythrocytic organisms. A segmented neutrophil contains a small round cytoplasmic inclusion situated between the nuclear lobes, compatible with a bacterial morula, although the inclusion is small and resolution limits definitive characterization. Platelets are present in small clumps. In the appropriate clinical setting (tick exposure, fever, leukopenia, thrombocytopenia, transaminitis), findings are suggestive of granulocytic anaplasmosis (formerly human granulocytic ehrlichiosis); PCR or serology is recommended because smear sensitivity is low.",
+  "ddx": [
+    {"dx": "Human monocytic ehrlichiosis (Ehrlichia chaffeensis)", "vs": "Morulae are found in monocytes rather than neutrophils and are detected in PB less often."},
+    {"dx": "Döhle body", "vs": "Döhle bodies are pale blue-grey, irregular, peripheral cytoplasmic patches of rough ER rather than a round, stippled basophilic inclusion."},
+    {"dx": "Phagocytosed platelet or debris", "vs": "Overlapping platelets show a granular purple center with a pale rim and lie in a different focal plane, whereas a morula is a mulberry-like cluster within a vacuole."},
+    {"dx": "Histoplasma capsulatum in a neutrophil", "vs": "Yeasts are oval with a crescent-shaped nucleus and a clear halo, often several per cell."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

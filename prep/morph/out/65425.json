@@ -1,0 +1,22 @@
+{
+  "id": "65425",
+  "recognize_zh": "五格周邊血抹片拼圖，每格都有一大團由數十到上百顆血小板緊密聚集成的紫色顆粒團塊，團塊內偶夾白血球，周圍則是一般紅血球。在 EDTA 管中看到大量血小板凝集，就要懷疑 EDTA 依賴性假性血小板低下，改用檸檬酸管重驗。",
+  "features": [
+    "Large aggregates composed of numerous densely packed, granular purple platelets",
+    "Multiple clumps across all five fields, some very large",
+    "Occasional leukocytes entrapped within or adjacent to the clumps",
+    "Individual platelets within the clumps have normal size and granulation",
+    "Background red cells unremarkable; few free single platelets outside clumps"
+  ],
+  "describe_en": "Composite of peripheral blood smear fields from an EDTA-anticoagulated sample shows multiple large platelet aggregates composed of densely packed, normally granulated platelets, with occasional entrapped leukocytes; few free platelets are seen between the clumps. Red cells are unremarkable. The automated platelet count is therefore unreliable. Findings are consistent with EDTA-dependent platelet clumping causing pseudothrombocytopenia; repeat count in a citrate or heparin tube is recommended, as was confirmed in this case.",
+  "ddx": [
+    {"dx": "True thrombocytopenia (e.g., ITP)", "vs": "In true thrombocytopenia the smear shows few scattered single platelets, often large, without clumps."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows platelets rosetting around neutrophils rather than forming large free aggregates."},
+    {"dx": "Clotted or poorly mixed specimen", "vs": "Pre-analytic clotting produces fibrin strands with platelet clumps and recurs in any anticoagulant, while EDTA-dependent clumping corrects in citrate."},
+    {"dx": "Giant platelet disorders (e.g., MYH9-related, Bernard-Soulier)", "vs": "Inherited macrothrombocytopenias show isolated giant platelets approaching red cell size, sometimes with Döhle-like inclusions, rather than clumps of normal-sized platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

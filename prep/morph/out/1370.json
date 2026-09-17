@@ -1,0 +1,22 @@
+{
+  "id": "1370",
+  "recognize_zh": "血片整片幾乎看不到正常大小的血小板，只見三顆接近小淋巴球或紅血球大小的巨大血小板（giant platelets），紅血球與白血球形態正常，符合周邊破壞增加所致的血小板低下（ITP）。",
+  "features": [
+    "Marked paucity of normal-sized platelets across the field",
+    "Three large to giant platelets, approaching or exceeding red cell size, with dense purple granular centers",
+    "Red cells are normocytic and normochromic without schistocytes or spherocytes",
+    "No platelet clumping at this magnification",
+    "No leukocyte abnormality evident in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows markedly decreased platelets, with the few platelets present being large to giant forms approaching the size of a red cell. Red cells are normocytic and normochromic without schistocytes, spherocytes, or polychromasia. No platelet clumps are seen. In the setting of isolated thrombocytopenia, findings are consistent with increased peripheral platelet destruction such as immune thrombocytopenia (ITP), after exclusion of inherited macrothrombocytopenia.",
+  "ddx": [
+    {"dx": "Inherited macrothrombocytopenia (MYH9-related disease, Bernard-Soulier syndrome)", "vs": "MYH9-related disease shows Döhle-like inclusions in neutrophils, and both disorders have lifelong macrothrombocytopenia with family history, whereas ITP lacks leukocyte inclusions and often responds to immune therapy."},
+    {"dx": "Thrombotic microangiopathy (TTP/HUS)", "vs": "TMA shows schistocytes and polychromasia, which are absent here."},
+    {"dx": "EDTA-induced pseudothrombocytopenia", "vs": "Pseudothrombocytopenia shows platelet clumps or platelet satellitism at the feathered edge, not isolated large platelets."},
+    {"dx": "Hypoproductive thrombocytopenia (marrow failure, leukemia)", "vs": "Underproduction typically shows small platelets and may have cytopenias or blasts, so marrow examination is needed when other lineages are abnormal."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

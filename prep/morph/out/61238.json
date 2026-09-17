@@ -1,0 +1,34 @@
+{
+ "id": "61238",
+ "recognize_zh": "骨髓抹片裡可見數顆大型雙核細胞，兩個核成對排列、各有一個清楚的藍色大核仁，細胞質淡而豐富，周圍混有淋巴球、漿細胞與顆粒球，符合 Reed-Sternberg 細胞。",
+ "features": [
+  "Several large binucleate cells, 3-4 times the size of small lymphocytes",
+  "Paired, mirror-image oval nuclei each containing a single prominent blue nucleolus",
+  "Vesicular to finely granular chromatin with smooth nuclear contours",
+  "Abundant pale gray-blue cytoplasm with indistinct borders",
+  "Mixed inflammatory background: small lymphocytes, plasma cells, segmented neutrophils and granulocytic precursors"
+ ],
+ "describe_en": "Wright-stained bone marrow aspirate smear shows scattered large binucleate cells with paired mirror-image nuclei, each containing a single conspicuous nucleolus, and abundant pale cytoplasm. These cells are present in a polymorphous background of small lymphocytes, plasma cells and maturing granulocytes. There are no cohesive clusters to suggest carcinoma. Findings are consistent with Reed-Sternberg cells of classical Hodgkin lymphoma involving the bone marrow, to be confirmed on trephine biopsy with CD30/CD15 positivity and weak PAX5 expression.",
+ "ddx": [
+  {
+   "dx": "Megakaryocytes",
+   "vs": "Megakaryocytes have one lobulated nucleus without large inclusion-like nucleoli and have granular cytoplasm, a frequent aspirate pitfall."
+  },
+  {
+   "dx": "Osteoclasts",
+   "vs": "Osteoclasts contain many (often >5) small uniform nuclei with small nucleoli in abundant granular cytoplasm rather than two large nuclei with macronucleoli."
+  },
+  {
+   "dx": "Immunoblasts in reactive or viral states (e.g., EBV)",
+   "vs": "Immunoblasts can be binucleate but are smaller with deeply basophilic cytoplasm and are CD45+/CD20+ or CD3+, lacking the CD15+/CD45- RS phenotype."
+  },
+  {
+   "dx": "Anaplastic large cell lymphoma",
+   "vs": "ALCL cells occur in cohesive sheets with horseshoe nuclei and are ALK+ or EMA+ with T-cell markers, rather than scattered cells in a mixed background."
+  }
+ ],
+ "specimen": "BM aspirate",
+ "stain": "Wright",
+ "match": "consistent",
+ "high_yield": true
+}

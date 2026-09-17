@@ -1,0 +1,21 @@
+{
+  "id": "1472",
+  "recognize_zh": "這是流式細胞儀圖，不是形態圖：FSC/SSC 上圈出高側向散射的 myeloid gate，右圖這群細胞 CD33 陽性、CD34 陰性，代表以成熟中的顆粒球為主，缺乏 CD34+ 芽細胞增加，符合 CML 慢性期的表現。",
+  "features": [
+    "Left plot: forward vs side scatter with a large gated population of intermediate-to-high side scatter (Myeloid Gate)",
+    "Right plot: gated events are uniformly CD33-positive (PE)",
+    "Gated events are CD34-negative (FITC), with only rare scattered CD34+ events",
+    "No discrete CD34+ blast cluster identified",
+    "Profile indicates maturing myeloid cells rather than an immature blast population"
+  ],
+  "describe_en": "Flow cytometric analysis displays a forward/side scatter plot with a large population gated in the myeloid region, showing intermediate to high side scatter typical of granulocytic cells. On CD33 versus CD34, the gated cells are CD33-positive and CD34-negative, without a distinct CD34-positive blast population. These plots indicate a predominance of maturing myeloid cells. The flow findings are non-specific and do not establish CML; confirmation requires detection of BCR::ABL1 by cytogenetics, FISH, or RT-PCR.",
+  "ddx": [
+    {"dx": "CML in accelerated or blast phase", "vs": "Progression is suggested by an expanded CD34+ (often with aberrant antigen) blast population, which is absent in these plots."},
+    {"dx": "Reactive neutrophilic leukocytosis", "vs": "Reactive granulocytes give the same CD33+CD34- flow pattern, so separation requires BCR::ABL1 testing and blood smear features such as basophilia."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL also shows mature CD34- granulocytes but lacks BCR::ABL1 and typically harbors CSF3R mutation."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

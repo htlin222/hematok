@@ -1,0 +1,22 @@
+{
+  "id": "61886",
+  "recognize_zh": "MRI 矢狀切面顯示頸胸椎骨髓訊號斑駁、多處局灶異常（箭頭），全身核醫掃描可見肝脾與四肢長骨近端攝取；但骨髓切片只見富含三系造血、脂肪減少的增生骨髓而無腫瘤細胞，說明是斑塊狀造血（patchy hematopoiesis）造成的假轉移影像。",
+  "features": [
+    "Sagittal spine MRI with heterogeneous, patchy vertebral marrow signal and focal abnormalities (red arrows)",
+    "Whole-body nuclear medicine scan with intense upper-abdominal (hepatosplenic) uptake and patchy uptake in the axial skeleton, shoulders, pelvis and long bones",
+    "Hypercellular marrow core with reduced fat",
+    "Trilineage hematopoiesis with erythroid islands, maturing granulocytes and megakaryocytes",
+    "No cohesive epithelial clusters, desmoplasia or monotonous neoplastic infiltrate"
+  ],
+  "describe_en": "Composite figure. Sagittal MRI of the cervicothoracic spine (A) shows heterogeneous, patchy vertebral marrow signal with focal abnormalities (arrows) that raised concern for metastatic disease. The bone marrow biopsy (B) is hypercellular with decreased fat and shows orderly trilineage hematopoiesis, including erythroid islands, maturing myeloid elements and megakaryocytes, without cohesive tumor clusters, fibrosis or an abnormal lymphoid or plasma cell infiltrate. The whole-body scan (C; tracer not specified, pattern compatible with marrow scintigraphy) shows hepatosplenic uptake and patchy skeletal uptake including expansion into peripheral long bones. Findings are consistent with patchy hyperplastic (reactive) hematopoiesis mimicking bone metastases.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma to bone", "vs": "Metastatic carcinoma forms cohesive keratin-positive epithelial clusters with desmoplastic stroma, whereas the biopsy shows only normal trilineage hematopoiesis."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma replaces the marrow with sheets of clonal plasma cells (CD138-positive, light-chain restricted), which are absent here."},
+    {"dx": "Myeloproliferative neoplasm", "vs": "MPNs show clustered, atypical megakaryocytes, reticulin fibrosis or panmyelosis with a driver mutation (JAK2, CALR, MPL), whereas this marrow shows orderly reactive hematopoiesis."},
+    {"dx": "Lymphoma involving marrow", "vs": "Lymphoma produces nodular, paratrabecular or interstitial aggregates of monotonous lymphoid cells confirmed by immunohistochemistry, not seen in this biopsy."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; MRI; nuclear medicine scan",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61392",
+  "recognize_zh": "高倍 H&E 可見兩顆大型多核／多葉的巨細胞，核膜清楚、染色質空泡狀並有嗜酸性核仁，形似 Reed-Sternberg 細胞，周圍是小淋巴球、漿細胞、組織球、嗜中性球與內皮細胞混合的發炎背景。",
+  "features": [
+    "Large giant cells with multilobated or overlapping nuclei, vesicular chromatin and distinct eosinophilic nucleoli (Reed-Sternberg-like)",
+    "Abundant amphophilic cytoplasm around the giant cells",
+    "Scattered intermediate-sized immunoblasts with single nucleoli",
+    "Mixed background of small lymphocytes, plasma cells, histiocytes and neutrophils",
+    "Activated endothelial cells, extravasated red cells and vacuolated, edematous stroma"
+  ],
+  "describe_en": "High-power examination shows scattered large atypical cells with multilobated nuclei, vesicular chromatin, prominent eosinophilic nucleoli and abundant amphophilic cytoplasm, closely resembling Reed-Sternberg cells. These are accompanied by occasional immunoblasts within a polymorphous infiltrate of small lymphocytes, plasma cells, histiocytes and neutrophils in an edematous, vascular stroma. Sheets of large cells are not seen. In the context of a mucocutaneous ulcer, the findings are suggestive of EBV-positive mucocutaneous ulcer, and immunophenotyping (CD30, CD15, CD20, PAX5) with EBER ISH is required to distinguish it from classic Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Morphology can be identical; cHL HRS cells are CD15+, CD20-negative with weak PAX5 and involve lymph nodes, whereas EBVMCU is a sharply circumscribed ulcer with CD20+ often CD15-weak large cells."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Hallmark cells with kidney-shaped nuclei grow cohesively in sinuses or sheets and are CD30+ T/null cells lacking PAX5."},
+    {"dx": "Cytomegalovirus infection", "vs": "Enlarged cells show a single large intranuclear owl-eye inclusion with halo and granular cytoplasmic inclusions, often in endothelial cells, rather than multilobated nuclei with multiple nucleoli."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

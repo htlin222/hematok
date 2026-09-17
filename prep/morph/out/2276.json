@@ -1,0 +1,22 @@
+{
+  "id": "2276",
+  "recognize_zh": "骨髓抹片中有大量母細胞（細緻染色質、核仁、藍色細胞質），同時可見帶嗜天青顆粒的前骨髓細胞與骨髓細胞等成熟中的顆粒球，顯示母細胞增加但仍有向顆粒球分化，符合伴成熟的急性骨髓性白血病。",
+  "features": [
+    "Increased myeloblasts with fine chromatin, visible nucleoli and moderate basophilic cytoplasm",
+    "Some blasts with scattered azurophilic granules",
+    "Admixed maturing granulocytes: promyelocytes and myelocytes with granular cytoplasm and occasional clear perinuclear hof",
+    "Occasional cells with irregular or indented nuclei",
+    "Background red cells and scattered free granules; no definite Auer rods resolved at this resolution"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a hypercellular population of myeloblasts with fine chromatin, nucleoli and moderate basophilic cytoplasm, some containing azurophilic granules. Admixed are maturing granulocytic cells, including promyelocytes and myelocytes, indicating maturation beyond the blast stage. Auer rods are not definitively resolved at this image resolution. Findings are consistent with acute myeloid leukemia with maturation, pending blast enumeration and cytogenetic studies to exclude RUNX1::RUNX1T1 and other defining genetic abnormalities.",
+  "ddx": [
+    {"dx": "AML without maturation", "vs": "In AML without maturation, maturing granulocytes (promyelocyte onward) comprise less than 10% of nonerythroid cells."},
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "t(8;21) blasts often show abundant salmon-colored cytoplasm with perinuclear hof, long slender Auer rods and pseudo-Chédiak-Higashi granules, and require cytogenetics to confirm."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL is dominated by abnormal hypergranular promyelocytes with bilobed nuclei and faggot cells rather than blasts with a maturation spectrum."},
+    {"dx": "MDS with increased blasts", "vs": "MDS has fewer than 20% blasts with multilineage dysplasia."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

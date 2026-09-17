@@ -1,0 +1,22 @@
+{
+  "id": "64194",
+  "recognize_zh": "周邊血片中可見多顆中到大型淋巴細胞，胞質中等量淡藍、核圓或略不規則、染色質中度凝集，部分細胞（如下方那顆）可見單一中央核仁；在 CLL 背景下出現大量這種帶核仁的前淋巴細胞（prolymphocyte），代表疾病進展。",
+  "features": [
+    "Medium-to-large lymphoid cells, variable in size, about 2-3 times the diameter of red cells",
+    "Moderately abundant pale blue cytoplasm with lower N:C ratio than typical CLL cells",
+    "Round to oval or slightly irregular nuclei with moderately condensed chromatin",
+    "Single central nucleolus visible in some cells, most clearly in the lower cell; less distinct in others",
+    "Red cells show normal morphology; smudge cells not evident in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows an increased number of medium-to-large lymphoid cells with moderately abundant pale basophilic cytoplasm. Nuclei are round to slightly irregular with moderately condensed chromatin, and several cells display a single, centrally placed nucleolus. The cells vary in size, with larger cells having more cytoplasm. In a patient with known CLL/SLL, these features are consistent with prolymphocytic progression; prolymphocyte percentage should be quantified on a well-prepared film, and TP53 status assessed.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic/blastoid", "vs": "MCL cells often have irregular or cleaved nuclei and are CD5+ CD23-negative with cyclin D1/SOX11 or t(11;14), which morphology alone cannot exclude."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells are smaller with condensed chromatin and polar villous cytoplasmic projections, and are typically CD5-negative."},
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma with prominent nucleoli)", "vs": "Shows prominent nucleoli but with circumferential hairy cytoplasmic projections and CD103+/CD11c+ without CD25 or annexin A1."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells are smaller with deeply basophilic cytoplasmic blebs and are T-cell markers positive with TCL1A rearrangement."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

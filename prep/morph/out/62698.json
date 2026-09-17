@@ -1,0 +1,21 @@
+{
+  "id": "62698",
+  "recognize_zh": "淋巴球 gate 的 CD5 對 CD7 流式圖：綠色 NK 細胞族群 CD7 陽性、CD5 陰性且數量多；藍色 T 細胞 CD5 與 CD7 皆陽性，紫色族群兩者皆陰性（B 細胞）。",
+  "features": [
+    "Dot plot gated on lymphocytes: CD5-PB (x) versus CD7-APC700 (y), color-coded populations",
+    "Large green population CD7 positive (~10^1), CD5 negative, consistent with NK cells",
+    "Blue population CD5 positive, CD7 positive with partial dimmer CD7 tail, consistent with T cells",
+    "Magenta population CD5 negative, CD7 negative, consistent with B cells",
+    "NK population is expanded relative to T cells"
+  ],
+  "describe_en": "Flow cytometric dot plot of the lymphocyte gate displays CD5 versus CD7. A large CD7-positive, CD5-negative population (green) consistent with NK cells is present alongside CD5-positive, CD7-positive T cells (blue) and a small CD5/CD7 double-negative population (magenta) consistent with B cells. The expanded CD5-negative NK population retains CD7 in this plot. Combined with other tubes showing surface CD3 negativity and CD2, CD56 and CD57 expression, findings support an NK-cell lymphocytosis, consistent with the reported chronic lymphoproliferative disorder of NK cells.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells are surface CD3 positive, frequently with dim or lost CD5 and CD7, whereas the expanded population here is CD5 negative and must be shown to be CD3 negative."},
+    {"dx": "Reactive NK-cell lymphocytosis", "vs": "Reactive expansions are transient and show polyclonal KIR (CD158) expression, whereas CLPD-NK persists over 6 months with restricted KIR expression or loss of CD94/NKG2A heterogeneity."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "ANKL is usually CD56 bright with immature morphology, EBV positivity and a fulminant course rather than an indolent lymphocytosis."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

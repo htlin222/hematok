@@ -1,0 +1,32 @@
+{
+  "id": "133",
+  "recognize_zh": "背部瀰漫性紅皮症（erythroderma），周邊血可見核呈腦迴狀溝紋（cerebriform）或深裂的非典型淋巴球；流式 CD3 閘內 CD4+ 細胞大量擴增、CD4:CD8 明顯升高，且大多失去 CD7 與 CD26，符合 Sezary 症候群。",
+  "features": [
+    "Small to medium-sized atypical lymphoid cells with high N:C ratio and scant rim of pale to basophilic cytoplasm",
+    "Nuclei with cerebriform convolutions: fine linear grooves/folds across the nucleus and deep clefts producing bilobed or kidney-shaped contours",
+    "Dense, hyperchromatic chromatin without conspicuous nucleoli",
+    "No cytoplasmic granules or blebs",
+    "Flow (CD3 gate): marked expansion of CD4+CD8- T cells with only a small CD8+ population (CD4:CD8 ratio well above 10)",
+    "Flow: the expanded CD4+ population is largely CD7-negative and CD26-negative; clinical photo shows confluent erythroderma of the back"
+  ],
+  "describe_en": "Clinical photograph shows confluent erythema involving essentially the entire visible skin of the back and shoulders (erythroderma) with scattered small papular lesions. Peripheral blood smear shows numerous atypical small to medium-sized lymphoid cells with hyperchromatic nuclei displaying cerebriform grooves and deep nuclear clefts, inconspicuous nucleoli, and scant agranular cytoplasm. Flow cytometry gated on CD3+ T cells shows a markedly expanded CD4+ population with very few CD8+ cells; the majority of CD4+ cells lack CD7 and CD26, with only small residual CD7+ and CD26+ CD4+ subsets. Findings are consistent with Sezary syndrome.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells are typically polylobated 'flower cells' rather than grooved cerebriform nuclei, and ATLL is CD25 bright with HTLV-1 positivity and often hypercalcemia."},
+    {"dx": "T-cell prolymphocytic leukemia (cerebriform variant)", "vs": "T-PLL shows visible nucleoli and cytoplasmic blebs, retains bright CD7, and expresses TCL1 via TCL1A/MTCP1 rearrangement, whereas these cells are CD7 and CD26 negative."},
+    {"dx": "Erythroderma of benign inflammatory cause (e.g., drug reaction, atopic/psoriatic erythroderma)", "vs": "Reactive erythroderma can have occasional circulating cerebriform cells but lacks a large CD4+ population with CD7/CD26 loss, a CD4:CD8 ratio >10, and a clonal TCR rearrangement matched to skin."},
+    {"dx": "Reactive lymphocytes / normal CD4+ T cells", "vs": "Normal T cells retain CD7 and CD26 in most CD4+ cells and lack the nuclear grooving seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry; clinical photo",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Clinical photo: generalized erythroderma of the back with scattered papules",
+    "PB smear: atypical lymphoid cells, one with irregular folded nucleus and two with dense hyperchromatic nuclei",
+    "PB smear, high power: Sezary cell with cerebriform nuclear grooves",
+    "PB smear, high power: atypical lymphocyte with deeply cleft, bilobed-appearing nucleus",
+    "Flow CD4 vs CD8 (CD3 gate): dominant CD4+CD8- population with a small CD8+ subset",
+    "Flow CD4 vs CD7 (CD3 gate): most CD4+ cells are CD7-negative",
+    "Flow CD4 vs CD26 (CD3 gate): most CD4+ cells are CD26-negative"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "65027",
+  "recognize_zh": "周邊血液抹片白血球極多，顆粒球從前骨髓細胞、骨髓細胞、後骨髓細胞到桿狀與分節嗜中性球各階段都有，且嗜鹼性球（充滿深紫黑色粗顆粒）明顯增加，母細胞少，呈典型的慢性骨髓性白血病慢性期血片。",
+  "features": [
+    "Marked leukocytosis with granulocytes at all stages of maturation (left shift without a maturation gap)",
+    "Prominent myelocytes and metamyelocytes with band and segmented neutrophils",
+    "Absolute basophilia: numerous cells packed with coarse dark purple-black granules",
+    "Occasional promyelocytes and few blasts, not predominant",
+    "Scattered eosinophilic and dysplasia-free granulocytes; background red cells appear thin and packed in thick areas"
+  ],
+  "describe_en": "Peripheral blood smear (composite of several fields) shows marked leukocytosis composed of granulocytes at all stages of maturation, with a myelocyte peak and numerous metamyelocytes, bands and segmented neutrophils. Basophils are strikingly increased, and occasional promyelocytes and rare blasts are present without a blast predominance. Significant dysplasia is not evident. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, in chronic phase; confirmation by BCR::ABL1 RT-PCR or FISH and blast and basophil enumeration for phase assignment are required.",
+  "ddx": [
+    {"dx": "Leukemoid reaction (infection, G-CSF)", "vs": "Leukemoid reactions show neutrophils with toxic granulation and Dohle bodies, few myelocytes and no basophilia or eosinophilia, and are BCR::ABL1 negative."},
+    {"dx": "Atypical chronic myeloid leukemia, BCR::ABL1-negative", "vs": "aCML shows prominent granulocytic dysplasia (hypolobation, hypogranularity) with minimal basophilia and lacks BCR::ABL1, often with SETBP1 or ASXL1 mutations."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL consists mainly of mature segmented neutrophils and bands with <10% immature granulocytes, no basophilia, and a CSF3R mutation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

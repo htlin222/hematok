@@ -1,0 +1,23 @@
+{
+  "id": "62155",
+  "recognize_zh": "H&E 可見淋巴濾泡被同心圓排列的套區淋巴球包圍（洋蔥皮樣，onion skinning）；免疫染色中散在的漿母細胞呈 HHV-8 點狀核染色、胞質 IgM 強陽性並 lambda 限制，符合 HHV-8 相關多中心 Castleman 病。",
+  "features": [
+    "Regressed follicle with a broad mantle zone of small lymphocytes in concentric onion-skin layers",
+    "Hyalinized penetrating vessels within the follicle center",
+    "CD20 highlights the follicle and scattered B cells",
+    "HHV-8 (LANA-1) shows scattered nuclear-positive cells mainly within the mantle zone",
+    "Scattered large cells with strong cytoplasmic IgM staining in the mantle zone",
+    "Lambda-positive large cells with essentially negative kappa staining, indicating lambda restriction"
+  ],
+  "describe_en": "Lymph node excision (A, H&E) shows a regressed follicle surrounded by an expanded mantle zone of small lymphocytes arranged in concentric layers, with hyalinized vessels penetrating the follicle. CD20 (B) highlights the follicular B-cell compartment. HHV-8 LANA-1 immunostain (C) shows scattered nuclear-positive cells, predominantly within the mantle zone. These cells show strong cytoplasmic IgM (D) and lambda light chain (E) expression, with kappa (F) essentially negative. Findings are consistent with HHV-8-associated multicentric Castleman disease with IgM lambda plasmablasts.",
+  "ddx": [
+    {"dx": "Idiopathic multicentric Castleman disease (HHV-8 negative)", "vs": "iMCD can show similar follicular changes but the LANA-1 immunostain is negative and there are no IgM lambda plasmablasts."},
+    {"dx": "HHV-8-positive diffuse large B-cell lymphoma, NOS", "vs": "HHV-8+ DLBCL forms confluent sheets of IgM lambda plasmablasts effacing architecture rather than scattered cells within mantle zones."},
+    {"dx": "Unicentric hyaline-vascular Castleman disease", "vs": "Unicentric disease shows similar onion-skin mantles and lollipop vessels but lacks HHV-8-positive plasmablasts and systemic inflammatory symptoms."},
+    {"dx": "Kaposi sarcoma involving lymph node", "vs": "Kaposi sarcoma shows HHV-8-positive spindle cells forming slit-like vascular spaces rather than LANA-positive plasmablasts in mantle zones."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD20, HHV-8 LANA-1, IgM, lambda, kappa",
+  "match": "consistent",
+  "high_yield": true
+}

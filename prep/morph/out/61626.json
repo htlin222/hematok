@@ -1,0 +1,21 @@
+{
+  "id": "61626",
+  "recognize_zh": "骨髓切片中可見數個巨核細胞核呈單一圓形、分葉少（hypolobated），夾雜紅血球前驅細胞與小血管、纖維間質；H&E 下無法看到環狀鐵粒母細胞，這些巨核細胞異常僅作為發育不良的輔助線索。",
+  "features": [
+    "Megakaryocytes with small, round, non-lobated or hypolobated nuclei and abundant pink cytoplasm",
+    "Numerous erythroid precursors with round, dark nuclei and perinuclear clearing",
+    "Admixed granulocytic cells and scattered lymphocytes",
+    "Loose edematous/fibrillary stroma with small vessels and focal collagen",
+    "Ring sideroblasts not evaluable on H&E"
+  ],
+  "describe_en": "Bone marrow core biopsy at high power shows a mixed hematopoietic population with abundant erythroid precursors and granulocytic cells in a loose, edematous stroma containing small vessels. Several megakaryocytes have small round, non-lobated or hypolobated nuclei, a feature suggestive of megakaryocytic dysplasia. Blasts are not conspicuously increased. Ring sideroblasts cannot be assessed on H&E; correlation with an iron-stained aspirate and SF3B1 status is required, and dysplasia in more than one lineage would favor MDS-RS with multilineage dysplasia over single-lineage dysplasia.",
+  "ddx": [
+    {"dx": "MDS with del(5q)", "vs": "Del(5q) MDS is characterized by numerous small monolobated megakaryocytes with isolated 5q deletion on karyotype, typically with macrocytic anemia and preserved platelets."},
+    {"dx": "MDS/MPN with ring sideroblasts and thrombocytosis", "vs": "MDS/MPN-RS-T shows large, ET-like hyperlobated megakaryocytes with thrombocytosis ≥450×10^9/L, not small hypolobated forms."},
+    {"dx": "Reactive marrow with stromal injury", "vs": "Reactive marrows may show edema and occasional small megakaryocytes, but lack consistent megakaryocytic dysplasia and ring sideroblasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

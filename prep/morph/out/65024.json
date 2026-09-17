@@ -1,0 +1,22 @@
+{
+  "id": "65024",
+  "recognize_zh": "這是多面板整合圖：左上 G-banding 核型 46,XY,t(1;11)(q21;q23)[25]，框出 der(1) 與 der(11)；左下 metaphase FISH 以 KMT2A 分離探針顯示 1F1R1G 訊號，確認 KMT2A 重排；右側 A–D 為血液與骨髓抹片中的母細胞，E–F 為富含母細胞的高細胞性骨髓切片。診斷的關鍵在核型與 FISH，而非單看形態。",
+  "features": [
+    "G-banded karyogram 46,XY,t(1;11)(q21;q23)[25] with der(1) and der(11) boxed with ideograms",
+    "Metaphase and interphase FISH with KMT2A break-apart probe showing 1F1R1G pattern, split signals localized to der(1) and der(11)",
+    "Panel A (PB): neutrophil-sized cell reported as a doughnut (ring) nucleus, detail limited at this resolution",
+    "Panels B-D (PB and BM aspirate): large blasts with high N:C ratio, fine chromatin and basophilic agranular cytoplasm",
+    "Panels E-F (BM biopsy, H&E): hypercellular marrow with sheets of immature cells replacing normal hematopoiesis"
+  ],
+  "describe_en": "This composite figure combines cytogenetic, FISH and morphologic panels. The G-banded karyotype shows 46,XY,t(1;11)(q21;q23) in all 25 metaphases, and metaphase FISH with a KMT2A break-apart probe demonstrates a 1 fusion, 1 red, 1 green pattern with split signals on der(1) and der(11), confirming KMT2A rearrangement. Peripheral blood and bone marrow aspirate panels show large blasts with high nuclear-to-cytoplasmic ratio, fine chromatin and scant basophilic cytoplasm, and a cell with a ring-shaped nucleus is indicated in panel A, although small panel size limits cytologic detail. The trephine sections show a hypercellular marrow effaced by blasts. Findings are consistent with acute myeloid leukemia with KMT2A::MLLT11 rearrangement, an adverse-risk genetic group under ELN 2022.",
+  "ddx": [
+    {"dx": "AML with t(9;11)(p21.3;q23.3); KMT2A::MLLT3", "vs": "t(9;11) is the most common KMT2A partner and is distinguished only by the partner chromosome on karyotype or fusion transcript testing, not by morphology."},
+    {"dx": "AML with 11q23 deletion or partial tandem duplication of KMT2A", "vs": "KMT2A-PTD is not detected by break-apart FISH or karyotype and requires molecular testing, whereas a balanced translocation with split signals indicates true rearrangement."},
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "Recurrent KMT2A rearrangement defines AML regardless of blast count in WHO 5th edition, and the marrow here is effaced by blasts."},
+    {"dx": "Therapy-related myeloid neoplasm", "vs": "KMT2A rearrangements are frequent after topoisomerase II inhibitors, so prior cytotoxic exposure must be excluded clinically rather than morphologically."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding; FISH; Wright-Giemsa; H&E",
+  "match": "consistent",
+  "high_yield": false
+}

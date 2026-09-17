@@ -1,0 +1,22 @@
+{
+  "id": "64331",
+  "recognize_zh": "骨髓切片高倍下，正常造血組織被瀰漫、單調的小至中型淋巴樣細胞取代，細胞質稀少、核深染且輪廓不規則、呈角狀或拉長，間質帶粉紅色纖維；此形態可支持被套細胞淋巴瘤（mantle cell lymphoma）浸潤，但需 cyclin D1/SOX11 免疫染色確認。",
+  "features": [
+    "Diffuse, sheet-like infiltrate of small to intermediate lymphoid cells replacing normal hematopoiesis",
+    "Scant cytoplasm with high N:C ratio",
+    "Hyperchromatic nuclei with irregular, angulated to elongated (cleaved-appearing) contours",
+    "Inconspicuous nucleoli; no large centroblast-like or immunoblastic cells and no proliferation centers identified",
+    "Pink fibrillary stroma with some spindled/stretched nuclei suggesting crush artifact; no fat or normal trilineage elements in the field"
+  ],
+  "describe_en": "Bone marrow core biopsy at high power shows diffuse replacement of the marrow space by a monotonous infiltrate of small to intermediate lymphoid cells with scant cytoplasm. The nuclei are hyperchromatic with irregular, angulated and focally elongated contours, and nucleoli are inconspicuous; there are no proliferation centers or admixed large transformed cells in this field. The stroma is pink and fibrillary, with some spindled nuclei attributable to crush artifact, and residual normal hematopoiesis is not seen. Image quality (photographed through the eyepiece) limits assessment of chromatin detail and mitotic activity. Findings are consistent with marrow involvement by a small B-cell lymphoma such as mantle cell lymphoma, pending immunohistochemistry for CD5, cyclin D1 and SOX11.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL cells have round nuclei with clumped 'soccer-ball' chromatin, form paler proliferation centers with prolymphocytes, and are LEF1+/CD23+ but cyclin D1-negative."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma shows paratrabecular aggregates of cleaved centrocytes with admixed centroblasts and is CD10+/BCL6+/BCL2+ with t(14;18), not cyclin D1+."},
+    {"dx": "Lymphoblastic lymphoma/leukemia", "vs": "Lymphoblasts have finely dispersed blastic chromatin with brisk mitoses and express TdT, whereas blastoid MCL is TdT-negative and cyclin D1-positive."},
+    {"dx": "Marginal zone lymphoma", "vs": "Marginal zone lymphoma cells have more abundant pale cytoplasm and a nodular or intrasinusoidal pattern, often with plasmacytic differentiation, and lack CD5 and cyclin D1."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

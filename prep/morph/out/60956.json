@@ -1,0 +1,22 @@
+{
+  "id": "60956",
+  "recognize_zh": "中型淋巴球具有豐富淡藍色細胞質，細胞核明顯分成兩葉（bilobed/binucleated lymphocyte），染色質成熟、無明顯核仁；在女性持續淋巴球增多的背景下，應聯想到持續性多株 B 細胞淋巴球增多症（PPBL）。",
+  "features": [
+    "Medium-sized lymphocyte with a deeply cleft, bilobed (binucleate-appearing) nucleus",
+    "Mature, moderately condensed chromatin without prominent nucleoli",
+    "Abundant, pale basophilic cytoplasm with slightly irregular border",
+    "Adjacent normal segmented neutrophil for size comparison",
+    "Background red cells and platelets unremarkable; no smudge cells or blasts in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a medium-sized lymphocyte with a bilobed nucleus composed of two closely apposed lobes, mature chromatin, inconspicuous nucleoli and a generous rim of pale basophilic cytoplasm. A normal segmented neutrophil and unremarkable red cells and platelets are present in the field. Binucleated lymphocytes of this type, in a patient with stable polyclonal B-cell lymphocytosis and polyclonal IgM elevation, are suggestive of persistent polyclonal B-cell lymphocytosis; confirmation requires flow cytometry showing polyclonal (kappa and lambda) B cells.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are small with scant cytoplasm, clumped soccer-ball chromatin and smudge cells, and are CD5+/CD23+ with light-chain restriction rather than polyclonal."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Villous lymphocytes show polar cytoplasmic projections, not bilobed nuclei, and are monotypic by flow cytometry."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "Flower cells have multilobated, hyperchromatic nuclei with scant cytoplasm and are CD4+ T cells, whereas PPBL cells are polyclonal B cells."},
+    {"dx": "Reactive (viral) lymphocytosis", "vs": "Reactive lymphocytes are large with cytoplasm hugging adjacent red cells and are transient, whereas PPBL shows persistent binucleated B cells with raised polyclonal IgM."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

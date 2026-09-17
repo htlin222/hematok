@@ -1,0 +1,20 @@
+{
+  "id": "60150",
+  "recognize_zh": "G 帶染色核型圖中，箭頭指向一條延長的 9 號染色體 der(9) 與一條明顯變短的 22 號染色體（費城染色體，Ph），代表 t(9;22)(q34;q11.2) 形成 BCR-ABL1 融合基因。",
+  "features": [
+    "G-banded karyotype arranged 1–22 plus sex chromosomes; two X chromosomes, no Y (female)",
+    "Arrow on chromosome 9 marks the derivative 9 carrying translocated 22q material (lengthened 9q)",
+    "Arrow on chromosome 22 marks a shortened derivative 22, the Philadelphia chromosome",
+    "No other obvious numerical or structural abnormality evident at this resolution"
+  ],
+  "describe_en": "This G-banded karyotype shows a female complement with a reciprocal translocation between the long arms of chromosomes 9 and 22, indicated by arrows: a derivative chromosome 9 and a shortened derivative chromosome 22 (Philadelphia chromosome). No additional abnormalities are apparent at this banding resolution. The karyotype would be reported as 46,XX,t(9;22)(q34;q11.2), which generates the BCR-ABL1 fusion and is consistent with chronic myeloid leukemia in the appropriate clinical setting.",
+  "ddx": [
+    {"dx": "Ph-positive B-lymphoblastic leukemia", "vs": "The identical t(9;22) occurs in B-ALL (often p190 BCR-ABL1), so morphology, flow cytometry and blast count, not the karyotype, distinguish it from CML."},
+    {"dx": "Cryptic or variant BCR-ABL1 rearrangement", "vs": "Some CML cases have a normal-appearing karyotype or complex variant translocations, requiring FISH or RT-PCR to detect BCR-ABL1."},
+    {"dx": "CML in accelerated/blast phase with additional abnormalities", "vs": "Additional changes such as +8, i(17q), +19 or a second Ph would indicate clonal evolution, and none are evident here."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

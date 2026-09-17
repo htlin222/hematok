@@ -1,0 +1,23 @@
+{
+  "id": "60829",
+  "recognize_zh": "周邊血中多顆嗜中性白血球胞質內吞入完整紅血球（紅血球吞噬，erythrophagocytosis），核被推擠成新月形，並伴隨空泡與毒性顆粒；D 圖見紅血球凝集，背景有棘狀紅血球，提示 Donath-Landsteiner 抗體所致的陣發性冷血紅素尿症（PCH）。",
+  "features": [
+    "Neutrophils containing one or more intact ingested red cells within phagocytic vacuoles (panels A-C, E)",
+    "Neutrophil nuclei compressed and displaced into crescentic or C-shaped contours around the engulfed red cells",
+    "Cytoplasmic vacuolation and coarse toxic granulation in phagocytic neutrophils",
+    "Small cluster of agglutinated red cells (panel D)",
+    "Background red cells with crenated/echinocytic forms and occasional spherocyte-like dense cells"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous neutrophils with erythrophagocytosis, containing one or more intact red cells within cytoplasmic vacuoles that displace and compress the nucleus into a crescent, accompanied by additional vacuoles and toxic granulation. A small red cell agglutinate is present, and background red cells include crenated forms and occasional dense spherocyte-like cells. No organisms are identified. In a patient with acute hemolysis, florid neutrophil erythrophagocytosis is suggestive of paroxysmal cold hemoglobinuria; a direct antiglobulin test (C3 positive) and Donath-Landsteiner test are recommended.",
+  "ddx": [
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA shows prominent spherocytes with IgG-positive DAT and erythrophagocytosis by neutrophils is rare, whereas PCH is C3-only DAT-positive with a biphasic Donath-Landsteiner antibody."},
+    {"dx": "Cold agglutinin disease", "vs": "Cold agglutinin disease shows large red cell agglutinates on the smear with a high-titer IgM cold agglutinin, and neutrophil erythrophagocytosis is not a typical feature."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH erythrophagocytosis is performed by macrophages in marrow or tissue, not by circulating neutrophils, and is accompanied by cytopenias, hyperferritinemia and fever."},
+    {"dx": "In vitro artifact from delayed processing/EDTA storage", "vs": "Storage-related phagocytosis is sparse, and the florid, widespread engulfment with hemolytic clinical findings favors an in vivo process."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": ["A: neutrophil with an engulfed red cell and crescentic compressed nucleus", "B: two neutrophils, one containing an ingested red cell with vacuoles", "C: neutrophils with phagocytosed red cells and vacuoles", "D: small red cell agglutinate", "E: vacuolated neutrophil with erythrophagocytosis"]
+}

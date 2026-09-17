@@ -1,0 +1,21 @@
+{
+  "id": "61552",
+  "recognize_zh": "FDG-PET 最大強度投影（MIP）影像中，上縱膈可見多發融合的高攝取結節團塊，並伴隨多個椎體、骨盆與股骨的局灶性攝取（提示骨髓侵犯）；腎臟、輸尿管與膀胱的濃聚為生理性排泄。",
+  "features": [
+    "Coronal FDG-PET maximum intensity projection image",
+    "Conglomerate multinodular FDG-avid mass in the upper mediastinum/anterior chest",
+    "Multifocal FDG uptake in several vertebral bodies, pelvic bones and proximal femur, suggesting skeletal/marrow involvement",
+    "Physiologic excretory activity in kidneys, ureters and urinary bladder; brain activity at top edge",
+    "Low-resolution image; exact nodal stations and SUV values not assessable"
+  ],
+  "describe_en": "Coronal FDG-PET maximum intensity projection image shows a bulky, conglomerate multinodular hypermetabolic mass in the mediastinum. Multiple discrete foci of increased uptake are seen in vertebral bodies, the pelvis and a proximal femur, consistent with multifocal osseous/marrow involvement rather than the diffuse homogeneous uptake of reactive marrow. Intense activity in the renal collecting systems, ureters and bladder is physiologic. In a patient with classic Hodgkin lymphoma these findings indicate mediastinal disease with focal skeletal/marrow lesions (advanced stage); resolution precludes precise nodal mapping or SUV assessment.",
+  "ddx": [
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL also forms a bulky FDG-avid anterior mediastinal mass, so biopsy (CD20+, CD23+, MAL+ sheets versus scattered CD30+/CD15+ HRS cells) is needed to separate them."},
+    {"dx": "Diffuse reactive marrow uptake (G-CSF, anemia, inflammation)", "vs": "Reactive marrow shows diffuse homogeneous skeletal uptake rather than the discrete multifocal lesions seen here."},
+    {"dx": "Thymic epithelial tumor or germ cell tumor", "vs": "These produce an anterior mediastinal mass but are usually solitary without multifocal skeletal lesions, and require biopsy for diagnosis."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

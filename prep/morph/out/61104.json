@@ -1,0 +1,22 @@
+{
+  "id": "61104",
+  "recognize_zh": "周邊血的單核球／吞噬細胞內可見細小的點狀體，骨髓抹片的巨噬細胞內與周圍更有大量小型卵圓形生物體，具紫色核（部分可見小的桿狀 kinetoplast），即 Leishman-Donovan 小體；骨髓切片則見組織球增生與漿細胞，符合內臟利什曼原蟲病。",
+  "features": [
+    "PB (A): prominent red cell clumping/rouleaux-like aggregates with a small lymphocyte and scattered platelets",
+    "PB (B): monocyte/phagocyte with a few small dot-like intracytoplasmic bodies consistent with amastigotes",
+    "BM aspirate (C): macrophages packed with numerous small oval amastigotes, each with a purple nucleus and a tiny rod-shaped kinetoplast where resolvable, plus extracellular organisms",
+    "BM biopsy (D): increased histiocytes with granular/foamy cytoplasm, plasma cells and small lymphocytes",
+    "Image resolution limits reliable visualization of the kinetoplast in PB"
+  ],
+  "describe_en": "Composite figure. The peripheral blood smear shows red cell clumping in a rouleaux-like pattern, and a circulating phagocyte contains small dot-like intracytoplasmic bodies. The bone marrow aspirate shows macrophages distended by numerous small oval amastigotes with a nucleus and, where resolvable, a rod-shaped kinetoplast, with additional organisms released extracellularly. The core biopsy shows increased histiocytes with granular cytoplasm and a background of plasma cells and lymphocytes. Findings are consistent with visceral leishmaniasis involving peripheral blood and bone marrow; confirmation by culture, PCR or serology is recommended.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts are similar in size but have a clear halo, a crescent-shaped nucleus and no kinetoplast, and are GMS/PAS positive."},
+    {"dx": "Toxoplasma gondii tachyzoites", "vs": "Toxoplasma tachyzoites are crescent-shaped without a kinetoplast and seldom seen packed within marrow macrophages."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts divide by fission with a central transverse septum and lack a kinetoplast."},
+    {"dx": "Platelets overlying a monocyte", "vs": "Platelets lie on top of the cell with granular purple centers and pale periphery, lacking a defined nucleus-kinetoplast arrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E",
+  "match": "consistent",
+  "high_yield": true
+}

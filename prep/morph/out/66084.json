@@ -1,0 +1,20 @@
+{
+  "id": "66084",
+  "recognize_zh": "箭頭所指為一顆大細胞，核質比高、染色質細緻、可見數個淡色核仁，胞質少而偏藍，符合骨髓性芽細胞；但此張解析度與對焦有限，胞質內的 Auer 小體無法明確看到。",
+  "features": [
+    "Single large blast with high N:C ratio and slightly irregular nuclear outline",
+    "Fine, open chromatin with several pale nucleoli",
+    "Scant basophilic cytoplasm; a discrete rod-shaped Auer rod is not clearly resolved at this resolution",
+    "Blast lies within a clump of overlapping red cells in a thin area of the smear; scattered platelets in background"
+  ],
+  "describe_en": "Peripheral blood smear shows a single large blast (arrow) nestled among a cluster of red cells. The blast has a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, multiple pale nucleoli and a thin rim of basophilic cytoplasm. An Auer rod, as stated in the title, cannot be convincingly identified at this image resolution. Findings are consistent with a circulating blast; lineage assignment as myeloid would rest on a visible Auer rod, MPO cytochemistry or flow cytometry.",
+  "ddx": [
+    {"dx": "Lymphoblast (ALL)", "vs": "Lymphoblasts lack Auer rods and are MPO-negative, and typically have scantier cytoplasm and less conspicuous nucleoli; without a clearly visible Auer rod, flow cytometry is needed."},
+    {"dx": "Reactive/atypical lymphocyte", "vs": "Reactive lymphocytes have more condensed chromatin and abundant cytoplasm that hugs adjacent red cells, rather than fine blastic chromatin with nucleoli."},
+    {"dx": "Large cell lymphoma cell in blood", "vs": "Lymphoma cells can mimic blasts morphologically but lack Auer rods and are distinguished by mature B- or T-cell immunophenotype."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

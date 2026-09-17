@@ -1,0 +1,22 @@
+{
+  "id": "1718",
+  "recognize_zh": "骨髓抹片中央有一團四顆彼此黏在一起的大細胞，核呈卵圓形、染色質細緻，共享大片淡藍色細胞質，體積遠大於周圍的造血細胞，屬於非造血來源的外來細胞（extrinsic cells）群聚。",
+  "features": [
+    "Cohesive cluster of four large non-hematopoietic cells, several times the size of surrounding leukocytes",
+    "Large oval nuclei with finely granular chromatin and inconspicuous to small nucleoli",
+    "Abundant pale blue, finely granular cytoplasm with indistinct cell borders (syncytial appearance)",
+    "Cells arranged as a tight aggregate rather than dispersed singly",
+    "Background of clumped red cells and small hematopoietic cells, mostly lymphocytes and erythroid precursors"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of large cells with oval nuclei, finely granular chromatin and abundant pale blue cytoplasm with indistinct cell borders, clearly distinct from the surrounding small hematopoietic cells. The cells lack the granules of myeloid cells and the lobulated nucleus of megakaryocytes. Striking nuclear pleomorphism is not evident in this field, so benign non-hematopoietic elements cannot be fully excluded from this image alone. Findings represent extrinsic (non-hematopoietic) cells; correlation with the biopsy and cytokeratin/other immunostains is needed to exclude metastatic tumor.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma clusters typically show nuclear pleomorphism, nuclear molding, prominent nucleoli and cytokeratin positivity."},
+    {"dx": "Osteoblasts", "vs": "Osteoblasts have eccentric round nuclei with a perinuclear hof away from the nucleus and occur in loose rows, often in children or reparative marrow."},
+    {"dx": "Endothelial/stromal cells from a capillary fragment", "vs": "Benign stromal fragments show elongated spindle nuclei in a linear or branching arrangement without atypia."},
+    {"dx": "Megakaryocyte", "vs": "A megakaryocyte has a single multilobulated nucleus with pink granular cytoplasm rather than several separate oval nuclei."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

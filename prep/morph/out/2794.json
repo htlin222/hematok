@@ -1,0 +1,21 @@
+{
+  "id": "2794",
+  "recognize_zh": "低倍骨髓切片免疫染色中，只有一個間質性淋巴球聚集呈強棕色陽性，其他造血區域只有零星陽性細胞；抗體未標示，依標題推測是 T 細胞標記，顯示聚集為 T 細胞性。",
+  "features": [
+    "Low-power core biopsy with cellular marrow, fat spaces and trabeculae",
+    "Single well-circumscribed interstitial aggregate with strong brown staining",
+    "Scattered individual positive cells in the interstitium",
+    "No paratrabecular or diffuse positive infiltrate",
+    "Hematopoietic cells in the background negative"
+  ],
+  "describe_en": "Low-power immunohistochemical stain of a bone marrow core biopsy shows cellular marrow with a single discrete interstitial lymphoid aggregate that is strongly positive, together with scattered positive interstitial cells. There is no paratrabecular or diffuse infiltrate. The antibody is not specified on the image; if this represents CD3, the aggregate is T-cell rich. Paired with a negative or sparse CD20/PAX5 stain in a patient after rituximab, the pattern supports rituximab-associated reactive T-cell aggregates.",
+  "ddx": [
+    {"dx": "Residual follicular or marginal zone lymphoma", "vs": "Residual B-cell lymphoma aggregates are often paratrabecular (FL) or intrasinusoidal (MZL) and composed mainly of PAX5-positive B cells."},
+    {"dx": "Systemic mastocytosis", "vs": "Mast cell aggregates contain spindle mast cells with eosinophils and are tryptase/CD117/CD25-positive rather than CD3-positive."},
+    {"dx": "T-cell lymphoma", "vs": "T-cell lymphoma requires atypical cytology, aberrant immunophenotype and clonality, not a single bland T-cell aggregate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: likely CD3 (antibody not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "7576",
+  "recognize_zh": "中央大型巨噬細胞的泡沫狀細胞質裡吞了一顆完整的有核細胞（hemophagocytosis），周圍散布許多細小、橢圓形、帶一個核點的蟲體（利什曼原蟲 amastigote），兩者同時出現。",
+  "features": [
+    "Large macrophage with abundant foamy, finely vacuolated cytoplasm",
+    "Intact phagocytosed nucleated cell (small round dark nucleus with rim of cytoplasm) within the macrophage cytoplasm",
+    "Numerous small (2 to 4 um) oval extracellular bodies around the macrophage, each with a dark nucleus, consistent with amastigotes; kinetoplasts are difficult to resolve at this focus",
+    "Second macrophage at left with vacuolated magenta-staining cytoplasm",
+    "Background of crushed red cells in a bone marrow aspirate"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large histiocyte with abundant foamy cytoplasm that has engulfed an intact nucleated cell, indicating hemophagocytosis. Numerous small oval organisms with a single dark nucleus are scattered at the periphery of the macrophage, most likely released from ruptured histiocytes; the rod-shaped kinetoplast is not clearly resolved in this image. Findings are consistent with visceral leishmaniasis accompanied by secondary hemophagocytosis, which should prompt evaluation for hemophagocytic lymphohistiocytosis and confirmation by Leishmania PCR, culture or serology.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts have a clear halo and a crescentic nucleus but lack a kinetoplast, and stain with GMS and PAS."},
+    {"dx": "Primary or other secondary HLH without infection", "vs": "Hemophagocytosis alone is nonspecific; the presence of kinetoplast-bearing amastigotes identifies Leishmania as the trigger."},
+    {"dx": "Toxoplasma gondii tachyzoites", "vs": "Toxoplasma organisms are crescent-shaped with a central nucleus and no kinetoplast."},
+    {"dx": "Platelets or granule debris", "vs": "Platelets are anucleate with fine granules, whereas amastigotes show a discrete nucleus and a separate kinetoplast."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

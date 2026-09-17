@@ -1,0 +1,21 @@
+{
+  "id": "4104",
+  "recognize_zh": "周邊血液中一顆嗜中性球的細胞質內布滿粗大、深紫黑色的顆粒，明顯比正常嗜中性球的淡粉紅色顆粒粗而深，即毒性顆粒（toxic granulation）；紅血球上的小黑點多為染劑沉積假影。",
+  "features": [
+    "Single segmented neutrophil with a normal-sized, lobated nucleus",
+    "Coarse, dark purple-black primary-like granules evenly distributed throughout cytoplasm",
+    "No Dohle bodies or cytoplasmic vacuoles clearly identified",
+    "Red cells with occasional poikilocytes (teardrop/helmet-like forms)",
+    "Fine dark dots on many red cells, most consistent with stain precipitate"
+  ],
+  "describe_en": "Peripheral blood smear shows a segmented neutrophil with numerous coarse, dark purple cytoplasmic granules distributed throughout the cytoplasm, consistent with toxic granulation. Dohle bodies and vacuolization are not clearly seen. Red cells show mild poikilocytosis, and fine dark dots overlying many red cells are most consistent with stain precipitate. Findings are consistent with toxic change, as seen in sepsis, inflammation or G-CSF therapy.",
+  "ddx": [
+    {"dx": "Alder-Reilly anomaly", "vs": "Alder-Reilly granules are present in all leukocyte types including lymphocytes and monocytes, and occur without infection."},
+    {"dx": "Chediak-Higashi syndrome", "vs": "Chediak-Higashi shows few giant, irregular fused granules rather than numerous fine coarse granules."},
+    {"dx": "Overstaining artifact", "vs": "Overstaining darkens granules in all neutrophils and background elements uniformly, whereas true toxic granulation varies between cells with other toxic changes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

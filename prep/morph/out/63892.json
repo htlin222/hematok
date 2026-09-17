@@ -1,0 +1,23 @@
+{
+  "id": "63892",
+  "recognize_zh": "腎臟切片 H&E 可見小型藍色腫瘤細胞在腎小管之間瀰漫浸潤；免疫染色 CD45 陰性、CD19 陰性、CD34 陰性，但 PAX5、TdT、CD10、CD43 陽性，TdT 與 PAX5 陽性確立為 B 淋巴母細胞，屬罕見的 CD45−/CD19− 表型 B-ALL。",
+  "features": [
+    "H&E (A): diffuse infiltrate of small round blue cells with scant cytoplasm surrounding and separating renal tubules",
+    "CD45 (B): negative in tumor cells, with only scattered positive background cells; flow inset of CD45-negative gate",
+    "CD43 (C) and CD10 (E): strong diffuse positivity (CD10 also highlights tubules)",
+    "CD19 (D) and CD34 (F): negative in the neoplastic cells",
+    "PAX5 (G): strong nuclear positivity; TdT (H): diffuse nuclear positivity",
+    "Image resolution is low, limiting cytologic detail"
+  ],
+  "describe_en": "Composite figure of a renal needle core biopsy. The H&E section shows a diffuse interstitial infiltrate of monotonous small round blue cells with scant cytoplasm dissecting between renal tubules. By immunohistochemistry the neoplastic cells are negative for CD45, CD19 and CD34, and positive for CD43, CD10, PAX5 and TdT; the flow cytometry inset shows a CD45-negative population. Low image resolution limits cytologic assessment. The TdT positivity establishes a precursor lymphoid neoplasm and PAX5 supports B lineage despite loss of CD45 and CD19. Findings are consistent with B-lymphoblastic leukemia/lymphoma with an unusual CD45-negative, CD19-negative immunophenotype.",
+  "ddx": [
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma is also a CD45-negative, CD99-positive small round cell tumor but is TdT- and PAX5-negative and carries an EWSR1 rearrangement."},
+    {"dx": "Neuroblastoma or Wilms tumor (blastemal)", "vs": "These are CD43/TdT/PAX5-negative and express neural markers (PHOX2B, synaptophysin) or WT1 with epithelial/stromal differentiation."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is CD10-positive and PAX5-positive but TdT-negative, expresses CD20 and surface immunoglobulin, and shows a starry-sky pattern with MYC rearrangement."},
+    {"dx": "T-lymphoblastic lymphoma", "vs": "T-LBL is TdT-positive and may be CD43/CD10-positive but lacks PAX5 and expresses cytoplasmic CD3."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD45, CD43, CD19, CD10, CD34, PAX5, TdT",
+  "match": "consistent",
+  "high_yield": false
+}

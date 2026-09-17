@@ -1,0 +1,21 @@
+{
+  "id": "61006",
+  "recognize_zh": "這張骨髓抹片染色過深、偏藍，許多有核細胞呈深藍色實心圓團，核細節無法辨識；中央一顆較大的橢圓形淡藍細胞可能是單核或低分葉的巨核細胞，但影像品質不足以確認任何 aCML 的特異形態。",
+  "features": [
+    "Thick, overstained (predominantly blue) aspirate smear with poor nuclear detail",
+    "Numerous nucleated cells appearing as dense, dark blue round masses",
+    "Central large oval cell with homogeneous pale blue cytoplasm-like staining; nature uncertain (possible hypolobated megakaryocyte)",
+    "Crenated, refractile red cells and abundant granular background debris",
+    "Dense cellular particle at right edge"
+  ],
+  "describe_en": "Bone marrow aspirate smear is thick and heavily overstained, with nucleated cells appearing as dark blue masses lacking discernible chromatin or cytoplasmic detail, crenated red cells and abundant granular background debris. A large oval cell in the center with homogeneous pale blue staining may represent a mononuclear or hypolobated megakaryocyte, but this cannot be confirmed. A cellular particle is present at the right edge, suggesting a cellular specimen. Owing to staining and thickness artifacts, lineage assignment and dysplasia assessment are not possible from this image, and the findings are only nonspecifically compatible with the stated diagnosis of atypical CML.",
+  "ddx": [
+    {"dx": "Hypolobated megakaryocyte of MDS/MPN or 5q- syndrome", "vs": "Would require clear visualization of a single round non-lobated nucleus in a large granular cell, which the overstaining prevents here."},
+    {"dx": "Macrophage/histiocyte", "vs": "Macrophages have abundant vacuolated cytoplasm with ingested debris and a small eccentric nucleus rather than a large homogeneous cell body."},
+    {"dx": "Smear/staining artifact", "vs": "Overstaining and thick areas obscure nuclear detail across all cells; a thinner area or restained slide is needed for interpretation."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

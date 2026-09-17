@@ -1,0 +1,22 @@
+{
+  "id": "62000",
+  "recognize_zh": "大多數圓形單核細胞的細胞核呈中到強棕色染色，其間夾雜少數藍色未染色的背景細胞；以骨髓瘤而言，這種瀰漫性核染色符合 cyclin D1 過度表現，是 t(11;14) 的免疫表型替代指標。",
+  "features": [
+    "Diffuse brown staining in the large majority of round mononuclear cells",
+    "Predominantly nuclear staining with variable intensity; some cells also show cytoplasmic blush",
+    "Cells are medium-sized with round nuclei, consistent with a plasma cell population",
+    "Scattered unstained (hematoxylin-blue) background cells serve as internal negatives",
+    "Discohesive cells in a loosely packed section; no architecture assessable",
+    "Stain is not labeled; pattern fits cyclin D1 IHC per the case title"
+  ],
+  "describe_en": "Immunohistochemical stain (presumed cyclin D1, not labeled on the image) on a marrow section shows a diffuse population of round mononuclear cells with moderate to strong nuclear staining in the large majority of cells, with some cytoplasmic blush. Scattered unstained background cells are present as internal negatives. In the context of a plasma cell neoplasm, diffuse nuclear cyclin D1 expression is a surrogate for CCND1 rearrangement. Findings are consistent with plasma cell myeloma with cyclin D1 expression, suggestive of t(11;14); confirmation by FISH is recommended.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma involving marrow", "vs": "Mantle cell lymphoma cells are CD20+/CD5+/SOX11+ small lymphocytes lacking CD138 and cytoplasmic light-chain restriction, whereas myeloma cells are CD138+ with monotypic cytoplasmic light chains."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cell leukemia shows weak cyclin D1 in CD20+/CD103+/annexin A1+/BRAF V600E+ B cells with 'fried-egg' spacing, not CD138+ plasma cells."},
+    {"dx": "Myeloma with CCND1 overexpression without t(11;14) (e.g., trisomy 11)", "vs": "IHC cannot separate these; FISH for t(11;14)(q13;q32) CCND1::IGH defines the translocation."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: cyclin D1 (presumed, unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

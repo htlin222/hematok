@@ -1,0 +1,21 @@
+{
+  "id": "60480",
+  "recognize_zh": "骨髓切片在脂肪細胞之間有大量散在、間質性分布的單核細胞呈強烈棕色細胞質染色（TRAP 免疫染色），陽性細胞呈片狀而非只是零星巨噬細胞，符合毛狀細胞白血病的骨髓浸潤。",
+  "features": [
+    "Numerous interstitial mononuclear cells with strong granular cytoplasmic brown staining",
+    "Positive cells spread diffusely between adipocytes rather than forming paratrabecular nodules",
+    "Positive cells have round to oval nuclei with moderate cytoplasm, spaced apart",
+    "Admixed negative small hematopoietic cells with blue hematoxylin counterstain",
+    "Fat-rich marrow background with interstitial infiltration pattern"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostained for tartrate-resistant acid phosphatase (TRAP) shows numerous interstitially distributed mononuclear cells with strong cytoplasmic positivity, dispersed between adipocytes. Admixed residual hematopoietic cells are negative. The pattern is interstitial rather than nodular or paratrabecular. Findings are consistent with bone marrow involvement by hairy cell leukemia in the appropriate immunophenotypic context (CD20, CD11c, CD25, CD103, annexin A1, BRAF V600E).",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant / splenic B-cell lymphoma with prominent nucleoli", "vs": "HCL-v is usually TRAP weak or negative and annexin A1 negative, CD25 negative, and BRAF V600E wild-type."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL tends to form nodular or intrasinusoidal infiltrates and lacks TRAP, annexin A1, and CD103 expression."},
+    {"dx": "Systemic mastocytosis", "vs": "Mast cells can be TRAP positive, but they form spindled paratrabecular aggregates and express tryptase, CD117, and CD25 without B-cell markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: TRAP",
+  "match": "consistent",
+  "high_yield": true
+}

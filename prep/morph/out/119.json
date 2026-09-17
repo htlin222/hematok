@@ -1,0 +1,39 @@
+{
+  "id": "119",
+  "recognize_zh": "淋巴結整體結構還在，有退化、類 Castleman 的濾泡（套區呈同心圓排列），但被膜下與皮質淋巴竇（sinus）裡塞滿大型漿母細胞樣（plasmablastic）細胞；這些細胞 HHV8（LANA）呈點狀核染色、EBER 陽性，B 細胞標記則多為陰性。",
+  "features": [
+    "Large atypical cells distending subcapsular and cortical sinuses while overall nodal architecture is preserved",
+    "Tumor cells 3-5x a small lymphocyte, abundant amphophilic cytoplasm, distinct cell borders (plasmablastic/immunoblastic)",
+    "Round to irregular vesicular nuclei with prominent central nucleoli; occasional binucleate forms and mitoses",
+    "Regressed follicles with concentric mantle zones and depleted, vascularized germinal centers (Castleman-like)",
+    "Stippled nuclear HHV8/LANA-type staining and EBER ISH nuclear signal in the sinusoidal large cells",
+    "Large cells are negative for the membranous marker(s) that highlight background small lymphocytes; aberrant cytoplasmic staining with a T-cell-type marker (per case, CD3)"
+  ],
+  "describe_en": "Sections of lymph node show preserved overall architecture with numerous small follicles, some regressed with concentric mantle zones and hyalinized, vascular germinal centers (Castleman-like). The subcapsular and intermediate sinuses are distended by sheets and clusters of large, discohesive neoplastic cells with abundant amphophilic cytoplasm, vesicular nuclei and prominent nucleoli, consistent with plasmablastic/immunoblastic morphology. By immunohistochemistry, the large cells lack the membranous markers expressed by background small lymphocytes, show strong cytoplasmic and nuclear staining with plasma-cell/activation-associated markers (per case, MUM1 and aberrant cytoplasmic CD3), and show stippled nuclear HHV8 (LANA-1) positivity; EBER in situ hybridization is positive. The individual IHC antibodies are not labeled on the images, so marker assignments rely on the case description. In an HIV-positive patient, findings are consistent with nodal involvement by extracavitary primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "HHV8-positive germinotropic lymphoproliferative disorder", "vs": "GLPD is HHV8+/EBER+ too, but its plasmablasts are confined to germinal centers in HIV-negative patients, whereas here large cells fill the sinuses in an HIV-positive patient."},
+    {"dx": "HHV8-positive DLBCL, NOS (arising in multicentric Castleman disease)", "vs": "HHV8+ DLBCL is typically EBER-negative and IgM-lambda restricted with mantle-zone plasmablast aggregates, whereas EC-PEL is EBER-positive and shows sinusoidal growth with loss of B-cell and immunoglobulin expression."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "Cytoplasmic CD3 and EBER positivity can mimic ENKTL, but ENKTL is HHV8/LANA-negative, CD56+ with cytotoxic granules, and angiocentric rather than sinusoidal."},
+    {"dx": "Plasmablastic lymphoma or ALK+ large B-cell lymphoma", "vs": "Both share a plasmablastic immunophenotype and sinusoidal growth, but plasmablastic lymphoma is HHV8-negative and ALK+ LBCL shows granular cytoplasmic ALK, whereas this case shows nuclear LANA."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (incl. CD3, MUM1, HHV8/LANA); ISH: EBER",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Low-power H&E: lymph node with preserved architecture and numerous small follicles",
+    "H&E: large pale cells distending subcapsular and cortical sinuses beneath the capsule",
+    "H&E: sinus packed with large plasmablastic cells adjacent to fibrous capsule",
+    "H&E: regressed Castleman-like follicle next to a sinus filled with large atypical cells",
+    "High-power H&E: plasmablastic cells with abundant amphophilic cytoplasm and prominent nucleoli",
+    "IHC (unlabeled membranous marker): small lymphocytes positive, large tumor cells negative",
+    "IHC (unlabeled nuclear marker): small background cells positive, sinusoidal large cells negative",
+    "IHC (likely CD3, per case): strong cytoplasmic staining of large cells plus background T cells",
+    "IHC (unlabeled membranous marker): background lymphocytes positive, sheets of large cells negative",
+    "IHC (likely MUM1, per case): nuclear/cytoplasmic staining of large cell clusters",
+    "IHC (unlabeled): strong cytoplasmic staining in large plasmablastic cells",
+    "EBER ISH: dark purple nuclear signal in a cluster of tumor cells",
+    "HHV8/LANA IHC, low power: positive cells confined to sinuses",
+    "HHV8/LANA IHC: stippled nuclear staining of sinusoidal tumor cells"
+  ]
+}

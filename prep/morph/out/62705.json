@@ -1,0 +1,22 @@
+{
+  "id": "62705",
+  "recognize_zh": "周邊血液中可見多個大小不一的原始細胞：部分核質比高、染色質細緻、胞質少而深藍，另有一個較大細胞具摺疊核與較豐富、淡藍色帶細顆粒的胞質；成熟中性球稀少，型態上呈現兩種外觀的原始細胞，需流式證實為 B/骨髓系混合表型急性白血病。",
+  "features": [
+    "Medium to large blasts with high N:C ratio, round to indented nuclei and fine chromatin",
+    "Scant to moderate, deeply basophilic agranular cytoplasm in the smaller blasts, some with a pale perinuclear zone",
+    "One larger blast with a folded/indented nucleus and more abundant pale blue cytoplasm with a frayed border and faint granularity, suggesting myeloid/monocytoid features",
+    "No Auer rods identified",
+    "Rare mature neutrophil and red cells with occasional crenated forms"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous blasts of variable size. Most have high N:C ratio, round to indented nuclei with fine chromatin and scant, deeply basophilic agranular cytoplasm, while a larger blast has a folded nucleus and more abundant pale blue cytoplasm with a frayed border, suggesting a second, myeloid-appearing population. No Auer rods are seen, and mature neutrophils are sparse. Morphology alone cannot assign lineage, but the heterogeneous blast appearance is in keeping with a biphenotypic process; together with flow cytometry the findings are consistent with mixed phenotype acute leukemia, B/myeloid.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic leukemia", "vs": "Contains blasts plus promonocytes/monocytes with nonspecific esterase positivity but no B-lineage commitment markers on the blasts."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "Blasts are more uniform and lack MPO expression or monocytic differentiation by flow cytometry and cytochemistry."},
+    {"dx": "AML with BCR::ABL1 or KMT2A rearrangement expressing aberrant CD19", "vs": "Aberrant CD19 alone is insufficient for B-lineage; MPAL requires strong CD19 with CD79a, cCD22 or CD10, and defining genetic lesions must be excluded or classified first."},
+    {"dx": "Lineage-switched or bilineal leukemia after therapy", "vs": "Distinguished by clinical history and demonstration of separate populations over time, not by morphology."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

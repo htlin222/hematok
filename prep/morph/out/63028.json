@@ -1,0 +1,22 @@
+{
+  "id": "63028",
+  "recognize_zh": "周邊血可見大量中至大型異常淋巴細胞，核不規則、染色質較細、胞質嗜鹼性且有突起，外觀很像淋巴母細胞；但流式顯示表面 CD3+、CD4+CD8−、CD45RA+/CD197+，而 cyTdT 陰性，排除前驅 T 淋巴母細胞，加上複雜核型與組織瀰漫浸潤，支持周邊 T 細胞淋巴瘤（PTCL, NOS）。",
+  "features": [
+    "Medium to large atypical lymphoid cells with irregular, angular nuclear outlines and moderately fine chromatin (A, B)",
+    "Moderate basophilic cytoplasm with cytoplasmic blebs/projections; blast-like appearance",
+    "Multicolor karyotype (SKY/M-FISH) showing a complex karyotype with multiple structural abnormalities and a marker chromosome (C)",
+    "Flow cytometry: CD45 bright, surface CD3+, CD4+ CD8-, CD2+, CD7 partially dim, CD45RA+ CD197 (CCR7)+, cytoplasmic TdT and TCL1 negative (D)",
+    "Tissue H&E with diffuse infiltrate of atypical lymphoid cells; IHC showing membranous positivity (F) and a high nuclear-staining fraction (G)"
+  ],
+  "describe_en": "Composite figure. Peripheral blood smear shows marked lymphocytosis composed of medium to large atypical lymphoid cells with irregular, angular nuclei, moderately fine chromatin and basophilic cytoplasm with blebs, mimicking lymphoblasts (A, B). Multicolor karyotyping demonstrates a complex karyotype (C). Flow cytometry identifies a mature T-cell population that is surface CD3+, CD4+, CD8-, CD2+, with partial CD7 and a CD45RA+/CCR7+ phenotype, and is negative for cytoplasmic TdT and TCL1 (D), excluding T-lymphoblastic and T-prolymphocytic leukemia. A tissue biopsy shows a diffuse atypical lymphoid infiltrate with membranous and high-fraction nuclear immunostaining (E-G; specific markers not labeled). Findings are consistent with peripheral T-cell lymphoma, NOS, in leukemic phase.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-ALL blasts are TdT-positive and usually CD34/CD1a-positive with only cytoplasmic CD3, whereas these cells are TdT-negative with surface CD3."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells are smaller with a single visible nucleolus and cytoplasmic blebs, and typically express TCL1 with inv(14)/t(14;14), whereas this population is TCL1-negative."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows flower cells with condensed chromatin, CD25 bright, CD7 loss and HTLV-1 positivity."},
+    {"dx": "Sézary syndrome", "vs": "Sézary cells are smaller with cerebriform nuclei, CD7 and CD26 loss, and associated erythroderma, rather than blast-like cells with basophilic cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry; SKY karyotype; H&E; IHC",
+  "match": "consistent",
+  "high_yield": false
+}

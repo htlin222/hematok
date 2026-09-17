@@ -1,0 +1,20 @@
+{
+  "id": "2976",
+  "recognize_zh": "低倍骨髓切片顯示細胞密度高、脂肪稀少，骨小樑間充滿混合造血細胞並有出血；此倍率無法辨認噬血組織球，僅能作為背景評估。",
+  "features": [
+    "Hypercellular marrow with markedly reduced fat",
+    "Thin bony trabeculae with intertrabecular spaces filled by mixed hematopoietic cells",
+    "Areas of hemorrhage along the cortical surface",
+    "Histiocytes and hemophagocytosis not resolvable at low power"
+  ],
+  "describe_en": "Low-power bone marrow core biopsy shows a hypercellular marrow with markedly reduced fat between thin bony trabeculae and areas of hemorrhage. Cellular detail, including histiocytes or hemophagocytosis, cannot be assessed at this magnification. The finding of a hypercellular marrow is nonspecific; evaluation for hemophagocytic lymphohistiocytosis requires high-power review, CD163 immunostaining and aspirate correlation.",
+  "ddx": [
+    {"dx": "Reactive marrow hyperplasia", "vs": "Reactive hyperplasia lacks histiocytic expansion with hemophagocytosis on high power and CD163 IHC."},
+    {"dx": "Acute leukemia", "vs": "Leukemia shows sheets of monotonous blasts on high power and CD34/flow confirmation."},
+    {"dx": "Myeloproliferative neoplasm", "vs": "MPN shows clustered atypical megakaryocytes and fibrosis rather than a histiocytic infiltrate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

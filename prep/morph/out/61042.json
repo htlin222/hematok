@@ -1,0 +1,21 @@
+{
+  "id": "61042",
+  "recognize_zh": "淋巴結低倍下在小淋巴球（SLL）背景中出現多個淡染結節並在周邊融合成片，高倍可見中大型非典型淋巴球；結節內細胞 Ki-67、C-MYC、MUM1 高表現，與周圍 SLL 形成對比，符合 Richter 轉化（大 B 細胞淋巴瘤型）。",
+  "features": [
+    "Low power: lymph node effaced with pale nodules centrally becoming confluent at the periphery, on a dark small-cell background",
+    "High power: sheets of medium-to-large atypical lymphoid cells with vesicular chromatin and nucleoli",
+    "CD20 diffusely positive; CD5 positive in the background with variable expression in the large-cell areas",
+    "CD3 highlights only scattered T cells",
+    "Ki-67, MYC and MUM1 concentrated in the nodular and subcapsular confluent large-cell areas"
+  ],
+  "describe_en": "Composite of lymph node sections. At low power the node is effaced by a small lymphocytic infiltrate containing discrete pale nodules centrally that become confluent toward the periphery. At high power these areas are composed of sheets of medium-to-large atypical lymphoid cells with vesicular nuclei. Immunostains show CD20 positivity, CD5 expression, sparse CD3-positive T cells, and a high Ki-67 index with MYC and MUM1 positivity concentrated in the large-cell regions, in contrast to the surrounding small lymphocytic lymphoma. Findings are consistent with Richter transformation of CLL/SLL to large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "CLL/SLL with expanded proliferation centers (accelerated phase)", "vs": "Proliferation centers contain prolymphocytes and paraimmunoblasts that do not form confluent sheets of large cells, and are smaller than a 20x field."},
+    {"dx": "Hodgkin-type Richter transformation", "vs": "Hodgkin-type RT has scattered CD30+/CD15+, CD20-negative Reed-Sternberg cells in a mixed background rather than sheets of CD20+ large B cells."},
+    {"dx": "Metastatic squamous cell carcinoma", "vs": "Carcinoma forms cohesive keratinizing nests positive for cytokeratin/p40 and negative for CD20."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E, IHC: CD20, CD5, CD3, Ki-67, MYC, MUM1",
+  "match": "consistent",
+  "high_yield": false
+}

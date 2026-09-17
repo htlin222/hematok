@@ -1,0 +1,20 @@
+{
+  "id": "65661",
+  "recognize_zh": "骨髓切片 H&E 看似正常三系造血，但 TCR-delta 免疫染色顯示陽性小 T 細胞呈線狀排列於血竇內（sinusoidal pattern），流式可見 TCRγδ 陽性族群，TRG PCR 出現單株峰；這種組合易誤判為肝脾 T 細胞淋巴瘤，本例實為 Babesia 感染引起的反應性增生。",
+  "features": [
+    "H&E bone marrow biopsy: normocellular to mildly hypercellular trilineage hematopoiesis without an obvious atypical infiltrate",
+    "TCR-delta IHC: small positive lymphocytes arranged in linear chains within marrow sinusoids",
+    "Flow cytometry: distinct CD3+ TCRgammadelta+ population (yellow) that is CD5-dim/partially decreased relative to alpha-beta T cells",
+    "Capillary electrophoresis of TRG PCR: two discrete clonal peaks (~174 and ~202 bp)"
+  ],
+  "describe_en": "Bone marrow core biopsy shows trilineage hematopoiesis without a morphologically conspicuous lymphoid infiltrate on H&E. Immunohistochemistry for TCR-delta highlights an increased population of small gamma-delta T cells with a predominantly intrasinusoidal distribution. Flow cytometry confirms an expanded CD3+ gamma-delta T-cell population, and PCR fragment analysis demonstrates clonal TRG rearrangement peaks. Although the sinusoidal pattern and clonality raise concern for hepatosplenic T-cell lymphoma, the absence of cytologic atypia, i(7q) and immunophenotypic aberrancy, together with PCR-proven babesiosis and resolution after treatment, support a reactive clonal gamma-delta T-cell proliferation secondary to infection.",
+  "ddx": [
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "Shows cytologically atypical medium-sized sinusoidal gamma-delta T cells, often CD5-negative/CD56+, with isochromosome 7q or trisomy 8, and does not regress with treating an infection."},
+    {"dx": "T-cell large granular lymphocytic leukemia (gamma-delta type)", "vs": "Persistent circulating LGLs with cytoplasmic azurophilic granules, CD57/CD16 expression and frequent STAT3 mutation, with interstitial rather than predominantly sinusoidal marrow infiltration."},
+    {"dx": "Relapsed mantle cell lymphoma", "vs": "Would show a cyclin D1+/SOX11+ CD5+ B-cell infiltrate rather than CD3+ TCR-delta+ T cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: TCR-delta; flow; TRG PCR",
+  "match": "consistent",
+  "high_yield": false
+}

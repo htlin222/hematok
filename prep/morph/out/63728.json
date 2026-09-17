@@ -1,0 +1,23 @@
+{
+  "id": "63728",
+  "recognize_zh": "骨髓抹片中充滿大小中等、核質比高、染色質細而均勻、胞質少且偏藍、無顆粒的原始細胞（blast），部分可見小核仁；箭頭處是一顆中期分裂相（mitotic figure），淡粉紅、破碎的污跡細胞也很多。無顆粒與 Auer 小體提示淋巴母細胞，但 B 系需靠流式確認。",
+  "features": [
+    "Sheets of small-to-medium blasts with very high N:C ratio",
+    "Round to slightly indented or oval nuclei with finely dispersed chromatin and inconspicuous to small nucleoli",
+    "Scant, moderately basophilic agranular cytoplasm; no Auer rods",
+    "Mitotic figure with condensed chromosomes arranged in a rosette/metaphase pattern (arrow)",
+    "Numerous disrupted smudged nuclei with pale pink reticulated chromatin (smear artifact)",
+    "Few residual normal hematopoietic cells in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a markedly increased population of small to medium-sized blasts with high nuclear-to-cytoplasmic ratio, round to slightly indented nuclei, finely dispersed chromatin, inconspicuous to small nucleoli and scant agranular basophilic cytoplasm. No Auer rods or cytoplasmic granules are identified. A mitotic figure is present (arrow), and numerous smudged, disrupted nuclei are seen in the background. Residual normal hematopoiesis is markedly reduced in this field. The morphology is consistent with acute lymphoblastic leukemia; B-lineage assignment requires flow cytometry (e.g., CD19, CD22, CD79a, CD10, TdT), and in this case is consistent with B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL blasts look identical; flow showing cyCD3 and T-lineage antigens without B markers separates them."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 blasts are also agranular but are CD13/CD33/CD117 positive and lack B-lymphoid antigens."},
+    {"dx": "Hematogones (benign B-cell precursors)", "vs": "Hematogones show a maturation continuum of CD34, CD10, CD20 on flow and rarely form sheets replacing marrow."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with lipid vacuoles and are surface-light-chain positive, TdT and CD34 negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

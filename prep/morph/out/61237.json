@@ -1,0 +1,30 @@
+{
+ "id": "61237",
+ "recognize_zh": "九格組圖中同時出現多種形態的肥大細胞：核偏心或雙葉、細胞質含粗大紫紅色顆粒（F、E）、部分顆粒稀少呈淡染泡沫狀（A–C），以及梭形具突起的顆粒化細胞（G–I），呈現非典型肥大細胞的形態譜。",
+ "features": [
+  "Panels A-C: medium-to-large cells with eccentric, bilobed or kidney-shaped nuclei and pale, hypogranular to vacuolated ('foamy') cytoplasm with sparse fine granules",
+  "Panel B/E: clusters of cells with abundant cytoplasm containing scattered purple metachromatic granules, admixed with granulocytes",
+  "Panel F: round cell densely packed with coarse purple-red granules obscuring a central nucleus, typical of a well-granulated mast cell",
+  "Panel D: small hypogranular cell with a round dense nucleus and a thin rim of cytoplasm bearing few peripheral granules",
+  "Panels G-I: spindle-shaped/elongated cells with cytoplasmic tails filled with coarse dark granules (atypical spindled mast cells)"
+ ],
+ "describe_en": "Composite of Wright-Giemsa-stained smears shows a spectrum of mast cell morphologies. Many cells are atypical, with eccentric or bilobed (promastocyte-like) nuclei and hypogranular, pale to vacuolated 'foamy' cytoplasm containing only sparse metachromatic granules, alongside classic round mast cells packed with coarse purple granules and spindle-shaped cells with granule-laden cytoplasmic extensions. The hypogranular forms can be mistaken for monocytes or dysplastic granulocytes. In the setting of systemic mastocytosis, a predominance of immature atypical mast cells in the aspirate supports mast cell leukemia; confirmation requires quantifying mast cells (>=20% of aspirate nucleated cells), tryptase, CD117/CD25 flow or IHC, and KIT mutation testing.",
+ "ddx": [
+  {
+   "dx": "Acute promyelocytic leukemia",
+   "vs": "Promyelocytes have bilobed nuclei with azurophilic granules and Auer rod bundles, are MPO strongly positive and tryptase negative, whereas mast cells show metachromatic, tryptase-positive granules."
+  },
+  {
+   "dx": "Basophilic leukemia / basophilia",
+   "vs": "Basophils have segmented nuclei and water-soluble granules overlying the nucleus and are CD123+/CD203c+ but lack the spindled forms and tryptase-high, CD25+ phenotype of neoplastic mast cells."
+  },
+  {
+   "dx": "Monocytic leukemia",
+   "vs": "Monocytic cells have folded nuclei and gray-blue cytoplasm with fine azurophilic granules and are NSE/CD14 positive but tryptase/CD117-bright negative."
+  }
+ ],
+ "specimen": "BM aspirate",
+ "stain": "Wright-Giemsa",
+ "match": "consistent",
+ "high_yield": false
+}

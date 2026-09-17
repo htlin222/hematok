@@ -1,0 +1,21 @@
+{
+  "id": "62680",
+  "recognize_zh": "C-MYC 染色中，約三到四成的淋巴細胞核呈強弱不等的核染色，分布不均，其餘細胞核為陰性；未達高表現（通常以 ≥40% 為界）則不特別提示 MYC 重排。",
+  "features": [
+    "Nuclear c-MYC staining in a subset of lymphoid cells, estimated roughly 30-40%",
+    "Intensity variable, from weak to strong",
+    "Positive cells distributed unevenly, somewhat clustered in the lower and right portions",
+    "Remaining small-to-medium lymphoid nuclei negative (hematoxylin counterstain)",
+    "No cytoplasmic staining"
+  ],
+  "describe_en": "C-MYC immunohistochemistry shows nuclear staining of variable intensity in a subset of lymphoid cells, estimated at roughly 30-40% in this field, with the remaining nuclei negative. Positive cells are unevenly distributed. MYC protein expression at this level is not specific for MYC rearrangement and should be interpreted with FISH if high-grade transformation is suspected. Findings are compatible with the reported follicular lymphoma, with a moderate proliferative/MYC-expressing fraction.",
+  "ddx": [
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Double-hit lymphoma usually has high-grade morphology with MYC expression in most cells and requires FISH confirmation of both rearrangements."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma shows MYC expression in nearly all cells with Ki-67 near 100% and BCL2 negativity."},
+    {"dx": "Reactive germinal center", "vs": "Reactive germinal centers contain scattered MYC-positive cells in a polarized distribution with BCL2-negative germinal center cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: c-MYC",
+  "match": "consistent",
+  "high_yield": false
+}

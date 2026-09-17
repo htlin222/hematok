@@ -1,0 +1,21 @@
+{
+  "id": "1279",
+  "recognize_zh": "骨髓抽吸液的顆粒（particle）中聚集許多小型、核單葉或低分葉的巨核細胞（hypolobated micromegakaryocytes），周圍還有不少母細胞；AML 合併巨核細胞增生且型態異常，應聯想 inv(3)/t(3;3)（MECOM）。",
+  "features": [
+    "Marrow particle containing numerous megakaryocytes with round, non-lobated or minimally lobated nuclei (hypolobated/monolobated forms)",
+    "Megakaryocytes vary from small to intermediate size with abundant granular cytoplasm and platelet budding into the particle",
+    "Background of scattered intermediate-sized blasts with high N:C ratio, fine chromatin and scant basophilic cytoplasm",
+    "Admixed maturing granulocytes and small lymphocytes around the particle",
+    "Cellular particle; no specific dysplastic granulocyte features resolvable at this magnification"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular particle densely populated by megakaryocytes. Many megakaryocytes are small to intermediate in size with round, non-lobated or hypolobated nuclei, indicating dysmegakaryopoiesis. The surrounding cells include an increased population of blasts with fine chromatin and scant basophilic cytoplasm, together with residual maturing granulocytes. In the setting of acute myeloid leukemia, these findings are suggestive of AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2) (GATA2::MECOM); confirmation requires cytogenetics.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm with isolated del(5q)", "vs": "del(5q) shows small monolobated megakaryocytes too, but blasts are <5% and platelets are typically normal to increased with macrocytic anemia, whereas here blasts are clearly increased."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL is dominated by megakaryoblasts with cytoplasmic blebs rather than many mature-appearing hypolobated megakaryocytes, and lacks MECOM rearrangement."},
+    {"dx": "Primary myelofibrosis / MPN with megakaryocytic proliferation", "vs": "MPN megakaryocytes are large and hyperlobated or cloud-like with dense clusters on biopsy and no blast increase, rather than small hypolobated forms with excess blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

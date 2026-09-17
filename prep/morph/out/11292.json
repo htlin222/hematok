@@ -1,0 +1,21 @@
+{
+  "id": "11292",
+  "recognize_zh": "低倍周邊血液抹片中，嗜中性球不散開而是成團聚集在抹片邊緣附近（neutrophil aggregates），其餘區域幾乎看不到白血球，這種體外聚集會使自動計數器低估白血球。",
+  "features": [
+    "Low-power field with two large aggregates of segmented neutrophils near the feathered edge",
+    "Few individually dispersed leukocytes elsewhere in the smear",
+    "Aggregated cells retain normal segmented nuclear morphology",
+    "Monolayer red cells without agglutination",
+    "Magnification limits assessment of platelets and cytoplasmic detail"
+  ],
+  "describe_en": "Low-power view of the peripheral blood smear shows clusters of segmented neutrophils aggregated near the feathered edge, with very few single leukocytes dispersed across the remainder of the field. The red cells form an even monolayer without agglutination. Detailed cytology and platelet assessment are limited at this magnification. Findings are consistent with in vitro neutrophil aggregation, which can cause a spuriously low automated neutrophil and white cell count; scanning the feathered edge and repeating the count on a non-EDTA sample are recommended.",
+  "ddx": [
+    {"dx": "True neutropenia", "vs": "True neutropenia shows few neutrophils uniformly throughout the smear, including the feathered edge, without clustered aggregates."},
+    {"dx": "Platelet clumping", "vs": "Platelet clumps are aggregates of small anucleate fragments, whereas these clusters are composed of nucleated segmented neutrophils."},
+    {"dx": "Cold agglutinin red cell agglutination", "vs": "Cold agglutinins cause irregular red cell clumps with a spurious macrocytosis, not aggregates of leukocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

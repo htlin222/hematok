@@ -1,0 +1,21 @@
+{
+  "id": "63102",
+  "recognize_zh": "周邊血中大型原始細胞染色質細緻、細胞質邊緣有一圈深藍色嗜鹼性環而內側較淡（A），B 圖可見細長的 Auer rod，C 圖過氧化酶染色見大顆粒狀的 pseudo-Chediak 顆粒；這組特徵是 AML with t(8;21) 的典型形態。",
+  "features": [
+    "Large myeloblasts with round nuclei, finely granular chromatin and high to moderate N:C ratio",
+    "Cytoplasm with a distinct deeply basophilic peripheral rim and paler inner zone",
+    "Panel B: blast with a paler perinuclear hof region and a long, slender Auer rod",
+    "Panel C (peroxidase): blasts with isolated large, coarse pseudo-Chediak-Higashi granules",
+    "Background red cells without significant poikilocytosis; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating large myeloblasts with finely dispersed chromatin and cytoplasm bearing a sharply basophilic outer rim. One blast contains a long, slender Auer rod (panel B), and peroxidase staining highlights coarse pseudo-Chediak-Higashi granules in some blasts (panel C). These morphologic features in circulating myeloblasts are strongly suggestive of AML with t(8;21)(q22;q22.1); RUNX1::RUNX1T1, which was confirmed by karyotype.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells have bilobed or folded nuclei with heavy azurophilic granules or bundles of Auer rods (faggot cells) rather than round-nucleated blasts with a basophilic rim and single long Auer rods."},
+    {"dx": "AML with inv(16)/CBFB::MYH11", "vs": "Inv(16) AML shows monocytic differentiation with abnormal eosinophils containing large basophilic granules in the marrow."},
+    {"dx": "AML with maturation, not otherwise specified", "vs": "Morphology overlaps, so the distinction requires cytogenetic or molecular detection of RUNX1::RUNX1T1, supported by CD19/PAX5 and CD56 coexpression on flow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; MPO (peroxidase)",
+  "match": "consistent",
+  "high_yield": true
+}

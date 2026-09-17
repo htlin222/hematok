@@ -1,0 +1,21 @@
+{
+  "id": "62511",
+  "recognize_zh": "淋巴球門內的 CD5 對 CD38 流式圖：淺藍色族群（推測為 CLL 的 B 細胞）CD5 弱陽性、CD38 表現分布很廣，有相當部分為 CD38 陽性；深紫色族群 CD5 較亮，推測為 T 細胞。CD38 陽性是 CLL 的不良預後指標，常見於 trisomy 12 的 CLL。",
+  "features": [
+    "Lymphocyte-gated dot plot of CD5-PB (x-axis) versus CD38-PC5.5 (y-axis)",
+    "Light blue population with dim CD5 (~10^3) and broad, heterogeneous CD38 expression spanning ~10^2 to 10^5",
+    "Substantial fraction of the light blue population is CD38-positive",
+    "Dark purple population with brighter CD5 (~5 x 10^3), presumed T cells",
+    "Few gray CD5-negative, CD38-bright events, likely plasma cells or other CD38-bright cells"
+  ],
+  "describe_en": "Flow cytometric plot of CD5 versus CD38 on gated lymphocytes shows a dominant light blue population with dim CD5 and heterogeneous CD38 expression, a considerable portion of which is CD38-positive. A separate dark purple population with brighter CD5 is consistent with residual T cells. The exact percentage of CD38-positive cells cannot be determined from the plot alone and should be reported against the 30% threshold. Dim CD5 on the clonal B cells with a CD38-positive subset is consistent with chronic lymphocytic leukemia with CD38 expression, an adverse prognostic marker often seen with trisomy 12.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is CD5-positive with frequent CD38 expression, but is CD23-negative with brighter CD20/sIg and cyclin D1."},
+    {"dx": "Reactive B cells with CD38 upregulation", "vs": "Reactive or germinal center-derived B cells are CD5-negative and polytypic."},
+    {"dx": "T-cell lymphoproliferative disorder", "vs": "A T-cell neoplasm would show abnormal CD5 intensity or loss on CD3-positive cells rather than dim CD5 on CD19-positive B cells."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A (flow cytometry)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

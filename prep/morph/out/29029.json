@@ -1,0 +1,21 @@
+{
+  "id": "29029",
+  "recognize_zh": "紅箭頭指的是與血小板差不多大的微小紅血球或碎片，顏色與一般紅血球相同（粉紅橙色、無顆粒），部分呈鋸齒狀；藍箭頭則是含紫色顆粒的真正血小板，兩者容易被血球計數儀混淆。",
+  "features": [
+    "Tiny red cells/red cell fragments of platelet size (red arrows) with homogeneous pink-orange hemoglobin staining and no granules",
+    "Some of the small red cells are crenated (spiculated), elongated or teardrop-shaped, mimicking platelet outlines",
+    "True platelets (blue arrows) are similar in size but show purple granular (granulomere) centers",
+    "Background red cells with anisopoikilocytosis, including echinocytes/crenated cells and occasional elliptocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with numerous crenated red cells and occasional elliptocytic forms. Scattered very small red cells and red cell fragments, comparable in size to platelets, are present; these are distinguished from adjacent true platelets by their homogeneous pink-orange hemoglobinized staining and lack of purple granules, whereas the platelets show granular purple centers. Such microcytic red cells and fragments can be counted as platelets by impedance analyzers, falsely elevating the automated platelet count; smear review or optical/immunologic platelet counting is recommended.",
+  "ddx": [
+    {"dx": "Platelets (including giant platelets)", "vs": "Platelets contain purple azurophilic granules with a pale hyalomere, whereas microcytic red cells stain uniformly the color of hemoglobin."},
+    {"dx": "Schistocytes in microangiopathic hemolytic anemia", "vs": "Schistocytes are sharply angulated helmet or triangular fragments in the setting of thrombocytopenia and hemolysis, whereas many of these are small round-to-crenated microcytes."},
+    {"dx": "Microspherocytes (e.g. hereditary pyropoikilocytosis, burns)", "vs": "Microspherocytes are dense round cells without spicules, and pyropoikilocytosis additionally shows budding and bizarre fragments with very low MCV."},
+    {"dx": "Howell-Jolly bodies or stain precipitate", "vs": "These are dark purple dots within red cells or on the background rather than free-lying hemoglobinized cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

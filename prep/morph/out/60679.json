@@ -1,0 +1,34 @@
+{
+	"id": "60679",
+	"recognize_zh": "骨髓切片中可見體積巨大的原紅血球（giant proerythroblast，箭頭），核內有大型嗜伊紅性、類似核仁的包涵體，周圍一圈透明暈；B 圖 CD71 IHC 標出這些大細胞為紅血球系前驅細胞，是 parvovirus B19 感染的典型表現。",
+	"features": [
+		"Scattered giant proerythroblasts, several times the size of surrounding precursors",
+		"Large, glassy eosinophilic intranuclear viral inclusions with peripheral chromatin margination and a clear halo ('lantern cells')",
+		"Moderate amount of amphophilic to eosinophilic cytoplasm around the giant cells",
+		"Background marrow with myeloid cells and paucity of maturing erythroid precursors",
+		"CD71 immunostain (panel B) labels the giant cell membrane/cytoplasm, confirming erythroid lineage"
+	],
+	"describe_en": "Bone marrow core biopsy (H&E, panel A) shows a cellular marrow with scattered giant proerythroblasts containing large, glassy eosinophilic intranuclear inclusions surrounded by a clear halo with marginated chromatin. Maturing erythroid precursors appear diminished in the background. Immunohistochemistry for CD71 (panel B) highlights the giant cell, confirming erythroid lineage. Findings are consistent with parvovirus B19 infection of erythroid precursors, explaining reticulocytopenia in the setting of autoimmune hemolytic anemia (aplastic crisis).",
+	"ddx": [
+		{
+			"dx": "Megaloblastic anemia",
+			"vs": "Megaloblasts show open, sieve-like chromatin and nuclear-cytoplasmic asynchrony across all erythroid stages, without glassy intranuclear inclusions or a halo."
+		},
+		{
+			"dx": "Pure erythroid leukemia",
+			"vs": "Erythroid leukemia shows sheets of proerythroblasts (≥30%) with basophilic, vacuolated cytoplasm rather than scattered giant cells with viral inclusions in a marrow depleted of erythroid maturation."
+		},
+		{
+			"dx": "Megakaryocytes or metastatic carcinoma cells",
+			"vs": "Megakaryocytes have lobulated nuclei and carcinoma cells form cohesive clusters; CD71 and glycophorin positivity with CD117 negativity establish erythroid identity of these cells."
+		},
+		{
+			"dx": "Cytomegalovirus inclusions",
+			"vs": "CMV causes owl-eye inclusions mainly in endothelial and stromal cells with granular cytoplasmic inclusions, whereas parvovirus affects erythroid precursors only; IHC or PCR resolves it."
+		}
+	],
+	"specimen": "BM biopsy",
+	"stain": "H&E; IHC: CD71",
+	"match": "consistent",
+	"high_yield": true
+}

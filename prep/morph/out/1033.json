@@ -1,0 +1,21 @@
+{
+  "id": "1033",
+  "recognize_zh": "骨髓抹片中央一團相黏的單核細胞，有的核深染較小、有的核較大且染色質細緻，細胞質淡藍；此視野看不到含被吞噬血球的組織球，無法僅憑此圖確認噬血現象。",
+  "features": [
+    "Aggregate of mononuclear cells with overlapping nuclei in the center of the field",
+    "Mixture of smaller cells with dense chromatin and larger cells with fine, open chromatin",
+    "Scant to moderate pale blue cytoplasm with indistinct cell borders",
+    "Scattered single mononuclear and plasmacytoid cells in the background",
+    "No macrophage containing ingested red cells or nucleated cells in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows an aggregate of mononuclear cells with overlapping nuclei, composed of smaller cells with dense chromatin admixed with larger cells with fine chromatin and pale cytoplasm. Scattered single mononuclear cells are present in the background. No definite hemophagocytic histiocyte is identified in this field. The image does not by itself demonstrate hemophagocytosis; the aggregate most likely represents clumped marrow cells, but a non-hematopoietic cluster should be excluded by review of other fields and ancillary studies.",
+  "ddx": [
+    {"dx": "Metastatic tumor cell cluster", "vs": "Metastatic clusters are truly cohesive with nuclear molding and cells larger or more atypical than marrow elements, and are CD45-negative/keratin or neuroendocrine marker positive."},
+    {"dx": "Hematogones or blast clump", "vs": "Hematogones and blasts are confirmed by flow cytometry (CD10/CD19/TdT spectrum versus aberrant blasts) rather than by aggregation pattern."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "Diagnosis rests on macrophages containing engulfed hematopoietic cells plus clinical criteria, not shown in this field."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

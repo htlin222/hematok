@@ -1,0 +1,19 @@
+{
+  "id": "62370",
+  "recognize_zh": "G 帶染色核型圖中第 7 號染色體只有一條（monosomy 7），性染色體為 XY；3 號染色體兩條外觀不對稱，配合病例提示 3q 重組，而 −7 是 inv(3)/t(3;3) AML 最常見的附加異常。",
+  "features": [
+    "G-banded karyotype arranged 1-22, X, Y from a male (XY)",
+    "Only one chromosome 7 present, consistent with monosomy 7",
+    "Chromosome 3 homologs appear unequal in length and banding, suggestive of a 3q structural rearrangement",
+    "Low band resolution and blurred image limit confirmation of the exact 3q21/3q26 breakpoints"
+  ],
+  "describe_en": "G-banded karyotype image shows a male complement with a single chromosome 7, consistent with monosomy 7. The two chromosome 3 homologs appear morphologically dissimilar, suggestive of a structural abnormality involving 3q, although band resolution in this image is insufficient to define the breakpoints. In the context of this case the karyotype is interpreted as a 3q21q26 rearrangement (inv(3)/t(3;3)) with monosomy 7, the most frequent secondary abnormality in this AML subtype and a marker of adverse prognosis. The ISCN nomenclature from the cytogenetics report should be used for final documentation.",
+  "ddx": [
+    {"dx": "Myeloid neoplasm with isolated monosomy 7", "vs": "Isolated -7 shows two normal chromosome 3 homologs, whereas a 3q26 rearrangement defines the inv(3)/t(3;3) entity."},
+    {"dx": "AML with t(3;21)(q26;q22) MECOM::RUNX1", "vs": "t(3;21) involves exchange between chromosomes 3 and 21 with an abnormal chromosome 21, often therapy-related or in CML blast phase."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": false
+}

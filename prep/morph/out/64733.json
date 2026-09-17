@@ -1,0 +1,22 @@
+{
+  "id": "64733",
+  "recognize_zh": "骨髓抹片中一個巨大的多核細胞，四個大小一致、彼此分離的圓形核聚在一起，每個核都有細緻染色質，周圍是大量顆粒狀、邊緣不規則的淡紫藍色細胞質，這種「多個分開的相同核」正是破骨細胞（osteoclast）而非巨核細胞。",
+  "features": [
+    "Very large cell with abundant irregular, finely to coarsely granular lilac-blue cytoplasm and ragged borders",
+    "Multiple (four) separate, discrete, round to oval nuclei of uniform size clustered centrally",
+    "Each nucleus with fine to moderately condensed chromatin and a single inconspicuous nucleolus",
+    "Nuclei are not interconnected or lobulated (unlike megakaryocyte)",
+    "Background of erythrocytes, lymphocytes and myeloid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a very large multinucleated cell with abundant granular, irregularly outlined cytoplasm containing four discrete, uniform, round nuclei with fine chromatin and small nucleoli. The nuclei are separate rather than joined or lobulated. Surrounding hematopoietic cells and red cells are unremarkable in this field. The morphology is characteristic of an osteoclast, a normal marrow constituent more frequently aspirated in children and in conditions with increased bone remodeling.",
+  "ddx": [
+    {"dx": "Megakaryocyte", "vs": "Megakaryocytes have a single multilobated, interconnected nucleus with fine azurophilic platelet granules, whereas osteoclasts have multiple separate uniform nuclei."},
+    {"dx": "Dysplastic megakaryocyte with widely separated nuclear lobes", "vs": "Separated-lobe megakaryocytes show unequal lobes with dense chromatin and platelet-type cytoplasm, rather than equal-sized round nuclei with open chromatin and coarse granules."},
+    {"dx": "Metastatic tumor giant cell or cluster of tumor cells", "vs": "Tumor cells are pleomorphic with prominent nucleoli and separate cell membranes, while an osteoclast has one shared cytoplasm with bland identical nuclei."},
+    {"dx": "Multinucleated histiocyte/foreign-body giant cell", "vs": "Histiocytic giant cells have vacuolated foamy cytoplasm with phagocytosed material and often peripherally arranged (Langhans) or haphazard nuclei."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

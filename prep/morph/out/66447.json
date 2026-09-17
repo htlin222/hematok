@@ -1,0 +1,22 @@
+{
+  "id": "66447",
+  "recognize_zh": "視野中有多個中性球（neutrophil）被一圈紅血球緊密環繞、呈花瓣狀排列（neutrophil-erythrocyte rosette），背景可見少數小而緻密、缺乏中央淡染區的紅血球，提示自體免疫溶血性貧血（AIHA）。",
+  "features": [
+    "Several segmented neutrophils each encircled by a single ring of closely apposed red cells, forming flower-like rosettes",
+    "Red cells in the rosettes are radially arranged and slightly deformed where they abut the neutrophil membrane",
+    "Neutrophils show normal lobation and granulation without visible ingested red cells (no erythrophagocytosis in this field)",
+    "Occasional small dense red cells lacking central pallor (spherocyte-like) and a rare polychromatic cell in the background",
+    "Scattered normal-sized platelets; no red cell agglutination clumps or schistocytes evident"
+  ],
+  "describe_en": "Peripheral blood smear shows multiple neutrophils each surrounded by a ring of adherent erythrocytes, forming neutrophil-erythrocyte rosettes. The rosetting neutrophils are morphologically unremarkable, and no definite erythrophagocytosis is seen in this field. The background red cells include occasional small dense spherocyte-like forms and a rare polychromatic cell; no large agglutinates or schistocytes are identified. Findings are suggestive of antibody-mediated red cell coating, as seen in autoimmune hemolytic anemia; correlation with DAT and hemolysis markers is recommended.",
+  "ddx": [
+    {"dx": "Red cell agglutination (cold agglutinin disease)", "vs": "Agglutination forms irregular free-floating red cell clumps without a central leukocyte, whereas rosettes are an organized ring of red cells around a neutrophil."},
+    {"dx": "Erythrophagocytosis by neutrophils", "vs": "Erythrophagocytosis shows red cells or pale vacuoles inside the neutrophil cytoplasm, while rosetting red cells remain external and adherent to the cell surface."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism is an EDTA artifact of platelets, not red cells, ringing neutrophils."},
+    {"dx": "Rouleaux", "vs": "Rouleaux are linear stacked red cells like coins without a central leukocyte, typically with a bluish proteinaceous background."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

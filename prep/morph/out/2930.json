@@ -1,0 +1,21 @@
+{
+  "id": "2930",
+  "recognize_zh": "周邊血液抹片中，許多血小板像花圈一樣黏附在嗜中性球周圍，形成血小板衛星現象（platelet satellitism），其他區域游離血小板相對稀少，這是EDTA引起的假性血小板減少。",
+  "features": [
+    "Numerous platelets adherent in a rosette around a band/segmented neutrophil in the center",
+    "A second neutrophil immediately adjacent is also partly rimmed by platelets",
+    "Platelets themselves are normal in size and granularity",
+    "Relatively few free platelets elsewhere in the field",
+    "Incidental small lymphocyte and a neutrophil with vacuolated cytoplasm at lower left"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic red cells with a relative paucity of free platelets. Centrally, numerous normal-appearing platelets are adherent to and encircle a neutrophil, with platelets also clustering against an adjacent neutrophil, forming the characteristic rosette of platelet satellitism. A small lymphocyte and a neutrophil with mildly vacuolated cytoplasm are also present. No schistocytes are seen. Findings are consistent with EDTA-dependent platelet satellitism, a cause of spurious thrombocytopenia; a repeat count in citrate or heparin anticoagulant is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia (e.g., immune thrombocytopenia)", "vs": "True thrombocytopenia shows a genuine scarcity of platelets without platelets adhering to leukocytes or forming clumps."},
+    {"dx": "EDTA-induced platelet clumping", "vs": "Platelet clumping shows free-floating platelet aggregates not attached to leukocytes, often at the feathered edge, although both may coexist."},
+    {"dx": "Neutrophil phagocytosis of platelets", "vs": "Phagocytosed platelets lie within the neutrophil cytoplasm rather than being rimmed around the outer membrane."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

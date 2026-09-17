@@ -1,0 +1,30 @@
+{
+ "id": "63141",
+ "recognize_zh": "CD3 圈選的 T 細胞中，CD4 陽性（綠）族群絕大部分落在 CD7 陰性區，只剩少量 CD4+CD7+ 正常細胞；CD4 陰性（紅，多為 CD8）T 細胞則保留 CD7。這種擴張的 CD4+CD7− 族群支持 Sézary 細胞。",
+ "features": [
+  "Dot plot gated on CD3+ T cells: CD4-FITC (x) versus CD7-APC700 (y)",
+  "Dominant CD4+ population (green) with loss of CD7 expression",
+  "Small residual CD4+CD7+ subset (normal helper T cells) above the main cluster",
+  "CD4-negative T cells (red, presumably CD8+) retain normal CD7 expression",
+  "Marked predominance of CD4+ over CD4-negative T cells"
+ ],
+ "describe_en": "Flow cytometric analysis gated on CD3-positive T cells shows a markedly expanded CD4-positive population, the majority of which lacks CD7 expression. A small subset of CD4-positive T cells retains CD7, and the CD4-negative T cells show normal CD7 expression, serving as internal controls. Findings indicate an aberrant CD4+CD7− T-cell population, consistent with involvement by Sézary syndrome in the appropriate clinical context (erythroderma, lymphadenopathy).",
+ "ddx": [
+  {
+   "dx": "Reactive CD4+CD7− T cells (e.g., benign erythrodermic dermatitis, aging)",
+   "vs": "Small CD4+CD7− subsets occur in reactive states, but Sézary syndrome requires a large clonal population (e.g., CD4+CD7− ≥40% or CD4+CD26− ≥30%, CD4:CD8 ≥10) with TCR clonality."
+  },
+  {
+   "dx": "T-cell prolymphocytic leukemia",
+   "vs": "T-PLL usually retains strong CD7 and shows TCL1 overexpression with inv(14)/t(14;14), whereas Sézary cells characteristically lose CD7 and CD26."
+  },
+  {
+   "dx": "Adult T-cell leukemia/lymphoma",
+   "vs": "ATLL is also CD4+CD7− but is typically CD25 bright, HTLV-1 positive, with flower cells in blood."
+  }
+ ],
+ "specimen": "flow",
+ "stain": "N/A",
+ "match": "non-morphologic",
+ "high_yield": true
+}

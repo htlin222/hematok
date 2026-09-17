@@ -1,0 +1,21 @@
+{
+  "id": "60697",
+  "recognize_zh": "腹部電腦斷層可見肝脾腫大；肝臟切片中肝細胞板之間的竇狀隙內散佈許多深紫黑色的細胞團，染色方式未標示，推測是標示漿細胞的呈色染色（如輕鏈原位雜交），提示腹水來自漿細胞腫瘤的肝臟竇狀隙浸潤，需以標記確認。",
+  "features": [
+    "Panel A (CT, axial): enlarged liver and spleen; no discrete hepatic mass evident; small amount of perihepatic fluid possible but not clearly demonstrated",
+    "Panel B: liver core with hepatocyte plates and fine golden-brown cytoplasmic pigment",
+    "Panel B: numerous discrete dark purple-black cell clusters within sinusoids and portal areas, distributed diffusely",
+    "Stain not labeled; signal intensity and pink background suggest a chromogenic ISH/IHC with red counterstain rather than routine H&E",
+    "No mass-forming nodules or amyloid-like eosinophilic deposits identifiable at this magnification"
+  ],
+  "describe_en": "Axial contrast-enhanced CT shows hepatosplenomegaly without a discrete hepatic mass. The liver biopsy shows preserved hepatocyte plates with fine pigment and numerous dark purple-black cell clusters distributed within the sinusoids and portal areas; the stain is not labeled, but the appearance suggests a chromogenic in situ hybridization or immunostain highlighting an infiltrating cell population. In the context of a plasma cell neoplasm, findings are suggestive of diffuse sinusoidal hepatic infiltration by neoplastic plasma cells as the cause of portal hypertension and ascites; the marker identity and light chain restriction should be confirmed from the original report.",
+  "ddx": [
+    {"dx": "Hepatic AL amyloidosis", "vs": "Amyloid appears as amorphous eosinophilic sinusoidal deposits compressing hepatocyte plates with Congo red apple-green birefringence, not discrete cellular clusters."},
+    {"dx": "Light chain deposition disease", "vs": "LCDD shows linear sinusoidal/basement membrane deposits on kappa/lambda immunofluorescence without cellular infiltrates."},
+    {"dx": "Hepatic involvement by lymphoma or leukemia", "vs": "Lymphoma infiltrates are CD20/CD3 positive and typically portal-based, whereas plasma cell infiltrates are CD138+ with monotypic light chain."}
+  ],
+  "specimen": "tissue",
+  "stain": "Unlabeled (likely chromogenic ISH/IHC); CT",
+  "match": "partial",
+  "high_yield": false
+}

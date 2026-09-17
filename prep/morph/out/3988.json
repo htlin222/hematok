@@ -1,0 +1,21 @@
+{
+  "id": "3988",
+  "recognize_zh": "箭頭所指的中性球體積偏大，核分成 6 葉以上（≥6 葉即為過度分葉），背景可見多種髓系前驅細胞與胞質深藍、染色質較疏鬆的大型紅系前驅細胞；過度分葉中性球是巨母細胞性貧血（megaloblastic anemia）的重要線索。",
+  "features": [
+    "Arrowed neutrophil with six or more nuclear lobes (hypersegmentation), slightly enlarged",
+    "Other large granulocytic forms with band-like or ring-shaped nuclei, suggestive of giant bands/metamyelocytes",
+    "Large erythroid precursor (upper right) with deep blue cytoplasm and open, finely granular chromatin, suggesting megaloblastic change",
+    "Mixed myeloid precursors including promyelocytes/myelocytes",
+    "Red cells with anisopoikilocytosis, including teardrop and fragmented forms"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular mixture of granulocytic and erythroid precursors. The arrowed neutrophil is enlarged and hypersegmented with at least six nuclear lobes, and additional large granulocytes with band-like or ring-shaped nuclei suggest giant bands or metamyelocytes. A large erythroid precursor with deeply basophilic cytoplasm and open, finely stippled chromatin is also present, and red cells show anisopoikilocytosis. Findings are consistent with megaloblastic hematopoiesis, as seen in vitamin B12 or folate deficiency; serum B12, folate, methylmalonic acid and homocysteine should be correlated.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS can show megaloblastoid erythroid change but typically has hypogranular or pseudo-Pelger neutrophils rather than hypersegmentation, with normal B12/folate levels."},
+    {"dx": "Drug-induced megaloblastosis (methotrexate, hydroxyurea, antiretrovirals)", "vs": "Drug effect is morphologically identical and is distinguished only by medication history with normal vitamin levels."},
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "The rare benign hereditary form shows hypersegmented neutrophils without macrocytosis, giant metamyelocytes or megaloblastic erythroid precursors."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

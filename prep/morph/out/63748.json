@@ -1,0 +1,21 @@
+{
+  "id": "63748",
+  "recognize_zh": "骨髓切片 CD20 染色幾乎整片陽性（瀰漫性 B 細胞浸潤），CD138 顯示散在成群的漿細胞；輕鏈染色 kappa 大片陽性而 lambda 僅零星陽性，呈現 kappa 輕鏈限制性，符合伴隨漿細胞分化的單株性 B 細胞淋巴瘤（淋巴漿細胞淋巴瘤）。",
+  "features": [
+    "CD20: diffuse, near-confluent positivity replacing the marrow space",
+    "CD138: increased scattered and clustered plasma cells interspersed within the B-cell infiltrate",
+    "Kappa: strong, diffuse staining (cytoplasmic plus background) highlighting the plasmacytic component",
+    "Lambda: only rare scattered positive cells, indicating kappa light-chain restriction",
+    "Low-power views with bony trabeculae and fat spaces"
+  ],
+  "describe_en": "Immunohistochemical stains on the bone marrow core biopsy show a diffuse infiltrate of CD20-positive B cells effacing the marrow space. CD138 highlights increased plasma cells present singly and in clusters within the infiltrate. Kappa in situ/immunostaining is diffusely positive, whereas lambda marks only rare scattered cells, indicating kappa light-chain restriction of the plasmacytic component. Findings indicate a clonal B-cell lymphoma with plasmacytic differentiation and, together with morphology and MYD88 L265P, are consistent with lymphoplasmacytic lymphoma. Kappa staining shows some background signal, which should be interpreted with care.",
+  "ddx": [
+    {"dx": "Marginal zone lymphoma", "vs": "MZL shares CD20+ B cells with monotypic plasma cells; distinction relies on clinical presentation, nodular/intrasinusoidal pattern and MYD88 status rather than this immunoprofile."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma shows sheets of light-chain-restricted CD138+ plasma cells without a diffuse CD20+ B-cell component."},
+    {"dx": "Reactive polyclonal plasmacytosis with lymphoid aggregates", "vs": "Reactive plasma cells show a normal kappa:lambda ratio (about 2:1) and B cells form small non-destructive aggregates."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD20, CD138, kappa, lambda",
+  "match": "consistent",
+  "high_yield": false
+}

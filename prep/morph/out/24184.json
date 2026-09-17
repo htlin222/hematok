@@ -1,0 +1,22 @@
+{
+  "id": "24184",
+  "recognize_zh": "周邊血抹片紅血球之間可見一條細長、呈規則波浪狀捲曲的螺旋菌（spirochete），位於細胞外、長度約 1–2 個紅血球直徑，配合高燒與低血壓，即為回歸熱螺旋體（Borrelia）菌血症。",
+  "features": [
+    "Single thin, extracellular, loosely coiled spiral organism between red cells",
+    "Organism length roughly 1-2 red cell diameters with regular undulations, staining lightly purple",
+    "Red cells show mild anisocytosis without significant fragmentation",
+    "A band/segmented neutrophil without intracellular organisms",
+    "Platelets not prominent in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells with mild anisocytosis and an occasional neutrophil. A thin, extracellular spirochete with regular, loose coils is present in the plasma between red cells. No intraerythrocytic parasites or intracellular inclusions are identified in this field. In a febrile, hypotensive patient, findings are consistent with spirochetemia due to relapsing fever Borrelia (e.g. Borrelia hermsii).",
+  "ddx": [
+    {"dx": "Fibrin strand or stain precipitate artifact", "vs": "Artifacts are irregular, variably thick and lack the uniform regular coils of a spirochete."},
+    {"dx": "Trypanosoma species", "vs": "Trypanosomes are larger with a visible nucleus, kinetoplast and undulating membrane, unlike this slender coiled organism without internal structure."},
+    {"dx": "Leptospira", "vs": "Leptospires are finer with tightly wound coils and hooked ends and are rarely seen on Wright-stained smears."},
+    {"dx": "Filarial microfilaria", "vs": "Microfilariae are much larger (many red cells long) with a column of nuclei."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

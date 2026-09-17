@@ -1,0 +1,22 @@
+{
+  "id": "65663",
+  "recognize_zh": "骨髓抹片中央一顆大型巨噬細胞（histiocyte）的細胞質內，包著好幾個圓形深染的有核細胞（似紅血球前驅細胞或淋巴球），周圍有清楚的空泡邊界，即為噬血現象；需配合臨床與 HLH 診斷標準判讀。",
+  "features": [
+    "Large histiocyte with abundant pale blue cytoplasm containing several engulfed nucleated cells",
+    "Phagocytosed cells have round dense nuclei consistent with erythroid precursors or lymphocytes, some within clear phagocytic vacuoles",
+    "Additional cell (possibly erythroid precursor) closely apposed to the macrophage edge",
+    "Background of intact hematopoietic cells including a neutrophil and scattered mononuclear cells",
+    "Thick area of aspirate with numerous red cells and granular pink background debris"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large histiocyte with abundant cytoplasm containing multiple phagocytosed nucleated cells, likely erythroid precursors and/or lymphocytes, within clear vacuoles. Surrounding marrow elements include neutrophils and mononuclear cells in a thick, red-cell-rich area of the smear. No hemoparasites, blasts, or atypical lymphoid cells are identified in this field. Findings demonstrate hemophagocytosis, which supports but is neither sensitive nor specific for hemophagocytic lymphohistiocytosis and must be interpreted with clinical and laboratory criteria.",
+  "ddx": [
+    {"dx": "Cells overlying a macrophage on a thick smear", "vs": "Superimposed cells lie in a different focal plane without a surrounding phagocytic vacuole, whereas true hemophagocytosis shows cells enclosed within vacuoles."},
+    {"dx": "Emperipolesis in megakaryocytes", "vs": "Emperipolesis involves intact cells passing through a megakaryocyte with a lobulated nucleus and granular cytoplasm, not a histiocyte."},
+    {"dx": "Visceral leishmaniasis or histoplasmosis", "vs": "These show macrophages packed with small organisms (Leishman-Donovan bodies with kinetoplasts or haloed yeasts) rather than engulfed nucleated cells."},
+    {"dx": "Malignancy-associated HLH (e.g., T/NK-cell lymphoma)", "vs": "It is suggested by atypical lymphoid cells, clonal T-cell studies, or EBV-positive infiltrates, which were absent here."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60743",
+  "recognize_zh": "骨髓抹片中的腫瘤細胞呈黏聚成團 (cohesive clusters)、細胞質豐富且核仁明顯，像漿細胞卻成群排列；切片中 CD138 呈膜染但 HepPar1 陽性，證實為肝細胞癌轉移，而非骨髓瘤。",
+  "features": [
+    "Panel A: cohesive syncytial cluster of large cells with abundant grey-blue cytoplasm and eccentric round nuclei with small nucleoli",
+    "Panel A: cells mimic plasma cells but lack a perinuclear hof and are tightly clustered",
+    "Panel B: sheets of polygonal cells with eosinophilic cytoplasm and round nuclei replacing marrow between fat",
+    "Panel C: CD138 membranous staining in the tumor sheet (CD138 is not specific for plasma cells)",
+    "Panel D: HepPar1 granular cytoplasmic positivity in tumor cells, supporting hepatocellular origin"
+  ],
+  "describe_en": "Bone marrow aspirate shows cohesive clusters of large atypical cells with abundant basophilic cytoplasm, eccentric nuclei and small nucleoli, superficially resembling plasma cells. The core biopsy shows sheets of polygonal epithelioid cells with eosinophilic cytoplasm effacing the normal marrow. Immunohistochemistry shows membranous CD138 staining and granular cytoplasmic HepPar1 positivity in the tumor cells. Findings are consistent with metastatic hepatocellular carcinoma mimicking plasma cell myeloma; CD138 positivity alone should not be taken as evidence of a plasma cell neoplasm.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma (plasmablastic/anaplastic)", "vs": "Myeloma cells are discohesive with a perinuclear hof and show light chain restriction and CD38/MUM1 positivity, whereas these cells form cohesive clusters and express HepPar1."},
+    {"dx": "Other metastatic carcinoma (e.g. renal cell carcinoma)", "vs": "Distinguished by IHC: HepPar1/arginase-1/glypican-3 favour hepatocellular carcinoma, PAX8 favours renal primary."},
+    {"dx": "Metastatic neuroendocrine carcinoma", "vs": "Neuroendocrine tumors show nuclear molding with salt-and-pepper chromatin and synaptophysin/chromogranin positivity rather than abundant eosinophilic cytoplasm and HepPar1."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC: CD138, HepPar1",
+  "match": "consistent",
+  "high_yield": false
+}

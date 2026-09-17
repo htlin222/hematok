@@ -1,0 +1,22 @@
+{
+  "id": "3516",
+  "recognize_zh": "中央一顆大小正常、未脹大的紅血球內同時有兩個纖細的環狀滋養體，各帶一個深紅色染色質點，單一紅血球多重感染加上細環形態，是惡性瘧（P. falciparum）的典型線索。",
+  "features": [
+    "Normal-sized red cell containing two delicate ring-form trophozoites (multiply infected red cell)",
+    "Each ring has a thin rim of blue cytoplasm and a single dark red chromatin dot",
+    "Infected red cell is not enlarged and lacks Schüffner stippling",
+    "A separate red cell (upper left) with a small dark chromatin body that may be another early ring",
+    "Background normocytic red cells and scattered small platelets; no gametocytes or schizonts in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic red cells, one of which contains two small delicate ring-form trophozoites, each with a single chromatin dot. The infected cell is not enlarged and shows no Schüffner stippling, and a second red cell contains a small chromatin body suggestive of an additional ring. Mature trophozoites, schizonts and banana-shaped gametocytes are not seen in this field. Findings are consistent with Plasmodium infection, most suggestive of P. falciparum; quantify parasitemia and confirm species urgently.",
+  "ddx": [
+    {"dx": "Babesia species", "vs": "Babesia rings are pleomorphic, may be extracellular or form tetrads, and lack hemozoin pigment and gametocytes, often in an asplenic patient with tick exposure."},
+    {"dx": "Plasmodium vivax", "vs": "P. vivax infects enlarged red cells with Schüffner dots and shows thicker amoeboid trophozoites; multiple rings per cell are uncommon."},
+    {"dx": "Plasmodium knowlesi or P. malariae", "vs": "Early rings may look similar, but later stages show band-form trophozoites and rosette schizonts, and species confirmation requires PCR."},
+    {"dx": "Stain precipitate or overlying platelets", "vs": "Artifacts lie in a different focal plane and lack the combination of a blue cytoplasmic ring with a discrete red chromatin dot."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

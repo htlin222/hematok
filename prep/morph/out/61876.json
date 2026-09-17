@@ -1,0 +1,22 @@
+{
+  "id": "61876",
+  "recognize_zh": "流式細胞圖中紅色的原始細胞群（P5）位於 CD45 中低表現、低側向散射區，對 CD13、CD33、CD117、CD11b、CD64、HLA-DR 等骨髓系標記及 CD19、CD20、CD10 等 B 系標記均為陰性，僅 CD38 陽性；排除 Burkitt 與骨髓系白血病，需再以 T 系標記確認。",
+  "features": [
+    "Blast gate (red, P5) with dim-to-intermediate CD45 and low side scatter, distinct from lymphocytes (blue, P3) and granulocytes/monocytes (green, P4)",
+    "Blasts negative for myeloid markers CD13, CD33, CD117, CD11b, CD11c, CD64 and CD14",
+    "Blasts negative for B-lineage markers CD19, CD20 and CD10",
+    "Blasts negative for CD34, HLA-DR and CD56",
+    "Blasts bright CD38 positive"
+  ],
+  "describe_en": "Multiparameter flow cytometry plots from a B/myeloid screening tube show an abnormal blast population (red, P5) with dim-to-intermediate CD45 and low side scatter, separate from mature lymphocytes (blue) and myeloid cells (green). The red population is negative for myeloid markers (CD13, CD33, CD117, CD11b, CD11c, CD64, CD14), B-lineage markers (CD19, CD20, CD10), CD34, HLA-DR and CD56, and is brightly CD38 positive. This lineage-negative profile excludes Burkitt lymphoma and AML and mandates a T-cell panel; subsequent T-lineage markers (cytoplasmic/surface CD3, CD1a, CD2, CD5, CD7, CD4/CD8 co-expression) established T-lymphoblastic leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are CD19, CD20 and CD10 positive with surface light-chain restriction, whereas this population is negative for all B-lineage markers."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts typically express CD13, CD33, CD117 and/or HLA-DR, all of which are negative here."},
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "B-ALL blasts express CD19 with CD10 and often CD34, which are absent in this population."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN expresses CD4, CD56, CD123 and HLA-DR, whereas these blasts are CD56 and HLA-DR negative."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

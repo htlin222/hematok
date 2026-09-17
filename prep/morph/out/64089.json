@@ -1,0 +1,22 @@
+{
+  "id": "64089",
+  "recognize_zh": "肋膜積液抹片中幾乎全是單一型態、非黏聚的淋巴樣細胞，胞質深藍嗜鹼性、核質比高、核圓，並夾雜許多破裂後呈粉紅色的裸核；積液中出現這種大量單形性淋巴樣細胞，提示淋巴瘤侵犯（本例為 DLBCL）。",
+  "features": [
+    "Hypercellular fluid dominated by a monotonous population of discohesive lymphoid cells",
+    "High N:C ratio with round nuclei and moderately coarse chromatin",
+    "Narrow rim of deeply basophilic cytoplasm; some cells with small cytoplasmic projections",
+    "Numerous larger pink-staining disrupted nuclei (lysed/bare nuclei) reflecting cell fragility",
+    "Mesothelial cells and mixed inflammatory cells are inconspicuous; cell size is hard to gauge because few red cells are present for comparison"
+  ],
+  "describe_en": "Pleural fluid smear shows a markedly cellular specimen composed of a monotonous population of discohesive lymphoid cells with high nuclear-to-cytoplasmic ratios, round nuclei, and narrow rims of deeply basophilic cytoplasm. Numerous disrupted cells appear as enlarged pink-staining bare nuclei, indicating cellular fragility. Reactive mesothelial cells and a polymorphous inflammatory background are not conspicuous. Cell size is difficult to assess at this magnification without red cells for scale. The findings are suspicious for involvement by lymphoma, consistent with the clinical history of diffuse large B-cell lymphoma, and should be confirmed by flow cytometry or cell block immunohistochemistry.",
+  "ddx": [
+    {"dx": "Reactive lymphocytic effusion (e.g., tuberculosis, heart failure)", "vs": "Reactive effusions contain small mature lymphocytes with a mixed population and mesothelial cells, and are polytypic on flow cytometry."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are medium-sized with deeply basophilic cytoplasm containing prominent lipid vacuoles and show MYC rearrangement with Ki-67 near 100%."},
+    {"dx": "Primary effusion lymphoma", "vs": "PEL cells are large, plasmablastic to immunoblastic, HHV-8 positive and usually lack CD20, occurring without a solid mass."},
+    {"dx": "Metastatic small cell carcinoma", "vs": "Small cell carcinoma forms cohesive clusters with nuclear molding and is cytokeratin/neuroendocrine marker positive and CD45-negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

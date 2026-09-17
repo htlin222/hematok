@@ -1,0 +1,21 @@
+{
+  "id": "2479",
+  "recognize_zh": "高倍周邊血液中並排四個骨髓單核球系細胞：核摺疊或分葉不規則、胞質灰藍，其中一個有空泡、右下一個胞質有粒狀顆粒像未成熟顆粒球；血液中出現異常單核球與未成熟骨髓細胞，符合 JMML。",
+  "features": [
+    "Four medium-sized myelomonocytic cells with grey-blue cytoplasm",
+    "Irregular, folded to lobulated nuclei with moderately condensed chromatin (monocytes/abnormal monocytoid cells)",
+    "Small cytoplasmic vacuole in the left cell",
+    "Lower right cell with azurophilic granules and a lobulated nucleus, suggesting an immature granulocyte",
+    "Background red cells with anisocytosis; no Auer rods"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows a cluster of myelomonocytic cells with folded to lobulated nuclei and grey-blue cytoplasm, one containing a small vacuole, and an adjacent cell with azurophilic granules suggestive of an immature granulocyte. No Auer rods are present. Red cells show anisocytosis. The presence of atypical monocytes with circulating immature myeloid cells is consistent with juvenile myelomonocytic leukemia in the appropriate pediatric clinical and genetic context.",
+  "ddx": [
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes are mature with normal nuclear folding and are not accompanied by immature granulocytes and nucleated red cells."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows predominantly myelocytes and segmented neutrophils with basophilia rather than monocytes and is BCR-ABL1 positive."},
+    {"dx": "Acute myelomonocytic leukemia", "vs": "AMML shows >=20% blasts and promonocytes with fine chromatin and nucleoli rather than mostly mature-appearing monocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

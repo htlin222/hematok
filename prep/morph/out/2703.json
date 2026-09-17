@@ -1,0 +1,22 @@
+{
+  "id": "2703",
+  "recognize_zh": "骨髓抹片中多顆細胞的細胞質塞滿粗大顆粒，部分為橘紅色、部分帶深紫藍色（未成熟嗜酸性顆粒），核為圓形或腎形，屬嗜酸性骨髓球與後骨髓球；嗜酸系明顯增加是線索，但特發性嗜酸性球增多症需排除其他原因才能診斷。",
+  "features": [
+    "Increased eosinophil precursors (eosinophilic myelocytes and metamyelocytes) with round-to-indented nuclei",
+    "Cytoplasm packed with coarse granules, a mixture of orange-pink mature and purple-blue immature (pro-eosinophilic) granules",
+    "Earlier granulocytic precursor with blue cytoplasm and fine granules",
+    "No clearly increased blasts in this field",
+    "Scattered orthochromatic normoblast and red cells in background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of granulocytic cells dominated by eosinophil lineage precursors, including eosinophilic myelocytes and metamyelocytes with coarse cytoplasmic granules, some of which retain purple-blue immature staining. An earlier granulocytic precursor and an orthochromatic normoblast are also present. Blasts are not increased in this field and the eosinophil granules appear uniform without large abnormal basophilic granules. Findings show marked eosinophilic hyperplasia, compatible with idiopathic hypereosinophilic syndrome only after exclusion of reactive causes, PDGFRA/PDGFRB/FGFR1/JAK2/FLT3 rearrangements, clonal cytogenetic abnormalities, and systemic mastocytosis.",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and PDGFRA rearrangement (FIP1L1::PDGFRA)", "vs": "Morphology is similar; diagnosis requires FISH or RT-PCR for the CHIC2 deletion/FIP1L1::PDGFRA fusion, often with increased atypical mast cells and elevated tryptase."},
+    {"dx": "Chronic eosinophilic leukemia", "vs": "CEL requires evidence of clonality or increased blasts (≥2% in blood or ≥5% in marrow) and abnormal eosinophil morphology, which are not demonstrated here."},
+    {"dx": "Reactive eosinophilia (parasites, drugs, allergy, T-cell lymphoma)", "vs": "Reactive eosinophilia cannot be separated on marrow morphology and is excluded clinically, serologically and by T-cell clonality studies."},
+    {"dx": "AML with inv(16)/CBFB::MYH11", "vs": "Inv(16) shows increased blasts and abnormal eosinophils with large dark purple basophilic granules in a myelomonocytic background."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

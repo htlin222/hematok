@@ -1,0 +1,21 @@
+{
+  "id": "60529",
+  "recognize_zh": "免疫組織化學染色（未標示抗體）中，許多小至中型淋巴細胞呈清楚的環狀膜染色，成群散佈；夾在其間、細胞核卵圓淡染而細長的類上皮組織球則為陰性，呈現陽性淋巴細胞與陰性組織球交錯的圖像。",
+  "features": [
+    "IHC with brown DAB chromogen and hematoxylin counterstain; antibody not labeled",
+    "Crisp membranous (ring-like) positivity in numerous small-to-medium lymphoid cells, some in small clusters",
+    "Positive cells have mildly irregular nuclei",
+    "Negative intervening cells with elongated to oval pale nuclei and abundant cytoplasm, resembling epithelioid histiocytes",
+    "Positive population is substantial but not confluent, leaving histiocyte-rich negative zones"
+  ],
+  "describe_en": "Immunohistochemical stain shows crisp membranous positivity in numerous small-to-medium lymphoid cells with mildly irregular nuclei, arranged singly and in small clusters. They are intermixed with negative cells bearing oval to elongated pale nuclei and abundant cytoplasm, consistent with epithelioid histiocytes. The antibody is not labeled, so the marker cannot be identified from the image, although the membranous pattern in lymphoid cells is typical of a T-cell antigen. In the context of the title, the image illustrates the T-cell infiltrate admixed with numerous epithelioid histiocytes in lymphoepithelioid (Lennert) lymphoma, a variant of peripheral T-cell lymphoma, NOS.",
+  "ddx": [
+    {"dx": "Reactive granulomatous or paracortical lymphadenitis", "vs": "Reactive T cells lack aberrant antigen loss and are polyclonal by TCR gene rearrangement studies."},
+    {"dx": "Classic Hodgkin lymphoma, mixed cellularity", "vs": "Hodgkin lymphoma requires CD30+/CD15+ Reed-Sternberg cells, which would be negative for T-cell markers."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows TFH marker expression and CD21+ expanded follicular dendritic cell networks around vessels."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antibody not labeled",
+  "match": "partial",
+  "high_yield": false
+}

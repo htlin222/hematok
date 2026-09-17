@@ -1,0 +1,21 @@
+{
+  "id": "65169",
+  "recognize_zh": "兩張流式散佈圖中紫色腫瘤族群為 CD34 陰性、CD117 弱陽性（約 10^1）、CD15 陰性，缺乏幹細胞與骨髓性成熟標記；需結合 CD45 陰性、CD56 強陽性的結果判讀，不應誤當成骨髓芽細胞。",
+  "features": [
+    "Left plot (CD117 vs CD34): highlighted population is CD34-negative with dim to moderate CD117 expression",
+    "Right plot (CD15 vs CD117): the same population is CD117-positive and CD15-negative",
+    "Gray CD15-positive granulocytes are separate from the tumor population",
+    "Small green CD34-negative/CD117-negative events near the origin",
+    "Plots are ungated; lineage requires correlation with CD45 and CD56 plots"
+  ],
+  "describe_en": "Flow cytometric plots show a dominant population that is CD34 negative, dim to moderately CD117 positive, and CD15 negative, separate from the CD15-positive granulocytes. In isolation, CD117 expression could suggest a myeloid or mast cell population, but in combination with CD45 negativity and bright CD56 expression in the same sample, the population is non-hematopoietic. CD117 expression has been reported in a subset of neuroblastomas. Findings support bone marrow infiltration by metastatic neuroblastoma, with lineage confirmation by GD2 or immunohistochemistry.",
+  "ddx": [
+    {"dx": "CD34-negative acute myeloid leukemia", "vs": "Myeloblasts are CD45 dim-positive with CD13/CD33 and often HLA-DR or MPO, whereas this CD117-positive population is CD45-negative and CD56-bright."},
+    {"dx": "Mast cell neoplasm", "vs": "Mast cells show bright CD117 with high side scatter and CD45 positivity (neoplastic forms CD25/CD2-positive), unlike this dim CD117, CD45-negative population."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing sarcoma can be CD117 and CD56 positive and CD45 negative, so bright CD99 and EWSR1 rearrangement versus GD2/PHOX2B separate it."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63311",
+  "recognize_zh": "周邊血液抹片中有不少體積較小、缺乏中央淡染區的緻密紅血球（球形/不規則收縮細胞 irregularly contracted cells），另有鋸齒狀紅血球與紅血球碎片，搭配 dapsone 用藥史提示氧化性溶血；本圖中典型的咬痕細胞（bite cell）與水泡細胞（blister cell）並不明顯。",
+  "features": [
+    "Mixed red cell population with numerous small, dense erythrocytes lacking central pallor (spherocytes/irregularly contracted cells)",
+    "Scattered cells with irregular, partially contracted or eccentric outlines and occasional red cell fragments",
+    "Crenated red cells (echinocytes), at least partly consistent with drying artifact",
+    "Occasional elongated/elliptical cell; normal-appearing platelets",
+    "Definite bite cells or blister cells with hemoglobin retraction are not convincingly seen in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows anisocytosis with numerous small, dense erythrocytes lacking central pallor, consistent with spherocytes and irregularly contracted cells, along with scattered crenated cells and occasional red cell fragments. Classic bite cells and blister cells with eccentric hemoglobin retraction are not clearly identified in this field, and Heinz bodies require a supravital stain for demonstration. Platelets appear adequate and no leukocytes are present in this field. In the setting of dapsone therapy, the findings are suggestive of oxidative hemolysis; confirmation with a Heinz body preparation, methemoglobin level and G6PD assay is recommended.",
+  "ddx": [
+    {"dx": "Hereditary spherocytosis", "vs": "HS shows uniform round microspherocytes with a positive family history and EMA-binding test, without drug exposure or irregularly contracted/bite cells."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "AIHA produces spherocytes with polychromasia and a positive direct antiglobulin test, whereas oxidative hemolysis is DAT-negative with Heinz bodies."},
+    {"dx": "G6PD deficiency with oxidant exposure", "vs": "Morphology is identical (bite and blister cells, Heinz bodies); separation requires G6PD enzyme assay performed after recovery from the acute episode."},
+    {"dx": "Drying artifact (crenation)", "vs": "Artifactual echinocytes are evenly spiculated with preserved size and appear in thick areas, whereas irregularly contracted cells are small, dense and unevenly shaped."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

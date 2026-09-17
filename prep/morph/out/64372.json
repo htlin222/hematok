@@ -1,0 +1,22 @@
+{
+  "id": "64372",
+  "recognize_zh": "骨髓抹片中箭頭所指的淋巴樣細胞為中到大型，核呈摺疊、凹陷或裂開狀（cleaved/indented），細胞質較嗜鹼性，混在正常的顆粒球系細胞之間，在濾泡性淋巴瘤背景下提示骨髓侵犯。",
+  "features": [
+    "Atypical lymphoid cells of intermediate to large size (arrows) with moderate N:C ratio",
+    "Irregular nuclear contours with folding, indentation and clefts",
+    "Relatively fine to slightly coarse chromatin with inconspicuous to variably visible nucleoli",
+    "Scant to moderate basophilic cytoplasm, some with a pale perinuclear zone",
+    "Admixed background granulocytic precursors, segmented neutrophils, an eosinophil and a few small lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered atypical lymphoid cells (arrows) that are intermediate to large in size with irregular, folded and indented to cleaved nuclear contours, relatively dispersed chromatin, variably visible nucleoli and a moderate rim of basophilic cytoplasm. These cells are admixed with maturing granulocytic elements, an eosinophil and small lymphocytes. The cytomorphology is suggestive of marrow involvement by follicular lymphoma in the appropriate clinical context; confirmation by flow cytometry (CD10+ monotypic B cells) and trephine biopsy with paratrabecular aggregates is recommended.",
+  "ddx": [
+    {"dx": "Reactive lymphocytes/hematogones", "vs": "Hematogones are small with very high N:C ratio, homogeneous chromatin and scant cytoplasm without clefted nuclei, and show a maturation spectrum by flow cytometry."},
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cells are small to intermediate with irregular nuclei but are CD5+/cyclin D1+ and CD10-, requiring immunophenotyping rather than morphology to separate."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger, often with vesicular chromatin, prominent nucleoli and deeply basophilic vacuolated cytoplasm, and form sheets rather than scattered cells."},
+    {"dx": "Monocytes/promonocytes", "vs": "Monocytic cells have gray-blue cytoplasm with fine granules and vacuoles and lacy chromatin, and are CD14/CD64-positive rather than B-cell markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60394",
+  "recognize_zh": "這是臨床照片：A、B 手背與前臂有多發紅紫色、表面光亮或破潰結痂的結節，C、D 為治療後結節明顯消退僅剩殘留小丘疹與色素沉著；在已知多發性骨髓瘤病史下，符合皮膚漿細胞瘤及治療反應。",
+  "features": [
+    "Panel A: multiple firm, dome-shaped, red-violaceous nodules on the dorsal hand, the largest with a hemorrhagic/crusted surface",
+    "Panel B: forearm with multiple erythematous papules and nodules, some with scaly/crusted surfaces",
+    "Panels C and D: post-treatment near-complete regression, leaving small residual papules and mottled erythema/hyperpigmentation",
+    "No microscopic morphology is shown; confirmation requires skin biopsy with CD138 and light-chain restriction"
+  ],
+  "describe_en": "Clinical photographs show multiple red-violaceous, dome-shaped cutaneous nodules on the dorsum of the hand (A) and the forearm (B), several with hemorrhagic crusts or scale. After therapy the nodules have largely resolved, with only small residual papules and post-inflammatory discoloration (C, D). This is a non-morphologic figure; in a patient with relapsed IgG kappa multiple myeloma, such nodules are suggestive of cutaneous plasmacytomas (extramedullary myeloma), which should be confirmed on biopsy by sheets of plasma cells expressing CD138 with kappa light-chain restriction.",
+  "ddx": [
+    {"dx": "Leukemia cutis / cutaneous lymphoma", "vs": "Biopsy shows blasts or lymphoma cells (e.g., CD20+ B cells or CD3+ T cells) rather than CD138+ light-chain-restricted plasma cells."},
+    {"dx": "Kaposi sarcoma", "vs": "Violaceous nodules of Kaposi sarcoma show a spindle-cell vascular proliferation that is HHV-8 LANA positive on biopsy."},
+    {"dx": "Cutaneous AL amyloidosis", "vs": "Amyloid presents as waxy papules or purpura with Congo red-positive deposits rather than dense plasma cell nodules."},
+    {"dx": "Cutaneous marginal zone lymphoma with plasmacytic differentiation", "vs": "Usually lacks systemic myeloma and shows a mixed B-cell and plasma cell infiltrate with reactive follicles rather than monotonous plasma cell sheets."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

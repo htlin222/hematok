@@ -1,0 +1,21 @@
+{
+  "id": "29663",
+  "recognize_zh": "周邊血抹片中一個核圓、顆粒減少的發育不良顆粒球細胞質內有一條細長的 Auer 小體（黑箭頭），另可見核低分葉的 pseudo-Pelger 樣嗜中性球（紅箭頭）及帶細胞質尾巴、含 Auer 小體的芽細胞（藍箭頭），符合 AML 伴骨髓發育不良相關變化。",
+  "features": [
+    "Panel A: maturing granulocyte with a round nucleus, clumped chromatin, hypogranular pale cytoplasm and a slender Auer rod (black arrow)",
+    "Panels A-C: blasts with high N:C ratio, fine chromatin, visible nucleoli and cytoplasmic tails/projections (blue arrows), one with a thin Auer rod",
+    "Panels B-C: hypolobated/non-lobated, hypogranular neutrophils with condensed chromatin (pseudo-Pelger-Huet forms, red arrows)",
+    "Red cells with mild anisopoikilocytosis and rare elongated forms"
+  ],
+  "describe_en": "Peripheral blood smear (Wright-Giemsa, oil immersion) shows circulating blasts with fine chromatin, nucleoli and cytoplasmic tail-like projections, some containing thin Auer rods. Notably, an Auer rod is present in a hypogranular maturing granulocyte with a round, mature-appearing nucleus (A, black arrow). Additional hypolobated, hypogranular pseudo-Pelger-Huet neutrophils are present (red arrows). Findings are consistent with a myeloid neoplasm with dysgranulopoiesis and Auer rods, supporting acute myeloid leukemia with myelodysplasia-related changes; Auer rods in dysplastic mature granulocytes confirm that the maturing cells belong to the neoplastic clone.",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome with increased blasts", "vs": "Auer rods can occur in MDS, so the distinction rests on blast percentage (<20% in MDS) rather than morphology of the rods."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells have bilobed nuclei with heavy azurophilic granulation and bundles of Auer rods (faggot cells), with PML::RARA fusion."},
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "It shows large blasts with a single long tapered Auer rod, salmon-colored perinuclear granules and pseudo-Pelger forms without true multilineage dysplasia, confirmed by cytogenetics."},
+    {"dx": "Toxic granulation / Dohle bodies in infection", "vs": "Dohle bodies are pale blue cytoplasmic patches and toxic granules are coarse dots, neither forming a crystalline pink-purple rod."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63210",
+  "recognize_zh": "骨髓切片六格 H&E 中，脂肪細胞之間的間質被大片淡粉紅色、無細胞、質地均勻呈蠟樣的無定形物質取代，並有裂隙；造血細胞與漿細胞被擠到沉積物邊緣，形態上符合類澱粉（amyloid）沉積。",
+  "features": [
+    "Overall normocellular marrow with preserved adipocytes and a bony trabecula at low power",
+    "Extensive interstitial deposits of pale eosinophilic, acellular, amorphous, waxy material separating fat cells",
+    "Artifactual cracks and clefts within the deposits",
+    "Residual hematopoietic cells and scattered plasma cells compressed at the edges of the deposits",
+    "No sheets or nodules of neoplastic plasma cells evident on H&E"
+  ],
+  "describe_en": "Bone marrow trephine biopsy (H&E, composite of six fields) shows an overall normocellular marrow with preserved adipocytes. At higher power, the interstitium contains abundant pale eosinophilic, acellular, amorphous, glassy deposits with fine cracking artifact, displacing residual hematopoietic elements and scattered plasma cells to the periphery of the deposits. No sheets of neoplastic plasma cells are evident on H&E. The morphology is suggestive of amyloid deposition; confirmation requires Congo red staining with apple-green birefringence under polarized light and amyloid typing, and plasma cell clonality should be assessed with CD138 and kappa/lambda studies.",
+  "ddx": [
+    {"dx": "Gelatinous (serous fat) transformation", "vs": "Shows finely granular or fibrillar pale pink-blue ground substance with hypocellularity and fat atrophy, and is Congo red negative but Alcian blue positive."},
+    {"dx": "Edema or fibrin exudate", "vs": "Edema and fibrin are paler, wispy or fibrillar rather than dense waxy cracked deposits, and are Congo red negative."},
+    {"dx": "Light chain deposition disease", "vs": "Deposits are Congo red negative and non-fibrillar (granular) on electron microscopy, despite monotypic light chain staining."},
+    {"dx": "Marrow fibrosis", "vs": "Fibrosis consists of collagen bundles with spindle fibroblasts highlighted by reticulin/trichrome, not structureless amorphous material."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "61450",
+  "recognize_zh": "PML/RARA 雙色雙融合（DC-DF）探針間期 FISH：兩顆細胞各見 2 個黃色融合訊號、1 紅（PML）1 綠（RARA），即典型 2F1R1G 型態，代表 der(15) 與 der(17) 各有一個融合，符合 t(15;17) 急性前骨髓細胞白血病。",
+  "features": [
+    "Interphase FISH with PML (orange) and RARA (green) dual-color dual-fusion probe on DAPI-counterstained nuclei",
+    "Both nuclei show two yellow/overlapping fusion signals, one separate orange, and one separate green signal (2F1R1G)",
+    "Fusion signals represent PML-RARA on der(15) and RARA-PML on der(17); single colors represent the normal chromosomes 15 and 17",
+    "Signals are discrete with minimal background"
+  ],
+  "describe_en": "Interphase FISH using a PML/RARA dual-color dual-fusion probe shows two nuclei, each with two fusion signals, one orange PML signal, and one green RARA signal (2F1R1G). This is the classic pattern of a balanced reciprocal translocation, with fusion signals on der(15) and der(17) and single-color signals on the normal homologs. Findings are consistent with t(15;17)(q24;q21) PML::RARA, diagnostic of acute promyelocytic leukemia when in the appropriate morphologic context. This finding warrants urgent communication because of the coagulopathy risk and the need for ATRA-based therapy.",
+  "ddx": [
+    {"dx": "Atypical/complex PML-RARA rearrangement", "vs": "Three-way or insertional events give non-classic patterns such as 1F2R2G or 1F1R1G rather than 2F1R1G."},
+    {"dx": "RARA variant translocations (ZBTB16, NPM1, STAT5B)", "vs": "These lack PML-RARA fusion and require a RARA break-apart probe to detect."},
+    {"dx": "Random signal colocalization", "vs": "Chance overlaps are single, occur in few cells, and are excluded by laboratory cutoffs, unlike reproducible two fusion signals per nucleus."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: PML/RARA DC-DF probe, DAPI",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3281",
+  "recognize_zh": "骨髓抹片幾乎被小而成熟、染色質呈粗塊狀（soccer-ball / 龜殼樣）且細胞質極少的淋巴球取代，其間夾雜多個破碎壓扁的污跡細胞（smudge cell），符合 CLL 骨髓侵犯。",
+  "features": [
+    "Sheets of small mature lymphocytes, about 1-1.5x RBC diameter",
+    "High N:C ratio with scant pale-blue cytoplasm",
+    "Round nuclei with coarse, block-like clumped chromatin; nucleoli inconspicuous",
+    "Numerous smudge cells with smeared, pale-staining nuclear chromatin",
+    "Occasional coarsely granulated cell (basophil or mast cell); normal hematopoietic precursors markedly reduced"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a marked predominance of small, mature-appearing lymphocytes that largely replace normal hematopoietic elements. The lymphocytes have round nuclei with coarsely clumped chromatin, inconspicuous nucleoli and a thin rim of pale-blue cytoplasm. Many smudge cells are present, and only rare granulocytic cells are seen in this field. Prolymphocytes and large transformed cells are not conspicuous. Findings are consistent with marrow involvement by chronic lymphocytic leukemia/small lymphocytic lymphoma, to be confirmed by flow cytometry.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma (leukemic phase)", "vs": "MCL cells are often slightly larger with more irregular or cleaved nuclei and less clumped chromatin, and are CD5+ but CD23-, cyclin D1+/SOX11+, whereas CLL is CD23+ with dim surface Ig."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL cells show more abundant pale cytoplasm, plasmacytoid features or villous projections and are typically CD5- and CD23-."},
+    {"dx": "Follicular lymphoma in marrow", "vs": "FL cells have notched or cleaved (buttock-like) nuclei and are CD10+ BCL2+ rather than having round nuclei with clumped chromatin."},
+    {"dx": "Reactive lymphoid aggregate / hematogones", "vs": "Reactive infiltrates are polymorphous and hematogones have smooth homogeneous chromatin without numerous smudge cells or a monotypic light chain."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

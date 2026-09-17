@@ -1,0 +1,21 @@
+{
+  "id": "62929",
+  "recognize_zh": "骨髓抽吸片可見成團聚集的腫瘤細胞，核圓至卵圓、染色質細顆粒狀、細胞質界線不清，部分細胞彼此擠壓並埋在淡粉紅纖維狀背景中，另見許多被壓碎的細胞；成團（cohesive）排列是非造血腫瘤轉移的線索。",
+  "features": [
+    "Cohesive clusters of intermediate to large tumor cells with round to oval nuclei",
+    "Finely granular chromatin with occasional small nucleoli; high N:C ratio",
+    "Indistinct, pale cytoplasmic borders with cells merging into a pale pink fibrillary background",
+    "Nuclear crowding/molding and numerous crushed cells with smeared chromatin",
+    "Blue-green lysed red cells and stromal material in background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows several cohesive aggregates of non-hematopoietic-appearing tumor cells. The cells have round to oval nuclei with finely granular chromatin, occasional small nucleoli, and scant ill-defined cytoplasm, and they lie within a faint pink fibrillary matrix; nuclear molding and crush artifact are prominent. Definite rosettes are not evident in this field. The cohesive growth pattern argues against acute leukemia, and in conjunction with CD45-negative/CD56-positive flow cytometry and synaptophysin/NSE positivity, findings are consistent with metastatic neuroblastoma.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are dispersed single cells in a clean background and are CD45+/TdT+, unlike these cohesive CD45-negative clusters."},
+    {"dx": "Ewing sarcoma", "vs": "Clusters of small round cells without neuropil; distinguished by membranous CD99, NKX2.2, and EWSR1 rearrangement."},
+    {"dx": "Megakaryoblastic leukemia (AML M7)", "vs": "Blasts may clump and appear cohesive, but they are CD45 dim-positive and CD41/CD61 positive rather than synaptophysin positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

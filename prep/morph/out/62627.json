@@ -1,0 +1,20 @@
+{
+  "id": "62627",
+  "recognize_zh": "Kappa 免疫染色中，大片腫瘤細胞群幾乎全為藍色核、不著色，僅一兩個細胞弱陽性；周圍蛋白質性積液強烈背景著色。腫瘤不表現 kappa，與 lambda 同樣陰性，符合 PEL 缺乏免疫球蛋白。",
+  "features": [
+    "Large aggregate of round intermediate-to-large tumor cells in effusion cell block",
+    "Tumor cells negative for kappa, with only rare isolated positive cell (likely reactive plasma cell)",
+    "Strong background staining of surrounding proteinaceous fluid (serum immunoglobulin)",
+    "Faint cytoplasmic blush attributable to background diffusion rather than true expression"
+  ],
+  "describe_en": "Kappa light chain immunohistochemistry on an effusion cell block shows a large aggregate of neoplastic cells that are negative, with only a rare isolated positive cell and intense background staining of the proteinaceous fluid. Combined with the negative lambda stain, the tumor lacks detectable immunoglobulin light chain expression. Light-chain negativity in a CD20-negative, MUM1-positive, HHV8-positive large-cell effusion lymphoma is consistent with primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma involving effusion", "vs": "Myeloma shows strong monotypic cytoplasmic light chain, whereas these cells are negative for both kappa and lambda."},
+    {"dx": "HHV8-positive DLBCL, NOS", "vs": "HHV8+ DLBCL usually expresses IgM lambda, whereas this tumor is light-chain negative."},
+    {"dx": "Metastatic carcinoma in effusion", "vs": "Carcinoma is also Ig-negative but is keratin-positive and CD45/MUM1/LANA-negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "IHC: kappa light chain",
+  "match": "consistent",
+  "high_yield": false
+}

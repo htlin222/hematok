@@ -1,0 +1,34 @@
+{
+  "id": "2587",
+  "recognize_zh": "周邊血液中一顆嗜中性球的細胞質布滿空泡，內含多顆被吞噬的深藍色圓形球菌，旁邊還有成串成簇的細胞外球菌，這種細胞內吞噬細菌是真性菌血症的證據，符合葡萄球菌敗血症。",
+  "features": [
+    "Neutrophil with prominently vacuolated cytoplasm containing multiple phagocytosed round cocci",
+    "Clusters of uniform dark-blue cocci extracellularly adjacent to the neutrophil",
+    "Neutrophil nucleus appears condensed and eccentric",
+    "Small dark cell with pale cytoplasmic remnant at lower left (nucleated red cell or degenerating lymphocyte)",
+    "Thick area of smear with red cells in rouleaux-like aggregates"
+  ],
+  "describe_en": "Peripheral blood smear, in a thick area with aggregated red cells, shows a neutrophil with extensive cytoplasmic vacuolization containing numerous phagocytosed round cocci, accompanied by small clusters of similar extracellular cocci. A small dark nucleated cell is present at the lower left. The presence of intracellular organisms within a vacuolated neutrophil indicates true circulating bacteria rather than contamination. Findings are consistent with overwhelming bacteremia with gram-positive cocci in clusters, supporting staphylococcal sepsis; blood cultures should be correlated.",
+  "ddx": [
+    {
+      "dx": "Toxic granulation with Döhle bodies",
+      "vs": "Toxic granules are fine dark-purple granules evenly distributed in non-vacuolated cytoplasm, not discrete uniform round cocci within vacuoles."
+    },
+    {
+      "dx": "Histoplasma or other intracellular yeast",
+      "vs": "Histoplasma yeasts are larger oval forms with a clear halo and eccentric crescent of chromatin, rather than small solid round cocci."
+    },
+    {
+      "dx": "Ehrlichia or Anaplasma morulae",
+      "vs": "Morulae are a single mulberry-like cluster of tiny basophilic inclusions within one cytoplasmic vacuole, without extracellular organisms."
+    },
+    {
+      "dx": "Streptococcal sepsis",
+      "vs": "Streptococci appear as pairs or chains, whereas the grape-like clustering here favors staphylococci; culture confirms species."
+    }
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

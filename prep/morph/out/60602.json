@@ -1,0 +1,22 @@
+{
+  "id": "60602",
+  "recognize_zh": "皮膚出現中央暗紫藍色、外圍紅暈的結節（類似靶狀壞死性病灶）；切片中血管腔內可見大量分隔菌絲（箭頭）堵塞血管，屬於血管侵犯型黴菌，在中性球低下的 AML 病人應考慮鐮刀菌（Fusarium）。",
+  "features": [
+    "Clinical photo: solitary violaceous to blue-gray papulonodular skin lesion with a surrounding erythematous rim",
+    "Skin/subcutis section: thick-walled vessel whose lumen is occluded by a mesh of pale, septate fungal hyphae (arrow)",
+    "Hyphae appear narrow and parallel/branching, filling the lumen as a thrombus",
+    "Minimal surrounding inflammatory infiltrate, consistent with neutropenia",
+    "Adjacent skeletal muscle fibers without obvious fungal invasion in this field"
+  ],
+  "describe_en": "Clinical photograph shows a violaceous nodular skin lesion with a central dusky blue discoloration and an erythematous halo. The corresponding biopsy (H&E) shows a blood vessel in the deep dermis/subcutis whose lumen is filled with septate fungal hyphae, forming an intravascular fungal thrombus, with scant inflammatory response. Species identification is not possible from morphology alone; hyaline septate hyphae with angioinvasion in a neutropenic patient are consistent with disseminated fusariosis, pending culture or molecular confirmation.",
+  "ddx": [
+    {"dx": "Invasive aspergillosis", "vs": "Aspergillus hyphae are morphologically indistinguishable in tissue (acute-angle branching septate hyphae), but positive blood cultures and multiple skin lesions favor Fusarium; culture or PCR is required."},
+    {"dx": "Mucormycosis", "vs": "Mucorales show broad, ribbon-like, pauci-septate hyphae with right-angle branching rather than narrow septate hyphae."},
+    {"dx": "Ecthyma gangrenosum (Pseudomonas)", "vs": "Pseudomonas lesions show perivascular gram-negative bacilli and necrosis without fungal hyphae on GMS/PAS stains."},
+    {"dx": "Leukemia cutis", "vs": "Leukemia cutis shows a dermal infiltrate of blasts rather than intravascular fungal elements."}
+  ],
+  "specimen": "tissue",
+  "stain": "Clinical photo; H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "64",
+  "recognize_zh": "骨髓切片中出現纖維化區，內含嗜酸性球、淋巴球、組織球的混合背景，其間散在帶大核仁的大型雙核／多葉核細胞（Reed-Sternberg cell）；這些大細胞 CD30 膜狀加高基氏體（Golgi）點狀陽性、CD15 顆粒狀陽性、B 細胞標記陰性，EBER 陽性，符合 EBV 陽性古典型何杰金淋巴瘤侵犯骨髓。",
+  "features": [
+    "Patchy fibrotic areas replacing marrow adjacent to residual trilineage hematopoiesis and fat",
+    "Polymorphous background of small lymphocytes, eosinophils, histiocytes, and plasma cells within fibrosis",
+    "Scattered large binucleate/multilobated Reed-Sternberg and mononuclear Hodgkin cells with inclusion-like macronucleoli",
+    "Large cells show strong membranous and Golgi-pattern CD30 and granular/Golgi CD15 staining",
+    "Large cells negative for the B-cell/leukocyte marker that stains background small lymphocytes",
+    "EBER in situ hybridization shows nuclear signal in scattered large cells; PET image shows bulky mediastinal and multifocal osseous uptake"
+  ],
+  "describe_en": "The whole-body PET maximum intensity projection shows bulky FDG-avid mediastinal disease with multifocal skeletal uptake in the spine, pelvis, and proximal femur, in addition to physiologic renal and bladder activity. The bone marrow core biopsy shows patchy areas of fibrosis replacing marrow, adjacent to residual hematopoietic marrow. Within the fibrotic foci there is a polymorphous infiltrate of small lymphocytes, eosinophils, and histiocytes with scattered large mononuclear and binucleate cells bearing prominent eosinophilic nucleoli, consistent with Hodgkin/Reed-Sternberg cells. By immunohistochemistry, the large cells are positive for CD30 (membranous and Golgi) and CD15 (granular/Golgi) and are negative for the marker highlighting background small lymphocytes; EBER in situ hybridization is positive in the large cells. Findings are consistent with bone marrow involvement by EBV-positive classical Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma with Hodgkin-like cells", "vs": "PTCL shows atypical small-to-medium T cells with a monoclonal TCR rearrangement and CD15-negative large cells, whereas here the background lymphocytes are bland and the large cells co-express CD30 and CD15."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Its large cells are CD20/OCT2/BOB1 strongly positive and CD15/CD30 negative, whereas the large cells here lack B-cell marker staining and express CD30 and CD15."},
+    {"dx": "Reactive marrow fibrosis or granulomatous marrow (e.g., infection)", "vs": "Reactive processes lack CD30+/CD15+ Reed-Sternberg cells, which are present in this biopsy."},
+    {"dx": "Primary myelofibrosis or other MPN with fibrosis", "vs": "MPN fibrosis shows clustered atypical megakaryocytes and streaming hematopoiesis without a polymorphous eosinophil-rich infiltrate or CD30+ Hodgkin cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD30, CD15; ISH: EBER; PET",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "PET MIP: bulky mediastinal uptake with multifocal skeletal lesions",
+    "Marrow biopsy, low power: fibrotic foci adjacent to residual hematopoietic marrow",
+    "Marrow biopsy, medium power: fibrosis with polymorphous infiltrate and scattered large cells",
+    "Marrow biopsy, high power: binucleate Reed-Sternberg-like cell in eosinophil-rich background",
+    "IHC: large cells negative; scattered small background lymphocytes positive",
+    "IHC: weak granular staining in a large cell; scattered small cells positive",
+    "IHC CD30: membranous and Golgi staining of Hodgkin/Reed-Sternberg cells",
+    "IHC CD15: granular/Golgi staining of a large cell, background myeloid cells positive",
+    "EBER ISH: nuclear signal in scattered large cells"
+  ]
+}

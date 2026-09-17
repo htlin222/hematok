@@ -1,0 +1,21 @@
+{
+  "id": "62001",
+  "recognize_zh": "骨髓切片中大量小至中型、核圓、染色質濃密、細胞質少的單一型態細胞密集成片，取代正常造血，只殘留少數巨核細胞與間質；t(11;14) 骨髓瘤的腫瘤漿細胞常呈小型、淋巴球樣（lymphoplasmacytoid）外觀，容易被誤認為小 B 細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheets of monotonous small to medium-sized cells replacing normal hematopoiesis",
+    "Round, slightly eccentric nuclei with condensed chromatin and inconspicuous nucleoli",
+    "Scant to modest pale cytoplasm; plasmacytic features (hof, clock-face chromatin) not well resolved at this magnification",
+    "Residual megakaryocytes and interstitial stroma with small vessels",
+    "No mitotic-rich large-cell component"
+  ],
+  "describe_en": "H&E section of bone marrow shows diffuse sheets of monotonous small to medium-sized cells with round, slightly eccentric nuclei, condensed chromatin and scant to modest cytoplasm, replacing normal hematopoiesis with only residual megakaryocytes and stroma. Definitive plasmacytic features are not clearly resolved at this magnification, and the cells have a lymphoid-like appearance. In the context of CD138-positive, cyclin D1-positive plasma cells with t(11;14), the findings are consistent with extensive involvement by plasma cell myeloma with small, lymphoplasmacytoid morphology, a recognized mimic of small B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Both can be cyclin D1+ with t(11;14); MCL is CD5+/CD20+/SOX11+ and CD138 negative with surface light chains, whereas myeloma is CD138+ with cytoplasmic light chain restriction."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL contains a clonal small B-cell component with MYD88 L265P and IgM paraprotein, and is cyclin D1 negative."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL is CD5+/CD23+/LEF1+ with proliferation centers and lacks CD138 and cyclin D1 expression."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

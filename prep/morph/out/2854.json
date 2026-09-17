@@ -1,0 +1,22 @@
+{
+  "id": "2854",
+  "recognize_zh": "淋巴結 H&E：瀰漫的小至中型淋巴細胞，核圓或輕度不規則，細胞質淡染較豐富而使細胞彼此間隔（單核球樣 monocytoid B 細胞），其中混有核較大、帶核仁的轉化細胞，符合邊緣區淋巴瘤。",
+  "features": [
+    "Diffuse sheet of small to intermediate lymphoid cells",
+    "Round to slightly irregular nuclei with moderately dense chromatin",
+    "Moderate pale eosinophilic to clear cytoplasm giving monocytoid appearance and cell spacing",
+    "Scattered larger cells with vesicular chromatin and nucleoli",
+    "Occasional plasmacytoid cells; no follicular architecture in this field"
+  ],
+  "describe_en": "H&E section of lymph node shows a diffuse infiltrate of small to intermediate lymphoid cells with round to slightly irregular nuclei and moderate amounts of pale to clear cytoplasm, imparting a monocytoid appearance. Scattered larger transformed cells with vesicular chromatin and nucleoli, as well as occasional plasmacytoid cells, are admixed. Findings are consistent with marginal zone lymphoma; immunophenotyping to exclude other small B-cell lymphomas (CD5, CD10, cyclin D1 negative) is recommended.",
+  "ddx": [
+    {"dx": "Small lymphocytic lymphoma", "vs": "SLL cells have scant cytoplasm and round clumped nuclei with pale proliferation centers, and are CD5 and LEF1 positive."},
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cells are monotonous with scant cytoplasm and irregular nuclei, lack transformed large cells, and are cyclin D1/SOX11 positive."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma shows centrocytes with angulated cleaved nuclei in a follicular pattern and is CD10/BCL6 positive."},
+    {"dx": "Reactive monocytoid B-cell hyperplasia", "vs": "Reactive monocytoid B cells occupy sinuses around preserved follicles and are polytypic without architectural effacement."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

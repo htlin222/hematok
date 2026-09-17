@@ -1,0 +1,20 @@
+{
+  "id": "61767",
+  "recognize_zh": "SOX11 免疫染色中，大多數中型腫瘤細胞呈棕色核染色（強度不一），少數小細胞為藍色陰性；腫瘤細胞核 SOX11 陽性是被套細胞淋巴瘤（包含 Cyclin D1 陰性病例）的重要佐證。",
+  "features": [
+    "Nuclear SOX11 positivity in the majority of tumor cells, with variable intensity",
+    "Positive nuclei are medium-sized, round to slightly irregular",
+    "Scattered small SOX11-negative nuclei (likely reactive lymphocytes or stromal cells)",
+    "No significant cytoplasmic staining"
+  ],
+  "describe_en": "Immunohistochemistry for SOX11 shows nuclear positivity of variable intensity in the majority of medium-sized tumor cells, with admixed small negative cells. The staining is nuclear and diffuse across the field. SOX11 expression in a mature B-cell neoplasm supports mantle cell lymphoma and is particularly useful when cyclin D1 is negative or equivocal. Findings are consistent with mantle cell lymphoma, blastoid variant, in the appropriate immunophenotypic context.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma can be SOX11-positive but is CD10-positive with MYC rearrangement, near-100% Ki-67, and lacks CD5 and cyclin D1."},
+    {"dx": "B- or T-lymphoblastic leukemia/lymphoma", "vs": "Lymphoblastic neoplasms may express SOX11 but are TdT-positive and lack surface immunoglobulin."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL is also CD5-positive but is SOX11-negative and LEF1/CD23-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: SOX11",
+  "match": "consistent",
+  "high_yield": false
+}

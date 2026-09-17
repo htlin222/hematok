@@ -1,0 +1,23 @@
+{
+  "id": "64438",
+  "recognize_zh": "骨髓中有大型異型細胞，細胞質豐富且有空泡，核卵圓或凹陷並有明顯核仁，細胞質內還吞入造血細胞，外觀很像噬血組織球。但角蛋白（CAM5.2）強陽性、非特異性酯酶陰性，證實是轉移性癌而非 HLH 的組織球。",
+  "features": [
+    "Panel A (aspirate): large atypical cells with abundant blue vacuolated cytoplasm and ovoid to indented nuclei with prominent nucleoli",
+    "Engulfed hematopoietic cells (neutrophils, erythroid cells) within the cytoplasm of the large cells, mimicking hemophagocytosis",
+    "Panel B (H&E): large cells with vacuolated cytoplasm and prominent nucleoli containing phagocytosed cells, some forming small clusters",
+    "Panel C: strong cytoplasmic keratin (CAM5.2) staining of the large cells, including those with engulfed cells",
+    "Panel D: nonspecific esterase negative in the large cell, arguing against a monocytic/histiocytic lineage",
+    "Background myeloid-rich hematopoiesis"
+  ],
+  "describe_en": "Bone marrow aspirate and biopsy show large atypical cells with abundant vacuolated cytoplasm, ovoid to indented nuclei and prominent nucleoli, many of which contain phagocytosed hematopoietic cells, closely mimicking hemophagocytic histiocytes. By immunohistochemistry the cells are strongly positive for keratins (AE1/AE3, CAM5.2) and negative for CD68, CD163 and lysozyme, and nonspecific esterase cytochemistry is negative. Findings are consistent with metastatic carcinoma showing cannibalism/phagocytosis of hematopoietic cells, mimicking hemophagocytic lymphohistiocytosis.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH macrophages have bland small nuclei without prominent nucleoli and are CD68/CD163-positive and keratin-negative."},
+    {"dx": "Acute monocytic or histiocytic sarcoma", "vs": "Monocytic and histiocytic neoplasms are nonspecific esterase, lysozyme, CD163 and CD68-positive, while these cells are keratin-positive and NSE-negative."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma cells can show prominent nucleoli and phagocytosis but are SOX10/S100/Melan-A-positive and keratin-negative."},
+    {"dx": "Anaplastic large cell lymphoma with hemophagocytosis", "vs": "ALCL cells are CD30+ with T-cell or ALK markers and do not express cytokeratins."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: CAM5.2; nonspecific esterase",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2283",
+  "recognize_zh": "骨髓抹片中成片的中大型芽細胞，染色質細緻、細胞質少，許多細胞核呈摺疊或腦回狀（convoluted）且有核裂，符合淋巴芽細胞；T 系需靠流式（cytoplasmic CD3）確認。",
+  "features": [
+    "Sheets of medium-to-large blasts with high N:C ratio",
+    "Nuclei irregular, folded, indented or convoluted with nuclear clefts",
+    "Finely dispersed chromatin with inconspicuous to small nucleoli",
+    "Scant pale-to-moderately basophilic agranular cytoplasm",
+    "Few scattered small vacuoles; no Auer rods or cytoplasmic granules",
+    "Residual normal hematopoiesis not evident in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive-appearing aggregate of monotonous blasts replacing normal hematopoietic elements. The blasts are medium to large with high nuclear-to-cytoplasmic ratios, irregular folded to convoluted nuclei with clefts, finely dispersed chromatin, and inconspicuous nucleoli. The cytoplasm is scant, pale blue, and agranular, without Auer rods. Morphology is that of lymphoblasts; lineage assignment requires flow cytometry (cytoplasmic CD3, TdT). Findings are consistent with T-lymphoblastic leukemia in the appropriate immunophenotypic context.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Morphologically indistinguishable; B-ALL is separated by CD19/CD79a/PAX5 expression without cytoplasmic CD3 on flow cytometry."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML with minimal differentiation also has agranular, cytochemically MPO-negative blasts, but expresses CD13/CD33/CD117 (often MPO by flow) and lacks cytoplasmic CD3."},
+    {"dx": "Sézary cell / leukemic mature T-cell lymphoma", "vs": "Sézary cells have condensed, mature cerebriform chromatin rather than fine blastic chromatin and are TdT and CD34 negative."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is CD5+ cyclin D1+ and TdT negative, whereas T-lymphoblasts are TdT+ with cCD3."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

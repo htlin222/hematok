@@ -1,0 +1,22 @@
+{
+  "id": "63085",
+  "recognize_zh": "骨髓抹片（A）見大型、細胞質豐富且有空泡、核圓有核仁的非造血細胞，旁邊為小型成熟淋巴球；切片（B）見大型上皮樣細胞與成片小淋巴球兩群並存；雙重與核染色（C–F）分別標示兩群細胞，提示 CLL/SLL 與轉移性黑色素瘤同時侵犯骨髓。",
+  "features": [
+    "Panel A: large discohesive cells with abundant vacuolated gray-blue cytoplasm, round eccentric nuclei and visible nucleoli; no melanin pigment seen",
+    "Panel A: admixed small mature lymphocytes with condensed chromatin",
+    "Panel B: biopsy with two populations - large epithelioid cells with abundant pale-eosinophilic cytoplasm and sheets of small lymphocytes",
+    "Panel C: dual-color IHC with red staining of a clustered population and brown staining of other cells",
+    "Panels D-F: nuclear IHC stains highlighting small lymphocytes and/or large tumor cells (markers not labeled in the image)"
+  ],
+  "describe_en": "Bone marrow aspirate shows large, discohesive cells with abundant vacuolated cytoplasm, round nuclei and nucleoli, admixed with small mature lymphocytes; no melanin pigment is evident. The trephine biopsy contains two distinct populations: large epithelioid tumor cells and sheets of small lymphocytes. Dual and single nuclear immunostains highlight the two populations separately, with nuclear positivity in both the small lymphocytes and the large tumor cells on different stains. The markers are not labeled in the figure; per the title, findings are consistent with concurrent marrow involvement by CLL/SLL and metastatic melanoma expressing LEF1 and cyclin D1, a potential pitfall for misclassification as a lymphoid neoplasm.",
+  "ddx": [
+    {"dx": "Richter transformation of CLL (large-cell)", "vs": "Richter large cells are CD20/PAX5-positive B cells, whereas melanoma cells are SOX10/S100/Melan-A-positive and lack B-cell markers."},
+    {"dx": "Mantle cell lymphoma", "vs": "Cyclin D1 in MCL is expressed by small-to-medium CD5+/SOX11+ lymphoid cells, not by large epithelioid SOX10-positive cells."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive clusters and is cytokeratin-positive, whereas melanoma is keratin-negative and SOX10/S100-positive."},
+    {"dx": "Plasma cell myeloma", "vs": "Plasma cells have a perinuclear hof and are CD138/MUM1-positive with light chain restriction, unlike melanoma cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC (dual and nuclear markers)",
+  "match": "consistent",
+  "high_yield": false
+}

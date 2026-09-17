@@ -1,0 +1,22 @@
+{
+  "id": "3910",
+  "recognize_zh": "骨髓抹片的顆粒（particle）幾乎全由脂肪空泡、紡錘狀基質細胞與含色素的巨噬細胞構成，幾乎看不到造血細胞，下方只有少數散在的淋巴球；這種「空的脂肪性顆粒」是再生不良性貧血（aplastic anemia）的特徵。",
+  "features": [
+    "Marrow particle composed predominantly of fat vacuoles and stromal meshwork",
+    "Spindle-shaped stromal cells, endothelial cells, and plasma cells/lymphocytes within the particle",
+    "Macrophages containing dark hemosiderin pigment",
+    "Near absence of granulocytic, erythroid, and megakaryocytic precursors",
+    "Scattered small lymphocytes in the adjacent smear background; no blasts or abnormal cells seen"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a marrow particle composed predominantly of adipocytes, stromal cells, and hemosiderin-laden macrophages, with lymphocytes and occasional plasma cells. Hematopoietic precursors of all three lineages are virtually absent, and no blasts or infiltrating abnormal cells are identified. Aspirate cellularity is unreliable, so marrow hypocellularity should be confirmed on an adequate core biopsy. Findings are consistent with a markedly hypocellular (aplastic) marrow, in keeping with aplastic anemia.",
+  "ddx": [
+    {"dx": "Hypocellular myelodysplastic syndrome", "vs": "Shows residual dysplastic hematopoiesis, increased or clustered CD34-positive blasts, or MDS-defining cytogenetics, which are absent in aplastic anemia."},
+    {"dx": "Hemodilute or suboptimal aspirate", "vs": "A hemodilute aspirate lacks particles, whereas this particle itself is fatty; core biopsy resolves true hypocellularity."},
+    {"dx": "Hypocellular acute myeloid leukemia", "vs": "Contains ≥20% blasts among the residual cells on biopsy and aspirate, unlike this blast-free particle."},
+    {"dx": "Inherited bone marrow failure (Fanconi anemia, telomere biology disorders)", "vs": "Morphologically identical; distinguished by chromosome breakage testing, telomere length, and physical findings."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

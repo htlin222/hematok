@@ -1,0 +1,21 @@
+{
+  "id": "61577",
+  "recognize_zh": "流式散布圖中紅色母細胞群 CD10 一致陽性、CD20 由陰性到部分弱陽性呈拖尾分布，和紫色成熟 B 細胞（CD20 陽性、CD10 陰性）明顯分開；CD10+、CD20 異質表現是 B 淋巴母細胞（common B-ALL）的典型免疫表型。",
+  "features": [
+    "Bivariate dot plot: CD10-APC700 (x-axis) versus CD20-PB (y-axis), log scales",
+    "Red (blast-gated) population uniformly CD10-positive at moderate intensity (about 10^1-10^2)",
+    "Blasts show heterogeneous CD20, spanning negative to dim/partial positive as a vertical smear",
+    "Purple CD20-positive/CD10-negative cluster representing residual mature B cells",
+    "Purple CD20-negative/CD10-negative cluster representing non-B events (T/NK/myeloid cells)"
+  ],
+  "describe_en": "This flow cytometry dot plot displays CD10 versus CD20. The gated blast population (red) is uniformly CD10-positive with heterogeneous CD20 expression ranging from negative to partial dim-to-moderate positivity, forming a vertical smear. Residual mature B cells (purple) are CD20-positive and CD10-negative, and a separate purple CD10-negative/CD20-negative cluster represents non-B-cell events. The discrete, homogeneous CD10-positive population, distinct from the normal hematogone maturation continuum, supports a precursor B-cell (B-lymphoblastic) leukemia immunophenotype; the BCR::ABL1-like subtype cannot be determined from this plot and requires CRLF2 and molecular studies.",
+  "ddx": [
+    {"dx": "Hematogones (benign B-cell precursors)", "vs": "Hematogones form a continuous maturation pattern in which CD10 decreases as CD20 increases, rather than a tight uniform CD10+ cluster with aberrant antigen intensity."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "CD10-positive but uniformly bright CD20 with surface light-chain restriction and TdT/CD34 negativity."},
+    {"dx": "Follicular lymphoma in leukemic phase", "vs": "CD10+/bright CD20+ mature B cells with surface light-chain restriction and no CD34/TdT expression."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

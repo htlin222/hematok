@@ -1,0 +1,23 @@
+{
+  "id": "66446",
+  "recognize_zh": "骨髓抹片中有一群大小一致、核質比高的小圓藍細胞，核圓、染色質細緻點狀、核仁不明顯，細胞質稀少淡藍並有小泡狀突起（bleb），部分細胞彼此緊貼成小團，形態符合 Ewing 肉瘤轉移至骨髓。",
+  "features": [
+    "Small to medium-sized round cells, roughly 1.5-2 times red cell diameter, relatively monotonous",
+    "High N:C ratio with round to slightly molded nuclei",
+    "Finely dispersed stippled chromatin with inconspicuous nucleoli",
+    "Scant pale grey-blue cytoplasm with small cytoplasmic blebs and occasional faint vacuoles",
+    "Tendency to form small loose aggregates with nuclear molding; no granules or maturation",
+    "Background of red cells and platelets; pale staining limits fine chromatin assessment"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a population of small round blue cells occurring singly and in small loose aggregates. The cells are relatively uniform with a high nuclear-to-cytoplasmic ratio, round to slightly molded nuclei, finely stippled chromatin and inconspicuous nucleoli. The scant pale basophilic cytoplasm shows small blebs and occasional faint vacuoles, and no granules are identified. In an appropriate clinical setting and with CD99/NKX2.2 positivity and EWSR1 rearrangement, findings are consistent with bone marrow involvement by Ewing sarcoma.",
+  "ddx": [
+    {"dx": "Lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts lie singly rather than in cohesive clusters and are CD45+/TdT+ on flow, whereas Ewing cells are CD45−, CD99+ and NKX2.2+ (CD99 alone does not separate them)."},
+    {"dx": "Neuroblastoma", "vs": "Neuroblastoma forms rosettes with fibrillary neuropil and occurs in younger children, with PHOX2B positivity and elevated catecholamines."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Rhabdomyosarcoma cells are often larger and more pleomorphic, sometimes multinucleated, and are desmin/myogenin positive."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts show azurophilic granules or Auer rods and express MPO/CD33/CD13, which are absent in Ewing sarcoma."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

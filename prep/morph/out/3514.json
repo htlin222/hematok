@@ -1,0 +1,20 @@
+{
+  "id": "3514",
+  "recognize_zh": "中央有一顆大型未成熟細胞，核圓、染色質細緻，細胞質深藍色且無顆粒；背景可見大量大型、低顆粒的血小板，這種血小板異常合併芽細胞的組合是 AML 伴 inv(3)/t(3;3) 的提示。",
+  "features": [
+    "Large immature cell with round nucleus, finely dispersed chromatin, and indistinct nucleoli",
+    "Moderate rim of deeply basophilic, agranular cytoplasm",
+    "Background of numerous large and giant platelets, many hypogranular",
+    "Overlapping red cells in a thick area of the smear"
+  ],
+  "describe_en": "Peripheral blood smear shows a large immature mononuclear cell with a round nucleus, finely dispersed chromatin, and a moderate rim of deeply basophilic, agranular cytoplasm, consistent with a blast; the basophilic cytoplasm raises the possibility of megakaryocytic or erythroid lineage, which cannot be determined morphologically. The background contains numerous large and hypogranular platelets. Red cells overlap in this thicker area. In the appropriate context, findings are suggestive of AML with inv(3)/t(3;3) (GATA2/MECOM), which requires cytogenetic confirmation.",
+  "ddx": [
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts often show cytoplasmic blebs and require CD41/CD61 flow cytometry or IHC; inv(3) is defined cytogenetically rather than by lineage."},
+    {"dx": "Reactive plasmacytoid lymphocyte / plasmablast", "vs": "Plasmacytoid cells have an eccentric nucleus with clumped chromatin and a perinuclear hof, unlike the fine blast chromatin here."},
+    {"dx": "Pronormoblast (erythroid precursor)", "vs": "Pronormoblasts also have deep blue cytoplasm but show a prominent nucleolus and are rare in blood outside of severe stress erythropoiesis; flow (CD71, glycophorin) separates them."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

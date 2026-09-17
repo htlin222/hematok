@@ -1,0 +1,22 @@
+{
+  "id": "2148",
+  "recognize_zh": "中倍骨髓抹片細胞量高，顆粒球系各階段細胞增生，並夾雜許多核呈折疊或腎形、胞質灰藍的單核球樣細胞，芽細胞不占多數，呈現骨髓系與單核球系混合增生的外觀，需搭配周邊血單核球增多才能診斷 CMML。",
+  "features": [
+    "Hypercellular aspirate particle area with myeloid predominance",
+    "Numerous granulocytic precursors at all stages of maturation",
+    "Admixed monocytoid cells with folded to reniform nuclei and gray-blue cytoplasm",
+    "Blasts present but not predominant",
+    "Scattered erythroid precursors and small lymphocytes; fat vacuoles in background"
+  ],
+  "describe_en": "Bone marrow aspirate smear at medium power is hypercellular with a myeloid predominance showing granulocytic maturation through all stages. Numerous admixed monocytoid cells with folded or reniform nuclei and gray-blue cytoplasm are present, whereas blasts are not increased to an acute leukemia range in this field. Dysplasia cannot be reliably graded at this magnification. The findings of granulocytic and monocytic proliferation are compatible with chronic myelomonocytic leukemia in the setting of persistent peripheral monocytosis (≥0.5 × 10^9/L and ≥10% of WBC).",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "CML shows a myelocyte peak with basophilia and dwarf megakaryocytes and is defined by BCR::ABL1, whereas CMML lacks BCR::ABL1 and has monocytosis."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML shows marked granulocytic dysplasia with <10% monocytes, whereas CMML has ≥10% peripheral monocytes."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive states lack dysplasia and clonal markers (e.g., TET2, SRSF2, ASXL1 mutations) and resolve with the underlying cause."},
+    {"dx": "Acute myelomonocytic leukemia", "vs": "AMML requires ≥20% blasts plus promonocytes, which exceeds the blast count seen here."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

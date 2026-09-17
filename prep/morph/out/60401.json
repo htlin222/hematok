@@ -1,0 +1,22 @@
+{
+  "id": "60401",
+  "recognize_zh": "中央右側這顆細胞的核碎裂成許多大小不一、圓形、深紫色且互不相連的均質小球，但細胞質仍保留淡粉紅色的中性顆粒；旁邊另一顆細胞核濃縮成單一深染棒狀塊。背景大量棘狀紅血球（echinocytes）提示檢體放置過久，符合退化／壞死中的嗜中性球。",
+  "features": [
+    "Neutrophil-sized cell with nucleus fragmented into multiple round, dense, homogeneous, unconnected purple globules (karyorrhexis)",
+    "Retained pale pink neutrophilic granules in the cytoplasm of the degenerating cells",
+    "Adjacent cell with a single condensed, homogeneous dark (pyknotic) nuclear mass and granular cytoplasm",
+    "Nearby smudged/distorted leukocytes in a cluster at the thick edge of the clump",
+    "Numerous crenated red cells (echinocytes) in background, consistent with storage/drying artifact; intact normal neutrophils elsewhere"
+  ],
+  "describe_en": "Peripheral blood smear shows a small cluster of leukocytes in which one neutrophil has a nucleus broken into multiple round, dense, homogeneous fragments that are not connected by chromatin strands, while its cytoplasm retains fine neutrophilic granules. An adjacent cell has a single condensed, pyknotic nuclear mass. The background contains many echinocytes, and intact segmented neutrophils are present at the periphery of the field. These changes represent degenerating (necrobiotic/apoptotic) neutrophils, likely accentuated by prolonged specimen storage; retained cytoplasmic granules distinguish them from nucleated red cells.",
+  "ddx": [
+    {"dx": "Nucleated red blood cell", "vs": "Nucleated red cells have agranular, hemoglobinized orange-gray cytoplasm around a single round nucleus, whereas degenerating neutrophils keep their fine cytoplasmic granules."},
+    {"dx": "Hypersegmented neutrophil (megaloblastic)", "vs": "Hypersegmented neutrophils have 6 or more lobes connected by chromatin bridges with normal chromatin texture, not dense, homogeneous, separate spheres."},
+    {"dx": "Neutrophil with phagocytosed material (e.g., ingested apoptotic cells or organisms)", "vs": "Phagocytosed bodies sit within vacuoles alongside a separate intact lobulated nucleus, while in degeneration the nucleus itself is replaced by the fragments."},
+    {"dx": "Myelokathexis neutrophil", "vs": "Myelokathexis lobes remain joined by thin filaments and occur in fresh marrow/blood of neutropenic patients, not as isolated cells in a storage-artifact smear."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

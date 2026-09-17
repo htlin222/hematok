@@ -1,0 +1,22 @@
+{
+  "id": "60688",
+  "recognize_zh": "骨髓切片骨小樑之間的造血組織被成片的上皮性腫瘤取代，細胞排列成小而密集的腺泡與篩孔樣（cribriform）結構，周圍伴隨纖維化間質，是轉移性攝護腺腺癌侵犯骨髓造成類 TTP 的微血管病變性溶血。",
+  "features": [
+    "Marrow space between bony trabeculae replaced by cohesive nests of epithelial tumor cells",
+    "Tumor cells forming numerous small, crowded glands and cribriform/fused acinar structures",
+    "Uniform small to medium nuclei with relatively monotonous appearance at this magnification; nucleoli not resolvable",
+    "Surrounding desmoplastic, edematous fibrous stroma with loss of normal hematopoiesis and fat",
+    "Adjacent bone trabeculae without obvious osteoblastic rimming visible in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows replacement of the intertrabecular marrow space by cohesive nests of epithelial cells arranged in crowded small glands and cribriform structures, set within a desmoplastic fibrous stroma. Normal hematopoietic elements and marrow fat are largely absent in the involved areas. Nuclear detail such as prominent nucleoli is not resolvable at this magnification. Findings are consistent with metastatic adenocarcinoma, and in the clinical context of prostate cancer (confirmed by NKX3.1/PSA immunostaining) with marrow infiltration, this explains a microangiopathic picture that can mimic thrombotic thrombocytopenic purpura.",
+  "ddx": [
+    {"dx": "Metastatic adenocarcinoma of other origin (e.g., colorectal, breast, lung)", "vs": "Glandular metastases look similar on H&E; site is assigned by immunohistochemistry (NKX3.1, PSA, PSAP for prostate versus CDX2, GATA3, TTF-1)."},
+    {"dx": "Metastatic small-cell or neuroendocrine carcinoma", "vs": "Neuroendocrine carcinoma forms solid sheets of small cells with nuclear molding and crush artifact rather than well-formed glands and cribriform structures."},
+    {"dx": "Thrombotic thrombocytopenic purpura", "vs": "TTP marrow lacks tumor and may show microthrombi only; severe ADAMTS13 deficiency (<10%) confirms TTP, whereas marrow carcinoma causes MAHA with normal ADAMTS13."},
+    {"dx": "Marrow involvement by lymphoma", "vs": "Lymphoma infiltrates are discohesive lymphoid cells without gland formation and are CD45 positive, keratin negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

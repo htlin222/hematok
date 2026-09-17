@@ -1,0 +1,21 @@
+{
+  "id": "62265",
+  "recognize_zh": "這是一支離心後的玻璃管照片：深紅色紅血球層、琥珀黃色血漿層分層清楚，交界處可見少量紅色顆粒；照片本身無法直接看到緡錢狀排列（rouleaux），需搭配抹片才能判讀骨髓瘤相關的紅血球緡錢狀。",
+  "features": [
+    "Gross photograph of a small glass tube after centrifugation, photographed inverted with the sealed end uppermost",
+    "Dark red packed red cell column occupying the sealed end",
+    "Clear amber-yellow supernatant plasma layer without visible hemolysis",
+    "Few small red flecks/aggregates at the lower plasma interface, possibly agglutinated cells",
+    "Individual rouleaux cannot be resolved at this macroscopic level"
+  ],
+  "describe_en": "The image is a gross photograph of a centrifuged glass tube showing a dark red packed red cell layer and an overlying clear amber-yellow plasma layer, with a few small red flecks at the plasma interface that may represent aggregated red cells. The plasma is not visibly hemolyzed. Rouleaux formation is a microscopic finding and cannot be confirmed from this macroscopic image; it requires a peripheral smear or wet preparation, where rouleaux disperse with saline dilution whereas true agglutination persists. The image is therefore only partially illustrative of the stated rouleaux in multiple myeloma and should be correlated with the blood film, ESR and serum protein electrophoresis.",
+  "ddx": [
+    {"dx": "Cold agglutinin disease", "vs": "Cold agglutinins cause clumps that persist after saline replacement but disperse on warming to 37 C, unlike rouleaux, which disperse with saline dilution."},
+    {"dx": "Hyperfibrinogenemia/inflammatory rouleaux", "vs": "Inflammatory states produce milder rouleaux with an elevated ESR but no monoclonal protein on electrophoresis."},
+    {"dx": "Hyperlipidemic or icteric plasma", "vs": "Lipemic plasma appears milky and icteric plasma is deep yellow-green, which changes plasma color without red cell aggregation."}
+  ],
+  "specimen": "gross",
+  "stain": "N/A",
+  "match": "partial",
+  "high_yield": false
+}

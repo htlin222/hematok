@@ -1,0 +1,22 @@
+{
+  "id": "63931",
+  "recognize_zh": "箭頭所指紅血球顏色變淡，內含形狀不規則、呈變形蟲樣（amoeboid）的藍紫色細胞質與深紫色染色質點，並有細小粉紅色點狀斑點（Schüffner dots），這是間日瘧原蟲（P. vivax）成熟滋養體的特徵。",
+  "features": [
+    "Single parasitized red cell (arrow) with pale, washed-out staining compared with neighboring cells",
+    "Irregular amoeboid blue-purple parasite cytoplasm with one or more dark purple chromatin dots",
+    "Fine pink stippling across the infected red cell consistent with Schuffner dots",
+    "Infected red cell not clearly enlarged relative to adjacent cells in this field",
+    "Background red cells without other parasites; a few tapered red cells likely from smear spreading"
+  ],
+  "describe_en": "Peripheral blood smear shows a single parasitized red cell (arrow) in a background of largely unremarkable red cells. The infected cell is pale and contains an irregular, amoeboid trophozoite with blue-purple cytoplasm and dark chromatin, accompanied by fine pink stippling consistent with Schuffner dots. Enlargement of the infected red cell is not clearly evident in this field, and no gametocytes or schizonts are present. Findings are consistent with a mature (amoeboid) trophozoite of Plasmodium vivax; species confirmation and parasitemia should be determined on thick and thin films or by PCR or rapid antigen testing.",
+  "ddx": [
+    {"dx": "Plasmodium ovale", "vs": "P. ovale also shows Schuffner (James) dots but has a compact trophozoite in an oval red cell with fimbriated ragged edges rather than a spread-out amoeboid form."},
+    {"dx": "Plasmodium falciparum", "vs": "P. falciparum shows small delicate ring forms, often multiple per cell with applique forms and banana-shaped gametocytes, without Schuffner dots or amoeboid mature trophozoites in peripheral blood."},
+    {"dx": "Plasmodium malariae", "vs": "P. malariae has compact band or basket trophozoites in normal-sized or small red cells without stippling (Ziemann dots only with special staining)."},
+    {"dx": "Platelet overlying a red cell or stain precipitate", "vs": "An overlying platelet sits in a different focal plane with a halo and lacks a distinct chromatin dot within parasite cytoplasm and red cell stippling."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "65740",
+  "recognize_zh": "周邊血有許多大型母細胞，核質比高、染色質開放、核仁明顯；流式卻呈成熟 B 細胞表型（CD19+CD20+、表面 lambda 限制、CD34 與 TdT 陰性），核型見 11 號染色體異常且 FISH 顯示 KMT2A 3' 端缺失，是容易被誤判為成熟 B 細胞淋巴瘤的 KMT2A 重排 B-ALL。",
+  "features": [
+    "Blood: numerous large blasts with high N:C ratio, open fine chromatin, prominent nucleoli and a rim of basophilic cytoplasm",
+    "CD45 vs SSC: large dim CD45, low side-scatter population (red)",
+    "Flow: CD19+/CD20+, surface lambda restricted, variable CD10, cytoplasmic CD79a+",
+    "Flow: CD34-negative, TdT-negative, CD64- and CD15-negative",
+    "Karyotype with multiple structural aberrations including chromosome 11 (arrows)",
+    "Metaphase FISH with KMT2A break-apart probe showing signal loss on the derivative chromosome 11"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous large blasts with a high nuclear-to-cytoplasmic ratio, finely dispersed open chromatin, prominent nucleoli and scant basophilic cytoplasm. Flow cytometry shows a dim CD45, low side-scatter population expressing CD19, CD20, variable CD10, cytoplasmic CD79a and surface lambda light chain, but lacking CD34, TdT, CD64 and CD15. The karyotype is complex with a chromosome 11 aberration, and KMT2A break-apart FISH shows loss of the 3' signal on der(11), indicating KMT2A rearrangement. Findings are consistent with B-lymphoblastic leukemia with KMT2A rearrangement displaying a mature B-cell phenotype with surface light-chain restriction.",
+  "ddx": [
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells have deeply basophilic vacuolated cytoplasm, bright CD10, a Ki-67 near 100% and MYC rearrangement, which was not detected."},
+    {"dx": "High-grade B-cell lymphoma, leukemic phase", "vs": "Leukemic large B-cell lymphoma typically occurs in adults and carries MYC/BCL2/BCL6 rearrangements rather than KMT2A fusion in an infant."},
+    {"dx": "Typical B-ALL", "vs": "Most B-ALL express CD34 and/or TdT and lack surface immunoglobulin; KMT2A-rearranged infant cases are usually CD10-negative/CD15-positive."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "KMT2A-rearranged AML shows monocytic blasts expressing CD64/CD14/CD15, all negative here, without B-cell antigens."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow; karyotype; FISH: KMT2A",
+  "match": "consistent",
+  "high_yield": false
+}

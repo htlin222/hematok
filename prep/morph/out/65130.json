@@ -1,0 +1,20 @@
+{
+  "id": "65130",
+  "recognize_zh": "骨髓切片 CD138 免疫染色，大量空泡化細胞的細胞膜與細胞質呈棕色陽性、成片分布，證明這些看似組織球的透明細胞其實是漿細胞。",
+  "features": [
+    "Sheets of CD138-positive cells with membranous/cytoplasmic brown staining",
+    "Positive cells have clear, vacuolated cytoplasm producing a bubbly, histiocyte-like pattern",
+    "Diffuse interstitial to sheet-like distribution across most of the field",
+    "Intervening CD138-negative hematopoietic cells counterstained blue"
+  ],
+  "describe_en": "Bone marrow trephine biopsy immunostained for CD138 shows a diffuse, sheet-like infiltrate of cells with membranous and cytoplasmic positivity. The positive cells have abundant clear to vacuolated cytoplasm, imparting a foamy, histiocyte-like appearance at low power, while the intervening hematopoietic elements are negative. The extent of CD138 positivity indicates marked plasma cell infiltration. Findings support a plasma cell neoplasm with vacuolated (pseudo-histiocytic) plasma cells; light-chain IHC or ISH would confirm clonality.",
+  "ddx": [
+    {"dx": "Histiocytic infiltrate or storage disease", "vs": "Histiocytes are CD68/CD163-positive and CD138-negative, whereas these vacuolated cells are diffusely CD138-positive."},
+    {"dx": "Metastatic signet-ring or clear cell carcinoma", "vs": "Carcinoma can express CD138 but is cytokeratin-positive and cohesive, so a keratin stain and light-chain restriction separate it from myeloma."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are scattered, perivascular and polytypic, not diffuse CD138-positive sheets."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD138",
+  "match": "consistent",
+  "high_yield": false
+}

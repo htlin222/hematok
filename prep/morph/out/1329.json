@@ -1,0 +1,21 @@
+{
+  "id": "1329",
+  "recognize_zh": "周邊血抹片中許多紅血球內可見細小、深色的點狀包涵體，符合 Howell-Jolly 小體，提示類澱粉沉積於脾臟造成的功能性脾臟低下（functional hyposplenism）；解析度偏低，需以高倍確認。",
+  "features": [
+    "Normocytic red cells with scattered small, dense, dark inclusions in numerous cells, consistent with Howell-Jolly bodies",
+    "Occasional target-like and irregular red cells",
+    "Two lymphocytes in the center and one at the upper left with round dense nuclei",
+    "Platelets present as small scattered granular forms",
+    "Image resolution is low, limiting assessment of inclusion detail"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells of fairly uniform size, many of which contain small, dense, dark inclusions most consistent with Howell-Jolly bodies; occasional target-like cells are also seen. Lymphocytes and scattered platelets are present, and no circulating plasma cells or schistocytes are identified in this field. The low image resolution limits distinction from Pappenheimer bodies or stain precipitate. In a patient with systemic AL amyloidosis, these findings suggest functional hyposplenism from splenic amyloid infiltration; the smear itself is not diagnostic of amyloidosis or factor X deficiency.",
+  "ddx": [
+    {"dx": "Post-splenectomy blood picture", "vs": "Morphology is identical; history of splenectomy versus imaging/biopsy evidence of splenic amyloid separates them."},
+    {"dx": "Pappenheimer bodies (siderotic granules)", "vs": "Pappenheimer bodies are multiple, fine, clustered granules at the cell periphery that stain with Prussian blue, whereas Howell-Jolly bodies are usually single, round, dense DNA remnants."},
+    {"dx": "Stain precipitate artifact", "vs": "Precipitate lies on top of cells and in the background in varying focal planes, not as uniform round inclusions within red cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

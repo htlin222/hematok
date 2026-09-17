@@ -1,0 +1,20 @@
+{
+  "id": "62549",
+  "recognize_zh": "BCL2 在幾乎所有腫瘤細胞呈強陽性的胞膜／胞質染色，整片深棕色；在 Burkitt 樣形態的淋巴瘤中，BCL2 強陽性就是提醒你要排除雙打擊（MYC 加 BCL2 重排）的關鍵。",
+  "features": [
+    "Strong, diffuse membranous and cytoplasmic BCL2 staining in nearly all tumor cells",
+    "Scattered cells with more intense staining, likely including reactive small lymphocytes",
+    "Medium-sized tumor cells with pale nuclei outlined by cytoplasmic staining",
+    "Unstained spaces correspond to vessels and macrophages"
+  ],
+  "describe_en": "BCL2 immunohistochemistry shows strong, diffuse cytoplasmic and membranous staining in nearly all neoplastic cells, with scattered more intensely stained cells that likely include reactive small lymphocytes. Unstained areas correspond to vessels and tingible-body macrophages. Strong BCL2 expression in an aggressive B-cell lymphoma with a very high proliferation index argues against Burkitt lymphoma and supports high-grade B-cell lymphoma with MYC and BCL2 rearrangements, as confirmed by FISH in this case.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is BCL2-negative or only weakly positive in a small fraction of cells."},
+    {"dx": "Double-expressor DLBCL", "vs": "Double-expressor DLBCL also shows BCL2 at or above 50% with MYC at or above 40% but lacks rearrangements on FISH."},
+    {"dx": "Transformed follicular lymphoma", "vs": "BCL2 positivity is shared; distinction relies on a history or residual component of FL and on MYC status."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: BCL2",
+  "match": "consistent",
+  "high_yield": true
+}

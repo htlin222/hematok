@@ -1,0 +1,22 @@
+{
+  "id": "63802",
+  "recognize_zh": "CD20 染色只呈弱而斑駁的顆粒狀陽性，許多大型多葉核或怪異核的腫瘤細胞近乎陰性，這種 CD20 表現不一致是灰區淋巴瘤介於 DLBCL 與典型霍奇金淋巴瘤之間的線索。",
+  "features": [
+    "Weak, patchy, granular cytoplasmic/membranous CD20 staining in a subset of cells",
+    "Several large pleomorphic and multilobated tumor cells appear largely negative",
+    "Positive signal distributed irregularly rather than as crisp uniform membranes",
+    "Dense population of medium-to-large cells with vesicular nuclei",
+    "No strong diffuse sheet-like CD20 positivity"
+  ],
+  "describe_en": "Immunohistochemical stain for CD20 shows weak and heterogeneous granular staining in a subset of cells, while many large pleomorphic and multilobated tumor cells are negative or only faintly positive. Strong, uniform membranous positivity across sheets of cells is not seen. This variable CD20 expression, in the context of CD15 and CD30 positivity in the same large cells, supports B-cell lymphoma with features intermediate between DLBCL and classic Hodgkin lymphoma (mediastinal gray zone lymphoma); distinguishing positive small reactive B cells from tumor cells at this resolution is limited.",
+  "ddx": [
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "Tumor cells show strong and uniform membranous CD20 and CD79a with sheet-like growth, rather than weak patchy staining."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are usually CD20 negative or only weak in a minority, with dim PAX5 and a background of reactive cells."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Scattered large cells are strongly CD20 positive and CD15/CD30 negative, amid abundant T cells and histiocytes."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Large cells are CD20 and PAX5 negative with T-cell antigen or ALK expression."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "partial",
+  "high_yield": false
+}

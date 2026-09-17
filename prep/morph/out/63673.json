@@ -1,0 +1,23 @@
+{
+  "id": "63673",
+  "recognize_zh": "血片中淋巴球明顯增多，多為小到中型、細胞質極少的淋巴球，部分核有缺刻或輪廓不規則（nuclear notching），染色質偏粗但非典型 CLL 的「足球狀」塊狀，需配合 cyclin D1 與 t(11;14) 才能確立被套細胞淋巴瘤（mantle cell lymphoma）。",
+  "features": [
+    "Absolute lymphocytosis with numerous circulating lymphoid cells in a single field",
+    "Small to medium-sized lymphocytes with high N:C ratio and scant pale blue cytoplasm",
+    "Nuclei round to irregular, some with notches or angulated contours",
+    "Moderately condensed chromatin without prominent nucleoli",
+    "Mild variation in cell size; one small mature-appearing lymphocyte for comparison",
+    "Background red cells unremarkable; no smudge cells or blasts in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked lymphocytosis composed of small to medium-sized lymphoid cells with scant cytoplasm. The nuclei range from round to irregular, with occasional nuclear notches, and chromatin is moderately condensed without conspicuous nucleoli. There is mild variation in cell size, and smudge cells, prolymphocytes with prominent nucleoli and blasts are not identified in this field; red cells are unremarkable. The morphology indicates a mature B-cell lymphoproliferative disorder, and with CCND1::IGH translocation and cyclin D1 expression, findings are consistent with leukemic mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are small and round with block-like soccer-ball chromatin and frequent smudge cells, and are cyclin D1 negative without t(11;14); CD23 expression here is a potential pitfall."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells often show short polar villous cytoplasmic projections and plasmacytoid features and are CD5 and cyclin D1 negative."},
+    {"dx": "Follicular lymphoma in leukemic phase", "vs": "Leukemic follicular lymphoma cells are small with deeply cleft (buttock-like) nuclei and are CD10 positive with t(14;18)."},
+    {"dx": "B-prolymphocytic leukemia", "vs": "Prolymphocytes are medium-sized with a prominent central nucleolus in most cells, and many former B-PLL cases are actually MCL with t(11;14)."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

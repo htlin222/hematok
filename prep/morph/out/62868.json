@@ -1,0 +1,20 @@
+{
+  "id": "62868",
+  "recognize_zh": "這是 PCR 產物的凝膠電泳圖：TCR beta 與 TCR gamma 的樣本道出現紅框標示的清楚分立條帶（單株性），而 IGH 各道只見多株性模糊條帶，支持病灶為單株性 T 細胞增生。",
+  "features": [
+    "Agarose/polyacrylamide gel images of PCR products with molecular weight markers on each side",
+    "TCR beta panel: discrete bands in patient lanes (boxed in red) against polyclonal controls, labeled positive",
+    "TCR gamma panel: discrete doublet band in patient lane (boxed), labeled positive",
+    "IGH panel: no discrete dominant band in patient lanes, labeled negative",
+    "Positive controls (PA, PB, PC) and no-template controls (NA, NB, NC) included"
+  ],
+  "describe_en": "The figure shows gel electrophoresis of PCR-based clonality assays. Patient lanes for TCR beta and TCR gamma gene rearrangement show discrete, sharp bands of defined size (boxed), indicating a clonal T-cell population, whereas the IGH assay shows no dominant clonal band. Appropriate positive and no-template controls and size ladders are present. Clonal TCR rearrangement with polyclonal IGH supports a clonal T-cell process, consistent with indolent T-cell lymphoproliferative disorder in the appropriate morphologic and immunophenotypic context; clonality alone does not establish malignancy.",
+  "ddx": [
+    {"dx": "Reactive oligoclonal T-cell expansion (pseudoclonality)", "vs": "Pseudoclonal peaks are small, not reproducible in duplicate runs and occur with scant T-cell input, whereas true clonal bands are reproducible across targets."},
+    {"dx": "B-cell lymphoma", "vs": "A B-cell neoplasm would show a clonal IGH band, which is absent here."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

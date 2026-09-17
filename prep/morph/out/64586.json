@@ -1,0 +1,22 @@
+{
+  "id": "64586",
+  "recognize_zh": "箭頭指出紅血球內或取代紅血球的深染、邊緣平直的長方形/菱形棒狀結晶（HbC crystals），背景有大量靶形細胞與折疊細胞；另見少數兩端較尖的鐮刀樣細胞，需考慮 HbSC 病。",
+  "features": [
+    "Dense, homogeneous, deeply staining elongated rectangular to rhomboid crystals with straight parallel edges (arrows)",
+    "Some crystals fill the red cell, others lie within a partially empty RBC membrane",
+    "Numerous target cells and folded/irregularly contracted red cells",
+    "Occasional elongated forms with tapered ends resembling sickle or boat-shaped cells",
+    "Occasional spherocytic dense cells; normal neutrophil and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous target cells with folded and irregularly contracted red cells. Scattered red cells contain dense, homogeneous, rectangular to rhomboid crystals with straight, parallel edges (arrows), consistent with hemoglobin C crystals. Occasional elongated forms with more tapered ends resembling sickle or boat-shaped cells are also present; the coexistence of HbC-type crystals and sickle-like forms raises the possibility of compound hemoglobin SC disease rather than homozygous HbC disease. Findings are consistent with a hemoglobin C-containing hemoglobinopathy; hemoglobin electrophoresis/HPLC is required to define the genotype.",
+  "ddx": [
+    {"dx": "Hemoglobin SC disease", "vs": "HbSC shows both HbC-like crystals and irregular 'SC' crystals with blunt or finger-like projections plus occasional sickle forms, whereas homozygous HbC lacks true sickle cells; HPLC distinguishes them."},
+    {"dx": "Sickle cell anemia (HbSS)", "vs": "HbSS shows many thin crescentic sickle cells with pointed ends, Howell-Jolly bodies and nucleated RBCs rather than dense rectangular crystals with many target cells."},
+    {"dx": "Liver disease or post-splenectomy target cells", "vs": "Acquired target cells are not accompanied by intraerythrocytic dense crystals."},
+    {"dx": "Stain precipitate or platelet overlying RBC", "vs": "Precipitate is refractile, irregular and lies above the focal plane, whereas HbC crystals are homogeneous, geometric and confined within the red cell membrane."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

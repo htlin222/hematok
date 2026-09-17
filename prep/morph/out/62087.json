@@ -1,0 +1,21 @@
+{
+  "id": "62087",
+  "recognize_zh": "母細胞核呈折疊、雙葉或腎形（A、B 可見核摺痕），細胞質淡紫、細顆粒不明顯；D 圖一群細胞邊緣有許多細小的細胞質泡突與芽狀突起，外觀類似小巨核細胞（micromegakaryocyte），這是微顆粒型 APL 的易誤判表現。",
+  "features": [
+    "Medium-to-large blasts/abnormal promyelocytes with high N:C ratio",
+    "Folded, bilobed or reniform nuclei with visible nuclear creases (panels A-B)",
+    "Fine chromatin with inconspicuous nucleoli",
+    "Basophilic to lilac cytoplasm with very fine, dust-like granules; no Auer rods seen",
+    "Prominent cytoplasmic blebs and budding projections around the cell periphery (panels C-D), mimicking micromegakaryocytes/megakaryoblasts"
+  ],
+  "describe_en": "Peripheral blood smear panels show medium-to-large abnormal cells with folded to bilobed nuclei, fine chromatin, and inconspicuous nucleoli. The cytoplasm is lilac to basophilic with only very fine, dust-like granularity, and several cells (C, D) display numerous cytoplasmic blebs and budding projections that mimic micromegakaryocytes or megakaryoblasts. Auer rods are not identified in these fields. Given the nuclear folding and hypogranular cytoplasm, findings are suggestive of the microgranular variant of acute promyelocytic leukemia with unusual cytoplasmic projections; strong MPO positivity, CD34-/HLA-DR- phenotype, and PML::RARA confirmation are required to avoid misclassification as megakaryoblastic leukemia.",
+  "ddx": [
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts also bleb but are MPO-negative and CD41/CD61-positive, whereas APL cells are strongly MPO-positive and PML::RARA-positive."},
+    {"dx": "Acute monocytic leukemia", "vs": "Promonocytes have folded nuclei but gray-blue cytoplasm with vacuoles, are NSE-positive and usually HLA-DR positive."},
+    {"dx": "MDS or MPN with circulating micromegakaryocytes", "vs": "True micromegakaryocytes have dense mature chromatin, a single small round nucleus, and platelet-like granular cytoplasm rather than fine blast chromatin with folded nuclei."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

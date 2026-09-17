@@ -1,0 +1,20 @@
+{
+  "id": "60825",
+  "recognize_zh": "PD-L1 染色呈大片棕色網狀背景，主要來自組織球與細胞膜；大型腫瘤細胞核空泡狀、胞質相對較淡，周圍有膜狀染色輪廓；大細胞與組織球皆表現 PD-L1，符合 9p24.1 相關的免疫逃脫表型。",
+  "features": [
+    "Diffuse moderate membranous and cytoplasmic PD-L1 staining forming a reticular brown network throughout the field",
+    "Large atypical cells with vesicular, irregular nuclei outlined by membranous staining, with relatively paler central cytoplasm",
+    "Intense staining in interspersed histiocytes/dendritic-appearing cells with branching cytoplasm",
+    "Small background lymphocyte nuclei largely unstained"
+  ],
+  "describe_en": "PD-L1 immunohistochemistry shows diffuse moderate membranous and cytoplasmic staining throughout the infiltrate, forming a reticular network. The large atypical cells show membranous outlining with relatively paler cytoplasm, and the surrounding histiocytes stain strongly; it is difficult in this field to separate tumor cell membranes from closely apposed histiocytic processes, so tumor-cell positivity is best confirmed with dual staining. PD-L1 expression by both neoplastic large cells and histiocytes is consistent with the immune-evasion phenotype (9p24.1/PD-L1 alteration) shared by classic Hodgkin lymphoma, primary mediastinal large B-cell lymphoma and mediastinal gray zone lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL HRS cells are also PD-L1 positive because of 9p24.1 amplification, so PD-L1 cannot separate them and B-cell markers (CD20, Oct-2) are needed."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL frequently expresses PD-L1 too; distinction relies on monotonous morphology, strong CD20, CD23/MAL and absent CD15."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL NOS usually shows PD-L1 mainly in tumor-associated macrophages with negative tumor cells, apart from EBV-positive and non-GCB subsets."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PD-L1",
+  "match": "consistent",
+  "high_yield": false
+}

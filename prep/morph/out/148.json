@@ -1,0 +1,28 @@
+{
+  "id": "148",
+  "recognize_zh": "EDTA 血液抹片中，多顆小血小板一圈圈貼附在嗜中性球的細胞膜外緣，形成玫瑰花環（rosette），而其他地方游離血小板很少，這就是血小板衛星現象（platelet satellitism），會造成假性血小板低下。",
+  "features": [
+    "Multiple platelets adherent in a ring around the plasma membrane of segmented neutrophils (rosetting)",
+    "Involved neutrophils are otherwise normal: 3-5 lobes, condensed chromatin, fine granules, no toxic change",
+    "Neutrophils with satellitism tend to aggregate into small clusters of two to five cells",
+    "Adherent platelets are normal-sized and granular; free platelets in the background are relatively sparse",
+    "Background red cells normocytic with mild crenation and refractile drying artifact; no platelet-only clumps"
+  ],
+  "describe_en": "Peripheral blood smear prepared from an EDTA-anticoagulated sample shows clusters of segmented neutrophils surrounded by rings of adherent platelets, forming distinct rosettes. The neutrophils themselves show normal nuclear segmentation and granulation, and the adherent platelets are of normal size and granularity. Free platelets are relatively sparse in the background, and the red cells show only mild crenation and drying artifact. Findings are consistent with EDTA-dependent platelet satellitism, an in vitro phenomenon that can cause spurious thrombocytopenia; repeat count on a citrated or heparinized sample is recommended.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping (pseudothrombocytopenia)", "vs": "Clumping shows free-floating aggregates of platelets not attached to leukocytes, whereas satellitism shows platelets rimming neutrophils."},
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows uniformly few platelets without rosettes or clumps and persists in citrate-anticoagulated samples."},
+    {"dx": "Neutrophil phagocytosis of platelets (in vivo, e.g., ITP or sepsis)", "vs": "Phagocytosed platelets lie within the neutrophil cytoplasm, often in vacuoles, rather than adhering to the outer cell membrane."},
+    {"dx": "Toxic granulation", "vs": "Toxic granules are intracytoplasmic azurophilic granules, whereas satellite platelets sit outside the cell border and have their own pale hyalomere."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Low power: a cluster of three neutrophils rimmed by adherent platelets amid sparse free platelets.",
+    "Two neutrophils; the left one is encircled by a dense rosette of platelets.",
+    "Two adjacent neutrophils with platelets adherent around their membranes.",
+    "Cluster of five neutrophils with prominent platelet satellitism (out-of-focus debris at left)."
+  ]
+}

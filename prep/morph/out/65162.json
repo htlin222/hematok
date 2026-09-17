@@ -1,0 +1,22 @@
+{
+  "id": "65162",
+  "recognize_zh": "九張嗜伊紅球的特寫：雙葉或多葉核，細胞質中橘紅色嗜伊紅顆粒明顯減少、分布不均，出現大片無顆粒區，並有許多清楚的小圓形空泡，屬於形態異常（發育不良／活化）的嗜伊紅球。",
+  "features": [
+    "Eosinophils with bilobed to multilobed nuclei with coarse chromatin",
+    "Hypogranulation: reduced and unevenly distributed orange-red specific granules with granule-free cytoplasmic areas",
+    "Multiple small, discrete, clear cytoplasmic vacuoles in most cells",
+    "Some granules appear smaller or grayish, suggesting abnormal/immature granulation",
+    "Background red cells with occasional echinocytes and dacryocyte-like forms"
+  ],
+  "describe_en": "Peripheral blood smear images show eosinophils with bilobed to multilobed nuclei and markedly abnormal cytoplasm, including patchy hypogranulation with granule-free zones and numerous small clear cytoplasmic vacuoles. Occasional cells contain smaller, grayish granules. The background red cells show scattered echinocytes. These dysmorphic eosinophils indicate eosinophil activation or dysplasia and are nonspecific; they may be seen in allergic, parasitic, drug-related or reactive states as well as in myeloid neoplasms, so correlation with the eosinophil count, clinical history and, if persistent, bone marrow and molecular evaluation is warranted.",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia (e.g., PDGFRA rearrangement) or chronic eosinophilic leukemia", "vs": "Neoplastic eosinophils may look identical; persistent eosinophilia with FIP1L1::PDGFRA or other tyrosine kinase fusions, or clonal cytogenetics, separates them from reactive dysmorphism."},
+    {"dx": "EDTA storage artifact", "vs": "Delayed smear preparation causes vacuolation in multiple leukocyte types together with degenerative nuclear changes, whereas activation changes occur on fresh smears."},
+    {"dx": "Hypogranular neutrophils (dysgranulopoiesis)", "vs": "Neutrophils have fine lilac granules, pale pink cytoplasm and usually 3-5 nuclear lobes, lacking the residual large orange-red eosinophilic granules seen here."},
+    {"dx": "Basophils", "vs": "Basophils have large dark purple-black granules obscuring the nucleus rather than sparse orange-red granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

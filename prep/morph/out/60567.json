@@ -1,0 +1,22 @@
+{
+  "id": "60567",
+  "recognize_zh": "初診時骨髓抹片 (A) 為核偏一側、細胞質深藍、部分有明顯核仁的非典型漿細胞；復發時 (C) 細胞轉為核質比高、核仁明顯、具手鏡狀細胞質突起（箭頭）的小至中型母細胞樣細胞，形似急性淋巴母細胞白血病，但 CD138 膜染與 kappa 原位雜交 (E, F) 陽性，證實為漿母細胞轉化。",
+  "features": [
+    "Panel A (initial aspirate): atypical plasma cells with eccentric nuclei, abundant basophilic cytoplasm, perinuclear hof and some prominent central nucleoli",
+    "Panel B (initial biopsy): sheets of plasma cells with eccentric nuclei and conspicuous nucleoli",
+    "Panel C (follow-up aspirate): small-to-intermediate cells with high N:C ratio, open chromatin, prominent nucleoli and hand-mirror cytoplasmic projection (arrow)",
+    "Panel D (follow-up biopsy): interstitial infiltrate of cells with scant cytoplasm and prominent nucleoli among fat",
+    "Panel E: strong membranous CD138 in the infiltrate",
+    "Panel F: kappa light chain ISH with strong dark signal in tumor cells"
+  ],
+  "describe_en": "The initial bone marrow aspirate and biopsy show atypical plasma cells with eccentric nuclei, abundant basophilic cytoplasm and a subset with prominent central nucleoli. The follow-up aspirate is replaced by small-to-intermediate cells with high nuclear-to-cytoplasmic ratio, prominent nucleoli and hand-mirror cytoplasmic projections, and the biopsy shows an interstitial infiltrate of similar cells with scant cytoplasm. The infiltrate is strongly CD138 positive by immunohistochemistry and kappa positive by in situ hybridization. Findings are consistent with plasmablastic transformation of plasma cell myeloma mimicking acute lymphoblastic leukemia rather than a therapy-related acute leukemia.",
+  "ddx": [
+    {"dx": "Therapy-related B-lymphoblastic leukemia", "vs": "Lymphoblasts are TdT+/CD34+/CD19+ and CD138 negative without kappa restriction, whereas transformed myeloma cells remain CD138+ with the original kappa light chain."},
+    {"dx": "Therapy-related acute myeloid leukemia", "vs": "Myeloblasts express MPO/CD33/CD117 and lack CD138 and monotypic light chain."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is typically extramedullary, EBV-positive and MYC-rearranged, without a prior myeloma history or lytic lesions."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: CD138; ISH: kappa",
+  "match": "consistent",
+  "high_yield": false
+}

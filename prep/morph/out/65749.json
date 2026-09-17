@@ -1,0 +1,23 @@
+{
+  "id": "65749",
+  "recognize_zh": "淋巴結被大小不一、核不規則的中至大型淋巴球瀰漫取代；免疫染色 CD3 全面陽性，卻同時表現 CD20、CD30、CD15 與 TFH 標記（BCL6、ICOS、PD-1），ALK 陰性，FISH 見 DUSP22/IRF4 訊號異常。",
+  "features": [
+    "Diffuse effacement by pleomorphic intermediate to large lymphoid cells with irregular, angulated and elongated nuclei",
+    "Hyperchromatic nuclei with inconspicuous to small nucleoli and scant pale cytoplasm; background of sparse stroma",
+    "Diffuse membranous CD3 and aberrant diffuse CD20 on the same neoplastic population",
+    "CD30 strong and diffuse; CD15 positive in a large subset",
+    "Nuclear BCL6 and IRF4/MUM1, membranous ICOS and PD-1 positivity; ALK-1 negative",
+    "FISH with IRF4/DUSP22 break-apart probe showing extra fusion signals"
+  ],
+  "describe_en": "Lymph node biopsy shows effaced architecture with a diffuse infiltrate of pleomorphic, intermediate to large atypical lymphoid cells with irregular hyperchromatic nuclei. The neoplastic cells are diffusely positive for CD3, CD20 (aberrant), CD30 and CD15, with nuclear BCL6 and IRF4/MUM1 and membranous ICOS and PD-1, while ALK-1 is negative. FISH with an IRF4/DUSP22 break-apart probe shows increased fusion signals, indicating DUSP22 locus gain. Findings are consistent with peripheral T-cell lymphoma, NOS, with an unusual CD20+/CD15+/CD30+ T follicular helper-like phenotype and DUSP22 alteration.",
+  "ddx": [
+    {"dx": "ALK-negative anaplastic large cell lymphoma, DUSP22-rearranged", "vs": "ALCL shows hallmark cells in cohesive sheets with uniform strong CD30 and frequent loss of T-cell antigens, and typically lacks TFH markers and CD20 expression."},
+    {"dx": "Nodal T follicular helper cell lymphoma, angioimmunoblastic type", "vs": "AITL has a polymorphous background with arborizing HEVs, expanded CD21+ FDC meshworks and EBV+ B immunoblasts, rather than a monotonous CD30+ sheet."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "CD30+/CD15+ HRS cells in cHL are scattered in an inflammatory background and are CD3-negative, CD45-negative and weakly PAX5-positive, unlike this diffuse CD3+ PAX5-negative infiltrate."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "CD20 alone is misleading here; the cells are CD3+, CD79a-negative and PAX5-negative, excluding a B-cell lineage."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC panel; FISH: IRF4/DUSP22",
+  "match": "consistent",
+  "high_yield": false
+}

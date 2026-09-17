@@ -1,0 +1,21 @@
+{
+  "id": "64837",
+  "recognize_zh": "未染色血液在螢光顯微鏡下，紅血球整體呈紅色螢光，且散佈多顆發出更亮、均勻紅橙色螢光的紅血球（fluorocytes），代表紅血球內卟啉（porphyrin）大量堆積，支持紅血球生成型卟啉症。",
+  "features": [
+    "Unstained peripheral blood film viewed under fluorescence microscopy (mercury lamp excitation)",
+    "Diffuse red fluorescence of the red cell population",
+    "Scattered red cells with markedly brighter, homogeneous red-orange fluorescence (fluorocytes)",
+    "Two small intensely yellow-orange fluorescent bodies, of uncertain nature at this resolution",
+    "Circular dark border reflects the microscope field diaphragm"
+  ],
+  "describe_en": "Fluorescence microscopy of unstained fetal peripheral blood shows red fluorescence of the red cell population, with numerous scattered cells showing intense homogeneous red-orange fluorescence (fluorocytes). Two small, very bright yellow-orange fluorescent bodies are also present, but their nature cannot be determined from this image. The reported emission in the 615-617 nm range corresponds to porphyrin fluorescence. Findings indicate marked erythrocyte porphyrin accumulation, consistent with an erythropoietic porphyria such as congenital erythropoietic porphyria, to be confirmed by porphyrin fractionation and genetic testing.",
+  "ddx": [
+    {"dx": "Erythropoietic protoporphyria", "vs": "EPP fluorocytes are transient and fade rapidly, with free protoporphyrin elevated, whereas CEP accumulates uroporphyrin I and coproporphyrin I and is usually associated with hemolysis."},
+    {"dx": "Lead poisoning or iron deficiency", "vs": "Elevated zinc protoporphyrin gives only weak fluorescence without prominent fluorocytes, and smears show basophilic stippling or microcytosis."},
+    {"dx": "Autofluorescence or nonspecific artifact", "vs": "Nonspecific autofluorescence is weak and uniform, lacking bright cell-restricted fluorescence in the porphyrin emission window."}
+  ],
+  "specimen": "PB",
+  "stain": "Unstained, fluorescence microscopy",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63096",
+  "recognize_zh": "骨髓抹片（A–C）中大型早幼粒球樣細胞，核折疊或雙葉，細胞質內有粗大、深紫黑色、類似嗜鹼性球的顆粒；流式（D）大部分細胞 CD34 陰性、側向散射高；FISH（E）見 der(15) 與 der(17) 上的 PML::RARA 融合訊號，確認為 APL。",
+  "features": [
+    "Panels A-C: large promyelocyte-like cells with folded, bilobed or irregular nuclei",
+    "Abundant cytoplasm with coarse, dark purple-black granules resembling basophil granules, heavier in some cells (panel C)",
+    "Admixed cells with finer azurophilic granules; no definite faggot cell visible",
+    "Panel D: CD34 vs side scatter plot with a dominant CD34-negative, high side-scatter population and a minor CD34+ myeloblast cluster",
+    "Panel E: metaphase FISH with fusion signals on der(15) and der(17)"
+  ],
+  "describe_en": "Bone marrow aspirate smears show sheets of abnormal promyelocyte-like cells with folded or bilobed nuclei and abundant cytoplasm containing coarse, dark granules that resemble basophil granules. Flow cytometry shows a dominant CD34-negative population with high side scatter and only a minor CD34-positive myeloblast population. Metaphase FISH demonstrates PML::RARA fusion signals on der(15) and der(17). Findings are consistent with acute promyelocytic leukemia with PML::RARA, with an unusual basophil-like granulation pattern.",
+  "ddx": [
+    {"dx": "Acute basophilic leukemia", "vs": "Basophilic blasts are CD34+/CD123+/CD203c+ with metachromatic toluidine blue granules and lack PML::RARA."},
+    {"dx": "Mast cell leukemia", "vs": "Mast cells are CD117 bright, tryptase-positive and often CD25+, with round or oval nuclei and no PML::RARA fusion."},
+    {"dx": "AML with t(8;21) or other granular AML", "vs": "These are usually CD34/HLA-DR positive with blasts rather than a CD34-negative, HLA-DR-negative promyelocyte population."},
+    {"dx": "Reactive promyelocyte hyperplasia (marrow recovery)", "vs": "Recovery promyelocytes have round nuclei with a perinuclear hof and orderly maturation, without folded nuclei or PML::RARA."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; flow; FISH: PML/RARA",
+  "match": "consistent",
+  "high_yield": false
+}

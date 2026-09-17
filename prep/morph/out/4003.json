@@ -1,0 +1,21 @@
+{
+  "id": "4003",
+  "recognize_zh": "箭頭標示一顆有核紅血球（nucleated RBC），旁邊有兩顆核摺疊、細胞質灰藍的單核球；兒童血液中單核球增多又見有核紅血球，是幼年型骨髓單核球性白血病（JMML）常見的周邊血表現。",
+  "features": [
+    "Arrow: nucleated red blood cell with small round pyknotic nucleus and orthochromatic cytoplasm",
+    "Two large monocytes with indented/folded nuclei, fine lacy chromatin and abundant gray-blue cytoplasm",
+    "Partial neutrophil at left edge with segmented nucleus",
+    "Red cells with mild anisopoikilocytosis, occasional stomatocyte-like and target forms",
+    "No blasts in this field"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows a circulating nucleated red blood cell (arrow) adjacent to two monocytes with folded nuclei and abundant gray-blue cytoplasm. A segmented neutrophil is present at the edge of the field. Red cells show mild anisopoikilocytosis; no blasts are seen in this field. In a young child, monocytosis with circulating nucleated red cells is suggestive of juvenile myelomonocytic leukemia in the appropriate clinical and genetic context.",
+  "ddx": [
+    {"dx": "Leukoerythroblastic reaction (marrow infiltration or fibrosis)", "vs": "A leukoerythroblastic picture shows NRBCs with immature granulocytes and teardrop cells rather than a dominant monocytosis."},
+    {"dx": "Reactive monocytosis with hemolysis or stress erythropoiesis", "vs": "Reactive states can produce NRBCs and monocytes, but lack persistent monocytosis above 1 x 10^9/L with splenomegaly, elevated HbF and RAS-pathway mutations."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML is morphologically similar but occurs in older adults and lacks the prominent NRBCs and HbF elevation typical of JMML."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

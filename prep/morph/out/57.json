@@ -1,0 +1,35 @@
+{
+  "id": "57",
+  "recognize_zh": "淋巴結結構消失，由小到中型、胞質透明的淋巴球與豐富分支小血管混合浸潤；免疫染色顯示 CD21/CD23 類濾泡樹突細胞網向濾泡外擴張，腫瘤性 T 細胞表現 CD10、PD-1、CXCL13（TFH 表型），流式可見 CD5+CD10+ T 細胞群，符合血管免疫母細胞性 T 細胞淋巴瘤（AITL）。",
+  "features": [
+    "Effaced lymph node architecture with infiltrate extending into perinodal fat",
+    "Polymorphous infiltrate of small-to-medium lymphocytes with abundant clear cytoplasm and mildly irregular nuclei",
+    "Prominent arborizing high endothelial venules; admixed histiocytes, plasma cells and scattered large immunoblasts",
+    "Irregular, expanded extrafollicular follicular dendritic cell meshworks around vessels",
+    "Neoplastic T cells CD3+/CD4+/CD5+ with CD10, PD-1 and CXCL13 (TFH) expression; CD8+ cells are small reactive cells",
+    "Scattered EBER-positive cells and large CD20+ B blasts in the background"
+  ],
+  "describe_en": "Sections of lymph node show effacement of the normal architecture by a diffuse polymorphous infiltrate that extends into perinodal adipose tissue, with residual B-cell areas compressed toward the periphery. At higher power the infiltrate consists of small-to-medium lymphocytes with abundant clear cytoplasm, admixed with prominent arborizing high endothelial venules, histiocytes, other inflammatory cells and scattered large immunoblasts, including occasional mitoses. Immunohistochemistry shows sheets of CD3+, CD4+, CD5+ T cells co-expressing CD10, PD-1 and CXCL13, with scattered CD20+ large B cells, CD8+ small reactive T cells, irregular expanded follicular dendritic cell meshworks outside follicles, scattered large cells highlighted by an unlabeled membranous/Golgi stain (likely CD30), and scattered EBER-positive cells by in situ hybridization. Flow cytometry identifies a CD5+ CD10+ CD19- T-cell population. Findings are consistent with angioimmunoblastic T-cell lymphoma (nodal T-follicular helper cell lymphoma, angioimmunoblastic type).",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Scattered CD30+/PAX5+ large cells can mimic Hodgkin cells, but AITL shows an abnormal CD10+/PD-1+ TFH T-cell population with expanded FDC meshworks and T-cell clonality, which cHL lacks."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS lacks expression of at least two TFH markers (CD10, PD-1, CXCL13, BCL6, ICOS) and does not show the extrafollicular FDC expansion and arborizing HEVs typical of AITL."},
+    {"dx": "Reactive paracortical hyperplasia / drug or viral lymphadenopathy", "vs": "Reactive nodes preserve sinuses and follicles, lack clear-cell TFH cells outside follicles, and show no CD10+ T-cell population by flow or monoclonal TCR rearrangement."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Here the large B cells are scattered EBV-associated bystanders while the neoplastic population is a CD10+/PD-1+ T-cell population, whereas THRLBCL has monoclonal large B cells in a background of non-TFH reactive T cells and histiocytes."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC panel (CD3, CD10, PD-1, CXCL13); ISH: EBER; flow",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E, medium power: diffuse polymorphous infiltrate of clear-cytoplasm lymphocytes with numerous small vessels",
+    "H&E, low power: effaced node with infiltrate extending into perinodal fat",
+    "H&E, high power: clear-cell atypical lymphocytes, high endothelial venules, immunoblasts and a mitotic figure",
+    "CD20 (low and high power) and CD3: peripherally compressed B-cell areas with scattered large B cells; CD3+ atypical T cells",
+    "Unlabeled FDC marker (e.g. CD21/CD23): irregular expanded extrafollicular dendritic cell meshworks around vessels",
+    "CD4, CD5 and CD8: atypical T cells CD4+/CD5+; CD8 marks small reactive T cells",
+    "CD10, PD-1 and CXCL13: TFH marker expression by neoplastic T cells",
+    "Flow cytometry: CD5+ CD10+ CD19- T-cell population (open arrow) and a small CD19+ B-cell population (arrow)",
+    "Unlabeled IHC (likely CD30): scattered large cells with membranous and Golgi-type staining",
+    "EBER in situ hybridization: scattered EBV-positive cells"
+  ]
+}

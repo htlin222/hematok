@@ -1,0 +1,21 @@
+{
+  "id": "63307",
+  "recognize_zh": "腦脊髓液抹片中，嗜中性球吞入一團均質、淡粉紅色無結構的變性核物質（hematoxylin body），自身分葉核被擠壓成新月形貼在周邊（箭頭），即 LE 細胞（Hargraves cell）。",
+  "features": [
+    "Neutrophils containing a large, round, homogeneous, smooth pink-purple inclusion (denatured nuclear material, hematoxylin body) occupying most of the cell",
+    "Phagocyte's own lobulated nucleus compressed into a thin crescent at the cell periphery (arrows)",
+    "Engulfed material lacks chromatin pattern, nucleolus or nuclear membrane detail",
+    "Background of numerous segmented neutrophils and occasional macrophages with pale, granular cytoplasm",
+    "Pale, somewhat faded staining with limited nuclear detail"
+  ],
+  "describe_en": "Cytospin/smear of cerebrospinal fluid (panels A-C) shows a neutrophil-rich cellular sample with scattered macrophages. Several neutrophils (arrows) contain a single large, round, homogeneous and structureless inclusion of denatured nuclear material that displaces and compresses the neutrophil's lobulated nucleus into a peripheral crescent. No intact chromatin pattern is identified within the ingested material. The staining is pale, limiting fine detail. Findings are consistent with LE cells in cerebrospinal fluid, which should prompt serologic confirmation of systemic lupus erythematosus (ANA, anti-dsDNA).",
+  "ddx": [
+    {"dx": "Tart cell", "vs": "In a tart cell the phagocytosed nucleus retains visible chromatin structure and a nuclear outline, whereas the LE cell inclusion is homogeneous and structureless."},
+    {"dx": "Macrophage with ingested apoptotic cell (cytophagocytosis)", "vs": "Ingested apoptotic cells show fragmented, dense pyknotic nuclear pieces within a macrophage rather than one smooth homogeneous mass inside a neutrophil."},
+    {"dx": "Signet-ring adenocarcinoma cell", "vs": "Signet-ring cells have mucin vacuoles with a nucleus showing malignant chromatin and occur singly or in clusters, not a segmented neutrophil nucleus draped around a homogeneous mass."}
+  ],
+  "specimen": "CSF",
+  "stain": "Romanowsky-type stain (pale)",
+  "match": "consistent",
+  "high_yield": true
+}

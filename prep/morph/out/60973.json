@@ -1,0 +1,22 @@
+{
+  "id": "60973",
+  "recognize_zh": "周邊血紅血球大小形態不一並含 Pappenheimer 小體（箭頭），骨髓有核紅血球細胞質出現小空泡（D、E 箭頭），鐵染色可見環繞核周的藍色鐵顆粒（環形鐵粒幼紅血球），電顯證實有核紅血球內大量細胞質空泡，符合粒線體疾病相關的遺傳性鐵粒幼細胞貧血（MLASA2）。",
+  "features": [
+    "Panel A (PB): anisopoikilocytosis with target-like and irregular red cells and a red cell containing basophilic Pappenheimer bodies (arrow)",
+    "Panels B-C (BM aspirate): erythroid precursors at various stages of maturation with deeply basophilic cytoplasm; mature granulocytes nearby; Pappenheimer bodies in a red cell (B, arrow)",
+    "Panels D-E: basophilic/polychromatophilic normoblasts with small, discrete cytoplasmic vacuoles (arrows)",
+    "Panels F-G (Prussian blue): ring sideroblasts with blue iron granules encircling at least one-third of the nucleus",
+    "Panel H (electron microscopy): normoblasts with numerous clear cytoplasmic vacuoles"
+  ],
+  "describe_en": "Peripheral blood smear shows anisopoikilocytosis with occasional red cells containing Pappenheimer bodies. The bone marrow aspirate shows erythroid maturation with scattered normoblasts containing small discrete cytoplasmic vacuoles, and the iron stain demonstrates numerous ring sideroblasts. Electron microscopy confirms abundant cytoplasmic vacuoles in erythroid precursors. In a young patient with myopathy and lactic acidosis, the combination of vacuolated erythroid precursors and ring sideroblasts is consistent with a mitochondrial syndromic sideroblastic anemia (MLASA2, YARS2-related).",
+  "ddx": [
+    {"dx": "Pearson marrow-pancreas syndrome", "vs": "Shows identical vacuolated precursors and ring sideroblasts but presents in infancy with exocrine pancreatic insufficiency and mitochondrial DNA deletion; pancreatic elastase was normal here."},
+    {"dx": "X-linked sideroblastic anemia (ALAS2)", "vs": "Produces microcytic hypochromic anemia with ring sideroblasts but no precursor vacuolization, myopathy or lactic acidosis, and often responds to pyridoxine."},
+    {"dx": "MDS with ring sideroblasts (SF3B1)", "vs": "Occurs in older adults with dysplasia and SF3B1 mutation; vacuoles are not a characteristic feature."},
+    {"dx": "Copper deficiency or zinc toxicity / alcohol / linezolid / chloramphenicol", "vs": "Also cause vacuolated precursors and ring sideroblasts, but are acquired and reversible with normal copper/zinc levels and no drug exposure excluding them here."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; Prussian blue; electron microscopy",
+  "match": "consistent",
+  "high_yield": false
+}

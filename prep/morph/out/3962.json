@@ -1,0 +1,21 @@
+{
+  "id": "3962",
+  "recognize_zh": "周邊血液抹片經白血球鹼性磷酸酶（LAP）染色，嗜中性球核呈紅色、胞質有藍色顆粒沉積，圖中以數字 1–4 標示不同強度，示範依陽性顆粒多寡給予 0–4 分的計分方式。",
+  "features": [
+    "Cytochemical stain with red nuclear counterstain and blue granular cytoplasmic reaction product in neutrophils",
+    "Cell 1: sparse faint blue granules (score 1)",
+    "Cells 2 and 3: moderate granular positivity with more cytoplasmic coverage (scores 2-3)",
+    "Cells 4: dense blue reaction product filling the cytoplasm and partly obscuring the nucleus (score 4)",
+    "Unstained yellow-tan erythrocyte background"
+  ],
+  "describe_en": "Peripheral blood smear stained for leukocyte alkaline phosphatase shows segmented neutrophils with red counterstained nuclei and variable blue granular cytoplasmic reaction product. Labeled cells illustrate the grading scale, from sparse faint granules (1) through moderate staining (2-3) to intense reaction product filling the cytoplasm (4). The LAP score is calculated by grading 100 consecutive segmented neutrophils and bands from 0 to 4 and summing the results (range 0-400). This image demonstrates the scoring method; a high score favors a leukemoid reaction or polycythemia vera, whereas a low score favors CML.",
+  "ddx": [
+    {"dx": "Low LAP score (CML, PNH)", "vs": "In CML most neutrophils would be grade 0-1 with little or no blue reaction product, unlike the grade 3-4 cells labeled here."},
+    {"dx": "Myeloperoxidase or Sudan black B cytochemistry", "vs": "Those stains mark primary granules in blasts and granulocytes and are not graded per cell like LAP."},
+    {"dx": "Toxic granulation", "vs": "Toxic granules are dark purple on Romanowsky stain and are not a cytochemical enzyme reaction."}
+  ],
+  "specimen": "PB",
+  "stain": "Leukocyte alkaline phosphatase cytochemistry",
+  "match": "consistent",
+  "high_yield": true
+}

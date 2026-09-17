@@ -1,0 +1,23 @@
+{
+  "id": "1210",
+  "recognize_zh": "骨髓抹片中大量中型單核細胞，核呈卵圓至腎形（bean-shaped）、染色質均勻細緻，細胞質淡藍而邊界模糊、細胞彼此間距規則（fried-egg 樣），取代正常造血細胞，符合毛細胞白血病浸潤。",
+  "features": [
+    "Sheets of medium-sized mononuclear cells replacing normal hematopoiesis",
+    "Moderate N:C ratio with ill-defined, pale grey-blue cytoplasm",
+    "Oval, reniform (bean-shaped) and occasionally indented nuclei",
+    "Homogeneous, finely stippled chromatin with absent or inconspicuous nucleoli",
+    "Cells appear evenly spaced; hair-like projections not well resolved in this thick aspirate",
+    "Few residual erythroid precursors and neutrophils; numerous fat spaces"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular and dominated by medium-sized mononuclear cells with oval to bean-shaped nuclei, homogeneous finely granular chromatin, inconspicuous nucleoli and moderate pale grey-blue cytoplasm with indistinct borders. The cells are evenly spaced and largely replace the normal hematopoietic elements, with only scattered residual erythroid precursors and granulocytes. Cytoplasmic hair-like projections are not well appreciated in this thick area of the aspirate, so confirmation by flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing is recommended. Findings are consistent with bone marrow involvement by hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells are smaller with clumped chromatin and polar villi and are CD103-/CD25-/annexin A1-negative, in contrast to hairy cells."},
+    {"dx": "Monocytes/chronic myelomonocytic leukemia", "vs": "Monocytes have folded nuclei with lacy chromatin and grey cytoplasm with fine granules and vacuoles, and express CD14 and nonspecific esterase rather than B-cell markers."},
+    {"dx": "Systemic mastocytosis", "vs": "Mast cells have round to spindled nuclei with abundant metachromatic granules and express CD117/tryptase, whereas hairy cells are agranular B cells."},
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v cells have a prominent nucleolus and lack CD25 and annexin A1, and are BRAF V600E-negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

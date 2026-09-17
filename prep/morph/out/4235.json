@@ -1,0 +1,20 @@
+{
+  "id": "4235",
+  "recognize_zh": "三顆中型單核細胞，核呈圓到橢圓、染色質均勻細緻，胞質淡灰藍且邊緣有細毛狀突起（hairy projections），與旁邊的分葉嗜中性球對照，符合毛狀細胞（hairy cell）。",
+  "features": [
+    "Medium-sized mononuclear cells, larger than small lymphocytes, with moderate N:C ratio",
+    "Round to oval nuclei with evenly dispersed, finely stippled chromatin and no conspicuous nucleoli",
+    "Pale blue-gray cytoplasm with fine, irregular hair-like circumferential projections",
+    "Adjacent segmented neutrophil for size comparison; background red cells unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows several medium-sized atypical lymphoid cells with round to oval nuclei, finely dispersed chromatin without prominent nucleoli, and moderate amounts of pale gray-blue cytoplasm bearing fine, irregular hair-like projections. A segmented neutrophil is present for comparison, and red cells are unremarkable. Findings are consistent with hairy cells, suggestive of hairy cell leukemia; flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing are recommended.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma (villous lymphocytes)", "vs": "Villous lymphocytes have short polar villi, more condensed chromatin, and sometimes a small nucleolus, and are CD103/CD123 negative and BRAF wild-type."},
+    {"dx": "Hairy cell leukemia variant/splenic B-cell lymphoma with prominent nucleoli", "vs": "HCL-variant cells have prominent nucleoli, often leukocytosis without monocytopenia, and are CD25/annexin A1 negative and BRAF V600E negative."},
+    {"dx": "Monocytes", "vs": "Monocytes have folded nuclei with lacy chromatin and gray cytoplasm with fine granules and vacuoles rather than circumferential hair-like projections."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

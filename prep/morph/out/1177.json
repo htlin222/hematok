@@ -1,0 +1,21 @@
+{
+  "id": "1177",
+  "recognize_zh": "高倍下多數是大型母細胞，核圓或稍不規則、染色質細緻、可見明顯核仁，胞質少到中等且多半沒有顆粒，只有少數細胞含粗顆粒；幾乎看不到分葉或桿狀核顆粒球，符合無成熟的 AML。",
+  "features": [
+    "Predominance of large blasts with round to slightly irregular nuclei",
+    "Finely dispersed chromatin with one or more distinct nucleoli",
+    "Scant to moderate basophilic cytoplasm, mostly agranular",
+    "Few cells with coarse azurophilic granules; maturing myelocytes, bands and neutrophils essentially absent",
+    "No Auer rods clearly identified in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear at high power shows a predominance of large blasts with round to slightly irregular nuclei, finely dispersed chromatin, distinct nucleoli and scant to moderate agranular basophilic cytoplasm. A small minority of cells contain coarse azurophilic granules, but maturing granulocytes beyond the promyelocyte stage are essentially absent. No Auer rods are identified in this field. Findings are consistent with acute myeloid leukemia without maturation, with myeloid lineage to be confirmed by MPO cytochemistry or flow cytometry.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Agranular blasts overlap morphologically, so MPO positivity in >=3% of blasts or myeloid immunophenotype is needed to exclude ALL."},
+    {"dx": "AML with maturation", "vs": "Would show >=10% maturing granulocytes, which are not present in this field."},
+    {"dx": "Acute monoblastic leukemia", "vs": "Monoblasts have more abundant gray-blue cytoplasm, delicate lacy chromatin and nonspecific esterase positivity, rather than scant basophilic cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

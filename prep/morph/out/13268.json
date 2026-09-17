@@ -1,0 +1,22 @@
+{
+  "id": "13268",
+  "recognize_zh": "高倍下可見大型、多核或呈花圈樣（wreath-like）核的異型細胞，其中一顆細胞質內含數顆被吞入的紅血球；周圍混有小淋巴球與漿細胞，提示 ALCL 腫瘤細胞吞噬紅血球。",
+  "features": [
+    "Large atypical cells with abundant amphophilic cytoplasm and multiple nuclei arranged in a wreath-like pattern",
+    "Nuclei vesicular to coarse with distinct nucleoli; some kidney-shaped forms",
+    "One multinucleated tumor cell contains several engulfed red cells; another large cell also contains red cell material",
+    "Background of small lymphocytes and plasmacytoid cells",
+    "Eosinophilic fibrous stroma in the lower right corner"
+  ],
+  "describe_en": "Section (H&E) at high power shows scattered large atypical cells with abundant amphophilic cytoplasm, multiple or wreath-like nuclei, and prominent nucleoli, set in a background of small lymphocytes and plasma cells. One multinucleated atypical cell contains several phagocytosed red cells, and a second large cell contains intracytoplasmic red cell material. Findings are consistent with tumor-cell erythrophagocytosis in anaplastic large cell lymphoma; CD30 and ALK immunohistochemistry are required to confirm tumor-cell identity.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma (Reed-Sternberg cells)", "vs": "HRS cells are CD15+/PAX5 weak+ and lack ALK and T-cell/cytotoxic markers, and they rarely show erythrophagocytosis."},
+    {"dx": "Reactive hemophagocytic histiocytes", "vs": "Benign hemophagocytes have small bland single nuclei rather than atypical wreath-like multinucleation."},
+    {"dx": "Megakaryocytes", "vs": "Megakaryocytes have a single hyperlobated nucleus and are CD61/CD42b-positive, not CD30-positive."},
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytic sarcoma is CD163/CD68-positive and CD30/ALK-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

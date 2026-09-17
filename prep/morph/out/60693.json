@@ -1,0 +1,26 @@
+{
+  "id": "60693",
+  "recognize_zh": "腦脊髓液細胞離心抹片中出現大量成群的小型淋巴樣細胞，免疫細胞化學一張呈細胞膜陽性、另一張呈細胞質陽性，證實為中樞神經系統內的單株性 B 淋巴樣細胞，在 Waldenström 巨球蛋白血症病人即符合 Bing-Neel 症候群。",
+  "features": [
+    "CSF cytospin (A): markedly increased cellularity with loose clusters and singly dispersed small-to-medium lymphoid cells with round nuclei and scant cytoplasm",
+    "Immunocytochemistry (B): crisp membranous staining of the lymphoid cells (B-cell surface marker, unlabeled)",
+    "Immunocytochemistry (C): diffuse cytoplasmic staining of a cluster of cells, compatible with cytoplasmic immunoglobulin/light chain (marker unlabeled)",
+    "Low magnification and resolution limit assessment of plasmacytoid features and nucleoli"
+  ],
+  "describe_en": "Cerebrospinal fluid cytospin shows a markedly increased population of small-to-medium lymphoid cells arranged singly and in loose clusters, with round nuclei and scant cytoplasm; plasmacytoid detail cannot be assessed at this magnification. Immunocytochemical stains demonstrate membranous positivity in the lymphoid cells on one preparation and cytoplasmic positivity on another (antibodies not labeled in the figure), supporting a B-lineage population with cytoplasmic immunoglobulin. In a patient with Waldenström macroglobulinemia, findings are consistent with central nervous system involvement by lymphoplasmacytic lymphoma (Bing-Neel syndrome); flow cytometric light chain restriction and MYD88 L265P testing of CSF provide confirmation.",
+  "ddx": [
+    {"dx": "Reactive lymphocytic pleocytosis (viral/aseptic meningitis)", "vs": "Reactive CSF contains a mixture of T cells, monocytes and activated lymphocytes that are polytypic and MYD88 wild-type."},
+    {"dx": "CNS involvement by diffuse large B-cell lymphoma", "vs": "DLBCL cells are large with vesicular chromatin, prominent nucleoli and high proliferation, unlike these small uniform lymphoid cells."},
+    {"dx": "Traumatic tap with blood contamination", "vs": "Blood contamination brings red cells and leukocytes in blood proportions rather than a dense clonal lymphoid population."},
+    {"dx": "CNS hyperviscosity or IgM paraprotein neuropathy", "vs": "These cause neurologic symptoms without lymphoplasmacytic cells in the CSF."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa cytospin; immunocytochemistry (unlabeled)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "CSF cytospin: increased small lymphoid cells in clusters",
+    "Immunocytochemistry: membranous staining of lymphoid cells",
+    "Immunocytochemistry: cytoplasmic staining of a cell cluster"
+  ]
+}

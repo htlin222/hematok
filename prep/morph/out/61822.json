@@ -1,0 +1,21 @@
+{
+  "id": "61822",
+  "recognize_zh": "巨核細胞標記免疫染色中，陽性巨核細胞體積偏小，核呈兩個或多個分離的小圓核或單一小核，零散分布於脂肪細胞之間，突顯小型、發育不良的巨核細胞。",
+  "features": [
+    "Megakaryocyte-marker IHC with strong granular cytoplasmic brown staining",
+    "Positive megakaryocytes are small to medium sized",
+    "Nuclei hypolobated or in two or more separated small round nuclei",
+    "Megakaryocytes dispersed singly among adipocytes without tight clustering",
+    "Negative background hematopoietic cells; scattered brown-black hemosiderin pigment at top"
+  ],
+  "describe_en": "Immunohistochemical stain for a megakaryocytic marker (likely CD61; marker not labeled) on the bone marrow core highlights scattered small-to-medium megakaryocytes with hypolobated nuclei or two or more separated small round nuclei, lying singly among adipocytes without tight clusters. The background hematopoietic cells are negative, and coarse hemosiderin pigment is noted. The stain accentuates small dysplastic megakaryocytes that are easily underestimated on H&E. Findings support megakaryocytic dysplasia in a myeloid neoplasm associated with germline GATA2 mutation.",
+  "ddx": [
+    {"dx": "Normal marrow megakaryocytes", "vs": "Normal megakaryocytes are large with a single lobulated nucleus and are not frequently binucleated or small."},
+    {"dx": "Myeloproliferative neoplasm", "vs": "MPN megakaryocytes are enlarged, hyperlobated or bulbous and form tight paratrabecular or paravascular clusters."},
+    {"dx": "Metastatic carcinoma cells mimicking megakaryocytes", "vs": "Carcinoma cells form cohesive clusters that are keratin-positive and CD61-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: megakaryocytic marker (likely CD61)",
+  "match": "consistent",
+  "high_yield": false
+}

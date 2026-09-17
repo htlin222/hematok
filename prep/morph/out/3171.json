@@ -1,0 +1,21 @@
+{
+  "id": "3171",
+  "recognize_zh": "周邊血抹片中大量標靶紅血球（target cell），並夾雜數個有直邊、折疊或一端突起的緻密紅血球，但沒有典型細長鐮刀形細胞，這種組合提示血紅素SC病。",
+  "features": [
+    "Numerous target cells with central hemoglobinized dot and surrounding pale ring",
+    "Occasional dense, folded or angular red cells with straight edges",
+    "Some red cells with irregularly distributed hemoglobin or knob-like projections",
+    "Absence of classic elongated sickle cells in this field",
+    "Mild anisocytosis; a few small dense cells and platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous target cells accompanied by occasional dense, folded red cells with straight or angular edges and cells with unevenly distributed hemoglobin. Classic sickle cells and discrete intraerythrocytic crystals are not clearly identified in this field. Findings are suggestive of hemoglobin SC disease; confirmation by hemoglobin electrophoresis or HPLC is required.",
+  "ddx": [
+    {"dx": "Hemoglobin C disease (CC)", "vs": "HbCC shows abundant target cells, spherocytes and rhomboid HbC crystals but lacks the folded SC cells and sickle forms; HPLC shows no HbS."},
+    {"dx": "Sickle cell anemia (HbSS)", "vs": "HbSS shows many elongated sickle cells, Howell-Jolly bodies and nucleated red cells, with fewer target cells."},
+    {"dx": "Thalassemia or liver disease with target cells", "vs": "Target cells in thalassemia are accompanied by microcytosis and basophilic stippling, and in liver disease by macrocytosis, without folded or crystal-containing cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "62610",
+  "recognize_zh": "Lambda 原位雜交低倍圖：右側小腸黏膜固有層內的正常漿細胞呈深藍黑色陽性（內部對照），左側腫瘤結節幾乎不著色，表示腫瘤不表現 lambda，提示 kappa 限制性。",
+  "features": [
+    "Low-power ISH section of small bowel wall with tumor on the left and mucosa on the right",
+    "Numerous dark blue-black lambda-positive plasma cells in the lamina propria of villi (internal positive control)",
+    "Tumor nodules infiltrating submucosa/muscularis are essentially negative for lambda",
+    "Fibromuscular septa and vessels separate tumor nodules from mucosa"
+  ],
+  "describe_en": "Lambda light chain in situ hybridization shows strong signal in scattered normal plasma cells of the adjacent small intestinal lamina propria, which serve as an internal positive control. The neoplastic infiltrate occupying the deeper bowel wall is essentially negative for lambda. Together with diffuse kappa positivity in the tumor, this indicates kappa light-chain restriction and a clonal plasma cell proliferation, consistent with plasmacytoma-like post-transplant lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "Polytypic reactive plasmacytosis", "vs": "Reactive infiltrates show a mixture of kappa- and lambda-positive cells (ratio roughly 2:1), unlike the lambda-negative tumor here."},
+    {"dx": "Technical failure of lambda ISH", "vs": "Strong signal in mucosal plasma cells on the same slide confirms the assay worked, so tumor negativity is genuine."},
+    {"dx": "Non-plasmacytic lymphoma lacking light chain mRNA", "vs": "A lesion negative for both kappa and lambda would suggest a non-secretory or non-plasma-cell neoplasm, whereas this tumor is kappa-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "ISH: lambda light chain",
+  "match": "consistent",
+  "high_yield": false
+}

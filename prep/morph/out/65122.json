@@ -1,0 +1,22 @@
+{
+  "id": "65122",
+  "recognize_zh": "整個視野幾乎所有紅血球都呈橢圓形到長桿狀（elliptocytes、pencil cells），兩端圓鈍，部分中央仍有淡染區，只有極少數圓形紅血球；大量（通常 >25%）且均一的橢圓形紅血球是遺傳性橢圓形紅血球症的典型表現。此圖以灰階呈現，許多細胞邊緣呈鋸齒狀，屬製片皺縮假象。",
+  "features": [
+    "Majority of red cells are elliptocytes and ovalocytes, ranging from egg-shaped to elongated rod- or pencil-shaped forms",
+    "Rounded ends with hemoglobin concentrated toward the poles; some cells retain central pallor",
+    "Very few round discocytes in the field",
+    "Crenated, scalloped membranes on many elliptocytes, consistent with drying artifact",
+    "No significant fragmentation, spherocytes or target cells; image displayed in grayscale so color assessment is not possible"
+  ],
+  "describe_en": "Peripheral blood smear shows that the large majority of red cells are elliptocytes, ranging from ovalocytes to elongated rod- and pencil-shaped forms with rounded ends and hemoglobin concentrated at the poles. Round discocytes are infrequent. Many cells show crenated margins, attributable to smear preparation artifact, and there is no significant population of schistocytes, spherocytes or budding forms. The image is rendered in grayscale, so polychromasia and hypochromia cannot be assessed. Findings are consistent with hereditary elliptocytosis.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency produces hypochromic microcytic pencil cells mixed with target cells and anisocytosis, usually as a minority population, not a near-uniform elliptocyte population."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic anemia shows large macro-ovalocytes with hypersegmented neutrophils and marked anisopoikilocytosis rather than uniform normal-sized elliptocytes."},
+    {"dx": "Southeast Asian ovalocytosis", "vs": "SAO cells are rounder, rigid stomatocytic ovalocytes with one or two transverse slits or bars and a 27-bp SLC4A1 deletion."},
+    {"dx": "Hereditary pyropoikilocytosis", "vs": "HPP shows marked microcytosis with bizarre fragments, budding cells and microspherocytes in addition to elliptocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa (displayed in grayscale)",
+  "match": "consistent",
+  "high_yield": true
+}

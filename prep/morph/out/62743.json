@@ -1,0 +1,21 @@
+{
+  "id": "62743",
+  "recognize_zh": "周邊血液中母細胞呈兩群：較小、染色質細緻、細胞質少的淋巴母細胞樣細胞，與較大、細胞質灰藍、核摺疊的單核球樣母細胞；流式細胞儀顯示CD19+的B系母細胞與另一群CD64+、CD33+、CD15+的單核系細胞，符合KMT2A重組的混合表型急性白血病。",
+  "features": [
+    "Peripheral blood with numerous blasts of heterogeneous size (A)",
+    "Smaller blasts with high N:C ratio, fine chromatin and scant basophilic cytoplasm (lymphoblast-like)",
+    "Larger blasts with moderate grey-blue cytoplasm and folded or indented nuclei (monoblast/promonocyte-like)",
+    "Flow cytometry: dominant CD19-positive, CD20-negative, CD10-negative blast population (red) (B)",
+    "Separate population (green) expressing CD64, CD33, CD13/33 and CD15 with dim CD14, indicating monocytic differentiation (B)"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with numerous blasts of heterogeneous appearance, including smaller lymphoblast-like cells with fine chromatin and scant cytoplasm, and larger cells with moderate grey-blue cytoplasm and folded nuclei resembling monoblasts or promonocytes. Flow cytometry demonstrates a predominant CD19-positive blast population lacking CD10 and CD20, together with a distinct population expressing CD64, CD33 and CD15 with minimal CD14, indicating monocytic lineage. The coexistence of separate B-lymphoblastic and monocytic blast populations is consistent with mixed-phenotype acute leukemia (bilineal B/myeloid), which in conjunction with t(4;11)(q21;q23) represents MPAL with KMT2A-AFF1 rearrangement.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia with KMT2A rearrangement", "vs": "KMT2A-rearranged B-ALL is typically CD10-negative with aberrant CD15 or CD33 expression on the same blasts, whereas MPAL requires a separate population or lineage-defining monocytic markers (CD64, CD14, lysozyme)."},
+    {"dx": "Acute monocytic leukemia with KMT2A rearrangement", "vs": "AML with KMT2A rearrangement lacks a CD19-positive B-lymphoblast population with CD79a/PAX5 expression."},
+    {"dx": "Lineage switch after therapy", "vs": "Lineage switch is a sequential change in phenotype over time rather than two simultaneous populations at diagnosis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

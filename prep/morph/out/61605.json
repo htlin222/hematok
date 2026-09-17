@@ -1,0 +1,22 @@
+{
+  "id": "61605",
+  "recognize_zh": "整片單一形態的大型細胞，核圓至卵圓、染色質呈泡狀、多有中央核仁，細胞質量中等偏雙嗜色，其間散在含凋亡碎屑的巨噬細胞（starry-sky）；這種免疫母細胞/漿母細胞樣外觀需配合 CD20 陰性、MUM1 與 EBER 陽性才能確診漿母細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheets of monotonous large cells, roughly 2-3 times a small lymphocyte",
+    "Round to oval nuclei with vesicular chromatin and single central or several small nucleoli (immunoblastic/plasmablastic)",
+    "Moderate amphophilic cytoplasm with distinct cell borders; perinuclear hof not conspicuous at this magnification",
+    "Scattered tingible-body macrophages with apoptotic debris imparting a starry-sky pattern",
+    "Frequent apoptotic bodies and occasional mitoses; no admixed small mature plasma cells or background small lymphocytes"
+  ],
+  "describe_en": "Sections show a diffuse, effacing proliferation of large monotonous neoplastic cells arranged in sheets. The cells have round to oval nuclei with vesicular chromatin, central or multiple small nucleoli and moderate amphophilic cytoplasm, resembling immunoblasts/plasmablasts. Numerous tingible-body macrophages and apoptotic bodies produce a starry-sky pattern, indicating a high proliferation rate. In the appropriate immunophenotypic context (CD20/CD45 negative, MUM1 positive, EBER positive), the findings are consistent with EBV-positive plasmablastic lymphoma.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are medium-sized with squared-off borders, multiple small nucleoli and basophilic vacuolated cytoplasm, and are CD20/CD10 positive with Ki-67 near 100% rather than CD20-negative/MUM1-positive."},
+    {"dx": "DLBCL, immunoblastic variant", "vs": "Immunoblastic DLBCL can look identical on H&E but expresses CD20/PAX5 and lacks the plasmacytic program (CD138, PRDM1) of plasmablastic lymphoma."},
+    {"dx": "Plasma cell myeloma with plasmablastic morphology", "vs": "Myeloma usually presents with a marrow-based lesion, serum M-protein and CRAB features, retains some mature plasma cell differentiation and is typically EBER negative."},
+    {"dx": "ALK-positive large B-cell lymphoma / primary effusion lymphoma (extracavitary)", "vs": "These share the plasmablastic immunophenotype but are distinguished by ALK expression or HHV8 (LANA) positivity, respectively."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

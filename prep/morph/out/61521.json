@@ -1,0 +1,21 @@
+{
+  "id": "61521",
+  "recognize_zh": "多個散在的大型多核細胞 CD30 強陽性，呈細胞膜加上核旁高基氏體點狀（membrane + Golgi）染色，而周圍大量小淋巴球為陰性；這種「稀疏大細胞、背景反應性」的分布是古典何杰金淋巴瘤的典型 CD30 型態。",
+  "features": [
+    "Scattered large cells, many binucleated or multinucleated, with abundant cytoplasm",
+    "Strong CD30 membranous staining with dense paranuclear Golgi-zone accentuation",
+    "Positive cells are dispersed singly and in small clusters rather than in sheets",
+    "Background of numerous small CD30-negative lymphocytes",
+    "Nuclei of positive cells appear as clear, vesicular spaces outlined by stained cytoplasm"
+  ],
+  "describe_en": "Immunohistochemical stain for CD30 highlights numerous scattered large mono- and multinucleated cells in a background of small negative lymphocytes. The large cells show strong membranous staining with paranuclear Golgi accentuation. Positive cells are distributed singly and in small aggregates without forming cohesive sheets. Findings are consistent with Hodgkin/Reed-Sternberg cells of classical Hodgkin lymphoma, nodular sclerosis subtype.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows uniform strong CD30 in cohesive sheets or sinusoidal aggregates of hallmark cells, often ALK+ and CD15-, rather than scattered HRS cells in a reactive background."},
+    {"dx": "Reactive CD30+ immunoblasts (e.g., infectious mononucleosis)", "vs": "Activated immunoblasts are smaller, show weaker variable CD30 in a spectrum of cell sizes, and are CD20+/PAX5+ without the CD15+ multinucleated HRS phenotype."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL has sheets of CD30-weak/variable large cells with strong CD20, CD79a, and OCT2, instead of scattered CD20-negative HRS cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": true
+}

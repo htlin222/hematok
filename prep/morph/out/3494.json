@@ -1,0 +1,21 @@
+{
+  "id": "3494",
+  "recognize_zh": "骨髓抹片中央一顆大型組織球，胞質豐富、呈淡灰藍色並帶細緻纖維狀紋理，小而圓的核偏在一側，外觀像皺褶的薄紙；在慢性骨髓性白血病（CML）背景下，符合偽高雪氏細胞（pseudo-Gaucher cell）。",
+  "features": [
+    "Very large histiocyte with abundant pale gray-blue cytoplasm showing a fine fibrillary/striated texture",
+    "Single small round nucleus with coarse chromatin, located off-center",
+    "Low N:C ratio; cytoplasm without discrete vacuoles or phagocytosed cells",
+    "Adjacent small mature lymphocytes and a granulocytic cell; scattered fine refractile debris in background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a very large histiocyte with abundant pale gray-blue cytoplasm bearing a fine fibrillary, 'crumpled tissue paper' texture and a small round nucleus. No phagocytosed cells or discrete granules are evident within the cytoplasm. Adjacent cells include small lymphocytes and granulocytic elements. In a patient with CML, findings are consistent with a pseudo-Gaucher cell, which reflects increased glucocerebroside load from high cell turnover rather than an enzyme deficiency.",
+  "ddx": [
+    {"dx": "True Gaucher cell (Gaucher disease)", "vs": "Gaucher and pseudo-Gaucher cells are morphologically indistinguishable, so the distinction depends on glucocerebrosidase activity/GBA testing and the presence of an underlying hematologic neoplasm."},
+    {"dx": "Mycobacterium avium complex-infected histiocyte", "vs": "MAC-laden histiocytes can look striated but contain negative-image rods and are acid-fast positive, usually in immunocompromised hosts."},
+    {"dx": "Sea-blue histiocyte", "vs": "Sea-blue histiocytes are filled with discrete blue ceroid granules rather than homogeneous fibrillary cytoplasm."},
+    {"dx": "Niemann-Pick (foam) cell", "vs": "Niemann-Pick cells have finely bubbly, soap-like vacuolated cytoplasm rather than striated cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

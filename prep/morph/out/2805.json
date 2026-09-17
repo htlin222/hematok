@@ -1,0 +1,22 @@
+{
+  "id": "2805",
+  "recognize_zh": "周邊血中三顆大型母細胞，核圓、染色質細緻均勻，細胞質少量淡藍，未見 Auer 小體；單看這張只能認出是急性白血病母細胞，單核球分化須靠 NSE 或流式細胞儀佐證。",
+  "features": [
+    "Three large blasts, 2-3 times the diameter of red cells",
+    "Round to slightly oval nuclei with finely dispersed chromatin",
+    "Nucleoli indistinct at this magnification",
+    "Scant to moderate pale basophilic cytoplasm without visible granules or Auer rods",
+    "Background red cells with rouleaux-like stacking; no mature leukocytes in field"
+  ],
+  "describe_en": "Peripheral blood smear shows several large blasts with high N:C ratios, round to slightly oval nuclei, finely dispersed chromatin and a thin rim of pale basophilic cytoplasm. Cytoplasmic granules and Auer rods are not seen, and definite monocytic features such as nuclear folding or gray vacuolated cytoplasm are not evident in these cells. The morphology indicates circulating blasts; separation of myeloblasts and monoblasts/promonocytes requires cytochemistry (MPO, NSE) and flow cytometry. These findings are compatible with, but not specific for, acute myelomonocytic leukemia.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts may look identical; MPO negativity and TdT/CD19 or CD3 expression by flow cytometry identify ALL."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation or without maturation", "vs": "These lack a monocytic component (NSE-negative, CD14/CD64 low), whereas AMMoL requires >=20% monocytic cells and >=20% neutrophil lineage cells."},
+    {"dx": "Acute monocytic/monoblastic leukemia", "vs": "Monoblastic leukemia shows >=80% monocytic cells with abundant gray cytoplasm and folded nuclei and few neutrophil-lineage cells."},
+    {"dx": "Large cell lymphoma in leukemic phase", "vs": "Lymphoma cells tend to have coarser chromatin, nuclear irregularity and deeply basophilic vacuolated cytoplasm, and express mature B- or T-cell markers."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

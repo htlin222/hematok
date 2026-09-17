@@ -1,0 +1,23 @@
+{
+  "id": "66311",
+  "recognize_zh": "周邊血液中可見多顆中等大小的母細胞，核質比極高、只有一圈很薄的藍色細胞質、染色質細緻、核仁不明顯，部分核有凹陷或切跡，且無顆粒與 Auer 小體，形態符合淋巴母細胞（lymphoblast）。",
+  "features": [
+    "Five medium-sized blasts, roughly 1.5-2 times the diameter of a red cell",
+    "Very high N:C ratio with a thin rim of agranular basophilic cytoplasm",
+    "Round to slightly indented/clefted nuclei with finely dispersed to slightly condensed chromatin",
+    "Nucleoli inconspicuous; no Auer rods or cytoplasmic granules",
+    "Background red cells show prominent central pallor (hypochromia) with mild anisocytosis",
+    "Platelets are sparse in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous circulating blasts on a background of red cells with conspicuous central pallor and mild anisocytosis; platelets appear reduced. The blasts are medium-sized with a very high nuclear-to-cytoplasmic ratio, scant agranular basophilic cytoplasm, round to indented nuclei with fine chromatin, and inconspicuous nucleoli. No Auer rods, cytoplasmic granules, or dysplastic neutrophils are identified in this field. Morphology is consistent with lymphoblasts; in conjunction with the reported CD10/CD19/cCD79a-positive immunophenotype, findings are consistent with B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "Morphologically indistinguishable from B-lymphoblasts; separation requires flow cytometry showing cytoplasmic CD3 without B-lineage markers, often with a mediastinal mass."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation (M0)", "vs": "Myeloblasts may also be agranular, but they are MPO/myeloid-marker positive (CD13, CD33, CD117) and lack CD19/CD10/cCD79a."},
+    {"dx": "Leukemic phase of mantle cell lymphoma (blastoid)", "vs": "Occurs in older adults, cells are CD5+/cyclin D1+ mature B cells with surface light chain and lack TdT/CD34, unlike precursor B lymphoblasts."},
+    {"dx": "Reactive/atypical lymphocytes (e.g., pertussis, viral infection)", "vs": "Reactive lymphocytes show mature clumped chromatin, more abundant cytoplasm, and a heterogeneous population rather than a monotonous blast population with fine chromatin."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": true
+}

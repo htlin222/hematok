@@ -1,0 +1,21 @@
+{
+  "id": "61498",
+  "recognize_zh": "G 顯帶核型圖中第 5 號染色體被圈起來，其中一條的長臂明顯比同源染色體短（中間段缺失），其餘染色體數目與結構看起來正常，標示為 46,XX,del(5)(q22q34)[20]，即單獨 5q 缺失的 MDS。",
+  "features": [
+    "G-banded karyotype of a female (XX) with 46 chromosomes arranged by size and centromere position",
+    "Circled chromosome 5 pair: one homolog has a visibly shortened long arm with loss of mid-distal 5q bands",
+    "No other numerical or structural abnormality apparent; marker (mar) slot empty",
+    "Figure legend states 46,XX,del(5)(q22q34)[20], i.e., the deletion in all 20 metaphases analyzed",
+    "Banding resolution is modest, so precise breakpoints rely on the reported karyotype rather than the image alone"
+  ],
+  "describe_en": "This is a G-banded karyotype from a bone marrow aspirate culture of a female patient, not a morphologic image. The chromosome 5 pair (circled) shows one normal homolog and one with an interstitial deletion of the long arm, reported as del(5)(q22q34), present in all 20 metaphases examined; no additional clonal abnormalities are apparent. Interpretation: an isolated del(5q) in a patient with anemia and dysmegakaryopoiesis supports myelodysplastic neoplasm with low blasts and isolated 5q deletion (MDS-5q), which carries a favorable prognosis and responds to lenalidomide; TP53 status should be assessed because a TP53 mutation worsens the outlook.",
+  "ddx": [
+    {"dx": "Complex karyotype MDS/AML with del(5q)", "vs": "In complex karyotypes del(5q) is accompanied by three or more other abnormalities (often -7 or 17p loss), whereas here it is the sole change."},
+    {"dx": "MDS-5q with one additional abnormality", "vs": "WHO still allows MDS-5q with one extra abnormality except -7/del(7q); this karyotype shows no second abnormality."},
+    {"dx": "Therapy-related myeloid neoplasm with 5q loss", "vs": "Karyotype may look similar; the distinction depends on prior cytotoxic therapy history and usual co-occurring TP53 mutation."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding (GTG)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

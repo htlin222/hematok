@@ -1,0 +1,20 @@
+{
+  "id": "64944",
+  "recognize_zh": "左側病人的 EDTA 紫頭管內血液呈凝膠狀、分層不均且底部有凝塊碎片，無法像右側對照管一樣正常流動與沉降；這種採血後立即在管內凝固/膠化的現象，提示冷凝球蛋白（cryoglobulin）在室溫下沉澱。",
+  "features": [
+    "Gross photograph of two EDTA (lavender-top) vacutainers displayed upside down on their caps",
+    "Patient tube (left, arrow): blood forms a gelled, non-flowing column with dark upper portion and irregular clotted fragments near the cap",
+    "Control tube (right): uniformly anticoagulated blood with normal settling of red cells and a clear plasma layer above",
+    "No visible mixing or free-flowing liquid phase in the patient sample despite anticoagulant"
+  ],
+  "describe_en": "Gross photograph of two EDTA-anticoagulated blood collection tubes. The patient sample (left) shows immediate gelation/clotting with an immobile column and irregular clot fragments, whereas the control sample (right) remains liquid with normal red cell sedimentation. In the context of a lymphoplasmacytic lymphoma with IgM paraprotein, this is consistent with cryoglobulin precipitation at room temperature; samples should be collected and transported at 37 °C for accurate counts and smear preparation. Findings are consistent with cryoglobulinemia-related in vitro sample gelation.",
+  "ddx": [
+    {"dx": "Inadequate anticoagulant mixing (true pre-analytic clot)", "vs": "A true clot from poor mixing does not re-liquefy on warming to 37 °C, whereas cryoglobulin gelation reverses with warming."},
+    {"dx": "Hyperviscosity from high-level IgM paraprotein without cryoprecipitation", "vs": "Hyperviscous blood flows sluggishly but remains liquid at room temperature and does not form a gel or clot-like mass."},
+    {"dx": "Cold agglutinin disease", "vs": "Cold agglutinins cause visible red cell clumping/granularity that disperses on warming, rather than gelation of the whole plasma phase."}
+  ],
+  "specimen": "gross",
+  "stain": "N/A",
+  "match": "consistent",
+  "high_yield": false
+}

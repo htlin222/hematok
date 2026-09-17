@@ -1,0 +1,21 @@
+{
+  "id": "2124",
+  "recognize_zh": "低倍淋巴結免疫染色可見多個棕色深染的圓形結節（濾泡狀區）與其間大片淡染、擴張的濾泡間／副皮質區交錯，呈現結構保留但副皮質明顯擴大的反應性增生，這是 ALPS 淋巴結的整體架構。本圖未標示抗體名稱，解讀需搭配染色資訊。",
+  "features": [
+    "Low-power lymph node section with preserved nodular architecture",
+    "Multiple round, strongly and diffusely brown-staining nodules consistent with follicles (pattern suggests a B-cell marker, antibody not stated)",
+    "Broad, paler interfollicular/paracortical zones containing only scattered positive cells, indicating marked paracortical expansion",
+    "Scattered small vessels and open spaces within the interfollicular areas",
+    "No effacement of architecture by a diffuse sheet of positive cells"
+  ],
+  "describe_en": "Low-power immunohistochemical stain of a lymph node shows preserved architecture with multiple strongly positive nodules corresponding to follicles, separated by broad, expanded interfollicular/paracortical zones that contain only scattered positive cells. The antibody is not specified in the image; the follicular distribution suggests a B-cell marker such as CD20, which would indicate that the expanded paracortex is composed of non-B cells. The architecture is not effaced. In the appropriate clinical context, the pattern of follicular hyperplasia with marked paracortical expansion is consistent with autoimmune lymphoproliferative syndrome, pending demonstration of CD4-/CD8- TCRαβ+ double-negative T cells.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma shows back-to-back crowded follicles effacing the node with BCL2-positive germinal centers, whereas here follicles are separated by broad expanded interfollicular zones."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows effaced architecture with expanded CD21+ follicular dendritic cell meshworks and atypical PD1+/CD10+ T cells, which requires additional stains to exclude."},
+    {"dx": "Nonspecific reactive follicular and paracortical hyperplasia", "vs": "Morphology is similar, so separation from ALPS requires flow cytometry for elevated double-negative T cells and biomarkers such as elevated FASL, IL-10, and vitamin B12."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (likely B-cell marker)",
+  "match": "partial",
+  "high_yield": false
+}

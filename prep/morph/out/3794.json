@@ -1,0 +1,22 @@
+{
+  "id": "3794",
+  "recognize_zh": "一顆大型組織球（巨噬細胞）的細胞質內包著十多顆完整、圓形深染的小核（被吞噬的淋巴球等有核細胞），自身核較大、染色較淡；這是噬血現象（hemophagocytosis），配合 CLL 背景提示 HLH。",
+  "features": [
+    "Large macrophage with abundant pale, finely vacuolated gray-blue cytoplasm",
+    "More than ten engulfed intact round nucleated cells, mostly small lymphocyte-sized, within the cytoplasm",
+    "Macrophage nucleus larger and paler with open reticular chromatin",
+    "Adjacent granulocytes and small mature lymphocytes in the background",
+    "Well-preserved engulfed cells with dense chromatin"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large macrophage containing numerous intact phagocytosed nucleated cells, predominantly small lymphocyte-sized cells with dense chromatin, within abundant pale vacuolated cytoplasm. Background small mature lymphocytes and granulocytes are present. The finding represents hemophagocytosis; in a patient with CLL and compatible clinical and laboratory criteria (fever, cytopenias, hyperferritinemia, hypertriglyceridemia, elevated sCD25), this supports secondary hemophagocytic lymphohistiocytosis, although hemophagocytosis alone is neither sensitive nor specific.",
+  "ddx": [
+    {"dx": "Emperipolesis in megakaryocytes", "vs": "Emperipolesis involves intact cells passing through a megakaryocyte with a lobulated nucleus and granular cytoplasm, not a histiocyte with a single oval nucleus."},
+    {"dx": "Rosai-Dorfman disease (emperipolesis in histiocytes)", "vs": "Rosai-Dorfman histiocytes are S100-positive and usually involve lymph nodes, while HLH macrophages are S100-negative and occur with systemic hyperinflammation."},
+    {"dx": "Tingible body macrophage / apoptotic debris", "vs": "Tingible body macrophages contain fragmented pyknotic apoptotic debris rather than multiple intact, well-preserved nucleated cells."},
+    {"dx": "Reactive hemophagocytosis after transfusion or sepsis", "vs": "Morphology is identical; HLH is a clinical diagnosis requiring HLH-2004 criteria rather than the histiocyte alone."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

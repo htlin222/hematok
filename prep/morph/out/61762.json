@@ -1,0 +1,21 @@
+{
+  "id": "61762",
+  "recognize_zh": "CD20 免疫染色中片狀排列、密集的中型腫瘤細胞呈強而完整的膜狀陽性（一圈棕色環繞藍色核），只有少數陰性細胞與基質夾雜；證實為 B 細胞淋巴瘤，但 CD20 無法區分被套細胞淋巴瘤，需 cyclin D1 等輔助。",
+  "features": [
+    "Diffuse sheets of tumor cells with strong complete membranous CD20 staining",
+    "Monotonous medium-sized cells with round to oval nuclei outlined by the membranous stain",
+    "Scattered CD20-negative cells (stromal, endothelial, T cells or histiocytes) with blue nuclei in small pale pockets",
+    "No nodular or follicular architecture evident; effaced diffuse growth pattern"
+  ],
+  "describe_en": "CD20 immunohistochemistry shows a diffuse, effacing infiltrate of monotonous medium-sized cells with strong, complete membranous staining, with only scattered negative stromal and background cells. No residual follicular pattern is apparent. The stain establishes the mature B-cell lineage of the infiltrate but does not distinguish among B-cell lymphoma subtypes. In the stated context, the findings are consistent with blastoid mantle cell lymphoma, which requires cyclin D1 and/or SOX11 positivity, CD5 co-expression and a Ki-67 assessment.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "Is also diffusely CD20 positive but composed of larger cells and negative for cyclin D1 and SOX11 (CD5 only in a minority)."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "Blasts are often CD20 weak or negative and express TdT and CD34 rather than strong membranous CD20."},
+    {"dx": "Burkitt lymphoma", "vs": "Shows a starry-sky pattern with CD10+ BCL6+ BCL2-negative cells, Ki-67 near 100% and MYC rearrangement."},
+    {"dx": "Small lymphocytic lymphoma with increased prolymphocytes", "vs": "Contains proliferation centers and is CD23 and LEF1 positive with weaker CD20 and cyclin D1 negative except in proliferation centers."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

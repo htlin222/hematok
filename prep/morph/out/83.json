@@ -1,0 +1,30 @@
+{
+  "id": "83",
+  "recognize_zh": "真皮被大量胞質呈細泡沫狀（xanthomatous）、核小而溫和的組織球取代，伴隨纖維化、零星淋巴球聚集，並可見核排成花環狀的 Touton 型多核巨細胞；免疫染色組織球顆粒狀陽性（組織球標記），配合臨床骨硬化病灶即符合 Erdheim-Chester disease。",
+  "features": [
+    "Dermal infiltrate of sheets and clusters of foamy (xanthomatous) histiocytes with finely vacuolated cytoplasm",
+    "Small, bland round to oval histiocyte nuclei without atypia, nuclear grooves or mitoses",
+    "Touton-type multinucleated giant cells with a wreath of nuclei",
+    "Background dermal fibrosis with collagen bundles separating histiocytes and small perivascular lymphocytic aggregates",
+    "Granular cytoplasmic immunostaining of foamy histiocytes (histiocytic marker such as CD68/CD163; label not provided)"
+  ],
+  "describe_en": "Skin biopsy shows an overlying unremarkable epidermis and a dermis that is diffusely hypercellular and fibrotic at low power. Higher magnification reveals sheets of foamy xanthomatous histiocytes with finely vacuolated cytoplasm and small, bland nuclei, admixed with Touton-type multinucleated giant cells, collagen fibrosis and scattered small lymphocytic aggregates. Nuclear grooves, emperipolesis, eosinophil-rich infiltrates and cytologic atypia are not seen. An immunohistochemical stain (marker not labeled) shows granular cytoplasmic positivity in the foamy histiocytes, consistent with a histiocytic marker. In the context of bilateral sclerotic long-bone lesions and systemic infiltrates, findings are consistent with Erdheim-Chester disease; CD1a/langerin negativity and BRAF V600E testing would further support the diagnosis.",
+  "ddx": [
+    {"dx": "Juvenile xanthogranuloma / adult xanthogranuloma", "vs": "Histology and immunophenotype (CD68+/CD163+/factor XIIIa+, CD1a-) overlap, so the distinction rests on clinical-radiologic context (systemic disease, symmetric long-bone osteosclerosis) and BRAF V600E status."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells have grooved nuclei, eosinophilic rather than foamy cytoplasm, admixed eosinophils and are CD1a+/langerin+, unlike these CD1a-negative foamy histiocytes."},
+    {"dx": "Rosai-Dorfman disease", "vs": "RDD histiocytes are large with pale non-foamy cytoplasm, prominent nucleoli, emperipolesis and strong S100 positivity."},
+    {"dx": "Reactive xanthoma / xanthomatous inflammation (e.g., xanthelasma, necrobiotic xanthogranuloma)", "vs": "May be morphologically indistinguishable; necrobiotic xanthogranuloma shows necrobiosis and cholesterol clefts with paraproteinemia, and reactive xanthomas lack BRAF/MAPK mutations and systemic bone disease."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (histiocytic marker, label not shown)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Low power H&E: skin biopsy with hypercellular, fibrotic dermis beneath unremarkable epidermis",
+    "H&E: foamy histiocytes and Touton-type giant cells in fibrotic dermis",
+    "High power H&E: xanthomatous histiocytes with bland nuclei between collagen bundles",
+    "H&E: sheets of foamy histiocytes with fibrosis and a small lymphoid aggregate",
+    "High power H&E: finely vacuolated cytoplasm and small bland nuclei",
+    "IHC (histiocytic marker): granular cytoplasmic positivity in foamy histiocytes"
+  ]
+}

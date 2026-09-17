@@ -1,0 +1,22 @@
+{
+  "id": "60677",
+  "recognize_zh": "C 圖周邊血嗜酸性球的顆粒大小與顏色不一，混有紫黑色嗜鹼樣顆粒與橘紅色顆粒，核分葉異常；A、B 圖電子顯微鏡下顆粒呈均質或斑駁、缺乏典型的中央結晶核心，代表嗜酸性球發育不良（dysplastic eosinophil），見於具 MDS 相關變化的 AML。",
+  "features": [
+    "Wright-Giemsa (C): eosinophil with abnormal nuclear lobation and mixed granules, including dark purple basophilic-appearing granules among orange-red eosinophilic granules",
+    "Uneven granule distribution with areas of granule-poor cytoplasm",
+    "Transmission EM (A): whole eosinophil with numerous round, electron-dense cytoplasmic granules",
+    "EM detail (B, boxed area): granules of variable density lacking the well-defined central crystalline core typical of mature specific granules",
+    "Surrounding red cells show central refractile artifacts; not interpretable as specific inclusions"
+  ],
+  "describe_en": "Peripheral blood smear (panel C) shows an eosinophil with irregular nuclear lobation and heterogeneous cytoplasmic granules, with admixed dark purple, basophilic-staining (immature, pro-eosinophilic) granules among orange eosinophilic granules. Transmission electron microscopy (panels A and B) shows numerous round cytoplasmic granules that, at higher magnification, have mottled or homogeneous matrices without the typical electron-dense central crystalloid core. These light and ultrastructural findings indicate defective eosinophil granule maturation. In a patient with AML, findings are consistent with eosinophil dysplasia as part of myelodysplasia-related changes.",
+  "ddx": [
+    {"dx": "AML with inv(16)/t(16;16) CBFB::MYH11", "vs": "Inv(16) AML shows abnormal eosinophil precursors with large purple-violet basophilic granules in the marrow, so cytogenetics/molecular testing for CBFB::MYH11 is needed to separate it."},
+    {"dx": "Normal eosinophil with overlapping basophilic granules", "vs": "Normal eosinophils have uniform orange-red refractile granules and bilobed nuclei; EM shows specific granules with a central crystalline core."},
+    {"dx": "Basophil or eosinophil-basophil hybrid cell", "vs": "Basophils have large dark granules that obscure the nucleus and lack orange granules, whereas this cell contains mostly eosinophilic granules with only some immature basophilic ones."},
+    {"dx": "Reactive eosinophilia", "vs": "Reactive eosinophils may be hypogranular or vacuolated but do not show persistent immature basophilic granules or loss of crystalloid cores with accompanying multilineage dysplasia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; transmission electron microscopy",
+  "match": "consistent",
+  "high_yield": false
+}

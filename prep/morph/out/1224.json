@@ -1,0 +1,22 @@
+{
+  "id": "1224",
+  "recognize_zh": "周邊血液厚區可見大量散在血小板，大小不一，並有一個明顯的血小板聚集團塊；左側另有一顆帶粗紫顆粒的單核細胞。血小板數量增多與大小不均符合原發性血小板增多症（ET）的抹片，但此圖本身無法區分原發或反應性。",
+  "features": [
+    "Numerous scattered platelets with variation in size, including some large forms",
+    "A loose platelet aggregate in the center of the field",
+    "Single mononuclear cell with coarse purple cytoplasmic granules at left, its lineage indeterminate at this magnification (basophil or mast cell-like)",
+    "Red cells overlapping in a thick area, grossly normochromic without teardrop cells",
+    "No blasts or nucleated red cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear, examined in a relatively thick area, shows numerous scattered platelets with variation in size, including large platelets and a central platelet aggregate. A single mononuclear cell with coarse purple cytoplasmic granules is present, which may represent a basophil, although its lineage cannot be determined with confidence. Red cells appear normochromic without teardrop forms, and no blasts or nucleated red cells are seen. The findings suggest thrombocytosis with platelet anisocytosis and are consistent with essential thrombocythemia in the appropriate clinical and molecular context (JAK2, CALR or MPL mutation), although reactive thrombocytosis and other MPNs cannot be excluded on the smear alone.",
+  "ddx": [
+    {"dx": "Reactive thrombocytosis", "vs": "Platelets are usually more uniform in size without giant forms, and there is no driver mutation or megakaryocytic clustering in the marrow."},
+    {"dx": "Primary myelofibrosis, prefibrotic or overt", "vs": "PMF often shows teardrop cells and leukoerythroblastosis, which are absent here, and its marrow megakaryocytes are atypical with cloud-like nuclei."},
+    {"dx": "Chronic myeloid leukemia with thrombocytosis", "vs": "CML shows leukocytosis with a myelocyte peak and basophilia, and it is excluded by BCR::ABL1 testing."},
+    {"dx": "Pseudothrombocytopenia with platelet clumping artifact", "vs": "EDTA-induced clumping produces large aggregates with a falsely low count, whereas here many single platelets are dispersed across the field."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

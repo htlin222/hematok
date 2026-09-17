@@ -1,0 +1,22 @@
+{
+  "id": "66297",
+  "recognize_zh": "周邊血抹片中血小板數量明顯增多，三個箭頭分別指出正常大小血小板（左下）、大小接近紅血球的巨大血小板（giant platelet，中央）與大型血小板（右上），巨大血小板內可見紫紅色顆粒集中於中央。",
+  "features": [
+    "Markedly increased platelets scattered throughout the field, with variation in platelet size (anisocytosis)",
+    "Central arrow: giant platelet approaching the diameter of an adjacent red cell, with central purple granulomere and pale hyalomere",
+    "Upper right arrow: large platelet about half a red cell diameter with normal granulation",
+    "Lower left arrow: normal-sized small platelet for comparison",
+    "Red cells normocytic without significant poikilocytosis; no leukocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows increased platelets with marked variation in size. Normal-sized platelets are admixed with large platelets and occasional giant platelets approaching the size of a red cell, which retain normal granulation. The red cells are unremarkable and no platelet clumps are seen. In the setting of thrombocytosis, platelet anisocytosis with giant forms raises concern for a myeloproliferative neoplasm such as essential thrombocythemia, although reactive thrombocytosis can also show large platelets.",
+  "ddx": [
+    {"dx": "Reactive (secondary) thrombocytosis", "vs": "Reactive thrombocytosis usually shows more uniform platelet size, whereas marked anisocytosis with giant forms favors a myeloproliferative neoplasm, requiring JAK2/CALR/MPL testing to separate them."},
+    {"dx": "Inherited macrothrombocytopenia (e.g., MYH9-related disorder, Bernard-Soulier)", "vs": "Inherited giant platelet disorders have low rather than high platelet counts, and MYH9 disorders show Döhle-like neutrophil inclusions."},
+    {"dx": "Small lymphocyte or red cell fragment", "vs": "A lymphocyte has a nucleus with a cytoplasmic rim and schistocytes lack granules, whereas giant platelets have a granular center without a nucleus."},
+    {"dx": "Platelet clumps", "vs": "Clumps are aggregates of several individual platelets with visible boundaries rather than a single enlarged platelet."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

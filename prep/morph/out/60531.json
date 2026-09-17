@@ -1,0 +1,21 @@
+{
+  "id": "60531",
+  "recognize_zh": "免疫組織化學染色（未標示抗體）中，散在的大細胞呈細胞質與膜狀棕色陽性，這些細胞核卵圓淡染、細胞質豐富並向外延伸，型態像類上皮組織球；周圍大量小至中型淋巴樣細胞為陰性。",
+  "features": [
+    "IHC with brown DAB chromogen and hematoxylin counterstain; antibody not labeled",
+    "Scattered larger cells with abundant cytoplasm showing granular cytoplasmic and membranous positivity",
+    "Positive cells have oval to elongated pale vesicular nuclei and cytoplasmic extensions, resembling epithelioid histiocytes",
+    "Intervening small-to-medium cells with irregular nuclei are negative",
+    "No cohesive sheets of positive cells; positive cells are dispersed"
+  ],
+  "describe_en": "Immunohistochemical stain of a lymphoid lesion shows scattered large cells with abundant cytoplasm and oval pale nuclei displaying granular cytoplasmic and membranous positivity, distributed among a dense population of negative small-to-medium lymphoid cells. The morphology of the positive cells favors histiocytes, but the antibody is not specified and the stained population cannot be definitively assigned from the image. In the context of the title, the image highlights the numerous interspersed epithelioid histiocytes characteristic of lymphoepithelioid (Lennert) lymphoma, a variant of peripheral T-cell lymphoma, NOS.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma rich in histiocytes", "vs": "Hodgkin lymphoma contains CD30+/CD15+ PAX5-weak Reed-Sternberg cells, which should be sought on a CD30 stain."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered large CD20+ B cells within a histiocyte and T-cell background, whereas Lennert lymphoma has atypical T cells without large B cells."},
+    {"dx": "Granulomatous lymphadenitis", "vs": "Reactive granulomas form discrete aggregates without an atypical clonal T-cell population."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antibody not labeled",
+  "match": "partial",
+  "high_yield": false
+}

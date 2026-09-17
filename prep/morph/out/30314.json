@@ -1,0 +1,22 @@
+{
+  "id": "30314",
+  "recognize_zh": "周邊血抹片中有一個核分六葉以上的嗜中性球（hypersegmented neutrophil），紅血球大小不均，混有大卵圓紅血球、淚滴細胞與破碎紅血球（schistocytes），血小板稀少；過度分葉的嗜中性球與大卵圓細胞提示維生素 B12 缺乏，而非 TTP。",
+  "features": [
+    "Hypersegmented neutrophil with six or more nuclear lobes",
+    "Marked anisopoikilocytosis with macro-ovalocytes and a polychromatic macrocyte",
+    "Red cell fragments (schistocytes), teardrop cells and small dense microspherocyte-like fragments",
+    "Decreased platelets in the field",
+    "No nucleated red cells or blasts in this field"
+  ],
+  "describe_en": "Peripheral blood smear (Wright-Giemsa) shows marked anisopoikilocytosis with macro-ovalocytes, teardrop cells and red cell fragments including schistocytes, along with a polychromatic macrocyte. A hypersegmented neutrophil with at least six nuclear lobes is present, and platelets appear decreased. The combination of schistocytes and thrombocytopenia can mimic a thrombotic microangiopathy, but the hypersegmented neutrophil and macro-ovalocytes indicate ineffective megaloblastic hematopoiesis. Findings are consistent with severe vitamin B12 deficiency causing pseudo-thrombotic microangiopathy; normal or near-normal ADAMTS13 activity, low reticulocytes and very high LDH support this diagnosis.",
+  "ddx": [
+    {"dx": "Thrombotic thrombocytopenic purpura", "vs": "TTP shows schistocytes with reticulocytosis and ADAMTS13 activity below 10%, without hypersegmented neutrophils or macro-ovalocytes."},
+    {"dx": "Folate deficiency", "vs": "Morphology is identical, so serum B12, folate, methylmalonic acid and homocysteine levels are needed to distinguish them."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS shows hypolobated or hypogranular neutrophils and dysplasia that does not correct with vitamin replacement."},
+    {"dx": "Hemolytic uremic syndrome / DIC", "vs": "HUS and DIC present with schistocytes plus renal failure or coagulopathy and lack megaloblastic features."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

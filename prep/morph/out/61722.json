@@ -1,0 +1,21 @@
+{
+  "id": "61722",
+  "recognize_zh": "這是流式細胞儀 blast gate 的 CD2 對 CD4 散點圖：綠色腫瘤芽細胞群 CD4 呈中等陽性，並分成 CD2 陰性與 CD2 陽性兩個亞群；CD4 陽性但缺乏 CD3 的芽細胞是 BPDCN 的免疫表現型特徵之一。",
+  "features": [
+    "Dot plot: CD2-APC (x-axis) versus CD4-ECD (y-axis), gated on blasts",
+    "Neoplastic population (green) uniformly CD4-positive at moderate intensity",
+    "Bimodal CD2: a major CD2-negative subset and a smaller discrete CD2-positive subset, both CD4+",
+    "Red events (residual normal blasts/progenitors) CD4-negative and CD2-negative",
+    "CD3 status is not shown on this plot"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD2 versus CD4 gated on blasts shows that the neoplastic population (green) is uniformly positive for CD4 at moderate intensity. CD2 is bimodal, with a major CD2-negative subset and a smaller CD2-positive subset. Residual normal progenitors (red) are negative for both markers. CD4 expression by blasts, with partial CD2, is compatible with blastic plasmacytoid dendritic cell neoplasm, which may aberrantly express CD2 or CD7; exclusion of T-lineage (surface/cytoplasmic CD3) and monocytic markers and demonstration of bright CD123 are required.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monocytic blasts are CD4-dim positive but also express CD64, CD14, CD11b and CD36 with high side scatter, unlike BPDCN."},
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-ALL is CD2/CD4+ but expresses cytoplasmic CD3, CD7 and TdT and lacks bright CD123 and TCF4."},
+    {"dx": "Early T-cell precursor or mixed-phenotype leukemia", "vs": "These require cytoplasmic CD3 and myeloid/stem cell markers (CD34, CD117, CD13, CD33) rather than a CD4+/CD56+/CD123-bright profile."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

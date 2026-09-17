@@ -1,0 +1,22 @@
+{
+  "id": "63688",
+  "recognize_zh": "紅血球像一疊銅板般串成線狀堆疊（rouleaux，箭頭處），視野中央並有兩顆偏心核、染色質呈車輪狀、細胞質嗜鹼性並有核周淡染區的漿細胞，提示高球蛋白血症，例如多發性骨髓瘤。",
+  "features": [
+    "Red cells stacked in short linear chains resembling stacks of coins (rouleaux, arrows)",
+    "Two adjacent plasma cells with eccentric round nuclei and coarse clock-face chromatin",
+    "Plasma cells show basophilic cytoplasm with a pale perinuclear hof",
+    "Many red cells still separate in this thin area, with preserved central pallor",
+    "Platelets present; no background bluish protein staining evident at this resolution"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells arranged in multiple linear stacks of three to five cells, consistent with rouleaux formation, in a relatively thin area of the film. Two circulating plasma cells with eccentric nuclei, coarsely clumped chromatin, deeply basophilic cytoplasm and a perinuclear hof are present in the center of the field. Platelets are present and no red cell agglutinates are identified. Findings are consistent with increased plasma proteins and circulating plasma cells, suggestive of a plasma cell neoplasm such as multiple myeloma; serum protein electrophoresis and immunofixation are recommended.",
+  "ddx": [
+    {"dx": "Red cell agglutination (cold agglutinin)", "vs": "Agglutinates are irregular, three-dimensional grape-like clumps rather than orderly linear coin stacks, and disperse on warming."},
+    {"dx": "Thick-area artifact", "vs": "Pseudo-rouleaux in thick parts of the smear disappear in the thin monolayer, whereas true rouleaux persist where cells are otherwise separated."},
+    {"dx": "Reactive polyclonal hypergammaglobulinemia or inflammation", "vs": "Rouleaux can reflect raised fibrinogen or polyclonal immunoglobulins, so clonality must be shown by immunofixation and marrow studies."},
+    {"dx": "Plasmacytoid lymphocytes (lymphoplasmacytic lymphoma)", "vs": "Plasmacytoid lymphocytes are smaller with lymphoid chromatin and less abundant cytoplasm, and IgM paraprotein with MYD88 L265P supports LPL."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

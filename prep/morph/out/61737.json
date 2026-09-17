@@ -1,0 +1,21 @@
+{
+  "id": "61737",
+  "recognize_zh": "肺組織 H&E 中，一條血管的管壁被密集的淋巴細胞浸潤而增厚，周圍肺泡隔增寬並有非典型大細胞與肺泡內巨噬細胞；淋巴細胞侵入血管壁（血管中心性）是淋巴瘤樣肉芽腫的典型發現。",
+  "features": [
+    "Vessel with wall densely infiltrated and expanded by lymphoid cells (angiocentric/angioinvasive pattern)",
+    "Infiltrate composed of small lymphocytes with scattered larger atypical cells",
+    "Adjacent lung parenchyma with thickened alveolar septa",
+    "Upper field shows sheets of larger cells with abundant cytoplasm, including alveolar macrophages and atypical cells",
+    "No granulomas or neutrophilic abscesses evident"
+  ],
+  "describe_en": "Sections of lung show a vessel whose wall is densely infiltrated by lymphoid cells, including small lymphocytes and scattered larger atypical cells, producing an angiocentric pattern. The surrounding alveolar septa are thickened, and nearby airspaces contain macrophages and larger cells with abundant cytoplasm. Well-formed granulomas and neutrophilic microabscesses are not present. The transmural angiocentric lymphoid infiltrate in lung is consistent with lymphomatoid granulomatosis, which requires demonstration of EBER-positive CD20-positive large B cells.",
+  "ddx": [
+    {"dx": "Granulomatosis with polyangiitis", "vs": "GPA vasculitis is accompanied by neutrophils, microabscesses, and granulomatous inflammation rather than atypical EBV-positive B cells."},
+    {"dx": "Pulmonary extranodal marginal zone (MALT) lymphoma", "vs": "MALT lymphoma forms lymphangitic infiltrates of small monocytoid B cells with lymphoepithelial lesions and is typically EBER-negative."},
+    {"dx": "Reactive/infectious perivascular lymphoid infiltrate", "vs": "Reactive infiltrates lack large atypical cells, EBER-positive B cells, and necrosis."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

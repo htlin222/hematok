@@ -1,0 +1,22 @@
+{
+  "id": "62068",
+  "recognize_zh": "視野中可見多個比其他紅血球小、顏色較深且沒有中央淡染區（central pallor）的圓形紅血球，即球形紅血球（spherocytes）；同時有明顯大小不一與鋸齒狀的皺縮紅血球。",
+  "features": [
+    "Marked anisocytosis with admixed large and small red cells",
+    "Numerous small, dense, round red cells lacking central pallor (spherocytes/microspherocytes)",
+    "Many crenated cells with regular short projections (echinocytes), likely drying/storage artifact",
+    "Central pallor is poorly seen in most cells, suggesting a thick or slowly dried area of the smear",
+    "Small red cell fragments/debris and fine precipitate in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisocytosis with a population of small, densely staining round red cells that lack central pallor, consistent with spherocytes. Numerous crenated red cells with evenly spaced short projections are also present and are most likely a preparation artifact rather than true pathology. Central pallor is poorly preserved in many cells and some stain precipitate is present, which limits confident enumeration of spherocytes; assessment should be made in a thin, well-spread area. No leukocytes or platelets are evaluable in this field. Findings are consistent with a spherocytic hemolytic process; hereditary spherocytosis versus immune hemolysis should be distinguished with DAT, family history, and EMA-binding flow cytometry.",
+  "ddx": [
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Morphology is similar (spherocytes with polychromasia), so a positive DAT for IgG with or without C3 is required to separate it from hereditary spherocytosis."},
+    {"dx": "Echinocytes (crenation artifact)", "vs": "Echinocytes carry 10-30 regular short spicules and retain normal size, whereas spherocytes are smooth, smaller and uniformly dense."},
+    {"dx": "Thick-area artifact mimicking spherocytes", "vs": "In thick areas all cells lose central pallor and overlap, while true spherocytes are smaller and denser than neighboring cells in the thin monolayer."},
+    {"dx": "Microangiopathic hemolytic anemia", "vs": "MAHA shows schistocytes (helmet and triangular fragments) and thrombocytopenia, rather than a predominance of intact round spherocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

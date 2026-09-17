@@ -1,0 +1,21 @@
+{
+  "id": "61836",
+  "recognize_zh": "這是次世代定序（NGS）在 IGV 瀏覽器中的讀段比對截圖，位於第 3 號染色體 q21 區（GATA2 所在）；紅色箭頭處約一部分讀段在同一位置出現綠色鹼基（A），覆蓋度條呈雙色，代表異合子點突變，支持 GATA2 胚系突變。",
+  "features": [
+    "Integrative Genomics Viewer (IGV) screenshot of aligned sequencing reads (gray bars)",
+    "Chromosome ideogram with red marker in the 3q21 region, consistent with the GATA2 locus",
+    "Single-nucleotide variant at the arrowed position shown in green (A) in a subset of reads",
+    "Split-color coverage track (orange/green) at that position indicating two alleles",
+    "Rare scattered isolated mismatches elsewhere consistent with background sequencing error"
+  ],
+  "describe_en": "This is a non-morphologic figure: an IGV display of next-generation sequencing reads aligned to the 3q21 region (GATA2 locus). At the arrowed position, a subset of reads carries a single-nucleotide substitution displayed in green, and the coverage bar is split between the reference and alternate alleles, indicating a heterozygous variant; exact allele fraction cannot be read from the screenshot. Scattered isolated mismatches elsewhere lack consistency across reads and represent background noise. A variant allele fraction near 50%, confirmed in non-hematopoietic tissue (e.g. skin fibroblasts) and by Sanger sequencing, supports a germline GATA2 mutation underlying the myeloid neoplasm.",
+  "ddx": [
+    {"dx": "Somatic GATA2 mutation", "vs": "Somatic mutations (e.g. in CEBPA-biallelic AML) are restricted to hematopoietic cells and often have low VAF, whereas germline variants are present at ~50% in fibroblast or hair-follicle DNA."},
+    {"dx": "Sequencing or alignment artifact", "vs": "Artifacts show strand bias, low base quality, or mismatches clustered at read ends, whereas a true variant is present consistently across overlapping reads in both directions."},
+    {"dx": "Benign germline polymorphism", "vs": "Population databases (gnomAD) and ClinVar curation are needed to classify the variant as pathogenic rather than a benign SNP."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

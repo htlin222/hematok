@@ -1,0 +1,22 @@
+{
+  "id": "64966",
+  "recognize_zh": "拼圖中的淋巴球大小為小至中型，核形不規則，有明顯的裂溝、凹陷甚至腦回狀（convoluted）外觀，細胞質少而偏嗜鹼性、邊緣可見小突起，大量出現在周邊血，配合 T 細胞表型支持 T 細胞前淋巴球性白血病（T-PLL）。",
+  "features": [
+    "Small-to-medium lymphoid cells, about 1.5-2 times the diameter of a red cell",
+    "Irregular nuclear contours with clefts, indentations and convoluted/cerebriform folding",
+    "Moderately condensed chromatin; nucleoli not conspicuous at this magnification",
+    "Scant to moderate basophilic cytoplasm, focally with small cytoplasmic protrusions/blebs",
+    "Background red cells unremarkable; no smudge-cell predominance"
+  ],
+  "describe_en": "Peripheral blood smear shows lymphocytosis composed of small-to-medium lymphoid cells with scant basophilic cytoplasm, some with cytoplasmic blebs, and markedly irregular nuclei showing clefts, indentations and convolutions. Chromatin is moderately condensed, and nucleoli are not prominent in these images. Red cells appear unremarkable. In conjunction with flow cytometry showing a CD2+, CD3+, CD5+, CD7+, CD8+, CD4-, TdT- T-cell population, findings are consistent with T-cell prolymphocytic leukemia; TCL1A/MTCP1 rearrangement studies are recommended.",
+  "ddx": [
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have deeply cerebriform nuclei and are typically CD4+ with loss of CD7 and CD26, whereas T-PLL is usually CD7+ with TCL1 overexpression."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows polylobated flower cells, CD4+/CD25+ phenotype and HTLV-1 seropositivity."},
+    {"dx": "T-large granular lymphocytic leukemia", "vs": "T-LGL cells have round nuclei and abundant pale cytoplasm with azurophilic granules and a CD8+/CD57+ indolent phenotype."},
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells with cleaved nuclei are B cells (CD19/CD20+, CD5+, cyclin D1+) rather than CD3+ T cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

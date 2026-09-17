@@ -1,0 +1,22 @@
+{
+  "id": "65576",
+  "recognize_zh": "血液與骨髓中的中型細胞核圓、染色質細緻、細胞質少而深藍，看起來像淋巴芽細胞；但流式顯示 CD34 陰性、CD10 與 CD20 陽性且 kappa 限制，MYC 陽性、Ki-67 近 100%，表示是 blastoid 型雙打擊 B 細胞淋巴瘤。",
+  "features": [
+    "Medium-sized mononuclear cells with round nuclei, fine chromatin, and scant basophilic cytoplasm in blood (panels A-B)",
+    "Bone marrow aspirate dominated by monotonous blastoid cells with deeply basophilic cytoplasm (panel C)",
+    "Biopsy with diffuse sheets of intermediate-sized cells replacing marrow (panel D)",
+    "IHC: diffuse nuclear PAX5 (E), cytoplasmic staining in panel F (BCL2 among the markers listed), nuclear MYC in many cells (G), and Ki-67 approaching 100% (H)",
+    "Flow cytometry: CD45-dim cells in the blast region, CD34 negative, cyCD79a positive, CD19 positive, CD3 negative, CD10 positive, and kappa restricted (panels I-M)"
+  ],
+  "describe_en": "Peripheral blood shows occasional medium-sized cells with round nuclei, fine chromatin, and scant basophilic cytoplasm, and the bone marrow aspirate is largely replaced by similar blastoid cells. The biopsy shows diffuse sheets of intermediate-sized cells that are PAX5 positive with strong MYC expression and a Ki-67 index approaching 100%. Flow cytometry demonstrates a CD34-negative, CD19+, CD10+, cytoplasmic CD79a+ B-cell population with kappa light chain restriction. The presence of surface light chain restriction and absence of CD34/TdT argue against lymphoblastic leukemia; with MYC and BCL2 rearrangements by FISH, findings are consistent with DLBCL/HGBL with MYC and BCL2 rearrangements, blastoid morphology.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are usually CD34 and/or TdT positive and lack surface immunoglobulin light chain restriction, unlike this kappa-restricted TdT-negative population."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with lipid vacuoles, are BCL2 negative, and carry MYC rearrangement without BCL2 rearrangement."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is CD5 positive, CD10 negative, and cyclin D1/SOX11 positive, while this case is CD10+ and cyclin D1 negative."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML blasts lack PAX5, CD19, and light chain expression and typically express CD34/CD117/CD13/CD33."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: PAX5, BCL2, MYC, Ki-67; flow",
+  "match": "consistent",
+  "high_yield": false
+}

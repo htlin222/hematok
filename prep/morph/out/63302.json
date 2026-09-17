@@ -1,0 +1,22 @@
+{
+  "id": "63302",
+  "recognize_zh": "新生兒周邊血液中見到一顆核質比高、染色質細緻、胞質少且帶小泡狀突起（cytoplasmic bleb）的芽細胞，結合唐氏症嬰兒、白血球與血小板增加的臨床資料，符合唐氏症相關暫時性異常骨髓生成（TAM）。",
+  "features": [
+    "Single medium-sized blast with very high N:C ratio and round nucleus",
+    "Finely dispersed chromatin; nucleoli not clearly resolved at this magnification",
+    "Scant deeply basophilic cytoplasm with a small cytoplasmic bleb/bud (megakaryoblast-like)",
+    "Numerous platelets including a large, pale granular platelet form",
+    "Background red cells with prominent crenation (echinocytes), likely partly artifactual, and occasional polychromatic macrocytes"
+  ],
+  "describe_en": "Peripheral blood smear from a neonate shows a circulating blast with a very high N:C ratio, finely dispersed chromatin and scant basophilic cytoplasm bearing a small cytoplasmic bleb, a feature suggestive of megakaryoblastic differentiation. Platelets are numerous, with occasional large forms. Red cells show marked crenation, likely related to smear preparation, with occasional polychromatic cells. In a neonate with Down syndrome, leukocytosis, thrombocytosis and 18-19% myeloid blasts (CD33+, CD117+), findings are consistent with transient abnormal myelopoiesis; GATA1 mutation testing and follow-up are recommended.",
+  "ddx": [
+    {"dx": "Myeloid leukemia associated with Down syndrome", "vs": "ML-DS usually presents after the neonatal period (typically before age 4) with cytopenias and marrow fibrosis, whereas TAM presents in the first weeks and often resolves spontaneously; morphology of the blasts is similar."},
+    {"dx": "Congenital acute megakaryoblastic leukemia without Down syndrome", "vs": "Non-DS congenital AMKL lacks trisomy 21/GATA1 mutation, frequently carries RBM15::MRTFA, and does not regress spontaneously."},
+    {"dx": "Neonatal reactive leukocytosis with circulating immature cells", "vs": "Reactive states show left-shifted granulocytes and nucleated red cells but lack a clonal CD34/CD117+ megakaryoblastic blast population."},
+    {"dx": "Reactive lymphocyte or hematogone", "vs": "Lymphoid cells have more condensed chromatin and lack cytoplasmic blebs, and express B- or T-cell rather than myeloid/megakaryocytic markers."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

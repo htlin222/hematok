@@ -1,0 +1,22 @@
+{
+  "id": "66162",
+  "recognize_zh": "低倍（4x）CD68 免疫染色的骨髓切片，骨小梁之間有大片、地圖狀融合的深棕色陽性區域，代表大量組織球（含 Gaucher 細胞）浸潤；其間為藍色陰性的造血組織。",
+  "features": [
+    "Low-power trephine core with thin trabeculae",
+    "Large geographic confluent sheets of brown CD68-positive cells occupying much of the intertrabecular marrow",
+    "Positive cells have abundant cytoplasm with diffuse granular staining",
+    "Intervening CD68-negative hematopoietic tissue with blue hematoxylin counterstain",
+    "Single-cell morphology not assessable at 4x"
+  ],
+  "describe_en": "Low-power view of a bone marrow trephine biopsy immunostained for CD68 shows large confluent geographic sheets of CD68-positive histiocytes occupying a substantial proportion of the intertrabecular marrow, separated by CD68-negative hematopoietic tissue. CD68 confirms the histiocytic nature of the infiltrate but does not distinguish Gaucher cells from other macrophages. In correlation with morphology, PAS and TRAP staining, findings are consistent with extensive infiltration by Gaucher cells and histiocytes.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH shows scattered CD68/CD163-positive macrophages containing ingested cells rather than confluent sheets of storage cells."},
+    {"dx": "Myeloid proliferation (CD68 KP1 cross-reactivity)", "vs": "CD68 KP1 also stains myeloid cells, so CD163 or PGM1 and morphology are needed to confirm a histiocytic rather than granulocytic infiltrate."},
+    {"dx": "Langerhans cell histiocytosis or Erdheim-Chester disease", "vs": "LCH cells are CD1a and langerin positive with grooved nuclei, and Erdheim-Chester foamy histiocytes are CD1a negative, BRAF-mutated and associated with fibrosis."},
+    {"dx": "Mycobacterial histiocytic infiltrate", "vs": "Mycobacteria-laden histiocytes are CD68 positive but acid-fast bacilli are demonstrable on Ziehl-Neelsen stain."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD68",
+  "match": "consistent",
+  "high_yield": false
+}

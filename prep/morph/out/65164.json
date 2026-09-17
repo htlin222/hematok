@@ -1,0 +1,21 @@
+{
+  "id": "65164",
+  "recognize_zh": "這是血液分析儀的紅血球體積分布直方圖，依住院日（HD #3–#18）排列：早期曲線為單峰、左側低體積端尾巴略抬高（碎裂紅血球造成的小體積顆粒），之後右側逐漸出現肩峰與拖尾並使曲線變寬，代表大體積的網狀紅血球族群出現，對應 TTP 溶血後的骨髓代償。",
+  "features": [
+    "Serial impedance RBC volume histograms from hospital days 3 to 18, each with volume (fL) on the x-axis",
+    "Early histograms (HD 3-7): single relatively narrow peak with a slightly raised left tail in the low-volume region, consistent with small fragments/schistocytes",
+    "From about HD 9-10 onward: progressive right-sided shoulder and tail indicating an emerging macrocytic population",
+    "Later histograms (HD 12-18): broadened, right-skewed distribution reflecting increased RDW and MCV from reticulocytosis",
+    "Solid and dotted vertical gating lines mark distribution limits and the 60 fL/120 fL thresholds"
+  ],
+  "describe_en": "This is a non-morphologic figure showing serial impedance RBC volume histograms from a patient with thrombotic thrombocytopenic purpura. Early tracings show a single peak with a mildly elevated left, low-volume tail, attributable to schistocytes and red cell fragments. Over subsequent hospital days a right-sided shoulder and tail emerge and the curve broadens, indicating a second, larger-volume population consistent with reticulocytes during recovery from hemolysis. The changes correspond to rising MCV and RDW and illustrate how histogram review adds information beyond the numeric indices; smear review remains necessary to confirm schistocytes.",
+  "ddx": [
+    {"dx": "Platelet clumps or giant platelets interfering with the RBC channel", "vs": "Platelet interference also elevates the low-volume region but is confirmed by smear showing platelet aggregates rather than schistocytes and by a spuriously low platelet count."},
+    {"dx": "Dimorphic RBC population after transfusion", "vs": "Transfusion creates a normocytic donor peak superimposed on the patient's own population, whereas reticulocytosis produces a progressive right-sided macrocytic shoulder that coincides with a rising reticulocyte count."},
+    {"dx": "Cold agglutinins", "vs": "RBC agglutinates produce a spurious high-volume tail with falsely high MCV and low RBC count that corrects on warming the sample."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

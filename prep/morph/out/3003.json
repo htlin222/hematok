@@ -1,0 +1,22 @@
+{
+  "id": "3003",
+  "recognize_zh": "免疫組化染色（推測為 CD20 等 B 細胞標記）下，棕色陽性的大型淋巴樣細胞只局限在微血管與小血管管腔內，周邊實質細胞與基質均為陰性，這種腔內分布是血管內大 B 細胞淋巴瘤的關鍵表現。",
+  "features": [
+    "Brown membranous/cytoplasmic immunostaining of large lymphoid cells confined within vascular lumina",
+    "Positive cells line and fill capillaries and small vessels, some forming intraluminal clusters",
+    "Large cells with round vesicular nuclei and moderate cytoplasm",
+    "Surrounding parenchymal and stromal cells negative (blue hematoxylin counterstain)",
+    "Numerous empty round spaces in the background (likely adipose or dilated spaces); organ of origin not identifiable"
+  ],
+  "describe_en": "Immunohistochemical stain (a B-cell marker, likely CD20) shows strongly positive large lymphoid cells located exclusively within the lumina of capillaries and small vessels, where they line vessel walls and form small intraluminal clusters. The positive cells have large round vesicular nuclei, whereas the surrounding parenchymal and stromal cells are negative, and there is no extravascular mass of positive cells. Numerous empty round spaces are present in the background; the tissue of origin cannot be determined from this field. The strictly intravascular distribution of large B cells is consistent with intravascular large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma with vascular involvement", "vs": "Conventional DLBCL forms extravascular sheets or masses, whereas IVLBCL cells are restricted to vessel lumina without a tumor mass."},
+    {"dx": "Intravascular NK/T-cell lymphoma", "vs": "Intravascular NK/T-cell lymphoma is CD20-negative and positive for CD3/CD56/cytotoxic markers with EBER positivity."},
+    {"dx": "Leukemic intravascular spread (e.g., circulating leukemia or reactive lymphocytes)", "vs": "Circulating leukemia shows cells in larger vessels proportionate to blood counts, while IVLBCL fills small capillaries with large B cells despite normal blood counts."},
+    {"dx": "Intravascular carcinoma (lymphovascular invasion)", "vs": "Carcinoma emboli are cohesive and keratin-positive/CD45-negative, unlike discohesive CD20-positive lymphoma cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: B-cell marker (likely CD20)",
+  "match": "consistent",
+  "high_yield": true
+}

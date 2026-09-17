@@ -1,0 +1,22 @@
+{
+  "id": "60477",
+  "recognize_zh": "骨髓切片中，單一形態的小至中型細胞瀰漫浸潤，每顆圓或卵圓形核周圍都有一圈清亮或淡染的細胞質，細胞核彼此間隔均勻，呈「荷包蛋（fried egg）」樣，是毛狀細胞白血病的典型骨髓切片型態。",
+  "features": [
+    "Diffuse interstitial infiltrate of monotonous small to medium-sized cells",
+    "Round to oval or slightly indented nuclei with bland chromatin and inconspicuous nucleoli",
+    "Abundant clear to pale cytoplasm producing evenly spaced nuclei (fried-egg appearance)",
+    "Extravasated red cells in the interstitium between tumor cells",
+    "Reduced normal hematopoiesis; a megakaryocyte at the edge and residual fat spaces"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a diffuse interstitial infiltrate of monotonous small to medium-sized lymphoid cells with round to oval or indented nuclei, bland chromatin and inconspicuous nucleoli. Each cell has abundant clear to pale cytoplasm, so that nuclei appear widely and evenly spaced, imparting a fried-egg appearance; extravasated red cells are present in the interstitium. Normal hematopoietic elements are reduced. Findings are consistent with involvement by hairy cell leukemia, to be confirmed by immunohistochemistry (CD20, annexin A1, cyclin D1, BRAF V600E) and reticulin stain.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis", "vs": "Mast cell infiltrates have spindled or oval cells with granular cytoplasm, paratrabecular/perivascular aggregates with fibrosis and eosinophils, and are tryptase/CD117/CD25 positive, CD20 negative."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL typically forms nodular and intrasinusoidal infiltrates of cells with less abundant cytoplasm and is annexin A1/BRAF V600E negative."},
+    {"dx": "Hypocellular MDS or aplastic anemia", "vs": "Hypocellular marrows lack a monotonous CD20-positive infiltrate, which may be subtle in HCL and must be sought by immunohistochemistry."},
+    {"dx": "Monocytic leukemia", "vs": "Monocytic infiltrates have folded nuclei, finer chromatin and are CD20 negative while lysozyme/CD163 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

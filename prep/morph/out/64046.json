@@ -1,0 +1,20 @@
+{
+  "id": "64046",
+  "recognize_zh": "PAX8 染色中，大型異型細胞與背景小淋巴球的細胞核都呈棕色陽性；因為多株 PAX8 抗體會與 B 細胞的 PAX5 交叉反應，這個陽性不代表腎或甲狀腺癌轉移。",
+  "features": [
+    "Nuclear PAX8 staining of large atypical cells with enlarged round nuclei (upper left)",
+    "Nuclear PAX8 staining also in a dense population of small background lymphocytes (lower right)",
+    "PAX8-negative stromal/histiocytic cells with blue counterstain",
+    "Staining of normal B cells indicates cross-reactivity (polyclonal PAX8 antibody recognizing PAX5)"
+  ],
+  "describe_en": "PAX8 immunohistochemistry shows nuclear staining of the large atypical cells as well as of numerous small background lymphocytes, while stromal cells are negative. Positivity in non-neoplastic small B cells indicates cross-reactivity of the PAX8 antibody (particularly polyclonal clones) with the PAX5 epitope rather than true epithelial PAX8 expression. This is a recognized pitfall that can lead to a misdiagnosis of metastatic renal, thyroid, or Mullerian carcinoma. In context with CD45 and PAX5 positivity, the findings are consistent with a large B-cell lymphoma with cross-reactive PAX8 staining.",
+  "ddx": [
+    {"dx": "Metastatic renal cell carcinoma", "vs": "RCC is PAX8+ but also keratin+/CD10+ and CD45/PAX5 negative, and background lymphocytes would not stain with a monoclonal PAX8 antibody."},
+    {"dx": "Metastatic thyroid or Mullerian carcinoma", "vs": "These co-express keratin with TTF-1/thyroglobulin or WT1/ER, respectively, and lack hematolymphoid markers."},
+    {"dx": "True PAX8 expression (monoclonal clone)", "vs": "Repeating with a monoclonal PAX8 antibody that does not cross-react with PAX5 should render the lymphoma cells negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PAX8",
+  "match": "consistent",
+  "high_yield": false
+}

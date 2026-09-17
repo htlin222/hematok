@@ -1,0 +1,22 @@
+{
+  "id": "66318",
+  "recognize_zh": "高倍下可見大型單核母細胞（monoblast）：核圓而居中或略偏、染色質細緻如花邊、具一至數個明顯核仁，細胞質豐富灰藍色、含少數小空泡且無 Auer 小體，符合伴單核球分化的急性骨髓性白血病（KMT2A::MLLT3）。",
+  "features": [
+    "Large blasts, roughly 2-3 times red cell diameter, with low to moderate N:C ratio",
+    "Round to oval nuclei with finely dispersed lacy chromatin",
+    "One or more distinct nucleoli",
+    "Abundant grey-blue cytoplasm with a few small discrete vacuoles; no Auer rods or coarse granules",
+    "Background red cells without significant poikilocytosis; no maturing granulocytes in field"
+  ],
+  "describe_en": "Peripheral blood (or aspirate) smear at high power shows large blasts with round to oval nuclei, finely dispersed chromatin and one or more prominent nucleoli. The cytoplasm is abundant, moderately basophilic to grey-blue and contains occasional small vacuoles, without Auer rods or conspicuous granules. The morphology is that of monoblasts. Findings are consistent with acute myeloid leukemia with monocytic differentiation; in this case, KMT2A::MLLT3 was identified.",
+  "ddx": [
+    {"dx": "Myeloblasts (AML without monocytic differentiation)", "vs": "Myeloblasts have less abundant cytoplasm, may contain azurophilic granules or Auer rods, and are NSE negative and CD14/CD64 dim or negative."},
+    {"dx": "Megakaryoblasts", "vs": "Megakaryoblasts show cytoplasmic blebs, often cluster, and are CD41/CD61 positive."},
+    {"dx": "Plasmablasts or immunoblasts", "vs": "These have deeply basophilic cytoplasm, eccentric nuclei with a perinuclear hof and are CD138 or B/T-lineage positive rather than monocytic."},
+    {"dx": "Burkitt leukemia (L3 blasts)", "vs": "Burkitt cells have deeply basophilic cytoplasm with multiple sharply punched-out vacuoles and a higher N:C ratio, and carry MYC rearrangement."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

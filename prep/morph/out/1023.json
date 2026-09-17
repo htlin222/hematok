@@ -1,0 +1,21 @@
+{
+  "id": "1023",
+  "recognize_zh": "周邊血抹片中散布大量破碎、呈模糊紫色網狀的污跡細胞（smudge cells），加上許多核圓、染色質濃密、細胞質極少的成熟小淋巴球，是慢性淋巴球白血病（CLL）的典型表現。",
+  "features": [
+    "Numerous smudge cells: disrupted lymphocytes with smeared, lacy nuclear chromatin and no intact cytoplasm",
+    "Increased small mature lymphocytes, about the size of a red cell",
+    "Very high N:C ratio with scant rim of cytoplasm",
+    "Round nuclei with dense, clumped chromatin; nucleoli not seen",
+    "Red cells show mild polychromasia and scattered target-like forms"
+  ],
+  "describe_en": "Peripheral blood smear shows an absolute lymphocytosis of small mature lymphocytes with round nuclei, dense clumped chromatin and scant cytoplasm, accompanied by numerous smudge cells. No prolymphocytes or blasts are evident in this field. Findings are consistent with chronic lymphocytic leukemia; flow cytometry demonstrating a clonal CD5+/CD23+/CD200+ B-cell population with dim surface light chain is required for diagnosis.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells often have irregular nuclear contours, are CD23-negative/CD200-negative and cyclin D1/SOX11 positive with t(11;14)."},
+    {"dx": "Reactive lymphocytosis", "vs": "Reactive lymphocytes are larger and heterogeneous with abundant cytoplasm and are polyclonal; smudge cells are much less numerous."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells show polar villous projections and are typically CD5-negative and CD23-negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "11723",
+  "recognize_zh": "CSF 細胞離心抹片可見一群中大型異常淋巴細胞，核深度凹陷、摺疊或切痕，染色質細緻、可見小核仁，胞質淡藍，數量與異型性都不是反應性淋巴球，符合被套細胞淋巴瘤（常為母細胞樣／多形性型）中樞神經侵犯。",
+  "features": [
+    "Monotonous population of medium to large atypical lymphoid cells (cytospin flattening accentuates size)",
+    "Irregular, deeply indented, cleaved to folded nuclear contours",
+    "Finely dispersed to slightly vesicular chromatin with small nucleoli",
+    "Moderate amount of pale blue agranular cytoplasm with occasional blebs",
+    "Clean background without accompanying neutrophils or monocytes"
+  ],
+  "describe_en": "Cerebrospinal fluid cytospin shows a cellular specimen composed of a monotonous population of medium- to large-sized atypical lymphoid cells. The cells have irregular, cleaved to folded nuclei with fine chromatin and small nucleoli, and a moderate rim of pale agranular cytoplasm. Reactive small lymphocytes, monocytes and neutrophils are not prominent. In a patient with mantle cell lymphoma, findings are consistent with leptomeningeal involvement, likely with blastoid or pleomorphic cytology; flow cytometry confirming a CD5-positive, light chain restricted B-cell population supports the diagnosis.",
+  "ddx": [
+    {"dx": "Reactive lymphocytosis (viral/aseptic meningitis)", "vs": "Reactive CSF contains a mixed population of small lymphocytes, activated forms and monocytes with polytypic B cells, rather than a monotonous cleaved-cell population."},
+    {"dx": "Acute lymphoblastic leukemia in CSF", "vs": "Lymphoblasts have scant cytoplasm and very fine chromatin and are TdT-positive, whereas blastoid MCL is TdT-negative and cyclin D1-positive."},
+    {"dx": "Diffuse large B-cell lymphoma in CSF", "vs": "DLBCL cells may look similar but are cyclin D1-negative and usually CD5-negative, so immunophenotyping is required."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

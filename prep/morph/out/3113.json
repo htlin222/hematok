@@ -1,0 +1,21 @@
+{
+  "id": "3113",
+  "recognize_zh": "周邊血液中聚集四顆單核球系細胞，核分葉或摺疊、染色質細緻，胞質灰藍；其中中央一顆較大、核較未成熟（promonocyte樣），呈現CMML的異常單核球增多。",
+  "features": [
+    "Cluster of four monocytic cells with abundant gray-blue cytoplasm",
+    "Nuclei lobulated, folded, or indented with relatively fine chromatin",
+    "Central larger cell with oval nucleus, finer chromatin, and faint nucleolus (immature monocyte/promonocyte)",
+    "No Auer rods; cytoplasm largely agranular",
+    "Background red cells with occasional stomatocytic forms and a small inclusion"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of monocytic cells with abundant gray-blue cytoplasm and lobulated to folded nuclei. The central cell is larger, with an oval nucleus, finer chromatin, and a faint nucleolus, consistent with an immature monocyte or promonocyte. No Auer rods are seen. Findings are consistent with atypical monocytosis of chronic myelomonocytic leukemia; blast and promonocyte enumeration and exclusion of BCR::ABL1 are required.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic leukemia", "vs": "AMML requires at least 20% blasts plus promonocytes in blood or marrow."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes show mature condensed chromatin without immature forms or multilineage dysplasia."},
+    {"dx": "Atypical chronic myeloid leukemia", "vs": "aCML shows dysplastic neutrophilia with immature granulocytes and monocytes below 10% of leukocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

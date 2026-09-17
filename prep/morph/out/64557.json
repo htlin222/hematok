@@ -1,0 +1,21 @@
+{
+  "id": "64557",
+  "recognize_zh": "這是一張試管外觀照片：BAL 液體清澈，但上層浮著一層白色、泡沫狀的厚膜（pellicle），提示界面活性物質含量高；肉眼無法看到板層小體本身，需搭配抹片判讀。",
+  "features": [
+    "Gross photograph of bronchoalveolar lavage fluid in a glass test tube",
+    "Thick white, foamy/fluffy pellicle floating at the top of the fluid column",
+    "Underlying fluid relatively clear to slightly opalescent with a small amount of sediment at the bottom",
+    "No blood tinge or purulent appearance",
+    "Microscopic lamellar bodies cannot be assessed from this gross image"
+  ],
+  "describe_en": "Gross photograph shows bronchoalveolar lavage fluid in a test tube with a thick, white, foamy pellicle floating on the surface over a relatively clear to faintly opalescent fluid, with minimal sediment and no hemorrhagic or purulent appearance. This gross appearance reflects high surfactant/lipoproteinaceous content. Microscopic structures such as lamellar bodies cannot be evaluated on this image; correlation with the cytologic smear (PAS-positive granular material, foamy macrophages) is needed. Findings are suggestive of pulmonary alveolar proteinosis in the appropriate context.",
+  "ddx": [
+    {"dx": "Diffuse alveolar hemorrhage", "vs": "DAH lavage is progressively bloody or rust-colored on sequential aliquots, rather than clear fluid with a white foamy surface layer."},
+    {"dx": "Purulent infection/bronchopneumonia", "vs": "Infectious BAL is diffusely turbid, yellow-green with a neutrophil-rich sediment rather than a floating white surfactant pellicle."},
+    {"dx": "Lipoid pneumonia", "vs": "Exogenous lipid may produce an oily floating layer, but cytology shows large clear Oil Red O-positive vacuoles rather than PAS-positive granular proteinaceous material."}
+  ],
+  "specimen": "gross",
+  "stain": "N/A",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1448",
+  "recognize_zh": "骨髓抹片中兩顆巨核細胞體積大、細胞質豐富呈細顆粒狀，但細胞核為單一圓形或卵圓形且偏向一側（non-lobated, eccentric），不分葉，是 del(5q) MDS 的典型巨核細胞型態。",
+  "features": [
+    "Two large megakaryocytes with abundant finely granular pink-purple cytoplasm",
+    "Nuclei are single, round to oval, non-lobated and eccentrically placed",
+    "Relatively low N:C ratio compared with the overall cell size (not micromegakaryocytes)",
+    "Nuclear chromatin moderately condensed without lobulation or separated nuclear fragments",
+    "Platelet clumps and scattered platelets in the background; a small neutrophil-lineage cell at top"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows two large megakaryocytes with abundant granular cytoplasm. Both contain a single round to oval, non-lobated nucleus placed eccentrically, in contrast to the normal multilobated megakaryocyte nucleus. Adjacent platelets and platelet clumps are present. Monolobated, non-lobated megakaryocytes of normal to slightly reduced size are characteristic of myelodysplastic syndrome with isolated del(5q), and the findings are consistent with that diagnosis in conjunction with karyotype confirmation.",
+  "ddx": [
+    {"dx": "Micromegakaryocytes of other MDS types or CML", "vs": "Micromegakaryocytes are small (lymphocyte to promyelocyte size) with scant cytoplasm, whereas del(5q) megakaryocytes are normal-sized with abundant cytoplasm and a single round nucleus."},
+    {"dx": "Megakaryocytes with separated nuclear lobes (MDS, HIV, drug effect)", "vs": "Those show multiple discrete, round nuclear fragments rather than one smooth round nucleus."},
+    {"dx": "Essential thrombocythemia", "vs": "ET megakaryocytes are large to giant with hyperlobulated, staghorn nuclei rather than non-lobated nuclei."},
+    {"dx": "Normal immature megakaryocyte", "vs": "Immature megakaryocytes have deeply basophilic, less granular cytoplasm and a higher N:C ratio, whereas these cells have mature granular cytoplasm despite a non-lobated nucleus."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

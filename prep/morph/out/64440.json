@@ -1,0 +1,23 @@
+{
+  "id": "64440",
+  "recognize_zh": "紅血球普遍呈卵圓形，許多細胞中央有一至兩條橫向裂隙或縱向狹縫（o：Melanesian/東南亞卵圓形紅血球，s：口形紅血球），另有形狀不規則、血紅素分布不均的細胞（c）；混合的形態提示不只一種膜蛋白或血紅素異常。",
+  "features": [
+    "Many rigid-appearing oval/stomatocytic red cells with one or two transverse or longitudinal central slits (Melanesian ovalocytes, labeled o)",
+    "Stomatocytes with a single slit-like central pallor (labeled s)",
+    "Poorly defined red cell shapes with uneven, eccentric hemoglobin distribution (labeled c)",
+    "Mild anisocytosis with scattered elliptocytes and occasional folded forms",
+    "No obvious sickle cells, target-cell predominance or red cell agglutination",
+    "Platelets present in normal-appearing numbers"
+  ],
+  "describe_en": "Peripheral blood smear shows a heterogeneous red cell population dominated by ovalocytes, many of which contain one or two transverse bars or slits (stomatocytic ovalocytes), together with stomatocytes and irregular cells with uneven hemoglobin distribution. Scattered elliptocytes are present. Classic sickle cells are not identified. The combination of stomatocytic ovalocytes is characteristic of Southeast Asian ovalocytosis, while the admixed stomatocytes and irregular forms suggest additional membrane or hydration defects. In this patient, findings correlate with co-inherited SAO, dehydrated hereditary stomatocytosis (PIEZO1), SPTA1 elliptocytosis variant and HbS trait, confirmed by molecular testing.",
+  "ddx": [
+    {"dx": "Hereditary elliptocytosis", "vs": "HE shows smooth elongated elliptocytes with normal central hemoglobin distribution, whereas SAO cells are rounder, rigid ovalocytes with one or two transverse slits."},
+    {"dx": "Hereditary (overhydrated) stomatocytosis", "vs": "Overhydrated stomatocytosis shows round macrocytic stomatocytes with single mouth-like slits rather than ovalocytes with double bars, and requires osmotic fragility/ektacytometry and genetics to separate."},
+    {"dx": "Dehydrated hereditary stomatocytosis (xerocytosis)", "vs": "Xerocytosis shows few stomatocytes, target cells and dense cells with a left-shifted ektacytometry curve and raised MCHC, while SAO gives a flat ektacytometry profile."},
+    {"dx": "Iron deficiency or thalassemia with pencil/elliptical cells", "vs": "These show hypochromic microcytic cells with pencil forms and target cells without slit-like stomatocytic ovalocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

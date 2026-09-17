@@ -1,0 +1,22 @@
+{
+  "id": "64901",
+  "recognize_zh": "骨髓切片中細胞呈間隔均勻的排列，每顆細胞中央為圓到橢圓形小核，四周圍著一圈透明淡染胞質，形成「荷包蛋（fried egg）」外觀，並散見褐色含鐵血黃素與紅血球滲出，符合毛細胞白血病浸潤。",
+  "features": [
+    "Diffuse interstitial infiltrate of evenly spaced mononuclear cells",
+    "Round to oval or slightly indented nuclei with bland chromatin",
+    "Abundant clear to pale cytoplasm separating nuclei, producing a fried-egg appearance",
+    "Extravasated red cells in pink stroma (red cell lakes)",
+    "Scattered coarse brown hemosiderin deposits"
+  ],
+  "describe_en": "H&E-stained bone marrow trephine shows a hypercellular marrow with a diffuse interstitial infiltrate of monotonous small to medium-sized cells. The cells have round to oval, sometimes indented nuclei with bland chromatin, and abundant clear cytoplasm that keeps the nuclei widely spaced, producing a characteristic fried-egg appearance. The background shows extravasated red cells and scattered hemosiderin. Findings are consistent with involvement by hairy cell leukemia; confirmation with CD20, annexin A1, CD25/CD123, and reticulin staining is recommended.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis", "vs": "Mast cells are spindle or oval with granular cytoplasm, form paratrabecular or perivascular aggregates with fibrosis and eosinophils, and are tryptase and CD117 positive."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL typically forms intrasinusoidal and nodular infiltrates of cells with less abundant cytoplasm rather than a diffuse widely spaced fried-egg pattern."},
+    {"dx": "Hypocellular myelodysplastic neoplasm or aplastic anemia", "vs": "These lack a monotonous lymphoid infiltrate; HCL can mimic hypocellularity, which is resolved by CD20 and annexin A1 IHC."},
+    {"dx": "Plasma cell infiltrate", "vs": "Plasma cells have eccentric nuclei with clockface chromatin and amphophilic cytoplasm rather than central nuclei with clear cytoplasm."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "65393",
+  "recognize_zh": "這是兩張骨髓抹片的肉眼照：左邊骨髓瘤病人的抹片整片呈藍色，右邊健康人為紫色，藍色背景來自血清中大量副蛋白（paraprotein）吸附鹼性染料。",
+  "features": [
+    "Macroscopic photograph of two stained bone marrow films side by side",
+    "Left (myeloma) film shows diffuse blue discoloration of the smear background",
+    "Right (healthy control) film shows the expected purple-violet staining",
+    "Blue tint most intense in the thicker (lower) portion of the smear",
+    "No cellular detail assessable at this magnification"
+  ],
+  "describe_en": "Macroscopic photograph compares a Romanowsky-stained bone marrow film from a patient with multiple myeloma (left) with a film from a healthy individual (right). The myeloma film shows diffuse bluish background staining, most pronounced in the thicker part of the smear, whereas the control film stains purple. This appearance reflects increased serum protein (paraprotein) taking up the basophilic dye and correlates microscopically with a blue protein background and rouleaux. The finding is suggestive of a paraproteinemia such as plasma cell myeloma but is not specific and requires serum protein electrophoresis and marrow evaluation.",
+  "ddx": [
+    {"dx": "Waldenström macroglobulinemia (IgM paraprotein)", "vs": "Produces the same blue background, so separation requires immunofixation and marrow morphology showing lymphoplasmacytic cells rather than a plasma cell proliferation."},
+    {"dx": "Polyclonal hypergammaglobulinemia (chronic liver disease, HIV, autoimmune disease)", "vs": "Can also cause blue background and rouleaux, but electrophoresis shows a broad polyclonal increase rather than an M-spike."},
+    {"dx": "Staining or smear-thickness artifact", "vs": "Artifactual blue tint from over-buffered stain or thick smears affects control slides stained in the same run and is not accompanied by rouleaux."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa (macroscopic view)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63484",
+  "recognize_zh": "臨床照片中雙側大腿有大片融合的紫紅色瘀斑（ecchymoses），邊緣轉為黃綠色，代表新舊出血並存；左上方另見少量點狀出血（petechiae）。若血小板與凝血檢查正常，需考慮血管性或營養缺乏（如壞血病）原因。",
+  "features": [
+    "Large confluent purple-red ecchymoses over both thighs",
+    "Yellow-green discoloration at the margins indicating resolving, older hemorrhage",
+    "Mottled, finely stippled texture within the bruised areas",
+    "A few scattered petechiae on the upper left thigh",
+    "No visible hematoma swelling, wound, or skin breakdown"
+  ],
+  "describe_en": "Clinical photograph shows extensive, bilateral, confluent ecchymoses over the thighs with purple-red central areas and yellow-green borders, indicating hemorrhage of varying ages. A few petechiae are present on the upper thigh. No visible trauma, open wounds, or tense hematomas are seen. This is a clinical image without cellular morphology; the pattern of spontaneous large-area skin bleeding warrants platelet count, PT/aPTT, fibrinogen, factor XIII and von Willebrand studies, and if normal, evaluation for vascular fragility or nutritional deficiency such as scurvy.",
+  "ddx": [
+    {"dx": "Acquired hemophilia A", "vs": "Presents with large spontaneous soft-tissue bleeds in older adults but has an isolated prolonged aPTT that does not correct on mixing and a low factor VIII with an inhibitor."},
+    {"dx": "Immune thrombocytopenia", "vs": "Bleeding is predominantly petechial and mucocutaneous with a markedly low platelet count, rather than large ecchymoses with a normal count."},
+    {"dx": "Scurvy (vitamin C deficiency)", "vs": "Accompanied by perifollicular hemorrhages, corkscrew hairs, and gum disease with normal platelet count and coagulation tests."},
+    {"dx": "Anticoagulant or warfarin/vitamin K deficiency coagulopathy", "vs": "Shows a prolonged PT/INR that corrects with vitamin K or plasma, with a relevant medication or malabsorption history."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

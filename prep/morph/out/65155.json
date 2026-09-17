@@ -1,0 +1,21 @@
+{
+  "id": "65155",
+  "recognize_zh": "腹水抹片中一個大型細胞團，中央被巨大淡染的空泡（黏液）撐開，三個深染新月形細胞核被擠壓到周邊，形成印戒樣（signet ring）排列，背景乾淨，提示轉移性腺癌伴印戒細胞分化。",
+  "features": [
+    "Large rounded cell group, several times the size of nearby cells",
+    "Central voluminous pale, finely vacuolated/mucin-like cytoplasmic space",
+    "Three dense, crescentic hyperchromatic nuclei compressed to the periphery",
+    "Rim of deeply basophilic cytoplasm at the periphery",
+    "Clean, paucicellular background; image slightly out of focus, limiting nuclear detail"
+  ],
+  "describe_en": "Ascitic fluid smear shows a large, rounded cluster in which a voluminous central pale, finely vacuolated cytoplasmic space compresses three hyperchromatic, crescent-shaped nuclei to the periphery, beneath a rim of basophilic cytoplasm, producing a signet-ring configuration. It is uncertain at this focus whether this represents a single multinucleated cell or a tight cluster of cells around a shared mucin vacuole. The background is otherwise paucicellular, and nuclear detail is limited by focus. Findings are suggestive of metastatic adenocarcinoma with signet-ring cell features; cell block with mucin stains and immunohistochemistry (e.g., cytokeratin, MOC31/BerEP4, calretinin) are required to confirm.",
+  "ddx": [
+    {"dx": "Vacuolated reactive mesothelial cells", "vs": "Degenerative mesothelial vacuoles are usually multiple and small with a central round nucleus and calretinin/WT1 positivity, rather than one large mucin vacuole crushing crescentic nuclei."},
+    {"dx": "Vacuolated macrophages (signet-ring histiocytes)", "vs": "Histiocytes have bland reniform nuclei and foamy cytoplasm with CD68/CD163 positivity and are mucicarmine-negative."},
+    {"dx": "Signet-ring cell lymphoma", "vs": "Signet-ring lymphoma cells are discohesive, single lymphoid cells with immunoglobulin vacuoles and are CD45/CD20-positive, not cohesive clusters."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

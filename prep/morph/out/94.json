@@ -1,0 +1,32 @@
+{
+  "id": "94",
+  "recognize_zh": "骨髓切片被一片片小型、圓核、染色質粗塊狀、細胞質少的「類淋巴球樣」細胞取代，像淋巴漿細胞淋巴瘤；但細胞核染色 cyclin D1 陽性、輕鏈原位雜交呈一側優勢，才認出是帶 t(11;14) 的漿細胞骨髓瘤。",
+  "features": [
+    "Diffuse sheets of monotonous small to intermediate cells effacing the marrow space between trabeculae",
+    "Round, often eccentric nuclei with coarse clumped chromatin and inconspicuous nucleoli (lymphocyte-like/lymphoplasmacytoid cytology)",
+    "Scant to moderate amphophilic cytoplasm; clear-cut clock-face plasma cells with a perinuclear hof are not prominent",
+    "Strong, uniform membranous staining of essentially all neoplastic cells on the membranous IHC panels",
+    "Nuclear cyclin D1 staining of variable intensity in most tumor cells",
+    "Light-chain ISH: diffuse cytoplasmic signal on one stain versus much sparser signal on the other, indicating light-chain restriction"
+  ],
+  "describe_en": "Bone marrow core biopsy shows near-total replacement of the intertrabecular space by diffuse sheets of monotonous small to intermediate-sized cells. At high power the cells have round, frequently eccentric nuclei with coarse clumped chromatin and scant to moderate cytoplasm, imparting a lymphocyte-like rather than classic plasmacytic appearance; no follicular or paratrabecular nodular architecture is seen. Immunohistochemistry shows strong membranous staining of the infiltrate and diffuse nuclear cyclin D1 positivity, and kappa/lambda in situ hybridization shows marked predominance of one light chain (lambda, per the case data). The membranous marker identities are not labeled in the images. In conjunction with cytogenetic t(11;14)(IGH::CCND1), findings are consistent with plasma cell myeloma with t(11;14) showing lymphoplasmacytoid cytology.",
+  "ddx": [
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with a CD20+ B-cell component separate from a CD138+ plasma cell component, is cyclin D1 negative, and usually carries MYD88 L265P rather than t(11;14)."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is also cyclin D1+ with t(11;14), but the cells are CD5+ SOX11+ B cells lacking CD138 and cytoplasmic light-chain ISH signal, whereas myeloma cells are CD138+ with strong cytoplasmic light-chain restriction."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "MZL has a dominant CD20+ monocytoid/centrocyte-like B-cell population with only a minor plasma cell component and is cyclin D1 negative."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL shows CD5+ CD23+ LEF1+ small B cells with proliferation centers and lacks CD138 and cytoplasmic light-chain positivity."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (membranous markers, cyclin D1); ISH: kappa/lambda",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E, medium power: marrow replaced by sheets of monotonous small round cells between trabeculae",
+    "H&E, high power: lymphocyte-like plasma cells with round eccentric nuclei and clumped chromatin",
+    "Membranous IHC (marker not labeled; e.g. CD138 or CD20): strong uniform staining of tumor cells",
+    "Membranous IHC (marker not labeled), second field: diffuse strong membrane staining",
+    "Cyclin D1 IHC: nuclear positivity of variable intensity in most tumor cells",
+    "Light-chain ISH: diffuse cytoplasmic signal, consistent with the restricted (lambda) light chain",
+    "Light-chain ISH, other light chain: sparser signal, supporting light-chain restriction"
+  ]
+}

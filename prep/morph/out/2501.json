@@ -1,0 +1,21 @@
+{
+  "id": "2501",
+  "recognize_zh": "電子顯微鏡下這個細胞的細胞核深度內摺成長條、彎曲的形狀（對應光學顯微鏡的核溝），胞質有溶小體與成束的條紋狀構造，符合蘭格罕細胞的超微結構。",
+  "features": [
+    "Transmission electron micrograph of a large cell with abundant cytoplasm and irregular, bleb-like cell membrane",
+    "Elongated, deeply folded/cleaved nucleus with an infolding that creates a groove",
+    "Scattered electron-dense membrane-bound granules (lysosomes) and mitochondria",
+    "Parallel striated arrays in the cytoplasm at left and lower right, possibly aggregated Birbeck granules; not resolvable with certainty at this magnification",
+    "Adjacent cells at the edges of the field"
+  ],
+  "describe_en": "Transmission electron microscopy shows a large mononuclear cell with an irregular, vesicle-studded plasma membrane and abundant cytoplasm. The nucleus is elongated and deeply folded with a longitudinal infolding, the ultrastructural correlate of the nuclear groove. The cytoplasm contains electron-dense lysosomes, mitochondria and parallel striated membranous arrays; individual Birbeck granule morphology cannot be confirmed at this magnification. Findings are consistent with a Langerhans cell in Langerhans cell histiocytosis, with higher-magnification views needed to document Birbeck granules.",
+  "ddx": [
+    {"dx": "Tissue macrophage", "vs": "Macrophages have round to kidney-shaped nuclei with abundant phagolysosomes and no Birbeck granules."},
+    {"dx": "Interdigitating dendritic cell", "vs": "Interdigitating cells show complex interlocking processes and lack Birbeck granules."},
+    {"dx": "Mast cell", "vs": "Mast cells contain numerous uniform electron-dense granules with scroll or lattice substructure rather than rod-shaped Birbeck granules."}
+  ],
+  "specimen": "tissue",
+  "stain": "Electron microscopy",
+  "match": "consistent",
+  "high_yield": false
+}

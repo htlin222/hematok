@@ -1,0 +1,21 @@
+{
+  "id": "3934",
+  "recognize_zh": "標題是 cytogram，但圖其實是低倍周邊血抹片：紅血球之間密密麻麻都是大小相近、核質比高的單一形態芽細胞，白血球數量明顯超量，符合 AML 高白血球症的血液外觀。",
+  "features": [
+    "Markedly increased leukocytes at low power, nearly one nucleated cell per few red cells",
+    "Monotonous population of medium to large blasts with high N:C ratio",
+    "Round nuclei with fine chromatin; nucleoli and granules not resolvable at this magnification",
+    "Scant pale-blue cytoplasm; rare mature lymphocyte for comparison",
+    "Red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Although titled as a cytogram, this image is a low-power peripheral blood smear rather than an automated analyzer plot. It shows striking leukocytosis composed of a monotonous population of medium to large blasts with high N:C ratio, round nuclei and scant pale-blue cytoplasm; nucleoli, granules and Auer rods cannot be assessed at this magnification. Mature leukocytes are rare. Findings are consistent with hyperleukocytosis due to acute leukemia, in keeping with the stated AML; the high blast count predisposes to leukostasis and can interfere with automated counts.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Morphology at low power cannot separate them; MPO cytochemistry and flow cytometry for myeloid versus lymphoid markers are required."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are small mature lymphocytes with clumped 'soccer-ball' chromatin and smudge cells rather than large blasts with fine chromatin."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a full spectrum of maturing granulocytes with myelocyte and neutrophil peaks, basophilia, and few blasts in chronic phase."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

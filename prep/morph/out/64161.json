@@ -1,0 +1,22 @@
+{
+  "id": "64161",
+  "recognize_zh": "低倍血片中大量紅血球表面有少數不規則、長短不一的尖刺（棘狀紅血球 acanthocytes），夾雜刺較規則短小的皺縮細胞（echinocytes）與少數小而緻密的球形紅血球，無明顯裂片細胞；本例歸因於 alectinib 藥物。",
+  "features": [
+    "Numerous acanthocytes: dense red cells lacking central pallor with a few irregularly spaced projections of variable length",
+    "Admixed echinocytes with more numerous, short, evenly spaced spicules",
+    "Occasional small dense spherocytes and spheroacanthocytes",
+    "Remaining red cells normocytic with central pallor; no significant schistocytes",
+    "Platelets present in normal numbers without clumping; scale bar label (500 um) is implausible for this magnification"
+  ],
+  "describe_en": "Peripheral blood smear shows a normocytic red cell population with numerous acanthocytes bearing few, irregularly distributed spicules of variable length, admixed with echinocytes and occasional small dense spherocytes and spheroacanthocytes. Schistocytes are not increased, and platelets appear adequate. The spicules are not artifactually distributed only in thick or thin areas of the film. In a patient treated with the ALK inhibitor alectinib, findings are consistent with drug-induced acanthocytosis/spheroacanthocytosis, which is typically associated with subclinical hemolysis. The embedded scale bar label appears incorrect for this magnification.",
+  "ddx": [
+    {"dx": "Echinocytes (burr cells) from drying artifact or uremia", "vs": "Echinocytes have 10-30 short, evenly spaced, uniform projections and retain central pallor, whereas acanthocytes have fewer irregular spicules of varying length on a dense cell."},
+    {"dx": "Spur cell anemia of advanced liver disease", "vs": "Spur cell anemia shows similar acanthocytes but occurs with severe cirrhosis and target cells, often with brisk hemolysis, and lacks an alectinib history."},
+    {"dx": "Neuroacanthocytosis or abetalipoproteinemia", "vs": "Inherited acanthocytosis presents with neurologic disease or fat malabsorption with low lipoproteins, rather than acquired onset after starting alectinib that reverses on switching drugs."},
+    {"dx": "Hereditary spherocytosis", "vs": "HS shows spherocytes without prominent spiculated forms and a lifelong history, whereas alectinib-induced EMA binding reduction is acquired and reversible."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

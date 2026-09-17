@@ -1,0 +1,20 @@
+{
+  "id": "62515",
+  "recognize_zh": "這是流式細胞儀的點狀圖，已圈選 CD19+ B 細胞，X 軸為 lambda、Y 軸為 kappa；B 細胞集中為單一族群，kappa 表現弱（約 10^3），lambda 為陰性，沒有分開的 lambda+ 族群，代表表面輕鏈微弱且單一型（dim kappa），符合 CLL。",
+  "features": [
+    "Dot plot gated on CD19+ B cells: lambda-PE (x-axis) versus kappa-FITC (y-axis)",
+    "Single tight population with dim kappa expression (~10^3) and negative lambda",
+    "No separate lambda-positive population, so normal polytypic kappa:lambda distribution is absent",
+    "Overall weak surface light chain intensity"
+  ],
+  "describe_en": "Flow cytometric dot plot gated on CD19-positive B cells displays kappa versus lambda surface light chain expression. The B cells form a single cluster with dim kappa and negative lambda staining, without a discrete lambda-positive subset. This pattern indicates a monotypic kappa-restricted B-cell population with dim surface immunoglobulin; interpretation assumes appropriate negative controls. Findings are consistent with a clonal B-cell process such as chronic lymphocytic leukemia, which characteristically shows dim surface light chain expression.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL also is CD5-positive but usually shows moderate-to-bright surface light chain, CD23 negativity, FMC7/CD20 bright, and cyclin D1 or t(11;14)."},
+    {"dx": "Reactive polyclonal B cells", "vs": "Polyclonal B cells show two distinct kappa and lambda populations with a normal kappa:lambda ratio of roughly 1.5-2:1."},
+    {"dx": "Surface light chain-negative B-cell population", "vs": "Truly sIg-negative populations (e.g., hematogones, some DLBCL) lie on the axis origin without kappa shift, and require cytoplasmic light chain or other markers for clonality."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A (flow cytometry)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

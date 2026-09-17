@@ -1,0 +1,22 @@
+{
+  "id": "60812",
+  "recognize_zh": "低倍下黏膜表面呈潰瘍、上方覆蓋纖維素樣壞死物，其下方為緻密、多形性的淋巴組織球浸潤，混有較大淡染細胞；需配合 EBER 與免疫染色才能確立 EBV 陽性黏膜皮膚潰瘍。",
+  "features": [
+    "Ulcerated mucosal surface with overlying fibrinopurulent/fibrinoid debris (upper left)",
+    "Dense, band-like to diffuse polymorphous infiltrate beneath the ulcer",
+    "Mixture of small dark lymphocytes, histiocytes and scattered larger cells with pale nuclei",
+    "Scattered extravasated red cells and small vessels",
+    "Two parallel dark linear tissue folds (processing artifact)"
+  ],
+  "describe_en": "Low-power H&E section shows an ulcerated mucosal surface covered by fibrinoid debris, with an underlying dense, polymorphous lymphohistiocytic infiltrate that includes scattered larger atypical cells. No intact surface epithelium is evident in this field, and the infiltrate is diffuse rather than nodular. Linear dark bands represent tissue-fold artifact. The architecture is suggestive of EBV-positive mucocutaneous ulcer in the appropriate clinical context, pending EBER ISH and immunophenotyping.",
+  "ddx": [
+    {"dx": "Reactive/traumatic ulcer (eosinophilic ulcer of the tongue)", "vs": "Contains a mixed infiltrate with prominent eosinophils but lacks atypical Hodgkin-like large cells and EBER-positive cells."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Rarely presents as an isolated mucosal ulcer and shows scattered CD15+/CD30+ HRS cells with CD20 weak/negative, whereas EBVMCU large cells are usually CD20+ with many EBER+ small cells."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "Shows angiocentric/angiodestructive growth with extensive necrosis and CD3/CD56+ EBER+ cells."},
+    {"dx": "Squamous cell carcinoma with inflammation", "vs": "Would show invasive keratinizing epithelial nests (cytokeratin+) rather than a purely lymphohistiocytic infiltrate."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

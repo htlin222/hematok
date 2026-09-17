@@ -1,0 +1,22 @@
+{
+  "id": "64424",
+  "recognize_zh": "同一淋巴結中兩種腫瘤緊鄰：左側為大型、多形性、核不規則的片狀細胞（CD30 強陽性、ALK 陰性），右側為界線清楚的單一小至中型淋巴細胞結節（CD20 與 cyclin D1 陽性），即 ALK 陰性 ALCL 合併被套細胞淋巴瘤的複合型淋巴瘤。",
+  "features": [
+    "Two sharply demarcated neoplastic compartments within one lymph node (panel A)",
+    "ALCL component: sheets of large pleomorphic cells with irregular, kidney-shaped or multilobated nuclei, prominent nucleoli and ample eosinophilic cytoplasm (panel B left)",
+    "MCL component: monotonous small to medium lymphocytes with slightly irregular nuclei, dispersed chromatin and scant cytoplasm (panel B right)",
+    "CD30 strong membranous and Golgi staining in the large cells, ALK-negative (panels C, E with inset)",
+    "CD20 and nuclear cyclin D1 restricted to the nodular small-cell component (panels D, F)"
+  ],
+  "describe_en": "Excisional lymph node biopsy shows two distinct, juxtaposed lymphoid neoplasms. One component consists of sheets of large pleomorphic cells with irregular, horseshoe-like to multilobated nuclei, prominent nucleoli and abundant cytoplasm; these cells are strongly and uniformly CD30-positive and ALK-negative. The adjacent nodular component is composed of monotonous small to medium-sized lymphocytes with slightly irregular nuclei that are CD20-positive and show nuclear cyclin D1 expression. Findings are consistent with a composite lymphoma: ALK-negative anaplastic large cell lymphoma and mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL shows scattered CD30+/CD15+/PAX5-weak Hodgkin/Reed-Sternberg cells in an inflammatory background rather than cohesive sheets of CD30+ T cells."},
+    {"dx": "Pleomorphic variant of mantle cell lymphoma", "vs": "Pleomorphic MCL large cells would express CD20 and cyclin D1, whereas the large cells here are CD20- and cyclin D1-negative with strong CD30."},
+    {"dx": "ALK-positive ALCL", "vs": "ALK-positive ALCL shows nuclear/cytoplasmic ALK staining and typically occurs in younger patients; ALK is negative here (panel E inset)."},
+    {"dx": "Metastatic urothelial carcinoma", "vs": "Carcinoma forms cohesive nests and is cytokeratin/GATA3-positive, while the large cells here are discohesive, CD30+ and express T-cell antigens."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD30, CD20, cyclin D1, ALK",
+  "match": "consistent",
+  "high_yield": false
+}

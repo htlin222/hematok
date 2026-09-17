@@ -1,0 +1,22 @@
+{
+  "id": "12960",
+  "recognize_zh": "視野右側有一大團聚集在一起的血小板（platelet clump），而其他區域幾乎看不到散在的血小板；自動計數機把血小板團塊算成一顆或漏算，造成假性血小板低下（通常與 EDTA 有關）。",
+  "features": [
+    "Large aggregate of numerous granular platelets forming a clump",
+    "Paucity of free single platelets elsewhere in the field",
+    "Segmented neutrophil with normal lobation and granulation",
+    "Normocytic, normochromic red cells without schistocytes",
+    "No other leukocyte or red cell abnormalities in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows a large aggregate of platelets with few free-lying platelets elsewhere. Red cells are normocytic and normochromic without schistocytes, and the neutrophil is morphologically unremarkable. Platelet clumping of this kind causes spurious lowering of the automated platelet count. Findings are consistent with pseudothrombocytopenia, most often EDTA-dependent; a repeat count from a citrate- or heparin-anticoagulated sample or a fingerstick smear is recommended to establish the true platelet count.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "ITP shows genuinely few platelets, often large, without clumps, and the low count persists in citrated samples."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows platelets rosetting around neutrophils rather than forming free-lying clumps."},
+    {"dx": "Inherited giant platelet disorders", "vs": "Macrothrombocytopenias show single giant platelets (sometimes counted as red cells) rather than aggregates of normal-sized platelets."},
+    {"dx": "Clot formation from a traumatic draw", "vs": "Partial clotting shows platelet clumps with fibrin strands and a falsely low count in any anticoagulant, and is resolved by a clean redraw."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

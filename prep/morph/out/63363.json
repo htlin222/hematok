@@ -1,0 +1,22 @@
+{
+  "id": "63363",
+  "recognize_zh": "同一視野可比較三種細胞：左下分葉核、胞質粉紅帶細顆粒的嗜中性球；右下正常小淋巴球；上方一顆明顯較大的淋巴樣細胞，核質比高、染色質深且核輪廓略有皺褶，屬異常大型淋巴樣細胞（Sézary 細胞）。紅色箭頭指血小板。",
+  "features": [
+    "Segmented neutrophil (lower left) with multilobed nucleus and pink cytoplasm containing fine granules",
+    "Normal small lymphocyte (lower right) with round dense nucleus and a thin rim of blue cytoplasm",
+    "Atypical large lymphoid cell (upper center), about twice the size of the small lymphocyte, with high N:C ratio and dense chromatin",
+    "The atypical cell's nucleus shows subtle folding/grooving; a thin rim of pale blue cytoplasm",
+    "Two small platelets (red arrows); normocytic red cells in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows a segmented neutrophil, a normal small lymphocyte and two platelets (red arrows) among unremarkable red cells. In addition, there is a large atypical lymphoid cell approximately twice the size of the normal lymphocyte, with a high nuclear-to-cytoplasmic ratio, dense chromatin, subtle nuclear folding and a thin rim of pale blue cytoplasm. Deep cerebriform grooves are not well resolved at this magnification. In the clinical setting of erythroderma, the atypical cell is consistent with a large Sezary cell of Sezary syndrome, and quantification by flow cytometry (CD4:CD8 ratio, CD7/CD26 loss) is recommended.",
+  "ddx": [
+    {"dx": "Reactive (viral) atypical lymphocyte", "vs": "Reactive lymphocytes have abundant basophilic cytoplasm that hugs adjacent red cells, rather than scant cytoplasm with a convoluted nucleus."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells show polylobated 'flower' nuclei and are associated with HTLV-1 infection rather than cerebriform nuclei with erythroderma."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-prolymphocytes have a visible nucleolus and basophilic cytoplasm with blebs, with TCL1A overexpression."},
+    {"dx": "Lymphoblast", "vs": "Blasts have finely dispersed chromatin and nucleoli, whereas this cell has dense mature chromatin."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

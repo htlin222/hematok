@@ -1,0 +1,21 @@
+{
+  "id": "60554",
+  "recognize_zh": "低倍血液抹片可見紅血球普遍排成長鏈狀的疊錢狀（rouleaux），提示血中有大量單株免疫球蛋白；視野中央僅一顆深藍色單核細胞，解析度不足以確認是否為漿細胞。",
+  "features": [
+    "Low-power field dominated by prominent rouleaux formation with red cells in long branching chains",
+    "Single small round cell with intensely basophilic cytoplasm near the center; nuclear detail not resolvable",
+    "Faint bluish background staining can accompany increased serum protein",
+    "Scattered platelets; very few leukocytes in this field",
+    "Image resolution limits assessment of eccentric nucleus or perinuclear hof"
+  ],
+  "describe_en": "Low-power view of a peripheral blood smear shows marked rouleaux formation, with red cells stacked in long, branching chains across the field, suggesting a high concentration of serum immunoglobulin. A single cell with deeply basophilic cytoplasm is present centrally, but the magnification and resolution do not allow confident identification as a plasma cell. Leukocytosis is not appreciable in this field. The rouleaux supports a paraproteinemia, and in the given clinical context the findings are suggestive of a plasma cell neoplasm such as plasma cell leukemia; higher-power review and a quantitative plasma cell count are required.",
+  "ddx": [
+    {"dx": "Thick-area artifact of the smear", "vs": "Pseudo-rouleaux in thick areas disappears in the thin monolayer, whereas true rouleaux persists where red cells should lie separately."},
+    {"dx": "Red cell agglutination (cold agglutinin)", "vs": "Agglutinates form irregular three-dimensional clumps rather than linear coin-stack chains."},
+    {"dx": "Lymphoplasmacytic lymphoma with IgM paraprotein", "vs": "LPL can also produce rouleaux but circulating cells are mainly small lymphocytes and plasmacytoid lymphocytes rather than plasma cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

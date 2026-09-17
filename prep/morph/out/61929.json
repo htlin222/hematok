@@ -1,0 +1,20 @@
+{
+ "id": "61929",
+ "recognize_zh": "CD20免疫染色下，腦組織中許多大小不一的微血管內都充滿棕色陽性的大型細胞，而血管外的腦實質只有藍色（陰性）的膠質細胞核，清楚呈現B細胞淋巴瘤「只長在血管腔內」的分布，支持血管內大B細胞淋巴瘤。",
+ "features": [
+  "Numerous capillaries and small vessels filled with strongly CD20-positive large cells (brown membranous/cytoplasmic staining)",
+  "Positive cells are strictly intraluminal, conforming to vessel outlines, some vessels containing single cells and others packed clusters",
+  "Tumor nuclei are large, vesicular and appear pale within the brown-staining cells",
+  "Background brain parenchyma with CD20-negative glial nuclei (hematoxylin counterstain) and no extravascular CD20-positive infiltrate"
+ ],
+ "describe_en": "CD20 immunohistochemistry on brain tissue highlights large neoplastic B cells filling the lumina of numerous capillaries and small vessels. The positive cells are confined to the intravascular compartment, with no CD20-positive infiltrate in the surrounding neuropil, where glial nuclei are negative. This exclusively intravascular distribution of large CD20-positive cells is consistent with intravascular large B-cell lymphoma.",
+ "ddx": [
+  {"dx": "Primary CNS diffuse large B-cell lymphoma", "vs": "Primary CNS DLBCL is also CD20-positive but infiltrates the parenchyma in perivascular cuffs and sheets rather than remaining within vessel lumina."},
+  {"dx": "Intravascular NK/T-cell lymphoma", "vs": "Intravascular NK/T-cell lymphoma is CD20-negative, expressing CD3epsilon, CD56 and cytotoxic markers with EBER positivity."},
+  {"dx": "Circulating normal B cells in vessels", "vs": "Normal intravascular B cells are small, sparse and admixed with other leukocytes, not large cells packing and distending multiple vessels."}
+ ],
+ "specimen": "tissue",
+ "stain": "IHC: CD20",
+ "match": "consistent",
+ "high_yield": true
+}

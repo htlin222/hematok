@@ -1,0 +1,21 @@
+{
+  "id": "1097",
+  "recognize_zh": "骨髓切片免疫組織化學染色中，大多數細胞胞質呈顆粒狀棕色陽性，陰性細胞零散夾雜，代表骨髓幾乎被骨髓性/單核球性細胞取代，符合 JMML 的骨髓表現。",
+  "features": [
+    "Densely cellular marrow with diffuse granular brown cytoplasmic staining in most cells",
+    "Positive cells show coarse granular cytoplasmic pattern typical of myeloid/monocytic markers",
+    "Interspersed negative cells with blue hematoxylin-stained nuclei (likely erythroid or lymphoid)",
+    "Some strongly stained cells with dark, condensed or indented nuclei",
+    "No fat spaces in this field"
+  ],
+  "describe_en": "Immunohistochemical stain of a hypercellular bone marrow biopsy shows diffuse granular cytoplasmic positivity in the majority of cells, with scattered interspersed negative cells. The staining pattern is typical of a myeloid or monocytic marker (such as myeloperoxidase or lysozyme), although the specific antibody is not stated. The findings indicate that the marrow is largely occupied by myelomonocytic cells, consistent with juvenile myelomonocytic leukemia in context; CD34 staining would be needed to assess blast percentage.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "AML shows sheets of CD34/CD117-positive blasts, which must be enumerated separately from the myeloid marker stain."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML marrow is similarly myeloid-rich but has small hypolobated megakaryocytes and BCR::ABL1 fusion."},
+    {"dx": "Lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts would be negative for myeloid markers and positive for TdT and lymphoid antigens."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (likely MPO or lysozyme; not specified)",
+  "match": "partial",
+  "high_yield": false
+}

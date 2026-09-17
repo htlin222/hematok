@@ -1,0 +1,22 @@
+{
+  "id": "1784",
+  "recognize_zh": "新生兒周邊血抹片中可見大量有核紅血球（各成熟階段的正染/多染性紅血球母細胞），加上缺乏中央淡染的小圓形球形紅血球（箭頭）與多染性大紅血球，呈現免疫性溶血與骨髓代償性增生，符合胎兒紅血球母細胞增多症（新生兒溶血病）。",
+  "features": [
+    "Markedly increased nucleated red blood cells at polychromatic and orthochromatic stages",
+    "Small, dense round red cells lacking central pallor (spherocytes, arrows)",
+    "Polychromasia with large bluish-gray macrocytic red cells (reticulocytes)",
+    "Occasional neutrophils and a myeloid precursor (left shift)",
+    "No schistocytes or target cells as a dominant finding"
+  ],
+  "describe_en": "Peripheral blood smear shows marked erythroblastosis with numerous nucleated red blood cells at various stages of maturation, predominantly polychromatic and orthochromatic normoblasts. There are scattered spherocytes and prominent polychromasia with large polychromatophilic red cells. Occasional neutrophils and an immature granulocyte are present. In a newborn, findings are consistent with immune hemolytic disease of the fetus and newborn (erythroblastosis fetalis); ABO/Rh typing and a direct antiglobulin test are needed to define the antibody.",
+  "ddx": [
+    {"dx": "Hereditary spherocytosis", "vs": "HS also shows spherocytes but is DAT negative with a family history and lacks the striking erythroblastosis of alloimmune hemolysis in a neonate."},
+    {"dx": "Normal neonatal blood film", "vs": "Healthy newborns have a few nucleated red cells and macrocytes, but not this degree of normoblastemia with spherocytes."},
+    {"dx": "Congenital infection or hypoxia-related normoblastemia", "vs": "Stress-related normoblastemia lacks spherocytes and has a negative DAT."},
+    {"dx": "Transient abnormal myelopoiesis/congenital leukemia", "vs": "These show circulating blasts, often in Down syndrome, rather than predominantly maturing normoblasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

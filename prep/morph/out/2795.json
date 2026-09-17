@@ -1,0 +1,21 @@
+{
+  "id": "2795",
+  "recognize_zh": "骨髓切片免疫染色中，一團間質性淋巴球聚集的細胞膜呈強棕色陽性，周圍造血細胞陰性；此圖抗體未標示，依標題推測為 T 細胞標記（如 CD3），代表聚集以 T 細胞為主。",
+  "features": [
+    "Well-defined interstitial lymphoid aggregate with strong membranous brown staining",
+    "Positive cells are small, densely packed lymphocytes",
+    "Scattered positive lymphocytes spilling into surrounding interstitium",
+    "Surrounding myeloid and erythroid precursors negative with hematoxylin counterstain",
+    "Fat spaces and trabecular edge present; no paratrabecular location of the aggregate"
+  ],
+  "describe_en": "Immunohistochemical stain on a bone marrow core biopsy highlights a discrete interstitial lymphoid aggregate with strong membranous staining of the majority of its small lymphocytes, along with scattered positive cells in the adjacent interstitium. Background hematopoietic cells are negative. The antibody is not labeled on the image; assuming a pan-T-cell marker such as CD3, the aggregate is T-cell predominant. In a patient treated with rituximab, a T-cell rich aggregate with few or no PAX5-positive B cells is consistent with rituximab-associated marrow T-cell hyperplasia.",
+  "ddx": [
+    {"dx": "Residual B-cell lymphoma", "vs": "A residual lymphoma aggregate would be predominantly PAX5/CD79a-positive, since CD20 may be lost after rituximab."},
+    {"dx": "Peripheral T-cell lymphoma involving marrow", "vs": "PTCL shows cytologically atypical T cells with aberrant antigen loss (CD5, CD7) and a clonal TCR rearrangement."},
+    {"dx": "Benign reactive lymphoid aggregate", "vs": "Ordinary benign aggregates are also T-cell rich but contain a B-cell component and occur without anti-CD20 therapy."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: likely CD3 (antibody not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "29197",
+  "recognize_zh": "視野中央一個大型細胞，其多個核葉環狀排列成花冠（rosette）包圍中央嗜酸性胞質，外圍胞質細顆粒帶空泡；周圍有胞質空泡化的異常單核細胞，對應 AML 伴複雜染色體異常的多核原始細胞。",
+  "features": [
+    "Very large cell with multiple dense nuclear lobes/nuclei arranged in a ring (rosette/wreath) around a central pale eosinophilic cytoplasmic zone",
+    "Abundant peripheral cytoplasm that is finely granular to vacuolated",
+    "Nuclear lobes hyperchromatic without clearly resolvable nucleoli at this resolution",
+    "Background of loosely arranged atypical mononuclear cells with vacuolated cytoplasm, scattered red cells and fibrinous material"
+  ],
+  "describe_en": "Section (H&E, likely marrow clot or biopsy) shows a markedly enlarged cell in which multiple hyperchromatic nuclear lobes are arranged in a rosette around a central eosinophilic cytoplasmic core, surrounded by a wide rim of finely vacuolated cytoplasm. The background contains loosely cohesive atypical mononuclear cells with vacuolated cytoplasm, red cells and fibrin. Fine chromatin detail cannot be assessed at this resolution. In the appropriate immunophenotypic and cytogenetic context, these rosette-like multinucleated forms are suggestive of dysplastic blasts in acute myeloid leukemia with complex karyotype.",
+  "ddx": [
+    {"dx": "Touton giant cell", "vs": "Touton cells also show a wreath of nuclei around an eosinophilic center, but their periphery is foamy lipid-laden cytoplasm in a xanthomatous lesion and they are CD68/CD163-positive histiocytes rather than CD34/CD117/myeloid-antigen blasts."},
+    {"dx": "Dysplastic megakaryocyte with separated nuclear lobes (pawn-ball form)", "vs": "Megakaryocytes have more abundant platelet-forming cytoplasm and are CD61/CD42b-positive, which separates them from monocytic or myeloid blasts."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts have many uniform, discrete oval nuclei scattered through cytoplasm adjacent to bone rather than a ring of lobes around a central core."},
+    {"dx": "Reed-Sternberg-like / anaplastic large cell", "vs": "RS and hallmark cells have large vesicular nuclei with prominent macronucleoli and CD30 expression, unlike these dense lobated nuclei."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

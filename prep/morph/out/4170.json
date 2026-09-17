@@ -1,0 +1,21 @@
+{
+  "id": "4170",
+  "recognize_zh": "這是胸部電腦斷層肺窗橫切面，兩側下肺葉背側可見斑片狀、結節狀與小葉中心樹芽狀混濁，左側較明顯；在化療後的病人要優先考慮感染性肺炎（細菌或黴菌），這是影像而非形態學圖片。",
+  "features": [
+    "Axial chest CT in lung window at the level of the heart and lower lobe bronchi",
+    "Patchy nodular and clustered opacities in the dependent posterior lower lobes, left greater than right",
+    "Small centrilobular nodules with tree-in-bud-like configuration peripherally",
+    "No large lobar consolidation, cavitation or pleural effusion evident on this slice",
+    "Central airways patent; mediastinal contours unremarkable on lung window"
+  ],
+  "describe_en": "Axial chest CT (lung window) demonstrates patchy nodular and clustered opacities with small centrilobular nodules in the posterior basal segments of both lower lobes, more extensive on the left. No cavitation, halo sign, lobar consolidation or pleural effusion is evident on this single slice. In a patient after chemotherapy, these findings are suggestive of an infectious bronchopneumonia (bacterial, mycobacterial, or early fungal infection) or aspiration. This is a non-morphologic image; correlation with bronchoalveolar lavage cultures, galactomannan and clinical findings is required, and the marrow in such patients may show reactive changes secondary to infection.",
+  "ddx": [
+    {"dx": "Invasive pulmonary aspergillosis", "vs": "Angioinvasive aspergillosis typically presents as larger nodules with a halo sign or cavitation and positive galactomannan in a neutropenic host."},
+    {"dx": "Aspiration pneumonia", "vs": "Aspiration favors dependent segments with a compatible history and lacks fungal biomarkers."},
+    {"dx": "Pulmonary leukemic infiltration or drug toxicity", "vs": "Leukemic infiltrates and drug-induced pneumonitis are more often diffuse ground-glass or interstitial and require BAL/biopsy with negative cultures."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A (CT)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

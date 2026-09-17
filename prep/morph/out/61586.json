@@ -1,0 +1,22 @@
+{
+  "id": "61586",
+  "recognize_zh": "脾臟紅髓被混合性髓系細胞浸潤：有核型卵圓或凹陷的未成熟骨髓單核系細胞、分節或帶狀核的成熟中性球，以及深染圓核的紅血球前驅細胞，散布於紅血球之間；在幼兒脾腫大的情境下符合 JMML 的紅髓浸潤。",
+  "features": [
+    "Diffuse expansion of splenic red pulp by a mixed hematopoietic infiltrate",
+    "Immature myelomonocytic cells with oval to indented nuclei, fine chromatin and moderate eosinophilic cytoplasm",
+    "Admixed maturing granulocytes with band and segmented nuclei",
+    "Erythroid precursors with small, round, dense nuclei",
+    "Red cells packed between infiltrating cells in cords and sinuses; no discrete white pulp in this field"
+  ],
+  "describe_en": "H&E section of spleen shows diffuse expansion of the red pulp by a mixed hematopoietic infiltrate. The infiltrate is composed of immature myelomonocytic cells with oval to indented nuclei and fine chromatin, admixed with maturing granulocytes with band and segmented nuclei and erythroid precursors with small dense round nuclei, set among red cells in the cords and sinuses. Sheets of blasts are not evident at this magnification. In a young child with splenomegaly, monocytosis and a RAS-pathway mutation, findings are consistent with red pulp involvement by juvenile myelomonocytic leukemia.",
+  "ddx": [
+    {"dx": "Extramedullary hematopoiesis", "vs": "Also trilineage with megakaryocytes and erythroid islands, but lacks a monocytic predominance and occurs with marrow failure/fibrosis or hemolysis rather than a clonal RAS-pathway myeloproliferation."},
+    {"dx": "Myeloid sarcoma / AML involving spleen", "vs": "Shows sheets of monotonous blasts (CD34/CD117+) rather than a mixture of maturing granulocytic, monocytic and erythroid cells."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "Red pulp contains histiocytes with engulfed hematopoietic cells, without a myelomonocytic proliferation."},
+    {"dx": "CMML or BCR::ABL1+ CML", "vs": "Similar splenic infiltrate but occurs in adults; CML is excluded by BCR::ABL1 testing."}
+  ],
+  "specimen": "spleen",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65561",
+  "recognize_zh": "周邊血液抹片中紅血球旁有一群比紅血球小很多（約 2–4 µm）的橢圓形酵母樣體，每顆都有偏於一側的新月形深藍色核物質與周圍透明暈（halo），位於細胞外，提示全身性真菌血症（形態最像 Histoplasma）。",
+  "features": [
+    "Extracellular cluster of about 12 small oval yeast-like organisms, much smaller than red cells (approximately 2-4 µm)",
+    "Each organism has a crescent-shaped, eccentric basophilic nuclear/cytoplasmic mass",
+    "Clear unstained halo (pseudocapsule) surrounding each organism",
+    "No budding, hyphae or central septation evident at this resolution",
+    "Adjacent leukocyte (likely monocyte) with granular cytoplasm and a vacuole; background red cells"
+  ],
+  "describe_en": "Peripheral blood smear shows an extracellular cluster of numerous small, oval yeast-like organisms, considerably smaller than red cells, each with an eccentric crescent-shaped basophilic nucleus and a surrounding clear halo. An adjacent leukocyte with granular, vacuolated cytoplasm is present, and the organisms may have been released from a disrupted phagocyte. No budding, hyphae or septation is identified. Findings are suggestive of systemic fungemia; the morphology most closely resembles Histoplasma capsulatum, but culture, antigen testing or molecular studies are required for species identification.",
+  "ddx": [
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts divide by fission and show a characteristic central transverse septum with elongated sausage forms, rather than budding oval forms with crescentic nuclei."},
+    {"dx": "Candida glabrata", "vs": "Candida yeasts are slightly larger, stain more uniformly, lack a crescent-shaped nucleus with clear halo, and may show pseudohyphae."},
+    {"dx": "Leishmania amastigotes", "vs": "Amastigotes contain both a round nucleus and a rod-shaped kinetoplast without a clear capsule-like halo."},
+    {"dx": "Platelet clumps or stain precipitate", "vs": "Platelets have granular purple centers without halos and stain precipitate is irregular, whereas these are uniform oval bodies with internal crescentic nuclei."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

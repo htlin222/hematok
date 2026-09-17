@@ -1,0 +1,21 @@
+{
+  "id": "1278",
+  "recognize_zh": "抽吸液中可見大量核圓、染色質細緻、胞質藍的母細胞，與各階段成熟中的顆粒球混雜；這個視野能看出母細胞增加，但巨核細胞只在邊角出現、看不清型態，單靠此圖無法指出 inv(3) 特有的低分葉巨核細胞。",
+  "features": [
+    "Hypercellular aspirate with increased intermediate to large blasts with round nuclei, fine chromatin and moderately basophilic cytoplasm",
+    "Admixed maturing granulocytes: promyelocytes, myelocytes, bands and segmented neutrophils",
+    "Scattered small lymphocytes and occasional erythroid precursors",
+    "Edge of a marrow particle with fat space at lower left",
+    "Megakaryocytes only partially captured at the field edge, too limited to assess lobation"
+  ],
+  "describe_en": "Bone marrow aspirate smear is hypercellular with an increased population of intermediate to large blasts showing round nuclei, fine chromatin, occasional nucleoli and moderately basophilic cytoplasm. These are admixed with maturing granulocytic elements at all stages, scattered lymphocytes and occasional erythroid precursors, adjacent to a particle edge. Megakaryocytes are not well represented in this field, so the hypolobated megakaryocytes typical of MECOM-rearranged AML cannot be evaluated here. The findings support acute myeloid leukemia; assignment to AML with inv(3)(q21.3q26.2) or t(3;3) requires cytogenetic or FISH confirmation.",
+  "ddx": [
+    {"dx": "AML with maturation", "vs": "Shows the same blasts with maturing granulocytes, and is excluded only when karyotype shows no defining abnormality such as inv(3)/t(3;3)."},
+    {"dx": "AML with myelodysplasia-related changes", "vs": "Requires multilineage dysplasia or MDS-related cytogenetics, and MECOM rearrangement takes diagnostic precedence."},
+    {"dx": "Chronic myeloid leukemia in blast phase", "vs": "Also shows blasts with maturing granulocytes plus basophilia, but is defined by BCR::ABL1, which can coexist with inv(3) as secondary progression."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

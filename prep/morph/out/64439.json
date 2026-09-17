@@ -1,0 +1,23 @@
+{
+  "id": "64439",
+  "recognize_zh": "淋巴結被大型免疫母細胞／漿母細胞樣細胞瀰漫取代：細胞質豐富偏雙染色性、核圓且有明顯中央核仁，其間夾雜小淋巴球群。這些腫瘤細胞 CD138、OCT2、BOB1 陽性，ALK 呈顆粒狀細胞質陽性，CD45 則陰性，符合 ALK 陽性大 B 細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheets of large immunoblastic/plasmablastic cells with abundant amphophilic cytoplasm (panel A)",
+    "Round vesicular nuclei with single prominent central nucleoli; intermixed clusters of small mature lymphocytes",
+    "CD138 strong membranous staining of the large cells (panel B)",
+    "Nuclear OCT2 and BOB1 positivity confirming B-cell transcriptional program (panels C, D)",
+    "Granular cytoplasmic ALK staining without nuclear staining (panel E)",
+    "CD45 negative in tumor cells, positive only in background small lymphocytes (panel F)"
+  ],
+  "describe_en": "Lymph node sections show diffuse effacement by large immunoblast- and plasmablast-like cells with abundant amphophilic cytoplasm, round vesicular nuclei and prominent central nucleoli, admixed with small clusters of mature lymphocytes. By immunohistochemistry the neoplastic cells are positive for CD138, OCT2 and BOB1, with granular cytoplasmic ALK staining, and negative for CD45, which highlights only background lymphocytes. Additional results show MUM1 and EMA positivity with negative CD20, CD30, HHV8 and EBER. Findings are consistent with ALK-positive large B-cell lymphoma, with a granular cytoplasmic ALK pattern suggesting a CLTC::ALK fusion.",
+  "ddx": [
+    {"dx": "ALK-positive anaplastic large cell lymphoma", "vs": "ALK+ ALCL is strongly CD30+ with hallmark horseshoe nuclei, T-cell/null phenotype and usually nuclear plus cytoplasmic ALK (NPM1::ALK), lacking OCT2/BOB1/CD138."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma shares CD138+/CD45-/CD20- plasmablastic features but is usually EBER-positive and ALK-negative."},
+    {"dx": "Plasmablastic/anaplastic plasma cell myeloma", "vs": "Myeloma shows cytoplasmic light chain restriction, bone disease and an M protein, and is ALK-negative."},
+    {"dx": "Metastatic carcinoma or ALK-rearranged non-small cell lung carcinoma", "vs": "Carcinoma forms cohesive nests and is cytokeratin/TTF-1-positive, whereas these discohesive cells express OCT2/BOB1 without keratin."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD138, OCT2, BOB1, ALK, CD45",
+  "match": "consistent",
+  "high_yield": false
+}

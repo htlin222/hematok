@@ -1,0 +1,20 @@
+{
+  "id": "60285",
+  "recognize_zh": "G 帶核型圖（XY 男性）中箭頭指出一條 6 號染色體短臂末端與一條 9 號染色體長臂末端的片段交換，即 t(6;9)(p23;q34)，形成 DEK-NUP214 融合，常伴嗜鹼性球增多與多系發育不良。",
+  "features": [
+    "G-banded karyogram with 46 chromosomes; X and a faint Y present",
+    "Arrow at the distal short arm of one chromosome 6 showing altered terminal banding (der(6))",
+    "Arrow at the distal long arm of one chromosome 9 showing an elongated/altered terminal segment (der(9))",
+    "Interpretation: 46,XY,t(6;9)(p23;q34), DEK-NUP214",
+    "One chromosome 21 image appears distorted, most likely an imaging artifact rather than a structural change"
+  ],
+  "describe_en": "This G-banded karyogram shows a male metaphase with 46 chromosomes and a reciprocal translocation involving the terminal short arm of chromosome 6 and the terminal long arm of chromosome 9, marked by arrows on the derivative chromosomes. The karyotype corresponds to 46,XY,t(6;9)(p23;q34). This rearrangement produces the DEK-NUP214 fusion and defines AML with t(6;9)(p23;q34.1); DEK-NUP214, which is associated with basophilia, multilineage dysplasia, frequent FLT3-ITD and a poor prognosis. Because both breakpoints are near telomeric regions, FISH or RT-PCR confirmation is recommended.",
+  "ddx": [
+    {"dx": "t(9;22)(q34;q11.2) BCR-ABL1", "vs": "Both involve 9q34, but t(9;22) produces a shortened chromosome 22 (Philadelphia chromosome) whereas here the partner is chromosome 6p."},
+    {"dx": "Myelodysplastic neoplasm with multilineage dysplasia", "vs": "Morphology can overlap, but the presence of t(6;9) classifies the case as AML with DEK-NUP214 (with at least 10% blasts in current classifications)."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": false
+}

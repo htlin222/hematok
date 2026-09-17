@@ -1,0 +1,20 @@
+{
+  "id": "61436",
+  "recognize_zh": "G 帶核型圖中第 9 對與第 22 對已圈起：一條 9 號長臂較長（der(9)），一條 22 號明顯變短（費城染色體 der(22)），其餘染色體正常，性染色體為 XY，即 46,XY,t(9;22)(q34;q11.2)。",
+  "features": [
+    "G-banded male karyogram (XY) with 46 chromosomes",
+    "Chromosome 9 pair circled: one homolog with elongated long arm, consistent with der(9)t(9;22)",
+    "Chromosome 22 pair circled: one homolog shortened, representing the Philadelphia chromosome der(22)",
+    "No additional numerical or structural abnormalities evident; empty marker slot"
+  ],
+  "describe_en": "G-banded karyogram shows a male complement of 46 chromosomes with a reciprocal translocation between the long arms of chromosomes 9 and 22, evident as an elongated der(9) and a shortened der(22) (Philadelphia chromosome). No additional abnormalities are seen in this metaphase. The karyotype is 46,XY,t(9;22)(q34;q11.2). In a patient with B-lymphoblastic leukemia this defines B-ALL with BCR::ABL1, typically with the p190 (e1a2) transcript in adults; aberrant CD13/CD33 expression is common, and RT-PCR for transcript type and tyrosine kinase inhibitor therapy are indicated.",
+  "ddx": [
+    {"dx": "CML in lymphoid blast phase", "vs": "Same karyotype, so a preceding chronic phase, basophilia/splenomegaly, p210 transcript, and BCR::ABL1 in neutrophils favor CML blast phase."},
+    {"dx": "Ph-like (BCR::ABL1-like) B-ALL", "vs": "Shares a kinase-activated expression profile but lacks t(9;22) and BCR::ABL1 fusion."},
+    {"dx": "Mixed phenotype acute leukemia with BCR::ABL1", "vs": "Requires lineage-defining myeloid markers such as MPO, whereas CD13/CD33 alone do not assign myeloid lineage."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding (karyotype)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3733",
+  "recognize_zh": "左側嗜中性球外緣被一圈小血小板黏附包圍，中間那顆嗜中性球邊緣也附著數顆血小板，而右側的嗜中性球則沒有；這種血小板圍繞嗜中性球的現象就是血小板衛星現象（platelet satellitism），常為 EDTA 引起的體外假象，可造成假性血小板減少。",
+  "features": [
+    "Platelets adherent in a rosette around the circumference of a segmented neutrophil",
+    "A second neutrophil with a few platelets attached to part of its margin",
+    "Adherent platelets are small, normally granulated, and not phagocytosed",
+    "Remaining neutrophils and red cells unremarkable",
+    "Scattered free platelets in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows segmented neutrophils rimmed by adherent platelets, forming a rosette around one neutrophil and a partial rim around a second. The platelets are morphologically normal and remain on the cell surface rather than within the cytoplasm. A third neutrophil lacks platelet adherence, and red cells are unremarkable. Findings are consistent with platelet satellitism, an in vitro EDTA-dependent phenomenon that can cause spurious thrombocytopenia; a citrate-anticoagulated count is recommended.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Platelet clumping forms free-floating platelet aggregates, whereas satellitism shows platelets encircling individual neutrophils."},
+    {"dx": "Platelet phagocytosis by neutrophils", "vs": "Phagocytosed platelets lie within cytoplasmic vacuoles inside the neutrophil rather than attached to the outer membrane."},
+    {"dx": "Toxic granulation", "vs": "Toxic granules are intracytoplasmic dark granules, not discrete platelets arranged around the cell border."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

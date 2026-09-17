@@ -1,0 +1,22 @@
+{
+  "id": "3565",
+  "recognize_zh": "視野中可見一顆大小接近紅血球的巨大血小板（左側），右側中性球胞質邊緣有一塊淡藍色的 Döhle 樣包涵體，血小板整體偏少；巨大血小板加上中性球藍色包涵體是 MYH9 相關疾病（May-Hegglin anomaly）的典型組合。",
+  "features": [
+    "Giant platelet approaching red-cell size with central purple granulomere and pale hyalomere",
+    "Neutrophil with a faint pale blue, Döhle-like cytoplasmic inclusion at the cell periphery",
+    "Otherwise normally segmented neutrophil with fine granules",
+    "Few platelets overall (thrombocytopenia), with occasional normal-sized or large platelets",
+    "Normochromic red cells"
+  ],
+  "describe_en": "Peripheral blood smear shows a markedly enlarged platelet approaching the diameter of an adjacent red cell and a paucity of platelets overall. A segmented neutrophil contains a faint, pale blue, Döhle-like inclusion at the cytoplasmic periphery. Neutrophil granulation and segmentation are otherwise normal, and red cells are normochromic. The triad of macrothrombocytopenia with neutrophil Döhle-like inclusions is consistent with an MYH9-related disorder (May-Hegglin anomaly); immunofluorescence for non-muscle myosin heavy chain IIA aggregates or MYH9 sequencing confirms the diagnosis.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "ITP may show large platelets but lacks neutrophil inclusions and responds to immunosuppression, which should be avoided in MYH9-RD."},
+    {"dx": "Bernard-Soulier syndrome", "vs": "Bernard-Soulier shows giant platelets without neutrophil inclusions and has absent ristocetin-induced aggregation due to GPIb-IX-V deficiency."},
+    {"dx": "True Döhle bodies in infection or pregnancy", "vs": "Reactive Döhle bodies accompany toxic granulation and vacuolation, without giant platelets or lifelong thrombocytopenia."},
+    {"dx": "Gray platelet syndrome", "vs": "Gray platelet syndrome shows large, pale, agranular platelets without neutrophil inclusions."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

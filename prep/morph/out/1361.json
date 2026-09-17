@@ -1,0 +1,21 @@
+{
+  "id": "1361",
+  "recognize_zh": "流式細胞儀散點圖：A 圖主要族群落在 CD19+/CD5+ 象限（第 2 象限），另有 CD5+/CD19− 的正常 T 細胞；B 圖此 B 細胞族群為 CD19+/CD10−，即 CD5+、CD10− 的單株 B 細胞，典型 CLL 表型。",
+  "features": [
+    "Panel A (CD19 vs CD5): dominant population in quadrant 2, co-expressing CD19 and CD5",
+    "Panel A: separate CD5-positive, CD19-negative population in quadrant 4 representing residual T cells",
+    "CD5 intensity on the B-cell population is similar to or slightly lower than on T cells",
+    "Panel B (CD10 vs CD19): the CD19-positive population lies in quadrant 4 and is CD10-negative",
+    "No discrete CD10-positive B-cell population is present"
+  ],
+  "describe_en": "Two-parameter flow cytometry dot plots show a dominant B-cell population that co-expresses CD19 and CD5 (panel A, quadrant 2), distinct from a smaller CD5-positive, CD19-negative T-cell population (quadrant 4). In panel B, the CD19-positive B cells are CD10-negative. Light-chain restriction, CD23, CD20 and surface immunoglobulin intensity are not shown in this figure. Findings are consistent with a CD5-positive, CD10-negative B-cell lymphoproliferative disorder, most consistent with chronic lymphocytic leukemia in the appropriate context.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Also CD5+ CD10-, but is typically CD23-negative with bright CD20 and surface Ig and is cyclin D1/SOX11-positive."},
+    {"dx": "Follicular lymphoma", "vs": "B cells are CD10-positive and usually CD5-negative, unlike this population."},
+    {"dx": "Marginal zone lymphoma", "vs": "Usually CD5-negative, CD10-negative and CD23-negative with bright CD20."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

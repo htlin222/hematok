@@ -1,0 +1,22 @@
+{
+  "id": "64924",
+  "recognize_zh": "三格圖中的淋巴球都比正常小淋巴球大：A 為核凹陷的較小細胞，B 為胞質豐富、邊緣較藍並包繞紅血球的細胞，C 為核質疏鬆、胞質深藍的母細胞樣細胞，分別對應 Downey I、II、III 型反應性淋巴球，符合傳染性單核球增多症。",
+  "features": [
+    "Panel A: medium-sized lymphocyte with indented, reniform nucleus and moderate pale cytoplasm (Downey type I)",
+    "Panel B: large lymphocytes with abundant cytoplasm showing peripheral basophilia and scalloping around adjacent red cells (Downey type II)",
+    "Panel C: large blast-like lymphocyte with more open chromatin and deeply basophilic cytoplasm (Downey type III)",
+    "Heterogeneous spectrum of reactive lymphocyte morphology rather than a monotonous population",
+    "Background red cells show crenation artifact; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows lymphocytosis with a heterogeneous population of reactive (atypical) lymphocytes. Forms range from medium-sized cells with indented nuclei (type I), to large cells with abundant cytoplasm showing peripheral basophilia that indents around neighboring erythrocytes (type II), to large immunoblastic cells with more dispersed chromatin and deeply basophilic cytoplasm (type III). Red cells show crenation artifact and platelets are present. The spectrum of morphology favors a reactive process; findings are consistent with infectious mononucleosis in the appropriate clinical and serologic setting.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL shows a monotonous population of blasts with fine chromatin and scant cytoplasm, not a spectrum of reactive forms with abundant scalloping cytoplasm."},
+    {"dx": "Other viral reactive lymphocytosis (CMV, acute HIV, hepatitis)", "vs": "Morphology is indistinguishable; heterophile and EBV-specific serology or viral testing is required."},
+    {"dx": "T-cell or B-cell lymphoma in leukemic phase", "vs": "Neoplastic cells are more monomorphic with nuclear irregularity, and flow cytometry shows clonality or aberrant antigen loss."},
+    {"dx": "Monocytes", "vs": "Monocytes have folded nuclei with lacy chromatin and gray-blue vacuolated cytoplasm without the peripheral basophilia that hugs red cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman/Romanowsky",
+  "match": "consistent",
+  "high_yield": true
+}

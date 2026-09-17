@@ -1,0 +1,21 @@
+{
+  "id": "12428",
+  "recognize_zh": "抹片中大量中型母細胞，核形不規則、染色質細緻，胞質灰藍色、無顆粒，並常見偏向一側的胞質突起或尾巴（pseudopod / tail），這種「灰藍無顆粒胞質＋偽足」提示母細胞性漿細胞樣樹突細胞腫瘤（BPDCN）。",
+  "features": [
+    "Numerous medium-sized blasts with irregular, angulated to indented nuclei",
+    "Finely dispersed chromatin with inconspicuous to small nucleoli",
+    "Moderate pale gray-blue agranular cytoplasm, often eccentric with pseudopod-like tails or projections",
+    "No Auer rods or cytoplasmic granules in the blasts",
+    "Background with residual segmented neutrophils, small dark round nuclei (lymphocytes/orthochromatic normoblasts)"
+  ],
+  "describe_en": "The aspirate smear shows a cellular specimen infiltrated by numerous medium-sized blasts. The blasts have irregular to indented nuclei with fine chromatin and small nucleoli, and moderate gray-blue agranular cytoplasm frequently forming unipolar pseudopod-like projections. Auer rods and cytoplasmic granules are absent. Residual neutrophils and erythroid precursors are present. Findings are suggestive of blastic plasmacytoid dendritic cell neoplasm; confirmation requires immunophenotyping (CD4, CD56, CD123, TCF4, TCL1, CD303) with negative MPO and lineage markers.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have folded nuclei and gray-blue cytoplasm with fine granules and vacuoles and are NSE/CD14/CD64/lysozyme positive, while BPDCN is CD123/TCF4/TCL1 positive and NSE-negative."},
+    {"dx": "AML with minimal differentiation / NK-lymphoblastic leukemia", "vs": "Agranular blasts are morphologically similar, so flow cytometry is required: BPDCN is CD4+CD56+CD123 bright with CD303, lacking CD34 in most cases and myeloid markers."},
+    {"dx": "Lymphoblastic leukemia", "vs": "Lymphoblasts have scant cytoplasm without pseudopods and express TdT with B or T lineage markers, whereas BPDCN has more cytoplasm and a plasmacytoid dendritic cell phenotype."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

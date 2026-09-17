@@ -1,0 +1,23 @@
+{
+  "id": "61174",
+  "recognize_zh": "切片中細胞片狀排列，形態一致，多數細胞核圓而偏位、染色質粗塊呈車輪狀，細胞質雙染性，只有部分細胞看得到核旁淡染區（hof），偶見雙核，這些漿細胞特徵在 H&E 上提示漿細胞瘤（plasmacytoma）。",
+  "features": [
+    "Monotonous sheets of plasma cells with little intervening stroma other than thin capillaries",
+    "Round eccentric nuclei with coarse clumped chromatin in a cartwheel pattern",
+    "Moderate amphophilic cytoplasm with a perinuclear hof in a minority of cells",
+    "Occasional binucleate plasma cells",
+    "Absence of admixed small lymphocytes, neutrophils or follicular structures",
+    "Low mitotic activity; nucleoli mostly inconspicuous"
+  ],
+  "describe_en": "Tissue section shows a monotonous, diffuse proliferation of plasma cells arranged in sheets with a delicate capillary network. The cells have eccentric round nuclei with coarse cartwheel chromatin, inconspicuous nucleoli, and moderate amphophilic cytoplasm, with a perinuclear hof visible in only a subset; rare binucleate forms are present. Inflammatory cells and lymphoid follicles are not seen. Findings are consistent with plasmacytoma; confirmation of light-chain restriction by immunohistochemistry or ISH and staging for systemic plasma cell myeloma are recommended.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma (extramedullary spread)", "vs": "Morphology is identical; distinction from solitary plasmacytoma requires marrow examination, imaging and serum/urine protein studies."},
+    {"dx": "Lymphoplasmacytic or marginal zone lymphoma", "vs": "These lymphomas show a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with a CD20-positive B-cell component."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma cells are larger with open chromatin and prominent nucleoli, brisk mitoses and frequent EBV positivity."},
+    {"dx": "Rosai-Dorfman disease or chronic inflammation", "vs": "Inflammatory lesions contain polyclonal plasma cells mixed with histiocytes and lymphocytes rather than monomorphic sheets."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

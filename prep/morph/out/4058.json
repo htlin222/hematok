@@ -1,0 +1,21 @@
+{
+  "id": "4058",
+  "recognize_zh": "骨髓切片中一個緊密聚集的細胞團呈強烈棕色膜/胞質染色，周圍另有散在的梭形陽性細胞，其他造血細胞陰性；這種多灶緻密聚集型態符合系統性肥大細胞增生症的主要診斷標準（標記未標示，推測為 tryptase 或 CD117）。",
+  "features": [
+    "Dense compact aggregate of strongly immunoreactive cells (well over 15 cells)",
+    "Strong cytoplasmic/membranous brown staining with round to spindled cell shapes",
+    "Scattered individual spindle-shaped positive cells in adjacent interstitium",
+    "Surrounding hematopoietic cells and fat largely negative",
+    "Aggregate located between fat spaces at low power"
+  ],
+  "describe_en": "Immunohistochemical stain on a bone marrow biopsy (DAB; marker not specified, likely a mast cell marker such as tryptase or CD117) highlights a large, dense, compact aggregate of positive cells, with additional scattered spindle-shaped positive cells in the interstitium. The remaining hematopoietic elements are negative. A compact aggregate of more than 15 mast cells fulfills the major WHO criterion; findings are consistent with bone marrow involvement by systemic mastocytosis, with CD25/CD2 aberrancy and KIT D816V testing recommended for confirmation.",
+  "ddx": [
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are scattered singly and round, without compact aggregates of >15 cells, and are CD25-negative."},
+    {"dx": "Myelomastocytic leukemia / tryptase-positive AML", "vs": "These show increased blasts with tryptase expression but no compact spindled aggregates meeting SM criteria and lack KIT D816V typically."},
+    {"dx": "Lymphoid aggregate", "vs": "Lymphoid aggregates are tryptase/CD117-negative and CD3/CD20-positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: marker not specified (likely tryptase/CD117), DAB",
+  "match": "partial",
+  "high_yield": false
+}

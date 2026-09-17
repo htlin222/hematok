@@ -1,0 +1,22 @@
+{
+  "id": "23739",
+  "recognize_zh": "骨髓抹片中有一團緊密黏聚、細胞界線不清的大型非造血細胞團（A），切片中可見巢狀排列的上皮樣細胞與周圍造血組織分界（B），IHC 顯示腫瘤巢強陽性（C）而另一標記只染周圍造血細胞（D），代表骨髓被轉移性非造血腫瘤（癌）浸潤。",
+  "features": [
+    "Aspirate: cohesive, syncytial cluster of large cells with abundant cytoplasm and indistinct borders among hematopoietic cells (panel A)",
+    "Biopsy: discrete nests and sheets of epithelioid tumor cells sharply separated from residual hematopoietic marrow (panel B)",
+    "Tumor cells with round to oval nuclei, moderate pale cytoplasm and a nested growth pattern",
+    "IHC (red chromogen) strongly highlights tumor nests while sparing marrow cells (panel C)",
+    "A second IHC stains the residual hematopoietic cells and not the tumor nests (panel D); antibodies not labeled"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of large, non-hematopoietic cells with abundant cytoplasm and indistinct cell borders set among normal marrow elements. The trephine biopsy shows infiltration by nests and sheets of epithelioid tumor cells sharply demarcated from residual hematopoiesis. Immunohistochemistry demonstrates strong positivity of the tumor nests with one marker, while a second marker stains the surrounding hematopoietic cells and is negative in the tumor, supporting a non-hematopoietic origin (specific antibodies are not labeled). Findings are consistent with metastatic carcinoma or other non-hematopoietic malignancy involving the marrow, explaining the severe cytopenias; site of origin requires a lineage-specific IHC panel.",
+  "ddx": [
+    {"dx": "Clusters of megakaryocytes or osteoblasts/osteoclasts", "vs": "Megakaryocytes are single lobulated cells and osteoblasts are discrete cells with a perinuclear hof, whereas tumor cells form cohesive syncytial clusters and nests that are negative for hematopoietic markers."},
+    {"dx": "Acute myeloid leukemia with cohesive sheets (e.g. myeloid sarcoma)", "vs": "Leukemic blasts are discohesive and CD45/MPO/CD34 positive, unlike keratin-positive nested epithelial cells."},
+    {"dx": "Anaplastic large cell lymphoma (sinusoidal/cohesive pattern)", "vs": "ALCL cells can cluster but are CD30 and often ALK positive with CD45 expression, not epithelial markers."},
+    {"dx": "Metastatic small round blue cell tumor (neuroblastoma, rhabdomyosarcoma)", "vs": "These are smaller cells with scant cytoplasm and rosettes or myogenic markers, separated by IHC."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC (markers not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "3865",
+  "recognize_zh": "骨髓切片免疫組化（標記未標明）中，細胞豐富的背景裡只有散在的小型圓形細胞呈環狀膜/胞質棕色陽性，中央一個核較淡、細胞排列鬆散的區域（疑為肉芽腫）內外有較多陽性細胞聚集；本身無法看到組織漿菌，需配合 GMS/PAS 染色。",
+  "features": [
+    "Hypercellular marrow core with hematoxylin-counterstained negative hematopoietic cells",
+    "Scattered small round cells with crisp ring-like membranous/cytoplasmic brown positivity",
+    "Loose central zone with paler, oval epithelioid-type nuclei, suggestive of a granuloma, with a small cluster of positive cells in and around it",
+    "Marker identity not provided; organisms are not visible on this stain"
+  ],
+  "describe_en": "Immunohistochemical stain (antigen not specified) on a hypercellular bone marrow core shows scattered positive small round cells with crisp ring-like membranous staining among negative hematopoietic elements. A central, loosely arranged area of pale oval epithelioid-appearing nuclei, suggestive of a granuloma, contains a small aggregate of positive cells at its periphery and within it. Because the marker is not stated, the positive cells cannot be definitively assigned to a lineage, and fungal organisms are not assessable on this preparation. The appearance is compatible with a lymphocyte subset accompanying a marrow granuloma in disseminated histoplasmosis; GMS or PAS stains and culture are required to demonstrate Histoplasma.",
+  "ddx": [
+    {"dx": "Mycobacterial granulomas (tuberculosis, MAC)", "vs": "Mycobacterial granulomas look similar and are distinguished by acid-fast stain and culture/PCR rather than by immunophenotype of accompanying cells."},
+    {"dx": "Sarcoidosis-associated marrow granulomas", "vs": "Sarcoid granulomas are well-formed, non-necrotizing and remain negative on GMS, PAS and acid-fast stains."},
+    {"dx": "Classic Hodgkin lymphoma with granulomas", "vs": "Hodgkin involvement shows CD30+/CD15+ Hodgkin-Reed-Sternberg cells within a mixed infiltrate and often fibrosis."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: marker not specified",
+  "match": "partial",
+  "high_yield": false
+}

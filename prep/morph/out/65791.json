@@ -1,0 +1,23 @@
+{
+  "id": "65791",
+  "recognize_zh": "多格組合圖：血液與骨髓抹片中有核型摺疊的異常單核球（A–B），多顆小型、低分葉的發育不良巨核細胞（C–F），流式細胞儀顯示單核球族群中約 95.8% 為 CD14+/CD16- 古典型單核球（H），此比例超過 94% 支持 CMML。",
+  "features": [
+    "Panel A (PB): atypical monocytes with folded, lobulated nuclei, fine chromatin and grey-blue vacuolated cytoplasm",
+    "Panel B (aspirate): increased monocytic cells including immature forms with delicate chromatin and cytoplasmic vacuoles",
+    "Panels C-E (aspirate): dysplastic megakaryocytes that are small or hypolobated with abnormal chromatin",
+    "Panel F (H&E core): hypercellular marrow with atypical megakaryocytes showing hypolobated nuclei",
+    "Panel G: CD14 vs CD56 plot with a CD14-positive monocytic population, a subset showing CD56 co-expression (7.47%)",
+    "Panel H: gated monocytes show 95.79% CD16-negative/CD11c-positive classical monocytes (MO1 fraction above 94%)"
+  ],
+  "describe_en": "Composite figure. The peripheral blood (A) and bone marrow aspirate (B) show increased atypical monocytes with folded nuclei, fine chromatin and vacuolated grey-blue cytoplasm. Megakaryocytes in the aspirate (C-E) and core biopsy (F) are dysplastic, including small, hypolobated forms with abnormal chromatin, in a hypercellular marrow. Flow cytometry shows a CD14-positive monocytic population with partial CD56 co-expression (G) and a classical monocyte (CD14+/CD16-) fraction of 95.8% (H), exceeding the 94% threshold. Together with persistent absolute monocytosis, findings are consistent with chronic myelomonocytic leukemia.",
+  "ddx": [
+    {"dx": "Reactive monocytosis (infection, inflammation, recovery)", "vs": "Reactive monocytosis lacks megakaryocytic dysplasia and shows an expanded CD16+ intermediate/non-classical fraction, so MO1 is usually below 94%."},
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "CML shows a myelocyte peak with basophilia and small hypolobated 'dwarf' megakaryocytes but no dominant monocytosis, and carries BCR::ABL1."},
+    {"dx": "Acute myelomonocytic or monocytic leukemia", "vs": "AML requires 20% or more blasts plus promonocytes, whereas the monocytes here are predominantly mature-appearing."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS can show similar megakaryocytic dysplasia but lacks a sustained absolute monocyte count of 0.5 x 10^9/L or more comprising at least 10% of leukocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; flow cytometry",
+  "match": "consistent",
+  "high_yield": true
+}

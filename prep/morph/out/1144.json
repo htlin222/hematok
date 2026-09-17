@@ -1,0 +1,21 @@
+{
+  "id": "1144",
+  "recognize_zh": "周邊血液中一顆母細胞，核染色質細緻，核的一側有凹陷（箭頭），凹陷處對應一塊淡染的細胞質，形成像被拇指壓過的「杯狀」核（cup-like/thumbprint），常見於NPM1突變AML。",
+  "features": [
+    "Blast about 2-3 times red cell diameter with fine, open chromatin",
+    "Nuclear invagination along one margin (arrow) producing a cup-like/thumbprint indentation",
+    "Pale cytoplasmic zone filling the nuclear indentation",
+    "Moderate rim of blue-grey cytoplasm without visible Auer rods",
+    "Adjacent monocytoid cell with folded nucleus and vacuolated cytoplasm; background red cells unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows a blast with fine chromatin, a moderate rim of blue-grey cytoplasm, and a prominent nuclear invagination (arrow) filled by pale cytoplasm, giving a cup-like or thumbprint appearance. No Auer rods are seen. A monocytoid cell with a folded nucleus and a lymphocyte are also present. Cup-like blasts are a morphologic clue to AML, particularly with NPM1 and/or FLT3-ITD mutations; molecular testing is recommended.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia (microgranular)", "vs": "Microgranular APL cells have bilobed, butterfly-shaped nuclei with fine granules and Auer rods, and are CD34/HLA-DR negative with PML::RARA."},
+    {"dx": "Monoblasts/promonocytes", "vs": "Promonocytes have delicately folded or convoluted nuclei with grey vacuolated cytoplasm rather than a single sharp invagination with a pale zone."},
+    {"dx": "Cleaved lymphoma cells or reactive lymphocyte", "vs": "Lymphoid cells show condensed chromatin with a narrow cleft and no pale cytoplasmic pocket, and are MPO negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

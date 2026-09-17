@@ -1,0 +1,34 @@
+{
+  "id": "89",
+  "recognize_zh": "扁桃腺淋巴組織呈多形性（polymorphous）浸潤：小淋巴球、漿細胞、組織球中夾雜散在的大型免疫母細胞（immunoblast），偶見類 Reed-Sternberg 細胞；EBER 原位雜交顯示大小不一的散在陽性細胞，但沒有成片的單一大型 B 細胞，因此判讀為年長者的 EBV 再活化。",
+  "features": [
+    "Tonsillar tissue with overlying squamous epithelium and a mottled, expanded interfollicular/paracortical lymphoid proliferation",
+    "Polymorphous infiltrate of small lymphocytes, plasma cells, histiocytes and scattered large immunoblasts with vesicular nuclei and prominent nucleoli",
+    "Occasional binucleate or multilobated Reed-Sternberg-like large cells, not forming sheets",
+    "IHC: abundant T cells in the background with scattered large cells positive for a membranous marker, and a residual follicle",
+    "EBER ISH: numerous scattered nuclear-positive cells ranging from small lymphocytes to large immunoblasts, without confluent sheets"
+  ],
+  "describe_en": "Tonsillar biopsy shows surface squamous mucosa overlying a mottled lymphoid proliferation with interfollicular expansion; the low-power image is of limited resolution. At high power the infiltrate is polymorphous, composed of small lymphocytes, plasma cells, histiocytes and scattered large immunoblasts with vesicular chromatin and prominent nucleoli, including occasional binucleate Reed-Sternberg-like forms; sheets of monomorphic large cells are not identified. Immunohistochemistry shows an abundant background T-cell population with scattered large cells highlighted by membranous staining and preserved follicular structures (marker labels are not provided in the images). EBER in situ hybridization shows numerous scattered positive cells of variable size, both small and large. In the absence of sheets of large B cells or systemic disease, findings are consistent with a polymorphous EBV-positive reactive lymphoid proliferation (EBV reactivation) in an older adult.",
+  "ddx": [
+    {"dx": "EBV-positive diffuse large B-cell lymphoma, NOS", "vs": "EBV+ DLBCL shows confluent sheets of monomorphic or polymorphic large EBER+ B cells effacing architecture, whereas here the large EBER+ cells are scattered in a polymorphous background with preserved follicles."},
+    {"dx": "Classic Hodgkin lymphoma (mixed cellularity)", "vs": "True HRS cells in CHL are CD30+ CD15+ with weak PAX5 and loss of CD20/CD45, and EBER is confined to HRS cells, whereas here Reed-Sternberg-like cells are B-immunoblasts retaining CD20/CD45 and EBER labels many small and large cells."},
+    {"dx": "Infectious mononucleosis", "vs": "IM shows the same polymorphous immunoblastic pattern but occurs in young patients with fever, pharyngitis, lymphocytosis and positive heterophile/primary EBV serology, unlike this afebrile older adult with a normal CBC."},
+    {"dx": "EBV-positive mucocutaneous ulcer", "vs": "EBVMCU forms a sharply circumscribed ulcer with a polymorphous infiltrate and a rim of T cells in an immunosuppressed or elderly patient; the absence of ulceration favors reactivation-type hyperplasia."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (lymphoid markers, not labeled); ISH: EBER",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "H&E, low power (limited resolution): tonsil with squamous mucosa and mottled lymphoid expansion",
+    "H&E, high power: polymorphous infiltrate with scattered immunoblasts, plasma cells and histiocytes",
+    "H&E, high power: large immunoblasts including a Reed-Sternberg-like multilobated cell",
+    "IHC (marker not labeled): scattered large cells with strong membranous staining",
+    "IHC (T-cell-type marker, not labeled): abundant positive background T cells",
+    "IHC (T-cell-type marker, not labeled): positive interfollicular cells surrounding a less-stained follicle",
+    "IHC (marker not labeled): scattered positive medium to large cells with weak background staining",
+    "IHC (marker not labeled): numerous scattered positive cells in a mixed infiltrate",
+    "EBER ISH, medium power: many scattered nuclear-positive cells",
+    "EBER ISH, high power: positive nuclei in both small lymphocytes and large immunoblasts"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64536",
+  "recognize_zh": "原始細胞中大、細胞質淡藍，核有明顯凹陷、折疊呈杯口狀（cup-like）或不規則形，部分細胞質有小空泡；流式 HLA-DR 幾乎全陰性、CD45 弱陽性，HLA-DR 陰性不只見於 APL，也可見於 NPM1 突變 AML。",
+  "features": [
+    "Medium to large blasts with moderate pale to deep blue agranular cytoplasm",
+    "Irregular nuclei with prominent folds, clefts, and cup-like invaginations",
+    "Finely dispersed chromatin; nucleoli not conspicuous",
+    "Occasional small cytoplasmic vacuoles; no Auer rods or heavy granulation seen",
+    "Flow: blast gate on low side scatter (91.5%); HLA-DR essentially negative (0.1%); CD45 uniformly dim-positive (99.9%)",
+    "Flow: CD34 histogram shows a broad peak with a gated fraction labeled 93.2%; positivity threshold is not clear from the plot"
+  ],
+  "describe_en": "Smear panels show a population of medium to large blasts with moderate agranular blue cytoplasm, finely dispersed chromatin, and irregular nuclei with folds and cup-like invaginations; occasional cytoplasmic vacuoles are present and no Auer rods are identified. Flow cytometric histograms show a low side scatter blast population that is HLA-DR negative and dim CD45 positive, with a CD34 histogram whose positivity cannot be judged reliably without the gate threshold. The morphology is not that of hypergranular promyelocytes. Findings are consistent with HLA-DR-negative acute myeloid leukemia, which in this case represents AML with NPM1 mutation, confirmed by molecular testing.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL also shows HLA-DR negativity and folded bilobed nuclei but typically has strong MPO, faggot cells, CD34/CD2 patterns, coagulopathy, and PML::RARA, so genetic testing is required."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have abundant grey-blue cytoplasm with fine granules and vacuoles, are usually HLA-DR positive, and express CD14/CD64/CD11b."},
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "Lymphoblasts have scant cytoplasm and express TdT with B (CD19, CD79a) or T (cCD3) lineage markers rather than myeloid antigens."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

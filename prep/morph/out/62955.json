@@ -1,0 +1,21 @@
+{
+  "id": "62955",
+  "recognize_zh": "Ki-67 免疫染色下，淋巴瘤細胞區約有 30–40% 核呈不同強度的陽性，中央一條由小血管與梭形間質細胞構成的區域幾乎陰性；這種中等增生指數是評估被套細胞淋巴瘤預後（>30% 為高風險）時要看的重點。",
+  "features": [
+    "Nuclear Ki-67 positivity in a substantial subset of lymphoma cells (roughly 30-40% by visual estimate)",
+    "Heterogeneous staining intensity, from strong to weak nuclear staining",
+    "Positive cells distributed diffusely within the neoplastic lymphoid areas",
+    "Central band of largely negative spindle stromal cells around a small vessel",
+    "Background tumor cells small to medium-sized with round nuclei"
+  ],
+  "describe_en": "Ki-67 immunostain shows nuclear positivity in a substantial subset of the lymphoma cells, estimated visually at approximately 30-40%, with variable staining intensity. Positive cells are distributed throughout the lymphoid sheets, whereas a central band of spindle stromal cells around a small vessel is largely negative. The proliferation index is moderately elevated; in mantle cell lymphoma a Ki-67 of 30% or more is an adverse prognostic factor, so a formal count in hot spots is recommended.",
+  "ddx": [
+    {"dx": "Blastoid/pleomorphic mantle cell lymphoma", "vs": "Blastoid variants usually have Ki-67 well above 50% with large or blast-like cells, higher than seen here."},
+    {"dx": "Leukemic non-nodal or indolent MCL", "vs": "Indolent MCL typically has Ki-67 below 10%, lower than this field."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers show zonal, polarized Ki-67 (>90% in dark zone) confined to follicles, unlike this diffuse distribution."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

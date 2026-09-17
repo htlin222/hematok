@@ -1,0 +1,22 @@
+{
+  "id": "62741",
+  "recognize_zh": "周邊血液中出現大小接近淋巴球或單核球的小型巨核細胞（micromegakaryocyte），核為單葉或雙葉、染色質緻密，胞質外緣有泡狀突起與血小板出芽（B、C），部分細胞核有小突出物（nuclear protrusion，B、D、E），屬 MDS 的巨核細胞發育不良表現。",
+  "features": [
+    "Small megakaryocytes (micromegakaryocytes) approximating the size of a lymphocyte to a monocyte",
+    "Round to bilobed nuclei with dense, clumped chromatin and no visible nucleoli",
+    "Small knob-like nuclear protrusions/blebs budding from the nuclear contour (B, D, E)",
+    "Scant pale-to-granular cytoplasm with irregular blebs and platelet-like budding at the periphery",
+    "Circulating dysplastic cells amid neutrophils and red cells with mild anisocytosis (A)"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating micromegakaryocytes, small cells approximately the size of a lymphocyte or monocyte with round or bilobed nuclei, dense chromatin and scant cytoplasm bearing irregular blebs and platelet budding. Several nuclei show small knob-like nuclear protrusions extending from an otherwise smooth contour. Neutrophils are present in the background. Findings represent dysmegakaryopoiesis and are suggestive of a myelodysplastic syndrome in the appropriate clinical and marrow context.",
+  "ddx": [
+    {"dx": "Lymphocytes or monocytes with platelet satellitism/overlap", "vs": "Adherent platelets sit on the cell surface as discrete granules, whereas micromegakaryocytes show platelet budding continuous with their own granular cytoplasm and are CD61/CD42b positive."},
+    {"dx": "Megakaryoblasts (acute megakaryoblastic leukemia)", "vs": "Megakaryoblasts have fine chromatin with nucleoli and agranular blebbing cytoplasm, whereas micromegakaryocytes have mature, dense chromatin."},
+    {"dx": "Circulating megakaryocyte nuclei in myelofibrosis", "vs": "In PMF, naked or bare megakaryocyte nuclei with little cytoplasm circulate along with teardrop cells and leukoerythroblastosis, rather than small intact cells with granular budding cytoplasm."},
+    {"dx": "Hypolobated megakaryocytes of 5q- syndrome", "vs": "5q- megakaryocytes are normal-to-small sized with round non-lobated nuclei in the marrow, and diagnosis rests on del(5q) cytogenetics."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

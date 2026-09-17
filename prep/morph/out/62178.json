@@ -1,0 +1,20 @@
+{
+  "id": "62178",
+  "recognize_zh": "流式細胞儀 CD4 對 CD14 點圖中，右上閘門為 CD4 弱陽性且 CD14 明亮的細胞（標示 19.62%，作者稱為晚期前單核球），右下另有一大群 CD4 陽性但 CD14 陰性的族群，代表較不成熟的單核球系細胞，呈現單核球分化的連續光譜。",
+  "features": [
+    "Flow cytometry dot plot of CD4 (x-axis) versus CD14 (y-axis), both log scale, singlet-gated",
+    "Upper gate labeled 'Promonocytes: 19.62%' containing CD4 dim-to-moderate, CD14 bright cells",
+    "Large CD4-positive, CD14-negative population in the lower right quadrant",
+    "Intermediate CD14 partially positive population bridging the two (maturation continuum)",
+    "CD4-negative, CD14-negative events in the lower left (lymphocytes/other cells)"
+  ],
+  "describe_en": "Flow cytometric dot plot of peripheral blood singlets displays CD4 versus CD14. A gated population comprising 19.62% of events shows dim to moderate CD4 with bright CD14, labeled by the submitter as late promonocytes. A larger CD4-positive, CD14-negative population is present in the lower right, with intermediate CD14 expression bridging the two groups, consistent with a spectrum of monocytic maturation. Note that bright CD14 is usually a feature of mature monocytes, so the promonocyte versus monocyte distinction must be made morphologically, while CD4+ CD14− cells may represent monoblasts/promonocytes or T cells requiring CD3 and CD64 for separation. In context, the findings support acute monocytic leukemia.",
+  "ddx": [
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows mostly mature CD14+ monocytes with an increased classical (CD14+/CD16−) fraction and <20% blasts plus promonocytes by morphology, whereas acute monocytic leukemia has ≥20% monoblasts/promonocytes."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes have a normal maturation pattern and normal CD14/CD16 subset distribution without aberrant antigen expression or increased immature monocytic cells."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

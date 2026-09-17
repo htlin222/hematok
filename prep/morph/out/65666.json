@@ -1,0 +1,22 @@
+{
+  "id": "65666",
+  "recognize_zh": "CSF 細胞離心抹片在低倍（1a）呈高度細胞性；高倍（1b–1f）可見大量含粗大深紫黑色顆粒、常遮蓋細胞核的嗜鹼性球，與核質比高、細緻染色質、淡藍色細胞質的大型母細胞混雜，在 CML 病人身上提示中樞神經的髓性急性轉變合併嗜鹼性球增生。",
+  "features": [
+    "Panel 1a (low power): markedly cellular CSF cytospin with innumerable nucleated cells",
+    "Numerous basophils with coarse, dark purple-black granules that overlie and obscure the nucleus, some degranulating",
+    "Large blasts with high N:C ratio, round to indented nuclei, fine open chromatin and occasional nucleoli (panels 1c, 1e, 1f)",
+    "Blast cytoplasm is pale to moderately basophilic, some containing a few coarse basophilic granules",
+    "Occasional cells with reddish-purple granules and intermediate maturation (basophilic precursors)"
+  ],
+  "describe_en": "CSF cytospin preparation is markedly hypercellular at low power. At high power, the cellular population consists of numerous basophils with coarse, dark metachromatic-appearing granules that obscure nuclear detail, admixed with large blasts showing high nuclear-to-cytoplasmic ratio, fine chromatin, occasional nucleoli and pale basophilic cytoplasm, some with sparse coarse granules. No normal CSF lymphocyte/monocyte background predominates. In a patient with CML, the findings are consistent with CNS involvement by myeloid blast phase with prominent basophilic differentiation.",
+  "ddx": [
+    {"dx": "Mast cell leukemia / mast cells", "vs": "Mast cells have a round central non-lobed nucleus with evenly distributed granules and are tryptase/CD117 bright and CD123 weak, whereas basophils have lobulated nuclei obscured by coarse granules and are CD123+/CD203c+/HLA-DR−."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL promyelocytes have azurophilic reddish granules with Auer rod bundles and bilobed nuclei, not dark metachromatic basophilic granules."},
+    {"dx": "Blood contamination (traumatic tap) in CML chronic phase", "vs": "A traumatic tap would show numerous RBCs and a mixed granulocytic spectrum mirroring blood, rather than a hypercellular population dominated by blasts and basophils."},
+    {"dx": "Acute basophilic leukemia (de novo)", "vs": "Morphologically identical; distinction depends on prior CML history and BCR::ABL1 detection."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa (Romanowsky)",
+  "match": "consistent",
+  "high_yield": false
+}

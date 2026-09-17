@@ -1,0 +1,23 @@
+{
+  "id": "13809",
+  "recognize_zh": "A 圖骨髓切片中造血細胞幾乎消失，脂肪細胞大小不一且萎縮，周圍被淡紫色、無結構的膠狀基質包圍；B 圖此基質 Alcian blue 呈藍色陽性，C 圖另一特殊染色基質不著色，符合骨髓膠狀轉化（gelatinous transformation / serous fat atrophy）。",
+  "features": [
+    "Marked hypocellularity with near-total loss of hematopoietic elements",
+    "Fat cells of variable, often small size (fat atrophy) separated by amorphous pale lilac extracellular material",
+    "Extracellular matrix is Alcian blue positive (panel B), consistent with acid mucopolysaccharide (hyaluronic acid)",
+    "Panel C special stain shows no staining of the matrix, only scattered red blood cells",
+    "No infiltrating tumor cells or granulomas identified at this magnification"
+  ],
+  "describe_en": "Bone marrow core biopsy (A, H&E) is markedly hypocellular, with near-complete loss of hematopoietic cells and replacement of the marrow space by atrophic fat cells of variable size embedded in an amorphous, faintly basophilic extracellular ground substance; a bony trabecula and a small hemorrhagic focus are present. The ground substance stains blue with Alcian blue (B), consistent with acid mucopolysaccharide, and does not stain with the additional special stain shown (C), which highlights only scattered red cells. No metastatic tumor cells are identified in these fields. Findings are consistent with gelatinous transformation (serous atrophy) of the bone marrow, typically associated with cachexia, severe weight loss, anorexia nervosa, chronic illness or malignancy; the clinical context of weight loss and night sweats warrants a search for an underlying disease.",
+  "ddx": [
+    {"dx": "Amyloidosis involving marrow", "vs": "Amyloid is eosinophilic, often perivascular, and Congo red-positive with apple-green birefringence, whereas gelatinous material is Alcian blue-positive and Congo red-negative."},
+    {"dx": "Marrow edema / stromal damage after chemotherapy", "vs": "Post-therapy edema is eosinophilic, proteinaceous and Alcian blue-negative, with dilated sinusoids rather than acid mucopolysaccharide deposits."},
+    {"dx": "Metastatic mucinous adenocarcinoma", "vs": "Carcinoma produces mucin that is mucicarmine/PAS-positive and contains cytokeratin-positive epithelial cells, which are absent here."},
+    {"dx": "Aplastic anemia", "vs": "Aplastic anemia shows hypocellular marrow replaced by normal-appearing mature fat without extracellular gelatinous ground substance or fat atrophy."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E (A); Alcian blue (B); special stain (C)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": ["A: H&E showing hypocellular marrow with fat atrophy and gelatinous ground substance", "B: Alcian blue-positive extracellular matrix", "C: Additional special stain with non-staining matrix"]
+}

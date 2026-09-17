@@ -1,0 +1,21 @@
+{
+  "id": "61606",
+  "recognize_zh": "MUM1 染色下幾乎所有腫瘤細胞核呈強而一致的棕色核染色（伴隨淡淡細胞質暈染），只有零星小的背景細胞為陰性；大量 MUM1/IRF4 陽性代表漿細胞分化程式，符合漿母細胞淋巴瘤。",
+  "features": [
+    "Strong diffuse nuclear MUM1/IRF4 staining in nearly all tumor cells",
+    "Some cytoplasmic blush accompanying the nuclear staining",
+    "Tumor cells large with round nuclei, densely packed in sheets",
+    "Few scattered negative small cells (stromal/endothelial, reactive) as internal negative control"
+  ],
+  "describe_en": "MUM1/IRF4 immunostain shows strong, diffuse nuclear positivity in virtually all neoplastic cells, with a light cytoplasmic blush. Rare interspersed small stromal and endothelial nuclei are negative. Diffuse MUM1 expression indicates a late B-cell/plasma cell differentiation program. In a CD20-negative, EBER-positive large cell neoplasm, this supports EBV-positive plasmablastic lymphoma.",
+  "ddx": [
+    {"dx": "DLBCL, activated B-cell type", "vs": "ABC-type DLBCL is also MUM1 positive but retains CD20/PAX5 and lacks CD138 and diffuse EBER."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma is diffusely MUM1 positive too, and is separated by clinical/serologic context, lower Ki-67 and usual EBER negativity."},
+    {"dx": "Primary effusion lymphoma", "vs": "PEL shares MUM1/CD138 expression but is HHV8 (LANA) positive."},
+    {"dx": "Melanoma", "vs": "Melanoma can be MUM1 positive, which is excluded by S100/SOX10/HMB45 positivity and CD138/EBER negativity."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: MUM1/IRF4",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "66406",
+  "recognize_zh": "白血球細胞質內塞滿約 6–7 顆大小一致的小橢圓形酵母體，每顆都有一圈透明暈（假莢膜）和偏一側的藍紫色新月形染色；細胞內小酵母加透明暈是組織漿菌（Histoplasma）的典型外觀。旁邊另一顆單核球則沒有吞入菌體。",
+  "features": [
+    "Leukocyte with cytoplasm distended by about 6-7 uniform oval intracellular yeast forms, each roughly 2-4 um",
+    "Each organism has a clear surrounding halo (pseudocapsule) with a basophilic crescent or dot of stained cytoplasm",
+    "The host cell nucleus is dense and irregularly lobated, compressed to one side by the organisms",
+    "Adjacent monocyte with folded nucleus, lacy chromatin, and grey vacuolated cytoplasm contains no organisms",
+    "No kinetoplast is visible in the organisms; background red cells and a single platelet are unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows two adjacent leukocytes. The upper cell has a dense, irregularly lobated nucleus pushed aside by approximately six to seven small, uniform oval organisms, each with a clear halo and a basophilic crescent of stained cytoplasm; no kinetoplast is identified. The lower cell is a monocyte with a folded nucleus and grey, finely vacuolated cytoplasm without organisms. The dense lobated nucleus of the infected cell could represent a neutrophil rather than a monocyte, although distortion by the organisms limits lineage assignment. Findings are suggestive of circulating intracellular Histoplasma capsulatum yeasts, consistent with disseminated histoplasmosis; confirmation by culture, antigen testing, or GMS/PAS stains is recommended.",
+  "ddx": [
+    {"dx": "Leishmania donovani (amastigotes)", "vs": "Leishmania amastigotes contain a bar-shaped kinetoplast next to the nucleus and lack the clear pseudocapsular halo seen around these yeasts."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts are slightly elongated and divide by a transverse septum rather than budding, and are often extracellular; travel to Southeast Asia is typical."},
+    {"dx": "Candida species (phagocytosed yeast)", "vs": "Candida is larger (3-6 um), often shows pseudohyphae, and stains more uniformly without a halo."},
+    {"dx": "Toxoplasma gondii tachyzoites", "vs": "Toxoplasma tachyzoites are crescent- or banana-shaped with a central nucleus and no surrounding halo."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

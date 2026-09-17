@@ -1,0 +1,22 @@
+{
+  "id": "65384",
+  "recognize_zh": "這是以流式細胞圖為主的組合圖：A、B 為中型、高核質比、染色質細緻的母細胞；C–E 顯示 CD45 陰性、CD19+CD10+CD34+CD20+ 的 B 淋巴母細胞群；F 為 CRLF2 高表現，G 顯示未刺激狀態下 pSTAT5 已升高而 pSTAT3（H）不升高，與 T 細胞對照（K–N）比較，支持 CRLF2 重組 B-ALL 的 STAT5 持續活化。",
+  "features": [
+    "Panels A–B: medium-sized blasts with high N:C ratio, round nuclei, finely dispersed chromatin, and scant agranular basophilic cytoplasm",
+    "Panel C: CD45-negative/low, low side-scatter blast population separate from granulocytes, monocytes and lymphocytes",
+    "Panels D–E: blasts are uniformly CD19+CD10+ with CD34 and CD20 expression",
+    "Panel F: bright CRLF2 (TSLP-R) expression on leukemic blasts compared with residual normal lymphocytes",
+    "Panels G–J: unstimulated blasts show a right-shifted pSTAT5 peak but not pSTAT3, while stimulated pSTAT3/pSTAT5 responses remain inducible",
+    "Panels K–N: normal T cells show low basal pSTAT3/pSTAT5 with increases only after cytokine stimulation"
+  ],
+  "describe_en": "Composite figure. Peripheral blood and bone marrow aspirate smears show medium-sized blasts with high nuclear-to-cytoplasmic ratio, fine chromatin, and scant agranular cytoplasm. Flow cytometry identifies a CD45-negative, low side-scatter population expressing CD19, CD10, CD34 and CD20, consistent with B-lymphoblastic leukemia. Leukemic blasts show bright CRLF2 surface expression, and phospho-flow demonstrates increased basal pSTAT5 without basal pSTAT3 activation, in contrast to internal T-cell controls that phosphorylate STAT3 and STAT5 only after IL-6 or IL-2 stimulation. Findings are consistent with B-ALL with CRLF2 overexpression and constitutive JAK-STAT5 signaling, as seen with P2RY8::CRLF2 fusion (Ph-like B-ALL).",
+  "ddx": [
+    {"dx": "B-ALL with BCR::ABL1", "vs": "Ph-positive B-ALL is identified by t(9;22) or BCR::ABL1 by FISH/RT-PCR, whereas CRLF2-rearranged Ph-like B-ALL lacks BCR::ABL1 and shows bright surface CRLF2."},
+    {"dx": "B-ALL with IGH::CRLF2", "vs": "Flow cannot separate CRLF2 fusion partners; FISH distinguishes P2RY8::CRLF2 (PAR1 deletion) from IGH::CRLF2 translocation."},
+    {"dx": "Hematogones", "vs": "Hematogones show a maturing continuum of CD34, CD10, CD20 and CD45 expression without aberrant uniform CRLF2 overexpression."}
+  ],
+  "specimen": "flow",
+  "stain": "Wright; flow cytometry / phospho-flow",
+  "match": "non-morphologic",
+  "high_yield": false
+}

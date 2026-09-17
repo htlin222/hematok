@@ -1,0 +1,21 @@
+{
+  "id": "10062",
+  "recognize_zh": "這是非形態學圖表：鹼性膠在 C 與 S 位置各有一條帶、酸性膠也分出 C 與 S，HPLC 在 S 與 C 窗口各有一個大峰且無 HbA，即為 HbSC；SS 病只見 S 峰且 HbF 峰明顯升高。",
+  "features": [
+    "Alkaline (cellulose acetate) gel lanes labeled C, S, F, A; patient 1 shows bands at the C (A2/E/O co-migration) and S (D/G co-migration) positions with no A",
+    "Acid (citrate agar) gel resolves true HbC from HbE/O and true HbS from HbD/G; patient 1 shows C and S, patient 2 shows S only",
+    "HPLC patient 1 (SC disease): two dominant peaks in the S window (~4.5 min) and C window (~5.1 min), small F and A2 peaks, no HbA",
+    "HPLC patient 2 (SS disease): single dominant S peak with a prominent HbF peak (~1.1 min) and A2, no HbA or HbC"
+  ],
+  "describe_en": "This figure is a non-morphologic laboratory panel comparing alkaline and acid gel electrophoresis with cation-exchange HPLC. For patient 1, both gels show hemoglobins migrating at the C and S positions with absent HbA, and HPLC shows approximately equal peaks in the S and C retention windows, consistent with compound heterozygous hemoglobin SC disease. For patient 2, only an S band is present on both gels, and HPLC shows a dominant HbS peak with a relatively increased HbF peak and no HbA, consistent with homozygous sickle cell (SS) disease. The acid gel is needed to confirm that the alkaline-gel bands represent true HbS and HbC rather than co-migrating HbD/G or HbE/O.",
+  "ddx": [
+    {"dx": "HbS/beta0-thalassemia", "vs": "Electrophoresis mimics SS, but HbA2 is increased (>3.5%) with microcytosis and splenomegaly, and family studies or beta-globin sequencing separate it from SS."},
+    {"dx": "HbSD-Punjab or HbSG", "vs": "HbD and HbG co-migrate with S on alkaline gel but move with A on acid gel and have distinct HPLC retention times."},
+    {"dx": "HbS/O-Arab or HbSE", "vs": "HbO and HbE co-migrate with C on alkaline gel, but on acid gel they do not migrate at the C position, and HPLC retention differs (E in the A2 window)."},
+    {"dx": "Sickle cell trait (HbAS)", "vs": "Trait shows an HbA band/peak exceeding HbS (A > S), unlike the absent HbA in SC and SS disease."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

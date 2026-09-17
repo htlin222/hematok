@@ -1,0 +1,22 @@
+{
+  "id": "61136",
+  "recognize_zh": "九格合成圖：H&E 為瀰漫、單一的小至中型不規則核淋巴細胞；腫瘤細胞 CD20+、CD5+，且 CD3 大量陽性、CD3/CD20 雙染共表現，CD2 僅少數陽性；SOX11 核陽性但 cyclin D1 陰性（僅散在內部對照），即 cyclin D1 陰性、帶異常 CD3 的被套細胞淋巴瘤。",
+  "features": [
+    "Panel A-B (H&E): effaced lymph node with a diffuse, monotonous infiltrate of small to medium lymphoid cells with irregular, angulated nuclei and scant cytoplasm",
+    "Panel C-D: tumor cells diffusely positive for CD20 and CD5",
+    "Panel E-F: extensive CD3 staining, with CD3/CD20 double stain showing coexpression on the same neoplastic cells",
+    "Panel G: CD2 marks only scattered reactive T cells, supporting aberrant isolated CD3 expression",
+    "Panel H-I: diffuse nuclear SOX11 positivity; cyclin D1 negative in tumor cells with scattered positive internal control cells"
+  ],
+  "describe_en": "Composite figure of a lymph node biopsy. H&E sections show architectural effacement by a diffuse, monotonous population of small to medium lymphoid cells with irregular nuclear contours and scant cytoplasm. Immunostains show the neoplastic cells to be CD20-positive and CD5-positive with aberrant CD3 expression, confirmed by CD3/CD20 double staining, while CD2 highlights only scattered background T cells. Tumor nuclei are SOX11-positive and cyclin D1-negative, with appropriate internal control staining. Findings are consistent with cyclin D1-negative mantle cell lymphoma with aberrant CD3 expression; CCND2/CCND3 rearrangement studies may provide further support.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL has round nuclei with proliferation centers and is CD23/LEF1-positive and SOX11-negative."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL lacks CD20 coexpression and shows loss of other pan-T antigens with T-cell receptor clonality rather than B-cell clonality."},
+    {"dx": "Cyclin D1-positive (classic) mantle cell lymphoma", "vs": "Classic MCL shows nuclear cyclin D1 and t(11;14) CCND1 rearrangement, both absent here."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL cells have more cytoplasm, monocytoid or plasmacytoid features and are usually CD5-negative and SOX11-negative."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD20, CD5, CD3, CD2, SOX11, cyclin D1",
+  "match": "consistent",
+  "high_yield": false
+}

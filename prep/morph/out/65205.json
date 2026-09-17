@@ -1,0 +1,23 @@
+{
+  "id": "65205",
+  "recognize_zh": "臨床照片可見瀰漫性紅疹（DRESS）；淋巴結副皮質區明顯擴張，高倍可見大型單核細胞帶有核內與細胞質包涵體，HHV-6 染色呈顆粒狀陽性，ICOS 標記副皮質 T 細胞、CD20 陽性 B 細胞被推擠到外皮質，屬於模仿淋巴瘤的病毒性淋巴結炎。",
+  "features": [
+    "Lymph node with marked paracortical expansion and compression of residual follicles toward the capsule at low power (B)",
+    "Polymorphous paracortex with many large mononuclear cells bearing eosinophilic nuclear and cytoplasmic inclusions among small lymphocytes and plasmacytoid cells (C)",
+    "HHV-6 immunostain decorates scattered large cells with membranous and dot-like Golgi/cytoplasmic positivity (D)",
+    "ICOS positivity in the expanded paracortical T-cell population including infected cells (E)",
+    "CD20-positive B cells restricted to a thin rim of the far cortex (F)",
+    "Clinical photo of a confluent erythematous morbilliform rash on the extremity (A)"
+  ],
+  "describe_en": "The lymph node shows distorted architecture with marked paracortical expansion, while B cells highlighted by CD20 are largely confined to the far cortex. The expanded paracortex contains a polymorphous infiltrate of small lymphocytes, immunoblasts and scattered large mononuclear cells with conspicuous nuclear and cytoplasmic inclusions. The large cells are immunoreactive for HHV-6 with membrane and Golgi-type positivity, and the paracortical T cells express ICOS. In the setting of a diffuse drug rash with eosinophilia, findings are consistent with HHV-6 lymphadenitis associated with DRESS syndrome; clonality studies (negative TCR gamma PCR) help exclude a T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Angioimmunoblastic T-cell lymphoma (nodal TFH lymphoma)", "vs": "AITL also expresses TFH markers such as ICOS but shows clear-cell TFH clusters, arborizing HEVs, expanded CD21+ FDC meshworks and clonal TCR rearrangement, without HHV-6+ inclusion-bearing cells."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL shows cytologically atypical T cells with aberrant antigen loss and clonal TCR, rather than viral inclusions with a reactive, polyclonal background."},
+    {"dx": "Dermatopathic lymphadenopathy", "vs": "Paracortical expansion is due to pale Langerhans/interdigitating cells with melanin-laden macrophages, not large cells with viral inclusions."},
+    {"dx": "EBV infectious mononucleosis lymphadenitis", "vs": "Paracortical immunoblasts are EBER-positive and lack HHV-6 immunoreactivity and nuclear inclusions."}
+  ],
+  "specimen": "LN",
+  "stain": "Clinical photo; H&E; IHC: HHV-6, ICOS, CD20",
+  "match": "consistent",
+  "high_yield": false
+}

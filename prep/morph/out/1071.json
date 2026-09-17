@@ -1,0 +1,20 @@
+{
+  "id": "1071",
+  "recognize_zh": "中央的分節中性球細胞質佈滿粗大紫紅色毒性顆粒，細胞質右下緣有一塊淡藍色、邊界不清的斑塊，即 Döhle 小體。",
+  "features": [
+    "Segmented neutrophil with coarse, dark purple cytoplasmic granules (toxic granulation)",
+    "Pale blue, irregular peripheral cytoplasmic inclusion at the lower right margin (Döhle body)",
+    "Nuclear lobes with condensed chromatin",
+    "Background echinocytes/crenated red cells and a polychromatophilic red cell"
+  ],
+  "describe_en": "Peripheral blood smear at high magnification shows a segmented neutrophil with coarse, dark cytoplasmic granulation and a pale blue, ill-defined inclusion at the periphery of the cytoplasm, consistent with a Döhle body. Background red cells include occasional crenated cells and a polychromatophilic cell. Findings are consistent with toxic changes in neutrophils (toxic granulation and Döhle bodies), as seen in sepsis, inflammation, burns, pregnancy or G-CSF therapy.",
+  "ddx": [
+    {"dx": "May-Hegglin anomaly (MYH9-related disorder)", "vs": "MYH9 inclusions are larger, spindle-shaped and more sharply outlined, present in most neutrophils without toxic granulation, with giant platelets."},
+    {"dx": "Anaplasma (ehrlichial) morula", "vs": "Morulae are dark purple, stippled, berry-like clusters within neutrophil cytoplasm rather than a pale blue homogeneous patch."},
+    {"dx": "Alder-Reilly anomaly", "vs": "Alder-Reilly granules are large dark granules in all leukocyte types and are not accompanied by Döhle bodies."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

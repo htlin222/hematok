@@ -1,0 +1,23 @@
+{
+  "id": "60831",
+  "recognize_zh": "骨髓切片與抹片中出現巨大、多核或核分葉的怪異細胞（箭頭），乍看像巨核細胞；但 CD138 呈膜狀陽性、CD61 陰性，而真正的巨核細胞（箭頭處）CD61 陽性、CD138 陰性，證實為巨大怪異的骨髓瘤細胞。",
+  "features": [
+    "Hypercellular marrow with numerous plasma cells, including giant bizarre cells with multilobated or multiple nuclei and abundant pale eosinophilic cytoplasm (panel A, arrows)",
+    "Giant cells mimic megakaryocytes by size and nuclear lobation but have more rounded, separate nuclei with coarse chromatin and some with perinuclear hof",
+    "Aspirate (panel B) shows large cells with deeply basophilic cytoplasm and eccentric irregular nuclei among smaller hematopoietic cells",
+    "CD138 (panel C) shows strong membranous staining of the giant bizarre cells; arrowheads mark negative megakaryocytes",
+    "CD61 (panel D) stains megakaryocytes (arrowheads) while the multinucleated myeloma cells are negative"
+  ],
+  "describe_en": "Bone marrow biopsy shows a hypercellular marrow infiltrated by atypical plasma cells, including numerous giant, bizarre multinucleated and multilobated forms with abundant cytoplasm that closely mimic megakaryocytes. Aspirate smears show large basophilic cells with irregular eccentric nuclei. Immunohistochemistry demonstrates strong membranous CD138 expression in the giant cells, which are CD61-negative, whereas true megakaryocytes are CD61-positive and CD138-negative. Findings are consistent with plasma cell myeloma with giant bizarre (anaplastic/pleomorphic) myeloma cells mimicking megakaryocytes.",
+  "ddx": [
+    {"dx": "Megakaryocytes (including dysplastic or MPN megakaryocytes)", "vs": "Megakaryocytes have a single contiguous lobulated nucleus with granular cytoplasm and are CD61/CD42b-positive and CD138-negative."},
+    {"dx": "Metastatic carcinoma or sarcoma with tumor giant cells", "vs": "Metastatic tumor cells form cohesive clusters, are cytokeratin- or lineage-marker-positive and lack CD138/light-chain restriction of plasma cells (note carcinomas may express CD138, so keratin and light chains are needed)."},
+    {"dx": "Osteoclasts", "vs": "Osteoclasts have multiple uniform, separate small nuclei with nucleoli, lie near bone surfaces and are CD68-positive/CD138-negative."},
+    {"dx": "Anaplastic large cell lymphoma or Hodgkin-like giant cells", "vs": "These are CD30-positive with T-cell or Hodgkin phenotype and lack CD138/cytoplasmic light chain restriction."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC: CD138, CD61",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": ["A: marrow biopsy with giant bizarre multinucleated myeloma cells (arrows) mimicking megakaryocytes; B: aspirate with large atypical cells; C: CD138 IHC positive in giant cells, megakaryocytes negative (arrowheads); D: CD61 IHC positive in megakaryocytes (arrowheads), myeloma cells negative"]
+}

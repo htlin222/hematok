@@ -1,0 +1,22 @@
+{
+  "id": "61066",
+  "recognize_zh": "淡染的血片中可見少數邊緣呈直線或尖角、形似頭盔的碎裂紅血球與小型不規則碎片，但畫面主要被大量紅血球內折光性小點與皺縮紅血球（乾燥/水分假影）佔據，血小板稀少；典型頭盔細胞的數量與清晰度有限。",
+  "features": [
+    "Weakly stained smear; red cells appear gray-brown with poor hemoglobin color contrast",
+    "Occasional fragmented red cells with a straight edge and horn-like projections (helmet/keratocyte-like forms) and small irregular fragments",
+    "Numerous crenated cells (echinocytes) and many red cells containing small refractile dots, consistent with drying/water artifact",
+    "Platelets are sparse in this field",
+    "No leukocytes present for evaluation; polychromasia cannot be assessed reliably at this stain quality"
+  ],
+  "describe_en": "Peripheral blood smear is weakly stained and shows red cells with frequent crenation and abundant intracellular refractile dots attributable to drying/water artifact. A few fragmented red cells with straight cut edges and pointed projections resembling helmet cells, as well as small irregular fragments, are present, and platelets appear decreased in the field. The artifact limits quantification of schistocytes and assessment of polychromasia. In the clinical context of SLE with seizure and thrombocytopenia, the fragmented cells are compatible with microangiopathic hemolytic anemia (TTP), but a well-stained smear is needed for a reliable schistocyte count.",
+  "ddx": [
+    {"dx": "Drying/water artifact", "vs": "Artifact produces refractile inclusions and crenation in many cells across the smear, whereas true schistocytes have sharp cut edges and are accompanied by thrombocytopenia and hemolysis markers."},
+    {"dx": "Bite/blister cells (oxidant hemolysis)", "vs": "Bite cells show a semicircular notch or peripheral blister with Heinz bodies on supravital stain rather than a straight-edged helmet shape."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC also yields schistocytes but with prolonged PT/aPTT and low fibrinogen, while TTP has normal coagulation and ADAMTS13 <10%."},
+    {"dx": "Mechanical valve hemolysis", "vs": "Morphology overlaps; history of prosthetic valve and absence of thrombocytopenia favor valve-related fragmentation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (weakly stained)",
+  "match": "partial",
+  "high_yield": false
+}

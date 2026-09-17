@@ -1,0 +1,21 @@
+{
+  "id": "60784",
+  "recognize_zh": "Ki-67 染色在瀰漫浸潤的淋巴瘤細胞中幾乎全數呈棕色核陽性（估計 >90%），只有右側間質內梭形細胞與少數小細胞為陰性，代表極高增生指數，符合母細胞型被套細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheet of medium-sized lymphoid cells on the left with nuclear Ki-67 staining in nearly all tumor cells",
+    "Estimated proliferation index greater than 90% in the tumor sheet",
+    "Right side shows looser stroma with spindle cells and scattered negative cells, plus infiltrating Ki-67-positive tumor cells",
+    "Variable staining intensity, including some cells with nucleolar accentuation"
+  ],
+  "describe_en": "Immunohistochemical stain for Ki-67 shows a diffuse infiltrate of medium-sized lymphoid cells with nuclear positivity in more than 90% of tumor cells, extending into adjacent stroma, where spindle stromal cells are negative. This very high proliferation index is an adverse prognostic feature. In a CD20-positive, cyclin D1-positive lymphoma with blastoid cytology, findings are consistent with mantle cell lymphoma, blastoid variant with a very high proliferation fraction.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Ki-67 is also near 100%, but cells are CD10+/BCL6+ and BCL2 and cyclin D1 negative with MYC rearrangement."},
+    {"dx": "Classic mantle cell lymphoma", "vs": "Usually has a Ki-67 index well under 30% with small cleaved cells, whereas more than 30% defines a high-risk group typical of blastoid/pleomorphic variants."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Has a similarly high proliferation fraction but expresses TdT and lacks cyclin D1."},
+    {"dx": "High-grade B-cell lymphoma, NOS", "vs": "Also highly proliferative, but lacks cyclin D1/SOX11 and CCND1 rearrangement."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

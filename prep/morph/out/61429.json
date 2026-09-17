@@ -1,0 +1,22 @@
+{
+  "id": "61429",
+  "recognize_zh": "臨床照片見上顎牙齦邊界清楚的潰瘍（A），切片為黏膜潰瘍下方的多形性浸潤並含散在大型異型細胞（B、C），免疫染色見大型細胞群（D–F），EBER 原位雜交大量核陽性（G），符合 EBV 陽性黏膜皮膚潰瘍（EBVMCU）。",
+  "features": [
+    "Clinical photo (A): sharply circumscribed ulcer of the maxillary gingiva",
+    "Low power (B): superficial mucosal biopsy with surface ulceration and a band-like infiltrate",
+    "High power (C): polymorphous infiltrate of small lymphocytes, histiocytes and plasma cells with scattered large atypical immunoblast-like cells",
+    "IHC (D-F): numerous positive large cells, with a denser band of positive cells at the base in D (antibodies not labeled)",
+    "EBER ISH (G): many positive nuclei of varying size scattered in the infiltrate"
+  ],
+  "describe_en": "Composite figure: clinical photograph shows a well-circumscribed gingival ulcer. The biopsy shows mucosal ulceration overlying a polymorphous infiltrate of small lymphocytes, plasma cells and histiocytes with scattered large atypical immunoblastic cells. Immunohistochemical panels highlight numerous large cells (specific antibodies not labeled), and EBER in situ hybridization shows many EBV-positive nuclei of variable size. In the appropriate setting of immunosuppression, findings are consistent with EBV-positive mucocutaneous ulcer.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL shows Reed-Sternberg cells that are CD15+ and CD20/OCT2 weak or negative with systemic nodal disease, whereas EBVMCU cells often retain B-cell programme and form a self-limited circumscribed ulcer."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma, NOS", "vs": "EBV+ DLBCL forms a mass with sheets of large cells and lacks the sharp circumscription and basal rim of small T cells characteristic of EBVMCU."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "ENKTL is angiocentric and necrotic with EBER-positive CD3e+/CD56+ cells rather than B-cell immunoblasts."},
+    {"dx": "Aphthous or infectious ulcer", "vs": "Reactive ulcers lack large atypical CD30+ immunoblasts with abundant EBER positivity."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (antibodies unlabeled); ISH: EBER; clinical photo",
+  "match": "consistent",
+  "high_yield": false
+}

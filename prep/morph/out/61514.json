@@ -1,0 +1,22 @@
+{
+  "id": "61514",
+  "recognize_zh": "骨髓切片細胞極豐富，滿佈核卵圓或有凹陷、染色質細緻的未成熟骨髓系細胞，其中很多細胞質帶亮紅色嗜酸性顆粒，另有散在成熟嗜酸性球；「母細胞增加 + 大量嗜酸性前驅細胞」在切片上提示 AML with inv(16)。",
+  "features": [
+    "Markedly hypercellular marrow adjacent to a bony trabecula (right)",
+    "Sheets of immature mononuclear cells with oval to indented nuclei, fine chromatin, and small nucleoli",
+    "Many cells with abundant bright eosinophilic granular cytoplasm, consistent with eosinophil precursors",
+    "Scattered mature eosinophils with bilobed nuclei",
+    "Occasional small dark erythroid precursors; megakaryocytes not evident in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a markedly hypercellular marrow adjacent to a bony trabecula. The marrow space is replaced by sheets of immature mononuclear cells with oval to indented nuclei, fine chromatin, and small nucleoli, admixed with numerous cells containing bright eosinophilic cytoplasmic granules and scattered mature eosinophils. Normal trilineage hematopoiesis appears reduced, and megakaryocytes are not evident in this field. The abnormal eosinophilic granules are better characterized on the aspirate smear; in combination with increased blasts, findings are consistent with acute myeloid leukemia with inv(16)/CBFB::MYH11.",
+  "ddx": [
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "t(8;21) can also show increased eosinophil precursors, so separation requires the aspirate (abnormal basophilic granules in inv(16)) and cytogenetics or molecular testing."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and tyrosine kinase fusion", "vs": "This entity typically shows mature eosinophilia without a blast-predominant infiltrate and carries PDGFRA/PDGFRB/FGFR1/JAK2 rearrangements."},
+    {"dx": "Systemic mastocytosis with associated hematologic neoplasm", "vs": "Systemic mastocytosis shows spindle-shaped CD117+/tryptase+ mast cell aggregates associated with eosinophils."},
+    {"dx": "Reactive eosinophilia", "vs": "Reactive eosinophilia shows orderly granulocytic maturation without sheets of blasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

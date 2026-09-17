@@ -1,0 +1,20 @@
+{
+  "id": "66213",
+  "recognize_zh": "這是非對比電腦斷層（CT）腦部軸切面的螢幕翻拍照，綠色箭頭指向後方中線旁一小塊高密度（亮白）病灶，代表急性顱內出血；本身不是形態學影像，需結合遺傳性血小板功能異常（如 Bernard-Soulier 症候群）的臨床背景解讀。",
+  "features": [
+    "Axial non-contrast CT head image, photographed from a monitor (non-morphologic)",
+    "Small, well-defined hyperdense focus in the posterior paramedian region indicated by the green arrow, consistent with acute blood",
+    "No large mass effect or midline shift is evident on this single slice",
+    "Posterior falx and paranasal sinuses/skull base visible; image quality limited by screen photography and windowing"
+  ],
+  "describe_en": "Axial non-contrast CT image of the brain (photograph of a monitor) shows a small, well-circumscribed hyperdense focus in the posterior paramedian region, marked by the arrow, consistent with acute intracranial hemorrhage. No substantial mass effect or midline shift is apparent on this single slice, although image quality and a single level limit assessment of size and compartment. In the context of an inherited platelet function disorder, this illustrates a serious bleeding complication rather than a diagnostic morphologic feature.",
+  "ddx": [
+    {"dx": "Physiologic calcification (pineal gland, choroid plexus)", "vs": "Calcification is typically denser (bone-like, >100 HU), stable, and located at characteristic midline/ventricular sites, whereas acute blood measures ~50-80 HU and correlates with new symptoms; comparison or HU measurement resolves it."},
+    {"dx": "Hemorrhagic tumor or metastasis", "vs": "Tumor-related hemorrhage shows surrounding edema and enhancing tissue on contrast imaging, which cannot be assessed on this single non-contrast slice."},
+    {"dx": "Hypertensive or traumatic hemorrhage without a bleeding disorder", "vs": "Imaging cannot separate etiologies; the bleeding diathesis is established by platelet count, blood film (giant platelets) and platelet aggregation/flow studies (absent ristocetin response, reduced CD42b)."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

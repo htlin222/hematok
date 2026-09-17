@@ -1,0 +1,22 @@
+{
+  "id": "62411",
+  "recognize_zh": "骨髓切片 CD138 免疫染色中，細胞膜呈棕色陽性的漿細胞單顆或成小群散佈於脂肪空隙之間，背景大多數造血細胞為陰性（藍色）；漿細胞數量增加且成小群，是淋巴漿細胞淋巴瘤中漿細胞分化成分的表現。",
+  "features": [
+    "Bone marrow section with interspersed fat spaces and a moderately cellular hematopoietic background",
+    "Increased CD138-positive plasma cells with crisp membranous/cytoplasmic staining",
+    "Plasma cells arranged singly and in small clusters, some adjacent to fat cells",
+    "Background hematopoietic and lymphoid cells are CD138-negative with blue hematoxylin counterstain",
+    "No sheets or large nodules of plasma cells in this field"
+  ],
+  "describe_en": "CD138 immunostain on a bone marrow core biopsy highlights an increased number of plasma cells with strong membranous staining, arranged singly and in small clusters among fat spaces. The background hematopoietic and lymphoid cells are CD138-negative, and no sheets of plasma cells are present. This pattern of scattered and clustered plasma cells accompanying a small lymphoid infiltrate supports plasmacytic differentiation of a B-cell lymphoma; light-chain ISH is needed to confirm clonality. Findings are compatible with lymphoplasmacytic lymphoma in the appropriate context.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are perivascular, polytypic by kappa/lambda ISH and not associated with a clonal small B-cell infiltrate."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma usually forms interstitial sheets or nodules of plasma cells with a high percentage, often CD56-positive or CD19-negative, and lacks an accompanying clonal lymphocyte population."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "CD138 staining is similar, so pattern of infiltration, clinical features and MYD88 L265P status are used for separation."},
+    {"dx": "Metastatic carcinoma (CD138-positive)", "vs": "Carcinoma cells are also CD138-positive but form cohesive epithelial clusters that are cytokeratin-positive, unlike single plasma cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD138",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63172",
+  "recognize_zh": "幾乎所有紅血球表面都有不規則的淡染缺損、像被蟲蛀的「凹洞」（pitted surface），邊緣呈扇貝狀或不規則，這是冷沉球蛋白（cryoglobulin）沉積在紅血球上造成的人工假象，而不是真正的紅血球異形。",
+  "features": [
+    "Nearly all red cells show irregular pale, punched-out or moth-eaten areas on their surface",
+    "Irregular, scalloped red cell outlines without true spicules",
+    "No discrete basophilic inclusions or parasites within the pale areas",
+    "Occasional small platelets; one large pale finely granular structure (possible precipitate or degenerated cell)",
+    "Leukocytes absent in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a diffuse, uniform artifact in which almost all red cells display irregular pale pitted or moth-eaten surface defects with scalloped outlines. No intraerythrocytic parasites, basophilic stippling or discrete inclusions are identified within the defects. Similar changes affecting virtually every red cell point to a preparation-related rather than intrinsic red cell abnormality. In a patient with type 1 cryoglobulinemia, findings are consistent with cryoglobulin precipitate artifact; preparing a smear from a pre-warmed (37 C) sample is recommended to confirm.",
+  "ddx": [
+    {"dx": "Drying/water artifact", "vs": "Water artifact produces refractile, sharply outlined bubbles that shift with focus and is not linked to cold, whereas cryoglobulin artifact resolves on warming the sample."},
+    {"dx": "Echinocytes (crenated cells)", "vs": "Echinocytes have regular, evenly spaced short projections around the circumference rather than irregular pale pits across the cell surface."},
+    {"dx": "Malaria or babesiosis", "vs": "Parasites show discrete chromatin dots with cytoplasm (rings), whereas these pale defects lack chromatin or defined structure."},
+    {"dx": "Acanthocytes", "vs": "Acanthocytes are dense spheroidal cells with few irregular long spicules and no central pitting."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

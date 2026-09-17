@@ -1,0 +1,22 @@
+{
+  "id": "3326",
+  "recognize_zh": "骨髓切片細胞密度高，造血細胞間可見許多核圓或橢圓、染色質開放、帶小核仁且細胞質淡染的單核細胞呈間質性散佈，混合巨核細胞與嗜酸性前驅細胞；單憑 H&E 難與正常造血分辨，需免疫染色證實毛細胞白血病變異型浸潤。",
+  "features": [
+    "Hypercellular marrow with preserved megakaryocytes and scattered eosinophilic precursors",
+    "Interstitial population of mononuclear cells with round-to-oval nuclei and moderately open chromatin",
+    "Small but visible nucleoli in some mononuclear cells",
+    "Moderate pale to eosinophilic cytoplasm without the widely spaced fried-egg pattern of classic HCL",
+    "Intervening extravasated red cells; no reticulin assessment possible on H&E"
+  ],
+  "describe_en": "Bone marrow biopsy section shows a hypercellular marrow with preserved megakaryocytes and eosinophilic precursors. Interspersed interstitially among hematopoietic elements is a population of mononuclear cells with round-to-oval nuclei, moderately open chromatin, occasional small nucleoli and moderate pale cytoplasm. The infiltrate is subtle and lacks the widely spaced fried-egg appearance of classic hairy cell leukemia, so its extent cannot be accurately estimated on H&E alone. Findings are compatible with interstitial involvement by hairy cell leukemia variant; CD20, CD79a/PAX5 and annexin A1 immunostains are recommended to highlight and characterize the infiltrate.",
+  "ddx": [
+    {"dx": "Classic hairy cell leukemia", "vs": "Classic HCL shows a fried-egg interstitial infiltrate with reticulin fibrosis and is annexin A1, CD25 and BRAF V600E positive."},
+    {"dx": "Splenic marginal zone lymphoma in marrow", "vs": "SMZL typically shows intrasinusoidal and nodular paratrabecular aggregates of small cells without nucleoli."},
+    {"dx": "Reactive hypercellular marrow", "vs": "A reactive marrow lacks a clonal CD20-positive interstitial population on immunohistochemistry."},
+    {"dx": "Systemic mastocytosis", "vs": "Mast cell infiltrates form spindle-cell aggregates with fibrosis and are tryptase/CD117/CD25 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

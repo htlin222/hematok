@@ -1,0 +1,21 @@
+{
+  "id": "61839",
+  "recognize_zh": "NPM1 免疫染色（紅色呈色劑）中，大片白血病細胞不只核、連細胞質也染成紅色（異常細胞質位移，NPM1c），少數細胞或內皮則只有核著色或未染；細胞質 NPM1 表現可作為 NPM1 突變的替代指標。",
+  "features": [
+    "Clusters of large leukemic cells with round to oval nuclei and moderate cytoplasm",
+    "Strong red staining of both nuclei and cytoplasm (aberrant cytoplasmic NPM1) in most leukemic cells",
+    "Scattered cells with staining restricted to the nucleus or with only blue counterstain, serving as internal comparison",
+    "Mixed marrow background with residual hematopoietic cells and red cells",
+    "Fat space present; alkaline phosphatase (red) chromogen"
+  ],
+  "describe_en": "Bone marrow biopsy immunostained for nucleophosmin (NPM1) with a red chromogen shows clusters and sheets of large leukemic cells with intense staining of both the nucleus and the cytoplasm. Scattered background cells, including elongated endothelial-type cells, show nucleus-restricted staining or are negative, providing an internal control for normal nuclear localization. Aberrant cytoplasmic NPM1 localization correlates closely with NPM1 exon 12 mutation. Findings are consistent with persistent acute myeloid leukemia with NPM1 mutation, which should be confirmed and monitored molecularly.",
+  "ddx": [
+    {"dx": "Non-NPM1-mutated AML with nuclear-restricted NPM1", "vs": "Wild-type NPM1 blasts show staining confined to the nucleus (nucleoli), without the cytoplasmic signal seen here."},
+    {"dx": "Regenerating myeloid/erythroid precursors", "vs": "Normal regenerating precursors retain nucleus-restricted NPM1 staining, so cytoplasmic positivity in a cluster indicates residual mutant leukemia."},
+    {"dx": "Technical over-staining or high-background artifact", "vs": "Artifactual cytoplasmic signal would also involve endothelial and stromal cells, whereas here those cells retain nuclear-only staining."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: NPM1 (red chromogen)",
+  "match": "consistent",
+  "high_yield": false
+}

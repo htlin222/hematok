@@ -1,0 +1,27 @@
+{
+  "id": "60712",
+  "recognize_zh": "雙大腿有廣泛紅褐色斑丘疹，周邊血可見核呈多葉花瓣狀、染色質濃縮的「花細胞」（flower cell），皮膚切片真皮有密集淋巴球浸潤，T 細胞標記陽性，綜合符合成人 T 細胞白血病／淋巴瘤（ATLL）。",
+  "features": [
+    "Clinical photo (A): widespread erythematous to violaceous confluent papules and macules over both thighs",
+    "Peripheral blood (B): medium-sized lymphoid cell with a convoluted, multilobated flower-like nucleus, condensed chromatin and scant cytoplasm",
+    "Skin H&E (C, first panel): dense band-like dermal infiltrate of atypical lymphoid cells beneath an acanthotic epidermis",
+    "Skin IHC (C): diffuse staining of the dermal infiltrate with the first two markers and only scattered positive cells with the last marker (labels not legible at this resolution)",
+    "Background blood with normal red cells and platelets"
+  ],
+  "describe_en": "The clinical photograph shows extensive erythematous papular eruption over the thighs. The peripheral blood smear contains an atypical lymphoid cell with a markedly convoluted, multilobated 'flower' nucleus and condensed chromatin. Skin biopsy demonstrates a dense dermal infiltrate of atypical lymphocytes; immunohistochemical stains (labels not legible in this image) diffusely highlight the infiltrate with two markers while a third marks only scattered cells, compatible with a CD4-predominant T-cell phenotype. Findings are consistent with adult T-cell leukemia/lymphoma with cutaneous involvement; HTLV-1 serology/proviral integration and CD25 expression should be confirmed.",
+  "ddx": [
+    {"dx": "Sézary syndrome / mycosis fungoides", "vs": "Sézary cells have cerebriform grooved nuclei rather than polylobated flower nuclei, are HTLV-1 negative and typically CD25 negative or dim."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells have a prominent nucleolus and cytoplasmic blebs with TCL1 overexpression, and lack HTLV-1."},
+    {"dx": "Reactive lymphocytes / drug eruption", "vs": "Reactive lymphocytes lack multilobated nuclei and skin infiltrates are polymorphous with eosinophils rather than monotonous atypical T cells."},
+    {"dx": "Peripheral T-cell lymphoma, NOS involving skin", "vs": "PTCL-NOS lacks HTLV-1 clonal integration and the characteristic circulating flower cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Clinical photo; Wright-Giemsa; H&E; IHC (T-cell panel)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Clinical photo: widespread erythematous papular rash on thighs",
+    "Peripheral blood: flower cell with multilobated nucleus",
+    "Skin biopsy H&E and IHC panel: dense dermal atypical T-cell infiltrate"
+  ]
+}

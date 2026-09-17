@@ -1,0 +1,21 @@
+{
+  "id": "60527",
+  "recognize_zh": "免疫組織化學染色（未標示抗體）中，大量小至中型淋巴細胞呈膜狀與細胞質棕色陽性、瀰漫分布，陰性的細胞則是核較大、卵圓形淡染的類上皮組織球；陽性淋巴細胞佔視野大部分。",
+  "features": [
+    "IHC with brown DAB chromogen and hematoxylin counterstain; antibody not labeled",
+    "Diffuse membranous and cytoplasmic positivity in numerous small-to-medium lymphoid cells",
+    "Some positive cells are slightly enlarged with mildly irregular nuclei",
+    "Negative cells have larger oval pale vesicular nuclei with abundant cytoplasm, resembling epithelioid histiocytes",
+    "Positive cells form the majority of the cellular population"
+  ],
+  "describe_en": "Immunohistochemical stain shows diffuse membranous and cytoplasmic positivity in the majority of small-to-medium lymphoid cells, some slightly enlarged with mildly irregular nuclei. Negative cells with larger oval pale nuclei and abundant cytoplasm, consistent with epithelioid histiocytes, are interspersed throughout. The antibody is not labeled, so the lineage marker cannot be named from the image, though the pattern fits a T-cell-associated antigen. In the context of the title, the findings support a T-cell-predominant infiltrate with abundant histiocytes, compatible with lymphoepithelioid (Lennert) lymphoma, a variant of peripheral T-cell lymphoma, NOS.",
+  "ddx": [
+    {"dx": "Reactive T-cell hyperplasia", "vs": "Reactive T cells show a mixed CD4/CD8 population with intact pan-T antigens and polyclonal TCR."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL neoplastic T cells express TFH markers (PD1, CXCL13, ICOS) with CD21+ follicular dendritic meshwork expansion."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin lymphoma contains large CD30+/CD15+ Reed-Sternberg cells, which are T-cell marker negative."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antibody not labeled",
+  "match": "partial",
+  "high_yield": false
+}

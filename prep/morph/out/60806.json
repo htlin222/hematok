@@ -1,0 +1,22 @@
+{
+  "id": "60806",
+  "recognize_zh": "肝細胞板之間的竇狀隙被一群中等大小、核呈卵圓或腎形、周圍帶透亮胞質的淋巴細胞填滿，細胞彼此有間距、如「煎蛋」般排列，這種竇內透亮細胞浸潤正是毛細胞白血病侵犯肝臟的樣貌。",
+  "features": [
+    "Dilated hepatic sinusoids filled with small clusters of monotonous lymphoid cells",
+    "Oval to reniform nuclei with moderately condensed chromatin and inconspicuous nucleoli",
+    "Clear to pale cytoplasm creating a halo and even nuclear spacing (fried-egg appearance)",
+    "Intervening hepatocyte plates preserved, with finely granular cytoplasm and focal brown pigment",
+    "No portal-based nodules, necrosis or mitotic activity evident in this field"
+  ],
+  "describe_en": "Liver section shows expansion of hepatic sinusoids by clusters of medium-sized lymphoid cells with oval to bean-shaped nuclei and abundant clear cytoplasm that imparts a spaced, fried-egg appearance. The hepatocyte plates are preserved and compressed between the infiltrated sinusoids, and no destructive portal nodules are seen in this field. The sinusoidal distribution of clear lymphoid cells is consistent with hepatic involvement by hairy cell leukemia, confirmed by CD20, CD25, CD11c and TRAP immunostains.",
+  "ddx": [
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "Also sinusoidal, but cells are medium-sized with scant cytoplasm and are CD3+ T cells (usually gamma-delta), not CD20+/CD25+ B cells."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Favors portal-tract nodules with small cells and plasmacytoid features rather than purely sinusoidal clear cells, and lacks annexin A1/CD25."},
+    {"dx": "Extramedullary hematopoiesis", "vs": "Sinusoidal cells include erythroid precursors, megakaryocytes and myeloid forms rather than a monotonous clear-cell lymphoid population."},
+    {"dx": "Hairy cell leukemia variant", "vs": "Similar pattern but cells have prominent nucleoli and lack CD25, annexin A1 and BRAF V600E."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

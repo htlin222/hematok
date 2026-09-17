@@ -1,0 +1,22 @@
+{
+  "id": "60603",
+  "recognize_zh": "骨髓切片中成片的大型組織球，胞質豐富、嗜伊紅且呈纖維狀／結晶狀紋理，細胞核被擠到一側；抹片中巨噬細胞塞滿結晶物質，旁邊有漿細胞，免疫染色顯示單一輕鏈（κ）限制，提示結晶儲積組織球增生症（crystal-storing histiocytosis）合併漿細胞腫瘤。",
+  "features": [
+    "Hypercellular marrow with interstitial sheets of large polygonal cells with abundant pink cytoplasm on low power",
+    "High power: histiocytes packed with eosinophilic fibrillary/crystalline cytoplasmic material, small eccentric nuclei",
+    "Aspirate smear: macrophage stuffed with numerous deeply stained rod-like/granular crystalline inclusions; nearby plasma cells",
+    "Plasma cell with basophilic cytoplasm containing coarse purple inclusions",
+    "Immunohistochemistry: brown cytoplasmic staining of scattered plasma cells for one light chain, with crystal-laden histiocytes negative in the paired light-chain stain"
+  ],
+  "describe_en": "The bone marrow core biopsy (H&E) is hypercellular with interstitial aggregates and sheets of large histiocytes whose abundant eosinophilic cytoplasm is expanded by fibrillary crystalline material. Aspirate smears show macrophages engorged with numerous crystalline inclusions and plasma cells, some containing coarse cytoplasmic inclusions. Immunohistochemistry demonstrates light-chain–restricted plasma cells (kappa) with a negative paired stain. Findings are consistent with crystal-storing histiocytosis associated with a kappa-restricted plasma cell neoplasm; heavy-chain (IgD) staining and serum studies support the specific isotype.",
+  "ddx": [
+    {"dx": "Gaucher disease (Gaucher cells)", "vs": "Gaucher cells have wrinkled tissue-paper cytoplasm without refractile crystals and are not accompanied by a light-chain–restricted plasma cell population."},
+    {"dx": "Mycobacterial infection (pseudo-Gaucher / foamy histiocytes)", "vs": "Mycobacteria-laden histiocytes show striated cytoplasm that is AFB-positive, whereas CSH crystals are immunoglobulin and AFB-negative."},
+    {"dx": "Adult rhabdomyoma / granular cell tumor", "vs": "These are not in marrow and lack immunoglobulin crystals and clonal plasma cells; S100 or muscle markers are positive instead of CD68 with light chain."},
+    {"dx": "Plasma cell myeloma with intracytoplasmic crystals (without histiocytosis)", "vs": "In myeloma crystals lie within plasma cells, whereas in CSH the crystals are predominantly in CD68-positive histiocytes."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC: kappa/lambda",
+  "match": "consistent",
+  "high_yield": false
+}

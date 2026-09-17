@@ -1,0 +1,23 @@
+{
+  "id": "60898",
+  "recognize_zh": "流式圖中 CD19+ 細胞共表現 CD5 且為 lambda 限制（紅色族群），組織切片為成片小淋巴細胞，免疫染色顯示 B 細胞弥漫陽性、lambda 陽性的漿細胞樣細胞散佈而 kappa 稀少，核染色（SOX11）陽性；FISH 在 B 細胞與漿細胞中皆可見融合訊號，表示漿細胞分化屬於同一被套細胞淋巴瘤克隆。",
+  "features": [
+    "Flow cytometry (A-B): CD19-positive B cells with CD5 coexpression and lambda light-chain restriction (red population)",
+    "H&E (C): diffuse sheets of small, monotonous lymphoid cells (limited resolution)",
+    "IHC (D): diffuse B-cell marker positivity in the lymphoid infiltrate",
+    "IHC (E-F): numerous lambda-positive plasmacytic cells with only rare kappa-positive cells, indicating monotypic plasmacytic differentiation",
+    "IHC (G): strong nuclear staining in a large portion of the infiltrate, compatible with SOX11",
+    "Interphase FISH (H-I): comparable abnormal fusion signal patterns in both B cells and plasma cells, supporting clonal relatedness"
+  ],
+  "describe_en": "Flow cytometry identifies a CD19-positive, CD5-positive B-cell population with lambda light-chain restriction. Tissue sections show diffuse sheets of small monotonous lymphoid cells that are positive for a B-cell marker and show strong nuclear staining compatible with SOX11 in much of the infiltrate. Lambda immunostain highlights numerous plasmacytic cells, whereas kappa-positive cells are rare, indicating monotypic plasmacytic differentiation. Interphase FISH performed separately on the B cells and plasma cells demonstrates similar abnormal fusion signals, supporting that both compartments belong to the same clone. Findings are consistent with CD5-positive, SOX11-positive mantle cell lymphoma with concomitant monotypic plasmacytic differentiation; image resolution limits detailed cytologic assessment.",
+  "ddx": [
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL is CD5 negative, SOX11 and cyclin D1 negative and usually carries MYD88 L265P, whereas this tumor is CD5 and SOX11 positive with a translocation shared by the plasma cells."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "MZL is typically CD5 negative and lacks SOX11 expression and CCND1 rearrangement."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL is CD5 positive but CD23 positive, cyclin D1 and SOX11 negative, with proliferation centers."},
+    {"dx": "Composite mantle cell lymphoma and plasma cell neoplasm", "vs": "A separate plasma cell neoplasm would lack the FISH abnormality identical to the mantle cell component."}
+  ],
+  "specimen": "LN",
+  "stain": "Flow cytometry; H&E; IHC (CD19, lambda, kappa, SOX11); FISH",
+  "match": "consistent",
+  "high_yield": false
+}

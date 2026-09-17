@@ -1,0 +1,21 @@
+{
+  "id": "60121",
+  "recognize_zh": "這是流式細胞儀圖：先以 SSC 對 CD15 圈出顆粒球，再看 FLAER 與 CD55/CD59；正常人顆粒球全落在雙陽性區，PNH 病人約 85.8% 顆粒球落在 FLAER 陰性、CD55/59 陰性的左下象限，代表大型 PNH 克隆（GPI 錨定蛋白缺失）。",
+  "features": [
+    "Granulocytes gated on SSC versus CD15 (red population) in both normal and patient samples",
+    "Normal control: 99.88% of granulocytes are FLAER-positive and CD55/CD59-positive (upper right quadrant)",
+    "PNH patient: 85.83% of granulocytes are FLAER-negative and CD55/CD59-negative (lower left quadrant), the type III PNH clone",
+    "PNH patient: residual 12.79% FLAER/CD55/CD59-positive normal neutrophils",
+    "Discrete separation between clone and normal cells, with few events in intermediate positions"
+  ],
+  "describe_en": "Peripheral blood high-sensitivity flow cytometry for PNH. Granulocytes were gated on side scatter versus CD15 and assessed for FLAER binding and CD55/CD59 expression. In the normal control, 99.88% of granulocytes co-express FLAER and CD55/CD59. In the patient sample, 85.83% of granulocytes lack both FLAER binding and CD55/CD59 expression, with a residual 12.79% normal granulocyte population. Findings demonstrate a large PNH clone involving approximately 86% of granulocytes, consistent with paroxysmal nocturnal hemoglobinuria; correlation with red cell (CD59, type II/III) and monocyte clone sizes, LDH, and marrow findings is recommended.",
+  "ddx": [
+    {"dx": "Small PNH clone in aplastic anemia or MDS", "vs": "Clone size is typically below 10% of granulocytes, whereas this sample shows an 86% clone."},
+    {"dx": "Congenital CD59 deficiency", "vs": "Isolated CD59 deficiency involves all cells with preserved FLAER binding because other GPI-anchored proteins remain intact."},
+    {"dx": "Immature granulocytes / left shift artifact", "vs": "Immature myeloid cells may show dim CD55/CD59 but retain FLAER binding and do not form a discrete double-negative population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

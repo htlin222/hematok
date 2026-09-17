@@ -1,0 +1,22 @@
+{
+  "id": "1099",
+  "recognize_zh": "單一視野的周邊血中就有六顆以上嗜酸性球，細胞質充滿橘紅色顆粒、核多為雙葉或多葉，部分顆粒分布不均；嗜酸性球明顯增多是懷疑高嗜酸性球症候群（HES）的起點，但形態無法區分反應性或克隆性。",
+  "features": [
+    "Marked eosinophilia with at least six eosinophils in a single field",
+    "Mature eosinophils with bilobed to multilobed nuclei",
+    "Orange-red cytoplasmic granules, with some cells showing uneven or partially reduced granulation",
+    "Occasional small lymphocyte; no blasts identified",
+    "Crowded, overlapping red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked increase in eosinophils, most of which are mature with bilobed to multilobed nuclei and orange-red granules; a few show uneven or partially reduced granulation. An occasional small lymphocyte is present and no blasts or immature myeloid cells are seen. Red cells are unremarkable apart from overlapping in a thick area. Findings are consistent with eosinophilia; a diagnosis of idiopathic hypereosinophilic syndrome requires persistent eosinophilia (≥1.5 × 10^9/L) with organ damage after exclusion of reactive causes, clonal myeloid/lymphoid neoplasms with PDGFRA/PDGFRB/FGFR1/JAK2 rearrangements, and lymphocytic variant HES.",
+  "ddx": [
+    {"dx": "Reactive eosinophilia (parasites, allergy, drugs)", "vs": "Morphologically identical mature eosinophils; distinguished by history, stool/serology testing and resolution after treating the cause."},
+    {"dx": "Myeloid/lymphoid neoplasm with PDGFRA rearrangement", "vs": "May show similar eosinophils with increased mast cells; FIP1L1::PDGFRA detection by FISH or RT-PCR separates it."},
+    {"dx": "Chronic eosinophilic leukemia, NOS", "vs": "Requires clonality or increased blasts (>2% PB or 5-19% BM) with dysplasia, not evident in this field."},
+    {"dx": "Lymphocytic variant HES", "vs": "Driven by aberrant cytokine-producing T cells (e.g., CD3-CD4+) demonstrable by flow cytometry and TCR clonality."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

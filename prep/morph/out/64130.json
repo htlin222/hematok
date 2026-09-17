@@ -1,0 +1,22 @@
+{
+  "id": "64130",
+  "recognize_zh": "數顆大型芽細胞具豐富嗜鹼性細胞質、細緻染色質，其中一顆可見核周淡染區（perinuclear hof），下方細胞細胞質大量但顆粒稀少（hypogranular），合乎 t(8;21) AML 的型態；細長 Auer 小體在此解析度下不易清楚辨認。",
+  "features": [
+    "Large blasts with high to moderate N:C ratio, round to indented nuclei, and finely granular to open chromatin with nucleoli",
+    "Deeply basophilic cytoplasm in the upper blasts, one with a pale perinuclear hof",
+    "Faint slender linear structure in the right-hand blast possibly representing a single Auer rod, not clearly resolved at this image resolution",
+    "Lower cell with abundant pale gray-blue hypogranular cytoplasm, a dysgranulopoietic feature",
+    "Adjacent small cell with a dense round nucleus and gray cytoplasm consistent with a late erythroid precursor"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of large myeloid blasts with fine nuclear chromatin, variably indented nuclei, and moderate to abundant basophilic cytoplasm, one displaying a distinct perinuclear hof. A faint slender linear inclusion suggestive of a single Auer rod may be present, although it is not clearly resolved at this image resolution. An adjacent maturing myeloid cell shows abundant hypogranular cytoplasm, and a late erythroid precursor is present nearby. Findings are suggestive of acute myeloid leukemia with maturation and dysgranulopoiesis, compatible with AML with RUNX1::RUNX1T1 [t(8;21)] in the clinical context; cytogenetic or molecular confirmation is required.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells have bilobed or folded nuclei with abundant coarse granules or bundles of Auer rods (faggot cells) rather than single slender Auer rods with perinuclear hofs."},
+    {"dx": "AML with maturation without t(8;21) or MDS with increased blasts", "vs": "Morphology overlaps; t(8;21) is favored by large blasts with salmon-colored granules, single long Auer rods, and CD19/PAX5 aberrant expression, but karyotype or RUNX1::RUNX1T1 PCR is definitive."},
+    {"dx": "AML with inv(16)/CBFB::MYH11", "vs": "inv(16) AML shows myelomonocytic differentiation with abnormal eosinophils containing large basophilic granules."},
+    {"dx": "Plasma cells or reactive plasmablasts", "vs": "Plasma cells have clock-face chromatin, eccentric nuclei, and a hof but lack fine blastic chromatin and Auer rods, and are CD138 positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60430",
+  "recognize_zh": "OCT2 核染色中，背景小 B 細胞只呈淡棕色的弱陽性，而散布其間的大量較大細胞核呈深棕黑色的強陽性，這些強染的散在大細胞就是 LP 細胞；「LP 細胞 OCT2 強於周圍小 B 細胞」是 NLPHL 與典型霍奇金淋巴瘤（HRS 細胞 OCT2 弱或陰性）區分的重點。",
+  "features": [
+    "OCT2 nuclear immunostain at low-medium power",
+    "Scattered larger nuclei with strong, dark brown OCT2 staining (LP cells), more numerous in some nodular areas",
+    "Background small B cells with weaker, finer nuclear OCT2 positivity forming vague nodules",
+    "Negative (blue) areas between nodules corresponding to T-cell-rich zones and histiocytes",
+    "No sheets of large strongly positive cells"
+  ],
+  "describe_en": "OCT2 immunohistochemistry shows weak to moderate nuclear staining of the background small B cells, which are arranged in vague nodules separated by unstained areas. Scattered throughout the nodules are larger cells with strong, dark nuclear OCT2 expression that stand out above the background, corresponding to lymphocyte-predominant (LP) cells. Strong OCT2 expression in the large neoplastic cells indicates an intact B-cell transcription program. These findings support nodular lymphocyte predominant Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells of cHL show absent or weak OCT2 and BOB1 with CD30/CD15 positivity, in contrast to the strong OCT2 of LP cells."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL large cells are also OCT2-strong, but lie in a diffuse T-cell/histiocyte background without small B-cell nodules or FDC meshworks."},
+    {"dx": "Reactive follicular hyperplasia with immunoblasts", "vs": "Reactive nodes have polarized germinal centers with many OCT2-positive centroblasts and tingible-body macrophages rather than scattered isolated strongly positive large cells in small B-cell nodules."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: OCT2",
+  "match": "consistent",
+  "high_yield": false
+}

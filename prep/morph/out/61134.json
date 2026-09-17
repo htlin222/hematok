@@ -1,0 +1,22 @@
+{
+  "id": "61134",
+  "recognize_zh": "T 細胞標記免疫染色中，陽性淋巴球沿著表皮基底層排成一列並散入表皮（epidermotropism），真皮淺層亦有成群陽性細胞，而表皮角質細胞本身為陰性，呈現蕈狀肉芽腫的表皮親和分布。",
+  "features": [
+    "Positive lymphocytes lining up along the dermal-epidermal junction in a linear basal distribution",
+    "Single positive lymphocytes scattered within the spinous layer (epidermotropism) with minimal accompanying spongiosis",
+    "Superficial dermal aggregates of positive lymphocytes, some with irregular, enlarged nuclei and membranous/cytoplasmic staining",
+    "Keratinocytes and dermal fibroblasts/endothelium are negative",
+    "Specific antibody not labeled in the image (pattern consistent with a pan-T or CD4 stain)"
+  ],
+  "describe_en": "Immunohistochemical stain for a T-cell marker on a skin biopsy shows positive lymphocytes arranged linearly along the basal layer of the epidermis and scattered singly within the spinous layer, with only slight spongiosis. Additional aggregates of positive lymphocytes, some with enlarged irregular nuclei, are present in the superficial dermis. Keratinocytes and stromal cells are negative. The pattern of epidermotropic, basally aligned T cells disproportionate to spongiosis supports mycosis fungoides, typically with a CD3+, CD4+, CD8- phenotype and frequent loss of CD7.",
+  "ddx": [
+    {"dx": "Spongiotic dermatitis", "vs": "Inflammatory dermatitis shows exocytosis proportional to marked spongiosis, a mixed CD4/CD8 population and lacks linear basal alignment of atypical T cells."},
+    {"dx": "Lichenoid drug eruption or lichen planus", "vs": "Lichenoid infiltrates are band-like with basal vacuolar change and necrotic keratinocytes, and are often CD8-rich."},
+    {"dx": "Primary cutaneous CD8+ aggressive epidermotropic T-cell lymphoma", "vs": "This entity shows pagetoid epidermotropism with keratinocyte necrosis and a CD8+ cytotoxic phenotype rather than CD4+."},
+    {"dx": "Pagetoid reticulosis", "vs": "Pagetoid reticulosis presents as a solitary lesion with marked intraepidermal pagetoid spread of large atypical cells and little dermal involvement."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: T-cell marker (unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

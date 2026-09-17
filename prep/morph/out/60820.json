@@ -1,0 +1,20 @@
+{
+  "id": "60820",
+  "recognize_zh": "CD3 染色顯示大量小至中型 T 細胞呈膜狀陽性、密集散布於背景，右側可見未染色的大型細胞聚集區（腫瘤細胞為 CD3 陰性），說明腫瘤大細胞位於豐富的反應性 T 細胞背景中。",
+  "features": [
+    "Numerous small to medium lymphocytes with strong membranous/cytoplasmic CD3 staining",
+    "Dense background T-cell population, more sparse toward the right side of the field",
+    "Unstained larger cells with pale vesicular nuclei in areas between positive T cells, indicating CD3-negative neoplastic cells",
+    "No convincing CD3 expression in the large atypical cells"
+  ],
+  "describe_en": "CD3 immunohistochemistry highlights numerous small to medium-sized reactive T cells with membranous staining throughout the background, while larger atypical cells in the intervening areas are negative. The neoplastic large cells therefore do not express the T-cell marker CD3, and the T-cell-rich background is consistent with the mixed inflammatory milieu seen in gray zone lymphoma. This stain supports a B-cell lineage for the large cells when interpreted with CD20 and Oct-2.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma with Hodgkin-like cells", "vs": "In PTCL the atypical medium-to-large cells themselves are CD3-positive (often with aberrant loss of other T-cell antigens), whereas here the large cells are CD3-negative."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL also has abundant CD3+ T cells but contains only scattered single large B cells lacking CD15/CD30, rather than clusters and sheets."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL shows CD3+ T-cell rosettes around HRS cells, but the large cells lack CD20 and Oct-2 expression."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

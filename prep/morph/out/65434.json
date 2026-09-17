@@ -1,0 +1,22 @@
+{
+  "id": "65434",
+  "recognize_zh": "血中異常細胞呈深藍嗜鹼性細胞質帶多個透明空泡，外觀像 Burkitt 細胞；但流式顯示 CD10+、CD34 部分陽性、表面輕鏈陰性的前驅 B 細胞，光學基因組定位找到隱匿性 MEF2D::BCL9 融合，實為 B-ALL。",
+  "features": [
+    "Panel A: medium to large blasts with round nuclei, finely clumped chromatin and visible nucleoli",
+    "Deeply basophilic cytoplasm with multiple sharply punched-out clear vacuoles (Burkitt-like)",
+    "Panel B: CD19-positive cells lacking surface kappa and lambda, CD38-positive, with CD10 positivity and a CD34-positive subset",
+    "Panels C-D: Circos plots showing clustered chromothripsis-like rearrangements of chromosome 1 including MEF2D and BCL9",
+    "Panel E: optical genome mapping alignment demonstrating the MEF2D::BCL9 junction"
+  ],
+  "describe_en": "Peripheral blood smear shows medium to large atypical cells with round nuclei, finely clumped chromatin, visible nucleoli, and deeply basophilic cytoplasm containing multiple clear vacuoles, closely resembling Burkitt lymphoma cells. Flow cytometry shows a CD19-positive population lacking surface immunoglobulin light chains, with CD10 expression and a CD34-positive subset (TdT reported positive, CD20 negative), indicating a precursor B-cell phenotype. Optical genome mapping demonstrates chromothripsis-like rearrangement of chromosome 1 with a cryptic MEF2D::BCL9 fusion. Findings are consistent with B-lymphoblastic leukemia with MEF2D rearrangement, mimicking Burkitt lymphoma morphologically.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells are mature B cells with surface light chain restriction, CD20 positivity, TdT and CD34 negativity, and MYC rearrangement, none of which apply here."},
+    {"dx": "B-ALL with TCF3::PBX1 or other subtypes", "vs": "Other B-ALL subtypes share the precursor phenotype and can have vacuoles, so the MEF2D::BCL9 subtype is assigned only by genomic testing."},
+    {"dx": "Acute monocytic or erythroid leukemia with vacuoles", "vs": "Vacuolated myeloid or erythroid blasts express MPO/CD64/CD14 or CD71/E-cadherin, not CD19/CD10/TdT."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "HGBL is a mature surface Ig-positive, TdT-negative lymphoma with MYC/BCL2 rearrangements by FISH, which were not found."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grunwald-Giemsa, flow, optical genome mapping",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62615",
+  "recognize_zh": "體液細胞塊中一團圓形細胞呈清楚的環狀細胞膜 CD45 陽性，證明這群大細胞為造血淋巴來源而非上皮細胞；PEL 常保留 CD45 表現。",
+  "features": [
+    "Single cohesive-appearing aggregate of round cells in effusion cell block",
+    "Membranous/ring-like CD45 staining in most cells, strong in many",
+    "Positive cells include larger cells with vesicular nuclei and smaller lymphocytes",
+    "Few isolated faintly stained or degenerated cells in background",
+    "Some cells show weak or equivocal staining due to section plane"
+  ],
+  "describe_en": "CD45 (leukocyte common antigen) immunohistochemistry on an effusion cell block shows an aggregate of round cells with predominantly strong membranous staining, including the larger atypical cells and admixed small lymphocytes. The aggregate pattern could raise concern for a cohesive epithelial cluster, but CD45 positivity establishes hematolymphoid lineage. In a large-cell effusion lymphoma that lacks B-cell markers and immunoglobulin and is HHV8/LANA-positive, CD45 expression is consistent with primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "Metastatic adenocarcinoma cluster", "vs": "Carcinoma clusters are CD45-negative and keratin/claudin-4/MOC31-positive."},
+    {"dx": "Reactive mesothelial cell cluster", "vs": "Mesothelial cells are CD45-negative and calretinin/WT1/D2-40-positive."},
+    {"dx": "Plasma cell myeloma involving effusion", "vs": "Myeloma cells are often CD45-negative or dim and show monotypic light chains, whereas PEL is commonly CD45-positive and Ig-negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "IHC: CD45",
+  "match": "consistent",
+  "high_yield": false
+}

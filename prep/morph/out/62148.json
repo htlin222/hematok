@@ -1,0 +1,22 @@
+{
+  "id": "62148",
+  "recognize_zh": "多格組合圖：上排抹片可見漿細胞（箭頭），流式顯示 CD38/CD138 陽性漿細胞並輕鏈限制；下排抹片為成片單一形態小至中型淋巴球，流式為 CD19 陽性輕鏈限制 B 細胞；兩組 FISH 均顯示 IGH::CCND1 融合訊號，代表同一 t(11;14) 見於兩種淋巴腫瘤。",
+  "features": [
+    "Smear with scattered plasma cells and plasmacytoid cells (red and black arrows) among normal marrow elements (A)",
+    "Sheets of monotonous small to medium lymphoid cells with round to slightly irregular nuclei and scant cytoplasm (D)",
+    "Flow cytometry of a CD38/CD138-positive plasma cell population with light-chain plots (B)",
+    "Flow cytometry of a CD19-positive clonal B-cell population with kappa/lambda and additional marker plots (E)",
+    "Interphase FISH with IGH/CCND1 dual-fusion probes showing fusion signals in both samples (C, F)"
+  ],
+  "describe_en": "This composite figure pairs two lymphoid neoplasms. The upper smear (A) shows scattered plasma cells among marrow elements, and flow cytometry (B) identifies a CD38/CD138-positive plasma cell population evaluated for light-chain restriction. The lower smear (D) shows sheets of monotonous small to medium-sized lymphoid cells with scant cytoplasm, and flow cytometry (E) shows a CD19-positive B-cell population with light-chain restriction; the plot labels are too small to read every marker reliably. Interphase FISH with IGH/CCND1 probes (C, F) shows fusion signals in both, indicating t(11;14)(q13;q32). The findings illustrate t(11;14) in a plasma cell neoplasm and in a CCND1-rearranged B-cell lymphoma such as mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL is CD5/CD23-positive with dim surface light chain and lacks IGH::CCND1, whereas mantle cell lymphoma is CD23-negative with cyclin D1 and t(11;14)."},
+    {"dx": "Plasma cell myeloma without t(11;14)", "vs": "Morphology cannot separate cytogenetic subgroups; FISH identifies t(11;14), which is associated with lymphoplasmacytic morphology, CD20 expression and venetoclax sensitivity."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a spectrum of lymphocytes, plasmacytoid lymphocytes and plasma cells with MYD88 L265P rather than IGH::CCND1."},
+    {"dx": "Leukemic non-nodal mantle cell lymphoma", "vs": "Non-nodal MCL is SOX11-negative and often CD200-positive with indolent course, while classic MCL is SOX11-positive, both carrying t(11;14)."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; flow cytometry; FISH: IGH/CCND1",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61021",
+  "recognize_zh": "以右側小淋巴球的核為尺度，大多數紅血球比它小（小球性），且中央淡染區擴大、只剩一圈細薄的血紅素邊（低色素性），並有少數變形紅血球，符合缺鐵性貧血的血片。",
+  "features": [
+    "Red cells smaller than the nucleus of the adjacent small lymphocyte (microcytosis)",
+    "Markedly enlarged central pallor exceeding one-third of the cell, with a thin hemoglobin rim (hypochromia)",
+    "Mild poikilocytosis with a few irregular, elongated and crenated forms",
+    "Small mature lymphocyte with dense chromatin and scant cytoplasm at right",
+    "Scattered platelets; no target cells or basophilic stippling prominent"
+  ],
+  "describe_en": "Peripheral blood smear shows a population of microcytic, hypochromic red cells with markedly widened central pallor and thin hemoglobin rims, together with mild anisopoikilocytosis including a few elongated and irregular forms. A small mature lymphocyte serves as a size reference. Target cells and basophilic stippling are not prominent. Findings are consistent with a microcytic hypochromic anemia, most suggestive of iron deficiency; confirmation requires ferritin and iron studies.",
+  "ddx": [
+    {"dx": "Thalassemia trait", "vs": "Thalassemia trait has a disproportionately low MCV with a normal/high RBC count, prominent target cells and basophilic stippling, and normal ferritin."},
+    {"dx": "Anemia of chronic inflammation", "vs": "Usually normocytic or only mildly microcytic with less hypochromia, and ferritin is normal or increased."},
+    {"dx": "Sideroblastic anemia", "vs": "Often shows a dimorphic population with Pappenheimer bodies and ring sideroblasts on marrow iron stain."},
+    {"dx": "Lead poisoning", "vs": "Features coarse basophilic stippling with mild microcytosis and elevated blood lead."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

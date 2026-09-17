@@ -1,0 +1,22 @@
+{
+  "id": "61841",
+  "recognize_zh": "周邊血中的循環異常細胞核偏心、染色質呈車輪狀凝集，部分可見核仁，細胞質淡藍且周邊有細絲狀毛狀突起（箭頭）；看似毛細胞白血病變異型（HCL-v），但偏心核與漿細胞樣染色質提示是漿細胞白血病（PCL）的罕見型態變異。",
+  "features": [
+    "Circulating medium-to-large cells with eccentric round to oval nuclei",
+    "Coarse, clumped (clock-face-like) chromatin with visible nucleoli in some cells (C, D)",
+    "Pale blue-gray cytoplasm with fine, irregular hair-like projections (arrows)",
+    "Occasional paranuclear clearing suggestive of a Golgi zone",
+    "Background rouleaux formation of red cells in panels A and B"
+  ],
+  "describe_en": "Composite peripheral blood smear (A–D) shows circulating atypical cells with eccentric round to oval nuclei, coarsely clumped chromatin, and in some cells distinct nucleoli, surrounded by pale blue-gray cytoplasm bearing fine, irregular hair-like projections (arrows). Red cells show rouleaux formation in the low-power fields. Although the villous cytoplasm and nucleoli mimic hairy cell leukemia variant, the eccentric nuclei, plasmacytoid chromatin, and rouleaux favor a plasma cell origin, which must be confirmed by flow cytometry (CD38/CD138 bright, cytoplasmic light-chain restriction, CD19-/CD20-). Findings are consistent with plasma cell leukemia with hairy-cell-like morphology.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v cells have central nuclei and express CD19/CD20/CD11c/CD103 with surface immunoglobulin, whereas PCL cells are CD38/CD138 bright with cytoplasmic light-chain restriction and lack pan-B markers."},
+    {"dx": "Classic hairy cell leukemia", "vs": "HCL cells lack nucleoli and rouleaux association and are CD25+/CD103+/annexin A1+ with BRAF V600E."},
+    {"dx": "Splenic marginal zone lymphoma with plasmacytic differentiation", "vs": "SMZL villous lymphocytes are CD20+ B cells with polar short villi, with only a minor plasmacytoid component."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a spectrum of small lymphocytes, plasmacytoid lymphocytes, and plasma cells with MYD88 L265P rather than a monotonous circulating plasma cell population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

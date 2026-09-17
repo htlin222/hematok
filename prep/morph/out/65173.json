@@ -1,0 +1,22 @@
+{
+  "id": "65173",
+  "recognize_zh": "周邊血液抹片中多個紅血球內可見單一、小而圓、深紫色的核殘餘（Howell-Jolly bodies，箭頭），伴隨靶形紅血球與輕度血小板增加；腹部 CT 脾臟明顯變小，提示脾功能低下（splenic hypoplasia）。",
+  "features": [
+    "Multiple red cells containing a single small, round, dense, eccentric basophilic inclusion (Howell-Jolly bodies, arrows)",
+    "Occasional target cells among normochromic red cells",
+    "Scattered crenated red cells (echinocytes), likely preparation artifact",
+    "Platelets mildly increased in number, normal size",
+    "Coronal CT: markedly small spleen (arrow) in the left upper quadrant with an elongated left hepatic lobe"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous red cells containing Howell-Jolly bodies, occasional target cells and scattered echinocytes, with mildly increased platelets. Leukocytes are not represented in this field. Coronal abdominal CT demonstrates a markedly hypoplastic spleen. In the absence of prior splenectomy, findings are consistent with functional hyposplenism due to splenic hypoplasia, accounting for the persistent reactive thrombocytosis.",
+  "ddx": [
+    {"dx": "Pappenheimer bodies", "vs": "Pappenheimer bodies are multiple small peripheral clustered granules that are Prussian blue positive, whereas Howell-Jolly bodies are usually single, larger, round and DNA-containing."},
+    {"dx": "Platelet overlying a red cell", "vs": "An overlying platelet shows a pale halo and fine granules and is often out of the red cell's focal plane, unlike the dense homogeneous Howell-Jolly body within the cell."},
+    {"dx": "Malaria ring form", "vs": "Ring forms show a blue cytoplasmic ring with a red chromatin dot rather than a solid round dense purple sphere."},
+    {"dx": "Essential thrombocythemia", "vs": "ET causes thrombocytosis with large platelets and no Howell-Jolly bodies unless hyposplenism from splenic infarction coexists; driver mutation testing was negative here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; CT",
+  "match": "consistent",
+  "high_yield": true
+}

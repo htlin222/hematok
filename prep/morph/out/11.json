@@ -1,0 +1,29 @@
+{
+  "id": "11",
+  "recognize_zh": "周邊血抹片白血球與血小板極稀少，只見單顆淋巴球；骨髓切片幾乎全為脂肪、造血細胞近乎消失；流式在顆粒球上 CD55/CD59 與 FLAER 皆陰性（>98%），代表再生不良性貧血合併大型 PNH 克隆。",
+  "features": [
+    "PB: marked leukopenia with only a rare small lymphocyte per field and no platelets seen",
+    "PB red cells largely normocytic and normochromic with mild anisopoikilocytosis; no blasts or dysplastic neutrophils",
+    "BM aspirate particle: fatty spicule composed almost entirely of adipocytes with scant hematopoietic cells",
+    "BM biopsy: profoundly hypocellular marrow (<5%) replaced by fat with residual stromal cells, lymphocytes and capillaries; no fibrosis or infiltrate",
+    "Flow: granulocytes (CD15 gate) lack GPI-linked CD55/CD59 and FLAER in 98.6% of cells versus 99.75% positive in normal control"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukopenia with only rare small lymphocytes and no platelets identified; red cells are predominantly normocytic and normochromic without schistocytes, blasts or dysplastic neutrophils. The bone marrow aspirate particles are fatty with scant hematopoietic elements, and the core biopsy is profoundly hypocellular, consisting almost entirely of adipose tissue with residual stromal cells and scattered lymphocytes, without fibrosis, granulomas or neoplastic infiltrate. Flow cytometry of peripheral blood granulocytes shows loss of CD55/CD59 and FLAER in 98.6% of cells, indicating a large PNH clone. Findings are consistent with severe aplastic anemia with an associated PNH clone.",
+  "ddx": [
+    {"dx": "Hypocellular myelodysplastic neoplasm", "vs": "Hypoplastic MDS shows dysplastic megakaryocytes or granulocytes, possible increased blasts and clonal cytogenetic abnormalities, whereas this marrow is an empty fatty marrow without dysplasia."},
+    {"dx": "Classic hemolytic PNH", "vs": "Classic PNH has a normo- to hypercellular marrow with erythroid hyperplasia and hemolysis (high reticulocytes, LDH), unlike the aplastic marrow and low reticulocyte count here."},
+    {"dx": "Inherited bone marrow failure (Fanconi anemia, telomere biology disorder)", "vs": "Morphology is similar; chromosome breakage testing, telomere length and germline sequencing separate them, and PNH clones are uncommon in inherited failure."},
+    {"dx": "Hypocellular acute leukemia or marrow infiltration", "vs": "Hypocellular AML/ALL shows clusters of blasts on biopsy (CD34/TdT), which are absent in this fat-replaced marrow."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; flow cytometry (FLAER, CD55/CD59)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood, low power: striking leukopenia with a single lymphocyte and no visible platelets",
+    "Peripheral blood, high power: normocytic red cells and a small lymphocyte; platelets absent",
+    "Bone marrow aspirate particle: fatty spicule with scant hematopoietic cells",
+    "Bone marrow biopsy (H&E): profoundly hypocellular marrow replaced by fat",
+    "Flow cytometry: PNH granulocytes negative for CD55/CD59 and FLAER (98.6%) versus normal control"
+  ]
+}

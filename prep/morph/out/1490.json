@@ -1,0 +1,23 @@
+{
+  "id": "1490",
+  "recognize_zh": "骨髓切片細胞量很高，許多中型細胞核呈腎形、摺疊或凹陷（monocytoid），胞質淡嗜伊紅，夾雜分葉的顆粒球與深染的紅系前驅細胞，呈現 CMML 中單核球與顆粒球共同增生的混合樣貌。",
+  "features": [
+    "Hypercellular marrow with markedly reduced fat",
+    "Numerous medium-sized cells with oval, reniform or folded nuclei and moderate pale eosinophilic cytoplasm (monocytic cells)",
+    "Admixed maturing granulocytes with band and segmented nuclei",
+    "Scattered small cells with round dense nuclei consistent with erythroid precursors",
+    "Some cells with open chromatin and small nucleoli; no discrete sheets of blasts",
+    "Megakaryocytes not prominent in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy section (H&E) shows a markedly hypercellular marrow. There is a proliferation of medium-sized cells with oval, reniform to folded nuclei and moderate pale cytoplasm, consistent with monocytic cells, admixed with maturing granulocytes and scattered erythroid precursors. No sheets of blasts are identified, although promonocytes cannot be reliably distinguished on H&E. Findings are consistent with chronic myelomonocytic leukemia in the appropriate clinical context (persistent peripheral monocytosis); CD14/CD68R/CD163 and CD34 immunostains help quantify monocytes and blasts.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic or monocytic leukemia", "vs": "Requires >=20% blasts plus promonocytes, which appear as sheets of immature cells with fine chromatin and nucleoli rather than a maturing mixed infiltrate."},
+    {"dx": "Chronic myeloid leukemia, BCR-ABL1+", "vs": "CML shows granulocytic hyperplasia with small hypolobated megakaryocytes and basophilia, and is defined by BCR-ABL1."},
+    {"dx": "Reactive monocytosis (infection, inflammation)", "vs": "Reactive marrow lacks dysplasia and clonal markers (e.g., TET2, SRSF2, ASXL1) and the monocytosis resolves."},
+    {"dx": "Atypical CML / MDS/MPN-unclassifiable", "vs": "aCML has dysgranulopoiesis with <10% monocytes in blood, whereas CMML requires monocytes >=10% of leukocytes and absolute monocytosis."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65977",
+  "recognize_zh": "高度細胞密集的骨髓抹片中，一顆小型細胞具單一圓核與灰藍色細顆粒狀細胞質，大小僅約前骨髓細胞，旁邊為核分葉少的小型巨核細胞，屬 CML 常見的小巨核細胞（micromegakaryocyte / dwarf megakaryocyte）。",
+  "features": [
+    "Small megakaryocytic cell roughly the size of a promyelocyte with a single round nucleus",
+    "Moderate grayish-blue cytoplasm with fine granularity and slightly fluffy margin",
+    "Adjacent larger megakaryocyte with abundant granular cytoplasm and only two nuclear lobes (hypolobated)",
+    "Markedly hypercellular smear crowded with granulocytic precursors at various stages of maturation",
+    "Thick, overlapping preparation with intense staining limits fine chromatin assessment"
+  ],
+  "describe_en": "Bone marrow aspirate smear is markedly hypercellular, with crowded granulocytic precursors across the maturation spectrum. Centrally there is a small megakaryocyte approximately the size of a promyelocyte, with a single round nucleus and pale gray-blue finely granular cytoplasm, adjacent to a larger megakaryocyte with a hypolobated, bilobed nucleus. The thickness of the smear limits evaluation of nuclear detail. In the context of BCR::ABL1-positive disease, the small hypolobated (dwarf) megakaryocytes and granulocytic hyperplasia are consistent with chronic myeloid leukemia.",
+  "ddx": [
+    {"dx": "Promyelocyte or myelocyte", "vs": "Granulocytic precursors have azurophilic granules with a perinuclear Golgi zone and lack the gray-blue, platelet-type granular cytoplasm with budding margins."},
+    {"dx": "Plasma cell", "vs": "Plasma cells have deeply basophilic agranular cytoplasm with a perinuclear hof and clock-face chromatin."},
+    {"dx": "Micromegakaryocyte of MDS (e.g., del(5q))", "vs": "Morphology overlaps; separation relies on context: MDS shows dysplasia with cytopenias and no BCR::ABL1, whereas CML shows granulocytic hyperplasia with basophilia and BCR::ABL1."},
+    {"dx": "Megakaryoblast", "vs": "Megakaryoblasts have fine blast chromatin, nucleoli and agranular basophilic cytoplasm with blebs, confirmed by CD41/CD61 flow."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

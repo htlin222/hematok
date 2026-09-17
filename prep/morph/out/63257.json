@@ -1,0 +1,22 @@
+{
+  "id": "63257",
+  "recognize_zh": "三格高倍周邊血影像中，嗜中性球的細胞質內各有一至兩個大而圓、界線清楚的透明空泡，將分葉核推擠變形，空泡內含淡粉紅色細顆粒物質；在脂肪栓塞的臨床背景下，這是吞噬脂肪球的嗜中性球，可用油紅 O 或 Sudan 染色證實。",
+  "features": [
+    "Three high-power panels of neutrophils, each containing one or two large, round, sharply demarcated clear cytoplasmic vacuoles",
+    "Vacuoles are as large as or larger than the nucleus and indent and compress the segmented nucleus",
+    "Faint pink-purple granular material within the vacuoles",
+    "Neutrophil nuclei with coarse clumped chromatin and irregular lobation",
+    "Background of crenated, clumped red cells (thick area, reduced image clarity)"
+  ],
+  "describe_en": "Peripheral blood smear images show neutrophils containing one to two large, round, well-demarcated clear intracytoplasmic vacuoles that indent and distort the segmented nuclei. The vacuoles contain faint pink granular material, and the surrounding red cells are crenated and clumped. These are distinct from the small, multiple vacuoles of toxic change. In a patient with suspected fat embolism and fat particles in the collection tube, the findings are consistent with neutrophils containing phagocytosed fat globules; confirmation with a fat stain (Oil red O or Sudan black) on an unfixed smear is recommended.",
+  "ddx": [
+    {"dx": "Toxic vacuolation in sepsis", "vs": "Toxic vacuoles are small, multiple and irregular, often with toxic granulation and Döhle bodies, rather than one or two large round vacuoles that deform the nucleus."},
+    {"dx": "EDTA storage artifact", "vs": "Prolonged storage produces small uniform vacuoles in many neutrophils and monocytes, not large fat globules, and resolves on a fresh sample."},
+    {"dx": "Intracellular organisms (e.g., Histoplasma, bacteria)", "vs": "Organisms appear as defined yeast forms with a halo or as basophilic rods/cocci within the cytoplasm, rather than empty clear vacuoles that stain with fat stains."},
+    {"dx": "Jordans anomaly (neutral lipid storage disease)", "vs": "Jordans anomaly shows constitutional lipid vacuoles in most neutrophils and monocytes of all smears, not an acute finding tied to fat embolism."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

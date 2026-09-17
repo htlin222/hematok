@@ -1,0 +1,22 @@
+{
+  "id": "61642",
+  "recognize_zh": "Glycophorin C 染色下左側大片密集排列的大型細胞呈強烈膜染色，核圓、染色質細緻，形成大型紅血球前驅細胞群落，右側一般骨髓只有零星陽性；大型、早期紅系前驅細胞聚集是 PCM1::JAK2 腫瘤骨髓的特徵之一。",
+  "features": [
+    "Large cohesive sheet of cells with strong membranous glycophorin C staining (erythroid lineage)",
+    "Positive cells are large with round nuclei, fine chromatin and occasional nucleoli, indicating early erythroid precursors",
+    "Sharp demarcation from adjacent marrow on the right with only scattered positive cells",
+    "Thin vessel/stromal band traversing the erythroid sheet",
+    "Negative background myeloid and stromal cells"
+  ],
+  "describe_en": "Glycophorin C immunostain of the bone marrow biopsy highlights a large, cohesive sheet of erythroid precursors with strong membranous staining, sharply demarcated from the adjacent marrow in which only scattered positive cells are present. The positive cells are large with round nuclei, fine chromatin and occasional nucleoli, consistent with left-shifted, immature erythroid precursors. This confirms that the sheets of immature cells seen on H&E are of erythroid lineage rather than myeloblasts or metastatic tumor. Expanded islands of immature erythroid precursors are a characteristic finding in myeloid/lymphoid neoplasm with PCM1::JAK2.",
+  "ddx": [
+    {"dx": "Pure erythroid leukemia", "vs": "PEL shows more than 80% erythroid cells with at least 30% proerythroblasts and usually complex karyotype/TP53 mutation, whereas PCM1::JAK2 neoplasms have eosinophilia and the defining fusion."},
+    {"dx": "Acute myeloid leukemia with blast sheets", "vs": "Myeloblast sheets are glycophorin negative and CD34/CD117/MPO positive."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma clusters are keratin positive and glycophorin negative."},
+    {"dx": "Reactive erythroid hyperplasia", "vs": "Reactive erythroid islands show orderly maturation with predominantly late normoblasts rather than large sheets of immature precursors."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: glycophorin C",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61245",
+  "recognize_zh": "A 周邊血抹片白血球極度增多，以核深染、細胞質極少的小淋巴球為主，並有多個破碎的籃狀細胞（smudge cell）；B 紅血球體積分布圖在大體積端有一個額外小峰（箭頭），代表大量白血球被計入紅血球通道；C 為校正後該峰消失。這說明高白血球會假性提高紅血球數與 MCV。",
+  "features": [
+    "Panel A (PB smear): marked leukocytosis composed predominantly of small mature-appearing lymphocytes with dense clumped chromatin and scant cytoplasm",
+    "Numerous smudge (basket) cells among the lymphocytes; red cells normochromic without obvious agglutination",
+    "Panel B (RBC volume histogram): main normal red cell peak with an additional small peak/shoulder in the high-volume region (arrow)",
+    "Panel C (RBC histogram, corrected or after dilution/WBC subtraction): single red cell peak without the high-volume shoulder",
+    "Figure is partly non-morphologic, illustrating analyzer interference"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with a predominance of small lymphocytes with condensed chromatin and scant cytoplasm, accompanied by numerous smudge cells. The red cell volume histogram shows an abnormal secondary population in the large-volume region (arrow), which is absent on the corrected histogram. In hyperleukocytosis, leukocytes fall within the impedance red cell counting threshold and are counted as large red cells, falsely increasing the RBC count, hematocrit and MCV and distorting the RDW. Findings illustrate spurious red cell indices due to extreme leukocytosis, here in a lymphoproliferative disorder morphologically suggestive of chronic lymphocytic leukemia; RBC count should be corrected by subtracting the WBC count, and hemoglobin checked for turbidity interference.",
+  "ddx": [
+    {"dx": "Cold agglutinin interference", "vs": "Red cell clumps produce a high-volume histogram tail with falsely low RBC count and high MCV/MCHC, and agglutinates are seen on the smear, rather than increased leukocytes."},
+    {"dx": "Giant platelets or platelet clumps", "vs": "These interfere at the low-volume end of the RBC histogram and the platelet channel, not at the high-volume end."},
+    {"dx": "True macrocytosis", "vs": "Shifts the entire red cell peak to the right rather than adding a separate high-volume peak, and macrocytes are seen on the smear."},
+    {"dx": "Hyperlipidemia or hyperbilirubinemia interference", "vs": "Affects hemoglobin and MCHC via turbidity without adding a high-volume particle population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; analyzer RBC histogram",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61812",
+  "recognize_zh": "NPM1 免疫染色（紅色呈色）中，成片母細胞除細胞核外，細胞質也呈紅色陽性（NPM1 細胞質異位表現），分裂中的細胞染色最強，而小淋巴球僅見藍色核，提示 NPM1 突變。",
+  "features": [
+    "Diffuse sheets of intermediate-sized blasts with oval to indented nuclei",
+    "Red chromogen staining in both nuclei and cytoplasm of most blasts (cytoplasmic NPM1 delocalization)",
+    "Mitotic figures with intense diffuse cytoplasmic staining",
+    "Scattered small lymphocytes with only blue counterstained nuclei as internal negative cells",
+    "Minimal residual normal hematopoiesis in this field"
+  ],
+  "describe_en": "Immunohistochemical stain for nucleophosmin (NPM1, red chromogen) on a marrow section involved by sheets of blasts shows aberrant cytoplasmic staining in addition to nuclear staining in the majority of blasts, with intense staining of mitotic cells. Small lymphocytes serve as internal cells lacking cytoplasmic signal. Aberrant cytoplasmic NPM1 localization is a reliable surrogate for NPM1 mutation. Findings are consistent with acute myeloid leukemia with NPM1 mutation arising in the setting of germline GATA2 mutation; confirmation by molecular testing is recommended.",
+  "ddx": [
+    {"dx": "AML without NPM1 mutation", "vs": "Wild-type NPM1 shows nucleus-restricted (nucleolar) staining without cytoplasmic signal."},
+    {"dx": "Mitotic cells in wild-type tissue", "vs": "Cytoplasmic staining in mitoses alone is physiologic after nuclear membrane breakdown, so interphase blasts must show cytoplasmic positivity to call NPM1 mutation."},
+    {"dx": "ALK-positive anaplastic large cell lymphoma with NPM1-ALK", "vs": "NPM1-ALK fusion causes cytoplasmic ALK and NPM staining in CD30-positive lymphoid cells, not in myeloid blasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: NPM1",
+  "match": "consistent",
+  "high_yield": false
+}

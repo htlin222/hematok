@@ -1,0 +1,21 @@
+{
+  "id": "65115",
+  "recognize_zh": "骨髓抽吸抹片中箭頭所指的巨噬細胞，細胞質豐富且含多顆被吞噬的紅血球、有核細胞與深紫色核碎片（cellular debris），呈噬血現象，符合噬血性淋巴組織球增生症（HLH）的背景。",
+  "features": [
+    "Large macrophages (arrows) with abundant pale blue, vacuolated cytoplasm",
+    "Left macrophage contains multiple ingested red cells and several nucleated cells",
+    "Right macrophages contain dark purple nuclear debris/apoptotic fragments and phagocytic vacuoles",
+    "Macrophage nuclei round to oval with fine chromatin, without significant atypia",
+    "Background mixed hematopoietic precursors including myeloid and erythroid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows several large macrophages (arrows) with abundant vacuolated cytoplasm. One macrophage contains multiple engulfed erythrocytes and nucleated hematopoietic cells, while others harbor dense purple nuclear debris within phagocytic vacuoles. The macrophage nuclei are bland, and the background shows mixed hematopoietic precursors. Findings are consistent with hemophagocytosis, supportive of hemophagocytic lymphohistiocytosis in the appropriate clinical and laboratory context.",
+  "ddx": [
+    {"dx": "Tingible body macrophages / reactive histiocytes with apoptotic debris", "vs": "Debris-laden macrophages occur after chemotherapy or with high cell turnover, so ingestion of intact red cells and nucleated cells plus clinical HLH criteria are required to support HLH."},
+    {"dx": "Erythroblastic island", "vs": "Nurse macrophages hold erythroblasts on their surface rather than within phagocytic vacuoles containing degraded debris."},
+    {"dx": "Sea-blue histiocytes / storage histiocytes", "vs": "Storage histiocytes contain uniform lipid granules or fibrillary material rather than recognizable engulfed blood cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grunwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

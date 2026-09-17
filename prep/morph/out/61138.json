@@ -1,0 +1,21 @@
+{
+  "id": "61138",
+  "recognize_zh": "抹片中大量破碎紅血球（schistocytes）與小型紅血球碎片，但真正的血小板幾乎看不到；病人血小板直方圖沒有正常峰、曲線一路往大體積端上升，RBC 直方圖左側出現小碎片肩部，代表儀器把紅血球碎片誤算成血小板。",
+  "features": [
+    "Platelet histogram (A): absence of a normal platelet peak with a continuously rising curve toward the upper threshold, unlike the normal right-skewed peak (B)",
+    "RBC histogram (C): small left-sided shoulder of small particles compared with the normal RBC curve (D)",
+    "Smear (E): numerous schistocytes including helmet cells, triangular and irregular fragments, and microspherocytes",
+    "Marked paucity of true platelets on the smear",
+    "Occasional polychromatophilic red cells; a single leukocyte and a small dark nucleated cell are present"
+  ],
+  "describe_en": "Composite figure. The patient's platelet volume histogram lacks a discrete platelet population and instead shows a steadily rising curve extending into the larger-volume range, while the red cell histogram shows a left shoulder of small particles. The corresponding peripheral blood smear shows numerous schistocytes, including helmet and triangular forms and microspherocytes, with occasional polychromatophilic cells, and true platelets are markedly decreased. Findings indicate that small red cell fragments are being counted as platelets by the impedance analyzer, spuriously elevating the automated platelet count and masking severe thrombocytopenia; confirm by smear review, optical/fluorescent or immunologic platelet count, and evaluate for a thrombotic microangiopathy.",
+  "ddx": [
+    {"dx": "Microcytosis (e.g., severe iron deficiency, thalassemia) causing pseudo-normal platelet count", "vs": "Microcytic red cells shift the RBC curve globally leftward and on smear are intact hypochromic cells rather than fragmented helmet and triangular forms."},
+    {"dx": "Giant platelets or platelet clumping causing falsely low counts", "vs": "Those produce spuriously low counts with clumps or large platelets visible on the smear, the opposite direction of error from fragment interference."},
+    {"dx": "Disseminated intravascular coagulation versus TTP/HUS", "vs": "Morphology is shared; separation requires PT/aPTT/fibrinogen/D-dimer, ADAMTS13 activity and clinical context."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; analyzer histograms",
+  "match": "consistent",
+  "high_yield": true
+}

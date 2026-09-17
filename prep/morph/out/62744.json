@@ -1,0 +1,21 @@
+{
+  "id": "62744",
+  "recognize_zh": "箭頭所指的中性球胞質內有一團均質、無結構的紫色圓形物，把細胞核擠到邊緣，形成紅斑性狼瘡細胞（LE cell）；右上角另有吞噬紅血球的巨噬細胞，提示自體免疫（SLE）背景下的血球吞噬現象。",
+  "features": [
+    "Neutrophil containing a large homogeneous, smooth, purple inclusion that displaces its nucleus to the periphery (LE cell, arrow)",
+    "Engulfed body lacks chromatin texture, consistent with phagocytosed denatured nuclear material",
+    "Macrophage (upper right) with abundant cytoplasm containing ingested red cells (hemophagocytosis)",
+    "Background of mature neutrophils, small lymphocytes, and red cells with occasional rouleaux-like stacking",
+    "Few platelets visible, in keeping with thrombocytopenia"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered maturing neutrophils and small lymphocytes in a background of abundant red cells. One neutrophil (arrow) contains a large, round, homogeneous, glassy purple inclusion devoid of chromatin structure that compresses the lobated nucleus to the cell periphery, characteristic of an LE cell. A macrophage in the upper right field contains phagocytosed erythrocytes, indicating hemophagocytosis. Findings are suggestive of systemic lupus erythematosus with LE cell formation and associated hemophagocytosis; correlation with ANA/anti-dsDNA and HLH criteria is recommended.",
+  "ddx": [
+    {"dx": "Tart cell", "vs": "In a tart cell the engulfed nucleus retains visible chromatin structure and is ingested by a monocyte/macrophage, whereas the LE body is homogeneous and structureless within a neutrophil."},
+    {"dx": "Neutrophil with phagocytosed apoptotic cell or bacteria", "vs": "Apoptotic bodies are smaller, dense, and often fragmented, and bacteria are small discrete rods or cocci rather than a single large smooth hematoxylin body."},
+    {"dx": "Primary or infection-associated HLH", "vs": "Hemophagocytosis alone is nonspecific; the presence of LE cells and serologic evidence of lupus point to macrophage activation secondary to SLE."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "61986",
+  "recognize_zh": "DUSP22 分離式（break-apart）FISH：DAPI 藍色背景中兩個細胞核，上方核可見兩個融合（黃/紅綠重疊）訊號，下方核有一個融合訊號與一個分離的紅色訊號；出現分離訊號代表 DUSP22 (6p25.3) 重排，是乳房植入物相關 ALCL 的遺傳學特徵之一。",
+  "features": [
+    "Interphase FISH on two DAPI-counterstained nuclei using a DUSP22 break-apart probe",
+    "Upper nucleus: two fused or closely apposed red-green (yellow) signals, a normal pattern",
+    "Lower nucleus: one fused signal and one separate predominantly red signal, suggesting a split (rearranged) pattern",
+    "Signals are small and the image resolution limits confident scoring of individual nuclei",
+    "Diagnostic interpretation requires scoring of many nuclei against a validated cutoff"
+  ],
+  "describe_en": "Interphase fluorescence in situ hybridization with a DUSP22 (6p25.3) break-apart probe shows two DAPI-counterstained nuclei. One nucleus shows two fused signals, whereas the other shows one fused signal and one separate predominantly red signal, suggesting separation of the probe halves consistent with DUSP22 rearrangement. Resolution is limited, and a definitive result requires enumerating an adequate number of tumor nuclei against the laboratory cutoff. In the context of CD30-positive, ALK-negative T-cell lymphoma, DUSP22 rearrangement is a recurrent finding in breast implant-associated ALCL and defines a prognostically distinct subset of ALK-negative ALCL.",
+  "ddx": [
+    {"dx": "TP63-rearranged ALK-negative ALCL", "vs": "TP63 rearrangement is detected with a TP63 probe or RNA fusion assay, carries a poor prognosis, and is mutually exclusive with DUSP22 rearrangement in most cases."},
+    {"dx": "ALK-positive ALCL", "vs": "ALK-positive ALCL shows ALK protein by IHC and ALK (2p23) break-apart FISH, typically NPM1::ALK, and is ALK-negative on this case's IHC."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: DUSP22 break-apart probe, DAPI",
+  "match": "non-morphologic",
+  "high_yield": false
+}

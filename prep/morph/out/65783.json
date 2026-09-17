@@ -1,0 +1,22 @@
+{
+  "id": "65783",
+  "recognize_zh": "三顆異常前骨髓細胞：左上與右側細胞質內可見多根交錯成束的粉紫色針狀 Auer 小體（柴束細胞，faggot cell）；下方細胞核呈雙葉摺疊、細胞質佈滿粗大嗜天青顆粒。柴束細胞是急性前骨髓細胞白血病（APL）的經典線索。",
+  "features": [
+    "Medium-to-large abnormal promyelocytes with irregular, folded or bilobed nuclei",
+    "Upper left and right cells contain multiple crisscrossing needle-like Auer rods in bundles (faggot cells)",
+    "Lower cell with abundant cytoplasm densely packed with coarse azurophilic granules and a reniform/bilobed nucleus",
+    "Granules and rods partly overlie the nucleus, obscuring nuclear outline",
+    "Background red cells without other leukocytes in this field"
+  ],
+  "describe_en": "Peripheral blood (or aspirate) smear shows three abnormal promyelocytes with irregular folded to bilobed nuclei. Two cells contain numerous crisscrossing bundles of Auer rods overlying the cytoplasm and nucleus, diagnostic of faggot cells, while the third shows abundant cytoplasm packed with coarse azurophilic granules. Findings are highly suggestive of acute promyelocytic leukemia (hypergranular type); urgent coagulation studies and confirmation of PML::RARA by FISH or RT-PCR are recommended, and ATRA should not be delayed.",
+  "ddx": [
+    {"dx": "AML with maturation (e.g. RUNX1::RUNX1T1)", "vs": "Blasts in AML with t(8;21) typically carry a single long slender Auer rod and salmon-colored granules rather than bundles of rods in hypergranular promyelocytes."},
+    {"dx": "Reactive promyelocytes (marrow recovery, G-CSF)", "vs": "Normal promyelocytes have a round eccentric nucleus with a perinuclear hof and never contain Auer rods."},
+    {"dx": "Microgranular APL variant", "vs": "The microgranular variant has bilobed nuclei with sparse or fine granules on light microscopy, whereas this example is hypergranular."},
+    {"dx": "APL with variant RARA translocation (e.g. ZBTB16::RARA)", "vs": "ZBTB16::RARA cases have regular nuclei with fewer Auer rods and are ATRA resistant, requiring molecular testing to separate."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

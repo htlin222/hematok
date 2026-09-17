@@ -1,0 +1,21 @@
+{
+  "id": "3501",
+  "recognize_zh": "一個由三個大型細胞黏聚成的小團，細胞邊界融合、細胞質灰藍，其中一個核被細胞質內的大空泡壓成新月形（類印戒細胞），核染色質粗顆粒狀，與周圍造血細胞明顯不同，符合轉移性腺癌。",
+  "features": [
+    "Small cohesive cluster of three large cells with indistinct shared cell borders",
+    "Large nuclei with coarsely granular chromatin and high N:C ratio",
+    "Clear cytoplasmic vacuole indenting one nucleus into a crescent (signet-ring-like appearance)",
+    "Grey-blue, finely vacuolated cytoplasm",
+    "Background red cells; no admixed hematopoietic maturation within the cluster"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a small cohesive cluster of large non-hematopoietic cells with grey-blue cytoplasm, high nuclear-to-cytoplasmic ratios, and coarsely granular chromatin. One cell contains a clear cytoplasmic vacuole that indents the nucleus into a crescent shape, imparting a signet-ring-like appearance suggestive of mucin. Findings are consistent with metastatic adenocarcinoma; in the appropriate clinical context this is compatible with colorectal origin, to be confirmed by immunohistochemistry (CK20, CDX2, SATB2) on the trephine biopsy.",
+  "ddx": [
+    {"dx": "Erythroblast cluster or erythroid island", "vs": "Erythroid precursors have deep blue cytoplasm, smaller round nuclei, and are arranged around a central macrophage rather than forming vacuolated cohesive cells."},
+    {"dx": "Plasma cells", "vs": "Plasma cells have eccentric nuclei with a perinuclear hof and are dispersed rather than cohesive, and they lack signet-ring mucin vacuoles."},
+    {"dx": "Metastatic gastric signet-ring carcinoma", "vs": "Gastric and colorectal primaries overlap morphologically and require IHC and clinical correlation (e.g., CK7/CK20, CDX2, SATB2) for separation."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

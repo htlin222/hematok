@@ -1,0 +1,29 @@
+{
+  "id": "141",
+  "recognize_zh": "淋巴結結構被取代，小淋巴球與組織球背景中散在帶有明顯嗜酸性大核仁的大型 Hodgkin 細胞；這些細胞 CD30 膜及 Golgi 陽性、CD15 部分陽性、PAX5 弱陽性（比背景 B 細胞淡）、EBER 陽性，雖有少數 CD20 強陽性，仍支持典型何杰金氏淋巴瘤（cHL）。",
+  "features": [
+    "Effaced lymph node with a diffuse to vaguely nodular infiltrate on low power",
+    "Scattered large atypical cells with irregular nuclear contours, vesicular chromatin and prominent eosinophilic nucleoli (Hodgkin and Reed-Sternberg-like cells) in a background of small lymphocytes and epithelioid histiocytes",
+    "Large cells CD30 positive (membranous and Golgi-type) and CD15 positive in a subset",
+    "PAX5 weak nuclear staining in large cells, dimmer than in background small B cells; OCT2 and BOB1 weak or negative in circled large cells",
+    "CD20 negative or weak in most large cells but strongly positive in a focal subset",
+    "EBER in situ hybridization positive in the scattered large atypical cells, not in background small lymphocytes"
+  ],
+  "describe_en": "CT images show bulky conglomerate right cervical lymphadenopathy. Sections of the excised lymph node show effacement of architecture by a diffuse to vaguely nodular lymphohistiocytic infiltrate containing scattered large atypical cells with irregular nuclei and prominent eosinophilic nucleoli; sclerotic bands are not evident in these images. By immunohistochemistry the large cells are CD30 positive, partially CD15 positive, weakly PAX5 positive, and weak to negative for OCT2 and BOB1, while CD20 is negative in most large cells but strongly positive in a focal subset. EBER in situ hybridization highlights the large atypical cells. Findings are consistent with EBV-positive classical Hodgkin lymphoma with focal CD20 expression.",
+  "ddx": [
+    {"dx": "EBV-positive diffuse large B-cell lymphoma, NOS", "vs": "EBV+ DLBCL shows sheets or numerous large cells with uniformly strong CD20, OCT2 and BOB1 and usually no CD15, whereas here the large cells are a minority with weak B-cell program and CD15 expression."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL large cells are strongly CD20, OCT2 and BOB1 positive and CD15/CD30 negative and EBER negative."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "LP cells have multilobated popcorn nuclei with small nucleoli and are CD20, OCT2, BOB1 strongly positive and CD30, CD15 and EBER negative."},
+    {"dx": "Anaplastic large cell lymphoma, ALK-negative", "vs": "ALCL shows cohesive sheets of hallmark cells with uniform strong CD30 and T-cell or cytotoxic markers, lacks PAX5 and is EBER negative."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD30, CD15, PAX5, CD20, OCT2, BOB1; EBER",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Contrast CT (coronal and axial): extensive right cervical lymphadenopathy (circled)",
+    "H&E: small lymphocytes with scattered large atypical cells (arrows, A), effaced node at low power (B), Hodgkin-like cells with prominent nucleoli (C)",
+    "CD30 and CD15 positive large cells, EBER-positive large cells, weak PAX5 in large cells",
+    "CD20 negative/weak in most large cells with focal strong expression; OCT2 and BOB1 weak to negative (circled)"
+  ]
+}

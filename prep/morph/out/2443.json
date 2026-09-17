@@ -1,0 +1,21 @@
+{
+  "id": "2443",
+  "recognize_zh": "周邊血液中一個原始淋巴球：比紅血球稍大、核質比高、胞質只剩一圈淡藍色邊、染色質細緻均勻且核輪廓略不規則，無顆粒；外觀屬 L1 型原始淋巴球，T 細胞系需靠流式確認。",
+  "features": [
+    "Single blast about 1.5 times red cell diameter",
+    "Very high N:C ratio with a thin rim of pale blue agranular cytoplasm",
+    "Round to slightly irregular nucleus with subtle indentation",
+    "Finely stippled chromatin, nucleoli inconspicuous",
+    "Background normochromic red cells without other abnormalities"
+  ],
+  "describe_en": "Peripheral blood smear shows a single small-to-medium blast with a very high nuclear-to-cytoplasmic ratio, a thin rim of agranular pale blue cytoplasm, finely stippled chromatin and a slightly irregular nuclear contour with inconspicuous nucleoli. No Auer rods are seen. The surrounding red cells are unremarkable. Findings are consistent with a circulating lymphoblast; T-lymphoblastic leukemia requires confirmation by flow cytometry showing TdT and cytoplasmic CD3 expression.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Morphology is identical; B-lineage blasts express CD19, CD79a and CD10 and lack cytoplasmic CD3."},
+    {"dx": "Mature small lymphocyte / CLL cell", "vs": "Mature lymphocytes have coarse, block-like clumped chromatin and are TdT negative."},
+    {"dx": "Myeloblast", "vs": "Myeloblasts usually have more cytoplasm, prominent nucleoli and may contain granules or Auer rods, with MPO positivity."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

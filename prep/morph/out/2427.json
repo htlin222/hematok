@@ -1,0 +1,20 @@
+{
+  "id": "2427",
+  "recognize_zh": "骨髓抹片中看不到可辨認的完整細胞，只有一片藍紫色、邊界模糊的無結構物質夾雜大小不一的空泡，細胞核與細胞質界線消失，符合骨髓壞死抹片的特徵。",
+  "features": [
+    "No intact, identifiable hematopoietic cells; cell borders and nuclear detail are lost",
+    "Amorphous, smudged basophilic to purple granular material forming a continuous background",
+    "Numerous round, variably sized clear vacuoles (lipid/degenerated cell remnants)",
+    "Poor staining definition throughout the particle, typical of necrotic aspirate material"
+  ],
+  "describe_en": "Bone marrow aspirate smear (Wright-Giemsa) shows a particle-like aggregate composed of amorphous, smudged basophilic material with numerous clear vacuoles of varying size. Individual hematopoietic cells cannot be identified, and nuclear and cytoplasmic detail is lost throughout the field. No recognizable blasts, maturing myeloid or erythroid elements are present. Findings are consistent with bone marrow necrosis; correlation with the trephine biopsy is required to establish the extent and underlying cause.",
+  "ddx": [
+    {"dx": "Thick, poorly spread aspirate (technical artifact)", "vs": "In a thick smear intact cells are still recognizable at the thinner edges, whereas necrotic material shows no preserved cell outlines anywhere."},
+    {"dx": "Gelatinous transformation (serous atrophy)", "vs": "Gelatinous material is pink-purple, homogeneous and acellular with few scattered intact cells, rather than granular debris with vacuolated degenerated cells."},
+    {"dx": "Clotted or degenerated aged specimen", "vs": "Delayed smear preparation causes swollen, vacuolated but still individually recognizable cells, not confluent amorphous debris."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61055",
+  "recognize_zh": "流式顯示 kappa 輕鏈限制、CD19 陽性但 CD5 陰性的 B 細胞；組織為單一型小至中型淋巴球瀰漫浸潤，免疫染色核陽性，FISH 出現融合訊號（符合 CCND1::IGH），因此即使 CD5 陰性仍是被套細胞淋巴瘤。",
+  "features": [
+    "Flow cytometry: kappa-restricted B cells (lambda negative)",
+    "Flow cytometry: CD19-positive population lacking CD5 expression",
+    "H&E: diffuse sheet of monotonous small-to-medium lymphoid cells with scattered pink hyalinized vessels/histiocytes",
+    "IHC inset: one stain negative in tumor cells, the other with strong nuclear positivity in most tumor cells (consistent with cyclin D1)",
+    "Interphase FISH dual-color dual-fusion probe showing two fusion signals plus one red and one green signal, indicating a balanced translocation"
+  ],
+  "describe_en": "Composite figure. Flow cytometry demonstrates a monotypic kappa-restricted CD19-positive B-cell population that is CD5-negative. Sections of the breast mass show a diffuse infiltrate of monotonous small-to-medium lymphoid cells; immunohistochemistry shows strong nuclear positivity in the majority of tumor cells with a companion stain that is negative. Interphase FISH shows a 2 fusion/1 red/1 green pattern consistent with IGH::CCND1 t(11;14). Findings are consistent with CD5-negative mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Marginal zone lymphoma", "vs": "MZL is CD5-negative but cyclin D1/SOX11-negative and lacks t(11;14)."},
+    {"dx": "Follicular lymphoma, diffuse pattern", "vs": "FL expresses CD10 and BCL6 and carries IGH::BCL2 rather than IGH::CCND1."},
+    {"dx": "Plasma cell neoplasm with t(11;14)", "vs": "Myeloma can be cyclin D1+ with t(11;14) but is CD19/CD20-negative, CD138-positive with cytoplasmic light-chain restriction."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC, flow cytometry, FISH",
+  "match": "consistent",
+  "high_yield": false
+}

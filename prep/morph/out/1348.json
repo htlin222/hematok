@@ -1,0 +1,21 @@
+{
+  "id": "1348",
+  "recognize_zh": "骨髓切片細胞密度高，脂肪空泡減少，散佈多顆大型的巨核細胞（megakaryocytes）且數量增加，背景有大量深色圓核的紅血球系前驅細胞；在 TTP 中這代表周邊消耗導致的反應性巨核細胞與紅血球系增生，本身不具特異性。",
+  "features": [
+    "Hypercellular bone marrow biopsy with reduced fat spaces",
+    "Increased megakaryocytes, scattered singly, with normal-appearing lobulated nuclei and abundant pink cytoplasm",
+    "Numerous small round dark nuclei consistent with erythroid hyperplasia",
+    "Maturing granulocytic elements present",
+    "No fibrosis, granulomas, or infiltrating tumor evident in this field"
+  ],
+  "describe_en": "Bone marrow biopsy section shows a hypercellular marrow with increased megakaryocytes that are dispersed singly without tight clustering or marked atypia. There is a prominent population of small cells with round, dark nuclei consistent with erythroid hyperplasia, together with maturing granulocytic elements. No infiltrative process is identified in this field. Findings are consistent with reactive megakaryocytic and erythroid hyperplasia secondary to peripheral platelet consumption and hemolysis, as seen in thrombotic thrombocytopenic purpura, and are not specific for TTP.",
+  "ddx": [
+    {"dx": "Immune thrombocytopenia", "vs": "ITP marrow shows similarly increased megakaryocytes but without erythroid hyperplasia or schistocytes, and ADAMTS13 activity is normal."},
+    {"dx": "Myeloproliferative neoplasm (essential thrombocythemia/PMF)", "vs": "MPN megakaryocytes are clustered, enlarged with hyperlobated or bulbous hyperchromatic nuclei, often with reticulin fibrosis and thrombocytosis rather than thrombocytopenia."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS shows dysplastic small hypolobated or separated-nuclei megakaryocytes and dysplasia in other lineages."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

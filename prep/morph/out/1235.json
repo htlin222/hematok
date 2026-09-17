@@ -1,0 +1,21 @@
+{
+  "id": "1235",
+  "recognize_zh": "周邊血液中有數顆大型母細胞，核圓、染色質細緻均勻，胞質中等量淺藍、無明顯顆粒，旁邊有一顆正常分葉的中性球可作為大小比較；背景紅血球呈鋸齒狀假影。此圖顯示循環母細胞，但是否「有成熟」需骨髓判定。",
+  "features": [
+    "Several large circulating blasts, larger than the adjacent segmented neutrophil",
+    "High N:C ratio with round to slightly angular nuclei and finely dispersed chromatin",
+    "Moderate rim of pale basophilic cytoplasm, agranular, with no visible Auer rods",
+    "One mature segmented neutrophil with normal lobation and granulation",
+    "Background red cells with crenation artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows several large circulating blasts with high nuclear-to-cytoplasmic ratios, round to slightly angular nuclei, finely dispersed chromatin and a moderate rim of pale basophilic agranular cytoplasm; no Auer rods are identified. A segmented neutrophil with normal lobation and granulation is present for comparison. Background red cells show crenation artifact. The findings indicate circulating blasts in keeping with acute leukemia; classification as acute myeloid leukemia with maturation requires bone marrow evaluation of granulocytic maturation and lineage confirmation.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Agranular blasts without Auer rods cannot be assigned to a lineage morphologically, and MPO cytochemistry or flow cytometry is required."},
+    {"dx": "AML without maturation", "vs": "Peripheral blood blasts look the same, and the separation depends on whether the marrow contains >=10% maturing granulocytes."},
+    {"dx": "Leukoerythroblastic reaction", "vs": "Leukoerythroblastosis shows only rare blasts with nucleated red cells and left-shifted granulocytes, whereas several blasts in one field favor acute leukemia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

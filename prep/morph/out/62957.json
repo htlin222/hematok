@@ -1,0 +1,21 @@
+{
+  "id": "62957",
+  "recognize_zh": "p53 免疫染色中，大多數中型腫瘤細胞核呈強而一致的棕色染色，只有少數細胞為藍色陰性，這種高比例強陽性（overexpression）提示被套細胞淋巴瘤帶有 TP53 突變的高風險表型。",
+  "features": [
+    "Strong, diffuse nuclear p53 staining in the majority (well over 50%) of tumor cells",
+    "Intermediate-sized cells with round to slightly irregular nuclei",
+    "Only a minority of hematoxylin-counterstained negative nuclei",
+    "Staining intensity strong and relatively uniform, unlike the weak heterogeneous wild-type pattern",
+    "Dense sheet-like growth without intervening architecture"
+  ],
+  "describe_en": "Immunohistochemical stain for p53 shows strong nuclear expression in the majority of neoplastic cells, far exceeding the scattered weak staining seen with a wild-type pattern. The positive cells are intermediate in size and grow in dense sheets. This overexpression pattern is associated with TP53 mutation, which in mantle cell lymphoma correlates with blastoid/pleomorphic morphology and poor response to standard chemoimmunotherapy; correlation with TP53 sequencing is recommended.",
+  "ddx": [
+    {"dx": "Wild-type p53 expression", "vs": "Wild-type p53 shows scattered nuclei of variable, mostly weak intensity rather than strong uniform staining in most tumor cells."},
+    {"dx": "p53 null (truncating mutation) pattern", "vs": "A null pattern shows complete absence of nuclear staining with preserved internal control, the opposite of the diffuse overexpression here."},
+    {"dx": "Diffuse large B-cell lymphoma with TP53 mutation", "vs": "DLBCL cells are larger with vesicular chromatin and are cyclin D1- and SOX11-, whereas blastoid MCL retains cyclin D1 and CD5 expression."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: p53",
+  "match": "consistent",
+  "high_yield": false
+}

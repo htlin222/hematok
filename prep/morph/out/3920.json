@@ -1,0 +1,22 @@
+{
+  "id": "3920",
+  "recognize_zh": "骨髓抹片中的巨噬細胞細胞質裡可見被吞噬的紅血球、一顆帶顆粒的有核細胞與深染核碎片，另有一個大空泡，是吞噬血球現象（hemophagocytosis）的例子。",
+  "features": [
+    "Macrophage with abundant grey-blue cytoplasm and irregular outline",
+    "Engulfed red cell within a cytoplasmic vacuole",
+    "Engulfed granulated nucleated cell with an adjacent dense dark nuclear fragment",
+    "Large clear cytoplasmic vacuole",
+    "Scattered small dark pyknotic debris in the cytoplasm",
+    "Background myeloid precursors and lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a macrophage with abundant grey-blue cytoplasm containing a phagocytosed red cell, an engulfed granulated nucleated cell with a dense pyknotic nuclear fragment, a large clear vacuole and scattered small dark debris. The background contains maturing myeloid precursors and lymphocytes. Findings demonstrate hemophagocytosis, which is nonspecific and should be correlated with clinical and laboratory criteria for hemophagocytic lymphohistiocytosis.",
+  "ddx": [
+    {"dx": "Tingible body macrophage", "vs": "Tingible body macrophages contain only apoptotic nuclear debris, not intact ingested red cells or granulocytes."},
+    {"dx": "Cell overlap artifact", "vs": "Overlapping cells lie on the surface without a surrounding vacuolar halo, whereas phagocytosed cells sit within distinct vacuoles."},
+    {"dx": "Macrophage with intracellular organisms (e.g., Histoplasma, Leishmania)", "vs": "Organisms are small uniform 2–4 µm bodies (with kinetoplasts in Leishmania), not whole blood cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

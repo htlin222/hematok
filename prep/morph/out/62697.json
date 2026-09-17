@@ -1,0 +1,21 @@
+{
+  "id": "62697",
+  "recognize_zh": "活細胞的 CD3 對側向散射流式圖：方框內 CD3 陽性 T 細胞（藍色）僅占 22.63%，其左側有一大群低 SS、CD3 陰性到弱的綠色 NK 細胞，數量與 T 細胞相當，顯示 NK 細胞增加。",
+  "features": [
+    "Dot plot of living cells: CD3-PC5.5 (x) versus side scatter (y)",
+    "Boxed CD3-positive, low SS T-cell gate (blue) 22.63% of living cells",
+    "Large green low-SS population CD3 negative to dim (below the T-cell gate), comparable in size to T cells, consistent with NK cells",
+    "Magenta CD3-negative low-SS population (B cells) at left",
+    "Orange intermediate-SS monocytes and dark gray high-SS granulocytes CD3 negative"
+  ],
+  "describe_en": "Flow cytometric CD3 versus side scatter plot of living cells shows CD3-positive T cells comprising 22.63% of events within the boxed gate. A prominent low side scatter CD3-negative population (green), consistent with NK cells and comparable in size to the T-cell population, lies immediately to the left of the gate, together with a smaller CD3-negative B-cell population and CD3-negative monocytes and granulocytes. The expanded CD3-negative lymphoid population indicates that the lymphocytosis is not T-cell derived. Findings are consistent with the reported chronic lymphoproliferative disorder of NK cells.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL expands the CD3-positive gate, whereas here the expanded low-SS population is CD3 negative."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL expands a CD3-negative population, but those cells are CD19/CD5/CD23-positive B cells rather than CD56/CD57-positive NK cells."},
+    {"dx": "Reactive NK-cell lymphocytosis", "vs": "The phenotype is shared; persistence over 6 months and KIR restriction favor a clonal NK-cell disorder."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

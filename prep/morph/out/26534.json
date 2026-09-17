@@ -1,0 +1,22 @@
+{
+  "id": "26534",
+  "recognize_zh": "同一份檢體於抽血後 5、60、90 分鐘製作的血片，血小板由零星散在逐漸聚集成大團塊，紅血球形態正常；這種隨時間加重的血小板凝集會讓自動血球計數機低估血小板（假性血小板減少）。",
+  "features": [
+    "Panel A (5 min): mostly single platelets with only small aggregates",
+    "Panel B (60 min): a discrete cluster of several dozen platelets",
+    "Panel C (90 min): multiple large platelet clumps, especially at the feathered edge",
+    "Red cells normocytic and normochromic without fragmentation",
+    "No fibrin strands or leukocyte satellitism evident"
+  ],
+  "describe_en": "Serial peripheral blood smears prepared 5, 60 and 90 minutes after collection show progressive platelet aggregation, from mostly dispersed platelets at 5 minutes to a discrete clump at 60 minutes and multiple large clumps at 90 minutes. Red cells are unremarkable and no schistocytes are identified. These findings illustrate time-dependent in vitro platelet clumping, most commonly EDTA-dependent, which causes spurious thrombocytopenia on automated counts. Repeat counting in citrate or heparin tubes, or analysis immediately after collection, with smear review is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows reduced platelets evenly across the smear without clumps, and the count does not correct in citrate."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism shows platelets rosetting around neutrophils rather than forming free-standing aggregates."},
+    {"dx": "Partially clotted sample", "vs": "Clotted specimens show fibrin strands entrapping platelets and often low counts of other cell lines, with a clot visible in the tube."},
+    {"dx": "Giant platelets", "vs": "Inherited macrothrombocytopenia shows single platelets approaching red cell size rather than clusters of normal-sized platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

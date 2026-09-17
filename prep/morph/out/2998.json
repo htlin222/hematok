@@ -1,0 +1,22 @@
+{
+  "id": "2998",
+  "recognize_zh": "一顆大型細胞的細胞質塞滿粗大、黑褐色的顆粒（黑色素 melanin），甚至遮住細胞核；背景也有散在的細小深色色素顆粒，這種非造血性的色素細胞提示轉移性黑色素瘤。",
+  "features": [
+    "Large single cell, many times the size of a red cell",
+    "Cytoplasm packed with coarse black-brown pigment granules of varying size obscuring the nucleus",
+    "Partially visible nucleus with reddish-purple chromatin",
+    "Fine dark pigment granules scattered in the background among red cells",
+    "Small adjacent lymphocyte for size comparison"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered red cells with fine dark granular pigment in the background. A large cell contains abundant cytoplasm densely filled with coarse black-brown granules that partly obscure the nucleus. The granules are much coarser and darker than basophil or mast cell granules. Findings are suggestive of melanin-containing cells, consistent with metastatic melanoma in the appropriate context; distinction from a melanophage and confirmation require SOX10, S100, HMB-45 or Melan-A immunostaining.",
+  "ddx": [
+    {"dx": "Hemosiderin-laden macrophage", "vs": "Hemosiderin is golden-brown to blue-green and stains with Prussian blue, whereas melanin is black-brown and Prussian blue negative (Fontana-Masson positive)."},
+    {"dx": "Mast cell", "vs": "Mast cell granules are uniform, purple-black and metachromatic, filling a round-oval cell, and the cell expresses tryptase and CD117."},
+    {"dx": "Melanophage", "vs": "A macrophage that has ingested melanin has a bland histiocytic nucleus and is negative for SOX10/Melan-A, while melanoma cells show nuclear atypia and melanocytic markers."},
+    {"dx": "Basophil", "vs": "Basophils are small granulocytes with a segmented nucleus and dark purple water-soluble granules, far smaller than this cell."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

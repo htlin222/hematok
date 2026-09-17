@@ -1,0 +1,20 @@
+{
+  "id": "62560",
+  "recognize_zh": "PD-L1 染色中，密集的腫瘤細胞大多無明確完整膜染色，棕色訊號主要呈斑片狀、顆粒狀集中在細胞間隙與散在的組織球／基質細胞；這張圖顯示腫瘤細胞 PD-L1 表現低，不支持 PD-L1 高表現的淋巴瘤型別（如 PMBL）。",
+  "features": [
+    "Sheets of medium to large tumor cells with round to oval nuclei, mostly lacking crisp membranous PD-L1 staining",
+    "Patchy weak granular staining concentrated in intercellular spaces and interspersed histiocytic/stromal cells",
+    "A few scattered cells with stronger cytoplasmic staining in the lower right of the field",
+    "Occasional mitotic figures visible within the tumor sheet"
+  ],
+  "describe_en": "PD-L1 immunohistochemistry on the diffuse sheets of medium to large tumor cells shows predominantly absent or weak, incomplete staining of the neoplastic cells. Patchy granular positivity is concentrated in intercellular spaces and in interspersed histiocytic and stromal elements, particularly toward one side of the field. Distinguishing weak tumor membrane staining from background immune cell staining is limited at this magnification, but no strong diffuse membranous tumor-cell expression is evident. PD-L1 is not diagnostic for the classification of double-hit lymphoma and is used mainly to consider entities with 9p24.1 alterations or immunotherapy eligibility.",
+  "ddx": [
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL typically shows strong membranous PD-L1 in tumor cells due to 9p24.1 alterations, with sclerosis and CD23/MAL expression."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "EBV-positive DLBCL often shows high tumor-cell PD-L1 and is EBER-positive."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells show strong PD-L1 membranous staining in a mixed inflammatory background with CD30/CD15 positivity."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PD-L1",
+  "match": "consistent",
+  "high_yield": false
+}

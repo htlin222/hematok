@@ -1,0 +1,22 @@
+{
+  "id": "3728",
+  "recognize_zh": "腹水細胞離心抹片背景是大量嗜中性球，中間有一群大型異常細胞，細胞核大而不規則、染色質細緻，細胞質深藍色、邊緣有泡狀突起（blebs），右下還有一顆正在分裂的大細胞（有絲分裂像）；這些大型深藍細胞質的淋巴樣細胞提示淋巴瘤侵犯腹膜積液。",
+  "features": [
+    "Cluster of large atypical cells, several times the size of neutrophils",
+    "Large irregular or folded nuclei with fine chromatin and occasional nucleoli",
+    "Moderate to abundant deeply basophilic cytoplasm with blebs/projections",
+    "Mitotic figure in a large cell with basophilic cytoplasm",
+    "Background dominated by segmented neutrophils, some vacuolated, and scattered small lymphocytes",
+    "Few RBCs; no cohesive mesothelial sheets with windows"
+  ],
+  "describe_en": "Cytospin preparation of peritoneal fluid shows a background of numerous neutrophils with scattered small lymphocytes. There is a loose aggregate of large atypical cells with irregular, sometimes folded nuclei, fine chromatin, occasional nucleoli and moderate to abundant deeply basophilic cytoplasm with cytoplasmic blebs; a mitotic figure is present in a similar large cell. The cells lack the cohesive sheets, intercellular windows and two-tone cytoplasm of mesothelial cells. Findings are suggestive of involvement by a large-cell lymphoma; flow cytometry and cell-block immunostains are needed to confirm lineage and exclude reactive mesothelial cells or carcinoma.",
+  "ddx": [
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells form cohesive clusters with intercellular windows, central round nuclei and dense two-tone cytoplasm with a lacy border, and are calretinin/WT1 positive."},
+    {"dx": "Metastatic adenocarcinoma", "vs": "Carcinoma forms three-dimensional cohesive balls or acini with molding and mucin vacuoles, and is keratin/MOC31/BerEP4 positive and CD45 negative."},
+    {"dx": "Primary effusion lymphoma", "vs": "PEL cells are immunoblastic/plasmablastic, CD20/CD45 weak or negative with HHV-8 (LANA) positivity, requiring immunostains rather than morphology alone to separate from DLBCL."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

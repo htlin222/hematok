@@ -1,0 +1,21 @@
+{
+  "id": "63804",
+  "recognize_zh": "這張 CD45 免疫染色中，片狀排列的大型腫瘤細胞呈強而完整的細胞膜陽性（膜狀棕色環繞淡藍色細胞核）；典型古典何杰金淋巴瘤（cHL）的 RS 細胞應為 CD45 陰性，因此這種瀰漫陽性支持灰區淋巴瘤（gray zone lymphoma）。",
+  "features": [
+    "Sheets of large neoplastic cells with round to oval vesicular nuclei",
+    "Strong, diffuse, complete membranous CD45 staining on the large cells",
+    "Cohesive sheet-like growth without a prominent small-lymphocyte background in this field",
+    "Stained stromal/vascular elements interspersed; section edge at lower left"
+  ],
+  "describe_en": "Immunohistochemical stain for CD45 (LCA) on a tissue biopsy shows sheets of large atypical lymphoid cells with vesicular nuclei. The large neoplastic cells demonstrate strong, diffuse membranous CD45 positivity. This is contrary to the CD45-negative Hodgkin/Reed-Sternberg cells of classical Hodgkin lymphoma and, together with the H&E and other immunostains, supports a diagnosis of B-cell lymphoma with features intermediate between DLBCL and classical Hodgkin lymphoma (gray zone lymphoma). Morphologic detail of the tumor cells is limited on this single immunostain.",
+  "ddx": [
+    {"dx": "Classical Hodgkin lymphoma", "vs": "HRS cells of cHL are CD45 negative, CD30+/CD15+ with weak PAX5 and are scattered in an inflammatory background rather than forming CD45+ sheets."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL is also CD45+ with sheets of large cells but has strong CD20/CD79a, OCT2/BOB1 and a consistent DLBCL morphology with compartmentalizing sclerosis, lacking cHL-like areas or CD15."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL is CD30 strong and uniform with T-cell/cytotoxic markers and absent PAX5, and CD45 may be variable."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Non-hematopoietic tumors are CD45 negative and express keratin or S100/melanocytic markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD45",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62435",
+  "recognize_zh": "周邊血液中出現大量母細胞，許多具深藍色無顆粒細胞質並有細胞質泡狀突起（cytoplasmic blebs），旁邊有大團淡藍顆粒狀的巨大血小板與巨核細胞碎片，背景仍可見各階段顆粒球——在 CML 病史下符合巨核母細胞急變（megakaryoblastic blast crisis）。",
+  "features": [
+    "Numerous blasts of variable size with round to slightly irregular nuclei, fine chromatin and deeply basophilic agranular cytoplasm",
+    "Several blasts show cytoplasmic blebs or budding, a clue to megakaryoblastic differentiation",
+    "Giant platelets and pale-blue granular megakaryocyte fragments/platelet clumps",
+    "Background left-shifted granulocytes (myelocytes, band and segmented neutrophils) and a probable basophil",
+    "Red cells with rouleaux-like stacking and scattered target cells"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked increase in blasts of variable size with fine chromatin, occasional nucleoli and deeply basophilic, agranular cytoplasm, several of which display cytoplasmic blebs. Numerous giant platelets and pale granular megakaryocytic fragments are present. Left-shifted maturing granulocytes, including myelocytes and a probable basophil, persist in the background, and red cells show rouleaux-like stacking with scattered target cells. In a patient with known chronic myeloid leukemia, findings are consistent with megakaryoblastic blast phase; confirmation requires immunophenotyping for CD41/CD61/CD42b and demonstration of BCR::ABL1.",
+  "ddx": [
+    {"dx": "CML myeloid (myeloblastic) blast phase", "vs": "Myeloblasts may contain granules or Auer rods and are MPO-positive, whereas megakaryoblasts are MPO-negative with blebs and CD41/CD61 expression."},
+    {"dx": "CML lymphoid blast phase", "vs": "Lymphoblasts have scant cytoplasm without blebs and express TdT, CD19/CD10 and no platelet glycoproteins."},
+    {"dx": "Acute megakaryoblastic leukemia de novo", "vs": "Morphology is similar, but a prior chronic phase, basophilia/left-shifted granulocytes and BCR::ABL1 establish blast phase of CML."},
+    {"dx": "Primary myelofibrosis with circulating micromegakaryocytes", "vs": "PMF shows leukoerythroblastosis and teardrop cells with far fewer blasts and is BCR::ABL1-negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

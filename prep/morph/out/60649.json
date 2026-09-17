@@ -1,0 +1,22 @@
+{
+  "id": "60649",
+  "recognize_zh": "淋巴結細針抽吸（FNA）抹片中為單一形態、中至大型的淋巴樣細胞，核輕度不規則、染色質細緻，胞質淡藍並含細小嗜天青顆粒，容易誤認為 T/NK 細胞；B 圖 CD20 瀰漫陽性、C 圖 cyclin D1 核陽性並環繞陰性殘存濾泡，確認為被套細胞淋巴瘤（mantle cell lymphoma）。",
+  "features": [
+    "FNA (A): monotonous medium to large lymphoid cells with slightly irregular, notched nuclear contours",
+    "Finely dispersed to slightly clumped chromatin with inconspicuous nucleoli",
+    "Scant to moderate pale basophilic cytoplasm containing fine azurophilic granules",
+    "Background of lymphoglandular bodies and scattered red cells; no tingible-body macrophages",
+    "Core IHC: diffuse CD20 positivity (B) and nuclear cyclin D1 positivity in the neoplastic cells surrounding a cyclin D1-negative residual follicle (C)"
+  ],
+  "describe_en": "Lymph node fine-needle aspirate (panel A) shows a monotonous population of medium to large lymphoid cells with slightly irregular nuclei, fine chromatin, inconspicuous nucleoli, and a rim of pale cytoplasm containing fine azurophilic granules, in a background of lymphoglandular bodies. Tingible-body macrophages and a polymorphous reactive population are absent. On the tissue section, the infiltrate is diffusely positive for CD20 (panel B), and cyclin D1 (panel C) shows nuclear staining in the neoplastic cells around a negative residual germinal center, consistent with a mantle zone pattern. Findings are consistent with mantle cell lymphoma with unusual cytoplasmic granules, emphasizing that granular lymphoid cells are not restricted to T/NK lineage.",
+  "ddx": [
+    {"dx": "T-cell or NK-cell lymphoma (large granular lymphocytic)", "vs": "Granular cytoplasm mimics cytotoxic T/NK cells, but these cells are CD20 and cyclin D1 positive, whereas T/NK lymphomas express CD3/CD2/CD56 and cytotoxic granule proteins."},
+    {"dx": "Blastoid/pleomorphic MCL versus diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger with vesicular chromatin and prominent nucleoli and are cyclin D1 negative (or weak) and SOX11 negative."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL has small round cells with clumped chromatin, prolymphocytes/paraimmunoblasts in proliferation centers, and is CD23 positive and cyclin D1 negative."},
+    {"dx": "Plasma cell neoplasm with t(11;14)", "vs": "Cyclin D1-positive myeloma cells have eccentric nuclei with plasmacytoid cytoplasm and are CD138 positive and CD20 usually negative."}
+  ],
+  "specimen": "LN",
+  "stain": "Wright-Giemsa (Diff-Quik); IHC: CD20, cyclin D1",
+  "match": "consistent",
+  "high_yield": false
+}

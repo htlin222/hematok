@@ -1,0 +1,22 @@
+{
+  "id": "65076",
+  "recognize_zh": "抹片中央可見數顆大型異常淋巴樣細胞，核大、偏心，細胞質豐富且呈深藍色，周邊散在成熟嗜中性球與小淋巴球；標題所述的吞噬紅血球在此解析度下並不明確，只能看到大細胞緊貼紅血球。",
+  "features": [
+    "Cluster of large atypical mononuclear cells, several times the size of red cells, with eccentric round nuclei",
+    "Moderately dispersed chromatin; nucleoli not well resolved at this magnification",
+    "Abundant deeply basophilic cytoplasm, one cell with pale perinuclear zone",
+    "Red cells closely apposed to the large cells; definite intracytoplasmic engulfed red cells are not clearly resolved",
+    "Background of mature neutrophils, small lymphocytes, platelets and a large granular smudged/degenerated cell"
+  ],
+  "describe_en": "The May-Grunwald-Giemsa-stained smear shows a small cluster of large atypical mononuclear cells with eccentric nuclei, dispersed chromatin and abundant deeply basophilic cytoplasm, in a background of mature neutrophils, small lymphocytes and platelets. Red cells lie closely adjacent to the large cells, but unequivocal intracytoplasmic erythrophagocytosis cannot be confirmed at this image resolution. In the clinical context of CLL, the large basophilic cells are suggestive of large B-cell lymphoma (Richter transformation); tissue biopsy and immunophenotyping are required for confirmation.",
+  "ddx": [
+    {"dx": "Hemophagocytic histiocytes (HLH)", "vs": "Benign histiocytes have low N:C ratio, bland reniform nuclei and pale vacuolated cytoplasm with engulfed cells, rather than basophilic cytoplasm with atypical lymphoid nuclei; CD68/CD163 vs CD20 resolves it."},
+    {"dx": "Prolymphocytes / paraimmunoblasts of CLL", "vs": "Prolymphocytes are medium-sized with a single central nucleolus and moderate pale cytoplasm, smaller than these large basophilic cells."},
+    {"dx": "Plasmablastic lymphoma or plasma cell neoplasm", "vs": "Eccentric nuclei with basophilic cytoplasm overlap morphologically; CD138/MUM1 positivity with CD20 negativity favors plasmablastic lineage."},
+    {"dx": "Monocytes/reactive immunoblasts", "vs": "Monocytes have folded nuclei with gray cytoplasm and fine vacuoles, and immunoblasts occur singly in reactive settings rather than as a clonal atypical population."}
+  ],
+  "specimen": "other",
+  "stain": "May-Grunwald-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

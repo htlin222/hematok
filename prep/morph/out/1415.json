@@ -1,0 +1,22 @@
+{
+  "id": "1415",
+  "recognize_zh": "這是血清蛋白電泳合併免疫固定電泳：SPE 在第 4 刻度處有一條窄而濃的單株帶，這條帶在 IgA 與 λ 泳道同一位置出現，IgG、IgM、κ 泳道則無對應帶，判讀為 IgA-λ 單株蛋白。",
+  "features": [
+    "Serum protein electrophoresis (SPE) lane with a dense albumin band and a discrete, dense restricted band near position 4",
+    "IgA lane shows a band at the same position as the SPE restricted band",
+    "Lambda lane shows a sharp band at the same position",
+    "IgG and kappa lanes show only faint diffuse polyclonal staining without a discrete band",
+    "IgM lane shows no band"
+  ],
+  "describe_en": "Serum protein electrophoresis with immunofixation is shown. The SPE lane shows a discrete, dense restricted band in the beta-gamma region (near position 4). On immunofixation, this band corresponds to a band in the IgA lane and a sharp band in the lambda lane at the same migration position, while the IgG and kappa lanes show only faint diffuse polyclonal staining and the IgM lane shows no band. Findings indicate an IgA lambda monoclonal protein, consistent with a plasma cell neoplasm in the appropriate clinical and marrow context.",
+  "ddx": [
+    {"dx": "IgG kappa monoclonal gammopathy", "vs": "IgG kappa would show a discrete band in the IgG and kappa lanes, whereas those lanes here are diffuse and the band is in IgA and lambda."},
+    {"dx": "Free lambda light chain (light chain myeloma)", "vs": "A free light chain band appears in the lambda lane without a matching heavy-chain band, whereas here the IgA lane has a band at the same position."},
+    {"dx": "Beta-region protein (transferrin or C3) mimicking an M-spike", "vs": "Normal beta proteins are not captured by anti-immunoglobulin antisera, whereas this band fixes with both IgA and lambda."},
+    {"dx": "Biclonal gammopathy", "vs": "Biclonal gammopathy would show two distinct bands in different heavy- or light-chain lanes, which is not seen here."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (immunofixation, protein stain)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

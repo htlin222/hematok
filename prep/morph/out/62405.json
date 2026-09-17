@@ -1,0 +1,22 @@
+{
+  "id": "62405",
+  "recognize_zh": "CD20 染色中黏膜固有層被大片密集的棕色陽性 B 細胞充滿，把殘存的腺體（藍色、陰性）分隔包圍，並可見少數陽性細胞侵入腺上皮；黏膜內瀰漫 B 細胞浸潤合併上皮侵犯，是黏膜相關淋巴組織淋巴瘤（MALT lymphoma）的特徵。",
+  "features": [
+    "Dense, diffuse CD20-positive B-cell infiltrate expanding the lamina propria",
+    "Residual CD20-negative glands separated and surrounded by the infiltrate",
+    "Focal CD20-positive cells infiltrating glandular epithelium (lymphoepithelial lesions)",
+    "Strong membranous staining of small to intermediate lymphoid cells",
+    "Loss of normal mucosal architecture with gland dropout"
+  ],
+  "describe_en": "CD20 immunostain of a mucosal biopsy highlights a dense, diffuse infiltrate of B cells that expands the lamina propria and separates residual glands, which are negative. Scattered CD20-positive cells extend into the glandular epithelium, consistent with lymphoepithelial lesions. The B cells are reported to co-express CD43 and BCL2. The findings are consistent with extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue (MALT lymphoma).",
+  "ddx": [
+    {"dx": "Reactive lymphoid hyperplasia (e.g., H. pylori gastritis)", "vs": "Reactive infiltrates contain well-formed follicles with a mixed T/B distribution, lack aberrant CD43 co-expression, and are polyclonal."},
+    {"dx": "Mantle cell lymphoma (lymphomatous polyposis)", "vs": "MCL cells co-express CD5 and cyclin D1/SOX11, which MALT lymphoma lacks."},
+    {"dx": "Follicular lymphoma", "vs": "FL forms neoplastic follicles expressing CD10 and BCL6 with BCL2 in germinal centers, rather than a diffuse CD10-negative marginal zone infiltrate."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL consists of sheets of large transformed B cells with a high Ki-67 rather than small centrocyte-like/monocytoid cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

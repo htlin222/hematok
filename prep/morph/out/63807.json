@@ -1,0 +1,22 @@
+{
+  "id": "63807",
+  "recognize_zh": "高倍下見多個大型、多形性、核空泡狀且有明顯核仁的 Hodgkin/Reed-Sternberg 樣細胞，部分為雙核或多葉核，散布於小淋巴球與組織球之間，數量偏多，符合灰區淋巴瘤。",
+  "features": [
+    "Increased numbers of large pleomorphic cells with vesicular chromatin and prominent nucleoli",
+    "Binucleated and multilobated Hodgkin/Reed-Sternberg-like cells",
+    "Moderate amphophilic cytoplasm in the large cells",
+    "Background of small dark lymphocytes and histiocytes",
+    "Large cells in loose clusters rather than isolated singly; image resolution limits identification of eosinophils"
+  ],
+  "describe_en": "High-power H&E section shows an increased number of large pleomorphic cells with vesicular chromatin, prominent nucleoli and moderate amphophilic cytoplasm, including binucleated and multilobated Hodgkin/Reed-Sternberg-like forms. These cells are present in loose clusters within a background of small lymphocytes and histiocytes. Eosinophils and fibrosis cannot be reliably assessed at this resolution. The density of large tumor cells, in combination with the mixed CD30/CD15 and B-cell marker profile, supports B-cell lymphoma with features intermediate between DLBCL and classic Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Reed-Sternberg cells are typically sparse in a polymorphous background and lose CD20/CD79a, OCT2 and BOB1."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "Monotonous sheets of large B cells with strong CD20 and usually no CD15."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Hallmark cells with horseshoe-shaped nuclei and T-cell or ALK expression, PAX5 negative."},
+    {"dx": "EBV-positive DLBCL or EBV-positive lymphoproliferative disorder", "vs": "Can contain RS-like cells but show EBER positivity and strong B-cell markers, often in older or immunosuppressed patients."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

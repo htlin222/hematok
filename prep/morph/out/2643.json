@@ -1,0 +1,31 @@
+{
+  "id": "2643",
+  "recognize_zh": "骨髓抹片一小群大型母細胞，核圓、染色質細緻、部分可見核仁，細胞質中等量淡藍色、無顆粒，形態偏大且不似典型小型淋巴母細胞，須配合流式細胞儀才能確認為難治性ALL。",
+  "features": [
+    "Cluster of large blasts with moderate size variation",
+    "Moderate N:C ratio with a moderate rim of pale-blue agranular cytoplasm",
+    "Round to oval nuclei with finely dispersed chromatin",
+    "Small but visible nucleoli in several cells",
+    "No Auer rods or cytoplasmic granules; occasional cells with irregular nuclear contours",
+    "Background of red cells, fat vacuoles and scattered platelets"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows an aggregate of large blasts with round to oval nuclei, finely dispersed chromatin, small but visible nucleoli, and a moderate amount of pale-blue, agranular cytoplasm. Auer rods are not identified, and maturing myeloid or erythroid elements are not evident in this field. The blasts are larger and have more cytoplasm than classic small lymphoblasts, so lineage cannot be assigned on morphology alone. In the stated context, findings are consistent with persistent (refractory) acute lymphoblastic leukemia; flow cytometry and MRD assessment are needed to confirm.",
+  "ddx": [
+    {
+      "dx": "Acute myeloid leukemia",
+      "vs": "Large blasts with visible nucleoli and moderate cytoplasm overlap with myeloblasts, so MPO and flow cytometry are needed to exclude a myeloid or lineage-switched process."
+    },
+    {
+      "dx": "Regenerating marrow after chemotherapy",
+      "vs": "Recovery marrow shows a mixed, maturing population of promyelocytes, erythroid precursors, and hematogones rather than a cohesive monotonous blast population."
+    },
+    {
+      "dx": "Metastatic small round cell tumor",
+      "vs": "Tumor cells form tight cohesive clusters with nuclear molding and are negative for CD45 and TdT/CD19, while leukemic blasts are discohesive at the edges and CD45 positive."
+    }
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

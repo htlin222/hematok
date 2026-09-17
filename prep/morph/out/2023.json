@@ -1,0 +1,22 @@
+{
+  "id": "2023",
+  "recognize_zh": "高倍骨髓切片中成片的大型細胞，胞質豐富淡粉灰色、呈細纖維狀條紋（像揉皺紙），細胞核小且偏位，夾雜少數造血細胞與褐色含鐵血黃素；這種條紋狀淡染胞質是 Gaucher 細胞在 H&E 切片上的樣貌。",
+  "features": [
+    "Sheets of large histiocytes with abundant pale pink-gray cytoplasm and distinct cell borders",
+    "Cytoplasm with fine fibrillary, striated 'crumpled tissue paper' texture",
+    "Small, round to oval, eccentric nuclei with occasional small nucleoli",
+    "Interspersed residual hematopoietic cells (erythroid precursors, neutrophils)",
+    "Scattered golden-brown pigment consistent with hemosiderin"
+  ],
+  "describe_en": "Bone marrow core biopsy at high power shows sheets of large histiocytes with abundant pale, fibrillary to striated cytoplasm and small eccentric nuclei, among which residual erythroid and granulocytic cells and scattered hemosiderin pigment are present. No cytologic atypia is identified. The storage cells would be expected to be PAS-positive and diastase-resistant, iron-positive and CD68-positive. Findings are consistent with bone marrow involvement by Gaucher disease; enzyme assay for glucocerebrosidase and GBA1 genotyping are recommended.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher histiocytes (CML, myeloma, thalassemia)", "vs": "Similar striated cytoplasm but with an underlying neoplastic or hemolytic disorder and normal glucocerebrosidase activity."},
+    {"dx": "Mycobacterium avium-intracellulare infection", "vs": "Striated histiocytes contain abundant acid-fast bacilli on Ziehl-Neelsen stain."},
+    {"dx": "Niemann-Pick disease / foamy histiocytes", "vs": "Cytoplasm is finely vacuolated and bubbly rather than fibrillary."},
+    {"dx": "Crystal-storing histiocytosis", "vs": "Histiocytes contain eosinophilic crystalline immunoglobulin inclusions with an associated light-chain-restricted plasma cell neoplasm."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

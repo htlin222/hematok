@@ -1,0 +1,20 @@
+{
+  "id": "62950",
+  "recognize_zh": "CD5 染色下大片中型腫瘤細胞呈膜/質陽性（強度中等），少數細胞顏色更深（背景 T 細胞），內皮與間質細胞為陰性；B 細胞淋巴瘤出現異常 CD5 表現，縮小到被套細胞淋巴瘤與 CLL/SLL 的鑑別。",
+  "features": [
+    "Diffuse membranous/cytoplasmic CD5 staining of intermediate-sized tumor cells",
+    "Moderate staining intensity in tumor cells, with scattered more intensely stained small T cells",
+    "Negative stromal/endothelial cells along small vessels",
+    "Monotonous sheet-like growth with round nuclei"
+  ],
+  "describe_en": "Immunohistochemical stain for CD5 shows moderate membranous and cytoplasmic staining in the diffuse sheets of neoplastic lymphoid cells, with a few more strongly staining small reactive T cells and negative vascular and stromal elements. Aberrant CD5 expression in a B-cell lymphoma narrows the differential chiefly to mantle cell lymphoma and CLL/SLL. With cyclin D1 positivity and LEF1 negativity, findings are consistent with mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "CLL/SLL", "vs": "CLL/SLL is also CD5+ but is CD23+, LEF1+, and cyclin D1-, with proliferation centers."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "PTCL is CD5+ (or shows CD5 loss) but tumor cells are CD3+ and lack B-cell markers."},
+    {"dx": "CD5-positive diffuse large B-cell lymphoma", "vs": "CD5+ DLBCL consists of large cells with vesicular chromatin and is cyclin D1- and SOX11-."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD5",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61733",
+  "recognize_zh": "骨髓切片 TCF4（E2-2）免疫染色：大多數腫瘤細胞呈強而均勻的核染色，陽性核密集成片，背景少數細胞為陰性（藍色核），核陽性的 TCF4 是漿細胞樣樹突細胞譜系的特異標記。",
+  "features": [
+    "Strong, diffuse nuclear TCF4 staining in the majority of intermediate-sized tumor cells",
+    "Positive nuclei round to slightly irregular, packed in sheets",
+    "Interspersed TCF4-negative background cells with blue hematoxylin-stained nuclei",
+    "Faint granular cytoplasmic background staining without membranous pattern",
+    "Adipocytes present, indicating residual marrow architecture"
+  ],
+  "describe_en": "Immunohistochemical stain for TCF4 on a bone marrow biopsy shows strong nuclear positivity in the majority of intermediate-sized neoplastic cells, which form confluent sheets between adipocytes. Scattered residual hematopoietic cells are negative. TCF4 (E2-2) is a transcription factor of plasmacytoid dendritic cell lineage, and strong nuclear co-expression with CD123 is highly supportive of plasmacytoid dendritic cell differentiation. Findings are consistent with involvement by blastic plasmacytoid dendritic cell neoplasm in conjunction with CD4, CD56 and CD123 expression.",
+  "ddx": [
+    {"dx": "Mature plasmacytoid dendritic cell proliferation associated with myeloid neoplasm", "vs": "These pDC nodules are also TCF4+/CD123+ but are usually CD56-negative, composed of mature-appearing cells, and accompany an underlying CMML/AML clone."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monocytic blasts are TCF4-negative or only weak/focal, and express lysozyme and CD14/CD163."},
+    {"dx": "Burkitt lymphoma or other B-cell neoplasm with TCF3/TCF4 expression", "vs": "B-cell lymphomas may show nuclear TCF4 but express PAX5/CD20/CD19 and lack CD123 and CD4."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: TCF4",
+  "match": "consistent",
+  "high_yield": false
+}

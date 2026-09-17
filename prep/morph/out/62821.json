@@ -1,0 +1,21 @@
+{
+  "id": "62821",
+  "recognize_zh": "CD138 染色呈異質性：中央一大片細胞為中等強度膜狀陽性、外圍許多細胞為陰性，另有散在單個或小群、染色極深的細胞（殘存正常漿細胞）；腫瘤細胞染色強弱不一，提醒 CD138 並非漿細胞專一標記，癌細胞也會陽性。",
+  "features": [
+    "IHC for CD138 on a cellular marrow core with scattered fat spaces",
+    "Central sheet of cells with moderate membranous and cytoplasmic staining",
+    "Adjacent large areas of tumor cells negative for CD138",
+    "Scattered single cells and small clusters with strong, dark staining, consistent with residual plasma cells",
+    "Heterogeneous staining intensity (absent, moderate, strong) across the field"
+  ],
+  "describe_en": "Immunohistochemical stain for CD138 on the bone marrow core shows heterogeneous staining of the neoplastic infiltrate, with a central sheet of cells showing moderate membranous and cytoplasmic positivity and surrounding areas that are negative. Scattered single cells and small clusters with strong, crisp staining are also present and likely represent residual reactive plasma cells. CD138 (syndecan-1) is expressed by many carcinomas, so positivity does not establish plasma cell lineage. Correlation with cytokeratin, GATA3 and kappa/lambda stains supported metastatic carcinoma with plasmacytoid morphology.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma typically shows uniform strong CD138 positivity with kappa or lambda restriction, whereas this infiltrate stains variably and is light chain negative."},
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are strongly positive but scattered and polytypic, like the dark-staining residual cells here, not forming variably stained sheets."},
+    {"dx": "Metastatic breast carcinoma", "vs": "Carcinoma cells may be CD138 positive but are distinguished by cytokeratin, GATA3 and ER expression."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD138",
+  "match": "consistent",
+  "high_yield": false
+}

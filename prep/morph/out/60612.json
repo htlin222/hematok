@@ -1,0 +1,23 @@
+{
+  "id": "60612",
+  "recognize_zh": "腦脊髓液細胞離心抹片中聚集大量大型芽細胞：核大、染色質細緻、可見多個核仁，部分核呈凹陷或分葉狀，胞質灰藍並含細小嗜天青顆粒，偶見胞質泡狀突起（blebs），代表 AML 復發侵犯中樞神經。",
+  "features": [
+    "Cytospin with numerous large blasts, tightly clustered, with high to moderate N:C ratio",
+    "Nuclei round to irregular, some indented, folded or lobulated (monocytoid/myelomonocytic appearance)",
+    "Fine, dispersed chromatin with one to several distinct nucleoli",
+    "Moderate gray-blue cytoplasm with fine azurophilic granules and a perinuclear clear zone (Golgi) in some cells",
+    "Cytoplasmic blebs/pseudopods at cell membranes, likely partly cytospin artifact",
+    "No lymphocytes or red cells to suggest traumatic tap in this field"
+  ],
+  "describe_en": "Cytospin preparation of cerebrospinal fluid shows numerous large atypical mononuclear cells with fine, dispersed chromatin, prominent nucleoli, and irregular, occasionally folded or lobulated nuclei. The cells have moderate amounts of gray-blue cytoplasm containing fine azurophilic granules, with cytoplasmic blebbing. No significant peripheral blood contamination is evident in this field. Findings are consistent with involvement of the CSF by acute myeloid leukemia, likely with myelomonocytic/monocytic differentiation, and should be confirmed by flow cytometry or cytochemistry.",
+  "ddx": [
+    {"dx": "Reactive monocytes/activated lymphocytes in meningitis", "vs": "Reactive cells are a mixed population with mature chromatin and no nucleoli, not a monotonous population of nucleolated blasts."},
+    {"dx": "Lymphoblastic leukemia/lymphoma in CSF", "vs": "Lymphoblasts are smaller with scant agranular cytoplasm and less nuclear folding; flow cytometry separates lineage."},
+    {"dx": "Metastatic carcinoma or medulloblastoma", "vs": "Solid tumor cells form cohesive three-dimensional clusters with molding and lack cytoplasmic azurophilic granules."},
+    {"dx": "Blood contamination from traumatic tap with circulating blasts", "vs": "Contamination is accompanied by many red cells and blasts proportional to peripheral blood, unlike this concentrated blast population without red cells."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

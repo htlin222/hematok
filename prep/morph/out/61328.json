@@ -1,0 +1,21 @@
+{
+  "id": "61328",
+  "recognize_zh": "單一中型母細胞，核圓形略偏心、染色質細緻，細胞質淡藍無明顯顆粒；在核右緣可見一條細長深色針狀構造，疑為 Auer 小體（Auer rod），但本圖中非常細小，辨識需謹慎。",
+  "features": [
+    "Single intermediate-sized mononuclear cell with high N:C ratio",
+    "Round to oval, slightly eccentric nucleus with fine chromatin",
+    "Moderate pale blue cytoplasm without obvious azurophilic granules",
+    "Thin, dark, needle-like linear inclusion along the right nuclear margin, suggestive of an Auer rod",
+    "Background normocytic red cells and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a single intermediate-sized blast with a round, slightly eccentric nucleus, finely dispersed chromatin, and a moderate rim of pale blue cytoplasm lacking obvious granules. A thin, dark, needle-shaped linear inclusion is present along the right nuclear border, most suggestive of an Auer rod, although it is subtle and partly overlies the nucleus at this magnification. Red cells and platelets are unremarkable. If the inclusion is confirmed as an Auer rod (e.g., by MPO staining), the finding establishes myeloid lineage and is consistent with acute myeloid leukemia.",
+  "ddx": [
+    {"dx": "Lymphoblast or reactive lymphocyte", "vs": "Lymphoid cells never contain Auer rods and are MPO-negative."},
+    {"dx": "Overlying debris or platelet fragment artifact", "vs": "Artifact lies in a different focal plane and is MPO-negative, whereas a true Auer rod is intracytoplasmic, azurophilic, and MPO-positive."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells have bilobed nuclei and heavy granulation or bundles of multiple Auer rods (faggot cells) rather than a single rod in an agranular blast."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

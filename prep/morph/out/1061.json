@@ -1,0 +1,21 @@
+{
+  "id": "1061",
+  "recognize_zh": "骨髓抹片中央有數顆大型細胞聚成一小群，細胞質豐富深藍、核偏心呈卵圓形，細胞質中有一塊離核較遠的淡染區（hof），外形像漿細胞但體積大得多，這是造骨細胞（osteoblasts）。",
+  "features": [
+    "Small cluster of large cells, several times the size of plasma cells",
+    "Abundant deep blue cytoplasm with ill-defined, confluent cell borders",
+    "Eccentric oval nuclei with fine to reticular chromatin and small nucleoli",
+    "Pale cytoplasmic clear zone (Golgi) located away from the nucleus",
+    "Surrounding normal granulocytic and erythroid precursors"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a small cluster of large cells with abundant deep blue cytoplasm, eccentric oval nuclei with fine reticular chromatin and small nucleoli, and a pale cytoplasmic clear zone separated from the nucleus. Surrounding myeloid and erythroid precursors are unremarkable. Findings are consistent with osteoblasts, a normal marrow constituent that is more common in children and in conditions of active bone formation.",
+  "ddx": [
+    {"dx": "Plasma cells", "vs": "Plasma cells are much smaller with clumped clock-face chromatin and a perinuclear hof immediately adjacent to the nucleus."},
+    {"dx": "Metastatic carcinoma cluster", "vs": "Carcinoma cells show nuclear pleomorphism, molding, prominent nucleoli and cohesive three-dimensional clusters, and are keratin positive."},
+    {"dx": "Plasmablastic myeloma cells", "vs": "Plasmablasts have large nucleoli and high N:C ratio and appear as a monoclonal population, confirmed by CD138 and light chain restriction."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

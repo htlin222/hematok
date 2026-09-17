@@ -1,0 +1,22 @@
+{
+  "id": "17751",
+  "recognize_zh": "A 為骨髓切片觸印片（touch imprint），可見成群大型單核細胞、核圓、細胞質中等偏灰藍；B 為骨髓切片，細胞密集填滿髓腔、細胞間有透明間隙。重點在於骨髓抽不出（dry tap）時，觸印片仍可提供細胞學判讀。",
+  "features": [
+    "Panel A (touch imprint): cohesive-appearing clusters of medium-to-large mononuclear cells with round nuclei and moderate grey-blue cytoplasm",
+    "Panel A: several cells show pale peripheral cytoplasm or perinuclear clearing; scattered small dark lymphocytes and smudged cells",
+    "Panel B (trephine section): diffusely hypercellular marrow packed with monotonous cells, obliterating fat",
+    "Panel B: cells separated by clear spaces/halos; one bony trabecula edge at right",
+    "Low resolution limits assessment of chromatin, nucleoli and cytoplasmic projections"
+  ],
+  "describe_en": "Panel A shows a bone marrow touch imprint containing clusters of medium-to-large mononuclear cells with round nuclei, moderate grey-blue cytoplasm and occasional perinuclear or peripheral cytoplasmic clearing, admixed with a few small lymphocytes. Panel B shows the corresponding trephine biopsy, which is diffusely packed with a monotonous cellular infiltrate replacing normal fat and hematopoiesis, with cells separated by clear cytoplasmic spaces. Image resolution precludes assessment of fine nuclear detail and definitive lineage assignment. The figure illustrates that when a packed or fibrotic marrow yields a dry tap, a touch imprint of the core provides cytologic material; findings indicate a diffuse marrow-replacing infiltrate requiring immunophenotyping for classification.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells show fine circumferential cytoplasmic projections on imprints and a fried-egg pattern with reticulin fibrosis on biopsy, confirmed by CD11c, CD25, CD103, annexin A1 and BRAF V600E."},
+    {"dx": "Acute myeloid or lymphoblastic leukemia", "vs": "Blasts have fine chromatin with nucleoli and high N:C ratio, and are distinguished by CD34, MPO or TdT immunostaining rather than by this low-resolution image."},
+    {"dx": "Primary myelofibrosis", "vs": "Myelofibrosis causes dry tap through fibrosis with clustered atypical megakaryocytes and streaming, not a monotonous sheet of mononuclear cells."},
+    {"dx": "Metastatic carcinoma", "vs": "Metastatic carcinoma forms truly cohesive epithelial clusters with nuclear molding and is cytokeratin-positive and CD45-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa (imprint), H&E (biopsy)",
+  "match": "partial",
+  "high_yield": false
+}

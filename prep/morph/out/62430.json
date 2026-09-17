@@ -1,0 +1,22 @@
+{
+  "id": "62430",
+  "recognize_zh": "整個視野是一片大小均一、緊密排列的腫瘤細胞，細胞膜呈均勻一致的 CD19 棕色陽性，僅夾雜少數染色陰性的空白區（對應 starry-sky 的巨噬細胞與血管）——表示腫瘤為 B 細胞來源，符合 Burkitt 淋巴瘤的免疫表型之一。",
+  "features": [
+    "Diffuse sheet of densely packed, monotonous tumor cells",
+    "Strong, uniform membranous CD19 staining in virtually all tumor cells",
+    "Scattered small negative pale areas corresponding to tingible-body macrophages and vessels",
+    "No nodular or follicular architecture evident at this power",
+    "Cytologic detail limited at this magnification"
+  ],
+  "describe_en": "CD19 immunostain shows a diffuse sheet of monotonous, densely packed tumor cells with strong, uniform membranous positivity. Scattered unstained pale spaces are present, corresponding to interspersed macrophages and vessels of a starry-sky pattern. No residual follicular architecture is appreciated. Findings confirm a B-cell lineage neoplasm; together with CD10/BCL6 positivity, BCL2 negativity, Ki-67 near 100% and MYC rearrangement, this supports Burkitt lymphoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma / high-grade B-cell lymphoma", "vs": "These are also CD19-positive, so separation relies on cytology, BCL2 expression, Ki-67 below near-100% and MYC/BCL2/BCL6 FISH."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "Lymphoblastic lymphoma is CD19-positive but TdT-positive and surface-immunoglobulin-negative, unlike Burkitt lymphoma."},
+    {"dx": "T-lymphoblastic or other T-cell lymphoma", "vs": "T-cell neoplasms would be CD19-negative and CD3-positive."},
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma is typically CD19-negative (except t(8;21)-associated cases) and expresses MPO, CD33 or CD117."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD19",
+  "match": "consistent",
+  "high_yield": false
+}

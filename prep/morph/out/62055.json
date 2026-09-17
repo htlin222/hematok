@@ -1,0 +1,22 @@
+{
+  "id": "62055",
+  "recognize_zh": "低倍下淋巴結結構完全被瀰漫性浸潤取代，深藍小淋巴球間夾雜大量淡粉紅色的斑駁區域（組織球或大細胞），看不到明確結節，呈現 NLPHL 瀰漫型或類 THRLBCL 型態的線索。",
+  "features": [
+    "Diffuse effacement of lymph node architecture without discernible nodules",
+    "Mottled appearance from numerous small pale eosinophilic foci interspersed among dark small lymphocytes",
+    "Pale foci likely represent histiocytes and/or scattered large cells; individual cytology not assessable",
+    "Scattered small vessels; no broad sclerosis or necrosis",
+    "No residual normal follicles or sinuses seen in this field"
+  ],
+  "describe_en": "Low-power H&E section of lymph node shows diffuse effacement of the architecture by a lymphoid infiltrate with a mottled appearance, created by numerous pale eosinophilic foci distributed among dark small lymphocytes. No nodules, residual follicles, sinuses, sclerosis, or necrosis are evident in this field. The pale foci likely correspond to histiocytes and/or large cells, but cytologic detail is not assessable at this magnification. In the context of nodular lymphocyte predominant Hodgkin lymphoma, this diffuse histiocyte-rich pattern resembles T-cell/histiocyte-rich large B-cell lymphoma; CD20, CD3, CD8, PD-1 and CD21 staining is needed to distinguish a diffuse variant pattern from transformation.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma (de novo)", "vs": "THRLBCL is entirely diffuse with scattered large B cells among CD8+ T cells and histiocytes and lacks residual nodules or CD21+ meshworks anywhere in the node."},
+    {"dx": "Classic Hodgkin lymphoma, mixed cellularity", "vs": "MCCHL has a mottled diffuse pattern too, but contains eosinophils, plasma cells and CD30+/CD15+ HRS cells."},
+    {"dx": "Peripheral T-cell lymphoma (lymphoepithelioid variant)", "vs": "The Lennert variant shows diffuse epithelioid histiocyte clusters among atypical small CD4+ T cells with clonal TCR rearrangement and no CD20+ large cells."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL shows confluent sheets of large cells, which would appear as a monotonous rather than mottled infiltrate."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

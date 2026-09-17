@@ -1,0 +1,22 @@
+{
+  "id": "60535",
+  "recognize_zh": "這是免疫組織化學染色（未標示抗體），許多散在細胞的細胞質呈粗顆粒狀棕色陽性，背景為核淡、卵圓形的大細胞群；此顆粒狀陽性型態類似細胞毒性顆粒蛋白（如 TIA-1、granzyme B）或溶小體標記（如 CD68），需對照原始說明判讀。",
+  "features": [
+    "IHC with brown DAB chromogen and hematoxylin counterstain; antibody not labeled",
+    "Numerous scattered cells with coarse, granular to dot-like cytoplasmic positivity",
+    "Background of negative cells with oval to reniform, pale vesicular nuclei and abundant pale cytoplasm, suggestive of epithelioid histiocytes",
+    "Positive cells are small-to-medium, interspersed rather than forming sheets",
+    "Faint diffuse background staining"
+  ],
+  "describe_en": "Immunohistochemical stain of a lymphoid lesion shows numerous scattered small-to-medium cells with coarse granular cytoplasmic positivity, distributed among a background of negative cells with pale oval to reniform nuclei and abundant cytoplasm resembling epithelioid histiocytes. The antibody is not specified, so the stained population cannot be definitively assigned; a granular cytoplasmic pattern of this kind is typical of cytotoxic granule proteins (TIA-1, granzyme B, perforin) or lysosomal markers such as CD68. In the context of the title, the image illustrates the mixed population of lymphoepithelioid cell (Lennert) lymphoma, a variant of peripheral T-cell lymphoma, NOS, in which neoplastic T cells frequently show a cytotoxic phenotype amid abundant epithelioid histiocytes.",
+  "ddx": [
+    {"dx": "Hodgkin lymphoma with epithelioid histiocytes", "vs": "Classic Hodgkin lymphoma contains CD30+/CD15+ Hodgkin/Reed-Sternberg cells, which are absent from the lymphoepithelioid variant of PTCL."},
+    {"dx": "Toxoplasma lymphadenitis", "vs": "Toxoplasmosis shows small epithelioid clusters encroaching on reactive follicles with monocytoid B cells and a polyclonal T-cell population."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows arborizing high endothelial venules, expanded CD21+ follicular dendritic meshworks and a TFH phenotype (PD1, CXCL13)."},
+    {"dx": "Granulomatous lymphadenitis (infection, sarcoidosis)", "vs": "Reactive granulomas form discrete aggregates and lack a clonal atypical T-cell population by TCR studies."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antibody not labeled",
+  "match": "partial",
+  "high_yield": false
+}

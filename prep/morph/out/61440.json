@@ -1,0 +1,22 @@
+{
+  "id": "61440",
+  "recognize_zh": "骨髓切片中央有一顆大型前紅血球母細胞，核內染色質被均質淡染、玻璃樣的病毒包涵體取代，核膜周邊染色質濃縮成一圈（lantern cell）；周圍可見含棕色含鐵血黃素的巨噬細胞，提示微小病毒 B19 感染。",
+  "features": [
+    "Central enlarged pronormoblast with a large nucleus showing a pale, glassy eosinophilic-to-amphophilic intranuclear inclusion",
+    "Chromatin marginated to the nuclear membrane, giving a rim-like appearance and a small eccentric chromatin clump",
+    "Scattered macrophages with golden-brown hemosiderin pigment",
+    "Hematopoietic cells of mixed lineage, with relatively few maturing erythroid precursors in this field",
+    "Adipocytes and a stromal/vascular structure crossing the field"
+  ],
+  "describe_en": "Bone marrow core biopsy shows marrow with fat spaces and mixed hematopoietic cells, among which is an enlarged pronormoblast containing a large nucleus with a pale, glassy intranuclear inclusion and marginated chromatin. Maturing erythroid precursors appear reduced in this field, and hemosiderin-laden macrophages are present. Findings are suggestive of parvovirus B19 infection with erythroid hypoplasia; parvovirus B19 immunohistochemistry or ISH is recommended for confirmation.",
+  "ddx": [
+    {"dx": "CMV inclusion", "vs": "CMV inclusions are 'owl-eye' with a dense eosinophilic inclusion and halo plus granular cytoplasmic inclusions in endothelial/stromal cells rather than erythroid precursors."},
+    {"dx": "Pure erythroid leukemia", "vs": "Consists of sheets of proerythroblasts, not isolated large cells with glassy nuclear inclusions."},
+    {"dx": "Megaloblastic erythroid precursors", "vs": "Megaloblasts show open chromatin across maturing stages with hypercellular erythroid hyperplasia rather than an inclusion with erythroid hypoplasia."},
+    {"dx": "Hodgkin/Reed-Sternberg-like cells", "vs": "HRS cells have large eosinophilic nucleoli and a mixed inflammatory background, and are CD30+/CD15+."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

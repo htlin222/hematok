@@ -1,0 +1,22 @@
+{
+  "id": "61676",
+  "recognize_zh": "低倍血片中可見三顆小型成熟樣淋巴球，核圓、染色質粗塊狀、細胞質稀少，其中兩顆的細胞質邊緣有數個清楚的小空泡，符合帶細胞質空泡的慢性淋巴球性白血病（CLL）細胞；空泡本身不具診斷特異性，需靠免疫表型確認。",
+  "features": [
+    "Three small lymphoid cells, only slightly larger than red cells",
+    "High N:C ratio with round to slightly oval nuclei",
+    "Dense, coarsely clumped chromatin; nucleoli not seen",
+    "Scant pale blue cytoplasm; two cells show a few small, sharply punched-out clear cytoplasmic vacuoles",
+    "Background normocytic red cells with scattered platelets; no smudge cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear at low-intermediate power shows several small mature-appearing lymphocytes among normocytic red cells and adequate platelets. The lymphocytes have round nuclei with coarsely clumped chromatin, no visible nucleoli and scant pale cytoplasm. Two of the cells contain small, discrete clear cytoplasmic vacuoles. With a supporting immunophenotype (CD5+, CD23+, dim surface light chain), findings are consistent with chronic lymphocytic leukemia with cytoplasmic vacuolation, which is thought to reflect lipid storage.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "Mantle cell lymphoma cells are often more irregular with notched nuclei and less clumped chromatin, and are distinguished by cyclin D1/SOX11 positivity and CD23 negativity rather than by vacuoles."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells are medium-sized with finely stippled chromatin, multiple nucleoli and deeply basophilic cytoplasm with numerous vacuoles, unlike these small cells with clumped chromatin."},
+    {"dx": "Lysosomal storage disorder (e.g. Wolman disease, Pompe, Batten disease)", "vs": "Storage diseases produce vacuolated lymphocytes in a background of normal lymphocyte counts and clinical stigmata, without a clonal CD5+/CD23+ B-cell population."},
+    {"dx": "EDTA storage artifact", "vs": "Storage-related vacuolation affects neutrophils and monocytes as well as lymphocytes in an aged sample, whereas these vacuoles are restricted to the neoplastic lymphocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

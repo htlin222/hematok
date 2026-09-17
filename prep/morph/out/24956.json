@@ -1,0 +1,22 @@
+{
+  "id": "24956",
+  "recognize_zh": "血片中紅血球呈兩群（dimorphic）：一群大小與血色正常，另一群明顯淡染、薄而小，常呈拉長、淚滴或不規則形；在女性慢性小球性貧血中，這種雙群紅血球提示 X 染色體連鎖鐵粒母細胞貧血（XLSA）帶因者的 X 染色體失活偏移。",
+  "features": [
+    "Dimorphic red cell population: normochromic normocytic cells admixed with a distinct population of hypochromic cells",
+    "Hypochromic cells thin, often microcytic, with elongated, teardrop and irregular shapes",
+    "Some very pale ghost-like red cells with only a rim of hemoglobin",
+    "No polychromasia, consistent with a non-regenerative anemia",
+    "Platelets present and normal in appearance"
+  ],
+  "describe_en": "Peripheral blood smear shows a dimorphic red cell picture with a population of normochromic normocytic erythrocytes and a second population of markedly hypochromic, thin, often microcytic cells, many of which are elongated or teardrop-shaped. Polychromasia is not evident. Platelets appear normal. In a woman with longstanding non-regenerative microcytic anemia, findings are suggestive of X-linked sideroblastic anemia in a heterozygous female with skewed X inactivation; bone marrow iron stain for ring sideroblasts, iron studies and ALAS2 sequencing are recommended.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia under treatment", "vs": "Treated iron deficiency shows a dimorphic picture with polychromasia and a rising reticulocyte count, with low ferritin before therapy."},
+    {"dx": "Recent red cell transfusion", "vs": "Post-transfusion dimorphism is transient and history-dependent, and ring sideroblasts are absent."},
+    {"dx": "MDS with ring sideroblasts", "vs": "MDS-RS typically occurs in older patients with a macrocytic dimorphic picture, dysplasia and SF3B1 mutation rather than a germline ALAS2 variant."},
+    {"dx": "Thalassemia trait", "vs": "Thal trait shows uniform microcytosis with target cells and basophilic stippling rather than two distinct populations."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

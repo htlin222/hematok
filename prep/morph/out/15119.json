@@ -1,0 +1,23 @@
+{
+  "id": "15119",
+  "recognize_zh": "四張皮膚照片：A 圖肢體密集紅色斑丘疹（麻疹樣）；B 圖深色皮膚上紫灰色、邊緣隆起的扁平苔蘚樣斑塊；C 圖小腿散在紅色鱗屑性丘疹；D 圖紅斑背景上密集毛囊性小丘疹（毛囊角化樣）。這些都屬於 NIH 慢性移植物抗宿主病皮膚評分中的「紅斑（erythema）」類別。",
+  "features": [
+    "A: dense erythematous maculopapular (morbilliform) eruption on the extremity",
+    "B: violaceous, polygonal lichen planus-like plaques with a raised border on darkly pigmented skin",
+    "C: scattered erythematous scaly papules and small plaques on the lower leg (papulosquamous)",
+    "D: diffuse erythema with numerous monomorphic follicular papules (keratosis pilaris-like)",
+    "Clinical photographs only; no histology"
+  ],
+  "describe_en": "Composite clinical photographs of cutaneous lesions grouped under the NIH erythema category for chronic graft-versus-host disease scoring. Panel A shows a confluent erythematous maculopapular, morbilliform eruption. Panel B shows violaceous polygonal lichen planus-like plaques with raised borders on pigmented skin. Panel C shows scattered erythematous papulosquamous papules on the lower leg, and panel D shows diffuse erythema with keratosis pilaris-like follicular papules. Of these, lichen planus-like lesions are diagnostic of chronic GVHD, while maculopapular erythema and papulosquamous or follicular lesions are shared with acute GVHD or other conditions and need other supporting features.",
+  "ddx": [
+    {"dx": "Drug eruption (morbilliform)", "vs": "Drug exanthems begin within days to weeks of a new medication and resolve after withdrawal, whereas GVHD rashes track with immunosuppression changes and show interface dermatitis with satellite necrosis."},
+    {"dx": "Viral exanthem (e.g., HHV6, CMV)", "vs": "Viral rashes occur with fever and positive viral PCR and lack lichenoid or sclerotic features."},
+    {"dx": "Idiopathic lichen planus", "vs": "Morphology is identical, so distinction rests on post-transplant context and other cGVHD organ involvement."},
+    {"dx": "Psoriasis or pityriasis rosea", "vs": "Psoriasis has thick silvery scale on extensor surfaces and pityriasis rosea shows a herald patch with collarette scale, unlike the GVHD papulosquamous pattern."}
+  ],
+  "specimen": "clinical photo",
+  "stain": "N/A",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": ["A: Maculopapular (morbilliform) erythema", "B: Lichen planus-like violaceous plaques", "C: Papulosquamous erythematous papules on leg", "D: Keratosis pilaris-like follicular papules on erythematous skin"]
+}

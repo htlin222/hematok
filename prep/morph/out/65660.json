@@ -1,0 +1,21 @@
+{
+  "id": "65660",
+  "recognize_zh": "骨髓抹片可見多個核分葉減少或染色質團塊化的發育不良嗜中性球（箭頭，pseudo-Pelger/abnormal segmentation），而成對免疫染色中 CD138 陽性漿細胞聚集區 p53 反而陰性、背景造血細胞 p53 強陽性，顯示 TP53 突變來自治療相關 MDS 而非骨髓瘤。",
+  "features": [
+    "BM biopsy H&E: hypercellular marrow with interstitial plasma cells and trilineage hematopoiesis, including atypical megakaryocytes",
+    "BM aspirate: dysplastic neutrophils with hyposegmented, clumped or abnormally lobated nuclei (arrows); background myeloid precursors and plasma cells",
+    "CD138: plasma cells forming interstitial aggregates and sheets in part of the core",
+    "p53: strong diffuse nuclear staining in background hematopoietic cells, largely sparing CD138+ plasma cell aggregates; inset shows strong nuclear p53 in precursor cells"
+  ],
+  "describe_en": "Bone marrow core biopsy is hypercellular with increased plasma cells and background hematopoiesis. The aspirate smear shows dysgranulopoiesis, including neutrophils with hyposegmented, abnormally lobated and clumped nuclei. Paired immunostains demonstrate CD138-positive plasma cell aggregates, whereas strong p53 nuclear overexpression is present in the background hematopoietic cells but not within the plasma cell aggregates, localizing the TP53-mutant clone to the myeloid compartment. In the setting of prior cytotoxic therapy and a complex karyotype, findings are consistent with residual plasma cell myeloma and a concurrent myelodysplastic neoplasm with biallelic TP53 inactivation, post-cytotoxic therapy.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma with TP53 mutation/17p deletion only", "vs": "p53 overexpression would be localized to the CD138-positive plasma cells rather than to background myeloid cells."},
+    {"dx": "Therapy-related dysplasia-like changes (drug effect, lenalidomide, G-CSF)", "vs": "Reactive changes lack strong diffuse p53 overexpression, complex karyotype and high-VAF TP53 mutations."},
+    {"dx": "Acute myeloid leukemia, post-cytotoxic therapy", "vs": "Requires 20% or more myeloid blasts, which are not seen in this aspirate."},
+    {"dx": "Acquired Pelger-Huet anomaly from drugs (e.g., mycophenolate)", "vs": "Drug-induced pseudo-Pelger cells occur without multilineage dysplasia or a p53-overexpressing clone and resolve after withdrawal."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC: CD138, p53",
+  "match": "consistent",
+  "high_yield": false
+}

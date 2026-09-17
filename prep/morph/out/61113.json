@@ -1,0 +1,21 @@
+{
+  "id": "61113",
+  "recognize_zh": "p53 免疫染色中，大量造血細胞核呈中至強陽性，包括成群的小型圓核細胞（紅血球前驅細胞）與巨核細胞，並散在數顆極強陽性的細胞核；正常骨髓 p53 陽性細胞應 <1%，這種廣泛強陽性提示 TP53 異常的治療相關骨髓腫瘤。",
+  "features": [
+    "Numerous hematopoietic nuclei with moderate to strong nuclear p53 staining, far exceeding the <1% expected in normal marrow",
+    "Clusters of small round positive nuclei in an erythroid-island distribution",
+    "Positive megakaryocytes with nuclear (and some cytoplasmic blush) staining",
+    "Scattered cells with very strong (2+/3+) nuclear staining",
+    "Intervening negative cells and adipocytes provide internal contrast"
+  ],
+  "describe_en": "p53 immunohistochemistry on a bone marrow core biopsy shows numerous hematopoietic cells with moderate to strong nuclear staining, including clustered erythroid precursors and megakaryocytes, with scattered cells showing very strong staining. This staining extent is markedly increased compared with the rare weakly positive cells expected in normal marrow. Strong nuclear p53 expression in a substantial proportion of cells correlates with TP53 mutation. In the clinical setting of prior therapy with morphologic dysplasia, the findings support a therapy-related myeloid neoplasm; TP53 sequencing is recommended for confirmation.",
+  "ddx": [
+    {"dx": "Wild-type p53 in regenerating marrow", "vs": "Wild-type pattern shows only weak, heterogeneous staining in scattered cells rather than strong nuclear staining in clusters of erythroid precursors and megakaryocytes."},
+    {"dx": "Pure erythroid leukemia", "vs": "PEL shows sheets of pronormoblasts (>80% erythroid, >30% pronormoblasts) that are frequently p53 strongly positive, whereas here positive cells are admixed with maturing hematopoiesis."},
+    {"dx": "TP53-null (truncating) mutation", "vs": "Truncating mutations yield complete absence of staining, so a negative p53 stain does not exclude TP53 alteration and NGS is needed."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: p53",
+  "match": "consistent",
+  "high_yield": false
+}

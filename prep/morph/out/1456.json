@@ -1,0 +1,23 @@
+{
+  "id": "1456",
+  "recognize_zh": "整片以大型母細胞為主：核圓、染色質細緻、可見小核仁，細胞質少至中量藍色且無顆粒，其間夾雜染色質濃縮的小型深染細胞；在 CML 病史下，這種母細胞取代成熟顆粒球系列的樣貌代表急變期（blast crisis）。",
+  "features": [
+    "Sheet of large blasts, about 2-3 times the size of the small dark cells",
+    "Round to oval nuclei with finely dispersed chromatin and small nucleoli",
+    "Moderate rim of pale basophilic, agranular cytoplasm; no Auer rods seen",
+    "Interspersed smaller cells with dense, condensed chromatin and scant cytoplasm (lymphocytes or late erythroid precursors)",
+    "Maturing granulocytes, basophils and eosinophils are not evident in this field",
+    "Vacuole-like clear spaces consistent with smear artifact"
+  ],
+  "describe_en": "Smear, most likely bone marrow aspirate, shows a predominance of large blasts with round to oval nuclei, finely dispersed chromatin, small nucleoli and a moderate rim of pale basophilic agranular cytoplasm. No Auer rods or cytoplasmic granules are identified. Scattered small cells with condensed chromatin are interspersed, and the maturing granulocytic spectrum typical of chronic-phase CML is not seen in this field. In a patient with BCR-ABL1-positive CML, these findings are consistent with blast crisis; lineage (myeloid versus lymphoid) cannot be determined morphologically and requires cytochemistry (MPO) and flow cytometry.",
+  "ddx": [
+    {"dx": "De novo acute myeloid leukemia", "vs": "Morphology is similar; history of CML, persistent basophilia/splenomegaly and BCR-ABL1 with additional abnormalities favor blast crisis."},
+    {"dx": "De novo Ph-positive B-lymphoblastic leukemia", "vs": "Ph+ B-ALL can mimic lymphoid blast crisis; presence of BCR-ABL1 in myeloid lineages and a prior chronic phase favor CML."},
+    {"dx": "CML accelerated phase", "vs": "Accelerated phase has fewer blasts (<20%) with persistent maturing granulocytes, rather than blasts replacing the marrow."},
+    {"dx": "Proerythroblast-rich erythroid hyperplasia", "vs": "Proerythroblasts have deeply basophilic cytoplasm with blebs and coarse chromatin and occur with a full erythroid maturation spectrum."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65271",
+  "recognize_zh": "四格合成圖：A 為 CT 顯示雙側腎周軟組織浸潤（hairy kidney），B 骨髓抹片成片泡沫狀組織球，C 骨髓切片見梭形至泡沫狀組織球瀰漫浸潤，D CD68 強陽性而右下小插圖 CD1a 陰性；影像加上 CD68+/CD1a- 組織球浸潤，符合 Erdheim-Chester disease。",
+  "features": [
+    "Panel A: coronal contrast CT with bilateral perirenal/renal sinus soft-tissue infiltration ('hairy kidney') and ureteral stents",
+    "Panel B: sheets of histiocytes with oval nuclei and abundant vacuolated (foamy) blue cytoplasm; no Touton giant cells",
+    "Panel C: marrow core with diffuse infiltrate of spindled to epithelioid histiocytes with pale eosinophilic cytoplasm around a bone trabecula",
+    "Panel D: strong diffuse CD68 positivity in the histiocytic infiltrate; inset CD1a negative",
+    "No residual plasma cell population identifiable on these images"
+  ],
+  "describe_en": "Composite figure: coronal CT shows bilateral soft-tissue infiltration of the renal sinuses and perinephric fat ('hairy kidney' sign) with ureteral stents in place. The bone marrow aspirate smear shows sheets of histiocytes with abundant foamy cytoplasm and bland oval nuclei, and the core biopsy shows a diffuse infiltrate of spindled to epithelioid foamy histiocytes replacing the marrow space adjacent to bone. The histiocytes are diffusely positive for CD68 and negative for CD1a. In conjunction with BRAF V600E and NRAS mutations, the findings are consistent with Erdheim-Chester disease.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells have grooved, coffee-bean nuclei with eosinophils and are CD1a-, S100- and langerin-positive, whereas ECD histiocytes are CD1a-negative."},
+    {"dx": "Rosai-Dorfman disease", "vs": "RDD histiocytes show emperipolesis and are S100-positive, while ECD histiocytes are S100-negative or weak and lack emperipolesis."},
+    {"dx": "Pseudo-Gaucher or storage histiocytes in myeloma/treatment effect", "vs": "Reactive storage histiocytes are focal, lack the 'hairy kidney' and long-bone osteosclerosis pattern, and are BRAF wild type."},
+    {"dx": "Juvenile xanthogranuloma family lesions", "vs": "JXG shares a CD68+/CD1a- phenotype but is usually a solitary cutaneous lesion in children without systemic retroperitoneal disease."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa, H&E, IHC: CD68, CD1a; CT",
+  "match": "consistent",
+  "high_yield": false
+}

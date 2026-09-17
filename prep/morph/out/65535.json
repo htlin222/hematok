@@ -1,0 +1,21 @@
+{
+  "id": "65535",
+  "recognize_zh": "在脂肪偏多的骨髓切片中，CD71 只標出散在的大型細胞，核大而圓、染色質淡、可見核仁，細胞質與細胞膜呈棕色陽性，而周圍小細胞多為陰性，這些就是巨大前紅血球母細胞，符合 Parvovirus B19 造成的純紅血球再生不良。",
+  "features": [
+    "Scattered large cells with membranous and cytoplasmic CD71 positivity",
+    "Large round nuclei with pale vesicular chromatin and occasional nucleoli",
+    "Background small hematopoietic cells largely CD71 negative, indicating few maturing erythroid precursors",
+    "Fat-rich marrow with interstitial hematopoietic cells between adipocytes",
+    "Positive cells are isolated rather than forming erythroid islands"
+  ],
+  "describe_en": "Bone marrow biopsy immunostained for CD71 shows scattered, isolated large cells with strong membranous and cytoplasmic CD71 expression. These cells have large round nuclei with pale vesicular chromatin and occasional nucleoli, while the surrounding small hematopoietic cells are largely CD71 negative, indicating a paucity of maturing erythroid precursors. The marrow is fat-rich with interstitial hematopoietic cells. Findings are consistent with CD71-positive giant proerythroblasts and erythroid hypoplasia, suggestive of parvovirus B19-associated pure red cell aplasia; confirmation with parvovirus immunostain or PCR is recommended.",
+  "ddx": [
+    {"dx": "Acute erythroid leukemia", "vs": "Acute erythroid leukemia shows sheets of CD71-positive proerythroblasts with p53 overexpression, not isolated giant proerythroblasts in an erythroid-depleted marrow."},
+    {"dx": "Megakaryocytes", "vs": "Megakaryocytes are larger with lobated nuclei and are CD61/CD42b positive and CD71 negative."},
+    {"dx": "Metastatic tumor cells", "vs": "Tumor cells form cohesive clusters and are keratin or other lineage marker positive, not CD71 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD71",
+  "match": "consistent",
+  "high_yield": false
+}

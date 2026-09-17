@@ -1,0 +1,22 @@
+{
+  "id": "10063",
+  "recognize_zh": "這是 VWF multimer 凝膠電泳圖：第 1 型所有大小的 multimer 都在但整體變淡；2A 缺高分子量與中分子量 multimer；2B 只缺最大的高分子量 multimer，要跟正常血漿（NP）比對梯狀條帶。",
+  "features": [
+    "NP (normal plasma): full ladder of VWF multimers from low to highest molecular weight with even intensity",
+    "Type 1: all multimer sizes present with normal distribution but uniformly reduced intensity (quantitative deficiency)",
+    "Type 2A: loss of high- and intermediate-molecular-weight multimers, with relative excess of low-molecular-weight bands",
+    "Type 2B: selective loss of the largest multimers, with intermediate and low bands preserved",
+    "Low-resolution gel; satellite-band (triplet) structure cannot be assessed in this image"
+  ],
+  "describe_en": "This is a non-morphologic figure showing a von Willebrand factor multimer analysis by SDS-agarose gel electrophoresis with immunoblotting. The normal plasma lane shows a complete ladder extending to the highest molecular weight multimers. The type 1 lane shows a normal multimer distribution with globally decreased intensity, consistent with a partial quantitative deficiency. The type 2A lane lacks high- and intermediate-molecular-weight multimers, while the type 2B lane lacks only the largest multimers. Interpretation requires correlation with VWF:Ag, VWF activity (VWF:RCo/GPIbM), FVIII and, for 2B, low-dose RIPA.",
+  "ddx": [
+    {"dx": "Platelet-type (pseudo-) von Willebrand disease", "vs": "It shows the same loss of high-molecular-weight multimers as 2B, but the defect lies in platelet GPIbA and is distinguished by platelet-plasma mixing RIPA studies or GP1BA sequencing."},
+    {"dx": "Acquired von Willebrand syndrome (e.g. aortic stenosis, LVAD, MPN with thrombocytosis)", "vs": "It can produce a 2A-like loss of large multimers but occurs without family history and resolves with treatment of the underlying condition."},
+    {"dx": "Type 2M and 2N von Willebrand disease", "vs": "Both have a normal multimer distribution; 2M has a reduced activity:antigen ratio and 2N a disproportionately low FVIII with defective FVIII binding."},
+    {"dx": "Type 3 von Willebrand disease", "vs": "Multimers are essentially undetectable rather than reduced or selectively lost."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

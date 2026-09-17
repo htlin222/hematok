@@ -1,0 +1,21 @@
+{
+  "id": "61833",
+  "recognize_zh": "這是冠狀切面 FDG PET/CT 融合影像，右中腹部腸道/腸繫膜區有一串強烈攝取的節段性病灶（白色箭頭），與心肌、膀胱等生理性攝取不同；PET 本身無法定組織型，需切片證實為組織球肉瘤。",
+  "features": [
+    "Coronal fused FDG PET/CT image of the neck, chest, abdomen, and pelvis",
+    "Multiple confluent intensely FDG-avid nodular foci in the right and central abdomen along bowel loops/mesentery (arrows)",
+    "Physiologic uptake in myocardium, gastric wall, and urinary bladder",
+    "No discrete FDG-avid thoracic or peripheral nodal masses evident in this slice",
+    "Bone marrow uptake not markedly increased on this single slice"
+  ],
+  "describe_en": "This is a non-morphologic figure: a coronal fused FDG PET/CT image. Multiple intensely hypermetabolic, confluent nodular foci are present in the right and central abdomen along bowel loops and/or mesentery (arrows), distinct from physiologic uptake in the myocardium, stomach, and urinary bladder. No additional discrete hypermetabolic thoracic masses are evident on this single slice. The pattern indicates an FDG-avid intra-abdominal neoplasm involving bowel or mesentery, which is nonspecific and requires tissue biopsy; in this case the biopsy established histiocytic sarcoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma or Burkitt lymphoma of the bowel", "vs": "Aggressive B-cell lymphomas produce identical FDG-avid bowel masses and are distinguished only on biopsy by CD20/PAX5 positivity versus CD163/CD68/PU.1 in histiocytic sarcoma."},
+    {"dx": "Peritoneal carcinomatosis or GI carcinoma", "vs": "Carcinoma is separated by keratin-positive epithelial histology on biopsy, not by PET avidity."},
+    {"dx": "Inflammatory bowel disease or physiologic bowel uptake", "vs": "Physiologic or inflammatory bowel uptake is usually linear and segmental along the mucosa rather than forming confluent nodular masses."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

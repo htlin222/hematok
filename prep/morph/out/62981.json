@@ -1,0 +1,23 @@
+{
+  "id": "62981",
+  "recognize_zh": "CT 可見視丘占位病灶（箭頭），切片為成片的大型漿母細胞樣/免疫母細胞樣淋巴瘤細胞，核偏位、核仁明顯、細胞質豐富；免疫染色 B 細胞標記陰性、多個核染色陽性且 Ki-67 極高，符合腔外型原發性滲出性淋巴瘤（extracavitary PEL）。",
+  "features": [
+    "CT (A): mass lesion in the thalamus/deep gray matter (arrowhead) with surrounding hypodensity",
+    "H&E low power (B): diffuse sheets of discohesive lymphoid cells in brain parenchyma",
+    "H&E high power (C): large cells with round, eccentric nuclei, prominent nucleoli and moderate to abundant amphophilic cytoplasm (plasmablastic/immunoblastic)",
+    "IHC (D, H): largely negative or only focal/membranous staining in tumor cells",
+    "Nuclear stains (E, F, G) diffusely positive in tumor cells; chromogenic ISH (I, red) positive in many nuclei",
+    "Proliferation stain (J): very high nuclear positivity"
+  ],
+  "describe_en": "Composite figure. Axial CT shows a thalamic mass lesion. Biopsy shows brain parenchyma diffusely infiltrated by sheets of large discohesive cells with eccentric round nuclei, prominent nucleoli and abundant amphophilic cytoplasm, imparting a plasmablastic/immunoblastic appearance. The immunostain panel shows negative or weak staining with some markers, diffuse nuclear positivity with several nuclear markers, positive red-chromogen in situ hybridization in many nuclei, and a very high proliferation index. The individual markers are not labeled in the image; in the clinical context the findings are consistent with extracavitary primary effusion lymphoma (HHV8-positive, frequently EBV-positive) presenting as a thalamic mass.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is morphologically similar and EBER+ but HHV8/LANA-negative, whereas PEL is HHV8/LANA-positive."},
+    {"dx": "Primary CNS diffuse large B-cell lymphoma", "vs": "PCNSL is angiocentric and expresses CD20/PAX5 with an ABC phenotype, and is HHV8-negative."},
+    {"dx": "Anaplastic plasma cell myeloma / plasmacytoma", "vs": "Myeloma shows light-chain-restricted cytoplasmic immunoglobulin and CD138/CD56, and is HHV8- and EBV-negative."},
+    {"dx": "HHV8-positive DLBCL, NOS", "vs": "HHV8+ DLBCL usually arises with multicentric Castleman disease, expresses IgM lambda and is EBV-negative, unlike typically EBV+ immunoglobulin-null PEL."}
+  ],
+  "specimen": "tissue",
+  "stain": "CT; H&E; IHC panel; ISH (red chromogen)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1964",
+  "recognize_zh": "一顆圓形顆粒球，原本分葉的細胞核裂解成多顆大小不一、邊緣平滑、均質深染的圓球狀核碎片（karyorrhexis），胞質仍保有細小顆粒，這就是凋亡的顆粒球。",
+  "features": [
+    "Round cell about 1.5 times the diameter of adjacent red cells with intact cell membrane",
+    "Nucleus fragmented into multiple smooth, round, homogeneously dense (pyknotic) spheres of varying size",
+    "No chromatin structure, filaments, or nucleoli within the nuclear fragments",
+    "Cytoplasm with preserved fine purple granules and a few small clear vacuoles",
+    "Surrounding normochromic red cells with overlapping (rouleaux-like) arrangement"
+  ],
+  "describe_en": "Peripheral blood smear shows a granulocyte with intact cytoplasm containing fine granules and a nucleus broken into multiple round, smooth, homogeneously dense fragments of varying size, without chromatin strands connecting them. The cell membrane is intact and there is no evidence of phagocytosis. This appearance represents an apoptotic granulocyte with pyknosis and karyorrhexis, a common in vitro artifact of delayed smear preparation or a finding in stored or infected samples.",
+  "ddx": [
+    {"dx": "Hypersegmented neutrophil", "vs": "Hypersegmented neutrophils have six or more lobes with preserved coarse chromatin joined by thin filaments, not detached smooth dense spheres."},
+    {"dx": "Neutrophil with phagocytosed nuclear material (LE cell or ingested apoptotic bodies)", "vs": "Phagocytosed material is a homogeneous inclusion displacing the cell's own intact lobulated nucleus, whereas here the cell's own nucleus is fragmented."},
+    {"dx": "Basophil", "vs": "Basophils have coarse, irregular dark granules overlying a lobulated nucleus with visible chromatin, not discrete round dense nuclear spheres."},
+    {"dx": "Karyorrhectic nucleated red cell", "vs": "Karyorrhectic nRBCs have hemoglobinized, agranular cytoplasm rather than granular granulocytic cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

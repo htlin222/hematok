@@ -1,0 +1,36 @@
+{
+	"id": "61213",
+	"recognize_zh": "A、B 格中嗜中性球細胞質空泡內有多個卵圓至香腸狀的小酵母體，D、E 格的嗜中性球核分葉異常（核葉分離、未分節），F 格為分枝菌絲，組合起來指向 HIV 患者血液中的馬爾尼菲籃狀菌（Talaromyces marneffei）感染合併發育不良嗜中性球。",
+	"features": [
+		"Panels A-B: neutrophils with cytoplasmic vacuoles containing multiple small oval to elongated yeast-like organisms with clear halos",
+		"Panel C: large mononuclear phagocyte with abundant grey-blue cytoplasm and an adjacent cluster of organisms",
+		"Panel D: neutrophil with abnormally separated, rounded nuclear lobes (nuclear fragmentation/abnormal segmentation)",
+		"Panel E: neutrophil with a non-segmented, elongated dumbbell-shaped nucleus and a small detached nuclear fragment (dysplastic/pseudo-Pelger-like)",
+		"Panel F: dense tangle of dark branching septate hyphae on a red background, representing the mould phase",
+		"Transverse septa of individual yeasts are suggested but not clearly resolved at this resolution"
+	],
+	"describe_en": "Peripheral blood smear shows neutrophils containing intracytoplasmic vacuoles filled with small oval to elongated yeast-like organisms, as well as a mononuclear phagocyte associated with a cluster of similar organisms. Several neutrophils display dysplastic nuclear features, including abnormally separated lobes and a hyposegmented dumbbell-shaped nucleus. A separate panel shows branching hyphae of the mould phase. In a patient with newly diagnosed HIV infection, findings are consistent with disseminated Talaromyces marneffei infection with dysplastic neutrophils; culture confirmation is required.",
+	"ddx": [
+		{
+			"dx": "Histoplasma capsulatum",
+			"vs": "Histoplasma yeasts are smaller, uniformly oval and reproduce by narrow-based budding, whereas T. marneffei forms include elongated sausage shapes dividing by a central transverse septum; culture at 25 C showing red diffusible pigment identifies Talaromyces."
+		},
+		{
+			"dx": "Candida species phagocytosed in neutrophils",
+			"vs": "Candida yeasts are larger, show budding and pseudohyphae in blood smears, and lack the septate fission forms."
+		},
+		{
+			"dx": "Leishmania amastigotes",
+			"vs": "Leishmania shows a nucleus plus a rod-like kinetoplast and is mainly seen in macrophages rather than neutrophils."
+		},
+		{
+			"dx": "Myelodysplastic syndrome",
+			"vs": "Dysplastic neutrophils in HIV and sepsis can mimic MDS, but MDS requires persistent cytopenias, multilineage dysplasia in the marrow and exclusion of infection or drugs."
+		}
+	],
+	"specimen": "PB",
+	"stain": "Wright-Giemsa; panel F culture prep (stain NS)",
+	"match": "consistent",
+	"high_yield": true,
+	"captions": []
+}

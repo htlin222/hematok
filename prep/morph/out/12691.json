@@ -1,0 +1,22 @@
+{
+  "id": "12691",
+  "recognize_zh": "骨髓抹片中央一顆大型漿細胞（核偏心、細胞質深藍、核旁有淡染區）細胞質內可見數根細長針狀的結晶包涵體，看似 Auer 小體（pseudo-Auer rods），實為免疫球蛋白結晶；背景有數顆帶顆粒的骨髓前驅細胞。",
+  "features": [
+    "Large plasma cell with eccentric round nucleus, clumped chromatin and abundant deeply basophilic cytoplasm",
+    "Paranuclear pale zone (hof) in the plasma cell",
+    "Several thin, needle-like, pink-purple crystalline rods within the plasma cell cytoplasm (pseudo-Auer rods)",
+    "Adjacent granulocytic precursors with eccentric nuclei and pink granular cytoplasm",
+    "Background of fat vacuoles and small dark nucleated cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large plasma cell with an eccentric nucleus, clumped chromatin, a paranuclear hof, and abundant deeply basophilic cytoplasm containing several thin, needle-like crystalline inclusions resembling Auer rods. Surrounding granulocytic precursors and erythroid cells show no rod-like inclusions. Findings are consistent with a plasma cell neoplasm with intracytoplasmic immunoglobulin crystals (pseudo-Auer rods), in keeping with the reported IgG myeloma; plasma cell percentage, light-chain restriction by flow cytometry or immunohistochemistry, and a screen for light-chain crystal-associated organ damage should be assessed.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with true Auer rods", "vs": "True Auer rods occur in myeloblasts with fine chromatin, nucleoli and MPO positivity, not in plasma cells with clumped chromatin and a hof."},
+    {"dx": "Acute promyelocytic leukemia (faggot cells)", "vs": "APL faggot cells are hypergranular promyelocytes with bilobed nuclei and bundles of MPO-positive rods, with coagulopathy and PML::RARA fusion."},
+    {"dx": "Crystal-storing histiocytosis", "vs": "Crystal-storing histiocytes are macrophages with abundant cytoplasm packed with crystals and CD68/CD163 positivity rather than plasma cell morphology."},
+    {"dx": "Plasma cells with Russell bodies or Mott cells", "vs": "Russell bodies are round globular immunoglobulin inclusions, not elongated needle-shaped crystals."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

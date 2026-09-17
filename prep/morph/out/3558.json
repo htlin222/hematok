@@ -1,0 +1,22 @@
+{
+  "id": "3558",
+  "recognize_zh": "這是流式細胞儀的 kappa（FITC，X 軸）對 lambda（PE，Y 軸）雙參數散佈圖：大部分設門的 B 細胞集中在左上象限（S1，只表現 lambda），右下 kappa 象限幾乎沒有細胞；這種單一輕鏈（lambda）限制代表 B 細胞為單株性，支持 CLL 的診斷。",
+  "features": [
+    "Flow cytometry dot plot: surface kappa-FITC (x-axis) versus lambda-PE (y-axis), log scale",
+    "Dominant population in upper-left quadrant (S1): lambda-positive, kappa-negative",
+    "Essentially no events in the kappa-only lower-right quadrant (S4)",
+    "Small cluster in double-positive quadrant (S2), likely nonspecific binding or doublets",
+    "Few double-negative events (S3), likely non-B cells or debris",
+    "Lambda staining is moderate (about 10^1-10^2), without a separate dim population"
+  ],
+  "describe_en": "The figure is a flow cytometric dot plot of gated cells stained for surface kappa (FITC, x-axis) and lambda (PE, y-axis) light chains. Nearly all events fall in the lambda-positive, kappa-negative quadrant, with no appreciable kappa-positive population and only a small double-positive cluster likely due to nonspecific binding. This indicates lambda light-chain restriction, meaning a monotypic (clonal) B-cell population. Light-chain restriction does not establish subtype, so it should be combined with CD5, CD23, CD200, FMC7, and CD20 intensity; together with the morphology it supports a clonal B-cell neoplasm such as atypical CLL.",
+  "ddx": [
+    {"dx": "Polyclonal reactive B cells", "vs": "A reactive population splits into both kappa and lambda quadrants with a kappa:lambda ratio around 0.5-3, not a single lambda-only cluster."},
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma is also light chain-restricted, often lambda with brighter surface immunoglobulin, and is CD23-negative and cyclin D1-positive."},
+    {"dx": "Monoclonal B-cell lymphocytosis", "vs": "MBL has the same clonal immunophenotype but fewer than 5 x 10^9/L clonal B cells and no lymphadenopathy or cytopenias."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "64903",
+  "recognize_zh": "骨髓切片 DBA44 免疫染色可見許多細胞呈強烈、顆粒狀的棕色胞質陽性，成群散佈於脂肪之間；其間夾雜核圓、呈藍色對比染色的陰性細胞，陽性細胞即為毛細胞白血病細胞。",
+  "features": [
+    "Strong coarse granular cytoplasmic DBA44 staining in numerous cells",
+    "Positive cells distributed interstitially in clusters and small sheets",
+    "Admixed DBA44-negative cells with round nuclei and clear counterstained cytoplasm",
+    "Adipocytes preserved between the infiltrate"
+  ],
+  "describe_en": "DBA44 immunohistochemistry on the bone marrow trephine shows strong granular cytoplasmic staining in numerous interstitially distributed cells arranged in clusters and small sheets between adipocytes. Interspersed negative cells with round nuclei are present and likely include the coexisting plasma cell population and residual hematopoietic cells. The staining pattern supports marrow involvement by hairy cell leukemia; because DBA44 is not specific, correlation with annexin A1, CD25, CD123, or BRAF V600E is recommended.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL and other small B-cell lymphomas can also be DBA44 positive, but they are negative for annexin A1 and BRAF V600E."},
+    {"dx": "Splenic B-cell lymphoma with prominent nucleoli", "vs": "These cells may express DBA44 but lack CD25, annexin A1 and BRAF V600E."},
+    {"dx": "Plasma cell myeloma infiltrate", "vs": "Plasma cells are CD138 positive and DBA44 negative, consistent with the negative round-nucleated cells in this field."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: DBA44",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10707",
+  "recognize_zh": "下方母細胞的核在一側凹入，形成清楚的淡色杯口狀凹陷（cup-like nucleus / nuclear invagination），染色質細緻、胞質少且無顆粒，這種杯狀核母細胞與 NPM1 突變（常合併 FLT3-ITD）的 AML 高度相關。",
+  "features": [
+    "Blasts with high N:C ratio and finely dispersed chromatin",
+    "Lower blast shows a prominent clear cup-like nuclear invagination occupying part of the nucleus",
+    "Upper blast oval with fine chromatin and a thin agranular cytoplasmic rim",
+    "No cytoplasmic granules or Auer rods visible",
+    "Red cells rendered in grayscale (image processing), limiting background assessment"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts with high N:C ratio, finely dispersed chromatin and scant agranular cytoplasm. One blast displays a distinct cup-like nuclear invagination forming a clear, sharply outlined indentation, and the second blast has an oval nucleus with fine chromatin. Auer rods are not identified. The background has been digitally desaturated, limiting assessment of red cells and platelets. Findings are suggestive of acute myeloid leukemia with cup-like blasts, a morphology strongly associated with NPM1 mutation and FLT3-ITD; molecular testing is recommended.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL has bilobed butterfly nuclei and fine granules with coagulopathy and PML-RARA fusion, rather than a single cup-shaped invagination in an agranular blast."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have folded convoluted nuclei with abundant gray-blue cytoplasm and NSE positivity, not a discrete clear cup-like pocket."},
+    {"dx": "AML with FLT3-ITD without NPM1 mutation", "vs": "Cup-like blasts can occur with FLT3-ITD alone, so morphology cannot distinguish them and NPM1 mutation analysis or NPM1 cytoplasmic IHC is required."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

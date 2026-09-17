@@ -1,0 +1,22 @@
+{
+  "id": "64882",
+  "recognize_zh": "九格拼圖中每格都有一端鈍圓、另一端逐漸變細成單一尾巴的淚滴狀紅血球（dacrocyte），尾端朝向不一且非同一方向排列，排除抹片拉扯假象，大量出現時提示原發性骨髓纖維化。",
+  "features": [
+    "Multiple teardrop-shaped red cells (dacrocytes) with a single tapered tail",
+    "Tails of variable length, pointing in different directions (not artifactual)",
+    "Background mild anisocytosis with some elongated cells",
+    "One red cell with a small inclusion suggestive of a Howell-Jolly body",
+    "One neutrophil with coarse nuclear lobes and scattered platelets, some large"
+  ],
+  "describe_en": "Peripheral blood smear montage shows numerous dacrocytes with a single tapered tail of variable length, oriented randomly across fields, which argues against a spreading artifact. Background red cells show mild anisopoikilocytosis with occasional elongated forms, and platelets include some large forms. Nucleated red cells and immature myeloid cells are not captured in these cropped panels. Frequent teardrop cells suggest marrow infiltration or fibrosis; in the appropriate setting with a leukoerythroblastic picture and JAK2, CALR, or MPL mutation, findings are consistent with primary myelofibrosis.",
+  "ddx": [
+    {"dx": "Spreading artifact", "vs": "Artifactual teardrops all point in the same direction of the smear, whereas true dacrocytes have randomly oriented tails."},
+    {"dx": "Myelophthisis from metastatic carcinoma or other marrow infiltration", "vs": "Morphology of teardrops is identical; marrow biopsy and absence of MPN driver mutations separate secondary infiltration."},
+    {"dx": "Thalassemia", "vs": "Thalassemia shows teardrops together with marked hypochromic microcytosis and target cells."},
+    {"dx": "Elliptocytes or ovalocytes", "vs": "Elliptocytes are symmetric with both ends rounded, without a single tapered tail."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

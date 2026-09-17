@@ -1,0 +1,26 @@
+{
+  "id": "49",
+  "recognize_zh": "空腸腫塊呈潰瘍（箭頭），多形性中至大型淋巴細胞穿透性浸潤至肌層平滑肌束之間；鄰近黏膜可見上皮內淋巴細胞增多（箭頭）。免疫染色把腫瘤區與鄰近 enteropathy 區分開比較，在乳糜瀉背景下符合 EATL。",
+  "features": [
+    "Ulcerated intestinal wall with a transmural lymphoid infiltrate dissecting through the muscularis propria",
+    "Medium to large pleomorphic lymphoid cells with vesicular nuclei and visible nucleoli infiltrating between smooth muscle bundles",
+    "Mixed inflammatory background with scattered histiocytes and eosinophils",
+    "Adjacent mucosa with increased intraepithelial lymphocytes (enteropathic change)",
+    "IHC panels contrast lymphoma areas (dense diffuse positivity for one marker, sparse for another) with enteropathic mucosa showing positive intraepithelial lymphocytes"
+  ],
+  "describe_en": "Resected jejunum shows an ulcerated mass with a dense transmural infiltrate that extends through and splits the muscularis propria. At high power, the infiltrate consists of medium to large pleomorphic lymphoid cells with irregular vesicular nuclei and conspicuous nucleoli, admixed with inflammatory cells. The adjacent mucosa shows increased intraepithelial lymphocytes consistent with enteropathy. Immunohistochemical panels (markers not labeled in the image) highlight the neoplastic T-cell population in lymphoma areas and the intraepithelial lymphocytes in adjacent enteropathic mucosa. In a patient with celiac disease, the findings are consistent with enteropathy-associated T-cell lymphoma (classic type I).",
+  "ddx": [
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma (MEITL, former EATL type II)", "vs": "MEITL is composed of monomorphic small-medium cells that are typically CD8+/CD56+ with frequent gamma-delta TCR and no celiac association, whereas this tumor is pleomorphic with medium-large cells in a celiac background."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type (intestinal involvement)", "vs": "ENKTL shows angiocentricity, coagulative necrosis and diffuse EBER positivity, which is expected to be negative in EATL."},
+    {"dx": "Diffuse large B-cell lymphoma of the small bowel", "vs": "DLBCL cells express CD20/PAX5 and lack cytotoxic T-cell markers, and adjacent mucosa lacks celiac-type intraepithelial lymphocytosis."},
+    {"dx": "Refractory celiac disease type II", "vs": "RCD II has aberrant (surface CD3-/CD8-) intraepithelial lymphocytes without a mass-forming transmural pleomorphic infiltrate."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC (markers unlabeled)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E composite: ulcerated mass (arrow), transmural infiltration, pleomorphic cells between muscle bundles, and adjacent mucosa with intraepithelial lymphocytosis (arrow)",
+    "IHC composite: immunophenotype of lymphoma areas (top) versus adjacent enteropathic mucosa (bottom)"
+  ]
+}

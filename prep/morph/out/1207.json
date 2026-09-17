@@ -1,0 +1,21 @@
+{
+  "id": "1207",
+  "recognize_zh": "骨髓切片免疫染色中，許多膜性/細胞質陽性的棕色細胞散佈於間質並形成小群聚，形態符合漿細胞標記（多為 CD138）凸顯增加的漿細胞；中央一個淡色、無細胞的圓形沉積物可能為類澱粉，但單憑此染色無法確定。",
+  "features": [
+    "Hypercellular marrow with numerous scattered positive cells and small clusters in an interstitial distribution",
+    "Membranous and cytoplasmic brown staining pattern compatible with a plasma cell marker",
+    "A pale, acellular, round homogeneous deposit in the center of the core",
+    "Positive staining of cells lining a few stromal/vascular structures (upper left)",
+    "Adjacent bone trabecula and fat without specific staining"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostain shows numerous positive cells scattered interstitially and in small clusters throughout a cellular marrow; the membranous pattern is compatible with a plasma cell marker such as CD138, although the antibody is not specified. A pale, acellular, round homogeneous deposit is present centrally, which could represent amyloid but requires Congo red staining for confirmation. Kappa/lambda staining is needed to establish clonality and quantify the plasma cell burden. Findings are suggestive of an increased plasma cell population in a patient with amyloidosis.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are polytypic by kappa/lambda staining and usually perivascular, whereas clonal plasma cells show light-chain restriction."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma usually shows sheets or large nodules of plasma cells (often >10% and diffuse), rather than scattered interstitial cells and small clusters."},
+    {"dx": "Serous fat atrophy or edema", "vs": "Gelatinous transformation is pale-staining interstitial ground substance with fat atrophy and is Congo red-negative, unlike amyloid."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (plasma cell marker, antigen not specified)",
+  "match": "partial",
+  "high_yield": false
+}

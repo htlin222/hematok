@@ -1,0 +1,21 @@
+{
+  "id": "63842",
+  "recognize_zh": "HPLC 圖中 HbA（Ao 62.6%）仍是主峰，但 3.60 分鐘 A2 視窗出現約 27.5% 的高峰，HbF 0.6%；A2 視窗內 25–30% 的變異量遠超過 β 地中海貧血帶因的 4–8%，符合 HbE 帶因（HbE trait）。",
+  "features": [
+    "Cation-exchange HPLC report with peak table and chromatogram",
+    "Dominant Ao (HbA) peak at 2.37 min, 62.6%",
+    "Large A2-window peak at 3.60 min quantified at 27.5%",
+    "HbF 0.6%; small P2, P3 and unknown minor peaks",
+    "No D- or S-window variant peak"
+  ],
+  "describe_en": "Cation-exchange HPLC shows a major HbA peak (62.6%) and a large peak eluting at 3.60 minutes in the HbA2 window, quantified at 27.5% on this printout (the figure legend cites 23.8%). HbF is 0.6% and no D- or S-window variants are present. An A2-window fraction in the 20-30% range with preserved HbA reflects a co-eluting variant, most commonly HbE, rather than true HbA2. Findings are consistent with HbE trait in the mother of the index case; alkaline electrophoresis or DNA analysis can confirm HbE.",
+  "ddx": [
+    {"dx": "Beta-thalassemia trait", "vs": "Beta-thalassemia trait raises true HbA2 only to about 4-8%, far below the 20-30% A2-window peak of HbE trait."},
+    {"dx": "Hb Lepore trait", "vs": "Hb Lepore elutes in or near the A2 window but at only about 5-15% with mildly raised HbF."},
+    {"dx": "HbE trait with coexisting alpha-thalassemia or iron deficiency", "vs": "Coinherited alpha-thalassemia or iron deficiency lowers the HbE fraction toward 20% or less, so a lower-than-expected HbE level warrants iron studies and alpha-globin testing."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

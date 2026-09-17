@@ -1,0 +1,23 @@
+{
+  "id": "66229",
+  "recognize_zh": "流式細胞儀圖中，紅色族群在 CD3 對 TCR γδ 圖上形成獨立的 γδ T 細胞群（占淋巴球 27%），且 CD4−、CD8 部分陽性、CD56+、CD16+、CD57 部分陽性，CD5 比正常 αβ T 細胞弱；這是 γδ 型 T-LGL 白血病。注意 γδ T 細胞本來就不表現 TCRβ，故 TRBC1 陰性不能當作單株性證據。",
+  "features": [
+    "CD45 vs SSC gating separates granulocytes, monocytes and lymphocytes; the abnormal population (red) lies in the lymphocyte gate",
+    "Distinct TCR gamma-delta positive, surface CD3 bright population comprising 27.07% of lymphocytes, separate from the alpha-beta T cells (brown)",
+    "CD4 negative with variable dim-to-bright CD8 expression",
+    "CD56 positive, CD16 positive and CD57 partially positive, an NK-like cytotoxic phenotype",
+    "TRBC1 negative on the gamma-delta cells, as expected for cells lacking a TCR beta chain",
+    "CD2 and CD7 positive; CD5 dimmer than on normal alpha-beta T cells"
+  ],
+  "describe_en": "Flow cytometric analysis identifies an expanded population of CD45 moderate, low side scatter lymphocytes that are surface CD3 positive and TCR gamma-delta positive, accounting for approximately 27% of lymphocytes. These cells are CD4 negative with variable CD8 expression, express CD56, CD16 and partial CD57, retain CD2 and CD7, and show relatively dim CD5 compared with residual alpha-beta T cells. The cells are TRBC1 negative, which is expected for gamma-delta T cells that lack a TCR beta chain and therefore cannot be used to assess clonality; TRG/TRD PCR or V-delta/V-gamma antibody analysis is required. In the setting of a persistent LGL lymphocytosis, findings are consistent with T-cell large granular lymphocytic leukemia of gamma-delta type.",
+  "ddx": [
+    {"dx": "Reactive gamma-delta T-cell expansion", "vs": "Reactive expansions are polyclonal by TRG/TRD PCR or V-delta2 predominant and transient, and phenotype alone cannot exclude them."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL is also gamma-delta but is usually CD8 and CD57 negative, involves marrow sinusoids with isochromosome 7q, and presents with aggressive hepatosplenomegaly."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "NK-LGLs share CD16/CD56/CD57 expression but are surface CD3 negative and lack TCR gamma-delta."},
+    {"dx": "Alpha-beta T-LGL leukemia", "vs": "The more common alpha-beta type is TCR gamma-delta negative, and its clonality can be assessed by TRBC1 restriction."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

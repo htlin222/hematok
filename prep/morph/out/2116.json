@@ -1,0 +1,22 @@
+{
+  "id": "2116",
+  "recognize_zh": "一群大型細胞成簇排列，核圓偏位於細胞一端，胞質豐富淡藍呈泡沫狀，並可見與核分開的淡染區（遠離核的 hof），外觀像大型漿細胞但核染色質較細緻，這就是骨髓中的造骨細胞（osteoblast）。",
+  "features": [
+    "Cohesive cluster of large cells, larger than plasma cells",
+    "Round to oval eccentric nuclei with fine to moderately condensed chromatin and small nucleoli",
+    "Abundant pale to medium blue, slightly foamy cytoplasm with ill-defined borders",
+    "Pale perinuclear clearing (Golgi zone) located away from the nucleus",
+    "Background of normal hematopoietic cells, including a neutrophil, lymphocytes, and platelets"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of large cells with round eccentric nuclei, fine chromatin, small nucleoli, and abundant pale blue foamy cytoplasm with a pale clear zone separated from the nucleus. The cells are larger than plasma cells and lack the clock-face chromatin of plasma cells. Background hematopoietic elements are unremarkable. Findings are consistent with osteoblasts, a normal marrow constituent more frequently seen in aspirates from children or areas of active bone remodeling.",
+  "ddx": [
+    {"dx": "Plasma cells", "vs": "Plasma cells are smaller with clock-face chromatin and a perinuclear hof immediately adjacent to the nucleus, whereas the osteoblast Golgi zone lies away from the nucleus."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma clusters show nuclear pleomorphism, prominent nucleoli, and molding, and are cytokeratin positive, unlike the bland uniform osteoblasts."},
+    {"dx": "Osteoclasts", "vs": "Osteoclasts are multinucleated giant cells with many separate nuclei, whereas each osteoblast has a single nucleus."},
+    {"dx": "Mast cells", "vs": "Mast cells contain dense purple metachromatic granules obscuring the nucleus."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

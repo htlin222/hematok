@@ -1,0 +1,22 @@
+{
+  "id": "61379",
+  "recognize_zh": "骨髓切片 CD20 染色可見強膜狀陽性的 B 細胞聚集於血竇腔內，排成線狀與分枝狀的血竇內（intrasinusoidal）分佈，這是脾邊緣區淋巴瘤骨髓侵犯的典型樣式；但陽性細胞偏大、核仁明顯，也需考慮血管內大 B 細胞淋巴瘤。",
+  "features": [
+    "CD20 strong membranous staining in B cells clustered within dilated marrow sinusoids",
+    "Intrasinusoidal pattern: linear, branching cords of positive cells outlining vascular channels",
+    "Positive cells are medium to large with round vesicular nuclei and visible nucleoli",
+    "CD20-negative background hematopoietic cells and adipocytes between sinusoids",
+    "No discrete paratrabecular or nodular aggregate in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostained for CD20 shows strongly positive B cells located predominantly within dilated sinusoids, forming linear and branching intravascular cords, with CD20-negative hematopoietic elements in the intervening marrow. The positive cells appear medium to large with vesicular nuclei. An intrasinusoidal B-cell infiltrate is characteristic of splenic marginal zone lymphoma; however, the relatively large cell size in this field also raises intravascular large B-cell lymphoma, which the case history indicates coexisted. Correlation with H&E cytology, Ki-67, CD5, and clinical findings is required.",
+  "ddx": [
+    {"dx": "Intravascular large B-cell lymphoma", "vs": "Tumor cells are large with prominent nucleoli and high Ki-67 confined to vessel lumina, often CD5 or MUM1 positive, rather than small marginal zone cells."},
+    {"dx": "Hairy cell leukemia", "vs": "Shows a diffuse interstitial fried-egg infiltrate with CD20, CD25, annexin A1 and BRAF V600E positivity rather than predominantly intrasinusoidal cords."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "Also intrasinusoidal, but the cells are CD3+ T cells (usually gamma-delta) and CD20 negative."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL forms interstitial and nonparatrabecular nodular infiltrates of small CD5+/CD23+ cells rather than a sinusoidal pattern."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD20",
+  "match": "partial",
+  "high_yield": false
+}

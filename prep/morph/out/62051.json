@@ -1,0 +1,22 @@
+{
+  "id": "62051",
+  "recognize_zh": "紅色免疫染色中低倍下，一個模糊結節區內陽性小淋巴球明顯較密集，其中散在許多由陽性細胞圍成、中心未染色的環狀結構（rosettes），與 NLPHL 中 T 細胞包圍 LP 細胞的型態相符。",
+  "features": [
+    "Vague nodular zone with a higher density of positive small lymphocytes than the surrounding area",
+    "Numerous ring-shaped rosettes of positive cells surrounding larger unstained central cells",
+    "Membranous red staining of small lymphocytes, with negative small lymphocytes in the adjacent zones",
+    "Small vessels at the periphery of the nodule",
+    "Antibody identity not labeled; pattern typical of PD-1/CD57 or CD3 rosetting"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen, antibody not specified in the image) of lymph node at low-to-medium power shows a vaguely nodular area with an increased density of positive small lymphocytes. Many positive cells form ring-like rosettes around larger unstained central cells, while adjacent areas contain predominantly negative small lymphocytes. The rosetting pattern is characteristic of T cells (typically PD-1+ or CD57+ T follicular helper cells) encircling lymphocyte predominant cells. Findings are consistent with nodular lymphocyte predominant Hodgkin lymphoma; confirmation of the marker and of the B-cell phenotype of the central cells (CD20, OCT2, BOB1) is recommended.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-rich", "vs": "LRCHL may also show T-cell rosettes, but the central HRS cells are CD30+/CD15+ and lack strong CD20/OCT2/BOB1."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC nodules contain small B cells and scattered germinal center cells without LP cells rimmed by PD-1+ rosettes."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL is diffuse with a CD8+ predominant T-cell background and usually lacks PD-1+ rosettes and nodular meshworks."},
+    {"dx": "Nodal peripheral T-cell lymphoma with TFH phenotype", "vs": "TFH lymphoma shows sheets of atypical PD-1+/CD10+/BCL6+ T cells with clonal TCR, not rosettes restricted around scattered large B cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (red chromogen)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62958",
+  "recognize_zh": "觸片（touch imprint）上是一大片單一形態的中至大型淋巴樣細胞，核圓、染色質細緻分散、部分可見小核仁、細胞質極少，呈母細胞樣（blastoid）外觀，需與淋巴母細胞及大 B 細胞淋巴瘤區分。",
+  "features": [
+    "Monotonous population of intermediate-to-large discohesive lymphoid cells",
+    "High N:C ratio with scant pale basophilic cytoplasm",
+    "Round to slightly irregular nuclei with finely dispersed, blastoid-appearing chromatin",
+    "Small nucleoli visible in a subset of cells",
+    "Occasional larger cells and crushed nuclear streaks; few small mature lymphocytes in background"
+  ],
+  "describe_en": "Touch imprint shows a cellular, monotonous population of discohesive intermediate-to-large lymphoid cells with high N:C ratios and scant pale cytoplasm. Nuclei are round to slightly irregular with finely dispersed chromatin and small nucleoli in some cells, imparting a blastoid appearance. Few small mature lymphocytes are present and there are crush artifacts. In the context of cyclin D1 and CD5 expression, findings are suggestive of mantle cell lymphoma with blastoid features.",
+  "ddx": [
+    {"dx": "Lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts look similar on imprint but are TdT+ and cyclin D1-, whereas blastoid MCL is TdT- with cyclin D1 and SOX11 expression."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are usually larger with more cytoplasm and prominent or multiple nucleoli, and are cyclin D1- in almost all cases."},
+    {"dx": "Acute myeloid leukemia/myeloid sarcoma", "vs": "Myeloid blasts may show granules or Auer rods and are MPO/CD34/CD117 positive, lacking B-cell markers and cyclin D1."}
+  ],
+  "specimen": "LN",
+  "stain": "Wright-Giemsa (Romanowsky-type)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61945",
+  "recognize_zh": "CD3 免疫染色中，大量小型 T 細胞呈細胞膜陽性並填滿濾泡間區，中間夾著數個 CD3 陰性（藍色）的小細胞區，對應 B 細胞濾泡或 B 細胞區；T 區擴張而結構保留，符合 EBV 再活化時的反應性副皮質增生。",
+  "features": [
+    "Lymphoid tissue with numerous CD3-positive small T cells showing membranous staining",
+    "Expanded interfollicular/paracortical T-cell zones",
+    "Intervening CD3-negative zones of small lymphocytes, consistent with B-cell areas or follicles",
+    "Positive cells are small and uniform without large atypical T cells evident at this power",
+    "Overall compartmentalization of T- and B-cell zones is preserved"
+  ],
+  "describe_en": "CD3 immunostain on lymphoid tissue shows numerous small T cells with membranous staining occupying expanded interfollicular and paracortical areas, separating CD3-negative zones of small lymphocytes that likely represent B-cell areas. The T cells are small and uniform without obvious large atypical forms at this magnification, and the compartmentalization of T- and B-cell zones is preserved. Findings are consistent with a reactive paracortical T-cell expansion, as seen in EBV reactivation, and do not by themselves indicate a T-cell lymphoma; EBER ISH and correlation with CD20, CD30 and clonality studies are required.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL effaces the architecture with atypical medium to large T cells, often with pan-T antigen loss and a clonal TCR rearrangement."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows expanded CD21+ follicular dendritic meshworks, arborizing vessels and atypical PD-1/CD10-positive TFH cells, often with scattered EBV-positive B blasts."},
+    {"dx": "Classic Hodgkin lymphoma, mixed cellularity", "vs": "Hodgkin lymphoma contains CD30+/CD15+ Hodgkin/Reed-Sternberg cells rosetted by T cells within an expanded interfollicular zone."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

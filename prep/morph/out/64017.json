@@ -1,0 +1,22 @@
+{
+  "id": "64017",
+  "recognize_zh": "厚片中紅血球已溶解只剩淡色影子，背景散佈許多帶棕黑色瘧色素、形狀不規則的滋養體，下方可見一個由多個裂殖子聚成的裂殖體（schizont），同時存在多個不同時期，符合間日瘧（P. vivax）厚片。",
+  "features": [
+    "Thick film with lysed red cells leaving pale ghost outlines; platelets appear as small pink clusters",
+    "Numerous irregular, amoeboid trophozoites with dark chromatin and brown-black pigment",
+    "Schizont composed of a cluster of numerous merozoites with a clumped pigment mass (lower center)",
+    "Larger round, densely stained parasite forms compatible with gametocytes",
+    "Multiple developmental stages present simultaneously"
+  ],
+  "describe_en": "Thick blood film (Giemsa stain) shows lysed red cells in the background with numerous malaria parasites. There are many irregular, amoeboid trophozoites containing chromatin and brown pigment, larger round compact forms compatible with gametocytes, and a schizont with multiple merozoites and a clumped pigment mass. The presence of all developmental stages, with amoeboid trophozoites, favors a non-falciparum species. Findings are consistent with Plasmodium vivax infection; species confirmation and parasitemia estimation should use the thin film.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum", "vs": "Falciparum thick films usually show numerous small uniform rings, with crescentic gametocytes and schizonts rarely present in peripheral blood."},
+    {"dx": "Plasmodium malariae", "vs": "P. malariae has compact (non-amoeboid) trophozoites with coarse pigment and schizonts of 6-12 merozoites, often in a rosette, and usually low parasitemia."},
+    {"dx": "Plasmodium ovale", "vs": "Ovale trophozoites are more compact, and the thick film cannot reliably separate it from vivax, so thin-film red cell features or PCR are needed."},
+    {"dx": "Platelet clumps and stain debris", "vs": "Platelet aggregates are pink-purple granular clusters without discrete chromatin dots, blue cytoplasm or golden-brown pigment."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

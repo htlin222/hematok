@@ -1,0 +1,22 @@
+{
+  "id": "60830",
+  "recognize_zh": "周邊血中散在小至中型、核質比極高、染色質均勻深染或細緻、胞質極少的淋巴樣細胞，外觀像母細胞；在異體幹細胞移植後的情境下，這類細胞多為重建中的 B 細胞（hematogone-like），需流式確認成熟度而非直接判為復發。",
+  "features": [
+    "Small to medium lymphoid cells, slightly larger than red cells, with very high N:C ratio",
+    "Round nuclei with homogeneous, smudged-to-fine dark chromatin; nucleoli inconspicuous in most cells",
+    "Scant rim of basophilic cytoplasm, often barely visible; no granules or Auer rods",
+    "Occasional larger cell with more open chromatin and slightly irregular contour (panel A center)",
+    "Scattered in a background of normocytic red cells with mild anisocytosis (panel B low power)"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered small to medium-sized lymphoid cells with round nuclei, homogeneous dark to finely dispersed chromatin, inconspicuous nucleoli and scant basophilic agranular cytoplasm, imparting a blast-like appearance. An occasional larger cell has more open chromatin. No Auer rods, granules or dysplastic myeloid cells are seen, and the red cells show only mild anisocytosis. Morphology alone cannot distinguish these cells from leukemic blasts; in the post-allogeneic transplant setting, findings are suggestive of regenerating B cells, and flow cytometry demonstrating a maturing, non-aberrant B-cell continuum (CD19+, variable CD10/CD20/CD34/TdT) is required.",
+  "ddx": [
+    {"dx": "Relapsed B-lymphoblastic leukemia", "vs": "Leukemic lymphoblasts show an aberrant, maturation-arrested immunophenotype on flow cytometry (uniform CD34/TdT, CD58 or CD38 aberrancies, loss of CD45) and often matching the original leukemia-associated phenotype or MRD markers."},
+    {"dx": "Relapsed acute myeloid leukemia", "vs": "Myeloblasts usually have more cytoplasm, fine azurophilic granules or Auer rods and express MPO/CD13/CD33/CD117 rather than B-cell antigens."},
+    {"dx": "Mature small B-cell lymphoma in leukemic phase (e.g., mantle cell lymphoma)", "vs": "Mature B-cell neoplasms show clumped chromatin, light-chain restriction and lack CD34/TdT, whereas regenerating B cells are polyclonal with a physiologic maturation spectrum."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": ["A: montage of individual blast-like lymphoid cells after allogeneic stem cell transplantation", "B: low-power field showing scattered small blast-like lymphoid cells"]
+}

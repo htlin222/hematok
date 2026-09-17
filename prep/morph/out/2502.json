@@ -1,0 +1,21 @@
+{
+  "id": "2502",
+  "recognize_zh": "電子顯微鏡下一個細胞的胞質內可見多個棒狀、中間有縱向條紋的膜性構造，其中一端帶圓形膨大的即為網球拍狀的伯貝克顆粒（Birbeck granules），是蘭格罕細胞的超微結構標記。",
+  "features": [
+    "Transmission electron micrograph of a cell with part of the nucleus at upper right",
+    "Multiple rod-shaped cytoplasmic structures with a central linear striation (zipper-like), consistent with Birbeck granules",
+    "Occasional rod with a terminal vesicular dilatation giving a tennis-racket profile",
+    "Scattered mitochondria, small vesicles and ribosomes in the cytoplasm",
+    "Irregular cell border with short cytoplasmic projections"
+  ],
+  "describe_en": "Transmission electron microscopy shows a portion of a mononuclear cell with an irregular plasma membrane and a nucleus with finely dispersed chromatin. The cytoplasm contains several rod-shaped, pentilaminar structures with a central striated core, some with a terminal vesicular expansion (tennis-racket form), together with mitochondria and small vesicles. These cytoplasmic inclusions are Birbeck granules. Findings are consistent with a Langerhans cell, supporting the diagnosis of Langerhans cell histiocytosis.",
+  "ddx": [
+    {"dx": "Interdigitating dendritic cell sarcoma", "vs": "Interdigitating dendritic cells have complex interdigitating processes but lack Birbeck granules and are CD1a and langerin negative."},
+    {"dx": "Erdheim-Chester disease / non-Langerhans histiocytes", "vs": "Non-Langerhans histiocytes contain lysosomes and lipid but no Birbeck granules and are CD1a/langerin negative."},
+    {"dx": "Normal epidermal Langerhans cell", "vs": "Birbeck granules are also present in normal Langerhans cells, so diagnosis of LCH requires clonal sheets of such cells in an abnormal site (often BRAF V600E mutated)."}
+  ],
+  "specimen": "tissue",
+  "stain": "Electron microscopy",
+  "match": "consistent",
+  "high_yield": true
+}

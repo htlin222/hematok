@@ -1,0 +1,22 @@
+{
+  "id": "61099",
+  "recognize_zh": "周邊血可見大量嗜酸性白血球（A），骨髓抹片則在嗜酸性白血球之間混有高核質比、細染色質的淋巴母細胞（B），切片免疫染色瀰漫陽性（C），核型圖以箭頭標示 5 號與 14 號染色體異常（D）；嗜酸性白血球增多合併 B-ALL 時應想到 t(5;14) IL3-IGH。",
+  "features": [
+    "Peripheral blood: marked eosinophilia with mature eosinophils showing coarse orange-red granules and bilobed nuclei",
+    "Bone marrow aspirate: population of blasts with high N:C ratio, round nuclei, fine chromatin and scant basophilic cytoplasm",
+    "Eosinophils and eosinophilic precursors admixed with the blasts (eosinophils themselves not morphologically dysplastic)",
+    "Core biopsy immunostain: diffuse strong staining of densely packed neoplastic cells (antigen not labeled)",
+    "Karyotype with arrows marking abnormal chromosomes 5 and 14 (plus an additional arrowed chromosome), consistent with t(5;14)(q31;q32)"
+  ],
+  "describe_en": "Composite figure. The peripheral blood smear shows marked eosinophilia composed of mature-appearing eosinophils without circulating blasts in this field. The bone marrow aspirate shows lymphoblasts with high nuclear-to-cytoplasmic ratio, finely dispersed chromatin and scant cytoplasm, admixed with eosinophils. An immunostain on the core biopsy shows diffuse positivity in a densely cellular infiltrate, and the G-banded karyogram highlights rearranged chromosomes 5 and 14. Findings are consistent with B-lymphoblastic leukemia with t(5;14)(q31;q32); IL3::IGH, in which reactive eosinophilia may precede or overshadow the blast population.",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and PDGFRA/PDGFRB/FGFR1/JAK2 rearrangement", "vs": "In these neoplasms the eosinophils are part of the clone and blasts, if present, may be T- or myeloid lineage, whereas in t(5;14) B-ALL the eosinophils are reactive (non-clonal) and the IL3::IGH fusion is detected by karyotype/FISH."},
+    {"dx": "Reactive eosinophilia (parasitic, allergic, drug)", "vs": "Reactive eosinophilia lacks a marrow lymphoblast population and clonal cytogenetic abnormalities."},
+    {"dx": "AML with inv(16)/t(16;16)", "vs": "Inv(16) AML shows abnormal eosinophil precursors with large basophilic granules and myelomonocytic MPO+ blasts rather than TdT+ CD19+ lymphoblasts."},
+    {"dx": "Hypereosinophilic syndrome / chronic eosinophilic leukemia", "vs": "CEL shows clonal dysplastic eosinophils and increased myeloblasts without a B-lymphoblast population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; IHC (antigen not labeled); karyotype",
+  "match": "consistent",
+  "high_yield": false
+}

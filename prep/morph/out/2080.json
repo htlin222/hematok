@@ -1,0 +1,21 @@
+{
+  "id": "2080",
+  "recognize_zh": "周邊血液抹片中央一顆嗜中性球的細胞核分成至少六葉（lobe），各葉之間以細絲相連，這就是過度分葉嗜中性球（hypersegmented neutrophil）的特徵。",
+  "features": [
+    "Single segmented neutrophil with at least six discrete nuclear lobes connected by thin chromatin filaments",
+    "Coarse clumped chromatin in each lobe; pale pink cytoplasm with fine neutrophilic granules",
+    "Cell is of normal to slightly large neutrophil size",
+    "Background red cells are mostly round with central pallor; no obvious marked macro-ovalocytosis in this field",
+    "No inclusions (Döhle bodies, toxic granulation) evident"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil with at least six nuclear lobes connected by thin filaments, with otherwise unremarkable granular cytoplasm. Surrounding red cells are largely normochromic with central pallor, and marked macro-ovalocytosis is not evident in this field. Hypersegmentation is defined as any neutrophil with six or more lobes or more than 5% of neutrophils with five lobes. Findings are consistent with a hypersegmented neutrophil, most commonly associated with megaloblastic anemia due to vitamin B12 or folate deficiency.",
+  "ddx": [
+    {"dx": "Normal segmented neutrophil", "vs": "Normal neutrophils usually have 2 to 4 lobes, whereas this cell has six or more."},
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "The hereditary form involves most neutrophils in an otherwise healthy person with normal B12/folate and no macrocytosis, and requires clinical correlation to separate."},
+    {"dx": "Hypersegmentation from drugs or myelodysplasia (e.g. methotrexate, hydroxyurea, MDS)", "vs": "These are indistinguishable morphologically on a single cell and require medication history, vitamin levels and marrow evaluation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

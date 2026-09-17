@@ -1,0 +1,23 @@
+{
+  "id": "63701",
+  "recognize_zh": "骨髓切片中泡沫狀組織球（foamy histiocytes）成片取代造血組織，抽吸片插圖中組織球內充滿未著色的條狀負影；AFB 染色呈大量紅色桿菌、PAS-D 呈洋紅色、GMS 呈黑色細絲狀菌體塞滿組織球，是 AIDS 病人瀰漫性 MAC 感染的典型表現。",
+  "features": [
+    "Panel A (H&E): sheets of foamy histiocytes with finely granular/striated pale cytoplasm replacing hematopoiesis",
+    "Panel A inset (Wright-Giemsa): histiocyte packed with unstained rod-shaped negative images of bacilli",
+    "Panel B (AFB): innumerable red acid-fast bacilli clustered within histiocytes on a blue counterstain",
+    "Panel C (PAS-D): magenta PAS-positive, diastase-resistant filamentous organisms filling histiocyte cytoplasm",
+    "Panel D (GMS): black-staining bacilli aggregates within histiocytes on a green background",
+    "Poorly formed, non-necrotizing histiocytic aggregates without caseation"
+  ],
+  "describe_en": "Bone marrow core biopsy shows markedly reduced hematopoiesis with extensive sheets and poorly formed non-necrotizing granulomas of foamy histiocytes containing finely striated cytoplasm (A). The aspirate smear shows histiocytes filled with negatively staining rod-shaped structures (A, inset). Acid-fast stain highlights innumerable intracellular bacilli (B), and the organisms are also positive on PAS with diastase (C) and Grocott methenamine silver (D). Findings are consistent with disseminated Mycobacterium avium-intracellulare complex infection in an immunocompromised host; culture or molecular identification is recommended for speciation.",
+  "ddx": [
+    {"dx": "Gaucher disease", "vs": "Gaucher cells have crumpled tissue-paper cytoplasm that is PAS positive but AFB and GMS negative, without negative bacillary images on smears."},
+    {"dx": "Mycobacterium tuberculosis", "vs": "M. tuberculosis usually forms well-formed caseating granulomas with few bacilli, whereas MAC in AIDS produces sheets of histiocytes stuffed with innumerable organisms; culture/PCR speciation is definitive."},
+    {"dx": "Histoplasmosis", "vs": "Histoplasma yeasts are small, round to oval 2-4 um budding forms on GMS/PAS and are not acid-fast, unlike slender rod-shaped bacilli."},
+    {"dx": "Whipple disease", "vs": "Tropheryma whipplei histiocytes are PAS-D positive but AFB negative and usually involve the gut, confirmed by PCR."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E, Wright-Giemsa (inset), AFB, PAS-D, GMS",
+  "match": "consistent",
+  "high_yield": true
+}

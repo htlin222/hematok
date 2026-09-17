@@ -1,0 +1,22 @@
+{
+  "id": "61008",
+  "recognize_zh": "低倍血片白血球顯著增加且左移（大量骨髓球、後骨髓球、帶狀核）；右下插圖上方細胞質充滿粗大深紫顆粒（毒性顆粒或粗顆粒前驅細胞），下方嗜中性球細胞質淡而幾乎無顆粒、核分葉不足，呈發育不良（dysgranulopoiesis），支持 aCML。",
+  "features": [
+    "Marked neutrophilic leukocytosis with numerous immature granulocytes (myelocytes, metamyelocytes, bands)",
+    "Inset (upper): granulocyte with abundant coarse dark purple cytoplasmic granules and indented nucleus (toxic-type granulation)",
+    "Inset (lower): neutrophil with pale, nearly agranular cytoplasm and hyposegmented, clumped nucleus (dysplastic)",
+    "No conspicuous basophilia or monocytosis in the low-power field",
+    "Normocytic red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with a left-shifted granulocytic series including myelocytes, metamyelocytes, band forms and segmented neutrophils. The high-power inset shows a granulocyte with coarse, dark cytoplasmic granulation resembling toxic granulation and a neutrophil with hypogranular pale cytoplasm and a hyposegmented nucleus, indicating dysgranulopoiesis. Basophils and monocytes are not conspicuously increased, and red cells are unremarkable. In a BCR::ABL1-negative patient, the combination of neutrophilic leukocytosis, circulating immature granulocytes and dysgranulopoiesis is consistent with atypical CML (MDS/MPN with neutrophilia).",
+  "ddx": [
+    {"dx": "Leukemoid reaction with toxic changes", "vs": "Reactive neutrophilia shows toxic granulation and Döhle bodies but not hypogranular, hyposegmented (pseudo-Pelger) neutrophils."},
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "CML has basophilia and a myelocyte peak without dysplasia, and BCR::ABL1 is present."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL shows mature neutrophils often with toxic granulation, but immature granulocytes are <10% and dysgranulopoiesis is absent."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS shares dysgranulopoiesis but typically presents with cytopenias rather than marked leukocytosis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

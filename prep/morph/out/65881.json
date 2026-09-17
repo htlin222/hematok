@@ -1,0 +1,22 @@
+{
+  "id": "65881",
+  "recognize_zh": "一群中到大型母細胞，染色質細緻、可見小核仁，細胞質中等量呈灰藍色且無顆粒，部分有小空泡；下方一顆母細胞細胞質拉長成尾巴（hand-mirror）。形態不具特異性，PICALM::MLLT10 需分子檢測確認。",
+  "features": [
+    "Cluster of medium-to-large blasts with high to moderate N:C ratio",
+    "Round to oval nuclei with finely dispersed chromatin and small nucleoli in some cells",
+    "Moderate amount of pale grey-blue agranular cytoplasm, occasionally with small punched-out vacuoles",
+    "One blast with a polarized cytoplasmic tail producing hand-mirror morphology",
+    "No Auer rods visible; several disrupted/smudged cells with reticular chromatin in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive-appearing cluster of medium-to-large blasts with oval nuclei, finely dispersed chromatin and small nucleoli. The cytoplasm is moderate, lightly basophilic and agranular, with occasional small vacuoles; one blast shows a single elongated cytoplasmic tail (hand-mirror form). No Auer rods are seen, and there are scattered disrupted cells in the background. The morphology is that of an acute leukemia with nonspecific, minimally differentiated blasts; lineage assignment and the PICALM::MLLT10 fusion require flow cytometry and molecular studies.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia (including ETP-ALL)", "vs": "PICALM::MLLT10 also occurs in T-ALL, and aberrant CD7 is common in this AML, so cCD3 versus MPO on flow is required to separate them."},
+    {"dx": "Acute monocytic leukemia with KMT2A rearrangement", "vs": "Monoblasts usually have more abundant grey-blue cytoplasm with folded nuclei and are nonspecific esterase positive; KMT2A FISH distinguishes the fusion partner."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Morphology can be identical and separation relies on detection of the PICALM::MLLT10 fusion by RT-PCR, FISH or sequencing."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts typically have scantier cytoplasm and are CD19/CD79a/TdT positive without myeloid antigens."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

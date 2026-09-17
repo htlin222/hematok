@@ -1,0 +1,21 @@
+{
+  "id": "60822",
+  "recognize_zh": "CD20 染色在許多大型、類何杰金樣的腫瘤細胞呈明顯膜狀陽性（部分帶核旁點狀加強），背景小淋巴球多為陰性；大細胞保有 B 細胞標記，是灰區淋巴瘤與典型何杰金淋巴瘤的重要區分點。",
+  "features": [
+    "Numerous large cells with abundant cytoplasm and vesicular nuclei showing membranous CD20 staining",
+    "Variable intensity: some large cells strongly positive, others weak or granular cytoplasmic",
+    "Several positive cells show paranuclear dot-like accentuation",
+    "Large cells scattered singly and in loose clusters",
+    "Background small lymphoid and histiocytic cells largely CD20-negative"
+  ],
+  "describe_en": "CD20 immunohistochemistry shows membranous and cytoplasmic staining of numerous large atypical cells, with intensity ranging from strong to weak, while the background small lymphocytes are predominantly negative. Some positive large cells show paranuclear dot accentuation. Retention of CD20 in Hodgkin-like large cells, in combination with CD15 and CD30 expression elsewhere in the panel, supports a B-cell lymphoma with features intermediate between diffuse large B-cell lymphoma and classic Hodgkin lymphoma (gray zone lymphoma).",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD20-negative or only weakly positive in a minority of cells, whereas here many large cells express CD20."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered large CD20+ cells in a T-cell and histiocyte background but lacks CD15 and CD30 expression."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "LP cells are strongly CD20+ but CD15/CD30-negative and sit within CD20+ follicular dendritic meshworks with PD1+ T-cell rosettes."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

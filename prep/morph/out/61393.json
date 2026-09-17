@@ -1,0 +1,21 @@
+{
+  "id": "61393",
+  "recognize_zh": "PAX5 免疫染色下，背景多數細胞為陰性（藍色），只有散佈的大型不典型細胞呈中等強度的棕色核染色，表示這些 Hodgkin 樣大細胞屬於 B 細胞系。",
+  "features": [
+    "Scattered large cells with moderate brown PAX5 staining, including one large giant cell in the center",
+    "Positive cells show large irregular nuclei, some lobated, with staining intensity comparable to or stronger than expected for HRS cells",
+    "Most background cells are PAX5-negative with hematoxylin-counterstained nuclei",
+    "Few small PAX5-positive cells; background small B cells are sparse",
+    "Faint granular non-specific background staining"
+  ],
+  "describe_en": "PAX5 immunohistochemistry highlights scattered large atypical cells, including multilobated giant forms, with moderate nuclear staining. The majority of the background inflammatory cells are negative, and small reactive B cells are sparse in this field. Mild non-specific granular background staining is present. The PAX5 expression confirms B-cell lineage of the large atypical cells; in the context of EBER-positive HRS-like cells within a mucocutaneous ulcer, findings are consistent with EBV-positive mucocutaneous ulcer.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells show characteristically weak (dim) PAX5 relative to background B cells and are usually CD20-negative, whereas EBVMCU cells are moderate PAX5 and frequently CD20-positive."},
+    {"dx": "Peripheral T-cell lymphoma with HRS-like B cells", "vs": "The large PAX5+ cells may be bystander EBV+ B cells, but the background T cells are atypical with aberrant phenotype and clonal TCR rearrangement."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Large CD30+ cells are PAX5-negative T/null cells, often ALK+ or with hallmark cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PAX5",
+  "match": "consistent",
+  "high_yield": false
+}

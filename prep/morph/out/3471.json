@@ -1,0 +1,21 @@
+{
+  "id": "3471",
+  "recognize_zh": "骨髓抹片中出現一團彼此黏附、邊界不清的大型細胞群（cohesive cluster），核大、核質比高、核互相重疊，與周圍分散的造血細胞明顯不同，提示轉移性癌細胞；HER2 狀態無法從此染色判斷。",
+  "features": [
+    "Large cohesive, three-dimensional cluster of non-hematopoietic cells with indistinct cell borders (syncytial appearance)",
+    "Large oval nuclei with high N:C ratio, nuclear overlapping and molding",
+    "Coarse to vesicular chromatin; some nuclei with visible nucleoli",
+    "Pale blue, finely vacuolated shared cytoplasm",
+    "Cluster size and cohesion distinctly different from surrounding dispersed marrow cells and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large, cohesive cluster of foreign cells set against a blood-rich background. The cells are large, with oval overlapping nuclei, high N:C ratios, variably prominent nucleoli and pale blue, vacuolated cytoplasm with indistinct cell borders. The clustering and molding are not features of hematopoietic cells. Findings are consistent with metastatic carcinoma involving the marrow; in this clinical context metastatic breast carcinoma is favored, but HER2 status requires immunohistochemistry on the biopsy or clot section.",
+  "ddx": [
+    {"dx": "Megakaryocyte clusters", "vs": "Megakaryocytes are individually large with lobulated single nuclei and granular pink cytoplasm, not tightly molded clusters of separate overlapping oval nuclei."},
+    {"dx": "Osteoblast aggregates", "vs": "Osteoblasts form loose groups of plasmacytoid cells with eccentric nuclei and a pale perinuclear hof away from the nucleus, rather than syncytial clusters with high N:C ratio."},
+    {"dx": "Clumped leukemic or lymphoma cells", "vs": "Hematopoietic tumor cells dissociate and lack true cohesion and nuclear molding; immunostaining for cytokeratin versus CD45 resolves difficult cases."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

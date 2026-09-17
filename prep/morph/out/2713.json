@@ -1,0 +1,20 @@
+{
+  "id": "2713",
+  "recognize_zh": "高倍下有一顆大型細胞，細胞質豐富、被染成洋紅色（magenta），內部呈皺摺條紋狀，核偏向一側，符合 PAS 陽性的高雪氏細胞（Gaucher cell）；影像失焦，細節有限。",
+  "features": [
+    "Single large cell with abundant cytoplasm and an eccentric, somewhat compressed nucleus",
+    "Cytoplasm stains intensely magenta with a crinkled, striated (wrinkled tissue paper) texture",
+    "Surrounding smaller cells with purple nuclei lack the magenta cytoplasmic staining",
+    "Image is out of focus, limiting nuclear and fibrillary detail"
+  ],
+  "describe_en": "High-power view of a bone marrow section shows a large histiocyte with abundant cytoplasm and an eccentric nucleus. The cytoplasm is strongly magenta-positive and displays a crumpled, fibrillary texture, whereas surrounding hematopoietic cells do not show this staining. The stain appears to be PAS, though this is not labeled, and the image is out of focus, limiting assessment. Findings are consistent with a PAS-positive Gaucher cell.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells (CML, myeloma, thalassemia, mycobacterial infection)", "vs": "Pseudo-Gaucher cells look nearly identical and require clinical context, glucocerebrosidase enzyme assay or GBA testing, and review for the underlying neoplasm or infection."},
+    {"dx": "Mycobacterium avium complex-laden histiocytes", "vs": "MAC histiocytes have striated cytoplasm too but are packed with acid-fast bacilli on Ziehl-Neelsen stain."},
+    {"dx": "Niemann-Pick (foamy) cells", "vs": "Niemann-Pick cells have bubbly, vacuolated foamy cytoplasm with only weak PAS staining, rather than fibrillary strongly PAS-positive cytoplasm."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "PAS (probable)",
+  "match": "consistent",
+  "high_yield": false
+}

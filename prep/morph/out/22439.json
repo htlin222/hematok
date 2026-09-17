@@ -1,0 +1,22 @@
+{
+  "id": "22439",
+  "recognize_zh": "骨髓抹片中央有一團彼此緊密鑲嵌（nuclear molding）的大型細胞，核淡染、染色質細緻、細胞質稀少，與周圍大量染色質塊狀的小型 CLL 淋巴球明顯不同；插圖 cytokeratin 陽性，證實是轉移癌（Merkel cell carcinoma）而非 Richter 轉化。",
+  "features": [
+    "Cohesive cluster of large cells with nuclear molding and poorly defined cell borders",
+    "Pale, finely granular (salt-and-pepper) chromatin with inconspicuous nucleoli and scant cytoplasm",
+    "Interspersed dark, crushed/degenerating nuclei within the cluster",
+    "Background of numerous small mature lymphocytes with clumped chromatin (CLL)",
+    "Inset: cytokeratin immunostain positive in a nest of tumor cells, negative in surrounding lymphoid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a background of numerous small mature lymphocytes with condensed chromatin, consistent with chronic lymphocytic leukemia. A cohesive cluster of larger cells with nuclear molding, pale finely granular chromatin and scant cytoplasm is present, with interspersed crushed nuclei. The inset immunostain shows a cytokeratin-positive nest of tumor cells separate from the lymphoid infiltrate. Findings are consistent with metastatic neuroendocrine carcinoma (Merkel cell carcinoma) involving a marrow with CLL, mimicking Richter transformation; CK20 (dot-like), neuroendocrine markers and Merkel cell polyomavirus staining support the diagnosis.",
+  "ddx": [
+    {"dx": "Richter transformation (diffuse large B-cell lymphoma)", "vs": "Large lymphoma cells are discohesive, lack nuclear molding and are CD20-positive and cytokeratin-negative."},
+    {"dx": "Small cell lung carcinoma", "vs": "Small cell carcinoma looks the same but is typically TTF-1-positive and CK20-negative, whereas Merkel cell carcinoma is CK20-positive with a dot-like pattern and TTF-1-negative."},
+    {"dx": "Prolymphocytic progression of CLL", "vs": "Prolymphocytes are single, discohesive cells with a central prominent nucleolus and B-cell immunophenotype."},
+    {"dx": "Neuroblastoma or other small round blue cell tumor", "vs": "Neuroblastoma occurs in children, forms rosettes with neuropil and is cytokeratin-negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; IHC: cytokeratin (inset)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61480",
+  "recognize_zh": "周邊血中淋巴球數量明顯增加，細胞為中型、核圓或略不規則、染色質粗塊狀、細胞質中等量且淡藍，形態單一，提示成熟 B 細胞淋巴增生；標題所述類似 Auer 小體的嗜酸性棒狀結晶在此解析度下無法清楚辨認。",
+  "features": [
+    "Marked lymphocytosis with monotonous intermediate-sized lymphoid cells, some in small clusters",
+    "Round to slightly irregular or indented nuclei with coarsely clumped chromatin; occasional small nucleoli",
+    "Moderate amount of pale-to-light basophilic cytoplasm with smooth borders",
+    "Fine eosinophilic Auer rod-like crystalline inclusions are not clearly resolved at this image resolution",
+    "No smudge cells, blasts or plasmacytoid cells evident; red cells unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows marked lymphocytosis composed of a fairly monotonous population of intermediate-sized lymphoid cells with round to slightly irregular nuclei, clumped chromatin, occasional small nucleoli and a moderate rim of pale basophilic cytoplasm. The fine eosinophilic, Auer rod-like crystalline inclusions described for this case are not clearly discernible at the resolution of this image and would need confirmation at higher magnification. No blasts or smudge cells are identified. With the reported monoclonal B-cell population on flow cytometry, findings are consistent with a mature B-cell lymphoma in leukemic phase; immunoglobulin crystal inclusions of this type favor lymphoplasmacytic lymphoma or another low-grade B-cell neoplasm.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with Auer rods", "vs": "True Auer rods occur in myeloblasts with fine chromatin and nucleoli and are MPO-positive, whereas these cells have clumped chromatin and the rods are immunoglobulin, MPO-negative."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are smaller with scant cytoplasm, soccer-ball chromatin and numerous smudge cells, and are CD5+/CD23+ by flow."},
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells often show indented nuclei and are CD5+ with cyclin D1/SOX11 expression, which requires flow or IHC to exclude."},
+    {"dx": "Reactive lymphocytosis", "vs": "Reactive lymphocytes are heterogeneous with abundant cytoplasm hugging red cells and are polyclonal on flow, unlike this monotonous monoclonal population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

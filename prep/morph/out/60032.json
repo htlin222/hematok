@@ -1,0 +1,22 @@
+{
+  "id": "60032",
+  "recognize_zh": "骨髓抹片中央有一顆比周圍造血細胞大上好幾倍的巨大細胞，細胞核多葉且重疊成一團，周圍是大量淡紫粉色、細顆粒的細胞質，這是成熟巨核細胞（megakaryocyte）。",
+  "features": [
+    "Very large cell, many times the diameter of surrounding myeloid and erythroid precursors",
+    "Single multilobated nucleus with overlapping, clustered lobes (not separate nuclei)",
+    "Coarse but not pyknotic chromatin; nucleoli not prominent",
+    "Abundant pale lilac-pink, finely granular cytoplasm consistent with a mature (granular) megakaryocyte",
+    "Background cellular aspirate particle edge with maturing granulocytes, erythroid precursors, and lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular particle edge with a mixed population of maturing granulocytic and erythroid precursors. Centrally there is a very large megakaryocyte with a single, complexly lobulated nucleus whose lobes are overlapping and connected, and abundant pale, finely granular cytoplasm. No hypolobation, separated nuclear lobes, or small (micromegakaryocytic) forms are seen in this cell. Findings are consistent with a normal mature megakaryocyte.",
+  "ddx": [
+    {"dx": "Osteoclast", "vs": "Osteoclasts contain multiple separate, uniform round nuclei with nucleoli in a coarsely granular cytoplasm, rather than one lobulated nucleus."},
+    {"dx": "Dysplastic megakaryocyte (MDS, e.g., del(5q))", "vs": "Dysplastic forms show hypolobated/monolobated nuclei, widely separated nuclear lobes, or micromegakaryocytes, which are absent here."},
+    {"dx": "Metastatic tumor cell or tumor giant cell", "vs": "Tumor cells usually form cohesive clusters with high N:C ratio, prominent nucleoli, and lack the finely granular platelet-producing cytoplasm."},
+    {"dx": "Megakaryocyte in myeloproliferative neoplasm", "vs": "MPN megakaryocytes are often hyperlobated/staghorn (ET) or bulbous and clustered (PMF), best assessed on the biopsy rather than a single aspirate cell."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63056",
+  "recognize_zh": "富細胞的骨髓抹片中有許多顆粒稀少的單核型未成熟髓系細胞（白箭頭），夾雜細胞質深藍、核偏心的漿細胞（藍箭頭），以及細胞質呈藍綠色的海藍組織球（紅箭頭）；在治療後病人出現這種組合，提示治療相關骨髓腫瘤。",
+  "features": [
+    "Cellular aspirate with marrow particles and fat spaces",
+    "Increased mononuclear hypogranular immature myeloid cells with round nuclei and moderate pale blue cytoplasm (white arrows)",
+    "Occasional plasma cells with eccentric nuclei and deeply basophilic cytoplasm (blue arrows)",
+    "Large histiocyte with abundant sea-blue to blue-green cytoplasm and eccentric nucleus (red arrow), with additional similar histiocytes nearby",
+    "Numerous small dark erythroid precursors and lymphocytes in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular and shows an increase in mononuclear, hypogranular immature myeloid cells with round nuclei and pale blue cytoplasm, reported to be MPO-positive. Occasional plasma cells and scattered sea-blue histiocytes with abundant blue-green cytoplasm are present, the latter reflecting increased cell turnover. Precise blast enumeration is not possible from this field. In a patient with prior cytotoxic therapy, findings are consistent with a therapy-related myeloid neoplasm; blast percentage, dysplasia assessment and cytogenetics are required for classification.",
+  "ddx": [
+    {"dx": "De novo AML or MDS", "vs": "Morphology is identical, so distinction rests on documented prior cytotoxic or radiation therapy."},
+    {"dx": "Plasma cell myeloma relapse", "vs": "Myeloma shows sheets of clonal CD138+ plasma cells, whereas plasma cells here are only occasional and the dominant population is MPO-positive myeloid."},
+    {"dx": "Gaucher disease / storage disorder", "vs": "True Gaucher cells have wrinkled-tissue-paper cytoplasm in a non-neoplastic marrow, whereas pseudo-Gaucher and sea-blue histiocytes here accompany a myeloid neoplasm."},
+    {"dx": "Marrow regeneration after chemotherapy", "vs": "Regenerating marrow shows synchronous, orderly maturation with granulated promyelocytes and resolves on follow-up, without persistent hypogranular blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "30974",
+  "recognize_zh": "A 列為高度細胞化骨髓中的小型、核低分葉的「侏儒」巨核細胞（dwarf megakaryocytes），典型 CML；B 列在 imatinib 治療後變成大型、核高度分葉如鹿角狀（staghorn）的巨核細胞，位於脂肪較多的骨髓，呈 ET 樣形態，反映共存的 JAK2 V617F 克隆。",
+  "features": [
+    "Panel A: small megakaryocytes with round to hypolobated nuclei (dwarf megakaryocytes) in a hypercellular granulocyte-rich marrow",
+    "Panel B: large to giant megakaryocytes with abundant eosinophilic cytoplasm and deeply hyperlobated, staghorn-like nuclei",
+    "Panel B megakaryocytes lie loosely adjacent to fat spaces with more normocellular surrounding marrow",
+    "Panel A background: sheets of maturing myeloid cells and small dark nuclei, consistent with myeloid hyperplasia"
+  ],
+  "describe_en": "Composite bone marrow biopsy sections (H&E). Pre-treatment sections (A) show a hypercellular marrow with granulocytic hyperplasia and small megakaryocytes with hypolobated nuclei, typical of the dwarf megakaryocytes of chronic myeloid leukemia. Post-imatinib sections (B) show large megakaryocytes with abundant cytoplasm and hyperlobulated staghorn-like nuclei in a less cellular marrow, resembling essential thrombocythemia. Findings are consistent with suppression of the BCR-ABL1 clone by imatinib unmasking a coexistent JAK2 V617F-driven ET-like megakaryocytic proliferation.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "PMF megakaryocytes are atypical with hyperchromatic, cloud-like nuclei forming dense clusters, often with reticulin fibrosis, rather than mature staghorn forms."},
+    {"dx": "Myelodysplastic syndrome with micromegakaryocytes", "vs": "MDS micromegakaryocytes are smaller with a single round nucleus and accompany dysplasia in other lineages without BCR-ABL1 or JAK2-driven myeloproliferation."},
+    {"dx": "Reactive thrombocytosis", "vs": "Reactive megakaryocytes are increased but normal in size and lobulation, without giant staghorn forms and without a clonal driver mutation."},
+    {"dx": "Polycythemia vera", "vs": "PV shows panmyelosis with pleomorphic megakaryocytes and erythroid hyperplasia with elevated hemoglobin, whereas ET-like marrow has megakaryocytic proliferation alone."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

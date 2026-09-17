@@ -1,0 +1,21 @@
+{
+  "id": "63108",
+  "recognize_zh": "CD68 在右側病灶的內襯細胞與腔內脫落細胞團呈強陽性（顆粒狀），左側白髓淋巴球為陰性；病灶細胞帶有組織球標記，這是 littoral cell angioma 的特徵之一。",
+  "features": [
+    "Strong granular cytoplasmic CD68 staining in lesional lining cells (right)",
+    "Cluster of large, intensely CD68-positive desquamated cells within a blood-filled lumen",
+    "Adjacent white pulp lymphoid tissue (left) is CD68-negative except for rare histiocytes",
+    "Lesional area shows anastomosing channels with plump positive cells",
+    "Blood-filled cystic space in upper field"
+  ],
+  "describe_en": "CD68 immunostain of spleen shows strong granular cytoplasmic staining of the cells lining the vascular channels of the lesion, as well as a cluster of large, intensely positive cells shed into a blood-filled lumen. The adjacent white pulp is essentially negative. Expression of the histiocytic marker CD68 in the lining cells supports the dual endothelial-histiocytic phenotype of littoral cell angioma.",
+  "ddx": [
+    {"dx": "Splenic hemangioma", "vs": "Hemangioma lining cells are CD31+/CD34+ but lack CD68 and CD163 expression."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH shows scattered CD68+ hemophagocytic macrophages in cords and sinuses without a mass-forming vascular lesion lined by CD68+ cells."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are CD1a+/langerin+/S100+ with grooved nuclei and form infiltrates rather than lining vascular channels."}
+  ],
+  "specimen": "spleen",
+  "stain": "IHC: CD68",
+  "match": "consistent",
+  "high_yield": false
+}

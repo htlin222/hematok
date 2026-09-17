@@ -1,0 +1,22 @@
+{
+  "id": "3965",
+  "recognize_zh": "這是白血球鹼性磷酸酶（LAP）細胞化學染色的周邊血抹片：兩顆分節嗜中性球核被對比染成紅色，細胞質只有淡淡的瀰漫藍色、看不到粗大的陽性沉澱顆粒，屬低分級（約 0–1+）；計分時要數 100 顆中性球逐一分級加總。",
+  "features": [
+    "Peripheral blood smear processed for leukocyte alkaline phosphatase cytochemistry with red nuclear counterstain",
+    "Two segmented neutrophils with red-stained lobulated nuclei",
+    "Neutrophil cytoplasm shows only faint diffuse bluish staining without coarse discrete precipitate granules, corresponding to a low reaction grade (about 0 to 1+)",
+    "Unstained, pale yellow-tan red cells in the background",
+    "Exact grading is limited by image resolution; the score requires assessment of 100 consecutive neutrophils"
+  ],
+  "describe_en": "Peripheral blood smear stained for leukocyte alkaline phosphatase shows two segmented neutrophils with red-counterstained nuclei. The cytoplasm of both cells shows only faint diffuse staining without coarse precipitate granules, corresponding to a low reaction grade of approximately 0 to 1+. The LAP score is obtained by grading 100 consecutive neutrophils from 0 to 4+ and summing the grades (reference range roughly 20 to 100, laboratory dependent). A predominance of cells like these would give a low score, as seen in chronic myeloid leukemia or PNH, whereas a leukemoid reaction or polycythemia vera gives a high score.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia (low LAP score)", "vs": "CML neutrophils are predominantly 0 to 1+ giving a low total score, which should be confirmed by BCR::ABL1 testing because the LAP score is now largely supplementary."},
+    {"dx": "Leukemoid reaction or infection (high LAP score)", "vs": "Reactive neutrophilia shows many neutrophils with dense 3+ to 4+ granular precipitate filling the cytoplasm and a high total score."},
+    {"dx": "Paroxysmal nocturnal hemoglobinuria (low LAP score)", "vs": "PNH also gives a low LAP score but is distinguished by hemolysis and loss of GPI-anchored proteins (CD55/CD59, FLAER) on flow cytometry."},
+    {"dx": "Polycythemia vera (high LAP score)", "vs": "PV typically shows an elevated LAP score together with erythrocytosis and a JAK2 mutation."}
+  ],
+  "specimen": "PB",
+  "stain": "LAP cytochemistry, nuclear fast red counterstain",
+  "match": "consistent",
+  "high_yield": true
+}

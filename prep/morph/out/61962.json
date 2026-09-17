@@ -1,0 +1,20 @@
+{
+  "id": "61962",
+  "recognize_zh": "GATA3染色中大多數腫瘤細胞核呈中等至強度不一的核陽性，少數細胞（多為基質或反應性細胞）為陰性；GATA3核陽性常見於ALK陰性ALCL（非DUSP22重排型），可作為輔助標記。",
+  "features": [
+    "Nuclear GATA3 staining in the majority of cells with variable intensity",
+    "Positive nuclei are intermediate-to-large and round to oval",
+    "Interspersed negative nuclei, including spindle-shaped stromal cells",
+    "Light nonspecific cytoplasmic background staining"
+  ],
+  "describe_en": "GATA3 immunostain shows nuclear staining of variable intensity in the majority of the intermediate-to-large tumor cells, with interspersed negative stromal and reactive cells. The diffuse nuclear expression supports a GATA3-positive phenotype, which is common in ALK-negative anaplastic large cell lymphoma lacking DUSP22 rearrangement and in the PTCL-GATA3 subgroup. Correlation with CD30, ALK and genetic studies is required.",
+  "ddx": [
+    {"dx": "PTCL, NOS (GATA3 subtype)", "vs": "PTCL-GATA3 lacks the uniform strong CD30 and hallmark cells that define ALCL."},
+    {"dx": "DUSP22-rearranged ALK-negative ALCL", "vs": "DUSP22-rearranged cases are characteristically GATA3-negative and cytotoxic-marker negative with LEF1 expression, and are identified by FISH."},
+    {"dx": "Metastatic breast or urothelial carcinoma", "vs": "These are GATA3-positive but keratin-positive and CD30/T-cell-marker negative with cohesive epithelial nests."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: GATA3",
+  "match": "consistent",
+  "high_yield": false
+}

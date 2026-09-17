@@ -1,0 +1,22 @@
+{
+  "id": "16214",
+  "recognize_zh": "骨髓抽吸液肉眼呈黑褐色（A、B），抹片中大型腫瘤細胞的細胞質充滿深藍黑色的粗大色素顆粒（黑色素，melanin），CT 顯示肝脾多發低密度病灶，符合轉移性黑色素瘤侵犯骨髓。",
+  "features": [
+    "Panels A–B (gross): black-brown pigmented aspirate within the syringe/tube and on smears",
+    "Panel C (CT): multiple hypodense lesions in the liver and spleen",
+    "Panels D–E (BM aspirate): large cells with abundant pale to grayish cytoplasm packed with coarse blue-black to greenish-black pigment granules",
+    "Large round nuclei with open chromatin and visible nucleoli; pigment partly overlies the nucleus",
+    "Background of normal granulocytic precursors, lymphocytes and red cells"
+  ],
+  "describe_en": "Grossly, the bone marrow aspirate and resulting smears are dark brown-black (panels A–B), and CT imaging shows multiple hypodense hepatic and splenic lesions (panel C). The aspirate smears (panels D–E) contain large, non-hematopoietic-appearing cells with abundant cytoplasm filled with coarse blue-black pigment granules, large round nuclei with open chromatin and nucleoli, amid residual normal hematopoietic cells. Cohesive clusters are not clearly shown in these fields. Findings are consistent with metastatic malignant melanoma involving the bone marrow; confirmation with melanocytic IHC (SOX10, S100, HMB-45, Melan-A) and a negative Prussian blue stain for the pigment is recommended.",
+  "ddx": [
+    {"dx": "Hemosiderin-laden macrophages", "vs": "Hemosiderin appears as golden-brown to blue-green refractile granules that are strongly Prussian blue positive, whereas melanin is Prussian blue negative and Fontana-Masson positive, in cells with malignant nuclei."},
+    {"dx": "Sea-blue histiocytes", "vs": "Sea-blue histiocytes have bland small nuclei and uniform blue ceroid granules without gross black discoloration of the aspirate."},
+    {"dx": "Chédiak-Higashi syndrome", "vs": "CHS shows giant azurophilic granules within granulocytes and lymphocytes of normal hematopoietic lineage, not large pigmented non-hematopoietic cells."},
+    {"dx": "Mast cells / basophils", "vs": "Mast cell granules are purple metachromatic and tryptase/CD117 positive, and the cells lack the large atypical nuclei and gross black aspirate of melanoma."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

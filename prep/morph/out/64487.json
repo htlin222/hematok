@@ -1,0 +1,22 @@
+{
+  "id": "64487",
+  "recognize_zh": "骨髓切片以漿細胞為主；肝臟切片見膽汁淤積與肝細胞羽毛狀退化，kappa 染色沿竇狀隙與血管壁呈線狀沉積，而 lambda 與 Congo red 陰性，符合骨髓瘤合併肝臟 kappa 輕鏈沉積症。",
+  "features": [
+    "Bone marrow (A): diffuse infiltrate of plasma cells with eccentric round nuclei, clumped chromatin and moderate amphophilic cytoplasm",
+    "Liver (B): hepatocytes with swollen, pale, rarefied (feathery) cytoplasm, canalicular bile plugs, and foamy cell clusters",
+    "Kappa IHC (C): linear perisinusoidal and vascular wall deposition with a focal dense aggregate of kappa-positive material",
+    "Lambda IHC (E) negative in the deposits; Congo red (D) negative, arguing against amyloid",
+    "No amorphous eosinophilic amyloid-like material visible on H&E"
+  ],
+  "describe_en": "Bone marrow biopsy shows a diffuse infiltrate of plasma cells with eccentric nuclei and clumped chromatin, consistent with plasma cell myeloma. The liver biopsy shows cholestasis with bile plugs, feathery degeneration of hepatocytes, and small clusters of foamy cells. Kappa immunostaining demonstrates linear deposition along sinusoids and vascular walls with a focal dense aggregate, whereas lambda and Congo red stains are negative. Findings are consistent with multiple myeloma with hepatic kappa light chain deposition disease.",
+  "ddx": [
+    {"dx": "AL amyloidosis of the liver", "vs": "Amyloid forms amorphous eosinophilic deposits that are Congo red positive with apple-green birefringence, often in a parenchymal/space of Disse pattern, whereas here Congo red is negative."},
+    {"dx": "Drug-induced or obstructive cholestasis", "vs": "These produce bile plugs and feathery degeneration but no monotypic light chain deposition along sinusoids."},
+    {"dx": "Myeloma involvement of the liver (hepatic plasmacytoma/infiltration)", "vs": "Direct infiltration shows sinusoidal or portal sheets of plasma cells (CD138+) rather than acellular linear light chain deposits."},
+    {"dx": "Heavy chain or light-and-heavy chain deposition disease", "vs": "These are distinguished by immunostaining/immunofluorescence for heavy chains; here the deposits are kappa-only."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: kappa, lambda; Congo red",
+  "match": "consistent",
+  "high_yield": false
+}

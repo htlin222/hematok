@@ -1,0 +1,21 @@
+{
+  "id": "1698",
+  "recognize_zh": "周邊血液中可見兩顆母細胞：核質比高、染色質細緻、細胞質少且偏藍，無顆粒或 Auer 小體；單看型態只能判斷為急性白血病，雙表型（biphenotypic）需靠流式細胞儀確認。",
+  "features": [
+    "Two circulating blasts of medium to large size with high N:C ratio",
+    "Round to oval nuclei with finely dispersed chromatin",
+    "Scant basophilic cytoplasm without visible granules or Auer rods",
+    "One blast smaller and more densely stained than the other",
+    "Background red cells with drying-artifact central clearing; image resolution is low"
+  ],
+  "describe_en": "Peripheral blood smear shows two circulating blasts with high nuclear-to-cytoplasmic ratios, fine chromatin and scant basophilic, agranular cytoplasm. Auer rods are not identified. Red cells show refractile drying artifact. The morphology is that of an acute leukemia but is not lineage-specific; the low image resolution also limits assessment of nucleoli. Assignment as mixed-phenotype (biphenotypic) acute leukemia requires flow cytometric demonstration of lineage-defining markers (e.g., MPO plus CD19 with strong CD79a/CD22/CD10).",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Morphology is identical; separation depends on the absence of myeloid-defining markers such as MPO on flow cytometry."},
+    {"dx": "AML with minimal differentiation", "vs": "Also agranular without Auer rods; it lacks strong B- or T-lineage-defining markers on immunophenotyping."},
+    {"dx": "Reactive large granular or activated lymphocyte", "vs": "Reactive lymphocytes have more abundant cytoplasm and condensed chromatin rather than the fine blastic chromatin seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

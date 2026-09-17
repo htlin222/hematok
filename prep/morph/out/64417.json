@@ -1,0 +1,22 @@
+{
+  "id": "64417",
+  "recognize_zh": "抹片上散布大小不一、深紫色、呈分枝狀或雪花狀的結晶樣碎片，形態不像任何血球；同時分析儀散佈圖（WDF、WNR）在低訊號區出現未分類的異常族群（紅色箭頭），代表檢體受外來物質（EMLA 麻醉乳膏）污染造成的干擾。",
+  "features": [
+    "Panel A: WDF and WNR scattergrams with an abnormal unidentified low-fluorescence population (red arrows) merging with debris/ghost region",
+    "Deep purple, crystal-like extracellular fragments of variable size with branching, fern- or snowflake-like outlines (panel B)",
+    "Fragments lie between red cells and are not attached to cell membranes; no nucleus or granular platelet structure",
+    "Background red cells, a neutrophil and a lymphocyte appear morphologically normal",
+    "No true platelet clumps or microorganisms evident"
+  ],
+  "describe_en": "The Sysmex WDF and WNR scattergrams show an abnormal, unclassified population in the low-fluorescence region (arrows) that falsely increased the raw WBC count. The corresponding May-Grünwald-Giemsa-stained blood smear shows numerous extracellular, deep purple, crystal-like fragments of variable size with branching, fern-like contours, lying free between otherwise normal red cells and leukocytes. These structures do not resemble platelet clumps, cryoglobulin, bacteria or fungi. Findings are consistent with an exogenous pre-analytical interference, here attributed to contamination of the sample by residual EMLA topical anesthetic emulsion.",
+  "ddx": [
+    {"dx": "Platelet clumps (EDTA-induced pseudothrombocytopenia)", "vs": "Platelet clumps are pale-blue aggregates of individual granular platelets, often at the feathered edge, rather than homogeneous dark branching crystals."},
+    {"dx": "Cryoglobulin precipitates", "vs": "Cryoglobulins form pale blue-grey amorphous or crystalline extracellular deposits that disappear when the sample is warmed to 37 °C."},
+    {"dx": "Stain precipitate", "vs": "Stain precipitate is fine, granular and scattered over cells and background in a single plane, lacks the discrete branching crystal forms, and disappears with filtered stain."},
+    {"dx": "Fungal hyphae or bacteria", "vs": "Microorganisms show regular septate hyphae, yeast budding or uniform cocci/rods, often phagocytosed by neutrophils, unlike these irregular crystalline fragments."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa; analyzer scattergrams",
+  "match": "consistent",
+  "high_yield": false
+}

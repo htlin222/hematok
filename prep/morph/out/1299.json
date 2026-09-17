@@ -1,0 +1,22 @@
+{
+  "id": "1299",
+  "recognize_zh": "骨髓抹片中一顆大型組織球，細胞質淡灰藍而豐富，右側吞噬了一顆完整的有核細胞（周圍有透明吞噬泡），左側另有圓形核，是噬血現象（hemophagocytosis）的直接證據。",
+  "features": [
+    "Large histiocyte with abundant pale grey-blue cytoplasm",
+    "Intact engulfed nucleated cell surrounded by a clear phagocytic vacuole (halo)",
+    "Round to oval nuclei with fine chromatin on the left side of the cell (histiocyte nucleus and/or additional ingested nucleus)",
+    "Few fine cytoplasmic granules; no crumpled or foamy texture",
+    "Background of cellular marrow with erythroid precursors, granulocytes and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows cellular marrow with maturing erythroid and granulocytic elements. A large histiocyte with abundant pale grey-blue cytoplasm contains an intact phagocytosed nucleated cell within a clear vacuole, together with additional round nuclei on the opposite side of the cell. This represents hemophagocytosis of a nucleated hematopoietic cell. Isolated hemophagocytosis is not specific, and a diagnosis of hemophagocytic lymphohistiocytosis requires clinical and laboratory criteria (fever, cytopenias, ferritin, soluble CD25, NK function). Findings are consistent with a hemophagocytic histiocyte.",
+  "ddx": [
+    {"dx": "Emperipolesis in a megakaryocyte", "vs": "Megakaryocytes have a large multilobated nucleus and granular pink cytoplasm, and the enclosed cells are viable rather than degraded, unlike this histiocyte with a small oval nucleus."},
+    {"dx": "Binucleate or multinucleated plasma cell/erythroid precursor", "vs": "These have multiple nuclei in basophilic cytoplasm without a vacuole-enclosed intact cell."},
+    {"dx": "Tumor cell cannibalism (e.g., metastatic carcinoma)", "vs": "Cannibalistic tumor cells show malignant nuclear features and cohesive clustering rather than a bland histiocytic nucleus."},
+    {"dx": "Gaucher cell", "vs": "Gaucher cells show fibrillar crumpled tissue-paper cytoplasm without engulfed nucleated cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

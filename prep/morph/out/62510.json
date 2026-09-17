@@ -1,0 +1,21 @@
+{
+  "id": "62510",
+  "recognize_zh": "CD19+ B 細胞門內的 CD5 對 CD23 流式圖：幾乎所有 B 細胞呈單一族群，CD5 弱陽性（約 10^3），CD23 陽性且強度分布廣，兩者共同表現（CD5+/CD23+）是 CLL 最典型的免疫表型。",
+  "features": [
+    "Dot plot gated on CD19+ B cells: CD5-PB (x-axis) versus CD23-APC700 (y-axis)",
+    "Single dominant B-cell population coexpressing CD5 and CD23",
+    "Dim CD5 intensity (~10^3), lower than expected for T cells",
+    "CD23 positive with a broad intensity range (~10^3 to 10^5)",
+    "No separate CD5-negative/CD23-negative normal B-cell population"
+  ],
+  "describe_en": "Flow cytometric plot gated on CD19-positive B cells shows a single dominant population coexpressing dim CD5 and CD23, with CD23 intensity spanning a broad range. No distinct CD5-negative normal B-cell population is identified. CD5/CD23 coexpression in a monotypic B-cell population is the characteristic immunophenotype of chronic lymphocytic leukemia, and a Matutes score using CD5, CD23, FMC7, CD79b, and sIg intensity supports the diagnosis. Findings are consistent with chronic lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is CD5-positive but characteristically CD23-negative or dim, with brighter CD20/sIg and cyclin D1 expression."},
+    {"dx": "CD5-negative small B-cell lymphomas (MZL, FL, LPL)", "vs": "These lack CD5 coexpression on the clonal B cells."},
+    {"dx": "Atypical CLL / trisomy 12 CLL", "vs": "Trisomy 12 CLL remains CD5/CD23-positive but more often shows brighter CD20, sIg, and FMC7, which may lower the Matutes score."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A (flow cytometry)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

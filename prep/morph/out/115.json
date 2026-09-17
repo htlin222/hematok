@@ -1,0 +1,39 @@
+{
+  "id": "115",
+  "recognize_zh": "低倍下淋巴結被密集、背靠背、缺乏套區的濾泡取代；高倍可見濾泡內混有大量中心母細胞（centroblast，大、空泡狀染色質、周邊多個核仁），而免疫染色 BCL2 在濾泡內強陽性，LMO2/HGAL 等生發中心標記陽性，支持 CD10 陰性的濾泡性淋巴瘤。",
+  "features": [
+    "Effacement of nodal architecture by numerous crowded, back-to-back neoplastic follicles with attenuated or absent mantle zones",
+    "Follicles composed of a mixture of small cleaved centrocytes and many large centroblasts with vesicular chromatin and multiple peripheral nucleoli (black arrows), with admixed follicular dendritic cells and histiocytes that must be excluded from the count",
+    "No solid sheets of centroblasts in the sampled fields (no grade 3B/DLBCL component)",
+    "Interfollicular areas with high endothelial venules and small lymphocytes",
+    "IHC: diffuse membranous B-cell marker (likely CD20); strong cytoplasmic BCL2 in follicles; nuclear LMO2 (with endothelial internal control) and cytoplasmic HGAL within follicles; nuclear-marker labeling (likely BCL6/Ki-67) concentrated in follicles",
+    "Touch imprint shows a mixed population of intermediate to large lymphoid cells with open chromatin and visible nucleoli"
+  ],
+  "describe_en": "CT of the neck shows an enlarged lower cervical/supraclavicular lymph node (arrow). Sections of the lymph node show complete effacement of the architecture by closely packed, back-to-back follicles lacking well-formed mantle zones, with intervening vascular interfollicular stroma. At high power the follicles contain a mixture of centrocytes and numerous centroblasts, which exceed 15 per high-power field, while solid sheets of large cells are not seen in these fields; follicular dendritic cells and histiocytes are distinguished from centroblasts by their pale, bilobed or reniform nuclei and delicate small nucleoli. Immunohistochemistry shows a diffuse B-cell population with strong BCL2 expression within the follicles, and the germinal center markers LMO2 and HGAL are positive, while only scattered non-neoplastic cells are highlighted on one stain (label not provided; the report states CD10 is negative). Findings are consistent with relapsed follicular lymphoma, grade 3A, CD10-negative, without a diffuse large B-cell lymphoma component in the images shown.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive follicles are separated, polarized with tingible-body macrophages and intact mantle zones, and are BCL2-negative within germinal centers, unlike the crowded BCL2-positive follicles here."},
+    {"dx": "Follicular lymphoma grade 3B / DLBCL", "vs": "Grade 3B shows solid sheets of centroblasts without residual centrocytes and DLBCL shows diffuse areas, whereas these follicles retain admixed centrocytes and no diffuse sheets are seen."},
+    {"dx": "Nodal marginal zone lymphoma with follicular colonization", "vs": "Marginal zone lymphoma consists of monocytoid/centrocyte-like cells lacking germinal center markers (LMO2, HGAL, BCL6 negative), whereas this CD10-negative lesion expresses LMO2 and HGAL."},
+    {"dx": "Follicular lymphoma grade 1-2", "vs": "Grade 1-2 has 15 or fewer centroblasts per HPF, whereas the high-power field here contains numerous centroblasts above that threshold."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; Romanowsky imprint; IHC (CD20, BCL2, LMO2, HGAL)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Axial CT neck: enlarged lower cervical/supraclavicular lymph node (arrow)",
+    "Touch imprint: mixed intermediate and large lymphoid cells with open chromatin and nucleoli",
+    "H&E low power: nodal effacement by crowded back-to-back follicles",
+    "H&E low-medium power: closely packed follicles lacking mantle zones",
+    "H&E medium power: neoplastic follicles with vascular interfollicular stroma",
+    "H&E high power: centroblasts (black arrows) versus follicular dendritic cells/histiocytes (blue and white arrows)",
+    "IHC, membranous B-cell marker (likely CD20): diffuse positivity",
+    "IHC: only scattered small cells positive; follicular tumor cells negative",
+    "IHC LMO2 low power: nuclear staining in follicle with positive endothelial cells",
+    "IHC LMO2 high power: variable nuclear staining of follicle cells",
+    "IHC HGAL: cytoplasmic staining confined to the neoplastic follicle",
+    "IHC BCL2: strong diffuse cytoplasmic staining of follicle cells",
+    "IHC nuclear germinal-center/proliferation marker (likely BCL6 or Ki-67), low power",
+    "Same nuclear marker, high power: many positive nuclei of varying intensity"
+  ]
+}

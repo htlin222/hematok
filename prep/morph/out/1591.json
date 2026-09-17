@@ -1,0 +1,21 @@
+{
+  "id": "1591",
+  "recognize_zh": "周邊血抹片中一顆較大的白血球，核呈腎形／摺疊狀，染色質細緻呈花邊樣，細胞質量多、呈灰藍色（毛玻璃樣），無明顯顆粒或空泡，是正常單核球（monocyte）的典型外觀。",
+  "features": [
+    "Large mononuclear cell, larger than a neutrophil",
+    "Kidney-shaped to folded nucleus with a deep indentation",
+    "Fine lacy chromatin without prominent nucleoli",
+    "Moderate to abundant gray-blue cytoplasm with a ground-glass appearance and very fine granules",
+    "No cytoplasmic vacuoles; background red cells and platelets appear normal"
+  ],
+  "describe_en": "Peripheral blood smear shows a single monocyte with a kidney-shaped, folded nucleus, lacy chromatin without nucleoli, and a moderate amount of gray-blue ground-glass cytoplasm. No vacuoles, coarse granules or Auer rods are present. The background red cells and platelets are unremarkable. Findings are consistent with a normal monocyte.",
+  "ddx": [
+    {"dx": "Reactive lymphocyte", "vs": "Reactive lymphocytes have denser chromatin and more basophilic cytoplasm that scallops around adjacent red cells, rather than lacy chromatin and gray ground-glass cytoplasm."},
+    {"dx": "Promonocyte", "vs": "Promonocytes have more delicate chromatin with visible nucleoli and subtle nuclear folding, whereas this cell has mature condensed lacy chromatin and a well-formed fold."},
+    {"dx": "Metamyelocyte/band neutrophil", "vs": "Myeloid cells at these stages have pink cytoplasm with specific granules and more condensed chromatin, unlike this gray-blue agranular cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

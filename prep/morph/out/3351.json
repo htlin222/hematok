@@ -1,0 +1,21 @@
+{
+  "id": "3351",
+  "recognize_zh": "免疫染色呈純細胞核陽性，大量大型不規則的腫瘤細胞核被染成深棕色，小淋巴球多為陰性；陽性比例很高、強度不一，最像 Ki-67 高增生指數，反映 ALCL 屬於高度惡性淋巴瘤。",
+  "features": [
+    "Nuclear-only brown staining in a large fraction of cells",
+    "Positive nuclei are large, irregular and pleomorphic, with variable staining intensity",
+    "Granular to coarse speckled nuclear staining pattern in some cells",
+    "Many small background lymphocytes and stromal nuclei are negative",
+    "No cytoplasmic or membranous staining"
+  ],
+  "describe_en": "Immunohistochemical stain of a lymph node shows nuclear positivity in a large proportion of cells, predominantly large pleomorphic tumor nuclei, with variable intensity and a speckled pattern in some cells. Small background lymphocytes and stromal cells are largely negative, and there is no cytoplasmic or membranous staining. The antibody is not labeled; the purely nuclear pattern in a high fraction of tumor cells is most consistent with Ki-67, indicating a high proliferation index. Findings support a high-grade lymphoma, consistent with anaplastic large cell lymphoma in context.",
+  "ddx": [
+    {"dx": "ALK immunostain in NPM1::ALK-positive ALCL", "vs": "ALK in NPM1::ALK-positive ALCL gives combined nuclear and cytoplasmic staining, whereas this stain is purely nuclear."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Proliferation markers in Hodgkin lymphoma highlight scattered large cells and reactive cells rather than sheets of large pleomorphic nuclei."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL can have a similar high Ki-67 fraction, so B-cell versus T-cell/CD30/ALK markers, not the proliferation index, separate them."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: nuclear marker, presumed Ki-67 (not labeled)",
+  "match": "partial",
+  "high_yield": false
+}

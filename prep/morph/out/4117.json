@@ -1,0 +1,22 @@
+{
+  "id": "4117",
+  "recognize_zh": "成群體積增大的紅血球前驅細胞，細胞核染色質呈細緻開放、篩網狀（sieve-like），但細胞質已深藍甚至帶粉紅，呈現核質發育不同步（nuclear-cytoplasmic asynchrony），是巨母紅血球（megaloblast）的特徵。",
+  "features": [
+    "Clusters of enlarged erythroid precursors (megaloblasts) with abundant deeply basophilic cytoplasm",
+    "Finely stippled, open sieve-like chromatin that is immature relative to cytoplasmic maturation",
+    "Nuclear-cytoplasmic asynchrony: more hemoglobinized polychromatophilic cells retain open chromatin",
+    "Large granulocytic precursors with horseshoe/band-shaped nuclei suggestive of giant metamyelocytes/bands",
+    "Occasional cell with irregular nuclear outline or fragmented nucleus; background with scattered macrophage debris"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of markedly enlarged erythroid precursors with abundant basophilic to polychromatophilic cytoplasm and finely dispersed, sieve-like nuclear chromatin. The chromatin appears immature relative to the degree of cytoplasmic hemoglobinization, indicating nuclear-cytoplasmic asynchrony. Enlarged granulocytic precursors with horseshoe-shaped nuclei suggest giant metamyelocytes and bands. Findings are consistent with megaloblastic erythropoiesis, as seen in megaloblastic anemia due to vitamin B12 or folate deficiency.",
+  "ddx": [
+    {"dx": "Pure erythroid leukemia (acute erythroid leukemia)", "vs": "Shows at least 30% proerythroblasts of the erythroid lineage with often vacuolated cytoplasm and TP53 mutation, and does not correct with vitamin replacement."},
+    {"dx": "Myelodysplastic syndrome with megaloblastoid change", "vs": "Megaloblastoid features coexist with ring sideroblasts, dysmegakaryopoiesis or clonal cytogenetics despite normal B12/folate levels."},
+    {"dx": "Drug-induced megaloblastosis (methotrexate, hydroxyurea, azathioprine)", "vs": "Morphology is indistinguishable and is separated by medication history and normal vitamin levels."},
+    {"dx": "Parvovirus B19 giant pronormoblasts", "vs": "Show giant proerythroblasts with glassy intranuclear viral inclusions and absent maturing erythroid cells rather than a full megaloblastic maturation spectrum."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

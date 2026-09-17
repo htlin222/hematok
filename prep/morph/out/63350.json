@@ -1,0 +1,22 @@
+{
+  "id": "63350",
+  "recognize_zh": "周邊血中大量小型成熟淋巴球，其中多顆細胞質內有圓形透明的球狀包涵體，並可見多個塗抹細胞（smudge cell）；箭頭所指的嗜中性球則沒有包涵體，顯示包涵體只出現在 CLL 淋巴球。",
+  "features": [
+    "Absolute increase in small mature lymphocytes with high N:C ratio and condensed clumped chromatin",
+    "Several lymphocytes contain round, clear-to-pale globular cytoplasmic inclusions, often indenting the nucleus",
+    "Numerous smudge (basket) cells",
+    "Neutrophil (green arrow) with segmented nucleus and no inclusion",
+    "Red cells largely normocytic with a few scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a lymphocytosis composed of small mature lymphocytes with condensed chromatin and scant cytoplasm, accompanied by numerous smudge cells. A subset of lymphocytes contains round, pale globular cytoplasmic inclusions that indent the nucleus. A neighboring neutrophil lacks such inclusions. Findings are consistent with chronic lymphocytic leukemia with unusual lymphocyte cytoplasmic inclusions; flow cytometric immunophenotyping is required for confirmation.",
+  "ddx": [
+    {"dx": "Lysosomal storage disease with vacuolated lymphocytes", "vs": "Storage disorders show multiple small punched-out vacuoles in non-clonal lymphocytes in young patients, without smudge cells or a monoclonal CD5+/CD23+ B-cell population."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL cells show plasmacytoid features and may contain Dutcher/Russell bodies that are PAS-positive, with an IgM paraprotein and MYD88 L265P."},
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells have more irregular nuclear contours and are CD23-negative, cyclin D1/SOX11-positive, which flow and IHC resolve."},
+    {"dx": "Drying or crush artifact vacuoles", "vs": "Artifactual vacuoles appear in thick areas and affect all cell types, whereas these inclusions spare the neutrophil."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

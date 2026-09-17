@@ -1,0 +1,22 @@
+{
+  "id": "63797",
+  "recognize_zh": "低倍視野內白血球明顯增加，以單核球為主，其中有細胞核較圓、染色質較細、胞質灰藍的幼稚單核球／原單核球；旁邊的嗜中性球顆粒稀少、分葉不良，呈現發育不良（dysplasia），這種「單核球增多＋嗜中性球異形」組合提示 CMML。",
+  "features": [
+    "Increased monocytes, several with folded or kidney-shaped nuclei and grey-blue cytoplasm",
+    "Occasional larger immature forms (promonocytes/monoblasts) with round-oval nuclei, finer chromatin and moderate pale basophilic cytoplasm",
+    "Neutrophils with hypogranular pale cytoplasm and abnormal/hyposegmented nuclear lobation (dysgranulopoiesis)",
+    "No Auer rods or prominent granules in the immature cells",
+    "Background red cells without striking abnormality; few platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows leukocytosis with an absolute monocytosis. The monocytes range from mature forms with folded nuclei and grey-blue cytoplasm to immature monocytes, and a few larger cells with round to oval nuclei, finer chromatin and moderate basophilic cytoplasm consistent with monoblasts/promonocytes. Several neutrophils are hypogranular with abnormal nuclear segmentation, indicating dysgranulopoiesis. Blasts plus promonocytes appear to be a minority of the nucleated cells in this field, although a formal differential count is required. Findings are consistent with chronic myelomonocytic leukemia in the appropriate clinical context.",
+  "ddx": [
+    {"dx": "Reactive monocytosis (infection, inflammation, recovery)", "vs": "Reactive monocytes are mature without a spectrum of immature forms, and neutrophils lack hypogranularity or pseudo-Pelger changes; persistence >3 months and clonal studies help."},
+    {"dx": "Acute monocytic / myelomonocytic leukemia", "vs": "AML requires blasts plus promonocytes ≥20% of blood or marrow cells, whereas CMML has <20% blast equivalents."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a left-shifted granulocytic series with basophilia and myelocyte bulge rather than monocytosis with dysplasia, and is BCR::ABL1 positive."},
+    {"dx": "Atypical CML (MDS/MPN with neutrophilia)", "vs": "Atypical CML is dominated by dysplastic neutrophils and circulating immature granulocytes with monocytes <10% of WBC."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

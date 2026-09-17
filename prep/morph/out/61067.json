@@ -1,0 +1,21 @@
+{
+  "id": "61067",
+  "recognize_zh": "周邊血片中一個大型細胞，核圓形偏於一側、有一個清楚的核仁，細胞質豐富且呈均勻深藍色，為帶有核仁的未成熟漿細胞樣細胞（plasmablastic 型）；只顯示單一細胞，無法判斷是否達到漿細胞白血病的比例。",
+  "features": [
+    "Single large cell with abundant homogeneous deep blue cytoplasm",
+    "Round, eccentrically placed nucleus occupying about half of the cell",
+    "Finely granular to moderately condensed chromatin with a single distinct nucleolus (immature/plasmablastic features)",
+    "No cytoplasmic granules; perinuclear hof not clearly seen",
+    "Background red cells with rouleaux-like aggregation, refractile debris and a weakly stained preparation"
+  ],
+  "describe_en": "Peripheral blood smear shows a single large cell with an eccentric round nucleus containing a distinct nucleolus and abundant homogeneous deep blue cytoplasm, consistent with an immature circulating plasma cell. Background red cells show rouleaux-like stacking and refractile artifacts limit evaluation. Because only one cell is shown, the proportion of circulating plasma cells cannot be determined from this image. In a myeloma patient with leukocytosis, a differential count showing ≥5% circulating clonal plasma cells supports plasma cell leukemia; flow cytometry (CD38/CD138, light-chain restriction) is recommended.",
+  "ddx": [
+    {"dx": "Circulating myeloblast", "vs": "Myeloblasts have a central nucleus, less abundant and less basophilic cytoplasm, may have granules/Auer rods and are CD34/CD117 positive rather than CD138 positive."},
+    {"dx": "Reactive immunoblast/plasmacytoid lymphocyte", "vs": "Immunoblasts are polytypic and seen with other reactive lymphocytes during infection, lacking a monotypic plasma cell population."},
+    {"dx": "Circulating plasmablastic lymphoma", "vs": "Morphology overlaps; the absence of a myeloma history and presence of EBV/MYC rearrangement favor plasmablastic lymphoma."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

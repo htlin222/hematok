@@ -1,0 +1,22 @@
+{
+  "id": "63440",
+  "recognize_zh": "血片中大量紅血球表面有突起，多數細胞保有中央淡染、突起短而大致均勻分布，更像棘狀紅血球（echinocyte, burr cell）；僅少數細胞呈濃縮、突起不規則的棘紅血球（acanthocyte）樣。腎衰竭病人最常見的是 echinocyte，判讀時需注意區分。",
+  "features": [
+    "Many red cells with surface projections",
+    "Majority show short, fairly evenly spaced spicules with retained central pallor (echinocyte/burr cell pattern)",
+    "A minority are smaller, denser cells with fewer irregularly spaced projections (acanthocyte-like)",
+    "Scattered platelets and a small lymphocyte",
+    "No schistocytes, spherocytes, or red cell inclusions evident"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous red cells with surface projections. Most of these cells retain central pallor and have short, relatively uniform, evenly distributed spicules, a pattern typical of echinocytes (burr cells); only a minority are smaller, dense cells with fewer irregular spiky projections resembling acanthocytes. A small lymphocyte and platelets are present, and schistocytes are not seen. In this patient with renal failure, the findings are most suggestive of echinocytosis (burr cells), with only a subset of cells meeting acanthocyte criteria; drying artifact from slow smear preparation should also be excluded. The title of acanthocytes is therefore only partly supported by this image.",
+  "ddx": [
+    {"dx": "Echinocytes (burr cells) of uremia or artifact", "vs": "Echinocytes have 10-30 short, regular, evenly spaced projections with preserved central pallor, whereas acanthocytes are dense, lack central pallor, and have 2-20 irregular projections of varying length."},
+    {"dx": "True acanthocytosis in liver disease or abetalipoproteinemia", "vs": "Spur cell anemia and abetalipoproteinemia show dense contracted cells with irregular thorny projections throughout the smear together with clinical liver disease or lipid abnormalities."},
+    {"dx": "Keratocytes/schistocytes (microangiopathy)", "vs": "Fragmented cells show horn-like projections from a ruptured vacuole and sharp angular edges, with thrombocytopenia in MAHA."},
+    {"dx": "Pyruvate kinase deficiency echinocytes", "vs": "Seen as spiculated cells mainly after splenectomy with chronic hemolysis and a low PK enzyme assay rather than renal failure."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

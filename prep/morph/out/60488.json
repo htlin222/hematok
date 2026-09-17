@@ -1,0 +1,22 @@
+{
+  "id": "60488",
+  "recognize_zh": "ALK 免疫染色下，大型多形性腫瘤細胞同時呈細胞核與細胞質強陽性（nuclear + cytoplasmic），小型背景淋巴球為陰性；此核質雙重染色型態代表 NPM1::ALK 融合，是 ALK 陽性間變性大細胞淋巴瘤的特徵。",
+  "features": [
+    "Sheets of large pleomorphic tumor cells with strong ALK staining",
+    "Combined nuclear and cytoplasmic ALK positivity, typical of NPM1::ALK fusion",
+    "Tumor nuclei are large, round to irregular with visible nucleoli outlined within the stain",
+    "Interspersed small ALK-negative background lymphocytes (blue nuclei)",
+    "Cohesive, sinusoidal-like clustering of positive cells"
+  ],
+  "describe_en": "ALK immunohistochemical stain shows sheets of large, pleomorphic tumor cells with strong combined nuclear and cytoplasmic ALK positivity, while interspersed small background lymphocytes are negative. The tumor cells have large irregular nuclei with nucleoli discernible through the stain. The nuclear and cytoplasmic staining pattern indicates an NPM1::ALK fusion (t(2;5)(p23;q35)). In a CD30-positive large cell lymphoma, findings are consistent with anaplastic large cell lymphoma, ALK-positive.",
+  "ddx": [
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "ALK+ LBCL shows granular cytoplasmic-only ALK (CLTC::ALK) with plasmablastic morphology, CD138/EMA positivity and weak or absent CD30."},
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "ALK-negative ALCL is morphologically similar with uniform strong CD30 but lacks ALK staining and has a worse prognosis (unless DUSP22-rearranged)."},
+    {"dx": "Inflammatory myofibroblastic tumor or ALK+ carcinoma", "vs": "Non-lymphoid ALK+ tumors are spindled or epithelial, keratin/SMA positive and CD30/CD45 negative."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30+/CD15+ with weak PAX5 and are ALK negative, scattered in a mixed inflammatory background rather than cohesive sheets."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: ALK",
+  "match": "consistent",
+  "high_yield": true
+}

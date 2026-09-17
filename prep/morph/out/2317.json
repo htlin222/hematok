@@ -1,0 +1,21 @@
+{
+  "id": "2317",
+  "recognize_zh": "周邊血中可見一群細胞質深藍、含小空泡的大型母細胞，下方有一顆被粗大紫色顆粒覆蓋細胞核的嗜鹼球與一顆帶狀核中性球；母細胞加上嗜鹼球，是 CML 急性轉化的線索。",
+  "features": [
+    "Cluster of large blasts with fine chromatin and deeply basophilic cytoplasm containing small vacuoles",
+    "Granulocyte with coarse purple granules overlying the nucleus, consistent with a basophil",
+    "Band neutrophil adjacent to a blast",
+    "Blasts show high N:C ratio and molding",
+    "Background red cells with target forms and scattered small dark precipitate/inclusions"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of large blasts with fine chromatin, high nuclear-to-cytoplasmic ratios and deeply basophilic, focally vacuolated cytoplasm. A basophil with coarse granules obscuring the nucleus and a band neutrophil are present nearby. Background red cells include target cells, with small dark dots that likely represent stain precipitate. Findings are consistent with blast phase of CML, BCR-ABL1-positive, with persistent basophilia supporting the CML background.",
+  "ddx": [
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic vacuolated cytoplasm too, but are medium-sized with coarser chromatin and multiple nucleoli, express mature B markers and carry MYC rearrangement rather than BCR-ABL1."},
+    {"dx": "De novo AML with basophilia (e.g., t(6;9))", "vs": "AML with DEK::NUP214 can show basophilia but lacks BCR-ABL1 and prior chronic phase."},
+    {"dx": "CML, accelerated phase", "vs": "Accelerated phase shows basophilia with fewer blasts, rather than blasts forming the dominant population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

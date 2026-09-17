@@ -1,0 +1,22 @@
+{
+  "id": "65835",
+  "recognize_zh": "中央一顆分葉的嗜中性球，細胞質有細顆粒；標題為 Barr body（鼓槌狀附屬體，drumstick），但在此解析度下無法清楚分辨與核葉相連的小圓形附屬體，需高倍確認，屬部分吻合。",
+  "features": [
+    "Single segmented neutrophil with three to four nuclear lobes and clumped chromatin",
+    "Cytoplasm with fine pinkish-lilac granules",
+    "A discrete drumstick appendage (about 1.5 microns, attached by a thin chromatin strand) is not clearly resolvable in this image",
+    "Background red cells normocytic with central pallor; numerous scattered platelets",
+    "Fine stain precipitate across the background"
+  ],
+  "describe_en": "Peripheral blood smear shows a single segmented neutrophil with three to four lobes, clumped chromatin and finely granular cytoplasm, set in a background of normocytic red cells, scattered platelets and fine stain precipitate. The title indicates a Barr body (drumstick), a small round chromatin appendage attached to a nuclear lobe by a thin strand, but a definite drumstick cannot be distinguished from overlapping lobes at this resolution. The image is therefore only partially illustrative; drumsticks are a normal finding in female neutrophils (inactivated X chromosome) and have no pathological significance.",
+  "ddx": [
+    {"dx": "Sessile nodule or small nuclear lobe", "vs": "Sessile nodules lack the thin stalk and small nuclei lobes are larger and less dense than a 1.5-micron drumstick."},
+    {"dx": "Hypersegmented neutrophil", "vs": "Hypersegmentation means six or more lobes or more than 5% with five lobes, rather than a single small appendage."},
+    {"dx": "Döhle body", "vs": "Döhle bodies are pale blue cytoplasmic patches, not dense chromatin attached to the nucleus."},
+    {"dx": "Howell-Jolly-like nuclear fragment (apoptosis or dysplasia)", "vs": "Detached nuclear fragments float free in the cytoplasm without a connecting chromatin strand."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60669",
+  "recognize_zh": "A 圖周邊血紅血球略偏大，部分細胞中央淡染區呈狹長裂縫狀（箭頭，口形紅血球 stomatocyte）；C、D 圖骨髓切片高度增生、以紅血球系增生為主，並有散在巨核細胞（箭頭），這種代償性增生加上輕微異型容易被誤判為 MDS，實為脫水型遺傳性口形紅血球症。",
+  "features": [
+    "PB (A): normochromic, mildly macrocytic red cells, several with slit-like or mouth-shaped central pallor (stomatocytes, arrow)",
+    "Occasional target-like and teardrop-like poikilocytes; no significant schistocytes or spherocytes",
+    "BM biopsy low power (C): markedly hypercellular marrow with near-complete loss of fat between trabeculae",
+    "BM biopsy high power (D): erythroid-predominant hyperplasia with clusters of erythroid precursors and scattered megakaryocytes (arrows)",
+    "Panel B: cellular marrow preparation with scattered golden-brown pigment; stain type and details limited by image resolution"
+  ],
+  "describe_en": "Peripheral blood smear (panel A) shows mildly macrocytic, normochromic red cells, a subset of which have slit-like central pallor consistent with stomatocytes, without schistocytes or agglutination. The bone marrow biopsy (panels C and D) is markedly hypercellular with erythroid hyperplasia and scattered megakaryocytes, which in some cases appear mildly atypical; panel B shows a cellular marrow preparation whose stain and fine detail cannot be confidently assessed at this resolution. There is no clear increase in blasts in these fields. Findings reflect compensatory erythroid hyperplasia in a chronic hemolytic state and are consistent with dehydrated hereditary stomatocytosis (xerocytosis, e.g., PIEZO1 variant), which can be mistaken for a myelodysplastic syndrome.",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS shows true multilineage dysplasia (e.g., ring sideroblasts, micromegakaryocytes, pseudo-Pelger neutrophils) and clonal cytogenetic/molecular abnormalities, whereas xerocytosis shows reactive erythroid hyperplasia with elevated MCHC and reticulocytosis."},
+    {"dx": "Overhydrated hereditary stomatocytosis", "vs": "OHSt shows many more stomatocytes with low MCHC and high red cell cation content, whereas DHSt has few stomatocytes, high MCHC, and a left-shifted osmotic gradient ektacytometry curve."},
+    {"dx": "Hereditary spherocytosis", "vs": "HS shows round dense spherocytes and positive EMA binding, not slit-like stomatocytes with a dehydrated ektacytometry profile."},
+    {"dx": "Acquired stomatocytosis (alcohol, liver disease, drying artifact)", "vs": "Artifactual stomatocytes occur only in thick smear areas and acquired forms have a clinical cause, whereas DHSt is familial with a PIEZO1/KCNN4 variant."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "60114",
+  "recognize_zh": "流式細胞圖中 CD45 dim/低側散射的芽細胞群占 77%，CD3 與 CD7 同時強陽性、CD5 陽性，而 CD19、CD10、CD34、CD4、CD8 皆陰性；T 系抗原加上芽細胞閘門位置即可判讀為 T 淋巴母細胞白血病。",
+  "features": [
+    "CD45 vs SSC plot: dominant blast gate (77.17%) with dim-to-moderate CD45 and low side scatter",
+    "Blasts are CD3+ and CD7+ (bright co-expression) and CD5+",
+    "CD19 and CD10 negative, excluding B-lineage",
+    "CD34 negative; CD4 and CD8 double negative",
+    "CD2 largely negative with a minor positive subset",
+    "Per the legend, TdT negative and HLA-DR positive"
+  ],
+  "describe_en": "Flow cytometric analysis of the bone marrow aspirate shows a dominant population (77%) in the CD45 dim-to-moderate, low side-scatter blast region, with a reduced granulocyte population. The blasts express CD3 (surface and cytoplasmic per legend), CD7 and CD5, with CD2 largely negative, and lack CD19, CD10, CD34, CD4 and CD8. TdT is reported negative and HLA-DR positive, an unusual combination for T-lineage blasts. The immunophenotype is consistent with T-lymphoblastic leukemia; the TdT/CD34-negative, CD1a-unknown profile warrants exclusion of a mature T-cell neoplasm by blast morphology and additional markers (CD1a, CD99).",
+  "ddx": [
+    {"dx": "Mature T-cell leukemia (e.g., T-PLL)", "vs": "Mature T-cell neoplasms are CD45 bright, TdT/CD34/CD1a negative and usually CD4+ or CD8+, whereas these cells sit in the CD45-dim blast gate with blast morphology."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia (ETP-ALL)", "vs": "ETP-ALL requires CD1a-/CD8-, CD5 dim/negative (<75%) and stem/myeloid marker expression (CD34, HLA-DR, CD13, CD33, CD117); the bright CD5 here argues against it."},
+    {"dx": "Mixed phenotype acute leukemia, T/myeloid", "vs": "MPAL T/myeloid requires MPO or monocytic differentiation in addition to cytoplasmic CD3, which is not shown."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are CD19+ and usually CD10+ and cCD3-negative, the opposite of this profile."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

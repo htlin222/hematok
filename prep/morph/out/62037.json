@@ -1,0 +1,21 @@
+{
+  "id": "62037",
+  "recognize_zh": "紅色免疫染色高倍下，可見數顆大型細胞與部分小至中型細胞呈深紅色核為主的陽性，強弱不一，大多數小淋巴球陰性；陽性大細胞散在分布，屬於 NLPHL 評估中的核抗原染色結果，需對照抗體名稱。",
+  "features": [
+    "Scattered large cells with strong, predominantly nuclear red staining and granular texture",
+    "Additional small-to-intermediate cells with nuclear positivity of variable intensity",
+    "Majority of background small round lymphocytes negative",
+    "Several large cells with vesicular nuclei show weak or no staining",
+    "No sheets of positive large cells in this field; antibody identity not labeled"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen, antibody not specified in the image) of lymph node at high power shows a predominantly nuclear staining pattern, with strong positivity in scattered large cells and variable positivity in a subset of small-to-intermediate cells. Most background small lymphocytes are negative, and some large vesicular cells are weak or unstained. The positive large cells are dispersed and do not form sheets. The pattern could correspond to a nuclear marker such as MUM1/IRF4, OCT2, or Ki-67; findings are compatible with the large-cell component of nodular lymphocyte predominant Hodgkin lymphoma but require correlation with the labeled immunopanel for specific interpretation.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Nuclear B-cell transcription factor staining is similar in large cells, so THRLBCL is separated by a diffuse CD8+ T-cell background without CD21+ meshworks."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are strongly MUM1+ but typically lack OCT2 and BOB1 with weak PAX5, whereas LP cells retain strong OCT2/BOB1."},
+    {"dx": "Reactive immunoblastic proliferation", "vs": "Reactive immunoblasts show a spectrum of plasmacytoid maturation with polytypic light chains in a preserved nodal architecture, rather than atypical lobulated LP cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (red chromogen)",
+  "match": "partial",
+  "high_yield": false
+}

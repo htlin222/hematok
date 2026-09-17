@@ -1,0 +1,21 @@
+{
+  "id": "63383",
+  "recognize_zh": "這是血液分析儀畫面：RBC 1.12、HCT 11.8% 被低估，MCV 105.4、MCHC 44.9 g/dL 不合生理地升高，並跳出「RBC Agglutination?」「PLT Clumps?」旗標；MCHC 大於 36 伴隨這些旗標，就要想到冷凝集素造成的假性數值。",
+  "features": [
+    "CBC: WBC 25.36 x10^3/uL, RBC 1.12 x10^6/uL, HGB 5.3 g/dL, HCT 11.8%, MCV 105.4 fL, MCH 47.3 pg, MCHC 44.9 g/dL",
+    "Physiologically impossible MCHC (above 36 g/dL) with spuriously high MCV and MCH, while hemoglobin is measured correctly",
+    "RBC flags: RBC Agglutination?, Turbidity/HGB Interference?, Anisocytosis, Anemia, Reticulocytosis; PLT flag: PLT Clumps?",
+    "NRBC 7.50 x10^3/uL (29.6/100 WBC), reticulocytes 7.78%, IG 6.2%, neutrophilia and monocytosis flagged",
+    "RBC histogram with broad, abnormal distribution and scattergrams showing reticulocyte and NRBC populations"
+  ],
+  "describe_en": "This is a non-morphologic automated hematology analyzer report. The red cell count and hematocrit are falsely low and the MCV, MCH and a physiologically impossible MCHC of 44.9 g/dL are falsely high, while hemoglobin itself is unaffected, and the analyzer flags possible RBC agglutination and platelet clumps. This pattern is characteristic of cold agglutinin interference, in which red cell doublets and clusters are counted as single large cells. Reticulocytosis, circulating nucleated red cells and leukocytosis support an active hemolytic or marrow-stress state. Warming the sample to 37 degrees Celsius and rerunning, together with smear review, is recommended to obtain accurate indices.",
+  "ddx": [
+    {"dx": "Lipemia or hyperbilirubinemia interference", "vs": "Turbidity falsely raises hemoglobin (and MCH/MCHC) while RBC count and MCV are unaffected, and plasma replacement corrects it, whereas warming corrects cold agglutinin artifact."},
+    {"dx": "Hereditary spherocytosis", "vs": "Spherocytosis raises MCHC only modestly (about 36-38 g/dL) with a normal or low MCV, not a markedly elevated MCV with MCHC above 40."},
+    {"dx": "True macrocytic anemia", "vs": "Genuine macrocytosis has a normal MCHC and a hematocrit concordant with hemoglobin (about three times the Hb value)."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "63287",
+  "recognize_zh": "骨髓切片 CD34 免疫染色中，大量中型單核細胞呈膜性與胞質棕色陽性，分佈成片且遠多於正常骨髓（通常 <2–3%），血管內皮也為陽性可作內部對照，代表 CD34 陽性芽細胞增加。",
+  "features": [
+    "Numerous medium-sized mononuclear cells with strong membranous and cytoplasmic brown CD34 staining",
+    "Positive cells distributed diffusely and in clusters throughout the interstitium",
+    "Linear CD34-positive endothelial cells lining a capillary serve as an internal positive control",
+    "Admixed CD34-negative cells with blue hematoxylin-counterstained nuclei, including smaller mature cells",
+    "Scattered adipocytes; some granular extracellular brown background staining"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostained for CD34 shows a markedly increased population of CD34-positive mononuclear cells with membranous and cytoplasmic staining, distributed diffusely and in clusters across the interstitium. Endothelial cells of a capillary are also positive, serving as an internal control. The proportion of CD34-positive cells in this field far exceeds that of normal marrow, although accurate enumeration should be performed on the aspirate and across the entire biopsy. Findings support a marked increase in blasts, consistent with the diagnosis of acute myeloid leukemia with myelodysplasia-related changes in the appropriate context.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "MDS-IB also shows increased CD34+ blasts and clusters, but the overall blast percentage remains below the AML threshold."},
+    {"dx": "Normal regenerating marrow", "vs": "Regenerating marrow shows only scattered single CD34+ cells (usually under 2-3%) rather than sheets and clusters."},
+    {"dx": "CD34-negative AML (e.g. NPM1-mutated or APL)", "vs": "These leukemias have high blast counts that are CD34-negative, so a strongly CD34+ population here favors other AML types."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

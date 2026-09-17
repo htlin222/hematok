@@ -1,0 +1,21 @@
+{
+  "id": "62054",
+  "recognize_zh": "紅色免疫染色中倍下，許多比背景淋巴球大、輪廓不規則的細胞呈強烈膜狀陽性，背景小淋巴球全為陰性，且右上方陽性大細胞密度明顯增加、趨於聚集，提示大細胞增多、需評估是否進展。",
+  "features": [
+    "Numerous large cells with strong membranous red staining and irregular, angulated outlines",
+    "Density of positive large cells increases toward the upper right, approaching clustering",
+    "Background small lymphocytes uniformly negative",
+    "Some positive profiles show granular or dendritic-appearing cytoplasmic extensions",
+    "No confluent sheets in this field; antibody identity not labeled"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen, antibody not specified in the image) of lymph node at medium power shows numerous large cells with strong membranous staining and irregular outlines, set in a background of uniformly negative small lymphocytes. The positive large cells increase in density toward the upper right, where they approach but do not form confluent sheets. Some positive profiles have granular or process-like extensions, so a histiocytic marker cannot be fully excluded without the antibody label. If this represents a B-cell marker such as CD20, the numerous large positive cells in a B-cell-poor background raise concern for a T-cell-rich variant pattern or evolution toward T-cell/histiocyte-rich large B-cell lymphoma in this nodular lymphocyte predominant Hodgkin lymphoma; correlation with the labeled panel is required.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered large CD20+ B cells in a diffuse CD8+ T-cell and histiocyte background without residual CD21+ meshworks or PD-1+ rosettes."},
+    {"dx": "Diffuse large B-cell lymphoma arising from NLPHL", "vs": "Transformation requires confluent sheets of large B cells, which are not present in this field despite increased density."},
+    {"dx": "Histiocyte-rich reactive process highlighted by CD68/CD163", "vs": "Histiocytes show granular cytoplasmic staining with dendritic or foamy morphology and bland nuclei, whereas LP cells show crisp membranous B-cell marker staining."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (red chromogen)",
+  "match": "partial",
+  "high_yield": false
+}

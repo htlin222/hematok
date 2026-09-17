@@ -1,0 +1,22 @@
+{
+  "id": "62341",
+  "recognize_zh": "皮膚切片 CD138 染色：真皮內大量大型、核偏位的腫瘤細胞呈細胞膜與顆粒狀細胞質陽性，部分為雙核或多核；左上方的表皮角質細胞也呈網狀膜陽性，是正常的內部陽性對照，不應誤認為腫瘤。",
+  "features": [
+    "Dermal sheets of large discohesive cells with strong membranous and granular cytoplasmic CD138 staining",
+    "Round, often eccentric nuclei; occasional binucleated and multinucleated tumor cells",
+    "Marked variation in cell size consistent with pleomorphic plasma cells",
+    "Overlying squamous epithelium (upper left) shows chicken-wire membranous CD138 positivity as a normal internal control",
+    "Intervening stroma with CD138-negative spindle and endothelial cells"
+  ],
+  "describe_en": "CD138 immunohistochemistry on a skin biopsy shows a dense dermal infiltrate of large, discohesive, pleomorphic cells with strong membranous and granular cytoplasmic staining, including binucleated and multinucleated forms. The overlying squamous epithelium at the upper left shows the expected intercellular membranous CD138 staining of keratinocytes, serving as an internal positive control, while stromal cells are negative. The findings support a plasma cell neoplasm involving the dermis; in a patient with known myeloma this represents cutaneous involvement by plasma cell myeloma, and light-chain restriction should be documented.",
+  "ddx": [
+    {"dx": "Poorly differentiated squamous cell carcinoma", "vs": "Squamous carcinoma is also CD138-positive, so cytokeratin/p40 positivity and continuity with the epidermis must be excluded, whereas myeloma cells are keratin-negative, MUM1-positive and light-chain restricted."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma shares a CD138+/CD20- phenotype but is typically EBER-positive in immunocompromised hosts without marrow myeloma or M-protein."},
+    {"dx": "Cutaneous marginal zone lymphoma with plasmacytic differentiation", "vs": "Marginal zone lymphoma contains mature small plasma cells mixed with CD20-positive B cells and reactive follicles rather than sheets of pleomorphic multinucleated CD138-positive cells."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma is S100/SOX10/Melan-A-positive and usually CD138-negative, despite similar large nucleolated discohesive cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD138",
+  "match": "consistent",
+  "high_yield": false
+}

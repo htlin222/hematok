@@ -1,0 +1,22 @@
+{
+  "id": "61005",
+  "recognize_zh": "高倍骨髓切片中央有一顆小型巨核細胞，細胞質粉紅，核分成數個分離的小圓核（核分離／多核狀），屬發育不良型巨核細胞；背景有許多分葉或帶狀核的顆粒球，提示 MDS/MPN（如 aCML）中的骨髓系增生與發育異常。",
+  "features": [
+    "Small megakaryocyte with eosinophilic cytoplasm and multiple widely separated, round nuclear lobes (dysplastic, 'separated nuclei')",
+    "Numerous maturing granulocytic cells with band, ring-like and segmented nuclei",
+    "Scattered larger cells with open chromatin and nucleoli (immature myeloid or erythroid precursors)",
+    "A round cell with a thick, dark ring-shaped outline and pale center (possibly a ring-shaped nucleus or artifact) center-right",
+    "Loose, partially disrupted section with scattered red cells; fine detail limited by section quality"
+  ],
+  "describe_en": "High-power bone marrow section (likely clot or biopsy) shows a hypercellular population of maturing granulocytes with band and segmented nuclei and scattered immature precursors with open chromatin and nucleoli. A small megakaryocyte in the center contains multiple widely separated round nuclear lobes, a dysplastic feature. A ring-shaped structure at center-right may represent a ring nucleus but cannot be characterized confidently at this resolution. The section is somewhat disrupted, limiting evaluation of architecture. In the appropriate clinical and genetic context (BCR::ABL1-negative leukocytosis with dysgranulopoiesis), the findings are consistent with atypical CML.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS shares megakaryocytic dysplasia but lacks the leukocytosis with >=10% circulating immature granulocytes that defines aCML."},
+    {"dx": "BCR::ABL1-positive CML", "vs": "CML megakaryocytes are small and hypolobated ('dwarf') rather than having separated nuclear lobes, and BCR::ABL1 is detected."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF megakaryocytes are large, clustered, with hyperchromatic cloud-like nuclei, accompanied by reticulin fibrosis and a JAK2/CALR/MPL driver."},
+    {"dx": "Reactive marrow with megakaryocyte artifact", "vs": "Tangential sectioning can mimic separated lobes, but true dysplasia is reproducible across many megakaryocytes and on aspirate smears."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

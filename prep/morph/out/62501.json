@@ -1,0 +1,22 @@
+{
+  "id": "62501",
+  "recognize_zh": "周邊血液抹片中淋巴球明顯增加，多為小型成熟淋巴球，核圓、染色質呈塊狀、細胞質極少；畫面中有數個破碎的塗抹細胞（smudge cells），另可見一個中性球，這是 CLL 的典型血液表現。",
+  "features": [
+    "Absolute increase in small mature lymphocytes",
+    "Round nuclei with dense, coarsely clumped chromatin and scant pale blue cytoplasm",
+    "Numerous smudge cells (disrupted lymphocyte nuclei)",
+    "Occasional lymphocytes with slightly more cytoplasm or mildly irregular nuclei",
+    "Normochromic, normocytic red cells and a single neutrophil"
+  ],
+  "describe_en": "Peripheral blood smear shows an increased number of small mature lymphocytes with round nuclei, dense clumped chromatin, and scant cytoplasm. Numerous smudge cells are present, and a few lymphocytes show slightly more abundant cytoplasm or mildly irregular nuclei. Red cells are largely normocytic and normochromic, and a single neutrophil is seen. Findings are consistent with chronic lymphocytic leukemia; confirmation requires flow cytometry showing a monoclonal B-cell count of at least 5 x 10^9/L with a CD5/CD23-positive phenotype.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells are more pleomorphic with irregular or cleaved nuclei and are CD23-negative and cyclin D1-positive."},
+    {"dx": "Reactive lymphocytosis (e.g., viral)", "vs": "Reactive lymphocytes are heterogeneous with abundant basophilic cytoplasm, and smudge cells are not prominent."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells show polar villous cytoplasmic projections and are CD5- and CD23-negative."},
+    {"dx": "Pertussis lymphocytosis", "vs": "Pertussis produces small lymphocytes with cleaved nuclei in children, and they are polyclonal T cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

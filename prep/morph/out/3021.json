@@ -1,0 +1,22 @@
+{
+  "id": "3021",
+  "recognize_zh": "周邊血抹片中央有兩顆比淋巴球大的單核細胞，核圓且偏位、細胞質中等量淡藍色，旁邊一顆小淋巴球與一個細胞碎片；這些細胞可能是循環腫瘤細胞，但單憑本圖無法確定為上皮來源，需以細胞角蛋白等免疫染色確認。",
+  "features": [
+    "Two medium-sized mononuclear cells, larger than the adjacent small lymphocyte",
+    "Round, slightly eccentric nuclei with moderately condensed chromatin; nucleoli not conspicuous",
+    "Moderate amount of pale blue agranular cytoplasm",
+    "Cells lie adjacent but do not form a tight cohesive cluster",
+    "Background red cells with drying artifact (refractile central inclusions)"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells with refractile drying artifact and two medium-sized mononuclear cells with round, slightly eccentric nuclei, moderately condensed chromatin and a moderate rim of pale blue agranular cytoplasm, next to a small lymphocyte and a small dark nuclear fragment. The cells are not clearly cohesive and lack definitive epithelial features. In a patient with breast cancer, these could represent circulating tumor cells (carcinocythemia), but reactive lymphocytes, monocytoid cells or plasmacytoid cells cannot be excluded; cytokeratin immunocytochemistry or flow cytometry is needed for confirmation.",
+  "ddx": [
+    {"dx": "Reactive (plasmacytoid) lymphocytes", "vs": "Reactive lymphocytes show deeper basophilic cytoplasm that scallops around red cells and occur singly, and are CD45 positive and cytokeratin negative."},
+    {"dx": "Monocytes", "vs": "Monocytes have folded or reniform nuclei with lacy chromatin and gray-blue vacuolated cytoplasm."},
+    {"dx": "Circulating plasma cells (plasma cell leukemia)", "vs": "Plasma cells show clock-face chromatin, deep blue cytoplasm and a perinuclear hof, and are CD138 positive."},
+    {"dx": "Leukemic blasts", "vs": "Blasts have finer dispersed chromatin with nucleoli and higher N:C ratio, and express CD34/CD45 rather than cytokeratin."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

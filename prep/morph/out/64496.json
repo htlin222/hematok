@@ -1,0 +1,23 @@
+{
+  "id": "64496",
+  "recognize_zh": "白血球極度增多，嗜中性系從骨髓細胞、後骨髓細胞、帶狀核到分節核各階段都有（呈「骨髓像」的連續成熟譜），並可見一個嗜鹼性球，原始細胞不多，這是 CML 慢性期的典型抹片。",
+  "features": [
+    "Marked leukocytosis with granulocytes at all stages of maturation",
+    "Myelocytes and metamyelocytes predominate alongside band and segmented neutrophils (myelocyte bulge)",
+    "Occasional promyelocytes/early forms with more basophilic cytoplasm; blasts not increased",
+    "Basophil with coarse dark granules obscuring the nucleus (upper center)",
+    "No dysplastic hypogranularity; granulocytes show normal granulation",
+    "Background red cells normochromic; some show artifactual refractile central inclusions"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed of granulocytes spanning the full maturation spectrum, with prominent myelocytes and metamyelocytes together with band and segmented neutrophils. A basophil is present, and blasts are not increased in this field. Granulocytes show normal granulation without dysplasia. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive, in chronic phase.",
+  "ddx": [
+    {"dx": "Leukemoid reaction", "vs": "Leukemoid reactions show toxic granulation and Döhle bodies with a predominance of mature neutrophils and no basophilia, and BCR::ABL1 is negative."},
+    {"dx": "Atypical CML, BCR::ABL1-negative (MDS/MPN with neutrophilia)", "vs": "aCML shows prominent granulocytic dysplasia (hypogranular, pseudo-Pelger cells) without basophilia and lacks BCR::ABL1."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL consists mainly of mature segmented neutrophils with <10% immature granulocytes and harbors CSF3R mutation."},
+    {"dx": "CML in accelerated/blast phase", "vs": "Advanced disease shows increasing blasts (≥20% for blast phase) and marked basophilia (≥20%), not seen in this field."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

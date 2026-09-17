@@ -1,0 +1,22 @@
+{
+  "id": "64694",
+  "recognize_zh": "低倍下小腸黏膜（左側可見隱窩）下方被一大片密集、單調的淋巴樣細胞浸潤取代並擴張腸壁，缺乏濾泡結構，提示腸道淋巴瘤；表皮嗜性（epitheliotropism）需在高倍確認。",
+  "features": [
+    "Dense, diffuse, sheet-like infiltrate of monotonous small-to-medium lymphoid cells effacing the bowel wall",
+    "Residual intestinal mucosa with crypts at the left edge, partly infiltrated at its base",
+    "No follicular or nodular architecture; no geographic necrosis evident",
+    "Scattered small blood vessels traversing the infiltrate",
+    "Crush/fold artifact in the mucosa; epitheliotropism not resolvable at this magnification"
+  ],
+  "describe_en": "Low-power H&E section of small intestine shows residual mucosa with crypts at the periphery and a massive, diffuse, transmural-appearing infiltrate of monotonous lymphoid cells that expands and effaces the underlying wall. The infiltrate is sheet-like, without follicles, prominent necrosis, or a conspicuous inflammatory background. Intraepithelial involvement cannot be evaluated at this power and requires higher magnification. In the context of CD3+, CD56+, TIA1+ tumor cells with epitheliotropism, findings are consistent with monomorphic epitheliotropic intestinal T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Enteropathy-associated T-cell lymphoma", "vs": "EATL shows pleomorphic medium-to-large cells with abundant necrosis and an inflammatory background, is usually CD56-negative, and arises in celiac disease, unlike the monotonous CD56+ infiltrate of MEITL."},
+    {"dx": "Diffuse large B-cell lymphoma of the intestine", "vs": "DLBCL has larger cells with vesicular chromatin and prominent nucleoli and is CD20+/CD3-, whereas MEITL cells are small-to-medium and CD3+/CD8+/CD56+."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "ENKTL shows angiocentricity with extensive necrosis and is EBER-positive, while MEITL is EBV-negative and characteristically epitheliotropic."},
+    {"dx": "Mantle cell lymphoma (lymphomatous polyposis)", "vs": "MCL is composed of small cleaved B cells that are CD20+, CD5+ and cyclin D1+, rather than CD3+ cytotoxic T cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

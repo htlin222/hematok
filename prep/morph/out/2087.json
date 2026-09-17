@@ -1,0 +1,21 @@
+{
+  "id": "2087",
+  "recognize_zh": "左側血液抹片可見三顆中型淋巴球，核深度分葉成花瓣狀（flower cell），染色質致密、細胞質淡藍；右側臨床照片為足跟皮膚的結痂潰瘍性病灶。花瓣狀多葉核淋巴球合併皮膚病灶，是成人 T 細胞白血病/淋巴瘤的典型組合。",
+  "features": [
+    "Composite: peripheral blood smear (left) and clinical photograph of the foot (right)",
+    "Medium-sized lymphoid cells with deeply lobulated, clover-leaf/flower-shaped nuclei",
+    "Condensed chromatin without prominent nucleoli; moderate pale basophilic agranular cytoplasm",
+    "Clinical photo shows a sharply demarcated, crusted, hyperkeratotic ulcerated plaque on the heel",
+    "Background red cells unremarkable; a platelet clump at top"
+  ],
+  "describe_en": "The left panel is a peripheral blood smear showing medium-sized abnormal lymphocytes with markedly polylobated, flower-like nuclei, condensed chromatin, absent nucleoli and pale basophilic agranular cytoplasm. The right panel is a clinical photograph of the heel with a well-circumscribed crusted and ulcerated skin lesion. Skin involvement is frequent in adult T-cell leukemia/lymphoma. Findings are consistent with adult T-cell leukemia/lymphoma ('flower cells'), to be confirmed by CD4+ CD25+ CD7- T-cell immunophenotype and HTLV-1 serology.",
+  "ddx": [
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform, finely convoluted nuclei rather than discrete petal-like lobes, and HTLV-1 serology is negative."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells have a single visible nucleolus and cytoplasmic blebs with round or irregular nuclei, typically CD7 positive, unlike the CD7-negative lobulated ATLL cells."},
+    {"dx": "Hypersegmented or dysplastic neutrophils", "vs": "Neutrophils have pink granular cytoplasm and thin chromatin bridges between lobes, whereas these cells have agranular blue cytoplasm of lymphocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; clinical photo",
+  "match": "consistent",
+  "high_yield": true
+}

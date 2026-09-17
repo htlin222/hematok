@@ -1,0 +1,22 @@
+{
+  "id": "62891",
+  "recognize_zh": "這是光穿透式血小板凝集檢查（LTA）的曲線與數據：只有高劑量 ristocetin（1.2 mg/mL）出現完整凝集（最大 104%），ADP、epinephrine、arachidonic acid 幾乎平坦、collagen 僅微弱反應；「只對 ristocetin 有反應、其他促效劑都不凝集」是 Glanzmann 血小板無力症的典型模式。",
+  "features": [
+    "Channel 1, ristocetin 1.2 mg/mL: rapid, full aggregation curve with maximal amplitude 104%",
+    "Channel 2, low-dose ristocetin 0.6 mg/mL: no aggregation (1%), excluding type 2B VWD/platelet-type VWD hyper-responsiveness",
+    "Arachidonic acid 0%, epinephrine 1%, ADP 10%: essentially flat tracings with only shape-change deflection",
+    "Collagen: slow, reduced response reaching about 30% maximal aggregation",
+    "Pattern of absent aggregation to multiple agonists with preserved ristocetin agglutination"
+  ],
+  "describe_en": "This figure shows light transmission platelet aggregometry tracings with the corresponding summary table. High-dose ristocetin (1.2 mg/mL) produces complete agglutination with a maximal amplitude of 104%, whereas low-dose ristocetin (0.6 mg/mL) shows no response. Arachidonic acid, epinephrine, and ADP produce essentially no aggregation (0 to 10%), and collagen gives only a slow, markedly reduced response (about 30%). Absent aggregation to physiologic agonists with preserved ristocetin-induced agglutination indicates a defect of the fibrinogen receptor, and in conjunction with a normal platelet count, normal VWF studies, and prolonged PFA closure times, the findings are consistent with Glanzmann thrombasthenia (integrin αIIbβ3 deficiency).",
+  "ddx": [
+    {"dx": "Bernard-Soulier syndrome", "vs": "Shows the opposite pattern: absent ristocetin agglutination with normal responses to ADP, collagen, epinephrine, and arachidonic acid, plus giant platelets and thrombocytopenia."},
+    {"dx": "Von Willebrand disease", "vs": "Reduced ristocetin response with normal aggregation to other agonists and abnormal VWF antigen/activity, whereas VWF levels here are normal to high."},
+    {"dx": "Aspirin/NSAID effect or storage pool/secretion defect", "vs": "Abolishes arachidonic acid response and the secondary wave to ADP/epinephrine but preserves primary wave aggregation to high-dose ADP, unlike the flat tracings here."},
+    {"dx": "Afibrinogenemia", "vs": "Also impairs aggregation, but plasma fibrinogen and coagulation times (PT/APTT) are markedly abnormal, whereas they are normal in this patient."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

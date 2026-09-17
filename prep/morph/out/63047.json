@@ -1,0 +1,22 @@
+{
+  "id": "63047",
+  "recognize_zh": "CD34 免疫染色下，箭頭所指的是小型、單核或少核葉的巨核細胞，細胞質呈強烈棕色陽性（異常 CD34 表現）；血管內皮也陽性作為內部對照，而周圍造血細胞大多陰性，提示 inv(3) AML 的發育不良巨核細胞。",
+  "features": [
+    "Numerous small megakaryocytes (arrows) with non-lobated or hypolobated round nuclei and strong cytoplasmic CD34 positivity",
+    "Aberrant CD34 staining in megakaryocytes of variable size, some mononuclear, others with 2-3 separate nuclei",
+    "Linear CD34 staining of endothelium along sinusoidal/vascular walls (internal positive control)",
+    "Scattered small CD34-positive mononuclear cells (blasts or hematogones)",
+    "Background erythroid, lymphoid and mature myeloid cells negative"
+  ],
+  "describe_en": "CD34 immunohistochemical stain on a bone marrow core biopsy shows numerous small, hypolobated to non-lobated megakaryocytes with strong aberrant cytoplasmic CD34 expression. Endothelial cells lining sinusoids stain as expected, and scattered small to medium CD34-positive mononuclear cells are present, while erythroid, lymphoid and mature myeloid elements are negative. Care must be taken not to count CD34-positive megakaryocytes as blasts. Findings are consistent with megakaryocytic dysplasia with aberrant CD34 expression, as seen in AML with inv(3)(q21.3q26.2)/MECOM rearrangement.",
+  "ddx": [
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts are sheets of immature blasts with high N:C ratio that are CD61/CD42b positive and often CD34 variable, rather than recognizable small megakaryocytes with mature cytoplasm."},
+    {"dx": "MDS with increased blasts", "vs": "MDS may also show CD34+ dysplastic megakaryocytes; separation relies on blast percentage and MECOM rearrangement."},
+    {"dx": "Increased CD34+ blasts", "vs": "Blasts are small to medium round mononuclear cells with scant cytoplasm, whereas these positive cells have abundant cytoplasm and megakaryocytic nuclei confirmable with CD61."},
+    {"dx": "Essential thrombocythemia or reactive megakaryocytic hyperplasia", "vs": "Megakaryocytes in ET and reactive states are large and hyperlobated and CD34 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60993",
+  "recognize_zh": "低倍 H&E 淋巴組織內可見許多大小不一的淡染濾泡樣結構；免疫染色（抗體未標示）濾泡周邊帶與濾泡間區陽性、濾泡中心大多陰性，只剩散在陽性細胞（箭頭）。影像本身只顯示非特異性的淋巴組織結構改變，無法單憑型態確認 CARD11（CARMA1）相關免疫缺陷，需結合基因檢測。",
+  "features": [
+    "Low power H&E: lymphoid tissue with numerous pale, round follicle-like nodules of varying size distributed throughout",
+    "Interfollicular areas densely cellular with focal eosinophilic/congested zones",
+    "Immunostain (panel B, antibody not labeled): strong staining of mantle/marginal rims and interfollicular regions",
+    "Nodule centers largely negative, containing only scattered positive cells (arrows)",
+    "No cytologic detail available at this magnification"
+  ],
+  "describe_en": "Low-power H&E section of lymphoid tissue shows numerous pale follicle-like nodules of variable size within a densely cellular background. An immunostain (antibody not specified) highlights the rims surrounding the nodules and the interfollicular areas, whereas the nodule centers are largely negative with only scattered positive cells (arrows). The architecture is altered but the findings are nonspecific at this magnification, and a CARD11/CARMA1-related immunodeficiency cannot be diagnosed on morphology alone; correlation with lineage-specific immunostains, flow cytometry of lymphocyte subsets and genetic testing is required. The image is only partially informative for the stated entity.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Shows polarized germinal centers with tingible-body macrophages and intact mantles, and lacks a genetic immunodeficiency; ancillary lymphocyte-subset and genetic studies are needed to separate."},
+    {"dx": "Follicular lymphoma", "vs": "Back-to-back monotonous follicles without polarization, BCL2-positive germinal centers and IGH::BCL2, rather than reactive-appearing nodules."},
+    {"dx": "Autoimmune lymphoproliferative syndrome", "vs": "Characterized by paracortical expansion of CD3+ TCRab+ CD4-/CD8- double-negative T cells with FAS pathway defects."},
+    {"dx": "Castleman disease (hyaline-vascular type)", "vs": "Features regressed, hyalinized germinal centers penetrated by vessels with onion-skin mantle zones."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (unlabeled)",
+  "match": "partial",
+  "high_yield": false
+}

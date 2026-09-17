@@ -1,0 +1,21 @@
+{
+  "id": "61052",
+  "recognize_zh": "多圖組合：周邊血有大型血小板／巨核細胞碎片，流式在 CD45 低、SSC 低區圈出一群 CD34 與 CD61/CD41 共表現的細胞，骨髓切片 CD34 染出大量巨核細胞並伴有小型低分葉巨核細胞，提示 MDS 中 CD34 陽性的異常巨核細胞。",
+  "features": [
+    "Peripheral blood with a large platelet/megakaryocytic fragment (arrow) in a background of anisopoikilocytosis",
+    "Flow cytometry: CD45 dim/negative, low side-scatter gated events co-expressing CD34 with CD61 and CD41",
+    "Aspirate with small hypolobated megakaryocytes/micromegakaryocytes and larger megakaryocytes",
+    "Biopsy (H&E) hypercellular with increased, variably sized megakaryocytes",
+    "CD34 immunostain labels numerous megakaryocytes of varying size (normally CD34-negative)"
+  ],
+  "describe_en": "Composite figure. The peripheral blood smear shows a circulating large platelet or megakaryocytic fragment. Flow cytometric analysis identifies a CD45-dim, low side-scatter population co-expressing CD34 and the megakaryocytic markers CD61 and CD41, and a CD34-positive cell is also shown on a cytospin/section. The aspirate contains small hypolobated megakaryocytes, and the hypercellular biopsy shows increased megakaryocytes that are aberrantly CD34-positive by immunohistochemistry. Findings are consistent with myelodysplastic syndrome with dysplastic, CD34-expressing megakaryocytes and circulating megakaryocytic fragments, which can falsely inflate the CD34+ blast count by flow cytometry.",
+  "ddx": [
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL shows >=20% CD34/CD61+ blasts with cytologically blastic morphology, whereas here CD34 marks mature-appearing and small dysplastic megakaryocytes and fragments."},
+    {"dx": "Increased myeloblasts (MDS with excess blasts)", "vs": "True myeloblasts are CD34+ but CD61/CD41-negative; co-expression with megakaryocytic antigens identifies megakaryocytic fragments rather than blasts."},
+    {"dx": "Primary myelofibrosis / MPN", "vs": "MPN megakaryocytes are clustered, large and hyperlobated or cloud-like with fibrosis, rather than small hypolobated dysplastic forms."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa, H&E, IHC: CD34, flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "18666",
+  "recognize_zh": "六格周邊血拼圖整理「骨髓系白血球增多」：可見嗜中性球增多、帶有早期顆粒球的左移、胞質灰藍且核折疊的單核球、成群大型深藍胞質細胞、形態異常的顆粒球，以及嗜酸性球與嗜鹼性球增多；判讀重點是辨認增多的是哪一種細胞與成熟度。",
+  "features": [
+    "A: low-power smear with increased segmented neutrophils (neutrophilia)",
+    "B: left-shifted granulocytes including a myelocyte/metamyelocyte and band forms",
+    "C: monocytes with folded, irregular nuclei, fine chromatin, and abundant gray-blue vacuolated cytoplasm",
+    "D: clusters of large cells with round nuclei and abundant deeply basophilic cytoplasm admixed with granulocytes",
+    "E: granulocytes with abnormal nuclear segmentation/hypogranularity and a smudged cell",
+    "F: eosinophil with orange granules and basophil with dark purple granules"
+  ],
+  "describe_en": "This composite of peripheral blood smears illustrates categories of myeloid leukocytosis. Panels show mature neutrophilia at low power, a left shift with myelocytes and band forms, monocytosis with folded nuclei and vacuolated gray-blue cytoplasm, clusters of large cells with deeply basophilic cytoplasm, granulocytes with abnormal segmentation and granulation, and eosinophils and basophils. The approach is to identify the lineage and maturation stage that is expanded, look for dysplasia, blasts, and basophilia, and then separate reactive causes (infection, G-CSF, steroids) from myeloid neoplasms such as CML, CMML, or CNL. Panel labels are not provided in the image, so the exact clinical entity for each panel cannot be confirmed from the figure alone.",
+  "ddx": [
+    {"dx": "Leukemoid reaction versus CML", "vs": "CML shows a myelocyte and segmented neutrophil 'two-peak' left shift with basophilia and BCR-ABL1, while a leukemoid reaction has toxic granulation, Dohle bodies, and no basophilia."},
+    {"dx": "Reactive monocytosis versus CMML", "vs": "CMML shows persistent monocytes of at least 1 x 10^9/L and 10% with dysgranulopoiesis, whereas reactive monocytosis lacks dysplasia and resolves with the underlying cause."},
+    {"dx": "Reactive eosinophilia versus myeloid neoplasm with eosinophilia", "vs": "Clonal eosinophilia is supported by PDGFRA/PDGFRB/FGFR1/JAK2 rearrangements, dysplasia, or increased blasts rather than eosinophil morphology alone."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

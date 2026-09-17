@@ -1,0 +1,20 @@
+{
+  "id": "62591",
+  "recognize_zh": "LMO2 免疫染色（中倍）：一個大型腫瘤結節內細胞呈弱至中等、分布不均的核陽性，結節周圍間質與血管內皮細胞呈強核陽性；可見結節輪廓清楚，顯示腫瘤性濾泡具生發中心表型但 LMO2 表現減弱。",
+  "features": [
+    "Large neoplastic nodule with weak to moderate, patchy nuclear LMO2 staining",
+    "Well-defined nodule outline with surrounding compressed small lymphocytes largely negative",
+    "Strong nuclear LMO2 in endothelial cells of interfollicular vessels (internal control)",
+    "No distinct polarized light and dark zones within the nodule"
+  ],
+  "describe_en": "Immunohistochemical stain for LMO2 at intermediate power shows a large, well-circumscribed neoplastic nodule with weak to moderate, patchy nuclear staining of the follicular cells, while the surrounding small lymphocytes are largely negative. Endothelial cells of interfollicular vessels show strong nuclear staining, serving as an internal positive control. The nodule lacks zonal polarization. The attenuated, heterogeneous LMO2 expression within a germinal-center-derived neoplastic follicle is compatible with follicular lymphoma; reduced LMO2 expression is associated with t(14;18), which should be correlated with BCL2 immunostaining and FISH.",
+  "ddx": [
+    {"dx": "Reactive germinal center", "vs": "Reactive germinal centers show strong, uniform LMO2 staining with light/dark zone polarization and BCL2 negativity."},
+    {"dx": "Nodular marginal zone lymphoma", "vs": "Marginal zone lymphoma is LMO2 negative and the nodules are formed by CD10/BCL6-negative marginal zone cells."},
+    {"dx": "Mantle cell lymphoma, nodular pattern", "vs": "MCL nodules are LMO2 negative and cyclin D1/SOX11 positive."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: LMO2",
+  "match": "consistent",
+  "high_yield": false
+}

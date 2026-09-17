@@ -1,0 +1,21 @@
+{
+  "id": "2704",
+  "recognize_zh": "下方中央一顆紅血球周邊排著一圈細小、深藍紫色的顆粒，顆粒成群分布而非均勻散布整顆細胞，這就是 Pappenheimer 小體（含鐵顆粒）；旁邊還有淡染的低色素細胞。",
+  "features": [
+    "Red cell with multiple small dark basophilic granules clustered along its periphery",
+    "Granules are coarse dots rather than fine diffuse stippling",
+    "Occasional hypochromic red cells with thin pink rim (dimorphic-appearing population)",
+    "Polychromatic cell with streaky bluish cytoplasm and poikilocytes (elongated/teardrop fragments)",
+    "Slightly out-of-focus high-power image limits fine detail"
+  ],
+  "describe_en": "High-power view of a peripheral blood smear shows a mixed red cell population with occasional hypochromic cells, a polychromatic cell, and scattered poikilocytes. One red cell contains multiple small, dark basophilic granules clustered toward its periphery, consistent with Pappenheimer bodies; the image is slightly out of focus. Basophilic stippling distributed evenly through the cell is not seen. Findings are consistent with Pappenheimer bodies (siderotic granules), which should be confirmed as iron by Prussian blue staining and prompt consideration of sideroblastic anemia, post-splenectomy state, or hemoglobinopathy.",
+  "ddx": [
+    {"dx": "Basophilic stippling", "vs": "Basophilic stippling consists of fine or coarse ribosomal granules evenly distributed throughout the entire cell and is Prussian blue-negative, whereas Pappenheimer bodies are few, clustered at the periphery and iron-positive."},
+    {"dx": "Howell-Jolly body", "vs": "A Howell-Jolly body is usually a single, larger, round, dense nuclear remnant rather than a cluster of small granules."},
+    {"dx": "Platelet overlying a red cell", "vs": "An overlying platelet shows a halo and a granular purple center in a different focal plane, not tiny discrete dots within the red cell edge."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

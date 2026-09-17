@@ -1,0 +1,22 @@
+{
+  "id": "61141",
+  "recognize_zh": "淋巴組織中出現成片的組織球，細胞質被大量粉紅色、角狀或針狀的結晶物撐大（B），免疫染色中細胞質內結晶呈棕色且帶纖維紋理（C、D），這是結晶儲存型組織球增生（crystal-storing histiocytosis）的表現。",
+  "features": [
+    "Low power (A): dense small lymphoid infiltrate adjacent to a band of pale eosinophilic histiocyte-rich tissue; a rounded eosinophilic structure within lymphoid tissue (possible Hassall corpuscle)",
+    "High power (B): sheets of histiocytes with abundant, densely eosinophilic cytoplasm containing angulated, rhomboid and needle-like crystalline material",
+    "Interspersed small lymphocytes and plasmacytoid cells between the crystal-laden histiocytes",
+    "IHC (C, D): strong cytoplasmic staining of the histiocytes, highlighting striated, fibrillary crystalline inclusions",
+    "Histiocyte nuclei small and displaced by the crystals; no significant atypia in the histiocytes"
+  ],
+  "describe_en": "Composite figure of a thymic mass. At low power there is a dense lymphoid infiltrate bordered by an eosinophilic histiocyte-rich zone. At higher power, sheets of histiocytes are distended by abundant intracytoplasmic eosinophilic, angulated to needle-shaped crystals, with interspersed small lymphocytes and plasmacytoid cells. Immunohistochemical stains highlight the crystal-laden cytoplasm and accentuate the fibrillary, striated texture of the crystals (specific antibodies not labeled in the figure). Findings are consistent with crystal-storing histiocytosis, which should prompt a search for an underlying light-chain-secreting B-cell or plasma cell neoplasm, here thymic extranodal marginal zone lymphoma.",
+  "ddx": [
+    {"dx": "Rhabdomyoma / granular cell tumor", "vs": "Myoid and granular cell lesions have desmin/myogenin or S100 positivity, whereas crystal-storing cells are CD68/CD163-positive histiocytes with immunoglobulin light-chain crystals."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells have grooved nuclei, eosinophils and CD1a/langerin positivity and do not contain eosinophilic crystalline inclusions."},
+    {"dx": "Mycobacterial pseudotumor", "vs": "Spindled histiocytes with striated pale cytoplasm in mycobacterial infection are AFB positive and lack light-chain-restricted crystals."},
+    {"dx": "Adult rhabdomyoma-like thymoma or thymic carcinoma", "vs": "Epithelial neoplasms are keratin positive and cohesive, while the crystal-laden cells here are histiocytes."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC",
+  "match": "consistent",
+  "high_yield": false
+}

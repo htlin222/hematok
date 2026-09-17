@@ -1,0 +1,21 @@
+{
+  "id": "60455",
+  "recognize_zh": "中倍 cyclin D1 染色，大多數小淋巴樣細胞呈細胞核棕色陽性（強弱不一），左側殘存區域的小淋巴球則為陰性，形成清楚的陽性腫瘤區與陰性背景對比。",
+  "features": [
+    "Majority of small lymphoid cells with nuclear cyclin D1 positivity of variable intensity",
+    "Staining is strictly nuclear with occasional strongly positive nuclei",
+    "Sharp demarcation from a negative zone of small lymphocytes at left (residual non-neoplastic tissue)",
+    "Negative scattered histiocytes and endothelial-lined spaces within the infiltrate",
+    "Small, round to irregular nuclei consistent with small-to-medium cell size"
+  ],
+  "describe_en": "Cyclin D1 immunostain shows nuclear positivity of variable intensity in the majority of small-to-medium lymphoid cells forming the infiltrate. A zone of negative small lymphocytes at the left edge is sharply demarcated from the positive population, and scattered histiocytes are negative. Nuclear cyclin D1 expression in a small B-cell infiltrate is the key surrogate for t(11;14)(q13;q32). Findings are consistent with mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL is cyclin D1 negative apart from occasional weak staining in proliferation centers."},
+    {"dx": "Plasma cell myeloma with t(11;14)", "vs": "Myeloma cells are also cyclin D1 positive but have plasmacytoid morphology, express CD138, and lack CD20/CD5."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL can show weak cyclin D1 but has abundant cytoplasm (fried-egg), CD5 negativity, and annexin A1/CD25/CD103 positivity."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: Cyclin D1",
+  "match": "consistent",
+  "high_yield": true
+}

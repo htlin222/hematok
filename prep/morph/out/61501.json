@@ -1,0 +1,21 @@
+{
+  "id": "61501",
+  "recognize_zh": "這是 G 顯帶核型圖（karyogram）而非形態學影像：2 條 X、無 Y，第 1 對與第 9 對染色體被圈起，其中一條 1 號與一條 9 號長度與帶型與同源染色體不同，代表 t(1;9)(p13;p12) 平衡易位。",
+  "features": [
+    "G-banded karyogram of a female metaphase (two X chromosomes, no Y)",
+    "Chromosome 1 pair circled: one homolog shows an altered short arm banding pattern and length",
+    "Chromosome 9 pair circled: one homolog shows altered short arm material, indicating the reciprocal partner",
+    "Remaining autosomes show 22 normal-appearing pairs; no marker chromosome in the mar slot",
+    "Banding resolution is modest, so exact breakpoints cannot be confirmed from the image alone"
+  ],
+  "describe_en": "This figure is a G-banded karyogram rather than a morphologic image. It shows a female karyotype with 46 chromosomes in which one chromosome 1 and one chromosome 9 (both circled) display altered short-arm banding consistent with a reciprocal translocation, while the other chromosomes appear structurally normal. Given the modest banding resolution, the breakpoints are best reported with uncertainty, as 46,XX,t(1;9)(p?13;p?12). In the clinical context of CD19+/CD10+ B-lymphoblastic leukemia negative for common recurrent fusions, this is an uncommon sole abnormality; the 9p12 region includes PAX5, which could be evaluated by FISH or molecular testing.",
+  "ddx": [
+    {"dx": "t(1;19)(q23;p13.3) TCF3::PBX1", "vs": "The recurrent t(1;19) involves 1q23 and 19p13 rather than 1p and 9p, and TCF3::PBX1 was negative by PCR in this case."},
+    {"dx": "t(9;22)(q34;q11.2) BCR::ABL1", "vs": "The Philadelphia translocation affects 9q34 and produces a shortened chromosome 22, which is not seen here."},
+    {"dx": "PAX5 rearrangement or 9p deletion (CDKN2A/PAX5)", "vs": "9p deletions produce loss of material without a reciprocal partner on chromosome 1, so FISH or genomic studies are needed to distinguish them from a balanced translocation."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding (GTG)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

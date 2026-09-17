@@ -1,0 +1,21 @@
+{
+  "id": "62670",
+  "recognize_zh": "PAX5 染色中，深棕色核陽性的是散在的小型 B 細胞，而右側細胞質豐富、界線清楚的大型腫瘤細胞核為陰性；腫瘤細胞失去 PAX5 等 B 細胞標記是 PEL 的特點。",
+  "features": [
+    "Strong nuclear PAX5 staining in numerous small background B cells",
+    "Large tumor cells with abundant pale cytoplasm and distinct cell borders are PAX5-negative",
+    "Negative large cells form a cohesive cluster at right and are scattered elsewhere",
+    "Weak non-specific cytoplasmic/dendritic staining in the background",
+    "Positive small cells serve as an internal positive control"
+  ],
+  "describe_en": "PAX5 immunohistochemistry shows strong nuclear staining in numerous small background B lymphocytes, which serve as an internal positive control. The large neoplastic cells, with abundant pale cytoplasm, distinct borders and vesicular nuclei, lack nuclear PAX5 and are best seen as a cohesive cluster on the right. Findings demonstrate loss of the B-cell program in the tumor cells, consistent with primary effusion lymphoma (extracavitary) in conjunction with HHV8 positivity.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "Large cells retain nuclear PAX5 and CD20 expression."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Also PAX5/CD20-negative, but HHV8 (LANA-1) is negative."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells show weak (dim) rather than absent nuclear PAX5, with CD30 and CD15 positivity."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: PAX5",
+  "match": "consistent",
+  "high_yield": false
+}

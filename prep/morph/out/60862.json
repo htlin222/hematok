@@ -1,0 +1,22 @@
+{
+  "id": "60862",
+  "recognize_zh": "CD20 染色下可見一個以膜型陽性 B 細胞密集構成的結節狀聚集，邊緣向周圍疏鬆組織散出成群陽性細胞，上方有少數較大的陽性細胞；配合臨床，這是邊緣區淋巴瘤（marginal zone lymphoma）中 B 細胞結節性浸潤的表現。",
+  "features": [
+    "Dense nodular aggregate of CD20-positive small B cells with crisp membranous staining",
+    "Small clusters and single CD20-positive cells extending into the surrounding loose stroma",
+    "Occasional larger CD20-positive cells at the top of the aggregate",
+    "Adjacent loose, edematous/adipose-like stroma with CD20-negative background",
+    "No distinct germinal center or mantle zone architecture discernible on this stain"
+  ],
+  "describe_en": "Immunohistochemical stain for CD20 highlights a dense nodular aggregate of small B cells with strong membranous staining, with small clusters and single B cells extending into the surrounding loose stroma. Occasional larger CD20-positive cells are present at the upper aspect of the nodule. Cytologic detail (monocytoid or plasmacytoid features, lymphoepithelial lesions) is not assessable on this stain. In conjunction with H&E morphology, light chain restriction, and a CD5-/CD10-/cyclin D1-negative profile, findings are consistent with involvement by marginal zone lymphoma.",
+  "ddx": [
+    {"dx": "Reactive lymphoid follicle", "vs": "Reactive follicles show a germinal center with CD10/BCL6-positive, BCL2-negative cells and polytypic plasma cells, whereas marginal zone lymphoma shows expanded B-cell areas with light chain restriction."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma nodules are CD10/BCL6 positive with BCL2 co-expression in follicle centers and t(14;18)."},
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma is CD5 and cyclin D1/SOX11 positive, whereas marginal zone lymphoma is negative for both."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL co-expresses CD5, CD23, and LEF1 and shows proliferation centers."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

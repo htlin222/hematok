@@ -1,0 +1,22 @@
+{
+  "id": "3096",
+  "recognize_zh": "骨髓抹片中一個巨大多核細胞，六、七個分開的圓形至橢圓形細胞核，各自帶有小核仁，散布在大量淡藍灰色、細顆粒狀的細胞質中，這是蝕骨細胞（osteoclast）而非核葉相連的巨核細胞。",
+  "features": [
+    "Very large multinucleated cell, many times the diameter of surrounding cells",
+    "Multiple (about 6-7) separate, round to oval nuclei of similar size, not overlapping or lobulated",
+    "Nuclei with finely granular chromatin and small single nucleoli",
+    "Abundant, irregularly shaped, pale blue-gray cytoplasm with fine azurophilic granularity and frayed edges",
+    "Background of normal marrow elements: erythroid precursors, granulocytes, and lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a very large multinucleated cell with abundant, finely granular, pale blue-gray cytoplasm and irregular, frayed borders. It contains multiple discrete round to oval nuclei of uniform size, each with fine chromatin and a small nucleolus, without nuclear lobation or overlap. Surrounding hematopoietic cells, including erythroid precursors and granulocytes, appear unremarkable. Findings are consistent with an osteoclast, a normal marrow constituent more often seen in aspirates from children or states of increased bone remodeling.",
+  "ddx": [
+    {"dx": "Megakaryocyte", "vs": "A megakaryocyte has a single multilobated, interconnected nucleus with dense chromatin and pink granular cytoplasm, whereas the osteoclast has multiple separate, uniform nuclei with nucleoli."},
+    {"dx": "Metastatic tumor cell cluster (syncytium)", "vs": "Tumor clusters show cohesive, pleomorphic, overlapping nuclei with distinct cell borders, whereas the osteoclast has uniform bland nuclei in one shared cytoplasm."},
+    {"dx": "Osteoblast", "vs": "Osteoblasts are mononuclear with an eccentric nucleus and a paranuclear hof, often in small clusters, unlike the multinucleated osteoclast."},
+    {"dx": "Langhans or foreign-body giant cell", "vs": "Histiocytic giant cells arise in granulomas with epithelioid histiocytes and inflammation, while an isolated osteoclast in an otherwise normal aspirate lacks that setting."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

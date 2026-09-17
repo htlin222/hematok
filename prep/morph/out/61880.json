@@ -1,0 +1,22 @@
+{
+  "id": "61880",
+  "recognize_zh": "視野中央只有一個中大型淋巴樣細胞，核圓至略有凹陷、染色質較疏鬆、胞質量中等淡藍；但核仁在此解析度下不明顯，且背景紅血球普遍皺縮成棘狀並有染劑沉澱，單一細胞不足以確認前淋巴細胞（prolymphocyte）。",
+  "features": [
+    "Single medium-to-large lymphoid cell with a round to slightly indented nucleus",
+    "Moderately condensed but relatively open chromatin; a prominent central nucleolus is not clearly resolved",
+    "Moderate rim of pale grey-blue agranular cytoplasm",
+    "Diffuse crenated red cells (echinocytes) consistent with drying or storage artifact",
+    "Scattered blue stain precipitate and small platelets in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows a single medium-to-large lymphoid cell with a round to slightly indented nucleus, relatively open chromatin and a moderate rim of pale basophilic, agranular cytoplasm. A single prominent nucleolus, the hallmark of a prolymphocyte, is not clearly resolved at this resolution. The background red cells show widespread crenation consistent with drying or delayed-processing artifact, and there is blue stain precipitate. A single cell cannot establish a monomorphic prolymphocytic population; the morphology is only partially consistent with a circulating prolymphocyte, and correlation with the full smear, lymphocyte count and flow cytometry is required.",
+  "ddx": [
+    {"dx": "CLL with increased prolymphocytes", "vs": "CLL has predominantly small lymphocytes with clumped chromatin and smudge cells, with prolymphocytes forming a minority and a CD5+/CD23+ phenotype."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells are small to medium with cytoplasmic blebs and a less conspicuous nucleolus and express CD7, CD4 and TCL1 with inv(14)/t(14;14)."},
+    {"dx": "Leukemic mantle cell lymphoma (pleomorphic/prolymphocytoid)", "vs": "MCL cells often have irregular nuclear contours and are CD5 positive with cyclin D1/SOX11 and t(11;14)."},
+    {"dx": "Reactive/activated lymphocyte", "vs": "Reactive lymphocytes are heterogeneous with abundant basophilic cytoplasm hugging adjacent red cells, rather than a monomorphic population with central nucleoli."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

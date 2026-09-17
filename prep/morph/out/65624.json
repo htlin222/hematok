@@ -1,0 +1,23 @@
+{
+  "id": "65624",
+  "recognize_zh": "腦脊髓液 cytospin 中巨噬細胞細胞質塞滿大小不一、深洋紅色的球狀包涵體，每顆周圍有透明暈（A–C），並可見細胞外成堆的相同包涵體（D），而嗜中性球與淋巴球內沒有（E–F）；此為黏多醣症（Hurler 症候群）的溶體內糖胺聚醣堆積（Alder-Reilly 型包涵體）。",
+  "features": [
+    "Macrophages with abundant cytoplasm packed with numerous large, round to polygonal, deep magenta globular inclusions (panels A-C)",
+    "Each inclusion individually surrounded by a clear halo, imparting a cobblestone or organism-like appearance",
+    "Macrophage nucleus pale and displaced, partly obscured by inclusions",
+    "Extracellular aggregate of identical halo-ringed inclusions from a ruptured macrophage (panel D)",
+    "Neutrophil without inclusions but hypersegmented with thin filamentous interlobar strands (panel E); lymphocyte without inclusions (panel F)",
+    "Background red cells from peripheral blood contamination"
+  ],
+  "describe_en": "Cerebrospinal fluid cytospin shows macrophages whose cytoplasm is distended by numerous large, deep magenta globular inclusions, each surrounded by a distinct clear halo. Similar inclusions are also present as extracellular aggregates, likely released from macrophages disrupted during preparation. Neutrophils and lymphocytes lack comparable inclusions, although a neutrophil shows hypersegmentation with long thin filamentous chromatin strands. In a child with Hurler syndrome, findings are consistent with lysosomal glycosaminoglycan storage (Alder-Reilly-type inclusions) within CSF macrophages; the halo-ringed inclusions should not be mistaken for intracellular organisms or staining artifact.",
+  "ddx": [
+    {"dx": "Intracellular organisms (Histoplasma capsulatum, Leishmania)", "vs": "Histoplasma yeasts have crescentic basophilic nuclei within a halo and Leishmania shows nucleus plus kinetoplast, whereas these inclusions are homogeneous magenta globules without internal structure."},
+    {"dx": "Siderophages or hemosiderin-laden macrophages after hemorrhage", "vs": "Hemosiderin appears as golden-brown to blue-black irregular granules that are Prussian blue positive rather than uniform magenta globules with halos."},
+    {"dx": "Antisense oligonucleotide-related macrophage inclusions (e.g., nusinersen)", "vs": "Morphology can overlap; distinction relies on treatment history and the underlying enzyme deficiency rather than appearance."},
+    {"dx": "Apoptotic cells or stain precipitate", "vs": "Apoptotic bodies are dense pyknotic nuclear fragments and precipitate lies on top of cells, unlike uniform halo-ringed cytoplasmic globules."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

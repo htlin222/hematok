@@ -1,0 +1,21 @@
+{
+  "id": "3284",
+  "recognize_zh": "中央一顆巨大的巨核細胞，分葉核周圍的細胞質中可見完整的小型造血細胞（深染的小圓核細胞）位於細胞質內，並非重疊在表面，這就是 emperipolesis（細胞穿行現象）。",
+  "features": [
+    "Large megakaryocyte with multilobated nucleus and abundant granular cytoplasm",
+    "Intact small hematopoietic cells with dense nuclei within the megakaryocyte cytoplasm",
+    "Engulfed cells retain intact nuclei and are not degraded (distinct from phagocytosis)",
+    "Surrounding hematopoietic cells in a cellular aspirate particle",
+    "Green-tinged background staining artifact"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large megakaryocyte with a multilobated nucleus and abundant granular cytoplasm containing several intact small hematopoietic cells with dense, well-preserved nuclei. The internalized cells show no evidence of degradation, consistent with emperipolesis rather than phagocytosis. The surrounding marrow particle is cellular; the background shows green-tinged staining artifact. Emperipolesis is a nonspecific finding seen in reactive marrows and myeloproliferative neoplasms, particularly primary myelofibrosis.",
+  "ddx": [
+    {"dx": "Hemophagocytosis by macrophages", "vs": "Hemophagocytic macrophages have a single oval nucleus and contain degraded, often vacuole-enclosed cells, whereas megakaryocytes have a lobulated nucleus and intact internalized cells."},
+    {"dx": "Cells overlying a megakaryocyte on the smear", "vs": "Overlying cells lie in a different focal plane and lack a surrounding clear cytoplasmic space."},
+    {"dx": "Rosai-Dorfman disease", "vs": "Rosai-Dorfman emperipolesis occurs in large S100-positive histiocytes with a single vesicular nucleus, not in megakaryocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

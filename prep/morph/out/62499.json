@@ -1,0 +1,20 @@
+{
+  "id": "62499",
+  "recognize_zh": "CD5 染色中，片狀小型淋巴球幾乎全部呈膜狀陽性，但強度中等；箭頭指的少數細胞呈較強、較清楚的環狀膜染色（推測為 T 細胞）。瀰漫浸潤的 B 細胞表現 CD5（強度弱於 T 細胞），符合 CLL。",
+  "features": [
+    "Diffuse sheets of small round lymphoid cells with membranous CD5 staining",
+    "Moderate, relatively uniform staining intensity in the infiltrating cells",
+    "Scattered cells with crisper, stronger ring-like membranous staining (arrows), likely T cells",
+    "Scant interstitial spaces with CD5-negative stromal cells"
+  ],
+  "describe_en": "Immunohistochemical stain for CD5 shows diffuse membranous positivity in sheets of small lymphoid cells. The staining intensity in the infiltrating cells is moderate, whereas scattered cells (arrows) show stronger, well-defined ring-like membranous staining consistent with background T cells. Because T cells are normally CD5-positive, coexpression with PAX5 or CD20 on the same population is required to confirm aberrant CD5 expression by B cells. Findings are consistent with a CD5-positive small B-cell lymphoproliferative disorder, compatible with chronic lymphocytic leukemia/small lymphocytic lymphoma.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is also CD5-positive but is CD23-negative and cyclin D1/SOX11-positive."},
+    {"dx": "T-cell rich infiltrate / T-cell lymphoma", "vs": "A T-cell process would be CD3-positive and PAX5/CD20-negative, which distinguishes it from CD5-positive B cells."},
+    {"dx": "CD5-positive marginal zone lymphoma", "vs": "Rare CD5-positive MZL is LEF1-negative and CD23-negative, with marginal zone or monocytoid morphology."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD5",
+  "match": "consistent",
+  "high_yield": false
+}

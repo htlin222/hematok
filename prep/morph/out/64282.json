@@ -1,0 +1,22 @@
+{
+  "id": "64282",
+  "recognize_zh": "血小板減少情境下的血片可見盔形細胞與紅血球碎片（schistocytes），並伴隨有核紅血球（黑箭頭）、點彩紅血球（橘箭頭）與大型血小板（藍箭頭），符合微血管病性溶血（TTP）。",
+  "features": [
+    "Scattered schistocytes including helmet cells and small irregular fragments with pointed ends",
+    "Two nucleated RBCs (black arrows) with round, dense pyknotic nuclei and grayish-pink polychromatophilic cytoplasm",
+    "Red cell with fine basophilic stippling and slight polychromasia (orange arrow)",
+    "Large granular platelet (blue arrow); overall few platelets in the field",
+    "Background normocytic RBCs with central pallor, some polychromatophilic larger cells; no agglutination"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic red cells with scattered schistocytes, including helmet cells and small irregular fragments. Two nucleated red blood cells with dense nuclei and polychromatophilic cytoplasm are present, along with a red cell showing fine basophilic stippling, indicating a brisk marrow erythroid response. Platelets appear decreased in this field, and those present include a large granular form consistent with increased platelet turnover. No red cell agglutination or spherocyte predominance is seen. Findings are consistent with a microangiopathic hemolytic anemia, compatible with the clinical diagnosis of thrombotic thrombocytopenic purpura; ADAMTS13 activity is required for confirmation.",
+  "ddx": [
+    {"dx": "HELLP syndrome / preeclampsia-associated MAHA", "vs": "Peripartum HELLP shows similar schistocytes but has prominent transaminase elevation, hypertension, and ADAMTS13 activity is not severely deficient (<10%), unlike TTP."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC can produce schistocytes but shows prolonged PT/aPTT and low fibrinogen, whereas coagulation tests are typically normal in TTP."},
+    {"dx": "Atypical hemolytic uremic syndrome (complement-mediated TMA)", "vs": "Morphology is identical; aHUS is favored by dominant renal failure with ADAMTS13 activity above 10%."},
+    {"dx": "Autoimmune hemolytic anemia", "vs": "AIHA shows spherocytes and polychromasia with a positive DAT rather than helmet cells and fragments with thrombocytopenia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

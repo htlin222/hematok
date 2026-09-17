@@ -1,0 +1,22 @@
+{
+  "id": "63800",
+  "recognize_zh": "中型淋巴細胞核圓或略凹、染色質細緻均勻、無明顯核仁，淡藍色細胞質沿整個細胞周邊伸出細長不規則的毛狀突起，這是毛細胞白血病（hairy cell leukemia）的毛細胞。",
+  "features": [
+    "Medium-sized lymphoid cells, larger than small lymphocytes, with moderate N:C ratio",
+    "Round to slightly indented nuclei with evenly dispersed, fine chromatin and no conspicuous nucleoli",
+    "Pale gray-blue cytoplasm with fine, irregular hair-like projections circumferentially",
+    "One small dark cell at bottom (platelet clump or pyknotic cell) for size comparison",
+    "Background red cells crenated (echinocytic drying artifact)"
+  ],
+  "describe_en": "Peripheral blood smear shows three medium-sized lymphoid cells with round to slightly indented nuclei, finely dispersed chromatin without prominent nucleoli, and moderate pale blue cytoplasm bearing fine, irregular hair-like projections around the entire circumference. Background red cells show crenation artifact. Findings are consistent with hairy cell leukemia; confirmation by flow cytometry (CD11c, CD25, CD103, CD123 bright) and BRAF V600E testing is recommended.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma (villous lymphocytes)", "vs": "Short villi concentrated at one or two poles, more condensed chromatin, and usually CD103 and CD123 negative."},
+    {"dx": "Hairy cell leukemia variant / splenic B-cell lymphoma with prominent nucleoli", "vs": "Cells have a prominent central nucleolus, leukocytosis, and are CD25 negative and BRAF V600E wild-type."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "Villous lymphocytes with broad-based projections and typically CD25, CD123 and annexin A1 negative."},
+    {"dx": "Monocytes", "vs": "Monocytes are larger with folded nuclei, gray-blue vacuolated cytoplasm and blunt pseudopods rather than fine hairs, and are CD14 positive."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

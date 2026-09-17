@@ -1,0 +1,21 @@
+{
+  "id": "64402",
+  "recognize_zh": "箭頭所指的紅血球比周圍正常紅血球明顯小、染色深、完全沒有中央淡染區（central pallor），視野中還有多顆類似的小而圓的細胞，加上較大淡藍的多染性紅血球，符合免疫性溶血的微球形紅血球。",
+  "features": [
+    "Numerous small, round, densely staining red cells lacking central pallor (microspherocytes; arrow)",
+    "Marked anisocytosis with admixed larger normochromic red cells and polychromatic macrocytes",
+    "Occasional irregular/folded red cell forms; no clear schistocytes",
+    "A lymphocyte at the top of the field; scattered platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisocytosis with numerous small, dense, round red cells lacking central pallor (microspherocytes), admixed with larger normochromic red cells and polychromatic macrocytes indicating reticulocytosis. No significant schistocytes or agglutination is seen in this field. Platelets appear adequate. In a newborn with a positive direct antiglobulin test, findings are consistent with immune-mediated hemolysis due to ABO incompatibility (hemolytic disease of the newborn).",
+  "ddx": [
+    {"dx": "Hereditary spherocytosis", "vs": "Hereditary spherocytosis shows similar spherocytes but a negative DAT, family history and abnormal EMA binding test."},
+    {"dx": "Rh hemolytic disease of the newborn", "vs": "Rh disease typically shows fewer spherocytes and more nucleated red cells/erythroblastosis, with maternal anti-D identified."},
+    {"dx": "Microcytic hypochromic red cells", "vs": "Microcytes of iron deficiency or thalassemia are small but retain or enlarge central pallor, while spherocytes are dense and pallor-free."},
+    {"dx": "Artifactual spherocytes", "vs": "Artifactual spherocytes occur in the thin feathered edge where all cells lose pallor, whereas true spherocytes are admixed with normal biconcave cells in the optimal reading area."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

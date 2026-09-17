@@ -1,0 +1,23 @@
+{
+  "id": "64421",
+  "recognize_zh": "周邊血液中的中至大型淋巴細胞，細胞質深藍並含清楚的小空泡、核不規則有核仁；流式為 CD19+/CD10+ kappa 限制，FISH 顯示 IGH::MYC 雙融合與 BCL6 斷裂，另有 11q 異常，符合 MYC/BCL6 高惡性度 B 細胞淋巴瘤的白血病期。",
+  "features": [
+    "PB smear (A-C): medium to large lymphoid cells with deeply basophilic cytoplasm",
+    "Distinct punched-out cytoplasmic vacuoles (A, C)",
+    "Round to slightly irregular nuclei with finely clumped chromatin and one or more visible nucleoli",
+    "Flow (D): CD19+ CD20+ CD10+ population with kappa light chain restriction, CD4-",
+    "Karyotype (E): complex karyotype with arrows marking abnormal chromosomes 3, 8, 11 and 14 (t(8;14))",
+    "FISH: MYC/IGH double fusion (F), BCL6 break-apart split signal (G), 11q triple-color probe showing 11q23 gain/11q24 loss (H)"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating medium to large atypical lymphoid cells with deeply basophilic cytoplasm containing punched-out vacuoles, round to irregular nuclei, finely clumped chromatin, and visible nucleoli. Flow cytometry identifies a CD19-, CD20- and CD10-positive B-cell population with kappa light chain restriction. The karyotype is complex with t(8;14)(q24;q32), and FISH confirms IGH::MYC fusion, BCL6 rearrangement, and an 11q23 gain/11q24 loss pattern, without BCL2 rearrangement. Findings are consistent with leukemic high-grade B-cell lymphoma with MYC and BCL6 rearrangements and concurrent 11q aberration.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma (leukemic phase)", "vs": "Burkitt lymphoma shares vacuolated basophilic cells and IG::MYC, but typically has a simple karyotype without BCL6 rearrangement or complex abnormalities, in a younger patient."},
+    {"dx": "Large B-cell lymphoma with 11q aberration", "vs": "This entity shows the 11q23 gain/11q24 loss pattern by definition without MYC rearrangement, whereas IGH::MYC fusion is present here."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Distinguished only by FISH: BCL2 rearrangement is absent in this case."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are TdT+ and usually CD34+ with surface light chain negativity, whereas these cells are mature kappa-restricted B cells."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa; flow; karyotype; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

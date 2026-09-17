@@ -1,0 +1,21 @@
+{
+  "id": "3774",
+  "recognize_zh": "免疫染色中大量小型淋巴球呈棕色膜狀陽性，而散在其間的大型細胞（核大、淡染、有核仁）完全不著色，呈現「陰性大細胞浮在陽性小細胞海中」的格局；推測為 T 細胞標記（如 CD3），符合 T 細胞／組織球豐富型大 B 細胞淋巴瘤（THRLBCL）。",
+  "features": [
+    "Diffuse sheet of small lymphocytes with strong membranous brown staining (T-cell marker pattern)",
+    "Scattered large cells with vesicular nuclei and visible nucleoli that are unstained",
+    "Large negative cells are singly dispersed, not clustered in sheets",
+    "Pale histiocyte-like cells with abundant cytoplasm also unstained",
+    "No nodular or follicular architecture seen in this field"
+  ],
+  "describe_en": "Immunohistochemical stain of a lymph node (antigen not labeled; pattern compatible with a pan-T-cell marker such as CD3) shows a diffuse background of small lymphocytes with strong membranous positivity. Interspersed singly are scattered large atypical cells with vesicular nuclei and prominent nucleoli that are negative, together with unstained histiocytes. The large cells do not form sheets or aggregates. In the context of large B-cell marker positivity in the large cells, findings are consistent with T-cell/histiocyte-rich large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (diffuse pattern)", "vs": "NLPHL retains at least partly nodular architecture with residual follicular dendritic cell meshworks and small B-cell-rich nodules, whereas THRLBCL has a T-cell/histiocyte background devoid of small B cells."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are CD30+/CD15+ with weak PAX5 and absent CD20/CD45, while THRLBCL large cells are CD20+, CD45+ and CD30/CD15 negative."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "In PTCL the large atypical cells themselves express T-cell markers (often with antigen loss) and show clonal TCR rearrangement, instead of being T-marker negative B cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: T-cell marker (likely CD3)",
+  "match": "consistent",
+  "high_yield": false
+}

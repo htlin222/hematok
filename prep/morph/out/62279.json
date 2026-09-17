@@ -1,0 +1,21 @@
+{
+  "id": "62279",
+  "recognize_zh": "低倍 H&E 下，淋巴結中央有一個大而拉長、邊界不清的結節，大部分由深染的小淋巴球構成，其內夾雜淡染斑塊；右下方可見淋巴結被膜與血管，周圍仍保有一般淋巴組織，提示 PTGC。",
+  "features": [
+    "Large, elongated, ill-defined lymphoid nodule dominating the field, much larger than a normal secondary follicle",
+    "Predominance of small, dark lymphocytes with irregular paler areas within the nodule (fragmented germinal centers)",
+    "Surrounding interfollicular tissue with small vessels and the fibrous nodal capsule at the lower right",
+    "Retraction/cleft artifacts traversing the nodule",
+    "Cytologic detail not resolvable at this magnification; no obvious sclerosis or necrosis"
+  ],
+  "describe_en": "Low-power H&E section of lymph node shows a large, poorly delineated lymphoid nodule composed predominantly of small lymphocytes, containing irregular paler areas suggestive of disrupted germinal center remnants. The adjacent node shows interfollicular tissue with vessels and an intact fibrous capsule at the edge of the field. There is no sclerosis or necrosis, and cellular detail cannot be assessed at this power. Findings are suggestive of progressive transformation of germinal centers; correlation with IgD, CD10, BCL2 and PD-1 immunostains and high-power examination for LP cells is required.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (NLPHL)", "vs": "NLPHL shows effacement by multiple nodules containing CD20+/OCT2+ LP cells rosetted by PD-1+ T cells, whereas PTGC lacks LP cells and occurs amid reactive follicles."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma has crowded uniform follicles with BCL2-positive germinal center B cells and attenuated mantles, unlike the mantle-cell-rich PTGC nodule with BCL2-negative germinal center remnants."},
+    {"dx": "Nodal marginal zone lymphoma with follicular colonization", "vs": "Marginal zone lymphoma shows expanded monocytoid/marginal zone B cells that are IgD-negative with light-chain restriction, whereas the PTGC nodule is composed of polytypic IgD+ mantle cells."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

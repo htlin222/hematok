@@ -1,0 +1,22 @@
+{
+  "id": "27676",
+  "recognize_zh": "原發腫瘤切片為一致的小圓細胞實性片狀生長；骨髓抹片中出現成群、細胞質淡藍、核圓且染色質呈顆粒狀（鹽與胡椒樣）的非造血細胞，易被誤認為芽細胞或漿細胞，免疫細胞化學在細胞質呈陽性並帶樹突狀突起——符合轉移性甲狀腺髓質癌侵犯骨髓。",
+  "features": [
+    "Panel A (H&E): sheets of monotonous small round-to-spindled tumor cells with a fibrous capsule and adjacent fat",
+    "Panels B–C (smear): clusters of medium-to-large non-hematopoietic cells with round, often eccentric nuclei",
+    "Coarsely granular 'salt-and-pepper' chromatin without prominent nucleoli",
+    "Pale blue-gray cytoplasm, some with fine pink granules; loose cohesion",
+    "Panels D–E (immunocytochemistry): strong cytoplasmic brown staining with dendritic cytoplasmic processes (marker not labeled; likely calcitonin/neuroendocrine marker)"
+  ],
+  "describe_en": "Panel A shows a solid, cellular neoplasm composed of monotonous small cells in sheets with a fibrous capsule. Bone marrow aspirate smears (B, C) contain clusters of medium-to-large, loosely cohesive non-hematopoietic cells with round eccentric nuclei, finely granular neuroendocrine-type chromatin and pale cytoplasm, some with fine pink granules; at low power these cells mimic plasma cells or blasts. Immunocytochemistry on the smear (D, E) shows strong cytoplasmic staining with dendritic processes. In a patient with a thyroid primary, the findings are consistent with bone marrow metastasis of medullary thyroid carcinoma; the specific antibodies are not labeled in the figure.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Plasma cells show clock-face chromatin, a perinuclear hof and deeply basophilic cytoplasm, and are CD138/light chain-restricted rather than calcitonin/chromogranin-positive."},
+    {"dx": "Acute leukemia (blasts)", "vs": "Blasts are non-cohesive with fine open chromatin and nucleoli, and are CD45/CD34-positive and keratin-negative."},
+    {"dx": "Metastatic small cell carcinoma or neuroblastoma", "vs": "Share neuroendocrine markers, but show nuclear molding and scant cytoplasm (small cell) or rosettes in children (neuroblastoma), and lack calcitonin/CEA expression."},
+    {"dx": "Metastatic breast lobular carcinoma", "vs": "Lobular carcinoma cells form single files, are GATA3/ER-positive, E-cadherin-negative and neuroendocrine marker-negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "H&E; Wright-Giemsa; immunocytochemistry (unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

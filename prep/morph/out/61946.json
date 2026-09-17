@@ -1,0 +1,20 @@
+{
+  "id": "61946",
+  "recognize_zh": "CD4免疫染色中，許多中小型T細胞呈強膜狀陽性，組織球則為較淡的背景陽性，而大量淋巴細胞為陰性，顯示CD4+ T細胞只是混合族群的一部分，屬於反應性表現。",
+  "features": [
+    "Numerous small-to-intermediate lymphocytes with strong membranous CD4 staining",
+    "Weaker, granular CD4 staining in histiocytes producing a diffuse light-brown background",
+    "Many admixed CD4-negative lymphocytes, including larger cells",
+    "Scattered, non-clustered distribution without sheets of CD4-positive atypical cells"
+  ],
+  "describe_en": "CD4 immunohistochemistry highlights numerous small-to-intermediate T cells with strong membranous staining, admixed with weakly positive histiocytes and many CD4-negative lymphocytes. The positive cells are distributed in a scattered, mixed pattern without sheets of atypical CD4-positive cells. In conjunction with other stains (typically an expanded CD8+ population in EBV reactivation), the pattern supports a reactive mixed T-cell infiltrate.",
+  "ddx": [
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows CD4+ neoplastic T cells clustered around HEVs with PD1/CXCL13/ICOS co-expression and expanded CD21+ FDC meshworks, rather than scattered CD4+ cells in a polymorphous background."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL typically shows sheets of atypical T cells with aberrant loss of pan-T antigens and a monoclonal TCR rearrangement."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "In cHL, CD4+ T cells rosette around CD30+/CD15+ HRS cells, which is not seen here."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD4",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64058",
+  "recognize_zh": "雙重免疫染色中，大型 Reed-Sternberg／Hodgkin 細胞有清楚的棕色膜狀 PD-L1 染色，核內僅淡粉紅色弱 PAX5；周圍小 B 細胞核呈鮮紅色強 PAX5，背景組織球也有棕色 PD-L1，這種「大細胞 PAX5 弱陽性」對比是古典何杰金淋巴瘤的特徵。",
+  "features": [
+    "Large Hodgkin/Reed-Sternberg cells with large vesicular nuclei and prominent nucleoli, some binucleate",
+    "Membranous and cytoplasmic brown (DAB) PD-L1 staining outlining the large neoplastic cells",
+    "Weak, pale pink-red nuclear PAX5 in the large cells",
+    "Scattered small background B cells with strong, bright red nuclear PAX5 serving as internal contrast",
+    "Diffuse brown PD-L1 staining of background histiocytes in a mixed inflammatory milieu; PAX5-negative small T cells with blue nuclei"
+  ],
+  "describe_en": "Dual immunohistochemistry (PD-L1 in brown, PAX5 in red) shows scattered large atypical cells with vesicular nuclei and prominent nucleoli, including binucleate forms, in a background of small lymphocytes and histiocytes. The large cells display membranous PD-L1 staining and weak nuclear PAX5, in contrast to strong nuclear PAX5 in the admixed small reactive B cells. Background histiocytes are moderately to strongly PD-L1 positive, serving as an internal control, and small T cells are PAX5 negative. Findings are consistent with classic Hodgkin lymphoma with PD-L1 expression by Hodgkin/Reed-Sternberg cells, reflecting the 9p24.1 amplification typical of this entity.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant B-cell lymphoma", "vs": "LP cells show strong nuclear PAX5 with CD20/OCT2/BOB1 positivity and are CD30/CD15 negative, rather than weak PAX5."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "The large cells have strong PAX5 and CD20 expression in a T-cell and histiocyte-rich background without CD30/CD15."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL cells are PAX5-negative with a T-cell or null phenotype and uniformly strong CD30 in sheets, and ALK-positive cases lack PD-L1 amplification-driven staining."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL also expresses PD-L1 but its sheets of large cells show strong PAX5/CD20 and CD23 positivity."}
+  ],
+  "specimen": "LN",
+  "stain": "Dual IHC: PD-L1 (brown) / PAX5 (red)",
+  "match": "consistent",
+  "high_yield": false
+}

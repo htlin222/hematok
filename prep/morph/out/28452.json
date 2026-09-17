@@ -1,0 +1,21 @@
+{
+  "id": "28452",
+  "recognize_zh": "骨髓抹片中一個巨噬細胞胞質內含多個圓形酵母菌，每個中央有深染的小菌體、外圍環繞一圈寬的透明暈（莢膜），呈泡泡狀排列，這種「帶透明莢膜的酵母菌」即新型隱球菌（Cryptococcus），病人為骨髓瘤免疫低下者。",
+  "features": [
+    "Macrophage with a round nucleus and abundant pale, finely vacuolated blue cytoplasm",
+    "Numerous round-to-oval intracellular and adjacent yeast forms, each with a small dark-staining central body surrounded by a wide clear halo (capsule)",
+    "Organisms of variable size packed in a bubbly cluster, some appearing elongated or crescent-shaped due to shrinkage within the capsule",
+    "Background of crenated red cells; no hyphae or pseudohyphae"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a macrophage with abundant vacuolated cytoplasm containing and surrounded by numerous round yeast forms of variable size, each with a small, dark, often crescent-shaped central body and a thick clear halo corresponding to a polysaccharide capsule. No hyphae are seen. Findings are consistent with disseminated cryptococcosis involving the bone marrow; confirmation by mucicarmine or India ink staining, serum/CSF cryptococcal antigen and culture is recommended, given the neurological symptoms.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts are smaller (2-4 µm) and uniform within macrophages with a thin pseudocapsule artifact and lack a thick mucicarmine-positive capsule."},
+    {"dx": "Candida species", "vs": "Candida shows small budding yeasts with pseudohyphae and no capsular halo."},
+    {"dx": "Talaromyces marneffei", "vs": "Talaromyces yeasts are elongated with a central transverse septum dividing by fission rather than budding, and lack a wide capsule."},
+    {"dx": "Crystal-storing or lipid-laden histiocyte vacuoles", "vs": "Empty vacuoles lack a central staining organism and do not stain with mucicarmine, GMS or PAS."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

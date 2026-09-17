@@ -1,0 +1,27 @@
+{
+  "id": "4",
+  "recognize_zh": "皮膚切片真皮被單一形態的中型未成熟細胞瀰漫浸潤，細胞在膠原束間穿插排列，核染色質細、可見小核仁與核分裂；在已知慢性骨髓性腫瘤病史下，免疫染色呈骨髓系顆粒狀胞質陽性，支持髓外骨髓腫瘤（leukemia cutis）。",
+  "features": [
+    "Dense, diffuse dermal infiltrate extending up to a thin, largely spared zone beneath an intact epidermis",
+    "Monotonous medium-sized immature cells with round to slightly irregular nuclei, fine chromatin and small nucleoli",
+    "Tumor cells dissect between and single-file around collagen bundles",
+    "Frequent mitoses and scattered apoptotic bodies",
+    "Unlabeled IHC shows weak granular cytoplasmic/membranous positivity in tumor cells with a negative epidermis"
+  ],
+  "describe_en": "Skin biopsy shows a dense, diffuse dermal infiltrate beneath an intact epidermis, with tumor cells dissecting between collagen bundles. At high power the infiltrate consists of monotonous medium-sized immature cells with fine chromatin, small nucleoli, scant to moderate cytoplasm, frequent mitoses and apoptotic bodies; no epidermotropism is identified. An immunostain (marker not labeled in the image) shows weak granular cytoplasmic positivity in the neoplastic cells while the epidermis is negative, in keeping with a myeloid immunophenotype described for this case. In the setting of a known chronic myeloid neoplasm, findings are consistent with extramedullary myeloid tumor (leukemia cutis), representing blast transformation.",
+  "ddx": [
+    {"dx": "Cutaneous diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger with vesicular chromatin and prominent nucleoli and are CD20/PAX5-positive and MPO/CD33/lysozyme-negative."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN shows similar blastic dermal sheets but is CD4+, CD56+, CD123+, TCF4+ and MPO/lysozyme-negative."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Lymphoblastic lymphoma expresses TdT with CD3 or CD79a/PAX5 and lacks myeloid markers such as MPO."},
+    {"dx": "Merkel cell carcinoma or other small round cell tumor", "vs": "Merkel cell carcinoma has salt-and-pepper chromatin with nuclear molding and is CK20 dot-like and neuroendocrine-marker positive but CD45-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (marker unlabeled)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "H&E low power: diffuse dermal infiltrate beneath intact epidermis",
+    "H&E high power: medium-sized blasts with fine chromatin dissecting collagen, mitoses",
+    "IHC (unlabeled): weak granular cytoplasmic positivity in tumor cells, negative epidermis"
+  ]
+}

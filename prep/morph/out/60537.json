@@ -1,0 +1,23 @@
+{
+  "id": "60537",
+  "recognize_zh": "這是六格免疫組織化學（IHC）拼圖：上排「淋巴瘤區」可見大片瀰漫陽性的腫瘤性淋巴細胞，下排「鄰近腸病變區」小腸絨毛上皮內可見大量陽性的上皮內淋巴球（IEL）；本圖未標示各格抗體名稱，判讀需對照原始說明。",
+  "features": [
+    "Composite of six immunohistochemical panels labeled 'lymphoma areas' (top row) and 'adjacent enteropathic areas' (bottom row); antibodies are not labeled",
+    "Top left: diffuse membranous positivity in a dense lymphoid infiltrate surrounding a negative central structure",
+    "Top middle: only scattered positive cells among negative larger tumor cells",
+    "Top right: strong membranous/cytoplasmic positivity in sheets of medium-to-large atypical cells",
+    "Bottom row: increased positive intraepithelial lymphocytes within villous and crypt epithelium and lamina propria, supporting an associated enteropathy",
+    "Brown DAB chromogen with hematoxylin counterstain"
+  ],
+  "describe_en": "Composite immunohistochemical figure of small-intestinal tissue compares tumor areas with the adjacent mucosa. In the lymphoma areas, one marker stains a dense infiltrate diffusely, a second highlights only scattered cells with the tumor cells negative, and a third shows strong staining in sheets of medium-to-large atypical lymphoid cells. In the adjacent enteropathic mucosa, the same markers highlight markedly increased intraepithelial lymphocytes within surface and crypt epithelium. Because the antibodies are not labeled, the specific phenotype cannot be read from the image alone; in the context of the title, the pattern of a T-cell tumor with an adjacent intraepithelial lymphocytosis is consistent with enteropathy-associated T-cell lymphoma (classic EATL, formerly type I), typically CD3+, CD4-, CD8-, CD56-, often CD30+.",
+  "ddx": [
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma (formerly EATL type II)", "vs": "MEITL consists of monomorphic small-to-medium cells that are CD8+, CD56+ and MATK+, without the pleomorphism, CD30 expression and celiac background typical of EATL."},
+    {"dx": "Refractory celiac disease type II", "vs": "RCD II shows aberrant intraepithelial lymphocytes (surface CD3-/CD8-) but no mass-forming transmural tumor."},
+    {"dx": "Intestinal ALK-negative anaplastic large cell lymphoma or PTCL, NOS", "vs": "These lack an associated enteropathy with increased intraepithelial lymphocytes in adjacent mucosa."},
+    {"dx": "Indolent T-cell lymphoproliferative disorder of the GI tract", "vs": "It shows a superficial, non-destructive infiltrate of small mature T cells with a low Ki-67, not sheets of large atypical cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: panel, antibodies not labeled",
+  "match": "partial",
+  "high_yield": false
+}

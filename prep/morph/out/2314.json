@@ -1,0 +1,21 @@
+{
+  "id": "2314",
+  "recognize_zh": "骨髓抹片中成片的大型母細胞，圓形或帶凹痕的核、細緻染色質與可見核仁，細胞質淡藍色偶有空泡，中間夾雜少數顆粒球，符合 CML 急性轉化中母細胞增生。",
+  "features": [
+    "Sheet of large blasts with round to indented or cleaved nuclei",
+    "Fine, dispersed chromatin with small nucleoli in several cells",
+    "Moderate pale blue cytoplasm, occasionally with small vacuoles; one blast with deeply basophilic cytoplasm",
+    "Few admixed granulated cells including a basophil/granulocyte precursor",
+    "Scattered granular debris and red cells in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a sheet of large blasts with round to indented nuclei, fine chromatin, small nucleoli and moderate pale blue cytoplasm, some containing small vacuoles. A few granulated cells, including a basophil-type cell, are admixed, while maturing granulocytes are scarce in this field. Auer rods are not identified. Findings are consistent with blast phase of CML, BCR-ABL1-positive, pending flow cytometric lineage determination.",
+  "ddx": [
+    {"dx": "De novo AML", "vs": "Blast morphology is similar, and separation relies on prior chronic-phase history, residual basophilia and BCR-ABL1 transcript type rather than cytology."},
+    {"dx": "Lymphoid blast phase of CML", "vs": "Lymphoid blasts usually have scantier cytoplasm and less vesicular chromatin, but flow cytometry (TdT, CD19, CD10 vs MPO, CD13, CD33) is required."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts have more abundant gray cytoplasm and are NSE positive with CD14/CD64 expression, unlike typical myeloblasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

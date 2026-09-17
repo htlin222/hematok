@@ -1,0 +1,23 @@
+{
+  "id": "63095",
+  "recognize_zh": "骨髓抹片（A）見帶空泡的大型異型細胞，流式（B、C）顯示兩群輕鏈不同的 B 細胞：CD5+ λ+ 小群與 CD5− κ+ 大群；淋巴結（D–F）被 CD20 陽性大細胞瀰漫取代、Ki-67 高；兩群輕鏈不同即提示與 CLL 克隆無關的 Richter 轉化（DLBCL）。",
+  "features": [
+    "Panel A: marrow aspirate with large atypical cells with irregular nuclei and cytoplasmic vacuoles",
+    "Panel B: CD19 vs CD5 plot with a CD5+CD19+ population (pink) and a larger CD5-negative CD19+ population (blue)",
+    "Panel C: the CD5+ population is lambda-restricted, the CD5-negative population kappa-restricted",
+    "Panel D: lymph node architecture effaced by a diffuse lymphoid infiltrate",
+    "Panel E: diffuse strong membranous CD20 staining",
+    "Panel F: high Ki-67 proliferation index"
+  ],
+  "describe_en": "The bone marrow aspirate shows large atypical cells with irregular nuclei and vacuolated cytoplasm. Flow cytometry reveals two distinct clonal B-cell populations: a CD5-positive, lambda-restricted population and a larger CD5-negative, kappa-restricted population. The lymph node biopsy shows diffuse effacement by large lymphoid cells that are CD20-positive with a high Ki-67 index. The discordant light chain restriction indicates that the large B-cell lymphoma is clonally distinct from the CLL/SLL clone; findings are consistent with diffuse large B-cell lymphoma representing clonally unrelated Richter transformation.",
+  "ddx": [
+    {"dx": "Clonally related Richter transformation", "vs": "Clonally related DLBCL shares the CLL light chain and IGHV rearrangement, whereas here the large-cell population is kappa-restricted versus the lambda CLL clone."},
+    {"dx": "Accelerated (proliferation-center-rich) CLL/SLL", "vs": "Accelerated CLL has expanded proliferation centers with Ki-67 >40% but lacks confluent sheets of large cells."},
+    {"dx": "Mantle cell lymphoma, blastoid/pleomorphic", "vs": "MCL is CD5-positive and cyclin D1/SOX11-positive, whereas the large-cell population is CD5-negative and cyclin D1-negative."},
+    {"dx": "Hodgkin-type Richter transformation", "vs": "Hodgkin-type RS shows scattered CD30+/CD15+ Reed-Sternberg cells with weak or absent CD20, not diffuse CD20-positive sheets."}
+  ],
+  "specimen": "LN",
+  "stain": "Wright-Giemsa; H&E; IHC: CD20, Ki-67; flow",
+  "match": "consistent",
+  "high_yield": false
+}

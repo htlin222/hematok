@@ -1,0 +1,22 @@
+{
+  "id": "63174",
+  "recognize_zh": "一顆分葉嗜中性球周圍被十多個血小板緊密圍成一圈（platelet satellitism），旁邊另一顆嗜中性球則沒有，是 EDTA 引起偽血小板低下的典型形態。",
+  "features": [
+    "Segmented neutrophil ringed by about 14 closely adherent platelets (platelet satellitism)",
+    "Adherent platelets are small, granular and evenly spaced around the cell membrane",
+    "Neighbouring neutrophil without platelet rosetting",
+    "Small dense round nucleated cell adjacent to the neutrophil (small lymphocyte or nucleated red cell)",
+    "Few free platelets in background; dark stain precipitate present; red cells unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows a segmented neutrophil surrounded by a ring of approximately 14 platelets adherent to its surface, while an adjacent neutrophil lacks this change. Free platelets in the background are relatively sparse, and red cell morphology is unremarkable apart from stain precipitate. Findings are consistent with EDTA-dependent platelet satellitism, a cause of spurious thrombocytopenia; a repeat count in citrated blood or a fingerstick smear is recommended.",
+  "ddx": [
+    {"dx": "Platelet clumping (EDTA-induced aggregation)", "vs": "Clumping forms free aggregates of platelets in the background or feathered edge rather than a ring around neutrophils, though both cause pseudothrombocytopenia."},
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia has few platelets without satellitism or clumps and persists in citrate-anticoagulated samples."},
+    {"dx": "Red cell rosetting around a neutrophil", "vs": "Rosettes consist of intact red cells, not small granular platelets, around the leukocyte."},
+    {"dx": "Phagocytosed platelets (platelet phagocytosis)", "vs": "Phagocytosed platelets lie within the cytoplasm rather than adhering around the outer membrane."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

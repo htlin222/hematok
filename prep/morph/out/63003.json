@@ -1,0 +1,22 @@
+{
+  "id": "63003",
+  "recognize_zh": "胎盤切片中，在纖維素樣基質與蛻膜區（星號、三角形）間可見一片不屬於胎盤的單核圓形細胞浸潤，高倍下（箭頭）核圓、染色質細、胞質少，CD68 呈點狀陽性；配合抹片中大量母細胞，指向骨髓性肉瘤（myeloid sarcoma）侵犯胎盤。",
+  "features": [
+    "Placental tissue with fibrinoid/decidual areas (star, triangle) infiltrated by a band of discohesive mononuclear cells (A)",
+    "Infiltrating cells are medium-sized with round to slightly irregular nuclei, fine chromatin and scant cytoplasm, dissecting between stromal fibers (B, arrows)",
+    "CD68 shows dot-like/granular cytoplasmic positivity in infiltrating cells (C, arrows)",
+    "May-Grünwald-Giemsa smear with a monotonous population of blasts replacing normal elements (D)",
+    "Background mature placental elements lack a mixed inflammatory (neutrophil-rich) pattern"
+  ],
+  "describe_en": "Composite figure. Sections of placenta show fibrinoid and decidual tissue (A, star and triangle) infiltrated by sheets and single files of discohesive medium-sized mononuclear cells with round nuclei, fine chromatin and scant cytoplasm (B, arrows). CD68 highlights these cells with granular, dot-like cytoplasmic staining (C). An accompanying May-Grünwald-Giemsa smear shows numerous blasts (D). The infiltrate is distinct from the mixed neutrophilic inflammation of chorioamnionitis. Findings are consistent with placental involvement by myeloid sarcoma; confirmation with MPO, CD34, CD117, lysozyme and CD33 and correlation with maternal or fetal leukemia status are recommended.",
+  "ddx": [
+    {"dx": "Acute chorioamnionitis / villitis", "vs": "Inflammatory infiltrates are composed of segmented neutrophils or mixed lymphohistiocytic cells rather than a monotonous population of immature cells with fine chromatin."},
+    {"dx": "Placental involvement by lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts are CD68- and MPO-negative, expressing TdT with CD19/CD79a or CD3."},
+    {"dx": "Transient abnormal myelopoiesis / fetal extramedullary hematopoiesis", "vs": "Fetal hematopoiesis is intravascular with maturing erythroid and myeloid elements, and TAM occurs in the context of Down syndrome with megakaryoblasts, rather than a stromal infiltrate of blasts."},
+    {"dx": "Metastatic or trophoblastic tumor", "vs": "Carcinoma and trophoblastic neoplasms are cohesive and keratin- or hCG-positive, not CD68-positive discohesive blasts."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD68; May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

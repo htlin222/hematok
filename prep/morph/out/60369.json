@@ -1,0 +1,22 @@
+{
+  "id": "60369",
+  "recognize_zh": "骨髓切片 H&E 見均一中型芽細胞片狀取代正常造血，免疫染色顯示芽細胞 CD34 瀰漫膜陽性、TdT 核陽性、CD79a 瀰漫陽性，組合起來即為 B 淋巴芽細胞白血病（B-ALL）的前驅 B 表型。",
+  "features": [
+    "H&E: diffuse sheets of monotonous medium-sized blasts with scant cytoplasm, round to irregular nuclei and fine chromatin, with few residual hematopoietic cells",
+    "CD34: strong, diffuse membranous positivity in nearly all blasts",
+    "TdT: nuclear positivity in the majority of blasts",
+    "CD79a: diffuse positivity in the blast population",
+    "Legend states the blasts are also CD10 positive (CD10 panel not shown)"
+  ],
+  "describe_en": "Bone marrow core biopsy shows diffuse replacement of the marrow by sheets of monotonous medium-sized blasts with scant cytoplasm and fine chromatin, with only rare residual hematopoietic elements. By immunohistochemistry the blasts are diffusely positive for CD34 and CD79a, and show nuclear TdT expression; CD10 is reported as positive. There is no evidence of maturation within the infiltrate. Findings are consistent with relapsed B-lymphoblastic leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "T-ALL blasts are also TdT+ and CD34+/- but express cytoplasmic CD3 and lack CD79a/PAX5/CD19."},
+    {"dx": "Acute myeloid leukemia (minimally differentiated)", "vs": "AML blasts are CD34+ and may be TdT+ but lack B-lineage markers (CD79a, PAX5, CD19) and express CD117/CD13/CD33 or MPO."},
+    {"dx": "Hematogone hyperplasia", "vs": "Hematogones show a maturation continuum with only a minor CD34+/TdT+ subset and do not form diffuse CD34+ sheets."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells are CD10+ mature B cells that are TdT- and CD34- with surface light-chain expression and near-100% Ki-67."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD34, TdT, CD79a",
+  "match": "consistent",
+  "high_yield": true
+}

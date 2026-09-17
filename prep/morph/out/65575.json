@@ -1,0 +1,22 @@
+{
+  "id": "65575",
+  "recognize_zh": "骨髓被單一型態的中型不成熟細胞成片取代，抹片中的芽細胞染色質細緻、細胞質灰藍並帶小空泡；TCF4 核陽性，流式 CD123 強陽性合併 CD56 與 HLA-DR 陽性，符合 BPDCN，即使沒有皮膚病灶。",
+  "features": [
+    "Biopsy with diffuse sheets of monotonous medium-sized immature cells effacing the marrow (panel A)",
+    "Aspirate blasts with round to slightly irregular nuclei, fine chromatin, small nucleoli, and gray-blue cytoplasm containing small vacuoles (panel B)",
+    "Strong nuclear TCF4 staining in most neoplastic cells (panel C)",
+    "Flow cytometry: bright CD123 with CD56 coexpression (D), downregulated/partial CD303 (E), and HLA-DR positivity (F)",
+    "No granules or Auer rods in the blasts"
+  ],
+  "describe_en": "Bone marrow biopsy shows diffuse sheets of monotonous medium-sized immature cells replacing normal hematopoiesis. The aspirate shows blasts with fine chromatin, small nucleoli, and agranular gray-blue cytoplasm with small vacuoles. The neoplastic cells show strong nuclear TCF4 staining, and flow cytometry demonstrates a CD123-bright, CD56-positive, HLA-DR-positive population with downregulated CD303. Findings are consistent with blastic plasmacytoid dendritic cell neoplasm extensively involving the bone marrow, notably without cutaneous disease.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation (CD56+/CD123+)", "vs": "Monocytic AML expresses CD11b, CD14, CD64, lysozyme, and often MPO and lacks the TCF4/TCL1/CD303 plasmacytoid dendritic cell program."},
+    {"dx": "AML with pDC expansion (e.g., RUNX1-mutated)", "vs": "In this entity the pDCs are a minor mature CD34-negative population accompanying CD34+ myeloid blasts rather than the dominant neoplastic population."},
+    {"dx": "NK-cell or T-lymphoblastic leukemia", "vs": "These express cytoplasmic CD3, CD2, or CD7 with TdT and lack bright CD123 with TCF4."},
+    {"dx": "Mature plasmacytoid dendritic cell proliferation associated with myeloid neoplasm", "vs": "These pDCs are CD56 negative and cytologically mature, in contrast to these CD56-positive blastic cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Giemsa; IHC: TCF4; flow",
+  "match": "consistent",
+  "high_yield": false
+}

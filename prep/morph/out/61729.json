@@ -1,0 +1,20 @@
+{
+  "id": "61729",
+  "recognize_zh": "這是 blast gate 的 CD34 對 CD123 流式圖：綠色圈起的 M 群 CD123 陽性、CD34 陰性，與右下紅色 CD34 陽性、CD123 陰性至弱的正常前驅細胞明顯分開；CD34 陰性且 CD123 陽性的芽細胞群是 BPDCN 的關鍵表現。",
+  "features": [
+    "Dot plot: CD34-PC7 (x-axis) versus CD123-APC (y-axis), gated on blasts",
+    "Gated abnormal population 'M' (green) CD123-positive and CD34-negative",
+    "Residual normal progenitors (red) CD34-bright with negative to dim CD123",
+    "Additional red CD34-negative/CD123-negative events (maturing cells) below the M gate",
+    "Clear separation between neoplastic and normal progenitor compartments"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD34 versus CD123 gated on blasts shows a distinct abnormal population (gate M, green) that is CD123-positive and CD34-negative. Residual normal CD34-bright progenitors (red) show only negative to dim CD123 and are clearly separated from the abnormal population. A CD34-negative blast population with uniform CD123 expression is a key phenotypic feature of blastic plasmacytoid dendritic cell neoplasm. Correlation with CD4, CD56, HLA-DR, TCF4/TCL1 and absence of MPO and lineage markers is needed for diagnosis.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with CD123 expression", "vs": "CD123+ AML blasts usually co-express CD34 and/or CD117 with CD13/CD33, unlike this CD34-negative population."},
+    {"dx": "Mature plasmacytoid dendritic cell expansion in myeloid neoplasm", "vs": "Mature pDCs are CD123-bright and CD34-negative but CD56-negative, and are accompanied by a separate CD34+ myeloid clone."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

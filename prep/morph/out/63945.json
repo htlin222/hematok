@@ -1,0 +1,22 @@
+{
+  "id": "63945",
+  "recognize_zh": "數個大型芽細胞，細胞質豐富呈灰藍色、布滿細小打孔狀空泡，核圓或略凹陷、染色質細緻，部分細胞邊緣有偽足狀突起，這是單核球系芽細胞（monoblasts/promonocytes）的典型外觀，符合 KMT2A 重排的單核球性 AML。",
+  "features": [
+    "Large blasts (roughly 2-3 times RBC diameter) with moderate to low N:C ratio",
+    "Round to oval, focally indented or folded nuclei with finely dispersed (lacy) chromatin",
+    "Abundant gray-blue cytoplasm with numerous small punched-out vacuoles, some rimming the cell edge",
+    "Irregular cytoplasmic margins with blebs and pseudopod-like projections",
+    "No Auer rods or coarse granules evident; a single small lymphocyte and scattered normal RBCs in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a population of large blasts in a background of red cells. The blasts have round to indented nuclei with finely dispersed chromatin and abundant gray-blue cytoplasm containing numerous small, punched-out vacuoles, with irregular cytoplasmic blebs and pseudopods. Auer rods are not identified. The morphology is that of monoblasts and promonocytes; findings are consistent with acute myeloid leukemia with monocytic differentiation, and in the setting of t(9;11)(p22;q23) are consistent with AML with MLLT3::KMT2A.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic or monoblastic leukemia without KMT2A rearrangement", "vs": "Morphology is indistinguishable, so karyotype or FISH for the KMT2A rearrangement is required to classify the case."},
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells have deeply basophilic cytoplasm with sharply defined lipid vacuoles, coarser chromatin and a high N:C ratio rather than gray-blue abundant monocytoid cytoplasm with folded nuclei."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows mature monocytes with clumped chromatin and <20% blasts plus promonocytes, whereas this field is dominated by immature fine-chromatin monoblasts."},
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL has bilobed or folded nuclei and strong MPO positivity with PML::RARA, whereas monoblasts are nonspecific esterase positive and MPO weak or negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

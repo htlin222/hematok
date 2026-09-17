@@ -1,0 +1,22 @@
+{
+  "id": "61100",
+  "recognize_zh": "低倍下可見保留的淋巴濾泡與穿入的玻璃樣化小血管（Castleman 樣變化），高倍則在小淋巴球背景中散布帶透明暈的大型細胞（Hodgkin/Reed-Sternberg 樣細胞），免疫染色中大型細胞核染色弱、膜/高基氏體區呈陽性。",
+  "features": [
+    "Low power: lymphoid follicle-like nodule with small hyalinized vessels traversing a mantle-like zone of small lymphocytes (Castleman-like architecture)",
+    "Scattered large mononuclear cells with abundant clear to pale cytoplasm and retraction halos (lacunar/Hodgkin-like cells)",
+    "Background of numerous small mature lymphocytes with interspersed vessels",
+    "Nuclear IHC (panel C): strong staining of background small lymphocytes with weak to absent staining in the large cells (pattern suggests dim PAX5 in HRS cells; antibody not labeled)",
+    "Membranous/Golgi-type IHC (panel D) highlighting the scattered large cells (pattern typical of CD30 or CD15; antibody not labeled)"
+  ],
+  "describe_en": "Lymph node sections show a nodular lymphoid proliferation with small hyalinized vessels penetrating follicle-like structures surrounded by small lymphocytes, reminiscent of hyaline-vascular Castleman disease. At higher power, scattered large cells with clear cytoplasmic halos resembling lacunar/Hodgkin cells are present in a mixed small-lymphocyte background. Immunostains show weak nuclear staining of the large cells relative to strongly positive small B cells, and membranous/Golgi-pattern positivity in the large cells; the specific antibodies are not labeled in the figure. Findings are consistent with classical Hodgkin lymphoma arising in a background of Castleman-like changes.",
+  "ddx": [
+    {"dx": "Hyaline-vascular Castleman disease alone", "vs": "Castleman disease lacks CD30+/CD15+ HRS cells with dim PAX5 and loss of CD45; the large atypical cells here argue for superimposed cHL."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "LP cells are CD20+/strong PAX5+, CD30-/CD15- with popcorn nuclei and sit in large B-cell nodules rather than showing lacunar halos."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "The large cells are strong CD20+/PAX5+ and CD30-/CD15-, set in a T-cell and histiocyte-rich background without follicular dendritic meshworks."},
+    {"dx": "Reactive follicular hyperplasia with immunoblasts", "vs": "Reactive immunoblasts are CD45+, strong PAX5+/CD20+ and at most variably CD30+, lacking the CD15+/dim PAX5 HRS phenotype."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (antibodies not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

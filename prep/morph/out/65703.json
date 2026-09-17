@@ -1,0 +1,22 @@
+{
+  "id": "65703",
+  "recognize_zh": "骨髓抹片中大型母細胞胞質豐富、灰藍色，內有許多細小空泡，核摺疊或腎形、染色質細緻，符合單核球性母細胞；在治療後 AML 中，這種單核球分化加上空泡要想到 KAT6A::CREBBP 融合。",
+  "features": [
+    "Large blasts with abundant grey-blue cytoplasm and low to moderate N:C ratio",
+    "Folded, reniform to irregular nuclei with fine, lacy chromatin; some with visible nucleoli",
+    "Numerous small cytoplasmic vacuoles in many blasts",
+    "Some cells with fine azurophilic cytoplasmic granulation",
+    "No definite Auer rods or erythrophagocytosis identified in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows numerous large blasts with abundant grey-blue cytoplasm, folded to reniform nuclei with fine chromatin, and conspicuous fine cytoplasmic vacuolation, with occasional fine azurophilic granules. The morphology indicates monocytic differentiation (monoblasts and promonocytes). Definite Auer rods or erythrophagocytosis are not seen in this field. In a patient with prior cytotoxic therapy and a KAT6A::CREBBP fusion, findings are consistent with acute myeloid leukemia post cytotoxic therapy with KAT6A::CREBBP fusion.",
+  "ddx": [
+    {"dx": "AML with KMT2A rearrangement", "vs": "KMT2A-rearranged AML also shows monocytic blasts, and separation relies on FISH/RNA sequencing rather than morphology."},
+    {"dx": "Microgranular acute promyelocytic leukemia", "vs": "Microgranular APL has bilobed, butterfly nuclei, strong MPO, occasional Auer rod bundles and PML::RARA, and lacks prominent vacuolated monocytic cytoplasm."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells are medium-sized with deeply basophilic cytoplasm and round nuclei with coarse chromatin, CD10+ B cells rather than NSE-positive monocytic blasts."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows mostly mature monocytes with fewer than 20% blasts and promonocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grunwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

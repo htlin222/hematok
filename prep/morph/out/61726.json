@@ -1,0 +1,20 @@
+{
+  "id": "61726",
+  "recognize_zh": "這是 blast gate 的 CD36 對 CD64 流式圖：綠色異常芽細胞群 CD36 陽性但 CD64 陰性，而少量紅色事件有 CD64 表現；BPDCN 常表現 CD36，但缺乏 CD64 可幫忙與單核球性白血病區分。",
+  "features": [
+    "Dot plot: CD36-FITC (x-axis) versus CD64-PE (y-axis), gated on blasts",
+    "Abnormal population (green) CD36-positive (moderate) and CD64-negative",
+    "Red events mostly CD36-negative/dim with a subset showing partial CD64 expression",
+    "Sparse CD36+/CD64+ red events consistent with residual monocytic cells",
+    "Absence of a coordinated CD64-bright/CD36-bright monocytic cluster in the abnormal population"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD36 versus CD64 gated on blasts shows the abnormal population (green) to be CD36-positive and CD64-negative. Red events are predominantly CD36-negative to dim with partial CD64 expression, and rare CD36/CD64 double-positive events likely represent residual monocytic cells. CD36 is frequently expressed by blastic plasmacytoid dendritic cell neoplasm, whereas lack of CD64 helps distinguish it from monocytic leukemia, which is usually CD64 and CD36 co-positive. This profile is compatible with BPDCN in conjunction with CD4, CD56 and bright CD123 expression.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Monocytic blasts are typically CD64-bright together with CD36, CD11b and CD14, unlike this CD64-negative population."},
+    {"dx": "Pure erythroid or megakaryoblastic leukemia", "vs": "These can be CD36-positive but express CD71/CD235a or CD41/CD61 and lack CD4/CD56/CD123-bright."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

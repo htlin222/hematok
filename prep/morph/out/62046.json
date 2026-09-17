@@ -1,0 +1,22 @@
+{
+  "id": "62046",
+  "recognize_zh": "紅色免疫染色下，一個模糊的大結節內有大量陽性小淋巴球，並可見多個由陽性細胞圍成的環狀結構包住中央未染色的大細胞（rosettes），這種包圍 LP 細胞的 T 細胞環是 NLPHL 的特徵線索。",
+  "features": [
+    "Vague large nodule with increased density of positive small lymphocytes compared with the surrounding zone",
+    "Multiple ring-like rosettes of positive cells encircling larger unstained central cells within the nodule",
+    "Membranous red chromogen staining of small lymphocytes; negative background small lymphocytes outside the nodule",
+    "Scattered positive cells in the internodular areas and around small vessels",
+    "Specific antibody not labeled; the rosetting pattern is typical of PD-1 or CD57 T follicular helper cells"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen, antibody not specified in the image) of lymph node at low-to-medium power shows a vaguely nodular area containing an increased density of positive small lymphocytes. Within the nodule, positive small cells form multiple ring-like rosettes surrounding larger unstained cells, a pattern characteristic of T follicular helper cells (PD-1/CD57) rimming LP cells. Scattered positive cells are also present in the internodular zone. Findings are consistent with nodular lymphocyte predominant Hodgkin lymphoma; the specific marker should be confirmed from the case record and LP cells highlighted with CD20, PAX5, OCT2 or BOB1.",
+  "ddx": [
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC nodules contain mantle-type small B cells with residual germinal center cells but lack LP cells ringed by PD-1+/CD57+ rosettes."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL is diffuse with scattered large B cells in a CD8+ T-cell and histiocyte background that usually lacks residual follicular dendritic meshworks and PD-1+ rosettes."},
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-rich", "vs": "LRCHL can show T-cell rosettes, but its HRS cells are CD30+/CD15+ and weak/negative for PAX5 with loss of OCT2/BOB1, unlike CD20+ LP cells."},
+    {"dx": "Follicular lymphoma", "vs": "Follicular lymphoma nodules are composed of neoplastic BCL2+ centrocytes and centroblasts without scattered large LP cells rimmed by rosettes."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (red chromogen)",
+  "match": "consistent",
+  "high_yield": false
+}

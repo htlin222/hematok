@@ -1,0 +1,22 @@
+{
+  "id": "61378",
+  "recognize_zh": "箭頭所指的淋巴球核呈深摺疊、腦迴狀（cerebriform）的分葉外觀，細胞質稀少，下方另一顆細胞也有類似扭曲摺疊的核，符合 Sézary 細胞。",
+  "features": [
+    "Small to medium lymphocytes (roughly 1-1.5 times erythrocyte diameter)",
+    "Markedly convoluted, cerebriform nuclei with deep grooves creating a lobulated, brain-like contour",
+    "Condensed, hyperchromatic chromatin; nucleoli not seen",
+    "Scant rim of pale blue cytoplasm, with faint cytoplasmic vacuolation in the lower cell",
+    "Background erythrocytes with rouleaux-like stacking in thicker area"
+  ],
+  "describe_en": "Peripheral blood smear shows atypical small to medium lymphocytes with deeply convoluted, cerebriform nuclei, condensed chromatin and a scant rim of pale cytoplasm (arrow and lower cell). No blasts or granular lymphocytes are present in the field. In the appropriate clinical setting of erythroderma and with a CD3+/CD4+ phenotype, often with loss of CD7 and/or CD26, these findings are consistent with Sézary cells of Sézary syndrome.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells are flower cells with polylobated, petal-like nuclei and are HTLV-1 positive, typically CD25 bright, rather than finely grooved cerebriform nuclei."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells have a single prominent nucleolus and cytoplasmic blebs, and are associated with TCL1A rearrangement."},
+    {"dx": "Reactive lymphocytes with nuclear folding (benign erythroderma, drug reaction)", "vs": "Small numbers of cerebriform cells occur in reactive states, so clonality and an aberrant CD4+ phenotype with CD7/CD26 loss are needed for diagnosis."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells have round nuclei with coarse block-like chromatin and B-cell phenotype (CD5+/CD23+) without nuclear convolutions."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

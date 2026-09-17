@@ -1,0 +1,22 @@
+{
+  "id": "61646",
+  "recognize_zh": "骨髓切片左側可見大片密集的早期紅血球前驅細胞（核大圓、染色質細緻、可見核分裂），右側則滿布含粉紅橘色顆粒的嗜酸性球，紅血球系早期細胞聚集加上嗜酸性球增多，是 PCM1::JAK2 骨髓/淋巴腫瘤的典型組合。",
+  "features": [
+    "Large cohesive sheets/clusters of early erythroid precursors with round nuclei, fine chromatin, and nucleoli",
+    "Frequent mitotic figures within the erythroid clusters",
+    "Moderate amphophilic cytoplasm with distinct cell borders in the erythroid sheets",
+    "Adjacent area with marked eosinophilia (orange-red granulated eosinophils and precursors)",
+    "Background granulocytic cells; sheets separated by delicate fibrovascular septa"
+  ],
+  "describe_en": "Bone marrow core biopsy at high power shows a hypercellular marrow with two striking components. On one side there are large cohesive clusters and sheets of early erythroid precursors with round nuclei, fine chromatin, nucleoli, and frequent mitoses, while the adjacent marrow contains markedly increased eosinophils and eosinophilic precursors. This combination of left-shifted erythroid proliferation and eosinophilia is characteristic of a myeloid/lymphoid neoplasm with PCM1::JAK2 fusion; confirmation by FISH/RT-PCR for t(8;9)(p22;p24.1) is required, and E-cadherin/CD71 immunostains can confirm the erythroid nature of the clusters.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Cohesive sheets can mimic carcinoma, but the cells here are erythroid (CD71/E-cadherin/glycophorin positive, cytokeratin negative) with admixed hematopoiesis."},
+    {"dx": "Pure erythroid leukemia", "vs": "Pure erythroid leukemia lacks the prominent eosinophilia and the PCM1::JAK2 rearrangement, and typically has complex karyotype/TP53 mutation."},
+    {"dx": "Myeloid/lymphoid neoplasm with PDGFRA/PDGFRB/FGFR1 rearrangement", "vs": "These also show eosinophilia but lack the clusters of early erythroid precursors; separation requires FISH for the specific rearrangement."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows atypical megakaryocytic clusters with fibrosis and JAK2 V617F, not eosinophilia with immature erythroid sheets."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

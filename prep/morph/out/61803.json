@@ -1,0 +1,21 @@
+{
+  "id": "61803",
+  "recognize_zh": "巨核細胞標記免疫染色中，中央一顆陽性巨核細胞含三個彼此分離的圓形小核，另有多顆小型、單核或低分葉的陽性巨核細胞散在，突顯巨核細胞發育不良。",
+  "features": [
+    "Megakaryocyte-marker IHC with strong granular cytoplasmic brown staining",
+    "Central megakaryocyte with three widely separated round nuclei",
+    "Several small mononuclear or hypolobated positive megakaryocytes (micromegakaryocyte range)",
+    "Irregular positive cytoplasmic fragments and platelet aggregates in the background",
+    "Surrounding negative hematopoietic cells with round to oval nuclei"
+  ],
+  "describe_en": "Immunohistochemical stain for a megakaryocytic marker (likely CD61 or CD42b; marker not labeled) on the bone marrow core highlights numerous megakaryocytes, including a form with three widely separated round nuclei and multiple small mononuclear or hypolobated megakaryocytes. Positive platelet aggregates and cytoplasmic fragments are scattered in the background. The stain accentuates dysplastic and small megakaryocytes that may be inconspicuous on H&E. Findings support megakaryocytic dysplasia in a myeloid neoplasm associated with germline GATA2 mutation.",
+  "ddx": [
+    {"dx": "Reactive megakaryocytes", "vs": "Reactive megakaryocytes are large with lobulated, connected nuclei and lack separated nuclei or micromegakaryocytes."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL shows sheets of CD61-positive blasts rather than scattered maturing dysplastic megakaryocytes."},
+    {"dx": "Myeloproliferative neoplasm", "vs": "MPN megakaryocytes are enlarged and hyperlobated or cloud-like, forming tight clusters, rather than small and multinucleated."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: megakaryocytic marker (likely CD61)",
+  "match": "consistent",
+  "high_yield": false
+}

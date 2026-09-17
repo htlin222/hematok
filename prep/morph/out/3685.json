@@ -1,0 +1,22 @@
+{
+  "id": "3685",
+  "recognize_zh": "骨髓抹片中有大量小型圓形、核深染、細胞質極少的成熟小淋巴球，數量明顯多於周圍的顆粒球與紅血球前驅細胞；細胞形態一致、成熟，未見芽細胞增加，符合淋巴球增生（lymphoid hyperplasia）的表現。",
+  "features": [
+    "Numerous small round cells with dense clumped chromatin and scant cytoplasm, mostly mature small lymphocytes",
+    "Lymphoid cells are monomorphic and mature without nucleoli or blast features",
+    "Admixed granulocytic precursors at various stages and scattered erythroid precursors",
+    "Some small dark cells may represent late normoblasts, which can be difficult to separate at this power",
+    "Background red cells with drying artifact; no blasts or atypical large cells identified"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular field with a conspicuous increase in small, mature-appearing lymphocytes with round, dense nuclei and scant cytoplasm. These are admixed with maturing granulocytic and erythroid precursors, and some small dark cells likely represent late normoblasts. No blasts, prolymphocytes, or atypical large lymphoid cells are identified. Findings are consistent with a marrow lymphocytosis/lymphoid hyperplasia; flow cytometry and biopsy review are needed to exclude a low-grade lymphoproliferative disorder such as CLL/SLL.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "Morphologically similar; separation requires flow cytometry showing a clonal CD5+/CD23+ B-cell population."},
+    {"dx": "Hematogone hyperplasia", "vs": "Hematogones have smoothly homogeneous chromatin and a spectrum of maturation on flow (CD10/CD34/CD20), common in children and post-chemotherapy."},
+    {"dx": "Late erythroid precursors (orthochromatic normoblasts)", "vs": "Normoblasts have pinker hemoglobinized cytoplasm and a jet-black pyknotic nucleus, often eccentric."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts show fine chromatin, nucleoli, and higher N:C ratio rather than mature clumped chromatin."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

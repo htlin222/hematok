@@ -1,0 +1,22 @@
+{
+  "id": "65343",
+  "recognize_zh": "薄層血液抹片中大量大小正常的紅血球內含細小纖細的環狀體（ring form），不少紅血球同時有兩到三個環，有些環貼在紅血球邊緣（appliqué form），寄生率高，是惡性瘧原蟲（P. falciparum）的典型表現。",
+  "features": [
+    "High parasitemia with numerous red cells containing delicate small ring forms",
+    "Multiple rings (two to three) within single red cells",
+    "Thin cytoplasmic rings with small chromatin dots; some double chromatin dots",
+    "Marginal (appliqué/accolé) forms at the red cell edge",
+    "Infected red cells not enlarged and without Schüffner dots; no trophozoites, schizonts or gametocytes seen in this field"
+  ],
+  "describe_en": "Thin peripheral blood smear shows a high parasitemia with numerous small, delicate ring-form trophozoites within normal-sized red cells. Many red cells contain multiple rings, and marginal (appliqué) forms and double chromatin dots are present. Infected red cells are not enlarged and lack stippling, and no mature trophozoites, schizonts or gametocytes are identified in this field. Findings are consistent with Plasmodium falciparum infection; parasitemia should be quantified promptly because high parasite density defines severe malaria.",
+  "ddx": [
+    {"dx": "Babesia species", "vs": "Babesia rings are pleomorphic, can form extracellular clusters and tetrad 'Maltese cross' forms, and lack hemozoin pigment and gametocytes."},
+    {"dx": "Plasmodium vivax / ovale", "vs": "Infected red cells are enlarged with Schüffner dots, rings are thicker, and all asexual stages are seen in the peripheral blood."},
+    {"dx": "Plasmodium knowlesi", "vs": "Early rings can mimic P. falciparum, but band forms and mature schizonts in blood and PCR distinguish it."},
+    {"dx": "Platelets overlying red cells (artifact)", "vs": "Overlying platelets lack a cytoplasmic ring with a discrete chromatin dot and lie in a different focal plane."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

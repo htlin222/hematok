@@ -1,0 +1,21 @@
+{
+  "id": "64922",
+  "recognize_zh": "巨噬細胞的細胞質布滿大小不一的空泡，內含一顆深染、濃縮的有核細胞核（被吞噬的淋巴球或紅血球前驅細胞），旁邊另有一個含淡染被吞噬紅血球的空泡，巨噬細胞本身有不規則形細胞核，為典型吞噬血球現象。",
+  "features": [
+    "Large macrophage with abundant, extensively vacuolated (foamy) grey-purple cytoplasm",
+    "Engulfed nucleated cell with a dense, round, pyknotic nucleus (lymphocyte or erythroblast) within the cytoplasm",
+    "Clear phagocytic vacuole containing a pale ingested red cell",
+    "Macrophage nucleus irregular and elongated with fine, open chromatin",
+    "Surrounding red cells and scattered platelets, some adherent to the macrophage surface"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large macrophage with abundant foamy, vacuolated cytoplasm and an irregular, elongated nucleus with fine chromatin. The cytoplasm contains an engulfed nucleated cell with a dense pyknotic nucleus and a separate vacuole containing a phagocytosed red cell. Platelets are scattered in the background and adherent to the cell. No atypical lymphoma cells are present in this field. Findings are consistent with hemophagocytosis, in keeping with immune effector cell-associated HLH-like syndrome after CAR T-cell therapy in the appropriate clinical context.",
+  "ddx": [
+    {"dx": "Tingible body macrophage", "vs": "Tingible body macrophages contain fragmented apoptotic nuclear debris, whereas this macrophage contains an intact whole nucleated cell and a red cell."},
+    {"dx": "Gaucher or foamy storage histiocyte", "vs": "Storage cells have wrinkled tissue-paper (Gaucher) or uniformly foamy lipid-laden cytoplasm without ingested intact blood cells."},
+    {"dx": "Metastatic signet ring or vacuolated tumor cell", "vs": "Tumor cells show nuclear atypia and cohesive clusters with mucin vacuoles, not a bland histiocytic nucleus with phagocytosed blood cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

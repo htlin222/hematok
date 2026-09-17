@@ -1,0 +1,20 @@
+{
+  "id": "62369",
+  "recognize_zh": "CD5 染色中擴張的外套層細胞呈大片、強而一致的膜狀陽性，而生發中心內只有散在陽性 T 細胞；因 CD3 在外套層是陰性，表示這些 CD5 陽性細胞是異常 B 細胞。",
+  "features": [
+    "Dense, uniform membranous CD5 staining of the expanded mantle zone population",
+    "Pale germinal centers containing only scattered CD5-positive T cells",
+    "Interfollicular areas with loosely scattered positive cells",
+    "Staining intensity in mantle zones comparable to T cells, in a sheet-like distribution"
+  ],
+  "describe_en": "Immunohistochemical stain for CD5 shows strong membranous staining of the monotonous lymphoid population filling the expanded mantle zones, while germinal centers contain only scattered CD5-positive T cells. Because the mantle zone cells are CD3-negative and CD20-positive on companion stains, the CD5 expression represents aberrant co-expression on B cells. Findings are consistent with mantle cell lymphoma with a mantle zone growth pattern, to be confirmed with cyclin D1 or SOX11.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL is CD5+ but CD23+ LEF1+ with proliferation centers and a diffuse pattern, and lacks cyclin D1/SOX11."},
+    {"dx": "T-cell-rich reactive paracortical hyperplasia", "vs": "Reactive CD5+ cells are T cells that co-express CD3 and are located in the paracortex rather than filling mantle zones."},
+    {"dx": "CD5-positive marginal zone lymphoma", "vs": "Rare MZL is CD5+ but lacks cyclin D1 and SOX11 and shows marginal zone/monocytoid expansion outside the mantle."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD5",
+  "match": "consistent",
+  "high_yield": false
+}

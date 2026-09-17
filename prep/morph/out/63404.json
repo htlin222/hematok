@@ -1,0 +1,21 @@
+{
+  "id": "63404",
+  "recognize_zh": "肝臟針刺切片的 CD71 免疫染色中，淡色的肝細胞板背景下，散佈許多深棕色陽性的小細胞團，位於肝竇內並呈點狀或串狀分布，代表肝內的紅血球系造血島，符合髓外造血（extramedullary hematopoiesis）。",
+  "features": [
+    "Liver core biopsy with background hepatocyte plates showing only faint staining",
+    "Numerous discrete clusters of strongly CD71-positive cells within sinusoids",
+    "Positive cells form small round clusters and linear cords along the sinusoidal pattern",
+    "Larger confluent positive aggregates toward the lower left of the core",
+    "Distribution throughout the lobule without mass-forming lesion"
+  ],
+  "describe_en": "Immunohistochemical stain for CD71 on a liver core biopsy shows numerous small clusters and cords of strongly positive cells distributed within the sinusoids throughout the parenchyma, while the hepatocytes are essentially negative. The positive cells correspond to erythroid precursor islands. Findings confirm erythroid extramedullary hematopoiesis in the liver, consistent with the clinical setting of post-polycythemic myelofibrosis.",
+  "ddx": [
+    {"dx": "Hepatosplenic T-cell lymphoma or other sinusoidal lymphoma", "vs": "Sinusoidal lymphoma cells are CD3 or CD20 positive and CD71 negative, forming a monotonous rather than erythroid-cluster infiltrate."},
+    {"dx": "Leukemic sinusoidal infiltration", "vs": "Leukemic blasts express CD34/CD117 or MPO rather than CD71 in discrete erythroid islands with admixed megakaryocytes."},
+    {"dx": "Kupffer cell hyperplasia", "vs": "Kupffer cells are CD68/CD163 positive and scattered singly rather than forming CD71-positive clusters."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD71",
+  "match": "consistent",
+  "high_yield": false
+}

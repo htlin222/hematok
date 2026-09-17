@@ -1,0 +1,21 @@
+{
+  "id": "61579",
+  "recognize_zh": "流式圖中紅色母細胞群 CD10 一致陽性（10^1–10^2）、CD58 弱至中度陽性，形成與紫色 CD10 陰性正常細胞分開的緊密群；CD58 常用於 B-ALL 殘存疾病（MRD）與正常 hematogone 的區分。",
+  "features": [
+    "Bivariate dot plot: CD10-APC700 (x-axis) versus CD58-FITC (y-axis), log scales",
+    "Red (blast-gated) population forms a tight cluster that is uniformly CD10-positive",
+    "Blasts express CD58 at dim-to-moderate intensity with a diagonal upward trend",
+    "Purple CD10-negative background population with overlapping CD58 intensity",
+    "Scattered red events in the CD10-negative region (likely gating overlap)"
+  ],
+  "describe_en": "This flow cytometry dot plot displays CD10 versus CD58. The gated blast population (red) forms a tight, uniformly CD10-positive cluster with dim-to-moderate CD58 expression, clearly separated from the CD10-negative background events (purple), which show similar to slightly lower CD58. The homogeneous CD10-positive population supports a precursor B-cell phenotype. CD58 overexpression relative to normal hematogones is a recognized leukemia-associated aberrancy in B-ALL MRD panels, but without a normal B-precursor reference population on this plot, the degree of overexpression cannot be judged from this image alone.",
+  "ddx": [
+    {"dx": "Hematogones", "vs": "Normal B precursors show a maturation continuum of CD10 with relatively lower CD58, whereas leukemic blasts tend to show brighter CD58 in a compact cluster."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "CD10-positive mature B cells with bright CD20 and surface light-chain restriction, lacking CD34/TdT."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "May be CD10-positive but expresses cytoplasmic CD3 and lacks CD19/cCD79a."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

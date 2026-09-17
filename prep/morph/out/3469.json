@@ -1,0 +1,21 @@
+{
+  "id": "3469",
+  "recognize_zh": "單一形態的前骨髓細胞成片出現，細胞質充滿粗大紫紅色顆粒、蓋住核邊界，核呈折疊或雙葉狀，且缺乏後續成熟階段的細胞，較符合 APL 而非反應性骨髓的左移。",
+  "features": [
+    "Monotonous sheet of large cells with abundant cytoplasm packed with coarse azurophilic granules",
+    "Granules often overlie and obscure nuclear borders",
+    "Nuclei folded, reniform, or bilobed with fine chromatin",
+    "Lack of an orderly spectrum of maturing myelocytes, metamyelocytes, and neutrophils",
+    "No distinct perinuclear Golgi hof in most cells; Auer rods not clearly seen in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a monotonous population of large promyelocyte-like cells with abundant cytoplasm containing coarse azurophilic granules that obscure nuclear borders, and folded to bilobed nuclei with fine chromatin. Normal granulocytic maturation is not evident, and only rare small lymphoid or erythroid cells are present. Definite Auer rods are not identified in this field. In this look-alike comparison, the features favor acute promyelocytic leukemia over a reactive promyelocyte-rich marrow; PML::RARA testing is required.",
+  "ddx": [
+    {"dx": "Reactive marrow with promyelocyte predominance (e.g., recovery after G-CSF or agranulocytosis)", "vs": "Reactive promyelocytes have round nuclei, a well-defined Golgi hof, and show synchronous maturation to later stages without Auer rods or bilobed nuclei."},
+    {"dx": "AML with maturation", "vs": "AML with maturation has a distinct population of agranular blasts with maturation, rather than a sheet of hypergranular abnormal promyelocytes."},
+    {"dx": "Microgranular (hypogranular) APL variant", "vs": "The microgranular variant shows bilobed nuclei with sparse or dust-like granules, whereas this field shows heavy coarse granulation."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

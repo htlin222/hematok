@@ -1,0 +1,31 @@
+{
+  "id": "8",
+  "recognize_zh": "周邊血與骨髓可見細緻染色質、有核仁的芽細胞（blasts），同時有多核／核碎裂的紅血球前驅細胞與核分離的巨核細胞，屬多系發育不良；流式細胞儀芽細胞為 CD34+CD117+CD13+、部分 MPO+，核型為 -7（箭頭），符合具骨髓發育不良相關變化的 AML（AML-MRC）。",
+  "features": [
+    "Blasts: medium to large cells with high N:C ratio, fine dispersed chromatin, prominent nucleoli and scant to moderate basophilic cytoplasm, present in blood and marrow",
+    "Dyserythropoiesis: erythroid precursor with multinucleation/nuclear budding (four to five nuclear fragments)",
+    "Dysmegakaryopoiesis: megakaryocytes with multiple widely separated round nuclei on aspirate and biopsy",
+    "Flow cytometry: CD45-dim, low side scatter population positive for CD34, CD117, CD13, with partial MPO and dim/partial CD33, negative for CD15, CD19, CD7 and CD3",
+    "Karyotype: loss of one chromosome 7 (monosomy 7), an MDS-defining abnormality"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts with fine chromatin and scant basophilic cytoplasm, with mild red cell poikilocytosis. The bone marrow aspirate contains increased myeloblasts accompanied by multilineage dysplasia, including multinucleated erythroid precursors and megakaryocytes with multiple separated nuclei, the latter also evident on the core biopsy. Flow cytometry identifies a CD45-dim, low side scatter myeloblast population expressing CD34, CD117, CD13 and partial MPO, without CD15, CD7 or lymphoid markers. Karyotype shows monosomy 7. Findings are consistent with acute myeloid leukemia with myelodysplasia-related changes (AML-MR in WHO 5th edition), provided blasts are at least 20% and prior cytotoxic therapy is excluded.",
+  "ddx": [
+    {"dx": "MDS with excess blasts (MDS-EB2 / MDS-IB2)", "vs": "Shows the same dysplasia and immunophenotype but blasts are below 20% of marrow nucleated cells, so a blast count determines the category."},
+    {"dx": "Therapy-related myeloid neoplasm", "vs": "Morphology and monosomy 7 can be identical, and only a history of prior cytotoxic chemotherapy or radiation separates it."},
+    {"dx": "AML with NPM1 mutation with multilineage dysplasia", "vs": "Frequently CD34-negative with cup-like nuclei and normal karyotype, and NPM1 mutation takes precedence over dysplasia-based classification."},
+    {"dx": "Megaloblastic anemia", "vs": "Can show multinucleated erythroid precursors and nuclear abnormalities, but lacks increased CD34+ blasts and clonal cytogenetics and corrects with B12/folate."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, flow cytometry, karyotype",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: circulating blast",
+    "Bone marrow aspirate: blasts with erythroid precursors and a multilobated erythroid form",
+    "Bone marrow aspirate: multinucleated erythroid precursor (dyserythropoiesis) and blasts",
+    "Bone marrow aspirate: megakaryocyte with widely separated nuclei",
+    "Core biopsy: dysplastic megakaryocytes with separated nuclear lobes",
+    "Flow cytometry: CD34+, CD117+, CD13+, partial MPO+ myeloblasts (red)",
+    "Karyotype: monosomy 7 (arrow)"
+  ]
+}

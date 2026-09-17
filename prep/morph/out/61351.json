@@ -1,0 +1,22 @@
+{
+  "id": "61351",
+  "recognize_zh": "ZAP-70 免疫染色中，成片的小型 CLL 細胞呈較淡的棕色染色，而散在的反應性 T 細胞呈深棕色強陽性，兩者強度對比明顯；判讀時應以內部 T 細胞為對照來評估 CLL 細胞表現量。",
+  "features": [
+    "Diffuse sheets of small, monotonous round lymphocytes",
+    "Majority of neoplastic cells with weak to moderate nuclear and cytoplasmic ZAP-70 staining",
+    "Scattered cells with strong dark brown ZAP-70 staining, consistent with admixed normal T cells (internal positive control)",
+    "Interspersed unstained cells with blue hematoxylin counterstain",
+    "No large cells or proliferation centers identifiable at this magnification"
+  ],
+  "describe_en": "Section shows a diffuse infiltrate of small monotonous lymphocytes. ZAP-70 immunostain shows weaker staining in the neoplastic cells compared with scattered strongly positive background T cells, which serve as an internal positive control. Immunohistochemical ZAP-70 assessment is semiquantitative and poorly standardized; in a case otherwise established as chronic lymphocytic leukemia/small lymphocytic lymphoma (CD5+, CD23+, LEF1+), dim ZAP-70 favors a mutated IGHV profile, which is better determined directly by IGHV sequencing.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Also a small CD5+ B-cell lymphoma, but cells have irregular nuclei and are cyclin D1 and SOX11 positive, CD23 negative."},
+    {"dx": "Reactive T-cell-rich infiltrate", "vs": "A T-cell-predominant population would show uniformly strong ZAP-70 with CD3 positivity, rather than a dim B-cell sheet with scattered bright cells."},
+    {"dx": "Marginal zone lymphoma", "vs": "Marginal zone cells are typically CD5 and LEF1 negative with monocytoid or plasmacytic features and marginal zone pattern."},
+    {"dx": "Follicular lymphoma", "vs": "Shows a follicular architecture with CD10+/BCL6+ centrocytes and centroblasts, not diffuse sheets of round small lymphocytes."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: ZAP-70",
+  "match": "consistent",
+  "high_yield": false
+}

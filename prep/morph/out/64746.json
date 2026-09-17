@@ -1,0 +1,22 @@
+{
+  "id": "64746",
+  "recognize_zh": "中央一個大型巨噬細胞，細胞質內可見被吞入的完整紅血球輪廓、多顆洋紅色小顆粒（被吞噬的血小板）與少量深色顆粒，本身核被推擠，這就是吞噬血球現象（hemophagocytosis）。",
+  "features": [
+    "Large macrophage with abundant pale blue, vacuolated cytoplasm and irregular cell border",
+    "Several intact ingested erythrocytes within cytoplasmic vacuoles",
+    "Numerous small magenta/purple granular bodies consistent with phagocytosed platelets, plus a few dark blue-black granules (possible hemosiderin/debris)",
+    "Macrophage nucleus/nuclei with open chromatin, partly obscured by ingested material",
+    "Background of maturing myeloid cells (promyelocyte/myelocyte, band and segmented neutrophils), lymphocytes and erythrocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large macrophage with abundant vacuolated cytoplasm containing several intact phagocytosed erythrocytes and numerous small magenta granular bodies consistent with ingested platelets, together with a few dark pigment granules. The surrounding marrow shows maturing granulocytic precursors, neutrophils and lymphocytes without increased blasts in this field. The findings represent hemophagocytosis; since hemophagocytic histiocytes are nonspecific, correlation with HLH-2004 clinical and laboratory criteria (fever, cytopenias, ferritin, triglycerides, fibrinogen, soluble CD25) is required.",
+  "ddx": [
+    {"dx": "Macrophage with ingested pigment or debris (e.g., after transfusion or iron overload)", "vs": "Iron-laden macrophages contain coarse blue-black hemosiderin confirmed by Prussian blue rather than intact erythrocytes and platelets."},
+    {"dx": "Tingible body macrophage/apoptotic debris", "vs": "Tingible body macrophages contain dense pyknotic nuclear fragments rather than intact red cells and platelets."},
+    {"dx": "Intracellular organisms (Histoplasma, Leishmania)", "vs": "Organisms are uniform small oval bodies with a halo or kinetoplast, whereas platelet granules are irregular magenta granular clumps without internal structure."},
+    {"dx": "Malignant histiocytosis/histiocytic sarcoma", "vs": "Neoplastic histiocytes are cytologically atypical with nucleoli and form sheets, while this is a single bland macrophage in a normal-appearing marrow background."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

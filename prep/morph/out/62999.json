@@ -1,0 +1,30 @@
+{
+	"id": "62999",
+	"recognize_zh": "CD117 免疫染色可見成片、成束排列的紡錘形細胞呈強烈細胞質/膜陽性，細胞質內顆粒狀染色，符合非典型紡錘形肥大細胞浸潤（系統性肥大細胞增生症）。",
+	"features": [
+		"Dense, strongly CD117-positive infiltrate forming sheets and streaming fascicles",
+		"Positive cells are predominantly spindled/elongated, with granular cytoplasmic and membranous staining",
+		"Occasional rounder positive cells at the edge of the infiltrate",
+		"Adjacent areas of CD117-negative small round cells with blue counterstain",
+		"Infiltrate is cohesive and aggregate-forming rather than scattered single cells"
+	],
+	"describe_en": "CD117 immunostain shows a dense infiltrate of strongly positive cells arranged in sheets and streaming fascicles. The positive cells are predominantly spindle-shaped with granular cytoplasmic and membranous staining, while adjacent small round cells are negative. Findings are consistent with an aggregate of atypical spindled mast cells, supporting the major criterion of systemic mastocytosis when correlated with tryptase and CD25/CD2 co-expression.",
+	"ddx": [
+		{
+			"dx": "Reactive mast cell hyperplasia",
+			"vs": "Reactive mast cells are scattered, round and non-aggregated (not dense clusters of >=15 cells) and are CD25-negative."
+		},
+		{
+			"dx": "Gastrointestinal stromal tumor",
+			"vs": "GIST is also CD117+ spindle-cell but is DOG1+, tryptase-negative and occurs as a soft-tissue mass rather than a hematolymphoid infiltrate."
+		},
+		{
+			"dx": "Myeloid sarcoma / CD117+ AML",
+			"vs": "Blasts are round with fine chromatin and co-express CD34/MPO, and are tryptase-negative, unlike spindled mast cells."
+		}
+	],
+	"specimen": "BM biopsy",
+	"stain": "IHC: CD117",
+	"match": "consistent",
+	"high_yield": false
+}

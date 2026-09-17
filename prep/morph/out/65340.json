@@ -1,0 +1,22 @@
+{
+  "id": "65340",
+  "recognize_zh": "畫面中央的嗜中性球核分成六葉以上（hypersegmented neutrophil），周圍紅血球大小不一，可見卵圓形紅血球（ovalocyte）與淚滴細胞（dacrocyte），部分中央淡染區擴大，符合維生素 B12／葉酸缺乏。",
+  "features": [
+    "Central neutrophil with six or more discrete nuclear lobes (hypersegmentation)",
+    "Neutrophil cytoplasm with fine pink granules, normal cell size",
+    "Red cells with anisopoikilocytosis including ovalocytes/elliptocytes and teardrop cells",
+    "Many red cells with enlarged central pallor (hypochromia) and some red cell fragments",
+    "Occasional platelet at edge; no nucleated red cells in field"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil with six or more nuclear lobes, meeting criteria for hypersegmentation. Red cells display anisopoikilocytosis with oval to elliptical forms, teardrop cells, occasional fragments, and many cells with increased central pallor, suggesting coexisting iron deficiency or a dimorphic picture. No blasts or nucleated red cells are seen in this field. Findings are consistent with megaloblastic anemia due to vitamin B12 and/or folate deficiency, possibly with concomitant iron deficiency; serum B12, folate, methylmalonic acid and iron studies are recommended.",
+  "ddx": [
+    {"dx": "Hereditary neutrophil hypersegmentation", "vs": "An inherited benign trait with hypersegmentation in otherwise normal blood and no macro-ovalocytes or anemia."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS more often shows hyposegmented (pseudo-Pelger) or hypogranular neutrophils, and B12/folate levels are normal."},
+    {"dx": "Drug effect (hydroxyurea, methotrexate, antiretrovirals)", "vs": "Morphology is identical, so medication history and normal vitamin levels separate it."},
+    {"dx": "Iron deficiency anemia alone", "vs": "Hypochromic microcytes and pencil cells may show mild hypersegmentation, but macro-ovalocytes are absent and MCV is low."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61997",
+  "recognize_zh": "間期細胞核 FISH（TBL1XR1 綠色／TP63 紅色雙色融合探針）中，箭頭所指兩處紅綠重疊的黃色融合訊號，表示 TBL1XR1 與 TP63 發生融合；這是 TP63 重排 ALK 陰性 ALCL 最常見的融合伙伴，常由 3 號染色體倒位 inv(3)(q26q28) 造成。",
+  "features": [
+    "Interphase nucleus (DAPI, grey) hybridized with TBL1XR1 (green) and TP63 (red) dual-color dual-fusion probes",
+    "Two yellow/overlapping red-green fusion signals (arrows) indicating TBL1XR1-TP63 fusion",
+    "Additional separate red signals (2) and multiple separate green signals (4) in the nucleus",
+    "Extra green signals suggest additional copies of the TBL1XR1 region or aneuploidy",
+    "Non-morphologic image: interpretation based on signal pattern, not cytology"
+  ],
+  "describe_en": "Interphase fluorescence in situ hybridization using TBL1XR1 (green) and TP63 (red) dual-color dual-fusion probes shows two yellow fusion signals (arrows), together with separate red and green signals, including additional green signals that may reflect extra copies of the TBL1XR1 locus. Normal nuclei would show two separate red and two separate green signals without fusion. The presence of fusion signals indicates a TBL1XR1-TP63 rearrangement, the most common TP63 fusion (typically via inv(3)(q26q28)). In the context of a CD30-positive, ALK-negative lymphoma with diffuse p63 expression, this confirms TP63-rearranged ALK-negative anaplastic large cell lymphoma, an aggressive subgroup.",
+  "ddx": [
+    {"dx": "DUSP22 (IRF4) rearranged ALK-negative ALCL", "vs": "Detected with DUSP22 break-apart probes at 6p25 and associated with p63 negativity and better prognosis, whereas this study shows TBL1XR1-TP63 fusion."},
+    {"dx": "ALK-positive ALCL with NPM1-ALK t(2;5)", "vs": "Detected with ALK break-apart probes and ALK immunostain positivity, both absent in this case."},
+    {"dx": "False-positive fusion from random signal overlap", "vs": "Chance colocalization occurs in a small percentage of normal nuclei; a validated cutoff across ≥100-200 scored nuclei is required."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: TBL1XR1/TP63 dual-fusion probe",
+  "match": "non-morphologic",
+  "high_yield": false
+}

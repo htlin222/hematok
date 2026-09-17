@@ -1,0 +1,22 @@
+{
+  "id": "60047",
+  "recognize_zh": "中央一顆嗜中性球的細胞核分成約 7–8 個分葉，遠超過正常的 3–4 葉（≥6 葉即明確過度分葉），細胞質仍有正常細小顆粒，這就是過度分葉嗜中性球（hypersegmented neutrophil）。",
+  "features": [
+    "Single mature neutrophil, slightly larger than usual (macropolycyte-range size, roughly 1.5-2x RBC diameter)",
+    "Nucleus divided into approximately 7-8 discrete lobes connected by thin chromatin strands",
+    "Coarse, condensed chromatin in each lobe; no nucleoli",
+    "Pale pink-lilac cytoplasm with fine, evenly distributed neutrophilic granules; no toxic granulation or vacuoles",
+    "Background red cells are normochromic without obvious macro-ovalocytes in this limited field"
+  ],
+  "describe_en": "Peripheral blood smear, high power, shows a mature neutrophil with marked nuclear hypersegmentation, with approximately seven to eight nuclear lobes. The cytoplasm contains fine neutrophilic granules without toxic changes, Döhle bodies, or vacuolization. The surrounding red cells in this small field are round and normochromic; macro-ovalocytes are not evident, and the red cell indices and a full smear review would be needed to assess for megaloblastic changes. Findings are consistent with a hypersegmented neutrophil, as seen in megaloblastic anemia (vitamin B12 or folate deficiency).",
+  "ddx": [
+    {"dx": "Normal segmented neutrophil", "vs": "A normal neutrophil has 3-4 lobes, whereas this cell has well over five (a single 6-lobed neutrophil or >5% with 5 lobes defines hypersegmentation)."},
+    {"dx": "Inherited (hereditary) neutrophil hypersegmentation", "vs": "Morphologically identical, but it is a benign familial finding with normal B12/folate levels and no macrocytosis or megaloblastic marrow."},
+    {"dx": "Drug-related or myelodysplastic hypersegmentation (e.g., hydroxyurea, methotrexate, MDS)", "vs": "Cannot be separated on one cell; clinical drug history, B12/folate levels, and other dysplastic features (hypogranulation, pseudo-Pelger cells) discriminate."},
+    {"dx": "Apoptotic or degenerating neutrophil with nuclear fragmentation", "vs": "Apoptotic cells show dense, round, pyknotic fragments without connecting filaments, whereas these lobes retain normal chromatin texture and filamentous connections."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

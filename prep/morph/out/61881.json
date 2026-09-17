@@ -1,0 +1,22 @@
+{
+  "id": "61881",
+  "recognize_zh": "漿膜腔積液中大量嗜中性球背景下，出現吞噬多個嗜中性球的大型細胞，其胞質深藍、形態近似反應性間皮細胞；免疫染色 calretinin 陽性而 CD163 陰性，證實是具吞噬能力的間皮細胞而非巨噬細胞。",
+  "features": [
+    "Neutrophil-rich serous effusion background",
+    "Large cell with dense deeply basophilic cytoplasm containing multiple engulfed neutrophils (phagocytosing mesothelial cell)",
+    "Adjacent smaller reactive mesothelial cell with round nucleus and basophilic cytoplasm, and a pale vacuolated macrophage for comparison",
+    "Cell block with large cells containing phagocytosed neutrophils (circled)",
+    "Phagocytic cell calretinin positive and CD163 negative, whereas surrounding macrophages are CD163 positive"
+  ],
+  "describe_en": "Composite of a serous effusion specimen. The cytospin (A) shows a neutrophil-rich background with a large cell bearing dense basophilic cytoplasm that contains several engulfed neutrophils, alongside a reactive mesothelial cell and a paler macrophage for comparison. The cell block section (B) shows similar large cells with intracytoplasmic neutrophils (circled). Immunohistochemistry demonstrates that the phagocytic cell is calretinin positive (C) and CD163 negative (D), while background macrophages are CD163 positive. Findings are consistent with reactive mesothelial cells showing phagocytic activity in an acute inflammatory (septic) effusion; no malignant cells are evident.",
+  "ddx": [
+    {"dx": "Macrophage (histiocyte) with phagocytosis", "vs": "Macrophages have pale, foamy or vacuolated cytoplasm and are CD163/CD68 positive and calretinin negative, the opposite of this cell's profile."},
+    {"dx": "Metastatic carcinoma with emperipolesis", "vs": "Carcinoma cells form cohesive clusters with nuclear atypia and express epithelial markers (MOC31, BerEP4, claudin-4) rather than calretinin."},
+    {"dx": "Malignant mesothelioma", "vs": "Mesothelioma shows large atypical clusters/morulae with BAP1 loss or CDKN2A deletion, whereas these are isolated reactive mesothelial cells in an inflammatory background."},
+    {"dx": "Hemophagocytic histiocyte", "vs": "Hemophagocytic cells engulf red cells, platelets and nucleated hematopoietic cells and are CD163 positive, typically in HLH, rather than a calretinin-positive cell engulfing neutrophils."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa; H&E; IHC: calretinin, CD163",
+  "match": "consistent",
+  "high_yield": false
+}

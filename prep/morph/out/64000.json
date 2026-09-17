@@ -1,0 +1,22 @@
+{
+  "id": "64000",
+  "recognize_zh": "周邊血抹片背景中散見數條細長、弧形或針狀、淡藍灰色的細胞外結晶，最長可橫跨數個紅血球，旁邊紅血球有輕度成串（rouleaux），在漿細胞白血病情境下為免疫球蛋白結晶。",
+  "features": [
+    "Several extracellular elongated, curved, needle- to sickle-shaped pale blue-gray crystals spanning multiple red cell diameters",
+    "Some crystals branch or fragment (right field)",
+    "Mild rouleaux formation and occasional stacked red cells",
+    "Scattered red cells with small dark punctate dots, possibly stain precipitate or overlying platelets",
+    "No nucleated cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows several extracellular, elongated, curved and needle-shaped pale blue-gray crystalline structures measuring several red cell diameters in length, some with branching or fragmented ends. Red cells show mild rouleaux formation, and small dark punctate dots overlie some red cells, likely representing precipitate. No nucleated cells are present in this field. In a patient with plasma cell leukemia, these structures are consistent with extracellular immunoglobulin (paraprotein) crystals, which may precipitate on cooling (cryocrystalglobulin).",
+  "ddx": [
+    {"dx": "Cholesterol or drug crystals", "vs": "Cholesterol crystals are flat notched rhomboid plates rather than curved needles, and drug crystals require a medication history; composition may need special studies."},
+    {"dx": "Stain precipitate or debris/fibers", "vs": "Precipitate is granular and fibers are refractile with uneven thickness and lie on a different focal plane, whereas these crystals are smooth, tapered, and uniformly stained."},
+    {"dx": "Bacterial or fungal filaments", "vs": "Microorganisms show segmented or beaded morphology, septation, or budding and are typically intracellular in neutrophils in sepsis."},
+    {"dx": "Hemoglobin C crystals", "vs": "HbC crystals are dense, blunt-ended hexagonal rods located inside red cells, not long extracellular pale blue needles."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

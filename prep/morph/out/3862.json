@@ -1,0 +1,21 @@
+{
+  "id": "3862",
+  "recognize_zh": "這個視野以紅血球為主，箭頭指著一顆明顯比旁邊淋巴球大的異常細胞，核大、染色質細緻、胞質中等藍色；單看這一顆只能說是非典型大淋巴樣細胞，需要配合其他視野才能支持 DLBCL 侵犯。",
+  "features": [
+    "Single large atypical mononuclear cell (arrow) with high N:C ratio",
+    "Large round to slightly irregular nucleus with finely granular chromatin",
+    "Moderate rim of pale to medium blue agranular cytoplasm",
+    "Field is predominantly red cells with a normal-appearing lymphocyte/monocytoid cell at top right for size comparison",
+    "Hematopoietic precursors are scarce in this field, limiting assessment of marrow involvement"
+  ],
+  "describe_en": "Smear from the stated bone marrow aspirate shows a blood-rich field with only rare nucleated cells, including a large atypical mononuclear cell (arrow) with a high N:C ratio, finely granular chromatin and a moderate rim of agranular blue cytoplasm. A smaller mononuclear cell at the upper right provides size comparison. Hematopoietic precursors are sparse, so this field is hemodiluted and resembles peripheral blood. A single atypical large cell is suggestive of but not diagnostic for involvement by large B-cell lymphoma; evaluation of cellular particles, flow cytometry and core biopsy are required.",
+  "ddx": [
+    {"dx": "Blast of acute leukemia", "vs": "A single large cell cannot be separated from a blast by morphology alone; CD34/TdT versus CD19/CD20 with light chain restriction on flow cytometry resolves it."},
+    {"dx": "Reactive monocyte or large granular lymphocyte", "vs": "Monocytes have folded nuclei and gray-blue vacuolated cytoplasm, and LGLs have azurophilic granules, both absent in this cell."},
+    {"dx": "Normal hematogone or promyelocyte", "vs": "Hematogones are smaller with homogeneous chromatin and scant cytoplasm, and promyelocytes contain abundant azurophilic granules."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

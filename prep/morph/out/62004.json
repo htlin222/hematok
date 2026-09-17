@@ -1,0 +1,21 @@
+{
+  "id": "62004",
+  "recognize_zh": "與同病例另一張染色相比，此圖只有部分細胞呈深藍色細胞質訊號，多數細胞只有淡紅色核對比染色；配對的輕鏈原位雜交中，一邊一致陽性、另一邊僅少數陽性，即代表輕鏈限制（light-chain restriction），但探針未標示。",
+  "features": [
+    "Cellular marrow section with pink nuclear counterstain",
+    "Subset of cells with dark blue cytoplasmic granular signal, often perinuclear",
+    "Majority of cells negative for the signal",
+    "Positive cells scattered and in small groups rather than diffuse sheets",
+    "Probe/antigen not labeled; morphology limited by the preparation"
+  ],
+  "describe_en": "Section of bone marrow stained with a chromogenic in situ hybridization or immunostain (dark blue chromogen, pink counterstain; probe not labeled) shows positive cytoplasmic signal in a subset of cells, while most cells in the field are negative. The positive cells are scattered and in small groups. When compared with the companion stain showing diffuse positivity, this pattern is consistent with the non-restricted light chain in a light-chain-restricted plasma cell neoplasm; the image does not demonstrate cyclin D1 itself, and probe identity should be verified in the referenced case.",
+  "ddx": [
+    {"dx": "Polytypic reactive plasmacytosis", "vs": "Reactive infiltrates show comparable numbers of kappa and lambda cells in a normal ratio rather than a marked imbalance between paired stains."},
+    {"dx": "Mantle cell lymphoma (cyclin D1+)", "vs": "MCL lacks cytoplasmic light chain mRNA-rich plasma cells and is CD20+/CD5+/SOX11+ rather than CD138+."},
+    {"dx": "Nonspecific background staining", "vs": "True signal localizes to cytoplasm of individual plasma cells, whereas background artifact is extracellular and not cell-associated."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "ISH: probe not labeled (likely kappa/lambda)",
+  "match": "partial",
+  "high_yield": false
+}

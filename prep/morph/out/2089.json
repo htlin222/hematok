@@ -1,0 +1,22 @@
+{
+  "id": "2089",
+  "recognize_zh": "薄層血液抹片中，多顆紅血球內可見帶一個紫紅色染色質點的小環狀體（ring form），中央另有兩顆紅血球內含多個分散染色質點的分裂體（schizont），紅血球內寄生蟲是認出瘧疾的關鍵。",
+  "features": [
+    "Multiple intraerythrocytic ring forms with a single chromatin dot and a thin blue cytoplasmic ring",
+    "Two red cells in the center containing parasites with multiple scattered chromatin dots, consistent with developing schizonts",
+    "A more compact trophozoite with a larger chromatin mass and bluish cytoplasm at the right",
+    "Infected red cells are not conspicuously enlarged; no clear Schüffner stippling or banana-shaped gametocytes visible",
+    "Extracellular dot-like material and possible platelets overlying red cells in the background"
+  ],
+  "describe_en": "Thin peripheral blood film shows numerous intraerythrocytic Plasmodium parasites at several stages. Ring forms with single chromatin dots, a more mature trophozoite, and two parasites with multiple chromatin masses consistent with schizonts are present. Infected red cells are not obviously enlarged, and Schüffner dots or crescent-shaped gametocytes are not clearly seen. Findings are consistent with malaria; species identification cannot be made with certainty from this field, and the presence of circulating schizonts argues against pure P. falciparum infection, so thick/thin film review and antigen or PCR testing are recommended.",
+  "ddx": [
+    {"dx": "Babesiosis", "vs": "Babesia forms small pleomorphic rings without pigment or schizonts and may show extracellular forms and tetrad (Maltese cross) arrangements, whereas multi-nucleated schizonts here indicate Plasmodium."},
+    {"dx": "Platelets overlying red cells", "vs": "Superimposed platelets lie in a different focal plane, show a halo and lack a cytoplasmic ring with a discrete chromatin dot."},
+    {"dx": "Howell-Jolly bodies or Pappenheimer bodies", "vs": "These are dense inclusions without a surrounding blue cytoplasmic ring and do not form multi-nucleated schizonts."},
+    {"dx": "Plasmodium falciparum vs non-falciparum species", "vs": "P. falciparum typically shows many small rings, multiply infected cells, appliqué forms and crescent gametocytes with schizonts rarely in blood, while P. vivax/ovale show enlarged stippled cells and P. malariae band forms."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

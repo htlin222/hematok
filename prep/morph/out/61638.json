@@ -1,0 +1,21 @@
+{
+  "id": "61638",
+  "recognize_zh": "CD31 染色勾勒出竇狀血管內皮的細長棕色輪廓，腔內的大型、核卵圓的腫瘤細胞本身為陰性，另有大型陽性的巨核細胞與零星陽性小細胞；用內皮標記證明大細胞「位於血管內」是血管內大 B 細胞淋巴瘤的輔助工具。",
+  "features": [
+    "CD31 highlights thin endothelial linings of dilated sinusoids",
+    "Large CD31-negative cells with oval vesicular nuclei located within the outlined vascular lumina",
+    "Strongly CD31-positive megakaryocyte serving as internal control",
+    "Scattered small CD31-positive myeloid cells/platelets in the interstitium",
+    "Fat spaces and residual hematopoiesis between sinusoids"
+  ],
+  "describe_en": "CD31 immunostain outlines the endothelial lining of dilated marrow sinusoids. Large atypical cells with oval vesicular nuclei lie within the endothelium-bound lumina and are themselves CD31 negative. A megakaryocyte and scattered small myeloid cells are CD31 positive, consistent with the known expression of CD31 in these cells. The endothelial outline confirms the intravascular location of the large atypical cells, supporting intravascular large B-cell lymphoma when combined with CD20 positivity.",
+  "ddx": [
+    {"dx": "Angiosarcoma or vascular neoplasm", "vs": "In a vascular tumor the atypical cells themselves are CD31/ERG positive, whereas here the large cells within the lumina are CD31 negative."},
+    {"dx": "DLBCL with extravascular marrow infiltration", "vs": "Extravascular lymphoma cells lie outside the CD31-outlined sinusoids in interstitial sheets."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "Also located within CD31/CD34-outlined sinusoids but composed of medium-sized CD3-positive, CD20-negative cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD31",
+  "match": "consistent",
+  "high_yield": true
+}

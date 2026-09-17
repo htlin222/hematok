@@ -1,0 +1,23 @@
+{
+  "id": "3723",
+  "recognize_zh": "骨髓抹片中一顆體積極大的巨核細胞，單一大核高度分葉、染色質粗，細胞質豐富且顆粒細緻，細胞質內可見紅血球（emperipolesis），尺寸遠大於一般成熟巨核細胞，屬巨大巨核細胞（giant megakaryocyte）。",
+  "features": [
+    "Giant megakaryocyte occupying most of the field, far larger than surrounding precursors",
+    "Low N:C ratio with a large, deeply lobulated, hyperlobated nucleus with contiguous lobes",
+    "Coarse clumped chromatin without nucleoli",
+    "Abundant finely granular lilac cytoplasm with a paler peripheral zone",
+    "Red cells within the cytoplasm, consistent with emperipolesis",
+    "Surrounding maturing granulocytic and erythroid precursors"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a giant megakaryocyte with a large hyperlobated nucleus with coarse chromatin and abundant finely granular cytoplasm. Red cells are present within the cytoplasm, consistent with emperipolesis. The surrounding marrow shows maturing granulocytic and erythroid precursors. A single giant megakaryocyte is not diagnostic; findings may be seen in reactive thrombopoiesis but, when numerous or clustered, are suggestive of a myeloproliferative neoplasm such as essential thrombocythemia, and should be correlated with the biopsy, blood counts and JAK2/CALR/MPL testing.",
+  "ddx": [
+    {"dx": "Essential thrombocythemia megakaryocytes", "vs": "ET shows many giant megakaryocytes with hyperlobated staghorn nuclei in loose clusters on the biopsy with sustained thrombocytosis and a driver mutation."},
+    {"dx": "Primary myelofibrosis megakaryocytes", "vs": "PMF megakaryocytes are pleomorphic with hyperchromatic, bulbous cloud-like nuclei and abnormal N:C ratio, forming tight clusters with fibrosis."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts contain many separate uniform round nuclei rather than a single hyperlobated nucleus."},
+    {"dx": "Megakaryocytes in CML", "vs": "CML megakaryocytes are small and hypolobated (dwarf megakaryocytes), not giant hyperlobated forms."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "65018",
+  "recognize_zh": "兩顆中型淋巴球的細胞核明顯多葉、摺疊呈花瓣/腦迴狀（上方細胞較典型），染色質緻密、細胞質少，符合 Sézary 細胞；但這種較粗大的分葉型態也需與 ATLL 的花瓣細胞（flower cell）鑑別，細緻的腦迴狀溝紋在此解析度下不明顯。",
+  "features": [
+    "Two medium-sized lymphoid cells, slightly larger than adjacent red cells",
+    "High N:C ratio with scant pale blue cytoplasm",
+    "Markedly convoluted, lobulated nuclei: upper cell with multiple petal-like lobes, lower cell with cleaved, clover-like lobation",
+    "Dense chromatin; nucleoli not prominent",
+    "Fine linear cerebriform grooves are not well resolved at this image resolution",
+    "Background red cells and a platelet"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows two atypical lymphoid cells of medium size with scant cytoplasm and dense chromatin. The nuclei are markedly convoluted and lobulated, with a petal-like multilobated nucleus in the upper cell and a cleaved clover-like nucleus in the lower cell; fine cerebriform grooves are not clearly resolved at this resolution. No nucleoli or cytoplasmic granules are seen. In a patient with mycosis fungoides, these convoluted lymphocytes are consistent with circulating Sezary cells, although the coarse lobation resembles ATLL flower cells, and flow cytometry (CD4+, CD7-, CD26-) is needed to quantify the clone.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL flower cells have coarser, more deeply separated petal-like lobes and are HTLV-1 positive with bright CD25, whereas Sezary cells show fine cerebriform grooves and are CD26 negative."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells have a visible nucleolus and cytoplasmic blebs with round to irregular nuclei, TCL1 overexpression and inv(14)/t(14;14)."},
+    {"dx": "Reactive lymphocytes with irregular nuclei", "vs": "Reactive or artifactually aged lymphocytes show few such cells with polyclonal T-cell populations and normal CD7/CD26 expression."},
+    {"dx": "Hypersegmented or dysplastic neutrophils", "vs": "Neutrophils have abundant pink granular cytoplasm with lobes connected by thin filaments, not scant agranular cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

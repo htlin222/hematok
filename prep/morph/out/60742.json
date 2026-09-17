@@ -1,0 +1,28 @@
+{
+  "id": "60742",
+  "recognize_zh": "周邊血與骨髓中出現中至大型、核染色質細緻、類似母細胞的非典型細胞，細胞質灰藍、邊緣不規則並有偽足狀突起與細小空泡，外觀像急性白血病；須以流式確認為 γδ T 細胞才可診斷肝脾 T 細胞淋巴瘤。",
+  "features": [
+    "Medium-to-large blast-like cells with fine, finely granular (blastoid) chromatin and indistinct nucleoli",
+    "Moderate amount of pale gray-blue to violet cytoplasm with irregular outlines and pseudopod-like tails",
+    "Occasional small clear cytoplasmic vacuoles and fine pale granules",
+    "Bone marrow aspirate (B): sheets of similar cells, some with visible nucleoli, among a few residual precursors",
+    "Stain rendering is magenta-tinted, limiting chromatin detail"
+  ],
+  "describe_en": "Peripheral blood and bone marrow aspirate smears contain a population of medium-to-large atypical cells with fine blastoid chromatin, occasional small nucleoli and a moderate rim of pale gray-blue cytoplasm with irregular pseudopodal projections and scattered small vacuoles. The marrow aspirate is heavily replaced by the same cells. Morphology alone suggests an acute leukemia; the stain tint limits chromatin assessment. In the appropriate setting of hepatosplenomegaly with a CD3+, CD4−/CD8−, TCRγδ+ phenotype, findings are consistent with hepatosplenic T-cell lymphoma presenting in a leukemic, blastoid form.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia (monocytic)", "vs": "Monoblasts are MPO/NSE and CD33/CD64 positive, while HSTCL cells express CD3 and TCRγδ with absent myeloid markers."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL blasts are TdT+ and often CD1a+/cytoplasmic CD3+ with scant cytoplasm, whereas HSTCL cells are mature (TdT-negative) cytotoxic γδ T cells."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells are small mature lymphocytes with abundant cytoplasm and coarse azurophilic granules, not blastoid cells, and follow an indolent course."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "ANKL cells are surface CD3-negative, CD56+ and EBV-positive, while HSTCL is EBV-negative with surface CD3 and TCRγδ."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood: large blastoid cell with fine chromatin and irregular vacuolated cytoplasm",
+    "Peripheral blood: atypical cells with pseudopod-like cytoplasmic tails",
+    "Bone marrow aspirate: large atypical cells with pale cytoplasm",
+    "Bone marrow aspirate: sheet of blastoid lymphoma cells"
+  ]
+}

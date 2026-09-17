@@ -1,0 +1,21 @@
+{
+  "id": "65218",
+  "recognize_zh": "淋巴結被瀰漫的大型淋巴細胞取代（A），免疫染色大片 CD7、CD8 及 PAX5 陽性，但 CD3 只剩散在的反應性 T 細胞、CD20 完全陰性；流式顯示 CD8 陽性、CD3/CD19/輕鏈陰性，而 IGH 與 IGK 基因重組為單株峰，證明這是帶有異常 T 細胞標記的 B 細胞（Richter 轉化）。",
+  "features": [
+    "H&E (A): diffuse sheets of large lymphoid cells with vesicular nuclei, visible nucleoli and moderate cytoplasm",
+    "IHC: diffuse CD7 (B) and CD8 (C) and strong nuclear PAX5 (E); CD3 (D) only in scattered small reactive T cells; CD20 (F) negative",
+    "Flow (G): large-FSC population CD8-positive, CD3-negative, CD19-negative and lacking surface kappa/lambda",
+    "PCR fragment analysis (H): dominant clonal peaks in IGH FR2-JH (~278 bp) and IGK Vk-Jk (~289 bp)"
+  ],
+  "describe_en": "Lymph node biopsy shows diffuse effacement by sheets of large atypical lymphoid cells with vesicular chromatin and prominent nucleoli. By immunohistochemistry, the large cells are positive for PAX5, CD7 and CD8 and negative for CD3 and CD20, with CD3 highlighting only scattered background T cells. Flow cytometry shows a CD8-positive population lacking CD3, CD19 and surface light chains, and PCR demonstrates clonal IGH and IGK rearrangements identical to the prior CLL/SLL clone, with no TRG rearrangement. Findings are consistent with Richter transformation to diffuse large B-cell lymphoma with aberrant T-cell antigen (CD7, CD8) expression and loss of CD20.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL is usually surface/cytoplasmic CD3-positive, PAX5-negative and shows clonal TR rearrangement, whereas these cells are CD3-negative, PAX5-positive with clonal IG rearrangements."},
+    {"dx": "Anti-CD20-treated or plasmablastic B-cell lymphoma", "vs": "CD20 loss after rituximab retains PAX5, whereas plasmablastic lymphoma loses PAX5 and expresses CD138/MUM1; neither expresses CD8/CD7 as here."},
+    {"dx": "Hodgkin-like Richter transformation", "vs": "Hodgkin-type transformation has scattered CD30+/CD15+ Reed-Sternberg cells in a mixed background rather than CD30-negative sheets of large B cells."},
+    {"dx": "Clonally unrelated de novo DLBCL", "vs": "Only clonal comparison of IG rearrangements with the prior CLL separates them; here the clones were identical."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E, IHC: CD7, CD8, CD3, PAX5, CD20; flow cytometry; IG PCR",
+  "match": "consistent",
+  "high_yield": false
+}

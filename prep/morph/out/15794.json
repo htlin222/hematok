@@ -1,0 +1,22 @@
+{
+  "id": "15794",
+  "recognize_zh": "血液抹片中滿是異常前骨髓細胞，細胞核深度凹折或呈雙葉「蝴蝶狀」（bilobed/butterfly），細胞質顆粒極少或只見細小粉塵樣顆粒，這是微顆粒型急性前骨髓細胞白血病（APL M3v）的特徵。",
+  "features": [
+    "Sheet of medium-to-large abnormal cells in the blood smear with high to moderate N:C ratio",
+    "Nuclei deeply folded, reniform or bilobed with a characteristic butterfly/dumbbell configuration",
+    "Fine, delicate chromatin; nucleoli inconspicuous",
+    "Scant to moderate cytoplasm that appears nearly agranular or with fine dust-like granules; no obvious Auer rods in this field",
+    "Numerous abnormal cells with markedly increased white count (typical of hyperleukocytosis in M3v)"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous medium-to-large abnormal promyelocytes arranged in a dense band. The cells have deeply folded, reniform to bilobed butterfly-shaped nuclei with fine chromatin and scant to moderate cytoplasm that appears largely agranular or contains only fine, dust-like granules. Coarse granules and Auer rod bundles are not evident in this field. Findings are consistent with the microgranular (hypogranular) variant of acute promyelocytic leukemia; strong MPO positivity, CD34/HLA-DR negativity and PML::RARA confirmation are needed, and treatment should not be delayed given the coagulopathy risk.",
+  "ddx": [
+    {"dx": "Acute monocytic/myelomonocytic leukemia", "vs": "Monoblasts/promonocytes have more abundant gray-blue cytoplasm with vacuoles and fine folded nuclei but are nonspecific esterase positive, MPO weak and usually HLA-DR positive, unlike the strongly MPO-positive HLA-DR-negative M3v cells."},
+    {"dx": "Hypergranular APL", "vs": "Classic APL shows coarse, nucleus-obscuring azurophilic granules and faggot cells with multiple Auer rods, whereas M3v appears agranular on light microscopy."},
+    {"dx": "Sézary syndrome / cerebriform lymphoma cells", "vs": "Sézary cells have dense convoluted cerebriform chromatin and scant agranular cytoplasm and are CD3+/CD4+ and MPO negative."},
+    {"dx": "AML with NPM1 mutation (cup-like blasts)", "vs": "NPM1-mutated AML may show cup-like nuclear invaginations and HLA-DR/CD34 negativity, requiring PML::RARA testing to exclude APL."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

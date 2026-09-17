@@ -1,0 +1,22 @@
+{
+  "id": "65786",
+  "recognize_zh": "這是流式細胞儀散佈圖，不是形態學影像：CD45 強、低側散射的異常母細胞樣群約佔 89.6%，表現 CD2、表面 CD3、CD7 與 TCRγδ，CD5 與 CD56 陰性，CD34 與 CD1a 陰性；成熟 γδ T 細胞表型並失去 CD5，支持肝脾 T 細胞淋巴瘤而非 T-ALL。",
+  "features": [
+    "SSC versus CD45: atypical blastoid cells (red) ~89.6% with bright CD45 and low side scatter; residual granulocytes (green) ~4.5%",
+    "CD2 positive with CD5 negative on the abnormal population, versus CD5-positive normal T lymphocytes (blue, ~2%)",
+    "Surface CD3 positive and CD7 positive; CD56 negative on the abnormal cells, with a separate CD7+/CD3- NK population (brown)",
+    "sCD3 versus TCR gamma-delta shows co-expression on the abnormal population (3 vs GD gate), distinct from TCR gamma-delta negative normal T cells",
+    "CD34 negative and CD1a negative, indicating a mature (post-thymic) T-cell phenotype"
+  ],
+  "describe_en": "This figure shows flow cytometry plots rather than a morphologic image. A dominant population of atypical blastoid cells (approximately 90% of events) shows bright CD45 and low side scatter and expresses CD2, surface CD3, CD7 and TCR gamma-delta, with loss of CD5 and absence of CD56, CD34 and CD1a. Residual CD5-positive normal T cells, NK cells and granulocytes serve as internal controls. The mature gamma-delta T-cell phenotype with aberrant CD5 loss and absence of immaturity markers is consistent with a gamma-delta T-cell lymphoma and, in the clinical and genetic context of this case, hepatosplenic T-cell lymphoma.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL expresses immaturity markers such as TdT, CD34 or CD1a and often lacks surface CD3, whereas these cells are sCD3+, CD34- and CD1a-."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells are usually CD8 and CD57 positive with granular morphology and are not blastoid."},
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma", "vs": "MEITL is often gamma-delta and CD56 positive, CD8 positive and presents as an intestinal mass rather than a leukemic hepatosplenic picture."},
+    {"dx": "Reactive gamma-delta T-cell expansion", "vs": "Reactive gamma-delta cells retain CD5 and do not constitute the vast majority of events."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

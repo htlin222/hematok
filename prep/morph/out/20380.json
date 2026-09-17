@@ -1,0 +1,22 @@
+{
+  "id": "20380",
+  "recognize_zh": "抹片中可見一顆破裂的巨噬細胞周圍散布許多 2–4 µm 的小圓形藍紫色小體（A），以及另一顆細胞內含數個相同小體（B），這些是利什曼原蟲無鞭毛體（amastigote），符合內臟利什曼病；但此視野紅血球單層排列，外觀較像血液抹片或骨髓抹片的稀薄區。",
+  "features": [
+    "Numerous small (about 2-4 µm) round-to-oval dark-staining bodies clustered within and around a disrupted macrophage (panel A)",
+    "A second cell containing several similar intracellular bodies (panel B)",
+    "Individual organisms too small at this resolution to confirm the nucleus-kinetoplast pair reliably",
+    "Adjacent intact mononuclear cells without organisms",
+    "Monolayer red cells with sparse nucleated cells, giving a blood-film-like background"
+  ],
+  "describe_en": "The smear shows a disrupted macrophage with numerous small round-to-oval intracellular and extruded organisms measuring roughly 2-4 µm, and a second cell containing several similar bodies; adjacent mononuclear cells lack organisms. At this resolution the characteristic nucleus and rod-shaped kinetoplast of each organism are not clearly resolved. The field has sparse nucleated cells in a red cell monolayer, resembling a peripheral blood film or a thin area of an aspirate smear rather than a cellular marrow particle. Findings are consistent with Leishmania amastigotes and support visceral leishmaniasis; confirmation by PCR, culture, or serology is recommended.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts are similar in size within macrophages but have a surrounding clear halo and lack a kinetoplast, and stain with GMS/PAS, which Leishmania does not."},
+    {"dx": "Toxoplasma gondii tachyzoites", "vs": "Toxoplasma tachyzoites are crescent-shaped without a kinetoplast and are rarely seen in marrow macrophages."},
+    {"dx": "Platelets overlying a macrophage", "vs": "Superimposed platelets are granular, irregular, and lie in a different focal plane, lacking the discrete nucleus-plus-kinetoplast structure."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts divide by central transverse septation and lack a kinetoplast."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

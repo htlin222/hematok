@@ -1,0 +1,20 @@
+{
+  "id": "64223",
+  "recognize_zh": "這是非形態學的血清游離輕鏈報告：lambda 119.15 mg/L 明顯高於參考上限 26.3，kappa 28.52 mg/L 輕度升高，kappa/lambda 比值 0.24 低於 0.26，提示 lambda 單株性輕鏈過量。",
+  "features": [
+    "Serum free kappa light chain 28.52 mg/L, flagged high (reference 3.3-19.4)",
+    "Serum free lambda light chain 119.15 mg/L, above reference 5.71-26.3 (not flagged on the report)",
+    "Kappa/lambda ratio 0.24, flagged low (reference 0.26-1.65)",
+    "Method: latex immunoturbidimetric assay"
+  ],
+  "describe_en": "This is a non-morphologic laboratory report of a serum free light chain assay by latex immunoturbidimetry. Free lambda light chain is markedly elevated at 119.15 mg/L, roughly 4.5 times the upper reference limit, although the report does not flag it, while free kappa is mildly elevated at 28.52 mg/L. The kappa/lambda ratio is decreased at 0.24, indicating lambda free light chain excess consistent with a lambda-restricted clonal plasma cell or lymphoplasmacytic process. Because both chains are elevated and the ratio is only slightly below the reference limit, renal function and immunofixation should be reviewed to exclude polyclonal elevation contributing to the result.",
+  "ddx": [
+    {"dx": "Polyclonal free light chain elevation (renal impairment or inflammation)", "vs": "Polyclonal increases elevate both chains with a preserved ratio; in renal failure the ratio may rise up to about 3.1 rather than fall, and immunofixation shows no monoclonal band."},
+    {"dx": "Plasma cell myeloma, lambda light chain type", "vs": "Myeloma usually shows a much more skewed ratio (involved/uninvolved often >100 in high-risk disease) with bone marrow clonal plasma cells, rather than a lymphoplasmacytic infiltrate with IgM."},
+    {"dx": "AL amyloidosis", "vs": "AL amyloidosis often has lambda excess with modest FLC levels; tissue biopsy with Congo red and organ involvement are required to distinguish it."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

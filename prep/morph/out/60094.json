@@ -1,0 +1,21 @@
+{
+  "id": "60094",
+  "recognize_zh": "骨髓抹片中數顆大型芽細胞，核呈摺疊或凹陷、染色質細緻、可見核仁，細胞質中等量灰藍色並帶細小顆粒與空泡，部分帶單核球樣核形；芽細胞增多（44%），在化療後病人要考慮治療相關 AML。",
+  "features": [
+    "Large blasts with moderate N:C ratio",
+    "Nuclei irregular, folded or indented (monocytoid), with finely dispersed chromatin and small nucleoli",
+    "Moderate gray-blue cytoplasm with fine azurophilic granules and small vacuoles",
+    "Occasional cell with a lobulated/cleaved nucleus suggestive of promonocytic differentiation",
+    "Scattered small red cell fragments and platelet debris in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of large blasts with moderate N:C ratio, irregular to folded nuclei, finely dispersed chromatin and small nucleoli. The cytoplasm is moderate in amount, gray-blue, and contains fine azurophilic granules and small vacuoles, with some cells showing monocytoid nuclear folding. Auer rods are not identified in this field. Blasts constitute 44% of the aspirate differential; in the setting of prior cytotoxic therapy, findings are consistent with therapy-related acute myeloid leukemia, possibly with myelomonocytic features.",
+  "ddx": [
+    {"dx": "AML with KMT2A rearrangement (topoisomerase II inhibitor-related)", "vs": "Monocytoid blasts after topoisomerase II inhibitors suggest KMT2A (11q23) rearrangement, which must be shown by cytogenetics/FISH."},
+    {"dx": "Acute promyelocytic leukemia (microgranular variant)", "vs": "APL variant shows bilobed 'butterfly' nuclei with strong MPO and PML::RARA, and often DIC; confirm by FISH or PCR."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML has fewer than 20% blasts plus promonocytes with persistent monocytosis, whereas 44% blasts here meets AML."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

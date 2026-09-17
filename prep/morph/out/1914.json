@@ -1,0 +1,21 @@
+{
+  "id": "1914",
+  "recognize_zh": "骨髓抹片中一顆巨大的巨核細胞，胞質豐富呈細顆粒狀、核分葉位於右下，胞質內可見一顆完整的小細胞（淡粉紅色卵圓形），位於胞質中而非被破壞，即細胞穿越現象（emperipolesis）。",
+  "features": [
+    "Very large megakaryocyte with abundant finely granular lilac cytoplasm",
+    "Multilobated, dense nucleus positioned eccentrically at the lower right of the cell",
+    "An intact small cell (pale pink oval body) lying within the megakaryocyte cytoplasm, without evidence of degradation",
+    "Surrounding small hematopoietic cells and red cell aggregates in a thick aspirate background",
+    "No dysplastic hypolobated or separated nuclear lobes evident"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large megakaryocyte with abundant granular cytoplasm and an eccentric lobulated nucleus. An intact small cell is present within the megakaryocyte cytoplasm, consistent with emperipolesis, in which neutrophils or other hematopoietic cells transit through the megakaryocyte demarcation membrane system without being destroyed. The engulfed cell's lineage cannot be determined with certainty at this resolution. Emperipolesis is a nonspecific finding that may be increased in reactive states, myeloproliferative neoplasms (notably primary myelofibrosis) and other conditions with megakaryocytic hyperplasia.",
+  "ddx": [
+    {"dx": "Phagocytosis (hemophagocytosis by macrophages)", "vs": "Macrophages have a single oval nucleus and the ingested cells are enclosed in vacuoles and degraded, whereas in emperipolesis the host is a megakaryocyte and the passenger cell is intact."},
+    {"dx": "Rosai-Dorfman disease emperipolesis", "vs": "Host cells are S100-positive histiocytes in lymph node sinuses containing intact lymphocytes, not megakaryocytes."},
+    {"dx": "Overlapping cell artifact", "vs": "A cell lying on top of the megakaryocyte sits in a different focal plane and is not surrounded by cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

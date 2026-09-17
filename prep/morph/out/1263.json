@@ -1,0 +1,22 @@
+{
+  "id": "1263",
+  "recognize_zh": "周邊血液中一顆嗜中性球的核完全沒有分葉，呈單一圓到卵圓形、染色質粗塊濃縮，但細胞質已有成熟的淡粉紅顆粒，核質成熟度不相符（非分葉的成熟嗜中性球），是 Pelger-Huët 變異型。",
+  "features": [
+    "Neutrophil-sized cell with a single round to oval, non-lobated nucleus",
+    "Coarse, clumped mature chromatin despite lack of segmentation",
+    "Abundant pale cytoplasm with fine neutrophilic granules and a few small vacuoles",
+    "Normal granulation without hypogranularity in this cell",
+    "Background red cells with rouleaux-like overlap and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a mature neutrophil with a single round to oval, non-lobated nucleus containing coarse, clumped mature chromatin. The cytoplasm is abundant and pale with fine neutrophilic granules and a few small vacuoles. The combination of fully mature chromatin with absence of lobation distinguishes this cell from a myelocyte. The appearance represents a non-segmented Pelger-Huët-type neutrophil; the inherited anomaly is diagnosed when most neutrophils are hyposegmented with normal granulation, while an acquired pseudo-Pelger-Huët change should raise concern for myelodysplasia or drug effect.",
+  "ddx": [
+    {"dx": "Myelocyte", "vs": "Myelocytes have finer, less condensed chromatin and often a paler Golgi zone, while this cell has fully clumped mature chromatin."},
+    {"dx": "Pseudo-Pelger-Huët anomaly (MDS, drugs)", "vs": "Morphology of a single cell is similar; acquired forms show hypogranularity, other dysplastic lineages and involve only a subset of neutrophils, whereas the inherited anomaly affects nearly all neutrophils uniformly."},
+    {"dx": "Monocyte", "vs": "Monocytes have folded nuclei with lacy chromatin and gray-blue cytoplasm with fine azurophilic granules, not coarse condensed chromatin."},
+    {"dx": "Plasmacytoid lymphocyte", "vs": "Lymphocytes have scant basophilic cytoplasm without neutrophilic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

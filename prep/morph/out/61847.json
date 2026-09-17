@@ -1,0 +1,22 @@
+{
+  "id": "61847",
+  "recognize_zh": "CD68 染色中，成群的大型泡沫狀組織球呈強烈顆粒狀細胞質陽性，被陰性的梭形纖維母細胞與纖維間隔分隔成巢狀；證實浸潤細胞為組織球系，符合 Erdheim-Chester 病。",
+  "features": [
+    "Clusters and sheets of large histiocytes with strong granular cytoplasmic CD68 staining",
+    "Foamy cytoplasmic texture preserved within positive cells",
+    "Intervening fibrous septa with CD68-negative spindle fibroblasts",
+    "Scattered small CD68-positive histiocytes within stroma",
+    "Thin-walled vessels negative for CD68"
+  ],
+  "describe_en": "Immunohistochemical stain for CD68 highlights nests and sheets of large histiocytes with strong granular cytoplasmic positivity, many retaining a foamy cytoplasmic appearance. The positive cells are separated by fibrous septa containing CD68-negative spindle fibroblasts and vessels. CD68 confirms histiocytic lineage but is not specific; in combination with CD163 and factor XIIIa positivity, CD1a/Langerin negativity, and BRAF V600E or other MAPK alterations, findings are consistent with Erdheim-Chester disease.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are weak/dot-like for CD68 and strongly positive for CD1a and Langerin, which are negative in ECD."},
+    {"dx": "Rosai-Dorfman disease", "vs": "RDD histiocytes are CD68+ as well but are strongly S100 positive with emperipolesis."},
+    {"dx": "Reactive xanthogranulomatous inflammation", "vs": "Reactive foamy macrophages share CD68 positivity, so distinction requires clinical-radiologic features and MAPK pathway mutation testing."},
+    {"dx": "Fibrous histiocytoma / fibrohistiocytic tumor", "vs": "Fibrohistiocytic tumors are dominated by spindle cells with only scattered CD68+ macrophages rather than sheets of CD68+ foamy histiocytes."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD68",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62374",
+  "recognize_zh": "骨髓抹片細胞豐富，可見許多母細胞，並有幾個核呈單葉或分離小圓葉的異常巨核細胞（hypolobated/separated-lobe megakaryocytes），這種巨核細胞發育不良是 inv(3)/t(3;3) AML 的典型線索。",
+  "features": [
+    "Hypercellular particle-rich aspirate with numerous fat vacuoles",
+    "Increased blasts: medium-sized cells with high N:C ratio, fine chromatin and scant basophilic cytoplasm",
+    "Dysplastic megakaryocytes with monolobated nuclei or multiple small separated nuclear lobes",
+    "Admixed erythroid precursors and maturing myeloid cells",
+    "Megakaryocytes are not decreased despite the leukemic infiltrate"
+  ],
+  "describe_en": "Bone marrow aspirate smear (Wright-Giemsa) is hypercellular with abundant particles. There is an increase in blasts with fine chromatin and scant basophilic cytoplasm, admixed with residual erythroid and granulocytic precursors. Megakaryocytes are readily identified and are dysplastic, including forms with monolobated nuclei and forms with multiple small separated nuclear lobes. A formal blast count and cytogenetic studies are required, but the findings are suggestive of AML with inv(3)(q21q26.2)/t(3;3)(q21;q26.2), GATA2::MECOM.",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome with excess blasts", "vs": "MDS-EB has fewer than 20% blasts (in WHO 2016); note that 3q26 rearranged cases behave aggressively regardless, and karyotype/FISH identifies them."},
+    {"dx": "Myeloid neoplasm with isolated del(5q)", "vs": "del(5q) has hypolobated megakaryocytes but blasts are under 5% and the karyotype shows del(5q) rather than 3q26 rearrangement."},
+    {"dx": "AML with myelodysplasia-related changes", "vs": "AML-MRC shows multilineage dysplasia too, but MECOM rearrangement on cytogenetics takes precedence for classification."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

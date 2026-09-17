@@ -1,0 +1,22 @@
+{
+  "id": "60351",
+  "recognize_zh": "骨髓抹片中大量母細胞，細胞質中等量、灰藍色並散佈細小嗜天青顆粒，核圓或輕微凹陷、染色質細緻並可見核仁，偏向單核球系（monoblast/promonocyte）形態，符合 KMT2A 重排的 AML with t(9;11)。",
+  "features": [
+    "Hypercellular particle with numerous intermediate-to-large blasts",
+    "Moderate amounts of gray-blue cytoplasm with fine azurophilic granules; no Auer rods evident",
+    "Round to slightly indented or folded nuclei with fine, lacy chromatin and visible nucleoli in many cells",
+    "Monocytoid appearance consistent with monoblasts and promonocytes",
+    "Few interspersed maturing myeloid cells, erythroid precursors and small lymphocytes"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular particle composed predominantly of intermediate-to-large blasts. The blasts have moderate amounts of gray-blue cytoplasm containing fine azurophilic granules, round to slightly indented nuclei with finely dispersed chromatin and one or more visible nucleoli, imparting a monocytoid appearance. No Auer rods are identified, and residual maturing granulocytic and erythroid elements are sparse. Findings are consistent with acute myeloid leukemia with monocytic features; cytochemistry (nonspecific esterase) and flow cytometry are recommended, and the t(9;11)(p22;q23) establishes AML with KMT2A-MLLT3.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia without KMT2A rearrangement", "vs": "Morphology is identical, so the distinction rests on cytogenetics/FISH for KMT2A (11q23) rearrangement."},
+    {"dx": "Acute promyelocytic leukemia (hypogranular variant)", "vs": "Hypogranular APL has bilobed 'butterfly' nuclei, bundles of Auer rods in some cells, strong MPO, and is HLA-DR/CD34-negative with PML-RARA."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML has mature monocytes predominating with blasts plus promonocytes below 20%."},
+    {"dx": "AML with maturation", "vs": "Myeloblasts show coarser granules, Auer rods and maturing neutrophils, with strong MPO but negative nonspecific esterase."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

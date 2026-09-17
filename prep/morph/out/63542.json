@@ -1,0 +1,23 @@
+{
+  "id": "63542",
+  "recognize_zh": "A 圖在混合發炎細胞背景中有一顆雙核、核仁明顯的大細胞（RS cell，箭頭）；免疫染色中大細胞 CD15、CD30 陽性（B、F），背景大量 CD3 陽性小 T 細胞（E），支持骨髓侵犯的典型何杰金氏淋巴瘤（classical Hodgkin lymphoma）。",
+  "features": [
+    "Panel A (H&E): large binucleate cell with two round nuclei, each with a prominent nucleolus, in a loose background of small lymphocytes and stromal cells (Reed-Sternberg cell)",
+    "Panel B: large cell with membranous/Golgi-type CD15 positivity (arrow) among negative small cells",
+    "Panel F: weak membranous and paranuclear CD30 staining in a large cell (arrow)",
+    "Panel D: CD20 membranous staining in a sheet of cells around the arrowed large cell; tumor-cell positivity is hard to separate from background B cells at this resolution",
+    "Panel E: abundant CD3-positive small T cells forming the background infiltrate",
+    "Panel C: low Ki-67 index with scattered positive nuclei"
+  ],
+  "describe_en": "Composite of bone marrow biopsy H&E and immunohistochemistry. The H&E section (A) shows a large binucleate cell with round nuclei and prominent eosinophilic nucleoli, consistent with a Reed-Sternberg cell, set within a background of small lymphocytes and stroma. Immunostains show scattered large cells positive for CD15 (B) and CD30 (F), with a background rich in CD3-positive small T cells (E) and scattered Ki-67-positive nuclei (C); CD20 (D) shows membranous staining in a cellular area around the arrowed large cell, although distinguishing tumor-cell staining from reactive B cells is limited in this image. Given CD30 and CD15 positivity in Reed-Sternberg cells within a T-cell-rich inflammatory background (with PAX5 positivity and CD3/EMA negativity reported), findings are consistent with bone marrow involvement by classical Hodgkin lymphoma (stage IV).",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL large cells are strongly and uniformly CD20+, CD45+, CD15- and CD30-, whereas classical RS cells are CD30+ CD15+ with weak or absent CD20 and dim PAX5."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL hallmark cells are CD30+ in a strong uniform pattern, often EMA+ and ALK+ with T-cell markers or cytotoxic granules, and PAX5 negative."},
+    {"dx": "Reactive immunoblasts in the marrow (e.g., viral infection)", "vs": "Immunoblasts are CD30 variable but CD15 negative and lack binucleate RS morphology and a clonal context."},
+    {"dx": "Megakaryocytes mimicking RS cells", "vs": "Megakaryocytes have lobulated nuclei without large inclusion-like nucleoli and are CD61/CD42b positive and CD30/CD15 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD15, CD30, CD20, CD3, Ki-67",
+  "match": "consistent",
+  "high_yield": true
+}

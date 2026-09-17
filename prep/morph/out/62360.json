@@ -1,0 +1,19 @@
+{
+  "id": "62360",
+  "recognize_zh": "絕大多數腫瘤細胞核呈強棕色 Ki-67 陽性，陰性的藍色核主要是散在的間質細胞，顯示腫瘤增殖指數極高。",
+  "features": [
+    "Strong diffuse nuclear Ki-67 staining in the vast majority of tumor cells",
+    "Positive nuclei are oval to irregular with coarse speckled staining pattern",
+    "Scattered negative (blue) nuclei, mostly smaller spindled stromal/endothelial cells",
+    "Estimated proliferation index very high (well above 80% of tumor cells)"
+  ],
+  "describe_en": "Immunohistochemical stain for Ki-67 shows strong nuclear positivity in the vast majority of tumor cells, with negative nuclei largely confined to interspersed stromal and endothelial cells. The proliferation index is very high. This supports a highly proliferative lymphoblastic neoplasm and, in the context of CD3 and TdT positivity, is consistent with T-lymphoblastic leukemia/lymphoma; a high Ki-67 index alone is not specific for lineage.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt also shows near-100% Ki-67 but is a CD20+ CD10+ BCL2-negative TdT-negative B-cell lymphoma with MYC rearrangement."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL can have a high Ki-67 but is composed of large CD20+ B cells and is TdT-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

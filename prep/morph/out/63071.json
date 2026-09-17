@@ -1,0 +1,22 @@
+{
+  "id": "63071",
+  "recognize_zh": "淋巴結切片 H&E，在大量小淋巴球（常帶透明空暈）與上皮樣組織球的背景中，散在少數大型細胞，核大、多葉狀或皺摺、染色質淡、核仁小（LP cell，俗稱 popcorn cell）；缺乏典型雙核大核仁的 RS 細胞，符合結節性淋巴球為主型何杰金淋巴瘤（NLPHL）。",
+  "features": [
+    "Scattered large neoplastic cells with abundant pale cytoplasm and large, vesicular, folded to multilobated ('popcorn') nuclei",
+    "LP cells have fine chromatin and multiple small, basophilic nucleoli rather than large eosinophilic inclusion-like nucleoli",
+    "Background dominated by small, round, mature lymphocytes, many with perinuclear clear retraction halos",
+    "Epithelioid histiocytes with elongated nuclei and pink cytoplasm scattered among lymphocytes",
+    "No eosinophils, neutrophils or plasma cell-rich background; no necrosis or fibrous bands in this field"
+  ],
+  "describe_en": "Lymph node section (H&E) at high power shows a background of numerous small mature lymphocytes, many with clear perinuclear halos, admixed with scattered epithelioid histiocytes. Within this background are occasional large cells with abundant pale cytoplasm and large, vesicular, folded to multilobated nuclei with fine chromatin and small nucleoli, consistent with lymphocyte-predominant (LP, 'popcorn') cells. Classic Reed-Sternberg cells with large eosinophilic nucleoli are not identified, and eosinophils and plasma cells are inconspicuous. The nodular architecture cannot be assessed at this magnification. Findings are consistent with nodular lymphocyte-predominant Hodgkin lymphoma, to be confirmed by immunohistochemistry (CD20+, CD45+, OCT2/BOB1+, CD30-, CD15-).",
+  "ddx": [
+    {"dx": "Lymphocyte-rich classic Hodgkin lymphoma", "vs": "LRCHL contains classic or mononuclear Hodgkin cells with prominent eosinophilic nucleoli that are CD30+/CD15+ and CD20-/weak, whereas LP cells are CD20+, CD45+, CD30- and CD15-."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered large B cells in a diffuse T-cell and histiocyte background without residual follicular dendritic cell meshworks and lacks the small B-cell-rich nodules and PD1+ T-cell rosettes of NLPHL."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC forms large nodules of small mantle B cells with residual germinal center cells but lacks LP cells with popcorn nuclei."},
+    {"dx": "Reactive follicular hyperplasia with immunoblasts", "vs": "Reactive immunoblasts have a single central prominent nucleolus and occur within polarized germinal centers with tingible body macrophages, not as popcorn cells in a lymphocyte-rich nodule."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

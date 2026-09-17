@@ -1,0 +1,22 @@
+{
+  "id": "64146",
+  "recognize_zh": "骨髓切片視野幾乎全被脂肪細胞佔據，只剩細長血管與少數梭形基質細胞，右上角為骨小樑，看不到造血細胞；這是高度低細胞性（aplastic）骨髓的樣子，但需與低細胞性 MDS 區分。",
+  "features": [
+    "Bone marrow core space almost entirely replaced by mature adipocytes",
+    "No identifiable erythroid, myeloid, or megakaryocytic precursors in this field",
+    "Residual thin capillaries and scattered spindled stromal/endothelial nuclei",
+    "Edge of a bony trabecula at the upper right confirms an intertrabecular space was sampled",
+    "No fibrosis, gelatinous transformation, granulomas, or infiltrate visible"
+  ],
+  "describe_en": "Bone marrow core biopsy section shows an intertrabecular space almost completely occupied by mature fat, with only thin vascular channels and a few spindled stromal nuclei. Hematopoietic elements are not identified in this field, and there is no fibrosis, gelatinous (serous) transformation, or abnormal infiltrate. A single field cannot establish overall cellularity, so the whole core should be assessed and a subcortical-only sample excluded. The findings are consistent with a markedly hypocellular (aplastic) marrow; distinction between aplastic anemia and hypocellular myelodysplastic neoplasm requires evaluation of residual hematopoiesis for dysplasia, blast count (CD34 IHC), and cytogenetic/molecular studies.",
+  "ddx": [
+    {"dx": "Hypocellular myelodysplastic neoplasm", "vs": "Morphology of an empty field cannot separate it; hypo-MDS shows dysplastic megakaryocytes, clustered CD34+ blasts, or MDS-defining cytogenetic abnormalities in residual marrow."},
+    {"dx": "Hypocellular AML", "vs": "Requires at least 20% blasts in residual cellular areas, usually highlighted by CD34 or CD117 immunohistochemistry."},
+    {"dx": "Subcortical or aspiration-damaged sample", "vs": "Subcortical marrow in older adults is physiologically fatty; adequate cores (>1.5 cm of evaluable intertrabecular marrow) avoid underestimating cellularity."},
+    {"dx": "Serous atrophy (gelatinous transformation)", "vs": "Shows pink-to-basophilic amorphous extracellular material between shrunken fat cells, which is absent here."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

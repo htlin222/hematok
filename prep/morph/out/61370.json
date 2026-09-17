@@ -1,0 +1,22 @@
+{
+  "id": "61370",
+  "recognize_zh": "血片中一顆比紅血球大的圓形深紫色核，染色質致密塊狀，幾乎沒有細胞質，只在邊緣黏附少許血小板樣碎片，是游離的裸巨核細胞核（bare megakaryocyte nucleus），勿誤認為淋巴球。",
+  "features": [
+    "Round, compact nucleus about 1.5-2 times the diameter of an erythrocyte",
+    "Dense, coarsely clumped dark purple chromatin without nucleoli",
+    "Essentially no surrounding cytoplasm",
+    "Small platelet-like cytoplasmic fragments adherent to the nuclear surface",
+    "Background erythrocytes unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows a naked megakaryocyte nucleus, a round compact nucleus with dense clumped chromatin, no cytoplasmic rim and small adherent platelet-like fragments at the periphery. Surrounding red cells are unremarkable in this field. Circulating bare megakaryocyte nuclei are most often associated with myeloproliferative neoplasms, particularly primary myelofibrosis, and should prompt review for leukoerythroblastosis, teardrop cells and abnormal platelets.",
+  "ddx": [
+    {"dx": "Small lymphocyte", "vs": "Lymphocytes have a thin but visible rim of blue cytoplasm and lack platelet fragments budding from the nuclear surface."},
+    {"dx": "Smudge cell", "vs": "Smudge cells are crushed nuclei with a smeared, lacy, flattened chromatin pattern rather than an intact compact nucleus."},
+    {"dx": "Micromegakaryocyte", "vs": "Micromegakaryocytes retain a rim of granular or blebbed cytoplasm around a small nucleus."},
+    {"dx": "Orthochromatic normoblast (nucleated red cell)", "vs": "Nucleated red cells have a smaller pyknotic nucleus surrounded by hemoglobinized pink-orange cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

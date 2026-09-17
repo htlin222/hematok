@@ -1,0 +1,22 @@
+{
+  "id": "3882",
+  "recognize_zh": "周邊血液中兩顆中型淋巴球，細胞質深藍、無顆粒且有細胞質突起（cytoplasmic bleb），細胞核略不規則並可見小核仁，是 T 細胞前淋巴球性白血病（T-PLL）的典型細胞外觀。",
+  "features": [
+    "Medium-sized lymphoid cells larger than normal small lymphocytes",
+    "Intensely basophilic agranular cytoplasm with a cytoplasmic protrusion (bleb)",
+    "Oval to slightly irregular nucleus with moderately condensed chromatin",
+    "Small but visible nucleolus in the larger cell",
+    "Background red cells with echinocytes (likely artifactual crenation)"
+  ],
+  "describe_en": "High-power view of the peripheral blood shows two medium-sized lymphoid cells with moderately condensed chromatin, slightly irregular oval nuclei and a small visible nucleolus in the larger cell. The cytoplasm is deeply basophilic, agranular and shows a characteristic cytoplasmic protrusion. The background red cells show crenation. Findings are consistent with T-cell prolymphocytic leukemia; flow cytometry (CD7 bright, CD4/CD8 pattern) and TCL1A/MTCP1 rearrangement studies are recommended.",
+  "ddx": [
+    {"dx": "B-cell prolymphocytic transformation of CLL", "vs": "B-prolymphocytes have a more prominent central nucleolus and paler cytoplasm without blebs, and express B-cell markers rather than T-cell markers."},
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform, grooved nuclei without nucleoli and usually CD7 negative, whereas T-PLL cells are CD7 bright with basophilic blebbed cytoplasm."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows polylobated 'flower' nuclei, CD25 positivity and HTLV-1 serology."},
+    {"dx": "Reactive (atypical) lymphocytes", "vs": "Reactive lymphocytes are heterogeneous with abundant cytoplasm scalloping around red cells, not a monotonous population of blebbed basophilic cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

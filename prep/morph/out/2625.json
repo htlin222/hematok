@@ -1,0 +1,30 @@
+{
+  "id": "2625",
+  "recognize_zh": "骨髓抹片中央四顆紅血球前驅細胞，細胞質深藍、核圓，染色質比同階段應有的更細緻（megaloblastoid），旁邊有正常顆粒球；Wright染色看不到環狀鐵粒母細胞，須以Prussian blue鐵染色確認MDS-RS。",
+  "features": [
+    "Cluster of four early erythroid precursors (basophilic to early polychromatic normoblasts)",
+    "Round central nuclei with moderately fine, open chromatin suggesting megaloblastoid change",
+    "Deeply basophilic cytoplasm, one cell with a slightly paler perinuclear zone",
+    "Adjacent granulocytic elements (band neutrophil, myelocytes) appear unremarkable",
+    "Ring sideroblasts cannot be assessed on this Romanowsky-stained smear"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of basophilic and early polychromatic erythroid precursors with round nuclei, relatively fine chromatin, and deeply basophilic cytoplasm, suggestive of mild megaloblastoid dyserythropoiesis. Accompanying granulocytic precursors, including a band neutrophil and myelocytes, show no obvious dysplasia in this field. No iron stain is provided, so ring sideroblasts cannot be evaluated here. The findings are compatible with, but not diagnostic of, myelodysplastic neoplasm with ring sideroblasts; a Prussian blue stain to quantify ring sideroblasts and SF3B1 mutation testing are required.",
+  "ddx": [
+    {
+      "dx": "Megaloblastic anemia (B12/folate deficiency)",
+      "vs": "Megaloblastic anemia shows marked nuclear-cytoplasmic asynchrony with giant metamyelocytes and hypersegmented neutrophils, and corrects with vitamin replacement."
+    },
+    {
+      "dx": "Congenital or acquired non-clonal sideroblastic anemia (alcohol, copper deficiency, drugs)",
+      "vs": "These may show identical ring sideroblasts, so history, copper/zinc levels, and absence of SF3B1 or cytogenetic clonality are needed to separate them."
+    },
+    {
+      "dx": "Normal erythroid hyperplasia (hemolysis, blood loss)",
+      "vs": "Reactive erythroid hyperplasia shows synchronous nuclear maturation with progressively condensed chromatin and no ring sideroblasts on iron stain."
+    }
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

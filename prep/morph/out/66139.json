@@ -1,0 +1,22 @@
+{
+  "id": "66139",
+  "recognize_zh": "背景血小板數量明顯增加且大小不一，兩顆嗜中性球核各有 5 葉以上，屬分葉過多；少數紅血球內有小深色點，可能為豪威爾-喬利小體或重疊的血小板，需鑑別脾功能低下。",
+  "features": [
+    "Markedly increased platelets throughout the background with variation in platelet size, including some large forms",
+    "Two neutrophils each with approximately five or more nuclear lobes (hypersegmentation)",
+    "Neutrophil chromatin condensed; cytoplasm pale with fine granules",
+    "Occasional red cells contain a small dark dot, possibly Howell-Jolly bodies versus overlying platelets",
+    "Red cells otherwise largely normocytic with mild anisocytosis; thick area of smear with overlapping cells"
+  ],
+  "describe_en": "Peripheral blood smear shows marked thrombocytosis with numerous platelets of variable size, including occasional large forms. Two neutrophils show nuclear hypersegmentation with approximately five or more lobes. Several red cells contain small dark inclusions that may represent Howell-Jolly bodies, although overlying platelets cannot be excluded at this magnification. Findings are consistent with thrombocytosis with hypersegmented neutrophils; correlation with B12/folate status, iron studies, splenic function and JAK2/CALR/MPL testing is suggested to separate reactive from myeloproliferative causes.",
+  "ddx": [
+    {"dx": "Essential thrombocythemia", "vs": "ET shows persistent thrombocytosis with large platelets but requires driver mutation testing and marrow biopsy showing enlarged hyperlobated megakaryocytes to distinguish it from reactive thrombocytosis."},
+    {"dx": "Reactive thrombocytosis (iron deficiency, inflammation)", "vs": "Reactive thrombocytosis has uniform small platelets and, in iron deficiency, hypochromic microcytic red cells, which are not prominent here."},
+    {"dx": "Post-splenectomy/hyposplenism", "vs": "Hyposplenism shows thrombocytosis with abundant Howell-Jolly bodies, target cells and acanthocytes; confirming true Howell-Jolly bodies here would support this."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic anemia gives hypersegmented neutrophils with macro-ovalocytes and usually cytopenias rather than marked thrombocytosis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

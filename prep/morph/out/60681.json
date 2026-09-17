@@ -1,0 +1,34 @@
+{
+	"id": "60681",
+	"recognize_zh": "腦脊髓液（CSF）巨噬細胞中，A 圖可見金黃色菱形結晶（hematoidin），B 圖胞質內有藍黑色粗顆粒（含鐵血黃素，siderophage），C 圖吞噬完整紅血球（erythrophage）；三者同時出現代表真正的腦內出血而非穿刺創傷。",
+	"features": [
+		"Panel A: macrophage with bright golden-yellow rhomboid crystals of hematoidin and finer yellow-brown pigment",
+		"Panel B: vacuolated macrophage containing coarse blue-black granular hemosiderin (siderophage)",
+		"Panel C: macrophage with an ingested intact red blood cell within a vacuole (erythrophage)",
+		"Foamy, vacuolated cytoplasm with eccentric oval to kidney-shaped nuclei in all macrophages",
+		"Background free red cells"
+	],
+	"describe_en": "Cytocentrifuge preparation of cerebrospinal fluid shows activated macrophages with abundant vacuolated cytoplasm. One macrophage contains golden-yellow rhomboid hematoidin crystals (panel A), another contains coarse blue-black hemosiderin granules (panel B), and a third contains a phagocytosed intact erythrocyte (panel C). Free red cells are present in the background. The combination of erythrophages, siderophages, and hematoidin crystals indicates red cell breakdown in vivo over days to weeks and is consistent with true subarachnoid or intracerebral hemorrhage rather than a traumatic tap.",
+	"ddx": [
+		{
+			"dx": "Traumatic lumbar puncture",
+			"vs": "A traumatic tap shows fresh red cells without erythrophagocytosis, hemosiderin, or hematoidin, since those require hours to weeks to form in vivo."
+		},
+		{
+			"dx": "Melanin-laden macrophages (melanoma)",
+			"vs": "Melanin is fine brown-black dusty pigment that does not form golden rhomboid crystals and is Prussian blue negative, often with atypical melanoma cells present."
+		},
+		{
+			"dx": "Crystallized stain precipitate",
+			"vs": "Stain precipitate lies on top of cells in multiple planes and is not golden, while hematoidin crystals are intracellular within macrophages."
+		},
+		{
+			"dx": "In vitro erythrophagocytosis in a delayed specimen",
+			"vs": "Delayed processing can produce erythrophages but not hemosiderin or hematoidin, which indicate longer in vivo hemorrhage."
+		}
+	],
+	"specimen": "CSF",
+	"stain": "Wright-Giemsa",
+	"match": "consistent",
+	"high_yield": true
+}

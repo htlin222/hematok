@@ -1,0 +1,22 @@
+{
+  "id": "60630",
+  "recognize_zh": "周邊血中有核分六葉以上的過度分葉中性球（hypersegmented neutrophil），紅血球大小差異大、見大卵圓紅血球（macro-ovalocytes），同時混有淚滴細胞與碎片狀紅血球（schistocytes），易被誤認為 TTP，但過度分葉與巨卵圓紅血球提示維生素 B12 缺乏。",
+  "features": [
+    "Hypersegmented neutrophil with six or more nuclear lobes",
+    "Marked anisocytosis with macro-ovalocytes alongside microcytic cells",
+    "Prominent poikilocytosis: schistocytes/fragments, teardrop cells, irregular and bite-like forms",
+    "Occasional polychromatophilic or dense-staining red cells",
+    "Platelets appear decreased in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with macro-ovalocytes, teardrop cells and numerous red cell fragments resembling schistocytes. A hypersegmented neutrophil with six or more lobes is present, and platelets appear reduced. The combination of red cell fragmentation and thrombocytopenia can mimic a thrombotic microangiopathy, but hypersegmented neutrophils and macro-ovalocytes point to ineffective megaloblastic hematopoiesis. Findings are consistent with severe vitamin B12 deficiency (pseudo-thrombotic microangiopathy); ADAMTS13 activity and B12/methylmalonic acid levels help confirm.",
+  "ddx": [
+    {"dx": "Thrombotic thrombocytopenic purpura", "vs": "TTP has schistocytes with a high reticulocyte count and severely reduced ADAMTS13, without macro-ovalocytes or hypersegmented neutrophils."},
+    {"dx": "Folate deficiency", "vs": "Folate deficiency is morphologically identical, so serum folate, B12 and methylmalonic acid levels are needed."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS may be macrocytic but shows hypolobated or pseudo-Pelger neutrophils rather than hypersegmentation, and does not correct with B12."},
+    {"dx": "Primary myelofibrosis", "vs": "Myelofibrosis shows teardrop cells with a leukoerythroblastic picture and splenomegaly rather than hypersegmented neutrophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

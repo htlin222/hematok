@@ -1,0 +1,21 @@
+{
+  "id": "3474",
+  "recognize_zh": "這是胸部電腦斷層軸切肺窗影像，箭頭指向右肺一區血管紋路稀少、較透亮的區域（區域性灌流減少，類似 Westermark sign）；肺窗無法看清肺動脈內的血栓充填缺損，需搭配縱膈窗 CTPA 判讀。",
+  "features": [
+    "Axial contrast-enhanced chest CT displayed in lung window at the level of the main bronchi",
+    "Arrow indicates a region of the right lung with relative hyperlucency and reduced vascular markings (regional oligemia)",
+    "Mild dependent posterior ground-glass density bilaterally",
+    "No consolidation, pleural effusion or pneumothorax evident on this slice",
+    "Pulmonary arterial filling defects cannot be assessed in this lung window"
+  ],
+  "describe_en": "Axial contrast-enhanced chest CT image in lung window shows an area of relative hyperlucency with attenuated vascular markings in the right lung (arrow), suggesting regional oligemia, with mild bilateral dependent ground-glass density and no consolidation, effusion or pneumothorax. These parenchymal findings are indirect and nonspecific; in the appropriate clinical context they are suggestive of pulmonary embolism with mosaic/regional hypoperfusion, and confirmation requires demonstration of intraluminal filling defects on CT pulmonary angiography in mediastinal window. A single slice limits assessment.",
+  "ddx": [
+    {"dx": "Emphysema / bullous disease", "vs": "Emphysema shows areas of low attenuation without visible walls and with destroyed parenchyma, usually upper-lobe predominant, rather than oligemia with preserved parenchyma."},
+    {"dx": "Air trapping from small airway disease", "vs": "Air trapping produces mosaic attenuation that accentuates on expiratory CT, whereas vascular mosaic perfusion does not change and vessels are small in the lucent areas."},
+    {"dx": "Chronic thromboembolic pulmonary hypertension", "vs": "CTEPH shows mosaic perfusion with webs, bands, enlarged central pulmonary arteries and bronchial collaterals."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

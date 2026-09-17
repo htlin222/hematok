@@ -1,0 +1,23 @@
+{
+  "id": "61081",
+  "recognize_zh": "大型淋巴瘤細胞 CD20 瀰漫膜陽性、CD10 陰性、BCL-6 與 MUM-1 核陽性、BCL-2 強陽性、c-MYC 部分核陽性且 Ki-67 很高，呈非生發中心（activated B-cell）型、MYC/BCL2 共表現的瀰漫性大 B 細胞淋巴瘤免疫表型，為中樞神經原發 DLBCL 的典型組合。",
+  "features": [
+    "Diffuse sheets of large lymphoid cells with vesicular nuclei in all panels",
+    "CD20: strong diffuse membranous positivity",
+    "CD10: negative in tumor cells",
+    "BCL-6 and MUM-1: nuclear positivity in the majority of tumor cells",
+    "BCL-2: strong diffuse cytoplasmic/membranous positivity; c-MYC: nuclear positivity in a substantial subset (estimated ≥40%)",
+    "Ki-67: high proliferation index"
+  ],
+  "describe_en": "Immunohistochemical panel of a diffuse large lymphoid infiltrate shows the tumor cells to be diffusely positive for CD20 and negative for CD10, with nuclear positivity for BCL-6 and MUM-1. BCL-2 is strongly and diffusely expressed, c-MYC shows nuclear staining in a substantial proportion of cells, and the Ki-67 proliferation index is high. By the Hans algorithm this is a non-germinal center B-cell–like profile with MYC/BCL2 dual expression. In a brain lesion, findings are consistent with primary diffuse large B-cell lymphoma of the CNS; FISH for MYC and BCL2 rearrangement should be considered.",
+  "ddx": [
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Protein co-expression is not equivalent to rearrangement; FISH demonstrating both MYC and BCL2 translocations is required."},
+    {"dx": "Systemic DLBCL with secondary CNS involvement", "vs": "Immunophenotype overlaps; systemic staging (PET-CT, bone marrow) excludes extracranial disease."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is CD10+, BCL-6+, BCL-2 negative with near-100% MYC and Ki-67 and shows a MYC translocation."},
+    {"dx": "EBV-positive DLBCL / immunodeficiency-associated lymphoma", "vs": "These show EBER positivity and often plasmablastic/polymorphous features in an immunocompromised host."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20, CD10, BCL-6, MUM-1, BCL-2, c-MYC, Ki-67",
+  "match": "consistent",
+  "high_yield": true
+}

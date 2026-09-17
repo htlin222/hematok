@@ -1,0 +1,21 @@
+{
+  "id": "61445",
+  "recognize_zh": "與上一張同一視野的反轉 DAPI 影像：灰階背景使染色體帶型清楚可辨，間期細胞見 2 融合 1 紅 1 綠，中期分裂相中融合訊號位於 der(22)（費城染色體）與 der(9)，符合 t(9;22)。",
+  "features": [
+    "Inverted DAPI (grayscale) image of the same interphase nucleus and metaphase as the DAPI color view",
+    "Inverted DAPI provides a pseudo-G-banding pattern that helps identify individual chromosomes",
+    "Interphase nucleus with two fusion (yellow), one red, and one green signal (2F1R1G)",
+    "Metaphase with fusion signals on two small/derivative chromosomes (der(22) and der(9)) and separate red and green signals on normal homologs",
+    "Chromosome labels are not shown in this version"
+  ],
+  "describe_en": "Inverted DAPI image of BCR/ABL1 dual-color dual-fusion FISH shows an interphase nucleus with a 2F1R1G signal pattern and a metaphase in which fusion signals are located on the derivative chromosomes, with single red and green signals on the normal chromosomes 9 and 22. Inverting the DAPI counterstain produces a banding pattern resembling G-bands, allowing chromosome identification for signal localization. The findings indicate a classic reciprocal t(9;22)(q34;q11.2) BCR::ABL1 rearrangement, consistent with CML in this clinical context.",
+  "ddx": [
+    {"dx": "der(9) deletion", "vs": "Loss of the reciprocal ABL1-BCR fusion on der(9) gives a 1F1R1G pattern instead of two fusions."},
+    {"dx": "Extra Philadelphia chromosome", "vs": "Duplication of der(22) produces an additional fusion signal (3F1R1G) in metaphase and interphase."},
+    {"dx": "Cryptic BCR::ABL1 insertion", "vs": "A small inserted fusion may show one small fusion on an otherwise normal-appearing chromosome with a normal karyotype."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: BCR/ABL1 DC-DF probe, inverted DAPI",
+  "match": "non-morphologic",
+  "high_yield": false
+}

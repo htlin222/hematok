@@ -1,0 +1,20 @@
+{
+  "id": "60348",
+  "recognize_zh": "G 帶核型圖為女性（XX）46 條染色體，箭頭分別指向 15 號與 17 號染色體各一條的長臂末端交換（der(15) 與 der(17)），即 t(15;17)(q24;q21)，形成 PML-RARA 融合，是 APL 的定義性異常。",
+  "features": [
+    "G-banded karyogram of a female cell (XX) with 46 chromosomes",
+    "Arrow at one chromosome 15 showing altered distal long-arm banding (der(15))",
+    "Arrow at one chromosome 17 showing altered/shortened distal long arm (der(17))",
+    "Interpretation: 46,XX,t(15;17)(q24;q21), producing PML-RARA",
+    "No additional numerical or obvious structural abnormalities in this metaphase"
+  ],
+  "describe_en": "This G-banded karyogram shows a female metaphase with 46 chromosomes and a reciprocal translocation between the long arms of chromosomes 15 and 17, highlighted by arrows on the derivative chromosomes 15 and 17. The karyotype is 46,XX,t(15;17)(q24;q21). This rearrangement fuses PML on 15q24 with RARA on 17q21 and is diagnostic of acute promyelocytic leukemia with PML-RARA, which responds to all-trans retinoic acid and arsenic trioxide. Because the translocation involves subtle terminal segments, confirmation by PML-RARA FISH or RT-PCR is standard, and it also detects cryptic or complex variants.",
+  "ddx": [
+    {"dx": "APL with variant RARA translocation (e.g., t(11;17) ZBTB16-RARA)", "vs": "Variant partners involve chromosomes other than 15 and may be resistant to ATRA; the involvement of chromosome 15 here and PML-RARA FISH distinguish classic APL."},
+    {"dx": "Cryptic PML-RARA insertion with normal karyotype", "vs": "Some APL cases lack a visible t(15;17) and are detected only by FISH or RT-PCR, so a normal karyotype does not exclude APL."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

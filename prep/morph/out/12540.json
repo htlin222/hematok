@@ -1,0 +1,21 @@
+{
+  "id": "12540",
+  "recognize_zh": "周邊血液抹片中三顆嗜中性球的外緣被一圈血小板環繞黏附（platelet satellitism），這是 EDTA 採血管體外現象，會讓自動計數誤判為血小板低下（pseudothrombocytopenia）。",
+  "features": [
+    "Rosettes of numerous platelets adherent around the cell membrane of neutrophils",
+    "Encircled neutrophils are morphologically normal with segmented nuclei and fine granules",
+    "Platelets elsewhere in the background are sparse",
+    "No platelet phagocytosis or large platelet clumps evident in this field",
+    "Red cells normocytic without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear from an EDTA-anticoagulated sample shows several neutrophils each rimmed by a ring of adherent platelets (platelet satellitism). The neutrophils and red cells otherwise appear morphologically unremarkable, and free platelets in the background are relatively sparse because many are sequestered around the granulocytes. Findings are consistent with platelet satellitism causing spurious (pseudo) thrombocytopenia; a repeat count on citrate- or heparin-anticoagulated blood is recommended.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Platelet clumping forms free aggregates of platelets in the smear, particularly at the feathered edge, rather than platelets rosetting around neutrophils."},
+    {"dx": "True immune thrombocytopenia", "vs": "ITP shows genuinely few, often large platelets without satellitism, and the low count persists in citrate-anticoagulated samples."},
+    {"dx": "Platelet phagocytosis by neutrophils", "vs": "Phagocytosed platelets appear within the neutrophil cytoplasm, sometimes in vacuoles, rather than adhering to the outer cell surface."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

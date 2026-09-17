@@ -1,0 +1,21 @@
+{
+  "id": "62440",
+  "recognize_zh": "視野中央的嗜中性球核分成約 6–7 葉（正常最多 5 葉），細胞質含淡紫色細顆粒；背景紅血球偏大且有橢圓形者，符合巨母細胞性貧血的過度分葉嗜中性球（hypersegmented neutrophil）。",
+  "features": [
+    "Mature neutrophil, slightly enlarged, with a nucleus divided into approximately 6-7 discrete lobes",
+    "Lobes connected by thin chromatin strands; coarse, condensed chromatin",
+    "Pale cytoplasm with fine neutrophilic granules",
+    "Background red cells are relatively large with some oval forms (suggesting macro-ovalocytes)"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil with abnormal nuclear hypersegmentation, the nucleus comprising approximately six to seven lobes joined by thin chromatin filaments, with normal-appearing fine cytoplasmic granulation. The surrounding erythrocytes are relatively large and include oval forms, although red cell size is best confirmed by MCV. A neutrophil with six or more lobes (or more than 5% with five lobes) is abnormal. Findings are consistent with a hypersegmented neutrophil, suggestive of megaloblastic anemia (vitamin B12 or folate deficiency) in the appropriate clinical setting.",
+  "ddx": [
+    {"dx": "Normal segmented neutrophil", "vs": "Normal neutrophils have 3-4 (at most 5) lobes, whereas this cell has six or more."},
+    {"dx": "Hereditary neutrophil hypersegmentation or drug effect (e.g., hydroxyurea, methotrexate)", "vs": "Morphology is identical, so distinction relies on normal B12/folate levels, family studies, or drug history."},
+    {"dx": "Macropolycyte (tetraploid neutrophil)", "vs": "Macropolycytes are roughly twice normal size with a proportionally large nucleus, whereas hypersegmentation defines lobe number rather than cell size, although both occur in megaloblastic states."},
+    {"dx": "Pelger-Huet anomaly", "vs": "Pelger-Huet neutrophils show the opposite change, with hyposegmented bilobed or round nuclei."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

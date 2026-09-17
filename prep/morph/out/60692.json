@@ -1,0 +1,22 @@
+{
+  "id": "60692",
+  "recognize_zh": "上排 MRI 顯示右側顳葉病灶在數週內由小片高訊號（A、B）擴大為顯影增強、具占位效應的腫塊（C）；下排 H&E（D）為瀰漫片狀的不成熟母細胞浸潤，E、F 免疫染色呈瀰漫陽性，符合顱內骨髓性肉瘤（myeloid sarcoma）快速進展。",
+  "features": [
+    "Axial MRI (A, B): hyperintense signal in the right anterior temporal region that enlarges on follow-up",
+    "Post-contrast MRI (C): large enhancing extra-axial/temporal mass with mass effect on the brainstem region",
+    "H&E (D): diffuse sheets of monotonous medium-sized immature cells with round to oval nuclei and scant cytoplasm",
+    "Immunostains (E, F): diffuse positivity in the tumor cells; specific markers not labeled and low color fidelity limits interpretation",
+    "No cohesive or glandular architecture to suggest carcinoma"
+  ],
+  "describe_en": "Serial axial MRI images (panels A-C) show a right temporal lesion that progresses from a subtle area of hyperintensity to a large contrast-enhancing mass with mass effect over approximately four weeks. Biopsy (H&E, panel D) shows a diffuse, sheet-like infiltrate of monotonous immature mononuclear cells with fine chromatin and scant cytoplasm, without cohesive epithelial architecture. The accompanying immunostains (panels E and F) show diffuse tumor-cell positivity, but the antigens are not labeled and the image color quality limits interpretation. In the appropriate context with myeloid marker expression (e.g., MPO, CD33, CD117), findings are consistent with intracranial myeloid sarcoma.",
+  "ddx": [
+    {"dx": "Primary CNS diffuse large B-cell lymphoma", "vs": "PCNSL shows larger cells with an angiocentric pattern and expresses CD20/PAX5, whereas myeloid sarcoma expresses MPO, CD33, CD117, or lysozyme."},
+    {"dx": "Lymphoblastic lymphoma/leukemia", "vs": "Morphologically similar blasts, but TdT/CD3 or CD19/CD79a positivity with MPO negativity indicates lymphoblastic lineage."},
+    {"dx": "Meningioma", "vs": "Meningioma is also an enhancing extra-axial dural mass on MRI but histologically shows whorls of spindled meningothelial cells rather than discohesive blasts."},
+    {"dx": "Small round blue cell tumors (e.g., metastatic small cell carcinoma)", "vs": "Small cell carcinoma shows nuclear molding, crush artifact, and keratin/neuroendocrine marker positivity, not myeloid antigens."}
+  ],
+  "specimen": "radiology",
+  "stain": "MRI; H&E; IHC (markers not labeled)",
+  "match": "partial",
+  "high_yield": false
+}

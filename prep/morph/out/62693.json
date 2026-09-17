@@ -1,0 +1,21 @@
+{
+  "id": "62693",
+  "recognize_zh": "淋巴球 gate 的 CD3 對 CD2 流式圖：綠色 CD3 陰性 NK 細胞 CD2 陽性（約 10^1），呈水平延伸的大族群；藍色 T 細胞 CD2、CD3 皆陽性，紫色族群 CD2、CD3 皆陰性（B 細胞）。",
+  "features": [
+    "Dot plot gated on lymphocytes: CD3-PC5.5 (x) versus CD2-PC7 (y)",
+    "Large green CD3-negative population with CD2 expression (~10^1), extending horizontally",
+    "Blue CD3-positive T cells with slightly brighter CD2",
+    "Magenta CD2-negative, CD3-negative population near origin (B cells)",
+    "NK population retains CD2, without loss"
+  ],
+  "describe_en": "Flow cytometric dot plot of the lymphocyte gate displays CD3 versus CD2. A large surface CD3-negative, CD2-positive population consistent with NK cells is present alongside CD2-positive, CD3-positive T cells and a small CD2/CD3 double-negative B-cell population. The NK cells retain CD2 expression at slightly lower intensity than T cells. Together with CD7, CD56 and CD57 expression on other tubes, findings support the expanded NK-cell population of the reported chronic lymphoproliferative disorder of NK cells.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells express surface CD3, whereas the expanded CD2-positive population here is surface CD3 negative."},
+    {"dx": "Reactive NK-cell lymphocytosis", "vs": "Reactive NK cells have the same CD2+CD3- phenotype, so persistence over 6 months and KIR restriction are needed to support clonality."},
+    {"dx": "Extranodal NK/T-cell lymphoma with blood involvement", "vs": "ENKTL cells are EBV positive, cytoplasmic CD3 epsilon positive and CD56 bright, and present with a destructive extranodal mass."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60108",
+  "recognize_zh": "周邊血液中一顆大型芽細胞，核染色質細緻、細胞質深藍且邊緣有多個不規則的細胞質泡狀突起（cytoplasmic blebs），血小板稀少；在唐氏症孩童身上要想到巨核母細胞（megakaryoblast）型的 ML-DS。",
+  "features": [
+    "Single large blast, roughly 2.5–3 times the diameter of a red cell",
+    "High N:C ratio with round to slightly irregular nucleus and finely dispersed, open chromatin",
+    "Deeply basophilic, agranular cytoplasm with irregular cytoplasmic blebs and pseudopod-like projections",
+    "Background red cells largely normocytic without significant poikilocytosis",
+    "Platelets appear reduced in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a single circulating blast in a background of largely unremarkable normocytic red cells, with few platelets seen. The blast is large with a high N:C ratio, a round to slightly irregular nucleus, and fine open chromatin. The cytoplasm is deeply basophilic and agranular with irregular cytoplasmic blebs, a feature characteristic of megakaryoblasts. In a child with Down syndrome, findings are consistent with myeloid leukemia associated with Down syndrome (megakaryoblastic phenotype).",
+  "ddx": [
+    {"dx": "Transient abnormal myelopoiesis (TAM)", "vs": "TAM shows identical megakaryoblasts but occurs in neonates within the first ~3 months and usually resolves spontaneously, so age and clinical course, not morphology, separate them."},
+    {"dx": "Acute megakaryoblastic leukemia in a non-Down syndrome patient", "vs": "Blast morphology is indistinguishable; absence of constitutional trisomy 21 and presence of other genetic lesions (e.g., CBFA2T3::GLIS2) define the non-DS entity."},
+    {"dx": "Lymphoblast", "vs": "Lymphoblasts typically have scant cytoplasm without blebbing and are TdT/CD19 or cCD3 positive, whereas megakaryoblasts express CD41/CD61."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

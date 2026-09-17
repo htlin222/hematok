@@ -1,0 +1,23 @@
+{
+  "id": "60751",
+  "recognize_zh": "組圖 A 切片為片狀中型非典型淋巴細胞、核不規則深染；B–D 免疫染色分別呈強細胞膜/細胞質、膜狀與細胞質顆粒狀陽性（符合 NK 細胞表型與細胞毒性顆粒）；E 小圖抹片細胞核圓或分葉、細胞質含嗜天青顆粒，配合 EBV 陽性即為侵襲性 NK 細胞白血病。",
+  "features": [
+    "Panel A (H&E): diffuse infiltrate of medium-sized atypical lymphoid cells with irregular hyperchromatic nuclei, scant to moderate pale cytoplasm and scattered apoptotic cells",
+    "Panel B (IHC): strong membranous/cytoplasmic staining in nearly all tumor cells",
+    "Panel C (IHC): moderate membranous staining in a diffuse population",
+    "Panel D (IHC): coarse granular cytoplasmic staining in a subset of cells, consistent with a cytotoxic granule marker",
+    "Panel E (smear inset): large atypical cells with round to lobulated nuclei, fine chromatin and pale cytoplasm with fine azurophilic granules",
+    "Specific antibodies in B-D are not labeled in the figure"
+  ],
+  "describe_en": "Composite figure: tissue section (A) shows a diffuse infiltrate of medium-sized atypical lymphoid cells with irregular hyperchromatic nuclei and scattered apoptotic cells. Immunohistochemical stains (B-D, antibodies not labeled in the image) show diffuse strong membranous/cytoplasmic positivity, diffuse membranous positivity and granular cytoplasmic positivity, respectively, the latter pattern typical of cytotoxic granule proteins. The smear inset (E) shows atypical large lymphoid cells with round to lobulated nuclei and azurophilic cytoplasmic granules. In a patient with fever, jaundice, cytopenias and EBV positivity, findings are consistent with EBV-associated aggressive NK-cell leukemia.",
+  "ddx": [
+    {"dx": "Extranodal NK/T-cell lymphoma with leukemic dissemination", "vs": "Shares the CD56+/cytotoxic/EBER+ phenotype but presents with a nasal or extranodal mass and angiocentric necrosis; clinical distribution rather than morphology separates them."},
+    {"dx": "Chronic lymphoproliferative disorder of NK cells", "vs": "Cells are small, mature large granular lymphocytes with an indolent course and are EBV negative."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "Shows sinusoidal infiltration by monotonous gamma-delta T cells that are EBV negative with isochromosome 7q."},
+    {"dx": "EBV-positive hemophagocytic lymphohistiocytosis without lymphoma", "vs": "Lacks a clonal/atypical NK-cell infiltrate, showing instead reactive lymphocytes and hemophagocytic histiocytes."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC; Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64434",
+  "recognize_zh": "胸水抹片中在一片均一的淋巴母細胞背景上，可見數個大型組織球，細胞質內吞噬了多個完整或退化的母細胞與空泡（母細胞吞噬）；搭配縱膈腔增寬、雙側腎臟腫大影像與骨髓 T 淋巴母細胞浸潤，符合 T-ALL。",
+  "features": [
+    "Panel E (pleural fluid): uniform background of medium-sized lymphoblasts with high N:C ratio and scant basophilic cytoplasm",
+    "Large histiocytes with abundant foamy/vacuolated cytoplasm containing engulfed intact and degenerating blasts",
+    "Panel C (PB): medium-sized blast with agranular basophilic cytoplasm, dispersed chromatin and irregular nucleus",
+    "Panel D (BM): numerous blasts with fine chromatin and scant cytoplasm replacing normal hematopoiesis",
+    "Panel A: chest radiograph with mediastinal widening and pleural effusions; panel B: CT with massive bilateral nephromegaly"
+  ],
+  "describe_en": "Peripheral blood shows occasional medium-sized blasts with high nuclear-to-cytoplasmic ratio, agranular basophilic cytoplasm and dispersed chromatin, and the bone marrow aspirate is extensively infiltrated by similar blasts. Pleural fluid cytology shows a monotonous population of lymphoblasts together with numerous histiocytes containing phagocytosed blasts at various stages of degradation, without phagocytosis of red cells. Imaging demonstrates mediastinal widening with pleural effusions and bilateral nephromegaly. With a cortical T-cell immunophenotype (cCD3+, CD7+, CD5+, CD1a+), findings are consistent with T-lymphoblastic leukemia with blast phagocytosis by histiocytes in the pleural effusion.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH shows histiocytes ingesting red cells, platelets and neutrophils with clinical HLH criteria, whereas here histiocytes engulf blasts selectively and HLH criteria were not met."},
+    {"dx": "Burkitt lymphoma with starry-sky macrophages", "vs": "Burkitt cells have deeply basophilic vacuolated cytoplasm and are CD10+/sIg+ B cells with MYC rearrangement, unlike these agranular CD1a+ T-lymphoblasts."},
+    {"dx": "Reactive lymphocytic pleural effusion (e.g. tuberculosis)", "vs": "Reactive effusions contain small mature lymphocytes with clumped chromatin rather than monotonous blasts with fine chromatin and nucleoli."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monocytic blasts have abundant grey-blue cytoplasm, folded nuclei and are nonspecific esterase-positive, whereas these blasts are scant-cytoplasm TdT/cCD3+ lymphoblasts."}
+  ],
+  "specimen": "body fluid",
+  "stain": "May-Grünwald-Giemsa; radiograph; CT",
+  "match": "consistent",
+  "high_yield": false
+}

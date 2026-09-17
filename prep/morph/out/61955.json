@@ -1,0 +1,22 @@
+{
+  "id": "61955",
+  "recognize_zh": "高倍下是大型多形性細胞成片，核形不規則、部分呈腎形或馬蹄形（hallmark cell 樣），細胞質豐富且呈泡沫空泡狀，間雜嗜酸性球與凋亡碎片，符合ALK陰性ALCL。",
+  "features": [
+    "Sheets of large pleomorphic cells with abundant pale, finely vacuolated to foamy cytoplasm",
+    "Irregular, indented, kidney-shaped to horseshoe-like nuclei with vesicular chromatin and distinct nucleoli",
+    "Occasional multinucleated or wreath-like nuclei",
+    "Scattered eosinophils, small lymphocytes and apoptotic debris in the background",
+    "Cohesive growth without a nested epithelial pattern"
+  ],
+  "describe_en": "High-power H&E shows sheets of large pleomorphic cells with abundant pale, vacuolated cytoplasm and irregular, indented to kidney-shaped nuclei with vesicular chromatin and distinct nucleoli, including forms resembling hallmark cells. Scattered eosinophils, small lymphocytes and apoptotic bodies are admixed. Findings are consistent with anaplastic large cell lymphoma; with uniform strong CD30 expression and absent ALK, this supports ALK-negative ALCL.",
+  "ddx": [
+    {"dx": "ALK-positive ALCL", "vs": "Morphology overlaps; ALK-positive ALCL shows ALK protein by IHC (usually nuclear and cytoplasmic with NPM1::ALK) and typically occurs in younger patients."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are scattered in a mixed background and are CD15+/weak PAX5+, while ALCL forms sheets and is PAX5-negative with cytotoxic markers."},
+    {"dx": "PTCL, NOS with CD30 expression", "vs": "PTCL NOS lacks the uniform strong CD30 and hallmark cells of ALCL; CD30 is heterogeneous in intensity and distribution."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "These are CD30-negative (except embryonal carcinoma) and express keratin or SOX10/S100 respectively."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

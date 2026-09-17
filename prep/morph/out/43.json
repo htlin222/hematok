@@ -1,0 +1,31 @@
+{
+  "id": "43",
+  "recognize_zh": "兒童骨髓切片明顯低細胞性、以脂肪為主，殘存造血呈斑片狀並以紅血球系小島為主；免疫染色顯示散在的小型巨核細胞，另一標記只標出零星細胞（未見芽細胞增加），抹片中可見雙核且胞質深藍的不成熟細胞，符合兒童難治性血球減少症（RCC）。",
+  "features": [
+    "Low power: markedly hypocellular core for age, predominantly fat with patchy residual hematopoiesis; separate more cellular aspirate clot fragments",
+    "Residual hematopoiesis in small patchy foci, mostly erythroid islands with immature erythroid precursors and relatively few maturing granulocytes",
+    "IHC (megakaryocytic marker, unlabeled): scattered megakaryocytes of variable size including small forms",
+    "IHC (unlabeled, likely CD34): only scattered isolated positive cells, without blast clusters",
+    "Aspirate: immature cells with fine chromatin and binucleate cells with deeply basophilic cytoplasm and cytoplasmic blebs (possibly dysplastic erythroid precursor or small megakaryocyte)"
+  ],
+  "describe_en": "The bone marrow core biopsy is markedly hypocellular for age, composed largely of fat with patchy foci of residual hematopoiesis; separately submitted clot fragments are more cellular. At higher power the residual hematopoiesis is predominantly erythroid, forming small islands of immature precursors, with relatively reduced granulopoiesis. Immunohistochemistry highlights scattered megakaryocytes including small forms, and a second stain (not labeled, likely CD34) marks only isolated single cells without clusters, supporting no increase in blasts. Aspirate smears show immature cells with fine chromatin and occasional binucleate precursors with deeply basophilic, blebbed cytoplasm; the degree of dysplasia is difficult to quantify from these fields. In an 8-year-old with pancytopenia and an abnormal karyotype involving der(5)t(1;5), findings are consistent with refractory cytopenia of childhood.",
+  "ddx": [
+    {"dx": "Severe aplastic anemia", "vs": "SAA marrow is often nearly empty of hematopoiesis with no patchy immature erythroid islands, no dysplasia and no clonal cytogenetic abnormality, whereas RCC shows patchy left-shifted erythropoiesis, small megakaryocytes and here an abnormal karyotype."},
+    {"dx": "Inherited bone marrow failure syndrome (e.g., Fanconi anemia)", "vs": "Morphology overlaps with hypocellular RCC; exclusion requires chromosome breakage testing, telomere length and germline genetic studies rather than histology."},
+    {"dx": "MDS with excess blasts / childhood MDS-EB", "vs": "MDS-EB has at least 2% blood or 5% marrow blasts and CD34-positive blast clusters, whereas here CD34-type staining shows only isolated cells."},
+    {"dx": "Paroxysmal nocturnal hemoglobinuria-associated marrow failure", "vs": "PNH is identified by flow cytometric loss of GPI-anchored proteins (FLAER, CD59) rather than morphology, and lacks the clonal der(5)t(1;5) karyotype."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC (unlabeled markers, red chromogen)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "IHC (red chromogen, megakaryocytic marker): scattered megakaryocytes including small forms in hypocellular marrow",
+    "Low power: markedly hypocellular fatty core with separate cellular clot fragments below",
+    "Medium power: patchy residual hematopoiesis among fat cells",
+    "High power: small islands of immature erythroid precursors with few maturing granulocytes",
+    "IHC (red chromogen, likely CD34): only scattered isolated positive cells without clusters",
+    "BM aspirate: immature cells with fine chromatin and occasional abnormal nuclear forms",
+    "BM aspirate: binucleate immature cell with deeply basophilic, blebbed cytoplasm"
+  ]
+}

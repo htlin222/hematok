@@ -1,0 +1,22 @@
+{
+  "id": "64065",
+  "recognize_zh": "兩顆相鄰的母細胞（blast），核質比高、染色質細緻；右側細胞核旁有一個淡染的杯狀凹陷（cup-like invagination），細胞質內可見多條細長的 Auer 小體（Auer rods），符合伴杯狀母細胞的急性骨髓性白血病（AML）。",
+  "features": [
+    "Two large blasts molded against each other, several times the size of adjacent red cells",
+    "High N:C ratio with fine, dispersed chromatin",
+    "Right cell: pale, clear nuclear invagination creating a cup-like/fish-mouth appearance",
+    "Multiple slender, rod-shaped linear inclusions consistent with Auer rods overlying the cells",
+    "Scant pale cytoplasm at the cell edges; background normochromic red cells and a few platelets"
+  ],
+  "describe_en": "Peripheral blood (or aspirate) smear shows two large blasts with high nuclear-to-cytoplasmic ratios and finely dispersed chromatin. One blast has a pale cup-like nuclear invagination, and multiple slender linear inclusions consistent with Auer rods are present. The cells are closely apposed and molded, and no maturing granulocytes are seen in this field. Image focus limits assessment of nucleoli and granules. Findings are consistent with acute myeloid leukemia with cup-like blasts, a morphology associated with NPM1 mutation and/or FLT3-ITD.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia (APL)", "vs": "APL cells have bilobed or butterfly nuclei with heavy azurophilic granules or faggot bundles of Auer rods, and PML::RARA must be excluded urgently when multiple Auer rods are seen."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts never contain Auer rods, which establish myeloid lineage."},
+    {"dx": "AML with maturation, t(8;21)", "vs": "t(8;21) blasts have a single long slender Auer rod, salmon-colored perinuclear granules and a prominent hof with maturing neutrophils, rather than cup-like invaginations."},
+    {"dx": "Monocytic leukemia", "vs": "Monoblasts/promonocytes have folded nuclei with abundant grey-blue cytoplasm and rarely Auer rods, and are nonspecific esterase positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61470",
+  "recognize_zh": "薄層血片中大量大小正常的紅血球內含細小環狀體，常一顆紅血球內有 2–4 個環、雙染色質點與貼邊（appliqué）型；中央可見香蕉形（新月形）配子體兩個重疊於同一紅血球，這些組合是惡性瘧原蟲（P. falciparum）的特徵。",
+  "features": [
+    "High parasitemia of delicate small ring forms in normal-sized red cells without enlargement or Schüffner stippling",
+    "Multiple rings within single erythrocytes (up to 3-4), double chromatin dots and marginal appliqué (accolé) forms",
+    "Crescent (banana-shaped) gametocytes: two overlapping within one red cell centrally, another at the right edge",
+    "No mature trophozoites or schizonts seen in peripheral blood",
+    "Segmented neutrophil and scattered platelet clumps in background"
+  ],
+  "describe_en": "Thin peripheral blood smear shows numerous erythrocytes infected by small, delicate ring-form trophozoites; infected red cells are not enlarged and lack Schüffner dots. Many cells contain multiple rings, including rings with double chromatin dots and marginal appliqué forms. Crescent-shaped gametocytes are present, including two overlapping gametocytes within a single erythrocyte. No mature trophozoites or schizonts are seen. Findings are consistent with Plasmodium falciparum malaria with high parasitemia; percent parasitemia should be quantified and reported urgently.",
+  "ddx": [
+    {"dx": "Plasmodium vivax / ovale", "vs": "Vivax and ovale infect enlarged red cells with Schüffner dots, show ameboid trophozoites and schizonts, and have round rather than crescent gametocytes."},
+    {"dx": "Plasmodium knowlesi", "vs": "Knowlesi rings can mimic falciparum but lack crescent gametocytes and show band-form trophozoites and schizonts in blood."},
+    {"dx": "Babesia species", "vs": "Babesia forms pleomorphic rings and tetrad (Maltese cross) forms without hemozoin pigment or gametocytes."},
+    {"dx": "Platelets overlying red cells / stain precipitate", "vs": "Superimposed platelets lack a ring-shaped cytoplasm with a chromatin dot and sit in a different focal plane."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

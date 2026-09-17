@@ -1,0 +1,21 @@
+{
+  "id": "62687",
+  "recognize_zh": "PD-L1 染色中，密集的小至中型淋巴瘤細胞本身為陰性（藍色核），陽性僅見於散在的組織球/樹突狀細胞的細胞膜與細胞質，左側較多；表示 PD-L1 表現在腫瘤微環境而非腫瘤細胞。",
+  "features": [
+    "Dense population of small-to-medium lymphoid cells with round nuclei, PD-L1 negative",
+    "Membranous and granular cytoplasmic PD-L1 staining in scattered larger cells with abundant cytoplasm (histiocytes/dendritic cells)",
+    "Positive cells clustered along the left edge and in small groups elsewhere",
+    "One ring-like membranous positive cell with central round nucleus near center (likely histiocyte)",
+    "No diffuse tumor-cell membranous staining"
+  ],
+  "describe_en": "PD-L1 immunohistochemistry shows a dense population of small-to-medium lymphoid cells that are negative for PD-L1. Membranous and cytoplasmic staining is limited to scattered larger cells with abundant cytoplasm, consistent with histiocytes or dendritic cells, which are more concentrated along the left side of the field. Neoplastic lymphoid cells do not express PD-L1. The pattern of PD-L1 restricted to the microenvironment is typical of follicular lymphoma and is consistent with the reported case.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "CHL shows strong membranous PD-L1 on large Hodgkin/Reed-Sternberg cells due to 9p24.1 amplification, not only on histiocytes."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL tumor cells frequently show PD-L1 expression via 9p24.1 alterations, unlike the negative lymphoma cells here."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "EBV-positive DLBCL often shows PD-L1 on large tumor cells and EBER positivity, whereas here the neoplastic cells are negative."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: PD-L1",
+  "match": "consistent",
+  "high_yield": false
+}

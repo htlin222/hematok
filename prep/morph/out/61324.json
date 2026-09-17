@@ -1,0 +1,22 @@
+{
+  "id": "61324",
+  "recognize_zh": "組合圖中 B 可見大型多形性細胞與多核 Reed-Sternberg 樣細胞，易被誤認為古典何杰金淋巴瘤；但 C-F、H 免疫染色中大型細胞呈片狀強陽性，G 可見成片的大型腫瘤細胞，右下 TRG 基因重組分析出現單株峰，支持 T 細胞淋巴瘤（ALCL）。",
+  "features": [
+    "Panel A: low-power H&E with diffuse effacement by a mixed cellular infiltrate",
+    "Panel B: large pleomorphic cells including multinucleated Reed-Sternberg-like cells",
+    "Panels C-F: immunostains with strong staining of large neoplastic cells in cohesive clusters and sheets (antibodies not labeled)",
+    "Panel G: cellular area with sheets of large atypical cells",
+    "Panel H: strong membranous/cytoplasmic staining of sheets of large cells",
+    "TRG capillary electrophoresis showing a dominant clonal peak"
+  ],
+  "describe_en": "This composite figure shows a lymph node effaced by an infiltrate that on low power (A) is mixed, but at high power (B) contains large pleomorphic cells including multinucleated Reed-Sternberg-like forms. Immunostains (C-F, H; specific antibodies not labeled in the figure) highlight large neoplastic cells in cohesive clusters and sheets rather than scattered isolated cells, and a separate area (G) shows sheets of large atypical cells. T-cell receptor gamma PCR demonstrates a clonal peak. The combination of sheet-like growth and T-cell clonality favors anaplastic large cell lymphoma mimicking classic Hodgkin lymphoma; confirmation with CD30, ALK, EMA, CD15, PAX5, and T-cell markers is required.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL shows scattered HRS cells that are PAX5 weakly positive, CD45-negative, and lack clonal TCR rearrangement, rather than sheets of CD30-positive T cells."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with HRS-like cells", "vs": "PTCL-NOS lacks uniform strong CD30 and hallmark cells, and HRS-like B cells in PTCL are EBV-positive bystanders."},
+    {"dx": "ALK-negative versus ALK-positive ALCL", "vs": "These are morphologically similar and are separated by ALK immunohistochemistry or ALK rearrangement studies."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (unlabeled); TRG PCR",
+  "match": "consistent",
+  "high_yield": false
+}

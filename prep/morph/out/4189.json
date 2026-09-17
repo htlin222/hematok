@@ -1,0 +1,21 @@
+{
+  "id": "4189",
+  "recognize_zh": "周邊血液中有數顆異常淋巴球，其中一顆核呈多葉、分葉凹陷狀，類似花瓣（flower cell），另一顆核形不規則、染色質緻密，提示 ATLL；需以 HTLV-1 血清學確認。",
+  "features": [
+    "Atypical medium-sized lymphocytes with scant to moderate basophilic cytoplasm",
+    "One cell with polylobated, clover-leaf nucleus (flower cell)",
+    "Other cells with irregular, indented nuclei and condensed chromatin",
+    "Nucleoli inconspicuous",
+    "Background red cells unremarkable with scattered platelets and a platelet clump"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered atypical lymphoid cells of medium size with condensed chromatin and irregular nuclear contours, including a cell with a polylobated, flower-like nucleus. Nucleoli are not prominent. Red cells and platelets are unremarkable apart from a small platelet clump. Findings are suggestive of adult T-cell leukemia/lymphoma; confirmation with flow cytometry (CD4+, CD25+, CD7-) and HTLV-1 serology is required.",
+  "ddx": [
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform grooved nuclei rather than deeply polylobated flower shapes, and patients are HTLV-1 negative."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells have round or slightly irregular nuclei with a nucleolus and cytoplasmic blebs, and are CD7 bright."},
+    {"dx": "Reactive lymphocytes", "vs": "Reactive lymphocytes have abundant cytoplasm hugging red cells and lack clover-leaf nuclear lobation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

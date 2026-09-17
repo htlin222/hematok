@@ -1,0 +1,22 @@
+{
+  "id": "61026",
+  "recognize_zh": "左上方淋巴球的細胞質量多、淡藍透明，內含少數細小的嗜天青（azurophilic）紫紅色顆粒，核圓、染色質濃縮，是大顆粒淋巴球（LGL）；右下方淋巴球較小、細胞質少，可作為一般小淋巴球的對照。",
+  "features": [
+    "Upper-left cell: medium-to-large lymphocyte with abundant pale blue cytoplasm and irregular cell outline",
+    "Several fine, discrete azurophilic granules scattered in the cytoplasm",
+    "Round-to-slightly indented nucleus with condensed, clumped chromatin and no visible nucleolus",
+    "Lower-right cell: smaller lymphocyte with a thin rim of cytoplasm and few or no visible granules",
+    "Background red cells normocytic and normochromic; a single platelet at lower left"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic, normochromic red cells with two lymphocytes in the field. The upper lymphocyte is a large granular lymphocyte with abundant pale cytoplasm containing scattered fine azurophilic granules and a round nucleus with mature, clumped chromatin. The lower lymphocyte is smaller with a narrow cytoplasmic rim. A single granular lymphocyte is a normal finding; a sustained absolute LGL count above about 2 x 10^9/L, with cytopenias, would warrant flow cytometry and TCR clonality studies to evaluate for T-LGL leukemia.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "Morphologically identical cells; diagnosis requires persistent LGL expansion with a clonal CD3+/CD8+/CD57+ population (often STAT3 mutated) rather than an isolated LGL."},
+    {"dx": "Reactive (atypical) lymphocyte", "vs": "Reactive lymphocytes are larger with more basophilic cytoplasm that hugs adjacent red cells and usually lack discrete azurophilic granules."},
+    {"dx": "Monocyte", "vs": "Monocytes have folded/lobulated nuclei with lacy chromatin and grey-blue vacuolated cytoplasm with ground-glass rather than discrete granules."},
+    {"dx": "Hairy cell", "vs": "Hairy cells have circumferential thin cytoplasmic projections and oval/bean-shaped nuclei with softer chromatin, without azurophilic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

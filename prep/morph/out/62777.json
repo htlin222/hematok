@@ -1,0 +1,22 @@
+{
+  "id": "62777",
+  "recognize_zh": "淋巴結呈濾泡狀結構，濾泡內為 CD20+、CD10+ 的 B 細胞並有 CD21 陽性濾泡樹突細胞網；FISH 同時看到 IGH::BCL2 融合訊號與 MYC 分離訊號（箭頭），代表具 MYC 與 BCL2 重排的「雙打擊」濾泡性淋巴瘤。",
+  "features": [
+    "Lymph node with vaguely nodular/follicular architecture at low power",
+    "Follicles composed of fairly monotonous medium-sized lymphoid cells with round nuclei and small nucleoli",
+    "CD20-positive, CD10-positive neoplastic B cells filling the follicles; CD3-positive T cells mainly interfollicular",
+    "CD21 highlights expanded follicular dendritic cell meshworks",
+    "FISH: IGH::BCL2 fusion signals and separated MYC break-apart signals (arrows)"
+  ],
+  "describe_en": "Lymph node sections show a vaguely nodular follicular proliferation that is composed of fairly monotonous medium-sized lymphoid cells with round nuclei. The neoplastic follicles are CD20- and CD10-positive with CD21-positive follicular dendritic cell meshworks, while CD3-positive T cells are largely interfollicular. FISH demonstrates IGH::BCL2 fusion signals and MYC rearrangement by break-apart probe. Findings are consistent with a follicular-pattern B-cell lymphoma harboring both MYC and BCL2 rearrangements; grading and correlation with any diffuse areas are required, as such cases may qualify as high-grade B-cell lymphoma with MYC and BCL2 rearrangements.",
+  "ddx": [
+    {"dx": "Conventional follicular lymphoma (BCL2-rearranged only)", "vs": "Morphology may be identical, so separation requires FISH showing absence of MYC rearrangement."},
+    {"dx": "Diffuse large B-cell lymphoma/high-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "These show a diffuse growth pattern with loss of follicular dendritic cell meshworks, whereas this case retains a CD21-positive follicular architecture."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers are BCL2-negative, polarized with tingible body macrophages, and lack IGH::BCL2 fusion."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma has diffuse starry-sky growth, near-100% Ki-67, BCL2 negativity, and MYC rearrangement without BCL2 translocation."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD20, CD3, CD10, CD21; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

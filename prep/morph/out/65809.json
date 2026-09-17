@@ -1,0 +1,22 @@
+{
+  "id": "65809",
+  "recognize_zh": "骨髓切片完全被中大型、核圓至卵圓、染色質空泡狀的非造血腫瘤細胞取代，細胞被纖細的纖維血管間隔分隔成巢狀，視野中看不到正常造血組織，符合轉移性腫瘤浸潤骨髓。",
+  "features": [
+    "Diffuse replacement of marrow space by sheets and nests of medium-to-large tumor cells",
+    "Round to oval nuclei with vesicular to finely granular chromatin and occasional small nucleoli",
+    "Scant to moderate amphophilic cytoplasm, some cells with clear cytoplasmic vacuoles",
+    "Delicate fibrovascular septa dividing cells into nests/alveolar-like compartments",
+    "No recognizable residual hematopoietic elements (erythroid, myeloid, megakaryocytes) in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy shows effacement of the marrow space by a diffuse infiltrate of medium-to-large tumor cells with round-to-oval vesicular nuclei, occasional small nucleoli, and scant to moderate amphophilic cytoplasm. The cells are arranged in sheets and nests separated by delicate fibrovascular septa, and no residual normal hematopoiesis is identified in this field. The nested architecture and cytology favor a non-hematopoietic neoplasm, but the specific lineage cannot be determined on H&E. Findings are consistent with extensive marrow involvement by a metastatic malignancy; an immunohistochemical panel (e.g., CD45, pancytokeratin, S100/SOX10, synaptophysin, desmin/myogenin, CD99) is required for classification.",
+  "ddx": [
+    {"dx": "Acute leukemia or high-grade lymphoma", "vs": "Hematolymphoid infiltrates are discohesive, lack nested fibrous septation, and express CD45 with lineage markers."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma often forms glands or cohesive nests with desmoplasia and is pancytokeratin positive."},
+    {"dx": "Small round cell tumors (neuroblastoma, rhabdomyosarcoma, Ewing sarcoma)", "vs": "These can show nested or alveolar patterns and are separated by PHOX2B/synaptophysin, myogenin/desmin, or CD99/NKX2.2 immunostains and molecular testing."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma shows prominent nucleoli, possible pigment, and S100/SOX10/HMB45 positivity."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

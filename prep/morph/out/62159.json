@@ -1,0 +1,22 @@
+{
+  "id": "62159",
+  "recognize_zh": "中央一顆單核球（monocyte）胞質內含一顆完整紅血球並伴空泡，即紅血球吞噬（erythrophagocytosis）；背景紅血球成團聚集，提示冷凝集素造成的自體免疫溶血。",
+  "features": [
+    "Monocyte/macrophage with vacuolated grey-blue cytoplasm containing an intact engulfed red cell",
+    "Irregular clumps of overlapping red cells consistent with RBC agglutination",
+    "Many crenated red cells (echinocytes), likely drying/storage artifact",
+    "Band and segmented neutrophils without toxic change; a small lymphocyte adjacent to the phagocyte",
+    "Scattered normal-appearing platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells arranged in irregular clumps suggestive of agglutination, with numerous crenated forms that likely reflect artifact. A monocyte with vacuolated cytoplasm contains an intact phagocytosed erythrocyte. Accompanying neutrophils and a lymphocyte are morphologically unremarkable, and platelets are present. Erythrophagocytosis in blood, together with red cell agglutination, is consistent with antibody-mediated hemolysis such as cold agglutinin disease; correlation with direct antiglobulin test (C3d) and cold agglutinin titer is recommended.",
+  "ddx": [
+    {"dx": "Rouleaux formation", "vs": "Rouleaux are linear stacks of red cells like coins, whereas agglutination forms irregular three-dimensional clumps that disperse on warming in cold agglutinin disease."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA typically shows prominent microspherocytes with IgG-positive DAT rather than cold-reactive agglutinates with C3d-only DAT."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH is diagnosed on marrow/tissue with activated histiocytes engulfing multiple cell lineages and clinical criteria, not a single erythrophagocytic monocyte with agglutination in blood."},
+    {"dx": "Paroxysmal cold hemoglobinuria", "vs": "PCH can also show erythrophagocytosis by neutrophils but is identified by a biphasic Donath-Landsteiner IgG antibody rather than IgM cold agglutinins."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

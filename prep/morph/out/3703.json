@@ -1,0 +1,22 @@
+{
+  "id": "3703",
+  "recognize_zh": "組織切片中是一大片瀰漫浸潤、黏合性差的中大型腫瘤細胞，核卵圓到梭形、大小不一，染色質細、可見核分裂與少數多形性大細胞；在 AML 移植後復發的病史下，符合白血病浸潤（骨髓肉瘤型態）。僅憑 H&E 無法確定骨髓系來源，需要免疫染色。",
+  "features": [
+    "Diffuse sheet of medium-to-large mononuclear cells with ovoid to spindled nuclei in a vaguely streaming pattern",
+    "Moderate nuclear pleomorphism with fine chromatin and occasional small nucleoli",
+    "Scattered large, bizarre hyperchromatic cells and mitotic figures",
+    "Scant eosinophilic to amphophilic cytoplasm with indistinct cell borders",
+    "Few interspersed eosinophilic cells/RBCs; no normal organ architecture preserved in this field"
+  ],
+  "describe_en": "Section at intermediate power shows a diffuse, sheet-like infiltrate of medium-to-large cells with ovoid to spindled nuclei, fine chromatin, and scant cytoplasm arranged in a vaguely streaming pattern. There is moderate pleomorphism with scattered large hyperchromatic cells and mitoses, and no residual normal architecture is seen. The morphology is not lineage-specific. In the clinical context of recurrent AML after stem cell transplant, findings are suggestive of leukemic infiltration (myeloid sarcoma), to be confirmed by immunohistochemistry for CD34, CD117, MPO, CD68/lysozyme, and exclusion of carcinoma, melanoma, and sarcoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma or PTLD", "vs": "Lymphoma cells are round with vesicular chromatin and are CD20/PAX5-positive, and PTLD is often EBER-positive, whereas myeloid sarcoma expresses MPO, CD117, or lysozyme."},
+    {"dx": "Undifferentiated sarcoma", "vs": "Sarcomas lack hematopoietic markers (CD45, CD43, MPO) and often show a fibrillary or myxoid stroma."},
+    {"dx": "Metastatic poorly differentiated carcinoma or melanoma", "vs": "Carcinoma is keratin-positive and melanoma is S100/SOX10-positive, while both are CD45- and MPO-negative."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is CD4+/CD56+/CD123+/TCF4+ and MPO-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

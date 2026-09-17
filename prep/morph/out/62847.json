@@ -1,0 +1,21 @@
+{
+  "id": "62847",
+  "recognize_zh": "左側 H&E 看起來是混雜的高密度骨髓，漿細胞不明顯；右側 CD138 染色卻出現大片、成群聚集的棕色膜狀陽性細胞，顯示漿細胞呈叢集（clusters）分布，這是 H&E 容易漏掉、要靠 CD138 才看得出來的骨髓瘤浸潤。",
+  "features": [
+    "Side-by-side H&E and CD138 immunostain of a hypercellular marrow core",
+    "H&E: mixed population of round cells with eccentric nuclei and eosinophilic cytoplasm among myeloid and erythroid elements; plasma cells not conspicuous",
+    "CD138: strong membranous (and cytoplasmic) staining of cells forming tight, confluent clusters and sheets",
+    "CD138-positive clusters occupy a substantial fraction of the field (roughly 30-50% visually)",
+    "CD138-negative intervening cells represent residual hematopoiesis"
+  ],
+  "describe_en": "H&E-stained bone marrow trephine shows a hypercellular marrow with a mixed population in which plasma cells are not readily distinguished from maturing myeloid cells. The corresponding CD138 immunostain highlights numerous plasma cells with strong membranous staining arranged in tight, confluent clusters and small sheets, occupying a substantial proportion of the field. Interstitial clustering of this degree is an abnormal pattern, and light chain studies are needed to confirm clonality. Findings are consistent with marrow involvement by plasma cell myeloma.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are fewer, scattered singly or around vessels, and polytypic for kappa and lambda rather than forming large confluent clusters."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma can also be CD138 positive, but it is cytokeratin positive and forms cohesive nests with desmoplasia, whereas plasma cells are cytokeratin negative and light chain restricted."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a background of CD20-positive small B cells with only a minor plasma cell component rather than dominant CD138-positive sheets."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD138",
+  "match": "consistent",
+  "high_yield": true
+}

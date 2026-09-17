@@ -1,0 +1,22 @@
+{
+  "id": "61463",
+  "recognize_zh": "骨髓切片免疫染色中，陽性（棕色）細胞呈線狀、條索狀聚集於竇狀隙內（intrasinusoidal），與周圍陰性的造血細胞分開，這種竇內分布型態是肝脾 T 細胞淋巴瘤的典型線索。",
+  "features": [
+    "Bone marrow core with preserved fat and hypercellular hematopoietic tissue",
+    "Immunostain highlights cohesive clusters of positive cells arranged in linear and branching cords, conforming to sinusoidal spaces",
+    "Positive cells are small to medium-sized and densely packed within dilated sinusoids",
+    "Intervening interstitial hematopoietic cells are largely negative",
+    "Subtle intrasinusoidal distribution would be difficult to appreciate on H&E alone"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostain shows a hypercellular marrow in which positive lymphoid cells are distributed predominantly within sinusoids, forming linear, branching and cord-like aggregates between fat spaces. The intervening hematopoietic elements are negative. The specific antibody is not labeled; the pattern is typical of a T-cell marker such as CD3. An intrasinusoidal T-cell infiltrate of this type is characteristic of hepatosplenic T-cell lymphoma in the appropriate clinical and immunophenotypic context (CD3+, CD4-/CD8-, TCR gamma-delta, cytotoxic TIA-1+/granzyme B-, isochromosome 7q).",
+  "ddx": [
+    {"dx": "T-large granular lymphocytic leukemia", "vs": "Also shows intrasinusoidal CD8+ T-cell rows but the cells are CD8+ and TCR alpha-beta with activated cytotoxic markers, lacking i(7q)."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Cells are surface CD3-negative, CD56+, and EBER-positive, with a more interstitial and less sinusoid-restricted pattern."},
+    {"dx": "Intravascular large B-cell lymphoma", "vs": "Intrasinusoidal cells are large and CD20+/PAX5+ rather than small to medium T cells."},
+    {"dx": "Reactive intrasinusoidal T cells", "vs": "Reactive T cells are scattered and sparse rather than forming dense cohesive cords, and lack clonal TCR rearrangement."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: unlabeled T-cell marker (likely CD3)",
+  "match": "consistent",
+  "high_yield": true
+}

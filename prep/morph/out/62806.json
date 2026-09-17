@@ -1,0 +1,21 @@
+{
+  "id": "62806",
+  "recognize_zh": "骨髓抹片同時看到細染色質、核仁明顯的母細胞，以及帶多個圓形包涵體（Russell bodies/Mott cell）與雙核的漿細胞（箭頭）；腎絲球內有無結構的粉紅色沉積物，提示類澱粉沉積，三種病變並存。",
+  "features": [
+    "Aspirate with a mixed population of large blasts (fine chromatin, prominent nucleoli, scant basophilic cytoplasm) and plasma cells (A, B)",
+    "Atypical plasma cells with eccentric nuclei, perinuclear hof, binucleation and multiple round cytoplasmic inclusions (Mott cell/Russell bodies, arrowheads)",
+    "Bone marrow biopsy with sheets of mononuclear cells including plasmacytoid forms (C, arrowhead)",
+    "Renal glomerulus with expanded mesangium and capillary walls by amorphous eosinophilic material (D), suggestive of amyloid; confirmation requires Congo red",
+    "Low image resolution limits precise quantification of each population"
+  ],
+  "describe_en": "Bone marrow aspirate smears show two distinct neoplastic populations: large blasts with finely dispersed chromatin, prominent nucleoli and scant basophilic cytoplasm, and atypical plasma cells, some binucleate or containing multiple Russell bodies (Mott cells). The core biopsy shows a dense infiltrate of mononuclear cells with plasmacytoid features. A renal biopsy shows glomeruli with mesangial and capillary wall expansion by amorphous eosinophilic material. Findings are suggestive of concurrent acute myeloid leukemia and plasma cell myeloma with renal amyloid deposition; confirmation by flow cytometry, CD138/light-chain studies and Congo red staining is needed.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma with plasmablastic morphology alone", "vs": "Plasmablasts retain eccentric nuclei and cytoplasmic immunoglobulin with CD138 expression, whereas myeloblasts are CD34/CD117/MPO positive and CD138 negative."},
+    {"dx": "Reactive plasmacytosis in AML", "vs": "Reactive plasma cells are polytypic by kappa/lambda staining, while myeloma cells show light-chain restriction and aberrant CD56/CD19-negative phenotype."},
+    {"dx": "Light chain deposition disease or diabetic nodular glomerulosclerosis", "vs": "These glomerular lesions are Congo red negative without apple-green birefringence, unlike amyloid."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, renal biopsy special stain",
+  "match": "consistent",
+  "high_yield": false
+}

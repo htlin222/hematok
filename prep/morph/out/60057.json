@@ -1,0 +1,22 @@
+{
+  "id": "60057",
+  "recognize_zh": "左上 H&E 高倍可見一片中型母細胞，核卵圓或不規則、染色質細緻、可見有絲分裂像；其餘三格免疫染色顯示這群細胞瀰漫 CD34 陽性（膜）、CD79a 陽性（B 系）與 TdT 核陽性（前驅細胞），合併起來確認為 B 淋巴母細胞白血病。",
+  "features": [
+    "H&E: sheets of intermediate-sized blasts with oval to irregular nuclei, fine chromatin, small nucleoli, and scant pale cytoplasm",
+    "H&E: scattered mitotic figures, interspersed small dark residual cells, and a hemosiderin-laden macrophage",
+    "IHC CD34: diffuse membranous/cytoplasmic positivity in the blast population",
+    "IHC CD79a: diffuse cytoplasmic positivity supporting B lineage",
+    "IHC TdT: strong nuclear positivity in nearly all blasts, confirming precursor stage"
+  ],
+  "describe_en": "High-power view of the bone marrow core biopsy shows sheets of intermediate-sized blasts with oval to irregular nuclei, finely dispersed chromatin, small nucleoli, and scant cytoplasm, with scattered mitotic figures and a hemosiderin-laden macrophage among few residual hematopoietic cells. Immunohistochemistry shows that the blasts are diffusely positive for CD34, CD79a, and nuclear TdT. The immature precursor phenotype with B-lineage marker expression is consistent with extensive marrow involvement by B-lymphoblastic leukemia; with the reported aberrant CD13 on flow cytometry and t(9;22), findings support B-lymphoblastic leukemia with BCR::ABL1 fusion.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "Blasts may be CD34+ and occasionally TdT+, but lack diffuse CD79a/PAX5 and are typically MPO or CD117 positive."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "Also TdT+ and often CD34+, but expresses cytoplasmic CD3 and lacks CD79a/PAX5/CD19."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Shows high mitotic activity but blasts are TdT and CD34 negative, CD20 and CD10 positive with a Ki-67 near 100% and MYC rearrangement."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Can mimic lymphoblasts on H&E but is TdT and CD34 negative and cyclin D1/SOX11 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD34, CD79a, TdT",
+  "match": "consistent",
+  "high_yield": false
+}

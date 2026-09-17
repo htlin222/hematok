@@ -1,0 +1,23 @@
+{
+  "id": "63810",
+  "recognize_zh": "組合圖：流式顯示 CD38+/CD138+、胞質 kappa 限制、CD20+/CD19− 的漿細胞；H&E 為成片小型、核略偏心的成熟樣漿細胞；IHC 顯示 CD138 膜染、BCL1（cyclin D1）核染與 CD20 膜染皆強陽性，符合小細胞型多發性骨髓瘤而非被 CD20/BCL1 誤導的 MCL。",
+  "features": [
+    "Flow (A): CD38/CD138 double-positive plasma cells, cytoplasmic kappa restricted, CD20 positive and CD19 negative",
+    "H&E (B): diffuse sheets of small, monotonous cells with round, slightly eccentric nuclei and scant cytoplasm replacing marrow",
+    "CD138 IHC (C): strong membranous staining of nearly all cells",
+    "BCL1/cyclin D1 IHC (D): strong nuclear staining in the majority of cells",
+    "CD20 IHC (E): strong membranous staining in the neoplastic cells",
+    "Small lymphocyte-like size of the plasma cells mimics a B-cell lymphoma"
+  ],
+  "describe_en": "This composite figure combines flow cytometry and bone marrow biopsy stains. Flow cytometry (A) identifies a plasma cell population that is CD38 and CD138 positive, cytoplasmic kappa restricted, CD20 positive and CD19 negative. The H&E-stained biopsy (B) shows diffuse sheets of small, monotonous cells with round, slightly eccentric nuclei that largely replace the marrow. Immunohistochemistry shows strong membranous CD138 (C), strong nuclear cyclin D1/BCL1 (D) and strong membranous CD20 (E) in the neoplastic cells. Together with an IgG M-spike and absence of t(11;14) on karyotype, findings are consistent with plasma cell myeloma, small-cell (lymphoplasmacytoid) subtype, with aberrant CD20 and cyclin D1 co-expression rather than mantle cell lymphoma.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "Cells are CD19, PAX5 and CD5 positive and CD138 negative with surface light chain, and SOX11 positivity and t(11;14) by FISH are typical."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "Shows a spectrum of CD19+ lymphocytes with a separate plasma cell component, an IgM paraprotein and MYD88 L265P."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "Contains CD19/PAX5-positive B cells alongside plasma cells and lacks cyclin D1."},
+    {"dx": "Plasma cell myeloma with t(11;14)", "vs": "Also often small/lymphoplasmacytoid, CD20+ and cyclin D1+; FISH is more sensitive than karyotype, so t(11;14) should still be excluded by FISH."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD138, BCL1, CD20; flow",
+  "match": "consistent",
+  "high_yield": false
+}

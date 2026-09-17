@@ -1,0 +1,21 @@
+{
+  "id": "61820",
+  "recognize_zh": "周邊血抹片中有一顆小型單核細胞，核深染、染色質粗塊狀、細胞質極少，細胞旁散落細小紫色顆粒，細胞身分不易確定（可能為破裂的嗜鹼性球或微小巨核細胞）；背景有淚滴形紅血球與一顆較大較淡的多染性紅血球。",
+  "features": [
+    "Small mononuclear cell with dense, coarsely clumped hyperchromatic nucleus and scant cytoplasm",
+    "Fine purple granules scattered adjacent to the cell, suggesting disrupted cytoplasmic granules",
+    "Occasional teardrop red cell and a larger pale polychromatic red cell",
+    "Mild anisocytosis of red cells",
+    "Few small platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a small mononuclear cell with a dense, coarsely clumped hyperchromatic nucleus and scant cytoplasm, accompanied by fine purple granules scattered beside it. Its identity cannot be established with certainty from this single field; a degranulated or disrupted basophil and a micromegakaryocyte are the main considerations, and a small lymphocyte with nearby platelet debris is also possible. Background red cells show mild anisocytosis with an occasional teardrop form and a polychromatic macrocyte. The image does not by itself demonstrate a specific diagnostic abnormality and should be interpreted with the full smear in the context of the GATA2-associated myeloid neoplasm.",
+  "ddx": [
+    {"dx": "Basophil", "vs": "An intact basophil has large dark purple granules overlying the nucleus, whereas here granules are dispersed outside the cell."},
+    {"dx": "Micromegakaryocyte", "vs": "Micromegakaryocytes have a small dense nucleus with pale, blebby cytoplasm and attached platelet-like budding, and can be confirmed with CD61."},
+    {"dx": "Small mature lymphocyte", "vs": "Lymphocytes have a thin rim of clear blue agranular cytoplasm without associated granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

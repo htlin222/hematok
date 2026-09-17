@@ -1,0 +1,23 @@
+{
+  "id": "1521",
+  "recognize_zh": "整片密集、單一型態的中小型淋巴樣細胞：核圓至卵圓、染色質中度緻密、細胞質少量淡藍，部分可見小核仁，背景紅血球被染成棕色；單調的腫瘤細胞群符合 T-PLL，但需免疫表型確認。",
+  "features": [
+    "Dense, monotonous population of small to medium-sized lymphoid cells",
+    "Round to oval nuclei, some with slight irregularity or indentation",
+    "Moderately condensed, evenly distributed chromatin with small nucleoli visible in some cells",
+    "Scant to moderate pale basophilic cytoplasm; cell borders indistinct in crowded areas",
+    "Interspersed red cells staining brown/orange, likely a staining or fixation artifact",
+    "No granulocytic or erythroid precursors appreciable in the field"
+  ],
+  "describe_en": "Smear shows a densely cellular, monotonous population of small to medium-sized lymphoid cells, most likely a concentrated (buffy coat) preparation or touch imprint. The cells have round to oval, occasionally indented nuclei with moderately condensed chromatin, small nucleoli in some cells and scant pale basophilic cytoplasm. Interspersed red cells stain brown, consistent with a staining artifact. No other hematopoietic elements are evident. The monomorphic lymphoid infiltrate is consistent with the stated diagnosis of T-cell prolymphocytic leukemia, which requires confirmation by flow cytometry (CD3+, CD7 bright, CD4/CD8 pattern) and TCL1A expression or inv(14)/t(14;14).",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are smaller with coarsely clumped 'soccer-ball' chromatin and are CD5+/CD23+ B cells, rather than T cells with visible nucleoli."},
+    {"dx": "Leukemic mantle cell lymphoma", "vs": "MCL shows irregular nuclei in a CD5-positive B-cell population with cyclin D1 positivity."},
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "Lymphoblasts have finer, more dispersed chromatin and express TdT/CD34/CD1a, whereas T-PLL cells are mature and TdT negative."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform, deeply grooved nuclei and lack nucleoli, with CD7 and CD26 frequently lost."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

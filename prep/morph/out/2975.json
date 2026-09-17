@@ -1,0 +1,21 @@
+{
+  "id": "2975",
+  "recognize_zh": "中央大型巨噬細胞的淡色泡沫狀細胞質內含多顆被吞噬的有核細胞（深染圓核的淋巴球或紅血球母細胞）及紅血球，是噬血現象（hemophagocytosis）的典型表現。",
+  "features": [
+    "Large macrophage with abundant pale, finely vacuolated cytoplasm",
+    "Multiple engulfed intact nucleated cells with dense round nuclei (lymphocytes/erythroid precursors) within vacuoles",
+    "Engulfed red cells and larger nucleated cell fragments also present",
+    "Adjacent monocyte, band neutrophil, lymphocytes and eosinophil",
+    "Background red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large macrophage with abundant pale vacuolated cytoplasm containing multiple phagocytosed nucleated cells with dense round nuclei, likely lymphocytes and erythroid precursors, as well as erythrocytes. Surrounding cells include a monocyte, a band neutrophil, lymphocytes and an eosinophil. Findings are consistent with hemophagocytosis, supporting hemophagocytic lymphohistiocytosis in the appropriate clinical setting.",
+  "ddx": [
+    {"dx": "Megakaryocyte emperipolesis", "vs": "Emperipolesis occurs in megakaryocytes with lobulated nuclei and granular cytoplasm, not in a histiocyte with a single oval nucleus."},
+    {"dx": "Tingible body macrophage", "vs": "Tingible body macrophages contain apoptotic nuclear debris rather than intact nucleated cells and red cells."},
+    {"dx": "Cell clump / overlap artifact", "vs": "Engulfed cells are surrounded by clear vacuoles within the macrophage cytoplasm rather than lying on top of the cell."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

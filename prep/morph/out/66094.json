@@ -1,0 +1,21 @@
+{
+  "id": "66094",
+  "recognize_zh": "尿液沉渣抹片中可見數顆含橘紅色粗顆粒、雙葉核的細胞（上方中央與右上方最清楚），為嗜酸性球；但畫面中其他多數顆粒球已退化、核染色質糊化，顆粒顏色不易辨認，影像解析度也有限，只能確認部分細胞為嗜酸性球。",
+  "features": [
+    "Several granulocytes in a urine sediment preparation, many with bilobed or segmented nuclei",
+    "At least two cells show distinct coarse orange-red cytoplasmic granules consistent with eosinophils (top center and upper right)",
+    "Many other granulocytes are degenerated with smudged, coarsely granular nuclei and indistinct cytoplasmic granules, limiting eosinophil versus neutrophil distinction",
+    "A pale blue granular cell and amorphous proteinaceous material at left; a few small dark objects (possible bacteria/debris)",
+    "Image is soft-focus with limited resolution"
+  ],
+  "describe_en": "Cytocentrifuged urine sediment (Wright-Giemsa, oil immersion) shows numerous granulocytes, several of which have bilobed nuclei and coarse orange-red cytoplasmic granules consistent with eosinophils. Many of the remaining cells are degenerated, with smudged nuclei and poorly preserved granules, so the eosinophil fraction cannot be reliably quantified from this image, and focus is limited. The presence of urinary eosinophils is compatible with eosinophiluria, which may be seen in acute interstitial nephritis among other renal and urinary tract inflammatory conditions, although it is neither sensitive nor specific.",
+  "ddx": [
+    {"dx": "Neutrophiluria (pyuria from urinary tract infection)", "vs": "Neutrophils have fine lilac granules and 3-5 lobed nuclei, typically accompanied by bacteria, whereas eosinophils have larger orange-red refractile granules and bilobed nuclei; degenerated cells can be indistinguishable."},
+    {"dx": "Renal tubular epithelial cells", "vs": "Tubular cells are larger with a single round nucleus and granular grey cytoplasm without segmented nuclei or orange granules."},
+    {"dx": "Degenerated neutrophils with pseudo-eosinophilic cytoplasm", "vs": "Aging neutrophils can acquire pinkish cytoplasm, but lack discrete coarse orange granules; a Hansel stain helps confirm true eosinophils."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62952",
+  "recognize_zh": "Cyclin D1 染色下，大多數中型腫瘤細胞呈核內棕色陽性（強度不一，由弱到中等），少數細胞為藍色陰性；B 細胞淋巴瘤出現核 cyclin D1 陽性是被套細胞淋巴瘤的關鍵證據（反映 t(11;14)）。",
+  "features": [
+    "Nuclear cyclin D1 staining in the majority of intermediate-sized tumor cells",
+    "Variable intensity from weak to moderate, with a few strongly staining nuclei",
+    "Interspersed negative nuclei (likely reactive T cells and histiocytes)",
+    "Round to slightly irregular nuclei in dense sheets",
+    "Faint cytoplasmic blush in background, nuclear staining is the relevant pattern"
+  ],
+  "describe_en": "Immunohistochemical stain for cyclin D1 shows nuclear positivity in the majority of neoplastic lymphoid cells, with weak to moderate and somewhat heterogeneous intensity. Scattered negative nuclei, likely reactive cells, are interspersed. Nuclear cyclin D1 expression in a CD5-positive B-cell lymphoma is consistent with mantle cell lymphoma; FISH for CCND1 rearrangement can confirm t(11;14) when staining is weak.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma with t(11;14)", "vs": "Myeloma cells are cyclin D1+ but show plasmacytic morphology, CD138/MUM1 positivity, and lack CD20 and CD5."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL shows weak cyclin D1 with abundant pale cytoplasm and is CD5-, annexin A1+, BRAF V600E+."},
+    {"dx": "CLL/SLL proliferation centers", "vs": "Paraimmunoblasts in proliferation centers may be weakly cyclin D1+, but the diffuse population is cyclin D1- and LEF1+."},
+    {"dx": "Cyclin D1-negative MCL", "vs": "Morphology is identical but cyclin D1 is absent; SOX11 positivity and CCND2/CCND3 rearrangements establish the diagnosis."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: cyclin D1",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63620",
+  "recognize_zh": "骨髓切片被成片、胞質淡粉紅帶條紋的組織球取代，類似 Gaucher 細胞；高倍下少數組織球內有折光性橘紅色菱形結晶，其間夾雜小群漿細胞，應想到結晶儲積組織球增生症（crystal-storing histiocytosis）並追查背後的漿細胞腫瘤。",
+  "features": [
+    "Diffuse sheets of histiocytes with abundant pale eosinophilic, fibrillary/striated cytoplasm replacing most of the marrow space",
+    "Small, bland, oval to irregular histiocyte nuclei with low N:C ratio",
+    "Occasional refractile, orange-pink intracytoplasmic rhomboid crystalline inclusions (panel B, green arrows)",
+    "Small interstitial clusters of darker mononuclear cells (plasma cells per history) between histiocytes (panel A, green arrows)",
+    "Markedly reduced residual hematopoiesis and scattered fat spaces; bony trabeculae at top and bottom of panel A"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows a hypercellular marrow in which the intertrabecular space is largely effaced by diffuse sheets of histiocytes with abundant pale pink, striated cytoplasm, imparting a Gaucher-like appearance. At high power, occasional histiocytes contain refractile, eosinophilic rhomboid crystalline inclusions. Small clusters of plasma cells are interspersed between the histiocytes and are easily overlooked on H&E; CD138 and kappa/lambda staining are required to demonstrate the clonal population. Residual normal hematopoiesis is markedly reduced. Findings are consistent with crystal-storing histiocytosis associated with a kappa-restricted plasma cell neoplasm (plasma cell myeloma).",
+  "ddx": [
+    {"dx": "Gaucher disease / pseudo-Gaucher cells", "vs": "Gaucher cells have 'crumpled tissue paper' cytoplasm without refractile rhomboid crystals and lack an accompanying clonal plasma cell population, whereas CSH crystals are immunoglobulin light chain (usually kappa) deposits."},
+    {"dx": "Mycobacterial spindle-cell pseudotumor / infection", "vs": "Mycobacterial histiocytes lack crystals and contain acid-fast bacilli on AFB stain, often with granulomas."},
+    {"dx": "Rhabdomyoma or granular cell tumor", "vs": "The striated-appearing cells of CSH are CD68/CD163-positive histiocytes, not desmin/myogenin- or S100-positive cells."},
+    {"dx": "Langerhans cell histiocytosis / Erdheim-Chester disease", "vs": "LCH cells have grooved nuclei and are CD1a/langerin-positive with eosinophils, and ECD shows foamy CD68+/CD1a- histiocytes with BRAF V600E and fibrosis, neither containing light-chain crystals."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

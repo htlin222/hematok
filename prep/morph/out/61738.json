@@ -1,0 +1,21 @@
+{
+  "id": "61738",
+  "recognize_zh": "免疫染色中可見成群的中至大型細胞呈強棕色膜狀陽性，分布成不規則的帶狀與團塊，旁邊為陰性的小淋巴球與壞死樣背景；圖中未標示抗體，染色型態像 CD20 標示的淋巴瘤樣肉芽腫大型 B 細胞。",
+  "features": [
+    "Clusters and cords of medium to large cells with strong membranous staining",
+    "Positive cells show vesicular nuclei on hematoxylin counterstain",
+    "Irregular, band-like distribution rather than confluent sheets",
+    "Admixed negative small lymphocytes and a pale, partly necrotic-appearing background",
+    "Antibody not labeled in the image"
+  ],
+  "describe_en": "Immunohistochemistry (antibody not specified; membranous pattern suggestive of CD20) highlights clusters and cords of medium to large cells with strong membranous staining in an irregular distribution, with admixed negative small lymphocytes and a pale background. Because the antibody is not labeled, the lineage of the positive cells cannot be assigned with certainty from this image alone. If this represents CD20, the aggregates of large B cells, together with EBER positivity and angiocentric necrosis in companion images, are consistent with lymphomatoid granulomatosis.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL shows confluent sheets of large B cells without a prominent reactive T-cell background or angiocentric necrosis."},
+    {"dx": "Anaplastic large cell lymphoma (if the stain is CD30)", "vs": "ALCL shows uniform strong membranous and Golgi CD30 staining of hallmark cells that are CD20-negative and EBER-negative."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "ENKTL large cells are CD20-negative and CD56/cytoplasmic CD3-positive despite also being EBER-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: unlabeled (membranous, likely CD20)",
+  "match": "consistent",
+  "high_yield": false
+}

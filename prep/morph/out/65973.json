@@ -1,0 +1,22 @@
+{
+  "id": "65973",
+  "recognize_zh": "周邊血中大量中等大小、染色質粗塊狀的淋巴細胞，部分核較大呈 prolymphocytoid；流式細胞儀顯示 CD19+ B 細胞 99.3% κ 限制、CD34+ 母細胞僅 0.01%，說明這些含類 Auer 桿狀體的細胞是 B 淋巴球而非骨髓母細胞。",
+  "features": [
+    "Panel A: intermediate-sized lymphoid cells with clumped chromatin, round to slightly irregular nuclei and moderate pale blue cytoplasm; some prolymphocytoid forms",
+    "Panel B: MPO cytochemistry with the atypical lymphoid cells MPO negative; one granulocyte shows dark MPO-positive granules as an internal control",
+    "Rod-like cytoplasmic inclusions are not clearly resolvable at this image resolution",
+    "Panel C: CD19+/CD20+ B cells with kappa light chain restriction (99.3% kappa vs 1.0% lambda)",
+    "Panel D: CD34+ events 0.01% of nucleated cells, indicating no increase in myeloblasts"
+  ],
+  "describe_en": "Peripheral blood smear shows an absolute lymphocytosis composed predominantly of intermediate-sized lymphoid cells with clumped chromatin and moderate pale cytoplasm, including increased prolymphocytoid forms. Cytoplasmic Auer rod-like inclusions described in these cells are not clearly resolvable at this image resolution, but the lymphoid cells are negative for myeloperoxidase, with a neighboring granulocyte serving as a positive internal control. Flow cytometry shows a B-cell population with kappa light chain restriction and no increase in CD34-positive blasts. Findings are consistent with an atypical CLL/low-grade B-cell lymphoproliferative disorder with MPO-negative Auer rod-like inclusions, not acute myeloid leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with Auer rods", "vs": "True Auer rods are MPO positive and occur in CD34/CD117-positive blasts with fine chromatin and nucleoli, whereas these inclusions are MPO negative in mature clonal B cells."},
+    {"dx": "B-prolymphocytic leukemia / CLL with increased prolymphocytes", "vs": "Prolymphocytes are medium-large with a single prominent central nucleolus; >55% prolymphocytes defines B-PLL (WHO-HAEM4), which is separated by prolymphocyte counting."},
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells have irregular nuclei and are CD5+ but CD23-/CD200-, cyclin D1 and SOX11 positive with t(11;14)."},
+    {"dx": "Plasma cell neoplasm with crystalline inclusions", "vs": "Plasma cells have eccentric nuclei, perinuclear hof and CD138/CD38 bright expression with cytoplasmic light chain restriction and lack CD19/CD20."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright; MPO cytochemistry; flow cytometry",
+  "match": "partial",
+  "high_yield": false
+}

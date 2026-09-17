@@ -1,0 +1,22 @@
+{
+  "id": "60060",
+  "recognize_zh": "周邊血液中出現高核質比、染色質細緻均勻、細胞質僅剩一圈淡藍色的母細胞（blasts），同時背景血小板與白血球都很少；單看型態無法分辨 B 淋巴母細胞或骨髓母細胞，須靠流式確認，此例為 Ph+ B-ALL。",
+  "features": [
+    "Circulating blasts with very high N:C ratio and a thin rim of pale blue agranular cytoplasm",
+    "Nuclei round (right panel) to irregular/angular (left, larger cell) with fine, homogeneous chromatin",
+    "Nucleoli inconspicuous; no Auer rods or cytoplasmic granules",
+    "Background shows few platelets and no mature leukocytes in these fields, consistent with pancytopenia",
+    "Red cells largely normocytic with mild anisocytosis and an occasional echinocyte"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered circulating blasts in a background with markedly reduced platelets and leukocytes. The blasts are small to intermediate in size, with very high N:C ratio, round to irregular nuclei, finely dispersed homogeneous chromatin, inconspicuous nucleoli, and a scant rim of agranular pale blue cytoplasm; Auer rods are not seen. Red cells show mild anisocytosis without significant schistocytes or nucleated red cells. Findings are consistent with acute leukemia with peripheral blood involvement; morphology does not permit lineage assignment, and flow cytometry demonstrating a B-lymphoblast phenotype with BCR::ABL1 on cytogenetics supports Ph-positive B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia (minimally differentiated)", "vs": "AML with minimal differentiation also has agranular blasts without Auer rods; separation requires flow cytometry (CD13/CD33/CD117 without B-lineage markers) rather than morphology."},
+    {"dx": "Reactive lymphocytes/hematogones", "vs": "Reactive lymphocytes have more abundant cytoplasm and condensed chromatin, and hematogones are rare in blood and show a maturing, non-aberrant immunophenotype."},
+    {"dx": "Leukemic phase of large B-cell or mantle cell lymphoma", "vs": "Lymphoma cells usually have more clumped chromatin, visible nucleoli or nuclear clefts, and a mature TdT-negative, surface light chain restricted phenotype."},
+    {"dx": "CML in lymphoid blast phase", "vs": "Also BCR::ABL1-positive; suggested by basophilia, left-shifted granulocytes, and p210 transcript, features not present in this pancytopenic smear."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

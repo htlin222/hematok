@@ -1,0 +1,22 @@
+{
+  "id": "2801",
+  "recognize_zh": "骨髓抹片中有核細胞偏多，許多中大型細胞核圓或腎形、細胞質灰藍，符合單核球與前單核球，夾雜深染小圓核的紅血球前驅細胞與少數顆粒球；單核球系比例增加提示 CMML。",
+  "features": [
+    "Cellular aspirate with many medium-to-large mononuclear cells",
+    "Round, oval or reniform nuclei with fine to moderately condensed chromatin in the monocytoid cells",
+    "Moderate gray-blue cytoplasm in many cells",
+    "Scattered small cells with dense round nuclei (late erythroid precursors) and occasional granulocytes",
+    "Hemodilute background with clumped red cells and a thin smear edge"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular and partially hemodilute, containing numerous medium-to-large mononuclear cells with round to reniform nuclei and gray-blue cytoplasm, consistent with monocytes and promonocytes. Late erythroid precursors with dense round nuclei and scattered maturing granulocytes are admixed. Definite blasts are difficult to separate from promonocytes at this magnification, and dysplasia cannot be assessed reliably. The increased monocytic component is compatible with chronic myelomonocytic leukemia; a differential count with blast-equivalent enumeration and NSE/flow cytometry is recommended.",
+  "ddx": [
+    {"dx": "Acute myelomonocytic or monocytic leukemia", "vs": "Acute leukemia requires >=20% blasts plus promonocytes in the marrow."},
+    {"dx": "Myelodysplastic syndrome", "vs": "MDS lacks the persistent peripheral monocytosis (>=0.5 x 10^9/L and >=10%) required for CMML."},
+    {"dx": "Plasma cell neoplasm", "vs": "Plasma cells have eccentric nuclei with coarse clock-face chromatin, deep blue cytoplasm and a perinuclear hof."},
+    {"dx": "Reactive marrow monocytosis", "vs": "Reactive monocytosis lacks dysplasia and clonal mutations and shows normal CD14+/CD16- monocyte partitioning."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61517",
+  "recognize_zh": "六個箭頭指出核小而圓、濃縮深染的有核紅血球（NRBC），右下方其中一顆緊鄰一個較大、核染色質較鬆的淋巴球，可直接比較兩者大小與核形；背景大量鋸齒狀紅血球與粉紫色顆粒沉澱，NRBC 數量明顯偏多。",
+  "features": [
+    "Six arrowed nucleated red cells with small, round, dense pyknotic nuclei and scant surrounding cytoplasm",
+    "Adjacent larger lymphocyte (lower right) with a bigger, less condensed nucleus for size comparison",
+    "Background red cells show crenation, anisocytosis, and some target-like or hypochromic forms",
+    "Abundant pink-purple granular precipitate or platelet debris between cells",
+    "Suboptimal, bluish staining and uneven smear thickness limit fine morphologic detail"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous nucleated red cells (arrows) with small, round, densely pyknotic nuclei and scant cytoplasm; one lies adjacent to a larger lymphocyte, illustrating the difference in nuclear size and chromatin. The background red cells show anisocytosis, target-like and hypochromic forms, and widespread crenation that is likely artifactual. Granular precipitate and bluish staining limit evaluation of platelets and red cell inclusions. With an NRBC-to-WBC ratio exceeding 100 per 100 WBC, the automated WBC count must be corrected, and a thalassemia, hemolytic, or marrow-infiltrative process should be investigated.",
+  "ddx": [
+    {"dx": "Small lymphocytes", "vs": "As shown by the neighboring lymphocyte, lymphocytes are larger with a less dense nucleus and a blue cytoplasmic rim, whereas NRBCs have tiny, homogeneously pyknotic nuclei."},
+    {"dx": "Thalassemia major/intermedia", "vs": "Thalassemia is supported by prominent target cells and hypochromia with NRBCs, and is confirmed by hemoglobin HPLC and globin gene studies."},
+    {"dx": "Post-splenectomy state", "vs": "After splenectomy, NRBCs are accompanied by Howell-Jolly bodies, acanthocytes, and target cells, with a history of splenectomy."},
+    {"dx": "Leukoerythroblastic reaction", "vs": "A leukoerythroblastic reaction includes immature granulocytes and teardrop cells in addition to NRBCs."}
+  ],
+  "specimen": "PB",
+  "stain": "Romanowsky (Leishman/Wright-type)",
+  "match": "consistent",
+  "high_yield": false
+}

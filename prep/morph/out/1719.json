@@ -1,0 +1,22 @@
+{
+  "id": "1719",
+  "recognize_zh": "周邊血液抹片中一顆中性球的細胞質充滿粗大、深紫色的顆粒，比正常中性球的淡粉紅細顆粒明顯得多，符合毒性顆粒（toxic granulation）。",
+  "features": [
+    "Segmented neutrophil with three nuclear lobes and condensed chromatin",
+    "Cytoplasm filled with coarse, dark purple-violet (azurophilic) granules evenly distributed",
+    "Granules are more prominent than the fine lilac granules of a normal neutrophil",
+    "No definite Dohle bodies or cytoplasmic vacuoles clearly identified",
+    "Crowded red cells in a thick area of the smear and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a segmented neutrophil whose cytoplasm contains abundant coarse, dark purple azurophilic granules in place of the normal fine lilac granules. Dohle bodies and vacuoles are not clearly seen. The red cells are crowded in this relatively thick area, so a neighboring normal neutrophil is not available for comparison. Findings are consistent with toxic granulation, a reactive change seen in infection, inflammation, or G-CSF therapy.",
+  "ddx": [
+    {"dx": "Alder-Reilly anomaly", "vs": "Alder-Reilly granules are large and dark in all leukocytes, including lymphocytes and monocytes, and occur without clinical infection in mucopolysaccharidoses."},
+    {"dx": "Overstained smear", "vs": "Overstaining darkens granules in all neutrophils uniformly and gives a blue cast to red cells and background."},
+    {"dx": "Chediak-Higashi syndrome", "vs": "Chediak-Higashi shows few giant, irregular fused granules rather than numerous uniform coarse granules."},
+    {"dx": "Eosinophil or basophil", "vs": "Eosinophils have refractile orange-red granules with a bilobed nucleus, and basophils have very large blue-black granules obscuring the nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

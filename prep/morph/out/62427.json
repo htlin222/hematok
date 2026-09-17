@@ -1,0 +1,22 @@
+{
+  "id": "62427",
+  "recognize_zh": "這張其實是骨髓抹片（MGG 染色），背景散布大量 2–4 µm 的卵圓形小體，每個內含一個紫紅色核與一個小棒狀動基體（kinetoplast），即利什曼原蟲無鞭毛體（Leishman-Donovan bodies），多數位於破裂巨噬細胞外；圖中並未見到標題所說的循環巨核細胞。",
+  "features": [
+    "Numerous small oval extracellular bodies (approximately 2-4 um) scattered across the field",
+    "Each organism shows a purple nucleus plus a smaller rod-like/dot kinetoplast (double-dot appearance)",
+    "Organisms clustered around large pale nuclei, consistent with disrupted macrophages",
+    "Large cells with open reticular chromatin (macrophage/histiocyte nuclei) and a few erythroid precursors and a small lymphocyte",
+    "No megakaryocyte identified in this field; background with pale grey-blue red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear (May-Grünwald-Giemsa) shows numerous small oval organisms, approximately 2-4 um, each containing a purple nucleus and a smaller rod-shaped kinetoplast, lying predominantly extracellularly around large pale nuclei of disrupted macrophages. A few erythroid precursors and a small lymphocyte are present. The image shows amastigotes in the marrow rather than the circulating megakaryocyte referred to in the title, which corresponds to the companion peripheral blood image. Findings are diagnostic of visceral leishmaniasis (Leishman-Donovan bodies).",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts have a clear halo and a single crescentic nucleus without a kinetoplast, and are GMS/PAS-positive."},
+    {"dx": "Toxoplasma gondii tachyzoites", "vs": "Toxoplasma tachyzoites are crescent-shaped with a single central nucleus and no kinetoplast."},
+    {"dx": "Trypanosoma cruzi amastigotes", "vs": "T. cruzi amastigotes are morphologically similar but are found in cardiac/smooth muscle rather than marrow macrophages, with a matching travel history."},
+    {"dx": "Platelets or granule debris", "vs": "Platelets lack an organized nucleus-plus-kinetoplast structure and vary in size and shape."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

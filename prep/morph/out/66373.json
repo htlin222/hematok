@@ -1,0 +1,22 @@
+{
+  "id": "66373",
+  "recognize_zh": "骨髓切片中散在數個細胞質膨大、淡染的組織球，裡面塞滿許多細小的點狀嗜鹼性顆粒，各有一圈淡色暈；在造血細胞與脂肪之間看到這些「點點狀」組織球，應想到組織漿菌感染，並以 GMS 染色確認。",
+  "features": [
+    "Scattered histiocytes with expanded pale cytoplasm packed with numerous tiny (about 2-4 um) basophilic dot-like organisms with pale halos",
+    "Organisms are uniform and predominantly intracellular, with rare possible extracellular forms",
+    "Hypercellular hematopoietic marrow with erythroid and myeloid precursors between adipocytes",
+    "A megakaryocyte at the left edge and dilated sinusoids in the upper left",
+    "No well-formed granulomas or necrosis in this field"
+  ],
+  "describe_en": "H&E-stained bone marrow trephine section shows cellular marrow with trilineage hematopoiesis, adipocytes, and dilated sinusoids. Scattered among the hematopoietic cells are histiocytes with expanded pale cytoplasm containing numerous tiny, uniform basophilic dot-like organisms, approximately 2-4 um, each with a pale halo. The organisms are predominantly intracellular, and no well-formed granulomas or necrosis are seen in this field. Findings are consistent with marrow infiltration by intracellular yeasts, compatible with disseminated histoplasmosis; confirmation with GMS/PAS stains and culture or antigen testing is recommended.",
+  "ddx": [
+    {"dx": "Visceral leishmaniasis", "vs": "Leishmania-laden macrophages look similar on H&E, but amastigotes show a kinetoplast on Giemsa and are GMS-negative."},
+    {"dx": "Talaromyces marneffei", "vs": "Talaromyces yeasts are elongated with transverse septa on GMS, rather than uniform oval budding forms."},
+    {"dx": "Mycobacterium avium complex infection", "vs": "Infected histiocytes show striated, pseudo-Gaucher cytoplasm with AFB-positive bacilli rather than haloed dot-like yeasts."},
+    {"dx": "Hemophagocytic histiocytes", "vs": "Histiocytes contain ingested red cells, nuclear debris, or whole hematopoietic cells rather than uniform tiny organisms."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

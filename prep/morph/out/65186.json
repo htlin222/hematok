@@ -1,0 +1,22 @@
+{
+  "id": "65186",
+  "recognize_zh": "骨髓切片與抹片中巨核細胞的核分成多個分離、深染的小葉，沿細胞周邊排成一圈環狀（ring-form），中央為細胞質；CD61 證實巨核細胞群聚與環狀型態，CD34 在部分巨核細胞異常表現，屬 MDS 的巨核細胞發育不良。",
+  "features": [
+    "Hypercellular marrow with increased eosinophils and clustered megakaryocytes",
+    "Megakaryocytes with multiple widely separated, round, hyperchromatic nuclear lobes arranged in a peripheral ring around central cytoplasm (ring-form)",
+    "Aspirate: megakaryocytes with separated nuclear lobes in a background of myeloid precursors",
+    "CD34 highlights scattered blasts and shows aberrant cytoplasmic expression in megakaryocytes (inset)",
+    "CD61 highlights megakaryocyte clusters with ring-form nuclear arrangement"
+  ],
+  "describe_en": "Bone marrow biopsy shows a hypercellular marrow with increased eosinophils and clustered dysplastic megakaryocytes. Many megakaryocytes show hyperchromatic, widely separated nuclear lobes arranged in a ring around central cytoplasm, a feature also seen on the aspirate smear. CD34 immunostain shows mildly increased blasts with aberrant expression in megakaryocytes, and CD61 confirms megakaryocyte clustering and ring-form morphology. Findings are consistent with a myelodysplastic neoplasm with prominent megakaryocytic dysplasia (ring-form megakaryocytes); with 9% blasts this corresponds to MDS with increased blasts.",
+  "ddx": [
+    {"dx": "Megakaryocytes with separated nuclear lobes after chemotherapy or in HIV", "vs": "Separated lobes also occur with toxic or reactive states, but these lack clustering, increased CD34+ blasts and clonal cytogenetic abnormalities."},
+    {"dx": "Primary myelofibrosis / MPN megakaryocytes", "vs": "MPN megakaryocytes are large with hyperlobated or cloud-like nuclei in dense clusters with fibrosis, rather than small discrete round lobes in a ring."},
+    {"dx": "Micromegakaryocytes of MDS or CML", "vs": "Micromegakaryocytes are small with mono- or hypolobated nuclei, whereas ring-form megakaryocytes are larger with multiple separated lobes."},
+    {"dx": "Osteoclasts", "vs": "Osteoclasts are multinucleated with many uniform, evenly spaced oval nuclei lying on bone surfaces and are CD61 negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; May-Grünwald-Giemsa; IHC: CD34, CD61",
+  "match": "consistent",
+  "high_yield": false
+}

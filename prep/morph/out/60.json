@@ -1,0 +1,27 @@
+{
+  "id": "60",
+  "recognize_zh": "血小板在抹片中呈淡灰藍色、缺乏紫紅色 α 顆粒，部分體積偏大，紅血球形態正常；血小板凝集／分泌圖顯示所有促效劑的 ATP 釋放（Lum）幾乎為 0，U46619 凝集下降，符合灰色血小板症候群。",
+  "features": [
+    "Platelets are pale gray-blue and agranular/hypogranular, lacking the normal purple azurophilic (alpha) granulation",
+    "Some platelets are enlarged relative to normal platelets",
+    "Red cells are normocytic and normochromic without significant poikilocytosis",
+    "Lumi-aggregometry: normal aggregation to ristocetin (94%) and convulxin (88%)",
+    "Reduced aggregation to the thromboxane analog U46619 (30% at 2.5 uM, 15% at 1.0 uM) with reversible curves",
+    "Absent or near-absent ATP secretion (Lum amplitude 0%) with all agonists"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic, normochromic red cells and platelets that are pale gray-blue, agranular to hypogranular, with some enlarged forms; no platelet clumping is evident in this field. Whole-blood lumi-aggregometry demonstrates normal aggregation with ristocetin (94%) and convulxin (88%), but reduced and reversible aggregation with U46619 (30% and 15%), and absent ATP secretion with all agonists tested. Findings are consistent with gray platelet syndrome (alpha-granule deficiency) with an associated secretion defect; exclusion of EDTA-induced in vitro degranulation (pseudo-gray platelets) and confirmation by electron microscopy or NBEAL2 testing are recommended.",
+  "ddx": [
+    {"dx": "Pseudo-gray platelets (EDTA-induced degranulation)", "vs": "Pseudo-gray platelets are an EDTA artifact that disappears on citrate-anticoagulated or fingerstick smears, with normal aggregation studies."},
+    {"dx": "Myelodysplastic neoplasm with hypogranular platelets", "vs": "MDS shows accompanying dysplasia such as hypogranular neutrophils, pseudo-Pelger cells or macrocytosis, and cytopenias."},
+    {"dx": "Bernard-Soulier syndrome", "vs": "Bernard-Soulier platelets are giant but granulated and show absent ristocetin aggregation, whereas ristocetin response is normal here."},
+    {"dx": "Dense granule (delta) storage pool disease", "vs": "Delta-storage pool disease has normally granulated platelets on light microscopy with reduced dense granules on whole-mount EM."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; platelet lumi-aggregometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "PB: pale gray agranular platelets among normal red cells",
+    "Lumi-aggregometry: normal ristocetin/convulxin aggregation, reduced U46619 response, absent ATP release"
+  ]
+}

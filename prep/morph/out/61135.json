@@ -1,0 +1,23 @@
+{
+  "id": "61135",
+  "recognize_zh": "淋巴結結構被單一型態、中等大小的細胞取代，高倍下核圓偏位、染色質細、細胞質淡紫紅色呈漿細胞樣（plasmacytoid），多種免疫染色呈大片陽性而增殖指標只有散在少數陽性，符合成熟漿細胞樣樹突細胞增生。",
+  "features": [
+    "Low power (A): diffuse, relatively uniform infiltrate effacing nodal architecture",
+    "Medium power (B): monotonous sheets of medium-sized cells around small vessels",
+    "High power (C): medium-sized cells with round, eccentric nuclei, fine to slightly condensed chromatin, inconspicuous nucleoli and moderate amphophilic plasmacytoid cytoplasm",
+    "No significant pleomorphism or brisk mitotic activity evident",
+    "IHC (D-F): diffuse strong staining of the sheets for the plasmacytoid dendritic cell markers shown",
+    "IHC (G): only scattered nuclear-positive cells, consistent with a low proliferation index; double stains (H, I) show the brown-positive population with admixed red-labeled cells"
+  ],
+  "describe_en": "Composite figure of a lymph node from a patient with chronic myelomonocytic leukemia. The nodal architecture is effaced by diffuse, monotonous sheets of medium-sized cells with round eccentric nuclei, finely condensed chromatin and moderate amphophilic plasmacytoid cytoplasm, lacking significant atypia. Immunostains show diffuse positivity of the infiltrate for the plasmacytoid dendritic cell markers displayed, while a nuclear proliferation marker labels only scattered cells; double stains highlight the dominant population with an admixed minor second population. Findings are consistent with an exuberant nodal proliferation of mature plasmacytoid dendritic cells associated with a myeloid neoplasm (CMML).",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN cells are blastic with fine chromatin and high proliferation, typically involve skin, and are CD56 and TdT variably positive, whereas mature pDC proliferations are CD56 negative with low Ki-67."},
+    {"dx": "Myeloid sarcoma (monocytic)", "vs": "Monocytic myeloid sarcoma shows folded nuclei and expresses lysozyme/CD163/CD14 rather than CD123/TCL1 with a low proliferation index."},
+    {"dx": "Lymphoplasmacytic or marginal zone lymphoma", "vs": "B-cell lymphomas with plasmacytic features express CD20/PAX5 and light-chain restriction rather than CD123, CD303 and TCL1."},
+    {"dx": "Plasmacytoma", "vs": "Plasma cells have clockface chromatin and a hof and are CD138 positive with monotypic light chains."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E, IHC (multiple, incl. double stains)",
+  "match": "consistent",
+  "high_yield": false
+}

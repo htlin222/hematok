@@ -1,0 +1,22 @@
+{
+  "id": "64736",
+  "recognize_zh": "腫瘤切片中細胞呈瀰漫、單調的片狀排列，核圓且多偏位、染色質粗，胞質中等量呈嗜雙色，形態接近漿細胞；在此解析度下核周淡染區（hof）不易確認，需以 CD138 與輕鏈染色佐證為漿細胞瘤。",
+  "features": [
+    "Diffuse, patternless sheet of monomorphic round cells",
+    "Round, often eccentric nuclei with coarse, dark chromatin",
+    "Moderate amphophilic to eosinophilic cytoplasm",
+    "Minimal intervening stroma with few thin-walled vessels and scattered red cells",
+    "Perinuclear hof not clearly resolvable at this magnification"
+  ],
+  "describe_en": "H&E section of the intracranial and calvarial mass shows a diffuse, sheet-like proliferation of monomorphic round cells with minimal stroma. The cells have round, frequently eccentric nuclei with coarse chromatin and a moderate amount of amphophilic cytoplasm; a perinuclear hof is suggested but not clearly resolved at this magnification. Significant pleomorphism is not evident. The morphology is suggestive of a plasma cell neoplasm (plasmacytoma), which is confirmed by diffuse CD138 positivity in the accompanying immunostain; light-chain restriction and marrow evaluation for myeloma are recommended.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma (including primary CNS lymphoma)", "vs": "DLBCL cells are larger with vesicular chromatin and nucleoli, are CD20 positive, and CNS lymphoma is typically angiocentric and intraparenchymal."},
+    {"dx": "Meningioma", "vs": "Meningioma is dural-based but shows syncytial whorls, psammoma bodies and intranuclear pseudoinclusions and is EMA and SSTR2A positive rather than CD138 and light-chain restricted."},
+    {"dx": "Metastatic small round cell or neuroendocrine carcinoma", "vs": "Carcinomas show nuclear molding, cohesive nests and keratin or synaptophysin positivity."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma has large immunoblastic cells with prominent nucleoli and a high Ki-67 index, often EBER positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

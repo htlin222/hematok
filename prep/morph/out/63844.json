@@ -1,0 +1,21 @@
+{
+  "id": "63844",
+  "recognize_zh": "HPLC 圖上 3.60 分鐘 A2 視窗出現一個巨大的峰（87.5%），HbA（Ao）只剩 3.8%、HbF 1.5%；A2 視窗內這麼高的比例不可能是真正的 HbA2，而是與 A2 同時沖出的 HbE，符合 HbE 同型合子（或 HbE/β0 地中海貧血）。",
+  "features": [
+    "Cation-exchange HPLC report with peak table and chromatogram",
+    "Massive peak at 3.60 min in the HbA2 window quantified at 87.5%",
+    "Minimal Ao (HbA) peak at 2.27 min (3.8%)",
+    "HbF 1.5%, small P3 peak at 1.81 min (3.7%)",
+    "No peaks in the D- or S-windows"
+  ],
+  "describe_en": "Cation-exchange HPLC shows a dominant peak eluting at 3.60 minutes in the HbA2 window, quantified at 87.5%, with only a small HbA peak (3.8%) and HbF of 1.5%. No D- or S-window variants are identified. An A2-window value of this magnitude indicates a co-eluting variant, most commonly HbE, rather than true HbA2 elevation. The pattern is consistent with homozygous HbE disease; HbE/beta0-thalassemia is less favored given the low HbF but should be excluded by family studies or beta-globin gene analysis.",
+  "ddx": [
+    {"dx": "HbE/beta0-thalassemia", "vs": "HbE/beta0-thalassemia usually shows substantially raised HbF (often 30-60%) with a transfusion-requiring phenotype, whereas homozygous HbE has low HbF and only mild microcytic anemia."},
+    {"dx": "HbE trait", "vs": "HbE trait shows an A2-window peak of about 25-30% with abundant HbA, not 87% with near-absent HbA."},
+    {"dx": "Hb Lepore", "vs": "Hb Lepore also elutes in the A2 window but at only 5-15% in heterozygotes, with a slightly different retention time and elevated HbF."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

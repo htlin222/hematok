@@ -1,0 +1,21 @@
+{
+  "id": "63253",
+  "recognize_zh": "血液分析儀 WDF（側向散射 SSC 對前向散射 FSC）散佈圖：除了紫色淋巴球群與淺藍色嗜中性球群外，有一條從左下角延伸到右上角飽和區的深藍色斜線狀異常事件帶，貫穿白血球族群；這種非細胞族群的連續條帶提示檢體內有顆粒干擾（如血塊、脂肪球或血小板凝集），會觸發分析儀警示並影響白血球分類。",
+  "features": [
+    "Automated hematology analyzer WDF scattergram (side scatter on x-axis vs forward scatter on y-axis)",
+    "Purple cluster at low scatter consistent with lymphocytes",
+    "Cyan cluster at intermediate scatter consistent with neutrophils (granulocytes)",
+    "Abnormal dark blue, continuous diagonal band of events extending from the origin to the upper right saturation corner",
+    "The band passes through and overlaps the leukocyte clusters, indicating non-leukocyte particle interference"
+  ],
+  "describe_en": "This image is a screenshot of a hematology analyzer WDF scattergram plotting side scatter against forward scatter. Discrete lymphocyte (purple) and neutrophil (cyan) clusters are present, but there is an abnormal continuous diagonal band of dark blue events extending from the lower left origin to the upper right corner at saturation, overlapping the leukocyte populations. This pattern indicates particulate interference, such as clots, fat globules or platelet aggregates, rather than a true cell population, and is the basis for an analyzer interference or clot flag. The automated differential should not be reported; the sample should be inspected for clots or lipid and a peripheral smear reviewed.",
+  "ddx": [
+    {"dx": "Platelet clumping (e.g., EDTA-dependent pseudothrombocytopenia)", "vs": "Platelet clumps also produce events in the low-to-intermediate scatter region, but smear review shows platelet aggregates rather than fat globules or fibrin clots."},
+    {"dx": "Lipemia or cryoglobulin interference", "vs": "Lipemic particles and cryoprecipitates generate similar debris signals; plasma appearance, warming the sample and fat stains help identify the source."},
+    {"dx": "Nucleated red cells or lysis-resistant red cells", "vs": "NRBC and lysis-resistant RBC events cluster near the origin below the lymphocyte region rather than forming a diagonal band reaching the saturation corner."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

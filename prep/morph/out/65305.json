@@ -1,0 +1,21 @@
+{
+  "id": "65305",
+  "recognize_zh": "骨髓抹片中央的顆粒內有許多巨噬細胞，細胞質中擠滿大量細小的紫色點狀體（Leishman-Donovan bodies），周邊還有游離於細胞外的原蟲與被吞噬的有核細胞，符合利什曼原蟲病。",
+  "features": [
+    "Cellular marrow particle with numerous macrophages and admixed hematopoietic cells",
+    "Macrophage cytoplasm packed with innumerable tiny dark purple dot-like amastigotes",
+    "Extracellular organisms scattered around the particle",
+    "Macrophages with ingested nucleated cells suggestive of hemophagocytosis",
+    "Low-intermediate magnification; nucleus and kinetoplast not individually resolved"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular particle containing numerous macrophages with abundant cytoplasm packed with innumerable tiny dark-staining dot-like bodies. Similar bodies are scattered extracellularly around the particle, and some macrophages contain ingested nucleated cells. The organisms are too small at this magnification to resolve the nucleus and kinetoplast; oil-immersion examination is recommended. Findings are consistent with Leishman-Donovan bodies of visceral leishmaniasis.",
+  "ddx": [
+    {"dx": "Histoplasmosis", "vs": "Histoplasma yeasts are surrounded by a clear halo and lack a kinetoplast, and are GMS-positive."},
+    {"dx": "Talaromyces marneffei infection", "vs": "T. marneffei yeasts show central septation (binary fission) rather than a nucleus with an adjacent kinetoplast."},
+    {"dx": "Platelet or stain precipitate overlying macrophages", "vs": "Precipitate is irregular, variably sized and present on the slide background, unlike uniform oval organisms confined to macrophages and their vicinity."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

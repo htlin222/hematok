@@ -1,0 +1,20 @@
+{
+  "id": "62477",
+  "recognize_zh": "CD5 染色中只有散在的反應性 T 細胞呈陽性，並在血管周圍與結節之間較密集；構成結節主體的腫瘤性 B 細胞是 CD5 陰性，可藉此與 CLL 及被套細胞淋巴瘤區分。",
+  "features": [
+    "Nodular lymphoid areas composed predominantly of CD5-negative cells (blue counterstain)",
+    "Scattered individual CD5-positive small T cells within nodules",
+    "Denser CD5-positive T-cell collections in perivascular/periarteriolar areas and between nodules",
+    "Linear tissue cracks are sectioning artifact"
+  ],
+  "describe_en": "CD5 immunohistochemical stain on spleen shows nodular lymphoid infiltrates in which the majority of cells are negative. CD5 highlights scattered reactive T cells within the nodules and denser collections of T cells in perivascular regions and between nodules. Linear cracks represent sectioning artifact. The neoplastic B cells are CD5 negative, which argues against CLL/SLL and mantle cell lymphoma and supports splenic marginal zone lymphoma in context.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL B cells co-express CD5 (weaker than T cells), so the nodules would appear diffusely CD5 positive."},
+    {"dx": "Mantle cell lymphoma", "vs": "Mantle cell lymphoma cells are CD5 positive and cyclin D1 positive, unlike these CD5-negative nodules."},
+    {"dx": "CD5-positive splenic marginal zone lymphoma", "vs": "A minority of SMZL express CD5, which would show diffuse staining of nodular B cells and requires cyclin D1 and SOX11 to exclude mantle cell lymphoma."}
+  ],
+  "specimen": "spleen",
+  "stain": "IHC: CD5",
+  "match": "consistent",
+  "high_yield": false
+}

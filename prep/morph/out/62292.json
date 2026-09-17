@@ -1,0 +1,22 @@
+{
+  "id": "62292",
+  "recognize_zh": "四張免疫染色中，CD2、CD3、CD7（A–C）在擴大的副皮質區呈瀰漫強陽性，濾泡處為陰性淡區；D 圖 CD5 只有部分細胞強陽性、其餘多數細胞陰性，提示腫瘤性 T 細胞 CD5 表現缺失，支持 T 細胞淋巴瘤。",
+  "features": [
+    "Panel A (CD2): diffuse strong staining of the expanded paracortex with negative residual follicles",
+    "Panel B (CD3): diffuse positivity across the node sparing scattered pale follicles",
+    "Panel C (CD7): diffuse positivity of the interfollicular infiltrate",
+    "Panel D (CD5): only a subset of lymphocytes strongly positive, with many intervening negative medium-sized cells, suggesting partial CD5 loss",
+    "Architecture effaced by a T-cell-rich infiltrate with residual B-cell follicles appearing as negative nodules"
+  ],
+  "describe_en": "Immunohistochemical stains on the lymph node show a diffuse T-cell infiltrate expanding the paracortex. CD2, CD3 and CD7 stain the infiltrate diffusely and strongly, with residual follicles appearing as negative pale nodules at low power. CD5 at higher power highlights only a subset of lymphocytes, while many of the medium-sized atypical cells are negative, indicating partial loss of CD5 expression by the neoplastic population. This aberrant T-cell immunophenotype supports a T-cell lymphoma and, with EBER positivity in the majority of T cells, is consistent with systemic EBV-positive T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Reactive paracortical hyperplasia", "vs": "Reactive T-zone expansions retain uniform expression of all pan-T-cell antigens including CD5 and CD7, without antigen loss."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "NK/T-cell lymphoma is surface CD3-negative (cytoplasmic CD3epsilon+), CD5-negative, CD56-positive, with angiocentric necrosis and usually extranodal presentation."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL neoplastic cells often show CD7 loss with TFH marker expression (PD-1, CXCL13, ICOS) and expanded FDC meshworks."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL is CD4+ CD25+ with CD7 loss and HTLV-1 serology, rather than EBV-positive CD8+ cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD2, CD3, CD7, CD5",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65979",
+  "recognize_zh": "上下兩顆細胞質布滿粗大、深紫黑色顆粒並覆蓋於核上的細胞為嗜鹼性球（basophil）；夾在中間的大細胞核質比高、染色質細緻、細胞質嗜鹼且無顆粒，為母細胞，背景為 AML 周邊血。",
+  "features": [
+    "Two granulocytes (top and bottom) with coarse, dark purple-black granules scattered over the cytoplasm and overlying the nucleus",
+    "Basophil nuclei are partially obscured, with segmentation not clearly discernible",
+    "Central blast: large cell with high N:C ratio, finely dispersed chromatin and a thin rim of agranular basophilic cytoplasm",
+    "No Auer rods visible in the blast in this field",
+    "Background red cells with mild anisocytosis and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a large blast with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, and a narrow rim of agranular basophilic cytoplasm, without Auer rods in this field. Flanking it are two granulocytes with coarse, dark purple-black cytoplasmic granules overlying and partially obscuring the nucleus, consistent with basophils. Red cells show mild anisocytosis and platelets are present. In the context of acute myeloid leukemia, findings show circulating blasts with accompanying basophils; basophilia in AML should prompt consideration of entities such as AML with t(6;9) DEK::NUP214 or BCR::ABL1-positive disease.",
+  "ddx": [
+    {"dx": "Mast cell", "vs": "Mast cells are larger with a round central nucleus and densely packed uniform granules, are rarely in blood, and express CD117 and tryptase."},
+    {"dx": "Neutrophil with toxic granulation", "vs": "Toxic granules are finer and do not heavily overlie a clearly segmented nucleus."},
+    {"dx": "Eosinophil", "vs": "Eosinophils contain refractile orange-red granules with a bilobed nucleus rather than purple-black granules."},
+    {"dx": "Blast versus lymphocyte", "vs": "The central cell's fine open chromatin distinguishes it from a mature lymphocyte with condensed chromatin; lineage requires flow cytometry."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

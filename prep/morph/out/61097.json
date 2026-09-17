@@ -1,0 +1,22 @@
+{
+  "id": "61097",
+  "recognize_zh": "同一骨髓同時有兩群異常細胞：抹片中有芽細胞與漿細胞混雜，流式細胞儀一群為 CD38+/CD56+ 且細胞質 lambda 輕鏈限制（94.33%）的漿細胞，另一群為 CD34+/CD117+/HLA-DR+/CD123+ 的骨髓芽細胞。",
+  "features": [
+    "Core biopsy (A): hypercellular marrow with increased immature mononuclear cells and plasma cells (asterisks/arrows mark cells of interest)",
+    "IHC (B): interstitially scattered positive cells throughout the marrow (antibody not labeled)",
+    "Aspirate (C, D): blasts with high N:C ratio, fine chromatin and nucleoli admixed with plasma cells showing eccentric nuclei and basophilic cytoplasm",
+    "Flow (E, F): plasma cell population CD38 bright/CD56 positive with cytoplasmic lambda restriction (94.33% lambda vs 0.06% kappa)",
+    "Flow (G–I): myeloblast population CD34+, CD123+, CD117+, HLA-DR+, CD38+",
+    "Two distinct neoplastic populations coexist in one marrow"
+  ],
+  "describe_en": "Bone marrow biopsy is hypercellular with increased immature mononuclear cells and interstitial plasma cells. The aspirate shows blasts with fine chromatin and nucleoli admixed with atypical plasma cells. Flow cytometry demonstrates two abnormal populations: CD38+/CD56+ plasma cells with cytoplasmic lambda light-chain restriction, and CD34+/CD117+/HLA-DR+/CD123+ myeloblasts. Although blasts are below 20%, in a patient with prior cytotoxic therapy, findings are suggestive of therapy-related myeloid neoplasm (AML-defining genetics or disease-defining criteria should be sought) with concomitant lambda-restricted plasma cell myeloma.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma with plasmablastic morphology only", "vs": "Plasmablasts are CD38/CD138+ with light-chain restriction and lack CD34/CD117/HLA-DR, so the separate CD34+ myeloblast population excludes this as the sole explanation."},
+    {"dx": "Therapy-related MDS with excess blasts", "vs": "Separation from t-AML at 8% blasts depends on AML-defining genetic abnormalities (e.g., KMT2A, NUP98 rearrangement) rather than morphology."},
+    {"dx": "Regenerating marrow after chemotherapy", "vs": "Regenerating marrow shows maturing myeloid precursors and a normal-pattern CD34+ population without aberrant antigen expression or a clonal cytogenetic lesion."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "H&E; IHC (unlabeled); Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

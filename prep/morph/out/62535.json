@@ -1,0 +1,20 @@
+{
+  "id": "62535",
+  "recognize_zh": "S100 染色中大型組織球的細胞核與細胞質皆呈強陽性；畫面中央一個 S100+ 組織球的細胞質內包著多個完整的淋巴球（周圍有空暈），即淋巴球穿入現象（emperipolesis），這是 Rosai-Dorfman 病的典型表現。",
+  "features": [
+    "Large histiocytes with strong nuclear and cytoplasmic S100 positivity",
+    "Central S100-positive histiocyte containing several intact lymphocytes with clear halos (emperipolesis)",
+    "Abundant, ill-defined cytoplasm of the S100-positive cells",
+    "Background of S100-negative small lymphocytes and plasma cells (blue nuclei)"
+  ],
+  "describe_en": "Immunohistochemical stain for S100 shows numerous large histiocytes with strong nuclear and cytoplasmic staining and abundant cytoplasm. Several of these cells contain intact small lymphocytes within clear cytoplasmic vacuoles, a feature accentuated by the S100 stain that represents emperipolesis. The surrounding small lymphocytes and plasma cells are negative. Findings are consistent with Rosai-Dorfman disease (sinus histiocytosis with massive lymphadenopathy).",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are also S100-positive but have grooved coffee-bean nuclei, lack emperipolesis, and are CD1a and langerin positive."},
+    {"dx": "Reactive sinus histiocytosis", "vs": "Reactive sinus histiocytes are S100-negative (CD68/CD163-positive only) and show no significant emperipolesis."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma cells are S100-positive but show nuclear atypia and prominent nucleoli, express SOX10/Melan-A, and lack the histiocyte markers CD68/CD163."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: S100",
+  "match": "consistent",
+  "high_yield": true
+}

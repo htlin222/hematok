@@ -1,0 +1,21 @@
+{
+  "id": "62080",
+  "recognize_zh": "這是 HBB 基因的 Sanger 定序圖（非形態圖）：前段單一清楚峰值，約在 AGG（codon 40）之後開始出現重疊的雙峰，代表此處起有異型合子的插入或缺失造成讀框位移，常見如 codon 41/42（-TTCT）。",
+  "features": [
+    "Sanger sequencing electropherogram of HBB (non-morphologic)",
+    "Clean single peaks through ...CCTTGGACCCAGAGG (approximately codons 36-40)",
+    "Abrupt onset of overlapping double peaks immediately downstream, persisting along the read",
+    "Pattern indicates a heterozygous small insertion/deletion causing frameshift, plausibly codons 41/42 (-TTCT)",
+    "Base calls after the transition are unreliable because two sequences are superimposed"
+  ],
+  "describe_en": "This is a Sanger sequencing electropherogram of the beta-globin (HBB) gene rather than a morphologic image. The trace shows clean single peaks through the sequence corresponding to approximately codons 36-40, followed by an abrupt transition to overlapping double peaks that persist downstream. This pattern indicates a heterozygous small insertion or deletion producing a frameshift, with the location consistent with the common codons 41/42 (-TTCT) beta-zero mutation, although exact nomenclature requires reverse-strand sequencing or deconvolution. A beta-thalassemia major phenotype would additionally require a second pathogenic HBB allele (compound heterozygosity) on the other chromosome.",
+  "ddx": [
+    {"dx": "Heterozygous point mutation (e.g., IVS-II-654 C>T, codon 17 A>T)", "vs": "A single-nucleotide variant produces one isolated double peak with clean sequence on either side, not a persistent run of superimposed peaks."},
+    {"dx": "Sequencing artifact from poor template or dye blobs", "vs": "Artifacts give noisy low peaks or broad blobs throughout, whereas a true indel shows a sharp, reproducible transition point confirmed on the reverse strand."},
+    {"dx": "Homozygous frameshift mutation", "vs": "A homozygous indel yields clean single peaks of the altered sequence rather than overlapping double peaks."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A (Sanger sequencing)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

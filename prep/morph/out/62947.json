@@ -1,0 +1,20 @@
+{
+  "id": "62947",
+  "recognize_zh": "CD3 染色下大量小至中型 T 細胞呈強棕色膜/質陽性，密集填滿結節，而夾雜其中的組織球與較大細胞為藍色陰性；豐富的 T 細胞背景是 T 細胞/組織球豐富型大 B 細胞淋巴瘤的特徵，但也容易被誤判為 T 細胞淋巴瘤。",
+  "features": [
+    "Numerous small-to-medium CD3-positive T cells with strong membranous/cytoplasmic staining",
+    "T cells densely populate the aggregate and extend into the surrounding tissue",
+    "Interspersed CD3-negative cells with larger oval vesicular nuclei (histiocytes and occasional large atypical cells)",
+    "Slightly irregular T-cell nuclear contours without obvious large atypical T cells"
+  ],
+  "describe_en": "Immunohistochemical stain for CD3 highlights numerous small-to-medium T cells densely populating the lymphohistiocytic aggregate and extending into the adjacent marrow. Interspersed CD3-negative cells with larger oval vesicular nuclei correspond to histiocytes and the scattered large atypical cells. The abundant T-cell background raises the possibility of a T-cell lymphoma; however, the T cells lack obvious cytologic atypia here, and the large atypical cells are B cells (CD20+/OCT2+), consistent with T-cell/histiocyte-rich large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL shows atypical CD3+ T cells with antigen loss (CD5, CD7) and clonal TCR rearrangement rather than bland T cells surrounding rare large B cells."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL T cells co-express TFH markers (PD1, CXCL13, ICOS) with expanded CD21+ follicular dendritic meshworks and EBV+ B blasts."},
+    {"dx": "Reactive T-cell lymphoid aggregate", "vs": "Reactive aggregates are small, well-circumscribed, and lack atypical large CD20+ B cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

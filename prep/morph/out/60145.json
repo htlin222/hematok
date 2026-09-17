@@ -1,0 +1,22 @@
+{
+  "id": "60145",
+  "recognize_zh": "抽吸抹片以大量芽細胞為主：中至大型、核圓、染色質細緻、部分可見核仁，胞質中等量呈藍色、少數含空泡，夾雜少數顆粒球；單看形態只能判定急性白血病，混合表現型急性白血病（MPAL）必須靠流式細胞儀證明兩系表現。",
+  "features": [
+    "Sheet of blasts, intermediate to large, with round to slightly indented nuclei and high N:C ratio",
+    "Finely dispersed chromatin with occasional distinct nucleoli",
+    "Moderate basophilic, agranular cytoplasm; one blast with prominent cytoplasmic vacuoles; no Auer rods seen",
+    "Some smaller blasts with scant cytoplasm and less conspicuous nucleoli (heterogeneous blast population)",
+    "Few residual maturing neutrophils (band and bilobed forms) with granular cytoplasm"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a marked increase in blasts, which replace most normal hematopoietic elements. The blasts are heterogeneous: many are intermediate to large with round nuclei, finely dispersed chromatin, occasional nucleoli and moderate agranular basophilic cytoplasm, some with vacuoles, while others are smaller with scant cytoplasm. No Auer rods are identified, and only a few residual maturing neutrophils are present. Morphology establishes acute leukemia but cannot assign lineage; with flow cytometric evidence of both myeloid/monocytic and lymphoid lineage commitment (and KMT2A rearrangement), the findings are consistent with mixed phenotype acute leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation (KMT2A-rearranged)", "vs": "Morphologically similar vacuolated blasts occur, so separation depends on flow cytometry showing absence of lineage-defining lymphoid markers such as cytoplasmic CD3 or strong CD19 with CD79a/CD22/CD10."},
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "B-ALL blasts are typically smaller with scant cytoplasm and lack myeloid markers such as MPO or monocytic differentiation (lysozyme, CD11c, CD14, CD64, NSE)."},
+    {"dx": "Plasma cell neoplasm with plasmablasts", "vs": "Plasmablasts show eccentric nuclei, perinuclear hof and deeply basophilic cytoplasm, with CD138/CD38 positivity and light-chain restriction."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with numerous sharply punched-out vacuoles in most cells and a mature B-cell phenotype with MYC rearrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

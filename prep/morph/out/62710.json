@@ -1,0 +1,21 @@
+{
+  "id": "62710",
+  "recognize_zh": "原始細胞閘門內的 CD13 對 CD33 流式圖：幾乎全部原始細胞 CD33 陽性（約 10³–10⁴·⁷），CD13 則多為陰性到弱陽性，只有部分延伸到 10⁴–10⁵，屬骨髓系相關抗原表現，但 CD13/CD33 本身不足以判定骨髓系別。",
+  "features": [
+    "Gated on blasts; CD13-PE (x-axis) versus CD33-PC5.5 (y-axis)",
+    "Single broad blast population with CD33 expression spanning about 10^3 to 5x10^4",
+    "CD13 negative to dim on most blasts with a partial tail of positive events up to about 10^5",
+    "Small fraction of blasts with dim CD33 below 10^3",
+    "No clearly separate CD13-bright/CD33-bright cluster"
+  ],
+  "describe_en": "Flow cytometric analysis gated on blasts displays CD13 versus CD33. The blasts show predominantly positive CD33 expression over a broad intensity range, with CD13 negative to dim and a partial tail of brighter CD13 expression. CD13 and CD33 are myeloid-associated antigens that are frequently expressed aberrantly in B-lymphoblastic leukemia and therefore do not establish myeloid lineage; myeloid assignment in MPAL requires MPO or monocytic differentiation. In context, the findings are in keeping with mixed phenotype acute leukemia, B/myeloid.",
+  "ddx": [
+    {"dx": "B-ALL with aberrant myeloid antigens", "vs": "CD13/CD33 co-expression is common in B-ALL (e.g., BCR::ABL1, ETV6::RUNX1) and is distinguished from MPAL by absence of MPO and monocytic differentiation."},
+    {"dx": "AML without maturation", "vs": "CD33/CD13-positive blasts with MPO positivity but no B-lineage commitment markers (strong CD19 with CD79a/cCD22/CD10)."},
+    {"dx": "Early T-precursor lymphoblastic leukemia", "vs": "May express CD13/CD33 but shows cytoplasmic CD3 with CD7 and lacks CD19/CD79a."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry: CD13-PE vs CD33-PC5.5",
+  "match": "non-morphologic",
+  "high_yield": false
+}

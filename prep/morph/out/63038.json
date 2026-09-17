@@ -1,0 +1,22 @@
+{
+  "id": "63038",
+  "recognize_zh": "腦組織中大型、核仁明顯的非典型淋巴細胞塞滿小血管與微血管管腔（A、C），間質幾乎沒有腫瘤細胞；CD20 陽性（D）、CD5 在血管內細胞陽性（E）、Ki67 極高（F），是血管內大 B 細胞淋巴瘤的典型表現。",
+  "features": [
+    "Panels A-C (H&E): large atypical lymphoid cells with vesicular nuclei, prominent nucleoli and moderate cytoplasm filling and distending small vessels and capillaries of brain parenchyma",
+    "Tumor cells confined to vascular lumina with minimal or no extravascular infiltration of the surrounding neuropil",
+    "Panel D: strong membranous CD20 positivity of the intravascular cells",
+    "Panel E: CD5 positivity in cells within capillary lumina",
+    "Panel F: Ki67 proliferation index very high in the intravascular population"
+  ],
+  "describe_en": "Sections of brain parenchyma show small vessels and capillaries filled and distended by large atypical lymphoid cells with vesicular chromatin, prominent nucleoli and moderate cytoplasm, with little to no extravascular infiltration of the surrounding neuropil. By immunohistochemistry the intravascular cells are strongly positive for CD20, CD5 highlights cells within capillary lumina, and the Ki67 proliferation index is very high. There is no mass-forming parenchymal lymphoma in these fields. Findings are consistent with intravascular large B-cell lymphoma involving the central nervous system.",
+  "ddx": [
+    {"dx": "Primary CNS diffuse large B-cell lymphoma", "vs": "Primary CNS DLBCL forms parenchymal masses with angiocentric perivascular cuffing that infiltrates the neuropil, rather than tumor cells confined within vessel lumina."},
+    {"dx": "Intravascular NK/T-cell lymphoma", "vs": "Intravascular NK/T-cell lymphoma is CD20 negative and CD3/CD56/cytotoxic marker and EBER positive."},
+    {"dx": "Intravascular carcinomatosis / tumor emboli", "vs": "Carcinoma emboli are cohesive keratin-positive cells and CD20/CD45 negative."},
+    {"dx": "Leukostasis in acute leukemia", "vs": "Leukostasis shows blasts in vessels with a circulating leukemic population (MPO/CD34/TdT positive), not CD20+ large B cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD20, CD5, Ki67",
+  "match": "consistent",
+  "high_yield": true
+}

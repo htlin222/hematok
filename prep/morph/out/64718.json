@@ -1,0 +1,22 @@
+{
+  "id": "64718",
+  "recognize_zh": "骨髓切片觸印片中成片中大型母細胞，核圓或稍不規則、染色質細緻、有小核仁，細胞質中等量、灰藍色且無顆粒，部分細胞質邊緣可見細小空泡，這種無顆粒的母細胞需靠免疫表型（CD123/CD4/CD56）確認 BPDCN。",
+  "features": [
+    "Sheets of medium-to-large blasts with a relatively uniform appearance",
+    "Round to slightly indented nuclei with finely dispersed chromatin and small nucleoli",
+    "Moderate amount of pale gray-blue agranular cytoplasm, focally with fine peripheral vacuoles",
+    "No Auer rods or cytoplasmic granules",
+    "Rare residual small lymphocyte/erythroid precursor; red cells in background"
+  ],
+  "describe_en": "Touch imprint of the bone marrow core biopsy is dominated by a cohesive-appearing population of medium-to-large blasts. The blasts have round to slightly indented nuclei, finely dispersed chromatin, one or more small nucleoli, and a moderate rim of agranular gray-blue cytoplasm, some with fine vacuoles along the cytoplasmic margin. Auer rods and cytoplasmic granules are not seen, and normal hematopoietic elements are markedly reduced. These agranular blasts are morphologically nonspecific; with a CD4+/CD56+/CD123+/TCF4+ phenotype and absence of MPO, findings are consistent with marrow involvement by blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia (minimally differentiated or monocytic)", "vs": "AML may show granules, Auer rods or MPO/NSE positivity and expresses myeloid/monocytic markers, whereas BPDCN blasts are MPO-negative with bright CD123 and TCF4/TCL1."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts usually have scantier cytoplasm and express TdT with CD19/CD79a or cCD3, markers absent in BPDCN."},
+    {"dx": "AML with pDC expansion (e.g., RUNX1-mutated)", "vs": "In AML with pDC expansion the plasmacytoid dendritic cells are mature-appearing CD34-/CD56- and accompany a separate CD34+ myeloid blast population, unlike the uniform CD56+ neoplastic pDC blasts of BPDCN."},
+    {"dx": "Acute undifferentiated or mixed-phenotype leukemia", "vs": "These require lack of lineage markers or dual lineage assignment by flow, whereas BPDCN has a defined pDC phenotype (CD123, CD303, TCF4)."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

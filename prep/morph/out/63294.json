@@ -1,0 +1,17 @@
+{
+  "id": "63294",
+  "recognize_zh": "這是 NGS 定序比對結果的 IGV 截圖：位置在第 17 號染色體 17p13.1（TP53 基因），大量讀段在同一鹼基位置出現紅色（T）不配對，對應約第 175 號密碼子，提示 TP53 熱點突變（如 p.R175H），支持 AML-MRC 常見的 TP53 異常。",
+  "features": [
+    "Integrative Genomics Viewer screenshot of aligned sequencing reads over a 96 bp window on chromosome 17p13.1 (~chr17:7,578,360-7,578,450, hg19 coordinates)",
+    "Single genomic position (~7,578,406) with mismatched bases (red, T on the plus strand) in a large proportion of reads, flagged in the coverage track",
+    "Reference sequence and translated amino acid track at the bottom show TP53 exon 5 (reverse strand) around codons 174-176 (R-R-C)",
+    "Scattered isolated colored mismatches elsewhere consistent with background sequencing error",
+    "Variant allele fraction appears substantial but cannot be quantified precisely from the screenshot"
+  ],
+  "describe_en": "This figure is an Integrative Genomics Viewer display of next-generation sequencing reads aligned to chromosome 17p13.1 within the TP53 gene. A single-nucleotide variant is present at approximately chr17:7,578,406 (hg19), where a large fraction of reads show a C>T change on the plus strand (G>A on the coding strand), and the codon track places it at arginine 175, consistent with the TP53 hotspot variant c.524G>A, p.R175H. The variant allele fraction appears substantial, though exact values should be taken from the variant call report rather than the screenshot. A TP53 mutation in this context is associated with complex karyotype, adverse prognosis and, under current WHO/ICC schemes, classification as AML/MDS with mutated TP53.",
+  "ddx": [],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

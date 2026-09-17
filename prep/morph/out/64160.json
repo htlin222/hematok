@@ -1,0 +1,22 @@
+{
+  "id": "64160",
+  "recognize_zh": "低倍周邊血液抹片中，大量紅血球呈現少數不規則、長短不一的尖刺突起（棘狀紅血球 acanthocytes），並混有規則鋸齒狀的 echinocytes 與小而無中央淡染區的球形紅血球；在服用 alectinib 的肺癌病人，這種瀰漫性棘狀紅血球是藥物相關的表現。",
+  "features": [
+    "Numerous acanthocytes: dense, contracted red cells with few irregular spicules of uneven length and spacing",
+    "Admixed echinocytes with regular, evenly spaced short projections",
+    "Occasional spherocytes lacking central pallor",
+    "Remaining red cells normocytic and normochromic; no schistocytes or red cell fragments",
+    "Platelets present and unremarkable; low magnification limits leukocyte assessment"
+  ],
+  "describe_en": "Low-power view of the peripheral blood smear shows a striking population of acanthocytes with irregularly spaced spicules, accompanied by echinocytes and occasional spherocytes. Background red cells are normocytic and normochromic, and schistocytes are not increased. Platelets appear adequate. Note that the embedded scale bar appears miscalibrated relative to red cell size. In a patient receiving alectinib, findings are consistent with drug-induced (spheroacanthocytic) red cell change.",
+  "ddx": [
+    {"dx": "Echinocytes (drying artifact or uremia)", "vs": "Echinocytes have 10-30 short, regular, evenly distributed projections on cells retaining central pallor, whereas acanthocytes have few irregular spicules on dense cells."},
+    {"dx": "Spur cell anemia of advanced liver disease", "vs": "Morphology is similar; separation depends on clinical context (severe liver disease versus alectinib exposure) rather than red cell appearance."},
+    {"dx": "Neuroacanthocytosis / abetalipoproteinemia", "vs": "Inherited acanthocytosis is lifelong with neurologic signs or fat malabsorption and low lipoproteins, not newly acquired during ALK inhibitor therapy."},
+    {"dx": "Hereditary spherocytosis", "vs": "HS shows spherocytes without prominent spiculated forms and a family history, while here acanthocytes predominate and reverse on switching ALK inhibitors."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

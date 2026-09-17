@@ -1,0 +1,21 @@
+{
+  "id": "1257",
+  "recognize_zh": "骨髓抹片中央有一團細胞被大量藍黑色細小粉末狀黑色素顆粒覆蓋，右側一個大型腫瘤細胞具明顯大核仁與豐富灰藍色細胞質，背景中有散落的色素顆粒，符合黑色素瘤骨髓轉移。",
+  "features": [
+    "Aggregate of cells heavily laden with fine, dusty blue-black melanin pigment, partly obscuring nuclei",
+    "Large atypical cell with an oval nucleus, prominent nucleolus and abundant grey-blue cytoplasm",
+    "Additional large cell with vesicular chromatin and a distinct nucleolus",
+    "Extracellular pigment granules scattered in the background",
+    "Background degenerated hematopoietic cells, including smudged nuclei and neutrophils"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a group of cells heavily laden with fine blue-black pigment, with similar granules dispersed in the background. Nearby are large atypical cells with oval nuclei, vesicular chromatin, prominent nucleoli and abundant grey-blue cytoplasm, unlike normal marrow elements. Residual hematopoietic cells show degenerative smudging. Findings are suggestive of metastatic melanoma to the bone marrow, to be confirmed by immunohistochemistry for melanocytic markers.",
+  "ddx": [
+    {"dx": "Hemosiderin-laden macrophages", "vs": "Hemosiderin is Prussian blue-positive and lies within bland macrophages, whereas melanin is Prussian blue-negative and associated with atypical nucleolated tumor cells."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive clusters without pigment and is keratin-positive and SOX10/S100-negative."},
+    {"dx": "Osteoblasts", "vs": "Osteoblasts have eccentric nuclei with a paranuclear hof away from the nucleus and lack cytoplasmic pigment or macronucleoli."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

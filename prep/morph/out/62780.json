@@ -1,0 +1,22 @@
+{
+  "id": "62780",
+  "recognize_zh": "抹片中的腫瘤細胞非常大，胞質豐富嗜鹼性並有大量清楚空泡，核呈腎形或馬蹄形凹陷（hallmark cell 樣）；在一般淋巴球門檻下流式看起來正常，擴大 FSC/SSC 門檻後才抓到大型 CD4+CD30 強陽性族群，符合 ALK 陰性退行性大細胞淋巴瘤。",
+  "features": [
+    "Very large atypical cells, several times the size of red cells, with moderate N:C ratio",
+    "Reniform to horseshoe-shaped, indented nuclei with fine chromatin (hallmark-like cells)",
+    "Abundant deeply basophilic cytoplasm with numerous clear, well-defined vacuoles, often clustered near the nuclear indentation",
+    "Flow with standard lymphocyte gate: small population with normal CD4/CD8 distribution",
+    "Flow with expanded high FSC/SSC gate: large CD4-positive, CD30-bright population"
+  ],
+  "describe_en": "Smear (apparently peripheral blood) shows scattered very large atypical cells with reniform to horseshoe-shaped nuclei, fine chromatin, and abundant deeply basophilic cytoplasm containing numerous sharply defined clear vacuoles. Flow cytometry analyzed with a conventional lymphocyte gate shows only small lymphocytes with an unremarkable CD4/CD8 distribution, whereas widening the gate to include high forward and side scatter events reveals a large CD4-positive population with bright CD30 expression. Findings are consistent with involvement by a CD30-positive T-cell lymphoma, in keeping with anaplastic large cell lymphoma, ALK-negative; ALK immunostaining and DUSP22/TP63 rearrangement studies are recommended.",
+  "ddx": [
+    {"dx": "ALK-positive anaplastic large cell lymphoma", "vs": "Morphology and CD30 expression are identical, so distinction requires ALK immunostaining or ALK rearrangement testing."},
+    {"dx": "Burkitt lymphoma or leukemia", "vs": "Burkitt cells also have vacuolated basophilic cytoplasm but are medium-sized, round-nucleated CD10+/CD20+ B cells rather than very large CD4+ CD30+ cells with horseshoe nuclei."},
+    {"dx": "Monocytic leukemia (monoblasts/promonocytes)", "vs": "Monocytic cells can be vacuolated with folded nuclei but are CD14/CD64/CD33-positive and nonspecific esterase-positive, lacking uniform bright CD30."},
+    {"dx": "Metastatic carcinoma or melanoma cells in circulation", "vs": "Non-hematopoietic tumor cells are CD45-negative and form cohesive clusters, whereas these cells are CD4-positive and CD30-bright on flow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

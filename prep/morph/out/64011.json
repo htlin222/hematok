@@ -1,0 +1,22 @@
+{
+  "id": "64011",
+  "recognize_zh": "骨髓抹片中大量母細胞與核摺疊的單核球樣細胞，中央可見一顆嗜酸性球前驅細胞，細胞質內充滿粗大、暗紫黑色（嗜鹼樣）的異常顆粒；「單核球分化母細胞＋異常嗜酸性球」是 AML 合併 inv(16)/t(16;16)（CBFB::MYH11）的典型組合。",
+  "features": [
+    "Sheets of large blasts with fine chromatin, visible nucleoli, and moderate basophilic cytoplasm",
+    "Monocytoid cells with folded, indented, or reniform nuclei and grayish cytoplasm",
+    "Abnormal eosinophil precursor packed with large, dark purple-violet (basophilic-appearing) granules",
+    "Additional eosinophil lineage cells with mixed orange and dark granules",
+    "Background of released granules from ruptured cells, vacuoles, and smudged nuclei (imprint/crush artifact)"
+  ],
+  "describe_en": "Bone marrow aspirate/imprint smear shows sheets of blasts with fine chromatin, nucleoli, and moderate basophilic cytoplasm, admixed with monocytoid cells showing folded and reniform nuclei. Increased eosinophil lineage cells are present, including abnormal eosinophils containing large, dark purple, basophilic-appearing granules. The background contains numerous free granules and disrupted cells. Findings are suggestive of acute myelomonocytic leukemia with abnormal eosinophils, as seen in AML with inv(16)(p13.1q22) or t(16;16)/CBFB::MYH11; confirmation by cytogenetics, FISH, or RT-PCR is required.",
+  "ddx": [
+    {"dx": "AML with t(8;21)/RUNX1::RUNX1T1", "vs": "t(8;21) blasts have salmon-colored cytoplasm with a single long Auer rod and perinuclear hof, and eosinophils are not dysplastic with dark granules."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia (PDGFRA/PDGFRB/FGFR1)", "vs": "These show mature eosinophilia with mast cells or lymphoblasts rather than abnormal immature eosinophils with basophilic granules among monocytic blasts."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML has fewer than 20% blasts/promonocytes with persistent monocytosis, not sheets of blasts."},
+    {"dx": "Acute monocytic leukemia without inv(16)", "vs": "Monocytic AML lacks the dysplastic eosinophils with large basophilic granules and requires cytogenetics to exclude CBFB::MYH11."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

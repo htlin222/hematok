@@ -1,0 +1,21 @@
+{
+  "id": "60126",
+  "recognize_zh": "周邊血液中央的嗜中性球只有兩個上下排列的核葉、染色質緻密粗塊，細胞質顆粒正常，呈 Pelger-Huët 異常的雙葉（啞鈴/眼鏡狀）核型。",
+  "features": [
+    "Neutrophil with two nuclear lobes (bilobed) in a pince-nez/dumbbell configuration",
+    "Dense, coarsely clumped mature chromatin in each lobe",
+    "Lobes connected by a thin chromatin strand (only faintly visible at this resolution)",
+    "Cytoplasm with normal fine neutrophilic granulation",
+    "Background red cells and platelets unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil with a bilobed nucleus in a pince-nez configuration, composed of two dense lobes with coarsely clumped chromatin joined by a thin strand. The cytoplasm is normally granulated. Red cells and platelets are unremarkable. In an otherwise healthy individual with most neutrophils affected, findings are consistent with Pelger-Huët anomaly.",
+  "ddx": [
+    {"dx": "Pseudo-Pelger-Huët change (MDS, AML, drugs)", "vs": "Acquired pseudo-Pelger cells are often hypogranular, involve a subset of neutrophils and accompany cytopenias or dysplasia, unlike the inherited anomaly."},
+    {"dx": "Band neutrophil", "vs": "A band has a continuous curved nucleus of uniform width without pinched lobes and has less condensed chromatin."},
+    {"dx": "Eosinophil", "vs": "Eosinophils are typically bilobed but contain large refractile orange granules, whereas this cell has fine neutrophilic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

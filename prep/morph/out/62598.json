@@ -1,0 +1,20 @@
+{
+  "id": "62598",
+  "recognize_zh": "CD3 染色中散在許多強陽性、膜狀著色的小型反應性 T 細胞，而背景成片的腫瘤細胞核呈藍色、不著色，表示腫瘤非 T 細胞來源。",
+  "features": [
+    "Numerous scattered small lymphocytes with strong membranous CD3 staining",
+    "Positive T cells are evenly distributed between tumor cells, often in small clusters",
+    "Background sheet of larger tumor cells with round to oval nuclei is CD3-negative",
+    "Clean background without non-specific staining"
+  ],
+  "describe_en": "CD3 immunohistochemistry highlights a moderate number of scattered small reactive T cells distributed throughout the lesion. The larger neoplastic cells forming the background sheet are negative for CD3. This excludes a T-cell phenotype for the tumor population and, together with CD20 negativity and MUM1 positivity, supports a plasma cell neoplasm, consistent with EBV-positive plasmacytoma-like PTLD.",
+  "ddx": [
+    {"dx": "T-cell PTLD (e.g., PTCL, NOS)", "vs": "In T-cell PTLD the atypical large cells themselves are CD3-positive, whereas here only small bystander cells stain."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has abundant T cells surrounding scattered large CD20+ B cells, whereas here the tumor sheet is CD20-negative and plasmacytic."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "NK/T-cell lymphoma cells show cytoplasmic CD3ε with CD56, unlike the CD3-negative tumor cells here."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD3",
+  "match": "consistent",
+  "high_yield": false
+}

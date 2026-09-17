@@ -1,0 +1,23 @@
+{
+  "id": "62756",
+  "recognize_zh": "H&E 中可見大型多核/雙核的 Reed-Sternberg 樣細胞（紅箭頭），旁邊混有核呈咖啡豆狀凹溝、胞質淡嗜伊紅的組織球樣細胞（藍箭頭）與嗜伊紅性白血球；免疫染色分別標出成群的 Langerhans 細胞（B、C）與少數 HRS 細胞（D），提示兩病共存。",
+  "features": [
+    "Large cells with multilobated or binucleate nuclei and prominent nucleoli (Hodgkin/Reed-Sternberg-like cells, red arrows)",
+    "Intermediate-sized cells with oval, grooved or folded (coffee-bean) nuclei and abundant pale eosinophilic cytoplasm (Langerhans-type cells, blue arrows)",
+    "Mixed inflammatory background with numerous eosinophils and small lymphocytes",
+    "Clusters of cells with strong membranous/cytoplasmic staining in sheets (B), consistent with a Langerhans cell marker such as CD1a or langerin",
+    "A second marker highlights large cells with membranous/Golgi-type staining in a patchy distribution (C)",
+    "Only rare weakly positive large cells (arrows) with a third marker (D), consistent with sparse HRS cells"
+  ],
+  "describe_en": "Lymph node/tissue section shows a polymorphous infiltrate containing scattered large binucleate and multilobated cells with prominent nucleoli, admixed with sheets of histiocytoid cells with grooved, folded nuclei and pale eosinophilic cytoplasm, and many eosinophils. Immunohistochemistry (markers not labeled) highlights clustered Langerhans-type cells with strong staining in one panel, large cells with membranous/dot-like staining in another, and only rare weakly positive large cells (arrows) in a third. The coexistence of Hodgkin/Reed-Sternberg-like cells and a separate population of Langerhans cells is consistent with concurrent classical Hodgkin lymphoma and Langerhans cell histiocytosis; confirmation requires CD30/CD15/PAX5(weak) on the large cells and CD1a/langerin/S100 on the grooved cells.",
+  "ddx": [
+    {"dx": "Classical Hodgkin lymphoma with reactive Langerhans cell hyperplasia", "vs": "Reactive Langerhans cells are usually scattered or small clusters without sheet-like proliferation, and lack BRAF V600E or other MAPK pathway mutations."},
+    {"dx": "Langerhans cell sarcoma", "vs": "Shows overtly malignant pleomorphic cells with high mitotic rate expressing CD1a/langerin, rather than bland grooved LCH cells plus CD30+/CD15+ HRS cells."},
+    {"dx": "Peripheral T-cell lymphoma with HRS-like cells", "vs": "The HRS-like cells are often EBV-positive B cells within an atypical, clonal T-cell background with aberrant T-cell antigen loss, and there are no CD1a+ Langerhans cell sheets."},
+    {"dx": "Eosinophilic abscess-rich LCH alone", "vs": "The large multilobated cells in LCH are CD1a/langerin positive and CD30/CD15 negative, whereas true HRS cells are CD30+, CD15+/-, PAX5 weak and CD45 negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E and IHC panel (markers not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

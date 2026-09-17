@@ -1,0 +1,23 @@
+{
+  "id": "65140",
+  "recognize_zh": "腹水抹片中滿是大型母細胞，核圓到有凹陷或摺疊、染色質細緻、可見核仁，細胞質中等、藍灰色並布滿許多小空泡；中間還有一個含粗大深紫顆粒的細胞（疑似異常嗜酸性前驅細胞）。體液中出現大量母細胞即提示白血病性腹水，細胞型態與顆粒符合具單核球分化、inv(16) 的 AML。",
+  "features": [
+    "Densely cellular fluid preparation composed almost entirely of large blasts, 2-3 times the size of a small lymphocyte",
+    "High N:C ratio with round, indented, folded or cleaved nuclei",
+    "Fine dispersed chromatin with conspicuous nucleoli in many cells",
+    "Moderate grey-blue to basophilic cytoplasm with numerous small clear vacuoles",
+    "Occasional cell with coarse dark purple granules, possibly an abnormal eosinophil precursor",
+    "Proteinaceous pink background with scattered RBCs; no mesothelial cell clusters evident"
+  ],
+  "describe_en": "Cytospin/smear of ascitic fluid is highly cellular and composed predominantly of large blasts with high N:C ratios, round to folded or cleaved nuclei, finely dispersed chromatin and conspicuous nucleoli. The cytoplasm is moderate, grey-blue and prominently vacuolated. A rare cell contains coarse dark purple granules, which may represent an abnormal eosinophil precursor. Reactive mesothelial cells and mature inflammatory cells are inconspicuous. Findings are consistent with leukemic ascites by acute myeloid leukemia with monocytic features, in keeping with the reported AML with inv(16).",
+  "ddx": [
+    {"dx": "Reactive mesothelial cells", "vs": "Mesothelial cells have dense two-toned cytoplasm with a peripheral lacy skirt, central round nuclei and form windows between cells, unlike discohesive vacuolated blasts."},
+    {"dx": "Burkitt lymphoma effusion", "vs": "Burkitt cells are medium-sized with deeply basophilic cytoplasm and lipid vacuoles but have round nuclei, multiple small nucleoli, and a CD10+/MYC-rearranged B-cell phenotype without myeloid markers."},
+    {"dx": "Metastatic adenocarcinoma", "vs": "Carcinoma cells form cohesive three-dimensional clusters with mucin vacuoles and are keratin/MOC31-positive rather than CD33/CD117/MPO-positive."},
+    {"dx": "Diffuse large B-cell lymphoma involving peritoneum", "vs": "Large lymphoma cells have coarser chromatin and basophilic cytoplasm and express B-cell markers on flow cytometry instead of myeloid/monocytic antigens."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

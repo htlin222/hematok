@@ -1,0 +1,21 @@
+{
+  "id": "63272",
+  "recognize_zh": "CD117/CD33 流式散佈圖以四象限分區，紅色芽細胞族群落在右上象限（CD33+CD117+），棕色成熟嗜中性球與單核球只有 CD33+，紫色 T 細胞兩者皆陰性；芽細胞同時表現 CD33 與 CD117，表示其為骨髓系來源，符合 TAM。",
+  "features": [
+    "Flow cytometry dot plot: CD117-APC (x-axis) versus CD33-PC5.5 (y-axis) with quadrant gates",
+    "Red blast population in the upper-right quadrant: CD33-positive and CD117-positive",
+    "Brown population (mature neutrophils/monocytes): CD33-positive, CD117-negative (upper-left quadrant)",
+    "Purple population (normal T cells): CD33-negative and CD117-negative/low",
+    "Black events (debris/other) with double-negative staining near the origin"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD117 versus CD33 shows a large blast population (red) co-expressing CD33 and CD117, indicating myeloid derivation. Mature neutrophils and monocytes (brown) express CD33 without CD117, and normal T cells (purple) are negative for both markers, serving as internal controls. In a neonate with Down syndrome, myeloid blasts with this phenotype (typically also CD34+, CD7+, CD41/CD61+) are consistent with transient abnormal myelopoiesis; GATA1 mutation analysis supports the diagnosis.",
+  "ddx": [
+    {"dx": "Myeloid leukemia associated with Down syndrome", "vs": "Blast immunophenotype is essentially identical (CD33+CD117+, megakaryocytic markers); separation relies on age (usually after 1 month to 5 years), persistence, cytopenias and additional mutations beyond GATA1."},
+    {"dx": "Acute megakaryoblastic leukemia in non-Down syndrome infants", "vs": "Blasts can share CD33/CD117 and CD41/CD61 expression, but patients lack trisomy 21/GATA1 mutation and often carry RBM15-MKL1 or CBFA2T3-GLIS2."},
+    {"dx": "Mixed phenotype acute leukemia, T/myeloid", "vs": "Requires cytoplasmic CD3 on the blasts in addition to myeloid markers, whereas CD7 aberrancy in TAM is not sufficient for T lineage."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

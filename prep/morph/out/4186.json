@@ -1,0 +1,21 @@
+{
+  "id": "4186",
+  "recognize_zh": "骨髓切片細胞量明顯增加、脂肪減少，粒系與嗜酸性細胞為主；此 H&E 視野並未清楚看到典型緊密的紡錘形肥大細胞聚集，需以 tryptase、CD117、CD25 免疫染色才能確認全身性肥大細胞增生症。",
+  "features": [
+    "Hypercellular bone marrow biopsy with reduced fat spaces between bony trabeculae",
+    "Predominance of granulocytic precursors with numerous eosinophilic granulocytes",
+    "Scattered megakaryocytes; erythroid islands present",
+    "Occasional cells with oval nuclei and pale cytoplasm, but no definite compact spindle-cell mast cell aggregates in this field",
+    "Bone trabeculae without obvious osteosclerosis"
+  ],
+  "describe_en": "H&E section of bone marrow biopsy shows a hypercellular marrow with decreased fat, composed predominantly of granulocytic precursors with numerous eosinophils, scattered megakaryocytes and erythroid elements. Occasional cells with oval nuclei and pale cytoplasm are present, but discrete compact aggregates of spindled mast cells are not definitely identified in this field. The findings are compatible with a myeloid neoplasm with eosinophilia and, in context, may represent systemic mastocytosis; immunohistochemistry for tryptase, CD117 and CD25 and KIT D816V testing are needed to document the mast cell infiltrate.",
+  "ddx": [
+    {"dx": "Myeloproliferative neoplasm / CML", "vs": "MPNs show similar hypercellularity with eosinophils, but lack tryptase+/CD25+ mast cell aggregates and are defined by BCR::ABL1, JAK2, CALR or MPL."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and tyrosine kinase fusion", "vs": "PDGFRA-rearranged neoplasms can show loose atypical mast cells but lack KIT D816V and are identified by FIP1L1::PDGFRA testing."},
+    {"dx": "Reactive eosinophilia", "vs": "Reactive marrow shows eosinophilia without atypical spindle-shaped mast cell clusters or molecular clonality."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

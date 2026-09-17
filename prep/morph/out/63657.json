@@ -1,0 +1,22 @@
+{
+  "id": "63657",
+  "recognize_zh": "巨噬細胞的細胞質中有數十顆卵圓形小體（約 2–4 µm），多數可見一個紫色圓核，部分旁邊還有更小、顏色更深的棒狀動基體（kinetoplast），周圍沒有透明暈，符合利什曼原蟲無鞭毛體（amastigote）。",
+  "features": [
+    "Large macrophage with round-oval eccentric nucleus and abundant pale blue cytoplasm",
+    "Dozens of small oval intracytoplasmic organisms (approximately 2-4 µm) with pale cytoplasm",
+    "Each organism has a purple nucleus; several show a smaller, darker rod-shaped kinetoplast",
+    "No clear halo or capsule around the organisms",
+    "Background red cells and scattered platelets"
+  ],
+  "describe_en": "Bone marrow smear shows a large macrophage with an eccentric nucleus and abundant cytoplasm containing numerous small, oval intracellular organisms approximately 2-4 µm in size. Many organisms display a round nucleus accompanied by a smaller, dark rod-shaped kinetoplast, and no surrounding clear halo is seen. Findings are consistent with Leishmania amastigotes (visceral leishmaniasis); species confirmation by PCR or culture is recommended.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts have a single crescent-shaped staining body with a clear halo, no kinetoplast, and are GMS/PAS positive."},
+    {"dx": "Toxoplasma gondii", "vs": "Toxoplasma tachyzoites are crescentic and lack a kinetoplast."},
+    {"dx": "Trypanosoma cruzi amastigotes", "vs": "T. cruzi amastigotes also have a kinetoplast but are typically found in cardiac or skeletal muscle and are separated by serology, PCR, and epidemiology."},
+    {"dx": "Platelets overlying a macrophage", "vs": "Platelets are anucleate granular fragments in a different focal plane without the nucleus-kinetoplast pair."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

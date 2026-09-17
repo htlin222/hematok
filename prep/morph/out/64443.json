@@ -1,0 +1,22 @@
+{
+  "id": "64443",
+  "recognize_zh": "骨髓抹片中多顆偏心核、細胞質豐富灰藍、核周有淡染區的漿細胞，部分細胞核較大、染色質較細緻，呈未成熟外觀。背景的紅血球堆疊成錢串狀（rouleaux），提示血中有大量單株免疫球蛋白，符合多發性骨髓瘤。",
+  "features": [
+    "Increased plasma cells, many with eccentric round to oval nuclei and abundant grey-blue cytoplasm",
+    "Perinuclear hof (Golgi zone) visible in several cells",
+    "Some plasma cells show enlarged nuclei with finer chromatin and relatively higher N:C ratio, suggesting immature/atypical forms; nucleoli are not sharply resolved at this focus",
+    "Occasional cell with a pale, vacuolated cytoplasmic area",
+    "Prominent rouleaux formation of red cells in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows increased plasma cells with eccentric nuclei, abundant grey-blue cytoplasm and perinuclear clearing. A subset display atypical features, including enlarged nuclei, finer chromatin and a higher nuclear-to-cytoplasmic ratio. Red cells show prominent rouleaux formation, reflecting increased serum paraprotein. Image focus limits assessment of nucleoli. Findings are consistent with a plasma cell neoplasm (multiple myeloma); quantification of plasma cells on the full aspirate and core biopsy, with light chain restriction studies, is required.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are mature, usually <10% of marrow cells, polytypic and perivascular, without nuclear immaturity or marked rouleaux."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with an IgM paraprotein and MYD88 L265P, rather than a predominantly plasma cell population."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma cells are larger immunoblast-like cells with prominent central nucleoli, high Ki-67 and often EBER positivity, usually without an M protein."},
+    {"dx": "Osteoblasts", "vs": "Osteoblasts occur in clusters with the hof located away from the nucleus, and lack rouleaux-associated paraproteinemia."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

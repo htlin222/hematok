@@ -1,0 +1,22 @@
+{
+  "id": "3752",
+  "recognize_zh": "G-CSF 刺激後的周邊血幹細胞收集物抹片，整群是左移的顆粒球系細胞：骨髓球、後骨髓球、帶狀核球，胞質有粗大的紫紅色毒性樣顆粒與小空泡，看不到芽細胞群聚，屬於藥物刺激下的反應性變化。",
+  "features": [
+    "Cluster of left-shifted granulocytic cells: myelocytes, metamyelocytes, and band forms",
+    "Kidney-shaped to indented nuclei with moderately condensed chromatin",
+    "Cytoplasm with coarse dark purple-red (toxic-like) granulation",
+    "Small cytoplasmic vacuoles in several cells",
+    "Occasional cells with basophilic cytoplasm and blebs; scattered platelets and few red cells",
+    "No discrete population of blasts identified"
+  ],
+  "describe_en": "Smear of an apheresis collection obtained after G-CSF administration shows a concentrated population of granulocytic cells spanning myelocytes, metamyelocytes, and band neutrophils. Many cells display coarse, toxic-appearing azurophilic granulation and small cytoplasmic vacuoles, and a few show basophilic cytoplasm with blebbing. Scattered platelets and occasional red cells are present, and no increase in blasts is evident. Findings are consistent with G-CSF effect with a left-shifted granulocytic population and toxic granulation.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a myelocyte bulge with basophilia and eosinophilia and BCR::ABL1, whereas G-CSF effect has a clinical history of growth factor and lacks basophilia."},
+    {"dx": "Sepsis-related leukemoid reaction", "vs": "Infection can produce identical toxic granulation, vacuolation, and left shift, so separation depends on clinical history of G-CSF administration."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL shows hypergranular promyelocytes with bilobed nuclei and Auer rod bundles and PML::RARA, rather than a full maturation spectrum."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

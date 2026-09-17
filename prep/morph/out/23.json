@@ -1,0 +1,27 @@
+{
+  "id": "23",
+  "recognize_zh": "血球抹片只見非特異的正球性貧血、血小板少，骨髓則為紅血球系增生（網狀紅血球升高代表溶血性代償）；真正確立診斷的是流式細胞儀：顆粒球有超過 85% 同時失去 FLAER 與 CD55/CD59（GPI 錨定蛋白），代表大型 PNH 克隆。",
+  "features": [
+    "PB: normocytic red cells with mild anisocytosis, occasional polychromatophilic cells, marked reduction of platelets and leukocytes; no schistocytes or spherocytes prominent",
+    "BM aspirate: erythroid hyperplasia with erythroid precursors at all stages of maturation, a mitotic figure, and occasional nuclear budding; blasts not increased",
+    "BM core: mildly hypercellular marrow with erythroid predominance and decreased megakaryocytes and myeloid precursors",
+    "Flow cytometry: granulocytes gated on SSC vs CD15 show a dominant population (85.83%) negative for FLAER and CD55/CD59, with a residual normal population (12.79%)"
+  ],
+  "describe_en": "Peripheral blood smear shows normocytic anemia with occasional polychromatophilic red cells, leukopenia and thrombocytopenia, without significant schistocytes. The bone marrow aspirate and core biopsy show a mildly hypercellular marrow with erythroid hyperplasia and occasional nuclear budding, decreased megakaryocytes and myeloid precursors, and no increase in blasts or CD34-positive cells. High-sensitivity flow cytometry of peripheral blood granulocytes demonstrates loss of FLAER binding and CD55/CD59 expression in approximately 86% of granulocytes. Findings are consistent with paroxysmal nocturnal hemoglobinuria with a large PNH clone; morphology alone is nonspecific and the diagnosis rests on the flow cytometric result.",
+  "ddx": [
+    {"dx": "Aplastic anemia", "vs": "The marrow is markedly hypocellular with fatty replacement rather than erythroid hyperplasia, although small PNH clones may coexist and must be sought by FLAER flow."},
+    {"dx": "Myelodysplastic syndrome with erythroid predominance", "vs": "Shows significant multilineage dysplasia, ring sideroblasts or clonal cytogenetic abnormalities, and GPI-anchored proteins are retained on granulocytes."},
+    {"dx": "Autoimmune hemolytic anemia", "vs": "Spherocytes and a positive direct antiglobulin test are present, with normal FLAER and CD55/CD59 expression."},
+    {"dx": "Megaloblastic anemia", "vs": "Erythroid precursors show nuclear-cytoplasmic asynchrony with open chromatin, and blood shows macro-ovalocytes and hypersegmented neutrophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa, H&E, flow (FLAER/CD55/CD59)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: normocytic anemia with leukopenia and thrombocytopenia",
+    "Marrow aspirate: erythroid hyperplasia with occasional nuclear budding",
+    "Core biopsy: mildly hypercellular marrow with erythroid hyperplasia and decreased megakaryocytes",
+    "Flow cytometry: 85.83% of granulocytes lack FLAER and CD55/CD59, a large PNH clone"
+  ]
+}

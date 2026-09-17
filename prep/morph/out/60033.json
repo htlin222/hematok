@@ -1,0 +1,20 @@
+{
+  "id": "60033",
+  "recognize_zh": "G 帶核型圖中 7 號位置只剩一條染色體，箭頭指向缺失的另一條，其餘染色體與性染色體 XY 皆成對正常，判讀為 45,XY,-7（單體 7），屬於定義 AML-MRC 的骨髓發育不良相關細胞遺傳異常。",
+  "features": [
+    "G-banded karyotype with male sex chromosome complement (X and Y)",
+    "Only one chromosome 7 present; arrow marks the position of the missing homolog",
+    "All other autosomes present in pairs without visible structural rearrangement",
+    "Interpretation: 45,XY,-7 (monosomy 7)"
+  ],
+  "describe_en": "G-banded karyotype from a single metaphase shows a male complement with loss of one chromosome 7, indicated by the arrow, and no other apparent numeric or structural abnormalities. The karyotype is interpreted as 45,XY,-7. Monosomy 7 is a myelodysplasia-related cytogenetic abnormality that, in the presence of 20% or more blasts, qualifies for acute myeloid leukemia with myelodysplasia-related changes and confers adverse risk; confirmation across multiple metaphases is required to call a clone.",
+  "ddx": [
+    {"dx": "del(7q) or i(7q)", "vs": "Deletion of 7q retains a shortened chromosome 7, whereas here the entire homolog is absent."},
+    {"dx": "Random chromosome loss from metaphase preparation", "vs": "A single missing chromosome may be a technical artifact; by ISCN, loss must be seen in at least three metaphases to define a clone."},
+    {"dx": "Germline predisposition to monosomy 7 (GATA2, SAMD9/SAMD9L)", "vs": "Morphology and karyotype cannot distinguish these; young age, family history, and germline testing are required."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

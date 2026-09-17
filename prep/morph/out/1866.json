@@ -1,0 +1,21 @@
+{
+  "id": "1866",
+  "recognize_zh": "一顆大型巨噬細胞的淡粉紅色、泡沫狀細胞質內包著十多顆完整的有核細胞（核圓深染、帶少量藍色細胞質，形似紅血球前驅細胞或淋巴球），即骨髓中的噬血現象（hemophagocytosis）。",
+  "features": [
+    "Large macrophage with abundant pale pink, finely granular to vacuolated cytoplasm",
+    "Numerous engulfed intact nucleated cells within the cytoplasm",
+    "Ingested cells have dense round nuclei with thin blue cytoplasmic rims (erythroid precursors/lymphocytes)",
+    "Macrophage nucleus larger with open, reticular chromatin",
+    "Surrounding background of red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large macrophage with abundant pale, finely granular cytoplasm containing numerous intact phagocytosed nucleated cells with dense round nuclei and thin rims of blue cytoplasm, most consistent with erythroid precursors and/or lymphocytes. The macrophage nucleus is larger with open chromatin. The background consists of erythrocytes. Findings are consistent with hemophagocytosis; this is supportive but not diagnostic of hemophagocytic lymphohistiocytosis, which requires clinical and laboratory criteria (fever, cytopenias, ferritin, sCD25, triglycerides, fibrinogen).",
+  "ddx": [
+    {"dx": "Overlying cells (smear artifact)", "vs": "Cells lying on top of a macrophage are in a different focal plane and lack a surrounding clear vacuole, whereas truly phagocytosed cells are enclosed within the cytoplasm in the same plane."},
+    {"dx": "Megakaryocyte with emperipolesis", "vs": "In emperipolesis a megakaryocyte with a large lobulated nucleus and granular cytoplasm contains transiting viable cells, whereas hemophagocytosis occurs in macrophages with destroyed ingested cells."},
+    {"dx": "Rosai-Dorfman disease (emperipolesis)", "vs": "Rosai-Dorfman histiocytes are S100 positive with intact lymphocytes/plasma cells in the cytoplasm, usually in lymph nodes rather than a marrow HLH setting."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

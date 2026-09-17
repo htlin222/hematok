@@ -1,0 +1,22 @@
+{
+  "id": "61401",
+  "recognize_zh": "A、B 兩張血液抹片中，箭頭指向含有異常大顆粒的少數血小板；C 圖血小板凝集（LTA）顯示 ADP 與 epinephrine 僅有可逆的第一波、collagen 與 arachidonic acid 反應下降，而 ristocetin 正常，符合血小板分泌缺陷（storage pool disease）型態。",
+  "features": [
+    "Panels A/B: platelets of normal size overall, with arrows marking occasional platelets containing coarse, abnormally large purple granules",
+    "Red cells normochromic and normocytic; a lymphocyte (A) and a segmented neutrophil with normal granules (B) are present",
+    "Panel C: reduced aggregation to collagen 5 and 2 ug/ml and to epinephrine 5 uM",
+    "Panel C: ADP 3-5 uM gives a primary wave followed by disaggregation; arachidonic acid 0.5 mg/ml shows a small reversible response",
+    "Panel C: ristocetin 1.5 mg/ml produces full aggregation (about 70%) with no response at 0.6 mg/ml, indicating intact GPIb-VWF function"
+  ],
+  "describe_en": "Peripheral blood smears (A, B) show normocytic red cells and a normal-appearing neutrophil; a subset of platelets contains unusually large, coarse granules (arrows), while most platelets appear unremarkable. The image resolution does not allow reliable assessment of platelet size distribution. Light transmission aggregometry (C) demonstrates impaired aggregation to collagen, epinephrine and arachidonic acid, with reversible primary-wave-only responses to ADP, whereas high-dose ristocetin-induced agglutination is preserved. This pattern indicates a defect of platelet secretion/amplification rather than a receptor defect such as Glanzmann thrombasthenia or Bernard-Soulier syndrome. Findings are suggestive of a platelet granule disorder (storage pool/secretion defect); confirmation requires whole-mount electron microscopy for dense granules and ATP release studies.",
+  "ddx": [
+    {"dx": "Glanzmann thrombasthenia", "vs": "Absent aggregation to all agonists except ristocetin with no primary wave to ADP, and normal-appearing platelet granules on smear."},
+    {"dx": "Bernard-Soulier syndrome", "vs": "Giant platelets with thrombocytopenia and absent ristocetin agglutination, whereas ristocetin response is preserved here."},
+    {"dx": "Aspirin/NSAID effect", "vs": "Absent arachidonic acid response with loss of the secondary wave but no morphologic granule abnormality; history and repeat testing off drug separate them."},
+    {"dx": "Paris-Trousseau/Jacobsen syndrome (giant alpha granules)", "vs": "Also shows a subset of platelets with giant fused granules, but with thrombocytopenia and 11q23 deletion; electron microscopy identifies alpha versus dense granule abnormality."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; platelet aggregometry",
+  "match": "consistent",
+  "high_yield": false
+}

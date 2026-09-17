@@ -1,0 +1,22 @@
+{
+  "id": "60620",
+  "recognize_zh": "周邊血中成群的中型淋巴細胞，核圓至卵圓、略偏心，染色質均勻細緻、無明顯核仁，胞質淡藍灰且邊緣有細長毛狀突起，是典型的毛細胞（hairy cells）。",
+  "features": [
+    "Medium-sized lymphoid cells, 1.5–2 times the size of small lymphocytes, with moderate N:C ratio",
+    "Round to oval or slightly indented nuclei, often eccentric",
+    "Homogeneous, finely stippled (ground-glass) chromatin without prominent nucleoli",
+    "Moderate pale gray-blue cytoplasm with circumferential fine hair-like projections",
+    "Background red cells unremarkable; no granules or vacuoles in the lymphoid cells"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of medium-sized atypical lymphoid cells with round to oval, somewhat eccentric nuclei, homogeneous finely dispersed chromatin, and absent or inconspicuous nucleoli. The cells have moderate amounts of pale gray-blue cytoplasm with irregular, circumferential hair-like cytoplasmic projections. Background red cells show no significant abnormality. Findings are consistent with hairy cell leukemia; confirmation by flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing is recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v cells have a distinct central nucleolus and are CD25- and annexin A1-negative with wild-type BRAF."},
+    {"dx": "Splenic marginal zone lymphoma with villous lymphocytes", "vs": "SMZL cells have short polar villi, more condensed chromatin and lack the CD103/CD25/CD11c triad."},
+    {"dx": "Reactive/large granular lymphocytes", "vs": "LGLs have azurophilic granules and a T/NK phenotype, and reactive lymphocytes show cytoplasm hugging red cells without fine projections."},
+    {"dx": "Monocytes", "vs": "Monocytes have folded nuclei with lacy chromatin, vacuoles and fine granules, and express CD14 rather than B-cell markers."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63587",
+  "recognize_zh": "多顆前骨髓球與骨髓球胞質內有成串的圓形透明小空泡，另可見雙核的紅血球母細胞（dyserythropoiesis），這種早期骨髓與紅系前驅細胞空泡化是 VEXAS 症候群的特徵性形態。",
+  "features": [
+    "Multiple discrete, round, clear cytoplasmic vacuoles in promyelocytes and myelocytes, often clustered at the cell periphery",
+    "Vacuolated precursors retain azurophilic/secondary granules and round to indented nuclei",
+    "Binucleated erythroid precursor with basophilic cytoplasm (bottom center), indicating dyserythropoiesis",
+    "Hypercellular aspirate with abundant granulocytic precursors at all stages of maturation",
+    "Scattered orthochromatic normoblasts; blasts not increased in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear (Wright-Giemsa) shows a hypercellular specimen with abundant granulocytic precursors at all stages of maturation. Numerous promyelocytes and myelocytes contain multiple small, sharply defined cytoplasmic vacuoles. A binucleated erythroid precursor is present, indicating dyserythropoiesis. Blasts are not increased in this field. In an older male with relapsing inflammatory disease and macrocytic anemia, vacuolization of myeloid and erythroid precursors is suggestive of VEXAS syndrome; UBA1 mutation analysis is recommended.",
+  "ddx": [
+    {"dx": "Copper deficiency / zinc excess", "vs": "Produces identical precursor vacuoles with ring sideroblasts and neutropenia, and is distinguished by low serum copper and absence of UBA1 mutation."},
+    {"dx": "Alcohol- or drug-related vacuolization (linezolid, chloramphenicol)", "vs": "History of exposure and reversibility after withdrawal separate toxic vacuolization from VEXAS."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS diagnosis relies on significant dysplasia, blast count and clonal cytogenetic/molecular markers rather than precursor vacuoles, though MDS can coexist with VEXAS."},
+    {"dx": "Specimen storage artifact", "vs": "Storage vacuoles affect mature neutrophils and monocytes in aged EDTA samples rather than early precursors in fresh aspirates."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

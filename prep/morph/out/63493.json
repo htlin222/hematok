@@ -1,0 +1,21 @@
+{
+  "id": "63493",
+  "recognize_zh": "這是骨髓切片的免疫組織化學染色：藍色核染的小至中型圓形細胞片狀排列，其中一部分細胞呈棕色顆粒狀細胞質／膜染色，陽性與陰性細胞混雜；標記名稱未標示，需對照原病例。",
+  "features": [
+    "Sheets of small to intermediate round cells with hematoxylin-counterstained nuclei",
+    "Heterogeneous brown granular cytoplasmic/membranous staining in a subset of cells",
+    "Positive cells are scattered and patchy rather than uniform across the population",
+    "Loosely cohesive, partly disrupted tissue with empty spaces",
+    "Marker not identified in the image; no nuclear-pattern staining evident"
+  ],
+  "describe_en": "Immunohistochemical stain on a bone marrow biopsy shows a dense population of small to intermediate round cells. A subset of cells shows granular cytoplasmic/membranous brown staining in a patchy distribution, while many cells are negative. The specific antibody is not indicated, so the lineage significance of this pattern cannot be determined from the image alone. In the provided context of acute leukemia with focal coagulative necrosis, this stain is part of the immunophenotypic workup and must be interpreted with the full IHC panel and flow cytometry.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "Blasts would be expected to be positive for CD19/CD79a/PAX5 and TdT/CD34 with a nuclear TdT pattern, which cannot be confirmed without knowing the marker used here."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts would show MPO/CD33/CD117 positivity and lack B-lineage markers, requiring a lineage-specific panel to separate."},
+    {"dx": "Reactive/residual myeloid cells highlighted by the stain", "vs": "Patchy granular cytoplasmic positivity in a minority of cells may represent residual normal granulocytes (e.g., with MPO/lysozyme) rather than the neoplastic population."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: marker not specified",
+  "match": "partial",
+  "high_yield": false
+}

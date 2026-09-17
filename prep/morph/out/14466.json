@@ -1,0 +1,22 @@
+{
+  "id": "14466",
+  "recognize_zh": "心臟移植後貧血的骨髓抹片可見多個巨大原紅血球（giant pronormoblast），細胞質深藍帶小泡突且缺乏後續成熟階段的紅血球；切片中有核內玻璃樣病毒包涵體，parvovirus B19 免疫染色陽性，符合 B19 誘發的純紅血球再生不良（pure red cell aplasia）。",
+  "features": [
+    "BM aspirate: scattered giant pronormoblasts, markedly larger than surrounding cells, with deeply basophilic cytoplasm and cytoplasmic blebs",
+    "Giant pronormoblasts have fine chromatin and large nucleoli-like intranuclear clearing",
+    "Paucity of maturing erythroid precursors (few basophilic to orthochromatic normoblasts)",
+    "BM biopsy (H&E): large erythroid precursors with glassy eosinophilic intranuclear inclusions ('lantern cells')",
+    "IHC: nuclear/cytoplasmic parvovirus B19 staining in an infected erythroid precursor"
+  ],
+  "describe_en": "The bone marrow aspirate shows scattered giant pronormoblasts with deeply basophilic cytoplasm, cytoplasmic blebs, and finely dispersed chromatin, with a striking paucity of later-stage erythroid precursors; myeloid cells and megakaryocytes are present. The trephine biopsy shows enlarged erythroid precursors containing glassy, amphophilic intranuclear viral inclusions with peripheral chromatin margination. Immunohistochemistry for parvovirus B19 highlights infected erythroid cells. Findings are consistent with parvovirus B19-induced pure red cell aplasia in an immunosuppressed transplant recipient.",
+  "ddx": [
+    {"dx": "Acute erythroid leukemia", "vs": "Pure erythroid leukemia shows sheets of proerythroblasts (>80% erythroid, >=30% proerythroblasts) with dysplasia rather than scattered giant pronormoblasts with viral inclusions and absent maturation."},
+    {"dx": "Acute megakaryoblastic leukemia or metastatic tumor", "vs": "Megakaryoblasts and tumor cells form clusters and are CD61/CD42b or cytokeratin positive, lacking B19 immunostaining and intranuclear inclusions."},
+    {"dx": "Drug- or thymoma-associated (immune) pure red cell aplasia", "vs": "Immune PRCA shows absent erythroid precursors without giant pronormoblasts, viral inclusions, or B19 DNA."},
+    {"dx": "CMV infection of marrow", "vs": "CMV produces enlarged endothelial or stromal cells with owl-eye intranuclear plus granular cytoplasmic inclusions and is CMV IHC positive rather than B19 positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: parvovirus B19",
+  "match": "consistent",
+  "high_yield": true
+}

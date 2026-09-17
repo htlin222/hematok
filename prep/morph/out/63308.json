@@ -1,0 +1,21 @@
+{
+  "id": "63308",
+  "recognize_zh": "視野中央有一顆大型組織球，淡灰藍色胞質內含三顆圓形深染的小細胞核（被吞噬的有核細胞），呈「一袋細胞」（bag of cells）樣，代表噬血現象（hemophagocytosis）；需搭配臨床與 HLH-2004 準則判讀。",
+  "features": [
+    "Large histiocyte with abundant pale grey-blue cytoplasm and indistinct cell border in the center of the field",
+    "Several small, round, dense pyknotic nuclei (engulfed nucleated hematopoietic cells) within the histiocyte cytoplasm",
+    "Surrounding mixed marrow cells including myeloid precursors, lymphocytes and small dark erythroblasts",
+    "Background of lysed, ghost-like red cells and smeared cytoplasmic debris"
+  ],
+  "describe_en": "Bone marrow aspirate smear (MGG) shows a large histiocyte with abundant pale cytoplasm containing several engulfed, small, round, darkly staining nuclei consistent with ingested hematopoietic mononuclear cells, giving a 'bag of cells' appearance. Discrete intact ingested red cells are not clearly resolved in this field. The surrounding marrow shows a mixture of myeloid precursors, lymphocytes and erythroid cells in a background of lysed red cells. There are no abnormal blasts or organisms identified in this field. Findings demonstrate hemophagocytosis, which in the reported setting of septicemia supports secondary hemophagocytic lymphohistiocytosis when clinical and laboratory criteria are met.",
+  "ddx": [
+    {"dx": "Reactive macrophage with apoptotic debris (tingible body macrophage)", "vs": "Tingible body macrophages contain irregular fragmented nuclear debris rather than intact whole cells with preserved round nuclei."},
+    {"dx": "Erythroblastic island (nurse cell)", "vs": "In a nurse cell, erythroblasts cluster around the outside of the central macrophage rather than lying within its cytoplasmic vacuoles."},
+    {"dx": "Malignant histiocytosis / histiocytic sarcoma", "vs": "Neoplastic histiocytes show marked nuclear atypia and pleomorphism, whereas hemophagocytic histiocytes in HLH have bland nuclei."},
+    {"dx": "Smear overlap artifact", "vs": "True phagocytosis shows cells enclosed within the histiocyte cytoplasm, often with a surrounding clear phagosome halo, rather than cells lying on top in a different focal plane."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grunwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

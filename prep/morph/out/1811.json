@@ -1,0 +1,22 @@
+{
+  "id": "1811",
+  "recognize_zh": "骨髓切片（上方可見脂肪空泡）被成片的大型異型細胞取代，核為正常淋巴球的數倍大、呈泡狀並有明顯核仁，細胞質中等量、淡嗜雙色，並散見有絲分裂像，符合瀰漫性大 B 細胞淋巴瘤的骨髓浸潤。",
+  "features": [
+    "Diffuse sheets of large atypical cells with nuclei several times the size of a small lymphocyte",
+    "Round to oval vesicular nuclei with one or more distinct nucleoli",
+    "Moderate amphophilic to pale eosinophilic cytoplasm with discernible cell borders",
+    "Scattered mitotic figures and occasional apoptotic cells",
+    "Fat spaces at the top; brown-black granular pigment deposits (likely formalin pigment or hemosiderin); normal hematopoiesis not seen"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows effacement of the intertrabecular marrow space by diffuse sheets of large atypical cells. The cells have round to oval vesicular nuclei with distinct nucleoli, moderate amphophilic cytoplasm and scattered mitoses. Residual normal hematopoiesis is not identified in this field, and brown-black granular pigment deposits are noted. Findings are consistent with marrow involvement by a large cell lymphoma, compatible with diffuse large B-cell lymphoma; immunohistochemistry (CD20, PAX5, CD10, BCL6, MUM1, Ki-67) is required to confirm lineage and exclude mimics.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Tumor cells are cohesive with nested growth and are keratin- or S100/SOX10-positive and CD45/CD20-negative."},
+    {"dx": "Plasmablastic lymphoma or anaplastic plasma cell myeloma", "vs": "Cells show eccentric nuclei with plasmacytoid cytoplasm and are CD138/MUM1-positive and CD20/PAX5-negative."},
+    {"dx": "Acute myeloid leukemia", "vs": "Blasts have finer chromatin with less vesicular nuclei and express CD34/CD117/MPO rather than B-cell markers."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Includes horseshoe-shaped hallmark cells and is strongly CD30-positive with T-cell or null phenotype."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1218",
+  "recognize_zh": "抽吸液被兩群細胞混合佔據：一群核摺疊或腎形、胞質灰藍帶細顆粒的單核系細胞（promonocytes），另一群核圓、胞質較少的母細胞，其間夾雜少數成熟中的顆粒球；顆粒系與單核系同時增生，符合 AMML。",
+  "features": [
+    "Hypercellular aspirate with a mixed population of immature cells",
+    "Many cells with folded, indented or reniform nuclei, delicate chromatin and gray-blue finely granular cytoplasm (promonocytes/monocytes)",
+    "Admixed round-nucleated blasts with fine chromatin and scant basophilic cytoplasm",
+    "Scattered maturing granulocytes including myelocytes and occasional segmented neutrophils",
+    "Occasional cytoplasmic vacuoles; erythroid precursors sparse"
+  ],
+  "describe_en": "Bone marrow aspirate smear is hypercellular and composed of a mixed population of immature myeloid and monocytic cells. A large proportion of cells have gray-blue, finely granular cytoplasm and folded, indented or kidney-shaped nuclei with delicate chromatin, consistent with promonocytes and immature monocytes. These are admixed with round-nucleated myeloblasts and a smaller component of maturing granulocytes, while erythroid precursors are sparse. Findings are consistent with acute myelomonocytic leukemia, to be confirmed by MPO and nonspecific esterase cytochemistry or flow cytometry.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Monocytic cells account for >=80% with minimal granulocytic component, whereas neutrophil-lineage blasts and maturing granulocytes are evident here."},
+    {"dx": "AML with inv(16)(p13.1q22)", "vs": "Shares myelomonocytic morphology but contains abnormal eosinophils with large basophilic granules and is defined by CBFB::MYH11."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML has mostly mature monocytes and <20% blasts plus promonocytes, not a field dominated by immature forms."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

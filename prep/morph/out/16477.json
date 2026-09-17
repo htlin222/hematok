@@ -1,0 +1,22 @@
+{
+  "id": "16477",
+  "recognize_zh": "骨髓抹片中可見細胞拉長呈梭形（spindle-shaped）的肥大細胞，細胞質帶有紫色顆粒但分布不均、部分顆粒減少，並伸出細長突起，這種非典型梭形肥大細胞是系統性肥大細胞增多症的次要診斷條件。",
+  "features": [
+    "Panel A: elongated spindle-shaped mast cell with an oval nucleus and cytoplasm containing dark purple metachromatic granules",
+    "Granules unevenly distributed with a tapering, granule-poor cytoplasmic extension (hypogranular atypical mast cell)",
+    "Panel B: curved, elongated mast cell with coarse purple granules against a pale background of small lymphoid/myeloid cells",
+    "Adjacent background of mixed myeloid precursors, eosinophils and lymphocytes",
+    "No round, fully granulated typical mast cells in these fields"
+  ],
+  "describe_en": "Bone marrow aspirate smears show atypical mast cells with spindled, elongated morphology. In panel A the mast cell has an oval nucleus and cytoplasm with coarse purple metachromatic granules that are unevenly distributed, with a tapered granule-poor extension; panel B shows a curved spindled mast cell with coarse granules among small hematopoietic cells. These cells differ from normal round, densely granulated mast cells. Spindle-shaped atypical mast cells (>25% of mast cells) are a minor WHO criterion; findings are suggestive of systemic mastocytosis, pending biopsy for multifocal mast cell aggregates, CD25/CD2 expression, KIT D816V and serum tryptase.",
+  "ddx": [
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are round-oval, fully granulated, scattered singly without aggregates, CD25 negative and lack KIT D816V."},
+    {"dx": "Basophils (e.g., CML)", "vs": "Basophils are smaller with segmented nuclei and water-soluble granules overlying the nucleus, and are tryptase weak/CD25 negative with CD123 positivity."},
+    {"dx": "Fibroblasts / stromal cells in aspirate", "vs": "Stromal spindle cells lack metachromatic cytoplasmic granules and are tryptase and CD117 negative."},
+    {"dx": "Myeloid neoplasm with eosinophilia and PDGFRA rearrangement", "vs": "This can show increased spindled CD25+ mast cells but lacks KIT D816V, has FIP1L1::PDGFRA and prominent eosinophilia."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

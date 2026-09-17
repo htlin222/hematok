@@ -1,0 +1,21 @@
+{
+  "id": "62465",
+  "recognize_zh": "抹片薄區仍可見大量紅血球一顆顆重疊排成長鏈狀或堆疊狀（stack of coins），而非不規則團塊，就是 rouleaux；背景稍帶藍灰色，提示血漿蛋白增加，符合多發性骨髓瘤。",
+  "features": [
+    "Red cells stacked in linear and branching chains resembling stacks of coins (rouleaux)",
+    "Rouleaux present in an area of the smear where other red cells lie singly, arguing against thick-area artifact",
+    "Chains are linear rather than irregular grape-like clumps (not agglutination)",
+    "Faint bluish-grey background tint suggestive of increased plasma protein",
+    "Two segmented neutrophils and scattered platelets; no circulating plasma cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows prominent rouleaux formation, with erythrocytes aligned in linear and branching stacks in a portion of the smear where red cells should otherwise be separate. The aggregates have a regular coin-stack configuration rather than irregular clumps, and the background has a faint bluish tint. Scattered neutrophils and platelets are unremarkable, and no plasma cells are seen in this field. Findings are consistent with rouleaux formation due to increased plasma immunoglobulin, compatible with the clinical history of multiple myeloma.",
+  "ddx": [
+    {"dx": "Red cell agglutination (cold agglutinin disease)", "vs": "Agglutinates form irregular three-dimensional clumps without linear stacking, often with red cell spherocytes, and persist after saline dilution while rouleaux disperse."},
+    {"dx": "Pseudo-rouleaux from thick-area artifact", "vs": "Artifactual overlap is confined to the thick part of the smear, whereas true rouleaux persist in the monolayer area."},
+    {"dx": "Rouleaux from hyperfibrinogenemia or polyclonal hypergammaglobulinemia", "vs": "Morphology is identical, so serum protein electrophoresis and immunofixation distinguish a monoclonal protein from inflammatory causes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

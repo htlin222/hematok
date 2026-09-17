@@ -1,0 +1,34 @@
+{
+  "id": "16",
+  "recognize_zh": "周邊血液抹片中血小板明顯增多，常見血小板聚集與大型血小板，紅血球與白血球大致正常；骨髓切片與抹片可見成群、體積巨大、核高度分葉（鹿角狀 staghorn）的成熟巨核細胞，未見明顯纖維化，符合原發性血小板增多症（ET）。",
+  "features": [
+    "Marked thrombocytosis on peripheral smear with platelet clumps, large and giant platelets and variable granulation",
+    "Unremarkable red cells without teardrop cells or leukoerythroblastosis; normal-appearing neutrophil",
+    "Increased, loosely clustered large-to-giant megakaryocytes with abundant mature eosinophilic cytoplasm",
+    "Deeply lobulated, hyperlobulated (staghorn) megakaryocyte nuclei without bulbous hyperchromatic atypia",
+    "Aspirate with giant hyperlobulated megakaryocytes and background of maturing granulocytic and erythroid precursors",
+    "No overt reticulin or collagen fibrosis visible on H&E (not formally assessable without reticulin stain)"
+  ],
+  "describe_en": "Peripheral blood smear shows marked thrombocytosis with frequent platelet clumps and numerous large and giant platelets, a possible megakaryocyte fragment, and red cells without significant poikilocytosis, teardrop forms or nucleated red cells; the neutrophils appear morphologically unremarkable. The bone marrow core biopsy is cellular with trilineage hematopoiesis and increased megakaryocytes that are loosely clustered and predominantly large to giant, with abundant mature cytoplasm and deeply lobulated staghorn-like nuclei; small hypolobated or bizarre cloud-like megakaryocytes are not prominent. The aspirate smear confirms giant megakaryocytes with hyperlobulated nuclei. Overt fibrosis is not appreciated on these sections, although a reticulin stain is required for grading. Findings are consistent with essential thrombocythemia in the appropriate clinical and molecular (JAK2/CALR/MPL) context.",
+  "ddx": [
+    {"dx": "Prefibrotic primary myelofibrosis", "vs": "Prefibrotic PMF shows a hypercellular marrow with granulocytic proliferation and dense clusters of atypical megakaryocytes with hyperchromatic, bulbous, cloud-like nuclei and abnormal N:C ratio, rather than the mature staghorn megakaryocytes seen here."},
+    {"dx": "Polycythemia vera", "vs": "PV shows panmyelosis with erythroid predominance and pleomorphic megakaryocytes of varying size, with elevated hemoglobin/red cell mass, whereas ET abnormalities are largely restricted to large mature megakaryocytes."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML megakaryocytes are small and hypolobated (dwarf forms) with marked granulocytic hyperplasia and basophilia, and BCR::ABL1 must be excluded in every thrombocytosis workup."},
+    {"dx": "Reactive thrombocytosis", "vs": "Reactive thrombocytosis (iron deficiency, inflammation, post-splenectomy) shows megakaryocytes that are increased but normal in size and lobation without clustering, and lacks MPN driver mutations."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa (PB, aspirate); H&E (core biopsy)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "PB: marked thrombocytosis with a large platelet clump",
+    "PB: numerous large platelets with variable granulation",
+    "PB: thrombocytosis with a large granular cell, possibly a megakaryocyte fragment, and platelet aggregates",
+    "PB: platelet clumps and large platelets next to a normal segmented neutrophil",
+    "BM biopsy H&E: increased loosely clustered large megakaryocytes",
+    "BM biopsy H&E: numerous giant megakaryocytes with hyperlobulated nuclei in a cellular marrow",
+    "BM biopsy H&E, high power: giant megakaryocyte with deeply lobulated staghorn nucleus",
+    "BM aspirate: two giant megakaryocytes with hyperlobulated nuclei",
+    "BM aspirate, high power: giant megakaryocyte with multilobated nucleus and abundant granular cytoplasm"
+  ]
+}

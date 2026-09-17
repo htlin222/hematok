@@ -1,0 +1,22 @@
+{
+  "id": "66268",
+  "recognize_zh": "視野中央一顆明顯比周圍紅血球大的受感染紅血球，內含約 16–20 個分散的紫色小核（merozoite）與散在的金棕色瘧色素，且紅血球背景有淡粉紅色點狀（Schüffner stippling）；被感染紅血球變大加上多核裂殖體，符合間日瘧（P. vivax）裂殖體。",
+  "features": [
+    "Single enlarged infected red cell (larger than surrounding red cells) containing a mature schizont",
+    "Approximately 16-20 discrete merozoites with dark purple chromatin dots and small cytoplasmic halos",
+    "Scattered golden-brown malarial pigment among the merozoites rather than a single central clump",
+    "Pale pinkish stippling of the host cell cytoplasm consistent with Schüffner dots",
+    "Background red cells normocytic with frequent crenated forms (echinocytes, likely artifact); no other parasite stages in field"
+  ],
+  "describe_en": "Thin peripheral blood smear (Field's stain, oil immersion) shows a single enlarged erythrocyte containing a mature schizont with approximately 16 to 20 merozoites, scattered golden-brown pigment and faint Schüffner-type stippling. Surrounding red cells are normocytic with numerous echinocytes, likely a preparation artifact, and no ring forms or gametocytes are seen in this field. Findings are consistent with a Plasmodium vivax schizont; parasitemia should be quantified and, where available, confirmed by antigen testing or PCR.",
+  "ddx": [
+    {"dx": "Plasmodium ovale schizont", "vs": "P. ovale schizonts have fewer merozoites (6-14) in an oval, often fimbriated host cell, whereas this cell is round with about 16-20 merozoites."},
+    {"dx": "Plasmodium malariae schizont", "vs": "P. malariae forms a 'rosette' of 6-12 merozoites around central pigment in a normal-sized or small red cell without stippling."},
+    {"dx": "Plasmodium falciparum schizont", "vs": "Falciparum schizonts are rarely seen in peripheral blood, occur in non-enlarged red cells with 8-24 small merozoites and a single dark pigment mass, typically with many accompanying ring forms."},
+    {"dx": "Plasmodium knowlesi", "vs": "Knowlesi schizonts resemble P. malariae in non-enlarged cells without Schüffner dots and require PCR for confirmation."}
+  ],
+  "specimen": "PB",
+  "stain": "Field stain",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65965",
+  "recognize_zh": "低倍視野下白血球明顯增多，且絕大多數是大小一致、核圓而深染、細胞質極少的小型成熟淋巴球，僅偶見嗜中性球，並可見破碎的 smudge cell，符合慢性淋巴球性白血病（CLL）。",
+  "features": [
+    "Low-power field with increased leukocytes composed predominantly of small, mature-appearing lymphocytes",
+    "Lymphocytes uniform in size with round, dark, condensed nuclei and scant cytoplasm",
+    "Occasional smudge cell (disrupted lymphocyte) present",
+    "Rare neutrophils; no blasts identified at this magnification",
+    "Red cells with numerous crenated forms (echinocytes, likely artifact) and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear at low magnification shows an absolute lymphocytosis composed predominantly of small, monotonous lymphocytes with round, dense nuclei and scant cytoplasm. Occasional smudge cells are present, and neutrophils are infrequent. Red cells show numerous crenated forms, likely artifactual, and platelets are present. Findings are suggestive of chronic lymphocytic leukemia; flow cytometry demonstrating clonal CD5+/CD23+/CD200+ B cells (as reported) confirms the diagnosis.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells often have irregular or cleaved nuclei and are CD5+ but CD23 and CD200 negative with cyclin D1/SOX11 expression."},
+    {"dx": "Monoclonal B-cell lymphocytosis", "vs": "MBL has the same CLL phenotype but a clonal B-cell count below 5 × 10^9/L without lymphadenopathy or cytopenias."},
+    {"dx": "Reactive lymphocytosis (e.g., pertussis, viral)", "vs": "Reactive lymphocytes are polymorphous and polyclonal, and pertussis shows cleaved small T cells rather than a monotonous clonal B-cell population."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells may show polar villous projections and are typically CD5 and CD23 negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

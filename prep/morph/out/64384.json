@@ -1,0 +1,22 @@
+{
+  "id": "64384",
+  "recognize_zh": "骨髓抹片幾乎被成片的大型原紅血球（proerythroblast）佔滿：核圓、染色質細緻、可見核仁，細胞質深藍色並帶有空泡與泡狀突起，缺乏成熟的顆粒球系，符合純紅血球型急性白血病。",
+  "features": [
+    "Sheets of large immature cells replacing normal marrow elements",
+    "Round, central to eccentric nuclei with finely dispersed chromatin and one or more nucleoli",
+    "Deeply basophilic cytoplasm, often with a paler perinuclear zone",
+    "Cytoplasmic vacuoles and blebs/pseudopod-like projections in several cells",
+    "Occasional binucleate forms; few maturing granulocytes present"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a hypercellular population dominated by sheets of large proerythroblast-like cells with round nuclei, finely dispersed chromatin, one or more nucleoli and deeply basophilic, variably vacuolated cytoplasm with occasional blebs. Binucleate forms are present, and normal granulocytic maturation is markedly reduced. Findings are consistent with acute erythroid leukemia (pure erythroid leukemia), to be confirmed by immunophenotyping (E-cadherin, CD71, glycophorin A) and a differential showing more than 80% erythroid cells with at least 30% proerythroblasts.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic erythropoiesis shows a full maturation spectrum with nuclear-cytoplasmic asynchrony and giant metamyelocytes, rather than a monotonous arrest at the proerythroblast stage, and corrects with B12/folate."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts also have basophilic blebbed cytoplasm, but they express CD41/CD61 and are negative for erythroid markers."},
+    {"dx": "Parvovirus B19-associated giant proerythroblasts", "vs": "Parvovirus shows scattered giant proerythroblasts with glassy intranuclear inclusions against erythroid aplasia, not sheets of blasts."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells have deeply basophilic vacuolated cytoplasm too, but they are smaller with clumped chromatin and are CD19/CD10/MYC-positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

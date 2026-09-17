@@ -1,0 +1,22 @@
+{
+  "id": "2447",
+  "recognize_zh": "周邊血液中兩個比紅血球大的原始淋巴球：核質比高、染色質細緻、胞質極少，上方細胞核有明顯缺刻（nuclear notch），下方細胞可見小核仁；需以流式細胞儀確認 T 細胞系（cCD3）。",
+  "features": [
+    "Two medium-sized blasts, about 1.5–2 times the diameter of a red cell",
+    "High N:C ratio with scant pale blue cytoplasm",
+    "Upper cell with a nuclear notch/indentation and denser chromatin",
+    "Lower cell with finely dispersed chromatin and a faint nucleolus",
+    "No cytoplasmic granules or Auer rods; background normocytic red cells"
+  ],
+  "describe_en": "Peripheral blood smear shows two circulating blasts of medium size with a high nuclear-to-cytoplasmic ratio, scant agranular cytoplasm and finely dispersed chromatin; one has a nuclear indentation and the other a faint nucleolus. No granules or Auer rods are seen. The background red cells are unremarkable. Findings are consistent with circulating lymphoblasts; lineage assignment as T-lymphoblastic leukemia requires flow cytometry (cytoplasmic CD3, CD7, TdT).",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-lymphoblasts are morphologically indistinguishable and are separated by expression of CD19, CD79a and CD22 instead of cytoplasmic CD3."},
+    {"dx": "AML with minimal differentiation", "vs": "Myeloblasts may lack granules but are MPO or CD13/CD33/CD117 positive rather than cCD3 positive."},
+    {"dx": "Reactive lymphocytes", "vs": "Reactive lymphocytes have condensed chromatin and more abundant basophilic cytoplasm that hugs adjacent red cells."},
+    {"dx": "Sézary / mature T-cell lymphoma cells", "vs": "Sézary cells have condensed, cerebriform chromatin and are TdT and CD34 negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

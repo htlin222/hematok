@@ -1,0 +1,23 @@
+{
+  "id": "61013",
+  "recognize_zh": "A–C 三格周邊血中各有一個淋巴球，細胞質呈深藍色、核偏位、核旁可見淡染區，外觀像漿細胞（plasmacytoid lymphocyte）；搭配 D–E 圖表說明登革熱初次與再次感染時 NS1、病毒、IgM、IgG 的偵測時間差，提示此類細胞在發燒、血小板低下旅客中應想到登革熱。",
+  "features": [
+    "Panels A-C: medium-sized lymphocytes with abundant deeply basophilic cytoplasm",
+    "Eccentric round nuclei with coarse, clumped chromatin; faint perinuclear pale zone in some cells",
+    "No visible nucleoli or cytoplasmic granules; morphology intermediate between reactive lymphocyte and plasma cell",
+    "Background red cells largely normocytic without visible intraerythrocytic parasites in these fields",
+    "Platelets are sparse in the fields shown",
+    "Panels D-E: line graphs of diagnostic test sensitivity (virus, NS1, IgM, IgG) versus days after fever onset in primary and secondary dengue"
+  ],
+  "describe_en": "Peripheral blood smear (panels A-C) shows atypical plasmacytoid lymphocytes characterized by abundant, intensely basophilic cytoplasm, eccentric nuclei with clumped chromatin, and a subtle perinuclear clearing. Red cells appear unremarkable and no malaria parasites are identified in the fields shown; platelets are scarce. Panels D and E are schematic graphs showing that in primary dengue IgM rises by about day 5-6 while IgG rises late, whereas in secondary infection IgG rises early and IgM may be low or undetectable. In a febrile, thrombocytopenic returning traveler, these plasmacytoid lymphocytes are suggestive of dengue virus infection, which should be confirmed by NS1 antigen, RT-PCR, or paired serology.",
+  "ddx": [
+    {"dx": "Circulating plasma cells (plasma cell leukemia/myeloma)", "vs": "Neoplastic plasma cells show a well-formed Golgi hof, more abundant cytoplasm and often atypia, and are monotypic on flow cytometry, unlike these transient polyclonal plasmacytoid lymphocytes."},
+    {"dx": "Reactive lymphocytes of infectious mononucleosis", "vs": "EBV-reactive lymphocytes are larger with abundant pale-to-blue cytoplasm that scallops around adjacent red cells, rather than compact deeply basophilic plasmacytoid cells."},
+    {"dx": "Lymphoplasmacytic lymphoma in blood", "vs": "LPL shows a persistent, clonal population of small lymphocytes and plasmacytoid cells with an IgM paraprotein, not a self-limited febrile illness."},
+    {"dx": "Malaria", "vs": "Separated by identifying intraerythrocytic parasites on thick and thin films, which were absent here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

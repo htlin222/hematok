@@ -1,0 +1,22 @@
+{
+  "id": "64416",
+  "recognize_zh": "胸水中大型異型細胞核大、有核仁、細胞質嗜鹼並有空泡，部分腫瘤細胞內包著另一顆細胞或其碎片（細胞吞噬、cannibalism），右下還有立體成團的細胞群，符合轉移性肺癌。",
+  "features": [
+    "Large atypical cells with high N:C ratio, enlarged irregular nuclei, and prominent nucleoli",
+    "Cell-in-cell arrangements: tumor cells engulfing other cells or nuclear fragments, compressing the host nucleus into a crescent",
+    "Cytoplasmic vacuolation, including a large cell with a central clear zone surrounded by peripheral nuclei (top left)",
+    "Three-dimensional cohesive cluster of tumor cells with nuclear molding (bottom right)",
+    "Scattered small lymphocytes/leukocytes providing size comparison; clean proteinaceous background"
+  ],
+  "describe_en": "Cytospin preparation of pleural fluid (composite of four fields) shows large atypical cells, singly and in cohesive three-dimensional clusters, with high N:C ratios, irregular nuclei, prominent nucleoli, and basophilic vacuolated cytoplasm. Several tumor cells contain engulfed cells or nuclear fragments, displacing the host nucleus into a crescent (cell-in-cell pattern or cannibalism). Background lymphocytes are small by comparison. Findings are consistent with metastatic carcinoma in pleural fluid, in keeping with the known lung primary; immunocytochemistry on a cell block can confirm the origin.",
+  "ddx": [
+    {"dx": "Reactive mesothelial cells", "vs": "Reactive mesothelial cells show windows between cells, a two-tone cytoplasm with smooth nuclear contours and small nucleoli, and are calretinin/WT1 positive while negative for MOC31/BerEP4/claudin-4."},
+    {"dx": "Malignant mesothelioma", "vs": "Mesothelioma forms knobby morular groups with mesothelial immunoprofile (calretinin, WT1, D2-40) and BAP1 loss, unlike carcinoma markers (TTF-1, claudin-4)."},
+    {"dx": "Macrophages with phagocytosed cells (erythrophagocytosis/leukophagocytosis)", "vs": "Macrophages have bland oval eccentric nuclei with foamy cytoplasm and CD68/CD163 positivity, lacking nuclear atypia and prominent nucleoli."},
+    {"dx": "Lymphoma or leukemia involvement of effusion", "vs": "Lymphoma cells are discohesive, lack true cell clusters and cell-in-cell engulfment, and express CD45."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

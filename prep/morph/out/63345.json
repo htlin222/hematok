@@ -1,0 +1,22 @@
+{
+  "id": "63345",
+  "recognize_zh": "嗜中性球布滿粗大毒性顆粒，胞質內可見兩處不規則的藍綠色折光包涵體與小空泡，背景紅血球呈鋸齒狀；看到這種藍綠色結晶就要聯想到重症 COVID-19 合併肝衰竭。",
+  "features": [
+    "Neutrophil with irregular, partly segmented nucleus",
+    "Coarse toxic granulation throughout the cytoplasm",
+    "Two discrete irregular blue-green refractile cytoplasmic inclusions",
+    "Cytoplasmic vacuolization near the inclusions",
+    "Background crenated red cells (echinocytes)",
+    "Low-resolution, color-cast image limits fine detail"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil with an irregular, partially segmented nucleus, coarse toxic granulation and cytoplasmic vacuolization. Two irregular, refractile blue-green inclusions are present in the cytoplasm. Background red cells are crenated. Findings are consistent with blue-green neutrophilic inclusions ('green crystals of death') in a critically ill patient, a marker of acute hepatic injury and poor prognosis.",
+  "ddx": [
+    {"dx": "Döhle bodies", "vs": "Döhle bodies are pale gray-blue, homogeneous, non-refractile patches at the cytoplasmic periphery."},
+    {"dx": "Phagocytosed microorganisms", "vs": "Bacteria and yeasts have regular shapes and basophilic staining rather than irregular green refractile crystals."},
+    {"dx": "Hemosiderin or malarial pigment in neutrophils", "vs": "Hemozoin is brown-black and hemosiderin is Prussian blue-positive, unlike the green lipofuscin-like crystals."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

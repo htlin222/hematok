@@ -1,0 +1,20 @@
+{
+  "id": "60357",
+  "recognize_zh": "骨髓切片 CD123 免疫染色：脂肪空泡之間成片的腫瘤細胞呈強而瀰漫的膜／細胞質棕色染色，陽性細胞佔絕大多數；CD123 強陽性加上 CD4、CD56 是 BPDCN 的關鍵組合。",
+  "features": [
+    "Marrow core with clusters and sheets of intermediate-sized cells between adipocytes",
+    "CD123: strong membranous and cytoplasmic staining in the majority of neoplastic cells",
+    "Tumor nuclei oval to irregular with fine chromatin on hematoxylin counterstain",
+    "Scattered negative small cells and stromal/endothelial elements serve as internal negative background"
+  ],
+  "describe_en": "Immunohistochemical stain for CD123 on the bone marrow core biopsy highlights a diffuse infiltrate of intermediate-sized cells occupying the marrow spaces between adipocytes. The majority of the neoplastic cells show strong membranous and cytoplasmic CD123 expression, while interspersed small residual cells and stromal elements are negative. Strong, diffuse CD123 in a blastic infiltrate coexpressing CD4 and CD56 is consistent with blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with CD123 expression", "vs": "CD123 is frequently expressed in AML, so MPO, lysozyme and absence of TCF4/TCL1/CD303 are needed to exclude AML."},
+    {"dx": "Mature plasmacytoid dendritic cell proliferation associated with myeloid neoplasm", "vs": "These form clusters of mature-appearing CD123+ cells that are usually CD56-negative and accompany CMML or other myeloid neoplasms rather than forming diffuse blastic sheets."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells are CD123+ but are mature B cells expressing CD20, annexin A1, CD103 and BRAF V600E with 'fried-egg' morphology."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD123",
+  "match": "consistent",
+  "high_yield": false
+}

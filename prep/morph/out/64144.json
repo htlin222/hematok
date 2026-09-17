@@ -1,0 +1,22 @@
+{
+  "id": "64144",
+  "recognize_zh": "骨髓切片中多顆巨核細胞聚集成群，細胞中等大小、細胞質豐富粉紅，但核呈單一圓形或卵圓形、不分葉（non-lobated），這種「小型單核／低分葉巨核細胞群聚」是 del(5q) 骨髓分化不良症候群的特徵。",
+  "features": [
+    "Cluster of medium-sized megakaryocytes with abundant eosinophilic cytoplasm",
+    "Nuclei round to oval, non-lobated or hypolobated, with vesicular chromatin and small nucleoli",
+    "Megakaryocytes appear normal to increased in number",
+    "Background hypercellular marrow with maturing granulocytes and erythroid precursors",
+    "Interspersed adipocytes; no increase in blasts appreciable at this power"
+  ],
+  "describe_en": "H&E section of the bone marrow trephine biopsy shows a hypercellular marrow with trilineage hematopoiesis and a loose cluster of megakaryocytes. The megakaryocytes are medium-sized with abundant eosinophilic cytoplasm and characteristically round to oval, non-lobated or hypolobated nuclei. No sheets of blasts are evident in this field. Findings are consistent with the dysplastic megakaryocytes of myelodysplastic neoplasm with isolated del(5q); confirmation requires cytogenetics/FISH for 5q deletion.",
+  "ddx": [
+    {"dx": "Essential thrombocythemia", "vs": "ET megakaryocytes are large to giant with hyperlobulated staghorn nuclei, not small non-lobated forms."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF megakaryocytes are atypical with hyperchromatic, cloud-like, bulbous nuclei in dense clusters, often with fibrosis."},
+    {"dx": "Micromegakaryocytes of other MDS or CML", "vs": "Micromegakaryocytes are much smaller (lymphocyte-to-myeloblast size) with scant cytoplasm, whereas 5q- megakaryocytes are medium-sized with abundant cytoplasm; separation relies on cytogenetics."},
+    {"dx": "Myeloid neoplasm (MDS/AML) with inv(3)/t(3;3) MECOM rearrangement", "vs": "inv(3)/t(3;3) myeloid neoplasms also have small hypolobated megakaryocytes but show different karyotype and often increased blasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

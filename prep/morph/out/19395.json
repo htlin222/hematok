@@ -1,0 +1,23 @@
+{
+  "id": "19395",
+  "recognize_zh": "血液抹片中除了典型小淋巴球與兩個破碎的污斑細胞（smudge cells）外，還混有較大、帶明顯核仁的前淋巴球（上方）與細胞質較多、核偏心的大型淋巴球，細胞形態不一，符合 CLL 混合細胞型（mixed cell type / atypical CLL）。",
+  "features": [
+    "Heterogeneous lymphoid population rather than uniform small lymphocytes",
+    "Larger cell with moderate pale-blue cytoplasm, round nucleus, and a visible central nucleolus consistent with a prolymphocyte (top)",
+    "Medium-sized lymphoid cell with more abundant blue cytoplasm and slightly irregular nucleus (lower left)",
+    "Small mature lymphocyte with condensed clumped chromatin and scant cytoplasm (bottom right)",
+    "Two smudge cells with disrupted streaky chromatin",
+    "Red cells largely normocytic with occasional stomatocytic/drying artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows a lymphocytosis composed of a heterogeneous population, including small mature lymphocytes with clumped chromatin, larger lymphoid cells with more abundant pale-blue cytoplasm, and a cell with a prominent central nucleolus consistent with a prolymphocyte. Smudge cells are present. Red cells show no significant abnormality apart from minor drying artifact. Findings are consistent with chronic lymphocytic leukemia of mixed cell type (atypical CLL); the proportion of prolymphocytes should be quantified (10-55%) and a CLL immunophenotype (CD5+, CD23+, CD200+, dim sIg) confirmed, with exclusion of mantle cell lymphoma by cyclin D1 or t(11;14).",
+  "ddx": [
+    {"dx": "Leukemic mantle cell lymphoma", "vs": "Mantle cell lymphoma shows medium cells with irregular or cleaved nuclei and is CD23-negative/CD200-negative with cyclin D1 and SOX11 expression and t(11;14)."},
+    {"dx": "B-prolymphocytic leukemia", "vs": "Prolymphocytic leukemia requires more than 55% prolymphocytes with a monomorphic nucleolated population, whereas here small mature lymphocytes and smudge cells predominate."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells show short polar villous projections and plasmacytoid features, and are usually CD5-negative and CD23-negative."},
+    {"dx": "Richter transformation", "vs": "Richter transformation shows sheets of large cells with high proliferation in tissue, rather than scattered larger cells in a CLL blood background."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

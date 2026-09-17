@@ -1,0 +1,22 @@
+{
+  "id": "66158",
+  "recognize_zh": "骨髓抹片中一群細胞核偏心、細胞質灰藍的細胞，其間夾雜淡藍白色、帶細條紋與小空泡的豐富細胞質，中央一顆細胞質呈粉紫色細纖維紋理，局部可聯想到 Gaucher 細胞的「皺紙樣」（wrinkled tissue paper）細胞質；但典型皺紙紋理並不清楚，需搭配酵素活性確認。",
+  "features": [
+    "Aggregate of cells with small round eccentric nuclei, coarse chromatin and moderate to abundant gray-blue cytoplasm",
+    "Pale blue-white cytoplasmic areas with fine striations and small vacuoles between the nuclei, suggestive of storage-cell cytoplasm",
+    "One central cell with abundant pink-purple, finely fibrillar/striated cytoplasm",
+    "No nuclear atypia, mitoses or high N:C ratio in the aggregate",
+    "Background of intact erythrocytes; the classic crumpled 'tissue paper' texture is only focally appreciated at this resolution"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive-appearing aggregate of cells with small, round, eccentric nuclei and moderate to abundant cytoplasm. Between the nuclei there are pale blue-white cytoplasmic areas with fine striations and small vacuoles, and a central cell shows pink-purple fibrillar cytoplasm, features that suggest lipid-storage histiocytes. The characteristic crumpled 'wrinkled tissue paper' cytoplasm is only focally suggested, and individual cell borders are hard to resolve, so the morphology is not diagnostic on its own. In the given clinical context, findings are suggestive of Gaucher cells; confirmation by glucocerebrosidase enzyme assay or GBA1 genotyping is required.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells (CML, myeloma, thalassemia)", "vs": "Pseudo-Gaucher cells are morphologically near-identical and are separated by the underlying neoplasm or hemoglobinopathy and normal glucocerebrosidase activity."},
+    {"dx": "Niemann-Pick disease (foamy histiocytes)", "vs": "Niemann-Pick cells have bubbly, uniformly vacuolated 'foamy' cytoplasm rather than fibrillar striations, and sphingomyelinase deficiency is confirmatory."},
+    {"dx": "Sea-blue histiocytosis", "vs": "Sea-blue histiocytes contain discrete blue-green ceroid granules on Romanowsky stains instead of a finely striated cytoplasm."},
+    {"dx": "Plasma cell or osteoblast aggregate", "vs": "Plasma cells and osteoblasts have deeply basophilic cytoplasm with a perinuclear hof or pale zone and lack the abundant pale fibrillar storage cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

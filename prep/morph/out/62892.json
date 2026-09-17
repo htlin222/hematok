@@ -1,0 +1,20 @@
+{
+  "id": "62892",
+  "recognize_zh": "血小板凝集儀報表：ristocetin 1.2 mg/mL 凝集最大達 104%，其餘促效劑（ADP、epinephrine、arachidonic acid）幾乎無凝集、collagen 反應明顯低下；只保留 ristocetin 反應的模式代表 GPIIb/IIIa（αIIbβ3）缺陷，即 Glanzmann 血小板無力症。",
+  "features": [
+    "Ristocetin 1.2 mg/mL tracing (channel 1): full aggregation, maximal amplitude 104%, AUC 522",
+    "Ristocetin 0.6 mg/mL: no response (1%)",
+    "ADP 10%, epinephrine 1%, arachidonic acid 0%: flat tracings with small shape-change spikes only",
+    "Collagen: delayed, partial response with maximal amplitude about 30%"
+  ],
+  "describe_en": "This figure is a light transmission aggregometry report displaying six agonist tracings and a numeric summary. Only high-dose ristocetin (1.2 mg/mL) induces full platelet agglutination (maximal aggregation 104%), with no response to low-dose ristocetin. Aggregation to ADP (10%), epinephrine (1%), and arachidonic acid (0%) is essentially absent, and collagen elicits a slow, markedly reduced response (about 30%). This isolated preservation of ristocetin-induced agglutination with failure of agonist-induced aggregation is characteristic of an αIIbβ3 (GPIIb/IIIa) defect, and with normal platelet count and VWF studies, findings are consistent with Glanzmann thrombasthenia; flow cytometry for CD41/CD61 can confirm.",
+  "ddx": [
+    {"dx": "Bernard-Soulier syndrome", "vs": "Ristocetin response is absent while other agonists aggregate normally, with macrothrombocytopenia."},
+    {"dx": "Type 2B or platelet-type von Willebrand disease", "vs": "Shows enhanced aggregation at low-dose ristocetin (0.6 mg/mL), which is absent here."},
+    {"dx": "Acquired anti-αIIbβ3 effect (GPIIb/IIIa inhibitor drugs or autoantibody)", "vs": "Produces an identical aggregometry pattern; distinguished by drug history or acquired onset rather than a lifelong bleeding history."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61573",
+  "recognize_zh": "骨髓抽吸抹片滿是大小不一的母細胞，核圓或略凹、染色質細緻均勻、核仁不明顯，細胞質少至中等、呈藍色無顆粒，少數有小空泡；無 Auer 小體、無顆粒，型態符合淋巴母細胞，需流式確認 B 系。",
+  "features": [
+    "Sheets of blasts, variably sized from medium to large, replacing normal marrow elements",
+    "High N:C ratio with scant to moderate basophilic, agranular cytoplasm",
+    "Round to slightly indented nuclei with finely dispersed homogeneous chromatin",
+    "Inconspicuous or small indistinct nucleoli",
+    "Occasional small cytoplasmic vacuoles in a larger blast; one disrupted (smudged) cell; no Auer rods"
+  ],
+  "describe_en": "Wright-stained bone marrow aspirate smear shows sheets of blasts that vary from medium to large in size. The blasts have high nuclear-to-cytoplasmic ratios, round to slightly indented nuclei with finely dispersed chromatin and inconspicuous nucleoli, and scant to moderate basophilic agranular cytoplasm; occasional cells contain a few small cytoplasmic vacuoles, and a disrupted smudged cell is present. Auer rods and cytoplasmic granules are not seen, and normal maturing hematopoietic elements are not identified in this field. Findings are consistent with acute lymphoblastic leukemia; flow cytometry confirms B-lineage, and genetic testing is required for the BCR::ABL1-like designation.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Morphologically similar agranular blasts but MPO/CD13/CD33/CD117-positive and lacking CD19/CD10/cCD79a."},
+    {"dx": "Burkitt leukemia", "vs": "Cells have deeply basophilic cytoplasm with numerous sharply punched-out lipid vacuoles, coarser chromatin and a mature TdT-negative, surface-light-chain-restricted phenotype."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Shows CD5+/cyclin D1+ mature B cells without TdT or CD34."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "Morphology is indistinguishable; flow shows cytoplasmic CD3 and absence of B-lineage markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

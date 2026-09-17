@@ -1,0 +1,20 @@
+{
+  "id": "61966",
+  "recognize_zh": "TIA1染色中許多細胞的細胞質呈點狀、粗顆粒狀棕色陽性，陽性顆粒環繞於淡染的大核周圍，表示腫瘤細胞帶有細胞毒性顆粒相關蛋白，支持ALCL的細胞毒性T細胞表型。",
+  "features": [
+    "Coarse dot-like granular cytoplasmic TIA1 staining in many cells",
+    "Granules surround pale, oval-to-irregular vesicular nuclei of intermediate-to-large cells",
+    "Widespread positivity with a granular background",
+    "Some negative cells interspersed"
+  ],
+  "describe_en": "TIA1 immunostain shows coarse granular cytoplasmic staining in many intermediate-to-large cells with pale vesicular nuclei, with some interspersed negative cells. The dot-like granular pattern reflects cytotoxic granule-associated protein expression. Together with granzyme B and perforin positivity, this establishes a cytotoxic phenotype in ALK-negative anaplastic large cell lymphoma.",
+  "ddx": [
+    {"dx": "Reactive cytotoxic T-cell infiltrate", "vs": "Reactive TIA1+ cells are small lymphocytes, whereas positivity here involves large atypical cells."},
+    {"dx": "Extranodal NK/T-cell lymphoma", "vs": "ENKTL is TIA1-positive but EBER-positive and CD56-positive, with angiodestruction rather than uniform CD30+ hallmark cells."},
+    {"dx": "Monomorphic epitheliotropic intestinal T-cell lymphoma", "vs": "MEITL cells are monomorphic medium-sized CD8+/CD56+ cytotoxic cells in the intestine, not large pleomorphic CD30+ cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: TIA1",
+  "match": "consistent",
+  "high_yield": false
+}

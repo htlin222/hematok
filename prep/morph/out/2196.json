@@ -1,0 +1,22 @@
+{
+  "id": "2196",
+  "recognize_zh": "周邊血液中一顆比紅血球大一倍多的細胞，核呈摺疊／腎形、染色質細緻如花邊，細胞質豐富、灰藍色如毛玻璃並帶數個空泡，是典型的單核球；背景紅血球呈棘狀（crenation）人工假象。",
+  "features": [
+    "Large leukocyte about 2 times RBC diameter",
+    "Folded, lobulated to reniform nucleus",
+    "Lacy, finely reticulated chromatin without nucleoli",
+    "Abundant gray-blue ground-glass cytoplasm with fine azurophilic dusting",
+    "Several cytoplasmic vacuoles",
+    "Background crenated RBCs (echinocytes, likely drying artifact)"
+  ],
+  "describe_en": "Peripheral blood smear shows a large leukocyte with a folded, lobulated nucleus, lacy chromatin, and no visible nucleoli. The cytoplasm is abundant, gray-blue with a ground-glass texture, and contains several small vacuoles. Surrounding red cells show crenation consistent with a drying or storage artifact. Findings are consistent with a normal mature monocyte.",
+  "ddx": [
+    {"dx": "Reactive (atypical) lymphocyte", "vs": "Reactive lymphocytes have more condensed chromatin and deeply basophilic cytoplasm that scallops around adjacent RBCs rather than gray-blue vacuolated cytoplasm."},
+    {"dx": "Promonocyte", "vs": "Promonocytes have finer, more open chromatin with visible nucleoli and delicate nuclear folds, indicating immaturity."},
+    {"dx": "Metamyelocyte or band neutrophil", "vs": "Neutrophil precursors have pink-lilac cytoplasm with specific granules and coarser chromatin, not gray-blue ground-glass cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

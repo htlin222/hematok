@@ -1,0 +1,23 @@
+{
+  "id": "64639",
+  "recognize_zh": "骨髓切片中多核巨細胞內含圓形、周圍有透明空暈的酵母菌（H&E 紅箭頭），GMS 染成大小不一的黑色圓形酵母並可見窄基出芽，PAS 呈洋紅色，Mucicarmine 染出莢膜呈粉紅色，符合隱球菌（Cryptococcus）。",
+  "features": [
+    "Multinucleated giant cells and epithelioid histiocytes forming ill-defined granulomas in a mixed cellular marrow",
+    "Round-to-oval intracellular yeasts of variable size (roughly 4-10 um) surrounded by clear halos on H&E",
+    "GMS: black-staining round yeasts, variably sized, some with thick walls and narrow-based budding",
+    "PAS: magenta-positive yeast walls clustered within giant cells",
+    "Mucicarmine: pink-red staining of the polysaccharide capsule",
+    "Background lymphocytes and plasma cells; no necrosis in these fields"
+  ],
+  "describe_en": "Composite of bone marrow core biopsy sections at 400x. The H&E section (A) shows multinucleated giant cells and histiocytes within ill-defined granulomas, containing round yeasts with surrounding clear halos (red arrows). Gomori methenamine silver (B) highlights numerous round, variably sized black yeasts, some showing narrow-based budding, and PAS (C) stains the yeast walls magenta within giant cells. Mucicarmine (D) highlights the capsules in pink-red. Findings are consistent with disseminated cryptococcosis involving the bone marrow.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts are small (2-4 um), uniform, and mucicarmine-negative, whereas Cryptococcus is larger, variable in size, and has a mucicarmine-positive capsule."},
+    {"dx": "Blastomyces dermatitidis", "vs": "Blastomyces has thick double-contoured walls with broad-based budding and no mucicarmine-positive capsule, unlike the narrow-based budding here."},
+    {"dx": "Pneumocystis jirovecii", "vs": "Pneumocystis cysts are cup/helmet-shaped on GMS without budding and are embedded in foamy exudate, not round budding yeasts."},
+    {"dx": "Mycobacterial granulomatous infection", "vs": "Mycobacteria are acid-fast bacilli not seen on GMS/PAS as round yeasts, and Ziehl-Neelsen and TB PCR were negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; GMS; PAS; mucicarmine",
+  "match": "consistent",
+  "high_yield": true
+}

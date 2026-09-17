@@ -1,0 +1,21 @@
+{
+  "id": "60783",
+  "recognize_zh": "瀰漫排列的中型淋巴瘤細胞大多呈強的 cyclin D1 核染色（並帶部分細胞質著色），而夾雜的小淋巴球、內皮細胞與組織球為陰性，在 CD20 陽性的 B 細胞淋巴瘤中即支持被套細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheet of medium-sized lymphoid cells with round to slightly irregular nuclei",
+    "Strong nuclear cyclin D1 staining in the large majority of tumor cells, with some cytoplasmic blush",
+    "Admixed small reactive lymphocytes, endothelial cells and histiocytes are negative (blue counterstain), serving as internal negative control",
+    "Thin vascular channels traverse the infiltrate"
+  ],
+  "describe_en": "Immunohistochemical stain for cyclin D1 shows a diffuse infiltrate of medium-sized lymphoid cells, the great majority of which show strong nuclear staining with some cytoplasmic accentuation. Interspersed small lymphocytes, endothelial cells and histiocytes are negative. In a CD20-positive lymphoma with blastoid cytology and a very high proliferation index, findings are consistent with mantle cell lymphoma, blastoid variant; CCND1 FISH can confirm t(11;14) if needed.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma with t(11;14)", "vs": "Also cyclin D1 positive, but cells are plasma cells that are CD138+ and CD20/PAX5 negative with cytoplasmic light chain restriction."},
+    {"dx": "Hairy cell leukemia", "vs": "Shows weak to moderate cyclin D1 in a subset but has bland cells with abundant cytoplasm, CD103/CD25/annexin A1 positivity and BRAF V600E without t(11;14)."},
+    {"dx": "Diffuse large B-cell lymphoma, cyclin D1-positive", "vs": "Rare cases show weak/partial cyclin D1 without CCND1 rearrangement, SOX11 negativity and larger centroblastic or immunoblastic cells."},
+    {"dx": "Cyclin D1-negative mantle cell lymphoma", "vs": "Has identical morphology but lacks cyclin D1 staining and instead shows SOX11 positivity with CCND2 or CCND3 rearrangement."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: cyclin D1",
+  "match": "consistent",
+  "high_yield": true
+}

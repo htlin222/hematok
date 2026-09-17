@@ -1,0 +1,21 @@
+{
+  "id": "61744",
+  "recognize_zh": "低倍 H&E 中央為一條充滿紅血球的血管，管壁及周圍被淋巴細胞浸潤成袖套狀，周圍大片為粉紅色壞死組織；血管中心性（angiocentric）浸潤合併壞死是淋巴瘤樣肉芽腫的典型架構。",
+  "features": [
+    "Blood vessel with lumen filled by red blood cells",
+    "Dense lymphoid infiltrate cuffing and infiltrating the vessel wall (angiocentric pattern)",
+    "Extensive surrounding eosinophilic necrosis with scattered ghost cells",
+    "Scattered lymphoid cells in the necrotic background",
+    "Cytologic detail limited at this magnification"
+  ],
+  "describe_en": "Low-power sections show a medium-sized vessel whose wall is infiltrated and cuffed by a lymphoid infiltrate, surrounded by broad areas of eosinophilic necrosis containing scattered cells. Cytologic atypia cannot be graded at this magnification, and no granulomas or neutrophilic microabscesses are evident in this field. The angiocentric lymphoid infiltrate with necrosis is consistent with lymphomatoid granulomatosis, to be confirmed with CD20 and EBER staining.",
+  "ddx": [
+    {"dx": "Granulomatosis with polyangiitis", "vs": "GPA has geographic basophilic necrosis with palisading histiocytes, giant cells and neutrophils, and lacks EBER-positive atypical B cells."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "ENKTL shares angiocentric necrosis but the atypical cells are CD56/cytoplasmic CD3-positive NK/T cells."},
+    {"dx": "Infection (mycobacterial or fungal) with vasculitis", "vs": "Infectious necrosis shows well-formed granulomas and organisms on special stains (AFB, GMS) rather than an atypical lymphoid vascular infiltrate."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

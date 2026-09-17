@@ -1,0 +1,22 @@
+{
+  "id": "4068",
+  "recognize_zh": "抹片中大量小到中型淋巴樣細胞，細胞質少而深藍，核圓、染色質中度凝集，部分可見單一明顯核仁（前淋巴球樣），並夾雜少數粒系與紅系前驅細胞，符合 T-PLL；但須以流式與 TCL1 確認系別。",
+  "features": [
+    "Numerous small-to-medium lymphoid cells with high N:C ratio",
+    "Round to slightly irregular nuclei with moderately condensed chromatin; a subset with a single visible nucleolus",
+    "Scant to moderate deeply basophilic cytoplasm, occasionally with small blebs",
+    "Admixed larger cells with fine chromatin and moderate blue cytoplasm, a few maturing myeloid cells and orthochromatic erythroid precursors",
+    "Background RBCs with some overlap/rouleaux in thick area"
+  ],
+  "describe_en": "Aspirate smear shows a hypercellular specimen dominated by small-to-medium lymphoid cells with high nuclear-to-cytoplasmic ratios, round to slightly irregular nuclei with moderately condensed chromatin, frequently a single visible nucleolus, and scant deeply basophilic cytoplasm. Scattered larger mononuclear cells, maturing granulocytes and erythroid precursors are admixed. Morphology alone cannot reliably separate these prolymphocyte-like cells from other lymphoid neoplasms. Findings are compatible with involvement by T-prolymphocytic leukemia; confirmation requires flow cytometry (CD4+/CD8± T cells, CD7 bright) and TCL1 expression or TCL1A/MTCP1 rearrangement.",
+  "ddx": [
+    {"dx": "B-prolymphocytic leukemia / prolymphocytic progression of CLL", "vs": "B-lineage prolymphocytes look similar but are CD19/CD20+ with strong sIg by flow and lack TCL1A rearrangement."},
+    {"dx": "Mantle cell lymphoma, leukemic", "vs": "MCL cells have irregular cleaved nuclei and are cyclin D1/SOX11-positive B cells."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells show polylobated flower nuclei without prominent nucleoli and are CD25+/HTLV-1 associated."},
+    {"dx": "Acute leukemia", "vs": "Blasts have finer chromatin, are TdT- or CD34-positive, and lack the condensed chromatin of mature prolymphocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

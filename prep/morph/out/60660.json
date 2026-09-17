@@ -1,0 +1,22 @@
+{
+  "id": "60660",
+  "recognize_zh": "A 圖組織切片中鱗狀上皮下方的出血性間質內有深染、不典型的大型淋巴樣細胞浸潤；B 圖骨髓切片脂肪間散布許多細胞核呈深黑色訊號的大型細胞，符合 EBV（EBER ISH）陽性的淋巴瘤細胞，支持 HIV 相關、EBV 驅動的瀰漫性大 B 細胞淋巴瘤侵犯。",
+  "features": [
+    "Panel A: squamous epithelium adjacent to hemorrhagic stroma infiltrated by atypical, dark-staining large lymphoid cells",
+    "Extensive extravasated red cells within the stroma; image color cast limits nuclear detail",
+    "Panel B: marrow biopsy with prominent adipocytes and interstitial scattered large cells",
+    "Dense dark black-purple nuclear signal in many of the large cells, consistent with EBER in situ hybridization (chromogen not labeled)",
+    "Residual background marrow cells with reddish counterstain"
+  ],
+  "describe_en": "Tissue section (panel A) shows squamous mucosa with an underlying hemorrhagic stroma infiltrated by atypical, hyperchromatic large lymphoid cells; the yellow color cast of the image limits cytologic detail. The marrow biopsy (panel B) shows a fatty marrow in which numerous large cells display dark nuclear signal, consistent with EBER in situ hybridization highlighting EBV-infected tumor cells (the stain is not labeled in the image). No specific B-cell marker staining is shown. In an HIV-positive patient, findings are consistent with EBV-positive diffuse large B-cell lymphoma involving mucosa and bone marrow, a setting in which a high tumor burden can cause type B lactic acidosis (Warburg effect).",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is also EBER positive and common in HIV oral mucosa, but tumor cells lack CD20/PAX5 and express CD138, MUM1, and CD38."},
+    {"dx": "Primary effusion lymphoma, extracavitary", "vs": "PEL cells are HHV-8 (LANA) positive, often co-infected with EBV, and lack B-cell markers, whereas EBV-positive DLBCL is HHV-8 negative and CD20 positive."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma shows sheets of medium-sized cells with a starry-sky pattern, Ki-67 near 100%, and MYC rearrangement with a CD10/BCL6-positive, BCL2-negative phenotype."},
+    {"dx": "Poorly differentiated squamous cell carcinoma", "vs": "Carcinoma arises from the epithelium with keratin-positive cohesive nests and is EBER negative (outside nasopharyngeal sites), unlike discohesive CD45/CD20-positive lymphoma cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; ISH: EBER (probable)",
+  "match": "partial",
+  "high_yield": false
+}

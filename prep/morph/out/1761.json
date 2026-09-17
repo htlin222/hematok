@@ -1,0 +1,22 @@
+{
+  "id": "1761",
+  "recognize_zh": "這是一張教學投影片：左側兩張臨床照片顯示皮膚上紅紫色、中央潰瘍結痂的結節，右側兩張組織切片為成片大型、細胞核不規則或腎形且核仁明顯的腫瘤細胞，組合起來符合原發性皮膚CD30陽性間變性大細胞淋巴瘤。",
+  "features": [
+    "Composite teaching slide titled 'CD30+ Primary Cutaneous ALCL' with two clinical photographs and two photomicrographs",
+    "Clinical photos: solitary erythematous to violaceous skin nodule with central ulceration and crust, and a larger ulcerated nodule with a small satellite lesion",
+    "Histology (upper right): large pleomorphic cells with irregular, reniform, and multilobated nuclei, vesicular chromatin, and prominent nucleoli",
+    "Histology (lower right): diffuse sheet of large atypical cells with scattered smaller inflammatory cells",
+    "CD30 immunostain is not shown; the CD30 status is stated in the title only"
+  ],
+  "describe_en": "This composite teaching slide shows clinical photographs of ulcerated, erythematous to violaceous cutaneous nodules alongside photomicrographs of a dermal infiltrate composed of sheets of large pleomorphic cells with irregular and kidney-shaped nuclei and prominent nucleoli. No CD30 immunostain is shown, and staging information is not provided. Primary cutaneous ALCL is defined by skin-limited disease at presentation with more than 75% CD30-positive large cells, and it is usually ALK negative. Findings are consistent with primary cutaneous CD30-positive anaplastic large cell lymphoma, with the caveat that systemic ALCL with secondary skin involvement must be excluded by staging.",
+  "ddx": [
+    {"dx": "Lymphomatoid papulosis", "vs": "Lymphomatoid papulosis presents as recurrent, self-healing papules smaller than 2 cm with a wedge-shaped mixed infiltrate, whereas primary cutaneous ALCL forms larger persistent nodules with sheets of CD30+ cells."},
+    {"dx": "Systemic ALCL with secondary skin involvement", "vs": "Systemic ALCL involves nodes or other extracutaneous sites at staging and is often ALK positive, whereas primary cutaneous ALCL is skin-limited and usually ALK negative."},
+    {"dx": "Mycosis fungoides with large cell transformation", "vs": "Transformed mycosis fungoides arises in a patient with prior patches and plaques and shows epidermotropism, whereas primary cutaneous ALCL arises de novo as nodules."},
+    {"dx": "Poorly differentiated carcinoma or melanoma of skin", "vs": "These are keratin or SOX10/S100 positive and CD30 negative."}
+  ],
+  "specimen": "other",
+  "stain": "H&E; clinical photographs",
+  "match": "consistent",
+  "high_yield": false
+}

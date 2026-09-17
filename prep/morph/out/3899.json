@@ -1,0 +1,22 @@
+{
+  "id": "3899",
+  "recognize_zh": "這是一張腦部軸切 T1 加權 MRI，紅色箭頭指向左側額顳葉/腦島外側一個邊界清楚的高訊號病灶，T1 高訊號符合亞急性出血（methemoglobin），配合 AML 病史提示顱內出血。",
+  "features": [
+    "Axial T1-weighted MRI of the brain at the level of the lateral ventricles",
+    "Well-circumscribed ovoid T1-hyperintense lesion in the left lateral frontotemporal/insular region (red arrow)",
+    "Faint surrounding hypointense rim suggestive of perilesional edema",
+    "Mild local mass effect without midline shift",
+    "No other focal lesion evident on this single slice"
+  ],
+  "describe_en": "Axial T1-weighted MR image of the brain shows a well-circumscribed ovoid hyperintense lesion in the left lateral frontotemporal/peri-insular region (arrow) with a faint surrounding hypointense rim and mild local mass effect, without midline shift. Intrinsic T1 hyperintensity in this setting is consistent with subacute intraparenchymal hemorrhage (extracellular or intracellular methemoglobin). In a patient with AML, this is suggestive of CNS hemorrhage related to thrombocytopenia and/or coagulopathy (e.g., DIC in APL or hyperleukocytosis); correlation with CT, susceptibility-weighted imaging and coagulation studies is recommended. A single slice limits assessment of enhancement and extent.",
+  "ddx": [
+    {"dx": "Myeloid sarcoma (chloroma) of the CNS", "vs": "Myeloid sarcoma is usually iso- to hypointense on T1 with homogeneous enhancement, rather than intrinsically T1-hyperintense like blood products."},
+    {"dx": "Hemorrhagic infarct or septic emboli", "vs": "Infarcts follow a vascular territory with restricted diffusion, and septic emboli are multiple and ring-enhancing, which DWI and contrast sequences would show."},
+    {"dx": "Fungal (e.g., Aspergillus) abscess with hemorrhage", "vs": "Angioinvasive fungal lesions in neutropenic patients show ring enhancement and are often multiple, requiring contrast imaging and microbiology."},
+    {"dx": "Leukostasis-associated hemorrhage", "vs": "Occurs with very high blast counts and is often multifocal; distinction depends on the white cell count rather than imaging appearance."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

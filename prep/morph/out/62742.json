@@ -1,0 +1,23 @@
+{
+  "id": "62742",
+  "recognize_zh": "同一抹片可見兩種 B 細胞：小型、染色質粗塊、胞質極少的 CLL 細胞，以及胞質豐富淡藍、邊緣毛絨狀的毛細胞；流式也分出 CD5+ kappa 與 CD5− CD11c+CD103+ lambda 兩群，基因重組呈兩個克隆峰，代表毛細胞白血病與 CLL 並存。",
+  "features": [
+    "Small mature lymphocyte with clumped chromatin and scant cytoplasm (CLL-type) beside larger cells",
+    "Larger cells with oval nuclei, fine chromatin, and abundant pale blue cytoplasm with irregular hairy projections",
+    "Marrow biopsy: diffuse interstitial lymphoid infiltrate with spaced nuclei (fried-egg-like) on H&E",
+    "Immunostains (double and single stains, antibodies unlabeled) highlight distinct lymphoid populations",
+    "Flow: CD19+ CD5+ kappa-restricted population and separate CD19+ CD5- CD11c+ CD103+ lambda-restricted population",
+    "Clonality PCR shows distinct peaks consistent with two B-cell clones"
+  ],
+  "describe_en": "Peripheral blood smear shows two distinct lymphoid populations: small mature lymphocytes with clumped chromatin and scant cytoplasm, and larger cells with oval nuclei and abundant pale blue cytoplasm bearing fine hairy projections. The bone marrow biopsy shows a diffuse interstitial lymphoid infiltrate, and immunohistochemical double stains (antibodies not labeled in the image) delineate separate lymphoid populations. Flow cytometry identifies a CD19+ CD5+ kappa-restricted population and a separate CD5-negative, CD11c+ CD103+ lambda-restricted population, and immunoglobulin gene rearrangement analysis shows distinct clonal peaks. Findings are consistent with concurrent hairy cell leukemia and chronic lymphocytic leukemia.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma with prominent nucleoli)", "vs": "HCL-variant cells have prominent nucleoli, are CD25- and annexin A1-negative, and lack BRAF V600E, and would not account for a second CD5+ kappa clone."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes have polar short projections and are usually CD103- and CD25-negative with weak or absent CD11c."},
+    {"dx": "CLL with atypical morphology alone", "vs": "Atypical CLL cells may be larger but share a single CD5+ light chain-restricted clone and lack CD103 and CD11c-bright hairy cells."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL cells are CD5-positive but cyclin D1- and SOX11-positive with irregular nuclei, not a CD5-negative CD103-positive hairy cell population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa, H&E; IHC (unlabeled); flow; PCR",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61640",
+  "recognize_zh": "周邊血液中出現數個未成熟顆粒球：兩個較大細胞核染色質略開放、細胞質佈滿粗大紫黑色顆粒（像未成熟的嗜酸/嗜鹼顆粒球），另有後骨髓球樣細胞與帶狀核細胞；左移並伴隨異常顆粒的細胞，配合嗜酸性球增多提示 PCM1::JAK2 骨髓/淋巴腫瘤。",
+  "features": [
+    "Two large immature granulocytic cells with moderately open chromatin and coarse dark purple (basophilic-type) cytoplasmic granules",
+    "Cell with eccentric, slightly indented nucleus and pale blue agranular to finely granular cytoplasm (myelocyte-like)",
+    "Small band-form granulocyte at the upper right",
+    "Polychromatophilic red cell at left edge; red cells with mild anisocytosis",
+    "Occasional platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating immature granulocytic cells. Two large cells with moderately open chromatin contain coarse dark purple cytoplasmic granules, resembling immature eosinophils/basophils with abnormal basophilic-type granulation; a myelocyte-like cell and a band form are also present. Red cells show mild anisocytosis with a polychromatophilic cell. The granule lineage cannot be assigned with certainty on Wright-Giemsa alone. In the context of a PCM1::JAK2 fusion, the left-shifted granulopoiesis with abnormally granulated eosinophil/basophil precursors is consistent with a myeloid/lymphoid neoplasm with eosinophilia and JAK2 rearrangement.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a myelocyte and neutrophil peak with absolute basophilia but is defined by BCR::ABL1, which must be excluded by molecular testing."},
+    {"dx": "Myeloid/lymphoid neoplasm with PDGFRA or FGFR1 rearrangement", "vs": "Morphology overlaps (eosinophilia, immature granulocytes), so separation requires FISH/RT-PCR for PDGFRA, PDGFRB and FGFR1."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL promyelocytes have bilobed nuclei, dense azurophilic granules and Auer rod bundles with PML::RARA, rather than eosinophil/basophil-type granules in a left-shifted CML-like picture."},
+    {"dx": "Reactive eosinophilia", "vs": "Reactive eosinophils are mature with normal orange-red granules and normal lobation, without circulating immature granulocytes with abnormal granulation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

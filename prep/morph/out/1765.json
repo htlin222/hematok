@@ -1,0 +1,22 @@
+{
+  "id": "1765",
+  "recognize_zh": "組織切片中成片的大型腫瘤細胞，細胞質豐富淡嗜酸性，多顆細胞核呈腎形或馬蹄形並有明顯核仁（hallmark cells），可見核分裂，是間變性大細胞淋巴瘤（ALCL）的典型形態。",
+  "features": [
+    "Sheets of large cells with abundant pale eosinophilic to amphophilic cytoplasm and distinct cell borders",
+    "Eccentric kidney-shaped, horseshoe, and reniform nuclei (hallmark cells)",
+    "Vesicular chromatin with one or more prominent eosinophilic to basophilic nucleoli",
+    "Multilobated and pleomorphic nuclei with a mitotic figure present",
+    "Cohesive growth pattern that can mimic carcinoma; no well-defined background small lymphocytes in this field"
+  ],
+  "describe_en": "Tissue section shows sheets of large, cohesive-appearing neoplastic cells with abundant pale eosinophilic cytoplasm and distinct cell borders. Nuclei are pleomorphic, with many eccentric horseshoe- or kidney-shaped forms (hallmark cells), vesicular chromatin, and prominent nucleoli; mitoses are present. The cohesive pattern may mimic carcinoma or melanoma. Findings are suggestive of anaplastic large cell lymphoma; confirmation with CD30, ALK, T-cell markers, EMA, and keratin immunostains is recommended.",
+  "ddx": [
+    {"dx": "Metastatic poorly differentiated carcinoma", "vs": "Carcinoma may look similarly cohesive but is keratin positive and CD30/ALK negative, and lacks horseshoe-shaped hallmark nuclei."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin lymphoma has scattered Reed-Sternberg cells in a mixed inflammatory background rather than sheets of hallmark cells, and is PAX5 weakly positive and ALK negative."},
+    {"dx": "Diffuse large B-cell lymphoma, anaplastic variant", "vs": "Anaplastic DLBCL can be morphologically identical and is separated by expression of CD20 and PAX5 with ALK negativity."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma shows macronucleoli and may have pigment, and is SOX10 and S100 positive rather than CD30 and ALK positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

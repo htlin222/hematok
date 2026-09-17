@@ -1,0 +1,21 @@
+{
+  "id": "63906",
+  "recognize_zh": "箭頭所指的母細胞核大、染色質細緻，細胞質嗜鹼性且邊緣有不規則的泡狀突起（blebs）和像正在出芽的血小板碎片，背景可見大型與成團的異常血小板，這些是急性巨核母細胞白血病的線索。",
+  "features": [
+    "Medium-to-large blasts with high N:C ratio, round nucleus and fine chromatin",
+    "Basophilic cytoplasm with irregular cytoplasmic blebs and projections resembling budding platelets (arrows)",
+    "Background with large/atypical platelets and platelet clumps",
+    "Accompanying immature granulocytes (myelocytes, metamyelocyte) and occasional echinocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts accompanied by immature granulocytes. The blasts (arrows) are medium to large with a high N:C ratio, fine chromatin and scant basophilic cytoplasm bearing irregular blebs and pseudopod-like projections that resemble budding platelets. The background contains atypical large platelets and platelet clumps. Morphology alone is insufficient; megakaryocytic lineage must be confirmed by flow cytometry or immunohistochemistry (CD41, CD61, CD42b). Findings are suggestive of acute megakaryoblastic leukemia.",
+  "ddx": [
+    {"dx": "Myeloblasts (other AML)", "vs": "Myeloblasts may contain granules or Auer rods and are MPO-positive, whereas megakaryoblasts are MPO-negative and express CD41/CD61."},
+    {"dx": "Lymphoblasts (ALL)", "vs": "Lymphoblasts lack cytoplasmic blebs and platelet budding and express TdT with B- or T-lineage markers."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN cells can show pseudopod-like cytoplasmic tails but express CD4, CD56, CD123 and TCF4 and lack CD41/CD61."},
+    {"dx": "Metastatic small round cell tumor or platelet satellitism artifact", "vs": "Tumor cells form cohesive clusters and are CD45-negative, and platelets adhering to cells are discrete separate particles rather than blebs continuous with blast cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

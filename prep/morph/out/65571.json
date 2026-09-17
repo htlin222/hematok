@@ -1,0 +1,22 @@
+{
+  "id": "65571",
+  "recognize_zh": "周邊血中滿是中到大型淋巴球，核圓或略不規則、少數有凹痕，染色質中度濃縮，部分可見單一明顯核仁，細胞質中等量淡藍，這是 prolymphocyte 樣形態；需流式與 CCND1 檢測才知是被套細胞淋巴瘤。",
+  "features": [
+    "Marked lymphocytosis of medium to large lymphoid cells",
+    "Round to slightly irregular nuclei, some notched or cleaved, occasional bilobed form",
+    "Moderately condensed chromatin with a single visible nucleolus in some cells",
+    "Moderate amount of pale blue agranular cytoplasm",
+    "Relatively monomorphic population; no smudge cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked increase in medium to large atypical lymphoid cells. The cells have round to slightly irregular nuclei, some with notches or clefts, moderately condensed chromatin, a single visible nucleolus in a subset, and moderate pale blue cytoplasm, imparting a prolymphocytoid appearance. Smudge cells are not evident. The morphology is suggestive of a B-cell lymphoproliferative disorder with prolymphocytoid cells; with CD5-negative, kappa-restricted B cells and IGH::CCND1 fusion, findings are consistent with leukemic mantle cell lymphoma with prolymphocyte morphology.",
+  "ddx": [
+    {"dx": "B-prolymphocytic leukemia", "vs": "B-PLL cells look similar but lack cyclin D1/IGH::CCND1, so FISH or cyclin D1 immunostain is required to separate them."},
+    {"dx": "CLL with increased prolymphocytes", "vs": "CLL shows predominantly small lymphocytes with block-like chromatin, smudge cells, and a CD5+/CD23+ phenotype."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells are smaller with polar villous cytoplasmic projections and lack CCND1 rearrangement."},
+    {"dx": "Hairy cell leukemia variant/splenic B-cell lymphoma with prominent nucleoli", "vs": "These cells have abundant cytoplasm with circumferential hairy projections and are CD11c+/CD103 variable, cyclin D1 negative by FISH."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "66364",
+  "recognize_zh": "這是一張正面胸部 X 光（chest X-ray），可見心臟縱膈陰影明顯擴大、雙側中下肺野模糊浸潤、兩側肋膈角變鈍（右側較明顯），代表肺水腫合併肋膜積液，與體液（body fluid）檢體的臨床背景相關。",
+  "features": [
+    "Frontal (likely portable AP) chest radiograph with markedly enlarged cardiomediastinal silhouette",
+    "Bilateral mid and lower zone hazy ground-glass opacity with increased interstitial markings",
+    "Blunting of both costophrenic angles with dependent opacity, more prominent on the right, consistent with pleural effusions",
+    "Upper lung zones relatively lucent; no pneumothorax evident",
+    "Non-morphologic image: no cytologic information is provided"
+  ],
+  "describe_en": "Frontal chest radiograph demonstrates a markedly enlarged cardiomediastinal silhouette. There are bilateral mid and lower zone ground-glass opacities with increased interstitial markings, suggestive of pulmonary edema. Both costophrenic angles are blunted, more so on the right, indicating bilateral pleural effusions. This is a radiologic image and offers no morphologic data; its role is to provide clinical context for the corresponding pleural or pericardial fluid cytology.",
+  "ddx": [
+    {"dx": "Large pericardial effusion", "vs": "A globular 'water-bottle' cardiac silhouette can mimic cardiomegaly and is separated by echocardiography rather than plain film."},
+    {"dx": "Mediastinal mass (e.g., lymphoma)", "vs": "A mediastinal mass widens the superior mediastinum with a lobulated contour and is best defined by CT, whereas this silhouette enlargement is predominantly cardiac."},
+    {"dx": "Bilateral pneumonia", "vs": "Infectious consolidation tends to be patchy or lobar with air bronchograms, while edema is symmetric, perihilar/basal and accompanied by effusions and cardiomegaly."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

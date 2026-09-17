@@ -1,0 +1,22 @@
+{
+  "id": "60632",
+  "recognize_zh": "周邊血中血小板數目增多、大小不一，紅血球間散見棘狀／刺狀紅血球（acanthocytes）與少數紅血球內小顆深色點狀包涵體（Howell-Jolly bodies），這組合提示脾功能低下（functional hyposplenism）造成的反應性血小板增多。",
+  "features": [
+    "Increased numbers of platelets with variation in size, including some larger forms",
+    "Scattered acanthocytes/spiculated red cells with irregularly spaced projections",
+    "Occasional red cells with small, round, dense basophilic inclusions consistent with Howell-Jolly bodies",
+    "Target cells and red cells with irregular central pallor",
+    "Mature lymphocyte and white cells without significant morphologic abnormality"
+  ],
+  "describe_en": "Peripheral blood smear shows increased platelets with anisocytosis. The red cells show scattered acanthocytes and occasional target cells, and rare erythrocytes contain small dense basophilic inclusions consistent with Howell-Jolly bodies. Leukocytes present show no significant abnormality. Because the spleen normally removes these red cell inclusions and abnormal membranes, this combination supports reduced splenic function. Findings are consistent with hyposplenism (functional or post-splenectomy) with reactive thrombocytosis; clinical correlation for celiac disease, sickle cell disease or splenic infarction is recommended.",
+  "ddx": [
+    {"dx": "Essential thrombocythemia", "vs": "ET shows thrombocytosis with large platelets but lacks Howell-Jolly bodies and acanthocytes unless splenic infarction has occurred; JAK2/CALR/MPL testing separates them."},
+    {"dx": "Spur cell anemia of liver disease", "vs": "Spur cell anemia has numerous acanthocytes with hemolysis but no Howell-Jolly bodies or thrombocytosis."},
+    {"dx": "Pappenheimer bodies", "vs": "Pappenheimer bodies are multiple fine peripheral granules that are Prussian blue-positive, whereas Howell-Jolly bodies are single round DNA remnants."},
+    {"dx": "Platelet overlying a red cell (artifact)", "vs": "An overlying platelet is granular with a halo and lies in a different focal plane, unlike a dense round intraerythrocytic Howell-Jolly body."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

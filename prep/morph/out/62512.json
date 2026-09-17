@@ -1,0 +1,21 @@
+{
+  "id": "62512",
+  "recognize_zh": "未圈選（ungated）的 CD8 對 CD4 流式圖：左下角有一大團 CD4-/CD8- 的事件（主要為 CLL 的 B 細胞），僅有少量 CD4+ 與 CD8+ T 細胞兩群；此圖的重點是 T 細胞相對很少，並非 T 細胞異常。",
+  "features": [
+    "Ungated dot plot of CD8-ECD (x-axis) versus CD4-APC750 (y-axis)",
+    "Dominant CD4-negative/CD8-negative population in the lower left, representing non-T cells (largely the B-cell clone)",
+    "Discrete CD4-positive/CD8-negative helper T-cell cluster (CD4 ~2-3 x 10^4)",
+    "Smaller CD8-positive/CD4-negative cytotoxic T-cell cluster (CD8 ~10^5)",
+    "Diagonal smear of dim CD4 events consistent with monocytes and debris; no aberrant CD4/CD8 double-positive cluster"
+  ],
+  "describe_en": "Ungated flow cytometric plot of CD8 versus CD4 shows that most events are CD4-negative and CD8-negative. Two small, discrete T-cell populations are present, with CD4-positive cells exceeding CD8-positive cells, and a band of dim CD4 events consistent with monocytes. There is no aberrant double-positive or double-negative T-cell cluster. The findings indicate residual normal T-cell subsets that are relatively reduced in proportion, as expected when a B-cell clone such as chronic lymphocytic leukemia dominates the sample.",
+  "ddx": [
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL shows an expanded CD4-positive (or CD4/CD8 double-positive) T-cell population that dominates the plot rather than small normal T-cell clusters."},
+    {"dx": "Sezary syndrome", "vs": "Sezary syndrome shows an expanded CD4-positive population with a high CD4:CD8 ratio and loss of CD7/CD26."},
+    {"dx": "Reactive lymphocytosis", "vs": "Reactive samples contain proportionally more T cells, often with CD8 expansion, and lack a dominant monotypic B-cell population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A (flow cytometry)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

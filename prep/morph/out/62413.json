@@ -1,0 +1,22 @@
+{
+  "id": "62413",
+  "recognize_zh": "lambda 輕鏈原位雜交（ISH）染色的骨髓組織中，整個視野只有極少數細胞呈深藍黑色陽性訊號，其餘造血細胞與脂肪皆為陰性；需與 kappa ISH 對照，kappa 陽性漿細胞遠多於 lambda，即表示輕鏈限制（kappa restriction）。",
+  "features": [
+    "Bone marrow tissue with interspersed fat spaces and eosinophilic hematopoietic background",
+    "Only rare cells show dark blue-black cytoplasmic lambda ISH signal",
+    "The vast majority of nucleated cells are lambda-negative",
+    "No specific signal in adipocytes or red cells",
+    "Low resolution and pale counterstain limit cytologic detail"
+  ],
+  "describe_en": "In situ hybridization for lambda light-chain mRNA on a bone marrow section shows only rare positive cells with dark cytoplasmic signal scattered among fat spaces and lambda-negative hematopoietic elements. Image resolution and the pale counterstain limit cytologic assessment of the positive cells. When compared with the kappa ISH on the same specimen, which highlights many plasma cells, the markedly skewed kappa-to-lambda ratio indicates a clonal, kappa-restricted plasma cell population. In the context of a small lymphocytic infiltrate with plasmacytic differentiation, findings support lymphoplasmacytic lymphoma.",
+  "ddx": [
+    {"dx": "Polytypic reactive plasmacytosis", "vs": "Reactive plasma cells show a kappa-to-lambda ratio of roughly 1-3:1 rather than near-exclusive kappa expression with rare lambda cells."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma also shows light-chain restriction but consists of sheets of plasma cells without an accompanying clonal small B-lymphocyte population and usually lacks MYD88 L265P."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "Light-chain restriction is shared, so distinction relies on clinical IgM paraprotein, marrow pattern and MYD88 L265P status."},
+    {"dx": "Technical failure of ISH", "vs": "A true negative requires internal positive controls (and a successful kappa stain), because a failed probe can mimic lambda negativity."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "ISH: lambda light chain",
+  "match": "consistent",
+  "high_yield": false
+}

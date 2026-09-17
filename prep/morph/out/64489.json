@@ -1,0 +1,22 @@
+{
+  "id": "64489",
+  "recognize_zh": "腫瘤細胞核深染、多形性，沿著纖維血管軸心排列成類乳突狀，外觀像癌；但 CD138 呈瀰漫膜染色、lambda 輕鏈細胞質強陽性，證明為單株漿細胞腫瘤。",
+  "features": [
+    "Sheets of densely packed neoplastic cells arranged around thin fibrovascular cores, creating a pseudopapillary pattern (A, B)",
+    "Hyperchromatic, pleomorphic oval nuclei with irregular nuclear contours and scant pale cytoplasm",
+    "No recognizable mature plasma cell morphology (no clock-face chromatin or hof) on H&E",
+    "Diffuse strong membranous CD138 expression in tumor cells (C)",
+    "Diffuse cytoplasmic lambda light chain expression, indicating monotypic plasma cells (D)"
+  ],
+  "describe_en": "Sections of the vertebral lesion show sheets of neoplastic cells arranged around delicate fibrovascular cores, producing a papillary, carcinoma-like architecture. The cells have hyperchromatic, pleomorphic nuclei with irregular contours and scant cytoplasm, without obvious plasmacytic features. By immunohistochemistry, the tumor cells show diffuse membranous CD138 and diffuse cytoplasmic lambda light chain expression. Findings support plasma cell myeloma with unusual papillary architecture mimicking carcinoma.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma (e.g., breast)", "vs": "Carcinoma is cytokeratin-positive (and GATA3-positive for breast) and lacks light chain restriction, although CD138 can be positive in carcinoma."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma shows immunoblastic cells with prominent central nucleoli, very high Ki-67 and frequent EBER positivity, usually without a known myeloma history."},
+    {"dx": "Mantle cell lymphoma, blastoid", "vs": "Blastoid mantle cell lymphoma is CD20+, cyclin D1 (BCL1)+ and CD138-negative."},
+    {"dx": "Neuroendocrine or small round cell tumor", "vs": "These express synaptophysin/chromogranin or other lineage markers and lack CD138 with monotypic lambda."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD138, lambda",
+  "match": "consistent",
+  "high_yield": false
+}

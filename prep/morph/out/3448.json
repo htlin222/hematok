@@ -1,0 +1,21 @@
+{
+  "id": "3448",
+  "recognize_zh": "左側中性球細胞質內有一個清楚的吞噬空泡，空泡內與其周圍含有淡紫色帶顆粒的血小板；右側中性球也含空泡與吞入的血小板，符合中性球吞噬血小板（常見於 EDTA 抗凝檢體）。",
+  "features": [
+    "Left neutrophil with a well-defined phagocytic vacuole containing ingested platelet material",
+    "Additional platelet-sized granular bodies within the cytoplasm adjacent to the nucleus",
+    "Right neutrophil with a small vacuole and engulfed platelet",
+    "Few free platelets in the background (apparent reduction)",
+    "Normochromic red cells with occasional elliptocytes and teardrop-like forms"
+  ],
+  "describe_en": "Peripheral blood smear shows normochromic red cells with occasional elliptocytes and relatively few free platelets. The neutrophil on the left contains a distinct clear phagocytic vacuole with ingested platelet material, and additional granular platelet-sized bodies are present in its cytoplasm. The neutrophil on the right likewise contains a small vacuole with an engulfed platelet. Findings are consistent with leukocyte phagocytosis of platelets, an in vitro phenomenon that can falsely lower the automated platelet count; review in a citrate-anticoagulated sample is recommended.",
+  "ddx": [
+    {"dx": "Platelet satellitism", "vs": "Satellite platelets encircle the neutrophil externally without phagocytic vacuoles."},
+    {"dx": "Bacterial sepsis with intracellular organisms", "vs": "Phagocytosed bacteria appear as uniform dark cocci or rods and are usually accompanied by toxic granulation and Döhle bodies."},
+    {"dx": "Toxic vacuolization", "vs": "Toxic vacuoles are multiple small empty vacuoles without contained granular platelet material."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

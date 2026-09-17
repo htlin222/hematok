@@ -1,0 +1,23 @@
+{
+  "id": "61430",
+  "recognize_zh": "周邊血液中細胞核偏心、染色質塊狀、胞質嗜鹼性的小型淋巴漿細胞樣細胞（A），易被誤判為淋巴球增多；免疫染色 CD138+、lambda 限制、kappa−，並表現 CD20 與 cyclin D1，流式見 CD45 陰性族群（箭頭），符合漿細胞白血病。",
+  "features": [
+    "PB (A): small to medium cells with round eccentric nuclei, clumped chromatin and moderate basophilic cytoplasm, mimicking lymphocytes",
+    "Tissue/clot (B): sheets of monotonous small plasmacytoid cells with round nuclei",
+    "IHC: CD20 membranous positive (C), cyclin D1 nuclear positive (D), CD138 strongly membranous (E)",
+    "Light chain restriction: lambda positive (F), kappa negative (G)",
+    "Flow (H): CD45-negative/dim, low side-scatter population (arrow) separate from CD45-bright cells",
+    "BM aspirate (I) with plasmacytoid cells (inset), CD138 (J) and lambda (K) positive"
+  ],
+  "describe_en": "Composite figure: peripheral blood shows circulating small to medium cells with eccentric round nuclei, clumped chromatin and basophilic cytoplasm that can be mistaken for lymphocytes. Tissue and marrow sections show sheets of monotonous plasmacytoid cells that are CD138-positive and lambda light chain restricted (kappa negative), with aberrant CD20 and cyclin D1 expression. Flow cytometry shows a CD45-negative/dim low side-scatter population. Findings are consistent with plasma cell leukemia with lymphoplasmacytoid morphology, and the CD20/cyclin D1 profile suggests t(11;14)(q13;q32), which should be confirmed by FISH.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are CD5+CD23+ with bright CD45 and surface immunoglobulin, lacking CD138 and cytoplasmic light chain."},
+    {"dx": "Mantle cell lymphoma, leukemic", "vs": "MCL is also cyclin D1-positive but expresses CD5, bright CD45 and surface immunoglobulin and is CD138-negative."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL has a mixture of small B cells and plasma cells with MYD88 L265P and IgM paraprotein, rather than a pure CD138+ cyclin D1+ plasma cell population."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "MZL shows predominant CD20+ B cells with CD138+ cells as a minor component and is cyclin D1-negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E; IHC: CD20, CD138, cyclin D1, κ/λ",
+  "match": "consistent",
+  "high_yield": false
+}

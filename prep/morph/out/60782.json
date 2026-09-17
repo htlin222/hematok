@@ -1,0 +1,21 @@
+{
+  "id": "60782",
+  "recognize_zh": "低倍下幾乎所有腫瘤細胞呈強而完整的 CD20 細胞膜染色（棕色環狀），片狀瀰漫排列、僅由細薄纖維血管間隔分開，表示這是 B 細胞來源的瀰漫性淋巴瘤；單憑 CD20 無法確定是母細胞型被套細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheets of densely packed lymphoid cells separated by thin fibrovascular septa",
+    "Strong, crisp circumferential membranous CD20 staining in virtually all tumor cells",
+    "Cells appear medium-sized and uniform at this magnification",
+    "Stromal and endothelial cells within septa are CD20 negative"
+  ],
+  "describe_en": "Immunohistochemical stain for CD20 shows a diffuse, sheet-like proliferation of medium-sized lymphoid cells separated by thin fibrovascular septa. Nearly all tumor cells show strong membranous CD20 positivity, while stromal elements are negative. This establishes B-cell lineage but is not specific for subtype. In combination with cyclin D1 nuclear positivity, blastoid cytology and a high Ki-67 index in the companion stains, findings are consistent with mantle cell lymphoma, blastoid variant.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "Also diffusely CD20 positive, but cells are larger with vesicular chromatin and are cyclin D1 negative (or only weakly positive in a subset) without CCND1 rearrangement."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "Blasts are TdT and often CD34 positive with weak or absent CD20, and lack cyclin D1."},
+    {"dx": "Burkitt lymphoma", "vs": "CD20-positive but CD10+/BCL6+, BCL2-negative and cyclin D1-negative with a starry-sky pattern and MYC rearrangement."},
+    {"dx": "Acute myeloid leukemia / myeloid sarcoma", "vs": "Blastoid cells would be CD20 negative and express myeloid markers such as MPO, CD33 or CD117."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": false
+}

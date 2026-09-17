@@ -1,0 +1,22 @@
+{
+  "id": "3251",
+  "recognize_zh": "巨噬細胞泡沫狀細胞質內有一個圓形透明空泡，裡面含兩個小而深染的點狀結構，周圍有清楚光暈（假莢膜樣），符合細胞內 Histoplasma 酵母菌；單一視野、菌體數量少，需特殊染色佐證。",
+  "features": [
+    "Large macrophage with abundant pale-blue, finely vacuolated (foamy) cytoplasm",
+    "Single round clear vacuole containing two small, dense, dot-like basophilic bodies consistent with intracellular yeast forms",
+    "Clear halo around the organisms (pseudocapsule artifact)",
+    "Large, irregular reniform macrophage nucleus with fine chromatin",
+    "Adjacent small mononuclear cell with bleb-like cytoplasmic protrusions (degenerating cell or preparation artifact)"
+  ],
+  "describe_en": "Smear shows a large macrophage with abundant foamy cytoplasm containing a round clear vacuole with two small, dense, basophilic bodies surrounded by a clear halo, suggestive of intracellular yeast forms. A nearby small mononuclear cell shows bleb-like cytoplasmic protrusions of uncertain significance. Only a single organism-containing vacuole is present in this field, so the morphology is suggestive rather than diagnostic on its own. Findings are consistent with Histoplasma capsulatum infection in the appropriate clinical context; confirmation by GMS/PAS stain, culture or antigen testing is recommended.",
+  "ddx": [
+    {"dx": "Leishmania donovani (amastigotes)", "vs": "Leishmania amastigotes show a nucleus plus a rod-shaped kinetoplast and lack a clear halo, whereas Histoplasma yeasts are haloed single dots without a kinetoplast."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts are elongated sausage-shaped forms that divide by a central transverse septum rather than by budding."},
+    {"dx": "Candida glabrata / small yeasts", "vs": "Candida glabrata is slightly larger without a pseudocapsular halo and is distinguished definitively by culture."},
+    {"dx": "Phagocytosed nuclear debris / platelets", "vs": "Apoptotic fragments and platelets are irregular, lack a uniform halo and do not stain as fungal walls on GMS or PAS."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "1270",
+  "recognize_zh": "周邊血液中一群中型淋巴樣細胞，細胞質豐富淡藍、邊緣呈不規則毛狀突起，核圓至卵圓、染色質中等凝集，部分細胞可見單一小核仁，形態介於毛細胞與前淋巴球之間，符合毛細胞白血病變異型。",
+  "features": [
+    "Cluster of medium-to-large lymphoid cells",
+    "Low to moderate N:C ratio with abundant pale grey-blue cytoplasm",
+    "Irregular, ruffled cytoplasmic borders with fine hair-like projections",
+    "Round to oval nuclei with moderately condensed chromatin",
+    "Small but discernible single nucleolus in several cells",
+    "Background of normochromic red cells, some target-like, and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of medium to large lymphoid cells with abundant pale blue cytoplasm and irregular, hairy cytoplasmic margins. The nuclei are round to oval with moderately condensed chromatin, and a small distinct nucleolus is visible in several cells. The combination of hairy cytoplasmic outlines with nucleolated, more condensed nuclei differs from classic hairy cell leukemia. Flow cytometry (CD11c+, CD103+, CD25-negative, CD123 weak/negative) and absence of BRAF V600E would support the diagnosis. Findings are consistent with hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli).",
+  "ddx": [
+    {"dx": "Classic hairy cell leukemia", "vs": "Classic hairy cells have oval or bean-shaped nuclei with homogeneous, less condensed chromatin and no conspicuous nucleolus, and are CD25+/annexin A1+ with BRAF V600E."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells are smaller with scant cytoplasm and short polar villi rather than abundant circumferential hairy cytoplasm, and are CD103-negative."},
+    {"dx": "B-prolymphocytic leukemia", "vs": "Prolymphocytes have a prominent nucleolus but scant cytoplasm with smooth borders lacking hairy projections."},
+    {"dx": "Monocytes", "vs": "Monocytes have folded nuclei with lacy chromatin and vacuolated cytoplasm with fine granules, and are CD14+."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

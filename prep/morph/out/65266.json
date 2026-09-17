@@ -1,0 +1,21 @@
+{
+  "id": "65266",
+  "recognize_zh": "周邊血液抹片中單獨一顆比紅血球大的圓形細胞，核質比極高、染色質細緻均勻，細胞質只剩邊緣一圈，看起來是母細胞（blast）；但此圖核仁不清楚、也看不到顆粒，無法僅憑形態確認為骨髓母細胞。",
+  "features": [
+    "Single mononuclear cell roughly 1.5-2 times the diameter of adjacent red cells",
+    "Very high N:C ratio with a thin rim of cytoplasm, slightly broader on one side",
+    "Round to oval nucleus with finely dispersed, evenly stippled chromatin",
+    "Nucleoli and cytoplasmic azurophilic granules or Auer rods not discernible in this image",
+    "Background red cells without obvious poikilocytosis; intensely eosinophilic staining tone"
+  ],
+  "describe_en": "Peripheral blood smear shows a single circulating immature mononuclear cell among normocytic red cells. The cell is about twice the size of a red cell, with a very high nuclear-to-cytoplasmic ratio, a round nucleus with fine, open chromatin, and a scant rim of cytoplasm. Nucleoli, granules, and Auer rods are not clearly resolved, and the strong eosinophilic cast of the stain limits assessment of cytoplasmic basophilia. The cell has blast morphology, suggestive of a myeloblast; lineage should be confirmed by flow cytometry or cytochemistry.",
+  "ddx": [
+    {"dx": "Lymphoblast", "vs": "Lymphoblasts tend to be smaller with more condensed chromatin, inconspicuous nucleoli and no granules, and lineage is ultimately separated by MPO and flow cytometry (CD34/CD117/MPO vs TdT/CD19 or cCD3)."},
+    {"dx": "Reactive (large) lymphocyte", "vs": "Reactive lymphocytes have more abundant basophilic cytoplasm that scallops around red cells and coarser chromatin, rather than a scant rim with fine blastic chromatin."},
+    {"dx": "Promyelocyte", "vs": "Promyelocytes are larger with more cytoplasm containing abundant azurophilic granules and a perinuclear Golgi hof, features not seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (Romanowsky-type)",
+  "match": "consistent",
+  "high_yield": true
+}

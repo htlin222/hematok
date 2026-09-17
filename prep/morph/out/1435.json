@@ -1,0 +1,22 @@
+{
+  "id": "1435",
+  "recognize_zh": "骨髓抹片兩格：箭頭所指的顆粒球系細胞（含雙核、C 形核的帶狀核及較大前驅細胞）細胞質淡粉、幾乎沒有顆粒，與旁邊顆粒粗大的正常早幼粒細胞對比明顯，代表顆粒球發育異常（hypogranulation）。",
+  "features": [
+    "Myeloid cells (arrows) with abundant pale, agranular or markedly hypogranular cytoplasm",
+    "Left panel: arrowed cells include a binucleated/bilobed granulocytic precursor with pale cytoplasm",
+    "Right panel: agranular band-like cell with a C-shaped nucleus, and a large precursor with pale hypogranular cytoplasm (double arrows)",
+    "Internal control: a promyelocyte with normal coarse azurophilic granules for comparison (left panel, center)",
+    "Background erythroid precursors with dense nuclei and mixed maturing myeloid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear (two fields) shows granulocytic precursors with abundant pale, agranular to markedly hypogranular cytoplasm (arrows), including a binucleated precursor and an agranular band form with a C-shaped nucleus, in contrast to an adjacent promyelocyte with normal coarse azurophilic granules. Erythroid precursors and maturing myeloid elements are present in the background. Hypogranulation of neutrophil lineage cells is a recognized feature of dysgranulopoiesis; the findings support a myelodysplastic syndrome, consistent with the stated diagnosis of MDS with multilineage dysplasia when dysplasia is present in >=10% of cells of two or more lineages.",
+  "ddx": [
+    {"dx": "Smear or staining artifact (poor granule staining)", "vs": "Artifact affects all cells uniformly, whereas here adjacent promyelocytes retain well-stained coarse granules."},
+    {"dx": "Hypogranular acute promyelocytic leukemia (microgranular variant)", "vs": "Microgranular APL shows sheets of bilobed abnormal promyelocytes with dust-like granules and PML-RARA, not scattered dysplastic maturing cells."},
+    {"dx": "Drug or toxin effect (e.g., G-CSF, chemotherapy, mycophenolate)", "vs": "Drug-related dysgranulopoiesis is transient and lacks clonal cytogenetic or molecular abnormalities; clinical history is essential."},
+    {"dx": "Acquired or congenital neutrophil granule defects", "vs": "Isolated granule deficiency affects only mature neutrophils without dysplasia in other lineages."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "4111",
+  "recognize_zh": "骨髓抽吸抹片中成片的中型小圓藍細胞，核圓、染色質細顆粒狀、細胞質稀少，排列成群並埋在淡粉紅色纖維狀基質（neuropil）中，與周圍的造血細胞明顯不同，提示轉移性神經母細胞瘤。",
+  "features": [
+    "Clusters and sheets of small to medium round blue cells, larger than mature lymphocytes",
+    "Round to oval nuclei with finely granular, salt-and-pepper chromatin; nucleoli inconspicuous",
+    "Scant, ill-defined cytoplasm with nuclear crowding",
+    "Pale pink fibrillary background matrix (neuropil-like) between tumor cells",
+    "Residual normal hematopoietic cells and red cells at the periphery"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows large cohesive aggregates of small to medium-sized round cells with round nuclei, finely granular chromatin, inconspicuous nucleoli and scant cytoplasm, set within a pale pink fibrillary matrix. These cells are distinct from the scattered residual hematopoietic elements. Findings are suggestive of metastatic small round blue cell tumor, consistent with neuroblastoma in the appropriate clinical setting; confirmation with biopsy immunohistochemistry (PHOX2B, synaptophysin) and urine catecholamines is recommended.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts are discohesive single cells without fibrillary matrix and express TdT/CD34 rather than neuroendocrine markers."},
+    {"dx": "Ewing sarcoma", "vs": "Ewing cells often have vacuolated PAS-positive cytoplasm, lack neuropil and are CD99/NKX2.2 positive with EWSR1 rearrangement."},
+    {"dx": "Rhabdomyosarcoma (alveolar)", "vs": "Rhabdomyosarcoma cells may be multinucleated or vacuolated and express desmin/myogenin rather than PHOX2B."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

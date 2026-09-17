@@ -1,0 +1,21 @@
+{
+  "id": "63849",
+  "recognize_zh": "這是未染色的濕式玻片，加入 2% 偏亞硫酸氫鈉（sodium metabisulphite）去氧後，大多數紅血球變成新月形、鐮刀形或冬青葉狀（holly-leaf），代表鐮刀化試驗陽性，表示檢體含 HbS。",
+  "features": [
+    "Unstained wet preparation viewed by bright-field microscopy with refractile, pale green-grey red cells",
+    "Majority of red cells transformed into crescent, sickle and holly-leaf shapes with pointed projections",
+    "Some cells with filamentous tails and curved boat-like outlines",
+    "Only a minority of round, unsickled red cells remain",
+    "No staining; image resolution limits fine cellular detail"
+  ],
+  "describe_en": "Wet preparation of whole blood incubated with 2% sodium metabisulphite shows that most red cells have transformed into sickle, crescent and holly-leaf forms with pointed projections, with only occasional round cells remaining. This constitutes a positive sickling test, indicating the presence of HbS. The test does not distinguish sickle cell trait from HbSS, HbSC, HbS/beta-thalassemia or HbSD, so quantitation by HPLC or electrophoresis is required. In this index case, findings support an HbS-containing genotype, subsequently characterized as HbSD disease.",
+  "ddx": [
+    {"dx": "False-positive sickling from drying or crenation artifact", "vs": "Artifactual crenated or dried cells show spiculated echinocytes or randomly deformed cells at the slide edges without the uniform crescent and holly-leaf transformation seen after sealed deoxygenation."},
+    {"dx": "HbD or HbE without HbS", "vs": "HbD and HbE traits or homozygotes are sickling-negative, so a positive test requires an HbS (or rare HbC-Harlem) component."},
+    {"dx": "Sickle cell trait vs sickling disease", "vs": "Both yield positive sickling tests, and only hemoglobin fractionation (HbA > HbS in trait, no HbA in SS/SD/S-beta0) separates them."}
+  ],
+  "specimen": "PB",
+  "stain": "N/A (unstained wet preparation, sodium metabisulphite)",
+  "match": "consistent",
+  "high_yield": true
+}

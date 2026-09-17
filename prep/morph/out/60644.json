@@ -1,0 +1,21 @@
+{
+  "id": "60644",
+  "recognize_zh": "腦脊髓液抹片中成群的嗜中性球，細胞內外可見染成紅色的短桿菌，部分菌體兩端較深、中央較淡，呈雙極染色（安全別針樣），提示格蘭氏陰性桿菌腦膜炎。",
+  "features": [
+    "Cluster of neutrophils with segmented nuclei and abundant pale cytoplasm (neutrophilic pleocytosis)",
+    "Short, straight, red-staining (gram-negative) bacilli, both intracellular within neutrophils and extracellular",
+    "Several bacilli with darker staining at the poles and a paler center (bipolar or 'safety-pin' staining)",
+    "Background proteinaceous material with no red cells; monochrome red counterstain limits nuclear detail"
+  ],
+  "describe_en": "Cytocentrifuged cerebrospinal fluid stained with a Gram-type stain shows a cluster of neutrophils. Short gram-negative bacilli are present within the cytoplasm of several neutrophils and extracellularly, and some display accentuated staining at both ends with central clearing (bipolar staining). No yeast or gram-positive organisms are identified in this field. Findings are consistent with acute bacterial meningitis due to a gram-negative bacillus with bipolar staining (e.g., Yersinia, Pasteurella, Burkholderia, Enterobacterales); culture is required for identification.",
+  "ddx": [
+    {"dx": "Haemophilus influenzae meningitis", "vs": "H. influenzae are tiny pleomorphic coccobacilli rather than distinct rods with polar condensation."},
+    {"dx": "Neisseria meningitidis meningitis", "vs": "Meningococci are gram-negative kidney-shaped diplococci, whereas these organisms are elongated bacilli."},
+    {"dx": "Listeria monocytogenes meningitis", "vs": "Listeria are short gram-positive (purple) rods that may be decolorized but are typically sparse and often in a mononuclear-predominant fluid."},
+    {"dx": "Stain precipitate or cellular debris", "vs": "Precipitate is irregular in size and refractile, whereas bacteria are uniform rods of consistent width, many located within phagocytes."}
+  ],
+  "specimen": "CSF",
+  "stain": "Gram stain",
+  "match": "consistent",
+  "high_yield": false
+}

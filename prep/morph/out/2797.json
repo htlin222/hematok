@@ -1,0 +1,21 @@
+{
+  "id": "2797",
+  "recognize_zh": "骨髓切片被成片的小型淋巴細胞占據，免疫染色只有少數散在的細胞強陽性，絕大多數淋巴細胞為陰性；與 CD3 陽性切片對照，可推論這些淋巴細胞並非 B 細胞，支持 rituximab 後 T 細胞增生（marker 未標示）。",
+  "features": [
+    "Dense, diffuse infiltrate of small lymphoid cells with round to slightly indented nuclei",
+    "Nearly all infiltrating lymphocytes are negative for this immunostain",
+    "Rare scattered cells show strong brown cytoplasmic staining",
+    "Faint granular background staining in interstitial/stromal areas at the left edge",
+    "No atypical large cells or aggregates of positive cells identified"
+  ],
+  "describe_en": "Bone marrow core biopsy immunohistochemical stain (marker not labeled) shows a hypercellular field composed predominantly of small lymphoid cells with round to slightly indented nuclei. The infiltrating lymphocytes are essentially negative, with only rare scattered strongly positive cells and weak nonspecific stromal staining. Assuming a B-cell marker was used, this indicates marked paucity of B cells within the lymphoid infiltrate, supporting a non-B lineage. Findings are suggestive of rituximab-associated marrow T-cell hyperplasia, to be correlated with CD3 staining and clonality studies.",
+  "ddx": [
+    {"dx": "Residual B-cell lymphoma after anti-CD20 therapy", "vs": "Residual lymphoma would show clusters of PAX5 or CD79a-positive B cells despite possible CD20 loss, unlike the near-absent staining here."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "PTCL shows cytologic atypia, aberrant T-cell phenotype and clonal TCR rearrangement rather than bland small T cells."},
+    {"dx": "Reactive lymphoid aggregates of other causes", "vs": "Ordinary reactive aggregates are focal, well-circumscribed and contain a mixture of B and T cells, not a diffuse B-cell-depleted infiltrate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (marker not labeled; likely B-cell marker)",
+  "match": "consistent",
+  "high_yield": false
+}

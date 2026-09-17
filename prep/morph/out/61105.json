@@ -1,0 +1,22 @@
+{
+  "id": "61105",
+  "recognize_zh": "周邊血可見多顆中小型淋巴球，核圓、染色質濃密、細胞質少而深藍，部分有細胞質突起；心肌切片中淋巴球沿心肌纖維間浸潤並伴隨心肌細胞破壞，免疫染色顯示浸潤細胞為 T 細胞，代表 T-PLL 侵犯心臟。",
+  "features": [
+    "PB (A): increased small to medium lymphocytes with round to slightly irregular nuclei, condensed chromatin and scant deeply basophilic cytoplasm; one cell with a cytoplasmic bleb",
+    "Nucleoli not resolvable at this image resolution",
+    "Heart (B): dense perivascular and interstitial lymphoid infiltrate dissecting between cardiomyocytes",
+    "Myocyte injury with separation and loss of fibers adjacent to the infiltrate",
+    "IHC (C-E): infiltrating cells strongly positive for T-cell-associated markers (antigens not labeled), in interstitial and perivascular distribution"
+  ],
+  "describe_en": "Composite figure. The peripheral blood smear shows an increase in small to medium-sized lymphocytes with round nuclei, condensed chromatin, scant basophilic cytoplasm and occasional cytoplasmic blebs; nucleoli cannot be assessed at this resolution. Sections of myocardium show a dense perivascular and interstitial lymphoid infiltrate dissecting between and damaging cardiomyocytes. Immunostains label the infiltrating cells in the same interstitial distribution, consistent with a T-cell phenotype. Findings are consistent with cardiac involvement by T-cell prolymphocytic leukemia, with the clinical correlate of heart failure.",
+  "ddx": [
+    {"dx": "Lymphocytic (viral) myocarditis", "vs": "Myocarditis contains a polyclonal mixed T-cell infiltrate without a concurrent leukemic population, TCL1 expression or clonal TRA/TRB rearrangement."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells have polylobated flower-shaped nuclei, are CD25 positive and HTLV-1 associated."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform nuclei and a history of erythroderma, and are TCL1 negative."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are B cells (CD19, CD20 dim, CD23, CD5) with soccer-ball chromatin and smudge cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "Wright-Giemsa, H&E, IHC",
+  "match": "consistent",
+  "high_yield": false
+}

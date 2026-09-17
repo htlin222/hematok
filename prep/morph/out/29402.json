@@ -1,0 +1,22 @@
+{
+  "id": "29402",
+  "recognize_zh": "影像上雙側股骨遠端與脛骨近端呈對稱性骨硬化並有 PET 與骨掃描高攝取，切片則是成片泡沫狀組織球（foamy histiocytes）且免疫染色瀰漫陽性，組合起來指向 Erdheim-Chester disease。",
+  "features": [
+    "Bilateral, symmetric increased tracer uptake in the distal femora and proximal tibiae on FDG-PET and bone scintigraphy (panels A, B)",
+    "Patchy intramedullary sclerosis of the distal femoral metadiaphysis on CT and abnormal marrow signal in the tibial diaphysis on MRI (panels C, D)",
+    "Sheets of large histiocytes with abundant foamy/xanthomatous vacuolated cytoplasm and small bland round nuclei (panel E)",
+    "Interspersed fibrous stroma and scattered small lymphocytes; no significant atypia or mitoses",
+    "Diffuse strong cytoplasmic immunoreactivity of the histiocytes for a histiocytic marker (panel F; marker not labeled)"
+  ],
+  "describe_en": "Composite figure: whole-body FDG-PET and technetium bone scan show bilateral, symmetric increased uptake in the metadiaphyseal regions of the distal femora and proximal tibiae, with corresponding patchy medullary sclerosis on CT and abnormal marrow signal on MRI. Biopsy sections show a diffuse infiltrate of large histiocytes with abundant foamy, finely vacuolated cytoplasm and small, bland nuclei in a fibrotic background with scattered lymphocytes. The histiocytes are diffusely positive by immunohistochemistry (marker not specified in the image). Findings are consistent with Erdheim-Chester disease; correlation with CD1a/langerin negativity and BRAF V600E (or other MAPK pathway) testing is recommended.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH shows grooved, reniform Langerhans cells with eosinophils and CD1a/langerin positivity, and typically lytic rather than symmetric sclerotic long-bone lesions."},
+    {"dx": "Rosai-Dorfman disease", "vs": "RDD histiocytes are S100-positive with pale abundant cytoplasm showing emperipolesis, rather than lipid-laden foamy cells in a fibrotic stroma."},
+    {"dx": "Xanthogranulomatous osteomyelitis / reactive xanthoma", "vs": "Reactive lesions are usually unifocal with infection or cholesterol-rich injury context and lack the bilateral symmetric diaphyseal osteosclerosis and MAPK mutations."},
+    {"dx": "Gaucher disease", "vs": "Gaucher cells have fibrillary 'crumpled tissue paper' cytoplasm rather than clear vacuolated foamy cytoplasm, with low glucocerebrosidase activity."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, IHC (histiocytic marker); PET/bone scan/CT/MRI",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60868",
+  "recognize_zh": "B 圖抹片中的芽細胞中大型、核偏心、染色質細緻，胞質灰藍無顆粒並常呈偏向一側的「手鏡樣」突起；C 圖 TCL1 強陽性、D 圖 CD4 膜陽性，E 流式顯示 CD4+CD56+CD123 亮陽性的族群，符合 BPDCN。",
+  "features": [
+    "Panel A (H&E biopsy): hypercellular marrow with diffuse sheets of medium-sized mononuclear cells with fine chromatin replacing normal elements",
+    "Panel B (aspirate): medium-to-large blasts with eccentric round to oval nuclei, fine chromatin, small nucleoli and moderate agranular gray-blue cytoplasm with tail-like/pseudopod projections",
+    "Panel C: strong diffuse nuclear and cytoplasmic TCL1 immunostaining of the infiltrate",
+    "Panel D: membranous CD4 staining of most infiltrating cells",
+    "Panel E: flow cytometry showing a distinct CD45-dim population with bright CD123 and CD4 plus CD56 and HLA-DR expression; a separate monocytic population is present, consistent with coexisting CMML (plot labels poorly legible)"
+  ],
+  "describe_en": "Composite figure. The bone marrow biopsy (A) is hypercellular with a diffuse infiltrate of medium-sized blastic cells, and the aspirate smear (B) shows blasts with eccentric nuclei, fine chromatin, small nucleoli and moderate agranular gray-blue cytoplasm with pseudopod-like projections. Immunohistochemistry demonstrates strong TCL1 (C) and membranous CD4 (D) expression. Flow cytometry (E) identifies a CD45-dim blast population expressing bright CD123, CD4, CD56 and HLA-DR, alongside a separate maturing monocytic population; axis labels are only partially legible at this resolution. Findings are consistent with blastic plasmacytoid dendritic cell neoplasm, reportedly arising in association with chronic myelomonocytic leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Monoblastic AML can be CD4+/CD56+ but is lysozyme/CD11c/CD14 positive and lacks the TCL1, CD303 (BDCA-2) and TCF4 co-expression of BPDCN."},
+    {"dx": "Mature plasmacytoid dendritic cell proliferation associated with CMML", "vs": "MPDCP forms nodules of mature-appearing pDCs that are CD123+ but usually CD56 negative and TdT negative, without blastic morphology or diffuse marrow replacement."},
+    {"dx": "Extranodal NK/T-cell lymphoma or NK-cell leukemia", "vs": "NK neoplasms are CD56+ but CD4 and CD123 negative, with cytotoxic granules and EBER positivity."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL is cytoplasmic CD3 and TdT positive and lacks bright CD123/TCL1/CD303 co-expression."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC: TCL1, CD4; flow cytometry",
+  "match": "consistent",
+  "high_yield": true
+}

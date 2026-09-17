@@ -1,0 +1,21 @@
+{
+  "id": "62716",
+  "recognize_zh": "母細胞 gate 的 CD117 對 CD34 流式圖：大多數母細胞 CD34 陰性到弱，CD117 從陰性到約 10^4 連續性部分表現；另有一小群 CD34 強陽性、CD117 部分陽性的細胞。",
+  "features": [
+    "Dot plot gated on blasts: CD117-APC (x) versus CD34-PC7 (y), log scales",
+    "Dominant population CD34 negative to dim (<10^3)",
+    "CD117 heterogeneous, negative to dim-moderate (up to ~10^4) on the dominant population",
+    "Minor CD34-bright (~10^4) subset with variable CD117, including CD34+CD117+ cells",
+    "No discrete CD117-bright (mast cell-level) population"
+  ],
+  "describe_en": "Flow cytometric dot plot of the blast gate displays CD117 versus CD34. Most blasts are CD34 negative to dim with heterogeneous dim-to-moderate CD117 expression, and a minor CD34-bright subset shows variable CD117. Partial CD117 expression supports an immature myeloid-associated phenotype but is not lineage defining. Findings are compatible with the myeloid-associated component of the reported mixed phenotype acute leukemia, B/myeloid; myeloid lineage assignment requires MPO or monocytic differentiation markers.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "AML lacks the strong CD19 with CD79a, CD22 or CD10 required for the B component, which must be evaluated on other tubes."},
+    {"dx": "B-lymphoblastic leukemia with myeloid-associated antigens", "vs": "B-ALL may express CD117/CD13/CD33, but without MPO or monocytic differentiation it is not MPAL."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL is also CD117/CD34 positive but expresses cytoplasmic CD3 and CD7, which are not features of B/myeloid MPAL."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

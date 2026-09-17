@@ -1,0 +1,22 @@
+{
+  "id": "61432",
+  "recognize_zh": "穿刺切片（A、B）可見大型異型淋巴細胞瀰漫性片狀浸潤、核多形且深染；C–F 為瀰漫強陽性的膜/胞質染色、G–I 為核染色，符合免疫表型組合圖中的瀰漫性大B細胞淋巴瘤（DLBCL）。面板未標註抗體名稱，無法從圖中指認哪一格是 CD31。",
+  "features": [
+    "Core biopsy with diffuse, sheet-like effacement by atypical lymphoid cells (A, x100)",
+    "Large cells with pleomorphic, hyperchromatic, irregular nuclei and scant to moderate cytoplasm; scattered crush artifact (B, x400)",
+    "Panels C-F: diffuse, strong membranous/cytoplasmic staining in nearly all tumor cells, sparing vessels",
+    "Panels G-I: nuclear stains of variable intensity and extent (G weak-moderate, H strong in many cells, I patchy)",
+    "Antibody names are not labeled on the panels, so specific markers (including CD31) cannot be assigned from the image"
+  ],
+  "describe_en": "Needle core biopsy shows diffuse effacement by sheets of large atypical lymphoid cells with pleomorphic, hyperchromatic nuclei (A, B). Immunohistochemistry panels show diffuse strong membranous/cytoplasmic reactivity in the tumor cells (C-F) and nuclear staining of variable extent (G-I); the individual antibodies are not labeled in this figure. Per the provided history, the tumor shows strong aberrant CD31 expression with an activated B-cell (non-germinal center) profile. Findings are consistent with diffuse large B-cell lymphoma, NOS, with aberrant CD31 expression.",
+  "ddx": [
+    {"dx": "Angiosarcoma / epithelioid vascular tumor", "vs": "CD31 positivity may suggest a vascular neoplasm, but the discohesive lymphoid sheets with CD20/PAX5 and CD45 expression and absence of ERG/vasoformative channels support lymphoma."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows hallmark cells with uniform strong CD30 and loss of B-cell antigens, whereas DLBCL expresses CD20/PAX5."},
+    {"dx": "Poorly differentiated carcinoma", "vs": "Carcinoma forms cohesive nests and is keratin-positive and CD45/CD20-negative."},
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma consists of blasts with fine chromatin expressing MPO, CD117 or lysozyme rather than B-cell markers."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC panel (antibodies unlabeled)",
+  "match": "partial",
+  "high_yield": false
+}

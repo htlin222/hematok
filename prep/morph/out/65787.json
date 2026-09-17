@@ -1,0 +1,22 @@
+{
+  "id": "65787",
+  "recognize_zh": "這是流式細胞儀散佈圖，不是形態學影像：主要紅色群 CD4 與 CD8 皆陰性（雙陰性約 96.6%），且 TCRγδ 陽性、CD7 陽性；另外棕色 CD56+ 大顆粒淋巴球小群亦為 CD4/CD8 陰性為主。γδ T 細胞、雙陰性，符合肝脾 T 細胞淋巴瘤的免疫表型。",
+  "features": [
+    "Plot 1: sCD3 versus CD56 on mononuclear cells, with a small CD56-positive, CD3-low LGL gate (brown) separate from the dominant CD3-positive population (red)",
+    "Plot 2: dominant red population is CD4 negative/CD8 negative (lower-left quadrant ~96.6%); residual CD4+ and CD8+ normal T cells in blue",
+    "Plot 3: red population is TCR gamma-delta positive and CD7 positive, separated from TCR gamma-delta negative normal T cells",
+    "Plot 4: the CD56-positive LGL gate is predominantly CD4/CD8 double negative (~91%) with a small CD8-positive fraction",
+    "CD56 appears negative on the dominant red population"
+  ],
+  "describe_en": "This figure shows flow cytometry plots rather than a morphologic image. The dominant abnormal population (red) is surface CD3 positive, TCR gamma-delta positive and CD7 positive, and lacks both CD4 and CD8 (double negative in approximately 96% of events), with residual normal CD4 and CD8 T cells visible as minor populations. A small CD56-positive large granular lymphocyte gate is also mostly CD4/CD8 double negative. A marked expansion of CD4/CD8 double-negative gamma-delta T cells is abnormal and, together with clinical and genetic findings (isochromosome 7q, trisomy 8), is consistent with hepatosplenic T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Reactive gamma-delta T-cell expansion", "vs": "Reactive gamma-delta expansions are usually modest, polyclonal by TCR gene analysis, and lack i(7q) and aberrant antigen loss."},
+    {"dx": "T-cell large granular lymphocytic leukemia, gamma-delta type", "vs": "Gamma-delta T-LGL is typically CD57 and CD8 positive with granular morphology and lacks isochromosome 7q."},
+    {"dx": "Primary cutaneous gamma-delta T-cell lymphoma", "vs": "This entity presents with skin lesions and is often CD56 positive and cytotoxic-granule rich without hepatosplenic sinusoidal disease."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "NK cells lack surface CD3 and TCR gamma-delta, are CD56 positive and are EBV associated."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

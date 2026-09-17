@@ -1,0 +1,22 @@
+{
+  "id": "1282",
+  "recognize_zh": "骨髓抹片中有兩顆大型非典型細胞，核偏心、染色質細緻、可見小核仁，細胞質深藍且外緣有少量細小紅紫色顆粒，與右側較小的造血細胞明顯不同；此為可疑淋巴瘤細胞，但形態上無法確定為 NK/T 譜系。",
+  "features": [
+    "Two large atypical cells, much larger than neighboring hematopoietic cells",
+    "Moderate N:C ratio with eccentrically placed round nuclei",
+    "Finely granular chromatin with small nucleoli",
+    "Deeply basophilic cytoplasm with a faint paler perinuclear zone and sparse fine azurophilic granules",
+    "Background of residual myeloid cells, a neutrophil and clumped red cells in a thick, poorly spread area"
+  ],
+  "describe_en": "Bone marrow aspirate smear, in a thick and suboptimally spread area, shows two large atypical cells among residual hematopoietic elements. The cells have eccentric round nuclei with fine chromatin and small nucleoli, and abundant deeply basophilic cytoplasm containing sparse fine azurophilic granules. Their appearance is plasmablast-like, and lineage cannot be assigned on morphology alone. Immunophenotyping (cytoplasmic CD3, CD56, cytotoxic markers, CD138) and EBER in situ hybridization are required. Findings are suggestive of marrow involvement by lymphoma, compatible with extranodal NK/T-cell lymphoma in the clinical context.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma or plasma cell neoplasm", "vs": "Plasmablastic cells can look identical with eccentric nuclei and basophilic cytoplasm; they are CD138/MUM1-positive and CD56 may overlap, so immunostaining is essential."},
+    {"dx": "Proerythroblasts", "vs": "Proerythroblasts have very dark blue cytoplasm with blebs and centrally placed round nuclei, lack azurophilic granules and are CD71/E-cadherin positive."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts have finer blast chromatin, may show Auer rods and express MPO/CD34/CD117 rather than cytoplasmic CD3 and CD56."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Morphologically similar; the distinction is clinical (systemic leukemic presentation) rather than cytologic."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

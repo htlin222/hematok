@@ -1,0 +1,21 @@
+{
+  "id": "3488",
+  "recognize_zh": "骨髓切片免疫染色中，占滿骨髓腔的單調細胞大多呈細緻的細胞膜（membranous）棕色染色，骨小樑為陰性，顯示腫瘤細胞廣泛浸潤；抗體名稱未標示，膜型分布可見於 CD138 等漿細胞標記。",
+  "features": [
+    "Diffuse infiltrate of monotonous cells occupying the entire marrow space",
+    "Weak to moderate, predominantly membranous brown staining in most cells",
+    "Some cells show accentuated staining at cell junctions and focal cytoplasmic staining",
+    "Bony trabecula (lower left) negative",
+    "Antibody not specified in the image"
+  ],
+  "describe_en": "Immunohistochemical stain of the bone marrow biopsy shows a diffuse, sheet-like infiltrate replacing the marrow space. The majority of cells show weak to moderate membranous staining with focal cytoplasmic accentuation, and the bony trabecula is negative. The antibody is not specified; the membranous pattern in nearly all cells is compatible with a plasma cell marker such as CD138. In context, findings support extensive marrow involvement by plasma cell myeloma, with light chain and IgD heavy chain stains required to show clonality.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis", "vs": "Reactive plasma cells are scattered interstitially or perivascularly in small numbers and are polytypic, not diffuse sheets."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are CD20/PAX5 positive and usually CD138 negative, whereas myeloma sheets are CD138 positive and CD20 negative."},
+    {"dx": "Metastatic carcinoma", "vs": "CD138 can stain carcinomas, but carcinoma forms cohesive nests and is cytokeratin positive, so a keratin stain resolves the question."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: marker not specified",
+  "match": "consistent",
+  "high_yield": false
+}

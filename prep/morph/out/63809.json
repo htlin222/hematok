@@ -1,0 +1,21 @@
+{
+  "id": "63809",
+  "recognize_zh": "PD-L1 免疫染色中，大部分大型腫瘤細胞呈強而完整的棕色細胞膜與細胞質陽性，形成網狀外觀，僅少數區域較淡，屬於 PD-L1 高度表現，常見於具霍奇金特徵的縱膈淋巴瘤。",
+  "features": [
+    "Strong, diffuse membranous and cytoplasmic PD-L1 staining in the majority of large tumor cells",
+    "Complete circumferential membrane staining producing a honeycomb/chicken-wire pattern",
+    "Tumor nuclei appear as pale, unstained round spaces within the brown staining",
+    "Occasional small, intensely positive dot-like or cellular foci, possibly macrophages or cross-cut membranes",
+    "Focal areas with weaker staining at the right upper field"
+  ],
+  "describe_en": "Immunohistochemical stain for PD-L1 shows strong, diffuse membranous and cytoplasmic staining in the majority of large tumor cells, producing a honeycomb pattern around unstained nuclei, with only focal areas of weaker staining. Admixed histiocytes may contribute to some of the positivity, which cannot be fully separated at this resolution. High PD-L1 expression is characteristic of lymphomas with 9p24.1 (PD-L1/PD-L2) alterations, including classic Hodgkin lymphoma, primary mediastinal large B-cell lymphoma and mediastinal gray zone lymphoma, and provides a rationale for PD-1 blockade.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "Usually shows PD-L1 in only a minority of tumor cells, with positivity largely confined to tumor-associated macrophages."},
+    {"dx": "Histiocyte-rich infiltrate mimicking tumor positivity", "vs": "PD-L1-positive macrophages have smaller, bean-shaped nuclei and irregular cytoplasm, and double staining with PAX5 or CD68 separates them."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "Also frequently strongly PD-L1 positive; distinction from gray zone lymphoma rests on morphology and CD15/CD30/CD20 profile rather than PD-L1."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PD-L1",
+  "match": "consistent",
+  "high_yield": false
+}

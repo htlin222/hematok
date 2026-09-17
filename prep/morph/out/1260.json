@@ -1,0 +1,22 @@
+{
+  "id": "1260",
+  "recognize_zh": "在淡藍色的造血/淋巴背景中，可見成群的大型上皮樣細胞呈強烈棕色細胞質染色（黑色素細胞標記免疫染色），與周圍小淋巴球截然不同，支持轉移性黑色素瘤。",
+  "features": [
+    "Cohesive clusters and sheets of large, pleomorphic tumor cells with strong brown cytoplasmic immunoreactivity",
+    "Tumor cells much larger than background cells, with abundant cytoplasm and occasional prominent nuclei visible through the stain",
+    "Scattered single positive cells infiltrating between background cells",
+    "Background of small hematolymphoid cells with hematoxylin counterstain that are negative",
+    "Low-power field; the specific antibody is not labeled and marrow landmarks (trabeculae, fat) are not seen in this field"
+  ],
+  "describe_en": "Immunohistochemical stain shows clusters and sheets of large, pleomorphic tumor cells with strong cytoplasmic positivity (brown chromogen), infiltrating a background of small, negative hematolymphoid cells. Scattered single positive cells extend away from the main clusters. The antibody is not specified, but in context the staining pattern is that of a melanocytic marker (e.g., Melan-A, HMB-45, SOX10 or S100). Bony trabeculae are not included in this field, so the site cannot be confirmed from the image alone. Findings are consistent with metastatic melanoma involving the bone marrow.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells are keratin positive and negative for melanocytic markers such as SOX10, Melan-A and HMB-45."},
+    {"dx": "Hemosiderin- or pigment-laden macrophages", "vs": "Macrophages are CD68/CD163 positive, lack melanocytic markers, and granular brown pigment on H&E stains blue with Prussian blue if it is hemosiderin."},
+    {"dx": "Anaplastic large cell lymphoma or other large cell lymphoma", "vs": "Lymphomas express CD45 and lineage markers (e.g., CD30, ALK, CD20) and are negative for melanocytic markers."},
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytic sarcoma is CD163/CD68/lysozyme positive and S100 may be focal, but it lacks HMB-45 and Melan-A expression."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: melanocytic marker (antibody not specified)",
+  "match": "consistent",
+  "high_yield": false
+}

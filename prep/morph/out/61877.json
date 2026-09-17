@@ -1,0 +1,23 @@
+{
+  "id": "61877",
+  "recognize_zh": "流式細胞圖中紅色原始細胞群 cMPO、cCD79a、CD19、CD34 皆陰性，而 CD7 強陽性、胞質與表面 CD3 陽性，並表現 CD1a、CD2、CD5、CD99，且 CD4 與 CD8 共同陽性，呈皮質胸腺細胞表型，確立 T 淋巴母細胞白血病/淋巴瘤（T-ALL/LBL）。",
+  "features": [
+    "Blast gate (red, P5) negative for cytoplasmic MPO and cytoplasmic CD79a, and CD19 negative",
+    "CD34 negative blasts",
+    "Bright CD7 with cytoplasmic CD3 positivity and variable surface CD3 expression",
+    "CD1a, CD2 and CD5 positive",
+    "CD99 positive, supporting immaturity",
+    "CD4/CD8 double-positive population, a cortical thymocyte phenotype"
+  ],
+  "describe_en": "Multiparameter flow cytometry plots show that the abnormal blast population (red) is negative for lineage-defining myeloid and B-cell markers (cytoplasmic MPO, cytoplasmic CD79a, CD19) and for CD34. The blasts express bright CD7, cytoplasmic CD3 with variable surface CD3, CD2, CD5, CD1a and CD99, and show CD4 and CD8 co-expression. Residual normal lymphocytes (blue) and granulocytes (green) serve as internal controls. This cortical thymocyte immunophenotype is diagnostic of T-lymphoblastic leukemia/lymphoma, cortical stage, and explains the Burkitt-like vacuolated blasts seen morphologically.",
+  "ddx": [
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL is CD1a and CD8 negative with dim or absent CD5 and expresses stem/myeloid markers (CD34, CD117, HLA-DR, CD13/CD33), unlike these CD1a-positive, CD4/CD8 double-positive blasts."},
+    {"dx": "Thymoma-associated immature T cells", "vs": "Thymocytes in thymoma show a smeared, continuous maturation pattern of CD4/CD8 and CD3 without aberrant antigen loss, and occur with an epithelial thymic mass."},
+    {"dx": "Mature T-cell lymphoma/leukemia (e.g., T-PLL)", "vs": "Mature T-cell neoplasms are TdT, CD1a and CD99 negative with surface CD3, and are usually CD4 or CD8 single positive."},
+    {"dx": "Mixed-phenotype acute leukemia, T/myeloid", "vs": "T/myeloid MPAL requires myeloid lineage evidence such as MPO expression, which is negative here."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

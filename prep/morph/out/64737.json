@@ -1,0 +1,20 @@
+{
+  "id": "64737",
+  "recognize_zh": "低倍下幾乎整片腫瘤細胞都呈棕色陽性，陽性以細胞質內點狀、顆粒狀為主，均勻遍佈全片，顯示瀰漫的 CD138 表現，支持腫瘤由漿細胞構成（漿細胞瘤）。",
+  "features": [
+    "Diffuse positivity in virtually all tumor cells across the field",
+    "Staining is predominantly dot-like to granular cytoplasmic rather than crisp membranous at this low power",
+    "Monotonous, densely packed cell population without intervening negative tissue",
+    "Occasional thin vessels and small empty spaces"
+  ],
+  "describe_en": "CD138 immunohistochemistry at low magnification shows diffuse positivity in essentially all cells of the tumor sheet. The staining in this image appears as fine dot-like or granular cytoplasmic positivity of moderate intensity rather than the strong membranous pattern usually seen, which may reflect fixation or the low magnification and should be interpreted alongside the positive and negative controls. Supported by the plasmacytoid morphology on H&E, the findings are consistent with a plasma cell neoplasm; kappa/lambda restriction studies are recommended to confirm clonality.",
+  "ddx": [
+    {"dx": "Carcinoma (CD138 positive)", "vs": "CD138 also stains many carcinomas, so keratin negativity and light-chain restriction are needed to confirm plasma cell origin."},
+    {"dx": "Plasmablastic lymphoma or ALK-positive large B-cell lymphoma", "vs": "These are also CD138 positive but show large blastic cells with prominent nucleoli on H&E, a high Ki-67 index, and EBER or ALK positivity respectively."},
+    {"dx": "Reactive plasma cell infiltrate", "vs": "Reactive infiltrates are mixed with other inflammatory cells and are polytypic for kappa and lambda rather than forming a pure monotonous sheet."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD138",
+  "match": "consistent",
+  "high_yield": false
+}

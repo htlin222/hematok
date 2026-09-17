@@ -1,0 +1,20 @@
+{
+  "id": "61723",
+  "recognize_zh": "這是 blast gate 的 HLA-DR 對 CD38 流式圖：綠色異常芽細胞群 HLA-DR 陽性、CD38 陰性至弱陽性，與上方紅色 CD38 較亮的正常前驅細胞區隔；BPDCN 芽細胞常呈 HLA-DR 陽性並伴隨 CD38 表現偏弱。",
+  "features": [
+    "Dot plot: HLADR-PB (x-axis) versus CD38-APC750 (y-axis), gated on blasts",
+    "Abnormal population (green) HLA-DR-positive at moderate intensity",
+    "Green population CD38-negative to dim",
+    "Residual normal progenitors (red) HLA-DR-positive with brighter CD38, positioned above the green cluster",
+    "Scattered red CD38-variable/HLA-DR-negative events and rare blue lymphoid events"
+  ],
+  "describe_en": "Flow cytometric dot plot of HLA-DR versus CD38 gated on blasts shows the abnormal population (green) to be HLA-DR-positive with negative to dim CD38. Residual normal progenitors (red) co-express HLA-DR with brighter CD38 and sit above the abnormal cluster, providing internal contrast. HLA-DR positivity is expected in blastic plasmacytoid dendritic cell neoplasm, and decreased CD38 relative to normal progenitors is an aberrant feature supporting a neoplastic population. Interpretation requires integration with CD4, CD56, bright CD123 and absent lineage markers.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "AML blasts are often HLA-DR+ with variable CD38 but express CD34/CD117 and CD13/CD33, which this population lacks on companion plots."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL blasts are characteristically HLA-DR-negative with high side scatter and bright CD33, the opposite of this HLA-DR-positive population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

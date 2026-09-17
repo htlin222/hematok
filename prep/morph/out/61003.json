@@ -1,0 +1,22 @@
+{
+  "id": "61003",
+  "recognize_zh": "骨髓切片高倍下幾乎全是密集的骨髓系細胞，從帶有核仁的卵圓核前驅細胞到彎曲或分葉核的成熟中嗜中性球都有，沒有脂肪；這代表顆粒球系明顯增生，但單憑此圖無法確立非典型慢性骨髓性白血病（aCML），須配合血片發育不良與 BCR::ABL1 陰性。",
+  "features": [
+    "Markedly hypercellular marrow with sheets of granulocytic lineage cells and no intervening fat",
+    "Spectrum of maturation: oval to indented nuclei with small nucleoli (promyelocytes/myelocytes) through band and segmented forms",
+    "Moderate eosinophilic granular cytoplasm in many cells",
+    "Scattered erythroid precursors with round dark nuclei; megakaryocytes not evident in this field",
+    "Numerous interstitial red cells; no sheets of blasts identifiable at this power"
+  ],
+  "describe_en": "Bone marrow biopsy section at high power shows a markedly hypercellular marrow composed predominantly of granulocytic cells displaying a full spectrum of maturation from myelocytes with oval, indented nuclei and small nucleoli to band and segmented forms. Erythroid precursors are relatively few, megakaryocytes are not present in this field, and no fat is seen. There are no obvious sheets of blasts, although precise blast enumeration requires aspirate and CD34 immunostaining. The findings represent marked granulocytic hyperplasia, which in the context of BCR::ABL1-negative leukocytosis with dysgranulopoiesis is consistent with atypical CML (MDS/MPN with neutrophilia).",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "Morphologically similar hypercellularity but with small hypolobated megakaryocytes, basophilia and a BCR::ABL1 fusion; requires cytogenetic/molecular testing."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL shows mature neutrophils without significant dysgranulopoiesis or circulating immature granulocytes (<10%) and usually carries CSF3R mutation."},
+    {"dx": "Reactive granulocytic hyperplasia (infection, G-CSF)", "vs": "Reactive hyperplasia lacks dysplasia and clonal cytogenetic/molecular abnormalities and resolves with the underlying cause."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows persistent absolute monocytosis >=0.5 x 10^9/L comprising >=10% of WBC, which aCML lacks."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

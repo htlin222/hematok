@@ -1,0 +1,23 @@
+{
+  "id": "62784",
+  "recognize_zh": "皮膚切片真皮內有結節狀淋巴球浸潤（A、B），免疫染色顯示兩種不同分布：一群為邊界清楚的濾泡中心樣聚集（D），另一群染色細胞環繞在淡染的中心周圍（F–H），提示兩種 B 細胞族群並存，符合複合型 SLL 與皮膚濾泡中心淋巴瘤。",
+  "features": [
+    "Nodular and confluent dermal lymphoid infiltrates beneath an uninvolved epidermis at low power (A)",
+    "Dense sheets of predominantly small, dark lymphocytes with scant cytoplasm on H&E (B)",
+    "Diffuse strong staining of the nodular infiltrate with a B-cell-type marker (C)",
+    "Discrete, sharply circumscribed follicle-like aggregates highlighted by one marker at low power (D)",
+    "Scattered positive small cells (likely reactive T cells) intermixed with the infiltrate (E)",
+    "A second population staining strongly around pale, marker-negative central nodules, creating a rim/mantle-like pattern (F-H)"
+  ],
+  "describe_en": "Skin biopsy shows nodular and confluent dermal lymphoid infiltrates sparing the overlying epidermis. At higher power the infiltrate is composed predominantly of small lymphocytes with scant cytoplasm; cytologic detail of centrocytes/centroblasts is limited at this resolution. Immunohistochemistry (markers not labeled in the figure) shows a diffuse B-cell infiltrate, discrete follicle-like aggregates highlighted by one marker, scattered admixed positive small cells, and a separate population staining strongly around marker-negative central nodules, indicating two spatially distinct B-cell populations. Findings are consistent with a composite cutaneous lymphoma, small lymphocytic lymphoma and primary cutaneous follicle center lymphoma, pending correlation with the specific stains (e.g., CD5, CD23, LEF1 versus CD10, BCL6) and clonality studies.",
+  "ddx": [
+    {"dx": "Primary cutaneous marginal zone lymphoma", "vs": "Shows nodular infiltrates with reactive follicles colonized by CD5-/CD23-/BCL6- marginal zone cells and plasma cells, rather than a CD5+/CD23+/LEF1+ SLL population plus a BCL6+/CD10+ follicle center population."},
+    {"dx": "Cutaneous lymphoid hyperplasia (pseudolymphoma)", "vs": "Contains polyclonal reactive follicles with polarized germinal centers, tingible-body macrophages and a mixed T-cell-rich background, without an aberrant CD5+/CD23+ B-cell population or clonal light-chain restriction."},
+    {"dx": "Secondary cutaneous involvement by nodal follicular lymphoma", "vs": "Morphology can be identical; typically BCL2+ with t(14;18) and requires staging to exclude systemic disease, whereas primary cutaneous follicle center lymphoma is usually BCL2-negative or weak."},
+    {"dx": "Cutaneous mantle cell lymphoma", "vs": "Also CD5+ small B cells, but cyclin D1/SOX11 positive and CD23 negative, unlike SLL."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E and IHC panel (markers not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

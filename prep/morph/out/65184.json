@@ -1,0 +1,21 @@
+{
+  "id": "65184",
+  "recognize_zh": "周邊血液中血小板數量增加且有不少大型血小板；骨髓切片巨核細胞明顯增生，體積大、核過度分葉（staghorn 樣），加上 IGV 定序截圖顯示 MPL 基因座 G>C 變異（約 25% 等位頻率，W515S），支持原發性血小板增多症。",
+  "features": [
+    "Peripheral blood: increased platelets with frequent large platelets; red cells largely normochromic with mild anisocytosis",
+    "Bone marrow biopsy: megakaryocytic hyperplasia with large megakaryocytes having abundant cytoplasm and hyperlobated nuclei, loosely scattered",
+    "Background trilineage hematopoiesis with preserved fat, no sheets of blasts",
+    "IGV sequencing view of MPL (chr1:43,815,009) showing a G>C substitution in about 25% of reads (448 of 1761), corresponding to MPL W515S"
+  ],
+  "describe_en": "Peripheral blood smear shows thrombocytosis with many large platelets. The bone marrow biopsy shows megakaryocytic hyperplasia composed of large megakaryocytes with abundant cytoplasm and hyperlobated nuclei, dispersed among otherwise unremarkable trilineage hematopoiesis without overt fibrosis or increased blasts in this field. Next-generation sequencing (IGV display) reveals a G>C substitution in MPL at codon 515 in approximately 25% of reads, corresponding to W515S. Findings are consistent with essential thrombocythemia driven by a noncanonical MPL W515S mutation, missed by targeted W515L/K PCR.",
+  "ddx": [
+    {"dx": "Reactive thrombocytosis (iron deficiency)", "vs": "Reactive thrombocytosis shows normal-sized, normally lobated megakaryocytes without clustering of giant hyperlobated forms, and no clonal driver mutation."},
+    {"dx": "Prefibrotic primary myelofibrosis", "vs": "Pre-PMF shows hypercellularity with granulocytic proliferation and tight clusters of atypical megakaryocytes with hyperchromatic cloud-like nuclei rather than dispersed staghorn forms."},
+    {"dx": "Myelodysplastic syndrome with isolated del(5q)", "vs": "5q- syndrome may present with thrombocytosis but has small hypolobated (monolobated) megakaryocytes and macrocytic anemia."},
+    {"dx": "MDS/MPN with SF3B1 mutation and thrombocytosis", "vs": "This shows ≥15% ring sideroblasts on iron stain and dyserythropoiesis, whereas iron stores were decreased here without ring sideroblasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; NGS (IGV)",
+  "match": "consistent",
+  "high_yield": false
+}

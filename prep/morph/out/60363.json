@@ -1,0 +1,21 @@
+{
+  "id": "60363",
+  "recognize_zh": "G 帶染色核型圖標示 46,XX,t(9;22)(q34;q11.2)：箭頭指出 9 號染色體長臂多出一段（der(9)）與明顯變短的 22 號染色體（Philadelphia chromosome），即 BCR-ABL1 融合的細胞遺傳學證據。",
+  "features": [
+    "G-banded karyotype of a female cell (XX) with 46 chromosomes",
+    "Arrow on one chromosome 9 showing an altered, lengthened 9q (der(9)) from the reciprocal translocation",
+    "Arrow on one chromosome 22 showing a shortened 22q, the Philadelphia chromosome (der(22))",
+    "Karyotype designation printed: 46,XX,t(9;22)(q34;q11.2)",
+    "No additional numerical abnormalities evident in this cell"
+  ],
+  "describe_en": "This G-banded karyogram shows a female karyotype with 46 chromosomes and a balanced reciprocal translocation between the long arms of chromosomes 9 and 22 at bands q34 and q11.2, designated 46,XX,t(9;22)(q34;q11.2). The arrows highlight the derivative chromosome 9 and the shortened derivative chromosome 22 (Philadelphia chromosome), which carries the BCR-ABL1 fusion gene. No additional clonal abnormalities are apparent in this metaphase. In the setting of B-lymphoblastic leukemia, this finding defines B-ALL with t(9;22)(q34.1;q11.2); BCR-ABL1, an entity that usually expresses the p190 fusion transcript and is treated with tyrosine kinase inhibitors.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia in lymphoid blast phase", "vs": "Carries the same translocation; separation relies on history of a chronic phase, p210 transcript, splenomegaly and BCR-ABL1 in myeloid lineages rather than on the karyotype."},
+    {"dx": "Ph-like (BCR-ABL1-like) B-ALL", "vs": "Ph-like ALL has a similar gene-expression profile and kinase-activating lesions (e.g., CRLF2, ABL-class fusions) but lacks t(9;22) and BCR-ABL1 by FISH/RT-PCR."},
+    {"dx": "Mixed phenotype acute leukemia with t(9;22)", "vs": "Requires flow cytometric evidence of both B and myeloid (MPO) lineage in the blasts."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62441",
+  "recognize_zh": "視野中並列兩顆嗜中性球，每顆核都分成 6 葉以上，葉間以細染色質絲相連，背景紅血球偏大，符合巨母細胞性貧血的過度分葉嗜中性球。",
+  "features": [
+    "Two adjacent neutrophils, each with a nucleus of six or more lobes",
+    "Lobes connected by fine chromatin filaments; clumped mature chromatin",
+    "Cytoplasm with fine pink-lilac granules; no toxic granulation or Dohle bodies",
+    "Background red cells relatively large with some oval forms; a few platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows two neutrophils with marked nuclear hypersegmentation, each nucleus composed of six or more lobes connected by thin chromatin strands. Cytoplasmic granulation is unremarkable without toxic changes. Background erythrocytes appear relatively large with occasional oval forms. Findings are consistent with hypersegmented neutrophils, suggestive of megaloblastic anemia due to vitamin B12 or folate deficiency.",
+  "ddx": [
+    {"dx": "Normal segmented neutrophils", "vs": "Normal neutrophils have 3-4 lobes, and six or more lobes in any cell is abnormal."},
+    {"dx": "Drug-induced hypersegmentation (hydroxyurea, methotrexate, antimetabolites)", "vs": "Morphology is indistinguishable, so medication history and normal B12/folate levels are needed."},
+    {"dx": "Myelodysplastic neoplasm with dysgranulopoiesis", "vs": "MDS more often shows hypogranular or hyposegmented (pseudo-Pelger) neutrophils together with cytopenias and marrow dysplasia, and B12/folate are normal."},
+    {"dx": "Iron deficiency or renal failure-associated hypersegmentation", "vs": "Hypersegmentation can occur in these settings but with microcytic or normocytic red cells rather than macro-ovalocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

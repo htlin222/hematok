@@ -1,0 +1,21 @@
+{
+  "id": "14395",
+  "recognize_zh": "周邊血中一個比紅血球略大的淋巴樣細胞，核圓、染色質均勻，胞質淡藍灰色且整圈邊緣呈細毛狀突起（hairy projections），這是毛狀細胞白血病的毛狀細胞。",
+  "features": [
+    "Small to intermediate lymphoid cell, about 1.5–2 times a red cell diameter",
+    "Round, slightly eccentric nucleus with homogeneous, moderately condensed chromatin and no visible nucleolus",
+    "Moderate pale blue-gray cytoplasm",
+    "Fine, circumferential hair-like cytoplasmic projections along the cell border",
+    "Background red cells normochromic; no other leukocytes in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows an atypical lymphoid cell with a round nucleus, homogeneous chromatin without a visible nucleolus, and moderate pale blue-gray cytoplasm bearing fine circumferential hair-like projections. The surrounding red cells show no specific abnormality. Findings are consistent with a hairy cell; correlation with pancytopenia, monocytopenia, flow cytometry (CD11c, CD25, CD103, CD123, bright CD20) and BRAF V600E testing is recommended to confirm hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma (villous lymphocytes)", "vs": "Villous lymphocytes have short polar villi concentrated at one or both poles and are CD103 and CD25 negative."},
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-variant cells have a prominent central nucleolus and are CD25, CD123 and annexin A1 negative with wild-type BRAF."},
+    {"dx": "Smear or drying artifact on a normal lymphocyte", "vs": "Artifactual cytoplasmic fraying is uneven and seen in neighbouring cells, whereas hairy projections are fine, circumferential and reproducible in well-made areas."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

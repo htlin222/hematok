@@ -1,0 +1,22 @@
+{
+  "id": "65345",
+  "recognize_zh": "骨髓切片中大型巨噬細胞的細胞質塞滿大量大小一致、約 2–4 µm 的小圓點狀微生物（Leishman-Donovan bodies），整片呈泡沫狀，符合內臟利什曼原蟲症。",
+  "features": [
+    "Sheets of enlarged macrophages with pale, vacuolated cytoplasm",
+    "Innumerable small, uniform, round to oval intracellular organisms (about 2 to 4 µm) packing the macrophage cytoplasm",
+    "Organisms show a dark dot-like nucleus; kinetoplast not resolvable at this resolution",
+    "Some organisms appear extracellular, likely released from disrupted macrophages",
+    "Scattered dense lymphoid/stromal nuclei; hematopoietic elements markedly reduced in this field"
+  ],
+  "describe_en": "H&E-stained section of a bone marrow trephine shows sheets of enlarged macrophages whose vacuolated cytoplasm is packed with numerous small, uniform, round intracellular organisms, with some apparently extracellular forms. The kinetoplast cannot be clearly resolved on this H&E section, and residual hematopoiesis is sparse in this field. The appearance of parasitized macrophages is consistent with Leishman-Donovan bodies of visceral leishmaniasis. Confirmation by Giemsa-stained aspirate showing the nucleus and bar-shaped kinetoplast, CD1a immunostain, culture or PCR is recommended.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Yeasts are similar in size but lack a kinetoplast, show a pseudocapsular halo, and are GMS and PAS positive, whereas amastigotes are GMS negative."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Yeast-like cells divide by a central septum (fission) and stain with GMS, without a kinetoplast."},
+    {"dx": "Toxoplasma gondii", "vs": "Tachyzoites are crescent-shaped and lack a kinetoplast, and are identified by Toxoplasma immunostain."},
+    {"dx": "Trypanosoma cruzi amastigotes", "vs": "Morphologically identical, so geography, tissue tropism (cardiac muscle) and serology or PCR are required."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

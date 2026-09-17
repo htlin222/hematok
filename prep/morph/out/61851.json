@@ -1,0 +1,22 @@
+{
+  "id": "61851",
+  "recognize_zh": "S100 染色讓成片的大型卵圓腫瘤細胞呈強烈核與細胞質陽性，夾雜陰性的小淋巴球；S100 陽性支持樹突細胞系，需與 CD1a 陽性、Langerin 陰性合看以診斷不定型樹突細胞腫瘤。",
+  "features": [
+    "Diffuse sheets of large ovoid cells with strong nuclear and cytoplasmic S100 positivity",
+    "Abundant cytoplasm and oval nuclei outlined by the stain",
+    "Near-uniform intensity across the tumor population",
+    "Interspersed S100-negative small lymphocytes in paler zones",
+    "No emperipolesis discernible in this field"
+  ],
+  "describe_en": "Immunohistochemical stain for S100 shows strong, diffuse nuclear and cytoplasmic positivity in sheets of large ovoid tumor cells with abundant cytoplasm, with interspersed negative small lymphocytes. S100 expression supports dendritic cell lineage but does not distinguish among Langerhans, indeterminate, and interdigitating dendritic cell neoplasms or Rosai-Dorfman disease. Together with CD1a positivity and Langerin negativity, findings are consistent with indeterminate dendritic cell tumor.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH is also S100+/CD1a+ but Langerin (CD207)+, which separates it from Langerin-negative indeterminate cell tumor."},
+    {"dx": "Interdigitating dendritic cell sarcoma", "vs": "IDCS is strongly S100+ but CD1a and Langerin negative."},
+    {"dx": "Rosai-Dorfman disease", "vs": "RDD histiocytes are S100+ and show emperipolesis with CD1a negativity."},
+    {"dx": "Melanoma", "vs": "Melanoma is S100+ but also SOX10, HMB45, and Melan-A positive and lacks CD1a."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: S100",
+  "match": "consistent",
+  "high_yield": false
+}

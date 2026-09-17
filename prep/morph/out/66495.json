@@ -1,0 +1,21 @@
+{
+  "id": "66495",
+  "recognize_zh": "兩顆嗜中性球的細胞膜外圍一圈緊貼著多顆血小板，形成「花環／衛星」狀排列 (platelet satellitism)，背景游離血小板很少，可解釋自動計數的假性血小板低下 (pseudothrombocytopenia)。",
+  "features": [
+    "Two mature segmented neutrophils, each rimmed by a ring of adherent platelets (rosette)",
+    "Adherent platelets are small, granular and evenly spaced around the neutrophil membrane",
+    "Neutrophil nuclei and cytoplasm appear normal without toxic change",
+    "Few free platelets in the background",
+    "Normochromic red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows two mature neutrophils each surrounded by a circumferential rim of adherent platelets, forming platelet rosettes. The neutrophils themselves are morphologically unremarkable, and free platelets in the background are sparse. Red cells are normochromic and normocytic. Findings are consistent with platelet satellitism, an in vitro EDTA-dependent phenomenon causing spurious thrombocytopenia; repeat count in citrate or heparin, or a smear-based estimate, is recommended.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Clumping produces free-lying platelet aggregates in the smear, whereas satellitism shows platelets encircling individual neutrophils."},
+    {"dx": "True thrombocytopenia (e.g., ITP)", "vs": "True thrombocytopenia shows a genuinely low platelet count on the smear without rosettes, and the count does not correct in a non-EDTA anticoagulant."},
+    {"dx": "Neutrophil phagocytosis of platelets", "vs": "Phagocytosed platelets lie inside the neutrophil cytoplasm rather than adhering around the outer membrane."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

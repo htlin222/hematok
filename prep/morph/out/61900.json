@@ -1,0 +1,21 @@
+{
+  "id": "61900",
+  "recognize_zh": "以紅色複染的 EBER 原位雜交中，皮下脂肪小葉間與真皮的浸潤淋巴球有許多深藍黑色核訊號，代表 EBV 感染的淋巴細胞，這是診斷 HV 樣淋巴增生性疾病（HVLPD）的關鍵染色。",
+  "features": [
+    "Subcutaneous adipose tissue and deep dermal collagen with an interstitial lymphoid infiltrate",
+    "Many infiltrating small to medium lymphoid nuclei show dark blue-black nuclear signal",
+    "Pink/red counterstain typical of chromogenic ISH (e.g., NBT/BCIP with nuclear fast red)",
+    "Positive nuclei distributed between adipocytes and along septa and collagen bundles",
+    "Some elongated stromal nuclei also appear dark, so background staining cannot be fully excluded at this resolution"
+  ],
+  "describe_en": "EBER in situ hybridization with a red counterstain on a skin biopsy shows a lymphoid infiltrate involving the deep dermis and subcutaneous fat. Many infiltrating lymphoid cells show dark blue-black nuclear signal, distributed between adipocytes and along fibrous septa and collagen bundles. Some elongated stromal nuclei also appear dark, so interpretation should be confirmed against positive and negative controls. Findings indicate a substantial population of EBV-infected lymphocytes, consistent with hydroa vacciniforme-like lymphoproliferative disorder in the appropriate clinical and immunophenotypic context.",
+  "ddx": [
+    {"dx": "Subcutaneous panniculitis-like T-cell lymphoma", "vs": "SPTCL shows CD8-positive, beta F1-positive adipocyte rimming and is EBER negative, whereas this infiltrate contains many EBER-positive cells."},
+    {"dx": "Extranodal NK/T-cell lymphoma, cutaneous", "vs": "ENKTL is also EBER positive but shows angiocentric, angiodestructive growth with necrosis and CD56-positive cells, usually in adults without photodistributed vesiculopapules."},
+    {"dx": "Classic hydroa vacciniforme", "vs": "Classic HV may contain EBER-positive cells but is a self-limited childhood photodermatosis without systemic symptoms or persistent high EBV DNA load; distinction relies on clinical course rather than histology."}
+  ],
+  "specimen": "tissue",
+  "stain": "ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

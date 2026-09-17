@@ -1,0 +1,39 @@
+{
+  "id": "95",
+  "recognize_zh": "鐵染色（Prussian blue）可見大量紅血球母細胞的鐵顆粒環繞核周排列成環狀鐵粒母細胞（ring sideroblasts），加上抹片中多核與核型不規則的紅系前驅細胞、低顆粒嗜中性球及卵圓形巨紅血球，指向紅系與顆粒系皆有發育不良的 MDS-RS-MLD；CD34 染色未見母細胞增加。",
+  "features": [
+    "Prussian blue stain: numerous erythroid precursors with coarse iron granules arranged in a perinuclear ring (ring sideroblasts)",
+    "Dyserythropoiesis on aspirate: multinucleated (trinucleate) erythroblast, irregular/lobulated nuclear contours, megaloblastoid nuclear chromatin",
+    "Dysgranulopoiesis: hypogranular neutrophils with abnormal nuclear segmentation",
+    "Hypercellular marrow biopsy with erythroid predominance, many immature erythroid precursors, and scattered megakaryocytes including small hypolobated forms",
+    "Peripheral blood: oval macrocytes with anisocytosis; normal-appearing platelets",
+    "CD34 IHC highlights vessels and occasional megakaryocytes without an increase in CD34+ blasts; MRI shows a frontal lobe mass with edema (the PCNSL prompting staging)"
+  ],
+  "describe_en": "Peripheral blood smear shows macrocytic anemia with oval macrocytes and anisocytosis, with occasional hypogranular neutrophils. The bone marrow core biopsy is hypercellular for age with erythroid predominance, many immature erythroid precursors, and megakaryocytes that include small hypolobated forms; no lymphoma infiltrate is identified in the sections shown. The aspirate shows dyserythropoiesis (multinucleated and irregularly lobulated erythroblasts with megaloblastoid chromatin) and dysgranulopoiesis (hypogranular, abnormally segmented neutrophils). The iron stain demonstrates numerous ring sideroblasts, and CD34 immunohistochemistry shows no increase in blasts. Findings are consistent with myelodysplastic syndrome with ring sideroblasts and multilineage dysplasia (MDS-RS-MLD); the brain MRI documents the separate primary CNS lymphoma.",
+  "ddx": [
+    {"dx": "Congenital or acquired non-neoplastic sideroblastic anemia (copper deficiency, zinc toxicity, alcohol, isoniazid)", "vs": "Ring sideroblasts from toxic/nutritional causes usually lack granulocytic dysplasia and SF3B1 mutation, and copper deficiency often shows cytoplasmic vacuoles in precursors with a history of zinc exposure."},
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic change shows nuclear-cytoplasmic asynchrony with giant bands and hypersegmented neutrophils but not abundant ring sideroblasts, and it corrects with vitamin replacement."},
+    {"dx": "MDS with excess blasts or AML with erythroid predominance", "vs": "These require increased myeloblasts (>=5% marrow / >=20%), whereas CD34 staining here shows no blast increase."},
+    {"dx": "Marrow involvement by the patient's DLBCL", "vs": "Lymphoma involvement would show sheets or aggregates of large atypical B cells (CD20+), which are not seen in these sections."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, Prussian blue, IHC: CD34",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Axial T2 MRI: frontal lobe mass crossing toward the corpus callosum with surrounding edema (PCNSL)",
+    "PB: oval macrocytes and a neutrophil with hypogranular cytoplasm and abnormal lobation",
+    "PB: macrocytic red cells with a hypogranular, poorly segmented granulocyte",
+    "PB: macrocytes with a small mononuclear cell (lymphocyte)",
+    "BM biopsy, low power: hypercellular marrow for age",
+    "BM biopsy, high power: erythroid predominance with megakaryocytes",
+    "BM biopsy: erythroid precursors and small hypolobated megakaryocytes",
+    "BM biopsy, high power: numerous immature erythroid precursors with open chromatin",
+    "BM aspirate particle: cellular marrow with a large megakaryocyte",
+    "BM aspirate: erythroid precursors with irregular nuclear contours and hypogranular granulocytes",
+    "BM aspirate: trinucleate erythroblast (black arrow), dysplastic hypogranular neutrophil (yellow), megaloblastoid erythroblast (pink)",
+    "Prussian blue: numerous ring sideroblasts",
+    "CD34 IHC: vessels and a megakaryocyte stain; no increase in blasts",
+    "CD34 IHC: vessels and rare scattered positive cells without blast clusters"
+  ]
+}

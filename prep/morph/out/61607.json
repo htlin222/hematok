@@ -1,0 +1,21 @@
+{
+  "id": "61607",
+  "recognize_zh": "大型腫瘤細胞核呈淡藍、細胞本身完全不染 PD-1，只有少數小型背景 T 細胞呈棕色膜狀陽性，可作為內部陽性對照；代表漿母細胞淋巴瘤腫瘤細胞 PD-1 陰性。",
+  "features": [
+    "Sheet of medium-to-large tumor cells with round-to-oval vesicular nuclei",
+    "Tumor cells are negative for PD-1",
+    "Scattered small lymphocytes with membranous/granular PD-1 positivity (internal positive control)",
+    "Positive cells are sparse and not arranged in rosettes around tumor cells",
+    "Faint background cytoplasmic blush without specific staining"
+  ],
+  "describe_en": "Immunohistochemical stain for PD-1 shows a diffuse population of medium-to-large tumor cells with vesicular nuclei that are negative for PD-1. Only scattered small reactive lymphocytes show membranous to granular PD-1 staining, serving as an internal positive control, and they do not form rosettes around the neoplastic cells. The neoplastic cells therefore do not express PD-1, which argues against a T-follicular helper phenotype and is consistent with the plasmablastic lymphoma immunoprofile.",
+  "ddx": [
+    {"dx": "Nodal T-follicular helper cell lymphoma, angioimmunoblastic type", "vs": "Neoplastic cells are PD-1+/CD10+/CXCL13+ T cells with expanded FDC meshworks, whereas here PD-1 highlights only scattered background cells."},
+    {"dx": "Nodular lymphocyte-predominant B-cell lymphoma / THRLBCL", "vs": "PD-1+ T cells form rosettes around scattered large B cells, a pattern not seen here."},
+    {"dx": "Plasmablastic plasma cell myeloma", "vs": "Also PD-1-negative, so PD-1 does not help; separation relies on clinical, EBER and marrow findings."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: PD-1",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3305",
+  "recognize_zh": "骨髓抽吸抹片中一群巨核細胞緊密聚在一起，大片淡藍灰色細胞質互相重疊，細胞核圓形至少葉、大小不一，周圍夾雜被拉扯變形的細胞與棕色色素顆粒；多顆巨核細胞成簇（cluster）是評估骨髓增生性腫瘤的重要線索。",
+  "features": [
+    "Cluster of several megakaryocytes with overlapping abundant pale blue-grey cytoplasm",
+    "Nuclei round to hypolobated and variable in size, some appearing small relative to cytoplasm",
+    "Moderately condensed chromatin; no discrete nucleoli",
+    "Numerous admixed crushed and smeared hematopoietic cells with streaming artifact",
+    "Scattered brown refractile pigment granules, possibly hemosiderin"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of several megakaryocytes with overlapping, abundant pale blue-grey cytoplasm, admixed with densely packed and partly crushed hematopoietic cells. The megakaryocyte nuclei are variable in size and range from round to hypolobated. Scattered brown refractile pigment granules, possibly hemosiderin, are present, and smearing artifact limits detailed evaluation. Megakaryocyte clustering on the aspirate is nonspecific but should prompt evaluation for a myeloproliferative or myelodysplastic neoplasm by core biopsy architecture, reticulin stain and molecular testing.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "PMF shows tight clusters of atypical megakaryocytes with hyperchromatic, cloud-like nuclei on biopsy accompanied by reticulin or collagen fibrosis."},
+    {"dx": "Essential thrombocythemia", "vs": "ET megakaryocytes are giant with hyperlobulated staghorn nuclei in loose clusters, without significant fibrosis."},
+    {"dx": "Myelodysplastic neoplasm", "vs": "MDS megakaryocytes are small, hypolobated or with widely separated nuclei, accompanied by dysplasia in other lineages."},
+    {"dx": "Reactive megakaryocytic hyperplasia", "vs": "Reactive megakaryocytes are increased but dispersed and cytologically normal without true tight clusters."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

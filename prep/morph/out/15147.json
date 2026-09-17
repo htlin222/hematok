@@ -1,0 +1,23 @@
+{
+  "id": "15147",
+  "recognize_zh": "A、B 圖為真性紅血球增多症（PV）骨髓：明顯增生、三系皆增加（panmyelosis），巨核細胞大小不一且散在或鬆散成群；C、D 圖為 PV 後骨髓纖維化：造血細胞減少、巨核細胞核深染不規則成群，嗜銀纖維染色見粗大纖維與骨硬化。",
+  "features": [
+    "A: markedly hypercellular marrow with panmyelosis and increased, pleomorphic megakaryocytes including large hyperlobated forms, loosely clustered",
+    "B: immunostain with red chromogen highlighting abundant (likely erythroid) precursors, with unstained megakaryocytes and fat",
+    "C: post-PV myelofibrosis with fibrotic stroma, reduced hematopoiesis, streaming and clusters of atypical megakaryocytes with hyperchromatic, cloud-like nuclei",
+    "D: silver impregnation showing dense coarse reticulin/collagen fibers (grade 2-3) with thickened, sclerotic bone trabeculae (orange)",
+    "Dilated sinusoids and loss of fat in fibrotic phase"
+  ],
+  "describe_en": "Composite bone marrow biopsies. In the polycythemic phase (A), the marrow is hypercellular for age with trilineage proliferation (panmyelosis), prominent erythropoiesis and increased megakaryocytes of variable size, including large hyperlobated forms in loose clusters; an immunostain with red chromogen (B) highlights the expanded hematopoietic, likely erythroid, compartment. In post-polycythemic myelofibrosis (C), hematopoiesis is reduced and replaced by fibrotic stroma containing clusters of atypical megakaryocytes with hyperchromatic, irregular nuclei, and the silver stain (D) shows dense, coarse reticulin/collagen fibrosis with osteosclerotic trabeculae. Findings are consistent with polycythemia vera (A, B) progressing to post-PV myelofibrosis (C, D).",
+  "ddx": [
+    {"dx": "Primary myelofibrosis", "vs": "Prefibrotic PMF shows granulocytic rather than erythroid predominance with bulbous, hyperchromatic megakaryocytes in dense clusters, and overt PMF lacks a prior history of documented PV with erythrocytosis."},
+    {"dx": "Essential thrombocythemia", "vs": "ET marrow is normocellular with isolated proliferation of large to giant megakaryocytes with staghorn nuclei and no panmyelosis."},
+    {"dx": "Secondary erythrocytosis", "vs": "Secondary erythrocytosis shows erythroid hyperplasia without megakaryocytic pleomorphism or clustering, with normal to high EPO and no JAK2 mutation."},
+    {"dx": "Myelofibrosis secondary to metastatic carcinoma or other causes", "vs": "Secondary fibrosis contains the causative tumor or process (keratin-positive cells, granulomas) and lacks atypical MPN-type megakaryocyte clusters."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E (A, C); IHC red chromogen (B); silver/reticulin (D)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": ["A: Hypercellular PV marrow with panmyelosis and pleomorphic megakaryocytes", "B: Immunostain highlighting expanded hematopoietic precursors", "C: Post-PV myelofibrosis with atypical megakaryocyte clusters in fibrotic stroma", "D: Silver stain showing dense fibrosis and osteosclerosis"]
+}

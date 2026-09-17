@@ -1,0 +1,21 @@
+{
+  "id": "65063",
+  "recognize_zh": "一顆嗜中性球的細胞質內有一個清楚的吞噬空泡，裡面含有十多隻短而直、兩端鈍圓的桿菌，細胞質另有多個小空泡；在周邊血抹片看到細胞內細菌即代表菌血症，培養證實為克雷伯氏菌（Klebsiella pneumoniae）。",
+  "features": [
+    "Segmented neutrophil containing a large phagocytic vacuole packed with numerous short, straight, plump bacilli",
+    "Additional small cytoplasmic vacuoles (toxic vacuolation) in the neutrophil",
+    "Nucleus segmented with clumped chromatin, pushed aside by the vacuole",
+    "Background red cells with central pallor and scattered platelets; no extracellular organisms clearly identified"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil containing a large phagocytic vacuole filled with numerous short, straight rod-shaped bacteria, together with smaller cytoplasmic vacuoles. The nucleus is segmented and displaced by the vacuole. Red cells and platelets show no specific abnormality in this field, and extracellular organisms are not evident. Findings are consistent with bacteremia with intracellular bacilli; the morphology suggests gram-negative rods, and blood culture is required for species identification (Klebsiella pneumoniae in this case).",
+  "ddx": [
+    {"dx": "Stain precipitate or platelets overlying a neutrophil", "vs": "Precipitate is irregular and lies in a different focal plane, whereas bacteria here are uniform rods confined within a membrane-bound vacuole."},
+    {"dx": "Dohle bodies / toxic granulation", "vs": "Dohle bodies are pale blue peripheral cytoplasmic patches and toxic granules are fine dots, not discrete rods within a vacuole."},
+    {"dx": "Ehrlichia/Anaplasma morulae", "vs": "Morulae are mulberry-like clusters of tiny cocci-sized inclusions without distinct rods."},
+    {"dx": "Candida or Histoplasma in neutrophils", "vs": "Fungi appear as larger oval budding yeasts or pseudohyphae (Candida) or small oval yeasts with a halo (Histoplasma), not slender rods."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman/Wright-type Romanowsky stain",
+  "match": "consistent",
+  "high_yield": true
+}

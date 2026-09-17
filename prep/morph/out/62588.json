@@ -1,0 +1,20 @@
+{
+  "id": "62588",
+  "recognize_zh": "HGAL 免疫染色：左側結節內密集的腫瘤細胞呈瀰漫性細胞質陽性，右側濾泡間區小淋巴球大多陰性，界線清楚；HGAL（GCET2）是生發中心標記，陽性表示腫瘤源自生發中心 B 細胞，支持濾泡性淋巴瘤，特別適用於 CD10 陰性的病例。",
+  "features": [
+    "Diffuse cytoplasmic HGAL staining in densely packed neoplastic follicular cells",
+    "Sharp demarcation between positive nodule and largely negative interfollicular zone",
+    "Scattered stronger-staining larger cells within the nodule",
+    "Interfollicular small lymphocytes and stromal cells negative"
+  ],
+  "describe_en": "Immunohistochemical stain for HGAL (GCET2) shows diffuse moderate cytoplasmic staining of the densely packed neoplastic cells within a nodule, with scattered larger cells staining more intensely. The adjacent interfollicular area, composed of small lymphocytes and stromal cells, is largely negative, producing a sharp boundary. HGAL expression confirms a germinal-center B-cell derivation of the neoplastic follicles and is particularly helpful when CD10 is weak or negative. Findings support follicular lymphoma (grade 3a in this case, as graded on H&E).",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers are also HGAL positive, so distinction relies on architecture, BCL2 negativity of germinal-center cells and polarized proliferation."},
+    {"dx": "Marginal zone lymphoma with follicular colonization", "vs": "Marginal zone lymphoma cells are HGAL/CD10/BCL6 negative, whereas residual colonized germinal centers retain HGAL."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is HGAL negative (typically) and cyclin D1/SOX11 positive."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: HGAL",
+  "match": "consistent",
+  "high_yield": false
+}

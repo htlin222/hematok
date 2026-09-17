@@ -1,0 +1,22 @@
+{
+  "id": "2997",
+  "recognize_zh": "大型細胞內含粗大黑色色素顆粒，並可見明顯網狀染色質的大核；旁邊還有一顆幾乎全黑的色素細胞與背景散在的細小黑色顆粒，這種黑色素（melanin）沉積的非造血細胞提示轉移性黑色素瘤。",
+  "features": [
+    "Large atypical cells with abundant cytoplasm containing coarse black-brown pigment granules",
+    "Large round to oval nucleus with open chromatin, partly obscured by pigment",
+    "Adjacent cell completely filled with dense black pigment",
+    "Fine dark pigment granules scattered in the background among red cells",
+    "Cells much larger than neighboring hematopoietic cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered large non-hematopoietic cells with abundant cytoplasm containing coarse black-brown pigment granules that partly obscure large nuclei with open chromatin. A nearby cell is entirely filled with dense black pigment, and fine pigment granules are dispersed in the background. Findings are suggestive of metastatic melanoma with melanin production; immunohistochemistry for SOX10, S100, HMB-45 or Melan-A, and Prussian blue to exclude hemosiderin, are recommended for confirmation.",
+  "ddx": [
+    {"dx": "Hemosiderin-laden macrophage", "vs": "Hemosiderin appears blue-green to golden and is Prussian blue positive, while melanin is black-brown and Prussian blue negative."},
+    {"dx": "Mast cell", "vs": "Mast cells have uniform, round, purple-black metachromatic granules and a central oval nucleus, and are tryptase/CD117 positive."},
+    {"dx": "Melanophage", "vs": "Melanophages have bland histiocytic nuclei and lack melanocytic marker expression, whereas melanoma cells show atypical nuclei and SOX10 positivity."},
+    {"dx": "Other metastatic carcinoma", "vs": "Carcinomas form cohesive clusters without melanin pigment and are cytokeratin positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

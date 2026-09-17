@@ -1,0 +1,21 @@
+{
+  "id": "61835",
+  "recognize_zh": "這是 Sanger 定序色譜圖，比較正常對照與病人的正反股；箭頭標示 c.857C>T（p.Ala286Val），在異合子的樣本中同一位置出現 C（藍）與 T（紅）重疊的雙峰（標為 Y），用來確認 GATA2 點突變。",
+  "features": [
+    "Four Sanger chromatogram panels labeled normal and patient, forward and reverse strands",
+    "Arrow marks c.857C>T (p.Ala286Val) position",
+    "Overlapping double peak (blue C and red T, base call 'Y') at the arrowed position, indicating heterozygosity",
+    "The double peak is seen in the panels labeled 'Patient forward' and 'Normal reverse', while 'Normal forward' and 'Patient reverse' show a single C peak, suggesting a possible panel-label inconsistency",
+    "Clean baseline with well-resolved flanking peaks"
+  ],
+  "describe_en": "This is a non-morphologic figure showing Sanger sequencing chromatograms of the GATA2 region in a normal control and the patient, on forward and reverse strands. At the arrowed nucleotide (c.857C>T, p.Ala286Val), overlapping blue (C) and red (T) peaks of roughly comparable height with a 'Y' base call indicate a heterozygous substitution, whereas a single C peak indicates the reference sequence. Of note, as labeled, the double peak appears in the 'Patient forward' and 'Normal reverse' panels but not in 'Patient reverse', which suggests the lower two labels may be transposed; the interpretation should be verified against the original data. A heterozygous missense variant in the GATA2 zinc-finger region confirmed in germline tissue supports myeloid neoplasm with germline GATA2 mutation.",
+  "ddx": [
+    {"dx": "Somatic (acquired) GATA2 variant", "vs": "Germline origin requires detecting the variant at heterozygous levels in non-hematopoietic DNA such as cultured skin fibroblasts."},
+    {"dx": "Dye blob or sequencing artifact", "vs": "An artifact typically appears on one strand only with broad, non-base-shaped peaks, whereas a true variant is reproducible on both strands with sharp overlapping peaks."},
+    {"dx": "Benign polymorphism", "vs": "Variant pathogenicity must be classified using population frequency, functional domain location, and ClinVar/ACMG criteria rather than chromatogram appearance."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

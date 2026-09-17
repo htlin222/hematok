@@ -1,0 +1,21 @@
+{
+  "id": "63747",
+  "recognize_zh": "這是 IGV 基因體檢視畫面，位置在第 3 號染色體 MYD88 基因（chr3:38,182,641 附近）；灰色讀序中同一欄位有一部分顯示 C（T>C），對應下方胺基酸 L（白胺酸），代表 MYD88 L265P 突變，是淋巴漿細胞淋巴瘤的分子標記。",
+  "features": [
+    "Integrative Genomics Viewer screenshot of aligned NGS reads, chr3:38,182,621-38,182,661 (41 bp window)",
+    "MYD88 gene track with reference sequence and amino-acid translation at bottom",
+    "Single-position variant: blue 'C' base calls in a subset of reads at the same coordinate (T>C)",
+    "Altered codon corresponds to leucine (L) at the site of L265P (p.Leu265Pro; legacy numbering)",
+    "Isolated scattered mismatches in other reads (e.g., single T or G) represent sequencing noise"
+  ],
+  "describe_en": "Next-generation sequencing of bone marrow aspirate DNA, visualized in the Integrative Genomics Viewer, shows aligned reads across a 41-bp window of MYD88 on chromosome 3p22. A consistent T>C substitution is present in a subset of reads at a single coordinate (reported variant allele frequency approximately 30%), altering the leucine codon to proline and corresponding to MYD88 L265P. Isolated single-read mismatches elsewhere represent background sequencing noise. MYD88 L265P is present in more than 90% of lymphoplasmacytic lymphoma/Waldenström macroglobulinemia and supports that diagnosis in the appropriate morphologic and immunophenotypic context, although it is not entirely specific.",
+  "ddx": [
+    {"dx": "Marginal zone lymphoma", "vs": "MYD88 L265P occurs in only a minority (<10%) of MZL, so a positive result favors LPL but does not exclude MZL."},
+    {"dx": "IgM MGUS", "vs": "IgM MGUS also frequently harbors MYD88 L265P, so marrow infiltrate burden and paraprotein level are needed to separate it from LPL."},
+    {"dx": "Activated B-cell type DLBCL (e.g., primary CNS, testicular)", "vs": "ABC-DLBCL can carry MYD88 L265P but is morphologically a large-cell lymphoma, often with CD79B mutations."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

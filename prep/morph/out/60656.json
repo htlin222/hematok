@@ -1,0 +1,22 @@
+{
+  "id": "60656",
+  "recognize_zh": "A 圖骨髓抹片中巨噬細胞吞噬有核細胞（黑箭頭，嗜血現象），旁邊有胞質深藍、含空泡的大型不典型淋巴瘤細胞（紅箭頭）；B 圖切片為成片的大型多形性細胞，C 圖 IHC 呈強烈膜狀與 Golgi 區陽性（符合 CD30），指向 ALK 陰性 ALCL 侵犯骨髓。",
+  "features": [
+    "Aspirate: large macrophages containing engulfed nucleated cells and red cells (hemophagocytosis, black arrow)",
+    "Large atypical lymphoid cells with deeply basophilic, vacuolated cytoplasm and irregular nuclei (red arrow)",
+    "Biopsy H&E: sheets of large pleomorphic cells with vesicular, irregular to kidney-shaped nuclei and occasional prominent nucleoli",
+    "Possible hallmark-like cell with eccentric reniform nucleus (red arrow, panel B)",
+    "IHC (panel C): strong, diffuse membranous and paranuclear dot (Golgi) staining in essentially all large cells, pattern typical of CD30"
+  ],
+  "describe_en": "Bone marrow aspirate smear (panel A) shows histiocytes with prominent hemophagocytosis of nucleated cells, together with large atypical lymphoid cells having irregular nuclei and deeply basophilic, vacuolated cytoplasm. The core biopsy (H&E, panel B) shows a diffuse infiltrate of large pleomorphic cells with irregular, occasionally reniform nuclei, replacing normal hematopoiesis. Immunohistochemistry (panel C) shows strong, uniform membranous and Golgi-pattern staining of the neoplastic cells, consistent with CD30 (marker not labeled in the image). In the context of absent ALK expression, findings are consistent with marrow involvement by ALK-negative anaplastic large cell lymphoma with associated hemophagocytosis.",
+  "ddx": [
+    {"dx": "ALK-positive anaplastic large cell lymphoma", "vs": "Morphology and CD30 staining are identical; only ALK immunostaining (or ALK rearrangement) separates them."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL has scattered Reed-Sternberg cells in a mixed inflammatory background with CD15/PAX5 (weak) positivity, not uniform sheets of CD30-positive cells lacking PAX5."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with CD30 expression", "vs": "PTCL-NOS usually shows heterogeneous, weaker CD30 staining in a subset of cells, rather than strong, uniform CD30 in all cells with hallmark cells."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Carcinoma forms cohesive clusters with keratin positivity and melanoma expresses S100/SOX10, whereas ALCL is discohesive and CD30/T-cell marker positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC (likely CD30)",
+  "match": "consistent",
+  "high_yield": false
+}

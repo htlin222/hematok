@@ -1,0 +1,22 @@
+{
+  "id": "63990",
+  "recognize_zh": "油鏡下骨髓抹片充滿大型芽細胞（細緻染色質、可見核仁、中等量藍灰色胞質），上方箭頭處可見細長粉紅色 Auer 桿狀體；下方箭頭指向一個胞質豐富、深藍且帶纖維狀紋理的大細胞，為類 Gaucher 細胞（pseudo-Gaucher cell）。",
+  "features": [
+    "Sheets of large blasts with high N:C ratio, fine dispersed chromatin, and one or more nucleoli",
+    "Round to indented nuclei with moderate blue-gray agranular cytoplasm, some blasts with pale perinuclear/cytoplasmic clear zones",
+    "Thin pink needle-like Auer rod (upper arrow)",
+    "Large macrophage with abundant dense blue, finely fibrillar cytoplasm and small eccentric nucleus, consistent with a pseudo-Gaucher cell (lower arrow)",
+    "Occasional small mature lymphocytes/erythroid precursors and red cells in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a marked increase in large blasts with high nuclear-to-cytoplasmic ratios, round to indented nuclei, finely dispersed chromatin, prominent nucleoli, and moderate amounts of blue-gray cytoplasm. A slender Auer rod is identified (upper arrow), establishing myeloid lineage. A large histiocyte with abundant deeply basophilic, finely fibrillar cytoplasm (lower arrow) is also present, resembling a Gaucher cell. Findings are consistent with acute myeloid leukemia with pseudo-Gaucher cells, which reflect increased cell turnover overwhelming macrophage glucocerebroside catabolism rather than inherited Gaucher disease.",
+  "ddx": [
+    {"dx": "True Gaucher disease", "vs": "True Gaucher disease occurs without a leukemic blast population and shows low glucocerebrosidase activity, whereas pseudo-Gaucher cells here arise in a marrow replaced by blasts."},
+    {"dx": "Sea-blue histiocytes or other storage histiocytes", "vs": "Sea-blue histiocytes contain discrete blue-green granules, whereas Gaucher-like cells have crumpled tissue-paper striated cytoplasm."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts lack Auer rods and are MPO negative, whereas the Auer rod here defines myeloid lineage."},
+    {"dx": "Megakaryocyte or metastatic tumor cell", "vs": "Megakaryocytes have lobulated nuclei with granular cytoplasm and tumor cells form cohesive clusters, unlike the single fibrillar-cytoplasm macrophage shown."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

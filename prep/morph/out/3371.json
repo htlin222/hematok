@@ -1,0 +1,22 @@
+{
+  "id": "3371",
+  "recognize_zh": "周邊血抹片中央有十餘顆成熟中性球聚集成團（neutrophil aggregation），另有多處大片不規則的紅血球凝集塊與小球形紅血球；中性球被聚集時儀器計數會偏低，造成假性中性球低下。",
+  "features": [
+    "Large cluster of about 15 mature segmented neutrophils aggregated together",
+    "Additional small groups of 2-3 neutrophils nearby",
+    "Irregular large clumps of agglutinated red cells throughout the field",
+    "Many small dense spherocytes/microspherocytes among individual red cells",
+    "Occasional echinocyte; individual neutrophils morphologically unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows a large aggregate of approximately 15 mature segmented neutrophils, along with smaller neutrophil clusters. The background contains numerous irregular clumps of agglutinated red cells and many small dense spherocytes, consistent with the stated Coombs-positive immune hemolytic anemia. The neutrophils themselves appear morphologically normal without blasts or dysplasia. Findings are consistent with in vitro neutrophil aggregation causing spurious (pseudo)neutropenia on automated counts; a manual differential, a smear from a non-EDTA or warmed sample, and review of the analyzer flags are recommended.",
+  "ddx": [
+    {"dx": "True autoimmune neutropenia of SLE", "vs": "True neutropenia shows few neutrophils evenly distributed on the smear without clumps, and counts remain low in citrate or warmed samples."},
+    {"dx": "Platelet clumping with pseudothrombocytopenia", "vs": "Platelet clumps are aggregates of small anucleate granular fragments, not nucleated segmented neutrophils."},
+    {"dx": "Rouleaux formation", "vs": "Rouleaux are orderly stacks of red cells like coins, whereas agglutination forms irregular three-dimensional clumps as seen here."},
+    {"dx": "Circulating tumor or leukemic cell cluster", "vs": "Tumor clusters contain large atypical cells with high N:C ratio and nucleoli, while this cluster is composed of normal mature neutrophils."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

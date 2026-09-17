@@ -1,0 +1,22 @@
+{
+  "id": "61584",
+  "recognize_zh": "左下細胞核有凹陷／摺疊、染色質極細緻，細胞質雖因推片破碎但仍是典型單核母細胞（monoblast）；右上細胞有灰藍色豐富細胞質、偽足樣突起與較成熟的圓核，是未成熟單核球。",
+  "features": [
+    "Two large mononuclear cells, both several times the size of red cells",
+    "Lower-left cell: folded/indented nucleus with very fine, lacy chromatin; cytoplasm disrupted and smeared (artifact)",
+    "Upper-right cell: round-to-slightly-indented nucleus with slightly more condensed chromatin and faint nucleoli",
+    "Upper-right cell: abundant gray-blue cytoplasm with irregular outline and pseudopod-like projections, no obvious granules",
+    "Background crenated red cells (echinocytes, likely drying artifact) and platelet clumps"
+  ],
+  "describe_en": "Peripheral blood smear shows two large circulating monocytic precursors. The lower-left cell has a large indented to folded nucleus with finely dispersed chromatin; its cytoplasm is disrupted by smearing artifact, but the nuclear features are those of a monoblast. The upper-right cell has abundant gray-blue agranular cytoplasm with irregular pseudopod-like borders and a round nucleus with slightly condensed chromatin and faint nucleoli, consistent with an immature monocyte (promonocyte). Background red cells are crenated, and platelet clumps are present. Findings are consistent with circulating monoblasts/promonocytes as seen in acute monoblastic/monocytic leukemia; nonspecific esterase cytochemistry and flow cytometry are recommended for confirmation.",
+  "ddx": [
+    {"dx": "Mature reactive monocyte", "vs": "Mature monocytes have more condensed, folded chromatin without nucleoli, whereas monoblasts/promonocytes retain fine chromatin and nucleoli."},
+    {"dx": "Myeloblast (AML with minimal monocytic differentiation)", "vs": "Myeloblasts have scant cytoplasm, may show Auer rods and are MPO-positive, while monoblasts have abundant gray-blue cytoplasm, folded nuclei and are NSE-positive/MPO-weak."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "Circulating cells are predominantly mature/abnormal monocytes with blasts plus promonocytes <20%."},
+    {"dx": "Large granular or reactive lymphocyte", "vs": "Reactive lymphocytes have cytoplasm that scallops around red cells and lack folded nuclei with lacy chromatin."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

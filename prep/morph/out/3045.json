@@ -1,0 +1,22 @@
+{
+  "id": "3045",
+  "recognize_zh": "骨髓切片中造血組織被一群黏合成巢的上皮樣大細胞取代，核呈卵圓、染色質空泡狀、有明顯核仁，細胞質嗜酸性，周圍有纖維增生（desmoplastic）間質；這是轉移性攝護腺癌（prostatic carcinoma）侵犯骨髓的表現。",
+  "features": [
+    "Cohesive nests and cords of large epithelioid tumor cells replacing marrow elements",
+    "Oval, vesicular nuclei with distinct, often single prominent nucleoli",
+    "Moderate amounts of eosinophilic to amphophilic cytoplasm with ill-defined borders",
+    "Nuclear pleomorphism with hyperchromatic crushed/spindled nuclei at the edges",
+    "Loose fibrotic (desmoplastic) stroma surrounding the tumor nests; no residual hematopoiesis in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows replacement of hematopoietic tissue by cohesive nests and cords of large epithelioid cells set in a desmoplastic stroma. The tumor cells have moderate eosinophilic cytoplasm and oval vesicular nuclei with prominent nucleoli and moderate pleomorphism. No residual hematopoietic elements are present in this field. Findings are consistent with metastatic carcinoma; in the clinical context, immunohistochemistry for NKX3.1, PSA, and PSMA would confirm prostatic origin.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma of other origin (breast, lung, kidney)", "vs": "Morphology overlaps; separated by GATA3/ER, TTF-1, or PAX8 immunostaining versus NKX3.1/PSA in prostate carcinoma."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "May form cohesive-appearing sheets but is keratin negative and CD30/ALK positive."},
+    {"dx": "Megakaryocytic hyperplasia or myelofibrosis", "vs": "Megakaryocytes have lobulated nuclei and are CD61/CD42b positive, whereas carcinoma is keratin positive and forms cohesive nests."},
+    {"dx": "Metastatic melanoma", "vs": "Also shows prominent nucleoli but is keratin negative and S100/SOX10 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "65171",
+  "recognize_zh": "CD56 對側向散射的散佈圖中，紫色主要族群呈強 CD56 陽性（約 10^2）且側向散射低到中等，與 CD56 陰性、高側向散射的顆粒球分開，支持神經內分泌來源的腫瘤細胞（如神經母細胞瘤）。",
+  "features": [
+    "Ungated CD56 vs SS plot with a dominant highlighted population showing bright CD56 expression (about 10^2)",
+    "The CD56-bright population has low to intermediate side scatter",
+    "Gray CD56-negative high side scatter cluster corresponding to granulocytes",
+    "Small CD56-negative low side scatter population (residual lymphoid/other cells)",
+    "Large proportion of events in the CD56-bright cluster, indicating heavy marrow infiltration"
+  ],
+  "describe_en": "Flow cytometric analysis of the bone marrow shows a dominant population with bright CD56 expression and low to intermediate side scatter, distinct from the CD56-negative granulocytes with high side scatter. When correlated with the CD45-negative gating of the same population, this indicates a CD45-negative, CD56-bright non-hematopoietic cell population. CD56 is not lineage specific, so confirmation with GD2 or morphology/immunohistochemistry is needed. Findings are consistent with bone marrow infiltration by metastatic neuroblastoma.",
+  "ddx": [
+    {"dx": "NK-cell neoplasm or CD56-positive hematolymphoid neoplasm", "vs": "NK cells and CD56-positive myeloma or AML are CD45-positive (myeloma CD138/CD38-bright), whereas this population is CD45-negative."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is CD56-positive but CD45 dim-positive with CD4, CD123 and TCF4 expression."},
+    {"dx": "Ewing sarcoma or rhabdomyosarcoma", "vs": "These CD45-negative tumors can express CD56, so GD2 positivity by flow or PHOX2B/synaptophysin by IHC is required to favor neuroblastoma."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

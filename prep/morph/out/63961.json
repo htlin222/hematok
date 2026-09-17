@@ -1,0 +1,22 @@
+{
+  "id": "63961",
+  "recognize_zh": "A 圖抹片體部只有紅血球與兩個嗜中性球，幾乎看不到血小板；B 圖同一張片子的羽狀邊緣（feathered edge）卻有大片血小板聚集團，混有嗜中性球與單核球，表示是 EDTA 引起的假性血小板低下。",
+  "features": [
+    "Panel A: body of smear with normal red cells and two segmented neutrophils but virtually no platelets",
+    "Panel B: feathered edge with large clumps of aggregated platelets",
+    "Leukocytes (a neutrophil and a monocyte) trapped adjacent to platelet aggregates",
+    "Individual platelets within clumps show normal granulation",
+    "No schistocytes or other red cell abnormalities to suggest true consumptive thrombocytopenia"
+  ],
+  "describe_en": "Peripheral blood smear from an EDTA-anticoagulated sample shows essentially no free platelets in the body of the smear, where red cells and neutrophils appear unremarkable (A). Examination of the feathered edge of the same slide reveals large platelet aggregates with entrapped leukocytes (B). Individual platelets within the clumps are normally granulated, and schistocytes are not seen. Findings are consistent with EDTA-dependent pseudothrombocytopenia; a repeat platelet count in citrate or heparin anticoagulant, or from a fingerstick smear, is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia (ITP, marrow failure, consumption)", "vs": "True thrombocytopenia shows scarce platelets throughout the smear including the feathered edge, without platelet clumps."},
+    {"dx": "Platelet satellitism", "vs": "Satellitism is also EDTA-related but shows platelets rosetting around individual neutrophils rather than large free aggregates."},
+    {"dx": "Clotted specimen", "vs": "Partially clotted samples show fibrin strands and may lower all counts, and a visible clot is often present in the tube."},
+    {"dx": "Inherited giant platelet disorder", "vs": "Giant platelets are counted as red cells by analyzers but appear as single large platelets, not clumps, on the smear."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grunwald Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

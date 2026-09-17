@@ -1,0 +1,22 @@
+{
+  "id": "4169",
+  "recognize_zh": "整片骨髓抹片幾乎都是各階段的顆粒球系細胞（骨髓球、後骨髓球、帶狀核與分葉核嗜中性球），有核紅血球前驅細胞非常少，因此骨髓/紅血球比（M:E ratio）明顯升高。",
+  "features": [
+    "Hypercellular smear dominated by granulocytic cells at all stages of maturation",
+    "Abundant myelocytes, metamyelocytes, bands and segmented neutrophils with orderly maturation",
+    "Scattered eosinophils with orange granules",
+    "Very few erythroid precursors (only occasional dark round-nucleus normoblasts), indicating a markedly increased M:E ratio",
+    "No increase in blasts evident; no obvious dysplasia at this magnification"
+  ],
+  "describe_en": "Bone marrow aspirate smear is hypercellular with a marked predominance of granulocytic elements showing orderly maturation from myelocytes to segmented neutrophils, with scattered eosinophils. Erythroid precursors are sparse, resulting in a markedly increased myeloid-to-erythroid ratio. Blasts are not increased and no significant dysgranulopoiesis is evident at this magnification. Findings are consistent with granulocytic hyperplasia with increased M:E ratio, which may reflect infection or inflammation, growth factor effect, erythroid suppression, or a myeloproliferative neoplasm; clinical and CBC correlation is required.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia", "vs": "Shows a myelocyte peak with basophilia, eosinophilia and small hypolobated megakaryocytes and requires BCR::ABL1 demonstration."},
+    {"dx": "Pure red cell aplasia", "vs": "The increased M:E ratio results from absent erythroid precursors with normal rather than increased granulopoiesis and reticulocytopenia."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "Shows predominance of mature segmented neutrophils with peripheral neutrophilia and CSF3R mutation."},
+    {"dx": "Acute myeloid leukemia with maturation", "vs": "Requires at least 20% blasts, often with Auer rods, rather than mostly maturing granulocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64174",
+  "recognize_zh": "周邊血液抹片中紅血球在薄處仍大量疊成錢串狀排列（rouleaux），同時可見數顆中等大小、染色質較開放的單核淋巴樣細胞；「顯著錢串＋異常淋巴樣細胞」提示 IgM 單株蛋白增加的 Waldenström 巨球蛋白血症。",
+  "features": [
+    "Prominent rouleaux: red cells stacked in chains in the thin area of the smear",
+    "Several medium-sized mononuclear lymphoid cells with round nuclei and more open chromatin than normal lymphocytes",
+    "Scant to moderate basophilic cytoplasm in the lymphoid cells",
+    "Bluish background staining and scattered spherocyte-like cells",
+    "Platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows prominent rouleaux formation extending into the thin, monolayer area of the smear, along with a subtle bluish background. Several medium-sized mononuclear lymphoid cells with round nuclei, a more open chromatin pattern than normal small lymphocytes, and scant to moderate basophilic cytoplasm are present. Platelets are adequate. Findings are consistent with a paraproteinemia with circulating lymphoid cells, suggestive of Waldenström macroglobulinemia/lymphoplasmacytic lymphoma; serum protein electrophoresis with immunofixation and flow cytometry are recommended.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma also causes rouleaux, but circulating cells are plasma cells with eccentric nuclei and hofs, and the paraprotein is usually IgG/IgA rather than IgM."},
+    {"dx": "Red cell agglutination (cold agglutinin)", "vs": "Agglutinates form irregular three-dimensional clumps rather than linear coin-like stacks, and disperse on warming."},
+    {"dx": "Thick-area artifact", "vs": "Artifactual stacking is confined to thick areas, whereas true rouleaux persists in the thin area where cells should lie separately."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells have condensed soccer-ball chromatin with smudge cells and usually no significant rouleaux."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

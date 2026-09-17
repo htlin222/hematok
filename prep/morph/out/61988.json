@@ -1,0 +1,22 @@
+{
+  "id": "61988",
+  "recognize_zh": "六格組合圖：A、B（H&E）顯示表皮下真皮中的淋巴球浸潤，並有擴張的淋巴管腔內聚集著大型細胞；C–F 免疫染色可見管腔內細胞群被標示，C 與 F 陽性細胞較少；各格染色標記未標示，只能依標題推測為管腔內 CD30 陽性細胞。",
+  "features": [
+    "A (H&E x100): skin with intact epidermis and a dermal lymphohistiocytic infiltrate",
+    "B (H&E x200): dilated thin-walled dermal channels containing intraluminal aggregates of larger cells amid a perivascular infiltrate",
+    "C (IHC x200): sparse staining outlining vessel-like structures and scattered cells",
+    "D and E (IHC x200): numerous positive cells, including a dense intraluminal cluster within a vessel",
+    "F (IHC x200): scattered positive nuclei, fewer than in D/E",
+    "Markers are not labeled on the panels, limiting specific immunophenotypic interpretation"
+  ],
+  "describe_en": "Composite of skin sections. H&E sections show a dermal lymphohistiocytic infiltrate beneath an intact epidermis, with dilated thin-walled channels containing intraluminal aggregates of larger mononuclear cells. The accompanying immunostains (markers not labeled) highlight positive cells within the dermis and a dense cluster within a vascular lumen, with other panels showing sparser staining. Because the markers are not identified, the lymphatic nature of the vessels (e.g., D2-40) and the CD30 status of the intraluminal cells cannot be confirmed from the image alone. Findings are compatible with intralymphatic aggregates of activated lymphoid cells, as in cutaneous intralymphatic CD30-positive pseudolymphoma, but the benign nature depends on clinical correlation, lack of a clonal T-cell population and clinical regression.",
+  "ddx": [
+    {"dx": "Intravascular (intralymphatic) anaplastic large cell lymphoma", "vs": "Intralymphatic ALCL shows markedly atypical hallmark cells with strong uniform CD30, frequent loss of pan-T antigens and a clonal TCR rearrangement, often with a systemic or progressive course, whereas the pseudolymphoma is self-limited and usually polyclonal."},
+    {"dx": "Lymphomatoid papulosis", "vs": "Lymphomatoid papulosis presents as recurrent self-healing papules with a wedge-shaped dermal infiltrate of CD30+ cells that is largely extravascular rather than confined to lymphatic lumens."},
+    {"dx": "Intravascular large B-cell lymphoma", "vs": "Intravascular large B-cell lymphoma fills capillaries and small vessels with CD20+ large B cells rather than CD30+ T cells or histiocytes in lymphatics."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E and IHC (markers unlabeled)",
+  "match": "partial",
+  "high_yield": false
+}

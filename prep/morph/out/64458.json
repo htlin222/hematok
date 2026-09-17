@@ -1,0 +1,22 @@
+{
+  "id": "64458",
+  "recognize_zh": "抹片中央一顆明顯大於周圍顆粒球的單核巨大細胞，細胞質深嗜鹼性且布滿細小空泡；但細胞核與核仁被空泡遮蔽、看不清楚，單憑此圖無法確認為 Hodgkin 細胞，需搭配組織切片與免疫染色。",
+  "features": [
+    "Single very large mononuclear cell, several times the diameter of adjacent neutrophils",
+    "Deeply basophilic cytoplasm with numerous small clear vacuoles, most prominent at the periphery",
+    "Nuclear outline and nucleolus largely obscured by overlying vacuoles; a macronucleolus cannot be confidently identified",
+    "Background of maturing granulocytes, a small lymphocyte and a granular myeloid cell (aspirate-type smear)",
+    "Red cells show rouleaux-like stacking in thick areas"
+  ],
+  "describe_en": "Smear shows a single very large mononuclear cell with deeply basophilic, finely vacuolated cytoplasm, set among maturing granulocytes and a small lymphocyte. The nucleus appears large but its chromatin detail and nucleoli are obscured by the overlying cytoplasmic vacuoles, so the characteristic inclusion-like macronucleolus of a Hodgkin cell cannot be confirmed on this image alone. In the appropriate clinical and histologic context this could represent a mononuclear Hodgkin cell; however, a vacuolated large cell of other lineage cannot be excluded morphologically, and correlation with biopsy and CD30/CD15/PAX5 immunostaining is recommended.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma cell", "vs": "Carcinoma cells usually occur in cohesive clusters and are cytokeratin-positive, whereas Hodgkin cells are isolated, CD30+/CD15+ with weak PAX5."},
+    {"dx": "Megakaryocyte (immature)", "vs": "Megakaryocytes have lobulated nuclei, granular cytoplasm with platelet budding and are CD61/CD42b-positive, lacking a macronucleolus."},
+    {"dx": "Burkitt lymphoma/leukemia cell", "vs": "Burkitt cells also show deeply basophilic vacuolated cytoplasm but are medium-sized, monotonous and numerous, rather than a single giant cell."},
+    {"dx": "Anaplastic large cell lymphoma hallmark cell", "vs": "ALCL cells have horseshoe or kidney-shaped nuclei with a paranuclear hof and are CD30+ with T-cell/ALK markers but CD15 and PAX5 negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

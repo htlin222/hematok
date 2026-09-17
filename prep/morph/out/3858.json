@@ -1,0 +1,21 @@
+{
+  "id": "3858",
+  "recognize_zh": "這是紅血球 CD59-FITC 流式直方圖，分成三群：I 型（正常 CD59 表現，主峰）、II 型（部分缺失，中間小峰）與 III 型（完全缺失，最左側峰）；出現 II/III 型 GPI 缺失紅血球即為 PNH 的診斷依據。",
+  "features": [
+    "Single-parameter flow cytometry histogram of red cells stained with CD59-FITC (log scale)",
+    "Type I population: dominant peak near 10^2 with normal CD59 expression",
+    "Type II population: intermediate low peak around 10^1 with partial CD59 deficiency",
+    "Type III population: peak near 10^0 with complete CD59 deficiency",
+    "Distinct trimodal distribution with clear gaps between populations"
+  ],
+  "describe_en": "Flow cytometric histogram of peripheral blood red cells stained with CD59-FITC demonstrates three distinct populations: type I cells with normal CD59 expression (dominant peak), type II cells with partial deficiency (intermediate peak), and type III cells with complete absence of CD59 (left-most peak). The presence of discrete type II and type III red cell populations indicates GPI-anchor deficiency. Findings are consistent with paroxysmal nocturnal hemoglobinuria; clone size should be confirmed on granulocytes and monocytes using FLAER with CD24/CD14, because red cell clone size is underestimated after hemolysis or transfusion.",
+  "ddx": [
+    {"dx": "Congenital CD59 deficiency", "vs": "Isolated inherited CD59 deficiency shows uniform absence on all red cells and leukocytes with preserved CD55 and FLAER binding, rather than a mixed trimodal pattern."},
+    {"dx": "Recent transfusion or hemolysis masking PNH", "vs": "Transfused normal cells expand the type I peak and underestimate clone size, so granulocyte FLAER analysis is more reliable."},
+    {"dx": "Autoimmune hemolytic anemia", "vs": "AIHA shows normal CD59 expression on all red cells with a positive direct antiglobulin test."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry: CD59-FITC",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60606",
+  "recognize_zh": "背景中散布大量大小不一、淡灰藍色、無細胞核的小圓形胞質碎片（淋巴腺小體，lymphoglandular bodies），加上下方成群的大型異常淋巴球，提示抽吸液被侵襲性大 B 細胞淋巴瘤浸潤。",
+  "features": [
+    "Numerous small, round, pale gray-blue anucleate cytoplasmic fragments (lymphoglandular bodies) scattered in the background",
+    "Clusters of large atypical lymphoid cells with high N:C ratio, round to irregular nuclei and deeply basophilic cytoplasm",
+    "Some large cells with cytoplasmic vacuoles; admixed necrotic/degenerating cells",
+    "Residual normal hematopoietic cells (segmented neutrophil, erythroid precursors) scattered",
+    "Background proteinaceous material with red cells"
+  ],
+  "describe_en": "The bone marrow aspirate smear shows a background containing abundant small, round, pale basophilic cytoplasmic fragments without nuclei, consistent with lymphoglandular bodies. There are clusters of large atypical lymphoid cells with high nuclear-to-cytoplasmic ratio and deeply basophilic, occasionally vacuolated cytoplasm, with scattered residual hematopoietic elements. Lymphoglandular bodies are a cytologic clue to a lymphoid process shed from fragile cells. Findings are suggestive of marrow involvement by an aggressive large B-cell lymphoma, to be confirmed by flow cytometry and biopsy immunohistochemistry.",
+  "ddx": [
+    {"dx": "Platelets / platelet clumps", "vs": "Platelets are smaller with purple granular centers, whereas lymphoglandular bodies are pale gray-blue and agranular."},
+    {"dx": "Metastatic carcinoma or small round blue cell tumor", "vs": "Non-lymphoid tumors form cohesive clusters and lack lymphoglandular bodies in the background."},
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts show fine chromatin, possible Auer rods and granules and do not generate a lymphoglandular body background; flow cytometry confirms lineage."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are medium-sized with uniform vacuolated deep blue cytoplasm, and MYC rearrangement with high Ki-67 is needed to separate it from large B-cell lymphoma."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

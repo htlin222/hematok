@@ -1,0 +1,20 @@
+{
+  "id": "62356",
+  "recognize_zh": "瀰漫性腫瘤細胞呈強而廣泛的膜狀與顆粒狀胞質 CD10 棕色染色；雖然 CD10 常被視為 B 細胞或生發中心標記，T 淋巴母細胞淋巴瘤也常見陽性，不應因此誤判為 B 系。",
+  "features": [
+    "Diffuse strong CD10 staining throughout the tumor sheet",
+    "Membranous and granular cytoplasmic staining pattern",
+    "Tumor cells medium-sized with scant cytoplasm and pale oval nuclei",
+    "Scattered unstained spaces and stromal/vascular elements"
+  ],
+  "describe_en": "Immunohistochemical stain for CD10 shows strong, diffuse membranous and granular cytoplasmic staining in the majority of tumor cells, with negative stromal and vascular elements. CD10 is expressed in a substantial proportion of T-lymphoblastic lymphomas and does not by itself indicate B lineage. In conjunction with CD3 and TdT positivity and absent B-cell markers, findings are consistent with T-lymphoblastic leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia/lymphoma", "vs": "B-LBL is CD10+ TdT+ but also CD19+, CD79a+ and PAX5+ and lacks CD3."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt is CD10+ but CD20+, TdT-negative, with a starry-sky pattern and MYC rearrangement."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL has CD10+ T follicular helper cells but they are mature, TdT-negative, and accompanied by FDC meshworks and arborizing vessels."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD10",
+  "match": "consistent",
+  "high_yield": false
+}

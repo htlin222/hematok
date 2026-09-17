@@ -1,0 +1,22 @@
+{
+  "id": "13267",
+  "recognize_zh": "視野中央有一顆大型細胞，細胞質形成厚實的紫色環狀邊緣，中間是一個大空泡，裡面是蒼白、顆粒狀的消化殘骸（已被分解的紅血球），代表「已完成」的吞噬紅血球現象；周圍還有數顆細胞質豐富、核圓的大型細胞。",
+  "features": [
+    "Large central cell with a thick basophilic cytoplasmic rim surrounding a large phagocytic vacuole",
+    "Vacuole contains pale, granular, partially digested material (ghosts of ingested red cells)",
+    "Scattered large cells with abundant eosinophilic cytoplasm and round nuclei with vesicular chromatin and nucleoli",
+    "Background of numerous extravasated red cells and small dark nucleated cells (erythroid precursors/lymphocytes)",
+    "Poorly preserved, high-contrast section limits nuclear detail"
+  ],
+  "describe_en": "Section (H&E) shows a cellular infiltrate with abundant red cells and small dark nucleated cells. Scattered large cells with abundant eosinophilic cytoplasm and round, vesicular nuclei with small nucleoli are present. Centrally, a large cell with a thick cytoplasmic rim contains a large vacuole filled with pale granular debris, consistent with digested phagocytosed red cells. The image alone cannot establish lineage of the phagocytic cell; in the given context, findings are consistent with anaplastic large cell lymphoma with tumor-cell erythrophagocytosis, which should be confirmed by CD30 and ALK immunohistochemistry.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis (benign histiocytes)", "vs": "HLH histiocytes have bland small nuclei and are CD68/CD163-positive and CD30/ALK-negative, whereas ALCL cells are atypical and CD30-positive."},
+    {"dx": "Megakaryocyte with emperipolesis", "vs": "Megakaryocytes have lobulated nuclei and engulf intact hematopoietic cells rather than digested red cells."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Carcinoma forms cohesive clusters and is keratin-positive, and melanoma is S100/SOX10-positive, whereas ALCL is CD30-positive and keratin-negative."},
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytic sarcoma expresses CD163/CD68 and lacks strong uniform CD30 and ALK."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

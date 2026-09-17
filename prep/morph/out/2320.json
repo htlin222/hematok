@@ -1,0 +1,20 @@
+{
+  "id": "2320",
+  "recognize_zh": "高倍周邊血中有兩顆細緻染色質、淡藍色細胞質的大型母細胞，旁邊一顆細胞質塞滿粗大圓形顆粒的幼稚顆粒球（嗜鹼性或嗜酸性系），母細胞與異常顆粒球並存，符合 CML 急性轉化。",
+  "features": [
+    "Two large blasts with high N:C ratio, fine chromatin and faint nucleoli",
+    "Moderate pale blue cytoplasm, one with a clear perinuclear zone",
+    "Adjacent immature granulocyte with abundant coarse round cytoplasmic granules and small vacuoles",
+    "Background red cells include target cells and a cell with a refractile ring artifact"
+  ],
+  "describe_en": "High-power view of the peripheral blood smear shows two large blasts with fine chromatin, faint nucleoli and moderate pale blue cytoplasm. Adjacent is an immature granulocyte with numerous coarse, round cytoplasmic granules, likely of basophil or eosinophil lineage. Background red cells include target cells and a refractile drying artifact. In a patient with CML, BCR-ABL1-positive, findings are consistent with blast phase.",
+  "ddx": [
+    {"dx": "AML with inv(16) or t(16;16)", "vs": "Abnormal eosinophils in inv(16) have large dark basophilic granules with a monocytic component, and the entity lacks BCR-ABL1."},
+    {"dx": "Acute basophilic leukemia", "vs": "Blasts with coarse basophilic granules without BCR-ABL1 or prior CML favor acute basophilic leukemia."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL promyelocytes have bilobed nuclei, dense azurophilic granules and Auer rod bundles with PML::RARA, rather than coarse round granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

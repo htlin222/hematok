@@ -1,0 +1,22 @@
+{
+  "id": "66282",
+  "recognize_zh": "箭頭所指為一群細胞中核質比高、染色質細緻並有一個明顯大核仁的母細胞；周圍布滿前骨髓球、骨髓球、後骨髓球、帶狀及分葉核中性球，並有血小板聚集，呈典型 CML 的連續成熟光譜，母細胞只是其中少數。",
+  "features": [
+    "Arrowed blast: large cell with high N:C ratio, round nucleus, fine chromatin and a single prominent nucleolus",
+    "Blast cytoplasm scant to moderate, pale blue-grey, without visible Auer rods",
+    "Surrounding cells show a full spectrum of granulocytic maturation: promyelocytes, myelocytes, metamyelocytes, band and segmented neutrophils",
+    "Occasional cells with dark granules possibly representing basophils; platelet clumps present",
+    "Red cells normocytic without significant poikilocytosis; overall appearance of marked leukocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with a full spectrum of granulocytic maturation, including promyelocytes, myelocytes, metamyelocytes, band and segmented neutrophils, with clusters of platelets. The arrowed cell is a blast with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, a prominent nucleolus and scant agranular cytoplasm, without Auer rods. Blasts appear infrequent relative to maturing forms in this field. Findings are consistent with chronic myeloid leukemia, BCR::ABL1-positive; a manual differential with blast and basophil counts is needed to stage the disease.",
+  "ddx": [
+    {"dx": "Leukemoid reaction / reactive neutrophilia", "vs": "Reactive states show predominantly mature neutrophils with toxic changes and few myelocytes or blasts, lack basophilia, and are BCR::ABL1 negative."},
+    {"dx": "Atypical CML, BCR::ABL1-negative / CMML", "vs": "aCML shows prominent dysgranulopoiesis and CMML shows monocytosis ≥10%, whereas CML has well-granulated cells with myelocyte and neutrophil peaks and basophilia."},
+    {"dx": "CML in accelerated/blast phase", "vs": "Separated by counting blasts (≥20% for blast phase, or an increasing proportion) and basophils rather than by the morphology of a single blast."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL shows ≥80% segmented/band neutrophils with <10% immature granulocytes and CSF3R mutation, lacking the myelocyte bulge seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60570",
+  "recognize_zh": "淋巴結切片中央有一個大型細胞，周圍有空暈 (retraction artifact)，細胞含兩個相鄰的大型空泡狀核，其中一個有明顯的嗜酸性巨大核仁，背景為小淋巴球、組織球與嗜酸性球，符合典型霍奇金淋巴瘤的 Hodgkin/Reed-Sternberg 細胞。",
+  "features": [
+    "Large cell with abundant pale, finely vacuolated cytoplasm surrounded by a clear retraction halo",
+    "Two closely apposed large vesicular nuclei with thin, crisp nuclear membranes and cleared chromatin",
+    "Large, inclusion-like eosinophilic/magenta macronucleolus in one nucleus and a smaller nucleolus in the other",
+    "Background of small lymphocytes, histiocytes with vesicular nuclei and an occasional eosinophil (lower right)",
+    "Delicate fibrillary stroma between cells"
+  ],
+  "describe_en": "Lymph node section at high power shows a large atypical cell with abundant pale cytoplasm set in a retraction space, containing two apposed vesicular nuclei with thin nuclear membranes and a prominent inclusion-like eosinophilic macronucleolus. The background consists of small lymphocytes, histiocytes and scattered eosinophils. Although the image caption describes a mononuclear variant, the depicted cell appears bilobed/binucleate at this plane of section. Findings are consistent with a Hodgkin/Reed-Sternberg cell of classic Hodgkin lymphoma; confirmation with CD30, CD15, PAX5 (weak) and CD45 negativity is recommended.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma (LP cells)", "vs": "LP 'popcorn' cells have multilobated folded nuclei with small nucleoli and are CD20+/CD45+ and CD30/CD15 negative."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows sheets of hallmark cells with horseshoe/kidney nuclei and sinusoidal growth, CD30+ with T-cell markers or ALK and no CD15/PAX5."},
+    {"dx": "EBV-positive immunoblasts in infectious mononucleosis", "vs": "Reactive immunoblasts have smaller amphophilic nucleoli, retain CD45/CD20 expression and occur in a polymorphous proliferation with preserved architecture."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL large cells are strongly CD20+/CD45+ and CD30/CD15 negative in a histiocyte-rich background."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": true
+}

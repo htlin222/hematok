@@ -1,0 +1,21 @@
+{
+  "id": "2928",
+  "recognize_zh": "低倍周邊血液抹片中，幾乎每一顆白血球周圍都有一小圈淡紫色血小板黏附，而白血球之間的游離血小板很少，這種遍布全片的規律分布提示 EDTA 引起的血小板衛星現象。",
+  "features": [
+    "Low-power field with evenly spread normocytic red cells",
+    "Most leukocytes (predominantly neutrophils) are surrounded by small halos of adherent platelets",
+    "Free platelets between leukocytes are sparse",
+    "No large free platelet clumps or schistocytes identified",
+    "Cellular detail limited at this magnification"
+  ],
+  "describe_en": "Low-power view of a peripheral blood smear shows evenly distributed normocytic red cells and scattered leukocytes. Nearly every leukocyte, predominantly neutrophils, is surrounded by a small halo of adherent platelets, while free platelets in the intervening field are sparse. Large free platelet clumps and schistocytes are not seen. Individual platelet and leukocyte morphology cannot be assessed at this magnification. Findings are consistent with EDTA-dependent platelet satellitism, which will spuriously lower the automated platelet count.",
+  "ddx": [
+    {"dx": "True thrombocytopenia", "vs": "True thrombocytopenia shows a uniform scarcity of platelets without platelets aggregated around leukocytes."},
+    {"dx": "EDTA-induced platelet clumping", "vs": "Clumping produces free-floating platelet aggregates, often at the feathered edge, rather than rosettes around leukocytes."},
+    {"dx": "Bacteremia or intracellular organisms", "vs": "Organisms lie within neutrophil cytoplasm or free in plasma and stain darker and more uniformly than granular platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

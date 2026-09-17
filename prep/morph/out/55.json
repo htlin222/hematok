@@ -1,0 +1,35 @@
+{
+  "id": "55",
+  "recognize_zh": "真皮內有由上到下的結節狀至瀰漫性淋巴浸潤，混有殘存濾泡（CD21/CD23 樹突細胞網）與大量背景 T 細胞及組織球；關鍵在 ISH 顯示漿細胞輕鏈比例明顯偏向一側（一個輕鏈大量陽性、另一個僅零星），支持皮膚邊緣區淋巴瘤而非反應性增生。",
+  "features": [
+    "Dense nodular to diffuse dermal lymphoid infiltrate extending into deep dermis and dissecting collagen bundles, with a thin uninvolved papillary zone",
+    "Heterogeneous cytology: small lymphocytes, marginal zone-type/monocytoid cells, scattered large immunoblast-like cells with vesicular chromatin, and histiocytes with pale vacuolated cytoplasm",
+    "Residual follicles highlighted by an expanded, partly disrupted follicular dendritic cell meshwork (membranous IHC)",
+    "Numerous membrane-positive lymphocytes on two IHC stains (B- and T-cell markers, not labeled) and a nuclear marker concentrated in follicle-like clusters",
+    "Scattered larger positive cells with membranous/Golgi staining on another unlabeled IHC, in keeping with reactive large immunoblasts",
+    "Light chain ISH: abundant positive plasma cells for one light chain versus only rare cells for the other, indicating a light chain-restricted plasmacytic population"
+  ],
+  "describe_en": "Skin punch biopsy shows a dense nodular and diffuse lymphoid infiltrate occupying the superficial and deep dermis, sparing the epidermis and dissecting between collagen bundles. The infiltrate is polymorphous, composed of small lymphocytes, marginal zone-type cells, histiocytes and scattered large transformed cells, with residual reactive follicles outlined by follicular dendritic cell meshworks. Immunohistochemistry (markers not labeled in the images) shows abundant B cells as well as a prominent background T-cell population, and scattered large immunoblasts. In situ hybridization for kappa and lambda demonstrates a markedly skewed light chain ratio among the plasma cells. Findings are consistent with cutaneous extranodal marginal zone lymphoma; systemic staging is recommended.",
+  "ddx": [
+    {"dx": "Cutaneous lymphoid hyperplasia (pseudolymphoma)", "vs": "It may show identical nodular infiltrates with follicles but the plasma cells are polytypic on kappa/lambda ISH, without an infiltrative sheet-like B-cell population."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "It lacks residual follicles and light chain-restricted plasma cells, and its scattered large cells are neoplastic B cells rather than the reactive immunoblasts seen here among marginal zone cells."},
+    {"dx": "Primary cutaneous follicle center lymphoma", "vs": "It is composed of centrocytes and centroblasts with BCL6+ (often CD10+) cells extending outside follicles, rather than marginal zone cells with monotypic plasmacytic differentiation."},
+    {"dx": "Primary cutaneous CD4+ small/medium T-cell lymphoproliferative disorder", "vs": "The dominant atypical cells are PD-1+ CD4+ T cells with a clonal TCR, whereas here B cells predominate with monotypic plasma cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (unlabeled markers); ISH kappa/lambda",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "IHC (marker unlabeled): numerous membrane-positive lymphocytes in the superficial dermis beneath the epidermis",
+    "IHC (marker unlabeled): dense sheet of membrane-positive lymphoid cells in the dermis",
+    "Nuclear IHC (marker unlabeled): positive cells concentrated in follicle-like clusters with scattered positive cells between",
+    "FDC IHC (CD21/CD23-type pattern): expanded, partly disrupted dendritic meshworks around follicles",
+    "IHC (marker unlabeled): scattered large positive cells with membranous and dot-like staining, consistent with immunoblasts",
+    "H&E low power: dense nodular and diffuse lymphoid infiltrate throughout the dermis",
+    "H&E: polymorphous infiltrate with histiocytes around a hair follicle infundibulum",
+    "H&E high power: mixture of small lymphocytes, larger vesicular cells and vacuolated histiocytes",
+    "Light chain ISH: abundant positive plasma cells",
+    "Opposite light chain ISH: only rare positive cells, indicating light chain restriction"
+  ]
+}

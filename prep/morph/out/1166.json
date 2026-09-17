@@ -1,0 +1,22 @@
+{
+  "id": "1166",
+  "recognize_zh": "箭頭所指的紅血球中央有一團血紅素聚集，外圍是蒼白環，再外圈是血紅素邊緣，呈「靶心」樣，即標靶細胞（target cell / codocyte）；背景還有多個類似細胞與摺疊紅血球。",
+  "features": [
+    "Target cells (codocytes): central dense hemoglobin spot, surrounding pale ring and peripheral hemoglobinized rim (arrow)",
+    "Several additional target cells and cells with irregular central pallor",
+    "Folded and elongated red cells with a central fold or ridge",
+    "Occasional echinocyte (crenated cell)",
+    "Scattered platelets; no leukocytes of note in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous red cells with a central dense zone of hemoglobin surrounded by a pale halo and an outer hemoglobinized rim, consistent with target cells (arrow). Folded and elongated red cells and an occasional echinocyte are also present. No sickle cells or hemoglobin crystals are identified in this field. Target cells reflect an increased membrane-to-volume ratio and are suggestive of a hemoglobinopathy (e.g., hemoglobin C or E, thalassemia) or liver disease; hemoglobin analysis is recommended.",
+  "ddx": [
+    {"dx": "Stomatocytes", "vs": "Stomatocytes have a slit-like or mouth-shaped central pallor without a central hemoglobin spot."},
+    {"dx": "Hemoglobin C crystals / Hb SC disease", "vs": "HbC and SC disease show dense rhomboid or knobby crystals protruding from red cells, which are not present here."},
+    {"dx": "Artifactual targeting (slow drying, humidity)", "vs": "Artifactual target cells are distributed only in thick or poorly dried areas and are not accompanied by other shape changes."},
+    {"dx": "Liver disease or post-splenectomy targeting", "vs": "Morphology is identical; these are distinguished by clinical history, lipid studies, and a normal hemoglobin electrophoresis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

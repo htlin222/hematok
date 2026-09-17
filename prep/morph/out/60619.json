@@ -1,0 +1,22 @@
+{
+  "id": "60619",
+  "recognize_zh": "骨髓抹片中一個巨噬細胞胞質內塞滿數十顆大小一致（約 2–4 µm）的小卵圓形酵母菌，每顆中央深染、周圍有一圈透明暈（假莢膜樣），符合莢膜組織漿菌（Histoplasma capsulatum）。",
+  "features": [
+    "Macrophage with abundant vacuolated cytoplasm containing numerous small, uniform oval yeast forms (approximately 2–4 µm)",
+    "Each organism has a dark-staining eccentric crescent or dot of cytoplasm surrounded by a clear halo (artifactual retraction, not a true capsule)",
+    "Some yeasts appear extracellular or within an adjacent vacuolated histiocyte",
+    "No true septate hyphae or central transverse septum (no binary fission) evident",
+    "Background marrow with erythroid precursors and a megakaryocyte-like nucleus"
+  ],
+  "describe_en": "The bone marrow aspirate smear shows a macrophage whose cytoplasm is filled with numerous small, uniform, oval intracellular yeast forms measuring approximately 2–4 µm, each with a dark-staining crescent of cytoplasm surrounded by a clear halo. Similar organisms are present in an adjacent vacuolated histiocyte. No elongated forms with transverse septa are identified. Findings are consistent with disseminated histoplasmosis (Histoplasma capsulatum); confirmation by GMS/PAS stain, culture, or urine/serum antigen testing is recommended.",
+  "ddx": [
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts vary more in size, include elongated sausage-shaped forms and divide by fission with a central transverse septum rather than budding."},
+    {"dx": "Leishmania donovani amastigotes", "vs": "Leishmania amastigotes have a nucleus plus a rod-shaped kinetoplast and lack a clear halo, whereas Histoplasma has no kinetoplast."},
+    {"dx": "Candida glabrata", "vs": "C. glabrata is slightly larger, lacks the halo, and is usually accompanied by budding without intracellular packing in marrow histiocytes."},
+    {"dx": "Toxoplasma gondii tachyzoites", "vs": "Toxoplasma tachyzoites are crescent-shaped with a central nucleus and no surrounding halo or cell wall."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

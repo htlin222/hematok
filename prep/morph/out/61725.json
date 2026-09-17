@@ -1,0 +1,20 @@
+{
+  "id": "61725",
+  "recognize_zh": "這是 blast gate 的 CD15 對 CD10 流式圖：綠色異常芽細胞群 CD15 完全陰性，CD10 大多為陰性至部分弱陽性，呈垂直條狀分布；缺乏 CD15（成熟髓系）與明確 CD10 表現，有助排除粒細胞分化與 B 淋巴芽細胞白血病。",
+  "features": [
+    "Dot plot: CD15-PB (x-axis) versus CD10-APC700 (y-axis), gated on blasts",
+    "Abnormal population (green) CD15-negative",
+    "Green population shows a vertical smear of CD10 from negative to dim/partial, without a discrete bright CD10+ cluster",
+    "Red residual events also CD15-negative to dim and CD10-negative",
+    "No mature granulocytic (CD15-bright) contamination within the blast gate"
+  ],
+  "describe_en": "Flow cytometric dot plot of CD15 versus CD10 gated on blasts shows the abnormal population (green) to be CD15-negative with CD10 ranging from negative to dim partial expression, without a discrete CD10-bright cluster. Residual events (red) are also largely negative. Absence of CD15 argues against granulocytic or monocytic maturation, and the lack of bright CD10 argues against B-lymphoblastic or Burkitt leukemia. This pertinent-negative profile is compatible with blastic plasmacytoid dendritic cell neoplasm when combined with CD4, CD56 and bright CD123 expression.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL usually shows uniform CD10 with CD19/CD22/TdT, rather than a CD10-negative to dim smear without B markers."},
+    {"dx": "Acute myeloid leukemia with maturation or monocytic differentiation", "vs": "These express CD15 on a subset of maturing cells, which is absent in this population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,35 @@
+{
+  "id": "114",
+  "recognize_zh": "淋巴結濾泡的生發中心內，被成群大型漿母細胞（plasmablast，細胞質豐富雙染性、核仁明顯）部分或大部分取代，周圍保留小淋巴球套區；這些大細胞 B/T 標記陰性、EBER 原位雜交陽性，符合 HHV8+/EBV+ 的生發中心親和性淋巴增生疾病（germinotropic LPD, GLD）。",
+  "features": [
+    "Lymph node with preserved follicular architecture; germinal centers partially or largely replaced by cohesive clusters of large cells",
+    "Large plasmablasts with abundant amphophilic cytoplasm, vesicular nuclei and prominent central nucleoli",
+    "Surrounding mantle of small lymphocytes; some follicles show concentric (onion-skin) mantles with regressed, vascularized germinal centers",
+    "Pan-lymphoid membranous markers stain background small lymphocytes but spare the large plasmablast clusters",
+    "EBER ISH: strong dark nuclear signal in the large cells; a further stain highlights the germinal-center clusters with nuclear/cytoplasmic positivity",
+    "Weak granular nuclear staining of the large cells with another marker (LANA-1-type pattern)"
+  ],
+  "describe_en": "Sections of the excised lymph node show retained follicular architecture in which multiple germinal centers are partially to largely replaced by aggregates of large plasmablastic cells with abundant amphophilic cytoplasm, vesicular chromatin and prominent nucleoli, surrounded by intact mantle zones; occasional follicles show concentric mantle layering with regressed germinal centers. On immunostains, membranous markers highlight the background small lymphocytes while the plasmablast clusters are negative, a further marker shows nuclear/cytoplasmic positivity restricted to the germinal-center clusters, and a nuclear marker shows weak granular staining of the large cells; EBER in situ hybridization is strongly positive in the plasmablasts. The individual antibodies are not labeled on the images. Findings are consistent with HHV8+/EBV+ germinotropic lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "KSHV/HHV8-associated multicentric Castleman disease", "vs": "In KSHV-MCD, LANA-1+ plasmablasts are scattered singly in the mantle zone, are EBV-negative and usually IgM lambda, whereas GLD plasmablasts fill germinal centers and are EBV+."},
+    {"dx": "Extracavitary primary effusion lymphoma", "vs": "Extracavitary PEL forms sheets that efface nodal architecture, whereas GLD keeps the plasmablasts confined to germinal centers with preserved follicles."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma diffusely effaces tissue and is HHV8 LANA-1 negative, while GLD is follicle-restricted and LANA-1 positive."},
+    {"dx": "Classic Hodgkin lymphoma or EBV+ DLBCL", "vs": "These lack HHV8 LANA-1 and show CD30/CD15+ Reed-Sternberg cells or diffuse sheets, rather than germinal-center-restricted LANA-1+/EBER+ plasmablasts."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E, IHC (markers unlabeled), ISH: EBER",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "H&E low power: lymphoid follicle with germinal center replaced by clusters of large cells",
+    "H&E: follicle with concentric mantle zone and regressed germinal center",
+    "H&E medium power: large plasmablast aggregates within germinal center",
+    "H&E high power: plasmablasts with amphophilic cytoplasm and prominent nucleoli",
+    "IHC (membranous marker, unlabeled): small lymphocytes positive, plasmablast clusters negative",
+    "IHC (membranous marker, unlabeled): subset of small lymphocytes positive, large cells negative",
+    "IHC (membranous marker, unlabeled): dense small-lymphocyte staining sparing large cells",
+    "IHC (nuclear marker, unlabeled): weak granular nuclear staining of large cells",
+    "EBER ISH: strong nuclear signal in large plasmablasts",
+    "IHC (marker unlabeled): nuclear/cytoplasmic positivity of germinal-center plasmablast clusters"
+  ]
+}

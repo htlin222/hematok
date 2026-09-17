@@ -1,0 +1,22 @@
+{
+  "id": "1225",
+  "recognize_zh": "抹片中血小板明顯增多，大小不一，包括大型血小板與一團聚集的血小板，部分顆粒稀少；紅血球與白血球形態大致正常；這種單純的血小板增多是原發性血小板增多症（essential thrombocythemia）的周邊血象。",
+  "features": [
+    "Markedly increased platelets scattered throughout the field",
+    "Platelet anisocytosis with large platelets and a central platelet clump",
+    "Some platelets hypogranular or with irregular granule distribution",
+    "Normal-appearing segmented neutrophil",
+    "Red cells largely normocytic and normochromic without teardrop cells or nucleated red cells"
+  ],
+  "describe_en": "Peripheral blood smear shows markedly increased platelets with anisocytosis, including large platelets, occasional hypogranular forms, and a platelet aggregate. The segmented neutrophil appears morphologically normal, and red cells are largely normocytic and normochromic without teardrop cells, nucleated red cells, or immature myeloid cells. The absence of leukoerythroblastosis argues against overt myelofibrosis. In the setting of sustained thrombocytosis with a JAK2, CALR, or MPL mutation and characteristic marrow megakaryocytes, findings are consistent with essential thrombocythemia.",
+  "ddx": [
+    {"dx": "Reactive thrombocytosis (iron deficiency, inflammation, post-splenectomy)", "vs": "Platelets are usually more uniform in size with hypochromic microcytes or Howell-Jolly bodies, and there is no MPN driver mutation."},
+    {"dx": "Chronic myeloid leukemia", "vs": "Shows leukocytosis with a myelocyte bulge and basophilia and BCR::ABL1 fusion."},
+    {"dx": "Prefibrotic primary myelofibrosis", "vs": "Separated mainly by bone marrow biopsy showing atypical clustered megakaryocytes, granulocytic hyperplasia, and often mild leukoerythroblastosis."},
+    {"dx": "Pseudothrombocytosis from red cell fragments or microspherocytes", "vs": "Fragments are pink and lack the purple granules of true platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

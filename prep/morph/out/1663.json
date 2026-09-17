@@ -1,0 +1,22 @@
+{
+  "id": "1663",
+  "recognize_zh": "周邊血液兩顆中型淋巴球：核圓、染色質中度凝集（比母細胞粗），細胞質中等量淡藍；下方細胞核中央可見一個核仁輪廓，這種「成熟染色質＋明顯單一核仁」的組合是前淋巴球（prolymphocyte）的線索。",
+  "features": [
+    "Two medium-sized lymphoid cells, roughly twice the diameter of a small lymphocyte",
+    "Round nuclei with moderately condensed chromatin, coarser than blast chromatin",
+    "Single central nucleolus suggested in the lower cell",
+    "Moderate rim of pale blue cytoplasm",
+    "Background red cells with rouleaux-like stacking in thicker areas"
+  ],
+  "describe_en": "Peripheral blood smear shows two medium-sized lymphoid cells with round nuclei, moderately condensed chromatin and a moderate rim of pale blue cytoplasm; the lower cell shows a single central nucleolus. The chromatin is more mature than that of lymphoblasts. Findings are suggestive of prolymphocytes; in context of a marked lymphocytosis with more than 55% such cells this would suggest prolymphocytic leukemia, although B-PLL is no longer a distinct entity in WHO 2022 and cases are reclassified (e.g., as mantle cell lymphoma, CLL in progression or splenic B-cell lymphoma with prominent nucleoli). Flow cytometry and cyclin D1/CCND1 testing are required.",
+  "ddx": [
+    {"dx": "Lymphoblast (B-ALL)", "vs": "Lymphoblasts have finely dispersed chromatin and scant cytoplasm and are TdT/CD34-positive, whereas these cells have condensed chromatin with a distinct nucleolus."},
+    {"dx": "Mantle cell lymphoma, blastoid or leukemic", "vs": "Can look identical; cyclin D1 expression or t(11;14) identifies mantle cell lymphoma."},
+    {"dx": "CLL with increased prolymphocytes", "vs": "Prolymphocytes are admixed with a background of small mature CLL cells and smudge cells, with a CD5+/CD23+ dim-sIg phenotype."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells are smaller with irregular nuclear outlines and cytoplasmic blebs and express T-cell markers with TCL1A rearrangement."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

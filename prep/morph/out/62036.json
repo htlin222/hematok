@@ -1,0 +1,22 @@
+{
+  "id": "62036",
+  "recognize_zh": "高倍下可見大型異型細胞連續成片（confluent sheets）取代淋巴組織，核大呈泡狀、核仁明顯、細胞質豐富嗜酸性，並有核分裂與凋亡小體，小淋巴球僅零星夾雜，符合 NLPHL 進展為瀰漫性大 B 細胞淋巴瘤。",
+  "features": [
+    "Confluent sheets of large atypical cells replacing the lymphoid background",
+    "Large vesicular nuclei with irregular contours, some multilobated, and prominent eosinophilic nucleoli",
+    "Moderate to abundant eosinophilic cytoplasm with indistinct cell borders",
+    "Mitotic figures and apoptotic bodies scattered throughout",
+    "Only scattered interspersed small lymphocytes; delicate fibrillary stroma"
+  ],
+  "describe_en": "High-power H&E section shows confluent sheets of large atypical cells with large vesicular, irregular to multilobated nuclei, prominent eosinophilic nucleoli, and moderate to abundant eosinophilic cytoplasm. Mitotic figures and apoptotic bodies are readily identified, and small lymphocytes are reduced to scattered interspersed cells. The large cells no longer occur singly within a lymphocyte-rich background but form sheets. In the setting of nodular lymphocyte predominant Hodgkin lymphoma, findings are consistent with progression to diffuse large B-cell lymphoma; CD20, PAX5, OCT2, CD30, CD15 and EBER should confirm the B-cell phenotype and exclude other large-cell neoplasms.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma, lymphocyte-depleted / syncytial variant", "vs": "Syncytial sheets of HRS cells are CD30+/CD15+ with weak PAX5 and absent OCT2/BOB1, unlike the strong B-cell program of LP-derived DLBCL."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows hallmark cells with horseshoe nuclei and uniform strong CD30 with T-cell or ALK expression, rather than CD20+ large B cells."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Carcinoma and melanoma form cohesive nests with keratin or S100/SOX10 positivity and are CD45 negative."},
+    {"dx": "Primary mediastinal or de novo DLBCL", "vs": "Morphology is indistinguishable, so the relationship to NLPHL is established by residual NLPHL areas and clinical history."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

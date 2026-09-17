@@ -1,0 +1,21 @@
+{
+  "id": "19710",
+  "recognize_zh": "腦部 MRI（A）有多發 T2 高訊號病灶，腦組織切片（B）可見致密的漿細胞樣浸潤緊鄰腦實質，腦脊髓液抹片（C）可見核偏心、細胞質深藍且有核周淡染區的漿細胞（含雙核型），符合漿細胞腫瘤侵犯腦實質與腦脊髓液。",
+  "features": [
+    "Brain MRI (T2-weighted) with multiple bilateral hyperintense cortical/subcortical lesions (panel A)",
+    "Brain tissue with a dense sheet-like infiltrate of plasmacytoid cells with eccentric round nuclei beneath gliotic eosinophilic parenchyma (panel B)",
+    "CSF cytospin with atypical plasma cells showing eccentric nuclei, clumped chromatin, and deeply basophilic cytoplasm (panel C)",
+    "One binucleated plasma cell and cells with perinuclear hof in the CSF",
+    "No inflammatory background of neutrophils or small reactive lymphocytes in the CSF field"
+  ],
+  "describe_en": "Brain MRI shows multiple bilateral T2-hyperintense parenchymal lesions. The brain biopsy shows a dense, sheet-like infiltrate of plasmacytoid cells with eccentric round nuclei and amphophilic cytoplasm infiltrating beneath gliotic parenchyma. The CSF cytospin contains atypical plasma cells with eccentric nuclei, coarse chromatin, deeply basophilic cytoplasm, and occasional binucleation, without a reactive inflammatory background. Findings are consistent with central nervous system involvement by a plasma cell neoplasm (reported IgA-lambda plasma cell myeloma with parenchymal and leptomeningeal/CSF disease); confirmation with CD138 and lambda light chain restriction by IHC or flow cytometry is recommended.",
+  "ddx": [
+    {"dx": "Lymphoplasmacytic lymphoma (Bing-Neel syndrome)", "vs": "Bing-Neel shows a mixture of small lymphocytes, plasmacytoid lymphocytes, and plasma cells with IgM paraprotein and MYD88 L265P, rather than a pure plasma cell population with IgA-lambda."},
+    {"dx": "Reactive plasmacytosis in CNS infection or inflammation", "vs": "Reactive CSF plasma cells are mature, sparse, and admixed with lymphocytes and monocytes, and are polytypic for kappa and lambda."},
+    {"dx": "Plasmablastic lymphoma or DLBCL with plasmacytic differentiation", "vs": "These show larger cells with vesicular chromatin and prominent nucleoli, a high Ki-67, and often EBV/MYC positivity, without a history of myeloma."}
+  ],
+  "specimen": "CSF",
+  "stain": "H&E (B); Wright-Giemsa cytospin (C)",
+  "match": "consistent",
+  "high_yield": false
+}

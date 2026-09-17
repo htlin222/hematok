@@ -1,0 +1,36 @@
+{
+  "id": "129",
+  "recognize_zh": "淋巴結結構被單一型態、中等大小的淋巴球瀰漫性取代，細胞核略不規則、染色質細緻，部分有明顯核仁與核分裂（多形性變異型的線索）；免疫染色可見瀰漫性強核染色（符合 cyclin D1／SOX11／p53 類型）及偏高的增生指數，支持具不良預後特徵的被套細胞淋巴瘤（mantle cell lymphoma）。",
+  "features": [
+    "Diffuse effacement of nodal architecture by a monotonous lymphoid infiltrate around a hyalinized vessel",
+    "Medium-sized to larger cells with slightly irregular/cleaved nuclei, finely dispersed chromatin and small but distinct nucleoli in a subset (pleomorphic features)",
+    "Scant pale cytoplasm; scattered mitotic figures; occasional pink histiocytes",
+    "Touch imprint: sheets of monotonous medium-to-large cells with high N:C ratio, fine chromatin and occasional nucleoli",
+    "IHC: diffuse strong membranous B-cell-type staining, diffuse strong nuclear staining in most tumor cells, and a proliferation-type nuclear stain positive in a substantial fraction (stains not labeled on images)",
+    "Scattered granular-cytoplasm positive background cells on one stain, with tumor cells negative"
+  ],
+  "describe_en": "Sections of lymph node show diffuse effacement of the architecture by a monotonous proliferation of lymphoid cells surrounding a hyalinized vessel. At high power the cells are medium to large, with slightly irregular nuclear contours, finely dispersed chromatin, small distinct nucleoli in a subset and scant cytoplasm; mitotic figures are readily found, and a touch imprint shows a corresponding population of monotonous blastoid-to-pleomorphic cells. Immunohistochemical stains (not labeled on the images) show diffuse membranous positivity in the neoplastic cells, diffuse strong nuclear positivity in the majority of cells, and a nuclear proliferation stain highlighting a substantial fraction of cells, with scattered non-neoplastic reactive cells. In the context of cyclin D1 and SOX11 expression with p53 overexpression and Ki-67 >30%, the findings are consistent with mantle cell lymphoma with pleomorphic features and adverse prognostic markers.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "Pleomorphic MCL can mimic DLBCL morphologically, but MCL is cyclin D1 and SOX11 positive with t(11;14), whereas DLBCL is cyclin D1 negative (or only weak in rare CD5+ cases) and SOX11 negative."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma with proliferation centers", "vs": "CLL/SLL shows small round cells with clumped chromatin, paler proliferation centers with paraimmunoblasts, CD23 and LEF1 positivity, and lacks cyclin D1 and SOX11."},
+    {"dx": "Lymphoblastic lymphoma / blastoid neoplasm", "vs": "Lymphoblastic lymphoma expresses TdT (and often CD34) and lacks cyclin D1, while blastoid MCL is TdT negative and cyclin D1/SOX11 positive."},
+    {"dx": "Cyclin D1-positive plasma cell neoplasm or hairy cell leukemia", "vs": "These may express cyclin D1 but differ in morphology (plasmacytoid cells or abundant cytoplasm with hairy projections), are SOX11 negative, and have distinct immunophenotypes (CD138 or CD103/CD25/annexin A1)."}
+  ],
+  "specimen": "LN",
+  "stain": "Romanowsky touch imprint, H&E, IHC (unlabeled)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Touch imprint: sheets of monotonous medium-to-large lymphoid cells with fine chromatin and occasional nucleoli",
+    "H&E low power: diffuse effacement of the lymph node around a hyalinized vessel",
+    "H&E high power: medium-to-large cells with irregular nuclei, distinct nucleoli and a mitotic figure (pleomorphic features)",
+    "IHC (unlabeled): diffuse strong membranous/cytoplasmic staining of tumor cells",
+    "IHC (unlabeled): scattered strongly positive non-neoplastic cells with granular cytoplasmic staining; tumor cells negative",
+    "IHC (unlabeled): diffuse membranous staining of tumor cells",
+    "IHC (unlabeled): nuclear staining in scattered clustered cells, likely proliferation marker",
+    "IHC (unlabeled): weak-to-moderate nuclear staining in most tumor cells",
+    "IHC (unlabeled): strong nuclear staining in a substantial fraction of cells around a vessel, likely Ki-67",
+    "IHC (unlabeled): diffuse strong nuclear staining in nearly all tumor cells (cyclin D1/SOX11/p53 pattern)",
+    "IHC (unlabeled): diffuse strong membranous staining of tumor cells, likely a pan-B-cell marker"
+  ]
+}

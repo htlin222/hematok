@@ -1,0 +1,21 @@
+{
+  "id": "62075",
+  "recognize_zh": "骨髓抹片中有一團緊密黏合、互相擠壓的大型細胞，核圓且有細顆粒染色質與小核仁，細胞質深藍並含多個小空泡，與周圍分散的血球明顯不同，提示轉移性腫瘤細胞群。",
+  "features": [
+    "Tight cohesive cluster of large cells distinct from surrounding dispersed hematopoietic elements",
+    "High N:C ratio with round nuclei showing nuclear crowding and molding",
+    "Finely granular chromatin with small nucleoli in some cells",
+    "Deeply basophilic cytoplasm containing multiple small clear vacuoles",
+    "Background shows mainly smeared red cells and few nucleated cells; overall marrow cellularity cannot be judged from this single field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a tight, cohesive three-dimensional cluster of large cells that stands out from the dispersed background elements. The cells have high nuclear-to-cytoplasmic ratios, round crowded nuclei with focal molding, finely granular chromatin with small nucleoli, and deeply basophilic cytoplasm containing multiple small vacuoles. The background contains mostly red cells with few hematopoietic cells, although overall cellularity should be assessed on the biopsy. Findings are consistent with a metastatic non-hematopoietic tumor cell cluster; the primary site requires correlation with the core biopsy and immunohistochemistry.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells also have basophilic vacuolated cytoplasm but are discohesive single cells rather than a molded cohesive cluster, and are CD20/CD10-positive."},
+    {"dx": "Osteoblast cluster", "vs": "Osteoblasts have eccentric nuclei with a pale cytoplasmic hof away from the nucleus and lie in loose groups rather than crowded molded clusters with vacuoles."},
+    {"dx": "Clumped acute leukemia blasts or plasma cells", "vs": "Aggregated blasts or plasma cells lack true cohesion and nuclear molding, and are identified by flow cytometry markers (CD45, CD34, CD138) rather than keratin or neuroendocrine markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63730",
+  "recognize_zh": "粗箭頭處是一顆巨大的成熟巨核細胞，粉紫色細顆粒胞質中包著多顆完整的嗜中性球與幼紅血球，這些細胞位於胞質內而非疊在表面，就是穿核現象（emperipolesis）；細箭頭指的是較小、胞質深藍的嗜鹼性（未成熟）巨核細胞。",
+  "features": [
+    "Large mature megakaryocyte with abundant pale lilac finely granular cytoplasm and lobulated nucleus (thick arrow)",
+    "Multiple intact hematopoietic cells (neutrophils/granulocytes and erythroid precursors) sitting within the megakaryocyte cytoplasm, each with a clear halo",
+    "Engulfed cells retain normal nuclear detail, indicating viable passage rather than phagocytic degradation",
+    "Smaller basophilic megakaryocyte with dense deeply basophilic cytoplasm and a single large nucleus (thin arrow)",
+    "Background of marrow particle with scattered granulocytes and erythroid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large mature megakaryocyte with abundant finely granular lilac cytoplasm and a lobulated nucleus, containing numerous intact hematopoietic cells, including granulocytes and erythroid precursors, within its cytoplasm, each surrounded by a clear halo. The engulfed cells show preserved nuclear morphology, consistent with emperipolesis rather than phagocytosis. An adjacent smaller megakaryocyte with deeply basophilic cytoplasm represents an immature (basophilic) megakaryocyte. Megakaryocytic emperipolesis is a nonspecific finding that can be increased in reactive states, myeloproliferative neoplasms (notably primary myelofibrosis) and gray platelet syndrome.",
+  "ddx": [
+    {"dx": "Hemophagocytosis by macrophages", "vs": "In hemophagocytosis a macrophage with a bean-shaped nucleus contains degraded, pyknotic cells in phagocytic vacuoles, whereas here a lobulated megakaryocyte contains intact viable cells."},
+    {"dx": "Cells overlying the megakaryocyte (smear artifact)", "vs": "Overlying cells lie in a different focal plane without a surrounding clear halo within the cytoplasm."},
+    {"dx": "Rosai-Dorfman disease emperipolesis", "vs": "RDD shows lymphocytes within large S-100-positive histiocytes with vesicular nuclei, not within megakaryocytes."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts have multiple separate round nuclei rather than a single lobulated nucleus, and do not contain intact hematopoietic cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

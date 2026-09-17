@@ -1,0 +1,30 @@
+{
+  "id": "84",
+  "recognize_zh": "真皮內片狀排列、胞質豐富淡嗜酸性的細胞，核呈卵圓形並有明顯核溝、摺疊（coffee-bean／腎形），外觀像 Langerhans 細胞；S100 強陽性、CD1a 樣膜染色部分陽性，但 langerin 陰性，指向 indeterminate dendritic cell tumor。",
+  "features": [
+    "Diffuse sheets of large mononuclear cells with abundant pale eosinophilic cytoplasm and indistinct cell borders",
+    "Oval to reniform nuclei with prominent longitudinal grooves and nuclear folds, fine chromatin and small nucleoli (Langerhans-like)",
+    "Aggregate of small mature lymphocytes at the edge; eosinophils are not prominent",
+    "Strong diffuse nuclear and cytoplasmic S100 positivity in lesional cells",
+    "Partial membranous/cytoplasmic staining for a second dendritic-cell marker (likely CD1a; label not provided)",
+    "Lesional cells negative for a third marker (consistent with langerin), with only rare background positivity"
+  ],
+  "describe_en": "Skin biopsy shows a diffuse dermal infiltrate composed of sheets of large histiocytoid cells with abundant pale eosinophilic cytoplasm, admixed with a small aggregate of mature lymphocytes. The lesional cells have oval to kidney-shaped nuclei with conspicuous nuclear grooves and folds, fine chromatin and small nucleoli; significant eosinophil infiltration, necrosis or marked pleomorphism is not seen. By immunohistochemistry (markers not labeled on the images), the cells are strongly positive for S100, show membranous staining for a dendritic-cell marker consistent with CD1a, and are negative for a marker consistent with langerin. Findings are consistent with indeterminate dendritic cell tumor; absence of Birbeck granules by electron microscopy supports the diagnosis.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells have identical grooved nuclei and are S100+/CD1a+ but are langerin (CD207)-positive with Birbeck granules and usually have admixed eosinophils, whereas these cells are langerin-negative."},
+    {"dx": "Rosai-Dorfman disease (cutaneous)", "vs": "RDD histiocytes are S100+ but CD1a-negative, have round nuclei with prominent nucleoli and show emperipolesis, not grooved Langerhans-like nuclei."},
+    {"dx": "Juvenile xanthogranuloma / xanthogranuloma family", "vs": "JXG shows foamy histiocytes and Touton giant cells that are CD68/CD163/factor XIIIa-positive and CD1a-negative, usually S100-negative."},
+    {"dx": "Interdigitating dendritic cell sarcoma", "vs": "IDCS is S100+ but CD1a- and langerin-negative, typically nodal with spindled/fascicular growth."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC (S100, likely CD1a and langerin; labels not shown)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "H&E: sheets of histiocytoid cells with eosinophilic cytoplasm; small lymphocyte aggregate at top right",
+    "High power H&E: grooved, folded Langerhans-like nuclei with abundant pale cytoplasm",
+    "IHC (likely CD1a): partial membranous/cytoplasmic staining in lesional cells",
+    "IHC S100: strong diffuse nuclear and cytoplasmic staining",
+    "IHC (likely langerin): lesional cells negative"
+  ]
+}

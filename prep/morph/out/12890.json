@@ -1,0 +1,22 @@
+{
+  "id": "12890",
+  "recognize_zh": "周邊血紅血球小而蒼白、中央淡染區擴大，並有鉛筆狀細胞（pencil cells），血小板明顯增多；右上內視鏡圖可見食道蹼（esophageal web），合起來是缺鐵加 Plummer-Vinson 症候群。抹片本身無法看出 JAK2 骨髓增生性腫瘤，需分子檢測。",
+  "features": [
+    "Hypochromic, microcytic red cells with enlarged central pallor",
+    "Anisopoikilocytosis with elongated pencil (cigar) cells and occasional target cells",
+    "Increased platelets scattered throughout the field",
+    "No leukocytes, nucleated red cells or teardrop cells in the field",
+    "Inset endoscopic image showing a thin mucosal web in the upper esophagus"
+  ],
+  "describe_en": "Peripheral blood smear shows hypochromic, microcytic red cells with anisopoikilocytosis, including pencil cells and occasional target cells, and a conspicuously increased number of platelets. No nucleated red cells, teardrop cells, or immature myeloid cells are seen in this field. The endoscopic inset shows a thin esophageal web. Findings are consistent with iron deficiency anemia with thrombocytosis and Plummer-Vinson syndrome; because thrombocytosis may persist after iron repletion, testing for JAK2 V617F, CALR, and MPL mutations is warranted, as the morphology cannot distinguish reactive thrombocytosis from an underlying myeloproliferative neoplasm.",
+  "ddx": [
+    {"dx": "Thalassemia trait", "vs": "Thalassemia trait shows microcytosis with more target cells and basophilic stippling, a normal or high RBC count and normal iron studies."},
+    {"dx": "Essential thrombocythemia without iron deficiency", "vs": "ET shows thrombocytosis with normochromic red cells, and the diagnosis rests on driver mutations and marrow megakaryocyte morphology."},
+    {"dx": "Polycythemia vera with iron deficiency (masked PV)", "vs": "Iron-deficient PV may show microcytosis with a normal hemoglobin and an elevated red cell count, and is confirmed by JAK2 mutation and low EPO."},
+    {"dx": "Anemia of inflammation", "vs": "Anemia of chronic disease is usually normocytic or mildly microcytic with fewer pencil cells, high ferritin and low TIBC."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; endoscopic photograph",
+  "match": "partial",
+  "high_yield": false
+}

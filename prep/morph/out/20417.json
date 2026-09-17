@@ -1,0 +1,22 @@
+{
+  "id": "20417",
+  "recognize_zh": "紅血球大小正常，內含多個紫紅色裂殖子（merozoites）圍繞一團棕黑色瘧色素（hemozoin）的裂殖體（schizont），旁邊紅血球可見細小環狀體；嗜中性球與單核球胞質內也吞有棕黑色色素顆粒，符合重度惡性瘧（P. falciparum）感染。",
+  "features": [
+    "Mature schizonts within normal-sized, non-stippled red cells containing numerous small magenta merozoites clustered around a single dark brown-black pigment mass",
+    "Ruptured/rupturing schizont with free merozoites scattered adjacent to a pigment clump",
+    "Delicate ring form with a small chromatin dot in a neighboring red cell",
+    "Hemozoin (malaria pigment) phagocytosed within a neutrophil and within a monocyte",
+    "Host red cells not enlarged and lacking Schüffner stippling"
+  ],
+  "describe_en": "Peripheral blood smear shows red cells infected by mature schizonts containing multiple merozoites arranged around a single clump of dark brown-black pigment; one schizont appears ruptured with free merozoites. A delicate ring form is present in an adjacent erythrocyte, and infected red cells are of normal size without Schüffner dots. Brown-black hemozoin pigment is also seen within the cytoplasm of a neutrophil and a monocyte. Findings are consistent with Plasmodium falciparum infection; circulating schizonts and pigment-laden leukocytes indicate high parasite burden and severe malaria.",
+  "ddx": [
+    {"dx": "Plasmodium vivax", "vs": "P. vivax schizonts carry 12–24 larger merozoites in an enlarged red cell with Schüffner stippling, whereas falciparum-infected cells are normal-sized and schizonts are rarely seen in blood except in severe infection."},
+    {"dx": "Plasmodium malariae", "vs": "P. malariae forms rosette schizonts with about 8 merozoites around central pigment in small-to-normal red cells and shows band forms, with fewer ring forms."},
+    {"dx": "Plasmodium knowlesi", "vs": "Morphology overlaps (rings like falciparum, mature stages like malariae), so PCR and travel history to Southeast Asia are needed to separate it."},
+    {"dx": "Babesia species", "vs": "Babesia rings lack hemozoin pigment and schizonts and may form tetrad (Maltese cross) arrangements."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61633",
+  "recognize_zh": "低倍周邊血液抹片中只見少數散在的有核細胞，其中幾顆深染、偏大的單核細胞可能為循環中的淋巴瘤細胞；此放大倍率無法確認細胞細節，需結合臨床與組織切片中血管內大型 B 細胞的證據。",
+  "features": [
+    "Low-power peripheral blood smear with adequate red cell monolayer",
+    "Only a few scattered nucleated cells, suggesting leukopenia",
+    "Several darkly staining mononuclear cells, some slightly larger than a small lymphocyte",
+    "Cytologic detail (chromatin, nucleoli) not resolvable at this magnification",
+    "Occasional red cell clumps and few platelets; no obvious schistocytes"
+  ],
+  "describe_en": "Low-power view of a Wright-stained peripheral blood smear shows a paucicellular field with only a few scattered nucleated cells, several of which are mononuclear cells with dark nuclei. Red cells are largely unremarkable at this magnification, and platelets appear sparse. Nuclear and cytoplasmic detail cannot be assessed at this power, so circulating large atypical lymphoid cells cannot be confirmed or excluded from this image alone. Correlation with high-power examination, flow cytometry and tissue biopsy (e.g., random skin or marrow) is required; findings are compatible with, but not diagnostic of, peripheral blood involvement by intravascular large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Leukemic phase of diffuse large B-cell lymphoma", "vs": "Morphology of circulating cells can be identical; IVLBCL is defined by the intravascular growth pattern in tissue without a mass lesion."},
+    {"dx": "Reactive lymphocytosis / atypical lymphocytes", "vs": "Reactive lymphocytes are polyclonal with abundant cytoplasm hugging red cells, whereas lymphoma cells are monotonous with high N:C ratio and show light-chain restriction by flow."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "Can present with cytopenias and fever in Asian-variant IVLBCL, but lacks a clonal large B-cell population on biopsy."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

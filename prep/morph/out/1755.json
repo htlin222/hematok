@@ -1,0 +1,22 @@
+{
+  "id": "1755",
+  "recognize_zh": "免疫染色（抗體未標示）中，少數散在的大型細胞呈棕色膜狀與核旁點狀（Golgi）陽性，中央細胞含兩個對稱的核（雙核Reed-Sternberg細胞樣），背景小淋巴球陰性，符合何杰金氏淋巴瘤中CD30或CD15陽性的HRS細胞。",
+  "features": [
+    "Scattered large cells with strong brown membranous and paranuclear (Golgi-pattern) staining",
+    "Central binucleate cell with two mirror-image nuclei outlined by the stain, resembling a Reed-Sternberg cell",
+    "Mononuclear Hodgkin cells with ring-like membrane staining",
+    "Background of numerous small lymphocytes with unstained nuclei",
+    "Antibody is not labeled; the pattern fits CD30 or CD15"
+  ],
+  "describe_en": "Immunohistochemical stain shows scattered large cells with strong membranous and paranuclear dot-like staining, including a central binucleate Reed-Sternberg-like cell and several mononuclear Hodgkin cells, set in a background of negative small lymphocytes. The antibody is not specified in the image, but the membrane-plus-Golgi pattern is typical of CD30 or CD15 in Hodgkin/Reed-Sternberg cells. Findings are consistent with classic Hodgkin lymphoma; a full panel including CD15, CD30, PAX5, CD20, CD45, and EBER is recommended.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL cells form sheets or sinus-filling aggregates, are CD15 usually negative, PAX5 negative, and often ALK positive rather than scattered HRS cells."},
+    {"dx": "Nodular lymphocyte-predominant B-cell lymphoma", "vs": "LP cells are CD30 and CD15 negative and strongly CD20 positive within nodules of small B cells."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "The scattered large cells are CD20 and BCL6 positive and CD30/CD15 negative in a background of T cells and histiocytes."},
+    {"dx": "Reactive CD30-positive immunoblasts (e.g., infectious mononucleosis)", "vs": "Reactive immunoblasts are CD15 negative, strongly CD20/PAX5 positive, and occur in a polymorphous expanded paracortex."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: unlabeled (CD30 or CD15 pattern)",
+  "match": "consistent",
+  "high_yield": true
+}

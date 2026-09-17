@@ -1,0 +1,22 @@
+{
+  "id": "62968",
+  "recognize_zh": "抹片中為小至中型、核有切跡或凹陷（cleaved/notched）的淋巴細胞；流式第一次以 CD45 亮陽性設門時 B 細胞為多株（kappa 與 lambda 皆有），第二次在 CD45 陰性區設門才找到 kappa 限制型的 B 細胞群，說明這例濾泡性淋巴瘤細胞不表現 CD45，若只圈 CD45+ 會漏診。",
+  "features": [
+    "Small to medium lymphoid cells with clumped chromatin and notched or cleaved nuclear contours (A-D)",
+    "Scant pale cytoplasm; no granules; occasional neutrophils for size comparison (B, C)",
+    "Flow E-F: conventional CD45-bright lymphocyte gate shows polytypic CD19+ B cells (kappa and lambda both present)",
+    "Flow G-H: lymphocyte gate placed on the CD45-negative/dim low-SSC region reveals a kappa-restricted CD19+ B-cell population",
+    "Teaching point: neoplastic cells lie outside the usual CD45-positive lymphocyte gate"
+  ],
+  "describe_en": "Composite figure. Smears show small to medium-sized lymphoid cells with condensed chromatin, scant cytoplasm and notched to cleaved nuclei (A-D). Flow cytometry with a standard CD45-bright/low side scatter lymphocyte gate identifies polytypic CD19-positive B cells expressing both kappa and lambda (E, F). When the gate is redrawn to include CD45-negative events with low side scatter, a distinct kappa light chain-restricted CD19-positive B-cell population is revealed (G, H). Findings are consistent with involvement by a CD45-negative follicular lymphoma and illustrate that CD45-based gating can miss a clonal B-cell population.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-lymphoblasts are often CD45-dim/negative but are surface immunoglobulin-negative with CD34/TdT expression and fine blastic chromatin, whereas these cells carry kappa-restricted sIg."},
+    {"dx": "Plasma cell neoplasm", "vs": "Plasma cells are commonly CD45-negative but lack CD19 and surface light chains, expressing cytoplasmic light chains with CD38/CD138 bright."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL cells have irregular nuclei too but are CD5+ CD10-, cyclin D1/SOX11-positive, whereas follicular lymphoma is CD10+ BCL6+ CD5- with t(14;18)."},
+    {"dx": "Non-hematopoietic (e.g., small cell carcinoma) cells", "vs": "CD45-negative carcinoma cells lack CD19 and surface immunoglobulin and form cohesive clusters on smears."}
+  ],
+  "specimen": "flow",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

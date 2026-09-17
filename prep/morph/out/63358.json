@@ -1,0 +1,21 @@
+{
+  "id": "63358",
+  "recognize_zh": "甲苯胺藍（toluidine blue）染色下，紅血球呈藍綠色，一群淋巴球染成深紫色，細胞邊緣的球形包涵體保持透明、無異染性（metachromasia）；旁邊顆粒較明顯的細胞呈淡粉紫色，可作為對照。",
+  "features": [
+    "Cluster of small round lymphocytes with dark purple nuclei",
+    "Clear, unstained globular inclusions at the periphery of several lymphocytes",
+    "No metachromatic (red-purple) staining within the inclusions",
+    "A few cells with pinkish-purple granular cytoplasm adjacent to the cluster",
+    "Blue-green stained red cells with overlap in the background"
+  ],
+  "describe_en": "Peripheral blood smear stained with toluidine blue shows a cluster of small lymphocytes, several containing clear globular cytoplasmic inclusions. The inclusions show no metachromatic staining. Adjacent cells with granular pink-purple cytoplasm are also present, and red cells stain blue-green. Findings indicate that the lymphocyte inclusions are toluidine blue-negative, consistent with the negative results on other cytochemical stains.",
+  "ddx": [
+    {"dx": "Basophil or mast cell granules", "vs": "Basophil and mast cell granules stain metachromatically red-purple with toluidine blue, unlike the clear inclusions here."},
+    {"dx": "Mucopolysaccharidosis (Alder-Reilly/Gasser inclusions)", "vs": "Glycosaminoglycan inclusions in lymphocytes are metachromatic with toluidine blue and are small granules rather than large clear globules."},
+    {"dx": "Lipid or glycogen vacuoles", "vs": "These are toluidine blue-negative too, so Oil Red O and PAS are needed to exclude them."}
+  ],
+  "specimen": "PB",
+  "stain": "Toluidine blue",
+  "match": "consistent",
+  "high_yield": false
+}

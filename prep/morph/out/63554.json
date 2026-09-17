@@ -1,0 +1,21 @@
+{
+  "id": "63554",
+  "recognize_zh": "這是雙色雙融合（dual-color dual-fusion）FISH：DAPI 藍色細胞核內可見一個單獨紅點（ABL1）、一個單獨綠點（BCR），另外兩個紅綠重疊的黃白色融合訊號，即 1R1G2F 的陽性 BCR::ABL1 型態。",
+  "features": [
+    "Single interphase nucleus counterstained with DAPI (blue)",
+    "One isolated red signal representing a normal ABL1 allele",
+    "One isolated green signal representing a normal BCR allele",
+    "Two red-green overlapping (yellow/white) fusion signals representing der(9) and der(22)",
+    "Signal pattern 1R1G2F, the classic positive pattern for t(9;22)(q34;q11.2)"
+  ],
+  "describe_en": "Interphase fluorescence in situ hybridization using dual-color, dual-fusion translocation probes for ABL1 (red) and BCR (green) on a DAPI-counterstained nucleus. The nucleus shows one separate red signal, one separate green signal and two co-localized red-green fusion signals (1R1G2F pattern). This reflects a reciprocal BCR::ABL1 rearrangement with fusion signals on both derivative chromosomes 22 and 9. A single nucleus is not sufficient for scoring; the result must be based on the percentage of abnormal nuclei relative to the laboratory cutoff. Findings are consistent with BCR::ABL1 fusion, t(9;22)(q34;q11.2).",
+  "ddx": [
+    {"dx": "Variant pattern with deletion of der(9) sequences", "vs": "Deletion of ABL1/BCR sequences on der(9) produces a 1R1G1F pattern, whereas two fusion signals are present here."},
+    {"dx": "Random signal overlap (false-positive fusion)", "vs": "Chance colocalization of normal signals typically yields a single fusion, while two fusions with residual separate signals in a dual-fusion assay are specific for true translocation."},
+    {"dx": "Normal nucleus", "vs": "A normal nucleus shows 2R2G with no fused signals."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: BCR/ABL1 dual-color dual-fusion, DAPI",
+  "match": "non-morphologic",
+  "high_yield": true
+}

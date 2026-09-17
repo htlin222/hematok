@@ -1,0 +1,22 @@
+{
+  "id": "64722",
+  "recognize_zh": "周邊血中可見數個中大型、核質比高的異常細胞，核染色質細緻並有明顯核仁，細胞質灰藍色無顆粒，部分核呈凹陷或腎形，是循環中的 BPDCN 母細胞；形態本身非特異，需流式確認 CD123/CD4/CD56。",
+  "features": [
+    "Three medium-to-large atypical mononuclear cells with high-to-intermediate N:C ratio",
+    "Round to indented or kidney-shaped nuclei with finely dispersed chromatin",
+    "One or more distinct nucleoli",
+    "Pale gray-blue agranular cytoplasm, focally with small vacuoles near the nucleus",
+    "Background red cells largely unremarkable; a smudged platelet/cell fragment at the lower right"
+  ],
+  "describe_en": "The peripheral blood smear shows several circulating medium-to-large atypical mononuclear cells. These cells have finely dispersed chromatin, distinct nucleoli, round to indented or reniform nuclei, and a moderate amount of agranular gray-blue cytoplasm with occasional small vacuoles. No Auer rods or cytoplasmic granules are identified, and the red cells show no significant morphologic abnormality. The cells are morphologically consistent with blasts; in the context of a CD4+/CD56+/CD123+ phenotype, findings are consistent with peripheral blood involvement by blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia (monoblasts/promonocytes)", "vs": "Monocytic blasts often show fine azurophilic granules, folded nuclei and NSE/lysozyme positivity with CD14/CD11b expression, whereas BPDCN blasts are agranular, NSE-negative and bright CD123+."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts typically have scant cytoplasm and express TdT with B- or T-lineage markers, unlike the lineage-negative CD123+/TCF4+ BPDCN cells."},
+    {"dx": "Reactive/atypical lymphocytes", "vs": "Reactive lymphocytes have more condensed chromatin, abundant cytoplasm that scallops around red cells, and a spectrum of forms, rather than a uniform population with blastic chromatin and nucleoli."},
+    {"dx": "Circulating large-cell lymphoma cells", "vs": "Lymphoma cells tend to be more pleomorphic with deeply basophilic, often vacuolated cytoplasm and express mature B or T markers on flow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65170",
+  "recognize_zh": "流式散佈圖中紫色族群落在 CD45 陰性（約 10^0）、側向散射低至中等的區域（gate A），與右側 CD45 陽性的正常造血細胞明顯分開，表示骨髓中有大量非造血細胞。",
+  "features": [
+    "Left plot (FS vs SS): highlighted population with wide forward scatter range and low to intermediate side scatter",
+    "Right plot (CD45 vs SS): gated population A is CD45-negative with low to intermediate side scatter",
+    "Normal CD45-positive hematopoietic populations (granulocytes with high SS, lymphocytes/monocytes) are displaced to the right in gray",
+    "Large proportion of events in the CD45-negative gate, indicating extensive non-hematopoietic infiltration",
+    "Lineage cannot be assigned from these scatter/CD45 plots alone"
+  ],
+  "describe_en": "Flow cytometric analysis of the bone marrow shows a large population of events that are CD45 negative with low to intermediate side scatter and variable forward scatter (gate A), clearly separated from the CD45-positive normal granulocytic, monocytic, and lymphoid populations. CD45 negativity in this gate indicates non-hematopoietic cells (or, less commonly, CD45-negative hematolymphoid cells such as erythroid precursors or some plasma cells or blasts), so further markers such as CD56 and GD2 are needed for lineage assignment. In the context of the accompanying morphology and CD56-positive staining, findings are consistent with bone marrow infiltration by metastatic neuroblastoma.",
+  "ddx": [
+    {"dx": "Nucleated red blood cells (erythroid precursors)", "vs": "Erythroid precursors are CD45-negative to dim but express CD71 and CD235a and lack bright CD56, and they lie in a lower forward scatter region."},
+    {"dx": "CD45-negative B-lymphoblastic leukemia", "vs": "Lymphoblasts may be CD45-negative but express CD19, CD10 and TdT, which neuroblastoma cells lack."},
+    {"dx": "Other small round blue cell tumors (Ewing sarcoma, rhabdomyosarcoma)", "vs": "These are also CD45-negative and may express CD56, so separation needs GD2 (neuroblastoma), CD99, or myogenin/desmin by IHC."},
+    {"dx": "Debris or dead cells", "vs": "Debris shows very low forward scatter and fails viability dye gating, unlike the broad forward scatter distribution of this population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

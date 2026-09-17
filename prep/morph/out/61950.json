@@ -1,0 +1,20 @@
+{
+  "id": "61950",
+  "recognize_zh": "CD30染色只在散在的大型免疫母細胞呈膜狀及核旁點狀（Golgi）陽性，強度不一，背景小淋巴球為陰性；陽性細胞零散而非成片，是反應性活化免疫母細胞的表現。",
+  "features": [
+    "Scattered large cells with membranous and paranuclear (Golgi-type) CD30 staining",
+    "Variable staining intensity among positive cells, from weak to strong",
+    "Positive cells are isolated rather than clustered or in sheets",
+    "Background small lymphocytes CD30-negative"
+  ],
+  "describe_en": "CD30 immunostain shows scattered large cells with membranous and paranuclear dot-like staining of variable intensity, set in a background of negative small lymphocytes. The positive cells are dispersed individually and do not form clusters or sheets. This pattern is typical of activated immunoblasts in a reactive process such as EBV reactivation; CD30 positivity alone does not indicate lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are CD30+ and CD15+ with weak PAX5 and loss of CD45/CD20, whereas reactive CD30+ immunoblasts are CD15- and CD45+ with strong lineage markers."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows strong, uniform CD30 in cohesive sheets or sinusoidal clusters of hallmark cells, not scattered variable positivity."},
+    {"dx": "EBV-positive DLBCL", "vs": "EBV+ DLBCL can be CD30+ but shows sheets of large atypical B cells with architectural effacement."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

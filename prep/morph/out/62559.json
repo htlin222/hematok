@@ -1,0 +1,20 @@
+{
+  "id": "62559",
+  "recognize_zh": "Ki67 在幾乎所有腫瘤細胞核呈陽性（估計 90% 以上），整片呈棕色，只剩極少數陰性細胞；高增生指數符合侵襲性 B 細胞淋巴瘤，但無法單靠 Ki67 區分 Burkitt 與雙打擊淋巴瘤。",
+  "features": [
+    "Nuclear Ki67 positivity in nearly all tumor cells, estimated above 90%",
+    "Variable staining intensity with some diffuse background cytoplasmic blush",
+    "Only rare unstained cells interspersed in the sheet",
+    "Diffuse distribution without nodular or zonal pattern"
+  ],
+  "describe_en": "Ki67 immunohistochemistry shows nuclear staining in nearly all neoplastic cells, with a proliferation index estimated at greater than 90% and only rare negative cells. Staining is diffuse without nodular or zonal variation, and there is mild background cytoplasmic blush. A very high proliferation index is characteristic of Burkitt lymphoma and high-grade B-cell lymphomas and, together with BCL2 expression and FISH showing MYC and BCL2 rearrangements in this case, is consistent with high-grade B-cell lymphoma with MYC and BCL2 rearrangements.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt characteristically shows Ki67 near 100% but is BCL2-negative with MYC rearrangement only."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL usually has a lower and more heterogeneous Ki67 index, although overlap exists."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL may have a high Ki67 but is cyclin D1-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Ki67",
+  "match": "consistent",
+  "high_yield": false
+}

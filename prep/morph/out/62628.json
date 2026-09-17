@@ -1,0 +1,20 @@
+{
+  "id": "62628",
+  "recognize_zh": "Lambda 免疫染色中，中央成群的腫瘤細胞核呈藍色、細胞本身不著色，周圍則是富含蛋白質的積液背景強烈著色；腫瘤缺乏免疫球蛋白輕鏈表現，是 PEL 的典型特徵。",
+  "features": [
+    "Cluster of round, intermediate-to-large tumor cells in an effusion cell block",
+    "Tumor cells negative for lambda light chain (blue nuclei, unstained cytoplasm)",
+    "Intense diffuse brown staining of surrounding proteinaceous fluid/fibrin (serum immunoglobulin background)",
+    "Rare isolated cells at the periphery with nuclei only"
+  ],
+  "describe_en": "Lambda light chain immunohistochemistry on an effusion cell block shows a cluster of neoplastic cells that are negative, surrounded by strong background staining of proteinaceous fluid containing serum immunoglobulin. The heavy background precludes interpretation of any faint cytoplasmic signal but does not obscure the clearly unstained tumor cells. Together with kappa negativity, this indicates absence of detectable immunoglobulin light chain expression, a characteristic finding in primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma involving effusion", "vs": "Myeloma cells show strong monotypic cytoplasmic kappa or lambda, whereas PEL cells are usually light-chain negative."},
+    {"dx": "HHV8-positive DLBCL, NOS", "vs": "HHV8+ DLBCL characteristically expresses cytoplasmic IgM lambda, unlike this lambda-negative population."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma often expresses monotypic cytoplasmic light chain and is HHV8-negative."}
+  ],
+  "specimen": "body fluid",
+  "stain": "IHC: lambda light chain",
+  "match": "consistent",
+  "high_yield": false
+}

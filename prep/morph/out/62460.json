@@ -1,0 +1,21 @@
+{
+  "id": "62460",
+  "recognize_zh": "淋巴球 gate 的 CD4 對 CD7 流式圖：大群藍色細胞 CD4 表現偏弱（dim）且 CD7 陰性，與綠色的正常 CD4 T 細胞（CD4 較亮、CD7 陽性為主）分開，這種 CD4 dim、CD7 缺失的族群就是 Sézary 細胞的典型表型。",
+  "features": [
+    "Dot plot of CD4-FITC versus CD7-APC700 gated on lymphocytes (60.35% of total events)",
+    "Dominant blue population with dim CD4 and absent CD7 expression (CD4dim CD7-)",
+    "Green population with brighter, normal-intensity CD4 spanning CD7-negative to CD7-positive, representing residual normal CD4 T cells",
+    "Small CD4-negative CD7-positive cluster in the lower right representing CD8 T cells and NK cells",
+    "Grey CD4-negative CD7-negative events consistent with B cells or other non-T lymphocytes; non-morphologic figure"
+  ],
+  "describe_en": "Flow cytometric plot of CD4 versus CD7 on gated lymphocytes shows a dominant population with dim CD4 and complete loss of CD7 expression. A smaller population of residual normal CD4-positive T cells with brighter CD4 and largely retained CD7 is present, along with a minor CD4-negative, CD7-positive population representing CD8 T cells and NK cells. The expanded CD4-dim, CD7-negative population is an aberrant T-cell phenotype. Together with CD26 loss, the findings are consistent with peripheral blood involvement by mycosis fungoides/Sezary syndrome.",
+  "ddx": [
+    {"dx": "Reactive CD4+ CD7- T cells", "vs": "Small CD7-negative subsets occur in normal and reactive blood but rarely exceed about 10-20% of CD4 T cells and retain normal CD4 intensity, whereas here a large CD4-dim CD7- population dominates."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL is also CD4+ CD7- but characteristically CD25 bright with HTLV-1 serology positive."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL usually retains strong CD7 expression and may be CD4/CD8 co-positive, unlike this CD7-negative population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

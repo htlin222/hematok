@@ -1,0 +1,22 @@
+{
+  "id": "62396",
+  "recognize_zh": "這是左右兩格的比較圖：左圖（典型 MAHA）可見碎裂紅血球且血小板非常少；右圖（本例）同樣有盔形與三角形碎裂紅血球（schistocytes），但血小板數量不少且可見巨大血小板，背景紅血球多呈皺縮（crenation）假影。",
+  "features": [
+    "Composite figure with two Leishman-stained peripheral smear panels at 400x",
+    "Panel (a): schistocytes with markedly reduced platelets, scattered polychromatic cells and neutrophils",
+    "Panel (b): numerous helmet and triangular fragmented red cells (schistocytes) among spherocytic/crenated cells",
+    "Panel (b): platelets present in normal numbers, including large/giant platelet forms",
+    "Panel (b): widespread echinocytic crenation of red cells, likely a drying/preparation artifact limiting assessment"
+  ],
+  "describe_en": "This composite figure compares two Leishman-stained peripheral blood smears at 400x. Panel (a) shows schistocytes with a marked paucity of platelets, as expected in typical microangiopathic hemolytic anemia. Panel (b), from the index patient, shows numerous schistocytes including helmet and triangular forms, with adequate platelets and occasional giant platelets; many red cells are crenated, which likely reflects smear artifact and hampers fine red cell assessment. Findings are consistent with a microangiopathic hemolytic process with preserved platelet count; in a patient with severe ADAMTS13 deficiency this supports an atypical presentation of TTP, and the schistocyte percentage should be quantified per ICSH criteria.",
+  "ddx": [
+    {"dx": "Mechanical valve or device-related hemolysis", "vs": "Macroangiopathic hemolysis produces similar schistocytes with normal platelets, so history of valve/device and ADAMTS13 activity distinguish it."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC shows schistocytes with thrombocytopenia plus prolonged PT/aPTT and low fibrinogen, whereas TTP typically has normal coagulation studies."},
+    {"dx": "Echinocyte/crenation artifact", "vs": "Crenated cells retain a full round outline with evenly spaced short projections, unlike sharp-angled helmet or triangular fragments."},
+    {"dx": "Hereditary pyropoikilocytosis or severe iron deficiency with fragments", "vs": "These show microcytic fragments with other poikilocytes on a chronic background and lack intravascular hemolysis markers and ADAMTS13 deficiency."}
+  ],
+  "specimen": "PB",
+  "stain": "Leishman",
+  "match": "consistent",
+  "high_yield": true
+}

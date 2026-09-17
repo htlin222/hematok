@@ -1,0 +1,22 @@
+{
+  "id": "63523",
+  "recognize_zh": "血液抹片可見多顆標靶細胞與折疊狀紅血球，箭頭所指的紅血球血紅素濃縮成有稜角、一端或多端尖突的深染形狀（SC poikilocytes），而非典型細長鐮刀細胞，符合血紅素 SC 疾病。",
+  "features": [
+    "Numerous target cells with central hemoglobin condensation",
+    "Dense, hyperchromic angular poikilocytes with one or more blunt pointed projections (SC poikilocytes, arrows)",
+    "Folded cells and cells with hemoglobin puddled to one side (irregular contracted cells)",
+    "Few if any classic elongated sickle cells",
+    "Normocytic red cells overall; scattered platelets, no nucleated red cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows many target cells and folded red cells. Scattered dense, hyperchromic poikilocytes with angular outlines and blunt pointed projections are present (arrows), representing SC poikilocytes in which hemoglobin is condensed into an irregular shape. Classic elongated sickle cells and discrete intracellular HbC crystals are not conspicuous in this field. Findings are consistent with hemoglobin SC disease; confirmation by hemoglobin electrophoresis or HPLC showing approximately equal HbS and HbC is recommended.",
+  "ddx": [
+    {"dx": "Hemoglobin CC disease", "vs": "HbCC shows target cells, spherocytes, and rhomboid or hexagonal HbC crystals with parallel sides but lacks the pointed, sickle-like projections of SC poikilocytes."},
+    {"dx": "Sickle cell anemia (HbSS)", "vs": "HbSS shows many thin elongated sickle cells with tapered ends and fewer target cells, while HbSC shows abundant target cells with blunt angular SC forms."},
+    {"dx": "Sickle cell/β-thalassemia", "vs": "HbS/β-thal shows microcytosis with classic sickle cells and target cells, and electrophoresis shows HbS with increased HbA2 rather than HbC."},
+    {"dx": "Liver disease or post-splenectomy target cells", "vs": "Acquired target cells are not accompanied by dense angular SC poikilocytes and hemoglobin analysis is normal."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

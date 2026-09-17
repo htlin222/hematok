@@ -1,0 +1,23 @@
+{
+  "id": "61785",
+  "recognize_zh": "這是 G-banding 核型圖：第 7 號只剩一條（圈起），第 9 號其中一條長臂末端外觀不同、第 22 號其中一條明顯變短（Philadelphia chromosome），合計 45 條，對應 -7 合併 t(9;22)。",
+  "features": [
+    "GTG-banded karyogram arranged by ISCN order with circled abnormalities",
+    "Single chromosome 7 (monosomy 7), giving a total count of 45",
+    "Chromosome 9 pair circled: one homolog with altered distal 9q banding, consistent with der(9)t(9;22)",
+    "Chromosome 22 pair circled: one homolog visibly shortened, consistent with the Philadelphia chromosome der(22)t(9;22)(q34;q11.2)",
+    "Two chromosomes in the X position with the Y position empty/faded, although the text karyotype reads XY",
+    "Moderate band resolution; fine breakpoints cannot be independently confirmed at this image resolution"
+  ],
+  "describe_en": "G-banded karyogram from an unstimulated bone marrow aspirate culture shows 45 chromosomes. There is a single chromosome 7 (monosomy 7) and a balanced reciprocal translocation between 9q34 and 22q11.2, with a visibly shortened derivative chromosome 22 (Philadelphia chromosome) and an altered derivative chromosome 9. The image appears to show two X chromosomes and no Y, which fits the stated female patient; the written karyotype 45,XY,-7,t(9;22)(q34;q11.2)[20] likely contains a sex-chromosome typographical error. In a CD10-positive B-lymphoblastic leukemia, these findings are consistent with B-lymphoblastic leukemia with BCR::ABL1 and additional monosomy 7, both adverse features; note that a modal number of 45 is near-diploid and should not be confused with true hypodiploid ALL (<44 chromosomes).",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia in lymphoid blast phase", "vs": "Carries the same t(9;22), so separation relies on clinical history, absence of a preceding chronic phase, basophilia/splenomegaly, and BCR::ABL1 transcript type (p210 favors CML, p190 favors de novo Ph+ ALL)."},
+    {"dx": "Ph-like (BCR::ABL1-like) B-ALL", "vs": "Shares a kinase-activated gene expression profile but lacks a cytogenetically visible Philadelphia chromosome and BCR::ABL1 fusion by FISH/RT-PCR."},
+    {"dx": "Hypodiploid B-ALL (low hypodiploid or near-haploid)", "vs": "Defined by fewer than 44 chromosomes with multiple whole-chromosome losses, whereas this karyogram has 45 chromosomes with a single monosomy plus a structural translocation."},
+    {"dx": "Variant or complex Ph translocation", "vs": "Involves a third chromosome in the rearrangement, which would be seen as an additional abnormal homolog and confirmed by BCR::ABL1 FISH."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding (GTG)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

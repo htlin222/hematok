@@ -1,0 +1,22 @@
+{
+  "id": "62767",
+  "recognize_zh": "周邊血可見體積大、顆粒缺乏而呈淡灰藍色的血小板（虛線箭頭）；骨髓巨核細胞胞質內包著多顆完整的中性球等細胞（emperipolesis，實線箭頭），免疫染色中巨核細胞內也有多個被包入的細胞，符合灰色血小板症候群。",
+  "features": [
+    "Peripheral blood: enlarged platelets that are pale gray-blue and agranular (dotted arrows)",
+    "Marrow megakaryocytes with abundant pale cytoplasm containing multiple intact neutrophils and other hematopoietic cells (emperipolesis)",
+    "H&E sections show megakaryocytes with engulfed cells within cytoplasm (arrows)",
+    "Megakaryocyte immunostain outlines the cytoplasm with multiple unstained engulfed cells inside",
+    "Additional immunostains highlight engulfed and surrounding myeloid cells (antibodies not labeled in the image)"
+  ],
+  "describe_en": "Peripheral blood smear shows reduced platelets, several of which are large, pale gray-blue, and devoid of granules. The bone marrow aspirate shows megakaryocytes containing numerous intact neutrophils and other hematopoietic cells within their cytoplasm, a finding that is also evident on H&E-stained biopsy sections. Immunohistochemistry outlines megakaryocyte cytoplasm with multiple engulfed unstained cells, and a second stain highlights engulfed myeloid cells; the specific antibodies are not labeled in the image. Findings are consistent with gray platelet syndrome with striking megakaryocytic emperipolesis; confirmation by electron microscopy for absent alpha granules or NBEAL2 sequencing is recommended.",
+  "ddx": [
+    {"dx": "MYH9-related macrothrombocytopenia", "vs": "MYH9 disorders show large but normally granulated platelets and Döhle-like inclusions in neutrophils, rather than gray agranular platelets."},
+    {"dx": "Primary myelofibrosis", "vs": "PMF also shows increased emperipolesis but with clustered atypical megakaryocytes, reticulin fibrosis, and a JAK2/CALR/MPL mutation, while platelets retain granules."},
+    {"dx": "In vitro degranulation artifact (EDTA or delayed processing)", "vs": "Artifactual hypogranular platelets are normal-sized and variable and resolve on a citrate or fresh finger-stick smear."},
+    {"dx": "Myelodysplastic syndrome with hypogranular platelets", "vs": "MDS shows dysplastic hypolobated micromegakaryocytes and multilineage dysplasia in an older patient, not an inherited lifelong macrothrombocytopenia."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E; IHC (unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

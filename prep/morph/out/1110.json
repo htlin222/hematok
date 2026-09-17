@@ -1,0 +1,21 @@
+{
+  "id": "1110",
+  "recognize_zh": "骨髓切片 PAS 染色中，許多細胞胞質內有強烈洋紅色的圓球狀包涵體，有些呈一串葡萄狀，是 PAS 陽性的 Russell bodies，代表大量 Mott 細胞。",
+  "features": [
+    "Numerous cells with intensely magenta, PAS-positive globular cytoplasmic inclusions",
+    "Inclusions range from single large homogeneous globes to clusters of small grape-like spheres",
+    "Nuclei compressed or obscured by the inclusions",
+    "Background small lymphoid and hematopoietic cells between fat spaces",
+    "Megakaryocyte with pale lilac cytoplasm (upper right) and focal golden-brown pigment (hemosiderin)"
+  ],
+  "describe_en": "PAS-stained section of bone marrow biopsy shows numerous cells containing intensely magenta, PAS-positive cytoplasmic globules, ranging from single large homogeneous spheres to clusters of smaller grape-like spheres that compress the nuclei. These are Russell bodies within Mott cells, set in an interstitial background of small lymphoid and hematopoietic cells with scattered megakaryocytes and focal hemosiderin pigment. The findings indicate a marked plasmacytic component with Russell body formation, which can accompany marginal zone lymphoma with plasmacytic differentiation; light chain IHC or ISH is required to assess clonality.",
+  "ddx": [
+    {"dx": "PAS-positive erythroid precursors (MDS, erythroleukemia)", "vs": "Erythroid PAS positivity is block-like or finely granular within small erythroblasts with round central nuclei, not large discrete globules."},
+    {"dx": "Megakaryocytes", "vs": "Megakaryocytes are larger with lobulated nuclei and paler, homogeneous lilac PAS staining."},
+    {"dx": "Plasma cell myeloma with Mott cells", "vs": "Myeloma forms sheets of plasma cells without a significant small lymphocyte component and is monotypic by light chain stains."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "PAS",
+  "match": "consistent",
+  "high_yield": false
+}

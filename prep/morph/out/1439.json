@@ -1,0 +1,21 @@
+{
+  "id": "1439",
+  "recognize_zh": "雙格富細胞骨髓抹片，顆粒球與紅系前驅細胞都有，左下有一個大型巨核細胞；箭頭指出核形不規則或核質成熟不同步的前驅細胞。此 Wright 染色只能看出輕度異型性，環狀鐵粒母細胞必須靠鐵染色證實，本圖無法直接看出。",
+  "features": [
+    "Two-panel composite of cellular bone marrow aspirate fields",
+    "Trilineage hematopoiesis with abundant granulocytic precursors at all stages",
+    "Erythroid precursors present, some with irregular nuclear contours or asynchronous maturation (arrows)",
+    "Large megakaryocyte in the left panel without obvious hypolobation at this resolution",
+    "No Prussian blue iron stain shown; ring sideroblasts cannot be assessed"
+  ],
+  "describe_en": "Bone marrow aspirate composite shows a cellular specimen with trilineage hematopoiesis, including granulocytic precursors at all stages, erythroid precursors and a large megakaryocyte. Arrows highlight precursor cells with irregular nuclear contours or asynchronous nuclear-cytoplasmic maturation, suggesting mild dysplasia, although resolution limits detailed assessment. Blasts are not obviously increased. Ring sideroblasts cannot be evaluated on this Romanowsky stain; a Prussian blue stain showing at least 15% ring sideroblasts (or at least 5% with SF3B1 mutation) is required for MDS with ring sideroblasts.",
+  "ddx": [
+    {"dx": "Reactive marrow (e.g., infection or recovery)", "vs": "A reactive marrow shows orderly maturation without persistent dysplasia or ring sideroblasts and lacks clonal abnormalities."},
+    {"dx": "Congenital sideroblastic anemia", "vs": "Congenital forms present early in life with microcytic ring sideroblasts and germline ALAS2 or related mutations rather than clonal SF3B1 mutation."},
+    {"dx": "MDS with multilineage dysplasia", "vs": "Separation depends on ring sideroblast percentage and SF3B1 status, which are not visible on this stain."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

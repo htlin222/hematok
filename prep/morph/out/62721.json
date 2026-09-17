@@ -1,0 +1,21 @@
+{
+  "id": "62721",
+  "recognize_zh": "原始細胞閘門內的核 TdT 對胞質 MPO 流式圖：原始細胞普遍 TdT 弱到中度陽性（約 10³–2×10⁴）；綠色 B 系原始細胞 MPO 低，紅色族群中有一明顯的 MPO 陽性次群（約 3×10⁴–10⁵ 以上），代表同一檢體內同時有 TdT+ 的 B 系與 MPO+ 的骨髓系原始細胞。",
+  "features": [
+    "Gated on blasts; nuclear TdT-FITC (x-axis) versus cytoplasmic MPO-PE (y-axis)",
+    "Blasts broadly TdT dim to moderately positive (about 10^3 to 2x10^4)",
+    "Green (B-lineage, cCD79a-positive) blasts with low MPO (about 10^3 to 10^4)",
+    "Red blast subset with distinctly positive MPO (about 3x10^4 to 5x10^5) and partial TdT expression",
+    "Continuous smear between the MPO-low and MPO-positive regions without a sharply separate cluster"
+  ],
+  "describe_en": "Flow cytometric analysis gated on blasts displays nuclear TdT versus cytoplasmic MPO. Blasts show dim to moderate TdT expression, confirming immaturity. The green, B-lineage-committed blasts have low MPO, whereas a red blast subset shows distinctly positive MPO with partial TdT co-expression. The presence of an MPO-positive blast subset alongside B-lineage blasts fulfills myeloid and B-lineage criteria, and the findings are consistent with mixed phenotype acute leukemia, B/myeloid.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "TdT-positive blasts lack a distinct MPO-positive subset exceeding the level of normal lymphocytes."},
+    {"dx": "AML with TdT expression", "vs": "TdT can be expressed in AML, but the blasts lack strong CD19 with CD79a, cCD22 or CD10."},
+    {"dx": "Residual normal myeloid precursors", "vs": "Normal promyelocytes and myelocytes are MPO bright with higher side scatter and are TdT negative."}
+  ],
+  "specimen": "flow",
+  "stain": "Flow cytometry: nTdT-FITC vs cMPO-PE",
+  "match": "non-morphologic",
+  "high_yield": false
+}

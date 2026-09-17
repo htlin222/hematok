@@ -1,0 +1,22 @@
+{
+  "id": "60015",
+  "recognize_zh": "骨髓抹片中母細胞呈兩群（dimorphic）：一群較大、有中量藍色細胞質與不規則折疊核及核仁，另一群較小、細胞質極少、染色質較緻密，類似淋巴母細胞；兩種型態並存提示混合表型急性白血病，需流式與 BCR::ABL1 確認。",
+  "features": [
+    "Dimorphic blast population in a cellular aspirate",
+    "Larger blasts: moderate basophilic agranular cytoplasm, irregular or folded nuclei, fine chromatin, and visible nucleoli",
+    "Smaller blasts: scant cytoplasm, round nuclei with somewhat denser chromatin and indistinct nucleoli (lymphoblast-like)",
+    "Occasional maturing granulocyte (band/metamyelocyte) and smudged granular cells",
+    "No Auer rods identified"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows numerous blasts with a dimorphic morphology. One population is intermediate to large with moderate basophilic agranular cytoplasm, irregular or folded nuclear contours, fine chromatin, and nucleoli; the second is small to intermediate with scant cytoplasm, round nuclei, and inconspicuous nucleoli. Residual granulocytic elements are sparse, and Auer rods are not identified. Findings are consistent with acute leukemia with two morphologically distinct blast populations, which in conjunction with flow cytometry and t(9;22) supports mixed phenotype acute leukemia with BCR::ABL1.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia with BCR::ABL1", "vs": "Ph-positive B-ALL may show variable blast size but lacks a distinct MPO-positive myeloid population; flow cytometry assigning both B and myeloid lineages is decisive."},
+    {"dx": "Chronic myeloid leukemia in blast phase", "vs": "CML-BP has a preceding chronic phase history and marrow background of basophilia, dwarf megakaryocytes, and myeloid hyperplasia, whereas de novo MPAL lacks this."},
+    {"dx": "Acute myelomonocytic leukemia", "vs": "The larger cells with folded nuclei may mimic monocytic blasts, but AMML lacks lymphoid-lineage markers and shows NSE positivity."},
+    {"dx": "Acute myeloid leukemia with maturation", "vs": "AML with maturation shows 10% or more maturing granulocytes and Auer rods without a second lymphoblast-like population."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

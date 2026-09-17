@@ -1,0 +1,30 @@
+{
+ "id": "61241",
+ "recognize_zh": "周邊血抹片中白血球幾乎全是形態一致的芽細胞，核質比高、染色質細緻，其中數顆核中央有淡染圓形區（杯狀核凹陷），加上紅血球背景與極少成熟白血球，符合高芽細胞比例的 AML。",
+ "features": [
+  "Marked increase in circulating blasts; virtually all nucleated cells in the field are blasts",
+  "Blasts are medium-sized (about 1.5x a red cell) with high N:C ratio and scant basophilic agranular cytoplasm",
+  "Round nuclei with fine chromatin; several show a central pale round nuclear invagination (cup-like)",
+  "No mature neutrophils visible; Auer rods not evident at this magnification",
+  "A smudged/disrupted cell and normocytic red cells with occasional teardrop-shaped forms in the background"
+ ],
+ "describe_en": "Peripheral blood smear shows a marked leukocytosis composed almost entirely of monotonous medium-sized blasts with high N:C ratio, fine chromatin and scant agranular basophilic cytoplasm. Several blasts contain a pale, round central nuclear invagination giving a cup-like appearance. Mature granulocytes are not seen in this field and platelets appear decreased; a smudge cell is present. Findings are consistent with acute myeloid leukemia with cup-like blasts, a morphology associated with NPM1 mutation and FLT3-ITD, correlating with the reported CD34-negative immunophenotype and normal karyotype.",
+ "ddx": [
+  {
+   "dx": "Acute promyelocytic leukemia, hypogranular variant",
+   "vs": "Blasts have bilobed 'butterfly' nuclei, often Auer rod bundles and a DIC picture, and are confirmed by PML::RARA rather than NPM1."
+  },
+  {
+   "dx": "Acute lymphoblastic leukemia",
+   "vs": "Lymphoblasts lack cup-like invaginations and are MPO negative with TdT and B/T-lineage markers."
+  },
+  {
+   "dx": "Monocytic AML (e.g., AML with KMT2A rearrangement)",
+   "vs": "Monoblasts/promonocytes have abundant gray-blue cytoplasm, folded nuclei and are NSE/CD14/CD64 positive rather than showing central cup-like clefts."
+  }
+ ],
+ "specimen": "PB",
+ "stain": "Wright-Giemsa",
+ "match": "consistent",
+ "high_yield": false
+}

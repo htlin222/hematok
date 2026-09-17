@@ -1,0 +1,22 @@
+{
+  "id": "63614",
+  "recognize_zh": "視野中央是一顆體積極大的細胞，豐富的粉紫色細顆粒細胞質包圍著一個由許多小圓葉串連成環狀的細胞核，這種大細胞加上多葉核的組合就是成熟巨核細胞（megakaryocyte）的核分葉過多（hyperlobulation）。",
+  "features": [
+    "Very large cell, many times the diameter of surrounding hematopoietic cells, with low N:C ratio",
+    "Nucleus composed of numerous small, round, interconnected lobes arranged in a ring-like (hyperlobulated) pattern",
+    "Moderately condensed chromatin within each lobe; no nucleoli",
+    "Abundant pale pink-violet cytoplasm filled with fine azurophilic granules, indicating a mature (granular) megakaryocyte",
+    "Background of bone marrow aspirate with small erythroid/lymphoid nuclei at the periphery"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a single very large mature megakaryocyte. The nucleus is hyperlobulated, consisting of numerous small, round, interconnected lobes arranged in a ring, with moderately condensed chromatin. The cytoplasm is abundant and finely granular, consistent with platelet-producing maturation; no emperipolesis or dysplastic separated nuclear lobes are seen in this cell. Findings are consistent with a mature megakaryocyte with hyperlobulated nuclei; a single cell is not diagnostic of a myeloproliferative neoplasm and must be interpreted with megakaryocyte number, clustering and clinical context.",
+  "ddx": [
+    {"dx": "Megakaryocytes of essential thrombocythemia", "vs": "ET megakaryocytes are also large with staghorn-like hyperlobulated nuclei, but the diagnosis requires increased numbers and loose clusters in the biopsy, not a single hyperlobulated cell."},
+    {"dx": "Dysplastic megakaryocyte with separated nuclei (MDS)", "vs": "MDS megakaryocytes show multiple widely separated round nuclear lobes ('pawn ball') or micromegakaryocytes, whereas here the lobes remain interconnected."},
+    {"dx": "Osteoclast", "vs": "Osteoclasts contain many discrete, separate oval nuclei with nucleoli rather than one continuous lobulated nucleus."},
+    {"dx": "Megaloblastic megakaryocyte", "vs": "Megaloblastic states can cause hyperlobulation with nuclear-cytoplasmic asynchrony, identified by accompanying megaloblastic erythroid precursors and giant metamyelocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

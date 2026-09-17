@@ -1,0 +1,37 @@
+{
+  "id": "70",
+  "recognize_zh": "骨髓切片中大型異型淋巴細胞（泡狀染色質、明顯核仁）排成線狀、塞在血竇腔內，膜性 B 細胞標記把細胞勾勒成血管內分布；抽吸片同時可見吞噬有核細胞的泡沫狀組織球（hemophagocytosis），符合伴隨 HLH 的血管內大 B 細胞淋巴瘤。",
+  "features": [
+    "Large atypical lymphoid cells (2-4x small lymphocyte) with vesicular chromatin, irregular/folded nuclei and one to several prominent nucleoli",
+    "Intrasinusoidal/intravascular distribution: tumor cells lined up in linear cords within marrow sinusoids, outlined by endothelium on H&E and an endothelial marker",
+    "Membranous IHC staining (B-cell marker, antibody not labeled) highlighting large cells in a branching sinusoidal pattern; nuclear IHC positive in a subset of large cells",
+    "Aspirate: large blasts-like lymphoma cells with deeply basophilic cytoplasm and fine clear vacuoles",
+    "Hemophagocytic histiocytes with abundant foamy vacuolated cytoplasm containing engulfed nucleated cells; hemosiderin pigment in histiocytes",
+    "Peripheral blood: rare large atypical mononuclear cell with lobulated nucleus; red cells show spherocytes, echinocytes and a teardrop cell"
+  ],
+  "describe_en": "The bone marrow core biopsy is hypercellular and contains numerous large atypical lymphoid cells with vesicular chromatin, irregular nuclear contours, prominent nucleoli and occasional mitoses, arranged in linear cords confined to dilated sinusoidal lumina rather than forming interstitial masses. Immunohistochemistry shows membranous positivity of the large cells in a branching intrasinusoidal pattern, and an endothelial stain outlines the sinusoids containing the neoplastic cells. The aspirate smear contains large atypical lymphoid cells with basophilic vacuolated cytoplasm and increased histiocytes with foamy cytoplasm engulfing nucleated hematopoietic cells. The peripheral blood shows rare large atypical mononuclear cells and red cell poikilocytosis including spherocytes. Findings are consistent with intravascular large B-cell lymphoma involving the marrow with associated hemophagocytosis; the specific antibodies are not labeled in the images, so the lineage assignment relies on the provided case context.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma, NOS with marrow involvement", "vs": "DLBCL NOS forms paratrabecular or interstitial sheets and masses, whereas intravascular LBCL is confined to sinusoidal/vascular lumina without a mass lesion."},
+    {"dx": "Primary HLH / EBV-associated HLH without lymphoma", "vs": "Reactive HLH shows hemophagocytic histiocytes but lacks the large atypical B cells packing sinusoids that are highlighted by B-cell IHC."},
+    {"dx": "Aggressive NK-cell leukemia / T-cell lymphoma with HLH", "vs": "These also show intrasinusoidal atypical cells with HLH, but the cells are CD20/PAX5-negative and express CD3/CD56 (EBER-positive in NK leukemia)."},
+    {"dx": "Acute myeloid leukemia or metastatic carcinoma in sinusoids", "vs": "Blasts are MPO/CD34/CD117-positive and carcinoma is cytokeratin-positive, whereas intravascular LBCL cells are CD45 and CD20 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa, H&E, IHC (antibodies not labeled)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: spherocytes, echinocytes, a teardrop cell and a small mononuclear cell",
+    "Peripheral blood: large atypical mononuclear cell with lobulated nucleus and abundant pale blue cytoplasm",
+    "Marrow biopsy H&E: large atypical cells aligned in a sinusoid with a mitosis, among foamy histiocytes and erythroid precursors",
+    "Marrow biopsy H&E: sheets of large cells with irregular folded nuclei and scattered hemosiderin-laden histiocytes",
+    "Marrow biopsy H&E, high power: large cells with vesicular chromatin and prominent nucleoli within endothelium-lined sinusoidal lumina",
+    "IHC, low power: membranous staining of large cells in a branching intrasinusoidal pattern (B-cell marker, antibody not labeled)",
+    "IHC, high power: membrane-positive large cells filling sinusoids between fat cells",
+    "IHC: strongly stained large cells with cytoplasmic vacuoles/engulfed cells along sinusoids (antibody not labeled; possibly histiocytic)",
+    "Nuclear IHC positive with variable intensity in large cells (antibody not labeled)",
+    "Aspirate: large atypical lymphoid cells with basophilic, finely vacuolated cytoplasm",
+    "Aspirate: hemophagocytic histiocyte with foamy cytoplasm containing engulfed nucleated cells",
+    "Endothelial IHC outlining sinusoids that contain large tumor cells"
+  ]
+}

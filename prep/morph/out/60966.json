@@ -1,0 +1,21 @@
+{
+  "id": "60966",
+  "recognize_zh": "鐵染色可見紅血球前驅細胞核周圍環繞藍色鐵顆粒（環狀鐵粒母細胞），切片為高細胞密度且巨核細胞增生成群，定序同時看到 JAK2 V617F 與 SF3B1 K700E 突變，符合 MDS/MPN-RS-T。",
+  "features": [
+    "Iron stain: erythroid precursors with blue iron granules encircling the nucleus (ring sideroblasts)",
+    "Biopsy: hypercellular marrow with panhyperplasia",
+    "Increased, large, clustered megakaryocytes with hyperlobated nuclei",
+    "Sequencing read pileups: heterozygous variant at a single position in each of two genes (JAK2 V617F, SF3B1 K700E per legend)"
+  ],
+  "describe_en": "Bone marrow aspirate iron stain shows numerous erythroid precursors with perinuclear rings of siderotic granules, consistent with ring sideroblasts. The core biopsy is markedly hypercellular with trilineage hyperplasia and increased, enlarged megakaryocytes forming loose clusters. Next-generation sequencing read alignments show variant allele calls at approximately half of reads at two loci, corresponding to JAK2 V617F and SF3B1 K700E. In a patient with anemia and persistent thrombocytosis, findings are consistent with myelodysplastic/myeloproliferative neoplasm with ring sideroblasts and thrombocytosis (MDS/MPN-RS-T; MDS/MPN with SF3B1 mutation and thrombocytosis in WHO 2022).",
+  "ddx": [
+    {"dx": "MDS with ring sideroblasts / MDS with low blasts and SF3B1 mutation", "vs": "Lacks persistent thrombocytosis (platelets <450 x 10^9/L) and the large clustered MPN-type megakaryocytes."},
+    {"dx": "Essential thrombocythemia", "vs": "ET shows large hyperlobated megakaryocytes but no anemia with dyserythropoiesis or ≥15% ring sideroblasts, and SF3B1 mutation is uncommon."},
+    {"dx": "Primary myelofibrosis, prefibrotic", "vs": "PMF megakaryocytes are atypical with cloud-like hyperchromatic nuclei and granulocytic proliferation, usually without abundant ring sideroblasts or SF3B1."},
+    {"dx": "Congenital or acquired non-clonal sideroblastic anemia (copper deficiency, alcohol, drugs)", "vs": "Ring sideroblasts occur without thrombocytosis, megakaryocytic clustering or clonal JAK2/SF3B1 mutations."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Prussian blue; H&E; NGS read alignment",
+  "match": "consistent",
+  "high_yield": true
+}

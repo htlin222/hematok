@@ -1,0 +1,22 @@
+{
+  "id": "60969",
+  "recognize_zh": "小淋巴球背景中散在大型、核分葉或核圓帶多個核仁的 LP 細胞（爆米花細胞），周圍被小淋巴球緊密環繞成玫瑰花環；CD20 大細胞陽性但環繞的小細胞陰性，CD3 與 PD-1 則標出環繞的 TFH 細胞，是 NLPHL 的典型「T 細胞玫瑰花環」。",
+  "features": [
+    "Panel A (H&E): scattered large atypical cells with multilobulated (popcorn) or large round vesicular nuclei and small nucleoli, in a background of small mature lymphocytes",
+    "Large cells tightly encircled by small lymphocytes forming rosettes; occasional histiocytes",
+    "Panel B (CD20): large cells membranous positive (arrows) with many CD20-positive background B cells, but the immediately rosetting lymphocytes are negative",
+    "Panel C (CD3): T cells forming a ring around a central unstained large cell (arrow)",
+    "Panel D (PD-1): PD-1-positive T cells rosetting around large cells (arrows)"
+  ],
+  "describe_en": "Lymph node section at high power shows scattered large atypical cells with multilobated popcorn-like or large round nuclei with small nucleoli, set in a background of small lymphocytes. The large cells are tightly ringed by small lymphocytes forming rosettes. Immunostains show the large cells and many background small lymphocytes to be CD20 positive, whereas the rosetting cells are CD20 negative and CD3 and PD-1 positive, consistent with follicular helper T cells. In combination with the reported nodular architecture and PAX5/BCL6 positivity with CD30/CD15 negativity, the findings are consistent with nodular lymphocyte-predominant Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Lymphocyte-rich classic Hodgkin lymphoma", "vs": "Reed-Sternberg cells are CD30/CD15-positive with weak/absent CD20 and PAX5 dim, although CD3/PD-1 rosettes can also be seen."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Diffuse pattern with scattered large B cells in a background of CD8-positive T cells and histiocytes, lacking a CD20-rich small B-cell meshwork and PD-1 rosettes."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "Enlarged nodules of small mantle B cells without LP cells or PD-1-positive rosettes around large atypical cells."},
+    {"dx": "Follicular lymphoma", "vs": "Neoplastic follicles are composed of monotonous BCL2-positive centrocytes/centroblasts rather than scattered popcorn cells within small-lymphocyte nodules."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD20, CD3, PD-1",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60585",
+  "recognize_zh": "骨髓抹片背景為模糊、粉紫色無定形的物質，細胞輪廓消失只剩染色不清的鬼影細胞與核碎片；切片 H&E 可見大片嗜酸淡染的凝固性壞死區（星號）與骨小樑旁殘存存活骨髓（箭頭），免疫染色仍可在壞死的腫瘤細胞輪廓上顯色，符合 AML 合併骨髓壞死。",
+  "features": [
+    "Aspirate with amorphous, granular pink-purple proteinaceous background and loss of cellular detail",
+    "Ghost cells with indistinct borders, smudged or pyknotic nuclear remnants and scattered degenerating cells",
+    "Biopsy: extensive coagulative necrosis of marrow spaces (asterisk) with preserved cell outlines, beside viable marrow (arrow)",
+    "IHC (marker not labeled): diffuse strong staining of densely packed tumor-cell ghosts, preserving antigenicity in necrotic areas"
+  ],
+  "describe_en": "Bone marrow aspirate smears show an amorphous, granular eosinophilic-to-basophilic background with poorly preserved ghost cells and nuclear debris, precluding reliable differential counting. The core biopsy shows extensive coagulative necrosis (asterisk) with ghost outlines of densely packed cells adjacent to bony trabeculae, with a small area of viable marrow (arrow). Immunohistochemistry (antibody not labeled in the figure) shows diffuse strong staining of the necrotic cell ghosts, indicating that antigenicity is retained and supporting a blast population. Findings are consistent with extensive bone marrow necrosis in acute myeloid leukemia; repeat sampling from viable areas may be required for full classification.",
+  "ddx": [
+    {"dx": "Bone marrow necrosis due to metastatic carcinoma", "vs": "Ghost cells of carcinoma are keratin positive and often form cohesive clusters, whereas leukemic ghosts express CD34/MPO/CD33."},
+    {"dx": "Sickle cell crisis or infection-related marrow necrosis", "vs": "Necrosis occurs without an underlying blast population, and IHC for blast markers is negative; sickled cells or organisms may be seen."},
+    {"dx": "Gelatinous transformation (serous fat atrophy)", "vs": "Shows pale, extracellular Alcian blue-positive mucopolysaccharide with fat atrophy and hypocellularity rather than ghost outlines of densely packed cells."},
+    {"dx": "Poorly spread/clotted or degenerated aspirate artifact", "vs": "Artifacts show clumped platelets or crushed but viable cells, whereas true necrosis shows granular necrotic background confirmed on the biopsy."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC (marker not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

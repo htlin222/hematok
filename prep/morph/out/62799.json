@@ -1,0 +1,21 @@
+{
+  "id": "62799",
+  "recognize_zh": "這是鹼性（pH 8.6）醋酸纖維膜血紅素電泳條，箭頭所指的樣本在S/D/G位置有一條明顯粗帶，F位置僅有淡帶，缺乏正常HbA帶，提示鐮刀型貧血（HbSS）；需與HPLC或酸性電泳確認S而非D/G。",
+  "features": [
+    "Cellulose acetate strip at alkaline pH with multiple applied samples showing separated hemoglobin bands",
+    "Arrowed sample: dominant band at the S/D/G migration position",
+    "Faint adjacent band corresponding to the HbF position in the arrowed sample",
+    "Other samples show band patterns at different positions serving as comparison/controls",
+    "Non-morphologic image; band identity cannot distinguish HbS from HbD or HbG at alkaline pH"
+  ],
+  "describe_en": "Cellulose acetate hemoglobin electrophoresis at alkaline pH (8.6) is shown with several samples run in parallel. The patient sample (arrow) shows a prominent band in the S/D/G region with a faint band in the F region and no clearly separate HbA band, while adjacent samples provide comparison patterns. Because HbS, HbD and HbG co-migrate at alkaline pH, confirmation by acid (citrate agar) electrophoresis, HPLC or a solubility test is required. In context, findings are consistent with homozygous sickle cell disease (HbSS) with a modest HbF fraction.",
+  "ddx": [
+    {"dx": "HbSD or HbDD disease", "vs": "HbD co-migrates with HbS at alkaline pH but separates with HbA on acid citrate agar electrophoresis and gives a negative sickle solubility test."},
+    {"dx": "HbS/β0-thalassemia", "vs": "HbS/β0-thalassemia shows the same S band with no HbA but an elevated HbA2 (>3.5%) and microcytosis on CBC."},
+    {"dx": "Sickle cell trait (HbAS)", "vs": "HbAS shows both an A band and an S band with HbA exceeding HbS, unlike the single dominant S band here."}
+  ],
+  "specimen": "other",
+  "stain": "N/A (Ponceau-type protein stain)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

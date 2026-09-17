@@ -1,0 +1,22 @@
+{
+  "id": "64157",
+  "recognize_zh": "胸部電腦斷層軸切面（縱膈窗）顯示前縱膈有一大片均質軟組織密度腫塊，位於胸骨後方、包覆升主動脈與肺動脈前方，並向兩側推擠肺葉；年輕人前縱膈大腫塊合併白血病，需想到 T 淋巴母細胞淋巴瘤／白血病（T-ALL/LBL）。",
+  "features": [
+    "Axial contrast-enhanced chest CT in mediastinal window",
+    "Large, homogeneous soft-tissue density mass in the anterior (prevascular) mediastinum",
+    "Mass abuts and drapes anterior to the ascending aorta and main pulmonary artery",
+    "No obvious calcification or fat density within the mass on this single slice",
+    "Lungs clear on this slice; no large pleural effusion evident"
+  ],
+  "describe_en": "This is a single axial contrast-enhanced chest CT image, not a morphologic specimen. It shows a large, relatively homogeneous soft-tissue attenuation mass occupying the anterior mediastinum, extending in front of and around the great vessels, without evident calcification or macroscopic fat on this slice. The lungs are clear and no large pleural effusion is seen at this level. In a patient with circulating lymphoblasts, a bulky anterior mediastinal mass is consistent with the thymic mass of T-lymphoblastic leukemia/lymphoma; airway and superior vena cava compression should be assessed before sedation or biopsy.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma (nodular sclerosis)", "vs": "Hodgkin lymphoma is also an anterior mediastinal mass in young patients but typically lacks leukemic blasts in blood and is diagnosed by Hodgkin/Reed-Sternberg cells on biopsy."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL appears similar radiologically but lacks TdT-positive circulating blasts and shows CD20+/CD23+/PD-L1+ large B cells on biopsy."},
+    {"dx": "Mediastinal germ cell tumor (teratoma/seminoma)", "vs": "Teratomas contain fat, fluid, or calcification, and germ cell tumors elevate AFP/beta-hCG, unlike the homogeneous lymphoblastic mass."},
+    {"dx": "Thymoma", "vs": "Thymoma occurs in older adults, often with myasthenia gravis, and lacks circulating blasts; histology shows keratin-positive epithelial cells."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

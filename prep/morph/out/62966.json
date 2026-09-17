@@ -1,0 +1,22 @@
+{
+  "id": "62966",
+  "recognize_zh": "組織切片中巨噬細胞的細胞質內含被吞噬的紅血球（實心箭頭）與有核細胞（空心箭頭），顯示噬血現象；周邊血抹片紅血球內有細小環狀體、成對或四聯體（Maltese cross 樣）的寄生蟲，並見紅血球外成團的蟲體，符合巴貝西蟲症（babesiosis）續發 HLH。",
+  "features": [
+    "Tissue H&E (A): macrophages with abundant eosinophilic cytoplasm containing engulfed red cells (solid arrows) and nucleated cells (open arrows) - hemophagocytosis",
+    "PB (B-D): small intraerythrocytic ring forms with delicate chromatin dots, often multiple per cell, without pigment",
+    "Paired pear-shaped and tetrad (Maltese cross-like) arrangements of parasites within red cells",
+    "PB (E): clusters of extracellular parasites adjacent to red cells",
+    "Absence of hemozoin pigment, schizonts or gametocytes; background echinocytes present"
+  ],
+  "describe_en": "Composite figure. A tissue section (marrow/spleen) shows macrophages containing phagocytosed red cells and nucleated hematopoietic cells, consistent with hemophagocytosis. Peripheral blood smears show small intraerythrocytic ring forms, frequently multiple within a single red cell, including paired and tetrad arrangements, with clusters of extracellular organisms and no hemozoin pigment, schizonts or gametocytes. Findings are consistent with Babesia infection with secondary hemophagocytic lymphohistiocytosis; parasitemia should be quantified and PCR used for species confirmation.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum malaria", "vs": "P. falciparum also shows multiple small rings but has banana-shaped gametocytes and hemozoin pigment, and lacks tetrads and extracellular clusters."},
+    {"dx": "Platelets overlying red cells / stain precipitate", "vs": "Superimposed platelets lie in a different focal plane with a halo and granular texture, not a ring with a chromatin dot inside the cell."},
+    {"dx": "HLH secondary to EBV or lymphoma", "vs": "Hemophagocytosis is nonspecific; the intraerythrocytic parasites here identify the trigger, whereas EBV/lymphoma require serology, EBER or tissue diagnosis."},
+    {"dx": "Pappenheimer or Howell-Jolly bodies", "vs": "These inclusions are solid dots (iron or nuclear remnants) without a ring of cytoplasm or tetrad arrangement."}
+  ],
+  "specimen": "other",
+  "stain": "H&E; Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

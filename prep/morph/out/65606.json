@@ -1,0 +1,22 @@
+{
+  "id": "65606",
+  "recognize_zh": "臨床照片可見手指與腳趾末端發黑壞死；血液抹片中的嗜中性球與單核球細胞質被多個大小不一、淡藍灰色的圓形球狀包涵體撐滿，細胞核被擠壓變形，這是被吞噬的冷凝球蛋白沉澱物。",
+  "features": [
+    "Clinical photographs of dry gangrene/necrosis of fingertips and toes with dusky discoloration (panels A-B, F-G)",
+    "Neutrophils and monocytes distended by multiple round, pale blue-gray, homogeneous globular cytoplasmic inclusions (panels C-E, H-J)",
+    "Nuclei compressed and molded around the inclusions",
+    "Inclusions vary in size, from small vacuole-like globules to large globules filling most of the cytoplasm",
+    "Crystalline red cell inclusions not clearly resolved at this resolution"
+  ],
+  "describe_en": "Composite figure includes clinical photographs showing necrosis of the distal fingers and toes. Peripheral blood smear panels show neutrophils and monocytes containing multiple round, homogeneous, pale blue-gray globular inclusions of varying size that distend the cytoplasm and indent the nuclei, consistent with phagocytosed precipitated protein. No organisms are identified within the inclusions. In the setting of digital gangrene, low complement, and a monoclonal immunoglobulin, findings are consistent with cryoglobulin precipitates in the blood smear; because these cryoglobulins were heat-insoluble, correlation with cryoglobulin testing at higher temperatures is essential.",
+  "ddx": [
+    {"dx": "Toxic vacuolation in sepsis", "vs": "Toxic vacuoles are small, empty, and accompanied by toxic granulation and Döhle bodies, whereas these are large homogeneous gray-blue globules filling the cytoplasm."},
+    {"dx": "Intracellular organisms (Histoplasma, Ehrlichia, Candida)", "vs": "Organisms have defined internal structure (nuclei, capsules, morulae), whereas cryoglobulin globules are structureless and homogeneous."},
+    {"dx": "Chédiak-Higashi or pseudo-Chédiak-Higashi granules", "vs": "These are giant azurophilic granules staining red-purple, not pale homogeneous gray-blue globules."},
+    {"dx": "EDTA- or storage-related vacuolation artifact", "vs": "Storage artifact produces small clear vacuoles in otherwise normal cells, without large globular inclusions or clinical ischemia."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

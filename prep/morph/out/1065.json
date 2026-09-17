@@ -1,0 +1,21 @@
+{
+  "id": "1065",
+  "recognize_zh": "骨髓抹片以前骨髓球與骨髓球為主，胞質含粗大、深紫紅色顆粒（箭頭），核周可見淡染的高基氏區（Golgi zone），成熟分葉嗜中性球少，呈現左移並伴毒性顆粒的反應性骨髓造血。",
+  "features": [
+    "Predominance of promyelocytes and myelocytes (left-shifted granulopoiesis)",
+    "Coarse, dark purple-red azurophilic granules in the cytoplasm of promyelocytes (arrows), consistent with toxic-type granulation",
+    "Round to oval eccentric nuclei with perinuclear Golgi clearing in many cells",
+    "Occasional band and segmented neutrophils; no Auer rods seen",
+    "Crowded, dried red cell background typical of an aspirate smear"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows granulocytic hyperplasia with a left shift, dominated by promyelocytes and myelocytes. Many cells contain coarse, darkly staining azurophilic granules (arrows) and show round to oval nuclei with a perinuclear Golgi hof. Band and segmented neutrophils are present in reduced numbers, and no Auer rods or faggot cells are identified. Findings are consistent with reactive left-shifted myelopoiesis with toxic granulation, as seen in infection, G-CSF therapy, or marrow recovery.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL promyelocytes have folded or bilobed nuclei without a Golgi hof, often contain Auer rod bundles, and lack subsequent maturation, and harbor PML::RARA."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a myelocyte and neutrophil peak with basophilia and eosinophilia in the blood and BCR::ABL1, rather than a transient promyelocyte-predominant left shift."},
+    {"dx": "Chediak-Higashi syndrome", "vs": "Chediak-Higashi shows giant, sparse, fused granules in granulocytes rather than numerous coarse dark azurophilic granules."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

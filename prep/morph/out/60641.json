@@ -1,0 +1,22 @@
+{
+  "id": "60641",
+  "recognize_zh": "A 圖周邊血可見大小接近或超過紅血球、顆粒明顯的巨大血小板；B 圖骨髓抹片有發育異常的巨核細胞與成堆血小板，旁邊有芽細胞，提示伴巨血小板（類 Bernard-Soulier 症）之兒童骨髓分化不良症候群。",
+  "features": [
+    "Panel A: giant platelets approaching or exceeding the size of red cells, with prominent central azurophilic granules",
+    "Panel A: background red cells normocytic with central pallor; otherwise sparse platelets",
+    "Panel B: dysplastic megakaryocyte with platelet budding/clumped platelet aggregates",
+    "Panel B: immature cells with high N:C ratio and fine chromatin consistent with blasts, plus a large mononuclear cell and occasional dysplastic granulocytic precursors",
+    "Image resolution limits detailed assessment of megakaryocyte nuclear lobation"
+  ],
+  "describe_en": "The peripheral blood smear shows giant platelets, some equal to or larger than adjacent red cells, with conspicuous granules. The bone marrow aspirate shows a dysplastic megakaryocyte associated with clumps of platelets, together with immature blast-like cells and dysplastic myeloid precursors; resolution limits precise dysplasia grading and a blast count is not possible from this field. Giant platelets with impaired ristocetin agglutination can reflect acquired glycoprotein Ib/IX deficiency in a dysplastic megakaryocytic clone. Findings are consistent with childhood myelodysplastic syndrome with excess blasts associated with an acquired Bernard-Soulier–like platelet dysfunction.",
+  "ddx": [
+    {"dx": "Inherited Bernard-Soulier syndrome", "vs": "Congenital BSS has lifelong giant platelets and GPIb-IX-V gene mutations but a normal marrow without dysplasia or excess blasts."},
+    {"dx": "MYH9-related disorder", "vs": "MYH9 disorders show giant platelets with Döhle-like inclusions in neutrophils and no marrow dysplasia."},
+    {"dx": "Immune thrombocytopenia", "vs": "ITP shows large young platelets with increased but morphologically normal megakaryocytes, without blasts or multilineage dysplasia."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL has ≥20% megakaryoblasts with cytoplasmic blebs (CD41/CD61+) and often marrow fibrosis, beyond the blast range of MDS."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

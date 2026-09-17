@@ -1,0 +1,22 @@
+{
+  "id": "60700",
+  "recognize_zh": "積液細胞抹片中是大型、核不規則且染色質粗、細胞質深藍的淋巴瘤細胞；流式與免疫染色支持 T 細胞表型，TRG 基因重組呈單株峰，但 IGH (FR3) 也出現單一峰，這是「假單株」結果，不可據此判為 B 細胞淋巴瘤。",
+  "features": [
+    "Panel A: large atypical lymphoid cells with irregular/lobated nuclei, coarse chromatin, occasional nucleoli and deeply basophilic cytoplasm among red cells",
+    "Panels B-C: flow cytometry dot plots with distinct colored populations (axis labels not legible)",
+    "Panel D: IHC with membranous/cytoplasmic granular staining of most large cells (marker unlabeled)",
+    "Panel E: strong nuclear staining in most tumor cells (marker unlabeled; pattern fits a high proliferation or transcription marker)",
+    "Panel F: IHC essentially negative except rare cells (marker unlabeled)",
+    "Panels G-H: capillary electrophoresis showing a dominant TRG peak and a single dominant IGH FR3 peak"
+  ],
+  "describe_en": "Cytologic preparation of the effusion shows large atypical lymphoid cells with irregular nuclei, coarse chromatin and deeply basophilic cytoplasm. Flow cytometry plots and immunostains (markers not labeled/legible in the figure) characterize the population, with one marker diffusely positive, one showing nuclear positivity in most cells and one negative. Fragment analysis demonstrates a dominant TRG peak as well as a dominant IGH FR3 peak. In context, findings are consistent with a T-cell lymphoma presenting as a primary effusion-based lymphoma, with the IGH peak representing a pseudo-monoclonal result (limited template or cross-lineage rearrangement) that should not override the immunophenotype.",
+  "ddx": [
+    {"dx": "Primary effusion lymphoma (HHV8+)", "vs": "Classic PEL is HHV8/LANA positive with plasmablastic null-cell phenotype and true IG rearrangement, rather than a T-cell phenotype."},
+    {"dx": "Fluid overload-associated large B-cell lymphoma (HHV8-negative)", "vs": "This entity expresses B-cell markers (CD20/PAX5) with clonal IG rearrangement that is reproducible, not pseudo-clonal."},
+    {"dx": "Secondary effusion involvement by systemic PTCL", "vs": "Distinguished clinically and radiologically by a nodal or extranodal mass outside the serous cavity."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa; IHC (unlabeled); flow; PCR clonality",
+  "match": "partial",
+  "high_yield": false
+}

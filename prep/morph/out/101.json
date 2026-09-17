@@ -1,0 +1,26 @@
+{
+  "id": "101",
+  "recognize_zh": "周邊血抹片中許多紅血球的中央淡染區呈狹長裂縫狀（口形紅血球，stomatocyte），並混有少數緻密小紅血球；網狀紅血球染色可見網狀紅血球增加；NGS 顯示 ABCG8 同合子變異，符合地中海型口形紅血球症／巨血小板症（sitosterolemia）。",
+  "features": [
+    "Numerous stomatocytes with slit-like (mouth-shaped) central pallor",
+    "Occasional small dense, spherocyte-like red cells and mild anisocytosis, including a large oval red cell",
+    "Platelets appear reduced; true platelet size is difficult to judge at this magnification",
+    "Supravital stain shows increased reticulocytes with granular-reticular RNA precipitate",
+    "NGS read alignment (IGV) and Sanger chromatogram show a homozygous C>A substitution in ABCG8, converting a serine codon (TCA) to a stop codon (TAA)"
+  ],
+  "describe_en": "Peripheral blood smear shows moderate anisocytosis with numerous stomatocytes showing slit-like central pallor, occasional small dense spherocyte-like cells, and a scattered large oval red cell; no schistocytes or target-cell predominance is seen. Platelets are few in the fields shown. A supravital reticulocyte preparation shows increased reticulocytes, consistent with ongoing hemolysis. Next-generation sequencing reads and confirmatory Sanger sequencing show a homozygous C>A variant in ABCG8 predicted to create a premature stop codon (serine to termination). Findings are consistent with Mediterranean stomatocytosis/macrothrombocytopenia, the hematologic manifestation of sitosterolemia.",
+  "ddx": [
+    {"dx": "Overhydrated hereditary stomatocytosis (RHAG)", "vs": "Morphology can be similar, but OHSt shows high MCV with low MCHC, increased osmotic fragility and a normal platelet count, and is confirmed by RHAG rather than ABCG5/ABCG8 variants."},
+    {"dx": "Dehydrated hereditary stomatocytosis / xerocytosis (PIEZO1)", "vs": "Xerocytosis has few stomatocytes, target and desiccated cells with raised MCHC and decreased osmotic fragility on ektacytometry, without macrothrombocytopenia, and carries PIEZO1 or KCNN4 variants."},
+    {"dx": "Hereditary spherocytosis", "vs": "HS shows round spherocytes lacking any central pallor rather than slit-like pallor, and an abnormal EMA binding test, which was normal here."},
+    {"dx": "Acquired stomatocytosis or drying artifact", "vs": "Artifactual stomatocytes are confined to thick smear areas and acquired forms follow alcohol or liver disease, without lifelong hemolysis, thrombocytopenia or a biallelic ABCG8 variant."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; supravital reticulocyte stain; NGS/Sanger",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood smears (A, B) showing stomatocytes with slit-like central pallor and a few dense cells; supravital stain (C) showing increased reticulocytes",
+    "IGV view of NGS reads (A) and Sanger chromatogram (B) showing a homozygous C>A nonsense variant in ABCG8"
+  ]
+}

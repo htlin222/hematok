@@ -1,0 +1,23 @@
+{
+  "id": "3919",
+  "recognize_zh": "骨髓抹片中一顆巨噬細胞的細胞質內含有多顆被吞噬的紅血球與小而深染的核碎片，細胞邊緣還附著數顆小型有核細胞，是典型的吞紅血球現象（erythrophagocytosis）。",
+  "features": [
+    "Large macrophage with abundant pale blue-grey cytoplasm",
+    "Multiple ingested intact red cells within cytoplasmic vacuoles",
+    "Small dense pyknotic nuclear fragments within the cytoplasm",
+    "Small round dark nucleated cells adherent to or engulfed at the cell margin",
+    "Macrophage nucleus with open chromatin",
+    "Adjacent granulated myeloid precursors in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a macrophage containing several intact phagocytosed red blood cells within cytoplasmic vacuoles, along with small pyknotic nuclear fragments, and with small nucleated cells adherent to its surface. The surrounding marrow shows granulated myeloid precursors. Findings demonstrate erythrophagocytosis (hemophagocytosis); this is a nonspecific finding and must be interpreted with clinical and laboratory criteria for hemophagocytic lymphohistiocytosis.",
+  "ddx": [
+    {"dx": "Sea-blue histiocyte/storage histiocyte", "vs": "Storage histiocytes contain lipid or ceroid material rather than recognizable engulfed red cells and nucleated cells."},
+    {"dx": "Tingible body macrophage", "vs": "Tingible body macrophages contain apoptotic nuclear debris only, without ingested intact erythrocytes."},
+    {"dx": "Erythroblastic island (nurse macrophage)", "vs": "In erythroblastic islands, erythroid precursors surround a central macrophage without being engulfed, and intracytoplasmic red cells are absent."},
+    {"dx": "Smear artifact with overlapping cells", "vs": "Overlapping red cells lie on top of the cytoplasm without vacuolar halos, whereas true phagocytosed cells sit within distinct vacuoles."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

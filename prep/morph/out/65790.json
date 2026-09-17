@@ -1,0 +1,21 @@
+{
+  "id": "65790",
+  "recognize_zh": "這是 FISH 報告表格，不是形態學影像：7 號染色體三色探針顯示著絲點 2 個、7q22 與 7q36 各 3 個訊號（196/200 細胞），代表 7q 長臂多一套而非缺失，評為等臂染色體 7q（i(7q)）；另見 8 號三體（trisomy 8）佔 98%，兩者合併是肝脾 T 細胞淋巴瘤的典型遺傳變化。",
+  "features": [
+    "Interphase FISH on directly harvested peripheral blood, 200 nuclei scored per probe",
+    "7q22/7q36/CEP7 triple-color probe: nuc ish(D7Z1x2, CUTL1x3, D7S2419x3)[196/200], i.e. two centromeres with three copies of 7q",
+    "Reported as negative for del(7q); signal gain of 7q with normal centromere count interpreted as isochromosome 7q in 98% of cells",
+    "CEP8 probe: nuc ish(D8Z1x3)[196/200], positive for trisomy 8 in 98% of cells",
+    "Interphase FISH cannot directly visualize the isochromosome; metaphase karyotype or metaphase FISH confirms the structure"
+  ],
+  "describe_en": "This figure is an interphase FISH report rather than a morphologic image. Using a 7q22/7q36/CEP7 triple-color probe, 196 of 200 nuclei show two chromosome 7 centromere signals with three signals each at 7q22 (CUTL1) and 7q36 (D7S2419), indicating relative gain of 7q without deletion; the pattern is interpreted as isochromosome 7q. The CEP8 probe shows three signals in 196 of 200 nuclei, indicating trisomy 8. Isochromosome 7q with trisomy 8 in a high proportion of cells is characteristic of, and supports the diagnosis of, hepatosplenic T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Monosomy 7 or del(7q) in myeloid neoplasm", "vs": "Myeloid -7/del(7q) shows loss of 7q signals (one copy), whereas this pattern shows a gain of 7q with preserved centromeres."},
+    {"dx": "Trisomy 7", "vs": "Trisomy 7 would show three centromere (D7Z1) signals together with three 7q signals rather than two centromeres."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL leukemia can be gamma-delta and involve spleen but lacks i(7q), is usually CD57 positive and cytotoxic granular rather than blastoid."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "N/A (interphase FISH)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "30264",
+  "recognize_zh": "周邊血抹片中有數個芽細胞，細胞質嗜鹼性且邊緣呈不規則泡狀或尖狀突起（blebs/pseudopods），核仁可見，另有一個有核紅血球；帶突起的芽細胞是巨核芽細胞線索，在唐氏症新生兒提示暫時性異常骨髓增生（TAM）。",
+  "features": [
+    "Blasts with high to moderate N:C ratio, round nuclei, fine chromatin and one or more visible nucleoli",
+    "Basophilic cytoplasm with irregular cytoplasmic blebs, budding and pointed pseudopod-like projections",
+    "Some blasts with fine cytoplasmic granularity and irregular cell outline",
+    "A small nucleated red cell with pyknotic nucleus",
+    "Red cells with slit-like stomatocytic pallor and occasional teardrop/fragment forms"
+  ],
+  "describe_en": "Peripheral blood smear (Wright-Giemsa, oil immersion) shows several circulating blasts with fine chromatin, visible nucleoli and basophilic cytoplasm exhibiting irregular blebs and pseudopod-like projections, compatible with megakaryoblasts. A nucleated red cell is present, and red cells show stomatocyte-like forms with occasional teardrop and fragmented cells. Auer rods are not seen. In a neonate with Down syndrome, findings are consistent with transient abnormal myelopoiesis; flow cytometry (CD41, CD61, CD42b, CD34, CD117) and GATA1 mutation studies confirm the diagnosis.",
+  "ddx": [
+    {"dx": "Myeloid leukemia associated with Down syndrome", "vs": "ML-DS has similar megakaryoblasts but presents later in infancy with persistent disease and often a preceding myelodysplastic phase."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts have abundant grey-blue cytoplasm with fine vacuoles and folded nuclei and are nonspecific esterase and CD14/CD64 positive rather than CD41/CD61."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts have scant cytoplasm without blebs and express TdT with B- or T-lineage markers."},
+    {"dx": "Reactive lymphocytes in viral infection", "vs": "Reactive lymphocytes have abundant blue cytoplasm that hugs adjacent red cells and mature chromatin without nucleoli."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

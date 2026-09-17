@@ -1,0 +1,21 @@
+{
+  "id": "62490",
+  "recognize_zh": "骨髓切片 CD34 染色中，血管內皮呈線狀陽性（內部對照），另散在數顆圓形膜性陽性的母細胞，局部成小群聚集，但未見成片；用來估算 CML 加速期的母細胞比例。",
+  "features": [
+    "Linear CD34 staining of capillary endothelium, serving as an internal positive control",
+    "Scattered round mononuclear cells with membranous/cytoplasmic CD34 positivity (blasts), with a small cluster in the center",
+    "No large aggregates or sheets of CD34-positive blasts",
+    "Megakaryocytes and most myeloid cells CD34 negative",
+    "Loosely cohesive, partly disrupted marrow tissue around fat spaces"
+  ],
+  "describe_en": "CD34 immunohistochemical stain on a bone marrow core biopsy highlights endothelial cells of small vessels and scattered CD34-positive blasts, including a small cluster of three to four cells. Megakaryocytes and maturing myeloid cells are negative. No large clusters or sheets of blasts are seen in this field. CD34 staining helps estimate blast percentage and detect focal blast aggregates; in CML, blasts of 10-19% support accelerated phase, whereas a large focal aggregate would indicate blast phase.",
+  "ddx": [
+    {"dx": "CML, blast phase", "vs": "Blast phase shows at least 20% blasts or large focal intramedullary aggregates of CD34-positive blasts, not the scattered small groups seen here."},
+    {"dx": "CML, chronic phase", "vs": "Chronic phase has fewer than 10% blasts, which is difficult to separate by eye and requires aspirate differential counts."},
+    {"dx": "Endothelial staining misread as blasts", "vs": "Elongated, linear CD34-positive cells lining lumens are endothelial and should be excluded from the blast estimate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD34",
+  "match": "consistent",
+  "high_yield": false
+}

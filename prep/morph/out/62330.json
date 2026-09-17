@@ -1,0 +1,22 @@
+{
+  "id": "62330",
+  "recognize_zh": "左圖骨髓抹片中一團黏聚成群的圓形腫瘤細胞，核深染、細胞質極少、彼此擠壓（nuclear molding），與周圍分散的正常造血細胞明顯不同；右圖同類細胞團在抹片上做 synaptophysin 染色呈顆粒狀棕色陽性，支持神經母細胞瘤轉移。",
+  "features": [
+    "Cohesive cluster of small to medium round cells with high N:C ratio and scant cytoplasm (left panel)",
+    "Hyperchromatic round nuclei with finely granular chromatin and nuclear molding",
+    "Cluster embedded in pale amorphous/fibrillary material, distinct from scattered normal hematopoietic cells and neutrophils",
+    "Granular brown cytoplasmic and intercellular synaptophysin staining of the cluster on the smear (right panel)",
+    "Background single hematopoietic cells are synaptophysin-negative (blue)"
+  ],
+  "describe_en": "Bone marrow aspirate smear (left panel) shows a cohesive cluster of small to medium round cells with scant cytoplasm, hyperchromatic nuclei with finely granular chromatin and nuclear molding, set apart from the background of dispersed normal hematopoietic cells including neutrophils. Synaptophysin immunocytochemistry performed on an aspirate smear (right panel) shows granular brown staining of a similar cohesive cluster, while background hematopoietic cells are negative. The findings are consistent with metastatic neuroblastoma involving the bone marrow aspirate. Because the concurrent biopsies were negative, the result reflects focal involvement and highlights the complementary value of aspirate smears.",
+  "ddx": [
+    {"dx": "Hematogones or blast clusters (e.g., ALL)", "vs": "Lymphoblasts and hematogones are discohesive single cells without molding and are synaptophysin-negative, TdT/CD34/CD19-positive by flow cytometry."},
+    {"dx": "Clusters of normal marrow elements (osteoblasts or erythroid islands)", "vs": "Osteoblasts have abundant eccentric cytoplasm with a perinuclear clear zone and erythroid islands center on a macrophage, neither showing molding or synaptophysin positivity."},
+    {"dx": "Other small round blue cell tumors (Ewing sarcoma, rhabdomyosarcoma)", "vs": "Ewing sarcoma is CD99/NKX2.2-positive and rhabdomyosarcoma is desmin/myogenin-positive, whereas neuroblastoma expresses synaptophysin/PHOX2B and lacks CD99 membrane staining."},
+    {"dx": "Smear crush or technical aggregate", "vs": "Crushed or clumped hematopoietic cells retain mixed cell types and smeared chromatin rather than a monotonous synaptophysin-positive cohesive cluster."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grunwald-Giemsa; ICC: synaptophysin",
+  "match": "consistent",
+  "high_yield": false
+}

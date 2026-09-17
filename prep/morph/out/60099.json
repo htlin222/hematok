@@ -1,0 +1,21 @@
+{
+  "id": "60099",
+  "recognize_zh": "骨髓切片細胞密度填滿（packed marrow），由單形性的中到大型芽細胞成片取代，核圓至卵圓、染色質淡、可見核仁，細胞質中等量，正常造血僅剩零星紅系與嗜酸性細胞；抽吸乾抽（dry tap）時要靠切片診斷並做網狀纖維染色。",
+  "features": [
+    "Packed, 100% cellular marrow with sheets of immature cells",
+    "Medium to large blasts with round to oval nuclei, fine vesicular chromatin and small distinct nucleoli",
+    "Moderate amount of pale amphophilic cytoplasm with discernible cell borders",
+    "Scant residual erythroid precursors and eosinophils; mature megakaryocytes not conspicuous in this field",
+    "Scattered mitotic figures; fibrosis cannot be assessed on H&E alone"
+  ],
+  "describe_en": "Bone marrow core biopsy is packed and essentially 100% cellular, composed of sheets of medium to large blasts with round to oval nuclei, fine vesicular chromatin, small nucleoli and moderate pale cytoplasm. Residual hematopoiesis is limited to scattered erythroid precursors and eosinophils, and mature megakaryocytes are not conspicuous. Occasional mitotic figures are present. Given the dry tap, reticulin staining and immunohistochemistry (CD61, CD42b, CD34) are warranted; findings are consistent with acute megakaryoblastic leukemia.",
+  "ddx": [
+    {"dx": "Acute panmyelosis with myelofibrosis", "vs": "APMF shows trilineage proliferation with dysplastic megakaryocytes and marked fibrosis rather than a monotonous blast sheet."},
+    {"dx": "Primary myelofibrosis in accelerated/blast phase", "vs": "PMF has clustered atypical mature megakaryocytes, osteosclerosis and prior MPN history with JAK2/CALR/MPL mutation."},
+    {"dx": "Marrow involvement by lymphoma or metastatic tumor", "vs": "Immunohistochemistry (CD45, lymphoid, keratin, CD61) distinguishes non-myeloid infiltrates, which can also cause a dry tap."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

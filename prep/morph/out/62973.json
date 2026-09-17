@@ -1,0 +1,22 @@
+{
+  "id": "62973",
+  "recognize_zh": "周邊血抹片幾乎全是嗜伊紅性球，僅見少數核質比高、染色質細的淋巴母細胞（箭頭），容易被當成嗜伊紅性球增多症而漏診；流式確認 CD19+CD10+ B 淋巴母細胞，核型顯示多條額外染色體（+4、+9、+14、+21、+X，箭頭）的高度超二倍體，組織中為母細胞片狀浸潤伴嗜伊紅性球。",
+  "features": [
+    "Peripheral blood dominated by mature eosinophils with coarse orange-red granules; a rare lymphoblast with high N:C ratio and fine chromatin (A, arrow)",
+    "Flow cytometry: CD19+ CD10 bright B-lymphoblast population (B, arrow)",
+    "Smear with sheets of small-medium lymphoblasts with scant cytoplasm admixed with eosinophils (C)",
+    "G-banded karyotype with gains of chromosomes 4, 9, 14, 21 and X, consistent with high hyperdiploidy (D)",
+    "Tissue H&E with diffuse blastic infiltrate and scattered eosinophils; nuclear IHC positivity in nearly all blasts (E, F; marker not labeled, likely TdT)"
+  ],
+  "describe_en": "Composite figure. The peripheral blood smear shows marked eosinophilia with only rare circulating lymphoblasts, which have high N:C ratios, fine chromatin and scant cytoplasm (A). Flow cytometry identifies a CD19-positive, CD10-bright B-lymphoblast population (B), and a marrow smear shows sheets of lymphoblasts admixed with eosinophils (C). The karyotype shows multiple whole-chromosome gains including 4, 9, 14, 21 and X (D), and tissue sections show a diffuse blast infiltrate with interspersed eosinophils and strong nuclear immunostaining of the blasts (E, F). Findings are consistent with B-lymphoblastic leukemia/lymphoma with high hyperdiploidy presenting with reactive hypereosinophilia and very few circulating blasts.",
+  "ddx": [
+    {"dx": "B-ALL with t(5;14)(q31;q32); IGH::IL3", "vs": "This entity also presents with eosinophilia and few circulating blasts, but is defined by the IL3 rearrangement rather than a hyperdiploid karyotype."},
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and tyrosine kinase fusion (PDGFRA/PDGFRB/FGFR1/JAK2)", "vs": "These neoplasms can present as lymphoblastic leukemia with eosinophilia but carry the specific tyrosine kinase gene fusion, and the eosinophils are part of the clone."},
+    {"dx": "Reactive eosinophilia (parasitic, allergic, drug)", "vs": "Reactive eosinophilia lacks a clonal CD19+CD10+ blast population and abnormal karyotype."},
+    {"dx": "Chronic eosinophilic leukemia", "vs": "CEL shows clonal eosinophils with dysplasia and possibly increased myeloblasts, not B-lymphoblasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry; G-banded karyotype; H&E; IHC",
+  "match": "consistent",
+  "high_yield": false
+}

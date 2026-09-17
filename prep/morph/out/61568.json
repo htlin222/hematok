@@ -1,0 +1,21 @@
+{
+  "id": "61568",
+  "recognize_zh": "閘選母細胞的 CRLF2 PE 直方圖整體右移，76.72% 母細胞為 CRLF2 陽性（弱至中度），相較於紫色參考族群明顯偏高；CRLF2 過度表現是 BCR::ABL1-like（Ph-like）B-ALL 最常見的篩檢線索。",
+  "features": [
+    "Single-parameter histogram of CRLF2-PE (x-axis, log) versus count on the gated blast population",
+    "Unimodal red blast peak centered around 5 × 10^0 on the log scale",
+    "Positivity marker (H+) set at about 3 × 10^0, with 76.72% of blasts CRLF2-positive",
+    "Small purple overlay peak at lower intensity (reference/negative population)",
+    "Expression is dim-to-moderate rather than bright, with no bimodal separation"
+  ],
+  "describe_en": "This flow cytometry histogram displays CRLF2 (PE) expression on the gated blast population. The blasts form a unimodal peak shifted to the right of the lower-intensity purple reference population, with 76.72% of blasts falling in the CRLF2-positive region. Expression is dim-to-moderate and continuous rather than bimodal, so the result depends on correct placement of the positivity cutoff against an appropriate negative control. CRLF2 overexpression in B-lymphoblastic leukemia is a surrogate for CRLF2 rearrangement (P2RY8::CRLF2 or IGH::CRLF2) and supports the BCR::ABL1-like subtype, which should be confirmed by FISH or molecular testing.",
+  "ddx": [
+    {"dx": "Other BCR::ABL1-like B-ALL (ABL-class or JAK2 fusions)", "vs": "May be CRLF2-negative by flow, so a negative histogram does not exclude Ph-like ALL and requires RNA-based fusion testing."},
+    {"dx": "B-ALL with Down syndrome", "vs": "CRLF2 rearrangement is frequent in DS-ALL, so overexpression is not specific to non-syndromic Ph-like ALL; clinical context is needed."},
+    {"dx": "Nonspecific dim staining / inadequate negative control", "vs": "A shift of the whole population near the cutoff can reflect autofluorescence or isotype issues and should be compared with internal normal lymphocytes."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

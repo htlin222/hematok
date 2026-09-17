@@ -1,0 +1,22 @@
+{
+  "id": "63806",
+  "recognize_zh": "穿刺切片中，許多核大、空泡狀染色質、形狀不規則的非典型大型淋巴細胞成群聚集，夾雜在大量小淋巴球與發炎細胞之間，符合灰區淋巴瘤復發/持續病灶的表現。",
+  "features": [
+    "Core biopsy with dense cellularity",
+    "Clusters of large pleomorphic atypical lymphoid cells with vesicular chromatin and irregular nuclear contours",
+    "Moderate amphophilic to eosinophilic cytoplasm in the large cells",
+    "Background of small dark lymphocytes and other inflammatory cells",
+    "Crush artifact along the edges; image resolution limits assessment of nucleoli and eosinophils"
+  ],
+  "describe_en": "H&E-stained core biopsy shows a densely cellular infiltrate with clusters of large pleomorphic atypical lymphoid cells containing vesicular chromatin, irregular nuclear contours and moderate amphophilic cytoplasm, set in a background of small lymphocytes and mixed inflammatory cells. Crush artifact is present at the edges, and the image resolution limits assessment of nucleoli and specific inflammatory cell types. The morphology is intermediate between classic Hodgkin lymphoma and large B-cell lymphoma, and with the immunoprofile (CD30+, CD15+, variable CD20 and CD79a) supports relapsed/persistent mediastinal gray zone lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Tumor cells are fewer and scattered in a more polymorphous background, and lose B-cell program markers such as CD20, CD79a and OCT2."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "Shows more monotonous sheets of large cells with clear cytoplasm and compartmentalizing fibrosis, with strong CD20 and weak/absent CD15."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "Scattered large cells are strongly CD20 positive and CD30/CD15 negative in a T-cell and histiocyte-rich background."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "Cohesive hallmark cells with horseshoe nuclei that express T-cell markers and lack PAX5."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

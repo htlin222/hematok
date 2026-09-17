@@ -1,0 +1,20 @@
+{
+  "id": "61409",
+  "recognize_zh": "CD10 染色低倍（40x）見被纖維帶分隔的腫瘤結節瀰漫陽性、間質陰性；高倍（400x）為中大型細胞膜狀/胞質陽性，顯示生發中心表型，配合 MUM1 強陽性是 IRF4 重組大B細胞淋巴瘤的特徵組合。",
+  "features": [
+    "Low power (40x): diffuse CD10 staining throughout tumor nodules separated by negative fibrous septa",
+    "High power (400x): moderate to strong membranous and cytoplasmic CD10 in the majority of medium to large cells",
+    "Staining intensity somewhat heterogeneous with occasional weaker areas",
+    "Scattered positive cells within septa (few); stroma otherwise negative"
+  ],
+  "describe_en": "CD10 immunohistochemistry shows diffuse membranous staining of the neoplastic medium to large lymphoid cells within nodules separated by negative fibrous septa. Expression involves the majority of tumor cells, indicating a germinal center B-cell phenotype. In combination with BCL6 and strong MUM1 co-expression, findings are consistent with large B-cell lymphoma with IRF4 rearrangement, pending FISH confirmation.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "FL is CD10+ but typically MUM1-negative and BCL2-positive with t(14;18), lacking IRF4 rearrangement."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt is CD10+ but composed of medium-sized cells with starry-sky pattern, Ki-67 near 100%, BCL2-negative and MYC rearranged."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "B-LBL may be CD10+ but expresses TdT and CD34 and lacks surface immunoglobulin."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD10",
+  "match": "consistent",
+  "high_yield": false
+}

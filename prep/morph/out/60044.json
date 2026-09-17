@@ -1,0 +1,22 @@
+{
+  "id": "60044",
+  "recognize_zh": "視野右下方有一顆與紅血球差不多大、呈淡藍紫色顆粒狀的巨大血小板（giant platelet），配合嗜中性球出現，符合 May-Hegglin 異常；但在此倍率下嗜中性球細胞質內的淡藍色類 Döhle 包涵體無法清楚辨認。",
+  "features": [
+    "Giant platelet (lower right) approaching the diameter of a red cell, with pale blue-lilac granular cytoplasm",
+    "A second normal-sized platelet in the upper right for comparison; overall platelet number appears low in this field",
+    "Single segmented neutrophil with normal lobulation and granulation; pale basophilic Döhle-like inclusions are not resolvable at this magnification",
+    "Numerous crenated red cells (echinocytes), most likely a drying/storage artifact",
+    "No red cell agglutination or platelet clumps"
+  ],
+  "describe_en": "Peripheral blood smear, medium power, shows a single segmented neutrophil among red cells that are diffusely crenated (echinocytic), most consistent with a preparation artifact. A giant platelet approximately the size of a red cell is present in the lower right field, with only occasional normal-sized platelets, suggesting reduced platelet numbers. The characteristic large, pale blue, spindle-shaped Döhle-like cytoplasmic inclusions in the neutrophil cannot be clearly identified at this resolution, so the image only partially demonstrates the entity. In the appropriate context, findings are suggestive of an MYH9-related disorder (May-Hegglin anomaly); higher-power review of neutrophils and MYH9 immunofluorescence or genetic testing would confirm.",
+  "ddx": [
+    {"dx": "Bernard-Soulier syndrome", "vs": "Also has giant platelets and thrombocytopenia but lacks neutrophil Döhle-like inclusions and shows absent ristocetin-induced agglutination (GPIb-IX-V deficiency)."},
+    {"dx": "Immune thrombocytopenia (ITP) with large platelets", "vs": "Platelets may be enlarged but true giant platelets are fewer and neutrophils lack inclusions; MYH9 testing is normal."},
+    {"dx": "Toxic change with Döhle bodies (infection/inflammation)", "vs": "True Döhle bodies are smaller, peripheral, and accompanied by toxic granulation and vacuoles, without inherited giant platelets."},
+    {"dx": "Gray platelet syndrome", "vs": "Large platelets appear pale gray and agranular, and neutrophils lack Döhle-like inclusions."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

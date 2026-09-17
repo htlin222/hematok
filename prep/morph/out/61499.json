@@ -1,0 +1,22 @@
+{
+  "id": "61499",
+  "recognize_zh": "H&E 可見瀰漫成片、細胞較鬆散的大型異型細胞，核大、不規則且深染；免疫染色 CD20 呈強烈細胞膜陽性、BCL6 瀰漫核陽性，CD3 僅標出散在的小型反應性 T 細胞，符合肝臟大型 B 細胞淋巴瘤。",
+  "features": [
+    "H&E: diffuse sheets of large, somewhat discohesive atypical cells with enlarged irregular hyperchromatic nuclei and scant cytoplasm",
+    "Scattered apoptotic/crushed cells and thin fibrous strands; no residual hepatic architecture evident in this panel",
+    "CD20: strong diffuse membranous staining of the neoplastic cells",
+    "BCL6: strong nuclear positivity in the vast majority of tumor cells",
+    "CD3: negative in tumor cells, highlighting only scattered small background T cells"
+  ],
+  "describe_en": "This four-panel figure from a liver needle core biopsy shows a diffuse infiltrate of large, discohesive atypical lymphoid cells with enlarged, irregular, hyperchromatic nuclei. Immunohistochemistry shows the neoplastic cells are strongly positive for CD20 (membranous) and BCL6 (nuclear), while CD3 stains only scattered small reactive T cells. Per the provided workup, the cells are also BCL2+, MUM1+, CD10-, CD30- and keratin-negative with a Ki-67 index above 95%. Findings are consistent with a large B-cell lymphoma involving the liver (DLBCL, non-germinal center phenotype by Hans algorithm); FISH for MYC, BCL2 and BCL6 rearrangements is required to exclude high-grade B-cell lymphoma with rearrangements.",
+  "ddx": [
+    {"dx": "Poorly differentiated carcinoma", "vs": "Carcinoma cells are cohesive and keratin (AE1/AE3, CAM5.2) positive and CD20 negative, whereas this tumor is CD20+ and keratin-negative."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Morphology and phenotype can be identical; FISH demonstrating concurrent MYC and BCL2 rearrangements is required for that diagnosis."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL is CD30 strongly positive with T-cell or null phenotype and CD20 negative, unlike this CD20+, CD30- tumor."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL shows sinusoidal infiltration by medium-sized CD3+ T cells, whereas the tumor cells here are CD3 negative and form sheets."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD20, BCL6, CD3",
+  "match": "consistent",
+  "high_yield": false
+}

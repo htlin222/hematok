@@ -1,0 +1,22 @@
+{
+  "id": "65067",
+  "recognize_zh": "周邊血抹片中散布多個紅血球碎片：頭盔狀細胞（helmet cell）、三角形與角狀細胞（keratocyte），以及小而無中央淡染的碎片；背景血小板極少、偶見較大的多染性紅血球，符合微血管病變性溶血，配合臨床為 TTP。",
+  "features": [
+    "Numerous schistocytes including helmet cells, triangular fragments, and keratocytes",
+    "Small dense fragmented red cells lacking central pallor",
+    "Occasional larger polychromatic red cells",
+    "Many red cells with a refractile central ring artifact, likely drying-related",
+    "Occasional echinocyte/burr cell; platelets markedly decreased in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous schistocytes, including helmet cells, triangular fragments, and keratocytes, together with small dense fragmented red cells. Occasional polychromatic macrocytes are present, and platelets are markedly decreased. Many red cells show a refractile central ring that likely represents drying artifact rather than true target or stomatocytic change. Findings indicate a microangiopathic hemolytic anemia with thrombocytopenia and, in this clinical context, are consistent with thrombotic thrombocytopenic purpura; urgent ADAMTS13 activity testing is recommended.",
+  "ddx": [
+    {"dx": "Hemolytic uremic syndrome", "vs": "HUS shows identical schistocytes but is associated with Shiga toxin or complement dysregulation and ADAMTS13 activity above 10%."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC shows prolonged PT/aPTT and low fibrinogen, which are typically normal in TTP."},
+    {"dx": "Mechanical heart valve hemolysis", "vs": "Valve-related hemolysis has schistocytes with a normal platelet count and a history of a prosthetic valve."},
+    {"dx": "Bite cells in oxidative hemolysis", "vs": "Bite cells have a smooth single semicircular defect with blister cells and Heinz bodies, with normal platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

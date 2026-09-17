@@ -1,0 +1,21 @@
+{
+  "id": "3632",
+  "recognize_zh": "標題寫的是細胞散佈圖（cytogram），但這張其實是周邊血抹片，看得到兩顆正常的分葉中性球：有 3–4 個分葉、染色質粗塊狀，細胞質裡有淡粉紫色的細顆粒；紅血球和血小板也沒有異常。",
+  "features": [
+    "Two mature segmented neutrophils, about 2 times RBC diameter",
+    "Nuclei with 3-4 lobes connected by thin filaments and coarsely clumped chromatin",
+    "Pale pink cytoplasm with fine, evenly distributed neutrophilic granules; no toxic granulation, vacuoles, or Döhle bodies",
+    "Normochromic, normocytic RBCs with central pallor",
+    "Scattered normal-sized platelets"
+  ],
+  "describe_en": "Although the title refers to a cytogram, this image is a peripheral blood smear rather than an analyzer scatter plot. It shows two mature segmented neutrophils with 3-4 nuclear lobes, clumped chromatin, and finely granular pink cytoplasm without toxic change, hypersegmentation, or hypogranularity. Red cells are normochromic and normocytic, and platelets are normal in size. Findings represent normal neutrophil morphology.",
+  "ddx": [
+    {"dx": "Hypersegmented neutrophils (megaloblastic anemia)", "vs": "Hypersegmented neutrophils have 6 or more lobes or more than 5% with 5 lobes, often with macro-ovalocytes, whereas these cells have 3-4 lobes."},
+    {"dx": "Toxic neutrophils (sepsis)", "vs": "Toxic neutrophils show coarse dark granules, cytoplasmic vacuoles, and Döhle bodies, all absent here."},
+    {"dx": "Dysplastic hypogranular neutrophils (MDS)", "vs": "Dysplastic neutrophils have pale, agranular cytoplasm or pseudo-Pelger bilobed nuclei, unlike the normal granulation and segmentation here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "discordant",
+  "high_yield": false
+}

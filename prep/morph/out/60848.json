@@ -1,0 +1,22 @@
+{
+  "id": "60848",
+  "recognize_zh": "骨髓抹片中兩個晚期紅系前驅細胞的核分裂成多個大小不一的核葉/核碎（nuclear budding、multilobation），旁邊的早期紅母細胞核大、染色質開放呈巨母細胞樣（megaloblastoid），且無異常前骨髓細胞；結合 APL 經砷劑與 ATRA 治療的病史，屬藥物引起的紅系發育異常。",
+  "features": [
+    "Two late erythroid precursors with orthochromatic/polychromatic cytoplasm and abnormally segmented nuclei forming multiple small round lobes (nuclear budding/multinuclearity)",
+    "Early erythroid precursors (basophilic normoblasts) with deep blue cytoplasm and enlarged nuclei with open, finely stippled megaloblastoid chromatin",
+    "Additional large precursor with fine chromatin and a small nucleolus at lower left",
+    "Normally segmented, granulated neutrophil at upper left; no abnormal promyelocytes, Auer rods or faggot cells in this field",
+    "Background red cells with mild anisocytosis"
+  ],
+  "describe_en": "Wright-Giemsa-stained bone marrow aspirate smear shows a cluster of erythroid precursors with dysplastic features. Two late erythroid precursors display abnormal nuclear segmentation into multiple small round lobes, and adjacent basophilic normoblasts have enlarged nuclei with open, megaloblastoid chromatin, indicating nuclear-cytoplasmic asynchrony. A neutrophil in the field is normally segmented and granulated, and no abnormal promyelocytes or Auer rods are identified. In a patient treated with arsenic trioxide and ATRA for acute promyelocytic leukemia, these findings are consistent with therapy-related (arsenic-induced) erythroid dysplasia and should not be interpreted as myelodysplastic neoplasm without supporting evidence.",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm (including therapy-related myeloid neoplasm)", "vs": "Morphology can be identical; persistent multilineage dysplasia, clonal cytogenetic/molecular abnormalities and persistence after drug withdrawal favor MDS over transient arsenic effect."},
+    {"dx": "Megaloblastic anemia (vitamin B12/folate deficiency)", "vs": "Megaloblastic anemia also shows megaloblastoid chromatin and nuclear lobation but has hypersegmented neutrophils and giant metamyelocytes and resolves with vitamin replacement."},
+    {"dx": "Residual/relapsed acute promyelocytic leukemia", "vs": "Relapse shows abnormal hypergranular promyelocytes with bilobed nuclei and Auer rod bundles and PML::RARA detection, none of which are present here."},
+    {"dx": "Congenital dyserythropoietic anemia", "vs": "CDA is a lifelong congenital disorder with binucleate/internuclear bridging erythroblasts, not an acquired change following chemotherapy."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

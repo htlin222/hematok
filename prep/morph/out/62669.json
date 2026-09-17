@@ -1,0 +1,21 @@
+{
+  "id": "62669",
+  "recognize_zh": "MUM1 染色中，成群的大型腫瘤細胞核呈強棕色陽性（部分也有細胞質染色），周圍小型淋巴球大多陰性；表示腫瘤細胞為漿母細胞/後生發中心分化，是 PEL 的典型表現型。",
+  "features": [
+    "Clusters of large tumor cells with strong nuclear MUM1/IRF4 staining",
+    "Additional granular cytoplasmic staining in many tumor cells",
+    "Large, irregular to lobulated nuclei with visible chromatin texture",
+    "Background small lymphocytes largely negative with scattered positive cells",
+    "Sharp demarcation between positive tumor aggregates and negative lymphoid tissue"
+  ],
+  "describe_en": "MUM1 immunohistochemistry shows cohesive aggregates of large neoplastic cells with strong nuclear staining, accompanied by granular cytoplasmic staining, while the intervening small lymphocytes are largely negative with only scattered positive cells. The tumor nuclei are large and irregular. The findings indicate a post-germinal center/plasmablastic phenotype of the neoplastic cells. Findings are consistent with extracavitary primary effusion lymphoma in conjunction with HHV8 positivity and loss of B-cell markers.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Also MUM1-positive with loss of CD20/PAX5, but HHV8 (LANA-1)-negative."},
+    {"dx": "Diffuse large B-cell lymphoma, non-germinal center type", "vs": "MUM1-positive but retains CD20 and PAX5 and is HHV8-negative."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "May be MUM1-positive, but is CD30 strong with ALK or T-cell antigens and HHV8-negative."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: MUM1",
+  "match": "consistent",
+  "high_yield": false
+}

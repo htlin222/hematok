@@ -1,0 +1,21 @@
+{
+  "id": "3034",
+  "recognize_zh": "淋巴組織 H&E 呈多形性浸潤：小淋巴球、漿細胞、大量大型免疫母細胞，並可見分裂相與一個大型多核或雙核細胞，細胞大小呈連續光譜而非單一族群，是傳染性單核球增多症的組織學特徵。",
+  "features": [
+    "Diffuse polymorphous infiltrate of small lymphocytes, plasma cells, and large immunoblasts",
+    "Numerous immunoblasts with vesicular nuclei and prominent central nucleoli",
+    "Scattered large binucleate/Reed-Sternberg-like cells",
+    "Mitotic figures and apoptotic debris present",
+    "Continuous spectrum of cell sizes without a monotonous sheet"
+  ],
+  "describe_en": "Sections of lymphoid tissue (lymph node or tonsil) show a diffuse, polymorphous infiltrate composed of small lymphocytes, plasma cells, and many large immunoblasts with vesicular chromatin and prominent nucleoli. Occasional large binucleate cells resembling Reed-Sternberg cells, mitotic figures, and apoptotic bodies are present. The cells form a continuous spectrum of maturation rather than a monomorphic population. Findings are consistent with florid immunoblastic proliferation of infectious mononucleosis; EBER in situ hybridization and serology help confirm, and immunohistochemistry helps exclude lymphoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL is a monotonous sheet of large cells with architectural effacement and light-chain restriction, unlike this polymorphous, polyclonal immunoblastic proliferation."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL has CD15+/CD30+/CD45- HRS cells in an inflammatory background, whereas IM immunoblasts are CD20+/CD45+ and form a continuum with plasma cells."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "PTCL shows atypical medium-to-large T cells with aberrant antigen loss and clonal TCR rearrangement, which IM lacks."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

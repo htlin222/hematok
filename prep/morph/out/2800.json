@@ -1,0 +1,22 @@
+{
+  "id": "2800",
+  "recognize_zh": "單顆大型中性球核分成六葉以上（hypersegmented），細胞質有細緻顆粒，旁邊還有淚滴狀紅血球；此圖呈現的是顆粒球系發育異常，而非單核球增多本身，需結合全片單核球計數才支持 CMML。",
+  "features": [
+    "Large segmented neutrophil with hypersegmented nucleus (about 6 or more lobes)",
+    "Coarsely clumped chromatin in lobes connected by thin filaments",
+    "Abundant cytoplasm with fine neutrophilic granules; granulation not reduced",
+    "Background red cells include a teardrop cell and mild anisocytosis",
+    "Scattered small platelets; no monocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows an enlarged neutrophil with a hypersegmented nucleus composed of multiple small lobes and cytoplasm with fine granules. Red cells show mild anisopoikilocytosis with a teardrop form, and platelets are present. No monocytes are included in this field, so the defining monocytosis cannot be evaluated here. Nuclear hypersegmentation may represent dysgranulopoiesis in a myeloid neoplasm such as chronic myelomonocytic leukemia, but megaloblastic change should be excluded.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic anemia shows macro-ovalocytes and several hypersegmented neutrophils with normal vitamin levels excluding it; CMML additionally shows monocytosis."},
+    {"dx": "Drug effect (hydroxyurea, methotrexate)", "vs": "Drug-induced hypersegmentation is explained by history and accompanied by macrocytosis rather than monocytosis."},
+    {"dx": "Pseudo-Pelger-Huet anomaly", "vs": "Pelger-Huet dysplasia shows hyposegmented bilobed or nonlobed nuclei, the opposite of the hypersegmented nucleus here."},
+    {"dx": "Hereditary hypersegmentation", "vs": "Constitutional hypersegmentation is present in all neutrophils without cytopenias or dysplasia in other lineages."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

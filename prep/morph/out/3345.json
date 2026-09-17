@@ -1,0 +1,22 @@
+{
+  "id": "3345",
+  "recognize_zh": "淋巴結極低倍影像：正常結構大致被瀰漫性淡粉紫色的腫瘤細胞片取代，僅剩少數小而深染的殘存濾泡散在其中；此倍率只能判定結構破壞，須高倍見到大型標誌細胞（hallmark cells）與 CD30/ALK 染色才能確診 ALCL。",
+  "features": [
+    "Scanning-power lymph node with diffuse effacement of normal architecture",
+    "Pale pink-purple sheets of tumor cells occupying most of the node",
+    "Few small, darker residual lymphoid follicles scattered within the infiltrate",
+    "No sinusoidal pattern or capsule clearly identifiable at this magnification",
+    "Cytologic detail (hallmark cells) not assessable at this power"
+  ],
+  "describe_en": "Scanning-power view of a lymph node shows diffuse effacement of the normal architecture by pale-staining sheets of cells, with only a few small, dark-staining residual lymphoid follicles scattered throughout. Cytologic features cannot be evaluated at this magnification. The pattern indicates diffuse involvement by a neoplasm and is compatible with anaplastic large cell lymphoma in the appropriate context; higher-power evaluation for hallmark cells and immunohistochemistry for CD30, ALK, EMA and T-cell markers are required.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL shows scattered Reed-Sternberg cells in a mixed inflammatory background with CD15 positivity and PAX5 weak expression, rather than cohesive sheets of CD30+/ALK+ large cells."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL also effaces nodes diffusely but is CD20/PAX5 positive and ALK negative."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Metastases form cohesive nests positive for keratin or S100/SOX10 and are negative for CD45 and ALK."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS lacks uniform strong CD30 expression and ALK positivity typical of ALK-positive ALCL."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

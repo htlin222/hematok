@@ -1,0 +1,23 @@
+{
+  "id": "61169",
+  "recognize_zh": "組合圖中骨髓切片可見大型、細胞質豐富淡染、細胞核不規則或雙葉的非典型肥大細胞，CD117 膜狀、tryptase 強陽性、CD25 陽性；抹片（G–I）中是充滿紫色顆粒、體積大的非典型肥大細胞，背景另有 CD19/LEF1 陽性的 CLL 小淋巴球，符合合併 CLL 的肥大細胞白血病。",
+  "features": [
+    "Panels A/B (H&E): hypercellular infiltrate with large atypical mast cells having abundant pale to clear cytoplasm, distinct borders and irregular, bilobed or multilobed nuclei",
+    "Panel C: CD19/LEF1 double stain highlights a dense population of small lymphoid cells (CLL component) between the large cells",
+    "Panel D: CD117 strong membranous staining of the large atypical cells",
+    "Panel E: tryptase strong cytoplasmic positivity in numerous mast cells",
+    "Panel F: weak to moderate membranous CD25 expression in the mast cells",
+    "Panels G-I (aspirate): large round mast cells with abundant purple metachromatic granules, some with hypogranular areas, eccentric or bilobed nuclei (promastocyte/atypical forms)"
+  ],
+  "describe_en": "This composite shows marrow involvement by a dense infiltrate of large atypical mast cells with abundant pale cytoplasm and irregular, bilobed to multilobed nuclei, admixed with a population of small lymphocytes. Immunohistochemistry shows the large cells to be CD117 (membranous) and tryptase positive with aberrant CD25 expression, while a CD19/LEF1 double stain highlights the small lymphoid cells of chronic lymphocytic leukemia. Aspirate smears show numerous large, round atypical mast cells with dense metachromatic granules and focal hypogranularity, including immature forms. Findings are consistent with mast cell leukemia (aleukemic, given the context) with an associated hematologic neoplasm, here CLL and CMML; mast cell percentage on the aspirate (at least 20%) and KIT D816V testing support the diagnosis.",
+  "ddx": [
+    {"dx": "Systemic mastocytosis (non-leukemic) with associated hematologic neoplasm", "vs": "SM-AHN has compact spindle mast cell aggregates with fewer than 20% mast cells on the aspirate, whereas mast cell leukemia shows at least 20% round atypical mast cells on smears."},
+    {"dx": "Myelomastocytic leukemia", "vs": "Myelomastocytic leukemia occurs in advanced myeloid neoplasms with metachromatic blasts and immature mast cells that lack SM criteria such as compact aggregates, CD25 expression or KIT D816V."},
+    {"dx": "Basophilic leukemia", "vs": "Basophils have segmented nuclei and water-soluble granules and are CD123/CD203c positive but tryptase weak and CD117 negative."},
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are scattered, round to spindle, well granulated and CD25/CD2 negative, without sheets or atypia."}
+  ],
+  "specimen": "other",
+  "stain": "H&E, Wright-Giemsa, IHC: CD19/LEF1, CD117, tryptase, CD25",
+  "match": "consistent",
+  "high_yield": false
+}

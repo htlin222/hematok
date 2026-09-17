@@ -1,0 +1,22 @@
+{
+  "id": "63072",
+  "recognize_zh": "CD20 免疫染色中，散在的大型細胞呈清楚、強烈的細胞膜陽性，勾勒出大而淡染的核（LP cell），部分周圍有 CD20 陽性小細胞圍繞；大型腫瘤細胞 CD20 強陽性（而古典何杰金的 HRS 細胞多為陰性）是 NLPHL 的關鍵線索。",
+  "features": [
+    "Numerous scattered large cells with strong, crisp membranous CD20 staining outlining large, pale, vesicular nuclei",
+    "Some large CD20+ cells show irregular or lobulated nuclear contours (LP cells)",
+    "Smaller CD20-positive lymphocytes and cell fragments cluster around the large cells",
+    "Many background small lymphocytes are CD20-negative in this field, suggesting a T-cell-rich microenvironment",
+    "No sheet-like growth of large B cells"
+  ],
+  "describe_en": "Immunohistochemical stain for CD20 on a lymph node section highlights numerous scattered large cells with strong, uniform membranous positivity, outlining large, pale, irregular to lobulated nuclei consistent with lymphocyte-predominant (LP) cells. Smaller CD20-positive cells are admixed around some of the large cells, whereas many of the background small lymphocytes in this field are CD20-negative, indicating a T-cell-rich microenvironment in this area. The large cells do not form confluent sheets. Strong CD20 expression by the neoplastic cells supports nodular lymphocyte-predominant Hodgkin lymphoma; a T-cell-rich or diffuse pattern should prompt assessment of the overall architecture and exclusion of T-cell/histiocyte-rich large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are usually CD20-negative or weak and heterogeneous, and are CD30+/CD15+ with loss of OCT2/BOB1, unlike the uniformly strong CD20+ LP cells here."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL also has scattered large CD20+ cells in a T-cell background but lacks residual CD20+ small B-cell nodules and CD21+ follicular dendritic cell meshworks, so architecture on CD21 and low-power CD20 is decisive."},
+    {"dx": "Lymphocyte-rich classic Hodgkin lymphoma", "vs": "LRCHL may show nodules of small B cells, but its neoplastic cells are CD30+/CD15+ and CD20-negative or weak, whereas these large cells are strongly CD20+."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC nodules are composed of CD20+ small mantle B cells with dispersed germinal center cells but lack large LP cells rimmed by PD1+ T cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD20",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64511",
+  "recognize_zh": "周邊血液中的芽細胞核形不規則、細胞質嗜鹼，含嗜天青顆粒（紅箭頭）、假 Chédiak-Higashi 顆粒（黃箭頭）與 Auer 小體（綠箭頭），流式細胞圖同時顯示 cMPO 與 cCD3 陽性，符合 T/骨髓混合表型急性白血病（MPAL）。",
+  "features": [
+    "Medium to large blasts with high N:C ratio and irregular, indented nuclei with fine chromatin",
+    "Moderately basophilic cytoplasm containing azurophilic granules (red arrows)",
+    "Large pseudo-Chédiak-Higashi granules in one blast (yellow arrow) and a rare Auer rod (green arrow)",
+    "Flow (panel D): blasts CD34+, CD117+, CD13+, CD33 dim/partial, CD14-, CD64-, CD7+, surface CD3-, CD2+, CD5 dim/partial, CD56+, CD16-",
+    "Flow: cytoplasmic CD3 positive with a cMPO-positive blast subset (black arrow)"
+  ],
+  "describe_en": "Peripheral blood smear (panels A-C) shows numerous blasts that are medium to large with high N:C ratios, irregular to indented nuclei, fine chromatin, and moderately basophilic cytoplasm. Many blasts contain azurophilic granules, one shows coarse pseudo-Chédiak-Higashi granules, and a rare Auer rod is identified, supporting myeloid differentiation. Flow cytometry (panel D) shows a single blast population expressing CD34, CD117, CD13, dim CD33, CD7, CD2, partial CD5 and CD56, with cytoplasmic CD3 and a subset positive for cytoplasmic MPO, while CD14, CD64, surface CD3 and CD16 are negative. Findings are consistent with mixed phenotype acute leukemia, T/myeloid.",
+  "ddx": [
+    {"dx": "AML with aberrant CD7/CD56 expression", "vs": "Aberrant T-associated antigens such as CD7 or CD2 are common in AML, but cytoplasmic CD3 expression (bright, comparable to mature T cells) is required to assign T lineage in MPAL."},
+    {"dx": "Early T-precursor lymphoblastic leukemia (ETP-ALL)", "vs": "ETP-ALL expresses CD117/CD34/CD13/CD33 and cCD3 but lacks MPO; MPO positivity and Auer rods here indicate true myeloid lineage."},
+    {"dx": "Acute promyelocytic leukemia (hypogranular)", "vs": "APL blasts are bilobed, usually CD34- and HLA-DR- with bright MPO and PML::RARA, and do not express cCD3."},
+    {"dx": "Chediak-Higashi syndrome", "vs": "Giant granules in Chediak-Higashi syndrome occur in mature neutrophils in a non-leukemic setting, whereas pseudo-Chediak-Higashi granules here are in blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

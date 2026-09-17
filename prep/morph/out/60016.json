@@ -1,0 +1,22 @@
+{
+  "id": "60016",
+  "recognize_zh": "周邊血中母細胞呈兩種型態：數顆小到中型、細胞質極少、核略凹陷的淋巴母細胞樣細胞，以及一顆較大、有中量藍色細胞質與不規則核的母細胞，旁邊還有一顆成熟嗜中性球；雙型態母細胞提示混合表型急性白血病。",
+  "features": [
+    "Dimorphic circulating blast population",
+    "Small to intermediate blasts with scant basophilic cytoplasm, indented or angulated nuclei, fine chromatin, and indistinct nucleoli",
+    "Larger blast with moderate pale-basophilic cytoplasm, irregular nuclear contour, fine chromatin, and a faint nucleolus",
+    "Residual mature neutrophil with normal granulation",
+    "Normocytic red cells with no Auer rods seen; platelets appear reduced"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating blasts with a dimorphic morphology. Several blasts are small to intermediate in size with scant basophilic cytoplasm, indented nuclear contours, fine chromatin, and indistinct nucleoli, while a larger blast shows moderate basophilic cytoplasm, an irregular nuclear outline, and a nucleolus. A mature neutrophil is present, red cells are normocytic, and no Auer rods are identified. These two morphologically distinct blast populations raise concern for mixed phenotype acute leukemia; with flow cytometric demonstration of B and myeloid lineages and t(9;22), the findings are consistent with MPAL with BCR::ABL1.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia with BCR::ABL1", "vs": "Ph-positive B-ALL has blasts of variable size but lacks a separate MPO-positive myeloid blast population by flow cytometry."},
+    {"dx": "Chronic myeloid leukemia in lymphoid or mixed blast phase", "vs": "CML blast phase shows background basophilia and a left-shifted myeloid bulge with a prior chronic-phase history, which are absent in de novo MPAL."},
+    {"dx": "Acute myelomonocytic leukemia", "vs": "The larger cell may mimic a promonocyte, but AMML lacks the small lymphoblast-like population and B-lineage markers."},
+    {"dx": "Chronic lymphocytic leukemia with prolymphocytes", "vs": "CLL cells have coarse clumped chromatin with smudge cells, not the fine blastic chromatin seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

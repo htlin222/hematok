@@ -1,0 +1,22 @@
+{
+  "id": "62070",
+  "recognize_zh": "大部分紅血球失去中央淡染區、呈深染小圓形，符合球形紅血球的表現；但視野中大量細胞邊緣呈規則鋸齒狀皺縮（crenation），判讀時需與製片假影區分。",
+  "features": [
+    "Predominance of round red cells without central pallor, many smaller and denser than expected",
+    "Widespread crenation with fine regular marginal spicules (echinocytic artifact) obscuring cell outlines",
+    "Anisocytosis with scattered larger, paler red cells",
+    "One larger, intensely magenta-staining round cell near the center of uncertain nature (possible artifact or polychromatic cell)",
+    "Clumped cells/possible platelet or leukocyte debris at upper right; no well-preserved leukocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous small, densely staining round red cells lacking central pallor, with anisocytosis and scattered larger pale cells. Crenation with regular short spicules affects a large proportion of the red cells and, together with the thick, poorly spread field, makes reliable distinction between true spherocytes and artifactual loss of central pallor difficult. A single larger, intensely stained round cell is present but cannot be characterized at this resolution. Findings are suggestive of, but not diagnostic for, a spherocytic red cell population; review of a thin, well-prepared fresh smear is recommended.",
+  "ddx": [
+    {"dx": "Crenation (echinocyte) artifact from delayed smear preparation", "vs": "Artifactual echinocytes are normal-sized with regular spicules throughout the slide, while spherocytes are smooth, small, and dense in the monolayer."},
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Spherocytes look identical; a positive DAT distinguishes immune hemolysis from hereditary spherocytosis."},
+    {"dx": "Hereditary spherocytosis", "vs": "HS is supported by a negative DAT, raised MCHC, family history and reduced EMA binding rather than by smear appearance alone."},
+    {"dx": "Pyruvate kinase deficiency", "vs": "PK deficiency shows prickle cells (small contracted echinocytes) after splenectomy rather than smooth spherocytes, and is confirmed by enzyme assay."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

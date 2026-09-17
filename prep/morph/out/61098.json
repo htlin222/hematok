@@ -1,0 +1,22 @@
+{
+  "id": "61098",
+  "recognize_zh": "H&E 呈緊密成片、核偏位且染色質粗糙的漿細胞樣細胞；CD138 呈瀰漫膜染色，kappa ISH 陽性而 lambda ISH 陰性，顯示單株輕鏈限制的漿細胞腫瘤。",
+  "features": [
+    "Diffuse, cohesive sheets of medium-sized plasmacytoid cells with minimal intervening stroma",
+    "Round, eccentric nuclei with coarse (clock-face-like) chromatin and occasional binucleation; mild nuclear pleomorphism",
+    "Moderate amphophilic to eosinophilic cytoplasm, some with perinuclear hof",
+    "CD138: strong diffuse membranous staining of essentially all tumor cells",
+    "Kappa ISH diffusely positive with lambda ISH negative (kappa light-chain restriction)"
+  ],
+  "describe_en": "Biopsy of the sacral/iliac mass shows diffuse sheets of plasma cells with eccentric round nuclei, coarse chromatin, moderate amphophilic cytoplasm and mild nuclear atypia, without an admixed reactive lymphoid or germinal center component. The neoplastic cells are diffusely CD138 positive and show kappa light-chain restriction by in situ hybridization (kappa positive, lambda negative). In a patient with known multiple myeloma, findings are consistent with a kappa-restricted plasma cell neoplasm (plasmacytoma/extramedullary progression of myeloma).",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma shows larger immunoblastic cells with prominent nucleoli, very high Ki-67, frequent EBER positivity and usually no myeloma history."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "MZL contains a CD20+ small B-cell component and residual follicles, whereas this lesion is a pure CD138+ plasma cell sheet."},
+    {"dx": "Reactive plasmacytosis / plasma cell-rich inflammation", "vs": "Reactive plasma cells are polytypic with mixed kappa and lambda ISH signals and admixed inflammatory cells."},
+    {"dx": "Metastatic carcinoma or melanoma with plasmacytoid morphology", "vs": "Carcinoma and melanoma lack light-chain restriction and express keratins or S100/SOX10, although CD138 can be positive in carcinoma."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD138; ISH: kappa, lambda",
+  "match": "consistent",
+  "high_yield": true
+}

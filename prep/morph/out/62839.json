@@ -1,0 +1,23 @@
+{
+  "id": "62839",
+  "recognize_zh": "四格血液抹片細胞化學染色：左上嗜中性球只有紅色對比染色、沒有藍色顆粒（0 分）；右上有中等量藍色顆粒（2 分）；左下藍色顆粒更密（3 分）；右下顆粒濃密到蓋住細胞核（4 分）。這是白血球鹼性磷酸酶（LAP）評分，依藍色沉澱量分級後加總 100 顆細胞。",
+  "features": [
+    "Four-panel peripheral blood cytochemistry for leukocyte alkaline phosphatase (azo dye method with blue reaction product and red counterstain)",
+    "Top left (grade 0): neutrophil with red/orange-stained nucleus and cytoplasm, no blue granules",
+    "Top right (grade 2): neutrophil with a moderate number of fine blue cytoplasmic granules",
+    "Bottom left (grade 3): neutrophil with numerous coarse blue granules filling the cytoplasm",
+    "Bottom right (grade 4): neutrophils with intense confluent blue positivity overlying and obscuring the nucleus",
+    "Background red cells unstained (brown-yellow), serving as a negative internal control"
+  ],
+  "describe_en": "Peripheral blood smears stained for leukocyte alkaline phosphatase demonstrate the semiquantitative grading of mature neutrophils. Grade 0 cells lack blue reaction product, grade 2 cells show a moderate number of blue cytoplasmic granules, grade 3 cells show numerous granules filling the cytoplasm, and grade 4 cells show intense confluent positivity obscuring the nucleus. The LAP score is obtained by grading 100 consecutive segmented neutrophils or bands (0–4) and summing the grades, giving a range of 0–400. Low scores support chronic myeloid leukemia or PNH, whereas high scores support a leukemoid reaction or polycythemia vera.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia", "vs": "CML neutrophils are predominantly grade 0–1, giving a low LAP score, whereas a neutrophilic leukemoid reaction shows many grade 3–4 cells and a high score."},
+    {"dx": "Leukemoid reaction or infection", "vs": "Reactive neutrophilia shows a high LAP score, and BCR::ABL1 testing has replaced LAP for distinguishing it from CML."},
+    {"dx": "Paroxysmal nocturnal hemoglobinuria", "vs": "PNH neutrophils lack GPI-anchored alkaline phosphatase and score low; flow cytometry for CD55/CD59/FLAER is the definitive test."},
+    {"dx": "Polycythemia vera", "vs": "PV typically has an elevated LAP score, unlike secondary erythrocytosis, but JAK2 testing is now the discriminator."}
+  ],
+  "specimen": "PB",
+  "stain": "Leukocyte alkaline phosphatase cytochemistry",
+  "match": "consistent",
+  "high_yield": true
+}

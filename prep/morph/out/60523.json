@@ -1,0 +1,22 @@
+{
+  "id": "60523",
+  "recognize_zh": "IgG4 免疫染色下，強陽性的漿細胞集中分布在一個淋巴濾泡（生發中心）內，周圍套區的小淋巴球則為陰性，呈現「濾泡內 IgG4+ 漿細胞」型態；確診仍需計數每高倍視野數量與 IgG4/IgG 比例。",
+  "features": [
+    "Numerous strongly IgG4-positive plasma cells clustered within a germinal center",
+    "Positive cells show cytoplasmic staining with eccentric round nuclei",
+    "Surrounding mantle-zone small lymphocytes are negative",
+    "Few IgG4-positive cells outside the follicle in this field",
+    "Density appears to approach or exceed ~100 positive cells per high-power field focally, but quantitation and IgG ratio cannot be determined from this single image"
+  ],
+  "describe_en": "IgG4 immunohistochemical stain of a lymph node shows a reactive follicle containing numerous strongly IgG4-positive plasma cells within the germinal center, with only rare positive cells in the surrounding mantle zone and interfollicular area. The IgG4-positive plasma cells have abundant cytoplasmic staining and eccentric nuclei. This intrafollicular pattern is characteristic of the follicular hyperplasia (progressive transformation/reactive follicular) pattern of IgG4-related lymphadenopathy; diagnosis requires >100 IgG4+ plasma cells/HPF and an IgG4+/IgG+ ratio >40% together with clinical and serologic correlation, since increased IgG4+ plasma cells are non-specific.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia with non-specific IgG4+ plasma cells", "vs": "Many reactive nodes contain IgG4+ plasma cells, and only an IgG4/IgG ratio >40% with >100/HPF plus clinical context supports IgG4-related disease."},
+    {"dx": "Multicentric Castleman disease (plasma cell type)", "vs": "Castleman disease shows sheets of interfollicular plasma cells with regressed follicles, often elevated IL-6/CRP, and may also have raised IgG4+ cells, requiring clinical exclusion."},
+    {"dx": "Marginal zone lymphoma with plasmacytic differentiation", "vs": "Lymphoma shows light-chain restricted (monotypic kappa or lambda) plasma cells and follicular colonization, whereas IgG4-related plasma cells are polytypic."},
+    {"dx": "Rosai-Dorfman disease", "vs": "Rosai-Dorfman shows sinus expansion by S100+ histiocytes with emperipolesis, although IgG4+ plasma cells may be increased."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: IgG4",
+  "match": "consistent",
+  "high_yield": false
+}

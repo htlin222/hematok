@@ -1,0 +1,22 @@
+{
+  "id": "65546",
+  "recognize_zh": "骨髓抹片中多個細胞質淡藍、帶空泡的巨噬細胞吞噬了完整的有核細胞與紅血球（箭頭），背景可見較多單核球系細胞；在 CMML 病人漸進性血球低下下出現頻繁吞噬現象，提示續發性噬血球症候群（HLH）。",
+  "features": [
+    "Hypercellular BM aspirate smear with mixed hematopoietic cells",
+    "Several macrophages with abundant pale vacuolated cytoplasm containing engulfed nucleated cells (erythroid precursors/lymphocytes, neutrophils) and red cells (arrows)",
+    "Increased monocytic cells with folded nuclei and grey-blue cytoplasm in the background",
+    "Scattered granulocytic precursors and eosinophil-like granulated cells",
+    "Abundant background red cells; no obvious sheets of blasts in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear is cellular and shows increased monocytic cells within a mixed hematopoietic background. Multiple macrophages with abundant pale, vacuolated cytoplasm contain phagocytosed intact nucleated cells, including erythroid precursors or lymphocytes and neutrophils, as well as red cells (hemophagocytosis). Blasts are not conspicuously increased in this field. In a patient with chronic myelomonocytic leukemia and progressive cytopenias, findings are suggestive of secondary hemophagocytic lymphohistiocytosis, which requires correlation with clinical and laboratory HLH criteria (fever, ferritin, triglycerides, fibrinogen, soluble CD25).",
+  "ddx": [
+    {"dx": "Reactive hemophagocytosis without HLH (e.g., post-transfusion, sepsis)", "vs": "Isolated marrow hemophagocytosis is nonspecific and HLH requires fulfilling clinical and laboratory criteria rather than morphology alone."},
+    {"dx": "Progression of CMML to AML (acute monocytic)", "vs": "Would show increased blasts and promonocytes (≥20%) rather than mature macrophages engulfing intact cells."},
+    {"dx": "Malignant histiocytosis / histiocytic sarcoma", "vs": "Neoplastic histiocytes are cytologically atypical with large pleomorphic nuclei and prominent nucleoli, unlike bland phagocytic macrophages."},
+    {"dx": "Smear artifact (overlapping cells)", "vs": "True hemophagocytosis shows engulfed cells within a halo inside the macrophage cytoplasm in the same focal plane rather than cells lying on top."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

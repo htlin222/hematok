@@ -1,0 +1,22 @@
+{
+  "id": "60661",
+  "recognize_zh": "A 圖胸部 CT 見前縱膈腔腫塊（箭頭）；B 圖細胞抹片中在大量小淋巴球背景中散布大型細胞，C 圖可見雙核、各有大而明顯嗜伊紅核仁的 Reed-Sternberg 細胞（貓頭鷹眼樣），支持結節硬化型古典何杰金淋巴瘤。",
+  "features": [
+    "CT (A): anterior mediastinal soft-tissue mass (arrow), the typical site for nodular sclerosis cHL",
+    "Cytology (B): scattered large atypical cells singly and in small clusters in a background of numerous small lymphocytes and granulocytes",
+    "Classic binucleate Reed-Sternberg cell with mirror-image nuclei and large inclusion-like nucleoli (C)",
+    "Abundant pale to amphophilic cytoplasm in the large cells",
+    "Panel D: immunostain largely obscured by watermark; staining pattern cannot be reliably assessed"
+  ],
+  "describe_en": "Contrast-enhanced chest CT (panel A) shows an anterior mediastinal mass. The cytologic preparation (panel B) shows scattered large atypical cells in a mixed background of small lymphocytes and granulocytes. At high power (panel C), a classic binucleate Reed-Sternberg cell with mirror-image nuclei and prominent, macronucleolus-like nucleoli is identified. The immunostain in panel D is largely obscured and cannot be interpreted from this image; confirmation requires CD30 and CD15 positivity with weak PAX5 and loss of CD45/CD20. Findings are consistent with classic Hodgkin lymphoma, nodular sclerosis subtype in this clinical setting, although fibrous bands and lacunar cells cannot be assessed on cytology.",
+  "ddx": [
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL also forms an anterior mediastinal mass but consists of sheets of large B cells (CD20, CD79a strong) with clear cytoplasm and compartmentalizing sclerosis, lacking classic RS cells in a mixed background."},
+    {"dx": "Mediastinal gray zone lymphoma", "vs": "Gray zone lymphoma has sheets of pleomorphic RS-like cells with preserved strong CD20/B-cell program and CD30/CD15 co-expression, with a sparse inflammatory background."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows cohesive sheets of hallmark cells with uniform strong CD30 and T-cell/cytotoxic markers, CD15 usually negative, and may be ALK positive."},
+    {"dx": "Thymoma or germ cell tumor", "vs": "These anterior mediastinal tumors show keratin-positive epithelial cells or germ cell markers (SALL4, OCT4) rather than CD30/CD15-positive RS cells."}
+  ],
+  "specimen": "LN",
+  "stain": "Diff-Quik/Romanowsky; IHC (obscured); CT",
+  "match": "consistent",
+  "high_yield": true
+}

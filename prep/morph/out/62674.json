@@ -1,0 +1,21 @@
+{
+  "id": "62674",
+  "recognize_zh": "BCL6 染色中，一個結節內大多數細胞核呈強弱不等的核染色，界線清楚；結節外周圍的小淋巴球核則為陰性（藍色），顯示結節由生發中心（germinal center）B 細胞組成。",
+  "features": [
+    "Intermediate power: a large nodule in which most nuclei show moderate-to-strong nuclear BCL6 staining",
+    "Staining intensity variable among positive cells",
+    "Sharp boundary with surrounding BCL6-negative small lymphocytes (blue nuclei)",
+    "Scattered positive nuclei beyond the nodule edge",
+    "Nuclear (not cytoplasmic) localization"
+  ],
+  "describe_en": "BCL6 immunohistochemistry at intermediate power shows a large nodule composed predominantly of cells with moderate-to-strong nuclear BCL6 staining, sharply demarcated from the surrounding BCL6-negative small lymphocytes, with a few positive cells at the periphery. BCL6 confirms germinal center B-cell derivation of the nodular population but does not distinguish neoplastic from reactive follicles. Findings are consistent with follicular lymphoma when combined with BCL2 coexpression in the follicles.",
+  "ddx": [
+    {"dx": "Reactive germinal centers", "vs": "Reactive follicles are also BCL6 positive, so BCL2 negativity of germinal center cells and polarized Ki-67 are required to separate them."},
+    {"dx": "Nodal marginal zone lymphoma with follicular colonization", "vs": "Colonizing marginal zone cells are BCL6 and CD10 negative, leaving only residual germinal center cells positive."},
+    {"dx": "Nodal T-follicular helper cell lymphoma (angioimmunoblastic type)", "vs": "Neoplastic TFH cells can be BCL6 positive but are CD3/CD4 positive with PD1 and CXCL13, and have expanded FDC meshworks outside follicles."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BCL6",
+  "match": "consistent",
+  "high_yield": false
+}

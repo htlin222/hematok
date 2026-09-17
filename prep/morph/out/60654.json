@@ -1,0 +1,27 @@
+{
+  "id": "60654",
+  "recognize_zh": "脾臟切片呈中等大小、核輪廓不規則且有切跡的單一型淋巴細胞瀰漫取代，周邊血可見核形不規則的非典型淋巴球，骨髓核染色 IHC 呈群聚陽性，綜合符合白血病化的被套細胞淋巴瘤（mantle cell lymphoma）。",
+  "features": [
+    "Spleen (A): diffuse sheets of monotonous small-to-medium lymphoid cells with irregular, notched to cleaved nuclei, dispersed chromatin and scant pale cytoplasm; no normal white/red pulp architecture visible",
+    "Peripheral blood (B): circulating atypical lymphoid cells with irregular nuclear contours, moderately condensed chromatin and scant-to-moderate basophilic cytoplasm",
+    "Bone marrow biopsy (C): hypercellular marrow with a diffuse-to-interstitial lymphoid infiltrate",
+    "Bone marrow IHC (D): nuclear-positive lymphoid cells forming an interstitial/nodular aggregate (nuclear pattern compatible with cyclin D1 or SOX11; antibody not labeled in image)"
+  ],
+  "describe_en": "Sections of spleen show diffuse effacement by a monotonous population of small-to-medium lymphoid cells with irregular, notched nuclei, dispersed chromatin and inconspicuous nucleoli. The peripheral blood smear contains atypical lymphoid cells with irregular nuclear outlines and scant basophilic cytoplasm. The bone marrow core biopsy is hypercellular with an interstitial lymphoid infiltrate, and an immunostain with a nuclear pattern highlights an aggregate of the neoplastic cells (antibody not specified in the figure). Findings are consistent with mantle cell lymphoma with splenic, marrow and leukemic involvement, in keeping with the clinical history of spontaneous splenic rupture.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL cells are round with block-like clumped chromatin and smudge cells, and are CD23+/CD200+ and cyclin D1/SOX11 negative, whereas these cells have irregular notched nuclei."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL expands white pulp nodules with biphasic marginal-zone cells and villous lymphocytes in blood, and lacks nuclear cyclin D1 and t(11;14)."},
+    {"dx": "B-prolymphocytic leukemia", "vs": "Prolymphocytes have a single prominent central nucleolus and very high counts; a leukemic mantle cell lymphoma mimicking PLL is excluded by cyclin D1/SOX11 and t(11;14)."},
+    {"dx": "Follicular lymphoma, leukemic", "vs": "Circulating FL cells are small with deep narrow nuclear clefts ('buttock cells') and are CD10+/BCL6+ with t(14;18) rather than cyclin D1 positive."}
+  ],
+  "specimen": "spleen",
+  "stain": "H&E; Wright-Giemsa; IHC (nuclear marker, unlabeled)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Spleen H&E: diffuse infiltrate of irregular, notched medium-sized lymphoid cells",
+    "Peripheral blood: circulating atypical lymphoid cells with irregular nuclei",
+    "Bone marrow biopsy: hypercellular marrow with lymphoid infiltrate",
+    "Bone marrow IHC: nuclear-positive aggregate of lymphoma cells"
+  ]
+}

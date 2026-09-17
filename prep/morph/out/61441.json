@@ -1,0 +1,20 @@
+{
+  "id": "61441",
+  "recognize_zh": "免疫染色中僅中央一顆較大的細胞呈強烈棕色核染色（並延伸至胞質），周圍細胞皆為藍色陰性，對應微小病毒 B19 核內包涵體所在的前紅血球母細胞，確認感染。",
+  "features": [
+    "Single enlarged cell with strong, dark brown nuclear staining for parvovirus B19 antigen, with some cytoplasmic spillover",
+    "Positive cell size compatible with a pronormoblast",
+    "Surrounding hematopoietic and stromal cells negative, with blue hematoxylin counterstain",
+    "Clean background without nonspecific staining"
+  ],
+  "describe_en": "Immunohistochemical stain for parvovirus B19 on marrow tissue shows a single enlarged cell with strong nuclear and partial cytoplasmic positivity, corresponding in size to an erythroid precursor harboring viral inclusion. Surrounding cells are negative, and background staining is minimal. Findings confirm parvovirus B19 infection of erythroid precursors, supporting the H&E impression of viral inclusion-bearing pronormoblasts. Correlation with serum parvovirus PCR and reticulocyte count is recommended.",
+  "ddx": [
+    {"dx": "Nonspecific/edge staining artifact", "vs": "Artifactual staining is weak, diffuse, and not confined to the nucleus of a single enlarged cell."},
+    {"dx": "CMV infection (CMV IHC)", "vs": "CMV is confirmed with a CMV-specific antibody and affects endothelial/stromal cells with owl-eye inclusions."},
+    {"dx": "Endogenous pigment (hemosiderin)", "vs": "Hemosiderin is granular golden-brown in macrophage cytoplasm and is present on the unstained control, unlike crisp nuclear chromogen."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: parvovirus B19",
+  "match": "consistent",
+  "high_yield": false
+}

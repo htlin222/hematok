@@ -1,0 +1,22 @@
+{
+  "id": "60183",
+  "recognize_zh": "骨髓抹片中紅血球系前驅細胞比例高，可見晚期紅母細胞核出現分葉、出芽及輪廓不規則，並有一個核形不規則、疑似晚期有絲分裂的細胞，屬於明顯的紅血球系發育異常（dyserythropoiesis）。",
+  "features": [
+    "Erythroid precursors at all stages, from basophilic proerythroblast to orthochromatic normoblasts",
+    "Late erythroblast with multilobated (cloverleaf-like) nucleus, consistent with nuclear budding/irregularity",
+    "Erythroid precursor with dense, irregularly contoured nucleus suggestive of an abnormal late mitosis",
+    "Nuclear-cytoplasmic asynchrony: clumped nuclei with still-polychromatic cytoplasm",
+    "Several large disrupted/bare nuclei (smudged cells) in the background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows prominent erythroid precursors spanning all stages of maturation. Several late erythroblasts show nuclear lobulation, budding and irregular contours, and one cell has a dense irregular nucleus suggestive of an abnormal late mitotic figure. Nuclear-cytoplasmic asynchrony is present. Scattered disrupted bare nuclei are seen in the background. These dyserythropoietic changes support a myelodysplastic neoplasm; the blast percentage (not assessable from this field) determines the subtype, here reported as MDS with excess blasts.",
+  "ddx": [
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic change shows uniformly open, sieve-like chromatin with giant bands and hypersegmented neutrophils, and resolves with vitamin replacement."},
+    {"dx": "Congenital dyserythropoietic anemia", "vs": "CDA is a lifelong isolated erythroid disorder without increased blasts or dysplasia in other lineages."},
+    {"dx": "Toxic / reactive dyserythropoiesis (alcohol, chemotherapy, arsenic, copper deficiency)", "vs": "Clinical history, nutritional studies and absence of clonal cytogenetic abnormalities favor a reactive cause."},
+    {"dx": "Acute erythroid leukemia (pure erythroid)", "vs": "Pure erythroid leukemia requires >80% erythroid cells with ≥30% proerythroblasts, far more primitive cells than seen here."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

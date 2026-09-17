@@ -1,0 +1,21 @@
+{
+  "id": "64991",
+  "recognize_zh": "周邊血液抹片可見多種紅血球碎片：頭盔細胞（helmet cell）、三角形與小碎片、微球形紅血球及淚滴細胞，另有兩顆有核紅血球與一顆大型血小板，而血小板整體稀少，符合微血管病變性溶血性貧血（MAHA），支持 TTP。",
+  "features": [
+    "Schistocytes including helmet cells, triangular fragments and small irregular red cell fragments",
+    "Microspherocytes and marked poikilocytosis with occasional teardrop and elongated forms",
+    "Nucleated red blood cells (two seen in the lower panels)",
+    "Decreased platelets with a few large platelets",
+    "Neutrophil with normal segmentation; no leukocyte abnormality otherwise"
+  ],
+  "describe_en": "Peripheral blood smear (composite of three fields) shows marked poikilocytosis with numerous schistocytes, including helmet cells, triangular and small irregular fragments, along with microspherocytes and occasional teardrop forms. Nucleated red blood cells are present. Platelets are decreased, and those present include large forms. The neutrophil shown is morphologically unremarkable. Findings are consistent with microangiopathic hemolytic anemia with thrombocytopenia, suggestive of thrombotic thrombocytopenic purpura in the appropriate clinical setting; ADAMTS13 activity should be measured urgently.",
+  "ddx": [
+    {"dx": "Hemolytic uremic syndrome (STEC-HUS or complement-mediated)", "vs": "HUS shows an identical MAHA smear, so it is separated by predominant acute kidney injury, stool Shiga toxin testing and ADAMTS13 activity above 10%."},
+    {"dx": "Disseminated intravascular coagulation", "vs": "DIC can show schistocytes and thrombocytopenia but has prolonged PT/aPTT, low fibrinogen and high D-dimer, whereas coagulation tests are typically near normal in TTP."},
+    {"dx": "Autoimmune hemolytic anemia (warm)", "vs": "Warm AIHA shows many spherocytes and polychromasia with a positive direct antiglobulin test, but schistocytes are not a prominent feature and platelets are usually normal."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

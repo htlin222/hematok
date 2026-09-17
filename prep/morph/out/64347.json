@@ -1,0 +1,22 @@
+{
+  "id": "64347",
+  "recognize_zh": "箭頭處嗜中性球的細胞質內含數個深藍色、短桿狀的細菌（桿菌），附近血漿中也有少數游離桿菌；細菌在細胞內被吞噬，比單純游離細菌更支持真正的菌血症，而非染色或採檢污染。",
+  "features": [
+    "Neutrophil with several intracytoplasmic, deeply basophilic short rod-shaped bacteria (bacilli), some within clear halos",
+    "Mature segmented neutrophil nucleus",
+    "A few morphologically similar extracellular bacilli in the nearby background",
+    "Adjacent granulated cell with coarse pink-orange granules and a round nucleus (probable eosinophil)",
+    "Prominent red cell rouleaux; scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows prominent red cell rouleaux with scattered platelets. The arrowed neutrophil contains several deeply basophilic short rod-shaped bacteria within its cytoplasm, and a few similar bacilli are present extracellularly nearby. An adjacent granulocyte with coarse orange-pink granules likely represents an eosinophil. Findings are consistent with neutrophil phagocytosis of bacilli, indicating high-grade bacteremia; correlation with Gram stain and blood culture identification is recommended.",
+  "ddx": [
+    {"dx": "Stain precipitate or contaminating bacteria", "vs": "Stain precipitate is irregular and lies on top of cells, and contaminating bacteria are extracellular only, whereas true bacteremia shows organisms inside neutrophil vacuoles."},
+    {"dx": "Dohle bodies or toxic granulation", "vs": "Dohle bodies are pale gray-blue ill-defined patches and toxic granules are fine dark dots, not discrete rod-shaped organisms."},
+    {"dx": "Ehrlichia/Anaplasma morulae", "vs": "Morulae are mulberry-like clusters of tiny purple granules within a single vacuole rather than individual rod-shaped bacilli."},
+    {"dx": "Histoplasma or Candida yeasts", "vs": "Intracellular yeasts are oval budding forms with a clear capsule-like halo and are larger than bacilli."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "3624",
+  "recognize_zh": "免疫染色下整片腫瘤細胞呈強而一致的膜狀棕色陽性，細胞密集成片、幾乎沒有陰性背景，推測為 CD138 標示的漿細胞瘤片狀浸潤。",
+  "features": [
+    "Diffuse sheet of tumor cells with strong, uniform membranous brown staining (presumed CD138)",
+    "Nearly all cells positive, with only scattered small negative areas",
+    "Cells round, closely packed, with hematoxylin-counterstained nuclei",
+    "Solid architecture without admixed normal tissue in this field"
+  ],
+  "describe_en": "Immunohistochemical stain, presumed CD138, shows a diffuse, solid sheet of tumor cells with strong and uniform membranous positivity involving virtually the entire field. There is no significant admixture of negative cells or residual normal tissue. The diffuse sheet-like positivity supports a neoplastic plasma cell proliferation; in an extramedullary site this is consistent with plasmacytoma, and kappa/lambda staining is needed to document clonality and exclude other CD138-positive tumors.",
+  "ddx": [
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is also CD138 positive but shows immunoblastic/plasmablastic cytology, Ki-67 >90%, and frequent EBER positivity."},
+    {"dx": "Carcinoma (CD138-positive)", "vs": "Many carcinomas express CD138 but are keratin positive and lack immunoglobulin light-chain restriction."},
+    {"dx": "ALK-positive large B-cell lymphoma", "vs": "This lymphoma is CD138 positive with plasmablastic features but shows granular cytoplasmic ALK staining."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD138 (presumed)",
+  "match": "consistent",
+  "high_yield": false
+}

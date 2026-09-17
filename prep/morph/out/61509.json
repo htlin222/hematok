@@ -1,0 +1,21 @@
+{
+  "id": "61509",
+  "recognize_zh": "CD33 免疫染色中，幾乎所有大型腫瘤細胞都呈強而瀰漫的細胞膜與細胞質陽性，細胞膜輪廓清楚，排成類似巢狀的結構；強 CD33 表現確認腫瘤為骨髓系（myeloid）來源，支持髓樣肉瘤。",
+  "features": [
+    "Nearly all tumor cells show strong, diffuse CD33 staining",
+    "Crisp membranous accentuation outlining cell borders, plus granular cytoplasmic staining",
+    "Large cells with oval nuclei arranged in vague nests and cords",
+    "Nuclei appear pale and unstained, confirming non-nuclear localization",
+    "Intervening stroma and vessels are largely negative"
+  ],
+  "describe_en": "Immunohistochemical stain for CD33 shows strong and diffuse membranous and cytoplasmic positivity in nearly all of the large neoplastic cells. The staining outlines cell borders and highlights a vaguely nested growth pattern, with intervening stroma negative. This strong expression of a myeloid-associated antigen, together with CD34 negativity and the large epithelioid morphology, supports myeloid lineage. Findings are consistent with myeloid sarcoma in a patient with AML with monocytic differentiation.",
+  "ddx": [
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytic sarcoma may show some CD33 but is defined by CD163/CD68/lysozyme expression without an associated AML or blast phenotype."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN has skin-predominant blastoid cells that are CD4+, CD56+, CD123+, and TCF4+, usually lacking strong CD33 and lysozyme."},
+    {"dx": "Carcinoma with nested growth", "vs": "Carcinoma is keratin positive and CD33 negative, despite a similar nested membrane pattern."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD33",
+  "match": "consistent",
+  "high_yield": false
+}

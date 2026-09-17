@@ -1,0 +1,22 @@
+{
+  "id": "3180",
+  "recognize_zh": "周邊血中一顆中大型淋巴細胞，核圓帶輕微凹陷、染色質中度濃縮，細胞質中量且呈嗜鹼性藍色、邊緣不規則；本細胞缺乏典型 ATLL 的花瓣狀分葉，屬於較不具特異性的表現。",
+  "features": [
+    "Medium-to-large lymphoid cell, about twice the diameter of a red cell",
+    "Round nucleus with a subtle indentation/notch, lacking deep lobation",
+    "Moderately condensed chromatin without prominent nucleoli",
+    "Moderate amount of basophilic cytoplasm with slightly irregular outline",
+    "Background normochromic red cells and platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a medium-to-large atypical lymphoid cell with a round, slightly indented nucleus, moderately condensed chromatin and a moderate rim of basophilic cytoplasm. The characteristic polylobated flower-like nucleus of adult T-cell leukemia/lymphoma is not present in this cell. Red cells and platelets are unremarkable. Although ATLL may contain basophilic cells with less nuclear irregularity, this cell alone is not specific; the findings are compatible with ATLL only in conjunction with other flower cells, HTLV-1 serology and a CD4+ CD25+ CD7- T-cell phenotype.",
+  "ddx": [
+    {"dx": "Reactive (atypical) lymphocyte", "vs": "Reactive lymphocytes show abundant cytoplasm that scallops around adjacent red cells with peripheral basophilia and are heterogeneous, without HTLV-1 or clonal T cells."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells have a distinct nucleolus, cytoplasmic blebs and TCL1A rearrangement, and are CD7+ rather than CD7- CD25+."},
+    {"dx": "Sezary cell", "vs": "Sezary cells have cerebriform, grooved nuclei with scant cytoplasm and are CD26- without HTLV-1 infection."},
+    {"dx": "Circulating large-cell lymphoma", "vs": "Large B-cell lymphoma cells are larger with vesicular chromatin and nucleoli and express B-cell markers on flow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

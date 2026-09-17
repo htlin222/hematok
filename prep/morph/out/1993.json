@@ -1,0 +1,21 @@
+{
+  "id": "1993",
+  "recognize_zh": "大片大型、多形性淋巴樣細胞，核呈泡狀、可見核仁；其中兩顆特別巨大的細胞有強陽性的細胞膜染色，周圍許多大細胞呈較弱的膜性染色，背景小淋巴球陰性，符合大 B 細胞淋巴瘤的間變型（anaplastic variant）常見的 CD30 表現型態。",
+  "features": [
+    "Sheets of large atypical lymphoid cells, many 3-5 times the size of background small lymphocytes",
+    "Two bizarre giant cells with large irregular vesicular nuclei showing strong, crisp membranous staining",
+    "Weaker membranous and cytoplasmic staining in many surrounding large cells",
+    "Vesicular chromatin with visible nucleoli in the large cells on the hematoxylin counterstain",
+    "Scattered small, dark, negative background lymphocytes"
+  ],
+  "describe_en": "Immunohistochemical stain (antibody not labeled; staining pattern suggests CD30) of a lymph node shows sheets of large, pleomorphic lymphoid cells with vesicular nuclei and visible nucleoli. Two very large, bizarre cells show strong membranous positivity, and many of the surrounding large cells show weaker membranous staining, while background small lymphocytes are negative. In the setting of a confirmed B-cell phenotype, findings are consistent with diffuse large B-cell lymphoma, anaplastic variant.",
+  "ddx": [
+    {"dx": "ALK-positive anaplastic large cell lymphoma", "vs": "ALCL shows hallmark cells with uniform strong CD30 and ALK expression and lacks CD20/PAX5, whereas anaplastic DLBCL retains B-cell markers and is ALK-negative."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL has sparse Hodgkin/Reed-Sternberg cells in an inflammatory background with weak or absent PAX5 and CD45 negativity, rather than sheets of large CD20-positive cells."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Cohesive nests with keratin or S100/SOX10 expression and CD45 negativity distinguish non-hematopoietic tumors."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: likely CD30 (antibody not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

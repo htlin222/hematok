@@ -1,0 +1,22 @@
+{
+  "id": "63244",
+  "recognize_zh": "周邊血組圖中的異常前骨髓細胞，細胞質佈滿嗜天青顆粒或顆粒偏少，核呈腎形或雙葉（蝴蝶形）；部分細胞質內可見寬扁、長方形或棒狀、淡粉紅色的類結晶包涵體，比 Auer 小體更粗、顏色更淡且邊緣平直；配合 CD34-/HLA-DR- 的免疫表型，符合急性前骨髓細胞白血病（APL）中少見的結晶樣包涵體。",
+  "features": [
+    "Abnormal promyelocytes with high to moderate N:C ratio, reniform or bilobed ('butterfly') nuclei and fine chromatin",
+    "Cytoplasm heavily packed with azurophilic granules in some cells; hypogranular cytoplasm in others",
+    "Distinct broad, rectangular to rod-shaped, pale pink crystal-like cytoplasmic inclusions, single or multiple, some arranged in a radiating pattern",
+    "Inclusions are wider, paler and more sharply angular than typical Auer rods",
+    "A mature segmented neutrophil present for comparison; background red cells without other significant abnormality"
+  ],
+  "describe_en": "Peripheral blood smear images show a population of abnormal promyelocytes with reniform to bilobed nuclei, fine chromatin and either heavily granulated or hypogranular cytoplasm. Several cells contain unusual broad, rectangular to rod-shaped, pale pink crystal-like cytoplasmic inclusions, single or multiple and occasionally radiating, which are wider and paler than conventional Auer rods. A mature neutrophil is present for comparison. The nature of the inclusions cannot be determined morphologically. In conjunction with an MPO-positive, CD33+/CD13+, CD34-/HLA-DR-/CD117- immunophenotype, the findings are consistent with acute promyelocytic leukemia with unusual crystalline cytoplasmic inclusions; confirmation of PML::RARA is urgent.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with maturation (with Auer rods)", "vs": "AML with maturation shows blasts with thin needle-like Auer rods, CD34/HLA-DR expression and no bilobed hypergranular promyelocytes or PML::RARA fusion."},
+    {"dx": "Charcot-Leyden crystals", "vs": "Charcot-Leyden crystals are elongated bipyramidal hexagonal crystals derived from eosinophils/basophils, found extracellularly or in macrophages rather than within leukemic promyelocytes."},
+    {"dx": "Pseudo-Chediak-Higashi granules", "vs": "Pseudo-Chediak-Higashi inclusions are large round azurophilic granules, not angular rectangular crystals."},
+    {"dx": "Microgranular (hypogranular) APL variant", "vs": "The microgranular variant shows bilobed hypogranular cells with high WBC; it is part of the same entity and is separated only by the granule pattern, not by the presence of crystals."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

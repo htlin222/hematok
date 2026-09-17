@@ -1,0 +1,21 @@
+{
+  "id": "1311",
+  "recognize_zh": "周邊血液有多個母細胞，胞質藍、部分邊緣有泡狀突起或空泡化，核偏一側或有凹陷；另可見一顆有核紅血球與一個大型灰藍色血小板，這些組合（巨核母細胞＋大血小板）在唐氏症病童提示 ML-DS。",
+  "features": [
+    "Multiple circulating medium-sized blasts with high N:C ratio and fine to slightly condensed chromatin",
+    "Basophilic cytoplasm with cytoplasmic blebs and irregular or vacuolated margins in several blasts",
+    "Eccentric, indented or kidney-shaped nuclei in some blasts",
+    "Circulating nucleated red cell and a large, pale-gray giant platelet",
+    "Red cells mostly normocytic with mild anisopoikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous circulating blasts. The blasts are medium-sized with high nuclear-to-cytoplasmic ratios, round to indented nuclei, and basophilic agranular cytoplasm that frequently shows cytoplasmic blebs and irregular vacuolated borders. A nucleated red blood cell and a giant platelet are also present. The blast morphology favors megakaryoblastic differentiation; in a child with Down syndrome, findings are consistent with myeloid leukemia associated with Down syndrome, requiring flow cytometric confirmation (CD41, CD61) and GATA1 testing.",
+  "ddx": [
+    {"dx": "Transient abnormal myelopoiesis", "vs": "Morphologically indistinguishable megakaryoblasts; TAM occurs in neonates and resolves spontaneously, whereas ML-DS presents later in early childhood."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts have smooth cytoplasmic outlines without blebbing and are negative for CD41/CD61."},
+    {"dx": "Acute megakaryoblastic leukemia in non-Down syndrome patients", "vs": "Morphology overlaps completely, and separation depends on constitutional trisomy 21 with GATA1 mutation versus other drivers such as CBFA2T3::GLIS2 or RBM15::MRTFA."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

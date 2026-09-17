@@ -1,0 +1,21 @@
+{
+  "id": "1696",
+  "recognize_zh": "這是胸部 X 光正面（PA）與側面影像，不是型態學圖片；在 ALL（尤其 T-ALL）評估時，重點是看縱膈是否變寬、有無前縱膈腫塊或肋膜積液，本圖解析度下縱膈輪廓僅可疑變寬。",
+  "features": [
+    "Paired posteroanterior and lateral chest radiographs",
+    "Superior mediastinal contour appears mildly prominent on the PA view; no definite large discrete mass at this resolution",
+    "Lung fields without obvious consolidation",
+    "Costophrenic angles not clearly blunted; no large pleural effusion evident",
+    "Lateral view retrosternal space without an unequivocal anterior mediastinal soft-tissue mass"
+  ],
+  "describe_en": "Posteroanterior and lateral chest radiographs are shown. The superior mediastinum appears mildly prominent on the frontal view, but a large discrete anterior mediastinal mass is not unequivocally demonstrated at this image resolution, and there is no obvious consolidation or large pleural effusion. In acute lymphoblastic leukemia, chest imaging is used to screen for a mediastinal (thymic) mass, which is characteristic of T-lymphoblastic leukemia/lymphoma and carries a risk of airway and superior vena cava compromise during sedation. Interpretation here should be confirmed with the formal radiology report or CT.",
+  "ddx": [
+    {"dx": "T-lymphoblastic lymphoma with anterior mediastinal mass", "vs": "A true thymic mass produces a lobulated mediastinal widening on PA and filling of the retrosternal clear space on the lateral view, which is not clearly present here."},
+    {"dx": "Classic Hodgkin lymphoma (nodular sclerosis)", "vs": "Also presents as an anterior mediastinal mass in young patients but is diagnosed by tissue biopsy showing Hodgkin/Reed-Sternberg cells, not by marrow blasts."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "Radiologically similar bulky anterior mass; distinguished histologically by sheets of large B cells with sclerosis and CD23/MAL expression."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

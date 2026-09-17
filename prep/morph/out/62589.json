@@ -1,0 +1,20 @@
+{
+  "id": "62589",
+  "recognize_zh": "Ki67 染色呈結節狀分布：結節內大量細胞核陽性、結節之間的淋巴細胞多為陰性，且結節內沒有反應性生發中心那種明暗區極性；高增生指數符合高分級濾泡性淋巴瘤。",
+  "features": [
+    "Nodular distribution of Ki67-positive nuclei outlining neoplastic follicles",
+    "High proliferation within nodules, roughly half or more of nuclei positive in the densest areas",
+    "Internodular zones with predominantly Ki67-negative small lymphocytes",
+    "No polarization (dark/light zone gradient) within nodules"
+  ],
+  "describe_en": "Ki67 immunohistochemistry highlights a nodular pattern, with numerous positive nuclei concentrated within closely spaced nodules and relatively few positive cells in the intervening internodular tissue. The proliferation index within the nodules is high, approaching or exceeding half of nuclei in the most active areas, and there is no zonal polarization of staining. A high Ki67 index in neoplastic follicles supports a higher-grade follicular lymphoma, although grade is formally assigned by centroblast counts on H&E.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers have a very high Ki67 index but show polarization toward the dark zone and are BCL2-negative."},
+    {"dx": "Low-grade follicular lymphoma (grade 1-2)", "vs": "Low-grade FL usually has a low Ki67 index (often below 20%) within neoplastic follicles."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL shows diffuse high Ki67 without a nodular follicular distribution."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: Ki67",
+  "match": "consistent",
+  "high_yield": false
+}

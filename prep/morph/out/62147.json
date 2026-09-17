@@ -1,0 +1,21 @@
+{
+  "id": "62147",
+  "recognize_zh": "多格組合圖：骨髓切片細胞密度高、由單一形態細胞取代，周邊血可見母細胞，流式細胞圖呈母細胞族群，核型圖箭頭指出第 4 與第 12 號染色體異常，FISH 顯示分離訊號，提示復發 NPM1 突變 AML 合併 PDGFRA 重組。",
+  "features": [
+    "Hypercellular marrow biopsy with sheets of monotonous immature cells replacing normal hematopoiesis (A)",
+    "Peripheral blood with scattered blasts with fine chromatin and moderate basophilic cytoplasm (B)",
+    "Flow cytometry dot plots showing a dominant immature myeloid population (C)",
+    "Karyotype with arrows marking abnormal chromosomes 4 and 12, suggesting a 4q12-involving rearrangement (D)",
+    "Metaphase FISH with split/translocated signals supporting PDGFRA rearrangement (E, F)"
+  ],
+  "describe_en": "This composite figure shows a hypercellular bone marrow biopsy with sheets of immature mononuclear cells (A) and circulating blasts in the peripheral blood (B). Flow cytometry dot plots (C) display a predominant immature myeloid population; the axis labels are too small to read reliably at this resolution. The karyotype (D) shows arrows at chromosomes 4 and 12, and metaphase FISH studies (E, F) show separated fusion probe signals, supporting a PDGFRA rearrangement. In the context of a relapsed NPM1-mutated AML, these findings suggest acquisition of a PDGFRA rearrangement at relapse; exact immunophenotype and breakpoints cannot be read from this image.",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and PDGFRA rearrangement", "vs": "This entity typically presents as a chronic eosinophilic myeloproliferative process with FIP1L1::PDGFRA (cryptic 4q12 deletion) rather than an NPM1-mutated AML with a high blast count."},
+    {"dx": "AML with myelodysplasia-related changes", "vs": "AML-MR is defined by MDS-related cytogenetics or mutations, whereas an NPM1 mutation takes precedence in classification."},
+    {"dx": "Therapy-related myeloid neoplasm", "vs": "A new clone after prior chemotherapy may represent a therapy-related neoplasm; persistence of the original NPM1 mutation favors clonal evolution of the relapsed AML."}
+  ],
+  "specimen": "other",
+  "stain": "H&E; Wright-Giemsa; flow cytometry; karyotype; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

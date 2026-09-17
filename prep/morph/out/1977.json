@@ -1,0 +1,22 @@
+{
+  "id": "1977",
+  "recognize_zh": "骨髓抹片中許多中大型未成熟細胞，核質比高、染色質細緻，部分核有凹陷或折疊，部分細胞可見少量嗜天青顆粒；同時可見帶顆粒胞質的較成熟骨髓系細胞，代表芽細胞增加但仍有向顆粒球分化，符合 AML with maturation。",
+  "features": [
+    "Numerous medium to large immature cells with high N:C ratio and finely granular chromatin",
+    "Nuclei frequently indented, folded, or irregular; nucleoli indistinct in this smear",
+    "Some cells with scant basophilic cytoplasm containing fine azurophilic/pink granules",
+    "Maturing myeloid cells present, including a cell with a bilobed nucleus and pale granular cytoplasm and a larger cell with blue-grey granular cytoplasm",
+    "Many cells partially disrupted with granular debris in the background (smearing artifact)"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows numerous medium to large immature myeloid cells with high nuclear-to-cytoplasmic ratios, finely dispersed chromatin, and frequently indented or folded nuclei; some contain fine azurophilic granules. Maturing granulocytic forms are also present, including cells with bilobed nuclei and granular cytoplasm. Many cells are disrupted, and the background contains granular debris, which limits assessment of nucleoli and Auer rods. Findings are suggestive of acute myeloid leukemia with maturation, which requires a blast count of at least 20% with at least 10% maturing granulocytic cells.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia without maturation", "vs": "AML without maturation has blasts constituting at least 90% of non-erythroid cells with less than 10% maturing granulocytes."},
+    {"dx": "Acute promyelocytic leukemia (microgranular variant)", "vs": "APL cells have bilobed, sliding-plate nuclei with dense granules or Auer rod bundles and show PML::RARA; it must be excluded urgently."},
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "MDS with increased blasts has fewer than 20% blasts with prominent multilineage dysplasia."},
+    {"dx": "Acute myelomonocytic leukemia", "vs": "AMML shows at least 20% monocytic cells with folded nuclei and nonspecific esterase positivity, whereas AML with maturation has fewer than 20% monocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

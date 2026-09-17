@@ -1,0 +1,21 @@
+{
+  "id": "61299",
+  "recognize_zh": "組合圖：A 骨髓抹片中為大量母細胞（實線箭頭），另有一團深染、互相黏附的細胞群（虛線箭頭）；B 骨髓切片細胞密度高，可見與造血組織不同的病灶區；C 核染色免疫染色把成群的腫瘤細胞染成棕色，顯示癌轉移與白血病並存。",
+  "features": [
+    "Panel A: aspirate smear with sheets of monotonous blasts (solid arrow)",
+    "Panel A: dense, dark-staining cohesive cell cluster (dashed arrow) distinct from blasts, consistent with a metastatic tumor clump",
+    "Panel B: hypercellular marrow biopsy with a blast-rich infiltrate and a focal area of different texture (dashed arrow)",
+    "Panel C: nuclear immunostain (antibody not labeled) highlighting cohesive nests of tumor cells amid negative leukemic marrow",
+    "Low-resolution composite limits cytologic detail"
+  ],
+  "describe_en": "This composite figure shows a bone marrow aspirate (A) composed predominantly of monotonous blasts (solid arrow), with a separate dense, cohesive clump of dark-staining cells (dashed arrow). The core biopsy (B) is hypercellular and largely replaced by a blast-rich infiltrate, with a focal area of different morphology (dashed arrow). An immunostain with nuclear positivity (C; antibody not specified) highlights cohesive nests of tumor cells within otherwise negative marrow. Findings are consistent with concurrent acute myeloid leukemia and metastatic breast carcinoma; the specific markers (e.g., GATA3 or ER for carcinoma, CD34/MPO for blasts) should be confirmed.",
+  "ddx": [
+    {"dx": "Megakaryocyte clusters or aspirate particle artifact", "vs": "Megakaryocytes are single large cells with granular cytoplasm and are CD61-positive, whereas carcinoma clusters are cohesive nests positive for keratin, GATA3, or ER."},
+    {"dx": "Therapy-related myeloid neoplasm after breast cancer treatment", "vs": "This is a clinical distinction based on prior chemotherapy or radiation and cytogenetics such as KMT2A rearrangement or complex karyotype, not morphology."},
+    {"dx": "Metastatic carcinoma alone with reactive changes", "vs": "Absence of CD34/MPO-positive blast sheets and a normal blast count would exclude concurrent leukemia."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; IHC (nuclear, unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

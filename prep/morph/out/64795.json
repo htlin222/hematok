@@ -1,0 +1,22 @@
+{
+  "id": "64795",
+  "recognize_zh": "中央這顆細胞大小與中性球相當，但核完全沒有分葉、呈圓到橢圓形，染色質卻很粗糙成塊（成熟型），細胞質淡粉紫色、顆粒稀少。核質成熟卻不分葉，是 pseudo-Pelger-Huët 細胞（hyposegmented neutrophil）的特徵，放在 MDS 背景下屬於顆粒球系異生。",
+  "features": [
+    "Neutrophil-sized granulocyte with a single, non-lobulated round to oval nucleus",
+    "Coarsely clumped, mature-appearing chromatin with small pale spaces (not the fine chromatin of a myelocyte)",
+    "Abundant pale lilac cytoplasm with sparse, fine granules (hypogranular)",
+    "Nuclear-cytoplasmic maturation mismatch: mature chromatin but failed segmentation",
+    "Background red cells show mild crenation and rouleaux-like stacking; a second darkly stained cell is present at the top of the field"
+  ],
+  "describe_en": "Peripheral blood smear, high-power view, shows a granulocyte of neutrophil size with a single round to oval, non-segmented nucleus containing coarsely condensed chromatin. The cytoplasm is pale and appears hypogranular. The mature chromatin pattern distinguishes this cell from a myelocyte or metamyelocyte, supporting a hyposegmented (pseudo-Pelger-Huët) neutrophil. In the context of the patient's myelodysplastic syndrome, this represents dysgranulopoiesis; correlation with the proportion of dysplastic neutrophils and exclusion of drug effect is recommended.",
+  "ddx": [
+    {"dx": "Congenital Pelger-Huët anomaly", "vs": "The inherited LBR-related anomaly affects nearly all neutrophils uniformly (mostly bilobed 'pince-nez' forms) with normal granulation, whereas pseudo-Pelger cells are a subset, often hypogranular, in an acquired disorder."},
+    {"dx": "Myelocyte", "vs": "Myelocytes have a round nucleus but finer, less condensed chromatin and more abundant specific granules, sometimes a perinuclear clearing, rather than mature clumped chromatin."},
+    {"dx": "Drug-induced pseudo-Pelger change", "vs": "Drugs such as mycophenolate, valproate, or taxanes can produce identical morphology; history and reversibility rather than morphology separate them."},
+    {"dx": "Small lymphocyte or plasmacytoid lymphocyte", "vs": "Lymphocytes have a higher N:C ratio and agranular basophilic cytoplasm, not abundant pale lilac granulocytic cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

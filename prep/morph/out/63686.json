@@ -1,0 +1,20 @@
+{
+  "id": "63686",
+  "recognize_zh": "低倍骨髓抽吸片中造血細胞非常稀少，背景多為紅血球，卻散布數個深紫色、緊密聚集的細胞團（箭頭），這種低倍下的「異常細胞團」是轉移性癌侵犯骨髓的第一個線索。",
+  "features": [
+    "Multiple dense, dark purple cohesive cell clusters scattered across the smear (arrows)",
+    "Very scanty individual hematopoietic precursors between clusters",
+    "Background dominated by red cells with few fat droplets",
+    "Low magnification (x100) precludes assessment of individual cell cytology"
+  ],
+  "describe_en": "Low-power view of a bone marrow aspirate smear shows a paucicellular background composed mainly of red cells with very scanty scattered hematopoietic precursors. Numerous discrete, dark-staining cohesive cell clusters are distributed across the smear (arrows). The cytologic features of the clustered cells cannot be evaluated at this magnification, and high-power examination is needed to confirm their epithelial nature. In a patient with known breast adenocarcinoma, findings are suggestive of diffuse metastatic carcinoma involving the bone marrow.",
+  "ddx": [
+    {"dx": "Marrow particles / megakaryocyte clusters", "vs": "Marrow particles contain fat and a mixed hematopoietic population, and megakaryocytes are single large cells, whereas tumor clusters are tight groups of uniform large cells on high power."},
+    {"dx": "Platelet clumps", "vs": "Platelet aggregates are small, pale, granular and anucleate, while tumor clusters contain large nuclei."},
+    {"dx": "Hemodilute aspirate", "vs": "Hemodilution also gives scant hematopoietic cells but lacks cohesive nucleated clusters; correlation with the core biopsy is required."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

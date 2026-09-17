@@ -1,0 +1,21 @@
+{
+  "id": "62434",
+  "recognize_zh": "大片中等大小、單調一致、核圓且可見小核仁的腫瘤細胞，BCL2 完全不染，只有少數散在的小型反應性 T 細胞呈棕色膜狀／細胞質陽性當作內部對照；BCL2 陰性支持 Burkitt 淋巴瘤，而非 BCL2 陽性的高惡性度 B 細胞淋巴瘤。",
+  "features": [
+    "Diffuse sheets of monotonous intermediate-sized lymphoid cells with round nuclei and small nucleoli",
+    "Neoplastic cells negative for BCL2",
+    "Rare scattered small positive cells (reactive T cells) providing an internal positive control",
+    "Cohesive-appearing sheet with squared-off cell borders; tingible-body macrophages not clearly highlighted"
+  ],
+  "describe_en": "BCL2 immunohistochemistry shows diffuse sheets of monotonous intermediate-sized lymphoid cells with round nuclei and small nucleoli that are entirely negative for BCL2. Rare scattered small reactive lymphocytes show cytoplasmic staining and serve as an internal positive control. Absence of BCL2 in the neoplastic cells, together with a CD10+, BCL6+ phenotype, Ki-67 near 100% and MYC rearrangement, supports Burkitt lymphoma. Findings are consistent with Burkitt lymphoma.",
+  "ddx": [
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Double-hit lymphoma usually shows strong BCL2 expression and requires FISH for BCL2 rearrangement, while Burkitt lymphoma is BCL2-negative or only weak."},
+    {"dx": "Diffuse large B-cell lymphoma, germinal center type", "vs": "DLBCL has larger, more pleomorphic cells, often BCL2-positive, with Ki-67 generally below 90%."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "Lymphoblasts have finer chromatin, are TdT/CD34-positive and surface immunoglobulin-negative, and lack MYC::IG rearrangement."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is CD5-positive, BCL2-positive and cyclin D1/SOX11-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: BCL2",
+  "match": "consistent",
+  "high_yield": true
+}

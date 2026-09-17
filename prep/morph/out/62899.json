@@ -1,0 +1,22 @@
+{
+  "id": "62899",
+  "recognize_zh": "箭頭指向一個淡染的紅血球，其內有一條細而彎曲的紫色線橫越細胞，即 Cabot 環（Cabot ring）；周圍可見骨髓系各階段前驅細胞（myelocyte、metamyelocyte、band）、多個有核紅血球與明顯的紅血球變形，符合 CML 伴紅系病態造血的背景。",
+  "features": [
+    "Arrowed pale red cell containing a thin, curved purple-staining line looping across the cell (Cabot ring)",
+    "Left-shifted granulocytic series: myelocytes, metamyelocytes, bands, and segmented neutrophils",
+    "Several nucleated red cells with small dense pyknotic nuclei",
+    "Marked poikilocytosis with fragmented, elongated, and irregular red cells",
+    "Crowded leukocytes with a hypolobated/abnormal neutrophil nucleus in the upper field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis with a left-shifted granulocytic series including myelocytes, metamyelocytes, band forms, and segmented neutrophils, accompanied by several nucleated red cells with dense pyknotic nuclei. Red cells show marked anisopoikilocytosis with fragments and elongated forms. The arrowed pale red cell contains a thin, curved, purple-staining filament looping across the cell, consistent with a Cabot ring, a finding associated with dyserythropoiesis. In a patient with confirmed BCR::ABL1, findings are consistent with chronic myeloid leukemia with dysplastic erythroid features and a Cabot ring.",
+  "ddx": [
+    {"dx": "Malaria ring form (Plasmodium)", "vs": "Ring forms have a discrete chromatin dot with a thin cytoplasmic ring and are smaller, rather than a thread-like loop or figure-of-eight spanning the red cell."},
+    {"dx": "Babesia", "vs": "Shows small rings, often multiple or in tetrads (Maltese cross), without the fine continuous filament of a Cabot ring."},
+    {"dx": "Red cell overlapping or crenation artifact", "vs": "Edges of overlapping cells or folds are refractile outlines, not purple-staining filaments within the cell."},
+    {"dx": "Howell-Jolly bodies", "vs": "Round, dense purple nuclear remnants rather than a thin ring or loop."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

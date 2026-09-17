@@ -1,0 +1,22 @@
+{
+  "id": "61037",
+  "recognize_zh": "CD30 免疫染色中，只有散在少數的大型細胞呈膜狀及高基氏體（Golgi）點狀陽性，背景大量中小型細胞為陰性；這種「散在 CD30 陽性免疫母細胞」是 AITL 常見的伴隨發現，不代表整片為 CD30 陽性腫瘤。",
+  "features": [
+    "Scattered large cells with membranous and paranuclear dot-like (Golgi) CD30 staining",
+    "Positive cells are large with round-to-oval vesicular nuclei and moderate cytoplasm (immunoblast-like)",
+    "Positive cells are dispersed singly or in small pairs, not forming sheets",
+    "Background of small-to-intermediate lymphoid cells that are CD30-negative, some with pale/clear cytoplasm",
+    "Weak, faint granular staining in some background cells"
+  ],
+  "describe_en": "CD30 immunohistochemistry of a lymph node infiltrate shows scattered large immunoblast-like cells with membranous and paranuclear Golgi-pattern staining, distributed singly and in small clusters. The background population of small-to-intermediate lymphoid cells is CD30-negative. There are no cohesive sheets of CD30-positive cells. In a case of angioimmunoblastic T-cell lymphoma, these scattered CD30-positive large cells are most often EBV-associated B immunoblasts, which should be confirmed with CD20/PAX5 and EBER.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows sheets or sinusoidal clusters of uniformly strong CD30-positive hallmark cells rather than scattered isolated positive immunoblasts."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "CHL CD30+ cells are Hodgkin/Reed-Sternberg cells that are also CD15+ and weakly PAX5+ with CD45 negativity, set in a mixed inflammatory background without TFH-phenotype T cells."},
+    {"dx": "EBV-positive reactive lymphadenitis (infectious mononucleosis)", "vs": "Reactive nodes contain many CD30+ immunoblasts but retain architecture and lack an atypical TFH-marker-positive T-cell population."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with CD30 expression", "vs": "In PTCL-NOS the CD30-positive cells are the neoplastic T cells themselves (CD3+/CD20-), rather than B-lineage immunoblasts."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

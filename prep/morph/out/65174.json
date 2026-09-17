@@ -1,0 +1,22 @@
+{
+  "id": "65174",
+  "recognize_zh": "骨髓抹片中大型、多形性的腫瘤細胞，細胞質含嗜鹼性/異染性顆粒與空泡，並見吞噬現象；切片為破壞性片狀浸潤、含多核巨細胞，tryptase 瀰漫陽性，流式 CD117+/CD25+，指向高度惡性的肥大細胞肉瘤。",
+  "features": [
+    "Peripheral blood: atypical circulating cell with irregular nucleus and coarse purple cytoplasmic granules",
+    "Aspirate: large pleomorphic cells with abundant cytoplasm containing metachromatic granules, vacuoles, and multinucleated/bizarre forms; hemophagocytosis present",
+    "Biopsy: destructive diffuse sheets of large pleomorphic cells with pale to eosinophilic cytoplasm and scattered multinucleated tumor giant cells",
+    "Tryptase immunostain diffusely positive in the tumor sheets",
+    "Flow cytometry (CD117-gated): CD33 positive, variable HLA-DR, aberrant CD25 expression"
+  ],
+  "describe_en": "Peripheral blood smear shows rare atypical circulating cells with coarse cytoplasmic granules. The bone marrow aspirate contains large, pleomorphic cells with abundant granulated and vacuolated cytoplasm, including multinucleated forms, along with hemophagocytosis. The core biopsy shows a destructive diffuse infiltrate of highly atypical cells with scattered tumor giant cells that are diffusely positive for tryptase, and flow cytometry shows CD117-positive cells with aberrant CD25 expression. Findings are consistent with a high-grade mast cell neoplasm; with the destructive growth pattern and marked cytologic atypia, mast cell sarcoma involving the bone marrow is favored.",
+  "ddx": [
+    {"dx": "Mast cell leukemia", "vs": "MCL shows ≥20% mast cells on aspirate, typically less pleomorphic immature cells without a destructive mass-like growth, whereas mast cell sarcoma is defined by high-grade cytology and localized destructive growth."},
+    {"dx": "Acute basophilic or myeloid leukemia", "vs": "Basophilic blasts are smaller with coarse basophilic granules and are CD123/CD203c positive but tryptase-low and CD117 negative/dim, whereas these cells are strongly tryptase and CD117 positive."},
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytic sarcoma shows large pleomorphic cells expressing CD163/CD68 and lacks tryptase and CD117."},
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "ALCL is also CD30 positive and pleomorphic but expresses T-cell markers and lacks cytoplasmic metachromatic granules and tryptase."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: tryptase; flow",
+  "match": "consistent",
+  "high_yield": false
+}

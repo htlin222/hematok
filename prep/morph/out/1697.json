@@ -1,0 +1,21 @@
+{
+  "id": "1697",
+  "recognize_zh": "這是染色體示意圖：正常 9 號與 22 號，旁邊為衍生 9 號（變長，斷點 9q34）與衍生 22 號（變短，斷點 22q11）；變短的 der(22) 即費城染色體（Philadelphia chromosome），代表 t(9;22) BCR::ABL1。",
+  "features": [
+    "Schematic G-banded ideogram comparing normal and derivative chromosomes 9 and 22",
+    "Breakpoint marked at 9q34 (ABL1) on the derivative chromosome 9, which is elongated",
+    "Breakpoint marked at 22q11 (BCR) on the derivative chromosome 22, which is shortened",
+    "Shortened der(22) labeled as the Philadelphia chromosome",
+    "Illustrates a reciprocal balanced translocation t(9;22)(q34;q11)"
+  ],
+  "describe_en": "This is a schematic cytogenetic illustration rather than a morphologic image. It compares normal chromosomes 9 and 22 with their derivatives from the reciprocal translocation t(9;22)(q34;q11.2): the derivative 9 is lengthened by material from 22q, and the derivative 22 is shortened and designated the Philadelphia chromosome. The translocation fuses BCR on 22q11 with ABL1 on 9q34, creating a constitutively active tyrosine kinase. In ALL, the Philadelphia chromosome (usually p190 BCR::ABL1) defines a high-risk subtype treated with tyrosine kinase inhibitors, and it is the defining lesion of CML (usually p210).",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "Same translocation, but CML typically carries the p210 transcript and presents with a left-shifted granulocytosis and basophilia rather than a lymphoblast population."},
+    {"dx": "Ph-like (BCR::ABL1-like) B-ALL", "vs": "Has a similar kinase-activated gene-expression profile but lacks t(9;22) on karyotype/FISH, instead carrying CRLF2, JAK or ABL-class rearrangements."},
+    {"dx": "Variant or cryptic BCR::ABL1 rearrangement", "vs": "Complex or masked translocations may show no visible Ph chromosome on karyotype and require FISH or RT-PCR for BCR::ABL1."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "N/A (schematic ideogram)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

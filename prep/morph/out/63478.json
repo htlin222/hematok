@@ -1,0 +1,22 @@
+{
+  "id": "63478",
+  "recognize_zh": "周邊血液抹片右側一顆大型母細胞，核圓、染色質細緻，深藍色細胞質緊貼核周並帶細顆粒感；中間及周圍有多顆比紅血球小不了多少、淡藍無顆粒或帶粉紅顆粒的巨大異常血小板，配合 CML 病史符合巨核母細胞急變。",
+  "features": [
+    "Large blast (right) with round nucleus, finely granular chromatin, and a thin rim of deeply basophilic cytoplasm",
+    "Small cytoplasmic bleb/attached platelet-like fragment at the blast margin",
+    "Multiple giant, pale blue, hypogranular platelets approaching red cell size (center and lower left)",
+    "Occasional platelet with clustered pink-purple granules and a small platelet clump (left)",
+    "Red cells with rouleaux-like stacking in thicker areas and scattered echinocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows a large blast with a round nucleus, finely granular chromatin, and a narrow rim of deeply basophilic cytoplasm with a small marginal cytoplasmic bleb. Several giant, pale blue, hypogranular platelets approaching the size of red cells are present, along with a few granular platelets. Red cells show scattered echinocytes and stacking in thicker areas. Blast lineage cannot be established morphologically, but in a patient with known CML and flow cytometry demonstrating CD41/CD61-positive blasts, findings are consistent with megakaryoblastic blast crisis with dysplastic giant platelets.",
+  "ddx": [
+    {"dx": "Myeloblastic blast crisis", "vs": "Myeloblasts may contain azurophilic granules or Auer rods and are MPO positive, whereas megakaryoblasts are MPO negative and express CD41/CD61."},
+    {"dx": "Lymphoblastic blast crisis", "vs": "Lymphoblasts lack cytoplasmic blebs and are accompanied by normal-sized platelets, and they express TdT with B- or T-lineage markers."},
+    {"dx": "Inherited macrothrombocytopenia", "vs": "Congenital giant platelets occur without circulating blasts or leukocytosis."},
+    {"dx": "Primary myelofibrosis with leukoerythroblastosis", "vs": "Myelofibrosis shows teardrop cells, nucleated red cells, and giant platelets with only low blast counts and no BCR::ABL1 fusion."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

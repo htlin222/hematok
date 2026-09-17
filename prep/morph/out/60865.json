@@ -1,0 +1,20 @@
+{
+  "id": "60865",
+  "recognize_zh": "Ki-67 染色在真皮淋巴浸潤中呈斑駁分布：數個邊界不清的高增生群聚（被腫瘤殘食的反應性濾泡中心），周圍則為低增生的小淋巴細胞；不可把這些熱點誤判為大 B 細胞轉化。",
+  "features": [
+    "Heterogeneous, mottled Ki-67 nuclear staining within a dermal lymphoid infiltrate",
+    "Several discrete clusters of densely Ki-67-positive nuclei corresponding to colonized/overrun germinal centers",
+    "Low proliferation index in the surrounding interfollicular small lymphoid cells",
+    "Dermal collagen with sparse positive cells at left"
+  ],
+  "describe_en": "Ki-67 immunostain of the dermal lymphoid infiltrate shows a mottled pattern of proliferation. Discrete clusters of densely positive nuclei correspond to reactive follicular structures that are overrun by the neoplastic B-cell infiltrate, while the surrounding interfollicular population shows a low proliferation index. The high-proliferation foci follow a follicular distribution and should not be interpreted as large B-cell transformation in the absence of sheets of large cells on H&E. Findings are consistent with the proliferation pattern of primary cutaneous marginal zone lymphoma.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma / large cell transformation", "vs": "Transformation shows diffuse sheets of large cells with a uniformly high Ki-67 index, rather than discrete follicle-shaped hot spots in a low-proliferation background."},
+    {"dx": "Primary cutaneous follicle center lymphoma", "vs": "PCFCL follicles lack polarization and often have a relatively low Ki-67 index in neoplastic follicles, whereas colonized reactive germinal centers here remain highly proliferative."},
+    {"dx": "Cutaneous lymphoid hyperplasia", "vs": "Reactive germinal centers are also Ki-67 high but are well formed with polarized zonation and surrounded by polytypic B cells without light-chain restriction."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

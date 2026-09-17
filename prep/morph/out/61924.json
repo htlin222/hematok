@@ -1,0 +1,22 @@
+{
+  "id": "61924",
+  "recognize_zh": "骨髓抹片左上方有一個巨噬細胞，細胞質內吞噬了一個含粗大紫紅色顆粒的細胞；右側顆粒球系細胞的顆粒也偏粗，這種巨大粗顆粒是Chediak-Higashi症候群的線索（影像模糊，細節有限）。",
+  "features": [
+    "Macrophage with abundant blue-gray cytoplasm containing a phagocytosed cell with coarse purple-red granules",
+    "Engulfed cell shows giant, coarse cytoplasmic granules/inclusions",
+    "Granulocytic precursors on the right with prominent coarse purple granules",
+    "Background erythroid precursors, mature neutrophils and red cells",
+    "Image is blurred and out of focus, limiting assessment of granule size in individual cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a macrophage with abundant cytoplasm containing a phagocytosed cell bearing coarse purple-red granules. Nearby granulocytic precursors display prominent, coarse cytoplasmic granules, set among erythroid precursors, neutrophils and red cells. Image resolution and focus are limited, precluding detailed assessment of granule size across all cells. In the appropriate clinical context (partial oculocutaneous albinism, recurrent infections), findings are consistent with Chediak-Higashi syndrome, with hemophagocytosis suggesting the accelerated (HLH-like) phase.",
+  "ddx": [
+    {"dx": "Toxic granulation", "vs": "Toxic granules are fine to moderately coarse dark granules evenly distributed in neutrophils, whereas Chediak-Higashi inclusions are giant, irregular, fused lysosomal granules present in many lineages."},
+    {"dx": "Alder-Reilly anomaly", "vs": "Alder-Reilly shows dense dark azurophilic granules in all leukocytes without the giant fused inclusions of Chediak-Higashi, and is associated with mucopolysaccharidoses."},
+    {"dx": "Pseudo-Chediak-Higashi granules in AML/MDS", "vs": "Pseudo-Chediak-Higashi granules occur in dysplastic or leukemic myeloid cells with blasts or dysplasia, and are not constitutional or seen in lymphocytes."},
+    {"dx": "Hemophagocytic lymphohistiocytosis (other causes)", "vs": "Primary or secondary HLH shows hemophagocytosis but lacks giant granules in granulocytes and lymphocytes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

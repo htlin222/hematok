@@ -1,0 +1,21 @@
+{
+  "id": "60054",
+  "recognize_zh": "流式細胞圖先以 SSC 對 CD15 圈出顆粒球，再看 FLAER 與 CD55/CD59：正常人顆粒球落在雙陽性象限（99.75%），而本例 98.60% 的顆粒球落在 FLAER 與 CD55/59 雙陰性象限，代表大型 PNH 克隆。",
+  "features": [
+    "Two-column comparison of a normal control and the patient sample",
+    "Granulocytes gated on SSC versus CD15 (red population, high SSC, CD15 bright)",
+    "Normal control: 99.75% of granulocytes are FLAER-positive and CD55/CD59-positive",
+    "Patient: 98.60% of granulocytes are FLAER-negative and CD55/CD59-negative (GPI-anchor deficient)",
+    "Small residual 0.18% double-positive normal granulocytes in the patient; overall clone involves over 98% of granulocytes"
+  ],
+  "describe_en": "Flow cytometric analysis of peripheral blood compares a normal control with the patient sample. Granulocytes are gated on side scatter versus CD15 and then assessed for FLAER binding and expression of the GPI-anchored proteins CD55 and CD59. In the normal control, nearly all granulocytes (99.75%) are FLAER and CD55/CD59 positive, whereas in the patient 98.60% of granulocytes lack both FLAER binding and CD55/CD59 expression. Findings demonstrate a large PNH clone involving more than 98% of granulocytes, consistent with paroxysmal nocturnal hemoglobinuria arising in the setting of aplastic anemia.",
+  "ddx": [
+    {"dx": "Aplastic anemia with small PNH clone", "vs": "Many aplastic anemia patients have minor GPI-deficient populations (often <10%), whereas this clone replaces nearly all granulocytes, indicating a clinically significant PNH clone."},
+    {"dx": "Hereditary CD59 or CD55 deficiency", "vs": "Isolated inherited deficiency affects a single antigen on all cells, whereas FLAER negativity together with loss of both CD55 and CD59 indicates a global GPI-anchor defect from PIGA mutation."},
+    {"dx": "Technical artifact from poor gating or reagent failure", "vs": "Artifact is excluded by the normal control run in parallel and by the residual small population of normal FLAER-positive granulocytes in the patient."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

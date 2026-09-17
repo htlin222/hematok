@@ -1,0 +1,21 @@
+{
+  "id": "63551",
+  "recognize_zh": "這是 PET/CT 全身掃描中的非顯影腹部 CT 軸切面：肝右葉外側有一個大型、邊界清楚、密度均勻偏低的病灶，符合肝膿瘍的影像表現，需引流檢體做微生物檢查確認病原（本例為 Nocardia）。",
+  "features": [
+    "Axial non-contrast CT (plain series from a whole-body PET/CT) at the level of the upper abdomen",
+    "Large, well-circumscribed, homogeneously hypodense lesion in the posterolateral right hepatic lobe",
+    "No visible gas, calcification or fluid-fluid level within the lesion on this slice",
+    "Remainder of liver, spleen, stomach (with air) and vertebral body unremarkable on this single image",
+    "Non-contrast technique limits assessment of rim enhancement and internal septations"
+  ],
+  "describe_en": "Axial non-contrast CT image of the upper abdomen, obtained as part of a whole-body PET/CT, shows a large, well-circumscribed, homogeneously hypoattenuating lesion occupying the posterolateral right lobe of the liver. No internal gas or calcification is seen on this slice, and the spleen and remaining liver parenchyma appear unremarkable. Without contrast, rim enhancement, septations and a double-target sign cannot be evaluated, so the imaging appearance is nonspecific. In conjunction with drainage microscopy demonstrating Nocardia, the findings are consistent with a hepatic abscess.",
+  "ddx": [
+    {"dx": "Amebic liver abscess", "vs": "Amebic abscesses are usually solitary right-lobe lesions near the capsule as here, and are distinguished by Entamoeba serology and 'anchovy paste' aspirate without bacteria rather than by non-contrast CT."},
+    {"dx": "Simple hepatic cyst", "vs": "Simple cysts have water attenuation, imperceptible walls and no enhancement or clinical sepsis, and aspiration yields clear fluid without organisms."},
+    {"dx": "Necrotic metastasis or lymphoma", "vs": "Necrotic tumors show thick irregular enhancing walls and FDG-avid solid components on PET, and biopsy shows malignant cells rather than purulent material."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

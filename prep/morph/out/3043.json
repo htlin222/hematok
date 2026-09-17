@@ -1,0 +1,22 @@
+{
+  "id": "3043",
+  "recognize_zh": "一團緊密黏合（cohesive）的大型細胞，細胞質豐富淡藍、細胞邊界互相貼合，核圓至卵圓且有明顯單一核仁，與周圍骨髓造血細胞完全不同，是轉移性癌細胞團的典型樣貌。",
+  "features": [
+    "Cohesive three-dimensional cluster of large cells, much larger than surrounding red cells",
+    "Moderate to abundant pale blue-gray cytoplasm with cell-to-cell molding and distinct borders",
+    "Round to oval nuclei with finely granular chromatin",
+    "Prominent single nucleoli in many cells",
+    "Absence of hematopoietic features such as granules or perinuclear hof"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a tightly cohesive cluster of large non-hematopoietic cells set against a background of red cells. The cells have moderate to abundant pale blue cytoplasm, molded cell borders, round to oval nuclei with fine chromatin and conspicuous single nucleoli. No cytoplasmic granules or hematopoietic differentiation are evident. Findings are consistent with metastatic carcinoma; in the appropriate clinical context this supports metastatic prostatic adenocarcinoma, which can be confirmed by PSA/NKX3.1 immunohistochemistry.",
+  "ddx": [
+    {"dx": "Osteoblast cluster", "vs": "Osteoblasts have eccentric nuclei with a pale perinuclear Golgi zone away from the nucleus and lack true cohesion and prominent atypical nucleoli."},
+    {"dx": "Megakaryocyte", "vs": "A megakaryocyte is a single giant cell with a lobulated nucleus and granular cytoplasm, not a cluster of separate molded cells."},
+    {"dx": "Plasma cell myeloma with clustering", "vs": "Myeloma cells are discohesive with eccentric nuclei, clock-face chromatin and a perinuclear hof, and express CD138 rather than cytokeratin."},
+    {"dx": "Other metastatic carcinoma (e.g., lung, breast)", "vs": "Morphology cannot determine the primary; PSA/NKX3.1 positivity supports prostate origin."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

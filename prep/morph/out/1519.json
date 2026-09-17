@@ -1,0 +1,23 @@
+{
+  "id": "1519",
+  "recognize_zh": "周邊血中多顆中小型淋巴球，細胞質深藍、核形不規則；箭頭所指細胞核有明顯凹陷／皺褶，右上細胞可見單一核仁，符合 T 細胞前淋巴球白血病（T-PLL）的核不規則型態。",
+  "features": [
+    "Small to medium-sized lymphoid cells with moderate amount of deeply basophilic, agranular cytoplasm",
+    "Irregular nuclear contours with notches and indentations (arrow)",
+    "Moderately condensed chromatin; a single visible nucleolus in some cells (upper right)",
+    "Moderate N:C ratio, higher than in typical small mature lymphocytes",
+    "A larger cell with pale gray cytoplasm and folded nucleus at lower right, likely a monocyte",
+    "Background red cells with rouleaux-like stacking; rare platelet"
+  ],
+  "describe_en": "Peripheral blood smear shows several small to medium-sized lymphoid cells with moderately abundant, deeply basophilic agranular cytoplasm. Nuclei are irregular with notches and indentations (arrow), chromatin is moderately condensed, and a single nucleolus is visible in some cells. A cell with pale gray cytoplasm and a folded nucleus, likely a monocyte, is also present. Findings are consistent with T-cell prolymphocytic leukemia (irregular-nucleus variant), to be confirmed by flow cytometry and TCL1A/inv(14) studies.",
+  "ddx": [
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform, grooved nuclei with scant pale cytoplasm and lack prominent nucleoli; clinical erythroderma and CD26 loss support Sezary."},
+    {"dx": "B-cell prolymphocytic leukemia / CLL with increased prolymphocytes", "vs": "B-prolymphocytes are typically round-nucleated with a prominent central nucleolus and express B-cell markers rather than CD3/CD7 with TCL1 overexpression."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows polylobated 'flower cells' with more condensed chromatin and is HTLV-1 positive and usually CD7 negative, CD25 positive."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells have pale gray-blue cytoplasm with circumferential hairy projections and oval/bean-shaped nuclei rather than deeply basophilic cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

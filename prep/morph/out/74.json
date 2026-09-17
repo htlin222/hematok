@@ -1,0 +1,35 @@
+{
+  "id": "74",
+  "recognize_zh": "周邊血抹片中小到中型淋巴球，核圓或略不規則、可見小核仁，嗜鹼性細胞質邊緣有明顯的細胞質泡突（cytoplasmic blebs）；流式顯示 CD3+/CD7 亮表現的成熟 T 細胞族群，並有 CD4/CD8 雙陽性與 CD45 表現減弱，符合復發的 T-PLL。",
+  "features": [
+    "Small to medium-sized lymphoid cells, roughly 1.5-2 times a red cell diameter, with moderate N:C ratio",
+    "Round to oval, slightly irregular nuclei with moderately condensed chromatin and a single small but visible nucleolus in some cells",
+    "Moderate amount of deeply basophilic cytoplasm with irregular cytoplasmic blebs/protrusions",
+    "Flow: dominant lymphoid population that is CD45 dim to negative, CD3+, CD7 bright (98.7% CD7+), CD5 dim",
+    "Flow: abnormal CD4/CD8 co-expression (CD8+ with dim-to-moderate CD4), dim/heterogeneous TCR alpha-beta, CD52 retained",
+    "Background of normocytic red cells without other abnormal leukocytes in the fields shown"
+  ],
+  "describe_en": "Peripheral blood smear shows atypical small to medium-sized lymphoid cells with round to slightly irregular nuclei, moderately condensed chromatin, occasional small visible nucleoli, and moderate basophilic cytoplasm with characteristic cytoplasmic blebs. Flow cytometry of the lymphocyte gate (79.7% of events) shows a predominant T-cell population with dim to absent CD45, bright CD3 and CD7, dim CD5, co-expression of CD8 and CD4 (CD4 dimmer), heterogeneous TCR alpha-beta, and retained CD52 expression. A minor residual CD4+ single-positive and CD3-negative (NK/B) population is also present. In the setting of prior T-PLL, findings are consistent with relapsed T-cell prolymphocytic leukemia with an altered (CD4+/CD8+ double-positive, CD45-diminished) immunophenotype; TCL1 immunostaining or TCL1A/MTCP1 FISH can confirm.",
+  "ddx": [
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform, grooved nuclei without nucleoli or cytoplasmic blebs and are typically CD4+ with loss of CD7 and CD26, whereas this population is CD7 bright."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL blasts have fine blastic chromatin, surface CD3 is usually negative/dim with cytoplasmic CD3 and TdT/CD34/CD1a expression, whereas these are mature-appearing cells with bright surface CD3 and TCR alpha-beta."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells have abundant pale cytoplasm with azurophilic granules and are CD8+/CD57+ with frequent CD5/CD7 loss, unlike the agranular blebbed basophilic cytoplasm and bright CD7 here."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL shows polylobated 'flower cell' nuclei, CD25 positivity with frequent CD7 loss, and HTLV-1 serology, none of which fit these round-nucleated CD7-bright cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Flow CD45 vs SSC: large lymphoid gate (79.7%) with a CD45 dim/negative population (AX gate)",
+    "PB smear: three small-medium lymphoid cells with condensed chromatin and basophilic blebbed cytoplasm",
+    "PB smear: prolymphocyte with oval nucleus, small central nucleolus, and basophilic cytoplasm",
+    "PB smear: atypical lymphoid cell with prominent cytoplasmic blebs",
+    "Flow CD7 vs SSC: 98.7% of the gated population is CD7+",
+    "Flow CD3 vs CD7: neoplastic cells are CD3 bright and CD7 bright",
+    "Flow CD5 vs CD7: neoplastic cells show dim CD5 with bright CD7",
+    "Flow CD8 vs CD4: aberrant CD8+/CD4 dim-moderate double-positive population",
+    "Flow TCR alpha-beta vs CD3: CD3+ cells with dim, heterogeneous TCR alpha-beta",
+    "Flow CD3 vs CD52: neoplastic T cells retain dim-moderate CD52 expression"
+  ]
+}

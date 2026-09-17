@@ -1,0 +1,22 @@
+{
+  "id": "60056",
+  "recognize_zh": "骨髓切片觸片（touch prep）在稀釋血液背景中可見多顆中型母細胞：核佔滿細胞、染色質細緻、細胞質僅剩一圈藍色邊緣且無顆粒，形狀偏不規則；這些形態只能判定為母細胞，需要流式與染色體（此例 Ph+ p190）確認為 B-ALL。",
+  "features": [
+    "Frequent intermediate-sized blasts with very high N:C ratio",
+    "Round to irregular/angular nuclei with fine, dispersed chromatin; nucleoli indistinct",
+    "Scant rim of basophilic, agranular cytoplasm without Auer rods",
+    "Hemodilute background with abundant red cells and few mature granulocytes",
+    "Preparation artifact: clear vacuole-like spaces and some crushed/distorted cells limit cytologic detail"
+  ],
+  "describe_en": "Touch imprint of the bone marrow core biopsy, performed because the aspirate was hemodilute, shows frequent intermediate-sized blasts in a background of red cells. The blasts have very high N:C ratio, round to irregular nuclei with finely dispersed chromatin and indistinct nucleoli, and a scant rim of agranular basophilic cytoplasm; Auer rods are not seen. Mature granulocytes and erythroid precursors are sparse, and preparation artifact limits fine cytologic evaluation. Findings are consistent with acute leukemia; lineage requires immunophenotyping, and together with the B-lymphoblast phenotype and the Philadelphia chromosome (p190 BCR::ABL1), support B-lymphoblastic leukemia with BCR::ABL1 fusion.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "Agranular myeloblasts can look identical on touch preps; MPO cytochemistry or flow cytometry showing CD117/CD33/MPO is needed to separate them."},
+    {"dx": "CML in lymphoid blast phase", "vs": "Shares Ph positivity but usually carries p210, with evidence of a preceding chronic phase such as basophilia and granulocytic hyperplasia."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with prominent lipid vacuoles and are TdT-negative mature B cells with MYC rearrangement."},
+    {"dx": "Hemodilute specimen with normal lymphocytes", "vs": "Mature lymphocytes are smaller with condensed clumped chromatin, unlike the fine chromatin and larger size of these blasts."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

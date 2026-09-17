@@ -1,0 +1,30 @@
+{
+ "id": "63107",
+ "recognize_zh": "CD34 染色中，右側充滿血液的腔隙之間的間隔與周邊脾臟組織中的小血管呈陽性，但大型血管腔的內襯細胞本身大致為陰性；littoral cell angioma 的內襯細胞典型為 CD34 陰性。",
+ "features": [
+  "IHC for CD34 on spleen, low power",
+  "Strong staining of vessels within septa and around large blood-filled channels (right)",
+  "Scattered small CD34+ capillaries in adjacent splenic parenchyma (left)",
+  "Lining cells of the large blood-filled spaces appear largely CD34-negative",
+  "Blood-filled lumina with background red cells"
+ ],
+ "describe_en": "CD34 immunostain of spleen highlights capillaries in the adjacent parenchyma and vessels within the fibrous septa between large blood-filled channels. The cells lining the large blood-filled channels of the lesion appear largely negative at this magnification, although distinguishing septal vessels from the lining layer is limited at low power. A CD34-negative lining, in conjunction with CD31, CD68/CD163, and CD21 positivity, supports the diagnosis of littoral cell angioma.",
+ "ddx": [
+  {
+   "dx": "Splenic hemangioma",
+   "vs": "Hemangioma channels are lined by CD34-positive endothelium and lack histiocytic markers (CD68, CD163)."
+  },
+  {
+   "dx": "Sclerosing angiomatoid nodular transformation (SANT)",
+   "vs": "SANT nodules contain a mixture of CD34+ capillaries and CD8+ sinusoids within fibrotic nodules."
+  },
+  {
+   "dx": "Splenic angiosarcoma",
+   "vs": "Angiosarcoma shows cytologic atypia and invasive growth with variable CD34 but consistent CD31/ERG positivity."
+  }
+ ],
+ "specimen": "spleen",
+ "stain": "IHC: CD34",
+ "match": "consistent",
+ "high_yield": false
+}

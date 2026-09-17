@@ -1,0 +1,23 @@
+{
+  "id": "65143",
+  "recognize_zh": "骨髓切片（A、B）可見增厚、邊緣呈扇貝狀凹陷的骨小梁，旁邊纖維化間質中有成簇、核深染且多形的非造血腫瘤細胞；C 格這些細胞 CK7 強陽性、D 格 CK20 陰性，CK7+/CK20- 的上皮細胞轉移，符合肺腺癌骨髓轉移並伴骨硬化與溶骨。",
+  "features": [
+    "Panels A-B: thickened, irregular bony trabeculae with scalloped resorption edges and lining cells along the surfaces",
+    "Clusters and cords of pleomorphic, hyperchromatic epithelial tumor cells in a desmoplastic fibrotic stroma",
+    "Loss of normal hematopoietic tissue with residual fat at the top of panel A",
+    "Panel C: strong cytoplasmic CK7 positivity in tumor clusters with gland-like profiles",
+    "Panel D: tumor cells negative for CK20",
+    "Crush and retraction artifact in the cellular areas"
+  ],
+  "describe_en": "Bone marrow trephine biopsy shows replacement of the marrow space by clusters and cords of pleomorphic, hyperchromatic epithelial tumor cells within a fibrotic desmoplastic stroma, with residual fat at the periphery. The bony trabeculae are thickened with irregular, scalloped resorptive surfaces, indicating combined sclerosis and lysis; gland formation is difficult to appreciate on H&E at this magnification but gland-like clusters are highlighted by immunostaining. The tumor cells are positive for CK7 and negative for CK20. The findings are consistent with metastatic carcinoma with a CK7+/CK20- profile, supporting a lung adenocarcinoma primary in the clinical context (TTF-1/Napsin A would further support this).",
+  "ddx": [
+    {"dx": "Metastatic breast carcinoma", "vs": "Breast carcinoma is also CK7+/CK20- and is separated by GATA3, ER/PR positivity and TTF-1 negativity."},
+    {"dx": "Metastatic prostatic adenocarcinoma", "vs": "Prostate carcinoma produces osteoblastic metastases but is CK7-negative/CK20-negative with PSA/NKX3.1 expression."},
+    {"dx": "Metastatic colorectal adenocarcinoma", "vs": "Colorectal carcinoma is usually CK7-negative/CK20-positive and CDX2-positive."},
+    {"dx": "Clusters of megakaryocytes or osteoblasts", "vs": "Megakaryocytes and osteoblasts are cytokeratin-negative, whereas these clusters are strongly CK7-positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E, IHC: CK7, CK20",
+  "match": "consistent",
+  "high_yield": false
+}

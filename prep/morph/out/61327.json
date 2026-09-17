@@ -1,0 +1,22 @@
+{
+  "id": "61327",
+  "recognize_zh": "CD21 染色顯示濾泡樹突細胞（FDC）網狀結構大片擴張、呈不規則分枝，延伸到濾泡外並包圍血管，而不是局限於圓形生發中心，這種失序擴張的 FDC 網是血管免疫母細胞性 T 細胞淋巴瘤的特徵。",
+  "features": [
+    "Extensive, irregular CD21-positive follicular dendritic cell meshworks outside of follicles",
+    "Arborizing FDC networks wrapping around small vessels (high endothelial venules)",
+    "Loss of discrete, round follicular architecture",
+    "Intervening sheets of CD21-negative lymphoid cells",
+    "No well-formed primary or secondary follicles identified in this field"
+  ],
+  "describe_en": "CD21 immunostain of the lymph node shows markedly expanded, irregular follicular dendritic cell meshworks that extend diffusely through the paracortex rather than forming discrete round follicles. The meshworks arborize and encircle numerous small vessels consistent with high endothelial venules. Intervening lymphoid cells are CD21-negative. This pattern of extrafollicular FDC proliferation is characteristic of angioimmunoblastic T-cell lymphoma (pattern 3) and should be correlated with TFH markers (PD-1, CXCL13, ICOS, BCL6) and T-cell clonality studies.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive FDC meshworks are compact and confined to round germinal centers without extrafollicular extension around vessels."},
+    {"dx": "Follicular lymphoma", "vs": "FL shows CD21 meshworks within back-to-back neoplastic follicles containing CD10+/BCL2+ B cells, not perivascular arborization among T cells."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS lacks expanded extrafollicular FDC meshworks and lacks a full TFH immunophenotype."},
+    {"dx": "Castleman disease", "vs": "Castleman disease has regressed follicles with concentric FDC meshworks and penetrating hyalinized vessels, without atypical TFH cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD21",
+  "match": "consistent",
+  "high_yield": true
+}

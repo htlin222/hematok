@@ -1,0 +1,22 @@
+{
+  "id": "1209",
+  "recognize_zh": "低倍骨髓抹片中細胞極多，以大小一致、核圓至卵圓、細胞質淡藍且邊界不清的單核細胞為主，彼此間距規則，取代正常多樣的造血細胞，符合毛細胞白血病的單一形態浸潤；此倍率下看不到毛狀突起。",
+  "features": [
+    "Hypercellular aspirate at low power with a monotonous mononuclear cell population",
+    "Small-to-medium cells with round to oval nuclei and evenly dispersed chromatin",
+    "Moderate pale blue cytoplasm with indistinct borders giving evenly spaced nuclei",
+    "Marked reduction of granulocytic and erythroid maturation",
+    "Dark marrow particle and a megakaryocyte at lower left; numerous fat spaces"
+  ],
+  "describe_en": "Bone marrow aspirate smear at low magnification is hypercellular and dominated by a monotonous population of small to medium-sized mononuclear cells with round to oval nuclei and moderate pale cytoplasm with indistinct borders, producing evenly spaced nuclei. Normal granulocytic and erythroid maturation is markedly diminished; a marrow particle and a megakaryocyte are present at the lower left. Cytoplasmic hairy projections cannot be resolved at this magnification, so correlation with higher-power morphology, flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E is needed. Findings are consistent with marrow involvement by hairy cell leukemia; note that many cases yield a dry tap, making an aspirate like this less typical.",
+  "ddx": [
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells have more condensed chromatin and scant cytoplasm and are CD103/CD25/annexin A1-negative."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are small with coarse block-like chromatin and scant cytoplasm, and are CD5+/CD23+ rather than CD103+."},
+    {"dx": "Acute leukemia", "vs": "Blasts have finer chromatin, higher N:C ratio and visible nucleoli, and express CD34 or TdT rather than a mature B-cell phenotype."},
+    {"dx": "Systemic mastocytosis", "vs": "Mast cells contain abundant metachromatic granules and express CD117 and tryptase."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

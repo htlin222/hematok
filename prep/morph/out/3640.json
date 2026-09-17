@@ -1,0 +1,22 @@
+{
+  "id": "3640",
+  "recognize_zh": "兩顆淋巴球的核有多條彎曲細溝、表面像腦迴一樣起伏（cerebriform），染色質緻密、細胞質只有一圈淡藍色；背景紅血球皺縮成棘狀。這是 Sézary 細胞的高倍表現。",
+  "features": [
+    "Two lymphocytes slightly larger than small lymphocytes, with high N:C ratio",
+    "Nuclei with multiple curved grooves and overlapping folds (cerebriform)",
+    "Dense, hyperchromatic chromatin; nucleoli not evident",
+    "Thin rim to small crescent of pale-blue agranular cytoplasm",
+    "Background RBCs with crenation (echinocytic artifact)"
+  ],
+  "describe_en": "High-power peripheral blood smear shows two lymphocytes with high N:C ratios and nuclei showing multiple curved grooves and folds, giving a cerebriform appearance. The chromatin is dense without visible nucleoli, and the cytoplasm is a thin rim of pale-blue agranular material. Background red cells show crenation artifact. Findings are consistent with Sézary cells.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells show deeper polylobation into flower-like petals, and HTLV-1 serology is positive."},
+    {"dx": "Mycosis fungoides-like reactive cells in dermatitis", "vs": "Occasional cerebriform cells can appear in benign erythroderma, but they are few and lack a clonal TCR rearrangement or CD7/CD26 loss."},
+    {"dx": "Follicular lymphoma cells", "vs": "Follicular lymphoma cells have deep single clefts (buttock cells) and are CD10+ BCL2+ B cells."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells have a visible nucleolus and cytoplasmic blebs with TCL1 overexpression."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

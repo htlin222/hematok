@@ -1,0 +1,22 @@
+{
+  "id": "62447",
+  "recognize_zh": "大腸黏膜切片中，表皮下方固有層有一條緻密、帶狀的 CD117 強陽性細胞浸潤，下方較深的固有層也有散在與小群聚的陽性細胞，而腺窩結構大致保留——這是黏膜內肥大細胞聚集的表現，提示肥大細胞增生症（mastocytosis）。",
+  "features": [
+    "Colonic mucosa with preserved, evenly spaced crypts",
+    "Dense, band-like subepithelial aggregate of strongly CD117-positive cells in the superficial lamina propria",
+    "Additional scattered and small clusters of CD117-positive cells in the deeper lamina propria",
+    "Strong membranous/cytoplasmic brown staining of infiltrating cells; crypt epithelium shows only weak nonspecific staining",
+    "No surface ulceration or crypt destruction in this field"
+  ],
+  "describe_en": "Colonic mucosal biopsy stained with CD117 (KIT) shows preserved crypt architecture with a dense, band-like aggregate of strongly CD117-positive cells beneath the surface epithelium. Additional CD117-positive cells are present singly and in small clusters in the deeper lamina propria. The crypt epithelium shows only weak background staining. The density and aggregation of CD117-positive cells far exceed the scattered mast cells of normal colonic mucosa; findings are consistent with mucosal involvement by mastocytosis, to be correlated with tryptase, CD25/CD2 co-expression and KIT D816V testing.",
+  "ddx": [
+    {"dx": "Reactive mast cell increase (e.g., IBS, mastocytic enterocolitis)", "vs": "Reactive mast cells are evenly scattered without compact aggregates of 15 or more cells and do not co-express CD25."},
+    {"dx": "Gastrointestinal stromal tumor (GIST)", "vs": "GIST is a CD117/DOG1-positive spindle cell mass arising in the muscularis propria rather than a superficial lamina propria infiltrate, and is tryptase-negative."},
+    {"dx": "Myeloid sarcoma", "vs": "CD117 can mark myeloblasts, but these are blastic cells positive for CD34/MPO and negative for tryptase."},
+    {"dx": "Eosinophilic colitis", "vs": "Eosinophil-rich lamina propria lacks sheets of CD117/tryptase-positive mast cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD117",
+  "match": "consistent",
+  "high_yield": false
+}

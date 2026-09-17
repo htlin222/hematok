@@ -1,0 +1,22 @@
+{
+  "id": "60082",
+  "recognize_zh": "切片中巨核細胞明顯增多，多為體積大、細胞質豐富、核深度分葉的成熟型，多數散在分布、偶呈鬆散小群，核染色質不呈濃密雲團狀；這種大型成熟巨核細胞增生符合本態性血小板增多症（ET）。",
+  "features": [
+    "Hypercellular marrow with markedly increased megakaryocytes",
+    "Large to giant megakaryocytes with abundant eosinophilic cytoplasm",
+    "Deeply lobulated, hyperlobated nuclei with mature (not hyperchromatic, not bulbous) chromatin",
+    "Megakaryocytes mostly dispersed or in small loose groups, without dense tight clusters",
+    "Intervening erythroid and granulocytic precursors with preserved maturation; bony trabeculae at edges"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a hypercellular marrow with a marked increase in megakaryocytes. The megakaryocytes are predominantly large to giant with abundant eosinophilic cytoplasm and deeply lobulated, hyperlobated nuclei with mature chromatin; they are distributed singly or in small loose groups without dense clustering or bizarre hyperchromatic forms. Background erythroid and granulocytic elements show orderly maturation, and there is no evident increase in blasts. Findings are consistent with essential thrombocythemia, with reticulin staining and JAK2/CALR/MPL mutation testing recommended to exclude prefibrotic primary myelofibrosis.",
+  "ddx": [
+    {"dx": "Prefibrotic primary myelofibrosis", "vs": "Megakaryocytes form dense clusters and show atypia with hyperchromatic, bulbous cloud-like nuclei and aberrant N:C ratio, often with granulocytic predominance."},
+    {"dx": "Polycythemia vera", "vs": "Displays panmyelosis with erythroid hyperplasia and megakaryocytes of widely variable size rather than uniformly large mature forms."},
+    {"dx": "Chronic myeloid leukemia", "vs": "Megakaryocytes are small and hypolobated in a granulocyte-rich marrow; BCR::ABL1 must be excluded in every suspected ET."},
+    {"dx": "Reactive thrombocytosis", "vs": "Megakaryocytes lack the prominent giant hyperlobated morphology and no MPN driver mutation is present."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

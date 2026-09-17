@@ -1,0 +1,22 @@
+{
+  "id": "64183",
+  "recognize_zh": "周邊血液中大量小而成熟、細胞質極少的淋巴球，並散布多個破碎、呈淡紫色網狀無細胞膜輪廓的「smudge cells（籃狀細胞）」，這是慢性淋巴球性白血病（CLL）的典型抹片表現。",
+  "features": [
+    "Increased small mature lymphocytes, slightly larger than red cells",
+    "High N:C ratio with round nuclei, dense clumped chromatin, and scant cytoplasm",
+    "Numerous smudge (basket) cells: flattened, lacy, pale purple nuclear remnants without cytoplasm",
+    "Monotonous lymphocyte population without prolymphocytes or blasts in this field",
+    "Red cells normocytic and normochromic; platelets scattered"
+  ],
+  "describe_en": "Peripheral blood smear shows an absolute lymphocytosis composed of monotonous small mature lymphocytes with round nuclei, condensed chromatin, and scant cytoplasm, accompanied by numerous smudge cells. Prolymphocytes are not conspicuous and red cells are normocytic and normochromic. Findings are consistent with chronic lymphocytic leukemia; flow cytometry (CD5+, CD23+, CD200+, dim surface light chain) is required for confirmation. Smudge cells are a fragility artifact and can be reduced by albumin-treated smears for accurate differential counts.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells tend to have more irregular nuclei and fewer smudge cells, and are CD23-negative/cyclin D1-positive with t(11;14)."},
+    {"dx": "Reactive lymphocytosis (e.g., pertussis, viral)", "vs": "Reactive lymphocytes are heterogeneous with variable cytoplasm and are polyclonal on flow cytometry."},
+    {"dx": "Monoclonal B-cell lymphocytosis", "vs": "MBL has identical morphology and immunophenotype but a clonal B-cell count below 5 x 10^9/L without disease features."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells have more cytoplasm with polar villi and are typically CD5-negative and CD23-negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

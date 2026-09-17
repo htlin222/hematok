@@ -1,0 +1,20 @@
+{
+  "id": "61964",
+  "recognize_zh": "PAX5染色只在散在的小型B細胞核呈強陽性，而大多數核大、淡染的腫瘤細胞為陰性（僅見顆粒狀背景），PAX5陰性可幫忙排除cHL（弱陽性）與B細胞淋巴瘤，支持ALCL。",
+  "features": [
+    "Strong nuclear PAX5 staining in scattered small cells (residual B cells)",
+    "Large atypical cells with vesicular nuclei are PAX5-negative",
+    "Some positive nuclei in small pairs or clusters",
+    "Faint granular cytoplasmic/background staining that should not be interpreted as nuclear positivity"
+  ],
+  "describe_en": "PAX5 immunostain shows strong nuclear staining in scattered small reactive B cells, while the large atypical cells with vesicular nuclei are negative, with only faint nonspecific granular background. Absence of PAX5 in the neoplastic cells argues against a B-cell lymphoma and against classic Hodgkin lymphoma, which typically shows weak nuclear PAX5 in HRS cells. Findings support anaplastic large cell lymphoma in this context.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells show weak nuclear PAX5 (dimmer than background B cells), whereas ALCL tumor cells are completely PAX5-negative."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells show strong nuclear PAX5 in the large cell population."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma is also PAX5/CD20-negative but expresses CD138, MUM1 and is often EBER-positive, not uniform CD30 with T-cell markers."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: PAX5",
+  "match": "consistent",
+  "high_yield": false
+}

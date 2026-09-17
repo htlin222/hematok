@@ -1,0 +1,22 @@
+{
+  "id": "18195",
+  "recognize_zh": "右圖周邊血可見大型芽細胞，核圓、胞質深藍且邊緣有藍色小球狀突起（箭頭），旁有小型 CLL 淋巴球；插圖 PAS 染色呈粗顆粒陽性，支持紅血球系芽細胞（erythroid blasts）。左圖組織切片可見大型芽細胞片狀浸潤與小淋巴球區並存。",
+  "features": [
+    "PB: large blasts with round nuclei, fine chromatin, and intensely basophilic cytoplasm",
+    "PB: small discrete blue cytoplasmic globules/blebs at the cytoplasmic margin (arrows)",
+    "PB: admixed small mature lymphocytes consistent with background CLL, plus a neutrophil",
+    "Inset: coarse granular (block-like) PAS positivity in blast cytoplasm",
+    "Tissue (H&E): sheets of large cells with vesicular nuclei and a cell with an eosinophilic globule (arrow), adjacent to an area of small dark lymphocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows a population of large blasts with round nuclei, finely dispersed chromatin, and deeply basophilic cytoplasm containing small blue cytoplasmic globules at the periphery, admixed with small mature lymphocytes and occasional neutrophils. A periodic acid-Schiff stain (inset) shows coarse granular cytoplasmic positivity in the blasts, supporting erythroid lineage. The tissue section shows sheets of large immature cells, one with an intracytoplasmic eosinophilic globule, juxtaposed with an area of small lymphocytes. In a patient with previously treated CLL, findings are consistent with a therapy-related erythroid (pure erythroid) leukemia coexisting with CLL; confirmation requires flow cytometry or immunohistochemistry for E-cadherin, CD71, and glycophorin, and cytogenetics (frequently complex with TP53 mutation).",
+  "ddx": [
+    {"dx": "Richter transformation (DLBCL)", "vs": "Richter cells are large B cells expressing CD19/CD20/PAX5 and lack PAS block positivity and erythroid markers (E-cadherin, CD71)."},
+    {"dx": "Prolymphocytic progression of CLL", "vs": "Prolymphocytes are medium-sized with condensed chromatin, a single prominent nucleolus, and pale cytoplasm, not deeply basophilic cytoplasm with blebs."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts also show basophilic cytoplasmic blebs but express CD41/CD61 and lack glycophorin/E-cadherin."},
+    {"dx": "Plasmablastic transformation", "vs": "Plasmablasts have eccentric nuclei with a perinuclear hof and express CD138/MUM1 without erythroid PAS pattern."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; PAS; H&E",
+  "match": "consistent",
+  "high_yield": false
+}

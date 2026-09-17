@@ -1,0 +1,22 @@
+{
+  "id": "60676",
+  "recognize_zh": "A 圖切片中大量腫瘤細胞核呈分葉、扭曲或切跡狀，乍看像成熟嗜中性球；B 圖抹片細胞具偏心核與深藍色胞質（與星號標示的真正嗜中性球比較）；C 圖核陽性染色（推測為 cyclin D1），支持 t(11;14) 漿細胞骨髓瘤的分葉核變異型態。",
+  "features": [
+    "Biopsy H&E (A): sheets of cells with lobulated, cleaved, and twisted nuclei resembling segmented neutrophils",
+    "Aspirate (B): plasma cells with eccentric, irregular or indented nuclei and deeply basophilic cytoplasm with perinuclear clearing, contrasted with a true neutrophil (asterisk)",
+    "Panel C: strong nuclear staining with cytoplasmic background in the neoplastic cells (likely cyclin D1, marker not labeled)",
+    "Panel D: membranous positivity in the infiltrate (consistent with a plasma cell marker such as CD138, not labeled)",
+    "Panel E: cytoplasmic granular positivity in most cells; panel F: negative control-like staining (markers not labeled)"
+  ],
+  "describe_en": "Bone marrow biopsy (panel A) shows a diffuse infiltrate of cells with lobated, cleaved nuclei that at low power can be mistaken for mature neutrophils. On the aspirate smear (panel B), these cells prove to be plasma cells with eccentric, irregularly lobated nuclei, deeply basophilic cytoplasm, and a perinuclear hof, distinct from an adjacent true neutrophil (asterisk). Immunohistochemistry shows nuclear positivity in panel C and membranous and cytoplasmic positivity in panels D and E, with a negative stain in panel F; the antigens are not labeled in the image. Findings are consistent with plasma cell myeloma with lobated (neutrophil-like) nuclear morphology, as described with t(11;14)(q13;q32)/CCND1 rearrangement.",
+  "ddx": [
+    {"dx": "Mature neutrophils / granulocytic hyperplasia", "vs": "Neutrophils have pink granular cytoplasm and MPO positivity, whereas these cells have basophilic cytoplasm with a hof and express CD138 and light chain restriction."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is also cyclin D1 positive, but shows small-to-medium lymphoid cells with CD20/CD5/SOX11 positivity and lacks plasmacytic cytoplasm and CD138."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma has large immunoblastic cells with prominent nucleoli, high Ki-67, and frequent EBER positivity, rather than lobulated mature-appearing nuclei."},
+    {"dx": "Monocytic leukemia", "vs": "Monoblasts/promonocytes have folded nuclei with fine chromatin and gray-blue cytoplasm, and express CD14/CD64/lysozyme rather than CD138."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC (markers not labeled)",
+  "match": "consistent",
+  "high_yield": false
+}

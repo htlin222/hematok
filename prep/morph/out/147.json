@@ -1,0 +1,30 @@
+{
+  "id": "147",
+  "recognize_zh": "淋巴結結構被單一型態、中等大小、染色質細緻且核分裂多的淋巴母細胞瀰漫取代；流式顯示 CD45dim、cytoCD3+、CD7 強陽性、CD4−/CD8−、CD1a−、CD5 弱，並表現 CD13/CD33 等骨髓系標記，符合早期 T 前驅（ETP）表型的 T 淋巴母細胞淋巴瘤。",
+  "features": [
+    "Lymph node architecture effaced by a diffuse, monotonous sheet of lymphoid cells extending to the capsule",
+    "Intermediate-sized cells with high N:C ratio, round to slightly irregular nuclei, finely dispersed (blastic) chromatin and inconspicuous nucleoli",
+    "Numerous mitotic figures and scattered apoptotic debris",
+    "IHC: diffuse strong nuclear positivity in one stain (pattern consistent with TdT) and diffuse cytoplasmic/membranous positivity in T-cell-type stains; panel antibodies are not labeled on the figure",
+    "Flow cytometry (CD45dim gate): cytoplasmic CD3+, bright CD7+, CD4-/CD8- (double negative), CD1a-, dim/partial CD5, partial CD10, partial CD13 and CD33, dim HLA-DR, CD56 subset",
+    "CT neck: multiple enlarged, conglomerate left cervical lymph nodes"
+  ],
+  "describe_en": "Contrast-enhanced CT images show extensive, conglomerate left cervical lymphadenopathy. The excised lymph node shows complete effacement of the architecture by a diffuse, monotonous infiltrate of intermediate-sized cells with high nuclear-to-cytoplasmic ratios, finely dispersed chromatin, inconspicuous nucleoli, and frequent mitotic figures. Immunohistochemical stains (antibody labels not shown on the figure) demonstrate diffuse nuclear positivity consistent with TdT and diffuse expression of T-cell-associated markers. Flow cytometry of the CD45-dim population shows cytoplasmic CD3 and bright CD7 expression, lack of CD4, CD8 and CD1a, only dim/partial CD5, and aberrant expression of the myeloid markers CD13 and CD33 with dim HLA-DR. Findings are consistent with T-lymphoblastic lymphoma with an early T-cell precursor (ETP) immunophenotype.",
+  "ddx": [
+    {"dx": "Cortical/thymic T-lymphoblastic lymphoma (non-ETP)", "vs": "Morphology is identical, so separation requires flow cytometry: non-ETP T-LBL usually expresses CD1a and/or CD8 and brighter CD5 without stem-cell or myeloid markers."},
+    {"dx": "Acute myeloid leukemia/myeloid sarcoma with minimal differentiation", "vs": "Myeloid sarcoma lacks cytoplasmic CD3 and TdT-positive T-lineage commitment and may show MPO or lysozyme positivity, whereas this tumor is cCD3-positive."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "B-LBL shows the same blastic cytology but expresses CD19, CD79a and PAX5 and is negative for cytoplasmic CD3."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are mature CD20+/CD10+ B cells with a starry-sky pattern and near-100% Ki-67 but are TdT-negative, unlike this TdT-positive T-lineage population."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (unlabeled panel); flow cytometry; CT",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "CT neck (coronal and axial): extensive conglomerate left cervical lymphadenopathy",
+    "Lymph node H&E, low to high power: diffuse effacement by monotonous intermediate-sized blasts with frequent mitoses",
+    "IHC panel: scattered positive cells in A-C; diffuse strong nuclear staining in D (pattern consistent with TdT)",
+    "IHC panel: diffuse positivity for T-cell-associated/lineage markers with variable intensity",
+    "Flow cytometry: cCD3+, CD7 bright, CD4-/CD8-, CD1a-, dim CD5, partial CD13/CD33, dim HLA-DR (ETP phenotype)"
+  ]
+}

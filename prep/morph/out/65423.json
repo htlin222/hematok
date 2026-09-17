@@ -1,0 +1,22 @@
+{
+  "id": "65423",
+  "recognize_zh": "骨髓抹片滿布大型芽細胞，細胞質灰藍帶小空泡，其中幾顆芽細胞的空泡內含被吞噬的紅血球（黃色箭頭），就是芽細胞噬紅血球現象（erythrophagocytosis），常見於 KAT6A 易位的單核球性 AML。",
+  "features": [
+    "Sheets of large blasts with round to oval, slightly irregular nuclei, fine chromatin and one or more visible nucleoli",
+    "Moderate to abundant blue-gray cytoplasm with scattered small clear vacuoles",
+    "Engulfed intact or partially digested red blood cells within cytoplasmic vacuoles of blasts (yellow arrows)",
+    "Markedly reduced residual erythroid and granulocytic precursors",
+    "No Auer rods identified in the fields shown"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows sheets of large blasts with fine chromatin, visible nucleoli, slightly irregular nuclear contours, and moderate blue-gray cytoplasm with small clear vacuoles. Several blasts contain phagocytic vacuoles with engulfed red blood cells, consistent with erythrophagocytosis by leukemic cells. Residual normal hematopoiesis is markedly reduced, and Auer rods are not seen. With an MPO-positive, CD34/CD117-negative blast phenotype with monocytic markers and t(8;22)(p11;q13), findings are consistent with acute myeloid leukemia with monocytic differentiation and KAT6A::EP300 rearrangement.",
+  "ddx": [
+    {"dx": "AML with t(8;16)(p11;p13) KAT6A::CREBBP", "vs": "Morphology (monocytic blasts with erythrophagocytosis) is shared, so the KAT6A partner (CREBBP vs EP300) is defined only by cytogenetics or molecular testing."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH shows mature histiocytes with bland, low N:C nuclei engulfing blood cells amid normal hematopoiesis, not sheets of nucleolated blasts."},
+    {"dx": "Acute monocytic leukemia without erythrophagocytosis", "vs": "Other monocytic AML subtypes have similar blasts but lack prominent phagocytosis and the KAT6A rearrangement."},
+    {"dx": "Metastatic tumor cells in marrow", "vs": "Metastatic cells form cohesive clusters and are cytokeratin or other lineage marker-positive rather than MPO/CD33-positive discohesive blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

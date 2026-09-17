@@ -1,0 +1,21 @@
+{
+  "id": "61516",
+  "recognize_zh": "這是細胞遺傳學圖片而非形態學影像：左側為 G 顯帶中期分裂相，箭頭標示三條 8 號染色體，右側核型圖第 8 對被圈起並有三條，性染色體為 X 與 Y，即 47,XY,+8 的第 8 對三體。",
+  "features": [
+    "Left panel: G-banded metaphase spread with arrows marking three copies of chromosome 8",
+    "Right panel: karyogram with three chromosome 8 homologs (circled) and otherwise paired autosomes",
+    "Sex chromosomes X and Y present, giving a male karyotype of 47 chromosomes",
+    "No structural rearrangement evident at this banding resolution",
+    "Figure header labels the right panel as an interphase cell, but it is actually an arranged karyogram"
+  ],
+  "describe_en": "This figure is a cytogenetic image rather than a morphologic one. The left panel shows a G-banded metaphase with arrows marking three copies of chromosome 8, and the right panel is a karyogram with three chromosome 8 homologs (circled), one X, and one Y, without apparent structural abnormalities; the header mislabels the karyogram as an interphase cell. The findings represent trisomy 8 as a sole abnormality in a clonal population, reported as 47,XY,+8[13]/46,XY[7]. In a patient with MPO-negative AML confirmed by immunophenotyping, trisomy 8 is an intermediate-risk abnormality, and molecular testing should look for co-occurring mutations; constitutional trisomy 8 mosaicism should be excluded if clinically suspected.",
+  "ddx": [
+    {"dx": "Constitutional trisomy 8 mosaicism", "vs": "Constitutional mosaicism is present in PHA-stimulated lymphocytes or skin fibroblasts, whereas acquired +8 is restricted to the myeloid clone."},
+    {"dx": "Trisomy 8 as a secondary abnormality", "vs": "A secondary +8 accompanies recurrent rearrangements such as t(8;21), inv(16), or t(9;22), which are absent in the other analyzed chromosomes here."},
+    {"dx": "Myelodysplastic neoplasm with +8", "vs": "MDS with +8 is distinguished from AML by a blast count below 20% and not by cytogenetics."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding (GTG)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

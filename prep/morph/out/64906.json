@@ -1,0 +1,22 @@
+{
+  "id": "64906",
+  "recognize_zh": "視野中大多是中大型、核圓的母細胞，染色質細緻，許多細胞核的一側有一個淡染的凹陷（杯狀核，cup-like），寬度約佔核的四分之一以上，形似魚嘴，提示伴有 NPM1 或 FLT3 突變的急性骨髓性白血病。",
+  "features": [
+    "Numerous medium to large blasts with high N:C ratio",
+    "Round nuclei with a pale, invaginated clear zone giving a cup-like (fish-mouth) nuclear shape",
+    "Finely dispersed chromatin; nucleoli inconspicuous at this resolution",
+    "Scant to moderate pale basophilic cytoplasm without Auer rods seen",
+    "Background red cells with crenation artifact; no mature granulocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed almost entirely of medium to large blasts. The blasts have high nuclear-to-cytoplasmic ratios, finely dispersed chromatin, and scant pale cytoplasm, and many show a prominent cup-like nuclear invagination occupying a substantial portion of the nucleus. Auer rods and granulocytic maturation are not evident in this field, and red cells show crenation artifact. Findings are consistent with acute myeloid leukemia with cup-like blasts, a morphology associated with NPM1 and FLT3-ITD mutations; flow cytometry (often CD34-negative, HLA-DR-negative) and molecular testing are recommended.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia (microgranular variant)", "vs": "Microgranular APL shows bilobed or butterfly-shaped nuclei with fine granules and occasional Auer rod bundles and requires PML::RARA testing, rather than round nuclei with cup-like invaginations."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts and promonocytes have more abundant gray-blue cytoplasm with folded or convoluted nuclei rather than a discrete clear nuclear cup."},
+    {"dx": "Acute lymphoblastic leukemia with nuclear clefts", "vs": "Lymphoblasts have scant cytoplasm and thin nuclear clefts rather than a broad cup, and flow shows TdT and lymphoid markers without MPO."},
+    {"dx": "Nuclear drying artifact", "vs": "Artifactual clearing is irregular and seen in thick areas, whereas cup-like invaginations are reproducible and involve a large proportion of blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

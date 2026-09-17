@@ -1,0 +1,21 @@
+{
+  "id": "1930",
+  "recognize_zh": "中央一顆小至中型淋巴球，細胞核深染且布滿交錯溝紋，呈腦迴狀（cerebriform），胞質很少；左下角另一顆細胞核折疊呈分葉狀，上方的分葉中性球可作為對照，符合 Sézary 細胞。",
+  "features": [
+    "Central lymphoid cell slightly larger than a red cell with a convoluted, cerebriform nucleus",
+    "Dense, hyperchromatic chromatin with fine grooves and no visible nucleoli",
+    "Scant, barely visible cytoplasm",
+    "Second atypical cell at lower left with a folded, lobulated nucleus",
+    "Segmented neutrophil at top for comparison; normochromic red cells with occasional target cells"
+  ],
+  "describe_en": "Peripheral blood smear shows atypical lymphoid cells with high nuclear-to-cytoplasmic ratios and convoluted, cerebriform nuclei with dense chromatin and fine grooves; nucleoli are not seen. A second atypical cell with a folded, lobulated nucleus is present at the lower left, and a normal segmented neutrophil is seen at the top. Red cells are normochromic with occasional target forms. Findings are consistent with circulating Sezary cells.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells show deeply polylobated flower-like nuclei and are associated with HTLV-1 and hypercalcemia."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells have a prominent nucleolus and cytoplasmic protrusions with TCL1 rearrangement."},
+    {"dx": "Hypersegmented or pseudo-Pelger neutrophil", "vs": "Neutrophils have granular pink cytoplasm and discrete lobes joined by filaments rather than a grooved single nucleus with scant agranular cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

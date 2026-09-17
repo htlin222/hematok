@@ -1,0 +1,23 @@
+{
+  "id": "63538",
+  "recognize_zh": "周邊血液抹片中紅血球偏小、大小形狀不一，箭頭標出數個細長鐮刀狀細胞、標靶細胞（target cells）與一顆有核紅血球（nRBC），合併小球性變化，符合鐮刀型細胞/β+ 地中海貧血。",
+  "features": [
+    "Moderate anisopoikilocytosis with many small red cells",
+    "Scattered elongated sickle cells with pointed ends (arrows)",
+    "Few target cells with central hemoglobin condensation",
+    "Occasional nucleated red blood cell (nRBC)",
+    "Numerous crenated red cells (echinocytes), most likely a drying/storage artifact",
+    "Occasional teardrop-like forms; neutrophils and platelets present"
+  ],
+  "describe_en": "Peripheral blood smear shows moderate anisopoikilocytosis with a population of small red cells. Scattered irreversibly sickled cells, a few target cells, and an occasional nucleated red blood cell are present, along with rare teardrop-like forms. Many red cells show crenation, which is most likely artifactual and should not be over-interpreted; hypochromia is difficult to judge because of this. Findings are consistent with a sickling disorder with microcytic features, supporting compound heterozygous sickle cell/β+ thalassemia; confirmation requires hemoglobin fractionation showing HbS with some HbA, increased HbA2, and variable HbF.",
+  "ddx": [
+    {"dx": "Sickle cell anemia (HbSS)", "vs": "HbSS usually shows more numerous sickle cells with normocytic indices and Howell-Jolly bodies from autosplenectomy, and HbA is absent on electrophoresis, whereas HbS/β+ thal retains some HbA with microcytosis."},
+    {"dx": "Hemoglobin SC disease", "vs": "HbSC shows many target cells and angular SC poikilocytes or HbC crystals with few classic sickle cells, and electrophoresis shows roughly equal HbS and HbC."},
+    {"dx": "Sickle cell trait", "vs": "Sickle trait smears are essentially normal without sickle cells or nucleated red cells."},
+    {"dx": "β-thalassemia intermedia/major", "vs": "β-thalassemia shows microcytosis, target cells, and nRBCs but no sickle cells, and lacks HbS on electrophoresis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

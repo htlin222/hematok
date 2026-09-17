@@ -1,0 +1,22 @@
+{
+  "id": "3024",
+  "recognize_zh": "周邊血抹片中一個小型成熟淋巴球，核染色質濃密成塊，核中央有一道明顯的線狀裂溝把核分成兩半，細胞質只有薄薄一圈淡藍色，這就是核裂淋巴球（clefted lymphocyte）。",
+  "features": [
+    "Small lymphocyte, slightly larger than adjacent RBCs",
+    "High N:C ratio with a thin crescent of pale blue cytoplasm",
+    "Single sharp linear nuclear cleft dividing the nucleus with a notch at the margin",
+    "Dense, coarsely clumped mature chromatin; no nucleoli",
+    "Background RBCs with rouleaux-like overlap; smudged platelet fragment nearby"
+  ],
+  "describe_en": "Peripheral blood smear shows a small mature lymphocyte with scant pale blue cytoplasm and coarsely clumped chromatin. The nucleus has a sharp, deep linear cleft that nearly bisects it, with an indentation at the nuclear margin. No nucleoli or cytoplasmic granules are seen. A single clefted lymphocyte is a nonspecific finding; when numerous, clefted small lymphocytes raise the possibility of leukemic follicular lymphoma, and they may also be seen in CLL/SLL or reactive states such as pertussis, so flow cytometry is required for classification.",
+  "ddx": [
+    {"dx": "Follicular lymphoma, leukemic phase (buttock cell)", "vs": "FL cells are typically deeply cleaved and clonal CD10+/BCL2+ B cells, which cannot be separated from other clefted lymphocytes without flow cytometry."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "Typical CLL cells have round nuclei with block-like chromatin; a clonal CD5+/CD23+ phenotype confirms CLL even if occasional cells are clefted."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL cells show irregular or notched nuclei and are CD5+/CD23-/cyclin D1+, distinguishing them from CLL and FL."},
+    {"dx": "Reactive lymphocytosis of pertussis", "vs": "Pertussis produces polyclonal clefted small lymphocytes in young children with cough, not a clonal B-cell population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

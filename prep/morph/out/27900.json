@@ -1,0 +1,21 @@
+{
+  "id": "27900",
+  "recognize_zh": "皮膚浸潤的單一型態中型腫瘤細胞呈瀰漫、細緻顆粒狀的淡棕色細胞質／膜染色（右下方表皮為陰性對照），代表腫瘤細胞表現所染的造血標記；確切標記名稱未標示，須與其他染色一起判讀是否為骨髓肉瘤。",
+  "features": [
+    "Sheets of monotonous medium-sized cells with oval to slightly irregular nuclei and fine chromatin",
+    "Weak-to-moderate, finely granular cytoplasmic/membranous brown staining in most tumor cells",
+    "Occasional strongly positive single cell",
+    "Overlying epidermis (lower right) negative, serving as internal negative control",
+    "Scattered larger pale cells/histiocytes with little or no staining"
+  ],
+  "describe_en": "Immunohistochemical stain of the dermal infiltrate shows sheets of monotonous medium-sized cells with oval nuclei and fine chromatin, the majority of which display weak-to-moderate, finely granular cytoplasmic and membranous staining; a rare cell stains strongly. The adjacent epidermis is negative. The specific antibody is not indicated in the image, so the stain must be interpreted alongside the rest of the panel. In context, diffuse positivity of the infiltrate with a myeloid-associated marker supports myeloid sarcoma.",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is positive for CD4, CD56, CD123 and TCF4 and negative for MPO and lysozyme."},
+    {"dx": "Cutaneous B- or T-cell lymphoma", "vs": "Lymphoma cells express CD20/PAX5 or CD3 with a lineage-appropriate pattern and lack myeloid markers such as MPO, CD33 and lysozyme."},
+    {"dx": "Reactive histiocytic infiltrate", "vs": "Histiocytes are CD68/CD163-positive with abundant cytoplasm and lack CD34/CD117 and blastic chromatin."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC (marker not specified)",
+  "match": "partial",
+  "high_yield": false
+}

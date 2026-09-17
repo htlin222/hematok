@@ -1,0 +1,21 @@
+{
+  "id": "64363",
+  "recognize_zh": "三格中的吞噬細胞內含一團均質、無染色質紋理的圓形粉紫色物質（蘇木紫小體），把吞噬細胞本身的分葉核擠成新月狀貼在邊緣，這就是 LE 細胞；此圖失焦且染色偏紅，細節有限。",
+  "features": [
+    "Phagocytic cells (neutrophils) each containing a large, round, homogeneous, smooth magenta inclusion without chromatin texture (hematoxylin body)",
+    "Ingested material occupies most of the cell, displacing the phagocyte's nucleus",
+    "Phagocyte nuclear lobes compressed into crescent shapes at the cell periphery",
+    "Adjacent cells with lobated nuclei in the background (upper left panel)",
+    "Composite of three panels; images are out of focus and overstained, limiting fine detail"
+  ],
+  "describe_en": "Peripheral blood preparation, shown as a three-panel composite, contains neutrophils that have engulfed a large, round, homogeneous, structureless magenta inclusion. The inclusion displaces the phagocyte's own nuclear lobes, which are compressed into crescents at the periphery. The images are out of focus and intensely stained, limiting assessment of cytoplasmic detail. Findings are consistent with LE cells, supporting the clinical diagnosis of systemic lupus erythematosus, although serologic testing (ANA, anti-dsDNA) has replaced the LE cell preparation.",
+  "ddx": [
+    {"dx": "Tart cell", "vs": "In a tart cell, usually a monocyte or macrophage, the ingested nucleus keeps visible chromatin structure, whereas an LE cell's hematoxylin body is homogeneous and structureless."},
+    {"dx": "Neutrophil phagocytosing an apoptotic cell or red cell", "vs": "Ingested apoptotic cells show dense pyknotic fragments and ingested red cells stay pale orange-pink, unlike a single large smooth magenta nuclear mass."},
+    {"dx": "Free hematoxylin body / smudge cell", "vs": "A free hematoxylin body lies outside cells and a smudge cell has a spread, lacy chromatin pattern, whereas an LE cell requires intracellular engulfment with nuclear displacement."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61036",
+  "recognize_zh": "淋巴結 CD23 免疫染色中，陽性濾泡樹突細胞（FDC）網絡不是侷限在圓形濾泡內，而是呈不規則、拉長、破碎的條帶散布於濾泡外的副皮質區，這種濾泡外 FDC 擴張是血管免疫母細胞性 T 細胞淋巴瘤（AITL）的特徵線索。",
+  "features": [
+    "CD23-positive dendritic meshworks with a fine reticular/membranous staining pattern",
+    "Meshworks are irregular, elongated and fragmented rather than forming round, well-delimited follicles",
+    "Expanded meshworks extend into interfollicular/paracortical areas, often tracking along vessel-like linear structures",
+    "Background diffuse lymphoid infiltrate is largely CD23-negative (hematoxylin counterstain)",
+    "No intact primary or secondary follicle architecture identifiable at this power"
+  ],
+  "describe_en": "Low-power CD23 immunohistochemistry of a lymph node shows a diffuse lymphoid infiltrate without intact follicles. CD23 highlights multiple irregular, expanded and disrupted follicular dendritic cell meshworks that extend beyond follicular boundaries into the interfollicular areas, in places arranged in elongated, perivascular-appearing bands. The atypical lymphoid cells themselves are CD23-negative. In the appropriate context (TFH-marker-positive T-cell infiltrate, high endothelial venule proliferation), this extrafollicular FDC expansion is consistent with angioimmunoblastic T-cell lymphoma (nodal TFH-cell lymphoma, angioimmunoblastic type).",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive nodes show CD23/CD21 FDC meshworks confined to round, sharply delimited follicles rather than irregular extrafollicular sprawling networks."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS usually lacks expanded extrafollicular FDC meshworks and does not co-express multiple TFH markers (PD-1, CXCL13, ICOS, BCL6, CD10)."},
+    {"dx": "Follicular dendritic cell sarcoma", "vs": "FDC sarcoma forms cohesive sheets/fascicles of spindled-to-ovoid CD21/CD23/CD35-positive tumor cells with nuclear atypia, not delicate dendritic meshworks around a T-cell infiltrate."},
+    {"dx": "Classic Hodgkin lymphoma, mixed cellularity", "vs": "CHL may show residual FDC meshworks but contains CD30+/CD15+ Hodgkin/Reed-Sternberg cells and lacks a TFH-phenotype T-cell population."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD23",
+  "match": "consistent",
+  "high_yield": true
+}

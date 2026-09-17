@@ -1,0 +1,21 @@
+{
+  "id": "61724",
+  "recognize_zh": "這是 live gate 的 HLA-DR 對 CD123 流式圖：綠色異常群 CD123 陽性且 HLA-DR 陽性，形成一大團；左上框內的嗜鹼性球（0.43%）是 CD123 陽性但 HLA-DR 陰性，可作為內部對照，突顯腫瘤群 CD123+/HLA-DR+ 的漿細胞樣樹突細胞表現型。",
+  "features": [
+    "Dot plot: HLADR-PB (x-axis) versus CD123-APC (y-axis), gated on live events",
+    "Large abnormal population (green) co-expressing CD123 and HLA-DR at moderate intensity",
+    "Basophil gate (CD123+/HLA-DR-) at 0.43% serving as internal positive control for CD123",
+    "Major purple population (granulocytes) negative for both markers",
+    "Scattered gray HLA-DR-bright/CD123-dim events consistent with B cells or monocytes"
+  ],
+  "describe_en": "Flow cytometric dot plot of HLA-DR versus CD123 on live events shows a large abnormal population (green) that co-expresses CD123 and HLA-DR. Basophils (0.43%) are identified as CD123-positive/HLA-DR-negative and provide an internal reference, while the granulocytes are negative for both markers. The abnormal population has an HLA-DR+/CD123+ phenotype typical of plasmacytoid dendritic cells, and in the setting of an expanded CD4+/CD56+ blast population lacking lineage markers this supports blastic plasmacytoid dendritic cell neoplasm. Note that the CD123 intensity here is moderate relative to the scale, and CD123 is also expressed on some AML blasts, so the full panel must be integrated.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with CD123 expression", "vs": "Many AMLs are CD123-positive but also express CD34/CD117 and CD13/CD33 and lack coordinated CD4/CD56 with TCF4/TCL1."},
+    {"dx": "Reactive or MN-associated mature plasmacytoid dendritic cell expansion", "vs": "Mature pDC expansions are CD123-bright/HLA-DR+ but CD56-negative, small in number, and accompany an underlying myeloid neoplasm."},
+    {"dx": "Basophilic or mast cell proliferation", "vs": "Basophils are CD123+ but HLA-DR-negative, as shown by the gated population here."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

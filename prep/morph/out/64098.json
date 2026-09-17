@@ -1,0 +1,22 @@
+{
+  "id": "64098",
+  "recognize_zh": "骨髓抹片中一團緊密黏聚（cohesive）的大型非造血細胞，細胞邊界不清呈融合狀、細胞質藍色，並有數個大空泡把細胞核推擠到一側（類似印戒細胞），與周圍散在的造血細胞明顯不同，提示轉移性腺癌（胃癌）。",
+  "features": [
+    "Cohesive three-dimensional cluster of large non-hematopoietic cells with indistinct, syncytial cell borders",
+    "Large nuclei with fine-to-coarse chromatin, some with visible nucleoli, and nuclear size variation",
+    "Moderately abundant basophilic cytoplasm containing large clear mucin-like vacuoles that indent nuclei (signet-ring-like)",
+    "Cluster much larger than surrounding hematopoietic cells; neutrophil and small lymphocyte nearby for scale",
+    "Background of lysed/crenated red cells and proteinaceous material"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a hemodilute background with scattered hematopoietic cells. There is a cohesive cluster of large atypical cells with syncytial borders, enlarged pleomorphic nuclei and basophilic cytoplasm containing large clear vacuoles, some indenting the nuclei in a signet-ring-like fashion. The cells are substantially larger than adjacent neutrophils and lymphocytes and do not resemble any normal marrow element. Findings are consistent with metastatic carcinoma; correlation with the trephine biopsy and immunohistochemistry (cytokeratin, CDX2) supports a gastric primary.",
+  "ddx": [
+    {"dx": "Osteoblast clusters", "vs": "Osteoblasts are round-to-oval cells with eccentric nuclei and a detached perinuclear clearing (hof) arranged in loose rows, not tightly cohesive syncytial clusters with mucin vacuoles."},
+    {"dx": "Megakaryocyte or megakaryocyte clusters", "vs": "Megakaryocytes are single giant cells with a lobulated nucleus and granular pink cytoplasm, not groups of discrete vacuolated nuclei."},
+    {"dx": "Clumped leukemic or lymphoma cells (e.g., ALCL, Burkitt)", "vs": "Hematolymphoid cells may aggregate but lack true cohesion, and are cytokeratin-negative with CD45 or lineage marker expression."},
+    {"dx": "Metastatic small round blue cell tumor (neuroblastoma, rhabdomyosarcoma)", "vs": "These form rosettes or clumps of smaller cells with scant cytoplasm and occur mainly in children, lacking signet-ring mucin vacuoles."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

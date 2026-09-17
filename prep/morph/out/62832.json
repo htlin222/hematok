@@ -1,0 +1,23 @@
+{
+  "id": "62832",
+  "recognize_zh": "拼圖 B 可見一顆明顯增大、帶有大型核內包涵體的細胞（CMV 細胞病變），插圖為 CMV 免疫染色陽性；E 的免疫染色只圈出濾泡周圍的一圈外套區（mantle zone）而中央生發中心陰性，顯示腫瘤細胞侷限於外套區生長——這是外套細胞淋巴瘤外套區型（mantle zone pattern）的線索，容易被 CMV 淋巴結炎的反應性表現掩蓋。",
+  "features": [
+    "Composite of lymph node sections (A–F); antigens for panels C–F are not labeled in the image",
+    "A: low-power H&E lymph node with preserved nodular architecture; inset shows small-to-medium lymphoid cells",
+    "B: high-power H&E with a markedly enlarged cell containing a large amphophilic intranuclear inclusion (CMV cytopathic effect); inset shows an inclusion-bearing cell positive by immunostain",
+    "C: low-power immunostain with diffuse strong staining of most of the node surrounding paler nodules",
+    "D and E: immunostains outlining rings of positive cells around negative follicle centers, i.e., a mantle zone distribution",
+    "F: immunostain with numerous positive cells concentrated in a band around a follicle"
+  ],
+  "describe_en": "Composite lymph node sections show, at low power, a node with preserved follicular/nodular architecture composed of small-to-medium lymphoid cells (A). High power reveals scattered markedly enlarged cells with large intranuclear inclusions consistent with cytomegalovirus cytopathic effect, confirmed by immunostaining of an inclusion-bearing cell (B, inset). Immunohistochemical stains (antigens not labeled in the figure) show positive cells arranged as expanded rings around negative germinal centers, highlighting a mantle zone growth pattern (C–F); confirmation of cyclin D1 or SOX11 positivity in these mantle cells is required to establish the diagnosis. In context, the findings are consistent with mantle cell lymphoma with a mantle zone growth pattern co-occurring with CMV lymphadenitis.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia with CMV lymphadenitis", "vs": "Reactive mantle zones are thin and polytypic and are cyclin D1 and SOX11 negative, whereas neoplastic mantle cells are cyclin D1 positive and light chain restricted."},
+    {"dx": "In situ mantle cell neoplasm", "vs": "In situ mantle cell neoplasm shows cyclin D1-positive cells confined to the inner mantle of otherwise normal-sized mantle zones, rather than expanded mantle zones or nodal effacement."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL cells surround follicles outside the mantle zone and are CD5 and cyclin D1 negative."},
+    {"dx": "Infectious mononucleosis-type or EBV lymphadenitis", "vs": "EBV-associated changes show immunoblasts that are EBER positive without intranuclear viral inclusions, which in this case are CMV positive."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (CMV and unlabeled markers)",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "15143",
+  "recognize_zh": "A 圖梭形細胞增生夾雜紅血球裂隙，LANA 免疫染色核呈點狀陽性，為卡波西肉瘤（Kaposi sarcoma）；B 圖體液細胞抹片中大型細胞核偏心、核仁明顯、細胞質豐富深藍，為原發性滲出性淋巴瘤（PEL）；C 圖淋巴濾泡外套區散布 LANA 陽性漿母細胞，為 HHV8 相關多中心 Castleman 病。",
+  "features": [
+    "A (upper): fascicles of spindle cells with slit-like vascular spaces containing extravasated red cells",
+    "A (lower): nuclear LANA-1 (HHV8) immunostaining in many spindle cell nuclei",
+    "B: cluster of large pleomorphic cells with round to irregular nuclei, prominent nucleoli, abundant basophilic cytoplasm and occasional perinuclear clearing",
+    "C: follicle with numerous LANA-1-positive nuclei concentrated in the mantle zone (inset at higher power)",
+    "Composite of tissue H&E, cytology and IHC from HHV8-related disorders"
+  ],
+  "describe_en": "Composite figure of HHV8-related post-transplant neoplasms. Panel A shows a spindle cell proliferation arranged in fascicles with slit-like vascular spaces and extravasated red cells (H&E), with nuclear HHV8 LANA-1 positivity in the spindle cells (IHC), consistent with Kaposi sarcoma. Panel B is a cytologic preparation of large pleomorphic cells with eccentric round to irregular nuclei, prominent nucleoli and abundant deeply basophilic cytoplasm, with plasmablastic/immunoblastic features consistent with primary effusion lymphoma. Panel C shows a lymphoid follicle with numerous LANA-1-positive plasmablasts in the mantle zone (inset), consistent with HHV8-associated multicentric Castleman disease. Resolution is limited, but the LANA-1 staining pattern is the unifying diagnostic clue across the three entities.",
+  "ddx": [
+    {"dx": "Spindle cell hemangioma or other vascular tumor (vs Kaposi sarcoma)", "vs": "Other vascular and spindle cell lesions are LANA-1 negative, which reliably separates them from Kaposi sarcoma."},
+    {"dx": "Plasmablastic lymphoma (vs PEL)", "vs": "Plasmablastic lymphoma is usually a solid mass that is EBV-positive but HHV8/LANA-1 negative, whereas PEL cells are LANA-1 positive and typically present as effusions."},
+    {"dx": "Idiopathic (HHV8-negative) multicentric Castleman disease", "vs": "iMCD shares regressed germinal centers and plasmacytosis but lacks LANA-1-positive plasmablasts in the mantle zone."},
+    {"dx": "Post-transplant lymphoproliferative disorder (EBV-driven)", "vs": "Conventional PTLD is EBER-positive and HHV8-negative, lacking the nuclear LANA-1 signal."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: HHV8 LANA-1; Wright-Giemsa cytology",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": ["A: Kaposi sarcoma, H&E (upper) and LANA-1 IHC (lower)", "B: Primary effusion lymphoma cells on cytologic preparation", "C: LANA-1-positive plasmablasts in the mantle zone in HHV8-associated MCD (inset: higher power)"]
+}

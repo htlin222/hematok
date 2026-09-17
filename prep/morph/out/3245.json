@@ -1,0 +1,22 @@
+{
+  "id": "3245",
+  "recognize_zh": "密集而單調的淋巴細胞群，核圓、染色質中度濃縮、細胞質淡藍少量；箭頭所指為染色質較粗塊狀的小淋巴球。但多數細胞比典型 CLL 稍大、部分可見核仁，需考慮 prolymphocyte 比例或抹片厚度的影響。",
+  "features": [
+    "Dense, monotonous population of small-to-medium lymphoid cells",
+    "Round to slightly oval nuclei with moderately condensed chromatin",
+    "Some cells with a small but visible nucleolus (prolymphocyte-like)",
+    "Scant to moderate pale-blue cytoplasm",
+    "Arrow marks a small lymphocyte with coarse, clumped chromatin; few smudge cells in this field"
+  ],
+  "describe_en": "Cellular smear shows a dense, monotonous population of lymphoid cells with round nuclei, moderately condensed chromatin and scant to moderate pale-blue cytoplasm. The arrow indicates a small lymphocyte with coarse, block-like chromatin typical of CLL. However, many cells in this field are somewhat larger than classic CLL cells, and some show small visible nucleoli, raising the possibility of increased prolymphocytes or thick-area artifact. The findings are compatible with chronic lymphocytic leukemia, but the prolymphocyte percentage should be enumerated and mantle cell lymphoma excluded by immunophenotyping.",
+  "ddx": [
+    {"dx": "CLL with increased prolymphocytes / prolymphocytic progression", "vs": "Prolymphocytes are larger with a single prominent central nucleolus and more cytoplasm; more than 15% prolymphocytes (CLL/PL) or a predominance suggests progression."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL cells are medium-sized with irregular nuclear contours and are CD23- cyclin D1+ SOX11+, whereas CLL is CD23+ with weak CD20 and surface Ig."},
+    {"dx": "B-prolymphocytic neoplasm / splenic B-cell lymphoma", "vs": "These show bright CD20 and surface Ig, usually CD5-, with a majority of nucleolated cells and massive splenomegaly."},
+    {"dx": "Diffuse large B-cell lymphoma (Richter transformation)", "vs": "Richter cells are large (more than twice a small lymphocyte) with vesicular chromatin and prominent nucleoli, forming sheets rather than a population dominated by small cells."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

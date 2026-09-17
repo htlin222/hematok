@@ -1,0 +1,21 @@
+{
+  "id": "1669",
+  "recognize_zh": "周邊血液中一顆單獨的漿細胞樣細胞：核圓略偏位、染色質塊狀，細胞質量中等、呈顆粒狀藍紫色；背景散在血小板。單一細胞無法確定是否為漿細胞白血病，需計數與流式確認。",
+  "features": [
+    "Single circulating cell of small-to-medium size",
+    "Round, slightly eccentric nucleus with coarsely clumped chromatin",
+    "Moderate rim of basophilic cytoplasm with a finely granular texture",
+    "No distinct perinuclear hof clearly resolved",
+    "Background normocytic red cells and scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a single small-to-medium cell with a round, slightly eccentric nucleus, clumped chromatin and a moderate rim of basophilic cytoplasm; a perinuclear hof is not clearly resolved. Background red cells and platelets are unremarkable. The cell is compatible with a circulating plasma cell, but a single cell cannot distinguish plasma cell leukemia from a plasmacytoid lymphocyte; quantification of circulating plasma cells and flow cytometry for a clonal CD38+/CD138+ population are needed.",
+  "ddx": [
+    {"dx": "Plasmacytoid lymphocyte", "vs": "Has a more central nucleus and less abundant cytoplasm without a Golgi hof; flow cytometry shows CD19/CD20 expression rather than a CD138+ phenotype."},
+    {"dx": "Reactive plasma cell", "vs": "Morphologically identical as a single cell; distinguished by polytypic light-chain expression and low numbers."},
+    {"dx": "Basophilic normoblast", "vs": "An early erythroid precursor has a central round nucleus with finer chromatin and deeply blue agranular cytoplasm, and usually occurs with other nucleated red cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

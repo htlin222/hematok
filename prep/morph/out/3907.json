@@ -1,0 +1,21 @@
+{
+  "id": "3907",
+  "recognize_zh": "周邊血中出現遠大於正常淋巴球的異常大細胞，核形不規則、染色質細緻，胞質嗜鹼性，右上那顆還有許多空泡；中間一顆已破裂成拖尾狀，這種大型脆弱淋巴細胞符合大細胞淋巴瘤的白血病期。",
+  "features": [
+    "Large atypical lymphoid cells several times the size of red cells",
+    "Irregular, angulated nuclei with finely granular to open chromatin",
+    "Moderate deeply basophilic cytoplasm; one cell with numerous cytoplasmic vacuoles",
+    "Fragile cells: one disrupted cell with smeared, streaming chromatin",
+    "Background red cells with target-like central pallor changes and drying artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating large atypical lymphoid cells with irregular, angulated nuclei, finely granular chromatin and a moderate amount of deeply basophilic cytoplasm, one of which contains numerous cytoplasmic vacuoles. A disrupted cell with smeared chromatin reflects cellular fragility. No granules or Auer rods are identified. In the context of a known large B-cell lymphoma, findings are consistent with leukemic involvement, to be confirmed by flow cytometry for a clonal mature B-cell population.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts usually have finer chromatin, less vacuolated cytoplasm and may show granules or Auer rods, and they express CD34/CD117/MPO rather than CD20 and surface light chain."},
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt cells are medium-sized and uniform with deeply basophilic cytoplasm containing lipid vacuoles, and they carry MYC rearrangement with a Ki-67 index near 100%."},
+    {"dx": "Reactive immunoblasts / atypical lymphocytes", "vs": "Reactive lymphocytes form a spectrum with normal lymphocytes and are polyclonal by flow cytometry."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

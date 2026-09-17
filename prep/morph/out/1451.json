@@ -1,0 +1,21 @@
+{
+  "id": "1451",
+  "recognize_zh": "三格組合圖：左為周邊血（紅血球大小不一、偏大）；中為骨髓切片，多個中小型巨核細胞只有單一圓形不分葉的核；右為骨髓抹片，巨核細胞同樣呈單核、偏心的非分葉核；「單葉/低分葉巨核細胞」是 del(5q) MDS 的特徵線索。",
+  "features": [
+    "Composite of peripheral blood, bone marrow biopsy and bone marrow aspirate panels",
+    "Megakaryocytes of small to normal size with single round, non-lobated (monolobated) nuclei",
+    "Megakaryocytes with abundant eosinophilic (biopsy) or basophilic-gray (aspirate) cytoplasm",
+    "Peripheral blood with mild anisocytosis and some large oval red cells; one lymphoid-appearing nucleated cell",
+    "Aspirate background with granulocytic precursors and no obvious excess of blasts"
+  ],
+  "describe_en": "Composite image of peripheral blood, bone marrow biopsy and aspirate. The peripheral blood shows mild anisocytosis with some large oval red cells. The biopsy and aspirate show megakaryocytes of small to normal size with characteristic single round, non-lobated or hypolobated nuclei and abundant cytoplasm, while the aspirate background shows granulocytic precursors without an obvious excess of blasts. Findings are consistent with myelodysplastic neoplasm with isolated del(5q), which requires cytogenetic confirmation.",
+  "ddx": [
+    {"dx": "MDS with multilineage dysplasia", "vs": "This shows separated-nuclei or micromegakaryocytes with dysplasia in other lineages and lacks isolated del(5q) on karyotype."},
+    {"dx": "Essential thrombocythemia", "vs": "ET megakaryocytes are large to giant with hyperlobated staghorn nuclei, the opposite of the monolobated forms here."},
+    {"dx": "Myelodysplastic/myeloproliferative neoplasm with SF3B1 and thrombocytosis", "vs": "This entity has ring sideroblasts on iron stain and large atypical MPN-like megakaryocytes, with SF3B1 mutation rather than del(5q)."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa and H&E",
+  "match": "consistent",
+  "high_yield": true
+}

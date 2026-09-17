@@ -1,0 +1,17 @@
+{
+  "id": "62642",
+  "recognize_zh": "這是流式細胞儀的設門圖（gating plot）：以 CD64 對側向散射（SS INT）將白血球分成顆粒球、單核球、淋巴球三群，是後續用 FLAER 評估 PNH 克隆的前置步驟。",
+  "features": [
+    "Dot plot of CD64-PC5 (x, log) versus side scatter intensity (y, linear) on singlet events",
+    "Granulocyte gate (blue): high side scatter, dim/low CD64",
+    "Monocyte gate (red): intermediate side scatter, bright CD64 (~10^1 decade)",
+    "Lymphocyte gate (dark green): low side scatter, CD64-negative",
+    "Granulocytes are the dominant population; scattered ungated events (light green) and debris near the origin"
+  ],
+  "describe_en": "Flow cytometric gating plot of peripheral blood singlets displayed as CD64 versus side scatter. Granulocytes (high side scatter, CD64 dim), monocytes (intermediate side scatter, CD64 bright) and lymphocytes (low side scatter, CD64 negative) are cleanly separated and gated. This plot is not diagnostic in itself; it defines the granulocyte and monocyte populations on which GPI-linked markers (FLAER, CD24, CD14) are subsequently assessed for a PNH clone, per high-sensitivity PNH testing guidelines.",
+  "ddx": [],
+  "specimen": "flow",
+  "stain": "N/A (flow cytometry: CD64-PC5 vs SSC)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

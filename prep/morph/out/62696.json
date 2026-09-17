@@ -1,0 +1,21 @@
+{
+  "id": "62696",
+  "recognize_zh": "淋巴球 gate 的 CD3 對 CD57 流式圖：綠色 CD3 陰性族群 CD57 均一強陽性（約 10^2），形成緊密團塊；藍色 T 細胞只有部分 CD57 陽性，表示擴增的是 CD57+ NK 細胞。",
+  "features": [
+    "Dot plot gated on lymphocytes: CD3-PC5.5 (x) versus CD57-FITC (y)",
+    "Tight green CD3-negative population with uniformly bright CD57 (~10^1.5 to 10^2)",
+    "Blue CD3-positive T cells mostly CD57 negative with a smaller CD57-positive tail",
+    "Magenta CD3-negative, CD57-negative population (B cells) near origin, with scattered intermediate events",
+    "Homogeneous CD57 intensity on the NK population suggests a mature, restricted NK subset"
+  ],
+  "describe_en": "Flow cytometric dot plot of the lymphocyte gate displays CD3 versus CD57. A prominent, tightly clustered surface CD3-negative population with uniformly bright CD57 expression is present, in addition to CD3-positive T cells that are mostly CD57 negative with a minor CD57-positive subset and a double-negative B-cell population. The expanded homogeneous CD3-negative CD57-positive population represents mature NK cells. Findings are consistent with the reported chronic lymphoproliferative disorder of NK cells.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL shows expansion of CD3-positive, CD8-positive, CD57-positive cells, whereas the CD57-bright population here is CD3 negative."},
+    {"dx": "Reactive NK/LGL lymphocytosis (viral, post-splenectomy, post-transplant)", "vs": "Reactive NK cells show heterogeneous CD57 and polyclonal KIR expression, whereas clonality surrogates (KIR restriction) are needed to support CLPD-NK."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "ANKL cells are usually CD56 bright and CD57 negative, unlike this CD57-bright mature NK population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

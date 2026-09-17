@@ -1,0 +1,23 @@
+{
+  "id": "2042",
+  "recognize_zh": "四顆大型細胞的細胞質塞滿粗大紫紅色顆粒，把核的輪廓都遮住了；右側一顆核呈雙葉、中間凹陷（bilobed / butterfly nucleus），部分細胞有淡藍色細胞質伸出，這是典型顆粒過多型前骨髓細胞（hypergranular promyelocyte）。",
+  "features": [
+    "Large cells, roughly 2-3 times the diameter of adjacent red cells",
+    "Cytoplasm densely packed with coarse purple-red azurophilic granules that obscure nuclear detail",
+    "Nuclear outline visible as bilobed/folded (butterfly-like) in at least one cell",
+    "Some cells show a pale, agranular basophilic cytoplasmic bleb or tail",
+    "No distinct Auer rod bundles (faggot cells) are resolved in this field",
+    "Background of red cells with drying artifact; no mature neutrophils in field"
+  ],
+  "describe_en": "Smear shows several large abnormal cells amid red cells. The cells have abundant cytoplasm so densely packed with coarse azurophilic granules that the nuclear outline is largely obscured; where visible, nuclei are folded to bilobed. A few cells have a pale agranular cytoplasmic protrusion. Auer rod bundles are not clearly resolved in this field. Findings are consistent with abnormal hypergranular promyelocytes of acute promyelocytic leukemia; urgent confirmation of PML::RARA is indicated.",
+  "ddx": [
+    {"dx": "Reactive promyelocytes (e.g., G-CSF effect, marrow recovery)", "vs": "Normal promyelocytes have a round eccentric nucleus with a visible Golgi hof and granules that do not obscure the nucleus, and they occur with orderly maturation rather than as a dominant population."},
+    {"dx": "AML with maturation (t(8;21))", "vs": "Blasts in t(8;21) show fewer granules, a single long Auer rod, perinuclear hof and salmon-colored granules, without the bilobed, granule-obscured nuclei of APL."},
+    {"dx": "Hypogranular (microgranular) APL variant", "vs": "The microgranular variant shows bilobed nuclei with sparse or dust-like granules, whereas these cells are overtly packed with coarse granules; both require PML::RARA confirmation."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have gray-blue cytoplasm with fine granules and delicate folded nuclei with lacy chromatin, and are MPO weak with nonspecific esterase positivity, unlike strongly MPO-positive APL cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

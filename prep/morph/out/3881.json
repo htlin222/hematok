@@ -1,0 +1,22 @@
+{
+  "id": "3881",
+  "recognize_zh": "周邊血中有數顆中型淋巴樣細胞，胞質強嗜鹼性、邊緣可見胞質突起（cytoplasmic blebs），核輪廓不規則、染色質中度凝集；這種帶有胞質泡狀突起的深藍胞質前淋巴球是 T 細胞前淋巴球性白血病（T-PLL）的典型線索。",
+  "features": [
+    "Medium-sized lymphoid cells, slightly larger than small lymphocytes",
+    "Moderate, intensely basophilic cytoplasm with irregular borders and cytoplasmic blebs/protrusions",
+    "Irregular to slightly indented nuclei with moderately condensed chromatin; nucleoli small and not prominent in this field",
+    "Adjacent smudged/disrupted cell",
+    "Background red cells show crenation (echinocytes), likely artifactual"
+  ],
+  "describe_en": "Peripheral blood smear shows several medium-sized atypical lymphoid cells with moderate amounts of intensely basophilic cytoplasm bearing irregular borders and cytoplasmic blebs. Nuclei are irregular to indented with moderately condensed chromatin, and nucleoli are small and not conspicuous in this field. A smudged cell is present, and background erythrocytes show crenation, likely artifactual. Findings are consistent with T-prolymphocytic leukemia; flow cytometry (CD3+, CD7 bright, CD4+ and/or CD8+, CD1a-/TdT-) and demonstration of TCL1A or MTCP1 rearrangement are required for diagnosis.",
+  "ddx": [
+    {"dx": "B-cell prolymphocytic leukemia / CLL with increased prolymphocytes", "vs": "B-prolymphocytes typically have a single prominent central nucleolus and less basophilic cytoplasm without blebs, and express CD19/CD20 rather than CD3/CD7."},
+    {"dx": "Sézary syndrome", "vs": "Sézary cells have cerebriform, deeply grooved nuclei with scant cytoplasm, are CD7- and CD26-, and patients have erythroderma."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells show multilobated flower-shaped nuclei, are CD25+ and HTLV-1-associated."},
+    {"dx": "Reactive (atypical) lymphocytes", "vs": "Reactive lymphocytes are polymorphous with abundant cytoplasm scalloping around red cells and lack a clonal T-cell population."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

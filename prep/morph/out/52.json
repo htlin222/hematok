@@ -1,0 +1,33 @@
+{
+  "id": "52",
+  "recognize_zh": "淋巴結內大型多形性、類 Hodgkin 的細胞成片出現，背景為富含淋巴球與組織球的多形性浸潤並有纖維化。免疫染色顯示大細胞 B 細胞標記強陽性、另有膜狀加 Golgi 點狀染色的標記，還有一個標記幾乎陰性；這種介於 cHL 與 DLBCL 之間的表現型，提示灰區淋巴瘤（gray zone lymphoma）。",
+  "features": [
+    "Diffuse effacement of the node by a polymorphous infiltrate with interstitial fibrosis/collagen bands (lymphomatoid granulomatosis-like cytoarchitecture at low power)",
+    "Sheets and clusters of large pleomorphic cells with vesicular, lobulated nuclei and prominent nucleoli, including Hodgkin-like forms",
+    "Background of small lymphocytes, histiocytes and fibrinoid/necrotic material",
+    "Large cells strongly positive with a membranous marker and a strong nuclear marker (B-cell program retained; markers unlabeled)",
+    "Large cells show membranous plus Golgi/dot staining for a marker (CD15/CD30 pattern), while another stain is nearly negative apart from rare cells",
+    "A membranous stain decorates background small cells with large cells unstained (CD45-variable/T-cell pattern)"
+  ],
+  "describe_en": "Lymph node shows diffuse architectural effacement by a polymorphous infiltrate with bands of fibrosis. At high power there are sheets of large pleomorphic cells with vesicular, irregular to multilobated nuclei and prominent nucleoli, including Hodgkin/Reed-Sternberg-like cells, set in a background of small lymphocytes, histiocytes and fibrinoid debris. Immunohistochemical stains (markers not labeled in the images) show strong membranous and strong nuclear staining of the large cells, indicating a preserved B-cell program, together with membranous and Golgi-pattern staining in a subset, near-absent staining for another marker, and staining of background small cells sparing the large cells. The combination of Hodgkin-like morphology with strong B-cell marker expression and uniform CD15 with weak CD30 (per case data) is consistent with B-cell lymphoma, unclassifiable, with features intermediate between DLBCL and classic Hodgkin lymphoma (mediastinal gray zone lymphoma spectrum).",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma (lymphocyte-depleted or syncytial nodular sclerosis)", "vs": "cHL HRS cells are CD30 strong, CD45-negative and show weak PAX5 with loss of CD20/OCT2/BOB1, whereas here the large cells retain a strong B-cell program and CD30 is weak to negative."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL is usually a monomorphic sheet of CD45+ large B cells without Hodgkin-like cells, CD15 expression or a rich lymphohistiocytic background."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL has scattered single large B cells (fewer than 10%) that are CD15/CD30-negative, not sheets of pleomorphic cells."},
+    {"dx": "EBV-positive DLBCL or lymphomatoid granulomatosis", "vs": "These show angiocentric necrosis with numerous EBER-positive large B cells, so EBER ISH is needed to exclude them."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E, IHC (markers unlabeled)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "IHC (marker unlabeled): membranous and Golgi-dot staining of large Hodgkin-like cells",
+    "Low-power H&E: diffuse polymorphous infiltrate with fibrous bands",
+    "High-power H&E: sheets of large pleomorphic cells with prominent nucleoli",
+    "IHC (marker unlabeled): strong nuclear staining of large cells, B-cell transcription factor pattern",
+    "IHC (marker unlabeled): strong membranous staining of numerous large cells",
+    "IHC (marker unlabeled): large cells essentially negative with rare positive cells",
+    "IHC (marker unlabeled): membranous and paranuclear dot staining in large cells",
+    "IHC (marker unlabeled): staining of background small cells with large cells spared"
+  ]
+}

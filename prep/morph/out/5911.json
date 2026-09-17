@@ -1,0 +1,21 @@
+{
+  "id": "5911",
+  "recognize_zh": "一群異常前骨髓細胞幾乎每顆都有成束、交錯的 Auer 小體（faggot cell），核折疊不規則、細胞質顆粒粗，這樣密集的柴束細胞高度提示急性前骨髓細胞白血病（APL）。",
+  "features": [
+    "Cluster of large abnormal promyelocytes with folded or irregular nuclei",
+    "Moderate N:C ratio with nuclei partly obscured by granules and rods",
+    "Numerous Auer rods in crisscrossing bundles within most cells (faggot cells)",
+    "Abundant cytoplasm with coarse azurophilic granules and a paler peripheral rim",
+    "Background normocytic red cells without mature neutrophils in the field"
+  ],
+  "describe_en": "Smear shows a cluster of large abnormal promyelocytes with irregular folded nuclei and abundant granular cytoplasm. Most cells contain multiple Auer rods arranged in bundles (faggot cells). No maturing granulocytes are present in this field. Findings are consistent with acute promyelocytic leukemia with PML::RARA; this is a medical emergency warranting immediate ATRA and evaluation for DIC while genetic confirmation is pending.",
+  "ddx": [
+    {"dx": "AML with t(8;21); RUNX1::RUNX1T1", "vs": "Blasts in t(8;21) contain single long tapered Auer rods and a perinuclear hof, not multiple bundled rods in hypergranular promyelocytes."},
+    {"dx": "AML with myelodysplasia-related changes", "vs": "Auer rods are usually single and sparse, with multilineage dysplasia in the background rather than sheets of faggot cells."},
+    {"dx": "Reactive left shift with toxic granulation", "vs": "Toxic granulation affects maturing neutrophils with round or segmented nuclei and Döhle bodies, and Auer rods are never present."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

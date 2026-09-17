@@ -1,0 +1,21 @@
+{
+  "id": "1129",
+  "recognize_zh": "髓過氧化酶（MPO）細胞化學染色中，成熟中性球呈黃褐色陽性作為內部對照，而左側的芽細胞仍呈紫色、完全未著色（MPO 陰性），符合 AML 微分化型（M0）的 MPO 陰性芽細胞。",
+  "features": [
+    "Segmented neutrophils with strong diffuse golden-brown cytoplasmic MPO reaction (internal positive control)",
+    "Blast with purple nucleus and cytoplasm lacking any brown granular reaction (MPO-negative)",
+    "Blast of moderate size with round nucleus and high N:C ratio",
+    "Background red cells with counterstain; platelets present"
+  ],
+  "describe_en": "Peripheral blood smear stained for myeloperoxidase shows segmented neutrophils with strong golden-brown cytoplasmic positivity, serving as an internal positive control. A blast in the field shows no cytoplasmic MPO reactivity. Because fewer than 3% of blasts are MPO positive in AML with minimal differentiation, a negative MPO cytochemistry with valid internal controls is expected. Findings are consistent with MPO-negative blasts; myeloid lineage must be established by flow cytometry (e.g., CD13, CD33, CD117, CD34) with exclusion of lymphoid lineage.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL blasts are also MPO negative, so separation requires flow cytometry showing B- or T-lineage markers versus myeloid markers."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts are MPO negative but express CD41/CD61."},
+    {"dx": "Acute monoblastic leukemia", "vs": "Monoblasts can be MPO weak or negative but show strong nonspecific esterase positivity and monocytic markers such as CD14, CD64 and CD36."},
+    {"dx": "AML with maturation", "vs": "In AML with maturation, at least 3% of blasts (usually many) are MPO positive, often with Auer rods."}
+  ],
+  "specimen": "PB",
+  "stain": "MPO",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3718",
+  "recognize_zh": "周邊血液抹片中散布多個有尖角、邊緣筆直的紅血球碎片，包括頭盔細胞（helmet cells）與三角形碎片，另有小而緻密無中央淡染的小球形紅血球，這些就是裂紅血球（schistocytes）。",
+  "features": [
+    "Multiple schistocytes including helmet cells and triangular fragments with sharp angular edges",
+    "Small dense microspherocytes lacking central pallor",
+    "Scattered crenated cells (echinocytes/burr-like forms)",
+    "Occasional larger bluish polychromatophilic red cell",
+    "Background red cells otherwise normocytic and normochromic; no platelets or leukocytes evident in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous schistocytes, including helmet cells and triangular fragments with sharp, straight edges, together with scattered microspherocytes, a few crenated cells and an occasional polychromatophilic cell. The remaining red cells are normocytic and normochromic. Platelets and leukocytes are not seen in this field, so the platelet count must be assessed elsewhere. Findings are consistent with red cell fragmentation, as in microangiopathic hemolytic anemia (TTP, HUS, DIC, malignant hypertension) or mechanical valve hemolysis; urgent correlation with platelet count, LDH, haptoglobin, coagulation studies and ADAMTS13 is recommended.",
+  "ddx": [
+    {"dx": "Bite cells/blister cells (oxidative hemolysis, G6PD deficiency)", "vs": "Show rounded semicircular bites or peripheral hemoglobin-free blisters rather than angular fragments with straight edges."},
+    {"dx": "Hereditary spherocytosis", "vs": "Shows many round microspherocytes without angular helmet or triangular fragments."},
+    {"dx": "Hereditary pyropoikilocytosis", "vs": "Features budding fragments with a background of numerous elliptocytes and markedly low MCV, rather than helmet cells in a normocytic background."},
+    {"dx": "Smear artifact (crenation or drying)", "vs": "Artifactual crenated cells have evenly spaced projections and are regionally distributed, not true fragments with sharp straight cut edges."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

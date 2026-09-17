@@ -1,0 +1,21 @@
+{
+  "id": "1109",
+  "recognize_zh": "骨髓切片免疫組織化學中，許多圓形大細胞呈環狀棕色胞膜/胞質周邊染色、內部淡染（被 Russell bodies 撐大），另有少數小細胞整顆深棕色，對應 Mott 細胞與漿細胞。",
+  "features": [
+    "Numerous large, round cells with ring-like peripheral brown staining and pale central cytoplasm",
+    "Ring-positive cells distended, consistent with Russell body-filled Mott cells",
+    "Scattered smaller plasma cells with intense solid cytoplasmic staining",
+    "Background small lymphoid and hematopoietic cells negative with blue nuclei",
+    "Faint granular interstitial brown staining; interstitial distribution between fat spaces"
+  ],
+  "describe_en": "Immunohistochemical stain of a bone marrow biopsy shows numerous large rounded cells with rim-like peripheral staining and pale, distended centers, along with scattered smaller cells showing strong solid cytoplasmic staining, distributed interstitially between fat spaces. The ring pattern reflects immunoreactivity around cytoplasm distended by Russell bodies, identifying these cells as Mott cells, while the solid positive cells represent ordinary plasma cells. The antibody is not specified; the pattern is compatible with a plasma cell marker such as CD138 or a light chain. Kappa and lambda studies are needed to assess clonality in the setting of marginal zone lymphoma.",
+  "ddx": [
+    {"dx": "Adipocytes or empty spaces mimicking membranous staining", "vs": "Small fat cells lack a nucleus and cytoplasm and show no true brown membrane signal, unlike positive Mott cells."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma shows sheets or large aggregates of monotypic CD138+ plasma cells rather than scattered Mott cells with a lymphoid background."},
+    {"dx": "Storage histiocytes (Gaucher or crystal-storing histiocytosis)", "vs": "Histiocytes are CD68/CD163 positive and plasma cell marker negative, although crystal-storing cells may contain light chain."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (antibody not specified; likely CD138 or light chain)",
+  "match": "consistent",
+  "high_yield": false
+}

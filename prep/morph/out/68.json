@@ -1,0 +1,35 @@
+{
+  "id": "68",
+  "recognize_zh": "骨髓切片可見成片的大型未成熟細胞，核呈卵圓或凹折、染色質細緻、有核仁，取代正常造血；抹片中母細胞（blast）量多，部分細胞質灰藍、核有凹摺，呈單核球樣分化。形態只能判定為急性骨髓性白血病（AML），雙等位 CEBPA 突變需靠分子檢測確認。",
+  "features": [
+    "Hypercellular marrow with sheets of large immature cells effacing normal hematopoiesis (biopsy)",
+    "Blasts with oval to folded/indented nuclei, fine open chromatin, and visible nucleoli",
+    "Aspirate blasts with moderate basophilic to grey-blue cytoplasm, some with perinuclear hof, a subset with monocytoid nuclear folding",
+    "Residual scattered megakaryocytes, including small hypolobated forms, and hemosiderin-laden macrophages",
+    "Peripheral blood shows occasional circulating blast and mature neutrophils with small nuclear appendages; background RBCs with crenation",
+    "No Auer rods, cup-like nuclei, or abnormal promyelocytes evident in these fields"
+  ],
+  "describe_en": "Peripheral blood smear shows occasional circulating blasts with high N:C ratio and deeply basophilic cytoplasm, along with scattered mature neutrophils. The bone marrow core biopsy is hypercellular for age, with interstitial to sheet-like infiltration by large immature mononuclear cells with oval to indented nuclei, vesicular chromatin, and small nucleoli; residual megakaryocytes and hemosiderin-laden macrophages are present. The aspirate smear contains numerous blasts with moderate grey-blue cytoplasm, some showing nuclear folding suggestive of monocytic differentiation; Auer rods are not identified in these fields. Findings are consistent with relapsed acute myeloid leukemia; morphology does not specify the genetic subtype, and the reported biallelic CEBPA mutation requires molecular confirmation.",
+  "ddx": [
+    {"dx": "AML with mutated NPM1", "vs": "NPM1-mutated AML may show cup-like (fish-mouth) nuclear invaginations and often a normal karyotype as well, so separation from CEBPA-mutated AML requires molecular testing or aberrant cytoplasmic NPM1 immunostaining."},
+    {"dx": "Acute monocytic/myelomonocytic leukemia (AML, NOS)", "vs": "Monocytic features overlap, but the diagnosis of a genetically defined entity rests on detecting biallelic CEBPA (bZIP) mutation rather than on nuclear folding or nonspecific esterase alone."},
+    {"dx": "Post-transplant regenerating marrow with left shift", "vs": "Regeneration shows orderly maturation with promyelocytes and myelocytes outnumbering blasts, whereas here sheets of blasts efface the marrow and blasts are numerous on the aspirate."},
+    {"dx": "Therapy-related myeloid neoplasm/MDS with excess blasts", "vs": "MDS-EB has <20% blasts with prominent multilineage dysplasia, whereas the aspirate here is dominated by blasts exceeding the AML threshold."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa (PB, aspirate); H&E (core biopsy)",
+  "match": "partial",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood: circulating blast with deeply basophilic cytoplasm",
+    "Peripheral blood: two mature neutrophils, one with small nuclear appendages",
+    "Peripheral blood: granulated leukocyte with folded nucleus",
+    "Core biopsy, low power: hypercellular marrow with diffuse immature infiltrate",
+    "Core biopsy, medium power: sheets of blasts with hemosiderin-laden macrophages",
+    "Core biopsy, high power: blasts with vesicular chromatin and nucleoli",
+    "Core biopsy, high power: paratrabecular blast infiltrate",
+    "Core biopsy, high power: blasts with a small hypolobated megakaryocyte",
+    "Aspirate: numerous blasts with basophilic cytoplasm",
+    "Aspirate: blasts with grey-blue cytoplasm and folded nuclei (monocytoid features)"
+  ]
+}

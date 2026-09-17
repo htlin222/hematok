@@ -1,0 +1,22 @@
+{
+  "id": "61989",
+  "recognize_zh": "數位影像拼圖（標示 Lymphocyte, variant form）中的淋巴球體積大，細胞質豐富、淡藍到灰藍色，邊緣較深藍並貼合周圍紅血球（scalloping），部分含少量嗜天青顆粒，核形不規則；形態各異的活化淋巴球是傳染性單核球增多症的典型血片表現。",
+  "features": [
+    "Large lymphocytes, 2-3 times the diameter of a red cell, with low to moderate N:C ratio",
+    "Abundant pale gray-blue cytoplasm with deeper basophilia at the periphery, scalloping around adjacent red cells",
+    "Round, oval, indented or kidney-shaped nuclei with moderately condensed chromatin; nucleoli inconspicuous",
+    "Some cells contain scattered azurophilic granules",
+    "Occasional plasmacytoid cell with dense chromatin and basophilic cytoplasm",
+    "Heterogeneous morphology across cells, favoring a reactive rather than monotonous population"
+  ],
+  "describe_en": "Peripheral blood smear gallery (automated digital morphology, 'Lymphocyte, variant form') shows numerous large activated lymphocytes with abundant pale gray-blue cytoplasm that shows peripheral basophilia and indents around adjacent red cells. Nuclei are round to irregular or indented with moderately condensed chromatin and inconspicuous nucleoli; several cells contain sparse azurophilic granules, and occasional plasmacytoid forms are present. The cells are heterogeneous in size and shape, and no blasts are identified. Findings are consistent with reactive (variant) lymphocytosis, as seen in infectious mononucleosis; correlation with heterophile antibody or EBV serology is recommended.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "LGL leukemia shows a monotonous population of medium-sized cells with round nuclei and discrete coarse azurophilic granules, without the heterogeneous, scalloping basophilic cytoplasm of reactive lymphocytes, and requires clonal T-cell studies."},
+    {"dx": "Acute leukemia (blasts)", "vs": "Blasts have fine open chromatin, visible nucleoli and a high N:C ratio, whereas these cells have condensed chromatin and abundant cytoplasm."},
+    {"dx": "B-cell lymphoma in leukemic phase", "vs": "Lymphoma cells are monotonous with similar nuclear irregularity across cells and show light-chain restriction by flow cytometry, unlike the spectrum of reactive forms."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

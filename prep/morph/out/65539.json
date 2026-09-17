@@ -1,0 +1,22 @@
+{
+  "id": "65539",
+  "recognize_zh": "六格組合圖：A–C 的 H&E 顯示皮下脂肪小葉被淋巴細胞浸潤，細胞沿著脂肪細胞邊緣排成環狀（rimming），B 圖可見混雜漿細胞；D、E 的 CD7 與 CD2 在圍繞脂肪的 T 細胞上仍保持陽性（沒有 pan-T 抗原喪失）；F 的 CD123 可見成團的漿細胞樣樹突細胞。漿細胞多、CD123+ pDC 聚集、T 細胞無異常，支持紅斑性狼瘡脂膜炎（lupus panniculitis），而非 SPTCL。",
+  "features": [
+    "Panel A (H&E, low power): lobular panniculitis with a dense lymphoid infiltrate throughout subcutaneous fat",
+    "Panels B–C (H&E): small to medium lymphocytes rimming adipocytes, admixed plasma cells, without marked cytologic atypia",
+    "Panels D–E (IHC): rimming T cells retain CD7 and CD2 (no pan-T-cell antigen loss)",
+    "Panel F (IHC CD123): clustered aggregates of CD123-positive plasmacytoid dendritic cells, highlighted in the inset",
+    "No obvious karyorrhectic necrosis or large atypical cells evident at this resolution"
+  ],
+  "describe_en": "Composite of subcutaneous tissue biopsy. H&E sections show a lobular panniculitis with a dense lymphoid infiltrate that rims individual adipocytes, accompanied by scattered plasma cells; the lymphocytes are small to medium without striking atypia. Immunohistochemistry shows that the rimming T cells retain CD7 and CD2, without pan-T-cell antigen loss, and CD123 highlights clustered aggregates of plasmacytoid dendritic cells. The combination of plasma cells, CD123-positive pDC clusters and a non-aberrant T-cell phenotype favors lupus erythematosus panniculitis over subcutaneous panniculitis-like T-cell lymphoma.",
+  "ddx": [
+    {"dx": "Subcutaneous panniculitis-like T-cell lymphoma", "vs": "SPTCL shows atypical CD8+/TIA-1+/βF1+ T cells rimming adipocytes with high Ki-67 rim, frequent loss of CD5/CD7, few plasma cells and absent CD123+ pDC clusters."},
+    {"dx": "Primary cutaneous γδ T-cell lymphoma", "vs": "γδ lymphoma involves dermis and epidermis as well as fat, is TCRγ positive and CD4/CD8 double negative, and shows angioinvasion and necrosis."},
+    {"dx": "Erythema nodosum and other septal panniculitis", "vs": "Erythema nodosum is predominantly septal with Miescher granulomas rather than a dense lobular lymphoid infiltrate rimming adipocytes."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN shows sheets of monotonous CD4+/CD56+/CD123+ blasts in the dermis, not small reactive pDC clusters within a mixed lymphoplasmacytic infiltrate."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD7, CD2, CD123",
+  "match": "consistent",
+  "high_yield": false
+}

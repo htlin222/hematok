@@ -1,0 +1,22 @@
+{
+  "id": "61502",
+  "recognize_zh": "四格合成圖：A、B 周邊血液各見一個核質比高的淋巴球（A 較大、類似母細胞），C 為骨髓抹片中一個巨噬細胞塞滿大量細小的點狀胞內小體（Leishman-Donovan bodies，無鞭毛體），D 為富含細胞的骨髓切片；胞內滿佈小體的巨噬細胞是內臟利什曼病的關鍵。",
+  "features": [
+    "Panel A: peripheral blood lymphoid cell with a high N:C ratio and moderately basophilic cytoplasm, blast-like at this resolution",
+    "Panel B: small mature-appearing lymphocyte with dense chromatin",
+    "Panel C: marrow macrophage packed with numerous small round intracellular bodies consistent with amastigotes",
+    "Panel D: hypercellular bone marrow biopsy with sheets of mixed hematopoietic and histiocytic cells",
+    "Low image resolution precludes visualization of the amastigote nucleus and rod-shaped kinetoplast"
+  ],
+  "describe_en": "This composite figure shows peripheral blood smears (A-B), a bone marrow aspirate (C), and a bone marrow biopsy (D). The blood smears contain lymphoid cells with high nuclear-to-cytoplasmic ratios, one of which appears blast-like, but low resolution limits assessment of chromatin and nucleoli. The aspirate shows a macrophage distended by numerous small, round intracellular bodies, and the biopsy is hypercellular. Although the characteristic amastigote nucleus and kinetoplast cannot be resolved at this magnification, findings are suggestive of visceral leishmaniasis, to be confirmed by higher-power review, rK39 serology, culture, or PCR; the blast-like lymphocytes should not be mistaken for acute leukemia without flow cytometry.",
+  "ddx": [
+    {"dx": "Histoplasmosis", "vs": "Histoplasma yeasts are slightly larger, have a clear halo, and lack a kinetoplast, and they are GMS and PAS positive, whereas Leishmania amastigotes are GMS negative."},
+    {"dx": "Toxoplasma or Trypanosoma cruzi amastigotes", "vs": "T. cruzi amastigotes have a kinetoplast but are found in muscle or heart rather than marrow macrophages, and Toxoplasma lacks a kinetoplast."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH macrophages contain engulfed red cells, platelets, or nucleated cells rather than uniform small organisms."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "True lymphoblasts are TdT+/CD34+ by flow cytometry and increased in the marrow, whereas reactive blast-like lymphocytes are mature and polyclonal."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E",
+  "match": "consistent",
+  "high_yield": true
+}

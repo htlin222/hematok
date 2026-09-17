@@ -1,0 +1,20 @@
+{
+  "id": "62934",
+  "recognize_zh": "這是血球計數儀的報表比較：室溫時白血球 11.0 且分類欄位全顯示「:::::」、散佈圖左下有雜訊團；37°C 孵育 30 分鐘後白血球升到 17.5 並恢復五分類，提示嗜中性球凝集造成假性白血球偏低。",
+  "features": [
+    "Room-temperature run: WBC 11.0 x10^3/uL with all differential parameters suppressed (':::::') and NRBC flag",
+    "Room-temperature scattergram: abnormal dense events in the lower-left region (arrow) with a poorly separated neutrophil cluster",
+    "Post-incubation run (37 °C, 30 min): WBC 17.5 x10^3/uL with full differential (NE 65.5%, LY 29.1%)",
+    "Post-incubation WBC histogram shows a restored broad granulocyte peak at ~150–300 fL and a well-defined neutrophil cluster on the scattergram"
+  ],
+  "describe_en": "This figure compares automated hematology analyzer outputs from the same EDTA sample before and after warming. At room temperature, the WBC count is 11.0 x10^3/uL, the differential is suppressed, and the scattergram shows aberrant events in the low region with poor separation of the neutrophil population, while the histogram granulocyte peak is flattened. After incubation at 37 °C for 30 minutes, the WBC count rises to 17.5 x10^3/uL with a complete differential (neutrophils 11.5 x10^3/uL) and a distinct neutrophil cluster. The pattern indicates that neutrophil aggregates were not counted as individual cells at room temperature, consistent with in vitro neutrophil agglutination causing spurious leukopenia and differential failure.",
+  "ddx": [
+    {"dx": "EDTA-dependent pseudothrombocytopenia", "vs": "Platelet clumps lower the platelet count and may slightly raise the WBC count, whereas here the WBC count and differential are affected and correct on warming."},
+    {"dx": "Cold agglutinin interference", "vs": "Red cell agglutination at room temperature causes falsely high MCV/MCHC and low RBC count, not suppression of the WBC differential."},
+    {"dx": "Nucleated red cells or lyse-resistant RBCs", "vs": "These produce spurious events near the lymphocyte region but do not resolve with 37 °C incubation."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

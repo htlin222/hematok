@@ -1,0 +1,21 @@
+{
+  "id": "62673",
+  "recognize_zh": "低倍下可見大量密集、形狀相近的濾泡，濾泡內細胞核呈 BCL6 棕色陽性，濾泡間區則大多陰性，勾勒出背靠背（back-to-back）的濾泡結構，符合濾泡性淋巴瘤（follicular lymphoma）的生發中心表現型。",
+  "features": [
+    "Numerous closely packed, variably sized nodules effacing the nodal architecture at low power",
+    "Nuclear BCL6 positivity concentrated within the nodules (germinal center B-cell phenotype)",
+    "Interfollicular zones largely BCL6-negative with scattered positive cells",
+    "Follicles lack a distinct mantle-zone rim and show little size/shape variation, some confluent",
+    "Weaker staining pale areas within some follicles"
+  ],
+  "describe_en": "Low-power BCL6 immunohistochemistry of a lymph node shows effacement of the architecture by numerous crowded, back-to-back neoplastic follicles. The follicles show nuclear BCL6 expression, while the intervening interfollicular tissue is largely negative, highlighting the nodular pattern. Staining supports a germinal center B-cell derivation of the follicles; distinction from reactive follicles requires BCL2 co-expression and architectural/cytologic correlation. Findings are consistent with follicular lymphoma in the appropriate context.",
+  "ddx": [
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive follicles are BCL6-positive too but are well separated, vary in size and shape, have polarized germinal centers with tingible-body macrophages and are BCL2-negative."},
+    {"dx": "Nodal marginal zone lymphoma with follicular colonization", "vs": "Marginal zone cells are BCL6-negative, so BCL6 staining is confined to residual colonized germinal centers rather than filling the entire nodule."},
+    {"dx": "Mantle cell lymphoma, nodular pattern", "vs": "Mantle cell lymphoma nodules are BCL6-negative and cyclin D1/SOX11-positive."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: BCL6",
+  "match": "consistent",
+  "high_yield": false
+}

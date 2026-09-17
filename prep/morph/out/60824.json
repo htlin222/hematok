@@ -1,0 +1,20 @@
+{
+  "id": "60824",
+  "recognize_zh": "Oct-2 為核染色：大型、核型不規則的腫瘤細胞呈強而均勻的棕色核陽性，周圍小細胞多為陰性；大細胞保留 B 細胞轉錄因子，與典型何杰金 RS 細胞常失去 Oct-2 不同，支持灰區淋巴瘤。",
+  "features": [
+    "Strong nuclear Oct-2 staining in numerous large cells with irregular, lobated or folded nuclei",
+    "Positive cells arranged in dense clusters and bands",
+    "Uniform staining intensity across the large cell population",
+    "Background small lymphocytes and stromal/histiocytic nuclei largely negative (blue hematoxylin counterstain)"
+  ],
+  "describe_en": "Oct-2 immunohistochemistry shows strong, uniform nuclear staining in the large atypical cells, which have irregular lobated nuclei and are arranged in clusters and bands, whereas the background small cells and stromal nuclei are negative. Preservation of this B-cell transcription factor in Hodgkin-like large cells argues against classic Hodgkin lymphoma and, together with CD15 positivity and variable CD20, supports a B-cell lymphoma with features intermediate between diffuse large B-cell lymphoma and classic Hodgkin lymphoma.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells show absent or weak Oct-2 and/or BOB.1 expression in most cases, unlike the strong uniform nuclear staining here."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "LP cells are also strongly Oct-2+ but are CD15/CD30-negative and embedded in follicular dendritic cell meshworks with T-cell rosettes."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL is Oct-2 positive as well but consists of monotonous CD20-strong, CD23+/MAL+ cells without CD15 expression."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: Oct-2",
+  "match": "consistent",
+  "high_yield": false
+}

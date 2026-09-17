@@ -1,0 +1,21 @@
+{
+  "id": "3775",
+  "recognize_zh": "這是免疫組化染色：許多中至大型細胞呈棕色細胞膜陽性，散布在大量陰性小淋巴球之間；圖上未標示抗體，需對照 CD20／CD3 等染色判讀 T 細胞／組織球豐富型大 B 細胞淋巴瘤中大細胞與背景細胞的免疫表型。",
+  "features": [
+    "Immunohistochemical stain with crisp brown membranous (ring-like) staining",
+    "Positive cells are numerous, dispersed singly and in small groups, and are intermediate to large with pale nuclei",
+    "Background of many negative small round lymphoid nuclei counterstained blue",
+    "No sheets of positive large cells",
+    "Specific antibody not indicated in the image"
+  ],
+  "describe_en": "Immunohistochemical stain on a lymph node section shows membranous staining of numerous dispersed intermediate-to-large cells, set against a background of negative small lymphocytes. The positive cells are distributed singly and in small loose groups without forming sheets. Because the antibody is not labeled, the precise interpretation is limited: in T-cell/histiocyte-rich large B-cell lymphoma, CD20 or PAX5 would highlight the scattered large neoplastic B cells, whereas CD3 would highlight the predominant background T cells. Findings should be interpreted together with the H&E and the full immunohistochemical panel.",
+  "ddx": [
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "In NLPHL, CD20 highlights nodules of small background B cells with CD21+ FDC meshworks, and PD-1+ T cells rosette the LP cells."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are CD30+ and CD15+ with CD20 negative or weak and heterogeneous, unlike uniformly CD20+ large B cells."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "In PTCL the atypical intermediate-to-large cells themselves are CD3+ and CD20-, often with aberrant loss of pan-T antigens."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (membranous)",
+  "match": "partial",
+  "high_yield": false
+}

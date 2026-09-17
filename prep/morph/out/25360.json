@@ -1,0 +1,22 @@
+{
+  "id": "25360",
+  "recognize_zh": "血片中大量中大型、胞質深嗜鹼性的異常淋巴細胞，組織切片呈片狀中大型細胞並見分裂象；FISH 分別顯示 MYC 斷裂分離與 MYC/IGH 融合、IGH/BCL2 融合及 BCL6 斷裂，證實為 MYC、BCL2、BCL6 三重重排的高惡性度 B 細胞淋巴瘤。",
+  "features": [
+    "Blood/aspirate smear with numerous medium-to-large atypical lymphoid cells with high N:C ratio, fine chromatin and deeply basophilic cytoplasm",
+    "Tissue H&E with diffuse sheets of medium-to-large cells with vesicular nuclei, small nucleoli and mitotic figures",
+    "FISH: MYC break-apart probe showing split orange and green signals",
+    "FISH: MYC/IGH dual-fusion and IGH/BCL2 dual-fusion probes showing fusion signals (arrows)",
+    "FISH: BCL6 break-apart probe showing split signals"
+  ],
+  "describe_en": "Peripheral smear shows a leukemic population of medium-to-large atypical lymphoid cells with high N:C ratios, finely dispersed chromatin and deeply basophilic cytoplasm. The tissue section shows a diffuse infiltrate of medium-to-large cells with vesicular nuclei, small nucleoli and frequent mitoses. Interphase FISH demonstrates MYC rearrangement (break-apart split and MYC::IGH fusion), IGH::BCL2 fusion and BCL6 rearrangement. In a patient with prior follicular lymphoma, findings are consistent with transformation to high-grade B-cell lymphoma with MYC, BCL2 and BCL6 rearrangements (triple-hit), presenting in leukemic phase.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma/leukemia", "vs": "Burkitt shows MYC rearrangement without BCL2 rearrangement and uniformly vacuolated medium-sized cells; FISH for BCL2 separates them."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "Lymphoblasts are TdT positive and surface immunoglobulin negative, whereas this lymphoma is TdT negative mature B-cell with BCL2 rearrangement."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "Morphology may overlap, and only FISH absence of concurrent MYC and BCL2 rearrangement defines DLBCL NOS."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is cyclin D1/SOX11 positive with t(11;14) rather than MYC/BCL2 rearrangements."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E; FISH",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64115",
+  "recognize_zh": "骨髓抹片左側一顆大型組織球，胞質豐富呈泡沫狀、邊緣不規則，裡面包著數顆完整的分葉顆粒球，其中一顆外圍有透明暈圈（在吞噬泡內）；組織球吞噬完整的造血細胞，是 HLH 的噬血現象（hemophagocytosis）。",
+  "features": [
+    "Large histiocyte with abundant, finely vacuolated, irregularly bordered cytoplasm",
+    "Several intact segmented granulocytes engulfed within the cytoplasm, one surrounded by a clear phagocytic halo",
+    "Engulfed cells retain recognizable nuclear lobation, indicating recent phagocytosis",
+    "Adjacent smudged/degenerating cell and an immature granulocytic cell with basophilic cytoplasm",
+    "Background of red cells in a thick area of the smear"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large histiocyte with abundant, finely vacuolated cytoplasm containing several intact, engulfed segmented granulocytes, one lying within a clear phagocytic vacuole. Adjacent are a degenerating smudged cell and an immature granulocytic precursor. The finding represents hemophagocytosis. Hemophagocytosis in marrow is supportive but neither sensitive nor specific for hemophagocytic lymphohistiocytosis, so the diagnosis requires the clinical and laboratory criteria (HLH-2004 or HScore), such as fever, cytopenias, ferritin, triglycerides, fibrinogen, and soluble CD25.",
+  "ddx": [
+    {"dx": "Nonspecific hemophagocytosis after transfusion, infection, or chemotherapy", "vs": "Occasional hemophagocytic histiocytes are morphologically identical and common in stressed marrow; HLH requires fulfilling clinical/laboratory criteria."},
+    {"dx": "Neutrophil-engulfing macrophage vs. phagocytosis of apoptotic debris", "vs": "Tingible-body macrophages contain fragmented nuclear debris rather than whole intact cells as seen here."},
+    {"dx": "Cell overlap artifact", "vs": "Overlapping cells lie in a different focal plane without a surrounding clear vacuole, whereas engulfed cells here sit within the histiocyte cytoplasm with a halo."},
+    {"dx": "Malignant histiocytosis / histiocytic sarcoma", "vs": "Histiocytic sarcoma shows sheets of cytologically atypical histiocytes with pleomorphic nuclei rather than a bland histiocyte with benign-appearing phagocytosed cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

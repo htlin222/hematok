@@ -1,0 +1,22 @@
+{
+  "id": "61475",
+  "recognize_zh": "CD30 免疫染色中，少數大型細胞呈細胞膜與細胞質棕色陽性，並在核旁出現濃縮的點狀高爾基體（Golgi）染色，部分為雙核／分葉核的 Hodgkin/Reed-Sternberg 細胞；周圍大量小淋巴球為陰性（藍色），符合典型何杰金氏淋巴瘤。",
+  "features": [
+    "Scattered large cells with strong membranous and cytoplasmic CD30 staining",
+    "Distinct paranuclear dot-like (Golgi) accentuation of CD30 in several positive cells",
+    "Positive cells include binucleate/bilobed forms consistent with Hodgkin/Reed-Sternberg cells",
+    "Some positive cells show pericellular clearing, consistent with lacunar cells",
+    "Background small-to-medium lymphocytes and histiocytes are CD30 negative"
+  ],
+  "describe_en": "CD30 immunohistochemistry on a lymph node shows scattered large neoplastic cells with strong membranous and cytoplasmic staining and conspicuous paranuclear dot-like Golgi accentuation. Several positive cells are binucleate or have bilobed nuclei, and some are surrounded by clear lacunar spaces. The background small lymphocytes and histiocytes are negative. Findings support Hodgkin/Reed-Sternberg cells of classical Hodgkin lymphoma, to be interpreted with CD15 positivity, weak PAX5 and negative CD45/CD20 staining.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL shows uniform strong CD30 in cohesive sheets or sinusoids with T-cell markers or ALK positivity, rather than scattered HRS cells in a negative background."},
+    {"dx": "Reactive CD30+ immunoblasts (e.g., EBV infection)", "vs": "Activated immunoblasts are CD30+ but are smaller, mononuclear, CD45/CD20 positive and CD15 negative."},
+    {"dx": "Nodular lymphocyte-predominant Hodgkin lymphoma", "vs": "LP (popcorn) cells are CD30 and CD15 negative and strongly CD20/OCT2/BOB1 positive."},
+    {"dx": "Primary mediastinal large B-cell lymphoma", "vs": "PMBL CD30 is weak and heterogeneous in sheets of CD20-positive large B cells with sclerosis, lacking the Golgi-dot pattern in isolated HRS cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "3533",
+  "recognize_zh": "周邊血液中出現一個小型、核深染致密、只有少量羽毛狀細胞質的細胞，周圍附著多個血小板碎片，這是循環中的小型巨核細胞（或裸核）；在治療相關骨髓腫瘤中提示骨髓異常。",
+  "features": [
+    "Small cell about the size of a lymphocyte with dense, darkly staining, coarsely clumped nucleus",
+    "Scant pale, wispy cytoplasm with attached platelet fragments budding at the periphery",
+    "Several adjacent platelet-like granular fragments clustered around the cell",
+    "Background red cells with mild anisocytosis, a few target cells, and occasional fine RBC inclusions"
+  ],
+  "describe_en": "Peripheral blood smear shows a small cell with a dense, darkly staining nucleus and a scant rim of pale, frayed cytoplasm with attached granular platelet fragments, consistent with a circulating micromegakaryocyte or megakaryocyte nucleus shedding platelets. The red cells show mild anisocytosis with occasional target cells. Circulating megakaryocytes or their fragments are an abnormal finding in adults and, in the setting of prior cytotoxic therapy, are suggestive of a therapy-related myeloid neoplasm; bone marrow examination is recommended.",
+  "ddx": [
+    {"dx": "Lymphocyte with platelet satellitism", "vs": "Satellitism involves platelets around neutrophils rather than lymphocytes, and a lymphocyte shows a defined cytoplasmic rim without budding platelet cytoplasm."},
+    {"dx": "Nucleated red blood cell", "vs": "An nRBC has a round pyknotic nucleus with a well-defined orange-pink hemoglobinized cytoplasm, not granular platelet-forming cytoplasm."},
+    {"dx": "Megakaryoblast", "vs": "Megakaryoblasts have fine chromatin and nucleoli with blebbed agranular cytoplasm, unlike the dense chromatin of this mature small megakaryocyte."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

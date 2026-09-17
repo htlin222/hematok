@@ -1,0 +1,22 @@
+{
+  "id": "62325",
+  "recognize_zh": "周邊血抹片中許多紅血球邊緣有半圓形缺口（咬痕細胞 bite cell），部分紅血球血紅素偏向一側、另一側淡染或呈水泡狀，還有少數不規則收縮的細胞，旁邊一顆正常嗜中性球作大小對照，是氧化性溶血的表現。",
+  "features": [
+    "Numerous bite cells (keratocyte-like red cells with one or more semicircular peripheral defects)",
+    "Occasional blister cells / hemighost-like cells with hemoglobin retracted to one side",
+    "Scattered helmet-shaped and irregularly contracted dense red cells",
+    "Some larger, slightly grayer red cells suggesting polychromasia",
+    "Normal-appearing segmented neutrophil; platelets present, no schistocyte-predominant picture"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous bite cells with semicircular peripheral defects, along with occasional blister cells in which hemoglobin is retracted to one side, helmet-shaped forms and irregularly contracted red cells. Scattered larger, slightly bluish red cells suggest polychromasia. A morphologically normal segmented neutrophil is present, and platelets are seen. Findings are consistent with oxidative hemolysis, such as G6PD deficiency or oxidant drug exposure; a supravital stain for Heinz bodies and G6PD assay (after the acute episode) are recommended.",
+  "ddx": [
+    {"dx": "Microangiopathic hemolytic anemia (TTP/DIC)", "vs": "MAHA shows predominant fragmented schistocytes (triangles, helmets, microspherocytes) with thrombocytopenia, rather than bite and blister cells with hemoglobin retraction."},
+    {"dx": "Hereditary spherocytosis / warm autoimmune hemolytic anemia", "vs": "Spherocytic hemolysis shows round dense cells lacking central pallor without bite defects or eccentric hemoglobin, and AIHA is DAT-positive."},
+    {"dx": "Unstable hemoglobin disease", "vs": "Unstable hemoglobins also cause Heinz bodies and bite cells, so hemoglobin electrophoresis/isopropanol stability testing with a normal G6PD level separates them."},
+    {"dx": "Smear artifact (crenation or drying)", "vs": "Artifact produces crenated or refractile cells uniformly in one area of the smear, not true semicircular bites with eccentric hemoglobin distribution."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

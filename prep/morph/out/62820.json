@@ -1,0 +1,23 @@
+{
+  "id": "62820",
+  "recognize_zh": "骨髓核心切片高倍 H&E 中，片狀、鬆散排列的細胞核偏位、胞質豐富嗜酸至淡粉紅，看似漿細胞；但核較大、部分可見小核仁，有些胞質出現透明空泡，左上角有疑似標靶狀黏液空泡（targetoid mucin），這些不像漿細胞的線索提示為漿細胞樣轉移性癌。",
+  "features": [
+    "Sheets of discohesive medium-to-large cells replacing the marrow, with interspersed red cells",
+    "Eccentrically placed round-to-oval nuclei with vesicular to granular chromatin and occasional small nucleoli",
+    "Abundant eosinophilic to amphophilic cytoplasm with distinct cell borders (plasmacytoid appearance)",
+    "Scattered intracytoplasmic clear vacuoles; a possible targetoid mucin vacuole in the upper left",
+    "Mild nuclear pleomorphism; no perinuclear hof or clock-face chromatin evident",
+    "Rare fat spaces and residual small hematopoietic cells"
+  ],
+  "describe_en": "H&E-stained bone marrow core biopsy shows diffuse replacement by sheets of discohesive medium-to-large cells with eccentric round-to-oval nuclei, occasional small nucleoli, and abundant eosinophilic cytoplasm with distinct borders, producing a plasmacytoid appearance. Scattered intracytoplasmic clear vacuoles are present, including a possible targetoid mucin vacuole, and mild nuclear pleomorphism is seen without clock-face chromatin or perinuclear hofs. Residual hematopoiesis is scant. Although the cells mimic plasma cells, the vacuoles raise concern for a plasmacytoid carcinoma, and immunohistochemistry supported metastatic lobular breast carcinoma.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma cells have clock-face chromatin, a perinuclear hof and kappa or lambda restriction, and they lack intracytoplasmic mucin vacuoles."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma may be plasmacytoid with prominent nucleoli but is SOX10/S100 positive and lacks mucin vacuoles."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic cells have large central nucleoli, frequent mitoses and are CD138/MUM1 positive with light chain restriction, and are keratin negative."},
+    {"dx": "Mast cell or histiocytic proliferation", "vs": "These cells are CD117/tryptase or CD163/CD68 positive, and histiocytes show vacuolated or foamy rather than dense eosinophilic cytoplasm."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

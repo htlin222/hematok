@@ -1,0 +1,22 @@
+{
+  "id": "61350",
+  "recognize_zh": "周邊血液中大量小型成熟淋巴球，核圓、染色質呈塊狀（足球樣/龜殼樣 soccer-ball chromatin）、細胞質極少，並夾雜數個核被壓破而呈模糊網狀的破碎細胞（smudge cells）；這是慢性淋巴球性白血病（CLL）的經典抹片。",
+  "features": [
+    "Absolute lymphocytosis of small, mature-appearing lymphocytes (about 1–1.5 times a red cell)",
+    "Round nuclei with coarsely clumped, block-like (soccer-ball) chromatin and inconspicuous nucleoli",
+    "Scant rim of pale basophilic cytoplasm",
+    "Multiple smudge (basket) cells: disrupted nuclei with smeared, reticulated chromatin and no cytoplasm",
+    "Occasional slightly larger lymphocyte with more cytoplasm; background red cells normocytic, few platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked increase in small, mature-appearing lymphocytes with round nuclei, coarsely clumped block-like chromatin, inconspicuous nucleoli, and scant cytoplasm. Numerous smudge cells, representing fragile lymphocytes disrupted during smear preparation, are present. Prolymphocytes are not conspicuous and the red cells are largely unremarkable in this field. Findings are consistent with chronic lymphocytic leukemia; confirmation by flow cytometry (CD5+, CD23+, dim CD20 and dim surface light chain, CD200+) is recommended.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "MCL cells often have irregular or cleaved nuclei and are CD5+ but CD23-negative/dim, CD200-negative, and cyclin D1/SOX11 positive with t(11;14)."},
+    {"dx": "Reactive lymphocytosis (e.g., pertussis, viral)", "vs": "Reactive lymphocytes are heterogeneous and polyclonal, and pertussis lymphocytes are small T cells with cleaved nuclei rather than a monotypic CD5+/CD23+ B-cell population."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL cells have villous cytoplasmic projections and are usually CD5-negative, CD23-negative, and CD200 dim or negative."},
+    {"dx": "Follicular lymphoma, leukemic phase", "vs": "FL cells are small with deeply notched or cleaved (buttock) nuclei and are CD10+ and CD5-negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

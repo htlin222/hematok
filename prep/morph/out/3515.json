@@ -1,0 +1,20 @@
+{
+  "id": "3515",
+  "recognize_zh": "背景中可見大量大型、部分低顆粒的血小板，大小接近甚至超過紅血球，右上角有一個核質比高的未成熟單核細胞；在急性骨髓性白血病中出現明顯血小板異常，應聯想到 inv(3)/t(3;3)（MECOM）。",
+  "features": [
+    "Numerous large and giant platelets, many approaching RBC size, some hypogranular with pale cytoplasm",
+    "Single mononuclear cell (upper right) with high N:C ratio and dark nucleus, compatible with a blast",
+    "Red cells overlapping in a thicker area of the smear, limiting RBC morphology assessment",
+    "Marked variation in platelet size and granulation"
+  ],
+  "describe_en": "Peripheral blood smear, taken from a relatively thick area, shows numerous platelets with striking anisocytosis, including many large and giant forms, some of which are hypogranular. A single immature mononuclear cell with a high nuclear-to-cytoplasmic ratio, compatible with a blast, is present at the edge of the field. Red cell morphology cannot be reliably assessed due to overlap. In the context of acute myeloid leukemia, the prominent platelet abnormalities are suggestive of AML with inv(3)(q21q26.2) or t(3;3)(q21;q26.2) (GATA2/MECOM); cytogenetic confirmation is required.",
+  "ddx": [
+    {"dx": "Inherited macrothrombocytopenia (e.g., MYH9-related disorder)", "vs": "Inherited macrothrombocytopenias lack circulating blasts and MYH9 disorders show Döhle-like neutrophil inclusions."},
+    {"dx": "Myelodysplastic syndrome with giant platelets", "vs": "MDS lacks a leukemic blast population; separation from inv(3) AML depends on blast percentage and karyotype."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL shows megakaryoblasts with cytoplasmic blebs and CD41/CD61 expression, and requires ancillary studies rather than platelet morphology alone."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

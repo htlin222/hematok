@@ -1,0 +1,22 @@
+{
+  "id": "61510",
+  "recognize_zh": "雖然標題寫骨髓纖維化，此圖其實是周邊血液抹片：紅血球大小形狀不一，可見數個淚滴狀紅血球（dacrocyte）與橢圓形紅血球，中央有一個邊緣不規則的巨大血小板；淚滴細胞是骨髓纖維化在血液中的間接線索。",
+  "features": [
+    "Moderate anisopoikilocytosis with several teardrop-shaped red cells (dacrocytes)",
+    "Scattered elliptocytes/ovalocytes and occasional target-like cells",
+    "Large atypical platelet with irregular cytoplasmic projections in the center of the field",
+    "Normal-sized platelets present in adequate numbers",
+    "No nucleated red cells or immature granulocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows moderate anisopoikilocytosis with several teardrop-shaped red cells (dacrocytes) and scattered elliptocytes. A large atypical platelet with irregular cytoplasmic projections is present, along with normal-sized platelets. Nucleated red cells and immature myeloid cells, which would complete a leukoerythroblastic picture, are not seen in this field. Although the title refers to marrow fibrosis, this image shows only blood findings; in conjunction with a marrow biopsy with clustered atypical megakaryocytes and reticulin fibrosis, these findings are consistent with primary myelofibrosis, fibrotic stage.",
+  "ddx": [
+    {"dx": "Marrow infiltration by metastatic carcinoma (myelophthisis)", "vs": "Myelophthisic marrow also produces dacrocytes and a leukoerythroblastic picture, so separation requires a biopsy showing tumor cells rather than MPN megakaryocytes."},
+    {"dx": "Thalassemia or megaloblastic anemia", "vs": "Thalassemia shows microcytosis with targets and basophilic stippling, and megaloblastic anemia shows macro-ovalocytes with hypersegmented neutrophils, each with occasional teardrops."},
+    {"dx": "Post-polycythemic or post-thrombocythemic myelofibrosis", "vs": "Post-PV and post-ET myelofibrosis are morphologically identical in blood and marrow and are distinguished only by a documented prior PV or ET."},
+    {"dx": "Artifactual teardrop cells", "vs": "Smearing artifact produces teardrop tails all pointing in the same direction, whereas true dacrocytes are randomly oriented."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": true
+}

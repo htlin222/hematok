@@ -1,0 +1,22 @@
+{
+  "id": "63434",
+  "recognize_zh": "兩個箭頭所指為圓形、約一顆紅血球大小的寄生蟲體，內含十餘個散在的深紫色染色質小點（merozoite），為裂殖體（schizont）；周邊血出現裂殖體且核數多，支持間日瘧（P. vivax）。",
+  "features": [
+    "Two round parasitized cells (arrows) filled with approximately 12-16 discrete dark chromatin dots (merozoites)",
+    "Merozoites dispersed throughout a pale purple parasite cytoplasm that nearly fills the host cell",
+    "Host cells are about the size of or slightly larger than adjacent red cells; stippling not resolvable",
+    "Hemozoin pigment is not clearly discernible at this resolution",
+    "Background of uninfected red cells with linear fibrous/smear artifacts and a small dense cell fragment"
+  ],
+  "describe_en": "Peripheral blood smear shows two round parasitized cells, each nearly filled by a schizont containing approximately 12-16 discrete chromatin dots scattered in pale purple cytoplasm. The host cells are at least as large as surrounding red cells, although Schüffner stippling and pigment cannot be resolved at this image quality. Linear fibrillar artifacts are present in the background. Findings are consistent with Plasmodium vivax schizonts.",
+  "ddx": [
+    {"dx": "Plasmodium malariae schizont", "vs": "P. malariae schizonts have fewer (6-12) merozoites in a neat rosette within a normal-sized or smaller red cell."},
+    {"dx": "Plasmodium ovale schizont", "vs": "P. ovale schizonts have fewer merozoites (6-14) within an oval red cell with fimbriated margins."},
+    {"dx": "Babesia species", "vs": "Babesia shows small pleomorphic rings and tetrad (Maltese cross) forms without schizonts or hemozoin pigment."},
+    {"dx": "Plasmodium knowlesi", "vs": "P. knowlesi schizonts contain up to about 16 merozoites in normal-sized red cells and mimic P. malariae, so PCR is needed in endemic Southeast Asia."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

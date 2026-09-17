@@ -1,0 +1,22 @@
+{
+  "id": "62451",
+  "recognize_zh": "這是中期分裂相 FISH（DAPI 藍色背景）：9 號與 22 號染色體各剩單一紅/綠訊號，der(9) 與 Ph 染色體上各有一個 BCR::ABL1 融合訊號（2F1R1G），另見 del(7q) 探針的藍綠紅訊號分布於 7 號染色體與 dic(7;12)，12 號著絲點紅訊號在正常 12 號與 dic(7;12) 上，說明 t(9;22) 合併 dic(7;12)。",
+  "features": [
+    "Metaphase FISH with DAPI-counterstained blue chromosomes and labeled arrows",
+    "BCR/ABL1 dual-color dual-fusion probe: single red (ABL1) signal on normal chromosome 9, single green (BCR) signal on normal chromosome 22",
+    "One red-green fusion signal each on der(9) and the Philadelphia chromosome, giving a 2F1R1G pattern of t(9;22)",
+    "CEP12 red signals on normal chromosome 12 and on the dic(7;12)",
+    "Del(7q) triple-color probe: aqua, red and green signals on normal chromosome 7 and on dic(7;12), indicating the 7q region is retained on the dicentric",
+    "Non-morphologic cytogenetic image; interpretation relies on probe design and signal localization"
+  ],
+  "describe_en": "Metaphase FISH using a BCR/ABL1 dual-color dual-fusion probe combined with a chromosome 12 centromere enumeration probe and a 7q deletion probe shows a 2F1R1G BCR/ABL1 pattern, with one fusion signal on der(9) and one on the Philadelphia chromosome, and residual single ABL1 and BCR signals on the normal chromosomes 9 and 22, respectively. The CEP12 probe shows two signals, one on the normal chromosome 12 and one on a dic(7;12). The 7q probe shows the full aqua-red-green signal set on both the normal chromosome 7 and the dic(7;12), indicating that the targeted 7q region is not deleted. These findings confirm a BCR::ABL1 rearrangement from t(9;22)(q34;q11.2) together with a dic(7;12), consistent with the accompanying karyotype.",
+  "ddx": [
+    {"dx": "Variant or complex Ph translocation", "vs": "Variant t(9;22) involving a third chromosome shows fusion signals on additional or different chromosomes and atypical signal patterns."},
+    {"dx": "Deletion of der(9) (1F1R1G pattern)", "vs": "Loss of sequences at the der(9) breakpoint leaves only one fusion signal, unlike the two fusions seen here."},
+    {"dx": "Monosomy 7 or true del(7q)", "vs": "Monosomy 7 or del(7q) would show loss of one set of 7q probe signals, whereas both sets are present here."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH (DAPI counterstain)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61284",
+  "recognize_zh": "以視野中央的小淋巴球核作為尺規：正常紅血球約與小淋巴球核同大，此處紅血球明顯比淋巴球核小，且大小相當一致，即小球性紅血球（microcytosis）；紅血球邊緣呈鋸齒狀屬製片乾燥假影。",
+  "features": [
+    "Red cells uniformly smaller than the nucleus of the central small lymphocyte (normal RBC diameter approximates a small lymphocyte nucleus)",
+    "Relatively uniform red cell size with little anisocytosis in this field",
+    "Diffuse fine crenation of red cells (drying/storage artifact), obscuring central pallor",
+    "Scattered platelets and small platelet aggregates; occasional smudged or lysed cell ghosts at the periphery",
+    "No target cells, basophilic stippling or nucleated red cells clearly identified at this magnification"
+  ],
+  "describe_en": "Peripheral blood smear shows a monolayer of red cells that are distinctly smaller than the nucleus of a small lymphocyte in the center of the field, indicating microcytosis. The red cells are fairly uniform in size and show diffuse crenation, which is an artifact and limits assessment of central pallor and hypochromia. Platelets are present with small aggregates. No target cells or basophilic stippling are evident at this power. Findings are consistent with microcytosis (reported MCV 57.1 fL); correlation with red cell count, RDW and iron studies is needed to separate thalassemia trait from iron deficiency.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Typically shows marked anisocytosis, pencil cells and pronounced hypochromia with a high RDW and low red cell count, whereas a uniform microcytic population with a high red cell count favors thalassemia trait."},
+    {"dx": "Beta- or alpha-thalassemia trait", "vs": "Shows microcytosis with erythrocytosis, target cells and sometimes basophilic stippling; confirmed by hemoglobin electrophoresis (HbA2) or alpha-globin gene testing."},
+    {"dx": "Anemia of inflammation", "vs": "Usually normocytic or only mildly microcytic (MCV rarely below 70 fL) with high ferritin."},
+    {"dx": "Spherocytosis", "vs": "Spherocytes are small but dense and lack central pallor with an elevated MCHC, whereas true microcytes here have a low MCV."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "3307",
+  "recognize_zh": "周邊血抹片中一顆白血球的核邊緣呈鋸齒、缺角，染色質粗糙並有不規則透亮小洞，像被老鼠啃過（rodent cell）；周圍紅血球普遍皺縮成棘狀，提示檢體久置或乾燥造成的退化假影。",
+  "features": [
+    "Single leukocyte with an irregular, notched 'gnawed' nuclear contour",
+    "Coarse, clumped chromatin with irregular clear spaces giving a moth-eaten appearance",
+    "Scant, indistinct cytoplasm",
+    "Diffuse red cell crenation (echinocytic change) in the background",
+    "Adjacent smudged, pale degenerating cell fragment below the leukocyte"
+  ],
+  "describe_en": "Peripheral blood smear shows a single leukocyte with an irregular, notched nuclear outline and coarse chromatin interrupted by clear punched-out spaces, imparting a 'nibbled' or moth-eaten appearance, with scant indistinct cytoplasm. The surrounding red cells show diffuse crenation, and a smudged degenerating cell is present nearby. These changes are consistent with in vitro degenerative (storage/drying) artifact producing a so-called rodent cell, and should not be interpreted as a neoplastic or dysplastic change.",
+  "ddx": [
+    {"dx": "Sezary cell / cerebriform lymphocyte", "vs": "Sezary cells have convoluted, folded nuclei with smooth grooves and intact chromatin, not jagged notches with punched-out holes."},
+    {"dx": "Apoptotic cell", "vs": "Apoptotic cells show dense homogeneous pyknotic or fragmented nuclear bodies with condensed eosinophilic cytoplasm rather than a notched, vacuolated nucleus."},
+    {"dx": "Dysplastic hypolobated neutrophil", "vs": "Dysplastic neutrophils retain granulated cytoplasm and a smooth nuclear contour with hypolobation, and are seen in fresh well-prepared films."},
+    {"dx": "Flower cell of ATLL", "vs": "ATLL flower cells show multilobated petal-like nuclei with condensed chromatin in fresh smears, not an eroded outline accompanied by diffuse red cell crenation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

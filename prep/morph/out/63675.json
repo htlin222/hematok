@@ -1,0 +1,23 @@
+{
+  "id": "63675",
+  "recognize_zh": "骨髓切片中箭頭所指是一顆偏小、核呈單一圓形未分葉（hypolobated / non-lobated）的巨核細胞（megakaryocyte），在造血細胞與脂肪之間，這類小型單核巨核細胞是 del(5q) 骨髓發育不良症候群的特徵線索。",
+  "features": [
+    "Small megakaryocytes with round, non-lobated or hypolobated eccentric nuclei (arrow)",
+    "Megakaryocyte cytoplasm moderate, eosinophilic, with smooth contour",
+    "Cellular marrow with admixed fat spaces and dilated sinusoids",
+    "Trilineage hematopoiesis including erythroid clusters and granulocytic precursors",
+    "Scattered hemosiderin-like brown-orange pigment granules in histiocytes",
+    "No sheets of blasts appreciated at this magnification"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows a cellular marrow with trilineage hematopoiesis intermixed with adipocytes and dilated sinusoids. Megakaryocytes include small forms with round, non-lobated or hypolobated eccentric nuclei (arrow), a dysplastic morphology. Erythroid and granulocytic precursors are present without an obvious increase in blasts at this power, and scattered pigment-laden macrophages are seen. In the appropriate context of macrocytic anemia and a 5q deletion, findings are consistent with myelodysplastic neoplasm with isolated del(5q).",
+  "ddx": [
+    {"dx": "Essential thrombocythemia / other MPN", "vs": "MPN megakaryocytes are large to giant with hyperlobated (staghorn) or bulbous hyperchromatic nuclei, not small monolobated forms."},
+    {"dx": "MDS with other dysplasia (non-5q)", "vs": "Micromegakaryocytes with widely separated nuclear lobes are common in other MDS, and cytogenetics showing isolated del(5q) is required to classify."},
+    {"dx": "Reactive megakaryocytic hyperplasia", "vs": "Reactive states show normally lobulated megakaryocytes of normal size without clustering of hypolobated forms."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL shows sheets of immature megakaryoblasts with fibrosis and increased blasts, rather than scattered mature hypolobated megakaryocytes."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

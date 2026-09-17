@@ -1,0 +1,21 @@
+{
+  "id": "3571",
+  "recognize_zh": "骨髓抹片細胞很擠，許多顆粒球系細胞（骨髓細胞、後骨髓細胞、帶狀核）細胞質呈淡灰藍色、幾乎沒有顆粒，部分核呈圓形或低分葉；這種普遍的顆粒減少提示顆粒球生成異常（dysgranulopoiesis）。但此區為厚片、細胞重疊，細節判讀有限。",
+  "features": [
+    "Hypercellular, crowded particle edge with overlapping nucleated cells",
+    "Numerous granulocytic precursors (myelocytes, metamyelocytes, bands) with pale gray-blue, hypogranular cytoplasm",
+    "Some mature granulocytes with round or hyposegmented nuclei and clumped chromatin",
+    "Admixed larger immature cells with finer chromatin in the upper field",
+    "Thick central area with dense stroma-like smeared material and fat vacuoles limiting cytologic detail"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cellular, crowded particle edge composed predominantly of granulocytic precursors. Many myelocytes, metamyelocytes and band forms have pale, hypogranular cytoplasm, and some mature forms show round to hyposegmented nuclei. Larger immature cells with finer chromatin are also present, although blasts cannot be reliably enumerated in this thick field. The overlapping cells and thick smear limit assessment of individual dysplastic features. Findings are suggestive of dysgranulopoiesis with hypogranularity; confirmation in thinner areas with a formal count is recommended.",
+  "ddx": [
+    {"dx": "Staining or thick-smear artifact", "vs": "Poor spreading and underfixation can make granules look faint diffusely, whereas true hypogranularity persists in well-spread areas while other cells retain normal granules."},
+    {"dx": "Reactive left shift (infection, G-CSF)", "vs": "Reactive granulopoiesis shows normal or increased (toxic) granulation rather than hypogranular cytoplasm."},
+    {"dx": "Acute myeloid leukemia with maturation", "vs": "AML requires at least 20% blasts on a formal differential, which cannot be established from this crowded field."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

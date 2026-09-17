@@ -1,0 +1,22 @@
+{
+  "id": "62775",
+  "recognize_zh": "胸水抹片中有胞質豐富、淡染的大型組織球，胞質內包著數個完整的小淋巴球（emperipolesis），加上 CT 可見肋膜積液，指向結外 Rosai-Dorfman 病。",
+  "features": [
+    "Large histiocytes with abundant pale, vacuolated cytoplasm",
+    "Intact small lymphocytes engulfed within histiocyte cytoplasm (emperipolesis)",
+    "Histiocyte nuclei round to oval, vesicular, with small nucleoli and no significant atypia",
+    "Background of small lymphocytes, plasmacytoid cells, and mesothelial/histiocytic cells",
+    "Chest CT (panel A) shows pleural effusion with mediastinal soft tissue density"
+  ],
+  "describe_en": "Chest CT shows pleural effusion with mediastinal soft tissue prominence. Cytospin preparation of the pleural fluid shows a mixed population of small lymphocytes, plasma cells, and numerous large histiocytes with abundant pale, finely vacuolated cytoplasm and round vesicular nuclei. Several histiocytes contain multiple intact lymphocytes within their cytoplasm (emperipolesis), without significant nuclear atypia. Findings are suggestive of extranodal Rosai-Dorfman disease involving the pleura; confirmation with S100 and CD68/CD163 immunostaining (S100-positive, CD1a-negative) is recommended.",
+  "ddx": [
+    {"dx": "Reactive macrophages with phagocytosis in effusion", "vs": "Ordinary macrophages ingest degenerated or apoptotic debris, whereas RDD histiocytes contain intact, viable lymphocytes and are S100-positive."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH macrophages destroy engulfed erythrocytes and nucleated cells in a clinical setting of cytopenias and hyperferritinemia, and are S100-negative."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells have grooved, coffee-bean nuclei without emperipolesis and are CD1a- and langerin-positive."},
+    {"dx": "Metastatic carcinoma or mesothelioma in effusion", "vs": "Malignant epithelial cells form cohesive clusters with nuclear atypia and are keratin-positive rather than containing intact lymphocytes."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa; CT",
+  "match": "consistent",
+  "high_yield": false
+}

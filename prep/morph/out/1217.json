@@ -1,0 +1,21 @@
+{
+  "id": "1217",
+  "recognize_zh": "周邊血液中多顆細胞核呈摺疊、腎形或馬蹄形，染色質細緻，胞質灰藍且量多（promonocytes/單核球），並混有一顆核圓、胞質少的母細胞與一顆分葉異常的顆粒球；循環中同時出現未成熟單核系與顆粒系細胞，支持 AMML。",
+  "features": [
+    "Several large cells with folded, reniform or horseshoe-shaped nuclei and delicate chromatin (promonocytes/immature monocytes)",
+    "Abundant gray-blue cytoplasm with faint fine granules and irregular borders",
+    "Admixed smaller blast with round nucleus, high N:C ratio and scant basophilic cytoplasm",
+    "Granulocytic cell with abnormally clumped, lobulated nucleus and pale cytoplasm",
+    "Red cells with mild anisocytosis; platelets sparse"
+  ],
+  "describe_en": "Peripheral blood smear shows increased circulating immature cells. Most are large with abundant gray-blue, faintly granular cytoplasm and folded, reniform or horseshoe-shaped nuclei with delicate chromatin, consistent with promonocytes and immature monocytes. A blast with a round nucleus and scant basophilic cytoplasm and a granulocytic cell with an abnormally lobulated nucleus and pale cytoplasm are also present. Platelets appear decreased. In correlation with the marrow, findings are consistent with acute myelomonocytic leukemia; monocytic and granulocytic differentiation should be confirmed by nonspecific esterase and MPO or flow cytometry.",
+  "ddx": [
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows mature monocytes with clumped chromatin and <20% blasts plus promonocytes, whereas these monocytic cells have delicate immature chromatin."},
+    {"dx": "Acute monocytic leukemia", "vs": "Requires >=80% monocytic cells in marrow with minimal granulocytic component, a proportion that cannot be judged from this blood field."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes are mature with condensed chromatin and vacuolated cytoplasm, without blasts, promonocytes or dysplastic granulocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

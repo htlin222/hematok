@@ -1,0 +1,22 @@
+{
+  "id": "1434",
+  "recognize_zh": "這是骨髓抹片的細胞化學染色（外觀像 PAS），多顆圓形、小至中型的前驅細胞呈深洋紅色瀰漫陽性，旁邊較大的細胞只淡染；在 MDS 中，紅血球前驅細胞 PAS 陽性代表紅系發育異常。",
+  "features": [
+    "Cytochemical stain without a strong counterstain; red cells stain pale tan-pink",
+    "Numerous small to medium round nucleated cells with intense, diffuse magenta positivity, morphologically suggestive of erythroid precursors",
+    "Larger cells with oval or folded nuclei show only weak, pale staining",
+    "Positivity appears diffuse/granular rather than coarse block-like at this resolution",
+    "Nuclear and cytoplasmic detail is poorly resolved, limiting lineage assignment"
+  ],
+  "describe_en": "Bone marrow aspirate smear stained with a cytochemical stain, most likely periodic acid-Schiff (PAS), shows numerous small to medium round nucleated cells with intense diffuse magenta positivity, morphologically suggestive of erythroid precursors, while larger cells with oval nuclei are only weakly stained. Detailed nuclear and cytoplasmic morphology cannot be assessed on this stain and the image resolution is limited. PAS positivity in erythroid precursors is an abnormal finding that supports dyserythropoiesis and is consistent with the stated diagnosis of myelodysplastic syndrome with multilineage dysplasia when accompanied by dysplasia in other lineages on Romanowsky-stained smears.",
+  "ddx": [
+    {"dx": "Acute erythroid leukemia (pure erythroid leukemia)", "vs": "Shows a predominance (>80%) of erythroid precursors, mostly proerythroblasts, often with coarse globular PAS positivity, rather than a mixed population."},
+    {"dx": "B-lymphoblastic leukemia with block PAS positivity", "vs": "Lymphoblasts show coarse block-like PAS granules on a negative cytoplasmic background and are confirmed by CD19/TdT flow cytometry."},
+    {"dx": "Severe iron deficiency or thalassemia", "vs": "These may show faint erythroid PAS positivity but lack clonal cytogenetics and multilineage dysplasia."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic precursors are typically PAS negative and show nuclear-cytoplasmic asynchrony that corrects with B12/folate replacement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Cytochemical stain, likely PAS",
+  "match": "consistent",
+  "high_yield": false
+}

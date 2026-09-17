@@ -1,0 +1,22 @@
+{
+  "id": "2741",
+  "recognize_zh": "周邊血液中多顆中型淋巴細胞，核型不規則、有凹陷或腎形，細胞質少且偏嗜鹼性，邊緣有明顯的細胞質小突起（blebs）；這種不規則核加上細胞質突起是 T-PLL 的典型外觀。",
+  "features": [
+    "Increased intermediate-sized lymphoid cells scattered among red cells",
+    "High N:C ratio with scant basophilic cytoplasm",
+    "Prominent cytoplasmic blebs/protrusions at the cell margins",
+    "Irregular, indented to reniform nuclear contours",
+    "Moderately condensed chromatin with inconspicuous nucleoli"
+  ],
+  "describe_en": "Peripheral blood smear shows an increased number of intermediate-sized lymphoid cells with high nuclear-to-cytoplasmic ratio, irregular indented or reniform nuclei, moderately condensed chromatin and scant basophilic cytoplasm with conspicuous surface blebs. Red cells appear normochromic without significant poikilocytosis. The cytoplasmic protrusions and nuclear irregularity are characteristic of T-prolymphocytes. Findings are consistent with T-cell prolymphocytic leukemia; confirm with flow cytometry (CD2, CD3, CD5, strong CD7; CD4+ or CD4/CD8 co-expression) and TCL1A/MTCP1 studies.",
+  "ddx": [
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have finely grooved cerebriform nuclei and are usually CD7-negative, with associated erythroderma."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells show multilobated flower-shaped nuclei, CD25 positivity and HTLV-1 infection."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells have abundant pale cytoplasm with circumferential fine projections and oval nuclei with spongy chromatin, and express CD103/CD11c/CD25 B-cell markers."},
+    {"dx": "Mantle cell lymphoma, leukemic phase", "vs": "Leukemic MCL cells may be cleaved but lack blebs and are cyclin D1-positive B cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

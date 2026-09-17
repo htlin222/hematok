@@ -1,0 +1,22 @@
+{
+  "id": "60652",
+  "recognize_zh": "體液抹片中大型巨噬細胞之間與細胞內可見大量大小一致的卵圓形酵母樣小體，周圍有清楚的透明環，部分首尾相連成串珠狀（出芽鏈），提示體液中的真菌（酵母菌）感染。",
+  "features": [
+    "Large macrophages/mononuclear cells with abundant vacuolated cytoplasm and oval to reniform nuclei, admixed with neutrophils",
+    "Numerous small uniform oval yeast-like organisms (roughly 3–5 µm) with a dark-staining center and a thin clear halo/cell wall",
+    "Organisms both intracellular within macrophages and extracellular",
+    "Some yeasts attached end to end forming short bead-like chains or budding pairs (panels A, D)",
+    "Panels B–C: yeasts clustered around and within individual mononuclear cells; no true septate hyphae seen"
+  ],
+  "describe_en": "Cytospin of body fluid shows numerous macrophages with vacuolated cytoplasm and scattered neutrophils. There are abundant small, uniform, oval yeast forms with a clear halo, located both within macrophages and extracellularly, some showing budding and short bead-like chains. No septate hyphae are identified. Findings are consistent with a yeast infection of the body fluid; the chain-forming budding pattern favors Candida species over Histoplasma, and fungal culture with species identification is recommended.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts are smaller (2–4 µm), predominantly intracellular with narrow-based single budding and do not form chains or pseudohyphae."},
+    {"dx": "Cryptococcus neoformans", "vs": "Cryptococci vary in size with a thick mucicarminophilic capsule and narrow-based budding rather than uniform small chained yeasts."},
+    {"dx": "Leishmania or Toxoplasma", "vs": "Leishmania amastigotes contain a nucleus and a rod-shaped kinetoplast and lack budding or a refractile cell wall."},
+    {"dx": "Phagocytosed red cells or platelets", "vs": "Ingested red cells are pink and platelets granular, whereas these bodies are uniform, basophilic, walled and budding."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

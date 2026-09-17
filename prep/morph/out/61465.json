@@ -1,0 +1,22 @@
+{
+  "id": "61465",
+  "recognize_zh": "四格圖：A 周邊血可見高核質比的中型芽細胞；B 軟組織切片為瀰漫成片的小至中型圓形藍色腫瘤細胞；C 免疫染色腫瘤細胞呈細胞質顆粒狀陽性、插圖中另一標記為陰性（提示轉為骨髓／單核球系表現）；D FISH 分離探針出現紅綠訊號分開，代表 KMT2A 重排，符合 blinatumomab 後髓外復發並發生系列轉換。",
+  "features": [
+    "Panel A (PB): intermediate-sized blasts with high N:C ratio, dense-appearing chromatin and scant basophilic cytoplasm",
+    "Panel B (H&E, extramedullary tissue): diffuse sheets of small-to-medium round blue cells infiltrating between collagen strands",
+    "Panel C (IHC): granular cytoplasmic positivity in most tumor cells; inset marker negative (specific antibodies not labeled in the figure)",
+    "Panel D (interphase FISH, break-apart probe): one fused red-green signal plus separated red and green signals, indicating KMT2A rearrangement",
+    "Low image resolution limits nuclear detail and lineage assignment by morphology alone"
+  ],
+  "describe_en": "This composite figure shows (A) a peripheral blood smear with intermediate-sized blasts having high nuclear-to-cytoplasmic ratios and scant basophilic cytoplasm, and (B) an extramedullary tissue biopsy diffusely infiltrated by sheets of small-to-medium round blue cells. (C) Immunohistochemistry shows granular cytoplasmic staining in the tumor cells with a negative second marker in the inset; the antibodies are not labeled, but in context this pattern supports a myeloid/monocytic immunophenotype with loss of B-lineage markers. (D) Interphase FISH with a KMT2A break-apart probe shows one fusion signal and separate red and green signals, confirming KMT2A rearrangement. Findings are consistent with extramedullary relapse of KMT2A-rearranged leukemia with lineage switch from B-lymphoblastic to myeloid (monocytic) phenotype after CD19-directed blinatumomab therapy.",
+  "ddx": [
+    {"dx": "CD19-negative relapse of B-lymphoblastic leukemia (antigen escape)", "vs": "Antigen-escape relapse retains other B-lineage markers such as CD22, CD79a and PAX5 and lacks myeloid markers, which requires IHC or flow rather than morphology."},
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "MPAL co-expresses B and myeloid lineage markers in the same or separate blast populations at diagnosis, whereas lineage switch shows a full conversion at relapse."},
+    {"dx": "Myeloid sarcoma de novo", "vs": "Morphology and phenotype overlap; the prior KMT2A-rearranged B-ALL history with the same rearrangement establishes clonal lineage switch."},
+    {"dx": "Small round blue cell tumors (e.g., Ewing sarcoma, rhabdomyosarcoma)", "vs": "These are CD45 negative with CD99/NKX2-2 or myogenin/desmin positivity and EWSR1 or FOXO1 rearrangements rather than KMT2A."}
+  ],
+  "specimen": "tissue",
+  "stain": "Wright-Giemsa; H&E; IHC (unlabeled); FISH: KMT2A break-apart",
+  "match": "consistent",
+  "high_yield": false
+}

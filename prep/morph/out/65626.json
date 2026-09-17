@@ -1,0 +1,22 @@
+{
+  "id": "65626",
+  "recognize_zh": "單一母細胞核染色質細緻、核質比高，細胞質中可見一條細長、紅紫色的針狀包涵體（Auer rod），這是骨髓系母細胞的特徵，確立為急性骨髓性白血病的母細胞。",
+  "features": [
+    "Single large blast, approximately 2 times red cell diameter, with high N:C ratio",
+    "Round to slightly irregular nucleus with finely granular, open chromatin",
+    "Scant pale grey-blue cytoplasm",
+    "One slender, rod-shaped, pink-red azurophilic cytoplasmic inclusion (Auer rod) at the cell edge",
+    "Background normochromic red cells without other nucleated cells"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows a large blast with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin and a rim of pale basophilic cytoplasm. The cytoplasm contains a single slender, needle-shaped azurophilic inclusion consistent with an Auer rod. The background red cells are unremarkable. The presence of an Auer rod establishes the myeloid lineage of the blast; findings are consistent with acute myeloid leukemia (or high-grade myeloid neoplasm with circulating blasts).",
+  "ddx": [
+    {"dx": "Lymphoblast (acute lymphoblastic leukemia)", "vs": "Lymphoblasts never contain Auer rods and are MPO negative."},
+    {"dx": "Acute promyelocytic leukemia faggot cell", "vs": "APL cells contain bundles of multiple Auer rods and heavy azurophilic granules with bilobed nuclei, rather than a single rod in an agranular blast."},
+    {"dx": "Pseudo-Auer rod / platelet overlying a cell or stain artifact", "vs": "True Auer rods lie within the cytoplasm in the focal plane and are MPO positive, whereas overlying debris is out of plane and MPO negative."},
+    {"dx": "Döhle body in a neutrophil", "vs": "Döhle bodies are pale blue, irregular patches in the cytoplasm of mature neutrophils, not red rods in a blast."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

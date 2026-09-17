@@ -1,0 +1,21 @@
+{
+  "id": "60591",
+  "recognize_zh": "左圖為水腫、中央有間質鬆散化的絨毛，周圍滋養層細胞增生，符合葡萄胎（hydatidiform mole）；右圖周邊血液出現大型、核質比高、細胞質嗜鹼性的芽細胞，提示葡萄胎化療（如 etoposide）後發生的治療相關急性骨髓性白血病。",
+  "features": [
+    "Tissue: enlarged hydropic chorionic villi with edematous, loose myxoid stroma",
+    "Circumferential trophoblastic proliferation lining the villi, with hemorrhage in the background",
+    "Peripheral blood: large blasts with high N:C ratio, irregular to folded nuclei, fine chromatin and basophilic cytoplasm",
+    "Blasts with somewhat monocytoid nuclear contours; Auer rods not seen at this resolution"
+  ],
+  "describe_en": "Section of uterine contents shows enlarged hydropic chorionic villi with edematous, paucicellular stroma and circumferential trophoblastic proliferation, consistent with a hydatidiform mole. The peripheral blood smear shows circulating large blasts with high nuclear-to-cytoplasmic ratios, finely dispersed chromatin, irregular nuclear contours and basophilic cytoplasm. In a patient previously treated for a molar pregnancy, findings are consistent with a therapy-related myeloid neoplasm (acute myeloid leukemia post cytotoxic therapy), most often associated with topoisomerase II inhibitors such as etoposide and KMT2A rearrangements with a short latency.",
+  "ddx": [
+    {"dx": "De novo acute myeloid leukemia", "vs": "Morphology is identical; the history of prior cytotoxic therapy defines the therapy-related category."},
+    {"dx": "Metastatic choriocarcinoma/gestational trophoblastic neoplasm in blood or marrow", "vs": "Trophoblastic cells are cohesive, multinucleated syncytiotrophoblast with hCG and keratin positivity, not CD45+ myeloid blasts."},
+    {"dx": "Alkylating agent-related myelodysplastic neoplasm", "vs": "Alkylator-related disease presents after a longer latency (5-10 years) with dysplasia and -5/-7 or TP53, rather than abrupt AML with balanced 11q23 rearrangement."},
+    {"dx": "Partial hydatidiform mole or hydropic abortus", "vs": "Show only focal villous edema and minimal trophoblast hyperplasia with p57 retained (partial) rather than diffuse hydropic change with circumferential proliferation."}
+  ],
+  "specimen": "PB",
+  "stain": "H&E; Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

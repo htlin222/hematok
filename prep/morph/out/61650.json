@@ -1,0 +1,21 @@
+{
+  "id": "61650",
+  "recognize_zh": "骨髓抹片滿布異常前骨髓細胞，核呈雙葉或摺疊，胞質充滿粉紫色顆粒，多個細胞內可見成束的 Auer 小體（faggot cells），是 APL 的經典型態。",
+  "features": [
+    "Sheet of abnormal hypergranular promyelocytes with abundant cytoplasm",
+    "Nuclei reniform, folded, or bilobed with fine chromatin and visible nucleoli",
+    "Dense azurophilic granules spilling into the background",
+    "Multiple cells with bundles of Auer rods (faggot cells)",
+    "Few residual lymphocytes; normal hematopoiesis largely replaced"
+  ],
+  "describe_en": "Bone marrow aspirate smear is diffusely replaced by abnormal promyelocytes with abundant cytoplasm packed with azurophilic granules. Nuclei are reniform, folded, or bilobed, with fine chromatin and visible nucleoli. Several cells contain bundles of Auer rods (faggot cells). Normal hematopoietic elements are markedly reduced. Findings are morphologically characteristic of acute promyelocytic leukemia (hypergranular type); PML::RARA should be confirmed urgently and all-trans retinoic acid initiated without waiting for genetic results.",
+  "ddx": [
+    {"dx": "AML with t(8;21)", "vs": "t(8;21) blasts usually contain single long slender Auer rods and salmon granules with prominent hofs, not multiple Auer rod bundles in hypergranular promyelocytes."},
+    {"dx": "Reactive promyelocytic left shift (G-CSF, recovery)", "vs": "Recovering promyelocytes have round nuclei with a Golgi hof and orderly maturation to myelocytes, without Auer rods."},
+    {"dx": "APL variant with non-PML RARA partner (e.g., ZBTB16::RARA)", "vs": "ZBTB16::RARA shows more regular nuclei, fewer Auer rods, and ATRA resistance; genetic testing is required to separate."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

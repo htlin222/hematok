@@ -1,0 +1,22 @@
+{
+  "id": "63053",
+  "recognize_zh": "骨髓抹片中多個大型組織球的細胞質內含被吞噬的完整有核細胞（嗜中性球、紅系前驅細胞、淋巴球），被吞入的細胞周圍有清楚的空泡暈圈，即噬血現象（hemophagocytosis）。",
+  "features": [
+    "Large histiocytes (roughly 30-50 um) with abundant pale, vacuolated cytoplasm and a single oval nucleus with fine chromatin",
+    "Engulfed intact nucleated cells within phagocytic vacuoles: neutrophil (A), erythroid precursors and lymphocytes (B-G)",
+    "Clear halo surrounding phagocytosed cells indicating phagosomes",
+    "Some histiocytes contain multiple ingested cells (C, E)",
+    "Background of maturing myeloid and erythroid precursors and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear (composite, scale bar 20 um) shows numerous large histiocytes with abundant vacuolated cytoplasm containing ingested intact hematopoietic cells, including neutrophils, erythroid precursors and lymphocytes, each surrounded by a clear phagocytic halo. Several histiocytes contain two or more engulfed cells. Background hematopoiesis is present without an obvious neoplastic infiltrate. Findings are consistent with hemophagocytosis; in the appropriate setting, this supports hemophagocytic lymphohistiocytosis associated with SARS-CoV-2 infection, although hemophagocytosis alone is not diagnostic of HLH.",
+  "ddx": [
+    {"dx": "Reactive hemophagocytosis (transfusion, sepsis) without HLH", "vs": "Isolated hemophagocytosis is non-specific; HLH requires HLH-2004 criteria (fever, splenomegaly, cytopenias, ferritin, triglycerides/fibrinogen, sCD25)."},
+    {"dx": "Lymphoma-associated HLH", "vs": "Lymphoma-associated HLH shows an atypical lymphoid infiltrate on biopsy/IHC, which is not evident in these fields."},
+    {"dx": "Emperipolesis in megakaryocytes", "vs": "Emperipolesis occurs within megakaryocytes with lobulated nuclei and the passenger cells remain viable, without phagocytic vacuoles."},
+    {"dx": "Cannibalism by tumor cells", "vs": "Tumor cell cannibalism involves atypical, cohesive nonhematopoietic cells, not bland histiocytes with oval nuclei."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

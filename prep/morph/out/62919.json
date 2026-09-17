@@ -1,0 +1,22 @@
+{
+  "id": "62919",
+  "recognize_zh": "骨髓抹片高倍下可見一群中至大型母細胞，核質比高、染色質細緻、部分核有凹陷或切跡，核仁隱約可見，細胞質稀少且無顆粒；其間夾雜兩個細胞質較多、深藍色的細胞（可能為漿細胞），需以流式確認 T 淋巴母細胞表型。",
+  "features": [
+    "Intermediate-to-large blasts with high N:C ratio and scant agranular cytoplasm",
+    "Nuclei round to irregular with indentations/notches",
+    "Finely granular to slightly stippled chromatin with indistinct small nucleoli",
+    "Two cells with denser chromatin and more abundant deep blue cytoplasm, possibly plasma cells",
+    "No Auer rods or cytoplasmic granules; background of bare nuclei and platelet debris"
+  ],
+  "describe_en": "Bone marrow aspirate smear at oil immersion shows a cluster of intermediate-to-large blasts with high N:C ratios, scant agranular cytoplasm, finely granular chromatin, indistinct nucleoli, and irregular, notched nuclear contours. Two interspersed cells with denser chromatin and more abundant deep blue cytoplasm may represent plasma cells. No Auer rods or cytoplasmic granules are seen. Morphology alone cannot assign lineage; with MPO negativity and cCD3, CD5, and TdT expression by flow cytometry, findings are consistent with T-lymphoblastic leukemia accompanied by reactive plasmacytosis.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts look identical but express CD19, CD79a, and PAX5 without cytoplasmic CD3."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "Minimally differentiated AML blasts are MPO-negative by cytochemistry but express CD13/CD33/CD117 and MPO by flow, without cCD3."},
+    {"dx": "Early T-precursor lymphoblastic leukemia", "vs": "ETP-ALL shows cCD3+ blasts lacking CD1a/CD8, with weak CD5 and stem/myeloid markers; CD33 expression here warrants this consideration by flow."},
+    {"dx": "Plasma cell neoplasm", "vs": "Neoplastic plasma cells have eccentric nuclei, clock-face chromatin, and perinuclear hof with light-chain restriction, whereas here the plasma cells were polyclonal."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

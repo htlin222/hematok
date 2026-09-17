@@ -1,0 +1,23 @@
+{
+  "id": "63178",
+  "recognize_zh": "骨髓抽吸抹片中多顆大型母細胞，核質比高、染色質細緻，箭頭指出細胞質內細長的奧爾氏小體（Auer rod），右下角還有一條游離在細胞外的細長 Auer rod，符合 t(8;21) AML 常見的長而細的 Auer rod。",
+  "features": [
+    "Large myeloblasts with high N:C ratio and moderate basophilic cytoplasm",
+    "Round to oval nuclei with finely granular chromatin; nucleoli faintly visible",
+    "Thin, elongated Auer rod within the cytoplasm of a blast (paired arrows)",
+    "Long, slender extracellular Auer rod in the background (lower right arrow)",
+    "Occasional cell with a paler perinuclear zone; a mitotic figure and maturing myeloid cell at the top of the cluster",
+    "Background red cells and pale proteinaceous material"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of large myeloblasts with high nuclear-to-cytoplasmic ratios, finely granular chromatin, faint nucleoli and moderate basophilic cytoplasm. A thin, elongated Auer rod is present within the cytoplasm of one blast, and a long slender extracellular Auer rod is seen in the background. A mitotic figure and occasional maturing myeloid cells are also present. Findings are consistent with acute myeloid leukemia; the long thin Auer rods are characteristic of AML with RUNX1::RUNX1T1, pending cytogenetic confirmation.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL shows heavily granulated promyelocytes with bilobed nuclei and multiple Auer rods in bundles (faggot cells) rather than single long thin rods in agranular blasts."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "Lymphoblasts never contain Auer rods and are MPO negative."},
+    {"dx": "Myelodysplastic neoplasm with increased blasts", "vs": "Auer rods can occur in MDS-IB2, but it requires fewer than 20% blasts and lacks RUNX1::RUNX1T1, which defines AML regardless of blast count."},
+    {"dx": "Pseudo-Auer rods / artifact (e.g., stain precipitate, bacteria)", "vs": "True Auer rods are MPO-positive azurophilic crystalline rods, whereas precipitate is irregular and bacteria are uniform bacilli of differing color."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

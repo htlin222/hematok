@@ -1,0 +1,22 @@
+{
+  "id": "1844",
+  "recognize_zh": "芽細胞大小不一：部分為核圓、細胞質極少的小型芽細胞，部分較大、有少量淡藍無顆粒細胞質且核仁隱約可見，整體無 Auer rod 或顆粒，屬於異質性（舊 FAB L2 樣）的淋巴芽細胞。",
+  "features": [
+    "Heterogeneous blasts ranging from small cells with scant cytoplasm to larger cells with moderate pale blue cytoplasm",
+    "Round to oval, occasionally indented or irregular nuclei",
+    "Fine to slightly stippled chromatin with small nucleoli visible in the larger cells",
+    "Agranular cytoplasm without Auer rods",
+    "Admixed smaller cells with dense chromatin; hypercellular smear"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a hypercellular specimen replaced by blasts of variable size. Smaller blasts have scant cytoplasm and fine chromatin, while larger blasts show moderate amounts of pale blue agranular cytoplasm, oval to indented nuclei and small nucleoli. No Auer rods or cytoplasmic granules are identified. The heterogeneous (FAB L2-like) appearance is compatible with lymphoblastic leukemia; B-lineage assignment requires immunophenotyping.",
+  "ddx": [
+    {"dx": "AML without maturation", "vs": "Larger blasts with moderate cytoplasm can mimic myeloblasts; MPO cytochemistry or flow (MPO, CD13, CD33, CD117) separates them."},
+    {"dx": "T-lymphoblastic leukemia/lymphoma", "vs": "Cannot be distinguished morphologically; cytoplasmic CD3 by flow defines T lineage."},
+    {"dx": "Mixed-phenotype acute leukemia", "vs": "Morphology is non-specific; requires flow demonstration of lineage-defining markers of two lineages."},
+    {"dx": "Burkitt leukemia", "vs": "Shows uniform cells with deeply basophilic, vacuolated cytoplasm, and is TdT-negative with MYC rearrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

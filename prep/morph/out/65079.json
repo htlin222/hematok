@@ -1,0 +1,23 @@
+{
+  "id": "65079",
+  "recognize_zh": "拼圖中多個視野都是成群的大型母細胞：細胞質豐富、淡灰藍色、邊緣有偽足狀突起並含小空泡，核圓到略摺疊、染色質細緻、可見核仁；這種「大、細胞質多、灰藍帶空泡」的樣子是單核母細胞（monoblast）的典型外觀。",
+  "features": [
+    "Composite of several fields showing numerous large blasts, about 2-3 times RBC diameter, often in cohesive-appearing clusters",
+    "Abundant pale grey-blue cytoplasm with irregular pseudopod-like borders and scattered small clear vacuoles",
+    "Round to oval, occasionally folded nuclei with finely dispersed, lacy chromatin",
+    "Nucleoli visible in some cells; no Auer rods identified",
+    "Cytoplasm largely agranular or with very fine dust-like granules",
+    "Background RBCs with few other leukocytes"
+  ],
+  "describe_en": "Peripheral blood smear (composite of multiple fields) shows a marked increase in large blasts occurring singly and in clusters. The blasts have abundant pale grey-blue cytoplasm with irregular, blebbing margins and fine vacuoles, and round to slightly folded nuclei with delicate open chromatin and visible nucleoli. Auer rods and coarse granulation are not seen. The morphology is that of monoblasts; confirmation with nonspecific esterase cytochemistry and flow cytometry (CD14, CD64, CD11b, CD36, lysozyme) is recommended. Findings are consistent with acute monoblastic leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloblastic leukemia (myeloblasts)", "vs": "Myeloblasts have scantier cytoplasm, may contain Auer rods or azurophilic granules, and are strongly MPO+ and NSE-negative."},
+    {"dx": "Promonocytes / acute monocytic leukemia", "vs": "Promonocytes show more obviously folded or convoluted nuclei and greyer, finely granular cytoplasm, and the distinction relies on the proportion of monoblasts versus promonocytes."},
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Hypogranular APL cells have bilobed or butterfly nuclei and bundled Auer rods with strong MPO positivity and PML::RARA."},
+    {"dx": "Large cell lymphoma in leukemic phase", "vs": "Lymphoma cells have deeply basophilic cytoplasm and lack monocytic markers, being positive for B- or T-cell antigens on flow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (Romanowsky)",
+  "match": "consistent",
+  "high_yield": true
+}

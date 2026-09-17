@@ -1,0 +1,22 @@
+{
+  "id": "66060",
+  "recognize_zh": "骨髓抹片中出現與周圍造血細胞不同的黏聚性細胞團，細胞核圓至橢圓、染色質細緻、有小核仁，細胞質豐富淡藍紫色且彼此融合成合胞體樣（syncytial）團塊，細胞質中可見空泡；這種成團、非造血來源的細胞是轉移性癌侵犯骨髓的線索。",
+  "features": [
+    "Cohesive clusters of large non-hematopoietic cells forming syncytial sheets with indistinct cell borders",
+    "Round to oval nuclei with finely granular chromatin, smooth contours and small nucleoli; mild nuclear overlapping",
+    "Abundant pale blue-violet cytoplasm with scattered clear vacuoles (possible mucin)",
+    "Left panel: large tumor aggregate; right panel: smaller cluster in a background of red cells and fat spaces",
+    "Paucity of normal hematopoietic precursors around the clusters"
+  ],
+  "describe_en": "Bone marrow aspirate smears show cohesive clusters of large atypical cells with syncytial arrangement, round to oval nuclei with fine chromatin and small nucleoli, and abundant pale basophilic cytoplasm containing scattered vacuoles. These cells are clearly distinct from normal hematopoietic elements, which are sparse in the fields shown. Findings are consistent with metastatic carcinoma involving the marrow (poorly differentiated adenocarcinoma with mucin production on the corresponding biopsy), accounting for myelophthisis.",
+  "ddx": [
+    {"dx": "Osteoblast clusters", "vs": "Osteoblasts are loosely cohesive with eccentric nuclei, a distinct perinuclear hof away from the nucleus and do not form tight syncytial sheets with nuclear overlap."},
+    {"dx": "Megakaryocyte or osteoclast", "vs": "Osteoclasts are single giant cells with many separate uniform nuclei within one cell membrane and granular pink cytoplasm, and megakaryocytes have one lobulated nucleus, whereas here many cells cluster with overlapping nuclei."},
+    {"dx": "Clustered lymphoma or ALCL cells", "vs": "Lymphoma cells are generally discohesive, lack mucin vacuoles and express CD45/lymphoid markers rather than cytokeratin."},
+    {"dx": "Metastatic small round blue cell tumor (neuroblastoma, rhabdomyosarcoma)", "vs": "These occur mainly in children, have scant cytoplasm and form rosettes or small clusters, unlike the abundant vacuolated cytoplasm here."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

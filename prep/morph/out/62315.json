@@ -1,0 +1,20 @@
+{
+  "id": "62315",
+  "recognize_zh": "這是熔解曲線（melting curve）分析圖：病人檢體除了約 65°C 的野生型峰外，另有約 59°C 的額外峰，而正常對照只有單一峰，代表偵測到 BRAF V600E 突變，支持毛狀細胞白血病（HCL）的診斷。",
+  "features": [
+    "Derivative melting curve plot (-d(F2/F1)/dT versus temperature)",
+    "Normal control shows a single peak at approximately 64-65 C representing wild-type BRAF",
+    "Patient sample shows two peaks: an additional lower-temperature peak at approximately 59 C plus the wild-type peak",
+    "The lower-Tm peak reflects probe mismatch with the mutant allele, indicating BRAF V600E"
+  ],
+  "describe_en": "The figure shows a real-time PCR melting curve analysis for the BRAF codon 600 region. The normal control demonstrates a single melting peak at approximately 64-65 C corresponding to the wild-type allele. The patient sample shows an additional peak at approximately 59 C in addition to the wild-type peak, indicating a heteroduplex/mismatch with the probe consistent with a BRAF V600E mutation. In the appropriate morphologic and immunophenotypic context, this finding supports a diagnosis of hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v is BRAF V600E wild-type (often MAP2K1 mutated), so it would show only the wild-type melting peak."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL lacks BRAF V600E and would show a single wild-type peak."},
+    {"dx": "IGHV4-34-positive HCL", "vs": "Classic HCL expressing IGHV4-34 is often BRAF wild-type (MAP2K1 mutated), so a negative melt does not entirely exclude an HCL-like disorder."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

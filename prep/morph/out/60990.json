@@ -1,0 +1,23 @@
+{
+  "id": "60990",
+  "recognize_zh": "脾臟切片見一邊界清楚的結節，由互相吻合的血管腔構成，腔內襯高柱狀內皮細胞並含紅血球；結節內某個在周圍紅髓強陽性的標記呈陰性，而組織球標記（如 CD68/CD163 樣）瀰漫陽性，符合沿岸細胞血管瘤（littoral cell angioma）。",
+  "features": [
+    "Low power: well-circumscribed, unencapsulated red-pulp nodule distinct from adjacent splenic parenchyma",
+    "Anastomosing vascular channels resembling splenic sinuses, containing red cells",
+    "Channels lined by plump, tall cuboidal-to-columnar endothelial cells, some sloughing into lumens, without significant atypia",
+    "IHC (panel B): marker strongly positive in surrounding normal sinus lining but largely lost within the nodule",
+    "IHC (panels E-F): lining cells positive for endothelial/histiocytic-type markers, with scattered positivity only in panel D",
+    "Specific antibodies are not labeled on the figure"
+  ],
+  "describe_en": "Sections of spleen show a well-circumscribed nodule composed of anastomosing, sinus-like vascular channels filled with red cells and lined by plump, tall endothelial cells that focally slough into the lumens; there is no significant cytologic atypia or mitotic activity. Immunostains (antibodies not labeled in the figure) show loss within the nodule of a marker expressed by the surrounding sinus lining, with diffuse membranous/cytoplasmic positivity of the lining cells for other markers, consistent with the dual endothelial-histiocytic phenotype (e.g., CD31+, CD68/CD163+, CD8-, CD34-) characteristic of littoral cells. Findings are consistent with littoral cell angioma of the spleen.",
+  "ddx": [
+    {"dx": "Splenic hemangioma", "vs": "Lined by flat endothelial cells that are CD34/CD31-positive but lack histiocytic markers such as CD68 and CD163."},
+    {"dx": "Splenic hamartoma (splenoma)", "vs": "Composed of disorganized red pulp with CD8-positive sinus lining cells, whereas littoral cells are CD8-negative and histiocytic-marker positive."},
+    {"dx": "Littoral cell angiosarcoma / angiosarcoma", "vs": "Shows solid areas, marked nuclear atypia, mitoses, necrosis and infiltrative growth, which are absent here."},
+    {"dx": "Sclerosing angiomatoid nodular transformation (SANT)", "vs": "Multinodular angiomatoid nodules separated by fibrosclerotic stroma with mixed CD34+/CD31+/CD8+ vessel types, rather than uniform tall littoral-type lining."}
+  ],
+  "specimen": "spleen",
+  "stain": "H&E; IHC (unlabeled panels)",
+  "match": "consistent",
+  "high_yield": false
+}

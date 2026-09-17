@@ -1,0 +1,21 @@
+{
+  "id": "62720",
+  "recognize_zh": "母細胞 gate 的核內 TdT 對細胞質 CD3（cCD3）流式圖：主要族群 TdT 呈連續性弱到中度表現、cCD3 陰性，只有一小群 cCD3 約 10^4 的細胞，比例太少不足以判定 T 系列。",
+  "features": [
+    "Dot plot gated on blasts: nuclear TdT-FITC (x) versus cytoplasmic CD3-PB (y), two overlaid populations (red and green)",
+    "Main population shows diagonal smear with TdT ~10^3 to 10^4 and low cCD3 signal (autofluorescence-related diagonal)",
+    "Main blast population cytoplasmic CD3 negative",
+    "Small separate cluster with cCD3 ~10^4, likely contaminating/residual T cells rather than blasts",
+    "Diagonal co-shift pattern suggests nonspecific background; interpret against internal negative controls"
+  ],
+  "describe_en": "Flow cytometric dot plot of the blast gate displays nuclear TdT versus cytoplasmic CD3. The major blast population shows variable TdT expression and lacks cytoplasmic CD3, with only a small discrete cCD3-positive cluster that most likely represents admixed T cells. The absence of cytoplasmic CD3 on the blasts excludes T-lineage assignment. Findings support an immature TdT-positive, cCD3-negative blast population, consistent with the reported B/myeloid rather than T/myeloid mixed phenotype acute leukemia.",
+  "ddx": [
+    {"dx": "T/myeloid mixed phenotype acute leukemia", "vs": "T/myeloid MPAL requires cytoplasmic CD3 on the blasts at mature T-cell intensity, which is absent from the main population here."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "T-ALL blasts are cCD3 positive and usually TdT positive with CD7, whereas these blasts are cCD3 negative."},
+    {"dx": "Acute myeloid leukemia with TdT expression", "vs": "TdT may be expressed in AML, so B-lineage markers (strong CD19 with CD79a/CD22/CD10) are needed to establish the B component of MPAL."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

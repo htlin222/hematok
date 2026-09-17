@@ -1,0 +1,21 @@
+{
+  "id": "1126",
+  "recognize_zh": "這是胸部 CT 肺窗軸切面，箭頭指向主動脈弓左前方前縱膈的軟組織病灶，內部有高密度區；在 T-ALL 病史下代表縱膈腔復發的腫塊，屬影像而非形態學。",
+  "features": [
+    "Axial chest CT, lung window, at the level of the aortic arch/great vessels",
+    "Soft-tissue density lesion in the left anterior mediastinum adjacent to the aorta (arrow)",
+    "Focal hyperdense component within the lesion (calcification or contrast)",
+    "Lung parenchyma clear without consolidation or nodules",
+    "Airway patent without visible compression at this level"
+  ],
+  "describe_en": "Axial chest CT (lung window) shows a soft-tissue lesion in the left anterior mediastinum adjacent to the aortic arch (arrow) containing a focal hyperdense component. The lungs are clear and the trachea is not significantly compressed at this level. Lung windows limit assessment of mediastinal soft tissue, so size and enhancement should be evaluated on mediastinal windows. In a patient with prior T-lymphoblastic leukemia/lymphoma, an anterior mediastinal mass is suggestive of relapse, but biopsy is needed to exclude residual fibrotic/treated tissue or thymic rebound.",
+  "ddx": [
+    {"dx": "Thymic rebound hyperplasia after chemotherapy", "vs": "Rebound hyperplasia is a smooth, homogeneous, symmetric thymic enlargement without calcification; PET or biopsy may be needed."},
+    {"dx": "Residual treated/fibrotic tumor", "vs": "Post-treatment residual tissue is typically stable or shrinking and PET-negative, whereas relapse enlarges and is metabolically active."},
+    {"dx": "Classic Hodgkin lymphoma (nodular sclerosis) or thymoma", "vs": "Imaging cannot separate them; histology with immunohistochemistry (TdT, CD1a, CD3 vs CD30/CD15 vs keratin) is required."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

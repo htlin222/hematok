@@ -1,0 +1,23 @@
+{
+  "id": "63101",
+  "recognize_zh": "骨髓抹片中見大小不一的母細胞，核質比高、染色質細緻、細胞質少而嗜鹼性，其中兩個細胞有單側細胞質尾巴呈手鏡狀（hand-mirror，箭頭），並伴隨淡紫色的破碎細胞（smudge cells）；需靠流式確認 T 系與 ETP 表型。",
+  "features": [
+    "Pleomorphic blasts of small to medium-large size with high N:C ratio",
+    "Round to slightly irregular nuclei with fine to moderately condensed chromatin; nucleoli inconspicuous",
+    "Scant to moderate basophilic agranular cytoplasm",
+    "Two blasts with a unipolar cytoplasmic tail (hand-mirror cells, arrows)",
+    "Scattered smudge cells with pale, spread-out nuclear material",
+    "No Auer rods identified"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows an increase in pleomorphic blasts of variable size with high N:C ratios, fine chromatin, inconspicuous nucleoli and scant agranular basophilic cytoplasm. Two blasts display a hand-mirror configuration with a unipolar cytoplasmic tail, and smudge cells are present. Auer rods are not seen. The morphology is that of acute leukemia with lymphoblast-like features; with flow cytometry showing CD34+, CD7 bright, CD33+, TdT+ and cytoplasmic CD3+ blasts, findings are consistent with T-lymphoblastic leukemia, with an early T-cell precursor immunophenotype to be confirmed by the absence of CD1a and CD8 and weak or absent CD5.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Morphologically indistinguishable; B-ALL expresses CD19, CD79a and PAX5 without cytoplasmic CD3."},
+    {"dx": "AML with minimal differentiation", "vs": "Blasts may look identical and express CD33/CD34, but they lack cytoplasmic CD3 and TdT is often negative or weak, with MPO in some blasts."},
+    {"dx": "Mixed-phenotype acute leukemia, T/myeloid", "vs": "MPAL T/myeloid requires MPO positivity or monocytic differentiation in addition to cCD3, whereas ETP-ALL shows myeloid/stem markers (CD33, CD34) without MPO."},
+    {"dx": "Hand-mirror cells in reactive lymphocytosis", "vs": "Reactive lymphocytes have mature condensed chromatin and abundant cytoplasm rather than blast chromatin and high N:C ratio."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

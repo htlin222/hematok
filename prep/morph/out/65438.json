@@ -1,0 +1,22 @@
+{
+  "id": "65438",
+  "recognize_zh": "骨髓切片 CD20 染色可見 B 細胞排成線狀、串珠狀沿骨髓竇分布，BCL2 與 IgD 呈相同竇內分布，H&E 上浸潤不明顯，是脾邊緣區淋巴瘤典型的竇內浸潤模式。",
+  "features": [
+    "CD20 highlights linear and cord-like chains of B cells within marrow sinusoids (intrasinusoidal pattern)",
+    "BCL2 and IgD stain the same intrasinusoidal lymphoid cells",
+    "H&E shows cellular marrow with trilineage hematopoiesis in which the intrasinusoidal infiltrate is inconspicuous",
+    "No discrete paratrabecular or nodular aggregates in the fields shown",
+    "Pseudo-Auer rod inclusions cannot be assessed on this fixed trephine/IHC image"
+  ],
+  "describe_en": "Bone marrow trephine biopsy shows cellular marrow with preserved trilineage hematopoiesis on H&E, in which a lymphoid infiltrate is not readily apparent. Immunohistochemistry for CD20 highlights an infiltrate of small B cells arranged in linear, intrasinusoidal chains, and these cells co-express BCL2 and IgD. The cytoplasmic Auer rod-like inclusions named in the title are not assessable in this biopsy image and are seen only on the smears. Findings are consistent with involvement by splenic marginal zone lymphoma with a predominantly intrasinusoidal pattern.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia", "vs": "HCL shows diffuse interstitial 'fried-egg' infiltrates with reticulin fibrosis and is CD25/CD103/annexin A1/BRAF V600E-positive, rather than IgD-positive intrasinusoidal chains."},
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL is also intrasinusoidal but the cells are CD3-positive, CD20-negative gamma-delta T cells."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL may show intrasinusoidal spread but is cyclin D1/SOX11-positive and CD5-positive, typically with nodular/interstitial aggregates."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL forms nodular or diffuse interstitial infiltrates of CD5/CD23/LEF1-positive cells rather than a predominantly sinusoidal pattern."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E, IHC: CD20, BCL2, IgD",
+  "match": "partial",
+  "high_yield": false
+}

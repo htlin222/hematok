@@ -1,0 +1,18 @@
+{
+  "id": "2894",
+  "recognize_zh": "低倍視野的血液抹片經 LAP 細胞化學染色，紅血球呈米黃色，散在的小點狀有核細胞染成紫紅或藍色；此倍率只能用來找白血球分布，無法評分。",
+  "features": [
+    "Low-power view of a peripheral blood smear with tan-unstained red cells",
+    "Scattered nucleated cells with red-counterstained nuclei, some with blue cytoplasmic reaction product",
+    "Individual granule intensity cannot be graded at this magnification"
+  ],
+  "describe_en": "Low-power view of a peripheral blood smear stained for leukocyte alkaline phosphatase (LAP) with a nuclear red counterstain. Leukocytes are evenly distributed across a monolayer of unstained red cells, and several show blue cytoplasmic reaction product. At this magnification the staining intensity of individual neutrophils cannot be graded; scoring requires oil-immersion assessment of 100 consecutive segmented and band neutrophils, each rated 0 to 4+.",
+  "ddx": [
+    {"dx": "Low LAP score (CML, PNH)", "vs": "Most neutrophils would lack blue granules at high power, yielding a low total score."},
+    {"dx": "High LAP score (leukemoid reaction, polycythemia vera, pregnancy, infection)", "vs": "Most neutrophils would show 2+ to 4+ granular positivity at high power."}
+  ],
+  "specimen": "PB",
+  "stain": "Cytochemistry: LAP (azo dye, red counterstain)",
+  "match": "consistent",
+  "high_yield": false
+}

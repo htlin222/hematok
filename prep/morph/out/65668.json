@@ -1,0 +1,22 @@
+{
+  "id": "65668",
+  "recognize_zh": "這是一組流式細胞儀散點圖：紅色族群為 CD34+、HLA-DR 偏強、CD45 弱陽的異常骨髓母細胞，黑色族群為 CD117 強陽、HLA-DR 陰性的肥大細胞分化，綠色大族群為 CD203c+/CD123+、HLA-DR 陰性的嗜鹼性球；三群並存支持 CML 急性轉變合併明顯嗜鹼性球增生。",
+  "features": [
+    "Multiparameter flow cytometry dot plots, color-coded populations (non-morphologic figure)",
+    "Red population: CD34-positive, HLA-DR bright, CD45 dim, CD7 positive, variable CD117 — abnormal myeloid blasts",
+    "Black population: CD117 bright, HLA-DR negative, CD203c partial/intermediate — mast cell–differentiated cells",
+    "Green population: CD45 moderate, CD123 positive, CD203c positive, HLA-DR negative, CD34 negative, CD117 negative — expanded basophils (gated)",
+    "Grey events: debris/non-viable or residual cells outside gates"
+  ],
+  "describe_en": "Flow cytometric analysis of the CSF specimen shows three color-coded populations. An abnormal myeloid blast population (red) expresses bright CD34, HLA-DR, dim CD45, CD123 and aberrant CD7, with variable CD117. A CD117-bright, HLA-DR-negative subset (black) indicates mast cell differentiation, and a dominant CD123+/CD203c+/HLA-DR− population with moderate CD45 (green) represents basophils. In the setting of known CML, the findings are consistent with extramedullary (CNS) myeloid blast phase with prominent basophilic and mast cell differentiation.",
+  "ddx": [
+    {"dx": "Plasmacytoid dendritic cells / BPDCN", "vs": "pDCs are CD123 bright and HLA-DR positive with CD4 and CD56 but lack CD203c, whereas the green basophil population here is HLA-DR negative and CD203c positive."},
+    {"dx": "Systemic mastocytosis / mast cell leukemia", "vs": "Neoplastic mast cells are CD117 bright/CD203c+ but CD123 weak and lack a coexisting CD34+ myeloblast population, which is present here in a CML context."},
+    {"dx": "Acute basophilic leukemia (de novo)", "vs": "Flow may look similar; distinction rests on BCR::ABL1 detection and prior CML history rather than immunophenotype."},
+    {"dx": "Mixed-phenotype (T/myeloid) blast phase", "vs": "Aberrant CD7 on myeloid blasts is common and insufficient; MPAL requires cytoplasmic CD3 (T) or MPO with lineage-defining B markers, which are not shown."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

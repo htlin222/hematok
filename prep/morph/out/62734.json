@@ -1,0 +1,21 @@
+{
+  "id": "62734",
+  "recognize_zh": "骨髓抹片中一條分枝狀、細長的管狀結構，由一排排梭形、雪茄狀的核沿長軸平行排列構成，胞質淡紫色、邊界不清，是被抽吸出來的微血管碎片（capillary endothelial cells），不要誤認為腫瘤細胞團。",
+  "features": [
+    "Branching elongated tubular fragment at low power (200x)",
+    "Spindle-shaped, oval to cigar-shaped nuclei aligned parallel to the long axis",
+    "Bland, evenly distributed chromatin without nucleoli or mitoses",
+    "Syncytial pale violet cytoplasm with indistinct cell borders",
+    "Background of dispersed hematopoietic cells and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear at low power shows a branching, elongated tubular fragment composed of cohesive spindle cells with oval to cigar-shaped nuclei oriented parallel to the long axis. The nuclei are bland with smooth chromatin and no nucleoli, and the cytoplasm is pale and syncytial without distinct cell borders. Scattered hematopoietic cells are present in the background. Findings are consistent with a capillary fragment lined by endothelial cells, a normal constituent of marrow aspirates.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma cluster", "vs": "Carcinoma clusters are cohesive three-dimensional groups of large pleomorphic cells with high N:C ratio and nucleoli, not linear branching tubes of bland spindle nuclei."},
+    {"dx": "Stromal/fibroblastic fragment", "vs": "Fibroblasts form looser, non-tubular clusters of spindle cells with wispy cytoplasm and may have a fibrillary matrix, rather than a vessel-shaped branching structure."},
+    {"dx": "Metastatic spindle-cell sarcoma", "vs": "Sarcoma cells show nuclear atypia, hyperchromasia and mitoses and do not form orderly capillary tubes."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

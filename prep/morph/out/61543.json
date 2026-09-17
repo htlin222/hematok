@@ -1,0 +1,21 @@
+{
+  "id": "61543",
+  "recognize_zh": "淋巴球門控的 CD8 對 CD4 散點圖：紅色為 CD4+ 輔助 T 細胞，綠色為 CD8+ 細胞毒性 T 細胞，藍色族群 CD4 與 CD8 皆陰性；搭配前圖 CD3 亮陽性、CD5 弱陰性，判讀為 γδ T 細胞。",
+  "features": [
+    "Lymphocyte-gated dot plot of CD8-ECD (x-axis) versus CD4-APC750 (y-axis)",
+    "Red population: CD4 positive, CD8 negative (helper T cells)",
+    "Green population: CD8 positive, CD4 negative, with a tight bright cluster and a trailing dimmer CD8 smear",
+    "Blue population: CD4/CD8 double-negative (the CD3-bright, CD5-dim cells on the companion plot)",
+    "Purple population: largely double-negative with a small dim CD4/CD8 diagonal smear, corresponding to CD3-negative B/NK cells"
+  ],
+  "describe_en": "Flow cytometry dot plot gated on lymphocytes displays CD8 versus CD4. Distinct CD4-positive (red) and CD8-positive (green) T-cell populations are present, the latter including a dimmer CD8 subset. A sizable blue population is negative for both CD4 and CD8; on the companion plot these cells are bright CD3-positive with dim to absent CD5. Purple events representing CD3-negative B and NK cells are mostly double-negative. The CD3+, CD5 dim, CD4−/CD8− phenotype of the blue population is most consistent with gamma-delta T cells, with confirmation by TCRγδ staining if a neoplastic process is suspected.",
+  "ddx": [
+    {"dx": "Hepatosplenic or other gamma-delta T-cell lymphoma", "vs": "Neoplastic gamma-delta cells form an expanded, uniform population with additional aberrancies (e.g. CD7 loss, CD56 gain) and clonal TCRG rearrangement, rather than a heterogeneous minor subset."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL is usually CD8+ with CD57/CD16 expression and aberrant CD5/CD7 dimming, whereas the blue cells lack CD8."},
+    {"dx": "Double-negative alpha-beta T cells in ALPS", "vs": "ALPS double-negative T cells are TCRαβ+ and elevated above ~2.5% of T cells, requiring TCRαβ/γδ staining to separate from gamma-delta cells."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

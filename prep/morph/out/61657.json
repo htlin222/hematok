@@ -1,0 +1,21 @@
+{
+  "id": "61657",
+  "recognize_zh": "血片中紅血球非常擁擠、彼此重疊，形態大致正常，並可見數顆成熟分葉嗜中性球與一小團血小板聚集；紅血球擁擠提示血球容積升高，但本身不具特異性，需結合 JAK2 突變等資料才能判定真性紅血球增多症。",
+  "features": [
+    "Densely crowded, overlapping normocytic normochromic red cells with little free background",
+    "Several mature segmented neutrophils without toxic change or dysplasia",
+    "Two mononuclear cells with irregular elongated shapes distorted by the crowded red cells (upper centre and upper right)",
+    "Small platelet clump at top centre and scattered single platelets",
+    "No nucleated red cells, blasts or teardrop cells in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows densely packed, overlapping red cells that are predominantly normocytic and normochromic, suggestive of an increased hematocrit. Mature segmented neutrophils are present without toxic or dysplastic changes, along with occasional mononuclear cells distorted by the crowded red cells. Platelets are present singly and in a small clump. No blasts, nucleated red cells or teardrop cells are identified. These nonspecific findings are compatible with polycythemia vera in the appropriate clinical and molecular context.",
+  "ddx": [
+    {"dx": "Secondary erythrocytosis", "vs": "Morphology is similar, so separation requires ancillary data: secondary erythrocytosis has normal or high erythropoietin, no JAK2 mutation and usually no leukocytosis or thrombocytosis."},
+    {"dx": "Relative polycythemia from dehydration", "vs": "Relative polycythemia shows comparable red cell crowding but normal red cell mass and no JAK2 mutation, and normalizes after rehydration."},
+    {"dx": "Thick area of a normal smear", "vs": "A thick smear region shows similar red cell overlap artifactually, so the monolayer area and measured hemoglobin/hematocrit must be reviewed before interpreting crowding as erythrocytosis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64026",
+  "recognize_zh": "骨髓抹片中一群小到中型淋巴細胞，核圓、染色質凝集，胞質少量淡藍色且常偏向一側，少數可見明顯核仁，背景有顆粒球前驅細胞，符合成熟 B 細胞淋巴瘤（如脾邊緣區淋巴瘤）侵犯骨髓。",
+  "features": [
+    "Increased small to medium-sized lymphoid cells with round to slightly irregular nuclei",
+    "Moderately condensed chromatin; a few cells with a visible nucleolus",
+    "Scant to moderate pale blue cytoplasm, sometimes polar/eccentric giving a plasmacytoid look",
+    "Villous cytoplasmic projections not clearly evident on these cells",
+    "Background granulocytic precursors (myelocytes, band neutrophil) and scattered platelets"
+  ],
+  "describe_en": "Bone marrow aspirate smear (Romanowsky stain, high power) shows an increased population of small to medium-sized mature-appearing lymphoid cells with round to slightly irregular nuclei, moderately condensed chromatin and scant to moderate pale blue cytoplasm, which is eccentric in some cells. Occasional cells show a visible nucleolus. Distinct villous projections are not evident in this field, and maturing granulocytic precursors are present in the background. Findings are consistent with marrow involvement by a mature B-cell lymphoproliferative disorder, compatible with splenic marginal zone lymphoma in context; flow cytometry and trephine biopsy (intrasinusoidal pattern) are required for classification.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are smaller with scant cytoplasm and 'soccer-ball' clumped chromatin, and flow shows CD5+/CD23+/dim sIg, while SMZL is typically CD5-/CD23-/CD103-."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL cells have oval or bean-shaped nuclei with fine chromatin and abundant cytoplasm with circumferential hairy projections, and are CD11c+/CD25+/CD103+/annexin A1+ with BRAF V600E."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with IgM paraprotein and MYD88 L265P, which overlaps morphologically with SMZL."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL cells have irregular, cleaved nuclei and are CD5+ with cyclin D1/SOX11 expression and t(11;14)."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

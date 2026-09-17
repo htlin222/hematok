@@ -1,0 +1,22 @@
+{
+  "id": "60426",
+  "recognize_zh": "低倍（A、B）見結構完全被單一形態的大型細胞瀰漫取代，高倍（C）細胞核大、染色質細緻、偶見明顯核仁，並散布含吞噬碎片的組織球與凋亡小體（星空樣）；免疫染色顯示 B 細胞膜染色、CD10 陽性、Ki-67 極高。形態只能說是高惡性 B 細胞淋巴瘤，「三重打擊」必須靠 FISH 證實 MYC、BCL2、BCL6 重排。",
+  "features": [
+    "Diffuse, sheet-like effacement of tissue by a monotonous lymphoid infiltrate at low power (A, B)",
+    "Large cells with vesicular to finely dispersed chromatin, scant cytoplasm and occasional prominent nucleoli (C)",
+    "Numerous apoptotic bodies, mitoses and scattered tingible-body macrophages imparting a focal starry-sky appearance (C)",
+    "Membranous B-cell marker staining (D, weaker/variable; E, strong diffuse membranous)",
+    "Very high Ki-67 proliferation index with nuclear staining in nearly all tumor cells (F)"
+  ],
+  "describe_en": "Sections show diffuse effacement by sheets of monotonous atypical lymphoid cells. At high power, the cells are large, with vesicular to fine chromatin, scant cytoplasm and occasional prominent nucleoli, accompanied by frequent mitoses, apoptotic bodies and tingible-body macrophages. Immunohistochemistry shows membranous staining for CD20 (panel D, weaker and more variable in this field) and strong diffuse CD10 (panel E), and a Ki-67 proliferation index approaching 100% (F). The morphology and germinal center B-cell phenotype are those of a high-grade B-cell lymphoma; with FISH demonstrating MYC, BCL2 and BCL6 rearrangements, findings are consistent with high-grade B-cell lymphoma with MYC and BCL2 rearrangements ('triple hit').",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are medium-sized, uniform with squared-off cytoplasmic borders and multiple small nucleoli, BCL2-negative, and have isolated MYC::IG translocation without BCL2 rearrangement."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL NOS can look identical and have high Ki-67, so FISH for MYC with BCL2 (and BCL6) rearrangements is required for the distinction."},
+    {"dx": "B-lymphoblastic lymphoma", "vs": "Lymphoblastic lymphoma has finer blastic chromatin with inconspicuous nucleoli and expresses TdT/CD34, often with weak or absent CD20."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is CD5-positive and cyclin D1/SOX11-positive with CCND1 rearrangement, and typically CD10-negative."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD20, CD10, Ki-67",
+  "match": "consistent",
+  "high_yield": false
+}

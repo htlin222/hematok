@@ -1,0 +1,29 @@
+{
+  "id": "100",
+  "recognize_zh": "淋巴結正常結構被瀰漫性小至中型淋巴球浸潤取代，只殘留少數濾泡（CD20 標出殘存濾泡）；T 細胞標記在濾泡間區呈瀰漫陽性，EBER 原位雜交在大量浸潤細胞核呈陽性，流式顯示 CD8 優勢（CD4:CD8 倒置），加上兒童臨床背景，指向全身性 EBV 陽性 T 細胞淋巴瘤。",
+  "features": [
+    "Low power: lymph node architecture largely effaced by a diffuse lymphoid infiltrate with only a few residual follicles pushed toward the periphery",
+    "High power: sheets of small to intermediate lymphocytes with round to slightly irregular nuclei and mild atypia, admixed with scattered larger cells with vesicular chromatin, histiocytes and eosinophilic debris",
+    "IHC: diffuse strong staining of the interfollicular infiltrate for T-cell markers with sparing of residual follicles; one marker stains only a subset of cells",
+    "CD20-type stain highlights discrete residual B-cell follicles; a second stain shows nuclear positivity confined to follicle centers",
+    "EBER ISH: numerous positive nuclei (dark blue-purple signal) throughout the infiltrate",
+    "Flow cytometry of lymphocytes: CD8+ 51.13%, CD4+ 26.59%, CD4/CD8 double-negative 21.28% (inverted CD4:CD8 ratio)"
+  ],
+  "describe_en": "Lymph node excision shows near-total effacement of the normal architecture by a diffuse infiltrate, with scattered residual follicles at the periphery. At high power the infiltrate is composed of small to intermediate lymphocytes with mildly irregular nuclei, admixed with scattered larger cells and histiocytes. Immunohistochemistry shows diffuse interfollicular staining for T-cell markers that spares the residual follicles, while a B-cell stain highlights the residual follicles; the individual stains are not labeled in the figure, so antigen-specific loss (such as the reported CD5 downregulation) cannot be confirmed from the images alone. EBER in situ hybridization is positive in numerous infiltrating cells, and flow cytometry shows a CD8-predominant T-cell population with an inverted CD4:CD8 ratio and a sizable CD4/CD8 double-negative fraction. In the setting of a child with systemic EBV infection, clonal TCR rearrangement and multifocal nodal and splenic disease, findings are consistent with systemic EBV-positive T-cell lymphoma of childhood.",
+  "ddx": [
+    {"dx": "Infectious mononucleosis lymphadenitis", "vs": "IM shows a polymorphous, predominantly B-immunoblastic EBER-positive population with preserved sinuses, polyclonal TCR and no sheets of EBER-positive monotonous T cells."},
+    {"dx": "Chronic active EBV disease, T-cell type", "vs": "CAEBV has EBER-positive T/NK cells but a less monotonous infiltrate without architectural effacement and a longer indolent course; the distinction relies on clinical tempo and clonality context."},
+    {"dx": "EBV-associated hemophagocytic lymphohistiocytosis", "vs": "EBV-HLH shows prominent hemophagocytosis and fewer EBER-positive T cells without a destructive monotonous nodal infiltrate, though the two overlap and can coexist."},
+    {"dx": "Extranodal NK/T-cell lymphoma, nasal type", "vs": "ENKTL is typically extranodal and angiocentric with necrosis, expresses cytoplasmic CD3 and CD56 with cytotoxic markers and usually lacks TCR rearrangement, unlike this clonal surface CD3+ nodal T-cell process."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC (unlabeled markers); ISH: EBER; flow cytometry",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "H&E lymph node: A, low power with diffuse effacement and residual peripheral follicles; B, high power with small to intermediate atypical lymphocytes and histiocytes",
+    "IHC (markers unlabeled): A-C, diffuse interfollicular staining sparing residual follicles; D, positivity in a subset of infiltrating cells",
+    "A, B-cell stain highlighting residual follicles; B, nuclear stain restricted to follicle centers; C, EBER ISH positive in numerous infiltrating cells",
+    "Flow cytometry of lymphocytes: CD8+ 51.13%, CD4+ 26.59%, double-negative 21.28%, with inverted CD4:CD8 ratio"
+  ]
+}

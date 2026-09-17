@@ -1,0 +1,30 @@
+{
+  "id": "2606",
+  "recognize_zh": "這是G顯帶部分核型圖（非形態學影像），並排呈現正常15、der(15)、正常17與der(17)，箭頭標示斷點：der(15)變長而der(17)變短，代表15與17號染色體長臂互相易位，即APL的t(15;17)(q24.1;q21.2)。",
+  "features": [
+    "Partial G-banded karyotype displayed as inverted (light-on-dark) image",
+    "Normal chromosome 15 paired with a der(15) that is longer, with an arrow at the 15q breakpoint",
+    "Normal chromosome 17 paired with a markedly shortened der(17), with an arrow at the 17q breakpoint",
+    "Pattern indicates reciprocal exchange of distal 15q and 17q material, t(15;17)(q24.1;q21.2)",
+    "Resolution does not permit precise band-level assignment"
+  ],
+  "describe_en": "This is a partial G-banded karyotype, not a morphologic image, showing a normal chromosome 15 and a derivative 15, and a normal chromosome 17 and a derivative 17. Arrows mark the breakpoints on the long arms: the der(15) is lengthened by acquisition of distal 17q material, and the der(17) is shortened by loss of distal 17q to chromosome 15 with gain of the smaller distal 15q segment. This balanced reciprocal translocation corresponds to t(15;17)(q24.1;q21.2), which fuses PML with RARA and is diagnostic of acute promyelocytic leukemia. The image resolution does not permit exact band-level confirmation, and FISH or RT-PCR for PML::RARA is typically used for rapid confirmation.",
+  "ddx": [
+    {
+      "dx": "Variant RARA translocations (e.g., t(11;17) ZBTB16::RARA)",
+      "vs": "Variant APL involves 17q21 with a different partner chromosome and is resistant to ATRA, identified by karyotype partner or RARA break-apart FISH."
+    },
+    {
+      "dx": "Cryptic PML::RARA with normal karyotype",
+      "vs": "Some APL cases lack a visible translocation because of submicroscopic insertion, detectable only by FISH or RT-PCR."
+    },
+    {
+      "dx": "Isochromosome 17q or other 17 abnormalities",
+      "vs": "i(17q) produces a symmetric chromosome with two long arms and no partner derivative 15, unlike the reciprocal der(15)/der(17) pair."
+    }
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding (Giemsa)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61645",
+  "recognize_zh": "中高倍下一大片密集的較大細胞，核圓、染色質細緻、可見小核仁、細胞質淡嗜鹼性，與左上方含成熟顆粒球及紅血球的正常骨髓分界清楚；這些群聚的未成熟細胞經 glycophorin 證實為紅系前驅細胞，是 PCM1::JAK2 腫瘤的特徵。",
+  "features": [
+    "Dense cohesive sheet of medium to large immature cells with round nuclei",
+    "Fine chromatin with small visible nucleoli and pale basophilic cytoplasm",
+    "Occasional mitotic figures within the aggregate",
+    "Sharp interface with adjacent maturing myeloid marrow containing red cells",
+    "Small blood vessel at lower left"
+  ],
+  "describe_en": "The bone marrow biopsy shows a dense, cohesive sheet of medium to large immature cells with round nuclei, fine chromatin, small nucleoli and pale basophilic cytoplasm, sharply demarcated from the adjacent marrow with maturing myeloid elements. Occasional mitoses are present within the aggregate. On H&E the differential includes blasts, immature erythroid precursors and non-hematopoietic tumor; glycophorin C immunostaining identifies these cells as immature erythroid precursors. Findings are consistent with the expanded immature erythroid islands characteristic of myeloid/lymphoid neoplasm with PCM1::JAK2.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts are CD34/CD117 positive and glycophorin/E-cadherin negative."},
+    {"dx": "Pure erythroid leukemia", "vs": "Morphologically similar immature erythroid sheets, but PEL has more than 80% erythroid cells with at least 30% proerythroblasts and TP53/complex karyotype rather than a JAK2 fusion with eosinophilia."},
+    {"dx": "Metastatic small round cell tumor or carcinoma", "vs": "Tumor cells are keratin or other lineage marker positive, CD45 and glycophorin negative, often with desmoplastic stroma."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic erythroid hyperplasia shows open-chromatin precursors with maturation, nuclear-cytoplasmic asynchrony and giant bands, with low B12/folate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

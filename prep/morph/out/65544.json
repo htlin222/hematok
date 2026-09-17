@@ -1,0 +1,22 @@
+{
+  "id": "65544",
+  "recognize_zh": "這是四格組合圖：A 周邊血可見大型芽細胞樣淋巴瘤細胞，細胞質深藍、核內有明顯核仁；B 流式顯示單株 kappa、CD19/CD20 陽性且 CD5 陽性、CD10/TdT/CD34 陰性；C 骨髓切片為大細胞瀰漫取代；D 光學基因圖譜顯示 MYC、BCL2、BCL6 與 IGH 融合。這些合起來支持 CD5 陽性、帶 MYC/BCL2/BCL6 重組的高惡性度 B 細胞淋巴瘤。",
+  "features": [
+    "Panel A (PB, Wright-Giemsa): large atypical lymphoid cells, 2–3 times RBC size, with round to indented nuclei, vesicular chromatin, conspicuous nucleoli and a rim of deeply basophilic cytoplasm",
+    "Panel B (flow): CD45+ population that is CD19+, CD20+, CD38+, CD5+, CD10−, CD34−, TdT−, MPO− with kappa light chain restriction",
+    "Panel C (BM biopsy, H&E): diffuse sheets of large cells with vesicular nuclei and nucleoli replacing the marrow",
+    "Panel D (optical genome mapping): circos plot with multiple inter-chromosomal translocations; table lists BCL6::IGH::MYC, IGH::BCL2 and CDKN2A deletion",
+    "Background PB red cells show poikilocytes including crenated forms"
+  ],
+  "describe_en": "Composite figure. Peripheral blood smear shows numerous large atypical lymphoid cells with vesicular chromatin, prominent nucleoli and deeply basophilic cytoplasm, some mimicking blasts. Flow cytometry demonstrates a kappa-restricted mature B-cell population (CD19+, CD20+, CD38+) with aberrant CD5 expression and lack of CD10, CD34 and TdT. The bone marrow biopsy is replaced by diffuse sheets of large cells, and optical genome mapping shows rearrangements juxtaposing MYC, BCL2 and BCL6 with IGH. Findings are consistent with CD5-positive high-grade B-cell lymphoma with MYC, BCL2 and BCL6 rearrangements (DLBCL/HGBL with MYC and BCL2 rearrangements) in leukemic phase.",
+  "ddx": [
+    {"dx": "Pleomorphic or blastoid mantle cell lymphoma", "vs": "Blastoid MCL is also CD5+ and can be leukemic but is cyclin D1 and SOX11 positive with t(11;14), both of which were negative here."},
+    {"dx": "Richter transformation of CLL/SLL", "vs": "Richter transformation arises from a CD5+/CD23+ CLL clone with dim surface immunoglobulin and prior CLL history, and double-hit rearrangements are uncommon."},
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts express TdT and/or CD34 and lack surface light chains, whereas these cells are TdT−, CD34− and kappa restricted."},
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt lymphoma is CD10+, BCL2−, with isolated MYC::IG rearrangement and uniform medium-sized cells with lipid vacuoles, rather than CD5+/CD10− cells with concurrent BCL2 rearrangement."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa; H&E; flow cytometry; OGM",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "61819",
+  "recognize_zh": "周邊血抹片中一顆嗜中性球核分成兩大葉，葉間有兩個小核碎片（nuclear projections），細胞質顆粒偏少，屬於核分葉異常的發育不良嗜中性球；背景紅血球有輕度大小不一與橢圓形紅血球。",
+  "features": [
+    "Neutrophil with two main nuclear lobes and small detached nuclear fragments between them",
+    "Coarsely clumped nuclear chromatin",
+    "Pale cytoplasm with reduced, sparse granulation",
+    "Background red cells with mild anisocytosis and scattered ovalocytes",
+    "Platelets not conspicuous in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil with abnormal nuclear segmentation, comprising two main lobes with small detached nuclear fragments between them, coarse chromatin and reduced cytoplasmic granulation. Background red cells show mild anisocytosis with scattered ovalocytes, and platelets are inconspicuous in this field. Dysplasia should be confirmed by review of multiple neutrophils. Findings are consistent with dysgranulopoiesis in a myeloid neoplasm associated with germline GATA2 mutation.",
+  "ddx": [
+    {"dx": "Apoptotic neutrophil", "vs": "Apoptotic neutrophils show dense, round, pyknotic nuclear fragments with hypereosinophilic shrunken cytoplasm rather than intact lobes with normal-sized cell."},
+    {"dx": "Hypersegmented neutrophil of megaloblastic anemia", "vs": "Megaloblastic neutrophils have six or more connected lobes and are accompanied by oval macrocytes."},
+    {"dx": "Inherited Pelger-Huet anomaly", "vs": "Congenital bilobed neutrophils are normally granulated and uniform, without detached nuclear fragments."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

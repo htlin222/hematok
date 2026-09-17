@@ -1,0 +1,21 @@
+{
+  "id": "62115",
+  "recognize_zh": "G 顯帶核型標示 8 號與 14 號染色體各有一條衍生染色體（箭頭），核型式寫 46,XY,t(8;14)(q24.2;q32.3)；FISH 以 MYC（紅）/CEP8（藍）/IGH（綠）探針顯示兩個紅綠融合訊號，位於 der(8) 與 der(14)，確認 MYC::IGH 易位。",
+  "features": [
+    "G-banded karyotype: 46,XY,t(8;14)(q24.2;q32.3) with arrows on der(8) and der(14)",
+    "Partial karyotype inset pairs normal 8 and 14 with their derivatives",
+    "Interphase FISH (MYC red, CEP8 aqua, IGH green): two red-green fusion signals plus one separate red and one green signal",
+    "Metaphase FISH localizes fusion signals to der(8) and der(14)",
+    "Otherwise normal chromosome complement"
+  ],
+  "describe_en": "This composite is a non-morphologic cytogenetic figure. The G-banded karyotype shows 46,XY,t(8;14)(q24.2;q32.3), a balanced reciprocal translocation between the long arms of chromosomes 8 and 14 with no additional numerical or structural abnormalities evident. Tri-color dual-fusion FISH with MYC, CEP8, and IGH probes demonstrates two fusion signals in interphase, localized on metaphase to der(8) and der(14), with retained normal MYC and IGH signals on the non-rearranged homologs. Findings confirm an IGH::MYC rearrangement, characteristic of Burkitt lymphoma in the appropriate morphologic and immunophenotypic context.",
+  "ddx": [
+    {"dx": "Variant MYC translocations t(2;8) or t(8;22)", "vs": "These juxtapose MYC with IGK or IGL, so an IGH probe would show no fusion while a MYC break-apart probe would still be split."},
+    {"dx": "High-grade B-cell lymphoma with MYC and BCL2 rearrangements", "vs": "Also carries MYC rearrangement, but requires an additional BCL2 (e.g., t(14;18)) break, so BCL2 FISH is needed to exclude it."},
+    {"dx": "t(11;14) CCND1::IGH (mantle cell lymphoma/myeloma)", "vs": "Involves IGH on 14q32 but the partner is 11q13 CCND1, not 8q24 MYC, and the der chromosomes differ."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "G-banding; FISH (MYC/CEP8/IGH)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

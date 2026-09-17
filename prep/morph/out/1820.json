@@ -1,0 +1,22 @@
+{
+  "id": "1820",
+  "recognize_zh": "骨髓切片中成片的大型組織球取代造血組織，細胞質豐富、淡粉紅並呈細纖維條紋狀，核小而偏位，左側僅殘存少量造血細胞，這是 H&E 染色下的高雪氏細胞（Gaucher cells）浸潤。",
+  "features": [
+    "Sheets of large histiocytes replacing marrow hematopoietic tissue",
+    "Abundant pale eosinophilic cytoplasm with fine fibrillary/striated texture",
+    "Small, bland, eccentric nuclei without significant atypia",
+    "Residual hematopoietic cells compressed at the left edge",
+    "Fat spaces present; no mitoses or necrosis seen"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows extensive replacement of the marrow space by sheets of large histiocytes. The histiocytes contain abundant pale eosinophilic cytoplasm with a fine fibrillary, striated texture and small bland eccentric nuclei. Residual hematopoietic elements are confined to the periphery of the field, and there is no significant cytologic atypia or necrosis. Findings are consistent with Gaucher cell infiltration; enzyme assay and GBA1 genotyping are required for confirmation.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells", "vs": "Can look identical but occur in CML, myeloma, thalassemia or mycobacterial infection with normal glucocerebrosidase activity."},
+    {"dx": "Mycobacterium avium complex infection", "vs": "Striated histiocytes contain numerous acid-fast bacilli on Ziehl-Neelsen stain."},
+    {"dx": "Niemann-Pick disease", "vs": "Foam cells have finely vacuolated, bubbly cytoplasm rather than fibrillary striations."},
+    {"dx": "Crystal-storing histiocytosis", "vs": "Histiocytes contain eosinophilic crystalline immunoglobulin and are associated with a light-chain-restricted lymphoplasmacytic neoplasm."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

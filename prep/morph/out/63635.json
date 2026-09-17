@@ -1,0 +1,22 @@
+{
+  "id": "63635",
+  "recognize_zh": "周邊血中一群大型異常細胞，細胞核有明顯的中央摺痕，呈雙葉或蝴蝶形（bilobed/butterfly nucleus），細胞質少且幾乎看不到顆粒，這是急性前骨髓細胞白血病微顆粒型（APL, hypogranular/microgranular variant）的典型表現。",
+  "features": [
+    "Cluster of large abnormal cells with high N:C ratio in peripheral blood",
+    "Nuclei deeply folded with a central groove, producing bilobed, butterfly- or dumbbell-shaped contours",
+    "Moderately fine chromatin; nucleoli not prominent",
+    "Scant to moderate cytoplasm with few or no visible granules (microgranular); no Auer rods or faggot cells seen in this field",
+    "Background normocytic red cells with no platelets conspicuous"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of large atypical cells with high N:C ratio and characteristic deeply folded, bilobed to butterfly-shaped nuclei with moderately fine chromatin. The cytoplasm is scant and appears largely agranular at light-microscopic resolution, and no Auer rods or faggot cells are identified in this field. Platelets are not conspicuous. Findings are consistent with acute promyelocytic leukemia, microgranular (hypogranular) variant; this is a medical emergency, and urgent coagulation studies, strong MPO confirmation and PML::RARA testing are indicated.",
+  "ddx": [
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts/promonocytes have folded nuclei too, but abundant grey-blue vacuolated cytoplasm, are MPO weak/negative, nonspecific esterase positive and HLA-DR positive, whereas APL is strongly MPO+ and HLA-DR negative."},
+    {"dx": "Hypergranular APL", "vs": "Classic APL shows abundant coarse azurophilic granules obscuring the nucleus and frequent faggot cells, while the microgranular variant appears nearly agranular."},
+    {"dx": "Sézary cells / T-cell lymphoma", "vs": "Sézary cells have cerebriform grooved nuclei with condensed chromatin and are MPO-negative, CD4+ T cells."},
+    {"dx": "AML with NPM1 mutation (cup-like blasts)", "vs": "Cup-like blasts have a single nuclear invagination rather than bilobed folding and lack PML::RARA."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

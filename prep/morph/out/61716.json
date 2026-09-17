@@ -1,0 +1,21 @@
+{
+  "id": "61716",
+  "recognize_zh": "周邊血抹片高倍只見一個單核細胞：大小略大於紅血球，核稍不規則、染色質中度濃縮，胞質淡染並帶細小顆粒／微空泡；單看這一顆細胞並不具特異性，需配合流式與免疫染色才能判定為 BPDCN 循環腫瘤細胞。",
+  "features": [
+    "Single small-to-intermediate mononuclear cell, about 1.5 times the diameter of adjacent red cells",
+    "Slightly irregular, indented nucleus with moderately condensed chromatin; no distinct nucleolus",
+    "Moderate rim of pale cytoplasm with fine granular/microvacuolated texture",
+    "No Auer rods or coarse granules",
+    "Background red cells normocytic without other diagnostic abnormalities"
+  ],
+  "describe_en": "Peripheral blood smear at high power shows a single small-to-intermediate mononuclear cell with a slightly irregular nucleus, moderately condensed chromatin without a conspicuous nucleolus, and a moderate rim of pale cytoplasm with fine granular or microvacuolated texture. Background red cells are unremarkable. The morphology of this isolated cell is nonspecific and could represent a circulating neoplastic cell, a large granular lymphocyte or a reactive lymphocyte. In the context of known blastic plasmacytoid dendritic cell neoplasm it may represent a circulating tumor cell, but confirmation requires flow cytometry (CD4, CD56, CD123-bright, HLA-DR).",
+  "ddx": [
+    {"dx": "Large granular lymphocyte", "vs": "LGLs have discrete coarse azurophilic granules in more abundant clear cytoplasm and a round mature nucleus, and are CD3/CD8 or CD56/CD16-positive without CD123."},
+    {"dx": "Reactive lymphocyte", "vs": "Reactive lymphocytes typically have more abundant basophilic cytoplasm that scallops around red cells, rather than a fine microvacuolated rim."},
+    {"dx": "Monocyte", "vs": "Monocytes are larger with folded nuclei, lacy chromatin and gray-blue cytoplasm with fine granules and vacuoles, and are CD14+/CD64+ on flow."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

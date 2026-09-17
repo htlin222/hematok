@@ -1,0 +1,22 @@
+{
+  "id": "64381",
+  "recognize_zh": "三張圖中的分葉核中性球外圍都被一圈緊貼細胞膜的血小板環繞（platelet rosetting），這種血小板衛星現象是 EDTA 引起的體外假象，也是假性血小板低下的原因之一。",
+  "features": [
+    "Segmented neutrophils encircled by a complete or near-complete rim of adherent platelets",
+    "Platelets are normal in size and granularity, individually discernible around the cell membrane",
+    "Neutrophil nuclei and cytoplasmic granulation otherwise unremarkable",
+    "Occasional small platelet aggregates in the background",
+    "Red cells normocytic, normochromic"
+  ],
+  "describe_en": "Peripheral blood smear shows several segmented neutrophils surrounded by rosettes of adherent, normal-appearing platelets. Neutrophil morphology is otherwise unremarkable, and small platelet clumps are present in the background. Red cells are normocytic and normochromic. Findings are consistent with platelet satellitism, an in vitro EDTA-dependent phenomenon that can cause spurious thrombocytopenia; a repeat count in citrate or heparin, or a fingerstick smear, is recommended.",
+  "ddx": [
+    {"dx": "EDTA-induced platelet clumping", "vs": "Platelet clumping forms free-lying aggregates in the smear and feathered edge rather than rosettes adhering around neutrophils, though both may coexist."},
+    {"dx": "Phagocytosis of platelets", "vs": "Platelet phagocytosis shows platelets inside the neutrophil cytoplasm, sometimes within vacuoles, rather than attached to the outer membrane."},
+    {"dx": "Toxic granulation", "vs": "Toxic granules lie within the cytoplasm and are finer and uniformly distributed, rather than discrete platelet-sized bodies around the cell border."},
+    {"dx": "Circulating microorganisms adherent to cells", "vs": "Bacteria or yeast are uniform in shape and lack the granular purple centers of platelets."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1437",
+  "recognize_zh": "骨髓切片（H&E）左圖為細胞密度增加的骨髓，右圖高倍可見大量圓核、深染的紅血球系前驅細胞成群，間質散佈棕色含鐵血黃素（hemosiderin）顆粒；環狀鐵粒母細胞本身需鐵染色才能確認。",
+  "features": [
+    "Hypercellular marrow for age with reduced fat spaces between a bony trabecula",
+    "Erythroid hyperplasia: numerous precursors with round, dark, condensed nuclei in clusters",
+    "Coarse golden-brown hemosiderin pigment deposits in the interstitium and macrophages",
+    "A megakaryocyte present at the left of the high-power panel",
+    "Granulocytic precursors relatively less conspicuous than erythroid elements",
+    "Ring sideroblasts are not assessable on H&E"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a hypercellular marrow with trabecular bone and reduced fat. At high power there is erythroid predominance, with clusters of precursors bearing round, hyperchromatic nuclei, together with coarse brown hemosiderin deposits and occasional megakaryocytes. No increase in blasts is evident on this field. Ring sideroblasts cannot be evaluated on H&E sections; an iron stain on the aspirate and SF3B1 mutation testing are required. Findings are suggestive of erythroid hyperplasia with increased storage iron, in keeping with the provided diagnosis of MDS with ring sideroblasts.",
+  "ddx": [
+    {"dx": "Congenital or acquired non-clonal sideroblastic anemia (e.g., alcohol, copper deficiency, isoniazid)", "vs": "Morphology can be identical; exclusion requires clinical history, copper/zinc levels, and absence of clonal markers such as SF3B1 mutation."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic anemia shows nuclear-cytoplasmic asynchrony with open chromatin in erythroid precursors and giant metamyelocytes, rather than ring sideroblasts on iron stain."},
+    {"dx": "MDS/MPN with ring sideroblasts and thrombocytosis", "vs": "This entity has platelet count >=450 x10^9/L with large atypical megakaryocytes resembling ET/PMF, which are not evident here."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64408",
+  "recognize_zh": "H&E（A、B）顯示以脂肪為主的低細胞性骨髓；CD138（D）標出散在的漿細胞，CD31（C）同樣呈現散在的膜狀陽性單核細胞，並有血管內皮作為內建陽性對照，表示這些反應性漿細胞表現 CD31。",
+  "features": [
+    "Hypocellular marrow with abundant adipose tissue and a bony trabecula (panel B)",
+    "Residual cellularity composed mainly of small round lymphoid-appearing cells, scattered erythroid cells and extravasated red cells",
+    "CD138 highlights scattered, non-clustered plasma cells with membranous staining (panel D)",
+    "CD31 shows membranous/cytoplasmic staining in scattered round cells with plasma cell size and distribution (panel C)",
+    "CD31 positivity in vascular endothelium serves as an internal positive control"
+  ],
+  "describe_en": "Bone marrow core biopsy sections (H&E) show a markedly hypocellular marrow with predominance of fat, residual small lymphoid cells, scattered erythroid elements and interstitial hemorrhage; no blast aggregates or atypical infiltrates are identified. CD138 highlights scattered interstitial plasma cells without sheets or clusters. CD31 stains a similar population of scattered round cells in addition to vascular endothelial cells, which serve as internal control. Findings are consistent with CD31 expression by scattered, likely reactive plasma cells in a hypocellular marrow; clonality must be assessed with kappa/lambda staining.",
+  "ddx": [
+    {"dx": "Plasma cell neoplasm", "vs": "Neoplastic plasma cells form clusters, sheets or increased interstitial counts with light-chain restriction, whereas here CD138-positive cells are scattered and reported polyclonal."},
+    {"dx": "CD31-positive megakaryocytes or histiocytes", "vs": "Megakaryocytes and macrophages also express CD31 but are larger with distinct morphology and are CD138-negative, so correlation with the CD138 pattern is required."},
+    {"dx": "Aplastic anemia with lymphocyte predominance", "vs": "Aplastic anemia also shows a hypocellular fatty marrow with residual lymphocytes and plasma cells; the IHC here does not distinguish it, which requires clinical, PB and cytogenetic correlation."},
+    {"dx": "Hypocellular MDS", "vs": "Hypocellular MDS shows dysplasia, possible increased CD34-positive blasts or clonal cytogenetic/NGS abnormalities, which were not found in this case."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC: CD31, CD138",
+  "match": "consistent",
+  "high_yield": false
+}

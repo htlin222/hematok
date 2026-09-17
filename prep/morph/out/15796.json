@@ -1,0 +1,22 @@
+{
+  "id": "15796",
+  "recognize_zh": "APL 病人接受 ATRA 治療後，肘部出現紅色丘疹與融合的水腫性紅斑塊；皮膚切片可見真皮內瀰漫的中性球與骨髓系細胞浸潤，沒有血管炎，類似 Sweet 症候群的嗜中性皮膚病。",
+  "features": [
+    "Panel A (clinical): erythematous, edematous papules coalescing into a juicy, vesiculopustular-appearing plaque over the elbow with satellite papules",
+    "Panel B (H&E, low-medium power): dense dermal infiltrate between collagen bundles composed of neutrophils and mononuclear myeloid cells",
+    "Panel C (high power): interstitial cells with lobulated/bilobed and indented nuclei dissecting through collagen",
+    "Papillary dermal edema and absence of an obvious leukocytoclastic vasculitis at this resolution",
+    "No epidermal changes of a drug-induced interface reaction visible in the sections"
+  ],
+  "describe_en": "Clinical photograph shows erythematous, edematous papules and a coalescent plaque with a pseudovesicular surface over the elbow on day 18 of ATRA-based induction. The skin biopsy shows a dense interstitial and perivascular dermal infiltrate of neutrophils and maturing myeloid cells with lobulated and indented nuclei dissecting between collagen bundles, with dermal edema. Definite vasculitis is not seen at this image resolution. Findings are consistent with an ATRA-associated neutrophilic dermatosis (Sweet syndrome-like reaction); differentiating leukemic infiltrates (leukemia cutis of maturing APL cells) should be excluded with MPO/CD117 and PML::RARA studies where needed.",
+  "ddx": [
+    {"dx": "Leukemia cutis (APL)", "vs": "Leukemia cutis shows monotonous atypical promyelocytes or blasts rather than a mixed infiltrate of mature neutrophils, and may harbor PML::RARA in the lesional cells."},
+    {"dx": "Drug-induced morbilliform eruption (chemotherapy or antibiotics)", "vs": "Morbilliform drug eruptions show sparse perivascular lymphocytes and eosinophils with interface change rather than a dense neutrophilic dermal infiltrate."},
+    {"dx": "Leukocytoclastic vasculitis", "vs": "LCV presents as palpable purpura with fibrinoid necrosis of small vessel walls and nuclear dust, which is not the dominant finding here."},
+    {"dx": "Cutaneous infection (bacterial/fungal)", "vs": "Infection may show abscess formation and organisms on Gram, PAS or GMS stains and positive cultures, especially in neutropenic patients."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

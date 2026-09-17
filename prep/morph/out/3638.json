@@ -1,0 +1,22 @@
+{
+  "id": "3638",
+  "recognize_zh": "淋巴球的細胞核有一條條細溝紋與皺褶，看起來像腦迴（cerebriform），染色質緻密、細胞質很少；上方較大的一顆、右下較小的一顆都有核凹陷。這種腦迴狀核就是 Sézary 細胞的特徵。",
+  "features": [
+    "Atypical lymphocytes with cerebriform nuclei showing fine grooves and folds",
+    "Large Sézary cell variant (upper) with convoluted nucleus and a thin rim of pale-blue cytoplasm",
+    "Small Sézary cell variant (lower right) with an indented/notched, dense nucleus",
+    "Condensed chromatin without prominent nucleoli; scant agranular cytoplasm",
+    "Background RBCs with crenation (echinocytic artifact)"
+  ],
+  "describe_en": "Peripheral blood smear shows atypical lymphocytes with cerebriform nuclei. The larger cell has a convoluted nucleus with fine grooves, condensed chromatin, and a narrow rim of pale-blue agranular cytoplasm, and a smaller cell shows an indented, hyperchromatic nucleus. The background red cells show crenation artifact. In the appropriate clinical setting of erythroderma, findings are consistent with circulating Sézary cells; flow cytometry for CD4+ T cells with loss of CD7/CD26 is recommended for quantification.",
+  "ddx": [
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells have polylobated flower-like nuclei with deep clefts rather than fine cerebriform grooves, and HTLV-1 serology is positive."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells have a visible central nucleolus and basophilic cytoplasm with blebs, not grooved cerebriform nuclei."},
+    {"dx": "Reactive lymphocytes with nuclear clefts", "vs": "Reactive lymphocytes are heterogeneous with abundant cytoplasm and are few, while flow cytometry lacks a clonal CD4+CD7-/CD26- population."},
+    {"dx": "Mantle cell lymphoma in leukemic phase", "vs": "Mantle cells can have notched nuclei but are B cells (CD5+, cyclin D1+) and lack the fine cerebriform grooving."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

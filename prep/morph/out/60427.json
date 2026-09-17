@@ -1,0 +1,21 @@
+{
+  "id": "60427",
+  "recognize_zh": "這是骨髓切片的極低倍掃描圖：骨髓腔高度富含細胞、脂肪很少，沿著部分骨小樑邊緣可見顏色較深藍、密度較高的帶狀區域，提示貼著骨小樑生長的浸潤（paratrabecular）；但此倍率無法看清細胞型態，濾泡性淋巴瘤的判定需靠高倍與免疫染色確認。",
+  "features": [
+    "Scanning-power view of a bone marrow core with several bony trabeculae",
+    "Markedly hypercellular marrow with little residual fat",
+    "Darker basophilic bands abutting some trabecular surfaces (e.g., central and lower trabeculae), suggestive of paratrabecular lymphoid infiltrates",
+    "Cellular detail, nuclear contours and reticulin cannot be assessed at this magnification",
+    "Crush/fragmentation artifact at the top of the core"
+  ],
+  "describe_en": "Bone marrow core biopsy at scanning magnification shows a hypercellular marrow with scant fat between several bony trabeculae. Denser, more basophilic cellular bands appear to hug the surfaces of some trabeculae, raising the possibility of paratrabecular infiltrates. Cytologic detail cannot be evaluated at this power, so the nature of these infiltrates must be confirmed at higher magnification with CD20, CD10, BCL2 and BCL6 immunohistochemistry. In the given context, the paratrabecular distribution is suggestive of bone marrow involvement by follicular lymphoma.",
+  "ddx": [
+    {"dx": "Benign lymphoid aggregates", "vs": "Benign aggregates are small, well-circumscribed, and interstitial/non-paratrabecular, whereas follicular lymphoma forms elongated infiltrates hugging the trabeculae."},
+    {"dx": "Mantle cell lymphoma or CLL/SLL marrow involvement", "vs": "These more often show nodular interstitial or diffuse patterns and are CD5-positive/cyclin D1-positive or LEF1-positive rather than CD10/BCL6-positive paratrabecular cleaved cells."},
+    {"dx": "Paratrabecular myeloid precursors (normal) or fibrosis", "vs": "Normal paratrabecular granulocytic precursors form a thin rim of mixed myeloid cells and lack monotonous small cleaved lymphocytes that stain for CD20."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

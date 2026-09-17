@@ -1,0 +1,21 @@
+{
+  "id": "60691",
+  "recognize_zh": "組圖解析度很低：A 為大量紅血球的血性心包膜液，B、C 細胞離心抹片可見中至大型、核染色深且胞質嗜鹼性的非典型淋巴樣細胞，D、E 心臟超音波顯示心包膜積液；結合臨床，指向以心包填塞表現的母細胞型被套細胞淋巴瘤。",
+  "features": [
+    "Panel A: grossly/microscopically hemorrhagic fluid dominated by red cells",
+    "Panels B-C: cytospin of pericardial fluid with discohesive medium to large atypical lymphoid cells with dark nuclei and basophilic cytoplasm",
+    "Scattered cells appear blast-like, but chromatin and nucleoli cannot be assessed at this resolution",
+    "Panels D-E: echocardiographic views showing a pericardial effusion surrounding the heart"
+  ],
+  "describe_en": "Composite figure shows a hemorrhagic pericardial fluid (A) whose cytocentrifuge preparations (B, C) contain numerous discohesive medium to large atypical lymphoid cells with dark nuclei and basophilic cytoplasm, admixed with red cells. Echocardiographic images (D, E) demonstrate a pericardial effusion. The low image resolution precludes detailed assessment of chromatin and nucleoli, and the blastoid mantle cell phenotype requires cyclin D1/SOX11 immunostaining or t(11;14) confirmation. Findings are compatible with pericardial involvement by blastoid mantle cell lymphoma presenting as cardiac tamponade.",
+  "ddx": [
+    {"dx": "Primary effusion lymphoma", "vs": "Cells are immunoblastic/plasmablastic, HHV-8 positive and usually lack B-cell markers and cyclin D1."},
+    {"dx": "Diffuse large B-cell lymphoma involving pericardium", "vs": "Can look identical cytologically; it is cyclin D1 negative and lacks t(11;14)."},
+    {"dx": "Metastatic carcinoma in pericardial effusion", "vs": "Cells form cohesive three-dimensional clusters and are cytokeratin positive, CD45 negative."},
+    {"dx": "Acute leukemia (lymphoblastic or myeloid)", "vs": "Blasts are TdT/CD34 or MPO positive, whereas blastoid MCL is TdT negative with CD5/cyclin D1 expression."}
+  ],
+  "specimen": "body fluid",
+  "stain": "Wright-Giemsa cytospin; echocardiography",
+  "match": "consistent",
+  "high_yield": false
+}

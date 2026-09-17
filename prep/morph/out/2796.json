@@ -1,0 +1,21 @@
+{
+  "id": "2796",
+  "recognize_zh": "骨髓切片幾乎被成片的小型淋巴細胞取代，而這張免疫染色只有極少數散在細胞呈棕色陽性；若此為 B 細胞標記，代表浸潤的淋巴細胞幾乎都不是 B 細胞，符合 rituximab 治療後 B 細胞耗竭、以 T 細胞為主的反應性增生（marker 未標示，需對照 CD3 染色）。",
+  "features": [
+    "Diffuse sheet-like infiltrate of small to intermediate lymphoid cells replacing marrow between fat spaces",
+    "Round to slightly irregular nuclei with condensed chromatin and inconspicuous nucleoli",
+    "Only rare scattered cells show strong brown cytoplasmic/membranous immunoreactivity",
+    "Vast majority of infiltrating lymphocytes are negative for this marker",
+    "Few admixed histiocytic or stromal nuclei; residual hematopoiesis sparse in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy immunohistochemical stain (marker not labeled) shows a dense, diffuse infiltrate of small lymphoid cells with round to mildly irregular nuclei. Only rare scattered cells are immunoreactive, while the large majority of the lymphoid infiltrate is negative. In the context of prior rituximab therapy, and presuming this is a B-cell marker such as CD79a or PAX5, the pattern indicates depletion of B cells within the infiltrate. Correlation with a T-cell marker (CD3) and clonality studies is required. Findings are suggestive of rituximab-associated reactive marrow T-cell hyperplasia rather than residual B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Residual/relapsed B-cell lymphoma after rituximab", "vs": "Residual lymphoma would show sheets of PAX5/CD79a-positive B cells (CD20 may be lost after rituximab), whereas here almost all infiltrating cells are negative."},
+    {"dx": "Peripheral T-cell lymphoma involving marrow", "vs": "PTCL shows cytologic atypia, aberrant T-cell antigen loss and clonal TCR rearrangement, whereas rituximab-associated hyperplasia consists of bland small T cells that are polyclonal."},
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL typically forms interstitial/intrasinusoidal CD8+, TIA-1+, granzyme B+ linear clusters with clonal TCR and STAT3 mutation, rather than a bland polyclonal post-rituximab infiltrate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (marker not labeled; likely B-cell marker)",
+  "match": "consistent",
+  "high_yield": false
+}

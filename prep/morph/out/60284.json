@@ -1,0 +1,21 @@
+{
+  "id": "60284",
+  "recognize_zh": "流式圖以 CD45 亮、中等 SSC 圈出單核球群，CD64 與 CD13 陽性確認為單核球；兩種 CD14 殖株（MO2、MY4 對 MOP9）呈高度一致的亮陽性，部分細胞 CD56 弱表現，顯示單核球群擴增並帶異常 CD56，可支持 CMML（需配合 CD14/CD16 分群與周邊單核球數）。",
+  "features": [
+    "CD45 vs SSC: prominent population with bright CD45 and intermediate side scatter gated as monocytes",
+    "Monocyte gate is uniformly CD64-positive with CD13 expression",
+    "CD14 detected by three clones (MO2, MY4, MOP9) with concordant bright expression in most cells and a minor CD14-dim subset",
+    "CD56 shows partial dim aberrant expression on the monocytes",
+    "CD16 is not displayed, so the classical monocyte (MO1) fraction cannot be calculated from these plots"
+  ],
+  "describe_en": "Flow cytometric analysis shows a prominent population with bright CD45 and intermediate side scatter, gated as monocytes. These cells are uniformly CD64-positive and express CD13, and most show bright, concordant CD14 expression with three different antibody clones, with only a small CD14-dim subset. A subset of the monocytes shows partial dim CD56 expression, an aberrancy that can be seen in clonal monocytic proliferations. In the context of persistent absolute monocytosis, these findings support chronic myelomonocytic leukemia; quantifying classical CD14+/CD16- monocytes (increased to at least 94% in CMML) and excluding increased blasts and promonocytes are needed.",
+  "ddx": [
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytosis shows increased CD16+ intermediate/nonclassical monocytes and lacks aberrant CD56 or CD2 expression."},
+    {"dx": "Acute monocytic leukemia", "vs": "Leukemic monoblasts/promonocytes are CD14-dim to negative with CD34/CD117 or HLA-DR variability, whereas this population is mostly mature CD14-bright."},
+    {"dx": "Chronic myeloid leukemia with monocytosis (p190)", "vs": "Separation depends on detection of BCR-ABL1 rather than on monocyte immunophenotype."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

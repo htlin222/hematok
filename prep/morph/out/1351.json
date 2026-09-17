@@ -1,0 +1,20 @@
+{
+  "id": "1351",
+  "recognize_zh": "這不是型態學影像，而是 von Willebrand factor（VWF）多聚體電泳圖；第 3 道頂端（箭頭處）多出比第 1、2 道更高分子量的條帶，代表出現超大型 VWF 多聚體（ultra-large VWF multimers），這是 TTP（ADAMTS13 缺乏）的特徵。",
+  "features": [
+    "Agarose gel electrophoresis/immunoblot of plasma von Willebrand factor multimers, three lanes numbered 1-3",
+    "Lanes 1 and 2 show a ladder of multimer bands ending at a normal upper molecular-weight limit",
+    "Lane 3 shows additional high-molecular-weight bands extending above the normal range (arrows)",
+    "Lower-molecular-weight banding pattern is present in all three lanes"
+  ],
+  "describe_en": "This figure is a von Willebrand factor multimer analysis rather than a morphologic image. Lanes 1 and 2 show a ladder of VWF multimers ending at the expected upper molecular-weight limit, whereas lane 3 shows additional bands of higher molecular weight beyond the top of the normal pattern (arrows), representing unusually large VWF multimers. Because ADAMTS13 normally cleaves ultra-large VWF multimers secreted by endothelial cells, their persistence in plasma indicates deficient ADAMTS13 activity. The pattern is consistent with thrombotic thrombocytopenic purpura; ADAMTS13 activity and inhibitor assays are the diagnostic tests in current practice.",
+  "ddx": [
+    {"dx": "Type 2A von Willebrand disease", "vs": "Type 2A shows loss of high- and intermediate-molecular-weight multimers rather than an excess of ultra-large multimers."},
+    {"dx": "Type 2B von Willebrand disease", "vs": "Type 2B shows loss of the largest multimers from plasma due to enhanced platelet binding, often with thrombocytopenia, the opposite of the lane 3 pattern."},
+    {"dx": "Hemolytic uremic syndrome", "vs": "HUS has normal or only mildly reduced ADAMTS13 activity and does not typically show persistent ultra-large VWF multimers."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

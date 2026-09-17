@@ -1,0 +1,22 @@
+{
+  "id": "61269",
+  "recognize_zh": "骨髓抹片中一大團黏聚的腫瘤細胞，核大、細胞質極少、彼此擠壓成多角形並有核塑形，細胞團中央夾有淡藍色細絲狀基質；這種成團、非造血細胞的排列加上纖維狀基質，符合神經母細胞瘤轉移至骨髓。",
+  "features": [
+    "Large cohesive cluster of tumor cells distinct from dispersed marrow cells",
+    "High N:C ratio with scant cytoplasm; nuclei molded against each other into polygonal shapes",
+    "Delicate pale blue fibrillary material in the center of the cluster (neuropil-like)",
+    "Nuclear chromatin detail obscured by strong pink color cast and soft focus",
+    "Scattered single cells with round nuclei in the background, likely hematopoietic or detached tumor cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large cohesive aggregate of tumor cells with high nuclear-to-cytoplasmic ratio and nuclear molding, with delicate pale blue fibrillary material in the center of the cluster. Scattered single cells are present in the background. The strong color cast and focus limit evaluation of chromatin pattern and nucleoli, and definite rosettes are not seen. Findings are consistent with metastatic small round cell tumor in the marrow, in keeping with neuroblastoma; immunohistochemistry on the trephine biopsy is recommended for confirmation.",
+  "ddx": [
+    {"dx": "Acute leukemia with blast clumping", "vs": "Leukemic blasts may clump artificially but lack true molding and fibrillary matrix and are CD45-positive."},
+    {"dx": "Ewing sarcoma", "vs": "Lacks neuropil, has vacuolated PAS-positive cytoplasm, and is CD99/NKX2.2 positive with EWSR1 rearrangement."},
+    {"dx": "Osteoblast cluster", "vs": "Osteoblasts have abundant blue cytoplasm with eccentric nuclei and a Golgi zone rather than scant cytoplasm and molding."},
+    {"dx": "Metastatic rhabdomyosarcoma", "vs": "Cells may show vacuolated cytoplasm and multinucleation and are desmin/myogenin positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

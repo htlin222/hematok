@@ -1,0 +1,21 @@
+{
+  "id": "1142",
+  "recognize_zh": "這張是 Wright 染色的骨髓抹片／切片印片，而非 H&E 切片；可見大片單一形態細胞，細胞質帶紫紅色顆粒、核呈卵圓或摺疊狀，正常造血細胞稀少，形態符合 APL 的異常前骨髓細胞。",
+  "features": [
+    "Cellular preparation dominated by sheets of monotonous immature myeloid cells",
+    "Moderate cytoplasm with purple-red azurophilic granulation in many cells",
+    "Round to oval, some indented or folded nuclei with fine chromatin",
+    "Few residual mature granulocytes, lymphocytes and erythroid cells",
+    "Auer rods and faggot cells not resolved at this magnification"
+  ],
+  "describe_en": "This Romanowsky-stained preparation (aspirate smear or biopsy touch imprint) shows sheets of monotonous immature myeloid cells with moderate cytoplasm containing azurophilic granules and round to folded nuclei with fine chromatin. Residual normal hematopoietic elements are sparse. Although the title indicates a biopsy, the image is a cytologic preparation rather than a histologic section. Auer rods and bilobed butterfly nuclei cannot be confidently resolved at this magnification. Findings are consistent with acute promyelocytic leukemia in context; confirmation of PML::RARA is required.",
+  "ddx": [
+    {"dx": "AML with maturation", "vs": "AML with maturation has agranular blasts with maturing granulocytes and usually lacks the CD34-/HLA-DR- hypergranular promyelocyte population and PML::RARA."},
+    {"dx": "Recovering marrow with promyelocyte predominance", "vs": "Regenerating promyelocytes are normal cells with a prominent Golgi zone and round nuclei that progressively mature, without faggot cells or PML::RARA."},
+    {"dx": "Acute myelomonocytic or monocytic leukemia", "vs": "Monocytic cells have gray vacuolated cytoplasm with fine granules and are nonspecific esterase positive, whereas APL cells are strongly MPO positive with coarse granules."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

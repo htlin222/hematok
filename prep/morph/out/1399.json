@@ -1,0 +1,23 @@
+{
+  "id": "1399",
+  "recognize_zh": "周邊血液中可見中大型母細胞，核圓、染色質細緻、細胞質少且深藍，邊緣長出多個像泡泡般的細胞質突起（cytoplasmic blebs），這是巨核母細胞（megakaryoblast）的經典外觀。",
+  "features": [
+    "Medium to large blasts with high N:C ratio",
+    "Round nuclei with fine to slightly condensed chromatin; nucleoli inconspicuous",
+    "Scant deeply basophilic, agranular cytoplasm",
+    "Prominent cytoplasmic blebs/pseudopods budding from the cell surface",
+    "Two blasts adherent to each other; a smaller atypical cell nearby",
+    "Background erythrocytes with few platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows several medium to large blasts with high nuclear-to-cytoplasmic ratio, round nuclei with fine chromatin, and scant deeply basophilic agranular cytoplasm. The blasts display distinctive cytoplasmic blebs and bud-like projections at the cell margin, and two cells are clustered together. Platelets are sparse. Findings are suggestive of megakaryoblasts, as seen in acute megakaryoblastic leukemia; confirmation by flow cytometry for CD41/CD42b/CD61 is required.",
+  "ddx": [
+    {"dx": "Lymphoblasts (ALL)", "vs": "Lymphoblasts may show small blebs but lack megakaryocytic markers; immunophenotyping (CD41/CD61 vs TdT/CD19/CD3) is required."},
+    {"dx": "Myeloblasts (AML with minimal differentiation)", "vs": "Myeloblasts usually have less cytoplasmic budding and express MPO or CD13/CD33 rather than CD41/CD61."},
+    {"dx": "Metastatic small round blue cell tumor (e.g., neuroblastoma, rhabdomyosarcoma)", "vs": "Tumor cells tend to form cohesive clumps and are CD45 negative, whereas megakaryoblasts circulate singly and express platelet glycoproteins."},
+    {"dx": "Transient abnormal myelopoiesis of Down syndrome", "vs": "Morphologically identical; distinguished by constitutional trisomy 21, GATA1 mutation and neonatal onset."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

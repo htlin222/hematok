@@ -1,0 +1,23 @@
+{
+ "id": "61927",
+ "recognize_zh": "這是血紅素高效液相層析（HPLC）圖：主峰為2.48分鐘的HbA，3.68分鐘處標示A2的陰影峰相對明顯，搭配小的F峰（1.11分鐘），需對照數值報告確認HbA2升高才能支持β-地中海型貧血帶因者。",
+ "features": [
+  "Cation-exchange HPLC chromatogram of hemoglobin fractions (x-axis retention time in minutes, y-axis percent signal)",
+  "Dominant off-scale HbA (A0) peak at 2.48 min",
+  "Shaded HbA2 peak at 3.68 min that is visibly prominent relative to baseline",
+  "Small shaded HbF peak at 1.11 min with minor early-eluting peaks at 1.22, 1.36 and 1.77 min (glycated/minor HbA fractions)",
+  "Additional small unlabeled late peak at 4.53 min whose identity cannot be assigned from the image alone",
+  "No large variant peak in the S, D or C windows is labeled; percentage values are not shown"
+ ],
+ "describe_en": "Hemoglobin HPLC chromatogram shows a dominant HbA peak eluting at 2.48 minutes, a small HbF peak at 1.11 minutes, and a distinct HbA2 peak at 3.68 minutes. Minor early peaks represent glycated and other minor HbA fractions, and a small unlabeled peak at 4.53 minutes should be interpreted against the instrument's retention-time windows. The quantitative report is not included in the image, so HbA2 elevation cannot be confirmed numerically. In the appropriate context of microcytosis with a normal or near-normal hemoglobin, an increased HbA2 (typically about 3.5-7%) is consistent with beta-thalassemia trait.",
+ "ddx": [
+  {"dx": "Alpha-thalassemia trait", "vs": "Alpha-thalassemia trait gives a normal or low HbA2 on HPLC and requires DNA testing, whereas beta-thalassemia trait shows increased HbA2."},
+  {"dx": "Iron deficiency anemia", "vs": "Iron deficiency lowers HbA2 and can mask beta-thalassemia trait, so iron studies should be checked before interpreting a borderline HbA2."},
+  {"dx": "Hemoglobin E trait", "vs": "HbE co-elutes in the A2 window on many HPLC systems, producing a much larger 'A2' peak (about 25-30%) than the 3.5-7% seen in beta-thalassemia trait."},
+  {"dx": "Delta-beta thalassemia / HPFH", "vs": "These show a markedly increased HbF with normal or low HbA2, unlike the small F peak and prominent A2 peak here."}
+ ],
+ "specimen": "other",
+ "stain": "N/A",
+ "match": "non-morphologic",
+ "high_yield": true
+}

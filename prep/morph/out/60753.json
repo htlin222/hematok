@@ -1,0 +1,21 @@
+{
+  "id": "60753",
+  "recognize_zh": "周邊血抹片中出現一顆遠大於白血球的扁平細胞：細胞質大片淡灰、中央有一顆小而圓的致密核，屬於鱗狀上皮細胞，其表面與周邊附著大量成對的小球菌（雙球菌），代表採血時皮膚上皮與細菌汙染，而非血中病原。",
+  "features": [
+    "Large, flat polygonal cell with abundant pale grey cytoplasm and a small, central, round, dense nucleus (squamous epithelial cell)",
+    "Numerous small purple cocci in pairs and short chains (diplococci) adherent to the epithelial cell surface and around its edges",
+    "Background red cells with rouleaux-like stacking; a folded pink-purple fragment at lower left likely representing another degenerated squamous cell",
+    "No intracellular bacteria within neutrophils in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a large squamous epithelial cell with abundant pale cytoplasm and a small central pyknotic nucleus, coated by numerous small cocci arranged in pairs and short chains. A folded fragment at lower left likely represents another degenerated squamous cell, and the background red cells show rouleaux-like stacking. Bacteria are not seen within leukocytes, so this appearance favors contamination of the sample by skin or mucosal squames colonized by bacteria rather than true bacteremia. Findings are consistent with a diplococcus-laden epithelial cell contaminant in a peripheral blood smear; correlation with blood cultures is recommended.",
+  "ddx": [
+    {"dx": "True bacteremia or sepsis", "vs": "Organisms would be seen phagocytosed within neutrophils or monocytes, often with toxic changes, rather than stuck to an extracellular squamous cell."},
+    {"dx": "Megakaryocyte or circulating large tumor cell", "vs": "These have large lobulated or hyperchromatic nuclei with a higher N:C ratio, unlike the tiny central nucleus and plate-like cytoplasm of a squame."},
+    {"dx": "Stain precipitate", "vs": "Precipitate forms irregular, variably sized refractile deposits across the slide rather than uniform paired cocci clustered on one cell."},
+    {"dx": "Endothelial cell", "vs": "Circulating endothelial cells are spindle to oval with an elongated nucleus and occur in clusters, not large polygonal flat cells with pyknotic nuclei."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

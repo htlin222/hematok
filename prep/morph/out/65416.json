@@ -1,0 +1,21 @@
+{
+  "id": "65416",
+  "recognize_zh": "數位影像分類系統（CellaVision）的細胞圖庫中，大量細胞核呈雙葉、摺疊或腎形（butterfly nucleus），細胞質淡藍、顆粒少，另有少數細胞帶粗顆粒與 Auer rod，這個一致性的異常族群指向 APL。",
+  "features": [
+    "Monotonous population of medium-large cells with bilobed, folded, reniform or 'butterfly' nuclei",
+    "Fine chromatin with nuclear folds and grooves visible through the cytoplasm",
+    "Many cells with sparse, fine granules and pale blue cytoplasm (hypogranular appearance)",
+    "A minority of cells with coarse granules and rod-like inclusions (e.g., cells 2 and 7)",
+    "Irregular cell outlines with occasional cytoplasmic blebs"
+  ],
+  "describe_en": "Digital morphology gallery (CellaVision-type) displays numerous pre-classified cells from the same sample. The predominant population consists of medium to large cells with bilobed, folded or reniform nuclei, fine chromatin, and pale to lightly granular cytoplasm; several cells show coarse azurophilic granules with rod-like inclusions suggestive of Auer rods. Normal maturing neutrophils and lymphocytes are not represented among these cells. Findings are consistent with abnormal promyelocytes of acute promyelocytic leukemia, including hypogranular forms; automated analyzers may misclassify such cells as monocytes or blasts, so manual review is essential.",
+  "ddx": [
+    {"dx": "Acute monocytic / myelomonocytic leukemia", "vs": "Monoblasts and promonocytes have gray-blue cytoplasm with fine granules and lack Auer rod bundles, and are strongly NSE-positive with HLA-DR and CD14/CD64 expression."},
+    {"dx": "AML with NPM1 mutation (cup-like blasts)", "vs": "Cup-like nuclear invaginations can mimic folded APL nuclei and share CD34/HLA-DR negativity, but PML::RARA is absent and faggot cells are not seen."},
+    {"dx": "Reactive monocytosis", "vs": "Mature monocytes have lacy chromatin, vacuolated gray cytoplasm and no Auer rods, with a mixed polyclonal background."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

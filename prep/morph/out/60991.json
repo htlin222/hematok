@@ -1,0 +1,23 @@
+{
+  "id": "60991",
+  "recognize_zh": "同一病人兩種腫瘤：骨髓切片為細胞核間距寬、呈「煎蛋樣」的毛細胞浸潤（抹片插圖有毛狀突起、流式 CD25+/CD103+），BRAF V600E 焦磷酸定序陽性；PET 箭頭處病灶切片則為含多核巨細胞的組織球增生，IHC 呈膜狀陽性（插圖咖啡豆狀核的 Langerhans 細胞），即毛細胞白血病合併 Langerhans 細胞組織球增生症。",
+  "features": [
+    "Panel A: marrow core diffusely infiltrated by small-to-medium cells with round/oval nuclei spaced apart by clear cytoplasm (fried-egg pattern); inset smear shows a lymphoid cell with circumferential hairy projections; inset IHC strongly positive",
+    "Panel B: flow cytometry with a red-gated B-cell population coexpressing CD25 and CD103 (with CD19/CD20)",
+    "Panel C: pyrosequencing trace at codon 600 (GTG>GAG, Val>Glu) indicating BRAF V600E",
+    "Panel D: PET-CT with a focal FDG-avid lesion (red arrow) in the right pelvis/inguinal region and splenomegaly",
+    "Panel E: lesional tissue with sheets of histiocytoid cells with grooved/folded nuclei, eosinophils and a multinucleated giant cell (green arrow)",
+    "Panels F-I: IHC showing diffuse nuclear/cytoplasmic positivity (F, G), membranous-cytoplasmic positivity with inset showing a grooved Langerhans cell (H), and a largely negative stain (I)"
+  ],
+  "describe_en": "This composite figure documents two histiocytic/lymphoid neoplasms in one patient. The bone marrow biopsy shows an interstitial-to-diffuse infiltrate of small cells with evenly spaced oval nuclei and clear cytoplasm, with a hairy lymphoid cell on the smear and strong immunohistochemical positivity; flow cytometry identifies a CD25+/CD103+ B-cell population and pyrosequencing detects BRAF V600E, consistent with hairy cell leukemia. A separate FDG-avid lesion contains sheets of histiocytoid cells with grooved nuclei, admixed eosinophils and multinucleated giant cells, with membranous staining in the lesional cells (antibodies not labeled in the figure; typically CD1a/langerin and S100). Findings are consistent with hairy cell leukemia and a concurrent Langerhans cell histiocytosis.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v lacks CD25 and annexin A1 and is BRAF V600E wild-type, whereas this clone is CD25-positive with BRAF V600E."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "Villous lymphocytes have polar short projections, are usually CD25/CD103-negative and lack BRAF V600E."},
+    {"dx": "Erdheim-Chester disease", "vs": "Also BRAF-mutated histiocytosis, but lesional foamy histiocytes with Touton cells are CD68/CD163-positive and CD1a/langerin-negative."},
+    {"dx": "Reactive histiocytic/granulomatous reaction to lymphoma", "vs": "Macrophages lack grooved nuclei and are CD1a- and langerin-negative, without the clonal LCH phenotype."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC; flow; BRAF pyrosequencing; PET",
+  "match": "consistent",
+  "high_yield": false
+}

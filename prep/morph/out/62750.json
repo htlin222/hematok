@@ -1,0 +1,22 @@
+{
+  "id": "62750",
+  "recognize_zh": "周邊血液抹片中出現大量小而圓、染色質濃密的有核紅血球（NRBC），數量甚至多於白血球，並伴隨淚滴狀紅血球與不成熟骨髓系細胞，符合骨髓纖維化的白血球-幼紅血球（leukoerythroblastic）血像。",
+  "features": [
+    "Numerous nucleated red blood cells with small round, dense pyknotic nuclei and a rim of hemoglobinized cytoplasm",
+    "Immature myeloid cell with granular cytoplasm and a larger cell with high N:C ratio (possible blast/promyelocyte) in the center",
+    "Red cells with poikilocytosis including teardrop and elongated forms",
+    "Many red cells show refractile crenated rims and pale centers from drying artifact",
+    "Platelet fragments present"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous circulating nucleated red blood cells with small dense round nuclei, outnumbering other nucleated cells in this field, together with immature granulocytic cells. Red cells show poikilocytosis including teardrop forms, and many display refractile drying artifact. Platelet fragments are present. The leukoerythroblastic picture with marked normoblastemia is consistent with marrow fibrosis in post-essential thrombocythemia myelofibrosis; nucleated red cells must be excluded from the automated WBC count to avoid spurious leukocytosis.",
+  "ddx": [
+    {"dx": "Small mature lymphocytes", "vs": "Lymphocytes have a thin rim of blue cytoplasm and less pyknotic chromatin, whereas NRBCs have pink hemoglobinized cytoplasm and very dense round nuclei."},
+    {"dx": "Hemolytic anemia with brisk erythropoiesis", "vs": "Hemolysis shows polychromasia and spherocytes or other hemolytic red cell shapes without immature myeloid cells and teardrop cells."},
+    {"dx": "Metastatic carcinoma to marrow", "vs": "Marrow infiltration can produce the same leukoerythroblastic picture; distinction requires bone marrow biopsy."},
+    {"dx": "Acute erythroid leukemia", "vs": "Pure erythroid leukemia shows circulating erythroid precursors that are proerythroblasts with basophilic vacuolated cytoplasm rather than mature orthochromic NRBCs."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

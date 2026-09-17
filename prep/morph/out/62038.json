@@ -1,0 +1,21 @@
+{
+  "id": "62038",
+  "recognize_zh": "淋巴結免疫染色（棕色）中，散在的大型細胞呈清楚的環狀膜染色，細胞核大而淡、形狀不規則，周圍是大量陰性的小淋巴球；這種「大型 B 細胞散在於小淋巴球背景」的分佈符合 NLPHL 的 LP 細胞（lymphocyte predominant cells）。",
+  "features": [
+    "Scattered large cells with strong circumferential membranous and cytoplasmic staining (DAB)",
+    "Large positive cells have large pale vesicular, irregular or lobated nuclei",
+    "Some smaller positive cells, focally clustered at the lower right edge",
+    "Background of numerous small round unstained lymphocytes",
+    "No sheet-like confluence of large positive cells in this field"
+  ],
+  "describe_en": "Immunohistochemical stain (chromogen DAB; antigen not labeled, pattern suggests a B-cell marker such as CD20) of a lymph node shows numerous scattered large cells with strong membranous staining set in a background of predominantly negative small lymphocytes. The large cells have irregular, vesicular nuclei. Smaller positive cells are present focally. The pattern of scattered large B cells within a small-lymphocyte background is consistent with LP cells of nodular lymphocyte-predominant Hodgkin lymphoma with a variant (T-cell-rich/extranodular) pattern; the antigen and full architecture should be confirmed in the referenced case.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL shows diffuse architecture without residual follicular dendritic cell meshworks or small B-cell-rich nodules, whereas NLPHL retains nodular CD21+ meshworks with small B cells."},
+    {"dx": "Classic Hodgkin lymphoma (lymphocyte-rich)", "vs": "HRS cells of cHL are CD30+/CD15+ with weak or absent CD20 and PAX5 dim, while LP cells are strongly CD20+, OCT2+, BOB1+ and CD30/CD15 negative."},
+    {"dx": "Progressive transformation of germinal centers", "vs": "PTGC lacks LP cells; scattered large atypical CD20+ cells rimmed by PD1+ T cells favor NLPHL."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: antigen not labeled (likely CD20)",
+  "match": "consistent",
+  "high_yield": false
+}

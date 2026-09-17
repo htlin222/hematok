@@ -1,0 +1,29 @@
+{
+  "id": "146",
+  "recognize_zh": "骨髓抹片中有大量中至大型母細胞，染色質細緻、核形不規則，細胞質灰藍色、無顆粒，部分於細胞膜下可見小空泡或偽足樣突起；切片瀰漫浸潤，免疫染色 CD56、CD123、CD4、TCL1 共同陽性，符合母細胞性漿細胞樣樹突細胞腫瘤（BPDCN）。",
+  "features": [
+    "Bone marrow aspirate: numerous medium-to-large blasts with high N:C ratio, irregular to indented nuclei, fine chromatin and small nucleoli",
+    "Blast cytoplasm moderate, grey-blue and agranular, some with small peripheral vacuoles or tail-like cytoplasmic projections (arrows)",
+    "Residual maturing granulocytes, erythroid precursors and small lymphocytes admixed",
+    "Core biopsy: hypercellular marrow for age with interstitial-to-diffuse sheets of blasts between fat; high power shows irregular, folded nuclei with fine chromatin and frequent mitoses",
+    "IHC: blasts coexpress CD56, CD123, CD4 and TCL1, with a CD123/TCL1-negative residual lymphoid aggregate"
+  ],
+  "describe_en": "The bone marrow aspirate shows numerous medium-to-large blasts with irregular or indented nuclei, finely dispersed chromatin, small nucleoli, and moderate agranular grey-blue cytoplasm, some with small cytoplasmic vacuoles or tail-like projections; residual trilineage elements are present. The core biopsy is hypercellular with interstitial and sheet-like infiltration by atypical cells with folded nuclei, fine chromatin, and frequent mitotic figures. By immunohistochemistry the neoplastic cells coexpress CD56, CD123, CD4, and TCL1, while a residual lymphoid aggregate is negative for CD123 and TCL1. Findings are consistent with involvement by blastic plasmacytoid dendritic cell neoplasm.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation (CD4+/CD56+)", "vs": "Monocytic AML can express CD4 and CD56 but usually shows MPO/lysozyme/CD14/CD11c and lacks the coexpression of bright CD123, TCL1 and CD303 seen here."},
+    {"dx": "AML with increased mature plasmacytoid dendritic cells (pDC-AML)", "vs": "In pDC-AML the pDCs are CD34-negative, CD56-negative mature-appearing cells accompanying a separate CD34+ myeloid blast population, whereas here the CD56+ CD123+ TCL1+ blasts themselves constitute the neoplasm."},
+    {"dx": "Extranodal NK/T-cell lymphoma or NK-lymphoblastic leukemia", "vs": "NK neoplasms are CD56-positive but negative for CD123, TCL1 and CD4, and NK/T-cell lymphoma is EBER-positive."},
+    {"dx": "T- or B-lymphoblastic leukemia", "vs": "Lymphoblastic leukemias express TdT with cytoplasmic CD3 or CD19/PAX5 and lack the CD4/CD56/CD123/TCL1 plasmacytoid dendritic cell profile."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; IHC: CD56, CD123, CD4, TCL1",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Bone marrow aspirate: numerous blasts with agranular grey-blue cytoplasm among residual hematopoietic cells (arrow)",
+    "Bone marrow aspirate, high power: blast with fine chromatin and grey-blue cytoplasm (arrow)",
+    "Core biopsy H&E, low power: hypercellular marrow with interstitial blast infiltration",
+    "Core biopsy H&E, high power: sheets of blasts with irregular folded nuclei and mitoses",
+    "IHC: tumor cells positive for CD56, CD123, CD4 and TCL1"
+  ]
+}

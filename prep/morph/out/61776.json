@@ -1,0 +1,22 @@
+{
+  "id": "61776",
+  "recognize_zh": "視野中多個小而圓、染色質濃縮深紫的單一核細胞，周邊有一圈灰藍到粉紅的血紅素化細胞質（黃色箭頭），大小接近紅血球，並可見一個雙核型，這是有核紅血球（NRBC），數量多時需校正白血球計數。",
+  "features": [
+    "Multiple nucleated red blood cells (arrows) with small round, dense pyknotic nuclei and a rim of grey-blue to pink hemoglobinized cytoplasm",
+    "Orthochromatic and polychromatic normoblast stages, including one binucleate/budding form (upper right)",
+    "Red cells show anisocytosis with target cells, polychromatic cells and some teardrop/irregular forms",
+    "One larger mononuclear cell with dense nucleus and scant basophilic cytoplasm (possible lymphocyte or earlier erythroid precursor)",
+    "Numerous platelets and platelet clumps plus fine stain precipitate in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous circulating nucleated red blood cells, predominantly orthochromatic and polychromatic normoblasts with condensed round nuclei, including a binucleate form. The background red cells display anisopoikilocytosis with target cells and polychromasia, and platelets are abundant with small clumps and some stain precipitate. No blasts are identified in this field. Because automated analyzers may count NRBCs as leukocytes, the WBC count should be corrected (corrected WBC = total nucleated count x 100 / (100 + NRBC per 100 WBC)). Findings are consistent with marked normoblastemia; the underlying cause (hemolysis, hemoglobinopathy, marrow infiltration, hypoxia or asplenia) requires clinical correlation.",
+  "ddx": [
+    {"dx": "Small mature lymphocytes", "vs": "Lymphocytes have a thin rim of pale sky-blue cytoplasm without hemoglobinization and a less pyknotic, slightly clumped nucleus, whereas NRBC cytoplasm matches the color of surrounding red cells."},
+    {"dx": "Leukoerythroblastic reaction of myelophthisis/myelofibrosis", "vs": "NRBCs there are accompanied by left-shifted granulocytes (myelocytes, metamyelocytes) and teardrop cells, which must be actively sought to distinguish from isolated erythroid stress."},
+    {"dx": "Megaloblastic or dyserythropoietic precursors", "vs": "Megaloblastic NRBCs show nuclear-cytoplasmic asynchrony with open sieve-like chromatin, and dyserythropoiesis shows nuclear budding, multinuclearity and irregular lobes in many cells."},
+    {"dx": "Red cells overlying platelets (pseudo-inclusions)", "vs": "Overlying platelets are small, granular and lie in a different focal plane rather than forming a single dense central nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "28648",
+  "recognize_zh": "AML 化療中病人皮膚出現中央藍紫色壞死、外圍紅暈的結節（類 ecthyma 病灶），切片可見血管腔內充滿淡染的真菌菌絲並阻塞血管（箭頭），代表血管侵襲性黴菌感染，臨床脈絡下符合播散性鐮刀菌病（fusariosis）。",
+  "features": [
+    "Clinical photograph of a round skin lesion with a central blue-violaceous to necrotic center and a surrounding erythematous rim (panel A)",
+    "Dermal/subcutaneous vessel whose lumen is occluded by pale fibrinous material containing numerous fungal hyphae (arrow, panel B)",
+    "Thickened vessel wall with sparse inflammatory cells, consistent with angioinvasion and thrombosis",
+    "Surrounding collagen/skeletal muscle bundles without a prominent neutrophilic infiltrate, compatible with neutropenia",
+    "Hyphal septation and branching angle cannot be reliably assessed at this magnification"
+  ],
+  "describe_en": "Clinical photograph shows a well-circumscribed cutaneous nodule with a dusky blue-violaceous necrotic center and an erythematous halo. The skin biopsy shows a deep vessel with luminal thrombosis containing abundant pale-staining fungal hyphae, with angioinvasion and a paucity of surrounding inflammation. Speciation of the hyphae is not possible on H&E alone because Fusarium, Aspergillus and other hyalohyphomycetes appear similar; culture or molecular identification is required. In a neutropenic patient undergoing AML induction, findings are consistent with angioinvasive disseminated mould infection, compatible with fusariosis.",
+  "ddx": [
+    {"dx": "Invasive aspergillosis", "vs": "Aspergillus also forms narrow septate acute-angle branching angioinvasive hyphae, so separation from Fusarium requires culture (banana-shaped macroconidia) or PCR, though positive blood cultures favor Fusarium."},
+    {"dx": "Mucormycosis", "vs": "Mucorales hyphae are broad, ribbon-like and pauciseptate with right-angle branching, unlike the narrow septate hyphae of Fusarium."},
+    {"dx": "Ecthyma gangrenosum (Pseudomonas)", "vs": "Ecthyma gangrenosum shows gram-negative bacilli cuffing vessels without fungal hyphae on GMS/PAS stains."},
+    {"dx": "Leukemia cutis", "vs": "Leukemia cutis shows a dermal infiltrate of blasts rather than intravascular fungal elements and necrosis."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; clinical photo",
+  "match": "consistent",
+  "high_yield": false
+}

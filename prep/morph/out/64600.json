@@ -1,0 +1,22 @@
+{
+  "id": "64600",
+  "recognize_zh": "背景散佈大量短桿狀細菌（bacilli），唯一的白血球細胞質淡而空泡化，內含數個與背景相同形態的桿菌，核被擠向一側呈新月形，代表細胞內吞噬細菌。",
+  "features": [
+    "Single intact leukocyte of moderate size with a dense, clumped, crescent-shaped nucleus displaced to one side",
+    "Pale, vacuolated cytoplasm containing several small intracytoplasmic rod-shaped bacteria",
+    "Numerous extracellular short, plump bacilli scattered evenly through the background",
+    "Acellular, protein-poor background without red cells, suggesting a fluid/cytospin preparation or a heavily contaminated specimen",
+    "No yeast, parasites, or other organisms seen"
+  ],
+  "describe_en": "The smear shows a sparsely cellular, pale background with numerous extracellular short, plump rod-shaped bacteria and no red blood cells. A single leukocyte with a dense, eccentrically compressed crescentic nucleus contains several intracytoplasmic bacilli within pale vacuolated cytoplasm. The dense compacted nucleus and phagocytic activity favor a degenerating phagocyte (neutrophil or monocyte) over a true lymphocyte, as lymphocytes are not professionally phagocytic; exact lineage cannot be established on this single cell. Findings are consistent with bacterial infection with intracellular organisms (gram-negative bacilli such as Klebsiella/Pseudomonas per the case context); Gram stain and culture are required for identification.",
+  "ddx": [
+    {"dx": "In vitro bacterial overgrowth (delayed processing/contamination)", "vs": "Contamination produces many extracellular bacteria but organisms are not taken up inside intact phagocytes, whereas here bacilli are clearly intracytoplasmic."},
+    {"dx": "Stain precipitate or debris", "vs": "Precipitate is irregular, refractile, and variable in size and lies on top of cells, whereas these particles are uniform rods of consistent size inside vacuoles."},
+    {"dx": "Histoplasma or other intracellular yeast", "vs": "Histoplasma forms oval 2-4 um yeasts with a clear halo and eccentric chromatin dot, unlike the slender uniform bacilli here that also abound extracellularly."},
+    {"dx": "Toxic neutrophil with Döhle bodies/vacuoles only", "vs": "Toxic vacuoles are empty clear spaces without organisms, whereas here discrete rod-shaped bacteria are visible within the vacuoles."}
+  ],
+  "specimen": "other",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

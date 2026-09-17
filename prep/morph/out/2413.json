@@ -1,0 +1,21 @@
+{
+  "id": "2413",
+  "recognize_zh": "中央那顆大型嗜酸性系細胞的細胞質除了橘紅色顆粒外混有粗大紫色（嗜鹼性）顆粒，旁邊有正常嗜酸球與幾顆芽細胞/單核樣細胞可對照；這種異常嗜酸球是 AML with inv(16) 的招牌表現。",
+  "features": [
+    "Abnormal eosinophil precursor with mixed orange eosinophilic and larger purple-violet basophilic-staining granules",
+    "Adjacent mature eosinophil with bilobed nucleus and uniform orange-red granules for comparison",
+    "Blasts and myelomonocytic cells with high N:C ratio, fine chromatin and gray-blue cytoplasm, one with an indented nucleus",
+    "Cell with basophilic cytoplasm and coarse dark granules (right), possibly an abnormal eosinophil/basophil precursor",
+    "Background with platelets and red cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows an abnormal eosinophil precursor whose cytoplasm contains a mixture of orange eosinophilic granules and larger purple, basophilic-staining granules, in contrast to an adjacent mature eosinophil with uniform orange granules. Nearby blasts and myelomonocytic cells have high N:C ratios, fine chromatin, indented nuclei, and gray-blue cytoplasm. Findings are consistent with AML with abnormal eosinophils, characteristic of AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB::MYH11.",
+  "ddx": [
+    {"dx": "Reactive eosinophilia with immature eosinophils", "vs": "Normal immature eosinophils can show a few purple granules early, but lack the large dark basophilic granules in more mature forms and are not accompanied by increased myelomonocytic blasts."},
+    {"dx": "Chronic myeloid leukemia with eosinophilia/basophilia", "vs": "CML shows separate mature basophils and eosinophils with a left-shifted neutrophilic series and BCR::ABL1, rather than hybrid-granule eosinophils with myelomonocytic blasts."},
+    {"dx": "Myeloid neoplasm with PDGFRA rearrangement", "vs": "PDGFRA-associated eosinophilia shows mostly mature eosinophils with mast cell increase, and FIP1L1::PDGFRA rather than CBFB::MYH11 on molecular testing."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

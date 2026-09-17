@@ -1,0 +1,21 @@
+{
+  "id": "2373",
+  "recognize_zh": "整個視野幾乎都是只剩淡粉紅細胞膜輪廓的「鬼影細胞」（ghost cells），代表成人血紅素 HbA 已被酸洗脫；只有中央一顆紅血球染色稍深，這是 Kleihauer-Betke 酸洗脫法的判讀畫面。",
+  "features": [
+    "Nearly all red cells appear as pale 'ghost' cells with only a faint pink membrane outline and empty interior (HbA eluted)",
+    "A single red cell near the center retains slightly more diffuse pink staining, of intermediate intensity",
+    "No clearly dark, uniformly stained HbF-containing (fetal) cells in this field",
+    "Cells lie in cohesive sheets and chains; background shows fine eosinophilic precipitate",
+    "No nucleated cells present"
+  ],
+  "describe_en": "Kleihauer-Betke acid elution preparation of peripheral blood shows red cells almost entirely converted to pale ghost cells, indicating elution of acid-labile adult hemoglobin. A single cell in the center retains slightly denser pink staining, but no clearly intensely stained fetal-type (HbF-rich) cells are identified in this field. Findings represent a predominantly negative field; quantitation requires counting fetal cells across many fields (typically 2,000 cells) against an adult control.",
+  "ddx": [
+    {"dx": "Fetomaternal hemorrhage (positive KB test)", "vs": "A positive maternal sample shows a discrete population of brightly eosinophilic, uniformly stained fetal cells among ghost cells, rather than a nearly all-ghost field."},
+    {"dx": "Heterocellular increase in HbF (F cells in hemoglobinopathy)", "vs": "F cells show variable, often intermediate staining in a subset of cells, which can mimic fetal cells and requires flow cytometry for anti-HbF/anti-carbonic anhydrase to separate."},
+    {"dx": "Pancellular hereditary persistence of fetal hemoglobin", "vs": "In pancellular HPFH essentially all red cells retain moderate, even staining rather than appearing as ghosts."}
+  ],
+  "specimen": "PB",
+  "stain": "Kleihauer-Betke acid elution (eosin counterstain)",
+  "match": "consistent",
+  "high_yield": false
+}

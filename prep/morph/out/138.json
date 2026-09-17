@@ -1,0 +1,29 @@
+{
+  "id": "138",
+  "recognize_zh": "骨髓抹片與切片中可見體積偏小、單核或低分葉（hypolobated）的巨核細胞，核圓且偏位；染色體核型顯示一條第 5 號染色體長臂缺失（del(5q)），且無其他異常，這些是 del(5q) 骨髓分化不良症候群的線索。",
+  "features": [
+    "Megakaryocytes small to medium-sized with round, non-lobated or hypolobated, often eccentric nuclei (monolobated megakaryocytes)",
+    "Bone marrow aspirate cellular with trilineage hematopoiesis; blasts not conspicuously increased in the fields shown",
+    "Core biopsy: cellular marrow with a small hypolobated megakaryocyte (arrow) among erythroid and myeloid precursors",
+    "Peripheral blood: adequate platelets with occasional large platelets (arrows), a segmented neutrophil and a lymphocyte; red cell macrocytosis difficult to assess at this magnification",
+    "G-banded karyotype: interstitial deletion of the long arm of one chromosome 5 (red arrow), 46,XX background without other visible abnormalities"
+  ],
+  "describe_en": "The peripheral blood smear shows adequate platelets with occasional large forms and scattered unremarkable leukocytes; red cell size cannot be reliably judged at this magnification. The bone marrow aspirate is cellular with trilineage hematopoiesis and contains small megakaryocytes with round, non-lobated or hypolobated nuclei; blasts are not increased in the fields shown. The core biopsy shows a cellular marrow with similar small hypolobated megakaryocytes. The G-banded karyotype demonstrates an interstitial deletion of 5q as the sole abnormality. Findings are consistent with myelodysplastic syndrome with isolated del(5q).",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome, NOS with megakaryocytic dysplasia", "vs": "Dysplastic megakaryocytes in other MDS are often separated nuclear lobes or micromegakaryocytes, and distinction from MDS with del(5q) rests on cytogenetics showing isolated del(5q) with <5% blasts."},
+    {"dx": "Essential thrombocythemia", "vs": "ET megakaryocytes are large to giant with hyperlobated ('staghorn') nuclei, in contrast to the small monolobated forms here, and ET lacks del(5q)."},
+    {"dx": "Myelodysplastic/myeloproliferative neoplasm with SF3B1 mutation and thrombocytosis", "vs": "MDS/MPN-SF3B1-T shows ring sideroblasts and large ET-like megakaryocytes rather than small hypolobated megakaryocytes, and is defined by SF3B1 mutation and thrombocytosis."},
+    {"dx": "Acute myeloid leukemia or MDS with increased blasts", "vs": "Cases with del(5q) plus increased blasts (or complex karyotype/TP53 multihit) are excluded from the favorable del(5q) category, so a blast count and full karyotype are required."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E; G-banding",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood smear: adequate platelets with occasional large platelets (arrows)",
+    "Bone marrow aspirate, low power: cellular particle with trilineage hematopoiesis",
+    "Bone marrow aspirate: small megakaryocytes with round non-lobated (monolobated) nuclei",
+    "Core biopsy H&E: small hypolobated megakaryocyte (arrow)",
+    "G-banded karyotype: del(5q) as the sole abnormality (red arrow)"
+  ]
+}

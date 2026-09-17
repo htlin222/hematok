@@ -1,0 +1,22 @@
+{
+  "id": "27675",
+  "recognize_zh": "H&E 呈中至大型非典型淋巴細胞瀰漫片狀浸潤；免疫染色 CD3 瀰漫強陽性（T 細胞來源）、CD30 瀰漫強陽性、CD4 僅部分弱陽性，PET 顯示腹部多處高代謝淋巴結——符合周邊 T 細胞淋巴瘤（此例 CD30 陽性）。",
+  "features": [
+    "H&E: diffuse sheets of medium-to-large atypical lymphoid cells with irregular hyperchromatic nuclei",
+    "CD3: strong, diffuse membranous/cytoplasmic staining of the neoplastic cells",
+    "CD30: strong, diffuse membranous and Golgi-pattern staining in most tumor cells",
+    "CD4: patchy, weaker staining, suggesting partial loss or subset expression",
+    "PET-CT (panel B): multiple FDG-avid abdominal/retroperitoneal nodal lesions"
+  ],
+  "describe_en": "Section shows effacement by diffuse sheets of medium-to-large atypical lymphoid cells with irregular, hyperchromatic nuclei. By immunohistochemistry, the neoplastic cells are diffusely positive for CD3 and CD30, with patchy, weaker CD4 expression. The accompanying axial PET-CT image demonstrates multiple FDG-avid intra-abdominal nodal lesions. Findings are consistent with a CD30-positive peripheral T-cell lymphoma; ALK status, TFH markers and T-cell clonality are needed to exclude ALK-negative anaplastic large cell lymphoma and nodal TFH-cell lymphoma.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma, ALK-negative", "vs": "ALCL shows cohesive hallmark cells with horseshoe nuclei and uniformly strong CD30 with frequent loss of CD3, and may carry DUSP22 or TP63 rearrangements."},
+    {"dx": "Anaplastic large cell lymphoma, ALK-positive", "vs": "ALK-positive ALCL is identified by ALK protein expression (nuclear/cytoplasmic with NPM1::ALK), usually in young patients."},
+    {"dx": "Nodal T-follicular helper cell lymphoma, angioimmunoblastic type", "vs": "AITL has a polymorphous background, arborizing HEVs, expanded CD21+ FDC meshworks and tumor cells expressing PD1, ICOS, CXCL13 and CD10."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are scattered in a reactive background, CD15+/CD30+/PAX5 weak and usually CD3-negative, rather than forming CD3+ sheets."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD4, CD3, CD30; PET-CT",
+  "match": "consistent",
+  "high_yield": false
+}

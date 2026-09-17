@@ -1,0 +1,19 @@
+{
+  "id": "62508",
+  "recognize_zh": "ZAP-70 免疫染色中，大多數小淋巴球呈中等強度的細胞質與核染色，另有少數染色特別深的細胞（反應性 T 細胞，作為內部正對照），代表 CLL 腫瘤細胞表現 ZAP-70。",
+  "features": [
+    "Diffuse sheet of small, uniform lymphoid cells with round nuclei",
+    "Moderate cytoplasmic/nuclear ZAP-70 staining in the majority of neoplastic cells",
+    "Scattered cells with stronger, darker staining consistent with background T cells (internal positive control)",
+    "A minority of cells negative (blue hematoxylin counterstain only)"
+  ],
+  "describe_en": "Immunohistochemical stain for ZAP-70 on a tissue section involved by a diffuse small lymphoid infiltrate shows moderate staining in the majority of the neoplastic B cells. Scattered cells with more intense staining, consistent with reactive T cells, serve as an internal positive control. Tissue site cannot be determined from this field alone. Findings support ZAP-70 expression by the CLL cells, a feature historically associated with unmutated IGHV and less favorable prognosis; interpretation by immunohistochemistry is semiquantitative and flow cytometry or IGHV sequencing is preferred for prognostication.",
+  "ddx": [
+    {"dx": "ZAP-70-negative CLL with positive background T cells", "vs": "In ZAP-70-negative CLL only scattered T cells stain, whereas here most of the small lymphoid cells show staining comparable to or slightly weaker than the T cells."},
+    {"dx": "T-cell lymphoma", "vs": "A T-cell neoplasm would show uniform strong ZAP-70 with CD3 positivity, whereas CLL cells are CD20 dim, CD5 and CD23 positive with PAX5 expression."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: ZAP-70",
+  "match": "consistent",
+  "high_yield": false
+}

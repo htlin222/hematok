@@ -1,0 +1,22 @@
+{
+  "id": "61285",
+  "recognize_zh": "這張是血球計數報表而非抹片：紅血球數偏高（6.47×10^6/uL）但血紅素偏低，MCV 57.1 fL、MCH 17.6 pg 明顯降低，Mentzer index（MCV/RBC）約 8.8（<13），指向地中海型貧血帶因者（thalassemia trait）的小球性型態。",
+  "features": [
+    "Non-morphologic CBC printout, not a smear image",
+    "RBC 6.47 x10^6/uL (high) with HGB 11.4 g/dL (low) and HCT 36.9% (normal)",
+    "Marked microcytosis and hypochromia: MCV 57.1 fL, MCH 17.6 pg, MCHC 30.9 g/dL",
+    "RDW-CV 15.3% (mildly high) with RDW-SD 33.5 fL (low, reflecting small cell volume)",
+    "Mentzer index (MCV/RBC) approximately 8.8, below 13"
+  ],
+  "describe_en": "This figure is a complete blood count report rather than a morphologic image. It shows mild anemia (hemoglobin 11.4 g/dL) with an elevated red cell count (6.47 x10^6/uL) and marked microcytic hypochromic indices (MCV 57.1 fL, MCH 17.6 pg, MCHC 30.9 g/dL). The RDW-CV is only mildly increased, and the calculated Mentzer index is approximately 8.8. A disproportionately low MCV relative to the degree of anemia with erythrocytosis favors thalassemia trait over iron deficiency, although the indices are not diagnostic and iron studies with hemoglobin analysis are required.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Usually has a low or normal red cell count, a Mentzer index above 13 and a clearly elevated RDW, with low ferritin."},
+    {"dx": "Beta-thalassemia trait", "vs": "Supported by erythrocytosis and a Mentzer index below 13; confirmed by elevated HbA2 on hemoglobin electrophoresis or HPLC."},
+    {"dx": "Alpha-thalassemia trait", "vs": "Has similar indices but normal HbA2, requiring alpha-globin gene deletion analysis."},
+    {"dx": "Hemoglobin E trait", "vs": "Also gives microcytosis with a high red cell count and is identified by an HbE peak on HPLC or electrophoresis."}
+  ],
+  "specimen": "other",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

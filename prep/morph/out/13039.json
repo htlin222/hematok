@@ -1,0 +1,21 @@
+{
+  "id": "13039",
+  "recognize_zh": "肉眼看玻片上布滿大小不一的圓形空白斑（左），顯微鏡下紅血球被推擠到大型圓形無細胞空洞的邊緣排成環狀（右），這是 Cremophor（聚氧乙烯蓖麻油）等化學物質造成的抹片人工假象，不是細胞本身的異常。",
+  "features": [
+    "Grossly, the stained blood smear shows multiple round pale clear spots of varying size across the slide (left panel)",
+    "Microscopically, large round acellular clear spaces with sharp borders displacing red cells (right panel)",
+    "Red cells packed in rings and bands around the edges of the clear spaces",
+    "Individual red cells and the occasional leukocyte are morphologically intact",
+    "No true cellular abnormality; the pattern reflects droplet interference with smear spreading"
+  ],
+  "describe_en": "The gross image of the Wright-stained peripheral blood smear shows numerous round pale spots across the film. Microscopically there are large round acellular spaces with sharp margins, around which red cells are displaced and packed into rings and bands, while the cells themselves appear intact. This pattern represents a smear artifact from a non-miscible substance in the specimen. Findings are consistent with a chemical-associated artifact due to Cremophor EL (polyoxyethylated castor oil) used to solubilize paclitaxel; a sample drawn away from the infusion line should be requested and no morphologic interpretation should be based on the affected areas.",
+  "ddx": [
+    {"dx": "Water or drying artifact", "vs": "Water artifact produces refractile, moth-eaten inclusions within individual red cells rather than large round cell-free spaces that push red cells aside."},
+    {"dx": "Lipemic specimen", "vs": "Lipemia gives a diffusely hazy film and turbid plasma, whereas this artifact forms discrete droplet-like holes associated with drug infusion."},
+    {"dx": "Rouleaux or red cell agglutination", "vs": "Rouleaux forms stacked coin-like chains and agglutination forms irregular clumps, whereas here red cells are simply displaced around empty circular spaces."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1916",
+  "recognize_zh": "周邊血抹片中出現多顆細胞質內充滿粗大、深紫黑色嗜鹼性顆粒（basophilic granules）且顆粒覆蓋細胞核的細胞，數量明顯偏多；但圖中細胞多呈較成熟的嗜鹼性球外觀，是否為胚細胞需配合計數與流式細胞儀判定。",
+  "features": [
+    "Increased cells packed with coarse, dark purple-black basophilic granules",
+    "Granules overlie and partly obscure the nucleus",
+    "Nuclei round to lobulated; chromatin detail obscured by granules",
+    "Cell size roughly that of neutrophils to slightly larger",
+    "Background red cells largely unremarkable with occasional teardrop-shaped cell"
+  ],
+  "describe_en": "Peripheral blood smear shows several granulated cells with abundant coarse, dark basophilic granules that overlie the nucleus. Nuclei range from round to lobulated, and nuclear detail is largely obscured by the granules. Most cells at this field resemble basophils rather than unequivocal blasts, so blast enumeration and immunophenotyping (CD123, CD203c, CD13/CD33 with CD117 negativity) are needed. In the appropriate clinical and immunophenotypic context, findings are suggestive of acute basophilic leukemia, after exclusion of BCR-ABL1-positive CML.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia with basophilia / blast phase", "vs": "CML shows a full left-shifted granulocytic spectrum with basophilia and requires BCR-ABL1 testing, whereas acute basophilic leukemia is BCR-ABL1 negative with ≥20% blasts."},
+    {"dx": "Systemic mastocytosis / mast cell leukemia", "vs": "Mast cells have oval nuclei with spindled or elongated shapes and are tryptase-strong and CD117-bright, whereas basophilic blasts are CD117 negative and CD203c/CD123 positive."},
+    {"dx": "Acute promyelocytic leukemia (hypergranular)", "vs": "APL promyelocytes have azurophilic red-purple granules, Auer rod bundles and bilobed nuclei with strong MPO, whereas basophilic granules are dark purple-black, metachromatic and MPO negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

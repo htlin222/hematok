@@ -1,0 +1,22 @@
+{
+  "id": "60297",
+  "recognize_zh": "視野中有數個細長、兩端尖、呈新月或鐮刀狀的紅血球（sickle cells），並散在變形、雙凹不明顯的紅血球，符合鐮刀型紅血球。",
+  "features": [
+    "Several elongated, crescent-shaped red cells with pointed ends (sickle cells/drepanocytes)",
+    "Some boat-shaped and oat-shaped cells with blunt ends (reversibly sickled forms)",
+    "Background anisopoikilocytosis with ovoid cells and occasional small dense cells",
+    "Occasional crenated red cells, likely artifact",
+    "No nucleated red cells or leukocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked poikilocytosis with numerous elongated crescent-shaped red cells having tapered, pointed ends, as well as boat- and oat-shaped forms. The remaining red cells show anisocytosis with ovoid and small dense forms, and occasional crenated cells are present. Findings are consistent with sickle cells, as seen in sickle cell disease (HbSS or compound heterozygous states such as HbSC or HbS/beta-thalassemia); hemoglobin electrophoresis or HPLC is required for classification.",
+  "ddx": [
+    {"dx": "Elliptocytes/ovalocytes", "vs": "Elliptocytes are symmetric oval to rod-shaped cells with rounded ends, lacking the tapered pointed ends and crescent curvature of sickle cells."},
+    {"dx": "Schistocytes", "vs": "Schistocytes are fragments with straight cut edges (helmets, triangles) rather than elongated intact cells with pointed ends."},
+    {"dx": "HbC crystals / HbSC disease", "vs": "HbSC shows fewer classic sickles and characteristic straight-edged or glove-shaped crystal-containing cells and many target cells, which are not prominent here."},
+    {"dx": "Smear-spreading artifact", "vs": "Artifactually elongated cells are aligned in the same direction across the field, whereas these sickle cells are randomly oriented."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60605",
+  "recognize_zh": "骨髓抹片中大量中等大小、核卵圓或腎形、染色質細緻、細胞質豐富淡灰藍且邊緣毛躁的毛細胞，中間夾一個核偏位、有核旁淡染區的大型漿細胞；雙重免疫染色分別標出兩群細胞，提示毛細胞白血病合併漿細胞骨髓瘤。",
+  "features": [
+    "Numerous medium-sized lymphoid cells with oval to reniform nuclei, spongy chromatin and abundant pale gray-blue cytoplasm with irregular borders (hairy cells)",
+    "Large plasma cell with eccentric nucleus, perinuclear hof and deeply basophilic cytoplasm in the center (among the arrows)",
+    "Arrows mark the adjacent atypical cells for comparison",
+    "Biopsy double immunostain: scattered cells with red membranous/cytoplasmic staining and a separate population with brown nuclear staining among negative blue cells; antibodies not labeled in the figure"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows numerous medium-sized lymphoid cells with oval to bean-shaped nuclei, finely dispersed chromatin and abundant pale gray-blue cytoplasm with irregular margins, consistent with hairy cells. Admixed is a large atypical plasma cell with an eccentric nucleus, prominent perinuclear hof and basophilic cytoplasm. A dual-color immunohistochemical stain on the core biopsy highlights two distinct populations (red cytoplasmic/membranous and brown nuclear staining); the specific markers are not labeled in this figure. In conjunction with flow cytometry (CD11c, CD25, CD103, CD123) and plasma cell clonality studies, findings are consistent with concurrent hairy cell leukemia and plasma cell neoplasm.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant / splenic B-cell lymphoma with prominent nucleoli", "vs": "Shows prominent nucleoli, CD25 and annexin A1 negativity and lacks BRAF V600E."},
+    {"dx": "Splenic marginal zone lymphoma with plasmacytic differentiation", "vs": "SMZL plasma cells share the same light chain as the B cells and villous lymphocytes are CD103/CD25 negative with polar projections."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a continuum of small lymphocytes to plasma cells with MYD88 L265P, rather than hairy cells with abundant cytoplasm plus a separate atypical plasma cell population."},
+    {"dx": "Reactive plasmacytosis in hairy cell leukemia", "vs": "Reactive plasma cells are polytypic and mature, whereas myeloma shows light-chain restriction, aberrant CD56 or loss of CD19."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; IHC: dual stain (markers not labeled)",
+  "match": "partial",
+  "high_yield": false
+}

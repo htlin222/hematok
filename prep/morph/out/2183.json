@@ -1,0 +1,22 @@
+{
+  "id": "2183",
+  "recognize_zh": "高倍下可見單調的小到中型淋巴細胞成片排列，核圓形或輕度不規則（centrocyte-like），細胞質淡染量中等，呈現邊緣帶 B 細胞/單核球樣（monocytoid）外觀，缺乏大型轉化細胞，符合肺部 MALT 淋巴瘤的細胞學。",
+  "features": [
+    "Sheets of monotonous small to intermediate-sized lymphoid cells",
+    "Round to slightly irregular (centrocyte-like) nuclei with moderately condensed chromatin and inconspicuous nucleoli",
+    "Moderate amount of pale eosinophilic cytoplasm giving a monocytoid appearance",
+    "Only rare larger cells; no sheets of large transformed cells",
+    "Thin fibrous septa and eosinophilic stromal/epithelial-like area at right edge"
+  ],
+  "describe_en": "High-power H&E section shows sheets of monotonous small to intermediate-sized lymphoid cells with round to slightly irregular nuclei, moderately condensed chromatin, inconspicuous nucleoli, and moderate pale cytoplasm, consistent with marginal zone (monocytoid/centrocyte-like) B cells. Large transformed cells are rare, and sheets of large cells are not seen. Lymphoepithelial lesions and plasmacytic differentiation are not clearly demonstrated in this field. The findings are consistent with extranodal marginal zone lymphoma of MALT type in the context of a lung lesion, to be supported by immunophenotype and clonality.",
+  "ddx": [
+    {"dx": "Reactive lymphoid hyperplasia", "vs": "Reactive infiltrates are polymorphous with germinal centers and polytypic plasma cells, lacking the monotonous monocytoid B-cell sheets and light-chain restriction."},
+    {"dx": "Mantle cell lymphoma", "vs": "MCL cells have scant cytoplasm and are cyclin D1+/SOX11+/CD5+, whereas MALT lymphoma cells have more pale cytoplasm and are CD5-/cyclin D1-."},
+    {"dx": "Follicular lymphoma", "vs": "FL shows neoplastic follicles of centrocytes/centroblasts with CD10/BCL6 and BCL2 co-expression, unlike CD10-negative marginal zone cells."},
+    {"dx": "Diffuse large B-cell lymphoma arising from MALT lymphoma", "vs": "Transformation requires solid sheets of large cells, which are not present in this field."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

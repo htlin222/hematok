@@ -1,0 +1,22 @@
+{
+  "id": "60639",
+  "recognize_zh": "單一小至中型成熟淋巴球，核圓、染色質粗塊，細胞質稀少淡藍，其中可見數條細長針狀、類似 Auer 小體的結晶樣包涵體，但細胞本身並非芽細胞。",
+  "features": [
+    "Single small-to-medium lymphoid cell slightly larger than adjacent red cells with high N:C ratio",
+    "Round nucleus with coarse, clumped mature chromatin; no distinct nucleolus",
+    "Thin rim of pale blue cytoplasm containing several slender, needle-like, rod-shaped pinkish-purple inclusions resembling Auer rods",
+    "Small fragment of similar fibrillar material just outside the cell membrane",
+    "Background red cells with an adjacent echinocyte; no other leukocytes in view"
+  ],
+  "describe_en": "Peripheral blood smear shows a small mature-appearing lymphocyte with a round nucleus, condensed clumped chromatin and scant pale blue cytoplasm. The cytoplasm contains several thin, elongated, needle-like azurophilic inclusions resembling Auer rods, with a small fragment of similar material adjacent to the cell. The mature chromatin and absence of nucleoli argue against a myeloblast. Findings are suggestive of a lymphoproliferative disorder with Auer rod-like crystalline (likely immunoglobulin) inclusions; flow cytometry and MPO cytochemistry (expected negative) are recommended.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with Auer rods", "vs": "True Auer rods occur in blasts with fine chromatin and nucleoli and are MPO positive, whereas this cell has mature clumped chromatin."},
+    {"dx": "Large granular lymphocyte", "vs": "LGLs have more abundant cytoplasm with discrete round azurophilic granules rather than elongated needle-shaped inclusions."},
+    {"dx": "Plasma cell neoplasm with crystalline inclusions", "vs": "Crystal-containing plasma cells have eccentric nuclei with a perinuclear hof and more abundant cytoplasm, and express CD138 rather than a mature B- or T-cell phenotype."},
+    {"dx": "Overlying platelet or stain artifact", "vs": "Artifacts lie in a different focal plane or outside the cell and lack the uniform rod shape, whereas these inclusions are within the cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

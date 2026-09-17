@@ -1,0 +1,21 @@
+{
+  "id": "64224",
+  "recognize_zh": "這是非形態學的分子檢驗報告：MYD88 基因 exon 5 偵測到錯義突變 c.794T>C（p.Leu265Pro），結果為 Mutant Type、判讀陽性，支持淋巴漿細胞淋巴瘤／Waldenström 巨球蛋白血症。",
+  "features": [
+    "Gene MYD88 (chromosome 3p22.2), exon 5 screened",
+    "Missense mutation c.794T>C, p.Leu265Pro (L265P), reference GRCh37 NM_002468.4",
+    "Patient sequence reported as Mutant Type",
+    "Interpretation: POSITIVE for MYD88 L265P mutation"
+  ],
+  "describe_en": "This is a non-morphologic molecular pathology report of PCR-based testing for the MYD88 L265P variant. The patient sample shows the exon 5 missense mutation c.794T>C (p.Leu265Pro) and is reported as positive. MYD88 L265P is present in more than 90% of lymphoplasmacytic lymphoma/Waldenstrom macroglobulinemia and supports that diagnosis in the setting of an IgM paraprotein and lymphoplasmacytic marrow infiltrate, but it is not entirely specific and must be interpreted with morphology and immunophenotype. The report does not state variant allele fraction or assay sensitivity, which affect interpretation of low-level disease.",
+  "ddx": [
+    {"dx": "Marginal zone lymphoma", "vs": "MYD88 L265P occurs in only a minority (under 10%) of marginal zone lymphomas, which lack the typical LPL marrow pattern and IgM paraprotein level."},
+    {"dx": "IgM MGUS", "vs": "IgM MGUS also frequently carries MYD88 L265P but lacks a diagnostic marrow lymphoplasmacytic infiltrate and end-organ symptoms."},
+    {"dx": "Activated B-cell type DLBCL (e.g., primary CNS or testicular)", "vs": "These high-grade lymphomas often carry MYD88 L265P but consist of sheets of large B cells rather than small lymphoplasmacytic cells."},
+    {"dx": "IgM plasma cell myeloma", "vs": "IgM myeloma is MYD88 wild type and frequently has t(11;14), with a pure clonal plasma cell population."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

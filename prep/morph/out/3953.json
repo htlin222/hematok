@@ -1,0 +1,22 @@
+{
+  "id": "3953",
+  "recognize_zh": "一顆單核巨噬細胞（monocyte/macrophage）的空泡狀細胞質內，可見多個約 2–4 μm 的小圓形病原體，每個都有紫色核與旁邊點狀的動基體（kinetoplast），即杜氏利什曼原蟲無鞭毛體（LD bodies）。",
+  "features": [
+    "Large mononuclear phagocyte with an oval to reniform nucleus and fine chromatin",
+    "Abundant vacuolated cytoplasm containing multiple small oval organisms (~2-4 um)",
+    "Each organism shows a purple nucleus and a small rod/dot-like kinetoplast",
+    "Organisms are intracellular, clustered within cytoplasmic vacuoles",
+    "Background of thick-area erythrocytes with nearby lymphocyte and monocyte"
+  ],
+  "describe_en": "Peripheral blood smear (thick area) shows a monocyte/macrophage with abundant vacuolated cytoplasm containing numerous small intracellular organisms. Each organism measures a few microns and contains a nucleus and an adjacent bar-shaped kinetoplast, without a capsule or budding. Findings are consistent with Leishmania amastigotes (Leishman-Donovan bodies), supporting visceral leishmaniasis.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts have a clear halo/pseudocapsule and lack a kinetoplast, whereas Leishmania amastigotes show a nucleus plus a distinct kinetoplast."},
+    {"dx": "Toxoplasma gondii tachyzoites", "vs": "Toxoplasma is crescentic, lacks a kinetoplast, and is rarely seen in circulating monocytes."},
+    {"dx": "Phagocytosed platelets or debris", "vs": "Ingested platelets are granular without a consistent nucleus-kinetoplast arrangement or uniform oval shape."},
+    {"dx": "Talaromyces (Penicillium) marneffei", "vs": "Talaromyces yeasts divide by central transverse septation and lack a kinetoplast."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

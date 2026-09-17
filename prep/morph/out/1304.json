@@ -1,0 +1,21 @@
+{
+  "id": "1304",
+  "recognize_zh": "骨髓切片免疫染色中，一個大型淋巴聚集幾乎全部呈強陽性棕色（膜性），周圍造血細胞陰性，形態與分布符合 B 細胞標記（多為 CD20）標出以 B 細胞為主的濾泡/生發中心。",
+  "features": [
+    "Large lymphoid aggregate with dense, strong brown membranous staining of the majority of cells",
+    "Staining is sharply confined to the aggregate; surrounding hematopoietic cells are negative",
+    "Few scattered positive cells in the interstitium",
+    "Small central vessel within the positive aggregate",
+    "Adjacent bone trabecula (right) shows no paratrabecular positive infiltrate"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostain shows a large intertrabecular lymphoid aggregate in which most cells are strongly positive, with only rare scattered positive cells in the surrounding interstitium. The distribution is compatible with a B-cell marker (such as CD20) highlighting a B-cell follicle; the specific antibody is not stated. The aggregate is well circumscribed and not paratrabecular. Findings support a B-cell-rich lymphoid follicle; light-chain, BCL2 and CD10 studies are needed to exclude a B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "FL follicles are paratrabecular and co-express BCL2 with CD10/BCL6 in follicle center cells, whereas reactive germinal centers are BCL2-negative."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL shows light-chain-restricted B cells, often with intrasinusoidal distribution, which a single CD20 stain cannot distinguish from reactive B cells."},
+    {"dx": "T-cell rich aggregate or mastocytosis", "vs": "A T-cell-predominant or mast cell lesion would be largely negative for a B-cell marker, unlike this diffusely positive aggregate."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: B-cell marker (antigen not specified)",
+  "match": "consistent",
+  "high_yield": false
+}

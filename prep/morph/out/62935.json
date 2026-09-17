@@ -1,0 +1,21 @@
+{
+  "id": "62935",
+  "recognize_zh": "周邊血抹片中一個分葉核嗜中性球的細胞質內含多顆大而不規則的深洋紅色顆粒，大小遠超過正常顆粒，周圍紅血球正常大小、正常色素；嗜中性球內的巨大顆粒是 Chediak-Higashi 症候群的典型線索。",
+  "features": [
+    "Segmented neutrophil with several large, round to irregular, deep magenta cytoplasmic granules",
+    "Giant granules clearly larger than normal specific granules",
+    "Remaining neutrophil cytoplasm pale pink",
+    "Normocytic normochromic red cells with a few crenated forms",
+    "Normal-appearing platelets in background"
+  ],
+  "describe_en": "Peripheral blood smear shows a segmented neutrophil containing several large, irregular, deep magenta cytoplasmic granules that are much larger than normal neutrophilic granules. Red cells are normocytic and normochromic with a few crenated forms, and platelets appear normal. No left shift or toxic changes are evident. Findings are consistent with the giant granules of Chediak-Higashi syndrome.",
+  "ddx": [
+    {"dx": "Toxic granulation", "vs": "Toxic granules are fine, uniform, and diffusely distributed, not a few giant irregular granules."},
+    {"dx": "Pseudo-Chediak-Higashi anomaly (AML/MDS)", "vs": "Pseudo-CH granules arise from fused azurophilic granules in leukemic or dysplastic cells, accompanied by blasts or dysplasia."},
+    {"dx": "Phagocytosed material (bacteria, fungi)", "vs": "Phagocytosed organisms are uniform in shape (cocci, yeast) and often in vacuoles, unlike variably sized magenta granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

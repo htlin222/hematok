@@ -1,0 +1,21 @@
+{
+  "id": "1093",
+  "recognize_zh": "單核球（monocyte）、帶狀/分節中性球、骨髓細胞（myelocyte）與有核紅血球混雜成團，呈現單核球增多加左移與有核紅血球，符合 JMML 的周邊血液表現。",
+  "features": [
+    "Clustered nucleated cells in a myelomonocytic mixture",
+    "Monocytes and promonocyte-like cells with folded nuclei and gray-blue vacuolated cytoplasm",
+    "Left-shifted granulocytes including myelocytes, bands and segmented neutrophils, some with hypolobated nuclei",
+    "Several nucleated red blood cells with dense round nuclei",
+    "Occasional large platelet; red cells without marked poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows a cluster of nucleated cells composed of monocytes, immature granulocytes (myelocytes and metamyelocytes), bands and segmented neutrophils, together with several nucleated red blood cells. Monocytes have folded nuclei and gray-blue, finely vacuolated cytoplasm; occasional neutrophils appear hypolobated. No significant population of blasts is evident in this field. In a young child, findings are consistent with juvenile myelomonocytic leukemia, pending correlation with the absolute monocyte count, hemoglobin F and RAS-pathway genetics.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a marked granulocytic leukocytosis with myelocyte and neutrophil peaks and basophilia rather than prominent monocytosis, and is BCR::ABL1 positive."},
+    {"dx": "Reactive monocytosis/leukoerythroblastosis (e.g., viral infection such as CMV/EBV)", "vs": "Reactive states lack sustained monocytosis >1x10^9/L with clonal RAS-pathway mutations and usually resolve; morphology alone may not separate them."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML shows similar morphology but occurs in older adults; JMML is defined by pediatric age and RAS-pathway alterations."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

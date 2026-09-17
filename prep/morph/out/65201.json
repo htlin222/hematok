@@ -1,0 +1,22 @@
+{
+  "id": "65201",
+  "recognize_zh": "骨髓抹片充滿中型母細胞，高核質比、核染色質細、細胞質少且呈藍色，無顆粒或 Auer 小體，MPO 染色陰性；流式顯示母細胞同時表現 T 系（CD7 強、胞質 CD3）與 B 系（CD19 強、CD22、胞質 CD79a）標記，屬 T/B 混合表型急性白血病。",
+  "features": [
+    "Bone marrow aspirate largely replaced by medium-sized blasts with high N:C ratio (A)",
+    "Round to slightly irregular nuclei with fine chromatin and occasional small nucleoli",
+    "Scant agranular basophilic cytoplasm without Auer rods",
+    "Cytochemical MPO negative in blasts; only a residual myeloid cell shows granular positivity (B)",
+    "Flow: blasts (red) coexpress CD19, CD22, cytoplasmic CD79a with bright CD7 and cytoplasmic CD3; partial TdT, CD99, CD38; CD34-, MPO-, surface CD3- (C-J)"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows marked replacement by medium-sized blasts with high nuclear-to-cytoplasmic ratios, fine chromatin and scant agranular basophilic cytoplasm; Auer rods are not seen. Cytochemical myeloperoxidase is negative in the blasts. Flow cytometry shows that the blasts express bright CD7, cytoplasmic CD3, dim CD5, strong CD19, CD22 and cytoplasmic CD79a, with partial TdT and CD99, CD38 positivity, and lack CD34, surface CD3 and MPO. Findings are consistent with mixed-phenotype acute leukemia, T/B type.",
+  "ddx": [
+    {"dx": "T-lymphoblastic leukemia with aberrant CD19/CD79a", "vs": "Isolated weak CD79a or CD19 is allowed in T-ALL, but strong CD19 with CD22 and CD79a here fulfills B-lineage assignment criteria."},
+    {"dx": "B-lymphoblastic leukemia with aberrant CD7", "vs": "CD7 is a common aberrancy in B-ALL, but cytoplasmic CD3 (at T-cell intensity) establishes T-lineage and is not an aberrant B-ALL marker."},
+    {"dx": "MPAL, B/myeloid", "vs": "B/myeloid MPAL requires MPO or monocytic differentiation, whereas these blasts are MPO-negative by cytochemistry and flow."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL expresses stem/myeloid markers (CD34, CD117, CD13/33) with CD1a/CD8 negativity and lacks strong B-lineage antigens."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; MPO cytochemistry; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

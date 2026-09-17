@@ -1,0 +1,21 @@
+{
+  "id": "3700",
+  "recognize_zh": "骨髓切片細胞密度極高，脂肪空泡很少；大片中型未成熟細胞核卵圓至不規則、染色質細緻，取代正常造血，其間夾雜深染小圓核的紅血球系細胞與數顆巨核細胞。移植後出現這種未成熟細胞片狀浸潤，要考慮 AML 復發。",
+  "features": [
+    "Markedly hypercellular marrow with few small fat spaces",
+    "Diffuse sheets of medium-sized immature cells with oval to irregular nuclei, fine chromatin and small nucleoli",
+    "Interspersed clusters of small erythroid precursors with dark round nuclei",
+    "Scattered megakaryocytes, including a smaller form with a hypolobated nucleus and a large lobulated form",
+    "Occasional eosinophilic granulocytes; no fibrosis assessable on H&E"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a markedly hypercellular marrow with near-complete loss of fat. Much of the space is occupied by sheets of medium-sized immature mononuclear cells with oval to irregular nuclei, fine chromatin and small nucleoli, admixed with erythroid clusters, occasional eosinophilic granulocytes and scattered megakaryocytes, some small and hypolobated. Blast quantification is not possible on H&E alone. In a patient after peripheral stem cell transplant, findings are consistent with recurrent acute myeloid leukemia; CD34/CD117 immunohistochemistry, aspirate differential and chimerism analysis are recommended.",
+  "ddx": [
+    {"dx": "Engraftment/regenerating marrow after transplant", "vs": "Regenerating marrow shows orderly maturing myeloid and erythroid islands and normal megakaryocytes without sheets of CD34+ blasts."},
+    {"dx": "Chronic myeloid leukemia (relapse)", "vs": "CML shows granulocytic hyperplasia with a full maturation spectrum and small 'dwarf' megakaryocytes, confirmed by BCR::ABL1 testing."},
+    {"dx": "Post-transplant lymphoproliferative disorder or ALL relapse", "vs": "Lymphoid infiltrates lack admixed myeloid features and are distinguished by CD19/PAX5 or CD3 versus MPO/CD117 immunostaining."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

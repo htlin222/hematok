@@ -1,0 +1,23 @@
+{
+  "id": "64956",
+  "recognize_zh": "A 張 H&E 為瀰漫片狀、細胞質少的小至中型藍色細胞圍繞血管浸潤；B、C 為核染色陽性（TdT、PAX5），D、E 為膜染色（CD19 弱、CD10 強），F 的 CD34 腫瘤細胞陰性僅血管內皮著色，這組免疫表型指向前驅 B 淋巴母細胞。",
+  "features": [
+    "Panel A (H&E): diffuse sheets of monotonous small-to-medium blasts with scant cytoplasm infiltrating around small vessels",
+    "Blasts with fine chromatin, round to irregular nuclei and occasional nucleoli; no glandular breast elements seen in this field",
+    "Panel B: strong diffuse nuclear TdT positivity",
+    "Panel C: diffuse nuclear PAX5 positivity",
+    "Panels D-E: weak membranous CD19 and strong membranous CD10 staining",
+    "Panel F: CD34 negative in blasts with positive internal control in endothelial cells"
+  ],
+  "describe_en": "Biopsy of the breast mass shows a diffuse, sheet-like infiltrate of small-to-medium blasts with scant cytoplasm and fine chromatin, arranged around small vessels (A). By immunohistochemistry, the neoplastic cells are strongly positive for TdT (B) and PAX5 (C), weakly positive for CD19 (D), strongly positive for CD10 (E), and negative for CD34 (F), which highlights only endothelial cells. This profile indicates an immature B-cell phenotype. In a patient with a history of B-lymphoblastic leukemia, findings are consistent with extramedullary relapse of B-lymphoblastic leukemia/lymphoma.",
+  "ddx": [
+    {"dx": "Burkitt lymphoma", "vs": "Burkitt cells are TdT-negative mature B cells with surface immunoglobulin, Ki-67 near 100%, starry-sky pattern and MYC rearrangement."},
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL cells are larger with vesicular chromatin and are TdT-negative, often CD20-strong."},
+    {"dx": "Myeloid sarcoma", "vs": "Myeloid sarcoma expresses MPO, CD117, lysozyme or CD33 and lacks PAX5 and TdT in most cases."},
+    {"dx": "Lobular breast carcinoma or small round cell tumor", "vs": "Lobular carcinoma is cytokeratin-positive and E-cadherin-negative, and Ewing sarcoma expresses CD99/NKX2.2 without PAX5."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: TdT, PAX5, CD19, CD10, CD34",
+  "match": "consistent",
+  "high_yield": false
+}

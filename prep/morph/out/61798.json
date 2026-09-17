@@ -1,0 +1,21 @@
+{
+  "id": "61798",
+  "recognize_zh": "周邊血抹片中大量紅血球的血紅素被推向細胞一側，另一側只剩透明的細胞膜囊泡，形成水泡細胞／半鬼影細胞（blister cell/hemighost），為 G6PD 缺乏在氧化壓力（rasburicase）下溶血的特徵。",
+  "features": [
+    "Numerous red cells with hemoglobin retracted to one side and a clear membrane-bound vesicle on the other (blister cells/hemighosts)",
+    "Eccentrocytes with sharply demarcated, crescentic pale zones",
+    "Occasional spherocytic and irregularly contracted red cells",
+    "Single small mature lymphocyte in the center",
+    "Scattered platelets; no schistocytes or red cell agglutinates evident"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous red cells in which hemoglobin is retracted to one side of the cell, leaving a sharply demarcated clear membrane vesicle, forming blister cells (hemighosts) and eccentrocytes, together with occasional irregularly contracted cells. A single small lymphocyte is present, and schistocytes and agglutination are not seen. Heinz bodies require a supravital stain for demonstration. Findings are consistent with acute oxidative hemolysis, as seen in G6PD deficiency after rasburicase exposure.",
+  "ddx": [
+    {"dx": "Microangiopathic hemolytic anemia", "vs": "MAHA shows fragmented schistocytes (helmet and triangle cells) with thrombocytopenia rather than intact cells with hemoglobin retracted to one side."},
+    {"dx": "Autoimmune hemolytic anemia", "vs": "AIHA shows microspherocytes and polychromasia with a positive direct antiglobulin test, not blister cells."},
+    {"dx": "Unstable hemoglobin disease", "vs": "Unstable hemoglobins also produce bite cells and Heinz bodies but are chronic and identified by heat or isopropanol stability testing with normal G6PD activity."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

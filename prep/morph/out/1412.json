@@ -1,0 +1,21 @@
+{
+  "id": "1412",
+  "recognize_zh": "成片圓形細胞的細胞核偏心、核周可見淡染區，細胞質呈強烈棕色免疫染色，外觀為漿細胞（plasma cells）大量聚集，符合漿細胞腫瘤；本圖本身並未顯示血小板功能異常，需結合臨床（副蛋白干擾血小板功能）解讀。",
+  "features": [
+    "Sheets of round to polygonal cells with eccentric round nuclei (plasmacytoid morphology)",
+    "Strong cytoplasmic and membranous brown immunostaining in most cells, with a pale perinuclear (Golgi) region in some",
+    "Nuclei with vesicular chromatin and occasional small visible nucleoli",
+    "Dense, cohesive-appearing aggregates suggesting a marrow clot section or particle preparation",
+    "Antibody not specified; cytoplasmic pattern is compatible with immunoglobulin light chain or a plasma cell marker"
+  ],
+  "describe_en": "Immunohistochemical stain shows sheets of plasmacytoid cells with eccentric nuclei and abundant cytoplasm displaying strong cytoplasmic and membranous positivity, with perinuclear clearing in some cells. Nuclei have vesicular chromatin with occasional small nucleoli. The antibody is not identified in the image; if this represents a single immunoglobulin light chain, the sheet-like positivity would indicate a clonal plasma cell population. The image itself does not demonstrate platelet dysfunction, which in myeloma results from paraprotein coating of platelets and is assessed by functional assays. Findings are consistent with a plasma cell neoplasm (multiple myeloma).",
+  "ddx": [
+    {"dx": "Reactive polyclonal plasmacytosis", "vs": "Reactive plasma cells are scattered or perivascular with a mixed kappa:lambda ratio, whereas myeloma forms sheets with light chain restriction."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL contains a spectrum of small lymphocytes and plasmacytoid lymphocytes expressing CD20 and often MYD88 L265P, rather than sheets of pure plasma cells."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells are cytokeratin-positive and CD138/light chain-negative with more cohesive glandular or nested architecture."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: marker not specified (cytoplasmic, likely light chain)",
+  "match": "partial",
+  "high_yield": false
+}

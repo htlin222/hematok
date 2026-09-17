@@ -1,0 +1,22 @@
+{
+  "id": "64637",
+  "recognize_zh": "密集紅血球背景中有一條遠大於血球、蜿蜒捲曲的紫紅色長條蟲體，體內核柱深染，尾端可見一段較淡的粉紅色延伸（可能為鞘膜），即周邊血液中的微絲蚴（microfilaria）；此倍率無法看清尾端細胞核分布以分辨種別。",
+  "features": [
+    "Single elongated, serpiginous worm-like organism many times longer than a red cell diameter",
+    "Body stains deep magenta-purple with a dense column of nuclei not individually resolvable at this magnification",
+    "One end shows a paler pink segmented/striated extension, possibly the sheath, with a frayed opposite end",
+    "Body shows several kinks and tight curves",
+    "Background of densely packed red cells with scattered neutrophils and platelets"
+  ],
+  "describe_en": "Giemsa-stained peripheral blood smear shows, against a dense background of red cells, a single elongated, serpiginous microfilaria with a deeply stained magenta-purple body containing a dense column of nuclei. A paler pink, faintly segmented extension is seen at one end, possibly representing a stained sheath, and the body has several kinks. Scattered neutrophils and platelets are present. Findings are consistent with microfilaremia; species identification (e.g., Wuchereria bancrofti, Brugia malayi, Loa loa) requires higher-magnification assessment of the sheath, cephalic space and tail nuclei, or antigen/PCR testing.",
+  "ddx": [
+    {"dx": "Wuchereria bancrofti", "vs": "W. bancrofti is sheathed with a sheath that stains poorly with Giemsa, has gentle smooth curves and a tapered tail free of nuclei."},
+    {"dx": "Brugia malayi", "vs": "B. malayi has a sheath that stains pink with Giemsa, a kinky body, and two separate terminal nuclei in the tail."},
+    {"dx": "Loa loa", "vs": "Loa loa is sheathed with an unstained sheath on Giemsa, shows diurnal periodicity, and has nuclei extending continuously to the tail tip."},
+    {"dx": "Fibers or artifacts (cotton/lint, fibrin strands)", "vs": "Fibers are refractile, uniformly structured and lack an internal column of nuclei, whereas the organism shows a nucleated body with tapered ends."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

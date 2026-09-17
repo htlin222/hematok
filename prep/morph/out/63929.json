@@ -1,0 +1,22 @@
+{
+  "id": "63929",
+  "recognize_zh": "箭頭所指為一顆大型漿細胞，核偏心圓形、染色質粗塊狀，核周有淡染區（hof），細胞質深藍、外圍一圈鮮豔的洋紅至紫紅色纖維狀邊緣並向外碎裂，這種紅色鑲邊就是火焰細胞（flame cell），代表細胞質內大量免疫球蛋白。",
+  "features": [
+    "Large plasma cell (arrow) with an eccentric round nucleus and coarsely clumped chromatin",
+    "Pale perinuclear Golgi zone (hof) within deeply basophilic inner cytoplasm",
+    "Peripheral cytoplasm with an intense magenta-fuchsia fringed, fibrillar rim (flame cell appearance)",
+    "Fragmented magenta cytoplasmic material shed into the adjacent background",
+    "Adjacent segmented neutrophil and small lymphocyte for size comparison; background red cells and platelets"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows red cells, a segmented neutrophil and a small lymphocyte adjacent to a large plasma cell (arrow). The plasma cell has an eccentric round nucleus with clumped chromatin, a perinuclear hof and abundant cytoplasm that is basophilic centrally but shows a vivid magenta, fringed and fibrillar peripheral rim, with fragments of similar material in the nearby background. This is a flame cell, reflecting immunoglobulin accumulation (often IgA). Flame cells are not specific for malignancy, but in the setting of multiple myeloma the finding is consistent with plasma cell neoplasm, to be quantified with plasma cell percentage and clonality studies.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis with flame cells", "vs": "Flame cells can occur in reactive conditions, so polytypic kappa/lambda expression and a low plasma cell percentage separate reactive from clonal plasma cells."},
+    {"dx": "Mott cell or Russell body plasma cell", "vs": "Mott cells contain multiple round pale Russell bodies (grape-like globules), not a diffuse magenta cytoplasmic fringe."},
+    {"dx": "Thesaurocyte (IgA myeloma) or Gaucher-like pseudo-Gaucher cell", "vs": "Thesaurocytes are large plasma cells with pale, voluminous cytoplasm, and pseudo-Gaucher cells show wrinkled fibrillar cytoplasm with small central nuclei rather than a flame-colored rim."},
+    {"dx": "Eosinophil or degranulating mast cell", "vs": "Eosinophils have bilobed nuclei with discrete orange granules and mast cells have dense purple granules, not a hof-bearing plasma cell with an eccentric clock-face nucleus."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

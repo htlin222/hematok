@@ -1,0 +1,21 @@
+{
+  "id": "62656",
+  "recognize_zh": "中央聚集的細胞核深染、互相融合，其間夾有均質紫色物質與顆粒碎片，可能代表 LE 現象中核物質與吞噬細胞的聚集；但細胞保存不佳、沒有清楚的單一 LE 細胞，需依臨床（紅斑性狼瘡）判讀。",
+  "features": [
+    "Cluster of crowded, overlapping cells with dark, smudged nuclei",
+    "Homogeneous purple material and granular debris between the clustered cells",
+    "Some cells with rounded pale-purple nuclear masses lacking chromatin detail",
+    "Isolated degenerated cell with clumped nucleus at lower left",
+    "Poor cell preservation and thin background with precipitate limit interpretation"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of crowded, overlapping cells with dark, partly smudged nuclei, admixed with homogeneous purple material and granular debris. A few rounded pale nuclear masses without chromatin texture are present within the cluster, and an isolated degenerated cell is seen at the lower left. Cell preservation is poor and no discrete LE cell with a crescentic displaced nucleus can be confidently identified in this field. The findings may represent aggregation of phagocytes around denatured nuclear material in the clinical setting of systemic lupus erythematosus, but they are not diagnostic on their own.",
+  "ddx": [
+    {"dx": "Smudged/crushed cell artifact", "vs": "Crush artifact produces smeared chromatin streaks without phagocytosed homogeneous nuclear bodies inside intact cells."},
+    {"dx": "Tart cell", "vs": "A tart cell contains an ingested nucleus that retains chromatin structure, unlike the homogeneous LE body."},
+    {"dx": "Clump of myeloid precursors", "vs": "Precursor clumps have well-preserved individual nuclei with visible chromatin and granulated cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

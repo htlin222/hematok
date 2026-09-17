@@ -1,0 +1,20 @@
+{
+  "id": "62600",
+  "recognize_zh": "CD30 免疫染色中部分腫瘤細胞呈強弱不一的細胞膜及細胞質（高基氏體區）棕色染色，其餘細胞弱陽性或陰性，屬於部分、異質性的 CD30 表現。",
+  "features": [
+    "Diffuse sheet of tumor cells with round, eccentric nuclei",
+    "Heterogeneous CD30 staining: a subset with strong membranous and paranuclear (Golgi) cytoplasmic staining",
+    "Many cells with weak granular cytoplasmic blush; others negative",
+    "No large Reed-Sternberg-like or anaplastic hallmark cells evident"
+  ],
+  "describe_en": "CD30 immunohistochemistry shows variable expression in the neoplastic infiltrate, with a subset of cells demonstrating strong membranous and Golgi-pattern staining and a larger proportion showing weak cytoplasmic staining or no staining. There are no large anaplastic or Hodgkin-like cells. Partial CD30 expression is common in EBV-associated and plasmacytic/plasmablastic neoplasms and is not specific. Findings are in keeping with EBV-positive plasmacytoma-like PTLD.",
+  "ddx": [
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "ALCL shows uniform strong CD30 in large hallmark cells with T-cell antigens, rather than heterogeneous staining in plasma cells."},
+    {"dx": "Classic Hodgkin lymphoma-like PTLD", "vs": "CHL-type PTLD has scattered large CD30+/CD15+ Reed-Sternberg cells in a reactive background, not sheets of plasmacytoid cells."},
+    {"dx": "Primary effusion lymphoma (extracavitary)", "vs": "PEL is often CD30-positive with plasmablastic cytology but is HHV8/LANA-positive."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

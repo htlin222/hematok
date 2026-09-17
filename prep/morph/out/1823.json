@@ -1,0 +1,21 @@
+{
+  "id": "1823",
+  "recognize_zh": "中央兩顆嗜中性球周圍聚集了許多小血小板，形成血小板衛星現象與小團聚集（platelet satellitism/clumping），其他區域幾乎沒有游離血小板，是 EDTA 引起假性血小板低下（pseudothrombocytopenia）的線索；紅血球上的折光小泡為乾燥假影。",
+  "features": [
+    "Platelets clustered around and adherent to two neutrophils (platelet satellitism) with small loose platelet aggregates",
+    "Few free-lying single platelets elsewhere in the field",
+    "Neutrophils otherwise morphologically unremarkable; a small lymphocyte at the lower right",
+    "Red cells with refractile clear inclusions and crenation from drying artifact",
+    "No schistocytes or giant platelets identified"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous platelets gathered around two neutrophils, forming platelet satellitism with small loose aggregates, while few free platelets are present elsewhere in the field. The neutrophils and a nearby lymphocyte are unremarkable, and red cells show refractile drying artifact without schistocytes. Platelet clumping and satellitism cause analyzers to undercount platelets. Findings are consistent with EDTA-dependent pseudothrombocytopenia; a repeat count from a citrate- or heparin-anticoagulated sample, or a finger-stick smear, is recommended.",
+  "ddx": [
+    {"dx": "True thrombocytopenia (e.g., ITP)", "vs": "True thrombocytopenia shows uniformly sparse platelets without aggregates or neutrophil rosetting, and the low count persists in citrate tubes."},
+    {"dx": "Platelet clumping from traumatic/slow venipuncture", "vs": "Clotting-related clumps are large fibrin-containing aggregates at the feathered edge without neutrophil satellitism, and recur with any anticoagulant only if collection is poor."},
+    {"dx": "Bacteria or cryoglobulin/stain precipitate", "vs": "Bacteria are uniform rods/cocci and precipitate is refractile and extracellular, whereas platelets have a granular purple center and pale hyalomere."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

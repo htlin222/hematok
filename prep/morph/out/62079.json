@@ -1,0 +1,21 @@
+{
+  "id": "62079",
+  "recognize_zh": "這是 HBB 基因起始區的 Sanger 定序圖（非形態圖）：ATG GTG CAT CTG ACT CCT GAG GAG AAG（codon 1–8）為清楚單峰，之後突然轉為重疊雙峰，提示異型合子讀框位移突變，位置符合 codon 8/9（+G）一類的插入。",
+  "features": [
+    "Sanger sequencing electropherogram of the 5' coding region of HBB (non-morphologic)",
+    "Clean single peaks for ATG GTG CAT CTG ACT CCT GAG GAG AAG (start codon through codon 8)",
+    "Abrupt onset of overlapping double peaks immediately after codon 8 that persist downstream",
+    "Pattern indicates a heterozygous small insertion/deletion, location consistent with codons 8/9 (+G)",
+    "Base calls after the transition (GCCTGCCTTTCC...) do not match the reference and reflect superimposed sequences"
+  ],
+  "describe_en": "This is a Sanger sequencing electropherogram of the beta-globin (HBB) gene rather than a morphologic image. The trace shows clean single peaks through the initiation codon and codons 1-8 (ATG GTG CAT CTG ACT CCT GAG GAG AAG), with the codon 6 GAG intact, followed by an abrupt transition to persistent overlapping double peaks. This pattern indicates a heterozygous frameshift insertion or deletion at approximately codons 8/9, consistent with the codons 8/9 (+G) beta-zero allele, although confirmation requires reverse-strand sequencing. A beta-thalassemia major phenotype would require a second pathogenic HBB allele in trans.",
+  "ddx": [
+    {"dx": "Sickle mutation (codon 6 GAG>GTG)", "vs": "HbS produces a single A/T double peak at codon 6 with clean flanking sequence, whereas here codon 6 is normal and the double peaks begin after codon 8 and persist."},
+    {"dx": "Heterozygous point mutation", "vs": "A single-nucleotide change yields one isolated double peak rather than continuous superimposed peaks downstream."},
+    {"dx": "Poor-quality sequence artifact", "vs": "Artifacts show generalized low signal-to-noise rather than a sharp transition from clean to mixed peaks at a defined position."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A (Sanger sequencing)",
+  "match": "non-morphologic",
+  "high_yield": false
+}

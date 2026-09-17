@@ -1,0 +1,20 @@
+{
+  "id": "3963",
+  "recognize_zh": "白血球鹼性磷酸酶（LAP）染色的周邊血液抹片，三顆嗜中性球核為紅色，胞質只有少量到中等量淡藍色顆粒（約 1–2 分），另一顆圓形細胞整體染成紅色而無藍色顆粒，示範低到中等強度的計分。",
+  "features": [
+    "Three segmented neutrophils with red counterstained nuclei",
+    "Sparse to moderate fine blue granular cytoplasmic reaction product (approximately grade 1-2)",
+    "Round mononuclear cell with homogeneous red-pink staining and no blue granules (likely a lymphocyte, not scored)",
+    "Unstained yellow-tan erythrocyte background without cytoplasmic reaction product"
+  ],
+  "describe_en": "Peripheral blood smear stained for leukocyte alkaline phosphatase shows three segmented neutrophils with red counterstained nuclei and sparse to moderate fine blue granular cytoplasmic reaction product, corresponding to approximately grade 1-2 activity. A round mononuclear cell with uniform red counterstain and no reaction product is present and would not be included in the count. Each of 100 neutrophils is graded 0-4 and the grades are summed to give the LAP score. Uniformly weak staining like this would contribute to a low-to-normal score; a low score supports CML over a leukemoid reaction.",
+  "ddx": [
+    {"dx": "High LAP score (leukemoid reaction, polycythemia vera, pregnancy)", "vs": "A high score shows many neutrophils with dense grade 3-4 blue reaction product filling the cytoplasm."},
+    {"dx": "Chronic myeloid leukemia", "vs": "In CML most neutrophils are grade 0 with essentially no reaction product, so confirmation requires BCR-ABL1 testing rather than LAP alone."},
+    {"dx": "Paroxysmal nocturnal hemoglobinuria", "vs": "PNH also gives a low LAP score, and is distinguished by flow cytometric loss of GPI-anchored proteins (FLAER, CD55/CD59)."}
+  ],
+  "specimen": "PB",
+  "stain": "Leukocyte alkaline phosphatase cytochemistry",
+  "match": "consistent",
+  "high_yield": true
+}

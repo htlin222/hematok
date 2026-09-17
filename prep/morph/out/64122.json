@@ -1,0 +1,23 @@
+{
+  "id": "64122",
+  "recognize_zh": "這是 B 細胞 gate 後的流式細胞六格圖：CD19+ 細胞共同表現 CD5（A），CD20 偏弱、CD10 陰性（B），CD23 部分陽性（C），CD38 陰性（D），κ 輕鏈單株限制（E），CD200 陽性（F），為典型慢性淋巴球性白血病／小淋巴球淋巴瘤（CLL/SLL）免疫表型。",
+  "features": [
+    "Gated B cells (CD19+) form a single tight population co-expressing CD5 (A)",
+    "CD20 dim with no CD10 expression (B)",
+    "CD23 positive on a substantial subset with a tail of brighter expression (C)",
+    "CD38 largely negative (D)",
+    "Light chain restriction: kappa expressed with lambda negative (E)",
+    "CD200 positive (dim-to-moderate) on the gated B cells (F)"
+  ],
+  "describe_en": "Flow cytometric analysis of the lymph node, gated on B cells, shows a monotypic B-cell population that co-expresses CD19 and CD5 and is CD10-negative with dim CD20. The population expresses CD23 and CD200, is CD38-negative, and shows kappa light chain restriction. This non-morphologic figure demonstrates a CD5+/CD23+/CD200+ monoclonal B-cell phenotype. Findings are consistent with involvement by chronic lymphocytic leukemia/small lymphocytic lymphoma.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL is typically CD5+ but CD23-negative, CD200-negative/dim with bright CD20 and surface light chain, and is cyclin D1/SOX11 positive with t(11;14)."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL is usually CD5-negative and CD23-negative, although rare CD5+ cases require morphology and exclusion of CLL score markers."},
+    {"dx": "Follicular lymphoma", "vs": "FL is CD10-positive and CD5-negative with bright CD20."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL is usually CD5-negative, CD23-negative with a plasmacytic component and MYD88 L265P mutation."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60986",
+  "recognize_zh": "骨髓流式細胞圖中紅色族群位於 CD45 弱陽性、低側散射（blast 區），HLA-DR 強陽性、CD4 陽性、CD56 部分陽性，CD123 強陽性且 CD34 陰性，這個「CD4+/CD56+/CD123 bright/CD34−」組合即 BPDCN 的免疫表型。",
+  "features": [
+    "CD45 vs SSC: red abnormal population with dim CD45 and low side scatter, distinct from lymphocytes (green), monocytes (cyan) and granulocytes (orange)",
+    "HLA-DR vs CD33: red population HLA-DR bright with CD33 negative to dim",
+    "CD56 vs CD4: red population uniformly CD4 positive with heterogeneous negative-to-positive CD56",
+    "CD123 vs CD34: red population CD123 bright and CD34 negative",
+    "Non-morphologic figure; lineage-specific markers (MPO, cCD3, CD19, TCF4/TCL1, CD303) not shown"
+  ],
+  "describe_en": "Flow cytometric analysis of the bone marrow aspirate identifies an abnormal population (red) with dim CD45 and low side scatter. These cells are HLA-DR bright, CD33 negative to dim, CD4 positive, CD56 variably positive, CD123 bright and CD34 negative. This immunophenotype is characteristic of blastic plasmacytoid dendritic cell neoplasm, and confirmation should include negativity for MPO and lineage-specific T/B markers with expression of additional pDC markers (TCF4, TCL1, CD303).",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "Also CD4/CD56-positive with bright CD123 in some cases, but expresses CD33/CD13, CD11b/CD14/CD64 or lysozyme and lacks CD303/TCF4."},
+    {"dx": "Reactive/mature plasmacytoid dendritic cells", "vs": "Normal pDCs are CD123 bright/HLA-DR+ but CD56-negative and present as a small minor population rather than a dominant blast-like population."},
+    {"dx": "NK-cell leukemia/lymphoma", "vs": "CD56-positive but CD123- and HLA-DR-negative, with cytotoxic markers and CD2/cCD3epsilon expression."},
+    {"dx": "Early T-precursor or mixed-phenotype acute leukemia", "vs": "Express cCD3 and/or MPO and often CD34/CD7, which the BPDCN population lacks."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A (flow cytometry)",
+  "match": "non-morphologic",
+  "high_yield": true
+}

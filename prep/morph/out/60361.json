@@ -1,0 +1,19 @@
+{
+  "id": "60361",
+  "recognize_zh": "間期 FISH 使用 D7S486（7q31，紅）/CEP7（7 號著絲點，綠）雙色探針，圖中細胞核只見一個紅訊號與一個綠訊號（正常應為各兩個），代表整條 7 號染色體只剩一套，即 monosomy 7。",
+  "features": [
+    "Interphase FISH on DAPI-counterstained nuclei using Vysis D7S486 (7q31, red) / CEP7 (chromosome 7 centromere, green) probes",
+    "Evaluable nuclei show a single red and a single green signal (1R1G) instead of the normal 2R2G pattern",
+    "Loss of both the centromere and 7q31 signals together indicates loss of a whole chromosome 7 rather than an isolated 7q deletion",
+    "Some green signals appear doublet-like, consistent with a split signal of one centromere; an adjacent nucleus in the right panel has no signals in this focal plane and is not evaluable"
+  ],
+  "describe_en": "Interphase fluorescence in situ hybridization was performed with a dual-color D7S486 (7q31, red)/CEP7 (green) probe set on DAPI-stained nuclei. The illustrated nuclei show one red and one green signal, compared with the expected two copies of each, indicating concurrent loss of the chromosome 7 centromere and the 7q31 locus. This pattern is consistent with monosomy 7; a 7q deletion alone would show two green signals with one red signal. The percentage of abnormal nuclei should be compared with the laboratory cutoff before reporting a clonal abnormality, and the result is useful for detecting monosomy 7 when metaphases are not obtained in marrow failure or MDS.",
+  "ddx": [
+    {"dx": "del(7q)", "vs": "A 7q deletion gives two CEP7 (green) signals with one D7S486 (red) signal (1R2G), whereas both signals are reduced to one here."},
+    {"dx": "Truncation/overlap artifact", "vs": "Sectioning or overlapping signals can mimic loss in isolated nuclei, so a scored count of 200 or more nuclei above the validated cutoff is needed."}
+  ],
+  "specimen": "cytogenetics",
+  "stain": "FISH: D7S486/CEP7",
+  "match": "non-morphologic",
+  "high_yield": false
+}

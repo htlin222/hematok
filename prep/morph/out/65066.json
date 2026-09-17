@@ -1,0 +1,22 @@
+{
+  "id": "65066",
+  "recognize_zh": "周邊血液抹片中大量高 N:C 比的母細胞，部分核呈雙葉或不規則，並夾雜細胞質內含粗大深紫色嗜鹼性顆粒的細胞；母細胞合併異常嗜鹼性顆粒，搭配 CD9、CD25、CD117 陽性而 MPO 陰性，指向急性嗜鹼性白血病。",
+  "features": [
+    "Marked leukocytosis with numerous medium-to-large blasts, high N:C ratio and fine chromatin",
+    "Many blasts with bilobed, folded or irregular nuclear contours",
+    "Scant to moderate pale basophilic cytoplasm, some cells with a few coarse dark purple-black granules",
+    "Occasional cells heavily laden with coarse basophilic granules resembling immature basophils",
+    "Several hypogranular cells with irregular/ragged cytoplasmic outlines; platelets markedly reduced"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed predominantly of medium to large blast cells with high nuclear-to-cytoplasmic ratios, finely dispersed chromatin and frequent bilobed or irregularly folded nuclei. A subset of cells contains scattered coarse, dark basophilic cytoplasmic granules, and occasional cells are densely granulated, resembling immature basophils. Platelets are markedly reduced. Together with an MPO-negative, CD117+, CD34+, CD9+, CD25+ immunophenotype and absence of other defining abnormalities, findings are consistent with acute basophilic leukemia.",
+  "ddx": [
+    {"dx": "Accelerated/blast phase of chronic myeloid leukemia", "vs": "CML shows a left-shifted granulocytic spectrum with absolute basophilia and BCR::ABL1 fusion, which must be excluded before diagnosing acute basophilic leukemia."},
+    {"dx": "Acute myeloid leukemia with t(6;9)(p22.3;q34.1) DEK::NUP214 or BCR::ABL1", "vs": "These AMLs can show basophilia but are defined by their recurrent genetic abnormality and usually contain MPO-positive blasts."},
+    {"dx": "Mast cell leukemia", "vs": "Mast cells have oval nuclei with metachromatic granules and express tryptase and CD2/CD25 with strong CD117 but lack CD123/CD203c basophil pattern and often show KIT D816V."},
+    {"dx": "Acute promyelocytic leukemia (hypergranular)", "vs": "APL granules are azurophilic red-purple with Auer rod bundles and blasts are strongly MPO positive with PML::RARA, unlike MPO-negative basophilic blasts."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

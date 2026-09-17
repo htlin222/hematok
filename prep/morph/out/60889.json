@@ -1,0 +1,22 @@
+{
+  "id": "60889",
+  "recognize_zh": "組合圖中周邊血淋巴球/單核球（C–E）胞質含多個清楚小空泡，骨髓（F、G 箭頭）可見胞質充滿細小泡沫狀空泡的大型泡沫組織球（foam cell），符合 Niemann-Pick 病的儲積細胞。",
+  "features": [
+    "Panels A-B: small lymphocytes with round nuclei and scant cytoplasm (reference cells)",
+    "Panels C-E: mononuclear cells with multiple discrete clear cytoplasmic vacuoles (vacuolated lymphocytes/monocytes)",
+    "Panels F-G (arrows): very large histiocytes with abundant pale, finely and coarsely vacuolated 'foamy' (mulberry/soap-bubble) cytoplasm and small eccentric nuclei",
+    "Panel H: large round cell with abundant finely granular/reticulated pink-staining cytoplasm surrounded by small hematopoietic cells, likely a storage histiocyte in a different preparation",
+    "No fibrillary 'crinkled tissue paper' cytoplasm as seen in Gaucher cells"
+  ],
+  "describe_en": "Composite figure of peripheral blood and bone marrow preparations. Peripheral blood mononuclear cells (panels C-E) contain multiple sharply defined clear cytoplasmic vacuoles, compared with non-vacuolated lymphocytes (A-B). The bone marrow aspirate (F-G, arrows) contains large foamy histiocytes with abundant pale cytoplasm packed with uniform small lipid vacuoles and small eccentric nuclei; panel H shows a large storage cell with finely vacuolated/granular cytoplasm, although its stain and specimen type cannot be determined with certainty. Findings are consistent with a lipid storage disorder, in keeping with Niemann-Pick disease type A (acid sphingomyelinase deficiency).",
+  "ddx": [
+    {"dx": "Gaucher disease", "vs": "Gaucher cells have fibrillary 'wrinkled tissue paper' cytoplasm that is PAS-positive, rather than the uniform soap-bubble vacuoles of Niemann-Pick foam cells."},
+    {"dx": "Sea-blue histiocytosis (including Niemann-Pick type C)", "vs": "Sea-blue histiocytes contain blue-green ceroid granules on Wright-Giemsa, whereas classic type A foam cells are pale and vacuolated; enzyme assay/NPC1-NPC2 testing separates them."},
+    {"dx": "Other lysosomal storage disorders with vacuolated lymphocytes (e.g., Wolman disease, GM1 gangliosidosis, mucopolysaccharidoses)", "vs": "Vacuolated lymphocytes are nonspecific; foamy marrow histiocytes plus low acid sphingomyelinase activity (SMPD1 mutation) confirm Niemann-Pick A/B."},
+    {"dx": "Reactive lipid-laden macrophages (e.g., hyperlipidemia, TPN)", "vs": "Reactive foamy macrophages are sparse and lack the systemic vacuolated lymphocytes and hepatosplenomegaly of a congenital storage disease."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa (panel H stain uncertain)",
+  "match": "consistent",
+  "high_yield": true
+}

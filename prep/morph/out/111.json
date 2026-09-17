@@ -1,0 +1,36 @@
+{
+  "id": "111",
+  "recognize_zh": "骨髓抹片可見核分離、雙核圓形的小型發育不良巨核細胞（separated-nuclei megakaryocytes）與成群的巨母細胞樣紅血球前驅細胞，末梢血白血球稀少且有大紅血球；核型與 FISH 都只剩一條第 7 號染色體（monosomy 7），配合兒童年齡與低芽細胞比例，指向兒童難治性血球低下（RCC）。",
+  "features": [
+    "Dysplastic megakaryocytes with two or more widely separated, round nuclei (aspirate) and small hypolobated forms (biopsy)",
+    "Clusters of immature erythroid precursors with megaloblastoid, finely stippled open chromatin and deeply basophilic cytoplasm; occasional irregular or budding erythroid nuclei",
+    "No increase in blasts apparent on aspirate or biopsy fields",
+    "Peripheral blood: sparse leukocytes (lymphocytes, monocyte, a mature neutrophil) with mild anisocytosis and occasional macrocytes",
+    "Biopsy low power: cellular trilineage marrow in the field shown; scattered hemosiderin pigment",
+    "Karyotype 45,XY,-7 (single chromosome 7, arrow) and interphase FISH with one CEP7 (green) and one 7q31 (red) signal"
+  ],
+  "describe_en": "Peripheral blood smear shows leukopenia with few circulating leukocytes, mild anisocytosis with occasional macrocytes, and no circulating blasts identified. The bone marrow aspirate shows dysplastic megakaryocytes with widely separated round nuclei and clusters of erythroid precursors with megaloblastoid chromatin and occasional nuclear irregularity; blasts are not increased. The core biopsy shows trilineage hematopoiesis with small hypolobated megakaryocytes and immature erythroid islands; the low-power field illustrated appears cellular rather than hypocellular, so overall cellularity should be judged on the entire core against age-matched norms. Conventional cytogenetics shows 45,XY,-7 and interphase FISH confirms loss of one chromosome 7 (one CEP7 and one D7S486 signal). Findings are consistent with refractory cytopenia of childhood (childhood MDS with low blasts) with monosomy 7.",
+  "ddx": [
+    {"dx": "Severe aplastic anemia", "vs": "Aplastic anemia lacks megakaryocytic dysplasia and clustered immature erythroid islands and does not carry monosomy 7, which is disease-defining evidence of a clonal myeloid neoplasm."},
+    {"dx": "Megaloblastic anemia (B12/folate deficiency)", "vs": "Megaloblastic change affects all lineages with giant metamyelocytes and hypersegmented neutrophils, reverses with vitamin replacement, and has no clonal cytogenetic abnormality; vitamin levels were normal here."},
+    {"dx": "Inherited bone marrow failure (e.g., Fanconi anemia, SAMD9/SAMD9L or GATA2 syndromes)", "vs": "Morphology overlaps, so germline testing, chromosome breakage studies and family history are needed; these syndromes can themselves evolve to monosomy 7 MDS."},
+    {"dx": "MDS with increased blasts / juvenile myelomonocytic leukemia", "vs": "Blasts are below 2% in blood and 5% in marrow here, and there is no monocytosis, leukocytosis or splenomegaly as expected in JMML."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, G-banded karyotype, FISH",
+  "match": "partial",
+  "high_yield": true,
+  "captions": [
+    "Bone marrow core biopsy, low power: cellular trilineage marrow in this field (H&E)",
+    "Peripheral blood, low power: sparse leukocytes with mild anisocytosis",
+    "Peripheral blood, high power: mature segmented neutrophil and occasional macrocytes",
+    "Core biopsy, high power: megakaryocytes with separated nuclei and immature erythroid cells",
+    "Core biopsy, high power: erythroid cluster, small megakaryocytes and hemosiderin",
+    "Core biopsy, high power: clusters of immature erythroid precursors",
+    "Aspirate: dysplastic megakaryocyte with widely separated round nuclei beside pronormoblasts",
+    "Aspirate: megaloblastoid erythroid precursors with open stippled chromatin",
+    "Aspirate: megaloblastoid erythroid precursors, one with irregular budding nucleus, and a pigment-laden cell",
+    "Karyotype 45,XY,-7 with loss of one chromosome 7 (arrow)",
+    "Interphase FISH: one CEP7 (green) and one 7q31 (red) signal, indicating monosomy 7"
+  ]
+}

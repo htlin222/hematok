@@ -1,0 +1,22 @@
+{
+  "id": "60600",
+  "recognize_zh": "骨髓切片骨小樑旁有一群中等大小、核卵圓、染色質細緻、細胞質淡嗜酸的細胞結節；免疫染色 CD123 強陽性、CD4 弱陽、CD68 散在，流式顯示 CD123 亮陽、CD4+ CD56− CD34− 的族群，為 CMML 相關的成熟漿細胞樣樹突細胞增生。",
+  "features": [
+    "Hypercellular marrow biopsy with a dense paratrabecular/interstitial nodule of monotonous cells",
+    "Medium-sized cells with oval to slightly irregular nuclei, fine chromatin, inconspicuous nucleoli and moderate pale eosinophilic cytoplasm",
+    "Peripheral blood inset: monocytes and monocytoid cells (arrows) consistent with CMML",
+    "IHC: nodule CD45+, CD123 strongly positive, CD4 weak, CD68 scattered positive",
+    "Flow cytometry: CD123-bright, low-SSC population that is CD4+, CD56-negative, CD34-negative and CD117-negative"
+  ],
+  "describe_en": "Bone marrow core biopsy is hypercellular and contains a discrete nodular aggregate of medium-sized cells with oval nuclei, fine chromatin and pale cytoplasm adjacent to bony trabeculae; the peripheral blood shows monocytosis. Immunohistochemistry shows that the nodule is CD45 and strongly CD123 positive, with weak CD4 and only scattered CD68 staining. Flow cytometry of blood identifies a CD123-bright, low side-scatter population that is CD4 positive and negative for CD56, CD34 and CD117. Findings are consistent with nodular proliferation of mature plasmacytoid dendritic cells in chronic myelomonocytic leukemia.",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN cells are blastic and CD56-positive with TCL1 and TdT variable expression and skin involvement, whereas these mature pDCs are CD56-negative."},
+    {"dx": "Transformation to AML (myeloid sarcoma nodule)", "vs": "AML blasts express CD34/CD117 or MPO and lysozyme with high proliferation, which are absent in this CD34-/CD117- CD123-bright nodule."},
+    {"dx": "Lymphoid aggregate", "vs": "Benign lymphoid aggregates are composed of small round CD3/CD20-positive lymphocytes rather than CD123-bright cells with oval nuclei and pale cytoplasm."},
+    {"dx": "Systemic mastocytosis with associated CMML", "vs": "Mast cell aggregates are spindled, tryptase and CD117 positive with CD25 aberrancy, not CD123-bright."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC: CD45, CD4, CD68, CD123; flow",
+  "match": "consistent",
+  "high_yield": false
+}

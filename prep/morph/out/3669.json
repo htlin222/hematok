@@ -1,0 +1,22 @@
+{
+  "id": "3669",
+  "recognize_zh": "一顆大型巨噬細胞的細胞質內含大量大小不一的藍黑色、藍綠色吞噬碎片與數顆小型深染核碎片，自身核位於中央，周圍是顆粒球系細胞，這就是含碎片的組織球（debris-laden histiocyte）。",
+  "features": [
+    "Large histiocyte with abundant pale, finely vacuolated cytoplasm",
+    "Numerous phagocytosed inclusions of varying size, blue-black to blue-green (likely hemosiderin and nuclear debris)",
+    "Engulfed small dense round nuclear fragments",
+    "Central oval-reniform nucleus with fine chromatin",
+    "Background maturing granulocytes (myelocytes, bands, segmented neutrophils)"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a large histiocyte with abundant vacuolated cytoplasm containing numerous heterogeneous blue-black and blue-green inclusions consistent with phagocytosed cellular debris and pigment, along with several small pyknotic nuclear fragments. The histiocytic nucleus is oval with fine chromatin. The background contains maturing granulocytic cells. Findings are consistent with a debris-laden histiocyte, a nonspecific marker of increased cell turnover (e.g., after chemotherapy, ineffective hematopoiesis or high-grade neoplasm); Prussian blue staining can confirm the iron-containing component.",
+  "ddx": [
+    {"dx": "Sea-blue histiocyte", "vs": "Sea-blue histiocytes contain uniform blue-green ceroid granules rather than heterogeneous coarse debris and nuclear fragments."},
+    {"dx": "Hemophagocytic histiocyte", "vs": "Hemophagocytes contain intact red cells or nucleated cells rather than degraded pigment and apoptotic fragments."},
+    {"dx": "Melanophage / metastatic melanoma", "vs": "Melanin is black-brown, Prussian blue negative and associated with atypical SOX10-positive tumor cells."},
+    {"dx": "Mast cell", "vs": "Mast cells have uniform, densely packed purple-black granules and no engulfed nuclear debris."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "60730",
+  "recognize_zh": "周邊血出現核偏位、細胞質深藍並有核旁淡染區的成熟漿細胞，外觀像漿細胞白血病；但流式細胞儀 CD38 陽性細胞同時表現 cytoplasmic kappa（約 60%）與 lambda（約 30%），屬多株性，證實為 T 細胞淋巴瘤引發的反應性漿細胞增多。",
+  "features": [
+    "Circulating plasma cells with eccentric round nuclei, moderately clumped chromatin and abundant deeply basophilic cytoplasm",
+    "Perinuclear clearing (hof) evident in some cells; no nucleoli or immature plasmablastic features",
+    "Mature-appearing, fairly uniform cytology without multinucleation",
+    "Flow cytometry: gated CD38-bright population with both cytoplasmic kappa (~60%) and cytoplasmic lambda (~30%) subsets, a polytypic pattern",
+    "Background red cells without obvious rouleaux"
+  ],
+  "describe_en": "Peripheral blood smear shows circulating mature plasma cells with eccentric nuclei, clumped chromatin, perinuclear hofs and abundant intensely basophilic cytoplasm. Morphologically these could suggest plasma cell leukemia. Flow cytometric analysis of the CD38-bright population, however, shows both cytoplasmic kappa- and lambda-expressing subsets in an approximately 2:1 ratio, indicating a polytypic, reactive plasma cell population. Findings are consistent with reactive peripheral blood plasmacytosis in the setting of peripheral T-cell lymphoma, not otherwise specified, rather than plasma cell leukemia.",
+  "ddx": [
+    {"dx": "Plasma cell leukemia", "vs": "PCL shows a single light-chain–restricted CD38+/CD138+ population, often CD19−/CD56+, with a serum M-protein, whereas this population is polytypic."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma with plasmacytosis", "vs": "AITL also causes polytypic plasmacytosis and hypergammaglobulinemia, and is separated from PTCL-NOS by TFH markers (PD1, CXCL13, ICOS) on tissue."},
+    {"dx": "Reactive plasmacytosis from infection (e.g., viral, dengue, sepsis)", "vs": "Morphology and polyclonality are identical, so separation requires clinical context and a demonstrable T-cell neoplasm."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows a light-chain–restricted spectrum of small lymphocytes, plasmacytoid lymphocytes and plasma cells with an IgM paraprotein and MYD88 mutation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry (CD38, cKappa, cLambda)",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Peripheral blood: circulating mature plasma cells with basophilic cytoplasm and hofs",
+    "Flow cytometry: CD38+ cells with both cytoplasmic kappa and lambda subsets (polytypic)"
+  ]
+}

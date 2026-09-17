@@ -1,0 +1,22 @@
+{
+  "id": "60435",
+  "recognize_zh": "肝臟粗針切片中，中型不典型淋巴球沿著肝竇（sinusoids）呈線狀、網狀浸潤，把肝細胞板撐開，而非主要形成門脈區結節；免疫染色顯示 CD3 陽性細胞稀少、而另一 T 細胞標記呈強烈竇狀網狀分布，符合肝脾 T 細胞淋巴瘤（hepatosplenic T-cell lymphoma）的竇內浸潤模式。",
+  "features": [
+    "Liver needle core with a diffuse sinusoidal infiltrate of atypical lymphoid cells outlining and separating hepatocyte plates (A-C)",
+    "Medium-sized cells with irregular nuclear contours, condensed/coarse chromatin and moderate pale cytoplasm (C, high power)",
+    "A denser cellular aggregate at one end of the core (A, E right), with mild macrovesicular steatosis in hepatocytes",
+    "IHC panels: one T-cell marker stains only scattered cells (D), while another shows strong diffuse sinusoidal lattice-like positivity (E) and membranous staining of the infiltrate at high power (F)",
+    "No granulomas or significant portal-based destructive infiltrate"
+  ],
+  "describe_en": "Liver needle core biopsy shows a diffuse intrasinusoidal infiltrate of atypical lymphoid cells that distends the sinusoids and separates hepatocyte cords, with a denser cellular focus at one end and mild macrovesicular steatosis. At high power, the cells are medium-sized with irregular nuclear contours, coarse chromatin and a moderate rim of pale cytoplasm. Immunohistochemistry shows that only scattered cells are positive for one T-cell marker, whereas other stains highlight the infiltrate in a sinusoidal lattice pattern and with membranous positivity at high power. Note that the panel letters in the source legend (C = CD3, D = CD8, E = TCR gamma) appear offset from the image, where panel C is H&E; the stains most likely correspond to D = CD3 (largely negative), E = CD8 and F = TCR gamma. The sinusoidal pattern with this T-cell phenotype is consistent with hepatosplenic T-cell lymphoma.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL also infiltrates sinusoids, but cells are small mature lymphocytes with abundant cytoplasm and azurophilic granules, usually CD3+CD8+ alpha-beta TCR with CD57+, not medium-sized atypical CD3-dim/negative gamma-delta cells."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia is surface CD3-negative, CD56-positive, EBER-positive and lacks TCR expression, whereas HSTCL is EBV-negative with TCR gamma-delta (or alpha-beta) expression."},
+    {"dx": "Reactive sinusoidal lymphocytosis (e.g., EBV/CMV hepatitis)", "vs": "Viral hepatitis shows a polymorphous, small-lymphocyte sinusoidal infiltrate with hepatocyte injury and preserved CD3 expression, not a monotonous atypical population with antigen loss."},
+    {"dx": "Hepatosplenic involvement by B-cell lymphoma (e.g., splenic marginal zone lymphoma)", "vs": "B-cell lymphomas show CD20-positive cells, and SMZL typically forms portal/nodular aggregates with less exclusive sinusoidal spread."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD3, CD8, TCR gamma",
+  "match": "consistent",
+  "high_yield": true
+}

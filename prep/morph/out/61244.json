@@ -1,0 +1,30 @@
+{
+ "id": "61244",
+ "recognize_zh": "這是血小板凝集檢查（light transmission aggregometry + lumi-aggregometry）的曲線與數據表，不是形態學影像；重點看各致效劑的凝集幅度與 ATP 釋放（Lum）是否缺失。",
+ "features": [
+  "Light transmission aggregation tracings (Opt) with paired lumi-aggregometry ATP-release channels (Lum) for four agonist conditions",
+  "Ristocetin 2.0 mg/mL: 94% aggregation (normal agglutination, GPIb-vWF axis intact)",
+  "Convulxin 1.0 nM (GPVI agonist): 88% aggregation with a delayed but present lumi signal",
+  "U46619 (thromboxane analog) 2.5 uM and 1.0 uM: reduced, reversible aggregation (30% and 15%) with no ATP release",
+  "Absent or minimal secretion signal across most channels, indicating a platelet secretion defect"
+ ],
+ "describe_en": "This figure shows platelet aggregation studies rather than a morphologic image. Ristocetin-induced agglutination is normal (94%), and convulxin produces full aggregation (88%), whereas the thromboxane A2 analog U46619 yields only weak, reversible primary-wave aggregation (30% at 2.5 uM, 15% at 1.0 uM) with no measurable ATP release. The pattern indicates intact GPIb and GPVI receptor function with impaired granule secretion-dependent (second-wave) aggregation. In a patient with large pale platelets on smear, these results are compatible with gray platelet syndrome; confirmation relies on electron microscopy showing absent alpha granules and NBEAL2 sequencing.",
+ "ddx": [
+  {
+   "dx": "Bernard-Soulier syndrome",
+   "vs": "Would show absent ristocetin agglutination with normal responses to other agonists, whereas ristocetin response here is normal."
+  },
+  {
+   "dx": "Dense granule storage pool disease (delta-SPD)",
+   "vs": "Also shows absent ATP release and impaired secondary aggregation, but platelets are normal-appearing (not gray) and mepacrine uptake/whole-mount EM shows reduced dense bodies."
+  },
+  {
+   "dx": "Aspirin or thromboxane pathway defect",
+   "vs": "Arachidonic acid responses are absent while U46619 responses are normal in COX inhibition, and platelet alpha-granule content is normal."
+  }
+ ],
+ "specimen": "other",
+ "stain": "N/A",
+ "match": "non-morphologic",
+ "high_yield": false
+}

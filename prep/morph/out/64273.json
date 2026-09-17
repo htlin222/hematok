@@ -1,0 +1,20 @@
+{
+  "id": "64273",
+  "recognize_zh": "這張骨髓切片其實是一張未標明抗體的免疫組織化學染色：背景密集的不成熟細胞片狀浸潤呈陰性，只有零星散在、形狀不規則的細胞（含少數較大細胞）呈棕色陽性，可用來顯示腫瘤細胞以外殘存的正常細胞群。",
+  "features": [
+    "Hypercellular trephine with sheets of uniform immature cells that are immunonegative (hematoxylin counterstain only)",
+    "Scattered brown-positive cells with irregular, dendritic or elongated shapes distributed interstitially",
+    "A few larger positive cells/clusters (upper left), possibly megakaryocytes or macrophages",
+    "Fat spaces and bone trabecula outlines at low power; antibody not specified in the record, limiting interpretation"
+  ],
+  "describe_en": "Low-power immunohistochemical stain of a bone marrow trephine biopsy (antibody not specified) shows a hypercellular marrow with diffuse sheets of immature cells that are negative. Only scattered interstitial cells with irregular to dendritic shapes, and a few larger cells, show brown cytoplasmic/membranous staining, suggesting a residual non-neoplastic population such as macrophages, myeloid cells or megakaryocytes. Because the antigen is not identified, specific interpretation is limited; in the context of pure erythroid leukemia, the neoplastic infiltrate would be expected to be negative for myeloid/megakaryocytic markers and positive for E-cadherin, CD71 and glycophorin/hemoglobin.",
+  "ddx": [
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "AMKL blasts would be diffusely positive for CD61/CD42b, whereas here only scattered cells stain and the blast sheet is negative."},
+    {"dx": "Acute myeloid leukemia with myeloid (MPO-positive) blasts", "vs": "Myeloblast-rich AML would show diffuse MPO/CD34 positivity in the sheets, unlike this pattern with a negative dominant population; E-cadherin/CD71 positivity supports erythroid lineage."},
+    {"dx": "Metastatic small round cell tumor or lymphoma", "vs": "Non-myeloid tumors are separated by lineage-specific markers (cytokeratin, CD99/FLI1, CD20/CD3) rather than by this scattered-cell staining pattern."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: antibody not specified",
+  "match": "partial",
+  "high_yield": false
+}

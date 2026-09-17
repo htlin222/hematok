@@ -1,0 +1,43 @@
+{
+  "id": "122",
+  "recognize_zh": "周邊血液抹片中充滿中至大型、細緻染色質、嗜鹼性細胞質的芽細胞（blasts）；流式細胞儀顯示同一群 CD45 弱表現的芽細胞同時有強 CD19 與強 cCD79a（B 系），另有 cMPO 陽性（骨髓系），且 cCD3 陰性，符合 WHO 的 B/骨髓系混合表現型急性白血病（MPAL）判定標準。",
+  "features": [
+    "Peripheral blood smear with numerous medium-to-large blasts: high N:C ratio, round to indented nuclei, finely dispersed chromatin, inconspicuous to small nucleoli",
+    "Blast cytoplasm is scant to moderate and deeply basophilic, some with a paler perinuclear zone; no Auer rods or obvious granules identified",
+    "Residual mature neutrophil appears small with sparse visible granules; red cells show crenation (echinocytes)",
+    "Flow cytometry: dim CD45/low side-scatter blast gate comprises 93.69% of live events; blasts are largely CD34-negative, CD117 dim/partial, CD7 largely negative, CD33+, CD13 dim/partial, CD58 bright",
+    "B-lineage markers: strong CD19 on the majority of blasts with a strongly cCD79a-positive subset (cCD22 dim/negative), CD10 negative; nTdT dim-to-moderate positive",
+    "Myeloid marker: cMPO positive, bright in a subset and dim in the cCD79a-bright population; cCD3 negative in blasts; small CD15+ subset"
+  ],
+  "describe_en": "Peripheral blood smear shows marked leukocytosis composed predominantly of medium-to-large blasts with high N:C ratios, round to indented nuclei, fine chromatin, inconspicuous nucleoli, and scant basophilic cytoplasm without Auer rods; red cells show crenation. Two cytochemically stained fields show blue-black granular positivity in a granulocyte and in a large cell, with fine punctate deposits over red cells that likely represent stain artifact, so these fields are of limited interpretive value. Flow cytometry identifies a dim CD45, low side-scatter blast population (93.69% of live events) that is CD33+, CD13 dim/partial, CD117 dim/partial, CD34 largely negative, CD58 bright, and nTdT dim positive. The blasts show strong CD19 with strong cytoplasmic CD79a in a large subset, together with cytoplasmic MPO expression (bright in a subset), while cytoplasmic CD3 is negative. The accompanying WHO lineage-assignment table highlights MPO for myeloid lineage and strong CD19 plus CD79a for B lineage; findings are consistent with mixed phenotype acute leukemia, B/myeloid, pending exclusion of BCR::ABL1 and KMT2A rearrangement and of AML with myelodysplasia-related or therapy-related criteria.",
+  "ddx": [
+    {"dx": "AML with aberrant CD19 expression (e.g., AML with RUNX1::RUNX1T1)", "vs": "Aberrant CD19 in AML is usually weak or partial and not accompanied by strong CD79a, CD22 or CD10, so it does not meet WHO B-lineage criteria as seen here."},
+    {"dx": "B-lymphoblastic leukemia with myeloid antigen expression", "vs": "B-ALL may express CD13/CD33 but lacks MPO; the definite cMPO positivity in this blast population assigns myeloid lineage."},
+    {"dx": "Mixed phenotype acute leukemia with BCR::ABL1 or KMT2A rearrangement", "vs": "Morphology and immunophenotype overlap completely; cytogenetics/FISH or molecular testing is required, and those genetically defined MPAL subtypes take precedence over NOS."},
+    {"dx": "Mixed phenotype acute leukemia, T/myeloid", "vs": "T/myeloid MPAL requires cytoplasmic CD3 (epsilon) positivity, which is negative in these blasts."}
+  ],
+  "specimen": "flow",
+  "stain": "Wright-Giemsa; cytochemistry (likely MPO); flow cytometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "WHO 2016 lineage-assignment criteria for MPAL, with MPO and strong CD19 plus CD79a highlighted",
+    "Cytochemical stain: blue-black granular positivity in a granulocyte; fine punctate deposits over red cells likely artifact",
+    "Cytochemical stain: large cell with coarse blue-black peripheral granular positivity amid artifactual red-cell deposits",
+    "CD45 vs side scatter: dim CD45, low SSC blast gate comprising 93.69% of live events",
+    "Blast gate CD117 vs CD34: blasts largely CD34-negative with dim/partial CD117; minor CD34+ subset",
+    "Blast gate CD7 vs CD34: CD7 largely negative to partial dim",
+    "Blast gate CD13 vs CD33: CD33 positive, CD13 dim to partial",
+    "Blast gate CD123 vs CD19: strong CD19 on the majority of blasts (blue), CD123 largely negative",
+    "Blast gate cCD22 vs cCD79a: strongly cCD79a-positive subset (gate M, green) with dim/negative cCD22",
+    "Blast gate nTdT vs cMPO: cCD79a-bright blasts (green) MPO dim; separate MPO-bright subset (red); TdT dim positive",
+    "Blast gate nTdT vs CD34: TdT dim positive, CD34 mostly negative",
+    "Blast gate nTdT vs cCD3: blasts cytoplasmic CD3 negative",
+    "Ungated cMPO vs CD33: CD33+ blasts with dim-to-bright MPO; residual granulocytes MPO bright",
+    "Live gate CD36 vs CD64: heterogeneous CD64/CD36 continuum without a discrete mature monocyte population",
+    "Blast gate CD33 vs CD58: blasts uniformly CD58 bright with variable CD33",
+    "Blast gate CD15 vs CD10: CD10 negative; small CD15-positive subset (gate O)",
+    "Peripheral blood: medium-to-large blasts with basophilic cytoplasm, indented nuclei, and a small neutrophil",
+    "Peripheral blood: blasts with fine chromatin, high N:C ratio, and paler perinuclear cytoplasm; crenated red cells"
+  ]
+}

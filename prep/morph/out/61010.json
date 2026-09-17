@@ -1,0 +1,21 @@
+{
+  "id": "61010",
+  "recognize_zh": "腰椎矢狀面 MRI：一節椎體訊號明顯且不均勻地變亮，其餘多節椎體呈斑駁（patchy）訊號變化，代表骨髓被瀰漫或斑塊狀浸潤，在貧血合併背痛的病人需考慮骨髓瘤。",
+  "features": [
+    "Sagittal MRI of the lumbar spine",
+    "One vertebral body with diffuse, heterogeneous (speckled) high signal replacing normal marrow",
+    "Adjacent vertebral bodies with mottled/patchy signal heterogeneity",
+    "Vertebral body heights and intervertebral discs grossly preserved in this view; no obvious large soft-tissue mass",
+    "Subcutaneous and posterior fat appear bright, so this particular frame appears T1-weighted rather than fat-suppressed STIR"
+  ],
+  "describe_en": "Sagittal MRI of the lumbar spine shows diffuse heterogeneous signal change within one vertebral body and patchy, mottled signal abnormalities in several other lumbar vertebrae, indicating marrow replacement. Vertebral heights appear largely preserved without an obvious compression fracture or paraspinal mass in this single slice. Note that fat in the subcutaneous and posterior soft tissues is bright, so this frame looks T1-weighted rather than the STIR sequence stated in the caption; sequence identity should be confirmed. In the clinical context of anemia and low back pain, a diffuse/variegated marrow infiltration pattern is suggestive of plasma cell myeloma and should be correlated with SPEP and marrow biopsy.",
+  "ddx": [
+    {"dx": "Metastatic carcinoma", "vs": "Metastases usually produce discrete focal lesions often involving pedicles, and require biopsy with epithelial markers to separate from myeloma."},
+    {"dx": "Vertebral hemangioma / focal fatty marrow", "vs": "Hemangiomas show T1 and T2 hyperintensity with vertical coarse trabeculae and are solitary incidental lesions, not multilevel patchy changes with anemia."},
+    {"dx": "Reconverted or hyperplastic red marrow", "vs": "Reconversion is usually symmetric and follows normal marrow distribution without lesions brighter than disc on STIR; marrow biopsy resolves uncertainty."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

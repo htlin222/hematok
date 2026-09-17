@@ -1,0 +1,22 @@
+{
+  "id": "61985",
+  "recognize_zh": "八格免疫染色：大型腫瘤細胞 CD4 強陽性、CD43 膜陽性、CD2 弱而部分陽性，但 CD5、CD7、CD8、βF1（TCRβ）與 TCRδ 在大細胞上皆為陰性，只有背景小 T 細胞陽性；多個泛 T 標記缺失的 CD4+ 大細胞是 ALK 陰性 ALCL（含 BIA-ALCL）的典型表型。",
+  "features": [
+    "Large pleomorphic tumor cells in a pale, fibrinous-appearing background",
+    "CD4: strong membranous and cytoplasmic staining of large tumor cells",
+    "CD43: strong membranous staining of large cells; CD2: weak, partial staining",
+    "CD5, CD7 and CD8: large cells negative, with only scattered small reactive T cells positive",
+    "βF1 (TCR beta) and TCR delta: large cells negative (loss of TCR expression)",
+    "Overall pattern: CD4+ T-cell phenotype with loss of multiple pan-T antigens and TCR"
+  ],
+  "describe_en": "Panel of immunohistochemical stains on tissue with large pleomorphic tumor cells in a fibrinous background. The large cells are strongly positive for CD4 and CD43 and weakly, partially positive for CD2, while CD5, CD7, CD8, βF1 and TCR delta are negative in the tumor cells, with scattered small reactive T cells serving as internal positive controls. This profile indicates a CD4-positive T-cell neoplasm with loss of multiple pan-T-cell antigens and T-cell receptor expression. Findings are consistent with ALK-negative anaplastic large cell lymphoma, supporting breast implant-associated ALCL in the appropriate clinical setting, in conjunction with uniform CD30 positivity and ALK negativity.",
+  "ddx": [
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS lacks the uniform strong CD30 expression and hallmark cells of ALCL and more often retains TCR and several pan-T antigens."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells can lose T-cell markers but are usually CD15+ and weakly PAX5+, and lack CD4/CD43-positive cohesive sheets and effusion localization."},
+    {"dx": "Reactive seroma with activated lymphocytes", "vs": "A reactive seroma contains a mixed population with preserved pan-T antigens and TCR expression, without monomorphic CD30+ large cells showing antigen loss."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD2, CD4, CD5, CD7, CD8, CD43, βF1, TCRδ",
+  "match": "consistent",
+  "high_yield": false
+}

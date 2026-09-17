@@ -1,0 +1,22 @@
+{
+  "id": "2719",
+  "recognize_zh": "周邊血液中一顆大淋巴細胞，細胞質豐富呈淡藍色、邊緣略有稜角，一側含細小紫紅色嗜天青顆粒，核呈凹陷的不規則形；旁邊的嗜中性球可作大小對照，形態為大顆粒淋巴球，配合流式為 NK 細胞增多。",
+  "features": [
+    "Large lymphocyte, larger than the adjacent neutrophil",
+    "Low to moderate N:C ratio with abundant pale blue cytoplasm and angular outline",
+    "Fine azurophilic granules clustered in the cytoplasm adjacent to the nuclear indentation",
+    "Indented, irregular nucleus with moderately condensed chromatin and no nucleoli",
+    "Adjacent normal segmented neutrophil; background red cells unremarkable"
+  ],
+  "describe_en": "Peripheral blood smear shows a large lymphocyte with abundant pale blue cytoplasm containing fine azurophilic granules and an indented nucleus with moderately condensed chromatin and no visible nucleoli. A normal segmented neutrophil lies adjacent for comparison. This is a large granular lymphocyte; morphology alone cannot determine NK versus T lineage. Findings are consistent with a large granular lymphocyte, supporting NK-cell lymphocytosis when flow cytometry shows surface CD3-negative, CD16/CD56-positive cells.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells look identical but are surface CD3+/CD8+/CD57+ with clonal TCR rearrangement."},
+    {"dx": "Reactive lymphocyte (viral)", "vs": "Reactive lymphocytes typically have deeply basophilic cytoplasm at the periphery that scallops around red cells and usually lack prominent azurophilic granules."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia cells are more atypical, with immature chromatin and nucleoli, and are EBV-positive in a clinically fulminant setting."},
+    {"dx": "Monocyte", "vs": "Monocytes have gray-blue cytoplasm with fine dusty granules, vacuoles and folded lacy chromatin, rather than discrete azurophilic granules and condensed lymphoid chromatin."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

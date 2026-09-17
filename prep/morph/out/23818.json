@@ -1,0 +1,22 @@
+{
+  "id": "23818",
+  "recognize_zh": "周邊血抹片中有小型、深染、細胞質極少的裸核樣細胞（紅箭頭，巨核細胞核碎片），以及帶有顆粒、邊緣不規則的大塊巨核細胞細胞質碎片（綠箭頭），背景有巨大血小板與血小板增多；這些碎片會被自動血球計數儀誤判為淋巴球或有核紅血球，需靠抹片辨認。",
+  "features": [
+    "Small dense bare megakaryocytic nuclei with scant irregular cytoplasm (red arrows), mimicking lymphocytes or nucleated red cells",
+    "Large megakaryocytic cytoplasmic fragments with azurophilic granules and ragged budding edges (green arrows)",
+    "Increased platelets with giant and hypogranular forms",
+    "Scattered neutrophils and a myeloid precursor (left shift)",
+    "Red cells with mild anisopoikilocytosis including occasional teardrop-like forms"
+  ],
+  "describe_en": "Peripheral blood smear shows thrombocytosis with numerous giant platelets and circulating megakaryocytic fragments. Several small, densely staining nuclei with scant, irregular granular cytoplasm represent bare megakaryocytic nuclei, and larger granular cytoplasmic fragments with ragged edges represent megakaryocytic cytoplasm. Occasional neutrophils and an immature myeloid cell are present. These fragments can be misclassified by automated analyzers as lymphocytes, nucleated red cells or platelets clumps, distorting the differential and platelet count. Findings are consistent with circulating megakaryocytic fragments in a myeloproliferative neoplasm (polycythemia vera), highlighting the value of smear review.",
+  "ddx": [
+    {"dx": "Nucleated red blood cells", "vs": "NRBCs have round, pyknotic nuclei with smooth, orange-pink hemoglobinized cytoplasm, not irregular granular cytoplasm with platelet budding."},
+    {"dx": "Small lymphocytes", "vs": "Lymphocytes have a smooth rim of pale blue agranular cytoplasm, whereas megakaryocytic nuclei have wisps of granular cytoplasm with platelet-like edges."},
+    {"dx": "Platelet clumps (pseudothrombocytopenia)", "vs": "Clumps are aggregates of discrete platelets without a nucleus, while megakaryocytic fragments are single continuous granular masses, sometimes with a nucleus."},
+    {"dx": "Micromegakaryocytes of myelodysplasia or AMKL blasts", "vs": "Micromegakaryocytes are intact small cells with a round nucleus and complete cytoplasm, and megakaryoblasts show fine chromatin with blebbed agranular cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

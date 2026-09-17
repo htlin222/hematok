@@ -1,0 +1,22 @@
+{
+  "id": "65117",
+  "recognize_zh": "視野中是一群中型淋巴樣細胞，核圓至卵圓、染色質細緻，周圍有淡藍灰色細胞質並向四周伸出細長毛狀突起，是典型的毛細胞（hairy cells）；圖中並未見標題所稱吞噬紅血球的巨噬細胞。",
+  "features": [
+    "Numerous medium-sized mononuclear cells, roughly 1.5-2 times red cell diameter, with moderate N:C ratio",
+    "Round to oval, centrally or eccentrically placed nuclei with finely stippled, ground-glass chromatin and inconspicuous nucleoli",
+    "Moderate pale blue-gray cytoplasm with fine, irregular hair-like projections around the entire circumference",
+    "No granules; one irregular purple cell/aggregate at the bottom without engulfed red cells",
+    "Background red cells with some echinocytes; no macrophage containing phagocytosed red cells is identified"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous medium-sized lymphoid cells with round to oval nuclei, finely dispersed chromatin, inconspicuous nucleoli and moderate pale blue-gray cytoplasm bearing fine circumferential hair-like projections. An irregular purple cell or aggregate is present at the bottom of the field, but no macrophage with phagocytosed red cells is seen, so the image is discordant with its title. The morphology of the lymphoid cells is consistent with circulating hairy cells, supporting the clinical diagnosis of hairy cell leukemia; flow cytometry (CD11c, CD25, CD103, CD123) and BRAF V600E testing are confirmatory.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant (splenic B-cell lymphoma/leukemia with prominent nucleoli)", "vs": "HCL-v cells have a prominent central nucleolus, higher WBC, and are CD25-negative, CD123-negative and BRAF wild-type."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes have short polar villi with more condensed chromatin and are typically CD103- and CD25-."},
+    {"dx": "Monocytes", "vs": "Monocytes are larger with folded nuclei, gray vacuolated cytoplasm and lack uniform circumferential hairy projections."},
+    {"dx": "Artifactual cytoplasmic projections in lymphocytes (slow drying)", "vs": "Drying artifact affects scattered cells irregularly, whereas hairy cells show consistent fine circumferential projections with ground-glass chromatin and a distinct immunophenotype."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grunwald-Giemsa",
+  "match": "discordant",
+  "high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "18538",
+  "recognize_zh": "周邊血抹片中兩顆嗜中性球外緣各被一圈血小板環繞（platelet satellitism），左上角另一顆單核細胞邊緣也黏著少數血小板，背景游離血小板稀少，符合假性血小板低下。",
+  "features": [
+    "Segmented neutrophils with platelets adherent circumferentially to the outer membrane",
+    "Adherent platelets are small, dark, and granular",
+    "A mononuclear cell (upper left) with a few platelets attached to its edge",
+    "Sparse free platelets in the background",
+    "Normal-appearing red cells without schistocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows segmented neutrophils encircled by adherent platelets, and a mononuclear cell with a few platelets attached to its border. Free platelets in the surrounding field are sparse, while the adherent platelets appear morphologically normal. Red cells show no schistocytes or other significant abnormalities. Findings are consistent with platelet satellitism causing pseudothrombocytopenia; the platelet count should be verified on a citrate-anticoagulated sample or by smear estimate.",
+  "ddx": [
+    {"dx": "EDTA-dependent platelet clumping", "vs": "Clumping produces free platelet aggregates, often at the feathered edge, rather than platelets rimming leukocyte membranes."},
+    {"dx": "Immune thrombocytopenia", "vs": "ITP shows genuinely few, often large platelets that do not adhere to neutrophils, and the count remains low in citrate."},
+    {"dx": "Thrombotic microangiopathy", "vs": "TMA shows schistocytes with true thrombocytopenia, which are absent here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

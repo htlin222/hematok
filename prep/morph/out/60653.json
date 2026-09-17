@@ -1,0 +1,22 @@
+{
+  "id": "60653",
+  "recognize_zh": "背景為成熟嗜中性球與單核球系細胞增多，另有核摺疊、染色質細緻的前單核球／芽細胞，其細胞質內可見細長的 Auer 小體，符合慢性骨髓單核球性白血病第二型（CMML-2）。",
+  "features": [
+    "Mixture of segmented neutrophils, monocytes and immature monocytic cells (promonocytes/blasts)",
+    "Immature cells with folded or indented nuclei, finely dispersed chromatin and moderate gray-blue cytoplasm",
+    "Thin, needle-like Auer rods in the cytoplasm of occasional immature cells (panel A lower cell, panel B lower center cell)",
+    "Neutrophils mostly segmented with normal to slightly reduced granulation; a granulated myelocyte-like cell in panel A",
+    "Scattered platelets and a small lymphocyte; red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows granulocytes and monocytic cells together with scattered immature cells having delicate chromatin, folded nuclei and gray-blue cytoplasm, consistent with promonocytes and blasts. Occasional immature cells contain slender Auer rods. Mature neutrophils show relatively preserved granulation. Findings are consistent with chronic myelomonocytic leukemia; the presence of Auer rods places the case in CMML-2 irrespective of blast count (WHO 2016).",
+  "ddx": [
+    {"dx": "Acute myelomonocytic or monocytic leukemia", "vs": "AML requires ≥20% blasts plus promonocytes in blood or marrow, whereas CMML has fewer blast equivalents with persistent monocytosis."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes are mature, without increased promonocytes, dysplasia or Auer rods."},
+    {"dx": "Atypical chronic myeloid leukemia", "vs": "aCML shows marked dysgranulopoiesis with immature granulocytes ≥10% and monocytes <10% of leukocytes."},
+    {"dx": "MDS with excess blasts", "vs": "MDS-EB lacks the persistent absolute monocytosis (≥1 × 10^9/L and ≥10%) required for CMML."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

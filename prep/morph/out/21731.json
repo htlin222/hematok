@@ -1,0 +1,22 @@
+{
+  "id": "21731",
+  "recognize_zh": "五格骨髓紅血球母細胞並列比較：CDA I 為兩核之間有細長染色質橋（internuclear bridge）；CDA II 為雙核晚期紅血球母細胞；CDA III 為含多個核的巨大紅血球母細胞（gigantoblast）；變異型核形不規則。",
+  "features": [
+    "CDA type I: erythroblasts connected by a thin internuclear chromatin bridge",
+    "CDA type II: late (polychromatic) erythroblast with two equal-sized round nuclei",
+    "CDA type III familial: giant erythroblast with several nuclei (up to 12 nuclei may occur)",
+    "CDA type III sporadic: large erythroblast with multiple tightly packed round nuclei",
+    "CDA variants: erythroblast with irregular, coarsely stippled nuclear chromatin and binuclearity"
+  ],
+  "describe_en": "Composite of bone marrow aspirate erythroblasts illustrating the characteristic morphology of the congenital dyserythropoietic anemias. CDA type I is represented by erythroblasts joined by a fine internuclear chromatin bridge, CDA type II by a binucleated late erythroblast, and CDA type III by giant multinucleated erythroblasts (familial and sporadic forms). A variant shows an atypical binucleate erythroblast with abnormal chromatin. Findings illustrate the pathognomonic erythroblast morphology used to classify CDA, with confirmation by electron microscopy (spongy heterochromatin in type I, double membrane in type II) and genetic testing (CDAN1, SEC23B, KIF23).",
+  "ddx": [
+    {"dx": "Myelodysplastic neoplasm with dyserythropoiesis", "vs": "MDS occurs in older adults with multilineage dysplasia, clonal cytogenetics and often ring sideroblasts rather than lifelong isolated dyserythropoiesis."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic change shows nuclear-cytoplasmic asynchrony with open sieve-like chromatin and hypersegmented neutrophils, correcting with B12 or folate."},
+    {"dx": "Acute erythroid leukemia", "vs": "Erythroid leukemia shows an increase in proerythroblasts (≥30%) with TP53 mutation rather than scattered binucleate late erythroblasts."},
+    {"dx": "Hereditary spherocytosis", "vs": "HS lacks binucleate or bridged erythroblasts, and the SDS-PAGE band 3 pattern and a negative HEMPAS acidified serum test separate it from CDA II."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

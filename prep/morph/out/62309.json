@@ -1,0 +1,20 @@
+{
+  "id": "62309",
+  "recognize_zh": "這是分子檢查圖：A 為 IGV 定序讀段，所有讀段在同一位置都顯示變異鹼基（綠色 A）；B 為 Sanger 定序圖，標示位置只有單一峰而無雙峰，表示同型合子（homozygous）變異，支持 ABCG5/ABCG8 相關的地中海型口形紅血球症（sitosterolemia）。",
+  "features": [
+    "Panel A: Integrative Genomics Viewer display with every aligned read carrying the same alternate base (green A) at one position",
+    "Near-100% variant allele fraction in panel A indicates a homozygous variant",
+    "Gene track label at the bottom reads ABCG8 at this resolution (ABCG5 and ABCG8 are adjacent, bidirectionally transcribed genes)",
+    "Panel B: Sanger chromatogram with a single clean peak at the highlighted position and no superimposed wild-type peak, confirming homozygosity"
+  ],
+  "describe_en": "The figure shows molecular confirmation of the variant rather than morphology. Panel A is an Integrative Genomics Viewer screenshot in which all aligned next-generation sequencing reads show the same single-nucleotide substitution at the highlighted position, indicating a homozygous change; the gene annotation track appears to read ABCG8 at this resolution, whereas the description reports ABCG5 c.727C>T (p.Arg243Ter), and the two genes lie head-to-head on chromosome 2p21. Panel B is a Sanger sequencing chromatogram showing a single substituted peak at the highlighted base without a residual wild-type peak, confirming homozygosity in the index case. A homozygous nonsense variant in ABCG5/ABCG8 supports a diagnosis of sitosterolemia presenting as Mediterranean stomatocytosis/macrothrombocytopenia.",
+  "ddx": [
+    {"dx": "Heterozygous carrier state", "vs": "A carrier would show roughly 50% variant reads in IGV and overlapping double peaks on the Sanger trace, unlike the uniform variant calls here."},
+    {"dx": "Hereditary stomatocytosis (PIEZO1/RHAG)", "vs": "Overhydrated or dehydrated hereditary stomatocytosis lacks macrothrombocytopenia and phytosterolemia and is caused by PIEZO1/RHAG rather than ABCG5/ABCG8 variants."},
+    {"dx": "Allele dropout or deletion in trans", "vs": "An apparent homozygous call may reflect a deletion on the other allele or primer-site dropout, excluded by parental testing or copy-number analysis."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

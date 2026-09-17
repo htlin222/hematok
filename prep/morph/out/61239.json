@@ -1,0 +1,30 @@
+{
+ "id": "61239",
+ "recognize_zh": "骨髓抹片中央有一顆大細胞，核分成四個像苜蓿葉般的圓形核葉，每葉各含一個核仁，細胞質淡而豐富，這種多核 Reed-Sternberg 細胞需與同樣大且多葉的巨核細胞區分。",
+ "features": [
+  "Large cell with a multilobated/multinucleated nucleus forming a cloverleaf of four rounded lobes",
+  "Each lobe contains a distinct nucleolus within finely granular chromatin",
+  "Abundant pale gray-blue cytoplasm with ill-defined borders and scattered fine granules",
+  "Background of mixed marrow cells: myelocytes, segmented neutrophils, lymphocytes, plasma cells and an eosinophil",
+  "Distorted, crowded red cells in a thick area of the smear"
+ ],
+ "describe_en": "Wright-stained bone marrow aspirate smear shows a large cell with a cloverleaf-shaped, multilobated nucleus composed of discrete rounded lobes, each with a distinct nucleolus, and abundant pale cytoplasm. The background contains a mixture of maturing granulocytes, lymphocytes, plasma cells and an eosinophil. Although megakaryocytes can have a similar lobated appearance, the discrete lobes with individual nucleoli favor a multinucleate Reed-Sternberg cell. Findings are suggestive of marrow involvement by classical Hodgkin lymphoma, which should be confirmed on trephine biopsy with CD30 and CD15 immunohistochemistry.",
+ "ddx": [
+  {
+   "dx": "Megakaryocyte",
+   "vs": "Megakaryocytes have a single interconnected lobulated nucleus with condensed chromatin, inconspicuous nucleoli and granular pink cytoplasm with platelet budding, and are CD61/CD42b positive."
+  },
+  {
+   "dx": "Osteoclast",
+   "vs": "Osteoclasts contain numerous small, uniform, separate nuclei within very large granular cytoplasm rather than a few large nucleolated lobes."
+  },
+  {
+   "dx": "Adult T-cell leukemia/lymphoma or anaplastic large cell lymphoma",
+   "vs": "These show floral/horseshoe nuclei in many cells with CD3/CD25 or CD30/ALK phenotype, not rare scattered cells in a reactive background."
+  }
+ ],
+ "specimen": "BM aspirate",
+ "stain": "Wright",
+ "match": "consistent",
+ "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2129",
+  "recognize_zh": "低倍免疫組化（IHC）淋巴組織切片，可見多個模糊邊界的結節狀褐色陽性細胞聚集，散布於較淡染的背景中，結構保留但反應性擴張；標記抗體未標示，需搭配 CD3/CD4/CD8 與流式雙陰性 T 細胞（DNT）才能支持自體免疫淋巴增生症候群（ALPS）。",
+  "features": [
+    "Low-power immunohistochemical section of lymphoid tissue with preserved nodular architecture",
+    "Multiple ill-defined nodules containing aggregates of weakly to moderately positive (brown) cells",
+    "Intervening areas show scattered positive cells in a paler background",
+    "Staining is relatively weak and granular; the antibody is not labeled",
+    "No overt architectural effacement is evident at this magnification"
+  ],
+  "describe_en": "Low-power immunohistochemical stain of lymphoid tissue shows a preserved, vaguely nodular architecture, with nodules containing aggregates of positive cells and scattered positive cells in the intervening compartments. The antibody is not specified, and the weak staining intensity and low magnification limit interpretation of which compartment is expanded. In the appropriate clinical setting, a reactive-appearing pattern like this is compatible with autoimmune lymphoproliferative syndrome, but diagnosis requires demonstration of expanded TCRαβ+ CD4-/CD8- double-negative T cells and supportive genetic or biomarker studies.",
+  "ddx": [
+    {"dx": "Reactive follicular and paracortical hyperplasia", "vs": "Morphologically similar; lacks the increased double-negative T cells and elevated biomarkers (sFASL, IL-10, vitamin B12) of ALPS."},
+    {"dx": "Follicular lymphoma", "vs": "Shows back-to-back monotonous follicles with BCL2-positive germinal centers and light-chain restriction."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "Shows architectural effacement by atypical T cells with antigen loss and clonal TCR rearrangement, rather than a polyclonal DNT expansion."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified",
+  "match": "partial",
+  "high_yield": false
+}

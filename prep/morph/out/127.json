@@ -1,0 +1,29 @@
+{
+  "id": "127",
+  "recognize_zh": "骨髓抹片紅血球系增生，可見晚期紅血球母細胞含兩個大小相近的圓形核（雙核紅血球母細胞，binucleated erythroblasts），另有核分葉或不規則的紅血球母細胞；搭配周邊血中有核紅血球與網狀紅血球反應不足，指向 CDA type II。",
+  "features": [
+    "Marked erythroid hyperplasia with erythroblasts at all stages of maturation",
+    "Late (polychromatic/orthochromatic) erythroblasts with two equal-sized round nuclei (binucleation)",
+    "Occasional erythroblasts with lobulated or irregular nuclear contours",
+    "Peripheral blood: nucleated red cell, mild anisopoikilocytosis with irregular, crenated and fragmented red cells",
+    "Normal-appearing granulocytic maturation in the background",
+    "Sanger chromatogram with a single clean peak at the highlighted SEC23B exon 12 position (homozygous base call)"
+  ],
+  "describe_en": "Peripheral blood smear shows mild anisopoikilocytosis with irregular and crenated red cells, occasional fragments and a circulating nucleated red cell. The bone marrow aspirate shows marked erythroid hyperplasia with erythroblasts at all stages of maturation. Numerous late erythroblasts are binucleated with two nuclei of similar size, and occasional erythroblasts show lobulated nuclear contours; granulocytic maturation appears unremarkable. The accompanying Sanger chromatogram of SEC23B exon 12 shows a single non-overlapping peak at the highlighted position, indicating a homozygous base call; the displayed base (A) should be read against the reference and strand orientation, since the reported c.1385A>G variant would appear as G on the coding strand. Findings are consistent with congenital dyserythropoietic anemia type II.",
+  "ddx": [
+    {"dx": "Congenital dyserythropoietic anemia type I", "vs": "Shows internuclear chromatin bridges and megaloblastoid erythroblasts with spongy 'Swiss cheese' heterochromatin on EM, rather than predominant late binucleated erythroblasts; CDAN1/CDIN1 mutations."},
+    {"dx": "Hereditary spherocytosis", "vs": "Also reduced EMA binding and hemolysis, but marrow erythroblasts lack significant binucleation and reticulocytosis is appropriate."},
+    {"dx": "Megaloblastic anemia", "vs": "Erythroblasts are large with open, sieve-like chromatin and nuclear-cytoplasmic asynchrony plus giant metamyelocytes, not normoblastic binucleated late erythroblasts."},
+    {"dx": "Myelodysplastic neoplasm with erythroid dysplasia", "vs": "Multinucleated erythroblasts occur in adults with cytopenias, ring sideroblasts or clonal cytogenetic/molecular changes, not a lifelong congenital picture with SEC23B variants."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; Sanger sequencing",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "Peripheral blood: nucleated red cell with mild anisopoikilocytosis and irregular red cells",
+    "Bone marrow aspirate: marked erythroid hyperplasia with erythroblasts at all stages",
+    "Bone marrow aspirate: binucleated late erythroblasts and a lobulated erythroblast nucleus",
+    "Sanger chromatogram of SEC23B exon 12 with the variant position highlighted"
+  ]
+}

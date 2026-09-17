@@ -1,0 +1,20 @@
+{
+  "id": "61598",
+  "recognize_zh": "CD45 染色下，大多數腫瘤細胞呈陰性（只有藍色核），而散在的小淋巴球呈強烈環狀膜染色作為內部陽性對照；淋巴瘤細胞 CD45 陰性或弱陽性，是漿母細胞淋巴瘤與漿細胞腫瘤的特點。",
+  "features": [
+    "Sheets of medium to large tumor cells lacking membranous CD45 staining",
+    "Scattered small reactive lymphocytes with strong circumferential membranous CD45 (internal control)",
+    "Faint granular background/interstitial staining not localized to tumor cell membranes",
+    "Tumor nuclei round with visible nucleoli in the hematoxylin counterstain"
+  ],
+  "describe_en": "CD45 (LCA) immunostain shows the neoplastic large cells to be negative, while admixed small reactive lymphocytes display strong membranous staining that serves as an internal positive control. Faint granular background staining is present but is not membranous on tumor cells. Loss or weak expression of CD45 is typical of plasmablastic lymphoma and plasma cell neoplasms. In combination with CD20 negativity and MUM1/EBER positivity, the findings support EBV-positive plasmablastic lymphoma.",
+  "ddx": [
+    {"dx": "Carcinoma or melanoma", "vs": "CD45 negativity also occurs in non-hematopoietic tumors, which are excluded by keratin or S100/SOX10 staining and absence of MUM1/CD138 with EBER."},
+    {"dx": "Plasma cell myeloma", "vs": "Myeloma cells are likewise CD45 negative, so separation depends on clinical CRAB features, M-protein and EBER status rather than CD45."},
+    {"dx": "Anaplastic large cell lymphoma", "vs": "ALCL may also be CD45 negative but shows strong uniform CD30 with T-cell antigens or ALK, not a plasmacytic immunophenotype."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD45",
+  "match": "consistent",
+  "high_yield": false
+}

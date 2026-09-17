@@ -1,0 +1,22 @@
+{
+  "id": "64644",
+  "recognize_zh": "四格周邊血抹片比較不同淋巴球：格 1 為小而深染的圓形淋巴球，格 2 為核形不規則、細胞質邊緣不齊的小型反應性淋巴球，格 3 為染色質較開放、細胞質嗜鹼性邊緣明顯的大型反應性（免疫母細胞樣）淋巴球，格 4 為細胞質深藍、核偏位的漿細胞樣淋巴球。",
+  "features": [
+    "Panel 1: small lymphocyte with dense round nucleus and scant cytoplasm (reference or small reactive form)",
+    "Panel 2: small-to-medium lymphocyte with irregular nuclear contour and a ragged cytoplasmic border",
+    "Panel 3: large lymphocyte with moderately open, clumped chromatin and a rim of deeply basophilic cytoplasm (immunoblast-like/Downey III-like)",
+    "Panel 4: medium lymphocyte with eccentric round nucleus and deeply basophilic cytoplasm (plasmacytoid lymphocyte)",
+    "Background erythrocytes show crenation (echinocytic artifact); low magnification limits nucleolar and granule assessment"
+  ],
+  "describe_en": "Composite peripheral blood smear panels illustrate a spectrum of lymphocyte morphology. Panel 1 shows a small lymphocyte with a dense round nucleus and scant cytoplasm; panel 2 shows a lymphocyte with an irregular nucleus and uneven cytoplasmic outline; panel 3 shows a larger lymphocyte with more open chromatin and a peripheral rim of deep basophilic cytoplasm; and panel 4 shows a plasmacytoid lymphocyte with an eccentric nucleus and intensely basophilic cytoplasm. Background red cells show crenation artifact. The relatively low magnification limits assessment of nucleoli, but the cells are consistent with reactive lymphocyte variants rather than blasts.",
+  "ddx": [
+    {"dx": "Lymphoblasts", "vs": "Blasts have finely dispersed chromatin, visible nucleoli and a very high N:C ratio in a monotonous population, rather than a heterogeneous spectrum of reactive forms."},
+    {"dx": "Circulating lymphoma cells (e.g., mantle cell or Sézary cells)", "vs": "Lymphoma cells form a monomorphic population with a consistent abnormal nuclear shape (clefted, cerebriform), and clonality is confirmed by flow cytometry."},
+    {"dx": "Circulating plasma cells", "vs": "True plasma cells have clock-face chromatin and a distinct perinuclear hof with more abundant cytoplasm than plasmacytoid lymphocytes."},
+    {"dx": "Monocytes", "vs": "Monocytes are larger with folded lacy nuclei and grey-blue vacuolated cytoplasm with fine granules rather than deeply basophilic cytoplasm."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

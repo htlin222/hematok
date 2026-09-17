@@ -1,0 +1,22 @@
+{
+  "id": "65807",
+  "recognize_zh": "上排是高核質比、胞質稀少的淋巴母細胞，流式為 CD34+CD19+ 且 cyCD79a+TdT+；下排細胞變大、胞質較多呈單核球樣，流式轉為 CD19-CD34-、CD14+CD64+，全基因組拷貝數也新增多處變化，表示由 B-ALL 轉為單核球性 AML。",
+  "features": [
+    "Initial blood: medium-sized blasts with high N:C ratio, scant basophilic cytoplasm and fine chromatin (lymphoblast-like)",
+    "Initial flow: 94.6% CD45-dim events, CD34+/CD19+ (84.6%) and cytoplasmic CD79a+/TdT+ (93.7%)",
+    "At switch: larger blasts with more abundant grey-blue cytoplasm and folded monocytoid nuclei",
+    "Switch flow: monocyte gate expanded to 57.8%, CD19-negative/CD34-negative, and 98.2% CD14+/CD64+",
+    "Whole-genome copy-number plot: flat baseline in B-ALL; gains of 1q, 4q, 8q and 11q and loss of 14q at AML"
+  ],
+  "describe_en": "Initial peripheral blood smear shows medium-sized blasts with high nuclear-to-cytoplasmic ratio and scant cytoplasm; flow cytometry demonstrates a CD45-dim population expressing CD34, CD19, cytoplasmic CD79a and TdT, consistent with B-lymphoblastic leukemia. The later smear shows larger blasts and monocytoid cells with more abundant cytoplasm and folded nuclei, and flow cytometry now shows a predominant CD14+/CD64+ monocytic population that has lost CD19 and CD34. Whole-genome copy-number profiles show no alterations at baseline but new gains of 1q, 4q, 8q and 11q and loss of 14q at transformation. Findings are consistent with lineage switch of KMT2A-rearranged B-ALL to acute myeloid leukemia with monocytic differentiation.",
+  "ddx": [
+    {"dx": "Mixed-phenotype acute leukemia, B/myeloid", "vs": "MPAL shows B and myeloid/monocytic populations at the same time point, whereas here the phenotypes are sequential with complete loss of B-lineage markers."},
+    {"dx": "CD19-negative B-ALL relapse after blinatumomab", "vs": "Antigen-escape relapse retains other B markers (CD22, cytoplasmic CD79a, PAX5) and lymphoblast morphology, not CD14+/CD64+ monocytic cells."},
+    {"dx": "Therapy-related AML unrelated to the original clone", "vs": "A new t-AML would not share the original AFF1::KMT2A fusion and KRAS mutation shown by WGS."},
+    {"dx": "Reactive monocytosis during marrow recovery", "vs": "Recovery monocytes are mature, CD45-bright and not accompanied by marked leukocytosis, blasts or new clonal copy-number changes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry; WGS copy number",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "13040",
+  "recognize_zh": "左圖周邊血中的淋巴球細胞質邊緣呈細毛狀突起（hairy projections），右圖骨髓切片中細胞核彼此間隔均勻、周圍有清亮細胞質（fried-egg 外觀），兩者合起來是毛細胞白血病（HCL）的典型表現。",
+  "features": [
+    "PB: medium-sized lymphoid cell with circumferential fine hair-like cytoplasmic projections",
+    "PB: round to oval nucleus with homogeneous chromatin and moderate pale cytoplasm; a second smaller lymphoid cell nearby",
+    "BM biopsy: interstitial infiltrate of cells with oval/bean-shaped nuclei widely spaced by clear cytoplasm (fried-egg appearance)",
+    "BM biopsy: residual marrow fat with sparse normal hematopoiesis in the field",
+    "Background red cells show mild poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows lymphoid cells with round to oval nuclei, homogeneous chromatin, and moderate pale cytoplasm bearing fine circumferential hair-like projections. The accompanying bone marrow biopsy shows an interstitial infiltrate of cells with oval and bean-shaped nuclei separated by abundant clear cytoplasm, imparting a fried-egg appearance, with little residual normal hematopoiesis in the field. Findings are consistent with hairy cell leukemia, supported clinically by pancytopenia and splenomegaly; confirmation by flow cytometry (CD11c, CD25, CD103, CD123, annexin A1) and/or BRAF V600E testing is recommended.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant / splenic B-cell lymphoma with prominent nucleoli", "vs": "HCL-v cells have prominent nucleoli, cause leukocytosis without monocytopenia, and are CD25/annexin A1 negative and BRAF wild-type."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes have polar short projections and show intrasinusoidal/nodular marrow involvement, lacking CD103/CD25/annexin A1 co-expression."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL shows broad-based villi and intrasinusoidal marrow infiltration, and is CD25 and annexin A1 negative."},
+    {"dx": "Systemic mastocytosis", "vs": "Mast cells in marrow also have clear cytoplasm but form paratrabecular spindled aggregates with fibrosis and are tryptase/CD117 positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; H&E",
+  "match": "consistent",
+  "high_yield": true
+}

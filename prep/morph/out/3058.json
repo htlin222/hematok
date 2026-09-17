@@ -1,0 +1,20 @@
+{
+  "id": "3058",
+  "recognize_zh": "酸洗脫（Kleihauer-Betke）染色的高倍視野，一些深粉紅、邊緣稍不規則的紅血球夾雜在密集的淡色細胞輪廓網之間；影像失焦且區域太厚，難以判斷 HbF 分布，只能作為 HbS/HPFH 系列圖的輔助。",
+  "features": [
+    "Acid-elution stained film viewed at higher magnification in a thick area",
+    "Scattered deeply eosinophilic red cells with slightly crenated, irregular outlines",
+    "Background meshwork of pale, closely packed red cell outlines retaining faint pink stain",
+    "Focus and thickness limit assessment of the proportion and uniformity of HbF-containing cells"
+  ],
+  "describe_en": "High-power view of an acid-elution (Kleihauer-Betke) stained blood film taken from a thick area of the smear. Scattered red cells are intensely eosinophilic with slightly irregular outlines, set among a closely packed network of paler cell outlines that retain faint staining. The thickness of the field and the soft focus prevent reliable judgement of whether HbF is pancellular or heterocellular. In the context of the series, the image is presented as part of the HbS/HPFH evaluation, but interpretation should be based on a thin, well-spread area of the slide.",
+  "ddx": [
+    {"dx": "Heterocellular HbF (sickle cell disease on hydroxyurea, HbS-beta thalassemia)", "vs": "A true heterocellular pattern shows well-separated dark F-cells against empty ghost cells in a thin area, which cannot be confirmed in this thick field."},
+    {"dx": "Fetomaternal hemorrhage", "vs": "Fetal red cells in maternal blood are a small minority of uniformly dark cells among clear ghosts, assessed on a monolayer."},
+    {"dx": "Staining or thickness artifact", "vs": "Overlapping cells in thick areas retain eosin nonspecifically, mimicking partial staining; counting should be done where cells do not touch."}
+  ],
+  "specimen": "PB",
+  "stain": "Acid elution (Kleihauer-Betke)",
+  "match": "partial",
+  "high_yield": false
+}

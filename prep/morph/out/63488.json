@@ -1,0 +1,22 @@
+{
+  "id": "63488",
+  "recognize_zh": "四格圖中，大型組織球細胞質呈淡色、細纖維狀，像皺摺的衛生紙（wrinkled tissue paper）；B 格切片中成片出現，C–D 格普魯士藍（Prussian blue）染色見整個細胞質瀰漫藍染且帶條紋，符合戈謝氏病（Gaucher disease）細胞。",
+  "features": [
+    "A: aspirate smear with large histiocytes having abundant pale, finely striated cytoplasm among red cells and hematopoietic precursors",
+    "B: marrow section with sheets of large histiocytes with abundant pale pink fibrillar cytoplasm and small eccentric nuclei",
+    "C: Prussian blue stain at lower power showing numerous blue-staining histiocytes in the particle",
+    "D: single Gaucher cell with crumpled tissue-paper, striated cytoplasm diffusely stained blue by Prussian blue",
+    "No carcinoma clusters or granulomas identified"
+  ],
+  "describe_en": "This four-panel composite shows bone marrow involvement by storage histiocytes. The aspirate smear (A) contains large histiocytes with abundant pale, finely striated cytoplasm, and the biopsy section (B) shows sheets of similar cells with pale pink fibrillar cytoplasm and small eccentric nuclei, stated to be PAS positive. Prussian blue stains (C-D) show diffuse, streaky blue staining of the histiocyte cytoplasm with the characteristic crumpled tissue-paper texture, rather than discrete hemosiderin granules. Findings are consistent with Gaucher cells; confirmation by glucocerebrosidase enzyme assay or GBA1 genetic testing is required.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells (CML, myeloma, thalassemia, mycobacterial infection)", "vs": "Pseudo-Gaucher cells are morphologically similar, so enzyme activity and the underlying disease must be assessed; mycobacteria are detected with AFB stain and CML with BCR::ABL1."},
+    {"dx": "Niemann-Pick disease (foamy histiocytes)", "vs": "Niemann-Pick cells have foamy, vacuolated bubbly cytoplasm and sea-blue granules rather than fibrillar striated cytoplasm."},
+    {"dx": "Metastatic carcinoma (e.g., signet ring or clear cell)", "vs": "Carcinoma cells form cohesive clusters with nuclear atypia and are keratin positive, whereas Gaucher cells are CD68 positive histiocytes with bland nuclei."},
+    {"dx": "Iron-laden macrophages (hemosiderosis)", "vs": "Siderophages contain coarse discrete blue granules of hemosiderin, whereas Gaucher cells show diffuse, streaky staining of the whole cytoplasm."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; H&E/PAS; Prussian blue",
+  "match": "consistent",
+  "high_yield": true
+}

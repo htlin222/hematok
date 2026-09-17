@@ -1,0 +1,23 @@
+{
+  "id": "61680",
+  "recognize_zh": "這顆中等大小的淋巴樣細胞核圓、染色質中度濃縮，核中央可見淡色核仁，最明顯的是深嗜鹼性細胞質邊緣長出的大型泡狀突起（cytoplasmic blebs），這是 T-PLL 細胞的教科書特徵。",
+  "features": [
+    "Medium-sized lymphoid cell, slightly larger than adjacent red cells",
+    "High N:C ratio with a round nucleus",
+    "Moderately condensed chromatin with a visible pale central nucleolus",
+    "Scant, deeply basophilic, agranular cytoplasm",
+    "Prominent cytoplasmic blebs, including a large rounded protrusion at the upper right and a smaller one at the left",
+    "Background normocytic red cells"
+  ],
+  "describe_en": "Peripheral blood smear shows a medium-sized atypical lymphoid cell with a high N:C ratio. The nucleus is round with moderately condensed chromatin and a visible central nucleolus. The scant cytoplasm is deeply basophilic, agranular and forms prominent rounded surface blebs. Findings are consistent with a prolymphocyte of T-prolymphocytic leukemia, to be confirmed by immunophenotyping and TCL1A or MTCP1 rearrangement studies.",
+  "ddx": [
+    {"dx": "B-prolymphocytic leukemia", "vs": "B-prolymphocytes have a very prominent single nucleolus, more abundant pale cytoplasm and lack cytoplasmic blebs, and are CD19/CD20 positive."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells show fine, circumferential hair-like projections with pale gray-blue cytoplasm and no nucleolus rather than discrete basophilic blebs."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform grooved nuclei and scant pale cytoplasm without blebs, and are usually CD7 and CD26 negative."},
+    {"dx": "Smear-related cytoplasmic budding in reactive lymphocytes", "vs": "Artifactual budding occurs in scattered heterogeneous reactive lymphocytes, whereas blebs in T-PLL are seen consistently across a monotonous population with nucleolated nuclei."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

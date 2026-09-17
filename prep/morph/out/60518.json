@@ -1,0 +1,22 @@
+{
+  "id": "60518",
+  "recognize_zh": "在大多正常的紅血球之間，可見數個體積較小、密度較高且缺乏中央淡染區的紅血球，表面有少數長短不一、分布不規則的尖刺或棒狀突起，即棘狀紅血球（acanthocytes）。",
+  "features": [
+    "Scattered small dense red cells lacking central pallor",
+    "Irregular, unevenly spaced spicules of variable length, some with club-shaped tips",
+    "Background red cells are largely normocytic with central pallor",
+    "A few cells with more regular crenation and occasional elongated/irregular forms",
+    "No red cell fragments or nucleated red cells evident in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a background of predominantly normocytic, normochromic red cells with central pallor. Scattered small, dense red cells lacking central pallor bear a few irregularly distributed spicules of varying length, some with blunt club-like tips. No schistocytes or spherocyte clusters are prominent in this field. Findings are consistent with acanthocytes (spur cells), as seen in advanced liver disease.",
+  "ddx": [
+    {"dx": "Echinocytes (burr cells)", "vs": "Echinocytes have 10-30 short, evenly spaced, uniform projections and usually retain central pallor, whereas acanthocytes have fewer irregular spicules and are dense without pallor."},
+    {"dx": "Schistocytes (helmet/triangle fragments)", "vs": "Schistocytes are fragments with sharp straight edges and horn-like points from mechanical cutting rather than intact dense cells with multiple irregular spicules."},
+    {"dx": "Spherocytes", "vs": "Spherocytes are small, dense and lack central pallor but have smooth round contours without projections."},
+    {"dx": "Keratocytes (bite/horn cells)", "vs": "Keratocytes have one or two horn-like projections flanking a vacuole or notch rather than multiple irregular spicules around the circumference."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

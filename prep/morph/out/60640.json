@@ -1,0 +1,22 @@
+{
+  "id": "60640",
+  "recognize_zh": "抹片中為中至大型、核質比高、染色質細緻且細胞質稀少淡藍的芽細胞；流式圖中綠色芽細胞為 cCD3+、CD7+、CD5+、CD34+ 且 CD13 陰性，支持 T 淋巴芽細胞白血病。",
+  "features": [
+    "Medium-to-large blasts with high N:C ratio and finely dispersed chromatin (staining appears magenta, possibly processing-related)",
+    "Scant rim of pale blue, agranular cytoplasm, some cells with small cytoplasmic blebs",
+    "Round to slightly irregular nuclei; nucleoli not well seen at this resolution",
+    "No Auer rods or cytoplasmic granules evident",
+    "Flow cytometry (green = blasts, red = lymphocytes): blasts cytoplasmic CD3+, CD5+, CD7+, CD34+ and CD13 negative"
+  ],
+  "describe_en": "Peripheral blood/bone marrow smears show a population of medium-to-large blasts with high nuclear-to-cytoplasmic ratio, fine chromatin and scant agranular pale blue cytoplasm, without Auer rods. The smear coloration is unusual, which limits chromatin and nucleolar detail. Flow cytometry shows the blast population (green) expressing cytoplasmic CD3, CD5, CD7 and CD34, and lacking CD13, compared with residual normal lymphocytes (red). Findings are consistent with T-lymphoblastic leukemia; in the context of this patient, this represents one of sequentially developed acute leukemias of different lineage.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "Morphology is indistinguishable, but B-ALL expresses CD19, CD79a and CD10 and lacks cytoplasmic CD3."},
+    {"dx": "Acute myeloid leukemia, minimally differentiated", "vs": "AML-M0 blasts express CD13/CD33/CD117 and lack cytoplasmic CD3, whereas these blasts are CD13 negative and cCD3 positive."},
+    {"dx": "Early T-cell precursor lymphoblastic leukemia", "vs": "ETP-ALL is CD1a and CD8 negative, CD5 dim/negative and expresses stem cell or myeloid markers (CD34, CD117, CD13, CD33), unlike this CD5-positive, CD13-negative phenotype."},
+    {"dx": "Mixed-phenotype acute leukemia, T/myeloid", "vs": "MPAL T/myeloid requires MPO or monocytic differentiation in addition to cCD3, which is not shown here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "62992",
+  "recognize_zh": "淋巴結 IgG 免疫染色下，大量細胞質強陽性、核偏位的漿細胞散布於淋巴球之間，局部成群聚集；這是評估 IgG4 相關病變時計算 IgG4/IgG 比值的分母染色。",
+  "features": [
+    "Numerous cells with strong cytoplasmic IgG staining and eccentric, unstained nuclei (plasma cell morphology)",
+    "Plasma cells distributed diffusely between small lymphocytes, with denser clusters in some areas",
+    "Background small lymphocytes negative with blue hematoxylin counterstain",
+    "Faint extracellular/interstitial staining from background immunoglobulin",
+    "No sheets of atypical large cells visible"
+  ],
+  "describe_en": "IgG immunostain of the lymph node shows numerous IgG-positive plasma cells with strong cytoplasmic staining scattered diffusely among small lymphocytes, forming small clusters in areas. Background lymphocytes are negative, and there is light interstitial staining from extracellular immunoglobulin. This stain serves as the denominator for the IgG4:IgG ratio; together with the IgG4 stain it supports an IgG4-rich plasmacytosis, here occurring in a lymph node from a patient with systemic mastocytosis.",
+  "ddx": [
+    {"dx": "IgG4-related lymphadenopathy", "vs": "Requires increased IgG4+ plasma cells (typically >100/HPF and IgG4:IgG >40%) on the paired IgG4 stain; IgG alone cannot establish it."},
+    {"dx": "Reactive plasmacytosis (e.g. Castleman-like, autoimmune)", "vs": "Reactive plasmacytosis shows abundant IgG+ plasma cells but a low IgG4:IgG ratio on the companion stain."},
+    {"dx": "Nodal marginal zone lymphoma with plasmacytic differentiation", "vs": "Neoplastic plasma cells show light-chain restriction on kappa/lambda ISH, whereas this population would be polytypic."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: IgG",
+  "match": "consistent",
+  "high_yield": false
+}

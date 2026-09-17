@@ -1,0 +1,22 @@
+{
+  "id": "2789",
+  "recognize_zh": "低倍骨髓切片中，骨小樑之間有一個邊界略疏鬆、非貼骨小樑（non-paratrabecular）的小淋巴球聚集，周圍仍保有三系造血與巨核細胞；需搭配免疫染色才能判定是 rituximab 後的 T 細胞增生。",
+  "features": [
+    "Hypercellular-appearing marrow with preserved trilineage hematopoiesis between bony trabeculae",
+    "Single non-paratrabecular (interstitial) aggregate of small lymphocytes with somewhat loose, infiltrative borders",
+    "Aggregate cells are small with round dark nuclei; no germinal center",
+    "Megakaryocytes present in normal numbers with normal-appearing morphology",
+    "Small dark cluster at upper right, likely an erythroid island or crush artifact"
+  ],
+  "describe_en": "Bone marrow core biopsy shows trabecular bone and cellular marrow with preserved trilineage hematopoiesis and megakaryocytes. A single interstitial, non-paratrabecular lymphoid aggregate composed of small lymphocytes with slightly ill-defined borders is present; no germinal center or paratrabecular extension is seen. H&E morphology alone cannot determine the lineage of the aggregate. In a patient treated with rituximab, immunostains showing a predominance of CD3+ T cells with absent CD20+ B cells would support rituximab-associated reactive T-cell aggregates rather than residual B-cell lymphoma.",
+  "ddx": [
+    {"dx": "Residual B-cell lymphoma after rituximab", "vs": "Rituximab can mask CD20, so PAX5, CD79a or CD19 staining is needed; residual lymphoma is B-cell rich and light-chain restricted, whereas reactive aggregates are T-cell predominant."},
+    {"dx": "Follicular lymphoma involvement", "vs": "FL typically forms paratrabecular aggregates of CD10+/BCL2+ B cells."},
+    {"dx": "Benign reactive lymphoid aggregate", "vs": "Ordinary benign aggregates are small, well circumscribed, often contain vessels and have a mixed B/T population, without a rituximab history."},
+    {"dx": "Peripheral T-cell lymphoma", "vs": "PTCL shows cytologic atypia, loss of pan-T antigens and clonal TCR rearrangement, unlike the small bland T cells of reactive hyperplasia."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

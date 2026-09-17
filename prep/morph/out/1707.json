@@ -1,0 +1,21 @@
+{
+  "id": "1707",
+  "recognize_zh": "周邊血液中一顆被大量粗大紫色顆粒填滿的細胞，核被顆粒遮蔽，細胞邊緣破裂、顆粒散落到周圍，這種密集的嗜鹼性（metachromatic）顆粒是肥大細胞的線索。",
+  "features": [
+    "Large cell packed with coarse, dense purple (metachromatic) cytoplasmic granules",
+    "Nucleus largely obscured by overlying granules",
+    "Ruptured cell membrane with granules spilled into the surrounding background",
+    "Irregular cell outline with small cytoplasmic projections",
+    "Background red cells without other notable abnormality in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows a large circulating cell whose cytoplasm is filled with coarse, dark purple metachromatic granules that obscure the nucleus. The cell is partially disrupted, with granules dispersed around its periphery. The red cells in the field are unremarkable. In the appropriate setting, circulating mast cells of this type are suggestive of mast cell leukemia; confirmation requires a marrow aspirate mast cell count (at least 20%), tryptase, CD117/CD25 expression and KIT D816V testing.",
+  "ddx": [
+    {"dx": "Basophil", "vs": "Basophils are smaller with a lobulated nucleus and fewer, water-soluble granules, whereas mast cells have a round nucleus and densely packed granules; tryptase/CD117 staining separates them."},
+    {"dx": "Hypergranular promyelocyte (APL)", "vs": "Abnormal promyelocytes have azurophilic red-purple granules, a reniform or bilobed nucleus and often Auer rods, and are MPO-strongly positive rather than tryptase-positive."},
+    {"dx": "Smudged granulocyte artifact", "vs": "A crushed neutrophil or eosinophil shows fine or orange-red granules and recognizable lobulated chromatin rather than coarse dark metachromatic granules."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

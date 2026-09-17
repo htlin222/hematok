@@ -1,0 +1,22 @@
+{
+  "id": "27766",
+  "recognize_zh": "骨髓切片顯著過度增生、以顆粒球系為主，並有小型、核分葉不良的發育異常巨核細胞（箭頭）；抹片中嗜中性球核分葉不良、細胞質顆粒減少，並伴有未成熟顆粒球——顆粒球增生合併明顯的發育異常，是非典型慢性骨髓性白血病（aCML）的重點。",
+  "features": [
+    "Left (BM biopsy, H&E): markedly hypercellular marrow with granulocytic predominance",
+    "Left: small, hypolobated dysplastic megakaryocytes (arrows)",
+    "Right (smear): neutrophils with abnormal nuclear segmentation, including hypolobated and bizarre forms",
+    "Right: hypogranular neutrophil cytoplasm (dysgranulopoiesis)",
+    "Right: circulating immature granulocytes (promyelocytes/myelocytes) with occasional larger immature cells; no basophilia evident"
+  ],
+  "describe_en": "The bone marrow trephine (left) is markedly hypercellular with granulocytic predominance and scattered small dysplastic megakaryocytes with hypolobated nuclei (arrows). The smear (right) shows leukocytosis composed of neutrophils and immature granulocytes; neutrophils display prominent dysplasia with hypogranular cytoplasm and abnormal nuclear segmentation. Basophils are not increased and monocytes are not prominent in this field. Findings are consistent with atypical chronic myeloid leukemia (MDS/MPN with neutrophilia), provided BCR::ABL1 is absent and blasts are below 20%.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "CML shows basophilia, a myelocyte 'bulge' without significant dysgranulopoiesis, small hypolobated 'dwarf' megakaryocytes, and BCR::ABL1."},
+    {"dx": "Chronic neutrophilic leukemia", "vs": "CNL has mature, non-dysplastic neutrophils with toxic granulation, <10% immature granulocytes and CSF3R mutation."},
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML requires persistent absolute monocytosis (≥0.5 × 10^9/L and ≥10% of WBC), which is not seen in this field."},
+    {"dx": "Reactive neutrophilia (infection, G-CSF)", "vs": "Reactive states show toxic granulation and Döhle bodies without pseudo-Pelger-Huët or hypogranular neutrophils or dysplastic megakaryocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "H&E (BM biopsy); Wright-Giemsa (smear)",
+  "match": "consistent",
+  "high_yield": false
+}

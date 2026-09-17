@@ -1,0 +1,22 @@
+{
+  "id": "15798",
+  "recognize_zh": "骨髓抹片中巨噬細胞的細胞質內吞入多個有核細胞與紅血球（hemophagocytosis）；骨髓切片以組織球標記（如 CD163）染色，可見大量陽性組織球散布，部分內含被吞噬的細胞，符合噬血性淋巴組織球增生症（HLH）。",
+  "features": [
+    "Panel A (BM aspirate): activated macrophages with abundant vacuolated cytoplasm containing several engulfed nucleated cells (likely erythroid precursors/lymphocytes) and red cells",
+    "Phagocytosed cells appear as dark round nuclei within clear phagocytic vacuoles",
+    "Macrophage nucleus eccentric and compressed by ingested material",
+    "Panel B (BM biopsy IHC, likely CD163): markedly increased brown-staining interstitial histiocytes with dendritic processes, some enlarged with phagocytosed cells",
+    "Background marrow with fat spaces and mixed hematopoietic cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows activated macrophages whose cytoplasm contains multiple engulfed nucleated hematopoietic cells and red cells within phagocytic vacuoles. Immunohistochemistry for a histiocytic marker (likely CD163) on the core biopsy highlights a markedly increased population of interstitial histiocytes, several of which are enlarged and contain phagocytosed cells. Hemophagocytosis itself is neither sensitive nor specific; findings are consistent with hemophagocytic lymphohistiocytosis in the appropriate clinical and laboratory context (HLH-2004 criteria, including fever, cytopenias, hyperferritinemia, hypertriglyceridemia/hypofibrinogenemia, elevated sIL-2R and low NK activity).",
+  "ddx": [
+    {"dx": "Reactive hemophagocytosis (transfusion, sepsis, post-chemotherapy)", "vs": "Isolated hemophagocytic macrophages are common after transfusion or infection and do not constitute HLH without the clinical and laboratory criteria."},
+    {"dx": "Histiocytic sarcoma / malignant histiocytosis", "vs": "Histiocytic sarcoma shows cytologically malignant histiocytes with nuclear atypia and mitoses forming sheets, rather than bland activated macrophages."},
+    {"dx": "Rosai-Dorfman disease (emperipolesis)", "vs": "Rosai-Dorfman histiocytes are S100 positive and show intact lymphocytes passing through cytoplasm (emperipolesis) without destruction, usually in lymph nodes."},
+    {"dx": "Lymphoma-associated HLH", "vs": "Morphology of the macrophages is identical; an underlying T/NK or EBV-positive lymphoma must be sought with IHC, EBER and clonality studies."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, IHC (histiocytic marker, likely CD163)",
+  "match": "consistent",
+  "high_yield": true
+}

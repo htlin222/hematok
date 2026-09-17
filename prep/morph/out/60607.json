@@ -1,0 +1,22 @@
+{
+  "id": "60607",
+  "recognize_zh": "抹片中的大型細胞胞質充滿粗大紫紅色顆粒，看起來很像前骨髓細胞（APL 樣），但細胞核圓至卵圓、無雙葉核或 Auer 棒束（faggot cells），且 RARA 分離探針中期 FISH 訊號仍融合（無重組），提示 G-CSF 刺激造成的假性 APL。",
+  "features": [
+    "Large cells with round to oval nuclei, fine chromatin and occasional nucleoli",
+    "Abundant cytoplasm densely packed with coarse purple-red azurophilic granules, some obscuring the nucleus",
+    "No bilobed/sliding-plate nuclei and no Auer rod bundles (faggot cells) identified",
+    "Cells cohesive in a cluster with basophilic cytoplasmic rims",
+    "Metaphase FISH with RARA break-apart probe (17q21): fused signals on both chromosome 17 homologs, no split"
+  ],
+  "describe_en": "The smear shows a cluster of large myeloid cells with round to oval nuclei, fine chromatin, and abundant cytoplasm filled with coarse azurophilic granules, closely resembling hypergranular promyelocytes. Characteristic features of acute promyelocytic leukemia, such as bilobed nuclei and faggot cells, are not seen. Metaphase FISH with a RARA break-apart probe shows two intact fusion signals without evidence of RARA rearrangement. Findings are consistent with acute myeloid leukemia showing G-CSF (filgrastim)-induced hypergranulation that mimics acute promyelocytic leukemia.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia with PML::RARA", "vs": "APL shows bilobed nuclei, faggot cells, CD34/HLA-DR negativity and PML::RARA fusion, which is absent here by RARA break-apart FISH."},
+    {"dx": "Reactive left shift after G-CSF therapy", "vs": "G-CSF-induced left shift shows a full spectrum of maturing granulocytes with few blasts rather than a monotonous cluster of abnormal cells."},
+    {"dx": "AML with maturation / t(8;21)", "vs": "t(8;21) AML has salmon-colored granules, perinuclear hof, single long Auer rods and RUNX1::RUNX1T1 fusion."},
+    {"dx": "Acute myeloid leukemia with variant RARA partner", "vs": "Variant RARA translocations would still show split signals on the RARA break-apart probe."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; FISH: RARA break-apart",
+  "match": "consistent",
+  "high_yield": false
+}

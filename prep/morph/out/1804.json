@@ -1,0 +1,22 @@
+{
+  "id": "1804",
+  "recognize_zh": "中央為骨小樑，兩側骨髓被帶有泡狀核與核仁的大型淋巴瘤細胞取代；箭頭所指為細胞質豐富粉紅、含多個核的蝕骨細胞（osteoclasts），在淋巴瘤造成高血鈣的情境下，這些活化的蝕骨細胞是骨質吸收的形態學線索。",
+  "features": [
+    "Central bony trabecula with marrow spaces on both sides replaced by large atypical lymphoid cells",
+    "Tumor cells with large vesicular round to oval nuclei, distinct nucleoli and moderate pale cytoplasm",
+    "Arrowed multinucleated giant cells with abundant eosinophilic cytoplasm consistent with osteoclasts",
+    "Scattered brown-black granular pigment deposits (likely formalin pigment or hemosiderin)",
+    "No residual normal hematopoiesis in the field"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows a bony trabecula with adjacent marrow spaces replaced by sheets of large atypical cells with vesicular nuclei, distinct nucleoli and moderate pale cytoplasm. Multinucleated giant cells with abundant eosinophilic cytoplasm (arrows) are present near the trabecula, consistent with osteoclasts. Granular brown-black pigment is scattered through the section. Findings are consistent with marrow involvement by diffuse large B-cell lymphoma with osteoclastic activity, which provides a morphologic correlate for lymphoma-associated hypercalcemia (typically mediated by ectopic calcitriol or PTHrP).",
+  "ddx": [
+    {"dx": "Megakaryocytes", "vs": "Megakaryocytes have a single large multilobated nucleus and are dispersed in the marrow, whereas osteoclasts contain multiple separate nuclei and lie along bone surfaces."},
+    {"dx": "Hodgkin/Reed-Sternberg cells", "vs": "Have huge inclusion-like nucleoli in a mixed inflammatory background and are CD30/CD15-positive, not bland multinucleated cells with pink cytoplasm."},
+    {"dx": "Primary hyperparathyroidism (osteitis fibrosa)", "vs": "Shows osteoclastic resorption with peritrabecular fibrosis but no lymphoma infiltrate and elevated PTH."},
+    {"dx": "Plasma cell myeloma with osteoclast activation", "vs": "Lytic lesions and osteoclasts are accompanied by sheets of CD138-positive monotypic plasma cells rather than CD20-positive large B cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

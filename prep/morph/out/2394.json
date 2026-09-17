@@ -1,0 +1,21 @@
+{
+  "id": "2394",
+  "recognize_zh": "骨髓抹片充滿各階段顆粒球（骨髓細胞、後骨髓細胞、桿狀核為主），夾雜含深紫黑色粗顆粒的嗜鹼性球與幾顆藍色細胞質、細緻染色質的芽細胞/早幼粒細胞；CML 背景下嗜鹼性球與芽細胞增多提示加速期。",
+  "features": [
+    "Hypercellular smear with granulocytic predominance at all stages (myelocytes, metamyelocytes, bands, segmented forms)",
+    "Basophil-lineage cells with coarse dark purple-black granules obscuring the nucleus (lower left and scattered)",
+    "Several larger immature cells with fine chromatin, nucleoli and basophilic cytoplasm (blasts/promyelocytes), not forming sheets",
+    "Occasional hypogranular or pseudo-Pelger-like neutrophils",
+    "Scattered free granules from ruptured cells in the background; very few erythroid precursors"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows marked granulocytic hyperplasia with all stages of maturation, predominantly myelocytes, metamyelocytes, and bands. Basophil-lineage cells with coarse dark granules are readily identified, and several larger immature cells with fine chromatin, nucleoli, and basophilic cytoplasm consistent with blasts and promyelocytes are present without forming sheets. Erythroid precursors are sparse. An exact blast and basophil percentage cannot be established from a single field; in a patient with known BCR::ABL1-positive CML, increased basophils (≥20% in blood) and blasts (10–19%) would support accelerated phase/high-risk disease features.",
+  "ddx": [
+    {"dx": "CML, chronic phase", "vs": "Chronic phase has <10% blasts and <20% basophils in blood; the distinction rests on quantitative counts, cytogenetic evolution and clinical findings rather than single-field morphology."},
+    {"dx": "Leukemoid reaction", "vs": "Leukemoid reaction shows toxic granulation without absolute basophilia, has high LAP score, and is BCR::ABL1 negative."},
+    {"dx": "Atypical CML, BCR::ABL1-negative", "vs": "aCML has prominent dysgranulopoiesis with little or no basophilia and lacks BCR::ABL1, often with SETBP1/ASXL1 mutations."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

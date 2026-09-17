@@ -1,0 +1,22 @@
+{
+  "id": "28526",
+  "recognize_zh": "骨髓切片高倍下見一團均一、核卵圓、染色質細緻、胞質淡的單核細胞結節，周邊血有核偏位的漿細胞樣細胞（箭頭）；免疫染色 CD123 強陽性、CD4 弱陽性，流式細胞儀 CD123 亮陽性、低 SSC 族群呈 CD4+ CD56− CD34−，代表 CMML 中成熟漿細胞樣樹突細胞（pDC）結節。",
+  "features": [
+    "Low-power hypercellular marrow core with a dense nodular aggregate adjacent to trabecular bone (panel A)",
+    "High-power nodule of monotonous medium-sized cells with round to oval nuclei, finely dispersed chromatin and moderate pale eosinophilic cytoplasm (panel B)",
+    "Peripheral blood cells with eccentric nuclei and pale blue cytoplasm resembling plasmacytoid cells (arrows, panel B inset)",
+    "Immunostains: nodule positive for CD45 and strongly for CD123, weak for CD4, and largely negative for CD68 (panel C)",
+    "Flow cytometry: CD123-bright, low side-scatter population (green) that is CD4-positive, CD56-negative and CD34/CD117-negative (panel D)"
+  ],
+  "describe_en": "Bone marrow biopsy is hypercellular and contains a discrete nodular aggregate adjacent to a trabecula composed of monotonous medium-sized cells with oval nuclei, fine chromatin and moderate pale cytoplasm. The peripheral blood shows occasional plasmacytoid cells with eccentric nuclei and pale blue cytoplasm. By immunohistochemistry the nodule is CD45-positive and strongly CD123-positive with weak CD4 and minimal CD68 expression, and peripheral blood flow cytometry identifies a CD123-bright, CD4-positive, CD56-negative, CD34/CD117-negative population. In the setting of monocytosis and anemia, findings are consistent with clonal mature plasmacytoid dendritic cell nodules associated with chronic myelomonocytic leukemia.",
+  "ddx": [
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN cells are immature blast-like cells that co-express CD56 with CD4/CD123/TCF4 and form diffuse infiltrates often with skin lesions, whereas these pDCs are CD56-negative mature nodules."},
+    {"dx": "Acute myeloid leukemia with monocytic differentiation", "vs": "AML blasts are CD34 and/or CD117 positive or express monocytic markers with ≥20% blasts, while these cells are CD34/CD117-negative CD123-bright pDCs."},
+    {"dx": "Lymphoid aggregate / low-grade lymphoma", "vs": "Lymphoid aggregates are composed of CD3+ or CD20+ lymphocytes and lack bright CD123 expression."},
+    {"dx": "Systemic mastocytosis associated with CMML", "vs": "Mast cell aggregates are spindled, CD117/tryptase-positive and often CD25-positive rather than CD123-bright."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E, IHC: CD45, CD4, CD68, CD123; flow",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "65478",
+  "recognize_zh": "骨髓抹片中央有一顆比周圍細胞大好幾倍的組織球，細胞質被大量大小相近、邊界清楚的透明小空泡填滿，呈泡沫或肥皂泡狀，核小而偏中央、染色較深。這種「泡沫細胞」是 Niemann-Pick 細胞的樣子，但需與其他泡沫組織球鑑別。",
+  "features": [
+    "Very large histiocyte, roughly 5–6 times the diameter of adjacent red cells",
+    "Cytoplasm packed with numerous small, sharply defined, fairly uniform clear vacuoles (foamy/soap-bubble appearance)",
+    "Small, relatively condensed central nucleus with irregular outline",
+    "Faint lilac cytoplasmic strands between vacuoles; no striated 'crumpled tissue paper' texture",
+    "Background marrow elements including erythroid precursors and myeloid cells"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a very large histiocyte whose cytoplasm is filled with numerous small, sharply defined, uniform clear vacuoles, imparting a foamy soap-bubble appearance, with a small central nucleus. The cytoplasm lacks the fibrillary crumpled-tissue-paper texture of Gaucher cells. Surrounding hematopoietic cells, including erythroid and myeloid precursors, are present. Findings are consistent with a Niemann-Pick cell (foamy lipid-laden histiocyte); confirmation with sphingomyelinase activity or SMPD1/NPC1/NPC2 genetic testing is required, as sea-blue histiocytes and other foamy macrophages can overlap.",
+  "ddx": [
+    {"dx": "Gaucher cell", "vs": "Gaucher cells have fibrillary, striated 'crumpled tissue paper' cytoplasm without discrete vacuoles and are strongly PAS and tartrate-resistant acid phosphatase positive."},
+    {"dx": "Sea-blue histiocyte", "vs": "Sea-blue histiocytes contain blue-green ceroid granules on Giemsa, whereas this cell shows clear uniform vacuoles; both may coexist in Niemann-Pick disease."},
+    {"dx": "Pseudo-Gaucher or foamy cells in high cell-turnover states (CML, thalassemia, myeloma)", "vs": "Secondary foamy histiocytes appear in increased cell-turnover conditions and have normal enzyme activity, so clinical and biochemical correlation is needed."},
+    {"dx": "Fat cell or lipid-laden macrophage in marrow", "vs": "Adipocytes show one or few large vacuoles with a peripheral flattened nucleus rather than numerous small uniform vacuoles."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

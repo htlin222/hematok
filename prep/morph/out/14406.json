@@ -1,0 +1,23 @@
+{
+  "id": "14406",
+  "recognize_zh": "A 圖血液抹片可見大量小而緻密、缺乏中央淡染區的球形紅血球（spherocytes）與多染性紅血球、有核紅血球，提示溶血；B 圖角膜周緣褐色環（箭頭，Kayser-Fleischer ring），兩者合併急性肝衰竭即指向猛爆性威爾森氏症（Wilson disease）。",
+  "features": [
+    "Numerous spherocytes/microspherocytes lacking central pallor",
+    "Polychromatophilic macrocytic red cells indicating reticulocytosis",
+    "Circulating nucleated red blood cells",
+    "Scattered irregularly contracted/crenated red cells; no schistocytes or agglutination evident",
+    "Clinical photo: golden-brown peripheral corneal ring (Kayser-Fleischer ring, arrow)"
+  ],
+  "describe_en": "Peripheral blood smear (A) shows numerous spherocytes and irregularly contracted red cells lacking central pallor, accompanied by polychromatophilic macrocytes and occasional nucleated red blood cells, indicating brisk hemolysis with a marrow response. Red cell agglutination and prominent schistocytes are not seen in this field. The eye photograph (B) shows a brownish ring at the limbal margin of the cornea (arrow), consistent with a Kayser-Fleischer ring. In a young patient with jaundice and rapidly progressive liver failure, the combination of Coombs-negative hemolytic anemia and Kayser-Fleischer rings is consistent with fulminant Wilson disease, in which massive copper release causes oxidative red cell injury.",
+  "ddx": [
+    {"dx": "Warm autoimmune hemolytic anemia", "vs": "Warm AIHA also produces spherocytes and polychromasia but has a positive direct antiglobulin test and lacks Kayser-Fleischer rings or acute liver failure."},
+    {"dx": "Hereditary spherocytosis", "vs": "HS causes chronic lifelong spherocytic hemolysis with family history and abnormal EMA binding, not abrupt hemolysis with fulminant hepatic failure."},
+    {"dx": "Clostridial sepsis", "vs": "Clostridium perfringens toxin causes explosive microspherocytic hemolysis with sepsis, but serum copper, ceruloplasmin and eye findings are normal."},
+    {"dx": "Spur cell (acanthocytic) anemia of liver disease", "vs": "Advanced cirrhosis produces acanthocytes with irregular spiny projections rather than smooth round spherocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa (A); N/A clinical photo (B)",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": ["A: Peripheral smear with spherocytes, polychromasia and nucleated RBCs", "B: Kayser-Fleischer ring at the corneal limbus (arrow)"]
+}

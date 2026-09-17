@@ -1,0 +1,22 @@
+{
+  "id": "64271",
+  "recognize_zh": "骨髓切片 CD71 免疫染色中，脂肪細胞之間密集排列、圓核的大量不成熟細胞呈瀰漫性細胞膜與細胞質棕色陽性，僅少數細胞（如巨核細胞、部分骨髓系細胞）陰性，顯示整片浸潤屬紅血球系，支持純紅血球白血病。",
+  "features": [
+    "Hypercellular marrow with sheets of round mononuclear cells between adipocytes",
+    "Diffuse strong membranous and granular cytoplasmic CD71 (transferrin receptor) positivity in the majority of cells",
+    "Occasional cells with more intense ring-like membranous staining",
+    "Scattered negative cells with blue nuclei, including a small cluster and larger cells (likely megakaryocytes or myeloid/stromal cells)",
+    "Staining distribution similar to E-cadherin per record"
+  ],
+  "describe_en": "Immunohistochemical stain for CD71 on the bone marrow trephine biopsy shows a hypercellular marrow in which sheets of immature round cells are diffusely and strongly positive with membranous and cytoplasmic staining, while only scattered residual cells are negative. The distribution parallels E-cadherin staining. These findings indicate that the predominant infiltrate is of erythroid lineage and, in conjunction with the aspirate morphology showing sheets of proerythroblast-like blasts, support pure erythroid leukemia; note that CD71 is not specific for neoplasia and is also expressed by reactive erythroid hyperplasia.",
+  "ddx": [
+    {"dx": "Reactive erythroid hyperplasia (e.g., hemolysis, megaloblastic anemia recovery)", "vs": "Reactive erythropoiesis is CD71-positive but shows full maturation with hemoglobinized normoblasts, is p53-negative/weak, and lacks sheets of immature proerythroblasts."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts are CD61/CD42b positive and E-cadherin/CD71 negative or weak."},
+    {"dx": "AML with myeloblasts or myelodysplastic neoplasm with erythroid predominance", "vs": "Myeloblast-rich AML is CD34/MPO positive, and erythroid-predominant MDS has less than 30% proerythroblasts with retained maturation."},
+    {"dx": "Metastatic small round blue cell tumor", "vs": "Solid tumors are negative for CD71/E-cadherin in this pattern and express lineage markers such as cytokeratin, synaptophysin or CD99."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: CD71",
+  "match": "consistent",
+  "high_yield": false
+}

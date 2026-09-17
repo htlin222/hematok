@@ -1,0 +1,21 @@
+{
+  "id": "60088",
+  "recognize_zh": "端粒長度（flow-FISH）報告中，淋巴球、顆粒球、naive/memory T、B 與 NK 細胞的端粒長度點全部落在第 1 百分位紅線以下，表格判讀皆為 VL（very low）；多種白血球亞群一致極短端粒，支持先天性端粒病如先天性角化不良症。",
+  "features": [
+    "Table of median telomere length (kb) in six leukocyte subsets compared with age-matched normal medians",
+    "Patient values 2.7–4.7 kb versus normal medians 7.9–9.5 kb",
+    "All subsets interpreted as VL (very low, <1st percentile)",
+    "Nomograms plot patient values (dots, near age 12) below the red 1st-percentile curve in every subset",
+    "Uniform shortening across lymphoid and granulocytic lineages, including naive T cells"
+  ],
+  "describe_en": "This figure is a telomere length report by flow-FISH showing median telomere length in lymphocytes, granulocytes, naive (CD45RA+) and memory (CD45RA-) T cells, B cells and NK cells, each plotted against age-specific percentile curves. The patient, plotted at approximately 12 years of age, has values of 2.7–4.7 kb compared with normal medians of 7.9–9.5 kb, falling below the 1st percentile in every subset. Uniformly very low telomere length across multiple lineages, particularly in naive T cells, is highly sensitive for a telomere biology disorder. Together with the reported TERC mutation, findings are consistent with dyskeratosis congenita.",
+  "ddx": [
+    {"dx": "Acquired aplastic anemia", "vs": "Telomeres may be modestly short in granulocytes, but not below the 1st percentile across all lymphocyte subsets."},
+    {"dx": "Fanconi anemia", "vs": "Telomeres can be mildly shortened, but diagnosis requires increased chromosomal breakage with DEB/mitomycin C."},
+    {"dx": "Shwachman-Diamond syndrome", "vs": "SDS shows exocrine pancreatic insufficiency and SBDS mutations without uniformly very short lymphocyte telomeres."}
+  ],
+  "specimen": "molecular",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

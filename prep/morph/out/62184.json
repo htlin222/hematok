@@ -1,0 +1,21 @@
+{
+  "id": "62184",
+  "recognize_zh": "周邊血液中大量小而成熟、染色質濃密的淋巴球（CLL 背景），其間散布許多體積大兩到三倍、細胞質中度嗜鹼性、核仁可見的大型淋巴樣細胞，部分帶尾狀細胞質，提示 CLL 發生大細胞轉化（Richter transformation）。",
+  "features": [
+    "Numerous small mature lymphocytes with dense clumped chromatin and scant cytoplasm (CLL background)",
+    "Scattered large lymphoid cells, 2–3 times the size of small lymphocytes, with moderate basophilic cytoplasm",
+    "Large cells have round nuclei with finer chromatin and occasional nucleoli; some show tailed (hand-mirror) cytoplasm, likely smear artifact",
+    "Occasional binucleate/bilobed granulocyte and rare neutrophil",
+    "Numerous echinocytes (crenated red cells) in the background"
+  ],
+  "describe_en": "Peripheral blood smear shows lymphocytosis composed of small mature lymphocytes with condensed chromatin, together with numerous scattered large lymphoid cells two to three times their size. The large cells have moderate basophilic cytoplasm, round nuclei with more open chromatin and occasional nucleoli, and several show tailed cytoplasmic projections. Red cells show crenation artifact. The presence of a prominent large-cell population in a CLL background raises concern for large-cell (Richter) transformation, which requires tissue biopsy for confirmation as diffuse large B-cell lymphoma.",
+  "ddx": [
+    {"dx": "CLL with increased prolymphocytes", "vs": "Prolymphocytes are medium-sized with a single central prominent nucleolus and condensed chromatin, whereas DLBCL-type cells are larger with more abundant basophilic cytoplasm; tissue biopsy establishes Richter transformation."},
+    {"dx": "B-prolymphocytic neoplasm / mantle cell lymphoma leukemic phase", "vs": "Leukemic MCL shows cyclin D1/SOX11 positivity with t(11;14), and prolymphocytic proliferations lack the underlying small CLL cell population."},
+    {"dx": "Reactive large granular or activated lymphocytes", "vs": "Reactive lymphocytes are heterogeneous with abundant pale cytoplasm hugging red cells and polyclonal markers, not monotonous basophilic large cells in a CLL background."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62781",
+  "recognize_zh": "周邊血的中性球體積大、胞質豐富，充滿粗大深紫色的毒性顆粒（toxic granulation），並可見淡藍色的 Döhle 小體（箭頭），外觀完全像感染反應；但在找不到反應原因時，必須考慮慢性嗜中性球白血病（CNL）並檢測 CSF3R。",
+  "features": [
+    "Mature segmented and band neutrophils, many enlarged with abundant cytoplasm",
+    "Coarse dark azurophilic cytoplasmic granules resembling toxic granulation",
+    "Pale blue peripheral cytoplasmic inclusions consistent with Döhle bodies (arrows)",
+    "Nuclei with normal lobation and clumped chromatin; no pseudo-Pelger-Huet change or hypogranularity",
+    "No blasts or immature myeloid precursors in these fields"
+  ],
+  "describe_en": "Peripheral blood smear shows mature segmented and band neutrophils with normal nuclear lobation and abundant cytoplasm containing coarse, dark azurophilic granules resembling toxic granulation. Several neutrophils contain pale blue peripheral cytoplasmic inclusions consistent with Döhle bodies (arrows). No dysplastic features, blasts, or circulating immature myeloid precursors are seen in these fields. Although the morphology mimics a reactive neutrophilia, in the absence of infection or other secondary cause these findings are suggestive of chronic neutrophilic leukemia; CSF3R mutation testing and exclusion of BCR::ABL1 are recommended.",
+  "ddx": [
+    {"dx": "Reactive neutrophilia (infection, inflammation, G-CSF therapy)", "vs": "Toxic granulation and Döhle bodies are identical, so separation requires excluding a secondary cause and demonstrating clonality such as a CSF3R T618I mutation."},
+    {"dx": "Chronic myeloid leukemia", "vs": "CML shows a left-shifted spectrum with myelocyte peak and basophilia and carries BCR::ABL1, whereas CNL shows predominantly mature neutrophils without basophilia."},
+    {"dx": "Atypical chronic myeloid leukemia", "vs": "aCML shows prominent dysgranulopoiesis with hypogranular and pseudo-Pelger neutrophils and 10% or more immature granulocytes, unlike these well-granulated mature cells."},
+    {"dx": "May-Hegglin anomaly", "vs": "MYH9-related Döhle-like inclusions are larger and spindle-shaped, occur with giant platelets and thrombocytopenia, and lack toxic granulation."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60487",
+  "recognize_zh": "CD30 免疫染色下，大型腫瘤細胞呈強而一致的細胞膜與高基氏體（Golgi dot）點狀陽性，周圍較小的背景細胞為陰性；大細胞「均勻強 CD30」是間變性大細胞淋巴瘤的必要條件。",
+  "features": [
+    "Numerous large cells with strong membranous CD30 staining",
+    "Paranuclear Golgi dot-like accentuation in many positive cells",
+    "Positive cells have large, round to irregular nuclei and abundant cytoplasm",
+    "Cohesive clusters and sheets of positive cells",
+    "Smaller background cells are CD30-negative"
+  ],
+  "describe_en": "CD30 immunohistochemical stain highlights numerous large neoplastic cells with strong, uniform membranous and paranuclear Golgi-pattern positivity, arranged in cohesive clusters and sheets. The positive cells have large irregular nuclei and abundant cytoplasm, while the intervening smaller cells are negative. Strong uniform CD30 expression in the large cell population, together with ALK positivity (see companion image), is consistent with anaplastic large cell lymphoma, ALK-positive.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "CD30+ Hodgkin/Reed-Sternberg cells are scattered singly in an inflammatory background and are CD15+/PAX5 weak and ALK-negative rather than forming cohesive sheets."},
+    {"dx": "Diffuse large B-cell lymphoma, CD30-positive", "vs": "CD30 in DLBCL is usually variable and the cells express CD20/PAX5, whereas ALCL cells are B-marker negative with uniform strong CD30."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS may contain CD30+ cells but staining is heterogeneous and not uniformly strong in all large cells."},
+    {"dx": "Embryonal carcinoma", "vs": "Embryonal carcinoma is CD30+ but also keratin, OCT4 and SALL4 positive and CD45 negative."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": true
+}

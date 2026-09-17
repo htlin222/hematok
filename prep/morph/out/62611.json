@@ -1,0 +1,20 @@
+{
+  "id": "62611",
+  "recognize_zh": "MUM1 染色中絕大多數腫瘤細胞呈強弱不一但彌漫的棕色核染色，只剩少數梭形基質細胞與內皮細胞核呈藍色，支持漿細胞分化的腫瘤。",
+  "features": [
+    "Diffuse nuclear MUM1/IRF4 positivity in the majority of tumor cells, varying from moderate to strong",
+    "Positive cells have round eccentric nuclei with some cytoplasmic blush; occasional large atypical positive cells",
+    "Negative spindled stromal/endothelial nuclei along a fibrovascular septum (left) serve as internal negative control",
+    "Densely cellular infiltrate without architectural landmarks"
+  ],
+  "describe_en": "MUM1 (IRF4) immunohistochemistry shows diffuse nuclear positivity in the large majority of neoplastic cells, including scattered larger atypical forms, while stromal and endothelial cells are negative. MUM1 expression indicates late B-cell/plasma cell differentiation. Combined with CD20 negativity, CD3 negativity, EBER positivity and kappa restriction, findings are consistent with EBV-positive plasmacytoma-like post-transplant lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "Activated B-cell type DLBCL", "vs": "ABC-DLBCL is also MUM1-positive but retains CD20/PAX5 and consists of centroblasts or immunoblasts."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Shares MUM1 and CD138 positivity with CD20 loss; separated by immunoblastic morphology and near-100% Ki-67."},
+    {"dx": "Melanoma", "vs": "Melanoma can be MUM1-positive but expresses S100/SOX10 and lacks CD138 and light-chain restriction."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: MUM1",
+  "match": "consistent",
+  "high_yield": false
+}

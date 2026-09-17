@@ -1,0 +1,22 @@
+{
+  "id": "4158",
+  "recognize_zh": "幾乎所有腫瘤細胞核都呈強弱不一的棕色核染色，細胞中型、核形不規則；標記未標示，可能是 cyclin D1（套細胞淋巴瘤的核心標記）或 Ki-67（此高比例代表 blastoid/pleomorphic 型的高增生），兩者意義不同需確認。",
+  "features": [
+    "Diffuse sheets of medium-sized lymphoid cells",
+    "Nuclear brown staining in nearly all tumor cells, with variable intensity",
+    "Irregular, angulated to oval nuclear contours",
+    "Coarsely granular nuclear staining pattern",
+    "Rare negative (blue) cells serving as internal control"
+  ],
+  "describe_en": "Immunohistochemical stain (DAB; marker not specified) shows nuclear positivity in nearly all cells of a diffuse proliferation of medium-sized lymphoid cells with irregular nuclear contours, with variable staining intensity and rare negative background cells. If this is cyclin D1, diffuse nuclear expression in a CD5+ B-cell lymphoma is consistent with mantle cell lymphoma. If this is Ki-67, a proliferation index approaching 90% or more would indicate a highly proliferative (blastoid or pleomorphic) variant with an adverse prognosis. The marker should be confirmed before interpretation.",
+  "ddx": [
+    {"dx": "Cyclin D1-negative mantle cell lymphoma", "vs": "Cyclin D1-negative MCL expresses SOX11 and often has CCND2 rearrangement despite absent cyclin D1."},
+    {"dx": "Plasma cell myeloma with t(11;14) or hairy cell leukemia", "vs": "These can express cyclin D1 but are CD138+ plasma cells or CD103+/annexin A1+ hairy cells, respectively."},
+    {"dx": "Burkitt lymphoma / high-grade B-cell lymphoma (if Ki-67)", "vs": "Burkitt lymphoma has ~100% Ki-67 with a starry-sky pattern, is CD10+ and MYC-rearranged, and lacks cyclin D1/SOX11."},
+    {"dx": "Lymphoblastic lymphoma", "vs": "Lymphoblasts are TdT-positive with fine chromatin and lack cyclin D1."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: nuclear marker not specified (cyclin D1 or Ki-67), DAB",
+  "match": "partial",
+  "high_yield": false
+}

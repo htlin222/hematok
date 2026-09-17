@@ -1,0 +1,22 @@
+{
+  "id": "61092",
+  "recognize_zh": "治療前為具杯狀核凹（cup-like）的芽細胞且流式 CD34 為 0.0%，Sanger 定序顯示 IDH2 p.Arg140Gln 突變；治療期間抹片出現大量正在成熟的骨髓系細胞與分葉嗜中性球，表格追蹤芽細胞比例與突變 VAF 變化，符合標靶藥物誘導的分化而非化療緩解。",
+  "features": [
+    "Pre-treatment blasts (A): large cells with high N:C ratio, fine chromatin, and nuclear invaginations giving cup-like morphology",
+    "Flow cytometry (B): blast population CD34 negative (0.0%), a pattern typical of NPM1-mutated AML",
+    "Early treatment (C): intermediate cells with more cytoplasm, folded nuclei and emerging granulation (promyelocyte/myelocyte-like)",
+    "Sanger trace (D): IDH2 c.419G>A (CGG>CAG) p.Arg140Gln",
+    "Later treatment (E): abundant maturing granulocytes including bands and segmented neutrophils",
+    "Table (F): serial marrow cellularity, blast %, mutation VAFs and blood counts over weeks of treatment (values largely illegible at this resolution)"
+  ],
+  "describe_en": "Serial specimens document a CD34-negative AML with cup-like blast nuclei and an IDH2 R140Q mutation. During targeted therapy, smears show progressive maturation of the leukemic population, with intermediate forms and then abundant segmented neutrophils, while the accompanying table tracks blast percentages, mutant allele fractions and blood counts over time (small print limits reading of exact values). The morphology of maturing cells in the presence of the clonal mutation is the key point. Findings are consistent with IDH inhibitor–induced differentiation of AML blasts (NPM1/IDH2-mutated AML), which can be accompanied clinically by differentiation syndrome.",
+  "ddx": [
+    {"dx": "Hematologic remission after cytotoxic chemotherapy", "vs": "Chemotherapy remission shows regeneration from a normal hematopoietic pool with clearance of the mutant allele, whereas differentiation therapy yields mature cells still carrying high mutant VAF."},
+    {"dx": "Acute promyelocytic leukemia on ATRA", "vs": "APL differentiation begins with hypergranular promyelocytes with Auer rods and PML::RARA, not cup-like CD34-negative blasts with IDH2 mutation."},
+    {"dx": "Leukemoid reaction/infection-related left shift", "vs": "A reactive left shift lacks a preceding blast population and the clonal IDH2/NPM1 mutations in the maturing cells."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; flow cytometry; Sanger sequencing",
+  "match": "consistent",
+  "high_yield": false
+}

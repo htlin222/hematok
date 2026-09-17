@@ -1,0 +1,22 @@
+{
+  "id": "61343",
+  "recognize_zh": "上方中央一個細胞破裂後散出成束、交錯排列的柴束狀 Auer 小體（faggot cell），周圍異常前骨髓細胞核呈雙葉或摺疊狀、細胞質充滿粗大嗜天青顆粒，是急性前骨髓細胞白血病（APL）的典型線索。",
+  "features": [
+    "Faggot cell: disrupted cell with numerous bundled, crisscrossing Auer rods spilled into the surrounding cytoplasm",
+    "Abnormal promyelocytes with folded, reniform to bilobed (butterfly-like) nuclei",
+    "Abundant cytoplasm densely packed with coarse azurophilic granules obscuring the nuclear outline in places",
+    "Relatively fine chromatin with occasional small nucleoli",
+    "Adjacent large immature cell with high N:C ratio and fine chromatin; scattered erythrocytes in background"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a predominance of abnormal promyelocytes with folded to bilobed nuclei and abundant cytoplasm heavily laden with coarse azurophilic granules. One disrupted cell contains innumerable Auer rods arranged in bundles (a faggot cell). Normal maturing granulocytic elements are not appreciated in this field. Findings are consistent with acute promyelocytic leukemia with PML::RARA; confirmation by FISH or RT-PCR is required, as cryptic rearrangements may be missed by routine karyotype.",
+  "ddx": [
+    {"dx": "AML with maturation (e.g., t(8;21))", "vs": "Blasts usually carry single slender Auer rods and have round nuclei with perinuclear hofs, without bundles of rods in heavily granulated bilobed promyelocytes."},
+    {"dx": "Reactive promyelocytes (marrow regeneration, G-CSF)", "vs": "Reactive promyelocytes have round eccentric nuclei with a Golgi hof, lack Auer rods, and show orderly maturation to neutrophils."},
+    {"dx": "APL with variant RARA fusion (e.g., ZBTB16::RARA)", "vs": "Variant forms may show more regular nuclei and fewer faggot cells, and require molecular testing to distinguish because of ATRA resistance in some variants."},
+    {"dx": "Acute monocytic leukemia (microgranular APL mimic)", "vs": "Monoblasts/promonocytes have delicate folded nuclei with fine gray cytoplasmic granules, are nonspecific esterase positive and lack Auer rod bundles."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "64158",
+  "recognize_zh": "正面胸部 X 光可見上縱膈明顯變寬，縱膈陰影向左側外凸，而兩側肺野相對清楚；年輕病人出現前縱膈腫塊，要想到 T 淋巴母細胞白血病/淋巴瘤（T-ALL/LBL）。",
+  "features": [
+    "Posteroanterior chest radiograph (photographed from a monitor)",
+    "Marked widening of the superior mediastinum with a smooth, lobulated left-sided mediastinal contour",
+    "Mediastinal soft-tissue density extends inferiorly along the left heart border",
+    "Trachea remains approximately midline; no gross tracheal deviation evident at this resolution",
+    "Lung fields largely clear; no large pleural effusion identified",
+    "Non-morphologic image: tissue diagnosis is required"
+  ],
+  "describe_en": "Posteroanterior chest radiograph demonstrates marked widening of the superior mediastinum, with a smooth, bulging soft-tissue contour projecting predominantly to the left. The lung parenchyma appears largely clear, and no large pleural effusion is evident, although the image is a photograph of a screen and fine detail is limited. Radiology alone cannot establish the cause; in a patient with lymphoblastic leukemia, the finding is consistent with an anterior mediastinal (thymic) mass from T-lymphoblastic leukemia/lymphoma, which carries a risk of airway and superior vena cava compromise during sedation.",
+  "ddx": [
+    {"dx": "Primary mediastinal (thymic) large B-cell lymphoma", "vs": "Also produces an anterior mediastinal mass in young adults; biopsy shows large CD20+/CD23+/PD-L1+ B cells with sclerosis rather than TdT+ CD3+ lymphoblasts."},
+    {"dx": "Nodular sclerosis classic Hodgkin lymphoma", "vs": "Distinguished histologically by CD30+/CD15+ Hodgkin/Reed-Sternberg cells in a mixed inflammatory background with fibrous bands."},
+    {"dx": "Thymoma or germ cell tumor", "vs": "Separation requires tissue: thymoma shows cytokeratin+ epithelium with immature TdT+ thymocytes that are polyclonal, and germ cell tumors show tumor markers (AFP, beta-hCG) and specific IHC."},
+    {"dx": "Normal thymus / vascular widening", "vs": "Cross-sectional imaging (CT) distinguishes a soft-tissue mass from normal thymic tissue or vascular structures."}
+  ],
+  "specimen": "radiology",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

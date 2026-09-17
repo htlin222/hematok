@@ -1,0 +1,22 @@
+{
+  "id": "60524",
+  "recognize_zh": "骨髓切片中，大片均質、無細胞、淡粉紅色的無定形物質取代了骨髓間質，把殘存造血細胞與脂肪細胞分隔成小島，內有小血管被包埋；此「粉紅雲霧狀」沉積物需以 Congo red 證實為類澱粉（amyloid）。",
+  "features": [
+    "Extensive interstitial deposits of homogeneous, acellular, pale eosinophilic amorphous material with a fluffy, waxy texture",
+    "Deposits separate residual hematopoietic cells and adipocytes into small islands",
+    "Small vessels with thickened eosinophilic walls embedded in the deposits",
+    "Residual hematopoietic areas contain mixed myeloid and erythroid cells without obvious sheets of plasma cells in this field",
+    "Bony trabecula at the top right; occasional fine cracking artifact within the deposits"
+  ],
+  "describe_en": "Bone marrow trephine biopsy shows extensive replacement of the interstitium by homogeneous, pale eosinophilic, acellular amorphous material with a waxy appearance, separating residual hematopoietic cells and fat into small islands. Several small vessels are engulfed by the material with thickened eosinophilic walls. The residual marrow contains trilineage elements; a plasma cell infiltrate cannot be assessed at this magnification without CD138 and kappa/lambda staining. Given the reported apple-green birefringence on polarization, findings are consistent with marrow involvement by amyloidosis, likely AL type in the setting of a monoclonal gammopathy.",
+  "ddx": [
+    {"dx": "Serous (gelatinous) transformation of the marrow", "vs": "Gelatinous transformation is paler, finely granular to basophilic hyaluronic acid-rich material that is Alcian blue positive and Congo red negative."},
+    {"dx": "Marrow fibrosis or edema", "vs": "Fibrosis shows reticulin/collagen fibers with streaming spindle cells, and edema is pale and watery, neither showing Congo red apple-green birefringence."},
+    {"dx": "Light chain deposition disease", "vs": "LCDD deposits are Congo red negative and non-fibrillar by electron microscopy despite a similar eosinophilic appearance."},
+    {"dx": "Fibrinoid necrosis / serum proteinaceous exudate", "vs": "Proteinaceous exudate is associated with necrosis or hemorrhage and lacks Congo red birefringence."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "60727",
+  "recognize_zh": "骨髓切片中有成團的中大型細胞，核互相擠壓 (nuclear molding)、染色質細緻、細胞質少，外觀像高惡性淋巴瘤；但團塊細胞呈強烈核染色，另一標記呈顆粒狀細胞質陽性，符合小細胞肺癌轉移，而旁邊散在的小型淋巴球則代表同時存在的 B 細胞淋巴增生。",
+  "features": [
+    "Panel A: cohesive clusters of medium-sized cells with high N:C ratio, finely granular chromatin and nuclear molding, crush-prone appearance",
+    "Panel A: adjacent residual hematopoietic cells and small lymphocytes",
+    "Panel B: strong diffuse nuclear staining confined to the tumor clusters (marker unlabeled, pattern fits TTF-1)",
+    "Panel C: scattered small cells with IHC positivity outside clusters (marker unlabeled, possibly the B-cell population)",
+    "Panel D: dot-like/granular cytoplasmic positivity in a cluster of tumor cells (pattern fits a neuroendocrine marker)"
+  ],
+  "describe_en": "Bone marrow core biopsy shows cohesive clusters of medium-sized tumor cells with scant cytoplasm, finely dispersed chromatin and nuclear molding, set among residual hematopoietic elements and small lymphocytes. Immunostains (markers not labeled in the figure) show strong nuclear staining restricted to the clusters, granular cytoplasmic staining typical of a neuroendocrine marker, and a separate stain highlighting scattered small cells. Findings are consistent with metastatic small cell carcinoma mimicking high-grade lymphoma, with a coexisting small lymphoid population that should be characterized separately.",
+  "ddx": [
+    {"dx": "High-grade B-cell lymphoma / Burkitt lymphoma", "vs": "Lymphoma cells are discohesive without nuclear molding and are CD45/CD20 positive, whereas small cell carcinoma forms cohesive molded clusters positive for keratin (dot-like), TTF-1 and neuroendocrine markers."},
+    {"dx": "Lymphoblastic leukemia/lymphoma", "vs": "Blasts are TdT+/CD34+ and grow as a diffuse discohesive sheet rather than cohesive clusters."},
+    {"dx": "Merkel cell carcinoma or other small round blue cell tumor", "vs": "Merkel cell carcinoma is CK20 perinuclear-dot positive and TTF-1 negative; Ewing sarcoma is CD99/NKX2.2 positive."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (markers unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

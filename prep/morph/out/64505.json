@@ -1,0 +1,22 @@
+{
+  "id": "64505",
+  "recognize_zh": "六格圖中每個細胞都比周圍紅血球大很多，核圓而偏心、染色質稍粗，細胞質豐富並滿布粗大的紫紅色嗜天青顆粒（primary granules），部分顆粒覆蓋核上，是早幼粒細胞（promyelocyte）的典型樣貌。",
+  "features": [
+    "Large round cells (roughly 2-2.5 times a red cell diameter) with abundant cytoplasm",
+    "Round to oval, often eccentric nucleus with slightly coarse chromatin; nucleoli not conspicuous",
+    "Numerous coarse purple-red azurophilic (primary) granules scattered throughout the cytoplasm and overlying the nucleus",
+    "Lightly basophilic cytoplasm; perinuclear clearing (Golgi zone) not prominent",
+    "No Auer rods or bundles; background red cells and platelets on a peripheral blood smear"
+  ],
+  "describe_en": "The composite shows six individual cells from a peripheral blood smear, each considerably larger than the surrounding red cells. The cells have a round to oval, often eccentric nucleus with slightly condensed chromatin and inconspicuous nucleoli, surrounded by abundant cytoplasm containing numerous coarse azurophilic granules that also overlie the nucleus. No Auer rods, faggot cells, or bilobed nuclei are identified. The cells are consistent with promyelocytes; their presence in blood indicates a left-shifted or leukoerythroblastic picture and, if numerous or atypical, should prompt exclusion of acute promyelocytic leukemia.",
+  "ddx": [
+    {"dx": "Myeloblast", "vs": "Myeloblasts have finer chromatin, visible nucleoli, a higher N:C ratio, and absent or only few fine granules, whereas promyelocytes are packed with coarse azurophilic granules."},
+    {"dx": "Myelocyte", "vs": "Myelocytes show a more condensed nucleus, a pale Golgi hof and predominance of fine lilac secondary granules rather than coarse purple primary granules."},
+    {"dx": "Abnormal promyelocyte of APL", "vs": "APL promyelocytes have bilobed or reniform nuclei, very dense granules or hypogranular cytoplasm, and Auer rods/faggot bundles, and PML::RARA confirms the diagnosis."},
+    {"dx": "Neutrophil with toxic granulation", "vs": "Toxic neutrophils have a segmented or band nucleus with dark granules, whereas promyelocytes have a round unsegmented nucleus."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

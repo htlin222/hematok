@@ -1,0 +1,22 @@
+{
+  "id": "64767",
+  "recognize_zh": "這是多面板病例圖：形態上只有低倍高細胞量骨髓（內插小巨核細胞）與帶細胞質泡狀突起和空泡的母細胞，診斷主要靠流式（CD34+ 共表現 CD56、CD64、部分 MPO、CD33）、染色體 t(3;5)/del(20q) 及 RNA 定序證實 TBL1XR1::CSF1R 融合。",
+  "features": [
+    "Panel A: hypercellular marrow core at low power; inset shows a micromegakaryocyte with a small hypolobated nucleus",
+    "Panel B: medium-to-large blasts with fine chromatin, basophilic cytoplasm, cytoplasmic blebs and vacuoles in a subset",
+    "Panel C: flow cytometry with CD34+ blasts negative for CD19, partial MPO, coexpressing CD56, variable CD64 and CD33, and a small CD42b+ subset",
+    "Panel D: karyotype with t(3;5) and del(20q) (arrows)",
+    "Panels E-F: RNA-seq split reads and schematic of in-frame TBL1XR1 exon 9 to CSF1R exon 11 fusion retaining the CSF1R tyrosine kinase domain"
+  ],
+  "describe_en": "Composite figure combining morphology with ancillary studies. The marrow core (A) is hypercellular with a micromegakaryocyte in the inset, and the aspirate (B) shows sheets of blasts with basophilic cytoplasm, some with cytoplasmic blebs and vacuoles; the morphologic panels are small and cannot by themselves establish lineage. Flow cytometry (C) shows CD34+ blasts lacking CD19 that coexpress CD33, CD56, variable CD64 and partial MPO, with a minor CD42b+ subset. The karyotype (D) shows t(3;5) and del(20q), and targeted RNA sequencing (E, F) demonstrates an in-frame TBL1XR1::CSF1R fusion with retention of the CSF1R kinase domain. Findings support acute myeloid leukemia with predominantly monocytic differentiation harboring a TBL1XR1::CSF1R fusion.",
+  "ddx": [
+    {"dx": "Mixed-phenotype acute leukemia, T/myeloid", "vs": "MPAL T/myeloid requires strong cytoplasmic CD3 on a substantial blast population, whereas here cCD3+ blasts were <1% and the dominant population is myeloid."},
+    {"dx": "Acute myeloid leukemia with NPM1-MLF1 t(3;5)(q25;q35)", "vs": "The classic t(3;5) involves NPM1::MLF1, so RNA sequencing is needed to show the different TBL1XR1(3q26)::CSF1R(5q32) partners."},
+    {"dx": "AML, myelodysplasia-related", "vs": "Multilineage dysplasia and del(20q) overlap with AML-MR, and classification depends on whether a defining genetic lesion takes precedence."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblastic AML requires a dominant CD41/CD61/CD42b+ blast population, whereas only a 3.6% CD42b+ subset is present here."}
+  ],
+  "specimen": "molecular",
+  "stain": "H&E; Wright-Giemsa; flow; karyotype; RNA-seq",
+  "match": "non-morphologic",
+  "high_yield": false
+}

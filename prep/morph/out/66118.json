@@ -1,0 +1,21 @@
+{
+  "id": "66118",
+  "recognize_zh": "右下方較大的單核球有豐富灰藍色胞質，胞質內聚集一群小型、邊緣深色、帶金黃色折光的結晶；旁邊的小淋巴球則沒有，背景紅血球鋸齒狀，符合單核球內的膽紅素結晶。",
+  "features": [
+    "Monocyte-sized cell with abundant gray-blue cytoplasm and a large round-to-indented nucleus",
+    "Cluster of small refractile golden-yellow crystalline inclusions with dark outlines in the cytoplasm",
+    "Adjacent small lymphocyte lacks inclusions",
+    "Background crenated red cells with numerous small ring-like refractile drying artifacts, which limits interpretation of fine inclusions",
+    "Image is somewhat blurred"
+  ],
+  "describe_en": "Peripheral blood smear shows crenated red cells with abundant refractile drying artifact. A monocyte with abundant gray-blue cytoplasm contains a cluster of small, refractile, golden-yellow crystalline inclusions, while an adjacent small lymphocyte is free of inclusions. Image resolution and background artifact limit detailed characterization of crystal shape. Findings are consistent with intracellular bilirubin crystals within a monocyte, a finding associated with marked hyperbilirubinemia.",
+  "ddx": [
+    {"dx": "Refractile drying artifact", "vs": "Drying artifact produces ring-like refractile bodies scattered over red cells and background, whereas true crystals are clustered within the leukocyte cytoplasm and show yellow color."},
+    {"dx": "Hemosiderin-laden monocyte", "vs": "Hemosiderin appears as golden-brown to blue-black granules that are Prussian blue-positive, unlike iron-negative bright yellow bilirubin crystals."},
+    {"dx": "Hemozoin-containing monocyte in malaria", "vs": "Hemozoin is brown-black pigment accompanied by parasitized red cells, which are not seen here."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

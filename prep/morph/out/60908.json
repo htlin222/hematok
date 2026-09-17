@@ -1,0 +1,22 @@
+{
+  "id": "60908",
+  "recognize_zh": "周邊血抹片中可見小至中型淋巴球，染色質濃縮，細胞質淡藍且邊緣呈不規則、極性分布的短絨毛狀突起（villous lymphocytes），箭頭並標示部分具較多細胞質、偏心核的漿細胞樣淋巴球，符合脾臟邊緣區淋巴瘤的血液表現。",
+  "features": [
+    "Small to medium-sized lymphocytes with round to slightly irregular nuclei and condensed chromatin",
+    "Pale blue cytoplasm with short, irregular, sometimes polar villous projections",
+    "Some cells (solid arrows) are larger with more abundant cytoplasm and eccentric nuclei, suggesting plasmacytoid differentiation",
+    "Other cells (dashed arrows) are smaller villous lymphocytes with scant cytoplasm",
+    "Background red cells largely unremarkable; no nucleoli or blasts evident"
+  ],
+  "describe_en": "Peripheral blood smear shows a population of small to medium-sized atypical lymphocytes with round to slightly indented nuclei, condensed chromatin and moderate pale blue cytoplasm bearing short, irregular villous projections, sometimes concentrated at one pole. Arrows highlight both small villous lymphocytes and larger cells with more abundant cytoplasm and eccentric nuclei with plasmacytoid features. Prominent nucleoli and blasts are not identified. Findings are suggestive of circulating villous lymphocytes of splenic marginal zone lymphoma; flow cytometry is required for confirmation.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia", "vs": "HCL cells have circumferential fine hairy projections, oval or bean-shaped nuclei with open chromatin and are CD11c/CD25/CD103/CD123 positive with BRAF V600E, unlike the short polar villi here."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells are small round lymphocytes with block-like chromatin, scant cytoplasm without villi and smudge cells, and are CD5/CD23 positive."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL shows plasmacytoid lymphocytes without villous projections and carries MYD88 L265P in most cases."},
+    {"dx": "Reactive lymphocytosis", "vs": "Reactive lymphocytes are heterogeneous with abundant cytoplasm that hugs adjacent red cells and lack clonal light-chain restriction."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

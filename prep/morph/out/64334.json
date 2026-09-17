@@ -1,0 +1,21 @@
+{
+  "id": "64334",
+  "recognize_zh": "流式圖中橘色 B 細胞群 CD23 陰性至弱陽性、CD200 陰性，但 CD49d 陽性；在 CD5+ B 細胞腫瘤中，CD23-/CD200- 的組合是區分被套細胞淋巴瘤（MCL）與 CLL（CD23+/CD200+）的重要線索。",
+  "features": [
+    "CD200 vs CD23: orange B-cell population is CD200 negative and CD23 negative to dim",
+    "A small scatter of CD23/CD200 co-expressing events trails diagonally, without a discrete positive population",
+    "CD19 vs CD49d: orange CD19-positive B cells express CD49d at moderate intensity",
+    "Blue CD19-negative T cells are CD49d positive; grey events are CD49d negative internal controls"
+  ],
+  "describe_en": "Flow cytometric dot plots of viable events show the orange CD19-positive B-cell population to be CD23 negative to dim and CD200 negative. The same population expresses CD49d at moderate intensity. Blue CD19-negative T cells and grey CD49d-negative events serve as internal controls. In a CD5-positive, CD10-negative, lambda-restricted B-cell neoplasm, the CD23-negative, CD200-negative phenotype supports mantle cell lymphoma over chronic lymphocytic leukemia; CD49d positivity is not lineage-specific.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL is characteristically CD23 and CD200 positive; CD49d positivity in CLL is a prognostic marker rather than a discriminator."},
+    {"dx": "Atypical CLL", "vs": "Atypical CLL may be CD23 dim, but it usually remains CD200 bright and lacks cyclin D1 and t(11;14)."},
+    {"dx": "Leukemic non-nodal mantle cell lymphoma", "vs": "It shares a CD200-negative profile but is often CD5 dim/negative and SOX11 negative, and needs CCND1 testing."},
+    {"dx": "Marginal zone lymphoma", "vs": "MZL is usually CD5 negative with variable CD200 and CD23 negativity, and is cyclin D1 negative."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

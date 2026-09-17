@@ -1,0 +1,21 @@
+{
+  "id": "3473",
+  "recognize_zh": "骨髓切片中成巢的腫瘤細胞呈強烈、完整一圈的棕色細胞膜染色（雞籠樣 chicken-wire pattern），中央藍色骨小樑不染色，這是 HER2 免疫組化 3+ 陽性的典型表現。",
+  "features": [
+    "Nests and sheets of metastatic tumor cells replacing marrow",
+    "Strong, circumferential (complete) membranous brown staining in virtually all tumor cells (chicken-wire pattern)",
+    "Nuclei unstained, round to oval, with hematoxylin counterstain",
+    "Unstained bony trabecula in the center serves as an internal negative structure",
+    "Intensity and completeness of membrane staining correspond to HER2 IHC score 3+"
+  ],
+  "describe_en": "Immunohistochemical stain for HER2 on the bone marrow biopsy highlights nests of metastatic tumor cells surrounding a bony trabecula. Essentially all tumor cells show strong, complete circumferential membranous staining, while the trabecula and background are negative. This pattern corresponds to a HER2 score of 3+ (positive) by ASCO/CAP criteria, although scoring on decalcified bone specimens should be interpreted with caution because acid decalcification can alter antigenicity. Findings are consistent with HER2-positive metastatic breast carcinoma involving the marrow.",
+  "ddx": [
+    {"dx": "HER2 2+ (equivocal) staining", "vs": "Equivocal staining is weak to moderate complete membrane staining in >10% of cells and requires ISH, whereas this image shows strong complete staining in nearly all cells."},
+    {"dx": "Nonspecific cytoplasmic or edge artifact staining", "vs": "Artifact shows diffuse cytoplasmic or crush/edge accentuated staining rather than sharp, crisp, complete membranous outlines across the tumor."},
+    {"dx": "HER2-low (1+) carcinoma", "vs": "1+ tumors show faint, incomplete membrane staining, unlike the strong circumferential staining seen here."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: HER2",
+  "match": "consistent",
+  "high_yield": false
+}

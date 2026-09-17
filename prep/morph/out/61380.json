@@ -1,0 +1,22 @@
+{
+  "id": "61380",
+  "recognize_zh": "骨髓切片中，緊鄰骨小樑與血管處有一片由紡錘形細胞構成的纖維化病灶，細胞具淡嗜酸性細胞質、呈流水狀排列，邊緣伴隨淋巴球聚集，與周圍造血骨髓界線清楚，是系統性肥大細胞增生症的典型病灶。",
+  "features": [
+    "Well-demarcated paratrabecular and perivascular aggregate composed of spindle-shaped cells",
+    "Spindle cells with oval to elongated bland nuclei and pale eosinophilic to clear cytoplasm arranged in streaming fascicles",
+    "Associated collagen fibrosis within the lesion",
+    "Small lymphoid aggregate at the periphery of the lesion (lower left)",
+    "Adjacent hypercellular marrow with trilineage hematopoiesis and eosinophils"
+  ],
+  "describe_en": "Bone marrow core biopsy shows a well-circumscribed paratrabecular and perivascular lesion composed of spindle-shaped cells with bland oval nuclei and pale eosinophilic cytoplasm in a fibrotic stroma, with a small peripheral lymphoid aggregate. The adjacent marrow is hypercellular with trilineage hematopoiesis. Findings are suggestive of systemic mastocytosis; confirmation by tryptase and CD117 immunostains demonstrating aggregates of at least 15 mast cells, aberrant CD25 (and/or CD2, CD30) expression, KIT D816V mutation and serum tryptase is recommended.",
+  "ddx": [
+    {"dx": "Primary myelofibrosis / MPN with fibrosis", "vs": "Fibrosis is diffuse with streaming atypical megakaryocyte clusters rather than a discrete aggregate of tryptase-positive spindle cells."},
+    {"dx": "Reactive fibroblastic or granulomatous lesion", "vs": "Fibroblasts and epithelioid histiocytes are tryptase and CD117 negative, and granulomas contain multinucleated giant cells."},
+    {"dx": "Hodgkin lymphoma or T-cell lymphoma involving marrow", "vs": "Fibrotic lymphoma foci contain atypical large CD30+ or clonal T cells rather than bland CD25+ mast cells."},
+    {"dx": "Metastatic spindle cell tumor (sarcoma, sarcomatoid carcinoma)", "vs": "Tumor cells show greater nuclear atypia and mitoses and express keratin or lineage-specific markers, not tryptase."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

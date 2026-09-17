@@ -1,0 +1,23 @@
+{
+  "id": "61140",
+  "recognize_zh": "抹片中大型細胞具深藍色細胞質與核旁淡染區（hof），乍看像漿細胞；但細胞質深嗜鹼性、核圓且染色質較細，PAS 呈粗顆粒／塊狀陽性，流式為 CD71、CD36 強陽性，指向原始紅血球（pronormoblast）而非漿細胞。",
+  "features": [
+    "Aspirate (A): large cells with round central to eccentric nuclei, fine to moderately condensed chromatin and deeply basophilic cytoplasm with a distinct perinuclear hof (plasmacytoid appearance, inset)",
+    "Occasional cytoplasmic vacuoles and cytoplasmic blebs; admixed later erythroid precursors",
+    "Biopsy (B): diffuse sheets of large immature cells with round nuclei, vesicular chromatin and visible nucleoli, replacing normal marrow",
+    "PAS (G): coarse granular to block-like cytoplasmic positivity in the large cells",
+    "Flow cytometry (C-F): abnormal population with dim/negative CD45 and strong CD71 with CD36 co-expression",
+    "IHC (H): diffuse strong staining of the infiltrate (marker not labeled; erythroid marker expected)"
+  ],
+  "describe_en": "Composite figure. The bone marrow aspirate shows numerous large immature cells with deeply basophilic cytoplasm and a prominent perinuclear hof that imparts a plasmacytoid appearance, together with occasional vacuoles. The core biopsy is effaced by sheets of large cells with round nuclei and nucleoli. Flow cytometry identifies a CD45-dim/negative population with bright CD71 and CD36 expression, PAS shows coarse granular to block cytoplasmic positivity, and an immunostain labels the sheets diffusely. Despite the hof, the lineage evidence favors pronormoblasts over plasma cells, and the findings are consistent with pure erythroid leukemia mimicking plasma cell myeloma.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma (plasmablastic)", "vs": "Myeloma cells have clockface chromatin and a hof but are CD138/CD38 bright with light-chain restriction and lack CD71/CD36/E-cadherin erythroid expression and PAS block positivity."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts show cytoplasmic blebs too but express CD41/CD61 rather than bright CD71 with glycophorin/E-cadherin."},
+    {"dx": "Megaloblastic anemia", "vs": "B12/folate deficiency shows full maturation with megaloblastic changes and hypersegmented neutrophils, not sheets of pronormoblasts with arrested maturation."},
+    {"dx": "Metastatic small round blue cell tumor", "vs": "Metastatic tumor forms cohesive clusters and is keratin, synaptophysin or CD99 positive, lacking erythroid markers."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa, H&E, PAS, IHC, flow cytometry",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "64423",
+  "recognize_zh": "腦脊髓液細胞離心抹片中可見中至大型異型淋巴細胞，核不規則、染色質細緻、有小核仁，細胞質淡藍且有少數空泡；流式細胞儀顯示 CD2+、CD7+、CD56+、CD16+ 但 CD3、CD5 與 TCR 陰性，看似 NK 細胞，TRG 克隆性重排則證實為 T 細胞淋巴瘤復發。",
+  "features": [
+    "Panel B (CSF cytospin): medium to large atypical lymphoid cells with irregular, indented nuclei and fine chromatin",
+    "Small but visible nucleoli and moderate pale blue cytoplasm with occasional small vacuoles; no conspicuous azurophilic granules",
+    "Panel A: MRI with asymmetric enhancement/signal of the left optic nerve (arrow)",
+    "Panel C: CD45-bright population (orange) positive for CD2, CD7, CD16 and CD56, negative for CD3, CD4, CD5, CD8, TCRαβ and TCRγδ",
+    "Panel D: NGS clonality showing a dominant Vγ9-Jγ1/2 TRG rearrangement (75.2%)"
+  ],
+  "describe_en": "Cerebrospinal fluid cytospin shows medium to large atypical lymphoid cells with irregular nuclear contours, finely dispersed chromatin, small nucleoli and moderate amounts of pale blue, focally vacuolated cytoplasm. Flow cytometry identifies an abnormal population expressing CD2, CD7, CD16 and CD56 while lacking surface CD3, CD5, CD4, CD8, TCRαβ and TCRγδ, mimicking an NK-cell phenotype. Next-generation sequencing demonstrates a dominant clonal TRG (Vγ9-Jγ1/2) rearrangement. In a patient with prior γδ hepatosplenic T-cell lymphoma, findings are consistent with CNS relapse of HSTCL with aberrant loss of the CD3/TCR complex.",
+  "ddx": [
+    {"dx": "Reactive NK-cell lymphocytosis in CSF", "vs": "Reactive NK cells are small granular lymphocytes with polyclonal KIR expression and no clonal TRG rearrangement or STAT5B mutation."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "ANKL is EBV-positive with azurophilic granules and lacks TCR gene rearrangement, unlike this EBV-unrelated TRG-clonal process."},
+    {"dx": "Extranodal NK/T-cell lymphoma with CNS involvement", "vs": "ENKTL expresses cytoplasmic CD3ε and is EBER-positive, whereas this relapse carries HSTCL-type STAT5B/SETD2 mutations and prior TCRγδ history."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "BPDCN is CD4+/CD56+/CD123+/TCL1+ and lacks CD16, CD7-bright expression and TCR gene rearrangement."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa; flow cytometry; MRI; NGS",
+  "match": "consistent",
+  "high_yield": false
+}

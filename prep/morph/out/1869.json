@@ -1,0 +1,21 @@
+{
+  "id": "1869",
+  "recognize_zh": "骨髓抹片中央有一團彼此緊密黏合的大型細胞，體積遠大於周圍造血細胞，核大、核質比高，部分細胞質呈淡染空泡狀，屬於轉移性癌細胞群聚（metastatic carcinoma）；影像偏紫、解析度有限。",
+  "features": [
+    "Cohesive cluster of very large cells, many times the size of adjacent hematopoietic cells",
+    "Large irregular nuclei with high N:C ratio and nuclear molding/overlap",
+    "Coarse, dark chromatin with occasional small nucleolar-like spots",
+    "Some cells with pale, vacuolated/clear cytoplasm displacing the nucleus",
+    "Background of hematopoietic cells and fat vacuoles; image color and focus limit detail"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a tightly cohesive cluster of very large cells with high nuclear-to-cytoplasmic ratios, irregular overlapping nuclei and coarse chromatin, clearly foreign to the marrow. Several cells contain pale vacuolated cytoplasm that displaces the nucleus, a feature compatible with mucin-containing epithelial cells. The surrounding hematopoietic elements are small by comparison, and image color and focus limit finer assessment. Findings are consistent with metastatic carcinoma, compatible with the given gastric primary; cytokeratin and mucin stains on the biopsy would support the diagnosis.",
+  "ddx": [
+    {"dx": "Megakaryocyte or osteoclast", "vs": "Megakaryocytes have a single lobulated nucleus and osteoclasts contain many uniform separate nuclei within one cell, whereas this cluster consists of multiple discrete cohesive cells with pleomorphic nuclei."},
+    {"dx": "Plasma cell myeloma with multinucleated forms", "vs": "Myeloma cells are discohesive with eccentric nuclei and a perinuclear hof and are CD138+/cytokeratin-negative."},
+    {"dx": "Anaplastic large cell lymphoma or other large-cell lymphoma", "vs": "Lymphoma cells are generally discohesive and lack mucin vacuoles, and are CD45+ and cytokeratin-negative."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "60484",
+  "recognize_zh": "組織中成片的大型多形性腫瘤細胞，核大且不規則、部分呈腎形或馬蹄形，細胞質豐富淡嗜酸性，可見核分裂像並夾雜嗜中性球；大型多形細胞中出現腎形核的 hallmark cells 是間變性大細胞淋巴瘤的重要線索。",
+  "features": [
+    "Sheets of large pleomorphic cells with abundant amphophilic to eosinophilic cytoplasm",
+    "Large irregular nuclei, some reniform/horseshoe-like (hallmark-cell type), with vesicular chromatin and distinct nucleoli",
+    "Multinucleated and wreath-like cells and several mitotic figures",
+    "Cohesive growth that can mimic carcinoma",
+    "Scattered neutrophils and apoptotic debris in a loose edematous/vacuolated stroma"
+  ],
+  "describe_en": "Section shows a diffuse, cohesive proliferation of large pleomorphic cells with abundant amphophilic to eosinophilic cytoplasm. Nuclei are large and irregular with vesicular chromatin and distinct nucleoli, and occasional cells have eccentric reniform or horseshoe-shaped nuclei with a paranuclear eosinophilic region, consistent with hallmark cells; multinucleated forms and mitotic figures are present. Neutrophils and apoptotic debris are scattered in a loose, vacuolated stroma. Findings are suggestive of anaplastic large cell lymphoma, which should be confirmed with CD30 and ALK immunostains.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Reed-Sternberg cells with owl-eye nucleoli are scattered singly in a mixed inflammatory background rather than forming cohesive sheets, and are CD15+ and ALK negative."},
+    {"dx": "Metastatic carcinoma or melanoma", "vs": "Cohesive large cells in carcinoma/melanoma are keratin or S100/SOX10 positive and CD45/CD30 negative."},
+    {"dx": "Diffuse large B-cell lymphoma, anaplastic variant", "vs": "Anaplastic DLBCL expresses CD20/PAX5 and lacks ALK, whereas ALCL is B-marker negative with uniform CD30."},
+    {"dx": "Histiocytic sarcoma", "vs": "Histiocytic sarcoma has abundant eosinophilic cytoplasm but expresses CD163/CD68/lysozyme and lacks strong uniform CD30 and ALK."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

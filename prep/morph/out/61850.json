@@ -1,0 +1,22 @@
+{
+  "id": "61850",
+  "recognize_zh": "CD1a 免疫染色在小淋巴球背景中，標出一群較大、細胞質豐富、核不規則的細胞，呈膜狀與細胞質陽性；搭配 Langerin 陰性即支持不定型樹突細胞腫瘤（indeterminate dendritic cell tumor）。",
+  "features": [
+    "Large cells with moderate-to-abundant cytoplasm and oval to irregular, occasionally grooved nuclei",
+    "Membranous and cytoplasmic CD1a positivity in the large cells",
+    "Variable staining intensity, forming loose clusters and sheets",
+    "Background of CD1a-negative small lymphocytes",
+    "No epidermotropic or sinusoidal pattern evident in this field"
+  ],
+  "describe_en": "Immunohistochemical stain for CD1a shows a diffuse infiltrate of large histiocytoid cells with abundant cytoplasm and oval to irregular nuclei, displaying membranous and cytoplasmic positivity of variable intensity. Interspersed small lymphocytes are negative. CD1a expression establishes dendritic cell (Langerhans-type) lineage; distinction between Langerhans cell histiocytosis and indeterminate dendritic cell tumor requires Langerin (CD207) staining and/or electron microscopy for Birbeck granules. In conjunction with Langerin negativity, findings are consistent with indeterminate dendritic cell tumor.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are CD1a+ and also Langerin (CD207)+ with Birbeck granules and often admixed eosinophils, whereas indeterminate cell tumor is Langerin negative."},
+    {"dx": "Rosai-Dorfman disease", "vs": "RDD histiocytes are S100+ with emperipolesis but CD1a negative."},
+    {"dx": "Interdigitating dendritic cell sarcoma", "vs": "IDCS is S100+ but CD1a and Langerin negative and shows a paracortical spindle-to-ovoid cell pattern."},
+    {"dx": "Cortical thymocytes / T-lymphoblastic lymphoma", "vs": "CD1a+ T-lymphoblasts are small-to-medium cells with high N:C ratio and TdT/CD3 positivity, not large histiocytoid cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: CD1a",
+  "match": "consistent",
+  "high_yield": false
+}

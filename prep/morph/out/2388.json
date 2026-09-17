@@ -1,0 +1,22 @@
+{
+  "id": "2388",
+  "recognize_zh": "骨髓切片中央有一片中型、核圓至卵圓、染色質細緻淡染、細胞質少且邊界不清的細胞群聚，其中可見核分裂，周圍仍殘存正常顆粒球與嗜酸性前驅細胞；此圖未見菊花團（rosette）或神經纖維網，形態本身無法與母細胞區分，需靠免疫染色確認為轉移性神經母細胞瘤。",
+  "features": [
+    "Central cluster/sheet of intermediate-sized cells with round to oval nuclei and finely dispersed, pale chromatin",
+    "Scant, poorly defined cytoplasm with syncytial appearance",
+    "Mitotic figures within the tumor cell aggregate",
+    "Residual normal hematopoiesis at the periphery, including granulocytic and eosinophilic precursors",
+    "No Homer Wright rosettes or fibrillary neuropil identified in this field"
+  ],
+  "describe_en": "Bone marrow core biopsy (H&E) shows a central aggregate of intermediate-sized cells with round to oval nuclei, finely dispersed pale chromatin, and scant ill-defined cytoplasm, with mitotic figures, surrounded by residual granulocytic and eosinophilic hematopoiesis. Homer Wright rosettes and fibrillary neuropil are not identified, so on morphology alone the infiltrate cannot be distinguished from a hematolymphoid blast population. Immunohistochemistry (PHOX2B, synaptophysin, chromogranin, with negative CD45/TdT) and urine catecholamines are required. With that support, the infiltrate is compatible with metastatic neuroblastoma.",
+  "ddx": [
+    {"dx": "Acute leukemia (lymphoblastic or myeloid)", "vs": "Blasts infiltrate diffusely rather than in cohesive syncytial nests and are CD45, TdT, CD34, or MPO positive, while neuroblastoma is PHOX2B and synaptophysin positive."},
+    {"dx": "Ewing sarcoma", "vs": "Shows membranous CD99 and nuclear NKX2.2 with EWSR1 rearrangement and is PHOX2B negative."},
+    {"dx": "Alveolar rhabdomyosarcoma", "vs": "Shows myogenin/desmin positivity and FOXO1 rearrangement."},
+    {"dx": "Regenerating hematopoietic islands (hematogone-rich marrow)", "vs": "Consist of maturing mixed-lineage cells without cohesive nests, mitotically active syncytial clusters, or neuroendocrine markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

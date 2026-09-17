@@ -1,0 +1,22 @@
+{
+  "id": "63144",
+  "recognize_zh": "一顆比紅血球稍大的淋巴球，核佔滿細胞且表面有多條深溝與摺痕，呈腦回狀（cerebriform），染色質濃縮深染、細胞質極少，是 Sezary 細胞的典型外觀。",
+  "features": [
+    "Lymphoid cell slightly larger than adjacent red cells",
+    "Very high N:C ratio with only a thin rim of scant cytoplasm",
+    "Nucleus with multiple deep grooves and folds producing a cerebriform (convoluted) contour",
+    "Dense, hyperchromatic condensed chromatin; no visible nucleoli",
+    "No cytoplasmic granules or vacuoles"
+  ],
+  "describe_en": "Peripheral blood smear shows a small to medium-sized atypical lymphocyte with a very high nuclear-to-cytoplasmic ratio and scant cytoplasm. The nucleus is hyperchromatic with condensed chromatin and multiple deep linear grooves, producing a characteristic cerebriform appearance; nucleoli are not seen. Findings are consistent with a Sezary cell; in the appropriate clinical setting of erythroderma, confirmation of a clonal CD4-positive T-cell population with loss of CD7 and/or CD26 by flow cytometry is required for Sezary syndrome.",
+  "ddx": [
+    {"dx": "Reactive lymphocyte with nuclear folding", "vs": "Reactive lymphocytes have more abundant basophilic cytoplasm and only occasional shallow indentations, and flow cytometry shows no aberrant T-cell phenotype."},
+    {"dx": "Adult T-cell leukemia/lymphoma (flower cell)", "vs": "ATLL cells have polylobated flower-like nuclei with deep lobation rather than fine grooves, with HTLV-1 serology positive and frequent CD25 expression."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "T-PLL cells have a visible nucleolus and cytoplasmic blebs with TCL1A rearrangement, whereas Sezary cells lack nucleoli."},
+    {"dx": "Mantle cell lymphoma or CLL with cleaved nuclei", "vs": "These are B cells expressing CD19/CD20 (with CD5 and cyclin D1 in MCL), whereas Sezary cells are CD4-positive T cells."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

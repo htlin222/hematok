@@ -1,0 +1,22 @@
+{
+  "id": "66472",
+  "recognize_zh": "視野中可見數顆大型、核形不規則且有折疊或腎形凹陷的非典型細胞，細胞質豐富，夾雜嗜酸性球與泡狀背景；這種大型多形性細胞提示間變性大細胞淋巴瘤 (ALCL) 浸潤，但須靠 CD30／ALK 免疫染色確認。",
+  "features": [
+    "Scattered large atypical cells, several times the size of adjacent small nuclei, with abundant pale to amphophilic cytoplasm",
+    "Pleomorphic nuclei with irregular, folded to reniform contours; a few show nuclear grooves or indentations suggestive of horseshoe forms",
+    "Vesicular chromatin with inconspicuous to small nucleoli",
+    "Admixed eosinophils with red-orange granular cytoplasm and small lymphoid and stromal nuclei",
+    "Vacuolated, edematous or poorly fixed background; image is soft-focus, limiting nuclear detail"
+  ],
+  "describe_en": "Section of bone marrow shows an infiltrate of large pleomorphic cells with abundant cytoplasm and irregular, folded to kidney-shaped nuclei with vesicular chromatin, set within a vacuolated background containing scattered eosinophils and small lymphoid cells. Definite hallmark cells with classic horseshoe nuclei are suggested but not unequivocally resolved at this image quality, and no cohesive sheets of normal hematopoiesis are apparent in the field. The morphology is suggestive of marrow involvement by a large cell lymphoma such as anaplastic large cell lymphoma; confirmation requires CD30 (strong, uniform), ALK and T-cell marker immunohistochemistry together with cytokeratin and melanoma markers to exclude metastatic tumor.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin/Reed-Sternberg cells are rare cells with large inclusion-like nucleoli in a mixed inflammatory background and are CD15+, PAX5 weak, whereas ALCL cells are more numerous, CD15 usually negative, PAX5 negative and often ALK or EMA positive."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma forms cohesive clusters with cytokeratin positivity and is CD30/CD45 negative."},
+    {"dx": "Metastatic melanoma", "vs": "Melanoma may show pigment and prominent nucleoli and is S100/SOX10 positive but CD30 and T-cell marker negative."},
+    {"dx": "Diffuse large B-cell lymphoma, anaplastic variant", "vs": "The anaplastic variant of DLBCL is CD20 and PAX5 positive, whereas ALCL is a T/null-cell lymphoma lacking B-cell markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "partial",
+  "high_yield": false
+}

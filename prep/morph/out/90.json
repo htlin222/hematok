@@ -1,0 +1,39 @@
+{
+  "id": "90",
+  "recognize_zh": "淋巴結內成片、帶腎形或馬蹄形核（hallmark cells）的大型多形性細胞，細胞質豐富且呈泡沫狀，背景有嗜中性球與嗜酸性球；免疫染色 CD30 呈強膜狀加高基氏體（Golgi）陽性、CD4 與細胞毒性標記（TIA1、granzyme B、perforin）陽性，但 CD3、CD20、PAX5 為陰性，符合 ALK 陰性 ALCL（本組未附 ALK 染色，ALK 陰性需由案例資料確認）。",
+  "features": [
+    "Sheets and cohesive clusters of large pleomorphic lymphoid cells with abundant pale, finely vacuolated to foamy cytoplasm",
+    "Eccentric kidney- and horseshoe-shaped nuclei (hallmark cells) with vesicular chromatin and distinct nucleoli; occasional multinucleated forms",
+    "Admixed neutrophils and eosinophils; low power shows partial nodal effacement adjacent to a sclerotic, fibrotic area",
+    "CD30 strong, uniform membranous and Golgi-dot staining of the large cells, in cohesive clusters",
+    "Large cells CD4+, GATA3 nuclear+ in many cells, and cytotoxic granule proteins TIA1, granzyme B and perforin positive",
+    "Large cells negative for CD3, CD20, PAX5 and CD8, which stain only background small lymphocytes"
+  ],
+  "describe_en": "Sections of lymph node show partial effacement of the architecture by a diffuse and cohesive infiltrate of large atypical cells, bordering a sclerotic area. At high power, the neoplastic cells have abundant pale, vacuolated cytoplasm and pleomorphic, eccentric kidney- and horseshoe-shaped nuclei with vesicular chromatin and prominent nucleoli (hallmark cells), with admixed neutrophils and eosinophils. By immunohistochemistry, the large cells show strong, uniform membranous and Golgi CD30 expression and are positive for CD4, GATA3 (subset), TIA1, granzyme B and perforin, while CD3, CD20, PAX5 and CD8 highlight only background reactive lymphocytes. An ALK stain is not included among these images; with ALK negativity documented in the case, the findings are consistent with anaplastic large cell lymphoma, ALK-negative, and FISH for DUSP22 and TP63 rearrangements is recommended for risk grouping.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma, ALK-positive", "vs": "Morphology and the CD30+/cytotoxic phenotype overlap; ALK-positive ALCL shows nuclear/cytoplasmic ALK staining (e.g., NPM1::ALK) and typically occurs in younger patients, so an ALK stain is required."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL has scattered Hodgkin/Reed-Sternberg cells in an inflammatory background that are PAX5 dim-positive, CD15+ and lack cytotoxic markers, whereas here the CD30+ cells form sheets and are PAX5-negative with TIA1/granzyme B/perforin expression."},
+    {"dx": "Peripheral T-cell lymphoma, NOS with CD30 expression", "vs": "PTCL-NOS usually shows heterogeneous, variable CD30 staining and retains pan-T antigens such as CD3, whereas ALCL shows uniform strong CD30 in hallmark cells with frequent loss of CD3."},
+    {"dx": "Metastatic carcinoma or melanoma (sinusoidal/cohesive growth)", "vs": "The cohesive clusters can mimic a non-hematopoietic tumor, but these cells are CD30+/CD4+ with cytotoxic granules and would be keratin- and S100/SOX10-negative."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD30, CD3, CD4, CD8, GATA3, TIA1, GrB, perforin",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "H&E, low power: nodal parenchyma with partial effacement bordering a sclerotic, fibrotic area",
+    "H&E, intermediate power: sheets of larger pale atypical cells alongside a residual small-lymphocyte area",
+    "H&E, high power: large pleomorphic cells with foamy cytoplasm, horseshoe-shaped nuclei and admixed neutrophils",
+    "H&E, high power: hallmark cells with eccentric kidney-shaped nuclei and prominent nucleoli, with scattered eosinophils",
+    "CD20: staining limited to a background B-cell population; the large neoplastic cells are negative",
+    "PAX5: nuclear staining of scattered background B cells only; tumor cells negative",
+    "CD3: positive background small T cells; the large atypical cells lack CD3",
+    "CD30: strong membranous and Golgi staining of cohesive clusters of large cells",
+    "CD4: diffuse membranous positivity of the large neoplastic cells",
+    "CD8: only scattered small reactive T cells positive; tumor cells negative",
+    "GATA3: nuclear staining in many of the neoplastic cells",
+    "TIA1: granular cytoplasmic positivity in the large cells",
+    "Granzyme B: granular cytoplasmic positivity in a subset of large cells",
+    "Perforin: strong cytoplasmic staining of the large neoplastic cells"
+  ]
+}

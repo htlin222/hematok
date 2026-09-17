@@ -1,0 +1,22 @@
+{
+  "id": "3319",
+  "recognize_zh": "大型腫瘤細胞同時呈清楚的細胞膜陽性與核旁點狀（Golgi 區）強陽性，是 ALCL 中 CD30 的典型染色模式；周圍小細胞為陰性。圖中未標示抗體。",
+  "features": [
+    "Sheets of large cells with crisp, circumferential membranous brown staining",
+    "Strong dot-like paranuclear (Golgi) staining in most positive cells",
+    "Faint granular cytoplasmic staining in addition to membrane and Golgi positivity",
+    "Large round to reniform vesicular nuclei with hematoxylin counterstain; occasional mitotic figure",
+    "Scattered small negative background cells; antibody not labeled in the image"
+  ],
+  "describe_en": "Immunohistochemical stain shows sheets of large neoplastic cells with strong membranous staining and prominent dot-like paranuclear Golgi accentuation, with small negative background cells interspersed. The antibody is not labeled; this membrane-plus-Golgi pattern is the characteristic staining pattern of CD30. In the context of the title, the findings are consistent with bone marrow involvement by anaplastic large cell lymphoma, and ALK immunostaining is needed to determine ALK status.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin cells show the same CD30 membrane-Golgi pattern but are scattered singly in an inflammatory background and are CD15+ and ALK negative."},
+    {"dx": "ALK-negative ALCL", "vs": "Its CD30 pattern is identical, so an ALK immunostain is required to separate ALK-positive from ALK-negative ALCL."},
+    {"dx": "Embryonal carcinoma", "vs": "Embryonal carcinoma is CD30 positive but also cytokeratin, OCT4 and SALL4 positive and CD45 negative."},
+    {"dx": "CD30-positive DLBCL", "vs": "It shows heterogeneous CD30 and expresses CD20/PAX5."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: unlabeled (likely CD30)",
+  "match": "consistent",
+  "high_yield": true
+}

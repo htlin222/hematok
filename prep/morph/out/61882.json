@@ -1,0 +1,22 @@
+{
+  "id": "61882",
+  "recognize_zh": "周邊血液紅血球呈小球性低色素並有大小不等，骨髓抹片細胞豐富、可見巨核細胞與成熟中的骨髓系及紅血球系前驅細胞；配合 SIFD 症候群（TRNT1 突變的鐵粒幼細胞貧血合併 B 細胞免疫缺陷）臨床背景，重點在紅血球系以外譜系的變化。",
+  "features": [
+    "Peripheral blood with hypochromic, microcytic red cells showing anisocytosis and mild poikilocytosis",
+    "Cellular bone marrow aspirate with megakaryocytes, including a large lobulated megakaryocyte",
+    "Abundant granulocytic and erythroid precursors at various stages of maturation",
+    "Low-power aspirate field with megakaryocytes and cellular particles",
+    "Special stain panel (D) with arrows indicating positively stained cells; stain type not labeled and not resolvable at this resolution"
+  ],
+  "describe_en": "Composite of peripheral blood and bone marrow aspirate findings. The peripheral smear (A) shows hypochromic, microcytic red cells with anisocytosis and mild poikilocytosis. The aspirate smears (B, C) are cellular, with megakaryocytes and trilineage precursors including maturing granulocytes and erythroid cells. Panel D is a special or cytochemical stain with arrows highlighting positive cells; the stain and target cannot be reliably identified at this resolution, and ring sideroblasts are not demonstrable on the images provided. Findings are compatible with the marrow changes described in SIFD syndrome (sideroblastic anemia, B-cell immunodeficiency, periodic fevers and developmental delay due to TRNT1 mutations), which requires Prussian blue staining and genetic confirmation.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency also causes hypochromic microcytosis but shows absent marrow iron stores and no ring sideroblasts on Prussian blue staining."},
+    {"dx": "X-linked sideroblastic anemia (ALAS2)", "vs": "ALAS2-related anemia is confined to the erythroid lineage without immunodeficiency, fevers or developmental delay, and is distinguished by genetic testing."},
+    {"dx": "Pearson marrow-pancreas syndrome", "vs": "Pearson syndrome shows prominent vacuolization of erythroid and myeloid precursors with ring sideroblasts and pancreatic insufficiency caused by mitochondrial DNA deletion."},
+    {"dx": "Myelodysplastic neoplasm with ring sideroblasts", "vs": "MDS-RS occurs in older adults with unilineage or multilineage dysplasia and SF3B1 mutation, rather than a congenital syndrome in childhood."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; special stain (unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

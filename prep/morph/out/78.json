@@ -1,0 +1,35 @@
+{
+  "id": "78",
+  "recognize_zh": "脾臟紅髓瀰漫被中型到偏大、帶漿細胞樣（plasmacytoid）特徵的淋巴細胞浸潤，白髓結構不明顯；免疫染色中一個 B 細胞標記幾乎全陰性，而輕鏈原位雜交（ISH）呈單一輕鏈優勢，符合抗 CD20 治療後 CD20 表現喪失的脾邊緣區淋巴瘤。",
+  "features": [
+    "Diffuse red pulp infiltrate with congestion; no well-formed white pulp follicles at low power",
+    "Medium to large lymphoid cells with round to oval nuclei, vesicular chromatin, and small but distinct nucleoli",
+    "Moderate amphophilic cytoplasm with plasmacytoid (eccentric nucleus) features in many cells",
+    "Infiltrate clusters around trabeculae and vessels; scattered hemosiderin pigment in the background",
+    "One IHC marker essentially negative in the neoplastic cells (consistent with CD20 loss after rituximab), while another marker shows strong membranous/cytoplasmic staining of a dense cellular cluster",
+    "Light-chain ISH: many strongly positive cells for one light chain versus only rare cells for the other (light-chain restriction)"
+  ],
+  "describe_en": "Sections of spleen show congested red pulp diffusely infiltrated by a population of medium to large lymphoid cells, with loss of distinct white pulp architecture and aggregates around trabeculae and vessels. At high power the cells have round to oval nuclei, vesicular chromatin, small nucleoli, and moderate amphophilic cytoplasm, many with plasmacytoid features; hemosiderin-laden macrophages are present. By immunohistochemistry, one B-cell marker (presumed CD20) is essentially negative in the lesional cells, whereas another marker (unlabeled; likely a CD20-independent B-cell or plasmacytic marker) highlights dense perivascular clusters with strong membranous/cytoplasmic staining. Chromogenic ISH shows numerous cells positive for one immunoglobulin light chain with only rare cells positive for the other, indicating light-chain restriction. In the context of prior rituximab therapy, findings are consistent with splenic marginal zone lymphoma with plasmacytic differentiation and loss of CD20 expression; the proportion of larger cells warrants correlation to exclude large-cell transformation.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma (transformation)", "vs": "DLBCL forms confluent sheets of large cells (nuclei larger than macrophage nuclei) with high Ki-67, whereas SMZL retains a mixed small-to-medium, marginal-zone/plasmacytoid population."},
+    {"dx": "Splenic diffuse red pulp small B-cell lymphoma", "vs": "SDRPL shows monotonous small cells diffusely filling cords and sinusoids without a biphasic white pulp pattern or prominent plasmacytic differentiation, and typically lacks the micronodular white pulp involvement of SMZL."},
+    {"dx": "Hairy cell leukemia", "vs": "HCL cells have bland bean-shaped nuclei with abundant clear cytoplasm forming red blood cell lakes and are Annexin A1/CD103/BRAF V600E positive, unlike SMZL."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL rarely presents with isolated splenomegaly and usually carries MYD88 L265P with an IgM paraprotein, whereas SMZL shows marginal zone/red pulp distribution and generally lacks MYD88 mutation."}
+  ],
+  "specimen": "spleen",
+  "stain": "H&E; IHC (presumed CD20, B-cell marker); ISH: kappa/lambda",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Spleen, low power H&E: congested red pulp with diffuse lymphoid infiltrate and trabecular structure.",
+    "Medium power H&E: sheet of medium-sized plasmacytoid lymphoid cells adjacent to a vessel.",
+    "Medium power H&E: atypical cells around a trabecula/vessel with hemosiderin pigment.",
+    "High power H&E: medium to large cells with vesicular chromatin, small nucleoli, and moderate amphophilic cytoplasm.",
+    "IHC (presumed CD20): lesional cells essentially negative with only faint rare staining, consistent with CD20 loss after rituximab.",
+    "IHC low power: clustered positive cells in perivascular/nodular aggregates.",
+    "IHC medium power: strong membranous/cytoplasmic staining of a dense cellular aggregate.",
+    "IHC high power: strong membranous/cytoplasmic positivity in most medium to large lesional cells.",
+    "Light-chain ISH: numerous strongly positive cells in a perivascular cluster (restricted light chain).",
+    "Light-chain ISH, opposite light chain: only rare positive cells, supporting light-chain restriction."
+  ]
+}

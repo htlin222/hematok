@@ -1,0 +1,22 @@
+{
+  "id": "61265",
+  "recognize_zh": "骨髓抹片中有一團細胞聚集，細胞質豐富、呈灰藍到深藍色且邊界模糊，核圓至橢圓、偏向細胞一側、染色質細緻；這種成群、核偏心、細胞質豐富偏藍的細胞為造骨細胞（osteoblast），常見於兒童或骨重塑活躍的抹片。",
+  "features": [
+    "Cohesive cluster of large cells with abundant, ill-defined, gray-blue to deep blue cytoplasm",
+    "Round to oval, eccentrically placed nuclei, many pushed to the periphery of the cluster",
+    "Finely granular chromatin with small indistinct nucleoli; single nucleus per cell",
+    "Cells overlap so individual borders and a pale perinuclear Golgi zone are difficult to resolve",
+    "Scattered single mononuclear cells around the cluster; eyepiece photograph with pink-purple cast and limited sharpness"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cohesive cluster of large mononuclear cells with abundant, ill-defined basophilic cytoplasm and round to oval eccentric nuclei with fine chromatin and small nucleoli. Cell borders overlap, and the pale Golgi zone separated from the nucleus is not clearly resolved at this quality. No mitoses or marked nuclear pleomorphism are seen. Findings are consistent with a cluster of osteoblasts, a benign marrow component that should not be mistaken for metastatic tumor or plasma cells.",
+  "ddx": [
+    {"dx": "Plasma cells", "vs": "Plasma cells are smaller with coarse clock-face chromatin and a perinuclear hof immediately adjacent to the nucleus, whereas the osteoblast's pale Golgi zone lies away from the nucleus."},
+    {"dx": "Metastatic tumor cells (e.g., neuroblastoma, carcinoma)", "vs": "Tumor clusters show nuclear molding, pleomorphism and high N:C ratio rather than uniform eccentric nuclei with abundant cytoplasm."},
+    {"dx": "Osteoclasts", "vs": "Osteoclasts are huge multinucleated cells with many separate, uniform nuclei within one granular cytoplasm."},
+    {"dx": "Megakaryoblasts or micromegakaryocytes", "vs": "These have a higher N:C ratio, cytoplasmic blebs and platelet budding and are CD61-positive."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

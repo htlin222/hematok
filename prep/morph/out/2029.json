@@ -1,0 +1,21 @@
+{
+  "id": "2029",
+  "recognize_zh": "kappa 輕鏈免疫組織化學染色：大多數細胞的細胞質呈強烈棕色陽性，核被擠到一側、呈漿細胞樣（plasmacytoid）；需與同區 lambda 染色（僅背景染色）對照，才能判定 kappa 單株性（light chain restriction）。",
+  "features": [
+    "Immunoperoxidase stain for kappa light chain with hematoxylin counterstain",
+    "Strong granular cytoplasmic brown staining in the majority of cells",
+    "Positive cells are plasmacytoid with eccentric round nuclei",
+    "Admixed larger atypical cells with vesicular nuclei, some positive and some negative",
+    "Diffuse sheet-like distribution of positive cells"
+  ],
+  "describe_en": "Immunohistochemical stain for kappa light chain shows strong cytoplasmic staining in the majority of the infiltrating cells, which are plasmacytoid with eccentric nuclei; scattered larger cells with vesicular nuclei are also present. When compared with the paired lambda stain showing only background staining, the plasma cells are kappa light chain restricted. Findings support a clonal plasma cell proliferation in the setting of post-transplant lymphoproliferative disorder.",
+  "ddx": [
+    {"dx": "Polyclonal reactive plasmacytosis", "vs": "Reactive plasma cells show a mixture of kappa- and lambda-positive cells, typically at a kappa:lambda ratio of about 2:1, rather than near-exclusive kappa expression."},
+    {"dx": "Plasma cell myeloma or plasmacytoma in a transplant recipient", "vs": "Morphology and light chain restriction overlap; association with EBV positivity, the transplant setting, and absence of CRAB features or a pre-existing M-protein favor plasmacytoma-like PTLD."},
+    {"dx": "Background serum immunoglobulin staining artifact", "vs": "Serum-related staining is extracellular and interstitial, whereas true positivity here is crisp and intracytoplasmic within plasma cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: kappa light chain",
+  "match": "consistent",
+  "high_yield": false
+}

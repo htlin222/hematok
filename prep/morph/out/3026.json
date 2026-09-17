@@ -1,0 +1,21 @@
+{
+  "id": "3026",
+  "recognize_zh": "周邊血抹片中一個有核紅血球，小而圓、深染的偏心核，周圍有淡灰藍色（多染性）的細胞質，大小接近紅血球；背景可見數個橢圓形紅血球，可放在溶血性貧血脈絡下理解。",
+  "features": [
+    "Nucleated red blood cell slightly larger than surrounding RBCs",
+    "Small, round, eccentric nucleus with dense, coarsely clumped chromatin and no nucleoli",
+    "Moderate amount of gray-blue (polychromatophilic) cytoplasm",
+    "Morphology of a polychromatophilic to orthochromatic normoblast",
+    "Background RBCs include some oval/elongated forms; small platelet clump present"
+  ],
+  "describe_en": "Peripheral blood smear shows a circulating nucleated red blood cell with a small, round, eccentric nucleus with dense clumped chromatin and a moderate amount of gray-blue polychromatophilic cytoplasm, corresponding to a late polychromatophilic normoblast. The background red cells are normochromic and include scattered oval to elongated forms; no spherocytes or schistocytes are prominent in this field. Circulating nucleated red cells indicate increased or stressed erythropoiesis, as in hemolytic anemia, and should be enumerated per 100 white cells with correction of the WBC count if numerous.",
+  "ddx": [
+    {"dx": "Small mature lymphocyte", "vs": "Lymphocytes have a thin rim of clear blue cytoplasm and slightly less dense chromatin, whereas the normoblast has gray-blue hemoglobinized cytoplasm and a pyknotic nucleus."},
+    {"dx": "Plasma cell", "vs": "Plasma cells have deeply basophilic cytoplasm with a perinuclear hof and cartwheel chromatin rather than grayish polychromatophilic cytoplasm."},
+    {"dx": "Leukoerythroblastic reaction (marrow infiltration or fibrosis)", "vs": "Marrow infiltration shows NRBCs together with immature granulocytes and teardrop cells, whereas hemolysis shows NRBCs with polychromasia and hemolysis-related poikilocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "62614",
+  "recognize_zh": "體液細胞塊中的大型腫瘤細胞呈強烈的細胞膜與細胞質 CD30 陽性，呈環狀與核旁點狀著色，少數小型背景細胞不著色，符合 PEL 常見的 CD30 表現。",
+  "features": [
+    "Loosely cohesive large round tumor cells in a proteinaceous background",
+    "Strong membranous and cytoplasmic CD30 staining, with ring-like and paranuclear dot (Golgi) accentuation",
+    "Majority of large cells positive",
+    "Occasional small negative nuclei (bystander lymphocytes/mesothelial or histiocytic cells)",
+    "Some diffuse background chromogen in fluid protein"
+  ],
+  "describe_en": "Immunohistochemistry for CD30 on an effusion cell block shows strong membranous and cytoplasmic staining with Golgi accentuation in the majority of large, discohesive tumor cells, while scattered small background cells are negative. CD30 expression is frequent in primary effusion lymphoma and reflects its activated plasmablastic phenotype, but it is not specific. In a malignant effusion of large cells lacking B- and T-cell markers, with HHV8/LANA positivity, findings are consistent with primary effusion lymphoma.",
+  "ddx": [
+    {"dx": "Anaplastic large cell lymphoma involving effusion", "vs": "ALCL expresses T-cell antigens and often ALK, and is HHV8-negative."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Hodgkin cells are CD30+/CD15+/PAX5 dim in a reactive background and rarely form effusion sheets, and are HHV8-negative."},
+    {"dx": "Embryonal carcinoma or other CD30-positive carcinoma", "vs": "Carcinomas are CD45-negative and keratin-positive, whereas PEL is often CD45-positive and keratin-negative."},
+    {"dx": "Fluid overload-associated large B-cell lymphoma (HHV8-negative effusion lymphoma)", "vs": "Morphologically similar but HHV8/LANA-negative and usually CD20-positive."}
+  ],
+  "specimen": "body fluid",
+  "stain": "IHC: CD30",
+  "match": "consistent",
+  "high_yield": false
+}

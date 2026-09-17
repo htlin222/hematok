@@ -1,0 +1,21 @@
+{
+  "id": "61300",
+  "recognize_zh": "周邊血液抹片中紅血球大多大小一致、中央淡染區不明顯擴大，僅散見少數標靶細胞（target cell），白血球（嗜中性球、淋巴球）與血小板形態正常；這類輕微變化本身不能診斷血紅素 D，需靠血紅素電泳。",
+  "features": [
+    "Red cells relatively uniform in size with mild microcytosis difficult to appreciate",
+    "Scattered target cells, subtle at this magnification",
+    "No sickle cells, spherocytes, or significant fragmentation",
+    "Normal-appearing segmented neutrophil and small lymphocytes",
+    "Adequate platelets with some small clumps"
+  ],
+  "describe_en": "Peripheral blood smear shows a red cell population that is relatively uniform in size with only scattered target cells; sickle cells, spherocytes, and schistocytes are not identified. A segmented neutrophil and lymphocytes appear morphologically normal, and platelets are adequate with small clumps. These findings are mild and nonspecific. In conjunction with hemoglobin electrophoresis showing a D-window variant, they are consistent with heterozygous hemoglobin D.",
+  "ddx": [
+    {"dx": "Hemoglobin C trait", "vs": "Hb C trait shows more numerous target cells, and electrophoresis places the variant in the C/A2 zone rather than the D zone."},
+    {"dx": "Thalassemia trait", "vs": "Thalassemia trait shows more obvious microcytosis with elevated RBC count and basophilic stippling, and Hb A2 is increased in beta-thalassemia trait."},
+    {"dx": "Liver disease or post-splenectomy targeting", "vs": "Acquired target cells are accompanied by macrocytosis or Howell-Jolly bodies and a normal hemoglobin electrophoresis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

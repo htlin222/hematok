@@ -1,0 +1,22 @@
+{
+  "id": "62986",
+  "recognize_zh": "淋巴結切片低倍下可見多個由淡染、梭形至卵圓形細胞組成的結節狀聚集，外圍有纖維帶環繞，並混有小淋巴球與嗜伊紅性球；右上方擴張的淋巴竇充滿胞質淡染泡沫狀的組織球。淡染梭形細胞聚集是非典型肥大細胞浸潤的線索，需以 tryptase、CD117、CD25 確認。",
+  "features": [
+    "Nodular interfollicular aggregates of pale cells with oval to spindled nuclei and moderate clear to pale eosinophilic cytoplasm",
+    "Aggregates outlined by concentric fibrous bands with a whorled appearance",
+    "Admixed small lymphocytes, plasma cells and eosinophils around the aggregates",
+    "Dilated sinus (upper right) filled with histiocytes having abundant pale foamy cytoplasm",
+    "Background small lymphocytes; magnification appears lower than the 100x objective stated in the title"
+  ],
+  "describe_en": "Lymph node section (H&E) shows interfollicular nodular aggregates of pale cells with oval to spindled nuclei and moderate pale to clear cytoplasm, surrounded by fibrous bands and admixed small lymphocytes, plasma cells and eosinophils. An adjacent dilated sinus is filled with histiocytes with abundant foamy cytoplasm. The image appears to be at lower power than the stated 100x objective, limiting individual cell detail. The findings are consistent with lymph node involvement by systemic mastocytosis with associated sinus histiocytosis; confirmation with tryptase, CD117 and CD25 immunostains and KIT D816V testing is recommended.",
+  "ddx": [
+    {"dx": "Langerhans cell histiocytosis", "vs": "LCH cells are sinus-based with grooved, coffee-bean nuclei and many eosinophils, and are CD1a/langerin-positive rather than tryptase/CD117-positive."},
+    {"dx": "Classic Hodgkin lymphoma with fibrosis", "vs": "Hodgkin lymphoma shows Hodgkin/Reed-Sternberg cells (CD30+ CD15+) in a mixed inflammatory background, not cohesive aggregates of spindled pale mast cells."},
+    {"dx": "Reactive sinus histiocytosis / Rosai-Dorfman disease", "vs": "Rosai-Dorfman histiocytes are large S100-positive cells with emperipolesis in sinuses, without interfollicular spindle cell aggregates."},
+    {"dx": "Granulomatous lymphadenitis", "vs": "Granulomas are composed of epithelioid histiocytes (CD68+, tryptase-negative) with possible giant cells and necrosis rather than tryptase/CD25-positive spindle cells."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

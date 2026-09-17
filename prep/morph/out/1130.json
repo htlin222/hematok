@@ -1,0 +1,21 @@
+{
+  "id": "1130",
+  "recognize_zh": "周邊血中散佈中至大型、細胞質淡灰藍色且無顆粒的芽細胞，核圓或不規則、染色質細緻，看不到 Auer 小體；背景可見淚滴狀紅血球，形態上無法判定系別。",
+  "features": [
+    "Medium to large blasts with moderate to scant pale gray-blue agranular cytoplasm",
+    "Round to irregular nuclei with fine chromatin; nucleoli faintly visible",
+    "No Auer rods or cytoplasmic granules",
+    "Occasional teardrop red cells (dacrocytes) in the background",
+    "One refractile yellow-brown round body of uncertain nature, likely artifact"
+  ],
+  "describe_en": "Peripheral blood smear shows scattered medium to large blasts with pale gray-blue agranular cytoplasm and round to irregular nuclei with fine chromatin. Auer rods are not identified. Background red cells include occasional teardrop forms, and a refractile yellow-brown round body in the upper left is most likely artifact. Findings are consistent with circulating blasts of acute leukemia without morphologic evidence of lineage; in the context of AML with minimal differentiation, lineage must be confirmed by flow cytometry with negative MPO cytochemistry.",
+  "ddx": [
+    {"dx": "Acute lymphoblastic leukemia", "vs": "Lymphoblasts look similar and require flow cytometry showing B- or T-lineage markers for distinction."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts often show cytoplasmic blebs and are CD41/CD61 positive, often with marrow fibrosis."},
+    {"dx": "Minimally differentiated monoblasts", "vs": "Monoblasts have more abundant cytoplasm and strong nonspecific esterase with CD14/CD64 expression."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

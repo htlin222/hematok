@@ -1,0 +1,21 @@
+{
+  "id": "3217",
+  "recognize_zh": "一顆大小與中性球相當的細胞，核碎裂成數個分離、深藍色、均質且圓潤的小球（核濃縮與核碎裂），胞質仍保有淡粉紅色的中性球顆粒；分離的圓形緻密核碎片加上中性顆粒，是凋亡中性球而非有核紅血球或發育不良細胞。",
+  "features": [
+    "Neutrophil-sized cell with pale pink granular cytoplasm",
+    "Nucleus broken into multiple discrete, round, dense homogeneous blue-black fragments of varying size (pyknosis/karyorrhexis)",
+    "Loss of normal chromatin texture and of interconnecting nuclear filaments",
+    "Surrounding red cells and platelets unremarkable; smear shows warm yellow background"
+  ],
+  "describe_en": "Peripheral blood smear shows a neutrophil-sized cell with pale granular cytoplasm and a nucleus fragmented into several discrete, round, densely homogeneous nuclear bodies without the normal chromatin pattern or connecting filaments. The appearance is that of an apoptotic (pyknotic) neutrophil. Occasional such cells are common in aged samples or delayed smear preparation, and they should not be mistaken for nucleated red cells, dysplastic neutrophils or intracellular organisms.",
+  "ddx": [
+    {"dx": "Nucleated red blood cell", "vs": "NRBCs have a single round nucleus with visible chromatin texture and orange-pink hemoglobinized cytoplasm without granules."},
+    {"dx": "Hypersegmented neutrophil", "vs": "Hypersegmented neutrophil lobes retain clumped chromatin texture and are joined by thin filaments rather than being smooth, detached spheres."},
+    {"dx": "Dysplastic neutrophil with nuclear fragmentation", "vs": "Dysplastic changes accompany other features such as hypogranularity or pseudo-Pelger forms in a fresh sample, whereas apoptosis increases with specimen age."},
+    {"dx": "Intracellular Histoplasma yeasts", "vs": "Histoplasma yeasts are oval with a clear halo and eccentric chromatin rather than dense homogeneous spheres."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

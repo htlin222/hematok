@@ -1,0 +1,21 @@
+{
+  "id": "60479",
+  "recognize_zh": "骨髓切片 Annexin A1 免疫染色，脂肪細胞間的間質性單核細胞大多呈棕色細胞質／膜性陽性；注意少數最深染的細胞為顆粒球（正常就會表現 Annexin A1），需與腫瘤細胞區分。",
+  "features": [
+    "Diffuse interstitial infiltrate of mononuclear cells with moderate cytoplasmic/membranous annexin A1 positivity",
+    "Scattered intensely stained cells, likely granulocytic precursors (internal positive control)",
+    "Positive infiltrate spread between adipocytes without nodular aggregates",
+    "Negative erythroid islands with blue counterstained round nuclei",
+    "Fat-rich marrow background"
+  ],
+  "describe_en": "Bone marrow core biopsy immunostained for annexin A1 shows a diffuse interstitial infiltrate of mononuclear cells with moderate cytoplasmic and membranous positivity between adipocytes. Scattered strongly positive cells represent myeloid elements, which normally express annexin A1, while erythroid clusters are negative. Because myeloid cells also stain, interpretation should be correlated with a B-cell marker such as CD20 or PAX5. Findings are consistent with marrow involvement by hairy cell leukemia.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia variant", "vs": "HCL-v is annexin A1 negative, CD25 negative, and BRAF V600E wild-type."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL is annexin A1 negative with nodular/intrasinusoidal marrow infiltration."},
+    {"dx": "Myeloid-rich reactive marrow", "vs": "Granulocytes are also annexin A1 positive, so double staining or comparison with CD20/PAX5 is needed to confirm that the positive cells are B cells."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: Annexin A1",
+  "match": "consistent",
+  "high_yield": true
+}

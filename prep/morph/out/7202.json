@@ -1,0 +1,22 @@
+{
+  "id": "7202",
+  "recognize_zh": "周邊血中有數顆大型細胞，細胞質豐富呈灰藍色並有細小空泡，核染色質細緻且核扭曲、摺疊或凹陷（promonocyte 樣），這些不成熟單核球樣細胞增加提示急性單核球性白血病。",
+  "features": [
+    "Increased large mononuclear cells, about 2 to 2.5 times the diameter of a red cell",
+    "Moderate to low N:C ratio with folded, indented or convoluted nuclei",
+    "Fine, delicate chromatin; nucleoli inconspicuous at this magnification",
+    "Abundant grey-blue cytoplasm with fine vacuoles and scattered fine azurophilic granules",
+    "Background shows a small lymphocyte, a band neutrophil, a platelet clump and normocytic red cells without schistocytes"
+  ],
+  "describe_en": "Peripheral blood smear shows several large mononuclear cells with abundant grey-blue, finely vacuolated cytoplasm containing sparse fine granules. Their nuclei are folded, indented or convoluted with fine, delicate chromatin, features of promonocytes and immature monocytes. A small lymphocyte and a band neutrophil are present; red cells are unremarkable and Auer rods are not seen. Findings are suggestive of acute monocytic leukemia; correlation with blast/promonocyte count, nonspecific esterase cytochemistry and flow cytometry (CD14, CD64, CD11b, CD36) is required.",
+  "ddx": [
+    {"dx": "Chronic myelomonocytic leukemia", "vs": "CMML contains mostly mature monocytes with clumped chromatin and lobulated nuclei, and promonocytes plus blasts are less than 20%."},
+    {"dx": "Reactive monocytosis", "vs": "Reactive monocytes have more condensed chromatin, lack a population of promonocytes/monoblasts, and resolve with the underlying infection or inflammation."},
+    {"dx": "Acute myelomonocytic leukemia", "vs": "AMML additionally has at least 20% neutrophil-lineage cells in the marrow with myeloblasts that may contain Auer rods, rather than an exclusively monocytic population."},
+    {"dx": "Acute promyelocytic leukemia, microgranular variant", "vs": "Microgranular APL cells have bilobed, butterfly-shaped nuclei, strong MPO positivity and PML::RARA, whereas monocytic cells are MPO weak and NSE positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

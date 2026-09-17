@@ -1,0 +1,22 @@
+{
+  "id": "60009",
+  "recognize_zh": "骨髓抹片中數顆母細胞核質比高、染色質細緻、有核仁與一圈嗜鹼性無顆粒細胞質，周圍大量不同成熟階段的紅系前驅細胞，底部還有一顆核分葉的紅系細胞（紅系發育不良）；母細胞增加加上發育不良背景，符合 AML-MRC。",
+  "features": [
+    "Several blasts with high N:C ratio, fine chromatin, one or more nucleoli, and a rim of basophilic agranular cytoplasm",
+    "Abundant erythroid precursors at polychromatic and orthochromatic stages with dense round nuclei",
+    "Lobulated or multinucleated erythroid precursor at bottom indicating dyserythropoiesis",
+    "Occasional granular cells with irregular nuclei, possibly promyelocytes or smudged granulocytes",
+    "No Auer rods identified"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows increased blasts with high nuclear to cytoplasmic ratio, fine chromatin, visible nucleoli, and scant to moderate basophilic agranular cytoplasm; Auer rods are not seen. The blasts are admixed with numerous erythroid precursors, including a precursor with nuclear lobation consistent with dyserythropoiesis. Occasional granular myeloid cells are also present. The blast count cannot be determined from a single field and requires a 500-cell differential; with the reported 26% blasts and dysplasia, the findings are consistent with acute myeloid leukemia with myelodysplasia-related changes.",
+  "ddx": [
+    {"dx": "Myelodysplastic syndrome with excess blasts", "vs": "MDS-EB shows identical dysplasia but fewer than 20% blasts on the aspirate differential, so the distinction rests on blast enumeration rather than morphology of individual cells."},
+    {"dx": "Pure erythroid leukemia", "vs": "Pure erythroid leukemia requires more than 80% erythroid precursors with at least 30% proerythroblasts, rather than myeloblasts accompanied by maturing normoblasts."},
+    {"dx": "Megaloblastic anemia", "vs": "Megaloblastic erythroid precursors show open sieve-like chromatin and nuclear-cytoplasmic asynchrony without an expanded myeloblast population."},
+    {"dx": "AML with mutated NPM1 or other defining genetic abnormality", "vs": "Multilineage dysplasia alone does not qualify for AML-MRC when NPM1 or biallelic CEBPA mutation is present, so molecular testing is required."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

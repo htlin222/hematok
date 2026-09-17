@@ -1,0 +1,21 @@
+{
+  "id": "2321",
+  "recognize_zh": "周邊血中一小群幼稚細胞：一顆細胞質深藍、有核仁的母細胞，一顆細胞質有細小嗜天青顆粒的前骨髓細胞樣細胞，左下另有核凹陷的幼稚顆粒球，顯示母細胞與未成熟骨髓細胞在血中循環。",
+  "features": [
+    "Cluster of three immature cells: blast with blue cytoplasm and visible nucleolus, and blasts/promyelocytes with fine azurophilic granules",
+    "Fine to slightly condensed chromatin with irregular or folded nuclear outlines",
+    "Separate immature granulocyte (myelocyte/metamyelocyte) with indented nucleus and granular pale cytoplasm at lower left",
+    "Smudged, disrupted cell at upper left",
+    "Background red cells with mild poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows a small cluster of immature myeloid cells, including a blast with basophilic cytoplasm and a nucleolus and granulated blasts or promyelocytes with fine azurophilic granules. An immature granulocyte with an indented nucleus and a smudged cell are also present. Red cells show mild poikilocytosis. In the context of CML, BCR-ABL1-positive, the circulating blasts and immature granulocytes support myeloid blast phase if the blast threshold is met.",
+  "ddx": [
+    {"dx": "CML, chronic phase with left shift", "vs": "Chronic phase shows a full spectrum dominated by myelocytes and neutrophils with few blasts, so blast enumeration is essential."},
+    {"dx": "Leukemoid reaction", "vs": "Leukemoid reactions show toxic granulation and Döhle bodies with few blasts, no basophilia and no BCR-ABL1."},
+    {"dx": "Acute myelomonocytic leukemia", "vs": "Monocytic cells with folded nuclei and gray cytoplasm are NSE positive, and absence of BCR-ABL1 separates de novo AML."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

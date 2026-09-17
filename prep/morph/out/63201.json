@@ -1,0 +1,20 @@
+{
+  "id": "63201",
+  "recognize_zh": "周邊血液抹片中央一顆小型成熟淋巴球，核深染、胞質很窄，但藍色胞質內有數個清楚的圓形小空泡（vacuole）；在溶小體貯積症（如 Niemann-Pick）的背景下，空泡化淋巴球是重要線索。",
+  "features": [
+    "Small mature lymphocyte with round nucleus, condensed chromatin and high N:C ratio",
+    "Narrow rim of pale blue cytoplasm containing several small, sharply punched-out clear vacuoles",
+    "No cytoplasmic granules or nuclear atypia",
+    "Background red cells mostly normocytic with a few paler irregular cells; scattered platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows a small mature lymphocyte with a round nucleus, condensed chromatin and a narrow rim of pale blue cytoplasm containing multiple small, discrete, sharply defined clear vacuoles. No granules or nuclear atypia are present. Background red cells are mostly unremarkable with a few paler cells, and scattered platelets are seen. Vacuolated lymphocytes are nonspecific in isolation but, in the appropriate context (hepatosplenomegaly, foamy marrow macrophages), are suggestive of a lysosomal storage disorder such as Niemann-Pick disease.",
+  "ddx": [
+    {"dx": "EDTA storage artifact", "vs": "Storage-related vacuolation affects many cell types, especially neutrophils and monocytes, in aged samples, whereas storage-disease vacuoles appear in fresh smears and in a consistent proportion of lymphocytes."},
+    {"dx": "Burkitt leukemia/lymphoma cells", "vs": "Burkitt cells are medium-sized with deeply basophilic cytoplasm, finely clumped chromatin and nucleoli, not small mature lymphocytes."},
+    {"dx": "Other storage disorders (Pompe, Wolman, mucopolysaccharidoses, neuronal ceroid lipofuscinosis)", "vs": "Vacuolated lymphocytes are shared, so enzyme assays or genetic testing, plus clues such as Alder-Reilly granules in mucopolysaccharidoses, are needed to separate them."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

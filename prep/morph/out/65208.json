@@ -1,0 +1,22 @@
+{
+  "id": "65208",
+  "recognize_zh": "骨髓切片與抹片中組織球吞噬紅血球與其他血球（hemophagocytosis，箭頭），CD3 顯示大量 T 細胞浸潤，流式見 CD4−/CD8− 的 γδ T 細胞擴增；周邊血嗜中性球細胞質內可見小顆粒狀嗜鹼性桑椹體（morula），指向 Anaplasma 感染引發的 HLH。",
+  "features": [
+    "Bone marrow biopsy: histiocytes with abundant cytoplasm containing engulfed red cells and nucleated cells (arrows)",
+    "Aspirate: large histiocyte with vacuolated gray-blue cytoplasm phagocytosing red cells and cellular debris",
+    "CD3 immunostain: markedly increased interstitial T cells",
+    "Flow cytometry: CD3+CD5+ T cells with a CD4-/CD8- double-negative population that is 93.7% TCR-gamma/delta positive",
+    "Peripheral blood neutrophil with a small, stippled basophilic intracytoplasmic inclusion (morula)"
+  ],
+  "describe_en": "Bone marrow biopsy and aspirate show histiocytes with prominent hemophagocytosis of red cells and nucleated cells. CD3 immunostaining reveals a substantial interstitial T-cell infiltrate, and flow cytometry identifies an expanded CD4/CD8 double-negative T-cell population expressing TCR gamma/delta. The peripheral blood smear shows a neutrophil containing a small basophilic granular intracytoplasmic inclusion consistent with a morula. Findings are consistent with hemophagocytic lymphohistiocytosis secondary to granulocytic anaplasmosis, with a reactive gamma/delta T-cell expansion (no clonal TCR rearrangement).",
+  "ddx": [
+    {"dx": "Hepatosplenic T-cell lymphoma", "vs": "HSTCL also shows gamma/delta T cells but with sinusoidal marrow infiltration by monotonous medium cells, isochromosome 7q, and clonal TCR rearrangement, which was absent."},
+    {"dx": "Ehrlichiosis (Ehrlichia chaffeensis)", "vs": "Ehrlichia morulae are found mainly in monocytes rather than neutrophils; PCR distinguishes the species."},
+    {"dx": "Döhle bodies or toxic granulation", "vs": "Döhle bodies are pale blue, peripheral, homogeneous cytoplasmic patches, whereas morulae are dark, stippled, berry-like clusters."},
+    {"dx": "Histiocytic sarcoma or malignancy-associated HLH", "vs": "Histiocytic sarcoma shows cytologically atypical, pleomorphic histiocytes forming sheets, whereas these histiocytes are bland with active phagocytosis."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; Wright-Giemsa; IHC: CD3; flow",
+  "match": "consistent",
+  "high_yield": true
+}

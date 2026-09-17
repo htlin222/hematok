@@ -1,0 +1,22 @@
+{
+  "id": "12889",
+  "recognize_zh": "四格周邊血中可見核濃縮成深紫色團塊、染色質碎裂、細胞質皺縮的凋亡淋巴球（apoptotic lymphocytes），以及一顆細胞質深藍、有空泡的反應性淋巴球；年輕人發燒咽喉痛時看到這些細胞，應聯想傳染性單核球增多症。",
+  "features": [
+    "Apoptotic lymphocytes with shrunken cells and condensed, pyknotic or fragmented dark nuclear chromatin",
+    "Apoptotic cells show irregular, retracted cytoplasm with blebbing",
+    "One reactive lymphocyte with deeply basophilic, vacuolated cytoplasm (top left)",
+    "Small dense round nucleus in a compact cell (top right) consistent with early apoptosis",
+    "Background red cells normocytic; occasional platelets"
+  ],
+  "describe_en": "Peripheral blood smear shows several apoptotic lymphocytes characterized by cell shrinkage, condensed pyknotic nuclei with chromatin fragmentation, and irregular retracted cytoplasm. A reactive lymphocyte with deeply basophilic, vacuolated cytoplasm is also present. Red cells and platelets are unremarkable. Increased circulating apoptotic lymphocytes accompanying reactive lymphocytes are a recognized clue to acute viral infection and, in a young adult with fever and pharyngitis, are suggestive of infectious mononucleosis; heterophile antibody and EBV serology are recommended.",
+  "ddx": [
+    {"dx": "Nucleated red blood cells", "vs": "Orthochromatic normoblasts have a single round dense nucleus in pink hemoglobinized cytoplasm, not grey-blue lymphoid cytoplasm with nuclear fragments."},
+    {"dx": "Smudge cells of chronic lymphocytic leukemia", "vs": "Smudge cells are crushed nuclei without cytoplasm, whereas apoptotic cells retain a cytoplasmic rim around condensed nuclear fragments."},
+    {"dx": "Storage artifact (delayed smear preparation)", "vs": "Aged EDTA samples show diffuse degenerative changes in many leukocyte types, including neutrophils, rather than selective apoptotic lymphocytes with reactive forms."},
+    {"dx": "Lymphoblasts or lymphoma cells", "vs": "Neoplastic cells have intact nuclei with fine or open chromatin and nucleoli, not pyknosis and karyorrhexis."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

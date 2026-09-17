@@ -1,0 +1,22 @@
+{
+  "id": "63069",
+  "recognize_zh": "腦脊髓液細胞離心抹片（cytospin）乾淨背景中，出現數顆中等大小、核質比高、染色質細緻且核有凹陷的單一型態母細胞，而不是成熟小淋巴球或單核球。",
+  "features": [
+    "Medium-sized mononuclear cells, roughly 1.5-2x the diameter of adjacent red cells",
+    "High N:C ratio with a thin rim of pale blue cytoplasm",
+    "Round to indented/cleaved nuclei with finely dispersed chromatin",
+    "Nucleoli inconspicuous to small; no cytoplasmic granules or Auer rods",
+    "Monotonous population on a clean, acellular background with a few crenated red cells"
+  ],
+  "describe_en": "Cytospin preparation of cerebrospinal fluid shows a paucicellular, clean background containing a monotonous population of medium-sized blasts. The cells have high nuclear-to-cytoplasmic ratios, round to indented nuclei with fine chromatin and inconspicuous nucleoli, and scant agranular basophilic cytoplasm. Mature small lymphocytes, monocytes and neutrophils are not seen in this field. In a patient with known B-lymphoblastic leukemia, findings are consistent with CNS involvement by B-lymphoblastic leukemia, confirmed by flow cytometry (CD19+, CD10+, CD22+).",
+  "ddx": [
+    {"dx": "Reactive lymphocytes in CSF", "vs": "Reactive CSF lymphocytes are a mixed population with mature condensed chromatin and variable cytoplasm, not uniform fine-chromatin blasts."},
+    {"dx": "Monocytes/histiocytes in CSF", "vs": "Monocytoid cells have more abundant grey vacuolated cytoplasm and folded nuclei with lower N:C ratio."},
+    {"dx": "Traumatic tap with peripheral blood contamination", "vs": "A bloody tap shows numerous red cells with blood-proportional leukocytes, whereas this sample is clean with a predominant blast population."},
+    {"dx": "CNS involvement by AML or lymphoma", "vs": "Morphology alone cannot reliably separate lineage; flow cytometry showing CD19/CD10/CD22 without myeloid markers establishes B-lymphoblasts."}
+  ],
+  "specimen": "CSF",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

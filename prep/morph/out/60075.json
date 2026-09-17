@@ -1,0 +1,22 @@
+{
+  "id": "60075",
+  "recognize_zh": "視野中央是一個邊界不清、細胞質破碎的巨噬細胞，內含許多藍黑至藍綠色粗顆粒（含鐵血黃素 hemosiderin），並夾雜被吞噬或黏附的核碎片與細胞；周圍有分葉嗜中性球與含顆粒的前驅細胞。在 Diamond-Blackfan anemia（常反覆輸血）骨髓中，含鐵血黃素巨噬細胞增加反映鐵過量。",
+  "features": [
+    "Central macrophage with ill-defined, disrupted cytoplasm containing coarse blue-black to blue-green granular pigment (hemosiderin)",
+    "Engulfed or adherent nuclear debris and cells within the macrophage cluster",
+    "Surrounding myeloid cells: segmented neutrophils, a myelocyte, and a granulated precursor with coarse reddish granules (likely eosinophil precursor)",
+    "Small lymphocyte adjacent to the macrophage",
+    "No erythroid precursors in this field; red cells show brown staining artifact"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a macrophage with ill-defined, partially disrupted cytoplasm containing abundant coarse blue-black to blue-green granular pigment consistent with hemosiderin, together with engulfed or adherent nuclear debris. Surrounding cells include segmented neutrophils, myelocytes, a coarsely granulated eosinophil precursor, and a small lymphocyte, while erythroid precursors are not seen in this field. The pigment identity should be confirmed with a Prussian blue stain. Findings are consistent with hemosiderin-laden macrophages, in keeping with increased storage iron, which in Diamond-Blackfan anemia commonly reflects transfusional iron overload.",
+  "ddx": [
+    {"dx": "Pseudo-Gaucher cells / sea-blue histiocytes", "vs": "Show striated or foamy cytoplasm with sea-blue granules that are Prussian blue negative, in contrast to coarse iron-positive hemosiderin granules."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "Macrophages contain intact engulfed red cells, nucleated cells, or platelets in increased numbers with a compatible clinical syndrome, rather than predominantly hemosiderin pigment."},
+    {"dx": "Basophils or mast cells", "vs": "Have dark metachromatic granules within an intact cell with a distinct nucleus, whereas this is a large histiocyte with pigment and debris."},
+    {"dx": "Stain precipitate", "vs": "Precipitate lies on top of cells and background in random distribution and is not confined to a macrophage; Prussian blue confirms true iron."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

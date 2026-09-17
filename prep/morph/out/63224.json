@@ -1,0 +1,21 @@
+{
+  "id": "63224",
+  "recognize_zh": "Giemsa 厚片中紅血球已溶解，背景散布多個帶紅色染色質點與破碎藍色胞質的小型滋養體；右上方一顆較大、圓形、含棕色色素顆粒的蟲體可視為配子體（gametocyte），兩顆白血球可作大小參考。",
+  "features": [
+    "Lysed red cell background with faint pink stippled ghost outlines",
+    "Multiple small trophozoites with red chromatin dots and irregular, fragmented blue cytoplasm",
+    "Larger round, compact parasite at upper right with dispersed golden-brown pigment, interpreted as a gametocyte",
+    "Two leukocytes (lobulated nuclei) for scale; no banana-shaped gametocytes",
+    "Resolution does not allow reliable separation of a gametocyte from a mature trophozoite"
+  ],
+  "describe_en": "Giemsa-stained thick blood film shows a lysed erythrocyte background with numerous malaria parasites and two leukocytes. Most parasites are small trophozoites with red chromatin dots and irregular, fragmented blue cytoplasm, some within faint stippled ghost red cells. At the upper right, a larger round, compact parasite containing dispersed golden-brown pigment is consistent with the gametocyte described, although at this resolution it cannot be firmly separated from a mature trophozoite. No crescentic falciparum gametocytes are seen. This image is identical to a companion thick-film image. Findings are consistent with Plasmodium vivax, with species confirmation best made on the thin film.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum", "vs": "Falciparum gametocytes are banana-shaped and asexual stages in blood are usually limited to small compact rings."},
+    {"dx": "Plasmodium malariae", "vs": "Malariae shows compact trophozoites with coarse dark pigment and no Schüffner's stippling of ghost cells; thin film shows small, non-enlarged infected cells."},
+    {"dx": "Leukocyte or platelet clump", "vs": "White cells have large lobulated nuclei and platelet clumps are granular without discrete chromatin dots or hemozoin pigment."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

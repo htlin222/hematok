@@ -1,0 +1,20 @@
+{
+  "id": "61411",
+  "recognize_zh": "CD21 染色（100x）在大型腫瘤細胞片中呈現稀疏、斷裂且不規則的濾泡樹突細胞（FDC）網狀結構，腫瘤細胞本身陰性，提示腫瘤呈濾泡/結節性生長並破壞原有濾泡，符合 IRF4 重組大B細胞淋巴瘤的背景結構。",
+  "features": [
+    "CD21 highlights an irregular, loose and fragmented follicular dendritic cell meshwork with branching dendritic processes",
+    "Meshwork extends through sheets of tumor cells rather than forming compact, well-circumscribed follicles",
+    "Neoplastic large cells with round to oval nuclei are CD21-negative (hematoxylin counterstain only)",
+    "Pale intervening areas and a small vessel without meshwork"
+  ],
+  "describe_en": "CD21 immunohistochemistry at 100x shows an irregular, expanded and disrupted follicular dendritic cell meshwork permeating sheets of large tumor cells, which are themselves negative. Well-formed, compact follicular dendritic networks of reactive follicles are not seen. The findings indicate a follicular/nodular growth pattern with effacement of normal follicles, supporting the architecture described in large B-cell lymphoma with IRF4 rearrangement.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "FL shows CD21+ meshworks in back-to-back follicles of centrocytes/centroblasts that are typically BCL2-positive and MUM1-negative without IRF4 rearrangement."},
+    {"dx": "Diffuse large B-cell lymphoma, NOS", "vs": "DLBCL NOS generally lacks residual FDC meshworks, whereas IRF4-rearranged LBCL often retains a follicular pattern."},
+    {"dx": "Angioimmunoblastic T-cell lymphoma", "vs": "AITL shows expanded CD21+ FDC meshworks around high endothelial venules with atypical CD4+/PD1+/CD10+ T cells rather than sheets of B cells."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD21",
+  "match": "consistent",
+  "high_yield": false
+}

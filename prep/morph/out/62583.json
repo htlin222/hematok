@@ -1,0 +1,20 @@
+{
+  "id": "62583",
+  "recognize_zh": "CD10 染色中，密集的中等大小淋巴瘤細胞大多為陰性，只有散在細胞呈強陽性；這提醒你高分級濾泡性淋巴瘤（grade 3）可失去 CD10 表現，不能因 CD10 陰性就排除 FL。",
+  "features": [
+    "Dense population of medium-sized lymphoid cells with round to oval nuclei, largely CD10-negative",
+    "Scattered individual cells with strong membranous/cytoplasmic CD10 staining, more numerous at the right of the field",
+    "Weak, granular background staining between cells without a crisp membranous pattern in the tumor cells",
+    "No discrete CD10-positive follicle-center pattern delineated in this field"
+  ],
+  "describe_en": "CD10 immunohistochemistry shows a sheet of medium-sized lymphoid cells that are predominantly negative, with only faint background staining. Scattered cells, clustered toward one side of the field, show strong CD10 positivity; these may represent residual germinal-center cells or granulocytes and do not account for the bulk of the infiltrate. The neoplastic population therefore appears largely CD10-negative in this field. Loss or reduction of CD10 is recognized in grade 3 follicular lymphoma, particularly grade 3B, and interpretation should be integrated with BCL6, BCL2 and the H&E findings.",
+  "ddx": [
+    {"dx": "Nodal marginal zone lymphoma", "vs": "MZL is also CD10-negative but lacks BCL6 expression and centroblast-rich follicular nodules, and shows monocytoid morphology."},
+    {"dx": "Reactive follicular hyperplasia", "vs": "Reactive germinal centers are uniformly CD10-positive and sharply confined to follicles with BCL2-negative germinal centers."},
+    {"dx": "Follicular lymphoma grade 1-2", "vs": "Low-grade FL is typically diffusely CD10-positive within neoplastic follicles, whereas CD10 loss favors higher grade."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD10",
+  "match": "consistent",
+  "high_yield": false
+}

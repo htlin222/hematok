@@ -1,0 +1,22 @@
+{
+  "id": "63606",
+  "recognize_zh": "中央一顆白血球的細胞質內充滿大小不一、比一般顆粒明顯粗大的深紫色圓形或不規則包涵體，部分遮蓋細胞核，病人有 AML 化療史，符合假性 Chediak-Higashi 顆粒（pseudo-Chediak-Higashi granules）；背景紅血球上的小黑點為染料沉澱。",
+  "features": [
+    "Single leukocyte slightly larger than surrounding red cells",
+    "Cytoplasm containing numerous large, round to irregular, dark purple inclusions much coarser than normal azurophilic granules",
+    "Inclusions partly overlie a dark, irregular nucleus, obscuring nuclear detail",
+    "Background red cells with abundant fine dark dots consistent with stain precipitate artifact",
+    "Image resolution and overlying granules limit assessment of chromatin and nucleoli"
+  ],
+  "describe_en": "Peripheral blood smear shows a leukocyte whose cytoplasm is filled with multiple large, round to irregular, dark purple inclusions that are considerably larger than normal azurophilic granules and partly obscure the nucleus. The background red cells are overlaid by fine dark stain precipitate, which should not be mistaken for inclusions. Nuclear detail is limited by the granules and image resolution. In a patient treated for acute myeloid leukemia, the findings are consistent with pseudo-Chediak-Higashi granules in a myeloid cell.",
+  "ddx": [
+    {"dx": "Chediak-Higashi syndrome", "vs": "Inherited Chediak-Higashi shows giant granules in all granulocytes, lymphocytes and monocytes with albinism and infections, rather than in a subset of neoplastic myeloid cells."},
+    {"dx": "Basophil", "vs": "Basophil granules are uniformly dense purple-black and water-soluble, filling the cell in a smaller, more regular pattern than giant fused inclusions."},
+    {"dx": "Toxic granulation", "vs": "Toxic granules are fine, evenly distributed dark granules in mature neutrophils, not giant irregular inclusions."},
+    {"dx": "Alder-Reilly anomaly", "vs": "Alder-Reilly granules are dense, uniform and present in all leukocytes of patients with mucopolysaccharidoses."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "61212",
+  "recognize_zh": "九宮格中的淋巴球為小至中型、核圓略有凹陷、染色質致密，細胞質淡藍且中等量，部分細胞一側有短絨毛狀突起（polar villi），但未見嗜天青顆粒，屬於邊緣區型淋巴球而非大顆粒淋巴球。",
+  "features": [
+    "Small to medium lymphocytes with round to slightly indented or angulated nuclei and condensed chromatin",
+    "Moderate amounts of pale blue-grey cytoplasm, more abundant than in normal small lymphocytes",
+    "Several cells show short, often polar cytoplasmic projections (villous lymphocytes)",
+    "No visible azurophilic granules in the cytoplasm",
+    "Occasional nucleoli are not prominent; a normal segmented neutrophil is present for comparison",
+    "Normochromic red cells without significant poikilocytosis"
+  ],
+  "describe_en": "Peripheral blood smear shows an increase of small to medium-sized lymphocytes with round to slightly indented nuclei, condensed chromatin and moderate amounts of pale blue-grey cytoplasm. Several cells display short, predominantly polar cytoplasmic villous projections, and cytoplasmic azurophilic granules are not seen. Red cells are unremarkable. The findings represent a marginal zone-type lymphocytosis that can be mistaken for large granular lymphocytes at a glance; flow cytometry demonstrating a clonal B-cell population is required, and findings in the appropriate context are suggestive of circulating marginal zone lymphoma.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "LGLs have abundant clear cytoplasm with distinct azurophilic granules and a CD3+CD8+CD57+ phenotype, whereas these cells lack granules and are B cells."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells have circumferential fine projections, oval to bean-shaped nuclei with looser chromatin, and are CD11c/CD25/CD103/CD123 positive with BRAF V600E."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL cells have scant cytoplasm, clumped soccer-ball chromatin and smudge cells, with CD5+CD23+ phenotype."},
+    {"dx": "Mantle cell lymphoma, leukemic", "vs": "MCL cells often have irregular nuclei without villi, are CD5 positive and cyclin D1/SOX11 positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

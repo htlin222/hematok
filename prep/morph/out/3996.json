@@ -1,0 +1,22 @@
+{
+  "id": "3996",
+  "recognize_zh": "骨髓切片中央組織球淡染的細胞質內充滿數十個大小一致、約 2–3 µm 的小圓形點狀體，成群聚集，即 Leishman-Donovan bodies；H&E 下看不到動基體，需 Giemsa 或 PCR 確認。",
+  "features": [
+    "Central histiocyte with abundant pale cytoplasm packed with numerous uniform tiny round bodies (~2–3 µm)",
+    "Additional histiocytes with granular dot-like inclusions in the upper field",
+    "Scattered plasma cells, lymphocytes and erythroid/myeloid precursors",
+    "Edematous, poorly fixed marrow with vacuolated stroma; out-of-focus tissue fold on the left",
+    "Kinetoplast not visible at this resolution"
+  ],
+  "describe_en": "H&E section of bone marrow biopsy shows edematous, poorly preserved marrow with scattered plasma cells, lymphocytes and hematopoietic precursors. A centrally located histiocyte contains numerous uniform, round intracytoplasmic bodies approximately 2–3 µm in diameter, and similar inclusions are present in adjacent histiocytes. The nucleus and kinetoplast of the organisms cannot be resolved on this section. Findings are consistent with Leishman-Donovan bodies (Leishmania amastigotes) of visceral leishmaniasis in an HIV-infected patient; confirmation by Giemsa-stained aspirate, culture or PCR is recommended.",
+  "ddx": [
+    {"dx": "Histoplasma capsulatum", "vs": "Histoplasma yeasts show a pericellular halo, no kinetoplast, and positive GMS/PAS staining."},
+    {"dx": "Talaromyces marneffei", "vs": "Talaromyces yeasts are GMS-positive with a central transverse septum rather than a kinetoplast."},
+    {"dx": "Toxoplasma pseudocyst", "vs": "Toxoplasma bradyzoites lack a kinetoplast and are confirmed by Toxoplasma immunostain."},
+    {"dx": "Phagocytosed apoptotic debris", "vs": "Apoptotic debris varies in size and density rather than forming uniform ovoid bodies."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "61647",
+  "recognize_zh": "高倍下左側是一片大型細胞，核圓、染色質細緻、有小核仁、細胞質雙嗜色，右側骨髓則充滿帶鮮紅顆粒的嗜酸性球與成熟顆粒球；未成熟紅系前驅細胞片狀聚集緊鄰大量嗜酸性球，是 PCM1::JAK2 腫瘤的典型組合。",
+  "features": [
+    "Sheet of large immature cells with round nuclei, fine chromatin, small nucleoli and moderate amphophilic cytoplasm (left)",
+    "Distinct cell borders within the sheet and sharp interface with adjacent marrow",
+    "Adjacent marrow with numerous eosinophils and eosinophilic myelocytes containing bright red granules (right)",
+    "Maturing neutrophilic granulocytes and scattered red cells in the background",
+    "Bony trabecula at the top of the field"
+  ],
+  "describe_en": "High-power view of the bone marrow biopsy shows, on the left, a sheet of large immature cells with round nuclei, fine chromatin, small nucleoli and moderate amphophilic cytoplasm with distinct cell borders. On the right, the adjacent marrow shows maturing granulocytes with numerous eosinophils and eosinophilic precursors containing bright red granules. The immature cell sheets correspond to glycophorin C-positive erythroid precursors on immunostaining. The juxtaposition of expanded immature erythroid islands and marrow eosinophilia is consistent with myeloid/lymphoid neoplasm with PCM1::JAK2.",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with PDGFRA/PDGFRB/FGFR1 rearrangement", "vs": "These share marrow eosinophilia but lack the characteristic immature erythroid islands, and are distinguished by FISH/molecular testing."},
+    {"dx": "Acute myeloid leukemia with eosinophilia (e.g., CBFB::MYH11)", "vs": "AML with inv(16) shows CD34/CD117-positive blasts and abnormal eosinophils with basophilic granules, not glycophorin-positive erythroid sheets."},
+    {"dx": "Systemic mastocytosis with eosinophilia", "vs": "Mast cell aggregates have spindled or ovoid cells with clear cytoplasm and are tryptase/CD117/CD25 positive."},
+    {"dx": "Chronic eosinophilic leukemia", "vs": "CEL shows eosinophilia without large erythroid islands and lacks a defining tyrosine kinase fusion."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

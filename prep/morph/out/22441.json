@@ -1,0 +1,21 @@
+{
+  "id": "22441",
+  "recognize_zh": "這是周邊血液流式細胞圖（FLAER 對 CD55/CD59）：A 為正常對照，99.75% 細胞 FLAER 與 CD55/59 皆陽性；B 病人有 97.84% 細胞兩者皆陰性，代表 GPI 錨定蛋白缺失的大型 PNH 克隆。",
+  "features": [
+    "Two-parameter dot plots: FITC-FLAER (x-axis) versus PE-CD55/CD59 (y-axis)",
+    "Panel A: single population in the upper right quadrant (99.75% FLAER+/CD55-59+), a normal GPI-anchor pattern",
+    "Panel B: dominant population in the lower left quadrant (97.84% FLAER-negative/CD55-59-negative)",
+    "Panel B: small residual FLAER+/CD55-59+ normal population (0.47%) and a minor CD55/59-partial population",
+    "Lineage gate is not labeled on the plot"
+  ],
+  "describe_en": "Flow cytometric analysis of peripheral blood compares FLAER binding with CD55/CD59 expression. In the control plot (A), virtually all events (99.75%) are FLAER-positive and CD55/CD59-positive. In the patient sample (B), 97.84% of gated events are negative for both FLAER and CD55/CD59, with only a tiny residual normal population. Findings indicate a large glycosylphosphatidylinositol (GPI)-anchor-deficient clone consistent with paroxysmal nocturnal hemoglobinuria; clone size should be reported separately for granulocytes, monocytes and red cells (type II/III) per high-sensitivity guidelines.",
+  "ddx": [
+    {"dx": "Aplastic anemia with a small PNH clone", "vs": "Aplastic anemia typically harbors small clones (often <10%), whereas this plot shows a near-total GPI-deficient population."},
+    {"dx": "Recent transfusion masking a red-cell PNH clone", "vs": "Transfused normal red cells dilute the red-cell clone, so granulocyte FLAER analysis, as used here, is more reliable."},
+    {"dx": "Congenital CD59 or CD55 deficiency (Inab phenotype)", "vs": "Isolated inherited deficiency affects a single antigen on all cells while FLAER binding remains normal."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": true
+}

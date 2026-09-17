@@ -1,0 +1,22 @@
+{
+  "id": "61002",
+  "recognize_zh": "低倍骨髓穿刺切片中，骨小樑之間的髓腔幾乎完全被造血細胞填滿，幾乎看不到脂肪空泡，細胞量接近 100%，遠高於成人依年齡預期，即為高度細胞化骨髓（hypercellular marrow）。",
+  "features": [
+    "Bone marrow core with thin, irregular bony trabeculae",
+    "Near 100% cellularity with intertrabecular spaces packed by hematopoietic cells",
+    "Near-complete absence of adipocytes",
+    "Mottled pale and dark areas suggesting sheets of myeloid cells; no discrete lymphoid aggregates or granulomas",
+    "Cytologic detail and megakaryocyte morphology not assessable at this magnification"
+  ],
+  "describe_en": "Low-power H&E section of a bone marrow core biopsy shows a markedly hypercellular marrow (approximately 95-100% cellularity) in which the intertrabecular spaces are almost entirely replaced by hematopoietic cells with near-complete loss of fat. Bony trabeculae are thin but present. No granulomas, discrete lymphoid aggregates or cohesive metastatic nests are evident at this magnification, and cytologic detail cannot be assessed. The marked hypercellularity is consistent with a myeloproliferative process such as atypical CML in the appropriate clinical and genetic context.",
+  "ddx": [
+    {"dx": "Chronic myeloid leukemia, BCR::ABL1-positive", "vs": "Also produces a packed marrow; separation requires BCR::ABL1 testing and higher-power evaluation for dwarf megakaryocytes and absence of dysgranulopoiesis."},
+    {"dx": "Acute myeloid leukemia", "vs": "AML shows sheets of blasts on higher power and CD34 immunostaining with >=20% blasts, rather than maturing granulocytes."},
+    {"dx": "Reactive hypercellularity (infection, G-CSF, hemolysis)", "vs": "Reactive marrows show orderly maturation without dysplasia or clonal abnormalities and often have a known stimulus."},
+    {"dx": "Primary myelofibrosis, prefibrotic", "vs": "Prefibrotic PMF has clustered atypical megakaryocytes with cloud-like nuclei and JAK2/CALR/MPL mutation, evaluated at higher power."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": false
+}

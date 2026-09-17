@@ -1,0 +1,21 @@
+{
+  "id": "64182",
+  "recognize_zh": "低倍周邊血液抹片中，整個視野布滿大量深藍紫色的小圓形淋巴球，並散布許多淡紫色、形狀不規則的破碎細胞（smudge cells），即使在低倍下就能看出白血球明顯增加且以小淋巴球為主，提示 CLL。",
+  "features": [
+    "Marked leukocytosis evident at low power, composed predominantly of small round dark lymphocytes",
+    "Numerous smudge cells appearing as pale lilac, irregular, flattened nuclear remnants",
+    "Monotonous population without obvious large blasts at this magnification",
+    "Red cells evenly spread in a monolayer",
+    "Low magnification precludes assessment of chromatin detail"
+  ],
+  "describe_en": "Low-power view of the peripheral blood smear shows a marked increase in leukocytes, which are predominantly small, round, dark lymphocytes distributed evenly among the red cells. Numerous smudge cells are present. Detailed cytology cannot be assessed at this magnification, but no large blast population is apparent. Findings are suggestive of chronic lymphocytic leukemia; high-power review and flow cytometry are required for confirmation.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma, leukemic", "vs": "MCL may mimic CLL at low power but usually has fewer smudge cells and more irregular nuclei, with cyclin D1 positivity."},
+    {"dx": "Reactive lymphocytosis", "vs": "Reactive lymphocytes are heterogeneous in size with abundant cytoplasm and are polyclonal, and smudge cells are few."},
+    {"dx": "Acute lymphoblastic leukemia", "vs": "ALL blasts are larger with fine chromatin and nucleoli on high power and are TdT-positive."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

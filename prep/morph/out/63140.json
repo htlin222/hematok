@@ -1,0 +1,30 @@
+{
+ "id": "63140",
+ "recognize_zh": "CD3 圈選的 T 細胞中，CD4+（綠）族群遠多於 CD8+（紅），CD4:CD8 比值明顯升高，是 Sézary 症候群流式判讀的重要線索之一。",
+ "features": [
+  "Dot plot gated on CD3+ T cells: CD4-FITC (x) versus CD8-ECD (y)",
+  "Large CD4+CD8− population (green) dominating the T-cell compartment",
+  "Relatively small CD8+CD4− population (red)",
+  "No significant CD4/CD8 double-positive or double-negative population",
+  "Markedly increased CD4:CD8 ratio"
+ ],
+ "describe_en": "Flow cytometry of peripheral blood gated on CD3-positive T cells shows a marked predominance of CD4-positive over CD8-positive T cells, with a strikingly elevated CD4:CD8 ratio. No abnormal double-positive or double-negative T-cell population is seen on this plot. An elevated CD4:CD8 ratio (≥10) together with loss of CD7 and/or CD26 on CD4+ cells supports blood involvement by Sézary syndrome.",
+ "ddx": [
+  {
+   "dx": "Reactive CD4 lymphocytosis / inflammatory erythroderma",
+   "vs": "Reactive states rarely raise the CD4:CD8 ratio to ≥10 and lack an antigen-deficient (CD7−/CD26−) clonal CD4+ population."
+  },
+  {
+   "dx": "T-cell prolymphocytic leukemia",
+   "vs": "T-PLL is often CD4+ but may be CD4/CD8 co-expressing, retains CD7, and shows TCL1 rearrangement."
+  },
+  {
+   "dx": "Adult T-cell leukemia/lymphoma",
+   "vs": "ATLL is CD4+ with CD25 bright expression and HTLV-1 serology/proviral integration."
+  }
+ ],
+ "specimen": "flow",
+ "stain": "N/A",
+ "match": "non-morphologic",
+ "high_yield": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1704",
+  "recognize_zh": "這張骨髓抹片看到的是各階段混合的造血細胞：成熟中的顆粒球（帶狀核、分葉核）、深染圓核的紅血球前驅細胞、少數較大的早期細胞，並未見成片單調的母細胞，型態與「雙表型急性白血病」標題不完全吻合，可能為治療後或殘存正常造血區域。",
+  "features": [
+    "Mixed marrow cell population rather than a monotonous blast sheet",
+    "Maturing granulocytes including bands and segmented neutrophils",
+    "Numerous erythroid precursors with small, round, dense nuclei (orthochromatic/polychromatic normoblasts)",
+    "Scattered larger immature cells with fine chromatin and moderate cytoplasm, not forming a dominant population",
+    "Background of red cells and several fat vacuoles"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a mixed population of hematopoietic cells, including maturing granulocytes (bands and segmented forms), abundant erythroid precursors with dense round nuclei, and scattered larger immature cells with fine chromatin. Fat vacuoles and red cells are present in the background. A monotonous population of blasts is not seen in this field, so the image does not by itself demonstrate acute leukemia as the title implies; it may represent a regenerating or post-treatment marrow or a less-involved area. A formal blast count and flow cytometric assessment for residual disease are required.",
+  "ddx": [
+    {"dx": "Regenerating post-chemotherapy marrow", "vs": "Shows orderly trilineage recovery with erythroid and granulocytic maturation, as in this field, and blasts below 5% on count and MRD flow."},
+    {"dx": "Residual mixed-phenotype acute leukemia", "vs": "Would show a discrete population of blasts on a differential count and an aberrant immunophenotype on flow cytometry, not evident morphologically here."},
+    {"dx": "Myelodysplastic syndrome", "vs": "Would show dysplastic features such as megaloblastoid erythroid nuclei, hypogranular neutrophils or micromegakaryocytes, which are not clearly seen."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "63043",
+  "recognize_zh": "A 圖血清蛋白電泳病人道有兩條異常帶（星號），B 圖免疫固定電泳在 IgG（γ）道出現對應帶（箭頭），但 kappa 與 lambda 道皆無相對應帶，代表只有游離 γ 重鏈；C–E 組織為成片漿細胞樣淋巴球／漿細胞，G、H 輕鏈免疫染色陰性，符合 γ 重鏈病。",
+  "features": [
+    "Panel A: serum protein electrophoresis with two abnormal bands (asterisks) in the patient lane compared with control",
+    "Panel B: immunofixation showing bands in the IgG (gamma) lane (arrowheads) without corresponding kappa or lambda bands",
+    "Panels C-E (H&E): diffuse sheets of small to medium lymphoplasmacytic cells and plasma cells with eccentric round nuclei, clumped chromatin and moderate cytoplasm",
+    "Panels F and I: immunostains with diffuse positivity in the infiltrate (markers not labeled)",
+    "Panels G and H: kappa and lambda light-chain stains essentially negative apart from rare cells"
+  ],
+  "describe_en": "Composite figure combining protein studies and histology. Serum protein electrophoresis shows two abnormal bands, and immunofixation localizes them to the IgG heavy-chain lane with no matching kappa or lambda light-chain bands, indicating a free gamma heavy chain. Tissue sections show diffuse sheets of lymphoplasmacytic cells and plasma cells with eccentric nuclei, and immunostains show diffuse positivity for markers in panels F and I with absence of kappa and lambda light-chain expression. Findings are consistent with gamma heavy chain disease, here arising in a patient with systemic lupus erythematosus.",
+  "ddx": [
+    {"dx": "IgG plasma cell myeloma or plasmacytoma", "vs": "Myeloma produces an intact IgG with a matching kappa or lambda band on immunofixation and light-chain-restricted plasma cells, whereas heavy chain disease lacks light chains."},
+    {"dx": "Lymphoplasmacytic lymphoma", "vs": "LPL usually secretes intact IgM with light-chain restriction and MYD88 L265P, not a free gamma chain without light chains."},
+    {"dx": "Reactive plasmacytosis in autoimmune disease", "vs": "Reactive plasma cells are polytypic with both kappa and lambda positive cells and polyclonal gammopathy, unlike light-chain-negative sheets with a discrete band."},
+    {"dx": "Alpha heavy chain disease", "vs": "Alpha HCD involves IgA heavy chain in intestinal mucosa, identified in the IgA lane rather than the IgG lane."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC; SPEP/immunofixation",
+  "match": "consistent",
+  "high_yield": false
+}

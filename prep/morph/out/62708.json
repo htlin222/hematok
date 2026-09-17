@@ -1,0 +1,21 @@
+{
+  "id": "62708",
+  "recognize_zh": "這張血液抹片看不到母細胞（blasts）：大多數紅血球內有均勻的細小藍點，中央一個多角形、無明顯細胞核的粉紅色大構造，邊緣聚集深藍色顆粒。這些發現不能用來診斷 MPAL，需搭配流式細胞儀。",
+  "features": [
+    "No blasts or other nucleated leukocytes in this field",
+    "Numerous RBCs contain fine, evenly distributed punctate blue dots (basophilic stippling versus stain precipitate)",
+    "Large polygonal pink anucleate structure (~3 RBC diameters) with clumped dark blue granules at its periphery; nature indeterminate (possible artifact or smudged/degenerated cell)",
+    "Some crenated RBCs (echinocyte-like, likely drying artifact)",
+    "No platelet clumps or schistocytes in view"
+  ],
+  "describe_en": "Peripheral blood smear field shows red cells, many of which contain fine punctate basophilic dots that may represent basophilic stippling or stain precipitate, together with scattered crenated forms. A large polygonal eosinophilic anucleate structure with peripheral clusters of coarse blue granules is present; its identity cannot be established at this resolution and it may be artifactual or a degenerated cell. No blasts are identified in this field. The image does not by itself demonstrate the features of mixed phenotype acute leukemia; the diagnosis rests on blast enumeration and flow cytometric lineage assignment (MPO plus strong CD19 with CD79a/CD22/CD10).",
+  "ddx": [
+    {"dx": "Basophilic stippling (lead poisoning, thalassemia, MDS)", "vs": "True stippling shows variably sized RBC granules in a subset of cells, whereas uniform dots in nearly every RBC and on the background favor stain precipitate."},
+    {"dx": "Pappenheimer bodies", "vs": "Pappenheimer bodies are few, clustered at the RBC periphery and Prussian blue positive, unlike diffuse fine dots in most cells."},
+    {"dx": "Smudged/degranulating basophil or mast cell", "vs": "A basophil or mast cell would show a recognizable nucleus with metachromatic granules throughout the cytoplasm rather than an anucleate pink plate with peripheral granule clumps."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "discordant",
+  "high_yield": false
+}

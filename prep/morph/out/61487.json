@@ -1,0 +1,21 @@
+{
+  "id": "61487",
+  "recognize_zh": "低倍血片中血小板數量少，箭頭標示的血小板偏大且呈淡灰藍色；高倍（B、C）可見與紅血球等大或更大的巨大血小板，細胞質淡灰、幾乎沒有紫色 α 顆粒，符合灰色血小板症候群（gray platelet syndrome）。",
+  "features": [
+    "Panel A: thrombocytopenia with only scattered platelets (arrows), several enlarged and pale",
+    "Panels B and C: giant platelets approaching or exceeding red cell size",
+    "Platelet cytoplasm pale gray-blue and largely agranular, with only faint residual granular stippling",
+    "Red cells and background otherwise unremarkable; no platelet clumps or satellitism seen"
+  ],
+  "describe_en": "Peripheral blood smear shows thrombocytopenia with scattered enlarged platelets (arrows, panel A). At high power (panels B and C), the platelets are large to giant, comparable to or larger than red cells, with pale gray-blue cytoplasm that lacks normal purple azurophilic (alpha) granules. Red cell morphology is otherwise unremarkable and no platelet clumping is present. Findings are consistent with gray platelet syndrome (alpha-granule deficiency); confirmation by electron microscopy showing absent alpha granules and NBEAL2 genetic testing is recommended.",
+  "ddx": [
+    {"dx": "Bernard-Soulier syndrome", "vs": "Giant platelets in Bernard-Soulier retain normal purple granules, and the defect is absent ristocetin aggregation with GPIb-IX-V deficiency."},
+    {"dx": "MYH9-related disorder", "vs": "MYH9 disorders have normally granulated giant platelets plus Döhle-like inclusions in neutrophils."},
+    {"dx": "In vitro degranulation (EDTA/storage artifact)", "vs": "Artifactual pale platelets are normal-sized and disappear on a fresh or citrated sample, whereas gray platelets are large and persistent."},
+    {"dx": "Immune thrombocytopenia", "vs": "ITP has large but well-granulated platelets, while here the platelets are distinctly agranular and gray."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

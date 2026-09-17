@@ -1,0 +1,22 @@
+{
+  "id": "3370",
+  "recognize_zh": "高倍免疫染色下，許多大型細胞的豐富細胞質呈粗顆粒狀棕色陽性，核小而偏位（藍色），周圍小型造血細胞為陰性，這種顆粒狀細胞質染色是組織球標記（多為 CD68）的特徵，支持骨髓組織球增多。",
+  "features": [
+    "Large cells with abundant cytoplasm showing coarse granular brown cytoplasmic positivity",
+    "Positive cells have small round-to-oval nuclei, some eccentric, and ill-defined borders",
+    "Some positive cells have a vacuolated or foamy cytoplasm with a peripheral rim of staining",
+    "Background small hematopoietic cells with negative hematoxylin-stained nuclei",
+    "Antibody not labeled; granular lysosomal pattern is typical of CD68"
+  ],
+  "describe_en": "High-power immunohistochemical stain of bone marrow shows numerous large cells with abundant cytoplasm displaying coarse granular brown positivity, small eccentric nuclei and focally vacuolated cytoplasm, while surrounding hematopoietic cells are negative. The antibody is not labeled in the image; the granular lysosomal pattern is most consistent with CD68 (or CD163). Findings highlight a marked increase in marrow histiocytes, consistent with marrow histiocytosis; correlation with morphology to assess for storage material or hemophagocytosis is recommended.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH histiocytes contain engulfed hematopoietic cells, best confirmed on aspirate or CD163 with clinical HLH criteria."},
+    {"dx": "Storage disorders (Gaucher, Niemann-Pick)", "vs": "Storage histiocytes share CD68 positivity but are identified by characteristic cytoplasmic morphology and enzyme testing."},
+    {"dx": "Mast cell infiltrate", "vs": "Mast cells may show granular cytoplasm but are tryptase/CD117 positive and form spindle-cell aggregates."},
+    {"dx": "Megakaryocytes with nonspecific staining", "vs": "Megakaryocytes have large lobulated nuclei and are CD61/CD42b positive, unlike histiocytes with small eccentric nuclei."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC: histiocytic marker (likely CD68)",
+  "match": "consistent",
+  "high_yield": false
+}

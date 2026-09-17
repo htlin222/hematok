@@ -1,0 +1,22 @@
+{
+  "id": "64461",
+  "recognize_zh": "骨髓抹片以骨髓球、後骨髓球與桿狀球為主（myelocyte bulge），中央有一個組織球，細胞質淡藍、呈纖維狀或條紋狀（類似皺褶紙），核偏心，即 CML 背景中的假戈謝細胞（pseudo-Gaucher cell）。",
+  "features": [
+    "Central histiocyte with abundant pale blue cytoplasm showing fibrillar/striated, crumpled-paper texture and an eccentric nucleus",
+    "Marked granulocytic hyperplasia dominated by myelocytes and metamyelocytes (myelocyte bulge)",
+    "Bands and segmented neutrophils present; blasts not increased in this field",
+    "Scattered basophil-like and eosinophilic granulocytes",
+    "Background of platelets and red cells; erythroid precursors sparse"
+  ],
+  "describe_en": "Bone marrow aspirate smear is hypercellular with marked granulocytic hyperplasia showing a full spectrum of maturation, predominantly myelocytes and metamyelocytes, with bands and segmented neutrophils; blasts are not increased in this field. A central histiocyte contains abundant pale blue cytoplasm with a fibrillar, striated texture resembling crumpled tissue paper and an eccentric nucleus. In the setting of BCR::ABL1-positive disease, this represents a pseudo-Gaucher cell arising from increased cell turnover. Findings are consistent with chronic myeloid leukemia with pseudo-Gaucher histiocytes.",
+  "ddx": [
+    {"dx": "Gaucher disease", "vs": "True Gaucher cells look identical on smear, but occur without a myeloproliferative background and are confirmed by low glucocerebrosidase activity and GBA variants."},
+    {"dx": "Sea-blue histiocyte", "vs": "Sea-blue histiocytes contain discrete blue-green granules (ceroid) rather than fibrillar striated cytoplasm."},
+    {"dx": "Mycobacterial infection (e.g., M. avium complex) in histiocytes", "vs": "Mycobacteria-laden histiocytes show negative-image rods on Wright stain and are acid-fast positive."},
+    {"dx": "Reactive neutrophilia / leukemoid reaction", "vs": "Leukemoid reactions show toxic changes and lack the myelocyte bulge, basophilia, and BCR::ABL1 fusion."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

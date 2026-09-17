@@ -1,0 +1,23 @@
+{
+  "id": "63718",
+  "recognize_zh": "周邊血抹片中可見大量小到中型、核質比極高、胞質極少且無顆粒的原始細胞，染色質較緻密，部分彼此擠壓成群；背景有許多淡粉紅、破碎的污跡細胞（smudge cells），在青少年極高白血球的情境下提示急性淋巴母細胞白血病，T 系需流式確認。",
+  "features": [
+    "Numerous small to intermediate-sized blasts with very high N:C ratio",
+    "Round to irregular nuclei with relatively condensed chromatin; nucleoli inconspicuous",
+    "Scant rim of basophilic agranular cytoplasm; no Auer rods",
+    "Cluster of larger blasts with nuclear moulding in the center of the field",
+    "Many pale pink disrupted smudge cells in the background",
+    "Normocytic red cells; platelets not appreciably seen"
+  ],
+  "describe_en": "Peripheral blood smear shows numerous blasts, ranging from small to intermediate in size, with very high nuclear-to-cytoplasmic ratio, relatively condensed chromatin, inconspicuous nucleoli and scant agranular basophilic cytoplasm. A cluster of slightly larger blasts with nuclear moulding is present, and there are abundant smudge cells, reflecting the fragility of the leukemic cells at a very high white cell count. No Auer rods, granules or dysplastic granulocytes are seen, and platelets appear decreased. The morphology is consistent with acute lymphoblastic leukemia; with flow cytometry demonstrating CD2, CD3, CD5, CD7, CD8 and CD34 expression, findings support T-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "B-lymphoblastic leukemia", "vs": "B-ALL blasts are morphologically indistinguishable and require flow cytometry showing CD19, CD22, CD79a rather than cyCD3."},
+    {"dx": "Leukemic phase of mature T-cell neoplasm (e.g., T-PLL)", "vs": "T-PLL cells have a visible single nucleolus and cytoplasmic blebs and are TdT/CD34 negative mature T cells."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL shows mature small lymphocytes with block-like soccer-ball chromatin and smudge cells in older adults, CD5/CD23/CD19 positive and TdT negative."},
+    {"dx": "Acute myeloid leukemia with minimal differentiation", "vs": "AML-M0 blasts are agranular too but express CD13/CD33/CD117 without cyCD3 and T-lineage antigens."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright",
+  "match": "consistent",
+  "high_yield": true
+}

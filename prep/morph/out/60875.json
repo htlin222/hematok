@@ -1,0 +1,22 @@
+{
+  "id": "60875",
+  "recognize_zh": "骨髓抹片的顆粒（particle）幾乎由脂肪空泡與藍色間質網絡、微血管組成，其中只散布小型淋巴球與少數巨噬細胞，缺乏成群的紅系、骨髓系前驅細胞與巨核細胞，符合再生不良性貧血的低細胞性顆粒。",
+  "features": [
+    "Marrow particle composed predominantly of fat cells (clear round spaces) outlined by a meshwork of blue-staining stroma",
+    "Branching capillaries lined by elongated endothelial cells running through the particle",
+    "Sparse residual cells, mostly small round lymphocytes with scattered macrophages and stromal cells",
+    "No identifiable megakaryocytes, erythroid islands or granulocytic maturation within the particle",
+    "Peripheral blood red cells in the background"
+  ],
+  "describe_en": "Wright-Giemsa-stained bone marrow aspirate smear shows a markedly hypocellular particle composed largely of adipocytes and a prominent stromal framework, including capillaries lined by endothelial cells. The residual cellular elements are mostly small lymphocytes with occasional macrophages and stromal cells; megakaryocytes and maturing erythroid or granulocytic precursors are not identified. No abnormal infiltrate or blasts are seen. Findings are consistent with a profoundly hypocellular marrow, in keeping with aplastic anemia; a trephine biopsy is required to confirm global cellularity.",
+  "ddx": [
+    {"dx": "Hemodilute aspirate", "vs": "A hemodilute specimen lacks particles altogether or shows cellular particles with dilution of the trails, whereas here the particle itself is fatty and devoid of hematopoiesis."},
+    {"dx": "Hypocellular myelodysplastic neoplasm", "vs": "Hypoplastic MDS shows dysplastic megakaryocytes, dyserythropoiesis or increased blasts among residual cells, which are absent here."},
+    {"dx": "Hypocellular acute leukemia", "vs": "Residual cells would include a population of blasts rather than predominantly mature small lymphocytes and macrophages."},
+    {"dx": "Hairy cell leukemia (dry tap/hypocellular)", "vs": "Hairy cell leukemia shows mononuclear cells with 'fried-egg' spacing and hairy projections, with CD20/CD11c/CD25/CD103 positive B cells by flow."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

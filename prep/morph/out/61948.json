@@ -1,0 +1,19 @@
+{
+  "id": "61948",
+  "recognize_zh": "這張是未標明抗體的免疫染色：許多中型至大型細胞呈膜狀／細胞質強陽性，散布於陰性小淋巴球之間，陽性細胞大小不一，屬反應性混合族群；標記名稱不明，判讀需對照病例其他染色。",
+  "features": [
+    "Immunohistochemical stain (marker not specified in title) with strong membranous/cytoplasmic brown staining",
+    "Positive cells are intermediate to large and scattered or loosely clustered",
+    "Many small negative lymphocytes in the background",
+    "No cohesive sheets of positive atypical cells"
+  ],
+  "describe_en": "Immunohistochemical stain (antibody not specified) shows numerous intermediate-to-large cells with strong membranous and cytoplasmic staining, scattered and in loose clusters among negative small lymphocytes. The positive population varies in size and does not form cohesive sheets. Because the marker is not identified, the image cannot be interpreted in isolation; within the EBV reactivation case it likely represents one of the lymphocyte subset markers highlighting activated cells in a reactive process.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma", "vs": "DLBCL shows diffuse sheets of uniformly positive large cells for the lineage marker, rather than scattered positive cells of varying size."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "cHL shows only rare large HRS cells positive for CD30/CD15, not numerous intermediate-sized positive cells."}
+  ],
+  "specimen": "tissue",
+  "stain": "IHC: marker not specified",
+  "match": "partial",
+  "high_yield": false
+}

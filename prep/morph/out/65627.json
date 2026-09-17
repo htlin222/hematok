@@ -1,0 +1,23 @@
+{
+  "id": "65627",
+  "recognize_zh": "周邊血液低倍即見大量淋巴球；高倍下多為中等大小、染色質中度濃縮但不呈塊狀、核型大致規則或輕度凹陷、胞質淡藍的前淋巴球樣細胞；中期 FISH 顯示 IGH::CCND1 雙融合訊號，證實是具前淋巴球形態的被套細胞淋巴瘤（MCL），而非 B-PLL。",
+  "features": [
+    "Low power: marked lymphocytosis with lymphoid cells outnumbering scattered red cell-free areas",
+    "Medium-sized lymphoid cells, about 1.5-2 times red cell diameter, with moderate N:C ratio",
+    "Round to slightly indented or notched nuclei with moderately condensed, reticulated (not clumped) chromatin",
+    "Nucleoli inconspicuous to small in most cells at this magnification",
+    "Moderate pale blue agranular cytoplasm; occasional smaller CLL-like cells",
+    "FISH (IGH/CCND1 dual-fusion probe): nuclei with two yellow-green fusion signals indicating t(11;14)"
+  ],
+  "describe_en": "Peripheral blood smear shows a marked lymphocytosis composed predominantly of medium-sized lymphoid cells with moderate amounts of pale basophilic cytoplasm, round to slightly indented nuclei and moderately condensed but not coarsely clumped chromatin; small nucleoli are seen in a subset at this resolution. Occasional smaller cells with CLL-like morphology are present. Interphase/metaphase FISH with an IGH/CCND1 dual-fusion probe demonstrates two fusion signals, confirming t(11;14)(q13;q32). Together with a CD5+, CD23-/dim, bright CD20 κ-restricted B-cell phenotype, findings are consistent with leukemic mantle cell lymphoma with prolymphocytic morphology.",
+  "ddx": [
+    {"dx": "Chronic lymphocytic leukemia with increased prolymphocytes", "vs": "CLL cells are CD23+/CD200+ with dim CD20 and dim light chain and lack t(11;14)/cyclin D1, whereas this clone is CD23-/dim with bright CD20 and IGH::CCND1."},
+    {"dx": "B-prolymphocytic leukemia (historical entity)", "vs": "Cases previously labeled B-PLL that carry t(11;14) are reclassified as MCL; cyclin D1/CCND1 testing is the discriminator."},
+    {"dx": "Splenic marginal zone lymphoma, leukemic", "vs": "Villous lymphocytes with polar cytoplasmic projections that are CD5-negative and lack CCND1 rearrangement."},
+    {"dx": "T-prolymphocytic leukemia", "vs": "Cells show cytoplasmic blebs and a T-cell phenotype (CD3+, CD7+) with TCL1A/MTCP1 rearrangement rather than B-cell markers."}
+  ],
+  "specimen": "PB",
+  "stain": "May-Grünwald; FISH: IGH/CCND1",
+  "match": "consistent",
+  "high_yield": false
+}

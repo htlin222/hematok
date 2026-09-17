@@ -1,0 +1,23 @@
+{
+  "id": "62103",
+  "recognize_zh": "骨髓切片中可見大片交錯束狀排列的梭形細胞增生，細胞之間有裂隙狀血管腔與外滲紅血球；免疫染色顯示梭形細胞核呈棕色陽性（符合 HHV-8 LANA），配合 HIV 背景，指向 Kaposi 肉瘤侵犯骨髓。",
+  "features": [
+    "Panel A: bone marrow core with extensive replacement of marrow by a cellular spindle cell lesion",
+    "Panel B: fascicles of spindle cells forming slit-like vascular spaces with extravasated red cells and scattered hyaline/clear vacuoles",
+    "Panel C: strong nuclear brown immunoreactivity in the spindle cells, consistent with HHV-8 (LANA)",
+    "Panel D inset: red chromogen stain highlighting spindle cell fascicles (antibody not labeled)",
+    "Panels E-G: additional IHC stains highlighting infiltrating clusters and large dark-staining cells (antibodies not labeled)",
+    "Low-resolution composite limits nuclear detail and marker identification"
+  ],
+  "describe_en": "Composite of bone marrow core biopsy images. At low power (A) the marrow is extensively effaced by a cellular lesion, and at high power (B) it is composed of intersecting fascicles of spindle cells forming slit-like vascular channels with extravasated erythrocytes. Immunohistochemistry (C) shows diffuse nuclear positivity in the spindle cells, consistent with HHV-8 LANA, and additional stains (D-G; antibodies not labeled in the figure) highlight the infiltrate and scattered clusters of large positive cells. The image resolution limits evaluation of individual markers. In a patient with HIV, findings are consistent with extensive bone marrow involvement by Kaposi sarcoma.",
+  "ddx": [
+    {"dx": "Marrow fibrosis/myelofibrosis with spindled stroma", "vs": "Fibrotic stroma lacks slit-like vascular spaces with extravasated red cells and is negative for HHV-8 LANA and endothelial markers."},
+    {"dx": "Systemic mastocytosis with spindled mast cells", "vs": "Spindled mast cell aggregates are tryptase/CD117/CD25-positive and HHV-8-negative, without vascular slits."},
+    {"dx": "Angiosarcoma or other vascular sarcoma", "vs": "Shows endothelial markers with greater nuclear pleomorphism and anastomosing vessels, but lacks nuclear HHV-8 LANA staining."},
+    {"dx": "Mycobacterial spindle cell pseudotumor", "vs": "Consists of spindled histiocytes that are CD68-positive and packed with acid-fast bacilli, and HHV-8-negative."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "H&E; IHC (HHV-8 LANA and others, unlabeled)",
+  "match": "consistent",
+  "high_yield": false
+}

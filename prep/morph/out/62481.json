@@ -1,0 +1,21 @@
+{
+  "id": "62481",
+  "recognize_zh": "CD43 染色中大片淡藍色的腫瘤性小 B 細胞為陰性，只有散在與帶狀分布的反應性 T 細胞呈膜染色陽性，顯示腫瘤 B 細胞不共表現 CD43，符合脾邊緣區淋巴瘤常見的 CD43 陰性表型。",
+  "features": [
+    "IHC CD43 on splenic lymphoid infiltrate, medium power",
+    "Sheets of small monotonous lymphoid cells with hematoxylin-counterstained nuclei are CD43 negative",
+    "Scattered positive cells with crisp membranous staining represent background reactive T cells",
+    "A band-like vertical concentration of CD43-positive cells, likely a residual T-cell zone or perivascular area",
+    "No aberrant CD43 co-expression on the neoplastic B-cell population"
+  ],
+  "describe_en": "CD43 immunostain of the splenic lymphoid infiltrate shows that the sheets of small neoplastic lymphoid cells are negative. Positive staining is confined to scattered background T cells and a band-like aggregate of reactive T cells traversing the field. The absence of CD43 co-expression on the B-cell population is supportive of splenic marginal zone lymphoma, which is typically CD43 negative, in contrast to several other small B-cell lymphomas.",
+  "ddx": [
+    {"dx": "Mantle cell lymphoma", "vs": "MCL B cells are usually CD43 and CD5 positive with cyclin D1 and SOX11 expression."},
+    {"dx": "Chronic lymphocytic leukemia/small lymphocytic lymphoma", "vs": "CLL/SLL cells co-express CD43, CD5, CD23 and LEF1, whereas SMZL is negative for these."},
+    {"dx": "Extranodal/nodal marginal zone lymphoma with CD43 co-expression", "vs": "Some non-splenic MZLs aberrantly express CD43, so the splenic distribution and clinical context rather than CD43 alone define SMZL."}
+  ],
+  "specimen": "spleen",
+  "stain": "IHC: CD43",
+  "match": "consistent",
+  "high_yield": false
+}

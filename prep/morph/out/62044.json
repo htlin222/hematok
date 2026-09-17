@@ -1,0 +1,21 @@
+{
+  "id": "62044",
+  "recognize_zh": "紅色免疫染色高倍下，背景小淋巴球大多陰性，而散在的數顆大型細胞呈強烈膜狀或細胞質陽性，核大淡染並有環狀膜染色，顯示大型 LP 細胞被標記、周圍為非該抗原表現的小淋巴球背景。",
+  "features": [
+    "Scattered large cells with strong membranous and cytoplasmic red staining, some showing a crisp complete membrane ring",
+    "Positive large cells have large pale vesicular nuclei, several times the size of background lymphocytes",
+    "Background small round lymphocytes are predominantly negative",
+    "Large positive cells are dispersed singly without confluent sheets in this field",
+    "Antibody identity not labeled; pattern fits a B-cell or LP-cell marker (e.g. CD20, OCT2 would be nuclear, EMA membranous)"
+  ],
+  "describe_en": "Immunohistochemical stain (red chromogen, antibody not specified in the image) of lymph node at high power shows scattered large cells with strong membranous and cytoplasmic staining and large vesicular nuclei, set in a background of predominantly negative small lymphocytes. The positive large cells are dispersed singly and do not form sheets in this field. If the marker is a B-cell antigen such as CD20, the negative small lymphocyte background indicates a T-cell-rich milieu, which in a known nodular lymphocyte predominant Hodgkin lymphoma raises concern for a T-cell-rich (diffuse) variant pattern or evolution toward T-cell/histiocyte-rich large B-cell lymphoma. Findings are consistent with highlighted LP cells; correlation with architecture and the full immunopanel (CD3, PD-1, CD21) is required.",
+  "ddx": [
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "THRLBCL shows the same scattered CD20+ large cells in a T-cell-rich background but diffusely, without residual CD21+ follicular dendritic meshworks or PD-1+ rosettes."},
+    {"dx": "Classic Hodgkin lymphoma", "vs": "HRS cells are CD30+/CD15+ with weak PAX5 and usually negative or heterogeneous CD20, unlike uniform strong membranous staining of LP cells for B-cell markers."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma", "vs": "EBV+ DLBCL can contain scattered large B cells in a reactive background but shows EBER positivity in the large cells, which is typically negative in NLPHL."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: marker not specified (red chromogen)",
+  "match": "consistent",
+  "high_yield": false
+}

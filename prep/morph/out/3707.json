@@ -1,0 +1,22 @@
+{
+  "id": "3707",
+  "recognize_zh": "骨髓切片免疫組織化學染色：右上大片為均一、陰性（藍色）的中型細胞呈片狀浸潤，取代正常造血；左下殘存棕色陽性的小細胞聚集。陰性片狀細胞群與陽性殘存細胞形成對比，代表移植後復發的 AML 芽細胞浸潤，但抗原未標示，判讀受限。",
+  "features": [
+    "Sheet-like infiltrate of monotonous, medium-sized immunonegative cells occupying most of the field (upper right)",
+    "Residual cluster of small immunopositive (brown) cells confined to the lower left",
+    "Scattered single positive cells within the negative infiltrate",
+    "Bone trabecula at upper left edge with paratrabecular extension of the negative infiltrate",
+    "Antigen is not labeled, limiting specific interpretation"
+  ],
+  "describe_en": "Immunohistochemical stain of a bone marrow trephine biopsy shows a large, sheet-like infiltrate of monotonous medium-sized cells that are negative for the applied marker, effacing normal marrow architecture adjacent to a bony trabecula. A band of residual small immunopositive cells is present at the lower left, with only scattered positive cells within the infiltrate. The antigen is not specified; if this represents a maturing myeloid or lineage marker (e.g., MPO or CD3), the pattern indicates replacement of residual hematopoiesis by a negative neoplastic population. In the clinical setting of prior stem cell transplant, the findings are consistent with recurrent acute myeloid leukemia, to be confirmed with CD34/CD117 immunostains, flow cytometry, and chimerism studies.",
+  "ddx": [
+    {"dx": "Post-transplant lymphoproliferative disorder", "vs": "Infiltrate is composed of B cells positive for CD20/CD79a and often EBER, rather than CD34/CD117-positive myeloid blasts."},
+    {"dx": "Regenerating marrow after transplant", "vs": "Regeneration shows heterogeneous maturing trilineage cells with clusters of erythroid and megakaryocytic cells, not monotonous sheets."},
+    {"dx": "Donor-derived myeloid neoplasm", "vs": "May be morphologically identical; chimerism analysis distinguishes donor from recipient origin."},
+    {"dx": "Myeloid sarcoma-like marrow involvement by other tumor", "vs": "Non-hematopoietic tumors are CD45-negative and express keratin or other lineage markers."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "IHC (antigen not specified)",
+  "match": "partial",
+  "high_yield": false
+}

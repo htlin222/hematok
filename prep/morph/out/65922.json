@@ -1,0 +1,21 @@
+{
+  "id": "65922",
+  "recognize_zh": "中央一個卵圓形、幾乎填滿整顆宿主紅血球的圓形寄生蟲，細胞質呈藍紫色並散布深色顆粒/色素，未見分裂成裂殖子，也不是鐮刀形；這種圓形、充滿紅血球的型態符合間日瘧的配子體（macrogametocyte）。",
+  "features": [
+    "Single rounded-oval parasite that fills essentially the entire host red cell",
+    "Dense blue-purple cytoplasm with diffusely scattered dark granules/pigment",
+    "No segmentation into merozoites (not a schizont); no crescent shape",
+    "Host cell outline roughly the size of neighboring red cells in this image; Schüffner dots not discernible because the parasite fills the cell",
+    "Background red cells with tapered spreading artifact; small platelet nearby"
+  ],
+  "describe_en": "Thin peripheral blood smear shows a single round-to-oval parasite that fills the host red cell, with dense blue-purple cytoplasm, scattered dark pigment granules and no segmentation into merozoites. It is not crescent-shaped, excluding a P. falciparum gametocyte. The host cell does not appear dramatically enlarged in this field, and Schüffner dots cannot be assessed because the parasite occupies the whole cell, so species assignment rests on accompanying stages in the smear. Findings are consistent with a round gametocyte, supporting Plasmodium vivax in the appropriate context.",
+  "ddx": [
+    {"dx": "Plasmodium falciparum gametocyte", "vs": "P. falciparum gametocytes are banana- or crescent-shaped rather than round."},
+    {"dx": "Plasmodium vivax schizont", "vs": "A schizont contains 12–24 discrete merozoites with clumped pigment, whereas this parasite shows undivided cytoplasm with scattered pigment."},
+    {"dx": "Plasmodium malariae or ovale gametocyte", "vs": "These are also round but occupy normal-sized (P. malariae) or oval fimbriated (P. ovale) red cells; separation often requires the other stages or PCR."}
+  ],
+  "specimen": "PB",
+  "stain": "Giemsa (Romanowsky)",
+  "match": "consistent",
+  "high_yield": true
+}

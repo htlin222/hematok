@@ -1,0 +1,21 @@
+{
+  "id": "64822",
+  "recognize_zh": "CD163 染色使大量樹枝狀、胞質豐富的組織球呈棕色陽性並形成網狀背景，而夾在其間、核較大的淡藍色非典型細胞為陰性，說明淋巴組織球型 ALCL 中腫瘤細胞被大量組織球遮蔽。",
+  "features": [
+    "Numerous CD163-positive histiocytes with abundant, irregular, branching cytoplasm",
+    "Positive cells form a dense interlacing network throughout the field",
+    "Interspersed CD163-negative cells with larger, pale blue counterstained nuclei (neoplastic cells)",
+    "Smaller negative lymphocytes also present between histiocytes"
+  ],
+  "describe_en": "CD163 immunohistochemistry highlights a dense, interlacing population of histiocytes with abundant branching cytoplasm distributed throughout the lesion. Scattered between them are CD163-negative atypical cells with enlarged nuclei, visible only on the hematoxylin counterstain, along with smaller negative lymphocytes. The histiocyte-rich background obscures the neoplastic cells, which are better demonstrated with CD30 and ALK. Findings are consistent with the lymphohistiocytic pattern of ALK-positive anaplastic large cell lymphoma.",
+  "ddx": [
+    {"dx": "Histiocytic sarcoma", "vs": "In histiocytic sarcoma the large atypical cells themselves are CD163 and CD68 positive, whereas here the atypical nuclei are negative."},
+    {"dx": "T-cell/histiocyte-rich large B-cell lymphoma", "vs": "It also has a histiocyte-rich background, but the scattered large cells are CD20 and PAX5 positive and CD30 and ALK negative."},
+    {"dx": "Reactive histiocytic lymphadenitis (e.g., Kikuchi or infection)", "vs": "Reactive processes lack a population of CD30- and ALK-positive atypical cells."},
+    {"dx": "Lymphoepithelioid (Lennert) variant of PTCL, NOS", "vs": "Epithelioid histiocyte clusters are admixed with small to medium atypical T cells that are ALK negative with variable CD30."}
+  ],
+  "specimen": "LN",
+  "stain": "IHC: CD163",
+  "match": "consistent",
+  "high_yield": false
+}

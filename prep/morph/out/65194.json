@@ -1,0 +1,22 @@
+{
+  "id": "65194",
+  "recognize_zh": "周邊血液抹片的紅血球之間，可見游離於細胞外、細長且規則螺旋狀彎曲的藍紫色絲狀微生物（spirochetes），長度約為紅血球直徑的 1.5–3 倍，符合 Borrelia 回歸熱。",
+  "features": [
+    "Extracellular, thin, tightly and regularly coiled spiral filaments lying free between red cells",
+    "Organisms are approximately 1.5-3 red cell diameters in length and stain blue-purple",
+    "No intraerythrocytic parasites (no ring forms, no Maltese cross, no gametocytes)",
+    "Red cells normochromic and normocytic with numerous crenated cells (echinocytes), likely artifact",
+    "Occasional small platelets; no leukocytes in this field"
+  ],
+  "describe_en": "Peripheral blood smear shows several extracellular, slender, regularly coiled spirochetes lying between red cells, each measuring about two to three red cell diameters in length. No intraerythrocytic inclusions are seen to suggest malaria or babesiosis. Red cells are normochromic with prominent crenation (echinocytes), and platelets appear reduced in this field. Findings are consistent with spirochetemia due to Borrelia species, compatible with tick-borne relapsing fever.",
+  "ddx": [
+    {"dx": "Malaria or babesiosis", "vs": "These parasites are intraerythrocytic ring forms or tetrads, whereas Borrelia are extracellular long spiral filaments between red cells."},
+    {"dx": "Trypanosomiasis", "vs": "Trypanosomes are larger, flattened extracellular flagellates with an undulating membrane, a central nucleus and a kinetoplast, unlike the thin uniform coils of Borrelia."},
+    {"dx": "Fibrin strands or stain precipitate", "vs": "Fibrin strands are straight or randomly branching and nonhelical, whereas spirochetes have regular, evenly spaced tight coils of consistent width."},
+    {"dx": "Lyme disease (Borrelia burgdorferi)", "vs": "Lyme borreliosis has too few organisms to be seen on blood smears, so visible spirochetemia favors relapsing fever Borrelia; species confirmation requires serology or PCR."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

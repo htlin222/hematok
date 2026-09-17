@@ -1,0 +1,28 @@
+{
+  "id": "18",
+  "recognize_zh": "骨髓抹片與切片幾乎全為脂肪、造血細胞稀少且無芽細胞增加；端粒長度流式圖中各族群數值點都落在第 1 百分位紅線以下，提示先天性端粒疾病（dyskeratosis congenita）。",
+  "features": [
+    "Aspirate particles composed predominantly of fat spaces with sparse hematopoietic cells",
+    "Aspirate smear is hemodilute with few scattered nucleated cells and no increase in blasts",
+    "Core biopsy markedly hypocellular (<10%) with fat replacement and scattered small lymphocytes, red cells and rare hematopoietic precursors",
+    "No infiltrate, fibrosis or dysplastic clusters evident at this magnification",
+    "Telomere flow-FISH: median telomere length below the 1st percentile for age in lymphocytes, granulocytes, naive/memory T, B and NK cells"
+  ],
+  "describe_en": "Bone marrow aspirate smears contain hypocellular, fat-rich particles and a hemodilute background with only scattered nucleated cells; blasts are not increased. The core biopsy is markedly hypocellular (<10%), consisting mostly of adipocytes with interstitial red cells, small lymphocytes and rare trilineage precursors, without an abnormal infiltrate. Telomere length analysis by flow-FISH shows very low (<1st percentile for age) telomere length in all leukocyte subsets tested. In the setting of a TERC mutation and family history of AML and cytopenia, findings are consistent with dyskeratosis congenita (telomere biology disorder) with marrow failure.",
+  "ddx": [
+    {"dx": "Acquired aplastic anemia", "vs": "The marrow looks identical, so separation relies on telomere length (usually normal or only mildly short) and absence of a germline TERC/TERT mutation or family history."},
+    {"dx": "Fanconi anemia", "vs": "Also a hypocellular inherited marrow failure, but it is diagnosed by increased chromosomal breakage with DEB/MMC rather than very short telomeres."},
+    {"dx": "Hypocellular myelodysplastic syndrome / refractory cytopenia of childhood", "vs": "Shows dysplastic megakaryocytes or erythroid islands and often clonal cytogenetics such as monosomy 7, which are not seen here."},
+    {"dx": "Shwachman-Diamond syndrome", "vs": "Hypocellular marrow with neutropenia but with pancreatic insufficiency and SBDS mutation, and telomeres are not in the very low range."}
+  ],
+  "specimen": "BM biopsy",
+  "stain": "Wright-Giemsa; H&E; telomere flow-FISH",
+  "match": "consistent",
+  "high_yield": false,
+  "captions": [
+    "Bone marrow aspirate particle, low power: fat-predominant, hypocellular particle",
+    "Bone marrow aspirate smear: hemodilute with sparse nucleated cells",
+    "Bone marrow core biopsy (H&E): markedly hypocellular fatty marrow",
+    "Telomere length by flow-FISH: all subsets below the 1st percentile for age"
+  ]
+}

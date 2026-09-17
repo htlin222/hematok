@@ -1,0 +1,22 @@
+{
+  "id": "15142",
+  "recognize_zh": "周邊血中大量中型淋巴細胞，核形不規則、可見單一明顯核仁，細胞質少而深藍，並有細胞質小突起（blebs），這種外觀是 T 細胞前淋巴球性白血病（T-PLL）的典型形態。",
+  "features": [
+    "Monomorphic population of medium-sized lymphoid cells, larger than small lymphocytes",
+    "Moderate to high N:C ratio with round to irregular nuclear outlines, some indented",
+    "Moderately condensed chromatin with a single visible nucleolus in many cells",
+    "Scant to moderate intensely basophilic, agranular cytoplasm with occasional cytoplasmic blebs/protrusions",
+    "Background red cells with few irregular forms; no smudge cells evident"
+  ],
+  "describe_en": "Peripheral blood smear shows a monomorphic population of medium-sized lymphoid cells with round to irregular, occasionally indented nuclear outlines, moderately condensed chromatin and a single distinct nucleolus in many cells. The cytoplasm is scant to moderate, agranular and intensely basophilic, with occasional small cytoplasmic protrusions or blebs. Smudge cells, granular lymphocytes and cerebriform nuclei are not a feature in this field. Findings are consistent with T-cell prolymphocytic leukemia; flow cytometry (CD4+/CD7 bright, often CD4/CD8 co-expression) and demonstration of TCL1A or MTCP1 rearrangement (inv(14)/t(14;14)) are required for confirmation.",
+  "ddx": [
+    {"dx": "B-prolymphocytic leukemia / CLL with increased prolymphocytes", "vs": "B-prolymphocytes have a prominent nucleolus with more regular round nuclei and pale cytoplasm, and flow shows CD19/CD20/sIg rather than T-cell markers."},
+    {"dx": "Sezary syndrome", "vs": "Sezary cells have cerebriform, grooved nuclei without prominent nucleoli and typically lose CD7 and CD26, unlike T-PLL which is CD7-bright."},
+    {"dx": "Adult T-cell leukemia/lymphoma", "vs": "ATLL cells show polylobated flower-shaped nuclei, are CD25-positive and occur with HTLV-1 serology positivity."},
+    {"dx": "T-lymphoblastic leukemia", "vs": "Lymphoblasts have fine blastic chromatin and are TdT-positive and often CD1a-positive, whereas T-PLL cells are mature (TdT- and CD1a-negative)."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

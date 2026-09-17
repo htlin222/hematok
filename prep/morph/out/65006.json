@@ -1,0 +1,21 @@
+{
+  "id": "65006",
+  "recognize_zh": "肋膜液流式細胞散點圖：A 圖紅色族群 CD38 與 CD138 皆強陽性（漿細胞）；B 圖這群 CD19 陰性；C 圖 CD56 陽性；D 圖紅色族群沿 lambda 軸偏移、kappa 相對較低，代表 lambda 輕鏈限制。CD19 陰性、CD56 陽性加上輕鏈限制，即為異常克隆性漿細胞。",
+  "features": [
+    "Panel A: discrete red population with bright CD38 and bright CD138, gated as plasma cells",
+    "Panel B: CD138-positive population is CD19-negative, unlike the separate CD19-positive CD138-negative B-cell cluster",
+    "Panel C: CD138-positive population shows moderate to bright CD56 expression",
+    "Panel D: plasma cell population skewed toward lambda with lower kappa signal, interpreted as lambda restriction",
+    "Scale is log fluorescence; gray events represent other viable cells"
+  ],
+  "describe_en": "Flow cytometric analysis of pleural fluid shows a large discrete population of plasma cells with bright CD38 and CD138 expression. This population lacks CD19 and shows moderate to bright CD56, an aberrant immunophenotype characteristic of neoplastic plasma cells. The kappa versus lambda plot shows the plasma cell population shifted toward lambda with relatively lower kappa signal, consistent with lambda light chain restriction, although the diagonal spread suggests some nonspecific binding and cytoplasmic light chain staining is the preferred confirmatory method for plasma cells. Findings are consistent with clonal plasma cells involving the pleural fluid, supporting myelomatous pleural effusion.",
+  "ddx": [
+    {"dx": "Reactive polyclonal plasma cells", "vs": "Normal plasma cells are CD19-positive and CD56-negative with a mixed kappa and lambda distribution."},
+    {"dx": "Lymphoplasmacytic lymphoma with plasmacytic differentiation", "vs": "LPL plasma cells are typically CD19-positive and CD56-negative and accompanied by a clonal CD20-positive B-cell population."},
+    {"dx": "Plasmablastic lymphoma", "vs": "Plasmablastic lymphoma shares CD38/CD138 positivity and CD19 negativity but consists of large immunoblastic cells, often EBER-positive, with a high Ki-67 index."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

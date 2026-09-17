@@ -1,0 +1,21 @@
+{
+  "id": "2681",
+  "recognize_zh": "淋巴球核幾乎占滿細胞，箭頭所指的核與細胞膜之間有一段細長、透明無色的棒狀空隙，就是細胞質內的結晶包涵體；核染色質有條紋狀淡區。",
+  "features": [
+    "Lymphocyte with very high N:C ratio and nucleus filling most of the cell",
+    "Coarse chromatin with pale linear streaks",
+    "Very thin rim of pale cytoplasm",
+    "Elongated colorless rod-shaped inclusion between nucleus and cell membrane (arrow)",
+    "Adjacent teardrop and oval red cells; blurry enlarged image"
+  ],
+  "describe_en": "High-power, digitally enlarged view of a peripheral blood smear shows a lymphocyte with a very high N:C ratio, coarse chromatin with pale streaks, and a thin rim of cytoplasm. A narrow, unstained, rod-shaped inclusion is present at the cytoplasmic edge adjacent to the nucleus (arrow). Nearby red cells include teardrop and oval forms. Findings are consistent with a crystalline inclusion in a neoplastic lymphocyte, although the blurred enlargement makes it difficult to exclude a retraction artifact on this single cell; identifying similar inclusions in other lymphoid cells supports the interpretation.",
+  "ddx": [
+    {"dx": "Retraction or drying artifact", "vs": "Artifactual clefts have irregular outlines and vary across the smear, whereas crystals are sharply straight-edged and reproducible in multiple neoplastic cells."},
+    {"dx": "Auer rod", "vs": "Auer rods are stained pink-purple and are found in blasts, not as clear clefts in mature lymphocytes."},
+    {"dx": "Hairy cell", "vs": "Hairy cells have abundant gray-blue cytoplasm with circumferential hairy projections and oval or bean-shaped nuclei rather than scant cytoplasm with a crystal."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

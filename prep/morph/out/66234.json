@@ -1,0 +1,23 @@
+{
+  "id": "66234",
+  "recognize_zh": "十二格組合圖：前段小腸標本（A–F）見大量背靠背濾泡，CD20、CD10、BCL2 陽性濾泡（BCL6 弱），為濾泡性淋巴瘤；後段淋巴結（G–L）轉為大型多形 Reed-Sternberg 樣細胞（G），CD30 膜與高基氏區陽性（H）、CD15 部分陽性（I）、PAX5 弱陽性（J）、MUM1 強陽性（K）、CD20 陰性（L），符合轉化為古典何杰金淋巴瘤。",
+  "features": [
+    "Panel A (H&E, low power): small bowel wall replaced by numerous crowded, back-to-back nodular follicles",
+    "Panels B, C, E: follicles are CD20 positive, CD10 positive and BCL2 positive; Panel D: BCL6 weak at this scanning magnification",
+    "Panel F (H&E): area with diffuse growth pattern",
+    "Panel G (H&E, high power): large pleomorphic cells with vesicular nuclei, prominent eosinophilic nucleoli and binucleate Hodgkin/Reed-Sternberg-like forms",
+    "Panels H-K: large cells show membranous and Golgi CD30, subset CD15, dim nuclear PAX5 and strong MUM1",
+    "Panel L: large cells are CD20 negative with only scattered small positive background B cells"
+  ],
+  "describe_en": "The initial small bowel resection shows effacement by closely packed neoplastic follicles that are CD20, CD10 and BCL2 positive, with weak BCL6 staining at low power, and a focal diffuse area, consistent with follicular lymphoma. A later lymph node biopsy shows sheets of large pleomorphic cells with vesicular nuclei, prominent macronucleoli and binucleate Reed-Sternberg-like forms. These cells express CD30 in a membranous and Golgi pattern, CD15 in a subset, dim PAX5 and MUM1, and are negative for CD20. The findings are consistent with classic Hodgkin lymphoma arising from follicular lymphoma, with the reported identical IGH rearrangement supporting clonal relationship.",
+  "ddx": [
+    {"dx": "Diffuse large B-cell lymphoma (usual transformation of FL)", "vs": "DLBCL cells are strongly CD20 and PAX5 positive and CD15 negative, whereas these large cells are CD20 negative with dim PAX5 and CD15 positivity."},
+    {"dx": "ALK-negative anaplastic large cell lymphoma", "vs": "ALCL is PAX5 negative, often expresses T-cell markers and cytotoxic granules and shows TCR clonality, whereas here PAX5 is dim positive and TCR was polyclonal."},
+    {"dx": "Follicular lymphoma with scattered HRS-like cells (composite pattern)", "vs": "HRS-like cells within an FL background retain FL architecture, whereas the later node shows no residual FL morphology."},
+    {"dx": "Grey zone lymphoma (mediastinal-type large B-cell lymphoma with cHL features)", "vs": "Grey zone lymphoma shows sheets of cells with strong CD20 and intact B-cell program, unlike the CD20-negative, dim PAX5 cells here."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E; IHC: CD20, CD10, BCL6, BCL2, CD30, CD15, PAX5, MUM1",
+  "match": "consistent",
+  "high_yield": false
+}

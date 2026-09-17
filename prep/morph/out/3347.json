@@ -1,0 +1,23 @@
+{
+  "id": "3347",
+  "recognize_zh": "H&E 高倍率下，大型腫瘤細胞的細胞核呈腎形、馬蹄形或偏心分葉（hallmark cells），核仁明顯、染色質空泡狀，細胞質豐富淡染甚至呈泡沫狀，核旁偶有嗜酸性區域，並夾雜小淋巴球；這些 hallmark 細胞是 ALCL 的診斷線索。",
+  "features": [
+    "Sheets of large pleomorphic cells with abundant pale to amphophilic, focally vacuolated cytoplasm",
+    "Hallmark cells with eccentric kidney- or horseshoe-shaped nuclei and paranuclear eosinophilic region",
+    "Vesicular chromatin with one or more prominent nucleoli; occasional multinucleated or wreath-like forms",
+    "Mitotic figures and apoptotic bodies present",
+    "Interspersed small mature lymphocytes and occasional eosinophils",
+    "Delicate intervening stroma with thin vessels"
+  ],
+  "describe_en": "Section of lymph node at high power shows sheets of large pleomorphic neoplastic cells with abundant pale to amphophilic, focally vacuolated cytoplasm. Many cells have eccentric horseshoe- or kidney-shaped nuclei with a paranuclear eosinophilic region (hallmark cells), vesicular chromatin and prominent nucleoli, with occasional multinucleated forms. Mitotic figures and apoptotic bodies are readily identified, and small lymphocytes and rare eosinophils are admixed. Findings are consistent with anaplastic large cell lymphoma; CD30 (strong, uniform) and ALK immunostains are required for classification.",
+  "ddx": [
+    {"dx": "Classic Hodgkin lymphoma", "vs": "Reed-Sternberg cells have huge inclusion-like nucleoli within a polymorphous background, are CD15+/PAX5 weak+, and lack the sheet-like hallmark-cell population."},
+    {"dx": "Peripheral T-cell lymphoma, NOS", "vs": "PTCL-NOS lacks uniform strong CD30 expression and hallmark cells and is ALK-negative."},
+    {"dx": "Metastatic carcinoma", "vs": "Carcinoma cells are cytokeratin-positive and CD30/CD45-negative despite similar pleomorphism."},
+    {"dx": "Diffuse large B-cell lymphoma, anaplastic variant", "vs": "The anaplastic DLBCL variant expresses B-cell markers (CD20, PAX5) and is ALK-negative."}
+  ],
+  "specimen": "LN",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}

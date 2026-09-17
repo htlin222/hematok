@@ -1,0 +1,23 @@
+{
+  "id": "65779",
+  "recognize_zh": "骨髓抹片中大型母細胞胞質豐富灰藍，內含淡粉紅、團塊狀的非典型胞質包涵體（紅箭頭），部分母細胞吞噬紅血球（黑箭頭）；核型與 FISH 顯示 KMT2A 斷裂重排。",
+  "features": [
+    "Large blasts with abundant grey-blue cytoplasm and round to folded nuclei with fine chromatin",
+    "Pale pink, finely granular globular cytoplasmic inclusions, often perinuclear and indenting the nucleus (red arrows)",
+    "Erythrophagocytosis by blasts: engulfed red cells within cytoplasmic vacuoles (black arrows)",
+    "Occasional cytoplasmic vacuoles; no Auer rods evident",
+    "Karyotype showing complex abnormalities involving chromosomes 3, 6, 9 and 20",
+    "Interphase FISH with KMT2A break-apart probe showing separated 5' and 3' signals"
+  ],
+  "describe_en": "Bone marrow aspirate is replaced by large blasts with abundant grey-blue cytoplasm, fine nuclear chromatin and folded to round nuclei. Many blasts contain pale pink, granular globular cytoplasmic inclusions, and a subset show erythrophagocytosis with engulfed red cells in cytoplasmic vacuoles. The accompanying karyotype is complex, and KMT2A break-apart FISH shows split signals indicating KMT2A rearrangement. Findings are consistent with acute myeloid leukemia with monocytic features and KMT2A::MLLT3 rearrangement, displaying unusual cytoplasmic inclusions and erythrophagocytosis.",
+  "ddx": [
+    {"dx": "AML with t(8;16) KAT6A::CREBBP", "vs": "Both show monocytic blasts with erythrophagocytosis; the distinction rests on cytogenetics/FISH (KMT2A split here versus KAT6A::CREBBP fusion)."},
+    {"dx": "AML with pseudo-Chediak-Higashi granules", "vs": "Pseudo-Chediak-Higashi granules are large, discrete, MPO-positive azurophilic granules, whereas these inclusions are pale pink finely granular aggregates in MPO-negative blasts."},
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "HLH erythrophagocytosis is by mature benign histiocytes with low N:C ratio, not by immature blasts with fine chromatin."},
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells have bilobed nuclei, heavy azurophilic granules or Auer rod bundles and are MPO-strong and HLA-DR-negative, unlike these HLA-DR+ MPO-negative blasts."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa; karyotype; FISH: KMT2A",
+  "match": "consistent",
+  "high_yield": false
+}

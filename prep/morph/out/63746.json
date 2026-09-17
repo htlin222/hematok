@@ -1,0 +1,22 @@
+{
+  "id": "63746",
+  "recognize_zh": "這張血液抹片為低倍、細胞分散的薄區，僅見兩顆小型淋巴樣細胞（核深染、胞質少，其中一顆胞質略偏心呈漿細胞樣）與大量血小板；紅血球大多單個分開，此視野並未明顯看到描述中的錢串狀排列（rouleaux），辨識需在較厚區域與臨床 IgM 副蛋白對照。",
+  "features": [
+    "Low-power thin area of smear with mostly separated red cells; rouleaux not convincingly demonstrated in this field",
+    "Two small lymphoid cells with dense, condensed nuclei and scant basophilic cytoplasm",
+    "One lymphoid cell with slightly eccentric nucleus suggestive of a plasmacytoid lymphocyte",
+    "Normocytic red cells with central pallor",
+    "Numerous platelets; no blasts identified"
+  ],
+  "describe_en": "Peripheral blood smear, viewed at low magnification in a thin area, shows two small lymphoid cells with condensed chromatin and scant cytoplasm, one of which has a slightly eccentric nucleus suggestive of plasmacytoid differentiation. Red cells are largely separated with central pallor, and definite rouleaux formation is not well demonstrated in this particular field, although it may be evident in thicker areas of the smear. Platelets are numerous and no blasts are seen. The low magnification limits cytologic detail; findings are nonspecific but compatible with circulating lymphoplasmacytic cells in the context of known lymphoplasmacytic lymphoma.",
+  "ddx": [
+    {"dx": "Plasma cell myeloma / plasma cell leukemia", "vs": "Myeloma shows rouleaux with circulating mature or atypical plasma cells with perinuclear hof rather than small plasmacytoid lymphocytes."},
+    {"dx": "Chronic lymphocytic leukemia", "vs": "CLL shows numerous small round lymphocytes with soccer-ball chromatin and smudge cells, without plasmacytoid forms."},
+    {"dx": "Marginal zone lymphoma (splenic)", "vs": "SMZL cells often show polar villous projections, and IgM paraprotein with rouleaux is less common."},
+    {"dx": "Reactive plasmacytoid lymphocytes (viral infection)", "vs": "Reactive forms are polyclonal and accompanied by a range of reactive lymphocytes without a paraprotein."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

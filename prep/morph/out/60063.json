@@ -1,0 +1,22 @@
+{
+  "id": "60063",
+  "recognize_zh": "CellaVision 截圖中的每顆細胞都是比紅血球大 1.5–2 倍的母細胞：核質比極高、染色質細緻均勻、細胞質只剩一小片淡藍色且無顆粒，許多細胞可見小圓空泡與手鏡狀（hand-mirror）細胞質突起；形態一致符合淋巴母細胞，此例為兒童 B-ALL。",
+  "features": [
+    "Monotonous population of blasts about 1.5-2 times red cell diameter",
+    "Very high N:C ratio with scant pale blue agranular cytoplasm, often as a polar tail or bleb (hand-mirror forms)",
+    "Round to irregular or angular nuclei with fine, homogeneous chromatin; nucleoli inconspicuous",
+    "Small discrete clear vacuoles in many cells",
+    "No Auer rods or granules; background red cells unremarkable with rare platelets"
+  ],
+  "describe_en": "Peripheral blood smear, digitally captured cell gallery (CellaVision), shows a monotonous population of circulating blasts. The blasts are small to intermediate, measuring about 1.5 to 2 times the diameter of a red cell, with very high N:C ratio, round to irregular nuclei, finely dispersed homogeneous chromatin, and inconspicuous nucleoli. The cytoplasm is scant, pale blue, and agranular, frequently drawn out into a polar tail or bleb, and several cells contain small discrete clear vacuoles; Auer rods are absent. Findings are consistent with lymphoblasts and, together with the flow cytometric phenotype, support B-lymphoblastic leukemia.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia", "vs": "Myeloblasts are generally larger with more cytoplasm, prominent nucleoli, and may contain granules or Auer rods; flow cytometry is required when blasts are agranular."},
+    {"dx": "Burkitt leukemia", "vs": "Burkitt cells have deeply basophilic cytoplasm with numerous prominent vacuoles and more clumped chromatin with multiple nucleoli, and are TdT-negative mature B cells."},
+    {"dx": "Reactive lymphocytes (e.g. viral infection)", "vs": "Reactive lymphocytes have abundant cytoplasm that scallops around red cells and more condensed chromatin, with a heterogeneous rather than monotonous population."},
+    {"dx": "Hematogones", "vs": "Hematogones are rare in peripheral blood, have more homogeneous smudged dark chromatin, and show an orderly maturation pattern on flow cytometry."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

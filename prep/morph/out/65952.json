@@ -1,0 +1,23 @@
+{
+  "id": "65952",
+  "recognize_zh": "七格組合圖：低倍（A）直腸病灶的黏膜下有巨大、形狀不規則的淋巴濾泡結節（geographic hyperplasia），CD20（C）瀰漫陽性，CD10（D）只標記生發中心，而 BCL2（E）在生發中心陰性、濾泡間區陽性，代表反應性濾泡增生；EBER ISH（F、G）見散在陽性細胞，符合 HIV 相關 EBV 陽性濾泡增生。",
+  "features": [
+    "Panel A: low-power colorectal mucosal biopsy with a large submucosal and lamina propria lymphoid nodule composed of irregular, variably sized follicles",
+    "Panel B: expanded follicles with reactive-appearing germinal centers and interfollicular small lymphocytes",
+    "Panel C: CD20 diffusely highlights the B-cell nodule",
+    "Panel D: CD10 restricted to germinal centers, which retain well-defined outlines",
+    "Panel E: germinal centers are BCL2 negative while surrounding mantle and interfollicular cells are positive",
+    "Panels F and G: EBER ISH shows scattered positive nuclei of small to large cells, more concentrated in germinal centers at higher power"
+  ],
+  "describe_en": "Colorectal biopsy shows an extensive lymphoid proliferation in the lamina propria and submucosa composed of large, irregular, geographic follicles with reactive-appearing germinal centers and expanded interfollicular zones. CD20 highlights the B-cell follicles, and the germinal centers are CD10 positive and BCL2 negative, supporting reactive rather than neoplastic follicles. EBER in situ hybridization shows scattered positive small and large lymphoid cells focally concentrated within germinal centers, without sheets of EBV-positive large cells. In a patient with HIV and with polytypic plasma cells and a high polarized Ki-67 index as reported, findings are consistent with HIV-associated EBV-positive florid follicular hyperplasia.",
+  "ddx": [
+    {"dx": "Follicular lymphoma", "vs": "Neoplastic follicles are back-to-back with attenuated mantles, lack polarization and tingible body macrophages, and are usually BCL2 positive in germinal centers, unlike the BCL2-negative germinal centers here."},
+    {"dx": "Extranodal marginal zone lymphoma (MALT lymphoma)", "vs": "MALT lymphoma shows sheets of monocytoid B cells colonizing follicles with lymphoepithelial lesions and light chain restriction, whereas plasma cells here are polytypic."},
+    {"dx": "EBV-positive diffuse large B-cell lymphoma or plasmablastic lymphoma", "vs": "These show diffuse sheets of EBER-positive large cells effacing architecture, rather than scattered EBER-positive cells within preserved follicles."},
+    {"dx": "HHV8-associated multicentric Castleman disease", "vs": "HHV8-positive Castleman shows regressed germinal centers with LANA-1 positive plasmablasts in the mantle zone, and HHV8 was negative here."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E; IHC: CD20, CD10, BCL2; ISH: EBER",
+  "match": "consistent",
+  "high_yield": false
+}

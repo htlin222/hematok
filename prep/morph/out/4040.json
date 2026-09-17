@@ -1,0 +1,22 @@
+{
+  "id": "4040",
+  "recognize_zh": "一串大型單核芽細胞（monoblast），細胞核圓形、染色質細緻並有核仁，細胞質豐富灰藍且布滿小空泡；最上方的芽細胞細胞質空泡內可見被吞噬的紅血球（erythrophagocytosis）。",
+  "features": [
+    "Cluster of large blasts with abundant gray-blue cytoplasm and round to slightly indented nuclei",
+    "Fine, lacy chromatin with one or more distinct nucleoli",
+    "Numerous small cytoplasmic vacuoles in most blasts",
+    "Top blast contains a phagocytosed red cell within a clear vacuole (erythrophagocytosis)",
+    "Adjacent small neutrophil and pyknotic cells for size comparison"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a cluster of large blasts with abundant gray-blue, finely vacuolated cytoplasm, round to slightly indented nuclei, finely dispersed chromatin, and prominent nucleoli, morphologically monoblasts. One blast contains an engulfed red blood cell within a cytoplasmic vacuole. Erythrophagocytosis by leukemic blasts is characteristically associated with acute monoblastic/monocytic leukemia and with the KAT6A::CREBBP (t(8;16)(p11.2;p13.3)) fusion. Findings are consistent with acute monoblastic leukemia with erythrophagocytosis; nonspecific esterase cytochemistry, flow cytometry, and cytogenetics are recommended.",
+  "ddx": [
+    {"dx": "Hemophagocytic lymphohistiocytosis", "vs": "Hemophagocytosis is performed by mature benign histiocytes with low N:C ratio and condensed chromatin, not by nucleolated blasts."},
+    {"dx": "Acute megakaryoblastic leukemia", "vs": "Megakaryoblasts may be vacuolated with cytoplasmic blebs but lack phagocytosis and are CD41/CD61-positive and NSE-negative."},
+    {"dx": "Plasmablastic neoplasm", "vs": "Plasmablasts have eccentric nuclei with a perinuclear hof and deeply basophilic cytoplasm and are CD138-positive rather than CD14/CD64-positive."},
+    {"dx": "Burkitt leukemia/lymphoma", "vs": "Burkitt cells are medium-sized with deeply basophilic vacuolated cytoplasm and coarser chromatin, and express CD10/CD19/surface Ig with MYC rearrangement."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

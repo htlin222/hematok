@@ -1,0 +1,21 @@
+{
+  "id": "21729",
+  "recognize_zh": "血液抹片中除了染色質塊狀的小型 CLL 淋巴球外，還有較大、核染色質細緻、細胞質稀少的芽細胞（箭頭）；流式 CD45 對側散射圖可見一群 CD45 較弱（dim）的族群與 CD45 強陽性淋巴球分開，提示兩種腫瘤細胞並存。",
+  "features": [
+    "Panel A: larger blasts with high N:C ratio, fine chromatin and scant basophilic cytoplasm (arrows)",
+    "Admixed small mature lymphocytes with condensed chromatin (CLL background) and a smudge cell",
+    "Many crenated red cells in the background",
+    "Panel B: CD45 versus side scatter plot with a dominant CD45-dim/negative, low side-scatter population (blue)",
+    "Separate CD45-bright low side-scatter lymphocyte gate (27.3%) and few granulocytes (9.0%)"
+  ],
+  "describe_en": "Peripheral blood smear shows two lymphoid populations: small mature lymphocytes with clumped chromatin and smudge cells, and larger blasts with fine chromatin, scant cytoplasm and a high nuclear-to-cytoplasmic ratio. Flow cytometry (CD45 versus side scatter) demonstrates a large CD45-dim, low side-scatter population distinct from a CD45-bright mature lymphocyte cluster. Findings are consistent with a precursor B-lymphoblastic leukemia co-circulating with chronic lymphocytic leukemia; full immunophenotyping (CD19, CD10, CD34, TdT versus CD5/CD23/light chain) and clonality studies are needed to establish whether the two processes are clonally related.",
+  "ddx": [
+    {"dx": "Richter transformation or prolymphocytic progression of CLL", "vs": "Transformed CLL cells remain CD45-bright, CD5/CD23-positive and TdT/CD34-negative, whereas lymphoblasts are CD45-dim and TdT-positive."},
+    {"dx": "Therapy-related acute myeloid leukemia", "vs": "Myeloblasts share the CD45-dim gate but express MPO, CD13/CD33 and CD117 rather than CD19/CD10/TdT."},
+    {"dx": "Blastoid mantle cell lymphoma", "vs": "Blastoid MCL is CD5-positive, cyclin D1/SOX11-positive and TdT-negative."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow CD45/SSC",
+  "match": "consistent",
+  "high_yield": false
+}

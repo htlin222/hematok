@@ -1,0 +1,22 @@
+{
+  "id": "16896",
+  "recognize_zh": "周邊血液中出現中型淋巴樣細胞，細胞膜有細長的毛狀突起（hairy projections）；脾臟切片呈紅髓瀰漫浸潤，IHC 顯示膜染色的 T 細胞浸潤，符合肝脾 T 細胞淋巴瘤（hepatosplenic T-cell lymphoma）。",
+  "features": [
+    "Panel A (PB): medium-sized atypical lymphoid cells with moderate basophilic cytoplasm and irregular, villous/hairy cytoplasmic projections",
+    "Atypical cells have round to slightly indented nuclei with condensed-to-intermediate chromatin and inconspicuous nucleoli",
+    "Panel B (H&E): diffuse infiltration of monotonous medium-sized cells expanding the red pulp/sinusoidal compartment",
+    "Panel C (IHC): strong membranous staining of sheets of infiltrating lymphoid cells, consistent with a T-cell marker",
+    "Panel D (IHC): only scattered positive cells with most infiltrating cells negative"
+  ],
+  "describe_en": "Peripheral blood smear (panel A) shows medium-sized atypical lymphoid cells with moderate basophilic cytoplasm and prominent hairy cytoplasmic projections, alongside a normal-appearing lymphocyte. The accompanying tissue section (panel B, H&E; likely spleen) shows diffuse, predominantly red pulp/sinusoidal infiltration by monotonous medium-sized lymphoid cells. Immunohistochemistry demonstrates membranous positivity of the infiltrate for one marker (panel C) and only scattered positive cells for a second marker (panel D); the specific antibodies are not labeled in the figure. The hairy projections mimic hairy cell leukemia, but in the context of the title, findings are consistent with hepatosplenic T-cell lymphoma with unusual villous cytology; the listed category (subcutaneous panniculitis-like T-cell lymphoma) does not match the image.",
+  "ddx": [
+    {"dx": "Hairy cell leukemia", "vs": "HCL is a B-cell neoplasm (CD20, CD11c, CD25, CD103, annexin A1, BRAF V600E positive) that infiltrates splenic red pulp with blood lakes, whereas HSTCL cells are CD3+, CD5−, TIA-1+ usually γδ T cells with isochromosome 7q."},
+    {"dx": "Splenic marginal zone lymphoma", "vs": "SMZL villous lymphocytes have polar short villi and express B-cell markers, with white pulp-based nodular involvement rather than purely sinusoidal red pulp infiltration."},
+    {"dx": "T-cell prolymphocytic leukemia", "vs": "T-PLL cells have a prominent nucleolus and cytoplasmic blebs, are CD4+/CD7+ with TCL1 rearrangement, and present with marked lymphocytosis rather than sinusoidal hepatosplenic disease."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "ANKL cells are CD3ε+ surface CD3− CD56+ with EBV (EBER) positivity and azurophilic granules, whereas HSTCL is EBV negative."}
+  ],
+  "specimen": "spleen",
+  "stain": "Wright-Giemsa, H&E, IHC (unlabeled markers)",
+  "match": "consistent",
+  "high_yield": false
+}

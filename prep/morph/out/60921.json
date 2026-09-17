@@ -1,0 +1,34 @@
+{
+	"id": "60921",
+	"recognize_zh": "血片同時出現大紅血球與大橢圓形紅血球、明顯的裂片細胞與不規則碎片，以及過度分葉的嗜中性球，即「巨母細胞性變化合併微血管病變樣溶血」的組合，提示鈷胺素（維生素 B12）代謝異常，例如 cobalamin C 缺陷。",
+	"features": [
+		"Marked anisopoikilocytosis with macrocytes and macro-ovalocytes",
+		"Numerous schistocytes, helmet cells and irregular fragmented red cells",
+		"Occasional target cells and teardrop-like forms",
+		"Hypersegmented neutrophil (≥6 lobes) in panel A",
+		"Circulating small dark round nucleated cell (probable nucleated red cell) in panel B; platelets present"
+	],
+	"describe_en": "Peripheral blood smears show marked anisopoikilocytosis with macrocytes and macro-ovalocytes admixed with numerous schistocytes, helmet cells and irregular red cell fragments, as well as occasional target and teardrop forms. A hypersegmented neutrophil and a small nucleated cell, probably a nucleated red cell, are present. Platelets are identified but not increased. The combination of megaloblastic features with fragmentation hemolysis is characteristic of disorders of cobalamin metabolism (e.g., cblC defect), which may present as a thrombotic microangiopathy; plasma homocysteine and methylmalonic acid levels are indicated.",
+	"ddx": [
+		{
+			"dx": "Thrombotic thrombocytopenic purpura",
+			"vs": "TTP shows schistocytes with severe thrombocytopenia and low ADAMTS13 but lacks macro-ovalocytes and hypersegmented neutrophils."
+		},
+		{
+			"dx": "Nutritional vitamin B12 or folate deficiency (pseudo-TMA)",
+			"vs": "Morphology can be identical, so serum B12/folate levels and genetic testing for intracellular cobalamin defects are required to separate them."
+		},
+		{
+			"dx": "Hemolytic uremic syndrome",
+			"vs": "HUS shows schistocytes with thrombocytopenia and renal failure but normocytic red cells without megaloblastic neutrophil changes."
+		},
+		{
+			"dx": "Myelodysplastic neoplasm",
+			"vs": "MDS may show macrocytosis and pseudo-Pelger or hypogranular neutrophils rather than hypersegmentation, without marked schistocytosis."
+		}
+	],
+	"specimen": "PB",
+	"stain": "Wright-Giemsa",
+	"match": "consistent",
+	"high_yield": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "63251",
+  "recognize_zh": "周邊血液抹片六個高倍視野，都是中到大型、核質比高的原始細胞（blast），染色質細緻，胞質灰藍色且沒有明顯顆粒或 Auer rod。這張圖只有血液，看不到皮膚病灶，要靠流式細胞儀（CD117+、CD33+、cMPO−）確認是 AML。",
+  "features": [
+    "Medium to large blasts, roughly 2-3 times the diameter of adjacent red cells",
+    "Moderate to high N:C ratio with round, oval, indented or irregular nuclei",
+    "Finely dispersed, delicate chromatin with inconspicuous to small nucleoli",
+    "Scant to moderate pale gray-blue agranular cytoplasm with occasional cytoplasmic blebs/tags; no Auer rods seen",
+    "Background red cells without a distinctive abnormality; the skin lesion named in the title is not depicted"
+  ],
+  "describe_en": "Composite of six high-power fields from a peripheral blood smear shows circulating blasts. The blasts are medium to large with moderate to high N:C ratios, round to irregular or indented nuclei, finely dispersed chromatin with inconspicuous nucleoli, and scant to moderate pale gray-blue agranular cytoplasm, some with cytoplasmic blebs. No Auer rods, cytoplasmic granules or dysplastic neutrophils are identified in these fields. The image shows only the blood component; the cutaneous infiltrate referred to in the title is not depicted. Together with the reported immunophenotype (CD117+, CD33+, CD7+, HLA-DR+, cMPO-negative, CD19/CD20/CD14/CD64-negative), findings are consistent with acute myeloid leukemia with minimal differentiation.",
+  "ddx": [
+    {"dx": "B- or T-lymphoblastic leukemia", "vs": "Agranular myeloblasts and lymphoblasts can look identical, so lineage rests on flow cytometry; CD19/CD20 negativity with CD117/CD33 expression favors myeloid lineage, and CD7 alone does not establish T lineage without cytoplasmic CD3."},
+    {"dx": "Acute monocytic leukemia", "vs": "Monoblasts and promonocytes have more abundant gray-blue cytoplasm with fine azurophilic granules or vacuoles and folded nuclei, and express CD14/CD64, which were negative here."},
+    {"dx": "Blastic plasmacytoid dendritic cell neoplasm", "vs": "Also presents with skin lesions and agranular blasts with cytoplasmic tails, but is defined by CD123, TCF4, CD4 and CD56 coexpression rather than by morphology."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

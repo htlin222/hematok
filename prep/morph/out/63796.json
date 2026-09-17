@@ -1,0 +1,21 @@
+{
+  "id": "63796",
+  "recognize_zh": "這是流式細胞儀散佈圖而非形態照片：粉紅色族群為 CD117 強陽性、CD33 陽性、側散射（SSC）偏高的肥大細胞，且同時表現 CD2 與 CD25，這種異常共表現就是系統性肥大細胞增生症（SM）的非典型肥大細胞。",
+  "features": [
+    "Four-panel flow cytometry dot plots gated on mast cells (magenta population)",
+    "CD117 bright / CD33 positive population distinct from CD117-negative myeloid (green) and lymphoid (blue) events",
+    "Mast cells show moderate CD45 with intermediate-high side scatter",
+    "Aberrant co-expression of CD2 and CD25 on the CD117-bright population",
+    "Small event count consistent with a minor population in a post-therapy marrow"
+  ],
+  "describe_en": "Flow cytometric analysis of a post-induction bone marrow aspirate identifies a discrete population of mast cells defined by bright CD117 and CD33 expression, moderate CD45 and relatively high side scatter. This population aberrantly co-expresses CD25 and CD2, a phenotype that fulfils a minor WHO criterion for systemic mastocytosis. No morphology can be assessed from this figure; correlation with the aspirate (spindled atypical mast cell aggregates), tryptase and KIT D816 status is required. In the setting of treated t(8;21) AML with KIT D816H, the findings support systemic mastocytosis with an associated myeloid neoplasm.",
+  "ddx": [
+    {"dx": "Reactive mast cell hyperplasia", "vs": "Reactive mast cells are CD117 bright but lack aberrant CD25 and CD2 expression."},
+    {"dx": "Residual AML blasts", "vs": "Myeloblasts are CD117 dim-moderate with low side scatter and CD34/HLA-DR expression, not CD117 bright with high SSC and CD25."},
+    {"dx": "Basophils", "vs": "Basophils are CD123 bright/HLA-DR negative and CD117 negative, unlike this CD117-bright population."}
+  ],
+  "specimen": "flow",
+  "stain": "N/A",
+  "match": "non-morphologic",
+  "high_yield": false
+}

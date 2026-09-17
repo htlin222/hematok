@@ -1,0 +1,38 @@
+{
+  "id": "121",
+  "recognize_zh": "周邊血抹片可見多個大顆粒淋巴球（LGL：核圓或腎形、染色質成熟、淡藍色豐富細胞質內有細小嗜天青顆粒），流式細胞儀顯示一群 CD3 陰性、CD2+/CD7+、CD5 陰性、CD4/CD8 陰性、CD56 弱陽性且 CD57 強陽性的 NK 細胞約佔淋巴球 40%，支持 NK 細胞慢性淋巴增生性疾患（CLPD-NK）。",
+  "features": [
+    "Large granular lymphocytes: medium-sized cells with round to reniform mature nuclei and abundant pale blue cytoplasm containing fine azurophilic granules",
+    "Low N:C ratio with condensed chromatin and no visible nucleoli (no blastic or atypical features)",
+    "Background red cells include macro-ovalocytes and occasional poikilocytes; one hypersegmented-appearing neutrophil, in keeping with the macrocytic anemia",
+    "Flow: lymphocytes 42.9% of events; CD3+ T cells only 22.6% of living cells, with a large CD3-negative, CD2+, CD7+ population (CD7+CD3- 40.6% of lymphocytes)",
+    "The CD3-negative population is CD5-negative, CD4-negative, CD8 negative to dim, CD56 dim and CD57 bright (CD57+CD56+ 41.2%)",
+    "Residual CD3+ T cells show normal CD5, CD7, CD2 and mixed CD4/CD8 expression, with a CD57+ subset"
+  ],
+  "describe_en": "Peripheral blood smear shows a relative lymphocytosis composed predominantly of large granular lymphocytes with round to indented mature nuclei and abundant pale cytoplasm containing fine azurophilic granules; blasts and atypical large lymphoid cells are not seen. Red cells show macro-ovalocytes with mild poikilocytosis, and a hypersegmented-appearing neutrophil is present. Flow cytometry identifies an expanded population (~40% of lymphocytes) of surface CD3-negative lymphocytes that express CD2, CD7, dim CD56 and bright CD57 and lack CD5 and CD4, with CD8 negative to dim; the residual T cells have a normal immunophenotype. Findings are consistent with a chronic lymphoproliferative disorder of NK cells in the appropriate clinical setting of persistent NK lymphocytosis; evidence of clonality or restriction (e.g., KIR/CD158 isoform restriction, CD94/NKG2A, STAT3 mutation) and exclusion of reactive causes are recommended.",
+  "ddx": [
+    {"dx": "T-cell large granular lymphocytic leukemia", "vs": "T-LGL cells are morphologically identical but are surface CD3+ (usually CD8+, CD57+) with clonal TCR rearrangement, whereas the LGLs here are surface CD3-negative NK cells."},
+    {"dx": "Aggressive NK-cell leukemia", "vs": "Aggressive NK-cell leukemia shows atypical, often larger cells with nucleoli, is EBV-positive, typically CD56 bright and CD57 negative, and presents with fulminant systemic illness, unlike this indolent CD57-bright population in an elderly patient."},
+    {"dx": "Reactive NK-cell lymphocytosis", "vs": "Reactive expansions (viral infection, post-splenectomy, autoimmune disease) are transient and show polyclonal KIR expression, so persistence >6 months and KIR restriction or STAT3 mutation are needed to separate it from CLPD-NK."},
+    {"dx": "Hairy cell leukemia", "vs": "Hairy cells have circumferential hair-like projections without azurophilic granules and are CD19/CD20+, CD11c+, CD25+, CD103+ B cells, whereas these granular cells are CD2+/CD7+ NK cells lacking B-cell markers."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa; flow cytometry",
+  "match": "consistent",
+  "high_yield": true,
+  "captions": [
+    "PB smear: large granular lymphocyte with reniform nucleus and azurophilic granules; macro-ovalocytes in background",
+    "PB smear: hypersegmented-appearing neutrophil among macro-ovalocytes",
+    "PB smear: two large granular lymphocytes with abundant pale cytoplasm and fine azurophilic granules",
+    "Flow, CD45 vs SSC: lymphocyte gate 42.88%, monocytes 1.00%, blasts 0.13%",
+    "Flow, CD3 vs SSC: CD3+ T cells only 22.63% of living cells, with a large CD3-negative lymphoid population",
+    "Flow, CD3 vs CD5: CD3-negative population (green) lacks CD5; T cells (blue) CD3+CD5+",
+    "Flow, CD3 vs CD7: CD7+CD3- lymphocytes 40.63%",
+    "Flow, CD7 vs CD2: NK population (green) co-expresses CD2 and CD7; B cells (magenta) negative",
+    "Flow, CD5 vs CD7: NK cells CD7+ CD5-negative; T cells CD5+",
+    "Flow, CD3 vs CD2: CD2+ CD3-negative NK population",
+    "Flow, CD8 vs CD4: NK population negative for CD4 and CD8 (at most dim CD8); T cells show CD4 and CD8 subsets",
+    "Flow, CD56 vs CD57: CD57+CD56+ population 41.22% with dim CD56",
+    "Flow, CD3 vs CD57: bright CD57 on CD3-negative NK cells, plus a CD57+ T-cell subset"
+  ]
+}

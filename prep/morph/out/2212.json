@@ -1,0 +1,22 @@
+{
+  "id": "2212",
+  "recognize_zh": "大型芽細胞染色質細緻、核仁可見，細胞質藍色並含多少不等的嗜天青顆粒，部分有核旁淡染區（hof）與較多粗顆粒，顯示芽細胞帶有向早幼粒分化的成熟跡象，符合 AML with maturation。",
+  "features": [
+    "Large myeloblasts with fine chromatin and visible nucleoli",
+    "Moderate basophilic cytoplasm with variable fine azurophilic granules",
+    "Some cells with more abundant coarse granules and paranuclear hof (promyelocyte-like maturation)",
+    "Round to oval nuclei, some slightly indented",
+    "Auer rods not clearly identified in this field"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows a predominance of large blasts with round to oval nuclei, finely dispersed chromatin, visible nucleoli and moderate amounts of basophilic cytoplasm. Many blasts contain fine azurophilic granules, and several cells show more abundant granulation with a paranuclear clearing, indicating maturation toward the promyelocyte stage. Auer rods are not definitively seen in this field. Findings are consistent with acute myeloid leukemia with maturation, provided blasts are ≥20% with ≥10% maturing granulocytic cells; cytogenetic evaluation for RUNX1::RUNX1T1 is recommended.",
+  "ddx": [
+    {"dx": "Acute promyelocytic leukemia", "vs": "APL cells have bilobed or reniform nuclei with heavy granulation or bundles of Auer rods (faggot cells) and PML::RARA."},
+    {"dx": "AML without maturation", "vs": "AML without maturation has <10% maturing granulocytic cells, whereas granulated promyelocyte-like maturation is evident here."},
+    {"dx": "AML with t(8;21) RUNX1::RUNX1T1", "vs": "Often morphologically similar with salmon-colored hofs, long slender Auer rods and pseudo-Chédiak-Higashi granules; defined by cytogenetics."},
+    {"dx": "Reactive promyelocyte-rich marrow (G-CSF recovery)", "vs": "Recovering marrow shows orderly maturation with promyelocytes lacking a blast excess and resolves over time."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

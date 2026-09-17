@@ -1,0 +1,22 @@
+{
+  "id": "61344",
+  "recognize_zh": "箭頭指向兩顆中型母細胞，核質比高、染色質細緻均勻、細胞質少且無顆粒，符合淋巴母細胞；周圍卻有大量帶橘紅色與深色顆粒的嗜酸性球及其前驅細胞，母細胞少而嗜酸性球多，要想到 t(5;14) IL3-IGH 的 B-ALL。",
+  "features": [
+    "Blasts (arrows) of intermediate size with high N:C ratio and scant agranular basophilic cytoplasm",
+    "Round to oval nuclei with finely dispersed chromatin and inconspicuous nucleoli",
+    "Numerous eosinophils and eosinophilic precursors with orange-red granules, some admixed with immature dark basophilic-staining granules",
+    "Mature segmented neutrophil and other myeloid precursors in the background",
+    "Blasts are relatively few compared with the prominent eosinophilic component"
+  ],
+  "describe_en": "Bone marrow aspirate smear shows scattered intermediate-sized blasts with a high nuclear-to-cytoplasmic ratio, finely dispersed chromatin, inconspicuous nucleoli and scant agranular cytoplasm (arrows). These are admixed with numerous eosinophils and eosinophilic myelocytes, some containing immature dark-staining granules, along with a segmented neutrophil and other maturing myeloid cells. The eosinophils show no overt dysplasia in this field. The blasts are morphologically consistent with lymphoblasts; in the setting of marked eosinophilia, the findings are suggestive of B-lymphoblastic leukemia with t(5;14)(q31.1;q32.1); IGH::IL3, which requires flow cytometry and cytogenetic or FISH confirmation because the blast count may be low.",
+  "ddx": [
+    {"dx": "Myeloid/lymphoid neoplasm with eosinophilia and PDGFRA, PDGFRB, FGFR1 or JAK2 rearrangement", "vs": "The eosinophils are clonal with the tyrosine kinase fusion, whereas in t(5;14) B-ALL the eosinophilia is reactive and non-clonal driven by IL-3 from the lymphoblasts."},
+    {"dx": "AML with inv(16)/CBFB::MYH11", "vs": "Blasts are myeloid/monocytic with MPO positivity and the abnormal eosinophils contain large purple-violet granules, rather than CD19+/TdT+ lymphoblasts."},
+    {"dx": "Reactive eosinophilia (parasitic, drug, allergic)", "vs": "Lacks a TdT-positive B-lymphoblast population on flow cytometry."},
+    {"dx": "Hematogones", "vs": "Show a maturing spectrum of B-cell precursors with normal antigen expression patterns rather than a phenotypically aberrant blast population."}
+  ],
+  "specimen": "BM aspirate",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": false
+}

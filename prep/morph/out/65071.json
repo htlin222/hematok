@@ -1,0 +1,21 @@
+{
+  "id": "65071",
+  "recognize_zh": "周邊血液抹片中出現許多循環中的漿細胞樣細胞：細胞核偏心、細胞質嗜鹼性並有核旁淡染區，部分體積較大、染色質較開放並可見核仁，或有細胞質突起，屬漿母細胞／不成熟漿細胞，另見破碎的塗抹細胞。",
+  "features": [
+    "Circulating plasmacytoid cells in peripheral blood, singly and in small clusters",
+    "Eccentric round nuclei with clock-face to more open chromatin; some with visible nucleoli (plasmablastic)",
+    "Moderate basophilic cytoplasm with perinuclear hof and occasional cytoplasmic blebs or tails",
+    "Variation in cell size, with larger immature forms alongside more mature plasma cells",
+    "Smudged, disrupted cells in the upper left panel; red cells without obvious rouleaux in these fields"
+  ],
+  "describe_en": "Peripheral blood smear (composite of several fields) shows numerous circulating plasma cells, singly and in small clusters. The cells have eccentric round nuclei, moderate basophilic cytoplasm with perinuclear hofs and occasional cytoplasmic blebs; many are enlarged with more open chromatin and discernible nucleoli, consistent with plasmablasts or immature plasma cells. Smudged, disrupted cells are also present. Findings indicate circulating neoplastic plasma cells in a plasma cell dyscrasia; if circulating plasma cells are 5% or more of leukocytes, the criteria for plasma cell leukemia are met, and flow cytometry (CD38/CD138 positive, CD19/CD45 negative or dim, cytoplasmic light chain restriction) should confirm clonality.",
+  "ddx": [
+    {"dx": "Reactive plasmacytosis in blood (e.g., viral infection, sepsis)", "vs": "Reactive circulating plasma cells are few, small and mature, accompanied by reactive lymphocytes, and are polytypic for kappa and lambda."},
+    {"dx": "Lymphoplasmacytic lymphoma / Waldenstrom macroglobulinemia in leukemic phase", "vs": "LPL shows a spectrum of small lymphocytes and plasmacytoid lymphocytes with CD19/CD20-positive B cells and MYD88 L265P, rather than predominantly immature plasma cells."},
+    {"dx": "Plasmablastic lymphoma with leukemic spread", "vs": "Plasmablastic lymphoma cells are larger immunoblasts with prominent central nucleoli, commonly EBV positive and MYC rearranged, usually arising at extranodal sites in immunocompromised patients."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "consistent",
+  "high_yield": true
+}

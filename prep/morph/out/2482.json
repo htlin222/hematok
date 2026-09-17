@@ -1,0 +1,21 @@
+{
+  "id": "2482",
+  "recognize_zh": "這張周邊血液抹片只有紅血球，可見明顯大小不一與異形紅血球：卵圓形、淚滴形、紅血球碎片與棘狀細胞，看不到白血球與血小板；此紅血球變化不具 JMML 專一性，只能作為輔助線索。",
+  "features": [
+    "Marked anisopoikilocytosis",
+    "Ovalocytes/elliptocytes and occasional teardrop cells",
+    "Scattered red cell fragments (schistocyte-like forms) and an echinocyte",
+    "Variable central pallor, some hypochromic cells",
+    "No leukocytes or platelets present in the field"
+  ],
+  "describe_en": "Peripheral blood smear shows marked anisopoikilocytosis with ovalocytes, occasional teardrop cells, small fragmented forms and an echinocyte, with variable central pallor. No leukocytes or platelets are included in this field, so the white cell and platelet findings that define juvenile myelomonocytic leukemia cannot be assessed. The red cell changes are nonspecific; they may be seen in JMML, but the diagnosis requires monocytosis, circulating immature myeloid and nucleated red cells, and supporting laboratory and genetic findings.",
+  "ddx": [
+    {"dx": "Iron deficiency anemia", "vs": "Iron deficiency shows uniformly hypochromic microcytes and pencil cells without circulating immature myeloid cells or monocytosis."},
+    {"dx": "Thalassemia trait", "vs": "Thalassemia shows microcytosis with target cells and basophilic stippling and a normal white cell differential."},
+    {"dx": "Microangiopathic hemolytic anemia", "vs": "MAHA shows numerous schistocytes with thrombocytopenia and hemolysis markers rather than scattered poikilocytes."}
+  ],
+  "specimen": "PB",
+  "stain": "Wright-Giemsa",
+  "match": "partial",
+  "high_yield": false
+}

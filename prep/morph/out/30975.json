@@ -1,0 +1,22 @@
+{
+  "id": "30975",
+  "recognize_zh": "四格圖：組織中一片卵圓或腎形核、染色質細緻的中型單核細胞（A），周邊血可見具淡藍細胞質、核不規則的單核球樣異常細胞（B），骨髓切片高度細胞化（C），免疫染色見局部陽性細胞群（D）；標題（ad 1）無法指出確切診斷。",
+  "features": [
+    "Panel A: sheets of intermediate-sized mononuclear cells with oval to indented nuclei, fine chromatin, and moderate pale eosinophilic cytoplasm",
+    "Panel B: peripheral blood with three atypical mononuclear cells with irregular/folded nuclei and grey-blue cytoplasm; red cells with rouleaux-free normal distribution and scattered platelets",
+    "Panel C: hypercellular bone marrow biopsy with a diffuse population of mononuclear cells and reduced fat",
+    "Panel D: immunohistochemistry highlighting a focal cluster of positive cells in a marrow section, most cells negative",
+    "Specific antigen in panel D is not labeled in the image"
+  ],
+  "describe_en": "Composite figure. Tissue section (A) shows sheets of intermediate-sized mononuclear cells with oval to indented nuclei, fine chromatin and moderate pale cytoplasm. The peripheral blood smear (B) contains atypical mononuclear cells with irregular nuclei and grey-blue cytoplasm, and the bone marrow biopsy (C) is hypercellular with a diffuse mononuclear infiltrate; immunohistochemistry (D) highlights a focal cluster of positive cells, but the antigen is not identified. The title and category (acquired neutropenia) do not specify the diagnosis; the morphology is suggestive of a monocytic/histiocytoid neoplastic infiltrate involving tissue, blood and marrow, and definitive classification requires the immunophenotype.",
+  "ddx": [
+    {"dx": "Acute myeloid leukemia with monocytic differentiation / myeloid sarcoma", "vs": "Blasts and promonocytes express CD33, CD64, CD14/CD68 and lysozyme and are nonspecific esterase positive."},
+    {"dx": "Large granular lymphocytic leukemia", "vs": "T-LGL cells are small lymphocytes with round nuclei and azurophilic granules and express CD3, CD8, CD57, which classically cause neutropenia."},
+    {"dx": "Hepatosplenic or other peripheral T-cell lymphoma", "vs": "Tumor cells express T-cell markers (CD3, TCR) and show intrasinusoidal marrow infiltration rather than monocytic markers."},
+    {"dx": "Langerhans cell histiocytosis", "vs": "Cells have grooved, coffee-bean nuclei with eosinophils in the background and express CD1a, langerin and S100."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E, Wright-Giemsa, IHC (unspecified)",
+  "match": "partial",
+  "high_yield": false
+}

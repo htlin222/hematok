@@ -1,0 +1,22 @@
+{
+  "id": "63403",
+  "recognize_zh": "肝臟 H&E 切片中，擴張的肝竇內充滿成群的小圓形、深染核的細胞（紅血球系前驅細胞），夾雜紅血球，另見一顆大型多分葉核的巨核細胞位於肝細胞板間，這些造血細胞出現在肝臟即為髓外造血。",
+  "features": [
+    "Hepatocyte plates with dilated sinusoids",
+    "Clusters of small round cells with dense, dark round nuclei (erythroid precursors) within sinusoids",
+    "Large megakaryocyte with multilobated hyperchromatic nucleus in the sinusoid (center-left)",
+    "Admixed mature red cells and scattered granulocytic cells",
+    "Hepatocytes show preserved architecture without mass lesion"
+  ],
+  "describe_en": "Liver biopsy shows preserved hepatocyte plates with dilated sinusoids containing numerous clusters of hematopoietic cells, predominantly erythroid precursors with round, dense nuclei, admixed with red cells. A large megakaryocyte with a multilobated hyperchromatic nucleus is also present within the sinusoids. No mass-forming infiltrate or atypical blast population is seen. Findings are consistent with hepatic extramedullary hematopoiesis, as seen in the setting of post-polycythemic myelofibrosis.",
+  "ddx": [
+    {"dx": "Lymphoma or leukemia with sinusoidal infiltration", "vs": "Neoplastic infiltrates are monotonous and lack the trilineage mix of erythroid clusters and megakaryocytes."},
+    {"dx": "Portal/lobular inflammation (hepatitis)", "vs": "Inflammatory infiltrates consist of lymphocytes and plasma cells with hepatocyte injury, not erythroid islands and megakaryocytes."},
+    {"dx": "Metastatic small cell carcinoma", "vs": "Carcinoma shows cohesive nests with nuclear molding and keratin/neuroendocrine positivity rather than sinusoidal erythroid clusters."},
+    {"dx": "Hemophagocytic lymphohistiocytosis in liver", "vs": "Shows sinusoidal histiocytes with phagocytosed cells, which are CD68/CD163 positive, rather than CD71-positive erythroid islands."}
+  ],
+  "specimen": "tissue",
+  "stain": "H&E",
+  "match": "consistent",
+  "high_yield": true
+}
