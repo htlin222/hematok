@@ -27,6 +27,15 @@ export interface MorphNote {
   stain: string;
   match: "consistent" | "partial" | "discordant" | "non-morphologic";
   captions?: string[]; // one per image, multi-image records only
+  exam?: ExamPearls; // high-yield records only
+}
+
+// Slide-exam study card (prep/exam_queue.py).
+export interface ExamPearls {
+  answer_en: string; // one-line slide-exam answer
+  pearls_zh: string[];
+  pitfall_zh: string;
+  quiz: { q: string; a: string };
 }
 
 export const MORPH_SHARDS = 64; // keep in sync with SHARDS in prep/apply_morph.py
