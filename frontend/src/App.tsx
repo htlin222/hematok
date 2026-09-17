@@ -22,6 +22,11 @@ function App() {
   const [detailsItem, setDetailsItem] = useState<FeedItem | null>(null);
   const itemsRef = useRef<FeedItem[]>(items);
   itemsRef.current = items;
+  // lg and up: details open as a non-modal left drawer beside the feed.
+  const isWide = useMediaQuery("(min-width: 1024px)");
+  const drawerOpen = isWide && detailsItem !== null;
+  // Read by the in-view observer: the open drawer follows the card in view.
+  const drawerRef = useRef({ open: false, id: null as string | null, testMode: false });
 
   const handleObserver = useCallback(
     (entries: IntersectionObserverEntry[]) => {
@@ -79,6 +84,9 @@ function App() {
           if (item) {
             currentIdRef.current = item.id;
             markReadRef.current(item);
+            const d = drawerRef.current;
+            // Test mode hides the answer on the card, so never auto-reveal the next one.
+            if (d.open && d.id !== item.id) setDetailsItem(d.testMode ? null : item);
           }
         }
       },
@@ -100,6 +108,11 @@ function App() {
       // "i" opens the details/info sheet for the card currently centered in view.
       if (e.key === "i" || e.key === "I") {
         if (document.querySelector("[data-modal]")) return; // already open
+        if (drawerRef.current.open) {
+          e.preventDefault();
+          setDetailsItem(null); // "i" toggles the drawer
+          return;
+        }
         const card = document
           .elementFromPoint(window.innerWidth / 2, window.innerHeight / 2)
           ?.closest("[data-feed-id]");
@@ -158,13 +171,16 @@ function App() {
 
 
   const [testMode, setTestMode] = useState(false);
+  drawerRef.current = { open: drawerOpen, id: detailsItem?.id ?? null, testMode };
 
   return (
-    <div ref={scrollerRef} className="h-screen w-full bg-black text-white overflow-y-scroll snap-y snap-mandatory hide-scroll">
+    // With the drawer open the feed is inset by the drawer width (cards stay
+    // h-screen, so the scroll position doesn't jump) — keep in sync with DRAWER_WIDTH.
+    <div ref={scrollerRef} className={`h-screen w-full bg-black text-white overflow-y-scroll snap-y snap-mandatory hide-scroll ${drawerOpen ? "pl-[440px] xl:pl-[500px]" : ""}`}>
       {/* Single header row: brand on the left, nav on the right. The bar and
           its gradient are decorative (pointer-events-none) so taps still reach
           the feed; only the buttons capture clicks. */}
-      <header className="fixed inset-x-0 top-0 z-50 pt-[env(safe-area-inset-top)] bg-gradient-to-b from-black/70 via-black/25 to-transparent pointer-events-none">
+      <header className={`fixed right-0 top-0 z-50 ${drawerOpen ? "left-[440px] xl:left-[500px]" : "left-0"} pt-[env(safe-area-inset-top)] bg-gradient-to-b from-black/70 via-black/25 to-transparent pointer-events-none`}>
         <div className="flex items-center justify-between px-4 py-3">
           <button
             onClick={() => window.location.reload()}
@@ -336,11 +352,24 @@ function App() {
       )}
 
       {detailsItem && (
-        <DetailsSheet item={detailsItem} onClose={() => setDetailsItem(null)} />
+        // key: a drawer that follows the scroll remounts per item, resetting Explain AI state
+        <DetailsSheet key={detailsItem.id} item={detailsItem} drawer={isWide} onClose={() => setDetailsItem(null)} />
       )}
       <Analytics />
     </div>
   );
+}
+
+function useMediaQuery(query: string): boolean {
+  const [matches, setMatches] = useState(() => window.matchMedia(query).matches);
+  useEffect(() => {
+    const mql = window.matchMedia(query);
+    const onChange = () => setMatches(mql.matches);
+    onChange();
+    mql.addEventListener("change", onChange);
+    return () => mql.removeEventListener("change", onChange);
+  }, [query]);
+  return matches;
 }
 
 export default App;
