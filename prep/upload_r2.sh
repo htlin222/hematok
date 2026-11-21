@@ -20,8 +20,10 @@ set -euo pipefail
 
 # --- Load .env from the repo root (one dir up from prep/) ---------------------
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-if [[ -f "$ROOT/.env" ]]; then
-  set -a; . "$ROOT/.env"; set +a
+# .env holds 1Password references (op://...): re-exec once under `op run`, which
+# injects every .env line (resolved) into the environment.
+if [[ -f "$ROOT/.env" && -z "${HEMATOK_OP_RUN:-}" ]]; then
+  HEMATOK_OP_RUN=1 exec op run --env-file="$ROOT/.env" -- bash "${BASH_SOURCE[0]}" "$@"
 fi
 
 DATA_DIR="${DATA_DIR:-$HOME/ash-image-bank/data}"

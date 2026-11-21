@@ -35,6 +35,8 @@ def load_dotenv() -> None:
         if not line or line.startswith("#") or "=" not in line:
             continue
         k, v = line.split("=", 1)
+        if v.strip().startswith("op://"):
+            continue  # 1Password ref: resolved only via `op run --env-file=.env -- ...`
         os.environ.setdefault(k.strip(), v.strip())
 
 
